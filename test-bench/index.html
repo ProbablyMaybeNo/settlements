@@ -107,6 +107,21 @@
   table.mini td.hi{color:var(--amber);font-weight:700}
   .foot{margin-top:34px;border-top:1px solid var(--line);padding-top:16px;font-size:12px;color:var(--dim);font-family:var(--mono);line-height:1.9}
   .foot b{color:var(--text)}
+  .twostep{display:flex;align-items:center;gap:16px}
+  .big2{font-family:var(--mono);font-size:30px;font-weight:700;line-height:1;letter-spacing:-1px}
+  .arrow{color:var(--dim);font-size:22px;padding-top:16px}
+  .hist{display:flex;align-items:flex-end;gap:6px;height:130px;margin:14px 0 6px}
+  .hist .col{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;height:100%;justify-content:flex-end}
+  .hist .col > i{width:100%;background:var(--cyan);border-radius:3px 3px 0 0;min-height:2px}
+  .hist .col .f{font-family:var(--mono);font-size:12px;color:var(--dim)}
+  .hist .col .c{font-family:var(--mono);font-size:10.5px;color:var(--dim)}
+  .dbtable{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:12.5px;margin-top:8px}
+  .dbtable th,.dbtable td{border:1px solid var(--line);padding:6px 9px;text-align:center;font-variant-numeric:tabular-nums}
+  .dbtable th{color:var(--dim);text-transform:uppercase;font-size:10.5px;letter-spacing:.5px}
+  .dbtable td.step{text-align:left;color:var(--text)}
+  .dbtable td.obs{font-weight:700;color:var(--amber)}
+  .delta-ok{color:var(--green)} .delta-off{color:var(--dim)}
+  .empty{color:var(--dim);font-family:var(--mono);font-size:13px;padding:22px 0;text-align:center}
 </style>
 </head>
 <body>
@@ -121,6 +136,7 @@
     <button data-t="h2h">Head-to-Head</button>
     <button data-t="check">Stat Check</button>
     <button data-t="duel">Duel Sim</button>
+    <button data-t="data">Records</button>
   </nav>
 </header>
 
@@ -197,7 +213,12 @@
       <div class="rolllog" id="sh_log"></div>
     </div>
     <div class="card">
-      <div class="biglabel">Chance to Down per shot</div>
+      <div class="twostep">
+        <div><div class="biglabel">① To-Hit</div><div class="big2" id="sh_hit">—</div></div>
+        <div class="arrow">→</div>
+        <div><div class="biglabel">② To-Injure</div><div class="big2" id="sh_inj">—</div></div>
+      </div>
+      <div class="biglabel" style="margin-top:16px">Down per shot</div>
       <div class="big" id="sh_pct">—</div>
       <div class="bar"><i id="sh_bar" style="width:0"></i></div>
       <div class="stack" id="sh_stack"></div>
@@ -383,6 +404,24 @@
   </div>
 </section>
 
+<!-- ============ RECORDS ============ -->
+<section class="panel" data-p="data">
+  <div class="card full">
+    <h2>Roll Records</h2>
+    <p class="sub">Every hands-on roll you make is captured here and kept in this browser (localStorage) across sessions. The Duel sim runs separately and isn't logged.</p>
+    <div class="btnrow" style="margin-top:0">
+      <button class="btn" onclick="exportCSV()">Export CSV</button>
+      <button class="btn" onclick="clearDB()">Clear all data</button>
+    </div>
+    <div id="db_summary" style="margin-top:18px"></div>
+    <div class="biglabel" style="margin-top:24px">Per-step results — what you rolled, how often, observed vs exact %</div>
+    <div id="db_table"></div>
+    <div class="biglabel" style="margin-top:24px">d10 fairness — every raw die rolled, by face</div>
+    <div class="hist" id="db_hist"></div>
+    <div class="note" id="db_histnote"></div>
+  </div>
+</section>
+
 <div class="foot">
   <b>ENGINE</b> — core 1d10+Stat≥7 (nat1 fail / nat10 pass) · ranged = DEX vs cover, injury = Weapon−Armor≥7 · melee = opposed STR, ties→defender · pass injury = −1 WND (Down at 0), fail = Pinned +1 Stress<br>
   <b>DIALS</b> — weapon dmg +0/+1/+2/+3 · armor 0/−1/−2 (injury only) · cover 0/−1/−2/−3 · stat cap +6 · paths unlock at +2/+4/+6<br>
@@ -435,6 +474,59 @@ function log(id,msg){const el=document.getElementById(id);el.textContent=msg+'\n
 function clearLog(id){document.getElementById(id).textContent='';}
 function stackRow(k,p,fill){return `<div class="row"><div class="k">${k}</div><div class="track"><i class="${fill}" style="width:${(p*100)}%"></i></div><div class="v">${pct(p)}</div></div>`;}
 
+/* ---------- roll records database (localStorage) ---------- */
+const DB_KEY='settlements_bench_db_v1';
+let DB=loadDB();
+function loadDB(){try{const s=localStorage.getItem(DB_KEY);if(s){const o=JSON.parse(s);if(o&&o.faces&&o.groups)return o;}}catch(e){}return {faces:Array(10).fill(0),groups:{},total:0};}
+function saveDB(){try{localStorage.setItem(DB_KEY,JSON.stringify(DB));}catch(e){}}
+// step=label, type='core'|'opposed', mod=net modifier (opposed: attacker advantage Δ), target=to-beat, ok=success, dice=[raw d10s], tieA=ties favour attacker (opposed only)
+function record(step,type,mod,target,ok,dice,tieA){
+  dice.forEach(d=>{if(d>=1&&d<=10)DB.faces[d-1]++;});
+  const key=step+'|'+type+'|'+mod+'|'+target+'|'+(tieA?'A':'');
+  const g=DB.groups[key]||(DB.groups[key]={step,type,mod,target,tieA:!!tieA,n:0,hits:0});
+  g.n++; if(ok)g.hits++; DB.total++;
+  saveDB(); renderDB();
+}
+function clearDB(){if(!confirm('Clear all captured roll data? This cannot be undone.'))return;DB={faces:Array(10).fill(0),groups:{},total:0};saveDB();renderDB();}
+const fmtMod=m=>(m>=0?'+':'')+m;
+function exactOf(g){return g.type==='opposed'?opposedProb(g.mod,0,g.tieA):coreProb(g.mod,g.target);}
+function renderDB(){
+  const totalDice=DB.faces.reduce((a,b)=>a+b,0);
+  document.getElementById('db_summary').innerHTML=
+    `<span class="big" style="font-size:32px">${DB.total.toLocaleString()}</span> <span style="color:var(--dim)">events logged &nbsp;·&nbsp; ${totalDice.toLocaleString()} dice rolled</span>`;
+  const rows=Object.values(DB.groups).sort((a,b)=>b.n-a.n);
+  if(!rows.length){document.getElementById('db_table').innerHTML='<div class="empty">No rolls yet — hit “Roll / Fire / Clash / Contest / Attempt” on the other tabs and they land here.</div>';}
+  else{
+    let h='<table class="dbtable"><tr><th>Step</th><th>Net mod</th><th>Target</th><th>Rolls</th><th>Success</th><th>Observed</th><th>Exact</th><th>Δ&nbsp;pts</th></tr>';
+    rows.forEach(g=>{
+      const obs=g.hits/g.n, exact=exactOf(g), d=obs-exact;
+      const cls=(g.n>=20&&Math.abs(d)<=0.05)?'delta-ok':'delta-off';
+      h+=`<tr><td class="step">${g.step}</td>`+
+         `<td>${g.type==='opposed'?'Δ '+fmtMod(g.mod):fmtMod(g.mod)}</td>`+
+         `<td>${g.type==='opposed'?(g.tieA?'ties→A':'ties→def'):g.target+'+'}</td>`+
+         `<td>${g.n}</td><td>${g.hits}</td><td class="obs">${pct(obs)}</td>`+
+         `<td>${pct(exact)}</td><td class="${cls}">${d>=0?'+':''}${(d*100).toFixed(1)}</td></tr>`;
+    });
+    h+='</table>';
+    document.getElementById('db_table').innerHTML=h;
+  }
+  const maxc=Math.max(1,...DB.faces);let hh='';
+  for(let f=1;f<=10;f++){const c=DB.faces[f-1],pf=totalDice?c/totalDice*100:0;
+    hh+=`<div class="col"><span class="c">${c}</span><i style="height:${c/maxc*100}%" title="${pf.toFixed(1)}%"></i><span class="f">${f}</span></div>`;}
+  document.getElementById('db_hist').innerHTML=hh;
+  document.getElementById('db_histnote').innerHTML=totalDice
+    ? `Each face should trend toward <b>10%</b> (~${Math.round(totalDice/10)} each) with enough rolls — a live fairness check on the RNG.`
+    : 'Roll some dice to populate.';
+}
+function exportCSV(){
+  let csv='step,type,net_mod,target,ties,rolls,successes,observed_pct,exact_pct\n';
+  Object.values(DB.groups).forEach(g=>{const obs=g.hits/g.n,exact=exactOf(g);
+    csv+=`"${g.step}",${g.type},${g.mod},${g.type==='opposed'?'':g.target},${g.type==='opposed'?(g.tieA?'attacker':'defender'):''},${g.n},${g.hits},${(obs*100).toFixed(2)},${(exact*100).toFixed(2)}\n`;});
+  csv+='\nface,count\n';DB.faces.forEach((c,i)=>csv+=`${i+1},${c}\n`);
+  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));
+  a.download='settlements-bench-records.csv';a.click();
+}
+
 /* ---------- CORE ---------- */
 function core(){
   const mod=+v('core_mod'), tgt=+v('core_tgt')||7;
@@ -455,6 +547,7 @@ function rollCore(){
   const vv=document.getElementById('core_verdict');
   vv.className='verdict '+(r.ok?'pass':'fail');
   vv.textContent=r.ok?('SUCCESS'+(r.tag==='nat10'?' · nat 10':'')):('FAIL'+(r.tag==='nat1'?' · nat 1':''));
+  record('Core Test','core',mod,tgt,r.ok,[r.d]);
   log('core_log',`d10=${r.d}  → ${r.total} vs ${tgt}  ${r.ok?'PASS':'fail'}`);
 }
 
@@ -466,6 +559,8 @@ function shoot(){
   const pInj=coreProb(dmg+arm);
   const pWound=pHit*pInj, pPin=pHit*(1-pInj), pMiss=1-pHit;
   setBig('sh_pct','sh_bar',pWound);
+  document.getElementById('sh_hit').textContent=pct(pHit);
+  document.getElementById('sh_inj').textContent=pct(pInj);
   document.getElementById('sh_stack').innerHTML=
     stackRow('Wound',pWound,'fill-green')+
     stackRow('Pin only',pPin,'fill-amber')+
@@ -480,11 +575,13 @@ function shoot(){
 function rollShoot(){
   const dex=+v('sh_dex'), cover=+v('sh_cover'), mod=+v('sh_mod'), dmg=+v('sh_dmg'), arm=+v('sh_arm');
   const h=coreRoll(dex+cover+mod);
+  record('To-Hit (ranged)','core',dex+cover+mod,7,h.ok,[h.d]);
   let html=dieEl(h.d,h.tag)+opEl('hit '+(h.total))+opEl(h.ok?'✓':'✗');
   let verd, cls, line;
   if(!h.ok){verd='MISS';cls='fail';line=`hit d10=${h.d}→${h.total}  MISS`;}
   else{
     const inj=coreRoll(dmg+arm);
+    record('To-Injure','core',dmg+arm,7,inj.ok,[inj.d]);
     html+=opEl('│')+dieEl(inj.d,inj.tag)+opEl('inj '+inj.total)+opEl(inj.ok?'✓':'✗');
     if(inj.ok){verd='WOUND · −1 WND';cls='pass';}
     else{verd='HIT → PINNED (+1 Stress)';cls='neu';}
@@ -518,10 +615,12 @@ function rollMelee(){
   const atk=+v('me_atk')+charge, def=+v('me_def'), adm=+v('me_adm'), darm=+v('me_darm');
   const a=d10(),b=d10(); const ta=a+atk, tb=b+def;
   const atkWins = ta>tb;  // tie to defender
+  record('Melee (opposed)','opposed',atk-def,0,atkWins,[a,b],false);
   let html=dieEl(a)+opEl('+'+atk+'='+ta)+opEl('vs')+dieEl(b)+opEl('+'+def+'='+tb);
   let verd,cls,line;
   if(atkWins){
     const inj=coreRoll(adm+darm);
+    record('To-Injure','core',adm+darm,7,inj.ok,[inj.d]);
     html+=opEl('│')+dieEl(inj.d,inj.tag);
     if(inj.ok){verd='ATTACKER WINS → WOUND';cls='pass';}
     else{verd='ATTACKER WINS → target PINNED';cls='neu';}
@@ -550,6 +649,7 @@ function rollH2H(){
   const an=v('hh_an')||'A', bn=v('hh_bn')||'B';
   const da=d10(),db=d10(); const ta=da+a, tb=db+b;
   const aWins = ta>tb || (ta===tb && tieA);
+  record('Head-to-Head','opposed',a-b,0,aWins,[da,db],tieA);
   document.getElementById('hh_dice').innerHTML=dieEl(da)+opEl('+'+a+'='+ta)+opEl('vs')+dieEl(db)+opEl('+'+b+'='+tb);
   const vv=document.getElementById('hh_verdict');vv.className='verdict '+(aWins?'pass':'fail');
   vv.textContent=(aWins?an:bn).toUpperCase()+' WINS'+(ta===tb?' (tie)':'');
@@ -572,6 +672,7 @@ function rollCheck(){
   if(routine){document.getElementById('ck_dice').innerHTML='';const vv=document.getElementById('ck_verdict');vv.className='verdict pass';vv.textContent='AUTO-PASS (routine)';log('ck_log','routine → auto-pass');return;}
   const stat=+v('ck_stat'), tgt=+v('ck_diff'), mod=+v('ck_mod');
   const r=coreRoll(stat+mod,tgt);
+  record('Check: '+(v('ck_task')||'—'),'core',stat+mod,tgt,r.ok,[r.d]);
   document.getElementById('ck_dice').innerHTML=dieEl(r.d,r.tag)+opEl((stat+mod)>=0?'+'+(stat+mod):''+(stat+mod))+opEl('='+r.total);
   const vv=document.getElementById('ck_verdict');vv.className='verdict '+(r.ok?'pass':'fail');
   vv.textContent=(r.ok?'SUCCESS':'FAIL')+' · '+(v('ck_task')||'task');
@@ -660,7 +761,7 @@ document.querySelectorAll('#nav button').forEach(btn=>{
     document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('on',p.dataset.p===t));
   };
 });
-core();shoot();melee();h2h();check();
+core();shoot();melee();h2h();check();renderDB();
 </script>
 </body>
 </html>
