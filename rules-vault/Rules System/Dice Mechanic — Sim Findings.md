@@ -126,6 +126,23 @@ Fight length and how often a unit *cracks* under Stress:
 > The Stress/Nerve system **almost never triggers** in a 1v1 — even in long WND-3 fights. Two reasons: (1) at WND 1 fights end on the first wound before Stress can build, and (2) the End-Phase Nerve test **sheds NRV-worth of Stress every round**, so it drains faster than a single attacker piles it on. As modelled, morale is inert.
 > *Caveat:* the sim only models Stress from being wounded/pinned — the full [[Morale]] rules add more triggers (targeted by ranged, friendly Down in LOS, losing melee). In a **multi-model** game those stack much faster, so this may self-correct at real crew scale. But it's worth a deliberate test: if we want Stress to matter, we likely need **more/heavier triggers, slower shedding, or a lower crack threshold**.
 
+### The Shook −1 — is it the right penalty? (added 2026-07-09)
+The real question isn't whether Stress *fires* (more triggers are coming) — it's whether **Shook's −1-to-all-rolls** is the right severity. **Shook is the mildest and most common crack** (fail by 1–2), so it's what most morale failures feel like. What −1 actually costs (40k rolls each):
+
+| Situation | Normal | **Shook −1** | −2 (for scale) |
+|---|:---:|:---:|:---:|
+| Shooter wound/shot | 35.7% | 30.0% | 23.8% |
+| Even melee clash — attacker win% | 44.9% | 35.6% | 28.0% |
+| Even duel, **melee**, Shook whole fight | 50% | **33%** | 20% |
+| Even duel, **ranged**, Shook whole fight | 50% | **39.5%** | 28% |
+
+> [!success] Verdict — keep the −1
+> −1 = **exactly one stat-point** (~10%/roll). A Shook brawler drops an even fight to **33%**, a Shook shooter to **~40%** — a real bite, not a death sentence. That's the right weight for the *entry* crack tier: big enough to hurt, mild enough to leave headroom for Bolt/Break/Insanity (which remove the unit). **Raising it to −2 makes the mildest failure hit like a 2-stat gap and compresses the whole ladder.** The lever for "how much morale matters" is **frequency + duration, not the −1 size** — and triggers are already being added.
+
+Two things to decide (they matter more than the −1):
+- **Melee compounds — ranged doesn't.** −1 hits *both* attack and defence in an opposed melee, so Shook punishes brawlers ~1.7× harder (−17 pts vs −10). Thematically fine; if you want parity, apply Shook's −1 only to the unit's *own* actions, not forced defensive rolls.
+- **Death-spiral risk.** Many triggers × a compounding −1 → a pressured unit keeps failing and eating −1s, losing harder the more it loses. Brutal and on-theme, but a deliberate choice — if unwanted, add a valve (an already-Shook unit doesn't re-test, or cap Stress).
+
 ## Design takeaways
 1. ✅ **Engine is locked-in correct** — no maths surprises.
 2. 🗺️ **Terrain/objectives are load-bearing for balance, confirmed** — build the scenario deck to demand INT/AGI, or utility builds are dead weight.
