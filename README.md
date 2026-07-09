@@ -9,7 +9,7 @@ skirmish-scale, irregular crews, contested neighbourhoods, base-building campaig
 
 ## Where the design lives
 
-- **Rules (live):** the **Obsidian vault** at `Documents/Obsidian Vault/Settlements/`, edited in Obsidian (synced via Obsidian Sync). A mirror is committed here under **`rules-vault/`** so this repo is self-contained — refresh it with **`scripts/sync-rules.ps1`** (one-way vault → repo, then commit). **Don't hand-edit `rules-vault/`** — it's overwritten on sync.
+- **Rules (live):** the **Obsidian vault** at `Documents/Obsidian Vault/Settlements/`, edited in Obsidian (synced across devices by Obsidian Sync). A mirror is committed here under **`rules-vault/`** so this repo is self-contained. It's refreshed **automatically every 15 min** by the **“Settlements Rules Sync”** scheduled task (`scripts/sync-and-push.ps1` → mirror + commit + push); `scripts/sync-rules.ps1` does a manual mirror only. **Don't hand-edit `rules-vault/`** — it's overwritten on sync. (An Obsidian git plugin can't do this — it would sync the *whole* vault, so it's intentionally not used here.)
 - **Roadmap & trackers:** **Notion** (Build Roadmap + the project DBs).
 - **Sim & tooling:** this repo — `test-bench/` (browser rules calculator), `scripts/`, `TRACKERS/`.
 
