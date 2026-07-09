@@ -7,11 +7,11 @@ skirmish-scale, irregular crews, contested neighbourhoods, base-building campaig
 
 ---
 
-## ⚠️ Source of truth = Notion (changed 2026-06-10)
+## Where the design lives
 
-The design and rules now live in **Notion**, not in this repo. The old local
-design/rules docs were superseded and removed. This repo keeps only the **sync
-tooling, tracker data, and asset folders**.
+- **Rules (live):** the **Obsidian vault** at `Documents/Obsidian Vault/Settlements/`, edited in Obsidian (synced via Obsidian Sync). A mirror is committed here under **`rules-vault/`** so this repo is self-contained — refresh it with **`scripts/sync-rules.ps1`** (one-way vault → repo, then commit). **Don't hand-edit `rules-vault/`** — it's overwritten on sync.
+- **Roadmap & trackers:** **Notion** (Build Roadmap + the project DBs).
+- **Sim & tooling:** this repo — `test-bench/` (browser rules calculator), `scripts/`, `TRACKERS/`.
 
 **Canonical Notion pages** (under THE HUB → Wargaming → 🏚️ Settlements):
 

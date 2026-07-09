@@ -1,0 +1,66 @@
+---
+type: rule-phase
+phase: "15"
+stage: S2 Core Combat
+status: Drafted
+build_order: 9
+depends_on: ["Shooting", "Melee"]
+feeds_into: ["Conditions", "Morale", "Scenarios"]
+tags: [settlements/phase, settlements/stage/s2]
+---
+# 15 · Damage
+> **S2 Core Combat** · status **Drafted** · build order **9**
+
+**Depends on:** [[Shooting]], [[Melee]]
+**Feeds into:** [[Conditions]], [[Morale]], [[Scenarios]]
+**Raw dependency (from Notion):** Shooting, Melee
+
+## Focus
+The output of every attack — wounds, injury states, and criticals.
+
+The Rules column should nail down:
+- How a hit converts to a wound: armour/save roll, AP/rend modifier, then wounds dealt.
+- The wound model: most units have 1 wound (down on a successful hit); multi-wound leaders/champions.
+- Down/injury states in-battle: knocked down, out of action, bleeding out.
+- Criticals: what triggers one and what it does (extra damage / roll on an injury table).
+- The armour profile and how it modifies the save.
+- The hook into the persistent roster: post-battle survival vs death vs lasting injury (brutal-realism pillar).
+
+## Inherits from the engine
+> [!info] Recall — saves / wound rolls should reuse the [[Rules Engine#Universal Resolution Mechanic|core test]] (armour as a modifier, AP as a negative to it), and criticals hook off the **natural 10** rule. Don't introduce a new dice type here — set the lethality dial by *how a hit converts*, not by changing the roll.
+
+## Working rules / decisions
+
+### Two-roll combat
+After an attack lands ([[Shooting]] / [[Melee]]), the **attacker** makes one **Injury roll**:
+
+`1d10 + Weapon Damage − Armor` vs **7+**
+
+- **Pass →** the target loses **1 WND**. At **0 WND** it goes **Down**.
+- **Fail →** the target is **Pinned** (+1 Stress).
+
+Every hit does *something* — it wounds or it pins. No wasted hits.
+
+### Weapon Damage & Armor
+- **Damage** is a small class, not a bespoke number: **+0** unarmed · **+1** light · **+2** medium · **+3** heavy. See [[Weapons]].
+- **Armor** reduces the Injury roll only, never the hit: **0** none · **−1** light · **−2** heavy. Armor carries drawbacks — see [[Weapons#Armor]].
+- *Example:* pistol (**+2**) into heavy armor (**−2**) = net 0 → `1d10 vs 7+` = 40% to wound.
+
+### Pinned
+- A Pinned unit must spend its **Move** to shake it off before doing anything else.
+- It may still **Shoot** (Action slot) but **cannot Move, Charge or Sprint** that activation.
+- Pinned persists until cleared. Full status entry in [[Conditions]].
+
+### Down & bleeding out
+- A **Down** unit is prone and out of the fight (no normal actions). **Attacking a Down unit auto-hits** (no attack roll) — the attacker still makes the Injury roll, and a **pass finishes it** (removed → Fate); a fail does nothing. This is how you deny a revive.
+- It must be **Stabilized** by the end of its **next** activation or it **bleeds out** and is removed (→ [[Campaign#Post-battle — the Fate table|Fate roll]]).
+- **Stabilize** = 1 Action + an **INT test (7+)**, by the Down unit itself or an adjacent friendly. **−2 without a Med-Kit**; a **Med-Kit** cancels the penalty; a **Medic** ([[Skill Paths]]) auto-stabilizes.
+
+### Wounds
+**Every unit has WND 1** — one injury pass = Down. The *only* way to have more is a specific **skill** that grants +1 WND ([[Skill Paths]]); a multi-wound unit takes each pass as **−1 WND**, going Down at 0.
+
+## Rule ledger
+- [[core-007 Casualties]]
+
+---
+_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
