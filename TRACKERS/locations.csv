@@ -1,0 +1,7 @@
+location_id,name,region_archetype,controller,terrain,tactical_value,status,notes
+,Strip Mall North,sunbelt-sprawl,patriot-front,strip-mall,supply cache,seed,Big-box retail looted; sandbagged
+,Refinery 12,gulf-bayou,fcf,industrial,fuel + chokepoint,seed,Federal-held; symbolic and strategic
+,Old Highway 49,mountain-west,contested,road,sightlines + chokepoint,seed,Convoy route; ambush territory
+,Memorial Hospital,coastal-college,mutual-aid,large-building,medical + non-combatants,seed,Field hospital; protected by convention not force
+,Apartment Block 7,dense-urban-core,urban-crew,high-rise,vertical defence,seed,Crew stronghold; difficult dislodge
+,Mill Town - Cedar,pacific-northwest,separatist,forest-town,isolated + defensible,seed,Separatist enclave; long supply lines

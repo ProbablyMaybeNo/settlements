@@ -1,0 +1,39 @@
+{
+  "name": "Settlements",
+  "type": "wargame",
+  "status": "pre-alpha",
+  "scale": "skirmish",
+  "setting": "modern-day second American civil war",
+  "stack": ["python", "notion", "csv"],
+  "source_of_truth": "notion",
+  "source_of_truth_changed": "2026-06-10",
+  "note": "Design + rules now live in Notion. Local design/rules markdown was superseded and removed; this repo keeps sync tooling, tracker CSVs, and asset folders only.",
+  "notion": {
+    "settlements_hub": "364c57707771816cb3fcf524acc11aa1",
+    "build_roadmap": "d99342c0810e4386916f80af58ee65f7",
+    "design_pillars": "37cc577077718140badde5fe44a2b715",
+    "design_reference": "37cc577077718129b7dbfe4e03c28ce3",
+    "setting_notes": "37cc5770777181d08eabe9bfbd9a724b"
+  },
+  "trackers": [
+    "TRACKERS/factions.csv",
+    "TRACKERS/units.csv",
+    "TRACKERS/weapons.csv",
+    "TRACKERS/equipment.csv",
+    "TRACKERS/scenarios.csv",
+    "TRACKERS/locations.csv",
+    "TRACKERS/characters.csv",
+    "TRACKERS/playtests.csv",
+    "TRACKERS/art-assets.csv",
+    "TRACKERS/3d-models.csv",
+    "TRACKERS/ideas.csv",
+    "TRACKERS/rules.csv"
+  ],
+  "sync": {
+    "tool": "scripts/notion_sync.py",
+    "ids_file": ".notion-ids.json",
+    "state_file": ".notion-sync-state.json"
+  },
+  "phase": "phase-1 foundation",
+  "next_milestone": "lock the core dice mechanic (roadmap phase 03), then draft S2 Core Combat"
+}

@@ -1,0 +1,86 @@
+---
+description: Agent Hub orchestrator — captures notes/bugs/issues and routes them through the multi-agent pipeline. Activates on "note:", "bug:", "issue:", "idea:", "feedback:", "problem:" prefixes.
+alwaysApply: true
+---
+
+# Agent Orchestrator System
+
+An always-on multi-agent system is running on this PC. The Agent Hub service at `http://localhost:8420` manages a task queue, Notion tracker, and worker routing.
+
+## TRIGGER: When the user sends a note
+
+When the user's message starts with **note:**, **bug:**, **issue:**, **idea:**, **feedback:**, or **problem:** — or when they clearly describe something they observed while testing an app — follow this workflow instead of trying to fix the issue directly.
+
+**Do NOT fix the issue yourself. Your job is to capture, enrich, and hand off.**
+
+### Step 1: Check the service is running
+
+```bash
+python -c "import httpx; r=httpx.get('http://localhost:8420/health'); print(r.json())"
+```
+
+If it's not running, tell the user to start it: `cd D:\AI-Workstation\agent-hub && .\start.ps1`
+
+### Step 2: Gather project context
+
+- Read package.json / requirements.txt to identify tech stack
+- Check .env for missing/empty API keys
+- If the note mentions specific UI elements or files, read those files
+- Identify the project name from the workspace folder
+
+### Step 3: Enrich the note
+
+Transform the raw note into structured fields:
+- **enriched_note**: Clear rewrite with full technical context
+- **project**: Current project name
+- **priority**: high (crashes/security), medium (bugs/UX), low (cosmetic/ideas)
+- **feature_function**: Which feature this relates to
+- **related_files**: Absolute paths to relevant files, newline-separated
+- **tools_dependencies**: 3rd party tools/libs involved
+- **api_secret_issues**: Missing/broken API keys or secrets
+- **suggested_fix**: Concrete recommendation referencing specific code
+
+### Step 4: Submit to Agent Hub
+
+Write a Python script and run it via Shell:
+
+```python
+import httpx, json
+payload = {
+    "raw_note": "...",
+    "enriched_note": "...",
+    "project": "...",
+    "priority": "low|medium|high",
+    "feature_function": "...",
+    "related_files": "...",
+    "tools_dependencies": "...",
+    "api_secret_issues": "...",
+    "suggested_fix": "..."
+}
+r = httpx.post("http://localhost:8420/notes", json=payload)
+print(json.dumps(r.json(), indent=2))
+```
+
+### Step 5: Report back
+
+Tell the user the task ID, priority, and that it's queued for processing.
+
+## ALSO: Process pending AI work
+
+After handling any user request, check for tasks the pipeline has parked for you:
+
+```python
+import httpx
+r = httpx.get("http://localhost:8420/ai/pending/count")
+print(r.json())
+```
+
+If there are pending jobs, fetch them with `GET /ai/pending`, process using Task tool subagents, and POST results back to `POST /ai/{task_id}/result` with `{"output": "..."}`.
+
+## Key endpoints
+
+- Health: `GET http://localhost:8420/health`
+- Submit note: `POST http://localhost:8420/notes`
+- Task queue: `GET http://localhost:8420/tasks`
+- Pending AI: `GET http://localhost:8420/ai/pending`
+- AI result: `POST http://localhost:8420/ai/{id}/result`

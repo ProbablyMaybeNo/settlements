@@ -1,0 +1,21 @@
+{
+  "project": "Settlements",
+  "last_updated": "2026-05-18",
+  "last_session": "Initial project scaffold",
+  "status": "Foundation complete — folder structure, templates, CSV schemas, Notion sync script in place. Notion dashboard pending.",
+  "next_actions": [
+    "Create Notion parent page + DBs (see scripts/notion_sync.py and .notion-ids.json)",
+    "Draft DESIGN_PILLARS.md content (currently scaffolded with prompts)",
+    "Flesh out 2-3 factions in TRACKERS/factions.csv + factions/<name>.md",
+    "Draft v0.1 core rules in rules/core/"
+  ],
+  "open_questions": [
+    "Settlement-level economy mechanic — abstract or tracked per game?",
+    "Faction count target — 4 broad blocs or 8+ niche factions?",
+    "Stat scale — single-die opposed (D6/D10/D12) or pool?"
+  ],
+  "do_not_touch": [
+    ".notion-ids.json (managed by notion_sync.py after Notion build)",
+    ".notion-sync-state.json (local cache)"
+  ]
+}

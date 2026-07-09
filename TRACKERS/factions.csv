@@ -1,0 +1,13 @@
+faction_id,name,family,ideology_code,strongest_in,weakness,status,notes
+fcf,Federal Continuity Force,professionals,federal,national,slow to commit; politically constrained,seed,Top-tier kit; doctrine-bound
+state-guard,State Guard,professionals,state,home state,limited air support,seed,Quality varies by state
+pmc,Private Military Contractor,professionals,mercenary,wherever paid,no fixed loyalty,seed,Hired by highest local bidder
+patriot-front,Patriot Front,organised-militia,red,rural/exurban,cells fight in isolation,seed,Veteran-heavy; constitutional-restoration framing
+pdc,People's Defence Council,organised-militia,blue,urban core,light on small arms,seed,Union and student roots; strong logistics
+separatist,Regional Separatists,organised-militia,regional,home region,quality varies wildly,seed,Cascadia / Texas / NE archetypes
+watch,Neighbourhood Watch Coalition,settlement-defenders,red,home neighbourhood,fragile if pushed,seed,Homeowners and small-business owners
+urban-crew,Urban Survival Crew,settlement-defenders,mixed,apartment blocks,small numbers,seed,Gang-pivoted community defence / extortion
+mutual-aid,Mutual Aid Network,settlement-defenders,blue,urban core,non-combatant by default,seed,Medics, comms, kitchens; field-hospital support
+foreign,Foreign Intervention,wildcards,foreign,limited zones,hard ROE,seed,CN / RU / MX presence; observers and advisors
+mercs,Mercenaries,wildcards,mercenary,wherever paid,no objectives beyond pay,seed,Ex-cartel / ex-SOF freelancers
+cult,Cult-of-the-Week,wildcards,cult,close terrain,badly armed,seed,Apocalyptic movement; fanatical; rotates per campaign

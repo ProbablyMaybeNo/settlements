@@ -1,0 +1,8 @@
+scenario_id,name,type,region_archetype,attacker,defender,objectives,victory_conditions,rules_version,status,notes
+,Block Raid,raid,sunbelt-sprawl,,,,,v0.1,draft,Attack on a suspected supply cache
+,Convoy Ambush,raid,mountain-west,,,,,v0.1,draft,Long sightlines — tests vehicles
+,Hospital Holdout,defence,coastal-college,,,,,v0.1,draft,Hold a building with non-combatants
+,Border Crossing,territorial,gulf-bayou,,,,,v0.1,draft,Push and counter-push
+,The Last Drugstore,defence,rust-belt-exurb,,,,,v0.1,draft,Asymmetric — settlement defenders vs pros
+,Bridge Demolition,raid,pacific-northwest,,,,,v0.1,draft,Place charges then exfil
+,Bug-Out,recon,dense-urban-core,,,,,v0.1,draft,Get a VIP out of the city

@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Settlements · Test Bench</title>
+<style>
+  :root{
+    --bg:#0b0f0e; --panel:#131b18; --panel2:#1b2521; --line:#2a3833;
+    --text:#dbe4df; --dim:#8a978f; --amber:#e8a33d; --green:#6fcf6f;
+    --red:#e0533d; --cyan:#57c7d4; --violet:#b18cf0;
+    --mono:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;
+    --sans:"Segoe UI",system-ui,-apple-system,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);
+    font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+  a{color:var(--cyan)}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px 80px}
+
+  header{border-bottom:1px solid var(--line);padding:22px 0 16px;margin-bottom:22px;
+    position:sticky;top:0;background:linear-gradient(180deg,var(--bg) 78%,transparent);z-index:20}
+  h1{font-family:var(--mono);font-size:19px;letter-spacing:2px;margin:0;text-transform:uppercase}
+  h1 .b{color:var(--amber)}
+  .thesis{font-family:var(--mono);font-size:12px;color:var(--dim);margin-top:6px;letter-spacing:.3px}
+  .thesis b{color:var(--text);font-weight:600}
+
+  nav{display:flex;gap:4px;flex-wrap:wrap;margin-top:16px}
+  nav button{font-family:var(--mono);font-size:12.5px;letter-spacing:.5px;text-transform:uppercase;
+    background:transparent;color:var(--dim);border:1px solid transparent;border-radius:7px 7px 0 0;
+    padding:9px 15px;cursor:pointer;transition:.12s}
+  nav button:hover{color:var(--text);background:var(--panel)}
+  nav button.on{color:var(--bg);background:var(--amber);font-weight:700}
+
+  .panel{display:none;animation:fade .18s ease}
+  .panel.on{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  @media(max-width:760px){.grid{grid-template-columns:1fr}}
+
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 18px 16px}
+  .card h2{font-family:var(--mono);font-size:13px;letter-spacing:1px;text-transform:uppercase;
+    margin:0 0 4px;color:var(--amber)}
+  .card .sub{font-size:12.5px;color:var(--dim);margin:0 0 16px}
+
+  .field{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:10px 0}
+  .field label{font-size:13.5px;color:var(--text)}
+  .field label .hint{color:var(--dim);font-size:11.5px;display:block}
+  .field .ctl{display:flex;align-items:center;gap:8px}
+  input[type=number]{width:64px;background:var(--bg);border:1px solid var(--line);color:var(--text);
+    font-family:var(--mono);font-size:14px;padding:6px 8px;border-radius:6px;text-align:center}
+  input[type=number]:focus{outline:none;border-color:var(--amber)}
+  select{background:var(--bg);border:1px solid var(--line);color:var(--text);font-family:var(--mono);
+    font-size:13px;padding:6px 8px;border-radius:6px;min-width:118px}
+  select:focus{outline:none;border-color:var(--amber)}
+  input[type=text]{background:var(--bg);border:1px solid var(--line);color:var(--text);
+    font-size:13.5px;padding:6px 8px;border-radius:6px;width:120px}
+  .chk{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--text);cursor:pointer;user-select:none}
+  input[type=checkbox]{accent-color:var(--amber);width:15px;height:15px}
+
+  .btn{font-family:var(--mono);font-size:12.5px;letter-spacing:.5px;text-transform:uppercase;
+    background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:7px;
+    padding:9px 14px;cursor:pointer;transition:.12s}
+  .btn:hover{border-color:var(--amber);color:var(--amber)}
+  .btn.primary{background:var(--amber);color:var(--bg);border-color:var(--amber);font-weight:700}
+  .btn.primary:hover{filter:brightness(1.08);color:var(--bg)}
+  .btnrow{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+
+  .out{margin-top:16px;padding-top:14px;border-top:1px dashed var(--line)}
+  .big{font-family:var(--mono);font-size:40px;font-weight:700;line-height:1;letter-spacing:-1px}
+  .big small{font-size:16px;color:var(--dim);font-weight:400}
+  .biglabel{font-family:var(--mono);font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--dim);margin-bottom:8px}
+
+  .bar{height:9px;background:var(--bg);border:1px solid var(--line);border-radius:6px;overflow:hidden;margin:12px 0 4px}
+  .bar > i{display:block;height:100%;background:linear-gradient(90deg,var(--amber),#f0c060)}
+
+  .stack{display:flex;flex-direction:column;gap:9px;margin-top:14px}
+  .row{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:13px}
+  .row .k{width:118px;color:var(--dim);text-transform:uppercase;font-size:11px;letter-spacing:.5px}
+  .row .track{flex:1;height:16px;background:var(--bg);border:1px solid var(--line);border-radius:4px;overflow:hidden;position:relative}
+  .row .track > i{display:block;height:100%}
+  .row .v{width:56px;text-align:right;font-variant-numeric:tabular-nums}
+  .fill-green{background:var(--green)} .fill-amber{background:var(--amber)}
+  .fill-red{background:var(--red)} .fill-cyan{background:var(--cyan)} .fill-violet{background:var(--violet)}
+
+  .dice{display:flex;gap:10px;margin:14px 0 6px;flex-wrap:wrap;align-items:center}
+  .die{width:46px;height:46px;border:1px solid var(--line);border-radius:8px;display:flex;
+    align-items:center;justify-content:center;font-family:var(--mono);font-size:22px;font-weight:700;
+    background:var(--panel2)}
+  .die.nat10{border-color:var(--green);color:var(--green);box-shadow:0 0 0 1px var(--green) inset}
+  .die.nat1{border-color:var(--red);color:var(--red);box-shadow:0 0 0 1px var(--red) inset}
+  .die .op{font-size:12px;color:var(--dim)}
+  .verdict{font-family:var(--mono);font-size:15px;font-weight:700;padding:5px 0}
+  .verdict.pass{color:var(--green)} .verdict.fail{color:var(--red)} .verdict.neu{color:var(--amber)}
+  .rolllog{font-family:var(--mono);font-size:12px;color:var(--dim);margin-top:8px;max-height:96px;
+    overflow:auto;white-space:pre-wrap;line-height:1.7}
+
+  .note{font-size:12px;color:var(--dim);margin-top:14px;border-left:2px solid var(--line);padding-left:10px}
+  .kbd{font-family:var(--mono);background:var(--panel2);border:1px solid var(--line);border-radius:4px;
+    padding:1px 6px;font-size:12px;color:var(--amber)}
+  .full{grid-column:1/-1}
+  .vs{font-family:var(--mono);color:var(--amber);text-align:center;font-size:12px;letter-spacing:2px;margin:2px 0}
+  table.mini{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:12.5px;margin-top:12px}
+  table.mini th,table.mini td{border:1px solid var(--line);padding:5px 8px;text-align:center}
+  table.mini th{color:var(--dim);text-transform:uppercase;font-size:10.5px;letter-spacing:.5px;font-weight:600}
+  table.mini td.hi{color:var(--amber);font-weight:700}
+  .foot{margin-top:34px;border-top:1px solid var(--line);padding-top:16px;font-size:12px;color:var(--dim);font-family:var(--mono);line-height:1.9}
+  .foot b{color:var(--text)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>SETTLEMENTS <span class="b">// TEST BENCH</span></h1>
+  <div class="thesis"><b>Stats</b> decide if you land it · <b>Weapons</b> decide how bad · <b>Skills</b> decide what else · core = <b>1d10 + Stat ≥ 7</b></div>
+  <nav id="nav">
+    <button data-t="core" class="on">Core Test</button>
+    <button data-t="shoot">Shooting</button>
+    <button data-t="melee">Melee</button>
+    <button data-t="h2h">Head-to-Head</button>
+    <button data-t="check">Stat Check</button>
+    <button data-t="duel">Duel Sim</button>
+  </nav>
+</header>
+
+<!-- ============ CORE TEST ============ -->
+<section class="panel on" data-p="core">
+  <div class="grid">
+    <div class="card">
+      <h2>Core Test</h2>
+      <p class="sub">The one mechanic everything reuses. Nat&nbsp;1 always fails, nat&nbsp;10 always passes.</p>
+      <div class="field"><label>Stat + modifiers</label><div class="ctl">
+        <button class="btn" onclick="step('core_mod',-1)">−</button>
+        <input type="number" id="core_mod" value="1" oninput="core()">
+        <button class="btn" onclick="step('core_mod',1)">+</button></div></div>
+      <div class="field"><label>Target number <span class="hint">7 standard · raise for harder</span></label>
+        <input type="number" id="core_tgt" value="7" oninput="core()"></div>
+      <div class="btnrow">
+        <button class="btn primary" onclick="rollCore()">Roll once</button>
+        <button class="btn" onclick="clearLog('core_log')">Clear</button>
+      </div>
+      <div class="dice" id="core_dice"></div>
+      <div class="verdict" id="core_verdict"></div>
+      <div class="rolllog" id="core_log"></div>
+    </div>
+    <div class="card">
+      <div class="biglabel">Success chance</div>
+      <div class="big" id="core_pct">—</div>
+      <div class="bar"><i id="core_bar" style="width:0"></i></div>
+      <div class="note" id="core_note"></div>
+      <table class="mini" id="core_table"></table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SHOOTING ============ -->
+<section class="panel" data-p="shoot">
+  <div class="grid">
+    <div class="card">
+      <h2>Shooting</h2>
+      <p class="sub">Two rolls: hit (DEX vs cover) then injury (weapon vs armor).</p>
+      <div class="field"><label>Shooter DEX</label><div class="ctl">
+        <button class="btn" onclick="step('sh_dex',-1)">−</button>
+        <input type="number" id="sh_dex" value="2" oninput="shoot()">
+        <button class="btn" onclick="step('sh_dex',1)">+</button></div></div>
+      <div class="field"><label>Target cover</label>
+        <select id="sh_cover" onchange="shoot()">
+          <option value="0">Open · 0</option>
+          <option value="-1" selected>Light · −1</option>
+          <option value="-2">Heavy · −2</option>
+          <option value="-3">Hidden · −3</option>
+        </select></div>
+      <div class="field"><label>Other to-hit mod <span class="hint">range, skills, etc.</span></label>
+        <input type="number" id="sh_mod" value="0" oninput="shoot()"></div>
+      <div class="field"><label>Weapon damage</label>
+        <select id="sh_dmg" onchange="shoot()">
+          <option value="0">Unarmed · +0</option>
+          <option value="1">Light · +1</option>
+          <option value="2" selected>Medium · +2</option>
+          <option value="3">Heavy · +3</option>
+        </select></div>
+      <div class="field"><label>Target armor</label>
+        <select id="sh_arm" onchange="shoot()">
+          <option value="0" selected>None · 0</option>
+          <option value="-1">Light · −1</option>
+          <option value="-2">Heavy · −2</option>
+        </select></div>
+      <div class="field"><label>Target Wounds</label>
+        <input type="number" id="sh_wnd" value="1" min="1" oninput="shoot()"></div>
+      <div class="btnrow">
+        <button class="btn primary" onclick="rollShoot()">Fire once</button>
+        <button class="btn" onclick="clearLog('sh_log')">Clear</button>
+      </div>
+      <div class="dice" id="sh_dice"></div>
+      <div class="verdict" id="sh_verdict"></div>
+      <div class="rolllog" id="sh_log"></div>
+    </div>
+    <div class="card">
+      <div class="biglabel">Chance to Down per shot</div>
+      <div class="big" id="sh_pct">—</div>
+      <div class="bar"><i id="sh_bar" style="width:0"></i></div>
+      <div class="stack" id="sh_stack"></div>
+      <div class="note" id="sh_note"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MELEE ============ -->
+<section class="panel" data-p="melee">
+  <div class="grid">
+    <div class="card">
+      <h2>Melee — opposed</h2>
+      <p class="sub">Attacker STR vs Defender STR. Highest wins, <b>ties to the defender</b>. Winner lands the injury roll.</p>
+      <div class="field"><label>Attacker STR (or AGI)</label><div class="ctl">
+        <button class="btn" onclick="step('me_atk',-1)">−</button>
+        <input type="number" id="me_atk" value="2" oninput="melee()">
+        <button class="btn" onclick="step('me_atk',1)">+</button></div></div>
+      <div class="field"><label>Defender STR</label><div class="ctl">
+        <button class="btn" onclick="step('me_def',-1)">−</button>
+        <input type="number" id="me_def" value="2" oninput="melee()">
+        <button class="btn" onclick="step('me_def',1)">+</button></div></div>
+      <label class="chk" style="margin:10px 0"><input type="checkbox" id="me_charge" onchange="melee()"> Attacker charged (+1)</label>
+      <div class="field"><label>Attacker weapon dmg</label>
+        <select id="me_adm" onchange="melee()">
+          <option value="0">Unarmed · +0</option><option value="1" selected>Light · +1</option>
+          <option value="2">Medium · +2</option><option value="3">Heavy · +3</option>
+        </select></div>
+      <div class="field"><label>Defender armor</label>
+        <select id="me_darm" onchange="melee()">
+          <option value="0" selected>None · 0</option><option value="-1">Light · −1</option><option value="-2">Heavy · −2</option>
+        </select></div>
+      <div class="btnrow">
+        <button class="btn primary" onclick="rollMelee()">Clash once</button>
+        <button class="btn" onclick="clearLog('me_log')">Clear</button>
+      </div>
+      <div class="dice" id="me_dice"></div>
+      <div class="verdict" id="me_verdict"></div>
+      <div class="rolllog" id="me_log"></div>
+    </div>
+    <div class="card">
+      <div class="biglabel">Attacker wins the clash</div>
+      <div class="big" id="me_pct">—</div>
+      <div class="bar"><i id="me_bar" style="width:0"></i></div>
+      <div class="stack" id="me_stack"></div>
+      <div class="note" id="me_note"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HEAD TO HEAD ============ -->
+<section class="panel" data-p="h2h">
+  <div class="grid">
+    <div class="card">
+      <h2>Head-to-Head</h2>
+      <p class="sub">Any contested opposed test — hacking duels, arm-wrestles, tug of war over a terminal.</p>
+      <div class="field"><label>Side A label</label><input type="text" id="hh_an" value="Hacker" oninput="h2h()"></div>
+      <div class="field"><label>A stat + mods</label><div class="ctl">
+        <button class="btn" onclick="step('hh_a',-1)">−</button>
+        <input type="number" id="hh_a" value="3" oninput="h2h()">
+        <button class="btn" onclick="step('hh_a',1)">+</button></div></div>
+      <div class="field"><label>Side B label</label><input type="text" id="hh_bn" value="ICE" oninput="h2h()"></div>
+      <div class="field"><label>B stat + mods</label><div class="ctl">
+        <button class="btn" onclick="step('hh_b',-1)">−</button>
+        <input type="number" id="hh_b" value="1" oninput="h2h()">
+        <button class="btn" onclick="step('hh_b',1)">+</button></div></div>
+      <div class="field"><label>Ties go to</label>
+        <select id="hh_tie" onchange="h2h()"><option value="b" selected>Side B (defender)</option><option value="a">Side A</option></select></div>
+      <div class="btnrow">
+        <button class="btn primary" onclick="rollH2H()">Contest once</button>
+        <button class="btn" onclick="clearLog('hh_log')">Clear</button>
+      </div>
+      <div class="dice" id="hh_dice"></div>
+      <div class="verdict" id="hh_verdict"></div>
+      <div class="rolllog" id="hh_log"></div>
+    </div>
+    <div class="card">
+      <div class="biglabel" id="hh_biglabel">Side A wins</div>
+      <div class="big" id="hh_pct">—</div>
+      <div class="bar"><i id="hh_bar" style="width:0"></i></div>
+      <div class="stack" id="hh_stack"></div>
+      <div class="note">A tie is broken toward the chosen side — set it to model who has to <i>beat</i> whom.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STAT CHECK ============ -->
+<section class="panel" data-p="check">
+  <div class="grid">
+    <div class="card">
+      <h2>Stat Check</h2>
+      <p class="sub">Fixed-difficulty core test — hacking a passive terminal, lockpicking, forcing a door.</p>
+      <div class="btnrow" style="margin:0 0 8px">
+        <button class="btn" onclick="preset('Hacking','INT')">Hacking</button>
+        <button class="btn" onclick="preset('Lockpick','DEX')">Lockpick</button>
+        <button class="btn" onclick="preset('Breakdown','STR')">Breakdown</button>
+        <button class="btn" onclick="preset('Climb','AGI')">Climb</button>
+      </div>
+      <div class="field"><label>Task</label><input type="text" id="ck_task" value="Hacking" oninput="check()"></div>
+      <div class="field"><label id="ck_statlbl">INT stat</label><div class="ctl">
+        <button class="btn" onclick="step('ck_stat',-1)">−</button>
+        <input type="number" id="ck_stat" value="2" oninput="check()">
+        <button class="btn" onclick="step('ck_stat',1)">+</button></div></div>
+      <div class="field"><label>Difficulty <span class="hint">target number to beat</span></label>
+        <select id="ck_diff" onchange="check()">
+          <option value="7" selected>Standard · 7+</option>
+          <option value="9">Hard · 9+</option>
+          <option value="11">Punishing · 11+</option>
+          <option value="5">Easy · 5+</option>
+        </select></div>
+      <div class="field"><label>Situational mod</label><input type="number" id="ck_mod" value="0" oninput="check()"></div>
+      <label class="chk" style="margin:10px 0"><input type="checkbox" id="ck_routine" onchange="check()"> Routine (auto-pass — only roll under pressure)</label>
+      <div class="btnrow">
+        <button class="btn primary" onclick="rollCheck()">Attempt once</button>
+        <button class="btn" onclick="clearLog('ck_log')">Clear</button>
+      </div>
+      <div class="dice" id="ck_dice"></div>
+      <div class="verdict" id="ck_verdict"></div>
+      <div class="rolllog" id="ck_log"></div>
+    </div>
+    <div class="card">
+      <div class="biglabel">Chance of success</div>
+      <div class="big" id="ck_pct">—</div>
+      <div class="bar"><i id="ck_bar" style="width:0"></i></div>
+      <div class="note" id="ck_note"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DUEL SIM ============ -->
+<section class="panel" data-p="duel">
+  <div class="card full">
+    <h2>Duel Sim — Monte Carlo attrition</h2>
+    <p class="sub">Two fighters trade attacks to the death across thousands of simulated fights. Pure attrition — <b>no terrain or movement</b> (that's the board's job), so this reads raw combat balance.</p>
+    <div class="grid">
+      <div>
+        <div class="vs">◤ FIGHTER A ◥</div>
+        <div class="field"><label>Name</label><input type="text" id="da_n" value="Brawler"></div>
+        <div class="field"><label>Mode</label>
+          <select id="da_mode"><option value="melee">Melee (opposed)</option><option value="ranged">Ranged (7+)</option></select></div>
+        <div class="field"><label>STR</label><input type="number" id="da_str" value="4"></div>
+        <div class="field"><label>DEX</label><input type="number" id="da_dex" value="1"></div>
+        <div class="field"><label>Weapon dmg</label>
+          <select id="da_dmg"><option value="0">+0</option><option value="1">+1</option><option value="2" selected>+2</option><option value="3">+3</option></select></div>
+        <div class="field"><label>Armor</label>
+          <select id="da_arm"><option value="0">0</option><option value="-1" selected>−1</option><option value="-2">−2</option></select></div>
+        <div class="field"><label>Cover (vs ranged)</label>
+          <select id="da_cov"><option value="0" selected>0</option><option value="-1">−1</option><option value="-2">−2</option></select></div>
+        <div class="field"><label>Wounds</label><input type="number" id="da_wnd" value="1" min="1"></div>
+        <div class="field"><label>NRV</label><input type="number" id="da_nrv" value="1"></div>
+      </div>
+      <div>
+        <div class="vs">◤ FIGHTER B ◥</div>
+        <div class="field"><label>Name</label><input type="text" id="db_n" value="Gunner"></div>
+        <div class="field"><label>Mode</label>
+          <select id="db_mode"><option value="melee">Melee (opposed)</option><option value="ranged" selected>Ranged (7+)</option></select></div>
+        <div class="field"><label>STR</label><input type="number" id="db_str" value="1"></div>
+        <div class="field"><label>DEX</label><input type="number" id="db_dex" value="4"></div>
+        <div class="field"><label>Weapon dmg</label>
+          <select id="db_dmg"><option value="0">+0</option><option value="1">+1</option><option value="2">+2</option><option value="3" selected>+3</option></select></div>
+        <div class="field"><label>Armor</label>
+          <select id="db_arm"><option value="0" selected>0</option><option value="-1">−1</option><option value="-2">−2</option></select></div>
+        <div class="field"><label>Cover (vs ranged)</label>
+          <select id="db_cov"><option value="0" selected>0</option><option value="-1">−1</option><option value="-2">−2</option></select></div>
+        <div class="field"><label>Wounds</label><input type="number" id="db_wnd" value="1" min="1"></div>
+        <div class="field"><label>NRV</label><input type="number" id="db_nrv" value="1"></div>
+      </div>
+    </div>
+    <div class="field" style="margin-top:14px"><label>Who strikes first</label>
+      <select id="d_first"><option value="rand" selected>Random each fight (fair)</option><option value="a">Always A</option><option value="b">Always B</option></select></div>
+    <label class="chk" style="margin:6px 0"><input type="checkbox" id="d_stress" checked> Model Stress / Nerve (hits &amp; pins pile stress; a failed Nerve test = lose next attack)</label>
+    <div class="field"><label>Fights to simulate</label>
+      <select id="d_n"><option value="2000">2,000</option><option value="10000" selected>10,000</option><option value="50000">50,000</option></select></div>
+    <div class="btnrow">
+      <button class="btn primary" onclick="runDuel()">▶ Run simulation</button>
+      <button class="btn" onclick="sampleFight()">Watch one fight</button>
+    </div>
+    <div class="out">
+      <div class="stack" id="d_stack"></div>
+      <div class="note" id="d_note" style="margin-top:16px"></div>
+      <div class="rolllog" id="d_log" style="max-height:260px;margin-top:12px"></div>
+    </div>
+  </div>
+</section>
+
+<div class="foot">
+  <b>ENGINE</b> — core 1d10+Stat≥7 (nat1 fail / nat10 pass) · ranged = DEX vs cover, injury = Weapon−Armor≥7 · melee = opposed STR, ties→defender · pass injury = −1 WND (Down at 0), fail = Pinned +1 Stress<br>
+  <b>DIALS</b> — weapon dmg +0/+1/+2/+3 · armor 0/−1/−2 (injury only) · cover 0/−1/−2/−3 · stat cap +6 · paths unlock at +2/+4/+6<br>
+  <b>NOTE</b> — probabilities in tabs 1–5 are <i>exact</i> (full enumeration). The Duel tab is Monte-Carlo. Rules mirror the Obsidian vault; if a number changes there, change it here.
+</div>
+</div>
+
+<script>
+/* ---------- dice + exact probability ---------- */
+const d10 = () => 1 + Math.floor(Math.random()*10);
+const pct = x => (x*100).toFixed(1)+'%';
+const clamp01 = x => Math.max(0,Math.min(1,x));
+
+// exact P(success) of a core test: 1d10+mod >= target, nat1 fail, nat10 pass
+function coreProb(mod,target=7){
+  let w=0;
+  for(let d=1;d<=10;d++){
+    if(d===1) continue;
+    if(d===10){w++;continue;}
+    if(d+mod>=target) w++;
+  }
+  return w/10;
+}
+// live core test
+function coreRoll(mod,target=7){
+  const d=d10();
+  let ok; let tag='';
+  if(d===1){ok=false;tag='nat1';}
+  else if(d===10){ok=true;tag='nat10';}
+  else ok=(d+mod>=target);
+  return {d,total:d+mod,ok,tag};
+}
+// exact P(A beats B) opposed, tie to one side
+function opposedProb(modA,modB,tieToA=false){
+  let w=0;
+  for(let a=1;a<=10;a++)for(let b=1;b<=10;b++){
+    const ta=a+modA, tb=b+modB;
+    if(ta>tb) w++;
+    else if(ta===tb && tieToA) w++;
+  }
+  return w/100;
+}
+
+/* ---------- helpers ---------- */
+function step(id,delta){const el=document.getElementById(id);el.value=(+el.value||0)+delta;el.dispatchEvent(new Event('input'));}
+function setBig(pctId,barId,p){document.getElementById(pctId).innerHTML=(p*100).toFixed(1)+'<small>%</small>';document.getElementById(barId).style.width=(p*100)+'%';}
+function dieEl(d,tag){return `<div class="die ${tag||''}">${d}</div>`;}
+function opEl(t){return `<div class="die op" style="border:none;background:none">${t}</div>`;}
+function log(id,msg){const el=document.getElementById(id);el.textContent=msg+'\n'+el.textContent;}
+function clearLog(id){document.getElementById(id).textContent='';}
+function stackRow(k,p,fill){return `<div class="row"><div class="k">${k}</div><div class="track"><i class="${fill}" style="width:${(p*100)}%"></i></div><div class="v">${pct(p)}</div></div>`;}
+
+/* ---------- CORE ---------- */
+function core(){
+  const mod=+v('core_mod'), tgt=+v('core_tgt')||7;
+  const p=coreProb(mod,tgt);
+  setBig('core_pct','core_bar',p);
+  document.getElementById('core_note').innerHTML=
+    `Need <span class="kbd">${Math.max(1,tgt-mod)}+</span> on the die. Bounded 10–90% by the nat-1 / nat-10 rule.`;
+  // table across mods
+  let t='<tr><th>Mod</th>'; for(let m=-1;m<=6;m++)t+=`<th>${m>=0?'+':''}${m}</th>`; t+='</tr><tr><td class="k" style="color:var(--dim)">P</td>';
+  for(let m=-1;m<=6;m++){const pp=coreProb(m,tgt);t+=`<td class="${m===mod?'hi':''}">${(pp*100).toFixed(0)}%</td>`;}
+  t+='</tr>';
+  document.getElementById('core_table').innerHTML=t;
+}
+function rollCore(){
+  const mod=+v('core_mod'), tgt=+v('core_tgt')||7;
+  const r=coreRoll(mod,tgt);
+  document.getElementById('core_dice').innerHTML=dieEl(r.d,r.tag)+opEl(mod>=0?'+ '+mod:'− '+(-mod))+opEl('= '+r.total);
+  const vv=document.getElementById('core_verdict');
+  vv.className='verdict '+(r.ok?'pass':'fail');
+  vv.textContent=r.ok?('SUCCESS'+(r.tag==='nat10'?' · nat 10':'')):('FAIL'+(r.tag==='nat1'?' · nat 1':''));
+  log('core_log',`d10=${r.d}  → ${r.total} vs ${tgt}  ${r.ok?'PASS':'fail'}`);
+}
+
+/* ---------- SHOOTING ---------- */
+function shoot(){
+  const dex=+v('sh_dex'), cover=+v('sh_cover'), mod=+v('sh_mod'),
+        dmg=+v('sh_dmg'), arm=+v('sh_arm'), wnd=Math.max(1,+v('sh_wnd'));
+  const pHit=coreProb(dex+cover+mod);
+  const pInj=coreProb(dmg+arm);
+  const pWound=pHit*pInj, pPin=pHit*(1-pInj), pMiss=1-pHit;
+  setBig('sh_pct','sh_bar',pWound);
+  document.getElementById('sh_stack').innerHTML=
+    stackRow('Wound',pWound,'fill-green')+
+    stackRow('Pin only',pPin,'fill-amber')+
+    stackRow('Miss',pMiss,'fill-red')+
+    `<div class="row"><div class="k">To-hit</div><div class="track"><i class="fill-cyan" style="width:${pHit*100}%"></i></div><div class="v">${pct(pHit)}</div></div>`+
+    `<div class="row"><div class="k">Injure|hit</div><div class="track"><i class="fill-violet" style="width:${pInj*100}%"></i></div><div class="v">${pct(pInj)}</div></div>`;
+  const ttk = pWound>0 ? (wnd/pWound) : Infinity;
+  document.getElementById('sh_note').innerHTML=
+    `Net to-hit <span class="kbd">${dex+cover+mod>=0?'+':''}${dex+cover+mod}</span>, net injury <span class="kbd">${dmg+arm>=0?'+':''}${dmg+arm}</span>. `+
+    `Avg shots to Down (${wnd} WND): <b>${ttk===Infinity?'∞':ttk.toFixed(1)}</b>.`;
+}
+function rollShoot(){
+  const dex=+v('sh_dex'), cover=+v('sh_cover'), mod=+v('sh_mod'), dmg=+v('sh_dmg'), arm=+v('sh_arm');
+  const h=coreRoll(dex+cover+mod);
+  let html=dieEl(h.d,h.tag)+opEl('hit '+(h.total))+opEl(h.ok?'✓':'✗');
+  let verd, cls, line;
+  if(!h.ok){verd='MISS';cls='fail';line=`hit d10=${h.d}→${h.total}  MISS`;}
+  else{
+    const inj=coreRoll(dmg+arm);
+    html+=opEl('│')+dieEl(inj.d,inj.tag)+opEl('inj '+inj.total)+opEl(inj.ok?'✓':'✗');
+    if(inj.ok){verd='WOUND · −1 WND';cls='pass';}
+    else{verd='HIT → PINNED (+1 Stress)';cls='neu';}
+    line=`hit ${h.d}→${h.total} ✓ │ inj ${inj.d}→${inj.total} ${inj.ok?'WOUND':'pin'}`;
+  }
+  document.getElementById('sh_dice').innerHTML=html;
+  const vv=document.getElementById('sh_verdict');vv.className='verdict '+cls;vv.textContent=verd;
+  log('sh_log',line);
+}
+
+/* ---------- MELEE ---------- */
+function melee(){
+  const atk=+v('me_atk')+(document.getElementById('me_charge').checked?1:0);
+  const def=+v('me_def'), adm=+v('me_adm'), darm=+v('me_darm');
+  const pAtk=opposedProb(atk,def,false);       // ties to defender
+  const pDef=1-pAtk;
+  const pInj=coreProb(adm+darm);
+  setBig('me_pct','me_bar',pAtk);
+  const pDownDef=pAtk*pInj;
+  document.getElementById('me_stack').innerHTML=
+    stackRow('Atk wins',pAtk,'fill-green')+
+    stackRow('Def wins',pDef,'fill-red')+
+    stackRow('Atk downs def',pDownDef,'fill-amber')+
+    `<div class="row"><div class="k">Injure|win</div><div class="track"><i class="fill-violet" style="width:${pInj*100}%"></i></div><div class="v">${pct(pInj)}</div></div>`;
+  document.getElementById('me_note').innerHTML=
+    `Effective attacker roll <span class="kbd">1d10+${atk}</span> vs defender <span class="kbd">1d10+${def}</span>. `+
+    `Per clash the attacker Downs the defender <b>${pct(pDownDef)}</b> of the time.`;
+}
+function rollMelee(){
+  const charge=document.getElementById('me_charge').checked?1:0;
+  const atk=+v('me_atk')+charge, def=+v('me_def'), adm=+v('me_adm'), darm=+v('me_darm');
+  const a=d10(),b=d10(); const ta=a+atk, tb=b+def;
+  const atkWins = ta>tb;  // tie to defender
+  let html=dieEl(a)+opEl('+'+atk+'='+ta)+opEl('vs')+dieEl(b)+opEl('+'+def+'='+tb);
+  let verd,cls,line;
+  if(atkWins){
+    const inj=coreRoll(adm+darm);
+    html+=opEl('│')+dieEl(inj.d,inj.tag);
+    if(inj.ok){verd='ATTACKER WINS → WOUND';cls='pass';}
+    else{verd='ATTACKER WINS → target PINNED';cls='neu';}
+    line=`A ${ta} vs D ${tb} → atk wins │ inj ${inj.total} ${inj.ok?'WOUND':'pin'}`;
+  }else{
+    verd='DEFENDER HOLDS'+(ta===tb?' (tie)':'')+' · attacker +1 Stress';cls='fail';
+    line=`A ${ta} vs D ${tb} → defender ${ta===tb?'(tie)':''} holds`;
+  }
+  document.getElementById('me_dice').innerHTML=html;
+  const vv=document.getElementById('me_verdict');vv.className='verdict '+cls;vv.textContent=verd;
+  log('me_log',line);
+}
+
+/* ---------- HEAD TO HEAD ---------- */
+function h2h(){
+  const a=+v('hh_a'), b=+v('hh_b'), tieA=v('hh_tie')==='a';
+  const an=v('hh_an')||'A', bn=v('hh_bn')||'B';
+  const pA=opposedProb(a,b,tieA);
+  setBig('hh_pct','hh_bar',pA);
+  document.getElementById('hh_biglabel').textContent=an+' wins';
+  document.getElementById('hh_stack').innerHTML=
+    stackRow(an,pA,'fill-green')+stackRow(bn,1-pA,'fill-red');
+}
+function rollH2H(){
+  const a=+v('hh_a'), b=+v('hh_b'), tieA=v('hh_tie')==='a';
+  const an=v('hh_an')||'A', bn=v('hh_bn')||'B';
+  const da=d10(),db=d10(); const ta=da+a, tb=db+b;
+  const aWins = ta>tb || (ta===tb && tieA);
+  document.getElementById('hh_dice').innerHTML=dieEl(da)+opEl('+'+a+'='+ta)+opEl('vs')+dieEl(db)+opEl('+'+b+'='+tb);
+  const vv=document.getElementById('hh_verdict');vv.className='verdict '+(aWins?'pass':'fail');
+  vv.textContent=(aWins?an:bn).toUpperCase()+' WINS'+(ta===tb?' (tie)':'');
+  log('hh_log',`${an} ${ta} vs ${bn} ${tb} → ${aWins?an:bn}`);
+}
+
+/* ---------- STAT CHECK ---------- */
+function preset(task,stat){document.getElementById('ck_task').value=task;document.getElementById('ck_statlbl').textContent=stat+' stat';check();}
+function check(){
+  const routine=document.getElementById('ck_routine').checked;
+  const stat=+v('ck_stat'), tgt=+v('ck_diff'), mod=+v('ck_mod');
+  const p=routine?1:coreProb(stat+mod,tgt);
+  setBig('ck_pct','ck_bar',p);
+  document.getElementById('ck_note').innerHTML= routine
+    ? `<b>Routine:</b> auto-passes — you only roll when failure costs something (an alarm, a fall, a clock).`
+    : `${v('ck_task')||'Task'}: need <span class="kbd">${Math.max(1,tgt-stat-mod)}+</span> on the die (stat ${stat>=0?'+':''}${stat}${mod?(mod>=0?' +'+mod:' '+mod):''} vs ${tgt}+).`;
+}
+function rollCheck(){
+  const routine=document.getElementById('ck_routine').checked;
+  if(routine){document.getElementById('ck_dice').innerHTML='';const vv=document.getElementById('ck_verdict');vv.className='verdict pass';vv.textContent='AUTO-PASS (routine)';log('ck_log','routine → auto-pass');return;}
+  const stat=+v('ck_stat'), tgt=+v('ck_diff'), mod=+v('ck_mod');
+  const r=coreRoll(stat+mod,tgt);
+  document.getElementById('ck_dice').innerHTML=dieEl(r.d,r.tag)+opEl((stat+mod)>=0?'+'+(stat+mod):''+(stat+mod))+opEl('='+r.total);
+  const vv=document.getElementById('ck_verdict');vv.className='verdict '+(r.ok?'pass':'fail');
+  vv.textContent=(r.ok?'SUCCESS':'FAIL')+' · '+(v('ck_task')||'task');
+  log('ck_log',`${v('ck_task')}: d10=${r.d}→${r.total} vs ${tgt}  ${r.ok?'PASS':'fail'}`);
+}
+
+/* ---------- DUEL SIM ---------- */
+function readFighter(p){
+  return {
+    n:v(p+'_n')||p.toUpperCase(), mode:v(p+'_mode'),
+    str:+v(p+'_str'), dex:+v(p+'_dex'), dmg:+v(p+'_dmg'),
+    arm:+v(p+'_arm'), cov:+v(p+'_cov'), wnd:Math.max(1,+v(p+'_wnd')), nrv:+v(p+'_nrv')
+  };
+}
+// one attack from att onto def, mutate def state; returns text
+function attack(att,def,stress,logArr){
+  let hit=false, note='';
+  if(att.mode==='ranged'){
+    const h=coreRoll(att.dex+def.cov);
+    hit=h.ok; note=`${att.n} shoots (d${h.d}→${h.total}) `;
+  }else{
+    const a=d10(),b=d10();
+    hit=(a+att.str)>(b+def.str); // ties to defender
+    note=`${att.n} strikes (${a+att.str} v ${b+def.str}) `;
+  }
+  if(!hit){ if(stress){def._st=(def._st||0);} note+='miss'; logArr&&logArr.push(note); return; }
+  const inj=coreRoll(att.dmg+def.arm);
+  if(inj.ok){ def._w-=1; note+=`→ WOUND (${Math.max(0,def._w)} left)`; if(stress)def._st=(def._st||0)+1; }
+  else { note+='→ pinned'; if(stress){def._st=(def._st||0)+1; def._pinned=true;} }
+  logArr&&logArr.push(note);
+}
+function nervePhase(u,logArr){
+  if(!(u._st>0)) return;
+  // faithful to the vault: Nerve test = 1d10 + NRV vs the Stress total; fall short = crack
+  const d=d10(); const crack = (d+u.nrv) < u._st && d!==10;
+  if(crack){ u._skip=true; logArr&&logArr.push(`  ${u.n} cracks under Stress ${u._st} (d${d}+${u.nrv}) — loses next attack`); u._st=Math.max(0,u._st-u.nrv);}
+  else { u._st=Math.max(0,u._st-u.nrv); }
+}
+function simFight(A,B,first,stress,logArr){
+  const a={...A,_w:A.wnd,_st:0,_skip:false}, b={...B,_w:B.wnd,_st:0,_skip:false};
+  let turn = first==='a'?0 : first==='b'?1 : (Math.random()<.5?0:1);
+  for(let round=1;round<=30;round++){
+    logArr&&logArr.push(`— round ${round} —`);
+    for(let s=0;s<2;s++){
+      const att = turn===0?a:b, def = turn===0?b:a;
+      if(att._skip){ att._skip=false; logArr&&logArr.push(`  ${att.n} is recovering (skips)`);}
+      else attack(att,def,stress,logArr);
+      if(def._w<=0){ logArr&&logArr.push(`  ${def.n} is DOWN — ${att.n} wins`); return att===a?'A':'B'; }
+      turn=1-turn;
+    }
+    if(stress){ nervePhase(a,logArr); nervePhase(b,logArr); }
+  }
+  return 'draw';
+}
+function runDuel(){
+  const A=readFighter('da'), B=readFighter('db');
+  const N=+v('d_n'), first=v('d_first'), stress=document.getElementById('d_stress').checked;
+  let aw=0,bw=0,dr=0,rounds=0;
+  // rounds estimate via light re-sim on a sample
+  for(let i=0;i<N;i++){ const r=simFight(A,B,first,stress,null); if(r==='A')aw++;else if(r==='B')bw++;else dr++; }
+  const pa=aw/N, pb=bw/N, pd=dr/N;
+  document.getElementById('d_stack').innerHTML=
+    stackRow(A.n+' wins',pa,'fill-green')+
+    stackRow(B.n+' wins',pb,'fill-cyan')+
+    (pd>0?stackRow('Draw (30 rd cap)',pd,'fill-red'):'');
+  const edge = pa>pb?A.n:B.n; const margin=Math.abs(pa-pb);
+  document.getElementById('d_note').innerHTML=
+    `<b>${edge}</b> takes it ${pct(Math.max(pa,pb))} to ${pct(Math.min(pa,pb))} over ${(+N).toLocaleString()} fights `+
+    `(${margin<0.1?'near-even — well balanced':margin<0.3?'a real but survivable edge':'a lopsided matchup'}).`;
+}
+function sampleFight(){
+  const A=readFighter('da'), B=readFighter('db');
+  const stress=document.getElementById('d_stress').checked, first=v('d_first');
+  const arr=[]; const r=simFight(A,B,first,stress,arr);
+  arr.push(`RESULT: ${r==='draw'?'draw (hit round cap)':(r==='A'?A.n:B.n)+' wins'}`);
+  document.getElementById('d_log').textContent=arr.join('\n');
+}
+
+/* ---------- wiring ---------- */
+function v(id){return document.getElementById(id).value;}
+document.querySelectorAll('#nav button').forEach(btn=>{
+  btn.onclick=()=>{
+    document.querySelectorAll('#nav button').forEach(b=>b.classList.remove('on'));
+    btn.classList.add('on');
+    const t=btn.dataset.t;
+    document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('on',p.dataset.p===t));
+  };
+});
+core();shoot();melee();h2h();check();
+</script>
+</body>
+</html>

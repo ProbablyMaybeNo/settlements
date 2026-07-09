@@ -1,0 +1,9 @@
+unit_id,name,faction_id,role,move,shoot,fight,resolve,hp,armor,cost,equipment,special_rules,notes
+,Rifleman,,rifleman,,,,,,,,,,Example row — fill in stats once core schema is locked
+,Squad Leader,,leader,,,,,,,,,,
+,Medic,,medic,,,,,,,,,,
+,Sniper / DM,,sniper,,,,,,,,,,
+,Scout,,scout,,,,,,,,,,
+,Heavy Weapons,,heavy,,,,,,,,,,
+,Operator,,operator,,,,,,,,,,Special-forces-tier; high cost
+,Militia,,militia,,,,,,,,,,Cheapest filler; weak stats

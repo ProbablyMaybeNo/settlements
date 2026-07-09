@@ -1,0 +1,13 @@
+weapon_id,name,type,range,damage,attacks,traits,faction_availability,notes
+,M4 / AR-15,rifle,medium,,1,,all,Most common rifle on either side
+,AK pattern,rifle,medium,,1,,militias,Cheap; common in red-coded militias
+,Hunting rifle,marksman,long,,1,accurate,watch/militias,Civilian bolt-action repurposed
+,Sniper system,sniper,extreme,,1,accurate,professionals,Match-grade — pro-only
+,Pistol,pistol,short,,1,,all,Backup only
+,SMG,smg,short,,2,,professionals,Close-quarters specialist
+,Shotgun,shotgun,short,,1,close-burst,all,Devastating at room range
+,LMG,machine-gun,medium,,3,suppress,professionals,Suppression mainstay
+,RPG,launcher,medium,,3,vehicle/structure,militias,Salvaged or smuggled
+,Improvised explosive,explosive,placed,,3,one-shot,settlement-defenders,Bottle bomb / pipe / IED
+,Combat knife,melee,close,,1,,all,Last resort
+,Baton / bat,melee,close,,1,,settlement-defenders,Settlement defender default melee

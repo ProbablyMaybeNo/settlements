@@ -1,0 +1,22 @@
+{
+  "_comment": "ID map for Notion sync. Maps local entities to Notion IDs. Managed by scripts/notion_sync.py (page_id_map) but database/page IDs are set once at build time.",
+  "_generated": "2026-05-18",
+  "workspace": {
+    "parent_page_id": "364c5770-7771-816c-b3fc-f524acc11aa1",
+    "parent_page_url": "https://www.notion.so/364c57707771816cb3fcf524acc11aa1"
+  },
+  "databases": {
+    "factions":   { "database_id": "a05089885f5b4ed0a2c2b92167b7fa3e", "data_source_id": "129cd305-649d-4c92-a254-f857c1257574", "source": "TRACKERS/factions.csv" },
+    "units":      { "database_id": "f130ea5bbc314502bb6f8ec22b8e4fbf", "data_source_id": "ba265a7e-da89-4bec-b639-e52c87fb77bd", "source": "TRACKERS/units.csv" },
+    "weapons":    { "database_id": "1b96a85c8ac947ec903a34cf92f25dfb", "data_source_id": "d9470b7b-2ce6-42c4-b7b1-bf7268818404", "source": "TRACKERS/weapons.csv" },
+    "equipment":  { "database_id": "18fb7cb567b343d08d4b51b3e12f7f68", "data_source_id": "8627408d-201f-414b-99b4-12a2d8fef2e0", "source": "TRACKERS/equipment.csv" },
+    "scenarios":  { "database_id": "c944920f734e4806baa92e64a4ecaa74", "data_source_id": "6b7f7e95-a336-4c99-9195-e1a4c196a65a", "source": "TRACKERS/scenarios.csv" },
+    "locations":  { "database_id": "4cce57a053a44f608246fa6e24508db0", "data_source_id": "dd8b8b89-5122-49ab-9936-62ad07e00a7b", "source": "TRACKERS/locations.csv" },
+    "characters": { "database_id": "f4adc20aea8b4cb88f076dc77d8013a8", "data_source_id": "cca65552-0dec-4ba0-8ad3-af0d3f4b92b5", "source": "TRACKERS/characters.csv" },
+    "playtests":  { "database_id": "4dfd6730c543495fb829e31e9915b8bb", "data_source_id": "06663f2b-5283-46d0-b850-129e674dab6f", "source": "TRACKERS/playtests.csv" },
+    "art_assets": { "database_id": "f331986ed4f942f59c1a6681921ecc00", "data_source_id": "bb9fba31-9c19-4c4b-9270-d469ad594976", "source": "TRACKERS/art-assets.csv" },
+    "models_3d":  { "database_id": "1d3e98b439454f879718d05974aaafd1", "data_source_id": "b6cb075a-b809-4d33-b1b1-7e9d0b90ea9c", "source": "TRACKERS/3d-models.csv" },
+    "ideas":      { "database_id": "ec79b1a8b03c4ec9bc547b5d25bd7c87", "data_source_id": "56fd6b2a-3e51-44eb-859c-cbf85f490e6d", "source": "TRACKERS/ideas.csv" },
+    "rules":      { "database_id": "c649efaa88ef48208f3181288034d513", "data_source_id": "3c8d6dab-7bec-42f2-a2f9-ec63dc635a70", "source": "TRACKERS/rules.csv" }
+  }
+}

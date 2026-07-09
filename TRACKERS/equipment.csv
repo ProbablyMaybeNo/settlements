@@ -1,0 +1,16 @@
+equipment_id,name,type,effect,cost,faction_availability,notes
+,Plate carrier,armor,reduce damage from rifles,,professionals,Pro-grade body armour
+,Soft armor vest,armor,reduce damage from pistol/shotgun,,all,Civilian / police vest
+,Helmet,armor,head-shot mitigation,,professionals,
+,Radio,comm,squad coordination bonus,,professionals,
+,Smartphone net,comm,scenario-dependent comms,,all,Brittle but cheap
+,Smoke grenade,utility,blocks LOS,,all,One-shot
+,Frag grenade,utility,small-area explosive,,professionals,One-shot
+,Flashbang,utility,suppress at close range,,professionals,One-shot
+,Drone (commercial),utility,scout/spot at range,,all,Civilian quadcopter
+,Drone (military),utility,scout + limited strike,,professionals,Reaper-class
+,Medical kit,utility,heal/stabilise,,all,
+,Breaching kit,utility,bypass barricades/doors,,professionals,
+,Civilian vehicle,vehicle,fast transport; no armour,,all,Truck / SUV
+,Technical,vehicle,mounted heavy weapon,,militias,Pickup with bolted MG
+,Armoured car,vehicle,armoured transport,,professionals,Stryker / MRAP-class
