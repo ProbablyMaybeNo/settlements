@@ -122,6 +122,16 @@
   .dbtable td.obs{font-weight:700;color:var(--amber)}
   .delta-ok{color:var(--green)} .delta-off{color:var(--dim)}
   .empty{color:var(--dim);font-family:var(--mono);font-size:13px;padding:22px 0;text-align:center}
+  .curve{display:flex;align-items:flex-end;gap:5px;height:72px;margin:8px 0 2px}
+  .curve .ccol{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;height:100%;justify-content:flex-end}
+  .curve .ccol > i{width:100%;background:linear-gradient(180deg,var(--green),#3f7a3f);border-radius:2px 2px 0 0;min-height:2px}
+  .curve .ccol span{font-family:var(--mono);font-size:10px;color:var(--dim)}
+  .profcard{border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin-bottom:10px;background:var(--panel2)}
+  .profcard .pn{font-family:var(--mono);font-weight:700;font-size:14px}
+  .profcard .pm{color:var(--amber);font-size:11px;text-transform:uppercase;letter-spacing:.5px;margin-left:4px}
+  .profcard .ps{font-family:var(--mono);font-size:12px;color:var(--dim);margin:6px 0 10px;line-height:1.6}
+  .profcard .pb{display:flex;gap:8px}
+  select.picker{border:1px dashed var(--line);color:var(--cyan);min-width:150px}
 </style>
 </head>
 <body>
@@ -136,6 +146,7 @@
     <button data-t="h2h">Head-to-Head</button>
     <button data-t="check">Stat Check</button>
     <button data-t="duel">Duel Sim</button>
+    <button data-t="profiles">Profiles</button>
     <button data-t="data">Records</button>
   </nav>
 </header>
@@ -176,6 +187,8 @@
     <div class="card">
       <h2>Shooting</h2>
       <p class="sub">Two rolls: hit (DEX vs cover) then injury (weapon vs armor).</p>
+      <div class="field"><label>Load shooter</label><select class="picker" id="sh_pAtk" onchange="loadShootAtk()"></select></div>
+      <div class="field"><label>Load target</label><select class="picker" id="sh_pDef" onchange="loadShootDef()"></select></div>
       <div class="field"><label>Shooter DEX</label><div class="ctl">
         <button class="btn" onclick="step('sh_dex',-1)">−</button>
         <input type="number" id="sh_dex" value="2" oninput="shoot()">
@@ -223,6 +236,8 @@
       <div class="bar"><i id="sh_bar" style="width:0"></i></div>
       <div class="stack" id="sh_stack"></div>
       <div class="note" id="sh_note"></div>
+      <div class="biglabel" style="margin-top:16px">Chance to Down by shot N</div>
+      <div class="curve" id="sh_curve"></div>
     </div>
   </div>
 </section>
@@ -233,6 +248,8 @@
     <div class="card">
       <h2>Melee — opposed</h2>
       <p class="sub">Attacker STR vs Defender STR. Highest wins, <b>ties to the defender</b>. Winner lands the injury roll.</p>
+      <div class="field"><label>Load attacker</label><select class="picker" id="me_pAtk" onchange="loadMeleeAtk()"></select></div>
+      <div class="field"><label>Load defender</label><select class="picker" id="me_pDef" onchange="loadMeleeDef()"></select></div>
       <div class="field"><label>Attacker STR (or AGI)</label><div class="ctl">
         <button class="btn" onclick="step('me_atk',-1)">−</button>
         <input type="number" id="me_atk" value="2" oninput="melee()">
@@ -356,6 +373,7 @@
     <div class="grid">
       <div>
         <div class="vs">◤ FIGHTER A ◥</div>
+        <div class="field"><label>Load profile</label><select class="picker" id="da_p" onchange="loadDuel('da')"></select></div>
         <div class="field"><label>Name</label><input type="text" id="da_n" value="Brawler"></div>
         <div class="field"><label>Mode</label>
           <select id="da_mode"><option value="melee">Melee (opposed)</option><option value="ranged">Ranged (7+)</option></select></div>
@@ -372,6 +390,7 @@
       </div>
       <div>
         <div class="vs">◤ FIGHTER B ◥</div>
+        <div class="field"><label>Load profile</label><select class="picker" id="db_p" onchange="loadDuel('db')"></select></div>
         <div class="field"><label>Name</label><input type="text" id="db_n" value="Gunner"></div>
         <div class="field"><label>Mode</label>
           <select id="db_mode"><option value="melee">Melee (opposed)</option><option value="ranged" selected>Ranged (7+)</option></select></div>
@@ -400,6 +419,36 @@
       <div class="stack" id="d_stack"></div>
       <div class="note" id="d_note" style="margin-top:16px"></div>
       <div class="rolllog" id="d_log" style="max-height:260px;margin-top:12px"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROFILES ============ -->
+<section class="panel" data-p="profiles">
+  <div class="grid">
+    <div class="card">
+      <h2>Build a Profile</h2>
+      <p class="sub">Save a fighter once, then load it into Shooting, Melee, or the Duel with the pickers on those tabs.</p>
+      <div class="field"><label>Name</label><input type="text" id="pf_name" value=""></div>
+      <div class="field"><label>Default mode</label><select id="pf_mode"><option value="melee">Melee</option><option value="ranged">Ranged</option></select></div>
+      <div class="field"><label>STR</label><input type="number" id="pf_str" value="2"></div>
+      <div class="field"><label>DEX</label><input type="number" id="pf_dex" value="2"></div>
+      <div class="field"><label>AGI</label><input type="number" id="pf_agi" value="2"></div>
+      <div class="field"><label>INT</label><input type="number" id="pf_int" value="2"></div>
+      <div class="field"><label>NRV</label><input type="number" id="pf_nrv" value="2"></div>
+      <div class="field"><label>Wounds</label><input type="number" id="pf_wnd" value="1" min="1"></div>
+      <div class="field"><label>Weapon dmg</label><select id="pf_dmg"><option value="0">+0</option><option value="1" selected>+1</option><option value="2">+2</option><option value="3">+3</option></select></div>
+      <div class="field"><label>Armor</label><select id="pf_arm"><option value="0" selected>0</option><option value="-1">−1</option><option value="-2">−2</option></select></div>
+      <div class="field"><label>Cover (default)</label><select id="pf_cov"><option value="0" selected>0</option><option value="-1">−1</option><option value="-2">−2</option><option value="-3">−3</option></select></div>
+      <div class="btnrow">
+        <button class="btn primary" id="pf_save" onclick="saveProfile()">Save new profile</button>
+        <button class="btn" onclick="newProfile()">Clear form</button>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Saved Profiles</h2>
+      <p class="sub">Stored in this browser. Seeded with two examples to start; load them from the pickers on the combat tabs.</p>
+      <div id="pf_list"></div>
     </div>
   </div>
 </section>
@@ -527,6 +576,63 @@ function exportCSV(){
   a.download='settlements-bench-records.csv';a.click();
 }
 
+/* ---------- distribution helpers ---------- */
+function comb(n,k){if(k<0||k>n)return 0;let c=1;for(let i=0;i<k;i++)c=c*(n-i)/(i+1);return c;}
+function binomAtLeast(n,k,p){let s=0;for(let i=k;i<=n;i++)s+=comb(n,i)*Math.pow(p,i)*Math.pow(1-p,n-i);return s;}
+
+/* ---------- unit profiles (localStorage) ---------- */
+const PROF_KEY='settlements_bench_profiles_v1';
+let PROFILES=loadProfiles();
+function loadProfiles(){
+  try{const s=localStorage.getItem(PROF_KEY);if(s){const a=JSON.parse(s);if(Array.isArray(a)&&a.length)return a;}}catch(e){}
+  return [
+    {id:'seed-brawler',name:'Brawler',mode:'melee',str:4,dex:1,agi:2,int:1,nrv:2,wnd:1,dmg:2,arm:-1,cov:0},
+    {id:'seed-gunner',name:'Gunner',mode:'ranged',str:1,dex:4,agi:2,int:1,nrv:1,wnd:1,dmg:3,arm:0,cov:0}
+  ];
+}
+function saveProfiles(){try{localStorage.setItem(PROF_KEY,JSON.stringify(PROFILES));}catch(e){}}
+function profById(id){return PROFILES.find(p=>p.id===id);}
+function setV(id,val){const el=document.getElementById(id);if(el)el.value=val;}
+let editingId=null;
+function profForm(){return {name:v('pf_name').trim()||'Unit',mode:v('pf_mode'),
+  str:+v('pf_str'),dex:+v('pf_dex'),agi:+v('pf_agi'),int:+v('pf_int'),nrv:+v('pf_nrv'),
+  wnd:Math.max(1,+v('pf_wnd')),dmg:+v('pf_dmg'),arm:+v('pf_arm'),cov:+v('pf_cov')};}
+function saveProfile(){const p=profForm();
+  if(editingId){Object.assign(profById(editingId),p);}
+  else{p.id='p'+Date.now()+Math.floor(Math.random()*1e4);PROFILES.push(p);}
+  editingId=null;document.getElementById('pf_save').textContent='Save new profile';
+  saveProfiles();renderProfiles();}
+function editProfile(id){const p=profById(id);if(!p)return;editingId=id;
+  setV('pf_name',p.name);setV('pf_mode',p.mode);setV('pf_str',p.str);setV('pf_dex',p.dex);
+  setV('pf_agi',p.agi);setV('pf_int',p.int);setV('pf_nrv',p.nrv);setV('pf_wnd',p.wnd);
+  setV('pf_dmg',p.dmg);setV('pf_arm',p.arm);setV('pf_cov',p.cov);
+  document.getElementById('pf_save').textContent='Update ‘'+p.name+'’';
+  document.getElementById('pf_name').scrollIntoView({behavior:'smooth',block:'center'});}
+function newProfile(){editingId=null;setV('pf_name','');setV('pf_mode','melee');
+  ['pf_str','pf_dex','pf_agi','pf_int','pf_nrv'].forEach(id=>setV(id,2));
+  setV('pf_wnd',1);setV('pf_dmg',1);setV('pf_arm',0);setV('pf_cov',0);
+  document.getElementById('pf_save').textContent='Save new profile';}
+function deleteProfile(id){if(!confirm('Delete this profile?'))return;
+  PROFILES=PROFILES.filter(p=>p.id!==id);saveProfiles();renderProfiles();}
+function renderProfiles(){
+  const list=document.getElementById('pf_list');
+  list.innerHTML=PROFILES.length?PROFILES.map(p=>
+    `<div class="profcard"><div class="pn">${p.name}<span class="pm">${p.mode}</span></div>`+
+    `<div class="ps">STR ${fmtMod(p.str)} · DEX ${fmtMod(p.dex)} · AGI ${fmtMod(p.agi)} · INT ${fmtMod(p.int)} · NRV ${fmtMod(p.nrv)}<br>WND ${p.wnd} · weapon +${p.dmg} · armor ${p.arm} · cover ${p.cov}</div>`+
+    `<div class="pb"><button class="btn" onclick="editProfile('${p.id}')">Edit</button><button class="btn" onclick="deleteProfile('${p.id}')">Delete</button></div></div>`
+  ).join(''):'<div class="empty">No saved profiles.</div>';
+  refreshPickers();
+}
+function pickerOpts(){return '<option value="">— load profile —</option>'+PROFILES.map(p=>`<option value="${p.id}">${p.name}</option>`).join('');}
+function refreshPickers(){['sh_pAtk','sh_pDef','me_pAtk','me_pDef','da_p','db_p'].forEach(id=>{const el=document.getElementById(id);if(el){const cur=el.value;el.innerHTML=pickerOpts();el.value=cur;}});}
+function loadShootAtk(){const p=profById(v('sh_pAtk'));if(!p)return;setV('sh_dex',p.dex);setV('sh_dmg',p.dmg);shoot();}
+function loadShootDef(){const p=profById(v('sh_pDef'));if(!p)return;setV('sh_cover',p.cov);setV('sh_arm',p.arm);setV('sh_wnd',p.wnd);shoot();}
+function loadMeleeAtk(){const p=profById(v('me_pAtk'));if(!p)return;setV('me_atk',p.str);setV('me_adm',p.dmg);melee();}
+function loadMeleeDef(){const p=profById(v('me_pDef'));if(!p)return;setV('me_def',p.str);setV('me_darm',p.arm);melee();}
+function loadDuel(side){const p=profById(v(side+'_p'));if(!p)return;
+  setV(side+'_n',p.name);setV(side+'_mode',p.mode);setV(side+'_str',p.str);setV(side+'_dex',p.dex);
+  setV(side+'_dmg',p.dmg);setV(side+'_arm',p.arm);setV(side+'_cov',p.cov);setV(side+'_wnd',p.wnd);setV(side+'_nrv',p.nrv);}
+
 /* ---------- CORE ---------- */
 function core(){
   const mod=+v('core_mod'), tgt=+v('core_tgt')||7;
@@ -571,6 +677,9 @@ function shoot(){
   document.getElementById('sh_note').innerHTML=
     `Net to-hit <span class="kbd">${dex+cover+mod>=0?'+':''}${dex+cover+mod}</span>, net injury <span class="kbd">${dmg+arm>=0?'+':''}${dmg+arm}</span>. `+
     `Avg shots to Down (${wnd} WND): <b>${ttk===Infinity?'∞':ttk.toFixed(1)}</b>.`;
+  let curve='';
+  for(let k=1;k<=8;k++){const pk=binomAtLeast(k,wnd,pWound);curve+=`<div class="ccol"><i style="height:${(pk*100).toFixed(0)}%" title="shot ${k}: ${pct(pk)}"></i><span>${k}</span></div>`;}
+  document.getElementById('sh_curve').innerHTML=curve;
 }
 function rollShoot(){
   const dex=+v('sh_dex'), cover=+v('sh_cover'), mod=+v('sh_mod'), dmg=+v('sh_dmg'), arm=+v('sh_arm');
@@ -761,7 +870,7 @@ document.querySelectorAll('#nav button').forEach(btn=>{
     document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('on',p.dataset.p===t));
   };
 });
-core();shoot();melee();h2h();check();renderDB();
+core();shoot();melee();h2h();check();renderDB();renderProfiles();
 </script>
 </body>
 </html>
