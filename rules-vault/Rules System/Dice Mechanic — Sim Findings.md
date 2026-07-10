@@ -8,7 +8,7 @@ tags: [settlements/reference, settlements/analysis]
 First full simulation pass over the locked core engine. Every test = **10,000 rolls** (the standard sample), engine mirrors the [[Rules Engine|Test Bench]] exactly, seed `20260708` (reproducible). Run: `test-bench/sim_report.py`.
 
 > [!success] Headline
-> **The engine is sound and the design thesis holds up.** Cover is the single biggest lever (it roughly *halves* lethality), and — the big one — **in a terrain-free 1v1, combat specialists crush the utility builds**. That's not a bug: it's proof that **[[Terrain|terrain]] and scenario objectives *must* carry the balance**, exactly as the pillar says. Two dials want attention: the **Stress/Nerve** system barely fires, and **mobility/utility needs scenario structure to be worth taking**.
+> **The engine is sound and the design thesis holds up.** Cover is the single biggest lever (it roughly *halves* lethality), and — the big one — **in a terrain-free 1v1, combat specialists crush the utility builds**. That's not a bug: it's proof that **[[Terrain|terrain]] and scenario objectives *must* carry the balance**, exactly as the pillar says. One dial still wants attention: **mobility/utility needs scenario structure to be worth taking**. (The Stress/Nerve worry from the first pass is **resolved** — see §7, re-run on the revised system.)
 
 ## 1 · Engine validation — [[core-000 Core Test]]
 Simulated vs exact across the stat range. They match within sampling noise → the RNG is fair and the curve is exactly as designed: **clean ±10% per point, floored/capped 10–90%**, and **+5 = +6 on a flat roll** (the natural-1 cap).
@@ -113,18 +113,18 @@ Every [[Skill Paths|archetype]] vs every other, **10k fights each**, random who-
 > In a terrain-free slugfest, **combat specialists dominate and utility builds get stomped** — the Objective Grabber wins just **24%** and loses 86–14 to the Brawler. That is *exactly what should happen*: raw stats say a mobility/tech build is near-useless in a straight fight. **Their value can only come from the [[Terrain|board]] and [[Scenarios|scenario]]** — locked doors that need the Techie, gaps and objectives that need the Grabber, cover that lets the fragile survive. **This sim is the proof that terrain/objectives must be the balancer.** If a scenario is just "kill each other on open ground," the game collapses to Heavy Gunners — so the scenario deck has to reliably demand non-combat stats.
 > Also: **Heavy Gunner (STR+DEX, heavy weapon, armour) is the raw-power king.** Watch it doesn't become an auto-include — it should pay for that in points and be punished by terrain it can't shoot through.
 
-## 7 · Stress / Nerve — barely fires ⚠️ — [[Morale]]
-Fight length and how often a unit *cracks* under Stress:
+## 7 · Stress / Nerve — fires where it should ✅ — [[Morale]]
+Re-run on the **revised** system (Shaken −1 always-on · Break test at 2+ · pass clears all Stress). Fight length and how often a unit breaks:
 
-| Matchup | Avg rounds | Cracks / fight |
+| Matchup | Avg rounds | Cracks / fight (old → **new**) |
 |---|:---:|:---:|
-| Jack vs Jack (WND 1) | 2.1 | 0.000 |
-| Gunner vs Brawler (WND 1) | 1.4 | 0.000 |
-| Jack vs Jack (WND 3) | 8.2 | 0.000 |
+| Jack vs Jack (WND 1) | 2.3 | 0.000 → **0.089** |
+| Gunner vs Brawler (WND 1) | 1.6 | 0.000 → **0.089** |
+| Jack vs Jack (WND 3) | 9.5 | 0.000 → **1.75** |
 
-> [!warning] Dial to tune
-> The Stress/Nerve system **almost never triggers** in a 1v1 — even in long WND-3 fights. Two reasons: (1) at WND 1 fights end on the first wound before Stress can build, and (2) the End-Phase Nerve test **sheds NRV-worth of Stress every round**, so it drains faster than a single attacker piles it on. As modelled, morale is inert.
-> *Caveat:* the sim only models Stress from being wounded/pinned — the full [[Morale]] rules add more triggers (targeted by ranged, friendly Down in LOS, losing melee). In a **multi-model** game those stack much faster, so this may self-correct at real crew scale. But it's worth a deliberate test: if we want Stress to matter, we likely need **more/heavier triggers, slower shedding, or a lower crack threshold**.
+> [!success] Right shape — quiet in fast kills, bites in grinds
+> The revised model **self-corrected the "inert morale" problem** without a single new combat trigger. At **WND 1** the lethality band is fast enough that fights usually end before Stress hits 2 — so nerve stays out of the way (~0.09 breaks/fight). In a sustained **WND-3** fight it wakes up hard: **~1.75 breaks per fight**, because Stress now *accumulates* (a passed test clears all, a failed one only sheds 1) instead of draining NRV-worth every round. Morale is now a **duration** mechanic — it takes over exactly when a fight drags, which is the intended feel.
+> *Still true:* combat triggers alone are thin — the full [[Morale]] trigger list (ranged targeting, friendly Down in LOS, hazards, skills) will push WND-1 rates up too at crew scale. But the engine is no longer inert, so that's headroom, not a fix we need.
 
 > [!note] System revised since this sim (2026-07-09)
 > The Nerve system was reworked after these runs. **Shook is now the always-on "Shaken" state** — any 1+ Stress = −1 to all rolls, no roll. **Break tests only start at 2+ Stress** (`1d10 + NRV − (Stress−1) ≥ 7`, Shaken's −1 excluded), failing into **Bolt (2) / Broken (3) / BugOut (4+)**. The −1-severity analysis below still holds (Shaken *is* that −1); the old margin-ladder above it is superseded — see [[Morale]].
@@ -151,7 +151,7 @@ Two things to decide (they matter more than the −1):
 2. 🗺️ **Terrain/objectives are load-bearing for balance, confirmed** — build the scenario deck to demand INT/AGI, or utility builds are dead weight.
 3. 💥 **Cover > armour for survival** — good, on-pillar.
 4. ⚔️ **Charge and the defender tie-edge both matter** — melee has real texture.
-5. ⚠️ **Stress/Nerve needs a tuning pass** — currently near-inert 1v1; retest at crew scale before deciding.
+5. ✅ **Stress/Nerve fires correctly** on the revised system — quiet in fast WND-1 kills, ~1.75 breaks/fight in sustained WND-3 grinds. Morale is now a duration mechanic.
 6. 🎯 **Watch Heavy Gunner** as a potential auto-include; price it and gate it with terrain.
 
 ---
