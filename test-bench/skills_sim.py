@@ -121,13 +121,18 @@ def do_injure(att, dfn, sk):
 def activation(att, dfn):
     # start-of-activation self effects
     if 'steady' in att['skills'] and att['_st'] > 0: att['_st'] -= 1
-    melbonus = 0
-    if att['mode'] == 'melee' and att['_w'] > 0:
-        if 'red_mist' in att['skills']: add_stress(att, 3); melbonus = 2
-        elif 'feed_anger' in att['skills']: add_stress(att, 1); melbonus = 1
+    melbonus = 0; ignore_shaken = False
+    use_fury = att.get('_fury_left', 1) > 0 if 'once' in att['skills'] else True
+    if att['mode'] == 'melee' and att['_w'] > 0 and use_fury:
+        if 'red_mist' in att['skills']:
+            add_stress(att, 3); melbonus = 2; ignore_shaken = True; att['_fury_left'] = att.get('_fury_left', 1) - 1
+        elif 'feed_anger' in att['skills']:
+            add_stress(att, 1); melbonus = 1; ignore_shaken = True; att['_fury_left'] = att.get('_fury_left', 1) - 1
+    if att.get('_fight'):  # Fanatic Fight activation ignores Shaken
+        ignore_shaken = True; att['_fight'] = False
     if att.get('_skip'):
         att['_skip'] = False; return
-    sk = 1 if att['_st'] >= 1 else 0
+    sk = 0 if ignore_shaken else (1 if att['_st'] >= 1 else 0)
     if att['mode'] == 'ranged':
         mod = att['dex'] + dfn['cov'] - sk
         if 'dead_eye' in att['skills'] and dfn['cov'] == 0: mod += 1
@@ -159,7 +164,7 @@ def break_test(u):
         u['_out'] = True; u['_st'] -= 1; return
     # Bolt/Broken
     if 'fanatic' in u['skills']:
-        add_stress(u, 2); u['_st'] = max(0, u['_st']-1)  # Fight: keeps acting, no skip
+        add_stress(u, 2); u['_st'] = max(0, u['_st']-1); u['_fight'] = True  # Fight: no skip, ignores Shaken next act
     else:
         u['_skip'] = True; u['_st'] = max(0, u['_st']-1)
 
@@ -211,8 +216,14 @@ def duelrow_ghost():
     wr = winrate(mkA, mkB); print(f"    {'Ghost Blade (AGI4 vs STR2)':<34}{pct(wr):>8}{('+'+str(round((wr-0.5)*100))):>7}%")
 duelrow_ghost()
 # NRV skills in a melee grind
-duelrow("Red Mist (+3 St -> +2 melee)", 'melee', 'red_mist')
-duelrow("Feed the Anger (+1 St -> +1 melee)", 'melee', 'feed_anger')
+duelrow("Red Mist (spammed every act)", 'melee', 'red_mist')
+duelrow("Feed the Anger (spammed every act)", 'melee', 'feed_anger')
+def duelrow_once(lbl, skill):
+    def mkA(): a = F('melee'); a['skills'] = {skill, 'once'}; return a
+    def mkB(): return F('melee')
+    wr = winrate(mkA, mkB); print(f"    {lbl:<34}{pct(wr):>8}{('+'+str(round((wr-0.5)*100))):>7}%")
+duelrow_once("Red Mist (used ONCE, smart)", 'red_mist')
+duelrow_once("Feed the Anger (used ONCE)", 'feed_anger')
 duelrow("Rattle-Proof (ignore 1 St/round)", 'melee', 'rattle_proof')
 duelrow("Steady (-1 St/activation)", 'melee', 'steady')
 duelrow("Iron Will (auto-pass 1 test)", 'melee', 'iron_will')
