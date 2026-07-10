@@ -116,28 +116,40 @@ ROSTER = {
  'Quick Muscle':     dict(mode='melee', str=3,dex=1,agi=3,int=1,nrv=2,wnd=1,dmg=2,arm=-1,cov=0),
  'Jack':             dict(mode='melee', str=2,dex=2,agi=2,int=2,nrv=2,wnd=1,dmg=2,arm=0, cov=0),
 }
-def attack(att, dfn):
-    hit = core_roll(att['dex']+dfn['cov']) if att['mode']=='ranged' else opposed_roll(att['str'], dfn['str'])
+def attack(att, dfn, stress=True):
+    sk = 1 if (stress and att['_st'] >= 1) else 0  # Shaken: -1 to this unit's rolls
+    if att['mode'] == 'ranged':
+        hit = core_roll(att['dex'] + dfn['cov'] - sk)
+    else:
+        dk = 1 if (stress and dfn['_st'] >= 1) else 0
+        hit = opposed_roll(att['str'] - sk, dfn['str'] - dk)
     if not hit: return
-    if core_roll(att['dmg']+dfn['arm']): dfn['_w'] -= 1; dfn['_st'] += 1
+    if core_roll(att['dmg'] + dfn['arm'] - sk): dfn['_w'] -= 1; dfn['_st'] += 1
     else: dfn['_st'] += 1
 def nerve(u):
-    if u['_st'] <= 0: return
-    d = d10(); crack = (d+u['nrv'] < u['_st']) and d != 10
-    u['_st'] = max(0, u['_st']-u['nrv'])
-    if crack: u['_skip'] = True
+    if u['_st'] < 2: return  # 1 Stress = Shaken only, no test
+    d = d10(); pen = u['_st'] - 1
+    if d == 10 or (d != 1 and d + u['nrv'] - pen >= 7):
+        u['_st'] = 0  # steady: clear all Stress
+    else:
+        if u['_st'] >= 4: u['_out'] = True   # BugOut → removed
+        else: u['_skip'] = True              # Bolt/Broken → lose next activation
+        u['_st'] = max(0, u['_st'] - 1)
 def duel(A, B, stress=True):
-    a = dict(A); a.update(_w=A['wnd'], _st=0, _skip=False)
-    b = dict(B); b.update(_w=B['wnd'], _st=0, _skip=False)
+    a = dict(A); a.update(_w=A['wnd'], _st=0, _skip=False, _out=False)
+    b = dict(B); b.update(_w=B['wnd'], _st=0, _skip=False, _out=False)
     turn = 0 if random.random() < 0.5 else 1
     for _ in range(30):
         for _ in range(2):
             att, dfn = (a, b) if turn == 0 else (b, a)
             if att['_skip']: att['_skip'] = False
-            else: attack(att, dfn)
+            else: attack(att, dfn, stress)
             if dfn['_w'] <= 0: return 'A' if att is a else 'B'
             turn = 1 - turn
-        if stress: nerve(a); nerve(b)
+        if stress:
+            nerve(a); nerve(b)
+            if a['_out']: return 'B'
+            if b['_out']: return 'A'
     return 'draw'
 
 names = list(ROSTER)
@@ -165,8 +177,8 @@ def duel_stats(A,B,n=N):
     rounds=0; cracks=0
     def duel2(A,B):
         nonlocal cracks
-        a=dict(A);a.update(_w=A['wnd'],_st=0,_skip=False)
-        b=dict(B);b.update(_w=B['wnd'],_st=0,_skip=False)
+        a=dict(A);a.update(_w=A['wnd'],_st=0,_skip=False,_out=False)
+        b=dict(B);b.update(_w=B['wnd'],_st=0,_skip=False,_out=False)
         turn=0 if random.random()<.5 else 1
         for r in range(30):
             for _ in range(2):
@@ -176,10 +188,16 @@ def duel_stats(A,B,n=N):
                 if dfn['_w']<=0: return r+1
                 turn=1-turn
             for u in (a,b):
-                if u['_st']>0:
-                    d=d10()
-                    if (d+u['nrv']<u['_st']) and d!=10: cracks+=1; u['_skip']=True
-                    u['_st']=max(0,u['_st']-u['nrv'])
+                if u['_st']>=2:  # Break test at 2+; 1 Stress = Shaken only
+                    d=d10(); pen=u['_st']-1
+                    if d==10 or (d!=1 and d+u['nrv']-pen>=7):
+                        u['_st']=0
+                    else:
+                        cracks+=1
+                        if u['_st']>=4: u['_out']=True
+                        else: u['_skip']=True
+                        u['_st']=max(0,u['_st']-1)
+            if a['_out'] or b['_out']: return r+1
         return 30
     for _ in range(n): rounds+=duel2(A,B)
     return rounds/n, cracks/n

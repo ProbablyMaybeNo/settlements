@@ -408,7 +408,7 @@
     </div>
     <div class="field" style="margin-top:14px"><label>Who strikes first</label>
       <select id="d_first"><option value="rand" selected>Random each fight (fair)</option><option value="a">Always A</option><option value="b">Always B</option></select></div>
-    <label class="chk" style="margin:6px 0"><input type="checkbox" id="d_stress" checked> Model Stress / Nerve (hits &amp; pins pile stress; a failed Nerve test = lose next attack)</label>
+    <label class="chk" style="margin:6px 0"><input type="checkbox" id="d_stress" checked> Model Stress / Nerve (1+ Stress = Shaken −1 to all rolls · 2+ = Break test, fail → Bolt/Broken/BugOut)</label>
     <div class="field"><label>Fights to simulate</label>
       <select id="d_n"><option value="2000">2,000</option><option value="10000" selected>10,000</option><option value="50000">50,000</option></select></div>
     <div class="btnrow">
@@ -447,7 +447,8 @@
     </div>
     <div class="card">
       <h2>Saved Profiles</h2>
-      <p class="sub">Stored in this browser. Seeded with two examples to start; load them from the pickers on the combat tabs.</p>
+      <p class="sub">Stored in this browser. Load any into a combat tab with its "Load…" picker — the fields stay editable after, so you can tweak on the fly.</p>
+      <div class="btnrow" style="margin:0 0 14px"><button class="btn" onclick="loadStarterRoster()">Load starter roster (8 archetypes)</button></div>
       <div id="pf_list"></div>
     </div>
   </div>
@@ -473,6 +474,7 @@
 
 <div class="foot">
   <b>ENGINE</b> — core 1d10+Stat≥7 (nat1 fail / nat10 pass) · ranged = DEX vs cover, injury = Weapon−Armor≥7 · melee = opposed STR, ties→defender · pass injury = −1 WND (Down at 0), fail = Pinned +1 Stress<br>
+  <b>NERVE</b> — 1+ Stress = Shaken (−1 all rolls) · 2+ = Break test 1d10+NRV−(Stress−1)≥7 (Shaken −1 excluded) → pass clears all Stress, fail = Bolt(2)/Broken(3)/BugOut(4+)<br>
   <b>DIALS</b> — weapon dmg +0/+1/+2/+3 · armor 0/−1/−2 (injury only) · cover 0/−1/−2/−3 · stat cap +6 · paths unlock at +2/+4/+6<br>
   <b>NOTE</b> — probabilities in tabs 1–5 are <i>exact</i> (full enumeration). The Duel tab is Monte-Carlo. Rules mirror the Obsidian vault; if a number changes there, change it here.
 </div>
@@ -583,12 +585,27 @@ function binomAtLeast(n,k,p){let s=0;for(let i=k;i<=n;i++)s+=comb(n,i)*Math.pow(
 /* ---------- unit profiles (localStorage) ---------- */
 const PROF_KEY='settlements_bench_profiles_v1';
 let PROFILES=loadProfiles();
+const STARTER_ROSTER=[
+  {name:'Brawler',          mode:'melee',  str:4,dex:1,agi:2,int:1,nrv:2, wnd:1,dmg:2,arm:-1,cov:0}, // melee bruiser
+  {name:'Gunner',           mode:'ranged', str:1,dex:4,agi:2,int:1,nrv:1, wnd:1,dmg:3,arm:0, cov:0}, // marksman
+  {name:'Techie',           mode:'ranged', str:1,dex:2,agi:2,int:4,nrv:1, wnd:1,dmg:1,arm:0, cov:0}, // hacker/medic, weak combat
+  {name:'Builder',          mode:'melee',  str:3,dex:1,agi:1,int:3,nrv:2, wnd:1,dmg:2,arm:-1,cov:0}, // haul + construct (STR+INT)
+  {name:'Objective Grabber',mode:'melee',  str:1,dex:2,agi:4,int:2,nrv:2, wnd:1,dmg:1,arm:0, cov:0}, // fast runner (AGI)
+  {name:'Heavy Gunner',     mode:'ranged', str:3,dex:3,agi:1,int:1,nrv:2, wnd:1,dmg:3,arm:-1,cov:0}, // big gun (STR+DEX)
+  {name:'Quick Muscle',     mode:'melee',  str:3,dex:1,agi:3,int:1,nrv:2, wnd:1,dmg:2,arm:-1,cov:0}, // charge & hit (STR+AGI)
+  {name:'Jack of All Trades',mode:'melee', str:2,dex:2,agi:2,int:2,nrv:2, wnd:1,dmg:2,arm:0, cov:0}  // 2s across the board
+];
+function withIds(list){return list.map((p,i)=>({id:'seed-'+i+'-'+p.name.replace(/\W+/g,'').toLowerCase(),...p}));}
 function loadProfiles(){
   try{const s=localStorage.getItem(PROF_KEY);if(s){const a=JSON.parse(s);if(Array.isArray(a)&&a.length)return a;}}catch(e){}
-  return [
-    {id:'seed-brawler',name:'Brawler',mode:'melee',str:4,dex:1,agi:2,int:1,nrv:2,wnd:1,dmg:2,arm:-1,cov:0},
-    {id:'seed-gunner',name:'Gunner',mode:'ranged',str:1,dex:4,agi:2,int:1,nrv:1,wnd:1,dmg:3,arm:0,cov:0}
-  ];
+  return withIds(STARTER_ROSTER);
+}
+function loadStarterRoster(){
+  const have=new Set(PROFILES.map(p=>p.name.toLowerCase()));
+  let added=0;
+  STARTER_ROSTER.forEach((p,i)=>{ if(!have.has(p.name.toLowerCase())){PROFILES.push({id:'p'+Date.now()+'-'+i,...p});added++;} });
+  saveProfiles();renderProfiles();
+  alert(added ? added+' starter profile(s) added.' : 'All starter profiles are already in your list.');
 }
 function saveProfiles(){try{localStorage.setItem(PROF_KEY,JSON.stringify(PROFILES));}catch(e){}}
 function profById(id){return PROFILES.find(p=>p.id===id);}
@@ -797,31 +814,39 @@ function readFighter(p){
   };
 }
 // one attack from att onto def, mutate def state; returns text
+// Shaken: a unit with 1+ Stress takes -1 to every roll it makes (to-hit AND injury; defender's opposed roll too).
 function attack(att,def,stress,logArr){
   let hit=false, note='';
+  const sk = (stress && att._st>=1)?1:0;
   if(att.mode==='ranged'){
-    const h=coreRoll(att.dex+def.cov);
-    hit=h.ok; note=`${att.n} shoots (d${h.d}→${h.total}) `;
+    const h=coreRoll(att.dex+def.cov-sk);
+    hit=h.ok; note=`${att.n} shoots (d${h.d}→${h.total})${sk?' [shaken -1]':''} `;
   }else{
+    const dk = (stress && def._st>=1)?1:0;
     const a=d10(),b=d10();
-    hit=(a+att.str)>(b+def.str); // ties to defender
-    note=`${att.n} strikes (${a+att.str} v ${b+def.str}) `;
+    hit=(a+att.str-sk)>(b+def.str-dk); // ties to defender
+    note=`${att.n} strikes (${a+att.str-sk} v ${b+def.str-dk})${sk?' [shaken -1]':''} `;
   }
-  if(!hit){ if(stress){def._st=(def._st||0);} note+='miss'; logArr&&logArr.push(note); return; }
-  const inj=coreRoll(att.dmg+def.arm);
+  if(!hit){ note+='miss'; logArr&&logArr.push(note); return; }
+  const inj=coreRoll(att.dmg+def.arm-sk);
   if(inj.ok){ def._w-=1; note+=`→ WOUND (${Math.max(0,def._w)} left)`; if(stress)def._st=(def._st||0)+1; }
   else { note+='→ pinned'; if(stress){def._st=(def._st||0)+1; def._pinned=true;} }
   logArr&&logArr.push(note);
 }
+// Break test — End Phase, 2+ Stress only. 1d10 + NRV - (Stress-1) >= 7 (Shaken -1 excluded).
+// nat10 auto-pass, nat1 auto-fail. Pass → clear all Stress. Fail → break by level, -1 Stress.
 function nervePhase(u,logArr){
-  if(!(u._st>0)) return;
-  // faithful to the vault: Nerve test = 1d10 + NRV vs the Stress total; fall short = crack
-  const d=d10(); const crack = (d+u.nrv) < u._st && d!==10;
-  if(crack){ u._skip=true; logArr&&logArr.push(`  ${u.n} cracks under Stress ${u._st} (d${d}+${u.nrv}) — loses next attack`); u._st=Math.max(0,u._st-u.nrv);}
-  else { u._st=Math.max(0,u._st-u.nrv); }
+  if(!(u._st>=2)) return; // 1 Stress = Shaken only, no test
+  const d=d10(), pen=u._st-1;
+  const pass = d===10 || (d!==1 && (d+u.nrv-pen)>=7);
+  if(pass){ logArr&&logArr.push(`  ${u.n} steadies (d${d}+${u.nrv}-${pen}) — clears Stress`); u._st=0; return; }
+  const state = u._st>=4?'BugOut' : u._st===3?'Broken':'Bolt';
+  u._st=Math.max(0,u._st-1);
+  if(state==='BugOut'){ u._out=true; logArr&&logArr.push(`  ${u.n} BUGS OUT (d${d}) — routs off the board, removed`); }
+  else { u._skip=true; logArr&&logArr.push(`  ${u.n} ${state==='Bolt'?'BOLTS':'is BROKEN'} (d${d}+${u.nrv}-${pen}) — loses next activation`); }
 }
 function simFight(A,B,first,stress,logArr){
-  const a={...A,_w:A.wnd,_st:0,_skip:false}, b={...B,_w:B.wnd,_st:0,_skip:false};
+  const a={...A,_w:A.wnd,_st:0,_skip:false,_out:false}, b={...B,_w:B.wnd,_st:0,_skip:false,_out:false};
   let turn = first==='a'?0 : first==='b'?1 : (Math.random()<.5?0:1);
   for(let round=1;round<=30;round++){
     logArr&&logArr.push(`— round ${round} —`);
@@ -832,7 +857,11 @@ function simFight(A,B,first,stress,logArr){
       if(def._w<=0){ logArr&&logArr.push(`  ${def.n} is DOWN — ${att.n} wins`); return att===a?'A':'B'; }
       turn=1-turn;
     }
-    if(stress){ nervePhase(a,logArr); nervePhase(b,logArr); }
+    if(stress){
+      nervePhase(a,logArr); nervePhase(b,logArr);
+      if(a._out){ logArr&&logArr.push(`  ${a.n} routed — ${b.n} wins`); return 'B'; }
+      if(b._out){ logArr&&logArr.push(`  ${b.n} routed — ${a.n} wins`); return 'A'; }
+    }
   }
   return 'draw';
 }
