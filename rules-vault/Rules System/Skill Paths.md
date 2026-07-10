@@ -44,7 +44,7 @@ Each skill costs **1 skill point**. There are no skill prerequisites: investment
 > - **Tier 3 — Amazing:** campaign-earned, fight-swinging abilities.
 > - A modifier from a skill is conditional and the final modifier on any roll cannot exceed **+3 or −3**.
 > - Unless a skill explicitly says otherwise, a fighter still makes at most **one attack per activation**.
-> - Terms marked **provisional** are collected below for the dedicated [[Conditions]] pass.
+> - Every condition a skill applies is defined in **[[Conditions]]** — skills apply conditions, they never redefine them.
 
 ## Combat / Muscle (STR)
 ### Tier 1 — Good
@@ -106,7 +106,7 @@ Each skill costs **1 skill point**. There are no skill prerequisites: investment
 - **Pin Them Down** — When your ranged attack hits but fails its Injury roll, the target becomes Suppressed instead of Pinned. *(Suppressor · Ranged DPS)*
 - **Breach Window** — When an ally in your LOS destroys, opens or moves terrain, immediately Spot one newly revealed enemy within 18" until the end of the round. *(Spotter · STR/INT combo)*
 - **Running Read** — After Moving at least 5", choose one enemy you crossed LOS to during that Move; it is Spotted by you until the end of the round. *(Scout · AGI combo)*
-- **Calm Under Fire** — Pinned does not prevent you from taking Ready, Spot or terrain-trigger Actions. Ignore Shook's −1 modifier on tests made for those Actions. *(Overwatch · NRV combo)*
+- **Calm Under Fire** — Pinned does not prevent you from taking Ready, Spot or terrain-trigger Actions. Ignore Shaken's −1 modifier on tests made for those Actions. *(Overwatch · NRV combo)*
 
 ### Tier 3 — Amazing
 - **Dead Eye** — Gain +1 on one ranged attack if you did not Move and the target has no cover. *(Sniper · Ranged DPS)*
@@ -179,7 +179,7 @@ Each skill costs **1 skill point**. There are no skill prerequisites: investment
 - **Trap Relay** — As an Action, pass an INT test to link up to three armed electronic traps within 6". Until your next activation, when one linked trap triggers normally, trigger one other linked trap whose normal conditions are met. A trap triggered by Trap Relay cannot trigger this skill, and each linked trap can trigger at most once. *(Trapper · Area control)*
 - **Power Broker** — As an Action at a power control, pass an INT test to disable one Linked Powered system and activate, restore or use the printed overcharge effect of another until your next activation. *(Engineer · Hacker buffer)*
 - **Forensic Sweep** — As an Action at a body, terminal, trap or objective, pass an INT test to identify the last interaction, its direction and one tool used; on 9+, reveal deliberate tampering. *(Intel support · Objective specialist)*
-- **Tactical Uplink** — As an Action at a camera, sensor or terminal, pass an INT test and choose two allies visible to it; each ignores Blind or Shook for their next single Action. *(Hacker buffer · Intel support)*
+- **Tactical Uplink** — As an Action at a camera, sensor or terminal, pass an INT test and choose two allies visible to it; each ignores Blind or Shaken for their next single Action. *(Hacker buffer · Intel support)*
 - **Shepherd Alarm** — As an Action, hack an alarm or sensor to suppress its next trigger or redirect it to one Linked alarm zone. It cannot fabricate targets. *(Hacker debuffer · Controller)*
 
 ### Tier 3 — Amazing
@@ -187,11 +187,11 @@ Each skill costs **1 skill point**. There are no skill prerequisites: investment
 - **Kaboom** — As an Action, hack or wire one visible Explosive or Powered hazard within 6". Detonate it now or set one specific trigger; its normal profile counts as your one attack. *(Hacker DPS · Trapper)*
 - **Blackout Protocol** — As an Action at a power node, pass a 9+ INT test to disable all Linked lights, cameras, alarms and unlocked doors in one defined zone until your next activation. *(Hacker nerfer · Area controller)*
 - **Rewrite Killbox** — As an Action at a security terminal, win an opposed INT test to make up to two Linked turrets treat your allies as authorised and prevent their controller firing them remotely until your next activation. *(Hacker buffer · Hacker nerfer)*
-- **Trauma Reset** — As an Action beside a Down fighter with medical supplies, pass an 11+ INT test to restore them to 1 WND, remove Down and remove one of Bleed, Poison, Blind or Shook. Each casualty can benefit once per encounter. *(Medic · Recovery support)*
+- **Trauma Reset** — As an Action beside a Down fighter with medical supplies, pass an 11+ INT test to restore them to 1 WND, remove Down and remove one of Bleed, Poison, Blind or Shocked. Each casualty can benefit once per encounter. *(Medic · Recovery support)*
 - **Ghost the Network** — As an Action at a terminal, win an opposed INT test so cameras, alarms and access logs on that network ignore your crew until your next activation or until an ally attacks through a controlled system. *(Hacker · Infiltrator)*
 - **Fortify Objective** — As an Action beside an objective, pass an INT test to arm its existing alarm, engage its lock, activate its cover mechanism or require an opposed terminal test to access it for the rest of the encounter. *(Engineer · Objective specialist)*
 - **Minefield Conductor** — As an Action, pass an INT test to control up to three visible electronic mines within 9". Until your next activation, suppress their triggers or trigger one legal mine; it counts as your one attack. *(Hacker DPS · Area controller)*
-- **Predictive Model** — As an Action after observing an enemy or monitored 6" zone, pass an INT test. Choose one: up to two allies within 6" immediately remove Shook, or the first enemy entering that zone before your next activation becomes Pinned. *(Hacker buffer · Debuffer)*
+- **Predictive Model** — As an Action after observing an enemy or monitored 6" zone, pass an INT test. Choose one: up to two allies within 6" each remove 2 Stress, or the first enemy entering that zone before your next activation becomes Pinned. *(Hacker buffer · Debuffer)*
 - **Camo King** — As an Action in Concealing terrain, make yourself and up to two allies within 3" Hidden even if observed. Until your next activation, each may move 2" within connected Concealing terrain without losing Hidden; attacking still ends it. *(Infiltrator · Team support)*
 
 ## Bravery / Morale (NRV)
@@ -208,11 +208,11 @@ Each skill costs **1 skill point**. There are no skill prerequisites: investment
 - **Buddy Check** — If you end your activation adjacent to an ally and neither of you attacked this round, each removes 1 Stress. *(Morale support · Anchor)*
 
 ### Tier 2 — Great
-- **Rally** — As an Action, choose yourself or an ally within 6"; remove 2 Stress or end Shook. *(Morale support)*
+- **Rally** — As an Action, choose yourself or an ally within 6"; remove 2 Stress, or end a Bolt or Broken state. *(Morale support)*
 - **Fearless** — Gain no Stress from seeing an ally become Down, and reduce Stress caused by negative conditions by 1, minimum 0. *(Anchor · Tank)*
 - **Bloodlust** — When your melee attack makes an enemy Down, remove 3 Stress; if the attack misses, gain 1 Stress. *(Berserker · Melee DPS)*
-- **Talk Them Down** — Once per round, when an ally within 3" would Bolt or Break, reduce that state by one step toward Shook and gain 2 Stress yourself. *(Morale support · Anchor)*
-- **Snap Out of It** — As an Action, end Shook or one non-persistent negative condition on an ally within 3"; that ally gains 1 Stress. *(Condition support)*
+- **Talk Them Down** — Once per round, when an ally within 3" fails a Break test, reduce the resulting state one step (BugOut → Broken → Bolt → no state) and gain 2 Stress yourself. *(Morale support · Anchor)*
+- **Snap Out of It** — As an Action, end one non-persistent negative condition on an ally within 3"; that ally gains 1 Stress. *(Condition support)*
 - **Take It on Me** — Once per round, when an ally within 3" gains Stress, take up to 2 of that Stress instead. *(Tank · Protector)*
 - **Dare Me** — As an Action, choose a visible enemy within 8"; it becomes **Provoked** until the end of its next activation. *(Intimidator · Tank)*
 - **No One Left** — As an Action while adjacent to a Down ally, move up to half MOV while carrying them; this movement may leave an Engagement without a free swing. *(Rescuer · Extraction)*
@@ -220,33 +220,19 @@ Each skill costs **1 skill point**. There are no skill prerequisites: investment
 - **Lead from the Front** — Once per round when you spend an Order on an ally within 6", that ally also removes 1 Stress before resolving it. *(Leader · Order support)*
 
 ### Tier 3 — Amazing
-- **Iron Will** — Once per game, automatically pass one Nerve test. Natural 1 still fails. *(Anchor · Stress tank)*
-- **Fanatic** — When a Nerve test would make you Bolt or Break, become **Fight** instead. After that activation, gain 2 Stress. *(Berserker · High-risk melee)*
+- **Iron Will** — Once per game, automatically pass one Break test. Natural 1 still fails. *(Anchor · Stress tank)*
+- **Fanatic** — When a failed Break test would make you Bolt or Broken, become **Fight** instead (BugOut still applies). After that activation, gain 2 Stress. *(Berserker · High-risk melee)*
 - **Unbreakable** — Once per round, you and each friendly within 6" reduce the first Stress gained by 1, minimum 0. *(Anchor · Team support)*
 - **Last Command** — When you become Down, immediately issue one Order to an ally within 6" before resolving Down. Once per game. *(Leader · Last stand)*
-- **Stand Your Ground** — Once per game, when an ally within 3" would Bolt, Break or suffer Insanity, make it Shook instead and gain 3 Stress. *(Anchor · Rescuer)*
+- **Stand Your Ground** — Once per game, when an ally within 3" fails a Break test, it takes no Break state (it stays merely Shaken) and you gain 3 Stress. *(Anchor · Rescuer)*
 - **Terrify** — As an Action, make an opposed NRV test against an enemy within 3". On a win, it gains 2 Stress and becomes **Frightened**. *(Intimidator · Debuffer)*
 - **Master the Moment** — Once per game when you issue an Order, apply it to two eligible allies instead of one. Neither granted Action or Reaction can issue an Order. *(Leader · Order specialist)*
 - **Walk into Fire** — Once per round, when an ally within 3" is targeted by ranged fire, move adjacent and become the target if legal; gain 1 Stress after the attack. *(Tank · Protector)*
 - **Red Mist** — At the start of your activation, gain 3 Stress to add +2 to melee attack rolls until it ends. You cannot Rally or receive an Order that activation. *(Berserker · Melee DPS)*
-- **Clear Heads** — When you roll a natural 10 on a Nerve test, each ally within 6" removes 2 Stress in addition to you clearing all Stress. *(Morale support · Stress controller)*
+- **Clear Heads** — When you roll a natural 10 on a Break test, each ally within 6" removes 2 Stress in addition to you clearing all Stress. *(Morale support · Stress controller)*
 
-## Provisional skill terms
-These are compact working definitions for playtesting. Move them into [[Conditions]] when that section receives its full pass.
-
-- **Braced** — +1 on Nerve tests and reduce the first Stress gained from losing melee by 1. Ends at the start of the fighter's next activation.
-- **Compromised** — The next opposed hack against the device's controller gains +2, then Compromised ends.
-- **Cowed** — −1 on the fighter's next Nerve test, then Cowed ends.
-- **Fight** — On its next activation, the fighter must move by the shortest route toward the nearest visible enemy and attack it if able. It cannot Hide, detour for cover or move away from that enemy.
-- **Frightened** — The fighter cannot React and suffers −1 on Nerve tests until the end of its next activation.
-- **Grappled** — Both fighters remain within 1". The target cannot Move, Charge, Sprint or Disengage and may only attack its grappler or spend its Action on an opposed STR test to escape. The grappler may release it freely or move at half MOV while dragging it.
-- **Hobbled** — Reduce MOV by 2" until the end of the fighter's next activation.
-- **Jammed** — Remote activation and wireless control fail; local and manual operation still work. Ends at the start of the hacker's next activation.
-- **Linked** — Devices explicitly share a terminal or local network. Range alone never makes devices Linked.
-- **Off-Balance** — The fighter cannot Sprint or Charge until the end of its next activation.
-- **Provoked** — The fighter's first attack against anyone except the source suffers −1. Ends after that attack or at the end of its next activation.
-- **Spotted** — The observing fighter has identified the target for named skills until the stated expiry. Spotted does not remove Hidden by itself.
-- **Suppressed** — Counts as Pinned and the fighter cannot React until it clears Pinned.
+## Skill conditions
+Every condition and marker state a skill applies — **Grappled, Suppressed, Off-Balance, Hobbled, Provoked, Braced, Cowed, Frightened, Fight, Spotted, Jammed, Compromised, Linked** — is fully defined in **[[Conditions]]**, alongside the core combat, persistent and Nerve states. Skills only *apply* conditions; they never redefine them.
 
 ## Example role combinations
 - **Tank / bodyguard** — Bodyguard + Living Barricade + Take It on Me or Walk into Fire.

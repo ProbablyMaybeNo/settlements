@@ -33,7 +33,7 @@ Armor reduces the **Injury roll only** — never the hit.
 
 ## Trait glossary
 - **Sidearm** — may fire while Engaged, using DEX, against the Engaged enemy only.
-- **Accurate** — +1 to hit if the unit didn't Move / Sprint / Climb / become Shook this activation.
+- **Accurate** — +1 to hit if the unit didn't Move / Sprint / Climb and isn't Shaken this activation.
 - **Quiet / Loud** — noise level (feeds Heat and detection).
 - **Concealable** — may start Hidden / be smuggled.
 - **Two-Handed** — occupies both hands.
