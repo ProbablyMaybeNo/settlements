@@ -82,12 +82,10 @@ Full status entries in [[Conditions]]. A state governs the unit's **next activat
 > The worst state is now a clean **rout off the table**, not attack-nearest-model. Fits the name and the gritty-realism pillar better than berserk-attacks-allies. Flag to revisit if you want the chaos option back.
 
 ### Recovery
-Stress and Nerve states come off by:
-- **Passing a Break test** (2+ Stress) → clears **all** Stress.
-- A **Leader/Specialist Order** ("Rally") → clears all Stress on a friendly in range.
-- A friendly moving into base contact and spending its **Action** to **Interact** → clears all Stress.
-
-A unit sitting at exactly **1 Stress** never tests — it stays lightly **Shaken** until it climbs to 2+ (and passes a Break test) or is Rallied/steadied. Being rattled sticks until something clears it.
+- **Passing a Break test** (2+ Stress) clears **all** Stress; a **natural 10** always clears all.
+- A unit at **exactly 1 Stress** that gains no new Stress that round sheds it in the End Phase — once the heat lifts, you compose yourself. (At 2+ you can't passively drain a real panic; you must test.)
+- **Everything else is a skill.** Removing Stress before/without a test, shedding it faster, or ending a **Bolt/Broken** state early comes from the **Bravery path** ([[Skill Paths]]) — *Steady, Count Breaths, Rally, Talk Them Down, Iron Will*, and the rest. Deliberately: composure is a build choice, not free.
+- **BugOut can't be rallied** — the unit has already routed. It can only be stopped *at the moment of failure* by *Talk Them Down* or *Stand Your Ground*.
 
 ## Rule ledger
 - [[core-006 Morale and suppression]]
