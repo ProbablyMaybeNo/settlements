@@ -202,7 +202,7 @@ Each skill costs **1 skill point**. There are no skill prerequisites: investment
 - **Dig In** — If you do not Move during your activation, become **Braced** until your next activation. *(Tank · Anchor)*
 - **Keep Moving** — As an Action, choose an ally within 6"; it immediately moves up to 3" without entering enemy contact. *(Leader · Reposition support)*
 - **Stare Down** — As an Action, make an opposed NRV test against one visible enemy within 6". On a win, it gains 1 Stress and becomes **Cowed**. *(Intimidator · Debuffer)*
-- **Feed the Anger** — Before a melee attack, gain 1 Stress to add +1 to that attack. Once per activation. *(Berserker · Melee DPS)*
+- **Feed the Anger** — Before a melee attack, gain 1 Stress to add +1 to that attack **and ignore Shaken's −1 for that activation**. Once per activation. *(Berserker · Melee DPS)*
 - **Drag Clear** — When an ally within 3" becomes Down, move directly toward it up to 3". If you finish adjacent, other allies gain 1 less Stress from that Down event. *(Rescuer · Morale support)*
 - **Count Breaths** — If you neither attacked nor issued an Order during your activation, remove 2 Stress at its end. *(Composure · Stress controller)*
 - **Buddy Check** — If you end your activation adjacent to an ally and neither of you attacked this round, each removes 1 Stress. *(Morale support · Anchor)*
@@ -221,14 +221,14 @@ Each skill costs **1 skill point**. There are no skill prerequisites: investment
 
 ### Tier 3 — Amazing
 - **Iron Will** — Once per game, automatically pass one Break test. Natural 1 still fails. *(Anchor · Stress tank)*
-- **Fanatic** — When a failed Break test would make you Bolt or Broken, become **Fight** instead (BugOut still applies). After that activation, gain 2 Stress. *(Berserker · High-risk melee)*
+- **Fanatic** — When a failed Break test would make you Bolt or Broken, become **Fight** instead (BugOut still applies); while Fighting this way you **ignore Shaken's −1**. After that activation, gain 2 Stress. *(Berserker · High-risk melee)*
 - **Unbreakable** — Once per round, you and each friendly within 6" reduce the first Stress gained by 1, minimum 0. *(Anchor · Team support)*
 - **Last Command** — When you become Down, immediately issue one Order to an ally within 6" before resolving Down. Once per game. *(Leader · Last stand)*
 - **Stand Your Ground** — Once per game, when an ally within 3" fails a Break test, it takes no Break state (it stays merely Shaken) and you gain 3 Stress. *(Anchor · Rescuer)*
 - **Terrify** — As an Action, make an opposed NRV test against an enemy within 3". On a win, it gains 2 Stress and becomes **Frightened**. *(Intimidator · Debuffer)*
 - **Master the Moment** — Once per game when you issue an Order, apply it to two eligible allies instead of one. Neither granted Action or Reaction can issue an Order. *(Leader · Order specialist)*
 - **Walk into Fire** — Once per round, when an ally within 3" is targeted by ranged fire, move adjacent and become the target if legal; gain 1 Stress after the attack. *(Tank · Protector)*
-- **Red Mist** — At the start of your activation, gain 3 Stress to add +2 to melee attack rolls until it ends. You cannot Rally or receive an Order that activation. *(Berserker · Melee DPS)*
+- **Red Mist** — At the start of your activation, gain 3 Stress to add +2 to melee attack rolls **and ignore Shaken's −1** until it ends. You cannot Rally or receive an Order that activation. *(Berserker · Melee DPS)*
 - **Clear Heads** — When you roll a natural 10 on a Break test, each ally within 6" removes 2 Stress in addition to you clearing all Stress. *(Morale support · Stress controller)*
 
 ## Skill conditions

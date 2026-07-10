@@ -10,8 +10,8 @@ First quantified pass over the **dice-testable** skills in [[Skill Paths]]. Engi
 > [!warning] Scope — most skills are NOT dice questions
 > Only ~40 of the ~150 skills resolve to a probability. **Hacking, terrain, spotting, objective-running, positioning, and most control skills** are worth what the **scenario and points cost** make them — you can't Monte-Carlo them without a board. This note covers the flat modifiers, multi-attack, grapple, and the whole Bravery path. Everything else is a **playtest / points** question.
 
-> [!danger] Headline — the "spend Stress for aggression" skills are broken by Shaken
-> **Feed the Anger, Red Mist and Fanatic are traps under the new nerve math.** The culprit is **Shaken-at-1**: the moment a skill gives you Stress you're at −1 to all rolls, so *the bonus you just bought is cancelled on the same activation*. Feed the Anger (+1 melee for +1 Stress) nets **exactly zero** on a clean turn — you gain −1 Shaken and +1 melee, they wash — and then you carry the −1 and the break risk. Red Mist spammed wins **0.7%**. This needs a fix (below), it's the one real casualty of locking Shaken at 1.
+> [!success] Headline — the "spend Stress for aggression" skills were broken by Shaken; now fixed
+> **Feed the Anger, Red Mist and Fanatic were traps under the new nerve math**, because **Shaken-at-1** cancelled the bonus on the same activation you spent the Stress (Feed the Anger netted *exactly zero* on a clean turn — the −1 Shaken and +1 melee washed). **Fixed** by the *"ignore Shaken while raging"* clause, now written into all three in [[Skill Paths]]. Post-fix: Feed the Anger used well is **break-even** (a fair T1); Red Mist and Fanatic read as **situational** rather than trap — see §5.
 
 ## 1 · Flat combat modifiers — raw % bought (exact)
 | Skill | Effect | Base | With | Δ |
@@ -73,29 +73,38 @@ Each skill given to **side A** in a WND-3 mirror; B is plain. Baseline **50%**; 
 | **Dead Eye** | 60% | **+10** | flat +1 ranged |
 | **Iron Will** | 56% | **+6** | one free pass = insurance |
 | **The Muscle** | 54% | **+3** | burst, not attrition (see note) |
-| **Fanatic** | 40% | **−10** | ⚠ self-Stress trap |
-| **Feed the Anger** | 20% | **−30** | ⚠ self-Stress trap |
-| **Red Mist** | 1% | **−49** | ⚠ self-Stress trap |
+| **Feed the Anger** *(once, fixed)* | 49% | **−1** | now break-even; value is the key hit |
+| **Fanatic** *(fixed)* | 43% | **−7** | value is *not routing* — board presence, unmeasured in 1v1 |
+| **Red Mist** *(once, fixed)* | 36% | **−14** | situational nuke — a bad even-fight pick by design |
+
+*Post-fix numbers (the "ignore Shaken while raging" clause is applied). **Never spam the fury skills:** Red Mist spammed every activation = **1.7%**, Feed the Anger spammed = **36%** — one use, at the right moment.*
 
 > [!note] "Low" scores that aren't actually weak
 > **The Muscle (+3%)** and **Iron Will (+6%)** look mild because a pure attrition duel doesn't reward them — The Muscle is a **charge alpha-strike** (its value is the opening kill, not the grind), and Iron Will is **one-per-game insurance**. Both do their job outside the metric. Don't buff them off this number.
 > **Steady / Rattle-Proof (+23%)** are only that strong because WND-3 fights *last*. In a fast **WND-1** fight — the common case — Stress rarely reaches 2, so they're worth close to nothing. Their power **scales with fight length**, so T1 is defensible; revisit if WND-2+ units become normal.
 
-## The self-Stress fix
-Feed the Anger, Red Mist and Fanatic are meant to be **high-risk aggression**, but the current rules make them *self-defeating*, not risky:
-1. **Shaken cancels the bonus.** Gaining Stress → −1 to all rolls → the +1/+2 melee washes out on the very attack it's meant to boost.
-2. **BugOut-at-4 punishes the cost twice.** Red Mist's +3 Stress lands you at the break-4 threshold in one use; Fanatic's +2 rushes you to a *rout* (removed) instead of a survivable skip.
+## The self-Stress fix — APPLIED
+Feed the Anger, Red Mist and Fanatic are meant to be **high-risk aggression**, but pre-fix the rules made them *self-defeating*, not risky:
+1. **Shaken cancelled the bonus.** Gaining Stress → −1 to all rolls → the +1/+2 melee washed out on the very attack it was meant to boost.
+2. **BugOut-at-4 punished the cost twice.** Red Mist's +3 Stress lands you at the break-4 threshold in one use; Fanatic's +2 rushes you to a *rout* (removed) instead of a survivable skip.
 
-> [!success] Recommended fix — "ignore Shaken while raging"
-> While a fighter is using **Feed the Anger / Red Mist** (and while **Fight**-driven via **Fanatic**), **ignore Shaken's −1** for that activation. Now the bonus is real (Feed the Anger = a true net +1, not 0) and the *only* cost is the break risk — which is the intended gamble. Red Mist stays a **one-shot nuke** (one use ≈ Broken-risk end of round, two = BugOut), which is correct for a "Berserker, high-risk" T3. This is a one-line clause on three skills, no system change.
-> Alternative if you'd rather not touch the skills: **self-inflicted Stress doesn't impose Shaken on the activation it's spent** (a general rule) — cleaner conceptually, slightly wider blast radius.
+> [!success] Fix (now in [[Skill Paths]]) — "ignore Shaken while raging"
+> While using **Feed the Anger / Red Mist** (and while **Fight**-driven via **Fanatic**), the fighter **ignores Shaken's −1** for that activation. The bonus is now real and the *only* cost is the break risk — the intended gamble.
+
+| Skill | Before | After (used once) |
+|---|:--:|:--:|
+| Feed the Anger | −30% (net-zero trap) | **−1% — break-even** |
+| Fanatic | −10% | **−7% — Fight turns now land** |
+| Red Mist | −49% | **−14% — real +2, still a nuke** |
+
+Red Mist stays a **one-shot nuke** by design (one use ≈ Broken-risk that round, two = BugOut) — correct for a "Berserker, high-risk" T3; it's a finisher, not an even-fight tool.
 
 ## Takeaways
 1. ✅ **Flat modifiers, multi-attack, grapple and composure are all correctly priced** — the +10%/point spine holds and the conditional +2s are strong-but-gated.
 2. 💥 **A second attack (Quick Shot / Dual Wield) is the biggest DPS lever** — keep the no-Reaction / no-Charge riders.
 3. 🧊 **Composure scales with fight length** — huge in WND-3, near-nil in WND-1. Fine at T1 while WND-1 is the norm; watch it.
 4. 🔒 **STR grapplers are a hard lock** — points-cost or scenario counters needed so they don't neutralise single elites for free.
-5. ⚠️ **Fix the self-Stress cluster** (Feed the Anger / Red Mist / Fanatic) with the "ignore Shaken while raging" clause — the only real balance casualty of Shaken-at-1.
+5. ✅ **Self-Stress cluster fixed** (Feed the Anger / Red Mist / Fanatic) with the "ignore Shaken while raging" clause — Feed the Anger is now break-even, Red Mist a correct situational nuke. The only balance casualty of Shaken-at-1, now closed.
 
 ---
 *Not covered (needs board/scenario/points, not dice): all INT/hacking, terrain & positioning, spotting, objective, and team-support skills (Rally, Talk Them Down, Bodyguard, etc.). Next pass worth running: multi-model fights so team-support and Grapple-vs-focus-fire actually register.*
