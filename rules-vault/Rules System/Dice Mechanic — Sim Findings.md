@@ -126,6 +126,9 @@ Fight length and how often a unit *cracks* under Stress:
 > The Stress/Nerve system **almost never triggers** in a 1v1 — even in long WND-3 fights. Two reasons: (1) at WND 1 fights end on the first wound before Stress can build, and (2) the End-Phase Nerve test **sheds NRV-worth of Stress every round**, so it drains faster than a single attacker piles it on. As modelled, morale is inert.
 > *Caveat:* the sim only models Stress from being wounded/pinned — the full [[Morale]] rules add more triggers (targeted by ranged, friendly Down in LOS, losing melee). In a **multi-model** game those stack much faster, so this may self-correct at real crew scale. But it's worth a deliberate test: if we want Stress to matter, we likely need **more/heavier triggers, slower shedding, or a lower crack threshold**.
 
+> [!note] System revised since this sim (2026-07-09)
+> The Nerve system was reworked after these runs. **Shook is now the always-on "Shaken" state** — any 1+ Stress = −1 to all rolls, no roll. **Break tests only start at 2+ Stress** (`1d10 + NRV − (Stress−1) ≥ 7`, Shaken's −1 excluded), failing into **Bolt (2) / Broken (3) / BugOut (4+)**. The −1-severity analysis below still holds (Shaken *is* that −1); the old margin-ladder above it is superseded — see [[Morale]].
+
 ### The Shook −1 — is it the right penalty? (added 2026-07-09)
 The real question isn't whether Stress *fires* (more triggers are coming) — it's whether **Shook's −1-to-all-rolls** is the right severity. **Shook is the mildest and most common crack** (fail by 1–2), so it's what most morale failures feel like. What −1 actually costs (40k rolls each):
 

@@ -41,7 +41,7 @@ The Rules column should nail down:
 - End Phase:
   1. Refresh Actions, Orders and Reactions.
   2. Resolve persistent conditions (Fire, Poison, etc.) — see [[Conditions]].
-  3. **Nerve tests** — every unit with 1+ Stress tests. See [[Morale]].
+  3. **Break tests** — every unit with **2+ Stress** tests (1 Stress = Shaken, no test). See [[Morale]].
   4. Score objectives / victory points.
 
 ---
@@ -138,7 +138,8 @@ Highest total wins.
 ---
 
 ### Nerve / Stress
-- Fear, suppression and morale are all handled by the **Stress** system, tested against **NRV** in the End Phase.
+- Fear, suppression and morale are all handled by the **Stress** system, tested against **NRV**.
+- **1+ Stress = Shaken:** −1 to all rolls (always-on). **2+ Stress:** also a **Break test** in the End Phase.
 - Stress does **not** affect Priority.
 - Full rules: [[Morale]].
 

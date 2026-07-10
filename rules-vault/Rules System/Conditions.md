@@ -40,10 +40,10 @@ A condition is a status token on a unit. Combat conditions come from [[Damage]];
 - **Hidden** — −3 to be hit. Gained by the **Hide** action in [[Terrain|Concealing terrain]] or from gear/skill; lost on moving, shooting, or being revealed.
 
 ### Nerve states (from [[Morale]])
-- **Shook** — −1 to all rolls until end of round.
-- **Bolt** — flees toward the nearest board edge, using cover.
-- **Break** — frozen; cannot act.
-- **Insanity** — attacks the nearest model, friend or foe.
+- **Shaken** — any unit with **1+ Stress**: −1 to all rolls. Always-on, doesn't stack, no test. Clears when all Stress clears.
+- **Bolt** — flees toward the nearest board edge, using cover. *(Break test fail at Stress 2.)*
+- **Broken** — frozen; cannot act. *(fail at Stress 3.)*
+- **BugOut** — routs off the nearest board edge and is removed from play. *(fail at Stress 4+.)*
 
 ### Persistent conditions (resolve in the End Phase)
 - **Fire** — an Injury roll each End Phase until the unit spends an action to put it out; +1 Stress.

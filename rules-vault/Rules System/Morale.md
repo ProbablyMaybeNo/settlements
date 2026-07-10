@@ -31,7 +31,7 @@ The Rules column should nail down:
 ## Working rules / decisions
 
 ### Stress
-Stress represents fear, panic, suppression and shock. It is tracked as points on a unit and tested against **NRV**.
+Stress represents fear, panic, suppression and shock. It is tracked as points on a unit and tested against **NRV**. Stress does **two separate jobs** — a small always-on penalty, and a break test once it piles up.
 
 **A unit gains +1 Stress when it:**
 - Is targeted by a ranged attack (hit *or* miss)
@@ -40,32 +40,54 @@ Stress represents fear, panic, suppression and shock. It is tracked as points on
 - Gains a negative condition (Fire, Poison, Pinned, etc.)
 - Has a friendly go **Down** within line of sight
 
-### Nerve test — End Phase
-Every unit with **1+ Stress** tests:
+> [!info] More triggers are coming
+> The sim shows Stress from combat alone barely fires in a 1v1 ([[Dice Mechanic — Sim Findings]]). That's expected — most Stress will come from **skills, hazards, terrain and scenario events**, which stack far faster at crew scale. Tune trigger *frequency* before touching the numbers below.
 
-`1d10 + NRV` — if the result is **under its Stress total**, the unit **cracks**.
+### Shaken — the always-on penalty
+Any unit with **1+ Stress is Shaken: −1 to all rolls.** Flat, passive, no test — it does **not** grow with more Stress. This is the reliable "under fire, rattled, shooting worse" effect, and it is the *only* thing 1 Stress does. You risk actually breaking only once Stress reaches 2.
 
-The **margin of failure** sets the severity:
+### Break test — End Phase, 2+ Stress
+Every End Phase, each unit with **2+ Stress** tests:
 
-| Fail by | State |
+`1d10 + NRV − (Stress − 1)` vs **7+**
+
+- The first Stress point is a free buffer — it costs you the −1, not the test.
+- The **Shaken −1 does not apply to this roll.** Stress is already in the formula; don't double-count it.
+- **Natural 10 →** auto-pass. **Natural 1 →** auto-fail.
+
+- **Pass →** the unit steadies: remove **all** Stress.
+- **Fail →** the unit **breaks** into the state set by its Stress level, then removes **1** Stress:
+
+| Stress | Break state |
 |:---:|---|
-| 1–2 | **Shook** |
-| 3–4 | **Bolt** |
-| 5–6 | **Break** |
-| 7+ *(or Nat 1)* | **Insanity** |
+| 2 | **Bolt** |
+| 3 | **Broken** |
+| 4+ | **BugOut** |
 
-- **Pass →** the unit steadies: remove Stress equal to its **NRV** (min 0).
-- **Natural 10 →** auto-steady, clear **all** Stress.
+**Chance of breaking** on a failed roll (`1 − pass%`):
+
+| NRV | 2 → Bolt | 3 → Broken | 4 → BugOut |
+|:---:|:---:|:---:|:---:|
+| +0 | 70% | 80% | 90% |
+| +2 | 50% | 60% | 70% |
+| +4 | 30% | 40% | 50% |
 
 ### Nerve states
-Full status entries in [[Conditions]]:
-- **Shook** — −1 to all rolls until end of round.
+Full status entries in [[Conditions]]. A state governs the unit's **next activation**; it clears when the unit passes its next Break test or is steadied by Rally/Interact.
 - **Bolt** — flees toward the nearest board edge, hugging cover.
-- **Break** — freezes; cannot act.
-- **Insanity** — attacks the nearest model, friend or foe (Shoots if DEX > STR, else Charges).
+- **Broken** — freezes; cannot act.
+- **BugOut** — routs: moves full speed off the nearest board edge and is **removed from play** (a casualty).
+
+> [!question] BugOut replaces the old "Insanity"
+> The worst state is now a clean **rout off the table**, not attack-nearest-model. Fits the name and the gritty-realism pillar better than berserk-attacks-allies. Flag to revisit if you want the chaos option back.
 
 ### Recovery
-A Nerve state clears at the End Phase (re-test), when a friendly moves into base contact and **Interacts**, or via a Leader/Specialist **Order**.
+Stress and Nerve states come off by:
+- **Passing a Break test** (2+ Stress) → clears **all** Stress.
+- A **Leader/Specialist Order** ("Rally") → clears all Stress on a friendly in range.
+- A friendly moving into base contact and spending its **Action** to **Interact** → clears all Stress.
+
+A unit sitting at exactly **1 Stress** never tests — it stays lightly **Shaken** until it climbs to 2+ (and passes a Break test) or is Rallied/steadied. Being rattled sticks until something clears it.
 
 ## Rule ledger
 - [[core-006 Morale and suppression]]
