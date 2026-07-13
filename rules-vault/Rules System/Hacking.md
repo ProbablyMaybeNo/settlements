@@ -34,7 +34,7 @@ The Rules column should nail down:
 - How turrets, cameras, doors, and alarms plug in without a second dice mechanic.
 
 ## Inherits from the engine
-> [!info] Recall — hacking reuses the [[Rules Engine#Universal Resolution Mechanic|core test]] and [[Rules Engine#Opposed Tests|opposed tests]]. Range is a **modifier**, not a new target number. Feature **Down** / **Destroyed** and device states (**Jammed**, **Linked**, **Compromised**) live in [[Terrain Interaction#Feature damage]] and [[Conditions]].
+> [!info] Recall — hacking reuses the [[Rules Engine#Universal Resolution Mechanic|core test]] and [[Rules Engine#Opposed Tests|opposed tests]]. Range is a **modifier**, not a new target number. Feature **Offline** / **Destroyed** and device states (**Jammed**, **Linked**, **Compromised**) live in [[Terrain Interaction#Feature damage]] and [[Conditions]].
 
 ![[core-000 Core Test#Text]]
 
@@ -99,9 +99,9 @@ Use this when you want to attack another operator instead of a terrain feature.
 |:---:|---|
 | 1–2 | **Glitch** — nothing extra |
 | 3–5 | **Shut down** — defending terminal is **Jammed** / offline until the end of the defender's **next activation** |
-| 6–7 | **Destroyed** — defending terminal goes **Down** (see [[Terrain Interaction#Feature damage]]; Repairable; second Down = removed) |
+| 6–7 | **Destroyed** — defending terminal goes **Offline** (see [[Terrain Interaction#Feature damage]]; Repairable; second hit = removed) |
 | 8–9 | **Take Over** — attacker becomes controller of that terminal **this activation** and may immediately resolve **one** Linked function measured from *that* terminal's range bands (turret fire still counts as the attack) |
-| 10 | **Overload** — terminal goes **Down** + defending hacker takes an automatic hit: Injury `1d10 + 0 − Armor` vs **7+** |
+| 10 | **Overload** — terminal goes **Offline** + defending hacker takes an automatic hit: Injury `1d10 + 0 − Armor` vs **7+** |
 
 > [!question] Playtest dials
 > - **Take Over** on 8–9 may snowball — consider **10 only** if games swing too hard.

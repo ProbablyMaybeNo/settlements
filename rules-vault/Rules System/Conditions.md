@@ -43,7 +43,8 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 
 ### Core combat conditions
 - **Pinned** — must spend its **Move** to clear before doing anything else; may still Shoot (Action slot) but cannot Move, Charge or Sprint. Persists until cleared.
-- **Down** — prone and out of the fight; no normal actions. Attacks against it auto-hit (Injury roll still made; a pass finishes it). Stabilize by the end of its next activation or it bleeds out — full rules in [[Damage]].
+- **Down** — prone and out of the fight; no normal actions. Only **ranged / hazard** hits leave a unit Down — a **melee** kill goes straight to **Out of Action**. **Heavy cover vs ranged unless in the open**; a **melee / engaged** attack **auto-hits** to finish it (Injury roll still made, a pass = Out), but **ranged attacks resolve normally**. Stabilize by the end of its next activation or it bleeds out — full rules in [[Damage]].
+- **Prone** — knocked flat by a fall, slip, or being forced off a ledge (*not* an injury). **Heavy cover vs ranged unless in the open**; cannot Shoot, Charge or Sprint. **Standing up costs the whole activation** (Move + Action). Not bleeding and not auto-hit — that line is what separates Prone from Down.
 - **Hidden** — **−3 to be hit.** Earned via the **Hide** action in Concealing terrain, or from gear/skill. Lost on moving (except where a skill allows it), shooting, or being revealed.
 
 ### Control conditions (from skills, weapons and terrain)

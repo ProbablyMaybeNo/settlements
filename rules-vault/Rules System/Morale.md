@@ -38,7 +38,9 @@ Stress represents fear, panic, suppression and shock. It is tracked as points on
 - Is hit by a ranged attack
 - Loses a melee
 - Gains a negative condition (Fire, Poison, Pinned, etc.)
-- Has a friendly go **Down** within line of sight
+- Has a friendly go **Down** or **Out of Action** within line of sight
+
+**Environmental Stress** = Stress from the board itself — hazards, weather, fire, smoke, cold — as opposed to *combat* Stress (being shot or fought). Some gear ignores the first Environmental Stress each game (e.g. Thick clothing, [[Weapons]]).
 
 > [!info] More triggers are coming
 > The sim shows Stress from combat alone barely fires in a 1v1 ([[Dice Mechanic — Sim Findings]]). That's expected — most Stress will come from **skills, hazards, terrain and scenario events**, which stack far faster at crew scale. Tune trigger *frequency* before touching the numbers below.

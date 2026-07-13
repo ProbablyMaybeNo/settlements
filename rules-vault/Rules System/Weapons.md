@@ -49,7 +49,7 @@ Armor reduces the **Injury roll only** — never the hit.
 - **Sledgehammer** — Melee · +2 · *Breach, Slow, Two-Handed*
 - **Pistol** — 8" · +2 · *Sidearm, Loud, Concealable*
 - **Shotgun** — 10" · +3 close / +1 long · *Brutal, Loud, Spread, Two-Handed*
-- **Rifle** — 18" · +3 · *Accurate if Braced, Loud, Awkward, Two-Handed*
+- **Rifle** — 18" · +3 · *Accurate, Loud, Awkward, Two-Handed*
 - **Molotov** — 6" · +1 · *Fire, Blast, Loud, Unstable*
 
 ---

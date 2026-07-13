@@ -56,8 +56,8 @@ When two units contest the same object at the same time, use an **Opposed Test**
 |Domain|Stat|Examples|
 |---|---|---|
 |Force / haul|STR|Force door, Smash, Lift|
-|Mechanical precision|DEX|Lockpick, set/disarm mechanical trap|
-|Digital / knowledge|INT|Hack, Search, Repair feature, electronic trap|
+|Mechanical precision|DEX|Lockpick, **lay/disarm traps** (mechanical & electronic devices)|
+|Digital / knowledge|INT|Hack, Search, **Build/Repair feature**, ID terrain|
 |Climb / vault / leap|AGI|Move-slot tests (see [[Movement]] / [[Terrain]]) — not an Interact|
 
 ### Interaction verbs
@@ -109,14 +109,14 @@ Applies to interactive features (turrets, traps, vents, terminals, cameras, al
 - WND 1
 - Armor −2 (heavy)
 - Cover: Heavy (−2) to be hit, unless the attacker is within 6" → Open (0)
-- Hit + successful Injury → feature goes Down (non-functional; still on the board as terrain/LOS)
+- Hit + successful Injury → feature goes **Offline** (non-functional; still on the board as terrain/LOS)
 - Repair: adjacent Interact, INT, 7+ → restore to 1 WND and online (Jury-Rig may auto-succeed)
-- If a Down feature is Injured again → Destroyed, removed for the rest of the battle
+- If an **Offline** feature is Injured again → Destroyed, removed for the rest of the battle
 
-Untriggered traps can be damaged this way. A trap that has already triggered is spent — don't use Down to cancel a boom mid-trigger.
+Untriggered traps can be damaged this way. A trap that has already triggered is spent — don't use **Offline** to cancel a boom mid-trigger.
 
 ### Hacking
-Operating terminals, Linked networks, range bands, and hacker-vs-hacker shut-outs live in **[[Hacking]]**. Feature **Down** / **Destroyed** on terminals still uses the Feature damage rules above.
+Operating terminals, Linked networks, range bands, and hacker-vs-hacker shut-outs live in **[[Hacking]]**. Feature **Offline** / **Destroyed** on terminals still uses the Feature damage rules above.
 
 ### In-battle repair / settlement hook
 
@@ -147,10 +147,7 @@ Trigger: first enemy meeting the condition sets it off once, then spent. Fits R
 
 Find: Threat Scan, or opposed INT vs the placer for a concealed trap.
 
-Disarm:
-
-- Mechanical → DEX Interact, 7+ (nat 1 = boom)
-- Electronic → INT Interact, 7+, or via Jam Signals / Linked terminal / related skills
+Disarm (either type) → **DEX** Interact, 7+ (nat 1 = boom). A trap wired into a **Linked** network can *alternatively* be neutralised by hacking the network (**INT** — Jam Signals / Linked terminal / related skills, see [[Hacking]]).
 
 Deployables: Lifted scatter (Blocked openings), carried traps, settlement turrets/terminals.
 
