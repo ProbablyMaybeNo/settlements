@@ -37,7 +37,7 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 ### General rules
 - **Tokens.** Every condition is one token beside the model. If a unit has no token, it has no condition — nothing is tracked in your head.
 - **No stacking.** The same condition never applies twice. Reapplying it refreshes its duration; it does not deepen the effect.
-- **Stress hook.** Gaining a negative condition gives **+1 Stress** (see [[Morale]]) — the *first* time it's applied, not on a refresh.
+- **Stress hook.** Gaining a negative condition gives **+1 Stress** (see [[Morale]]) — the *first* time it's applied, not on a refresh. **Exception: Pinned and Shaken** — their +1 *is* the non-wounding-hit result, so don't count it twice.
 - **Modifier cap.** However many conditions a unit carries, the total modifier on any single roll never exceeds **−3** (or +3). Conditions past the cap still matter — they still restrict actions and still have to be cleared.
 - **Timing.** "Until the End Phase" clears in step 2 of the End Phase ([[Rules Engine#Turn / Round Structure]]). "Until the end of its next activation" clears when that activation ends, even if the unit did nothing.
 

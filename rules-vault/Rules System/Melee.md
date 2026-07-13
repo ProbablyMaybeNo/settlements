@@ -56,7 +56,7 @@ Melee is an **opposed** test — a brawler really is harder to hit than a shakin
 - **Charge vs Move-in:** charging needs LOS (terrain blocking sight blocks the charge) and grants +1; moving in works anywhere but gives no bonus. That's the trade.
 
 ### Losing a melee
-The loser gains **+1 Stress** (see [[Morale]]).
+The loser takes the **Injury roll** ([[Damage]]): a **wound** costs a WND (→ **Out of Action** at 0), while a **non-wounding** blow gives **+1 Stress** (**Shaken**, −1 next turn — [[Morale]]). One or the other, never both.
 
 ## Rule ledger
 - [[core-003 Melee]]

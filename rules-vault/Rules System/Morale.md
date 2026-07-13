@@ -34,11 +34,10 @@ The Rules column should nail down:
 Stress represents fear, panic, suppression and shock. It is tracked as points on a unit and tested against **NRV**. Stress does **two separate jobs** — a small always-on penalty, and a break test once it piles up.
 
 **A unit gains +1 Stress when it:**
-- Is targeted by a ranged attack (hit *or* miss)
-- Is hit by a ranged attack
-- Is hit in melee but not wounded (a non-wounding blow → Shaken)
-- Gains a negative condition (Fire, Poison, Pinned, etc.)
+- Takes a **non-wounding hit** — the **Pinned** (ranged) or **Shaken** (melee) result of a failed Injury roll. *(Every hit does exactly one thing — it **wounds** or it **stresses**, never both; a clean **miss** does nothing.)*
+- Gains a negative condition (Fire, Poison, Blind, Shocked)
 - Has a friendly go **Down** or **Out of Action** within line of sight
+- Suffers a hazard, skill, or scenario effect that says so
 
 **Environmental Stress** = Stress from the board itself — hazards, weather, fire, smoke, cold — as opposed to *combat* Stress (being shot or fought). Some gear ignores the first Environmental Stress each game (e.g. Thick clothing, [[Weapons]]).
 
@@ -46,7 +45,7 @@ Stress represents fear, panic, suppression and shock. It is tracked as points on
 > The sim shows Stress from combat alone barely fires in a 1v1 ([[Dice Mechanic — Sim Findings]]). That's expected — most Stress will come from **skills, hazards, terrain and scenario events**, which stack far faster at crew scale. Tune trigger *frequency* before touching the numbers below.
 
 ### Shaken — the always-on penalty
-Any unit with **1+ Stress is Shaken: −1 to all rolls.** Flat, passive, no test — it does **not** grow with more Stress. This is the reliable "under fire, rattled, shooting worse" effect, and it is the *only* thing 1 Stress does. You risk actually breaking only once Stress reaches 2.
+Any unit with **1+ Stress is Shaken: −1 to all rolls.** Flat, passive, no test — it does **not** grow with more Stress. This is the reliable "under fire, rattled, shooting worse" effect, and it is the *only* thing 1 Stress does. You risk actually breaking only once Stress reaches 2. **Shaken carries into your next turn** — a point of Stress never clears on the same round you gain it (see Recovery), so hitting a unit in melee is never wasted: it fights its next activation at −1.
 
 ### Break test — End Phase, 2+ Stress
 Every End Phase, each unit with **2+ Stress** tests:
@@ -85,7 +84,7 @@ Full status entries in [[Conditions]]. A state governs the unit's **next activat
 
 ### Recovery
 - **Passing a Break test** (2+ Stress) clears **all** Stress; a **natural 10** always clears all.
-- A unit at **exactly 1 Stress** that gains no new Stress that round sheds it in the End Phase — once the heat lifts, you compose yourself. (At 2+ you can't passively drain a real panic; you must test.)
+- **A point of Stress never clears on the round you gain it — it carries to your next turn.** A unit at **exactly 1 Stress** sheds it in the End Phase **only on a round where it took no new Stress.** So a fighter tagged in melee **stays Shaken (−1) right through its next turn** and only shrugs it off after a *clean* round — do **not** reduce it to 0 at the end of the turn it was hit. (At 2+ Stress you can't passively drain a real panic at all; you must pass a Break test.)
 - **Everything else is a skill.** Removing Stress before/without a test, shedding it faster, or ending a **Bolt/Broken** state early comes from the **Bravery path** ([[Skill Paths]]) — *Steady, Count Breaths, Rally, Talk Them Down, Iron Will*, and the rest. Deliberately: composure is a build choice, not free.
 - **BugOut can't be rallied** — the unit has already routed. It can only be stopped *at the moment of failure* by *Talk Them Down* or *Stand Your Ground*.
 

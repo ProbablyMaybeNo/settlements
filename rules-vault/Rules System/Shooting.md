@@ -40,7 +40,7 @@ Worked cover × armour matrix already lives with the rule → [[core-000 Core Te
 2. Measure range vs weapon range.
 3. **Attack roll:** `1d10 + DEX + modifiers` vs **7+**.
 4. On a hit → **Injury roll** (see [[Damage]]).
-5. Hit *or* miss, being shot at gives the target **+1 Stress** (see [[Morale]]).
+5. A clean **miss** does nothing. A hit's outcome is the **Injury roll** (step 4): a wound, or **Pinned (+1 Stress)** if it fails to wound. **Only a hit that connects generates Stress** — see [[Damage]] / [[Morale]].
 
 You may set facing for free as part of a Move (including a facing-only Move — [[Movement]]). Declaring Shoot does **not** itself rotate you — turn first if the target is outside your arc.
 
