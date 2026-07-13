@@ -26,7 +26,12 @@ The Rules column should nail down:
 - Traps and deployable defences: how they're placed, triggered, and disarmed.
 
 ## Working rules / decisions
-_Not drafted yet._
+
+Terrain Interactions
+
+STRENTH - Breakdown (Open door) / Lift (Move scatter terrain) / Smash (Destroy terminals, reachable terrain add ons)
+
+INTELLIGENCE - Hack (terminals) / Lockpick (Locked doors) / 
 
 ## Rule ledger
 _none_
