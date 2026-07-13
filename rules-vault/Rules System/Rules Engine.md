@@ -67,12 +67,11 @@ Each activation is **one Move slot + one Action slot**.
 - **Recruits have none · Specialists have 1 · Leaders have 2.**
 - An Order grants a **free Action or Reaction** to the issuing unit or another friendly unit.
 - Orders can't chain (an ordered action can't itself be an Order).
+- Each unit may **receive only one Order** per round.
 
 #### Reactions
-- A unit spends its **Action slot to *Ready***, or is granted a Reaction by an **Order**.
-- It may react **once** when an enemy enters its line of sight or takes an exposed action; the reaction interrupts and resolves immediately.
-- Options: Snap Shot, Charge, Throw, Interact, Trigger. *(Heavy playtest area — see [[Initiative & Activation]].)*
-
+- Full Ready / Reaction rules live in [[Initiative & Activation]].
+- Summary: Ready via Action or Order → react once when an enemy ends a Move/Action in your forward LOS → Snap Shot, Charge, Throw, Interact, or Trigger.
 ---
 
 ### Universal Resolution Mechanic

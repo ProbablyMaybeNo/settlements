@@ -62,20 +62,21 @@ Resolve immediately, interrupting the enemy's next steps if any remain. A Reacti
 
 | Option | Effect |
 |---|---|
-| **Snap Shot** | Make a ranged attack at the triggering enemy at **−2**. Must be in range + forward LOS. Any eligible ranged weapon (Sidearm rules still apply if Engaged). Counts as an attack. |
-| **Charge** | Move up to **MOV"** into Engagement with the triggerer (not 2×). Free melee with **no** Charge +1. Needs forward LOS when declared. |
-| **Throw** | Resolve a normal thrown-weapon / thrown-object attack at the triggerer (**no** extra −2 beyond Snap Shot's — Throw uses the weapon's normal profile). |
-| **Interact** | One **interrupt Interact** only: open/close a door, Lift-block / clear a Block, press a simple button, or similar. **No** Search, Hack, Repair, or Stabilize. |
-| **Trigger** | Set off one of **your** armed traps or a **Linked** feature you already control, if in forward LOS to the trigger point / feature. |
+| **Snap Shot** | Make a normal ranged attack at the triggering enemy (**no** extra −2). Must be in range + forward LOS. Any legal ranged weapon (Sidearm rules still apply if Engaged). |
+| **Charge** | Move up to **MOV"** into Engagement with the triggerer (not 2×). Free melee with **no** Charge +1. Needs forward LOS when declared. *Playtest whether full-strength Charge feels better.* |
+| **Throw** | Resolve a normal thrown-weapon / thrown-object attack (no extra −2). |
+| **Interact** | Auto-pass Interacts only: open/close a door, Lift-block / clear a Block, hit a button/lever. **No** tested Interacts (Search, Hack, Repair, Stabilize). |
+| **Trigger** | Only your own traps with the **Remote Detonation** tag (set by the placer, or by a Hacker). Not every trap is remote. |
+
+#### Orders received
+Each unit may **receive only one Order** per round. So max Ready opportunities in a round = own Action Ready + one Order Ready.
 
 ### Catch-up
-Alpha ships with **underdog +1 Priority only**. No extra surge/hold rule until playtest says the dogpile is a problem.
+Alpha ships with **underdog +1 Priority only**. No free-hold surge rule unless playtests feel unfair.
 
 > [!question] Playtest dials
-> - Ready re-acquire same round (flexible) vs hard once-per-round cap.
-> - Snap Shot −2 harsh enough / too soft.
-> - Whether finishing a Charge in someone's arc feels oppressive (they Charge, then eat a Snap Shot / counter-Charge).
-
+> - Reaction Charge: MOV" + no +1 vs full Charge (2× MOV" + +1)
+> - Whether finishing a move in a Ready arc feels oppressive on dense boards
 ## Rule ledger
 - [[core-005 Activation order]]
 
