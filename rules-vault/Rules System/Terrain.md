@@ -107,13 +107,19 @@ Forced movement (Knockback, Slam & Throw, etc.) into a Dangerous area triggers i
 
 Any collection — DIY, 3D-printed, bought — plugs in the same way:
 
-1. Pick Type for each significant piece.
-2. Accept or adjust defaults for Movement and Cover (one axis may be overridden per piece; say it out loud at setup).
-3. Add Tags for anything interactive; mark Dangerous areas and name their hazard.
-4. Check density: the board should have multiple LOS blockers, at least 2 Buildings/Ruins, and interactive pieces (Searchable, a terminal or Feature) — a bare board is not a Settlements board.
-5. Check access: every elevated area has its no-test route (stairs/ladder).
+1. **Density first — 9 to 12 large features.** Divide the 3'×3' into nine **12"×12"** squares. Place **at least one large feature per square** (Building, Ruin, or a substantial Scatter cluster), then fill the gaps with smaller scatter until no clear firing lane crosses the board. **Twelve is the ceiling.**
+2. Pick Type for each significant piece.
+3. Accept or adjust defaults for Movement and Cover (one axis may be overridden per piece; say it out loud at setup).
+4. Add Tags for anything interactive; mark Dangerous areas and name their hazard.
+5. Check the board has at least 2 Buildings/Ruins and real interactive pieces (Searchable, a terminal or Feature) — a bare board is not a Settlements board.
+6. Check access: every elevated area has its no-test route (stairs/ladder).
 
 One line per piece is enough: `Ruin · Difficult · Light · Unstable, Climbable, Searchable`.
+
+> [!danger] Density is a **band**, not a floor — the most powerful dial in the game
+> [[Crew Sim — Findings|The crew sim]] measured a **66-point swing** in win rate from terrain density alone — bigger than any points cost could ever produce. A 4-model elite crew beats a 14-model horde **81%** of the time on a sparse board and **15%** of the time on a very crowded one. **Parity sits at 9–12 large features** — exactly the band above, and every list in [[List Building]] is costed against it.
+>
+> Density is chosen *after* lists are locked, so it **must not be open-ended.** "Nine minimum, as crowded as you like" hands the game to whoever pushes the dial: a swarm player wants a jungle, a gunline wants a car park. **9–12.** A scenario may fix an exact number.
 
 ### Interact
 

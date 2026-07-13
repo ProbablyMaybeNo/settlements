@@ -71,12 +71,18 @@ Resolve immediately, interrupting the enemy's next steps if any remain. A Reacti
 #### Orders received
 Each unit may **receive only one Order** per round. So max Ready opportunities in a round = own Action Ready + one Order Ready.
 
+**Orders are issued only during the issuing unit's own activation** ([[Rules Engine#Orders]], locked 2026-07-13). A Leader cannot hold Orders in reserve and spend them reactively.
+
 ### Catch-up
 Alpha ships with **underdog +1 Priority only**. No free-hold surge rule unless playtests feel unfair.
 
 > [!question] Playtest dials
 > - Reaction Charge: MOV" + no +1 vs full Charge (2× MOV" + +1)
 > - Whether finishing a move in a Ready arc feels oppressive on dense boards
+> [!success] Uneven crew sizes — **Ready is the answer** (validated 2026-07-13)
+> [[List Building]] lets crews run from 4 to 14 models, so a small crew runs out of activations first and the big crew dumps its tail unopposed. **No new rule is needed.** The elite crew converts its last activations into **Ready** and snap-shoots the tail as it moves — 4 models = 4 banked reactions, so every fighter effectively shoots twice.
+> The **underdog +1 Priority** likewise stays exactly as written. It is not an exploit for small crews — it is their **compensation**: [[Crew Sim — Findings|the crew sim]] shows swarms out-produce elites on raw output, because WND is fixed at 1 and the Injury roll ignores stats, so quality has a hard ceiling that numbers don't. Fewer models *should* go first.
+
 ## Rule ledger
 - [[core-005 Activation order]]
 

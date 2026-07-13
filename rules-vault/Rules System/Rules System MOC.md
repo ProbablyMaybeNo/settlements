@@ -12,11 +12,14 @@ Visual, editable map of the whole rules system, ported from the Notion **Build R
 > ⌨️ **Keep this docked while you work:** [[Quick Reference — Writing Rules]] — the workflow + every key/command on one screen (right-click its tab → Move to right sidebar).
 > 💡 **Random idea? Dump it here:** [[Ideas Inbox]] — a no-structure scratchpad; triage into rules later.
 > 📇 **Rules reference:** [[Weapons]] · [[Skill Paths]] — catalogues the combat notes point to.
+> 🧪 **Sim findings:** [[Dice Mechanic — Sim Findings]] · [[Skill Sim — Findings]] · [[Terrain Hacking Cover — Sim Findings]] · [[Crew Sim — Findings]]
 > 📑 **Rules Ledger:** short *graduated* rule cards under `Rules Ledger/` — the durable one-page text (not the full phase discussion). Phase notes draft; ledger stores the clean final wording for embeds / the eventual rulebook.
 
 **Pitch:** miniatures-agnostic skirmish wargame of brutal, ultra-realistic firefights on battlefields dense with interactive terrain; build a settlement, persist your crew, fight for your region. Full detail in [[Game Vision]].
 
 ✅ Core dice locked in draft. Lethality first pass drafted in [[Damage]] — final **Lock** after playtest.
+
+✅ **[[List Building]] + [[Weapons]] drafted and sim-validated** (2026-07-13). Eight archetypes at 100 pts sit within an **11-point spread** — on a legal 9–12-feature board. See [[Crew Sim — Findings]].
 
 ## Stages
 ### S1 Foundation
@@ -29,7 +32,7 @@ Visual, editable map of the whole rules system, ported from the Notion **Build R
 - ✅ After [[Morale]] you have a playable combat skirmish (sandbox). Needs [[Scenarios]] for a real game.
 
 ### S3 Battle Layer
-- [[Terrain]] — *Drafted* · [[Terrain Interaction]] — *Drafted* · [[Hacking]] — *Drafted* · [[List Building]] — *Drafted (thin)* · [[Scenarios]] — *Not Started*
+- [[Terrain]] — *Drafted* · [[Terrain Interaction]] — *Drafted* · [[Hacking]] — *Drafted* · [[List Building]] — *Drafted* ✅ · [[Scenarios]] — *Not Started*
 
 ### S4 Settlement & Campaign
 - [[Settlement]] · [[Economy]] · [[Campaign]] — *Drafted (thin)* · [[Progression]] — *Drafted (thin)* · [[Territory]] · [[Downtime]] · [[Events]] · [[Narrative]] · [[Diplomacy]] · [[Solo & Co-op]]

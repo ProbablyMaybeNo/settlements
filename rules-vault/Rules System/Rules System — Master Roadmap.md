@@ -26,6 +26,8 @@ Reference notes: [[Weapons]] · [[Skill Paths]] · *(Terrain Features catalogue 
 
 - [x] **Core dice mechanic** ([[Rules Engine]] / [[core-000 Core Test]]) — `1d10 + Stat + mods, 7+`, nat 1/10 auto.
 - [x] **Lethality first pass** ([[Damage]]) — Injury roll, WND 1, Down / Stabilize / bleed-out, Fate hook. **Not Locked** until playtested — treat as Drafted, not Done.
+- [x] **List Building + Weapons** (2026-07-13) — ranks 5/8/16/24 at a 100-pt budget; weapons built from class + characteristics. Sim-validated to an 11-point spread across 8 archetypes. → [[Crew Sim — Findings]]
+- [x] **Terrain density is a BAND (9–12 features), not a floor** — it swings win rate by 66 points, more than any cost. → [[Terrain#Setup procedure]]
 
 Secondary opens: Glorious Deed name ([[Core Game Format]] / [[Scenarios]]), List Building point values, catch-up rule ([[Initiative & Activation]]), Skill Paths 9+/11+ cleanup to flat 7+.
 
@@ -189,14 +191,18 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [x] Hacker-vs-hacker shut-outs: opposed INT → Effect roll → Shut-out table.
 - [ ] Playtest dials: Take Over frequency, Overload lethality, Shut down duration.
 
-#### 05 · [[List Building]] — ✅ Drafted *(thin)*
-<small>depends on: Unit Design</small>
+#### 05 · [[List Building]] — ✅ Drafted · **sim-validated**
+<small>depends on: Unit Design, Weapons</small>
 
-- [x] Fielding caps: 1 Leader · ≤2 Specialists · rest Recruits; ~⅓ budget anti-hero.
-- [ ] Exact costing numbers (rank base, per-stat, weapons, skills).
-- [ ] Faction selection / buffs & nerfs at list level.
-- [ ] Pickup list vs persistent campaign roster differences.
-- [x] Caps / restrictions that keep lists legal (no-heroes honour).
+- [x] The pyramid: 1 Leader · 2 lower-rank per Specialist · 1 Recruit per Rabble · min 4. **No unit cap.**
+- [x] Exact costing: ranks **5 / 8 / 16 / 24**, budget **100**. Stats & skills are FREE (rank is the bundle).
+- [x] **Rabble** rank added — the 0-stat body that makes a swarm legally fieldable.
+- [x] **Doctrine** layer — 8 archetypes, each one bend + one cost.
+- [x] Campaign roster: **+2 pts per Advance, −2 per scar** (veterans crowd out rookies = anti-snowball).
+- [x] Anti-hero ⅓ cap **cut** — redundant at WND 1.
+- [x] Validated: **11-point spread across 8 archetypes** on a legal board → [[Crew Sim — Findings]].
+- [ ] Faction selection / buffs & nerfs at list level → socket left open in [[Factions]].
+- [ ] Table playtest (all numbers are sim-derived, not table-derived).
 
 #### 18 · [[Scenarios]] — ⬜ Not Started
 <small>depends on: Damage, Morale, Terrain</small>

@@ -34,6 +34,11 @@ The Rules column should nail down:
 
 A condition is a **status token on a unit**. Combat conditions come from [[Damage]] and skills ([[Skill Paths]]); Nerve states come from [[Morale]]; persistent conditions come from weapons, terrain hazards and skills.
 
+> [!info] Weapons apply conditions — the **Payload** rule
+> A [[Weapons|weapon characteristic]] that applies a condition does so **in place of the normal non-wounding result** (Pinned for ranged, Shaken for melee). A hit still does exactly one thing: **it wounds, or it delivers its payload** — never both. The payload's +1 Stress is the same +1 Pinned would have given; don't count it twice.
+>
+> This is what makes conditions work in a **WND-1** game. Wounding is binary and terminal, so there is no headroom to "add damage" — a weapon's extra bite has to land on the *hit that didn't kill you*.
+
 ### General rules
 - **Tokens.** Every condition is one token beside the model. If a unit has no token, it has no condition — nothing is tracked in your head.
 - **No stacking.** The same condition never applies twice. Reapplying it refreshes its duration; it does not deepen the effect.
@@ -56,7 +61,7 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 
 ### Persistent conditions (resolve in the End Phase)
 - **Fire** — each End Phase, the unit suffers an **Injury roll at +1 Damage, ignoring Armor**. It (or an adjacent friendly) may spend an **Action** to extinguish it — automatic, no test. Persists until extinguished.
-- **Bleed** — each End Phase, the unit loses **1 WND** unless treated. Treating = an Action + **INT test (7+)** by the unit or an adjacent friendly, **−2 without a Med-Kit**; a **Medic** ([[Skill Paths]]) treats automatically.
+- **Bleed** — each End Phase, the unit loses **1 WND** unless treated. Treating = an Action + **INT test (7+)** by the unit or an adjacent friendly, **−2 without a Med-Kit**; a **Medic** ([[Skill Paths]]) treats automatically. **At WND 1 — i.e. almost everyone — Bleed is a two-round death clock:** it drops you Down at the next End Phase, and Down + Bleed bleeds out. It is the harshest condition in the game by a wide margin, which is why **Bleeding** is the priciest weapon payload and why a **Med-Kit** earns its points.
 - **Poison** — **−1 to all rolls.** Each End Phase the unit makes a **STR test (7+)**: pass ends it. It can also be treated exactly like Bleed.
 - **Blind** — **−2 on all rolls that need sight** (attacks, Spot, Reactions, targeted Interacts). Clears in the End Phase.
 - **Shocked** — **−2 to all rolls** and **cannot React**. Clears in the End Phase.

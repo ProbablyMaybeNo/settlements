@@ -82,6 +82,13 @@ Full status entries in [[Conditions]]. A state governs the unit's **next activat
 > [!question] BugOut replaces the old "Insanity"
 > The worst state is now a clean **rout off the table**, not attack-nearest-model. Fits the name and the gritty-realism pillar better than berserk-attacks-allies. Flag to revisit if you want the chaos option back.
 
+> [!success] Validated at crew scale — **do not touch these numbers** (2026-07-13)
+> The friendly-Down trigger looked, on paper, like it would wipe crews: three casualties in LOS is 3 Stress, and a Break test at NRV 0 / Stress 3 fails **80%** of the time. [[Crew Sim — Findings|The crew sim]] says leave it alone. On a legal board ([[Terrain#Setup procedure|9–12 features]]) the cascade is mild — **0.6 BugOuts per battle**, versus 5.3 on an illegally sparse one. Two proposed softeners were tested and **both broke the game**:
+> - *"Ignore Stress from friendly Downs while bunched"* → took a 14-model horde to **93–96% win rate at every terrain density.**
+> - *"Cap Stress from friendly Downs at 1 per round"* → flipped a sparse board from 19% to **60%** for the horde.
+>
+> **The cascade is not a bug — it is the only thing keeping a swarm honest.** A mob of civilians crossing open ground under rifle fire *should* shatter. Dense terrain is the mitigation, and it already works.
+
 ### Recovery
 - **Passing a Break test** (2+ Stress) clears **all** Stress; a **natural 10** always clears all.
 - **A point of Stress never clears on the round you gain it — it carries to your next turn.** A unit at **exactly 1 Stress** sheds it in the End Phase **only on a round where it took no new Stress.** So a fighter tagged in melee **stays Shaken (−1) right through its next turn** and only shrugs it off after a *clean* round — do **not** reduce it to 0 at the end of the turn it was hit. (At 2+ Stress you can't passively drain a real panic at all; you must pass a Break test.)
