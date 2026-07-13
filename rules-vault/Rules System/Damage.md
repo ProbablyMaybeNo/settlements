@@ -37,7 +37,9 @@ After an attack lands ([[Shooting]] / [[Melee]]), the **attacker** makes one **I
 `1d10 + Weapon Damage − Armor` vs **7+**
 
 - **Pass →** the target loses **1 WND**. Reduced to **0 WND** → **Down** if the wound was **ranged / hazard**, or straight to **Out of Action** if it was **melee** (see below).
-- **Fail →** the target is **Pinned** (+1 Stress).
+- **Fail →** no wound, but the hit still tells:
+    - **Ranged** → the target is **Pinned** (+1 Stress) — head down, can't advance.
+    - **Melee** → the target gains **+1 Stress** (**Shaken**, −1 next round) but stays engaged. No Pinned — you can't pin someone you're locked toe-to-toe with.
 
 Every hit does *something* — it wounds or it pins. No wasted hits.
 
@@ -47,7 +49,7 @@ Every hit does *something* — it wounds or it pins. No wasted hits.
 - *Example:* pistol (**+2**) into heavy armor (**−2**) = net 0 → `1d10 vs 7+` = 40% to wound.
 
 ### Pinned
-- Pinned is **suppression, not injury** — the shot landed but didn't wound.
+- Pinned is **suppression, not injury**, and it's the **ranged** non-wound result — the shot landed but didn't wound. (A non-wounding **melee** blow instead piles Stress → **Shaken**; you can't pin someone you're toe-to-toe with.)
 - A Pinned unit **cannot Move, Charge, Sprint or Disengage**; it must spend its **Move** to shake Pinned off before it can reposition. It may still **Shoot or Interact** from where it stands.
 - Pinned **persists until cleared**, and applying it is **+1 Stress** — so a unit that keeps getting Pinned climbs the [[Morale|Stress]] ladder toward **Shaken** and a **Break test**. That accumulation, not the Pin itself, is what wears down a dug-in shooter.
 - Full status entry in [[Conditions]].

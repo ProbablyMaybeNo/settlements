@@ -62,7 +62,7 @@ Each skill costs **1 skill point**. There are no skill prerequisites: investment
 ### Tier 2 — Great
 - **Muscle Override** — As an Action, force an adjacent powered or locked door open or closed without its terminal. This is Loud and cannot affect Reinforced barriers. *(Breacher · INT combo)*
 - **Human Shield** — Ranged attacks tracing LOS through an enemy you have Grappled treat you and friendlies within 1" as having Heavy Cover. *(Tank · Grappler)*
-- **Super Slam** — When your Charge attack hits but fails its Injury roll, the target becomes **Suppressed** instead of Pinned. *(Melee DPS · Controller)*
+- **Super Slam** — When your Charge attack hits but fails its Injury roll, the target becomes **Suppressed** instead of the usual Shaken. *(Melee DPS · Controller)*
 - **Squeeze** — As an Action, make an opposed STR test against an enemy you have Grappled. On a win, it suffers an automatic unarmed hit; make only the Injury roll. *(Grappler · Melee DPS)*
 - **Come Along** — You may move your full MOV while dragging a Grappled enemy and keeping it within 1". You still cannot Sprint or Charge. *(Grappler · Objective control)*
 - **Disarm** — After winning a melee attack, forgo the Injury roll to make the defender drop one held weapon or carried item within 1". Recovering it requires an adjacent Action. *(Controller · Equipment denial)*

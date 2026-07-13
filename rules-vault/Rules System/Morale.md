@@ -36,7 +36,7 @@ Stress represents fear, panic, suppression and shock. It is tracked as points on
 **A unit gains +1 Stress when it:**
 - Is targeted by a ranged attack (hit *or* miss)
 - Is hit by a ranged attack
-- Loses a melee
+- Is hit in melee but not wounded (a non-wounding blow → Shaken)
 - Gains a negative condition (Fire, Poison, Pinned, etc.)
 - Has a friendly go **Down** or **Out of Action** within line of sight
 
