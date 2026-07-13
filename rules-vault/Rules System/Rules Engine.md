@@ -147,10 +147,11 @@ Highest total wins.
 
 ### House Conventions
 - Pre-measuring is always allowed.
-- True Line of Sight.
+- **Facing & ranged LOS:** every model faces a direction — use the miniature's orientation (head / weapon / torso toward the front). A unit has a **180° forward arc**. **Ranged** attacks, Ready triggers, and other shoot-based actions need the target in that arc **and** true LOS. No facing notches required — how you place the model *is* the facing.
+- **Melee ignores facing.** Once Engaged, you fight normally regardless of which way either model faces.
 - Measurements are always Base Edge to Base Edge.
 - A unit is **Engaged** while within **1"** of an enemy; you fight enemies you're Engaged with. Direct interaction with terrain/objects needs base contact.
-- Enter melee by **Charging** (needs LOS) or a normal **Move** into an enemy's 1" zone (no LOS needed); reposition *within* that zone, but leaving it is a **Disengage** ([[Movement#Disengaging]]).
+- Enter melee by **Charging** (needs ranged LOS to declare) or a normal **Move** into an enemy's 1" zone (no LOS needed); reposition *within* that zone, but leaving it is a **Disengage** ([[Movement#Disengaging]]).
 - Standard movement and range increments are based around 6".
 - Always round down.
 

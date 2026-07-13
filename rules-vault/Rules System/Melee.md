@@ -48,6 +48,7 @@ Melee is an **opposed** test — a brawler really is harder to hit than a shakin
 - **Highest total wins. Ties go to the defender.**
 - Some weapons/skills swap the stat — a knife or agile skill may use **AGI**; a heavy weapon is **STR only** (see [[Weapons]]).
 - The **winner lands the hit** → **Injury roll** (see [[Damage]]).
+- **Facing does not apply in melee.** Once Engaged, either fighter attacks regardless of which way the models face.
 
 ### Charging
 - **Charge** = both slots. Requires **line of sight** to the target (the path need not be straight). Move up to **2× MOV"** into the enemy's 1" zone, then a **free melee attack at +1** — the surprise bonus.

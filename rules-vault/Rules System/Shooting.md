@@ -36,21 +36,23 @@ Worked cover × armour matrix already lives with the rule → [[core-000 Core Te
 ## Working rules / decisions
 
 ### Ranged attack sequence
-1. Declare a target in **range** and **line of sight**.
-2. Measure range vs weapon range
+1. Declare a target in **range**, **true LOS**, and your **forward 180°** facing arc ([[Rules Engine#House Conventions]]).
+2. Measure range vs weapon range.
 3. **Attack roll:** `1d10 + DEX + modifiers` vs **7+**.
 4. On a hit → **Injury roll** (see [[Damage]]).
 5. Hit *or* miss, being shot at gives the target **+1 Stress** (see [[Morale]]).
 
+You may set facing for free as part of a Move (including a facing-only Move — [[Movement]]). Declaring Shoot does **not** itself rotate you — turn first if the target is outside your arc.
+
 ### Modifiers
 - Cover: **Light −1 · Heavy −2 · Hidden −3** (see [[Terrain]]).
-- Out of range: cannot target.
+- Out of range or outside forward arc / no LOS: cannot target.
 - **Weapons rarely add to hit** — only via a conditional trait such as **Accurate** (see [[Weapons]]). Stats decide the hit; weapons decide the injury.
 
 ### Firing while Engaged
 - Most ranged weapons **cannot** fire while in base contact with an enemy.
-- A **Sidearm** weapon may fire while Engaged, using DEX and targeting only the Engaged enemy (see [[Weapons]]).
-- Some skills may give a unit the ability to fire while engaged. 
+- A **Sidearm** weapon may fire while Engaged, using DEX and targeting only the Engaged enemy (see [[Weapons]]) — facing still required toward that enemy.
+- Some skills may give a unit the ability to fire while engaged.
 
 ## Rule ledger
 - [[core-002 Shooting]]

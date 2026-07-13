@@ -36,9 +36,11 @@ The Rules column should nail down:
 ### Basic move
 The **Move** slot moves up to **MOV"** (baseline 6"), any direction, around obstacles. It can't be split around the Action, and a unit is never forced to move.
 
+**Facing:** when you Move (including Charge / Sprint / Disengage), place the model facing its final direction as part of that move. You may also spend the **Move** slot to **change facing only** — no displacement — to aim your 180° arc ([[Rules Engine#House Conventions]]). Facing does not affect melee.
+
 ### Sprint & Charge
-- **Sprint** (both slots): move up to **2× MOV"**, nothing else — no Shoot, no Ready.
-- **Charge** (both slots): move **MOV x2** into base contact, then a free melee attack at **+1** (see [[Melee]]).
+- **Sprint** (both slots): move up to **2× MOV"** — nothing else — no Shoot, no Ready. You may set facing at the end.
+- **Charge** (both slots): move **MOV x2** into base contact, then a free melee attack at **+1** (see [[Melee]]). Declaring a Charge needs the target in your forward 180° + true LOS; once Engaged, facing no longer matters.
 
 ### Terrain movement
 Open ground, marked stairs, and clear paths are normal movement — no test.

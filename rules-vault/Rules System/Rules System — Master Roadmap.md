@@ -96,8 +96,8 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [x] Alternating activation; Move + Action per activation; Orders by rank.
 - [x] Priority each turn (1d10 + underdog +1).
 - [x] Action-economy detail (Move / Action / Sprint / Charge / Ready) — sourced from [[Rules Engine]].
-- [ ] Reaction options fully defined (Snap Shot, Charge, Throw, Interact, Trigger are *named* only — need resolution text).
-- [ ] Catch-up / rubber-band so a larger crew can't dogpile the last models.
+- [x] Reaction options defined (Snap Shot, Charge, Throw, Interact, Trigger) + facing / Ready persistence.
+- [x] Catch-up — alpha: underdog Priority +1 only (playtest dial).
 
 #### 07 · [[Movement]] — ✅ Drafted
 <small>depends on: Unit Design</small>
