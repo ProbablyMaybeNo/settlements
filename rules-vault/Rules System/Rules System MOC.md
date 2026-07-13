@@ -41,7 +41,7 @@ Visual, editable map of the whole rules system, ported from the Notion **Build R
 - ✅ After [[Morale]] you have a playable combat skirmish.
 
 ### S3 Battle Layer
-- [[Terrain]] (core pillar) · [[Terrain Interaction]] · [[List Building]] · [[Scenarios]]
+- [[Terrain]] (core pillar) · [[Terrain Interaction]] · [[Hacking]] · [[List Building]] · [[Scenarios]]
 
 ### S4 Settlement & Campaign
 - [[Settlement]] · [[Economy]] · [[Campaign]] · [[Progression]] · [[Territory]] · [[Downtime]] · [[Events]] · [[Narrative]] · [[Diplomacy]] · [[Solo & Co-op]]

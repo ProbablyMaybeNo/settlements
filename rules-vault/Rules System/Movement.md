@@ -20,7 +20,7 @@ All the ways a model relocates — basic, vertical, through terrain, in combat, 
 
 The Rules column should nail down:
 - Base move (from the Move stat) plus run/charge/advance variants and their costs/trade-offs.
-- Vertical movement: climbing, jumping gaps, falling and fall damage (driven by Dexterity).
+- Vertical and athletic movement: climbing, jumping, leaping, swimming, falling — all driven by **Agility**.
 - Moving through/over terrain: difficult ground, obstacles, squeezing through gaps.
 - Movement around engagement: disengaging, falling back, and what (if anything) it provokes.
 - Forced movement (push / knockback / drag) and how it interacts with terrain edges and falling.
@@ -41,9 +41,23 @@ The **Move** slot moves up to **MOV"** (baseline 6"), any direction, around obst
 - **Charge** (both slots): move **MOV x2** into base contact, then a free melee attack at **+1** (see [[Melee]]).
 
 ### Terrain movement
-- Climbing, vaulting, and leaping **gaps** are **AGI** tests (see [[Terrain]]).
-- **Routine** movement (steps, ladders, open ground) auto-passes — **only roll when failure costs something** (a fall, an alarm, time pressure).
-- Difficult ground costs double movement. *(exact value TBD in [[Terrain]].)*
+Open ground, marked stairs, and clear paths are normal movement — no test.
+
+**Low leap** — leaping over an obstacle **under 2" tall** needs **no AGI test**, but always costs **2"** from your Move allowance for that activation (flat cost — a 6" curb and an 18" rail both cost 2"). Measure height at the narrowest point you cross.
+
+**Athletic traversal** (everything else) uses an **AGI** test (`1d10 + AGI + mods` vs **7+**), paid from the **Move** slot (counts against MOV). These are **not** Interact Actions — see [[Terrain Interaction]] for STR/DEX/INT verbs.
+
+| Maneuver | When | On fail |
+|---|---|---|
+| **Climb** | Ascending / descending **Climbable** terrain, walls, roofs, fire escapes | Stop at the base / last safe level; if already mid-climb, **fall** |
+| **Jump / Leap** | Crossing a horizontal **gap**, or an obstacle **2" or taller** | Fall short — place at the near edge, or **fall** if you committed past it |
+| **Vault** | Crossing a waist-high obstacle onto / over it (when not covered by low leap) | Bounce off — end short of the obstacle; no fall unless the far side is a drop |
+| **Swim** | Entering or crossing **deep water** / swimmable hazard | End the move in the water; gain **Pinned** (or hazard effect from the scenario) |
+
+- No job-difficulty modifiers — only skills, conditions, **Shaken**, etc.
+- Skills may auto-succeed or soften fails (**Sure-Footed**, **Leaper**, **Vault**, **Water Walker**, **Like a Cat** — [[Skill Paths]]).
+- Difficult ground costs double movement. *(exact categories in [[Terrain]].)*
+- Fall damage / fall tests → [[Terrain]] (verticality).
 
 ### Disengaging
 Breaking away from melee is a **Disengage** — it costs **both slots** (your whole activation):

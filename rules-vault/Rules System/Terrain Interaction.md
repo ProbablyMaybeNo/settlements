@@ -6,7 +6,8 @@ status: Drafted
 build_order: 13
 depends_on:
   - Terrain
-feeds_into: []
+feeds_into:
+  - Hacking
 tags:
   - settlements/phase
   - settlements/stage/s3
@@ -15,7 +16,7 @@ tags:
 > **S3 Battle Layer** · status **Drafted** · build order **13**
 
 **Depends on:** [[Terrain]]
-**Feeds into:** —
+**Feeds into:** [[Hacking]]
 **Raw dependency (from Notion):** Terrain
 
 ## Focus
@@ -34,21 +35,21 @@ The Rules column should nail down:
 
 Terrain Interacts use the core test.
 
-- Auto-pass — trivial actions with no consequence (open an unlocked door, push a button, drop a carried object).
-- Test — everything else: `1d10 + Stat + mods` vs 7+.
-- No job-difficulty modifiers on ordinary Interacts. The only modifiers are ones the game already applies (skills, conditions, Shaken, etc.).
-- Exception: hacking applies range modifiers (below).
-- Natural 1 / Natural 10 still auto-fail / auto-succeed.
-- Direct interaction needs base contact. Spends the unit's Action slot.
+- **Auto-pass** — trivial actions with no consequence (open an unlocked door, push a button, drop a carried object).
+- **Test** — everything else: `1d10 + Stat + mods` vs **7+**.
+- No job-difficulty modifiers on ordinary Interacts. The only modifiers are ones the game already applies (skills, conditions, **Shaken**, etc.).
+- Terminals / digital control → [[Hacking]] (range modifiers live there).
+- **Natural 1** / **Natural 10** still auto-fail / auto-succeed.
+- Direct interaction needs **base contact**. Spends the unit's **Action** slot.
 
 ### Contested Interacts
 
-Most Interacts are auto-pass or a solo 7+ test.  
-When two units contest the same object or system at the same time, use an Opposed Test (`1d10 + Stat + mods`, highest wins, ties to the defender):
+Most Interacts are auto-pass or a solo **7+** test.  
+When two units contest the same object at the same time, use an **Opposed Test** (`1d10 + Stat + mods`, highest wins, **ties to the defender**):
 
-- Lift contest — opposed STR; defender = carrier / first claim.
-- Hack contest — opposed INT; defender = current network controller.
-- Skills may create other contests (e.g. Doorstop); they still use this pattern.
+- **Lift contest** — opposed **STR**; defender = carrier / first claim.
+- Skills may create other contests (e.g. **Doorstop**); they still use this pattern.
+- Digital contests (network control, shut-outs) → [[Hacking]].
 
 ### Stat ownership
 
@@ -61,16 +62,16 @@ When two units contest the same object or system at the same time, use an Oppos
 
 ### Interaction verbs
 
-|Verb|Tag|Stat|Resolution|Notes|
-|---|---|---|---|---|
-|Open / close unlocked|Openable|—|Auto|—|
-|Force door / Smash object|Breachable|STR|7+|Attempt is Loud|
-|Lockpick|Lockable|DEX|7+|Quiet; skills may auto-succeed|
-|Hack|Hackable / Powered|INT|7+ + range mod|See Hacking|
-|Lift|Movable|STR|7+ (auto if light scatter)|Half MOV while carrying; drop within 1" free|
-|Search|Searchable|INT|7+|See Searching|
-|Repair feature|Powered / Hackable / etc.|INT|7+|See Feature damage|
-|Climb / vault / leap|Climbable|AGI|Move slot|Per [[Movement]]|
+| Verb                      | Tag                       | Stat | Resolution     | Notes                                        |
+| ------------------------- | ------------------------- | ---- | -------------- | -------------------------------------------- |
+| Open / close              | Openable                  | —    | Auto           | —                                            |
+| Force door / Smash object | Breachable                | STR  | 7+             | Attempt is Loud                              |
+| Lockpick                  | Lockable                  | DEX  | 7+             | Quiet                                        |
+| Hack                      | Hackable / Powered        | INT  | see [[Hacking]] | Terminals, range, shut-outs                  |
+| Lift                      | Movable                   | STR  | 7+             | Half MOV while carrying; drop within 1" free |
+| Search                    | Searchable                | INT  | 7+             | See Searching                                |
+| Repair feature            | Powered / Hackable / etc. | INT  | 7+             | See Feature damage                           |
+|Climb / vault / leap / swim|Climbable / water|AGI|Move slot — see [[Movement]]|Under 2" = low leap, no test, −2" Move|
 
 There is no Barricade verb. Blocking openings is done with Lift.
 
@@ -115,26 +116,7 @@ Applies to interactive features (turrets, traps, vents, terminals, cameras, al
 Untriggered traps can be damaged this way. A trap that has already triggered is spent — don't use Down to cancel a boom mid-trigger.
 
 ### Hacking
-
-1. Base contact with a terminal. Declare one Linked function.
-2. Measure terminal → feature (max 24"). Apply range modifier:
-
-|Band|Distance|Mod|
-|---|---|---|
-|Close|0–6"|0|
-|Short|6–12"|−1|
-|Medium|12–18"|−2|
-|Long|18–24"|−3|
-
-3. Uncontested → `1d10 + INT + mods` vs 7+.  
-    Contested → opposed INT (same mods; ties to the current controller).
-4. Pass/win → that one function resolves. Fail/lose → nothing.
-
-Linked is required — range alone never makes a feature Linked.  
-Firing a turret from a terminal counts as your attack for the activation.  
-Turrets are controlled only (no auto-sentry).
-
-Example functions (one per Action unless a skill says otherwise): lock/unlock/open/close doors · loop/reveal cameras · suppress/trip alarms · toggle power · rotate/deactivate/fire turret · arm/disarm/trigger Linked electronic traps.
+Operating terminals, Linked networks, range bands, and hacker-vs-hacker shut-outs live in **[[Hacking]]**. Feature **Down** / **Destroyed** on terminals still uses the Feature damage rules above.
 
 ### In-battle repair / settlement hook
 
@@ -174,14 +156,14 @@ Deployables: Lifted scatter (Blocked openings), carried traps, settlement turr
 
 ### Locked design notes
 
-1. DEX = mechanical · INT = digital
-2. Lift replaces Barricade
-3. Searched exhausts the _piece_
-4. Turrets = controlled only
+1. **DEX** = mechanical · **INT** = digital
+2. **Lift** replaces Barricade
+3. **Searched** exhausts the *piece*
+4. Turrets = controlled only (rules in [[Hacking]])
 5. No building collapse; feature two-strike damage only
-6. Ordinary Interacts = auto-pass or flat 7+
-7. Hacking = 7+ with range mods (0 / −1 / −2 / −3), max 24"
-8. Contested Lift / Hack = opposed tests; ties to defender
+6. Ordinary Interacts = auto-pass **or** flat **7+**
+7. Contested Lift = opposed STR; ties to defender
+8. Full hacking system → [[Hacking]]
 
 ## Rule ledger
 _none_

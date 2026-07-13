@@ -3,13 +3,13 @@ type: rule-phase
 phase: "18"
 stage: S3 Battle Layer
 status: Not Started
-build_order: 15
+build_order: 16
 depends_on: ["Damage", "Morale", "Terrain"]
 feeds_into: ["Campaign", "Final Alpha", "Balance"]
 tags: [settlements/phase, settlements/stage/s3]
 ---
 # 18 · Scenarios
-> **S3 Battle Layer** · status **Not Started** · build order **15**
+> **S3 Battle Layer** · status **Not Started** · build order **16**
 
 **Depends on:** [[Damage]], [[Morale]], [[Terrain]]
 **Feeds into:** [[Campaign]], [[Final Alpha]], [[Balance]]

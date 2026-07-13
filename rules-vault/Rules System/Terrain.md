@@ -5,14 +5,14 @@ stage: S3 Battle Layer
 status: Drafted
 build_order: 12
 depends_on: ["Movement"]
-feeds_into: ["Terrain Interaction", "Scenarios", "Edge Cases"]
+feeds_into: ["Terrain Interaction", "Hacking", "Scenarios", "Edge Cases"]
 tags: [settlements/phase, settlements/stage/s3]
 ---
 # 08 · Terrain
 > **S3 Battle Layer** · status **Drafted** · build order **12**
 
 **Depends on:** [[Movement]]
-**Feeds into:** [[Terrain Interaction]], [[Scenarios]], [[Edge Cases]]
+**Feeds into:** [[Terrain Interaction]], [[Hacking]], [[Scenarios]], [[Edge Cases]]
 **Raw dependency (from Notion):** Movement
 
 ## Focus
@@ -53,15 +53,18 @@ A unit spends its **Action** to **Interact** with adjacent terrain; the **stat u
 
 | Interaction | Stat |
 |---|:---:|
-| Kick door · drag object · build barricade | STR |
-| Pick lock · disarm trap | DEX |
+| Kick door · drag object · Lift | STR |
+| Pick lock · disarm mechanical trap | DEX |
 | Hack keypad · power · camera | INT |
-| Climb · vault · leap a gap | AGI |
 | Search | INT |
 | Steady yourself in a hazard | NRV |
 
-Routine interactions auto-pass; **test (7+) only when failure has a consequence.**
+Routine Interacts auto-pass; **test (7+) only when failure has a consequence.** Terminals and digital control → [[Hacking]].
 
+**Climb · vault · leap · swim** are **not** Interacts — they are **Move-slot** maneuvers. Full rules in [[Movement#Terrain movement]].
+
+- Obstacles **under 2"** — **low leap**: no test, **−2"** Move cost (flat).
+- Gaps, **2"+** obstacles, climbs, and swim — **AGI** test vs **7+**.
 ## Rule ledger
 - [[core-004 Cover and line of sight]]
 - [[adv-004 Weather and climate]]

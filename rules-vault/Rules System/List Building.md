@@ -3,13 +3,13 @@ type: rule-phase
 phase: "05"
 stage: S3 Battle Layer
 status: Drafted
-build_order: 14
+build_order: 15
 depends_on: ["Unit Design"]
 feeds_into: ["Factions"]
 tags: [settlements/phase, settlements/stage/s3]
 ---
 # 05 · List Building
-> **S3 Battle Layer** · status **Drafted** · build order **14**
+> **S3 Battle Layer** · status **Drafted** · build order **15**
 
 **Depends on:** [[Unit Design]]
 **Feeds into:** [[Factions]]

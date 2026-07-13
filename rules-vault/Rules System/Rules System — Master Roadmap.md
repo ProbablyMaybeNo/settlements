@@ -172,14 +172,23 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [ ] A setup procedure so mixed terrain collections all plug into the same rules.
 - [ ] The interactive-terrain hooks that deliver the headline promise: no two battles the same.
 
-#### 09 · [[Terrain Interaction]] — ⬜ Not started
+#### 09 · [[Terrain Interaction]] — ✅ Drafted
 <small>depends on: Terrain</small>
 
-- [ ] Interaction actions: opening/breaking doors, barricading, climbing, operating objects — gated by Strength / Dexterity / Intelligence.
-- [ ] Searching and looting terrain: what's found, the rolls, and who can search.
-- [ ] Structural integrity: damaging and destroying cover/buildings, and what collapse does to nearby units.
-- [ ] In-battle repair/reinforce, which ties into settlement upgrades (turrets, reinforced doors).
-- [ ] Traps and deployable defences: how they're placed, triggered, and disarmed.
+- [x] Interaction actions: opening/breaking doors, Lift (not barricade), climbing, operating objects — gated by STR / DEX / INT / AGI.
+- [x] Searching and looting terrain: what's found, the rolls, and who can search.
+- [x] Structural integrity: out of scope for launch; feature damage (turrets/terminals/etc.) instead.
+- [x] In-battle repair of features; settlement upgrades as board state.
+- [x] Traps and deployable defences: how they're placed, triggered, and disarmed.
+
+#### 33 · [[Hacking]] — ✅ Drafted
+<small>depends on: Terrain, Terrain Interaction, Rules Engine</small>
+
+- [x] Terminal Interact sequence (declare → range → INT 7+ or opposed).
+- [x] Range bands as modifiers (0 / −1 / −2 / −3), max 24".
+- [x] Linked functions menu; turrets controlled-only.
+- [x] Hacker-vs-hacker shut-outs: opposed INT → Effect roll → Shut-out table.
+- [ ] Playtest dials: Take Over frequency, Overload lethality, Shut down duration.
 
 #### 05 · [[List Building]] — ⬜ Not started
 <small>depends on: Unit Design</small>
@@ -390,6 +399,7 @@ When the systems below are *locked*, they drop straight into these chapters ([[R
 - [ ] [[Morale]]
 - [ ] [[Terrain]]
 - [ ] [[Terrain Interaction]]
+- [ ] [[Hacking]]
 - [ ] [[List Building]]
 - [ ] [[Scenarios]]
 
