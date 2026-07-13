@@ -31,6 +31,23 @@ Armor reduces the **Injury roll only** — never the hit.
 | Improvised | −1 | −1 AGI |
 | Heavy | −2 | −1 MOV, −1 AGI, counts as **Loud** |
 
+## Hacking gear
+Hacking mirrors combat: **Program** is its Damage (adds to the **Breach roll**), **Firewall** is its Armor (subtracts from an incoming breach). Both come from gear or skills — see [[Hacking]].
+
+| Program (breach) | +DMG | Notes |
+|---|:---:|---|
+| Bare-handed | +0 | improvising at a terminal |
+| Breach Kit | +1 | standard hacker loadout |
+| Exploit Suite | +2 | specialist kit |
+
+| Firewall (defence) | Armor | Notes |
+|---|:---:|---|
+| Open system | 0 | civilian terminal |
+| Firewall Node | −1 | hardened terminal / basic ICE |
+| Military ICE | −2 | settlement / military security |
+
+*(Values TBD in playtest — set the ladder once breach reliability is confirmed.)*
+
 ## Trait glossary
 - **Sidearm** — may fire while Engaged, using DEX, against the Engaged enemy only.
 - **Accurate** — +1 to hit if the unit didn't Move / Sprint / Climb and isn't Shaken this activation.
