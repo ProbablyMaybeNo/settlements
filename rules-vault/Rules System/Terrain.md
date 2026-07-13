@@ -100,7 +100,7 @@ Forced movement (Knockback, Slam & Throw, etc.) into a Dangerous area triggers i
 
 - Height advantage: a ranged attacker 2"+ above its target ignores Light cover from pieces at the target's level (Heavy still counts). _(single, simple bonus — no melee height mods at launch)_
 - Engagement across levels: you can only be Engaged by an enemy on your own level, or within 1" including the vertical distance.
-- Falling: a fighter that falls 2"+ suffers an Injury roll at +1 Damage per full 2" fallen, ignoring Armor, and lands **Prone**. A voluntary drop of 2–3" may test AGI 7+ to land clean (no Injury, not Prone). Like a Cat ([[Skill Paths]]) modifies as written.
+- **Falling.** A fall under **3"** has no effect. **3"+** lands the fighter **Prone**. **6"+** also forces an **Injury roll** at **+1 Damage per full 2" fallen (round up)**, ignoring Armor. A **voluntary** drop may test **AGI 7+** to land clean (avoid Prone); a 6"+ fall still rolls Injury on a fail. Like a Cat ([[Skill Paths]]) modifies as written.
 - Fall _risk_ moments (failed climbs, Knockback off a ledge) come from [[Movement]] and skills; this section only owns what a fall _does_.
 
 ### Setup procedure
@@ -136,7 +136,7 @@ Climb · vault · leap · swim are not Interacts — they are Move-slot man
 > [!question] Playtest dials
 > 
 > - Ladder cost: free vs −2" Move.
-> - Fall damage: +1 Dmg per full 2" may be too soft/hard — check against 1-WND fighters.
+> - Fall damage: RESOLVED - under 3" nothing, 3"+ Prone, 6"+ Injury (+1 per 2", round up). First injuring fall (6") = +3 = 70% vs WND1; drop to +2 if it plays too hot.
 > - Height advantage: ignoring Light cover from above may make roofs dominant — watch for camping.
 > - Interior Building floors defaulting Open vs Difficult.
 

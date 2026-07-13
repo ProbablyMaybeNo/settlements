@@ -62,12 +62,13 @@ Open ground, marked stairs, and clear paths are normal movement — no test.
 - Fall damage / fall tests → [[Terrain]] (verticality).
 
 ### Disengaging
-Breaking away from melee is a **Disengage** — it costs **both slots** (your whole activation):
-- Move up to **MOV"** (6") in any direction.
-- You **cannot end within 1" of *any* enemy** — not just the ones you left (no using Disengage to lock down a different enemy).
-- **Every enemy you were Engaged with gets a free swing at −2** (you're ducking and scrambling clear).
+Breaking away from melee is a **Disengage** — it uses your **Move** slot (a normal move, not your whole activation):
+- Move up to **MOV"** in any direction, out of the enemy's 1" zone.
+- **Every enemy you were Engaged with gets a free swing at −2** as you scramble clear — that's the risk you take.
+- You keep your **Action**: you may then Shoot, Interact, or even Fight a *new* enemy — but you **cannot Charge**, so any fresh melee is fought **even** (no charge bonus). That's the trade versus a clean Charge.
 
-> [!question] Double-cost check: both slots **and** free swings may make Disengage a dead option. Playtest whether the −2 swing is enough on its own, or if losing the whole activation should be the only cost.
+> [!success] Resolved 2026-07-13 — single cost
+> Disengage is a **Move + the −2 swings**, *not* the whole activation. The double cost made it a dead option (sim: ~14% chance to be Downed leaving one engager, ~26% leaving two — *plus* losing your turn). The free swings are deterrent enough on their own.
 
 ## Rule ledger
 - [[core-001 Movement]]
