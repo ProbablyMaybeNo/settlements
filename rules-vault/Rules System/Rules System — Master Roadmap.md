@@ -9,26 +9,25 @@ Everything needed to take Settlements from *scaffold* to a *complete, book-ready
 
 ## 1 · Where it stands today
 
-**32 phases total** — ✅ 14 drafted · 🟡 1 designing · 🎯 1 milestone · ⬜ 16 not started. *(+ [[Weapons]] & [[Skill Paths]] reference notes.)*
+**33 phases** (incl. [[Hacking]]) — ✅ **17 drafted** · 🎯 1 milestone · ⬜ 15 not started.  
+Reference notes: [[Weapons]] · [[Skill Paths]] · *(Terrain Features catalogue TBD)*
 
 | Stage | Phases | Status |
 |---|---|---|
-| **S1 Foundation** | 3 | ✅ Drafted |
-| **S2 Core Combat** | 8 | 🟡 Drafting (7 drafted, Unit Design designing) |
-| **S3 Battle Layer** | 4 | 🟡 Started (Terrain, List Building drafted) |
-| **S4 Settlement & Campaign** | 10 | 🟡 Started (Campaign, Progression drafted) |
-| **Milestone** | 1 | Milestone |
-| **S5 Content** | 1 | Not Started |
-| **S6 Production** | 5 | Not Started |
+| **S1 Foundation** | 3 | ✅ All Drafted |
+| **S2 Core Combat** | 8 | ✅ All Drafted (some Focus items still open) |
+| **S3 Battle Layer** | 5 | 🟡 4 Drafted · Scenarios empty |
+| **S4 Settlement & Campaign** | 10 | 🟡 Campaign + Progression Drafted · rest empty |
+| **Milestone** | 1 | 🎯 Final Alpha |
+| **S5 Content** | 1 | ⬜ Not Started |
+| **S6 Production** | 5 | ⬜ Not Started |
 
 ## 2 · The decisions that unblock everything
 
-These two gate the entire combat engine. **Lock them first — nothing in S2 can be finalised until they are.**
+- [x] **Core dice mechanic** ([[Rules Engine]] / [[core-000 Core Test]]) — `1d10 + Stat + mods, 7+`, nat 1/10 auto.
+- [x] **Lethality first pass** ([[Damage]]) — Injury roll, WND 1, Down / Stabilize / bleed-out, Fate hook. **Not Locked** until playtested — treat as Drafted, not Done.
 
-- [x] **Core dice mechanic** ([[Rules Engine]]) — *the* resolution every other system reuses. ✅ Drafted: 1d10 + Stat + mods, 7+, nat 1/10 auto.
-- [ ] **Lethality dial** ([[Damage]]) — how deadly combat is and whether rosters persist between games (Tenet 3). Set deliberately before locking combat.
-
-Secondary opens to resolve as you reach them: 6-turn length vs objective soft-cap ([[Core Game Format]]), base-size→rules brackets ([[Terrain]]), costing method ([[List Building]] / [[Balance]]).
+Secondary opens: Glorious Deed name ([[Core Game Format]] / [[Scenarios]]), List Building point values, catch-up rule ([[Initiative & Activation]]), Skill Paths 9+/11+ cleanup to flat 7+.
 
 ## 3 · Critical path to a *playable* game
 
@@ -82,104 +81,104 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 ### S2 Core Combat
 *One playable firefight. ✅ Gate: after Morale you can play a standalone skirmish.*
 
-#### 06 · [[Unit Design]] — ⬜ Not started
+#### 06 · [[Unit Design]] — ✅ Drafted
 <small>depends on: Rules Engine</small>
 
-- [ ] Each stat and exactly what it governs: Wounds, Move, Strength, Dexterity, Intelligence, Mental, Morale.
-- [ ] Elite units (unique, player-built statline) vs non-elite (shared statline by type), and how leader/elite picks unlock which non-elites you can field.
-- [ ] The data-card layout: stats + skills/abilities + equipment + narrative/identity.
-- [ ] How weapons & armour attach (separate profiles vs baked into the unit) — decide this here, it drives Shooting/Melee/Damage.
-- [ ] Baseline human numbers to anchor the whole game; how champions/leaders/veterans scale above baseline.
+- [x] Each stat and what it governs: WND, MOV, STR, AGI, DEX, INT, NRV.
+- [x] Rank structure (Recruit / Specialist / Leader) + emergent Role — replaces elite/non-elite unlock tree.
+- [ ] The data-card layout: stats + skills + equipment + narrative/identity.
+- [ ] How weapons & armour attach (separate profiles vs baked-in) — decide here explicitly (*de facto* separate in [[Weapons]], not locked in this note).
+- [x] Baseline human numbers (civilian 0, path-stat scale to +6) and rank point budgets.
 
-#### 12 · [[Initiative & Activation]] — ⬜ Not started
+#### 12 · [[Initiative & Activation]] — ✅ Drafted
 <small>depends on: Rules Engine</small>
 
-- [ ] The activation model: alternating activation; ~2 activations per unit; leaders/champions sometimes more.
-- [ ] How initiative is rolled and applied each turn, including the underdog edge.
-- [ ] Action-economy detail: what a single activation lets a unit do (move + one action? two actions?).
-- [ ] Out-of-activation rules: reactions, overwatch, interrupts — or explicitly none, to keep it clean.
-- [ ] A catch-up / rubber-band rule so a larger crew can't simply burn through your activations and then dogpile.
+- [x] Alternating activation; Move + Action per activation; Orders by rank.
+- [x] Priority each turn (1d10 + underdog +1).
+- [x] Action-economy detail (Move / Action / Sprint / Charge / Ready) — sourced from [[Rules Engine]].
+- [ ] Reaction options fully defined (Snap Shot, Charge, Throw, Interact, Trigger are *named* only — need resolution text).
+- [ ] Catch-up / rubber-band so a larger crew can't dogpile the last models.
 
-#### 07 · [[Movement]] — ⬜ Not started
+#### 07 · [[Movement]] — ✅ Drafted
 <small>depends on: Unit Design</small>
 
-- [ ] Base move (from the Move stat) plus run/charge/advance variants and their costs/trade-offs.
-- [ ] Vertical movement: climbing, jumping gaps, falling and fall damage (driven by Dexterity).
-- [ ] Moving through/over terrain: difficult ground, obstacles, squeezing through gaps.
-- [ ] Movement around engagement: disengaging, falling back, and what (if anything) it provokes.
-- [ ] Forced movement (push / knockback / drag) and how it interacts with terrain edges and falling.
-- [ ] Measuring rules: pre-measuring allowed? base-to-base? — must agree with the Rules Engine conventions.
+- [x] Base move, Sprint, Charge.
+- [x] Athletic traversal: climb / jump / leap / vault / swim — **AGI** 7+; low leap under 2" = no test, −2" Move.
+- [x] Difficult ground = double Move; Impassable handled via [[Terrain]].
+- [x] Disengage (both slots + free swings at −2) — playtest dial still open.
+- [ ] Forced movement (push / knockback / drag) as a universal Movement rule (currently skill-owned).
+- [x] Measuring conventions — pre-measure, base-edge, round down ([[Rules Engine]]).
 
-#### 13 · [[Shooting]] — ⬜ Not started
+#### 13 · [[Shooting]] — ✅ Drafted
 <small>depends on: Unit Design, Movement</small>
 
-- [ ] The step-by-step ranged sequence: declare → check LOS/range → to-hit → saves → damage.
-- [ ] Which stat drives ranged to-hit (Dexterity) and the target-number method.
-- [ ] The ranged-weapon profile fields: range (or bands), attacks, strength/AP, damage, traits.
-- [ ] Target-priority rules (closest visible? cover interplay) — a key lever for the terrain pillar.
-- [ ] Modifiers: cover, range, moving vs stationary, elevation, suppression.
-- [ ] Realism touches if wanted: ammo, reload, misfire/jam — kept streamlined to one die where possible.
+- [x] Ranged sequence: declare → range/LOS → `1d10 + DEX` vs 7+ → Injury → +1 Stress.
+- [x] DEX drives to-hit; core test method.
+- [x] Weapon profile fields live in [[Weapons]] (range, Damage, traits).
+- [ ] Target-priority rules (closest? must shoot?).
+- [x] Cover modifiers (Light/Heavy/Hidden). Elevation / moving-and-shooting still open.
+- [ ] Ammo / reload / jam — deferred (traits TBD in [[Weapons]]); not required for alpha.
 
-#### 14 · [[Melee]] — ⬜ Not started
+#### 14 · [[Melee]] — ✅ Drafted
 <small>depends on: Unit Design, Movement</small>
 
-- [ ] What counts as "engaged" (range), and how combats start (charge vs being in reach).
-- [ ] The melee sequence: who strikes first (Initiative / charging), simultaneous vs alternating blows.
-- [ ] Which stat drives melee (Strength) and any defence/parry interplay.
-- [ ] Positional modifiers: charging, flank/rear, outnumbering, high ground, terrain.
-- [ ] The melee-weapon profile fields and how they differ from ranged weapons.
-- [ ] How the result feeds into the shared Damage sequence (don't duplicate damage logic here).
+- [x] Engaged within 1"; Charge vs Move-in.
+- [x] Opposed STR (or AGI for some weapons); ties to defender; winner → Injury.
+- [x] Charge grants +1; no charge bonus if already Engaged / just charged.
+- [ ] Positional modifiers (flank / rear / outnumber / high ground) — none at launch, or add later.
+- [x] Melee weapon profiles in [[Weapons]].
+- [x] Feeds shared [[Damage]] sequence.
 
-#### 15 · [[Damage]] — ⬜ Not started
+#### 15 · [[Damage]] — ✅ Drafted
 <small>depends on: Shooting, Melee</small>
 
-- [ ] How a hit converts to a wound: armour/save roll, AP/rend modifier, then wounds dealt.
-- [ ] The wound model: most units have 1 wound (down on a successful hit); multi-wound leaders/champions.
-- [ ] Down/injury states in-battle: knocked down, out of action, bleeding out.
-- [ ] Criticals: what triggers one and what it does (extra damage / roll on an injury table).
-- [ ] The armour profile and how it modifies the save.
-- [ ] The hook into the persistent roster: post-battle survival vs death vs lasting injury (brutal-realism pillar).
+- [x] Injury roll: `1d10 + Damage − Armor` vs 7+ → wound or Pinned.
+- [x] WND 1 (extra only via skill); Down at 0.
+- [x] Down / Stabilize / bleed-out.
+- [ ] Criticals beyond nat-10 auto-success — no separate crit table at launch *(confirm reject)*.
+- [x] Armour profile (0 / −1 / −2) — see [[Weapons]].
+- [x] Post-battle Fate hook ([[Campaign]]).
 
-#### 16 · [[Conditions]] — ⬜ Not started
+#### 16 · [[Conditions]] — ✅ Drafted
 <small>depends on: Damage</small>
 
-- [ ] The full condition list and what each one does mechanically.
-- [ ] How conditions are applied, tracked (tokens), and removed/expire.
-- [ ] Stacking rules and how conditions interact with each other.
-- [ ] Which sources cause which conditions (weapons, terrain hazards, psychic/Mental).
-- [ ] Realism-flavoured states tied to the setting (suppressed, bleeding, panicked) that reinforce the gritty tone.
+- [x] Full condition list (combat, control, persistent, Nerve, markers).
+- [x] Tokens, apply / refresh / expire.
+- [x] No stacking; ±3 mod cap; Stress on first apply.
+- [x] Sources: Damage, skills, hazards, devices.
+- [x] Gritty states: Pinned, Suppressed, Fire, Bleed, Shocked, Bolt / Broken / BugOut.
 
-#### 17 · [[Morale]] — ⬜ Not started
+#### 17 · [[Morale]] — ✅ Drafted
 <small>depends on: Damage</small>
 
-- [ ] Morale / Fear / Insanity tests: what triggers them, the stat used (Morale), and target numbers.
-- [ ] Bottling: when a crew tests to flee the field — design it to be the NORM, not the exception.
-- [ ] Individual vs crew-wide effects (a single fighter pinned/fleeing vs the whole crew bottling).
-- [ ] Insanity and Fear mechanics and how they alter behaviour and tie back to the initiative phase.
-- [ ] Recovery / rally rules and how leaders steady nearby fighters.
+- [x] Stress + NRV Break tests (7+); Shaken at 1+; Break at 2+.
+- [ ] Crew-wide bottling as the NORM — currently **individual** BugOut / Bolt only.
+- [x] Individual Nerve states (Bolt / Broken / BugOut).
+- [x] Insanity dropped in favour of BugOut (rout) — playtest Q remains.
+- [x] Recovery: Break pass clears; Bravery-path skills for early rally.
 
 
 ### S3 Battle Layer
 *The board comes alive — terrain (the core pillar), list-building, and scenarios.*
 
-#### 08 · [[Terrain]] — ⬜ Not started
+#### 08 · [[Terrain]] — ✅ Drafted
 <small>depends on: Movement</small>
 
-- [ ] A terrain category system (light/heavy/impassable, cover levels) that classifies ANY piece a player owns — DIY, 3D-printed, or bought.
-- [ ] Cover and line-of-sight rules: full vs partial cover, obscuring, how blocking is judged.
-- [ ] Hazard terrain (fire, water, rubble, height) and its effects on units.
-- [ ] Verticality/elevation: ranged and melee benefits of height, plus fall risk.
-- [ ] A setup procedure so mixed terrain collections all plug into the same rules.
-- [ ] The interactive-terrain hooks that deliver the headline promise: no two battles the same.
+- [x] Terrain properties (Movement / Cover / Tags) + Types that classify ANY piece.
+- [x] Cover and true LOS rules.
+- [x] Dangerous overlay + hazard → Conditions table.
+- [x] Verticality / height advantage / falling.
+- [x] Setup procedure + Building access (stairs/ladder) rule.
+- [x] Interactive hooks via tags → [[Terrain Interaction]] / [[Hacking]].
 
 #### 09 · [[Terrain Interaction]] — ✅ Drafted
 <small>depends on: Terrain</small>
 
-- [x] Interaction actions: opening/breaking doors, Lift (not barricade), climbing, operating objects — gated by STR / DEX / INT / AGI.
-- [x] Searching and looting terrain: what's found, the rolls, and who can search.
-- [x] Structural integrity: out of scope for launch; feature damage (turrets/terminals/etc.) instead.
+- [x] Interaction actions: Force, Lift, Lockpick, Search, Repair — STR / DEX / INT; AGI is Move-slot.
+- [x] Searching and looting (exhaust token + find table).
+- [x] Structural integrity: out of scope; feature damage instead.
 - [x] In-battle repair of features; settlement upgrades as board state.
-- [x] Traps and deployable defences: how they're placed, triggered, and disarmed.
+- [x] Traps and deployable defences.
 
 #### 33 · [[Hacking]] — ✅ Drafted
 <small>depends on: Terrain, Terrain Interaction, Rules Engine</small>
@@ -190,23 +189,23 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [x] Hacker-vs-hacker shut-outs: opposed INT → Effect roll → Shut-out table.
 - [ ] Playtest dials: Take Over frequency, Overload lethality, Shut down duration.
 
-#### 05 · [[List Building]] — ⬜ Not started
+#### 05 · [[List Building]] — ✅ Drafted *(thin)*
 <small>depends on: Unit Design</small>
 
-- [ ] Roster structure: 1 leader + elite fighters + the non-elites those choices unlock; min/max crew size.
-- [ ] The costing method (points? threat rating? scenario-defined?) and what gets costed (units, weapons, gear).
-- [ ] Faction selection at list level and how each faction's buffs AND nerfs apply.
-- [ ] How a persistent campaign roster differs from a one-off pickup list.
-- [ ] Restrictions/keywords that keep lists legal and on-theme.
+- [x] Fielding caps: 1 Leader · ≤2 Specialists · rest Recruits; ~⅓ budget anti-hero.
+- [ ] Exact costing numbers (rank base, per-stat, weapons, skills).
+- [ ] Faction selection / buffs & nerfs at list level.
+- [ ] Pickup list vs persistent campaign roster differences.
+- [x] Caps / restrictions that keep lists legal (no-heroes honour).
 
-#### 18 · [[Scenarios]] — ⬜ Not started
+#### 18 · [[Scenarios]] — ⬜ Not Started
 <small>depends on: Damage, Morale, Terrain</small>
 
 - [ ] A scenario template (setup, deployment, objectives, twist, victory conditions, length).
-- [ ] A starter suite featuring the campaign battles named in the vision: Caravan Escort, Settlement Raid, Kidnapping, Sabotage.
-- [ ] Asymmetric attacker/defender setups — the settlement defender fights on the board they actually built.
-- [ ] Win conditions beyond kills, how/when a game ends, and how bottling interacts.
-- [ ] A variability/twist mechanic so each scenario replays differently.
+- [ ] A starter suite: Caravan Escort, Settlement Raid, Kidnapping, Sabotage.
+- [ ] Asymmetric attacker/defender setups.
+- [ ] Win conditions beyond kills; bottling interaction.
+- [ ] Variability / twist mechanic.
 
 
 ### S4 Settlement & Campaign
@@ -230,23 +229,23 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [ ] Anti-snowball / anti-inflation mechanics (raids, decay, caps) so an early leader can't run away.
 - [ ] How a solo or drop-in player tracks their own economy independently.
 
-#### 19 · [[Campaign]] — ⬜ Not started
+#### 19 · [[Campaign]] — ✅ Drafted *(thin)*
 <small>depends on: Scenarios, Settlement</small>
 
-- [ ] The campaign sequence: battle → resolve → downtime → next battle.
-- [ ] What carries over between games (roster, injuries, resources, territory) and how each player tracks it solo.
-- [ ] Drop-in / drop-out support so a warband always progresses whether playing one-offs, co-op, or a 2-player narrative.
-- [ ] Post-battle rewards and consequences (loot, injuries, XP, reputation).
-- [ ] The map/territory frame that battles are fought over (links to the Territory phase).
+- [x] Post-battle sequence stub: Survival → Advances → Resources.
+- [x] Safe vs Fate table (death / injury / capture / scar / recovery / Hardened).
+- [ ] Drop-in / drop-out support spelled out.
+- [ ] Full carry-over list (roster, scars, resources, territory tracking).
+- [ ] Map / territory frame (→ [[Territory]]).
 
-#### 21 · [[Progression]] — ⬜ Not started
+#### 21 · [[Progression]] — ✅ Drafted *(thin)*
 <small>depends on: Campaign</small>
 
-- [ ] XP sources and how units earn and spend it.
-- [ ] Advancement tables: new skills, stat increases, unlocked equipment.
-- [ ] The injury / permanent-scar system: debilitating injuries, death, and survivors becoming powerful veterans.
-- [ ] How leader/elite progression differs from non-elite.
-- [ ] Grudges, bonds, and character traits that build the narrative attachment the vision promises.
+- [x] Advances spend: +1 stat / +1 skill / heal scar.
+- [x] Caps (+6 campaign; WND/MOV only via skills); Promotion into open rank slots.
+- [ ] Exact Advance award rates (kills / deeds / survive / objectives).
+- [ ] Full scar / injury effect tables.
+- [ ] Grudges, bonds, narrative traits.
 
 #### 20 · [[Territory]] — ⬜ Not started
 <small>depends on: Campaign</small>

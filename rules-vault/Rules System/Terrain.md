@@ -34,7 +34,7 @@ Terrain is the primary weapon — the core rules stay simple so the *battlefield
 
 Every piece is described by three independent properties. Never merge them — a piece is always all three:
 
-|Axis|Question|Values|
+|Property|Question|Values|
 |---|---|---|
 |Movement|How do I cross it?|Open · Difficult · Impassable|
 |Cover|How hard am I to hit while using it?|Open · Light · Heavy (+ Concealing enables Hide)|
@@ -119,13 +119,13 @@ One line per piece is enough: `Ruin · Difficult · Light · Unstable, Climbabl
 
 A unit spends its Action to Interact with adjacent terrain; the stat used depends on the interaction:
 
-|Interaction|Stat|
-|---|---|
-|Kick door · drag object · Lift|STR|
-|Pick lock · disarm mechanical trap|DEX|
-|Hack keypad · power · camera|INT|
-|Search|INT|
-|Steady yourself in a hazard|NRV|
+| Interaction                    | Stat |
+| ------------------------------ | ---- |
+| Kick door · drag object · Lift | STR  |
+| Pick lock · disarm · repair    | DEX  |
+| Hack · Build/Deploy            | INT  |
+| Scavenge                       | DEX  |
+| Steady yourself in a hazard    | NRV  |
 
 Routine Interacts auto-pass; test (7+) only when failure has a consequence. Terminals and digital control → [[Hacking]]. Full verb table → [[Terrain Interaction]].
 
@@ -141,10 +141,6 @@ Climb · vault · leap · swim are not Interacts — they are Move-slot man
 > - Height advantage: ignoring Light cover from above may make roofs dominant — watch for camping.
 > - Interior Building floors defaulting Open vs Difficult.
 
-**Climb · vault · leap · swim** are **not** Interacts — they are **Move-slot** maneuvers. Full rules in [[Movement#Terrain movement]].
-
-- Obstacles **under 2"** — **low leap**: no test, **−2"** Move cost (flat).
-- Gaps, **2"+** obstacles, climbs, and swim — **AGI** test vs **7+**.
 ## Rule ledger
 - [[core-004 Cover and line of sight]]
 - [[adv-004 Weather and climate]]

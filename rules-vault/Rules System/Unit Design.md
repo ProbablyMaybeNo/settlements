@@ -2,7 +2,7 @@
 type: rule-phase
 phase: "06"
 stage: S2 Core Combat
-status: Designing
+status: Drafted
 build_order: 4
 depends_on:
   - Rules Engine
@@ -17,7 +17,7 @@ tags:
   - settlements/stage/s2
 ---
 # 06 · Unit Design
-> **S2 Core Combat** · status **Designing** · build order **4**
+> **S2 Core Combat** · status **Drafted** · build order **4**
 
 **Depends on:** [[Rules Engine]]
 **Feeds into:** [[Movement]], [[Shooting]], [[Melee]], [[List Building]], [[Factions]]
@@ -27,8 +27,8 @@ tags:
 The stat line FIRST — every other system references it. Define the data card before anything else in combat.
 
 The Rules column should nail down:
-- Each stat and exactly what it governs: Wounds, Move, Strength, Dexterity, Intelligence, Mental, Morale.
-- Elite units (unique, player-built statline) vs non-elite (shared statline by type), and how leader/elite picks unlock which non-elites you can field.
+- Each stat and exactly what it governs: Wounds, Move, Strength, Agility, Dexterity, Intelligence, Nerve.
+- Rank structure (Recruit / Specialist / Leader) and how Fielding caps work — Role is emergent, not a separate unlock tree.
 - The data-card layout: stats + skills/abilities + equipment + narrative/identity.
 - How weapons & armour attach (separate profiles vs baked into the unit) — decide this here, it drives Shooting/Melee/Damage.
 - Baseline human numbers to anchor the whole game; how champions/leaders/veterans scale above baseline.
