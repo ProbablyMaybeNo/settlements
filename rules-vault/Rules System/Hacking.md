@@ -23,18 +23,18 @@ tags:
 **Feeds into:** [[Settlement]], [[Scenarios]], [[Skill Paths]]
 
 ## Focus
-Terminals, Linked networks, range-banded control, and hacker-vs-hacker shut-outs. Physical Interacts (Lift, Force, Search, traps) stay in [[Terrain Interaction]] — this note is the digital layer.
+Terminals, Linked networks, range-banded control, and hacker-vs-hacker duels. Physical Interacts (Lift, Force, Search, traps) stay in [[Terrain Interaction]] — this note is the digital layer.
 
-The Rules column should nail down:
-- How a fighter operates a terminal (declare → range → roll).
+The Rules column nails down:
+- How a fighter operates a terminal (declare → range → **Access roll → Breach roll**).
 - Range bands as modifiers on the core **7+** test (max 24").
-- What one successful hack can do (one Linked function).
+- What a breach does, **graded by the roll total** (Shut Out → Power Surge → Take Over → Brain Hack).
 - Contested control when two operators share a network.
-- Hacker-vs-hacker shut-outs: opposed INT → Effect roll → Shut-out table.
+- Hacker-vs-hacker as a **Head-to-Head** access, then a breach.
 - How turrets, cameras, doors, and alarms plug in without a second dice mechanic.
 
 ## Inherits from the engine
-> [!info] Recall — hacking reuses the [[Rules Engine#Universal Resolution Mechanic|core test]] and [[Rules Engine#Opposed Tests|opposed tests]]. Range is a **modifier**, not a new target number. Feature **Offline** / **Destroyed** and device states (**Jammed**, **Linked**, **Compromised**) live in [[Terrain Interaction#Feature damage]] and [[Conditions]].
+> [!info] Recall — hacking is **the same two rolls as combat**: an **Access roll** (the to-hit) then a **Breach roll** (the injury). Range is a **modifier**, not a new target number. **Program** and **Firewall** are hacking's **Damage** and **Armor**. Feature **Offline** / **Destroyed** and device states (**Jammed**, **Linked**, **Compromised**) live in [[Terrain Interaction#Feature damage]] and [[Conditions]].
 
 ![[core-000 Core Test#Text]]
 
@@ -44,10 +44,36 @@ The Rules column should nail down:
 - A **terminal** is terrain a fighter can Interact with while in **base contact**.
 - Features are **Linked** only when the scenario or settlement says so — range alone never makes something Linked.
 - Operating a terminal spends the unit's **Action** slot.
-- One Action = **one** Linked function, unless a skill says otherwise ([[Skill Paths]]).
+- One Action = one hack (**one Access + one Breach**) = **one** Linked function, unless a skill says otherwise ([[Skill Paths]]).
+
+### Two rolls — same as combat
+A hack resolves exactly like an attack: **Access roll** (did you get in?) → **Breach roll** (how deep?).
+
+**1 · Access roll** — the *to-hit*:
+- **Undefended** system → `1d10 + INT + range` vs **7+**.
+- **Defended** system, or a **rival hacker** at a terminal → **Head-to-Head**: both roll `1d10 + INT + mods`, highest wins, **ties → defender**.
+- **Nat 1 / Nat 10** = auto-fail / auto-succeed. Fail → nothing happens.
+
+**2 · Breach roll** — the *injury*, only on a successful Access:
+`1d10 + Program − Firewall` — read the **total** (each tier includes the ones below):
+
+| Breach total | Effect |
+|:--:|---|
+| **7+** | **Shut Out** — the feature is **Jammed / Offline** until the end of the target's next activation (denial). |
+| **8+** | **Power Surge** — it discharges **once**: a turret **fires** under your control · a trap/hazard **triggers** · a door **slams** · an alarm **trips**. |
+| **9+** | **Take Over** — you become the **controller**; resolve **one** Linked function now (turret fire still counts as your attack). |
+| **10+** | **Brain Hack** — total control: you hold the feature and it **can't be re-taken** until you leave range/LOS. In a **hacker duel**, the rival's terminal is fried **Offline** *and* the rival takes an auto-hit: `1d10 + Program − Armor ≥ 7`. |
+
+- Below **7** → you got in but achieve **nothing** this activation (a glitch).
+- **Nat 1 / Nat 10** on the Breach = auto-fail / auto-succeed (a natural 10 always reaches **Brain Hack**).
+
+### Program & Firewall — hacking's Damage & Armor
+- **Program** (= +DMG) is your breach power, from hacking **gear or skills** (a breach kit, an exploit suite). Default **+0** bare-handed — but a real hacker carries one, just as a fighter carries a weapon.
+- **Firewall** (= Armor) reduces the attacker's Breach total, from hardened terminals, security software, or a defender's gear/skills. Default **0**; military and settlement systems buy it up.
+- *Example values (TBD in playtest):* Breach Kit **Program +1** · Exploit Suite **+2** · Firewall Node **Firewall −1** · Military ICE **−2**. Several INT skills grant or beat these — see [[Skill Paths]].
 
 ### Range bands
-Measure **terminal → feature** (or **terminal → defending terminal** for shut-outs). Max **24"**.
+Measure **terminal → feature** (or **attacking terminal → defending terminal** for a duel). Max **24"**. Applies to the **Access roll**.
 
 | Band | Distance | Mod |
 |---|---|:---:|
@@ -57,65 +83,36 @@ Measure **terminal → feature** (or **terminal → defending terminal** for shu
 | Long | 18–24" | −3 |
 | Out | 24"+ | illegal |
 
-Other modifiers (skills, **Shaken**, conditions) stack normally. The global **±3** modifier cap still applies.
+Other modifiers (skills, **Shaken**, conditions) stack normally; the global **±3** cap applies to the Access roll.
 
-### Terminal Interact (feature control)
-1. Base contact with a **terminal**.
-2. Declare one **Linked** function within 24".
-3. Apply the range modifier.
-4. **Uncontested** → `1d10 + INT + mods` vs **7+**.  
-   **Contested** → opposed **INT** (same mods; **ties to the current controller**).
-5. Pass / win → that one function resolves. Fail / lose → nothing.
-
-**Natural 1** / **Natural 10** still auto-fail / auto-succeed on uncontested tests.
-
-### Example Linked functions
+### Linked functions (what Take Over resolves)
 One per Action unless a skill says otherwise:
 - Doors — lock / unlock / open / close
 - Cameras — loop / reveal / ignore named fighters
 - Alarms — suppress next trigger / trip now
 - Power — toggle a Powered system or printed hazard
-- Turrets — rotate / deactivate / **fire once**
+- Turrets — rotate / deactivate / **fire once** (counts as your attack)
 - Electronic traps — arm / disarm / trigger if legal
 
-**Turrets are controlled only** — no auto-sentry. Firing a turret from a terminal **counts as your attack** for the activation.
+**Turrets are controlled only** — no auto-sentry.
 
 ### Network control
-- The first successful hack on a network this battle makes that fighter (or their crew) the **controller** until someone beats them in an opposed hack or takes the terminal another way.
-- **Compromised** ([[Conditions]]) may apply from skills (e.g. **Counter-Hack**) — it does not change the TN; it modifies the next opposed hack as written.
-
-### Hacker vs hacker (shut-out)
-Use this when you want to attack another operator instead of a terrain feature.
-
-1. Attacker is in base contact with a terminal.
-2. Target a fighter who is in base contact with a **terminal** (defending terminal may be the same network or another — measure **attacking terminal → defending terminal**).
-3. Both roll opposed **INT** with range and other mods. Highest wins; **ties → defender** (nothing happens).
-4. If the **attacker** wins → make an **Effect roll**: `1d10` vs **7+** (no weapon Damage).
-   - **Fail** → **Nothing** (won the duel, payload didn't land).
-   - **Pass** → roll on the **Shut-out table**.
-
-### Shut-out table
-| d10 | Effect |
-|:---:|---|
-| 1–2 | **Glitch** — nothing extra |
-| 3–5 | **Shut down** — defending terminal is **Jammed** / offline until the end of the defender's **next activation** |
-| 6–7 | **Destroyed** — defending terminal goes **Offline** (see [[Terrain Interaction#Feature damage]]; Repairable; second hit = removed) |
-| 8–9 | **Take Over** — attacker becomes controller of that terminal **this activation** and may immediately resolve **one** Linked function measured from *that* terminal's range bands (turret fire still counts as the attack) |
-| 10 | **Overload** — terminal goes **Offline** + defending hacker takes an automatic hit: Injury `1d10 + 0 − Armor` vs **7+** |
-
-> [!question] Playtest dials
-> - **Take Over** on 8–9 may snowball — consider **10 only** if games swing too hard.
-> - **Overload:** Injury +0 vs auto-**Pinned** vs auto-**Down** — tune at the table.
-> - **Shut down** duration: end of next activation (current) vs end of next round.
+- The first successful breach on a network this battle makes that fighter (or their crew) the **controller** until someone beats them in a Head-to-Head or takes the terminal another way.
+- **Compromised** ([[Conditions]]) from skills (e.g. **Counter-Hack**) doesn't change the TN — it modifies the next Access roll as written.
 
 ### Action economy
-One hack Action per activation — either a **feature function** or a **shut-out**, not both (unless **Take Over** grants the follow-up function).
+One hack Action per activation = one **Access + Breach**. A **Take Over** / **Brain Hack** function (e.g. turret fire) is your **one attack** for the activation — you may not also make a separate attack.
 
 ### Skills
-INT-path skills ([[Skill Paths]]) are exceptions and payoffs on top of these rules (**Hacker**, **Computer Whiz**, **Turret Tamer**, **Counter-Hack**, **Jam Signals**, **Kaboom**, **Mastermind**, etc.). They never replace the core test — they change what one Action can do or when you may React.
+INT-path skills ([[Skill Paths]]) are exceptions and payoffs on top of these rules (**Hacker**, **Computer Whiz**, **Turret Tamer**, **Counter-Hack**, **Jam Signals**, **Kaboom**, **Mastermind**, etc.). They never replace the two rolls — they change what one Action can do, grant Program/Firewall, or change when you may React.
+
+> [!question] Playtest dials
+> - **Breach tiers** 7/8/9/10 — check Power Surge (8+) isn't strictly better than Take Over (9+) in play.
+> - **Brain Hack duel auto-hit:** `+Program` damage vs auto-**Pinned** vs auto-**Down** — tune at the table.
+> - **Program/Firewall ladder:** set the gear values once first playtests show how reliable breaches feel.
 
 ## Rule ledger
 _none yet — graduate a `core-00X Hacking` stub after first playtest_
 
 ---
-_See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+*See [[Rules System MOC]] and [[_Rules Map.canvas|the map]].*
