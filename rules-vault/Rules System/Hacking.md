@@ -23,18 +23,18 @@ tags:
 **Feeds into:** [[Settlement]], [[Scenarios]], [[Skill Paths]]
 
 ## Focus
-Terminals, Linked networks, range-banded control, and hacker-vs-hacker duels. Physical Interacts (Lift, Force, Search, traps) stay in [[Terrain Interaction]] — this note is the digital layer.
+Terminals, Linked features, and range-banded control of terrain. Physical Interacts (Lift, Force, Search, traps) stay in [[Terrain Interaction]] — this note is the digital layer.
+
+**v1 is deliberately small:** you hack a terminal to control its Linked features, and an enemy at another terminal can **interrupt** you — Overloading their own terminal for the turn to jam one hack. One roll, one clean decision. A deeper hacker-vs-hacker system is drafted and **parked** at the bottom for a later version.
 
 The Rules column nails down:
-- How a fighter operates a terminal (declare → range → **Access roll**; a **Breach roll** follows only in a hacker duel).
+- How a fighter operates a terminal (declare → range → **INT test**).
 - Range bands as modifiers on the core **7+** test (max 24").
-- What a breach does, **graded by the roll total** (Shut Out → Power Surge → Take Over → Brain Hack).
-- Contested control when two operators share a network.
-- Hacker-vs-hacker as a **Head-to-Head** access, then a breach.
+- **Interrupt** — how an opponent at another terminal contests your hack, at the cost of their own.
 - How turrets, cameras, doors, and alarms plug in without a second dice mechanic.
 
 ## Inherits from the engine
-> [!info] Recall — hacking reuses combat's rolls: an **Access roll** (the to-hit) and, **only when a rival hacker defends**, a **Breach roll** (the injury). A **solo** hack is a single Access; a **duel** is Access → Breach. Range is a **modifier**, not a new target number. **Program** and **Firewall** are hacking's **Damage** and **Armor**. Feature **Offline** / **Destroyed** and device states (**Jammed**, **Linked**, **Compromised**) live in [[Terrain Interaction#Feature damage]] and [[Conditions]].
+> [!info] Recall — a hack is **one core test**: `1d10 + INT − range` vs **7+**, the same engine as everything else. Range is a **modifier**, not a new target number. Device states (**Jammed**, **Linked**, **Overloaded**, **Compromised**) live in [[Terrain Interaction#Feature damage]] and [[Conditions]].
 
 ![[core-000 Core Test#Text]]
 
@@ -44,43 +44,21 @@ The Rules column nails down:
 - A **terminal** is terrain a fighter can Interact with while in **base contact**.
 - Features are **Linked** only when the scenario or settlement says so — range alone never makes something Linked.
 - Operating a terminal spends the unit's **Action** slot.
-- One Action = one hack = **one Access** (plus **one Breach** if a rival hacker defends) = at most **one** Linked function, unless a skill says otherwise ([[Skill Paths]]).
+- One Action = one hack = at most **one** Linked function, unless a skill says otherwise ([[Skill Paths]]).
+- **Access doesn't wear a terminal out.** A terminal used only to **access** features stays live all turn — different units may each hack it — but a **single unit may not access the same terminal twice in one turn.**
+- **Interrupting does.** A terminal used to **interrupt** (below) becomes **Overloaded** and powers down until the **start of next turn**. So each turn a terminal is either your reusable access point *or* a one-shot interrupt — never both.
 
-### One roll, or two — depends on whether anyone's home
-A hack resolves like an attack. **How many rolls you make depends on whether a rival hacker is defending the network.**
+### Hacking a terminal — the core test
+1. **Declare** the terminal and the Linked feature you want. The feature must be within a legal **range band** (below).
+2. **Roll** `1d10 + INT − range band` vs **7+**.
+3. **Pass** → activate that Linked feature now (open the door, fire the turret, trip the hazard, loop the camera).
+4. **Fail** → nothing happens this activation.
+5. **Nat 1 / Nat 10** = auto-fail / auto-succeed.
 
-**Solo hack** — no rival hacker in base contact with a linked terminal. **One roll:**
-- **Access roll** → `1d10 + INT + range − Firewall` vs **7+**. *Firewall* here is the system's **static hardening** (unhardened terminal = **0**; military/settlement systems buy it up).
-- **Pass** → immediately activate **one** Linked feature within the range band you rolled at — open the door, loop the camera, fire the turret, cycle the compactor. **That is the whole hack.**
-- **Fail** → you leave a **foothold**: the system becomes **Compromised** ([[Conditions]]) — **+2** to your next Access against it. **Nat 1** → not even that.
-- **No Breach roll** — there's no rival system to breach into, and nothing to injure.
-
-**Hacker duel** — a **rival hacker** is in base contact with a linked terminal on the same network. **Two rolls:**
-
-**1 · Access roll** — the *to-hit*, now a **Head-to-Head**: both roll `1d10 + INT + mods`, highest wins, **ties → defender**. This is the race to seize the wire. (Static Firewall does **not** modify this — the rival's live opposed roll *is* the defence.) Winning earns you the Breach; the loser gets nothing.
-
-**2 · Breach roll** — the *injury*: `1d10 + Program − Firewall` — read the **total**. **Tiers do not stack — resolve only the highest tier you reach.** Every result targets the **rival and their terminal**:
-
-| Breach total | Effect                                                                                                                                                                                                                                                                                                                    |
-| :----------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    **7+**    | **Shut Out** — the rival's feature goes **Jammed / Offline** until the end of their next activation. You've locked them out.                                                                                                                                                                                              |
-|    **8+**    | **Power Surge** — the **rival's terminal** blows: **Destroyed**, unusable for the rest of the game. Any fighter in **base contact with it** (the rival hacker included) gains **+1 Stress**. They've lost their way in.                                                                                                    |
-|    **9+**    | **Take Over** — you seize the network and become its **controller**. **Either** take control — immediately activate **one** Linked feature within the range band (turret fire is your **one attack** for the activation) — **or** overload it (resolve as **Power Surge**).                                                 |
-|   **10+**    | **Brain Hack** — you upload into the rival's synapse-link and puppet their unit: **activate it now** under your control, acting exactly as a normal activation except **you** choose its actions. **This is that unit's activation this round** — it does not act again.                                                    |
-
-- Below **7** → you won the wire but can't get deep. You leave a **foothold**: the rival's system is **Compromised** — **+2** to your next Access against it.
-- **Nat 1** → a **1 never breaches**: nothing happens, not even a foothold.
-- **Nat 10** → a **10 always breaches** (never a mere foothold), but read the **total** as written — **Firewall still gates which tier you reach**.
-
-### Program & Firewall — Examples of hacking's Damage & Armor. Granted as benefits of Equipment + Skills.
-- **Program** (= +DMG) is your breach power in a **duel**, from hacking **gear or skills** (a breach kit, an exploit suite). Default **+0** bare-handed — but a real hacker carries one, just as a fighter carries a weapon. (In a **solo** hack there's no Breach, so Program does nothing — it's your weapon for hacker fights.)
-- **Firewall** (= Armor) is a system's hardening, from hardened terminals, security software, or a defender's gear/skills. Default **0**; military and settlement systems buy it up. It works in **both** modes without double-dipping: a **penalty to a solo Access roll** (harder to crack), and a **reduction to the attacker's Breach total** in a duel.
-- *Example values (TBD in playtest):* Breach Kit **Program +1** · Exploit Suite **+2** · Firewall Node **Firewall −1** · Military ICE **−2**. Several INT skills grant or beat these — see [[Skill Paths]].
-  
-> [!question] These are either two examples of a range of breach roll modifers or the categories that all the other breach equipment, skills, etc, fall under.
+That's the whole hack. No damage roll, no second mechanic — controlling the feature *is* the reward.
 
 ### Range bands
-Measure **terminal → feature** (or **attacking terminal → defending terminal** for a duel). Max **24"**. Applies to the **Access roll**.
+Measure **terminal → feature**. Max **24"**. Applies to the hack test.
 
 | Band | Distance | Mod |
 |---|---|:---:|
@@ -90,10 +68,28 @@ Measure **terminal → feature** (or **attacking terminal → defending terminal
 | Long | 18–24" | −3 |
 | Out | 24"+ | illegal |
 
-Other modifiers (skills, **Shaken**, conditions) stack normally; the global **±3** cap applies to the Access roll.
+Other modifiers (skills, **Shaken**, conditions, hardened systems) stack normally; the global **±3** cap applies.
 
-### Linked functions (what a successful hack resolves)
-The **one** function a solo Access or a duel **Take Over** grants — one per Action unless a skill says otherwise:
+### Interrupt — contesting a hack
+An enemy in base contact with another **live** (non-Overloaded) terminal on the network may **Interrupt** a declared hack. It's a Reaction ([[Rules Engine]]).
+
+**Declare early, pay only if it lands:**
+1. The hacker declares the terminal and the feature.
+2. The enemy declares **Interrupt** — *before* the access roll.
+3. The hacker rolls `1d10 + INT − range` vs **7+**.
+   - **Fail** → the hack fails on its own. The interrupt is **not spent** — the interrupter's terminal stays **live**.
+   - **Pass** → the interrupt **jams it**: the feature does **not** activate, and the interrupter's terminal becomes **Overloaded** (down till the start of next turn).
+
+There's no opposed roll — the only die is the hacker's access. A declared interrupt automatically jams a hack that *would* have landed, and costs nothing against one that fails anyway.
+
+**What it does and doesn't do:**
+- It stops **one** access attempt — **not** the terminal for the turn. A *different* unit can hack the same target terminal again; and once an interrupter has Overloaded their terminal, they can't stop that second attempt. **Bait the interrupt with one unit, land the hack with the next.**
+- Each interrupter terminal absorbs exactly **one** successful hack per turn. To push a feature through a defended network, bring bodies (see sim).
+
+**The decision:** an interrupt spends your terminal for the turn to deny one enemy feature. Worth it to jam the turret about to shoot your squad; rarely worth it to stop a door.
+
+### Linked functions (what a successful hack controls)
+The **one** function a passed hack grants — one per Action unless a skill says otherwise:
 - Doors — lock / unlock / open / close
 - Cameras — loop / reveal / ignore named fighters
 - Alarms — suppress next trigger / trip now
@@ -103,26 +99,38 @@ The **one** function a solo Access or a duel **Take Over** grants — one per Ac
 
 **Turrets are controlled only** — no auto-sentry.
 
-### Network control
-- A duel **Take Over (9+)** makes that fighter (or their crew) the network's **controller** until someone beats them in a Head-to-Head or takes a terminal another way. A **controller** hacks their own network **solo** (no defender); a rival must win a **Head-to-Head** against them to act on it.
-- **Compromised** ([[Conditions]]) — from a **foothold** (a failed solo Access or a sub-7 Breach) or a skill (e.g. **Counter-Hack**) — doesn't change the TN; it hands the next Access **+2** as written.
+### Hardened systems (optional knob)
+A hardened terminal — military security, a settlement's core systems — applies a flat **penalty to the hack test** (e.g. **−1** or **−2**). This is the simple way to make a system tough without adding a subsystem. Skills and gear can grant a matching **bonus** to beat it ([[Skill Paths]]).
 
 ### Action economy
-One hack Action per activation. A Linked function that deals damage (turret fire, a triggered hazard) — whether from a **solo** hack or a duel **Take Over** — is your **one attack** for the activation; you may not also make a separate attack. A **Brain Hack** spends its Action on seizing the rival and puppeting them; the puppet acts on the rival's own profile, not yours.
+One hack per activation. A feature that deals damage (turret fire, a triggered hazard) is your **one attack** for the activation — you may not also make a separate attack.
 
 ### Skills
-INT-path skills ([[Skill Paths]]) are exceptions and payoffs on top of these rules (**Hacker**, **Computer Whiz**, **Turret Tamer**, **Counter-Hack**, **Jam Signals**, **Kaboom**, **Mastermind**, etc.). They never replace the core rolls — they change what one Action can do, grant Program/Firewall, or change when you may React. **Counter-Hack** is what *turns a solo hack into a duel*: a defender Readied at a terminal reacts to a hostile hack, forcing the Head-to-Head and Breach that wouldn't otherwise happen.
+INT-path skills ([[Skill Paths]]) are exceptions and payoffs on top of these rules (**Hacker**, **Computer Whiz**, **Turret Tamer**, **Counter-Hack**, etc.). They modify the hack test, change what one Action can do, or change how the **interrupt** works — e.g. **Counter-Hack** lets a fighter interrupt *without* giving up their own hack, or adds a bonus to the opposed roll.
 
 > [!question] Playtest dials
-> - **Solo vs duel split:** Breach fires *only* against a live rival hacker. Confirm defenders actually contest terminals often enough that duels happen — if hackers just avoid each other, the whole Breach table goes unused. **Counter-Hack** availability is the lever.
-> - **Contested feature is harder:** a solo pass (7+) grants the feature; in a duel you need **Take Over (9+)** for it. That's deliberate (someone's fighting you for it) — watch that it doesn't make defended networks feel un-hackable.
-> - **Breach tiers** 7/8/9/10 — exclusive (highest reached only). The 9+ **choice** (control *or* overload) keeps Take Over dominant over Power Surge; confirm it reads cleanly.
-> - **Brain Hack (10+):** consumes the puppet's activation. Because Breach only happens in duels it *always* has a valid target now. Check the land-rate (see sim) isn't oppressive; if so, gate harder with Firewall or cap nat-10 at Take Over.
-> - **Firewall's two jobs:** penalty to solo Access **and** −Breach in a duel. Set one number per system and see if it feels right in both modes.
-> - **Program/Firewall ladder:** set the gear values once first playtests show how reliable breaches feel.
+> - **Interrupt is a hard counter** — automatic against a *successful* hack, no opposed roll. Because it only spends when the hack would land, one interrupter reliably eats one feature per turn. A lone hacker can't beat an interrupter alone — the sim shows you need **two** successful hacks to push one through. If that's too strong, let a hacker's **nat 10** punch through, or add an opposed INT test.
+> - **Bait dynamic** — Overload (not turn-long lockout) + multi-use terminals means a second unit beats a spent interrupter. The **Overloaded-till-next-turn** duration is the lever if interrupts feel too weak or too strong.
+> - **Hardened-system penalty** — set the −1/−2 values once first playtests show how reliable an unmodified hack feels.
 
 ## Rule ledger
 _none yet — graduate a `core-00X Hacking` stub after first playtest_
 
 ---
+
+> [!note]- Parked — deeper hacking (a later version, do not build yet)
+> A two-roll **breach** system was drafted then set aside to keep v1 simple. Recorded here so the design isn't lost; the full drafted text lives in git history (see commits around the `hacking_sim.py` two-roll work).
+>
+> **Shape:** a hack is *Access* (the to-hit) then, **only against a live rival hacker**, a *Breach* roll (the injury) — `1d10 + Program − Firewall`, exclusive tiers:
+> - **7+ Shut Out** — deny the feature for a turn.
+> - **8+ Power Surge** — destroy the contested terminal (symmetric denial).
+> - **9+ Take Over** — seize control of the network + activate a feature.
+> - **10+ System Shock** — brick the rival hacker's unit (forfeits its next activation). *A full "puppet the unit into a hazard" version exists but is quarantined to opt-in hacker duels only — never off a normal terminal Interact.*
+>
+> **Key decisions already made (so we don't re-litigate):**
+> - Breach targets **terrain control**, not the fighter's body — losing a breach costs you the terminal, not your model. This is what keeps hacking from *dissuading* terrain interaction.
+> - The catastrophic "steal the unit and walk it into lava" outcome is a **tail you can't out-reward** — bound it (System Shock) or quarantine it to duels; don't try to make features juicy enough to justify it.
+> - **Program** = breach damage, **Firewall** = armor / static hardening. In v1, only Firewall survives, as the "hardened systems" penalty above.
+> - Graduate this only if v1 hacking proves too thin at the table.
+
 *See [[Rules System MOC]] and [[_Rules Map.canvas|the map]].*

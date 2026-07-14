@@ -82,7 +82,8 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 These sit on terrain, devices or as table markers — they never give Stress and don't count against the modifier cap:
 - **Spotted** — the observing unit has identified the target for named skills, until the stated expiry. Spotted does not remove Hidden by itself.
 - **Jammed** — remote activation and wireless control of the device fail; local and manual operation still work. Ends at the start of the jammer's next activation.
-- **Compromised** — the **next Access** against this system (solo or opposed) gains **+2**, then Compromised ends. Applied by a **foothold** — a failed solo Access or a sub-7 Breach ([[Hacking]]) — or by a skill (e.g. **Counter-Hack**).
+- **Overloaded** — a terminal used to **interrupt** a hack ([[Hacking]]) powers down: it cannot be accessed or used to interrupt again until the **start of next turn**.
+- **Compromised** — the **next hack test** against this system gains **+2**, then Compromised ends. Applied by a skill (e.g. **Counter-Hack**).
 - **Linked** — devices explicitly share a terminal or local network. Range alone never makes devices Linked.
 
 > [!info] Locked for playtest
