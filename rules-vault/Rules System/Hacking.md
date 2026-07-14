@@ -57,12 +57,12 @@ A hack resolves exactly like an attack: **Access roll** (did you get in?) → **
 **2 · Breach roll** — the *injury*, only on a successful Access:
 `1d10 + Program − Firewall` — read the **total** (each tier includes the ones below):
 
-| Breach total | Effect |
-|:--:|---|
-| **7+** | **Shut Out** — the feature is **Jammed / Offline** until the end of the target's next activation (denial). |
-| **8+** | **Power Surge** — it discharges **once**: a turret **fires** under your control · a trap/hazard **triggers** · a door **slams** · an alarm **trips**. |
-| **9+** | **Take Over** — you become the **controller**; resolve **one** Linked function now (turret fire still counts as your attack). |
-| **10+** | **Brain Hack** — total control: you hold the feature and it **can't be re-taken** until you leave range/LOS. In a **hacker duel**, the rival's terminal is fried **Offline** *and* the rival takes an auto-hit: `1d10 + Program − Armor ≥ 7`. |
+| Breach total | Effect                                                                                                                                                                                                          |
+| :----------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    **7+**    | **Shut Out** — the feature is **Jammed / Offline** until the end of the target's next activation (denial).                                                                                                      |
+|    **8+**    | **Power Surge** — **Terminal** **explodes** due to a **power surge**, it cannot be used for the rest of the game and a **hacker** in base to base contact becomes **shaken**. until the end of their next turn. |
+|    **9+**    | **Take Over** — Attacker takes control of defenders terminal. Immediately gains 1 free terrain feature activation at the same range band as the initial successful access roll.                                 |
+|   **10+**    | **Brain Hack** — Attacker's trojan horse successfully virus into defenders synapse upload successfully taking complete control over the defender for 1 turn. Defender immediately                               |
 
 - Below **7** → you got in but achieve **nothing** this activation (a glitch).
 - **Nat 1 / Nat 10** on the Breach = auto-fail / auto-succeed (a natural 10 always reaches **Brain Hack**).
