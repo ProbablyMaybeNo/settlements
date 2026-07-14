@@ -57,20 +57,22 @@ A hack resolves exactly like an attack: **Access roll** (did you get in?) → **
 **2 · Breach roll** — the *injury*, only on a successful Access:
 `1d10 + Program − Firewall` — read the **total** (each tier includes the ones below):
 
-| Breach total | Effect                                                                                                                                                                                                          |
-| :----------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    **7+**    | **Shut Out** — the feature is **Jammed / Offline** until the end of the target's next activation (denial).                                                                                                      |
-|    **8+**    | **Power Surge** — **Terminal** **explodes** due to a **power surge**, it cannot be used for the rest of the game and a **hacker** in base to base contact becomes **shaken**. until the end of their next turn. |
-|    **9+**    | **Take Over** — Attacker takes control of defenders terminal. Immediately gains 1 free terrain feature activation at the same range band as the initial successful access roll.                                 |
-|   **10+**    | **Brain Hack** — Attacker's trojan horse successfully virus into defenders synapse upload successfully taking complete control over the defender for 1 turn. Defender immediately                               |
+| Breach total | Effect                                                                                                                                                                                                                                         |
+| :----------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    **7+**    | **Shut Out** — the feature is **Jammed / Offline** until the end of the target's next activation (denial).                                                                                                                                     |
+|    **8+**    | **Power Surge** — **Terminal** **explodes** due to a **power surge**, it cannot be used for the rest of the game and a **hacker** in base to base contact becomes **shaken**. until the end of their next turn.                                |
+|    **9+**    | **Take Over** — Attacker takes control of defenders terminal. Immediately gains 1 free terrain feature activation at the same range band as the initial successful access roll.                                                                |
+|   **10+**    | **Brain Hack** — Attacker takes complete control of defenders unit. Immediately activate (or re-activate) defender under opponents control. Acts exactly as it would under a normal activation except actions are determined by the opponent.  |
 
 - Below **7** → you got in but achieve **nothing** this activation (a glitch).
 - **Nat 1 / Nat 10** on the Breach = auto-fail / auto-succeed (a natural 10 always reaches **Brain Hack**).
 
-### Program & Firewall — hacking's Damage & Armor
-- **Program** (= +DMG) is your breach power, from hacking **gear or skills** (a breach kit, an exploit suite). Default **+0** bare-handed — but a real hacker carries one, just as a fighter carries a weapon.
+### Program & Firewall — Examples of hacking's Damage & Armor. Granted as benefits of Equipment + Skills.
+- **Virus** (= +DMG) is your breach power, from hacking **gear or skills** (a breach kit, an exploit suite). Default **+0** bare-handed — but a real hacker carries one, just as a fighter carries a weapon.
 - **Firewall** (= Armor) reduces the attacker's Breach total, from hardened terminals, security software, or a defender's gear/skills. Default **0**; military and settlement systems buy it up.
 - *Example values (TBD in playtest):* Breach Kit **Program +1** · Exploit Suite **+2** · Firewall Node **Firewall −1** · Military ICE **−2**. Several INT skills grant or beat these — see [[Skill Paths]].
+  
+> [!question] These are either two examples of a range of breach roll modifers or the categories that all the other breach equipment, skills, etc, fall under.
 
 ### Range bands
 Measure **terminal → feature** (or **attacking terminal → defending terminal** for a duel). Max **24"**. Applies to the **Access roll**.
