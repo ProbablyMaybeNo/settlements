@@ -56,8 +56,8 @@ When two units contest the same object at the same time, use an **Opposed Test**
 |Domain|Stat|Examples|
 |---|---|---|
 |Force / haul|STR|Force door, Smash, Lift|
-|Mechanical precision|DEX|Lockpick, **lay/disarm traps** (mechanical & electronic devices)|
-|Digital / knowledge|INT|Hack, Search, **Build/Repair feature**, ID terrain|
+|Mechanical precision|DEX|Lockpick, **disarm** traps & devices (defusing under pressure)|
+|Digital / knowledge|INT|Hack, Search, **Build / Deploy / Repair devices** ([[Deployables]]), ID terrain|
 |Climb / vault / leap|AGI|Move-slot tests (see [[Movement]] / [[Terrain]]) — not an Interact|
 
 ### Interaction verbs
@@ -113,7 +113,7 @@ Applies to interactive features (turrets, traps, cameras, alarms) — not wall
 - Repair: adjacent Interact, INT, 7+ → restore to 1 WND and online (Jury-Rig may auto-succeed)
 - If an **Offline** feature is Injured again → Destroyed, removed for the rest of the battle
 
-Untriggered traps can be damaged this way. A trap that has already triggered is spent — don't use **Offline** to cancel a boom mid-trigger.
+This is also the shared damage / repair engine for standing **[[Deployables]]** (turrets, beacons). Untriggered traps can be damaged this way. A trap that has already triggered is spent — don't use **Offline** to cancel a boom mid-trigger.
 
 ### Hacking
 Operating terminals, Linked networks, range bands, and the hacker-vs-hacker **Interrupt** live in **[[Hacking]]**. Terminals themselves can't be destroyed ([[Infrastructure]]).
@@ -136,7 +136,7 @@ Operating terminals, Linked networks, range bands, and the hacker-vs-hacker **In
 
 Trap = a waiting weapon card (trigger + effect + traits).
 
-Place (DEX Interact, adjacent):
+Deploy (**INT** Interact, adjacent — full catalogue & rules in [[Deployables]]):
 
 - Pass → armed and concealed
 - Fail → armed but visible

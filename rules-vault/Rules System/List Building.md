@@ -65,7 +65,7 @@ The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed
 |---|---|:--:|
 | Med-Kit | Cancels the −2 on Stabilize / treating Bleed & Poison ([[Damage]]) | **4** |
 | Breach Kit | **+1 to the hack test** ([[Hacking]]) | **4** |
-| Trap | One deployable trap ([[Terrain Interaction]]) | **4** |
+| Deployable | Turret · mine · trap · beacon — full costed catalogue in [[Deployables]] | **4–14** |
 | Exploit Suite | **+2 to the hack test** ([[Hacking]]) | **8** |
 
 ## Doctrine

@@ -44,9 +44,9 @@ Two different jobs; keep them separate.
 |---|---|---|
 | What | Fixed parts of the board (crane, door, bridge, shutters, generator) | Gear a unit carries (turret, mine, tripwire, barricade, med-station) |
 | Job | **Reshape the battlefield** | **Deal or deny damage** |
-| Rules home | This note | [[Terrain Interaction]] · [[Weapons]] · [[Skill Paths]] |
+| Rules home | This note | [[Deployables]] · [[Terrain Interaction]] · [[Weapons]] · [[Skill Paths]] |
 
-Turrets, mines, and traps are **Deployables**, not Infrastructure — a thing that exists only to hurt people belongs in gear, not in the walls.
+Turrets, mines, and traps are **[[Deployables]]**, not Infrastructure — a thing that exists only to hurt people belongs in gear, not in the walls.
 
 ## The five categories
 Every Infrastructure Feature belongs to one category, which names its battlefield role. Each category is built from the shared **board verbs** below, so a feature's category tells you which verbs it uses.
