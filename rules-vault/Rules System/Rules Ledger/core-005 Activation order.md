@@ -18,7 +18,7 @@ tags: [settlements/rule, settlements/cat/core]
 - **Activation:** **Move + Action** (or Sprint / Charge both slots). One attack per activation.
 - **Orders:** Recruit 0 · Specialist 1 · Leader 2.
 - **Ready:** Action or Order; max one token; persists across rounds until spent or cancelled (other Action, or hit by attack / hack / terrain).
-- **Reaction:** after an enemy ends a Move/Action in your **forward 180° + true LOS** — Snap Shot (no extra −2), Charge (MOV", no +1), Throw, interrupt Interact, or Trigger. Reaction attack ≠ next activation's attack.
+- **Reaction:** after an enemy ends a Move/Action in your **forward 180° + true LOS** — Snap Shot (no extra −2), Charge (MOV", no +1), Throw, interrupt Interact (a network hack — no LOS/Ready, see [[Hacking]]), or Trigger. Reaction attack ≠ next activation's attack.
 - **Catch-up (alpha):** underdog Priority +1 only.
 
 Facing for ranged / Ready → [[Rules Engine#House Conventions]].

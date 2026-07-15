@@ -34,7 +34,7 @@ The Rules column nails down:
 - How turrets, cameras, doors, and alarms plug in without a second dice mechanic.
 
 ## Inherits from the engine
-> [!info] Recall — a hack is **one core test**: `1d10 + INT − range` vs **7+**, the same engine as everything else. Range is a **modifier**, not a new target number. Device states (**Jammed**, **Linked**, **Overloaded**, **Compromised**) live in [[Conditions#Marker & device states]].
+> [!info] Recall — a hack is **one core test**: `1d10 + INT − range` vs **7+**, the same engine as everything else. Range is a **modifier**, not a new target number. Device states (**Jammed**, **Linked**, **Overloaded**, **Compromised**) live in [[Conditions#Marker & device states (not conditions on units)]].
 
 ![[core-000 Core Test#Text]]
 
@@ -62,16 +62,16 @@ Measure **terminal → feature**. Max **24"**. Applies to the hack test.
 
 | Band | Distance | Mod |
 |---|---|:---:|
-| Close | 0–6" | 0 |
-| Short | 6–12" | −1 |
-| Medium | 12–18" | −2 |
-| Long | 18–24" | −3 |
-| Out | 24"+ | illegal |
+| Close | up to 6" | 0 |
+| Short | over 6", up to 12" | −1 |
+| Medium | over 12", up to 18" | −2 |
+| Long | over 18", up to 24" | −3 |
+| Out | over 24" | illegal |
 
 Other modifiers (skills, gear, **Shaken**, conditions) stack normally; the global **±3** cap applies.
 
 ### Interrupt — contesting a hack
-An enemy in base contact with another **live** (non-Overloaded) terminal on the network may **Interrupt** a declared hack. It's a **Reaction** — the *interrupt Interact* option ([[Initiative & Activation#Reaction options]]), and the one Reaction declared *as* the enemy acts rather than after they finish.
+An enemy in base contact with another **live** (non-Overloaded) terminal on the network may **Interrupt** a declared hack. It's a **Reaction** — the *interrupt Interact* option ([[Initiative & Activation#Reaction options]]) — but a **network** one, so it bends two of the usual Reaction rules: it's declared *as* the enemy hacks (not after they finish), and it **ignores the forward-180°/LOS requirement** — you contest through the wire, needing only base contact with your own live terminal, not sight of the hacker. It costs **no Ready token**; its price is the **Overload** below.
 
 **Declare early, pay only if it lands:**
 1. The hacker declares the terminal and the feature.

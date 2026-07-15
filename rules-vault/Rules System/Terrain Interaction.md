@@ -104,7 +104,7 @@ Cover pieces stay as passive cover from [[Terrain]].
 
 ### Feature damage
 
-Applies to interactive features (turrets, traps, vents, cameras, alarms) — not walls/cover.
+Applies to interactive features (turrets, traps, cameras, alarms) — not walls/cover.
 
 - WND 1
 - Armor −2 (heavy)

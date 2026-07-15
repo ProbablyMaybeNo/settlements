@@ -80,7 +80,7 @@ A Doctrine is always a **trade**, never a bonus: it bends one list rule in your 
 | **Firebase** | Ranged weapon **classes** cost −3. | Your fighters **may not Charge**. |
 | **Storm** | Melee weapon **classes** are free *(characteristics still cost)*. | **No Standard or Heavy Ranged** weapons. |
 | **Ghosts** | A third of the crew (round down) deploys **Hidden**, outside the enemy deployment zone and more than 12" from any enemy. | No Heavy armour. No Standard or Heavy Ranged. |
-| **Signal** | Breach Kits free; Exploit Suites cost 4. A friendly hacker may **re-roll one failed hack test per turn**. | Every Specialist must have **INT +2** or better. |
+| **Signal** | Breach Kits free; Exploit Suites cost 4. One friendly hacker gets **+2 to a single hack test each turn**. | Every Specialist must have **INT +2** or better. |
 | **Wire & Sandbag** | Place **two Deployed pieces** (barricade, trap, or terminal) after terrain setup ([[Terrain]]). | Every weapon costs **+2**. |
 | **Diehards** | Ignore the **first Stress** each round from a friendly going Down or Out. | Armour costs **double**. |
 

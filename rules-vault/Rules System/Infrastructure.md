@@ -89,7 +89,7 @@ This is what makes crews *fight over the city* rather than just grab objectives.
 - **Everything starts Powered Down** — inert, at its default physical state (door closed, bridge retracted, lights off). No effect on play until operated.
 - **Operating it** (hack or manual) powers it and **sets or flips its state.** It holds that state until operated again.
 - **It toggles.** Either crew may operate a feature to flip it back — open↔close, raise↔lower, on↔off. That back-and-forth is the contest. Track the current state with the token's orientation.
-- **Triggers can't be destroyed.** A terminal or a feature's controls are permanent fixtures — they can't be shot off the board. You deny an *enemy's* control only by locking their terminal out (a failed hack) or **Overloading** it (an interrupt) — and **manual operation in base contact always remains** available to anyone who reaches it.
+- **Triggers can't be destroyed.** A terminal or a feature's controls are permanent fixtures — they can't be shot off the board. You deny an *enemy's* control only by **Overloading** their terminal with an interrupt ([[Hacking#Interrupt — contesting a hack]]) — and **manual operation in base contact always remains** available to anyone who reaches it.
 - **One-way exceptions** are flagged per feature: a spent single-use effect doesn't toggle.
 - **Optional Generator gate:** a scenario may leave a zone's infrastructure Powered Down until its **Generator** is switched on — operating the Generator (hack or manual) powers a whole district on or off. A macro-toggle (see the catalogue).
 
@@ -126,7 +126,7 @@ Each entry: **Name** — *Category · verb(s)*. How to operate, then effect and 
 - **Flood Gates** — *Utilities · Field a Zone*. Open to flood a low area → **Deep water** (Swim on entry) or **Difficult**; close to drain. Reshapes which routes exist.
 - **HVAC / Gas Vent** — *Utilities · Field a Zone / Displace*. Vent a blast: **Displace 2"** every model in the vent's line (off a ledge → **FALL**), and/or fill an area with **3" Dense Smoke** (Blind + Concealing, per [[Weapons]] Smoke). Blocks a crossing and covers movement at once.
 - **Trash Compactor / Crusher** — *Utilities · bounded hazard*. The one overt hazard feature — industrial and believable. Activate to run it: a model inside the compactor zone takes **CRUSH**. Scenario-flagged, controlled, never passive.
-- **Power Generator / Junction** — *Utilities · enabler*. The optional macro-toggle: while off, all infrastructure in its zone is **Powered Down**. Operating the Generator (hack or manual) powers the zone on or off. It can't be destroyed — deny it by locking out its terminal.
+- **Power Generator / Junction** — *Utilities · enabler*. The optional macro-toggle: while off, all infrastructure in its zone is **Powered Down**. Operating the Generator (hack or manual) powers the zone on or off. It can't be destroyed — deny it by **Overloading** its terminal (an interrupt).
 
 ## Setup & placement
 
