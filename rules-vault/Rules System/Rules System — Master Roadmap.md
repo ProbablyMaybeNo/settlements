@@ -189,7 +189,7 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [x] Range bands as modifiers (0 / −1 / −2 / −3), max 24".
 - [x] Linked functions menu; turrets controlled-only.
 - [x] Hacking **v1**: one INT test + **Interrupt** (Overload). Deeper breach system parked ([[Hacking]]).
-- [ ] Playtest dials (v1): interrupt strength, hardened-system penalty.
+- [ ] Playtest dials (v1): interrupt strength, gear/skill hack modifiers.
 
 #### 05 · [[List Building]] — ✅ Drafted · **sim-validated**
 <small>depends on: Unit Design, Weapons</small>

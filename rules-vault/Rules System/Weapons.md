@@ -133,21 +133,15 @@ Armor reduces the **Injury roll only** — never the hit. Cover protects against
 
 ---
 ## 4 · Hacking gear
-A hack is one INT test ([[Hacking]]); there is no separate breach roll. Gear adds a flat **bonus to the hack test**.
+A hack is one INT test ([[Hacking]]). Gear grants a flat **+/− modifier to hacking rolls** — the v1 hack test today, and mostly the **breach roll** if the parked deeper system is ever built ([[Hacking]]).
 
-| Hack gear | Hack test | Cost | Notes |
+| Hack gear | Modifier | Cost | Notes |
 |---|:---:|:--:|---|
 | Bare-handed | +0 | 0 | improvising at a terminal |
 | Breach Kit | +1 | 4 | standard hacker loadout |
 | Exploit Suite | +2 | 8 | specialist kit |
 
-**Hardened systems** are the defence — a flat **penalty to the hack test**, set as board state by the scenario or [[Settlement]] (not a purchase):
-
-| Hardened system | Hack test | Notes |
-|---|:---:|---|
-| Open system | 0 | civilian terminal |
-| Firewall Node | −1 | hardened terminal / basic ICE |
-| Military ICE | −2 | settlement / military security |
+Defence is the same in reverse: a defender's gear/skill or a scenario may impose a **penalty** on enemy hacks against a device. There is no separate hardening stat — toughness is just a modifier like any other.
 
 ---
 ## 5 · Sample armoury

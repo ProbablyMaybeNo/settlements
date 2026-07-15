@@ -68,7 +68,7 @@ Measure **terminal → feature**. Max **24"**. Applies to the hack test.
 | Long | 18–24" | −3 |
 | Out | 24"+ | illegal |
 
-Other modifiers (skills, **Shaken**, conditions, hardened systems) stack normally; the global **±3** cap applies.
+Other modifiers (skills, gear, **Shaken**, conditions) stack normally; the global **±3** cap applies.
 
 ### Interrupt — contesting a hack
 An enemy in base contact with another **live** (non-Overloaded) terminal on the network may **Interrupt** a declared hack. It's a **Reaction** — the *interrupt Interact* option ([[Initiative & Activation#Reaction options]]), and the one Reaction declared *as* the enemy acts rather than after they finish.
@@ -101,8 +101,8 @@ The **one** function a passed hack grants — one per Action unless a skill says
 
 > The full catalogue of operable features — cranes, bridges, shutters, vents, flood gates — and exactly what each does to the board (with every crush/fall/push routed to an existing rule) lives in [[Infrastructure]]. Hacking is *how* you operate them; Infrastructure is *what happens*.
 
-### Hardened systems (optional knob)
-A hardened terminal — military security, a settlement's core systems — applies a flat **penalty to the hack test** (e.g. **−1** or **−2**). This is the simple way to make a system tough without adding a subsystem. Skills and gear can grant a matching **bonus** to beat it ([[Skill Paths]]).
+### Modifiers — from gear & skills, not a hardening stat
+A hack test takes **+/− modifiers** like any other roll: hacking **gear** (Breach Kit, Exploit Suite — [[Weapons]] / [[List Building]]), INT **skills** ([[Skill Paths]]), **conditions**, and **Shaken**. Difficulty is the same in reverse — a defender's gear/skill or a scenario may impose a **penalty** on enemy hacks against a device. There is **no separate "hardened systems" stat**; toughness is just a modifier, and the global **±3** cap applies.
 
 ### Action economy
 One hack per activation. A feature that deals damage (turret fire, a triggered hazard) is your **one attack** for the activation — you may not also make a separate attack.
@@ -113,7 +113,7 @@ INT-path skills ([[Skill Paths]]) are exceptions and payoffs on top of these rul
 > [!question] Playtest dials
 > - **Interrupt is a hard counter** — automatic against a *successful* hack, no opposed roll. Because it only spends when the hack would land, one interrupter reliably eats one feature per turn. A lone hacker can't beat an interrupter alone — the sim shows you need **two** successful hacks to push one through. If that's too strong, let a hacker's **nat 10** punch through, or add an opposed INT test.
 > - **Bait dynamic** — Overload (not turn-long lockout) + multi-use terminals means a second unit beats a spent interrupter. The **Overloaded-till-next-turn** duration is the lever if interrupts feel too weak or too strong.
-> - **Hardened-system penalty** — set the −1/−2 values once first playtests show how reliable an unmodified hack feels.
+> - **Hack-modifier ladder** — set the gear/skill +/− values once first playtests show how reliable an unmodified hack feels.
 
 ## Rule ledger
 _none yet — graduate a `core-00X Hacking` stub after first playtest_
@@ -132,7 +132,7 @@ _none yet — graduate a `core-00X Hacking` stub after first playtest_
 > **Key decisions already made (so we don't re-litigate):**
 > - Breach targets **terrain control**, not the fighter's body — losing a breach costs you the terminal, not your model. This is what keeps hacking from *dissuading* terrain interaction.
 > - The catastrophic "steal the unit and walk it into lava" outcome is a **tail you can't out-reward** — bound it (System Shock) or quarantine it to duels; don't try to make features juicy enough to justify it.
-> - **Program** = breach damage, **Firewall** = armor / static hardening. In v1, only Firewall survives, as the "hardened systems" penalty above.
+> - **Program** = breach damage, **Firewall** = armor / static hardening. In v1 **neither is a stat** — gear and skills grant flat +/− modifiers to the hack test instead ([[Weapons]]). When this system is revived those modifiers would land mostly on the **breach** roll.
 > - Graduate this only if v1 hacking proves too thin at the table.
 
 *See [[Rules System MOC]] and [[_Rules Map.canvas|the map]].*
