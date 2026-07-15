@@ -16,7 +16,7 @@ Reference notes: [[Weapons]] · [[Skill Paths]] · *(Terrain Features catalogue 
 |---|---|---|
 | **S1 Foundation** | 3 | ✅ All Drafted |
 | **S2 Core Combat** | 8 | ✅ All Drafted (some Focus items still open) |
-| **S3 Battle Layer** | 7 | 🟡 6 Drafted · Scenarios empty |
+| **S3 Battle Layer** | 7 | ✅ All Drafted |
 | **S4 Settlement & Campaign** | 10 | 🟡 Campaign + Progression Drafted · rest empty |
 | **Milestone** | 1 | 🎯 Final Alpha |
 | **S5 Content** | 1 | ⬜ Not Started |
@@ -222,14 +222,15 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [x] Validated: no ceiling breaks, costs price out vs the armoury; Burst Turret repriced 16→18 → [[Deployables Sim — Findings]].
 - [ ] Crew-integration sim — deployables inside the full battle loop for win-rate swing.
 
-#### 18 · [[Scenarios]] — ⬜ Not Started
-<small>depends on: Damage, Morale, Terrain</small>
+#### 18 · [[Scenarios]] — ✅ Drafted
+<small>depends on: Damage, Morale, Terrain, Terrain Interaction, Hacking, Infrastructure, Deployables</small>
 
-- [ ] A scenario template (setup, deployment, objectives, twist, victory conditions, length).
-- [ ] A starter suite: Caravan Escort, Settlement Raid, Kidnapping, Sabotage.
-- [ ] Asymmetric attacker/defender setups.
-- [ ] Win conditions beyond kills; bottling interaction.
-- [ ] Variability / twist mechanic.
+- [x] A scenario template (7 slots: shape, board, deployment, objectives, scoring/victory, length, twist).
+- [x] A starter suite — five **shapes**: Take a Hold (Control), Escort (Mobile), Raid (Retrieve), Sabotage (Timer), Power Supply (Network). *Kidnapping = Retrieve+Mobile reskin.*
+- [x] Asymmetric attacker/defender (Escort, Sabotage).
+- [x] Win conditions beyond kills — **objective-primary**; concession / wipe interaction defined.
+- [x] Variability / twist mechanic (1d6 Twist table).
+- [ ] Crew-integration sim + table playtest (scoring pace, lone-runner degeneracy check).
 
 
 ### S4 Settlement & Campaign

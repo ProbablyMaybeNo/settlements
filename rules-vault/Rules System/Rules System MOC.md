@@ -32,7 +32,7 @@ Visual, editable map of the whole rules system, ported from the Notion **Build R
 - ✅ After [[Morale]] you have a playable combat skirmish (sandbox). Needs [[Scenarios]] for a real game.
 
 ### S3 Battle Layer
-- [[Terrain]] — *Drafted* · [[Terrain Interaction]] — *Drafted* · [[Hacking]] — *Drafted* · [[Infrastructure]] — *Drafted* · [[Deployables]] — *Drafted* · [[List Building]] — *Drafted* ✅ · [[Scenarios]] — *Not Started*
+- [[Terrain]] — *Drafted* · [[Terrain Interaction]] — *Drafted* · [[Hacking]] — *Drafted* · [[Infrastructure]] — *Drafted* · [[Deployables]] — *Drafted* · [[List Building]] — *Drafted* ✅ · [[Scenarios]] — *Drafted*
 
 ### S4 Settlement & Campaign
 - [[Settlement]] · [[Economy]] · [[Campaign]] — *Drafted (thin)* · [[Progression]] — *Drafted (thin)* · [[Territory]] · [[Downtime]] · [[Events]] · [[Narrative]] · [[Diplomacy]] · [[Solo & Co-op]]
