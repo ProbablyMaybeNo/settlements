@@ -16,7 +16,7 @@ Reference notes: [[Weapons]] · [[Skill Paths]] · *(Terrain Features catalogue 
 |---|---|---|
 | **S1 Foundation** | 3 | ✅ All Drafted |
 | **S2 Core Combat** | 8 | ✅ All Drafted (some Focus items still open) |
-| **S3 Battle Layer** | 5 | 🟡 4 Drafted · Scenarios empty |
+| **S3 Battle Layer** | 7 | 🟡 6 Drafted · Scenarios empty |
 | **S4 Settlement & Campaign** | 10 | 🟡 Campaign + Progression Drafted · rest empty |
 | **Milestone** | 1 | 🎯 Final Alpha |
 | **S5 Content** | 1 | ⬜ Not Started |
@@ -187,7 +187,7 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 
 - [x] Terminal Interact sequence (declare → range → INT 7+; Interrupt contests).
 - [x] Range bands as modifiers (0 / −1 / −2 / −3), max 24".
-- [x] Linked functions menu; turrets controlled-only.
+- [x] Linked functions menu; hijack an enemy's deployed turret ([[Deployables]]).
 - [x] Hacking **v1**: one INT test + **Interrupt** (Overload). Deeper breach system parked ([[Hacking]]).
 - [ ] Playtest dials (v1): interrupt strength, gear/skill hack modifiers.
 
@@ -203,6 +203,24 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [x] Validated: **11-point spread across 8 archetypes** on a legal board → [[Crew Sim — Findings]].
 - [ ] Faction selection / buffs & nerfs at list level → socket left open in [[Factions]].
 - [ ] Table playtest (all numbers are sim-derived, not table-derived).
+
+#### 34 · [[Infrastructure]] — ✅ Drafted
+<small>depends on: Terrain, Terrain Interaction, Hacking, Movement, Conditions</small>
+
+- [x] Infrastructure **reshapes the board**; it does not deal damage (that's [[Deployables]]).
+- [x] Five categories + eight board verbs; every feature = category + verb(s) + optional keyword.
+- [x] Damage routes through **two** keywords only — **FALL** and **CRUSH** — both built on existing rules.
+- [x] 12-feature catalogue; triggers indestructible; operate via hack / manual DEX / Reaction.
+- [ ] Table playtest — feature density, toggle tempo.
+
+#### 35 · [[Deployables]] — ✅ Drafted · **sim-validated**
+<small>depends on: Weapons, Conditions, Terrain Interaction, Damage</small>
+
+- [x] Bought like gear; **deploy = INT test** (restores INT's battlefield job); one use/battle, kept on roster.
+- [x] Four families, 5+ each: turrets (auto-fire), mines (chassis × payload), movement traps, buff/debuff beacons.
+- [x] Damage/repair reuse the Feature-damage engine (Offline → repair once → Destroyed).
+- [x] Validated: no ceiling breaks, costs price out vs the armoury; Burst Turret repriced 16→18 → [[Deployables Sim — Findings]].
+- [ ] Crew-integration sim — deployables inside the full battle loop for win-rate swing.
 
 #### 18 · [[Scenarios]] — ⬜ Not Started
 <small>depends on: Damage, Morale, Terrain</small>
