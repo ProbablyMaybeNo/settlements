@@ -35,7 +35,7 @@ Deployables inherit the [[Weapons#Design contract — the three rules that keep 
 
 1. **Deployables deal or deny damage; Infrastructure reshapes the board.** If a piece exists to hurt or lock down the enemy, it is a deployable. If it exists to move routes, sight, cover or elevation, it is [[Infrastructure]].
 2. **A deployable applies conditions — it never defines them.** Every condition it inflicts is written in [[Conditions]].
-3. **A deployable attack does exactly one thing: it wounds, or it delivers its payload — never both** ([[Damage]]). A deployable attack is a normal **Injury roll** (`1d10 + Damage − Armor` vs **7+**); it invents no new damage maths.
+3. **A deployable attack does exactly one thing: it wounds, or it delivers its payload — never both** ([[Damage]]). A deployable attack is a normal **Injury roll** (`1d10 + Damage − Armor` vs **7+**); it invents no new damage maths, and it obeys the same **+4 Damage ceiling** and **±3 modifier cap** as everything else.
 4. **One deploy is your Action.** Setting a deployable up costs the fighter's Action for that activation. Once placed, standing hardware acts **on its own** — that is what you paid for.
 5. **INT builds and repairs; DEX disarms.** Assembling and arming a device is technical work (**INT**). Defusing someone else's is fine-motor work under pressure (**DEX**). See [[Terrain Interaction#Stat ownership]].
 
@@ -64,7 +64,8 @@ The **Build rating** is a modifier on the deploy test, printed on the item. It i
 |---|:---:|---|
 | **Simple** | **+1** | wire, spikes — anyone can lay one |
 | **Standard** | **0** | a straight 7+ |
-| **Complex** | **−1** | turrets, beacons — a Specialist's job |
+| **Complex** | **−1** | most turrets & beacons — a Specialist's job |
+| **Intricate** | **−2** | the flagship hardware (sniper / burst turret) |
 
 A low-INT fighter can *carry* a Sentry Gun; reliably **standing it up under fire** is what INT buys.
 
@@ -72,51 +73,75 @@ A low-INT fighter can *carry* a Sentry Gun; reliably **standing it up under fire
 Nothing new here: deployables that sit on the board are **Features**, and they take damage exactly like every other interactive feature ([[Terrain Interaction#Feature damage]]).
 
 - **Standing hardware** (turrets, beacons): **WND 1**, **Armour −2**, cover **Heavy (−2)** to be hit unless the attacker is within **6"** (then **Open**). One successful Injury → **Offline** (dead weight, still blocks LOS). **Repair once**: a fighter adjacent passes an **INT test (7+)** to bring it back **online** (**Jury-Rig** may auto-succeed). A **second** Injury while Offline → **Destroyed**, gone for the battle. *This is the "repaired one time before it's lost" rule — it already existed; deployables just use it.*
-- **Mines & traps**: **concealed** on a passed deploy (found by **Threat Scan** or an opposed INT test). While **untriggered** they can be **shot** (Feature damage) or **disarmed** — **DEX 7+**, nat 1 = boom; or, if the device is electronic/Linked, **Jammed** or hacked instead (**Jam Signals**, [[Hacking]]). Once a trap **triggers**, it is spent — you cannot Offline a boom mid-trigger.
+- **Mines & traps**: **concealed** on a passed deploy (found by **Threat Scan** or an opposed INT test). While **untriggered** they can be **shot** (Feature damage) or **disarmed** — **DEX 7+**, nat 1 = boom; or, if the device is electronic (Remote / Seeker), **Jammed** or hacked instead (**Jam Signals** / **Minefield Conductor**, [[Hacking]] · [[Skill Paths]]). Once a trap **triggers**, it is spent — you cannot Offline a boom mid-trigger.
 
-## The four families
-> [!warning] Costs below are a **first pass**, anchored to comparable gear in [[Weapons#5 · Sample armoury|the armoury]] (Trap 4 · Med-Kit 4 · Molotov 9 · Assault Rifle 13). They are **not sim-validated yet** — treat them as the starting ladder for a deployables sim, exactly as the weapon costs were before [[Crew Sim — Findings]].
+---
 
-**Carry weight:** a **mine or trap** takes **one** of a fighter's two equipment slots. **Standing hardware** (a turret or beacon) is bulky — it takes **both** slots, so a fighter carrying one carries nothing else.
+## Family A · Turrets
+Standing hardware · **repairable** · takes **both** equipment slots.
 
-### A · Emplacements — turrets (standing hardware · repairable · both slots)
-A deployed turret holds **Overwatch**. **Once per round**, as a **Reaction**, it auto-fires one shot at the **first enemy that Moves or acts within its range and LOS**. It has **no facing** (360°) and never moves.
+A deployed turret holds **Overwatch**. **Once per round**, as a **Reaction**, it auto-fires one shot at the **first enemy that Moves or acts within its range and LOS**. It has **no facing** (360°) and never moves. The shot is a normal ranged attack — hit, then Injury — using the profile below. A turret fires at a fixed **+0 gunnery** (a crude auto-mount) plus the target's cover; the **Sniper Turret's +1** is on top of that.
 
-| Turret | Build | Cost | Auto-fire |
-|---|:---:|:---:|---|
-| **Sentry Gun** | Complex −1 | **14** | One Reaction shot / round, **18"** + LOS, Injury **Damage +3**. |
-| **Scrap Autogun** | Complex −1 | **10** | One Reaction shot / round, **9"** only, Injury **Damage +4** (Brutal). Cheaper, deadlier, short-sighted. |
+> [!note] Turrets are yours; hijacking them is the counterplay
+> A deployed turret **auto-fires for its owner** — that is what the points and the one-hit fragility buy. There are **no board-built turrets**; *every* turret is a deployable. An enemy **hacker can hijack one** — deactivate it, lock it off their squad (**Rewrite Killbox**), or fire it at its own side (**Turret Tamer**) — see [[Hacking#Linked functions (what a successful hack controls)]].
 
-> [!note] Deployable turrets **auto-fire**; board turrets do **not**. A **settlement / [[Infrastructure]] turret** is *controlled only* — someone must hack or operate it to fire ([[Hacking#Linked functions (what a successful hack controls)]]). A **deployable** turret you paid points for, that dies to a single hit, earns its automatic shot. The two are deliberately different objects, not a contradiction.
+| Turret | Build | Cost | Range | Auto-fire profile |
+|---|:---:|:---:|:---:|---|
+| **Autoturret** | Complex −1 | **12** | 18" | One shot / round, Injury **Damage +3**. The baseline. |
+| **Sniper Turret** | Intricate −2 | **15** | 24" | One shot / round, **Damage +3**, **+1 to hit** (it never moves, so it is always braced). Reaches from its own deployment zone. |
+| **Burst Turret** | Intricate −2 | **18** | 18" | **Two** shots / round at **Damage +2** each (same or split targets). Volume of fire — priced up because multi-shot is the game's biggest DPS lever. |
+| **Blast Turret** | Complex −1 | **14** | 12" | One shot / round, **Damage +3**, **Blast** (2" — resolve against every model within 2" of the target). |
+| **Reinforced Turret** | Complex −1 | **15** | 18" | One shot / round, **Damage +3**. **Hardened:** always counts as **Heavy (−2) cover** to be hit — the within-6" *Open* clause does **not** apply, so it can't be walked up to and wrecked. |
 
-### B · Mines — proximity charges (spent on trigger · concealed · one slot)
-Trigger on the **first enemy** to enter the listed range, resolve once, then **spent**.
+## Family B · Mines
+Spent-on-trigger · **concealed** · **one** equipment slot each. **Built like a weapon:** pick a **chassis** (how it reaches the target), then buy **one payload** (what it does). Cost = chassis + payload.
 
-| Mine | Build | Cost | Trigger & effect |
-|---|:---:|:---:|---|
-| **Frag Mine** | Standard 0 | **8** | Within **2"** → Injury **Damage +3**, **Blast** (every model within 2"). |
-| **Shaped Charge** | Standard 0 | **7** | Within **1"** → single target, Injury **Damage +3**, **Armour Piercing** (−1 Armor). Anti-armour. |
-| **Incendiary Charge** | Standard 0 | **8** | Within **2"** → **Blast** Injury **Damage +2**, sets **Fire**, and leaves a **3" Fire** hazard for one round ([[Terrain#Hazards (the Dangerous overlay)]]). |
+### Chassis — how it delivers
+| Chassis | Cost | Delivery |
+|---|:---:|---|
+| **Proximity** | **5** | Place a **3" template**. Detonates the instant an enemy **ends a Move** inside it. |
+| **Remote** | **7** | Place a hidden marker with a **6" trigger radius**; the **owner command-detonates** it (a Reaction) while any enemy is inside the radius. **Bluff kit:** buying a Remote gives you **4 markers — 1 live, 3 dummy**. The carrier may spend an activation to place a dummy; only the live marker ever detonates. The enemy can't tell which is which without a **Threat Scan** or a disarm. |
+| **Seeker** | **8** | No template. On deploy, choose an enemy in your fighter's **LOS**. Each **End Phase** the seeker moves **4"** toward that target (ignoring its evasion); on reaching base contact it detonates against it. It can be shot, disarmed or hacked while en route. |
 
-### C · Traps — control devices (spent on trigger · concealed · one slot)
-Mostly **no Injury** — they exist to stop, blind or choke a route, not to kill. Trigger once, then spent (an **area** trap persists until cleared or destroyed).
+### Payload — what it does on detonation
+Buy exactly one. All effects route to rules you already have.
+| Payload | Cost | Effect |
+|---|:---:|---|
+| **Explosion** | **+4** | Injury **Damage +3**, **Blast** (2"). The default killer. |
+| **Fire** | **+3** | **Blast** Injury **Damage +2**, sets **Fire**, leaves a **3" Fire** hazard for one round ([[Terrain#Hazards (the Dangerous overlay)]]). |
+| **Poison** | **+3** | Places a **3" Poison** hazard for two rounds ([[Conditions#Persistent conditions|Poison]] to anyone inside or entering). |
+| **Shock** | **+3** | **Blast**, no Injury: **Shocked + Blind** on every model in radius ([[Conditions#Persistent conditions]]). |
+| **Smoke** | **+2** | No damage — places a **3" Dense Smoke** ([[Weapons]] Smoke). A trap that screens instead of kills. |
+
+*Examples:* Proximity + Explosion = **9** · Remote + Poison = **10** · Seeker + Explosion = **12** · Proximity + Smoke = **7**.
+
+## Family C · Traps
+Spent-on-trigger · **concealed** · **one** equipment slot each. **Traps deny movement** — that is their whole job. Mines kill; [[Infrastructure]] reshapes; traps **stop, channel and wall off** the enemy. Almost none deal damage.
 
 | Trap | Build | Cost | Trigger & effect |
 |---|:---:|:---:|---|
-| **Snare Wire** | Simple +1 | **4** | Within **1"** → the model is **Prone** + **Hobbled**. No Injury. |
-| **Spike Strip** | Simple +1 | **4** | A **3" area**; enemies entering it treat it as **Difficult** ground and gain **Hobbled**. Persists. |
-| **Flash Charge** | Standard 0 | **5** | Within **2"** → **Blast**, no Injury: **Blind + Shocked** on every model in radius. |
-| **Gas Canister** | Standard 0 | **6** | Within **2"** → places a **3" Poison** hazard for two rounds ([[Conditions#Persistent conditions|Poison]] to anyone inside or entering). |
+| **Trip Wire** | Simple +1 | **3** | Within **1"** → the model is knocked **Prone**. Stops a rush cold. |
+| **Spike Strip** | Simple +1 | **4** | A **3" area**; enemies entering treat it as **Difficult** ground and gain **Hobbled**. Persists until cleared. |
+| **Covered Pit** | Standard 0 | **5** | A concealed **2" hole** that reads as normal floor. A model entering **FALLs** ([[Terrain]] verticality — **Prone**) and is **Snared** (stuck until it climbs out). |
+| **Leg Clamp** | Standard 0 | **5** | Within **1"** → the model is **Snared** (cannot move; Action + **STR 7+** to break free). A hard single-model stop. |
+| **Razor Barrier** | Standard 0 | **4** | Deploy a **3" barrier**: **Impassable** without **Forcing** it (STR 7+, and you take **Hobbled** shoving through). A pure movement wall — blocks bodies, not sight. |
 
-### D · Beacons — support auras (standing hardware · repairable · both slots)
-A beacon projects a **friendly aura** in a radius (default **6"**). The aura is one of the **modifiers the engine already uses** — it obeys the global **±3** cap and **does not stack with itself** (two Munitions Beacons ≠ +2).
+## Family D · Beacons
+Standing hardware · **repairable** · takes **both** equipment slots. A beacon projects a **6" aura** that persists until the beacon is destroyed. Auras are the **modifiers the engine already uses** — friendly buffs or enemy debuffs.
 
-| Beacon | Build | Cost | Aura (friendly, within 6") |
+> [!warning] Two rules keep beacon-stacking honest
+> - An aura **obeys the global ±3 cap** and **does not stack with itself** (two Munitions Beacons ≠ +2).
+> - **A model benefits from at most two friendly beacon auras at once.** Pick the two if more overlap. This is the brake on a death-star stack.
+
+| Beacon | Build | Cost | Aura (within 6") |
 |---|:---:|:---:|---|
-| **Munitions Beacon** | Complex −1 | **8** | **+1 to the Injury roll** (a damage buff — capped by ±3; never lifts a weapon past the +4 Damage ceiling). |
-| **Targeting Beacon** | Complex −1 | **8** | **+1 to ranged hit rolls.** |
-| **Med-Station** | Standard 0 | **6** | Acts as a **[[List Building#Armour & equipment|Med-Kit]]** for everyone in range — cancels the −2 on Stabilize / treating Bleed & Poison. |
-| **Bulwark** | Standard 0 | **5** | Deploys a **3" barricade**: a line of **Light cover** that **Blocks LOS** through it ([[Terrain#Cover]]). A carried version of the **Wire & Sandbag** Deployed piece. |
+| **Munitions Beacon** | Complex −1 | **8** | *Allies:* **+1 to the Injury roll** (a damage buff — capped by ±3; never lifts a weapon past the +4 ceiling). |
+| **Targeting Beacon** | Complex −1 | **8** | *Allies:* **+1 to ranged hit rolls.** |
+| **Aegis Beacon** | Complex −1 | **8** | *Allies:* enemy **Injury rolls against them suffer −1** (the "+1 armour" aura, as a capped modifier). |
+| **Cover Beacon** | Standard 0 | **6** | *Allies:* count as in **Light cover** (−1 to be hit) if not already in better cover. |
+| **Cleansing Beacon** | Standard 0 | **8** | *Allies:* each **End Phase**, one friendly in range **clears one negative condition** (Fire, Poison, Blind, Shocked, Pinned); also acts as a **Med-Kit** for Stabilize / Bleed. |
+| **Revive Beacon** | Intricate −2 | **12** | *Allies:* each **End Phase**, one friendly **Down** unit in range **recovers to Prone** (stands next activation). **Down only — a melee kill (Out) stays dead.** |
+| **Dread Beacon** | Standard 0 | **7** | *Enemies:* a model that **enters** the aura gains **+1 Stress**; while inside, **−1 on Break tests**. The one negative-aura beacon. |
 
 ## How INT gets its job back
 Deployables hand a technical crew a full battlefield loop — and every step is INT:
@@ -127,14 +152,16 @@ Deployables hand a technical crew a full battlefield loop — and every step is 
 That is the design payoff: an INT specialist is no longer *only* a door-opener. They plant the killbox, keep it running, and turn the enemy's own devices against them.
 
 ## Open dials
-- [ ] **Every cost is first-pass** — anchored to the armoury, not yet run through a deployables sim.
-- [ ] **Turret auto-fire.** One Reaction shot/round is the lever. If a static gun that shoots for free proves oppressive, drop it to **fire only when operated** (an INT/DEX Interact), matching the board turret.
-- [ ] **Slot weight.** Standing hardware taking **both** equipment slots is the main brake on beacon/turret stacking — confirm it bites at the table.
-- [ ] **Build ratings.** −1 for all Complex hardware is a placeholder; a −2 tier is reserved if the flagship turret should demand a true specialist.
-- [ ] **Aura radius.** 6" default across all beacons — may want to shrink the damage aura specifically.
+> [!warning] Costs are **first-pass**, anchored to [[Weapons#5 · Sample armoury|the armoury]] (Trap 4 · Med-Kit 4 · Molotov 9 · Assault Rifle 13) and checked against [[Deployables Sim — Findings]]. Validate at the table before graduating this note to the ledger.
+
+- [ ] **Burst Turret's two shots.** Multi-attack is the biggest DPS lever in the game ([[Skill Sim — Findings]]). +2×2 is priced high and gated (Intricate −2) — first item to watch. Fallback: one shot with **Spread**.
+- [ ] **Revive Beacon.** Returning Down units in a **WND-1** game is a huge swing — bounded to *one unit, to Prone, Down-only*. If it warps games, cut it to a flat Med/Cleansing effect.
+- [ ] **Turret auto-fire.** One Reaction shot / round is the lever. If a free static gun proves oppressive, drop it to **fire only when operated**.
+- [ ] **Slot weight.** Standing hardware eating **both** slots + the **two-auras-per-model** cap are the anti-stack brakes — confirm they bite at the table.
+- [ ] **Seeker movement.** 4"/round toward a chosen target — check it isn't unavoidable on a small board.
 
 ## Rule ledger
 _none yet — graduate a `core-00X Deployables` card after the first deployables sim / playtest._
 
 ---
-See [[Rules System MOC]] · deals damage through [[Damage]] · conditions in [[Conditions]] · costed in [[List Building]] · skills in [[Skill Paths]] · not to be confused with [[Infrastructure]].
+See [[Rules System MOC]] · deals damage through [[Damage]] · conditions in [[Conditions]] · costed in [[List Building]] · skills in [[Skill Paths]] · sim in [[Deployables Sim — Findings]] · not to be confused with [[Infrastructure]].

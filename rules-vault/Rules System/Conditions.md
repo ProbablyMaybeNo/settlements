@@ -58,6 +58,7 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 - **Off-Balance** — cannot Sprint or Charge. Ends at the end of the unit's next activation.
 - **Hobbled** — **−2" MOV**. Ends at the end of the unit's next activation.
 - **Provoked** — the unit's first attack against anyone *except* the source suffers **−1**. Ends after that attack, or at the end of its next activation.
+- **Snared** — caught by a clamp, wire or pit (a [[Deployables]] trap). **Cannot Move, Charge, Sprint or Disengage.** On its activation it may spend its **Action** on a **STR test (7+)** to break free (nat 1 fails, it stays). A device-sourced negative condition, so its first application gives **+1 Stress**. Persists until it breaks free or the device is cleared. *(Kin to **Grappled**, but no grappler holds it — the terrain does.)*
 
 ### Persistent conditions (resolve in the End Phase)
 - **Fire** — each End Phase, the unit suffers an **Injury roll at +1 Damage, ignoring Armor**. It (or an adjacent friendly) may spend an **Action** to extinguish it — automatic, no test. Persists until extinguished.

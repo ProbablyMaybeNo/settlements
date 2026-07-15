@@ -127,7 +127,7 @@ Operating terminals, Linked networks, range bands, and the hacker-vs-hacker **In
 |Upgrade|Battle effect|
 |---|---|
 |Reinforced doors|Named doors start Lockable / Reinforced (skills/traits may be required to Force)|
-|Turret emplacement|Turret: Powered · Hackable · Linked|
+|Turret emplacement|Deploy one [[Deployables]] turret free at setup (Powered, Hackable)|
 |Trap stockpile|X traps pre-placed, armed and concealed|
 |Workshop / scrap|Materials / Build tokens if used|
 |Generator / security net|Terminals, cameras, alarms — the Linked network|
@@ -156,7 +156,7 @@ Deployables: Lifted scatter (Blocked openings), carried traps, settlement turr
 1. **DEX** = mechanical · **INT** = digital
 2. **Lift** replaces Barricade
 3. **Searched** exhausts the *piece*
-4. Turrets = controlled only (rules in [[Hacking]])
+4. Turrets = [[Deployables]] — auto-fire for their owner, hackable to hijack
 5. No building collapse; feature two-strike damage only
 6. Ordinary Interacts = auto-pass **or** flat **7+**
 7. Contested Lift = opposed STR; ties to defender

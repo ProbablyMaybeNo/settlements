@@ -97,7 +97,7 @@ The **one** function a passed hack grants — one per Action unless a skill says
 - Turrets — rotate / deactivate / **fire once** (counts as your attack)
 - Electronic traps — arm / disarm / trigger if legal
 
-**Turrets are controlled only** — no auto-sentry.
+**Turrets are [[Deployables]].** There are **no board-built turrets** — every turret is a deployable that **auto-fires for its owner**. Hacking one **hijacks** it: deactivate it, turn it, or fire it once at its own side (your Action).
 
 > The full catalogue of operable features — cranes, bridges, shutters, vents, flood gates — and exactly what each does to the board (with every crush/fall/push routed to an existing rule) lives in [[Infrastructure]]. Hacking is *how* you operate them; Infrastructure is *what happens*.
 
