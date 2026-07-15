@@ -99,6 +99,8 @@ The **one** function a passed hack grants — one per Action unless a skill says
 
 **Turrets are controlled only** — no auto-sentry.
 
+> The full catalogue of operable features — cranes, bridges, shutters, vents, flood gates — and exactly what each does to the board (with every crush/fall/push routed to an existing rule) lives in [[Infrastructure]]. Hacking is *how* you operate them; Infrastructure is *what happens*.
+
 ### Hardened systems (optional knob)
 A hardened terminal — military security, a settlement's core systems — applies a flat **penalty to the hack test** (e.g. **−1** or **−2**). This is the simple way to make a system tough without adding a subsystem. Skills and gear can grant a matching **bonus** to beat it ([[Skill Paths]]).
 
