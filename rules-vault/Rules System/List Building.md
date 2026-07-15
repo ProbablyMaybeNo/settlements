@@ -64,9 +64,9 @@ The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed
 | Equipment | Effect | Cost |
 |---|---|:--:|
 | Med-Kit | Cancels the −2 on Stabilize / treating Bleed & Poison ([[Damage]]) | **4** |
-| Breach Kit | **Program +1** ([[Hacking]]) | **4** |
+| Breach Kit | **+1 to the hack test** ([[Hacking]]) | **4** |
 | Trap | One deployable trap ([[Terrain Interaction]]) | **4** |
-| Exploit Suite | **Program +2** ([[Hacking]]) | **8** |
+| Exploit Suite | **+2 to the hack test** ([[Hacking]]) | **8** |
 
 ## Doctrine
 > **You may take one Doctrine, or none. A crew with no Doctrine is a Standard crew — no bend, no cost, and it is genuinely fine.**
@@ -80,7 +80,7 @@ A Doctrine is always a **trade**, never a bonus: it bends one list rule in your 
 | **Firebase** | Ranged weapon **classes** cost −3. | Your fighters **may not Charge**. |
 | **Storm** | Melee weapon **classes** are free *(characteristics still cost)*. | **No Standard or Heavy Ranged** weapons. |
 | **Ghosts** | A third of the crew (round down) deploys **Hidden**, outside the enemy deployment zone and more than 12" from any enemy. | No Heavy armour. No Standard or Heavy Ranged. |
-| **Signal** | Breach Kits free; Exploit Suites cost 4. You begin the battle as **controller** of one terminal ([[Hacking#Network control]]). | Every Specialist must have **INT +2** or better. |
+| **Signal** | Breach Kits free; Exploit Suites cost 4. A friendly hacker may **re-roll one failed hack test per turn**. | Every Specialist must have **INT +2** or better. |
 | **Wire & Sandbag** | Place **two Deployed pieces** (barricade, trap, or terminal) after terrain setup ([[Terrain]]). | Every weapon costs **+2**. |
 | **Diehards** | Ignore the **first Stress** each round from a friendly going Down or Out. | Armour costs **double**. |
 

@@ -7,6 +7,9 @@ tags: [settlements/reference, settlements/analysis]
 
 Ran the **P1 dice battery** from [[Terrain Hacking Cover — Test Plan]] on the locked S3 rules. Exact math where closed-form, seeded Monte-Carlo (10k) for chains. Run: `test-bench/terrain_hacking_sim.py`, seed `20260713`.
 
+> [!warning] Hacking sections superseded by v1
+> The **hacker shut-out / opposed-INT** findings below (T6, T11) test the pre-v1 breach system, now **parked** — v1 hacking is a single INT test + **Interrupt/Overload** ([[Hacking]]). The **cover, fall, and disengage** findings still stand.
+
 > [!success] Headline
 > The **cover / hacking / terrain math is sound**, and terrain does the balancing job it's supposed to (heavies pay ~10% on every climb). Three things need a dial before they hit a table: **hacker shut-outs are far too weak**, a **2" fall is a coin-flip kill**, and **Disengage is a dead option** (double-costed).
 

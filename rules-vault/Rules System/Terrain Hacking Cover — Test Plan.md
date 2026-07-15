@@ -7,6 +7,9 @@ tags: [settlements/reference, settlements/analysis]
 
 Review + test list for the new S3 Battle Layer rules ([[Terrain]], [[Terrain Interaction]], [[Hacking]], [[Movement]], cover, hazards, verticality). Covers what's **already broken** (P0 — fix these first), what to **sim** (P1 — dice-testable now), and what needs a **ruling/playtest** (P2 — logic, not probability).
 
+> [!warning] Hacking sections superseded by v1
+> The **hacker-vs-hacker shut-out** tests below (T6, T11, and related) target the pre-v1 breach system, now **parked** — v1 hacking is a single INT test + **Interrupt/Overload** ([[Hacking]]). The cover / terrain / fall / disengage tests still apply.
+
 ---
 ## P0 · Consistency bugs found in review — fix before testing
 These are live contradictions between notes; a player would get two different answers.

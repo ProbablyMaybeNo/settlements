@@ -34,7 +34,7 @@ The Rules column nails down:
 - How turrets, cameras, doors, and alarms plug in without a second dice mechanic.
 
 ## Inherits from the engine
-> [!info] Recall — a hack is **one core test**: `1d10 + INT − range` vs **7+**, the same engine as everything else. Range is a **modifier**, not a new target number. Device states (**Jammed**, **Linked**, **Overloaded**, **Compromised**) live in [[Terrain Interaction#Feature damage]] and [[Conditions]].
+> [!info] Recall — a hack is **one core test**: `1d10 + INT − range` vs **7+**, the same engine as everything else. Range is a **modifier**, not a new target number. Device states (**Jammed**, **Linked**, **Overloaded**, **Compromised**) live in [[Conditions#Marker & device states]].
 
 ![[core-000 Core Test#Text]]
 
@@ -71,7 +71,7 @@ Measure **terminal → feature**. Max **24"**. Applies to the hack test.
 Other modifiers (skills, **Shaken**, conditions, hardened systems) stack normally; the global **±3** cap applies.
 
 ### Interrupt — contesting a hack
-An enemy in base contact with another **live** (non-Overloaded) terminal on the network may **Interrupt** a declared hack. It's a Reaction ([[Rules Engine]]).
+An enemy in base contact with another **live** (non-Overloaded) terminal on the network may **Interrupt** a declared hack. It's a **Reaction** — the *interrupt Interact* option ([[Initiative & Activation#Reaction options]]), and the one Reaction declared *as* the enemy acts rather than after they finish.
 
 **Declare early, pay only if it lands:**
 1. The hacker declares the terminal and the feature.
@@ -108,7 +108,7 @@ A hardened terminal — military security, a settlement's core systems — appli
 One hack per activation. A feature that deals damage (turret fire, a triggered hazard) is your **one attack** for the activation — you may not also make a separate attack.
 
 ### Skills
-INT-path skills ([[Skill Paths]]) are exceptions and payoffs on top of these rules (**Hacker**, **Computer Whiz**, **Turret Tamer**, **Counter-Hack**, etc.). They modify the hack test, change what one Action can do, or change how the **interrupt** works — e.g. **Counter-Hack** lets a fighter interrupt *without* giving up their own hack, or adds a bonus to the opposed roll.
+INT-path skills ([[Skill Paths]]) are exceptions and payoffs on top of these rules (**Hacker**, **Computer Whiz**, **Turret Tamer**, **Counter-Hack**, etc.). They modify the hack test, change what one Action can do, or change how the **interrupt** works — e.g. **Counter-Hack** lets a fighter Interrupt *without* Overloading their own terminal.
 
 > [!question] Playtest dials
 > - **Interrupt is a hard counter** — automatic against a *successful* hack, no opposed roll. Because it only spends when the hack would land, one interrupter reliably eats one feature per turn. A lone hacker can't beat an interrupter alone — the sim shows you need **two** successful hacks to push one through. If that's too strong, let a hacker's **nat 10** punch through, or add an opposed INT test.

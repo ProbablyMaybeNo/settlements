@@ -47,7 +47,7 @@ The Rules column should nail down:
 - Ready **persists across rounds** until spent or cancelled.
 - **Cancelled** when the unit:
   - takes any other Action (Shoot, Fight, Interact, Hide, Stabilize, etc.), or
-  - is **hit** by an attack, a hostile hack effect, or a terrain/hazard effect (Injury pass, condition applied, feature shut-out that lands, etc.).
+  - is **hit** by an attack, a hostile hack effect, or a terrain/hazard effect (Injury pass, condition applied, a feature triggered on it, etc.).
 - Sprint / Charge consume both slots and leave no Ready; starting a Sprint or Charge cancels Ready.
 
 ### Reaction triggers
@@ -65,7 +65,7 @@ Resolve immediately, interrupting the enemy's next steps if any remain. A Reacti
 | **Snap Shot** | Make a normal ranged attack at the triggering enemy (**no** extra −2). Must be in range + forward LOS. Any legal ranged weapon (Sidearm rules still apply if Engaged). |
 | **Charge** | Move up to **MOV"** into Engagement with the triggerer (not 2×). Free melee with **no** Charge +1. Needs forward LOS when declared. *Playtest whether full-strength Charge feels better.* |
 | **Throw** | Resolve a normal thrown-weapon / thrown-object attack (no extra −2). |
-| **Interact** | Auto-pass Interacts only: open/close a door, Lift-block / clear a Block, hit a button/lever. **No** tested Interacts (Search, Hack, Repair, Stabilize). |
+| **Interact / Operate** | Open/close a door, Lift-block / clear a Block, hit a button/lever, **operate an Infrastructure feature you can reach** — by hand in base contact, or by hacking a terminal within range — or **Interrupt** an enemy hack ([[Infrastructure#3 · As a Reaction]] / [[Hacking#Interrupt — contesting a hack]]). Still **no** Search, Repair, or Stabilize as a Reaction. |
 | **Trigger** | Only your own traps with the **Remote Detonation** tag (set by the placer, or by a Hacker). Not every trap is remote. |
 
 #### Orders received

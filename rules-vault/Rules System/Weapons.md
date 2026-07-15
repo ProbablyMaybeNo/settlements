@@ -133,21 +133,21 @@ Armor reduces the **Injury roll only** — never the hit. Cover protects against
 
 ---
 ## 4 · Hacking gear
-Hacking mirrors combat: **Program** is its Damage (adds to the **Breach roll**), **Firewall** is its Armor (subtracts from an incoming breach). See [[Hacking]].
+A hack is one INT test ([[Hacking]]); there is no separate breach roll. Gear adds a flat **bonus to the hack test**.
 
-| Program (breach) | +DMG | Cost | Notes |
+| Hack gear | Hack test | Cost | Notes |
 |---|:---:|:--:|---|
 | Bare-handed | +0 | 0 | improvising at a terminal |
 | Breach Kit | +1 | 4 | standard hacker loadout |
 | Exploit Suite | +2 | 8 | specialist kit |
 
-| Firewall (defence) | Armor | Notes |
+**Hardened systems** are the defence — a flat **penalty to the hack test**, set as board state by the scenario or [[Settlement]] (not a purchase):
+
+| Hardened system | Hack test | Notes |
 |---|:---:|---|
 | Open system | 0 | civilian terminal |
 | Firewall Node | −1 | hardened terminal / basic ICE |
 | Military ICE | −2 | settlement / military security |
-
-*(Firewall is board state, not a purchase — set by the scenario or [[Settlement]].)*
 
 ---
 ## 5 · Sample armoury

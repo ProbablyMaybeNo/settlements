@@ -160,7 +160,7 @@ Each skill costs **1 skill point**. There are no skill prerequisites: investment
 
 ## Expertise / Knowledge (INT)
 ### Tier 1 — Good
-- **Hacker** — As an Action beside a Hackable device, pass an INT test, or an opposed INT test if defended, to access data, loop a camera, silence an alarm or toggle an unlocked Powered system. *(Hacker · Objective specialist)*
+- **Hacker** — As an Action beside a Hackable device, pass an INT test to access data, loop a camera, silence an alarm or toggle an unlocked Powered system. A hardened system applies its penalty and an enemy may Interrupt ([[Hacking]]). *(Hacker · Objective specialist)*
 - **Locksmith** — As an Action beside a Lockable door or container, pass an INT test to lock or unlock it without damage; hard security is 9+, military-grade security 11+. *(Infiltrator · Objective specialist)*
 - **Trapper** — As an Action, arm, disarm, conceal or reposition an adjacent carried trap or terrain trap with an INT test. Searching for your concealed trap is an opposed INT test. *(Trapper · Controller)*
 - **Medic** — As an Action beside a casualty with medical supplies, pass an INT test to remove Bleed or Poison. You automatically Stabilize an adjacent Down fighter instead of making the normal Stabilize test. *(Medic · Support)*
@@ -172,11 +172,11 @@ Each skill costs **1 skill point**. There are no skill prerequisites: investment
 - **Read the Objective** — As an Action beside an objective, pass an INT test to learn its active defences, required interaction and whether it is trapped, alarmed, Powered, Hackable or Lockable. *(Objective specialist · Intel support)*
 
 ### Tier 2 — Great
-- **Computer Whiz** — As an Action at an accessed terminal, hack one **Linked** device on its local network. Resolve defended systems with an opposed INT test. *(Hacker · Remote control)*
+- **Computer Whiz** — As an Action at an accessed terminal, hack one **Linked** device on its local network ([[Hacking]] rules apply — hardened penalty, Interrupt). *(Hacker · Remote control)*
 - **Turret Tamer** — As an Action, hack a Linked or adjacent turret to rotate, deactivate or fire it once. Firing uses the turret's profile and counts as your one attack. *(Hacker DPS · Controller)*
 - **Lockdown** — As an Action at a terminal or control panel, pass an INT test to lock or unlock up to three Linked Lockable doors until your next activation. *(Hacker · Area controller)*
 - **Field Surgeon** — As an Action beside a Down fighter with medical supplies, pass a 9+ INT test to restore them to 1 WND, remove Down and leave them Pinned. Each casualty can benefit once per encounter. *(Medic · Recovery support)*
-- **Counter-Hack** — When Readied at a device or terminal, react to a hostile hack with an opposed INT test. On a win, cancel it and make the hostile system Compromised. *(Hacker nerfer · Tech support)*
+- **Counter-Hack** — When Readied at a device or terminal, **Interrupt** a hostile hack ([[Hacking]]) **without Overloading your own terminal**; the interrupted system is left **Compromised**. *(Hacker nerfer · Tech support)*
 - **Trap Relay** — As an Action, pass an INT test to link up to three armed electronic traps within 6". Until your next activation, when one linked trap triggers normally, trigger one other linked trap whose normal conditions are met. A trap triggered by Trap Relay cannot trigger this skill, and each linked trap can trigger at most once. *(Trapper · Area control)*
 - **Power Broker** — As an Action at a power control, pass an INT test to disable one Linked Powered system and activate, restore or use the printed overcharge effect of another until your next activation. *(Engineer · Hacker buffer)*
 - **Forensic Sweep** — As an Action at a body, terminal, trap or objective, pass an INT test to identify the last interaction, its direction and one tool used; on 9+, reveal deliberate tampering. *(Intel support · Objective specialist)*
@@ -184,13 +184,13 @@ Each skill costs **1 skill point**. There are no skill prerequisites: investment
 - **Shepherd Alarm** — As an Action, hack an alarm or sensor to suppress its next trigger or redirect it to one Linked alarm zone. It cannot fabricate targets. *(Hacker debuffer · Controller)*
 
 ### Tier 3 — Amazing
-- **Mastermind** — As an Action at an accessed terminal, make one INT test to operate two different Linked non-weapon device functions. A defended network opposes once; failure operates neither. *(Hacker · Controller)*
+- **Mastermind** — As an Action at an accessed terminal, make one INT test to operate two different Linked non-weapon device functions; failure operates neither. *(Hacker · Controller)*
 - **Kaboom** — As an Action, hack or wire one visible Explosive or Powered hazard within 6". Detonate it now or set one specific trigger; its normal profile counts as your one attack. *(Hacker DPS · Trapper)*
 - **Blackout Protocol** — As an Action at a power node, pass a 9+ INT test to disable all Linked lights, cameras, alarms and unlocked doors in one defined zone until your next activation. *(Hacker nerfer · Area controller)*
-- **Rewrite Killbox** — As an Action at a security terminal, win an opposed INT test to make up to two Linked turrets treat your allies as authorised and prevent their controller firing them remotely until your next activation. *(Hacker buffer · Hacker nerfer)*
+- **Rewrite Killbox** — As an Action at a security terminal, pass an INT test to make up to two Linked turrets treat your allies as authorised and prevent the enemy firing them remotely until your next activation. *(Hacker buffer · Hacker nerfer)*
 - **Trauma Reset** — As an Action beside a Down fighter with medical supplies, pass an 11+ INT test to restore them to 1 WND, remove Down and remove one of Bleed, Poison, Blind or Shocked. Each casualty can benefit once per encounter. *(Medic · Recovery support)*
-- **Ghost the Network** — As an Action at a terminal, win an opposed INT test so cameras, alarms and access logs on that network ignore your crew until your next activation or until an ally attacks through a controlled system. *(Hacker · Infiltrator)*
-- **Fortify Objective** — As an Action beside an objective, pass an INT test to arm its existing alarm, engage its lock, activate its cover mechanism or require an opposed terminal test to access it for the rest of the encounter. *(Engineer · Objective specialist)*
+- **Ghost the Network** — As an Action at a terminal, pass an INT test so cameras, alarms and access logs on that network ignore your crew until your next activation or until an ally attacks through the network. *(Hacker · Infiltrator)*
+- **Fortify Objective** — As an Action beside an objective, pass an INT test to arm its existing alarm, engage its lock, activate its cover mechanism or make it a **hardened** terminal (−2 to any hack) for the rest of the encounter. *(Engineer · Objective specialist)*
 - **Minefield Conductor** — As an Action, pass an INT test to control up to three visible electronic mines within 9". Until your next activation, suppress their triggers or trigger one legal mine; it counts as your one attack. *(Hacker DPS · Area controller)*
 - **Predictive Model** — As an Action after observing an enemy or monitored 6" zone, pass an INT test. Choose one: up to two allies within 6" each remove 2 Stress, or the first enemy entering that zone before your next activation becomes Pinned. *(Hacker buffer · Debuffer)*
 - **Camo King** — As an Action in Concealing terrain, make yourself and up to two allies within 3" Hidden even if observed. Until your next activation, each may move 2" within connected Concealing terrain without losing Hidden; attacking still ends it. *(Infiltrator · Team support)*

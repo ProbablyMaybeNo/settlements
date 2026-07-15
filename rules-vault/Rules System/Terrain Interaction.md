@@ -49,7 +49,7 @@ When two units contest the same object at the same time, use an **Opposed Test**
 
 - **Lift contest** — opposed **STR**; defender = carrier / first claim.
 - Skills may create other contests (e.g. **Doorstop**); they still use this pattern.
-- Digital contests (network control, shut-outs) → [[Hacking]].
+- Digital contests (hacking, the Interrupt) → [[Hacking]].
 
 ### Stat ownership
 
@@ -67,7 +67,7 @@ When two units contest the same object at the same time, use an **Opposed Test**
 | Open / close              | Openable                  | —    | Auto           | —                                            |
 | Force door / Smash object | Breachable                | STR  | 7+             | Attempt is Loud                              |
 | Lockpick                  | Lockable                  | DEX  | 7+             | Quiet                                        |
-| Hack                      | Hackable / Powered        | INT  | see [[Hacking]] | Terminals, range, shut-outs                  |
+| Hack                      | Hackable / Powered        | INT  | see [[Hacking]] | Terminals, range, the Interrupt              |
 | Lift                      | Movable                   | STR  | 7+             | Half MOV while carrying; drop within 1" free |
 | Search                    | Searchable                | INT  | 7+             | See Searching                                |
 | Repair feature            | Powered / Hackable / etc. | INT  | 7+             | See Feature damage                           |
@@ -104,7 +104,7 @@ Cover pieces stay as passive cover from [[Terrain]].
 
 ### Feature damage
 
-Applies to interactive features (turrets, traps, vents, terminals, cameras, alarms) — not walls/cover.
+Applies to interactive features (turrets, traps, vents, cameras, alarms) — not walls/cover.
 
 - WND 1
 - Armor −2 (heavy)
@@ -116,7 +116,7 @@ Applies to interactive features (turrets, traps, vents, terminals, cameras, al
 Untriggered traps can be damaged this way. A trap that has already triggered is spent — don't use **Offline** to cancel a boom mid-trigger.
 
 ### Hacking
-Operating terminals, Linked networks, range bands, and hacker-vs-hacker shut-outs live in **[[Hacking]]**. Feature **Offline** / **Destroyed** on terminals still uses the Feature damage rules above.
+Operating terminals, Linked networks, range bands, and the hacker-vs-hacker **Interrupt** live in **[[Hacking]]**. Terminals themselves can't be destroyed ([[Infrastructure]]).
 
 ### In-battle repair / settlement hook
 
