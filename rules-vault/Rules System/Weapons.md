@@ -24,12 +24,12 @@ Grandpa's Rifle  Standard Ranged · Accurate · Long Range                     1
 | Class | Cost | Damage | Range | Hands | Min. rank | Slots | Always has |
 |---|:--:|:--:|:--:|:--:|---|:--:|---|
 | **Unarmed** | 0 | +0 | melee | — | Any | 0 | — |
-| **Light Melee** | 0 | +1 | melee | 1 | Rabble | 2 | *(the free basic loadout)* |
-| **One-Handed Melee** | 4 | +2 | melee | 1 | Recruit | 2 | — |
+| **Light Melee** | 0 | +1 | melee | 1 | Recruit | 2 | *(the free basic loadout)* |
+| **One-Handed Melee** | 4 | +2 | melee | 1 | Fighter | 2 | — |
 | **Heavy Melee** | 8 | +3 | melee | 2 | Specialist | 3 | Two-Handed |
 | **Thrown** | 2 | +1 | 6" | 1 | Any | 2 | **Limited** (one use) |
-| **Sidearm** | 4 | +2 | 8" | 1 | Rabble | 2 | **Sidearm** (may fire while Engaged), Loud |
-| **Standard Ranged** | 10 | +3 | 18" | 2 | Recruit | 3 | Two-Handed, Loud |
+| **Sidearm** | 4 | +2 | 8" | 1 | Recruit | 2 | **Sidearm** (may fire while Engaged), Loud |
+| **Standard Ranged** | 10 | +3 | 18" | 2 | Fighter | 3 | Two-Handed, Loud |
 | **Heavy Ranged** | 14 | +3 | 24" | 2 | Specialist | 4 | Two-Handed, Loud, **Cumbersome** (−1 MOV) |
 
 Damage feeds the **Injury roll** — `1d10 + Damage − Armor` vs **7+** ([[Damage]]).
@@ -40,12 +40,12 @@ Damage feeds the **Injury roll** — `1d10 + Damage − Armor` vs **7+** ([[Dama
 > **Range stops at 24".** Deployment zones sit **24" apart** ([[Core Game Format]]), so a weapon that reaches 24" can fire from its own deployment zone on turn one. That is a **threshold**, not a linear advantage, and no points cost can balance a threshold — the sim found an uncapped long-range crew beating every other list by 13–30 points. Only **Heavy Ranged** (Specialist rank, Cumbersome) reaches 24" cleanly.
 
 ### Rank gates the class
-The hard lock that makes the ladder in [[List Building]] real — **a Rabble cannot hold a rifle.**
+The hard lock that makes the ladder in [[List Building]] real — **a Recruit cannot hold a rifle.**
 
 | Rank | May carry |
 |---|---|
-| **Rabble** | Unarmed · Light Melee · Sidearm · Thrown |
-| **Recruit** | + One-Handed Melee · Standard Ranged |
+| **Recruit** | Unarmed · Light Melee · Sidearm · Thrown |
+| **Fighter** | + One-Handed Melee · Standard Ranged |
 | **Specialist** | + Heavy Melee · Heavy Ranged |
 | **Leader** | everything |
 
@@ -172,7 +172,7 @@ Kept so it doesn't creep back in a new costume ([[Out of Scope — What Settleme
 
 | Proposed | Why it's out |
 |---|---|
-| **Rapid** *(extra attack at −2)* | It **is** **Quick Shot** — a **Tier 3** skill needing a stat of +6, i.e. campaign-earned. [[Skill Sim — Findings]] measured multi-attack as *the biggest DPS lever in the game* (+67% output). Selling it to a Recruit for 4 points destroys the entire skill economy. |
+| **Rapid** *(extra attack at −2)* | It **is** **Quick Shot** — a **Tier 3** skill needing a stat of +6, i.e. campaign-earned. [[Skill Sim — Findings]] measured multi-attack as *the biggest DPS lever in the game* (+67% output). Selling it to a Fighter for 4 points destroys the entire skill economy. |
 | **Precision** *(flat +1 hit)* | Strictly stronger than **Dead Eye** (T3, which is conditional). Replaced by **Accurate** — conditional, and already a locked trait. |
 | **Reliable** *(re-roll)* | Introduces **re-rolls**, a dice mechanic that exists nowhere in Settlements. Breaks the one-mechanic ceiling. |
 | **Quick Draw** *(fire after Sprinting)* | Sprint consumes **both slots** — there is no Action left to fire with. It silently invents a new action economy. |

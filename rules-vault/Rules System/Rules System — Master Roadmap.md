@@ -87,7 +87,7 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 <small>depends on: Rules Engine</small>
 
 - [x] Each stat and what it governs: WND, MOV, STR, AGI, DEX, INT, NRV.
-- [x] Rank structure (Recruit / Specialist / Leader) + emergent Role — replaces elite/non-elite unlock tree.
+- [x] Rank structure (Fighter / Specialist / Leader) + emergent Role — replaces elite/non-elite unlock tree.
 - [ ] The data-card layout: stats + skills + equipment + narrative/identity.
 - [ ] How weapons & armour attach (separate profiles vs baked-in) — decide here explicitly (*de facto* separate in [[Weapons]], not locked in this note).
 - [x] Baseline human numbers (civilian 0, path-stat scale to +6) and rank point budgets.
@@ -194,9 +194,9 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 #### 05 · [[List Building]] — ✅ Drafted · **sim-validated**
 <small>depends on: Unit Design, Weapons</small>
 
-- [x] The pyramid: 1 Leader · 2 lower-rank per Specialist · 1 Recruit per Rabble · min 4. **No unit cap.**
+- [x] The pyramid: 1 Leader · 2 lower-rank per Specialist · 1 Fighter per Recruit · min 4. **No unit cap.**
 - [x] Exact costing: ranks **5 / 8 / 16 / 24**, budget **100**. Stats & skills are FREE (rank is the bundle).
-- [x] **Rabble** rank added — the 0-stat body that makes a swarm legally fieldable.
+- [x] **Recruit** rank added — the 0-stat body that makes a swarm legally fieldable.
 - [x] **Doctrine** layer — 8 archetypes, each one bend + one cost.
 - [x] Campaign roster: **+2 pts per Advance, −2 per scar** (veterans crowd out rookies = anti-snowball).
 - [x] Anti-hero ⅓ cap **cut** — redundant at WND 1.

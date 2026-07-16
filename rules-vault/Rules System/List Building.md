@@ -33,24 +33,24 @@ The rank price *is* the stat price — see [[Unit Design#Ranks (build budget)]].
 
 | Rank | Stat pts | Skills | Orders | Start cap | **Cost** |
 |---|:--:|:--:|:--:|:--:|:--:|
-| **Rabble** | 0 | 0 | 0 | — | **5** |
-| **Recruit** | 2 | 1 | 0 | +2 | **8** |
+| **Recruit** | 0 | 0 | 0 | — | **5** |
+| **Fighter** | 2 | 1 | 0 | +2 | **8** |
 | **Specialist** | 4 | 2 | 1 | +4 | **16** |
 | **Leader** | 6 | 3 | 2 | +4 | **24** |
 
-A **Specialist costs exactly two Recruits.** That is the central trade of the whole system.
+A **Specialist costs exactly two Fighters.** That is the central trade of the whole system.
 
 ### The pyramid — the only structural rule
-> **Exactly one Leader. Every Specialist requires two fighters of lower rank. Every Rabble requires one Recruit or better. Minimum four fighters.**
+> **Exactly one Leader. Every Specialist requires two fighters of lower rank. Every Recruit requires one Fighter or better. Minimum four fighters.**
 
-**There is no unit cap.** The pyramid and the budget do it: at 100 points the legal maximum is **11 fighters** (Leader + 5 Recruits + 5 Rabble, with about 11 points of gear between them — a mob with bats). Bigger hordes exist only through a [[#Doctrine|Doctrine]].
+**There is no unit cap.** The pyramid and the budget do it: at 100 points the legal maximum is **11 fighters** (Leader + 5 Fighters + 5 Recruits, with about 11 points of gear between them — a mob with bats). Bigger hordes exist only through a [[#Doctrine|Doctrine]].
 
-The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed at 1 ([[Damage]]), so a 40-point Leader in plate dies to one lucky pistol shot from a Rabble with a knife. The engine already forbids heroes.
+The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed at 1 ([[Damage]]), so a 40-point Leader in plate dies to one lucky pistol shot from a Recruit with a knife. The engine already forbids heroes.
 
 ### Loadout
 - **Free to every fighter:** fists, one **Light Melee** weapon, and thick clothing. A civilian with a bat and a jacket.
 - **Carry limits:** one armour · two hands (a Two-Handed weapon takes both, otherwise two one-handers) · up to **two** pieces of equipment.
-- **Weapons are built, not bought** — class + characteristics, rank-gated. Full system in **[[Weapons]]**. A Rabble physically cannot hold a rifle.
+- **Weapons are built, not bought** — class + characteristics, rank-gated. Full system in **[[Weapons]]**. A Recruit physically cannot hold a rifle.
 
 ### Armour & equipment
 
@@ -75,8 +75,8 @@ A Doctrine is always a **trade**, never a bonus: it bends one list rule in your 
 
 | Doctrine | Bend | Cost |
 |---|---|---|
-| **The Mob** | Rabble no longer require a Recruit. | Max **one** Specialist. No fighter but the Leader may carry a weapon costing more than 5. |
-| **The Cadre** | Each Specialist requires only **one** fighter of lower rank. Minimum crew drops to 3. | Recruits cost **10**. |
+| **The Mob** | Recruits no longer require a Fighter. | Max **one** Specialist. No fighter but the Leader may carry a weapon costing more than 5. |
+| **The Cadre** | Each Specialist requires only **one** fighter of lower rank. Minimum crew drops to 3. | Fighters cost **10**. |
 | **Firebase** | Ranged weapon **classes** cost −3. | Your fighters **may not Charge**. |
 | **Storm** | Melee weapon **classes** are free *(characteristics still cost)*. | **No Standard or Heavy Ranged** weapons. |
 | **Ghosts** | A third of the crew (round down) deploys **Hidden**, outside the enemy deployment zone and more than 12" from any enemy. | No Heavy armour. No Standard or Heavy Ranged. |
@@ -108,10 +108,10 @@ Full detail in **[[Crew Sim — Findings]]**. Eight archetypes, all built to 100
 **The system is balanced on a legal board, and only on a legal board.** That is not a flaw — it is the [[Game Vision|first tenet]] operating as a mechanic. The battlefield decides, and [[Terrain#Setup procedure|terrain density]] is the most powerful dial in the game.
 
 ## Open dials
-- [ ] The **Rabble** name (working title).
+- [x] Rank names locked: **Recruit** (5) / **Fighter** (8) / **Specialist** (16) / **Leader** (24) — replaces the old Rabble/Recruit working titles.
 - [ ] Budget 100 and the 5/8/16/24 ladder — validated in sim, not yet at a table.
 - [ ] Doctrine list — the alpha needs only **The Mob · The Cadre · Firebase · Storm**.
-- [ ] NRV is close to a dead stat at Recruit level; it earns its keep only through Bravery *skills*.
+- [ ] NRV is close to a dead stat at Fighter level; it earns its keep only through Bravery *skills*.
 
 ## Rule ledger
 _none yet — graduate a `core-00X List building` card after first playtest._

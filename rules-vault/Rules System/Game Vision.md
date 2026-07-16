@@ -39,24 +39,22 @@ Every choice has consequences, and survival comes at a cost. Crews clash across 
 Persistent crews and evolving settlements ensure every fight matters. Whether in campaign play or one-off battles, your story is shaped by the damage you take and the scars you carry forward.
 
 ### Design tenets
+*Five ranked pillars, in priority order — you may only break a lower one in service of a higher one.*
 
 1. The battlefield is the weapon  
 Terrain is not just scenery—it is the primary tool for winning battles. Players are expected to interact with, modify, and exploit the environment every turn.
 
-2. Civilians, not soldiers  
-Units represent ordinary people with limited training. Success comes from positioning, teamwork, and creativity—not superior stats.
-
-3. Combat is brutal and final  
+2. Combat is brutal and final  
 Fights are fast, lethal, and decisive. Poor positioning is heavily punished, and even strong units can be taken out quickly if exposed.
 
+3. Civilians, not soldiers  
+Units represent ordinary people with limited training. Success comes from positioning, teamwork, and creativity—not superior stats.
+
 4. Scars tell the story  
-Units persist between games, gaining experience and lasting injuries. Campaign play is about survival, growth, and the history each fighter carries forward.
+Units *and* settlements persist between games, gaining experience, lasting injuries, and history. Players shape both their fighters and their battlefield; campaign play is about survival, growth, and the world each crew carries forward.
 
 5. Simple rules, complex outcomes  
 The core rules are consistent and universal, but the situations they are applied to are varied and dynamic. Complexity comes from the environment and player decisions, not layered mechanics.
-
-6. Build your crew. Build your world.  
-Players shape both their fighters and their battlefield. Crews evolve over time, and evolving terrain, bases, and scenarios are central to the experience.
 
 ### Signature experiences
 

@@ -40,17 +40,17 @@ core Format — Working Rules / Decisions
 
   The game ends after 6 rounds or immediately when a scenario objective is completed.
 
-- Victory Structure: Resource-based and scenario-driven.  
+- Victory Structure: **Objective-driven** — the battle is won on scenario **objectives, never on kills** ([[Scenarios]]). The crew ahead on objectives at the end of the game wins; you fight because the enemy is standing on your objective, not to run up a body count.  
 
   Players earn Resources from **scenario-defined sources** — these vary from scenario to scenario and may include completing **objectives**, scoring **kills**, control/extraction, or landing a **"Glorious Deed"** (name WIP): a high-risk signature feat in the spirit of Trench Crusade.  
 
-  The player with the most Resources secured at the end of the game is the winner.  
+  Resources are **campaign earnings, not the win metric** — banked regardless of who won the battle, so both crews profit from every fight and killing still *pays* toward your settlement even when it doesn't *win*.  
 
   All Resources gained are retained for campaign progression, ensuring both players benefit from every battle.
 
-- Win Philosophy: Resource-driven; the *path* to resources is scenario-dependent.  
+- Win Philosophy: **objective-primary on the table, resource-rich off it**; the *path* to objectives and the sources of resources are scenario-dependent.  
 
-  No single route is mandated — one scenario may reward holding objectives and extracting, another may reward aggression (kills) or glorious deeds. Conflict is inevitable; how you convert it into victory changes game to game.  
+  No single route is mandated — one scenario may reward holding objectives and extracting, another may reward aggression (kills) or glorious deeds. The **battle is always won on objectives**; kills and deeds change how much you *earn*, not who *wins*. Conflict is inevitable.  
 
   Tactical withdrawal and resource extraction remain valid, often optimal strategies.
 

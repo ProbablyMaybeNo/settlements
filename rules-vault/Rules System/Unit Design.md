@@ -28,7 +28,7 @@ The stat line FIRST — every other system references it. Define the data card b
 
 The Rules column should nail down:
 - Each stat and exactly what it governs: Wounds, Move, Strength, Agility, Dexterity, Intelligence, Nerve.
-- Rank structure (Recruit / Specialist / Leader) and how Fielding caps work — Role is emergent, not a separate unlock tree.
+- Rank structure (Recruit / Fighter / Specialist / Leader) and how Fielding caps work — Role is emergent, not a separate unlock tree.
 - The data-card layout: stats + skills/abilities + equipment + narrative/identity.
 - How weapons & armour attach (separate profiles vs baked into the unit) — decide this here, it drives Shooting/Melee/Damage.
 - Baseline human numbers to anchor the whole game; how champions/leaders/veterans scale above baseline.
@@ -98,21 +98,21 @@ Units buy up from the civilian baseline with **stat points**, spent only on the 
 
 | Rank | Stat points | → Skills | Orders | Start cap | Cost |
 |---|:---:|:---:|:---:|:---:|:---:|
-| **Rabble** | **0** | **0** | 0 | — | 5 |
-| **Recruit** | 2 | 1 | 0 | +2 | 8 |
+| **Recruit** | **0** | **0** | 0 | — | 5 |
+| **Fighter** | 2 | 1 | 0 | +2 | 8 |
 | **Specialist** | 4 | 2 | 1 | +4 | 16 |
 | **Leader** | 6 | 3 | 2 | +4 | 24 |
 
 - **One currency:** every **+2** in a path-stat unlocks that path's next **tier** (T1/T2/T3 at +2/+4/+6), and every **2 stat points spent = 1 skill point** ([[Skill Paths]]). So skills = points ÷ 2.
-- **Rabble** are the bottom of the ladder: a body, nothing more. **Zero stat points, zero skills** — flat civilian baseline, 40% at everything, NRV 0. They exist so a *swarm* can actually be fielded; without them the cheapest fighter in the game is a Recruit with 2 points, and the mob you can picture cannot legally be built. They are chaff, screens and objective-sitters — **not** a melee force ([[List Building]]).
-- **Rank is also a weapon gate** — a Rabble physically cannot hold a rifle ([[Weapons#Rank gates the class]]).
+- **Recruits** are the bottom of the ladder: a body, nothing more. **Zero stat points, zero skills** — flat civilian baseline, 40% at everything, NRV 0. They exist so a *swarm* can actually be fielded; without them the cheapest model in the game is a Fighter with 2 stat points, and the mob you can picture cannot legally be built. They are chaff, screens and objective-sitters — **not** a melee force ([[List Building]]).
+- **Rank is also a weapon gate** — a Recruit physically cannot hold a rifle ([[Weapons#Rank gates the class]]).
 - **Start caps** keep Tier 3 as something you *earn*; campaign growth lifts the cap to **+6** ([[Progression]]).
 - A **Leader is a fighter with Orders** — never benched. Rank rises only by deliberate **promotion** into an open slot ([[Progression]]), never automatically.
 - Fielding caps and costs live in [[List Building]].
 
 > [!info] The rank price **is** the stat price
 > Buying a rank buys its stat points and its skills. That's why [[List Building]] never charges you separately for stats — it would be double-counting. Rank is a *bundle*.
-- Role labels (Fighter, Techie, Medic…) are **emergent** — a Recruit is a *rank*, not a role.
+- Role labels (Fighter, Techie, Medic…) are **emergent** — a Fighter is a *rank*, not a role.
 
 ## Rule ledger
 - [[adv-001 Vehicles]]

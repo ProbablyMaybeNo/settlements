@@ -18,11 +18,11 @@ Structural check passed on every deployable: no Damage over the **+4 ceiling**, 
 
 | INT | Simple +1 | Standard 0 | Complex −1 | Intricate −2 |
 |:--:|:--:|:--:|:--:|:--:|
-| **+0** (Rabble) | 50% | 40% | 30% | 20% |
+| **+0** (Recruit) | 50% | 40% | 30% | 20% |
 | **+2** (Specialist) | 70% | 60% | 50% | 40% |
 | **+4** (Leader) | 90% | 80% | 70% | 60% |
 
-A Rabble fumbles a Sniper Turret ~70% of the time; a Specialist stands it up half the time and better with a Breach Kit. **This is the INT-restoration the whole note exists for** — it works.
+A Recruit fumbles a Sniper Turret ~70% of the time; a Specialist stands it up half the time and better with a Breach Kit. **This is the INT-restoration the whole note exists for** — it works.
 
 ## 3 · Turrets price out — except Burst, now fixed
 Expected **wounds/round** (open cover, unarmoured), against the Assault-Rifle body baseline (21 pts → 0.42 w/rd → **0.0200 w/rd/pt**):

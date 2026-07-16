@@ -18,8 +18,8 @@ Investment does double duty: raising a stat both opens deeper skills *and* pays 
 
 | Rank | Stat points | → Skills | Start cap |
 |---|:---:|:---:|:---:|
-| **Rabble** | **0** | **0** | — |
-| **Recruit** | 2 | 1 | +2 |
+| **Recruit** | **0** | **0** | — |
+| **Fighter** | 2 | 1 | +2 |
 | **Specialist** | 4 | 2 | +4 |
 | **Leader** | 6 | 3 | +4 |
 

@@ -64,7 +64,7 @@ Each activation is **one Move slot + one Action slot**.
 - **Charge** (both slots): move up to **2× MOV"** into base contact, then a **free melee attack** at the charge bonus. See [[Melee]].
 
 #### Orders
-- **Rabble and Recruits have none · Specialists have 1 · Leaders have 2.**
+- **Recruits and Fighters have none · Specialists have 1 · Leaders have 2.**
 - An Order grants a **free Action or Reaction** to the issuing unit or another friendly unit.
 - Orders can't chain (an ordered action can't itself be an Order).
 - **Orders are issued only during the issuing unit's own activation.** *(Locked 2026-07-13.)*

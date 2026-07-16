@@ -72,8 +72,9 @@ For any "hold" objective:
 ### Scoring clock
 Points are scored in the **End Phase** (step after conditions resolve, [[Rules Engine#Turn / Round Structure]]), so a mid-round grab that is lost by End Phase scores nothing. **No scoring in Round 1** — the first round is the advance.
 
-### Concession & the wipe
-A crew reduced to **zero standing models**, or that has voluntarily **bottled** (all remaining models routed / BugOut), stops scoring immediately; the opponent plays on to bank objectives (a **Retrieve** or **Network** win can still be raced against the clock). If **both** crews break, the side **ahead on objectives** at that moment wins.
+### Concession, bottling & the wipe
+- **Wiped out.** A crew reduced to **zero standing models** (all Down / Out / BugOut) can no longer contest or score; the opponent **plays on to bank objectives** (a **Retrieve** or **Network** win can still be raced against the clock). If **both** crews are wiped in the same round, the side **ahead on objectives** at that moment wins.
+- **Bottling** ([[Morale#Bottling — voluntary concession]]) is a *choice*, and resolves by timing. **Rounds 1–3**, a crew can only quit by a **fighting withdrawal** off its own edge (which becomes a wipe once the board is clear, above) or by an **accepted surrender** (immediate opponent win). **Round 4+**, a declared bottle **ends the game at once as the opponent's win**, regardless of the objective score.
 
 ### The Twist (roll 1d6 at setup)
 | d6 | Twist |
