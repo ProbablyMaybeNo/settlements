@@ -16,7 +16,7 @@ tags: [settlements/rule, settlements/cat/core]
 - **Round:** Priority → alternating activations → End Phase.
 - **Priority:** both roll `1d10` (+1 if fewer surviving models). Winner chooses first or second. Ties re-roll.
 - **Activation:** **Move + Action** (or Sprint / Charge both slots). One attack per activation.
-- **Orders:** Recruit 0 · Specialist 1 · Leader 2.
+- **Orders:** Recruit / Fighter 0 · Specialist 1 · Leader 2.
 - **Ready:** Action or Order; max one token; persists across rounds until spent or cancelled (other Action, or hit by attack / hack / terrain).
 - **Reaction:** after an enemy ends a Move/Action in your **forward 180° + true LOS** — Snap Shot (no extra −2), Charge (MOV", no +1), Throw, interrupt Interact (a network hack — no LOS/Ready, see [[Hacking]]), or Trigger. Reaction attack ≠ next activation's attack.
 - **Catch-up (alpha):** underdog Priority +1 only.

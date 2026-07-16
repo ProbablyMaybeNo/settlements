@@ -112,7 +112,7 @@ Units buy up from the civilian baseline with **stat points**, spent only on the 
 
 > [!info] The rank price **is** the stat price
 > Buying a rank buys its stat points and its skills. That's why [[List Building]] never charges you separately for stats — it would be double-counting. Rank is a *bundle*.
-- Role labels (Fighter, Techie, Medic…) are **emergent** — a Fighter is a *rank*, not a role.
+- Role labels (Brawler, Techie, Medic…) are **emergent** — a role is what a unit is *good at*, never a rank.
 
 ## Rule ledger
 - [[adv-001 Vehicles]]
