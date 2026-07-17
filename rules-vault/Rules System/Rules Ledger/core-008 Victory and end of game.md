@@ -14,10 +14,9 @@ tags: [settlements/rule, settlements/cat/core]
 
 ## Text
 - Game length: **6 rounds** (~1.5 hrs), or ends immediately when a scenario objective completes.
-- Victory is **Resource-based**: the player with the most Resources at game end wins.
-- Resources come from **scenario-defined** sources — objectives, kills, extraction, and/or a high-risk **Glorious Deed** (name WIP).
-- All Resources bank into campaign progression — both players keep what they earned.
-- Tactical withdrawal / extraction remain valid strategies. Killing is not required to win.
+- Victory is **objective-based**: the battle is won on scenario **objectives, never on kills**. The crew ahead on objectives at game end wins.
+- **Resources are campaign earnings, not the win metric** — banked from **scenario-defined** sources (which may include holding objectives, kills, extraction, and/or a high-risk **Glorious Deed**, name WIP), *regardless of who won the battle*. Both players keep what they earned.
+- Tactical withdrawal / extraction remain valid strategies. Killing is never required to win — and is never itself a win.
 
 > [!info] Full scenario templates, VP tables, and bottling/end interactions land in [[Scenarios]].
 

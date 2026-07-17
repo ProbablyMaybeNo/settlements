@@ -29,7 +29,7 @@ Reference notes: [[Weapons]] · [[Skill Paths]] · *(Terrain Features catalogue 
 - [x] **List Building + Weapons** (2026-07-13) — ranks 5/8/16/24 at a 100-pt budget; weapons built from class + characteristics. Sim-validated to an 11-point spread across 8 archetypes. → [[Crew Sim — Findings]]
 - [x] **Terrain density is a BAND (9–12 features), not a floor** — it swings win rate by 66 points, more than any cost. → [[Terrain#Setup procedure]]
 
-Secondary opens: Glorious Deed name ([[Core Game Format]] / [[Scenarios]]), List Building point values, catch-up rule ([[Initiative & Activation]]), Skill Paths 9+/11+ cleanup to flat 7+.
+Secondary opens: Glorious Deed name ([[Core Game Format]] / [[Scenarios]]), List Building point values, catch-up rule ([[Initiative & Activation]]). *(Skill Paths 9+/11+ → flat 7+ with modifiers: done.)*
 
 ## 3 · Critical path to a *playable* game
 
