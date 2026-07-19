@@ -39,7 +39,8 @@ Founding a settlement
 - Assigning roles 
 
 Managing your settlement:
-- structure repair 
+- structure Repair 
+- Structure Damage
 - Building structures 
 - Resources/currency/power/water
 - Upgrading structures 
