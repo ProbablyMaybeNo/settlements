@@ -30,7 +30,20 @@ _Not drafted yet._
 
 Overview - the settlement rules is a main mechanic of Settlements (shocker)
 
-The rules determine a 
+The rules determine a series of mechanics to define a system. The mechanics are:
+
+Founding a settlement 
+- starting structures 
+- Starting layout 
+- Hiring a crew
+- Assigning roles 
+
+Managing your settlement:
+- structure repair 
+- Building structures 
+- Resources/currency/power/water
+- Upgrading structures 
+
 ## Rule ledger
 _none_
 
