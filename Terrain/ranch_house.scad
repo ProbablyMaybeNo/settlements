@@ -25,8 +25,13 @@
 // Hardware: 1.6mm brass rod ~95mm; 2x 1.0mm wire ~70mm
 // ============================================================
 
+include <house_texture.scad>
+
 /* [Show] */
 show = "assembly";   // assembly | layout | body | roof
+// Texture/trim/damage roughly triples render time. Turn OFF while iterating
+// on geometry or mechanisms, ON for the final export.
+texture = true;
 open_garage = 0;     // [0:85]  preview only
 open_front  = 0;     // [0:100] preview only
 open_back   = 0;     // [0:100] preview only
@@ -178,18 +183,134 @@ module pin_holes(tx, ty) {
 }
 
 // ============================================================
-// EXTERIOR TRIM
+// FACE FRAME
+// Local frame inside on_face(f): u along +X, v along +Z, face plane at y=0,
+// material at +Y. Faces 1 and 2 are mirrored, so their u axis runs opposite
+// to the global axis - use fx()/fy() to convert a global span to local u.
 // ============================================================
-module win_trim_front(x, w) {
-    difference() {
-        translate([x - 2, -trim_t, ftop + win_sill - 2])
-            cube([w + 4, trim_t + 0.1, win_h + 4]);
-        translate([x, -trim_t - 1, ftop + win_sill])
-            cube([w, trim_t + 3, win_h]);
+module on_face(f) {
+    if      (f == 0) children();                                        // front
+    else if (f == 1) translate([house_w, house_d, 0]) rotate([0,0,180]) children();
+    else if (f == 2) translate([0, house_d, 0]) rotate([0,0,-90]) children();
+    else             translate([house_w, 0, 0]) rotate([0,0,90]) children();
+}
+function fx(gx, w) = house_w - gx - w;   // faces 1
+function fy(gy, w) = house_d - gy - w;   // face 2
+function face_w(f) = (f == 0 || f == 1) ? house_w : house_d;
+
+// inner faces, for the interior panelling
+module on_inner(f) {
+    if      (f == 0) translate([house_w, wall_t, 0]) rotate([0,0,180]) children();
+    else if (f == 1) translate([0, house_d - wall_t, 0]) children();
+    else if (f == 2) translate([wall_t, 0, 0]) rotate([0,0,90]) children();
+    else             translate([house_w - wall_t, house_d, 0]) rotate([0,0,-90]) children();
+}
+
+// ============================================================
+// BOARD AND BATTEN - raised battens, not cut grooves.
+// Adding material has zero overhang and does not thin a 3mm wall.
+// ============================================================
+batten_proud = 0.8;
+batten_w     = 1.6;
+
+module battens_on(w, h) {
+    n = floor(w / board_pitch);
+    for (i = [0 : n])
+        translate([i*board_pitch, -batten_proud, ftop])
+            cube([batten_w, batten_proud + ov, h]);
+}
+
+module exterior_battens() {
+    for (f = [0:3]) on_face(f) battens_on(face_w(f), wall_h);
+    // corner boards, so the batten rhythm resolves at every corner
+    for (c = [[0,0],[house_w - batten_w, 0],
+              [0, house_d - batten_w],[house_w - batten_w, house_d - batten_w]])
+        translate([c[0] - batten_proud, c[1] - batten_proud, ftop])
+            cube([batten_w + 2*batten_proud, batten_w + 2*batten_proud, wall_h]);
+}
+
+// ============================================================
+// TRIM - casings, sills, shutters. Added BEFORE openings are cut so the
+// casing gets a hole through it too.
+// ============================================================
+case_w = 2.2;
+proud  = 1.4;
+
+module all_trim() {
+    // front windows - full trim with sills and shutters
+    on_face(0) {
+        opening_trim(10, ftop+win_sill, 24, win_h, case_w, proud, true, true, shutter_w);
+        opening_trim(40, ftop+win_sill, 22, win_h, case_w, proud, true, true, shutter_w);
     }
-    for (sx = [x - 2 - shutter_w, x + w + 2])
-        translate([sx, -trim_t + 0.3, ftop + win_sill - 1])
-            cube([shutter_w, trim_t, win_h + 2]);
+    // left wall windows
+    on_face(2) {
+        opening_trim(fy(20,24), ftop+win_sill, 24, win_h, case_w, proud, true, true, shutter_w);
+        opening_trim(fy(78,24), ftop+win_sill, 24, win_h, case_w, proud, true, true, shutter_w);
+    }
+    // back wall window
+    on_face(1)
+        opening_trim(fx(14,28), ftop+win_sill, 28, win_h, case_w, proud, true, true, shutter_w);
+    // garage side window
+    on_face(3)
+        opening_trim(30, ftop+win_sill, 24, win_h, case_w, proud, true, false, shutter_w);
+    // doors - casing only, no sill
+    on_face(0)
+        opening_trim(gar_op_x0, ftop, gar_op_w, gar_op_h, case_w, proud, false, false, 0);
+    on_face(1)
+        opening_trim(fx(bd_x0, door_op_w), ftop, door_op_w, door_op_h,
+                     case_w, proud, false, false, 0);
+    // front door sits in the recessed alcove wall
+    translate([0, rec_depth, 0]) on_face(0)
+        opening_trim(fd_x0, ftop, door_op_w, door_op_h, case_w, proud, false, false, 0);
+}
+
+// ============================================================
+// INTERIOR - vertical board panelling cut into the inner wall faces
+// ============================================================
+module interior_boards() {
+    for (f = [0:3]) on_inner(f)
+        translate([0, 0, ftop]) face_cut("boards", face_w(f), wall_h, board_d);
+}
+
+// ============================================================
+// BATTLE DAMAGE - clustered around openings, where fire is drawn
+// ============================================================
+module damage() {
+    // [face, u, v, spread, count]
+    clusters = [
+        [0,  22, 58, 20, 5],
+        [0,  52, 46, 15, 4],
+        [0, 150, 48, 24, 5],
+        [2,  55, 62, 22, 4],
+        [1,  96, 52, 20, 4],
+        [3,  42, 55, 18, 3]
+    ];
+    for (ci = [0 : len(clusters) - 1]) {
+        cl = clusters[ci];
+        n  = cl[4];
+        ru = rands(-cl[3], cl[3], n, 42 + ci*7);
+        rv = rands(-cl[3]*0.65, cl[3]*0.65, n, 91 + ci*13);
+        on_face(cl[0])
+            for (i = [0 : n - 1]) crater(cl[1] + ru[i], cl[2] + rv[i]);
+    }
+    // a few clean through-and-throughs for light to show through
+    on_face(0) { through_hole(66, 64, wall_t); through_hole(158, 38, wall_t); }
+    on_face(2)   through_hole(72, 56, wall_t);
+    on_face(1)   through_hole(52, 60, wall_t);
+}
+
+// gable battens live on the roof piece, clipped to the gable silhouette
+module gable_battens() {
+    n = floor(house_d / board_pitch);
+    for (s = [0, 1]) {
+        xoff = (s == 0) ? -batten_proud : house_w - ov;
+        intersection() {
+            union() for (i = [0 : n])
+                translate([xoff, i*board_pitch + 2, -1])
+                    cube([batten_proud + ov, batten_w, roof_rise + 2]);
+            roof_prism(0, house_w + 2*roof_oh);
+        }
+    }
 }
 
 // ============================================================
@@ -213,13 +334,19 @@ module house_body() {
             // alcove return walls, else you see straight into the rooms
             alcove_returns();
             interior_walls();
-            win_trim_front(10, 24);
-            win_trim_front(40, 22);
             // roof registration pegs, standing on the wall tops
             for (p = peg_pos)
                 translate([p[0], p[1], wtop]) cylinder(d = peg_d, h = peg_h);
+            if (texture) {
+                exterior_battens();
+                all_trim();
+            }
         }
         openings();
+        if (texture) {
+            interior_boards();
+            damage();
+        }
     }
 }
 
@@ -273,10 +400,39 @@ module garage_door() {
 // ============================================================
 // ROOF - gable, ridge along X, lifts off. All in house coords.
 // ============================================================
+/* [Shingles] */
+// Shingle courses are built into the ROOF PROFILE as steps, not booleaned in.
+// This is nearly free (just more polygon points) and prints perfectly: each
+// course is a horizontal ledge plus a VERTICAL riser, and the whole staircase
+// still recedes inward as it rises, so nothing overhangs. Contrast the walls,
+// where texture had to be grooves cut into a vertical face.
+shingles      = true;
+shingle_n     = 20;    // courses per slope
+shingle_step  = 0.5;   // butt thickness (the visible riser)
+
+// Stepped polyline from (y0,z0) up to (y1,z1): for each course a sloped
+// shingle face then a vertical riser.
+function slope_steps(y0, z0, y1, z1, n, step) =
+    let (dy = (y1 - y0)/n,
+         dz = (z1 - z0 - (n-1)*step)/n)
+    [ for (i = [0 : n-1], k = [0, 1])
+        k == 0 ? [y0 + i*dy,     z0 + i*(dz + step)]
+               : [y0 + (i+1)*dy, z0 + i*(dz + step) + dz] ];
+
+front_slope = slope_steps(-roof_oh, fascia_h, house_d/2, roof_rise,
+                          shingle_n, shingle_step);
+
 // Profile is a PENTAGON, not a triangle: the two lower corners give the eaves
-// a vertical fascia board instead of a knife edge.
-roof_pts = [[-roof_oh, 0], [-roof_oh, fascia_h], [house_d/2, roof_rise],
-            [house_d + roof_oh, fascia_h], [house_d + roof_oh, 0]];
+// a vertical fascia board instead of a knife edge. With shingles on, the two
+// straight slopes are replaced by stepped polylines (back = front mirrored).
+roof_pts = shingles
+    ? concat([[-roof_oh, 0]],
+             front_slope,
+             [ for (i = [len(front_slope)-2 : -1 : 0])
+                   [house_d - front_slope[i][0], front_slope[i][1]] ],
+             [[house_d + roof_oh, 0]])
+    : [[-roof_oh, 0], [-roof_oh, fascia_h], [house_d/2, roof_rise],
+       [house_d + roof_oh, fascia_h], [house_d + roof_oh, 0]];
 
 slope_run  = house_d/2 + roof_oh;
 slope_ang  = atan((roof_rise - fascia_h) / slope_run);
@@ -319,6 +475,7 @@ module roof() {
                         translate([ledge_w, ledge_w])
                             square([house_w - 2*ledge_w, house_d - 2*ledge_w]);
                     }
+                if (texture) gable_battens();
             }
             // trim everything below z=0 so the underside is one flat plane
             translate([-roof_oh - 1, -roof_oh - 1, 0])
@@ -377,9 +534,12 @@ module plate2() { translate([roof_oh, roof_oh, 0]) roof(); }
 
 // Alternative single plate: body + roof together (248mm of the 256mm bed).
 // The doors then have to go on a separate plate.
+// Gap is 3mm, not 6: battens stand 0.8mm proud and window sills 2.2mm, so the
+// body now spans Y -2.2..120.2 rather than 0..118. At a 6mm gap this plate
+// measured 256.2mm and overran the 256mm bed by 0.2mm.
 module plate_bodyroof() {
     house_body();
-    translate([roof_oh, house_d + 6 + roof_oh, 0]) roof();
+    translate([roof_oh, house_d + 3 + roof_oh, 0]) roof();
 }
 
 module layout() { plate1(); }
