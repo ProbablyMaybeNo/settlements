@@ -87,9 +87,34 @@ superglue on the OUTER face only. Never glue inside the joint.
 ## Reference files in this folder
 - `spike_crusher.scad` — THE PATTERN for rotating hazards: A-frame stands (free-spin),
   spiked roller (free-spin), crank (press-fit) on a 1.6mm brass rod.
-- `prison_cell.scad` — THE PATTERN for hinged doors: knuckle hinges on a 1.0mm
-  paperclip. Known issues to fix before printing: knuckle alignment between door
-  and body needs a pass; non-manifold warnings from bar/rail tangents.
+- `prison_cell.scad` — knuckle hinges on a 1.0mm paperclip. BROKEN, do not copy:
+  the door carries one knuckle at its BOTTOM while the body carries two at top
+  and bottom, so they never interleave and no wire can thread all three.
+  Confirmed 2026-07-19. Use the pin hinge in `ranch_house.scad` instead.
+- `ranch_house.scad` — THE PATTERN for buildings: removable roof, interior
+  rooms, three working doors. Three reusable techniques:
+  * **Vertical PIN hinge** (front/back doors) — the door has a full-height tube
+    on its hinge edge; a 1.0mm wire goes up through the floor, through the tube
+    (friction bore), into a blind hole in the lintel. Preferred over knuckle
+    hinges at this scale: a knuckle small enough to fit ends up SMALLER than the
+    clearance notch it needs, leaving the frame barrel unattached — that is
+    exactly how prison_cell failed. A pin hinge is integral to the wall.
+  * **Tilt-up door** (garage) — hinge tube along the top edge on brass rod.
+    Watch the rotation axis: a tube built along X must rotate about X.
+  * **Removable roof** — pegs stand UP on the wall tops and engage sockets in a
+    flat bearing ledge inside the roof. Do NOT use a lip hanging down off the
+    roof: it forces the roof to print resting on a thin ring, and it collides
+    with any interior wall it isn't explicitly notched around.
+
+### Roof modelling notes (learned the hard way)
+- To hollow a gable, the inner cutter must be the outer profile **shifted
+  straight DOWN**, not `offset()` inward. `offset()` insets all three edges, so
+  the bottom never opens and you silently get a closed slab. Check by cutting a
+  thin section and viewing it as an ortho side elevation.
+- Print the roof **ridge up**, sitting on its ledge. At a 32° pitch the shell
+  tapers inward with ~91% layer overlap, so it is fully self-supporting.
+  Do not invert it (balances on the ridge) and do not lay a half on its slope
+  (the bearing ledge sits 7.5mm below the slope plane, so it rests on a line).
 
 ## Build queue (from the interactive-terrain master list gap analysis)
 Tier 1 — signature pieces (no commercial product exists):
