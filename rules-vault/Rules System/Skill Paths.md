@@ -7,23 +7,24 @@ tags: [settlements/reference]
 
 Skills are the **third lever**: stats decide *if* you hit, weapons decide *how bad*, **skills decide what else happens**. A skill is a **verb or a conditional exception** — a new option or situational effect, **not** a flat stat increase (those are the least interesting, so we avoid them — where a numeric edge is needed it's **conditional** (e.g. +1 to hit *in the open*) and kept **high-tier**).
 
-## How it works — one currency
-Everything runs off **stat points**, spent only on the five **path-stats** (STR, AGI, DEX, INT, NRV):
+## How it works — skills ride the stat line
+Every point-stat (STR, DEX, AGI, INT, NRV) is also a **skill path**. There's no separate skill pool — **a stat hands you a skill every time it reaches a tier.**
 
-- **Every +2 in a path-stat unlocks that path's next tier** — T1 at +2 · T2 at +4 · T3 at +6.
-- **Every 2 stat points spent = 1 skill point.**
-- Spend a skill point on any skill from a **tier you've unlocked**.
+- A path-stat at **+2 = Tier 1 · +4 = Tier 2 · +6 = Tier 3.** (**+1 is a dabble** — capable, no tier, no skill.)
+- **Each tier a stat reaches grants one skill from that stat's path, at that tier.** So a stat at **+4** grants its **T1 *and* T2** skill; at **+6**, its **T1 + T2 + T3**.
+- You **choose** the specific skill from that path at that tier — and may take a lower-tier skill from the same path if you prefer (the tier is a ceiling). It must match the stat's path: no Combat skill on your Intelligence.
+- Pick at **crew-build** as you set the stat line, and again in a **campaign** whenever an Advance tips a stat into a new tier ([[Progression]]).
 
-Investment does double duty: raising a stat both opens deeper skills *and* pays for them. **Specialise deep** (6 into STR → Combat T3 + 3 combat skills) or **spread wide** (2 into three stats → T1 in three paths).
+So the stat line *is* the skill loadout — **spread wide** (`STR+2 / INT+2` → one Combat + one Expertise skill, a melee-hacker) or **specialise deep** (`STR+4` → two Combat skills, a master). Same count, different shape. Rank sets how far you can push it:
 
-| Rank | Stat points | → Skills | Start cap |
-|---|:---:|:---:|:---:|
-| **Recruit** | **0** | **0** | — |
-| **Fighter** | 2 | 1 | +2 |
-| **Specialist** | 4 | 2 | +4 |
-| **Leader** | 6 | 3 | +4 |
+| Rank | Stat pts | Tier caps | Skills |
+|---|:---:|---|:---:|
+| **Recruit** | 3 | no tiers | **0** |
+| **Fighter** | 5 | 2× T1 | ~2 |
+| **Specialist** | 7 | 1× T2 · 2× T1 | ~3 |
+| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | ~4 |
 
-Campaign growth lifts the cap to **+6** (Tier 3). See [[Unit Design]] · [[Progression]].
+Only a **Leader** gets a **T3** stat (the +6 elite). Full rank rules in [[Unit Design#Ranks (build budget)]] · fielding in [[List Building]].
 
 ## The five paths
 Each path-stat has one path with three tiers. **WND and MOV have no path** — they're fixed (1 and 6"), raised only by a specific skill below. *Path names are WIP.*
@@ -37,7 +38,7 @@ Each path-stat has one path with three tiers. **WND and MOV have no path** — t
 | **NRV** | Bravery / Morale | rallying, resisting fear, reckless aggression |
 
 ## Complete skill catalogue
-Each skill costs **1 skill point**. There are no skill prerequisites: investment in the relevant stat unlocks the tier, and combinations emerge from the skills, equipment and terrain a fighter uses.
+Each skill fills **one tier-slot** off its stat's path — you don't pay for it separately; the stat reaching the tier *is* the payment. There are no skill prerequisites: reaching the tier unlocks its skills, and combinations emerge from the skills, equipment and terrain a fighter uses.
 
 > [!info] Design contract
 > - **Tier 1 — Good:** reliable options and narrow exceptions.

@@ -31,14 +31,14 @@ A crew is built to a **points budget** set by the scenario. **Standard = 100 poi
 ### The four ranks
 The rank price *is* the stat price — see [[Unit Design#Ranks (build budget)]].
 
-| Rank | Stat pts | Skills | Orders | Start cap | **Cost** |
-|---|:--:|:--:|:--:|:--:|:--:|
-| **Recruit** | 0 | 0 | 0 | — | **5** |
-| **Fighter** | 2 | 1 | 0 | +2 | **8** |
-| **Specialist** | 4 | 2 | 1 | +4 | **16** |
-| **Leader** | 6 | 3 | 2 | +4 | **24** |
+| Rank | Stat pts | Tier caps | Skills | Orders | **Cost** |
+|---|:--:|---|:--:|:--:|:--:|
+| **Recruit** | 3 | no tiers | 0 | 0 | **5** |
+| **Fighter** | 5 | 2× T1 | ~2 | 0 | **8** |
+| **Specialist** | 7 | 1× T2 · 2× T1 | ~3 | 1 | **16** |
+| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | ~4 | 2 | **24** |
 
-A **Specialist costs exactly two Fighters.** That is the central trade of the whole system.
+More points than a unit can spike into one stat, capped by tier so it *spreads* — full rules in [[Unit Design#Ranks (build budget)]]. Skills come off the stat line (one per tier a stat reaches). A **Specialist costs exactly two Fighters** — the central trade of the system. *(Costs are provisional; the richer stat lines run stronger — a re-cost pass is owed.)*
 
 ### The pyramid — the only structural rule
 > **Exactly one Leader. Every Specialist requires two fighters of lower rank. Every Recruit requires one Fighter or better. Minimum four fighters.**

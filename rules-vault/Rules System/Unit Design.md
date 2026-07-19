@@ -96,22 +96,31 @@ Two separate axes — don't conflate them:
 ### Ranks (build budget)
 Units buy up from the civilian baseline with **stat points**, spent only on the five path-stats.
 
-| Rank | Stat points | → Skills | Orders | Start cap | Cost |
-|---|:---:|:---:|:---:|:---:|:---:|
-| **Recruit** | **0** | **0** | 0 | — | 5 |
-| **Fighter** | 2 | 1 | 0 | +2 | 8 |
-| **Specialist** | 4 | 2 | 1 | +4 | 16 |
-| **Leader** | 6 | 3 | 2 | +4 | 24 |
+A rank grants **more stat points than a unit can spike into one stat** — **tier caps force the spread**, so a fighter is a real character, not a single +2 in a field of zeros.
 
-- **One currency:** every **+2** in a path-stat unlocks that path's next **tier** (T1/T2/T3 at +2/+4/+6), and every **2 stat points spent = 1 skill point** ([[Skill Paths]]). So skills = points ÷ 2.
-- **Recruits** are the bottom of the ladder: a body, nothing more. **Zero stat points, zero skills** — flat civilian baseline, 40% at everything, NRV 0. They exist so a *swarm* can actually be fielded; without them the cheapest model in the game is a Fighter with 2 stat points, and the mob you can picture cannot legally be built. They are chaff, screens and objective-sitters — **not** a melee force ([[List Building]]).
+| Rank | Stat pts | Tier caps (per stat line) | Skills* | Orders | Cost |
+|---|:---:|---|:---:|:---:|:---:|
+| **Recruit** | **3** | none — no tiered stats | **0** | 0 | 5 |
+| **Fighter** | **5** | up to **2× T1** | ~2 | 0 | 8 |
+| **Specialist** | **7** | **1× T2 · 2× T1** | ~3 | 1 | 16 |
+| **Leader** | **9** | **1× T3 · 2× T2 · 4× T1** | ~4 | 2 | 24 |
+
+<small>*Skills are derived from the stat line — see [[Skill Paths]].</small>
+
+- **Tiers:** a path-stat at **+2 = Tier 1**, **+4 = Tier 2**, **+6 = Tier 3**. **+1 is a "dabble"** — capable, but not a tier (no skill). Max stat **+6**.
+- **The tier caps are the ceiling** — they set how many stats a rank may push to each tier, so points *must* spread. A Fighter (5 pts, max 2× T1) builds e.g. `STR+2 / INT+2 / AGI+1` — a brawler who can also hack. Only a **Leader** ever gets a **T3** (a +6 elite stat) — its signature.
+- **Skills ride the stat line:** each stat grants **one skill at every tier it reaches**, from *that stat's* path. So a **+4** stat = its **T1 *and* T2** skill; a **+6** = T1 + T2 + T3 ([[Skill Paths]]). *(Replaces the old points ÷ 2 rule.)*
+- **Recruits** are the bottom of the ladder: a body, nothing more. **No tiered stat, so no skills** — 3 points of +1 dabbles over a flat civilian baseline. They exist so a *swarm* can be fielded; chaff, screens and objective-sitters — **not** a melee force ([[List Building]]).
 - **Rank is also a weapon gate** — a Recruit physically cannot hold a rifle ([[Weapons#Rank gates the class]]).
-- **Start caps** keep Tier 3 as something you *earn*; campaign growth lifts the cap to **+6** ([[Progression]]).
 - A **Leader is a fighter with Orders** — never benched. Rank rises only by deliberate **promotion** into an open slot ([[Progression]]), never automatically.
 - Fielding caps and costs live in [[List Building]].
 
 > [!info] The rank price **is** the stat price
 > Buying a rank buys its stat points and its skills. That's why [[List Building]] never charges you separately for stats — it would be double-counting. Rank is a *bundle*.
+
+> [!warning] Costs are provisional — a re-cost is owed
+> The **5 / 8 / 16 / 24** fielding costs are inherited from the old, thinner stat line. The [[Crew Sim — Findings|sim]] shows the richer lines run meaningfully stronger, so expect the ladder to move **up** after a re-cost pass. Locked to *play-test the structure*, not the final numbers.
+
 - Role labels (Brawler, Techie, Medic…) are **emergent** — a role is what a unit is *good at*, never a rank.
 
 ## Rule ledger
