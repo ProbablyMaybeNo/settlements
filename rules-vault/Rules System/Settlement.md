@@ -28,6 +28,9 @@ The Rules column should nail down:
 ## Working rules / decisions
 _Not drafted yet._
 
+Overview - the settlement rules is a main mechanic of Settlements (shocker)
+
+The rules determine a 
 ## Rule ledger
 _none_
 
