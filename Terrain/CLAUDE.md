@@ -26,6 +26,36 @@ Get-Content "$env:TEMP\o.err"
   the unbounded outer volume). 5 printable parts reports `Volumes: 6`.
   `Simple: yes` means manifold — this is the check that matters before export.
 
+### READ THE FULL STDERR. Never grep it down to Simple/Volumes.
+CGAL can fail an operation and **silently return the first operand**. A
+`difference()` then appears to do nothing, `Simple: yes` still prints, and the
+only clue is a line you filtered out:
+```
+ERROR: The given mesh is not closed! Unable to convert to CGAL_Nef_Polyhedron.
+```
+This cost six wasted renders on 2026-07-19. The trigger was a 2D pattern whose
+pieces met at **exact tangents** (brick perpends ending precisely where the next
+bed joint began), which extrudes to a non-closed mesh. Same root cause as the
+overlap rule above — overlap every intersecting piece by ~0.1mm.
+Cheap tell: an implausibly fast render plus a facet count equal to the bare
+uncut solid (a plain cube reports `Facets: 6`).
+
+### Surface texture cost (measured, 200x90 panel, OpenSCAD 2021.01)
+| approach | time | use |
+|---|---|---|
+| one 3D box per brick (~1400 booleans) | >86s, never finished | never |
+| 2D pattern, `linear_extrude`d once | 26.7s | brick / stone |
+| horizontal grooves only (~22 boxes) | 1.1s | siding, boards, panelling |
+Build patterns in 2D and extrude ONCE. See `house_texture.scad`.
+
+### Texture must suit the nozzle
+A groove narrower than the nozzle will smear or vanish. On a 0.4mm nozzle keep
+grooves **>= 0.8mm wide and >= 0.4mm deep**. Real brick at 1:56 is ~1mm courses,
+which is unprintable, so masonry must be exaggerated. Larger units (cut stone at
+11 x 5mm) carry wider joints and print far more reliably than brick.
+`texture_swatches.scad` prints all six finishes on one plate - print it and
+choose before texturing a whole building.
+
 ### Verify clearances geometrically, not by eye
 Perspective renders WILL lie to you about whether a swinging part fouls the
 base. Do not judge collisions from a 3/4 view. Instead intersect the moving part
