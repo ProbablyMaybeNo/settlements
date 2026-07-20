@@ -63,7 +63,14 @@ Managing your settlement:
 - Building structures - Players will have a list of structures which they can choose from to expand their settlements. Each structure should provide some sort of benefit either regarding list building, money/resoruce generation, in battle defenses, crew cap increase, we need to think of some way every building can provide a benefit...even if it's just adding a defensive wall in battles or whatever.
   
   *Need to draft obviously*
-- Resources/currency/power/water
+- Resources/currency/power/water - I'm thinking that players will use a set of resources to build and run their settlements.
+  
+  "Goods/stash" - Used as the games currency, hire crew, buy equipment, buy materials, etc.
+  
+  "Materials" - Used to build and repair structures, research and develop new equipment, crafting, etc.
+  
+  "Power/Water" - Not 100% sure about these but thinking of including them as necessary resources to power a settlement. Structures will require power to run 
+  
 - Upgrading structures 
 
 *we need to draft all of the above rules. I'm not sure how I feel about structural damage...it seems like it would make sense in a game primarily about settlements but it becomes an awful lot to track. Maybe instead of tracking all damage enemies or opponents sometimes have to "sabotage" or blow up buildings or struckers to win the game this requires entering the building, planting a bomb, detonating it, etc. Not simply firing a rocket at a wall. Then we make the structure damage and repair more simple...a damage structure doesn't provide it's benefit/can't be placed on a map until half it's initial cost is paid or whatever.
