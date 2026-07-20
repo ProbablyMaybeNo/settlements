@@ -48,20 +48,25 @@ Founding a settlement
 
 *need to draft the rules for these*
 
-- Hiring a crew - I’m toying with the idea that a players starting crew will be determined by the structures they choose for their settlement. Barracks or housing is needed to unlock more recruit slots but this might get too complicated. 
+- Hiring a crew - I’m toying with the idea that a players starting crew will be determined by the structures they choose for their settlement. Every player will start with the same basic structures allowing for say 10 crew members but if they want to hire more for their starting crew they can spend some of their initial cash on building another "crew cabin" or housing which unlocks more recruit slots. This could also be the case for hiring more specialists.
+  
+  *Obviously have to draft this up also.
 
 - Assigning roles - in addition to crews for battles players will also need to recruit people to work and live in their settlement and go out in scouting, scavenger, sabotage, etc, missions.
 
 *need to draft these rules*
 
 Managing your settlement:
-- structure Repair 
-- Structure Damage
-- Building structures 
+- structure Repair - see below
+- Structure Damage - see below
+  
+- Building structures - Players will have a list of structures which they can choose from to expand their settlements. Each structure should provide some sort of benefit either regarding list building, money/resoruce generation, in battle defenses, crew cap increase, we need to think of some way every building can provide a benefit...even if it's just adding a defensive wall in battles or whatever.
+  
+  *Need to draft obviously*
 - Resources/currency/power/water
 - Upgrading structures 
 
-*we need to draft all of the above rules. Aqa*
+*we need to draft all of the above rules. I'm not sure how I feel about structural damage...it seems like it would make sense in a game primarily about settlements but it becomes an awful lot to track. Maybe instead of tracking all damage enemies or opponents sometimes have to "sabotage" or blow up buildings or struckers to win the game this requires entering the building, planting a bomb, detonating it, etc. Not simply firing a rocket at a wall. Then we make the structure damage and repair more simple...a damage structure doesn't provide it's benefit/can't be placed on a map until half it's initial cost is paid or whatever.
 
 Settlements in battles
 - raids 
