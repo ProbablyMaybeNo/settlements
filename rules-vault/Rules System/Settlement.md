@@ -31,11 +31,17 @@ _Not drafted yet._
 Overview - the settlement rules is a main mechanic of Settlements (shocker)
 
 The rules determine a series of mechanics to define a core system of the game which will have an effect on every battle not just during campaigns. One of the main features of Settlements (the game)
-Is that every player will have a primary base of operations. This is their “main settlement”
-Every player has at least one settlement which they will develop over time. Wether playing in a campaign or exhibit matches a player will 
+Is that every player will have a primary base of operations. This is their “main settlement” which they will develop and grow over time. Each settlement will incorporate various mechanics that make up the settlement system. 
+
+These are the mechanics:
 
 Founding a settlement 
-- starting structures 
+- Choosing a location - we should create a list of starting locations where players can choose to build their main settlement. These locations should be based on actual structures found in and around a major city. We will need to discuss this more but ideally each player would choose a location type for example, hospital, police station, high school, movie theater, scrap yard, etc, and each location would provide the player with a different boost to their initial settlement, hospitals provide a free med-bay which makes healing units easier, police station provides free holding cells for capturing enemy fighters, scrap yard provides additional resources for each round, etc. 
+
+*we  need to lock these in but I’d like to include these in the game somehow* 
+
+- starting structures - each player begins with the same set of basic starting structures. They also get some additional structures spending on their chosen location. 
+
 - Starting layout 
 - Hiring a crew
 - Assigning roles 
