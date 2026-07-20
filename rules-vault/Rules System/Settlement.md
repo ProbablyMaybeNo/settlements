@@ -31,7 +31,7 @@ _Not drafted yet._
 Overview - the settlement rules is a main mechanic of Settlements (shocker)
 
 The rules determine a series of mechanics to define a core system of the game which will have an effect on every battle not just during campaigns. One of the main features of Settlements (the game)
-Is that every player will have a primary base of operations. This is their “main settlement” which they will develop and grow over time. Even if players are not playing a campaign they will still track the progress and persistent changes to their rosters and settlementsEach settlement will incorporate various mechanics that make up the settlement system.
+Is that every player will have a primary base of operations. This is their “main settlement” which they will develop and grow over time. Even if players are not playing a campaign they will still track the progress and persistent changes to their rosters and settlements using some of the mechanics below. This way players will develop their own personal narratives which they will carry from game to game and it will change over time. In order to keep battles balanced the idea would be that players choose a points limit and then build their crews from their available rosters, equipment, etc. Each settlement will incorporate various mechanics that make up the settlement system.
 
 These are the core settlement mechanics. 
 
@@ -44,7 +44,7 @@ Founding a settlement
 
 *we will need to lock this in together*
 
-- Starting layout - When players are starting the game they begin by building their settlement using an app we will create they are given a 12x36 area where they will build their settlement by placing their structures in their area. This layout will be used for some of the battle types, mostly raids. 
+- Starting layout - When players are starting the game they begin by building their settlement using an app we will create or with a paper and pencil/grid found in the rule book. They are given a 12x36 area where they will build their settlement by placing their structures in their area. This layout will be used for some of the battle types, mostly raids. 
 
 *need to draft the rules for these*
 

@@ -46,6 +46,11 @@ Having a lower percentage chance to hit is fine due to the units being civilians
 --------------------
 
 Def want to include a mechanic that would allow for "civilian" NPCs on the board during battles. Maybe as an interactable element like a terminal that players can interact with to do something beneficial or buy items off of, molotov cocktail, health kit, etc. 
+
+----
+SETTLEMENTS - As I'm working on the settlements section so many ideas are coming to my mind.
+
+1. I def want to set up the settlements system so that players can progress, track, and persist their rosters a
 ## 🔧 Promote to a rule
 Ideas ready to become real. Tick when you've moved them into a phase note (or a new note via the `Rule Phase` template).
 - [ ] 
