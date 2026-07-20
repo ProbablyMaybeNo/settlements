@@ -25,6 +25,8 @@ A **66-point swing** from terrain alone. No points value could move a matchup th
 ## 2 · The final balance table
 Eight archetypes, every list legal at ≤100 points under the [[List Building]] pyramid, 3,000 battles per pairing.
 
+> [!note] **Doctrines were pulled from the battle ruleset** (they're a campaign / list-building mechanic). The rows tagged *Firebase / Storm / Cadre / Mob* below are the crew **archetypes** the sim ran — the doctrine **discounts** some leaned on (especially **Storm**'s free melee classes → armour budget) are no longer in the rules, so read those rows as archival. See the melee-elite note in §5.
+
 **On a legal board (42% blocked) — spread 11 points:**
 
 | List | Models | Pts | Win rate |
@@ -63,7 +65,7 @@ No new rule is needed for a 4-model crew facing a 14-model one. The elite crew c
 ## 5 · What the weapon system taught us
 - **A drawback must bite no matter how you play.** Caught twice: **Slow on a rifle** is free points (a rifleman never Charges) and **Awkward on a sniper** is free points (he never moves — and it *synergises* with Accurate). Slow is now melee-only; **Awkward is cut**.
 - **Range is a threshold, not a curve.** Deployment zones are 24" apart, so a 24" weapon fires from its own deployment zone on turn one. Uncapped, a long-range crew beat every list by 13–30 points *at any price*. **Hard cap: 24".**
-- **Melee elites cannot exist without the Storm doctrine.** A 4-model melee crew wins about **10%** — four fighters with axes cannot cross 24" of street. With Storm (free melee classes → an armour budget) it lands at **51%**.
+- **Melee elites cannot exist without the Storm doctrine.** A 4-model melee crew wins about **10%** — four fighters with axes cannot cross 24" of street. With Storm (free melee classes → an armour budget) it lands at **51%**. *(Storm is now removed with the Doctrine layer — so melee-elite viability is a live balance question for the table, or for a campaign that reintroduces the discount.)*
 - **A Fighter has one real build: STR.** Win rates sparse/mid/dense — STR+2: **14/35/63** · NRV+2: **10/21/40** · DEX+2: **5/16/36**. A swarm cannot buy composure or guns; it can only buy muscle and get there.
 - **The rank ladder holds.** The 9-Fighter horde, the 11-model pyramid and the 14-model Recruit horde land within **three points of each other** at every density. Recruit-at-5 and Fighter-at-8 are priced correctly against one another.
 

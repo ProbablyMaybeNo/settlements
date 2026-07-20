@@ -197,7 +197,7 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [x] The pyramid: 1 Leader · 2 lower-rank per Specialist · 1 Fighter per Recruit · min 4. **No unit cap.**
 - [x] Exact costing: ranks **5 / 8 / 16 / 24**, budget **100**. Stats & skills are FREE (rank is the bundle).
 - [x] **Recruit** rank added — the 0-stat body that makes a swarm legally fieldable.
-- [x] **Doctrine** layer — 8 archetypes, each one bend + one cost.
+- [ ] **Doctrine** layer (crew identity, 8 archetypes) — **pulled to the campaign layer.** It's a list-building / campaign mechanic, not a first-battle rule; revisit when the campaign phase is built.
 - [x] Campaign roster: **+2 pts per Advance, −2 per scar** (veterans crowd out rookies = anti-snowball).
 - [x] Anti-hero ⅓ cap **cut** — redundant at WND 1.
 - [x] Validated: **11-point spread across 8 archetypes** on a legal board → [[Crew Sim — Findings]].

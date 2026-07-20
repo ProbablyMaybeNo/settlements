@@ -32,8 +32,7 @@ Overview - the settlement rules is a main mechanic of Settlements (shocker)
 
 The rules determine a series of mechanics to define a system. 
 
-Every player has at least one settoement r
-that they develop
+Every player has at least one settlement which they will develop over time. Wether playing in a campaign or exhibit matches a player will 
 
 Founding a settlement 
 - starting structures 

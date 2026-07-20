@@ -43,7 +43,7 @@ More points than a unit can spike into one stat, capped by tier so it *spreads* 
 ### The pyramid — the only structural rule
 > **Exactly one Leader. Every Specialist requires two fighters of lower rank. Every Recruit requires one Fighter or better. Minimum four fighters.**
 
-**There is no unit cap.** The pyramid and the budget do it: at 100 points the legal maximum is **11 fighters** (Leader + 5 Fighters + 5 Recruits, with about 11 points of gear between them — a mob with bats). Bigger hordes exist only through a [[#Doctrine|Doctrine]].
+**There is no unit cap.** The pyramid and the budget do it: at 100 points the legal maximum is **11 fighters** (Leader + 5 Fighters + 5 Recruits, with about 11 points of gear between them — a mob with bats).
 
 The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed at 1 ([[Damage]]), so a 40-point Leader in plate dies to one lucky pistol shot from a Recruit with a knife. The engine already forbids heroes.
 
@@ -68,27 +68,6 @@ The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed
 | Deployable | Turret · mine · trap · beacon — full costed catalogue in [[Deployables]] | **4–14** |
 | Exploit Suite | **+2 to the hack test** ([[Hacking]]) | **8** |
 
-## Doctrine
-> **You may take one Doctrine, or none. A crew with no Doctrine is a Standard crew — no bend, no cost, and it is genuinely fine.**
-
-A Doctrine is always a **trade**, never a bonus: it bends one list rule in your favour and charges you elsewhere. It is how a crew gets an identity beyond its size.
-
-| Doctrine | Bend | Cost |
-|---|---|---|
-| **The Mob** | Recruits no longer require a Fighter. | Max **one** Specialist. No fighter but the Leader may carry a weapon costing more than 5. |
-| **The Cadre** | Each Specialist requires only **one** fighter of lower rank. Minimum crew drops to 3. | Fighters cost **10**. |
-| **Firebase** | Ranged weapon **classes** cost −3. | Your fighters **may not Charge**. |
-| **Storm** | Melee weapon **classes** are free *(characteristics still cost)*. | **No Standard or Heavy Ranged** weapons. |
-| **Ghosts** | A third of the crew (round down) deploys **Hidden**, outside the enemy deployment zone and more than 12" from any enemy. | No Heavy armour. No Standard or Heavy Ranged. |
-| **Signal** | Breach Kits free; Exploit Suites cost 4. One friendly hacker gets **+2 to a single hack test each turn**. | Every Specialist must have **INT +2** or better. |
-| **Wire & Sandbag** | Place **two Deployed pieces** (barricade, trap, or terminal) after terrain setup ([[Terrain]]). | Every weapon costs **+2**. |
-| **Diehards** | Ignore the **first Stress** each round from a friendly going Down or Out. | Armour costs **double**. |
-
-> [!warning] The Mob's "bunching" rule was **cut**
-> An earlier draft gave The Mob immunity to Stress from friendly casualties while bunched. The crew sim killed it: it took a 14-model horde to **93–96% win rate at every terrain density**. The Stress cascade is the *only* thing keeping a swarm honest. See [[Crew Sim — Findings]].
-
-**Storm is load-bearing.** The sim shows a melee-elite crew is unplayable without it — about **10%** win rate, because four fighters with axes cannot cross 24" of street under rifle fire. With Storm, the free weapon classes convert into an **armour** budget and the list lands at **51%**. If you cut only one Doctrine, don't cut this one.
-
 ## Campaign rosters
 You keep a persistent **roster** and field a **crew** to the scenario's budget each battle.
 
@@ -102,7 +81,7 @@ Full detail in **[[Crew Sim — Findings]]**. Eight archetypes, all built to 100
 | Board | Spread across all 8 lists |
 |---|---|
 | Sparse (illegal — under 9 features) | 35 points — **shooters dominate** |
-| **Legal (9–12 features)** | **11 points** — Firebase 54% → Mob 43% |
+| **Legal (9–12 features)** | **11 points** — tightest spread |
 | Crowded (illegal — over 12) | 34 points — **swarms dominate** |
 
 **The system is balanced on a legal board, and only on a legal board.** That is not a flaw — it is the [[Game Vision|first tenet]] operating as a mechanic. The battlefield decides, and [[Terrain#Setup procedure|terrain density]] is the most powerful dial in the game.
@@ -110,7 +89,6 @@ Full detail in **[[Crew Sim — Findings]]**. Eight archetypes, all built to 100
 ## Open dials
 - [x] Rank names locked: **Recruit** (5) / **Fighter** (8) / **Specialist** (16) / **Leader** (24) — replaces the old Rabble/Recruit working titles.
 - [ ] Budget 100 and the 5/8/16/24 ladder — validated in sim, not yet at a table.
-- [ ] Doctrine list — the alpha needs only **The Mob · The Cadre · Firebase · Storm**.
 - [ ] NRV is close to a dead stat at Fighter level; it earns its keep only through Bravery *skills*.
 
 ## Rule ledger
