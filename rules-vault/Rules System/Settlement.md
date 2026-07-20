@@ -45,6 +45,9 @@ Managing your settlement:
 - Resources/currency/power/water
 - Upgrading structures 
 
+Settlements in battles
+- 
+
 ## Rule ledger
 _none_
 
