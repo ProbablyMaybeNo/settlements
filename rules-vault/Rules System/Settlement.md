@@ -69,13 +69,22 @@ Managing your settlement:
   
   "Materials" - Used to build and repair structures, research and develop new equipment, crafting, etc.
   
-  "Power/Water" - Not 100% sure about these but thinking of including them as necessary resources to power a settlement. Structures will require power to run 
+  "Power" - Used to power structures inside of settlements. Various structures will need to be powered in order to provide their benefit players will build generators to provide that power.
+  
+  Goods and materials will be gained from winning battles, raiding opponents, setting up trade routes, supply lines, and by scavenging. 
+  
+  Power will be gained by building generators.
+  
+  *Need to draft all these rules but need to figure out pre-cursor rules first*
   
 - Upgrading structures 
 
 *we need to draft all of the above rules. I'm not sure how I feel about structural damage...it seems like it would make sense in a game primarily about settlements but it becomes an awful lot to track. Maybe instead of tracking all damage enemies or opponents sometimes have to "sabotage" or blow up buildings or struckers to win the game this requires entering the building, planting a bomb, detonating it, etc. Not simply firing a rocket at a wall. Then we make the structure damage and repair more simple...a damage structure doesn't provide it's benefit/can't be placed on a map until half it's initial cost is paid or whatever.
 
 Settlements in battles
+
+*We need to draft rules for how exactly settlements will be used in battles. It kind of breaks the realism if we have both players fighting each other using their settlement layouts because they wouldn't be right next to each other so maybe we think of a way to make it fit narratively. Maybe the players are fighting for control of a territory or supply line and have set up encampments or frontline fortifications which will use structures that they own to set up the board. Like maybe the main settlement isn't usually used for battles unless someone has been fought back to their base and are being raided by an opponent who slipped through their forward encampments but each player will have a list of defensive structures that they can use to build encampments which will become the boards that battle are fought on for specific game types, territory capture, supply line set up, etc. Then there would be other game types that didn't require players to set up the board instead they would use the instructions from the scenario depending on what they wanted to do..."scavenge" battles would take place in random locations using themed terrain to re-create a hospital, military base, underground subway, etc.*
+
 - raids 
 - Settlement map/board set up
 - Settlement defensive features 
