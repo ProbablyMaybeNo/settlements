@@ -31,20 +31,28 @@ _Not drafted yet._
 Overview - the settlement rules is a main mechanic of Settlements (shocker)
 
 The rules determine a series of mechanics to define a core system of the game which will have an effect on every battle not just during campaigns. One of the main features of Settlements (the game)
-Is that every player will have a primary base of operations. This is their “main settlement” which they will develop and grow over time. Each settlement will incorporate various mechanics that make up the settlement system. 
+Is that every player will have a primary base of operations. This is their “main settlement” which they will develop and grow over time. Each settlement will incorporate various mechanics that make up the settlement system.
 
-These are the mechanics:
+These are the core settlement mechanics. 
 
 Founding a settlement 
 - Choosing a location - we should create a list of starting locations where players can choose to build their main settlement. These locations should be based on actual structures found in and around a major city. We will need to discuss this more but ideally each player would choose a location type for example, hospital, police station, high school, movie theater, scrap yard, etc, and each location would provide the player with a different boost to their initial settlement, hospitals provide a free med-bay which makes healing units easier, police station provides free holding cells for capturing enemy fighters, scrap yard provides additional resources for each round, etc. 
 
 *we  need to lock these in but I’d like to include these in the game somehow* 
 
-- starting structures - each player begins with the same set of basic starting structures. They also get some additional structures spending on their chosen location. 
+- starting structures - each player begins with the same set of basic starting structures. They also get some additional structures depending on their chosen location. Finally each player will start with a certain amount of credits to spend on building additional structures.
 
-- Starting layout 
-- Hiring a crew
-- Assigning roles 
+*we will need to lock this in together*
+
+- Starting layout - When players are starting the game they begin by building their settlement using an app we will create they are given a 12x36 area where they will build their settlement by placing their structures in their area. This layout will be used for some of the battle types, mostly raids. 
+
+*need to draft the rules for these*
+
+- Hiring a crew - I’m toying with the idea that a players starting crew will be determined by the structures they choose for their settlement. Barracks or housing is needed to unlock more recruit slots but this might get too complicated. 
+
+- Assigning roles - in addition to crews for battles players will also need to recruit people to work and live in their settlement and go out in scouting, scavenger, sabotage, etc, missions.
+
+*need to draft these rules*
 
 Managing your settlement:
 - structure Repair 
@@ -52,7 +60,8 @@ Managing your settlement:
 - Building structures 
 - Resources/currency/power/water
 - Upgrading structures 
-- Settlement map
+
+*we need to draft all of the above rules. Aqa*
 
 Settlements in battles
 - raids 
