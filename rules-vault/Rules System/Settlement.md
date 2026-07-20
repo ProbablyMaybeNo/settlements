@@ -85,9 +85,6 @@ Settlements in battles
 
 *We need to draft rules for how exactly settlements will be used in battles. It kind of breaks the realism if we have both players fighting each other using their settlement layouts because they wouldn't be right next to each other so maybe we think of a way to make it fit narratively. Maybe the players are fighting for control of a territory or supply line and have set up encampments or frontline fortifications which will use structures that they own to set up the board. Like maybe the main settlement isn't usually used for battles unless someone has been fought back to their base and are being raided by an opponent who slipped through their forward encampments but each player will have a list of defensive structures that they can use to build encampments which will become the boards that battle are fought on for specific game types, territory capture, supply line set up, etc. Then there would be other game types that didn't require players to set up the board instead they would use the instructions from the scenario depending on what they wanted to do..."scavenge" battles would take place in random locations using themed terrain to re-create a hospital, military base, underground subway, etc.*
 
-- raids 
-- Settlement map/board set up
-- Settlement defensive features 
 
 
 ## Rule ledger
