@@ -25,7 +25,9 @@ The Rules column should nail down:
 - Any campaign-chapter hooks that drive a multi-battle narrative forward.
 
 ## Working rules / decisions
-_Not drafted yet._
+
+
+The year is 2
 
 ## Rule ledger
 _none_
