@@ -27,7 +27,9 @@ The Rules column should nail down:
 ## Working rules / decisions
 
 
-The year is 2050, 
+2050 - Planet Earth - Post - Invasion conflict - A New Dawn
+
+The year is 2050, in the aftermath of an alien invasion that reduced the majority of the planet to rubble Earth's surviving citizens battle for control. With the absence of unified governments, political parties, militaries, or even police forces law and order ja
 
 ## Rule ledger
 _none_
