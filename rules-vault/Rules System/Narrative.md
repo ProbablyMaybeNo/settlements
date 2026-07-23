@@ -29,8 +29,9 @@ The Rules column should nail down:
 
 2050 - Planet Earth - Post - Invasion conflict - A New Dawn
 
-The year is 2050, in the aftermath of an alien invasion that reduced the majority of the planet to rubble Earth's surviving citizens battle for control. With the absence of unified governments, political parties, militaries, or even police forces law and order ja
+The year is 2050, in the aftermath of a global alien invasion the majority of planet Earth has been reduced to rubble. 
 
+For nearly a decade the citizens of Earth were forced to fight for their survival against a race of intergalactic locusts who spread across the planet devouring all living matter. 
 ## Rule ledger
 _none_
 
