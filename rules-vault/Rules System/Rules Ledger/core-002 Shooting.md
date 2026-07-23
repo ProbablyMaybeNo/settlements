@@ -20,6 +20,8 @@ tags: [settlements/rule, settlements/cat/core]
 
 **Modifiers:** Cover Light −1 · Heavy −2 · Hidden −3. Outside arc / no LOS / out of range = illegal. Weapons rarely add to hit ([[Weapons]]).
 
+**Target may react:** a **Ready** target may **Dodge** — opposed `1d10 + AGI` vs the shooter's `1d10 + DEX` *replaces* this to-hit (win = miss + dive out of LOS, then Pinned); see [[core-005 Activation order]].
+
 **Engaged:** most ranged cannot fire. **Sidearm** may fire at the Engaged enemy only (still needs facing).
 
 **Facing** does not affect melee.

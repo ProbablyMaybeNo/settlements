@@ -53,7 +53,7 @@ The Rules column should nail down:
 ### Reaction triggers
 A Ready unit may react **once** (spend the token) **after** an enemy finishes a Move or Action, if all are true:
 1. The enemy (or the relevant terrain trigger) is in the reactor's **forward 180°** and **true LOS** ([[Rules Engine#House Conventions]]).
-2. The trigger is one of: ended Move in that arc · finished a Shoot · finished an Interact (open door, etc.) · finished / resolved a Charge · sprung a visible trap / Triggerable feature the reactor can see.
+2. The trigger is one of: ended a **Move greater than half its MOV"** in that arc (a short shuffle of ≤ half MOV doesn't draw fire) · finished a Shoot · finished an Interact (open door, etc.) · finished / resolved a Charge · sprung a visible trap / Triggerable feature the reactor can see.
 
 No mid-move interrupts — wait until the Move or Action resolves.
 
@@ -62,11 +62,12 @@ Resolve immediately, interrupting the enemy's next steps if any remain. A Reacti
 
 | Option | Effect |
 |---|---|
-| **Snap Shot** | Make a normal ranged attack at the triggering enemy (**no** extra −2). Must be in range + forward LOS. Any legal ranged weapon (Sidearm rules still apply if Engaged). |
+| **Snap Shot** | Make a normal ranged attack at the triggering enemy (**no** extra −2). Must be in range + forward LOS. Any legal ranged weapon (Sidearm rules still apply if Engaged). **This is your "return fire":** when an enemy Shoots, a Ready model may Snap Shot back — but it resolves *after* the enemy's shot, so if that shot Downs it first, it can't reply (that's the shooter's first-mover incentive). |
 | **Charge** | Move up to **MOV"** into Engagement with the triggerer (not 2×). Free melee with **no** Charge +1. Needs forward LOS when declared. *Playtest whether full-strength Charge feels better.* |
 | **Throw** | Resolve a normal thrown-weapon / thrown-object attack (no extra −2). |
 | **Interact / Operate** | Open/close a door, Lift-block / clear a Block, hit a button/lever, **operate an Infrastructure feature you can reach** — by hand in base contact, or by hacking a terminal within range — or **Interrupt** an enemy hack ([[Infrastructure#3 · As a Reaction]] / [[Hacking#Interrupt — contesting a hack]]). Still **no** Search, Repair, or Stabilize as a Reaction. |
 | **Trigger** | Only your own traps with the **Remote Detonation** tag (set by the placer, or by a Hacker). Not every trap is remote. |
+| **Dodge** | When **targeted by a ranged attack** (from **any angle** — no facing needed, so this is your answer to flank/rear shots), make an opposed roll: **`1d10 + AGI`** vs the shooter's **`1d10 + DEX`** (ties to you). This *replaces* the shot's to-hit; **cover doesn't apply** (you traded cover for evasion). **Win →** the shot misses; move up to **full MOV"** in any direction, **ending out of the shooter's LOS** (or max toward breaking it if impossible); this scramble draws **no** reactions; then you gain **Pinned**. **Lose →** the shot hits — resolve the Injury roll as normal. |
 
 #### Orders received
 Each unit may **receive only one Order** per round. So max Ready opportunities in a round = own Action Ready + one Order Ready.
@@ -82,6 +83,15 @@ Alpha ships with **underdog +1 Priority only**. No free-hold surge rule unless p
 > [!success] Uneven crew sizes — **Ready is the answer** (validated 2026-07-13)
 > [[List Building]] lets crews run from 4 to 14 models, so a small crew runs out of activations first and the big crew dumps its tail unopposed. **No new rule is needed.** The elite crew converts its last activations into **Ready** and snap-shoots the tail as it moves — 4 models = 4 banked reactions, so every fighter effectively shoots twice.
 > The **underdog +1 Priority** likewise stays exactly as written. It is not an exploit for small crews — it is their **compensation**: [[Crew Sim — Findings|the crew sim]] shows swarms out-produce elites on raw output, because WND is fixed at 1 and the Injury roll ignores stats, so quality has a hard ceiling that numbers don't. Fewer models *should* go first.
+
+### BLKOUT import — status (drafted 2026-07-23)
+> [!note] From the BLKOUT read-through (Settlements repo → `docs/BLKOUT-RULES-ANALYSIS.md` §19). Now **drafted into the live rules above** — playtest before graduating further (see [[propagate-rule-changes]]).
+> - **Return Fire — cut.** Sequential "shoot back at a shooter" already **is** Snap Shot (above): it resolves *after* the enemy's shot, so a shooter can Down its target before it replies — the attacker keeps a first-mover incentive to shoot. Simultaneous resolution was rejected as too swingy / anti-shooter.
+> - **Dodge — added** (reaction, above): opposed **AGI vs DEX** active evasion. A deliberate, resourced exception to *"you can't dodge a bullet"* ([[Rules Engine]]) — it costs your Ready, can be lost, and ends you **Pinned**.
+> - **Distance-gated Snap Shot — added** (trigger #2): only a Move **> half MOV"** ending in an enemy's LOS draws a reaction; a short shuffle (≤ half MOV) is safe.
+> - **Orders** already limited to Specialist 1 / Leader 2 — no change needed.
+>
+> **Playtest dials:** is the full-move-out-of-LOS escape too strong? should the shooter's aim traits (Accurate / range) modify their side of the Dodge roll? keep Dodge-ends-Pinned? Reactions still don't cost the reactor's own activation — watch for overwatch stacking when many units are Ready.
 
 ## Rule ledger
 - [[core-005 Activation order]]

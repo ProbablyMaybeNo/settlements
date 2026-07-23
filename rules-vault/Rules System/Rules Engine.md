@@ -136,7 +136,7 @@ Some situations use opposed rolls instead.
 Highest total wins.
 
 - Ties are won by the defender.
-- **Melee attacks are opposed** (STR vs STR/AGI) — see [[Melee]]. Ranged attacks use the fixed 7+ target instead, because you can't dodge a bullet — cover is your defence.
+- **Melee attacks are opposed** (STR vs STR/AGI) — see [[Melee]]. Ranged attacks use the fixed 7+ target instead: you can't *passively* dodge a bullet — **cover is your standing defence**. The one exception is the **Dodge** reaction ([[Initiative & Activation#Reaction options]]) — spend your reaction to actively dive clear of a *single* shot (opposed **AGI vs DEX**), ending **Pinned**.
 
 ---
 

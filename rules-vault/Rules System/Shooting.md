@@ -44,6 +44,8 @@ Worked cover × armour matrix already lives with the rule → [[core-000 Core Te
 
 You may set facing for free as part of a Move (including a facing-only Move — [[Movement]]). Declaring Shoot does **not** itself rotate you — turn first if the target is outside your arc.
 
+> [!info] The target can react. A **Ready** enemy you Shoot may **Dodge** — an opposed **AGI vs DEX** roll that, if it wins, negates the shot and lets it dive out of LOS (then Pinned). A Ready enemy in its own forward arc may **Snap Shot** back *after* your shot resolves. See [[Initiative & Activation#Reaction options]].
+
 ### Modifiers
 - Cover: **Light −1 · Heavy −2 · Hidden −3** (see [[Terrain]]).
 - Out of range or outside forward arc / no LOS: cannot target.

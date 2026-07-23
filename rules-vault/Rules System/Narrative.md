@@ -27,7 +27,7 @@ The Rules column should nail down:
 ## Working rules / decisions
 
 
-The year is 2
+The year is 2050, 
 
 ## Rule ledger
 _none_

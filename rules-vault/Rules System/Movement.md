@@ -38,6 +38,8 @@ The **Move** slot moves up to **MOV"** (baseline 6"), any direction, around obst
 
 **Facing:** when you Move (including Charge / Sprint / Disengage), place the model facing its final direction as part of that move. You may also spend the **Move** slot to **change facing only** — no displacement — to aim your 180° arc ([[Rules Engine#House Conventions]]). Facing does not affect melee.
 
+> [!info] **Movement draws fire.** A Move that covers **more than half your MOV"** and ends in an enemy's LOS can be **reacted to** (Snap Shot, etc. — [[Initiative & Activation#Reaction triggers]]). A short shuffle (**≤ half MOV"**) does not trigger — creep to reposition safely, Sprint to cross ground fast at the risk of reaction fire.
+
 ### Sprint & Charge
 - **Sprint** (both slots): move up to **2× MOV"** — nothing else — no Shoot, no Ready. You may set facing at the end.
 - **Charge** (both slots): move **MOV x2** into base contact, then a free melee attack at **+1** (see [[Melee]]). Declaring a Charge needs the target in your forward 180° + true LOS; once Engaged, facing no longer matters.
