@@ -75,7 +75,7 @@ Each activation is **one Move slot + one Action slot**.
 
 #### Reactions
 - Full Ready / Reaction rules live in [[Initiative & Activation]].
-- Summary: Ready via Action or Order → react once when an enemy ends a Move/Action in your forward LOS → Snap Shot, Charge, Throw, Interact, or Trigger.
+- Summary: Ready via Action or Order → react once when an enemy ends a Move/Action in your forward LOS → Snap Shot, Dodge, Charge, Throw, Interact, or Trigger.
 ---
 
 ### Universal Resolution Mechanic
@@ -120,7 +120,7 @@ Needs 8+ on the die to hit.
 ### Combat — two rolls
 Every attack resolves in two steps:
 1. **Attack roll** — *did it land?* Ranged = `1d10 + DEX + mods vs 7+` (cover is a negative modifier; weapons rarely add to hit). Melee = **opposed** (see [[Melee]]).
-2. **Injury roll** — *how bad?* `1d10 + Weapon Damage − Armor vs 7+`. **Pass** → target loses 1 WND (**Down** at 0 WND). **Fail** → target is **Pinned** (+1 Stress). Full detail in [[Damage]].
+2. **Injury roll** — *how bad?* `1d10 + Weapon Damage − Armor vs 7+`. **Pass** → target loses 1 WND (**Down** at 0 WND; **melee → Out**). **Fail** → target is **Pinned** (+1 Stress). Full detail in [[Damage]].
 
 > [!info] The engine in one line
 > **Stats decide if you land it · Weapons decide how bad it is · Skills decide what else happens.** Terrain and Stress sit on top as pressure.

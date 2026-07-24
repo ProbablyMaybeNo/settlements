@@ -14,10 +14,10 @@ tags: [settlements/rule, settlements/cat/core]
 
 ## Text
 **Injury roll** (after a hit): `1d10 + Weapon Damage − Armor` vs **7+**.
-- Pass → lose **1 WND**. At 0 WND → **Down**.
+- Pass → lose **1 WND**. At 0 WND → **Down** (ranged/hazard) or **Out** (melee).
 - Fail → **Pinned** (+1 Stress).
 
-**Down:** out of the fight. Attacks auto-hit (Injury still rolled; pass finishes → Fate). Must be **Stabilized** by end of next activation or bleeds out.
+**Down:** out of the fight. **Melee/engaged** attacks auto-hit; **ranged** resolves normally (Injury still rolled; pass finishes → Fate). Must be **Stabilized** by end of next activation or bleeds out.
 - Stabilize = Action + INT 7+ (−2 without Med-Kit; Medic auto).
 
 **Post-battle:** Safe units skip Fate. Down-and-alone or bled-out roll Fate ([[Campaign]]): Dead / Grievous / Captured / Scar / Recovery / Hardened.

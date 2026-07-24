@@ -100,7 +100,7 @@ Forced movement (Knockback, Slam & Throw, etc.) into a Dangerous area triggers i
 
 - Height advantage: a ranged attacker 2"+ above its target ignores Light cover from pieces at the target's level (Heavy still counts). _(single, simple bonus — no melee height mods at launch)_
 - Engagement across levels: you can only be Engaged by an enemy on your own level, or within 1" including the vertical distance.
-- **Falling.** A fall under **3"** has no effect. **3"+** lands the fighter **Prone**. **6"+** also forces an **Injury roll** at **+1 Damage per full 2" fallen (round up)**, ignoring Armor. A **voluntary** drop may test **AGI 7+** to land clean (avoid Prone); a 6"+ fall still rolls Injury on a fail. Like a Cat ([[Skill Paths]]) modifies as written.
+- **Falling.** A fall under **3"** has no effect. **3"+** lands the fighter **Prone**. **6"+** also forces an **Injury roll** at **+1 Damage per full 2" fallen**, ignoring Armor. A **voluntary** drop may test **AGI 7+** to land clean (avoid Prone); a 6"+ fall still rolls Injury on a fail. Like a Cat ([[Skill Paths]]) modifies as written.
 - Fall _risk_ moments (failed climbs, Knockback off a ledge) come from [[Movement]] and skills; this section only owns what a fall _does_.
 
 ### Setup procedure
@@ -128,8 +128,8 @@ A unit spends its Action to Interact with adjacent terrain; the stat used d
 | Interaction                          | Stat |
 | ------------------------------------ | ---- |
 | Kick door · drag object · Lift       | STR  |
-| Pick lock · lay/disarm trap          | DEX  |
-| Hack · build/repair feature · Search | INT  |
+| Pick lock · disarm trap              | DEX  |
+| Hack · build/repair feature · lay/deploy trap · Search | INT  |
 | Steady yourself in a hazard          | NRV  |
 
 Routine Interacts auto-pass; test (7+) only when failure has a consequence. Terminals and digital control → [[Hacking]]. Full verb table → [[Terrain Interaction]].

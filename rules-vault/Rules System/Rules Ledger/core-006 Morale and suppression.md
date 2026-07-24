@@ -13,7 +13,7 @@ tags: [settlements/rule, settlements/cat/core]
 **Parent phase:** [[Morale]]
 
 ## Text
-**Stress** tracks fear / suppression. Gain +1 when: you take a **non-wounding hit** (Pinned from ranged, Shaken from melee — the failed-Injury result), gain a negative condition, or a **friendly goes Down in LOS**. A clean miss does nothing; a wounding hit wounds instead of stressing.
+**Stress** tracks fear / suppression. Gain +1 when: you take a **non-wounding hit** (Pinned from ranged, Shaken from melee — the failed-Injury result), gain a negative condition, or a **friendly goes Down or Out in LOS**. A clean miss does nothing; a wounding hit wounds instead of stressing.
 
 - **1+ Stress = Shaken:** −1 to all rolls (flat; does not deepen).
 - **2+ Stress:** End Phase Break test — `1d10 + NRV − (Stress − 1)` vs **7+** (Shaken −1 does not apply here).

@@ -38,7 +38,8 @@ One token per condition, sitting beside the model ([[Conditions#General rules]] 
 | **Persistent** (Fire, Bleed, Poison) | coloured rings or printed chits — resolved each End Phase |
 | **Pinned / Down / Prone** | lay the model down for Down/Prone; a ring or cotton-ball for Pinned |
 | **Hidden** | a "?" token, or remove from the table onto a sheet until revealed |
-| **Ready / Order used** | a die or arrow token; clear it in the End Phase refresh |
+| **Ready** | a die or arrow token; **persists across rounds** — clear only when spent or cancelled |
+| **Order used** | a marker; clear in the End Phase refresh |
 | **Objective / VP** | tally on the crew sheet or a dial |
 
 ## Deployables

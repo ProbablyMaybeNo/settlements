@@ -19,7 +19,7 @@ tags: [settlements/rule, settlements/cat/core]
 - **Low leap:** obstacle under **2"** tall — no test, costs **2"** Move.
 - **Athletic traversal** (climb, gap/jump, vault ≥2", swim): Move-slot **AGI** test vs **7+**. Fail = stop / fall short / hazard (see [[Movement#Terrain movement]]).
 - **Difficult** ground costs double Move ([[Terrain]]). **Impassable** blocks entry unless Climbable / Breached.
-- **Disengage** (both slots): move up to MOV"; cannot end within 1" of any enemy; each previous Engager gets a free swing at **−2**.
+- **Disengage** (Move slot): move up to MOV"; you **keep your Action** (no Charge); cannot end within 1" of any enemy; each previous Engager gets a free swing at **−2**.
 - Measuring: pre-measure allowed; base edge to base edge; round down ([[Rules Engine]]).
 
 *Graduated from [[Movement]]. See [[Rules System MOC]].*

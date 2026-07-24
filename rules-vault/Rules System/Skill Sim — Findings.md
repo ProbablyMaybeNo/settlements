@@ -69,7 +69,7 @@ Each skill given to **side A** in a WND-3 mirror; B is plain. Baseline **50%**; 
 | **Feint** | 71% | **+20** | clean +2 when set up |
 | **Ghost Blade** | 70% | **+20** | AGI 4 duelist |
 | **Tough** (WND+1) | 65% | **+15** | more health = more attrition |
-| **Dodge** | 63% | **+13** | −1 to be meleed |
+| **Weave** | 63% | **+13** | −1 to be meleed |
 | **Dead Eye** | 60% | **+10** | flat +1 ranged |
 | **Iron Will** | 56% | **+6** | one free pass = insurance |
 | **The Muscle** | 54% | **+3** | burst, not attrition (see note) |

@@ -80,7 +80,7 @@ Nothing new here: deployables that sit on the board are **Features**, and they t
 ## Family A · Turrets
 Standing hardware · **repairable** · takes **both** equipment slots.
 
-A deployed turret holds **Overwatch**. **Once per round**, as a **Reaction**, it auto-fires one shot at the **first enemy that Moves or acts within its range and LOS**. It has **no facing** (360°) and never moves. The shot is a normal ranged attack — hit, then Injury — using the profile below. A turret fires at a fixed **+0 gunnery** (a crude auto-mount) plus the target's cover; the **Sniper Turret's +1** is on top of that.
+A deployed turret holds a **Ready** reaction. **Once per round**, as a **Reaction**, it auto-fires one shot at the **first enemy that Moves or acts within its range and LOS**. It has **no facing** (360°) and never moves. The shot is a normal ranged attack — hit, then Injury — using the profile below. A turret fires at a fixed **+0 gunnery** (a crude auto-mount) plus the target's cover; the **Sniper Turret's +1** is on top of that.
 
 > [!note] Turrets are yours; hijacking them is the counterplay
 > A deployed turret **auto-fires for its owner** — that is what the points and the one-hit fragility buy. There are **no board-built turrets**; *every* turret is a deployable. An enemy **hacker can hijack one** — deactivate it, lock it off their squad (**Rewrite Killbox**), or fire it at its own side (**Turret Tamer**) — see [[Hacking#Linked functions (what a successful hack controls)]].
@@ -100,7 +100,7 @@ Spent-on-trigger · **concealed** · **one** equipment slot each. **Built like a
 | Chassis | Cost | Delivery |
 |---|:---:|---|
 | **Proximity** | **5** | Place a **3" template**. Detonates the instant an enemy **ends a Move** inside it. |
-| **Remote** | **7** | Place a hidden marker with a **6" trigger radius**; the **owner command-detonates** it (a Reaction) while any enemy is inside the radius. **Bluff kit:** buying a Remote gives you **4 markers — 1 live, 3 dummy**. The carrier may spend an activation to place a dummy; only the live marker ever detonates. The enemy can't tell which is which without a **Threat Scan** or a disarm. |
+| **Remote** | **7** | Place a hidden marker with a **6" trigger radius**; the **owner command-detonates** it while any enemy is inside the radius (a **Reaction** costing a Ready token; it ignores the forward-arc / end-of-move requirement, like the Hacking Interrupt). **Bluff kit:** buying a Remote gives you **4 markers — 1 live, 3 dummy**. The carrier may spend an activation to place a dummy; only the live marker ever detonates. The enemy can't tell which is which without a **Threat Scan** or a disarm. |
 | **Seeker** | **8** | No template. On deploy, choose an enemy in your fighter's **LOS**. Each **End Phase** the seeker moves **4"** toward that target (ignoring its evasion); on reaching base contact it detonates against it. It can be shot, disarmed or hacked while en route. |
 
 ### Payload — what it does on detonation

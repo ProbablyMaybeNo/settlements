@@ -127,7 +127,7 @@ Each skill fills **one tier-slot** off its stat's path — you don't pay for it 
 ### Tier 1 — Good
 - **Sure-Footed** — Automatically pass AGI tests caused solely by unstable, slippery or uneven ground. *(Terrain runner)*
 - **Like a Cat** — Falls of 3" or less cause no Injury. For longer falls, reduce the measured distance by 3". *(Acrobat · Infiltrator)*
-- **Dodge** — After moving at least 3", melee attacks against you suffer −1 until your next activation. *(Evasive skirmisher)*
+- **Weave** — After moving at least 3", melee attacks against you suffer −1 until your next activation. *(Evasive skirmisher)*
 - **Leaper** — Cross horizontal gaps up to 3" without testing, counting the gap as movement. Gain +2 on AGI tests for longer jumps. *(Terrain runner)*
 - **Vault** — Cross one waist-high obstacle during a Move without testing or paying additional movement; you cannot end on it. *(Mobile melee · Terrain runner)*
 - **Low Profile** — While Hidden, move up to 3" without losing Hidden if you finish outside every enemy's LOS. *(Scout · Infiltrator)*

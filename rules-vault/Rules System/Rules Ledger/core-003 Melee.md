@@ -16,7 +16,7 @@ tags: [settlements/rule, settlements/cat/core]
 - **Engaged:** within **1"** of an enemy.
 - **Enter:** Move into the 1" zone (no LOS needed), or **Charge** (LOS required, both slots, free attack at **+1**).
 - **Opposed attack:** `Attacker 1d10 + STR` vs `Defender 1d10 + STR` (some weapons/skills use AGI). Highest wins; **ties to defender**.
-- Winner → **Injury roll**. Loser gains **+1 Stress**.
+- Winner → **Injury roll**: pass → loser loses **1 WND** (**Out** at 0 WND); fail → loser is **Shaken** (**+1 Stress**).
 - No Charge bonus if already Engaged or just charged this fight.
 
 *Graduated from [[Melee]]. See [[Rules System MOC]].*

@@ -98,7 +98,7 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [x] Alternating activation; Move + Action per activation; Orders by rank.
 - [x] Priority each turn (1d10 + underdog +1).
 - [x] Action-economy detail (Move / Action / Sprint / Charge / Ready) — sourced from [[Rules Engine]].
-- [x] Reaction options defined (Snap Shot, Charge, Throw, Interact, Trigger) + facing / Ready persistence.
+- [x] Reaction options defined (Snap Shot, Dodge, Charge, Throw, Interact, Trigger) + facing / Ready persistence.
 - [x] Catch-up — alpha: underdog Priority +1 only (playtest dial).
 
 #### 07 · [[Movement]] — ✅ Drafted
@@ -107,7 +107,7 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [x] Base move, Sprint, Charge.
 - [x] Athletic traversal: climb / jump / leap / vault / swim — **AGI** 7+; low leap under 2" = no test, −2" Move.
 - [x] Difficult ground = double Move; Impassable handled via [[Terrain]].
-- [x] Disengage (both slots + free swings at −2) — playtest dial still open.
+- [x] Disengage (Move slot + free swings at −2) — Resolved 2026-07-13.
 - [ ] Forced movement (push / knockback / drag) as a universal Movement rule (currently skill-owned).
 - [x] Measuring conventions — pre-measure, base-edge, round down ([[Rules Engine]]).
 

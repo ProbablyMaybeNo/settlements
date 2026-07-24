@@ -81,9 +81,9 @@ Points are scored in the **End Phase** (step after conditions resolve, [[Rules E
 |:--:|---|
 | 1 | **Blackout** — true LOS is capped at **12"** all game (night fight). |
 | 2 | **Live Board** — one printed terrain **hazard** starts active ([[Terrain#Hazards (the Dangerous overlay)]]); place it centrally. |
-| 3 | **Reinforcements** — at the End Phase of Round 3, each crew returns **one** Out/Down model to its own board edge. |
+| 3 | **Reinforcements** — at the End Phase of Round 3, each crew returns **one Down** model to its own board edge. |
 | 4 | **Scavengers** — a neutral **bonus objective** (worth +1 / a looted cache) sits dead-centre; either side may take it. |
-| 5 | **Foul Weather** — the open is **Difficult** ground (−2" MOV outside cover); rewards fighting through terrain. |
+| 5 | **Foul Weather** — the open is **Difficult** ground (double movement cost outside cover); rewards fighting through terrain. |
 | 6 | **Clean** — no twist. A straight fight over the objectives. |
 
 ---
