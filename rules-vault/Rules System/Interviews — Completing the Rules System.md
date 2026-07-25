@@ -29,7 +29,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 - [x] **One gatherer per resource** (Cash / Materials / Water); Power via the Reactor.
 	- *Answer:* Confirmed.
 - [ ] **Q2 — Sixth category?** Keep gatherer / crafting / defence / utility / housing, or add **Robotics/Cyber** (drone bay, robot hangar, server/AI core, EW mast)?
-	- *Answer:* 
+	- *Answer:* Structures should fall under the following categoris - Defensive (Barriers, walls, portcullis, extra large gates, watch towers, turrets, traps, shields, trenches, bunkers, etc) 
 - [ ] **Q3 — Which 2051 structures earn a slot?** Drone Bay · Robotics Hangar · Comms/EW Array · Fabricator · Reactor/Microgrid · Server/AI Core · Laser point-defence · HPM swarm-breaker · Multispectral smoke generator — in/out, and what's missing?
 	- *Answer:* 
 - [ ] **Q4 — Scale & tiers?** Rough total structure count at release; flat single-tier vs **T1→T3** upgrades (bigger board presence per tier)?
