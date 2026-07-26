@@ -33,13 +33,23 @@ The Rules column should nail down:
 
 1. Civilians - Jack of all trade master of none, a crew made up of your average soccer moms and little league coach dads.
    
-2. First Enforcers - Ex-polioce, firemen, EMTs
+   - Maybe civilians don't get a faction wide bonus instead they get more options for each individual unit. They are the swarm faction, lots of inexpensive, not great, units that swarm the board.
    
-3. Laborers - Factory workers, Miners, Ironworks, etc. 
+1. First Enforcers - Ex-polioce, firemen, EMTs
    
-4. Lost Batallion - Ex-military, soldiers, airforce, navy, etc.
+   - Great at building, laying traps, moving around the map. Bonus to AGI and NRV. Larger crew sizes. Gain early access to deployables and excel at map manipulation. 
+   
+1. Laborers - Factory workers, Miners, Ironworks, etc. 
+   
+   - Bonus to STR stat or related skills, nerf to INT. Buffed with melee weapons, nerfed at shooting. Focused on super elite specialists and leaders with increased strength and excel in melee. Playstyle: Close Combat Kings
+   
+1. Lost Batallion - Ex-military, soldiers, airforce, navy, etc.
+   
+   - Bonus to Dex, experts at shooting not great at melee, have easier access to high-tech weapons and equipment. Glass canons.
 
-5. 
+1. The HACKERS - Tech experts, nerds, hackers, etc. 
+   
+   - Bonus to INT minus to STR, early access to high-tech equipment, excel at hacking. Playstyle = Control/buffs/debuffs Elite smaller unit crews.
 ## Rule ledger
 _none_
 
