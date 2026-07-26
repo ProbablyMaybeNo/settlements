@@ -31,14 +31,14 @@ The **catalogue** — the 25 things a player can build, what each one costs in f
 
 The lot itself is a **barren, battle-scarred site** — a vacant lot between brownstones, a dead mall car park, an overgrown city park, a gutted warehouse. Damaged, overgrown, showing recent conflict. You build onto it.
 
-> [!info] This note supersedes Interview 1
-> Drafted **2026-07-26** from a working session that revisited the catalogue from scratch. Where it disagrees with the earlier answers in [[Interviews — Completing the Rules System]], **this note wins**:
-> - **Currency is Goods**, not Cash · **Power comes from a Generator**, not a Reactor.
-> - **Five categories** — Sustain / Convert / Operate / Recover / Defend — not the earlier seven.
-> - **25 structures**, not 5–10.
-> - **Four starting structures** (HQ · Water Reclaimer · Generator · Processor). Goods needs no gatherer; it flows in from battles, raids and scavenging.
->
-> Four earlier ideas are **not** in the 25 and are still live candidates if you want them: the **Vault** (an HQ add-on holding Goods/loot, hard to breach in a raid), **Robotics Workshop**, **Server / AI Core**, **Advanced Weapons Lab**. Adding any means cutting an equal number below.
+> [!check] Reconciled against Interview 1 — ruled 2026-07-26
+> Every conflict with [[Interviews — Completing the Rules System]] was checked against the source and ruled on:
+> - **Currency stays Goods** — the Cash rename (07-24) is reverted. Goods reads better and fits scavengers hauling back goods, scrap and equipment.
+> - **Power stays the Generator** — the Reactor rename is reverted.
+> - **One gatherer per resource, but you may build more.** Adopted, with the restriction loosened: the starting set gives one gatherer each for Goods / Materials / Water, and **additional output always costs another structure or an upgrade** — never a free multiplier.
+> - **Five categories kept** — Sustain / Convert / Operate / Recover / Defend, over the earlier seven.
+> - **25 structures** — the "5 to 10" answer was scoped to *release* count, a different question.
+> - **All four late ideas adopted:** **Vault** (as an HQ add-on), **Robotics Workshop**, **Server Core**, **Advanced Weapons Lab**. Four entries were cut to make room — Hydroponics, Vehicle Yard, Bunker (the Vault supersedes it) and Recruiting Board (blocked on hiring rules that don't exist yet).
 
 ## Design contract — the five rules that keep this honest
 
@@ -117,26 +117,33 @@ Because Buildings are 6×6" minimum on a 12"-deep strip, you can fit **at most t
 > [!important] Mark every interactive point
 > Any **Tag** a structure carries — Openable, Lockable, Hackable, Searchable, Climbable, Powered — must be **physically visible on the table**, either modelled onto the piece or marked with a token. If a door can be locked, there is a door or a door token. If there's a terminal, there's a terminal. Nothing interactive is invisible.
 
-### Starting structures — four
+### Starting structures — five
 
-Every settlement begins with these, free:
+Every settlement begins with these, free. **One gatherer per resource**, plus the command hub.
 
-|Structure|Why it's mandatory|
-|---|---|
-|**HQ**|Campaign actions, mission dispatch, and the base **10** body slots|
-|**Water Reclaimer**|**Water** income — Water is consumed per head each cycle|
-|**Generator**|**Power** output — everything with a draw needs it|
-|**Processor**|**Goods → Materials** — nothing else gets built without it|
+|Structure|Role|Why it's mandatory|
+|---|---|---|
+|**HQ**|command|Campaign actions, mission dispatch, and the base **10** body slots|
+|**Water Reclaimer**|**Water** gatherer|Water is consumed per head each cycle — this sets what your population costs|
+|**Generator**|**Power**|Everything with a draw needs it|
+|**Processor**|**Materials** gatherer|Scrap → Materials. Nothing gets built without it|
+|**Salvage Yard**|**Goods** gatherer|Sorts and values what scavengers haul back — goods, scrap, equipment|
 
-**Goods needs no starting structure.** It flows in from battles, raids, scavenging and trade routes ([[Economy]]). The four starters are the bare necessities: somewhere to plan, water to drink, power for the grid, and a way to turn scrap into build material.
+Starting footprint is **104 of 432 squares — 24%.** A new settlement should read as a found shell with a genset, a water tank and a heap of sorted scrap.
 
-Starting footprint is **69 of 432 squares — 16%.** A new settlement is meant to look like a found shell with a genset and a water tank plugged into it.
+#### One gatherer each — but never a hard ceiling
+The starting set gives you exactly one gatherer per resource. **You may always build more.** What you may never do is raise output without paying floor space:
+
+- **Build another** gatherer of the same type — a second Water Reclaimer, a second Processor. Each is a full structure and eats the canvas accordingly.
+- **Upgrade** the one you have — a tier costs Materials, and where the tier promotes a Station into a Building it costs space too.
+
+That is the whole anti-inflation shape for production: output scales, but only against the scarcest resource in the game — **room on a 12×36 lot**. A settlement that doubles its Water is a settlement with fewer guns.
 
 ### Founding — choosing your first few
 
 At founding you spend a **Goods** budget on structures marked **⚑ Founding** below. They are placed on the canvas immediately, before your first game.
 
-Your **location** ([[Settlement]]) grants **one ⚑ structure free** — hospital → Med-bay, police station → Holding Cells, scrapyard → Salvage Yard. Location and founding budget draw on the **same pool**, so a location is a head start and a flavour, never a building nobody else can reach.
+Your **location** ([[Settlement]]) grants **one ⚑ structure free** — hospital → Med-bay, police station → Holding Cells, scrapyard → a free Salvage Yard upgrade. Location and founding budget draw on the **same pool**, so a location is a head start and a flavour, never a building nobody else can reach.
 
 > [!question] Founding budget not yet set
 > The Goods budget and every build cost below are unpriced. Set them with [[Economy]] — they need the Goods/Materials inflow rates first.
@@ -145,19 +152,83 @@ Your **location** ([[Settlement]]) grants **one ⚑ structure free** — hospita
 
 The **Generator** produces **+3**. Every powered structure has a **draw**. The settlement runs on a single sum: **total output ≥ total draw**, tracked on the sheet ([[Economy]]). A structure without Power is **Disabled** and gives no benefit.
 
-The four starters draw exactly **3** — HQ 1, Water Reclaimer 1, Processor 1 — against one Generator's **+3**. **You begin at exactly capacity.** The first powered thing you add forces a second Generator or a decision about what to run cold. That tension is deliberate and starts on day one.
+The five starters draw exactly **3** — HQ 1, Water Reclaimer 1, Processor 1, Salvage Yard 0 — against one Generator's **+3**. **You begin at exactly capacity.** The first powered thing you add forces a second Generator or a decision about what to run cold. That tension is deliberate and starts on day one.
 
-### Station → Building upgrades
+### Storage & caps — what you can hold, and what a raider can take
 
-Three entries begin as a **Station** and upgrade into a **Building**. The upgrade costs **Materials and floor space**:
+**Three of the four resources are hoardable, and every one of them is capped by what you have built.** Goods and Materials go in sheds; **Water goes in tanks** — you cannot fit unlimited water in one cistern any more than you can fit unlimited scrap in one shed. Only **Power** is never banked: it is output-vs-draw ([[Economy]]), a flow rather than a store.
 
-|Tier 1 — Station|Tier 2 — Building|Space cost|
+**Your cap on each resource is the sum of what you have built:**
+
+|Source|Holds|Exposure in a raid|
 |---|---|---|
-|**Workbench** 3×2|**Workshop** 6×8|6 → 48 sq in|
-|**Trader's Kiosk** 3×2|**Trade House** 6×6|6 → 36 sq in|
-|**Recruiting Board** 3×1|**Recruiting Hall** 6×6|3 → 36 sq in|
+|**HQ** — base|a small amount of every resource|must be entered; Lockable|
+|**Gatherer buffer**|a little of *its own* resource — the scrap heap beside the Processor, the pallet by the Salvage Yard|**easy pickings** — open ground, Searchable|
+|**Storehouse** — repeatable|the bulk of **Goods and Materials** (dry goods only)|**the loot target** — Breachable and Searchable|
+|**Vault** — HQ upgrade|small, and **secure**|Sabotage or an INT hack, nothing else|
+|**Water Reclaimer** — repeatable|all your Water. **Tank capacity is the Water cap** — more tanks, more water|Breachable — and a holed tank is *spilled*, not stolen|
 
-A young settlement is a scatter of stalls and gensets; growing up means those stalls swallow the yard. This is why **Groundworks** gets bought to *upgrade*, not only to expand.
+**Overflow is lost.** Income above your cap does not bank; it spoils, walks off, or never gets hauled home. That is the anti-inflation lever ([[Economy]]) and it is why a rich settlement must keep building sheds instead of sitting on a pile.
+
+> [!info] Why storage is standalone and not all in the HQ
+> If everything lived in the HQ, every raid would have exactly **one** objective and every raid would play identically. Spreading storage across the lot makes the attacker choose which target is worth the crossing, and makes the defender choose what to cluster behind the wall and what to leave in the open. That is a real layout decision on a 12×36 lot, and it is the main reason the settlement is worth drawing at all.
+
+> [!success] The Vault trade — safe *or* plentiful, never both
+> The **Vault** holds little but is nearly untouchable. **Storehouses** hold a lot and are Breachable. So a settlement sitting on a fortune has to split it: the irreplaceable part goes in the Vault, the working stock sits in sheds where a determined attacker can get it. Losing a raid should cost you something, and this is the dial that decides how much.
+
+> [!warning] Water is denied, not robbed
+> A raider cannot meaningfully carry your water away — but they can **put holes in your tanks**. Water is the one resource an attacker destroys rather than loots, and it is the one that bites hardest afterwards: Water is consumed per head each cycle, so a settlement that loses its tanks cannot feed the crew it owns until they are rebuilt.
+>
+> That makes tank placement a genuine defensive decision. Tanks are **Plant** at 3×3 — small, cheap to scatter, and easy to tuck behind a wall. Clustering them is efficient use of the lot and a single good approach lane away from disaster.
+
+**Storage is repeatable across the board.** Build as many **Storehouses** and **Water Reclaimers** as you have room for. The ceiling on hoarding is floor space, exactly like production — and because a Reclaimer both produces *and* holds, a second tank raises your Water income and your Water cap together.
+
+The **Cistern** is the storage-only answer: it banks Water without expanding the plant, so a settlement can hold a reserve against a raid rather than a bigger income it cannot use.
+
+### HQ tiers — the scavenger pipeline
+
+The **HQ** is the only structure with a full upgrade ladder, and dispatch capacity is what the ladder buys:
+
+- **Each HQ tier raises the number of crew you can send out per cycle** — scavenging, scouting, sabotage. This is how a settlement fields more scavengers on the map.
+- It also raises the HQ's own base storage, and gates the **Vault** add-on.
+
+[[Downtime]] owns the mission rules; the **Comms Mast** is a separate axis — it improves mission *quality* (rerolls, longer-range targets, recruitment broadcasts), never the number of bodies you can dispatch. Build the HQ to send more people, the Mast to send them further.
+
+### Three ways to grow — and how to tell them apart
+
+The lot is small on purpose, so the catalogue must not waste slots on things that are really the same building twice. Every expansion resolves to one of three moves:
+
+|Move|Use when|Costs|Example|
+|---|---|---|---|
+|**Upgrade**|The later thing is the **same job at greater scale**|Materials, and often floor space|Equipment Shed → **Armory** · Water Reclaimer → **Water Tower**|
+|**Build another**|You want **more throughput** of something you already have|A whole new footprint|A second Processor, another Storehouse, another tank|
+|**Groundworks**|You are out of lot|Materials + its own footprint|12×36 → 18×36|
+
+**A new catalogue entry has to earn itself by doing a different job.** If it does the same job bigger, it is a tier of something you already own — that is the test every entry below passes.
+
+**Entries are named at their first tier**, so the ladder reads naturally as it grows. An Equipment Shed becoming an Armory is the same structure maturing; it does not consume a second slot on the lot.
+
+> [!info] Why this matters — the space is genuinely tight
+> Building the entire catalogue would take roughly **651 square inches**. The base lot is **432**, of which about **300** is usable once you leave lanes to move through. So the base lot fits under **half** the catalogue, Groundworks I fits about **70%**, and even a fully expanded 18×48 lot falls short of everything.
+>
+> That pressure is the point — but it only works if the catalogue is honest. Three separate research buildings would have burned **28% of the lot** on one activity, which is why the **Fabricator** ladder exists instead.
+
+### Upgrade ladders
+
+Every ladder in the catalogue, and what each tier costs in floor space. Where a tier promotes a **Station** into a **Building**, the space cost is the real price of growing up.
+
+|T1|T2|T3|Space|
+|---|---|---|---|
+|**Equipment Shed** 3×2|**Armory** 6×6|—|6 → 36|
+|**Water Reclaimer** 3×3|**Water Tower** 3×5|—|9 → 15|
+|**Workbench** 3×2|**Workshop** 6×8|—|6 → 48|
+|**Trader's Kiosk** 3×2|**Trade House** 6×6|—|6 → 36|
+|**Fabricator** 6×6|**Robotics Workshop** 6×8|**Advanced Weapons Lab** 6×10|36 → 48 → 60|
+|**HQ** 6×6|HQ II|HQ III|dispatch slots + storage; gates the **Vault**|
+|**Med-bay** 6×6|Med-bay II|—|scar healing unlocks at T2|
+|**Storehouse** 6×6|Storehouse II|—|capacity, not footprint|
+
+A young settlement is a scatter of stalls, tanks and gensets; growing up means those stalls swallow the yard. This is why **Groundworks** gets bought to *upgrade*, not only to expand.
 
 ---
 
@@ -170,52 +241,63 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 
 |Structure|Class|Size|Pwr|What it does|
 |---|---|---|---|---|
-|**Water Reclaimer** ★|Plant|3×3|−1|**Water** income per cycle; Water is consumed per head, so this sets what your population costs|
+|**Water Reclaimer** ★ *(repeatable, → Water Tower)*|Plant|3×3|−1|**Water** gatherer **and** Water storage — the tank is both. Water is consumed per head, so this sets what your population costs *and* caps how much you can hold|
+|**Cistern** ⚑ *(repeatable)*|Plant|3×3|0|Water storage **without** production — bank a reserve against a raid without expanding the plant|
 |**Generator** ★|Plant|3×3|**+3**|**Power** output|
 |**Bunkhouse** ⚑|Building|6×9|0|**+N owned body slots** above HQ's base 10|
-|**Storehouse** ⚑|Building|6×6|0|Raises the storage cap on Goods and Materials; shields a share from raid theft|
-|**Hydroponics** T2 *(Water Reclaimer)*|Plant|3×8|−1|Power + Water → **Goods**|
+|**Storehouse** ⚑ *(repeatable)*|Building|6×6|0|Bulk storage for **Goods and Materials** above the HQ's base cap — dry goods, not Water. **The loot target in a raid**|
+|**Equipment Shed** ⚑ *(→ Armory 6×6)*|Station|3×2|0|Holds every **unequipped** weapon, armour and piece of kit the crew owns. Caps the size of your persistent armoury; the Armory tier raises it and adds a lock|
 
 - Water Reclaimer — `Scatter · Impassable · Heavy · Climbable, Breachable`
 - Generator — `Feature · Impassable · Heavy · Powered, Hackable, Explosive`
 - Bunkhouse — `Building · Interior Open · Heavy · Openable, Lockable, Searchable, Climbable`
 - Storehouse — `Building · Interior Open · Heavy · Lockable, Searchable, Breachable`
-- Hydroponics — `Scatter · Difficult · Concealing · Searchable, Breachable` — *glass hides you, it does not stop bullets*
+- Cistern — `Scatter · Impassable · Heavy · Climbable, Breachable`
+- Equipment Shed — `Scatter · Open · Light · Searchable` · Armory — `Building · Interior Open · Heavy · Lockable, Searchable, Breachable`
 
-### Convert — turn one resource into another
+### Convert — turn one resource into another, and make gear
 
 |Structure|Class|Size|Pwr|What it does|
 |---|---|---|---|---|
-|**Processor** ★|Plant|3×5|−1|**Goods → Materials**|
+|**Processor** ★|Plant|3×5|−1|**Materials** gatherer — scrap → Materials|
+|**Salvage Yard** ★|Yard|5×7|0|**Goods** gatherer — sorts and values what scavengers haul back; better break-down rates on gear. Expandable|
 |**Trader's Kiosk** ⚑ *(→ Trade House 6×6)*|Station|3×2|0|Sell owned gear and surplus → **Goods**; the Trade House tier improves rates|
-|**Workbench** ⚑ *(→ Workshop 6×8, −1)*|Station|3×2|0|Craft and repair. **Workshop tiers unlock the weapon / armour / chem branches** — those are upgrades, not separate buildings|
-|**Salvage Yard** ⚑|Yard|8×10|0|Post-battle **Materials** recovery; better break-down rates on gear|
-|**Fabricator** T2 *(Workshop)*|Building|6×6|−2|**Research** — unlocks new blueprints. The Workshop makes what you know; this learns what you don't|
+|**Workbench** ⚑ *(→ Workshop 6×8, −1)*|Station|3×2|0|Craft and repair. **Workshop tiers unlock the weapon / armour / chem branches** — upgrades, not separate buildings|
+|**Fabricator** T2 *(Workshop)*|Building|6×6 → 6×10|−2 / −3|**Research**, in three tiers. **T1 Fabricator** unlocks new blueprints · **T2 Robotics Workshop** builds robots and UGVs and services the Drone Bay's airframes · **T3 Advanced Weapons Lab** unlocks the 2051 arsenal — directed-energy, guided small-arms, drone-delivered payloads ([[Weapons]])|
 
 - Processor — `Feature · Impassable · Heavy · Powered, Hackable, Climbable`
+- Salvage Yard — `Scatter cluster · Difficult · Light/Heavy by piece · Searchable, Movable, Unstable`
 - Trader's Kiosk — `Scatter · Open · Light · Searchable` · Trade House — `Building · Interior Open · Heavy · Lockable, Searchable`
 - Workbench — `Scatter · Open · Light · Searchable` · Workshop — `Building · Interior Difficult · Heavy · Lockable, Searchable, Powered`
-- Salvage Yard — `Scatter cluster · Difficult · Light/Heavy by piece · Searchable, Movable, Unstable`
 - Fabricator — `Building · Interior Open · Heavy · Lockable, Powered, Hackable, Searchable`
+- Robotics Workshop (T2) — adds `Interior Difficult, Openable`
+- Advanced Weapons Lab (T3) — adds `Explosive`
 
 ### Operate — what you can do outside the walls
 
 |Structure|Class|Size|Pwr|What it does|
 |---|---|---|---|---|
-|**HQ** ★|Building|6×6|−1|Campaign actions, mission dispatch, base **10** body slots, crew-wide unlocks|
+|**HQ** ★|Building|6×6|−1|Campaign actions, base **10** body slots, base storage. **Tiers raise how many crew you can dispatch per cycle** and gate the Vault|
+|**Vault** T2 *(HQ add-on)*|Plant|3×3|−1|**Secure** storage — small capacity, near-unbreachable. Where the irreplaceable goes|
 |**Scout Post** ⚑|Plant|3×3|0|Pre-**battle** information: see a Twist, choose attacker/defender, reroll deployment|
-|**Comms Mast** T2 *(HQ)*|Plant|3×3|−1|**Mission** reach: +1 dispatch per cycle, reroll a mission test|
-|**Vehicle Yard** T2|Yard|6×10|0|Expedition capacity — haul more back, +1 assignment slot per cycle|
-|**Drone Bay** T3 *(Fabricator)*|Building|6×8|−2|Drone [[Deployables]] **and** a recon drone that runs a scout mission **without spending a fighter**|
+|**Comms Mast** T2 *(HQ)*|Plant|3×3|−1|**Mission quality**: reroll a mission test, reach longer-range targets, broadcast for recruits. Dispatch *count* comes from HQ tiers|
+|**Server Core** T2 *(Fabricator)*|Building|6×6|−2|Intelligence and networked control — rival roster intel, and friendly terminals on the board count as **Linked** ([[Hacking]])|
+|**Drone Bay** T3 *(Fabricator T2)*|Building|6×8|−2|Drone [[Deployables]] **and** a recon drone that runs a scout mission **without spending a fighter**|
 
 - HQ — `Building · Interior Open · Heavy · Openable, Lockable, Searchable, Climbable, Powered`
+- Vault — `Feature · Impassable · Heavy · Lockable, Hackable`
 - Scout Post — `Scatter · Impassable · Light · Climbable`
 - Comms Mast — `Feature · Impassable · Open · Climbable, Powered, Hackable`
-- Vehicle Yard — `Scatter cluster · Difficult · Heavy · Movable, Searchable`
+- Server Core — `Building · Interior Open · Heavy · Lockable, Powered, Hackable, Searchable`
 - Drone Bay — `Building · Interior Open · Heavy · Openable, Powered, Hackable, Searchable`
 
+> [!info] The Vault — the one thing a raid cannot just kick open
+> The HQ is where your Goods, gear and loot sit during a raid, which makes it the natural target. The **Vault** is the answer, and it is deliberately the hardest object in the game to open. It is **not Breachable** — a Breach charge does nothing to it. The only ways in are the full **Sabotage** sequence (enter → plant → detonate, DEX-defusable) or an **INT hack** at the vault door.
+>
+> It cannot be separated from the HQ: it is an add-on placed in base contact, and it falls if the HQ does.
+
 > [!info] Why the Drone Bay matters more than it looks
-> [[Settlement]] locks **one roster with per-cycle assignment** — sending a fighter on a mission means they can't fight. That opportunity cost is the whole tension of the downtime layer, and it bites hardest on small crews. The recon drone is the **pressure valve**: it buys back one mission without costing a body, at a T3 price.
+> [[Settlement]] locks **one roster with per-cycle assignment** — sending a fighter on a mission means they cannot fight. That opportunity cost is the whole tension of the downtime layer, and it bites hardest on small crews. The recon drone is the **pressure valve**: it buys back one mission without costing a body, at a T3 price behind a tiered Fabricator.
 
 ### Recover — people come back
 
@@ -223,13 +305,11 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 |---|---|---|---|---|
 |**Med-bay** ⚑|Building|6×6|−1|**+X** to the post-battle Fate roll; the T2 tier heals scars at a Goods/Materials cost|
 |**Holding Cells** ⚑|Building|6×6|−1|Prisoner capacity **+** reduced escape chance|
-|**Mess Hall** ⚑|Building|6×8|−1|Lower starting **Stress**, or one free clear per battle|
-|**Recruiting Board** ⚑ *(→ Recruiting Hall 6×6)*|Station|3×1|0|Reroll or widen the available recruit offers; cheaper hires|
+|**Mess Hall** ⚑|Building|6×8|−1|Lower starting **Stress**, or one free clear per battle ([[Morale]])|
 
 - Med-bay — `Building · Interior Open · Heavy · Lockable, Searchable, Powered`
 - Holding Cells — `Building · Interior Open · Heavy · Lockable, Breachable, Hackable`
 - Mess Hall — `Building · Interior Open · Heavy · Openable, Searchable`
-- Recruiting Board — `Scatter · Open · Open · Searchable`
 
 > [!warning] Med-bay must not undo the scar rebate
 > [[List Building#Campaign rosters]] pays a **−2** rebate for a lasting scar — the anti-snowball valve that lets veterans crowd out rookies. If the Med-bay heals scars for free that valve becomes a free lunch. Scar healing is the **T2 tier only** and costs Goods/Materials, so the trade stays a trade. See also [[Progression]] · [[Campaign]].
@@ -241,31 +321,30 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 |**Perimeter Wall** ⚑|Line|1" thick, **6" segments**|0|The floor benefit — bought by the segment; shapes the whole raid board|
 |**Gatehouse** ⚑|Building|6×6|−1|A controlled chokepoint: the attacker breaches it or routes around it|
 |**Watchtower** ⚑|Plant|3×3|0|The defender starts one model in it; denies the attacker surprise|
-|**Bunker** T2|Building|6×6|0|Shields stored resources; cuts casualties on a lost defence|
 |**Turret Mount** T2 *(Wall or Gatehouse)*|Plant|2×2|−2|Hardpoint. The turret **auto-deploys** — but costs crew-points and keeps full fragility|
-|**EW Mast** T3 *(Comms Mast + Fabricator)*|Plant|3×3|−2|Counter-hack and counter-drone: penalises enemy [[Hacking]] in a raid on you; blocks enemy drone deployables|
+|**EW Mast** T3 *(Comms Mast + Server Core)*|Plant|3×3|−2|Counter-hack and counter-drone: penalises enemy [[Hacking]] in a raid on you; blocks enemy drone deployables|
 
 - Perimeter Wall — `Scatter · Impassable · Heavy · Climbable, Breachable, Barricadable`
 - Gatehouse — `Building · Interior Open · Heavy · Openable, Lockable, Hackable, Climbable`
 - Watchtower — `Scatter · Impassable · Light · Climbable`
-- Bunker — `Building · Interior Open · Heavy · Lockable, Breachable`
 - Turret Mount — `Feature · Impassable · Light · Powered, Hackable` — hosts one turret [[Deployables|deployable]]
 - EW Mast — `Feature · Impassable · Open · Climbable, Powered, Hackable`
 
 > [!danger] The Turret Mount is not free board power
-> Owning the mount grants **auto-deploy** only — the turret skips the [[Deployables#Deploying — the INT test|INT test]] and starts online. It still **costs crew-points** to field, still counts against the **9–12** density band, and keeps full fragility: `WND−1`, repairable once, hijackable. This is the settled answer to *"a pre-placed settlement deployable is strictly better and free."*
+> Owning the mount grants **auto-deploy** only — the turret skips the [[Deployables#Deploying — the INT test|INT test]] and starts online. It still **costs crew-points** to field, still counts against the **9–12** density band, and keeps full fragility: `WND−1`, repairable once, hijackable. This is the settled answer to a pre-placed settlement deployable being strictly better and free.
 
----
+### Category counts
+Sustain **6** · Convert **5** · Operate **6** · Recover **3** · Defend **5** = **25**. Deliberately uneven — forcing five per category is what produced filler in the first pass.
 
 ## Space budget
 
 |Build|Squares|% of 432|
 |---|---|---|
-|Starting four|**69**|16%|
+|Starting five|**104**|24%|
 |Typical ten-structure settlement|**~290**|~67%|
 |Practical ceiling *(lanes to move through)*|**~300**|~70%|
 
-The two yards genuinely hurt: the **Salvage Yard** eats **18%** of your entire settlement, the **Vehicle Yard** **16%**. Those are decisions, not shopping.
+The sprawl costs are real: the **Salvage Yard** eats **8%** of the lot at its starting size and more once expanded, and every 6×8 Building is another **11%**. Those are decisions, not shopping.
 
 **Twenty-five structures, room for about ten.** You cannot build the good version of everything, and demolishing to rebuild is a real move rather than a footnote.
 
@@ -273,6 +352,11 @@ The two yards genuinely hurt: the **Salvage Yard** eats **18%** of your entire s
 
 - [ ] Confirm the board size — **3'×3'** recommended
 - [ ] Build cost in **Materials** per structure ([[Economy]])
+- [ ] Storage numbers — HQ base cap, gatherer buffer, Storehouse, Vault, Equipment Shed/Armory, Water per tank
+- [ ] Persistent armoury: is owned gear **also** points-costed to field (two-gate), or does ownership replace the points cost? ([[Economy]] E2)
+- [ ] What a holed Water tank actually costs — all of it, half, or a roll
+- [ ] HQ tier costs and the dispatch-slot increment per tier
+- [ ] How much a successful raider actually takes from each container
 - [ ] Founding **Goods** budget and per-structure founding price
 - [ ] Upgrade tier costs, including the Station → Building space cost
 - [ ] **Groundworks** cost
