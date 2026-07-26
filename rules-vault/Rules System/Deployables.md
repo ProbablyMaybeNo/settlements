@@ -31,7 +31,7 @@ The gear a crew **builds and plants on the board** to deal or deny damage — tu
 > 2. **Terrain stopped dealing damage.** [[Infrastructure]] routes all harm through two rare keywords and says plainly: *"a thing that exists only to hurt people belongs in gear, not in the walls"* ([[Infrastructure#Infrastructure vs Deployables]]). Deployables are where that damage went — you carry your killbox now, you don't find it bolted to the scenery.
 
 ## Design contract — the five rules that keep this honest
-Deployables inherit the [[Weapons#Design contract — the three rules that keep this honest|weapon contract]] and add two of their own.
+Deployables inherit the [[Weapons|weapon contract]] and add two of their own.
 
 1. **Deployables deal or deny damage; Infrastructure reshapes the board.** If a piece exists to hurt or lock down the enemy, it is a deployable. If it exists to move routes, sight, cover or elevation, it is [[Infrastructure]].
 2. **A deployable applies conditions — it never defines them.** Every condition it inflicts is written in [[Conditions]].
@@ -112,8 +112,8 @@ Buy exactly one. All effects route to rules you already have.
 |---|:---:|---|
 | **Explosion** | **+4** | Injury **Damage +3**, **Blast** (2"). The default killer. |
 | **Fire** | **+3** | **Blast** Injury **Damage +2**, sets **Fire**, leaves a **3" Fire** hazard for one round ([[Terrain#Hazards (the Dangerous overlay)]]). |
-| **Poison** | **+3** | Places a **3" Poison** hazard for two rounds ([[Conditions#Persistent conditions|Poison]] to anyone inside or entering). |
-| **Shock** | **+3** | **Blast**, no Injury: **Shocked + Blind** on every model in radius ([[Conditions#Persistent conditions]]). |
+| **Poison** | **+3** | Places a **3" Poison** hazard for two rounds ([[Conditions#Persistent conditions (resolve in the End Phase)|Poison]] to anyone inside or entering). |
+| **Shock** | **+3** | **Blast**, no Injury: **Shocked + Blind** on every model in radius ([[Conditions#Persistent conditions (resolve in the End Phase)]]). |
 | **Smoke** | **+2** | No damage — places a **3" Dense Smoke** ([[Weapons]] Smoke). A trap that screens instead of kills. |
 
 *Examples:* Proximity + Explosion = **9** · Remote + Poison = **10** · Seeker + Explosion = **12** · Proximity + Smoke = **7**.

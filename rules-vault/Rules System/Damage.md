@@ -45,7 +45,7 @@ Every hit does *something* — it wounds or it pins. No wasted hits.
 
 ### Weapon Damage & Armor
 - **Damage** is a small class, not a bespoke number: **+0** unarmed · **+1** light · **+2** medium · **+3** heavy. See [[Weapons]].
-- **Armor** reduces the Injury roll only, never the hit: **0** none · **−1** light · **−2** heavy. Armor carries drawbacks — see [[Weapons#Armor]].
+- **Armor** reduces the Injury roll only, never the hit: **0** none · **−1** light · **−2** heavy. Armor carries drawbacks — see [[Weapons#3 · Armor]].
 - *Example:* pistol (**+2**) into heavy armor (**−2**) = net 0 → `1d10 vs 7+` = 40% to wound.
 
 ### Pinned

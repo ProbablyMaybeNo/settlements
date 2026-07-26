@@ -85,7 +85,7 @@ Alpha ships with **underdog +1 Priority only**. No free-hold surge rule unless p
 > The **underdog +1 Priority** likewise stays exactly as written. It is not an exploit for small crews — it is their **compensation**: [[Crew Sim — Findings|the crew sim]] shows swarms out-produce elites on raw output, because WND is fixed at 1 and the Injury roll ignores stats, so quality has a hard ceiling that numbers don't. Fewer models *should* go first.
 
 ### BLKOUT import — status (drafted 2026-07-23)
-> [!note] From the BLKOUT read-through (Settlements repo → `docs/BLKOUT-RULES-ANALYSIS.md` §19). Now **drafted into the live rules above** — playtest before graduating further (see [[propagate-rule-changes]]).
+> [!note] From the BLKOUT read-through (Settlements repo → `docs/BLKOUT-RULES-ANALYSIS.md` §19). Now **drafted into the live rules above** — playtest before graduating further, and propagate any further change through every note that references these reactions before committing.
 > - **Return Fire — cut.** Sequential "shoot back at a shooter" already **is** Snap Shot (above): it resolves *after* the enemy's shot, so a shooter can Down its target before it replies — the attacker keeps a first-mover incentive to shoot. Simultaneous resolution was rejected as too swingy / anti-shooter.
 > - **Dodge — added** (reaction, above): opposed **AGI vs DEX** active evasion. A deliberate, resourced exception to *"you can't dodge a bullet"* ([[Rules Engine]]) — it costs your Ready, can be lost, and ends you **Pinned**.
 > - **Distance-gated Snap Shot — added** (trigger #2): only a Move **> half MOV"** ending in an enemy's LOS draws a reaction; a short shuffle (≤ half MOV) is safe.

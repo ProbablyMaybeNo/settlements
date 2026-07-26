@@ -29,6 +29,17 @@ tags:
 ## Focus
 The **catalogue** — the 25 things a player can build, what each one costs in floor space and **Power**, what it does in the campaign layer, and what it becomes on the table when someone raids you. [[Settlement]] owns founding, layout and the resource loop; **this note owns the buildings themselves.**
 
+The lot itself is a **barren, battle-scarred site** — a vacant lot between brownstones, a dead mall car park, an overgrown city park, a gutted warehouse. Damaged, overgrown, showing recent conflict. You build onto it.
+
+> [!info] This note supersedes Interview 1
+> Drafted **2026-07-26** from a working session that revisited the catalogue from scratch. Where it disagrees with the earlier answers in [[Interviews — Completing the Rules System]], **this note wins**:
+> - **Currency is Goods**, not Cash · **Power comes from a Generator**, not a Reactor.
+> - **Five categories** — Sustain / Convert / Operate / Recover / Defend — not the earlier seven.
+> - **25 structures**, not 5–10.
+> - **Four starting structures** (HQ · Water Reclaimer · Generator · Processor). Goods needs no gatherer; it flows in from battles, raids and scavenging.
+>
+> Four earlier ideas are **not** in the 25 and are still live candidates if you want them: the **Vault** (an HQ add-on holding Goods/loot, hard to breach in a raid), **Robotics Workshop**, **Server / AI Core**, **Advanced Weapons Lab**. Adding any means cutting an equal number below.
+
 ## Design contract — the five rules that keep this honest
 
 1. **Every structure earns its slot.** No flat `+1`. A structure must do at least one of: unlock a campaign action · raise a meaningful capacity · convert one resource into another · expand list-building options · protect something you could otherwise lose · change how a raid is fought.

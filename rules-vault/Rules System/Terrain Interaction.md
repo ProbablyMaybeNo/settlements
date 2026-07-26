@@ -122,15 +122,19 @@ Operating terminals, Linked networks, range bands, and the hacker-vs-hacker **In
 
 - Repair = INT Interact, 7+, adjacent to a Down feature.
 - No in-battle building reinforce at launch.
-- Settlement upgrades show up as board state:
+- Built structures show up as board state. The full list is the catalogue in [[Structures]]; each entry's terrain line is declared from the settlement sheet at setup.
 
-|Upgrade|Battle effect|
+|Structure|Battle effect|
 |---|---|
-|Reinforced doors|Named doors start Lockable / Reinforced (skills/traits may be required to Force)|
-|Turret emplacement|Deploy one [[Deployables]] turret free at setup (Powered, Hackable)|
+|**Gatehouse** / reinforced doors|Named doors start Lockable (skills/traits may be required to Force)|
+|**Turret Mount**|Hosts one [[Deployables]] turret that **auto-deploys** — online at setup, no INT test|
 |Trap stockpile|X traps pre-placed, armed and concealed|
-|Workshop / scrap|Materials / Build tokens if used|
-|Generator / security net|Terminals, cameras, alarms — the Linked network|
+|**Workshop** / **Salvage Yard**|Materials / Build tokens if used|
+|**Generator** / security net|Terminals, cameras, alarms — the Linked network|
+|**Watchtower** / **Scout Post**|Elevated firing position; the defender may start a model in it|
+
+> [!warning] Auto-deploy is not free deploy
+> A settlement piece skips only the **INT test**. It still **costs crew-points** in [[List Building]], still occupies a slot inside the sacred **9–12** density band ([[Terrain#Settlement boards — the same procedure, one square-set pre-filled]]), and keeps full fragility — `WND−1`, repairable once, hijackable. Ownership buys **availability**, never board power.
 
 ### Traps and deployable defences
 
