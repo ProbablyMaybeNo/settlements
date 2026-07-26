@@ -2,17 +2,17 @@
 type: rule-phase
 phase: "10"
 stage: S4 Settlement & Campaign
-status: Not Started
+status: Designing
 build_order: 16
 depends_on: ["Core Game Format"]
-feeds_into: ["Economy", "Campaign", "Final Alpha", "Downtime", "Events", "Solo & Co-op", "Factions"]
+feeds_into: ["Structures", "Economy", "Campaign", "Final Alpha", "Downtime", "Events", "Solo & Co-op", "Factions"]
 tags: [settlements/phase, settlements/stage/s4]
 ---
 # 10 · Settlement
-> **S4 Settlement & Campaign** · status **Not Started** · build order **16**
+> **S4 Settlement & Campaign** · status **Designing** · build order **16**
 
 **Depends on:** [[Core Game Format]]
-**Feeds into:** [[Economy]], [[Campaign]], [[Final Alpha]], [[Downtime]], [[Events]], [[Solo & Co-op]], [[Factions]]
+**Feeds into:** [[Structures]], [[Economy]], [[Campaign]], [[Final Alpha]], [[Downtime]], [[Events]], [[Solo & Co-op]], [[Factions]]
 **Raw dependency (from Notion):** Format
 
 ## Focus
@@ -20,10 +20,13 @@ The base layer — resources and buildings. A thin slice of this is required for
 
 The Rules column should nail down:
 - The settlement map and how players place built structures — these placements literally become the boards battles are fought on.
-- Building types and what each does: resource gatherers, crafting stations, defences, utility structures.
+- Building types and what each does: resource gatherers, crafting stations, defences, utility structures. → **drafted in [[Structures]]**
 - Build/upgrade costs and the in-battle buffs structures grant (turrets, reinforced doors, traps).
 - Structural damage and collapse, driving the tough choices: rebuild/reinforce vs recruit vs research.
-- The minimum viable slice the Final Alpha needs (~10 buildings, ~5 resources).
+- The minimum viable slice the Final Alpha needs (~10 buildings, **4 resources** — Goods, Materials, Power, Water).
+
+> [!info] The catalogue lives in [[Structures]]
+> 25 structures, footprint classes, the 12"×36" canvas, Power draw and the terrain line for every entry. This note keeps founding, layout, roles and the resource loop.
 
 ## Working rules / decisions
 _Not drafted yet._
@@ -47,6 +50,9 @@ Founding a settlement
 - Starting layout - When players are starting the game they begin by building their settlement using an app we will create or with a paper and pencil/grid found in the rule book. They are given a 12x36 area where they will build their settlement by placing their structures in their area. This layout will be used for some of the battle types, mostly raids. 
 
 *need to draft the rules for these*
+
+> [!check] Resolved — the canvas is **12 inches × 36 inches** on a **1" grid**
+> Sized so the whole settlement always fits on a standard **3'×3'** board: it occupies the defender's **back three 12"×12" density squares** ([[Terrain#Setup procedure]]), and the attacker crosses ~24" of neutral ground. Because the settlement fits the board, **there is no raid window** — a raid always uses all of it. Full rules in [[Structures#The settlement canvas]].
 
 - Hiring a crew - I’m toying with the idea that a players starting crew will be determined by the structures they choose for their settlement. Every player will start with the same basic structures allowing for say 10 crew members but if they want to hire more for their starting crew they can spend some of their initial cash on building another "crew cabin" or housing which unlocks more recruit slots. This could also be the case for hiring more specialists.
   

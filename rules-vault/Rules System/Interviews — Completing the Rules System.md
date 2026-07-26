@@ -98,12 +98,12 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 
 - [ ] Board-provenance selector: settlement window / owned-structure encampment / themed scavenge — each normalized to 9–12.
 	- *Answer:* 
-- [ ] Grid scale (inches/cell); is the canvas larger than one board (raid = a window)?
-	- *Answer:* 
+- [x] Grid scale (inches/cell); is the canvas larger than one board (raid = a window)?
+	- *Answer:* **1" grid. Canvas is 12" × 36" — it is NOT larger than one board.** It fits the defender's back three 12"×12" density squares on a 3'×3'. [[Structures#The settlement canvas]]
 - [ ] Fill-and-cap: under-fill → neutral to 9, over-fill → bench to 12. Who places neutral fill?
 	- *Answer:* 
-- [ ] Raid window: fixed by defender / randomized / attacker-chosen? Attacker-side balancing lever?
-	- *Answer:* 
+- [x] Raid window: fixed by defender / randomized / attacker-chosen? Attacker-side balancing lever?
+	- *Answer:* **Question is dead** — the settlement fits the board, so a raid always uses all of it. Attacker deploys on the far edge and crosses ~24" of neutral ground; that approach is the attacker-side cost. Lever still open.
 - [ ] New scenario reskins: Settlement Raid / Defence / Territory Capture / Supply-Line / Scavenge (rename vs the loot "Raid").
 	- *Answer:* 
 - [ ] Raids: keep 6 rounds + equal points, or asymmetric length/points?

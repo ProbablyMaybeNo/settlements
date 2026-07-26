@@ -9,7 +9,7 @@ Everything needed to take Settlements from *scaffold* to a *complete, book-ready
 
 ## 1 · Where it stands today
 
-**33 phases** (incl. [[Hacking]]) — ✅ **17 drafted** · 🎯 1 milestone · ⬜ 15 not started.  
+**34 phases** (incl. [[Hacking]], [[Structures]]) — ✅ **18 drafted** · 🟨 1 designing · 🎯 1 milestone · ⬜ 14 not started.  
 Reference notes: [[Weapons]] · [[Skill Paths]] · *(Terrain Features catalogue TBD)*
 
 | Stage | Phases | Status |
@@ -17,7 +17,7 @@ Reference notes: [[Weapons]] · [[Skill Paths]] · *(Terrain Features catalogue 
 | **S1 Foundation** | 3 | ✅ All Drafted |
 | **S2 Core Combat** | 8 | ✅ All Drafted (some Focus items still open) |
 | **S3 Battle Layer** | 7 | ✅ All Drafted |
-| **S4 Settlement & Campaign** | 10 | 🟡 Campaign + Progression Drafted · rest empty |
+| **S4 Settlement & Campaign** | 11 | 🟡 Campaign, Progression, Structures Drafted · Settlement Designing · rest empty |
 | **Milestone** | 1 | 🎯 Final Alpha |
 | **S5 Content** | 1 | ⬜ Not Started |
 | **S6 Production** | 5 | ⬜ Not Started |
@@ -236,14 +236,22 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 ### S4 Settlement & Campaign
 *The meta-game: bases, economy, and the persistent war between battles.*
 
-#### 10 · [[Settlement]] — ⬜ Not started
-<small>depends on: Core Game Format</small>
+#### 10 · [[Settlement]] — 🟨 Designing
+<small>depends on: Core Game Format · catalogue split out to [[Structures]]</small>
 
-- [ ] The settlement map and how players place built structures — these placements literally become the boards battles are fought on.
-- [ ] Building types and what each does: resource gatherers, crafting stations, defences, utility structures.
+- [x] The settlement map and how players place built structures — **12"×36" canvas on a 1" grid**, the defender's back three density squares on a 3'×3' board ([[Structures#The settlement canvas]]).
+- [x] Building types and what each does: resource gatherers, crafting stations, defences, utility structures. — **25 drafted in [[Structures]]**
 - [ ] Build/upgrade costs and the in-battle buffs structures grant (turrets, reinforced doors, traps).
 - [ ] Structural damage and collapse, driving the tough choices: rebuild/reinforce vs recruit vs research.
-- [ ] The minimum viable slice the Final Alpha needs (~10 buildings, ~5 resources).
+- [ ] The minimum viable slice the Final Alpha needs (~10 buildings, **4 resources**).
+
+#### 36 · [[Structures]] — ✅ Drafted
+<small>depends on: Settlement, Terrain, Terrain Interaction, Infrastructure, Deployables</small>
+
+- [x] 25 structures across Sustain / Convert / Operate / Recover / Defend; 4 starting, the rest founding-eligible or tier-gated.
+- [x] Footprint classes — Building 6×6" min · Plant ~3×3" · Station 3×1" min; terrain sizes are approximate, tolerance rule included.
+- [x] Every entry ships a [[Terrain#Setup procedure|terrain line]] and a Power draw; Generator +3 vs a starting draw of exactly 3.
+- [ ] Costs in Goods/Materials — blocked on [[Economy]].
 
 #### 11 · [[Economy]] — ⬜ Not started
 <small>depends on: Settlement</small>
@@ -288,7 +296,7 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 #### 32 · [[Final Alpha]] — 🎯 Milestone
 <small>depends on: Morale, Scenarios, Settlement, Territory</small>
 
-- [ ] 🎯 FIRST PUBLIC PLAYTEST GATE: 1 faction, 10 units, 10 buildings, 5 resources, 3 scenarios, 1 of each core system. Don't deepen anything until this slice plays.
+- [ ] 🎯 FIRST PUBLIC PLAYTEST GATE: 1 faction, 10 units, 10 buildings, 4 resources, 3 scenarios, 1 of each core system. Don't deepen anything until this slice plays.
 
 
 ### S4 Settlement & Campaign
@@ -400,7 +408,7 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [ ] **G2 — Playable skirmish:** [[Unit Design]]→[[Morale]] drafted; two crews can fight one board start-to-finish.
 - [ ] **G3 — Board alive:** [[Terrain]] + [[Scenarios]] drafted; a battle has a point and interactive terrain.
 - [ ] **G4 — Campaign loop:** [[Settlement]] + [[Campaign]] thin slice; crews and bases persist between games.
-- [ ] **🎯 Final Alpha:** [[Final Alpha]] — 1 faction, 10 units, 10 buildings, 5 resources, 3 scenarios, 1 of each core system.
+- [ ] **🎯 Final Alpha:** [[Final Alpha]] — 1 faction, 10 units, 10 buildings, 4 resources, 3 scenarios, 1 of each core system.
 - [ ] **G5 — Content complete:** [[Factions]] + [[Balance]] done; the game is feature-complete and tuned.
 - [ ] **G6 — Book-ready:** [[Components]], [[Rulebook]], [[Edge Cases]] done; [[Playtesting]] through Release Candidate.
 

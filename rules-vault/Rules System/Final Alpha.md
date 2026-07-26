@@ -16,7 +16,7 @@ tags: [settlements/phase, settlements/stage/milestone]
 **Raw dependency (from Notion):** Thin slice of #1–20
 
 ## Focus
-🎯 FIRST PUBLIC PLAYTEST GATE: 1 faction, 10 units, 10 buildings, 5 resources, 3 scenarios, 1 of each core system. Don't deepen anything until this slice plays.
+🎯 FIRST PUBLIC PLAYTEST GATE: 1 faction, 10 units, 10 buildings, 4 resources, 3 scenarios, 1 of each core system. Don't deepen anything until this slice plays.
 
 ## Working rules / decisions
 _Not drafted yet._
