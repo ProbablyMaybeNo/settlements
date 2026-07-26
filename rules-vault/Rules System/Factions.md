@@ -27,10 +27,19 @@ The Rules column should nail down:
 
 ## Working rules / decisions
 > [!note] Placeholder — deferred to an upcoming session (noted 2026-07-23)
-> Factions are **planned but not yet designed.** When we build them, the lead lever is a **single, strong, playstyle-defining "signature" rule per faction** — the cheapest way to let players choose different strategies at list-building — modelled on how BLKOUT's **Force Rules** each encode one identity (aggro / attrition / gunline / cyber). See the BLKOUT read-through (Settlements repo → `docs/BLKOUT-RULES-ANALYSIS.md` §19, steal #4). Each signature rule must **hook into existing systems, not invent a new subsystem** (per Focus above).
+> Factions are **planned but not yet designed.** When we build them, the lead lever is a **single, strong, playstyle-defining "signature" rule per faction** — the cheapest way to let players choose different strategies at list-building — modelled on how BLKOUT's **Force Rules** each encode one identity (aggro / attrition / gunline / cyber). See the BLKOUT read-through (Settlements repo → `docs/BLKOUT-RULES-ANALYSIS.md` §19, steal #4). Each signature rule must **hook into existing systems, not invent a new subsystem** (per Focus above)
 
-_Not drafted yet — see placeholder note above; picking up in an upcoming session._
+### WIP FACTION LIST
 
+1. Civilians - Jack of all trade master of none, a crew made up of your average soccer moms and little league coach dads.
+   
+2. First Enforcers - Ex-polioce, firemen, EMTs
+   
+3. Laborers - Factory workers, Miners, Ironworks, etc. 
+   
+4. Lost Batallion - Ex-military, soldiers, airforce, navy, etc.
+
+5. 
 ## Rule ledger
 _none_
 
