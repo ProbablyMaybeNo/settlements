@@ -55,7 +55,10 @@ Deployables inherit the [[Weapons#Design contract — the three rules that keep 
 4. **Fail** → it is **placed but exposed and inert**: a mine/trap is **armed but visible** (the enemy can see it, avoid it, disarm or shoot it); standing hardware sits **Offline** until a fighter gets it running (a **repair**, below).
 5. **Nat 1** → **backfire.** A mine/trap **triggers on the deployer** (resolve its effect against them); standing hardware is **Destroyed** for this battle. **Nat 10** auto-succeeds as normal.
 
-Pre-placed **settlement** deployables (a [[Terrain Interaction#In-battle repair / settlement hook|Trap stockpile]] or turret emplacement) skip the roll — they **deploy armed and concealed / online** during setup.
+Pre-placed **settlement** deployables (a [[Terrain Interaction#In-battle repair / settlement hook|Trap stockpile]], or a turret on a built [[Structures|Turret Mount]]) skip the roll — they **deploy armed and concealed / online** during setup.
+
+> [!warning] Auto-deploy is all that ownership buys
+> Owning the structure removes the **INT test**, nothing else. The deployable still **costs crew-points** in [[List Building]], still occupies a slot inside the sacred **9–12** density band ([[Terrain#Settlement boards — the same procedure, one square-set pre-filled|settlement boards]]), and keeps **full fragility** — `WND−1`, repairable once, hijackable, destroyable. A bigger settlement never means a bigger army.
 
 ### Build rating — some things are harder to build
 The **Build rating** is a modifier on the deploy test, printed on the item. It is **intrinsic to the device**, not a difficulty the table assigns — a sentry gun is genuinely fiddlier than a tripwire. It obeys the global **±3** cap alongside skills, conditions and **Shaken**.

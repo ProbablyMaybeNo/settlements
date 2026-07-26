@@ -114,6 +114,19 @@ Any collection — DIY, 3D-printed, bought — plugs in the same way:
 5. Check the board has at least 2 Buildings/Ruins and real interactive pieces (Searchable, a terminal or Feature) — a bare board is not a Settlements board.
 6. Check access: every elevated area has its no-test route (stairs/ladder).
 
+#### Settlement boards — the same procedure, one square-set pre-filled
+When a battle is fought at someone's settlement, the defender's layout supplies part of the board and **the density band is unchanged**.
+
+1. The settlement is a **12" × 36"** strip on the defender's board edge — exactly the **back three 12"×12" squares** of the nine above ([[Structures#The settlement canvas]]).
+2. Those three squares are already filled: the defender's placed structures **are** their large features. Each declares its one-line profile from the settlement sheet.
+3. Fill the attacker's remaining **six** squares with neutral terrain as normal, until the board totals **9–12** large features.
+4. Over-filled? Bench structures down to the ceiling exactly as you would neutral scatter. **The band wins over the layout, always.**
+
+Because the settlement fits inside one board there is **no window to pick** — a raid uses all of it, and the attacker crosses ~24" of neutral ground to reach it.
+
+> [!info] A settlement never buys board advantage
+> A developed settlement changes *what* fills those three squares, never *how many* features the board has. Structures granting deploy-rights (turret hardpoints and the like) still cost crew-points and still sit inside the band — see [[Structures#Design contract — the five rules that keep this honest|the structure contract]] and [[Deployables]].
+
 One line per piece is enough: `Ruin · Difficult · Light · Unstable, Climbable, Searchable`.
 
 > [!danger] Density is a **band**, not a floor — the most powerful dial in the game

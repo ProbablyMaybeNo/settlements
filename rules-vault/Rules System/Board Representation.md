@@ -19,6 +19,14 @@ Represent the piece however you like, then declare its one-line profile at setup
 | **Feature** | a printed token or a small model (terminal, vent, camera, turret) | occupies its spot; feature-damage rules ([[Terrain Interaction]]) |
 | **Deployed** | the player-placed model itself (barricade, trap, turret) | as placed / as the piece |
 
+## Settlement structures
+Built structures follow the **Terrain** rules above — declare the same one-line profile at setup. The catalogue prints one for every entry ([[Structures]]).
+
+- **Footprints are approximate.** The size in [[Structures#Footprint classes|the catalogue]] is what a structure costs on your **settlement sheet**, not a requirement about your model. Within **2"** (Buildings/yards) or **1"** (Plant/Stations), use whatever you own. Badly oversized? Re-reserve the bigger footprint on the sheet — it costs you other structures, so it self-corrects.
+- **Mark every interactive point.** Any tag a structure carries — Openable, Lockable, Hackable, Searchable, Climbable, Powered — must be **visible on the table**, either modelled onto the piece or shown with a token. If a door can be locked there is a door or a door token; if there is a terminal, there is a terminal. Nothing interactive is invisible.
+- **Build the detail in.** Model what the structure actually does where you can — a working gate, a ladder to a firing platform, a roof hatch, a wall terminal, a turret hardpoint. The closer the scenery matches its profile, the more the table reads itself.
+- **Disabled** structures (sabotaged, or unpowered) get a face-down or flipped marker; they give no benefit until repaired.
+
 ## Infrastructure features
 Infrastructure belongs to the **building**, not a spot inside it ([[Infrastructure#Placement]]). Put a labelled token on or beside the structure to show it owns that feature; use the model itself for a moving part (crane arm, vent line, bridge span).
 

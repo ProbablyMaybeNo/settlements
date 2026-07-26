@@ -4,7 +4,7 @@ phase: "28"
 stage: S6 Production
 status: Not Started
 build_order: 29
-depends_on: []
+depends_on: ["Structures"]
 feeds_into: []
 tags: [settlements/phase, settlements/stage/s6]
 ---
@@ -25,7 +25,23 @@ The Rules column should nail down:
 - A rule of thumb: don't finalise any component until the system it represents is locked.
 
 ## Working rules / decisions
-_Not drafted yet._
+
+### The settlement sheet
+The one component the settlement layer cannot ship without.
+
+- A **12 × 36 grid of 1" squares** — 432 squares, one page. Groundworks II needs an 18 × 48 version.
+- It is the **mechanical source of truth**: every placed structure's footprint, Power draw and one-line terrain profile is read off the sheet at setup, not measured off the models ([[Structures#On terrain sizes]] · [[Board Representation#Settlement structures]]).
+- Also carries: the Power sum (output vs draw), the four resource tracks, roster/housing count, and the Functional/Disabled flag per structure.
+
+### Structure tiles
+Every entry in [[Structures]] ships as a **print-and-cut tile at its exact grid footprint**. This is the reference implementation and it must stay complete — a player with no scenery at all builds a full settlement from the printed sheet, which is what keeps the **no-collection-to-win** tenet honest.
+
+- [ ] Tile art for all 25 entries + the three Station→Building upgrade forms
+- [ ] Who authors the art
+- [ ] Token set for the interactive points: door, terminal, hatch, ladder, hardpoint, **Disabled**
+
+> [!warning] Don't finalise ahead of [[Economy]]
+> Tiles can be drawn now — footprints are settled. **Costs cannot**: nothing in [[Structures]] is priced until the Goods/Materials inflow rates exist.
 
 ## Rule ledger
 _none_

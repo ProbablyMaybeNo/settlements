@@ -221,7 +221,7 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 - Recruiting Board — `Scatter · Open · Open · Searchable`
 
 > [!warning] Med-bay must not undo the scar rebate
-> [[Progression]] pays a **−2** rebate for a permanent scar. If the Med-bay heals scars for free the rebate becomes a free lunch. Scar healing is the **T2 tier only** and costs Goods/Materials, so the trade stays a trade.
+> [[List Building#Campaign rosters]] pays a **−2** rebate for a lasting scar — the anti-snowball valve that lets veterans crowd out rookies. If the Med-bay heals scars for free that valve becomes a free lunch. Scar healing is the **T2 tier only** and costs Goods/Materials, so the trade stays a trade. See also [[Progression]] · [[Campaign]].
 
 ### Defend — this is the raid board
 

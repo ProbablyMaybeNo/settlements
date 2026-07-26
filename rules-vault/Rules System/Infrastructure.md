@@ -147,6 +147,14 @@ Assign features before deployment, guideline **one Infrastructure Feature per bu
 - **Symmetry:** assign features **alternately** (or mirror them across the centreline) so neither crew hand-picks all the strong ones near its own deployment.
 - **Density tie-in:** infrastructure rides on the terrain the board already needs — the [[Terrain]] density band is **9–12 large features**; put infrastructure on **roughly half** of the eligible buildings, not all of them.
 
+### Settlement battles
+The **defender's own layout** supplies the back three density squares ([[Terrain#Settlement boards — the same procedure, one square-set pre-filled]]), which replaces the symmetric assignment above on that half of the board. This is deliberately asymmetric — you are fighting in someone's home.
+
+- **The defender's structures carry their own features.** A built [[Structures|structure]] arrives with the tags printed in its catalogue entry — a Gatehouse is Openable/Lockable/Hackable because it is a gate, not because a scenario assigned it. No alternate-assignment pass over the settlement squares.
+- **The attacker's six squares assign as normal**, alternately or mirrored, on roughly half the eligible buildings.
+- **The one-per-building guideline still holds** — a structure's catalogue tags *are* its feature; don't stack a scenario feature on top.
+- The attacker's compensation is the ~24" of open approach, not a matching set of toys.
+
 ### Placement
 Infrastructure belongs to the **building**, not a spot inside it. Put the token on or beside the structure to show it possesses that feature; the building is the source unless a feature states otherwise (a crane's arm, a vent's line — use the model).
 
