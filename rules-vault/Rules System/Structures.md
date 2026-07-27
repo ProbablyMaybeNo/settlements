@@ -38,6 +38,7 @@ The lot itself is a **barren, battle-scarred site** — a vacant lot between bro
 > - **One gatherer per resource, but you may build more.** Adopted, with the restriction loosened: the starting set gives one gatherer each for Goods / Materials / Water, and **additional output always costs another structure or an upgrade** — never a free multiplier.
 > - **Five categories kept** — Sustain / Convert / Operate / Recover / Defend, over the earlier seven.
 > - **25 structures** — the "5 to 10" answer was scoped to *release* count, a different question.
+> - **No build prerequisites.** Structures are never chained; cost and floor space are the only gates. Upgrade ladders stay, because a tier is one structure maturing rather than a second structure.
 > - **All four late ideas adopted:** **Vault** (as an HQ add-on), **Robotics Workshop**, **Server Core**, **Advanced Weapons Lab**. Four entries were cut to make room — Hydroponics, Vehicle Yard, Bunker (the Vault supersedes it) and Recruiting Board (blocked on hiring rules that don't exist yet).
 
 ## Design contract — the five rules that keep this honest
@@ -141,9 +142,9 @@ That is the whole anti-inflation shape for production: output scales, but only a
 
 ### Founding — choosing your first few
 
-At founding you spend a **Goods** budget on structures marked **⚑ Founding** below. They are placed on the canvas immediately, before your first game.
+At founding you spend a **Goods** budget on **anything in the catalogue**. Your picks are placed on the canvas immediately, before your first game. There is no founding-only subset and no prerequisite — the budget and the lot are the only limits.
 
-Your **location** ([[Settlement]]) grants **one ⚑ structure free** — hospital → Med-bay, police station → Holding Cells, scrapyard → a free Salvage Yard upgrade. Location and founding budget draw on the **same pool**, so a location is a head start and a flavour, never a building nobody else can reach.
+Your **location** ([[Settlement]]) grants **one structure free** — hospital → Med-bay, police station → Holding Cells, scrapyard → a free Salvage Yard upgrade. Location and founding budget draw on the **same catalogue**, so a location is a head start and a flavour, never a building nobody else can reach.
 
 > [!question] Founding budget not yet set
 > The Goods budget and every build cost below are unpriced. Set them with [[Economy]] — they need the Goods/Materials inflow rates first.
@@ -204,6 +205,15 @@ The lot is small on purpose, so the catalogue must not waste slots on things tha
 |**Build another**|You want **more throughput** of something you already have|A whole new footprint|A second Processor, another Storehouse, another tank|
 |**Groundworks**|You are out of lot|Materials + its own footprint|12×36 → 18×36|
 
+> [!danger] Nothing is chained — no structure requires another
+> **There are no build prerequisites.** Every entry in the catalogue is available from founding onward, and the only gates are **Materials cost** and **room on the lot**. You may build an EW Mast before you build a wall if that is the settlement you want.
+>
+> This is deliberate. Space already stops you building everything — the catalogue is ~651 square inches against a 432-square lot — and it stops each player building a *different* everything, because everyone cuts something different. A prerequisite tree does the opposite: it makes every settlement climb the same ladder in the same order. Scarcity produces divergence; tech trees produce convergence.
+>
+> **Upgrades are not chains.** A tier is the same structure maturing — an Equipment Shed becoming an Armory raises your gear cap without costing a second slot on the lot. That is the point of the ladders, and it is the only kind of sequencing the catalogue has.
+>
+> **Two structures attach rather than gate.** The **Vault** is bolted to the HQ and the **Turret Mount** is a hardpoint on a wall — they must be *placed* in contact with their host because they are physically part of it. That is a placement rule, not a prerequisite, and the HQ is a starting structure anyway.
+
 **A new catalogue entry has to earn itself by doing a different job.** If it does the same job bigger, it is a tier of something you already own — that is the test every entry below passes.
 
 **Entries are named at their first tier**, so the ladder reads naturally as it grows. An Equipment Shed becoming an Armory is the same structure maturing; it does not consume a second slot on the lot.
@@ -234,7 +244,7 @@ A young settlement is a scatter of stalls, tanks and gensets; growing up means t
 
 ## The catalogue — 25 structures
 
-**★** starting · **⚑** founding-eligible · **T2 / T3** require the named prerequisite
+**★** free starting structure. **Everything else is buildable from founding onward** — no structure requires another.
 Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup procedure]])
 
 ### Sustain — keep people alive, keep the grid up
@@ -242,11 +252,11 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 |Structure|Class|Size|Pwr|What it does|
 |---|---|---|---|---|
 |**Water Reclaimer** ★ *(repeatable, → Water Tower)*|Plant|3×3|−1|**Water** gatherer **and** Water storage — the tank is both. Water is consumed per head, so this sets what your population costs *and* caps how much you can hold|
-|**Cistern** ⚑ *(repeatable)*|Plant|3×3|0|Water storage **without** production — bank a reserve against a raid without expanding the plant|
+|**Cistern** *(repeatable)*|Plant|3×3|0|Water storage **without** production — bank a reserve against a raid without expanding the plant|
 |**Generator** ★|Plant|3×3|**+3**|**Power** output|
-|**Bunkhouse** ⚑|Building|6×9|0|**+N owned body slots** above HQ's base 10|
-|**Storehouse** ⚑ *(repeatable)*|Building|6×6|0|Bulk storage for **Goods and Materials** above the HQ's base cap — dry goods, not Water. **The loot target in a raid**|
-|**Equipment Shed** ⚑ *(→ Armory 6×6)*|Station|3×2|0|Holds every **unequipped** weapon, armour and piece of kit the crew owns. Caps the size of your persistent armoury; the Armory tier raises it and adds a lock|
+|**Bunkhouse**|Building|6×9|0|**+N owned body slots** above HQ's base 10|
+|**Storehouse** *(repeatable)*|Building|6×6|0|Bulk storage for **Goods and Materials** above the HQ's base cap — dry goods, not Water. **The loot target in a raid**|
+|**Equipment Shed** *(→ Armory 6×6)*|Station|3×2|0|Holds every **unequipped** weapon, armour and piece of kit the crew owns. Caps the size of your persistent armoury; the Armory tier raises it and adds a lock|
 
 - Water Reclaimer — `Scatter · Impassable · Heavy · Climbable, Breachable`
 - Generator — `Feature · Impassable · Heavy · Powered, Hackable, Explosive`
@@ -261,9 +271,9 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 |---|---|---|---|---|
 |**Processor** ★|Plant|3×5|−1|**Materials** gatherer — scrap → Materials|
 |**Salvage Yard** ★|Yard|5×7|0|**Goods** gatherer — sorts and values what scavengers haul back; better break-down rates on gear. Expandable|
-|**Trader's Kiosk** ⚑ *(→ Trade House 6×6)*|Station|3×2|0|Sell owned gear and surplus → **Goods**; the Trade House tier improves rates|
-|**Workbench** ⚑ *(→ Workshop 6×8, −1)*|Station|3×2|0|Craft and repair. **Workshop tiers unlock the weapon / armour / chem branches** — upgrades, not separate buildings|
-|**Fabricator** T2 *(Workshop)*|Building|6×6 → 6×10|−2 / −3|**Research**, in three tiers. **T1 Fabricator** unlocks new blueprints · **T2 Robotics Workshop** builds robots and UGVs and services the Drone Bay's airframes · **T3 Advanced Weapons Lab** unlocks the 2051 arsenal — directed-energy, guided small-arms, drone-delivered payloads ([[Weapons]])|
+|**Trader's Kiosk** *(→ Trade House 6×6)*|Station|3×2|0|Sell owned gear and surplus → **Goods**; the Trade House tier improves rates|
+|**Workbench** *(→ Workshop 6×8, −1)*|Station|3×2|0|Craft and repair. **Workshop tiers unlock the weapon / armour / chem branches** — upgrades, not separate buildings|
+|**Fabricator**|Building|6×6 → 6×10|−2 / −3|**Research**, in three tiers. **T1 Fabricator** unlocks new blueprints · **T2 Robotics Workshop** builds robots and UGVs and services the Drone Bay's airframes · **T3 Advanced Weapons Lab** unlocks the 2051 arsenal — directed-energy, guided small-arms, drone-delivered payloads ([[Weapons]])|
 
 - Processor — `Feature · Impassable · Heavy · Powered, Hackable, Climbable`
 - Salvage Yard — `Scatter cluster · Difficult · Light/Heavy by piece · Searchable, Movable, Unstable`
@@ -278,11 +288,11 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 |Structure|Class|Size|Pwr|What it does|
 |---|---|---|---|---|
 |**HQ** ★|Building|6×6|−1|Campaign actions, base **10** body slots, base storage. **Tiers raise how many crew you can dispatch per cycle** and gate the Vault|
-|**Vault** T2 *(HQ add-on)*|Plant|3×3|−1|**Secure** storage — small capacity, near-unbreachable. Where the irreplaceable goes|
-|**Scout Post** ⚑|Plant|3×3|0|Pre-**battle** information: see a Twist, choose attacker/defender, reroll deployment|
-|**Comms Mast** T2 *(HQ)*|Plant|3×3|−1|**Mission quality**: reroll a mission test, reach longer-range targets, broadcast for recruits. Dispatch *count* comes from HQ tiers|
-|**Server Core** T2 *(Fabricator)*|Building|6×6|−2|Intelligence and networked control — rival roster intel, and friendly terminals on the board count as **Linked** ([[Hacking]])|
-|**Drone Bay** T3 *(Fabricator T2)*|Building|6×8|−2|Drone [[Deployables]] **and** a recon drone that runs a scout mission **without spending a fighter**|
+|**Vault** *(attaches to HQ)*|Plant|3×3|−1|**Secure** storage — small capacity, near-unbreachable. Where the irreplaceable goes|
+|**Scout Post**|Plant|3×3|0|Pre-**battle** information: see a Twist, choose attacker/defender, reroll deployment|
+|**Comms Mast**|Plant|3×3|−1|**Mission quality**: reroll a mission test, reach longer-range targets, broadcast for recruits. Dispatch *count* comes from HQ tiers|
+|**Server Core**|Building|6×6|−2|Intelligence and networked control — rival roster intel, and friendly terminals on the board count as **Linked** ([[Hacking]])|
+|**Drone Bay**|Building|6×8|−2|Drone [[Deployables]] **and** a recon drone that runs a scout mission **without spending a fighter**|
 
 - HQ — `Building · Interior Open · Heavy · Openable, Lockable, Searchable, Climbable, Powered`
 - Vault — `Feature · Impassable · Heavy · Lockable, Hackable`
@@ -297,15 +307,15 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 > It cannot be separated from the HQ: it is an add-on placed in base contact, and it falls if the HQ does.
 
 > [!info] Why the Drone Bay matters more than it looks
-> [[Settlement]] locks **one roster with per-cycle assignment** — sending a fighter on a mission means they cannot fight. That opportunity cost is the whole tension of the downtime layer, and it bites hardest on small crews. The recon drone is the **pressure valve**: it buys back one mission without costing a body, at a T3 price behind a tiered Fabricator.
+> [[Settlement]] locks **one roster with per-cycle assignment** — sending a fighter on a mission means they cannot fight. That opportunity cost is the whole tension of the downtime layer, and it bites hardest on small crews. The recon drone is the **pressure valve**: it buys back one mission without costing a body, at a price that competes with everything else on the lot.
 
 ### Recover — people come back
 
 |Structure|Class|Size|Pwr|What it does|
 |---|---|---|---|---|
-|**Med-bay** ⚑|Building|6×6|−1|**+X** to the post-battle Fate roll; the T2 tier heals scars at a Goods/Materials cost|
-|**Holding Cells** ⚑|Building|6×6|−1|Prisoner capacity **+** reduced escape chance|
-|**Mess Hall** ⚑|Building|6×8|−1|Lower starting **Stress**, or one free clear per battle ([[Morale]])|
+|**Med-bay**|Building|6×6|−1|**+X** to the post-battle Fate roll; the T2 tier heals scars at a Goods/Materials cost|
+|**Holding Cells**|Building|6×6|−1|Prisoner capacity **+** reduced escape chance|
+|**Mess Hall**|Building|6×8|−1|Lower starting **Stress**, or one free clear per battle ([[Morale]])|
 
 - Med-bay — `Building · Interior Open · Heavy · Lockable, Searchable, Powered`
 - Holding Cells — `Building · Interior Open · Heavy · Lockable, Breachable, Hackable`
@@ -318,11 +328,11 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 
 |Structure|Class|Size|Pwr|What it does|
 |---|---|---|---|---|
-|**Perimeter Wall** ⚑|Line|1" thick, **6" segments**|0|The floor benefit — bought by the segment; shapes the whole raid board|
-|**Gatehouse** ⚑|Building|6×6|−1|A controlled chokepoint: the attacker breaches it or routes around it|
-|**Watchtower** ⚑|Plant|3×3|0|The defender starts one model in it; denies the attacker surprise|
-|**Turret Mount** T2 *(Wall or Gatehouse)*|Plant|2×2|−2|Hardpoint. The turret **auto-deploys** — but costs crew-points and keeps full fragility|
-|**EW Mast** T3 *(Comms Mast + Server Core)*|Plant|3×3|−2|Counter-hack and counter-drone: penalises enemy [[Hacking]] in a raid on you; blocks enemy drone deployables|
+|**Perimeter Wall**|Line|1" thick, **6" segments**|0|The floor benefit — bought by the segment; shapes the whole raid board|
+|**Gatehouse**|Building|6×6|−1|A controlled chokepoint: the attacker breaches it or routes around it|
+|**Watchtower**|Plant|3×3|0|The defender starts one model in it; denies the attacker surprise|
+|**Turret Mount** *(attaches to a Wall or Gatehouse)*|Plant|2×2|−2|Hardpoint. The turret **auto-deploys** — but costs crew-points and keeps full fragility|
+|**EW Mast**|Plant|3×3|−2|Counter-hack and counter-drone: penalises enemy [[Hacking]] in a raid on you; blocks enemy drone deployables|
 
 - Perimeter Wall — `Scatter · Impassable · Heavy · Climbable, Breachable, Barricadable`
 - Gatehouse — `Building · Interior Open · Heavy · Openable, Lockable, Hackable, Climbable`
