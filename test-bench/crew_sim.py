@@ -56,8 +56,8 @@ WEAPONS = {
     'rifle':     dict(rng=18, dmg=3, cost=12),
 }
 ARMOUR = {'none': (0, 0), 'improvised': (-1, 3), 'light': (-1, 6), 'heavy': (-2, 10)}
-RANK   = {'Rabble': 5, 'Recruit': 8, 'Specialist': 16, 'Leader': 24}
-ORDERS = {'Rabble': 0, 'Recruit': 0, 'Specialist': 1, 'Leader': 2}
+RANK   = {'Recruit': 5, 'Fighter': 8, 'Specialist': 16, 'Leader': 24}
+ORDERS = {'Recruit': 0, 'Fighter': 0, 'Specialist': 1, 'Leader': 2}
 
 def fighter(rank, weapon='bat', armour='none', **stats):
     f = dict(rank=rank, str=0, dex=0, agi=0, int=0, nrv=0, mov=6.0, wnd=1,
@@ -292,48 +292,48 @@ def _score(A, B, rnd):
 def CADRE():        # 4 models, all shooting. Pure DEX build.
     return [fighter('Leader', 'rifle', 'light', dex=4, str=2, nrv=0),
             fighter('Specialist', 'rifle', 'light', dex=4, nrv=0),
-            fighter('Recruit', 'pistol', dex=2),
-            fighter('Recruit', 'pistol', dex=2)]
+            fighter('Fighter', 'pistol', dex=2),
+            fighter('Fighter', 'pistol', dex=2)]
 
 def CADRE_MIXED():  # same 4 models, but stats split to survive a melee
     return [fighter('Leader', 'rifle', 'light', dex=4, str=2),
             fighter('Specialist', 'rifle', 'light', dex=2, str=2),
-            fighter('Recruit', 'pistol', str=2),
-            fighter('Recruit', 'pistol', str=2)]
+            fighter('Fighter', 'pistol', str=2),
+            fighter('Fighter', 'pistol', str=2)]
 
 def STANDARD():     # 6 models
     return [fighter('Leader', 'rifle', dex=4, str=2),
             fighter('Specialist', 'shotgun', dex=4),
-            fighter('Recruit', 'pistol', str=2),
-            fighter('Recruit', 'pistol', str=2),
-            fighter('Recruit', 'bat', str=2),
-            fighter('Recruit', 'bat', str=2)]
+            fighter('Fighter', 'pistol', str=2),
+            fighter('Fighter', 'pistol', str=2),
+            fighter('Fighter', 'bat', str=2),
+            fighter('Fighter', 'bat', str=2)]
 
 def RECRUIT_HORDE():   # 9 models, STR+2 brawlers. Legal without any doctrine.
     return [fighter('Leader', 'shotgun', str=4, nrv=2)] + \
-           [fighter('Recruit', 'bat', str=2) for _ in range(8)]
+           [fighter('Fighter', 'bat', str=2) for _ in range(8)]
 
-def RECRUIT_HORDE_NRV():  # same, but the Recruits bought Nerve instead of Strength
+def RECRUIT_HORDE_NRV():  # same, but the Fighters bought Nerve instead of Strength
     return [fighter('Leader', 'shotgun', str=4, nrv=2)] + \
-           [fighter('Recruit', 'bat', nrv=2) for _ in range(8)]
+           [fighter('Fighter', 'bat', nrv=2) for _ in range(8)]
 
 def PYRAMID_MOB():  # 11 models, the legal no-doctrine maximum
     return [fighter('Leader', 'shotgun', str=4, nrv=2)] + \
-           [fighter('Recruit', 'bat', str=2) for _ in range(5)] + \
-           [fighter('Rabble', 'bat') for _ in range(5)]
+           [fighter('Fighter', 'bat', str=2) for _ in range(5)] + \
+           [fighter('Recruit', 'bat') for _ in range(5)]
 
-def RABBLE_HORDE(): # 14 models, needs The Mob doctrine (Rabble w/o Recruits)
+def RABBLE_HORDE(): # 14 models, needs The Mob doctrine (Recruit w/o Fighters)
     return [fighter('Leader', 'shotgun', str=4, nrv=2)] + \
-           [fighter('Rabble', 'bat') for _ in range(13)]
+           [fighter('Recruit', 'bat') for _ in range(13)]
 
 LISTS = {
     'Cadre (4, pure DEX)':   CADRE,
     'Cadre (4, DEX/STR)':    CADRE_MIXED,
     'Standard (6)':          STANDARD,
-    'Recruit horde (9 STR)': RECRUIT_HORDE,
-    'Recruit horde (9 NRV)': RECRUIT_HORDE_NRV,
+    'Fighter horde (9 STR)': RECRUIT_HORDE,
+    'Fighter horde (9 NRV)': RECRUIT_HORDE_NRV,
     'Pyramid mob (11)':      PYRAMID_MOB,
-    'Rabble horde (14)':     RABBLE_HORDE,
+    'Recruit horde (14)':     RABBLE_HORDE,
 }
 
 def pct(x): return f"{x*100:4.0f}%"
@@ -378,7 +378,7 @@ if __name__ == '__main__':
 
     # --- diagnostics ----------------------------------------------------------
     print("\n" + "=" * 78)
-    print("[D] DIAGNOSTICS — Cadre(4) vs Rabble horde(14), by terrain")
+    print("[D] DIAGNOSTICS — Cadre(4) vs Recruit horde(14), by terrain")
     print(f"    {'terrain':<9}{'Cadre win':>11}{'avg rounds':>12}"
           f"{'Cadre alive':>13}{'Horde alive':>13}")
     for density in ('open', 'medium', 'dense'):
@@ -391,7 +391,7 @@ if __name__ == '__main__':
               f"{sa/N:>13.1f}{sb/N:>13.1f}")
 
     print("\n[E] STRESS CASCADE — how often does a crew break vs get shot?")
-    print("    cause of removal, Rabble horde(14) vs Cadre(4):")
+    print("    cause of removal, Recruit horde(14) vs Cadre(4):")
     for density in ('open', 'medium', 'dense'):
         causes = Counter()
         for _ in range(400):

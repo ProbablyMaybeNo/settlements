@@ -228,7 +228,40 @@ The one catalogue price this moved: **Makeshift Flamethrower 150 → 110** (Heav
 | Light | **60** | −1 | — |
 | Heavy | **100** | −2 | −1 MOV, −1 AGI, Loud |
 
-> ⚠️ **Armour is the least trustworthy block in this table.** A sim run on 2026-07-28 found that dropping 12 points of Light armour from two fighters barely moved win rate, while dropping a 12-point *model* absorbed a whole weapon upgrade. Either armour is overpriced at 60, or the sim under-models it at WND 1. `Weapons.md` and `List Building.md` also disagree on this table. **Resolve before locking.**
+> 🚦 **DECISION GATE (M2) — evidence only. No armour price has been changed.**
+
+**Correction:** `Weapons.md:126` and `List Building.md:61` **agree** — both list Improvised 3 / Light 6 / Heavy 10 at the 100-scale, which is exactly the 30 / 60 / 100 above. The earlier claim that they disagree does not hold against the live vault.
+
+**What was measured 2026-07-30** (all reproduced or newly run; see `balance/`):
+
+| # | Measurement | Result | Engine |
+|:--:|---|---|:--:|
+| 1 | +1 Armour given free, per model — `primitives.py` | Cadre 4: **+1.60**/model · Pyramid 11: **+1.24**/model (1.29× apart — **archetype-neutral**) | 1D |
+| 2 | Armour bought with bodies — `melee_armour.py` | Improvised 8 beats Bare 11 **37.9%** | 1D |
+| 3 | **Same trade re-run** — `primitives2d.py` | Armoured 7 (95) vs Mob 11 (97): Hold **45.2%**, Annihilate **53.9%**, mean **49.6%** | **2.5D** |
+| 4 | +1 Armour vs +1 Damage — `primitives2d.py` | **0.9756×** (1D said 1.0089×) | **2.5D** |
+
+**(3) confirms the plan's suspicion: the 1D 37.9% was an artefact.** In 2.5D, buying armour with bodies is a coin flip — the armour paid for itself.
+
+**(4) is the robust core.** One point of armour ≈ one point of damage, on **both** engines, in four independent computations spanning 0.98–1.10×. This is not a 1D artefact.
+
+### The gap is not what it looks like
+
+The apparent "4× gap" compares a **relative** measurement against an **absolute** legacy table. `anchor2d.py` was written to measure the absolute level — Goods per win-point, by removing known quantities of points from a crew — and **it could not**: the slope moves from **8.5 to 15.4 Goods per win-point** depending on a single variant, and the Hold column is non-monotonic (removing 90 Goods *gained* 6.1 win-points while removing 50 Goods lost 18.3). Crew size changes objective assignment discretely in `_spawn`, which makes small crew-size deltas lumpy rather than noisy.
+
+> **So the absolute anchor is unmeasured.** `+1 Damage = 15 Goods` is a *choice* — it is the value of `TICK_STAT` — not a measurement. Every atom in §5.1 inherits that. The measurements fix the **ratios** only.
+
+### A structure that already fits
+
+Read the existing table as a rate plus a drawback refund and it is close to self-consistent:
+
+- **Improvised −1 = 30**, and the 2.5D body-trade (3) says 30 is roughly break-even. So **−1 injury ≈ 30 Goods**.
+- **Light −1 = 60** = the same 30, **plus 30 to not carry the −1 AGI**.
+- **Heavy −2 = 100.** At that rate it should be 2 × 30 = 60 *minus* refunds for −1 MOV, −1 AGI **and** Loud. It is charged **above** the clean rate while carrying three drawbacks.
+
+Heavy being poor value is visible in (2): Heavy 5 lost to Light 6 (48.0%) and was the worst build against both gunline foes.
+
+**The open question for Ross is which number is the anchor**, not whether armour is wrong: at a 30-Goods injury anchor the armour table is nearly right and §5.1's atoms are all half what they should be; at a 15-Goods anchor armour is 2–4× too dear. **Do not lock either until the gate is called.**
 
 | Equipment | Cost |
 |---|:--:|
@@ -267,6 +300,39 @@ The engine is multiplicative: `P(kill) = P(hit) × P(injure)`. So a 100-point ri
 **A is assumed here**, because a single summable table was the requirement. Two things bound the error: the **±3 modifier cap** keeps builds near the diagonal where additive pricing is valid, and **rank gates** already stop Recruits carrying the best guns.
 
 **The test that settles it:** run the 4-model Cadre against the 11-model Pyramid at 1000 points. If the elite list drifts up, option A is leaking and B is needed.
+
+---
+
+> 🚦 **DECISION GATE (M7) — evidence only. Nothing has been changed.**
+
+**The test was run** (`balance/suite.py`, 8 crews × 5 scenarios, 200 games/pairing, sides swapped, 2.5D) and **the elite list does not drift up. It drifts down.**
+
+| Crew | models | pts | mean win% |
+|---|:--:|:--:|:--:|
+| Mob 11 | 11 | 97 | **67** |
+| Armoured 7 | 7 | 95 | 65 |
+| Horde 12 | 12 | 97 | 63 |
+| Redline 6 | 6 | 98 | 55 |
+| Skirmish 6 | 6 | 94 | 46 |
+| Turret 5 | 5 | 97 | 36 |
+| Elite 3 | 3 | 92 | 36 |
+| **Gunline 4** | 4 | 96 | **32** |
+
+Model count explains most of it: **r = 0.841, r² = 0.708**, slope **+3.78 win-points per extra model**. At equal points the elite crews are the *worst* in the game, not the best.
+
+**The coupling the section predicts is nonetheless real and large.** Per model buffed (`primitives2d.py`, 2000 games/cell):
+
+| Primitive | Gunline 4 | Squad 8 | elite advantage |
+|---|:--:|:--:|:--:|
+| +1 to-hit (Hold) | +1.56 | +0.26 | **6.0×** |
+| +1 to-hit (Annihilate) | +3.62 | +1.33 | **2.7×** |
+| +1 Damage (Annihilate) | +1.97 | +0.83 | **2.4×** |
+
+So a point of offence really is worth 2.4–6.0× more on an elite model — **and it still is not enough to make elite lists competitive.** Body count swamps it.
+
+**A caveat that weakens the case for B further.** Annihilate is the one scenario where elites lead (Gunline 71%, Elite 70%), and its scoring is **not normalised by crew size** — VP is a raw count of enemy models removed. Gunline 4 vs Mob 11 scores **4.75 vs 1.53** VP; as a *fraction of the enemy crew destroyed* that is **43.2% vs 38.1%** — nearly even. Much of the elite lead in Annihilate is a scoring artefact, not lethality.
+
+**Scenario scoring remains the dominant lever**, as the completion plan already found. Per-scenario spread in this run: Hold **65**, Breakthrough **64**, Loot **60** — against Hold+Claim **37** and Annihilate **36**.
 
 ---
 
