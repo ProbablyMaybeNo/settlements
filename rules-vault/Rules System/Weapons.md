@@ -30,7 +30,7 @@ Grandpa's Rifle  Standard Ranged · Accurate · Long Range                     1
 | **Thrown** | 2 | +1 | 6" | 1 | Any | 2 | **Limited** (one use) |
 | **Sidearm** | 4 | +2 | 8" | 1 | Recruit | 2 | **Sidearm** (may fire while Engaged), Loud |
 | **Standard Ranged** | 10 | +3 | 18" | 2 | Fighter | 3 | Two-Handed, Loud |
-| **Heavy Ranged** | 14 | +3 | 24" | 2 | Specialist | 4 | Two-Handed, Loud, **Cumbersome** (−1 MOV) |
+| **Heavy Ranged** | **16** | +3 | 24" | 2 | Specialist | 4 | Two-Handed, Loud |
 
 Damage feeds the **Injury roll** — `1d10 + Damage − Armor` vs **7+** ([[Damage]]).
 
@@ -121,15 +121,22 @@ The DIY layer. This is how you build a pipe shotgun that might blow up in your h
 
 ---
 ## 3 · Armor
-Armor reduces the **Injury roll only** — never the hit. Cover protects against *being hit*; armor protects against *being hurt* ([[Rules Engine]]).
+Armor reduces the **Injury roll only** — never the hit.
+
+> [!info] Armour carries no drawbacks *(2026-07-30)*
+> A drawback you **opt into** for a discount is a deal — that is the DIY weapon layer below, and it stays. A drawback **welded onto something you want** is a tax, and armour had two of them. They are gone.
+>
+> The ladder is now linear in what armour actually does: the Injury roll is `1d10 + Damage − Armor` vs **7+**, so each point of armour is a flat **−10%** on being hurt. **−2 is worth exactly twice −1, so Heavy costs exactly twice Light.**
+>
+> **Improvised and Light are the same profile at the same price.** They differ only in how you get them — Improvised is **crafted from Materials** at your settlement, Light is **bought with Goods**. A cheaper price for an identical profile would be a free discount and would break the points system. Cover protects against *being hit*; armor protects against *being hurt* ([[Rules Engine]]).
 
 | Armor | Injury | Drawback | Cost |
 |---|:---:|---|:--:|
 | None | 0 | — | **0** |
 | Thick clothing | 0 | ignore the first Environmental Stress once per game | **0** |
-| Improvised | −1 | −1 AGI | **3** |
-| Light | −1 | — | **6** |
-| Heavy | −2 | −1 MOV, −1 AGI, counts as **Loud** | **10** |
+| Improvised | −1 | — *(crafted from Materials, not bought)* | **6** |
+| Light | −1 | — *(bought with Goods)* | **6** |
+| Heavy | −2 | — | **12** |
 
 ---
 ## 4 · Hacking gear
