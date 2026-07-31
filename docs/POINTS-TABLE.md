@@ -83,7 +83,35 @@ Rank sets what you may buy. It no longer carries a flat cost.
 | Standard Ranged | **100** | +3 | 18" | 2 | 3 | Fighter |
 | Heavy Ranged | **140** | +3 | 24" | 2 | 4 | Specialist |
 
-**Range is not linear and must not be priced as though it were.** Heavy Ranged = Standard + 6" + built-in Cumbersome: `100 + 60 − 20 = 140` ✓, and Long Range independently costs **60** for the same +6". Two derivations, same number — because **18"→24" crosses the deployment distance**, which is a threshold, not a stretch of inches. By contrast 8"→18" is worth only ~20. Value accelerates toward the ceiling.
+### 4.1 · Range is banded, never per-inch
+
+**Range is priced by which threshold a weapon clears.** A per-inch rate is wrong because the same 6" is worth far more at the top of the ladder than at the bottom.
+
+| Band | Range | Clears | Classes |
+|---|:--:|---|---|
+| melee | 0" | — | Unarmed, Light/One-Handed/Heavy Melee |
+| thrown | 6" | neither threshold | Thrown |
+| close | 8" | neither threshold | Sidearm |
+| **effective** | **18"** | the **12"** threshold | Standard Ranged |
+| **deployment** | **24"** | the **24"** ceiling | Heavy Ranged |
+
+### 4.2 · The two thresholds — preconditions, not priced features
+
+Neither threshold is something you buy. They are the structural facts that make the band values mean anything, and they belong with the caps in §11.
+
+- **12" — the turn-one firing threshold.** Deployment zones sit 24" apart and MOV is 6". A rifle at 18" closes 6" and fires on turn one (`24 − 6 = 18`). A pistol at 8" must cross 16" and cannot. 12" is where that flips.
+- **24" — the deployment distance.** A 24" weapon fires on turn one without moving at all. Nothing is priced above it; 24" is a hard ceiling.
+
+### 4.3 · What is actually derived
+
+**18" → 24" = 60**, derived twice independently and checked by `verify.verify_structural()`:
+
+1. `Long Range` costs **60** for exactly that +6".
+2. Heavy Ranged = Standard + 6" + built-in Cumbersome: `100 + 60 − 20 = 140` ✓
+
+**The lower steps are unpriced.** Not zero, not estimated — unpriced. They cannot be read off the class table without also splitting out Damage and Hands from the same figure. Sidearm 40 (Damage +2, 8") → Standard Ranged 100 (Damage +3, 18") is a gap of 60 containing one Damage step *and* one range step *and* a Hands step.
+
+> ⚠️ **A number that died in M1.** The old figure "8"→18" is worth ~20" was `60 − 40`, computed when Damage cost 40. With the measured Damage atom of **15** the same subtraction leaves **45** for range-plus-Hands. Neither 20 nor 45 is a measurement of the range step alone, so `ticks.py` records this step as `RANGE_STEP_UNPRICED`. **Do not carry the 20 forward.**
 
 ---
 
@@ -184,6 +212,10 @@ The other 11 are unchanged because they carry no repriced characteristic. Nothin
 | **Cumbersome** | −20 | −1 MOV while carried |
 
 **Fix from v0.1:** Short Range was a flat −30, which on a Heavy Ranged handed back a 24"→12" collapse for the same refund as an 18"→9" one. It now scales with what is actually lost. Max **2 drawbacks** per weapon.
+
+**Implemented 2026-07-30 (M3).** This banding was doc-only until now — `ticks.py` still charged a flat −30. It is now `SHORT_RANGE_REFUND`, keyed by class, and it is wired into `weapon_cost`. Two guards came with it: Short Range on a **melee** class is now an error (there is no range to halve), and `verify_structural()` checks the refunds stay negative, never exceed the class cost, and stay **monotonic** in range — a longer-ranged class can never get back less than a shorter-ranged one.
+
+The one catalogue price this moved: **Makeshift Flamethrower 150 → 110** (Heavy Ranged short range −30 → −70).
 
 ---
 

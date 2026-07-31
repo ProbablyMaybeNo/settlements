@@ -54,7 +54,15 @@ def legacy_drift() -> list[dict]:
 
 def verify_structural() -> list[str]:
     """Invariants the costing system claims about itself, checked not asserted."""
-    from .ticks import CHAR_GOODS, CLASS_GOODS, DRAWBACK_GOODS
+    from .ticks import (
+        CHAR_GOODS,
+        CLASS_GOODS,
+        CLASS_META,
+        CLASS_RANGE_BAND,
+        DRAWBACK_GOODS,
+        RANGE_BAND,
+        SHORT_RANGE_REFUND,
+    )
 
     errs: list[str] = []
 
@@ -72,6 +80,38 @@ def verify_structural() -> list[str]:
             f"{CHAR_GOODS['long_range']} + cumbersome "
             f"{DRAWBACK_GOODS['cumbersome']} = {rhs}"
         )
+
+    # Every class must sit in a range band, and the band must match CLASS_META.
+    for cls, meta in CLASS_META.items():
+        band = CLASS_RANGE_BAND.get(cls)
+        if band is None:
+            errs.append(f"class {cls} has no range band")
+        elif RANGE_BAND[band] != meta["range"]:
+            errs.append(
+                f"class {cls}: band {band} is {RANGE_BAND[band]}\" but "
+                f"CLASS_META says {meta['range']}\""
+            )
+
+    # A refund must refund, and must never exceed the class it refunds against.
+    for cls, refund in SHORT_RANGE_REFUND.items():
+        if refund >= 0:
+            errs.append(f"short_range refund for {cls} is not negative: {refund}")
+        if -refund > CLASS_GOODS[cls]:
+            errs.append(
+                f"short_range on {cls} refunds {-refund} > class cost "
+                f"{CLASS_GOODS[cls]}"
+            )
+
+    # The refund must be monotonic in what is actually lost: a longer-ranged
+    # class must never get back less than a shorter-ranged one.
+    ordered = sorted(SHORT_RANGE_REFUND, key=lambda c: RANGE_BAND[CLASS_RANGE_BAND[c]])
+    for a, b in zip(ordered, ordered[1:]):
+        if SHORT_RANGE_REFUND[b] > SHORT_RANGE_REFUND[a]:
+            errs.append(
+                f"short_range refund not monotonic: {b} "
+                f"({SHORT_RANGE_REFUND[b]}) refunds less than {a} "
+                f"({SHORT_RANGE_REFUND[a]}) despite longer range"
+            )
 
     # No catalogue weapon may cost less than nothing.
     for build, _ in SAMPLE_ARMOURY:

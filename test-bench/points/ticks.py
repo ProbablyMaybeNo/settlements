@@ -138,14 +138,83 @@ CHAR_GOODS = {
 # superlinear (hit chance 84%->94%, but extra Stress 0.36->0.86 per attack).
 # Run the same rebuild test before it ships. There is deliberately no entry.
 
-# Drawbacks — legacy ×10 (negative = refund)
+# ---------------------------------------------------------------------------
+# RANGE BANDS — range is priced by which threshold a weapon clears, never per
+# inch. Two thresholds structure the ladder. Neither is itself a priced feature;
+# both are costing PRECONDITIONS that make the band values mean anything.
+#
+#   12"  the turn-one firing threshold. Deployment zones sit 24" apart and MOV
+#        is 6". A rifle at 18" closes 6" and fires on turn one (24 - 6 = 18).
+#        A pistol at 8" must cross 16" and cannot. 12" is where that flips.
+#   24"  the deployment distance itself — fire on turn one without moving.
+#        Nothing is priced above it; 24" is a hard ceiling (POINTS-TABLE §11).
+#
+# Value accelerates toward the ceiling. This is why a linear per-inch rate is
+# wrong: the same 6" is worth far more at the top of the ladder than the bottom.
+# ---------------------------------------------------------------------------
+RANGE_BAND = {
+    "melee": 0,
+    "thrown": 6,  # below both thresholds
+    "close": 8,  # below both thresholds
+    "effective": 18,  # clears the 12" turn-one threshold
+    "deployment": 24,  # the 24" ceiling
+}
+
+CLASS_RANGE_BAND = {
+    "unarmed": "melee",
+    "light_melee": "melee",
+    "one_handed_melee": "melee",
+    "heavy_melee": "melee",
+    "thrown": "thrown",
+    "sidearm": "close",
+    "standard_ranged": "effective",
+    "heavy_ranged": "deployment",
+}
+
+# Priced steps between adjacent bands.
+RANGE_STEP_GOODS = {
+    # [derived twice, independently, from this file]
+    #   (a) CHAR_GOODS["long_range"] == 60
+    #   (b) CLASS_GOODS["heavy_ranged"] 140
+    #       == CLASS_GOODS["standard_ranged"] 100 + long_range 60 + cumbersome -20
+    # verify.verify_structural() checks (b) still holds.
+    ("effective", "deployment"): 60,
+}
+
+# The lower steps are UNPRICED, not zero and not estimated. They cannot be read
+# off the class table without also splitting out Damage and Hands from the same
+# figure. Worked example of why:
+#   sidearm 40 (Damage +2, 8") -> standard_ranged 100 (Damage +3, 18") = a gap
+#   of 60, containing one Damage step and one range step. With the M1 measured
+#   Damage atom of 15 that leaves 45 for range-plus-Hands. The completion plan's
+#   "8\" -> 18\" is worth ~20" was computed when Damage cost 40; M1 invalidates
+#   that arithmetic. Do not carry the 20 forward.
+RANGE_STEP_UNPRICED = (
+    ("melee", "thrown"),
+    ("thrown", "close"),
+    ("close", "effective"),
+)
+
+# Short Range halves a weapon's range, so its refund must scale with what is
+# actually lost — a flat -30 handed back a 24"->12" collapse for the same money
+# as an 18"->9" one. Banded by class:
+SHORT_RANGE_REFUND = {
+    "thrown": -20,  # 6" -> 3"; was below both thresholds already
+    "sidearm": -20,  # 8" -> 4"; was below both thresholds already
+    "standard_ranged": -30,  # 18" -> 9"; loses the turn-one threshold
+    "heavy_ranged": -70,  # 24" -> 12"; loses the deployment threshold entirely
+}
+
+# Drawbacks — legacy ×10 (negative = refund).
+# short_range is NOT here: it is banded by class, see SHORT_RANGE_REFUND.
 DRAWBACK_GOODS = {
-    "short_range": -30,
     "slow": -30,
     "unstable": -20,
     "cumbersome": -20,
     "limited": -30,
 }
+
+BANDED_DRAWBACKS = frozenset({"short_range"})
 
 ARMOUR_GOODS = {
     "none": 0,
