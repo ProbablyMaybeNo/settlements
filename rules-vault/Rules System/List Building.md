@@ -57,12 +57,13 @@ The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed
 
 ### Armour & equipment
 
-| Armour | Injury | Drawback | Cost |
-|---|:--:|---|:--:|
-| Thick clothing | 0 | — *(free)* | **0** |
-| Improvised | −1 | −1 AGI | **3** |
-| Light | −1 | — | **6** |
-| Heavy | −2 | −1 MOV, −1 AGI, **Loud** | **10** |
+| Armour | Injury | Cost |
+|---|:--:|:--:|
+| None / Thick clothing | 0 | **0** |
+| Light | −1 | **3** |
+| Heavy | −2 | **6** |
+
+*Armour carries no drawbacks, and the ladder is linear — each point is a flat −10% on the Injury roll, so Heavy costs exactly twice Light. Improvised was cut once its penalty went; it was Light armour under a second name. Full note in [[Weapons#3 · Armor]].*
 
 | Equipment | Effect | Cost |
 |---|---|:--:|

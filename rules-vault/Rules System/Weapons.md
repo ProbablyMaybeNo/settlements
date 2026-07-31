@@ -121,22 +121,21 @@ The DIY layer. This is how you build a pipe shotgun that might blow up in your h
 
 ---
 ## 3 · Armor
-Armor reduces the **Injury roll only** — never the hit.
+Armor reduces the **Injury roll only** — never the hit. Cover protects against *being hit*; armor protects against *being hurt* ([[Rules Engine]]).
 
 > [!info] Armour carries no drawbacks *(2026-07-30)*
 > A drawback you **opt into** for a discount is a deal — that is the DIY weapon layer below, and it stays. A drawback **welded onto something you want** is a tax, and armour had two of them. They are gone.
 >
 > The ladder is now linear in what armour actually does: the Injury roll is `1d10 + Damage − Armor` vs **7+**, so each point of armour is a flat **−10%** on being hurt. **−2 is worth exactly twice −1, so Heavy costs exactly twice Light.**
 >
-> **Improvised and Light are the same profile at the same price.** They differ only in how you get them — Improvised is **crafted from Materials** at your settlement, Light is **bought with Goods**. A cheaper price for an identical profile would be a free discount and would break the points system. Cover protects against *being hit*; armor protects against *being hurt* ([[Rules Engine]]).
+> **Improvised armour is cut.** With its penalty gone it was Light armour under another name. Whether a suit was **scavenged and welded together** or **bought from a trader** is a settlement-economy distinction — it does not need a second row on this table.
 
 | Armor | Injury | Drawback | Cost |
 |---|:---:|---|:--:|
 | None | 0 | — | **0** |
 | Thick clothing | 0 | ignore the first Environmental Stress once per game | **0** |
-| Improvised | −1 | — *(crafted from Materials, not bought)* | **6** |
-| Light | −1 | — *(bought with Goods)* | **6** |
-| Heavy | −2 | — | **12** |
+| Light | −1 | — | **3** |
+| Heavy | −2 | — | **6** |
 
 ---
 ## 4 · Hacking gear
