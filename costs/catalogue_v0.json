@@ -1,0 +1,509 @@
+{
+  "version": "0.1",
+  "scale": 1000,
+  "ranks": [
+    {
+      "rank": "recruit",
+      "derived": 65,
+      "listed": 65,
+      "delta": 0
+    },
+    {
+      "rank": "fighter",
+      "derived": 95,
+      "listed": 95,
+      "delta": 0
+    },
+    {
+      "rank": "specialist",
+      "derived": 165,
+      "listed": 165,
+      "delta": 0
+    },
+    {
+      "rank": "leader",
+      "derived": 245,
+      "listed": 245,
+      "delta": 0
+    }
+  ],
+  "armoury": [
+    {
+      "name": "Baseball Bat",
+      "class": "light_melee",
+      "class_goods": 0,
+      "characteristics": {},
+      "drawbacks": {},
+      "total": 0,
+      "legacy_expected": 0,
+      "legacy_delta": 0
+    },
+    {
+      "name": "Kitchen Knife",
+      "class": "light_melee",
+      "class_goods": 0,
+      "characteristics": {
+        "balanced": 20,
+        "concealable": 20
+      },
+      "drawbacks": {},
+      "total": 40,
+      "legacy_expected": 40,
+      "legacy_delta": 0
+    },
+    {
+      "name": "Crowbar",
+      "class": "one_handed_melee",
+      "class_goods": 40,
+      "characteristics": {
+        "breaching": 30
+      },
+      "drawbacks": {},
+      "total": 70,
+      "legacy_expected": 70,
+      "legacy_delta": 0
+    },
+    {
+      "name": "Great Axe",
+      "class": "heavy_melee",
+      "class_goods": 80,
+      "characteristics": {},
+      "drawbacks": {},
+      "total": 80,
+      "legacy_expected": 80,
+      "legacy_delta": 0
+    },
+    {
+      "name": "Sledgehammer",
+      "class": "heavy_melee",
+      "class_goods": 80,
+      "characteristics": {
+        "heavy_impact": 30,
+        "breaching": 30
+      },
+      "drawbacks": {},
+      "total": 140,
+      "legacy_expected": 140,
+      "legacy_delta": 0
+    },
+    {
+      "name": "Fire Axe",
+      "class": "heavy_melee",
+      "class_goods": 80,
+      "characteristics": {
+        "brutal": 15,
+        "bleeding": 40
+      },
+      "drawbacks": {},
+      "total": 135,
+      "legacy_expected": 160,
+      "legacy_delta": -25
+    },
+    {
+      "name": "Reaping Hook",
+      "class": "heavy_melee",
+      "class_goods": 80,
+      "characteristics": {
+        "cleaving": 50,
+        "defensive": 30
+      },
+      "drawbacks": {},
+      "total": 160,
+      "legacy_expected": 160,
+      "legacy_delta": 0
+    },
+    {
+      "name": "Pistol",
+      "class": "sidearm",
+      "class_goods": 40,
+      "characteristics": {},
+      "drawbacks": {},
+      "total": 40,
+      "legacy_expected": 40,
+      "legacy_delta": 0
+    },
+    {
+      "name": "Pipe Shotgun",
+      "class": "standard_ranged",
+      "class_goods": 100,
+      "characteristics": {
+        "brutal": 15,
+        "spread": 18
+      },
+      "drawbacks": {
+        "short_range": -30,
+        "unstable": -20
+      },
+      "total": 83,
+      "legacy_expected": 120,
+      "legacy_delta": -37
+    },
+    {
+      "name": "Assault Rifle",
+      "class": "standard_ranged",
+      "class_goods": 100,
+      "characteristics": {
+        "accurate": 18
+      },
+      "drawbacks": {},
+      "total": 118,
+      "legacy_expected": 130,
+      "legacy_delta": -12
+    },
+    {
+      "name": "Nailgun",
+      "class": "standard_ranged",
+      "class_goods": 100,
+      "characteristics": {
+        "bleeding": 40
+      },
+      "drawbacks": {},
+      "total": 140,
+      "legacy_expected": 140,
+      "legacy_delta": 0
+    },
+    {
+      "name": "Grandpa's Hunting Rifle",
+      "class": "standard_ranged",
+      "class_goods": 100,
+      "characteristics": {
+        "accurate": 18,
+        "long_range": 60
+      },
+      "drawbacks": {},
+      "total": 178,
+      "legacy_expected": 190,
+      "legacy_delta": -12
+    },
+    {
+      "name": "Squad Machine Gun",
+      "class": "heavy_ranged",
+      "class_goods": 140,
+      "characteristics": {
+        "suppressive": 40,
+        "armour_piercing": 15
+      },
+      "drawbacks": {},
+      "total": 195,
+      "legacy_expected": 220,
+      "legacy_delta": -25
+    },
+    {
+      "name": "Makeshift Flamethrower",
+      "class": "heavy_ranged",
+      "class_goods": 140,
+      "characteristics": {
+        "incendiary": 30,
+        "blast": 40
+      },
+      "drawbacks": {
+        "short_range": -30,
+        "limited": -30
+      },
+      "total": 150,
+      "legacy_expected": 150,
+      "legacy_delta": 0
+    },
+    {
+      "name": "Molotov",
+      "class": "thrown",
+      "class_goods": 20,
+      "characteristics": {
+        "incendiary": 30,
+        "blast": 40
+      },
+      "drawbacks": {},
+      "total": 90,
+      "legacy_expected": 90,
+      "legacy_delta": 0
+    },
+    {
+      "name": "Smoke Grenade",
+      "class": "thrown",
+      "class_goods": 20,
+      "characteristics": {
+        "smoke": 30
+      },
+      "drawbacks": {},
+      "total": 50,
+      "legacy_expected": 50,
+      "legacy_delta": 0
+    }
+  ],
+  "design_examples": [
+    {
+      "name": "Auto Rifle +Fire",
+      "class": "standard_ranged",
+      "class_goods": 100,
+      "characteristics": {
+        "incendiary": 30
+      },
+      "drawbacks": {},
+      "total": 130
+    },
+    {
+      "name": "Machete +Shock",
+      "class": "one_handed_melee",
+      "class_goods": 40,
+      "characteristics": {
+        "shocking": 30
+      },
+      "drawbacks": {},
+      "total": 70
+    },
+    {
+      "name": "Brutal Machete +Shock",
+      "class": "one_handed_melee",
+      "class_goods": 40,
+      "characteristics": {
+        "brutal": 15,
+        "shocking": 30
+      },
+      "drawbacks": {},
+      "total": 85
+    }
+  ],
+  "structures": [
+    {
+      "name": "HQ",
+      "footprint": "building",
+      "role": "operate",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 130,
+      "starter": true
+    },
+    {
+      "name": "Generator",
+      "footprint": "plant",
+      "role": "sustain",
+      "tier": 1,
+      "power_draw": 0,
+      "materials": 40,
+      "starter": true
+    },
+    {
+      "name": "Processor",
+      "footprint": "plant",
+      "role": "gatherer",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 80,
+      "starter": true
+    },
+    {
+      "name": "Salvage Yard",
+      "footprint": "yard",
+      "role": "gatherer",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 80,
+      "starter": true
+    },
+    {
+      "name": "Bunkhouse",
+      "footprint": "large",
+      "role": "sustain",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 115,
+      "starter": false
+    },
+    {
+      "name": "Storehouse",
+      "footprint": "building",
+      "role": "sustain",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 90,
+      "starter": false
+    },
+    {
+      "name": "Equipment Shed",
+      "footprint": "station",
+      "role": "sustain",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 40,
+      "starter": false
+    },
+    {
+      "name": "Armory",
+      "footprint": "building",
+      "role": "sustain",
+      "tier": 2,
+      "power_draw": 2,
+      "materials": 168,
+      "starter": false
+    },
+    {
+      "name": "Workbench",
+      "footprint": "station",
+      "role": "convert",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 75,
+      "starter": false
+    },
+    {
+      "name": "Workshop",
+      "footprint": "building",
+      "role": "convert",
+      "tier": 2,
+      "power_draw": 2,
+      "materials": 224,
+      "starter": false
+    },
+    {
+      "name": "Trader's Kiosk",
+      "footprint": "station",
+      "role": "convert",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 75,
+      "starter": false
+    },
+    {
+      "name": "Trade House",
+      "footprint": "building",
+      "role": "convert",
+      "tier": 2,
+      "power_draw": 2,
+      "materials": 224,
+      "starter": false
+    },
+    {
+      "name": "Fabricator",
+      "footprint": "building",
+      "role": "convert",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 125,
+      "starter": false
+    },
+    {
+      "name": "Med-bay",
+      "footprint": "building",
+      "role": "recover",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 120,
+      "starter": false
+    },
+    {
+      "name": "Holding Cells",
+      "footprint": "building",
+      "role": "recover",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 120,
+      "starter": false
+    },
+    {
+      "name": "Scout Post",
+      "footprint": "plant",
+      "role": "operate",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 95,
+      "starter": false
+    },
+    {
+      "name": "Comms Mast",
+      "footprint": "plant",
+      "role": "operate",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 95,
+      "starter": false
+    },
+    {
+      "name": "Perimeter Wall (6\" seg)",
+      "footprint": "line",
+      "role": "defend",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 85,
+      "starter": false
+    },
+    {
+      "name": "Gatehouse",
+      "footprint": "building",
+      "role": "defend",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 135,
+      "starter": false
+    },
+    {
+      "name": "Watchtower",
+      "footprint": "plant",
+      "role": "defend",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 100,
+      "starter": false
+    },
+    {
+      "name": "Turret Mount",
+      "footprint": "plant",
+      "role": "defend",
+      "tier": 2,
+      "power_draw": 2,
+      "materials": 184,
+      "starter": false
+    },
+    {
+      "name": "EW Mast",
+      "footprint": "plant",
+      "role": "defend",
+      "tier": 2,
+      "power_draw": 2,
+      "materials": 184,
+      "starter": false
+    },
+    {
+      "name": "Drone Bay",
+      "footprint": "large",
+      "role": "operate",
+      "tier": 2,
+      "power_draw": 2,
+      "materials": 272,
+      "starter": false
+    },
+    {
+      "name": "Server Core",
+      "footprint": "building",
+      "role": "operate",
+      "tier": 2,
+      "power_draw": 2,
+      "materials": 232,
+      "starter": false
+    },
+    {
+      "name": "Vault",
+      "footprint": "plant",
+      "role": "operate",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 95,
+      "starter": false
+    }
+  ],
+  "groundworks": {
+    "I": 120,
+    "II": 200
+  },
+  "settlement_dials": {
+    "housing_base": 12,
+    "bunkhouse_slots": 6,
+    "equipment_slots_base": 30,
+    "equipment_slots_per_shed": 30,
+    "generator_power": 5,
+    "power_draw_by_tier": {
+      "1": 1,
+      "2": 2,
+      "3": 3
+    }
+  }
+}
