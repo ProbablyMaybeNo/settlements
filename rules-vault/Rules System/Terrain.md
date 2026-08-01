@@ -133,7 +133,7 @@ When a battle is fought at someone's settlement, the defender's layout supplies 
 Because the settlement fits inside one board there is **no window to pick** — a raid uses all of it, and the attacker crosses ~24" of neutral ground to reach it.
 
 > [!info] A settlement never buys board advantage
-> A developed settlement changes *what* fills those three squares, never *how many* features the board has. Structures granting deploy-rights (turret hardpoints and the like) still cost crew-points and still sit inside the band — see [[Structures#Design contract — the five rules that keep this honest|the structure contract]] and [[Deployables]].
+> A developed settlement changes *what* fills those three squares, never *how many* features the board has. Structures granting deploy-rights (turret hardpoints and the like) still cost Credits against your Crew Rating and still sit inside the band — see [[Structures#Design contract — the five rules that keep this honest|the structure contract]] and [[Deployables]].
 
 One line per piece is enough: `Ruin · Difficult · Light · Unstable, Climbable, Searchable`.
 

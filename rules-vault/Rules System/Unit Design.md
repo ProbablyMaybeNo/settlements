@@ -86,6 +86,8 @@ Only the **five path-stats** (STR, AGI, DEX, INT, NRV) take stat points. **WND s
 | +5 | Elite | — |
 | +6 | Peak / master | **Tier 3** |
 
+^tbl-stat-scale
+
 **Max is +6**, which keeps the clean 2-point tier cadence. A flat test still tops out at 90% (the natural-1 floor), so +5 and +6 read the same on an *unmodified* roll — the extra point earns its keep against cover, armour, and opposed rolls.
 
 ### Rank vs Role
@@ -104,6 +106,8 @@ A rank grants **more stat points than a unit can spike into one stat** — **tie
 | **Fighter** | **5** | up to **2× T1** | ~2 | 0 | 8 |
 | **Specialist** | **7** | **1× T2 · 2× T1** | ~3 | 1 | 16 |
 | **Leader** | **9** | **1× T3 · 2× T2 · 4× T1** | ~4 | 2 | 24 |
+
+^tbl-ranks-build-budget
 
 <small>*Skills are derived from the stat line — see [[Skill Paths]].</small>
 

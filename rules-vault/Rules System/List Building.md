@@ -48,7 +48,7 @@ More points than a unit can spike into one stat, capped by tier so it *spreads* 
 **There is no unit cap on the crew you field.** The pyramid and the budget do it: at 100 points the legal maximum is **11 fighters** (Leader + 5 Fighters + 5 Recruits, with about 11 points of gear between them — a mob with bats).
 
 > [!warning] Per-battle only — the roster IS capped
-> "No unit cap" scopes to the **crew you field in one battle**. The **roster you own** is capped by housing: a base **10** body slots from the HQ, raised by building Bunkhouses ([[Structures#The catalogue — 23 structures|Structures]]). **Housing is the only population brake** — there is no per-head upkeep *(Water cut 2026-08-01)*. Ownership and fielding are orthogonal — **Goods/Materials buy what you own, points gate what you field.**
+> "No unit cap" scopes to the **crew you field in one battle**. The **roster you own** is capped by housing: a base **10** body slots from the HQ, raised by building Bunkhouses ([[Structures#The catalogue — 23 structures|Structures]]). **Housing is the only population brake** — there is no per-head upkeep *(Water cut 2026-08-01)*. Ownership and fielding are orthogonal — **Credits/Materials buy what you own, points gate what you field.**
 
 The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed at 1 ([[Damage]]), so a 40-point Leader in plate dies to one lucky pistol shot from a Recruit with a knife. The engine already forbids heroes.
 
@@ -81,9 +81,16 @@ The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed
 ## Campaign rosters
 You keep a persistent **roster** and field a **crew** to the scenario's budget each battle.
 
-> **Each Advance a fighter carries adds +2 points to its cost. Each lasting scar subtracts 2.**
+> **Each Advance a fighter carries adds +2 to its Credit cost. Scars cost nothing and refund nothing.**
 
-That one line is the anti-snowball valve: **veterans crowd out rookies.** The longer a campaign runs, the smaller your crew gets — the war grinds you down to a handful of hardened survivors who then can't hold enough ground. Every campaign list becomes a real question: *field my best, or field the most?* See [[Progression]] · [[Campaign]].
+That first half is the anti-snowball valve: **veterans crowd out rookies.** The longer a campaign runs, the smaller your crew gets — the war grinds you down to a handful of hardened survivors who then can't hold enough ground. Every campaign list becomes a real question: *field my best, or field the most?* See [[Progression]] · [[Campaign]].
+
+> [!success] Scars don't touch Crew Rating — ruled 2026-08-01
+> A scar is a **pure nerf**. It carries rules penalties and **no change to the fighter's Credit cost**, exactly as a skill carries no separate cost of its own. The old **−2 per lasting scar** rebate is **cut**.
+>
+> It was working against the very valve it sat inside. A rebate makes a *scarred* veteran cheaper to field, which is backwards twice over: it softens the grind the valve exists to create, and it quietly rewards you for having fighters maimed. Removing it makes the ladder honest — Advances raise your cost, injuries just make you worse, and neither one pays for the other.
+>
+> The real question a scarred veteran now poses is the right one: *this fighter costs more than a rookie **and** is worse than they were — is what they can still do worth the Credits?* Sometimes the answer is to bench them, or spend a Med-bay visit ([[Structures]]). See `POINTS-DECISIONS.md` D14 · D27.
 
 ## Validation
 Full detail in **[[Crew Sim — Findings]]**. Eight archetypes, all built to 100 points, 3,000 battles per pairing:

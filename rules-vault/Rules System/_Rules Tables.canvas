@@ -1567,7 +1567,7 @@
 			"x": 15265,
 			"y": -60,
 			"width": 1300,
-			"height": 4329,
+			"height": 4356,
 			"color": "3"
 		},
 		{
@@ -1636,7 +1636,7 @@
 			"text": "**Structures · Starting structures — four**",
 			"x": 15325,
 			"y": 810,
-			"width": 909,
+			"width": 925,
 			"height": 46,
 			"color": "3"
 		},
@@ -1647,7 +1647,7 @@
 			"subpath": "#^tbl-starting-structures-five",
 			"x": 15325,
 			"y": 864,
-			"width": 909,
+			"width": 925,
 			"height": 210
 		},
 		{
@@ -1776,7 +1776,7 @@
 			"text": "**Structures · Recover — people come back**",
 			"x": 15325,
 			"y": 3376,
-			"width": 991,
+			"width": 1007,
 			"height": 46,
 			"color": "3"
 		},
@@ -1787,7 +1787,7 @@
 			"subpath": "#^tbl-recover-people-come-back",
 			"x": 15325,
 			"y": 3430,
-			"width": 991,
+			"width": 1007,
 			"height": 180
 		},
 		{
@@ -1808,14 +1808,14 @@
 			"x": 15325,
 			"y": 3690,
 			"width": 1180,
-			"height": 259
+			"height": 286
 		},
 		{
 			"id": "t0180",
 			"type": "text",
 			"text": "**Structures · Space budget**",
 			"x": 15325,
-			"y": 3975,
+			"y": 4002,
 			"width": 523,
 			"height": 46,
 			"color": "3"
@@ -1826,7 +1826,7 @@
 			"file": "Settlements/Rules System/Structures.md",
 			"subpath": "#^tbl-space-budget",
 			"x": 15325,
-			"y": 4029,
+			"y": 4056,
 			"width": 523,
 			"height": 180
 		},

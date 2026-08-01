@@ -58,7 +58,7 @@ Deployables inherit the [[Weapons|weapon contract]] and add two of their own.
 Pre-placed **settlement** deployables (a [[Terrain Interaction#In-battle repair / settlement hook|Trap stockpile]], or a turret on a built [[Structures|Turret Mount]]) skip the roll — they **deploy armed and concealed / online** during setup.
 
 > [!warning] Auto-deploy is all that ownership buys
-> Owning the structure removes the **INT test**, nothing else. The deployable still **costs crew-points** in [[List Building]], still occupies a slot inside the sacred **9–12** density band ([[Terrain#Settlement boards — the same procedure, one square-set pre-filled|settlement boards]]), and keeps **full fragility** — `WND−1`, repairable once, hijackable, destroyable. A bigger settlement never means a bigger army.
+> Owning the structure removes the **INT test**, nothing else. The deployable still **costs Credits against your Crew Rating** in [[List Building]], still occupies a slot inside the sacred **9–12** density band ([[Terrain#Settlement boards — the same procedure, one square-set pre-filled|settlement boards]]), and keeps **full fragility** — `WND−1`, repairable once, hijackable, destroyable. A bigger settlement never means a bigger army.
 
 ### Build rating — some things are harder to build
 The **Build rating** is a modifier on the deploy test, printed on the item. It is **intrinsic to the device**, not a difficulty the table assigns — a sentry gun is genuinely fiddlier than a tripwire. It obeys the global **±3** cap alongside skills, conditions and **Shaken**.

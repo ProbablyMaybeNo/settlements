@@ -41,7 +41,7 @@ Every entry in [[Structures]] ships as a **print-and-cut tile at its exact grid 
 - [ ] Token set for the interactive points: door, terminal, hatch, ladder, hardpoint, **Disabled**
 
 > [!warning] Don't finalise ahead of [[Economy]]
-> Tiles can be drawn now — footprints are settled. **Costs cannot**: nothing in [[Structures]] is priced until the Goods/Materials inflow rates exist.
+> Tiles can be drawn now — footprints are settled. **Costs cannot**: nothing in [[Structures]] is priced until the Credits/Materials inflow rates exist.
 
 ## Rule ledger
 _none_

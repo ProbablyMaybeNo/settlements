@@ -198,7 +198,7 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [x] Exact costing: ranks **5 / 8 / 16 / 24**, budget **100**. Stats & skills are FREE (rank is the bundle).
 - [x] **Recruit** rank added — the 0-stat body that makes a swarm legally fieldable.
 - [ ] **Doctrine** layer (crew identity, 8 archetypes) — **pulled to the campaign layer.** It's a list-building / campaign mechanic, not a first-battle rule; revisit when the campaign phase is built.
-- [x] Campaign roster: **+2 pts per Advance, −2 per scar** (veterans crowd out rookies = anti-snowball).
+- [x] Campaign roster: **+2 per Advance; scars change nothing** (veterans crowd out rookies = anti-snowball). *(The −2 scar rebate was cut 2026-08-01 — it made scarred veterans cheaper, working against the valve it sat inside.)*
 - [x] Anti-hero ⅓ cap **cut** — redundant at WND 1.
 - [x] Validated: **11-point spread across 8 archetypes** on a legal board → [[Crew Sim — Findings]].
 - [ ] Faction selection / buffs & nerfs at list level → socket left open in [[Factions]].
@@ -251,7 +251,7 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [x] 25 structures across Sustain / Convert / Operate / Recover / Defend; 4 starting, the rest founding-eligible or tier-gated.
 - [x] Footprint classes — Building 6×6" min · Plant ~3×3" · Station 3×1" min; terrain sizes are approximate, tolerance rule included.
 - [x] Every entry ships a [[Terrain#Setup procedure|terrain line]] and a Power draw; Generator +3 vs a starting draw of exactly 3.
-- [ ] Costs in Goods/Materials — blocked on [[Economy]].
+- [ ] Costs in Credits/Materials — blocked on [[Economy]].
 
 #### 11 · [[Economy]] — ⬜ Not started
 <small>depends on: Settlement</small>

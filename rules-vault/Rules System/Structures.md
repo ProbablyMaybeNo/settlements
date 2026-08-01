@@ -33,10 +33,10 @@ The lot itself is a **barren, battle-scarred site** — a vacant lot between bro
 
 > [!check] Reconciled against Interview 1 — ruled 2026-07-26
 > Every conflict with [[Interviews — Completing the Rules System]] was checked against the source and ruled on:
-> - **Currency stays Goods** — the Cash rename (07-24) is reverted. Goods reads better and fits scavengers hauling back goods, scrap and equipment.
+> - ~~**Currency stays Goods**~~ — **superseded 2026-08-01. The currency is Credits.** "Goods" read as cargo rather than money, which is the job the word had to do. The 07-24 Cash rename was reverted on 07-26 on a scavenging-flavour argument; Credits replaces both. See `POINTS-DECISIONS.md` D24.
 > - **Power stays the Generator** — the Reactor rename is reverted.
-> - **One gatherer per resource, but you may build more.** Adopted, with the restriction loosened: the starting set gives one gatherer each for Goods / Materials, and **additional output always costs another structure or an upgrade** — never a free multiplier.
-> - **Water is cut** *(ruled 2026-08-01)*. Resources are **Goods · Materials · Power**. The Water Reclaimer, Cistern and Water Tower are gone, per-head Water upkeep is gone, and **housing slots are the only population brake**. The catalogue is **23 structures**, not 25.
+> - **One gatherer per resource, but you may build more.** Adopted, with the restriction loosened: the starting set gives one gatherer each for Credits / Materials, and **additional output always costs another structure or an upgrade** — never a free multiplier.
+> - **Water is cut** *(ruled 2026-08-01)*. Resources are **Credits · Materials · Power**. The Water Reclaimer, Cistern and Water Tower are gone, per-head Water upkeep is gone, and **housing slots are the only population brake**. The catalogue is **23 structures**, not 25.
 > - **Five categories kept** — Sustain / Convert / Operate / Recover / Defend, over the earlier seven.
 > - **25 structures** — the "5 to 10" answer was scoped to *release* count, a different question.
 > - **No build prerequisites.** Structures are never chained; cost and floor space are the only gates. Upgrade ladders stay, because a tier is one structure maturing rather than a second structure.
@@ -47,7 +47,7 @@ The lot itself is a **barren, battle-scarred site** — a vacant lot between bro
 1. **Every structure earns its slot.** No flat `+1`. A structure must do at least one of: unlock a campaign action · raise a meaningful capacity · convert one resource into another · expand list-building options · protect something you could otherwise lose · change how a raid is fought.
 2. **Every structure is a real object on a real board.** Each entry ships with a [[Terrain#Setup procedure|terrain line]] in the standard format. If it can't be placed and described, it isn't a structure — it's a bonus, and it doesn't belong here.
 3. **Space is the scarcest resource.** The canvas holds roughly ten structures. Twenty-five entries against ten slots means **specialisation is forced, not offered.**
-4. **Ownership buys availability, never free board power.** Built structures grant **auto-deploy** (skipping the [[Deployables#Deploying — the INT test|INT test]]); the piece itself still costs crew-points and still sits inside the **9–12** density band. A bigger settlement never means a bigger army.
+4. **Ownership buys availability, never free board power.** Built structures grant **auto-deploy** (skipping the [[Deployables#Deploying — the INT test|INT test]]); the piece itself still costs Credits against your Crew Rating and still sits inside the **9–12** density band. A bigger settlement never means a bigger army.
 5. **Binary state only.** A structure is **Functional** or **Disabled**. No structure HP, no collapse tracking. Destruction runs through **Sabotage**; repair is a flat **Materials** cost.
 
 ## Working rules / decisions
@@ -134,7 +134,7 @@ Every settlement begins with these, free. **One gatherer per resource**, plus th
 |**HQ**|command|Campaign actions, mission dispatch, and the base **10** body slots|
 |**Generator**|**Power**|Everything with a draw needs it|
 |**Processor**|**Materials** gatherer|Scrap → Materials. Nothing gets built without it|
-|**Salvage Yard**|**Goods** gatherer|Sorts and values what scavengers haul back — goods, scrap, equipment|
+|**Salvage Yard**|**Credits** gatherer|Sorts and values what scavengers haul back — goods, scrap, equipment|
 
 ^tbl-starting-structures-five
 
@@ -150,12 +150,12 @@ That is the whole anti-inflation shape for production: output scales, but only a
 
 ### Founding — choosing your first few
 
-At founding you spend a **Goods** budget on **anything in the catalogue**. Your picks are placed on the canvas immediately, before your first game. There is no founding-only subset and no prerequisite — the budget and the lot are the only limits.
+At founding you spend a **Credits** budget on **anything in the catalogue**. Your picks are placed on the canvas immediately, before your first game. There is no founding-only subset and no prerequisite — the budget and the lot are the only limits.
 
 Your **location** ([[Settlement]]) grants **one structure free** — hospital → Med-bay, police station → Holding Cells, scrapyard → a free Salvage Yard upgrade. Location and founding budget draw on the **same catalogue**, so a location is a head start and a flavour, never a building nobody else can reach.
 
 > [!question] Founding budget not yet set
-> The Goods budget and every build cost below are unpriced. Set them with [[Economy]] — they need the Goods/Materials inflow rates first.
+> The Credits budget and every build cost below are unpriced. Set them with [[Economy]] — they need the Credits/Materials inflow rates first.
 
 ### Power
 
@@ -170,7 +170,7 @@ The four starters draw **2** — HQ 1, Processor 1, Salvage Yard 0 — against o
 
 ### Storage & caps — what you can hold, and what a raider can take
 
-**Both hoardable resources are capped by what you have built.** Goods and Materials go in sheds — you cannot fit unlimited scrap in one shed. Only **Power** is never banked: it is output-vs-draw ([[Economy]]), a flow rather than a store.
+**Both hoardable resources are capped by what you have built.** Credits and Materials go in sheds — you cannot fit unlimited scrap in one shed. Only **Power** is never banked: it is output-vs-draw ([[Economy]]), a flow rather than a store.
 
 **Your cap on each resource is the sum of what you have built:**
 
@@ -178,7 +178,7 @@ The four starters draw **2** — HQ 1, Processor 1, Salvage Yard 0 — against o
 |---|---|---|
 |**HQ** — base|a small amount of every resource|must be entered; Lockable|
 |**Gatherer buffer**|a little of *its own* resource — the scrap heap beside the Processor, the pallet by the Salvage Yard|**easy pickings** — open ground, Searchable|
-|**Storehouse** — repeatable|the bulk of **Goods and Materials** (dry goods only)|**the loot target** — Breachable and Searchable|
+|**Storehouse** — repeatable|the bulk of **Credits and Materials** (dry stores only)|**the loot target** — Breachable and Searchable|
 |**Vault** — HQ upgrade|small, and **secure**|Sabotage or an INT hack, nothing else|
 
 ^tbl-storage-caps-what-you-can-hold-and-what-a-ra
@@ -266,7 +266,7 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 |---|---|---|---|---|
 |**Generator** ★|Plant|3×3|**+3**|**Power** output|
 |**Bunkhouse**|Building|6×9|0|**+N owned body slots** above HQ's base 10|
-|**Storehouse** *(repeatable)*|Building|6×6|0|Bulk storage for **Goods and Materials** above the HQ's base cap. **The loot target in a raid**|
+|**Storehouse** *(repeatable)*|Building|6×6|0|Bulk storage for **Credits and Materials** above the HQ's base cap. **The loot target in a raid**|
 |**Equipment Shed** *(→ Armory 6×6)*|Station|3×2|0|Holds every **unequipped** weapon, armour and piece of kit the crew owns. Caps the size of your persistent armoury; the Armory tier raises it and adds a lock|
 
 ^tbl-sustain-keep-people-alive-keep-the-grid-up
@@ -281,8 +281,8 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 |Structure|Class|Size|Pwr|What it does|
 |---|---|---|---|---|
 |**Processor** ★|Plant|3×5|−1|**Materials** gatherer — scrap → Materials|
-|**Salvage Yard** ★|Yard|5×7|0|**Goods** gatherer — sorts and values what scavengers haul back; better break-down rates on gear. Expandable|
-|**Trader's Kiosk** *(→ Trade House 6×6)*|Station|3×2|0|Sell owned gear and surplus → **Goods**; the Trade House tier improves rates|
+|**Salvage Yard** ★|Yard|5×7|0|**Credits** gatherer — sorts and values what scavengers haul back; better break-down rates on gear. Expandable|
+|**Trader's Kiosk** *(→ Trade House 6×6)*|Station|3×2|0|Sell owned gear and surplus → **Credits**; the Trade House tier improves rates|
 |**Workbench** *(→ Workshop 6×8, −1)*|Station|3×2|0|Craft and repair. **Workshop tiers unlock the weapon / armour / chem branches** — upgrades, not separate buildings|
 |**Fabricator**|Building|6×6 → 6×10|−2 / −3|**Research**, in three tiers. **T1 Fabricator** unlocks new blueprints · **T2 Robotics Workshop** builds robots and UGVs and services the Drone Bay's airframes · **T3 Advanced Weapons Lab** unlocks the 2051 arsenal — directed-energy, guided small-arms, drone-delivered payloads ([[Weapons]])|
 
@@ -317,7 +317,7 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 - Drone Bay — `Building · Interior Open · Heavy · Openable, Powered, Hackable, Searchable`
 
 > [!info] The Vault — the one thing a raid cannot just kick open
-> The HQ is where your Goods, gear and loot sit during a raid, which makes it the natural target. The **Vault** is the answer, and it is deliberately the hardest object in the game to open. It is **not Breachable** — a Breach charge does nothing to it. The only ways in are the full **Sabotage** sequence (enter → plant → detonate, DEX-defusable) or an **INT hack** at the vault door.
+> The HQ is where your Credits, gear and loot sit during a raid, which makes it the natural target. The **Vault** is the answer, and it is deliberately the hardest object in the game to open. It is **not Breachable** — a Breach charge does nothing to it. The only ways in are the full **Sabotage** sequence (enter → plant → detonate, DEX-defusable) or an **INT hack** at the vault door.
 >
 > It cannot be separated from the HQ: it is an add-on placed in base contact, and it falls if the HQ does.
 
@@ -328,7 +328,7 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 
 |Structure|Class|Size|Pwr|What it does|
 |---|---|---|---|---|
-|**Med-bay**|Building|6×6|−1|**+X** to the post-battle Fate roll; the T2 tier heals scars at a Goods/Materials cost|
+|**Med-bay**|Building|6×6|−1|**+X** to the post-battle Fate roll; the T2 tier heals scars at a Credits/Materials cost|
 |**Holding Cells**|Building|6×6|−1|Prisoner capacity **+** reduced escape chance|
 |**Mess Hall**|Building|6×8|−1|Lower starting **Stress**, or one free clear per battle ([[Morale]])|
 
@@ -338,8 +338,10 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 - Holding Cells — `Building · Interior Open · Heavy · Lockable, Breachable, Hackable`
 - Mess Hall — `Building · Interior Open · Heavy · Openable, Searchable`
 
-> [!warning] Med-bay must not undo the scar rebate
-> [[List Building#Campaign rosters]] pays a **−2** rebate for a lasting scar — the anti-snowball valve that lets veterans crowd out rookies. If the Med-bay heals scars for free that valve becomes a free lunch. Scar healing is the **T2 tier only** and costs Goods/Materials, so the trade stays a trade. See also [[Progression]] · [[Campaign]].
+> [!info] Why scar healing is still gated, now that the rebate is gone
+> This callout used to argue that the Med-bay must not undo [[List Building#Campaign rosters|the −2 scar rebate]]. **That rebate was cut on 2026-08-01** — a scar is a pure nerf and does not touch Crew Rating — so the free-lunch argument no longer applies.
+>
+> The gate stays anyway, for a better reason: **removing a permanent penalty is one of the strongest things a settlement can do for a fighter**, and a veteran who can be scrubbed clean between every battle never carries a scar for long enough to matter. That would hollow out the *scars tell the story* tenet ([[Game Vision]]) far more effectively than any points exploit would have. Scar healing stays **T2 only** and costs Credits/Materials. See [[Progression]] · [[Campaign]].
 
 ### Defend — this is the raid board
 
@@ -348,7 +350,7 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 |**Perimeter Wall**|Line|1" thick, **6" segments**|0|The floor benefit — bought by the segment; shapes the whole raid board|
 |**Gatehouse**|Building|6×6|−1|A controlled chokepoint: the attacker breaches it or routes around it|
 |**Watchtower**|Plant|3×3|0|The defender starts one model in it; denies the attacker surprise|
-|**Turret Mount** *(attaches to a Wall or Gatehouse)*|Plant|2×2|−2|Hardpoint. The turret **auto-deploys** — but costs crew-points and keeps full fragility|
+|**Turret Mount** *(attaches to a Wall or Gatehouse)*|Plant|2×2|−2|Hardpoint. The turret **auto-deploys** — but costs Credits against your Crew Rating and keeps full fragility|
 |**EW Mast**|Plant|3×3|−2|Counter-hack and counter-drone: penalises enemy [[Hacking]] in a raid on you; blocks enemy drone deployables|
 
 ^tbl-defend-this-is-the-raid-board
@@ -360,7 +362,7 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 - EW Mast — `Feature · Impassable · Open · Climbable, Powered, Hackable`
 
 > [!danger] The Turret Mount is not free board power
-> Owning the mount grants **auto-deploy** only — the turret skips the [[Deployables#Deploying — the INT test|INT test]] and starts online. It still **costs crew-points** to field, still counts against the **9–12** density band, and keeps full fragility: `WND−1`, repairable once, hijackable. This is the settled answer to a pre-placed settlement deployable being strictly better and free.
+> Owning the mount grants **auto-deploy** only — the turret skips the [[Deployables#Deploying — the INT test|INT test]] and starts online. It still **costs Credits against your Crew Rating** to field, still counts against the **9–12** density band, and keeps full fragility: `WND−1`, repairable once, hijackable. This is the settled answer to a pre-placed settlement deployable being strictly better and free.
 
 ### Category counts
 Sustain **4** · Convert **5** · Operate **6** · Recover **3** · Defend **5** = **23**. Deliberately uneven — forcing five per category is what produced filler in the first pass. *(Was 25; the Water Reclaimer and Cistern were cut with Water on 2026-08-01.)*
@@ -390,7 +392,7 @@ The sprawl costs are real: the **Salvage Yard** eats **8%** of the lot at its st
 - [ ] HQ housing: this note says **10** slots, D10 says **12** — reconcile
 - [ ] HQ tier costs and the dispatch-slot increment per tier
 - [ ] How much a successful raider actually takes from each container
-- [ ] Founding **Goods** budget and per-structure founding price
+- [ ] Founding **Credits** budget and per-structure founding price
 - [ ] Upgrade tier costs, including the Station → Building space cost
 - [ ] **Groundworks** cost
 - [ ] Repair cost — flat Materials per structure, or a single flat rate

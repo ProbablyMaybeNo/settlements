@@ -23,7 +23,7 @@ The Rules column should nail down:
 - Building types and what each does: resource gatherers, crafting stations, defences, utility structures. → **drafted in [[Structures]]**
 - Build/upgrade costs and the in-battle buffs structures grant (turrets, reinforced doors, traps).
 - Structural damage and collapse, driving the tough choices: rebuild/reinforce vs recruit vs research.
-- The minimum viable slice the Final Alpha needs (~10 buildings, **3 resources** — Goods, Materials, Power). *(Water cut 2026-08-01: population is braked by housing slots alone.)*
+- The minimum viable slice the Final Alpha needs (~10 buildings, **3 resources** — Credits, Materials, Power). *(Water cut 2026-08-01: population is braked by housing slots alone.)*
 
 > [!info] The catalogue lives in [[Structures]]
 > 25 structures, footprint classes, the 12"×36" canvas, Power draw and the terrain line for every entry. This note keeps founding, layout, roles and the resource loop.
@@ -71,13 +71,13 @@ Managing your settlement:
   *Need to draft obviously*
 - Resources/currency/power/water - I'm thinking that players will use a set of resources to build and run their settlements.
   
-  "Goods/stash" - Used as the games currency, hire crew, buy equipment, buy materials, etc.
+  "Credits" - Used as the games currency, hire crew, buy equipment, buy materials, etc. *(was "Goods/stash"; renamed 2026-08-01.)*
   
   "Materials" - Used to build and repair structures, research and develop new equipment, crafting, etc.
   
   "Power" - Used to power structures inside of settlements. Various structures will need to be powered in order to provide their benefit players will build generators to provide that power.
   
-  Goods and materials will be gained from winning battles, raiding opponents, setting up trade routes, supply lines, and by scavenging. 
+  Credits and materials will be gained from winning battles, raiding opponents, setting up trade routes, supply lines, and by scavenging. 
   
   Power will be gained by building generators.
   

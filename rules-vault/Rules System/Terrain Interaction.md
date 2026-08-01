@@ -142,7 +142,7 @@ Operating terminals, Linked networks, range bands, and the hacker-vs-hacker **In
 ^tbl-in-battle-repair-settlement-hook
 
 > [!warning] Auto-deploy is not free deploy
-> A settlement piece skips only the **INT test**. It still **costs crew-points** in [[List Building]], still occupies a slot inside the sacred **9–12** density band ([[Terrain#Settlement boards — the same procedure, one square-set pre-filled]]), and keeps full fragility — `WND−1`, repairable once, hijackable. Ownership buys **availability**, never board power.
+> A settlement piece skips only the **INT test**. It still **costs Credits against your Crew Rating** in [[List Building]], still occupies a slot inside the sacred **9–12** density band ([[Terrain#Settlement boards — the same procedure, one square-set pre-filled]]), and keeps full fragility — `WND−1`, repairable once, hijackable. Ownership buys **availability**, never board power.
 
 ### Traps and deployable defences
 

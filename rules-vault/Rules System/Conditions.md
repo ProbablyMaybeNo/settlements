@@ -68,7 +68,7 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 - **Poison** — **−1 to all rolls.** Each End Phase the unit makes a **STR test (7+)**: pass ends it. It can also be treated exactly like Bleed.
 
 > [!success] Why these four durations changed — measured 2026-08-01
-> **Off-Balance, Hobbled, Blind and Shocked all measured at or near zero value** in simulation (1 · −2 · 7 · 13 Goods against Bleeding's 46), while all four were sold at **30** on the [[Weapons]] payload table. Two separate causes, both timing:
+> **Off-Balance, Hobbled, Blind and Shocked all measured at or near zero value** in simulation (1 · −2 · 7 · 13 Credits against Bleeding's 46), while all four were sold at **30** on the [[Weapons]] payload table. Two separate causes, both timing:
 > - **Blind and Shocked cleared in the End Phase**, so a payload delivered mid-round only bit a target that had not yet activated. Roughly half the time they did nothing at all — an invisible coin-flip the player could not read off the card. They now run on the **activation clock**, so the target feels the debuff exactly once, whenever it lands. They also moved out of the persistent list, because they no longer resolve in the End Phase.
 > - **Off-Balance and Hobbled expired after one activation**, which on a 36" board is worth almost nothing. They now **persist until cleared**, on the same pattern as **Pinned** — which is the right benchmark, because a payload *replaces* Pinned. A payload worth less than the Pinned it displaces is a payload nobody should ever buy.
 >
