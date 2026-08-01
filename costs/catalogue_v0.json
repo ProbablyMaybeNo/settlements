@@ -286,10 +286,10 @@
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
-        "shocking": 13
+        "shocking": 16
       },
       "drawbacks": {},
-      "total": 53
+      "total": 56
     },
     {
       "name": "Brutal Machete +Shock",
@@ -299,10 +299,10 @@
       "range_inches": 0,
       "characteristics": {
         "brutal": 15,
-        "shocking": 13
+        "shocking": 16
       },
       "drawbacks": {},
-      "total": 68
+      "total": 71
     }
   ],
   "structures": [

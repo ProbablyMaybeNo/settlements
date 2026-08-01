@@ -71,7 +71,10 @@ check("Blind is -2 on sight rolls only",
       b.penalty(sight=True) == 2 and b.penalty() == 0,
       f"sight={b.penalty(sight=True)} non-sight={b.penalty()}")
 g.resolve_conditions(b)
-check("Blind clears in the End Phase", not b.blind)
+check("Blind does NOT clear in the End Phase any more", b.blind)
+b.blind = 2
+g.activate(b); g.activate(b)
+check("Blind ends at the end of its next activation", not b.blind)
 
 # --- Shocked: -2 all rolls, cannot React ------------------------------------
 g, a, b = fresh_game()
@@ -79,30 +82,38 @@ b.shocked = True
 check("Shocked is -2 on all rolls", b.penalty() == 2, f"penalty={b.penalty()}")
 check("Shocked cannot React", not b.can_react())
 g.resolve_conditions(b)
-check("Shocked clears in the End Phase", not b.shocked)
+check("Shocked does NOT clear in the End Phase any more", b.shocked)
+b.shocked = 2
+g.activate(b); g.activate(b)
+check("Shocked ends at the end of its next activation", not b.shocked)
 
 # --- the -3 cap -------------------------------------------------------------
 g, a, b = fresh_game()
-b.stress, b.poison, b.shocked, b.blind = 3, True, True, True
+b.stress, b.poison, b.shocked, b.blind = 3, True, 2, 2
 check("Modifier cap holds at -3 however many conditions stack",
       b.penalty(sight=True) == 3, f"penalty={b.penalty(sight=True)}")
 
 # --- Hobbled: -2 MOV, expires at the end of its next activation --------------
 g, a, b = fresh_game()
 check("Base MOV is 6", b.mov == 6.0, f"mov={b.mov}")
-b.hobbled = 2
+b.hobbled = True
 check("Hobbled is -2 MOV", b.mov == 4.0, f"mov={b.mov}")
 g.activate(b); g.activate(b)
-check("Hobbled expires after its next activation", b.mov == 6.0 and not b.hobbled)
+check("Hobbled PERSISTS across activations until cleared", b.hobbled and b.mov == 4.0)
+check("Hobbled sheds for the Move slot, like Pinned",
+      g.clear_movement_condition(b) is True and not b.hobbled and b.mov == 6.0)
 
 # --- Off-Balance: no Sprint / no Charge -------------------------------------
 g, a, b = fresh_game()
-b.off_balance = 2
+b.off_balance = True
 start = b.pos
 g.move_to(b, (start[0] + 30, start[1]), 2 * b.mov)
 moved = abs(b.pos[0] - start[0])
-check("Off-Balance caps a move at MOV (no Sprint / Charge)",
-      moved <= b.mov + 1e-6, f"moved {moved:.1f}\" of a {2*b.mov:.0f}\" sprint")
+check("Off-Balance denies the Sprint outright; the Move sheds it instead",
+      moved < 1e-6 and not b.off_balance, f"moved {moved:.1f}\"")
+b.off_balance = True
+g.activate(b); g.activate(b)
+check("Off-Balance PERSISTS until something sheds it", b.off_balance)
 
 # --- Suppressive: clearing the pin costs the ENTIRE activation ---------------
 g, a, b = fresh_game()

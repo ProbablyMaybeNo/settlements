@@ -166,9 +166,9 @@ The multiplier applies to whichever atom the trait grants — a conditional to-h
 | **Blast** | **43** | 1.0 | **[measured M4]** | Resolve against every model within 2" |
 | Cleaving | 50 | 1.0 | legacy | Injury vs every Engaged enemy on a melee win |
 | **Incendiary** | **22** | 1.0 | **[measured M4]** | Payload: **Fire** |
-| **Shocking** | **13** | 1.0 | **[measured M4]** | Payload: **Shocked** |
+| **Shocking** | **16** | 1.0 | **[measured M4]** | Payload: **Shocked** |
 | **Toxic** | **9** | 1.0 | **[measured M4]** | Payload: **Poison** |
-| **Blinding** | **7** | 1.0 | **[measured M4]** | Payload: **Blind** |
+| **Blinding** | **4** | 1.0 | **[measured M4]** | Payload: **Blind** |
 | Concussive / Crippling | 30 | — | **⚠ measures zero** | Payload: Off-Balance / Hobbled — see §5.5 |
 | **Heavy Impact** | **15** | 1.0 | **[measured M4]** | Push 2" |
 | Smoke | 30 | 0.8 | legacy | Place 3" Dense Smoke instead of attacking |
@@ -221,7 +221,33 @@ Nine of sixteen catalogue weapons moved, **−143 Goods** across the sample armo
 
 Both sit inside the noise floor. **They are deliberately left at 30 in `ticks.py` and flagged by `points.verify` rather than repriced to nothing** — selling a player a trait that does nothing is worse than selling it at the wrong price.
 
-The fix belongs in the rules: the effects are too small, or they expire too fast to be felt. **Strengthen the rule or cut the trait.**
+### 5.6 · The duration experiment — run, and it mostly failed
+
+All four low-measuring conditions were strengthened in the vault and re-measured on the same harness.
+
+| Change | | |
+|---|---|---|
+| Blind · Shocked | clear in the End Phase | → ends at the end of its **next activation** |
+| Off-Balance · Hobbled | expire after one activation | → **persist until cleared** with the Move slot, like Pinned |
+
+| Trait | before | after | Verdict |
+|---|:--:|:--:|---|
+| Shocking | 13 | **16** | helped |
+| Blinding | 7 | **4** | no better — both inside noise (≈ ±2) |
+| Concussive | 1 | **−1** | still zero |
+| Crippling | −2 | **1** | still zero |
+
+**How strong the Hobbled test actually was:** nothing in the simulator ever spends a Move to shed it, so what was measured is a **permanent −2" MOV for the rest of the game** — and it is *still* worth nothing. Movement debuffs do not pay on a 36" board over six rounds. Two caveats keep this a lower bound: the AI does not kite or focus slowed targets, and it never chooses to shed the condition.
+
+**The duration changes were kept anyway**, on design grounds rather than measured value: a payload that cleared in the End Phase did nothing at all if the target had already activated, and an invisible coin-flip the player cannot read off the card is worse than a small effect.
+
+**The remaining options for Concussive and Crippling are: strengthen much harder, or cut them.** A third re-measure of the same shape is not worth running.
+
+### 5.7 · Why every payload measures lower than it feels — the wounding gate
+
+A payload only lands on a hit that **fails to wound**. A rifle (+3) into no armour wounds ~70% of the time, so only ~30% of hits deliver their payload at all.
+
+**Payload value therefore rises with target armour**, and it is visible in the data: in the `ARMOURED6` mirror column almost every payload measures higher than in the bare-list columns. Pricing a payload against bare targets *understates* it in an armoured meta and *overstates* it in a naked one. This is the strongest argument for settling the armour level (M2) before the payload prices are re-locked.
 
 A related timing finding, which is a rules question and not a costing one: **Blind and Shocked clear in the End Phase**, so a payload delivered mid-round only bites a target that has not yet activated. Roughly half the time they do nothing at all, which is most of why they measure at 7 and 13 rather than near Bleed. Moving them to *"until the end of its next activation"* (the Hobbled/Off-Balance clock) would make them worth carrying. **No price can fix a duration problem.**
 

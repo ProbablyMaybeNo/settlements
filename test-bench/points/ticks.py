@@ -150,9 +150,9 @@ CHAR_GOODS = {
     # the spread below is 46:1. Bleed and Blind cannot share a price.
     "bleeding": 46,  # [measured] the death clock at WND 1 — the deadliest payload
     "incendiary": 22,  # [measured]
-    "shocking": 13,  # [measured] -2 all rolls + no React, but clears in the End Phase
+    "shocking": 16,  # [measured, re-measured after the duration change: 13 -> 16]
     "toxic": 9,  # [measured] -1 all rolls until a STR test clears it
-    "blinding": 7,  # [measured] -2 on sight rolls only, clears in the End Phase
+    "blinding": 4,  # [measured] -2 on sight rolls only — small either way, see below
     "heavy_impact": 15,  # [measured] push 2"
     "suppressive": 17,  # [measured] the Pin costs the whole activation — was 40
     "blast": 43,  # [measured] resolve against everything within 2"
@@ -162,8 +162,8 @@ CHAR_GOODS = {
     # is worse than selling it at the wrong price. This is a DESIGN defect to fix
     # in the rules (the effects are too small, or expire too fast to matter), not
     # a price to set. See POINTS-TABLE.md §5.5.
-    "concussive": 30,  # !! measures 1 — rule needs strengthening or the trait cut
-    "crippling": 30,  # !! measures -2 — rule needs strengthening or the trait cut
+    "concussive": 30,  # !! measures -1 AFTER being strengthened — see the note below
+    "crippling": 30,  # !! measures  1 AFTER being strengthened — see the note below
     # --- not yet measured; still legacy x10, not derived from anything
     "hook": 20,
     "smoke": 30,
@@ -177,8 +177,45 @@ CHAR_GOODS = {
     "compact": 20,
 }
 
-# Characteristics whose measurement came back inside the noise floor. The rules,
-# not the prices, are what need changing. Reported by points.verify.
+# ---------------------------------------------------------------------------
+# THE DURATION EXPERIMENT — run 2026-08-01, and it mostly FAILED. Recorded so it
+# is not repeated.
+#
+# All four low-measuring conditions had their rules strengthened in the vault and
+# the measurement was repeated on the same harness:
+#   Blind / Shocked : End Phase clear  ->  ends at the end of its NEXT activation
+#   Off-Balance     : one activation   ->  persists until cleared with the Move
+#   Hobbled         : one activation   ->  persists until cleared with the Move
+#
+#   trait         before   after
+#   Shocking        13      16     helped
+#   Blinding         7       4     no better (both inside noise, ~+/-2)
+#   Concussive       1      -1     still zero
+#   Crippling       -2       1     still zero
+#
+# Note how strong the Hobbled test actually was: nothing in the sim ever spends a
+# Move to clear it, so the measurement is of a PERMANENT -2" MOV for the rest of
+# the game — and it is still worth nothing. Movement debuffs do not pay on a 36"
+# board over 6 rounds. Two caveats keep this a lower bound: the AI does not kite
+# or focus slowed targets, and it never chooses to shed the condition.
+#
+# THE DEEPER CAUSE, which applies to every payload. A payload only lands on a hit
+# that FAILS to wound. A rifle (+3) into no armour wounds ~70% of the time, so
+# only ~30% of hits deliver their payload at all. Payload value therefore rises
+# with target armour — visible in the Armoured column of conditions2d.py, where
+# almost every payload measures higher. Pricing a payload against bare targets
+# understates it in an armoured meta and overstates it in a naked one.
+#
+# The duration changes were KEPT regardless of the numbers: the activation clock
+# removes an invisible coin-flip (a payload used to do nothing at all if the
+# target had already activated), which is a readability win the player can see.
+# ---------------------------------------------------------------------------
+
+# Characteristics whose measurement came back inside the noise floor EVEN AFTER
+# their rules were strengthened. The remaining options are to strengthen much
+# harder or to cut them; they are deliberately not repriced to ~0, because a
+# near-free trait in a player-built weapon system gets taken on everything.
+# Reported by points.verify.
 UNPRICEABLE_MEASURED_ZERO = ("concussive", "crippling")
 
 # Rate of Fire 2 = 50  [measured 2026-07-30, balance/rof_cost.py reproduced]

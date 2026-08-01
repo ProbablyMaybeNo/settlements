@@ -100,10 +100,10 @@ class Unit:
         # --- conditions (Conditions.md). No stacking: each is a flag, not a count.
         self.bleed = False          # persistent: -1 WND each End Phase
         self.poison = False         # persistent: -1 all rolls; STR 7+ each End Phase to end
-        self.blind = False          # -2 on sight-based rolls; clears in the End Phase
-        self.shocked = False        # -2 all rolls, cannot React; clears in the End Phase
-        self.off_balance = 0        # no Sprint/Charge; ends at the end of its next activation
-        self.hobbled = 0            # -2" MOV;            ends at the end of its next activation
+        self.blind = 0              # -2 on sight rolls;  ends at the end of its next activation
+        self.shocked = 0            # -2 all rolls + no React; ends at the end of its next activation
+        self.off_balance = False    # no Sprint/Charge;   persists until cleared with the Move slot
+        self.hobbled = False        # -2" MOV;            persists until cleared with the Move slot
         self.suppressed = False     # counts as Pinned and cannot React until the Pin clears
 
     # --- status helpers ------------------------------------------------------
@@ -219,13 +219,13 @@ class Game:
         elif payload == 'poison':
             dfn.poison = True
         elif payload == 'blind':
-            dfn.blind = True
+            dfn.blind = 2                # this activation + its next
         elif payload == 'shocked':
-            dfn.shocked = True
+            dfn.shocked = 2
         elif payload == 'off_balance':
-            dfn.off_balance = 2          # this activation + its next
+            dfn.off_balance = True       # persists until cleared
         elif payload == 'hobbled':
-            dfn.hobbled = 2
+            dfn.hobbled = True
         elif payload == 'heavy_impact':
             self.push(dfn, att.pos, 2.0)
             if ranged:
@@ -353,8 +353,12 @@ class Game:
         return min(c, key=lambda e: dist(u.pos, e.pos)) if c else None
 
     def move_to(self, u, point, max_dist):
-        if u.off_balance:
-            max_dist = min(max_dist, u.mov)   # Off-Balance: no Sprint, no Charge
+        if u.off_balance and max_dist > u.mov:
+            # Off-Balance denies Sprint and Charge outright. To do either you must
+            # first shed it, and shedding costs the Move slot — so this activation
+            # buys the clear instead of the distance.
+            u.off_balance = False
+            return
         p0 = u.pos
         u.pos = toward(u.pos, point, max_dist)
         if (not DIST_GATE) or dist(p0, u.pos) > u.mov / 2.0:
@@ -422,6 +426,15 @@ class Game:
                 d.state = 'offline' if d.state == 'online' else 'destroyed'
                 self.note(f"  {u.tag} {'wrecks' if d.state == 'destroyed' else 'downs'} a turret")
         return True
+
+    def clear_movement_condition(self, u):
+        """Off-Balance / Hobbled persist until the unit spends its Move slot on
+        them (Conditions.md). Returns True if it spent the Move this activation."""
+        if u.off_balance or u.hobbled:
+            u.off_balance = False
+            u.hobbled = False
+            return True
+        return False
 
     def clear_pin(self, u):
         """Spend the Move slot to shake Pinned off. Returns True if the unit may
@@ -585,17 +598,18 @@ class Game:
         # Poison — STR 7+ to shake it off
         if u.poison and core(u.stats['str']):
             u.poison = False
-        # these clear in the End Phase by definition
-        u.blind = False
-        u.shocked = False
+        # Blind and Shocked no longer clear here — they run on the activation
+        # clock now (Conditions.md, 2026-08-01), ticked in tick_activation_conditions.
 
     def tick_activation_conditions(self, u):
         """'Ends at the end of the unit's next activation' — counted down here so it
         expires even if the unit did nothing."""
-        if u.off_balance:
-            u.off_balance -= 1
-        if u.hobbled:
-            u.hobbled -= 1
+        if u.blind:
+            u.blind -= 1
+        if u.shocked:
+            u.shocked -= 1
+        # Off-Balance and Hobbled do NOT tick down — they persist until the unit
+        # spends its Move slot on them (see clear_movement_condition).
 
     # --- objective scoring ---------------------------------------------------
     def try_claim(self, u):
