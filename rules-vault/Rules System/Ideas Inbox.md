@@ -29,6 +29,8 @@ I want to use this section to basically try to describe the type of game I want 
              
             - we want the boards to feel alive. Maybe for each battle or even at the beginning of each phase players roll on an events chart to see if some event happens it could be beneficial or negative or just change the battle somehow for example it starts to rain decreasing weapon range and increasing stealth, a traders caravan is passing through which the traders can interact with to purchase rare weapons or equipment, or maybe a pack of wolves appears and starts to prowl around the board atttacking the first thing that gets within 12" of them, we ashould create a list of events that could happen during battle.
 
+- we want to make the game feel more realistic regarding the setting, the game takes place in the aftermath of a 
+
 - Include a fear/terror mechanism where units can "break" and become frozen in place unable to move or act until a crew member "snaps them out of it" or the controlling player rolls a certain hard to hit dice roll. "Break" is different to "Flee" or "bolt" where a unit will try to run off the board. "Break" occurs when a unit witnesses enough trauma in a single turn. Trauma can include witnessing a friendly get shot. They get shot from a out of LOS enemy. An enemy with the "Fear" trait finished a turn in their LOS or they get targeted by an enemy. Something like that. 
   
   I'd like to include more of an emphasis on morale and mental health in the game. We could include a set of "fear/terror" related affects, Break, Bolt, Freak, Fight.
