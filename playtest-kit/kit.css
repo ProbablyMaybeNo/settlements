@@ -1,0 +1,191 @@
+/* ============================================================
+   SETTLEMENTS — Playtest Kit shared theme  (v5 — B&W, print-fit)
+   Print-first · A4 · each sheet side fits ONE page.
+   Hierarchy from weight, size, borders and grey fills only.
+   ============================================================ */
+
+:root{
+  --ink:#000; --paper:#fff; --line:#000; --line2:#9a9a9a;
+  --fill:#ececec; --fill2:#e0e0e0; --dark:#000; --muted:#555;
+}
+*{ box-sizing:border-box; }
+html,body{ margin:0; padding:0; background:#c9c9c9; color:var(--ink);
+  font-family:"Segoe UI","Helvetica Neue","Arial",sans-serif;
+  font-size:9.6pt; line-height:1.28; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+b,strong{ color:#000; font-weight:700; }
+
+/* ---- page ---- */
+.sheet{ width:210mm; min-height:297mm; margin:7mm auto; padding:9mm 9mm 7mm;
+  background:var(--paper); box-shadow:0 2px 12px rgba(0,0,0,.28); position:relative; overflow:hidden; }
+.sheet.landscape{ width:297mm; min-height:210mm; }
+
+/* ---- masthead ---- */
+.masthead{ display:flex; justify-content:space-between; align-items:flex-end;
+  border-bottom:3px solid var(--ink); padding-bottom:3px; margin-bottom:6px; }
+.masthead .title{ font-family:"Arial Black","Arial",sans-serif; font-weight:900;
+  letter-spacing:1px; text-transform:uppercase; font-size:21pt; line-height:.9; }
+.masthead .title small{ display:block; font-size:7pt; letter-spacing:2.5px; color:var(--muted); font-weight:600; }
+.masthead .tag{ background:var(--ink); color:var(--paper); font-family:"Arial Black","Arial",sans-serif;
+  font-weight:800; letter-spacing:1.5px; text-transform:uppercase; font-size:11pt; padding:3px 11px; }
+.lede{ font-size:9pt; line-height:1.32; margin:0 0 6px; border-left:4px solid var(--ink);
+  background:var(--fill); padding:5px 8px; }
+.lede b{ white-space:nowrap; }
+
+/* ---- masonry column flow of section cards ---- */
+.cols{ column-count:2; column-gap:8px; }
+.cols.three{ column-count:3; }
+.cols.one{ column-count:1; }
+
+/* ---- explicit two-column layout (deterministic for print pagination) ---- */
+.two{ display:flex; gap:8px; align-items:flex-start; }
+.two > .col{ flex:1 1 0; min-width:0; }
+
+/* ---- SECTION card ---- */
+.sec{ break-inside:avoid; border:2px solid var(--ink); background:var(--paper);
+  margin:0 0 6px; display:inline-block; width:100%; }
+.sec > .h{ background:var(--ink); color:var(--paper); font-family:"Arial Black","Arial",sans-serif;
+  letter-spacing:.8px; text-transform:uppercase; font-size:10.5pt; font-weight:800; padding:3px 8px;
+  display:flex; align-items:center; gap:7px; }
+.sec > .h .n{ background:var(--paper); color:var(--ink); font-weight:900; font-size:9.5pt;
+  width:18px; height:18px; display:inline-flex; align-items:center; justify-content:center; flex:0 0 auto; }
+.sec.olive > .h, .sec.rust > .h, .sec.steel > .h{ background:var(--ink); }
+.sec .body{ padding:5px 6px; }
+
+/* ---- RULE box (each separate rule) ---- */
+.rule{ border:1px solid var(--line2); background:#fff; padding:3px 7px; margin:0 0 4px; }
+.rule:last-child{ margin-bottom:0; }
+.rule .rt{ font-family:"Arial Black","Arial",sans-serif; letter-spacing:.3px; text-transform:uppercase;
+  font-size:8.6pt; color:#000; font-weight:800; display:block; margin-bottom:1px; }
+.rule.key{ border:1.5px solid var(--ink); border-left:5px solid var(--ink); background:var(--fill); }
+.rule p{ margin:2px 0; }
+
+/* ---- attached SUB-rule ---- */
+.sub{ border:1px solid var(--line2); border-top:0; background:var(--fill);
+  margin:-4px 0 4px 12px; padding:3px 7px; font-size:8.8pt; position:relative; }
+.sub:before{ content:""; position:absolute; left:-8px; top:0; bottom:50%; width:8px;
+  border-left:1px solid var(--ink); border-bottom:1px solid var(--ink); }
+.sub .rt{ color:#000; font-size:8pt; }
+
+/* ---- flow diagram ---- */
+.flow{ display:flex; align-items:stretch; gap:0; margin:3px 0; flex-wrap:wrap; }
+.flow .s{ flex:1 1 0; min-width:50px; border:1.5px solid var(--ink); background:#fff; padding:3px 4px;
+  text-align:center; font-size:8.2pt; line-height:1.14; position:relative; }
+.flow .s + .s{ margin-left:11px; }
+.flow .s + .s:before{ content:"\25B6"; position:absolute; left:-11px; top:50%; transform:translateY(-50%);
+  font-size:8pt; color:var(--ink); width:11px; text-align:center; }
+.flow .s b{ display:block; font-family:"Arial Black","Arial",sans-serif; text-transform:uppercase; letter-spacing:.4px; font-size:8pt; }
+.flow .s.hit{ background:var(--fill); } .flow .s.bad{ background:var(--fill2); }
+
+/* ---- chips ---- */
+.chips{ display:flex; flex-wrap:wrap; gap:3px; margin:2px 0; }
+.chip{ border:1px solid var(--ink); background:#fff; font-size:8.2pt; padding:1px 6px; white-space:nowrap; }
+.chip b{ text-transform:uppercase; letter-spacing:.4px; }
+.pill{ display:inline-block; background:var(--ink); color:var(--paper); font-size:7.5pt;
+  letter-spacing:.4px; padding:1px 6px; text-transform:uppercase; }
+
+/* ---- stress -> state ladder ---- */
+.ladder{ display:flex; gap:6px; margin:3px 0; }
+.ladder .rung{ flex:1; border:1.5px solid var(--ink); text-align:center; padding:2px; font-size:8.2pt; background:#fff; }
+.ladder .rung .lv{ font-family:"Arial Black",sans-serif; font-weight:900; font-size:10pt; display:block; }
+.ladder .rung.b1{ background:#fff; } .ladder .rung.b2{ background:var(--fill); } .ladder .rung.b3{ background:var(--fill2); }
+
+/* ---- reference tables ---- */
+table.ref{ width:100%; border-collapse:collapse; margin:3px 0; font-size:8.8pt; }
+table.ref caption{ text-align:left; font-family:"Arial Black",sans-serif; text-transform:uppercase;
+  letter-spacing:.8px; font-weight:800; color:#000; font-size:8.8pt; padding:2px 0; }
+table.ref th{ background:var(--ink); color:var(--paper); text-align:left; font-size:8pt;
+  letter-spacing:.4px; text-transform:uppercase; padding:2px 6px; border:1px solid var(--ink); }
+table.ref td{ border:1px solid #7a7a7a; padding:2px 6px; vertical-align:top; }
+table.ref tr:nth-child(even) td{ background:var(--fill); }
+table.ref td.c,table.ref th.c{ text-align:center; }
+.small{ font-size:8.2pt; color:var(--muted); }
+.callout{ border:1.5px solid var(--ink); border-left:5px solid var(--ink); background:var(--fill); padding:5px 8px; margin:5px 0; font-size:8.8pt; }
+.cond{ font-weight:800; }
+
+/* ---- worked example box ---- */
+.ex{ border:1px solid var(--ink); background:var(--fill); padding:3px 7px 4px; margin:4px 0 0; font-size:8.5pt; line-height:1.32; }
+.ex:before{ content:"EXAMPLE"; display:inline-block; background:var(--ink); color:var(--paper);
+  font-family:"Arial Black",sans-serif; font-size:7pt; letter-spacing:.8px; padding:1px 5px; margin-right:6px; vertical-align:1px; }
+
+/* ============================================================
+   TOP-DOWN BOARD DIAGRAM
+   ============================================================ */
+.board{ position:relative; width:120mm; height:120mm; margin:5px auto; border:2.5px solid var(--ink);
+  background:
+    linear-gradient(#c8c8c8 1px,transparent 1px) 0 0/ 40mm 40mm,
+    linear-gradient(90deg,#c8c8c8 1px,transparent 1px) 0 0/ 40mm 40mm,
+    #fff; }
+.board .dz{ position:absolute; left:0; right:0; height:24mm; background:repeating-linear-gradient(
+    45deg,rgba(0,0,0,.14),rgba(0,0,0,.14) 5px,transparent 5px,transparent 10px);
+  border-color:var(--ink); font-size:8pt; color:#000; font-weight:800;
+  display:flex; align-items:center; justify-content:center; letter-spacing:.8px; text-transform:uppercase; }
+.board .dz.top{ top:0; border-bottom:2px dashed var(--ink); }
+.board .dz.bot{ bottom:0; border-top:2px dashed var(--ink); }
+.board .cl{ position:absolute; left:0; right:0; top:50%; border-top:2px dashed var(--ink); }
+.board .obj{ position:absolute; top:50%; transform:translate(-50%,-50%); width:14mm; height:14mm;
+  border:2px solid var(--ink); background:#fff; border-radius:50%; display:flex; align-items:center;
+  justify-content:center; font-weight:900; font-size:9pt; color:#000; }
+.board .bldg{ position:absolute; border:1.5px solid #6a6a6a; background:rgba(0,0,0,.08);
+  font-size:7pt; color:#444; display:flex; align-items:center; justify-content:center; }
+.legend{ display:flex; gap:12px; flex-wrap:wrap; font-size:8pt; margin-top:3px; justify-content:center; }
+.legend span{ display:inline-flex; align-items:center; gap:5px; }
+.sw{ width:12px; height:12px; display:inline-block; border:2px solid var(--ink); }
+
+/* ============================================================
+   UNIT CARD  (crew sheet)
+   ============================================================ */
+.card{ border:2.5px solid var(--ink); background:var(--paper); margin:0 0 7px;
+  page-break-inside:avoid; break-inside:avoid; }
+.card .cardhead{ background:var(--ink); color:var(--paper); display:flex; justify-content:space-between;
+  align-items:center; padding:2px 9px; }
+.card .cardhead .b{ font-family:"Arial Black","Arial",sans-serif; letter-spacing:1.2px; font-size:12pt; text-transform:uppercase; }
+.card .cardhead .s{ font-size:7pt; letter-spacing:1.5px; text-transform:uppercase; opacity:.85; }
+.identity{ display:flex; border-bottom:2px solid var(--ink); }
+.identity .fld{ flex:1; padding:2px 8px; border-right:1px solid var(--ink); }
+.identity .fld:last-child{ border-right:0; flex:1.5; }
+.identity .lbl{ font-size:6.5pt; letter-spacing:1px; text-transform:uppercase; color:var(--muted); font-weight:700; }
+.identity .val{ font-size:10pt; font-weight:800; min-height:13px; }
+.rankpick span{ font-size:8pt; } .rankpick b.on{ text-decoration:underline; }
+.stats{ display:grid; grid-template-columns:repeat(7,1fr); border-bottom:2px solid var(--ink); }
+.stats .st{ border-right:1px solid var(--ink); text-align:center; }
+.stats .st:last-child{ border-right:0; }
+.stats .st .k{ background:var(--ink); color:var(--paper); font-size:7.5pt; letter-spacing:1px; font-weight:800; padding:1px 0; }
+.stats .st .v{ font-size:13pt; font-weight:900; padding:2px 0; min-height:22px; }
+.weps{ display:grid; grid-template-columns:1fr 1fr 1fr; border-bottom:2px solid var(--ink); }
+.wep{ border-right:1px solid var(--ink); padding:3px 8px; } .wep:last-child{ border-right:0; }
+.wep .wt{ font-size:6.5pt; letter-spacing:1px; text-transform:uppercase; color:var(--muted); font-weight:700; }
+.wep .wn{ font-weight:800; font-size:9pt; } .wep .wl{ font-size:7.5pt; } .wep .dmg{ float:right; font-weight:900; }
+.block{ border-bottom:2px solid var(--ink); padding:3px 8px; }
+.block .bt{ font-family:"Arial Black","Arial",sans-serif; letter-spacing:.8px; text-transform:uppercase; font-size:9pt; color:#000; font-weight:800; margin-bottom:1px; }
+.block .row{ font-size:8.5pt; border-bottom:1px dotted #999; padding:1px 0; }
+.block .row:last-child{ border-bottom:0; } .block .row b{ display:inline-block; min-width:88px; }
+.xp{ padding:3px 8px; border-bottom:2px solid var(--ink); }
+.xp .bt{ font-family:"Arial Black",sans-serif; letter-spacing:.8px; text-transform:uppercase; font-size:8.5pt; color:#000; font-weight:800; }
+.xp .track{ display:flex; gap:2px; margin-top:2px; }
+.xp .box{ width:10px; height:10px; border:1px solid var(--ink); flex:0 0 auto; }
+.xp .box.mile{ border-width:2px; background:var(--fill); }
+.xp .miles{ display:flex; justify-content:space-between; font-size:6pt; color:var(--muted); margin-top:1px; }
+.notes{ padding:3px 8px; } .notes .bt{ font-family:"Arial Black",sans-serif; letter-spacing:.8px; text-transform:uppercase; font-size:8.5pt; color:#000; font-weight:800; }
+.notes .lines{ min-height:26px; background:repeating-linear-gradient(transparent,transparent 13px,#999 13px,#999 14px); }
+
+.barhead{ font-family:"Arial Black","Arial",sans-serif; letter-spacing:1.2px; text-transform:uppercase;
+  padding:3px 10px; background:var(--ink); color:var(--paper); font-size:10pt; }
+
+/* ---- numbered step list ---- */
+ol.steps{ margin:3px 0; padding-left:0; list-style:none; counter-reset:step; }
+ol.steps li{ position:relative; padding:4px 8px 4px 30px; margin:0 0 4px; border:1px solid var(--line2); background:#fff; font-size:9pt; }
+ol.steps li:before{ counter-increment:step; content:counter(step); position:absolute; left:5px; top:4px;
+  width:19px; height:19px; background:var(--ink); color:var(--paper); font-family:"Arial Black",sans-serif;
+  font-size:9.5pt; display:flex; align-items:center; justify-content:center; }
+
+/* ---- print ---- */
+@media print{
+  html,body{ background:#fff; }
+  .sheet{ margin:0; box-shadow:none; width:auto; min-height:0; height:auto; padding:8mm; overflow:visible;
+    break-after:page; page-break-after:always; }
+  .sheet:last-child{ break-after:auto; page-break-after:auto; }
+  .noprint{ display:none !important; }
+  @page{ size:A4; margin:7mm; }
+}
+.noprint{ max-width:210mm; margin:6mm auto 0; font-size:9.5pt; color:#222; }
+.noprint .btn{ background:var(--ink); color:#fff; border:0; padding:7px 16px; cursor:pointer; letter-spacing:1px; }

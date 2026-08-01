@@ -1,0 +1,172 @@
+<!doctype html>
+<link rel="stylesheet" href="kit.css">
+<title>Settlements — Rules Reference</title>
+<div class="noprint">
+  <button class="btn" onclick="window.print()">🖨 Print</button>
+  Rules Reference — the engine, boxed by section. Conditions are <b>bold</b>; look them up on the Scenario &amp; Board sheet. Print A4, both sides.
+</div>
+
+<!-- ===================== PAGE 1 — THE ENGINE ===================== -->
+<div class="sheet">
+  <div class="masthead">
+    <div class="title">Settlements<small>working title</small></div>
+    <div class="tag">Rules Reference</div>
+  </div>
+  <div class="lede">Every uncertain outcome is <b>one roll: 1d10 + Stat + mods ≥ 7</b>. &nbsp;Board <b>3'×3'</b> · deploy <b>24" apart</b> · <b>6 rounds</b> (~1.5 h) · win on <b>objectives, never kills</b>. &nbsp;<b>WND 1</b> for nearly everyone.</div>
+
+  <div class="cols">
+
+    <div class="sec">
+      <div class="h"><span class="n">1</span> The Core Test</div>
+      <div class="body">
+        <div class="rule key"><span class="rt">The only mechanic</span>
+          <b>1d10 + Stat + Modifiers ≥ 7 = success.</b> Used for every attack, skill, terrain &amp; objective Interact.
+          <div class="chips" style="margin-top:3px"><span class="chip"><b>Nat 1</b> always fails</span><span class="chip"><b>Nat 10</b> always succeeds</span><span class="chip">total mods capped <b>±3</b></span></div>
+        </div>
+        <div class="rule"><span class="rt">Opposed test</span> Both roll <b>1d10 + Stat</b>. Highest total wins; <b>ties go to the defender</b>.</div>
+        <div class="rule"><span class="rt">Combat is two rolls</span>
+          <div class="flow">
+            <div class="s"><b>Attack</b>did it land?</div>
+            <div class="s hit"><b>Injury</b>how bad?</div>
+          </div>
+          Armor only touches the <b>Injury</b> roll, never the hit. <b>Cover</b> protects against being hit, never the injury.
+        </div>
+      </div>
+    </div>
+
+    <div class="sec olive">
+      <div class="h"><span class="n">2</span> The Round &nbsp;<span class="small" style="color:#e8e4d5">×6</span></div>
+      <div class="body">
+        <div class="rule"><span class="rt">Sequence</span>
+          <div class="flow">
+            <div class="s"><b>Priority</b></div>
+            <div class="s"><b>Alternating<br>activations</b></div>
+            <div class="s"><b>End<br>Phase</b></div>
+          </div>
+        </div>
+        <div class="rule"><span class="rt">Priority</span> Both roll 1d10, <b>+1 to the side with fewer surviving models</b>. Winner chooses to go <b>first or second</b>. Ties re-roll.</div>
+        <div class="rule"><span class="rt">End Phase — 4 steps</span>
+          <div class="flow">
+            <div class="s"><b>1</b>Refresh Actions / Orders / Ready</div>
+            <div class="s"><b>2</b>Persistent conditions</div>
+            <div class="s"><b>3</b>Break tests (2+ Stress)</div>
+            <div class="s"><b>4</b>Score VP</div>
+          </div>
+          <div class="small">Stress never affects Priority.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec rust">
+      <div class="h"><span class="n">3</span> Activation</div>
+      <div class="body">
+        <div class="rule key"><span class="rt">One Move + one Action</span>
+          <div class="flow"><div class="s"><b>Move</b>up to MOV"</div><div class="s"><b>Action</b>one of below</div></div>
+          <div class="chips"><span class="chip">Shoot</span><span class="chip">Fight</span><span class="chip">Interact</span><span class="chip">Hide</span><span class="chip">Stabilize</span></div>
+          At most <b>one attack</b>; never a second Move.
+        </div>
+        <div class="sub"><span class="rt">Sprint — both slots</span> Move <b>2× MOV"</b>, nothing else.</div>
+        <div class="sub"><span class="rt">Charge — both slots</span> <b>2× MOV"</b> into base contact + free melee at <b>+1</b> (needs LOS).</div>
+        <div class="rule"><span class="rt">Orders</span> Recruit/Fighter <b>0</b> · Specialist <b>1</b> · Leader <b>2</b>. Give a friendly (or self) a <b>free Action or Reaction</b>. Only in your own activation; a unit gets <b>one Order per round</b>; can't chain.</div>
+        <div class="rule"><span class="rt">Reactions</span> Go <b>Ready</b> (Action or Order) → when an enemy ends a Move/Action in your <b>forward 180° + LOS</b>, react <b>once</b>:
+          <span class="chips"><span class="chip">Snap Shot</span><span class="chip">Charge</span><span class="chip">Throw</span><span class="chip">Interact</span><span class="chip">Trigger</span></span> Ready persists across rounds until spent.</div>
+      </div>
+    </div>
+
+    <div class="sec steel">
+      <div class="h"><span class="n">4</span> Movement</div>
+      <div class="body">
+        <div class="rule"><span class="rt">Base</span> Move up to <b>MOV" (6")</b> any direction; can't split around the Action; never forced.</div>
+        <div class="rule"><span class="rt">Disengage</span> A Move-slot exit from the 1" zone: <b>every engaged enemy free-swings at −2</b>. Keep your Action, but <b>can't Charge</b>.</div>
+        <div class="rule"><span class="rt">Terrain crossing</span>
+          <div class="flow"><div class="s"><b>Low leap</b>obstacle &lt;2" — no test, flat −2" Move</div><div class="s"><b>Climb / Jump / Vault / Swim</b>AGI ≥ 7 from the Move slot</div></div>
+          <b>Difficult ground</b> = double cost. Fail an AGI test = stop / fall short / fall.</div>
+        <div class="rule"><span class="rt">Facing</span> 180° forward arc, set as you move (or spend the Move just to turn). <b>Ignored once Engaged.</b></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ===================== PAGE 2 — COMBAT RESOLUTION & NERVE ===================== -->
+<div class="sheet">
+  <div class="masthead">
+    <div class="title">Settlements<small>working title</small></div>
+    <div class="tag">Reference · 2</div>
+  </div>
+
+  <div class="cols">
+
+    <div class="sec olive">
+      <div class="h"><span class="n">5</span> Shooting</div>
+      <div class="body">
+        <div class="rule key"><span class="rt">Sequence</span>
+          <div class="flow">
+            <div class="s"><b>Check</b>range + LOS + fwd 180°</div>
+            <div class="s"><b>Roll</b>1d10 + DEX + mods ≥ 7</div>
+            <div class="s hit"><b>Hit</b>→ Injury roll</div>
+          </div>
+          A miss does nothing. A hit that fails to wound = <b class="cond">Pinned</b>.</div>
+        <div class="sub"><span class="rt">Cover — to-hit modifier</span>
+          <span class="chips"><span class="chip">Open <b>0</b></span><span class="chip">Light <b>−1</b></span><span class="chip">Heavy <b>−2</b></span><span class="chip">Hidden <b>−3</b></span><span class="chip">Blocked LOS <b>no shot</b></span></span></div>
+        <div class="rule"><span class="rt">Engaged</span> Most ranged weapons can't fire in base contact — a <b>Sidearm</b> may, but only at the engaged enemy.</div>
+      </div>
+    </div>
+
+    <div class="sec rust">
+      <div class="h"><span class="n">6</span> Melee</div>
+      <div class="body">
+        <div class="rule key"><span class="rt">Engaged within 1"</span> Enter by <b>Move-in</b> (no LOS, no bonus) or <b>Charge</b> (LOS, <b>+1</b>). No bonus if already engaged or just charged.</div>
+        <div class="rule"><span class="rt">Resolve — opposed</span>
+          <div class="flow"><div class="s"><b>Attacker</b>1d10 + STR</div><div class="s"><b>Defender</b>1d10 + STR</div><div class="s hit"><b>Winner</b>→ Injury</div></div>
+          Highest wins, <b>ties to defender</b>. Some weapons swap in <b>AGI</b>. Facing never applies in melee.</div>
+      </div>
+    </div>
+
+    <div class="sec">
+      <div class="h"><span class="n">7</span> Injury &amp; Damage</div>
+      <div class="body">
+        <div class="rule key"><span class="rt">Injury roll</span> <b>1d10 + Weapon Damage − Armor ≥ 7</b>
+          <div class="flow">
+            <div class="s hit"><b>Pass</b>lose 1 WND</div>
+            <div class="s bad"><b>Fail</b>no wound: <b class="cond">Pinned</b> (ranged) / <b class="cond">Shaken</b> (melee)</div>
+          </div>
+          Every hit <b>wounds OR stresses — never both.</b></div>
+        <div class="sub"><span class="rt">At 0 WND</span> <b class="cond">Down</b> if the hit was ranged/hazard · straight to <b>Out of Action</b> if melee.</div>
+        <div class="rule"><span class="rt">Damage &amp; Armor values</span>
+          <span class="chips"><span class="chip">Unarmed <b>+0</b></span><span class="chip">Light <b>+1</b></span><span class="chip">Med <b>+2</b></span><span class="chip">Heavy <b>+3</b></span><span class="chip">Brutal <b>+4</b></span></span>
+          <span class="chips"><span class="chip">Armor: none <b>0</b></span><span class="chip">Light <b>−1</b></span><span class="chip">Heavy <b>−2</b></span></span></div>
+        <div class="rule"><span class="rt">Down &amp; dying</span> Prone, out of the fight. <b>Heavy cover</b> vs ranged unless in the open; a <b>melee/engaged attack auto-hits</b> to finish. <b>Stabilize by the end of its next activation</b> or it bleeds out → Fate.</div>
+        <div class="sub"><span class="rt">Stabilize</span> Action + <b>INT ≥ 7</b> (self or adjacent), <b>−2 without a Med-Kit</b>; a <b>Medic</b> auto-stabilizes.</div>
+      </div>
+    </div>
+
+    <div class="sec steel">
+      <div class="h"><span class="n">8</span> Nerve &amp; Morale</div>
+      <div class="body">
+        <div class="rule"><span class="rt">Gain +1 Stress when you…</span> take a non-wounding hit · gain a negative condition · have a friendly go <b class="cond">Down/Out</b> in LOS · a hazard/skill/scenario says so.</div>
+        <div class="rule key"><span class="rt">Shaken — always on</span> Any unit with <b>1+ Stress = −1 to all rolls.</b> No test, doesn't grow.</div>
+        <div class="rule"><span class="rt">Break test — End Phase, 2+ Stress</span> <b>1d10 + NRV − (Stress − 1) ≥ 7.</b> <span class="small">(the Shaken −1 does NOT apply here.)</span>
+          <div class="flow"><div class="s hit"><b>Pass</b>clear ALL Stress</div><div class="s bad"><b>Fail</b>break, then −1 Stress</div></div></div>
+        <div class="sub"><span class="rt">Fail → state by Stress level</span>
+          <div class="ladder">
+            <div class="rung b1"><span class="lv">2</span><b>Bolt</b><br>flee to edge</div>
+            <div class="rung b2"><span class="lv">3</span><b>Broken</b><br>freeze</div>
+            <div class="rung b3"><span class="lv">4+</span><b>BugOut</b><br>rout &amp; removed</div>
+          </div></div>
+      </div>
+    </div>
+
+    <div class="sec rust">
+      <div class="h"><span class="n">9</span> Bottling — voluntary concession</div>
+      <div class="body">
+        <div class="rule"><span class="rt">Rounds 1–3 — never free</span> You can't just lift the crew off. Either:
+          <div class="sub" style="margin-left:0;margin-top:2px"><b>Fighting withdrawal</b> — walk every model off your <b>own</b> edge (they stay in play &amp; exposed until they leave); the crew has quit — can't contest or score.</div>
+          <div class="sub" style="margin-left:0"><b>Surrender</b> — if the opponent accepts, the game ends at once as <b>their</b> win.</div>
+        </div>
+        <div class="rule key"><span class="rt">Round 4+ — clean bottle</span> Declare in your activation: <b>all your models are removed at once and the game ends.</b> A concession — <b>opponent wins</b>, whatever the score. Scoring stops the instant you bottle.</div>
+      </div>
+    </div>
+
+  </div>
+</div>

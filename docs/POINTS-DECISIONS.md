@@ -44,6 +44,20 @@
 | D19 | Cut Water structures for now (Reclaimer / Cistern / Water Tower). |
 | D20 | Anti-snowball: housing + equipment slots + storage + raids + escalating upgrades + **per-battle rating cap**. No extra upkeep sink. |
 
+## Costing shape — ruled 2026-08-01
+
+| # | Decision |
+|---|---|
+| D21 | **Pricing stays additive. A weapon has exactly one price**, independent of who carries it. Closes `POINTS-TABLE.md` §9 / completion-plan **M7**. The coupling §9 predicted is real and large — offensive primitives are worth **2.4–6.0×** more per elite model — but it is swamped by body count (`suite.py`: r² = 0.708 on model count, **+3.78** win-points per extra model; Gunline 4 finished **last** at 32%). Flat pricing leaks *toward* swarms, not away, so a carrier multiplier would push elite lists further down. The ±3 modifier cap and the rank gates bound the residual error. Re-open only if a future run shows elite lists winning at equal points. |
+| D22 | **Skills are measured but never charged.** Each of the ~150 skills is priced individually from its primitives, and that price is used as a **design band**, not a purchase price. Buying a rank still buys its stats *and* its skills (`Unit Design` · `List Building` — unchanged). A skill measuring far outside its tier's band is **redesigned, not repriced**. This is what makes `SKILL_TIER_GOODS` (20/35/55) real: the tier premium becomes the *measured median* of its tier instead of an estimate. Action-economy skills (extra attack, extra Order, +WND, +MOV) stay **rank-gated and unpriced** — they are not band-checked, they are capped. |
+| D23 | **Scope of the costing pass = everything, structures included.** `Economy.md` gets drafted as part of this work, because structures cannot be priced on the battle anchor — a Storehouse buys zero win probability. Structures use a **second anchor: payback period in Materials against production per cycle.** Two anchors, one catalogue. |
+
+## Conflicts to resolve during this pass
+
+- **Water.** D6/D19 cut Water; the vault's `Structures.md` still has the Water Reclaimer, Cistern and Water Tower as core structures, with Water consumed per head and tank capacity as the Water cap. One of the two is wrong. Ruling needed before structures are costed.
+- **Scale.** The vault prints the **100-point** ladder (Sidearm 4, Standard Ranged 10, Light armour 3, ranks 5/8/16/24); `points/` is on the **1000-point** scale. Propagate after the atoms lock, not before.
+- **Price authority.** `engine2d/data.py` hand-sets its own 100-scale costs, so the simulator does not price crews with the costing engine. Until they share one table, a price cannot be verified end-to-end.
+
 ## Open (not blocking v0 engine)
 
 - Exact Materials↔Goods conversion rate

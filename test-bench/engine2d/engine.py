@@ -45,6 +45,21 @@ def opposed(a, b):        # ties -> defender (b)
     return d10() + a > d10() + b
 
 
+# Weapon characteristic -> the condition its payload delivers (Weapons.md §2).
+# A payload REPLACES the non-wounding result; it never stacks with Pinned.
+PAYLOAD_TRAITS = {
+    'fire': 'fire',                  # Incendiary
+    'bleeding': 'bleed',             # Bleeding
+    'toxic': 'poison',               # Toxic
+    'blinding': 'blind',             # Blinding
+    'shocking': 'shocked',           # Shocking
+    'concussive': 'off_balance',     # Concussive
+    'crippling': 'hobbled',          # Crippling
+    'heavy_impact': 'heavy_impact',  # Heavy Impact — push 2"
+    'hook': 'hook',                  # Hook — pull 1", melee only
+}
+
+
 class Unit:
     def __init__(self, name, side, rank, weapon, armour='none', skills=(), equip=(),
                  deployable=None, **stat):
@@ -58,7 +73,7 @@ class Unit:
         self.equip = tuple(equip)
         self.deployable = deployable
         self.stats = {k: stat.get(k, 0) for k in ('str', 'dex', 'agi', 'int', 'nrv')}
-        self.mov = stat.get('mov', 6.0)
+        self.base_mov = stat.get('mov', 6.0)
         self.wnd = stat.get('wnd', 1)
         self.orders = RANKS[rank]['orders']
         self.cost = unit_cost(rank, weapon, armour, equip, deployable)
@@ -82,10 +97,33 @@ class Unit:
         self.ordered = False
         self.cowed = False
         self.deployed = False
+        # --- conditions (Conditions.md). No stacking: each is a flag, not a count.
+        self.bleed = False          # persistent: -1 WND each End Phase
+        self.poison = False         # persistent: -1 all rolls; STR 7+ each End Phase to end
+        self.blind = False          # -2 on sight-based rolls; clears in the End Phase
+        self.shocked = False        # -2 all rolls, cannot React; clears in the End Phase
+        self.off_balance = 0        # no Sprint/Charge; ends at the end of its next activation
+        self.hobbled = 0            # -2" MOV;            ends at the end of its next activation
+        self.suppressed = False     # counts as Pinned and cannot React until the Pin clears
 
     # --- status helpers ------------------------------------------------------
+    @property
+    def mov(self):
+        return max(1.0, self.base_mov - (2.0 if self.hobbled else 0.0))
+
     def shaken(self):
         return 1 if self.stress >= 1 else 0
+
+    def penalty(self, sight=False):
+        """Total negative modifier on a test. Conditions.md caps the sum at -3
+        however many conditions a unit carries."""
+        p = self.shaken() + (1 if self.poison else 0) + (2 if self.shocked else 0)
+        if sight and self.blind:
+            p += 2
+        return min(p, 3)
+
+    def can_react(self):
+        return not self.shocked and not self.suppressed
 
     def standing(self):
         return not self.out and not self.down
@@ -170,9 +208,41 @@ class Game:
             if a is not dfn and dist(a.pos, dfn.pos) <= SIGHT and has_los(a.pos, dfn.pos, self.terrain):
                 self.add_stress(a, 1)
 
+    def apply_payload(self, att, dfn, ranged, payload):
+        """A payload lands IN PLACE OF the non-wounding result (Pinned / Shaken).
+        Its +1 Stress is the same +1 Pinned would have given — never both
+        (Conditions.md 'General rules' · Weapons.md 'Payload')."""
+        if payload == 'fire':
+            dfn.fire = True
+        elif payload == 'bleed':
+            dfn.bleed = True
+        elif payload == 'poison':
+            dfn.poison = True
+        elif payload == 'blind':
+            dfn.blind = True
+        elif payload == 'shocked':
+            dfn.shocked = True
+        elif payload == 'off_balance':
+            dfn.off_balance = 2          # this activation + its next
+        elif payload == 'hobbled':
+            dfn.hobbled = 2
+        elif payload == 'heavy_impact':
+            self.push(dfn, att.pos, 2.0)
+            if ranged:
+                dfn.pinned = True
+        elif payload == 'hook':
+            self.push(dfn, att.pos, -1.0)
+        elif ranged:                      # no payload: the ordinary ranged result
+            dfn.pinned = True
+            if 'suppressive' in WEAPONS[att.weapon]['traits']:
+                dfn.suppressed = True
+        self.add_stress(dfn, 1)
+
     def injure(self, att, dfn, ranged, payload=None):
-        sk = att.shaken()
-        mod = WEAPONS[att.weapon]['dmg'] + ARMOUR[dfn.armour]['injury'] - sk
+        arm = ARMOUR[dfn.armour]['injury']
+        if 'armour_piercing' in WEAPONS[att.weapon]['traits']:
+            arm = min(arm + 1, 0)          # AP reduces ARMOUR by 1 — worth nothing vs none
+        mod = WEAPONS[att.weapon]['dmg'] + arm - att.penalty()
         if core(mod):
             dfn.w -= 1
             if dfn.w <= 0:
@@ -181,17 +251,12 @@ class Game:
             else:
                 self.add_stress(dfn, 1)
             return True
-        # no wound -> a payload, else Pinned (ranged) / Shaken (melee); all +1 Stress
-        if payload == 'fire':
-            dfn.fire = True
-        elif ranged:
-            dfn.pinned = True
-        self.add_stress(dfn, 1)
+        self.apply_payload(att, dfn, ranged, payload)
         return False
 
     def _resolve_hit(self, att, dfn):
         traits = WEAPONS[att.weapon]['traits']
-        payload = 'fire' if 'fire' in traits else None
+        payload = next((PAYLOAD_TRAITS[t] for t in traits if t in PAYLOAD_TRAITS), None)
         targets = [dfn]
         if 'blast' in traits:
             targets += [e for e in self.foes_of(att)
@@ -211,7 +276,7 @@ class Game:
         if DODGE_ON and dfn.ready and dfn.standing() and self._wants_dodge(att, dfn):
             dfn.ready = False
             self.stat['dodge_try'] += 1
-            if opposed(att.stats['dex'] - att.shaken(), dfn.stats['agi']):
+            if opposed(att.stats['dex'] - att.penalty(sight=True), dfn.stats['agi'] - dfn.penalty()):
                 self._resolve_hit(att, dfn)               # attacker wins opposed roll -> auto-hit
             else:
                 self.stat['dodge_save'] += 1              # dodge beats the shot: miss + dive + Pinned
@@ -220,7 +285,7 @@ class Game:
                 self.note(f"  {dfn.tag} dodges {att.tag}")
             return True
         cov = self.cover(att, dfn)
-        if core(att.stats['dex'] - cov - att.shaken()):
+        if core(att.stats['dex'] - cov - att.penalty(sight=True)):
             self._resolve_hit(att, dfn)
         return True
 
@@ -234,7 +299,7 @@ class Game:
         if dfn.down:
             self.injure(att, dfn, False)         # melee auto-hits a Down fighter
             return
-        if opposed(att.stats['str'] + charge - att.shaken(), dfn.stats['str'] - dfn.shaken()):
+        if opposed(att.stats['str'] + charge - att.penalty(), dfn.stats['str'] - dfn.penalty()):
             if 'knockback' in att.skills:        # skill: shove the loser 2" (can break a hold)
                 self.push(dfn, att.pos, 2.0)
             self.injure(att, dfn, False)
@@ -255,7 +320,7 @@ class Game:
 
     def reactions(self, mover):
         for r in self._standing(1 - mover.side):
-            if not r.ready or not r.has_gun():
+            if not r.ready or not r.has_gun() or not r.can_react():
                 continue
             if dist(r.pos, mover.pos) > WEAPONS[r.weapon]['rng']:
                 continue
@@ -288,6 +353,8 @@ class Game:
         return min(c, key=lambda e: dist(u.pos, e.pos)) if c else None
 
     def move_to(self, u, point, max_dist):
+        if u.off_balance:
+            max_dist = min(max_dist, u.mov)   # Off-Balance: no Sprint, no Charge
         p0 = u.pos
         u.pos = toward(u.pos, point, max_dist)
         if (not DIST_GATE) or dist(p0, u.pos) > u.mov / 2.0:
@@ -303,7 +370,7 @@ class Game:
         if dd == 1:
             self.note(f"  {u.tag} backfires deploying — hardware destroyed")
             return
-        ok = dd == 10 or dd + u.stats['int'] + spec['build'] - u.shaken() >= 7
+        ok = dd == 10 or dd + u.stats['int'] + spec['build'] - u.penalty() >= 7
         d = Deployable(u.side, spec, u.pos)
         d.state = 'online' if ok else 'offline'
         self.deployables.append(d)
@@ -350,10 +417,20 @@ class Game:
 
     def shoot_turret(self, u, d):
         cov = 0 if dist(u.pos, d.pos) <= 6.0 else 2       # Heavy cover unless within 6"
-        if core(u.stats['dex'] - cov - u.shaken()):
-            if core(WEAPONS[u.weapon]['dmg'] - 2 - u.shaken()):   # turret Armour -2
+        if core(u.stats['dex'] - cov - u.penalty(sight=True)):
+            if core(WEAPONS[u.weapon]['dmg'] - 2 - u.penalty()):   # turret Armour -2
                 d.state = 'offline' if d.state == 'online' else 'destroyed'
                 self.note(f"  {u.tag} {'wrecks' if d.state == 'destroyed' else 'downs'} a turret")
+        return True
+
+    def clear_pin(self, u):
+        """Spend the Move slot to shake Pinned off. Returns True if the unit may
+        still use its Action. Suppressive (Weapons.md) denies that: clearing a
+        Suppressed pin costs the ENTIRE activation."""
+        u.pinned = False
+        if u.suppressed:
+            u.suppressed = False
+            return False
         return True
 
     def take_action(self, u):
@@ -371,11 +448,14 @@ class Game:
     def activate(self, u):
         u.acted = True
         if not u.standing():
+            self.tick_activation_conditions(u)
             return
         if u.skip:                               # Bolt / Broken lose the activation
             u.skip = False
+            self.tick_activation_conditions(u)
             return
-        u.policy.act(self, u)                    # the decision is the policy's; primitives are the engine's
+        u.policy.act(self, u)
+        self.tick_activation_conditions(u)                    # the decision is the policy's; primitives are the engine's
 
     # --- primitives the policies compose ------------------------------------
     def los(self, a, b):
@@ -474,14 +554,48 @@ class Game:
             u.stress = 0                         # sheds on a clean round
         u.cowed = False                          # Cowed clears after the Break test
 
-    def resolve_fire(self, u):
-        if u.fire and u.standing():
+    def resolve_conditions(self, u):
+        """End Phase step 2 — persistent conditions, then the timed ones tick down.
+        Every effect here is as written in Conditions.md; nothing is invented."""
+        if u.out:
+            return
+        # Fire — Injury roll at +1 Damage, IGNORING armour. Persists until put out.
+        if u.fire:
             self.note(f"  {u.tag} burns")
-            if core(1):                          # +1 dmg, ignoring armour, hazard -> Down
+            if core(1):
                 u.w -= 1
                 if u.w <= 0:
                     self.go_down(u, True)
-            u.fire = False                       # simplified: burns once then out
+            # an unengaged fighter beats the flames out with its Action next turn
+            if u.standing() and d10() >= 5:
+                u.fire = False
+        # Bleed — lose 1 WND outright each End Phase unless treated. At WND 1 this
+        # is a two-round death clock: Down at the first tick, dead at the second.
+        if u.bleed and not u.out:
+            if u.down:
+                u.out = True                     # Down + Bleed = bleeds out
+                self.note(f"  {u.tag} bleeds out")
+            else:
+                u.w -= 1
+                if u.w <= 0:
+                    self.go_down(u, True)
+                    self.note(f"  {u.tag} drops from blood loss")
+            if not u.out and 'med_kit' in u.equip and core(u.stats['int']):
+                u.bleed = False                  # treated: Action + INT 7+, Med-Kit cancels the -2
+        # Poison — STR 7+ to shake it off
+        if u.poison and core(u.stats['str']):
+            u.poison = False
+        # these clear in the End Phase by definition
+        u.blind = False
+        u.shocked = False
+
+    def tick_activation_conditions(self, u):
+        """'Ends at the end of the unit's next activation' — counted down here so it
+        expires even if the unit did nothing."""
+        if u.off_balance:
+            u.off_balance -= 1
+        if u.hobbled:
+            u.hobbled -= 1
 
     # --- objective scoring ---------------------------------------------------
     def try_claim(self, u):
@@ -493,7 +607,7 @@ class Game:
             if dist(u.pos, o) > 3.0 or self.claims[i] == u.side:
                 continue
             bonus = (1 if 'hacker' in u.skills else 0) + (1 if 'breach_kit' in u.equip else 0)
-            if core(u.stats['int'] + bonus - u.shaken()):
+            if core(u.stats['int'] + bonus - u.penalty()):
                 self.claims[i] = u.side
                 self.note(f"  {u.tag} claims obj{i}")
             return True
@@ -565,7 +679,7 @@ class Game:
                         q[0].acted = True
             # End Phase: conditions -> break tests -> score
             for u in self.units:
-                self.resolve_fire(u)
+                self.resolve_conditions(u)
             for u in self.units:
                 self.break_test(u)
             self.score_objectives(rnd)

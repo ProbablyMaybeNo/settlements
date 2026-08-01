@@ -12,6 +12,7 @@ from .catalogue import (
     STARTER_STRUCTURES,
 )
 from .structures import groundworks_cost, materials_breakdown, materials_cost
+from . import ticks
 from .ticks import SCALE
 from .units import Rank, body_cost, listed_body_cost
 from .weapons import weapon_cost, weapon_cost_breakdown
@@ -201,6 +202,16 @@ def run_report() -> int:
             f"Armoury: {len(SAMPLE_ARMOURY)}/{len(SAMPLE_ARMOURY)} cost cleanly; "
             "structural invariants hold\n"
         )
+
+    zeros = getattr(ticks, "UNPRICEABLE_MEASURED_ZERO", ())
+    if zeros:
+        print("MEASURED AT ZERO — a rules defect, not a price (M4, conditions2d.py):")
+        for name in zeros:
+            print(
+                f"  !! {name:<16} still listed at {ticks.CHAR_GOODS[name]:3} Goods, "
+                f"measured inside the noise floor"
+            )
+        print("  Strengthen the rule or cut the trait; do not sell it at any price.\n")
 
     drift = legacy_drift()
     moved = [r for r in drift if r["delta"]]

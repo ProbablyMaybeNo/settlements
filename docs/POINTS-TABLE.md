@@ -157,16 +157,20 @@ The multiplier applies to whichever atom the trait grants — a conditional to-h
 | Characteristic | Cost | f | Basis | Effect |
 |---|:--:|:--:|:--:|---|
 | **Brutal** | **15** | 1.0 | **[measured]** | +1 Damage (max +4) |
-| **Armour Piercing** | **15** | 1.0 | **[measured]** | Target armour −1 on Injury |
+| **Armour Piercing** | **9** | *f(armour)* | **[measured M4]** | Target armour −1 on Injury — **exactly +1 Damage against an armoured target, exactly nothing against a bare one.** 9 is the blend over two bare lists and one armoured one; in an armoured meta it is worth the full 15 |
 | **Accurate** | **18** | 0.8 | **[measured, provisional f]** | +1 hit if you did not Move/Sprint/Climb |
 | **Spread** | **18** | 0.8 | **[measured, provisional f]** | +1 hit at ≤ half range, −1 beyond |
 | **Rate of Fire 2** | **50** | 1.0 | **[measured]** | 2 hit dice; each extra hit = **+1 Stress** (§10) |
-| Bleeding | 40 | 1.0 | legacy | Payload: **Bleed** — a death clock at WND 1 |
-| Suppressive | 40 | 1.0 | legacy | Target may not clear the Pin with its Move |
-| Blast | 40 | 1.0 | legacy | Resolve against every model within 2" |
+| **Bleeding** | **46** | 1.0 | **[measured M4]** | Payload: **Bleed** — a death clock at WND 1 |
+| **Suppressive** | **17** | 1.0 | **[measured M4]** | Target may not clear the Pin with its Move |
+| **Blast** | **43** | 1.0 | **[measured M4]** | Resolve against every model within 2" |
 | Cleaving | 50 | 1.0 | legacy | Injury vs every Engaged enemy on a melee win |
-| Concussive / Crippling / Blinding / Shocking / Toxic / Incendiary | 30 | 0.8 | legacy | Payload: the named condition |
-| Heavy Impact | 30 | 0.8 | legacy | Push 2" |
+| **Incendiary** | **22** | 1.0 | **[measured M4]** | Payload: **Fire** |
+| **Shocking** | **13** | 1.0 | **[measured M4]** | Payload: **Shocked** |
+| **Toxic** | **9** | 1.0 | **[measured M4]** | Payload: **Poison** |
+| **Blinding** | **7** | 1.0 | **[measured M4]** | Payload: **Blind** |
+| Concussive / Crippling | 30 | — | **⚠ measures zero** | Payload: Off-Balance / Hobbled — see §5.5 |
+| **Heavy Impact** | **15** | 1.0 | **[measured M4]** | Push 2" |
 | Smoke | 30 | 0.8 | legacy | Place 3" Dense Smoke instead of attacking |
 | Breaching | 30 | 0.8 | legacy | +2 STR vs Breachable |
 | **Long Range** | **60** | — | derived ×2 (§4) | +6" to the 24" ceiling — **threshold premium, not a rate** |
@@ -179,7 +183,47 @@ The multiplier applies to whichever atom the trait grants — a conditional to-h
 
 **Rate of Fire 3 is unpriced.** Not "roughly 75", not "about double" — **unpriced**. The third die is superlinear and there is deliberately no entry in `ticks.py`.
 
-**The legacy rows are not derived from anything.** They are inherited from the old hand-set table. Every payload row (Bleeding through Incendiary) is flat-priced by grouping, which Milestone 4 exists to undo: Bleed is a death clock at WND 1 and Blind is a temporary penalty, and they cannot share a price.
+**The remaining legacy rows are not derived from anything** — Hook, Smoke, Long Range, Balanced, Defensive, Cleaving, Breaching, Concealable, Quiet, Compact are still inherited from the old hand-set table.
+
+### 5.4 · What M4 moved — every payload measured on its own **[2026-08-01]**
+
+The flat 30 was a *grouping*, and the group turned out to span **46 : 1**. Source: `balance/conditions2d.py`, 1200 games/cell, sides swapped, on the 2.5D engine with the condition layer implemented (`engine2d/engine.py`; behaviour verified by `engine2d/test_conditions.py`, 21/21 passing).
+
+**Two passes were run and they disagree — read the mirror.**
+
+| Pass | Design | Verdict |
+|---|---|---|
+| **Asymmetric** | Buffed list vs a fixed opponent, as `primitives2d.py` does it | **Discarded as primary.** Hold baselines sit at **8%** (Gunline) and **92%** (Squad), so a buff has almost no room to move the number. Every delta is compressed toward zero |
+| **Mirror** | Identical crews, one side buffed | **Used.** Baseline is exactly 50% by symmetry — maximum sensitivity, no clipping, and deployment/activation asymmetries cancel exactly |
+
+Every low-value trait rose between the two passes, which is the signature of exactly the clipping the mirror pass was built to remove.
+
+| Characteristic | mirror | asym | was | ×Damage | catalogue effect |
+|---|:--:|:--:|:--:|:--:|---|
+| **Bleeding** | **46** | 54 | 40 | 3.05× | Nailgun **140 → 146**, the only weapon that went **up** |
+| **Blast** | **43** | 46 | 40 | 2.89× | unchanged in practice |
+| **Incendiary** | **22** | 24 | 30 | 1.48× | Molotov 90 → 85, Flamethrower 150 → 135 |
+| **Suppressive** | **17** | 5 | 40 | 1.11× | Squad MG 220 → 186 |
+| **Heavy Impact** | **15** | 22 | 30 | 0.99× | Sledgehammer 140 → 125 |
+| **Shocking** | **13** | 1 | 30 | 0.84× | — |
+| **Armour Piercing** | **9** | 1 | 15 | 0.59× | conditional on armour — see §5.3 |
+| **Toxic** | **9** | 2 | 30 | 0.58× | — |
+| **Blinding** | **7** | −1 | 30 | 0.43× | — |
+
+Nine of sixteen catalogue weapons moved, **−143 Goods** across the sample armoury.
+
+### 5.5 · Two traits measure at zero — that is a rules defect, not a price
+
+| Trait | Condition | Measured |
+|---|---|:--:|
+| **Concussive** | Off-Balance — no Sprint or Charge | **1** |
+| **Crippling** | Hobbled — −2" MOV | **−2** |
+
+Both sit inside the noise floor. **They are deliberately left at 30 in `ticks.py` and flagged by `points.verify` rather than repriced to nothing** — selling a player a trait that does nothing is worse than selling it at the wrong price.
+
+The fix belongs in the rules: the effects are too small, or they expire too fast to be felt. **Strengthen the rule or cut the trait.**
+
+A related timing finding, which is a rules question and not a costing one: **Blind and Shocked clear in the End Phase**, so a payload delivered mid-round only bites a target that has not yet activated. Roughly half the time they do nothing at all, which is most of why they measure at 7 and 13 rather than near Bleed. Moving them to *"until the end of its next activation"* (the Hobbled/Off-Balance clock) would make them worth carrying. **No price can fix a duration problem.**
 
 ### 5.4 · What M1 moved
 

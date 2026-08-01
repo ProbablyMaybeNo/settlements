@@ -1,0 +1,220 @@
+<!doctype html>
+<link rel="stylesheet" href="kit.css">
+<title>Settlements — Table References</title>
+<div class="noprint">
+  <button class="btn" onclick="window.print()">🖨 Print</button>
+  Table References — every number, one place. <b>Side 1</b> the lookups you use each turn · <b>Side 2</b> terrain &amp; gear. Print A4, both sides.
+</div>
+
+<!-- ===================== SIDE 1 ===================== -->
+<div class="sheet">
+  <div class="masthead">
+    <div class="title">Settlements<small>working title</small></div>
+    <div class="tag">References 1</div>
+  </div>
+
+  <div class="two">
+    <div class="col">
+
+      <div class="sec">
+        <div class="h"><span class="n">1</span> Stats</div>
+        <div class="body">
+          <table class="ref">
+            <tr><th>Stat</th><th>Rolled for</th></tr>
+            <tr><td><b>STR</b></td><td>Melee attacks; forcing doors; grappling</td></tr>
+            <tr><td><b>DEX</b></td><td>Shooting</td></tr>
+            <tr><td><b>INT</b></td><td>Hacking; stabilizing a Down model; gear</td></tr>
+            <tr><td><b>AGI</b></td><td>Climbing; jumping; swimming; dodging</td></tr>
+            <tr><td><b>NRV</b></td><td>Break tests</td></tr>
+            <tr><td><b>WND</b></td><td>Wounds before dropping. Fixed at 1</td></tr>
+            <tr><td><b>MOV</b></td><td>Move distance. Fixed at 6"</td></tr>
+          </table>
+          <div class="small">A stat is added to the 1d10 roll. Most range 0 to +6.</div>
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="h"><span class="n">2</span> Cover &amp; Line of Sight</div>
+        <div class="body">
+          <div class="rule key"><span class="rt">Cover = a penalty to the shooter's roll</span>
+            <div class="chips">
+              <span class="chip">Open <b>0</b></span>
+              <span class="chip">Light <b>−1</b></span>
+              <span class="chip">Heavy <b>−2</b></span>
+              <span class="chip">Hidden <b>−3</b></span>
+              <span class="chip">Blocked <b>no shot</b></span>
+            </div>
+          </div>
+          <div class="rule"><span class="rt">Judging cover</span> Most of the body behind solid material = <b>Heavy</b>. Partly screened (railing, bush) = <b>Light</b>. Cannot see it = no shot.</div>
+          <div class="rule"><span class="rt">Height</span> A shooter <b>2"+ above</b> the target ignores <b>Light</b> cover at the target's level.</div>
+          <div class="small">Cover only affects the hit, never the Injury roll.</div>
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="h"><span class="n">3</span> Damage &amp; Armor</div>
+        <div class="body">
+          <div class="rule"><span class="rt">Injury roll</span> <b>1d10 + Damage − Armor ≥ 7.</b> Pass = lose 1 WND.</div>
+          <div class="rule"><span class="rt">Weapon Damage</span>
+            <div class="chips">
+              <span class="chip">Unarmed <b>+0</b></span>
+              <span class="chip">Light melee <b>+1</b></span>
+              <span class="chip">One-hand / pistol <b>+2</b></span>
+              <span class="chip">Heavy / rifle <b>+3</b></span>
+              <span class="chip">Brutal <b>+4</b></span>
+            </div>
+          </div>
+          <div class="rule"><span class="rt">Armor</span>
+            <div class="chips">
+              <span class="chip">None <b>0</b></span>
+              <span class="chip">Thick clothes <b>0</b></span>
+              <span class="chip">Improvised / Light <b>−1</b></span>
+              <span class="chip">Heavy <b>−2</b></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col">
+
+      <div class="sec">
+        <div class="h"><span class="n">4</span> Conditions</div>
+        <div class="body">
+          <div class="small" style="margin-bottom:3px"><b>No stacking</b> (re-applying refreshes) · one <b>token</b> each · a <b>new</b> bad condition adds <b>+1 Stress</b> (except Pinned/Shaken) · ongoing ones resolve in the <b>End Phase</b>.</div>
+          <table class="ref">
+            <tr><th>Condition</th><th>Effect</th></tr>
+            <tr><td><b>Pinned</b></td><td>No Move/Charge/Sprint; spend your Move to clear it. May still Shoot / Interact.</td></tr>
+            <tr><td><b>Shaken</b></td><td>1+ Stress: <b>−1 to all rolls.</b> Always on, no test.</td></tr>
+            <tr><td><b>Down</b></td><td>Prone, dying. Heavy cover vs shots; a melee attack auto-finishes it. Needs Stabilize.</td></tr>
+            <tr><td><b>Prone</b></td><td>Flat (not hurt). Heavy cover vs shots; can't Shoot/Charge; standing uses the whole turn.</td></tr>
+            <tr><td><b>Hidden</b></td><td><b>−3 to be hit.</b> Lost when you move, shoot or are revealed.</td></tr>
+            <tr><td><b>Suppressed</b></td><td>Like Pinned <b>and can't React</b> until the Pin clears.</td></tr>
+            <tr><td><b>Grappled</b></td><td>Held within 1". Only attack the grappler or roll STR to break free.</td></tr>
+            <tr><td><b>Snared</b></td><td>Trapped. No moving; Action + <b>STR 7+</b> to break out.</td></tr>
+            <tr><td><b>Off-Balance</b></td><td>No Sprint/Charge. Clears end of your next turn.</td></tr>
+            <tr><td><b>Hobbled</b></td><td><b>−2" Move.</b> Clears end of your next turn.</td></tr>
+            <tr><td><b>Provoked</b></td><td>First attack on anyone but the source is at <b>−1</b>.</td></tr>
+            <tr><td><b>Fire</b></td><td>Each End Phase, Injury at <b>+1, ignoring Armor.</b> Action to put out.</td></tr>
+            <tr><td><b>Bleed</b></td><td>Each End Phase <b>−1 WND</b> unless treated (Action + INT 7+).</td></tr>
+            <tr><td><b>Poison</b></td><td><b>−1 to all rolls.</b> Each End Phase roll STR 7+ to shake it.</td></tr>
+            <tr><td><b>Blind</b></td><td><b>−2</b> on anything you must see. Clears in the End Phase.</td></tr>
+            <tr><td><b>Shocked</b></td><td><b>−2 all rolls</b> and can't React. Clears in the End Phase.</td></tr>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ===================== SIDE 2 ===================== -->
+<div class="sheet">
+  <div class="masthead">
+    <div class="title">Settlements<small>working title</small></div>
+    <div class="tag">References 2</div>
+  </div>
+
+  <div class="two">
+    <div class="col">
+
+      <div class="sec">
+        <div class="h"><span class="n">5</span> Nerve States</div>
+        <div class="body">
+          <div class="rule"><span class="rt">A failed Break test (worse at higher Stress)</span></div>
+          <div class="chips">
+            <span class="chip"><b>Bolt</b> — flee to nearest edge</span>
+            <span class="chip"><b>Broken</b> — freeze, do nothing</span>
+            <span class="chip"><b>Bug Out</b> — routs, removed</span>
+          </div>
+          <div class="rule" style="margin-top:5px"><span class="rt">Nerve tweaks (skills / cover)</span></div>
+          <div class="chips">
+            <span class="chip"><b>Braced</b> +1 Break</span>
+            <span class="chip"><b>Cowed</b> −1 next Break</span>
+            <span class="chip"><b>Frightened</b> can't React, −1 Break</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="h"><span class="n">6</span> Terrain Types</div>
+        <div class="body">
+          <table class="ref">
+            <tr><th>Type</th><th>Move</th><th>Cover</th></tr>
+            <tr><td><b>Building</b></td><td>Open inside; walls block</td><td>Light at windows, Heavy behind walls</td></tr>
+            <tr><td><b>Ruin</b></td><td>Rough; gaps need a jump</td><td>Light / Heavy, often hides you</td></tr>
+            <tr><td><b>Scatter</b></td><td>Open around; hop if under 2"</td><td>Light / Heavy by size</td></tr>
+            <tr><td><b>Water / mud</b></td><td>Rough or impassable</td><td>Open; woods hide you</td></tr>
+          </table>
+          <div class="small">One line per piece at setup, e.g. <i>Ruin · rough · Heavy · hides you</i>.</div>
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="h"><span class="n">7</span> Hazards &amp; Falling</div>
+        <div class="body">
+          <div class="rule"><span class="rt">Dangerous areas</span> A model that <b>ends its move inside one</b> suffers it (forced in = at once).</div>
+          <div class="chips">
+            <span class="chip">Fire → <b class="cond">Fire</b></span>
+            <span class="chip">Acid → <b class="cond">Poison</b></span>
+            <span class="chip">Ice → AGI 7+ or <b class="cond">Off-Balance</b></span>
+            <span class="chip">Wires → <b class="cond">Shocked</b></span>
+            <span class="chip">Deep water → Swim (AGI)</span>
+            <span class="chip">Smoke → <b class="cond">Blind</b></span>
+          </div>
+          <div class="rule" style="margin-top:5px"><span class="rt">Falling</span> Under 3": nothing. <b>3"+</b>: land <b class="cond">Prone</b>. <b>6"+</b>: Prone <b>and</b> an Injury roll at <b>+1 Damage per full 2" fallen, ignoring Armor</b>. A voluntary drop may test <b>AGI 7+</b> to land clean.</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col">
+
+      <div class="sec">
+        <div class="h"><span class="n">8</span> Armour &amp; Equipment</div>
+        <div class="body">
+          <table class="ref">
+            <tr><th>Armour</th><th>Injury</th><th>Downside</th><th>Cost</th></tr>
+            <tr><td>Thick clothing</td><td class="c">0</td><td>—</td><td class="c">0</td></tr>
+            <tr><td>Improvised</td><td class="c">−1</td><td>−1 AGI</td><td class="c">3</td></tr>
+            <tr><td>Light</td><td class="c">−1</td><td>—</td><td class="c">6</td></tr>
+            <tr><td>Heavy</td><td class="c">−2</td><td>−1 MOV/AGI, Loud</td><td class="c">10</td></tr>
+          </table>
+          <table class="ref">
+            <tr><th>Equipment</th><th>Effect</th><th>Cost</th></tr>
+            <tr><td>Med-Kit</td><td>No −2 when treating wounds</td><td class="c">4</td></tr>
+            <tr><td>Breach Kit</td><td>+1 to hack tests</td><td class="c">4</td></tr>
+            <tr><td>Exploit Suite</td><td>+2 to hack tests</td><td class="c">8</td></tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="h"><span class="n">9</span> Weapons — Standard Profiles</div>
+        <div class="body">
+          <table class="ref">
+            <tr><th>Weapon</th><th>Profile</th><th class="c">Dmg</th></tr>
+            <tr><td><b>Baseball Bat</b></td><td>Light melee (free)</td><td class="c">+1</td></tr>
+            <tr><td><b>Crowbar</b></td><td>One-hand melee · forces doors</td><td class="c">+2</td></tr>
+            <tr><td><b>Great Axe</b></td><td>Heavy melee · two-handed</td><td class="c">+3</td></tr>
+            <tr><td><b>Fire Axe</b></td><td>Heavy melee · causes Bleed</td><td class="c">+4</td></tr>
+            <tr><td><b>Pistol</b></td><td>Sidearm · 8" · fires in melee</td><td class="c">+2</td></tr>
+            <tr><td><b>Assault Rifle</b></td><td>18" · +1 hit if you didn't move</td><td class="c">+3</td></tr>
+            <tr><td><b>Pipe Shotgun</b></td><td>9" · harder up close · may jam</td><td class="c">+4</td></tr>
+            <tr><td><b>Hunting Rifle</b></td><td>Long — reaches <b>24"</b></td><td class="c">+3</td></tr>
+            <tr><td><b>Molotov</b></td><td>Thrown 6" · Fire · area · one use</td><td class="c">+1</td></tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="h"><span class="n">10</span> Building a Weapon</div>
+        <div class="body">
+          <div class="rule nokey"><b>1 · Class</b> sets base damage, range, and minimum rank (Light Melee +1 · One-Hand +2 · Heavy Melee +3 · Sidearm 8"/+2 · Standard Ranged 18"/+3 · Heavy Ranged 24"/+3).</div>
+          <div class="rule nokey"><b>2 · Characteristics</b> (cost points + a slot): Brutal +1 Dmg · Accurate +1 hit if still · Long Range +6" · Bleeding/Toxic/Incendiary add a condition · Blast hits an area.</div>
+          <div class="rule nokey"><b>3 · Drawbacks</b> (refund points): Short Range · Unstable (breaks on a nat 1) · Cumbersome · Limited (one use).</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

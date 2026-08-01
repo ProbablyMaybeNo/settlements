@@ -1,0 +1,188 @@
+<!doctype html>
+<link rel="stylesheet" href="kit.css">
+<title>Settlements — How to Play</title>
+<div class="noprint">
+  <button class="btn" onclick="window.print()">🖨 Print</button>
+  How to Play — the rules of play. Bold words are <b>conditions</b>; their effects are on the References sheet. Print A4, both sides.
+</div>
+
+<!-- ===================== SIDE 1 ===================== -->
+<div class="sheet">
+  <div class="masthead">
+    <div class="title">Settlements<small>working title</small></div>
+    <div class="tag">How to Play · 1</div>
+  </div>
+
+  <div class="lede">
+    Two crews fight to control three objectives on a <b>3'×3'</b> board over <b>6 rounds</b>. Each round, players alternate activating their models. At the end of a round each player scores <b>one point per objective they control</b>. The player with the most points after Round 6 wins. <b>Kills do not score.</b> You need <b>1d10 dice</b>, a <b>tape measure</b> (inches), terrain, and both crews.
+  </div>
+
+  <div class="two">
+    <div class="col">
+
+      <div class="sec">
+        <div class="h"><span class="n">1</span> Dice Mechanics</div>
+        <div class="body">
+          <div class="rule key">
+            Every uncertain action is one roll: <b style="font-size:11pt">1d10 + Stat + modifiers ≥ 7</b> to succeed.
+            <div class="chips" style="margin-top:4px">
+              <span class="chip">Natural <b>1</b> always fails</span>
+              <span class="chip">Natural <b>10</b> always succeeds</span>
+              <span class="chip">modifiers total capped <b>±3</b></span>
+            </div>
+          </div>
+          <div class="rule"><span class="rt">Stats added to the roll</span>
+            <div class="chips">
+              <span class="chip"><b>STR</b> melee</span>
+              <span class="chip"><b>DEX</b> shooting</span>
+              <span class="chip"><b>INT</b> tech / hack</span>
+              <span class="chip"><b>AGI</b> climb / dodge</span>
+              <span class="chip"><b>NRV</b> nerve</span>
+              <span class="chip"><b>WND</b> wounds (1)</span>
+              <span class="chip"><b>MOV</b> move (6")</span>
+            </div>
+            <div class="small">Full stat detail on the References sheet.</div>
+          </div>
+          <div class="ex">A model with DEX +2 shoots a target in light cover (−1). It needs 1d10 + 2 − 1 ≥ 7 — a <b>6 or higher</b> on the die.</div>
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="h"><span class="n">2</span> Head-to-Head Rolls</div>
+        <div class="body">
+          <div class="rule">When two models oppose each other directly — melee, a grapple, escaping a hold — <b>both roll 1d10 + the relevant Stat</b>. The higher total wins. <b>A tie goes to the defender.</b></div>
+          <div class="ex">Attacker STR +3 rolls 4 → total 7. Defender STR +2 rolls 5 → total 7. The totals tie, so the <b>defender wins</b>.</div>
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="h"><span class="n">3</span> Turn Order</div>
+        <div class="body">
+          <div class="rule">A game is 6 rounds. Each round has three steps in order:</div>
+          <div class="flow">
+            <div class="s"><b>1 Priority</b>who activates first</div>
+            <div class="s"><b>2 Activations</b>alternate, one each</div>
+            <div class="s"><b>3 End Phase</b>resolve &amp; score</div>
+          </div>
+          <div class="rule"><span class="rt">Priority</span> Both players roll 1d10, adding <b>+1</b> for the side with fewer models in play. The winner chooses to activate <b>first or second</b>. Re-roll ties.</div>
+          <div class="rule"><span class="rt">Activations</span> Players <b>alternate</b>, each activating <b>one model</b>, until every model has activated once.</div>
+          <div class="rule"><span class="rt">End Phase — in order</span> a) refresh all models · b) resolve ongoing conditions (Fire, Bleed) · c) Break tests for any model on 2+ Stress · d) score objectives (Rounds 2–6).</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col">
+
+      <div class="sec">
+        <div class="h"><span class="n">4</span> Activation</div>
+        <div class="body">
+          <div class="rule key"><span class="rt">Each activated model gets one Move and one Action</span> (in either order).
+            <div class="flow"><div class="s"><b>Move</b>up to 6"</div><div class="s"><b>Action</b>one of the below</div></div>
+            <div class="chips"><span class="chip">Shoot</span><span class="chip">Melee</span><span class="chip">Interact</span><span class="chip">Hide</span><span class="chip">Stabilize</span></div>
+            A model makes <b>at most one attack</b> per activation.
+          </div>
+          <div class="rule"><span class="rt">Sprint</span> Uses both the Move and the Action: move up to <b>12"</b> and do nothing else.</div>
+          <div class="rule"><span class="rt">Charge</span> Uses both: move up to <b>12"</b> into base contact and make one melee attack at <b>+1</b>. Requires line of sight.</div>
+          <div class="rule"><span class="rt">Orders</span> A Specialist has <b>1</b>, a Leader has <b>2</b>, per round. An Order gives a friendly model (or the leader itself) one <b>free Action or Reaction</b>. One Order per model per round.</div>
+          <div class="rule"><span class="rt">Ready</span> Spend the Action to go Ready. When an enemy acts within your <b>front arc and line of sight</b>, make <b>one Reaction</b> (a shot, a charge, etc.). Ready is kept until used.</div>
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="h"><span class="n">5</span> Movement</div>
+        <div class="body">
+          <div class="rule"><span class="rt">Basic move</span> Up to <b>6"</b> in any direction. Set your <b>facing</b> (a 180° front arc) as you move.</div>
+          <div class="rule"><span class="rt">Obstacles &amp; climbing</span> An obstacle under 2" high is crossed for a flat <b>−2"</b> of movement, no test. Climbing, jumping a gap, or swimming requires an <b>AGI ≥ 7</b> test during the Move. Difficult ground costs double. A failed test stops the model or causes a fall.</div>
+          <div class="rule"><span class="rt">Disengaging</span> To leave base contact, move away with your Move. <b>Each enemy in contact makes one free attack at −2.</b> The model keeps its Action but cannot Charge this activation.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ===================== SIDE 2 ===================== -->
+<div class="sheet">
+  <div class="masthead">
+    <div class="title">Settlements<small>working title</small></div>
+    <div class="tag">How to Play · 2</div>
+  </div>
+
+  <div class="two">
+    <div class="col">
+
+      <div class="sec">
+        <div class="h"><span class="n">6</span> Shooting</div>
+        <div class="body">
+          <div class="rule key">The target must be <b>in range, in line of sight, and within your front arc</b>. Roll <b>1d10 + DEX + modifiers ≥ 7</b>. A miss has no effect. A hit leads to an <b>Injury roll</b> (§9). A hit that does not wound leaves the target <b class="cond">Pinned</b>.</div>
+          <div class="rule"><span class="rt">Cover (penalty to the shot)</span> Light <b>−1</b>, Heavy <b>−2</b>, Hidden <b>−3</b>. Blocked line of sight = no shot.</div>
+          <div class="rule"><span class="rt">In melee</span> A model in base contact cannot shoot, except a <b>Sidearm</b> fired at the enemy it is engaged with.</div>
+          <div class="ex">DEX +2 shooter, target 10" away in heavy cover (−2): 1d10 + 2 − 2 ≥ 7 — needs a <b>7</b> on the die.</div>
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="h"><span class="n">7</span> Melee</div>
+        <div class="body">
+          <div class="rule key">Two models within <b>1"</b> are Engaged. Enter melee by moving into contact, or by a <b>Charge</b> (+1 to the attack, requires line of sight).</div>
+          <div class="rule">Both models roll <b>1d10 + STR</b>. The higher total wins; a <b>tie goes to the defender</b>. The winner makes an <b>Injury roll</b> against the loser. Facing does not apply in melee.</div>
+          <div class="ex">A charges B. A (STR +2, +1 for the charge) rolls 5 → total 8. B (STR +1) rolls 6 → total 7. A wins and makes an Injury roll.</div>
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="h"><span class="n">8</span> Interact — Doors, Terminals, Items</div>
+        <div class="body">
+          <div class="rule">The <b>Interact</b> Action opens or forces a door, uses a terminal, or picks up and uses an item.</div>
+          <div class="rule"><span class="rt">Routine</span> Opening an unlocked door or picking up an item <b>succeeds automatically</b> — no roll.</div>
+          <div class="rule"><span class="rt">Forcing / hacking</span> A stuck or barricaded door is forced with a <b>STR test (1d10 + STR ≥ 7)</b>. A locked terminal is opened with an <b>INT test (1d10 + INT ≥ 7)</b>.</div>
+          <div class="ex">A model in contact with a barricaded door spends its Action and rolls 1d10 + STR ≥ 7. On a success the door opens; on a failure it stays shut.</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col">
+
+      <div class="sec">
+        <div class="h"><span class="n">9</span> Damage &amp; Injury</div>
+        <div class="body">
+          <div class="rule key">When a shot or blow lands, roll for Injury: <b style="font-size:10.5pt">1d10 + weapon Damage − target's Armor ≥ 7</b>.
+            <div class="flow">
+              <div class="s hit"><b>Success</b>lose 1 WND</div>
+              <div class="s bad"><b>Failure</b>no wound — Pinned (shot) / Shaken (melee)</div>
+            </div>
+            A hit either wounds or applies stress, never both.
+          </div>
+          <div class="rule"><span class="rt">Reaching 0 WND</span> A shot or hazard leaves the model <b class="cond">Down</b> (prone and dying). A melee blow takes it <b>straight Out of Action</b>.</div>
+          <div class="rule"><span class="rt">Stabilizing</span> A Down model must be Stabilized by a friendly (<b>Action + INT ≥ 7</b> in base contact) by the end of its next activation, or it is removed.</div>
+          <div class="ex">A rifle (+3) hits a target in light armor (−1). Injury: 1d10 + 3 − 1 ≥ 7 — a <b>5</b> wounds. At WND 1, the target goes Down.</div>
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="h"><span class="n">10</span> Morale</div>
+        <div class="body">
+          <div class="rule"><span class="rt">Gaining Stress</span> A model gains <b>+1 Stress</b> when it takes a non-wounding hit, gains a negative condition, or sees a friendly go <b class="cond">Down</b> or Out nearby.</div>
+          <div class="rule"><span class="rt">Shaken</span> A model with <b>1+ Stress is at −1 to all rolls</b>. Automatic — no test.</div>
+          <div class="rule"><span class="rt">Break test</span> In the End Phase, each model with <b>2+ Stress</b> rolls <b>1d10 + NRV − (Stress − 1) ≥ 7</b>. (The Shaken −1 does not apply here.) <b>Pass:</b> clear all Stress. <b>Fail:</b> break —
+            <div class="ladder">
+              <div class="rung b1"><span class="lv">2</span>Bolt</div>
+              <div class="rung b2"><span class="lv">3</span>Broken</div>
+              <div class="rung b3"><span class="lv">4+</span>Bug Out</div>
+            </div>
+          </div>
+          <div class="ex">NRV +1 model on 3 Stress: 1d10 + 1 − 2 ≥ 7 — needs an 8. Rolls 5 → breaks (Broken).</div>
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="h"><span class="n">11</span> Conceding (Bottling)</div>
+        <div class="body">
+          <div class="rule"><span class="rt">Rounds 1–3</span> A crew cannot simply leave. It <b>withdraws</b> (move every model off its own board edge; they stay in play until they leave) or offers a <b>surrender</b>, which the opponent may accept to end the game.</div>
+          <div class="rule"><span class="rt">Round 4 onward</span> A player may declare a bottle in their activation: the <b>entire crew is removed at once and the game ends</b>. The opponent wins regardless of score. A crew stops scoring the moment it bottles.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

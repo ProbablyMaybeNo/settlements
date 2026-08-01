@@ -88,13 +88,13 @@
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
-        "heavy_impact": 30,
+        "heavy_impact": 15,
         "breaching": 30
       },
       "drawbacks": {},
-      "total": 140,
+      "total": 125,
       "legacy_expected": 140,
-      "legacy_delta": 0
+      "legacy_delta": -15
     },
     {
       "name": "Fire Axe",
@@ -104,12 +104,12 @@
       "range_inches": 0,
       "characteristics": {
         "brutal": 15,
-        "bleeding": 40
+        "bleeding": 46
       },
       "drawbacks": {},
-      "total": 135,
+      "total": 141,
       "legacy_expected": 160,
-      "legacy_delta": -25
+      "legacy_delta": -19
     },
     {
       "name": "Reaping Hook",
@@ -177,12 +177,12 @@
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
-        "bleeding": 40
+        "bleeding": 46
       },
       "drawbacks": {},
-      "total": 140,
+      "total": 146,
       "legacy_expected": 140,
-      "legacy_delta": 0
+      "legacy_delta": 6
     },
     {
       "name": "Grandpa's Hunting Rifle",
@@ -206,13 +206,13 @@
       "range_band": "deployment",
       "range_inches": 24,
       "characteristics": {
-        "suppressive": 40,
-        "armour_piercing": 15
+        "suppressive": 17,
+        "armour_piercing": 9
       },
       "drawbacks": {},
-      "total": 215,
+      "total": 186,
       "legacy_expected": 220,
-      "legacy_delta": -5
+      "legacy_delta": -34
     },
     {
       "name": "Makeshift Flamethrower",
@@ -221,16 +221,16 @@
       "range_band": "deployment",
       "range_inches": 24,
       "characteristics": {
-        "incendiary": 30,
-        "blast": 40
+        "incendiary": 22,
+        "blast": 43
       },
       "drawbacks": {
         "short_range": -70,
         "single_use": -20
       },
-      "total": 140,
+      "total": 135,
       "legacy_expected": 150,
-      "legacy_delta": -10
+      "legacy_delta": -15
     },
     {
       "name": "Molotov",
@@ -239,15 +239,15 @@
       "range_band": "thrown",
       "range_inches": 6,
       "characteristics": {
-        "incendiary": 30,
-        "blast": 40
+        "incendiary": 22,
+        "blast": 43
       },
       "drawbacks": {
         "single_use": -20
       },
-      "total": 90,
+      "total": 85,
       "legacy_expected": 90,
-      "legacy_delta": 0
+      "legacy_delta": -5
     },
     {
       "name": "Smoke Grenade",
@@ -274,10 +274,10 @@
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
-        "incendiary": 30
+        "incendiary": 22
       },
       "drawbacks": {},
-      "total": 130
+      "total": 122
     },
     {
       "name": "Machete +Shock",
@@ -286,10 +286,10 @@
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
-        "shocking": 30
+        "shocking": 13
       },
       "drawbacks": {},
-      "total": 70
+      "total": 53
     },
     {
       "name": "Brutal Machete +Shock",
@@ -299,10 +299,10 @@
       "range_inches": 0,
       "characteristics": {
         "brutal": 15,
-        "shocking": 30
+        "shocking": 13
       },
       "drawbacks": {},
-      "total": 85
+      "total": 68
     }
   ],
   "structures": [

@@ -16,7 +16,9 @@ class BalancedPolicy:
         if u.deployable and not u.deployed:           # engineer stands up its turret first
             g.deploy_turret(u); g.issue_orders_attack(u); return
         if u.pinned:
-            u.pinned = False; g.take_action(u); g.issue_orders_attack(u); return
+            if g.clear_pin(u):
+                g.take_action(u); g.issue_orders_attack(u)
+            return
         eng = g.engaged(u)
         if eng:
             g.fight(u, eng[0]); g.issue_orders_attack(u); return
@@ -65,7 +67,7 @@ class RunnerPolicy:
 
     def act(self, g, u):
         if u.pinned:
-            u.pinned = False                          # pinned can't reposition; lose the activation
+            g.clear_pin(u)                            # pinned can't reposition; lose the activation
             return
         if g.engaged(u):
             g.move_to(u, g.flee_point(u), u.mov)      # never fight — run from melee
@@ -80,9 +82,9 @@ class HunterPolicy:
 
     def act(self, g, u):
         if u.pinned:
-            u.pinned = False
-            g.take_action(u)
-            g.issue_orders_attack(u)
+            if g.clear_pin(u):
+                g.take_action(u)
+                g.issue_orders_attack(u)
             return
         eng = g.engaged(u)
         if eng:
@@ -125,7 +127,9 @@ class RoofPolicy:
         if u.deployable and not u.deployed:
             g.deploy_turret(u); g.issue_orders_attack(u); return
         if u.pinned:
-            u.pinned = False; g.take_action(u); g.issue_orders_attack(u); return
+            if g.clear_pin(u):
+                g.take_action(u); g.issue_orders_attack(u)
+            return
         eng = g.engaged(u)
         if eng:
             g.fight(u, eng[0]); g.issue_orders_attack(u); return

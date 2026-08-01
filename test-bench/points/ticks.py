@@ -103,25 +103,69 @@ CLASS_META = {
     "heavy_ranged": {"damage": 3, "range": 24, "slots": 4, "min_rank": "specialist"},
 }
 
-# Characteristics. Rows marked [measured] come from the atoms above; the rest are
-# still legacy ×10 and are not derived from anything.
+# ---------------------------------------------------------------------------
+# PAYLOADS & CHARACTERISTICS                         [measured 2026-08-01, M4]
+#
+# Source: test-bench/balance/conditions2d.py, 1200 games/cell, sides swapped,
+# on the 2.5D engine with the condition layer implemented (engine2d/engine.py;
+# behaviour verified by engine2d/test_conditions.py, 21/21).
+#
+# METHOD. Two passes were run and they disagree, so read the second:
+#   (a) ASYMMETRIC — buffed list vs a fixed opponent, as balance/primitives2d.py
+#       does it. DISCARDED as the primary: the Hold baselines sit at 8% (Gunline)
+#       and 92% (Squad), so a buff has almost no room to move the number and every
+#       delta is compressed toward zero.
+#   (b) MIRROR — identical crews, one side buffed. Baseline is exactly 50% by
+#       symmetry: maximum sensitivity, no clipping, and deployment/activation
+#       asymmetries cancel exactly. THIS is the number used below.
+# Every low-value trait rose between (a) and (b), which is the signature of the
+# clipping the mirror pass was built to remove.
+#
+#   characteristic     mirror   asym   was   ratio to +1 Damage
+#   +1 Damage             15      15    15   1.000x  (anchor)
+#   Blast                 43      46    40   2.893x
+#   Bleeding              46      54    40   3.050x
+#   Incendiary            22      24    30   1.484x
+#   Suppressive           17       5    40   1.107x
+#   Heavy Impact          15      22    30   0.988x
+#   Shocking              13       1    30   0.838x
+#   Armour Piercing        9       1    15   0.594x  (conditional — see below)
+#   Toxic                  9       2    30   0.583x
+#   Blinding               7      -1    30   0.433x
+#   Concussive             1      -4    30   0.036x  <-- measures nothing
+#   Crippling             -2      -0    30  -0.120x  <-- measures nothing
+# ---------------------------------------------------------------------------
 CHAR_GOODS = {
-    "brutal": GOODS_INJURY,  # [measured] 15 — was 40
-    "armour_piercing": GOODS_INJURY,  # [measured] 15 — was 40 (armour 1.0089x = damage)
+    "brutal": GOODS_INJURY,  # [measured] 15 — the anchor, unchanged
+    # AP is worth EXACTLY +1 Damage against an armoured target and EXACTLY ZERO
+    # against a bare one — confirmed in test_conditions.py. In the armoured mirror
+    # it measured 1.21/1.50 per model against +1 Damage's own 1.21/1.50: identical.
+    # So its true form is 15 x f(target wears armour). 9 is the blend measured over
+    # two bare lists and one armoured one. In an armoured meta it is worth 15.
+    "armour_piercing": 9,  # [measured, conditional on armour prevalence]
     "accurate": GOODS_TO_HIT_CONDITIONAL,  # [measured, provisional f] 18 — was 30
     "spread": GOODS_TO_HIT_CONDITIONAL,  # [measured, provisional f] 18 — was 30
     "rate_of_fire_2": 50,  # [measured] balance/rof_cost.py — see note below
-    "concussive": 30,
-    "crippling": 30,
-    "blinding": 30,
-    "shocking": 30,
-    "toxic": 30,
-    "incendiary": 30,
-    "bleeding": 40,
-    "heavy_impact": 30,
+    # --- payloads, each measured on its own. The old flat 30 was a grouping, and
+    # the spread below is 46:1. Bleed and Blind cannot share a price.
+    "bleeding": 46,  # [measured] the death clock at WND 1 — the deadliest payload
+    "incendiary": 22,  # [measured]
+    "shocking": 13,  # [measured] -2 all rolls + no React, but clears in the End Phase
+    "toxic": 9,  # [measured] -1 all rolls until a STR test clears it
+    "blinding": 7,  # [measured] -2 on sight rolls only, clears in the End Phase
+    "heavy_impact": 15,  # [measured] push 2"
+    "suppressive": 17,  # [measured] the Pin costs the whole activation — was 40
+    "blast": 43,  # [measured] resolve against everything within 2"
+    # CONCUSSIVE (Off-Balance) and CRIPPLING (Hobbled) MEASURE AT ZERO — 1 and -2
+    # Goods, i.e. inside the noise floor. They are DELIBERATELY LEFT AT 30 and
+    # flagged, not repriced to nothing: selling a player a trait that does nothing
+    # is worse than selling it at the wrong price. This is a DESIGN defect to fix
+    # in the rules (the effects are too small, or expire too fast to matter), not
+    # a price to set. See POINTS-TABLE.md §5.5.
+    "concussive": 30,  # !! measures 1 — rule needs strengthening or the trait cut
+    "crippling": 30,  # !! measures -2 — rule needs strengthening or the trait cut
+    # --- not yet measured; still legacy x10, not derived from anything
     "hook": 20,
-    "suppressive": 40,
-    "blast": 40,
     "smoke": 30,
     "long_range": 60,
     "balanced": 20,
@@ -132,6 +176,10 @@ CHAR_GOODS = {
     "quiet": 20,
     "compact": 20,
 }
+
+# Characteristics whose measurement came back inside the noise floor. The rules,
+# not the prices, are what need changing. Reported by points.verify.
+UNPRICEABLE_MEASURED_ZERO = ("concussive", "crippling")
 
 # Rate of Fire 2 = 50  [measured 2026-07-30, balance/rof_cost.py reproduced]
 # Method: grant RoF 2 to both rifles in the 100-pt Cadre, then rebuild the list to

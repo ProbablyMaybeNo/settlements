@@ -1,0 +1,491 @@
+<!doctype html>
+<link rel="stylesheet" href="kit.css">
+<title>Settlements — Reference Tables</title>
+<style>
+  /* Data appendix: flow reliably across print pages (dense tables > 1 page) */
+  .sheet{ min-height:0; height:auto; box-shadow:none; margin:6mm auto; }
+  .cols{ column-count:1; }
+  .sec{ break-inside:auto; }                 /* tall table sections may span pages */
+  .sec > .h{ break-after:avoid; }            /* never orphan a section header */
+  table.ref{ break-inside:auto; }
+  table.ref tr{ break-inside:avoid; }        /* never split a row across a page */
+  table.ref thead{ display:table-header-group; }
+  .rule,.callout,.chips,.flow,.ladder,.sub{ break-inside:avoid; }
+  @media print{
+    .sheet{ padding:6mm 7mm; }
+    .sheet + .sheet{ page-break-before:always; }
+  }
+</style>
+<div class="noprint"><button class="btn" onclick="window.print()">🖨 Print</button> Data appendix — ranks, weapons, gear, deployables, infrastructure, verbs &amp; Tier-1 skills. Every value quoted from the rules vault. Print A4.</div>
+
+<!-- ============================= SHEET 1 ============================= -->
+<div class="sheet">
+  <div class="masthead"><div class="title">Settlements<small>working title</small></div><div class="tag">Reference Tables</div></div>
+
+  <!-- SECTION 1 -->
+  <div class="sec">
+    <div class="h"><span class="n">1</span> Ranks &amp; Build</div>
+    <div class="body">
+      <div class="rule key"><span class="rt">Core test</span> Every action: <b>1d10 + Stat + mods vs 7+</b>. Natural&nbsp;1 always fails, natural&nbsp;10 always succeeds. The final modifier on any roll cannot exceed <b>+3 / −3</b>.</div>
+
+      <table class="ref">
+        <caption>The four ranks — the rank price IS the stat price</caption>
+        <tr><th>Rank</th><th class="c">Stat pts</th><th>Tier caps</th><th class="c">Skills</th><th class="c">Orders</th><th class="c">Cost</th></tr>
+        <tr><td><b>Recruit</b></td><td class="c">3</td><td>no tiers</td><td class="c">0</td><td class="c">0</td><td class="c"><b>5</b></td></tr>
+        <tr><td><b>Fighter</b></td><td class="c">5</td><td>2× T1</td><td class="c">~2</td><td class="c">0</td><td class="c"><b>8</b></td></tr>
+        <tr><td><b>Specialist</b></td><td class="c">7</td><td>1× T2 · 2× T1</td><td class="c">~3</td><td class="c">1</td><td class="c"><b>16</b></td></tr>
+        <tr><td><b>Leader</b></td><td class="c">9</td><td>1× T3 · 2× T2 · 4× T1</td><td class="c">~4</td><td class="c">2</td><td class="c"><b>24</b></td></tr>
+      </table>
+
+      <div class="rule"><span class="rt">The pyramid — the only structural rule</span> Exactly <b>one Leader</b>. Every Specialist requires <b>two</b> fighters of lower rank. Every Recruit requires one Fighter or better. <b>Minimum four fighters.</b></div>
+      <div class="sub"><span class="rt">No unit cap</span> The pyramid and budget do it. A <b>Specialist costs exactly two Fighters</b> — the central trade of the system.</div>
+
+      <div class="rule"><span class="rt">Budget</span> Standard = <b>100 points</b>. <span class="small">(75 = raid · 150 = pitched.)</span></div>
+
+      <div class="rule"><span class="rt">Loadout</span> Free to every fighter: fists, one <b>Light Melee</b> weapon, thick clothing. Carry limits: <b>one armour · two hands · up to two equipment</b>. Weapons are built (class + characteristics), rank-gated.</div>
+
+      <div class="rule"><span class="rt">Campaign roster</span> Each Advance a fighter carries adds <b>+2</b> points to its cost; each lasting scar subtracts <b>2</b>.</div>
+    </div>
+  </div>
+
+  <!-- SECTION 2 -->
+  <div class="sec rust">
+    <div class="h"><span class="n">2</span> Weapon Classes</div>
+    <div class="body">
+      <div class="rule"><span class="rt">Injury roll</span> Damage feeds <b>1d10 + Damage − Armor vs 7+</b>. Damage stops at <b>+4</b> (only Brutal reaches it); base classes stop at +3. Range stops at <b>24"</b>. Each characteristic takes one slot.</div>
+      <table class="ref">
+        <tr><th>Class</th><th class="c">Cost</th><th class="c">Dmg</th><th class="c">Range</th><th class="c">Hands</th><th>Min. rank</th><th class="c">Slots</th><th>Always has</th></tr>
+        <tr><td><b>Unarmed</b></td><td class="c">0</td><td class="c">+0</td><td class="c">melee</td><td class="c">—</td><td>Any</td><td class="c">0</td><td>—</td></tr>
+        <tr><td><b>Light Melee</b></td><td class="c">0</td><td class="c">+1</td><td class="c">melee</td><td class="c">1</td><td>Recruit</td><td class="c">2</td><td><span class="small">the free basic loadout</span></td></tr>
+        <tr><td><b>One-Handed Melee</b></td><td class="c">4</td><td class="c">+2</td><td class="c">melee</td><td class="c">1</td><td>Fighter</td><td class="c">2</td><td>—</td></tr>
+        <tr><td><b>Heavy Melee</b></td><td class="c">8</td><td class="c">+3</td><td class="c">melee</td><td class="c">2</td><td>Specialist</td><td class="c">3</td><td>Two-Handed</td></tr>
+        <tr><td><b>Thrown</b></td><td class="c">2</td><td class="c">+1</td><td class="c">6"</td><td class="c">1</td><td>Any</td><td class="c">2</td><td><b>Limited</b> (one use)</td></tr>
+        <tr><td><b>Sidearm</b></td><td class="c">4</td><td class="c">+2</td><td class="c">8"</td><td class="c">1</td><td>Recruit</td><td class="c">2</td><td><b>Sidearm</b> (fire while Engaged), Loud</td></tr>
+        <tr><td><b>Standard Ranged</b></td><td class="c">10</td><td class="c">+3</td><td class="c">18"</td><td class="c">2</td><td>Fighter</td><td class="c">3</td><td>Two-Handed, Loud</td></tr>
+        <tr><td><b>Heavy Ranged</b></td><td class="c">14</td><td class="c">+3</td><td class="c">24"</td><td class="c">2</td><td>Specialist</td><td class="c">4</td><td>Two-Handed, Loud, <b>Cumbersome</b> (−1 MOV)</td></tr>
+      </table>
+      <table class="ref">
+        <caption>Rank gates the class — a Recruit cannot hold a rifle</caption>
+        <tr><th>Rank</th><th>May carry</th></tr>
+        <tr><td><b>Recruit</b></td><td>Unarmed · Light Melee · Sidearm · Thrown</td></tr>
+        <tr><td><b>Fighter</b></td><td>+ One-Handed Melee · Standard Ranged</td></tr>
+        <tr><td><b>Specialist</b></td><td>+ Heavy Melee · Heavy Ranged</td></tr>
+        <tr><td><b>Leader</b></td><td>everything</td></tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ============================= SHEET 2 ============================= -->
+<div class="sheet">
+  <div class="masthead"><div class="title">Settlements<small>working title</small></div><div class="tag">Reference Tables</div></div>
+
+  <!-- SECTION 3 -->
+  <div class="sec rust">
+    <div class="h"><span class="n">3</span> Weapon Characteristics</div>
+    <div class="body">
+      <div class="small">Each takes one slot. Restrictions in <i>italics</i>.</div>
+
+      <table class="ref">
+        <caption>Damage &amp; armour · To hit</caption>
+        <tr><th>Characteristic</th><th class="c">Cost</th><th>Effect</th></tr>
+        <tr><td><b>Brutal</b></td><td class="c">4</td><td><b>+1 Damage</b>, max <b>+4</b>. <i>Melee only — or a ranged weapon that also takes Short Range.</i></td></tr>
+        <tr><td><b>Armour Piercing</b></td><td class="c">4</td><td>Reduce the target's <b>Armor by 1</b> on the Injury roll.</td></tr>
+        <tr><td><b>Accurate</b></td><td class="c">3</td><td><b>+1 to hit</b> if you did not Move, Sprint or Climb this activation.</td></tr>
+        <tr><td><b>Spread</b></td><td class="c">3</td><td><b>+1 to hit</b> at half range or less; <b>−1</b> beyond it. <i>Ranged only.</i></td></tr>
+      </table>
+
+      <table class="ref">
+        <caption>Payload — replaces the non-wounding result (Pinned ranged / Shaken melee); +1 Stress once, never both</caption>
+        <tr><th>Characteristic</th><th class="c">Cost</th><th>Payload</th></tr>
+        <tr><td><b>Concussive</b></td><td class="c">3</td><td>Off-Balance</td></tr>
+        <tr><td><b>Crippling</b></td><td class="c">3</td><td>Hobbled</td></tr>
+        <tr><td><b>Blinding</b></td><td class="c">3</td><td>Blind</td></tr>
+        <tr><td><b>Shocking</b></td><td class="c">3</td><td>Shocked</td></tr>
+        <tr><td><b>Toxic</b></td><td class="c">3</td><td>Poison</td></tr>
+        <tr><td><b>Incendiary</b></td><td class="c">3</td><td>Fire</td></tr>
+        <tr><td><b>Bleeding</b></td><td class="c">4</td><td><b>Bleed</b> — the deadliest payload; priced for it.</td></tr>
+        <tr><td><b>Heavy Impact</b></td><td class="c">3</td><td>Push the target <b>2"</b> directly away. Falls/hazards resolve normally.</td></tr>
+        <tr><td><b>Hook</b></td><td class="c">2</td><td>Pull the target <b>1"</b> toward you. <i>Melee only.</i></td></tr>
+        <tr><td><b>Suppressive</b></td><td class="c">4</td><td>Target <b>may not clear the Pin with its Move</b> — must spend its entire activation. <i>Ranged only.</i></td></tr>
+      </table>
+
+      <table class="ref">
+        <caption>Area · Handling</caption>
+        <tr><th>Characteristic</th><th class="c">Cost</th><th>Effect</th></tr>
+        <tr><td><b>Blast</b></td><td class="c">4</td><td>Resolve separately against <b>every model within 2"</b> of the target. <i>Thrown / Heavy Ranged only.</i></td></tr>
+        <tr><td><b>Smoke</b></td><td class="c">3</td><td>Instead of attacking, place a <b>3" Dense Smoke</b> area. <i>Thrown only.</i></td></tr>
+        <tr><td><b>Long Range</b></td><td class="c">6</td><td><b>+6"</b> max range, to the 24" ceiling. <i>Ranged only.</i></td></tr>
+        <tr><td><b>Balanced</b></td><td class="c">2</td><td>May use <b>AGI</b> instead of STR for melee. <i>Light / One-Handed Melee only.</i></td></tr>
+        <tr><td><b>Defensive</b></td><td class="c">3</td><td><b>+1</b> on opposed melee rolls when not the attacker and you did not Move. <i>Melee only.</i></td></tr>
+        <tr><td><b>Cleaving</b></td><td class="c">5</td><td>Win a melee clash → Injury roll against <b>every</b> enemy Engaged with you. <i>Heavy Melee only.</i></td></tr>
+        <tr><td><b>Breaching</b></td><td class="c">3</td><td><b>+2</b> on STR tests to Force or break Breachable terrain.</td></tr>
+        <tr><td><b>Concealable</b></td><td class="c">2</td><td>May start <b>Hidden</b>, or be smuggled past a search.</td></tr>
+        <tr><td><b>Quiet</b></td><td class="c">2</td><td>Attacks don't reveal you from Hidden and don't trip noise/alarms.</td></tr>
+        <tr><td><b>Compact</b></td><td class="c">2</td><td>Counts as <b>one-handed</b> despite its class. <i>Heavy classes only.</i></td></tr>
+      </table>
+
+      <table class="ref">
+        <caption>Drawbacks — refund points, take no slot (max 2 per weapon)</caption>
+        <tr><th>Drawback</th><th class="c">Refund</th><th>Effect</th></tr>
+        <tr><td><b>Short Range</b></td><td class="c">−3</td><td><b>Halve</b> the weapon's maximum range. <i>Ranged only.</i></td></tr>
+        <tr><td><b>Slow</b></td><td class="c">−3</td><td>You may not <b>Charge</b> with this weapon. <i>Melee only.</i></td></tr>
+        <tr><td><b>Unstable</b></td><td class="c">−2</td><td>On a <b>natural 1</b> to hit, the weapon is destroyed.</td></tr>
+        <tr><td><b>Cumbersome</b></td><td class="c">−2</td><td><b>−1 MOV</b> while carried.</td></tr>
+        <tr><td><b>Limited</b></td><td class="c">−3</td><td><b>One use</b> per battle.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- SECTION 4 -->
+  <div class="cols">
+    <div class="sec steel">
+      <div class="h"><span class="n">4</span> Armour</div>
+      <div class="body">
+        <div class="small">Armor reduces the Injury roll only — never the hit.</div>
+        <table class="ref">
+          <tr><th>Armor</th><th class="c">Injury</th><th>Drawback</th><th class="c">Cost</th></tr>
+          <tr><td><b>None</b></td><td class="c">0</td><td>—</td><td class="c"><b>0</b></td></tr>
+          <tr><td><b>Thick clothing</b></td><td class="c">0</td><td>ignore first Environmental Stress once/game</td><td class="c"><b>0</b></td></tr>
+          <tr><td><b>Improvised</b></td><td class="c">−1</td><td>−1 AGI</td><td class="c"><b>3</b></td></tr>
+          <tr><td><b>Light</b></td><td class="c">−1</td><td>—</td><td class="c"><b>6</b></td></tr>
+          <tr><td><b>Heavy</b></td><td class="c">−2</td><td>−1 MOV, −1 AGI, counts as <b>Loud</b></td><td class="c"><b>10</b></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="sec steel">
+      <div class="h"><span class="n">4</span> Equipment</div>
+      <div class="body">
+        <div class="small">Up to two pieces per fighter.</div>
+        <table class="ref">
+          <tr><th>Equipment</th><th>Effect</th><th class="c">Cost</th></tr>
+          <tr><td><b>Med-Kit</b></td><td>Cancels the −2 on Stabilize / treating Bleed &amp; Poison</td><td class="c"><b>4</b></td></tr>
+          <tr><td><b>Breach Kit</b></td><td><b>+1</b> to the hack test</td><td class="c"><b>4</b></td></tr>
+          <tr><td><b>Deployable</b></td><td>Turret · mine · trap · beacon — catalogue in §6</td><td class="c"><b>4–14</b></td></tr>
+          <tr><td><b>Exploit Suite</b></td><td><b>+2</b> to the hack test</td><td class="c"><b>8</b></td></tr>
+        </table>
+        <div class="rule"><span class="rt">Hacking gear (modifier)</span> Bare-handed <b>+0</b> · Breach Kit <b>+1</b> (4) · Exploit Suite <b>+2</b> (8). A defender's gear/scenario may impose a penalty instead — no separate hardening stat.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================= SHEET 3 ============================= -->
+<div class="sheet">
+  <div class="masthead"><div class="title">Settlements<small>working title</small></div><div class="tag">Reference Tables</div></div>
+
+  <!-- SECTION 5 -->
+  <div class="sec rust">
+    <div class="h"><span class="n">5</span> Sample Armoury — every build is legal</div>
+    <div class="body">
+      <table class="ref">
+        <tr><th>Name</th><th>Build</th><th>Profile</th><th class="c">Cost</th></tr>
+        <tr><td><b>Baseball Bat</b></td><td>Light Melee</td><td>+1 melee</td><td class="c"><b>0</b></td></tr>
+        <tr><td><b>Kitchen Knife</b></td><td>Light Melee · Balanced · Concealable</td><td>+1, AGI, hidden</td><td class="c"><b>4</b></td></tr>
+        <tr><td><b>Crowbar</b></td><td>One-Handed Melee · Breaching</td><td>+2, breaches</td><td class="c"><b>7</b></td></tr>
+        <tr><td><b>Great Axe</b></td><td>Heavy Melee</td><td>+3 melee</td><td class="c"><b>8</b></td></tr>
+        <tr><td><b>Sledgehammer</b></td><td>Heavy Melee · Heavy Impact · Breaching</td><td>+3, push 2"</td><td class="c"><b>14</b></td></tr>
+        <tr><td><b>Fire Axe</b></td><td>Heavy Melee · Brutal · Bleeding</td><td><b>+4</b>, Bleed</td><td class="c"><b>16</b></td></tr>
+        <tr><td><b>Reaping Hook</b></td><td>Heavy Melee · Cleaving · Defensive</td><td>+3, hits everyone Engaged</td><td class="c"><b>16</b></td></tr>
+        <tr><td><b>Pistol</b></td><td>Sidearm</td><td>8", +2, fires while Engaged</td><td class="c"><b>4</b></td></tr>
+        <tr><td><b>Pipe Shotgun</b></td><td>Standard Ranged · Brutal · Spread · <i>Short Range</i> · <i>Unstable</i></td><td>9", <b>+4</b>, Spread</td><td class="c"><b>12</b></td></tr>
+        <tr><td><b>Assault Rifle</b></td><td>Standard Ranged · Accurate</td><td>18", +3</td><td class="c"><b>13</b></td></tr>
+        <tr><td><b>Nailgun</b></td><td>Standard Ranged · Bleeding</td><td>18", +3, <b>Bleed</b></td><td class="c"><b>14</b></td></tr>
+        <tr><td><b>Grandpa's Hunting Rifle</b></td><td>Standard Ranged · Accurate · Long Range</td><td><b>24"</b>, +3</td><td class="c"><b>19</b></td></tr>
+        <tr><td><b>Squad Machine Gun</b></td><td>Heavy Ranged · Suppressive · Armour Piercing</td><td>24", +3, locks you down</td><td class="c"><b>22</b></td></tr>
+        <tr><td><b>Makeshift Flamethrower</b></td><td>Heavy Ranged · Incendiary · Blast · <i>Short Range</i> · <i>Limited</i></td><td>12", +3, <b>Fire</b>, Blast</td><td class="c"><b>15</b></td></tr>
+        <tr><td><b>Molotov</b></td><td>Thrown · Incendiary · Blast</td><td>6", +1, <b>Fire</b>, Blast, one use</td><td class="c"><b>9</b></td></tr>
+        <tr><td><b>Smoke Grenade</b></td><td>Thrown · Smoke</td><td>6", places 3" smoke</td><td class="c"><b>5</b></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- SECTION 6 -->
+  <div class="sec olive">
+    <div class="h"><span class="n">6</span> Deployables — deploy, repair, destroy</div>
+    <div class="body">
+      <div class="rule key"><span class="rt">Deploy = one INT test</span> <b>1d10 + INT + Build vs 7+</b> (spends your Action, place within 1"). <b>Pass</b> → active (mine/trap armed &amp; concealed; hardware online). <b>Fail</b> → placed but exposed &amp; inert (mine armed but visible; hardware Offline). <b>Nat 1</b> → backfire (trap triggers on the deployer; hardware Destroyed). Nat 10 auto-succeeds.</div>
+      <div class="cols">
+        <table class="ref">
+          <caption>Build rating (printed on the item)</caption>
+          <tr><th>Build</th><th class="c">Mod</th><th>Feel</th></tr>
+          <tr><td><b>Simple</b></td><td class="c">+1</td><td>wire, spikes — anyone can lay one</td></tr>
+          <tr><td><b>Standard</b></td><td class="c">0</td><td>a straight 7+</td></tr>
+          <tr><td><b>Complex</b></td><td class="c">−1</td><td>most turrets &amp; beacons</td></tr>
+          <tr><td><b>Intricate</b></td><td class="c">−2</td><td>flagship hardware (sniper / burst)</td></tr>
+        </table>
+      </div>
+      <div class="rule"><span class="rt">Destruction &amp; repair (standing hardware)</span> <b>WND 1 · Armour −2</b>; cover <b>Heavy (−2)</b> to be hit unless attacker within <b>6"</b> (then Open). One Injury → <b>Offline</b>. <b>Repair once:</b> adjacent fighter passes an INT test (7+) to bring it back online (Jury-Rig may auto-succeed). Second Injury while Offline → <b>Destroyed</b>. Once placed &amp; spent/destroyed it is gone for the battle, but returns re-armed next battle.</div>
+      <div class="sub"><span class="rt">Mines &amp; traps</span> Concealed on a passed deploy (found by Threat Scan / opposed INT). While untriggered they can be shot (Feature damage), <b>disarmed</b> (DEX 7+, nat 1 = boom), or if electronic, Jammed/hacked. Once triggered it is spent — you can't Offline a boom mid-trigger.</div>
+    </div>
+  </div>
+
+  <div class="sec olive">
+    <div class="h"><span class="n">6</span> Family A · Turrets <span class="pill">standing · repairable · both slots</span></div>
+    <div class="body">
+      <div class="small">Holds Overwatch. Once/round as a Reaction, auto-fires one shot (360°, never moves) at the first enemy that Moves/acts within range &amp; LOS. Fires at +0 gunnery plus the target's cover. Yours — an enemy hacker can hijack one.</div>
+      <table class="ref">
+        <tr><th>Turret</th><th class="c">Build</th><th class="c">Cost</th><th class="c">Range</th><th>Auto-fire profile</th></tr>
+        <tr><td><b>Autoturret</b></td><td class="c">Complex −1</td><td class="c"><b>12</b></td><td class="c">18"</td><td>One shot / round, Injury <b>Damage +3</b>. The baseline.</td></tr>
+        <tr><td><b>Sniper Turret</b></td><td class="c">Intricate −2</td><td class="c"><b>15</b></td><td class="c">24"</td><td>One shot / round, <b>Damage +3, +1 to hit</b>. Reaches from its own deployment zone.</td></tr>
+        <tr><td><b>Burst Turret</b></td><td class="c">Intricate −2</td><td class="c"><b>18</b></td><td class="c">18"</td><td><b>Two</b> shots / round at <b>Damage +2</b> each (same or split targets).</td></tr>
+        <tr><td><b>Blast Turret</b></td><td class="c">Complex −1</td><td class="c"><b>14</b></td><td class="c">12"</td><td>One shot / round, <b>Damage +3, Blast</b> (2").</td></tr>
+        <tr><td><b>Reinforced Turret</b></td><td class="c">Complex −1</td><td class="c"><b>15</b></td><td class="c">18"</td><td>One shot / round, <b>Damage +3</b>. <b>Hardened:</b> always Heavy (−2) cover — the within-6" Open clause doesn't apply.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="sec olive">
+    <div class="h"><span class="n">6</span> Family B · Mines <span class="pill">spent-on-trigger · one slot</span></div>
+    <div class="body">
+      <div class="small">Built like a weapon: pick a chassis (how it reaches), buy one payload (what it does). Cost = chassis + payload. E.g. Proximity+Explosion = <b>9</b> · Remote+Poison = <b>10</b> · Seeker+Explosion = <b>12</b>.</div>
+      <div class="cols">
+        <table class="ref">
+          <caption>Chassis — how it delivers</caption>
+          <tr><th>Chassis</th><th class="c">Cost</th><th>Delivery</th></tr>
+          <tr><td><b>Proximity</b></td><td class="c">5</td><td>3" template; detonates when an enemy ends a Move inside it.</td></tr>
+          <tr><td><b>Remote</b></td><td class="c">7</td><td>Hidden marker, 6" trigger radius; owner command-detonates (Reaction). <b>4 markers — 1 live, 3 dummy.</b></td></tr>
+          <tr><td><b>Seeker</b></td><td class="c">8</td><td>Pick an enemy in LOS; moves <b>4"</b>/End Phase toward it, detonates on contact. Can be shot/disarmed/hacked en route.</td></tr>
+        </table>
+        <table class="ref">
+          <caption>Payload — buy exactly one</caption>
+          <tr><th>Payload</th><th class="c">Cost</th><th>Effect</th></tr>
+          <tr><td><b>Explosion</b></td><td class="c">+4</td><td>Injury <b>Damage +3, Blast</b> (2"). The default killer.</td></tr>
+          <tr><td><b>Fire</b></td><td class="c">+3</td><td>Blast Injury <b>Damage +2</b>, sets Fire, leaves 3" Fire hazard one round.</td></tr>
+          <tr><td><b>Poison</b></td><td class="c">+3</td><td>Places a <b>3" Poison</b> hazard for two rounds.</td></tr>
+          <tr><td><b>Shock</b></td><td class="c">+3</td><td>Blast, no Injury: <b>Shocked + Blind</b> on every model in radius.</td></tr>
+          <tr><td><b>Smoke</b></td><td class="c">+2</td><td>No damage — places a <b>3" Dense Smoke</b>.</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec olive">
+    <div class="h"><span class="n">6</span> Family C · Traps <span class="pill">spent-on-trigger · one slot</span></div>
+    <div class="body">
+      <div class="small">Traps deny movement — stop, channel and wall off the enemy. Almost none deal damage.</div>
+      <table class="ref">
+        <tr><th>Trap</th><th class="c">Build</th><th class="c">Cost</th><th>Trigger &amp; effect</th></tr>
+        <tr><td><b>Trip Wire</b></td><td class="c">Simple +1</td><td class="c"><b>3</b></td><td>Within 1" → the model is knocked <b>Prone</b>. Stops a rush cold.</td></tr>
+        <tr><td><b>Spike Strip</b></td><td class="c">Simple +1</td><td class="c"><b>4</b></td><td>3" area; enemies entering treat as <b>Difficult</b> ground and gain <b>Hobbled</b>. Persists until cleared.</td></tr>
+        <tr><td><b>Covered Pit</b></td><td class="c">Standard 0</td><td class="c"><b>5</b></td><td>Concealed 2" hole; a model entering <b>FALLs</b> (Prone) and is <b>Snared</b> until it climbs out.</td></tr>
+        <tr><td><b>Leg Clamp</b></td><td class="c">Standard 0</td><td class="c"><b>5</b></td><td>Within 1" → <b>Snared</b> (Action + STR 7+ to break free). A hard single-model stop.</td></tr>
+        <tr><td><b>Razor Barrier</b></td><td class="c">Standard 0</td><td class="c"><b>4</b></td><td>3" barrier: <b>Impassable</b> without Forcing it (STR 7+, take Hobbled shoving through). Blocks bodies, not sight.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="sec olive">
+    <div class="h"><span class="n">6</span> Family D · Beacons <span class="pill">standing · repairable · both slots</span></div>
+    <div class="body">
+      <div class="small">A beacon projects a <b>6" aura</b> until destroyed. Auras obey the ±3 cap, don't stack with themselves; a model benefits from at most <b>two</b> friendly beacon auras at once.</div>
+      <table class="ref">
+        <tr><th>Beacon</th><th class="c">Build</th><th class="c">Cost</th><th>Aura (within 6")</th></tr>
+        <tr><td><b>Munitions Beacon</b></td><td class="c">Complex −1</td><td class="c"><b>8</b></td><td><i>Allies:</i> <b>+1 to the Injury roll</b> (never lifts a weapon past +4).</td></tr>
+        <tr><td><b>Targeting Beacon</b></td><td class="c">Complex −1</td><td class="c"><b>8</b></td><td><i>Allies:</i> <b>+1 to ranged hit rolls.</b></td></tr>
+        <tr><td><b>Aegis Beacon</b></td><td class="c">Complex −1</td><td class="c"><b>8</b></td><td><i>Allies:</i> enemy <b>Injury rolls against them suffer −1</b>.</td></tr>
+        <tr><td><b>Cover Beacon</b></td><td class="c">Standard 0</td><td class="c"><b>6</b></td><td><i>Allies:</i> count as <b>Light cover</b> (−1 to be hit) if not already better.</td></tr>
+        <tr><td><b>Cleansing Beacon</b></td><td class="c">Standard 0</td><td class="c"><b>8</b></td><td><i>Allies:</i> each End Phase one friendly <b>clears one negative condition</b>; also acts as a Med-Kit.</td></tr>
+        <tr><td><b>Revive Beacon</b></td><td class="c">Intricate −2</td><td class="c"><b>12</b></td><td><i>Allies:</i> each End Phase one <b>Down</b> unit recovers to Prone. <b>Down only</b> — a kill (Out) stays dead.</td></tr>
+        <tr><td><b>Dread Beacon</b></td><td class="c">Standard 0</td><td class="c"><b>7</b></td><td><i>Enemies:</i> a model that enters gains <b>+1 Stress</b>; while inside, <b>−1 on Break tests</b>.</td></tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- ============================= SHEET 4 ============================= -->
+<div class="sheet">
+  <div class="masthead"><div class="title">Settlements<small>working title</small></div><div class="tag">Reference Tables</div></div>
+
+  <!-- SECTION 7 -->
+  <div class="sec steel">
+    <div class="h"><span class="n">7</span> Infrastructure Features</div>
+    <div class="body">
+      <div class="rule key"><span class="rt">What it does</span> Infrastructure <b>reshapes the board</b> — routes, sight, cover, elevation. It does <b>not</b> exist to damage models: only two keywords deal harm, and both leave a model <b>Down</b>, never straight Out. Everything starts <b>Powered Down</b>; operating it sets or flips its state, and either crew can flip it back.</div>
+      <div class="cols">
+        <div class="rule"><span class="rt">FALL</span> Resolve for the height dropped: under 3" nothing · <b>3"+ Prone</b> · <b>6"+ Injury roll</b> (+1 Damage per full 2", ignoring Armor).</div>
+        <div class="rule"><span class="rt">CRUSH</span> An Injury roll as a hazard: <b>1d10 + 3 vs 7+</b>, <b>ignoring Armor</b>; a wound → <b>Down</b> (hazard, not Out). Dial to +2 if too lethal.</div>
+      </div>
+      <div class="chips">
+        <span class="chip"><b>Categories</b></span>
+        <span class="chip">Mobility <b>new movement</b></span>
+        <span class="chip">Access <b>gate chokepoints</b></span>
+        <span class="chip">Visibility <b>make/remove sight</b></span>
+        <span class="chip">Manipulation <b>move the board</b></span>
+        <span class="chip">Utilities <b>change a zone</b></span>
+      </div>
+      <table class="ref">
+        <caption>The eight board verbs</caption>
+        <tr><th>Verb</th><th>What it does · caught-in-it clause</th></tr>
+        <tr><td><b>Open / Close Path</b></td><td>Toggle an opening passable↔Impassable. Caught model Displaced 1" (heavy door prints CRUSH). Sealed room = all exits Blocked.</td></tr>
+        <tr><td><b>Create / Remove Route</b></td><td>Add/delete a traversal line (bridge, lift, conveyor). Removing an elevated route with a model on it → FALL.</td></tr>
+        <tr><td><b>Block / Clear LOS</b></td><td>Toggle sight; set Concealing / strip Hidden. No model harm.</td></tr>
+        <tr><td><b>Create / Remove Cover</b></td><td>Set/lift a cover piece or change its value. A model relying on removed cover is now Open.</td></tr>
+        <tr><td><b>Shift Terrain</b></td><td>Slide a Movable piece up to 4". Model in the path Displaced; pinned against a wall → CRUSH.</td></tr>
+        <tr><td><b>Change Elevation</b></td><td>Raise/lower a platform, carrying its models. Half-on model steps to nearer level (no FALL under 3").</td></tr>
+        <tr><td><b>Field a Zone</b></td><td>Apply a Dangerous / Difficult / Impassable overlay via the existing hazard→condition map. Never a new condition.</td></tr>
+        <tr><td><b>Displace</b></td><td>Force-move a model 2" (or 4") from the source. Off a ledge → FALL; into Dangerous → triggers it; Rooted resists (STR).</td></tr>
+      </table>
+      <table class="ref">
+        <caption>Feature catalogue — operate: hack (INT − range) · manual (DEX, or STR if heavy) · Reaction</caption>
+        <tr><th>Feature</th><th>Category · verbs</th><th>Effect (+ FALL / CRUSH)</th></tr>
+        <tr><td><b>Cargo Crane</b></td><td>Manipulation · Shift / Cover / Displace</td><td>Move a Movable piece up to 4". Drop a load → <b>CRUSH</b>; sweep → Displace 2" (off ledge → <b>FALL</b>).</td></tr>
+        <tr><td><b>Blast Door</b></td><td>Access · Open-Close Path <span class="small">(manual STR)</span></td><td>Toggle Passable↔Impassable; caught in the gap → <b>CRUSH</b> (or 1" Displace). Locked = sealed room.</td></tr>
+        <tr><td><b>Roller / Security Gate</b></td><td>Access · Open-Close Path</td><td>Lighter door: toggles a chokepoint, <b>no CRUSH</b> — a caught model is just Displaced 1".</td></tr>
+        <tr><td><b>Retractable Bridge</b></td><td>Mobility · Create-Remove Route</td><td>Extend to span a gap; retract → a model on it → <b>FALL</b>.</td></tr>
+        <tr><td><b>Elevator / Cargo Lift</b></td><td>Mobility · Change Elevation</td><td>Raise/lower a platform between levels, carrying models on it.</td></tr>
+        <tr><td><b>Conveyor Belt</b></td><td>Mobility · Create-Remove Route</td><td>Model ending its Move on it is carried <b>+4"</b> in the End Phase; can stay Hidden behind a load. Toggle/reverse.</td></tr>
+        <tr><td><b>Window Shutters</b></td><td>Visibility · Block-Clear LOS</td><td>Toggle open (LOS, Light cover) ↔ shut (<b>Blocked LOS</b>).</td></tr>
+        <tr><td><b>Floodlights</b></td><td>Visibility · Clear LOS</td><td>Models in the lit zone <b>cannot be Hidden</b>. Toggle on/off.</td></tr>
+        <tr><td><b>Flood Gates</b></td><td>Utilities · Field a Zone</td><td>Open to flood → <b>Deep water</b> (Swim) or Difficult; close to drain.</td></tr>
+        <tr><td><b>HVAC / Gas Vent</b></td><td>Utilities · Field a Zone / Displace</td><td><b>Displace 2"</b> every model in the line (off ledge → FALL), and/or fill 3" <b>Dense Smoke</b>.</td></tr>
+        <tr><td><b>Trash Compactor / Crusher</b></td><td>Utilities · bounded hazard</td><td>The one overt hazard: a model inside the zone takes <b>CRUSH</b>. Scenario-flagged, never passive.</td></tr>
+        <tr><td><b>Power Generator / Junction</b></td><td>Utilities · enabler (macro-toggle)</td><td>While off, all infrastructure in its zone is Powered Down. Can't be destroyed — deny by Overloading its terminal.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- SECTION 8 -->
+  <div class="sec olive">
+    <div class="h"><span class="n">8</span> Interaction Verbs &amp; Hacking</div>
+    <div class="body">
+      <div class="small">Terrain Interacts use the core test: auto-pass trivial actions, else <b>1d10 + Stat + mods vs 7+</b>. Direct interaction needs base contact and spends the Action.</div>
+      <table class="ref">
+        <caption>Interaction verbs — stat &amp; slot</caption>
+        <tr><th>Verb</th><th>Tag</th><th class="c">Stat</th><th class="c">Slot</th><th>Notes</th></tr>
+        <tr><td>Open / close</td><td>Openable</td><td class="c">—</td><td class="c">Auto</td><td>—</td></tr>
+        <tr><td>Force door / Smash</td><td>Breachable</td><td class="c">STR</td><td class="c">7+</td><td>Attempt is Loud</td></tr>
+        <tr><td>Lockpick</td><td>Lockable</td><td class="c">DEX</td><td class="c">7+</td><td>Quiet</td></tr>
+        <tr><td>Hack</td><td>Hackable / Powered</td><td class="c">INT</td><td class="c">see↓</td><td>Terminals, range, the Interrupt</td></tr>
+        <tr><td>Lift</td><td>Movable</td><td class="c">STR</td><td class="c">7+</td><td>Half MOV carrying; drop within 1" free. Replaces Barricade.</td></tr>
+        <tr><td>Search</td><td>Searchable</td><td class="c">INT</td><td class="c">7+</td><td>Searched token exhausts the piece</td></tr>
+        <tr><td>Repair feature</td><td>Powered / Hackable</td><td class="c">INT</td><td class="c">7+</td><td>Restore Offline feature to 1 WND / online</td></tr>
+        <tr><td>Climb / vault / leap / swim</td><td>Climbable / water</td><td class="c">AGI</td><td class="c">Move</td><td>Under 2" = low leap, no test, −2" Move</td></tr>
+      </table>
+      <div class="cols">
+        <table class="ref">
+          <caption>Searching &amp; looting — 1d10 on a pass</caption>
+          <tr><th class="c">d10</th><th>Result</th></tr>
+          <tr><td class="c">1</td><td>Hazard — trap/alarm/collapse; searcher Pinned; Loud</td></tr>
+          <tr><td class="c">2–4</td><td>Nothing</td></tr>
+          <tr><td class="c">5–7</td><td>Supply cache — 1 Resource</td></tr>
+          <tr><td class="c">8–9</td><td>Gear — one usable item (Med-Kit, Molotov, ammo, tool)</td></tr>
+          <tr><td class="c">10</td><td>Jackpot — 1 Resource + one gear item</td></tr>
+        </table>
+        <table class="ref">
+          <caption>Hacking range bands — measure terminal→feature, max 24"</caption>
+          <tr><th>Band</th><th>Distance</th><th class="c">Mod</th></tr>
+          <tr><td><b>Close</b></td><td>up to 6"</td><td class="c">0</td></tr>
+          <tr><td><b>Short</b></td><td>over 6", up to 12"</td><td class="c">−1</td></tr>
+          <tr><td><b>Medium</b></td><td>over 12", up to 18"</td><td class="c">−2</td></tr>
+          <tr><td><b>Long</b></td><td>over 18", up to 24"</td><td class="c">−3</td></tr>
+          <tr><td><b>Out</b></td><td>over 24"</td><td class="c">illegal</td></tr>
+        </table>
+      </div>
+      <div class="rule"><span class="rt">Hacking a terminal</span> <b>1d10 + INT − range band vs 7+</b>. Pass → activate one Linked feature now; fail → nothing, terminal stays live. One Action = one hack = one Linked function. No damage roll — controlling the feature is the reward.</div>
+      <div class="sub"><span class="rt">Interrupt</span> An enemy in base contact with another live terminal declares Interrupt <b>before</b> the access roll. If the hack would <b>pass</b>, it is jammed and the interrupter's terminal becomes <b>Overloaded</b> (down till start of next turn). If the hack <b>fails</b>, the interrupt is not spent. No opposed roll — bait it with one unit, land the hack with the next.</div>
+      <div class="rule"><span class="rt">Linked functions (one per hack)</span> Doors (lock/unlock/open/close) · Cameras (loop/reveal/ignore) · Alarms (suppress/trip) · Power (toggle a system or hazard) · Turrets (rotate/deactivate/<b>fire once</b> = your attack) · Electronic traps (arm/disarm/trigger).</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============================= SHEET 5 ============================= -->
+<div class="sheet">
+  <div class="masthead"><div class="title">Settlements<small>working title</small></div><div class="tag">Reference Tables</div></div>
+
+  <!-- SECTION 9 -->
+  <div class="sec">
+    <div class="h"><span class="n">9</span> Skills — Tier 1 (fieldable now)</div>
+    <div class="body">
+      <div class="rule key"><span class="rt">How skills unlock</span> Skills ride the stat line: a path-stat at <b>+2 = T1 · +4 = T2 · +6 = T3</b> (+1 is a dabble, no skill), and <b>each tier a stat reaches grants one skill from that stat's path</b> — so a +4 stat gives its T1 <b>and</b> T2 skill, a +6 gives all three. Counts run ~<b>Fighter 2 · Specialist 3 · Leader 4</b>. The T1 menu below is what most of a crew fields; a Specialist's <b>T2</b> and a Leader's <b>T3</b> picks live in the full Skill Paths list. Pick each from its stat's path; modifiers stay conditional, ±3 cap.</div>
+    </div>
+  </div>
+
+  <div class="cols">
+    <div class="sec rust">
+      <div class="h">Combat / Muscle · STR</div>
+      <div class="body"><table class="ref">
+        <tr><th>Skill</th><th>Effect</th></tr>
+        <tr><td><b>Heavy Hands</b></td><td>+1 melee vs a Pinned or Grappled defender.</td></tr>
+        <tr><td><b>Knockback</b></td><td>Win melee → push 2" before Injury; may follow up 2".</td></tr>
+        <tr><td><b>Breakdown</b></td><td>Action: auto-open/destroy an adjacent ordinary Breachable door/window/barricade.</td></tr>
+        <tr><td><b>Deadlift</b></td><td>Action: pick up an adjacent Movable piece; half MOV carrying, free drop within 1".</td></tr>
+        <tr><td><b>Strong Arm</b></td><td>Double thrown range; throw a carried Movable object up to 4" (Action).</td></tr>
+        <tr><td><b>Grapple</b></td><td>Swap melee attack for opposed STR; win → Grappled (no Injury roll).</td></tr>
+        <tr><td><b>Bodyguard</b></td><td>1/round: attack on friendly within 2" → move 2" and take the hit if legal.</td></tr>
+        <tr><td><b>Rooted</b></td><td>Pass STR to ignore all forced movement from an effect.</td></tr>
+        <tr><td><b>Pack Mule</b></td><td>Carrying doesn't cut Move; may Sprint carrying (not Charge).</td></tr>
+        <tr><td><b>Doorstop</b></td><td>Adjacent to a closed door, an enemy needs an Action + opposed STR win to open it.</td></tr>
+      </table></div>
+    </div>
+
+    <div class="sec steel">
+      <div class="h">Shooting / Perception · DEX</div>
+      <div class="body"><table class="ref">
+        <tr><th>Skill</th><th>Effect</th></tr>
+        <tr><td><b>Long Barrel</b></td><td>Don't Move → rifle max range +5" this activation.</td></tr>
+        <tr><td><b>Ready to React</b></td><td>Action: Ready vs a visible enemy; if it Charges, one −2 reaction shot before it moves.</td></tr>
+        <tr><td><b>Bank Shot</b></td><td>Heavy-cover miss by exactly 1 → a target touching that cover is Pinned (no Injury).</td></tr>
+        <tr><td><b>Sharp Eyes</b></td><td>Action: Spot one visible enemy within 18" until end of round.</td></tr>
+        <tr><td><b>Muzzle Flash</b></td><td>Enemy shoots within 24" → it is Spotted by you until end of round.</td></tr>
+        <tr><td><b>Covering Fire</b></td><td>Action: pick a 4" lane; first crosser is Pinned if you pass DEX −2 (no Injury).</td></tr>
+        <tr><td><b>Called Shot</b></td><td>Ranged −2; on hit forgo Injury to make target drop an item or gain Hobbled.</td></tr>
+        <tr><td><b>Shoot and Shift</b></td><td>After shooting, move up to 2" toward cover (not after Sprint/Charge).</td></tr>
+        <tr><td><b>Crossfire</b></td><td>Hit an already-Pinned target but don't injure → it becomes Suppressed.</td></tr>
+        <tr><td><b>Tripwire Eye</b></td><td>Action: shoot a terrain trigger within 12"; pass DEX to fire it from the impact point.</td></tr>
+      </table></div>
+    </div>
+
+    <div class="sec olive">
+      <div class="h">Movement / Acrobatics · AGI</div>
+      <div class="body"><table class="ref">
+        <tr><th>Skill</th><th>Effect</th></tr>
+        <tr><td><b>Sure-Footed</b></td><td>Auto-pass AGI tests from unstable/slippery/uneven ground.</td></tr>
+        <tr><td><b>Like a Cat</b></td><td>Falls ≤3" cause no Injury; longer falls measured −3".</td></tr>
+        <tr><td><b>Dodge</b></td><td>After moving 3"+, melee vs you at −1 until your next activation.</td></tr>
+        <tr><td><b>Leaper</b></td><td>Cross gaps ≤3" free; +2 AGI on longer jumps.</td></tr>
+        <tr><td><b>Vault</b></td><td>Cross one waist-high obstacle mid-Move free; can't end on it.</td></tr>
+        <tr><td><b>Low Profile</b></td><td>While Hidden, move up to 3" without losing Hidden if you end out of LOS.</td></tr>
+        <tr><td><b>Quick Hands</b></td><td>1/activation: a pick-up/drop/objective interaction during Move (no attack).</td></tr>
+        <tr><td><b>Break Contact</b></td><td>After a Disengage, move an extra 3" (no enemy contact).</td></tr>
+        <tr><td><b>Rescue Grip</b></td><td>Carrying one Down friendly doesn't cut Move (no Sprint/Charge/attack).</td></tr>
+        <tr><td><b>Scramble</b></td><td>On becoming Pinned, move up to 2" to the nearest cover (not a Disengage).</td></tr>
+      </table></div>
+    </div>
+
+    <div class="sec steel">
+      <div class="h">Expertise / Knowledge · INT</div>
+      <div class="body"><table class="ref">
+        <tr><th>Skill</th><th>Effect</th></tr>
+        <tr><td><b>Hacker</b></td><td>Action at a Hackable device: INT to access data / loop camera / silence alarm / toggle an unlocked Powered system.</td></tr>
+        <tr><td><b>Locksmith</b></td><td>Action at a Lockable door/container: INT to lock/unlock (hard 9+, military 11+).</td></tr>
+        <tr><td><b>Trapper</b></td><td>Action: arm / disarm / conceal / reposition an adjacent trap (INT).</td></tr>
+        <tr><td><b>Medic</b></td><td>Action + supplies: INT to clear Bleed/Poison; auto-Stabilize an adjacent Down fighter.</td></tr>
+        <tr><td><b>Camouflage Drill</b></td><td>Hide in Concealing terrain → one adjacent friendly touching it may also Hide.</td></tr>
+        <tr><td><b>Loop Camera</b></td><td>Action: a hacked camera ignores you + one ally until either attacks/contacts an enemy/reset.</td></tr>
+        <tr><td><b>Jury-Rig</b></td><td>Action at a damaged Powered device: INT to restore one function till the encounter ends.</td></tr>
+        <tr><td><b>Threat Scan</b></td><td>Action: INT over a 6" area reveals one Hidden trap/mine/camera/alarm/hazard; 9+ = trigger + safe route.</td></tr>
+        <tr><td><b>Jam Signals</b></td><td>Action: INT vs an electronic device/remote trap within 6" → Jammed till your next activation.</td></tr>
+        <tr><td><b>Read the Objective</b></td><td>Action at an objective: INT to learn its defences, interaction, and if trapped/alarmed/Powered/Hackable/Lockable.</td></tr>
+      </table></div>
+    </div>
+
+    <div class="sec rust">
+      <div class="h">Bravery / Morale · NRV</div>
+      <div class="body"><table class="ref">
+        <tr><th>Skill</th><th>Effect</th></tr>
+        <tr><td><b>Steady</b></td><td>1/activation: remove 1 Stress from yourself.</td></tr>
+        <tr><td><b>Rattle-Proof</b></td><td>Ignore the first point of Stress you'd gain each round.</td></tr>
+        <tr><td><b>Battle Cry</b></td><td>1/activation after moving into melee: one Engaged enemy gains 1 Stress.</td></tr>
+        <tr><td><b>Dig In</b></td><td>Don't Move → become Braced until your next activation.</td></tr>
+        <tr><td><b>Keep Moving</b></td><td>Action: an ally within 6" moves up to 3" (no enemy contact).</td></tr>
+        <tr><td><b>Stare Down</b></td><td>Action: opposed NRV vs an enemy within 6"; win → +1 Stress and Cowed.</td></tr>
+        <tr><td><b>Feed the Anger</b></td><td>Before melee, take 1 Stress for +1 and ignore Shaken's −1 (1/activation).</td></tr>
+        <tr><td><b>Drag Clear</b></td><td>Ally within 3" goes Down → move up to 3" toward it; if adjacent, allies take 1 less Stress.</td></tr>
+        <tr><td><b>Count Breaths</b></td><td>Neither attacked nor issued an Order → remove 2 Stress at end.</td></tr>
+        <tr><td><b>Buddy Check</b></td><td>End adjacent to an ally, neither attacked this round → each removes 1 Stress.</td></tr>
+      </table></div>
+    </div>
+  </div>
+</div>

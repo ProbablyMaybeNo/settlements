@@ -1,0 +1,226 @@
+<!doctype html>
+<link rel="stylesheet" href="kit.css">
+<title>Settlements — Crew Sheet</title>
+<div class="noprint">
+  <button class="btn" onclick="window.print()">🖨 Print</button>
+  Crew Sheet — 99-pt mirror crew, built under the new stat system (all four ranks) + blank card + campaign back. Both players field it. Print A4.
+</div>
+
+<div class="sheet">
+  <div class="masthead"><div class="title">Settlements<small>working title</small></div><div class="tag">Crew Sheet</div></div>
+  <div class="barhead">99-pt Mirror Crew "Redline" · 6 models · all four ranks · both players field it</div>
+  <div class="lede small">Stats are the modifier added to a core test (<b>1d10 + stat ≥ 7</b>). WND fixed 1, MOV fixed 6". Each skill hangs off a stat — its <b>(STAT·tier)</b> tag shows which. A stat gives a skill at every tier it reaches (+2 = T1, +4 = T1+T2, +6 = all three). Only a Leader may take a <b>+6 (T3)</b> signature stat.</div>
+
+  <!-- BOSS (Leader) -->
+  <div class="card">
+    <div class="cardhead"><span class="b">Settlements</span><span class="s">Unit Sheet</span></div>
+    <div class="identity">
+      <div class="fld"><div class="lbl">Unit Name</div><div class="val">Boss</div></div>
+      <div class="fld"><div class="lbl">Crew</div><div class="val">Redline</div></div>
+      <div class="fld rankpick"><div class="lbl">Unit Type</div><div class="val"><span>Recruit · Fighter · Specialist · <b class="on">LEADER</b></span></div></div>
+    </div>
+    <div class="stats">
+      <div class="st"><div class="k">WND</div><div class="v">1</div></div><div class="st"><div class="k">MOV</div><div class="v">6"</div></div>
+      <div class="st"><div class="k">STR</div><div class="v">+1</div></div><div class="st"><div class="k">DEX</div><div class="v">+4</div></div>
+      <div class="st"><div class="k">INT</div><div class="v">+2</div></div><div class="st"><div class="k">AGI</div><div class="v">0</div></div><div class="st"><div class="k">NRV</div><div class="v">+2</div></div>
+    </div>
+    <div class="weps">
+      <div class="wep"><div class="wt">Weapon 1</div><div class="wn">Rifle <span class="dmg">+3</span></div><div class="wl">Standard Ranged · 18" · 2-handed · Loud</div></div>
+      <div class="wep"><div class="wt">Weapon 2</div><div class="wn">Baseball Bat <span class="dmg">+1</span></div><div class="wl">Light Melee · free</div></div>
+      <div class="wep"><div class="wt">Weapon 3</div><div class="wn">Fists <span class="dmg">+0</span></div><div class="wl">Unarmed</div></div>
+    </div>
+    <div class="block"><div class="bt">Equipment</div><div class="row">—</div></div>
+    <div class="block"><div class="bt">Skills &nbsp;<span class="small">(DEX+4 → 2 · INT+2 → 1 · NRV+2 → 1)</span></div>
+      <div class="row"><b>Sharp Eyes</b> <span class="small">(DEX·T1)</span> — Action: a visible enemy within 18" is Spotted until end of round.</div>
+      <div class="row"><b>Sniper</b> <span class="small">(DEX·T2)</span> — a rifle shot &gt;12" that misses by 1 (and you didn't Move) Pins the target instead.</div>
+      <div class="row"><b>Hacker</b> <span class="small">(INT·T1)</span> — Action beside a device: INT test to access / loop / silence / toggle it.</div>
+      <div class="row"><b>Keep Moving</b> <span class="small">(NRV·T1)</span> — Action: an ally within 6" moves up to 3" (no enemy contact).</div>
+    </div>
+    <div class="xp"><div class="bt">Experience &nbsp;<span class="small">Orders 2 · leader</span></div><div class="track"></div>
+      <div class="miles"><span>LV1</span><span>LV2</span><span>LV3</span><span>LV4</span><span>LV5</span><span>LV6</span></div></div>
+    <div class="notes"><div class="bt">Notes</div><div class="lines"></div></div>
+  </div>
+
+  <!-- VET (Specialist) -->
+  <div class="card">
+    <div class="cardhead"><span class="b">Settlements</span><span class="s">Unit Sheet</span></div>
+    <div class="identity">
+      <div class="fld"><div class="lbl">Unit Name</div><div class="val">Vet</div></div>
+      <div class="fld"><div class="lbl">Crew</div><div class="val">Redline</div></div>
+      <div class="fld rankpick"><div class="lbl">Unit Type</div><div class="val"><span>Recruit · Fighter · <b class="on">SPECIALIST</b> · Leader</span></div></div>
+    </div>
+    <div class="stats">
+      <div class="st"><div class="k">WND</div><div class="v">1</div></div><div class="st"><div class="k">MOV</div><div class="v">6"</div></div>
+      <div class="st"><div class="k">STR</div><div class="v">+4</div></div><div class="st"><div class="k">DEX</div><div class="v">0</div></div>
+      <div class="st"><div class="k">INT</div><div class="v">0</div></div><div class="st"><div class="k">AGI</div><div class="v">+2</div></div><div class="st"><div class="k">NRV</div><div class="v">+1</div></div>
+    </div>
+    <div class="weps">
+      <div class="wep"><div class="wt">Weapon 1</div><div class="wn">Great Axe <span class="dmg">+3</span></div><div class="wl">Heavy Melee · 2-handed</div></div>
+      <div class="wep"><div class="wt">Weapon 2</div><div class="wn">Baseball Bat <span class="dmg">+1</span></div><div class="wl">Light Melee · free</div></div>
+      <div class="wep"><div class="wt">Weapon 3</div><div class="wn">Fists <span class="dmg">+0</span></div><div class="wl">Unarmed</div></div>
+    </div>
+    <div class="block"><div class="bt">Equipment</div><div class="row">—</div></div>
+    <div class="block"><div class="bt">Skills &nbsp;<span class="small">(STR+4 → 2 · AGI+2 → 1)</span></div>
+      <div class="row"><b>Knockback</b> <span class="small">(STR·T1)</span> — after winning melee, push the defender 2" before the Injury roll; follow up to 2".</div>
+      <div class="row"><b>Super Slam</b> <span class="small">(STR·T2)</span> — a Charge that hits but fails to wound leaves the target Suppressed, not Shaken.</div>
+      <div class="row"><b>Dodge</b> <span class="small">(AGI·T1)</span> — after moving 3"+, melee attacks against you are at −1 until your next activation.</div>
+    </div>
+    <div class="xp"><div class="bt">Experience &nbsp;<span class="small">Orders 1</span></div><div class="track"></div>
+      <div class="miles"><span>LV1</span><span>LV2</span><span>LV3</span><span>LV4</span><span>LV5</span><span>LV6</span></div></div>
+    <div class="notes"><div class="bt">Notes</div><div class="lines"></div></div>
+  </div>
+</div>
+
+<div class="sheet">
+  <!-- DEADEYE (Fighter) -->
+  <div class="card">
+    <div class="cardhead"><span class="b">Settlements</span><span class="s">Unit Sheet</span></div>
+    <div class="identity">
+      <div class="fld"><div class="lbl">Unit Name</div><div class="val">Deadeye</div></div>
+      <div class="fld"><div class="lbl">Crew</div><div class="val">Redline</div></div>
+      <div class="fld rankpick"><div class="lbl">Unit Type</div><div class="val"><span>Recruit · <b class="on">FIGHTER</b> · Specialist · Leader</span></div></div>
+    </div>
+    <div class="stats">
+      <div class="st"><div class="k">WND</div><div class="v">1</div></div><div class="st"><div class="k">MOV</div><div class="v">6"</div></div>
+      <div class="st"><div class="k">STR</div><div class="v">0</div></div><div class="st"><div class="k">DEX</div><div class="v">+2</div></div>
+      <div class="st"><div class="k">INT</div><div class="v">+2</div></div><div class="st"><div class="k">AGI</div><div class="v">+1</div></div><div class="st"><div class="k">NRV</div><div class="v">0</div></div>
+    </div>
+    <div class="weps">
+      <div class="wep"><div class="wt">Weapon 1</div><div class="wn">Pistol <span class="dmg">+2</span></div><div class="wl">Sidearm · 8" · fires while Engaged · Loud</div></div>
+      <div class="wep"><div class="wt">Weapon 2</div><div class="wn">Baseball Bat <span class="dmg">+1</span></div><div class="wl">Light Melee · free</div></div>
+      <div class="wep"><div class="wt">Weapon 3</div><div class="wn">Fists <span class="dmg">+0</span></div><div class="wl">Unarmed</div></div>
+    </div>
+    <div class="block"><div class="bt">Equipment</div><div class="row">—</div></div>
+    <div class="block"><div class="bt">Skills &nbsp;<span class="small">(DEX+2 → 1 · INT+2 → 1)</span></div>
+      <div class="row"><b>Ready to React</b> <span class="small">(DEX·T1)</span> — Action: Ready vs a visible enemy; if it Charges you, snap-shot it at −2 first.</div>
+      <div class="row"><b>Hacker</b> <span class="small">(INT·T1)</span> — Action beside a device: INT test to access / loop / silence / toggle it.</div>
+    </div>
+    <div class="xp"><div class="bt">Experience</div><div class="track"></div>
+      <div class="miles"><span>LV1</span><span>LV2</span><span>LV3</span><span>LV4</span><span>LV5</span><span>LV6</span></div></div>
+    <div class="notes"><div class="bt">Notes</div><div class="lines"></div></div>
+  </div>
+
+  <!-- WIRE (Fighter — melee-hacker) -->
+  <div class="card">
+    <div class="cardhead"><span class="b">Settlements</span><span class="s">Unit Sheet</span></div>
+    <div class="identity">
+      <div class="fld"><div class="lbl">Unit Name</div><div class="val">Wire</div></div>
+      <div class="fld"><div class="lbl">Crew</div><div class="val">Redline</div></div>
+      <div class="fld rankpick"><div class="lbl">Unit Type</div><div class="val"><span>Recruit · <b class="on">FIGHTER</b> · Specialist · Leader</span></div></div>
+    </div>
+    <div class="stats">
+      <div class="st"><div class="k">WND</div><div class="v">1</div></div><div class="st"><div class="k">MOV</div><div class="v">6"</div></div>
+      <div class="st"><div class="k">STR</div><div class="v">+2</div></div><div class="st"><div class="k">DEX</div><div class="v">0</div></div>
+      <div class="st"><div class="k">INT</div><div class="v">+2</div></div><div class="st"><div class="k">AGI</div><div class="v">0</div></div><div class="st"><div class="k">NRV</div><div class="v">+1</div></div>
+    </div>
+    <div class="weps">
+      <div class="wep"><div class="wt">Weapon 1</div><div class="wn">Baseball Bat <span class="dmg">+1</span></div><div class="wl">Light Melee · free</div></div>
+      <div class="wep"><div class="wt">Weapon 2</div><div class="wn">Fists <span class="dmg">+0</span></div><div class="wl">Unarmed</div></div>
+      <div class="wep"><div class="wt">Weapon 3</div><div class="wn">—</div><div class="wl"></div></div>
+    </div>
+    <div class="block"><div class="bt">Equipment</div><div class="row"><b>Breach Kit</b> +1 to the hack test.</div></div>
+    <div class="block"><div class="bt">Skills &nbsp;<span class="small">(STR+2 → 1 · INT+2 → 1)</span></div>
+      <div class="row"><b>Knockback</b> <span class="small">(STR·T1)</span> — after winning melee, push the defender 2" before the Injury roll; follow up to 2".</div>
+      <div class="row"><b>Hacker</b> <span class="small">(INT·T1)</span> — Action beside a device: INT test to access / loop / silence / toggle it.</div>
+    </div>
+    <div class="xp"><div class="bt">Experience</div><div class="track"></div>
+      <div class="miles"><span>LV1</span><span>LV2</span><span>LV3</span><span>LV4</span><span>LV5</span><span>LV6</span></div></div>
+    <div class="notes"><div class="bt">Notes</div><div class="lines"></div></div>
+  </div>
+</div>
+
+<div class="sheet">
+  <!-- RUNNER (Fighter) -->
+  <div class="card">
+    <div class="cardhead"><span class="b">Settlements</span><span class="s">Unit Sheet</span></div>
+    <div class="identity">
+      <div class="fld"><div class="lbl">Unit Name</div><div class="val">Runner</div></div>
+      <div class="fld"><div class="lbl">Crew</div><div class="val">Redline</div></div>
+      <div class="fld rankpick"><div class="lbl">Unit Type</div><div class="val"><span>Recruit · <b class="on">FIGHTER</b> · Specialist · Leader</span></div></div>
+    </div>
+    <div class="stats">
+      <div class="st"><div class="k">WND</div><div class="v">1</div></div><div class="st"><div class="k">MOV</div><div class="v">6"</div></div>
+      <div class="st"><div class="k">STR</div><div class="v">0</div></div><div class="st"><div class="k">DEX</div><div class="v">+2</div></div>
+      <div class="st"><div class="k">INT</div><div class="v">0</div></div><div class="st"><div class="k">AGI</div><div class="v">+2</div></div><div class="st"><div class="k">NRV</div><div class="v">+1</div></div>
+    </div>
+    <div class="weps">
+      <div class="wep"><div class="wt">Weapon 1</div><div class="wn">Pistol <span class="dmg">+2</span></div><div class="wl">Sidearm · 8" · fires while Engaged · Loud</div></div>
+      <div class="wep"><div class="wt">Weapon 2</div><div class="wn">Baseball Bat <span class="dmg">+1</span></div><div class="wl">Light Melee · free</div></div>
+      <div class="wep"><div class="wt">Weapon 3</div><div class="wn">Fists <span class="dmg">+0</span></div><div class="wl">Unarmed</div></div>
+    </div>
+    <div class="block"><div class="bt">Equipment</div><div class="row">—</div></div>
+    <div class="block"><div class="bt">Skills &nbsp;<span class="small">(DEX+2 → 1 · AGI+2 → 1)</span></div>
+      <div class="row"><b>Sharp Eyes</b> <span class="small">(DEX·T1)</span> — Action: a visible enemy within 18" is Spotted until end of round.</div>
+      <div class="row"><b>Quick Hands</b> <span class="small">(AGI·T1)</span> — once per activation, do a pick-up / drop / objective interaction during your Move (no attack).</div>
+    </div>
+    <div class="xp"><div class="bt">Experience</div><div class="track"></div>
+      <div class="miles"><span>LV1</span><span>LV2</span><span>LV3</span><span>LV4</span><span>LV5</span><span>LV6</span></div></div>
+    <div class="notes"><div class="bt">Notes</div><div class="lines"></div></div>
+  </div>
+
+  <!-- BODY (Recruit) -->
+  <div class="card">
+    <div class="cardhead"><span class="b">Settlements</span><span class="s">Unit Sheet</span></div>
+    <div class="identity">
+      <div class="fld"><div class="lbl">Unit Name</div><div class="val">Body</div></div>
+      <div class="fld"><div class="lbl">Crew</div><div class="val">Redline</div></div>
+      <div class="fld rankpick"><div class="lbl">Unit Type</div><div class="val"><span><b class="on">RECRUIT</b> · Fighter · Specialist · Leader</span></div></div>
+    </div>
+    <div class="stats">
+      <div class="st"><div class="k">WND</div><div class="v">1</div></div><div class="st"><div class="k">MOV</div><div class="v">6"</div></div>
+      <div class="st"><div class="k">STR</div><div class="v">+1</div></div><div class="st"><div class="k">DEX</div><div class="v">0</div></div>
+      <div class="st"><div class="k">INT</div><div class="v">0</div></div><div class="st"><div class="k">AGI</div><div class="v">+1</div></div><div class="st"><div class="k">NRV</div><div class="v">+1</div></div>
+    </div>
+    <div class="weps">
+      <div class="wep"><div class="wt">Weapon 1</div><div class="wn">Baseball Bat <span class="dmg">+1</span></div><div class="wl">Light Melee · free</div></div>
+      <div class="wep"><div class="wt">Weapon 2</div><div class="wn">Fists <span class="dmg">+0</span></div><div class="wl">Unarmed</div></div>
+      <div class="wep"><div class="wt">Weapon 3</div><div class="wn">—</div><div class="wl"></div></div>
+    </div>
+    <div class="block"><div class="bt">Equipment</div><div class="row">—</div></div>
+    <div class="block"><div class="bt">Skills</div><div class="row"><span class="small">None. A Recruit spends its 3 points as +1 dabbles with no tiered stat, so it has no skills.</span></div></div>
+    <div class="xp"><div class="bt">Experience</div><div class="track"></div>
+      <div class="miles"><span>LV1</span><span>LV2</span><span>LV3</span><span>LV4</span><span>LV5</span><span>LV6</span></div></div>
+    <div class="notes"><div class="bt">Notes</div><div class="lines"></div></div>
+  </div>
+</div>
+
+<!-- BLANK + CAMPAIGN BACK -->
+<div class="sheet">
+  <div class="barhead">Blank Unit Card — photocopy for your roster</div>
+  <div class="card">
+    <div class="cardhead"><span class="b">Settlements</span><span class="s">Unit Sheet</span></div>
+    <div class="identity">
+      <div class="fld"><div class="lbl">Unit Name</div><div class="val">&nbsp;</div></div>
+      <div class="fld"><div class="lbl">Crew</div><div class="val">&nbsp;</div></div>
+      <div class="fld rankpick"><div class="lbl">Unit Type (circle one)</div><div class="val"><span>Recruit · Fighter · Specialist · Leader</span></div></div>
+    </div>
+    <div class="stats">
+      <div class="st"><div class="k">WND</div><div class="v">&nbsp;</div></div><div class="st"><div class="k">MOV</div><div class="v">&nbsp;</div></div>
+      <div class="st"><div class="k">STR</div><div class="v">&nbsp;</div></div><div class="st"><div class="k">DEX</div><div class="v">&nbsp;</div></div>
+      <div class="st"><div class="k">INT</div><div class="v">&nbsp;</div></div><div class="st"><div class="k">AGI</div><div class="v">&nbsp;</div></div><div class="st"><div class="k">NRV</div><div class="v">&nbsp;</div></div>
+    </div>
+    <div class="weps">
+      <div class="wep"><div class="wt">Weapon 1</div><div class="wn">&nbsp;<span class="dmg">DMG</span></div><div class="wl">trait</div></div>
+      <div class="wep"><div class="wt">Weapon 2</div><div class="wn">&nbsp;<span class="dmg">DMG</span></div><div class="wl">trait</div></div>
+      <div class="wep"><div class="wt">Weapon 3</div><div class="wn">&nbsp;<span class="dmg">DMG</span></div><div class="wl">trait</div></div>
+    </div>
+    <div class="block"><div class="bt">Equipment</div><div class="row"><b>1.</b>&nbsp;</div><div class="row"><b>2.</b>&nbsp;</div></div>
+    <div class="block"><div class="bt">Skills <span class="small">(one per tier each stat reaches — tag each with its STAT·tier)</span></div><div class="row"><b>1.</b>&nbsp;</div><div class="row"><b>2.</b>&nbsp;</div><div class="row"><b>3.</b>&nbsp;</div><div class="row"><b>4.</b>&nbsp;</div></div>
+    <div class="xp"><div class="bt">Experience</div><div class="track"></div>
+      <div class="miles"><span>LV1</span><span>LV2</span><span>LV3</span><span>LV4</span><span>LV5</span><span>LV6</span></div></div>
+    <div class="notes"><div class="bt">Notes</div><div class="lines"></div></div>
+  </div>
+
+  <div class="barhead" style="margin-top:8px">Card Back — Campaign Log</div>
+  <table class="ref">
+    <tr><th>Battles</th><th>Kills / Out-of-Actions</th><th>Advances taken</th><th>Scars &amp; injuries</th></tr>
+    <tr><td style="height:66px"></td><td></td><td></td><td></td></tr>
+  </table>
+  <div class="small">Experience ticks from deeds — down/OOA an opponent, revive a Down friendly, a successful hack, a breach, deploy a deployable, pass a STAT test under pressure (triggers &amp; thresholds finalised in Progression). Each milestone = one Advance: +1 stat (may open a new tier → a new skill), or heal a scar.</div>
+</div>
+
+<script>
+  document.querySelectorAll('.track').forEach(function(t){
+    for(var i=1;i<=30;i++){ var b=document.createElement('div'); b.className='box'+(i%5===0?' mile':''); t.appendChild(b); }
+  });
+</script>
