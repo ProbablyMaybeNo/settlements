@@ -119,7 +119,7 @@ Buy exactly one. All effects route to rules you already have.
 | **Explosion** | **+4** | Injury **Damage +3**, **Blast** (2"). The default killer. |
 | **Fire** | **+3** | **Blast** Injury **Damage +2**, sets **Fire**, leaves a **3" Fire** hazard for one round ([[Terrain#Hazards (the Dangerous overlay)]]). |
 | **Poison** | **+3** | Places a **3" Poison** hazard for two rounds ([[Conditions#Persistent conditions (resolve in the End Phase)|Poison]] to anyone inside or entering). |
-| **Shock** | **+3** | **Blast**, no Injury: **Shocked + Blind** on every model in radius ([[Conditions#Persistent conditions (resolve in the End Phase)]]). |
+| **Shock** | **+3** | **Blast**, no Injury: **Shocked + Blind** on every model in radius ([[Conditions#Control conditions (from skills, weapons and terrain)]]). |
 | **Smoke** | **+2** | No damage — places a **3" Dense Smoke** ([[Weapons]] Smoke). A trap that screens instead of kills. |
 
 ^tbl-payload-what-it-does-on-detonation

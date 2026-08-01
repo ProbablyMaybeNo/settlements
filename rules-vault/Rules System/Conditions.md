@@ -55,8 +55,10 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 ### Control conditions (from skills, weapons and terrain)
 - **Grappled** — grappler and target stay within 1". The target cannot Move, Charge, Sprint or Disengage; it may only attack its grappler, or spend its Action on an **opposed STR test** to escape. The grappler may release it freely, or move at **half MOV** while dragging it. Grappling ends if either model goes Down.
 - **Suppressed** — counts as **Pinned**, and the unit **cannot React** until it has cleared the Pinned effect.
-- **Off-Balance** — cannot Sprint or Charge. Ends at the end of the unit's next activation.
-- **Hobbled** — **−2" MOV**. Ends at the end of the unit's next activation.
+- **Off-Balance** — cannot Sprint or Charge. **Persists until cleared:** spend your **Move** slot to shed it (you keep your Action), exactly as you would shake off **Pinned**.
+- **Hobbled** — **−2" MOV**. **Persists until cleared:** spend your **Move** slot to shed it (you keep your Action), exactly as you would shake off **Pinned**.
+- **Blind** — **−2 on all rolls that need sight** (attacks, Spot, Reactions, targeted Interacts). Ends at the end of the unit's **next activation**.
+- **Shocked** — **−2 to all rolls** and **cannot React**. Ends at the end of the unit's **next activation**.
 - **Provoked** — the unit's first attack against anyone *except* the source suffers **−1**. Ends after that attack, or at the end of its next activation.
 - **Snared** — caught by a clamp, wire or pit (a [[Deployables]] trap). **Cannot Move, Charge, Sprint or Disengage.** On its activation it may spend its **Action** on a **STR test (7+)** to break free (nat 1 fails, it stays). A device-sourced negative condition, so its first application gives **+1 Stress**. Persists until it breaks free or the device is cleared. *(Kin to **Grappled**, but no grappler holds it — the terrain does.)*
 
@@ -64,8 +66,13 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 - **Fire** — each End Phase, the unit suffers an **Injury roll at +1 Damage, ignoring Armor**. It (or an adjacent friendly) may spend an **Action** to extinguish it — automatic, no test. Persists until extinguished.
 - **Bleed** — each End Phase, the unit loses **1 WND** unless treated. Treating = an Action + **INT test (7+)** by the unit or an adjacent friendly, **−2 without a Med-Kit**; a **Medic** ([[Skill Paths]]) treats automatically. **At WND 1 — i.e. almost everyone — Bleed is a two-round death clock:** it drops you Down at the next End Phase, and Down + Bleed bleeds out. It is the harshest condition in the game by a wide margin, which is why **Bleeding** is the priciest weapon payload and why a **Med-Kit** earns its points.
 - **Poison** — **−1 to all rolls.** Each End Phase the unit makes a **STR test (7+)**: pass ends it. It can also be treated exactly like Bleed.
-- **Blind** — **−2 on all rolls that need sight** (attacks, Spot, Reactions, targeted Interacts). Clears in the End Phase.
-- **Shocked** — **−2 to all rolls** and **cannot React**. Clears in the End Phase.
+
+> [!success] Why these four durations changed — measured 2026-08-01
+> **Off-Balance, Hobbled, Blind and Shocked all measured at or near zero value** in simulation (1 · −2 · 7 · 13 Goods against Bleeding's 46), while all four were sold at **30** on the [[Weapons]] payload table. Two separate causes, both timing:
+> - **Blind and Shocked cleared in the End Phase**, so a payload delivered mid-round only bit a target that had not yet activated. Roughly half the time they did nothing at all — an invisible coin-flip the player could not read off the card. They now run on the **activation clock**, so the target feels the debuff exactly once, whenever it lands. They also moved out of the persistent list, because they no longer resolve in the End Phase.
+> - **Off-Balance and Hobbled expired after one activation**, which on a 36" board is worth almost nothing. They now **persist until cleared**, on the same pattern as **Pinned** — which is the right benchmark, because a payload *replaces* Pinned. A payload worth less than the Pinned it displaces is a payload nobody should ever buy.
+>
+> Re-measure before the payload prices are re-locked: `test-bench/balance/conditions2d.py`.
 
 ### Nerve states (from [[Morale]])
 - **Shaken** — any unit with **1+ Stress**: −1 to all rolls. Always-on, doesn't stack, no test. Clears when all Stress clears.

@@ -48,7 +48,7 @@ More points than a unit can spike into one stat, capped by tier so it *spreads* 
 **There is no unit cap on the crew you field.** The pyramid and the budget do it: at 100 points the legal maximum is **11 fighters** (Leader + 5 Fighters + 5 Recruits, with about 11 points of gear between them — a mob with bats).
 
 > [!warning] Per-battle only — the roster IS capped
-> "No unit cap" scopes to the **crew you field in one battle**. The **roster you own** is capped by housing: a base **10** body slots from the HQ, raised by building Bunkhouses ([[Structures#The catalogue — 25 structures|Structures]]), and every head consumes **Water** each cycle. Ownership and fielding are orthogonal — **Goods/Materials buy what you own, points gate what you field.**
+> "No unit cap" scopes to the **crew you field in one battle**. The **roster you own** is capped by housing: a base **10** body slots from the HQ, raised by building Bunkhouses ([[Structures#The catalogue — 23 structures|Structures]]). **Housing is the only population brake** — there is no per-head upkeep *(Water cut 2026-08-01)*. Ownership and fielding are orthogonal — **Goods/Materials buy what you own, points gate what you field.**
 
 The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed at 1 ([[Damage]]), so a 40-point Leader in plate dies to one lucky pistol shot from a Recruit with a knife. The engine already forbids heroes.
 

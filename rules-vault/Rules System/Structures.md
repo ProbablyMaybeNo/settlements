@@ -35,7 +35,8 @@ The lot itself is a **barren, battle-scarred site** — a vacant lot between bro
 > Every conflict with [[Interviews — Completing the Rules System]] was checked against the source and ruled on:
 > - **Currency stays Goods** — the Cash rename (07-24) is reverted. Goods reads better and fits scavengers hauling back goods, scrap and equipment.
 > - **Power stays the Generator** — the Reactor rename is reverted.
-> - **One gatherer per resource, but you may build more.** Adopted, with the restriction loosened: the starting set gives one gatherer each for Goods / Materials / Water, and **additional output always costs another structure or an upgrade** — never a free multiplier.
+> - **One gatherer per resource, but you may build more.** Adopted, with the restriction loosened: the starting set gives one gatherer each for Goods / Materials, and **additional output always costs another structure or an upgrade** — never a free multiplier.
+> - **Water is cut** *(ruled 2026-08-01)*. Resources are **Goods · Materials · Power**. The Water Reclaimer, Cistern and Water Tower are gone, per-head Water upkeep is gone, and **housing slots are the only population brake**. The catalogue is **23 structures**, not 25.
 > - **Five categories kept** — Sustain / Convert / Operate / Recover / Defend, over the earlier seven.
 > - **25 structures** — the "5 to 10" answer was scoped to *release* count, a different question.
 > - **No build prerequisites.** Structures are never chained; cost and floor space are the only gates. Upgrade ladders stay, because a tier is one structure maturing rather than a second structure.
@@ -111,7 +112,7 @@ Because Buildings are 6×6" minimum on a 12"-deep strip, you can fit **at most t
 > [!important] The footprints in this catalogue are grid sizes, not shopping lists
 > A structure's size tells you how much room it takes on your **settlement sheet** — how much of your 12×36 it costs you. It is **not** a requirement about the model on your table.
 >
-> Use whatever terrain you own that comes closest. A water tank measuring 2½" is a **3×3" Water Reclaimer**. A ruined house 7" on a side is a **6×6" HQ**. Get in the neighbourhood and carry on — **nobody measures your scenery.**
+> Use whatever terrain you own that comes closest. A fuel-drum cluster measuring 2½" is a **3×3" Generator**. A ruined house 7" on a side is a **6×6" HQ**. Get in the neighbourhood and carry on — **nobody measures your scenery.**
 
 **Tolerance**
 
@@ -124,14 +125,13 @@ Because Buildings are 6×6" minimum on a 12"-deep strip, you can fit **at most t
 > [!important] Mark every interactive point
 > Any **Tag** a structure carries — Openable, Lockable, Hackable, Searchable, Climbable, Powered — must be **physically visible on the table**, either modelled onto the piece or marked with a token. If a door can be locked, there is a door or a door token. If there's a terminal, there's a terminal. Nothing interactive is invisible.
 
-### Starting structures — five
+### Starting structures — four
 
 Every settlement begins with these, free. **One gatherer per resource**, plus the command hub.
 
 |Structure|Role|Why it's mandatory|
 |---|---|---|
 |**HQ**|command|Campaign actions, mission dispatch, and the base **10** body slots|
-|**Water Reclaimer**|**Water** gatherer|Water is consumed per head each cycle — this sets what your population costs|
 |**Generator**|**Power**|Everything with a draw needs it|
 |**Processor**|**Materials** gatherer|Scrap → Materials. Nothing gets built without it|
 |**Salvage Yard**|**Goods** gatherer|Sorts and values what scavengers haul back — goods, scrap, equipment|
@@ -143,10 +143,10 @@ Starting footprint is **104 of 432 squares — 24%.** A new settlement should re
 #### One gatherer each — but never a hard ceiling
 The starting set gives you exactly one gatherer per resource. **You may always build more.** What you may never do is raise output without paying floor space:
 
-- **Build another** gatherer of the same type — a second Water Reclaimer, a second Processor. Each is a full structure and eats the canvas accordingly.
+- **Build another** gatherer of the same type — a second Processor, a second Salvage Yard. Each is a full structure and eats the canvas accordingly.
 - **Upgrade** the one you have — a tier costs Materials, and where the tier promotes a Station into a Building it costs space too.
 
-That is the whole anti-inflation shape for production: output scales, but only against the scarcest resource in the game — **room on a 12×36 lot**. A settlement that doubles its Water is a settlement with fewer guns.
+That is the whole anti-inflation shape for production: output scales, but only against the scarcest resource in the game — **room on a 12×36 lot**. A settlement that doubles its Materials is a settlement with fewer guns.
 
 ### Founding — choosing your first few
 
@@ -161,11 +161,16 @@ Your **location** ([[Settlement]]) grants **one structure free** — hospital �
 
 The **Generator** produces **+3**. Every powered structure has a **draw**. The settlement runs on a single sum: **total output ≥ total draw**, tracked on the sheet ([[Economy]]). A structure without Power is **Disabled** and gives no benefit.
 
-The five starters draw exactly **3** — HQ 1, Water Reclaimer 1, Processor 1, Salvage Yard 0 — against one Generator's **+3**. **You begin at exactly capacity.** The first powered thing you add forces a second Generator or a decision about what to run cold. That tension is deliberate and starts on day one.
+The four starters draw **2** — HQ 1, Processor 1, Salvage Yard 0 — against one Generator's **+3**.
+
+> [!question] The start-at-capacity tension needs a new dial
+> Cutting the Water Reclaimer took a **−1** draw off the opening board, so a new settlement now begins with **1 Power spare** instead of at exactly capacity. That tension was deliberate and is worth keeping. Two ways back: drop the Generator to **+2**, or give the Salvage Yard a **−1** draw. Decide in [[Economy]].
+>
+> Note also that `docs/POINTS-DECISIONS.md` **D9** sets the Generator at **+5** with draws of T1 1 / T2 2 / T3 3, which this note's **+3** contradicts. One of the two is wrong; resolve it with the same decision.
 
 ### Storage & caps — what you can hold, and what a raider can take
 
-**Three of the four resources are hoardable, and every one of them is capped by what you have built.** Goods and Materials go in sheds; **Water goes in tanks** — you cannot fit unlimited water in one cistern any more than you can fit unlimited scrap in one shed. Only **Power** is never banked: it is output-vs-draw ([[Economy]]), a flow rather than a store.
+**Both hoardable resources are capped by what you have built.** Goods and Materials go in sheds — you cannot fit unlimited scrap in one shed. Only **Power** is never banked: it is output-vs-draw ([[Economy]]), a flow rather than a store.
 
 **Your cap on each resource is the sum of what you have built:**
 
@@ -175,7 +180,6 @@ The five starters draw exactly **3** — HQ 1, Water Reclaimer 1, Processor 1, S
 |**Gatherer buffer**|a little of *its own* resource — the scrap heap beside the Processor, the pallet by the Salvage Yard|**easy pickings** — open ground, Searchable|
 |**Storehouse** — repeatable|the bulk of **Goods and Materials** (dry goods only)|**the loot target** — Breachable and Searchable|
 |**Vault** — HQ upgrade|small, and **secure**|Sabotage or an INT hack, nothing else|
-|**Water Reclaimer** — repeatable|all your Water. **Tank capacity is the Water cap** — more tanks, more water|Breachable — and a holed tank is *spilled*, not stolen|
 
 ^tbl-storage-caps-what-you-can-hold-and-what-a-ra
 
@@ -187,14 +191,10 @@ The five starters draw exactly **3** — HQ 1, Water Reclaimer 1, Processor 1, S
 > [!success] The Vault trade — safe *or* plentiful, never both
 > The **Vault** holds little but is nearly untouchable. **Storehouses** hold a lot and are Breachable. So a settlement sitting on a fortune has to split it: the irreplaceable part goes in the Vault, the working stock sits in sheds where a determined attacker can get it. Losing a raid should cost you something, and this is the dial that decides how much.
 
-> [!warning] Water is denied, not robbed
-> A raider cannot meaningfully carry your water away — but they can **put holes in your tanks**. Water is the one resource an attacker destroys rather than loots, and it is the one that bites hardest afterwards: Water is consumed per head each cycle, so a settlement that loses its tanks cannot feed the crew it owns until they are rebuilt.
->
-> That makes tank placement a genuine defensive decision. Tanks are **Plant** at 3×3 — small, cheap to scatter, and easy to tuck behind a wall. Clustering them is efficient use of the lot and a single good approach lane away from disaster.
+**Storage is repeatable across the board.** Build as many **Storehouses** as you have room for. The ceiling on hoarding is floor space, exactly like production.
 
-**Storage is repeatable across the board.** Build as many **Storehouses** and **Water Reclaimers** as you have room for. The ceiling on hoarding is floor space, exactly like production — and because a Reclaimer both produces *and* holds, a second tank raises your Water income and your Water cap together.
-
-The **Cistern** is the storage-only answer: it banks Water without expanding the plant, so a settlement can hold a reserve against a raid rather than a bigger income it cannot use.
+> [!question] Cutting Water cost the raid its destroy-only target
+> Water was the one resource an attacker **destroyed rather than looted** — you cannot carry a tank away, but you can hole it. That gave raids a second kind of objective and made tank placement a real defensive decision. With Water gone every raid target is now a *loot* target. If raids play flat, this is the hole to fill — most likely by making the **Generator** or the **Processor** sabotage-worthy in the same way. Decide in [[Economy]] / the raid pass.
 
 ### HQ tiers — the scavenger pipeline
 
@@ -211,7 +211,7 @@ The lot is small on purpose, so the catalogue must not waste slots on things tha
 
 |Move|Use when|Costs|Example|
 |---|---|---|---|
-|**Upgrade**|The later thing is the **same job at greater scale**|Materials, and often floor space|Equipment Shed → **Armory** · Water Reclaimer → **Water Tower**|
+|**Upgrade**|The later thing is the **same job at greater scale**|Materials, and often floor space|Equipment Shed → **Armory** · Workbench → **Workshop**|
 |**Build another**|You want **more throughput** of something you already have|A whole new footprint|A second Processor, another Storehouse, another tank|
 |**Groundworks**|You are out of lot|Materials + its own footprint|12×36 → 18×36|
 
@@ -242,7 +242,6 @@ Every ladder in the catalogue, and what each tier costs in floor space. Where a 
 |T1|T2|T3|Space|
 |---|---|---|---|
 |**Equipment Shed** 3×2|**Armory** 6×6|—|6 → 36|
-|**Water Reclaimer** 3×3|**Water Tower** 3×5|—|9 → 15|
 |**Workbench** 3×2|**Workshop** 6×8|—|6 → 48|
 |**Trader's Kiosk** 3×2|**Trade House** 6×6|—|6 → 36|
 |**Fabricator** 6×6|**Robotics Workshop** 6×8|**Advanced Weapons Lab** 6×10|36 → 48 → 60|
@@ -256,7 +255,7 @@ A young settlement is a scatter of stalls, tanks and gensets; growing up means t
 
 ---
 
-## The catalogue — 25 structures
+## The catalogue — 23 structures
 
 **★** free starting structure. **Everything else is buildable from founding onward** — no structure requires another.
 Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup procedure]])
@@ -265,20 +264,16 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 
 |Structure|Class|Size|Pwr|What it does|
 |---|---|---|---|---|
-|**Water Reclaimer** ★ *(repeatable, → Water Tower)*|Plant|3×3|−1|**Water** gatherer **and** Water storage — the tank is both. Water is consumed per head, so this sets what your population costs *and* caps how much you can hold|
-|**Cistern** *(repeatable)*|Plant|3×3|0|Water storage **without** production — bank a reserve against a raid without expanding the plant|
 |**Generator** ★|Plant|3×3|**+3**|**Power** output|
 |**Bunkhouse**|Building|6×9|0|**+N owned body slots** above HQ's base 10|
-|**Storehouse** *(repeatable)*|Building|6×6|0|Bulk storage for **Goods and Materials** above the HQ's base cap — dry goods, not Water. **The loot target in a raid**|
+|**Storehouse** *(repeatable)*|Building|6×6|0|Bulk storage for **Goods and Materials** above the HQ's base cap. **The loot target in a raid**|
 |**Equipment Shed** *(→ Armory 6×6)*|Station|3×2|0|Holds every **unequipped** weapon, armour and piece of kit the crew owns. Caps the size of your persistent armoury; the Armory tier raises it and adds a lock|
 
 ^tbl-sustain-keep-people-alive-keep-the-grid-up
 
-- Water Reclaimer — `Scatter · Impassable · Heavy · Climbable, Breachable`
 - Generator — `Feature · Impassable · Heavy · Powered, Hackable, Explosive`
 - Bunkhouse — `Building · Interior Open · Heavy · Openable, Lockable, Searchable, Climbable`
 - Storehouse — `Building · Interior Open · Heavy · Lockable, Searchable, Breachable`
-- Cistern — `Scatter · Impassable · Heavy · Climbable, Breachable`
 - Equipment Shed — `Scatter · Open · Light · Searchable` · Armory — `Building · Interior Open · Heavy · Lockable, Searchable, Breachable`
 
 ### Convert — turn one resource into another, and make gear
@@ -368,13 +363,13 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 > Owning the mount grants **auto-deploy** only — the turret skips the [[Deployables#Deploying — the INT test|INT test]] and starts online. It still **costs crew-points** to field, still counts against the **9–12** density band, and keeps full fragility: `WND−1`, repairable once, hijackable. This is the settled answer to a pre-placed settlement deployable being strictly better and free.
 
 ### Category counts
-Sustain **6** · Convert **5** · Operate **6** · Recover **3** · Defend **5** = **25**. Deliberately uneven — forcing five per category is what produced filler in the first pass.
+Sustain **4** · Convert **5** · Operate **6** · Recover **3** · Defend **5** = **23**. Deliberately uneven — forcing five per category is what produced filler in the first pass. *(Was 25; the Water Reclaimer and Cistern were cut with Water on 2026-08-01.)*
 
 ## Space budget
 
 |Build|Squares|% of 432|
 |---|---|---|
-|Starting five|**104**|24%|
+|Starting four|**95**|22%|
 |Typical ten-structure settlement|**~290**|~67%|
 |Practical ceiling *(lanes to move through)*|**~300**|~70%|
 
@@ -382,15 +377,17 @@ Sustain **6** · Convert **5** · Operate **6** · Recover **3** · Defend **5**
 
 The sprawl costs are real: the **Salvage Yard** eats **8%** of the lot at its starting size and more once expanded, and every 6×8 Building is another **11%**. Those are decisions, not shopping.
 
-**Twenty-five structures, room for about ten.** You cannot build the good version of everything, and demolishing to rebuild is a real move rather than a footnote.
+**Twenty-three structures, room for about ten.** You cannot build the good version of everything, and demolishing to rebuild is a real move rather than a footnote.
 
 ## Open decisions
 
 - [ ] Confirm the board size — **3'×3'** recommended
 - [ ] Build cost in **Materials** per structure ([[Economy]])
-- [ ] Storage numbers — HQ base cap, gatherer buffer, Storehouse, Vault, Equipment Shed/Armory, Water per tank
+- [ ] Storage numbers — HQ base cap, gatherer buffer, Storehouse, Vault, Equipment Shed/Armory
 - [ ] Persistent armoury: is owned gear **also** points-costed to field (two-gate), or does ownership replace the points cost? ([[Economy]] E2)
-- [ ] What a holed Water tank actually costs — all of it, half, or a roll
+- [ ] Replace the destroy-only raid target Water used to provide
+- [ ] Generator output: this note says **+3**, `POINTS-DECISIONS.md` D9 says **+5** — reconcile
+- [ ] HQ housing: this note says **10** slots, D10 says **12** — reconcile
 - [ ] HQ tier costs and the dispatch-slot increment per tier
 - [ ] How much a successful raider actually takes from each container
 - [ ] Founding **Goods** budget and per-structure founding price

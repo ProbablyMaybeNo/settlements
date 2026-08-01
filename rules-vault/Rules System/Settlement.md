@@ -23,7 +23,7 @@ The Rules column should nail down:
 - Building types and what each does: resource gatherers, crafting stations, defences, utility structures. → **drafted in [[Structures]]**
 - Build/upgrade costs and the in-battle buffs structures grant (turrets, reinforced doors, traps).
 - Structural damage and collapse, driving the tough choices: rebuild/reinforce vs recruit vs research.
-- The minimum viable slice the Final Alpha needs (~10 buildings, **4 resources** — Goods, Materials, Power, Water).
+- The minimum viable slice the Final Alpha needs (~10 buildings, **3 resources** — Goods, Materials, Power). *(Water cut 2026-08-01: population is braked by housing slots alone.)*
 
 > [!info] The catalogue lives in [[Structures]]
 > 25 structures, footprint classes, the 12"×36" canvas, Power draw and the terrain line for every entry. This note keeps founding, layout, roles and the resource loop.

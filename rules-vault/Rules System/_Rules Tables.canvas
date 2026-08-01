@@ -167,7 +167,7 @@
 			"x": 3078,
 			"y": -60,
 			"width": 880,
-			"height": 3326,
+			"height": 3794,
 			"color": "4"
 		},
 		{
@@ -248,14 +248,14 @@
 			"x": 3138,
 			"y": 1078,
 			"width": 760,
-			"height": 450
+			"height": 606
 		},
 		{
 			"id": "t0024",
 			"type": "text",
 			"text": "**Conditions · Persistent conditions (resolve in the End Phase)**",
 			"x": 3138,
-			"y": 1554,
+			"y": 1710,
 			"width": 760,
 			"height": 46,
 			"color": "4"
@@ -266,16 +266,16 @@
 			"file": "Settlements/Rules System/Conditions.md",
 			"subpath": "#Working rules / decisions#Persistent conditions (resolve in the End Phase)",
 			"x": 3138,
-			"y": 1608,
+			"y": 1764,
 			"width": 760,
-			"height": 424
+			"height": 736
 		},
 		{
 			"id": "t0026",
 			"type": "text",
 			"text": "**Conditions · Nerve states (from [[Morale]])**",
 			"x": 3138,
-			"y": 2058,
+			"y": 2526,
 			"width": 760,
 			"height": 46,
 			"color": "4"
@@ -286,7 +286,7 @@
 			"file": "Settlements/Rules System/Conditions.md",
 			"subpath": "#Working rules / decisions#Nerve states (from [[Morale]])",
 			"x": 3138,
-			"y": 2112,
+			"y": 2580,
 			"width": 760,
 			"height": 268
 		},
@@ -295,7 +295,7 @@
 			"type": "text",
 			"text": "**Conditions · Morale modifiers (from skills)**",
 			"x": 3138,
-			"y": 2406,
+			"y": 2874,
 			"width": 760,
 			"height": 46,
 			"color": "4"
@@ -306,7 +306,7 @@
 			"file": "Settlements/Rules System/Conditions.md",
 			"subpath": "#Working rules / decisions#Morale modifiers (from skills)",
 			"x": 3138,
-			"y": 2460,
+			"y": 2928,
 			"width": 760,
 			"height": 190
 		},
@@ -315,7 +315,7 @@
 			"type": "text",
 			"text": "**Conditions · Marker & device states (not conditions on units)**",
 			"x": 3138,
-			"y": 2676,
+			"y": 3144,
 			"width": 760,
 			"height": 46,
 			"color": "4"
@@ -326,7 +326,7 @@
 			"file": "Settlements/Rules System/Conditions.md",
 			"subpath": "#Working rules / decisions#Marker & device states (not conditions on units)",
 			"x": 3138,
-			"y": 2730,
+			"y": 3198,
 			"width": 760,
 			"height": 476
 		},
@@ -927,7 +927,7 @@
 			"x": 8498,
 			"y": -60,
 			"width": 1300,
-			"height": 2665,
+			"height": 2670,
 			"color": "1"
 		},
 		{
@@ -1008,14 +1008,14 @@
 			"x": 8558,
 			"y": 1360,
 			"width": 1180,
-			"height": 259
+			"height": 264
 		},
 		{
 			"id": "t0100",
 			"type": "text",
 			"text": "**Deployables · Family C · Traps**",
 			"x": 8558,
-			"y": 1645,
+			"y": 1650,
 			"width": 1180,
 			"height": 46,
 			"color": "1"
@@ -1026,7 +1026,7 @@
 			"file": "Settlements/Rules System/Deployables.md",
 			"subpath": "#^tbl-family-c-traps",
 			"x": 8558,
-			"y": 1699,
+			"y": 1704,
 			"width": 1180,
 			"height": 326
 		},
@@ -1035,7 +1035,7 @@
 			"type": "text",
 			"text": "**Deployables · Family D · Beacons**",
 			"x": 8558,
-			"y": 2051,
+			"y": 2056,
 			"width": 1180,
 			"height": 46,
 			"color": "1"
@@ -1046,7 +1046,7 @@
 			"file": "Settlements/Rules System/Deployables.md",
 			"subpath": "#^tbl-family-d-beacons",
 			"x": 8558,
-			"y": 2105,
+			"y": 2110,
 			"width": 1180,
 			"height": 440
 		},
@@ -1567,7 +1567,7 @@
 			"x": 15265,
 			"y": -60,
 			"width": 1300,
-			"height": 4548,
+			"height": 4329,
 			"color": "3"
 		},
 		{
@@ -1633,10 +1633,10 @@
 		{
 			"id": "t0162",
 			"type": "text",
-			"text": "**Structures · Starting structures — five**",
+			"text": "**Structures · Starting structures — four**",
 			"x": 15325,
 			"y": 810,
-			"width": 999,
+			"width": 909,
 			"height": 46,
 			"color": "3"
 		},
@@ -1647,15 +1647,15 @@
 			"subpath": "#^tbl-starting-structures-five",
 			"x": 15325,
 			"y": 864,
-			"width": 999,
-			"height": 240
+			"width": 909,
+			"height": 210
 		},
 		{
 			"id": "t0164",
 			"type": "text",
 			"text": "**Structures · Storage & caps — what you can hold, and what a raider can take**",
 			"x": 15325,
-			"y": 1130,
+			"y": 1100,
 			"width": 1180,
 			"height": 46,
 			"color": "3"
@@ -1666,16 +1666,16 @@
 			"file": "Settlements/Rules System/Structures.md",
 			"subpath": "#^tbl-storage-caps-what-you-can-hold-and-what-a-ra",
 			"x": 15325,
-			"y": 1184,
+			"y": 1154,
 			"width": 1180,
-			"height": 273
+			"height": 238
 		},
 		{
 			"id": "t0166",
 			"type": "text",
 			"text": "**Structures · Three ways to grow — and how to tell them apart**",
 			"x": 15325,
-			"y": 1483,
+			"y": 1418,
 			"width": 1180,
 			"height": 46,
 			"color": "3"
@@ -1686,16 +1686,16 @@
 			"file": "Settlements/Rules System/Structures.md",
 			"subpath": "#^tbl-three-ways-to-grow-and-how-to-tell-them-apar",
 			"x": 15325,
-			"y": 1537,
+			"y": 1472,
 			"width": 1180,
-			"height": 199
+			"height": 192
 		},
 		{
 			"id": "t0168",
 			"type": "text",
 			"text": "**Structures · Upgrade ladders**",
 			"x": 15325,
-			"y": 1762,
+			"y": 1690,
 			"width": 769,
 			"height": 46,
 			"color": "3"
@@ -1706,16 +1706,16 @@
 			"file": "Settlements/Rules System/Structures.md",
 			"subpath": "#^tbl-upgrade-ladders",
 			"x": 15325,
-			"y": 1816,
+			"y": 1744,
 			"width": 769,
-			"height": 330
+			"height": 300
 		},
 		{
 			"id": "t0170",
 			"type": "text",
 			"text": "**Structures · Sustain — keep people alive, keep the grid up**",
 			"x": 15325,
-			"y": 2172,
+			"y": 2070,
 			"width": 1180,
 			"height": 46,
 			"color": "3"
@@ -1726,16 +1726,16 @@
 			"file": "Settlements/Rules System/Structures.md",
 			"subpath": "#^tbl-sustain-keep-people-alive-keep-the-grid-up",
 			"x": 15325,
-			"y": 2226,
+			"y": 2124,
 			"width": 1180,
-			"height": 399
+			"height": 282
 		},
 		{
 			"id": "t0172",
 			"type": "text",
 			"text": "**Structures · Convert — turn one resource into another, and make gear**",
 			"x": 15325,
-			"y": 2651,
+			"y": 2432,
 			"width": 1180,
 			"height": 46,
 			"color": "3"
@@ -1746,7 +1746,7 @@
 			"file": "Settlements/Rules System/Structures.md",
 			"subpath": "#^tbl-convert-turn-one-resource-into-another-and-m",
 			"x": 15325,
-			"y": 2705,
+			"y": 2486,
 			"width": 1180,
 			"height": 481
 		},
@@ -1755,7 +1755,7 @@
 			"type": "text",
 			"text": "**Structures · Operate — what you can do outside the walls**",
 			"x": 15325,
-			"y": 3212,
+			"y": 2993,
 			"width": 1180,
 			"height": 46,
 			"color": "3"
@@ -1766,7 +1766,7 @@
 			"file": "Settlements/Rules System/Structures.md",
 			"subpath": "#^tbl-operate-what-you-can-do-outside-the-walls",
 			"x": 15325,
-			"y": 3266,
+			"y": 3047,
 			"width": 1180,
 			"height": 303
 		},
@@ -1775,7 +1775,7 @@
 			"type": "text",
 			"text": "**Structures · Recover — people come back**",
 			"x": 15325,
-			"y": 3595,
+			"y": 3376,
 			"width": 991,
 			"height": 46,
 			"color": "3"
@@ -1786,7 +1786,7 @@
 			"file": "Settlements/Rules System/Structures.md",
 			"subpath": "#^tbl-recover-people-come-back",
 			"x": 15325,
-			"y": 3649,
+			"y": 3430,
 			"width": 991,
 			"height": 180
 		},
@@ -1795,7 +1795,7 @@
 			"type": "text",
 			"text": "**Structures · Defend — this is the raid board**",
 			"x": 15325,
-			"y": 3855,
+			"y": 3636,
 			"width": 1180,
 			"height": 46,
 			"color": "3"
@@ -1806,7 +1806,7 @@
 			"file": "Settlements/Rules System/Structures.md",
 			"subpath": "#^tbl-defend-this-is-the-raid-board",
 			"x": 15325,
-			"y": 3909,
+			"y": 3690,
 			"width": 1180,
 			"height": 259
 		},
@@ -1815,7 +1815,7 @@
 			"type": "text",
 			"text": "**Structures · Space budget**",
 			"x": 15325,
-			"y": 4194,
+			"y": 3975,
 			"width": 523,
 			"height": 46,
 			"color": "3"
@@ -1826,7 +1826,7 @@
 			"file": "Settlements/Rules System/Structures.md",
 			"subpath": "#^tbl-space-budget",
 			"x": 15325,
-			"y": 4248,
+			"y": 4029,
 			"width": 523,
 			"height": 180
 		},
