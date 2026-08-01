@@ -24,6 +24,8 @@ So the stat line *is* the skill loadout — **spread wide** (`STR+2 / INT+2` →
 | **Specialist** | 7 | 1× T2 · 2× T1 | ~3 |
 | **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | ~4 |
 
+^tbl-how-it-works-skills-ride-the-stat-line
+
 Only a **Leader** gets a **T3** stat (the +6 elite). Full rank rules in [[Unit Design#Ranks (build budget)]] · fielding in [[List Building]].
 
 ## The five paths
@@ -36,6 +38,8 @@ Each path-stat has one path with three tiers. **WND and MOV have no path** — t
 | **AGI** | Movement / Acrobatics | climbing, dodging, repositioning, escaping |
 | **INT** | Expertise / Knowledge | hacking, traps, medicine, tech, terrain |
 | **NRV** | Bravery / Morale | rallying, resisting fear, reckless aggression |
+
+^tbl-the-five-paths
 
 ## Complete skill catalogue
 Each skill fills **one tier-slot** off its stat's path — you don't pay for it separately; the stat reaching the tier *is* the payment. There are no skill prerequisites: reaching the tier unlocks its skills, and combinations emerge from the skills, equipment and terrain a fighter uses.

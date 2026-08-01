@@ -46,6 +46,8 @@ Two different jobs; keep them separate.
 | Job | **Reshape the battlefield** | **Deal or deny damage** |
 | Rules home | This note | [[Deployables]] · [[Terrain Interaction]] · [[Weapons]] · [[Skill Paths]] |
 
+^tbl-infrastructure-vs-deployables
+
 Turrets, mines, and traps are **[[Deployables]]**, not Infrastructure — a thing that exists only to hurt people belongs in gear, not in the walls.
 
 ## The five categories
@@ -58,6 +60,8 @@ Every Infrastructure Feature belongs to one category, which names its battlefiel
 | **Visibility** | create or remove sight | Block/Clear LOS |
 | **Manipulation** | physically move parts of the board | Shift Terrain · Create/Remove Cover · Displace |
 | **Utilities** | change the environment of an area | Field a Zone |
+
+^tbl-the-five-categories
 
 *(Mobility **creates** movement options; Access **gates** ones that already exist — that's the line between them.)*
 
@@ -143,6 +147,8 @@ Assign features before deployment, guideline **one Infrastructure Feature per bu
 | Office | Window Shutters · Floodlights |
 | Apartment | Elevator · Blast Door |
 | Hospital | Generator · Flood/Fire Suppression |
+
+^tbl-custom-battles
 
 - **Symmetry:** assign features **alternately** (or mirror them across the centreline) so neither crew hand-picks all the strong ones near its own deployment.
 - **Density tie-in:** infrastructure rides on the terrain the board already needs — the [[Terrain]] density band is **9–12 large features**; put infrastructure on **roughly half** of the eligible buildings, not all of them.

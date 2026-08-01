@@ -53,6 +53,8 @@ Every scenario fills in the same seven slots. Build new ones by answering these.
 | **Length** | **6 rounds** standard ([[Rules Engine]]); Timer/Network shapes can end in **sudden death**. |
 | **Twist** | One variable rolled at setup (below) so no two games are identical. |
 
+^tbl-the-scenario-template
+
 ## Shared rules
 
 ### Objectives are Interacts
@@ -85,6 +87,8 @@ Points are scored in the **End Phase** (step after conditions resolve, [[Rules E
 | 4 | **Scavengers** — a neutral **bonus objective** (worth +1 / a looted cache) sits dead-centre; either side may take it. |
 | 5 | **Foul Weather** — the open is **Difficult** ground (double movement cost outside cover); rewards fighting through terrain. |
 | 6 | **Clean** — no twist. A straight fight over the objectives. |
+
+^tbl-the-twist-roll-1d6-at-setup
 
 ---
 

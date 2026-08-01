@@ -42,6 +42,8 @@ Because nat 1 always fails and nat 10 always succeeds, every result is bounded *
 | −3 | 10 | 10% |
 | −4 or less | 10 | **10%** |
 
+^tbl-probability
+
 ### Worked example — a shooting matrix
 Standard fighter, **Dexterity +1**, shooting. Cover as −1 (light) / −2 (heavy) / −3 (hidden). **Armour is not on this table — it applies to the Injury roll, not the hit** (see [[Damage]]).
 
@@ -51,6 +53,8 @@ Standard fighter, **Dexterity +1**, shooting. Cover as −1 (light) / −2 (heav
 | Light cover | 0 | 40% |
 | Heavy cover | −1 | 30% |
 | Hidden / obscured | −2 | 20% |
+
+^tbl-worked-example-a-shooting-matrix
 
 > [!note] Design read
 > Deliberately swingy toward defence — a hidden target drops a decent shooter to a 1-in-5 shot, and after a hit the target's **armour** bites again on the injury roll. That's **Terrain is the core**: positioning beats stats. Nat-10 means no shot is ever truly impossible; nat-1 caps the best shot at 90%.

@@ -70,6 +70,8 @@ The **Build rating** is a modifier on the deploy test, printed on the item. It i
 | **Complex** | **−1** | most turrets & beacons — a Specialist's job |
 | **Intricate** | **−2** | the flagship hardware (sniper / burst turret) |
 
+^tbl-build-rating-some-things-are-harder-to-build
+
 A low-INT fighter can *carry* a Sentry Gun; reliably **standing it up under fire** is what INT buys.
 
 ## Destruction & repair — reuse the Feature-damage engine
@@ -96,6 +98,8 @@ A deployed turret holds a **Ready** reaction. **Once per round**, as a **Reactio
 | **Blast Turret** | Complex −1 | **14** | 12" | One shot / round, **Damage +3**, **Blast** (2" — resolve against every model within 2" of the target). |
 | **Reinforced Turret** | Complex −1 | **15** | 18" | One shot / round, **Damage +3**. **Hardened:** always counts as **Heavy (−2) cover** to be hit — the within-6" *Open* clause does **not** apply, so it can't be walked up to and wrecked. |
 
+^tbl-family-a-turrets
+
 ## Family B · Mines
 Spent-on-trigger · **concealed** · **one** equipment slot each. **Built like a weapon:** pick a **chassis** (how it reaches the target), then buy **one payload** (what it does). Cost = chassis + payload.
 
@@ -106,6 +110,8 @@ Spent-on-trigger · **concealed** · **one** equipment slot each. **Built like a
 | **Remote** | **7** | Place a hidden marker with a **6" trigger radius**; the **owner command-detonates** it while any enemy is inside the radius (a **Reaction** costing a Ready token; it ignores the forward-arc / end-of-move requirement, like the Hacking Interrupt). **Bluff kit:** buying a Remote gives you **4 markers — 1 live, 3 dummy**. The carrier may spend an activation to place a dummy; only the live marker ever detonates. The enemy can't tell which is which without a **Threat Scan** or a disarm. |
 | **Seeker** | **8** | No template. On deploy, choose an enemy in your fighter's **LOS**. Each **End Phase** the seeker moves **4"** toward that target (ignoring its evasion); on reaching base contact it detonates against it. It can be shot, disarmed or hacked while en route. |
 
+^tbl-chassis-how-it-delivers
+
 ### Payload — what it does on detonation
 Buy exactly one. All effects route to rules you already have.
 | Payload | Cost | Effect |
@@ -115,6 +121,8 @@ Buy exactly one. All effects route to rules you already have.
 | **Poison** | **+3** | Places a **3" Poison** hazard for two rounds ([[Conditions#Persistent conditions (resolve in the End Phase)|Poison]] to anyone inside or entering). |
 | **Shock** | **+3** | **Blast**, no Injury: **Shocked + Blind** on every model in radius ([[Conditions#Persistent conditions (resolve in the End Phase)]]). |
 | **Smoke** | **+2** | No damage — places a **3" Dense Smoke** ([[Weapons]] Smoke). A trap that screens instead of kills. |
+
+^tbl-payload-what-it-does-on-detonation
 
 *Examples:* Proximity + Explosion = **9** · Remote + Poison = **10** · Seeker + Explosion = **12** · Proximity + Smoke = **7**.
 
@@ -128,6 +136,8 @@ Spent-on-trigger · **concealed** · **one** equipment slot each. **Traps deny m
 | **Covered Pit** | Standard 0 | **5** | A concealed **2" hole** that reads as normal floor. A model entering **FALLs** ([[Terrain]] verticality — **Prone**) and is **Snared** (stuck until it climbs out). |
 | **Leg Clamp** | Standard 0 | **5** | Within **1"** → the model is **Snared** (cannot move; Action + **STR 7+** to break free). A hard single-model stop. |
 | **Razor Barrier** | Standard 0 | **4** | Deploy a **3" barrier**: **Impassable** without **Forcing** it (STR 7+, and you take **Hobbled** shoving through). A pure movement wall — blocks bodies, not sight. |
+
+^tbl-family-c-traps
 
 ## Family D · Beacons
 Standing hardware · **repairable** · takes **both** equipment slots. A beacon projects a **6" aura** that persists until the beacon is destroyed. Auras are the **modifiers the engine already uses** — friendly buffs or enemy debuffs.
@@ -145,6 +155,8 @@ Standing hardware · **repairable** · takes **both** equipment slots. A beacon 
 | **Cleansing Beacon** | Standard 0 | **8** | *Allies:* each **End Phase**, one friendly in range **clears one negative condition** (Fire, Poison, Blind, Shocked, Pinned); also acts as a **Med-Kit** for Stabilize / Bleed. |
 | **Revive Beacon** | Intricate −2 | **12** | *Allies:* each **End Phase**, one friendly **Down** unit in range **recovers to Prone** (stands next activation). **Down only — a melee kill (Out) stays dead.** |
 | **Dread Beacon** | Standard 0 | **7** | *Enemies:* a model that **enters** the aura gains **+1 Stress**; while inside, **−1 on Break tests**. The one negative-aura beacon. |
+
+^tbl-family-d-beacons
 
 ## How INT gets its job back
 Deployables hand a technical crew a full battlefield loop — and every step is INT:

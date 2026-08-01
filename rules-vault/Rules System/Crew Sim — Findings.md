@@ -17,6 +17,8 @@ Cadre (4 models) vs Recruit horde (14), as LOS-blocking rises:
 |---|:--:|:--:|:--:|:--:|:--:|:--:|
 | **Cadre wins** | 81% | 73% | 62% | **45%** | 29% | 15% |
 
+^tbl-1-terrain-is-a-bigger-lever-than-any-point-c
+
 A **66-point swing** from terrain alone. No points value could move a matchup that far. Parity sits at **40–45% blocked** — which is exactly what **9–12 large features** on a 3'×3' produces ([[Terrain#Setup procedure]]).
 
 > [!danger] This is why terrain density needs a **ceiling**, not just a floor
@@ -40,6 +42,8 @@ Eight archetypes, every list legal at ≤100 points under the [[List Building]] 
 | Cadre *(4 riflemen)* | 4 | 96 | 44% |
 | Mob *(13 Recruits)* | 13 | 96 | 43% |
 
+^tbl-2-the-final-balance-table
+
 **Off a legal board it falls apart, exactly as designed:**
 
 | Board | Winner | Spread |
@@ -47,6 +51,8 @@ Eight archetypes, every list legal at ≤100 points under the [[List Building]] 
 | Sparse 30% *(illegal)* | Firebase 67% · Snipers 64% — **shooters** | 35 |
 | **Legal 42%** | **everything, within 11 points** | **11** |
 | Crowded 55% *(illegal)* | Pyramid 65% · Storm 64% · Horde 64% — **swarms** | 34 |
+
+^tbl-2-the-final-balance-table-2
 
 ## 3 · Morale — change nothing
 The friendly-Down Stress trigger *looked* like it would wipe crews (3 casualties in LOS = 3 Stress; a Break test at NRV 0 / Stress 3 fails **80%** of the time). Two softeners were tested. **Both broke the game:**
@@ -56,6 +62,8 @@ The friendly-Down Stress trigger *looked* like it would wipe crews (3 casualties
 | **As written** | 19% | 39% | 54% | 85% |
 | + "ignore Stress while bunched" | **93%** | **93%** | **94%** | 96% |
 | + "cap Stress from Downs at 1/round" | **60%** | **65%** | **70%** | 88% |
+
+^tbl-3-morale-change-nothing
 
 On a legal board the cascade is mild — **0.6 BugOuts per battle** versus 5.3 on a sparse one. **The cascade is not a bug; it is the only thing keeping a swarm honest.** [[Morale]] stays exactly as written.
 

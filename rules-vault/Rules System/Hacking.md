@@ -68,6 +68,8 @@ Measure **terminal → feature**. Max **24"**. Applies to the hack test.
 | Long | over 18", up to 24" | −3 |
 | Out | over 24" | illegal |
 
+^tbl-range-bands
+
 Other modifiers (skills, gear, **Shaken**, conditions) stack normally; the global **±3** cap applies.
 
 ### Interrupt — contesting a hack

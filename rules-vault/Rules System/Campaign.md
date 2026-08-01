@@ -50,6 +50,8 @@ Any unit that ends the battle **Down and alone**, or that **bled out** during it
 | 9 | **Full recovery** — no lasting effect |
 | 10 | **Hardened** — survives *and* gains a bonus (the scar that made them stronger) |
 
+^tbl-post-battle-the-fate-table
+
 > [!question] Fate is a first-draft spread — tune once campaigns are played. Scars/injuries hook into [[Progression]] and the *every scar tells a story* tenet.
 
 ## Rule ledger

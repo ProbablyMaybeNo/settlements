@@ -65,6 +65,8 @@ Every End Phase, each unit with **2+ Stress** tests:
 | 3 | **Broken** |
 | 4+ | **BugOut** |
 
+^tbl-break-test-end-phase-2-stress
+
 **Chance of breaking** on a failed roll (`1 − pass%`):
 
 | NRV | 2 → Bolt | 3 → Broken | 4 → BugOut |
@@ -72,6 +74,8 @@ Every End Phase, each unit with **2+ Stress** tests:
 | +0 | 70% | 80% | 90% |
 | +2 | 50% | 60% | 70% |
 | +4 | 30% | 40% | 50% |
+
+^tbl-break-test-end-phase-2-stress-2
 
 ### Nerve states
 Full status entries in [[Conditions]]. A state governs the unit's **next activation**; it clears when the unit passes its next Break test or is steadied by Rally/Interact.

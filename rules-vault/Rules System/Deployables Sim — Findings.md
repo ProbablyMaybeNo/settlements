@@ -22,6 +22,8 @@ Structural check passed on every deployable: no Damage over the **+4 ceiling**, 
 | **+2** (Specialist) | 70% | 60% | 50% | 40% |
 | **+4** (Leader) | 90% | 80% | 70% | 60% |
 
+^tbl-2-int-is-a-real-gate-on-deploying
+
 A Recruit fumbles a Sniper Turret ~70% of the time; a Specialist stands it up half the time and better with a Breach Kit. **This is the INT-restoration the whole note exists for** — it works.
 
 ## 3 · Turrets price out — except Burst, now fixed
@@ -35,6 +37,8 @@ Expected **wounds/round** (open cover, unarmoured), against the Assault-Rifle bo
 | Blast | 0.28 | 14 | 0.0200 | fair (shines vs clusters) |
 | Reinforced | 0.28 | 15 | 0.0187 | fair (pays for durability, not DPS) |
 
+^tbl-3-turrets-price-out-except-burst-now-fixed
+
 Turrets sit slightly above the body's raw output-per-point — correct, because they cost **zero activation** after setup and fire 360°, and the discount is their **one-hit fragility**. The Monte-Carlo (turret vs an advancing rifleman over 6 rounds) matched the analytic numbers within 1–4 points (73 / 88 / 93 / 63 / 73%), confirming a turret kills ~0.6–1.0 bodies *if it survives to contact* — which a single hit prevents.
 
 > [!warning] Watch Burst at the table
@@ -47,6 +51,8 @@ A Proximity + Explosion mine (9 pts) auto-applies a **70%** wound vs unarmoured 
 |---|:--:|:--:|:--:|:--:|
 | Explosion | +3 | 70% | 60% | 50% |
 | Fire | +2 | 60% | 50% | 40% |
+
+^tbl-4-mines-land-hard-but-are-one-use-and-avoida
 
 ## 5 · Beacon auras are ~+10% each — the brakes matter
 Each ±1 aura moves the relevant roll about **10%** per affected ally. That is cheap and strong **if allies cluster**, which is why two brakes are load-bearing: standing hardware eats **both** equipment slots, and **a model benefits from at most two beacon auras at once**. Confirm both bite at the table.

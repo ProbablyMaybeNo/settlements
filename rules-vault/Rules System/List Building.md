@@ -38,6 +38,8 @@ The rank price *is* the stat price — see [[Unit Design#Ranks (build budget)]].
 | **Specialist** | 7 | 1× T2 · 2× T1 | ~3 | 1 | **16** |
 | **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | ~4 | 2 | **24** |
 
+^tbl-the-four-ranks
+
 More points than a unit can spike into one stat, capped by tier so it *spreads* — full rules in [[Unit Design#Ranks (build budget)]]. Skills come off the stat line (one per tier a stat reaches). A **Specialist costs exactly two Fighters** — the central trade of the system. *(Costs are provisional; the richer stat lines run stronger — a re-cost pass is owed.)*
 
 ### The pyramid — the only structural rule
@@ -63,6 +65,8 @@ The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed
 | Light | −1 | **3** |
 | Heavy | −2 | **6** |
 
+^tbl-armour-equipment
+
 *Armour carries no drawbacks, and the ladder is linear — each point is a flat −10% on the Injury roll, so Heavy costs exactly twice Light. Improvised was cut once its penalty went; it was Light armour under a second name. Full note in [[Weapons#3 · Armor]].*
 
 | Equipment | Effect | Cost |
@@ -71,6 +75,8 @@ The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed
 | Breach Kit | **+1 to the hack test** ([[Hacking]]) | **4** |
 | Deployable | Turret · mine · trap · beacon — full costed catalogue in [[Deployables]] | **4–14** |
 | Exploit Suite | **+2 to the hack test** ([[Hacking]]) | **8** |
+
+^tbl-armour-equipment-2
 
 ## Campaign rosters
 You keep a persistent **roster** and field a **crew** to the scenario's budget each battle.
@@ -87,6 +93,8 @@ Full detail in **[[Crew Sim — Findings]]**. Eight archetypes, all built to 100
 | Sparse (illegal — under 9 features) | 35 points — **shooters dominate** |
 | **Legal (9–12 features)** | **11 points** — tightest spread |
 | Crowded (illegal — over 12) | 34 points — **swarms dominate** |
+
+^tbl-validation
 
 **The system is balanced on a legal board, and only on a legal board.** That is not a flaw — it is the [[Game Vision|first tenet]] operating as a mechanic. The battlefield decides, and [[Terrain#Setup procedure|terrain density]] is the most powerful dial in the game.
 

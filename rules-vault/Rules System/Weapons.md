@@ -27,12 +27,21 @@ Grandpa's Rifle  Standard Ranged · Accurate · Long Range                     1
 | **Light Melee** | 0 | +1 | melee | 1 | Recruit | 2 | *(the free basic loadout)* |
 | **One-Handed Melee** | 4 | +2 | melee | 1 | Fighter | 2 | — |
 | **Heavy Melee** | 8 | +3 | melee | 2 | Specialist | 3 | Two-Handed |
-| **Thrown** | 2 | +1 | 6" | 1 | Any | 2 | **Limited** (one use) |
+| **Thrown** | **4** | +1 | 6" | 1 | Any | 2 | may also be used in **melee** |
 | **Sidearm** | 4 | +2 | 8" | 1 | Recruit | 2 | **Sidearm** (may fire while Engaged), Loud |
 | **Standard Ranged** | 10 | +3 | 18" | 2 | Fighter | 3 | Two-Handed, Loud |
 | **Heavy Ranged** | **16** | +3 | 24" | 2 | Specialist | 4 | Two-Handed, Loud |
 
+^tbl-1-weapon-classes
+
 Damage feeds the **Injury roll** — `1d10 + Damage − Armor` vs **7+** ([[Damage]]).
+
+> [!info] Thrown weapons are not automatically one-use *(2026-07-31)*
+> **One-use is a tag, not a class.** `Single-Use` is an ordinary drawback that a build may take for its refund — so a **molotov** takes it (you cannot un-throw a burning bottle) while a **javelin**, **hatchet** or **throwing knife** does not, and is simply thrown again next turn.
+>
+> To keep a reusable thrown weapon from being a worse Sidearm, the class carries two edges no other ranged class has: it is **not Loud**, and it **may also be used as a melee weapon** at its own Damage — a javelin is a spear. It also holds exclusive access to **Blast** and **Smoke**.
+>
+> Every existing thrown weapon costs exactly what it did before: the class base rose from 2 to 4 and `Single-Use` refunds 2, so a Molotov is still **9** and a Smoke Grenade still **5**.
 
 > [!warning] Two hard ceilings. Both are load-bearing.
 > **Damage stops at +4, and only Brutal reaches it.** Armour only runs to −2; if weapons ran past +4 the armour ladder would be decorative. Base classes stop at **+3**. On a ranged weapon, Brutal is gated behind **Short Range** — which encodes the finding from [[Terrain Hacking Cover — Sim Findings]]: *keep Brutal off any longer-ranged weapon.*
@@ -49,6 +58,8 @@ The hard lock that makes the ladder in [[List Building]] real — **a Recruit ca
 | **Specialist** | + Heavy Melee · Heavy Ranged |
 | **Leader** | everything |
 
+^tbl-rank-gates-the-class
+
 ---
 ## 2 · Characteristics
 Each takes **one slot**. Restrictions in *italics*.
@@ -59,11 +70,15 @@ Each takes **one slot**. Restrictions in *italics*.
 | **Brutal** | 4 | **+1 Damage**, to a maximum of **+4**. *Melee only — or a ranged weapon that also takes **Short Range**.* |
 | **Armour Piercing** | 4 | Reduce the target's **Armor by 1** on the Injury roll. |
 
+^tbl-damage-armour
+
 ### To hit
 | Characteristic | Cost | Effect |
 |---|:--:|---|
 | **Accurate** | 3 | **+1 to hit** if you did not Move, Sprint or Climb this activation. |
 | **Spread** | 3 | **+1 to hit** at half range or less; **−1** beyond it. *Ranged only.* |
+
+^tbl-to-hit
 
 ### Payload — *replaces* the non-wounding result
 > A payload lands **in place of Pinned** (ranged) **or Shaken** (melee) when a hit fails to wound. Its **+1 Stress** applies once, exactly as Pinned's would ([[Conditions#General rules]]) — never both.
@@ -83,11 +98,15 @@ Each takes **one slot**. Restrictions in *italics*.
 | **Hook** | 2 | Pull the target **1"** toward you. *Melee only.* |
 | **Suppressive** | 4 | The target **may not clear the Pin with its Move** — it must spend its **entire activation**. *Ranged only.* |
 
+^tbl-payload-replaces-the-non-wounding-result
+
 ### Area
 | Characteristic | Cost | Effect |
 |---|:--:|---|
 | **Blast** | 4 | Resolve the attack separately against **every model within 2"** of the target. *Thrown / Heavy Ranged only.* |
 | **Smoke** | 3 | Instead of attacking, place a **3" Dense Smoke** area ([[Terrain#Hazards (the Dangerous overlay)]]). *Thrown only.* |
+
+^tbl-area
 
 ### Handling
 | Characteristic | Cost | Effect |
@@ -101,6 +120,8 @@ Each takes **one slot**. Restrictions in *italics*.
 | **Quiet** | 2 | Attacks don't reveal you from **Hidden** and don't trip noise or alarms. |
 | **Compact** | 2 | Counts as **one-handed** despite its class. *Heavy classes only.* |
 
+^tbl-handling
+
 ### Drawbacks — refund points, take **no** slot (max 2 per weapon)
 The DIY layer. This is how you build a pipe shotgun that might blow up in your hand.
 
@@ -110,7 +131,9 @@ The DIY layer. This is how you build a pipe shotgun that might blow up in your h
 | **Slow** | −3 | You may not **Charge** with this weapon. *Melee only.* |
 | **Unstable** | −2 | On a **natural 1** to hit, the weapon is **destroyed**. |
 | **Cumbersome** | −2 | **−1 MOV** while carried. |
-| **Limited** | −3 | **One use** per battle. |
+| **Single-Use** | −2 | **One use** per battle — the weapon is expended when thrown or fired. |
+
+^tbl-drawbacks-refund-points-take-no-slot-max-2-p
 
 > [!danger] The rule that governs this list: **a drawback must bite no matter how you play**
 > The sim caught the same bug twice, and it is the one to guard against:
@@ -137,6 +160,8 @@ Armor reduces the **Injury roll only** — never the hit. Cover protects against
 | Light | −1 | — | **3** |
 | Heavy | −2 | — | **6** |
 
+^tbl-3-armor
+
 ---
 ## 4 · Hacking gear
 A hack is one INT test ([[Hacking]]). Gear grants a flat **+/− modifier to hacking rolls** — the v1 hack test today, and mostly the **breach roll** if the parked deeper system is ever built ([[Hacking]]).
@@ -146,6 +171,8 @@ A hack is one INT test ([[Hacking]]). Gear grants a flat **+/− modifier to hac
 | Bare-handed | +0 | 0 | improvising at a terminal |
 | Breach Kit | +1 | 4 | standard hacker loadout |
 | Exploit Suite | +2 | 8 | specialist kit |
+
+^tbl-4-hacking-gear
 
 Defence is the same in reverse: a defender's gear/skill or a scenario may impose a **penalty** on enemy hacks against a device. There is no separate hardening stat — toughness is just a modifier like any other.
 
@@ -168,9 +195,12 @@ Every one of these is a legal build. Copy or rename freely.
 | **Nailgun** | Standard Ranged · Bleeding | 18", +3, **Bleed** | **14** |
 | **Grandpa's Hunting Rifle** | Standard Ranged · Accurate · Long Range | **24"**, +3 | **19** |
 | **Squad Machine Gun** | Heavy Ranged · Suppressive · Armour Piercing | 24", +3, locks you down | **22** |
-| **Makeshift Flamethrower** | Heavy Ranged · Incendiary · Blast · *Short Range* · *Limited* | 12", +3, **Fire**, Blast | **15** |
-| **Molotov** | Thrown · Incendiary · Blast | 6", +1, **Fire**, Blast, one use | **9** |
-| **Smoke Grenade** | Thrown · Smoke | 6", places 3" smoke | **5** |
+| **Makeshift Flamethrower** | Heavy Ranged · Incendiary · Blast · *Short Range* · *Single-Use* | 12", +3, **Fire**, Blast | **14** |
+| **Molotov** | Thrown · Incendiary · Blast · *Single-Use* | 6", +1, **Fire**, Blast, one use | **9** |
+| **Javelin** | Thrown | 6", +1, throw it or stab with it, **reusable** | **4** |
+| **Smoke Grenade** | Thrown · Smoke · *Single-Use* | 6", places 3" smoke | **5** |
+
+^tbl-5-sample-armoury
 
 ---
 ## 6 · Cut, and why
@@ -186,6 +216,8 @@ Kept so it doesn't creep back in a new costume ([[Out of Scope — What Settleme
 | **Awkward** *(no Move + attack)* | Free points on a static shooter, and it *synergises* with Accurate. A drawback must bite regardless of playstyle. |
 | **Intimidating** *(Stress aura)* | A free, always-on Stress aura is far too volatile given the Stress-cascade findings in [[Crew Sim — Findings]]. **Parked**, not rejected. |
 | **Area Effect** | Merged into **Blast**. |
+
+^tbl-6-cut-and-why
 
 ---
 ## 7 · Conflicts flagged in [[Skill Paths]]

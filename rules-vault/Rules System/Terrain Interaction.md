@@ -60,6 +60,8 @@ When two units contest the same object at the same time, use an **Opposed Test**
 |Digital / knowledge|INT|Hack, Search, **Build / Deploy / Repair devices** ([[Deployables]]), ID terrain|
 |Climb / vault / leap|AGI|Move-slot tests (see [[Movement]] / [[Terrain]]) — not an Interact|
 
+^tbl-stat-ownership
+
 ### Interaction verbs
 
 | Verb                      | Tag                       | Stat | Resolution     | Notes                                        |
@@ -72,6 +74,8 @@ When two units contest the same object at the same time, use an **Opposed Test**
 | Search                    | Searchable                | INT  | 7+             | See Searching                                |
 | Repair feature            | Powered / Hackable / etc. | INT  | 7+             | See Feature damage                           |
 |Climb / vault / leap / swim|Climbable / water|AGI|Move slot — see [[Movement]]|Under 2" = low leap, no test, −2" Move|
+
+^tbl-interaction-verbs
 
 There is no Barricade verb. Blocking openings is done with Lift.
 
@@ -95,6 +99,8 @@ There is no Barricade verb. Blocking openings is done with Lift.
 |5–7|Supply cache — 1 Resource|
 |8–9|Gear — one usable item (Med-Kit, Molotov, ammo, tool)|
 |10|Jackpot — 1 Resource + one gear item|
+
+^tbl-searching-and-looting
 
 ### Structural integrity (buildings / cover)
 
@@ -132,6 +138,8 @@ Operating terminals, Linked networks, range bands, and the hacker-vs-hacker **In
 |**Workshop** / **Salvage Yard**|Materials / Build tokens if used|
 |**Generator** / security net|Terminals, cameras, alarms — the Linked network|
 |**Watchtower** / **Scout Post**|Elevated firing position; the defender may start a model in it|
+
+^tbl-in-battle-repair-settlement-hook
 
 > [!warning] Auto-deploy is not free deploy
 > A settlement piece skips only the **INT test**. It still **costs crew-points** in [[List Building]], still occupies a slot inside the sacred **9–12** density band ([[Terrain#Settlement boards — the same procedure, one square-set pre-filled]]), and keeps full fragility — `WND−1`, repairable once, hijackable. Ownership buys **availability**, never board power.

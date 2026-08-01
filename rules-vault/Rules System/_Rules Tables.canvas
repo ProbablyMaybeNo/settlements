@@ -1,0 +1,2465 @@
+{
+	"nodes": [
+		{
+			"id": "banner",
+			"type": "text",
+			"text": "# 🧮 Rules Tables — the whole system on one wall\n\nEvery table in the Settlements rules, live-embedded from its source note. **Edit the rule, not the card** — change a value in `Weapons.md` and it changes here.\n\n**Costs shown are the printed vault prices** (100-point crew budget). The repo's `docs/POINTS-TABLE.md` v0.2 holds a rebuilt **1000-point** derivation that has *not* been propagated into these notes yet — the two scales disagree until it is.\n\nRe-run `scripts/build_rules_tables_canvas.py` after adding a new table.",
+			"x": 0,
+			"y": -620,
+			"width": 1500,
+			"height": 440,
+			"color": "5"
+		},
+		{
+			"id": "g0005",
+			"type": "group",
+			"label": "① CORE ENGINE — the one test everything reuses",
+			"x": 0,
+			"y": -60,
+			"width": 540,
+			"height": 854,
+			"color": "5"
+		},
+		{
+			"id": "t0001",
+			"type": "text",
+			"text": "**core-000 Core Test · Probability**",
+			"x": 60,
+			"y": 0,
+			"width": 420,
+			"height": 46,
+			"color": "5"
+		},
+		{
+			"id": "f0002",
+			"type": "file",
+			"file": "Settlements/Rules System/Rules Ledger/core-000 Core Test.md",
+			"subpath": "#^tbl-probability",
+			"x": 60,
+			"y": 54,
+			"width": 420,
+			"height": 390
+		},
+		{
+			"id": "t0003",
+			"type": "text",
+			"text": "**core-000 Core Test · Worked example — a shooting matrix**",
+			"x": 60,
+			"y": 470,
+			"width": 420,
+			"height": 46,
+			"color": "5"
+		},
+		{
+			"id": "f0004",
+			"type": "file",
+			"file": "Settlements/Rules System/Rules Ledger/core-000 Core Test.md",
+			"subpath": "#^tbl-worked-example-a-shooting-matrix",
+			"x": 60,
+			"y": 524,
+			"width": 420,
+			"height": 210
+		},
+		{
+			"id": "g0010",
+			"type": "group",
+			"label": "② UNIT DESIGN — what a fighter is",
+			"x": 700,
+			"y": -60,
+			"width": 758,
+			"height": 794,
+			"color": "5"
+		},
+		{
+			"id": "t0006",
+			"type": "text",
+			"text": "**Unit Design · Stat Scale**",
+			"x": 760,
+			"y": 0,
+			"width": 466,
+			"height": 46,
+			"color": "5"
+		},
+		{
+			"id": "f0007",
+			"type": "file",
+			"file": "Settlements/Rules System/Unit Design.md",
+			"subpath": "#^tbl-stat-scale",
+			"x": 760,
+			"y": 54,
+			"width": 466,
+			"height": 330
+		},
+		{
+			"id": "t0008",
+			"type": "text",
+			"text": "**Unit Design · Ranks (build budget)**",
+			"x": 760,
+			"y": 410,
+			"width": 638,
+			"height": 46,
+			"color": "5"
+		},
+		{
+			"id": "f0009",
+			"type": "file",
+			"file": "Settlements/Rules System/Unit Design.md",
+			"subpath": "#^tbl-ranks-build-budget",
+			"x": 760,
+			"y": 464,
+			"width": 638,
+			"height": 210
+		},
+		{
+			"id": "g0015",
+			"type": "group",
+			"label": "③ ACTIONS, MOVEMENT & REACTIONS",
+			"x": 1618,
+			"y": -60,
+			"width": 1300,
+			"height": 1427,
+			"color": "4"
+		},
+		{
+			"id": "t0011",
+			"type": "text",
+			"text": "**Movement · Terrain movement**",
+			"x": 1678,
+			"y": 0,
+			"width": 1180,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0012",
+			"type": "file",
+			"file": "Settlements/Rules System/Movement.md",
+			"subpath": "#^tbl-terrain-movement",
+			"x": 1678,
+			"y": 54,
+			"width": 1180,
+			"height": 244
+		},
+		{
+			"id": "t0013",
+			"type": "text",
+			"text": "**Initiative & Activation · Reaction options**",
+			"x": 1678,
+			"y": 324,
+			"width": 1180,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0014",
+			"type": "file",
+			"file": "Settlements/Rules System/Initiative & Activation.md",
+			"subpath": "#^tbl-reaction-options",
+			"x": 1678,
+			"y": 378,
+			"width": 1180,
+			"height": 929
+		},
+		{
+			"id": "g0032",
+			"type": "group",
+			"label": "④ MORALE & CONDITIONS — the component pool for status effects",
+			"x": 3078,
+			"y": -60,
+			"width": 880,
+			"height": 3326,
+			"color": "4"
+		},
+		{
+			"id": "t0016",
+			"type": "text",
+			"text": "**Morale · Break test — End Phase, 2+ Stress**",
+			"x": 3138,
+			"y": 0,
+			"width": 420,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0017",
+			"type": "file",
+			"file": "Settlements/Rules System/Morale.md",
+			"subpath": "#^tbl-break-test-end-phase-2-stress",
+			"x": 3138,
+			"y": 54,
+			"width": 420,
+			"height": 180
+		},
+		{
+			"id": "t0018",
+			"type": "text",
+			"text": "**Morale · Break test — End Phase, 2+ Stress**",
+			"x": 3138,
+			"y": 260,
+			"width": 420,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0019",
+			"type": "file",
+			"file": "Settlements/Rules System/Morale.md",
+			"subpath": "#^tbl-break-test-end-phase-2-stress-2",
+			"x": 3138,
+			"y": 314,
+			"width": 420,
+			"height": 180
+		},
+		{
+			"id": "t0020",
+			"type": "text",
+			"text": "**Conditions · Core combat conditions**",
+			"x": 3138,
+			"y": 520,
+			"width": 760,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0021",
+			"type": "file",
+			"file": "Settlements/Rules System/Conditions.md",
+			"subpath": "#Working rules / decisions#Core combat conditions",
+			"x": 3138,
+			"y": 574,
+			"width": 760,
+			"height": 424
+		},
+		{
+			"id": "t0022",
+			"type": "text",
+			"text": "**Conditions · Control conditions (from skills, weapons and terrain)**",
+			"x": 3138,
+			"y": 1024,
+			"width": 760,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0023",
+			"type": "file",
+			"file": "Settlements/Rules System/Conditions.md",
+			"subpath": "#Working rules / decisions#Control conditions (from skills, weapons and terrain)",
+			"x": 3138,
+			"y": 1078,
+			"width": 760,
+			"height": 450
+		},
+		{
+			"id": "t0024",
+			"type": "text",
+			"text": "**Conditions · Persistent conditions (resolve in the End Phase)**",
+			"x": 3138,
+			"y": 1554,
+			"width": 760,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0025",
+			"type": "file",
+			"file": "Settlements/Rules System/Conditions.md",
+			"subpath": "#Working rules / decisions#Persistent conditions (resolve in the End Phase)",
+			"x": 3138,
+			"y": 1608,
+			"width": 760,
+			"height": 424
+		},
+		{
+			"id": "t0026",
+			"type": "text",
+			"text": "**Conditions · Nerve states (from [[Morale]])**",
+			"x": 3138,
+			"y": 2058,
+			"width": 760,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0027",
+			"type": "file",
+			"file": "Settlements/Rules System/Conditions.md",
+			"subpath": "#Working rules / decisions#Nerve states (from [[Morale]])",
+			"x": 3138,
+			"y": 2112,
+			"width": 760,
+			"height": 268
+		},
+		{
+			"id": "t0028",
+			"type": "text",
+			"text": "**Conditions · Morale modifiers (from skills)**",
+			"x": 3138,
+			"y": 2406,
+			"width": 760,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0029",
+			"type": "file",
+			"file": "Settlements/Rules System/Conditions.md",
+			"subpath": "#Working rules / decisions#Morale modifiers (from skills)",
+			"x": 3138,
+			"y": 2460,
+			"width": 760,
+			"height": 190
+		},
+		{
+			"id": "t0030",
+			"type": "text",
+			"text": "**Conditions · Marker & device states (not conditions on units)**",
+			"x": 3138,
+			"y": 2676,
+			"width": 760,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0031",
+			"type": "file",
+			"file": "Settlements/Rules System/Conditions.md",
+			"subpath": "#Working rules / decisions#Marker & device states (not conditions on units)",
+			"x": 3138,
+			"y": 2730,
+			"width": 760,
+			"height": 476
+		},
+		{
+			"id": "g0051",
+			"type": "group",
+			"label": "⑤ TERRAIN & INTERACTION — the battlefield",
+			"x": 4118,
+			"y": -60,
+			"width": 1300,
+			"height": 3204,
+			"color": "4"
+		},
+		{
+			"id": "t0033",
+			"type": "text",
+			"text": "**Terrain · The three properties**",
+			"x": 4178,
+			"y": 0,
+			"width": 802,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0034",
+			"type": "file",
+			"file": "Settlements/Rules System/Terrain.md",
+			"subpath": "#^tbl-the-three-properties",
+			"x": 4178,
+			"y": 54,
+			"width": 802,
+			"height": 180
+		},
+		{
+			"id": "t0035",
+			"type": "text",
+			"text": "**Terrain · Cover**",
+			"x": 4178,
+			"y": 260,
+			"width": 420,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0036",
+			"type": "file",
+			"file": "Settlements/Rules System/Terrain.md",
+			"subpath": "#^tbl-cover",
+			"x": 4178,
+			"y": 314,
+			"width": 420,
+			"height": 240
+		},
+		{
+			"id": "t0037",
+			"type": "text",
+			"text": "**Terrain · Terrain types**",
+			"x": 4178,
+			"y": 580,
+			"width": 1180,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0038",
+			"type": "file",
+			"file": "Settlements/Rules System/Terrain.md",
+			"subpath": "#^tbl-terrain-types",
+			"x": 4178,
+			"y": 634,
+			"width": 1180,
+			"height": 440
+		},
+		{
+			"id": "t0039",
+			"type": "text",
+			"text": "**Terrain · Hazards (the Dangerous overlay)**",
+			"x": 4178,
+			"y": 1100,
+			"width": 564,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0040",
+			"type": "file",
+			"file": "Settlements/Rules System/Terrain.md",
+			"subpath": "#^tbl-hazards-the-dangerous-overlay",
+			"x": 4178,
+			"y": 1154,
+			"width": 564,
+			"height": 270
+		},
+		{
+			"id": "t0041",
+			"type": "text",
+			"text": "**Terrain · Interact**",
+			"x": 4178,
+			"y": 1450,
+			"width": 573,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0042",
+			"type": "file",
+			"file": "Settlements/Rules System/Terrain.md",
+			"subpath": "#^tbl-interact",
+			"x": 4178,
+			"y": 1504,
+			"width": 573,
+			"height": 210
+		},
+		{
+			"id": "t0043",
+			"type": "text",
+			"text": "**Terrain Interaction · Stat ownership**",
+			"x": 4178,
+			"y": 1740,
+			"width": 868,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0044",
+			"type": "file",
+			"file": "Settlements/Rules System/Terrain Interaction.md",
+			"subpath": "#^tbl-stat-ownership",
+			"x": 4178,
+			"y": 1794,
+			"width": 868,
+			"height": 210
+		},
+		{
+			"id": "t0045",
+			"type": "text",
+			"text": "**Terrain Interaction · Interaction verbs**",
+			"x": 4178,
+			"y": 2030,
+			"width": 1089,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0046",
+			"type": "file",
+			"file": "Settlements/Rules System/Terrain Interaction.md",
+			"subpath": "#^tbl-interaction-verbs",
+			"x": 4178,
+			"y": 2084,
+			"width": 1089,
+			"height": 330
+		},
+		{
+			"id": "t0047",
+			"type": "text",
+			"text": "**Terrain Interaction · Searching and looting**",
+			"x": 4178,
+			"y": 2440,
+			"width": 597,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0048",
+			"type": "file",
+			"file": "Settlements/Rules System/Terrain Interaction.md",
+			"subpath": "#^tbl-searching-and-looting",
+			"x": 4178,
+			"y": 2494,
+			"width": 597,
+			"height": 240
+		},
+		{
+			"id": "t0049",
+			"type": "text",
+			"text": "**Terrain Interaction · In-battle repair / settlement hook**",
+			"x": 4178,
+			"y": 2760,
+			"width": 876,
+			"height": 46,
+			"color": "4"
+		},
+		{
+			"id": "f0050",
+			"type": "file",
+			"file": "Settlements/Rules System/Terrain Interaction.md",
+			"subpath": "#^tbl-in-battle-repair-settlement-hook",
+			"x": 4178,
+			"y": 2814,
+			"width": 876,
+			"height": 270
+		},
+		{
+			"id": "g0066",
+			"type": "group",
+			"label": "⑥ HACKING & INFRASTRUCTURE — the digital / machine layer",
+			"x": 5578,
+			"y": -60,
+			"width": 1300,
+			"height": 3718,
+			"color": "6"
+		},
+		{
+			"id": "t0052",
+			"type": "text",
+			"text": "**Hacking · Range bands**",
+			"x": 5638,
+			"y": 0,
+			"width": 420,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0053",
+			"type": "file",
+			"file": "Settlements/Rules System/Hacking.md",
+			"subpath": "#^tbl-range-bands",
+			"x": 5638,
+			"y": 54,
+			"width": 420,
+			"height": 240
+		},
+		{
+			"id": "t0054",
+			"type": "text",
+			"text": "**Infrastructure · Infrastructure vs Deployables**",
+			"x": 5638,
+			"y": 320,
+			"width": 1180,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0055",
+			"type": "file",
+			"file": "Settlements/Rules System/Infrastructure.md",
+			"subpath": "#^tbl-infrastructure-vs-deployables",
+			"x": 5638,
+			"y": 374,
+			"width": 1180,
+			"height": 188
+		},
+		{
+			"id": "t0056",
+			"type": "text",
+			"text": "**Infrastructure · The five categories**",
+			"x": 5638,
+			"y": 588,
+			"width": 909,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0057",
+			"type": "file",
+			"file": "Settlements/Rules System/Infrastructure.md",
+			"subpath": "#^tbl-the-five-categories",
+			"x": 5638,
+			"y": 642,
+			"width": 909,
+			"height": 240
+		},
+		{
+			"id": "t0058",
+			"type": "text",
+			"text": "**Infrastructure · Custom battles**",
+			"x": 5638,
+			"y": 908,
+			"width": 441,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0059",
+			"type": "file",
+			"file": "Settlements/Rules System/Infrastructure.md",
+			"subpath": "#^tbl-custom-battles",
+			"x": 5638,
+			"y": 962,
+			"width": 441,
+			"height": 240
+		},
+		{
+			"id": "t0060",
+			"type": "text",
+			"text": "**Infrastructure · The board verbs**",
+			"x": 5638,
+			"y": 1228,
+			"width": 760,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0061",
+			"type": "file",
+			"file": "Settlements/Rules System/Infrastructure.md",
+			"subpath": "#The board verbs",
+			"x": 5638,
+			"y": 1282,
+			"width": 760,
+			"height": 788
+		},
+		{
+			"id": "t0062",
+			"type": "text",
+			"text": "**Infrastructure · Damage — two keywords**",
+			"x": 5638,
+			"y": 2096,
+			"width": 760,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0063",
+			"type": "file",
+			"file": "Settlements/Rules System/Infrastructure.md",
+			"subpath": "#Damage — two keywords",
+			"x": 5638,
+			"y": 2150,
+			"width": 760,
+			"height": 424
+		},
+		{
+			"id": "t0064",
+			"type": "text",
+			"text": "**Infrastructure · Feature catalogue**",
+			"x": 5638,
+			"y": 2600,
+			"width": 760,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0065",
+			"type": "file",
+			"file": "Settlements/Rules System/Infrastructure.md",
+			"subpath": "#Feature catalogue",
+			"x": 5638,
+			"y": 2654,
+			"width": 760,
+			"height": 944
+		},
+		{
+			"id": "g0091",
+			"type": "group",
+			"label": "⑦ WEAPONS — build a weapon from these parts  ★ POINTS",
+			"x": 7038,
+			"y": -60,
+			"width": 1300,
+			"height": 4620,
+			"color": "1"
+		},
+		{
+			"id": "t0067",
+			"type": "text",
+			"text": "**Weapons · 1 · Weapon classes**",
+			"x": 7098,
+			"y": 0,
+			"width": 794,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0068",
+			"type": "file",
+			"file": "Settlements/Rules System/Weapons.md",
+			"subpath": "#^tbl-1-weapon-classes",
+			"x": 7098,
+			"y": 54,
+			"width": 794,
+			"height": 330
+		},
+		{
+			"id": "t0069",
+			"type": "text",
+			"text": "**Weapons · Rank gates the class**",
+			"x": 7098,
+			"y": 410,
+			"width": 515,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0070",
+			"type": "file",
+			"file": "Settlements/Rules System/Weapons.md",
+			"subpath": "#^tbl-rank-gates-the-class",
+			"x": 7098,
+			"y": 464,
+			"width": 515,
+			"height": 210
+		},
+		{
+			"id": "t0071",
+			"type": "text",
+			"text": "**Weapons · Damage & armour**",
+			"x": 7098,
+			"y": 700,
+			"width": 1073,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0072",
+			"type": "file",
+			"file": "Settlements/Rules System/Weapons.md",
+			"subpath": "#^tbl-damage-armour",
+			"x": 7098,
+			"y": 754,
+			"width": 1073,
+			"height": 150
+		},
+		{
+			"id": "t0073",
+			"type": "text",
+			"text": "**Weapons · To hit**",
+			"x": 7098,
+			"y": 930,
+			"width": 777,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0074",
+			"type": "file",
+			"file": "Settlements/Rules System/Weapons.md",
+			"subpath": "#^tbl-to-hit",
+			"x": 7098,
+			"y": 984,
+			"width": 777,
+			"height": 150
+		},
+		{
+			"id": "t0075",
+			"type": "text",
+			"text": "**Weapons · Payload — *replaces* the non-wounding result**",
+			"x": 7098,
+			"y": 1160,
+			"width": 1138,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0076",
+			"type": "file",
+			"file": "Settlements/Rules System/Weapons.md",
+			"subpath": "#^tbl-payload-replaces-the-non-wounding-result",
+			"x": 7098,
+			"y": 1214,
+			"width": 1138,
+			"height": 390
+		},
+		{
+			"id": "t0077",
+			"type": "text",
+			"text": "**Weapons · Area**",
+			"x": 7098,
+			"y": 1630,
+			"width": 1114,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0078",
+			"type": "file",
+			"file": "Settlements/Rules System/Weapons.md",
+			"subpath": "#^tbl-area",
+			"x": 7098,
+			"y": 1684,
+			"width": 1114,
+			"height": 150
+		},
+		{
+			"id": "t0079",
+			"type": "text",
+			"text": "**Weapons · Handling**",
+			"x": 7098,
+			"y": 1860,
+			"width": 1179,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0080",
+			"type": "file",
+			"file": "Settlements/Rules System/Weapons.md",
+			"subpath": "#^tbl-handling",
+			"x": 7098,
+			"y": 1914,
+			"width": 1179,
+			"height": 330
+		},
+		{
+			"id": "t0081",
+			"type": "text",
+			"text": "**Weapons · Drawbacks — refund points, take **no** slot (max 2 per weapon)**",
+			"x": 7098,
+			"y": 2270,
+			"width": 818,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0082",
+			"type": "file",
+			"file": "Settlements/Rules System/Weapons.md",
+			"subpath": "#^tbl-drawbacks-refund-points-take-no-slot-max-2-p",
+			"x": 7098,
+			"y": 2324,
+			"width": 818,
+			"height": 240
+		},
+		{
+			"id": "t0083",
+			"type": "text",
+			"text": "**Weapons · 3 · Armor**",
+			"x": 7098,
+			"y": 2590,
+			"width": 728,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0084",
+			"type": "file",
+			"file": "Settlements/Rules System/Weapons.md",
+			"subpath": "#^tbl-3-armor",
+			"x": 7098,
+			"y": 2644,
+			"width": 728,
+			"height": 210
+		},
+		{
+			"id": "t0085",
+			"type": "text",
+			"text": "**Weapons · 4 · Hacking gear**",
+			"x": 7098,
+			"y": 2880,
+			"width": 466,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0086",
+			"type": "file",
+			"file": "Settlements/Rules System/Weapons.md",
+			"subpath": "#^tbl-4-hacking-gear",
+			"x": 7098,
+			"y": 2934,
+			"width": 466,
+			"height": 180
+		},
+		{
+			"id": "t0087",
+			"type": "text",
+			"text": "**Weapons · 5 · Sample armoury**",
+			"x": 7098,
+			"y": 3140,
+			"width": 1130,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0088",
+			"type": "file",
+			"file": "Settlements/Rules System/Weapons.md",
+			"subpath": "#^tbl-5-sample-armoury",
+			"x": 7098,
+			"y": 3194,
+			"width": 1130,
+			"height": 600
+		},
+		{
+			"id": "t0089",
+			"type": "text",
+			"text": "**Weapons · 6 · Cut, and why**",
+			"x": 7098,
+			"y": 3820,
+			"width": 1180,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0090",
+			"type": "file",
+			"file": "Settlements/Rules System/Weapons.md",
+			"subpath": "#^tbl-6-cut-and-why",
+			"x": 7098,
+			"y": 3874,
+			"width": 1180,
+			"height": 626
+		},
+		{
+			"id": "g0104",
+			"type": "group",
+			"label": "⑧ DEPLOYABLES — turrets · mines · traps · beacons  ★ POINTS",
+			"x": 8498,
+			"y": -60,
+			"width": 1300,
+			"height": 2665,
+			"color": "1"
+		},
+		{
+			"id": "t0092",
+			"type": "text",
+			"text": "**Deployables · Build rating — some things are harder to build**",
+			"x": 8558,
+			"y": 0,
+			"width": 646,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0093",
+			"type": "file",
+			"file": "Settlements/Rules System/Deployables.md",
+			"subpath": "#^tbl-build-rating-some-things-are-harder-to-build",
+			"x": 8558,
+			"y": 54,
+			"width": 646,
+			"height": 210
+		},
+		{
+			"id": "t0094",
+			"type": "text",
+			"text": "**Deployables · Family A · Turrets**",
+			"x": 8558,
+			"y": 290,
+			"width": 1180,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0095",
+			"type": "file",
+			"file": "Settlements/Rules System/Deployables.md",
+			"subpath": "#^tbl-family-a-turrets",
+			"x": 8558,
+			"y": 344,
+			"width": 1180,
+			"height": 367
+		},
+		{
+			"id": "t0096",
+			"type": "text",
+			"text": "**Deployables · Chassis — how it delivers**",
+			"x": 8558,
+			"y": 737,
+			"width": 1180,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0097",
+			"type": "file",
+			"file": "Settlements/Rules System/Deployables.md",
+			"subpath": "#^tbl-chassis-how-it-delivers",
+			"x": 8558,
+			"y": 791,
+			"width": 1180,
+			"height": 489
+		},
+		{
+			"id": "t0098",
+			"type": "text",
+			"text": "**Deployables · Payload — what it does on detonation**",
+			"x": 8558,
+			"y": 1306,
+			"width": 1180,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0099",
+			"type": "file",
+			"file": "Settlements/Rules System/Deployables.md",
+			"subpath": "#^tbl-payload-what-it-does-on-detonation",
+			"x": 8558,
+			"y": 1360,
+			"width": 1180,
+			"height": 259
+		},
+		{
+			"id": "t0100",
+			"type": "text",
+			"text": "**Deployables · Family C · Traps**",
+			"x": 8558,
+			"y": 1645,
+			"width": 1180,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0101",
+			"type": "file",
+			"file": "Settlements/Rules System/Deployables.md",
+			"subpath": "#^tbl-family-c-traps",
+			"x": 8558,
+			"y": 1699,
+			"width": 1180,
+			"height": 326
+		},
+		{
+			"id": "t0102",
+			"type": "text",
+			"text": "**Deployables · Family D · Beacons**",
+			"x": 8558,
+			"y": 2051,
+			"width": 1180,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0103",
+			"type": "file",
+			"file": "Settlements/Rules System/Deployables.md",
+			"subpath": "#^tbl-family-d-beacons",
+			"x": 8558,
+			"y": 2105,
+			"width": 1180,
+			"height": 440
+		},
+		{
+			"id": "g0113",
+			"type": "group",
+			"label": "⑨ LIST BUILDING — ranks, armour, equipment  ★ POINTS",
+			"x": 9958,
+			"y": -60,
+			"width": 947,
+			"height": 1194,
+			"color": "1"
+		},
+		{
+			"id": "t0105",
+			"type": "text",
+			"text": "**List Building · The four ranks**",
+			"x": 10018,
+			"y": 0,
+			"width": 531,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0106",
+			"type": "file",
+			"file": "Settlements/Rules System/List Building.md",
+			"subpath": "#^tbl-the-four-ranks",
+			"x": 10018,
+			"y": 54,
+			"width": 531,
+			"height": 210
+		},
+		{
+			"id": "t0107",
+			"type": "text",
+			"text": "**List Building · Armour & equipment**",
+			"x": 10018,
+			"y": 290,
+			"width": 420,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0108",
+			"type": "file",
+			"file": "Settlements/Rules System/List Building.md",
+			"subpath": "#^tbl-armour-equipment",
+			"x": 10018,
+			"y": 344,
+			"width": 420,
+			"height": 180
+		},
+		{
+			"id": "t0109",
+			"type": "text",
+			"text": "**List Building · Armour & equipment**",
+			"x": 10018,
+			"y": 550,
+			"width": 827,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0110",
+			"type": "file",
+			"file": "Settlements/Rules System/List Building.md",
+			"subpath": "#^tbl-armour-equipment-2",
+			"x": 10018,
+			"y": 604,
+			"width": 827,
+			"height": 210
+		},
+		{
+			"id": "t0111",
+			"type": "text",
+			"text": "**List Building · Validation**",
+			"x": 10018,
+			"y": 840,
+			"width": 655,
+			"height": 46,
+			"color": "1"
+		},
+		{
+			"id": "f0112",
+			"type": "file",
+			"file": "Settlements/Rules System/List Building.md",
+			"subpath": "#^tbl-validation",
+			"x": 10018,
+			"y": 894,
+			"width": 655,
+			"height": 180
+		},
+		{
+			"id": "g0148",
+			"type": "group",
+			"label": "⑩ SKILL PATHS — 150 skills, the biggest component pool",
+			"x": 11065,
+			"y": -60,
+			"width": 2580,
+			"height": 5312,
+			"color": "2"
+		},
+		{
+			"id": "t0114",
+			"type": "text",
+			"text": "**Skill Paths · How it works — skills ride the stat line**",
+			"x": 11125,
+			"y": 0,
+			"width": 425,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0115",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#^tbl-how-it-works-skills-ride-the-stat-line",
+			"x": 11125,
+			"y": 54,
+			"width": 425,
+			"height": 210
+		},
+		{
+			"id": "t0116",
+			"type": "text",
+			"text": "**Skill Paths · The five paths**",
+			"x": 11125,
+			"y": 290,
+			"width": 696,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0117",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#^tbl-the-five-paths",
+			"x": 11125,
+			"y": 344,
+			"width": 696,
+			"height": 240
+		},
+		{
+			"id": "t0118",
+			"type": "text",
+			"text": "**Skill Paths · Tier 1 — Good**",
+			"x": 11125,
+			"y": 610,
+			"width": 760,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0119",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#Combat / Muscle (STR)#Tier 1 — Good",
+			"x": 11125,
+			"y": 664,
+			"width": 760,
+			"height": 580
+		},
+		{
+			"id": "t0120",
+			"type": "text",
+			"text": "**Skill Paths · Tier 2 — Great**",
+			"x": 11125,
+			"y": 1270,
+			"width": 760,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0121",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#Combat / Muscle (STR)#Tier 2 — Great",
+			"x": 11125,
+			"y": 1324,
+			"width": 760,
+			"height": 606
+		},
+		{
+			"id": "t0122",
+			"type": "text",
+			"text": "**Skill Paths · Tier 3 — Amazing**",
+			"x": 11125,
+			"y": 1956,
+			"width": 760,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0123",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#Combat / Muscle (STR)#Tier 3 — Amazing",
+			"x": 11125,
+			"y": 2010,
+			"width": 760,
+			"height": 658
+		},
+		{
+			"id": "t0124",
+			"type": "text",
+			"text": "**Skill Paths · Tier 1 — Good**",
+			"x": 11125,
+			"y": 2694,
+			"width": 760,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0125",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#Shooting / Perception (DEX)#Tier 1 — Good",
+			"x": 11125,
+			"y": 2748,
+			"width": 760,
+			"height": 606
+		},
+		{
+			"id": "t0126",
+			"type": "text",
+			"text": "**Skill Paths · Tier 2 — Great**",
+			"x": 11125,
+			"y": 3380,
+			"width": 760,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0127",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#Shooting / Perception (DEX)#Tier 2 — Great",
+			"x": 11125,
+			"y": 3434,
+			"width": 760,
+			"height": 632
+		},
+		{
+			"id": "t0128",
+			"type": "text",
+			"text": "**Skill Paths · Tier 3 — Amazing**",
+			"x": 11125,
+			"y": 4092,
+			"width": 760,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0129",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#Shooting / Perception (DEX)#Tier 3 — Amazing",
+			"x": 11125,
+			"y": 4146,
+			"width": 760,
+			"height": 684
+		},
+		{
+			"id": "t0130",
+			"type": "text",
+			"text": "**Skill Paths · Tier 1 — Good**",
+			"x": 11975,
+			"y": 0,
+			"width": 760,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0131",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#Movement / Acrobatics (AGI)#Tier 1 — Good",
+			"x": 11975,
+			"y": 54,
+			"width": 760,
+			"height": 580
+		},
+		{
+			"id": "t0132",
+			"type": "text",
+			"text": "**Skill Paths · Tier 2 — Great**",
+			"x": 11975,
+			"y": 660,
+			"width": 760,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0133",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#Movement / Acrobatics (AGI)#Tier 2 — Great",
+			"x": 11975,
+			"y": 714,
+			"width": 760,
+			"height": 580
+		},
+		{
+			"id": "t0134",
+			"type": "text",
+			"text": "**Skill Paths · Tier 3 — Amazing**",
+			"x": 11975,
+			"y": 1320,
+			"width": 760,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0135",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#Movement / Acrobatics (AGI)#Tier 3 — Amazing",
+			"x": 11975,
+			"y": 1374,
+			"width": 760,
+			"height": 632
+		},
+		{
+			"id": "t0136",
+			"type": "text",
+			"text": "**Skill Paths · Tier 1 — Good**",
+			"x": 11975,
+			"y": 2032,
+			"width": 760,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0137",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#Expertise / Knowledge (INT)#Tier 1 — Good",
+			"x": 11975,
+			"y": 2086,
+			"width": 760,
+			"height": 736
+		},
+		{
+			"id": "t0138",
+			"type": "text",
+			"text": "**Skill Paths · Tier 2 — Great**",
+			"x": 11975,
+			"y": 2848,
+			"width": 760,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0139",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#Expertise / Knowledge (INT)#Tier 2 — Great",
+			"x": 11975,
+			"y": 2902,
+			"width": 760,
+			"height": 762
+		},
+		{
+			"id": "t0140",
+			"type": "text",
+			"text": "**Skill Paths · Tier 3 — Amazing**",
+			"x": 11975,
+			"y": 3690,
+			"width": 760,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0141",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#Expertise / Knowledge (INT)#Tier 3 — Amazing",
+			"x": 11975,
+			"y": 3744,
+			"width": 760,
+			"height": 814
+		},
+		{
+			"id": "t0142",
+			"type": "text",
+			"text": "**Skill Paths · Tier 1 — Good**",
+			"x": 11975,
+			"y": 4584,
+			"width": 760,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0143",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#Bravery / Morale (NRV)#Tier 1 — Good",
+			"x": 11975,
+			"y": 4638,
+			"width": 760,
+			"height": 554
+		},
+		{
+			"id": "t0144",
+			"type": "text",
+			"text": "**Skill Paths · Tier 2 — Great**",
+			"x": 12825,
+			"y": 0,
+			"width": 760,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0145",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#Bravery / Morale (NRV)#Tier 2 — Great",
+			"x": 12825,
+			"y": 54,
+			"width": 760,
+			"height": 606
+		},
+		{
+			"id": "t0146",
+			"type": "text",
+			"text": "**Skill Paths · Tier 3 — Amazing**",
+			"x": 12825,
+			"y": 686,
+			"width": 760,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0147",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Paths.md",
+			"subpath": "#Bravery / Morale (NRV)#Tier 3 — Amazing",
+			"x": 12825,
+			"y": 740,
+			"width": 760,
+			"height": 632
+		},
+		{
+			"id": "g0155",
+			"type": "group",
+			"label": "⑪ SCENARIOS & CAMPAIGN — what you fight over, and after",
+			"x": 13805,
+			"y": -60,
+			"width": 1300,
+			"height": 1188,
+			"color": "3"
+		},
+		{
+			"id": "t0149",
+			"type": "text",
+			"text": "**Scenarios · The scenario template**",
+			"x": 13865,
+			"y": 0,
+			"width": 1180,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0150",
+			"type": "file",
+			"file": "Settlements/Rules System/Scenarios.md",
+			"subpath": "#^tbl-the-scenario-template",
+			"x": 13865,
+			"y": 54,
+			"width": 1180,
+			"height": 314
+		},
+		{
+			"id": "t0151",
+			"type": "text",
+			"text": "**Scenarios · The Twist (roll 1d6 at setup)**",
+			"x": 13865,
+			"y": 394,
+			"width": 1122,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0152",
+			"type": "file",
+			"file": "Settlements/Rules System/Scenarios.md",
+			"subpath": "#^tbl-the-twist-roll-1d6-at-setup",
+			"x": 13865,
+			"y": 448,
+			"width": 1122,
+			"height": 270
+		},
+		{
+			"id": "t0153",
+			"type": "text",
+			"text": "**Campaign · Post-battle — the Fate table**",
+			"x": 13865,
+			"y": 744,
+			"width": 753,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0154",
+			"type": "file",
+			"file": "Settlements/Rules System/Campaign.md",
+			"subpath": "#^tbl-post-battle-the-fate-table",
+			"x": 13865,
+			"y": 798,
+			"width": 753,
+			"height": 270
+		},
+		{
+			"id": "g0182",
+			"type": "group",
+			"label": "⑫ STRUCTURES — the 25-entry settlement catalogue",
+			"x": 15265,
+			"y": -60,
+			"width": 1300,
+			"height": 4548,
+			"color": "3"
+		},
+		{
+			"id": "t0156",
+			"type": "text",
+			"text": "**Structures · The settlement canvas**",
+			"x": 15325,
+			"y": 0,
+			"width": 589,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0157",
+			"type": "file",
+			"file": "Settlements/Rules System/Structures.md",
+			"subpath": "#^tbl-the-settlement-canvas",
+			"x": 15325,
+			"y": 54,
+			"width": 589,
+			"height": 210
+		},
+		{
+			"id": "t0158",
+			"type": "text",
+			"text": "**Structures · Groundworks — the expansion project**",
+			"x": 15325,
+			"y": 290,
+			"width": 441,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0159",
+			"type": "file",
+			"file": "Settlements/Rules System/Structures.md",
+			"subpath": "#^tbl-groundworks-the-expansion-project",
+			"x": 15325,
+			"y": 344,
+			"width": 441,
+			"height": 180
+		},
+		{
+			"id": "t0160",
+			"type": "text",
+			"text": "**Structures · Footprint classes**",
+			"x": 15325,
+			"y": 550,
+			"width": 728,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0161",
+			"type": "file",
+			"file": "Settlements/Rules System/Structures.md",
+			"subpath": "#^tbl-footprint-classes",
+			"x": 15325,
+			"y": 604,
+			"width": 728,
+			"height": 180
+		},
+		{
+			"id": "t0162",
+			"type": "text",
+			"text": "**Structures · Starting structures — five**",
+			"x": 15325,
+			"y": 810,
+			"width": 999,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0163",
+			"type": "file",
+			"file": "Settlements/Rules System/Structures.md",
+			"subpath": "#^tbl-starting-structures-five",
+			"x": 15325,
+			"y": 864,
+			"width": 999,
+			"height": 240
+		},
+		{
+			"id": "t0164",
+			"type": "text",
+			"text": "**Structures · Storage & caps — what you can hold, and what a raider can take**",
+			"x": 15325,
+			"y": 1130,
+			"width": 1180,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0165",
+			"type": "file",
+			"file": "Settlements/Rules System/Structures.md",
+			"subpath": "#^tbl-storage-caps-what-you-can-hold-and-what-a-ra",
+			"x": 15325,
+			"y": 1184,
+			"width": 1180,
+			"height": 273
+		},
+		{
+			"id": "t0166",
+			"type": "text",
+			"text": "**Structures · Three ways to grow — and how to tell them apart**",
+			"x": 15325,
+			"y": 1483,
+			"width": 1180,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0167",
+			"type": "file",
+			"file": "Settlements/Rules System/Structures.md",
+			"subpath": "#^tbl-three-ways-to-grow-and-how-to-tell-them-apar",
+			"x": 15325,
+			"y": 1537,
+			"width": 1180,
+			"height": 199
+		},
+		{
+			"id": "t0168",
+			"type": "text",
+			"text": "**Structures · Upgrade ladders**",
+			"x": 15325,
+			"y": 1762,
+			"width": 769,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0169",
+			"type": "file",
+			"file": "Settlements/Rules System/Structures.md",
+			"subpath": "#^tbl-upgrade-ladders",
+			"x": 15325,
+			"y": 1816,
+			"width": 769,
+			"height": 330
+		},
+		{
+			"id": "t0170",
+			"type": "text",
+			"text": "**Structures · Sustain — keep people alive, keep the grid up**",
+			"x": 15325,
+			"y": 2172,
+			"width": 1180,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0171",
+			"type": "file",
+			"file": "Settlements/Rules System/Structures.md",
+			"subpath": "#^tbl-sustain-keep-people-alive-keep-the-grid-up",
+			"x": 15325,
+			"y": 2226,
+			"width": 1180,
+			"height": 399
+		},
+		{
+			"id": "t0172",
+			"type": "text",
+			"text": "**Structures · Convert — turn one resource into another, and make gear**",
+			"x": 15325,
+			"y": 2651,
+			"width": 1180,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0173",
+			"type": "file",
+			"file": "Settlements/Rules System/Structures.md",
+			"subpath": "#^tbl-convert-turn-one-resource-into-another-and-m",
+			"x": 15325,
+			"y": 2705,
+			"width": 1180,
+			"height": 481
+		},
+		{
+			"id": "t0174",
+			"type": "text",
+			"text": "**Structures · Operate — what you can do outside the walls**",
+			"x": 15325,
+			"y": 3212,
+			"width": 1180,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0175",
+			"type": "file",
+			"file": "Settlements/Rules System/Structures.md",
+			"subpath": "#^tbl-operate-what-you-can-do-outside-the-walls",
+			"x": 15325,
+			"y": 3266,
+			"width": 1180,
+			"height": 303
+		},
+		{
+			"id": "t0176",
+			"type": "text",
+			"text": "**Structures · Recover — people come back**",
+			"x": 15325,
+			"y": 3595,
+			"width": 991,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0177",
+			"type": "file",
+			"file": "Settlements/Rules System/Structures.md",
+			"subpath": "#^tbl-recover-people-come-back",
+			"x": 15325,
+			"y": 3649,
+			"width": 991,
+			"height": 180
+		},
+		{
+			"id": "t0178",
+			"type": "text",
+			"text": "**Structures · Defend — this is the raid board**",
+			"x": 15325,
+			"y": 3855,
+			"width": 1180,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0179",
+			"type": "file",
+			"file": "Settlements/Rules System/Structures.md",
+			"subpath": "#^tbl-defend-this-is-the-raid-board",
+			"x": 15325,
+			"y": 3909,
+			"width": 1180,
+			"height": 259
+		},
+		{
+			"id": "t0180",
+			"type": "text",
+			"text": "**Structures · Space budget**",
+			"x": 15325,
+			"y": 4194,
+			"width": 523,
+			"height": 46,
+			"color": "3"
+		},
+		{
+			"id": "f0181",
+			"type": "file",
+			"file": "Settlements/Rules System/Structures.md",
+			"subpath": "#^tbl-space-budget",
+			"x": 15325,
+			"y": 4248,
+			"width": 523,
+			"height": 180
+		},
+		{
+			"id": "g0187",
+			"type": "group",
+			"label": "⑬ TABLE & COMPONENT REFERENCE",
+			"x": 16725,
+			"y": -60,
+			"width": 1300,
+			"height": 835,
+			"color": "6"
+		},
+		{
+			"id": "t0183",
+			"type": "text",
+			"text": "**Board Representation · Terrain**",
+			"x": 16785,
+			"y": 0,
+			"width": 1180,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0184",
+			"type": "file",
+			"file": "Settlements/Rules System/Board Representation.md",
+			"subpath": "#^tbl-terrain",
+			"x": 16785,
+			"y": 54,
+			"width": 1180,
+			"height": 281
+		},
+		{
+			"id": "t0185",
+			"type": "text",
+			"text": "**Board Representation · Condition & status tokens**",
+			"x": 16785,
+			"y": 361,
+			"width": 868,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0186",
+			"type": "file",
+			"file": "Settlements/Rules System/Board Representation.md",
+			"subpath": "#^tbl-condition-status-tokens",
+			"x": 16785,
+			"y": 415,
+			"width": 868,
+			"height": 300
+		},
+		{
+			"id": "g0190",
+			"type": "group",
+			"label": "⑭ DESIGN GUARDS — what was cut, and why (check before inventing)",
+			"x": 18185,
+			"y": -60,
+			"width": 1037,
+			"height": 324,
+			"color": "2"
+		},
+		{
+			"id": "t0188",
+			"type": "text",
+			"text": "**Out of Scope — What Settlements is NOT · 4 · Rejected-ideas log**",
+			"x": 18245,
+			"y": 0,
+			"width": 917,
+			"height": 46,
+			"color": "2"
+		},
+		{
+			"id": "f0189",
+			"type": "file",
+			"file": "Settlements/Rules System/Out of Scope — What Settlements is NOT.md",
+			"subpath": "#^tbl-4-rejected-ideas-log",
+			"x": 18245,
+			"y": 54,
+			"width": 917,
+			"height": 150
+		},
+		{
+			"id": "g0245",
+			"type": "group",
+			"label": "⑮ EVIDENCE — simulation findings behind the numbers",
+			"x": 19382,
+			"y": -60,
+			"width": 2110,
+			"height": 5104,
+			"color": "6"
+		},
+		{
+			"id": "t0191",
+			"type": "text",
+			"text": "**Crew Sim — Findings · 1 · Terrain is a bigger lever than any point cost**",
+			"x": 19442,
+			"y": 0,
+			"width": 515,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0192",
+			"type": "file",
+			"file": "Settlements/Rules System/Crew Sim — Findings.md",
+			"subpath": "#^tbl-1-terrain-is-a-bigger-lever-than-any-point-c",
+			"x": 19442,
+			"y": 54,
+			"width": 515,
+			"height": 130
+		},
+		{
+			"id": "t0193",
+			"type": "text",
+			"text": "**Crew Sim — Findings · 2 · The final balance table**",
+			"x": 19442,
+			"y": 210,
+			"width": 420,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0194",
+			"type": "file",
+			"file": "Settlements/Rules System/Crew Sim — Findings.md",
+			"subpath": "#^tbl-2-the-final-balance-table",
+			"x": 19442,
+			"y": 264,
+			"width": 420,
+			"height": 330
+		},
+		{
+			"id": "t0195",
+			"type": "text",
+			"text": "**Crew Sim — Findings · 2 · The final balance table**",
+			"x": 19442,
+			"y": 620,
+			"width": 720,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0196",
+			"type": "file",
+			"file": "Settlements/Rules System/Crew Sim — Findings.md",
+			"subpath": "#^tbl-2-the-final-balance-table-2",
+			"x": 19442,
+			"y": 674,
+			"width": 720,
+			"height": 180
+		},
+		{
+			"id": "t0197",
+			"type": "text",
+			"text": "**Crew Sim — Findings · 3 · Morale — change nothing**",
+			"x": 19442,
+			"y": 880,
+			"width": 663,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0198",
+			"type": "file",
+			"file": "Settlements/Rules System/Crew Sim — Findings.md",
+			"subpath": "#^tbl-3-morale-change-nothing",
+			"x": 19442,
+			"y": 934,
+			"width": 663,
+			"height": 180
+		},
+		{
+			"id": "t0199",
+			"type": "text",
+			"text": "**Dice Mechanic — Sim Findings · 1 · Engine validation — [[core-000 Core Test]]**",
+			"x": 19442,
+			"y": 1140,
+			"width": 420,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0200",
+			"type": "file",
+			"file": "Settlements/Rules System/Dice Mechanic — Sim Findings.md",
+			"subpath": "#^tbl-1-engine-validation-core-000-core-test",
+			"x": 19442,
+			"y": 1194,
+			"width": 420,
+			"height": 330
+		},
+		{
+			"id": "t0201",
+			"type": "text",
+			"text": "**Dice Mechanic — Sim Findings · 2 · Difficulty ladder — [[Shooting|stat checks]]**",
+			"x": 19442,
+			"y": 1550,
+			"width": 515,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0202",
+			"type": "file",
+			"file": "Settlements/Rules System/Dice Mechanic — Sim Findings.md",
+			"subpath": "#^tbl-2-difficulty-ladder-stat-checks",
+			"x": 19442,
+			"y": 1604,
+			"width": 515,
+			"height": 210
+		},
+		{
+			"id": "t0203",
+			"type": "text",
+			"text": "**Dice Mechanic — Sim Findings · 3 · Shooting — [[Shooting]] + [[Damage]]**",
+			"x": 19442,
+			"y": 1840,
+			"width": 531,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0204",
+			"type": "file",
+			"file": "Settlements/Rules System/Dice Mechanic — Sim Findings.md",
+			"subpath": "#^tbl-3-shooting-shooting-damage",
+			"x": 19442,
+			"y": 1894,
+			"width": 531,
+			"height": 210
+		},
+		{
+			"id": "t0205",
+			"type": "text",
+			"text": "**Dice Mechanic — Sim Findings · 3 · Shooting — [[Shooting]] + [[Damage]]**",
+			"x": 19442,
+			"y": 2130,
+			"width": 420,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0206",
+			"type": "file",
+			"file": "Settlements/Rules System/Dice Mechanic — Sim Findings.md",
+			"subpath": "#^tbl-3-shooting-shooting-damage-2",
+			"x": 19442,
+			"y": 2184,
+			"width": 420,
+			"height": 180
+		},
+		{
+			"id": "t0207",
+			"type": "text",
+			"text": "**Dice Mechanic — Sim Findings · 4 · Melee — [[Melee]]**",
+			"x": 19442,
+			"y": 2390,
+			"width": 655,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0208",
+			"type": "file",
+			"file": "Settlements/Rules System/Dice Mechanic — Sim Findings.md",
+			"subpath": "#^tbl-4-melee-melee",
+			"x": 19442,
+			"y": 2444,
+			"width": 655,
+			"height": 240
+		},
+		{
+			"id": "t0209",
+			"type": "text",
+			"text": "**Dice Mechanic — Sim Findings · 5 · Head-to-Head (contests) — terminals, arm-wrestles**",
+			"x": 19442,
+			"y": 2710,
+			"width": 420,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0210",
+			"type": "file",
+			"file": "Settlements/Rules System/Dice Mechanic — Sim Findings.md",
+			"subpath": "#^tbl-5-head-to-head-contests-terminals-arm-wrestl",
+			"x": 19442,
+			"y": 2764,
+			"width": 420,
+			"height": 210
+		},
+		{
+			"id": "t0211",
+			"type": "text",
+			"text": "**Dice Mechanic — Sim Findings · 6 · Duel matrix — the archetypes fight ⚔️**",
+			"x": 19442,
+			"y": 3000,
+			"width": 523,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0212",
+			"type": "file",
+			"file": "Settlements/Rules System/Dice Mechanic — Sim Findings.md",
+			"subpath": "#^tbl-6-duel-matrix-the-archetypes-fight",
+			"x": 19442,
+			"y": 3054,
+			"width": 523,
+			"height": 330
+		},
+		{
+			"id": "t0213",
+			"type": "text",
+			"text": "**Dice Mechanic — Sim Findings · 6 · Duel matrix — the archetypes fight ⚔️**",
+			"x": 19442,
+			"y": 3410,
+			"width": 420,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0214",
+			"type": "file",
+			"file": "Settlements/Rules System/Dice Mechanic — Sim Findings.md",
+			"subpath": "#^tbl-6-duel-matrix-the-archetypes-fight-2",
+			"x": 19442,
+			"y": 3464,
+			"width": 420,
+			"height": 330
+		},
+		{
+			"id": "t0215",
+			"type": "text",
+			"text": "**Dice Mechanic — Sim Findings · 7 · Stress / Nerve — fires where it should ✅ — [[Morale]]**",
+			"x": 19442,
+			"y": 3820,
+			"width": 507,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0216",
+			"type": "file",
+			"file": "Settlements/Rules System/Dice Mechanic — Sim Findings.md",
+			"subpath": "#^tbl-7-stress-nerve-fires-where-it-should-morale",
+			"x": 19442,
+			"y": 3874,
+			"width": 507,
+			"height": 180
+		},
+		{
+			"id": "t0217",
+			"type": "text",
+			"text": "**Dice Mechanic — Sim Findings · The Shook −1 — is it the right penalty? (added 2026-07-09)**",
+			"x": 19442,
+			"y": 4080,
+			"width": 597,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0218",
+			"type": "file",
+			"file": "Settlements/Rules System/Dice Mechanic — Sim Findings.md",
+			"subpath": "#^tbl-the-shook-1-is-it-the-right-penalty-added-20",
+			"x": 19442,
+			"y": 4134,
+			"width": 597,
+			"height": 210
+		},
+		{
+			"id": "t0219",
+			"type": "text",
+			"text": "**Skill Sim — Findings · 1 · Flat combat modifiers — raw % bought (exact)**",
+			"x": 19442,
+			"y": 4370,
+			"width": 597,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0220",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Sim — Findings.md",
+			"subpath": "#^tbl-1-flat-combat-modifiers-raw-bought-exact",
+			"x": 19442,
+			"y": 4424,
+			"width": 597,
+			"height": 240
+		},
+		{
+			"id": "t0221",
+			"type": "text",
+			"text": "**Skill Sim — Findings · 2 · Multi-attack — expected wounds / activation**",
+			"x": 19442,
+			"y": 4690,
+			"width": 696,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0222",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Sim — Findings.md",
+			"subpath": "#^tbl-2-multi-attack-expected-wounds-activation",
+			"x": 19442,
+			"y": 4744,
+			"width": 696,
+			"height": 240
+		},
+		{
+			"id": "t0223",
+			"type": "text",
+			"text": "**Skill Sim — Findings · 3 · Grapple chain**",
+			"x": 20252,
+			"y": 0,
+			"width": 523,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0224",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Sim — Findings.md",
+			"subpath": "#^tbl-3-grapple-chain",
+			"x": 20252,
+			"y": 54,
+			"width": 523,
+			"height": 270
+		},
+		{
+			"id": "t0225",
+			"type": "text",
+			"text": "**Skill Sim — Findings · 4 · Bravery path — break-rate impact (NRV+2)**",
+			"x": 20252,
+			"y": 350,
+			"width": 531,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0226",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Sim — Findings.md",
+			"subpath": "#^tbl-4-bravery-path-break-rate-impact-nrv-2",
+			"x": 20252,
+			"y": 404,
+			"width": 531,
+			"height": 210
+		},
+		{
+			"id": "t0227",
+			"type": "text",
+			"text": "**Skill Sim — Findings · 5 · Marquee duel — \"is it worth a point?\"**",
+			"x": 20252,
+			"y": 640,
+			"width": 868,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0228",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Sim — Findings.md",
+			"subpath": "#^tbl-5-marquee-duel-is-it-worth-a-point",
+			"x": 20252,
+			"y": 694,
+			"width": 868,
+			"height": 510
+		},
+		{
+			"id": "t0229",
+			"type": "text",
+			"text": "**Skill Sim — Findings · The self-Stress fix — APPLIED**",
+			"x": 20252,
+			"y": 1230,
+			"width": 564,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0230",
+			"type": "file",
+			"file": "Settlements/Rules System/Skill Sim — Findings.md",
+			"subpath": "#^tbl-the-self-stress-fix-applied",
+			"x": 20252,
+			"y": 1284,
+			"width": 564,
+			"height": 180
+		},
+		{
+			"id": "t0231",
+			"type": "text",
+			"text": "**Deployables Sim — Findings · 2 · INT is a real gate on deploying**",
+			"x": 20252,
+			"y": 1490,
+			"width": 531,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0232",
+			"type": "file",
+			"file": "Settlements/Rules System/Deployables Sim — Findings.md",
+			"subpath": "#^tbl-2-int-is-a-real-gate-on-deploying",
+			"x": 20252,
+			"y": 1544,
+			"width": 531,
+			"height": 180
+		},
+		{
+			"id": "t0233",
+			"type": "text",
+			"text": "**Deployables Sim — Findings · 3 · Turrets price out — except Burst, now fixed**",
+			"x": 20252,
+			"y": 1750,
+			"width": 736,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0234",
+			"type": "file",
+			"file": "Settlements/Rules System/Deployables Sim — Findings.md",
+			"subpath": "#^tbl-3-turrets-price-out-except-burst-now-fixed",
+			"x": 20252,
+			"y": 1804,
+			"width": 736,
+			"height": 240
+		},
+		{
+			"id": "t0235",
+			"type": "text",
+			"text": "**Deployables Sim — Findings · 4 · Mines land hard but are one-use and avoidable**",
+			"x": 20252,
+			"y": 2070,
+			"width": 466,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0236",
+			"type": "file",
+			"file": "Settlements/Rules System/Deployables Sim — Findings.md",
+			"subpath": "#^tbl-4-mines-land-hard-but-are-one-use-and-avoida",
+			"x": 20252,
+			"y": 2124,
+			"width": 466,
+			"height": 150
+		},
+		{
+			"id": "t0237",
+			"type": "text",
+			"text": "**Terrain Hacking Cover — Sim Findings · T6 · Hacker shut-outs are too weak**",
+			"x": 20252,
+			"y": 2300,
+			"width": 589,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0238",
+			"type": "file",
+			"file": "Settlements/Rules System/Terrain Hacking Cover — Sim Findings.md",
+			"subpath": "#^tbl-t6-hacker-shut-outs-are-too-weak",
+			"x": 20252,
+			"y": 2354,
+			"width": 589,
+			"height": 180
+		},
+		{
+			"id": "t0239",
+			"type": "text",
+			"text": "**Terrain Hacking Cover — Sim Findings · T3 · A 2\" fall is a coin-flip kill**",
+			"x": 20252,
+			"y": 2560,
+			"width": 420,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0240",
+			"type": "file",
+			"file": "Settlements/Rules System/Terrain Hacking Cover — Sim Findings.md",
+			"subpath": "#^tbl-t3-a-2-fall-is-a-coin-flip-kill",
+			"x": 20252,
+			"y": 2614,
+			"width": 420,
+			"height": 210
+		},
+		{
+			"id": "t0241",
+			"type": "text",
+			"text": "**Terrain Hacking Cover — Sim Findings · T8 · Disengage is a dead option**",
+			"x": 20252,
+			"y": 2850,
+			"width": 420,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0242",
+			"type": "file",
+			"file": "Settlements/Rules System/Terrain Hacking Cover — Sim Findings.md",
+			"subpath": "#^tbl-t8-disengage-is-a-dead-option",
+			"x": 20252,
+			"y": 2904,
+			"width": 420,
+			"height": 150
+		},
+		{
+			"id": "t0243",
+			"type": "text",
+			"text": "**Terrain Hacking Cover — Sim Findings · ✅ Validated**",
+			"x": 20252,
+			"y": 3080,
+			"width": 1180,
+			"height": 46,
+			"color": "6"
+		},
+		{
+			"id": "f0244",
+			"type": "file",
+			"file": "Settlements/Rules System/Terrain Hacking Cover — Sim Findings.md",
+			"subpath": "#^tbl-validated",
+			"x": 20252,
+			"y": 3134,
+			"width": 1180,
+			"height": 401
+		}
+	],
+	"edges": []
+}

@@ -40,6 +40,8 @@ Every piece is described by three independent properties. Never merge them —
 |Cover|How hard am I to hit while using it?|Open · Light · Heavy (+ Concealing enables Hide)|
 |Tags|What can I do to it?|Openable, Climbable, Searchable, Hackable… (see Terrain tags)|
 
+^tbl-the-three-properties
+
 - Difficult costs double movement.
 - Impassable cannot be entered — unless Climbable (AGI climb) or a Breach makes a hole.
 - Dangerous is an overlay, not a fourth Movement value (see Hazards).
@@ -55,6 +57,8 @@ Cover is a negative modifier to the attacker's ranged hit roll (see [[Shooting]]
 |Heavy|−2|
 |Hidden|−3|
 |Blocked line of sight|cannot be targeted|
+
+^tbl-cover
 
 - Light / Heavy are passive properties of terrain.
 - Hidden is _earned_, not passive: the Hide action while in Concealing terrain, or granted by gear/skill. Lost on moving, shooting, or being revealed.
@@ -72,6 +76,8 @@ Type = defaults + setup duties. It tells you the usual answer for each axis whe
 |Environmental|Water, mud, woods, slopes, pools|Difficult or Impassable|Usually Open; woods Concealing|Climbable · Dangerous overlay|
 |Feature|Terminals, turrets, vents, cameras, alarms|Occupies its spot|Feature damage rules ([[Terrain Interaction#Feature damage]])|Hackable · Powered · Linked · Explosive|
 |Deployed|Player-placed: barricades, traps, builds|As placed|As the piece|Barricadable · Movable · Buildable|
+
+^tbl-terrain-types
 
 Building access rule (setup duty): every floor of a Building or multi-level Ruin must have at least one no-test route (stairs or ladder). Climbable walls are optional shortcuts, never the only way up — unless a scenario explicitly says so.
 
@@ -93,6 +99,8 @@ Trigger: a fighter that ends its Move or activation inside the area suffers t
 |Electrified area|Gain Shocked|
 |Deep water|Swim (AGI, on entering — [[Movement#Terrain movement]])|
 |Dense smoke|Blind while inside; area counts as Concealing|
+
+^tbl-hazards-the-dangerous-overlay
 
 Forced movement (Knockback, Slam & Throw, etc.) into a Dangerous area triggers it immediately. Steadying yourself in a hazard is an NRV Interact ([[Terrain Interaction]]).
 
@@ -144,6 +152,8 @@ A unit spends its Action to Interact with adjacent terrain; the stat used d
 | Pick lock · disarm trap              | DEX  |
 | Hack · build/repair feature · lay/deploy trap · Search | INT  |
 | Steady yourself in a hazard          | NRV  |
+
+^tbl-interact
 
 Routine Interacts auto-pass; test (7+) only when failure has a consequence. Terminals and digital control → [[Hacking]]. Full verb table → [[Terrain Interaction]].
 

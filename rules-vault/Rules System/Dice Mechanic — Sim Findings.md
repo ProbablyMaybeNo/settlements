@@ -24,6 +24,8 @@ Simulated vs exact across the stat range. They match within sampling noise → t
 | +5 | 90% | 89.7% |
 | +6 | 90% | 90.0% |
 
+^tbl-1-engine-validation-core-000-core-test
+
 ## 2 · Difficulty ladder — [[Shooting|stat checks]]
 Success % by the number you have to beat. **Raising the target by 2 ≈ −20%.** Use this to price Hard/Punishing checks (locks, hacks, breaching).
 
@@ -33,6 +35,8 @@ Success % by the number you have to beat. **Raising the target by 2 ≈ −20%.*
 | +2 | 60% | 40% | 20% |
 | +4 | 80% | 60% | 40% |
 | +6 | 90% | 80% | 60% |
+
+^tbl-2-difficulty-ladder-stat-checks
 
 ## 3 · Shooting — [[Shooting]] + [[Damage]]
 Standard shooter **DEX +2**, medium weapon (**+2**), open unarmoured target unless noted.
@@ -46,6 +50,8 @@ Standard shooter **DEX +2**, medium weapon (**+2**), open unarmoured target unle
 | Heavy (−2) | 40.1% | 24.0% | 4.2 |
 | Hidden (−3) | 30.0% | 17.7% | 5.7 |
 
+^tbl-3-shooting-shooting-damage
+
 **Weapon vs armour** (wound/shot, open target). Each class ≈ ±5–6%. A **heavy weapon (+3) is almost exactly cancelled by heavy armour (−2)** — the damage/armour bands are well spaced and doing their job.
 
 | Weapon | Armour 0 | Armour −1 | Armour −2 |
@@ -53,6 +59,8 @@ Standard shooter **DEX +2**, medium weapon (**+2**), open unarmoured target unle
 | Light +1 | 29.8% | 24.0% | 17.8% |
 | Medium +2 | 35.1% | 29.1% | 23.8% |
 | Heavy +3 | 41.9% | 36.6% | 29.4% |
+
+^tbl-3-shooting-shooting-damage-2
 
 > [!note] Lethality read
 > A competent shooter downs an open, unarmoured target in **~3 shots** (~36%/shot). Fast but not instant — units trade a few shots, and **cover buys survival more than armour does**. That's the right feel for the pillar.
@@ -68,6 +76,8 @@ Opposed STR, **ties to the defender**. Attacker light weapon (+1), no armour.
 | +1 | 55.4% | 64.0% | 27.1% |
 | +2 | 63.8% | 72.1% | 31.2% |
 
+^tbl-4-melee-melee
+
 - **The defender's tie-edge is real:** an *even* fight is 46.5% / 53.5% for the defender (~3–4% swing). Being attacked isn't a coin flip — it slightly favours the one who holds.
 - **Charge (+1) is worth ~+8%** and *flips an even fight* in the attacker's favour (46.5% → 54.8%). The surprise bonus earns its keep.
 - Melee is **grindier per exchange** than shooting with light weapons (~23% to down at even STR) — melee wants weapon/skill investment to bite.
@@ -81,6 +91,8 @@ Opposed test, ties to the defender. **Each point of advantage ≈ ±9–10%.** R
 | 0 | 45% |
 | +2 | 64% |
 | +3 | 72% |
+
+^tbl-5-head-to-head-contests-terminals-arm-wrestl
 
 ## 6 · Duel matrix — the archetypes fight ⚔️
 Every [[Skill Paths|archetype]] vs every other, **10k fights each**, random who-goes-first, Stress on. **WND all = 1, and crucially NO terrain or cover** — a pure attrition vacuum. Cells = row's win %.
@@ -96,6 +108,8 @@ Every [[Skill Paths|archetype]] vs every other, **10k fights each**, random who-
 | **Quick Muscle** | 38 | 43 | 64 | 50 | 80 | 33 | — | 67 |
 | **Jack** | 24 | 34 | 54 | 34 | 67 | 23 | 33 | — |
 
+^tbl-6-duel-matrix-the-archetypes-fight
+
 **Overall win rate** (avg vs the other 7):
 
 | Rank | Archetype | Win rate |
@@ -109,6 +123,8 @@ Every [[Skill Paths|archetype]] vs every other, **10k fights each**, random who-
 | 7 | Jack of All Trades | 38.5% |
 | 8 | Objective Grabber | 24.1% |
 
+^tbl-6-duel-matrix-the-archetypes-fight-2
+
 > [!important] The big finding — this *validates* the design
 > In a terrain-free slugfest, **combat specialists dominate and utility builds get stomped** — the Objective Grabber wins just **24%** and loses 86–14 to the Brawler. That is *exactly what should happen*: raw stats say a mobility/tech build is near-useless in a straight fight. **Their value can only come from the [[Terrain|board]] and [[Scenarios|scenario]]** — locked doors that need the Techie, gaps and objectives that need the Grabber, cover that lets the fragile survive. **This sim is the proof that terrain/objectives must be the balancer.** If a scenario is just "kill each other on open ground," the game collapses to Heavy Gunners — so the scenario deck has to reliably demand non-combat stats.
 > Also: **Heavy Gunner (STR+DEX, heavy weapon, armour) is the raw-power king.** Watch it doesn't become an auto-include — it should pay for that in points and be punished by terrain it can't shoot through.
@@ -121,6 +137,8 @@ Re-run on the **revised** system (Shaken −1 always-on · Break test at 2+ · p
 | Jack vs Jack (WND 1) | 2.3 | 0.000 → **0.089** |
 | Gunner vs Brawler (WND 1) | 1.6 | 0.000 → **0.089** |
 | Jack vs Jack (WND 3) | 9.5 | 0.000 → **1.75** |
+
+^tbl-7-stress-nerve-fires-where-it-should-morale
 
 > [!success] Right shape — quiet in fast kills, bites in grinds
 > The revised model **self-corrected the "inert morale" problem** without a single new combat trigger. At **WND 1** the lethality band is fast enough that fights usually end before Stress hits 2 — so nerve stays out of the way (~0.09 breaks/fight). In a sustained **WND-3** fight it wakes up hard: **~1.75 breaks per fight**, because Stress now *accumulates* (a passed test clears all, a failed one only sheds 1) instead of draining NRV-worth every round. Morale is now a **duration** mechanic — it takes over exactly when a fight drags, which is the intended feel.
@@ -138,6 +156,8 @@ The real question isn't whether Stress *fires* (more triggers are coming) — it
 | Even melee clash — attacker win% | 44.9% | 35.6% | 28.0% |
 | Even duel, **melee**, Shook whole fight | 50% | **33%** | 20% |
 | Even duel, **ranged**, Shook whole fight | 50% | **39.5%** | 28% |
+
+^tbl-the-shook-1-is-it-the-right-penalty-added-20
 
 > [!success] Verdict — keep the −1
 > −1 = **exactly one stat-point** (~10%/roll). A Shook brawler drops an even fight to **33%**, a Shook shooter to **~40%** — a real bite, not a death sentence. That's the right weight for the *entry* crack tier: big enough to hurt, mild enough to leave headroom for Bolt/Break/Insanity (which remove the unit). **Raising it to −2 makes the mildest failure hit like a 2-stat gap and compresses the whole ladder.** The lever for "how much morale matters" is **frequency + duration, not the −1 size** — and triggers are already being added.

@@ -22,6 +22,8 @@ First quantified pass over the **dice-testable** skills in [[Skill Paths]]. Engi
 | **Feint** | +2 melee (hidden approach) | 45% | 64% | +19% |
 | **Ghost Blade** | AGI 4 melee vs STR 2 | 45% | 64% | +19% |
 
+^tbl-1-flat-combat-modifiers-raw-bought-exact
+
 Clean **+10%/point**, capped 90% by the nat-1 rule — exactly as priced. A +2 conditional (Feint/Ghost Blade/The Muscle) is a ~+20% swing *when its condition is met*; that condition is the balancer.
 
 ## 2 · Multi-attack — expected wounds / activation
@@ -32,6 +34,8 @@ Clean **+10%/point**, capped 90% by the nat-1 rule — exactly as priced. A +2 c
 | Single melee (even STR, +1 wpn) | 0.23 | — | — |
 | **Dual Wield** (2 swings, 2nd −2) | 0.37 | **+62%** | no Charge |
 | **Gunslinger** (2 targets) | — | **0 in a 1v1** | only pays vs multiple foes |
+
+^tbl-2-multi-attack-expected-wounds-activation
 
 A second attack even at −2 is a **~+60–67% output** spike — the biggest raw DPS jump in the game. The "no Reactions / no Charge" riders are load-bearing; without them these are auto-includes.
 
@@ -45,6 +49,8 @@ A second attack even at −2 is a **~+60–67% output** spike — the biggest ra
 | Squeeze auto-hit injures (unarmed vs arm 0) | 40% / use |
 | Heavy Hands on the Grappled target | 45% → 55% |
 
+^tbl-3-grapple-chain
+
 A **STR-heavy grappler is a hard lock**: 64% to land it, victim only 28% to break free each turn, ~40% to injure every Squeeze in between. Grapple + Squeeze/Crushing Hold is a genuine control engine — watch that a high-STR grappler doesn't trivialise single elite targets.
 
 ## 4 · Bravery path — break-rate impact (NRV+2)
@@ -54,6 +60,8 @@ A **STR-heavy grappler is a hard lock**: 64% to land it, victim only 28% to brea
 | **Rattle-Proof** (effective −1 Stress) | 40% | 50% | 60% |
 | **Cowed** on you (−1 that test) | 60% | 70% | 80% |
 | **Braced** (+1 that test) | 40% | 50% | 60% |
+
+^tbl-4-bravery-path-break-rate-impact-nrv-2
 
 Rattle-Proof/Braced each shave **~10%** off breaking. **Steady / Count Breaths don't change per-test odds** — they win by cutting how *often* you test (shedding Stress before it hits 2), which is why they post huge duel numbers below.
 
@@ -77,6 +85,8 @@ Each skill given to **side A** in a WND-3 mirror; B is plain. Baseline **50%**; 
 | **Fanatic** *(fixed)* | 43% | **−7** | value is *not routing* — board presence, unmeasured in 1v1 |
 | **Red Mist** *(once, fixed)* | 36% | **−14** | situational nuke — a bad even-fight pick by design |
 
+^tbl-5-marquee-duel-is-it-worth-a-point
+
 *Post-fix numbers (the "ignore Shaken while raging" clause is applied). **Never spam the fury skills:** Red Mist spammed every activation = **1.7%**, Feed the Anger spammed = **36%** — one use, at the right moment.*
 
 > [!note] "Low" scores that aren't actually weak
@@ -96,6 +106,8 @@ Feed the Anger, Red Mist and Fanatic are meant to be **high-risk aggression**, b
 | Feed the Anger | −30% (net-zero trap) | **−1% — break-even** |
 | Fanatic | −10% | **−7% — Fight turns now land** |
 | Red Mist | −49% | **−14% — real +2, still a nuke** |
+
+^tbl-the-self-stress-fix-applied
 
 Red Mist stays a **one-shot nuke** by design (one use ≈ Broken-risk that round, two = BugOut) — correct for a "Berserker, high-risk" T3; it's a finisher, not an even-fight tool.
 

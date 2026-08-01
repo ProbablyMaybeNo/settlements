@@ -69,6 +69,8 @@ Resolve immediately, interrupting the enemy's next steps if any remain. A Reacti
 | **Trigger** | Only your own traps with the **Remote Detonation** tag (set by the placer, or by a Hacker). Not every trap is remote. |
 | **Dodge** | When **targeted by a ranged attack** (from **any angle** — no facing needed, so this is your answer to flank/rear shots), make an opposed roll: **`1d10 + AGI`** vs the shooter's **`1d10 + DEX`** (ties to you). This *replaces* the shot's to-hit; **cover doesn't apply** (you traded cover for evasion). **Win →** the shot misses; move up to **full MOV"** in any direction, **ending out of the shooter's LOS** (or max toward breaking it if impossible); this scramble draws **no** reactions; then you gain **Pinned**. **Lose →** the shot hits — resolve the Injury roll as normal. |
 
+^tbl-reaction-options
+
 #### Orders received
 Each unit may **receive only one Order** per round. So max Ready opportunities in a round = own Action Ready + one Order Ready.
 

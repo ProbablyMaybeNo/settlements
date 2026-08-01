@@ -64,6 +64,8 @@ The strip is sized so that **your whole settlement always fits on a standard boa
 |Settlement occupies|the defender's **back three density squares**|
 |Attacker crosses|~24" of neutral ground|
 
+^tbl-the-settlement-canvas
+
 - **No raid window.** Because the settlement fits the board, a raid always uses **all of it**. There is no sub-section to pick, randomise or argue about — the attacker deploys on the far edge and comes at the whole compound.
 - **Density normalisation is automatic.** Count your placed structures as the large features of your three squares; fill the attacker's six squares with neutral terrain until the board sits at **9–12 large features** total. The band in [[Terrain]] is sacred and a settlement never overrides it.
 - **Bigger boards.** On a 4'×4' the strip widens to **12" × 48"**. Both players use the same canvas size in a given game.
@@ -81,6 +83,8 @@ The strip is sized so that **your whole settlement always fits on a standard boa
 |Groundworks I|**18" × 36"**|648 *(+50%)*|
 |Groundworks II *(4'×4' play)*|**18" × 48"**|864|
 
+^tbl-groundworks-the-expansion-project
+
 A maxed settlement reaches roughly **14–15 structures** — still well short of 25.
 
 ### Footprint classes
@@ -92,6 +96,8 @@ A structure's footprint follows **the physical thing it is**, not its game funct
 |**Building**|**6×6" minimum**|An enclosed structure with an interior you can enter|
 |**Plant**|**~3×3"**|Tanks, towers, gensets, masts — bulk with no interior|
 |**Station**|**3×1" minimum**|Kiosks, benches, boards — open-air, no walls|
+
+^tbl-footprint-classes
 
 *Yards (Salvage, Vehicle) are scatter clusters and are sized to their sprawl. The Perimeter Wall is a line, bought by the segment.*
 
@@ -129,6 +135,8 @@ Every settlement begins with these, free. **One gatherer per resource**, plus th
 |**Generator**|**Power**|Everything with a draw needs it|
 |**Processor**|**Materials** gatherer|Scrap → Materials. Nothing gets built without it|
 |**Salvage Yard**|**Goods** gatherer|Sorts and values what scavengers haul back — goods, scrap, equipment|
+
+^tbl-starting-structures-five
 
 Starting footprint is **104 of 432 squares — 24%.** A new settlement should read as a found shell with a genset, a water tank and a heap of sorted scrap.
 
@@ -169,6 +177,8 @@ The five starters draw exactly **3** — HQ 1, Water Reclaimer 1, Processor 1, S
 |**Vault** — HQ upgrade|small, and **secure**|Sabotage or an INT hack, nothing else|
 |**Water Reclaimer** — repeatable|all your Water. **Tank capacity is the Water cap** — more tanks, more water|Breachable — and a holed tank is *spilled*, not stolen|
 
+^tbl-storage-caps-what-you-can-hold-and-what-a-ra
+
 **Overflow is lost.** Income above your cap does not bank; it spoils, walks off, or never gets hauled home. That is the anti-inflation lever ([[Economy]]) and it is why a rich settlement must keep building sheds instead of sitting on a pile.
 
 > [!info] Why storage is standalone and not all in the HQ
@@ -205,6 +215,8 @@ The lot is small on purpose, so the catalogue must not waste slots on things tha
 |**Build another**|You want **more throughput** of something you already have|A whole new footprint|A second Processor, another Storehouse, another tank|
 |**Groundworks**|You are out of lot|Materials + its own footprint|12×36 → 18×36|
 
+^tbl-three-ways-to-grow-and-how-to-tell-them-apar
+
 > [!danger] Nothing is chained — no structure requires another
 > **There are no build prerequisites.** Every entry in the catalogue is available from founding onward, and the only gates are **Materials cost** and **room on the lot**. You may build an EW Mast before you build a wall if that is the settlement you want.
 >
@@ -238,6 +250,8 @@ Every ladder in the catalogue, and what each tier costs in floor space. Where a 
 |**Med-bay** 6×6|Med-bay II|—|scar healing unlocks at T2|
 |**Storehouse** 6×6|Storehouse II|—|capacity, not footprint|
 
+^tbl-upgrade-ladders
+
 A young settlement is a scatter of stalls, tanks and gensets; growing up means those stalls swallow the yard. This is why **Groundworks** gets bought to *upgrade*, not only to expand.
 
 ---
@@ -258,6 +272,8 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 |**Storehouse** *(repeatable)*|Building|6×6|0|Bulk storage for **Goods and Materials** above the HQ's base cap — dry goods, not Water. **The loot target in a raid**|
 |**Equipment Shed** *(→ Armory 6×6)*|Station|3×2|0|Holds every **unequipped** weapon, armour and piece of kit the crew owns. Caps the size of your persistent armoury; the Armory tier raises it and adds a lock|
 
+^tbl-sustain-keep-people-alive-keep-the-grid-up
+
 - Water Reclaimer — `Scatter · Impassable · Heavy · Climbable, Breachable`
 - Generator — `Feature · Impassable · Heavy · Powered, Hackable, Explosive`
 - Bunkhouse — `Building · Interior Open · Heavy · Openable, Lockable, Searchable, Climbable`
@@ -274,6 +290,8 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 |**Trader's Kiosk** *(→ Trade House 6×6)*|Station|3×2|0|Sell owned gear and surplus → **Goods**; the Trade House tier improves rates|
 |**Workbench** *(→ Workshop 6×8, −1)*|Station|3×2|0|Craft and repair. **Workshop tiers unlock the weapon / armour / chem branches** — upgrades, not separate buildings|
 |**Fabricator**|Building|6×6 → 6×10|−2 / −3|**Research**, in three tiers. **T1 Fabricator** unlocks new blueprints · **T2 Robotics Workshop** builds robots and UGVs and services the Drone Bay's airframes · **T3 Advanced Weapons Lab** unlocks the 2051 arsenal — directed-energy, guided small-arms, drone-delivered payloads ([[Weapons]])|
+
+^tbl-convert-turn-one-resource-into-another-and-m
 
 - Processor — `Feature · Impassable · Heavy · Powered, Hackable, Climbable`
 - Salvage Yard — `Scatter cluster · Difficult · Light/Heavy by piece · Searchable, Movable, Unstable`
@@ -293,6 +311,8 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 |**Comms Mast**|Plant|3×3|−1|**Mission quality**: reroll a mission test, reach longer-range targets, broadcast for recruits. Dispatch *count* comes from HQ tiers|
 |**Server Core**|Building|6×6|−2|Intelligence and networked control — rival roster intel, and friendly terminals on the board count as **Linked** ([[Hacking]])|
 |**Drone Bay**|Building|6×8|−2|Drone [[Deployables]] **and** a recon drone that runs a scout mission **without spending a fighter**|
+
+^tbl-operate-what-you-can-do-outside-the-walls
 
 - HQ — `Building · Interior Open · Heavy · Openable, Lockable, Searchable, Climbable, Powered`
 - Vault — `Feature · Impassable · Heavy · Lockable, Hackable`
@@ -317,6 +337,8 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 |**Holding Cells**|Building|6×6|−1|Prisoner capacity **+** reduced escape chance|
 |**Mess Hall**|Building|6×8|−1|Lower starting **Stress**, or one free clear per battle ([[Morale]])|
 
+^tbl-recover-people-come-back
+
 - Med-bay — `Building · Interior Open · Heavy · Lockable, Searchable, Powered`
 - Holding Cells — `Building · Interior Open · Heavy · Lockable, Breachable, Hackable`
 - Mess Hall — `Building · Interior Open · Heavy · Openable, Searchable`
@@ -333,6 +355,8 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 |**Watchtower**|Plant|3×3|0|The defender starts one model in it; denies the attacker surprise|
 |**Turret Mount** *(attaches to a Wall or Gatehouse)*|Plant|2×2|−2|Hardpoint. The turret **auto-deploys** — but costs crew-points and keeps full fragility|
 |**EW Mast**|Plant|3×3|−2|Counter-hack and counter-drone: penalises enemy [[Hacking]] in a raid on you; blocks enemy drone deployables|
+
+^tbl-defend-this-is-the-raid-board
 
 - Perimeter Wall — `Scatter · Impassable · Heavy · Climbable, Breachable, Barricadable`
 - Gatehouse — `Building · Interior Open · Heavy · Openable, Lockable, Hackable, Climbable`
@@ -353,6 +377,8 @@ Sustain **6** · Convert **5** · Operate **6** · Recover **3** · Defend **5**
 |Starting five|**104**|24%|
 |Typical ten-structure settlement|**~290**|~67%|
 |Practical ceiling *(lanes to move through)*|**~300**|~70%|
+
+^tbl-space-budget
 
 The sprawl costs are real: the **Salvage Yard** eats **8%** of the lot at its starting size and more once expanded, and every 6×8 Building is another **11%**. Those are decisions, not shopping.
 

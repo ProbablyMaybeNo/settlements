@@ -24,6 +24,8 @@ Opposed INT (ties→def) → Effect roll (1d10≥7) → Shut-out table. Triple-g
 | 0 | 45% | 18% | **14%** | 86% |
 | +2 | 64% | 26% | **20%** | 80% |
 
+^tbl-t6-hacker-shut-outs-are-too-weak
+
 An even-INT shut-out does anything real **14% of the time — for a whole activation**. Nobody will take it.
 > [!warning] Fix — cut the Effect roll
 > Winning the opposed INT *is* the payload; go **straight to the Shut-out table**. That lifts even-INT to ~**36%** real, INT+2 to ~**51%** — worth an activation and still gated by needing a terminal + winning the duel. (The 20% Glitch band on the table already provides the "close but nothing" outcome.)
@@ -38,6 +40,8 @@ An even-INT shut-out does anything real **14% of the time — for a whole activa
 | 6" | +3 | 70% |
 | 8" | +4 | 80% |
 
+^tbl-t3-a-2-fall-is-a-coin-flip-kill
+
 A 2" curb downing half of WND-1 fighters is too swingy for involuntary falls (knockback off a low ledge).
 > [!warning] Fix — floor the Injury
 > **2–3" fall = Prone only, no Injury roll.** Injury rolls start at **4"+** (`+1 per full 2"` as now). Big drops stay lethal; a low ledge just knocks you flat. Voluntary 2–3" drops keep the AGI-7+ clean-landing option.
@@ -49,6 +53,8 @@ Both slots (whole activation) **and** a −2 free swing from every engager:
 |:--:|:--:|
 | 1 engager | 14% |
 | 2 engagers | 26% |
+
+^tbl-t8-disengage-is-a-dead-option
 
 Two costs stacked = nobody disengages; they just die in place.
 > [!warning] Fix — one cost, not two
@@ -67,6 +73,8 @@ Two costs stacked = nobody disengages; they just die in place.
 | **T7 Search** | Modest, fair: INT+2 attempt ≈ 0.24 Resource + 0.18 gear, 6% self-Pin. A real commitment (exhausts the piece). |
 | **T9 Traversal + armour** | **Heavy armour = −10% on every terrain test**; a failed climb → fall → Prone. **This is the lever that makes terrain punish the Heavy Gunner** — confirms the [[Dice Mechanic — Sim Findings]] §6 thesis. |
 | **T11 Overload** | Rare (shut-out 10 only) and modest (40% injury at Armor 0). Fine as a spike. |
+
+^tbl-validated
 
 ## Interaction worth noting
 **Climb → fall → death** compounds: at AGI+2 a climb fails **40%** of the time, and a fall from height then wounds 50–80%. So sending a mid-AGI fighter up high terrain is genuinely dangerous — good (verticality has teeth), but the T3 fall-floor fix keeps it from being *random* death on low features.

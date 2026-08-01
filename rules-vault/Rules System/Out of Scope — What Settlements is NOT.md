@@ -49,5 +49,7 @@ When you say "no" to something, record it here with *why* — so it doesn't cree
 | _(example)_ Per-shot ammo tracking | Violates the complexity ceiling; abstracted into weapon traits | — |
 |  |  |  |
 
+^tbl-4-rejected-ideas-log
+
 ---
 *A living document — edit freely. See [[Game Vision]] · [[Rules System — Master Roadmap]] · [[Rules System MOC]].*

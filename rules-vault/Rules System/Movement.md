@@ -58,6 +58,8 @@ Open ground, marked stairs, and clear paths are normal movement — no test.
 | **Vault** | Crossing a waist-high obstacle onto / over it (when not covered by low leap) | Bounce off — end short of the obstacle; no fall unless the far side is a drop |
 | **Swim** | Entering or crossing **deep water** / swimmable hazard | End the move in the water; gain **Pinned** (or hazard effect from the scenario) |
 
+^tbl-terrain-movement
+
 - No job-difficulty modifiers — only skills, conditions, **Shaken**, etc.
 - Skills may auto-succeed or soften fails (**Sure-Footed**, **Leaper**, **Vault**, **Water Walker**, **Like a Cat** — [[Skill Paths]]).
 - Difficult ground costs double movement. *(exact categories in [[Terrain]].)*

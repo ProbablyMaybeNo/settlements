@@ -19,6 +19,8 @@ Represent the piece however you like, then declare its one-line profile at setup
 | **Feature** | a printed token or a small model (terminal, vent, camera, turret) | occupies its spot; feature-damage rules ([[Terrain Interaction]]) |
 | **Deployed** | the player-placed model itself (barricade, trap, turret) | as placed / as the piece |
 
+^tbl-terrain
+
 ## Settlement structures
 Built structures follow the **Terrain** rules above — declare the same one-line profile at setup. The catalogue prints one for every entry ([[Structures]]).
 
@@ -49,6 +51,8 @@ One token per condition, sitting beside the model ([[Conditions#General rules]] 
 | **Ready** | a die or arrow token; **persists across rounds** — clear only when spent or cancelled |
 | **Order used** | a marker; clear in the End Phase refresh |
 | **Objective / VP** | tally on the crew sheet or a dial |
+
+^tbl-condition-status-tokens
 
 ## Deployables
 Place the **actual model** (turret, mine, tripwire, beacon) when deployed, plus a small **owner marker** so both crews know whose it is. Track its damage state (Online → Offline → Destroyed) by turning or removing the marker ([[Deployables]]).
