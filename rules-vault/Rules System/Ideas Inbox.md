@@ -11,6 +11,12 @@ tags: [settlements/inbox]
 ---
 ## 🧠 Unsorted (type freely here)
 
+#### BIG RULES UPDATE - POST GLOBAL POINTS SYSTEM DRAFT
+
+I want to use this section to basically try to describe the type of game I want settlers to be, the type of combsat I want players to experience, the world I want them to explore and inhabit. These ideas are not facts or auto includes. They are just my thoughts on how ideally want the Settlements game to come together and be played. 
+
+1. Battles - I really want battles to become something more than your standard skirmish battle. I want it to feel unique and genuine. It should be highly realistic without being overly rules heavy, bloated, or a grind to get through. I want battles to feel real and therefore they should be bloody, fast paced, 
+
 - Include a fear/terror mechanism where units can "break" and become frozen in place unable to move or act until a crew member "snaps them out of it" or the controlling player rolls a certain hard to hit dice roll. "Break" is different to "Flee" or "bolt" where a unit will try to run off the board. "Break" occurs when a unit witnesses enough trauma in a single turn. Trauma can include witnessing a friendly get shot. They get shot from a out of LOS enemy. An enemy with the "Fear" trait finished a turn in their LOS or they get targeted by an enemy. Something like that. 
   
   I'd like to include more of an emphasis on morale and mental health in the game. We could include a set of "fear/terror" related affects, Break, Bolt, Freak, Fight.
