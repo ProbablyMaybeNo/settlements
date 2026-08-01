@@ -64,6 +64,12 @@ One number, two words, and nothing else.
 
 **In one line:** *you buy everything with Credits, and the Credits you put on the table are your Crew Rating.*
 
+| # | Decision |
+|---|---|
+| D27 | **Scars do not touch Crew Rating.** A scar is a **pure nerf** — rules penalties only, no change to the fighter's Credit cost, in the same way a skill carries no separate cost of its own. Confirms and enforces **D14**; the **−2 per lasting scar** rebate in `List Building.md` is **cut**. The rebate was working against the valve it sat inside: it made *scarred* veterans cheaper to field, softening the campaign grind and quietly rewarding you for having fighters maimed. Propagated to `List Building.md`, `Structures.md` (the Med-bay callout is rewritten — the gate survives on a different argument) and the roadmap. |
+
+> ⚠️ **Consequence, still open.** With no rating offset, a scar's *effects* are now the entire content of the mechanic — and **no scar effect table has ever been written.** "Full scar / injury effect tables" is still unticked on the roadmap, and the Fate table's `2–3 Grievous injury` / `6–8 Lasting scar` rows point at content that does not exist. This is now the biggest hole in the campaign layer.
+
 ## Conflicts to resolve during this pass
 
 - ~~**Water.**~~ **Resolved 2026-08-01** — Water cut and propagated through `Structures.md`, `List Building.md` and `Settlement.md`. Catalogue 25 → **23**, starters five → **four**, Sustain 6 → **4**.
