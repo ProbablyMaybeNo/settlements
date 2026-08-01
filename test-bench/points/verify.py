@@ -56,11 +56,11 @@ def legacy_drift() -> list[dict]:
 def verify_structural() -> list[str]:
     """Invariants the costing system claims about itself, checked not asserted."""
     from .ticks import (
-        CHAR_GOODS,
-        CLASS_GOODS,
+        CHAR_CREDITS,
+        CLASS_CREDITS,
         CLASS_META,
         CLASS_RANGE_BAND,
-        DRAWBACK_GOODS,
+        DRAWBACK_CREDITS,
         RANGE_BAND,
         SHORT_RANGE_REFUND,
     )
@@ -70,26 +70,26 @@ def verify_structural() -> list[str]:
     # The 24" threshold, derived twice independently (POINTS-TABLE §4).
     # Cumbersome is no longer welded onto Heavy Ranged (2026-07-30) — its cost is
     # the slot count, not a penalty — so the -20 refund is gone from this identity.
-    lhs = CLASS_GOODS["heavy_ranged"]
-    rhs = CLASS_GOODS["standard_ranged"] + CHAR_GOODS["long_range"]
+    lhs = CLASS_CREDITS["heavy_ranged"]
+    rhs = CLASS_CREDITS["standard_ranged"] + CHAR_CREDITS["long_range"]
     if lhs != rhs:
         errs.append(
             f"24\" threshold broken: heavy_ranged {lhs} != standard "
-            f"{CLASS_GOODS['standard_ranged']} + long_range "
-            f"{CHAR_GOODS['long_range']} = {rhs}"
+            f"{CLASS_CREDITS['standard_ranged']} + long_range "
+            f"{CHAR_CREDITS['long_range']} = {rhs}"
         )
 
     # Armour must be linear: -2 costs exactly twice -1, with no refunds, because
     # each armour point is a flat -10% on the injury roll.
-    from .ticks import ARMOUR_GOODS, ARMOUR_INJURY
+    from .ticks import ARMOUR_CREDITS, ARMOUR_INJURY
     per_point = {}
-    for name, goods in ARMOUR_GOODS.items():
+    for name, cost in ARMOUR_CREDITS.items():
         inj = ARMOUR_INJURY.get(name, 0)
         if inj:
-            per_point[name] = goods / abs(inj)
+            per_point[name] = cost / abs(inj)
     if per_point and len(set(per_point.values())) != 1:
         errs.append(
-            "armour ladder is not linear: Goods per armour point = "
+            "armour ladder is not linear: Credits per armour point = "
             + ", ".join(f"{k} {v:g}" for k, v in sorted(per_point.items()))
         )
 
@@ -108,10 +108,10 @@ def verify_structural() -> list[str]:
     for cls, refund in SHORT_RANGE_REFUND.items():
         if refund >= 0:
             errs.append(f"short_range refund for {cls} is not negative: {refund}")
-        if -refund > CLASS_GOODS[cls]:
+        if -refund > CLASS_CREDITS[cls]:
             errs.append(
                 f"short_range on {cls} refunds {-refund} > class cost "
-                f"{CLASS_GOODS[cls]}"
+                f"{CLASS_CREDITS[cls]}"
             )
 
     # The refund must be monotonic in what is actually lost: a longer-ranged
@@ -188,7 +188,7 @@ def export_catalogue(path: Path) -> dict:
 
 
 def run_report() -> int:
-    print(f"=== Settlements Points Engine v0  (scale {SCALE}) ===\n")
+    print(f"=== Settlements Credits Engine v0  (scale {SCALE}) ===\n")
     rc = 0
 
     fails = verify_armoury() + verify_structural()
@@ -208,7 +208,7 @@ def run_report() -> int:
         print("MEASURED AT ZERO — a rules defect, not a price (M4, conditions2d.py):")
         for name in zeros:
             print(
-                f"  !! {name:<16} still listed at {ticks.CHAR_GOODS[name]:3} Goods, "
+                f"  !! {name:<16} still listed at {ticks.CHAR_CREDITS[name]:3} Credits, "
                 f"measured inside the noise floor"
             )
         print("  Strengthen the rule or cut the trait; do not sell it at any price.\n")
@@ -237,7 +237,7 @@ def run_report() -> int:
 
     print("\nDesign examples (your construction shape):")
     for b in DESIGN_EXAMPLES:
-        print(f"  {b.name:28} {weapon_cost(b):4} Goods")
+        print(f"  {b.name:28} {weapon_cost(b):4} Credits")
 
     print("\nStarter structures (Materials):")
     power_budget = 5

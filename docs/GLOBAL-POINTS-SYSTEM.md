@@ -1,19 +1,19 @@
 # Settlements — Global Points System
 
-**Version:** 0.1 · **Scale:** 1000 Goods = standard battle rating  
+**Version:** 0.1 · **Scale:** 1000 Credits = standard Crew Rating  
 **Status:** provisional (tune with sim) · **Engine:** `test-bench/points/` · **Export:** `costs/catalogue_v0.json`  
 **Decisions:** `docs/POINTS-DECISIONS.md`
 
-Players never see the formulas below. They only see final **Goods** / **Materials** prices on catalogue entries.
+Players never see the formulas below. They only see final **Credits** / **Materials** prices on catalogue entries.
 
 ---
 
-## How battle rating works
+## How Crew Rating works
 
 1. Agree a rating cap (standard **1000**).
-2. Each fielded fighter costs: **body Goods + equipped gear Goods**.
+2. Each fielded fighter costs: **body Credits + equipped gear Credits**.
 3. **Stashed / unequipped gear = 0** toward rating.
-4. Hire and buy kit with **Goods**. That same Goods number is what counts when the item is on a fielded fighter.
+4. Hire and buy kit with **Credits**. That same Credits number is what counts when the item is on a fielded fighter.
 
 ```
 crew_rating = sum(body + equipped_weapons + armour + equipment)  for each fielded fighter
@@ -26,8 +26,8 @@ crew_rating ≤ agreed_cap
 
 | Resource | Use |
 |---|---|
-| **Goods** | Hire crew, buy equipment, primary currency. Fielded Goods = battle rating. |
-| **Materials** | Build / upgrade structures. Convert to Goods at a **Trader** (rate TBD). |
+| **Credits** | Hire crew, buy equipment, primary currency. Fielded Credits = Crew Rating. |
+| **Materials** | Build / upgrade structures. Convert to Credits at a **Trader** (rate TBD). |
 | **Power** | Assigned each Settlement round. Generator **+5**. Structure draw: **T1=1 · T2=2 · T3=3**. Unpowered = no benefit this round (still on board). |
 
 **Water is cut.** Population brake = housing slots only.
@@ -38,7 +38,7 @@ crew_rating ≤ agreed_cap
 
 | Dial | Value |
 |---|---|
-| Standard battle rating | **1000** |
+| Standard Crew Rating | **1000** |
 | HQ housing slots | **12** |
 | Bunkhouse | **+6** slots |
 | Equipment slots (start) | **30** |
@@ -54,10 +54,10 @@ crew_rating ≤ agreed_cap
 ## The tick (designer only)
 
 ```
-1 TICK = 10 Goods
+1 TICK = 10 Credits
 ```
 
-| Atom | Goods | Notes |
+| Atom | Credits | Notes |
 |---|:--:|---|
 | Unconditional +1 on a test | 10 | Rare as flat gear |
 | +1 injury (Brutal / Armour Piercing) | **40** | Legacy ×10 spine |
@@ -75,9 +75,9 @@ crew_rating ≤ agreed_cap
 
 ---
 
-## Rank bodies (Goods)
+## Rank bodies (Credits)
 
-| Rank | Stat pts | Orders | Goods |
+| Rank | Stat pts | Orders | Credits |
 |---|:--:|:--:|:--:|
 | **Recruit** | 3 | 0 | **65** |
 | **Fighter** | 5 | 0 | **95** |
@@ -86,9 +86,9 @@ crew_rating ≤ agreed_cap
 
 ---
 
-## Weapon classes (Goods)
+## Weapon classes (Credits)
 
-| Class | Goods | Damage | Range | Slots | Min rank |
+| Class | Credits | Damage | Range | Slots | Min rank |
 |---|:--:|:--:|:--:|:--:|---|
 | Unarmed | 0 | +0 | melee | 0 | Any |
 | Light Melee | 0 | +1 | melee | 2 | Recruit |
@@ -103,9 +103,9 @@ Hard caps: damage ≤ **+4** · range ≤ **24"** · max **2** drawbacks.
 
 ---
 
-## Characteristics (Goods)
+## Characteristics (Credits)
 
-| Characteristic | Goods | Effect |
+| Characteristic | Credits | Effect |
 |---|:--:|---|
 | Brutal | 40 | +1 Damage (max +4) |
 | Armour Piercing | 40 | Target armour −1 on Injury |
@@ -132,7 +132,7 @@ Hard caps: damage ≤ **+4** · range ≤ **24"** · max **2** drawbacks.
 | Quiet | 20 | No reveal / no noise |
 | Compact | 20 | Counts as one-handed (heavy classes) |
 
-### Drawbacks (refund Goods)
+### Drawbacks (refund Credits)
 
 | Drawback | Refund | Effect |
 |---|:--:|---|
@@ -144,16 +144,16 @@ Hard caps: damage ≤ **+4** · range ≤ **24"** · max **2** drawbacks.
 
 ---
 
-## Armour & kit (Goods)
+## Armour & kit (Credits)
 
-| Armour | Goods | Injury | Drawback |
+| Armour | Credits | Injury | Drawback |
 |---|:--:|:--:|---|
 | None / Thick clothing | 0 | 0 | — |
 | Improvised | **30** | −1 | −1 AGI |
 | Light | **60** | −1 | — |
 | Heavy | **100** | −2 | −1 MOV, −1 AGI, Loud |
 
-| Equipment | Goods |
+| Equipment | Credits |
 |---|:--:|
 | Med-Kit | 40 |
 | Breach Kit | 40 |
@@ -161,9 +161,9 @@ Hard caps: damage ≤ **+4** · range ≤ **24"** · max **2** drawbacks.
 
 ---
 
-## Sample armoury (Goods)
+## Sample armoury (Credits)
 
-| Name | Build | Goods |
+| Name | Build | Credits |
 |---|---|:--:|
 | Baseball Bat | Light Melee | **0** |
 | Kitchen Knife | Light Melee · Balanced · Concealable | **40** |
@@ -184,7 +184,7 @@ Hard caps: damage ≤ **+4** · range ≤ **24"** · max **2** drawbacks.
 
 ### Construction examples
 
-| Build | Math | Goods |
+| Build | Math | Credits |
 |---|---|:--:|
 | Auto Rifle + Fire | Standard Ranged 100 + Incendiary 30 | **130** |
 | Machete + Shock | One-Handed 40 + Shocking 30 | **70** |
@@ -263,7 +263,7 @@ After one Advance that buys +1 DEX on the Leader: Leader body becomes 245+15 = *
 - Damage ≤ +4 · Armour ≥ −2 · Modifier ±3 · Range ≤ 24"
 - WND = 1 · MOV = 6" (except named skills)
 - Legal board: **9–12** large features
-- Extra attacks / multi-action: **rank/tier gated**, never sold as a flat Goods line
+- Extra attacks / multi-action: **rank/tier gated**, never sold as a flat Credits line
 - Thresholds are gated, not priced
 
 ---

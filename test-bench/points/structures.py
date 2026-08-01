@@ -1,4 +1,4 @@
-"""Structure Materials cost derivation (not battle Goods)."""
+"""Structure Materials cost derivation (not battle Credits)."""
 
 from __future__ import annotations
 

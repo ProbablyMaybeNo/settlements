@@ -33,10 +33,10 @@ Free +1 given to one side, win-rate delta per model buffed, averaged over realis
 
 **Why to-hit beats damage:** average cover is ≈ −1.1, so the hit roll (~49%) is the bottleneck against the injury roll (~70%). A multiplicative engine rewards fixing the bottleneck. `P(kill) = P(hit) × P(injure)`.
 
-**Anchoring on +1 Damage = 15 Goods:** to-hit **22** · Damage **15** · Armour **15** · Stress **7**.
+**Anchoring on +1 Damage = 15 Credits:** to-hit **22** · Damage **15** · Armour **15** · Stress **7**.
 
 ### Other measurements
-- **Rate of Fire 2** ≈ **+50** on a 100-Goods weapon class. Measured by rebuilding the list to pay for it (dropping a 12-point model returned the crew to baseline: −3/−2/−6). **RoF 3 is unpriced.**
+- **Rate of Fire 2** ≈ **+50** on a 100-Credits weapon class. Measured by rebuilding the list to pay for it (dropping a 12-point model returned the crew to baseline: −3/−2/−6). **RoF 3 is unpriced.**
 - **Stress context:** of all hits landing, the target was already at 0 Stress 26.5% / 1 Stress 33.5% / 2 Stress 24.9% / 3+ 15.1% (medium density).
 - **Armour is archetype-neutral** — per model it is worth 1.6 to an elite crew and 1.24 to a swarm (only 1.3× apart), where offensive primitives are 3.5–4.6× better on elites.
 - **Stat allocation** (`engine2d/run.py statsys`): GENTLE (strong primary + one real secondary) **beats** SPREAD (one spike + dabbles) **by 26 points**, and edges STACKED by 4.6. **Forced maximal spread produces the weakest crews. +1 dabbles are near-dead weight.**
@@ -64,7 +64,7 @@ Free +1 given to one side, win-rate delta per model buffed, averaged over realis
 
 ## Milestone 2 — Resolve the armour discrepancy 🚦
 
-**The problem:** measurement puts +1 Armour at **1.01× +1 Damage** (so ~15 Goods per point). `ticks.py` prices Light armour (−1) at **60** and Heavy (−2) at **100**. That is a **4× gap**.
+**The problem:** measurement puts +1 Armour at **1.01× +1 Damage** (so ~15 Credits per point). `ticks.py` prices Light armour (−1) at **60** and Heavy (−2) at **100**. That is a **4× gap**.
 
 **Do first (autonomous):** re-run `test-bench/balance/primitives.py` and `melee_armour.py` and confirm both results still hold against current `ticks.py`.
 
@@ -136,7 +136,7 @@ Structures cannot be priced on the battle-layer anchor — a Storehouse buys zer
 
 **The open structural question**, currently `POINTS-TABLE.md` §9.
 
-The engine is multiplicative, so a 100-Goods rifle delivers ~33% more kill probability on a DEX+4 Leader than a DEX+2 Fighter — **for the same price**. One Page Rules solves this by multiplying weapon cost by the carrier's Quality; verified 4/4 against their own worked examples.
+The engine is multiplicative, so a 100-Credits rifle delivers ~33% more kill probability on a DEX+4 Leader than a DEX+2 Fighter — **for the same price**. One Page Rules solves this by multiplying weapon cost by the carrier's Quality; verified 4/4 against their own worked examples.
 
 **The tension:** a carrier-dependent multiplier means **a gun no longer has one price**, which conflicts with the single summable table Ross asked for.
 

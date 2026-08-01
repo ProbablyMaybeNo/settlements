@@ -1,6 +1,6 @@
 # Settlements — The Global Points Table
 
-**v0.2** · Scale: **1000 = standard battle rating** · Supersedes `GLOBAL-POINTS-SYSTEM.md` (v0.1)
+**v0.2** · Scale: **1000 = standard Crew Rating** · Supersedes `GLOBAL-POINTS-SYSTEM.md` (v0.1)
 
 Everything in the game costs points derived from one atom. Build anything by summing its parts from the tables below. Players see only final prices; the derivation is for the designer.
 
@@ -23,7 +23,7 @@ Everything in the game costs points derived from one atom. Build anything by sum
 | **Gated, never sold** | how *often* a model acts | extra attacks, extra Orders — **rank gates these, no price exists** |
 | **Thresholds** | — | 24" range, Damage +4, Armour −2, ±3 modifier — **capped, not priced** |
 
-A unit's cost **is** its crew rating. You pay it once to hire and equip; that same number is what it occupies against the battle cap. Stashed, unequipped gear counts **0**.
+A unit's cost **is** its Crew Rating. You pay it once to hire and equip; that same number is what it occupies against the battle cap. Stashed, unequipped gear counts **0**.
 
 ---
 
@@ -123,14 +123,14 @@ There is no single "unconditional baseline" any more. A +1 is worth different am
 
 Source: `test-bench/balance/realistic.py`, re-run and reproduced 2026-07-30. A free +1 given to one side; win-rate delta divided by models buffed; averaged over the all-armed lists (Gunline 4 / Fireteam 6 / Squad 8) at medium and dense density.
 
-| Primitive | medium | dense | mean | relative to +1 Damage | **Goods** |
+| Primitive | medium | dense | mean | relative to +1 Damage | **Credits** |
 |---|:--:|:--:|:--:|:--:|:--:|
 | **+1 to-hit** | +1.4367 | +1.8667 | 1.6517 | **1.4769×** | **22** |
 | **+1 Damage** | +1.1733 | +1.0633 | 1.1183 | **1.0000×** *(anchor)* | **15** |
 | +1 Armour | +0.9833 | +1.2733 | 1.1283 | 1.0089× | *(15.13 — see §7)* |
 | **+1 Stress** | +0.5700 | +0.4400 | 0.5050 | **0.4516×** | **7** |
 
-Anchoring +1 Damage = 15 Goods yields **22.15 / 15.00 / 15.13 / 6.77** → 22 / 15 / 15 / 7.
+Anchoring +1 Damage = 15 Credits yields **22.15 / 15.00 / 15.13 / 6.77** → 22 / 15 / 15 / 7.
 
 **Why to-hit beats damage.** Average cover is ≈ −1.1, so the hit roll (~49%) is the bottleneck against the injury roll (~70%). `P(kill) = P(hit) × P(injure)` — a multiplicative engine rewards fixing the bottleneck.
 
@@ -210,7 +210,7 @@ Every low-value trait rose between the two passes, which is the signature of exa
 | **Toxic** | **9** | 2 | 30 | 0.58× | — |
 | **Blinding** | **7** | −1 | 30 | 0.43× | — |
 
-Nine of sixteen catalogue weapons moved, **−143 Goods** across the sample armoury.
+Nine of sixteen catalogue weapons moved, **−143 Credits** across the sample armoury.
 
 ### 5.5 · Two traits measure at zero — that is a rules defect, not a price
 
@@ -253,7 +253,7 @@ A related timing finding, which is a rules question and not a costing one: **Bli
 
 ### 5.4 · What M1 moved
 
-Repricing the injury and to-hit atoms moved **5 of 16** catalogue weapons, all downward, for a total of **−111 Goods** across the sample armoury.
+Repricing the injury and to-hit atoms moved **5 of 16** catalogue weapons, all downward, for a total of **−111 Credits** across the sample armoury.
 
 | Weapon | was | now | Δ | why |
 |---|:--:|:--:|:--:|---|

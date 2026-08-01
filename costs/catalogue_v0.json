@@ -31,7 +31,7 @@
     {
       "name": "Baseball Bat",
       "class": "light_melee",
-      "class_goods": 0,
+      "class_points": 0,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {},
@@ -43,7 +43,7 @@
     {
       "name": "Kitchen Knife",
       "class": "light_melee",
-      "class_goods": 0,
+      "class_points": 0,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
@@ -58,7 +58,7 @@
     {
       "name": "Crowbar",
       "class": "one_handed_melee",
-      "class_goods": 40,
+      "class_points": 40,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
@@ -72,7 +72,7 @@
     {
       "name": "Great Axe",
       "class": "heavy_melee",
-      "class_goods": 80,
+      "class_points": 80,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {},
@@ -84,7 +84,7 @@
     {
       "name": "Sledgehammer",
       "class": "heavy_melee",
-      "class_goods": 80,
+      "class_points": 80,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
@@ -99,7 +99,7 @@
     {
       "name": "Fire Axe",
       "class": "heavy_melee",
-      "class_goods": 80,
+      "class_points": 80,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
@@ -114,7 +114,7 @@
     {
       "name": "Reaping Hook",
       "class": "heavy_melee",
-      "class_goods": 80,
+      "class_points": 80,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
@@ -129,7 +129,7 @@
     {
       "name": "Pistol",
       "class": "sidearm",
-      "class_goods": 40,
+      "class_points": 40,
       "range_band": "close",
       "range_inches": 8,
       "characteristics": {},
@@ -141,7 +141,7 @@
     {
       "name": "Pipe Shotgun",
       "class": "standard_ranged",
-      "class_goods": 100,
+      "class_points": 100,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
@@ -159,7 +159,7 @@
     {
       "name": "Assault Rifle",
       "class": "standard_ranged",
-      "class_goods": 100,
+      "class_points": 100,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
@@ -173,7 +173,7 @@
     {
       "name": "Nailgun",
       "class": "standard_ranged",
-      "class_goods": 100,
+      "class_points": 100,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
@@ -187,7 +187,7 @@
     {
       "name": "Grandpa's Hunting Rifle",
       "class": "standard_ranged",
-      "class_goods": 100,
+      "class_points": 100,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
@@ -202,7 +202,7 @@
     {
       "name": "Squad Machine Gun",
       "class": "heavy_ranged",
-      "class_goods": 160,
+      "class_points": 160,
       "range_band": "deployment",
       "range_inches": 24,
       "characteristics": {
@@ -217,7 +217,7 @@
     {
       "name": "Makeshift Flamethrower",
       "class": "heavy_ranged",
-      "class_goods": 160,
+      "class_points": 160,
       "range_band": "deployment",
       "range_inches": 24,
       "characteristics": {
@@ -235,7 +235,7 @@
     {
       "name": "Molotov",
       "class": "thrown",
-      "class_goods": 40,
+      "class_points": 40,
       "range_band": "thrown",
       "range_inches": 6,
       "characteristics": {
@@ -252,7 +252,7 @@
     {
       "name": "Smoke Grenade",
       "class": "thrown",
-      "class_goods": 40,
+      "class_points": 40,
       "range_band": "thrown",
       "range_inches": 6,
       "characteristics": {
@@ -270,7 +270,7 @@
     {
       "name": "Auto Rifle +Fire",
       "class": "standard_ranged",
-      "class_goods": 100,
+      "class_points": 100,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
@@ -282,7 +282,7 @@
     {
       "name": "Machete +Shock",
       "class": "one_handed_melee",
-      "class_goods": 40,
+      "class_points": 40,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
@@ -294,7 +294,7 @@
     {
       "name": "Brutal Machete +Shock",
       "class": "one_handed_melee",
-      "class_goods": 40,
+      "class_points": 40,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {

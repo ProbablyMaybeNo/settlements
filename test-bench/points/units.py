@@ -1,11 +1,11 @@
-"""Rank body Goods, Advances, and fielded crew rating."""
+"""Rank body Credits, Advances, and fielded crew rating."""
 
 from __future__ import annotations
 
 from dataclasses import dataclass, field
 from enum import Enum
 
-from .ticks import BODY_BASE, ORDER_PREMIUM, SKILL_TIER_GOODS, TICK_STAT
+from .ticks import BODY_BASE, ORDER_PREMIUM, SKILL_TIER_CREDITS, TICK_STAT
 from .weapons import WeaponBuild, weapon_cost
 
 
@@ -53,14 +53,14 @@ def listed_body_cost(rank: Rank) -> int:
 
 
 def advance_stat() -> int:
-    """Goods added when an Advance grants +1 to a path-stat."""
+    """points added when an Advance grants +1 to a path-stat."""
     return TICK_STAT
 
 
 def advance_skill(tier: int) -> int:
-    if tier not in SKILL_TIER_GOODS:
+    if tier not in SKILL_TIER_CREDITS:
         raise ValueError(f"skill tier must be 1–3, got {tier}")
-    return SKILL_TIER_GOODS[tier]
+    return SKILL_TIER_CREDITS[tier]
 
 
 def promotion_cost(from_rank: Rank, to_rank: Rank) -> int:
@@ -71,39 +71,39 @@ def promotion_cost(from_rank: Rank, to_rank: Rank) -> int:
 class Fighter:
     name: str
     rank: Rank
-    advance_goods: int = 0  # sum of Advance Δgoods over campaign
+    advance_points: int = 0  # sum of Advance Δpoints over campaign
     weapons: list[WeaponBuild] = field(default_factory=list)
     armour: str = "thick_clothing"
     equipment: list[str] = field(default_factory=list)  # keys in tick tables
     equipped: bool = True  # False = stashed body? (normally fighters are owned)
 
 
-def armour_goods(armour: str) -> int:
-    from .ticks import ARMOUR_GOODS
+def armour_points(armour: str) -> int:
+    from .ticks import ARMOUR_CREDITS
 
-    if armour not in ARMOUR_GOODS:
+    if armour not in ARMOUR_CREDITS:
         raise ValueError(f"unknown armour {armour!r}")
-    return ARMOUR_GOODS[armour]
+    return ARMOUR_CREDITS[armour]
 
 
-def equipment_goods(item: str) -> int:
-    from .ticks import EQUIPMENT_GOODS, HACK_GEAR_GOODS
+def equipment_points(item: str) -> int:
+    from .ticks import EQUIPMENT_CREDITS, HACK_GEAR_CREDITS
 
-    if item in EQUIPMENT_GOODS:
-        return EQUIPMENT_GOODS[item]
-    if item in HACK_GEAR_GOODS:
-        return HACK_GEAR_GOODS[item]
+    if item in EQUIPMENT_CREDITS:
+        return EQUIPMENT_CREDITS[item]
+    if item in HACK_GEAR_CREDITS:
+        return HACK_GEAR_CREDITS[item]
     raise ValueError(f"unknown equipment {item!r}")
 
 
 def fielded_cost(fighter: Fighter) -> int:
-    """Goods rating contribution when this fighter is listed for battle."""
-    total = listed_body_cost(fighter.rank) + fighter.advance_goods
-    total += armour_goods(fighter.armour)
+    """points rating contribution when this fighter is listed for battle."""
+    total = listed_body_cost(fighter.rank) + fighter.advance_points
+    total += armour_points(fighter.armour)
     for w in fighter.weapons:
         total += weapon_cost(w)
     for e in fighter.equipment:
-        total += equipment_goods(e)
+        total += equipment_points(e)
     return total
 
 

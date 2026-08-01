@@ -1,9 +1,9 @@
-"""Atomic tick table — 1000 Goods scale. Players never see these atoms."""
+"""Atomic tick table — 1000-Credit scale. Players never see these atoms."""
 
 from __future__ import annotations
 
 SCALE = 1000
-TICK = 10  # Goods per generic unconditional +1 test tick (legacy abstraction)
+TICK = 10  # Points per generic unconditional +1 test tick (legacy abstraction)
 
 # ---------------------------------------------------------------------------
 # MEASURED PRIMITIVE ATOMS                                   [measured 2026-07-30]
@@ -19,7 +19,7 @@ TICK = 10  # Goods per generic unconditional +1 test tick (legacy abstraction)
 #   +1 Armour     +0.9833   +1.2733   1.1283  1.0089x
 #   +1 Stress     +0.5700   +0.4400   0.5050  0.4516x
 #
-# Anchoring +1 Damage = 15 Goods gives 22.15 / 15.00 / 15.13 / 6.77.
+# Anchoring +1 Damage = 15 Credits gives 22.15 / 15.00 / 15.13 / 6.77.
 #
 # CAVEAT ON PROVENANCE: realistic.py runs on crew_sim.py, which documents itself
 # as a 1D board, and it does not swap sides. The 2.5D engine (engine2d/) has not
@@ -27,15 +27,15 @@ TICK = 10  # Goods per generic unconditional +1 test tick (legacy abstraction)
 # armour result was later shown to be an artefact, so the 1D provenance of these
 # four numbers is a live risk, not a settled fact.
 # ---------------------------------------------------------------------------
-GOODS_DAMAGE = 15  # [measured] the anchor: +1 on the Injury roll
-GOODS_TO_HIT = 22  # [measured] unconditional +1 on the hit roll (1.4769x damage)
-GOODS_STRESS = 7  # [measured] +1 Stress inflicted on a hit (0.4516x damage)
+CREDITS_DAMAGE = 15  # [measured] the anchor: +1 on the Injury roll
+CREDITS_TO_HIT = 22  # [measured] unconditional +1 on the hit roll (1.4769x damage)
+CREDITS_STRESS = 7  # [measured] +1 Stress inflicted on a hit (0.4516x damage)
 
 # Provisional conditional ladder: L = (1 - f)/f, net multiplier = f.
 # f = 0.8 ("most activations") is a judgement band, NOT measured. Measuring f per
 # trait is Milestone 4's job; until then every conditional to-hit trait sits here.
 CONDITIONAL_F_PROVISIONAL = 0.8
-GOODS_TO_HIT_CONDITIONAL = 18  # round(22 * 0.8) = 17.6 -> 18  [provisional]
+CREDITS_TO_HIT_CONDITIONAL = 18  # round(22 * 0.8) = 17.6 -> 18  [provisional]
 
 # +1 Armour measured at 1.0089x damage (1D) and 0.9756x (2.5D) — both engines
 # agree armour is worth about the same as damage per point. The ABSOLUTE level is
@@ -44,20 +44,20 @@ GOODS_TO_HIT_CONDITIONAL = 18  # round(22 * 0.8) = 17.6 -> 18  [provisional]
 # gap is the body-vs-damage scale problem, not an armour problem — the weapon
 # CLASS costs are still legacy and unmeasured, so any cross-comparison between a
 # measured characteristic and an inherited class price gives a nonsense ratio.
-# ARMOUR_GOODS holds the 60 level pending measurement of the classes.
+# ARMOUR_CREDITS holds the 60 level pending measurement of the classes.
 
 # Injury-side atom (Brutal / AP). Legacy was 4 ticks x 10 = 40; measurement
 # replaces it. The tick abstraction no longer divides evenly, which is expected:
 # measurement supersedes the hand-set ladder.
-GOODS_INJURY = GOODS_DAMAGE  # [measured] 15
+CREDITS_INJURY = CREDITS_DAMAGE  # [measured] 15
 
 # Per path-stat point inside a rank bundle (not sold à la carte to players).
-TICK_STAT = 15  # Goods directly (not × TICK) — kept as Goods for clarity
+TICK_STAT = 15  # Credits directly (not × TICK)
 BODY_BASE = 20
 ORDER_PREMIUM = {0: 0, 1: 40, 2: 90}
 
 # Skill unlock premiums when an Advance crosses a tier
-SKILL_TIER_GOODS = {1: 20, 2: 35, 3: 55}
+SKILL_TIER_CREDITS = {1: 20, 2: 35, 3: 55}
 
 # Structure Materials derivation
 POWER_MAT = 15
@@ -81,7 +81,7 @@ UPGRADE_MULT = {2: 1.60, 3: 1.75}
 GROUNDWORKS_MAT = {1: 120, 2: 200}
 
 # Weapon classes — legacy ×10
-CLASS_GOODS = {
+CLASS_CREDITS = {
     "unarmed": 0,
     "light_melee": 0,
     "one_handed_melee": 40,
@@ -135,16 +135,16 @@ CLASS_META = {
 #   Concussive             1      -4    30   0.036x  <-- measures nothing
 #   Crippling             -2      -0    30  -0.120x  <-- measures nothing
 # ---------------------------------------------------------------------------
-CHAR_GOODS = {
-    "brutal": GOODS_INJURY,  # [measured] 15 — the anchor, unchanged
+CHAR_CREDITS = {
+    "brutal": CREDITS_INJURY,  # [measured] 15 — the anchor, unchanged
     # AP is worth EXACTLY +1 Damage against an armoured target and EXACTLY ZERO
     # against a bare one — confirmed in test_conditions.py. In the armoured mirror
     # it measured 1.21/1.50 per model against +1 Damage's own 1.21/1.50: identical.
     # So its true form is 15 x f(target wears armour). 9 is the blend measured over
     # two bare lists and one armoured one. In an armoured meta it is worth 15.
     "armour_piercing": 9,  # [measured, conditional on armour prevalence]
-    "accurate": GOODS_TO_HIT_CONDITIONAL,  # [measured, provisional f] 18 — was 30
-    "spread": GOODS_TO_HIT_CONDITIONAL,  # [measured, provisional f] 18 — was 30
+    "accurate": CREDITS_TO_HIT_CONDITIONAL,  # [measured, provisional f] 18 — was 30
+    "spread": CREDITS_TO_HIT_CONDITIONAL,  # [measured, provisional f] 18 — was 30
     "rate_of_fire_2": 50,  # [measured] balance/rof_cost.py — see note below
     # --- payloads, each measured on its own. The old flat 30 was a grouping, and
     # the spread below is 46:1. Bleed and Blind cannot share a price.
@@ -157,7 +157,7 @@ CHAR_GOODS = {
     "suppressive": 17,  # [measured] the Pin costs the whole activation — was 40
     "blast": 43,  # [measured] resolve against everything within 2"
     # CONCUSSIVE (Off-Balance) and CRIPPLING (Hobbled) MEASURE AT ZERO — 1 and -2
-    # Goods, i.e. inside the noise floor. They are DELIBERATELY LEFT AT 30 and
+    # Credits, i.e. inside the noise floor. They are DELIBERATELY LEFT AT 30 and
     # flagged, not repriced to nothing: selling a player a trait that does nothing
     # is worse than selling it at the wrong price. This is a DESIGN defect to fix
     # in the rules (the effects are too small, or expire too fast to matter), not
@@ -215,7 +215,7 @@ CHAR_GOODS = {
 # their rules were strengthened. The remaining options are to strengthen much
 # harder or to cut them; they are deliberately not repriced to ~0, because a
 # near-free trait in a player-built weapon system gets taken on everything.
-# Reported by points.verify.
+# Reported by Credits.verify.
 UNPRICEABLE_MEASURED_ZERO = ("concussive", "crippling")
 
 # Rate of Fire 2 = 50  [measured 2026-07-30, balance/rof_cost.py reproduced]
@@ -262,15 +262,15 @@ CLASS_RANGE_BAND = {
 }
 
 # Priced steps between adjacent bands.
-RANGE_STEP_GOODS = {
+RANGE_STEP_CREDITS = {
     # [derived twice, independently, from this file]
-    #   (a) CHAR_GOODS["long_range"] == 60
-    #   (b) CLASS_GOODS["heavy_ranged"] 160
-    #       == CLASS_GOODS["standard_ranged"] 100 + long_range 60
+    #   (a) CHAR_CREDITS["long_range"] == 60
+    #   (b) CLASS_CREDITS["heavy_ranged"] 160
+    #       == CLASS_CREDITS["standard_ranged"] 100 + long_range 60
     # Cumbersome is no longer welded onto Heavy Ranged (decision 2026-07-30), so
     # the -20 refund is gone and the class costs the clean 160. Its real cost is
     # the SLOT count: 4 against Standard Ranged's 3 — opportunity, not penalty.
-    # Cumbersome remains available as an OPT-IN drawback in DRAWBACK_GOODS.
+    # Cumbersome remains available as an OPT-IN drawback in DRAWBACK_CREDITS.
     # verify.verify_structural() checks (b) still holds.
     ("effective", "deployment"): 60,
 }
@@ -301,7 +301,7 @@ SHORT_RANGE_REFUND = {
 
 # Drawbacks — legacy ×10 (negative = refund).
 # short_range is NOT here: it is banded by class, see SHORT_RANGE_REFUND.
-DRAWBACK_GOODS = {
+DRAWBACK_CREDITS = {
     "slow": -30,
     "unstable": -20,
     "cumbersome": -20,
@@ -328,7 +328,7 @@ BANDED_DRAWBACKS = frozenset({"short_range"})
 # to 100 pts. The three melee builds cluster tightest between 20 and 30 per point;
 # at 60 they fan out (bare 73% / light 51% / heavy 42%). Parity sits near 25.
 # 30 is taken as the integral value inside that bracket.
-ARMOUR_GOODS = {
+ARMOUR_CREDITS = {
     "none": 0,
     "thick_clothing": 0,
     "light": 30,   # -1  [measured 2026-07-30, balance/armourprice.py]
@@ -342,12 +342,12 @@ ARMOUR_INJURY = {
     "heavy": -2,
 }
 
-HACK_GEAR_GOODS = {
+HACK_GEAR_CREDITS = {
     "bare": 0,
     "breach_kit": 40,
     "exploit_suite": 80,
 }
 
-EQUIPMENT_GOODS = {
+EQUIPMENT_CREDITS = {
     "med_kit": 40,
 }

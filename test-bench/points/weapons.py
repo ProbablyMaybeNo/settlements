@@ -1,4 +1,4 @@
-"""Weapon Goods cost = class + characteristics + drawbacks."""
+"""Weapon Credits cost = class + characteristics + drawbacks."""
 
 from __future__ import annotations
 
@@ -6,15 +6,15 @@ from dataclasses import dataclass
 
 from .ticks import (
     BANDED_DRAWBACKS,
-    CHAR_GOODS,
-    CLASS_GOODS,
+    CHAR_CREDITS,
+    CLASS_CREDITS,
     CLASS_META,
-    DRAWBACK_GOODS,
+    DRAWBACK_CREDITS,
     SHORT_RANGE_REFUND,
 )
 
 
-def drawback_goods(drawback: str, weapon_class: str) -> int:
+def drawback_points(drawback: str, weapon_class: str) -> int:
     """Refund for one drawback on one class. Short Range is banded (M3)."""
     if drawback in BANDED_DRAWBACKS:
         if weapon_class not in SHORT_RANGE_REFUND:
@@ -23,7 +23,7 @@ def drawback_goods(drawback: str, weapon_class: str) -> int:
                 "weapon has no range to halve"
             )
         return SHORT_RANGE_REFUND[weapon_class]
-    return DRAWBACK_GOODS[drawback]
+    return DRAWBACK_CREDITS[drawback]
 
 
 @dataclass(frozen=True)
@@ -35,7 +35,7 @@ class WeaponBuild:
 
     def validate(self) -> list[str]:
         errs: list[str] = []
-        if self.weapon_class not in CLASS_GOODS:
+        if self.weapon_class not in CLASS_CREDITS:
             errs.append(f"unknown class {self.weapon_class!r}")
             return errs
         meta = CLASS_META[self.weapon_class]
@@ -46,10 +46,10 @@ class WeaponBuild:
         if len(self.drawbacks) > 2:
             errs.append(f"{self.name}: max 2 drawbacks")
         for c in self.characteristics:
-            if c not in CHAR_GOODS:
+            if c not in CHAR_CREDITS:
                 errs.append(f"{self.name}: unknown characteristic {c!r}")
         for d in self.drawbacks:
-            if d not in DRAWBACK_GOODS and d not in BANDED_DRAWBACKS:
+            if d not in DRAWBACK_CREDITS and d not in BANDED_DRAWBACKS:
                 errs.append(f"{self.name}: unknown drawback {d!r}")
             elif d in BANDED_DRAWBACKS and self.weapon_class not in SHORT_RANGE_REFUND:
                 errs.append(
@@ -73,9 +73,9 @@ def weapon_cost(build: WeaponBuild) -> int:
     errs = build.validate()
     if errs:
         raise ValueError("; ".join(errs))
-    total = CLASS_GOODS[build.weapon_class]
-    total += sum(CHAR_GOODS[c] for c in build.characteristics)
-    total += sum(drawback_goods(d, build.weapon_class) for d in build.drawbacks)
+    total = CLASS_CREDITS[build.weapon_class]
+    total += sum(CHAR_CREDITS[c] for c in build.characteristics)
+    total += sum(drawback_points(d, build.weapon_class) for d in build.drawbacks)
     return total
 
 
@@ -87,12 +87,12 @@ def weapon_cost_breakdown(build: WeaponBuild) -> dict:
     return {
         "name": build.name,
         "class": build.weapon_class,
-        "class_goods": CLASS_GOODS[build.weapon_class],
+        "class_points": CLASS_CREDITS[build.weapon_class],
         "range_band": band,
         "range_inches": RANGE_BAND[band],
-        "characteristics": {c: CHAR_GOODS[c] for c in build.characteristics},
+        "characteristics": {c: CHAR_CREDITS[c] for c in build.characteristics},
         "drawbacks": {
-            d: drawback_goods(d, build.weapon_class) for d in build.drawbacks
+            d: drawback_points(d, build.weapon_class) for d in build.drawbacks
         },
         "total": cost,
     }
