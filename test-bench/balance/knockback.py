@@ -56,9 +56,9 @@ def mob(side):
     return _p(c)
 
 def armoured(side):
-    c = [Unit('Boss', side, 'Leader', 'sledge', 'improvised', str=4, nrv=2, skills=sk('knockback'))]
-    c += [Unit(f'F{i}', side, 'Fighter', 'bat', 'improvised', str=2, skills=sk('knockback')) for i in range(4)]
-    c += [Unit(f'R{i}', side, 'Recruit', 'bat', 'improvised') for i in range(2)]
+    c = [Unit('Boss', side, 'Leader', 'sledge', 'light', str=4, nrv=2, skills=sk('knockback'))]
+    c += [Unit(f'F{i}', side, 'Fighter', 'bat', 'light', str=2, skills=sk('knockback')) for i in range(4)]
+    c += [Unit(f'R{i}', side, 'Recruit', 'bat', 'light') for i in range(2)]
     return _p(c)
 
 def balanced(side):

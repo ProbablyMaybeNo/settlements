@@ -97,9 +97,9 @@ def mob11(side):           # 97 — bare melee horde
     return _pol(c)
 
 def armoured7(side):       # 95 — melee, everyone in scrap plate
-    c = [Unit('Boss', side, 'Leader', 'sledge', 'improvised', str=4, nrv=2, skills=('knockback',))]
-    c += [Unit(f'F{i}', side, 'Fighter', 'bat', 'improvised', str=2, skills=('knockback',)) for i in range(4)]
-    c += [Unit(f'R{i}', side, 'Recruit', 'bat', 'improvised') for i in range(2)]
+    c = [Unit('Boss', side, 'Leader', 'sledge', 'light', str=4, nrv=2, skills=('knockback',))]
+    c += [Unit(f'F{i}', side, 'Fighter', 'bat', 'light', str=2, skills=('knockback',)) for i in range(4)]
+    c += [Unit(f'R{i}', side, 'Recruit', 'bat', 'light') for i in range(2)]
     return _pol(c)
 
 def turret5(side):         # 97 — static gunline with hardware

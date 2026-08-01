@@ -221,47 +221,23 @@ The one catalogue price this moved: **Makeshift Flamethrower 150 → 110** (Heav
 
 ## 7 · Armour & equipment
 
-| Armour | Cost | Injury | Drawback |
-|---|:--:|:--:|---|
-| None / Thick clothing | 0 | 0 | — |
-| Improvised | **30** | −1 | −1 AGI |
-| Light | **60** | −1 | — |
-| Heavy | **100** | −2 | −1 MOV, −1 AGI, Loud |
+**Armour carries no drawbacks** *(decision 2026-07-30)*. The old table taxed it twice — Improvised −1 AGI, Heavy −1 MOV / −1 AGI / Loud — and **neither simulator modelled AGI meaningfully**: the 1D board never reads it at all, and the 2.5D engine uses it only for the Dodge reaction. So every armour measurement taken to date priced those penalties at **zero**. The real items were worse than anything measured.
 
-> 🚦 **DECISION GATE (M2) — evidence only. No armour price has been changed.**
+The ladder is now linear in what armour does. `Injury = 1d10 + Damage − Armour vs 7+`, so each point is a flat **−10%** on being hurt: **−2 is worth exactly twice −1, and Heavy costs exactly twice Light.**
 
-**Correction:** `Weapons.md:126` and `List Building.md:61` **agree** — both list Improvised 3 / Light 6 / Heavy 10 at the 100-scale, which is exactly the 30 / 60 / 100 above. The earlier claim that they disagree does not hold against the live vault.
+| Armour | Cost | Injury |
+|---|:--:|:--:|
+| None / Thick clothing | 0 | 0 |
+| **Light** | **30** | −1 |
+| **Heavy** | **60** | −2 |
 
-**What was measured 2026-07-30** (all reproduced or newly run; see `balance/`):
+**Improvised is cut.** With its −1 AGI penalty removed it was Light armour under a second name at the same price — a redundant row. Scavenged-versus-bought is a settlement-economy distinction and does not need its own catalogue entry.
 
-| # | Measurement | Result | Engine |
-|:--:|---|---|:--:|
-| 1 | +1 Armour given free, per model — `primitives.py` | Cadre 4: **+1.60**/model · Pyramid 11: **+1.24**/model (1.29× apart — **archetype-neutral**) | 1D |
-| 2 | Armour bought with bodies — `melee_armour.py` | Improvised 8 beats Bare 11 **37.9%** | 1D |
-| 3 | **Same trade re-run** — `primitives2d.py` | Armoured 7 (95) vs Mob 11 (97): Hold **45.2%**, Annihilate **53.9%**, mean **49.6%** | **2.5D** |
-| 4 | +1 Armour vs +1 Damage — `primitives2d.py` | **0.9756×** (1D said 1.0089×) | **2.5D** |
+**The level is measured** *(`balance/armourprice.py`, every crew rebuilt to 100 pts)*: the three melee builds cluster tightest between 20 and 30 per armour point, and fan out badly at 60 — bare 73% / light 51% / heavy 42%. Parity sits near 25; **30** is the integral value inside that bracket.
 
-**(3) confirms the plan's suspicion: the 1D 37.9% was an artefact.** In 2.5D, buying armour with bodies is a coin flip — the armour paid for itself.
+This also largely closes the anchor dispute: the primitive method implied ~15/point and the body-trade now says ~25–30. The old **60 was the outlier**, and it was only ever defensible because it was paying for drawbacks that neither simulator modelled.
 
-**(4) is the robust core.** One point of armour ≈ one point of damage, on **both** engines, in four independent computations spanning 0.98–1.10×. This is not a 1D artefact.
-
-### The gap is not what it looks like
-
-The apparent "4× gap" compares a **relative** measurement against an **absolute** legacy table. `anchor2d.py` was written to measure the absolute level — Goods per win-point, by removing known quantities of points from a crew — and **it could not**: the slope moves from **8.5 to 15.4 Goods per win-point** depending on a single variant, and the Hold column is non-monotonic (removing 90 Goods *gained* 6.1 win-points while removing 50 Goods lost 18.3). Crew size changes objective assignment discretely in `_spawn`, which makes small crew-size deltas lumpy rather than noisy.
-
-> **So the absolute anchor is unmeasured.** `+1 Damage = 15 Goods` is a *choice* — it is the value of `TICK_STAT` — not a measurement. Every atom in §5.1 inherits that. The measurements fix the **ratios** only.
-
-### A structure that already fits
-
-Read the existing table as a rate plus a drawback refund and it is close to self-consistent:
-
-- **Improvised −1 = 30**, and the 2.5D body-trade (3) says 30 is roughly break-even. So **−1 injury ≈ 30 Goods**.
-- **Light −1 = 60** = the same 30, **plus 30 to not carry the −1 AGI**.
-- **Heavy −2 = 100.** At that rate it should be 2 × 30 = 60 *minus* refunds for −1 MOV, −1 AGI **and** Loud. It is charged **above** the clean rate while carrying three drawbacks.
-
-Heavy being poor value is visible in (2): Heavy 5 lost to Light 6 (48.0%) and was the worst build against both gunline foes.
-
-**The open question for Ross is which number is the anchor**, not whether armour is wrong: at a 30-Goods injury anchor the armour table is nearly right and §5.1's atoms are all half what they should be; at a 15-Goods anchor armour is 2–4× too dear. **Do not lock either until the gate is called.**
+> ⚠️ **The absolute level is still unresolved.** Both engines agree armour is worth about the same *per point* as +1 Damage (1D 1.0089×, 2.5D 0.9756×). But the two costing methods disagree on the level: the **primitive** method implies ~15/point, the **body-trade** method breaks even nearer 60/point. That gap is the **body-vs-damage scale problem**, not an armour problem — the weapon *class* costs are still legacy and unmeasured, so comparing a measured characteristic against an inherited class price gives a nonsense ratio. The table holds 60 pending measurement of the classes.
 
 | Equipment | Cost |
 |---|:--:|
@@ -269,7 +245,6 @@ Heavy being poor value is visible in (2): Heavy 5 lost to Light 6 (48.0%) and wa
 | Breach Kit | 40 |
 | Exploit Suite | 80 |
 
----
 
 ## 8 · The LIMIT dial
 

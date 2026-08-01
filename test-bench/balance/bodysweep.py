@@ -84,16 +84,16 @@ def mob(side):
 
 def armoured(side):
     """Melee in scrap plate."""
-    crew = [Unit('Boss', side, 'Leader', 'sledge', 'improvised', str=4, nrv=2, skills=('knockback',))]
-    spent = C('Leader', 'sledge', 'improvised')
+    crew = [Unit('Boss', side, 'Leader', 'sledge', 'light', str=4, nrv=2, skills=('knockback',))]
+    spent = C('Leader', 'sledge', 'light')
     nf = nr = 0
     while True:
-        if nr < nf and spent + C('Recruit', 'bat', 'improvised') <= BUDGET:
-            crew.append(Unit(f'R{nr}', side, 'Recruit', 'bat', 'improvised'))
-            spent += C('Recruit', 'bat', 'improvised'); nr += 1
-        elif spent + C('Fighter', 'bat', 'improvised') <= BUDGET:
-            crew.append(Unit(f'F{nf}', side, 'Fighter', 'bat', 'improvised', str=2, skills=('knockback',)))
-            spent += C('Fighter', 'bat', 'improvised'); nf += 1
+        if nr < nf and spent + C('Recruit', 'bat', 'light') <= BUDGET:
+            crew.append(Unit(f'R{nr}', side, 'Recruit', 'bat', 'light'))
+            spent += C('Recruit', 'bat', 'light'); nr += 1
+        elif spent + C('Fighter', 'bat', 'light') <= BUDGET:
+            crew.append(Unit(f'F{nf}', side, 'Fighter', 'bat', 'light', str=2, skills=('knockback',)))
+            spent += C('Fighter', 'bat', 'light'); nf += 1
         else:
             break
     return _p(crew)

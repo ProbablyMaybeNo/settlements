@@ -31,7 +31,7 @@ CLASSES = {
     'light_melee':   dict(cost=0,  dmg=1, rng=0,  hands=1, tier=0, slots=2),
     'onehand_melee': dict(cost=4,  dmg=2, rng=0,  hands=1, tier=1, slots=2),
     'heavy_melee':   dict(cost=8,  dmg=3, rng=0,  hands=2, tier=2, slots=3),
-    'thrown':        dict(cost=2,  dmg=1, rng=6,  hands=1, tier=0, slots=2),
+    'thrown':        dict(cost=4,  dmg=1, rng=6,  hands=1, tier=0, slots=2),
     'sidearm':       dict(cost=4,  dmg=2, rng=8,  hands=1, tier=0, slots=2),
     'std_ranged':    dict(cost=10, dmg=3, rng=18, hands=2, tier=1, slots=3),
     'heavy_ranged':  dict(cost=14, dmg=3, rng=24, hands=2, tier=2, slots=4),
@@ -44,7 +44,7 @@ CHARS = dict(brutal=4, ap=4, accurate=3, spread=3,
              blast=4, smoke=3, long_range=6, balanced=2, defensive=3,
              cleaving=5, breaching=3, concealable=2, quiet=2, compact=2)
 DRAWBACKS = dict(short_range=-3, slow=-3, unstable=-2,
-                 cumbersome=-2, limited=-3)
+                 cumbersome=-2, single_use=-2)
 # a drawback must ALWAYS bite, or it is free points (sim, 2026-07-13)
 MELEE_ONLY_DRAW = {'slow'}
 RANGED_ONLY_DRAW = {'short_range'}
@@ -88,12 +88,12 @@ RIFLE      = W('Assault Rifle',  'std_ranged', 'accurate')
 HUNTER     = W("Grandpa's Rifle",'std_ranged', 'accurate', 'long_range')
 PIPE_GUN   = W('Pipe Shotgun',   'std_ranged', 'brutal', 'spread', 'short_range', 'unstable')
 MG         = W('Squad MG',       'heavy_ranged', 'suppressive', 'ap')
-FLAMER     = W('Flamethrower',   'heavy_ranged', 'incendiary', 'blast', 'short_range', 'limited')
-MOLOTOV    = W('Molotov',        'thrown', 'incendiary', 'blast')
+FLAMER     = W('Flamethrower',   'heavy_ranged', 'incendiary', 'blast', 'short_range', 'single_use')
+MOLOTOV    = W('Molotov',        'thrown', 'incendiary', 'blast', 'single_use')
 BLEEDGUN   = W('Nailgun',        'std_ranged', 'bleeding')
 SUPPRESSOR = W('Suppressor Rifle','std_ranged', 'suppressive')
 
-ARMOUR = {'none': (0, 0), 'improvised': (-1, 3), 'light': (-1, 6), 'heavy': (-2, 10)}
+ARMOUR = {'none': (0, 0), 'light': (-1, 3), 'heavy': (-2, 6)}
 RANK = {'Rabble': 5, 'Recruit': 8, 'Specialist': 16, 'Leader': 24}
 ORDERS = {'Rabble': 0, 'Recruit': 0, 'Specialist': 1, 'Leader': 2}
 
@@ -189,7 +189,7 @@ def targets_in_blast(tgt, foes):
 def shoot(att, tgt, foes, T):
     w = att['w']
     if w['rng'] == 0 or att['broken_wpn']: return False
-    if 'limited' in w['t'] and att['used']: return False
+    if 'single_use' in w['t'] and att['used']: return False
     dist = abs(att['pos'] - tgt['pos'])
     if dist > w['rng']: return False
     if random.random() < T['blocked']: return False           # no LOS this shot

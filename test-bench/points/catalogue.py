@@ -76,15 +76,15 @@ SAMPLE_ARMOURY: list[tuple[WeaponBuild, int]] = [
             "Makeshift Flamethrower",
             "heavy_ranged",
             ("incendiary", "blast"),
-            ("short_range", "limited"),
+            ("short_range", "single_use"),
         ),
         150,
     ),
     (
-        WeaponBuild("Molotov", "thrown", ("incendiary", "blast")),
+        WeaponBuild("Molotov", "thrown", ("incendiary", "blast"), ("single_use",)),
         90,
     ),
-    (WeaponBuild("Smoke Grenade", "thrown", ("smoke",)), 50),
+    (WeaponBuild("Smoke Grenade", "thrown", ("smoke",), ("single_use",)), 50),
 ]
 
 # Worked examples from the design brief (user's rifle / machete shape)

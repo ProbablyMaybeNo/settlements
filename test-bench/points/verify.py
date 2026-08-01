@@ -67,18 +67,29 @@ def verify_structural() -> list[str]:
     errs: list[str] = []
 
     # The 24" threshold, derived twice independently (POINTS-TABLE §4).
+    # Cumbersome is no longer welded onto Heavy Ranged (2026-07-30) — its cost is
+    # the slot count, not a penalty — so the -20 refund is gone from this identity.
     lhs = CLASS_GOODS["heavy_ranged"]
-    rhs = (
-        CLASS_GOODS["standard_ranged"]
-        + CHAR_GOODS["long_range"]
-        + DRAWBACK_GOODS["cumbersome"]
-    )
+    rhs = CLASS_GOODS["standard_ranged"] + CHAR_GOODS["long_range"]
     if lhs != rhs:
         errs.append(
             f"24\" threshold broken: heavy_ranged {lhs} != standard "
             f"{CLASS_GOODS['standard_ranged']} + long_range "
-            f"{CHAR_GOODS['long_range']} + cumbersome "
-            f"{DRAWBACK_GOODS['cumbersome']} = {rhs}"
+            f"{CHAR_GOODS['long_range']} = {rhs}"
+        )
+
+    # Armour must be linear: -2 costs exactly twice -1, with no refunds, because
+    # each armour point is a flat -10% on the injury roll.
+    from .ticks import ARMOUR_GOODS, ARMOUR_INJURY
+    per_point = {}
+    for name, goods in ARMOUR_GOODS.items():
+        inj = ARMOUR_INJURY.get(name, 0)
+        if inj:
+            per_point[name] = goods / abs(inj)
+    if per_point and len(set(per_point.values())) != 1:
+        errs.append(
+            "armour ladder is not linear: Goods per armour point = "
+            + ", ".join(f"{k} {v:g}" for k, v in sorted(per_point.items()))
         )
 
     # Every class must sit in a range band, and the band must match CLASS_META.

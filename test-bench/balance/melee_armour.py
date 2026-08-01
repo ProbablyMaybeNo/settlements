@@ -27,9 +27,9 @@ def BARE11():           # 93 — max bodies, no protection
 
 def IMPROV8():          # 99 — everyone in scrap
     return heavy_fix(
-        [F('Leader', 'sledge', 'improvised', str=4, nrv=2)] +
-        [F('Fighter', 'bat', 'improvised', str=2) for _ in range(4)] +
-        [F('Recruit', 'bat', 'improvised') for _ in range(3)])
+        [F('Leader', 'sledge', 'light', str=4, nrv=2)] +
+        [F('Fighter', 'bat', 'light', str=2) for _ in range(4)] +
+        [F('Recruit', 'bat', 'light') for _ in range(3)])
 
 def LIGHT6():           # 98 — proper armour, six bodies
     return heavy_fix(
@@ -46,8 +46,8 @@ def HEAVY5():           # 97 — armoured fist, five bodies, -1 MOV
 def MIXED8():           # 96 — armoured core, bare chaff
     return heavy_fix(
         [F('Leader', 'sledge', 'light', str=4, nrv=2)] +
-        [F('Fighter', 'bat', 'improvised', str=2) for _ in range(4)] +
-        [F('Recruit', 'bat', 'improvised')] +
+        [F('Fighter', 'bat', 'light', str=2) for _ in range(4)] +
+        [F('Recruit', 'bat', 'light')] +
         [F('Recruit', 'bat') for _ in range(2)])
 
 MELEE = {'Bare 11': BARE11, 'Improvised 8': IMPROV8, 'Light 6': LIGHT6,

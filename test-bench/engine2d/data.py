@@ -55,11 +55,13 @@ def validate_statline(rank, stats, ranks=RANKS_V2):
     return True, f'{total}/{spec["points"]} pts · {shape or "no tiers"} · {skills} skills'
 
 # armour -> injury modifier (added to the injury roll, i.e. negative), cost
+# No drawbacks (2026-07-30). Linear: each armour point is a flat -10% on the
+# injury roll, so -2 costs exactly twice -1. Improvised and Light share a profile
+# and a price; they differ only in acquisition (crafted vs bought).
 ARMOUR = {
-    'none':       dict(injury=0,  cost=0),
-    'improvised': dict(injury=-1, cost=3),
-    'light':      dict(injury=-1, cost=6),
-    'heavy':      dict(injury=-2, cost=10),
+    'none':   dict(injury=0,  cost=0),
+    'light':  dict(injury=-1, cost=3),
+    'heavy':  dict(injury=-2, cost=6),
 }
 
 # built weapon profiles (class + characteristics), from Weapons.md.
@@ -71,7 +73,7 @@ WEAPONS = {
     'sledge':  dict(rng=0,  dmg=3, kind='melee',  cost=8,  traits=('two_handed',)),
     'pistol':  dict(rng=8,  dmg=2, kind='ranged', cost=4,  traits=('sidearm', 'loud')),
     'rifle':   dict(rng=18, dmg=3, kind='ranged', cost=10, traits=('loud', 'two_handed')),
-    'molotov': dict(rng=6,  dmg=1, kind='thrown', cost=9,  traits=('fire', 'blast', 'limited')),
+    'molotov': dict(rng=6,  dmg=1, kind='thrown', cost=9,  traits=('fire', 'blast', 'single_use')),
 }
 
 EQUIPMENT = {

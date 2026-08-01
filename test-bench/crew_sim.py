@@ -55,7 +55,7 @@ WEAPONS = {
     'shotgun':   dict(rng=10, dmg=3, cost=8),
     'rifle':     dict(rng=18, dmg=3, cost=12),
 }
-ARMOUR = {'none': (0, 0), 'improvised': (-1, 3), 'light': (-1, 6), 'heavy': (-2, 10)}
+ARMOUR = {'none': (0, 0), 'light': (-1, 3), 'heavy': (-2, 6)}
 RANK   = {'Recruit': 5, 'Fighter': 8, 'Specialist': 16, 'Leader': 24}
 ORDERS = {'Recruit': 0, 'Fighter': 0, 'Specialist': 1, 'Leader': 2}
 

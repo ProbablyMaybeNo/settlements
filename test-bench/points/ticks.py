@@ -37,9 +37,14 @@ GOODS_STRESS = 7  # [measured] +1 Stress inflicted on a hit (0.4516x damage)
 CONDITIONAL_F_PROVISIONAL = 0.8
 GOODS_TO_HIT_CONDITIONAL = 18  # round(22 * 0.8) = 17.6 -> 18  [provisional]
 
-# +1 Armour measured at 1.0089x damage = 15.13 Goods per point. NOT wired into
-# ARMOUR_GOODS below, which still carries the legacy 60/100. Resolving that 4x
-# gap is Milestone 2 and is a decision gate — do not close it here.
+# +1 Armour measured at 1.0089x damage (1D) and 0.9756x (2.5D) — both engines
+# agree armour is worth about the same as damage per point. The ABSOLUTE level is
+# still unresolved: the primitive method implies ~15/point, while the body-trade
+# method (paying for armour by dropping models) breaks even nearer 60/point. That
+# gap is the body-vs-damage scale problem, not an armour problem — the weapon
+# CLASS costs are still legacy and unmeasured, so any cross-comparison between a
+# measured characteristic and an inherited class price gives a nonsense ratio.
+# ARMOUR_GOODS holds the 60 level pending measurement of the classes.
 
 # Injury-side atom (Brutal / AP). Legacy was 4 ticks x 10 = 40; measurement
 # replaces it. The tick abstraction no longer divides evenly, which is expected:
@@ -81,10 +86,10 @@ CLASS_GOODS = {
     "light_melee": 0,
     "one_handed_melee": 40,
     "heavy_melee": 80,
-    "thrown": 20,
+    "thrown": 40,
     "sidearm": 40,
     "standard_ranged": 100,
-    "heavy_ranged": 140,
+    "heavy_ranged": 160,
 }
 
 CLASS_META = {
@@ -175,8 +180,12 @@ CLASS_RANGE_BAND = {
 RANGE_STEP_GOODS = {
     # [derived twice, independently, from this file]
     #   (a) CHAR_GOODS["long_range"] == 60
-    #   (b) CLASS_GOODS["heavy_ranged"] 140
-    #       == CLASS_GOODS["standard_ranged"] 100 + long_range 60 + cumbersome -20
+    #   (b) CLASS_GOODS["heavy_ranged"] 160
+    #       == CLASS_GOODS["standard_ranged"] 100 + long_range 60
+    # Cumbersome is no longer welded onto Heavy Ranged (decision 2026-07-30), so
+    # the -20 refund is gone and the class costs the clean 160. Its real cost is
+    # the SLOT count: 4 against Standard Ranged's 3 — opportunity, not penalty.
+    # Cumbersome remains available as an OPT-IN drawback in DRAWBACK_GOODS.
     # verify.verify_structural() checks (b) still holds.
     ("effective", "deployment"): 60,
 }
@@ -211,17 +220,41 @@ DRAWBACK_GOODS = {
     "slow": -30,
     "unstable": -20,
     "cumbersome": -20,
-    "limited": -30,
+    "single_use": -20,  # renamed from "limited" 2026-07-31
 }
 
 BANDED_DRAWBACKS = frozenset({"short_range"})
 
+# Armour carries NO penalties (decision 2026-07-30). A drawback you opt into for
+# a discount is a deal; a drawback welded to something you want is a tax. The old
+# table taxed armour twice — Improvised -1 AGI, Heavy -1 MOV / -1 AGI / Loud — and
+# neither sim modelled AGI meaningfully (1D never reads it; 2.5D uses it only for
+# the Dodge reaction), so every armour measurement priced those penalties at zero.
+#
+# The ladder is now linear in what it actually does. The injury roll is
+# 1d10 + Damage - Armour vs 7+, so each armour point is a flat -10% on the injury
+# probability: -2 is worth exactly twice -1, and Heavy must cost twice Light.
+#
+# Improvised was CUT (2026-07-30). Once its -1 AGI penalty was removed it had an
+# identical profile to Light at an identical price — a redundant catalogue row.
+# Crafted-vs-bought is a settlement-layer distinction, not a second armour type.
+#
+# LEVEL [measured]: balance/armourprice.py swept the price with every crew rebuilt
+# to 100 pts. The three melee builds cluster tightest between 20 and 30 per point;
+# at 60 they fan out (bare 73% / light 51% / heavy 42%). Parity sits near 25.
+# 30 is taken as the integral value inside that bracket.
 ARMOUR_GOODS = {
     "none": 0,
     "thick_clothing": 0,
-    "improvised": 30,
-    "light": 60,
-    "heavy": 100,
+    "light": 30,   # -1  [measured 2026-07-30, balance/armourprice.py]
+    "heavy": 60,   # -2  exactly 2x, no refunds
+}
+
+ARMOUR_INJURY = {
+    "none": 0,
+    "thick_clothing": 0,
+    "light": -1,
+    "heavy": -2,
 }
 
 HACK_GEAR_GOODS = {
