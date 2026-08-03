@@ -1,0 +1,55 @@
+====================================================================================================
+STAGE 1 - CALIBRATION: what does a Crew Rating deficit cost?  (800 games/cell)
+====================================================================================================
+Both crews built by the same rule; the weaker one simply has less Rating to
+spend. This is the curve the campaign model needs and it is MEASURED, not assumed.
+
+  deficit       A rating  B rating    A win%
+       0%           1000      1000     49.3%
+      10%           1000       900     59.2%
+      20%           1000       800     49.1%
+      30%           1000       700     89.2%
+      40%           1000       600     79.7%
+      50%           1000       500     91.8%
+
+====================================================================================================
+STAGE 2 - T11: DOES CUTTING PER-HEAD UPKEEP REMOVE THE ONLY CONTINUOUS BRAKE?
+(6000 campaigns x 20 battles each)
+====================================================================================================
+'Rating gap' = how much more Crew Rating the stronger settlement can field at
+season end. The Crew Rating cap is 1000, so a gap of ~0 means the cap is doing
+the braking on its own and no upkeep is needed. 'Idle wealth' is unspendable
+surplus — the symptom of an economy with no sink.
+
+  configuration                             rating gap   p90 gap  roster gap  idle wealth  under-cap
+  packet as written (no upkeep)                     63       150        -0.0         2199       6.51
+  + per-head upkeep 10/head                         69       140        -0.1         2115       4.66
+  + per-head upkeep 25/head                         91       255         0.7         2124      12.50
+  + per-head upkeep 50/head                        122       315         0.6         2141      18.95
+  no upkeep, tighter lot (6 structures)             68       150        -0.1         2081       6.44
+  no upkeep, bigger lot (15 structures)             63       150        -0.1         1759       6.50
+
+====================================================================================================
+T9 - HOW OFTEN IS AN UNCAPPED SCAR TREATMENT ACTUALLY BOUGHT?
+====================================================================================================
+§4.3 allows paying Credits/Materials to remove a Scar but the review warns it
+is in tension with 'scars are never bought back' unless hard-capped.
+
+  configuration                              treatments per campaign
+  uncapped (packet as written)                                  3.98
+  capped at 1 per campaign                                      1.00
+  capped at 2 per campaign                                      1.95
+  treatment unavailable                                         0.00
+
+====================================================================================================
+T12 - ECONOMY PACING vs THE COSTED CATALOGUE
+====================================================================================================
+  battle reward           65 Credits + 33 Materials
+  Recruit body            65 Credits   -> 1.00 Recruits/battle
+  Fighter body            135 Credits   -> 2.1 battles/Fighter
+  Tier I structure        100 Materials -> 3.0 battles/structure
+  Leader body             375 Credits   -> 5.8 battles/Leader
+
+  Packet §5.6 targets: ~1 Recruit or ~1/3 of a Tier I structure per battle;
+  a Tier I structure in 2-3 battles. Both hold at the catalogue's own prices.
+====================================================================================================

@@ -1,0 +1,85 @@
+
+========================================================================================================
+T10 - WHAT IS A LEVEL WORTH?  (the Level Surcharge, §6.6)   2000 games/cell
+========================================================================================================
+The review: 'no opinion on values pending testing'. A Level is a stat point
+(and, at a tier, a skill). Measure the stat point directly against the anchor.
+
+  buff                                 d Hold  d Annih   d mean  per model  Credits
+  +1 primary stat, whole crew           +5.0     +9.0     +7.0       1.16       16
+  +2 primary stat, whole crew           +7.6    +16.4    +12.0       2.00       27
+  +1 primary stat, ONE fighter          +0.4     +0.6     +0.5       0.46        6
+  +1 STR, whole melee crew             +11.0    +19.1    +15.1       2.51       34
+  +2 STR, whole melee crew             +21.6    +36.1    +28.8       4.80       64
+
+========================================================================================================
+T13 - IS AN EXTRA ACTIVATION SUPER-LINEAR?   2000 games/cell
+========================================================================================================
+The Bandwidth cap (§9.3) rests on the claim that an extra activation cannot
+be priced. Compare it against buying stat points on the same fighter.
+
+  buff (one fighter)                   d Hold  d Annih   d mean  per model  Credits
+  extra activation                      +1.2     -6.4     -2.6      -2.63      -35
+  +1 DEX (for comparison)               +0.4     +0.6     +0.5       0.46        6
+  +2 DEX (for comparison)               +1.0     +5.4     +3.2       3.24       43
+  +4 DEX (for comparison)               +1.2     +7.2     +4.2       4.24       57
+
+========================================================================================================
+T5 - IS THE ONE-PAYLOAD CAP LOAD-BEARING?   2000 games/cell
+========================================================================================================
+§2.2 says cap payloads at one 'no exceptions'. Measure what the 2nd and 3rd
+payload on the same weapon are actually worth when the cap is lifted.
+
+  weapon                               d Hold  d Annih   d mean  per model  Credits
+  1 payload  (Bleed)                    +6.5    +24.5    +15.5       2.58       35
+  2 payloads (Bleed+Shock)             +10.4    +27.1    +18.8       3.12       42
+  3 payloads (Bleed+Shock+Hobble)      +10.4    +27.1    +18.8       3.12       42
+
+========================================================================================================
+T6 - IS A NON-COMBAT-PRIMARY ARCHETYPE VIABLE?   2000 games/cell
+========================================================================================================
+§3.2 recommends a third worked example that is deliberately NOT combat-primary
+(INT or NRV). The vault's own finding is that INT and AGI price at ~zero in
+combat. Each crew below plays the same neutral DEX6 opponent.
+
+  crew (identical ranks/weapons/points)        Hold   Hold+Claim    Annih     mean
+  STR6 (combat primary)                       84.5%        57.0%    15.1%    52.2%
+  DEX6 (combat primary)                       49.3%        49.3%    49.3%    49.3%
+  INT6 (technical primary)                    49.1%        47.8%    14.3%    37.1%
+  NRV6 (morale primary)                       48.2%        47.2%    16.7%    37.4%
+
+========================================================================================================
+T8 - THE XP CEILING: HOW MANY DEED SOURCES CAN ONE FIGHTER HIT?   8000 battles
+========================================================================================================
+§4.1 removes the XP cap; the review wants a generous soft ceiling that never
+binds in normal play but closes the unbounded tail. Below: the number of
+DISTINCT scoring sources a single fighter reached in one battle.
+
+  distinct sources in one battle        fighters    share   P(>= n)
+  0                                        36691   38.22%   100.00%
+  1                                        18294   19.06%    61.78%
+  2                                        11280   11.75%    42.72%
+  3                                        15593   16.24%    30.97%
+  4                                        11414   11.89%    14.73%
+  5                                         1593    1.66%     2.84%
+  6                                          771    0.80%     1.18%
+  7                                          320    0.33%     0.38%
+  8                                           44    0.05%     0.05%
+
+  max observed on any single fighter: 8 of 10 possible sources
+  mean per fighter: 1.55
+
+  source frequency (share of all fighters achieving it):
+    survivor                46.33%
+    kill                    40.54%
+    multi_kill              21.75%
+    objective_holder        19.27%
+    melee_kill              10.93%
+    first_blood              8.33%
+    against_odds             4.46%
+    claimed                  1.68%
+    last_standing            1.36%
+
+========================================================================================================
+Every row is a measurement on the 2.5D engine.
+========================================================================================================
