@@ -5,7 +5,20 @@ tags: [settlements/reference]
 ---
 # 🔫 Weapons — Construction System
 
-Weapons are **built, not bought off a shelf.** Pick a **Class**, then spend points on **Characteristics**. Name the result after your miniature.
+Weapons are **built, not bought off a shelf.** Pick a **Class**, then spend Credits on **Characteristics**. Name the result after your miniature.
+
+> [!warning] Every cost printed in this note is on the **retired 100-point scale** — multiply by 10
+> The game runs on **Credits** now ([[List Building#Budget]]). The current catalogue lives in **[[Full Rules System v1]] §15** and the engine that generates it is `test-bench/points/`. The mechanics below are unchanged and correct; only the numbers are stale. **The conversion is ×10** — Sidearm 4 → 40, Standard Ranged 10 → 100, Fire Axe 16 → 160.
+>
+> Three rows do **not** simply ×10, because the master document and the costing engine disagree. Do not treat any of them as settled:
+>
+> | Row | This note ×10 | [[Full Rules System v1]] §15 | `points/ticks.py` |
+> |---|:--:|:--:|:--:|
+> | **Light / Heavy armour** | 30 / 60 | **60 / 100** ✅ | 30 / 60 |
+> | **Thrown** class | 20 | **20** | **40** |
+> | **Heavy Ranged** class | 160 | **140** | **160** |
+>
+> **Armour is settled in the doc's favour** — re-measured 2026-08-05 (`test-bench/balance/campaign500.py armour`): at 30 the armoured crew wins **64%** and is the best list in the game; at **60** it wins **51%** and the whole field tightens by 9 points. Use **60 / 100**; `ticks.py` is owed the correction. Its old cited source (`balance/armourprice.py`) is **missing from the repo**, which is why the 30 could never be re-derived. Heavy Ranged still differs because the engine removed the welded-on Cumbersome drawback (2026-07-30) and the doc's table predates that. A rewrite of the tables below is owed once Thrown and Heavy Ranged are ruled too.
 
 > [!info] Design contract — the three rules that keep this honest
 > 1. **Stats decide if you land it · Weapons decide how bad it is · Skills decide what else happens.** A weapon **never** grants an effect a **[[Skill Paths|skill]]** grants. Weapons do damage, range, armour, conditions, noise and concealment. Skills do extra actions, reactions, exceptions and positioning.

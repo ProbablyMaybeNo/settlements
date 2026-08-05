@@ -26,6 +26,22 @@ The Rules column should nail down:
 - Asymmetry that's born from the setting/lore, not bolted on for its own sake.
 
 ## Working rules / decisions
+
+> [!success] Framework ruled 2026-08-05 — [[Full Rules System v1]] §24
+> **One battlefield rule + one settlement affinity per faction. No flat stat bonus, no matched drawback, no exclusive unlock.** Factions are balanced peer-to-peer, not against a paired nerf. Every rule must be a discount, a conditional modifier, an action-economy nudge, or a terrain-verb exception — **none may touch a hard ceiling** (the ±3 modifier cap, the +4 Damage cap, the 24" range cap, re-rolls, or extra attacks).
+>
+> | Faction | Battlefield rule | Settlement affinity |
+> |---|---|---|
+> | **Military** | Ready token survives a failed Reaction attempt | +1 free Bunkhouse tier at founding |
+> | **First Responders** | Improved Build test for field deployables | Med-bay costs −10% Materials |
+> | **Labor** | Re-attempt one failed Search per battle, free | Gatherers +1 flat per Settlement Phase |
+> | **Residents** | +1 Break test within 3" of another Resident | Bunkhouse costs one fewer Materials tier |
+> | **Tech Workers** | Hack range bands read one step closer | Fabricator ladder −10% Materials |
+> | **Criminals** | Hide in Light cover, not just Concealing — never within 6" of an objective | Trade House sell rates +10% |
+
+> [!question] The roster below is **yours** and does not match the one above — needs your call
+> The WIP list you wrote (Civilians · First Enforcers · Laborers · Lost Batallion · The HACKERS) is kept verbatim below because it carries the setting voice. But it is built on **flat stat bonuses and nerfs** — "Bonus to STR, nerf to INT" — which the framework above explicitly rules out, and the two rosters only partly line up (**Residents** ≈ Civilians · **First Responders** ≈ First Enforcers · **Labor** ≈ Laborers · **Military** ≈ Lost Batallion · **Tech Workers** ≈ The HACKERS, and **Criminals** is new). Decide which roster is canon, then rewrite each faction's identity as one battlefield rule + one affinity. Nothing below is adopted yet.
+
 > [!note] Placeholder — deferred to an upcoming session (noted 2026-07-23)
 > Factions are **planned but not yet designed.** When we build them, the lead lever is a **single, strong, playstyle-defining "signature" rule per faction** — the cheapest way to let players choose different strategies at list-building — modelled on how BLKOUT's **Force Rules** each encode one identity (aggro / attrition / gunline / cyber). See the BLKOUT read-through (Settlements repo → `docs/BLKOUT-RULES-ANALYSIS.md` §19, steal #4). Each signature rule must **hook into existing systems, not invent a new subsystem** (per Focus above)
 

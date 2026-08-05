@@ -66,8 +66,14 @@ The rank price *is* the stat price — see [[Unit Design#Ranks (build budget)]].
 
 More points than a unit can spike into one stat, capped by tier so it *spreads* — full rules in [[Unit Design#Ranks (build budget)]]. Skills come off the stat line (one per tier a stat reaches).
 
-> [!warning] The Campaign Start column is a first draft and the sim disagrees with it
-> Those prices were **backed out arithmetically** from the Match Play column by subtracting skill Credit values (T1 20 / T2 35 / T3 55) — never measured. `test-bench/balance/campaign500.py` (2026-08-05, 15,000 games/ladder) found that at a **500** cap a crew is only **2–4 models**, the mandatory Leader eats **34%** of the budget against Match Play's 24%, and a shooting list is unbuildable — the Gunline archetype won **18%**. No rank ladder tested closed that gap, because the binding constraint is the cap, not the prices. Treat the 500 column as provisional until that is settled.
+> [!warning] The Campaign Start column is a first draft, and the sim says the **cap** is the problem, not the prices
+> Those prices were **backed out arithmetically** from the Match Play column by subtracting skill Credit values (T1 20 / T2 35 / T3 55) — never measured. `test-bench/balance/campaign500.py` (2026-08-05, 30,000 games per configuration, six archetypes × four scenarios, sides swapped) found:
+> - At **500** a crew is only **2–4 models**, and the mandatory Leader eats **34%** of the budget against Match Play's 24%.
+> - **A shooting list cannot be built at 500.** Gunline won **18%**. Leader + rifle (270) + Fighter + rifle (175) = 445, and the cheapest third body is 65 — so a rifle-armed Leader puts the crew **below this note's own three-model minimum**.
+> - **Six rank ladders were swept** — the one above, Match Play prices, skills-charged, and body-scale ×0.75 / ×0.5 / ×0.35. Spread never fell below **21 points**, and the only ladder that reached it did so by shrinking every crew to two models. **No ladder fixes it.**
+> - **Sweeping the cap does.** Holding this ladder fixed: 500 → **46**-point spread · 625 → **32** · 750 → **32** · 875 → 37 · 1000 → 36. The penalty is specific to 500 and disappears by 625.
+>
+> The cleanest fix is therefore **not** a new rank ladder — it is to raise the Campaign Start cap to about **625–750**, or to cut the price of the mandatory Leader specifically. Left as-is pending your call.
 
 ### The pyramid — two versions
 > **Match Play:** exactly one Leader. Every Specialist requires two fighters of lower rank. Every Recruit requires one Fighter or better. Minimum four fighters.
@@ -77,7 +83,7 @@ More points than a unit can spike into one stat, capped by tier so it *spreads* 
 **There is no unit cap on the crew you field.** The pyramid and the budget do it: at 1000 Credits the legal maximum is about **11 fighters** (Leader + 5 Fighters + 5 Recruits, with roughly 110 Credits of gear between them — a mob with bats).
 
 > [!warning] Per-battle only — the roster IS capped
-> "No unit cap" scopes to the **crew you field in one battle**. The **roster you own** is capped by housing: a base **10** body slots from the HQ, raised by building Bunkhouses ([[Structures#The catalogue — 23 structures|Structures]]). **Housing is the only population brake** — there is no per-head upkeep *(Water cut 2026-08-01)*. Ownership and fielding are orthogonal — **Credits/Materials buy what you own, points gate what you field.**
+> "No unit cap" scopes to the **crew you field in one battle**. The **roster you own** is capped by housing: a base **12** body slots from the HQ, **+6** per Bunkhouse ([[Structures#The catalogue — 23 structures|Structures]]). **Housing is the only population brake** — there is no per-head upkeep *(Water cut 2026-08-01)*. Ownership and fielding are orthogonal — **Credits buy what you own, Crew Rating gates what you field.** *(HQ housing was 10 here and 12 in the decisions log; [[Full Rules System v1]] §17.2 rules **12**.)*
 
 The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed at 1 ([[Damage]]), so a 40-point Leader in plate dies to one lucky pistol shot from a Recruit with a knife. The engine already forbids heroes.
 
@@ -96,8 +102,17 @@ The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed
 
 ^tbl-armour-equipment
 
-> [!bug] Armour has two prices and they disagree — unresolved
-> [[Full Rules System v1]] §15 prints **60 / 100** (above). The costing engine `test-bench/points/ticks.py` carries **30 / 60**, marked *[measured]*. That is a **2× gap on every armoured fighter in the game**. The engine's provenance is also broken: `POINTS-COMPLETION-PLAN.md` M2 records that `balance/armourprice.py`, the file both `ticks.py` and `POINTS-TABLE.md` §7 cite as the source, **does not exist in the repo**. Neither number can currently be re-derived. Rebuild the sweep before locking either.
+> [!success] Armour: 60 / 100 is the better number — re-measured 2026-08-05
+> Two prices were live. [[Full Rules System v1]] §15 printed **60 / 100** (above); the costing engine `test-bench/points/ticks.py` carried **30 / 60**, marked *[measured]* — a **2× gap on every armoured fighter in the game**, and unresolvable, because `POINTS-COMPLETION-PLAN.md` M2 records that the file both `ticks.py` and `POINTS-TABLE.md` §7 cite as its source (`balance/armourprice.py`) **does not exist in the repo**.
+>
+> `campaign500.py armour` swapped only these two numbers and held everything else fixed, 30,000 games per side:
+>
+> | Armour price | Armoured crew win % | Overall spread |
+> |---|:--:|:--:|
+> | engine 30 / 60 | **64%** — top of the table | 46 |
+> | **doc 60 / 100** | **51%** — mid-table | **37** |
+>
+> At 30 the Armoured list is the best crew in the game; at 60 it is an average one, and the whole field tightens by 9 points. **Adopt 60 / 100 and correct `ticks.py`.** One caveat kept honest: at 60 the Armoured crew drops to two models, so part of that fall is affordability rather than pricing, and this was measured at a 500 cap only. Worth repeating at 1000 before it is called settled.
 
 *Armour carries no drawbacks, and the ladder is linear — each point is a flat −10% on the Injury roll, so Heavy costs exactly twice Light. Improvised was cut once its penalty went; it was Light armour under a second name. Full note in [[Weapons#3 · Armor]].*
 

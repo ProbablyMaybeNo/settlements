@@ -17,14 +17,17 @@ Every point-stat (STR, DEX, AGI, INT, NRV) is also a **skill path**. There's no 
 
 So the stat line *is* the skill loadout — **spread wide** (`STR+2 / INT+2` → one Combat + one Expertise skill, a melee-hacker) or **specialise deep** (`STR+4` → two Combat skills, a master). Same count, different shape. Rank sets how far you can push it:
 
-| Rank | Stat pts | Tier caps | Skills |
-|---|:---:|---|:---:|
-| **Recruit** | 3 | no tiers | **0** |
-| **Fighter** | 5 | 2× T1 | ~2 |
-| **Specialist** | 7 | 1× T2 · 2× T1 | ~3 |
-| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | ~4 |
+| Rank | Stat pts | Tier caps | Skills *(Match Play)* | Skills *(Campaign Start)* |
+|---|:---:|---|:---:|:---:|
+| **Recruit** | 3 | no tiers | **0** | **0** |
+| **Fighter** | 5 | 2× T1 | ~2 | **1× T1** |
+| **Specialist** | 7 | 1× T2 · 2× T1 | ~3 | **1× T2** |
+| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | ~4 | **1× T3** |
 
 ^tbl-how-it-works-skills-ride-the-stat-line
+
+> [!info] Two starting kits, one catalogue
+> **Match Play** (one-off game, 1000 Crew Rating) takes every skill the stat line earns — those fighters never get another chance to develop. A **Campaign Start** crew (500 Crew Rating) takes **exactly one skill, at its rank's tier**, and earns the rest through the Level track ([[Progression]]) — a fully-levelled fighter ends on **four** skills, all from their Primary path. Ruled 2026-08-05, [[Full Rules System v1]] §16 · §26.1.
 
 Only a **Leader** gets a **T3** stat (the +6 elite). Full rank rules in [[Unit Design#Ranks (build budget)]] · fielding in [[List Building]].
 
