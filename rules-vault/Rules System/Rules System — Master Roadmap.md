@@ -7,26 +7,31 @@ tags: [settlements/roadmap]
 
 Everything needed to take Settlements from *scaffold* to a *complete, book-ready rules system*, in dependency order. Checkboxes are live — tick them as you lock each decision; the Tasks plugin can roll them up. See also [[Rules System MOC]] and [[_Rules Map.canvas|the map]].
 
+> [!important] [[Full Rules System v1]] is the source of truth as of 2026-08-05
+> This roadmap is a **log of what got decided when**, so some ticked items below record numbers that have since been superseded — they are marked where that happened. Where this file and the master note disagree, **the master note wins.**
+
 ## 1 · Where it stands today
 
-**34 phases** (incl. [[Hacking]], [[Structures]]) — ✅ **18 drafted** · 🟨 1 designing · 🎯 1 milestone · ⬜ 14 not started.  
+**37 phases** — ✅ **27 drafted** · 🎯 1 milestone · ⬜ 9 not started. *(Recounted 2026-08-05.)*  
 Reference notes: [[Weapons]] · [[Skill Paths]] · *(Terrain Features catalogue TBD)*
 
 | Stage | Phases | Status |
 |---|---|---|
 | **S1 Foundation** | 3 | ✅ All Drafted |
-| **S2 Core Combat** | 8 | ✅ All Drafted (some Focus items still open) |
+| **S2 Core Combat** | 9 | ✅ All Drafted (bar the Obsidian Guide; some Focus items still open) |
 | **S3 Battle Layer** | 7 | ✅ All Drafted |
-| **S4 Settlement & Campaign** | 11 | 🟡 Campaign, Progression, Structures Drafted · Settlement Designing · rest empty |
+| **S4 Settlement & Campaign** | 11 | ✅ **8 Drafted** — Campaign · Downtime · **Economy** · **Events** · Progression · **Settlement** · Structures · **Territory** · ⬜ Diplomacy, Narrative, Solo & Co-op |
 | **Milestone** | 1 | 🎯 Final Alpha |
-| **S5 Content** | 1 | ⬜ Not Started |
-| **S6 Production** | 5 | ⬜ Not Started |
+| **S5 Content** | 1 | ✅ **Factions Drafted** — framework + roster adopted, names still open |
+| **S6 Production** | 5 | ⬜ Not Started — Balance · Components · Edge Cases · Playtesting · Rulebook |
+
+**The 2026-08-05 pass drafted five notes that were empty** — [[Economy]], [[Events]], [[Territory]] and [[Factions]] from the master note's §17–§27, and [[Settlement]]'s founding rules. What remains genuinely unstarted is **Diplomacy · Narrative · Solo & Co-op** in S4 and the whole of **S6 Production**.
 
 ## 2 · The decisions that unblock everything
 
 - [x] **Core dice mechanic** ([[Rules Engine]] / [[core-000 Core Test]]) — `1d10 + Stat + mods, 7+`, nat 1/10 auto.
 - [x] **Lethality first pass** ([[Damage]]) — Injury roll, WND 1, Down / Stabilize / bleed-out, Fate hook. **Not Locked** until playtested — treat as Drafted, not Done.
-- [x] **List Building + Weapons** (2026-07-13) — ranks 5/8/16/24 at a 100-pt budget; weapons built from class + characteristics. Sim-validated to an 11-point spread across 8 archetypes. → [[Crew Sim — Findings]]
+- [x] **List Building + Weapons** (2026-07-13) — ranks 5/8/16/24 at a 100-pt budget; weapons built from class + characteristics. Sim-validated to an 11-point spread across 8 archetypes. → [[Crew Sim — Findings]] *(**Scale superseded 2026-08-05:** 1000 Credits, ranks **65/95/165/245** Match Play and **65/75/125/170** Campaign Start — [[List Building]].)*
 - [x] **Terrain density is a BAND (9–12 features), not a floor** — it swings win rate by 66 points, more than any cost. → [[Terrain#Setup procedure]]
 
 Secondary opens: Glorious Deed name ([[Core Game Format]] / [[Scenarios]]), List Building point values, catch-up rule ([[Initiative & Activation]]). *(Skill Paths 9+/11+ → flat 7+ with modifiers: done.)*
@@ -195,10 +200,10 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 <small>depends on: Unit Design, Weapons</small>
 
 - [x] The pyramid: 1 Leader · 2 lower-rank per Specialist · 1 Fighter per Recruit · min 4. **No unit cap.**
-- [x] Exact costing: ranks **5 / 8 / 16 / 24**, budget **100**. Stats & skills are FREE (rank is the bundle).
+- [x] Exact costing: ~~ranks **5 / 8 / 16 / 24**, budget **100**~~ → **superseded 2026-08-05** by the 1000-Credit scale and **two starting tiers** (Match Play / Campaign Start). Stats & skills are still FREE — rank is the bundle.
 - [x] **Recruit** rank added — the 0-stat body that makes a swarm legally fieldable.
 - [ ] **Doctrine** layer (crew identity, 8 archetypes) — **pulled to the campaign layer.** It's a list-building / campaign mechanic, not a first-battle rule; revisit when the campaign phase is built.
-- [x] Campaign roster: **+2 per Advance; scars change nothing** (veterans crowd out rookies = anti-snowball). *(The −2 scar rebate was cut 2026-08-01 — it made scarred veterans cheaper, working against the valve it sat inside.)*
+- [x] Campaign roster: ~~**+2 per Advance**~~; **scars change nothing** (veterans crowd out rookies = anti-snowball). *(The −2 scar rebate was cut 2026-08-01 — it made scarred veterans cheaper, working against the valve it sat inside. The flat +2 was replaced 2026-08-05 by the priced **10-Level track** — 15/stat point · 20/35/55 per skill tier · 45 for the Level-7 wound, **+245 Credits** for a full track — [[Progression]].)*
 - [x] Anti-hero ⅓ cap **cut** — redundant at WND 1.
 - [x] Validated: **11-point spread across 8 archetypes** on a legal board → [[Crew Sim — Findings]].
 - [ ] Faction selection / buffs & nerfs at list level → socket left open in [[Factions]].
@@ -236,7 +241,7 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 ### S4 Settlement & Campaign
 *The meta-game: bases, economy, and the persistent war between battles.*
 
-#### 10 · [[Settlement]] — 🟨 Designing
+#### 10 · [[Settlement]] — ✅ Drafted *(founding drafted 2026-08-05)*
 <small>depends on: Core Game Format · catalogue split out to [[Structures]]</small>
 
 - [x] The settlement map and how players place built structures — **12"×36" canvas on a 1" grid**, the defender's back three density squares on a 3'×3' board ([[Structures#The settlement canvas]]).
@@ -248,18 +253,23 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 #### 36 · [[Structures]] — ✅ Drafted
 <small>depends on: Settlement, Terrain, Terrain Interaction, Infrastructure, Deployables</small>
 
-- [x] 25 structures across Sustain / Convert / Operate / Recover / Defend; 4 starting, the rest founding-eligible or tier-gated.
+- [x] **23** structures across Sustain / Convert / Operate / Recover / Defend; 4 starting, the rest founding-eligible from turn one, no prerequisites. *(Was 25 — the Water Reclaimer and Cistern went with Water on 2026-08-01.)*
 - [x] Footprint classes — Building 6×6" min · Plant ~3×3" · Station 3×1" min; terrain sizes are approximate, tolerance rule included.
-- [x] Every entry ships a [[Terrain#Setup procedure|terrain line]] and a Power draw; Generator +3 vs a starting draw of exactly 3.
-- [ ] Costs in Credits/Materials — blocked on [[Economy]].
+- [x] Every entry ships a [[Terrain#Setup procedure|terrain line]] and a Power draw; **Generator +5** against a starting draw of **3**. *(The old +3 was retired 2026-08-05 — `POINTS-DECISIONS.md` D9 won.)*
+- [x] **Costs in Materials — printed 2026-08-05**, plus HQ tiers, Groundworks, and a flat **30 Materials** repair. First-draft, untested.
+- [x] **Worker benefits per structure — drafted; the 0–100 Proficiency track is cut.** A worker is assigned or not.
+- [x] **Any structure is sabotage-chargeable in any raid** — closes the destroy-only target Water used to provide.
 
-#### 11 · [[Economy]] — ⬜ Not started
+#### 11 · [[Economy]] — ✅ Drafted *(2026-08-05)*
 <small>depends on: Settlement</small>
 
-- [ ] The resource types and how they're gathered (gatherer buildings, scavenging, scenario rewards).
-- [ ] The spending sinks: building, crafting, recruiting, researching, upkeep.
-- [ ] Upkeep/maintenance costs so growth carries friction.
-- [ ] Anti-snowball / anti-inflation mechanics (raids, decay, caps) so an early leader can't run away.
+- [x] Resource types and gathering — **Credits · Materials** banked, **Power** a flow. Gatherers, Scavenge dispatches, Search, raiding.
+- [x] The spending sinks — structures, upgrades, Groundworks, flat-30 repair, research, crafting; bodies, weapons, Levels, Chems, ransom.
+- [x] **Upkeep is deliberately absent** — per-head upkeep was measured, found unnecessary and harmful, and cut. **Crew Rating is the friction** instead: veterans get dearer, so the fielded crew shrinks.
+- [x] Anti-inflation — **storage caps with overflow lost**, housing **12 (+6/Bunkhouse)**, equipment **30 (+30/Armory tier)**.
+- [x] Founding budget **250 Materials + 150 Credits**; battle reward **65 Cr + 33 Mat** (T12).
+- [ ] **The economy sink is still open** — a rich settlement has nothing dear enough to buy. The headline unresolved item.
+- [ ] Storage *numbers*, raid take per container, territory supply cost.
 - [ ] How a solo or drop-in player tracks their own economy independently.
 
 #### 19 · [[Campaign]] — ✅ Drafted *(thin)*
@@ -280,14 +290,16 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [ ] Full scar / injury effect tables.
 - [ ] Grudges, bonds, narrative traits.
 
-#### 20 · [[Territory]] — ⬜ Not started
+#### 20 · [[Territory]] — ✅ Drafted *(2026-08-05)*
 <small>depends on: Campaign</small>
 
-- [ ] How territories are claimed and contested, and how control is tracked on the map.
-- [ ] Supply routes between settlements — what they enable and what raiding them does.
-- [ ] The bonuses each territory grants (resources, strategic edge).
-- [ ] Defending held territory: raids on your settlement, who attacks and when.
-- [ ] Loss conditions and how control of a territory flips hands.
+- [x] **The territory card — eleven required fields.** A card missing any of them is not finished.
+- [x] Control runs through three states: **Claimed → Controlled → Isolated.** Claimed grants nothing until you spend to hold it.
+- [x] **The bonus is access, never power** — holding ground widens what you can do, never makes a fighter stronger.
+- [x] **The default loot table** (1d10) — shared by Search, Raid loot and Scavenge dispatches.
+- [x] Defending held territory runs through the settlement raid board ([[Terrain]]), with the defender taking all Priority ties.
+- [ ] **Supply routes are undrafted** — the card carries a *supply requirement* field, but what a route enables and what raiding it does is unwritten.
+- [ ] Terrain-recipe → actual-pieces mapping; loot markers vs the 9–12 density budget; how many territories a map carries.
 
 
 ### Milestone
@@ -302,21 +314,24 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 ### S4 Settlement & Campaign
 *The meta-game: bases, economy, and the persistent war between battles.*
 
-#### 22 · [[Downtime]] — ⬜ Not started
+#### 22 · [[Downtime]] — ✅ Drafted *(2026-08-05)*
 <small>depends on: Campaign, Settlement</small>
 
-- [ ] The downtime action menu and how many actions a crew gets per cycle.
-- [ ] Each action's effect: scout (intel / pick next scenario), train (XP/skills), craft (gear/tech), build (settlement), heal/recover.
-- [ ] How downtime sequences against the campaign turn, plus any costs or risks.
+- [x] **The three-phase campaign turn** — Post-Battle → Settlement → Battle Prep. Everything that said "Settlement Phase" was assuming this sequence before it existed.
+- [x] Dispatch menu and count — **one action per HQ tier** (I=1 · II=2 · III=3), two types: **Scout** and **Scavenge**.
+- [x] **Train is cut** — growth comes only from post-battle Levels. Craft/repair lives inside the Workbench/Workshop, not a menu entry.
+- [x] **Sabotage-by-dispatch is deliberately out of v1** — wrecking a structure needs a raid, which keeps the interesting decision on the table.
 - [ ] How solo and co-op players resolve downtime.
 
-#### 23 · [[Events]] — ⬜ Not started
+#### 23 · [[Events]] — ✅ Drafted *(battlefield only, 2026-08-05)*
 <small>depends on: Settlement, Campaign</small>
 
-- [ ] Event triggers (start of campaign turn, during downtime, random table) and frequency.
-- [ ] Settlement events (visitors, disasters, sabotage) vs world/map events.
-- [ ] Effect scope: one-off boons/banes vs lasting consequences.
-- [ ] How events feed the narrative and keep no two campaigns the same.
+- [x] **Triggers and frequency — exactly two rolls**, Round 1 and the midpoint round. No running clock.
+- [x] **The 1d10 battlefield table**, ten entries, two of them deliberately nothing.
+- [x] Effect scope — all one-off; territory cards layer location-specific entries over the standard table.
+- [ ] **Settlement events are undrafted** — visitors, disasters, sabotage from off-table.
+- [ ] **Map/world events are undrafted** — anything firing in the Settlement Phase rather than during a battle.
+- [ ] Expand toward **15–20** entries once the rhythm is confirmed; pick whether the midpoint is Round 3 or 4.
 
 #### 24 · [[Narrative]] — ⬜ Not started
 <small>depends on: Campaign</small>
@@ -347,14 +362,16 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 ### S5 Content
 *Real factions, built on systems that already exist.*
 
-#### 04 · [[Factions]] — ⬜ Not started
+#### 04 · [[Factions]] — ✅ Drafted *(2026-08-05)*
 <small>depends on: Unit Design, List Building, Settlement, Morale</small>
 
-- [ ] A faction template: identity, unique units, signature ability, and faction-wide buffs AND nerfs.
-- [ ] How each faction's special rules hook into existing systems rather than inventing new subsystems.
-- [ ] Roster and unlock differences per faction.
-- [ ] The starter factions (the alpha needs just 1; plan a small spread to follow).
-- [ ] Asymmetry that's born from the setting/lore, not bolted on for its own sake.
+- [x] **The template: one battlefield rule + one settlement affinity.** No flat stat bonus, **no matched drawback**, no exclusive unlock — balanced peer-to-peer.
+- [x] Every rule hooks into an existing system — a discount, a conditional modifier, an action-economy nudge, or a terrain-verb exception. **None touches a hard ceiling.**
+- [x] **Six factions adopted** — Military · First Responders · Labor · Residents · Tech Workers · Criminals. Supersedes the flat-bonus WIP roster.
+- [x] Asymmetry comes from the setting — each faction is who these people *were* before the war.
+- [ ] **Final names** — the WIP list's voice (Lost Batallion, The HACKERS) may beat the plain labels. Your call.
+- [ ] Tighten each rule to an actionable number — First Responders' "improved Build test" has no value yet.
+- [ ] Confirm at the table that each rule is genuinely *identity-defining* rather than merely flavourful.
 
 
 ### S6 Production
