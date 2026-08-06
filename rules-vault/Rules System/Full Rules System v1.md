@@ -3,6 +3,7 @@ type: master
 title: Full Rules System v1
 status: Source of Truth
 adopted: 2026-08-05
+revised: 2026-08-05
 tags:
   - settlements/master
 ---
@@ -11,6 +12,11 @@ tags:
 > document, **this document wins** and the other note is owed an edit. It is the draft
 > that becomes the rulebook. Individual phase notes remain useful for the long-form
 > reasoning behind a rule; this is the ruling.
+>
+> **Revised 2026-08-05** — §22 Workers: the 0–100 **Proficiency** track is **cut**. A worker
+> is assigned or not, one flat benefit per structure, nothing to level. The full three-tier
+> version is parked in §22 as future-supplement content. Ripples through §25.5 (no
+> Proficiency-gain step), §26.4 (Reassign carries no Proficiency) and §29.
 >
 > Costing engine: `test-bench/points/` · sim harnesses: `test-bench/balance/` ·
 > decisions log: `docs/POINTS-DECISIONS.md`.
@@ -763,56 +769,30 @@ HQ (a little of everything) · Gatherer buffer (a little of its own resource, ea
 
 ---
 
-## 22 · Workers & proficiency **[PACKET]**
+## 22 · Workers **[PACKET shape, simplified per direct instruction]**
 
-One worker slot per structure that accepts one; benefit only while assigned, stops immediately on reassignment. Proficiency 0–100, tied to the current job: 0–32 base only · 33–65 T1 bonus · 66–99 T2 bonus · 100 T3 ceiling. Gain +5–10/Settlement Phase *(placeholder, needs campaign data)*.
+> **Proficiency tiers are cut from v1.** The 0–100 track with three unlocking bands was real bookkeeping — a number to track per worker, per structure, that grows over time — for a mechanic that's ultimately still just "a structure works better with a person in it." That's the kind of layered complexity this project has consistently cut everywhere else (per-head upkeep, the Heat/Attention track, HP-based structure damage), and worker progression didn't earn an exception just by arriving later. **A worker is either assigned or not.** The listed benefit applies while assigned, stops the moment they're reassigned, full stop. No number to track, nothing to level.
+>
+> The full three-tier version isn't thrown away — it's genuinely good content, just scoped wrong for a core rule. It's parked below as a candidate for a future Settlements supplement focused on expanding the settlement layer, where a slower, more granular sub-system is a reasonable thing to offer to players who specifically want more settlement-management depth, without forcing that bookkeeping on everyone else.
 
-**The three original worked examples, unchanged:**
-- **Processor:** T1 buffers one missed Power round · T2 +1 Materials/gather · T3 convert overflow once/turn.
-- **Med-bay:** T1 +1 further to Fate roll (stacks to +2) · T2 cheaper scar healing · T3 guarantee a floor result once/campaign.
-- **Salvage Yard:** T1 +1 Credits/gather · T2 +10% sell rate · T3 free appraisal once/turn.
+One worker slot per structure that accepts one.
 
-### The remaining 17 eligible structures **[NEW]**
+**Processor:** +1 Materials per gather. **Med-bay:** +1 further to the Fate roll (stacks with the structure's own +1, total +2). **Salvage Yard:** +1 Credits per gather. **Generator:** +1 Power output. **Storehouse:** +10% effective storage cap. **Equipment Shed / Armory:** +10 equipment slots on top of the structure's own. **Trader's Kiosk / Trade House:** sell rate +10%. **Workbench / Workshop:** crafted item Materials cost −10%. **Fabricator ladder:** unlock one blueprint one tier early. **HQ:** +1 dispatch action per cycle, on top of the tier's base rate (§21). **Scout Post:** reveal a territory's hidden Side Objective, not just its Twist. **Comms Mast:** the mission-quality reroll bonus applies to two rolls instead of one. **Server Core:** rival intel includes one fighter's current Level and skills, not just roster size. **Drone Bay:** the free recon mission also reveals a territory's Loot table entries (§23). **Holding Cells:** the opposed INT test for Brainwashing (§26.3a) gets +1. **Mess Hall:** the free Stress-clear (§21) triggers on two fighters instead of one. **Gatehouse:** the gate's chokepoint counts as Heavy cover, not Light, for defenders behind it in a raid. **Watchtower:** the starting model in the tower also starts Readied, no Action spent. **Turret Mount:** the turret gains +1 to its auto-fire hit roll. **EW Mast:** counter-hack/counter-drone radius extends to 12" from the structure.
 
-Same rule throughout: T1 is a buffer or quality-of-life fix, T2 is a real numeric or functional improvement, T3 is a rare once-per-something ceiling effect. Never a flat stat bump. *(Bunkhouse, Vault, and Perimeter Wall are excluded — they're passive amenities/board shaping with no operational job for a worker to hold.)*
+*(Bunkhouse, Vault, and Perimeter Wall stay excluded — passive amenities/board shaping with no operational job for a worker to hold.)*
 
-**Generator** — T1: survives one missed maintenance cycle without a Power drop · T2: +1 Power output · T3: once/campaign, instantly restore Power after a raid-caused Disable, no repair cost.
+All of these are first-draft, same flag as everything else content-shaped in this document.
 
-**Storehouse** — T1: no overflow loss the first time storage caps out in a phase · T2: +10% effective storage cap · T3: once/turn, shift Materials and Credits between Storehouses for free.
+<details>
+<summary><b>Parked — the full three-tier Proficiency system, for a future supplement</b></summary>
 
-**Equipment Shed / Armory** — T1: re-roll a failed equip-slot check *(if any exist)*, otherwise flavor-only until Armory · T2: +10 equipment slots on top of the structure's own · T3: once/campaign, recover one piece of gear lost in a raid, unclaimed.
+Proficiency 0–100, tied to the current job: 0–32 base only · 33–65 T1 bonus · 66–99 T2 bonus · 100 T3 ceiling. The flat effects above are each drawn from what was previously this system's T1 or T2 tier. The full tiered text, including every T3 once-per-campaign ceiling effect that got cut along with the tracking, is preserved in this document's revision history rather than reproduced here — reintroduce wholesale if a supplement wants the deeper version rather than rewriting it from scratch.
 
-**Trader's Kiosk / Trade House** — T1: one failed sell attempt/phase can be retried · T2: sell rate +10% (stacks with the Criminals faction affinity, §24, per the normal no-self-stacking rule on the worker's own bonus, not the faction's) · T3: once/turn, access one Advanced Weapons Lab-tier item for purchase without owning that tier yourself.
-
-**Workbench / Workshop** — T1: one failed craft/repair attempt/phase can be retried · T2: crafted item Materials cost −10% · T3: once/campaign, craft one item at zero Materials cost.
-
-**Fabricator ladder (Fabricator → Robotics Workshop → Advanced Weapons Lab)** — T1: research progress buffers one missed Power round, same as Generator's own T1 · T2: unlock one blueprint one tier early · T3: once/campaign, unlock a blueprint two tiers early.
-
-**HQ** — T1: one missed dispatch action/phase can be reattempted · T2: +1 dispatch action/cycle on top of the tier's base rate (§21) · T3: once/campaign, run two campaign actions in the same Settlement Phase that would normally require two separate phases.
-
-**Scout Post** — T1: re-roll a failed Twist reveal · T2: reveal a territory's hidden Side Objective, not just its Twist · T3: once/campaign, scout an enemy settlement's structure layout before a raid.
-
-**Comms Mast** — T1: one failed mission-quality reroll/phase is free instead of costing the reroll · T2: the reroll bonus applies to two rolls instead of one · T3: once/campaign, guarantee a favorable recruitment result (a specific stat-leaning recruit becomes available).
-
-**Server Core** — T1: rival intel refreshes once/phase instead of going stale · T2: intel includes one rival fighter's current Level and skills, not just roster size · T3: once/campaign, see a rival's next chosen territory before they commit to it.
-
-**Drone Bay** — T1: the free recon-drone mission can be reattempted once if it fails · T2: the recon mission also reveals a territory's Loot table entries (below) · T3: once/campaign, field a second drone in a single battle at no extra Bandwidth cost *(the one exception to Bandwidth's hard cap, §28.1 — deliberately rare and worth flagging as in tension with that cap; keep this restricted to literally once per campaign)*.
-
-**Holding Cells** — T1: a Captured prisoner (§26.3a) can't attempt escape during their holding window · T2: the opposed INT test for Brainwashing gets +1 · T3: once/campaign, skip straight to the second Brainwash test without needing the first success.
-
-**Mess Hall** — T1: the free Stress-clear (§21) can trigger on two fighters instead of one · T2: the Stress-clear also removes one Bleed or Poison stack · T3: once/campaign, clear all Stress from the whole crew in one Settlement Phase.
-
-**Gatehouse** — T1: re-roll a failed manual-operate test on the gate · T2: the gate's chokepoint counts as Heavy cover (not Light) for defenders behind it in a raid · T3: once/raid, seal the gate permanently for the rest of that battle, no Force/hack can reopen it.
-
-**Watchtower** — T1: the starting model in the tower gets a free Spot at battle start · T2: that model also starts Readied, no Action spent · T3: once/raid, the tower model may act as if Readied a second time after its first Reaction is spent.
-
-**Turret Mount** — T1: the mounted turret's deploy test (if it ever needs one — normally it auto-deploys per §21) gets +1 · T2: the turret gains +1 to its auto-fire hit roll · T3: once/raid, the turret gets a second auto-fire Reaction in the same round.
-
-**EW Mast** — T1: one failed Interrupt/phase (§12.6) can be retried · T2: the counter-hack/counter-drone radius extends to 12" from the structure · T3: once/raid, force one enemy drone to go Down on deployment, no test.
-
-All of these are first-draft, same as the three original worked examples — flagged as untested content, not tuned numbers, in §29.
+</details>
 
 ---
+
+
 
 ## 23 · Territory & the campaign map **[PACKET]**
 
@@ -893,7 +873,6 @@ Follows immediately once Phase 1 is fully resolved. This is where the settlement
 - **Build & upgrade structures** — spend Materials against the catalogue (§21).
 - **Assign or reassign workers** to structures (§22). Reassigning ends the old benefit immediately; the new assignment starts producing next Settlement Phase, not retroactively.
 - **Assign Power** — allocate the Generator's output across powered structures, respecting each structure's draw (§19). A structure left unpowered this phase is Disabled until it's covered.
-- **Resolve worker Proficiency gains** for every currently-assigned worker (§22).
 - **Resolve pending Captured decisions** — Ransom or Brainwash attempts due this phase (§26.3a steps 3–4).
 - **Resolve third-Scar retirement decisions** for any fighter who crossed that threshold (§26.4).
 - **Dispatch actions.** Send fighters or workers out against the Territory map. A settlement gets one dispatch action per HQ tier's rating (HQ I = 1, II = 2, III = 3 — §21). Two dispatch types exist in v1:
@@ -997,7 +976,7 @@ A fighter who rolls Hardened suffers no injury and receives **one free Level-up 
 
 ### 26.4 · The third Scar — forced retirement **[DRAFTED shape, NEW options]**
 
-Choose one: **Reassign** to Worker (§22) at Proficiency 0 · **One last mission** then retire regardless of outcome · **Special treatment** (T2 Med-bay, significant cost, heals one Scar — **once per career, full stop**) · **Retire outright**.
+Choose one: **Reassign** to Worker (§22) · **One last mission** then retire regardless of outcome · **Special treatment** (T2 Med-bay, significant cost, heals one Scar — **once per career, full stop**) · **Retire outright**.
 
 > **[SIM-CONFIRMED — T9]** Uncapped, Special Treatment gets bought **3.98 times per 20-battle campaign** — routine, not exceptional. Capping at once/career brings it to 1.00. **Do not ship this uncapped.**
 
@@ -1063,6 +1042,8 @@ How to physically show every game element at the table; any collection (DIY, 3D-
 - **"Economy sink"** means: settlements pile up Credits/Materials faster than they have anything worth spending them on, so the number just sits there unused. It's not a balance danger (nobody's winning unfairly) — it's closer to a design *waste*: a wealthy settlement's surplus isn't buying interesting decisions, it's idling. The fix is more expensive high-tier things to build, or ongoing costs, so a rich settlement's wealth is actually doing something. Not addressed by this turn's changes — still open.
 - **"D21"** is a specific numbered decision in `POINTS-DECISIONS.md`, the vault's own log of settled pricing calls — it's about whether weapon costs should add together or multiply together as you stack characteristics onto a weapon (additive vs. multiplicative pricing). It's outside this document's scope (it's a Weapons/List Building pricing question), but the sim data flagged that the test used to justify D21's answer might have a bug in it, so it's worth someone re-checking before treating D21 as bedrock. Not something you need to solve — just flagging it exists.
 
+**Resolved most recently:** Worker Proficiency's 0–100 tiered tracking system was cut entirely from v1 (§22) — a worker is now assigned or not, full stop, one flat benefit, no number to grow. This was flagged as verging on rules bloat relative to its payoff, and it's a fair catch: it's the same category of cut this project has made repeatedly elsewhere (per-head upkeep, Heat/Attention, HP-based structure damage). The full three-tier version wasn't discarded — it's preserved as a collapsed appendix in §22, explicitly scoped as future-supplement content rather than a core rule.
+
 **Resolved this turn, by direct instruction:**
 - Deployables costs converted to the 1000-Credit scale (§12.6, ×10 conversion off the vault's own stated anchor).
 - Captured and Hardened both fully drafted (§26.3a, §26.3b) — Captured gated to Recruits/Fighters only, with a rescue-raid escape valve, ransom, and a two-stage brainwash path; Hardened grants a free Level.
@@ -1089,7 +1070,7 @@ How to physically show every game element at the table; any collection (DIY, 3D-
 - Loot markers vs. the 9–12 terrain-density budget — confirm they're counted separately. *(The default Loot table itself is now drafted, §23 — this remaining item is specifically about physical loot-marker footprint on the board, a separate question.)*
 - Crafted vs. manufactured weapon-origin tiers, including the conditions-asymmetry hook — dropped by the packet, never replaced.
 - HQ tier costs, Med-bay/Mess Hall numbers — first-draft guesses, untested.
-- Worker Proficiency gain rate — placeholder, needs campaign-length data.
+- Worker benefit numbers (§22) are first-draft, untested — the same flag as everything else content-shaped in this document, now simpler to check since there's no Proficiency curve to validate alongside them.
 - BUILDER-type on-table construction units — mentioned in original vision notes, never built anywhere.
 - A worked example of objective-completion → specific settlement benefit.
 - Scale note: `List Building.md`'s old 5/8/16/24 ladder is superseded everywhere in this document by the 1000-Credit scale; worth a one-line flag in that file itself.

@@ -41,12 +41,11 @@ Follows immediately once Phase 1 is fully resolved. This is where the settlement
 - **Build & upgrade structures** against the catalogue ([[Structures]]).
 - **Assign or reassign workers.** Reassigning ends the old benefit *immediately*; the new one starts producing next Settlement Phase, never retroactively.
 - **Assign Power** across powered structures, respecting each one's draw. Anything left unpowered is **Disabled** until covered.
-- **Resolve worker Proficiency gains** for every assigned worker.
 - **Resolve pending Captured decisions** — Ransom or Brainwash attempts due this phase.
 - **Resolve third-Scar retirement decisions.**
 - **Dispatch actions** — one per HQ tier (HQ I = 1 · II = 2 · III = 3). Two types exist in v1:
 	- **Scout** — reveal a chosen territory's Twist or hidden Side Objective before a battle is fought there.
-	- **Scavenge** — roll that territory's Loot table for a small Credits/Materials gain, no battle needed.
+	- **Scavenge** — roll that territory's Loot table ([[Territory#The default loot table]]) for a small Credits/Materials gain, no battle needed.
 
 	*Sabotage-by-dispatch is deliberately **not** in v1: wrecking a specific structure needs the planted-charge mechanic, which needs a raid. Dispatch stays light and non-combat, and the interesting sabotage decision stays on the table, literally.*
 
@@ -62,7 +61,7 @@ Immediately before the next battle.
 - **Train is cut** as a downtime action — growth comes only from post-battle Levels ([[Progression]]).
 - Craft/repair sit inside the Workbench/Workshop, not as a separate downtime menu entry.
 - **Solo & co-op downtime is not drafted** — see [[Solo & Co-op]], still `Not Started`.
-- Worker Proficiency gain rate (+5–10/phase) is a **placeholder** awaiting campaign-length data.
+- **Worker benefit numbers are first-draft, untested** ([[Structures#Worker benefits]]). *(The 0–100 **Proficiency** track was cut on 2026-08-05 — a worker is assigned or not, so there is no gain rate to resolve in this phase any more.)*
 
 ## Rule ledger
 _none_

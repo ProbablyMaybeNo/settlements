@@ -90,13 +90,13 @@ A deployed turret holds a **Ready** reaction. **Once per round**, as a **Reactio
 > [!note] Turrets are yours; hijacking them is the counterplay
 > A deployed turret **auto-fires for its owner** — that is what the points and the one-hit fragility buy. There are **no board-built turrets**; *every* turret is a deployable. An enemy **hacker can hijack one** — deactivate it, lock it off their squad (**Rewrite Killbox**), or fire it at its own side (**Turret Tamer**) — see [[Hacking#Linked functions (what a successful hack controls)]].
 
-| Turret | Build | Cost | Range | Auto-fire profile |
+| Turret | Build | Credits | Range | Auto-fire profile |
 |---|:---:|:---:|:---:|---|
-| **Autoturret** | Complex −1 | **12** | 18" | One shot / round, Injury **Damage +3**. The baseline. |
-| **Sniper Turret** | Intricate −2 | **15** | 24" | One shot / round, **Damage +3**, **+1 to hit** (it never moves, so it is always braced). Reaches from its own deployment zone. |
-| **Burst Turret** | Intricate −2 | **18** | 18" | **Two** shots / round at **Damage +2** each (same or split targets). Volume of fire — priced up because multi-shot is the game's biggest DPS lever. |
-| **Blast Turret** | Complex −1 | **14** | 12" | One shot / round, **Damage +3**, **Blast** (2" — resolve against every model within 2" of the target). |
-| **Reinforced Turret** | Complex −1 | **15** | 18" | One shot / round, **Damage +3**. **Hardened:** always counts as **Heavy (−2) cover** to be hit — the within-6" *Open* clause does **not** apply, so it can't be walked up to and wrecked. |
+| **Autoturret** | Complex −1 | **120** | 18" | One shot / round, Injury **Damage +3**. The baseline. |
+| **Sniper Turret** | Intricate −2 | **150** | 24" | One shot / round, **Damage +3**, **+1 to hit** (it never moves, so it is always braced). Reaches from its own deployment zone. |
+| **Burst Turret** | Intricate −2 | **180** | 18" | **Two** shots / round at **Damage +2** each (same or split targets). Volume of fire — priced up because multi-shot is the game's biggest DPS lever. |
+| **Blast Turret** | Complex −1 | **140** | 12" | One shot / round, **Damage +3**, **Blast** (2" — resolve against every model within 2" of the target). |
+| **Reinforced Turret** | Complex −1 | **150** | 18" | One shot / round, **Damage +3**. **Hardened:** always counts as **Heavy (−2) cover** to be hit — the within-6" *Open* clause does **not** apply, so it can't be walked up to and wrecked. |
 
 ^tbl-family-a-turrets
 
@@ -104,38 +104,38 @@ A deployed turret holds a **Ready** reaction. **Once per round**, as a **Reactio
 Spent-on-trigger · **concealed** · **one** equipment slot each. **Built like a weapon:** pick a **chassis** (how it reaches the target), then buy **one payload** (what it does). Cost = chassis + payload.
 
 ### Chassis — how it delivers
-| Chassis | Cost | Delivery |
+| Chassis | Credits | Delivery |
 |---|:---:|---|
-| **Proximity** | **5** | Place a **3" template**. Detonates the instant an enemy **ends a Move** inside it. |
-| **Remote** | **7** | Place a hidden marker with a **6" trigger radius**; the **owner command-detonates** it while any enemy is inside the radius (a **Reaction** costing a Ready token; it ignores the forward-arc / end-of-move requirement, like the Hacking Interrupt). **Bluff kit:** buying a Remote gives you **4 markers — 1 live, 3 dummy**. The carrier may spend an activation to place a dummy; only the live marker ever detonates. The enemy can't tell which is which without a **Threat Scan** or a disarm. |
-| **Seeker** | **8** | No template. On deploy, choose an enemy in your fighter's **LOS**. Each **End Phase** the seeker moves **4"** toward that target (ignoring its evasion); on reaching base contact it detonates against it. It can be shot, disarmed or hacked while en route. |
+| **Proximity** | **50** | Place a **3" template**. Detonates the instant an enemy **ends a Move** inside it. |
+| **Remote** | **70** | Place a hidden marker with a **6" trigger radius**; the **owner command-detonates** it while any enemy is inside the radius (a **Reaction** costing a Ready token; it ignores the forward-arc / end-of-move requirement, like the Hacking Interrupt). **Bluff kit:** buying a Remote gives you **4 markers — 1 live, 3 dummy**. The carrier may spend an activation to place a dummy; only the live marker ever detonates. The enemy can't tell which is which without a **Threat Scan** or a disarm. |
+| **Seeker** | **80** | No template. On deploy, choose an enemy in your fighter's **LOS**. Each **End Phase** the seeker moves **4"** toward that target (ignoring its evasion); on reaching base contact it detonates against it. It can be shot, disarmed or hacked while en route. |
 
 ^tbl-chassis-how-it-delivers
 
 ### Payload — what it does on detonation
 Buy exactly one. All effects route to rules you already have.
-| Payload | Cost | Effect |
+| Payload | Credits | Effect |
 |---|:---:|---|
-| **Explosion** | **+4** | Injury **Damage +3**, **Blast** (2"). The default killer. |
-| **Fire** | **+3** | **Blast** Injury **Damage +2**, sets **Fire**, leaves a **3" Fire** hazard for one round ([[Terrain#Hazards (the Dangerous overlay)]]). |
-| **Poison** | **+3** | Places a **3" Poison** hazard for two rounds ([[Conditions#Persistent conditions (resolve in the End Phase)|Poison]] to anyone inside or entering). |
-| **Shock** | **+3** | **Blast**, no Injury: **Shocked + Blind** on every model in radius ([[Conditions#Control conditions (from skills, weapons and terrain)]]). |
-| **Smoke** | **+2** | No damage — places a **3" Dense Smoke** ([[Weapons]] Smoke). A trap that screens instead of kills. |
+| **Explosion** | **+40** | Injury **Damage +3**, **Blast** (2"). The default killer. |
+| **Fire** | **+30** | **Blast** Injury **Damage +2**, sets **Fire**, leaves a **3" Fire** hazard for one round ([[Terrain#Hazards (the Dangerous overlay)]]). |
+| **Poison** | **+30** | Places a **3" Poison** hazard for two rounds ([[Conditions#Persistent conditions (resolve in the End Phase)|Poison]] to anyone inside or entering). |
+| **Shock** | **+30** | **Blast**, no Injury: **Shocked + Blind** on every model in radius ([[Conditions#Control conditions (from skills, weapons and terrain)]]). |
+| **Smoke** | **+20** | No damage — places a **3" Dense Smoke** ([[Weapons]] Smoke). A trap that screens instead of kills. |
 
 ^tbl-payload-what-it-does-on-detonation
 
-*Examples:* Proximity + Explosion = **9** · Remote + Poison = **10** · Seeker + Explosion = **12** · Proximity + Smoke = **7**.
+*Examples:* Proximity + Explosion = **90** · Remote + Poison = **100** · Seeker + Explosion = **120** · Proximity + Smoke = **70**.
 
 ## Family C · Traps
 Spent-on-trigger · **concealed** · **one** equipment slot each. **Traps deny movement** — that is their whole job. Mines kill; [[Infrastructure]] reshapes; traps **stop, channel and wall off** the enemy. Almost none deal damage.
 
-| Trap | Build | Cost | Trigger & effect |
+| Trap | Build | Credits | Trigger & effect |
 |---|:---:|:---:|---|
-| **Trip Wire** | Simple +1 | **3** | Within **1"** → the model is knocked **Prone**. Stops a rush cold. |
-| **Spike Strip** | Simple +1 | **4** | A **3" area**; enemies entering treat it as **Difficult** ground and gain **Hobbled**. Persists until cleared. |
-| **Covered Pit** | Standard 0 | **5** | A concealed **2" hole** that reads as normal floor. A model entering **FALLs** ([[Terrain]] verticality — **Prone**) and is **Snared** (stuck until it climbs out). |
-| **Leg Clamp** | Standard 0 | **5** | Within **1"** → the model is **Snared** (cannot move; Action + **STR 7+** to break free). A hard single-model stop. |
-| **Razor Barrier** | Standard 0 | **4** | Deploy a **3" barrier**: **Impassable** without **Forcing** it (STR 7+, and you take **Hobbled** shoving through). A pure movement wall — blocks bodies, not sight. |
+| **Trip Wire** | Simple +1 | **30** | Within **1"** → the model is knocked **Prone**. Stops a rush cold. |
+| **Spike Strip** | Simple +1 | **40** | A **3" area**; enemies entering treat it as **Difficult** ground and gain **Hobbled**. Persists until cleared. |
+| **Covered Pit** | Standard 0 | **50** | A concealed **2" hole** that reads as normal floor. A model entering **FALLs** ([[Terrain]] verticality — **Prone**) and is **Snared** (stuck until it climbs out). |
+| **Leg Clamp** | Standard 0 | **50** | Within **1"** → the model is **Snared** (cannot move; Action + **STR 7+** to break free). A hard single-model stop. |
+| **Razor Barrier** | Standard 0 | **40** | Deploy a **3" barrier**: **Impassable** without **Forcing** it (STR 7+, and you take **Hobbled** shoving through). A pure movement wall — blocks bodies, not sight. |
 
 ^tbl-family-c-traps
 
@@ -146,15 +146,15 @@ Standing hardware · **repairable** · takes **both** equipment slots. A beacon 
 > - An aura **obeys the global ±3 cap** and **does not stack with itself** (two Munitions Beacons ≠ +2).
 > - **A model benefits from at most two friendly beacon auras at once.** Pick the two if more overlap. This is the brake on a death-star stack.
 
-| Beacon | Build | Cost | Aura (within 6") |
+| Beacon | Build | Credits | Aura (within 6") |
 |---|:---:|:---:|---|
-| **Munitions Beacon** | Complex −1 | **8** | *Allies:* **+1 to the Injury roll** (a damage buff — capped by ±3; never lifts a weapon past the +4 ceiling). |
-| **Targeting Beacon** | Complex −1 | **8** | *Allies:* **+1 to ranged hit rolls.** |
-| **Aegis Beacon** | Complex −1 | **8** | *Allies:* enemy **Injury rolls against them suffer −1** (the "+1 armour" aura, as a capped modifier). |
-| **Cover Beacon** | Standard 0 | **6** | *Allies:* count as in **Light cover** (−1 to be hit) if not already in better cover. |
-| **Cleansing Beacon** | Standard 0 | **8** | *Allies:* each **End Phase**, one friendly in range **clears one negative condition** (Fire, Poison, Blind, Shocked, Pinned); also acts as a **Med-Kit** for Stabilize / Bleed. |
-| **Revive Beacon** | Intricate −2 | **12** | *Allies:* each **End Phase**, one friendly **Down** unit in range **recovers to Prone** (stands next activation). **Down only — a melee kill (Out) stays dead.** |
-| **Dread Beacon** | Standard 0 | **7** | *Enemies:* a model that **enters** the aura gains **+1 Stress**; while inside, **−1 on Break tests**. The one negative-aura beacon. |
+| **Munitions Beacon** | Complex −1 | **80** | *Allies:* **+1 to the Injury roll** (a damage buff — capped by ±3; never lifts a weapon past the +4 ceiling). |
+| **Targeting Beacon** | Complex −1 | **80** | *Allies:* **+1 to ranged hit rolls.** |
+| **Aegis Beacon** | Complex −1 | **80** | *Allies:* enemy **Injury rolls against them suffer −1** (the "+1 armour" aura, as a capped modifier). |
+| **Cover Beacon** | Standard 0 | **60** | *Allies:* count as in **Light cover** (−1 to be hit) if not already in better cover. |
+| **Cleansing Beacon** | Standard 0 | **80** | *Allies:* each **End Phase**, one friendly in range **clears one negative condition** (Fire, Poison, Blind, Shocked, Pinned); also acts as a **Med-Kit** for Stabilize / Bleed. |
+| **Revive Beacon** | Intricate −2 | **120** | *Allies:* each **End Phase**, one friendly **Down** unit in range **recovers to Prone** (stands next activation). **Down only — a melee kill (Out) stays dead.** |
+| **Dread Beacon** | Standard 0 | **70** | *Enemies:* a model that **enters** the aura gains **+1 Stress**; while inside, **−1 on Break tests**. The one negative-aura beacon. |
 
 ^tbl-family-d-beacons
 
@@ -167,7 +167,8 @@ Deployables hand a technical crew a full battlefield loop — and every step is 
 That is the design payoff: an INT specialist is no longer *only* a door-opener. They plant the killbox, keep it running, and turn the enemy's own devices against them.
 
 ## Open dials
-> [!warning] Costs are **first-pass**, anchored to [[Weapons#5 · Sample armoury|the armoury]] (Trap 4 · Med-Kit 4 · Molotov 9 · Assault Rifle 13) and checked against [[Deployables Sim — Findings]]. Validate at the table before graduating this note to the ledger.
+> [!warning] Costs are **first-pass**, and now on the **1000-Credit scale**
+> Converted **2026-08-05** ([[Full Rules System v1]] §12.6) by the **×10** ratio this note's own anchor already implied — Trap 4→**40**, Med-Kit 4→**40**, Molotov 9→**90**, Assault Rifle 13→**130**, which is exactly the ratio used to price the sample armoury ([[Weapons#5 · Sample armoury]]). The old small-point numbers are gone; these tables are the only ones that count. Checked against [[Deployables Sim — Findings]] on the old scale — validate at the table before graduating this note to the ledger.
 
 - [ ] **Burst Turret's two shots.** Multi-attack is the biggest DPS lever in the game ([[Skill Sim — Findings]]). +2×2 is priced high and gated (Intricate −2) — first item to watch. Fallback: one shot with **Spread**.
 - [ ] **Revive Beacon.** Returning Down units in a **WND-1** game is a huge swing — bounded to *one unit, to Prone, Down-only*. If it warps games, cut it to a flat Med/Cleansing effect.

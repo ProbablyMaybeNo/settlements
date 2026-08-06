@@ -2,14 +2,14 @@
 type: rule-phase
 phase: "04"
 stage: S5 Content
-status: Not Started
+status: Drafted
 build_order: 27
 depends_on: ["Unit Design", "List Building", "Settlement", "Morale"]
 feeds_into: ["Balance"]
 tags: [settlements/phase, settlements/stage/s5]
 ---
 # 04 · Factions
-> **S5 Content** · status **Not Started** · build order **27**
+> **S5 Content** · status **Drafted** · build order **27**
 
 **Depends on:** [[Unit Design]], [[List Building]], [[Settlement]], [[Morale]]
 **Feeds into:** [[Balance]]
@@ -39,13 +39,19 @@ The Rules column should nail down:
 > | **Tech Workers** | Hack range bands read one step closer | Fabricator ladder −10% Materials |
 > | **Criminals** | Hide in Light cover, not just Concealing — never within 6" of an objective | Trade House sell rates +10% |
 
-> [!question] The roster below is **yours** and does not match the one above — needs your call
-> The WIP list you wrote (Civilians · First Enforcers · Laborers · Lost Batallion · The HACKERS) is kept verbatim below because it carries the setting voice. But it is built on **flat stat bonuses and nerfs** — "Bonus to STR, nerf to INT" — which the framework above explicitly rules out, and the two rosters only partly line up (**Residents** ≈ Civilians · **First Responders** ≈ First Enforcers · **Labor** ≈ Laborers · **Military** ≈ Lost Batallion · **Tech Workers** ≈ The HACKERS, and **Criminals** is new). Decide which roster is canon, then rewrite each faction's identity as one battlefield rule + one affinity. Nothing below is adopted yet.
+> [!check] The six-faction roster above **is** the roster — adopted 2026-08-05
+> [[Full Rules System v1]] §24 carries the framework **and** this project's roster together, and explicitly **supersedes this note's earlier placeholder**, which was still built on flat stat bonuses and nerfs. So the table above is canon and the WIP list below is now **naming and setting-voice input, not a competing roster.**
+>
+> The two line up closely: **Residents** ≈ Civilians · **First Responders** ≈ First Enforcers · **Labor** ≈ Laborers · **Military** ≈ Lost Batallion · **Tech Workers** ≈ The HACKERS. **Criminals** is new and has no WIP counterpart.
+>
+> **What is still yours to call:** the *names*. "Lost Batallion" and "The HACKERS" carry more setting voice than "Military" and "Tech Workers", and nothing in the framework depends on which label wins.
 
-> [!note] Placeholder — deferred to an upcoming session (noted 2026-07-23)
-> Factions are **planned but not yet designed.** When we build them, the lead lever is a **single, strong, playstyle-defining "signature" rule per faction** — the cheapest way to let players choose different strategies at list-building — modelled on how BLKOUT's **Force Rules** each encode one identity (aggro / attrition / gunline / cyber). See the BLKOUT read-through (Settlements repo → `docs/BLKOUT-RULES-ANALYSIS.md` §19, steal #4). Each signature rule must **hook into existing systems, not invent a new subsystem** (per Focus above)
+> [!question] Two things the framework still owes
+> - **Each faction needs its rule tightened to one sentence a player can act on.** "Improved Build test for field deployables" (First Responders) doesn't say by how much — it needs a number inside the ±3 cap ([[Deployables#Build rating — some things are harder to build]]).
+> - **The signature-rule lever from the 2026-07-23 note still applies:** one strong, playstyle-defining rule per faction, modelled on how BLKOUT's **Force Rules** each encode a single identity (aggro / attrition / gunline / cyber) — see `docs/BLKOUT-RULES-ANALYSIS.md` §19, steal #4. The six rules above are conditional nudges; check at the table whether each one is actually *identity-defining* or merely *flavourful*.
 
-### WIP FACTION LIST
+### WIP faction list — the original setting voice
+*Kept verbatim. Superseded as a roster by the table above; the **flat stat bonuses and nerfs** below are explicitly ruled out by the framework.*
 
 1. Civilians - Jack of all trade master of none, a crew made up of your average soccer moms and little league coach dads.
    

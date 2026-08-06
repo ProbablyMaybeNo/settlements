@@ -42,7 +42,7 @@ core Format — Working Rules / Decisions
 
 - Victory Structure: **Objective-driven** — the battle is won on scenario **objectives, never on kills** ([[Scenarios]]). The crew ahead on objectives at the end of the game wins; you fight because the enemy is standing on your objective, not to run up a body count.  
 
-  Players earn Resources from **scenario-defined sources** — these vary from scenario to scenario and may include completing **objectives**, scoring **kills**, control/extraction, or landing a **"Glorious Deed"** (name WIP): a high-risk signature feat in the spirit of Trench Crusade.  
+  Players earn Resources from **scenario-defined sources** — these vary from scenario to scenario and may include completing **objectives**, scoring **kills**, control/extraction, or landing a **Glorious Deed**: a high-risk signature feat in the spirit of Trench Crusade ([[Campaign#Glorious Deeds]]).  
 
   Resources are **campaign earnings, not the win metric** — banked regardless of who won the battle, so both crews profit from every fight and killing still *pays* toward your settlement even when it doesn't *win*.  
 
@@ -54,7 +54,8 @@ core Format — Working Rules / Decisions
 
   Tactical withdrawal and resource extraction remain valid, often optimal strategies.
 
-> [!question] "Glorious Deed" is a placeholder name — decide the final term, what qualifies, and its resource value/risk when drafting [[Scenarios]] (Trench Crusade's is the reference point).
+> [!check] "Glorious Deed" is the final term, and the list is drafted — 2026-08-05
+> The name stuck, and the ten deeds plus the once-per-fighter-per-battle limit are written up in [[Campaign#Glorious Deeds]] ([[Full Rules System v1]] §26.2). What a Deed *pays* is a **Level trigger** ([[Progression]]) rather than a separate resource line, and each **territory card** adds **1–5** location-themed Deeds of its own ([[Territory]]).
 
 - Miniatures: Compatible with any modern 28mm-scale miniatures.  
 

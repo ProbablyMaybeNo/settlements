@@ -129,6 +129,11 @@ Points are scored in the **End Phase** (step after conditions resolve, [[Rules E
 - **Victory.** **Detonating the enemy's building wins immediately** (sudden death). If neither detonates by the end of Round 6, the side whose charge reached the **most countdown** wins; equal = **draw**.
 - **Terrain hook.** The target is a real building — often **locked or reinforced** ([[Terrain Interaction#In-battle repair / settlement hook]]); you fight *into* it to arm and *around* it to defend.
 
+> [!important] This charge is now the game's **general** structure-destruction mechanic
+> As of 2026-08-05 the same arm/countdown/defuse sequence is what lets a raider wreck **any** structure in a settlement, in **any** raid — not just a nominated target in this scenario ([[Structures#Storage & caps — what you can hold, and what a raider can take]] · [[Full Rules System v1]] §21). A detonated structure goes **Disabled** until repaired at a flat 30 Materials.
+>
+> That closed the hole Water left when it was cut — raids needed a target you *destroy* rather than *loot* — using a mechanic that already existed instead of inventing a resource. It also means the **3-round fuse below is load-bearing in two places at once.**
+
 ### 5 · Power Supply  *(Shape: Network · INT-primary)*
 **Premise.** Bring the grid back online — run lines from the central transformer out to the supplies. The showcase for the **INT / terrain** engine.
 
@@ -153,7 +158,7 @@ Not a dice sim — scenario balance is a **table** question — but the clocks h
 ## Open dials
 - [ ] **Hold radius (3") and no-Round-1 scoring** — the two levers on how fast Control games resolve.
 - [ ] **Caravan speed (6"/Action)** and whether the Defender may *also* escort a second caravan (symmetric variant).
-- [ ] **Sabotage fuse (3 rounds)** — the whole scenario's tension knob.
+- [ ] **Sabotage fuse (3 rounds)** — the whole scenario's tension knob, **and now the general raid structure-sabotage timer too** ([[Structures]]). Doing double duty means it deserves extra attention: a fuse tuned for this scenario may be wrong for wrecking a Generator mid-raid.
 - [ ] **Power Supply node count (4) and line range (8")** — board-size dependent; validate on the 3'×3'.
 - [ ] **Crew-integration sim** — the honest next test: run these scoring/clock rules inside the [[Crew Sim — Findings|full battle loop]] (with [[Deployables]]) to confirm objective-primary doesn't reward a lone-runner degenerate.
 

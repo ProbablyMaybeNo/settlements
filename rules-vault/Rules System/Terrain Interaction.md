@@ -96,8 +96,8 @@ There is no Barricade verb. Blocking openings is done with Lift.
 |---|---|
 |1|Hazard — trap/alarm/collapse; searcher is Pinned; search is Loud|
 |2–4|Nothing|
-|5–7|Supply cache — 1 Resource|
-|8–9|Gear — one usable item (Med-Kit, Molotov, ammo, tool)|
+|5–7|**Supply cache** — roll on the default Loot table ([[Territory#The default loot table]])|
+|8–9|**Gear** — roll on the default Loot table ([[Territory#The default loot table]])|
 |10|Jackpot — 1 Resource + one gear item|
 
 ^tbl-searching-and-looting

@@ -135,6 +135,11 @@ Because the settlement fits inside one board there is **no window to pick** — 
 > [!info] A settlement never buys board advantage
 > A developed settlement changes *what* fills those three squares, never *how many* features the board has. Structures granting deploy-rights (turret hardpoints and the like) still cost Credits against your Crew Rating and still sit inside the band — see [[Structures#Design contract — the five rules that keep this honest|the structure contract]] and [[Deployables]].
 
+> [!check] Ruled — raid fairness is one lever: **the defender wins all Priority ties**
+> Drafted 2026-08-05 ([[Full Rules System v1]] §5). A raid **is not meant to be fair** — the defender is fighting on home ground and should have a genuine edge, because that is what makes attacking risky. During a raid the **defender simply takes every Priority tie** instead of re-rolling it ([[Initiative & Activation]]).
+>
+> **No other asymmetry is added.** The rule above already hands the defender their built structures' tags, turrets and [[Infrastructure]] for free, which is edge enough on top of the tiebreak. Deliberately a single small lever, not a stacked pile of raid-only exceptions.
+
 One line per piece is enough: `Ruin · Difficult · Light · Unstable, Climbable, Searchable`.
 
 > [!danger] Density is a **band**, not a floor — the most powerful dial in the game

@@ -57,7 +57,7 @@ A fully-levelled fighter carries **+245 Credits** over their rank body, **6 life
 - Campaign cap is **+6** (Tier 3). Start caps (+2 / +4) lift as a unit levels — most plateau around +4–5, a rare few reach +6.
 - **MOV never rises from Levels** — only from **Fleet** (T2 AGI, see [[Skill Paths]]). **WND** rises exactly once, at Level 7.
 - Growth makes a unit *better*, not higher-*ranked*.
-- **Scar-healing is not on the track.** It lives in the Med-bay's T2 worker benefit and the once-per-career Special Treatment option on a third Scar ([[Campaign]]).
+- **Scar-healing is not on the track.** It lives in the **Med-bay's T2 structure tier**, and in the **once-per-career Special Treatment** option on a third Scar ([[Campaign#The third Scar — forced retirement]]). *([[Full Rules System v1]] §26.1 still words this as the Med-bay's "T2 **worker** benefit" — a leftover from the Proficiency track cut on 2026-08-05. Worker benefits have no tiers any more; the T2 that heals scars is the structure's, per §21 and [[Structures#Recover — people come back]].)*
 
 > [!warning] Two prices on this track are unmeasured
 > **+1 WND at 45 Credits has no sim data behind it at all** — it is priced above a T2 skill and below a T3 by judgement. And the flat **15 per stat point** is a known underprice: measurement puts a stat point at **16–34 Credits**, worst for STR/melee builds. Both are flagged in [[Full Rules System v1]] §26.1.

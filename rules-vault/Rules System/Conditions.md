@@ -50,7 +50,26 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 - **Pinned** — the **ranged** non-wound result (suppression, not injury). **Cannot Move, Charge, Sprint or Disengage**; must spend its **Move** to clear before it can reposition, but may still **Shoot or Interact**. Persists until cleared; applying it gives **+1 Stress**. *(A non-wounding **melee** blow gives Stress → **Shaken** instead — you can't pin someone you're engaged with.)*
 - **Down** — prone and out of the fight; no normal actions. Only **ranged / hazard** hits leave a unit Down — a **melee** kill goes straight to **Out of Action**. **Heavy cover vs ranged unless in the open**; a **melee / engaged** attack **auto-hits** to finish it (Injury roll still made, a pass = Out), but **ranged attacks resolve normally**. Stabilize by the end of its next activation or it bleeds out — full rules in [[Damage]].
 - **Prone** — knocked flat by a fall, slip, or being forced off a ledge (*not* an injury). **Heavy cover vs ranged unless in the open**; cannot Shoot, Charge or Sprint. **Standing up costs the whole activation** (Move + Action). Not bleeding and not auto-hit — that line is what separates Prone from Down.
-- **Hidden** — **−3 to be hit.** Earned via the **Hide** action in Concealing terrain, or from gear/skill. Lost on moving (except where a skill allows it), shooting, or being revealed.
+- **Hidden** — **−3 to be hit.** Earned via the **Hide** action in Concealing terrain, or from gear/skill. Lost on moving (except where a skill allows it), shooting, **interacting** — any Action that resolves an Interact test: claim, loot, hack, arm, defuse ([[Terrain Interaction]], [[Hacking]]) — or being revealed.
+
+### Stealth & Ambush
+*Drafted 2026-08-05 ([[Full Rules System v1]] §25), sim-tuned across 700–2000 games per cell in paired mirrors — cited to `PACKET-TEST-RESULTS.md` T1–T3, **a file that is not in the Settlements repo**; the numbers below are quoted from the master note, not re-verifiable from source. This is the only place these rulings live; **Hidden** above is the condition they hang off.*
+
+- **An Ambush attacks off AGI**, never STR or DEX, **and this must be printed explicitly on the card.** A DEX carrier running Ambush measured **−30 to −33 win-points** — it was attacking on its worst stat. An AGI carrier measured **+1.0 to +12.7**.
+- **The failed-Ambush free Attack Back is load-bearing — keep it unchanged.** It removes **4.1** of the mechanic's 12.1 win-points and fires on **47.5%** of attempts. Confirmed by measurement, not just designed; do not soften it later.
+
+> [!check] Ruled — a Hidden fighter may **hold** an objective, but **claiming or scoring** one breaks Hidden
+> **Holding** is just standing within 3" with no enemy within 3" ([[Scenarios#Shared rules]]) — it costs nothing and never touches Hidden. But **claiming** a terminal, **looting** a cache, **arming** or **defusing** a charge is always an **Interact**, and Interacting breaks Hidden (above).
+>
+> **Take a Hold** is where this reads cleanest: a terminal must be *claimed* (INT 7+, breaks Hidden) before it can ever be *held* for score, so the hold state a Hidden fighter benefits from only ever applies **after** the reveal already happened. A Hidden fighter can sit on an unclaimed objective all day; the instant they do the thing that scores it, they are not Hidden.
+>
+> The sim's **+12.7 / −5.2** swing was measured against a simplified "can this fighter contribute to score while Hidden" toggle. With Interact-breaks-Hidden as a hard rule the practical answer lands near the sim's **No** case for anything needing a claim, and near **Yes** for a pure territorial-control read. Revisit only if a future scenario introduces a hold-only objective with no claim step.
+
+> [!danger] If Hidden ever becomes "not a legal target", a skill-stacking cap ships in the same change
+> Under the current **−3** reading, a fighter stacking three concealment skills still gets shot ~**12 times** a game and dies normally. Under an untargetable reading the same stack was shot **zero times per game**. The −3 is what makes concealment stacking safe.
+
+> [!question] Ambush has no card yet
+> §25 rules how an Ambush *resolves*, but no Ambush action, skill or piece of gear is defined anywhere in [[Skill Paths]] or [[Weapons]] — only the **Ambush Predator** Glorious Deed ([[Campaign#Glorious Deeds]]) references landing one. The trigger and cost still need writing.
 
 ### Control conditions (from skills, weapons and terrain)
 - **Grappled** — grappler and target stay within 1". The target cannot Move, Charge, Sprint or Disengage; it may only attack its grappler, or spend its Action on an **opposed STR test** to escape. The grappler may release it freely, or move at **half MOV** while dragging it. Grappling ends if either model goes Down.

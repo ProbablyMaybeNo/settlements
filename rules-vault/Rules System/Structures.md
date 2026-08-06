@@ -27,7 +27,7 @@ tags:
 **Feeds into:** [[Economy]], [[Components]], [[Scenarios]], [[Downtime]], [[Final Alpha]]
 
 ## Focus
-The **catalogue** — the 25 things a player can build, what each one costs in floor space and **Power**, what it does in the campaign layer, and what it becomes on the table when someone raids you. [[Settlement]] owns founding, layout and the resource loop; **this note owns the buildings themselves.**
+The **catalogue** — the 23 things a player can build, what each one costs in **Materials**, floor space and **Power**, what it does in the campaign layer, and what it becomes on the table when someone raids you. [[Settlement]] owns founding, layout and the resource loop; **this note owns the buildings themselves.**
 
 The lot itself is a **barren, battle-scarred site** — a vacant lot between brownstones, a dead mall car park, an overgrown city park, a gutted warehouse. Damaged, overgrown, showing recent conflict. You build onto it.
 
@@ -38,7 +38,7 @@ The lot itself is a **barren, battle-scarred site** — a vacant lot between bro
 > - **One gatherer per resource, but you may build more.** Adopted, with the restriction loosened: the starting set gives one gatherer each for Credits / Materials, and **additional output always costs another structure or an upgrade** — never a free multiplier.
 > - **Water is cut** *(ruled 2026-08-01)*. Resources are **Credits · Materials · Power**. The Water Reclaimer, Cistern and Water Tower are gone, per-head Water upkeep is gone, and **housing slots are the only population brake**. The catalogue is **23 structures**, not 25.
 > - **Five categories kept** — Sustain / Convert / Operate / Recover / Defend, over the earlier seven.
-> - **25 structures** — the "5 to 10" answer was scoped to *release* count, a different question.
+> - ~~**25 structures**~~ **23** *(the "5 to 10" answer was scoped to release count, a different question; the count itself dropped to 23 when Water was cut)*.
 > - **No build prerequisites.** Structures are never chained; cost and floor space are the only gates. Upgrade ladders stay, because a tier is one structure maturing rather than a second structure.
 > - **All four late ideas adopted:** **Vault** (as an HQ add-on), **Robotics Workshop**, **Server Core**, **Advanced Weapons Lab**. Four entries were cut to make room — Hydroponics, Vehicle Yard, Bunker (the Vault supersedes it) and Recruiting Board (blocked on hiring rules that don't exist yet).
 
@@ -46,7 +46,7 @@ The lot itself is a **barren, battle-scarred site** — a vacant lot between bro
 
 1. **Every structure earns its slot.** No flat `+1`. A structure must do at least one of: unlock a campaign action · raise a meaningful capacity · convert one resource into another · expand list-building options · protect something you could otherwise lose · change how a raid is fought.
 2. **Every structure is a real object on a real board.** Each entry ships with a [[Terrain#Setup procedure|terrain line]] in the standard format. If it can't be placed and described, it isn't a structure — it's a bonus, and it doesn't belong here.
-3. **Space is the scarcest resource.** The canvas holds roughly ten structures. Twenty-five entries against ten slots means **specialisation is forced, not offered.**
+3. **Space is the scarcest resource.** The canvas holds roughly ten structures. Twenty-three entries against ten slots means **specialisation is forced, not offered.**
 4. **Ownership buys availability, never free board power.** Built structures grant **auto-deploy** (skipping the [[Deployables#Deploying — the INT test|INT test]]); the piece itself still costs Credits against your Crew Rating and still sits inside the **9–12** density band. A bigger settlement never means a bigger army.
 5. **Binary state only.** A structure is **Functional** or **Disabled**. No structure HP, no collapse tracking. Destruction runs through **Sabotage**; repair is a flat **Materials** cost.
 
@@ -78,11 +78,11 @@ The strip is sized so that **your whole settlement always fits on a standard boa
 
 **Groundworks** is a settlement **project**, not a catalogue entry — it clears ground rather than occupying it. It costs **Materials** and extends the canvas:
 
-|Tier|Canvas|Squares|
-|---|---|---|
-|Base|12" × 36"|432|
-|Groundworks I|**18" × 36"**|648 *(+50%)*|
-|Groundworks II *(4'×4' play)*|**18" × 48"**|864|
+|Tier|Canvas|Squares|Materials|
+|---|---|---|:--:|
+|Base|12" × 36"|432|—|
+|Groundworks I|**18" × 36"**|648 *(+50%)*|**120**|
+|Groundworks II *(4'×4' play)*|**18" × 48"**|864|**200**|
 
 ^tbl-groundworks-the-expansion-project
 
@@ -131,14 +131,14 @@ Every settlement begins with these, free. **One gatherer per resource**, plus th
 
 |Structure|Role|Why it's mandatory|
 |---|---|---|
-|**HQ**|command|Campaign actions, mission dispatch, and the base **10** body slots|
+|**HQ**|command|Campaign actions, mission dispatch, and the base **12** body slots|
 |**Generator**|**Power**|Everything with a draw needs it|
 |**Processor**|**Materials** gatherer|Scrap → Materials. Nothing gets built without it|
 |**Salvage Yard**|**Credits** gatherer|Sorts and values what scavengers haul back — goods, scrap, equipment|
 
 ^tbl-starting-structures-five
 
-Starting footprint is **104 of 432 squares — 24%.** A new settlement should read as a found shell with a genset, a water tank and a heap of sorted scrap.
+Starting footprint is **95 of 432 squares — 22%.** A new settlement should read as a found shell with a genset and a heap of sorted scrap.
 
 #### One gatherer each — but never a hard ceiling
 The starting set gives you exactly one gatherer per resource. **You may always build more.** What you may never do is raise output without paying floor space:
@@ -150,23 +150,25 @@ That is the whole anti-inflation shape for production: output scales, but only a
 
 ### Founding — choosing your first few
 
-At founding you spend a **Credits** budget on **anything in the catalogue**. Your picks are placed on the canvas immediately, before your first game. There is no founding-only subset and no prerequisite — the budget and the lot are the only limits.
+At founding you spend **250 Materials + 150 Credits** on **anything in the catalogue** ([[Full Rules System v1]] §17.3). Your picks are placed on the canvas immediately, before your first game. There is no founding-only subset and no prerequisite — the budget and the lot are the only limits.
 
-Your **location** ([[Settlement]]) grants **one structure free** — hospital → Med-bay, police station → Holding Cells, scrapyard → a free Salvage Yard upgrade. Location and founding budget draw on the **same catalogue**, so a location is a head start and a flavour, never a building nobody else can reach.
+**250 Materials is roughly two Tier-1 structures** on top of the four free starters. Structures are bought and repaired in **Materials**; the Credits half of the budget goes on the crew ([[List Building]]).
 
-> [!question] Founding budget not yet set
-> The Credits budget and every build cost below are unpriced. Set them with [[Economy]] — they need the Credits/Materials inflow rates first.
+Your **location** ([[Settlement#Choosing a location]]) grants **one structure or upgrade free, at zero Materials cost** — hospital → Med-bay, police station → Holding Cells, scrapyard → a Salvage Yard upgraded one tier. Location and founding budget draw on the **same catalogue**, so a location is a head start and a flavour, never a building nobody else can reach.
+
+> [!check] Founding budget is set — 2026-08-05
+> **250 Materials + 150 Credits**, with per-structure Materials costs now printed in the catalogue below. Checked against the reward rate: a normal battle pays **65 Credits + 33 Materials**, so a **Tier I structure takes ~3.0 battles** to afford ([[Economy#Income]], T12). The numbers are first-draft but no longer blank.
 
 ### Power
 
-The **Generator** produces **+3**. Every powered structure has a **draw**. The settlement runs on a single sum: **total output ≥ total draw**, tracked on the sheet ([[Economy]]). A structure without Power is **Disabled** and gives no benefit.
+The **Generator** produces **+5**. Every powered structure has a **draw** scaled to its tier — **T1 −1 · T2 −2 · T3 −3**. The settlement runs on a single sum: **total output ≥ total draw**, tracked on the sheet ([[Economy#Power — output vs draw]]). A structure without Power is **Disabled for the round** and gives no benefit.
 
-The four starters draw **2** — HQ 1, Processor 1, Salvage Yard 0 — against one Generator's **+3**.
+The four starters draw **3** — HQ 1, Processor 1, Salvage Yard 1 — against one Generator's **+5**, leaving **two spare**.
 
-> [!question] The start-at-capacity tension needs a new dial
-> Cutting the Water Reclaimer took a **−1** draw off the opening board, so a new settlement now begins with **1 Power spare** instead of at exactly capacity. That tension was deliberate and is worth keeping. Two ways back: drop the Generator to **+2**, or give the Salvage Yard a **−1** draw. Decide in [[Economy]].
+> [!check] Resolved — the Generator is **+5**, and D9 was right
+> This note carried **+3** and flagged the contradiction with `docs/POINTS-DECISIONS.md` **D9** (+5, draws T1 1 / T2 2 / T3 3). [[Full Rules System v1]] §19 rules **+5** with exactly D9's draw ladder, so **D9 wins and the +3 is retired**.
 >
-> Note also that `docs/POINTS-DECISIONS.md` **D9** sets the Generator at **+5** with draws of T1 1 / T2 2 / T3 3, which this note's **+3** contradicts. One of the two is wrong; resolve it with the same decision.
+> That also settles the old start-at-capacity question by choosing the other side of it: a new settlement opens with **two Power spare** rather than sitting at exactly capacity. The tension arrives on the *second* build, not the first, which is the better place for it — a founding player shouldn't have to buy a second Generator before they buy anything interesting.
 
 ### Storage & caps — what you can hold, and what a raider can take
 
@@ -185,6 +187,10 @@ The four starters draw **2** — HQ 1, Processor 1, Salvage Yard 0 — against o
 
 **Overflow is lost.** Income above your cap does not bank; it spoils, walks off, or never gets hauled home. That is the anti-inflation lever ([[Economy]]) and it is why a rich settlement must keep building sheds instead of sitting on a pile.
 
+**Two other caps run on the same principle:**
+- **Housing** — **12** body slots from the HQ, **+6 per Bunkhouse**. Housing is the **only** population brake; there is no per-head upkeep ([[List Building]]).
+- **Equipment** — **30** slots to start, **+30 per Armory tier**.
+
 > [!info] Why storage is standalone and not all in the HQ
 > If everything lived in the HQ, every raid would have exactly **one** objective and every raid would play identically. Spreading storage across the lot makes the attacker choose which target is worth the crossing, and makes the defender choose what to cluster behind the wall and what to leave in the open. That is a real layout decision on a 12×36 lot, and it is the main reason the settlement is worth drawing at all.
 
@@ -193,15 +199,32 @@ The four starters draw **2** — HQ 1, Processor 1, Salvage Yard 0 — against o
 
 **Storage is repeatable across the board.** Build as many **Storehouses** as you have room for. The ceiling on hoarding is floor space, exactly like production.
 
-> [!question] Cutting Water cost the raid its destroy-only target
-> Water was the one resource an attacker **destroyed rather than looted** — you cannot carry a tank away, but you can hole it. That gave raids a second kind of objective and made tank placement a real defensive decision. With Water gone every raid target is now a *loot* target. If raids play flat, this is the hole to fill — most likely by making the **Generator** or the **Processor** sabotage-worthy in the same way. Decide in [[Economy]] / the raid pass.
+> [!check] Closed — **any structure can be sabotage-charged in any raid** (2026-08-05)
+> Water was the one resource an attacker **destroyed rather than looted** — you cannot carry a tank away, but you can hole it — and cutting it left every raid target a *loot* target. [[Full Rules System v1]] §21 closes that with a mechanic **that already existed** rather than a new resource:
+>
+> During any raid, an attacker may target **any** of the defender's structures with the **Sabotage** charge the [[Scenarios|Sabotage scenario]] already uses. A fighter in base contact spends an **Action + INT 7+** to **arm** a charge; it detonates after surviving **3 End Phases** armed, unless a defender spends an **Action + DEX 7+** to **defuse** it (**nat 1 = it goes off immediately**).
+>
+> A detonated structure goes **Disabled** until repaired at its flat Materials cost (below). It does not need to be looted, and it was never a bespoke "Water tank" target. **Any** Generator, Processor, Trader's Kiosk or Storehouse is a legitimate sabotage target under this rule.
+>
+> Watch the **3-round fuse** — it is now doing double duty as both the Sabotage scenario's tension knob and the general raid structure-sabotage timer, so tuning one tunes the other ([[Scenarios#Open dials]]).
 
 ### HQ tiers — the scavenger pipeline
 
 The **HQ** is the only structure with a full upgrade ladder, and dispatch capacity is what the ladder buys:
 
-- **Each HQ tier raises the number of crew you can send out per cycle** — scavenging, scouting, sabotage. This is how a settlement fields more scavengers on the map.
-- It also raises the HQ's own base storage, and gates the **Vault** add-on.
+| Tier | Materials | Dispatch actions / cycle | Housing | Unlocks |
+|---|:--:|:--:|:--:|---|
+| **HQ I** | *(starter, free)* | **1** | **12** | — |
+| **HQ II** | **210** | **2** | **18** | the **Vault** add-on |
+| **HQ III** | **370** | **3** | **24** | — |
+
+^tbl-hq-tiers
+
+- **Each HQ tier raises the number of crew you can send out per cycle** — scavenging, scouting, sabotage. This is how a settlement fields more scavengers on the map ([[Downtime#Phase 2 — Settlement]]).
+- It also raises the HQ's own base storage and housing, and gates the **Vault** add-on.
+- An assigned **worker** adds **+1 dispatch action** on top of the tier's rate (below).
+
+*HQ tier costs are **first-draft and untested** ([[Full Rules System v1]] §21).*
 
 [[Downtime]] owns the mission rules; the **Comms Mast** is a separate axis — it improves mission *quality* (rerolls, longer-range targets, recruitment broadcasts), never the number of bodies you can dispatch. Build the HQ to send more people, the Mast to send them further.
 
@@ -260,14 +283,16 @@ A young settlement is a scatter of stalls, tanks and gensets; growing up means t
 **★** free starting structure. **Everything else is buildable from founding onward** — no structure requires another.
 Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup procedure]])
 
+**Costs are in Materials**, printed 2026-08-05 from [[Full Rules System v1]] §21. **Repair is a flat 30 Materials per structure**, whatever it cost to build. Every number here is **first-draft** — see [[Economy#Open dials]].
+
 ### Sustain — keep people alive, keep the grid up
 
-|Structure|Class|Size|Pwr|What it does|
-|---|---|---|---|---|
-|**Generator** ★|Plant|3×3|**+3**|**Power** output|
-|**Bunkhouse**|Building|6×9|0|**+N owned body slots** above HQ's base 10|
-|**Storehouse** *(repeatable)*|Building|6×6|0|Bulk storage for **Credits and Materials** above the HQ's base cap. **The loot target in a raid**|
-|**Equipment Shed** *(→ Armory 6×6)*|Station|3×2|0|Holds every **unequipped** weapon, armour and piece of kit the crew owns. Caps the size of your persistent armoury; the Armory tier raises it and adds a lock|
+|Structure|Class|Size|Pwr|Materials|What it does|
+|---|---|---|---|:--:|---|
+|**Generator** ★|Plant|3×3|**+5**|**40**|**Power** output|
+|**Bunkhouse**|Building|6×9|−1|**115**|**+6 owned body slots** above HQ's base 12|
+|**Storehouse** *(repeatable)*|Building|6×6|−1|**90**|Bulk storage for **Credits and Materials** above the HQ's base cap. **The loot target in a raid**|
+|**Equipment Shed** *(→ Armory 6×6)*|Station|3×2|0 → −2|**40 → 168**|Holds every **unequipped** weapon, armour and piece of kit the crew owns — **30 slots**, **+30 per Armory tier**. The Armory tier raises the cap and adds a lock|
 
 ^tbl-sustain-keep-people-alive-keep-the-grid-up
 
@@ -278,13 +303,13 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 
 ### Convert — turn one resource into another, and make gear
 
-|Structure|Class|Size|Pwr|What it does|
-|---|---|---|---|---|
-|**Processor** ★|Plant|3×5|−1|**Materials** gatherer — scrap → Materials|
-|**Salvage Yard** ★|Yard|5×7|0|**Credits** gatherer — sorts and values what scavengers haul back; better break-down rates on gear. Expandable|
-|**Trader's Kiosk** *(→ Trade House 6×6)*|Station|3×2|0|Sell owned gear and surplus → **Credits**; the Trade House tier improves rates|
-|**Workbench** *(→ Workshop 6×8, −1)*|Station|3×2|0|Craft and repair. **Workshop tiers unlock the weapon / armour / chem branches** — upgrades, not separate buildings|
-|**Fabricator**|Building|6×6 → 6×10|−2 / −3|**Research**, in three tiers. **T1 Fabricator** unlocks new blueprints · **T2 Robotics Workshop** builds robots and UGVs and services the Drone Bay's airframes · **T3 Advanced Weapons Lab** unlocks the 2051 arsenal — directed-energy, guided small-arms, drone-delivered payloads ([[Weapons]])|
+|Structure|Class|Size|Pwr|Materials|What it does|
+|---|---|---|---|:--:|---|
+|**Processor** ★|Plant|3×5|−1|**80**|**Materials** gatherer — scrap → Materials|
+|**Salvage Yard** ★|Yard|5×7|−1|**80**|**Credits** gatherer — sorts and values what scavengers haul back; better break-down rates on gear. Expandable|
+|**Trader's Kiosk** *(→ Trade House 6×6)*|Station|3×2|−1 → −2|**75 → 224**|Sell owned gear and surplus → **Credits**; the Trade House tier improves rates|
+|**Workbench** *(→ Workshop 6×8)*|Station|3×2|−1 → −2|**75 → 224**|Craft and repair. **Workshop tiers unlock the weapon / armour / chem branches** — upgrades, not separate buildings|
+|**Fabricator**|Building|6×6 → 6×8 → 6×10|−1 / −2 / −3|**125 → ~200 → ~330**|**Research**, in three tiers. **T1 Fabricator** unlocks new blueprints · **T2 Robotics Workshop** builds robots and UGVs and services the Drone Bay's airframes · **T3 Advanced Weapons Lab** unlocks the 2051 arsenal — directed-energy, guided small-arms, drone-delivered payloads ([[Weapons]])|
 
 ^tbl-convert-turn-one-resource-into-another-and-m
 
@@ -298,14 +323,14 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 
 ### Operate — what you can do outside the walls
 
-|Structure|Class|Size|Pwr|What it does|
-|---|---|---|---|---|
-|**HQ** ★|Building|6×6|−1|Campaign actions, base **10** body slots, base storage. **Tiers raise how many crew you can dispatch per cycle** and gate the Vault|
-|**Vault** *(attaches to HQ)*|Plant|3×3|−1|**Secure** storage — small capacity, near-unbreachable. Where the irreplaceable goes|
-|**Scout Post**|Plant|3×3|0|Pre-**battle** information: see a Twist, choose attacker/defender, reroll deployment|
-|**Comms Mast**|Plant|3×3|−1|**Mission quality**: reroll a mission test, reach longer-range targets, broadcast for recruits. Dispatch *count* comes from HQ tiers|
-|**Server Core**|Building|6×6|−2|Intelligence and networked control — rival roster intel, and friendly terminals on the board count as **Linked** ([[Hacking]])|
-|**Drone Bay**|Building|6×8|−2|Drone [[Deployables]] **and** a recon drone that runs a scout mission **without spending a fighter**|
+|Structure|Class|Size|Pwr|Materials|What it does|
+|---|---|---|---|:--:|---|
+|**HQ** ★|Building|6×6|−1|**130**|Campaign actions, base **12** body slots, base storage. **Tiers raise how many crew you can dispatch per cycle** and gate the Vault|
+|**Vault** *(attaches to HQ)*|Plant|3×3|−1|**95**|**Secure** storage — small capacity, near-unbreachable. Where the irreplaceable goes|
+|**Scout Post**|Plant|3×3|−1|**95**|Pre-**battle** information: see a Twist, choose attacker/defender, reroll deployment|
+|**Comms Mast**|Plant|3×3|−1|**95**|**Mission quality**: reroll a mission test, reach longer-range targets, broadcast for recruits. Dispatch *count* comes from HQ tiers|
+|**Server Core**|Building|6×6|−2|**232**|Intelligence and networked control — rival roster intel, and friendly terminals on the board count as **Linked** ([[Hacking]])|
+|**Drone Bay**|Building|6×8|−2|**272**|Drone [[Deployables]] **and** a recon drone that runs a scout mission **without spending a fighter**|
 
 ^tbl-operate-what-you-can-do-outside-the-walls
 
@@ -326,11 +351,11 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 
 ### Recover — people come back
 
-|Structure|Class|Size|Pwr|What it does|
-|---|---|---|---|---|
-|**Med-bay**|Building|6×6|−1|**+X** to the post-battle Fate roll; the T2 tier heals scars at a Credits/Materials cost|
-|**Holding Cells**|Building|6×6|−1|Prisoner capacity **+** reduced escape chance|
-|**Mess Hall**|Building|6×8|−1|Lower starting **Stress**, or one free clear per battle ([[Morale]])|
+|Structure|Class|Size|Pwr|Materials|What it does|
+|---|---|---|---|:--:|---|
+|**Med-bay**|Building|6×6|−1|**120**|**+1** to the post-battle Fate roll ([[Campaign#Post-battle — the Fate table]]); the **T2** tier heals scars at a Credits/Materials cost|
+|**Holding Cells**|Building|6×6|−1|**120**|Prisoner capacity ([[Campaign#Captured — resolution]]); the upgraded tier is what allows a **Brainwash** attempt|
+|**Mess Hall**|Building|6×8|−1|**~120**|**Once per battle, one fighter clears 1 Stress free** ([[Morale]])|
 
 ^tbl-recover-people-come-back
 
@@ -345,13 +370,13 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 
 ### Defend — this is the raid board
 
-|Structure|Class|Size|Pwr|What it does|
-|---|---|---|---|---|
-|**Perimeter Wall**|Line|1" thick, **6" segments**|0|The floor benefit — bought by the segment; shapes the whole raid board|
-|**Gatehouse**|Building|6×6|−1|A controlled chokepoint: the attacker breaches it or routes around it|
-|**Watchtower**|Plant|3×3|0|The defender starts one model in it; denies the attacker surprise|
-|**Turret Mount** *(attaches to a Wall or Gatehouse)*|Plant|2×2|−2|Hardpoint. The turret **auto-deploys** — but costs Credits against your Crew Rating and keeps full fragility|
-|**EW Mast**|Plant|3×3|−2|Counter-hack and counter-drone: penalises enemy [[Hacking]] in a raid on you; blocks enemy drone deployables|
+|Structure|Class|Size|Pwr|Materials|What it does|
+|---|---|---|---|:--:|---|
+|**Perimeter Wall**|Line|1" thick, **6" segments**|0|**85** / segment|The floor benefit — bought by the segment; shapes the whole raid board|
+|**Gatehouse**|Building|6×6|−1|**135**|A controlled chokepoint: the attacker breaches it or routes around it|
+|**Watchtower**|Plant|3×3|0|**100**|The defender starts one model in it; denies the attacker surprise|
+|**Turret Mount** *(attaches to a Wall or Gatehouse)*|Plant|2×2|−2|**184**|Hardpoint. The turret **auto-deploys** — but costs Credits against your Crew Rating and keeps full fragility|
+|**EW Mast**|Plant|3×3|−2|**184**|Counter-hack and counter-drone: penalises enemy [[Hacking]] in a raid on you; blocks enemy drone deployables|
 
 ^tbl-defend-this-is-the-raid-board
 
@@ -363,6 +388,49 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 
 > [!danger] The Turret Mount is not free board power
 > Owning the mount grants **auto-deploy** only — the turret skips the [[Deployables#Deploying — the INT test|INT test]] and starts online. It still **costs Credits against your Crew Rating** to field, still counts against the **9–12** density band, and keeps full fragility: `WND−1`, repairable once, hijackable. This is the settled answer to a pre-placed settlement deployable being strictly better and free.
+
+## Worker benefits
+
+*Drafted 2026-08-05 from [[Full Rules System v1]] §22. Workers are assigned in the **Settlement Phase** ([[Downtime#Phase 2 — Settlement]]); a retiring third-Scar veteran can be **reassigned** into one of these slots instead of leaving the roster ([[Campaign#The third Scar — forced retirement]]).*
+
+**One worker slot per structure that accepts one. A worker is either assigned or not.** The listed benefit applies while they are assigned and **stops the moment they are reassigned** — full stop. There is no number to track and nothing to level.
+
+> [!check] Proficiency is cut — ruled 2026-08-05
+> The earlier design had a **0–100 Proficiency** track per worker with three unlocking bands. That was real bookkeeping — a number per worker, per structure, growing over time — for a mechanic that ultimately still just says *"a structure works better with a person in it."*
+>
+> It is the same category of complexity this project has cut everywhere else — per-head upkeep, the Heat/Attention track, HP-based structure damage — and worker progression didn't earn an exception by arriving later. The flat benefits below are each drawn from what used to be that system's T1 or T2 tier.
+>
+> **Not thrown away:** the three-tier version is parked in [[Full Rules System v1]] §22 as a candidate for a future settlement-focused supplement, where granular management is something players opt into rather than something everyone carries.
+
+| Structure | Assigned worker gives |
+|---|---|
+| **Generator** | **+1 Power** output |
+| **Storehouse** | **+10%** effective storage cap |
+| **Equipment Shed / Armory** | **+10 equipment slots** on top of the structure's own |
+| **Processor** | **+1 Materials** per gather |
+| **Salvage Yard** | **+1 Credits** per gather |
+| **Trader's Kiosk / Trade House** | Sell rate **+10%** |
+| **Workbench / Workshop** | Crafted item Materials cost **−10%** |
+| **Fabricator ladder** | Unlock one blueprint **one tier early** |
+| **HQ** | **+1 dispatch action** per cycle, on top of the tier's base rate |
+| **Scout Post** | Reveal a territory's hidden **Side Objective**, not just its Twist |
+| **Comms Mast** | The mission-quality reroll applies to **two rolls** instead of one |
+| **Server Core** | Rival intel includes one fighter's current **Level and skills**, not just roster size |
+| **Drone Bay** | The free recon mission also reveals a territory's **Loot table** entries ([[Territory]]) |
+| **Med-bay** | **+1 further to the Fate roll** — stacks with the structure's own +1, **total +2** ([[Campaign]]) |
+| **Holding Cells** | The opposed INT test for **Brainwashing** gets **+1** ([[Campaign#Captured — resolution]]) |
+| **Mess Hall** | The free Stress-clear triggers on **two fighters** instead of one |
+| **Gatehouse** | The chokepoint counts as **Heavy** cover, not Light, for defenders behind it in a raid |
+| **Watchtower** | The starting model in the tower also **starts Readied**, no Action spent |
+| **Turret Mount** | The turret gains **+1** to its auto-fire hit roll |
+| **EW Mast** | Counter-hack / counter-drone radius extends to **12"** from the structure |
+
+^tbl-worker-benefits
+
+**Three structures take no worker** — **Bunkhouse**, **Vault** and **Perimeter Wall**. They are passive amenities or board shaping, with no operational job for a person to hold.
+
+> [!warning] All twenty numbers are first-draft and untested
+> Same flag as everything else content-shaped in the 2026-08-05 pass — though they are now much simpler to check, since there is no Proficiency curve to validate alongside them ([[Downtime#Still open]]).
 
 ### Category counts
 Sustain **4** · Convert **5** · Operate **6** · Recover **3** · Defend **5** = **23**. Deliberately uneven — forcing five per category is what produced filler in the first pass. *(Was 25; the Water Reclaimer and Cistern were cut with Water on 2026-08-01.)*
@@ -383,23 +451,30 @@ The sprawl costs are real: the **Salvage Yard** eats **8%** of the lot at its st
 
 ## Open decisions
 
+**Closed on 2026-08-05** by [[Full Rules System v1]] §17.3 · §19 · §20 · §21 · §22:
+
+- [x] Build cost in **Materials** per structure — printed in the catalogue above *(first-draft)*
+- [x] Replace the destroy-only raid target Water used to provide — **any structure is sabotage-chargeable in any raid**
+- [x] Generator output — **+5**, D9 wins, the +3 is retired
+- [x] HQ housing — **12** slots, D10 wins
+- [x] HQ tier costs and the dispatch increment — **HQ I/II/III = free/210/370**, dispatch **1/2/3**, housing **12/18/24**
+- [x] Founding budget — **250 Materials + 150 Credits**
+- [x] **Groundworks** cost — **120** / **200** Materials
+- [x] Repair cost — **flat 30 Materials** per structure
+- [x] Med-bay `+X` on the Fate roll — **+1** *(+2 with a worker)*
+- [x] Mess Hall effect — **once per battle, one fighter clears 1 Stress free**
+- [x] Whether the whole catalogue is available at founding — **yes, all 23, no research gate, no prerequisites**
+- [x] Worker benefits per structure — drafted above; **Proficiency tiers cut**
+- [x] Persistent armoury / two-gate — **stashed gear counts 0 toward Crew Rating; fielded gear counts full** ([[Full Rules System v1]] §16). *Confirm this closes [[Economy]] E2.*
+
+**Still open:**
+
 - [ ] Confirm the board size — **3'×3'** recommended
-- [ ] Build cost in **Materials** per structure ([[Economy]])
-- [ ] Storage numbers — HQ base cap, gatherer buffer, Storehouse, Vault, Equipment Shed/Armory
-- [ ] Persistent armoury: is owned gear **also** points-costed to field (two-gate), or does ownership replace the points cost? ([[Economy]] E2)
-- [ ] Replace the destroy-only raid target Water used to provide
-- [ ] Generator output: this note says **+3**, `POINTS-DECISIONS.md` D9 says **+5** — reconcile
-- [ ] HQ housing: this note says **10** slots, D10 says **12** — reconcile
-- [ ] HQ tier costs and the dispatch-slot increment per tier
+- [ ] Storage **numbers** — the actual caps for HQ base, gatherer buffer, Storehouse, Vault
 - [ ] How much a successful raider actually takes from each container
-- [ ] Founding **Credits** budget and per-structure founding price
-- [ ] Upgrade tier costs, including the Station → Building space cost
-- [ ] **Groundworks** cost
-- [ ] Repair cost — flat Materials per structure, or a single flat rate
-- [ ] Med-bay `+X` value on the Fate roll
-- [ ] Mess Hall **Stress** value ([[Morale]])
-- [ ] Recruiting Board effect — depends on the hiring rules in [[List Building]]
-- [ ] Whether all 25 are available at founding or gated behind research / blueprints
+- [ ] Upgrade tier costs beyond the ones printed, including the Station → Building space cost
+- [ ] Every Materials cost above is **untested** — HQ tiers, Med-bay and Mess Hall are explicitly flagged as guesses
+- [ ] Recruiting Board effect — depends on hiring rules that don't exist yet in [[List Building]]
 - [ ] Print-and-cut tile art for every entry ([[Components]])
 
 ## Rule ledger

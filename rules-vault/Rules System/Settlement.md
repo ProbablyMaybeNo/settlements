@@ -2,14 +2,14 @@
 type: rule-phase
 phase: "10"
 stage: S4 Settlement & Campaign
-status: Designing
+status: Drafted
 build_order: 16
 depends_on: ["Core Game Format"]
 feeds_into: ["Structures", "Economy", "Campaign", "Final Alpha", "Downtime", "Events", "Solo & Co-op", "Factions"]
 tags: [settlements/phase, settlements/stage/s4]
 ---
 # 10 · Settlement
-> **S4 Settlement & Campaign** · status **Designing** · build order **16**
+> **S4 Settlement & Campaign** · status **Drafted** · build order **16**
 
 **Depends on:** [[Core Game Format]]
 **Feeds into:** [[Structures]], [[Economy]], [[Campaign]], [[Final Alpha]], [[Downtime]], [[Events]], [[Solo & Co-op]], [[Factions]]
@@ -26,10 +26,66 @@ The Rules column should nail down:
 - The minimum viable slice the Final Alpha needs (~10 buildings, **3 resources** — Credits, Materials, Power). *(Water cut 2026-08-01: population is braked by housing slots alone.)*
 
 > [!info] The catalogue lives in [[Structures]]
-> 25 structures, footprint classes, the 12"×36" canvas, Power draw and the terrain line for every entry. This note keeps founding, layout, roles and the resource loop.
+> **23 structures**, footprint classes, the 12"×36" canvas, Materials cost, Power draw, worker benefit and the terrain line for every entry. This note keeps **founding**, layout, roles and the resource loop.
 
 ## Working rules / decisions
-_Not drafted yet._
+
+*Founding drafted 2026-08-05 from [[Full Rules System v1]] §17. The canvas is in [[Structures#The settlement canvas]], Power and storage in [[Economy]], and the between-battles sequence in [[Downtime]]. The original design notes are kept verbatim further down.*
+
+### Choosing a location
+
+At founding, choose **one Location**. It grants **one free structure or upgrade at zero Materials cost** — drawn from the same catalogue everyone else buys from, so a Location is a head start and a flavour, never a building nobody else can reach.
+
+| Location | Grants |
+|---|---|
+| **Hospital** | Free **Med-bay** |
+| **Police Station** | Free **Holding Cells** |
+| **Scrapyard** | **Salvage Yard** upgraded one tier |
+| **Fire Station** | Free **Bunkhouse** |
+| **National Guard Armory** | Free **Armory** *(Equipment Shed pre-upgraded)* |
+| **High School / University** | Free **Comms Mast** |
+| **Auto Shop / Garage** | Free **Workshop** *(Workbench pre-upgraded)* |
+| **Radio / TV Station** | Free **Server Core** |
+| **Farm / Ranch** | **+50 Materials** to the founding budget |
+| **Strip Mall / Shopping Center** | Free **Trade House** *(Trader's Kiosk pre-upgraded)* |
+
+^tbl-choosing-a-location
+
+Every one is a real structure type found in and around a major city — the Location is the fiction of *what this place used to be* doing mechanical work.
+
+### Starting structures
+
+Every settlement begins with these four, free — one gatherer per resource plus the command hub:
+
+**HQ** (command, **12 housing**) · **Generator** (**+5 Power**) · **Processor** (Materials gatherer) · **Salvage Yard** (Credits gatherer).
+
+Starting footprint: **95 of 432 squares**. Full entries in [[Structures#Starting structures — four]].
+
+### Founding budget
+
+**250 Materials + 150 Credits.** 250 Materials is roughly **two Tier-1 structures** on top of the free four. The **whole 23-structure catalogue is open from turn one** — no prerequisites, no research gate ([[Structures]]).
+
+Structures and repairs are paid in **Materials**; the Credits half goes on the crew ([[List Building]]). A **Farm/Ranch** Location adds **+50 Materials** to this budget instead of a free building.
+
+### Settlements in battles
+
+Resolved — the settlement **is** the board. A settlement's 12"×36" canvas is exactly the defender's **back three density squares** on a 3'×3' board, so a raid uses the whole compound and the attacker crosses ~24" of neutral ground ([[Terrain#Settlement boards — the same procedure, one square-set pre-filled]]).
+
+**A raid is not meant to be fair.** The defender fights on home ground with their own structures' tags, turrets and [[Infrastructure]] for free, and **wins all Priority ties** — one small lever, not a stack of raid-only exceptions.
+
+### Assigning roles
+
+Two jobs a person can hold, and they compete for the same bodies:
+
+- **Crew** — fielded in battles, within housing and the Crew Rating cap ([[List Building]]).
+- **Worker** — assigned to a structure for its printed benefit, **assigned or not**, no progression track ([[Structures#Worker benefits]]).
+
+Sending a fighter out on a **dispatch** — Scout or Scavenge — means they are not available for that battle. That opportunity cost is the whole tension of the downtime layer ([[Downtime#Phase 2 — Settlement]]).
+
+---
+
+## Original design notes
+*Kept verbatim for the setting voice and the reasoning. Where these disagree with the rules above, the rules above win.*
 
 Overview - the settlement rules is a main mechanic of Settlements (shocker)
 
