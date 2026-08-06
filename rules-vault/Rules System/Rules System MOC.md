@@ -24,7 +24,7 @@ Visual, editable map of the whole rules system, ported from the Notion **Build R
 
 ✅ Core dice locked in draft. Lethality first pass drafted in [[Damage]] — final **Lock** after playtest.
 
-✅ **[[List Building]] + [[Weapons]] drafted and sim-validated** (2026-07-13). Eight archetypes at 100 pts sit within an **11-point spread** — on a legal 9–12-feature board. See [[Crew Sim — Findings]].
+✅ **[[List Building]] + [[Weapons]] drafted and sim-validated** (2026-07-13). Eight archetypes sit within an **11-point spread** — on a legal 9–12-feature board. See [[Crew Sim — Findings]]. *(Validated on the retired 100-point scale; everything is on the **1000-Credit** scale as of 2026-08-05, with separate **Match Play** and **Campaign Start** starting tiers.)*
 
 ## Stages
 ### S1 Foundation
@@ -40,13 +40,14 @@ Visual, editable map of the whole rules system, ported from the Notion **Build R
 - [[Terrain]] — *Drafted* · [[Terrain Interaction]] — *Drafted* · [[Hacking]] — *Drafted* · [[Infrastructure]] — *Drafted* · [[Deployables]] — *Drafted* · [[List Building]] — *Drafted* ✅ · [[Scenarios]] — *Drafted*
 
 ### S4 Settlement & Campaign
-- [[Settlement]] — *Designing* · [[Structures]] — *Drafted* · [[Economy]] · [[Campaign]] — *Drafted (thin)* · [[Progression]] — *Drafted (thin)* · [[Territory]] · [[Downtime]] · [[Events]] · [[Narrative]] · [[Diplomacy]] · [[Solo & Co-op]]
+- [[Settlement]] — *Drafted* · [[Structures]] — *Drafted* · [[Economy]] — *Drafted* · [[Campaign]] — *Drafted* · [[Progression]] — *Drafted* · [[Territory]] — *Drafted* · [[Downtime]] — *Drafted* · [[Events]] — *Drafted (battlefield only)* · [[Narrative]] · [[Diplomacy]] · [[Solo & Co-op]]
+- ✅ **The campaign layer closed on 2026-08-05.** Economy, Territory and Events were empty and are now drafted from the master note; Settlement gained its founding rules; Downtime's three-phase turn is what everything else meant by "Settlement Phase". **Diplomacy, Narrative and Solo & Co-op are the remaining gaps.**
 
 ### 🎯 Milestone
 - [[Final Alpha]] — first public playtest gate (thin slice of everything above).
 
 ### S5 Content
-- [[Factions]]
+- [[Factions]] — *Drafted* · framework **and** the six-faction roster adopted; the faction *names* are still open
 
 ### S6 Production
 - [[Balance]] · [[Components]] · [[Rulebook]] · [[Edge Cases]] · [[Playtesting]]
