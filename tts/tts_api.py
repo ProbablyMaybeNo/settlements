@@ -185,6 +185,103 @@ def cmd_listen(args):
     return 0
 
 
+def _lua_str(s):
+    """Wrap a JSON blob in a Lua long-bracket string, at a level the blob cannot
+    close. Escaping quotes through two layers of JSON is a bug farm; this is not."""
+    level = 0
+    while (']' + '=' * level + ']') in s or ('[' + '=' * level + '[') in s:
+        level += 1
+    eq = '=' * level
+    return f'[{eq}[{s}]{eq}]'
+
+
+def spawn_objects(states, batch=6, clear=False):
+    """Spawn saved ObjectStates into the LIVE table via spawnObjectJSON.
+
+    Batched because one exec carrying 56KB of JSON is asking for trouble, and a
+    failure mid-way is then localised to six objects instead of the whole table."""
+    if clear:
+        send({'messageID': MSG_EXEC, 'guid': GLOBAL_GUID, 'script':
+              'for _,o in ipairs(getAllObjects()) do destroyObject(o) end '
+              'print("[deploy] cleared the table")'})
+        listen(3.0)
+        time.sleep(1.0)
+
+    total = len(states)
+    for i in range(0, total, batch):
+        chunk = states[i:i + batch]
+        lines = []
+        for st in chunk:
+            lines.append(f'spawnObjectJSON({{json = {_lua_str(json.dumps(st))}}})')
+        lines.append(f'print("[deploy] spawned {min(i + batch, total)}/{total}")')
+        send({'messageID': MSG_EXEC, 'guid': GLOBAL_GUID, 'script': '\n'.join(lines)})
+        listen(2.5)
+        time.sleep(0.35)
+    send({'messageID': MSG_EXEC, 'guid': GLOBAL_GUID, 'script':
+          'print("[deploy] table now holds "..#getAllObjects().." objects")'})
+    listen(3.0)
+
+
+def load_save(path):
+    if not os.path.isfile(path):
+        print(f'no such save: {path}\n  run build_table.py first', file=sys.stderr)
+        return None
+    with open(path, encoding='utf-8') as fh:
+        return json.load(fh)
+
+
+def default_save():
+    for p in (os.path.join(os.path.expanduser('~'), 'Documents', 'My Games',
+                           'Tabletop Simulator', 'Saves', 'Settlements.json'),
+              os.path.join(HERE, 'Settlements.json')):
+        if os.path.isfile(p):
+            return p
+    return os.path.join(HERE, 'Settlements.json')
+
+
+def cmd_spawn(args):
+    if not require_up():
+        return 1
+    save = load_save(args.file or default_save())
+    if save is None:
+        return 1
+    states = save['ObjectStates']
+    print(f'spawning {len(states)} objects into the live table')
+    spawn_objects(states, clear=args.clear)
+    return 0
+
+
+def cmd_deploy(args):
+    """The whole table in one shot: Global script first, then the objects.
+
+    Order matters. Save & Play RELOADS the table, so pushing the script after the
+    objects would throw them away."""
+    if not require_up():
+        return 1
+    save = load_save(args.file or default_save())
+    if save is None:
+        return 1
+    lua_path = os.path.join(HERE, 'Global.lua')
+    with open(lua_path, encoding='utf-8') as fh:
+        lua = fh.read()
+
+    print(f'1/2 pushing Global.lua ({len(lua):,} chars) — this reloads the table')
+    send({'messageID': MSG_SAVE_PLAY,
+          'scriptStates': [{'guid': GLOBAL_GUID, 'script': lua, 'ui': ''}]})
+    listen(6.0)
+    print('    waiting for the reload to settle...')
+    time.sleep(4.0)
+    for _ in range(10):
+        if is_up():
+            break
+        time.sleep(1.0)
+
+    print(f'2/2 spawning {len(save["ObjectStates"])} objects')
+    spawn_objects(save['ObjectStates'], clear=args.clear)
+    print('\ndone — in TTS type  !help  then  !density')
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -198,6 +295,12 @@ def main():
     p.add_argument('--wait', type=float, default=5.0); p.set_defaults(fn=cmd_exec)
     p = sub.add_parser('listen'); p.add_argument('seconds', nargs='?', type=float, default=10.0)
     p.set_defaults(fn=cmd_listen)
+    p = sub.add_parser('spawn'); p.add_argument('file', nargs='?')
+    p.add_argument('--clear', action='store_true', help='destroy existing objects first')
+    p.set_defaults(fn=cmd_spawn)
+    p = sub.add_parser('deploy'); p.add_argument('file', nargs='?')
+    p.add_argument('--clear', action='store_true', help='destroy existing objects first')
+    p.set_defaults(fn=cmd_deploy)
     args = ap.parse_args()
     return args.fn(args)
 

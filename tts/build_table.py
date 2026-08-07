@@ -30,7 +30,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 # reads wrong, change ONLY this and regenerate.
 INCH = 1.0
 BOARD = 36.0          # 3'x3'
-BASE_Y = 1.0          # table surface height in TTS units
+# Measured live, not assumed: a checker dropped on the table came to rest at
+# y=1.24, so the surface sits there. At the old BASE_Y=1.0 the slab spanned
+# 0.8-1.2 and was buried UNDER the table — you saw wood, not a board. 1.55 puts
+# the slab clearly on top of any stock table.
+BASE_Y = 1.55
 BOARD_T = 0.4         # board slab thickness
 TOP = BASE_Y + BOARD_T / 2.0     # everything sits on this
 
@@ -203,8 +207,10 @@ def build():
              ('Hidden', (0.35, 0.45, 0.6)), ('Ready', (0.35, 0.7, 0.5)),
              ('Fire', (0.95, 0.4, 0.15)), ('Bleed', (0.75, 0.15, 0.25)),
              ('Poison', (0.5, 0.75, 0.3))]
+    # Kept ON the board. At x=-22 they were off a board that only spans +/-18, so
+    # they slid off the table edge and piled up in mid-air (seen at y~7).
     for i, (nm, col) in enumerate(conds):
-        px, pz = xz(-4.0, 4.0 + i * 3.2)
+        px, pz = xz(1.5, 2.5 + i * 3.7)
         states.append(obj('Checker_white', (px, TOP + 0.3, pz), (0.7, 0.4, 0.7),
                           nickname=nm,
                           desc=f'{nm} token. Copy/paste (Ctrl+C, Ctrl+V) for more.',
@@ -212,7 +218,7 @@ def build():
 
     # --- dice ---------------------------------------------------------------
     for i in range(2):
-        px, pz = xz(BOARD + 4.0, 14.0 + i * 4.0)
+        px, pz = xz(34.5, 14.0 + i * 4.0)
         states.append(obj('Die_10', (px, TOP + 1.0, pz), (1.4, 1.4, 1.4),
                           nickname='d10',
                           desc='The only die in the game. 1d10 + Stat + Mods vs 7+.'))
