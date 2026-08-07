@@ -29,6 +29,14 @@ import socket
 import sys
 import time
 
+try:
+    # TTS sends back em-dashes and degree signs; the default Windows console
+    # codec (cp1252) throws on them and kills an otherwise successful run.
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+except Exception:
+    pass
+
 HOST = '127.0.0.1'
 TTS_PORT = 39999        # TTS listens here (we send)
 EDITOR_PORT = 39998     # we listen here (TTS sends)

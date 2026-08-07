@@ -151,6 +151,12 @@ local HELP = {
   '  !round                       advance the round counter',
   '  !density                     check the 9-12 band and the nine squares',
   '  !score                       objective hold/contest right now',
+  '',
+  '[b]Terrain setup[/b] — terrain ships locked so physics cannot shift it',
+  '  !unlock                      unlock terrain so you can DRAG it',
+  '  !link                        fix each model to its footprint pad (do this first)',
+  '  !unlink                      separate models from pads again',
+  '  !lock                        re-lock once you are happy with the layout',
 }
 
 function onChat(msg, player)
@@ -259,6 +265,10 @@ function onChat(msg, player)
       state.round > 6 and '  (game ends after round 6)' or ''))
   elseif cmd == '!density' then density()
   elseif cmd == '!score' then score()
+  elseif cmd == '!unlock' then setTerrainLock(false)
+  elseif cmd == '!lock' then setTerrainLock(true)
+  elseif cmd == '!link' then linkScenery()
+  elseif cmd == '!unlink' then unlinkScenery()
   else return true end
   return false
 end
@@ -433,6 +443,89 @@ function priority()
     state.firstPlayer = w
     report(GOOD, string.format('[Priority] %s chooses to activate first or second.', w))
   end
+end
+
+-- ---------------------------------------------------------------- terrain setup
+
+--[[ Terrain ships LOCKED so physics cannot shove a building off its footprint
+     mid-game. That also means you cannot drag it, so setup needs an explicit
+     unlock -> arrange -> re-lock cycle.
+
+     Each building is TWO objects: a thin rules-true PAD carrying the cover value
+     and the density GMNotes, plus the scenery model standing on it. Dragging one
+     would leave the other behind, so !link fixes each model to its pad first and
+     they move as a single piece. ]]
+
+function terrainObjects()
+  local out = {}
+  for _, o in ipairs(getAllObjects()) do
+    local gm = o.getGMNotes()
+    if gm and gm ~= '' then
+      local j = JSON.decode(gm)
+      if type(j) == 'table' and (j.terrain or j.scenery or j.board or j.deploy) then
+        table.insert(out, { obj = o, d = j })
+      end
+    end
+  end
+  return out
+end
+
+function setTerrainLock(locked)
+  local n = 0
+  for _, t in ipairs(terrainObjects()) do
+    -- the board slab and deployment bands stay locked always: they are the
+    -- coordinate system, and nudging them silently moves every measurement
+    if not (t.d.board or t.d.deploy) then
+      t.obj.setLock(locked)
+      n = n + 1
+    end
+  end
+  report(locked and GOOD or INFO, string.format(
+    '[Terrain] %d pieces %s. %s', n, locked and 'LOCKED' or 'UNLOCKED',
+    locked and 'Physics can no longer shove them off their footprints.'
+           or 'Drag to arrange. Run !link first so models carry their pads, '
+              .. 'then !density to re-check the 9-12 band, then !lock.'))
+end
+
+function linkScenery()
+  --[[ Joint each scenery model to the pad beneath it. Nearest pad within 4"
+       claims the model — pads sit directly under their own model, so proximity
+       is unambiguous here. ]]
+  local pads, models = {}, {}
+  for _, t in ipairs(terrainObjects()) do
+    if t.d.terrain then table.insert(pads, t.obj)
+    elseif t.d.scenery then table.insert(models, t.obj) end
+  end
+  local n = 0
+  for _, m in ipairs(models) do
+    local best, bd = nil, 4.0
+    for _, p in ipairs(pads) do
+      local d = inches(m, p)
+      if d < bd then best, bd = p, d end
+    end
+    if best then
+      m.jointTo(best, { type = 'Fixed', collision = false })
+      n = n + 1
+    end
+  end
+  report(GOOD, string.format('[Terrain] linked %d scenery model(s) to their '
+    .. 'footprint pads — each building now drags as one piece.', n))
+  if n < #models then
+    report(INFO, string.format('   %d model(s) had no pad within 4" and stayed loose.',
+      #models - n))
+  end
+end
+
+function unlinkScenery()
+  local n = 0
+  for _, t in ipairs(terrainObjects()) do
+    if t.d.scenery then
+      t.obj.jointTo()          -- no argument = clear joints
+      n = n + 1
+    end
+  end
+  report(INFO, string.format('[Terrain] unlinked %d model(s) — pads and models '
+    .. 'now move independently.', n))
 end
 
 -- ---------------------------------------------------------------- density
