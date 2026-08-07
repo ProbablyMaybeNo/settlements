@@ -1,0 +1,2402 @@
+[
+ {
+  "nickname": "Grimdark Future Table",
+  "kind": "Custom_Tile",
+  "mesh": "",
+  "collider": "",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/1658972912264109851/D3AA1FC3CB45607D3E578B3C58E2E3D801759AD4/",
+  "convex": false,
+  "scale": [
+   24.0,
+   1.0,
+   24.0
+  ],
+  "asset": "image",
+  "bucket": "other",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/1644341579045854755/12401840E32333682E5B134DA42683FDE4913BC9/",
+  "collider": "",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/1817763052143201627/BFF5B9B273CBDAD2256E1905CE08CA1A3F0915D7/",
+  "convex": true,
+  "scale": [
+   0.979,
+   1.0,
+   1.083
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "parktile",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/1644341579045636497/BE06F19C326EAFF247136F6B74AFE53430C6AE74/",
+  "collider": "",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/1817763052143202098/4302E4A733A5280E59B28E89F8D009C36ACEF72C/",
+  "convex": true,
+  "scale": [
+   0.625,
+   0.625,
+   0.746
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "Fence",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356353022/80E1A1E2F6258D826099BAAA5004DC386FC035BB/",
+  "collider": "",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356353777/45FC6F3B371E1ADD94431B7364077E73D26DC9F0/",
+  "convex": true,
+  "scale": [
+   1.65,
+   1.65,
+   1.65
+  ],
+  "asset": "model",
+  "bucket": "scatter",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "Swimming Pool",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356750774/A9C51117AB491D9777DA74C64940539DEEF6F936/",
+  "collider": "",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356751570/8BEA5E05A08F95F5C7442FD2328042F1A2E2D92D/",
+  "convex": true,
+  "scale": [
+   1.65,
+   1.65,
+   1.65
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "Utility Pole",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356904105/9C969763083EB88D4D12508773FD964BD6794CBB/",
+  "collider": "",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356903432/E8B871B26BF95D23504319328F75B614C55C401F/",
+  "convex": true,
+  "scale": [
+   3.4,
+   3.4,
+   3.4
+  ],
+  "asset": "model",
+  "bucket": "scatter",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355918487/64EB4B1EA2405C531622F3EC8C6541E7E8672810/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355918487/64EB4B1EA2405C531622F3EC8C6541E7E8672810/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355919097/3AF98798954825DC3C854650D573DD71F2D4CD95/",
+  "convex": false,
+  "scale": [
+   5.2,
+   5.2,
+   5.2
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356041133/490769FB2166470C74902A2765E6D5A0090D0CC5/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356041133/490769FB2166470C74902A2765E6D5A0090D0CC5/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356041865/2C5A2E39DF58F37C059927407FC6DCD01DCE6ABD/",
+  "convex": false,
+  "scale": [
+   6.3,
+   6.3,
+   6.3
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "Garage",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356804886/A37692180C5F1586EA9C0E62FF6BD3007A00C570/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356804886/A37692180C5F1586EA9C0E62FF6BD3007A00C570/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356805641/5E9A3A832CF02A1458CD9186FA6B21A7F72032EF/",
+  "convex": false,
+  "scale": [
+   4.15,
+   4.15,
+   4.15
+  ],
+  "asset": "model",
+  "bucket": "building",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472003824445360526/31D0E65B85BDC8088B99127EDBBA13EBCC140C9A/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472003824445360526/31D0E65B85BDC8088B99127EDBBA13EBCC140C9A/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472003824445361782/E1E811E7B3D17FEEC63EA5706B1138D05E25F98D/",
+  "convex": false,
+  "scale": [
+   0.875,
+   0.875,
+   0.875
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356106991/4F3363ABDF6A96C2FEAFBE6A1A4464204B5C2447/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356106991/4F3363ABDF6A96C2FEAFBE6A1A4464204B5C2447/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356108003/AEECECF33F3BA47336A993CC998AABE99E6D1E46/",
+  "convex": false,
+  "scale": [
+   5.8,
+   5.8,
+   5.8
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355746808/48601EC6A2E9AD4E0AAB21BEE7976A94887F01C3/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355746808/48601EC6A2E9AD4E0AAB21BEE7976A94887F01C3/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355748178/C5EA99A527C1899F4ECFF9E8FBAFEBDF84D97894/",
+  "convex": true,
+  "scale": [
+   6.7,
+   6.7,
+   6.7
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355876410/835C5F10D1441ABAE4FF41A3A482245E221DD4E7/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355876410/835C5F10D1441ABAE4FF41A3A482245E221DD4E7/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355877372/7CE178B545A2DAC0BF30807B033796A9F2E678EC/",
+  "convex": false,
+  "scale": [
+   6.75,
+   6.75,
+   6.75
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472003824446289960/99BC7272B2344C888CFD6A46C4FB1B87F669F151/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472003824446289960/99BC7272B2344C888CFD6A46C4FB1B87F669F151/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472003824446278476/19B8E66C187BA3DFC4337E167E8D09809A13906F/",
+  "convex": false,
+  "scale": [
+   6.6,
+   6.6,
+   6.6
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355807107/8C4083F10D68352620607370C9B470CAC7A7157E/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355807107/8C4083F10D68352620607370C9B470CAC7A7157E/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355807670/0DE0ED38023F3D4BB9AB1B893D898AEC77F91B3B/",
+  "convex": false,
+  "scale": [
+   5.5,
+   5.5,
+   5.5
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "House",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356106991/4F3363ABDF6A96C2FEAFBE6A1A4464204B5C2447/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356106991/4F3363ABDF6A96C2FEAFBE6A1A4464204B5C2447/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356108003/AEECECF33F3BA47336A993CC998AABE99E6D1E46/",
+  "convex": false,
+  "scale": [
+   1.65,
+   1.65,
+   1.65
+  ],
+  "asset": "model",
+  "bucket": "building",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "House",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356041133/490769FB2166470C74902A2765E6D5A0090D0CC5/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356041133/490769FB2166470C74902A2765E6D5A0090D0CC5/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459356041865/2C5A2E39DF58F37C059927407FC6DCD01DCE6ABD/",
+  "convex": false,
+  "scale": [
+   1.65,
+   1.65,
+   1.65
+  ],
+  "asset": "model",
+  "bucket": "building",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "House",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472003824445360526/31D0E65B85BDC8088B99127EDBBA13EBCC140C9A/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472003824445360526/31D0E65B85BDC8088B99127EDBBA13EBCC140C9A/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472003824445361782/E1E811E7B3D17FEEC63EA5706B1138D05E25F98D/",
+  "convex": false,
+  "scale": [
+   0.25,
+   0.25,
+   0.25
+  ],
+  "asset": "model",
+  "bucket": "building",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "House",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472003824445429479/0C9B4926F047E6C35847F121E5428159EA68C0E5/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472003824445429479/0C9B4926F047E6C35847F121E5428159EA68C0E5/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472003824445430593/127393E6E908878955A9EF4C1382EA93596CF4BC/",
+  "convex": false,
+  "scale": [
+   0.675,
+   0.675,
+   0.675
+  ],
+  "asset": "model",
+  "bucket": "building",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "Church",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472003824445489570/A26DE78C4A03121D44680E88A5B85F2517BB1ADA/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472003824445489570/A26DE78C4A03121D44680E88A5B85F2517BB1ADA/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472003824445490671/1DD914EB0591283DA4AA3F9E6E9C9A56722515C8/",
+  "convex": false,
+  "scale": [
+   0.675,
+   0.675,
+   0.675
+  ],
+  "asset": "model",
+  "bucket": "building",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "House",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472003824446289960/99BC7272B2344C888CFD6A46C4FB1B87F669F151/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472003824446289960/99BC7272B2344C888CFD6A46C4FB1B87F669F151/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472003824446278476/19B8E66C187BA3DFC4337E167E8D09809A13906F/",
+  "convex": false,
+  "scale": [
+   1.55,
+   1.55,
+   1.55
+  ],
+  "asset": "model",
+  "bucket": "building",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "House",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355746808/48601EC6A2E9AD4E0AAB21BEE7976A94887F01C3/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355746808/48601EC6A2E9AD4E0AAB21BEE7976A94887F01C3/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355748178/C5EA99A527C1899F4ECFF9E8FBAFEBDF84D97894/",
+  "convex": false,
+  "scale": [
+   1.65,
+   1.65,
+   1.65
+  ],
+  "asset": "model",
+  "bucket": "building",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "House",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355807107/8C4083F10D68352620607370C9B470CAC7A7157E/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355807107/8C4083F10D68352620607370C9B470CAC7A7157E/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355807670/0DE0ED38023F3D4BB9AB1B893D898AEC77F91B3B/",
+  "convex": false,
+  "scale": [
+   1.65,
+   1.65,
+   1.65
+  ],
+  "asset": "model",
+  "bucket": "building",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "House",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355876410/835C5F10D1441ABAE4FF41A3A482245E221DD4E7/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355876410/835C5F10D1441ABAE4FF41A3A482245E221DD4E7/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355877372/7CE178B545A2DAC0BF30807B033796A9F2E678EC/",
+  "convex": false,
+  "scale": [
+   1.65,
+   1.65,
+   1.65
+  ],
+  "asset": "model",
+  "bucket": "building",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "House",
+  "kind": "Custom_Model",
+  "mesh": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355918487/64EB4B1EA2405C531622F3EC8C6541E7E8672810/",
+  "collider": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355918487/64EB4B1EA2405C531622F3EC8C6541E7E8672810/",
+  "diffuse": "https://steamusercontent-a.akamaihd.net/ugc/2472004459355919097/3AF98798954825DC3C854650D573DD71F2D4CD95/",
+  "convex": false,
+  "scale": [
+   1.65,
+   1.65,
+   1.65
+  ],
+  "asset": "model",
+  "bucket": "building",
+  "mod_id": "3346010681"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1630821770254612148/5848A616C83A88B03FBADB12C97C26DDEE503717/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1550885047848407350/36EE862FAE02344B3DBC4E13966C30E398472C06/",
+  "convex": true,
+  "scale": [
+   90.0,
+   0.3,
+   90.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738435938/42BCD009572B2BABCD120D2D0995358DBBBBDE43/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738436165/704BD333F2B1117D06C61E0F0B96C22E595E1D9B/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548108486/16905D209BA7D4813CEC4BF1E74C85A86DB21B51/",
+  "collider": "http://cloud-3.steamusercontent.com/ugc/1767070238548108881/EE1F2DCE5EDD86D8EA80FE085ADCA429627C3BFA/",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548108653/4397F213CC53DEB07ED5C2C54EE67F18C37AF3A0/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548100413/4E0CAA3FC33486091B1D5819284DCCB560BEF05C/",
+  "collider": "http://cloud-3.steamusercontent.com/ugc/1767070238548100905/7080325313FC5EAC4B319032377653BE984B0339/",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548100600/20A33501A80EE3AC319035C75F62836FAB962E70/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548132232/DB54581CEC361A009CF1D13A4E867FABBB127828/",
+  "collider": "http://cloud-3.steamusercontent.com/ugc/1767070238548132757/5CA0CBB6885C5CC8F5B8A858E5A88A560A63714F/",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548132522/45189B31F789DE9B7B69044B55CF4049FD3AEACD/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548130723/2B9D7BF4B4EBEBE4E5D573A29B6C0FB677267E44/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548130861/2CF13CEACFDDB12CA8B728694BED845762F09CAB/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548128914/CC73D975D224E51282B7E1EABA2DFDBA6FD7CC73/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548129088/62FFE9C5ADBE137E098D2D6622605376ACF5AD02/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548128017/7B5B56B8423D53E26CDA8CCC8672FF2EE71F4057/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548128166/C703327BD18681B0291BCDB94400FA39BD9A44CA/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548126506/D13CC83C6F64C93EFB17F505F3FA011F77E3819F/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548126670/73FCDA2A1721C401D2DB2088AC1FBC70D051DF5D/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548124872/2BA9D9FAE35AABF2BEED4525012C6A4F956E0504/",
+  "collider": "http://cloud-3.steamusercontent.com/ugc/1767070238548125173/A5ED831DF5346331E093B265B836D6A5E4E4A0A9/",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548125048/DB424AD87D3088F8C857A1B77EE1E9866ACA6B58/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548120427/2688753D2EC978EBE67D246952A980D1EC619D50/",
+  "collider": "http://cloud-3.steamusercontent.com/ugc/1767070238548120883/C8B9EF3C791738C28C95863999E43D2320B9663D/",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548120638/CA2E5B8646197C3D04F18029E74401E1968CE1B1/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548140225/5E4448F0F40AF4B09562F36D61F3788D6AC7DDCA/",
+  "collider": "http://cloud-3.steamusercontent.com/ugc/1767070238548140759/605F7A8132635CCAFC7FAA53DD2C3BCE163BA34B/",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548140484/3A15785F7249F3C88D64ADC53CAC4C11516A956D/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548137649/F0AF8187E9A0AD16B51F046962EFD74C6D10FDE4/",
+  "collider": "http://cloud-3.steamusercontent.com/ugc/1767070238548138067/5FD6AAA06BE3FB931CF2B628D8BD7CABF34E3DFC/",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548137787/4B4663BCE5886C0D5B239EE232EDECE58C60A077/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548136602/334636656A756EBF6E63D92402888A7978F9A943/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548136732/BB1A885E2A39026AFFC9CC93E00A04CDA208685D/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548135529/7031A672441396F8AB0CF875364A002FCF70EE44/",
+  "collider": "http://cloud-3.steamusercontent.com/ugc/1767070238548135901/A674EE232F9FBBFC5818A380F45DBA6D118101D4/",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548135716/14F573DEC95707E8A9F37720F25B27480819FEF3/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548134467/A80F431AF703F0994581055648BF1CFB7AD011F4/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548134577/D2EA9F5970F8BB8DB82AB74E0025755DAC766B0A/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548115196/0640BACF3227DF0568AC44DD895798529A7813B5/",
+  "collider": "http://cloud-3.steamusercontent.com/ugc/1767070238548115899/8B1078943FC924C4420244F7498088603A6E8EB6/",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548115377/88EF33FF5ADB075837CFD228CE79B0E493F0BAB6/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548142659/33427DAE9FE539CE9070DEE5DFA3284408FB880E/",
+  "collider": "http://cloud-3.steamusercontent.com/ugc/1767070238548143092/34CDEC3FDF1D9A7B707AE21F39ECDE4F0E4B5757/",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548142796/7D62A83996D469BA19AD206425DFD185BE702252/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548123246/1F5C9D29F5E1FC35F1CB921A04E35BE53482C048/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548123391/AD55CFD6083D8BE88A8B49D265E5DAC7240FF180/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548113445/E3B1DC7D48D3024CAAA057C5336DD957420E3733/",
+  "collider": "http://cloud-3.steamusercontent.com/ugc/1767070238548113788/4032E27CEBB128F06B3A27949A22A8A4404FEEA5/",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548113617/7C4043B454CAE1D54DACEB9A81CA987F05F18733/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070238548111436/892559F7841F0442AB7EDDDA8D9B6741FE42DE02/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070238548111586/3EDC5E63B4171DEB7EB95431943AC931BF297D57/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108775838/AB92A4A8E8716F86D76122552DE5840BA6D6CAEF/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108775983/C45D97EAB9FE9A80C0B33A9A93D3F1F39FE1F05F/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738434782/331A0DD23EF60025E2FA2ABDE0217E6A04232BAB/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738435048/E0012D61FE27E9B4B8AE819152041A2394D3C700/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738433784/D65D4878449D0E4AE77A27DE2976F49C604D1083/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738433944/2FE819A8193A5BD6F4D26BE5D5079A0F48D801CB/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738432677/4A5F4126D1560BE64CB7B6FD8B8A5F3E43D4A85E/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738432864/2DED2454D1A73F137DC3A83532C43B5C993BE78C/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738431570/9BFE0A0EEFACEB53BE95F25A6B73B0BD15AFBDDE/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738431792/2DED2454D1A73F137DC3A83532C43B5C993BE78C/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738440912/7D47F30DB4AEA1B8AE405E9EA547EE86994D35D0/",
+  "collider": "http://cloud-3.steamusercontent.com/ugc/1767070371738441300/F3AB79D61676F8C85E28685239AE339A83120616/",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738441082/B737DCCDE82FC4A95148F54C05480D7B386507B3/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738424361/1DDCD9E168E966C818C30D61646C4FB7A4BDE09A/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738424507/18C41BCCC3A5ED1A8799FF326C201786DE9E0810/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738425619/110CAAF6646F48904018DF71CFEF1C1D3D5CA4A4/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738425836/8B7607B67BE05E44251246A1C10D24B875F3DED8/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738426512/FE88FF1E0F18268A1B4C220032590B348854D646/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738426650/5DB1CB7CD3843D0F101D275D795E13524985902C/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738427451/2E58603605B90E9D9D7D3835F13EED6081FF74DF/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738427647/EE68ECBD613B2DBCA258A7D8B65370D87C0868EA/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738428742/2BA1F6A3B991026F305F29A701CC021485642AC6/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738428912/EE68ECBD613B2DBCA258A7D8B65370D87C0868EA/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738418884/5C055F0BD89C70B289B074476C4DE2B75C7D770F/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738419048/8CC65D6CD1B0AADFBECC2D62A83D67AB9AA20553/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738419905/FAAB3961CF8F8E4F5B779C52D5E8B5108BD9967C/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738420121/E34B6AD8D9D2C9E2066F47719A7C937E039FC243/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738420890/803BD85064FF4AFFF8034A46B9EDD8C2B3550498/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738421054/D22D57251A02C56D52D5F6DF869C2600B8EE7E56/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738421956/EAFF02B1F5103F61DDD8F3DE0326C1C95BCEE3AD/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738422163/E136A239124D8B7B0E38F98DA4EDF245B8E75816/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738422835/D946844CAD75CEC86A32454178C98639D09870E2/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738423001/79C8E68AB224E552F108B6E19298016F62EEAF09/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738438389/02862F05F5F3C34B38A2289AB784E8B5353C717A/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738438607/C0400B8D21015A53BC0EFFAF948038E60BDBF049/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070371738437024/6FCADFED4F324C436BF9E4F3392627D72B3E3634/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070371738437215/DCAD3E7C2558C3B8C3AD88EDFDF853609E5B9D9F/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070624988231933/B927B100353C135DFD240C2C38993975A1A440EA/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070624988232091/194D5C13C42E2950C410ABDCAA311272E72298C9/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070624988235291/DCCA063CAA0FABE050EEA6EA17E9C9E88AC679B1/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070624988235486/BC6C92D93CAFD5C180373E37407947BCD5F0AEF2/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070624988237244/65627F70E54911CDD45674A3306F2B2B0D2CFF38/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070624988237391/6838632FDF7B93C3F2591EB8B026DF9308A62D6E/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070624988233384/3ED9EE35355EB8504AC06F6B732EE68DEA4FC8E5/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070624988233592/9215FE8FFFEB88295D52716E64A3EA2646092605/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070624988234306/BA13009D096E33C179D852A58A004AC347C0B1AB/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070624988234476/DB44DABF77D378895D117824E841C9A49D568633/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1767070624988236407/6FE2BB1DEDB87C47B3CCAC97CF9798E649B98445/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1767070624988236565/2AC7EA0CB5FF5389A34404DC3236202BDD7FBBC7/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108763028/46B3A4E6361C26482FF3FFA199ACF4CDF6F103E0/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108763234/745BC5D6563D45111ABB637B9E39D95619EC4A20/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108765090/0B5CF11106135D0B516E95C7E8B8366A25A6FEC0/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108765452/D7C40147E6B145B89DEBB050E8C9E2151D0EDE66/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108766484/57543528C3B9E4F4348DDEC0ADE5E4483DDBF817/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108766648/5FBD25039B4C37012D35985DD051C4D8C124FE48/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108767695/7049925A53EE7AD55D5A25A571765B30D711FA31/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108767860/3EA20B04D9DACEA62BF0439E0EFAF661E61E0EBE/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108768771/1A5FF77A7D8C8FD71ADCF690E7BA0A9E18F771B9/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108768959/3150B679FEB07A363D0835395D395CEA245805AD/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108770378/A8603A95B999F1BD1C36D66A2F0CB688B02E84B4/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108770569/774647E7EEBC2E9EC1DA7B627EBB7852299E611A/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108771432/113F661CED5EEFE55D56523F387B5ADACDAD8167/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108771609/A2750CEA2676EE57D4B3CA1B20A520EB4CECFA8A/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108772587/70DF7A2451D026ED938A39CB11D63A72791274E0/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108772792/0FFA3BFEACEDD3AC1490C7FA08DE25B806888C75/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108773743/37770B0F3C52D5D8E30BE710875FAD5A2DE0428B/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108773940/11087920D920AAC2693DC5C41EB6C34E09F5A031/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108774786/774A7162654985C378F32522E80F4DFC19DAC1B3/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108775014/4B5268B0216E7B404AF9F8CFA8FFFC77FCCE7C75/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108776870/B54880D0172F43F7BD3AFD76A9FF593AE950022D/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108777019/B9B0F1991896206411FF06513E3C9CDB21DBC7DE/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108777716/836C166D369B49ACDC3EA8F163F0ED2728777399/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108777857/F5A5E0BDF9A2E92886E835CE817E2671DCBD44F0/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108778601/12E3C6BEA9EACE51E3B1EF4D62BB33AAA471BD3D/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108778808/656F30411DA6D4A70E7E4C785A512F33A6FFE5DE/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108779667/F8F1EAF0F63E993CBB04F6A7F7D60A0116070F5F/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108779861/BB8A00E1152F9A78F42D18794129564C2A24A5A6/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108780553/C341916430FD148129118FEF4B827C2CE041A3A2/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108780769/FD72A11F9D362B7BDA118D77F08200A495771FD3/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108781566/0DA21AC2574B0C7FEC6C2F08CFD236579C0903A7/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108781725/965A7930D5D60568388327BA39071CAB7C28D759/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1762568528927497155/BE17F37B5215E98CC825AF36F98B20A4BC83FD4D/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108833857/31BCC1679E46AD18BFDF816481FC18E68DC22CCC/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108782385/34C82244A6C7DB35B28B8C73DE83EEF582BA3D9F/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108782528/1548EDF3305DD683BD09DFCFBAB0133941645B93/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108783129/93FCA0FDC4ED6DBD7352F1060D672211C8059C68/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108783290/C933DE385136C8220FB8572B42221E96A0BC65A4/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108784042/CACFA303727DF318C13ACDEC00D3C7E8CAD38666/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108784244/CE05149CB25B6D8D3FCB2D43E6E2E27B4A40A50B/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108784976/0C54CEC980694C43D4B0F1E45A5634A7A325B346/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108785188/A6DCF9DC71C53FA5E701417CF7204D24D4D3CA63/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108785930/263A9A896EA29E64462EAF3AD2AEC8347BDBB47F/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108786151/588E87CA1C9F3C2A1467AE09D1941A98C5EF1244/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108786862/11082D80319427F0054F0A5912494B4CF072F7B2/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108787040/2C86B32B248D416183C263AAAD7EF4543B7B99EB/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108787805/D8450F9BFB8DDFDABA4A25DC4EC19187668BD964/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108788002/CAD1897AD3580EF786F47FE44BF06833C987EF97/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108788751/E7589B2980EEA72AC37303B17F83AC5EAFC9F894/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108788915/BFCD65E7BE889C8AE23724E842393089EFBE45CE/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108789593/22BBEE9A5FD9550F45511A9B4E31413D980B2DC4/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108789777/AC35EC28CEB11B74831115E52153AC9DA18E6873/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108816469/890ED01BA83544E044BBA021A40C84B2EA28BD73/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108816600/E944B9AA6451BCDB06D60570B9433A3E069B8E1E/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108817246/AD002E73579CD07B24A834FA0435FC459FF27075/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108817380/EC42EDC546641936BC79656B0085FC61A9B60360/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108817962/B1CC5DCF5C04518148E217C3DA549711F69A4F9E/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108818131/EC42EDC546641936BC79656B0085FC61A9B60360/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108818748/B363D442CBFA9AF34E12CB371DDA2C34FE373986/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108818888/EB68E6E4D06EEE60A9D3545AA0B90A6C973F1853/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108819711/47A5F73C793877D2BA7FB38A7622B7AF24617E7D/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108819954/4D92B4B54D0F3BEA92141C1B2F4734FAF2A902F3/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108820687/2A6D36F17317E4CA4647653DA7538DA306A6C220/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108820882/038CC3A9C116A2739D9686B096FBA15E76F76CC9/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108821592/1465782FAF9568F858EFDF4D243B920E66AFFF83/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108821817/B8415659601FB1E08474F50920EA38F84FAEBBE0/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108822709/BA7FAF449AC748C77C8A587AD36135B32E8140DC/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108822885/DDA809A8A9BCE108F947DDC9704A5C1B3E0A86DD/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108823558/177ADCEE473007386AEEA4ABD9D8D797C5CB1F1B/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108823826/51E6748922D64A4D075BCE3456A9F873985483B2/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108824919/2A6395667773E5D5C668165C5D77635CD36BF4FC/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108825085/E029661DB70737C8FF12AB2595DA0A7425FD8A76/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108825908/BDEE85BA9DED80AB814BF3B632EA51669ABC828F/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108826115/AAC32CFFB0E02EBB1F40677D188E499ABB60EDE5/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108827066/BD31F1DEDF923213B6B3A1C8CC4D620B931329C5/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108827220/C63FEA2E0F65CD3E93904A3479D2C14DE6C1DD0B/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108827914/2C5CC86319032F84DB9059E810DFC369040B7D97/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108828041/AAC32CFFB0E02EBB1F40677D188E499ABB60EDE5/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108828738/24996ECB466FAD2EC5F5961EBC50162268F3169A/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108828868/7FFC568ECBCFBA993D9AC4E03D4AD29DB7114043/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108829499/F2008D368E221FC9F468771C15B5D8578075301A/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108829647/885263FA2B8BEAA86C1898E529E4B99B7FC8C620/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108830287/C3E086E2289D88BE400F6C00BDDAE280E8D447B8/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108830427/85445330C6203B3FE1AEEDAC50BF9D77914E7D2D/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108831117/A913EB9EEE0C7B9C02510700694617BEF136F6CD/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108831298/3204A9432A6FC6B5FBB9BC7C4917384F0162A615/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108831932/0A2349E062B839AF1B4B7CE9094824A27D7FEA68/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108832112/672C0F52C994B1AB9D2EE779AF6C3C430E3F0008/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1765945705108832837/30FBC3D2B22A5A7550640E61207A2A7DBC7FC773/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1765945705108832992/672C0F52C994B1AB9D2EE779AF6C3C430E3F0008/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/1762568528927070006/B98E3484E5CEFDF49FAB896F1C3C22B86913D350/",
+  "collider": "",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/1762568528927070186/54A00C0CB6FDCE67D2E8A9A334CB2A542C26376E/",
+  "convex": true,
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "2416214524"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/b2fe0192192efd789d043150686c4787/raw/dcb1f4b44750b6a45d2b9d5e4bd89bc466ca5482/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/f02b2a3aacf660d0b58adbb9e251d3e2/raw/faeb733ca714291e9eccb60a4bcb25a5871c381f/gistfile1.txt",
+  "diffuse": "https://s7.postimg.cc/qj4ser93d/Soldier_complete_smallamrs_beard.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/78242a89e0a88fff4dcc4792e33912fd/raw/f7fb760d535c792f0dbb756668712133eec39010/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/f02b2a3aacf660d0b58adbb9e251d3e2/raw/faeb733ca714291e9eccb60a4bcb25a5871c381f/gistfile1.txt",
+  "diffuse": "https://s7.postimg.cc/qj4ser93d/Soldier_complete_smallamrs_beard.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/5fe9896d672707a360f430a1ca6be444/raw/bfa6f12714537491d790b097924be87547741a68/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/f02b2a3aacf660d0b58adbb9e251d3e2/raw/faeb733ca714291e9eccb60a4bcb25a5871c381f/gistfile1.txt",
+  "diffuse": "https://s7.postimg.cc/qj4ser93d/Soldier_complete_smallamrs_beard.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/ed6a38159d56e5e1e99872c44f58f397/raw/958b0adc58dc201585166c47314da3c80f1b0909/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/f02b2a3aacf660d0b58adbb9e251d3e2/raw/faeb733ca714291e9eccb60a4bcb25a5871c381f/gistfile1.txt",
+  "diffuse": "https://s7.postimg.cc/qj4ser93d/Soldier_complete_smallamrs_beard.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/f362a62b47fcc0c7a4378d733ac31a26/raw/3a2aa9473906f69aa9adfc0dceaa92e22a149ceb/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/f02b2a3aacf660d0b58adbb9e251d3e2/raw/faeb733ca714291e9eccb60a4bcb25a5871c381f/gistfile1.txt",
+  "diffuse": "https://s16.postimg.cc/6kr810137/Soldier_complete_specialamrs_beard.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/5eeb59dca792c883d17510ecef901065/raw/08366f668d762afaa4e8cc9677a2d76cba86c503/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/f02b2a3aacf660d0b58adbb9e251d3e2/raw/faeb733ca714291e9eccb60a4bcb25a5871c381f/gistfile1.txt",
+  "diffuse": "https://s7.postimg.cc/qj4ser93d/Soldier_complete_smallamrs_beard.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/09429f3b75f25db8e794b4bca9b59569/raw/2bd43a06d06a38284582bff1eebafadeab2b27c3/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/f02b2a3aacf660d0b58adbb9e251d3e2/raw/faeb733ca714291e9eccb60a4bcb25a5871c381f/gistfile1.txt",
+  "diffuse": "https://s16.postimg.cc/6kr810137/Soldier_complete_specialamrs_beard.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/caa2f48c1ab426e93b32cc5eafd219c9/raw/97c62070e2c4f6a25eac7802679405b8cebe41a5/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/f02b2a3aacf660d0b58adbb9e251d3e2/raw/faeb733ca714291e9eccb60a4bcb25a5871c381f/gistfile1.txt",
+  "diffuse": "https://s16.postimg.cc/6kr810137/Soldier_complete_specialamrs_beard.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/062887cd17058915316b08c3d25cec6a/raw/011ed4f555f3783c5c8d944c1441e1da1f79d0d8/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/f02b2a3aacf660d0b58adbb9e251d3e2/raw/faeb733ca714291e9eccb60a4bcb25a5871c381f/gistfile1.txt",
+  "diffuse": "https://s16.postimg.cc/6kr810137/Soldier_complete_specialamrs_beard.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/b5ef08f39ee40aa13c3bd681a9c9d1d9/raw/2a086c604613b370df486921f7a203a96b564c72/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/f02b2a3aacf660d0b58adbb9e251d3e2/raw/faeb733ca714291e9eccb60a4bcb25a5871c381f/gistfile1.txt",
+  "diffuse": "https://s16.postimg.cc/6kr810137/Soldier_complete_specialamrs_beard.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/952967077059090908/62F2030924EA4E44D7D234A31371762B098F8230/",
+  "collider": "https://gist.githubusercontent.com/anonymous/f02b2a3aacf660d0b58adbb9e251d3e2/raw/faeb733ca714291e9eccb60a4bcb25a5871c381f/gistfile1.txt",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/952967077059091747/989A281CD2B3F21AD6D640EEF75A61731363CFB0/",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/7210a695e5e58f026c3f4e31b88616e4/raw/5c3d5892f99c70856127f6f181ce5c2877a5c032/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/e5ff52d5a9b3c80ddc95a5eb61644505/raw/bb1d023787d30d1f70a84cc1b639937cb65e9dab/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/4tptgq5m7/Soldier_complete_smallamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/fffaf3af6238642c35e6489037ffa76e/raw/a02ba71f1025b51c42623b7b59be6fbfbc37b144/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/e5ff52d5a9b3c80ddc95a5eb61644505/raw/bb1d023787d30d1f70a84cc1b639937cb65e9dab/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/caz0vxv5b/Soldier_complete_specialamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/a1e4b6f706565328ba3a66e0786ec8f0/raw/bedbb4a51462f7413ca7f8e24a1b60f15d129781/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/e5ff52d5a9b3c80ddc95a5eb61644505/raw/bb1d023787d30d1f70a84cc1b639937cb65e9dab/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/caz0vxv5b/Soldier_complete_specialamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/7a0a274efc2eac0d3a12a61bb4811873/raw/e8106be46ccdcb1d14234209864e133dc503c6ac/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/e5ff52d5a9b3c80ddc95a5eb61644505/raw/bb1d023787d30d1f70a84cc1b639937cb65e9dab/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/caz0vxv5b/Soldier_complete_specialamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/b364bfda62a80c40e6152d39fe070e7a/raw/388541799c09bda830e280c501ab7fb4128f436b/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/e5ff52d5a9b3c80ddc95a5eb61644505/raw/bb1d023787d30d1f70a84cc1b639937cb65e9dab/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/caz0vxv5b/Soldier_complete_specialamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/1800c1c5361ead23f65890f13c283317/raw/471a44040e2348e51af857513a458004ece47250/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/e5ff52d5a9b3c80ddc95a5eb61644505/raw/bb1d023787d30d1f70a84cc1b639937cb65e9dab/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/caz0vxv5b/Soldier_complete_specialamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/339c28249c008f24fde206b328693a73/raw/296b34b59130761b0ac2f73f9d2ea850f2722a26/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/e5ff52d5a9b3c80ddc95a5eb61644505/raw/bb1d023787d30d1f70a84cc1b639937cb65e9dab/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/caz0vxv5b/Soldier_complete_specialamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/126981ee38e71c72e2271d62f707227c/raw/4d04311d8308705697abcf1dfa70a3e202eacf0d/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/6d1011486f7049598a909070ea5d0158/raw/a832876bb0bfbe5ee0f885549b56a859c92b9197/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/caz0vxv5b/Soldier_complete_specialamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/24cc3f4eb67e9ffdaf13ad61826484cd/raw/13635e1bdc5ff3f02d60c220ec35da45b4dc4529/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/6d1011486f7049598a909070ea5d0158/raw/a832876bb0bfbe5ee0f885549b56a859c92b9197/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/caz0vxv5b/Soldier_complete_specialamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/62550b469963bfae0f41049ecab23e08/raw/1c479fb8f5999ba6e0e0df6caa50a7010364ae15/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/6d1011486f7049598a909070ea5d0158/raw/a832876bb0bfbe5ee0f885549b56a859c92b9197/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/caz0vxv5b/Soldier_complete_specialamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/b0f0e8dbbbd7aea03cd9d7c5d6ee5fd6/raw/0fb9f9ac52f8c6c5a87ea12b684b6d4c26f420ff/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/6d1011486f7049598a909070ea5d0158/raw/a832876bb0bfbe5ee0f885549b56a859c92b9197/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/caz0vxv5b/Soldier_complete_specialamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/b3707689988498f80975c6253d491c59/raw/141856631bac768948d31443ed4c69325d390015/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/e5ff52d5a9b3c80ddc95a5eb61644505/raw/bb1d023787d30d1f70a84cc1b639937cb65e9dab/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/4tptgq5m7/Soldier_complete_smallamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/bc8cd8a43df475af8226805de7292e88/raw/5a1188a4d73ac3f0306ad663b6785647f656057c/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/e5ff52d5a9b3c80ddc95a5eb61644505/raw/bb1d023787d30d1f70a84cc1b639937cb65e9dab/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/4tptgq5m7/Soldier_complete_smallamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/047460144270c4b2504d8708b6603eff/raw/52fd0e79110b248b2753699158fc8be019e83fa2/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/e5ff52d5a9b3c80ddc95a5eb61644505/raw/bb1d023787d30d1f70a84cc1b639937cb65e9dab/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/4tptgq5m7/Soldier_complete_smallamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/5c9607556719fd02d796ad99f0765e28/raw/8e9fd9c6cf766624215159a102583eb6089ec3fd/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/e5ff52d5a9b3c80ddc95a5eb61644505/raw/bb1d023787d30d1f70a84cc1b639937cb65e9dab/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/4tptgq5m7/Soldier_complete_smallamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/76394db4a3e5593be5ad15b0dcd0ae78/raw/05fa48994047fb456db958ab80915036479a6060/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/6d1011486f7049598a909070ea5d0158/raw/a832876bb0bfbe5ee0f885549b56a859c92b9197/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/4tptgq5m7/Soldier_complete_smallamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/0c8a2b515a704dd653ab227396c173e3/raw/c4168054cee07366bc2ac76f4ec31cdde5699919/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/6d1011486f7049598a909070ea5d0158/raw/a832876bb0bfbe5ee0f885549b56a859c92b9197/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/4tptgq5m7/Soldier_complete_smallamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/58b45d93c7902433f53b99c62ad8436c/raw/b3b8a160a0480e0855479df7e45d605e4cb8fbd7/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/6d1011486f7049598a909070ea5d0158/raw/a832876bb0bfbe5ee0f885549b56a859c92b9197/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/4tptgq5m7/Soldier_complete_smallamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/3a56bc61e42a945d578e1481447a5b9a/raw/875f4590eb34c1f839cc68285353e7ded6ae9f05/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/6d1011486f7049598a909070ea5d0158/raw/a832876bb0bfbe5ee0f885549b56a859c92b9197/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/4tptgq5m7/Soldier_complete_smallamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/b909505cae0d1272a20feeb120464804/raw/27245da49aea207f745c0fa12ec54ab3a93d62ad/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/6d1011486f7049598a909070ea5d0158/raw/a832876bb0bfbe5ee0f885549b56a859c92b9197/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/4tptgq5m7/Soldier_complete_smallamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "https://gist.githubusercontent.com/anonymous/595a99137fbc7155b9dc0147144a5956/raw/2d7f1a543014c0ee375a2b02affd54a75c8d1dae/gistfile1.txt",
+  "collider": "https://gist.githubusercontent.com/anonymous/6d1011486f7049598a909070ea5d0158/raw/a832876bb0bfbe5ee0f885549b56a859c92b9197/gistfile1.txt",
+  "diffuse": "https://s30.postimg.cc/caz0vxv5b/Soldier_complete_specialamrs_SWAT.jpg",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/952967077059123401/FF33557D22535B0D26965A59603CA70583F63D80/",
+  "collider": "https://gist.githubusercontent.com/anonymous/6d1011486f7049598a909070ea5d0158/raw/a832876bb0bfbe5ee0f885549b56a859c92b9197/gistfile1.txt",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/952967077059091747/989A281CD2B3F21AD6D640EEF75A61731363CFB0/",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ },
+ {
+  "nickname": "(unnamed)",
+  "kind": "Custom_Model",
+  "mesh": "http://cloud-3.steamusercontent.com/ugc/952967077059297115/7FF21E02951D8C4E0783DE42CB26E13AE6FA2B30/",
+  "collider": "https://gist.githubusercontent.com/anonymous/e5ff52d5a9b3c80ddc95a5eb61644505/raw/bb1d023787d30d1f70a84cc1b639937cb65e9dab/gistfile1.txt",
+  "diffuse": "http://cloud-3.steamusercontent.com/ugc/952967077059091747/989A281CD2B3F21AD6D640EEF75A61731363CFB0/",
+  "convex": true,
+  "scale": [
+   0.525,
+   0.525,
+   0.525
+  ],
+  "asset": "model",
+  "bucket": "other",
+  "mod_id": "1210066713"
+ }
+]
