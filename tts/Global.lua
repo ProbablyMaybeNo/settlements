@@ -152,9 +152,19 @@ local HELP = {
   '  !density                     check the 9-12 band and the nine squares',
   '  !score                       objective hold/contest right now',
   '',
+  '[b]Fix broken Workshop assets[/b] (the endless Custom Model popups)',
+  '  !fixurls                     repair retired Steam CDN links (403 -> Akamai)',
+  '  !purge                       delete models with no usable mesh',
+  '',
   '[b]Board & grid[/b]',
   '  !board                       place the 36x36 concrete board (self-calibrating)',
   '  !grid [off] [snap]           TTS grid to 1" squares (snap 0=off 1=lines 2=centre)',
+  '',
+  '[b]Building a board[/b] — hover a placed piece, then tag it',
+  '  !terrain <cover> <height> [tags]   a LARGE feature (counts to the 9-12 band)',
+  '  !scatter <cover> [height] [tags]   small filler (does NOT count)',
+  '  !layout                      what is tagged, what still needs it',
+  '        cover: 0 open · 1 light · 2 heavy   tags: comma,separated,no,spaces',
   '',
   '[b]Terrain setup[/b] — terrain ships locked so physics cannot shift it',
   '  !unlock                      unlock terrain so you can DRAG it',
@@ -269,8 +279,13 @@ function onChat(msg, player)
       state.round > 6 and '  (game ends after round 6)' or ''))
   elseif cmd == '!density' then density()
   elseif cmd == '!score' then score()
+  elseif cmd == '!fixurls' then fixAssetUrls()
+  elseif cmd == '!purge' then purgeBroken()
   elseif cmd == '!board' then setupBoard()
   elseif cmd == '!grid' then setupGrid((args[2] or ''):lower() ~= 'off', n(3, 0))
+  elseif cmd == '!terrain' then tagTerrain(player, n(2,0), n(3,0), args[4], true)
+  elseif cmd == '!scatter' then tagTerrain(player, n(2,0), n(3,1), args[4], false)
+  elseif cmd == '!layout' then layout()
   elseif cmd == '!unlock' then setTerrainLock(false)
   elseif cmd == '!lock' then setTerrainLock(true)
   elseif cmd == '!link' then linkScenery()
@@ -451,6 +466,87 @@ function priority()
   end
 end
 
+-- ---------------------------------------------------------------- asset repair
+
+--[[ Fix the endless "Custom Model" popups on old Workshop mods.
+
+     TTS opens its custom-object config dialog every time it cannot FETCH a mesh
+     or texture, so one dead link nags you forever. A large share of those dead
+     links are not really dead: Steam retired the old
+     "http://cloud-N.steamusercontent.com/ugc/..." hosts, which now return 403,
+     but the identical file is served fine from
+     "https://steamusercontent-a.akamaihd.net/ugc/...".
+
+     Verified from this machine: cloud-3 over http -> 403 on HEAD, ranged GET and
+     plain GET; the same path on the Akamai host -> 200. So this rewrite recovers
+     assets rather than papering over them.
+
+     What it CANNOT fix: genuinely dead third-party hosts (lapsed personal
+     domains, pastebin/paste.ee links that expired, Google Drive hotlink blocks).
+     Those pieces are gone and the only cure is different scenery. ]]
+function fixAssetUrls()
+  local OLD = 'cloud%-%d+%.steamusercontent%.com'
+  local NEW = 'steamusercontent-a.akamaihd.net'
+  local fixed, checked = 0, 0
+
+  local function repair(u)
+    if type(u) ~= 'string' or u == '' then return u, false end
+    if not u:find(OLD) then return u, false end
+    local out = u:gsub('http://' .. OLD, 'https://' .. NEW)
+    out = out:gsub('https://' .. OLD, 'https://' .. NEW)
+    return out, out ~= u
+  end
+
+  for _, o in ipairs(getAllObjects()) do
+    local c = o.getCustomObject()
+    if c then
+      checked = checked + 1
+      local any = false
+      for _, k in ipairs({ 'mesh', 'diffuse', 'normal', 'collider', 'image',
+                           'image_secondary', 'image_bottom', 'diffuse_url' }) do
+        if c[k] then
+          local nu, ch = repair(c[k])
+          if ch then c[k] = nu; any = true end
+        end
+      end
+      if any then
+        o.setCustomObject(c)
+        -- reload() is required: setCustomObject alone does not re-fetch
+        o.reload()
+        fixed = fixed + 1
+      end
+    end
+  end
+  report(fixed > 0 and GOOD or INFO, string.format(
+    '[Assets] checked %d custom object(s), repaired %d retired Steam CDN URL(s).',
+    checked, fixed))
+  if fixed > 0 then
+    report(INFO, '   Those were 403ing on the old cloud-N.steamusercontent.com host '
+      .. 'and now load from Steam\'s Akamai CDN. Give them a few seconds to fetch.')
+  end
+  report(INFO, '   Anything still popping up is on a genuinely dead third-party host '
+    .. '(lapsed domain, expired paste, Drive hotlink block) — that scenery is gone.')
+end
+
+--[[ Nuclear option for a table you did not build: strip every custom object that
+     has no usable mesh, which is what actually generates the popups. ]]
+function purgeBroken()
+  local gone = 0
+  for _, o in ipairs(getAllObjects()) do
+    if o.name == 'Custom_Model' then
+      local c = o.getCustomObject()
+      local m = c and c.mesh or ''
+      local b = o.getBounds()
+      -- no URL at all, or a mesh that never built (zero bounds) = a nag source
+      if m == nil or m == '' or b.size.x < 0.01 then
+        destroyObject(o)
+        gone = gone + 1
+      end
+    end
+  end
+  report(GOOD, string.format('[Assets] purged %d model(s) that had no usable mesh.', gone))
+end
+
 -- ---------------------------------------------------------------- board & grid
 
 BOARD_IMAGE = ''    -- set by build_table.py to a file:/// URL of the concrete PNG
@@ -574,6 +670,71 @@ function terrainObjects()
     end
   end
   return out
+end
+
+--[[ Tag a placed model as a rules-bearing terrain piece.
+
+     This is what makes hand-built boards work. A model dragged out of a palette
+     is just scenery to the engine — !density cannot count it, and no player can
+     tell whether it is Light or Heavy cover. Tagging writes the profile into the
+     object's GMNotes and its tooltip, so the piece carries its own rules.
+
+     !terrain <cover 0-2> <height"> [tag,tag]   a LARGE feature (counts to 9-12)
+     !scatter <cover 0-2> [height"] [tag,tag]   small — does NOT count to 9-12 ]]
+function tagTerrain(player, cover, height, tagstr, large)
+  local obj = target(player)
+  if not obj then return end
+  cover = math.max(0, math.min(2, math.floor(cover or 0)))
+  height = height or 0
+  local tags = {}
+  for t in (tagstr or ''):gmatch('[^,]+') do
+    table.insert(tags, (t:gsub('^%s*(.-)%s*$', '%1')))
+  end
+  obj.setGMNotes(JSON.encode({ terrain = true, large = large and true or false,
+                               cover = cover, height = height, tags = tags,
+                               blocks = cover >= 2 and height >= 4 }))
+  local words = { [0] = 'Open (0)', [1] = 'Light (-1)', [2] = 'Heavy (-2)' }
+  local move = (cover >= 2 and height >= 4) and 'Impassable'
+               or (cover == 2 and 'Difficult' or 'Open')
+  obj.setDescription(string.format('%s\n%s · %s · %g" tall%s',
+    large and 'LARGE FEATURE (counts to the 9-12 band)' or 'scatter (not counted)',
+    move, words[cover], height,
+    #tags > 0 and ('\nTags: ' .. table.concat(tags, ', ')) or ''))
+  report(GOOD, string.format('[Terrain] %s tagged: %s, %s, %g" tall%s',
+    obj.getName() ~= '' and obj.getName() or 'piece',
+    large and 'LARGE' or 'scatter', words[cover], height,
+    #tags > 0 and (' [' .. table.concat(tags, ', ') .. ']') or ''))
+  if large then density() end
+end
+
+--[[ What is on the board and what still needs tagging — the build-time view. ]]
+function layout()
+  local large, scatter, untagged = 0, 0, {}
+  for _, o in ipairs(getAllObjects()) do
+    local p = o.getPosition()
+    local on = math.abs(p.x) <= BOARD / 2 and math.abs(p.z) <= BOARD / 2
+    if on and (o.name == 'Custom_Model' or o.name == 'BlockSquare') then
+      local gm = o.getGMNotes()
+      local j = gm ~= '' and JSON.decode(gm) or nil
+      if type(j) == 'table' and j.terrain then
+        if j.large then large = large + 1 else scatter = scatter + 1 end
+      elseif type(j) ~= 'table' or not (j.unit or j.board or j.boardSurface
+             or j.scenery or j.deploy or j.objective) then
+        table.insert(untagged, o.getName() ~= '' and o.getName() or '(unnamed)')
+      end
+    end
+  end
+  report(INFO, string.format('[Layout] on the board: %d large feature(s), '
+    .. '%d scatter, %d untagged.', large, scatter, #untagged))
+  if #untagged > 0 then
+    report(BAD, '   Untagged pieces do not count for density and carry no cover '
+      .. 'value. Hover each and use !terrain or !scatter:')
+    local shown = {}
+    for i = 1, math.min(#untagged, 8) do table.insert(shown, untagged[i]) end
+    report(INFO, '   ' .. table.concat(shown, ' · ')
+      .. (#untagged > 8 and (' ... +' .. (#untagged - 8) .. ' more') or ''))
+  end
+  density()
 end
 
 function setTerrainLock(locked)
