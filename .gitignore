@@ -31,3 +31,7 @@ Thumbs.db
 
 # Logs
 *.log
+
+# TTS: the generated save is a build artifact — regenerate with tts/build_table.py
+tts/Settlements.json
+tts/pulled/
