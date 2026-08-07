@@ -302,13 +302,35 @@ crew.minis = []
 def build():
     states = []
 
-    # --- the board slab -----------------------------------------------------
-    states.append(obj('BlockSquare', (0, BASE_Y, 0),
-                      (BOARD * INCH, BOARD_T, BOARD * INCH),
-                      nickname="Board — 3'x3'",
-                      desc="36\"x36\". Deployment 6\" bands, ~24\" apart.",
-                      colour=(0.20, 0.19, 0.18), locked=True,
-                      gm={'board': True}))
+    # --- the board surface --------------------------------------------------
+    # The concrete tile with the 1" grid painted in, if make_board.py has been
+    # run; a plain dark slab otherwise. A Custom_Tile is 2.0 units at scale 1
+    # (measured live), so 36" is scale 18.
+    board_png = os.path.join(HERE, 'assets', 'boards',
+                             f'concrete_{int(BOARD)}x{int(BOARD)}_grid1in.png')
+    if os.path.isfile(board_png):
+        s = BOARD * INCH / 2.0
+        tile = obj('Custom_Tile', (0, BASE_Y, 0), (s, s, s),
+                   nickname='Settlements board - 36in x 36in, 1in grid',
+                   desc=('36"x36". 1" hairlines, 6" medium (one Move), 12" heavy '
+                         '(the nine density squares), plus the centreline. The '
+                         'tinted strips are the 6" deployment bands.'),
+                   locked=True, gm={'board': True, 'boardSurface': True})
+        tile['Snap'] = False
+        tile['CustomImage'] = {
+            'ImageURL': 'file:///' + board_png.replace(os.sep, '/'),
+            'ImageSecondaryURL': '', 'ImageScalar': 1.0, 'WidthScale': 0.0,
+            'CustomTile': {'Type': 0, 'Thickness': 0.1, 'Stackable': False,
+                           'Stretch': True},
+        }
+        states.append(tile)
+    else:
+        states.append(obj('BlockSquare', (0, BASE_Y, 0),
+                          (BOARD * INCH, BOARD_T, BOARD * INCH),
+                          nickname="Board 3ft x 3ft",
+                          desc='36"x36". Deployment 6" bands, ~24" apart.',
+                          colour=(0.20, 0.19, 0.18), locked=True,
+                          gm={'board': True}))
 
     # --- deployment bands (§1: within 6" of opposite edges) -----------------
     for side, y0, tint in (('White', 3.0, (0.75, 0.75, 0.80)),
@@ -431,6 +453,16 @@ def build():
 
     with open(os.path.join(HERE, 'Global.lua'), encoding='utf-8') as fh:
         lua = fh.read()
+    # Wire the generated board image and the board size into the Lua, so !board
+    # and the density check agree with what build_table.py actually laid out.
+    board_png = os.path.join(HERE, 'assets', 'boards',
+                             f'concrete_{int(BOARD)}x{int(BOARD)}_grid1in.png')
+    if os.path.isfile(board_png):
+        url = 'file:///' + board_png.replace(os.sep, '/')
+        lua = lua.replace("BOARD_IMAGE = ''", f"BOARD_IMAGE = '{url}'", 1)
+    else:
+        print(f'  (no board image at {board_png} — run make_board.py for the '
+              f'concrete surface; !board will report it is missing)')
 
     large = sum(1 for p in terrain if json.loads(p['GMNotes'] or '{}').get('large'))
 

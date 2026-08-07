@@ -152,6 +152,10 @@ local HELP = {
   '  !density                     check the 9-12 band and the nine squares',
   '  !score                       objective hold/contest right now',
   '',
+  '[b]Board & grid[/b]',
+  '  !board                       place the 36x36 concrete board (self-calibrating)',
+  '  !grid [off] [snap]           TTS grid to 1" squares (snap 0=off 1=lines 2=centre)',
+  '',
   '[b]Terrain setup[/b] — terrain ships locked so physics cannot shift it',
   '  !unlock                      unlock terrain so you can DRAG it',
   '  !link                        fix each model to its footprint pad (do this first)',
@@ -265,6 +269,8 @@ function onChat(msg, player)
       state.round > 6 and '  (game ends after round 6)' or ''))
   elseif cmd == '!density' then density()
   elseif cmd == '!score' then score()
+  elseif cmd == '!board' then setupBoard()
+  elseif cmd == '!grid' then setupGrid((args[2] or ''):lower() ~= 'off', n(3, 0))
   elseif cmd == '!unlock' then setTerrainLock(false)
   elseif cmd == '!lock' then setTerrainLock(true)
   elseif cmd == '!link' then linkScenery()
@@ -443,6 +449,106 @@ function priority()
     state.firstPlayer = w
     report(GOOD, string.format('[Priority] %s chooses to activate first or second.', w))
   end
+end
+
+-- ---------------------------------------------------------------- board & grid
+
+BOARD_IMAGE = ''    -- set by build_table.py to a file:/// URL of the concrete PNG
+
+--[[ Spawn the 36"x36" board and SELF-CALIBRATE its scale.
+
+     A Custom_Tile's base mesh size is not documented and differs by TTS build, so
+     hardcoding a scale is a guess that silently produces a 34" or 41" board. This
+     spawns at scale 1, measures the real bounds, then rescales to exactly BOARD
+     units. Measured, not assumed — and it prints what it did so the number is
+     visible rather than buried. ]]
+function setupBoard()
+  if BOARD_IMAGE == '' then
+    report(BAD, '[Board] No board image is wired in. Run make_board.py, then '
+      .. 'build_table.py, then push the script again.')
+    return
+  end
+  for _, o in ipairs(getAllObjects()) do
+    local gm = o.getGMNotes()
+    if gm and gm ~= '' then
+      local j = JSON.decode(gm)
+      if type(j) == 'table' and j.boardSurface then destroyObject(o) end
+    end
+  end
+
+  --[[ TILE_BASE is MEASURED, not guessed: a Custom_Tile spawned at scale 1 comes
+       out 2.00 x 2.00 TTS units, so 36" needs scale 18. Two things learned the
+       hard way getting here — setCustomObject() on a Lua-spawned tile leaves the
+       mesh unbuilt (bounds stay 0 indefinitely), so spawn from JSON instead; and
+       TTS accepts "file:///C:/..." but silently rejects a raw "C:\..." path. ]]
+  local TILE_BASE = 2.0
+  local s = BOARD / TILE_BASE
+  local tile = {
+    Name = 'Custom_Tile',
+    Nickname = 'Settlements board - 36in x 36in, 1in grid',
+    Description = '36"x36". 1" hairlines, 6" medium (one Move), 12" heavy (the '
+      .. 'nine density squares), plus the centreline. The tinted strips are the '
+      .. '6" deployment bands.',
+    Transform = { posX = 0, posY = 1.5, posZ = 0, rotX = 0, rotY = 0, rotZ = 0,
+                  scaleX = s, scaleY = s, scaleZ = s },
+    ColorDiffuse = { r = 1, g = 1, b = 1 },
+    Locked = true, Grid = true, Snap = false,
+    GMNotes = JSON.encode({ boardSurface = true, board = true }),
+    CustomImage = {
+      ImageURL = BOARD_IMAGE, ImageSecondaryURL = '', ImageScalar = 1.0,
+      WidthScale = 0.0,
+      CustomTile = { Type = 0, Thickness = 0.1, Stackable = false, Stretch = true },
+    },
+  }
+  spawnObjectJSON({ json = JSON.encode(tile) })
+
+  Wait.time(function()
+    for _, o in ipairs(getAllObjects()) do
+      local gm = o.getGMNotes()
+      if gm and gm ~= '' then
+        local j = JSON.decode(gm)
+        if type(j) == 'table' and j.boardSurface then
+          local b = o.getBounds()
+          if b.size.x > 1 then
+            report(GOOD, string.format('[Board] placed: %.1f x %.1f units '
+              .. '(tile base %.1f x scale %.0f).', b.size.x, b.size.z, TILE_BASE, s))
+            report(INFO, '   36 game inches across, 36 painted squares — one square '
+              .. 'is exactly 1" by construction, whatever the camera does.')
+          else
+            report(BAD, '[Board] spawned but has no size — the image did not load. '
+              .. 'Check that the PNG exists at the path in BOARD_IMAGE.')
+          end
+          return
+        end
+      end
+    end
+  end, 3.0)
+end
+
+--[[ TTS's own grid, set to 1" to match the painted one.
+
+     SNAPPING IS DELIBERATELY OFF. Settlements measures movement in INCHES, base
+     edge to base edge, with pre-measuring always allowed (§2) — a model that
+     snaps to a grid cannot sit 4.5" away, so snapping would actively fight the
+     rules. The grid is a measuring aid, not a movement system. This is a
+     skirmish game on a gridded mat, not a square-based boardgame.
+
+     Grid.snapping is an INT in the TTS API (0 off / 1 lines / 2 centres), not a
+     boolean — assigning true throws "cannot convert a boolean to System.Int32".
+     Default TTS grid is 3.71 units, sized for cards and unrelated to inches. ]]
+function setupGrid(show, snap)
+  Grid.type = 1                 -- rectangles
+  Grid.sizeX = 1.0
+  Grid.sizeY = 1.0
+  Grid.snapping = snap or 0
+  Grid.show_lines = show and true or false
+  Grid.thick_lines = false
+  Grid.color = { 1, 1, 1 }
+  Grid.opacity = 0.15
+  report(GOOD, string.format('[Grid] 1.0 unit squares · lines %s · snapping %s.',
+    show and 'VISIBLE' or 'hidden (the board is painted with them)',
+    (snap or 0) == 0 and 'OFF — you measure in inches, you do not move square to square'
+                      or tostring(snap)))
 end
 
 -- ---------------------------------------------------------------- terrain setup
