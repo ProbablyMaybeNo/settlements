@@ -152,7 +152,7 @@ def main():
             'Name': 'Bag', 'Nickname': f'{name} ({len(recs)})',
             'Description': blurb + '\n\nDrag one out, place it, then tag it: '
                                    '!terrain <cover> <height> [tags]',
-            'Transform': {'posX': -26.0, 'posY': 2.5, 'posZ': -22.0 + i * 4.2,
+            'Transform': {'posX': -26.0, 'posY': 3.6, 'posZ': -22.0 + i * 4.2,
                           'rotX': 0, 'rotY': 0, 'rotZ': 0,
                           'scaleX': 1.4, 'scaleY': 1.4, 'scaleZ': 1.4},
             'ColorDiffuse': {'r': 0.32, 'g': 0.36, 'b': 0.32},

@@ -156,6 +156,10 @@ local HELP = {
   '  !fixurls                     repair retired Steam CDN links (403 -> Akamai)',
   '  !purge                       delete models with no usable mesh',
   '',
+  '[b]Finding and moving things[/b]',
+  '  !bags                        unlock every bag and line them up, reachable',
+  '  !unlockall                   unlock everything except the board surface',
+  '',
   '[b]Board & grid[/b]',
   '  !board                       place the 36x36 concrete board (self-calibrating)',
   '  !grid [off] [snap]           TTS grid to 1" squares (snap 0=off 1=lines 2=centre)',
@@ -279,6 +283,8 @@ function onChat(msg, player)
       state.round > 6 and '  (game ends after round 6)' or ''))
   elseif cmd == '!density' then density()
   elseif cmd == '!score' then score()
+  elseif cmd == '!bags' then tidyBags()
+  elseif cmd == '!unlockall' then unlockAll()
   elseif cmd == '!fixurls' then fixAssetUrls()
   elseif cmd == '!purge' then purgeBroken()
   elseif cmd == '!board' then setupBoard()
@@ -464,6 +470,60 @@ function priority()
     state.firstPlayer = w
     report(GOOD, string.format('[Priority] %s chooses to activate first or second.', w))
   end
+end
+
+-- ---------------------------------------------------------------- bags & unlocking
+
+--[[ Gather every bag into a reachable row beside the board.
+
+     Bags were being spawned at y=0.8, which is INSIDE the board tile (a Custom_Tile
+     at scale 18 with thickness 0.1 is 1.8 units thick, so it spans y 0.6-2.4).
+     Anything at 0.8 is underneath the board: still unlocked, still interactable,
+     and completely unreachable. Hence "I cannot grab the bags."
+
+     This lifts them clear and lines them up in two columns off the left edge, then
+     unlocks them, so they are always visible and always grabbable. ]]
+function tidyBags()
+  local bags = {}
+  for _, o in ipairs(getAllObjects()) do
+    if o.name == 'Bag' or o.name == 'Infinite_Bag' then table.insert(bags, o) end
+  end
+  table.sort(bags, function(a, b) return a.getName() < b.getName() end)
+  local X0, Z0, DZ = -24.0, -21.0, 3.6
+  local perCol = 13
+  for i, o in ipairs(bags) do
+    local col = math.floor((i - 1) / perCol)
+    local row = (i - 1) % perCol
+    o.setLock(false)
+    o.setPositionSmooth({ X0 - col * 5.0, 3.6, Z0 + row * DZ }, false, true)
+  end
+  report(GOOD, string.format('[Bags] %d bag(s) unlocked and lined up off the LEFT '
+    .. 'edge of the board, on top of the surface.', #bags))
+  report(INFO, '   They were sitting at y=0.8, inside the board tile itself (it '
+    .. 'spans 0.6-2.4), so they were underneath it and unreachable.')
+end
+
+--[[ Unlock EVERYTHING except the board surface, for when you just want to move
+     things and stop fighting the table. The board stays locked because it is the
+     coordinate system — nudge it and every measurement silently shifts. ]]
+function unlockAll()
+  local n, kept = 0, 0
+  for _, o in ipairs(getAllObjects()) do
+    local gm = o.getGMNotes()
+    local j = (gm and gm ~= '') and JSON.decode(gm) or nil
+    local isBoard = type(j) == 'table' and (j.board or j.boardSurface or j.deploy)
+    if isBoard then
+      kept = kept + 1
+    elseif o.getLock() then
+      o.setLock(false)
+      n = n + 1
+    end
+  end
+  report(GOOD, string.format('[Unlock] unlocked %d object(s); left %d board piece(s) '
+    .. 'locked on purpose.', n, kept))
+  report(INFO, '   By hand: right-click an object -> Toggles -> Lock. Drag with '
+    .. 'left-click, rotate with Q/E while holding, press 2 for the Gizmo tool if '
+    .. 'you want numeric placement.')
 end
 
 -- ---------------------------------------------------------------- asset repair

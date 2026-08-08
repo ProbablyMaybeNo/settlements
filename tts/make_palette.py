@@ -361,7 +361,7 @@ def main():
         bag = {
             'Name': 'Bag', 'Nickname': f'{b} ({len(rows)})',
             'Description': BAG_BLURB.get(b, ''),
-            'Transform': {'posX': -24.0, 'posY': 2.5, 'posZ': -18.0 + i * 5.5,
+            'Transform': {'posX': -24.0, 'posY': 3.6, 'posZ': -18.0 + i * 5.5,
                           'rotX': 0, 'rotY': 0, 'rotZ': 0,
                           'scaleX': 1.4, 'scaleY': 1.4, 'scaleZ': 1.4},
             'ColorDiffuse': {'r': 0.30, 'g': 0.34, 'b': 0.30},

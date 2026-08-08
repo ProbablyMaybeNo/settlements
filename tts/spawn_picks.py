@@ -118,7 +118,7 @@ def main():
     if args.loose:
         # a row along the left edge, clear of the 36" board
         for i, r in enumerate(recs):
-            pos = (-22.0, 3.0, -16.0 + (i % 12) * 3.0)
+            pos = (-22.0, 4.0, -16.0 + (i % 12) * 3.0)
             tts_api.send({'messageID': tts_api.MSG_EXEC, 'guid': '-1',
                           'script': f'spawnObjectJSON({{json = [==['
                                     f'{json.dumps(model_json(r, pos, args.scale))}]==]}})'})
@@ -130,7 +130,7 @@ def main():
             'Name': 'Bag', 'Nickname': name,
             'Description': 'Gallery picks. Drag one out, place it, then tag it with '
                            '!terrain <cover> <height> [tags] so !density counts it.',
-            'Transform': {'posX': -22.0, 'posY': 2.5, 'posZ': 0.0,
+            'Transform': {'posX': -22.0, 'posY': 3.6, 'posZ': 0.0,
                           'rotX': 0, 'rotY': 0, 'rotZ': 0,
                           'scaleX': 1.4, 'scaleY': 1.4, 'scaleZ': 1.4},
             'ColorDiffuse': {'r': 0.85, 'g': 0.7, 'b': 0.25},

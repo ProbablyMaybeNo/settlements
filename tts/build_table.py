@@ -431,7 +431,7 @@ def build():
             nm = nm.replace('_', ' ').upper()
             contained.append(custom_token(f, (0, 3.0, 0), tscale, nm, blurb, stack))
         px, pz = xz(-3.5, 4.0 + bx * 4.2)
-        bag = obj('Infinite_Bag' if stack else 'Bag', (px, TOP + 1.0, pz),
+        bag = obj('Infinite_Bag' if stack else 'Bag', (px, TOP + 2.2, pz),
                   (1.0, 1.0, 1.0), nickname=f'{label} ({len(files)})',
                   desc=blurb, colour=(0.28, 0.28, 0.32))
         bag['ContainedObjects'] = contained
