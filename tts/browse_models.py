@@ -152,8 +152,13 @@ def main():
         files.append(os.path.join(WORKSHOP, f))
 
     mods, done, missing, failed = [], 0, 0, 0
+    index, counter = {}, 0
     for path in files:
         name, assets = mod_assets(path)
+        # STABLE ORDER. Numbers are only useful if they mean the same thing every
+        # run, so sort by mesh URL — the one field that never changes — rather
+        # than by nickname, which is blank for most of these.
+        assets.sort(key=lambda a: a['mesh'])
         if args.limit:
             assets = assets[:args.limit]
         rows = []
@@ -187,9 +192,13 @@ def main():
                     dims = f'{e[0]:.0f}x{e[1]:.0f}x{e[2]:.0f}'
                 except Exception:
                     pass
-            rows.append(dict(nick=a['nick'], thumb=thumb_rel.replace(os.sep, '/'),
+            counter += 1
+            rows.append(dict(num=counter, nick=a['nick'],
+                             thumb=thumb_rel.replace(os.sep, '/'),
                              status=status, dims=dims,
                              host=re.sub(r'^https?://([^/]+).*', r'\1', a['mesh'])))
+            index[str(counter)] = dict(mod=name, nick=a['nick'], mesh=a['mesh'],
+                                       diffuse=a['diffuse'], dims=dims, status=status)
         mods.append((name, rows))
         print(f'    {sum(1 for r in rows if r["status"] == "cached")} renderable')
 
@@ -203,7 +212,10 @@ def main():
     .card{background:#27272a;border:1px solid #3f3f46;border-radius:8px;padding:8px;
       text-align:center;overflow:hidden}
     .card img{width:100%;height:auto;border-radius:4px;background:#18181b;display:block}
-    .n{font-size:12px;margin-top:6px;color:#fafafa;overflow-wrap:anywhere}
+    .n{font-size:12px;margin-top:4px;color:#d4d4d8;overflow-wrap:anywhere}
+    .num{position:absolute;top:6px;left:6px;background:#fbbf24;color:#18181b;
+      font-weight:700;font-size:13px;padding:1px 7px;border-radius:4px}
+    .card{position:relative}
     .d{font-size:11px;color:#a1a1aa}
     .bad{color:#f87171;font-size:11px;padding:24px 4px;display:block}
     input{background:#27272a;border:1px solid #52525b;color:#fafafa;padding:8px 12px;
@@ -227,7 +239,10 @@ def main():
              f'rendered from TTS\'s own local cache, so no network and no dead-host '
              f'problem · {done} newly rendered, {missing} not cached, {failed} failed'
              f'</div>',
-             '<input id="q" placeholder="filter by name...">']
+             '<div class="meta">Every tile has a <b>number</b> — tell Claude the '
+             'numbers you want (e.g. "add 12, 40, 55-60") and they get spawned as '
+             'a bag on the table.</div>',
+             '<input id="q" placeholder="filter by name or number...">']
     for name, rows in mods:
         parts.append(f'<h2>{html.escape(name)} <span class="d">'
                      f'({len(rows)})</span></h2><div class="grid">')
@@ -235,13 +250,15 @@ def main():
             n = html.escape(r['nick'])
             if r['status'] == 'cached':
                 parts.append(
-                    f'<div class="card" data-n="{n.lower()}">'
+                    f'<div class="card" data-n="{n.lower()} {r["num"]}">'
+                    f'<span class="num">{r["num"]}</span>'
                     f'<img src="{r["thumb"]}" loading="lazy" alt="{n}">'
                     f'<div class="n">{n}</div>'
                     f'<div class="d">{r["dims"]}</div></div>')
             else:
                 parts.append(
-                    f'<div class="card" data-n="{n.lower()}">'
+                    f'<div class="card" data-n="{n.lower()} {r["num"]}">'
+                    f'<span class="num">{r["num"]}</span>'
                     f'<span class="bad">{html.escape(r["status"])}</span>'
                     f'<div class="n">{n}</div>'
                     f'<div class="d">{html.escape(r["host"])}</div></div>')
@@ -251,9 +268,14 @@ def main():
     out_html = os.path.join(OUT, 'index.html')
     with open(out_html, 'w', encoding='utf-8') as fh:
         fh.write('\n'.join(parts))
+    # the number -> asset map, so a pick like "#42" is resolvable later
+    idx_path = os.path.join(OUT, 'numbers.json')
+    with open(idx_path, 'w', encoding='utf-8') as fh:
+        json.dump(index, fh, indent=1)
     print(f'\n{total} models · {done} newly rendered · {missing} not in cache · '
           f'{failed} failed')
     print(f'gallery: {out_html}')
+    print(f'numbers: {idx_path}')
     if args.open:
         webbrowser.open('file:///' + out_html.replace(os.sep, '/'))
     return 0
