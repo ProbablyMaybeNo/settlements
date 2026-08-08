@@ -18,6 +18,28 @@ tags:
 > version is parked in §22 as future-supplement content. Ripples through §25.5 (no
 > Proficiency-gain step), §26.4 (Reassign carries no Proficiency) and §29.
 >
+> **Revised 2026-08-08 — the full-rules audit is integrated.** All 15 approved items from
+> `docs/SETTLEMENTS-FULL-RULES-AUDIT.md` (Ross verdict 2026-08-07, "approve everything as
+> written"):
+> - **§26.3 Fate:** natural 1 is always Dead, natural 10 always Hardened, modifiers capped
+>   at **+2**. Fixes a real bug — a staffed Med-bay made death impossible.
+> - **§26.1 Levels:** Primary is derived and permanent; **no declared Secondary** (levels
+>   1/4/8 float to any stat); **skill tier is gated by the stat**, +2/+4/+6 → T1/T2/T3.
+> - **§9 / Out of Scope §4:** WND is capped at **3**, logged as a deliberate tenet exception.
+> - **§3 Dodge:** the winning move is **half MOV**, not full.
+> - **§16:** Match Play skill counts are **exact** (one per tier reached); Campaign Start
+>   keeps the Specialist ratio.
+> - **§22:** ten worker benefits ship, ten are parked.
+> - **§12.6:** the Seeker mine chassis is parked. **§27:** Trader's caravan → Burst main.
+>   **§23:** loot entry 7 → +15 Credits.
+> - **New:** §20 storage caps with a phase-end "spend it or lose it" sink · §21 trader
+>   conversion rates and raid-loot 25%/cap/floor · **§28.6 The Season** (campaign end) ·
+>   **§28.7** a worked founding-and-first-turn example.
+>
+> Sim-verified where possible: `test-bench/balance/audit_*.py`. Two items ride into Phase 2
+> table testing — the FIX 4 Annihilate skew (WND 3 dominates pure-kill missions) and FIX 5,
+> which the engine AI cannot currently stress.
+>
 > Costing engine: `test-bench/points/` · sim harnesses: `test-bench/balance/` ·
 > decisions log: `docs/POINTS-DECISIONS.md`.
 
@@ -109,7 +131,7 @@ Recruits/Fighters get none. **Specialists get 1, Leaders get 2.** An Order grant
 | **Throw** | Normal thrown attack, no penalty. |
 | **Interact/Operate** | Doors, Lift-block/clear, buttons, reachable Infrastructure, or Interrupt an enemy hack. No Search, Repair, or Stabilize as a Reaction. |
 | **Trigger** | Only your own **Remote Detonation** traps. |
-| **Dodge** | When targeted by a ranged attack (any angle): opposed `1d10+AGI` vs shooter's `1d10+DEX`, ties to you. **Win** → shot misses, you move up to full MOV" ending outside LOS (no reactions drawn), then gain Pinned. **Lose** → shot hits, resolve Injury normally. |
+| **Dodge** | When targeted by a ranged attack (any angle): opposed `1d10+AGI` vs shooter's `1d10+DEX`, ties to you. **Win** → the shot misses and you may move up to **half MOV"** (round down); the move draws no reactions; then gain **Pinned**. **Lose** → the shot hits, resolve Injury normally. |
 
 **Catch-up:** underdog gets **+1 Priority** only — no free-hold surge. This is deliberate compensation, not an exploit: swarms out-produce elites on raw output (WND is fixed at 1 for everyone), so fewer models *should* go first.
 
@@ -236,7 +258,7 @@ Every hit does *something*. No wasted hits.
 
 **Melee is decisive** — a melee kill goes straight to Out of Action, no bleed-out. **Ranged/hazard kills leave a fighter Down** (alive, prone, counts as Heavy cover vs ranged unless in the open; a melee/engaged attack auto-hits to finish it, ranged resolves normally). A Down unit must be Stabilized by the end of its **next** activation or bleeds out. Stabilize = Action + INT 7+ (−2 without a Med-Kit; a Medic skill auto-succeeds).
 
-**Every unit has WND 1**, raised only by a specific skill (Tough, §14).
+**Every unit has WND 1**, raised only by a specific skill (Tough, §14). Campaign veterans can reach **WND 2** (Level 7) and at most **WND 3** (Level 7 + the Tough skill) — the hard ceiling, logged in *Out of Scope* §4.
 
 ---
 
@@ -367,7 +389,7 @@ Holds a Ready reaction; auto-fires once/round at the first enemy that Moves/acts
 ### Family B — Mines *(spent-on-trigger, concealed, one slot)*
 Built like a weapon: chassis + one payload.
 
-**Chassis:** Proximity (50 Cr, 3" template, triggers on enemy Move inside) · Remote (70 Cr, 6" trigger radius, owner command-detonates as a Reaction — buying one grants 1 live + 3 dummy markers as a bluff kit) · Seeker (80 Cr, moves 4"/round toward a chosen enemy, detonates on contact).
+**Chassis:** Proximity (50 Cr, 3" template, triggers on enemy Move inside) · Remote (70 Cr, 6" trigger radius, owner command-detonates as a Reaction — buying one grants 1 live + 3 dummy markers as a bluff kit). *(The **Seeker** chassis is parked — see the rejected log in §15.)*
 
 **Payload (buy exactly one):** Explosion (+40 Cr, Damage +3, Blast) · Fire (+30 Cr, Blast Damage +2 + Fire hazard) · Poison (+30 Cr, 3" Poison hazard, no direct Injury) · Shock (+30 Cr, Blast, no Injury — Shocked+Blind) · Smoke (+20 Cr, no damage, 3" Dense Smoke).
 
@@ -597,7 +619,7 @@ Baseball Bat (Light Melee, 0) · Kitchen Knife (Light Melee·Balanced·Concealab
 
 ### Cut, and why (kept so it doesn't creep back)
 
-Rapid (extra attack) — it *is* Quick Shot, a T3 skill; selling it as a cheap characteristic destroys the skill economy. Precision (flat +1 hit) — strictly better than Dead Eye; replaced by conditional Accurate. Reliable (re-roll) — no re-roll mechanic exists anywhere else in the game. Quick Draw (fire after Sprinting) — Sprint uses both slots, there's no Action left. Crushing (ignore cover on Injury) — cover never touches Injury, that's load-bearing. Awkward — free points on a static shooter. Intimidating (Stress aura) — parked, too volatile given Stress-cascade findings.
+Seeker mine (self-moving munition) — parked, not rejected. A moving munition on a 3'×3' board is an edge-case factory: does it draw Reactions? trigger traps? get shot as a Feature? what is its facing? Revisit once the Edge Cases audit exists; Proximity and Remote carry the family fine, and Remote's bluff kit is the interesting one anyway. Rapid (extra attack) — it *is* Quick Shot, a T3 skill; selling it as a cheap characteristic destroys the skill economy. Precision (flat +1 hit) — strictly better than Dead Eye; replaced by conditional Accurate. Reliable (re-roll) — no re-roll mechanic exists anywhere else in the game. Quick Draw (fire after Sprinting) — Sprint uses both slots, there's no Action left. Crushing (ignore cover on Injury) — cover never touches Injury, that's load-bearing. Awkward — free points on a static shooter. Intimidating (Stress aura) — parked, too volatile given Stress-cascade findings.
 
 ---
 
@@ -624,10 +646,16 @@ crew_rating ≤ agreed cap
 
 | Rank | Stat pts | Starting skills | Orders | Credits |
 |---|:--:|:--:|:--:|:--:|
-| **Recruit** | 3 | 0 | 0 | **65** |
-| **Fighter** | 5 | ~2× T1 | 0 | **95** |
-| **Specialist** | 7 | ~3 (1×T2 + 2×T1) | 1 | **165** |
-| **Leader** | 9 | ~4 (1×T3 + 2×T2 + rest T1) | 2 | **245** |
+| **Recruit** | 3 | **0** | 0 | **65** |
+| **Fighter** | 5 | **exactly the tiers your stats reach (max 2)** | 0 | **95** |
+| **Specialist** | 7 | **max 3** | 1 | **165** |
+| **Leader** | 9 | **max 4** | 2 | **245** |
+
+> **Skills are never approximate: a fighter has exactly one skill per tier its
+> stats reach** (§14). The listed value is the maximum, hit only when every point
+> lands in tiered stats — e.g. Fighter `+2/+2/+1` = 2 skills; Specialist
+> `+4/+2/+1` = 3; Leader `+6/+2/+1` = 4. A fighter who spreads into +1 "dabbles"
+> trades skills for breadth — a legal, priced choice, not an error.
 
 **Campaign Start** — a fresh crew entering the persistent Settlements layer. Begins at **500 Crew Rating**, growing over the campaign (§25.5, §29).
 
@@ -644,7 +672,7 @@ crew_rating ≤ agreed cap
 
 **Match Play (standard 1000 CR):** **Exactly one Leader.** Every Specialist requires two fighters of lower rank. Every Recruit requires one Fighter or better. Minimum four fighters.
 
-> **[NEW — Campaign Start variant]** **Exactly one Leader. Minimum three models. No ratio requirement otherwise** — pick any mix of Recruits/Fighters/Specialists within the 500 Crew Rating cap. This is deliberately looser than the Match Play pyramid: a green crew hasn't built a chain of command yet, it's just whoever the founding Leader could recruit. Worth checking the same way the standard pyramid's model-count question was checked (`Crew Sim — Findings`) once this is played — dropping the ratio changes which body-count-vs-power-tier mixes are reachable at this budget, and that's untested.
+> **[NEW — Campaign Start variant]** **Exactly one Leader. Minimum three models. Every Specialist still requires two fighters of lower rank** — the Recruit-per-Fighter rule is the only part dropped, so a green crew can be all bodies but cannot be an all-Specialist elite. Otherwise pick any mix within the 500 Crew Rating cap. This is deliberately looser than the Match Play pyramid: a green crew hasn't built a chain of command yet, it's just whoever the founding Leader could recruit. Worth checking the same way the standard pyramid's model-count question was checked (`Crew Sim — Findings`) once this is played — dropping the ratio changes which body-count-vs-power-tier mixes are reachable at this budget, and that's untested.
 
 **The roster you own is capped separately by housing** (§21) — base 12 slots from the HQ, +6 per Bunkhouse. No per-head upkeep. **Housing is the only population brake.** Veterans get more expensive as they Advance (§26), which is the real anti-snowball valve: the longer a campaign runs, the smaller your crew gets, because your best fighters crowd out rookies on the Rating cap.
 
@@ -714,6 +742,17 @@ Generator produces **+5**. Draw scales by tier: T1=1 · T2=2 · T3=3. Unpowered 
 
 HQ (a little of everything) · Gatherer buffer (a little of its own resource, easy pickings) · Storehouse (bulk, the raid loot target) · Vault (small, secure — Sabotage/hack only). **Housing:** HQ base 12, +6/Bunkhouse. **Equipment:** start 30 slots, +30/Armory tier.
 
+| Store | Capacity *(provisional)* | Raidable? |
+|---|---|---|
+| HQ | **150 Credits + 150 Materials** | Yes |
+| Gatherer buffer (each) | **30 of its own resource** | Yes — and first to go |
+| Storehouse (each) | **+250 combined**, any mix | Yes — the raid target |
+| Vault | **150 combined** | **No** — Sabotage/hack only, never raid loot |
+
+^tbl-storage-caps
+
+**Over cap:** caps are checked **once, at the end of the Settlement Phase** — resources may sit over cap freely between banking and spending inside the same phase; whatever still exceeds cap when the phase closes is **lost. Spend it or lose it.** *(This is also the first real economy sink — a wealthy settlement must build Storehouses/Vaults or bleed surplus, which partially answers the §29 sink problem.)*
+
 ---
 
 ## 21 · The structure catalogue — 23 entries **[DRAFTED shape, NEW costs]**
@@ -735,7 +774,7 @@ HQ (a little of everything) · Gatherer buffer (a little of its own resource, ea
 |---|---|---|---|---|---|
 | Processor ★ | Plant | 3×5 | −1 | 80 | Materials gatherer |
 | Salvage Yard ★ | Yard | 5×7 | −1 | 80 | Credits gatherer |
-| Trader's Kiosk→Trade House | Station→Building | 3×2→6×6 | −1→−2 | 75→224 | Sell gear |
+| Trader's Kiosk→Trade House | Station→Building | 3×2→6×6 | −1→−2 | 75→224 | Sell gear; convert resources (below) |
 | Workbench→Workshop | Station→Building | 3×2→6×8 | −1→−2 | 75→224 | Craft/repair; unlocks weapon/armour/chem branches |
 | Fabricator→Robotics Workshop→Advanced Weapons Lab | Building | 6×6→6×8→6×10 | −1/−2/−3 | 125→~200→~330 | Research tiers; T3 unlocks the 2051 arsenal |
 
@@ -765,7 +804,15 @@ HQ (a little of everything) · Gatherer buffer (a little of its own resource, ea
 | Turret Mount | Plant | 2×2 | −2 | 184 | Auto-deploy turret hardpoint (still costs Credits to field) |
 | EW Mast | Plant | 3×3 | −2 | 184 | Counter-hack/drone |
 
+**Trader conversion** *(NEW)*: **Kiosk** sells 2 Materials → 1 Credit and buys 2 Credits → 1 Material. **Trade House** does 3 Materials → 2 Credits and 3 Credits → 2 Materials. An assigned worker adds +10% yield, round down. **Convert in one direction only per Settlement Phase** — the spread means no conversion loop is ever profitable. *(Rates provisional.)*
+
 **Repair: flat 30 Materials/structure** *(NEW)*. **HQ tiers** *(NEW, first-draft)*: HQ I (starter, 1 dispatch/12 housing) → HQ II (210 Mat, 2 dispatch/18 housing, unlocks Vault) → HQ III (370 Mat, 3 dispatch/24 housing). Groundworks I: 120 Mat. Groundworks II: 200 Mat.
+
+### What winning a raid actually takes **[NEW]**
+
+**If the attacker wins a raid** they carry off **25% (round down) of the defender's stored Credits and 25% of stored Materials** — Vault contents excluded — **capped at 100 Credits + 100 Materials per raid**, plus whatever they looted or sabotaged in-battle. **If the defender wins,** the attacker keeps only what they physically looted during the battle.
+
+**Floor:** raid theft never reduces a defender below **50 Credits and 50 Materials** — a settlement can be hurt, not deleted. *(The cap and the floor are the anti-death-spiral pair; both provisional.)*
 
 ---
 
@@ -777,7 +824,11 @@ HQ (a little of everything) · Gatherer buffer (a little of its own resource, ea
 
 One worker slot per structure that accepts one.
 
-**Processor:** +1 Materials per gather. **Med-bay:** +1 further to the Fate roll (stacks with the structure's own +1, total +2). **Salvage Yard:** +1 Credits per gather. **Generator:** +1 Power output. **Storehouse:** +10% effective storage cap. **Equipment Shed / Armory:** +10 equipment slots on top of the structure's own. **Trader's Kiosk / Trade House:** sell rate +10%. **Workbench / Workshop:** crafted item Materials cost −10%. **Fabricator ladder:** unlock one blueprint one tier early. **HQ:** +1 dispatch action per cycle, on top of the tier's base rate (§21). **Scout Post:** reveal a territory's hidden Side Objective, not just its Twist. **Comms Mast:** the mission-quality reroll bonus applies to two rolls instead of one. **Server Core:** rival intel includes one fighter's current Level and skills, not just roster size. **Drone Bay:** the free recon mission also reveals a territory's Loot table entries (§23). **Holding Cells:** the opposed INT test for Brainwashing (§26.3a) gets +1. **Mess Hall:** the free Stress-clear (§21) triggers on two fighters instead of one. **Gatehouse:** the gate's chokepoint counts as Heavy cover, not Light, for defenders behind it in a raid. **Watchtower:** the starting model in the tower also starts Readied, no Action spent. **Turret Mount:** the turret gains +1 to its auto-fire hit roll. **EW Mast:** counter-hack/counter-drone radius extends to 12" from the structure.
+**v1 ships ten worker benefits** — the ones that carry the campaign loop:
+
+**Processor:** +1 Materials per gather. **Salvage Yard:** +1 Credits per gather. **Generator:** +1 Power output. **Med-bay:** +1 further to the Fate roll (stacks with the structure's own +1, total +2 — which is also the cap, §26.3). **Storehouse:** +10% effective storage cap. **Equipment Shed / Armory:** +10 equipment slots on top of the structure's own. **Trader's Kiosk / Trade House:** sell rate +10%. **Workbench / Workshop:** crafted item Materials cost −10%. **HQ:** +1 dispatch action per cycle, on top of the tier's base rate (§21). **Mess Hall:** the free Stress-clear (§21) triggers on two fighters instead of one.
+
+**Structures not listed accept no worker in v1 — their base effect is their whole effect.** The other ten (Fabricator ladder · Scout Post · Comms Mast · Server Core · Drone Bay · Holding Cells · Gatehouse · Watchtower · Turret Mount · EW Mast) are parked in the supplement appendix below. They are either battle-facing micro-buffs that complicate a raid, or intel and unlock effects serving systems that are themselves thin in v1 — no loop damage, roughly half the rules surface.
 
 *(Bunkhouse, Vault, and Perimeter Wall stay excluded — passive amenities/board shaping with no operational job for a worker to hold.)*
 
@@ -812,7 +863,7 @@ Roll **1d10** whenever a Search, Raid loot, or Scavenge action calls for it:
 | 4 | **+10 Credits** |
 | 5 | A basic Light Melee or Sidearm weapon, unbuilt (player picks the class, no characteristics) |
 | 6 | **+15 Materials** |
-| 7 | One dose of a basic Chem *(§28.2 — Dependence still applies normally)* |
+| 7 | **+15 Credits** |
 | 8 | **+20 Credits** |
 | 9 | One piece of equipment (Med-Kit, Breach Kit, or a basic Trap/Mine, player's choice) |
 | 10 | **Jackpot** — roll twice more on this table, ignoring further 10s |
@@ -902,28 +953,32 @@ Immediately before the next battle. Once a player has done everything they inten
 
 **Earning a Level-up** uses the same triggers as before — kills, Glorious Deeds (§26.2), surviving, objectives held — one qualifying trigger advances a fighter to their next Level. The same **soft cap of 6 distinct sources/fighter/battle** still applies **[SIM-CONFIRMED — T8]**.
 
-**At creation, declare a Primary stat and a Secondary stat** — Primary is whichever stat carries the fighter's highest point investment (player's choice if tied); Secondary is the next-highest. Both, and the skill path tied to the Primary, stay fixed for that fighter's whole career.
+**Primary** is the stat carrying the fighter's highest point investment at creation (player's choice on ties). It never changes — it is who they were when they signed on, and it names their Primary skill path.
+
+**There is no declared Secondary. Every other stat is a secondary stat.** At the track's **floating stat levels (1, 4, 8)**, add +1 to **any stat, chosen when the level is earned** (Primary included) — a fighter's direction emerges from play, not from a box ticked at hire. Levels 2, 5 and 9 remain forced **+1 Primary**, so identity keeps growing regardless of direction. Only the **campaign stat cap (+6)** limits track growth; **rank tier caps are creation-time caps and do not constrain leveling.**
+
+**Skill slots (Levels 3, 6, 10):** declare any path, and roll on any tier that path's stat has **unlocked: +2 → Tier 1, +4 → Tier 2, +6 → Tier 3** — the same thresholds creation already uses (§14). The Level no longer fixes the tier; **the stat does.** A fighter's Primary path always counts as unlocked at Tier 1, so a slot is never dead.
 
 **The track — ten Levels, fixed contents:**
 
 | Level | Grants | Credits |
 |:--:|---|:--:|
-| **1** | +1 **Secondary** stat | 15 |
+| **1** | +1 **any stat** (floating) | 15 |
 | **2** | +1 **Primary** stat | 15 |
-| **3** | **Tier 1 skill** (Primary path) | 20 |
-| **4** | +1 **Secondary** stat | 15 |
+| **3** | **Skill slot** | 20 |
+| **4** | +1 **any stat** (floating) | 15 |
 | **5** | +1 **Primary** stat | 15 |
-| **6** | **Tier 2 skill** (Primary path) | 35 |
+| **6** | **Skill slot** | 35 |
 | **7** | **+1 WND** | 45 |
-| **8** | +1 **Secondary** stat | 15 |
+| **8** | +1 **any stat** (floating) | 15 |
 | **9** | +1 **Primary** stat | 15 |
-| **10** | **Tier 3 skill** (Primary path) — the capstone | 55 |
+| **10** | **Skill slot** — the capstone for a committed fighter | 55 |
 
-A fully-leveled fighter costs **+245 Credits** on top of their Rank body cost. **A fighter caps at Level 10** — further kills/Deeds/etc. still bank Resources and count for Glorious Deeds, but no longer advance the fighter further. Reaching Level 10 at all should be rare — this is a system where surviving that long takes real luck, and a Level 10 fighter is meant to read as close to a superhero as a civilian-scale game allows.
+A fully-leveled fighter costs **+245 Credits** on top of their Rank body cost. **A fighter caps at Level 10** — further kills/Deeds/etc. still bank Resources and count for Glorious Deeds, but no longer advance the fighter further. Reaching Level 10 at all should be rare — surviving that long takes real luck. A Level 10 fighter is a **legend by civilian standards** — feared, storied, and still one bad round from the dirt. This game never makes anyone unkillable (see the WND ruling in *Out of Scope*, §4).
 
 **MOV is not part of this track.** It stays exactly where it already was — Fleet (T2 AGI skill) is the only way to raise it. No collision, no separate MOV-swap option; keeping it purely skill-gated is cleaner narratively and avoids any interaction with Sprint/Charge distances at the top of the track.
 
-**Choosing the skill at Levels 3, 6, and 10:** roll **3 times** on that tier's chart within the fighter's Primary path (reroll any duplicate), then **choose which of the 3 rolled results to take.**
+**Choosing the skill at Levels 3, 6 and 10:** declare a path, pick any tier that path's stat has unlocked (+2/+4/+6), roll **3 times** on that tier's chart (reroll duplicates), then **choose one of the three.** Cross-path picks are legal and cost you your own path's capstone — a genuine trade, not a freebie.
 
 **Lifetime totals for a fully-leveled fighter:** **6 stat points** (3 Secondary + 3 Primary) on top of whatever Rank already gave them, **4 skills total** (1 starting — see the updated Rank table in §13 — plus 3 from leveling: T1/T2/T3, all one consistent path), and **one WND bump.**
 
@@ -943,7 +998,9 @@ Once per fighter per battle: **Daredevil** (gap leap) · **Wrecking Crew** (terr
 
 **First, who rolls at all.** A unit is **Safe** — no roll — if at battle's end it: is still standing with its crew, **or** left the board via a friendly edge, **or** ends in base contact with a friendly. *(This exemption exists in the vault and was missing from the previous draft of this section — restored here.)*
 
-Any unit that ends the battle **Down and alone**, or that bled out during it, rolls **1d10**, +1 with a Med-bay (+2 with a T1 worker):
+Any unit that ends the battle **Down and alone**, or that bled out during it, rolls **1d10**, +1 with a Med-bay (+2 with an assigned worker):
+
+> **A natural 1 on the Fate die is always Dead, regardless of modifiers** — the same rule the core engine already uses for every test (§2). Likewise, **a natural 10 is always Hardened**. Fate modifiers shift every other result but never overwrite the die's own extremes. **Total Fate modifiers are capped at +2** from all sources combined.
 
 | d10 | Category *(vault)* | Specific result *(new, closes the vault's flagged gap — "no scar effect table has ever been written")* | Effect |
 |---|---|---|---|
@@ -994,7 +1051,7 @@ Exactly two rolls: start of Round 1, start of the midpoint round. No running clo
 |---|---|---|
 | 1 | Clear skies | No effect |
 | 2 | Rain rolls in | Ranged range −3", Hide test +1 |
-| 3 | Trader's caravan | Neutral Trader marker, buy one item |
+| 3 | Burst main | A water main lets go — a 3" zone centred on the board's midpoint becomes **Difficult ground** for the rest of the game |
 | 4 | Pack on the move | Neutral hostile token attacks nearest model in 12" |
 | 5 | Power flicker | Powered terrain within 12" of center Disabled this round |
 | 6 | Distant gunfire | Everyone within 12" of center gains 1 Stress |
@@ -1033,6 +1090,38 @@ How to physically show every game element at the table; any collection (DIY, 3D-
 - **Objectives:** a chip/disc/coin per marker; a held objective is just "bodies within 3"" in this first pass.
 - **Conditions:** one token per condition beside the model — Stress as a die/bead count, persistent conditions as coloured rings, Pinned/Down/Prone by laying the model down, Hidden as a "?" token or removed to a sheet, Ready as a die/arrow that persists across rounds.
 - **Deployables:** place the actual model plus a small owner marker; track Online→Offline→Destroyed by turning or removing it.
+
+---
+
+## 28.6 · The Season — how a campaign ends **[NEW]**
+
+A campaign is played as a **Season**. A Season ends immediately when either player **Controls 4 territories** at the end of any Settlement Phase — that player wins outright. Otherwise it ends after **each player has fought 10 battles**, and the higher **Season Score** wins:
+
+| Source | Points |
+|---|:--:|
+| Per Controlled territory | 3 |
+| Per Functional structure built after founding | 1 |
+| Per fighter at Level 5+ still on the roster | 1 |
+
+^tbl-season-score
+
+Tiebreak: total banked Credits + Materials. *(All values provisional — the point is that campaign pacing now has an end to pace toward.)* After a Season, players may continue into a new one keeping settlement and roster: fresh Season Score, fresh battle count.
+
+---
+
+## 28.7 · Appendix — a worked founding and first campaign turn **[NEW]**
+
+**Founding.** Rosa picks **Fire Station** (free Bunkhouse). She starts with HQ, Generator (+5), Processor, Salvage Yard and the Bunkhouse. Founding budget 250 Materials + 150 Credits: she builds a **Med-bay** (120 Mat), banking 130 Mat + 150 Cr. Power draw: HQ 1 + Processor 1 + Salvage Yard 1 + Med-bay 1 = 4 of 5 — one spare.
+
+**Crew (Campaign Start, 500 CR).** Leader **Marisol** (170) + Assault Rifle (130) = 300 · Fighter **Deke** (75) + Sidearm (40) = 115 · Fighter **Junie** (75) + the free bat = 75. **Total 490/500.** Pyramid legal: one Leader, no Specialists, three models.
+
+**Battle 1** — Take a Hold on a neutral territory. Marisol claims two terminals; Junie goes Down in round 5 and the crew cannot reach her. **Win.** Rewards: 65 Cr + 33 Mat.
+
+**Post-Battle.** Junie rolls Fate at +1 (Med-bay): a 6 becomes 7 → **Lasting scar, broken arm** (−1 STR next battle only). Marisol survived and held an objective → **Level 1: +1 to any stat.** Deke survived → **Level 1**.
+
+**Settlement Phase.** Bank to 215 Cr + 163 Mat — **215 is over the 180 Cr store** (HQ 150 + Salvage buffer 30), **which is legal**: caps bite only at phase end (§20). Assign the crew's one worker to the **Processor** (+1 Materials per gather). Buy Junie a Sidearm (40 Cr → 175 Cr). Scavenge dispatch (HQ I): loot roll 6 → +15 Materials. The phase closes at **175 Cr + 178 Mat** — both under cap, nothing lost.
+
+**Battle Prep.** Choose the next territory; the cap stays 500 CR; Junie fields with her scar. Roll the Twist once deployment is set.
 
 ---
 

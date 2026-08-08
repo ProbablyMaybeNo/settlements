@@ -109,7 +109,7 @@ A rank grants **more stat points than a unit can spike into one stat** — **tie
 
 ^tbl-ranks-build-budget
 
-<small>*Skills are derived from the stat line — see [[Skill Paths]].</small>
+<small>*Skills are derived from the stat line — see [[Skill Paths]]. **Counts are exact, not approximate: one skill per tier a stat reaches.** The table value is the maximum, reached only when every point lands in tiered stats — a fighter who spreads into +1 "dabbles" trades skills for breadth. Costs live in [[List Building]] · [[Full Rules System v1]] §16.</small>
 
 > [!info] Starting skills depend on the **format**, not the rank alone
 > The table above is **Match Play** — a crew built for one game with no campaign attached, so it gets the richer kit. A **Campaign Start** crew is meant to *grow* through the Level track ([[Progression]]) and begins with **exactly one skill each, at the rank's own tier**: Recruit none · Fighter 1× T1 · Specialist 1× T2 · Leader 1× T3, at **65 / 75 / 125 / 170** against a 500 Crew Rating cap. Stat points, tier caps and Orders are identical in both. Full tables in [[List Building#The four ranks — two starting tiers]].

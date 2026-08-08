@@ -26,6 +26,9 @@ The Rules column should nail down:
 
 ## Working rules / decisions
 
+> [!info] Superseded — [[Full Rules System v1]] is the ruling
+> **Drafted as §25.5, the Campaign Turn.** This note mirrors it; §25.5 is the ruling.
+
 *Drafted 2026-08-05 in [[Full Rules System v1]] §25.5. Everything in [[Structures]], [[Settlement]] and [[Progression]] that referred to a "Settlement Phase" was assuming this sequence existed before it was ever written.*
 
 Every cycle between battles runs three phases, **in order**. Nothing in Workers or campaign persistence happens outside this sequence.

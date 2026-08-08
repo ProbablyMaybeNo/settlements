@@ -44,10 +44,11 @@ Concrete limits so crunch never becomes bloat. ⚠️ *numbers are proposals —
 ## 4 · Rejected-ideas log
 When you say "no" to something, record it here with *why* — so it doesn't creep back in a new costume.
 
-| Idea | Why rejected | Date |
-|---|---|---|
-| _(example)_ Per-shot ammo tracking | Violates the complexity ceiling; abstracted into weapon traits | — |
-|  |  |  |
+| Idea | Ruling | Why | Date |
+|---|---|---|---|
+| _(example)_ Per-shot ammo tracking | Rejected | Violates the complexity ceiling; abstracted into weapon traits | — |
+| **Veteran WND above 1** | **ALLOWED, hard-capped at WND 3** | Campaign survival must be mechanically felt or "scars tell the story" is flavour text. WND 2 costs a fighter ~10 battles of survival (Level 7); WND 3 additionally costs a T3 skill slot (Tough). Both are visible on the card, priced into Crew Rating, and every hit still does *something* ([[Damage]]) — a WND 3 legend still dies in one bad round. **No current or future source may push WND past 3, and no source below Level 7 / Tier 3 may grant WND.** | 2026-08-06 |
+| **Seeker mine** (self-moving munition) | **Parked, not rejected** | A moving munition on a 3'×3' board is an edge-case factory — does it draw Reactions? trigger traps? get shot as a Feature? what is its facing? Revisit after the [[Edge Cases]] audit exists. Proximity and Remote carry the family fine. | 2026-08-06 |
 
 ^tbl-4-rejected-ideas-log
 

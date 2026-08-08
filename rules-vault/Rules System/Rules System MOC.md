@@ -15,6 +15,8 @@ Visual, editable map of the whole rules system, ported from the Notion **Build R
 > 📋 **Start here to build it:** [[Rules System — Master Roadmap]] — the ordered, tickable checklist of every decision needed to reach a complete, book-ready rules system.
 > 📖 **New to Obsidian?** [[Obsidian Guide — Building Settlements]] — a complete noob-to-fluent guide for writing the rules here (interface, links, the workflow, every plugin, your first session).
 > ⌨️ **Keep this docked while you work:** [[Quick Reference — Writing Rules]] — the workflow + every key/command on one screen (right-click its tab → Move to right sidebar).
+> 📚 **Every table in one place:** [[_Rules Catalogue]] — live embeds of every rules table, grouped for design review. Regenerate with `py -3.13 scripts/build_catalogue.py`.
+> 🔓 **What's still open:** [[Open Decisions]] — auto-generated from unticked boxes and `status:` fields.
 > 💡 **Random idea? Dump it here:** [[Ideas Inbox]] — a no-structure scratchpad; triage into rules later.
 > 📇 **Rules reference:** [[Weapons]] · [[Skill Paths]] — catalogues the combat notes point to.
 > 🧪 **Sim findings:** [[Dice Mechanic — Sim Findings]] · [[Skill Sim — Findings]] · [[Terrain Hacking Cover — Sim Findings]] · [[Crew Sim — Findings]] · [[Deployables Sim — Findings]]

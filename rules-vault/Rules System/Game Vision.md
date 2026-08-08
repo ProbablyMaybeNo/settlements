@@ -14,7 +14,7 @@ tags:
   - settlements/stage/s1
 ---
 # 01 · Game Vision
-> **S1 Foundation** · status **drafted** · build order **1**
+> **S1 Foundation** · status **Drafted** · build order **1**
 
 **Depends on:** —
 **Feeds into:** [[Core Game Format]]

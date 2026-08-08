@@ -27,8 +27,14 @@ The Rules column should nail down:
 
 ## Working rules / decisions
 
+> [!info] Superseded — [[Full Rules System v1]] is the ruling
+> **§26.1 is canonical.** The freeform Advance spend is dead. Note the 2026-08-07
+> revision: **Primary is derived and never changes, and there is no declared
+> Secondary** — levels 1/4/8 float to *any* stat, chosen when earned — while a
+> **skill slot's tier is gated by the stat**, +2/+4/+6 unlocking T1/T2/T3.
+
 ### Levels — the fixed advancement track
-*Replaces the freeform Advance spend, 2026-08-05 ([[Full Rules System v1]] §26.1). A player no longer chooses **what** an advance buys — only which stat carries it and which skill they take.*
+*Replaces the freeform Advance spend, 2026-08-05 ([[Full Rules System v1]] §26.1). Revised 2026-08-07: the track's stat levels float and skill tiers ride the stat.*
 
 Surviving units earn a **Level** after a battle — from kills, [[Full Rules System v1|Glorious Deeds]], surviving, and objectives held. One qualifying trigger = one Level, with a soft cap of **6 distinct sources per fighter per battle**.
 

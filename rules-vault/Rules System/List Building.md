@@ -17,6 +17,9 @@ tags: [settlements/phase, settlements/stage/s3]
 ## Focus
 How players assemble a legal crew — roster rules, costs, and force composition.
 
+> [!info] Superseded — [[Full Rules System v1]] is the ruling
+> **§16 is canonical for costs and composition.** The old 5/8/16/24 ladder on the 100-point budget is deprecated; everything is on the 1000-Credit scale. Match Play skill counts are now *exact* (one per tier a stat reaches), and Campaign Start keeps the Specialist ratio.
+
 ## The core claim
 > [!info] Points buy **bodies and guns**. Stats and skills are **free**.
 > Rank already caps stats and skills — a Specialist *always* has 4 stat points and 2 skills — so pricing them again is double-counting. **Buying a rank IS buying its stats.** The only things worth pricing separately are the two whose value doesn't depend on the mission: **a body, and the weapon in its hands.**

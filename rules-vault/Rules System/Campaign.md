@@ -43,6 +43,12 @@ A unit is **Safe** (no roll) if, at the end of the battle, it:
 ### Post-battle — the Fate table
 Any unit that ends the battle **Down and alone**, or that **bled out** during it, rolls on **FATE** (`1d10`):
 
+> [!important] A natural 1 is always Dead; a natural 10 is always Hardened
+> Fate modifiers shift every other result but never overwrite the die's own
+> extremes, and **total Fate modifiers are capped at +2**
+> ([[Full Rules System v1]] §26.3). Without this rule a staffed Med-bay made
+> death arithmetically impossible.
+
 **+1 with a Med-bay**, **+2 if that Med-bay has an assigned worker** ([[Structures#Worker benefits]]). *(The old "Tier-1 worker" wording went with the Proficiency track, cut 2026-08-05 — a worker is assigned or not.)*
 
 | d10 | Fate | Specific result | Effect |
