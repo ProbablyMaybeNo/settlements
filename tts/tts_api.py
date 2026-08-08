@@ -13,6 +13,13 @@ read what TTS prints. It cannot move objects by hand or click menus.
     py -3.13 tts_api.py exec-file probe.lua
     py -3.13 tts_api.py listen 30               watch TTS output for 30s
 
+IMPORTANT, learned the hard way: functions defined by `exec` DO NOT PERSIST. TTS
+runs each executeScript in its own scope, so pushing a fragment that defines
+`function foo()` gives you foo for that one call and nothing afterwards — the chat
+commands will report as missing. To install anything permanently use `push`, which
+is Save & Play. That reloads the table but PRESERVES object state (verified: 41
+terrain pieces survived a push intact).
+
 PROTOCOL NOTE: the message IDs below are from the documented External Editor API
 (editor->TTS 0 get / 1 save&play / 3 execute; TTS->editor 2 print / 3 error /
 5 return). They are transcribed from the spec, not yet verified against a live
