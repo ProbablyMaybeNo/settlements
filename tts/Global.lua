@@ -693,9 +693,23 @@ end
      boolean — assigning true throws "cannot convert a boolean to System.Int32".
      Default TTS grid is 3.71 units, sized for cards and unrelated to inches. ]]
 function setupGrid(show, snap)
+  --[[ VERIFIED ALIGNED 2026-08-08. The board tile spans world -18..18, and a 36-
+       square painted grid puts its lines on integers, so offset 0 matches the art
+       exactly. Checked by laying thin bars FLUSH on the surface at x/z = -12, 0,
+       +12 and viewing from straight overhead.
+
+       Do that check flush and overhead or not at all: markers floating even 0.2
+       units above the board appear shifted against the art at any oblique angle,
+       which read as "off by a third of a square" and sent me hunting a texture-
+       inset bug that did not exist. Parallax, not misalignment.
+
+       snap 2 = square CENTRES. Painted corners are on integers, so centres are on
+       half-integers and a model lands inside one square instead of straddling four. ]]
   Grid.type = 1                 -- rectangles
   Grid.sizeX = 1.0
   Grid.sizeY = 1.0
+  Grid.offsetX = 0
+  Grid.offsetY = 0
   Grid.snapping = snap or 0
   Grid.show_lines = show and true or false
   Grid.thick_lines = false
