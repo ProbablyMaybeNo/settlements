@@ -184,13 +184,16 @@ def obj_json(r):
         'Nickname': r['note'],
         'Description': desc,
         'GMNotes': json.dumps(gm, separators=(',', ':')),
-        # spawn high and let physics seat it: an OBJ's origin is not reliably at
-        # its base, so computing a resting y from extents alone gets it wrong
-        'Transform': {'posX': r['x'], 'posY': SURFACE + r['h'] + 1.5, 'posZ': r['z'],
+        # Spawn LOCKED, at the target. Locked objects are static in TTS: they
+        # cannot collide, shove each other, or slide off the board. Letting 41
+        # pieces drop and settle under physics is what scattered the first build —
+        # one barricade ended up at x=-21.6 on a board that stops at -18.
+        # A reseat pass then corrects for mesh-origin offset (see reseat()).
+        'Transform': {'posX': r['x'], 'posY': SURFACE + r['h'] / 2.0, 'posZ': r['z'],
                       'rotX': 0, 'rotY': 0, 'rotZ': 0,
                       'scaleX': r['scale'], 'scaleY': r['scale'], 'scaleZ': r['scale']},
         'ColorDiffuse': {'r': 1, 'g': 1, 'b': 1},
-        'Locked': False, 'Grid': True, 'Snap': False, 'Autoraise': True,
+        'Locked': True, 'Grid': True, 'Snap': False, 'Autoraise': False,
         'CustomMesh': {
             'MeshURL': r['rec']['mesh'], 'DiffuseURL': r['rec'].get('diffuse', ''),
             'NormalURL': '', 'ColliderURL': '', 'Convex': True,
@@ -273,15 +276,50 @@ def main():
                       'script': '\n'.join(lines)})
         tts_api.listen(2.0)
 
-    # let physics seat everything, then lock so nothing drifts, then report
-    tts_api.send({'messageID': tts_api.MSG_EXEC, 'guid': '-1', 'script':
-        'Wait.time(function() local n=0 '
-        'for _,o in ipairs(getAllObjects()) do local gm=o.getGMNotes() '
-        'if gm and gm~="" then local j=JSON.decode(gm) '
-        'if type(j)=="table" and j.terrain and not j.boardSurface then '
-        'o.setLock(true) n=n+1 end end end '
-        'print("[depot] settled and locked "..n.." piece(s)") density() end, 6)'})
-    tts_api.listen(11.0)
+    # RESEAT: measure where each mesh actually IS and correct it.
+    #
+    # An OBJ's origin is not reliably at its centre or its base — these models are
+    # off by up to 3.2" — so a transform position is not where the geometry lands.
+    # getBounds() reports the real world-space centre, so the correction is just
+    # target minus measured. Objects stay locked throughout, so nothing moves
+    # except by this deliberate setPosition.
+    targets = {r['note']: (r['x'], r['z'], r['h']) for r in good}
+    # JSON object syntax is NOT valid Lua table syntax ({"k": [1,2]} is a
+    # syntax error), so hand it over as a string and let Lua decode it.
+    reseat = ('local tg = JSON.decode([==['
+              + json.dumps({k: list(v) for k, v in targets.items()}) + ']==])'
+              + '''
+Wait.time(function()
+  local fixed, off = 0, 0
+  for _, o in ipairs(getAllObjects()) do
+    local t = tg[o.getName()]
+    if t then
+      local b = o.getBounds()
+      local p = o.getPosition()
+      -- correct x/z for origin offset, and y so the BASE sits on the surface
+      local dx = t[1] - b.center.x
+      local dz = t[2] - b.center.z
+      local base = b.center.y - b.size.y / 2
+      local dy = ''' + str(SURFACE) + ''' - base
+      o.setPosition({p.x + dx, p.y + dy, p.z + dz})
+      fixed = fixed + 1
+    end
+  end
+  Wait.time(function()
+    for _, o in ipairs(getAllObjects()) do
+      local t = tg[o.getName()]
+      if t then
+        local b = o.getBounds()
+        local d = math.sqrt((b.center.x-t[1])^2 + (b.center.z-t[2])^2)
+        if d > 0.35 then off = off + 1 end
+      end
+    end
+    print("[depot] reseated "..fixed.." piece(s); "..off.." still off target by >0.35in")
+    density()
+  end, 1.5)
+end, 3)''')
+    tts_api.send({'messageID': tts_api.MSG_EXEC, 'guid': '-1', 'script': reseat})
+    tts_api.listen(12.0)
     print('\nBuilt. !unlock to rearrange, !layout to review, !density to re-check.')
     return 0
 
