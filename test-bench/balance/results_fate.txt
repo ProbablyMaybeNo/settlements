@@ -1,0 +1,23 @@
+====================================================================================
+AUDIT FIX 1 ΓÇö FATE TABLE, exact result distribution (%) by modifier
+====================================================================================
+
+  OLD RULE (v1 as written)
+  mod                 Dead  Grievous  Captured      Scar  Recovery  Hardened
+  +0 no Med-bay         10        20        20        30        10        10
+  +1 Med-bay             0        20        20        30        10        20
+  +2 Med-bay+worker         0        10        20        30        10        30
+  +3 future stack         0         0        20        30        10        40
+
+  FIX 1
+  mod                 Dead  Grievous  Captured      Scar  Recovery  Hardened
+  +0 no Med-bay         10        20        20        30        10        10
+  +1 Med-bay            10        10        20        30        10        20
+  +2 Med-bay+worker        10         0        20        30        10        30
+  +3 future stack        10         0        20        30        10        30
+
+  CHECK 1 ΓÇö death risk is never zero under FIX 1: PASS  (flat 10% at every modifier)
+  CHECK 2 ΓÇö old rule kills Death at +2: CONFIRMED BUG
+  CHECK 3 ΓÇö Med-bay still worth building under FIX 1 (Grievous+Captured shrink, Recovery+Hardened grow):
+    bad outcomes 40% -> 20%   good outcomes 20% -> 40%   PASS
+====================================================================================

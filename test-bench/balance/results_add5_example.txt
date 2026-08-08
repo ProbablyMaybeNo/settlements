@@ -1,0 +1,16 @@
+========================================================================================
+AUDIT ADD 5 ΓÇö worked example (Rosa / Fire Station) under phase-end caps
+========================================================================================
+  [PASS] founding bank ΓÇö 150 Cr + 130 Mat
+  [PASS] power draw 4 of 5
+  [PASS] crew 490/500 ΓÇö total=490
+  [PASS] pyramid legal (1 Leader, 0 Spec, 3 models)
+  [PASS] post-battle bank before spend ΓÇö 215 Cr + 163 Mat
+  [PASS] 215 Cr over mid-phase cap (180) is legal until phase end
+  [PASS] after Sidearm + scavenge ΓÇö 175 Cr + 178 Mat
+  [PASS] phase-end: nothing lost ΓÇö lost 0+0
+  [PASS] phase-end stores under cap ΓÇö 175/180 Cr, 178/180 Mat
+  [PASS] counterfactual (cap-at-bank) would lose 35 Cr ΓÇö why timing matters
+
+  OVERALL: PASS
+========================================================================================

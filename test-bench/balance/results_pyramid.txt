@@ -1,0 +1,35 @@
+==========================================================================================================
+AUDIT FIX 3 ΓÇö CAMPAIGN START @ 500, FIXED PYRAMID   (300 games/pairing, 4 scenarios, sides swapped)
+==========================================================================================================
+  OldElite   3 models, 500 credits   << ILLEGAL under FIX 3
+  Fix3Elite  4 models, 485 credits
+  Swarm      6 models, 495 credits
+  Line       3 models, 470 credits
+  Gunline    3 models, 500 credits
+  Armoured   3 models, 500 credits
+
+  crew                Hold   Hold+Claim   Annihilate  Breakthroug    MEAN
+  OldElite             83           62           78           61      71
+  Fix3Elite            41           57           51           43      48
+  Swarm                53           59           36           42      48
+  Line                 36           45           41           68      47
+  Gunline              49           28           52           16      36
+  Armoured             39           49           43           70      50
+
+  FIX-3-legal field only: spread 14, best Armoured at 50%, floor 36% (Gunline)
+  PASS criterion (no FIX-3-legal archetype > 60%): PASS
+  OldElite (the closed degenerate) scored 71% across the same field
+
+----------------------------------------------------------------------------------------------------------
+  LEVEL PACING ΓÇö ┬º26.1 triggers per fighter per battle, from sim aggregates
+  crew         kills/fighter  survive%  est trig/battle  battles to L3
+  OldElite              1.01       69%             2.50            1.2
+  Fix3Elite             0.54       46%             1.80            1.7
+  Swarm                 0.27       38%             1.45            2.1
+  Line                  0.43       24%             1.48            2.0
+  Gunline               0.92       67%             2.40            1.3
+  Armoured              0.44       28%             1.52            2.0
+  PASS criterion: a typical fighter reaches ~Level 3 by battle 3 (battles-to-L3 <= ~3)
+
+  elapsed 7s
+==========================================================================================================

@@ -1,0 +1,19 @@
+================================================================================================
+AUDIT FIX 4 ΓÇö RUSH vs ROUNDED vs SPECIALIST at Level 10/9, equal-ish Credits
+(400 games/pairing/scenario, sides swapped)
+================================================================================================
+  RUSH     4x Fighter  str6 agi1 nrv3  WND 3  MOV 6  390cr each -> 1560cr crew
+  ROUNDED  4x Fighter  str5 agi4 nrv2  WND 2  MOV 8  390cr each -> 1560cr crew
+  SPECIAL  4x Specialist  str6 agi3 nrv2  WND 3  MOV 6  385cr each -> 1540cr crew
+
+  matchup                        Hold   Hold+Claim   Annihilate    MEAN
+  RUSH vs ROUNDED               44           53           90      63   (RUSH's win %)
+  RUSH vs SPECIAL               46           44           34      41   (RUSH's win %)
+  ROUNDED vs SPECIAL               48           41            3      31   (ROUNDED's win %)
+
+  PASS criterion A: RUSH vs ROUNDED mean within 35-65%  ->  63%  ->  PASS
+  PASS criterion B: no single scenario > 75% for RUSH vs ROUNDED  ->  Annihilate 91%  ->  FAIL ΓÇö WND-3 wall dominates kill missions
+  (SPECIAL row answers the audit's literal flag ΓÇö the +6 Fighter vs a rounded Specialist-track career)
+
+  elapsed 1s
+================================================================================================

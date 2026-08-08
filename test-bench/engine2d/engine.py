@@ -26,6 +26,11 @@ EYE = 1.0      # eye height above a fighter's feet (for 2.5D line of sight)
 # --- BLKOUT-import toggles (default off = pre-import behaviour) ---------------
 DODGE_ON = False    # Ready target may Dodge a shot: opposed AGI vs DEX, win = miss + reposition + Pinned
 DIST_GATE = False   # movement overwatch only triggers on a Move > half MOV (short shuffles are safe)
+# FIX 5 audit dial (2026-08-07): what a WON dodge buys.
+#   'full'  = v1 as written — reposition up to full MOV
+#   'half'  = FIX 5 proposal — reposition up to half MOV (round down)
+#   'prone' = fallback — no move; dive prone (heavy cover vs ranged until its next activation)
+DODGE_MOVE = 'full'
 
 
 def d10():
@@ -97,6 +102,7 @@ class Unit:
         self.ordered = False
         self.cowed = False
         self.deployed = False
+        self.prone = False          # FIX 5 'prone' dodge variant: heavy cover vs ranged until next activation
         # --- conditions (Conditions.md). No stacking: each is a flag, not a count.
         self.bleed = False          # persistent: -1 WND each End Phase
         self.poison = False         # persistent: -1 all rolls; STR 7+ each End Phase to end
@@ -265,7 +271,15 @@ class Game:
             self.injure(att, t, True, payload=payload)
 
     def _wants_dodge(self, att, dfn):
-        return self.cover(att, dfn) < 2       # dodge when exposed; keep Heavy cover (shot's already hard)
+        """Dodge like a player would: only when the opposed roll is a better bet
+        than eating the plain to-hit roll. Losing the opposed roll is an AUTO-HIT,
+        so a low-AGI fighter dodging a marksman is worse than standing still."""
+        cov = self.cover(att, dfn)
+        hit_mod = att.stats['dex'] - cov - att.penalty(sight=True)
+        p_plain = sum(1 for d in range(2, 10) if d + hit_mod >= 7) / 10 + 0.1   # nat10 always hits
+        diff = (att.stats['dex'] - att.penalty(sight=True)) - (dfn.stats['agi'] - dfn.penalty())
+        p_opposed = sum(1 for a in range(1, 11) for b in range(1, 11) if a + diff > b) / 100
+        return p_opposed < p_plain
 
     def shoot(self, att, dfn):
         rng = WEAPONS[att.weapon]['rng']
@@ -280,11 +294,29 @@ class Game:
                 self._resolve_hit(att, dfn)               # attacker wins opposed roll -> auto-hit
             else:
                 self.stat['dodge_save'] += 1              # dodge beats the shot: miss + dive + Pinned
-                self.move_away(dfn, att.pos, dfn.mov)
+                if DODGE_MOVE in ('full', 'half'):
+                    d = dfn.mov if DODGE_MOVE == 'full' else float(int(dfn.mov / 2))
+                    holding = dfn.goal is not None and dist(dfn.pos, dfn.goal) <= 3.0
+                    if holding:
+                        # a player dives without abandoning the objective: shrink the
+                        # reposition until the endpoint keeps the 3" hold
+                        p0 = dfn.pos
+                        for _ in range(4):
+                            self.move_away(dfn, att.pos, d)
+                            if dist(dfn.pos, dfn.goal) <= 3.0 or d < 0.5:
+                                break
+                            dfn.pos = p0
+                            d /= 2.0
+                    else:
+                        self.move_away(dfn, att.pos, d)
+                else:                                     # 'prone': dive where you stand
+                    dfn.prone = True
                 dfn.pinned = True
                 self.note(f"  {dfn.tag} dodges {att.tag}")
             return True
         cov = self.cover(att, dfn)
+        if dfn.prone:
+            cov = max(cov, 2)
         if core(att.stats['dex'] - cov - att.penalty(sight=True)):
             self._resolve_hit(att, dfn)
         return True
@@ -322,6 +354,8 @@ class Game:
         for r in self._standing(1 - mover.side):
             if not r.ready or not r.has_gun() or not r.can_react():
                 continue
+            if DODGE_ON and getattr(r, 'dodge_hold', False):
+                continue                     # the Ready holder chooses: this one saves it to Dodge
             if dist(r.pos, mover.pos) > WEAPONS[r.weapon]['rng']:
                 continue
             if not self.sight(r, mover):
@@ -460,6 +494,7 @@ class Game:
 
     def activate(self, u):
         u.acted = True
+        u.prone = False                          # standing back up is part of the activation
         if not u.standing():
             self.tick_activation_conditions(u)
             return

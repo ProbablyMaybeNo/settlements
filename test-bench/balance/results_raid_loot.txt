@@ -1,0 +1,26 @@
+================================================================================================
+AUDIT ADD 4 ΓÇö RAID LOOT: 25% / cap 100+100 / floor 50+50 / Vault immune
+================================================================================================
+
+  fixture                      store          take           end     vault  checks
+  poor start               60+60        10+10        50+50     0+0   PASS
+  ADD5 post-phase         175+178       43+44       132+134    0+0   PASS
+  fat no storehouse       180+180       45+45       135+135    0+0   PASS
+  one storehouse          400+400      100+100      300+300    0+0   PASS
+  whale + vault           800+800      100+100      700+700    150+0   PASS
+  asymmetric Cr-heavy     500+60       100+10       400+50     0+0   PASS
+  asymmetric Mat-heavy     60+500       10+100       50+400    0+0   PASS
+  exactly at floor         50+50         0+0         50+50     0+0   PASS
+  just above floor         51+51         1+1         50+50     0+0   PASS
+
+  CHECK ΓÇö 25% of 800 clamps to 100+100: PASS  (took 100+100)
+  CHECK ΓÇö 60+60 raid leaves exactly 50+50 (took 10+10, not 15+15): PASS  (end 50+50, took 10+10)
+  CHECK ΓÇö Vault 150 Cr untouched on an 800+800 raid: PASS
+
+  Floor-reading divergence (asymmetric 500 Cr / 60 Mat):
+    per-resource (audit text): take 100+10 ΓåÆ end 400+50
+    combined-100 (economy sim): take 100+15 ΓåÆ end 400+45
+    DIVERGE ΓÇö economy sim should switch to per-resource floor
+
+  OVERALL: PASS
+================================================================================================

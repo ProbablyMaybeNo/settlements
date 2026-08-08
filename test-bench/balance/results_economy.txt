@@ -1,0 +1,26 @@
+============================================================================================
+AUDIT TEST 5 ΓÇö ECONOMY PACING, 2000 campaigns x 12 battles, raids on turns [4, 8] (50% lost)
+============================================================================================
+
+  ADD 3 round-trip check: Kiosk 2 Mat -> 1 Cr -> 0.50 Mat (lose 75%) ┬╖ Trade House 3 Mat -> 2 Cr -> 1.33 Mat (lose 56%)  ->  no profitable loop: PASS
+
+  [BUILDER]
+    end stores (mean): 335 Cr + 53 Mat
+    campaigns that lost surplus to caps: 19%  (mean loss when it bites: 44)
+    structures built by turn 12 (of 10 wishlist): 5.9
+    wishlist exhausted before turn 12: 0%
+    raids suffered: 2003; mean phases to next purchase after a raid: 1.4
+
+  [HOARDER]
+    end stores (mean): 165 Cr + 180 Mat
+    campaigns that lost surplus to caps: 100%  (mean loss when it bites: 543)
+
+  [TRADER]
+    end stores (mean): 164 Cr + 180 Mat
+    campaigns that lost surplus to caps: 100%  (mean loss when it bites: 441)
+
+  PASS CRITERIA (Part D test 5)
+    1. 'always a purchase it wants by battle 5' ΓÇö builder wishlist must NOT be exhausted early (see above)
+    2. 'surplus loss actually bites at least once' ΓÇö hoarder must bleed in ~every campaign (see above)
+    3. anti-death-spiral ΓÇö raided builders keep buying within ~2 phases (see above)
+============================================================================================

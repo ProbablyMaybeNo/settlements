@@ -1,0 +1,23 @@
+========================================================================================
+AUDIT FIX 4 ΓÇö TIER GATE (analytical): T3 requires the path at +6
+========================================================================================
+
+  All-in Primary rush (floaters into Primary until +6):
+  rank         start P  L3 (stat/tier)            L6           L10  earliest T3
+  Recruit            2           +4/T2         +6/T3         +6/T3  L6
+  Fighter            2           +4/T2         +6/T3         +6/T3  L6
+  Specialist         4           +6/T3         +6/T3         +6/T3  L3
+  Leader             6           +6/T3         +6/T3         +6/T3  L3
+
+  Breadth path (floaters NEVER into Primary) ΓÇö can they still snag T3?
+  rank                L3        L6       L10  T3 available?
+  Recruit          +3/T1     +4/T2     +5/T2  NO ΓÇö gate holds
+  Fighter          +3/T1     +4/T2     +5/T2  NO ΓÇö gate holds
+  Specialist       +5/T2     +6/T3     +6/T3  YES (started +6 or forced there)
+  Leader           +6/T3     +6/T3     +6/T3  YES (started +6 or forced there)
+
+  CHECK ΓÇö no T3 skill ever granted on a path below +6: PASS
+  CHECK ΓÇö Fighter all-in reaches T3 at L6 (STR 2ΓåÆ3ΓåÆ4ΓåÆ5ΓåÆ6 via L1..L5): PASS
+  CHECK ΓÇö Fighter who spreads never gets T3 on Primary by L10: PASS
+  (Old shipped track would have handed every fighter a T3 at L10 regardless ΓÇö closed.)
+========================================================================================

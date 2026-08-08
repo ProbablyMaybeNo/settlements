@@ -1,0 +1,19 @@
+====================================================================================================
+AUDIT FIX 5 ΓÇö DODGE VARIANTS   carrier = Leader + 2x AGI+4 Fleet Specialist + Recruits @1000
+(200 games/pairing/scenario x 3 scenarios x 5 opponents, sides swapped)
+====================================================================================================
+  carrier: 4 models, 940 credits (Fleet = MOV 8 on the two AGI Specialists)
+
+  variant        Swarm      Line   Gunline  Armoured     Mixed    MEAN   delta    dodges (won/tried)
+  off              22        51        69        49        46      47    +0.0           0/0        
+  full             22        51        58        48        26      41    -6.4       2,206/3,565    
+  half             22        51        57        50        30      42    -5.4       2,268/3,682    
+  prone            22        51        62        48        29      43    -4.7       2,134/3,413    
+
+  ACCEPTANCE: carrier delta <= +8 win-points over 'off' baseline
+    full     -6.4  ->  PASS
+    half     -5.4  ->  PASS
+    prone    -4.7  ->  PASS
+
+  elapsed 11s
+====================================================================================================
