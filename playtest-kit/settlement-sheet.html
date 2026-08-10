@@ -1,0 +1,133 @@
+<!doctype html>
+<link rel="stylesheet" href="kit.css">
+<title>Settlements — Settlement Sheet</title>
+<style>
+  .fill{ display:inline-block; border-bottom:1px solid var(--ink); min-width:40px; }
+  .fill.lg{ min-width:110px; } .fill.xl{ min-width:200px; }
+  .cb{ font-size:11pt; margin-right:2px; }
+  .opt{ white-space:nowrap; margin-right:10px; display:inline-block; }
+  /* the 12x36 canvas at 1 inch per cell — this IS the raid board's back third */
+  table.canvas{ border-collapse:collapse; margin:4px 0 2px; }
+  table.canvas td{ width:13px; height:13px; border:.5px solid #c9c4ba; padding:0; }
+  table.canvas td.six{ border-right:1.2px solid #8d8madd; }
+  table.canvas td.m6{ border-right:1.4px solid #7d7costa; }
+  table.canvas tr.m6 td{ border-bottom:1.4px solid #7d7a72; }
+  table.canvas td.v6{ border-right:1.4px solid #7d7a72; }
+  table.cat td{ height:19px; }
+  table.cat td.c, table.cat th.c{ text-align:center; }
+  .tot{ background:#f3f1ec; font-weight:700; }
+</style>
+
+<div class="noprint">
+  <button class="btn" onclick="window.print()">🖨 Print</button>
+  Settlement Sheet — one per player, reused every campaign turn. Draw structures on the grid; the grid <i>is</i> your raid board. Print A4 landscape.
+</div>
+
+<div class="sheet landscape">
+  <div class="masthead">
+    <div class="title">Settlements<small>working title</small></div>
+    <div class="tag">Settlement Sheet</div>
+  </div>
+  <div class="lede">
+    Settlement <span class="fill xl">&nbsp;</span> &nbsp;·&nbsp; Player <span class="fill lg">&nbsp;</span> &nbsp;·&nbsp; Faction <span class="fill lg">&nbsp;</span> &nbsp;·&nbsp;
+    Location <span class="fill lg">&nbsp;</span> <span class="small">(grants one free structure)</span> &nbsp;·&nbsp; Turn <span class="fill">&nbsp;</span>
+  </div>
+
+  <div class="cols">
+
+    <div class="sec">
+      <div class="h"><span class="n">1</span> The canvas — 12" × 36", 1" grid, 432 squares</div>
+      <div class="body">
+        <div class="rule small">This is exactly the defender's <b>back three 12"×12" density squares</b> on a 3'×3' board. Your placed structures <i>are</i> the large features of those three squares in a raid — the attacker crosses ~24" of neutral ground. Heavy lines mark the three 12" divisions.</div>
+        <table class="canvas">
+          <!-- 12 rows deep, 36 columns wide -->
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+          <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="v6"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        </table>
+        <div class="rule small"><b>Footprint classes:</b> Building 6×6 minimum (enclosed, enterable) · Plant ~3×3 (tanks, masts, gensets — no interior) · Station 3×1 minimum (kiosks, benches). Because Buildings are 6×6 on a 12"-deep strip you fit <b>at most two rows</b> of them. <b>Groundworks</b> extends the canvas: I 18×36 (648 sq, 120 Mat) · II 18×48 (864 sq, 200 Mat).</div>
+        <div class="rule"><span class="rt">Space used</span> <span class="fill">&nbsp;</span> / 432 squares &nbsp; <span class="small">(starting four = 95. Practical ceiling ~300 once you leave lanes to move through. The whole catalogue is ~651 — you cannot build everything, and that is the point.)</span></div>
+      </div>
+    </div>
+
+    <div class="sec steel">
+      <div class="h"><span class="n">2</span> Resources — check caps at the END of the phase</div>
+      <div class="body">
+        <div class="rule"><span class="rt">Credits</span> <span class="fill lg">&nbsp;</span> &nbsp; <span class="rt">Materials</span> <span class="fill lg">&nbsp;</span> &nbsp; <span class="small">Founding budget: <b>250 Mat + 150 Cr</b></span></div>
+        <div class="rule"><span class="rt">Power</span> output <span class="fill">&nbsp;</span> vs draw <span class="fill">&nbsp;</span> &nbsp; <span class="small">Generator <b>+5</b>. Draw: T1 −1 · T2 −2 · T3 −3. Anything left unpowered is <b>Disabled</b> for the round.</span></div>
+        <table class="ref cat">
+          <tr><th>Store</th><th class="c">Capacity</th><th>Raidable?</th></tr>
+          <tr><td>HQ</td><td class="c">150 Cr + 150 Mat</td><td>Yes — must be entered</td></tr>
+          <tr><td>Gatherer buffer (each)</td><td class="c">30 of its own</td><td>Yes — and first to go</td></tr>
+          <tr><td>Storehouse (each)</td><td class="c">+250 combined</td><td>Yes — <b>the</b> raid target</td></tr>
+          <tr><td>Vault</td><td class="c">150 combined</td><td><b>No</b> — Sabotage/hack only</td></tr>
+        </table>
+        <div class="rule"><span class="rt">Spend it or lose it</span> Caps are checked <b>once, at the end of the Settlement Phase</b>. You may sit over cap freely mid-phase while banking and spending; whatever still exceeds cap when the phase closes is <b>lost</b>. This is the economy's main sink.</div>
+        <div class="rule"><span class="rt">Housing</span> <span class="fill">&nbsp;</span> owned / <span class="fill">&nbsp;</span> slots &nbsp; <span class="small">HQ 12, +6 per Bunkhouse. Housing is the <b>only</b> population brake — no upkeep.</span> &nbsp;·&nbsp; <span class="rt">Equipment</span> <span class="fill">&nbsp;</span> / <span class="fill">&nbsp;</span> <span class="small">(30, +30 per Armory tier)</span></div>
+        <div class="rule"><span class="rt">Trader</span> Kiosk: 2 Mat → 1 Cr · 2 Cr → 1 Mat. Trade House: 3 Mat → 2 Cr · 3 Cr → 2 Mat. Worker +10%. <b>One direction only per phase.</b></div>
+      </div>
+    </div>
+
+    <div class="sec olive">
+      <div class="h"><span class="n">3</span> The catalogue — 23 structures, Materials cost</div>
+      <div class="body">
+        <table class="ref cat">
+          <tr><th>Sustain</th><th class="c">Size</th><th class="c">Pwr</th><th class="c">Mat</th><th class="c">Built</th><th class="c">Worker</th></tr>
+          <tr><td><b>Generator</b> ★</td><td class="c">3×3</td><td class="c">+5</td><td class="c">40</td><td class="c">✔</td><td class="c">+1 Power</td></tr>
+          <tr><td>Bunkhouse</td><td class="c">6×9</td><td class="c">−1</td><td class="c">115</td><td class="c">□</td><td class="c">—</td></tr>
+          <tr><td>Storehouse <span class="small">(repeatable)</span></td><td class="c">6×6</td><td class="c">−1</td><td class="c">90</td><td class="c">□</td><td class="c">+10% cap</td></tr>
+          <tr><td>Equipment Shed → Armory</td><td class="c">3×2→6×6</td><td class="c">0→−2</td><td class="c">40→168</td><td class="c">□</td><td class="c">+10 slots</td></tr>
+          <tr><th>Convert</th><th class="c"></th><th class="c"></th><th class="c"></th><th class="c"></th><th class="c"></th></tr>
+          <tr><td><b>Processor</b> ★</td><td class="c">3×5</td><td class="c">−1</td><td class="c">80</td><td class="c">✔</td><td class="c">+1 Mat/gather</td></tr>
+          <tr><td><b>Salvage Yard</b> ★</td><td class="c">5×7</td><td class="c">−1</td><td class="c">80</td><td class="c">✔</td><td class="c">+1 Cr/gather</td></tr>
+          <tr><td>Trader's Kiosk → Trade House</td><td class="c">3×2→6×6</td><td class="c">−1→−2</td><td class="c">75→224</td><td class="c">□</td><td class="c">sell +10%</td></tr>
+          <tr><td>Workbench → Workshop</td><td class="c">3×2→6×8</td><td class="c">−1→−2</td><td class="c">75→224</td><td class="c">□</td><td class="c">craft −10%</td></tr>
+          <tr><td>Fabricator → Robotics → Weapons Lab</td><td class="c">6×6→6×10</td><td class="c">−1/−2/−3</td><td class="c">125→~330</td><td class="c">□</td><td class="c">— <span class="small">(parked)</span></td></tr>
+          <tr><th>Operate</th><th class="c"></th><th class="c"></th><th class="c"></th><th class="c"></th><th class="c"></th></tr>
+          <tr><td><b>HQ</b> ★ <span class="small">I / II 210 / III 370</span></td><td class="c">6×6</td><td class="c">−1</td><td class="c">130</td><td class="c">✔</td><td class="c">+1 dispatch</td></tr>
+          <tr><td>Vault <span class="small">(HQ add-on)</span></td><td class="c">3×3</td><td class="c">−1</td><td class="c">95</td><td class="c">□</td><td class="c">—</td></tr>
+          <tr><td>Scout Post</td><td class="c">3×3</td><td class="c">−1</td><td class="c">95</td><td class="c">□</td><td class="c">— <span class="small">(parked)</span></td></tr>
+          <tr><td>Comms Mast</td><td class="c">3×3</td><td class="c">−1</td><td class="c">95</td><td class="c">□</td><td class="c">— <span class="small">(parked)</span></td></tr>
+          <tr><td>Server Core</td><td class="c">6×6</td><td class="c">−2</td><td class="c">232</td><td class="c">□</td><td class="c">— <span class="small">(parked)</span></td></tr>
+          <tr><td>Drone Bay</td><td class="c">6×8</td><td class="c">−2</td><td class="c">272</td><td class="c">□</td><td class="c">— <span class="small">(parked)</span></td></tr>
+          <tr><th>Recover</th><th class="c"></th><th class="c"></th><th class="c"></th><th class="c"></th><th class="c"></th></tr>
+          <tr><td>Med-bay <span class="small">(T2 heals scars)</span></td><td class="c">6×6</td><td class="c">−1</td><td class="c">120</td><td class="c">□</td><td class="c">+1 Fate</td></tr>
+          <tr><td>Holding Cells</td><td class="c">6×6</td><td class="c">−1</td><td class="c">120</td><td class="c">□</td><td class="c">— <span class="small">(parked)</span></td></tr>
+          <tr><td>Mess Hall</td><td class="c">6×8</td><td class="c">−1</td><td class="c">~120</td><td class="c">□</td><td class="c">2 fighters</td></tr>
+          <tr><th>Defend</th><th class="c"></th><th class="c"></th><th class="c"></th><th class="c"></th><th class="c"></th></tr>
+          <tr><td>Perimeter Wall <span class="small">(per 6" seg)</span></td><td class="c">6" seg</td><td class="c">0</td><td class="c">85</td><td class="c">□</td><td class="c">—</td></tr>
+          <tr><td>Gatehouse</td><td class="c">6×6</td><td class="c">−1</td><td class="c">135</td><td class="c">□</td><td class="c">— <span class="small">(parked)</span></td></tr>
+          <tr><td>Watchtower</td><td class="c">3×3</td><td class="c">0</td><td class="c">100</td><td class="c">□</td><td class="c">— <span class="small">(parked)</span></td></tr>
+          <tr><td>Turret Mount</td><td class="c">2×2</td><td class="c">−2</td><td class="c">184</td><td class="c">□</td><td class="c">— <span class="small">(parked)</span></td></tr>
+          <tr><td>EW Mast</td><td class="c">3×3</td><td class="c">−2</td><td class="c">184</td><td class="c">□</td><td class="c">— <span class="small">(parked)</span></td></tr>
+        </table>
+        <div class="rule small">★ free starting structure. <b>No prerequisites</b> — everything is available from founding onward; cost and floor space are the only gates. <b>Repair: flat 30 Materials.</b> A structure is <b>Functional or Disabled</b>, never partly damaged. Ten worker benefits ship in v1; the rest are parked.</div>
+      </div>
+    </div>
+
+    <div class="sec rust">
+      <div class="h"><span class="n">4</span> Workers &amp; raids</div>
+      <div class="body">
+        <div class="rule"><span class="rt">Workers</span> One slot per structure that accepts one. <b>A worker is assigned or not</b> — no progression to track. Assigning ends the old benefit immediately; the new one starts producing <i>next</i> phase.</div>
+        <div class="rule small">Assigned: <span class="fill xl">&nbsp;</span> <span class="fill xl">&nbsp;</span> <span class="fill xl">&nbsp;</span></div>
+        <div class="rule"><span class="rt">Sabotage</span> Any structure can be charged in <i>any</i> raid: Action + INT 7+ to arm; detonates after surviving <b>3 End Phases</b> unless a defender spends Action + DEX 7+ to defuse (nat 1 = it goes off now). A detonated structure is <b>Disabled</b> until repaired.</div>
+        <div class="rule"><span class="rt">Raid loot</span> Attacker wins → carries off <b>25%</b> of stored Credits and Materials (Vault excluded), <b>capped 100 + 100</b>. Defender wins → attacker keeps only what they physically looted. <b>Floor:</b> theft never takes a defender below <b>50 Cr and 50 Mat</b>.</div>
+        <div class="rule"><span class="rt">Raid board</span> Your structures fill your three density squares; neutral terrain fills the attacker's six until the board totals <b>9–12</b> large features. Over-filled? Bench structures — <b>the band wins over the layout, always.</b> The defender takes every Priority tie.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="notes small">
+    Every Materials cost here is <b>first-draft and untested</b> — HQ tiers, Med-bay and Mess Hall especially. Storage capacities are provisional. Log anything that felt wrongly priced, and anything you wanted to buy and could not.
+  </div>
+</div>

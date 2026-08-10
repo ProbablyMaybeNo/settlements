@@ -1,0 +1,98 @@
+<!doctype html>
+<link rel="stylesheet" href="kit.css">
+<title>Settlements — Playtest Kit</title>
+<style>
+  .grid{ display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+  .card2{ border:1px solid var(--ink); padding:7px 9px; }
+  .card2 .t{ font-weight:700; font-size:11pt; text-transform:uppercase; letter-spacing:.5px; }
+  .card2 .w{ font-size:8.4pt; color:var(--muted); margin:1px 0 4px; }
+  .card2 a{ color:#000; }
+  .pill2{ display:inline-block; border:1px solid var(--ink); padding:0 4px; font-size:7.6pt;
+    text-transform:uppercase; letter-spacing:.6px; margin-right:3px; }
+  .on2{ background:var(--ink); color:#fff; }
+  ol.pk{ margin:2px 0 2px 18px; padding:0; } ol.pk li{ margin-bottom:3px; }
+</style>
+
+<div class="noprint">
+  <button class="btn" onclick="window.print()">🖨 Print this index</button>
+  Start here. Tells you which sheets to print for which kind of test.
+</div>
+
+<div class="sheet">
+  <div class="masthead">
+    <div class="title">Settlements<small>working title</small></div>
+    <div class="tag">Playtest Kit</div>
+  </div>
+  <div class="lede">Everything needed to put the rules on a table. <b>Print the set that matches the test you are running</b> — you almost never need all of it.</div>
+
+  <div class="cols">
+
+    <div class="sec">
+      <div class="h"><span class="n">1</span> Which set do I print?</div>
+      <div class="body">
+        <div class="rule"><span class="rt">A single battle</span> <span class="pill2 on2">Battle set</span> How to Play · Set Up &amp; Scenario · Table References · Unit Cards · Playtest Log. <span class="small">Or just print <b>Kit Bundle</b> — it is all five in one file, print-fitted.</span> Nothing else needed: both players field the same fixed crew.</div>
+        <div class="rule"><span class="rt">Testing list building</span> <span class="pill2 on2">+ Crew Builder</span> Add the Crew Builder, one per player. This is the set for <b>Campaign Start @ 500</b>, the least-validated part of the system.</div>
+        <div class="rule"><span class="rt">A campaign turn</span> <span class="pill2 on2">+ Campaign Turn</span> <span class="pill2 on2">+ Settlement Sheet</span> Add both, one each per player. The Settlement Sheet is reused every turn; the Campaign Turn sheet is one per turn.</div>
+        <div class="rule"><span class="rt">A mini-Season</span> Everything above, plus one Campaign Turn sheet per turn per player. Three battles is enough to see whether the loop holds.</div>
+      </div>
+    </div>
+
+    <div class="sec steel">
+      <div class="h"><span class="n">2</span> The sheets</div>
+      <div class="body">
+        <div class="grid">
+          <div class="card2"><div class="t"><a href="how-to-play.html">How to Play</a></div>
+            <div class="w">The rules, from the core test to scoring.</div>Read once, keep nearby.</div>
+          <div class="card2"><div class="t"><a href="setup.html">Set Up &amp; Scenario</a></div>
+            <div class="w">Build the board, deploy, play Take a Hold.</div>Includes the 9–12 density procedure.</div>
+          <div class="card2"><div class="t"><a href="reference-tables.html">Table References</a></div>
+            <div class="w">Every table you reach for mid-game.</div>Ranks, weapons, cover, conditions, morale.</div>
+          <div class="card2"><div class="t"><a href="crew-sheet.html">Unit Cards</a></div>
+            <div class="w">The 950-Credit mirror crew, 6 models.</div>Both players field it — isolates rules from list building.</div>
+          <div class="card2"><div class="t"><a href="list-building.html">Crew Builder</a> <span class="pill2">new</span></div>
+            <div class="w">Build a legal list without opening the rules.</div>Bodies, weapons, armour, the pyramid, Levels.</div>
+          <div class="card2"><div class="t"><a href="settlement-sheet.html">Settlement Sheet</a> <span class="pill2">new</span></div>
+            <div class="w">The 12"×36" canvas and all 23 structures.</div>Landscape. The grid <i>is</i> your raid board.</div>
+          <div class="card2"><div class="t"><a href="campaign-turn.html">Campaign Turn</a> <span class="pill2">new</span></div>
+            <div class="w">The three phases, in order, with Fate and Levels.</div>Nothing happens outside this sequence.</div>
+          <div class="card2"><div class="t"><a href="capture-sheet.html">Playtest Log</a></div>
+            <div class="w">One per game — what moves rules to Locked.</div>Fill it in <i>during</i> the game, not after.</div>
+          <div class="card2"><div class="t"><a href="scenario-board.html">Scenario &amp; Board</a></div>
+            <div class="w">Board recipes and terrain substitutions.</div></div>
+          <div class="card2"><div class="t"><a href="kit-bundle.html">Kit Bundle</a></div>
+            <div class="w">The battle set, all in one print-fitted file.</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec olive">
+      <div class="h"><span class="n">3</span> What you need at the table</div>
+      <div class="body">
+        <div class="rule"><span class="rt">Essential</span> <span class="cb">□</span> <b>1d10</b> per player (two is smoother) &nbsp; <span class="cb">□</span> tape measure in <b>inches</b> &nbsp; <span class="cb">□</span> a <b>3'×3'</b> surface &nbsp; <span class="cb">□</span> 2 crews of 3–6 models &nbsp; <span class="cb">□</span> terrain for <b>9–12</b> large features</div>
+        <div class="rule"><span class="rt">Tokens</span> You need markers for Stress (a count), Pinned, Down, Prone, Hidden, Ready, plus Fire/Bleed/Poison. <span class="small">Dice, beads or coins work. A printable set of 85 exists in <code>tts/assets/tokens/</code>.</span></div>
+        <div class="rule"><span class="rt">Terrain is the dial, not decoration</span> Count large features before you start. Density alone swung win rate <b>66 points</b> in simulation — more than any points cost can. <b>9–12, one per each of the nine 12" squares, 12 is a hard ceiling.</b> A sparse board hands it to shooters; a crowded one hands it to swarms.</div>
+        <div class="rule"><span class="rt">No models or terrain?</span> The Tabletop Simulator table in <code>tts/</code> is playable now — correct 36×36 board, density-checked terrain, tokens, and chat commands that automate the fiddly bookkeeping.</div>
+      </div>
+    </div>
+
+    <div class="sec rust">
+      <div class="h"><span class="n">4</span> What these tests are actually for</div>
+      <div class="body">
+        <div class="rule small">Roughly <b>6 million games</b> have been simulated against these rules, so the shape is not guesswork. But <b>every number is sim-derived, not table-derived</b> — nobody has played this. The point of a session is not to find out whether it works; it is to find the things a simulation structurally cannot see.</div>
+        <ol class="pk">
+          <li><b>Clock a real 6-round game</b> with 9–12 terrain, Reactions live, and one Event. <span class="small">Target: it should <i>feel</i> like ≤90 minutes. Reactions plus conditions plus Events is where a round inflates.</span></li>
+          <li><b>Campaign Start @ 500.</b> The sim actively contradicts this cap — a rifle-armed Leader plus a rifle Fighter leaves no room for a legal third body. Try to build a shooting crew and see what happens.</li>
+          <li><b>Did the Settlement Phase excite you?</b> Every phase should produce at least one purchase you actually wanted. If not, the economy sink problem is confirmed in play.</li>
+          <li><b>Dodge.</b> The engine AI cannot stress the escape-LOS case that motivated the half-MOV nerf. Only a table can.</li>
+          <li><b>A WND-3 veteran on a kill mission.</b> The sim shows 90%+ wipes; check whether scenario variety already absorbs it.</li>
+        </ol>
+        <div class="rule small"><b>Fill the Playtest Log during play.</b> The single most useful thing you can record is a moment where you had to stop and argue about what a rule meant — that is a rules defect, and it is invisible to every simulation.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="notes small">
+    Rules source of truth is the Obsidian vault's <b>Full Rules System v1</b> (audit fixes integrated 2026-08-08). These sheets are current to that. Where a sheet and the vault disagree, <b>the vault is right</b> and the sheet needs regenerating.
+  </div>
+</div>

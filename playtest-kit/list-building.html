@@ -1,0 +1,129 @@
+<!doctype html>
+<link rel="stylesheet" href="kit.css">
+<title>Settlements — Crew Builder</title>
+<style>
+  .fill{ display:inline-block; border-bottom:1px solid var(--ink); min-width:40px; }
+  .fill.lg{ min-width:110px; } .fill.xl{ min-width:200px; }
+  .cb{ font-size:11pt; margin-right:2px; }
+  table.build td{ height:22px; }
+  table.build td.c, table.build th.c{ text-align:center; }
+  .tot{ background:var(--wash,#f3f1ec); font-weight:700; }
+  .opt{ white-space:nowrap; margin-right:10px; display:inline-block; }
+</style>
+
+<div class="noprint">
+  <button class="btn" onclick="window.print()">🖨 Print</button>
+  Crew Builder — one per crew. Everything you need to build a legal list without opening the rules. Print A4.
+</div>
+
+<div class="sheet">
+  <div class="masthead">
+    <div class="title">Settlements<small>working title</small></div>
+    <div class="tag">Crew Builder</div>
+  </div>
+  <div class="lede">
+    Crew name <span class="fill xl">&nbsp;</span> &nbsp;·&nbsp; Player <span class="fill lg">&nbsp;</span> &nbsp;·&nbsp;
+    Format <span class="opt"><span class="cb">□</span> Match&nbsp;Play 1000</span><span class="opt"><span class="cb">□</span> Campaign&nbsp;Start 500</span><span class="opt"><span class="cb">□</span> Raid 750</span><span class="opt"><span class="cb">□</span> Pitched 1500</span>
+  </div>
+
+  <div class="cols">
+
+    <div class="sec">
+      <div class="h"><span class="n">1</span> What Credits actually buy</div>
+      <div class="body">
+        <div class="rule"><span class="rt">The core claim</span> Points buy <b>bodies and guns</b>. <b>Stats and skills are free</b> — rank already caps them, so pricing them again would double-count. The board prices stats; Credits price the two things whose value never depends on the mission.</div>
+        <div class="rule"><span class="rt">One number</span> You buy with Credits, and the Credits you <i>field</i> are your <b>Crew Rating</b>. Owning ≠ fielding: <b>stashed gear counts 0</b> toward Rating.</div>
+        <div class="rule"><span class="rt">Free to everyone</span> Fists · one <b>Light Melee</b> weapon · thick clothing. A civilian with a bat and a jacket.</div>
+        <div class="rule"><span class="rt">Carry limits</span> One armour · two hands (a Two-Handed weapon takes both) · up to <b>two</b> equipment items.</div>
+      </div>
+    </div>
+
+    <div class="sec steel">
+      <div class="h"><span class="n">2</span> Bodies</div>
+      <div class="body">
+        <table class="ref build">
+          <tr><th>Rank</th><th class="c">Stat pts</th><th>Tier caps at creation</th><th class="c">Skills</th><th class="c">Orders</th><th class="c">Match Play</th><th class="c">Camp. Start</th></tr>
+          <tr><td><b>Recruit</b></td><td class="c">3</td><td>none — no tiered stat</td><td class="c">0</td><td class="c">0</td><td class="c"><b>65</b></td><td class="c">65</td></tr>
+          <tr><td><b>Fighter</b></td><td class="c">5</td><td>2× T1</td><td class="c">max 2</td><td class="c">0</td><td class="c"><b>95</b></td><td class="c">75</td></tr>
+          <tr><td><b>Specialist</b></td><td class="c">7</td><td>1× T2 · 2× T1</td><td class="c">max 3</td><td class="c">1</td><td class="c"><b>165</b></td><td class="c">125</td></tr>
+          <tr><td><b>Leader</b></td><td class="c">9</td><td>1× T3 · 2× T2 · 4× T1</td><td class="c">max 4</td><td class="c">2</td><td class="c"><b>245</b></td><td class="c">170</td></tr>
+        </table>
+        <div class="rule"><span class="rt">Stat scale</span> −1 impaired · 0 civilian · <b>+1 dabble</b> (no tier, no skill) · <b>+2 = T1</b> · <b>+4 = T2</b> · <b>+6 = T3</b>. Max +6. Each +1 ≈ +10% on a test.</div>
+        <div class="rule"><span class="rt">Skills are exact</span> <b>One skill per tier a stat reaches</b> — the column above is the maximum, hit only if every point lands in a tiered stat. <span class="small">Fighter +2/+2/+1 = 2 skills · Leader +6/+2/+1 = 4. Campaign Start crews take 1 skill each instead.</span></div>
+        <div class="rule"><span class="rt">Fixed for all</span> <b>WND 1</b> · <b>MOV 6"</b>. Only the Tough skill and Level 7 ever raise WND, to a hard ceiling of <b>3</b>. Only Fleet raises MOV.</div>
+      </div>
+    </div>
+
+    <div class="sec olive">
+      <div class="h"><span class="n">3</span> The pyramid — is your list legal?</div>
+      <div class="body">
+        <div class="rule"><span class="rt">Match Play</span> <span class="cb">□</span> Exactly one Leader &nbsp; <span class="cb">□</span> every Specialist has two lower-rank fighters beneath it &nbsp; <span class="cb">□</span> every Recruit has a Fighter-or-better &nbsp; <span class="cb">□</span> minimum four models</div>
+        <div class="rule"><span class="rt">Campaign Start</span> <span class="cb">□</span> Exactly one Leader &nbsp; <span class="cb">□</span> minimum <b>three</b> models &nbsp; <span class="cb">□</span> every Specialist still has two lower ranks <span class="small">(the Recruit-per-Fighter rule is the only part dropped — a green crew can be all bodies, but not an all-Specialist elite)</span></div>
+        <div class="rule"><span class="rt">No unit cap</span> The pyramid and the budget do the work. At 1000 the legal maximum is about <b>11</b> fighters — a mob with bats.</div>
+        <div class="rule"><span class="rt">Roster vs crew</span> What you <i>own</i> is capped by housing: <b>12</b> body slots from the HQ, <b>+6</b> per Bunkhouse. No per-head upkeep.</div>
+      </div>
+    </div>
+
+    <div class="sec rust">
+      <div class="h"><span class="n">4</span> Weapons — built, not bought</div>
+      <div class="body">
+        <table class="ref build">
+          <tr><th>Class</th><th class="c">Cr</th><th class="c">Dmg</th><th class="c">Range</th><th>Min rank</th><th>Always has</th></tr>
+          <tr><td>Unarmed</td><td class="c">0</td><td class="c">+0</td><td class="c">melee</td><td>any</td><td>—</td></tr>
+          <tr><td>Light Melee</td><td class="c">0</td><td class="c">+1</td><td class="c">melee</td><td>any</td><td>free to everyone</td></tr>
+          <tr><td>One-Handed Melee</td><td class="c">40</td><td class="c">+2</td><td class="c">melee</td><td>Fighter</td><td>—</td></tr>
+          <tr><td>Heavy Melee</td><td class="c">80</td><td class="c">+3</td><td class="c">melee</td><td>Specialist</td><td>Two-Handed</td></tr>
+          <tr><td>Thrown</td><td class="c">20</td><td class="c">+1</td><td class="c">6"</td><td>any</td><td>usable in melee · not Loud</td></tr>
+          <tr><td>Sidearm</td><td class="c">40</td><td class="c">+2</td><td class="c">8"</td><td>any</td><td>may fire while Engaged · Loud</td></tr>
+          <tr><td>Standard Ranged</td><td class="c">100</td><td class="c">+3</td><td class="c">18"</td><td>Fighter</td><td>Two-Handed · Loud</td></tr>
+          <tr><td>Heavy Ranged</td><td class="c">160</td><td class="c">+3</td><td class="c">24"</td><td>Specialist</td><td>Two-Handed · Loud</td></tr>
+        </table>
+        <div class="rule"><span class="rt">Characteristics</span> ~30 Cr each, one slot: Brutal · Armour&nbsp;Piercing · Accurate · Spread · Long&nbsp;Range · Balanced · Defensive · Cleaving · Breaching · Concealable · Quiet · Compact · Blast · Smoke — plus one <b>payload</b> (Concussive · Crippling · Blinding · Shocking · Toxic · Incendiary · <b>Bleeding</b> · Heavy&nbsp;Impact · Hook · Suppressive).</div>
+        <div class="rule"><span class="rt">Drawbacks</span> Refund Credits, take no slot, <b>max 2</b>: Short&nbsp;Range · Slow · Unstable · Cumbersome · Single-Use.</div>
+        <div class="rule"><span class="rt">Hard ceilings</span> Damage stops at <b>+4</b> (Brutal only, and ranged needs Short Range). Range stops at <b>24"</b> — deployment zones are 24" apart. <b>One payload per weapon.</b></div>
+      </div>
+    </div>
+
+    <div class="sec">
+      <div class="h"><span class="n">5</span> Armour &amp; equipment</div>
+      <div class="body">
+        <table class="ref build">
+          <tr><th>Item</th><th class="c">Cr</th><th>Effect</th></tr>
+          <tr><td>None / thick clothing</td><td class="c">0</td><td>—</td></tr>
+          <tr><td>Light armour</td><td class="c">60</td><td>−1 on the Injury roll against you</td></tr>
+          <tr><td>Heavy armour</td><td class="c">100</td><td>−2 on the Injury roll against you</td></tr>
+          <tr><td>Med-Kit</td><td class="c">40</td><td>cancels the −2 on Stabilize / treating Bleed &amp; Poison</td></tr>
+          <tr><td>Breach Kit</td><td class="c">40</td><td>+1 to the hack test</td></tr>
+          <tr><td>Exploit Suite</td><td class="c">80</td><td>+2 to the hack test</td></tr>
+          <tr><td>Deployable</td><td class="c">30–180</td><td>turret · mine · trap · beacon</td></tr>
+        </table>
+        <div class="rule"><span class="rt">Armour never affects the hit</span> Cover protects against <i>being hit</i>; armour protects against <i>being hurt</i>.</div>
+      </div>
+    </div>
+
+    <div class="sec steel">
+      <div class="h"><span class="n">6</span> Your crew</div>
+      <div class="body">
+        <table class="ref build">
+          <tr><th>#</th><th>Name</th><th>Rank</th><th class="c">Body</th><th>Weapons / armour / kit</th><th class="c">Gear</th><th class="c">Total</th></tr>
+          <tr><td class="c">1</td><td></td><td></td><td class="c"></td><td></td><td class="c"></td><td class="c"></td></tr>
+          <tr><td class="c">2</td><td></td><td></td><td class="c"></td><td></td><td class="c"></td><td class="c"></td></tr>
+          <tr><td class="c">3</td><td></td><td></td><td class="c"></td><td></td><td class="c"></td><td class="c"></td></tr>
+          <tr><td class="c">4</td><td></td><td></td><td class="c"></td><td></td><td class="c"></td><td class="c"></td></tr>
+          <tr><td class="c">5</td><td></td><td></td><td class="c"></td><td></td><td class="c"></td><td class="c"></td></tr>
+          <tr><td class="c">6</td><td></td><td></td><td class="c"></td><td></td><td class="c"></td><td class="c"></td></tr>
+          <tr><td class="c">7</td><td></td><td></td><td class="c"></td><td></td><td class="c"></td><td class="c"></td></tr>
+          <tr><td class="c">8</td><td></td><td></td><td class="c"></td><td></td><td class="c"></td><td class="c"></td></tr>
+          <tr class="tot"><td colspan="6">CREW RATING &nbsp; <span class="small">(must be ≤ the format cap)</span></td><td class="c"></td></tr>
+        </table>
+        <div class="rule"><span class="rt">Campaign crews</span> Each <b>Level</b> a fighter has gained adds its own Credits to that fighter: 15 per stat point · 20/35/55 per T1/T2/T3 skill · 45 for the Level-7 wound. A fully-levelled fighter carries <b>+245</b> over their body. <b>Scars cost nothing and refund nothing.</b></div>
+        <div class="rule"><span class="rt">Why that matters</span> Veterans crowd out rookies. The longer a campaign runs the <i>smaller</i> your fielded crew gets — that is the anti-snowball valve, and every list becomes a real question: field my best, or field the most?</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="notes small">
+    Costs are on the <b>1000-Credit</b> scale (the 5/8/16/24 ladder is retired). Match Play numbers are sim-validated for spread, not table-validated. <b>Campaign Start at 500 is explicitly unvalidated</b> — the sim contradicts it, and a rifle-armed Leader plus a rifle Fighter leaves no room for a legal third body. Log what happens.
+  </div>
+</div>

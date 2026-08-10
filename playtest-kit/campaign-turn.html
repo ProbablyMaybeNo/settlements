@@ -1,0 +1,120 @@
+<!doctype html>
+<link rel="stylesheet" href="kit.css">
+<title>Settlements — Campaign Turn</title>
+<style>
+  .fill{ display:inline-block; border-bottom:1px solid var(--ink); min-width:40px; }
+  .fill.lg{ min-width:110px; } .fill.xl{ min-width:200px; }
+  .cb{ font-size:11pt; margin-right:2px; }
+  .opt{ white-space:nowrap; margin-right:10px; display:inline-block; }
+  table.turn td{ height:20px; }
+  table.turn td.c, table.turn th.c{ text-align:center; }
+  ol.steps2{ margin:2px 0 2px 18px; padding:0; }
+  ol.steps2 li{ margin-bottom:2px; }
+  .lv{ font-variant-numeric:tabular-nums; }
+</style>
+
+<div class="noprint">
+  <button class="btn" onclick="window.print()">🖨 Print</button>
+  Campaign Turn — one per turn, per player. Work top to bottom: nothing happens outside this order. Print A4.
+</div>
+
+<div class="sheet">
+  <div class="masthead">
+    <div class="title">Settlements<small>working title</small></div>
+    <div class="tag">Campaign Turn</div>
+  </div>
+  <div class="lede">
+    Settlement <span class="fill xl">&nbsp;</span> &nbsp;·&nbsp; Turn <span class="fill">&nbsp;</span> &nbsp;·&nbsp;
+    Battle <span class="fill">&nbsp;</span> of 10 <span class="small">(a Season ends at 10 battles each, or when someone Controls 4 territories)</span>
+  </div>
+
+  <div class="cols">
+
+    <div class="sec">
+      <div class="h"><span class="n">1</span> Post-Battle — the moment the game ends</div>
+      <div class="body">
+        <ol class="steps2">
+          <li><b>Survival.</b> A fighter is <b>Safe</b> — no roll — if it is still standing with the crew, left via a friendly edge, <i>or</i> ends in base contact with a friendly. Everyone else rolls Fate.</li>
+          <li><b>Level-ups.</b> Apply every qualifying trigger from the battle (kills · Glorious Deeds · surviving · objectives held), capped at <b>6 distinct sources per fighter</b>. Resolve any Level crossed now.</li>
+          <li><b>Bank Resources.</b> Add the battle's Credits and Materials. <span class="small">Typical win ≈ 65 Cr + 33 Mat.</span></li>
+        </ol>
+        <table class="ref turn">
+          <caption>Fate — 1d10, +1 with a Med-bay, +2 if it has a worker (that is also the cap)</caption>
+          <tr><th class="c">d10</th><th>Result</th><th>Effect</th></tr>
+          <tr><td class="c"><b>1</b></td><td><b>Dead</b></td><td>removed permanently — <b>a natural 1 is always Dead, whatever your modifiers</b></td></tr>
+          <tr><td class="c">2–3</td><td>Grievous injury</td><td>severed leg (permanent −2 MOV) <i>or</i> severed arm (permanent −1 STR, no two-handed weapons)</td></tr>
+          <tr><td class="c">4–5</td><td>Captured</td><td><b>Recruits and Fighters only</b> — a Specialist or Leader re-rolls into 6–8</td></tr>
+          <tr><td class="c">6–8</td><td>Lasting scar</td><td>gouged eye (−1 ranged, permanent) · broken leg/arm (−1 MOV or STR, <i>next battle only</i>) · concussion (−1 all rolls, next battle) · deep scar (cosmetic)</td></tr>
+          <tr><td class="c">9</td><td>Full recovery</td><td>no injury; starts the next battle at <b>1 Stress</b></td></tr>
+          <tr><td class="c"><b>10</b></td><td><b>Hardened</b></td><td>no injury <i>and</i> one free Level immediately — <b>a natural 10 is always Hardened</b></td></tr>
+        </table>
+        <div class="rule small"><b>2–3 and 6–8 are Scars</b> for the third-Scar retirement rule. <b>Captured is not a Scar.</b> Scars never touch Crew Rating — pure penalty, no refund.</div>
+        <div class="rule"><span class="rt">Fate rolled</span> <span class="fill xl">&nbsp;</span> &nbsp; <span class="rt">Results</span> <span class="fill xl">&nbsp;</span></div>
+      </div>
+    </div>
+
+    <div class="sec steel">
+      <div class="h"><span class="n">2</span> The Level track</div>
+      <div class="body">
+        <div class="rule"><span class="rt">Primary</span> The stat carrying the fighter's highest investment at creation (your choice on ties). <b>It never changes</b> — it names their Primary skill path. <b>There is no declared Secondary.</b></div>
+        <table class="ref turn lv">
+          <tr><th class="c">Lv</th><th>Grants</th><th class="c">Cr</th><th class="c">Lv</th><th>Grants</th><th class="c">Cr</th></tr>
+          <tr><td class="c">1</td><td>+1 <b>any</b> stat</td><td class="c">15</td><td class="c">6</td><td><b>Skill slot</b></td><td class="c">35</td></tr>
+          <tr><td class="c">2</td><td>+1 Primary</td><td class="c">15</td><td class="c">7</td><td><b>+1 WND</b></td><td class="c">45</td></tr>
+          <tr><td class="c">3</td><td><b>Skill slot</b></td><td class="c">20</td><td class="c">8</td><td>+1 <b>any</b> stat</td><td class="c">15</td></tr>
+          <tr><td class="c">4</td><td>+1 <b>any</b> stat</td><td class="c">15</td><td class="c">9</td><td>+1 Primary</td><td class="c">15</td></tr>
+          <tr><td class="c">5</td><td>+1 Primary</td><td class="c">15</td><td class="c">10</td><td><b>Skill slot</b> — capstone</td><td class="c">55</td></tr>
+        </table>
+        <div class="rule"><span class="rt">Floating levels (1, 4, 8)</span> Add +1 to <b>any</b> stat, chosen when the level is earned — Primary included. A fighter's direction emerges from play, not from a box ticked at hire. Only the <b>+6 campaign cap</b> limits growth; creation tier caps do not apply.</div>
+        <div class="rule"><span class="rt">Skill slots (3, 6, 10)</span> Declare <b>any</b> path, then roll on any tier that path's stat has <b>unlocked: +2 → T1 · +4 → T2 · +6 → T3</b>. Roll 3 on that tier's chart, reroll duplicates, <b>choose 1</b>. Your Primary path always counts as unlocked at T1, so a slot is never dead. <span class="small">Cross-path picks are legal and cost you your own capstone — a real trade.</span></div>
+        <div class="rule"><span class="rt">Ceilings</span> A full track is <b>+245 Cr</b>, 6 stat points, 4 skills, one wound. <b>MOV never rises from Levels</b> (Fleet only). <b>WND caps at 3</b> (Level 7 + Tough) — nothing may push past it. A fighter caps at Level 10.</div>
+        <div class="rule"><span class="rt">Third Scar</span> Forced retirement — choose: <span class="opt"><span class="cb">□</span> reassign to Worker</span><span class="opt"><span class="cb">□</span> one last mission</span><span class="opt"><span class="cb">□</span> Special Treatment <span class="small">(T2 Med-bay, <b>once per career</b>)</span></span><span class="opt"><span class="cb">□</span> retire</span></div>
+      </div>
+    </div>
+
+    <div class="sec olive">
+      <div class="h"><span class="n">3</span> Settlement Phase</div>
+      <div class="body">
+        <ol class="steps2">
+          <li><b>Build &amp; upgrade</b> against the catalogue — spend Materials. <span class="small">(Settlement Sheet)</span></li>
+          <li><b>Assign or reassign workers.</b> Reassigning ends the old benefit at once; the new one produces <i>next</i> phase.</li>
+          <li><b>Assign Power</b> across powered structures. Anything uncovered is <b>Disabled</b>.</li>
+          <li><b>Resolve pending Captured decisions</b> — Ransom or Brainwash due this phase.</li>
+          <li><b>Resolve third-Scar retirements.</b></li>
+          <li><b>Dispatch actions</b> — one per HQ tier (I=1 · II=2 · III=3): <b>Scout</b> (reveal a territory's Twist or hidden Side Objective) or <b>Scavenge</b> (roll that territory's Loot table, no battle). <span class="small">Sabotage-by-dispatch is deliberately not in v1 — wrecking a structure needs a raid.</span></li>
+          <li><b>Check caps.</b> Now, and only now: anything over cap is <b>lost</b>.</li>
+        </ol>
+        <div class="rule"><span class="rt">Captured</span> Held for the owner's next battle. The owner may declare a <b>rescue Raid</b> first — <b>if the captor won't accept it inside that window the prisoner goes free</b>. Otherwise the captor must choose: <b>Ransom</b> (half the fighter's Credits; refuse and they're lost as Dead) or <b>Brainwash</b> (upgraded Holding Cells; opposed 1d10+INT, two wins = permanent defection, any loss = they escape home).</div>
+        <div class="rule"><span class="rt">Dispatched</span> <span class="fill xl">&nbsp;</span> &nbsp; <span class="rt">Result</span> <span class="fill xl">&nbsp;</span></div>
+      </div>
+    </div>
+
+    <div class="sec rust">
+      <div class="h"><span class="n">4</span> Battle Prep</div>
+      <div class="body">
+        <ol class="steps2">
+          <li><b>Choose the territory</b> — and therefore the scenario, from its card.</li>
+          <li><b>Set the Crew Rating cap:</b> standard 1000 · raid 750 · pitched 1500 · Campaign Start 500.</li>
+          <li><b>Build the roster</b> — which owned fighters to field (within housing), equipped within the cap. <span class="small">(Crew Builder)</span></li>
+          <li><b>Resolve setup bonuses</b> — Faction rule, Location benefit, territory-card modifiers.</li>
+          <li><b>Roll the Twist</b> once deployment is set: 1 Blackout (LOS 12") · 2 Live Board · 3 Reinforcements (R3, each returns one Down) · 4 Scavengers · 5 Foul Weather (open is Difficult) · 6 Clean.</li>
+        </ol>
+        <div class="rule"><span class="rt">Season Score</span> Per Controlled territory <b>3</b> · per structure built after founding <b>1</b> · per fighter at Level 5+ still on the roster <b>1</b>. Tiebreak: banked Cr + Mat. <span class="small">Season ends at 10 battles each, or instantly if someone Controls 4 territories.</span></div>
+        <div class="rule"><span class="rt">Running total</span> Territories <span class="fill">&nbsp;</span>×3 &nbsp;+&nbsp; structures <span class="fill">&nbsp;</span> &nbsp;+&nbsp; Lv5+ fighters <span class="fill">&nbsp;</span> &nbsp;=&nbsp; <b><span class="fill">&nbsp;</span></b></div>
+      </div>
+    </div>
+
+    <div class="sec">
+      <div class="h"><span class="n">5</span> Glorious Deeds — once per fighter per battle</div>
+      <div class="body">
+        <div class="rule small"><b>Daredevil</b> clear a gap on a Jump/Leap · <b>Wrecking Crew</b> kill with a terrain verb · <b>Duelist</b> win a head-to-head melee · <b>Last One Standing</b> · <b>Medic</b> revive a Down friendly · <b>Steady Hand</b> Rally or Talk Down · <b>Ghost</b> never targeted all game · <b>Ambush Predator</b> land an Ambush · <b>Trapper</b> kill with a trap or deployable · <b>Against the Odds</b> win a fight at 2+ Stress. Plus 1–5 Territory Deeds per card.</div>
+        <div class="rule"><span class="rt">Earned this battle</span> <span class="fill xl">&nbsp;</span> <span class="fill xl">&nbsp;</span></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="notes small">
+    <b>What to watch for and log:</b> did the Settlement Phase produce at least one purchase you were <i>excited</i> about? Did it take under 15 minutes? Did any banked number have nowhere to go? Did the Captured thread resolve without argument? Those four answers are what move the campaign layer from Drafted to Locked.
+  </div>
+</div>
