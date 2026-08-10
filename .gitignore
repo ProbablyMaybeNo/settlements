@@ -36,4 +36,8 @@ Thumbs.db
 tts/Settlements.json
 tts/pulled/
 tts/assets/models/*_assembly.stl
-tts/assets/gallery/
+# Gallery thumbnails are regenerable (1.4MB of PNGs) — but numbers.json is NOT
+# disposable: themes.py and spawn_picks.py address models BY the numbers in it,
+# so without it those pick lists cannot be resolved on a fresh clone.
+tts/assets/gallery/thumbs/
+tts/assets/gallery/index.html
