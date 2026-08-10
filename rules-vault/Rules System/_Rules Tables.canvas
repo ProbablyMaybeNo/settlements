@@ -46,8 +46,7 @@
 		{"id":"f0141","type":"file","file":"Settlements/Rules System/Skill Paths.md","subpath":"#Expertise / Knowledge (INT)#Tier 3 — Amazing","x":11975,"y":3744,"width":760,"height":814},
 		{"id":"t0142","type":"text","text":"**Skill Paths · Tier 1 — Good**","x":11975,"y":4584,"width":760,"height":80,"color":"2"},
 		{"id":"f0119","type":"file","file":"Settlements/Rules System/Skill Paths.md","subpath":"#Combat / Muscle (STR)#Tier 1 — Good","x":11125,"y":664,"width":760,"height":580},
-		{"id":"t0120","type":"text","text":"**Skill Paths · Tier 2 — Great**","x":11125,"y":1270,"width":760,"height":80,"color":"2"},
-		{"id":"f0121","type":"file","file":"Settlements/Rules System/Skill Paths.md","subpath":"#Combat / Muscle (STR)#Tier 2 — Great","x":11125,"y":1324,"width":760,"height":606},
+		{"id":"t0120","type":"text","text":"**Skill Paths · Tier 2 — Great**","x":11125,"y":1244,"width":760,"height":106,"color":"2"},
 		{"id":"t0122","type":"text","text":"**Skill Paths · Tier 3 — Amazing**","x":11125,"y":1956,"width":760,"height":80,"color":"2"},
 		{"id":"t0138","type":"text","text":"**Skill Paths · Tier 2 — Great**","x":11975,"y":2848,"width":760,"height":80,"color":"2"},
 		{"id":"t0183","type":"text","text":"**Board Representation · Terrain**","x":16785,"y":0,"width":1180,"height":80,"color":"6"},
@@ -245,7 +244,8 @@
 		{"id":"t0233","type":"text","text":"**Deployables Sim — Findings · 3 · Turrets price out — except Burst, now fixed**","x":21616,"y":2855,"width":1890,"height":110,"color":"6"},
 		{"id":"f0234","type":"file","file":"Settlements/Rules System/Deployables Sim — Findings.md","subpath":"#^tbl-3-turrets-price-out-except-burst-now-fixed","x":21616,"y":2942,"width":1890,"height":387},
 		{"id":"t0225","type":"text","text":"**Skill Sim — Findings · 4 · Bravery path — break-rate impact (NRV+2)**","x":21616,"y":600,"width":1363,"height":110,"color":"6"},
-		{"id":"f0226","type":"file","file":"Settlements/Rules System/Skill Sim — Findings.md","subpath":"#^tbl-4-bravery-path-break-rate-impact-nrv-2","x":21616,"y":687,"width":1363,"height":338}
+		{"id":"f0226","type":"file","file":"Settlements/Rules System/Skill Sim — Findings.md","subpath":"#^tbl-4-bravery-path-break-rate-impact-nrv-2","x":21616,"y":687,"width":1363,"height":338},
+		{"id":"f0121","type":"file","file":"Settlements/Rules System/Skill Paths.md","subpath":"#Combat / Muscle (STR)#Tier 2 — Great","x":11125,"y":1350,"width":760,"height":576}
 	],
 	"edges":[],
 	"metadata":{
