@@ -12,6 +12,7 @@ Visual, editable map of the whole rules system, ported from the Notion **Build R
 
 > 🧮 **Every table in the system, side by side:** [[_Rules Tables.canvas|the Rules Tables canvas]] — 91 live-embedded tables plus the skill and condition catalogues, grouped by system, with printed points costs. Use it when designing something new to see what components already exist. Regenerate after adding a table: `py -3.13 scripts/build_rules_tables_canvas.py` in the Settlements repo.
 
+> 🗺️ **The whole project, all eight phases:** [[SETTLEMENTS PROJECT ROADMAP]] — draft → references → testing → setting → lock → app → visuals → release. Everything in *this* note lives inside its Phase 1.
 > 📋 **Start here to build it:** [[Rules System — Master Roadmap]] — the ordered, tickable checklist of every decision needed to reach a complete, book-ready rules system.
 > 📖 **New to Obsidian?** [[Obsidian Guide — Building Settlements]] — a complete noob-to-fluent guide for writing the rules here (interface, links, the workflow, every plugin, your first session).
 > ⌨️ **Keep this docked while you work:** [[Quick Reference — Writing Rules]] — the workflow + every key/command on one screen (right-click its tab → Move to right sidebar).
