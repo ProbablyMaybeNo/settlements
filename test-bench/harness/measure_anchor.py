@@ -39,30 +39,7 @@ except Exception:
 
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 4000
 
-# The three mirror lists conditions2d.py uses, reproduced exactly so the numbers
-# are comparable to the run this is adjudicating.
-FIRETEAM6 = [('Boss', 'Leader', 'rifle', 'none', dict(dex=4, str=2)),
-             ('Marks', 'Specialist', 'rifle', 'none', dict(dex=4)),
-             ('Gun1', 'Fighter', 'pistol', 'none', dict(dex=2)),
-             ('Gun2', 'Fighter', 'pistol', 'none', dict(dex=2)),
-             ('R1', 'Recruit', 'pistol', 'none', dict(dex=1)),
-             ('R2', 'Recruit', 'bat', 'none', dict(str=1))]
-
-SQUAD8 = [('Boss', 'Leader', 'rifle', 'none', dict(dex=2, str=2, nrv=2)),
-          ('F1', 'Fighter', 'pistol', 'none', dict(dex=2)),
-          ('F2', 'Fighter', 'pistol', 'none', dict(dex=2)),
-          ('F3', 'Fighter', 'pistol', 'none', dict(dex=2)),
-          ('R1', 'Recruit', 'pistol', 'none', dict(dex=1)),
-          ('R2', 'Recruit', 'pistol', 'none', dict(dex=1)),
-          ('R3', 'Recruit', 'bat', 'none', dict()),
-          ('R4', 'Recruit', 'bat', 'none', dict())]
-
-ARMOURED6 = [('Boss', 'Leader', 'rifle', 'heavy', dict(dex=4, str=2)),
-             ('Marks', 'Specialist', 'rifle', 'heavy', dict(dex=4)),
-             ('Gun1', 'Fighter', 'pistol', 'light', dict(dex=2)),
-             ('Gun2', 'Fighter', 'pistol', 'light', dict(dex=2)),
-             ('R1', 'Recruit', 'pistol', 'light', dict(dex=1)),
-             ('R2', 'Recruit', 'bat', 'light', dict(str=1))]
+from crews import ARMOURED6, FIRETEAM6, SQUAD8  # noqa: E402
 
 LISTS = {'Fireteam (6)': FIRETEAM6, 'Squad (8)': SQUAD8, 'Armoured (6)': ARMOURED6}
 SCEN = ('hold', 'annihilate')

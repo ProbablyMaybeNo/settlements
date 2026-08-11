@@ -158,8 +158,17 @@ check("AP is worth ~+10% against Heavy armour",
 
 # --- every payload trait maps to a real condition ---------------------------
 g, a, b = fresh_game()
+# 'null_payload' is a HARNESS INSTRUMENT, not a game trait: it exists to be inert
+# so that a mirror against it measures exactly -value(Pinned) — the baseline every
+# ranged payload price is quoted against, and which has never been measured. It is
+# exempted here rather than removed, because the check below is the one that would
+# catch a real trait going inert, and that check is worth keeping sharp.
+INSTRUMENTS = {'null_payload'}
+
 unmapped = []
 for trait, payload in PAYLOAD_TRAITS.items():
+    if trait in INSTRUMENTS:
+        continue
     _, x, y = fresh_game()
     before = (y.fire, y.bleed, y.poison, y.blind, y.shocked, y.off_balance, y.hobbled, y.pos)
     _.apply_payload(x, y, True, payload)
@@ -168,6 +177,19 @@ for trait, payload in PAYLOAD_TRAITS.items():
         unmapped.append(trait)
 check("Every payload trait changes the target's state",
       not unmapped, f"inert: {unmapped}" if unmapped else "")
+
+# The instrument must be inert in the state channels AND must suppress Pinned —
+# if it ever stopped suppressing Pinned it would silently measure zero instead of
+# -value(Pinned), which is the one failure that would look like a real result.
+_, x, y = fresh_game()
+_.apply_payload(x, y, True, 'none')
+check("null_payload instrument suppresses Pinned on a ranged hit",
+      not y.pinned, "instrument applied Pinned — it would measure 0, not -value(Pinned)")
+
+_, x, y = fresh_game()
+_.apply_payload(x, y, True, None)
+check("a ranged hit with NO payload still applies Pinned (the baseline itself)",
+      y.pinned, "baseline lost Pinned — the instrument's comparison arm is broken")
 
 print("=" * 72)
 print(f"{'ALL CHECKS PASS' if not FAILS else str(len(FAILS)) + ' FAILURE(S): ' + ', '.join(FAILS)}")

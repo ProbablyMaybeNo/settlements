@@ -77,6 +77,8 @@ class Result:
     per_applied_se: float = 0.0
     significant: bool = False
     buffed_winrate: float = 0.0
+    draw_rate: float = 0.0
+    degenerate: bool = False
     notes: list = field(default_factory=list)
 
     def line(self) -> str:
@@ -154,7 +156,25 @@ def measure(spec, effect, scenario="hold", n=2000, seed=20260811, alpha=1.96):
         per_applied_se=se / denom,
         significant=abs(delta) > alpha * se,
         buffed_winrate=statistics.fmean(test),
+        draw_rate=sum(1 for t in test if t == 0.5) / n,
     )
+
+    # DEGENERATE CELL GUARD. A scenario that cannot resolve for this crew returns
+    # a delta of exactly zero no matter how large the effect, and averaging that
+    # structural zero with a real number halves it silently. Measured live: a
+    # uniform RIFLE crew mirror draws 100% of Hold games - both sides sit on their
+    # own objectives and neither can displace the other - while a uniform SLEDGE
+    # crew draws 5.5% of the same scenario. Without this flag the DEX ladder came
+    # out at exactly half its true value and looked entirely plausible.
+    if r.draw_rate >= 0.95:
+        r.degenerate = True
+        r.significant = False
+        r.notes.append(
+            f"DEGENERATE: {r.draw_rate:.1%} of games drew, so this scenario cannot "
+            "resolve for this crew. The delta is structurally zero and carries no "
+            "information. Exclude it - do NOT average it with a live scenario."
+        )
+
     if applied == 0:
         r.notes.append("effect reached NO model - divisor fell back to models present")
     elif applied < present:

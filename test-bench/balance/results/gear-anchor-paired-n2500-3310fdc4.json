@@ -1,0 +1,135 @@
+{
+  "name": "gear-anchor-paired-n2500",
+  "question": "What is +1 Damage worth in win-points per model? Adjudicates the 1.12 vs 0.90 scale-constant dispute that multiplies every Credits figure in the project.",
+  "values": {
+    "anchor_wp_per_model": 1.1622,
+    "ci95_lo": 1.0008,
+    "ci95_hi": 1.3237,
+    "pooled_se": 0.0824,
+    "cells": {
+      "Fireteam (6)/hold": 0.92,
+      "Fireteam (6)/annihilate": 1.0833,
+      "Squad (8)/hold": 1.1,
+      "Squad (8)/annihilate": 1.14,
+      "Armoured (6)/hold": 1.1733,
+      "Armoured (6)/annihilate": 1.5567
+    }
+  },
+  "raw_cells": [
+    {
+      "list": "Fireteam (6)",
+      "scenario": "hold",
+      "delta": 5.52,
+      "se": 1.239,
+      "per_applied": 0.92,
+      "n_applied": 6,
+      "n_present": 6,
+      "significant": true
+    },
+    {
+      "list": "Fireteam (6)",
+      "scenario": "annihilate",
+      "delta": 6.5,
+      "se": 1.346,
+      "per_applied": 1.0833,
+      "n_applied": 6,
+      "n_present": 6,
+      "significant": true
+    },
+    {
+      "list": "Squad (8)",
+      "scenario": "hold",
+      "delta": 8.8,
+      "se": 1.357,
+      "per_applied": 1.1,
+      "n_applied": 8,
+      "n_present": 8,
+      "significant": true
+    },
+    {
+      "list": "Squad (8)",
+      "scenario": "annihilate",
+      "delta": 9.12,
+      "se": 1.37,
+      "per_applied": 1.14,
+      "n_applied": 8,
+      "n_present": 8,
+      "significant": true
+    },
+    {
+      "list": "Armoured (6)",
+      "scenario": "hold",
+      "delta": 7.04,
+      "se": 1.297,
+      "per_applied": 1.1733,
+      "n_applied": 6,
+      "n_present": 6,
+      "significant": true
+    },
+    {
+      "list": "Armoured (6)",
+      "scenario": "annihilate",
+      "delta": 9.34,
+      "se": 1.293,
+      "per_applied": 1.5567,
+      "n_applied": 6,
+      "n_present": 6,
+      "significant": true
+    }
+  ],
+  "params": {
+    "N_per_cell": 2500,
+    "method": "paired mirror, differenced per game on a shared seed",
+    "lists": [
+      "Fireteam (6)",
+      "Squad (8)",
+      "Armoured (6)"
+    ],
+    "scenarios": [
+      "hold",
+      "annihilate"
+    ]
+  },
+  "caveats": [
+    "Applies to melee AND ranged: injure() is reached from both fight() and shoot(), so unlike the payload traits this measurement carries no melee/ranged bias.",
+    "Hold and Annihilate are reported per cell and then averaged for the headline; the per-cell spread is printed because averaging scenarios hides trait-by-scenario divergence (see T6).",
+    "This fixes the win-points side only. The 15 Credits it is pegged to remains a CHOICE, not a measurement."
+  ],
+  "engine": {
+    "combined": "3310fdc4941b8a81",
+    "files": {
+      "engine.py": "84c262f20de4e500",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "e82680eb7df17157",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "git": {
+    "commit": "56e854b5d3d5",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/test_conditions.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/test_conditions.py",
+      ".cursor/hooks/state/continual-learning-index.json",
+      "test-bench/balance/results/gear-anchor-paired-n4000-3310fdc4.json",
+      "test-bench/balance/results/value-of-pinned-n4000-3310fdc4.json",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py"
+    ]
+  },
+  "python": "3.13.7",
+  "schema": 1
+}

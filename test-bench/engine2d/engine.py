@@ -99,6 +99,7 @@ PAYLOAD_TRAITS = {
     'crippling': 'hobbled',          # Crippling
     'heavy_impact': 'heavy_impact',  # Heavy Impact — push 2"
     'hook': 'hook',                  # Hook — pull 1", melee only
+    'null_payload': 'none',          # harness instrument: suppresses Pinned, adds nothing
 }
 
 
@@ -314,6 +315,15 @@ class Game:
                 dfn.pinned = True
         elif payload == 'hook':
             self.push(dfn, att.pos, -1.0)
+        elif payload == 'none':
+            # MEASUREMENT INSTRUMENT, not a game rule. A payload that does
+            # nothing still SUPPRESSES the ordinary ranged result below, so a
+            # mirror against this variant measures exactly -value(Pinned).
+            # That baseline is what every ranged payload price is quoted against
+            # and it has never been measured, which is why "Concussive measures
+            # zero" cannot currently be distinguished from "Concussive is worth
+            # exactly what Pinned is worth, and replaces it".
+            pass
         elif ranged:                      # no payload: the ordinary ranged result
             dfn.pinned = True
             if 'suppressive' in WEAPONS[att.weapon]['traits']:
@@ -336,6 +346,20 @@ class Game:
             return True
         self.apply_payload(att, dfn, ranged, payload)
         return False
+
+    def payload_of(self, att):
+        """The one payload this weapon delivers, per the one-payload cap (§15).
+
+        Shared by shoot() and fight() so the two cannot drift apart again — they
+        already had, for the whole life of the project: fight() called injure()
+        with no payload argument at all, so a melee weapon's payload never fired
+        once. Every payload price on record is therefore a RANGED-only
+        measurement, while conditions2d.py counted melee carriers in its divisor.
+        Hook (pull 1", melee only) could never fire under any circumstances.
+        """
+        traits = WEAPONS[att.weapon]['traits']
+        loads = [PAYLOAD_TRAITS[t] for t in traits if t in PAYLOAD_TRAITS]
+        return loads[0] if loads else None
 
     def _resolve_hit(self, att, dfn):
         traits = WEAPONS[att.weapon]['traits']
@@ -415,13 +439,14 @@ class Game:
                  min(max(u.pos[1] + dy / L * d, 0.0), self.size))
 
     def fight(self, att, dfn, charge=0):
+        load = self.payload_of(att)
         if dfn.down:
-            self.injure(att, dfn, False)         # melee auto-hits a Down fighter
+            self.injure(att, dfn, False, payload=load)   # melee auto-hits a Down fighter
             return
         if opposed(att.stats['str'] + charge - att.penalty(), dfn.stats['str'] - dfn.penalty()):
             if 'knockback' in att.skills:        # skill: shove the loser 2" (can break a hold)
                 self.push(dfn, att.pos, 2.0, pusher=att)
-            self.injure(att, dfn, False)
+            self.injure(att, dfn, False, payload=load)
         else:
             self.add_stress(att, 1)              # lost the clash: Shaken
 
