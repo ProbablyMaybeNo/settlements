@@ -1,0 +1,43 @@
+{
+  "name": "anchor-control-n1200",
+  "question": "CONTROL: reproduce the documented +1 Damage anchor (1.12 wp/model) and the M4 payload table on the merged engine, BEFORE the melee-payload fix. Closes the 24pct scale-constant dispute (1.1183 1D vs 1.12 conditions2d vs 0.90385 primitives2d). Payload rows here are ranged-only by construction - fight() passes no payload.",
+  "values": {},
+  "raw_cells": [],
+  "params": {
+    "harness": "test-bench\\balance\\conditions2d.py",
+    "argv": [
+      "1200"
+    ],
+    "status": "ok"
+  },
+  "caveats": [
+    "stdout captured verbatim and NOT parsed; the .txt beside this envelope is the record"
+  ],
+  "engine": {
+    "combined": "52c2e26396eddc4b",
+    "files": {
+      "engine.py": "9c5ffc3d47dfbb39",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "e82680eb7df17157",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "git": {
+    "commit": "a82f96bd4179",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      ".cursor/hooks/state/continual-learning-index.json",
+      "test-bench/harness/"
+    ]
+  },
+  "python": "3.13.7",
+  "schema": 1
+}
