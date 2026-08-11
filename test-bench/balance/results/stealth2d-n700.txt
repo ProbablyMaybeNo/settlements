@@ -1,0 +1,65 @@
+
+========================================================================================================
+HARNESS CONTROLS — identical crews, no stealth. Any drift from 50% is measured
+========================================================================================================
+and subtracted from every result below, so the harness bias cannot leak in.
+
+  DEX6     mirror control    Hold  48.9%   Annih  50.4%
+  STR6     mirror control    Hold  51.1%   Annih  50.9%
+  AGI6     mirror control    Hold  49.2%   Annih  49.4%
+
+========================================================================================================
+T1 / T4 - WHAT IS STEALTH WORTH, AND TO WHOM?   (700 games/cell, paired mirror)
+========================================================================================================
+Delta = (stealthy crew vs plain crew) minus (plain vs plain). Positive = the
+kit is worth something. Per-model is comparable with conditions2d.py, where
++1 Damage = 1.12 win-points/model and is priced at 15 Credits.
+
+  carrier hidden mode     holds  payoff   d Hold  d Annih   d mean  per model  ~Credits  ambush/gm
+  DEX6    modifier         True       0   -32.8    -32.9    -32.8      -5.47       -73       0.56
+  DEX6    modifier         True       2   -33.2    -31.6    -32.4      -5.40       -72       0.56
+  DEX6    modifier        False       0   -37.6    -32.9    -35.2      -5.88       -79       0.56
+  DEX6    modifier        False       2   -38.7    -31.6    -35.2      -5.86       -79       0.56
+  DEX6    untargetable     True       0   -33.3    -31.8    -32.5      -5.42       -73       0.70
+  DEX6    untargetable     True       2   -31.0    -29.5    -30.2      -5.04       -68       0.77
+  DEX6    untargetable    False       0   -37.9    -31.8    -34.9      -5.81       -78       0.70
+  DEX6    untargetable    False       2   -37.0    -29.5    -33.2      -5.54       -74       0.77
+  AGI6    modifier         True       0    +1.1     +0.9     +1.0       0.17         2       4.29
+  AGI6    modifier         True       2   +13.0    +12.4    +12.7       2.11        28       4.42
+  AGI6    modifier        False       0   -28.6     +0.9    -13.8      -2.30       -31       4.29
+  AGI6    modifier        False       2   -22.8    +12.4     -5.2      -0.87       -12       4.42
+  AGI6    untargetable     True       0    +1.1     +0.9     +1.0       0.17         2       4.29
+  AGI6    untargetable     True       2   +13.0    +12.4    +12.7       2.11        28       4.42
+  AGI6    untargetable    False       0   -28.6     +0.9    -13.8      -2.30       -31       4.29
+  AGI6    untargetable    False       2   -22.8    +12.4     -5.2      -0.87       -12       4.42
+
+========================================================================================================
+T3 - DOES THE FREE ATTACK BACK ACTUALLY BITE?   (700 games/cell, AGI6 carrier)
+========================================================================================================
+The review: without a real punishment for a failed sneak attack, Hidden is
+strictly dominant and Ambush is a free roll for upside.
+
+  hidden mode     attack back   d mean  ambushes/gm  miss rate  ambush kills
+  modifier               True    +8.0          4.40      47.5%          1.33
+  modifier              False   +12.1          4.46      46.2%          1.45
+  untargetable           True    +8.0          4.40      47.5%          1.33
+  untargetable          False   +12.1          4.46      46.2%          1.45
+
+========================================================================================================
+T2 - THE 'UN-TARGETABLE FIGHTER' COMBO   (700 games/cell, AGI6 vs the DEX6 gunline)
+========================================================================================================
+Vanishing Point + Ghost Step + Return to the Shadows stacked on ONE fighter.
+If the review is right, that fighter finishes ~6/6 rounds Hidden and is never
+shot at. Figures are for fighter 0 of the buffed crew.
+The opponent is the SHOOTING crew on purpose: against an all-melee mirror,
+'never shot at' is true by construction and would measure nothing.
+
+  hidden mode   build                  d mean  rnds hidden  times shot at   kills  survived
+  modifier      plain stealth kit       -1.1          1.15          12.05    0.00      0.1%
+  modifier      COMBO on fighter 0      -1.1          1.20          11.84    0.00      0.3%
+  untargetable  plain stealth kit       -0.5          1.48          10.93    0.02      2.1%
+  untargetable  COMBO on fighter 0      +1.9          2.55           0.00    0.16      7.4%
+
+========================================================================================================
+Every row is a measurement on the 2.5D engine. Dials swept, never asserted.
+========================================================================================================

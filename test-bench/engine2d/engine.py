@@ -17,7 +17,8 @@ hacking / terrain-interaction / infrastructure / deployables; movement collision
 """
 import math
 import random
-from board import dist, toward, has_los, has_los_3d, cover_level_3d, building_at
+from board import (dist, toward, has_los, has_los_3d, cover_level_3d, building_at,
+                   concealing_at)
 from data import WEAPONS, ARMOUR, RANKS, DEPLOYABLES, unit_cost
 
 SIGHT = 24.0   # a witness must be within this and have LOS to feel a friendly fall
@@ -31,6 +32,42 @@ DIST_GATE = False   # movement overwatch only triggers on a Move > half MOV (sho
 #   'half'  = FIX 5 proposal — reposition up to half MOV (round down)
 #   'prone' = fallback — no move; dive prone (heavy cover vs ranged until its next activation)
 DODGE_MOVE = 'full'
+
+# --- Packet stealth layer (default off = pre-packet behaviour) ----------------
+# Hide / Sneak / Spot / Ambush, per Packet-Design-Review §2.6. Every parameter
+# below is a DIAL because the review specifies the SHAPE of these rules and not
+# their numbers; balance/stealth2d.py sweeps them rather than asserting one value.
+STEALTH_ON = False      # master switch for the whole layer
+SNEAK_FRACTION = 0.5    # Sneak moves this fraction of MOV and keeps Hidden
+SPOT_BAND = 6.0         # Spot test takes -1 per this many inches of range
+AMBUSH_PAYOFF = 0       # bonus on the Ambush Injury roll (0 / 1 / 2)
+AMBUSH_LETHAL = False   # an Ambush wound sends the target straight to Out, not Down
+ATTACK_BACK = True      # a FAILED Ambush grants the target a free attack (the review's core risk)
+HIDDEN_COVER = 3        # to-hit modifier a Hidden target imposes (Terrain.md: -3)
+# The pivotal fork. The VAULT says Hidden is a -3 to be hit (still a legal target).
+# The PACKET's Spot action only earns its slot if Hidden means "not a legal target
+# until Spotted" — which is also what makes the review's "effectively un-targetable
+# for an entire game" worry coherent. Both are implemented; stealth2d.py tests both.
+HIDDEN_MODE = 'modifier'    # 'modifier' (vault, -3) | 'untargetable' (packet)
+HIDDEN_HOLDS = True         # may a Hidden fighter hold/score an objective? (unruled either way)
+AMBUSH_RANGE = 8.0          # max reach of an Ambush ("at melee or short range" — review §2.6)
+
+# --- Packet §2.2: is "one payload per weapon" load-bearing? (test T5) ---------
+MULTI_PAYLOAD = False       # True = a weapon delivers EVERY payload trait it carries
+# --- Packet §9.3: extra activations (test T13) -------------------------------
+EXTRA_ACTIVATION = False    # True = units with the 'extra_activation' skill act twice a round
+
+# --- Goal assignment ---------------------------------------------------------
+# Default (False) assigns every model its NEAREST objective at spawn. That is a
+# real artefact generator: because models are spread evenly across the deploy
+# band, coverage depends on CREW-SIZE PARITY. A 3-model crew lands exactly one
+# model on each of the 3 objectives (perfect coverage); a 6-model crew doubles up
+# on the same three; a 2-model crew leaves the centre uncontested. Measured: a
+# 6-model crew loses to 5- and 3-model crews but beats 4- and 2-model ones —
+# non-monotonic in crew size, which is parity, not strength.
+# BALANCED_GOALS spreads models round-robin over the objectives instead. Left OFF
+# by default so no existing finding silently moves.
+BALANCED_GOALS = False
 
 
 def d10():
@@ -111,6 +148,23 @@ class Unit:
         self.off_balance = False    # no Sprint/Charge;   persists until cleared with the Move slot
         self.hobbled = False        # -2" MOV;            persists until cleared with the Move slot
         self.suppressed = False     # counts as Pinned and cannot React until the Pin clears
+        # --- stealth layer (STEALTH_ON) -------------------------------------
+        self.hidden = False         # -3 to be hit; lost on shooting / being spotted / ordinary Move
+        self.spotted = False        # revealed this battle by an enemy Spot test
+        self.ambushes = 0           # Ambush attacks made (instrumentation)
+        self.ambush_fails = 0       # Ambushes that missed and drew an Attack Back
+        self.rounds_hidden = 0      # rounds finished while Hidden (the un-targetable metric)
+        self.times_targeted = 0     # how often an enemy actually shot at this unit
+        # --- Deed / XP instrumentation (Packet §6.3-6.4, test T8) ------------
+        self.kills = 0              # enemies put Out or Down by this fighter
+        self.melee_kills = 0
+        self.ambush_kills = 0
+        self.fall_kills = 0         # killed by a shove off a ledge (terrain kill)
+        self.first_blood = False
+        self.odds_kills = 0         # kills made while your side was outnumbered
+        self.objective_rounds = 0   # End Phases spent holding an objective
+        self.claims = 0             # objectives INT-claimed (claim mode)
+        self.stress_inflicted = 0
 
     # --- status helpers ------------------------------------------------------
     @property
@@ -170,6 +224,7 @@ class Game:
         self.claim_mode = claim      # objectives must be INT-claimed to score (makes INT matter)
         self.claims = {i: None for i in range(len(self.objectives))}
         self.stat = {'snap': 0, 'dodge_try': 0, 'dodge_save': 0}   # BLKOUT-import instrumentation
+        self.blooded = False        # has first blood been drawn? (Deed instrumentation)
 
     def _spawn(self):
         for side, crew in enumerate(self.sides):
@@ -181,7 +236,13 @@ class Game:
                 x = x0 + (i + 0.5) * (x1 - x0) / n
                 y = (y0 + y1) / 2
                 u.pos = (x, y)
-                u.goal = min(self.objectives, key=lambda o: dist(u.pos, o))
+                if BALANCED_GOALS:
+                    # round-robin over objectives ordered by proximity to this model,
+                    # so coverage does not depend on crew-size parity
+                    u.goal = sorted(self.objectives,
+                                    key=lambda o: dist(u.pos, o))[i % len(self.objectives)]
+                else:
+                    u.goal = min(self.objectives, key=lambda o: dist(u.pos, o))
 
     def _live(self, side):
         return [u for u in self.sides[side] if not u.out]
@@ -213,6 +274,21 @@ class Game:
         for a in self._standing(dfn.side):
             if a is not dfn and dist(a.pos, dfn.pos) <= SIGHT and has_los(a.pos, dfn.pos, self.terrain):
                 self.add_stress(a, 1)
+
+    def credit_kill(self, att, dfn, melee=False, ambush=False, fall=False):
+        """Attribute a casualty for the Deed / XP instrumentation (test T8)."""
+        att.kills += 1
+        if len(self._standing(att.side)) < len(self._standing(1 - att.side)):
+            att.odds_kills += 1          # "Against the Odds" — killed while outnumbered
+        if melee:
+            att.melee_kills += 1
+        if ambush:
+            att.ambush_kills += 1
+        if fall:
+            att.fall_kills += 1
+        if not self.blooded:
+            self.blooded = True
+            att.first_blood = True
 
     def apply_payload(self, att, dfn, ranged, payload):
         """A payload lands IN PLACE OF the non-wounding result (Pinned / Shaken).
@@ -253,6 +329,7 @@ class Game:
             dfn.w -= 1
             if dfn.w <= 0:
                 self.go_down(dfn, ranged)
+                self.credit_kill(att, dfn, melee=not ranged)
                 self.note(f"  {att.tag} {'downs' if ranged else 'takes OUT'} {dfn.tag}")
             else:
                 self.add_stress(dfn, 1)
@@ -262,13 +339,20 @@ class Game:
 
     def _resolve_hit(self, att, dfn):
         traits = WEAPONS[att.weapon]['traits']
-        payload = next((PAYLOAD_TRAITS[t] for t in traits if t in PAYLOAD_TRAITS), None)
+        loads = [PAYLOAD_TRAITS[t] for t in traits if t in PAYLOAD_TRAITS]
+        payload = loads[0] if loads else None
         targets = [dfn]
         if 'blast' in traits:
             targets += [e for e in self.foes_of(att)
                         if e is not dfn and not e.out and dist(e.pos, dfn.pos) <= 2.0]
         for t in targets:
-            self.injure(att, t, True, payload=payload)
+            wounded = self.injure(att, t, True, payload=payload)
+            # Packet §2.2 asks whether the one-payload cap is load-bearing. With
+            # MULTI_PAYLOAD the extra payloads also land on a non-wounding hit —
+            # exactly the stacking the cap exists to forbid.
+            if MULTI_PAYLOAD and not wounded and len(loads) > 1 and not t.out:
+                for extra in loads[1:]:
+                    self.apply_payload(att, t, True, extra)
 
     def _wants_dodge(self, att, dfn):
         """Dodge like a player would: only when the opposed roll is a better bet
@@ -287,6 +371,9 @@ class Game:
             return False
         if not self.sight(att, dfn):
             return False
+        if STEALTH_ON:
+            att.hidden = False               # shooting always reveals (Terrain.md)
+            dfn.times_targeted += 1
         if DODGE_ON and dfn.ready and dfn.standing() and self._wants_dodge(att, dfn):
             dfn.ready = False
             self.stat['dodge_try'] += 1
@@ -333,12 +420,12 @@ class Game:
             return
         if opposed(att.stats['str'] + charge - att.penalty(), dfn.stats['str'] - dfn.penalty()):
             if 'knockback' in att.skills:        # skill: shove the loser 2" (can break a hold)
-                self.push(dfn, att.pos, 2.0)
+                self.push(dfn, att.pos, 2.0, pusher=att)
             self.injure(att, dfn, False)
         else:
             self.add_stress(att, 1)              # lost the clash: Shaken
 
-    def push(self, u, from_pos, d):
+    def push(self, u, from_pos, d, pusher=None):
         dx, dy = u.pos[0] - from_pos[0], u.pos[1] - from_pos[1]
         L = math.hypot(dx, dy) or 1.0
         u.pos = (min(max(u.pos[0] + dx / L * d, 0.0), self.size),
@@ -348,9 +435,14 @@ class Game:
             u.z = 0.0
             self.note(f"  {u.tag} falls {h}\"")
             if h >= 6:                              # 6\"+ fall forces an Injury (ignoring armour)
+                before = u.standing()
                 self.injure_dmg(3, u, True)
+                if pusher is not None and before and not u.standing():
+                    self.credit_kill(pusher, u, fall=True)   # a terrain kill (Deed instrumentation)
 
     def reactions(self, mover):
+        if STEALTH_ON and mover.hidden and HIDDEN_MODE == 'untargetable':
+            return                       # you cannot snap-shoot what you cannot see
         for r in self._standing(1 - mover.side):
             if not r.ready or not r.has_gun() or not r.can_react():
                 continue
@@ -372,6 +464,8 @@ class Game:
         rng = WEAPONS[u.weapon]['rng']
         seen = [e for e in self.foes_of(u) if not e.out
                 and dist(u.pos, e.pos) <= rng and self.sight(u, e)]
+        if STEALTH_ON and HIDDEN_MODE == 'untargetable':
+            seen = [e for e in seen if not e.hidden]
         if not seen:
             return None
         # prefer a standing enemy contesting my objective, else nearest
@@ -395,6 +489,14 @@ class Game:
             return
         p0 = u.pos
         u.pos = toward(u.pos, point, max_dist)
+        if STEALTH_ON and u.hidden:
+            # An ordinary Move breaks concealment. Vanishing Point is the named
+            # exception the review flags as possibly too strong: it lets a Sneaking
+            # fighter cross enemy line of sight without being revealed.
+            if 'vanishing_point' in u.skills and concealing_at(u.pos, self.terrain):
+                pass
+            else:
+                u.hidden = False
         if (not DIST_GATE) or dist(p0, u.pos) > u.mov / 2.0:
             self.reactions(u)
         if u.standing():
@@ -514,7 +616,92 @@ class Game:
                           (e.pos[0], e.pos[1], e.z + EYE), self.terrain)
 
     def cover(self, att, dfn):
-        return cover_level_3d(att.pos, att.z, dfn.pos, dfn.z, self.terrain, target_down=dfn.down)
+        lvl = cover_level_3d(att.pos, att.z, dfn.pos, dfn.z, self.terrain, target_down=dfn.down)
+        if STEALTH_ON and dfn.hidden:
+            lvl = max(lvl, HIDDEN_COVER)      # Hidden REPLACES passive cover — the best single state
+        return lvl
+
+    # --- stealth layer (STEALTH_ON) ------------------------------------------
+    def hide(self, u):
+        """Hide Action: become Hidden if standing in Concealing terrain and no
+        enemy has line of sight from within 3" (you can't vanish in someone's face)."""
+        if not concealing_at(u.pos, self.terrain):
+            return False
+        for e in self._standing(1 - u.side):
+            if dist(e.pos, u.pos) <= 3.0 and self.sight(e, u):
+                return False
+        u.hidden = True
+        self.note(f"  {u.tag} hides")
+        return True
+
+    def sneak(self, u, point):
+        """Sneak: move SNEAK_FRACTION x MOV and KEEP Hidden. The strict default —
+        an ordinary Move breaks concealment, only a Sneak preserves it."""
+        u.pos = toward(u.pos, point, u.mov * SNEAK_FRACTION)
+        if not concealing_at(u.pos, self.terrain) and 'ghost_step' not in u.skills:
+            u.hidden = False              # Ghost Step: keep Hidden across open ground
+        return True
+
+    def spot(self, u):
+        """Spot Action: a DEX test against one Hidden enemy, -1 per SPOT_BAND of
+        range. Reveals it for the rest of the battle (the strict, readable default)."""
+        cand = [e for e in self._standing(1 - u.side) if e.hidden and self.sight(u, e)]
+        if not cand:
+            return False
+        tgt = min(cand, key=lambda e: dist(u.pos, e.pos))
+        band = int(dist(u.pos, tgt.pos) // SPOT_BAND)
+        bonus = 1 if 'sharp_eyes' in u.skills else 0
+        if 'counter_watch' in u.skills:
+            bonus += 1
+        if core(u.stats['dex'] + bonus - band - u.penalty(sight=True)):
+            tgt.hidden = False
+            tgt.spotted = True
+            self.note(f"  {u.tag} spots {tgt.tag}")
+        return True
+
+    def ambush(self, att, dfn):
+        """Ambush (§2.6): an attack made from Hidden, resolved on AGI instead of
+        STR/DEX. On a miss the target gets a FREE Attack Back even if it has
+        already activated — the review's load-bearing risk clause."""
+        att.ambushes += 1
+        att.hidden = False                       # attacking always reveals you
+        melee = dist(att.pos, dfn.pos) <= 1.0
+        if core(att.stats['agi'] - att.penalty()):
+            self.note(f"  {att.tag} AMBUSHES {dfn.tag}")
+            arm = ARMOUR[dfn.armour]['injury']
+            mod = WEAPONS[att.weapon]['dmg'] + arm + AMBUSH_PAYOFF - att.penalty()
+            if core(mod):
+                dfn.w -= 1
+                if dfn.w <= 0:
+                    self.go_down(dfn, ranged=not (melee or AMBUSH_LETHAL))
+                    self.credit_kill(att, dfn, melee=melee, ambush=True)
+                else:
+                    self.add_stress(dfn, 1)
+            else:
+                self.apply_payload(att, dfn, not melee, None)
+        else:
+            att.ambush_fails += 1
+            self.note(f"  {att.tag} botches an ambush on {dfn.tag}")
+            if ATTACK_BACK and dfn.standing():
+                if melee:
+                    self.fight(dfn, att)
+                elif dfn.has_gun():
+                    self.shoot(dfn, att)
+        if 'return_to_shadows' in att.skills and att.standing():
+            # skill: slip straight back into concealment after the strike
+            if concealing_at(att.pos, self.terrain):
+                att.hidden = True
+
+    def ambush_target(self, u):
+        """The best victim for an Ambush: an enemy in reach that cannot see you.
+        Reach is capped at AMBUSH_RANGE — the review describes the failed ambush as
+        happening 'at melee or short range', so a rifleman cannot ambush at 18"."""
+        if not u.hidden:
+            return None
+        rng = min(max(1.0, WEAPONS[u.weapon]['rng']), AMBUSH_RANGE)
+        cand = [e for e in self._standing(1 - u.side)
+                if dist(u.pos, e.pos) <= rng and self.sight(u, e)]
+        return min(cand, key=lambda e: dist(u.pos, e.pos)) if cand else None
 
     def building_at(self, point):
         return building_at(point, self.terrain)
@@ -658,6 +845,7 @@ class Game:
             bonus = (1 if 'hacker' in u.skills else 0) + (1 if 'breach_kit' in u.equip else 0)
             if core(u.stats['int'] + bonus - u.penalty()):
                 self.claims[i] = u.side
+                u.claims += 1
                 self.note(f"  {u.tag} claims obj{i}")
             return True
         return False
@@ -665,8 +853,13 @@ class Game:
     def score_objectives(self, rnd):
         if rnd >= 2:                             # no scoring in Round 1
             for i, o in enumerate(self.objectives):
-                a = any(dist(u.pos, o) <= 3.0 for u in self._standing(0))
-                b = any(dist(u.pos, o) <= 3.0 for u in self._standing(1))
+                for u in self._standing(0) + self._standing(1):
+                    if dist(u.pos, o) <= 3.0:
+                        u.objective_rounds += 1  # Deed instrumentation (Courier / holder)
+                def holds(side):
+                    return any(dist(u.pos, o) <= 3.0 and (HIDDEN_HOLDS or not u.hidden)
+                               for u in self._standing(side))
+                a, b = holds(0), holds(1)
                 if self.claim_mode:              # ownership IS the claim; keep a body on it to score
                     own = self.claims[i]
                     if own == 0 and a:
@@ -726,11 +919,24 @@ class Game:
                     if q:
                         self.activate(q[0])
                         q[0].acted = True
+                        # Packet §9.3 — the extra ACTION is the thing the packet caps
+                        # rather than prices (one drone action per activation).
+                        # Deliberately take_action and not a whole second activation:
+                        # a second full activation also grants a second MOVE, which
+                        # this AI spends over-extending into fire, so it measured
+                        # NEGATIVE and was reading the policy, not the mechanic.
+                        if EXTRA_ACTIVATION and 'extra_activation' in q[0].skills \
+                                and q[0].standing():
+                            self.take_action(q[0])
             # End Phase: conditions -> break tests -> score
             for u in self.units:
                 self.resolve_conditions(u)
             for u in self.units:
                 self.break_test(u)
+            if STEALTH_ON:
+                for u in self.units:
+                    if u.hidden and u.standing():
+                        u.rounds_hidden += 1
             self.score_objectives(rnd)
             if self.record:
                 self._snapshot(rnd)

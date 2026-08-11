@@ -126,6 +126,13 @@ def building_at(point, terrain):
     return max(cand, key=lambda r: r.height) if cand else None
 
 
+def concealing_at(point, terrain):
+    """Is this point in or against Concealing terrain? Hide requires it
+    (Terrain.md: Hidden is earned via the Hide action in Concealing terrain).
+    Any piece offering cover conceals — ruins, scatter, woods, smoke."""
+    return any(r.cover >= 1 and r.contains(point, 1.0) for r in terrain)
+
+
 def take_a_hold():
     """The simplified Take-a-Hold board: 3'x3', 3 centreline objectives on
     heavy-cover structures, LOS-blocking buildings + scatter, 6" deploy bands.
