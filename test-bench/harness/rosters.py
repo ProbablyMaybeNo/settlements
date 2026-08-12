@@ -1,5 +1,10 @@
 """Crew specs, importable without side effects.
 
+Named rosters, not crews: engine2d/ already has a crews.py, and measure.py puts
+engine2d on sys.path[0], so a module called crews here is silently shadowed by it.
+That shadowing fails loudly on a missing attribute, but only if the attribute is
+missing - a name that existed in BOTH would have imported the wrong data quietly.
+
 These lived in measure_anchor.py, which runs its campaign at module level — so
 `from measure_anchor import FIRETEAM6` silently re-ran a 24,000-game measurement
 as an import side effect. Twice, before it was noticed. Data belongs somewhere

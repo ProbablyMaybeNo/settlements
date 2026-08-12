@@ -44,11 +44,12 @@ except Exception:
     pass
 
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 3000
-ANCHOR = 1.150
+import anchor as _anchor  # noqa: E402
+ANCHOR = _anchor.VALUE
 RUNGS = (0, 1, 2, 3, 4, 5)   # measuring r -> r+1, so 0->1 .. 5->6
 
 
-from crews import uniform as uniform_crew  # noqa: E402
+from rosters import uniform as uniform_crew  # noqa: E402
 
 
 CASES = [

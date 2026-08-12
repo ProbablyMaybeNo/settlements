@@ -8,6 +8,13 @@ questions — the headline one being the lone-runner degeneracy test.
 """
 from board import dist
 
+# The objective hold radius, from the scenario rules: a unit holds an objective
+# when it is a standing friendly within 3" and no enemy is within 3". This was
+# previously written as a bare 2.5 in five places here while every engine-side
+# check used 3.0, so a model could believe it was out of position while already
+# holding. One name, one value, matching the rule.
+IN_POSITION = 3.0
+
 
 class BalancedPolicy:
     name = 'balanced'
@@ -22,8 +29,28 @@ class BalancedPolicy:
         eng = g.engaged(u)
         if eng:
             g.fight(u, eng[0]); g.issue_orders_attack(u); return
-        # 1) shoot a threat if there is one — clears contesters off objectives
-        if u.has_gun():
+        # 1) shoot a threat — but ONLY once in position.
+        #
+        # This gate is the fix for a defect that made weapon range negatively
+        # correlated with objective play. The shoot branch returns, so a model
+        # that could see an enemy shot every activation and never walked; the
+        # longer its weapon, the earlier it acquired a target and the sooner it
+        # stopped advancing. Measured mean distance from its own goal at game
+        # end: melee 2.49", 6" gun 1.60", 8" 3.29", 18" 7.37", 24" 9.30" —
+        # against a 3" hold radius. A rifle crew scored 0.00 VP, never once
+        # reaching an objective, which is why symmetric ranged mirrors drew
+        # 100% of Take-a-Hold games at nil.
+        #
+        # AmbushPolicy already carried this fix locally ("TAKE THE GROUND
+        # FIRST... without this a unit will stand at range plinking for six
+        # rounds and never contest the objective"). It was found once and never
+        # propagated here.
+        #
+        # Note the reposition branch below ALREADY moves and then shoots, so a
+        # model that advances does not lose its shot — it only loses the right
+        # to stand still while doing it.
+        in_position = u.goal is None or dist(u.pos, u.goal) <= IN_POSITION
+        if u.has_gun() and in_position:
             tgt = g.best_target(u)
             if tgt:
                 g.shoot(u, tgt); g.issue_orders_attack(u); return
@@ -35,7 +62,7 @@ class BalancedPolicy:
             g.issue_orders_attack(u); return
         # 3) reposition
         if u.has_gun():
-            if dist(u.pos, u.goal) > 2.5:
+            if dist(u.pos, u.goal) > IN_POSITION:
                 g.move_to(u, u.goal, u.mov)
             else:
                 foe = g.nearest_foe(u)
@@ -54,10 +81,10 @@ class BalancedPolicy:
                 if u.standing():
                     g.fight(u, foe, charge=1)
             elif 'stare_down' in u.skills and g.stare_down(u):
-                goal = u.goal if dist(u.pos, u.goal) > 2.5 else u.pos
+                goal = u.goal if dist(u.pos, u.goal) > IN_POSITION else u.pos
                 g.move_to(u, goal, u.mov)
             else:
-                goal = u.goal if dist(u.pos, u.goal) > 2.5 else (foe.pos if foe else u.goal)
+                goal = u.goal if dist(u.pos, u.goal) > IN_POSITION else (foe.pos if foe else u.goal)
                 g.move_to(u, goal, 2 * u.mov)
         g.issue_orders_attack(u)
 

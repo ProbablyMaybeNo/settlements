@@ -1,0 +1,241 @@
+{
+  "name": "weapon-class-atoms-n2500",
+  "question": "What are the weapon classes actually worth, decomposed into damage and range on a fixed probe chassis, replacing the legacy x10 figures?",
+  "values": {
+    "range": {
+      "probe_r8": 2.995,
+      "probe_r12": 2.9667,
+      "probe_r18": 1.6683,
+      "probe_r24": 1.045
+    },
+    "damage": {
+      "probe_d0": -0.8367,
+      "probe_d2": 0.5233,
+      "probe_d3": 1.19,
+      "probe_d4": 1.64
+    },
+    "melee_to_ranged": {
+      "probe_r6": 0.2517,
+      "probe_r18": -0.76
+    }
+  },
+  "raw_cells": {
+    "range": [
+      {
+        "variant": "probe_r8",
+        "wp": 2.995,
+        "se": 0.1162,
+        "ci": [
+          2.7672,
+          3.2228
+        ],
+        "credits": 39.1,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true
+      },
+      {
+        "variant": "probe_r12",
+        "wp": 2.9667,
+        "se": 0.1161,
+        "ci": [
+          2.7392,
+          3.1942
+        ],
+        "credits": 38.7,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true
+      },
+      {
+        "variant": "probe_r18",
+        "wp": 1.6683,
+        "se": 0.1179,
+        "ci": [
+          1.4372,
+          1.8995
+        ],
+        "credits": 21.8,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true
+      },
+      {
+        "variant": "probe_r24",
+        "wp": 1.045,
+        "se": 0.121,
+        "ci": [
+          0.8079,
+          1.2821
+        ],
+        "credits": 13.6,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true
+      }
+    ],
+    "damage": [
+      {
+        "variant": "probe_d0",
+        "wp": -0.8367,
+        "se": 0.1911,
+        "ci": [
+          -1.2112,
+          -0.4621
+        ],
+        "credits": -10.9,
+        "scenarios_used": [
+          "annihilate"
+        ],
+        "scenarios_degenerate": [
+          "hold"
+        ],
+        "significant": true
+      },
+      {
+        "variant": "probe_d2",
+        "wp": 0.5233,
+        "se": 0.1979,
+        "ci": [
+          0.1354,
+          0.9113
+        ],
+        "credits": 6.8,
+        "scenarios_used": [
+          "annihilate"
+        ],
+        "scenarios_degenerate": [
+          "hold"
+        ],
+        "significant": true
+      },
+      {
+        "variant": "probe_d3",
+        "wp": 1.19,
+        "se": 0.1951,
+        "ci": [
+          0.8076,
+          1.5724
+        ],
+        "credits": 15.5,
+        "scenarios_used": [
+          "annihilate"
+        ],
+        "scenarios_degenerate": [
+          "hold"
+        ],
+        "significant": true
+      },
+      {
+        "variant": "probe_d4",
+        "wp": 1.64,
+        "se": 0.1928,
+        "ci": [
+          1.2622,
+          2.0178
+        ],
+        "credits": 21.4,
+        "scenarios_used": [
+          "annihilate"
+        ],
+        "scenarios_degenerate": [
+          "hold"
+        ],
+        "significant": true
+      }
+    ],
+    "melee": [
+      {
+        "variant": "probe_r6",
+        "wp": 0.2517,
+        "se": 0.1373,
+        "ci": [
+          -0.0175,
+          0.5208
+        ],
+        "credits": 3.3,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": false
+      },
+      {
+        "variant": "probe_r18",
+        "wp": -0.76,
+        "se": 0.1289,
+        "ci": [
+          -1.0127,
+          -0.5073
+        ],
+        "credits": -9.9,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true
+      }
+    ]
+  },
+  "params": {
+    "N_per_cell": 2500,
+    "anchor_wp_per_model": 1.15,
+    "ranges": [
+      6,
+      8,
+      12,
+      18,
+      24
+    ],
+    "method": "paired mirror between probe weapons differing in ONE field"
+  },
+  "caveats": [
+    "Probes carry no traits and cost zero: this measures VALUE, not price. Conflating the two is how a harness ends up asserting the number it was built to test.",
+    "Hold is degenerate for symmetric pure-ranged crews (100% draws, 0.00 VP against a 15-VP ceiling), so most rows here rest on Annihilate - the one scenario the ruleset says you do not win by. Same structural limit as the DEX ladder. Blocked on the Take-a-Hold scoring fix.",
+    "hands/slots, the rank gate, Loud/Quiet and fire-while-Engaged are all unmeasurable on this engine, so a class price from this file covers damage and range only.",
+    "12\" is measured explicitly because the entire banding argument rests on it being the turn-one firing threshold, and that has never been tested."
+  ],
+  "engine": {
+    "combined": "a4ce9165b6063699",
+    "files": {
+      "engine.py": "bb6afa1b70eca9eb",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "e82680eb7df17157",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "git": {
+    "commit": "a2f0c8107237",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/harness/measure_weapon_classes.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      ".cursor/hooks/state/continual-learning-index.json",
+      "test-bench/harness/measure_weapon_classes.py"
+    ]
+  },
+  "python": "3.13.7",
+  "schema": 1
+}

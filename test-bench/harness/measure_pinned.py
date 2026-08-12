@@ -45,7 +45,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import effects as E  # noqa: E402
 import measure as M  # noqa: E402
 import provenance as P  # noqa: E402
-from crews import ARMOURED6, FIRETEAM6, SQUAD8  # noqa: E402
+from rosters import ARMOURED6, FIRETEAM6, SQUAD8  # noqa: E402
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -53,7 +53,8 @@ except Exception:
     pass
 
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 4000
-ANCHOR = 1.150  # win-points per model, measure_anchor.py, CI [1.022, 1.278]
+import anchor as _anchor  # noqa: E402
+ANCHOR = _anchor.VALUE
 
 LISTS = {"Fireteam (6)": FIRETEAM6, "Squad (8)": SQUAD8, "Armoured (6)": ARMOURED6}
 SCEN = ("hold", "annihilate")

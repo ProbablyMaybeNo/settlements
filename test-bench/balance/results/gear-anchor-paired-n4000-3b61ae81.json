@@ -1,0 +1,140 @@
+{
+  "name": "gear-anchor-paired-n4000",
+  "question": "What is +1 Damage worth in win-points per model? Adjudicates the 1.12 vs 0.90 scale-constant dispute that multiplies every Credits figure in the project.",
+  "values": {
+    "anchor_wp_per_model": 1.3319,
+    "ci95_lo": 1.2017,
+    "ci95_hi": 1.462,
+    "pooled_se": 0.0664,
+    "cells": {
+      "Fireteam (6)/hold": 1.3187,
+      "Fireteam (6)/annihilate": 1.3146,
+      "Squad (8)/hold": 0.8984,
+      "Squad (8)/annihilate": 1.1094,
+      "Armoured (6)/hold": 1.4708,
+      "Armoured (6)/annihilate": 1.8792
+    }
+  },
+  "raw_cells": [
+    {
+      "list": "Fireteam (6)",
+      "scenario": "hold",
+      "delta": 7.912,
+      "se": 1.051,
+      "per_applied": 1.3187,
+      "n_applied": 6,
+      "n_present": 6,
+      "significant": true
+    },
+    {
+      "list": "Fireteam (6)",
+      "scenario": "annihilate",
+      "delta": 7.888,
+      "se": 1.052,
+      "per_applied": 1.3146,
+      "n_applied": 6,
+      "n_present": 6,
+      "significant": true
+    },
+    {
+      "list": "Squad (8)",
+      "scenario": "hold",
+      "delta": 7.188,
+      "se": 1.059,
+      "per_applied": 0.8984,
+      "n_applied": 8,
+      "n_present": 8,
+      "significant": true
+    },
+    {
+      "list": "Squad (8)",
+      "scenario": "annihilate",
+      "delta": 8.875,
+      "se": 1.059,
+      "per_applied": 1.1094,
+      "n_applied": 8,
+      "n_present": 8,
+      "significant": true
+    },
+    {
+      "list": "Armoured (6)",
+      "scenario": "hold",
+      "delta": 8.825,
+      "se": 1.074,
+      "per_applied": 1.4708,
+      "n_applied": 6,
+      "n_present": 6,
+      "significant": true
+    },
+    {
+      "list": "Armoured (6)",
+      "scenario": "annihilate",
+      "delta": 11.275,
+      "se": 1.043,
+      "per_applied": 1.8792,
+      "n_applied": 6,
+      "n_present": 6,
+      "significant": true
+    }
+  ],
+  "params": {
+    "N_per_cell": 4000,
+    "method": "paired mirror, differenced per game on a shared seed",
+    "lists": [
+      "Fireteam (6)",
+      "Squad (8)",
+      "Armoured (6)"
+    ],
+    "scenarios": [
+      "hold",
+      "annihilate"
+    ]
+  },
+  "caveats": [
+    "Applies to melee AND ranged: injure() is reached from both fight() and shoot(), so unlike the payload traits this measurement carries no melee/ranged bias.",
+    "Hold and Annihilate are reported per cell and then averaged for the headline; the per-cell spread is printed because averaging scenarios hides trait-by-scenario divergence (see T6).",
+    "This fixes the win-points side only. The 15 Credits it is pegged to remains a CHOICE, not a measurement."
+  ],
+  "engine": {
+    "combined": "3b61ae8186d232be",
+    "files": {
+      "engine.py": "bb6afa1b70eca9eb",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "1c7fd32fd446674f",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "git": {
+    "commit": "73ba3a983d1a",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/crews.py -> test-bench/harness/rosters.py",
+      "test-bench/harness/measure_weapon_classes.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/crews.py -> test-bench/harness/rosters.py",
+      ".cursor/hooks/state/continual-learning-index.json",
+      "test-bench/balance/results/weapon-class-atoms-n2500-a4ce9165.json",
+      "test-bench/harness/measure_weapon_classes.py"
+    ]
+  },
+  "python": "3.13.7",
+  "schema": 1
+}

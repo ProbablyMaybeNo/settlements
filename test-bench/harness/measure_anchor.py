@@ -39,7 +39,7 @@ except Exception:
 
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 4000
 
-from crews import ARMOURED6, FIRETEAM6, SQUAD8  # noqa: E402
+from rosters import ARMOURED6, FIRETEAM6, SQUAD8  # noqa: E402
 
 LISTS = {'Fireteam (6)': FIRETEAM6, 'Squad (8)': SQUAD8, 'Armoured (6)': ARMOURED6}
 SCEN = ('hold', 'annihilate')
