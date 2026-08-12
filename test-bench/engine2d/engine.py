@@ -57,17 +57,6 @@ MULTI_PAYLOAD = False       # True = a weapon delivers EVERY payload trait it ca
 # --- Packet §9.3: extra activations (test T13) -------------------------------
 EXTRA_ACTIVATION = False    # True = units with the 'extra_activation' skill act twice a round
 
-# --- Goal assignment ---------------------------------------------------------
-# Default (False) assigns every model its NEAREST objective at spawn. That is a
-# real artefact generator: because models are spread evenly across the deploy
-# band, coverage depends on CREW-SIZE PARITY. A 3-model crew lands exactly one
-# model on each of the 3 objectives (perfect coverage); a 6-model crew doubles up
-# on the same three; a 2-model crew leaves the centre uncontested. Measured: a
-# 6-model crew loses to 5- and 3-model crews but beats 4- and 2-model ones —
-# non-monotonic in crew size, which is parity, not strength.
-# BALANCED_GOALS spreads models round-robin over the objectives instead. Left OFF
-# by default so no existing finding silently moves.
-BALANCED_GOALS = False
 
 
 def d10():
@@ -237,13 +226,16 @@ class Game:
                 x = x0 + (i + 0.5) * (x1 - x0) / n
                 y = (y0 + y1) / 2
                 u.pos = (x, y)
-                if BALANCED_GOALS:
-                    # round-robin over objectives ordered by proximity to this model,
-                    # so coverage does not depend on crew-size parity
-                    u.goal = sorted(self.objectives,
-                                    key=lambda o: dist(u.pos, o))[i % len(self.objectives)]
-                else:
-                    u.goal = min(self.objectives, key=lambda o: dist(u.pos, o))
+                # Nearest objective. This is provably optimal for coverage: measured
+                # at every crew size 2..12 the gap between the busiest and emptiest
+                # objective never exceeds one model, which is the best achievable
+                # when the count is not divisible by three. A BALANCED_GOALS
+                # round-robin was tried and REMOVED - it was never better at any
+                # size and often far worse (spread 3 at four and five models),
+                # because it indexed a per-model sorted list so the picks collided
+                # instead of spreading. Count balance was never the defect; see
+                # docs/POINTS-REBUILD-EXPLANATIONS.txt.
+                u.goal = min(self.objectives, key=lambda o: dist(u.pos, o))
 
     def _live(self, side):
         return [u for u in self.sides[side] if not u.out]

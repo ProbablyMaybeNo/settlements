@@ -36,10 +36,27 @@ sys.path.insert(0, ENG)
 os.chdir(ENG)
 
 import engine
-# The default nearest-objective goal assignment makes coverage depend on crew-size
-# PARITY, which swamps the Rating effect this calibration is trying to isolate
-# (a 6-model crew measured WORSE than 3- and 5-model ones). See engine.BALANCED_GOALS.
-engine.BALANCED_GOALS = True
+# HISTORICAL NOTE, 2026-08-12. This file used to set engine.BALANCED_GOALS = True
+# here, on the reasoning that the default nearest-objective assignment made
+# coverage depend on crew-size parity and swamped the Rating effect. The premise
+# was wrong and the flag has been deleted:
+#
+#   - The default assignment is OPTIMALLY balanced at every crew size 2..12. The
+#     gap between the busiest and emptiest objective never exceeds one model,
+#     which is the best achievable when the count is not divisible by three.
+#   - BALANCED_GOALS was never better at any size and often far worse - it sent
+#     ALL THREE models of a 3-model crew to one objective - because it indexed a
+#     per-model sorted list, so the picks collided instead of spreading.
+#   - The real cause of the non-monotonicity is that Take-a-Hold does not score
+#     under symmetric play: every even-sized crew drew 100% of games at 0.00 VP
+#     against a 15-VP ceiling, because holding needs no enemy within 3" and both
+#     crews contest the same objectives every round.
+#
+# So T9 / T11 / T12 / T14 in docs/PACKET-TEST-RESULTS.md were measured with the
+# collision-clustering assignment ACTIVE, on campaign crews small enough (a
+# Campaign Start crew fields three models) to hit its worst case. Those findings
+# need re-running before they are relied on. Full write-up:
+# docs/POINTS-REBUILD-EXPLANATIONS.txt
 
 from engine import Game, Unit
 from board import take_a_hold
