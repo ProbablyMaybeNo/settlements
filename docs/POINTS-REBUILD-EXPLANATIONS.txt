@@ -80,14 +80,29 @@ opponent scored zero in every single row. The scenario's own ceiling is
 fifteen victory points. So these crews are scoring nothing at all, and the
 scenario is resolving almost entirely by draw.
 
-The mechanism is mutual contest. Holding an objective requires a standing
-friendly within three inches and no enemy within three inches. With
-mirror-symmetric deployment and both crews sending models to the same
-objectives, every objective is contested every round, so nobody holds and
-nobody scores. When the two crews have different shapes, an objective is
-occasionally left uncontested and somebody scores a single point. That
-difference in shape, not any difference in strength, is what produces the
-apparent non-monotonicity.
+The mechanism is NOT mutual contest, which was my first explanation and was
+wrong. It is non-arrival. Measured directly: a crew's mean distance from its
+own goal objective at game end rises monotonically with weapon range. A melee
+crew finishes 2.49 inches away and scores 5.12 victory points. A six-inch
+crew finishes 1.60 inches away and scores 2.25. An eight-inch crew finishes
+3.29 inches away and scores 0.02. An eighteen-inch crew finishes 7.37 inches
+away and a twenty-four-inch crew 9.30 inches away, and both score exactly
+zero.
+
+The hold radius is three inches. So a rifle crew never reaches its objective
+at all, in any game, and therefore cannot score under any tie-break rule.
+
+The cause is in the AI, not the rules. The balanced policy checks for a
+shootable target before it checks whether to reposition, and it returns
+immediately after shooting. So a model that can see an enemy shoots every
+activation and never walks. The longer its weapon, the earlier it acquires a
+target, and the sooner it stops advancing. A melee model has no shot
+available, falls through to the reposition branch, and arrives.
+
+That is why symmetric rifle crews draw one hundred percent of games at zero
+victory points each: not because they are contesting the same objectives, but
+because neither side ever gets near one.
+
 
 The same comparison on Annihilate behaves the way you would expect. Draws
 fall from ninety-three percent at two models to thirteen percent at nine,
@@ -105,12 +120,22 @@ different sizes on Take-a-Hold is measuring draw behaviour rather than
 strength, and that includes the model-count regression cited as the evidence
 closing the additive-versus-multiplicative pricing question.
 
-Correction to the first version of this section. It claimed the default
-rule's coverage "oscillates with crew size", offering the one, two, one
-split at four models and the two, one, two split at five as examples of
-lopsidedness. Both are in fact optimally balanced, and I had repeated a
-characterisation from the earlier analysis pass without measuring it. The
-real defect is in the scenario's scoring, not in the goal assignment.
+Corrections to this section, both kept rather than silently replaced.
+
+First, it claimed the default rule's coverage "oscillates with crew size",
+offering the one, two, one split at four models and the two, one, two split
+at five as lopsided. Both are optimally balanced. I had repeated a
+characterisation from the earlier analysis pass without measuring it.
+
+Second, it explained the zero-scoring as mutual contest at the objectives.
+That was also wrong, and it was my own explanation rather than an inherited
+one. Direct measurement shows the crews never reach the objectives. This
+matters practically: a tie-break rule of the form "whichever side has more
+models within three inches holds" cannot fix the observed failure, because
+in the failing case both sides have zero models within three inches. The
+rule change would be comparing nothing against nothing. Any scenario fix has
+to be tested against an AI that will actually advance, or it is being
+validated against a harness pathology rather than against play.
 
 
 2. WHAT ARMOUR-LEVEL PRICING IS BLOCKED ON
