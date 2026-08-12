@@ -1,0 +1,119 @@
+{
+  "name": "value-of-pinned-n4000",
+  "question": "What is Pinned worth? It is the baseline every ranged payload price is quoted against, and it decides whether Concussive/Crippling are underpriced or redundant with the free default result.",
+  "values": {
+    "pinned_wp_per_model": -0.0132,
+    "ci95_lo": -0.1742,
+    "ci95_hi": 0.1478,
+    "significant": false,
+    "anchor_used": 1.332,
+    "cells": {
+      "Fireteam (6)/hold": 0.0425,
+      "Fireteam (6)/annihilate": -0.07,
+      "Squad (8)/hold": 0.1167,
+      "Squad (8)/annihilate": -0.2458,
+      "Armoured (6)/hold": 0.305,
+      "Armoured (6)/annihilate": -0.2275
+    }
+  },
+  "raw_cells": [
+    {
+      "list": "Fireteam (6)",
+      "scenario": "hold",
+      "delta": -0.212,
+      "se": 1.043,
+      "per_applied": -0.0425,
+      "n_applied": 5,
+      "n_present": 6,
+      "significant": false
+    },
+    {
+      "list": "Fireteam (6)",
+      "scenario": "annihilate",
+      "delta": 0.35,
+      "se": 1.046,
+      "per_applied": 0.07,
+      "n_applied": 5,
+      "n_present": 6,
+      "significant": false
+    },
+    {
+      "list": "Squad (8)",
+      "scenario": "hold",
+      "delta": -0.7,
+      "se": 1.084,
+      "per_applied": -0.1167,
+      "n_applied": 6,
+      "n_present": 8,
+      "significant": false
+    },
+    {
+      "list": "Squad (8)",
+      "scenario": "annihilate",
+      "delta": 1.475,
+      "se": 1.071,
+      "per_applied": 0.2458,
+      "n_applied": 6,
+      "n_present": 8,
+      "significant": false
+    },
+    {
+      "list": "Armoured (6)",
+      "scenario": "hold",
+      "delta": -1.525,
+      "se": 1.074,
+      "per_applied": -0.305,
+      "n_applied": 5,
+      "n_present": 6,
+      "significant": false
+    },
+    {
+      "list": "Armoured (6)",
+      "scenario": "annihilate",
+      "delta": 1.137,
+      "se": 1.059,
+      "per_applied": 0.2275,
+      "n_applied": 5,
+      "n_present": 6,
+      "significant": false
+    }
+  ],
+  "params": {
+    "N_per_cell": 4000,
+    "method": "paired mirror vs a null-payload variant",
+    "divisor": "ranged carriers only - a melee non-wound is Shaken, not Pinned"
+  },
+  "caveats": [
+    "Measured on this engine's AI, which never spends a Move to clear Pinned (clear_movement_condition is called by no policy). Pinned IS cleared by clear_pin() in every policy, so unlike Hobbled this is not a permanent-condition artefact - but the AI clears it immediately and unconditionally, which is a lower bound on a player who would sometimes shoot from where they stand.",
+    "Suppressive is excluded: it modifies what clearing Pinned costs, so it is a second-order effect on this same baseline and must be measured after it."
+  ],
+  "engine": {
+    "combined": "3b61ae8186d232be",
+    "files": {
+      "engine.py": "bb6afa1b70eca9eb",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "1c7fd32fd446674f",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "git": {
+    "commit": "5bdeafd217ee",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/harness/measure_weapon_classes.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "test-bench/harness/measure_weapon_classes.py",
+      ".cursor/hooks/state/continual-learning-index.json"
+    ]
+  },
+  "python": "3.13.7",
+  "schema": 1
+}

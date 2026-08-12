@@ -1,0 +1,253 @@
+{
+  "name": "weapon-class-atoms-n3000",
+  "question": "What are the weapon classes actually worth, decomposed into damage and range on a fixed probe chassis, replacing the legacy x10 figures?",
+  "values": {
+    "range": {
+      "probe_r8": 13.275,
+      "probe_r12": 13.375,
+      "probe_r18": 15.4,
+      "probe_r24": 16.8667
+    },
+    "damage": {
+      "probe_d0": -1.4389,
+      "probe_d2": 1.2556,
+      "probe_d3": 2.3403,
+      "probe_d4": 2.9778
+    },
+    "melee_to_ranged": {
+      "probe_r6": 8.3833,
+      "probe_r18": 10.6583
+    }
+  },
+  "raw_cells": {
+    "range": [
+      {
+        "variant": "probe_r8",
+        "wp": 13.275,
+        "se": 0.8657,
+        "ci": [
+          11.5783,
+          14.9717
+        ],
+        "credits": 149.5,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "saturated": false
+      },
+      {
+        "variant": "probe_r12",
+        "wp": 13.375,
+        "se": 0.8631,
+        "ci": [
+          11.6834,
+          15.0666
+        ],
+        "credits": 150.6,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "saturated": false
+      },
+      {
+        "variant": "probe_r18",
+        "wp": 15.4,
+        "se": 0.8581,
+        "ci": [
+          13.7181,
+          17.0819
+        ],
+        "credits": 173.4,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "saturated": false
+      },
+      {
+        "variant": "probe_r24",
+        "wp": 16.8667,
+        "se": 0.8484,
+        "ci": [
+          15.2038,
+          18.5295
+        ],
+        "credits": 189.9,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "saturated": false
+      }
+    ],
+    "damage": [
+      {
+        "variant": "probe_d0",
+        "wp": -1.4389,
+        "se": 0.1388,
+        "ci": [
+          -1.7108,
+          -1.1669
+        ],
+        "credits": -16.2,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "saturated": false
+      },
+      {
+        "variant": "probe_d2",
+        "wp": 1.2556,
+        "se": 0.1404,
+        "ci": [
+          0.9804,
+          1.5307
+        ],
+        "credits": 14.1,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "saturated": false
+      },
+      {
+        "variant": "probe_d3",
+        "wp": 2.3403,
+        "se": 0.1368,
+        "ci": [
+          2.0722,
+          2.6084
+        ],
+        "credits": 26.4,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "saturated": false
+      },
+      {
+        "variant": "probe_d4",
+        "wp": 2.9778,
+        "se": 0.1336,
+        "ci": [
+          2.716,
+          3.2395
+        ],
+        "credits": 33.5,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "saturated": false
+      }
+    ],
+    "melee": [
+      {
+        "variant": "probe_r6",
+        "wp": 8.3833,
+        "se": 0.8825,
+        "ci": [
+          6.6537,
+          10.113
+        ],
+        "credits": 94.4,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "saturated": false
+      },
+      {
+        "variant": "probe_r18",
+        "wp": 10.6583,
+        "se": 0.8722,
+        "ci": [
+          8.9488,
+          12.3679
+        ],
+        "credits": 120.0,
+        "scenarios_used": [
+          "hold",
+          "annihilate"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "saturated": false
+      }
+    ]
+  },
+  "params": {
+    "N_per_cell": 3000,
+    "anchor_wp_per_model": 1.332,
+    "ranges": [
+      6,
+      8,
+      12,
+      18,
+      24
+    ],
+    "method": "paired mirror between probe weapons differing in ONE field"
+  },
+  "caveats": [
+    "Probes carry no traits and cost zero: this measures VALUE, not price. Conflating the two is how a harness ends up asserting the number it was built to test.",
+    "Hold is degenerate for symmetric pure-ranged crews (100% draws, 0.00 VP against a 15-VP ceiling), so most rows here rest on Annihilate - the one scenario the ruleset says you do not win by. Same structural limit as the DEX ladder. Blocked on the Take-a-Hold scoring fix.",
+    "hands/slots, the rank gate, Loud/Quiet and fire-while-Engaged are all unmeasurable on this engine, so a class price from this file covers damage and range only.",
+    "12\" is measured explicitly because the entire banding argument rests on it being the turn-one firing threshold, and that has never been tested."
+  ],
+  "engine": {
+    "combined": "3b61ae8186d232be",
+    "files": {
+      "engine.py": "bb6afa1b70eca9eb",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "1c7fd32fd446674f",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "git": {
+    "commit": "d766d32f6ecd",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_weapon_classes.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      ".cursor/hooks/state/continual-learning-index.json",
+      "test-bench/balance/results/payload-table-meleefixed-n2500-3b61ae81.json",
+      "test-bench/balance/results/stat-ladder-n3000-3b61ae81.json",
+      "test-bench/balance/results/value-of-pinned-n4000-3b61ae81.json",
+      "test-bench/balance/results/weapon-class-atoms-n2500-3b61ae81.json"
+    ]
+  },
+  "python": "3.13.7",
+  "schema": 1
+}

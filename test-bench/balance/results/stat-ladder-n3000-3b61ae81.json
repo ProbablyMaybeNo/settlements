@@ -1,0 +1,382 @@
+{
+  "name": "stat-ladder-n3000",
+  "question": "Is a stat point one price, or does the rung decide? Measures r->r+1 for every rung 0..6 on a crew built entirely on that rung, for a one-sided stat (DEX) and an opposed one (STR).",
+  "values": {
+    "dex:0->1": 2.8069,
+    "dex:1->2": 1.9292,
+    "dex:2->3": 1.6542,
+    "dex:3->4": 1.3972,
+    "dex:4->5": 0.9569,
+    "dex:5->6": 0.6764,
+    "str:0->1": 2.9417,
+    "str:1->2": 2.9417,
+    "str:2->3": 2.9417,
+    "str:3->4": 2.9417,
+    "str:4->5": 2.9417,
+    "str:5->6": 2.9417
+  },
+  "raw_cells": [
+    {
+      "stat": "dex",
+      "weapon": "rifle",
+      "rung": "0->1",
+      "per_scenario": {
+        "hold": 2.6667,
+        "annihilate": 2.9472
+      },
+      "wp": 2.8069,
+      "se": 0.1397,
+      "ci": [
+        2.533,
+        3.0808
+      ],
+      "credits": 31.6,
+      "significant": true,
+      "scenarios_used": [
+        "hold",
+        "annihilate"
+      ],
+      "scenarios_excluded_degenerate": [],
+      "draw_rates": {
+        "hold": 0.127,
+        "annihilate": 0.131
+      }
+    },
+    {
+      "stat": "dex",
+      "weapon": "rifle",
+      "rung": "1->2",
+      "per_scenario": {
+        "hold": 1.6806,
+        "annihilate": 2.1778
+      },
+      "wp": 1.9292,
+      "se": 0.135,
+      "ci": [
+        1.6646,
+        2.1937
+      ],
+      "credits": 21.7,
+      "significant": true,
+      "scenarios_used": [
+        "hold",
+        "annihilate"
+      ],
+      "scenarios_excluded_degenerate": [],
+      "draw_rates": {
+        "hold": 0.191,
+        "annihilate": 0.147
+      }
+    },
+    {
+      "stat": "dex",
+      "weapon": "rifle",
+      "rung": "2->3",
+      "per_scenario": {
+        "hold": 1.3028,
+        "annihilate": 2.0056
+      },
+      "wp": 1.6542,
+      "se": 0.1315,
+      "ci": [
+        1.3964,
+        1.9119
+      ],
+      "credits": 18.6,
+      "significant": true,
+      "scenarios_used": [
+        "hold",
+        "annihilate"
+      ],
+      "scenarios_excluded_degenerate": [],
+      "draw_rates": {
+        "hold": 0.276,
+        "annihilate": 0.187
+      }
+    },
+    {
+      "stat": "dex",
+      "weapon": "rifle",
+      "rung": "3->4",
+      "per_scenario": {
+        "hold": 1.1806,
+        "annihilate": 1.6139
+      },
+      "wp": 1.3972,
+      "se": 0.1296,
+      "ci": [
+        1.1432,
+        1.6512
+      ],
+      "credits": 15.7,
+      "significant": true,
+      "scenarios_used": [
+        "hold",
+        "annihilate"
+      ],
+      "scenarios_excluded_degenerate": [],
+      "draw_rates": {
+        "hold": 0.358,
+        "annihilate": 0.219
+      }
+    },
+    {
+      "stat": "dex",
+      "weapon": "rifle",
+      "rung": "4->5",
+      "per_scenario": {
+        "hold": 0.5472,
+        "annihilate": 1.3667
+      },
+      "wp": 0.9569,
+      "se": 0.1224,
+      "ci": [
+        0.717,
+        1.1969
+      ],
+      "credits": 10.8,
+      "significant": true,
+      "scenarios_used": [
+        "hold",
+        "annihilate"
+      ],
+      "scenarios_excluded_degenerate": [],
+      "draw_rates": {
+        "hold": 0.488,
+        "annihilate": 0.247
+      }
+    },
+    {
+      "stat": "dex",
+      "weapon": "rifle",
+      "rung": "5->6",
+      "per_scenario": {
+        "hold": 0.375,
+        "annihilate": 0.9778
+      },
+      "wp": 0.6764,
+      "se": 0.1144,
+      "ci": [
+        0.4521,
+        0.9007
+      ],
+      "credits": 7.6,
+      "significant": true,
+      "scenarios_used": [
+        "hold",
+        "annihilate"
+      ],
+      "scenarios_excluded_degenerate": [],
+      "draw_rates": {
+        "hold": 0.599,
+        "annihilate": 0.298
+      }
+    },
+    {
+      "stat": "str",
+      "weapon": "sledge",
+      "rung": "0->1",
+      "per_scenario": {
+        "hold": 2.0667,
+        "annihilate": 3.8167
+      },
+      "wp": 2.9417,
+      "se": 0.1431,
+      "ci": [
+        2.6611,
+        3.2222
+      ],
+      "credits": 33.1,
+      "significant": true,
+      "scenarios_used": [
+        "hold",
+        "annihilate"
+      ],
+      "scenarios_excluded_degenerate": [],
+      "draw_rates": {
+        "hold": 0.065,
+        "annihilate": 0.017
+      }
+    },
+    {
+      "stat": "str",
+      "weapon": "sledge",
+      "rung": "1->2",
+      "per_scenario": {
+        "hold": 2.0667,
+        "annihilate": 3.8167
+      },
+      "wp": 2.9417,
+      "se": 0.1431,
+      "ci": [
+        2.6611,
+        3.2222
+      ],
+      "credits": 33.1,
+      "significant": true,
+      "scenarios_used": [
+        "hold",
+        "annihilate"
+      ],
+      "scenarios_excluded_degenerate": [],
+      "draw_rates": {
+        "hold": 0.065,
+        "annihilate": 0.017
+      }
+    },
+    {
+      "stat": "str",
+      "weapon": "sledge",
+      "rung": "2->3",
+      "per_scenario": {
+        "hold": 2.0667,
+        "annihilate": 3.8167
+      },
+      "wp": 2.9417,
+      "se": 0.1431,
+      "ci": [
+        2.6611,
+        3.2222
+      ],
+      "credits": 33.1,
+      "significant": true,
+      "scenarios_used": [
+        "hold",
+        "annihilate"
+      ],
+      "scenarios_excluded_degenerate": [],
+      "draw_rates": {
+        "hold": 0.065,
+        "annihilate": 0.017
+      }
+    },
+    {
+      "stat": "str",
+      "weapon": "sledge",
+      "rung": "3->4",
+      "per_scenario": {
+        "hold": 2.0667,
+        "annihilate": 3.8167
+      },
+      "wp": 2.9417,
+      "se": 0.1431,
+      "ci": [
+        2.6611,
+        3.2222
+      ],
+      "credits": 33.1,
+      "significant": true,
+      "scenarios_used": [
+        "hold",
+        "annihilate"
+      ],
+      "scenarios_excluded_degenerate": [],
+      "draw_rates": {
+        "hold": 0.065,
+        "annihilate": 0.017
+      }
+    },
+    {
+      "stat": "str",
+      "weapon": "sledge",
+      "rung": "4->5",
+      "per_scenario": {
+        "hold": 2.0667,
+        "annihilate": 3.8167
+      },
+      "wp": 2.9417,
+      "se": 0.1431,
+      "ci": [
+        2.6611,
+        3.2222
+      ],
+      "credits": 33.1,
+      "significant": true,
+      "scenarios_used": [
+        "hold",
+        "annihilate"
+      ],
+      "scenarios_excluded_degenerate": [],
+      "draw_rates": {
+        "hold": 0.065,
+        "annihilate": 0.017
+      }
+    },
+    {
+      "stat": "str",
+      "weapon": "sledge",
+      "rung": "5->6",
+      "per_scenario": {
+        "hold": 2.0667,
+        "annihilate": 3.8167
+      },
+      "wp": 2.9417,
+      "se": 0.1431,
+      "ci": [
+        2.6611,
+        3.2222
+      ],
+      "credits": 33.1,
+      "significant": true,
+      "scenarios_used": [
+        "hold",
+        "annihilate"
+      ],
+      "scenarios_excluded_degenerate": [],
+      "draw_rates": {
+        "hold": 0.065,
+        "annihilate": 0.017
+      }
+    }
+  ],
+  "params": {
+    "N_per_cell": 3000,
+    "anchor_wp_per_model": 1.332,
+    "rungs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "crew": "6 uniform models, ranks Leader/Specialist/Fighter x2/Recruit x2",
+    "method": "paired mirror, differenced per game on a shared seed"
+  },
+  "caveats": [
+    "AGI is deliberately absent: it is read only inside the Dodge reaction and DODGE_ON defaults False, so an AGI rung measures exactly zero by construction. Measuring it requires DODGE_ON=True, which changes every other number too.",
+    "INT is absent for the same class of reason: it is read by the claim test, so its value is zero in any scenario without a claim step and must be booked against the SCENARIO MIX rather than against the fighter.",
+    "A uniform crew is not a real crew. It isolates the rung, which is the point, but a real fighter's rungs interact with its own other stats and its weapon."
+  ],
+  "engine": {
+    "combined": "3b61ae8186d232be",
+    "files": {
+      "engine.py": "bb6afa1b70eca9eb",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "1c7fd32fd446674f",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "git": {
+    "commit": "d766d32f6ecd",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/harness/measure_weapon_classes.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "test-bench/harness/measure_weapon_classes.py",
+      ".cursor/hooks/state/continual-learning-index.json",
+      "test-bench/balance/results/payload-table-meleefixed-n2500-3b61ae81.json",
+      "test-bench/balance/results/value-of-pinned-n4000-3b61ae81.json"
+    ]
+  },
+  "python": "3.13.7",
+  "schema": 1
+}

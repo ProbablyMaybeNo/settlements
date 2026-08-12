@@ -16,8 +16,8 @@ anything can be priced:
     class price  =  damage value  +  range band  +  hands/slots
                     +  rank gate  +  always-on traits
 
-DAMAGE is already anchored: +1 on the injury roll = 1.150 wp/model
-(measure_anchor.py, CI [1.022, 1.278]).
+DAMAGE is already anchored: see anchor.py, which holds the value, its CI, its
+per-cell spread and the full history of the four candidates it replaced.
 
 RANGE is the one this file exists to measure. ticks.py prices exactly one range
 step - effective 18" to deployment 24" at 60 Credits - and that figure is
@@ -88,7 +88,7 @@ def uniform(weapon, n=6):
     return [(f"U{i}", ranks[i], weapon, "none", dict(dex=2, str=2)) for i in range(n)]
 
 
-def sweep(base_weapon, variants, label, note):
+def sweep(base_weapon, variants, label, note, only_first=False):
     """Mirror a crew carrying `base_weapon` against itself, upgrading one side to
     each variant. Returns rows of (variant, wp, se, live scenarios)."""
     print(f"\n  {label}")
@@ -97,7 +97,7 @@ def sweep(base_weapon, variants, label, note):
     rows = []
     spec = uniform(base_weapon)
     for v in variants:
-        eff = E.Effect(kind="weapon_swap", weapon=v, name=v)
+        eff = E.Effect(kind="weapon_swap", weapon=v, name=v, only_first=only_first)
         cells = [M.measure(spec, eff, s, n=N) for s in ("hold", "annihilate")]
         live = [c for c in cells if not c.degenerate]
         dead = [c.scenario for c in cells if c.degenerate]
@@ -117,7 +117,8 @@ def sweep(base_weapon, variants, label, note):
                      "credits": round(wp / ANCHOR * 15, 1),
                      "scenarios_used": [c.scenario for c in live],
                      "scenarios_degenerate": dead,
-                     "significant": abs(wp) > 1.96 * se})
+                     "significant": abs(wp) > 1.96 * se,
+                     "saturated": any(c.saturated for c in live)})
     print(f"    {note}")
     return rows
 
@@ -130,8 +131,10 @@ print("reads 'Weapon classes - legacy x10' and which nothing has ever measured")
 
 range_rows = sweep(
     "probe_r6", [f"probe_r{r}" for r in RANGES if r != 6],
-    "RANGE BAND — every model carries dmg 1; only reach changes (baseline 6\")",
-    "each row is value(R) - value(6\"), so the steps are differences between rows",
+    "RANGE BAND — ONE model upgraded; only reach changes (baseline 6\")",
+    "one model, not six: upgrading the whole crew ran the mirror to 83-87% where "
+    "the ceiling compresses every difference",
+    only_first=True,
 )
 
 dmg_rows = sweep(
@@ -142,8 +145,9 @@ dmg_rows = sweep(
 
 melee_rows = sweep(
     "probe_melee", ["probe_r6", "probe_r18"],
-    "MELEE vs RANGED — baseline is a dmg-1 melee weapon",
+    "MELEE vs RANGED — ONE model upgraded, baseline a dmg-1 melee weapon",
     "the melee-to-ranged step, which the class table prices inconsistently (40 or 0)",
+    only_first=True,
 )
 
 print("\n" + "=" * 104)

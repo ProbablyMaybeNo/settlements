@@ -79,6 +79,7 @@ class Result:
     buffed_winrate: float = 0.0
     draw_rate: float = 0.0
     degenerate: bool = False
+    saturated: bool = False
     notes: list = field(default_factory=list)
 
     def line(self) -> str:
@@ -173,6 +174,24 @@ def measure(spec, effect, scenario="hold", n=2000, seed=20260811, alpha=1.96):
             f"DEGENERATE: {r.draw_rate:.1%} of games drew, so this scenario cannot "
             "resolve for this crew. The delta is structurally zero and carries no "
             "information. Exclude it - do NOT average it with a live scenario."
+        )
+
+    # SATURATION GUARD. A mirror starts at 50%, so a crew-level delta of +35 sits
+    # at 85% with only 15 points of headroom left, and further improvement has
+    # nowhere to go. Differences between strong variants then compress toward each
+    # other and can even invert. Measured live: a range sweep upgrading all six
+    # models ran 83-87.5% and reported 8" as better than 24" - which was the
+    # ceiling, not the game. conditions2d.py's own notes warn about exactly this
+    # for its asymmetric pass; the mirror is not immune, it just starts centred.
+    # Fix is to shrink the effect (upgrade one model, not the whole crew), never
+    # to reinterpret the compressed numbers.
+    if r.buffed_winrate >= 0.80 or r.buffed_winrate <= 0.20:
+        r.saturated = True
+        r.notes.append(
+            f"SATURATED: buffed side at {r.buffed_winrate:.1%}, only "
+            f"{min(abs(1 - r.buffed_winrate), abs(r.buffed_winrate)) * 100:.0f} points of "
+            "headroom. Deltas here are compressed and orderings between strong "
+            "variants are unreliable. Shrink the effect (e.g. only_first) and re-run."
         )
 
     if applied == 0:
