@@ -1,0 +1,193 @@
+SETTLEMENTS POINTS REBUILD - EVIDENCE AND EXPLANATIONS
+Plain prose, hard-wrapped at 76 characters, no tables, no box drawing.
+
+THE ONE-LINE TEST THIS WHOLE AUDIT KEEPS APPLYING
+
+  A number that looks precise, carries a tag or a confidence interval, and
+  is denominated in something nobody has measured.
+
+That is what every finding in this rebuild has turned out to be an instance
+of. Apply it to anything before trusting it. A confidence interval bounds
+sampling noise; it says nothing about whether the units mean anything.
+
+Revision note. Section 1 was rewritten on 2026-08-12 after direct
+measurement contradicted its first version. The original text is described
+in the correction at the end of that section rather than deleted, because
+being wrong in a specific way is part of the evidence.
+
+
+1. WHY BALANCED_GOALS IS NOT A CLEAN FIX, AND WHY IT CANNOT BE MADE ONE
+
+The setup. The Take-a-Hold board has three objectives on the centreline. At
+spawn the engine spreads each crew evenly across its deployment band and
+gives every model a goal objective. The default rule is "each model goes to
+whichever objective is nearest to it". The BALANCED_GOALS flag replaces that
+with a round robin, intended to stop objective coverage depending on crew
+size. It is off by default.
+
+What BALANCED_GOALS actually does. Each model sorts the three objectives by
+distance from itself and takes the one at index i modulo three, where i is
+that model's own position in the crew list.
+
+Why that does not work. The round robin index is applied to a list sorted
+separately for each model, and models sit at different places on the board,
+so their sorted orders differ. The leftmost model's nearest objective is the
+left one and index zero picks it. The middle model's nearest is the centre,
+so index one picks its second nearest, which is the left one. The rightmost
+model's nearest is the right objective, so index two picks its third
+nearest, which is again the left one. Each model believes it is claiming a
+different slot, but they are indexing into differently ordered lists, so the
+picks collide instead of spreading.
+
+Measured, with the flag on, a three-model crew sends all three models to the
+same objective, a distribution of three, zero, zero, leaving the other two
+objectives uncontested. A four-model crew comes out three, zero, one.
+
+Now the part that changes the conclusion. I measured what the default rule
+actually produces at every crew size from two to twelve, and the default is
+already optimally balanced at every one of them. The gap between the
+busiest and emptiest objective never exceeds one model, which is the best
+any assignment can do when the model count is not divisible by three. Two
+models split one, zero, one. Three split one, one, one. Four split one, two,
+one. Five split two, one, two. Six split two, two, two. Twelve split four,
+four, four. Every size, spread of at most one.
+
+Against that, BALANCED_GOALS is never better and frequently much worse. Its
+spread is three at three models and at four models, two at six, nine, ten
+and twelve, and merely equal to the default at two, five, seven, eight and
+eleven. There is not a single crew size where it improves on the rule it
+replaces.
+
+So the flag cannot be repaired to satisfy the invariant "never worse than
+naive at any crew size", because the quantity it optimises is already
+optimal under naive. Count balance was never the problem. The correct action
+is to delete the flag, not to fix it and not to gate it behind a crew-size
+threshold. A threshold would be worse than either branch: it would hide a
+known-broken algorithm behind a cutoff and guarantee that whichever sizes
+sit near that cutoff become the next unexplained artefact.
+
+That leaves the real question open, which is the honest report. The bug note
+that introduced BALANCED_GOALS was responding to something genuine: win rate
+on Take-a-Hold is not monotonic in crew size. That observation is correct.
+Its stated cause is not.
+
+What is actually happening. I measured crew sizes two through nine against a
+fixed six-model crew, eight hundred games per cell, sides swapped, using
+uniform rifle crews. On Take-a-Hold, every even-sized crew drew one hundred
+percent of its games and both sides scored exactly zero victory points. Odd
+sizes scored between roughly half a point and one point, and the six-model
+opponent scored zero in every single row. The scenario's own ceiling is
+fifteen victory points. So these crews are scoring nothing at all, and the
+scenario is resolving almost entirely by draw.
+
+The mechanism is mutual contest. Holding an objective requires a standing
+friendly within three inches and no enemy within three inches. With
+mirror-symmetric deployment and both crews sending models to the same
+objectives, every objective is contested every round, so nobody holds and
+nobody scores. When the two crews have different shapes, an objective is
+occasionally left uncontested and somebody scores a single point. That
+difference in shape, not any difference in strength, is what produces the
+apparent non-monotonicity.
+
+The same comparison on Annihilate behaves the way you would expect. Draws
+fall from ninety-three percent at two models to thirteen percent at nine,
+victory points rise steadily from zero to one point three, and the win count
+climbs from two to five hundred and ninety-four. There is one residual
+inversion at three models versus four, so it is not perfectly clean, but the
+scenario resolves and crew size does what crew size should do.
+
+What this means for the rebuild. The bare-body atom, meaning what one
+additional model is worth, cannot be measured on Take-a-Hold with pure
+ranged crews under either flag setting, because the scenario does not score.
+It is measurable on Annihilate, with the residual three-versus-four
+inversion stated as a caveat. Any historical finding that compares crews of
+different sizes on Take-a-Hold is measuring draw behaviour rather than
+strength, and that includes the model-count regression cited as the evidence
+closing the additive-versus-multiplicative pricing question.
+
+Correction to the first version of this section. It claimed the default
+rule's coverage "oscillates with crew size", offering the one, two, one
+split at four models and the two, one, two split at five as examples of
+lopsidedness. Both are in fact optimally balanced, and I had repeated a
+characterisation from the earlier analysis pass without measuring it. The
+real defect is in the scenario's scoring, not in the goal assignment.
+
+
+2. WHAT ARMOUR-LEVEL PRICING IS BLOCKED ON
+
+First, what is not in dispute. Armour subtracts from the injury roll, and
+the injury roll is one ten-sided die plus damage minus armour against a
+target of seven. Each point of armour is therefore a flat ten percent
+reduction in the chance of being wounded, which means minus two is exactly
+twice as valuable as minus one, with no diminishing return inside the game's
+own caps. Both simulators also agree that a point of armour is worth roughly
+the same as a point of damage. So the shape of the armour ladder is settled
+and the ratio between armour and damage is settled.
+
+What is in dispute is the level, meaning how many Credits one point of
+armour should cost. Two methods answer that, and they disagree by a factor
+of four.
+
+The first prices armour against the damage atom. Armour measures at about
+one times damage per point, damage is pegged at fifteen Credits, so armour
+lands near fifteen Credits per point. This is a clean relative measurement
+and it is not the thing that is blocked.
+
+The second is rebuild-to-pay. You give a crew armour, then force it to pay
+by dropping something else until its win rate returns to baseline, and read
+the price off what it had to give up. This breaks even nearer sixty Credits
+per point.
+
+The second method is the one a catalogue price actually asks for. A price is
+not "how much win rate does this deliver in isolation", it is "how much of a
+fixed budget should this consume", which is a statement about opportunity
+cost inside a real list.
+
+Here is the block. Rebuild-to-pay measures armour's price in units of
+whatever you gave up, and in practice you give up a body or a weapon.
+Converting that to Credits requires knowing what the dropped thing is worth.
+The weapon class prices are not measurements. The costing engine says so
+itself: the block of weapon class costs is introduced by a comment reading
+"Weapon classes, legacy times ten", meaning they were carried across from an
+older, much smaller point scale by multiplying by ten. Standard Ranged sits
+at one hundred Credits on that basis and nothing has ever measured it.
+
+So rebuild-to-pay today yields "armour costs about as much as a rifle",
+which is a true relative statement, and then converts it using a rifle price
+that is itself unmeasured. The armour number inherits that error silently.
+You cannot compare a measured defensive atom against an inherited offensive
+class price and get a meaningful ratio, which is exactly what the project's
+own points documentation concluded when it called this a body-versus-damage
+scale problem rather than an armour problem.
+
+A second complication constrains the ordering. Armour and payloads are
+jointly determined. A payload only lands on a hit that fails to wound, so
+more armour on the table means payloads land more often and every payload
+becomes more valuable. In the other direction, Armour Piercing is worth a
+full damage step against an armoured target and nothing against a bare one,
+so its price depends on how many models wear armour, which depends on what
+armour costs. Three prices, each moving the other two.
+
+A provenance problem worth stating plainly. The armour numbers in the
+costing engine, Light at thirty and Heavy at sixty, are tagged in the source
+as measured, citing a file called balance/armourprice.py. That file does not
+exist. It is not in the working tree and the entire history across all
+branches contains zero commits that have ever touched a file by that name.
+The number driving the engine has no recoverable derivation, so it must be
+measured from scratch with no prior, not treated as a rough starting guess.
+
+Separately, the ruled price in the master rules note is Light sixty and
+Heavy one hundred, which is not a clean doubling. Since each armour point is
+a flat ten percent on the injury roll, linearity is a property of the
+arithmetic rather than a stylistic choice, so a ruled price that breaks it
+encodes an unmeasured diminishing-return judgment. The ruling on this is
+that the measured invariant wins and Heavy is exactly twice Light once the
+level is settled.
+
+So the order is forced. Measure the weapon classes from their own atoms
+first, so Standard Ranged means something. Then run armour rebuild-to-pay
+against a catalogue whose prices are real. Then re-run the payload table,
+because payload values move with how much armour is actually worn once
+armour is priced correctly. Doing armour first would produce a number that
+looks precise, carries a confidence interval, and is denominated in a
+currency of unknown value.
