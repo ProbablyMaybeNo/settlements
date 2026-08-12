@@ -62,6 +62,25 @@ SCENARIOS = {
     "annihilate": (Annihilate, {}),
 }
 
+# PRICING RUNS ON OBJECTIVE SCENARIOS ONLY.
+#
+# The ruleset is explicit that you win on objectives and never on kills (sec 1,
+# sec 12.7), so Annihilate is not a playable scenario - it is a diagnostic. A
+# price averaged across it is a price for a game nobody plays.
+#
+# This is not a stylistic preference, it is load-bearing, because several atoms
+# have OPPOSITE SIGNS in the two scenario families and the average hides it.
+# Pinned is the worked case: all three Hold cells negative, all three Annihilate
+# cells positive, 6/6 consistent, mean indistinguishable from zero. "Worth
+# nothing" and "worth something on objectives and negative on kills" are
+# different findings with different design consequences, and only the second
+# survives contact with the per-cell data.
+#
+# Annihilate stays measurable and stays REPORTED per cell - it is useful for
+# diagnosing what an atom does - but it never contributes to a price.
+PRICING_SCENARIOS = ("hold", "hold_claim")
+DIAGNOSTIC_SCENARIOS = ("annihilate",)
+
 
 @dataclass
 class Result:
@@ -235,3 +254,66 @@ def set_dials(**kw):
         old[k] = getattr(_engine, k)
         setattr(_engine, k, v)
     return old
+
+
+def price_atom(spec, effect, n=2500, seed=20260811,
+               pricing=PRICING_SCENARIOS, diagnostic=DIAGNOSTIC_SCENARIOS):
+    """Measure an atom across every scenario, but price it from objective play only.
+
+    Returns a dict carrying the per-cell values UNAVERAGED, because averaging is
+    what hid the Pinned sign-split. `price_wp` is the objective-only figure and is
+    the only number that should ever become a Credits price.
+    """
+    cells = {}
+    for s in tuple(pricing) + tuple(diagnostic):
+        r = measure(spec, effect, s, n=n, seed=seed)
+        cells[s] = r
+
+    live = [cells[s] for s in pricing if not cells[s].degenerate]
+    out = {
+        "effect": effect.label() if effect else "none",
+        "cells": {s: {"wp": round(r.per_applied, 4), "se": round(r.per_applied_se, 4),
+                      "winrate": round(r.buffed_winrate, 4),
+                      "significant": r.significant, "degenerate": r.degenerate,
+                      "saturated": r.saturated, "n_applied": r.n_applied}
+                  for s, r in cells.items()},
+        "priced_from": [s for s in pricing if not cells[s].degenerate],
+        "dropped_degenerate": [s for s in pricing if cells[s].degenerate],
+        "any_saturated": any(r.saturated for r in cells.values()),
+    }
+    if live:
+        wp = statistics.fmean([r.per_applied for r in live])
+        se = (sum(r.per_applied_se ** 2 for r in live) ** 0.5) / len(live)
+        out["price_wp"] = round(wp, 4)
+        out["price_se"] = round(se, 4)
+        out["price_ci"] = [round(wp - 1.96 * se, 4), round(wp + 1.96 * se, 4)]
+        out["price_significant"] = abs(wp) > 1.96 * se
+    else:
+        out["price_wp"] = None
+        out["price_significant"] = False
+
+    # SIGN-SPLIT DETECTOR. If an atom points one way on objectives and the other
+    # on kills, an average across them is meaningless even when it looks tidy.
+    # A sign difference only MEANS anything if both sides are distinguishable from
+    # zero. Testing sign alone cries wolf: Concussive reads -0.021 on Hold and
+    # +0.225 on Annihilate, which is technically opposite and actually just noise
+    # against nothing. Require significance on BOTH sides, and require the pricing
+    # side to agree with itself - Crippling's two objective cells had opposite
+    # signs from each other, which is noise, not structure.
+    def _signed(r):
+        return (1 if r.per_applied > 0 else -1) if r.significant else 0
+
+    signs = {s: _signed(r) for s, r in cells.items() if not r.degenerate}
+    pricing_signs = {signs[s] for s in pricing if s in signs} - {0}
+    diag_signs = {signs[s] for s in diagnostic if s in signs} - {0}
+    if (len(pricing_signs) == 1 and len(diag_signs) == 1
+            and pricing_signs.isdisjoint(diag_signs)):
+        out["sign_split"] = True
+        out["sign_split_note"] = (
+            "objective and kill scenarios disagree in SIGN. The atom does opposite "
+            "things in the two families; any average across them describes neither. "
+            "Priced from objective cells only, which is the ruleset's own criterion."
+        )
+    else:
+        out["sign_split"] = False
+    return out

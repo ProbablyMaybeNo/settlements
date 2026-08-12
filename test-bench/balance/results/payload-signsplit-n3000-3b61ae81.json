@@ -1,0 +1,284 @@
+{
+  "name": "payload-signsplit-n3000",
+  "question": "Are Concussive/Crippling/Hook genuinely flat, or sign-split across scenario families the way Pinned turned out to be? Checked for every payload, since a general pattern would mean the whole table was priced across a boundary.",
+  "values": {
+    "concussive": {
+      "hold": -0.020849999999999994,
+      "hold_claim": -0.008349999999999998,
+      "annihilate": 0.225,
+      "price_wp": -0.01455,
+      "sign_split": true,
+      "verdict": "SIGN-SPLIT - not flat"
+    },
+    "crippling": {
+      "hold": 0.0431,
+      "hold_claim": -0.03615,
+      "annihilate": 0.3861,
+      "price_wp": 0.0034500000000000086,
+      "sign_split": true,
+      "verdict": "SIGN-SPLIT - not flat"
+    },
+    "hook": {
+      "hold": -0.041649999999999965,
+      "hold_claim": -0.2917,
+      "annihilate": -0.21670000000000003,
+      "price_wp": -0.16665,
+      "sign_split": false,
+      "verdict": "flat - genuinely ~0"
+    },
+    "bleeding": {
+      "hold": 2.56945,
+      "hold_claim": 0.88195,
+      "annihilate": 5.2444500000000005,
+      "price_wp": 1.7257,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    "fire": {
+      "hold": 1.94445,
+      "hold_claim": 0.11805,
+      "annihilate": 2.87775,
+      "price_wp": 1.03125,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    "toxic": {
+      "hold": 0.55555,
+      "hold_claim": 0.125,
+      "annihilate": 0.9764,
+      "price_wp": 0.3403,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    "blinding": {
+      "hold": 0.5042,
+      "hold_claim": 0.0611,
+      "annihilate": 0.75415,
+      "price_wp": 0.28259999999999996,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    "shocking": {
+      "hold": 1.2916500000000002,
+      "hold_claim": 0.44165,
+      "annihilate": 1.9264,
+      "price_wp": 0.8667,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    "heavy_impact": {
+      "hold": 0.9055500000000001,
+      "hold_claim": 0.30835,
+      "annihilate": 0.50555,
+      "price_wp": 0.60695,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    "suppressive": {
+      "hold": 1.9900000000000002,
+      "hold_claim": 0.20500000000000002,
+      "annihilate": 1.7799999999999998,
+      "price_wp": 1.0975,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    "blast": {
+      "hold": 2.18835,
+      "hold_claim": 0.615,
+      "annihilate": 2.51835,
+      "price_wp": 1.40165,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    "armour_piercing": {
+      "hold": 0.75695,
+      "hold_claim": 0.2514,
+      "annihilate": 0.91665,
+      "price_wp": 0.50415,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    }
+  },
+  "raw_cells": [
+    {
+      "trait": "concussive",
+      "hold": -0.020849999999999994,
+      "hold_claim": -0.008349999999999998,
+      "annihilate": 0.225,
+      "price_wp": -0.01455,
+      "credits": -0.2,
+      "price_significant": false,
+      "sign_split": true,
+      "verdict": "SIGN-SPLIT - not flat"
+    },
+    {
+      "trait": "crippling",
+      "hold": 0.0431,
+      "hold_claim": -0.03615,
+      "annihilate": 0.3861,
+      "price_wp": 0.0034500000000000086,
+      "credits": 0.0,
+      "price_significant": false,
+      "sign_split": true,
+      "verdict": "SIGN-SPLIT - not flat"
+    },
+    {
+      "trait": "hook",
+      "hold": -0.041649999999999965,
+      "hold_claim": -0.2917,
+      "annihilate": -0.21670000000000003,
+      "price_wp": -0.16665,
+      "credits": -1.9,
+      "price_significant": false,
+      "sign_split": false,
+      "verdict": "flat - genuinely ~0"
+    },
+    {
+      "trait": "bleeding",
+      "hold": 2.56945,
+      "hold_claim": 0.88195,
+      "annihilate": 5.2444500000000005,
+      "price_wp": 1.7257,
+      "credits": 19.4,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    {
+      "trait": "fire",
+      "hold": 1.94445,
+      "hold_claim": 0.11805,
+      "annihilate": 2.87775,
+      "price_wp": 1.03125,
+      "credits": 11.6,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    {
+      "trait": "toxic",
+      "hold": 0.55555,
+      "hold_claim": 0.125,
+      "annihilate": 0.9764,
+      "price_wp": 0.3403,
+      "credits": 3.8,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    {
+      "trait": "blinding",
+      "hold": 0.5042,
+      "hold_claim": 0.0611,
+      "annihilate": 0.75415,
+      "price_wp": 0.28259999999999996,
+      "credits": 3.2,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    {
+      "trait": "shocking",
+      "hold": 1.2916500000000002,
+      "hold_claim": 0.44165,
+      "annihilate": 1.9264,
+      "price_wp": 0.8667,
+      "credits": 9.8,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    {
+      "trait": "heavy_impact",
+      "hold": 0.9055500000000001,
+      "hold_claim": 0.30835,
+      "annihilate": 0.50555,
+      "price_wp": 0.60695,
+      "credits": 6.8,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    {
+      "trait": "suppressive",
+      "hold": 1.9900000000000002,
+      "hold_claim": 0.20500000000000002,
+      "annihilate": 1.7799999999999998,
+      "price_wp": 1.0975,
+      "credits": 12.4,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    {
+      "trait": "blast",
+      "hold": 2.18835,
+      "hold_claim": 0.615,
+      "annihilate": 2.51835,
+      "price_wp": 1.40165,
+      "credits": 15.8,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    {
+      "trait": "armour_piercing",
+      "hold": 0.75695,
+      "hold_claim": 0.2514,
+      "annihilate": 0.91665,
+      "price_wp": 0.50415,
+      "credits": 5.7,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    }
+  ],
+  "params": {
+    "N_per_cell": 3000,
+    "pricing_scenarios": [
+      "hold",
+      "hold_claim"
+    ],
+    "diagnostic_scenarios": [
+      "annihilate"
+    ],
+    "anchor_wp_per_model": 1.332,
+    "credits_per_winpoint": 11.26126126126126
+  },
+  "caveats": [
+    "Prices come from objective scenarios ONLY. The ruleset wins on objectives and never on kills, so an average including Annihilate prices a game nobody plays.",
+    "Annihilate is reported per cell because it diagnoses what an atom does; it is never summed into a price.",
+    "A sign-split verdict means the average was hiding opposite behaviour, not that the effect is strong. The objective-only figure still has to clear significance on its own before it becomes a price."
+  ],
+  "engine": {
+    "combined": "3b61ae8186d232be",
+    "files": {
+      "engine.py": "bb6afa1b70eca9eb",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "1c7fd32fd446674f",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "git": {
+    "commit": "45c2101fdbd1",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_signsplit.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "test-bench/harness/measure.py",
+      ".cursor/hooks/state/continual-learning-index.json",
+      "test-bench/harness/measure_signsplit.py"
+    ]
+  },
+  "python": "3.13.7",
+  "schema": 1
+}
