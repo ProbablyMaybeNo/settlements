@@ -1,0 +1,275 @@
+{
+  "name": "sprint-fix-verification-n200",
+  "question": "Did teaching BalancedPolicy to Sprint overcorrect? Checked against the failure the fix could plausibly INTRODUCE - sprinting when it shouldn't - rather than only the one it removes, plus policy-independent harness invariants.",
+  "values": {
+    "head_to_head": {
+      "hold_claim/Fireteam (6)": 0.505,
+      "hold_claim/Mixed (6)": 0.5225,
+      "hold_claim/Armoured (6)": 0.52,
+      "sabotage/Fireteam (6)": 0.4925,
+      "sabotage/Mixed (6)": 0.5,
+      "sabotage/Armoured (6)": 0.485,
+      "raid/Fireteam (6)": 0.45,
+      "raid/Mixed (6)": 0.505,
+      "raid/Armoured (6)": 0.415
+    },
+    "instrumentation": {
+      "hold_claim": {
+        "scenario": "hold_claim",
+        "sprint_per_activation": 0.24441907661085743,
+        "shots_per_game": 14.18,
+        "moves_per_game": 20.813333333333333
+      },
+      "sabotage": {
+        "scenario": "sabotage",
+        "sprint_per_activation": 0.3244648318042814,
+        "shots_per_game": 10.96,
+        "moves_per_game": 22.64
+      },
+      "raid": {
+        "scenario": "raid",
+        "sprint_per_activation": 0.2868330885952031,
+        "shots_per_game": 14.38,
+        "moves_per_game": 24.6
+      }
+    },
+    "smoke": {
+      "symmetric mirror sits at 50%": true,
+      "null effect prices at ~0": true,
+      "+1 Damage still positive & significant": true,
+      "never sprints while engaged": true,
+      "never sprints while pinned": true
+    },
+    "overcorrected": true,
+    "smoke_all_pass": true
+  },
+  "raw_cells": {
+    "duels": [
+      {
+        "scenario": "hold_claim",
+        "crew": "Fireteam (6)",
+        "share": 0.505,
+        "draw": 0.7,
+        "reading": "no significant difference"
+      },
+      {
+        "scenario": "hold_claim",
+        "crew": "Mixed (6)",
+        "share": 0.5225,
+        "draw": 0.585,
+        "reading": "no significant difference"
+      },
+      {
+        "scenario": "hold_claim",
+        "crew": "Armoured (6)",
+        "share": 0.52,
+        "draw": 0.67,
+        "reading": "no significant difference"
+      },
+      {
+        "scenario": "sabotage",
+        "crew": "Fireteam (6)",
+        "share": 0.4925,
+        "draw": 0.975,
+        "reading": "no significant difference"
+      },
+      {
+        "scenario": "sabotage",
+        "crew": "Mixed (6)",
+        "share": 0.5,
+        "draw": 0.97,
+        "reading": "no significant difference"
+      },
+      {
+        "scenario": "sabotage",
+        "crew": "Armoured (6)",
+        "share": 0.485,
+        "draw": 0.94,
+        "reading": "no significant difference"
+      },
+      {
+        "scenario": "raid",
+        "crew": "Fireteam (6)",
+        "share": 0.45,
+        "draw": 0.85,
+        "reading": "no significant difference"
+      },
+      {
+        "scenario": "raid",
+        "crew": "Mixed (6)",
+        "share": 0.505,
+        "draw": 0.8,
+        "reading": "no significant difference"
+      },
+      {
+        "scenario": "raid",
+        "crew": "Armoured (6)",
+        "share": 0.415,
+        "draw": 0.74,
+        "reading": "WORSE \u2014 overcorrected"
+      }
+    ],
+    "instrumentation": [
+      {
+        "scenario": "hold_claim",
+        "sprint_per_activation": 0.24441907661085743,
+        "shots_per_game": 14.18,
+        "moves_per_game": 20.813333333333333
+      },
+      {
+        "scenario": "sabotage",
+        "sprint_per_activation": 0.3244648318042814,
+        "shots_per_game": 10.96,
+        "moves_per_game": 22.64
+      },
+      {
+        "scenario": "raid",
+        "sprint_per_activation": 0.2868330885952031,
+        "shots_per_game": 14.38,
+        "moves_per_game": 24.6
+      }
+    ],
+    "smoke": [
+      {
+        "check": "symmetric mirror sits at 50%",
+        "pass": true,
+        "detail": "46.500% (+-6.930%)"
+      },
+      {
+        "check": "null effect prices at ~0",
+        "pass": true,
+        "detail": "+0.0000, significant=False"
+      },
+      {
+        "check": "+1 Damage still positive & significant",
+        "pass": true,
+        "detail": "+1.0417"
+      },
+      {
+        "check": "never sprints while engaged",
+        "pass": true,
+        "detail": "0 violations"
+      },
+      {
+        "check": "never sprints while pinned",
+        "pass": true,
+        "detail": "0 violations"
+      }
+    ]
+  },
+  "params": {
+    "N_per_cell": 200,
+    "scenarios": [
+      "hold_claim",
+      "sabotage",
+      "raid"
+    ],
+    "crews": [
+      "Fireteam (6)",
+      "Mixed (6)",
+      "Armoured (6)"
+    ],
+    "threshold": "u.mov + IN_POSITION (9\" at baseline MOV 6\")",
+    "sprint_rule": "both slots, 2xMOV, no Shoot/Ready (Full Rules sec 115)"
+  },
+  "caveats": [
+    "The control is the FIXED class with its threshold forced to infinity, not a hand-rebuilt old policy - so the two differ in exactly one behaviour and the gap cannot be attributed to some second accidental difference.",
+    "A sprinting model still issues Orders. Orders are a rank resource granting a free Action to a friendly, not the sprinter's own Action slot, so this reads as legal under sec 115's 'nothing else' - but it IS an interpretation and is flagged.",
+    "Every pre-fix measurement is void. The anchor smoke check asserts only that +1 Damage stays POSITIVE and significant; its value is expected to move."
+  ],
+  "engine": {
+    "combined": "2a32b8407d847440",
+    "files": {
+      "engine.py": "971c9a32afec2e24",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "176e85d5cee2a8cf",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "harness": {
+    "combined": "1e002601c6b8353f",
+    "files": {
+      "measure.py": "498d71098e24f631",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "42083e3fcca14103",
+      "rosters.py": "0ea0162cc3038c11",
+      "diag_arrival.py": "8053c1c1360d59d6",
+      "measure_anchor.py": "18b899b87e588a1f",
+      "measure_armour.py": "e5fb576c45bc1dd4",
+      "measure_density.py": "e9f9d0fa1cd53dd8",
+      "measure_elevation.py": "f4adca96ad1180f1",
+      "measure_payloads.py": "c4411dcfad7a2775",
+      "measure_pinned.py": "2e569266ee228ee7",
+      "measure_signsplit.py": "33e9ff327a547457",
+      "measure_stat_ladder.py": "57e4cb92a0bedddb",
+      "measure_weapon_classes.py": "1522f215095908bf",
+      "verify_scenarios.py": "da39545895392a68",
+      "verify_sprint_fix.py": "7c2396414803eb82"
+    }
+  },
+  "script": {
+    "name": "verify_sprint_fix.py",
+    "sha": "7c2396414803eb82"
+  },
+  "git": {
+    "commit": "6a54c6b0deca",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py",
+      "test-bench/harness/rosters.py",
+      "test-bench/harness/conftest.py",
+      "test-bench/harness/diag_arrival.py",
+      "test-bench/harness/investigate_arrival.py",
+      "test-bench/harness/measure_density.py",
+      "test-bench/harness/measure_elevation.py",
+      "test-bench/harness/test_scenario_mechanics.py",
+      "test-bench/harness/two_route.py",
+      "test-bench/harness/verify_scenarios.py",
+      "test-bench/harness/verify_sprint_fix.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "docs/POINTS-REBUILD-TRACKING.md",
+      "docs/POINTS-TABLE.md",
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py",
+      "test-bench/harness/rosters.py",
+      ".cursor/hooks/state/continual-learning-index.json",
+      "docs/OVERNIGHT-LOG.md"
+    ]
+  },
+  "created": "20260813-050922",
+  "python": "3.13.7",
+  "schema": 2
+}

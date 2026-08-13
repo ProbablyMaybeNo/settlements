@@ -2,7 +2,21 @@
 """Behavioural checks for the condition layer, against Conditions.md as written.
 
 Not a balance harness — this asks 'does the rule do what the note says?' before
-any price is derived from it. Run: py -3.13 test_conditions.py
+any price is derived from it. Run: py -3.13 check_conditions.py
+
+RENAMED FROM test_conditions.py, 2026-08-13, and the name was the whole defect.
+This is an executable script, not a pytest module: it runs its checks at import
+and calls sys.exit at the end. Under the old name pytest COLLECTED it, the exit
+fired during collection, and a collection error interrupts the entire run — so
+`pytest` from the repo root or from test-bench/ reported `no tests ran` and the
+harness suite silently did not execute. Same failure class as the sys.path
+collection error fixed by harness/conftest.py, one directory further out.
+
+The fix is the name, not an ignore rule: a file is only collected under the
+convention its name advertises, so a script that is not a pytest module must
+not be called test_*.py. The __main__ guard below is the second half — if
+anything ever imports this file, it runs the checks and reports, but it does
+not kill the importing process.
 """
 import sys, os, random
 
@@ -109,8 +123,9 @@ b.off_balance = True
 start = b.pos
 g.move_to(b, (start[0] + 30, start[1]), 2 * b.mov)
 moved = abs(b.pos[0] - start[0])
-check("Off-Balance denies the Sprint outright; the Move sheds it instead",
-      moved < 1e-6 and not b.off_balance, f"moved {moved:.1f}\"")
+check("Off-Balance denies the Sprint outright, and the denial sheds NOTHING",
+      moved < 1e-6 and b.off_balance,
+      f"moved {moved:.1f}\", off_balance={b.off_balance}")
 b.off_balance = True
 g.activate(b); g.activate(b)
 check("Off-Balance PERSISTS until something sheds it", b.off_balance)
@@ -194,4 +209,5 @@ check("a ranged hit with NO payload still applies Pinned (the baseline itself)",
 print("=" * 72)
 print(f"{'ALL CHECKS PASS' if not FAILS else str(len(FAILS)) + ' FAILURE(S): ' + ', '.join(FAILS)}")
 print("=" * 72)
-sys.exit(1 if FAILS else 0)
+if __name__ == "__main__":
+    sys.exit(1 if FAILS else 0)

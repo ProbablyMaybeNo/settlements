@@ -187,7 +187,7 @@ The multiplier applies to whichever atom the trait grants — a conditional to-h
 
 ### 5.4 · What M4 moved — every payload measured on its own **[2026-08-01]**
 
-The flat 30 was a *grouping*, and the group turned out to span **46 : 1**. Source: `balance/conditions2d.py`, 1200 games/cell, sides swapped, on the 2.5D engine with the condition layer implemented (`engine2d/engine.py`; behaviour verified by `engine2d/test_conditions.py`, 21/21 passing).
+The flat 30 was a *grouping*, and the group turned out to span **46 : 1**. Source: `balance/conditions2d.py`, 1200 games/cell, sides swapped, on the 2.5D engine with the condition layer implemented (`engine2d/engine.py`; behaviour verified by `engine2d/check_conditions.py`, 21/21 passing).
 
 **Two passes were run and they disagree — read the mirror.**
 
@@ -293,7 +293,41 @@ The one catalogue price this moved: **Makeshift Flamethrower 150 → 110** (Heav
 
 **Armour carries no drawbacks** *(decision 2026-07-30)*. The old table taxed it twice — Improvised −1 AGI, Heavy −1 MOV / −1 AGI / Loud — and **neither simulator modelled AGI meaningfully**: the 1D board never reads it at all, and the 2.5D engine uses it only for the Dodge reaction. So every armour measurement taken to date priced those penalties at **zero**. The real items were worse than anything measured.
 
-The ladder is now linear in what armour does. `Injury = 1d10 + Damage − Armour vs 7+`, so each point is a flat **−10%** on being hurt: **−2 is worth exactly twice −1, and Heavy costs exactly twice Light.**
+> **⚠ UNRESOLVED — the 2× claim below was withdrawn on 2026-08-13. Do not price from it.**
+>
+> This section previously read: *"each point is a flat −10% on being hurt, so −2 is worth
+> exactly twice −1, and Heavy costs exactly twice Light."* The arithmetic is right and the
+> inference is not — **it is about the wrong quantity.** `Injury = 1d10 + Damage − Armour vs
+> 7+` does make each armour point a flat −10% on *injury probability*, but a price is
+> denominated in **win-points**, and linear in probability does not imply linear in
+> win-points: the second armour point buys survival on a model that is already surviving more
+> often, which is a textbook diminishing return.
+>
+> **Measurement cannot currently discriminate.** Current figure, on the fixed policy:
+> Heavy/Light = **1.745 ± 0.416**, 95% CI [0.930, 2.560] (`armour-level-n2500`, 2026-08-13),
+> which contains **both** 2.0 and the ruled 1.667 (Light 60 / Heavy 100) — and is wide enough
+> that agreement with any value would be uninformative on its own. Three runs have now landed
+> between 1.4 and 1.8 and none has separated the two hypotheses. Earlier estimates of 1.790 ±
+> 0.252 (N=12000) and 1.662 ± 0.240 (N=2500) are **superseded, not corroborating**: both were
+> measured before the Sprint + objective-first policy fix.
+>
+> If the true ratio really is near 1.75 then **no sample size will ever cleanly resolve it**,
+> because none separates a value lying between the two hypotheses. The honest state is
+> **open**: the ratio is below 2.0, and the Heavy price is not derivable from the Light price
+> by any settled rule.
+>
+> **What the same run does give — a two-sided bracket, and one package at parity.**
+> Rebuild-to-pay (buy armour, pay in weapon downgrade) reads: **light armour ≈ a rifle→pistol
+> downgrade** (+0.140 ± 0.200, indistinguishable from a fair trade); **heavy armour is worth
+> more than that downgrade** (+1.110) but **less than dropping the rifle for a bat** (−3.400).
+> So Light is now priced against a measured weapon step rather than a prior, and Heavy is
+> bracketed on both sides. This supersedes the earlier "all three packages negative, so armour
+> is worth *less* than a rifle→pistol step" reading, which was pre-policy-fix.
+>
+> Every Credits figure in this section is additionally provisional on the coverage-limited
+> anchor (`POINTS-REBUILD-TRACKING` §0a) — **the table's shipped prices are deliberately not
+> updated to these numbers**, per `anchor.py`: do not write Credits into a shipped table
+> against a provisional anchor.
 
 | Armour | Cost | Injury |
 |---|:--:|:--:|

@@ -1,0 +1,490 @@
+{
+  "name": "condition-values-n60",
+  "question": "What are Off-Balance, Hobbled and Blind worth on their own, measured against a baseline that applies nothing - rather than inferred from the payload prices, which are all net of Pinned?",
+  "values": {
+    "value_pinned_this_chassis": 0.4167,
+    "gross": {
+      "Off-Balance": 0.0,
+      "Hobbled": 0.0,
+      "Blind": -2.7778
+    },
+    "net": {
+      "concussive": -0.4167,
+      "crippling": -0.4167,
+      "blinding": -0.4167
+    },
+    "consistency": [
+      {
+        "condition": "Off-Balance",
+        "direct_net": -0.4167,
+        "composed": -0.4167,
+        "gap": 0.0,
+        "gap_se": 1.888,
+        "consistent": true
+      },
+      {
+        "condition": "Hobbled",
+        "direct_net": -0.4167,
+        "composed": -0.4167,
+        "gap": 0.0,
+        "gap_se": 1.888,
+        "consistent": true
+      },
+      {
+        "condition": "Blind",
+        "direct_net": -0.4167,
+        "composed": -3.1945,
+        "gap": -2.7778,
+        "gap_se": 2.0443,
+        "consistent": true
+      }
+    ],
+    "anchor_used": 0.606,
+    "anchor_provisional": "COVERAGE-LIMITED - rests on 1 of 5 shipped scenarios, and the most static one. FIFTH value in a row to reject its predecessor; every one was internally clean. Mobility atoms may additionally read low (sprint overcorrection). Best-founded to date, not settled."
+  },
+  "raw_cells": [
+    {
+      "row": "suppress Pinned (= -value(Pinned))",
+      "wp": -0.4167,
+      "se": 1.335,
+      "ci": [
+        -3.0333,
+        2.1999
+      ],
+      "credits": -10.3,
+      "significant": false,
+      "sign_split": false,
+      "note": "negative of value(Pinned) on this chassis",
+      "cells": {
+        "hold_claim": {
+          "wp": -0.4167,
+          "se": 1.335,
+          "winrate": 0.475,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "annihilate": {
+          "wp": 1.1111,
+          "se": 1.4752,
+          "winrate": 0.5333,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "hold": {
+          "wp": 0.6944,
+          "se": 1.5507,
+          "winrate": 0.5083,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        }
+      },
+      "priced_from": [
+        "hold_claim"
+      ],
+      "dropped_degenerate": []
+    },
+    {
+      "row": "value(Off-Balance)",
+      "wp": 0.0,
+      "se": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "credits": 0.0,
+      "significant": false,
+      "sign_split": false,
+      "note": "concussive -> Off-Balance: denies Sprint and Charge; persists",
+      "cells": {
+        "hold_claim": {
+          "wp": 0.0,
+          "se": 0.0,
+          "winrate": 0.5667,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "annihilate": {
+          "wp": 0.0,
+          "se": 0.0,
+          "winrate": 0.5833,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "hold": {
+          "wp": 0.0,
+          "se": 0.0,
+          "winrate": 0.6,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        }
+      },
+      "priced_from": [
+        "hold_claim"
+      ],
+      "dropped_degenerate": []
+    },
+    {
+      "row": "value(Hobbled)",
+      "wp": 0.0,
+      "se": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "credits": 0.0,
+      "significant": false,
+      "sign_split": false,
+      "note": "crippling -> Hobbled: -2 MOV; persists",
+      "cells": {
+        "hold_claim": {
+          "wp": 0.0,
+          "se": 0.0,
+          "winrate": 0.5667,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "annihilate": {
+          "wp": 0.0,
+          "se": 0.0,
+          "winrate": 0.5833,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "hold": {
+          "wp": 0.0,
+          "se": 0.0,
+          "winrate": 0.6,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        }
+      },
+      "priced_from": [
+        "hold_claim"
+      ],
+      "dropped_degenerate": []
+    },
+    {
+      "row": "value(Blind)",
+      "wp": -2.7778,
+      "se": 1.1146,
+      "ci": [
+        -4.9625,
+        -0.5931
+      ],
+      "credits": -68.8,
+      "significant": true,
+      "sign_split": false,
+      "note": "blinding -> Blind: -2 on sight rolls, this activation + next",
+      "cells": {
+        "hold_claim": {
+          "wp": -2.7778,
+          "se": 1.1146,
+          "winrate": 0.4,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "annihilate": {
+          "wp": -0.4167,
+          "se": 1.4065,
+          "winrate": 0.5583,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "hold": {
+          "wp": -0.8333,
+          "se": 1.3823,
+          "winrate": 0.55,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        }
+      },
+      "priced_from": [
+        "hold_claim"
+      ],
+      "dropped_degenerate": []
+    },
+    {
+      "row": "net(concussive) = value(Off-Balance) - value(Pinned)",
+      "wp": -0.4167,
+      "se": 1.335,
+      "ci": [
+        -3.0333,
+        2.1999
+      ],
+      "credits": -10.3,
+      "significant": false,
+      "sign_split": false,
+      "note": "what the payload table prices",
+      "cells": {
+        "hold_claim": {
+          "wp": -0.4167,
+          "se": 1.335,
+          "winrate": 0.475,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "annihilate": {
+          "wp": 1.1111,
+          "se": 1.4752,
+          "winrate": 0.5333,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "hold": {
+          "wp": 0.6944,
+          "se": 1.5507,
+          "winrate": 0.5083,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        }
+      },
+      "priced_from": [
+        "hold_claim"
+      ],
+      "dropped_degenerate": []
+    },
+    {
+      "row": "net(crippling) = value(Hobbled) - value(Pinned)",
+      "wp": -0.4167,
+      "se": 1.335,
+      "ci": [
+        -3.0333,
+        2.1999
+      ],
+      "credits": -10.3,
+      "significant": false,
+      "sign_split": false,
+      "note": "what the payload table prices",
+      "cells": {
+        "hold_claim": {
+          "wp": -0.4167,
+          "se": 1.335,
+          "winrate": 0.475,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "annihilate": {
+          "wp": 1.1111,
+          "se": 1.4752,
+          "winrate": 0.5333,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "hold": {
+          "wp": 0.6944,
+          "se": 1.5507,
+          "winrate": 0.5083,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        }
+      },
+      "priced_from": [
+        "hold_claim"
+      ],
+      "dropped_degenerate": []
+    },
+    {
+      "row": "net(blinding) = value(Blind) - value(Pinned)",
+      "wp": -0.4167,
+      "se": 1.0745,
+      "ci": [
+        -2.5226,
+        1.6893
+      ],
+      "credits": -10.3,
+      "significant": false,
+      "sign_split": false,
+      "note": "what the payload table prices",
+      "cells": {
+        "hold_claim": {
+          "wp": -0.4167,
+          "se": 1.0745,
+          "winrate": 0.475,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "annihilate": {
+          "wp": -0.8333,
+          "se": 1.5046,
+          "winrate": 0.4167,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "hold": {
+          "wp": -0.8333,
+          "se": 1.4783,
+          "winrate": 0.4167,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        }
+      },
+      "priced_from": [
+        "hold_claim"
+      ],
+      "dropped_degenerate": []
+    }
+  ],
+  "params": {
+    "N_per_cell": 60,
+    "chassis": "uniform rifle (6), DEX+2",
+    "null_baseline": "rifle+null_payload",
+    "method": "paired mirror; weapon_swap between trait variants",
+    "pricing_scenarios": [
+      "hold_claim"
+    ],
+    "diagnostic_scenarios": [
+      "annihilate",
+      "hold"
+    ]
+  },
+  "caveats": [
+    "UPPER BOUND on Off-Balance and Hobbled: no policy calls clear_movement_condition, so once applied they persist to the end of the game. A player would spend a Move to shed them. Blind is not affected - it expires on its own after the next activation.",
+    "Ranged only. A melee non-wound is Shaken, not Pinned, so there is no equivalent baseline on the melee side and none of this transfers to it.",
+    "Measured on a UNIFORM chassis. THE CEILING (tracking doc, head) measures a ~39% list-context effect on weapon value, so these numbers belong to this crew and should not be assumed to carry to a mixed one. The consistency check above is valid precisely because it never leaves this chassis.",
+    "value(Pinned) is re-measured here rather than imported from value-of-pinned-n4000 for the same reason - that run uses different rosters.",
+    "Off-Balance's value depends on how often a model WANTS to sprint, which the policy fix changed. It is therefore coupled to the Sprint threshold and is not a pure property of the condition."
+  ],
+  "engine": {
+    "combined": "2b861d61f09acca4",
+    "files": {
+      "engine.py": "85b4ab067caf5784",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "34344c3ea5c165b8",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "harness": {
+    "combined": "39618e5abb93c616",
+    "files": {
+      "measure.py": "4a64cfe6aef9965d",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "2800335824ef4da9",
+      "rosters.py": "0ea0162cc3038c11",
+      "diag_arrival.py": "8053c1c1360d59d6",
+      "measure_anchor.py": "18b899b87e588a1f",
+      "measure_armour.py": "e5fb576c45bc1dd4",
+      "measure_conditions.py": "5485e46756fad684",
+      "measure_density.py": "e9f9d0fa1cd53dd8",
+      "measure_elevation.py": "f4adca96ad1180f1",
+      "measure_payloads.py": "c4411dcfad7a2775",
+      "measure_pinned.py": "e7e342093ab3a8e0",
+      "measure_signsplit.py": "33e9ff327a547457",
+      "measure_stat_ladder.py": "812ec48eedd6c054",
+      "measure_weapon_classes.py": "1522f215095908bf",
+      "verify_scenarios.py": "da39545895392a68",
+      "verify_sprint_fix.py": "502eb33a0797f22e"
+    }
+  },
+  "script": {
+    "name": "measure_conditions.py",
+    "sha": "5485e46756fad684"
+  },
+  "git": {
+    "commit": "6a54c6b0deca",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/test_conditions.py -> test-bench/engine2d/check_conditions.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/anchor.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py",
+      "test-bench/harness/rosters.py",
+      "test-bench/points/ticks.py",
+      "test-bench/harness/audit_degeneracy.py",
+      "test-bench/harness/conftest.py",
+      "test-bench/harness/diag_arrival.py",
+      "test-bench/harness/investigate_arrival.py",
+      "test-bench/harness/measure_conditions.py",
+      "test-bench/harness/measure_density.py",
+      "test-bench/harness/measure_elevation.py",
+      "test-bench/harness/test_scenario_mechanics.py",
+      "test-bench/harness/two_route.py",
+      "test-bench/harness/verify_scenarios.py",
+      "test-bench/harness/verify_sprint_fix.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "docs/POINTS-COMPLETION-PLAN.md",
+      "docs/POINTS-REBUILD-TRACKING.md",
+      "docs/POINTS-TABLE.md",
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/test_conditions.py -> test-bench/engine2d/check_conditions.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/anchor.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py"
+    ]
+  },
+  "created": "20260813-142709",
+  "python": "3.13.7",
+  "schema": 2
+}

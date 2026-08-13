@@ -51,6 +51,22 @@ WHAT CANNOT BE MEASURED HERE, and must stay a flagged judgment call:
 
 from __future__ import annotations
 
+# IMPORT GUARD. This file is a SCRIPT: it runs its whole measurement at module
+# level. `import measure_x` therefore executes a full sweep as a side effect -
+# which happened TWICE in one session, once silently writing an artefact from a
+# known-broken board ladder that then passed every provenance check.
+#
+# Deliberately a loud raise rather than the usual `if __name__ == "__main__":`
+# wrapper. The wrapper makes an accidental import a silent no-op; this says why
+# nothing happened. The failure being guarded is a silent one, so the guard is
+# not silent.
+if __name__ != "__main__":
+    raise RuntimeError(
+        f"{__name__} is a script, not a module - importing it would run its entire "
+        "measurement as a side effect. Run it with `py -3.13 <file>.py` instead, or "
+        "move the helper you wanted into a module."
+    )
+
 import statistics
 import sys
 from pathlib import Path

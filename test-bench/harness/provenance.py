@@ -76,10 +76,39 @@ ENGINE_SOURCES = ("engine.py", "board.py", "policies.py", "data.py", "crews.py")
 #
 # TEXT-hashed, not value-hashed, deliberately - the opposite choice from the cost
 # table above. ticks.py is mostly provenance commentary, so rewording it must not
-# invalidate a measurement. These three are mostly LOGIC, and an estimator can
-# change completely while its constants stay put. False-stale is noise here;
+# invalidate a measurement. These are mostly LOGIC, and an estimator can change
+# completely while its constants stay put. False-stale is noise here;
 # false-fresh is what this whole module exists to prevent.
-HARNESS_SOURCES = ("measure.py", "effects.py", "anchor.py")
+#
+# 2026-08-13: THE MEASUREMENT SCRIPTS WERE ADDED, and the reason is worth keeping.
+# The set was previously the three shared modules only. A density run executed
+# against a BROKEN board ladder wrote an artefact whose engine and harness
+# fingerprints were IDENTICAL to the fixed code, so staleness() reported it
+# CURRENT and it was indistinguishable from a good result. The board ladder, the
+# roster choice, the atom list and the scenario selection all live in the
+# individual measure_*.py scripts, and every one of them changes what a number
+# MEANS. None was covered by anything.
+#
+# That was the THIRD appearance of the same false-freshness class at a new layer:
+# first the engine, then the pricing policy in measure.py, now the scripts. What
+# happened to catch it was supersession-by-name grouping landing in the same
+# batch - luck, not a control. Had the broken run been the newest, nothing would
+# have flagged it.
+#
+# ACCEPTED CONSEQUENCE: editing ANY measurement script now marks EVERY stored
+# result stale, including results from unrelated scripts. That is deliberate and
+# consistent with the standing trade - false-stale is noise, false-fresh is
+# dangerous - and `script` below exists so a reader can tell the two apart.
+_MEASUREMENT_SCRIPTS = tuple(sorted(
+    p.name for p in Path(__file__).resolve().parent.glob("*.py")
+    if p.name.startswith(("measure_", "verify_", "diag_"))
+))
+# provenance.py is deliberately NOT in this set. It decides how a result is
+# STAMPED, not what the number MEANS, so a bookkeeping edit here should not
+# invalidate every measurement in the project. rosters.py IS in it - crew
+# definitions change what was measured.
+HARNESS_SOURCES = ("measure.py", "effects.py", "anchor.py",
+                   "rosters.py") + _MEASUREMENT_SCRIPTS
 
 
 def _sha(text: str) -> str:
@@ -106,6 +135,27 @@ def harness_fingerprint() -> dict:
     combined = _sha(json.dumps(per_file, sort_keys=True))
     return {"combined": combined[:16], "files": {k: (v[:16] if v else None)
                                                  for k, v in per_file.items()}}
+
+
+def producing_script() -> dict:
+    """The specific script that produced this result, and its own hash.
+
+    HARNESS_SOURCES is deliberately broad, so editing any measurement script
+    marks every result stale. That is the safe direction, but it makes staleness
+    noisy: a reader cannot tell "the script that made this number changed" from
+    "some unrelated script changed". This records the producing script by name
+    and hash so the two are distinguishable after the fact.
+    """
+    main = sys.modules.get("__main__")
+    path = getattr(main, "__file__", None)
+    if not path:
+        return {"name": None, "sha": None}
+    p = Path(path).resolve()
+    try:
+        text = p.read_text(encoding="utf-8")
+    except OSError:
+        return {"name": p.name, "sha": None}
+    return {"name": p.name, "sha": _sha(text)[:16]}
 
 
 def _canonical(obj):
@@ -200,6 +250,7 @@ class Envelope:
     engine: dict = field(default_factory=engine_fingerprint)
     cost_table: dict = field(default_factory=cost_table_fingerprint)
     harness: dict = field(default_factory=harness_fingerprint)
+    script: dict = field(default_factory=producing_script)
     git: dict = field(default_factory=git_state)
     created: str = field(default_factory=lambda: datetime.now().strftime("%Y%m%d-%H%M%S"))
     python: str = field(default_factory=lambda: f"{platform.python_version()}")
@@ -272,19 +323,49 @@ def staleness(verbose: bool = True) -> list[dict]:
         moved = []
         if d.get("engine", {}).get("combined") != eng_now:
             moved.append("engine")
-        if d.get("cost_table", {}).get("combined") != cost_now:
-            moved.append("cost_table")
+        # COST TABLE IS DOWNSTREAM, AND IT IS THE ONLY ONE THAT IS.
+        #
+        # Nothing in a measurement reads points/ticks.py. The engine costs crews
+        # from engine2d/data.py; the harness measures WIN-POINTS and never touches
+        # Credits. ticks.py is where a measurement's answer eventually gets
+        # WRITTEN, not an input to taking it.
+        #
+        # So writing measured prices back into ticks.py - the entire point of the
+        # exercise - marks every artefact that produced them stale, and re-running
+        # reproduces them exactly, because the changed file was never read. Found
+        # the moment the first real write-back landed (2026-08-13): eight current
+        # artefacts went stale at once and not one of their numbers could move.
+        #
+        # A guard that fires when nothing is wrong is worse than no guard - it
+        # trains you to ignore it - so this is reported SEPARATELY rather than
+        # folded into `moved`. It still appears, because "which price table was
+        # live when this was taken" is real provenance and worth knowing. It just
+        # is not a reason to distrust the number.
+        cost_moved = d.get("cost_table", {}).get("combined") != cost_now
         # A pre-schema-2 result has no harness fingerprint at all. That is not
         # "unchanged", it is unknown - and unknown must read as stale, because the
         # objective-only cut is exactly the change these files cannot describe.
         if d.get("harness", {}).get("combined") != harness_now:
             moved.append("harness" if d.get("harness") else "harness(unstamped)")
+        # Did the script that ACTUALLY PRODUCED this result change, as opposed to
+        # some unrelated script sharing the broad harness fingerprint? That
+        # distinction is the difference between "re-run this" and "ignore".
+        sc = d.get("script") or {}
+        own_moved = False
+        if sc.get("name") and sc.get("sha"):
+            here = HARNESS_DIR / sc["name"]
+            if here.exists():
+                own_moved = _sha(here.read_text(encoding="utf-8"))[:16] != sc["sha"]
         rows.append({
             "file": p.name,
             "name": d.get("name", p.stem),
             "created": d.get("created", ""),
+            "script": sc.get("name"),
+            "own_script_moved": own_moved,
             "status": "STALE" if moved else "CURRENT",
             "detail": ", ".join(moved) if moved else "",
+            # Downstream-only: recorded, never a reason to distrust the number.
+            "cost_table_moved": cost_moved,
             "was_dirty": bool(d.get("git", {}).get("dirty_relevant", [])),
         })
 
@@ -332,6 +413,11 @@ def _print_staleness(rows, eng_now, cost_now, harness_now) -> None:
                 "UNREADABLE": " ERROR"}.get(r["status"], "  ?   ")
         live = "" if r.get("superseded_by") else ("  <- LIVE" if r.get("latest_of_name") else "")
         print(f"{mark}  {r['file']:<64} {r['detail']}{live}")
+        if r.get("own_script_moved"):
+            print(f"          {'':<64} ** its OWN script ({r['script']}) changed — re-run **")
+        if r.get("cost_table_moved"):
+            print(f"          {'':<64} price table has moved since (DOWNSTREAM — "
+                  f"no measurement reads it; not a reason to re-run)")
         if r.get("superseded_by"):
             print(f"          {'':<64} superseded by {r['superseded_by']}")
         if r.get("was_dirty"):

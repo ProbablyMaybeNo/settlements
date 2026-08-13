@@ -36,6 +36,22 @@ Pinned, so there is no Pinned there to remove.
 
 from __future__ import annotations
 
+# IMPORT GUARD. This file is a SCRIPT: it runs its whole measurement at module
+# level. `import measure_x` therefore executes a full sweep as a side effect -
+# which happened TWICE in one session, once silently writing an artefact from a
+# known-broken board ladder that then passed every provenance check.
+#
+# Deliberately a loud raise rather than the usual `if __name__ == "__main__":`
+# wrapper. The wrapper makes an accidental import a silent no-op; this says why
+# nothing happened. The failure being guarded is a silent one, so the guard is
+# not silent.
+if __name__ != "__main__":
+    raise RuntimeError(
+        f"{__name__} is a script, not a module - importing it would run its entire "
+        "measurement as a side effect. Run it with `py -3.13 <file>.py` instead, or "
+        "move the helper you wanted into a module."
+    )
+
 import statistics
 import sys
 from pathlib import Path
@@ -125,10 +141,21 @@ if not significant:
 else:
     print("  READING: Pinned carries real value, so every measured ranged payload price")
     print("  is NET of it. A payload measuring ~0 is worth ABOUT WHAT PINNED IS WORTH —")
-    print("  reading (b): those traits are REDUNDANT, not weak. Repricing cannot fix a")
+    print("  reading (b): such a trait is REDUNDANT, not weak. Repricing cannot fix a")
     print("  trait whose whole effect is to swap one result for an equal one.")
-    print(f"  On that reading, Concussive/Crippling's gross worth is ~{pinned_wp:.3f} wp/model")
-    print(f"  (~{pinned_wp / ANCHOR * 15:.0f} Cr) and their NET worth is the ~0 already measured.")
+    print(f"  Gross worth of a net-zero trait is therefore ~{pinned_wp:.3f} wp/model "
+          f"(~{pinned_wp / ANCHOR * 15:.0f} Cr).")
+    # NAMED TRAITS DELIBERATELY REMOVED FROM THIS PARAGRAPH, 2026-08-13.
+    # It used to end "...Concussive/Crippling's NET worth is the ~0 already
+    # measured", which was true when written and stopped being true the moment
+    # the payload table was re-run: post-policy-fix they read -0.592 and -0.613,
+    # SIGNIFICANTLY NEGATIVE, not ~0. A hardcoded narrative naming another
+    # script's numbers cannot go stale visibly - it prints with full confidence
+    # from a run that never measured the thing it is describing. The general
+    # relation (net = gross - value(Pinned)) belongs here; which traits currently
+    # sit at zero belongs to the payload table, and is read from there.
+    print("  WHICH traits currently sit at ~0 is the payload table's question, not")
+    print("  this one's — read it from payload-table-objective, not from here.")
 
 env = P.Envelope(
     name=f"value-of-pinned-n{N}",

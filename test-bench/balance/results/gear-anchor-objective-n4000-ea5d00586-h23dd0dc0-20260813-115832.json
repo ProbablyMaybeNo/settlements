@@ -1,0 +1,299 @@
+{
+  "name": "gear-anchor-objective-n4000",
+  "question": "What is +1 Damage worth in win-points per model, priced from OBJECTIVE scenarios only? Re-derives the denominator of every Credits figure in the project so it comes from the same game its numerators now do.",
+  "values": {
+    "anchor_wp_per_model": 0.6055,
+    "ci95_lo": 0.4355,
+    "ci95_hi": 0.7755,
+    "pooled_se": 0.0867,
+    "credits_per_winpoint": 24.7716,
+    "objective_cell_spread": [
+      0.5167,
+      0.7562
+    ],
+    "objective_cell_spread_note": "1.46x across 3 cells",
+    "objective_cells": {
+      "Fireteam (6)/hold_claim": 0.5167,
+      "Squad (8)/hold_claim": 0.5437,
+      "Armoured (6)/hold_claim": 0.7562
+    },
+    "supersedes": {
+      "value": 1.332,
+      "why": "priced across hold+annihilate"
+    },
+    "rescale_factor_from_1332": 2.1997,
+    "cells": {
+      "Fireteam (6)/hold_claim": 0.5167,
+      "Fireteam (6)/annihilate": 1.2708,
+      "Fireteam (6)/hold": 1.1979,
+      "Squad (8)/hold_claim": 0.5437,
+      "Squad (8)/annihilate": 1.3578,
+      "Squad (8)/hold": 1.3891,
+      "Armoured (6)/hold_claim": 0.7562,
+      "Armoured (6)/annihilate": 1.5667,
+      "Armoured (6)/hold": 1.5708
+    }
+  },
+  "raw_cells": [
+    {
+      "list": "Fireteam (6)",
+      "effect": "+1 Damage (GEAR anchor)",
+      "cells": {
+        "hold_claim": {
+          "wp": 0.5167,
+          "se": 0.1581,
+          "winrate": 0.5316,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "annihilate": {
+          "wp": 1.2708,
+          "se": 0.1784,
+          "winrate": 0.5803,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "hold": {
+          "wp": 1.1979,
+          "se": 0.1816,
+          "winrate": 0.5746,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        }
+      },
+      "priced_from": [
+        "hold_claim"
+      ],
+      "dropped_degenerate": [],
+      "any_saturated": false,
+      "price_wp": 0.5167,
+      "price_se": 0.1581,
+      "price_ci": [
+        0.2069,
+        0.8265
+      ],
+      "price_significant": true,
+      "sign_split": false
+    },
+    {
+      "list": "Squad (8)",
+      "effect": "+1 Damage (GEAR anchor)",
+      "cells": {
+        "hold_claim": {
+          "wp": 0.5437,
+          "se": 0.1273,
+          "winrate": 0.5499,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 8
+        },
+        "annihilate": {
+          "wp": 1.3578,
+          "se": 0.1349,
+          "winrate": 0.6062,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 8
+        },
+        "hold": {
+          "wp": 1.3891,
+          "se": 0.1356,
+          "winrate": 0.6082,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 8
+        }
+      },
+      "priced_from": [
+        "hold_claim"
+      ],
+      "dropped_degenerate": [],
+      "any_saturated": false,
+      "price_wp": 0.5437,
+      "price_se": 0.1273,
+      "price_ci": [
+        0.2943,
+        0.7932
+      ],
+      "price_significant": true,
+      "sign_split": false
+    },
+    {
+      "list": "Armoured (6)",
+      "effect": "+1 Damage (GEAR anchor)",
+      "cells": {
+        "hold_claim": {
+          "wp": 0.7562,
+          "se": 0.1628,
+          "winrate": 0.5483,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "annihilate": {
+          "wp": 1.5667,
+          "se": 0.179,
+          "winrate": 0.5958,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "hold": {
+          "wp": 1.5708,
+          "se": 0.1821,
+          "winrate": 0.5889,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        }
+      },
+      "priced_from": [
+        "hold_claim"
+      ],
+      "dropped_degenerate": [],
+      "any_saturated": false,
+      "price_wp": 0.7562,
+      "price_se": 0.1628,
+      "price_ci": [
+        0.4372,
+        1.0753
+      ],
+      "price_significant": true,
+      "sign_split": false
+    }
+  ],
+  "params": {
+    "N_per_cell": 4000,
+    "method": "paired mirror, differenced per game on a shared seed",
+    "lists": [
+      "Fireteam (6)",
+      "Squad (8)",
+      "Armoured (6)"
+    ],
+    "pricing_scenarios": [
+      "hold_claim"
+    ],
+    "diagnostic_scenarios": [
+      "annihilate",
+      "hold"
+    ]
+  },
+  "caveats": [
+    "Applies to melee AND ranged: injure() is reached from both fight() and shoot(), so unlike the payload traits this measurement carries no melee/ranged bias.",
+    "Annihilate is measured and reported per cell but NEVER priced. The ruleset wins on objectives and never on kills, so a price averaged across it prices a game nobody plays.",
+    "This fixes the win-points side only. The 15 Credits it is pegged to remains a CHOICE, not a measurement.",
+    "The objective-cell spread is printed because a flat scalar may be the wrong SHAPE for this constant, exactly as a flat 15/stat-point was wrong for the stat ladder. That ruling is deliberately NOT taken on this evidence: terrain density is a 66-point lever in the ruleset, larger than any atom measured so far, and it is expected to move this spread. Ruling on scenario-spread alone would fix one variable while a bigger untested one sits open. Held until the density sweep.",
+    "policies.py still carries fixed action priorities beyond the advance fix - no kiting, no focusing a slowed target, unconditional Pinned-clearing. This is the best estimate under a LESS WRONG AI, not a provably right one."
+  ],
+  "engine": {
+    "combined": "a5d00586737908e5",
+    "files": {
+      "engine.py": "971c9a32afec2e24",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "02f2bc2037150c2c",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "harness": {
+    "combined": "23dd0dc0376c4cd7",
+    "files": {
+      "measure.py": "4a64cfe6aef9965d",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "2800335824ef4da9",
+      "rosters.py": "0ea0162cc3038c11",
+      "diag_arrival.py": "8053c1c1360d59d6",
+      "measure_anchor.py": "18b899b87e588a1f",
+      "measure_armour.py": "e5fb576c45bc1dd4",
+      "measure_density.py": "e9f9d0fa1cd53dd8",
+      "measure_elevation.py": "f4adca96ad1180f1",
+      "measure_payloads.py": "c4411dcfad7a2775",
+      "measure_pinned.py": "e7e342093ab3a8e0",
+      "measure_signsplit.py": "33e9ff327a547457",
+      "measure_stat_ladder.py": "812ec48eedd6c054",
+      "measure_weapon_classes.py": "1522f215095908bf",
+      "verify_scenarios.py": "da39545895392a68",
+      "verify_sprint_fix.py": "502eb33a0797f22e"
+    }
+  },
+  "script": {
+    "name": "measure_anchor.py",
+    "sha": "18b899b87e588a1f"
+  },
+  "git": {
+    "commit": "6a54c6b0deca",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/test_conditions.py -> test-bench/engine2d/check_conditions.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/anchor.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py",
+      "test-bench/harness/rosters.py",
+      "test-bench/points/ticks.py",
+      "test-bench/harness/audit_degeneracy.py",
+      "test-bench/harness/conftest.py",
+      "test-bench/harness/diag_arrival.py",
+      "test-bench/harness/investigate_arrival.py",
+      "test-bench/harness/measure_density.py",
+      "test-bench/harness/measure_elevation.py",
+      "test-bench/harness/test_scenario_mechanics.py",
+      "test-bench/harness/two_route.py",
+      "test-bench/harness/verify_scenarios.py",
+      "test-bench/harness/verify_sprint_fix.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "docs/POINTS-COMPLETION-PLAN.md",
+      "docs/POINTS-REBUILD-TRACKING.md",
+      "docs/POINTS-TABLE.md",
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/test_conditions.py -> test-bench/engine2d/check_conditions.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/anchor.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py"
+    ]
+  },
+  "created": "20260813-115832",
+  "python": "3.13.7",
+  "schema": 2
+}

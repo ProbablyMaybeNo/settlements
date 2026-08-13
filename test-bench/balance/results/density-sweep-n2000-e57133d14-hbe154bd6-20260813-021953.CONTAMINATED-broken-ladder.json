@@ -1,0 +1,217 @@
+{
+  "name": "density-sweep-n2000",
+  "question": "Do atom values move across the legal 9-12 terrain band? Every number in the rebuild was taken at one density; if atoms move, a single global price is a statement about the centre of the band and the spread belongs in the number.",
+  "values": {
+    "+1 Damage (anchor)@9": 0.5153,
+    "+1 Damage (anchor)@11": 0.5153,
+    "armour:light@9": 0.4194333333333333,
+    "armour:light@11": 0.4194333333333333,
+    "payload:bleeding@9": 1.0111,
+    "payload:bleeding@11": 1.0111
+  },
+  "raw_cells": [
+    {
+      "atom": "+1 Damage (anchor)",
+      "density_target": 9,
+      "features": 9,
+      "wp": 0.5153,
+      "se": 0.09042569079390854,
+      "ci": [
+        0.33806564604393924,
+        0.6925343539560607
+      ],
+      "significant": true
+    },
+    {
+      "atom": "+1 Damage (anchor)",
+      "density_target": 11,
+      "features": 11,
+      "wp": 0.5153,
+      "se": 0.09042569079390854,
+      "ci": [
+        0.33806564604393924,
+        0.6925343539560607
+      ],
+      "significant": true
+    },
+    {
+      "atom": "+1 Damage (anchor)",
+      "density_target": 12,
+      "features": 11,
+      "wp": 0.5153,
+      "se": 0.09042569079390854,
+      "ci": [
+        0.33806564604393924,
+        0.6925343539560607
+      ],
+      "significant": true
+    },
+    {
+      "atom": "armour:light",
+      "density_target": 9,
+      "features": 9,
+      "wp": 0.4194333333333333,
+      "se": 0.0907555324300765,
+      "ci": [
+        0.24155248977038338,
+        0.5973141768962833
+      ],
+      "significant": true
+    },
+    {
+      "atom": "armour:light",
+      "density_target": 11,
+      "features": 11,
+      "wp": 0.4194333333333333,
+      "se": 0.0907555324300765,
+      "ci": [
+        0.24155248977038338,
+        0.5973141768962833
+      ],
+      "significant": true
+    },
+    {
+      "atom": "armour:light",
+      "density_target": 12,
+      "features": 11,
+      "wp": 0.4194333333333333,
+      "se": 0.0907555324300765,
+      "ci": [
+        0.24155248977038338,
+        0.5973141768962833
+      ],
+      "significant": true
+    },
+    {
+      "atom": "payload:bleeding",
+      "density_target": 9,
+      "features": 9,
+      "wp": 1.0111,
+      "se": 0.08830740499968152,
+      "ci": [
+        0.8380174862006243,
+        1.1841825137993758
+      ],
+      "significant": true
+    },
+    {
+      "atom": "payload:bleeding",
+      "density_target": 11,
+      "features": 11,
+      "wp": 1.0111,
+      "se": 0.08830740499968152,
+      "ci": [
+        0.8380174862006243,
+        1.1841825137993758
+      ],
+      "significant": true
+    },
+    {
+      "atom": "payload:bleeding",
+      "density_target": 12,
+      "features": 11,
+      "wp": 1.0111,
+      "se": 0.08830740499968152,
+      "ci": [
+        0.8380174862006243,
+        1.1841825137993758
+      ],
+      "significant": true
+    }
+  ],
+  "params": {
+    "N_per_cell": 2000,
+    "densities_targeted": [
+      9,
+      11,
+      12
+    ],
+    "pricing_scenarios": [
+      "hold_claim"
+    ],
+    "lists": [
+      "Fireteam (6)",
+      "Mixed (6)",
+      "Armoured (6)"
+    ],
+    "atoms": [
+      "+1 Damage (anchor)",
+      "armour:light",
+      "payload:bleeding"
+    ],
+    "anchor_wp_per_model": 0.3432,
+    "anchor_provisional": "COVERAGE-LIMITED, NOT A WORKING ANCHOR - rests on 1 of 5 shipped scenarios, and the most static one. Overvalues range/damage/armour, undervalues mobility/tempo/stealth. Fourth value in a row to reject its predecessors.",
+    "method": "paired mirror on nested, mirror-symmetric boards"
+  },
+  "caveats": [
+    "STABILITY CHECK, NOT A PRICE. Each atom is compared against ITSELF across densities. No Credits figure here is new.",
+    "Boards are NESTED - 9 is a subset of 11 and 11 of 12 - so a difference is the ADDED terrain rather than a different layout. Features are added in mirrored pairs, so the target counts land on 9/11/13 rather than 9/11/12: an asymmetric board would make A and B face different games, which is a worse error than a one-feature miscount. The ACTUAL count is reported per row.",
+    "The ruleset's 66-point density swing is a WIN-RATE effect between asymmetric crews (4 elite vs 14 horde). This measures the marginal value of an atom in a SYMMETRIC mirror. Both can be true at once: density can decide who wins while an atom's marginal value stays put. A null here does not contradict the ruleset.",
+    "Measured under single-scenario coverage (hold_claim only), so it inherits the static bias of control play like everything else in this rebuild."
+  ],
+  "engine": {
+    "combined": "57133d14350f2abe",
+    "files": {
+      "engine.py": "971c9a32afec2e24",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "1c7fd32fd446674f",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "harness": {
+    "combined": "be154bd6093d4048",
+    "files": {
+      "measure.py": "498d71098e24f631",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "42083e3fcca14103"
+    }
+  },
+  "git": {
+    "commit": "6a54c6b0deca",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/rosters.py",
+      "test-bench/harness/diag_arrival.py",
+      "test-bench/harness/measure_density.py",
+      "test-bench/harness/test_scenario_mechanics.py",
+      "test-bench/harness/verify_scenarios.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/rosters.py",
+      ".cursor/hooks/state/continual-learning-index.json",
+      "docs/OVERNIGHT-LOG.md",
+      "test-bench/balance/results/arrival-diagnostic-n400-e57133d14-h204226ab-20260813-020953.json",
+      "test-bench/balance/results/density-sweep-n80-e57133d14-hbe154bd6-20260813-021343.json",
+      "test-bench/balance/results/scenario-verification-n600-e57133d14-h204226ab-20260813-020844.json",
+      "test-bench/balance/results/scenario-verification-n600-e57133d14-hbe154bd6-20260813-021121.json",
+      "test-bench/harness/diag_arrival.py",
+      "test-bench/harness/measure_density.py",
+      "test-bench/harness/test_scenario_mechanics.py",
+      "test-bench/harness/verify_scenarios.py"
+    ]
+  },
+  "created": "20260813-021953",
+  "python": "3.13.7",
+  "schema": 2
+}

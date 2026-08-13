@@ -169,7 +169,7 @@ The system is complete when someone can price, from the table alone and without 
 | **M1** primitives into the engine | ✅ done |
 | **M3** range bands | ✅ done |
 | **M7** additive vs multiplicative | ✅ **CLOSED — additive** (`POINTS-DECISIONS.md` D21). The evidence contradicted the section's own prediction: elite lists drift *down* under flat pricing, so a carrier multiplier would push them further down |
-| **M4** conditions, individually | ✅ **done.** Condition layer implemented in `engine2d/` and verified by `engine2d/test_conditions.py` (21/21). Nine payload/characteristic prices measured in `balance/conditions2d.py` and folded into `ticks.py`. Two traits measure at zero and are flagged as a **rules** defect — see `POINTS-TABLE.md` §5.5 |
+| **M4** conditions, individually | ✅ **done.** Condition layer implemented in `engine2d/` and verified by `engine2d/check_conditions.py` (21/21). Nine payload/characteristic prices measured in `balance/conditions2d.py` and folded into `ticks.py`. Two traits measure at zero and are flagged as a **rules** defect — see `POINTS-TABLE.md` §5.5 |
 | **M2** armour | ⚠ **re-open.** `ticks.py` and `POINTS-TABLE.md` §7 both cite `balance/armourprice.py` as the source of Light 30 / Heavy 60. **That file does not exist in the repo.** The number may be right, but nothing can re-derive it. Rebuild the sweep before the level is locked |
 | **M5** skills | next — method approved as **measure-but-never-charge** (D22): each skill priced from its primitives, the price used as a **design band**, never as a purchase price |
 | **M6** structures | unblocked by D23 — `Economy.md` is to be drafted as part of this pass, giving structures their second anchor (payback period in Materials) |

@@ -1,0 +1,221 @@
+{
+  "name": "arrival-diagnostic-n400",
+  "question": "Why do Sabotage and Raid fail the arrival check? Specifically, does BalancedPolicy's sprint-only-in-the-melee-branch behaviour account for it? Diagnostic only - no policy is changed and no atom is priced.",
+  "values": {
+    "hold_claim/melee (bat)": {
+      "start": 15.297058540778355,
+      "end": 4.206731873495547,
+      "closed": 11.09032666728281,
+      "interactions": 1.545
+    },
+    "hold_claim/ranged (rifle)": {
+      "start": 15.297058540778355,
+      "end": 1.0109640653190404,
+      "closed": 14.286094475459315,
+      "interactions": 0.0
+    },
+    "hold_claim/ranged (pistol)": {
+      "start": 15.297058540778355,
+      "end": 0.7917848731929458,
+      "closed": 14.50527366758541,
+      "interactions": 0.0325
+    },
+    "sabotage/melee (bat)": {
+      "start": 26.040242625672683,
+      "end": 8.006252961185996,
+      "closed": 18.033989664486686,
+      "interactions": 0.0325
+    },
+    "sabotage/ranged (rifle)": {
+      "start": 26.040242625672683,
+      "end": 9.212933187225259,
+      "closed": 16.827309438447422,
+      "interactions": 0.0
+    },
+    "sabotage/ranged (pistol)": {
+      "start": 26.040242625672683,
+      "end": 7.326254502069488,
+      "closed": 18.713988123603194,
+      "interactions": 0.005
+    },
+    "raid/melee (bat)": {
+      "start": 24.462700882635755,
+      "end": 6.079907902127982,
+      "closed": 18.382792980507773,
+      "interactions": 0.4275
+    },
+    "raid/ranged (rifle)": {
+      "start": 24.462700882635755,
+      "end": 5.4749846024841995,
+      "closed": 18.987716280151556,
+      "interactions": 0.005
+    },
+    "raid/ranged (pistol)": {
+      "start": 24.462700882635755,
+      "end": 5.208702005362077,
+      "closed": 19.253998877273677,
+      "interactions": 0.06
+    }
+  },
+  "raw_cells": [
+    {
+      "start_dist": 15.297058540778355,
+      "end_dist": 4.206731873495547,
+      "closed": 11.09032666728281,
+      "interactions": 1.545,
+      "draw_rate": 0.2375,
+      "scenario": "hold_claim",
+      "crew": "melee (bat)"
+    },
+    {
+      "start_dist": 15.297058540778355,
+      "end_dist": 1.0109640653190404,
+      "closed": 14.286094475459315,
+      "interactions": 0.0,
+      "draw_rate": 1.0,
+      "scenario": "hold_claim",
+      "crew": "ranged (rifle)"
+    },
+    {
+      "start_dist": 15.297058540778355,
+      "end_dist": 0.7917848731929458,
+      "closed": 14.50527366758541,
+      "interactions": 0.0325,
+      "draw_rate": 0.9675,
+      "scenario": "hold_claim",
+      "crew": "ranged (pistol)"
+    },
+    {
+      "start_dist": 26.040242625672683,
+      "end_dist": 8.006252961185996,
+      "closed": 18.033989664486686,
+      "interactions": 0.0325,
+      "draw_rate": 0.9975,
+      "scenario": "sabotage",
+      "crew": "melee (bat)"
+    },
+    {
+      "start_dist": 26.040242625672683,
+      "end_dist": 9.212933187225259,
+      "closed": 16.827309438447422,
+      "interactions": 0.0,
+      "draw_rate": 1.0,
+      "scenario": "sabotage",
+      "crew": "ranged (rifle)"
+    },
+    {
+      "start_dist": 26.040242625672683,
+      "end_dist": 7.326254502069488,
+      "closed": 18.713988123603194,
+      "interactions": 0.005,
+      "draw_rate": 1.0,
+      "scenario": "sabotage",
+      "crew": "ranged (pistol)"
+    },
+    {
+      "start_dist": 24.462700882635755,
+      "end_dist": 6.079907902127982,
+      "closed": 18.382792980507773,
+      "interactions": 0.4275,
+      "draw_rate": 0.745,
+      "scenario": "raid",
+      "crew": "melee (bat)"
+    },
+    {
+      "start_dist": 24.462700882635755,
+      "end_dist": 5.4749846024841995,
+      "closed": 18.987716280151556,
+      "interactions": 0.005,
+      "draw_rate": 0.995,
+      "scenario": "raid",
+      "crew": "ranged (rifle)"
+    },
+    {
+      "start_dist": 24.462700882635755,
+      "end_dist": 5.208702005362077,
+      "closed": 19.253998877273677,
+      "interactions": 0.06,
+      "draw_rate": 0.9525,
+      "scenario": "raid",
+      "crew": "ranged (pistol)"
+    }
+  ],
+  "params": {
+    "N_per_cell": 400,
+    "scenarios": [
+      "hold_claim",
+      "sabotage",
+      "raid"
+    ],
+    "crews": [
+      "melee (bat)",
+      "ranged (rifle)",
+      "ranged (pistol)"
+    ],
+    "hold_radius": 3.0,
+    "method": "symmetric mirror, no effect; distance to goal at deploy vs at game end"
+  },
+  "caveats": [
+    "DIAGNOSTIC, NOT A PRICE. Nothing here converts to Credits.",
+    "Melee and ranged crews differ in more than sprint - they also differ in whether they can damage at range, which changes how much they are slowed by combat. So a melee advantage is CONSISTENT with the sprint hypothesis rather than proof of it.",
+    "The policy is deliberately NOT changed in this batch. This is the same defect shape as the advance/shoot bug, and that one was fixed only after being measured."
+  ],
+  "engine": {
+    "combined": "57133d14350f2abe",
+    "files": {
+      "engine.py": "971c9a32afec2e24",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "1c7fd32fd446674f",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "harness": {
+    "combined": "204226ab926c5b07",
+    "files": {
+      "measure.py": "16296a22c9d9ec7c",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "42083e3fcca14103"
+    }
+  },
+  "git": {
+    "commit": "6a54c6b0deca",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/rosters.py",
+      "test-bench/harness/diag_arrival.py",
+      "test-bench/harness/test_scenario_mechanics.py",
+      "test-bench/harness/verify_scenarios.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/rosters.py",
+      ".cursor/hooks/state/continual-learning-index.json",
+      "docs/OVERNIGHT-LOG.md",
+      "test-bench/balance/results/scenario-verification-n600-e57133d14-h204226ab-20260813-020844.json",
+      "test-bench/harness/diag_arrival.py",
+      "test-bench/harness/test_scenario_mechanics.py",
+      "test-bench/harness/verify_scenarios.py"
+    ]
+  },
+  "created": "20260813-020953",
+  "python": "3.13.7",
+  "schema": 2
+}

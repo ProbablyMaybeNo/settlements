@@ -1,0 +1,156 @@
+{
+  "name": "elevation-tactic-n1500",
+  "question": "BalancedPolicy never calls ascend, so height has been an obstacle in every measurement and never a tactic. Is elevation an edge, and - the question that matters - do atom values move when both sides use it?",
+  "values": {
+    "edge": {
+      "Fireteam (6)": 0.5023333333333333,
+      "Mixed (6)": 0.5006666666666667,
+      "Armoured (6)": 0.5013333333333333
+    },
+    "atom_shift": {
+      "+1 Damage (anchor)": {
+        "no_roof": 0.6074,
+        "roof": 0.5074333333333333,
+        "delta": -0.09996666666666676,
+        "moves": false
+      },
+      "armour:light": {
+        "no_roof": 0.537,
+        "roof": 0.32593333333333335,
+        "delta": -0.21106666666666668,
+        "moves": false
+      }
+    }
+  },
+  "raw_cells": {
+    "edge": [
+      {
+        "crew": "Fireteam (6)",
+        "test_share": 0.5023333333333333,
+        "draw_rate": 0.7193333333333334,
+        "mean_on_roof": 0.602,
+        "se": 0.012909944487358056,
+        "significant": false
+      },
+      {
+        "crew": "Mixed (6)",
+        "test_share": 0.5006666666666667,
+        "draw_rate": 0.4746666666666667,
+        "mean_on_roof": 0.41422222222222227,
+        "se": 0.012909944487358056,
+        "significant": false
+      },
+      {
+        "crew": "Armoured (6)",
+        "test_share": 0.5013333333333333,
+        "draw_rate": 0.7066666666666667,
+        "mean_on_roof": 0.6302222222222222,
+        "se": 0.012909944487358056,
+        "significant": false
+      }
+    ],
+    "atoms": [
+      {
+        "atom": "+1 Damage (anchor)",
+        "no_roof": 0.6074,
+        "roof": 0.5074333333333333,
+        "delta": -0.09996666666666676,
+        "delta_se": 0.14868650839191086,
+        "moves": false
+      },
+      {
+        "atom": "armour:light",
+        "no_roof": 0.537,
+        "roof": 0.32593333333333335,
+        "delta": -0.21106666666666668,
+        "delta_se": 0.150771114239064,
+        "moves": false
+      }
+    ]
+  },
+  "params": {
+    "N_per_cell": 1500,
+    "scenario": "hold_claim",
+    "variant": "BalancedPolicy + take the roof you are standing on",
+    "anchor_wp_per_model": 0.3432,
+    "anchor_provisional": "COVERAGE-LIMITED, NOT A WORKING ANCHOR - rests on 1 of 5 shipped scenarios, and the most static one. Overvalues range/damage/armour, undervalues mobility/tempo/stealth. Fourth value in a row to reject its predecessors.",
+    "lists": [
+      "Fireteam (6)",
+      "Mixed (6)",
+      "Armoured (6)"
+    ]
+  },
+  "caveats": [
+    "QUANTIFY ONLY. policies.py is NOT modified; BalancedRoof lives in this script and nothing else can pick it up.",
+    "The variant is the SMALLEST possible delta - it only converts a building the model is already standing on from cover into a firing position. It does not change movement, targeting or the in-position gate. A larger variant would measure a different AI rather than the value of elevation.",
+    "Deliberately NOT compared against the existing RoofPolicy: that one predates the advance/shoot fix and shoots without the in-position gate, so the comparison would conflate elevation with a policy generation.",
+    "Measured on hold_claim only, so it inherits the single-scenario coverage limit like everything else in the rebuild."
+  ],
+  "engine": {
+    "combined": "57133d14350f2abe",
+    "files": {
+      "engine.py": "971c9a32afec2e24",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "1c7fd32fd446674f",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "harness": {
+    "combined": "be154bd6093d4048",
+    "files": {
+      "measure.py": "498d71098e24f631",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "42083e3fcca14103"
+    }
+  },
+  "git": {
+    "commit": "6a54c6b0deca",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/rosters.py",
+      "test-bench/harness/diag_arrival.py",
+      "test-bench/harness/measure_density.py",
+      "test-bench/harness/measure_elevation.py",
+      "test-bench/harness/test_scenario_mechanics.py",
+      "test-bench/harness/verify_scenarios.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/rosters.py",
+      ".cursor/hooks/state/continual-learning-index.json",
+      "docs/OVERNIGHT-LOG.md",
+      "test-bench/balance/results/arrival-diagnostic-n400-e57133d14-h204226ab-20260813-020953.json",
+      "test-bench/balance/results/density-sweep-n2000-e57133d14-hbe154bd6-20260813-021953.json",
+      "test-bench/balance/results/scenario-verification-n600-e57133d14-h204226ab-20260813-020844.json",
+      "test-bench/balance/results/scenario-verification-n600-e57133d14-hbe154bd6-20260813-021121.json",
+      "test-bench/harness/diag_arrival.py",
+      "test-bench/harness/measure_density.py",
+      "test-bench/harness/measure_elevation.py",
+      "test-bench/harness/test_scenario_mechanics.py",
+      "test-bench/harness/verify_scenarios.py"
+    ]
+  },
+  "created": "20260813-022210",
+  "python": "3.13.7",
+  "schema": 2
+}

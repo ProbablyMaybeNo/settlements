@@ -1,0 +1,277 @@
+{
+  "name": "value-of-pinned-n4000",
+  "question": "What is Pinned worth? It is the baseline every ranged payload price is quoted against, and it decides whether Concussive/Crippling are underpriced or redundant with the free default result.",
+  "values": {
+    "pinned_wp_per_model": 0.51,
+    "ci95_lo": 0.298,
+    "ci95_hi": 0.722,
+    "significant": true,
+    "anchor_used": 0.606,
+    "anchor_provisional": "COVERAGE-LIMITED - rests on 1 of 5 shipped scenarios, and the most static one. FIFTH value in a row to reject its predecessor; every one was internally clean. Mobility atoms may additionally read low (sprint overcorrection). Best-founded to date, not settled.",
+    "cells": {
+      "Fireteam (6)/hold_claim": 0.48,
+      "Fireteam (6)/annihilate": 0.0075,
+      "Fireteam (6)/hold": 0.3325,
+      "Squad (8)/hold_claim": 0.25,
+      "Squad (8)/annihilate": -0.325,
+      "Squad (8)/hold": -0.3292,
+      "Armoured (6)/hold_claim": 0.8,
+      "Armoured (6)/annihilate": 0.075,
+      "Armoured (6)/hold": 0.8275
+    }
+  },
+  "raw_cells": [
+    {
+      "list": "Fireteam (6)",
+      "effect": "null payload (suppresses Pinned)",
+      "cells": {
+        "hold_claim": {
+          "wp": -0.48,
+          "se": 0.1939,
+          "winrate": 0.4766,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 5
+        },
+        "annihilate": {
+          "wp": -0.0075,
+          "se": 0.2158,
+          "winrate": 0.5036,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 5
+        },
+        "hold": {
+          "wp": -0.3325,
+          "se": 0.2207,
+          "winrate": 0.4861,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 5
+        }
+      },
+      "priced_from": [
+        "hold_claim"
+      ],
+      "dropped_degenerate": [],
+      "any_saturated": false,
+      "price_wp": -0.48,
+      "price_se": 0.1939,
+      "price_ci": [
+        -0.8601,
+        -0.0999
+      ],
+      "price_significant": true,
+      "sign_split": false
+    },
+    {
+      "list": "Squad (8)",
+      "effect": "null payload (suppresses Pinned)",
+      "cells": {
+        "hold_claim": {
+          "wp": -0.25,
+          "se": 0.1709,
+          "winrate": 0.4914,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "annihilate": {
+          "wp": 0.325,
+          "se": 0.1806,
+          "winrate": 0.5171,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "hold": {
+          "wp": 0.3292,
+          "se": 0.182,
+          "winrate": 0.5169,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        }
+      },
+      "priced_from": [
+        "hold_claim"
+      ],
+      "dropped_degenerate": [],
+      "any_saturated": false,
+      "price_wp": -0.25,
+      "price_se": 0.1709,
+      "price_ci": [
+        -0.5849,
+        0.0849
+      ],
+      "price_significant": false,
+      "sign_split": false
+    },
+    {
+      "list": "Armoured (6)",
+      "effect": "null payload (suppresses Pinned)",
+      "cells": {
+        "hold_claim": {
+          "wp": -0.8,
+          "se": 0.1963,
+          "winrate": 0.4629,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 5
+        },
+        "annihilate": {
+          "wp": -0.075,
+          "se": 0.2131,
+          "winrate": 0.498,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 5
+        },
+        "hold": {
+          "wp": -0.8275,
+          "se": 0.217,
+          "winrate": 0.4532,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 5
+        }
+      },
+      "priced_from": [
+        "hold_claim"
+      ],
+      "dropped_degenerate": [],
+      "any_saturated": false,
+      "price_wp": -0.8,
+      "price_se": 0.1963,
+      "price_ci": [
+        -1.1848,
+        -0.4152
+      ],
+      "price_significant": true,
+      "sign_split": false
+    }
+  ],
+  "params": {
+    "N_per_cell": 4000,
+    "method": "paired mirror vs a null-payload variant",
+    "pricing_scenarios": [
+      "hold_claim"
+    ],
+    "diagnostic_scenarios": [
+      "annihilate",
+      "hold"
+    ],
+    "divisor": "ranged carriers only - a melee non-wound is Shaken, not Pinned"
+  },
+  "caveats": [
+    "Priced from OBJECTIVE scenarios only. Supersedes value-of-pinned-n4000, which averaged Annihilate in - and Pinned is the atom whose sign-split ACROSS that boundary is what forced the objective-only policy in the first place.",
+    "Measured on this engine's AI, which never spends a Move to clear Pinned (clear_movement_condition is called by no policy). Pinned IS cleared by clear_pin() in every policy, so unlike Hobbled this is not a permanent-condition artefact - but the AI clears it immediately and unconditionally, which is a lower bound on a player who would sometimes shoot from where they stand.",
+    "Suppressive is excluded: it modifies what clearing Pinned costs, so it is a second-order effect on this same baseline and must be measured after it."
+  ],
+  "engine": {
+    "combined": "9546edcf089f506d",
+    "files": {
+      "engine.py": "971c9a32afec2e24",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "c2a47303271b86cc",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "harness": {
+    "combined": "61af4e89c8c92c89",
+    "files": {
+      "measure.py": "4a64cfe6aef9965d",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "b2097362b4e30eff",
+      "rosters.py": "0ea0162cc3038c11",
+      "diag_arrival.py": "8053c1c1360d59d6",
+      "measure_anchor.py": "18b899b87e588a1f",
+      "measure_armour.py": "e5fb576c45bc1dd4",
+      "measure_density.py": "e9f9d0fa1cd53dd8",
+      "measure_elevation.py": "f4adca96ad1180f1",
+      "measure_payloads.py": "c4411dcfad7a2775",
+      "measure_pinned.py": "2e569266ee228ee7",
+      "measure_signsplit.py": "33e9ff327a547457",
+      "measure_stat_ladder.py": "57e4cb92a0bedddb",
+      "measure_weapon_classes.py": "1522f215095908bf",
+      "verify_scenarios.py": "da39545895392a68",
+      "verify_sprint_fix.py": "502eb33a0797f22e"
+    }
+  },
+  "script": {
+    "name": "measure_pinned.py",
+    "sha": "2e569266ee228ee7"
+  },
+  "git": {
+    "commit": "6a54c6b0deca",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/anchor.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py",
+      "test-bench/harness/rosters.py",
+      "test-bench/harness/audit_degeneracy.py",
+      "test-bench/harness/conftest.py",
+      "test-bench/harness/diag_arrival.py",
+      "test-bench/harness/investigate_arrival.py",
+      "test-bench/harness/measure_density.py",
+      "test-bench/harness/measure_elevation.py",
+      "test-bench/harness/test_scenario_mechanics.py",
+      "test-bench/harness/two_route.py",
+      "test-bench/harness/verify_scenarios.py",
+      "test-bench/harness/verify_sprint_fix.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "docs/POINTS-REBUILD-TRACKING.md",
+      "docs/POINTS-TABLE.md",
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/anchor.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py",
+      "test-bench/harness/rosters.py",
+      ".cursor/hooks/state/continual-learning-index.json"
+    ]
+  },
+  "created": "20260813-053034",
+  "python": "3.13.7",
+  "schema": 2
+}

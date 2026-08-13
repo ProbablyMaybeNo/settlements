@@ -28,6 +28,22 @@ a reason they cannot share a price, let alone a flat one.
 
 from __future__ import annotations
 
+# IMPORT GUARD. This file is a SCRIPT: it runs its whole measurement at module
+# level. `import measure_x` therefore executes a full sweep as a side effect -
+# which happened TWICE in one session, once silently writing an artefact from a
+# known-broken board ladder that then passed every provenance check.
+#
+# Deliberately a loud raise rather than the usual `if __name__ == "__main__":`
+# wrapper. The wrapper makes an accidental import a silent no-op; this says why
+# nothing happened. The failure being guarded is a silent one, so the guard is
+# not silent.
+if __name__ != "__main__":
+    raise RuntimeError(
+        f"{__name__} is a script, not a module - importing it would run its entire "
+        "measurement as a side effect. Run it with `py -3.13 <file>.py` instead, or "
+        "move the helper you wanted into a module."
+    )
+
 import statistics
 import sys
 from pathlib import Path
@@ -46,6 +62,14 @@ except Exception:
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 3000
 import anchor as _anchor  # noqa: E402
 ANCHOR = _anchor.VALUE
+
+# Fingerprinted BEFORE the games run. Envelope's default_factory fields evaluate
+# at CONSTRUCTION, which is after the run, so an edit landing mid-run would stamp
+# a result with code that never executed.
+ENGINE_AT_START = P.engine_fingerprint()
+COST_AT_START = P.cost_table_fingerprint()
+HARNESS_AT_START = P.harness_fingerprint()
+GIT_AT_START = P.git_state()
 RUNGS = (0, 1, 2, 3, 4, 5)   # measuring r -> r+1, so 0->1 .. 5->6
 
 
@@ -66,45 +90,56 @@ print()
 all_rows = []
 for label, stat, weapon in CASES:
     print(f"  {label}")
-    print(f"    {'rung':<10}{'hold':>9}{'annih':>9}{'mean wp':>10}{'SE':>7}"
+    print(f"    {'rung':<10}{'hold_clm':>10}{'(hold)':>9}{'(annih)':>9}{'PRICE':>9}{'SE':>7}"
           f"{'95% CI':>18}{'Cr':>6}{'vs 15':>8}  sig")
     for r in RUNGS:
         spec = uniform_crew(stat, r, weapon)
         eff = E.stat_rung(stat, 1)
-        cells = []
-        for scen in ("hold", "annihilate"):
-            cells.append(M.measure(spec, eff, scen, n=N))
-        # Exclude any scenario that cannot resolve for this crew. A uniform rifle
-        # crew draws 100% of Hold games, so including it halves the result.
-        live = [c for c in cells if not c.degenerate]
-        dead = [c for c in cells if c.degenerate]
-        if not live:
-            print(f"    {f'{r}->{r+1}':<10}  ALL SCENARIOS DEGENERATE - no measurement possible")
+        # PRICED THROUGH price_atom LIKE EVERY OTHER SCRIPT — fixed 2026-08-13.
+        #
+        # This loop used to read `for scen in ("hold", "annihilate")` and average
+        # the two, which is BOTH rulings this project has already made, still live
+        # in one file: `annihilate` is a kill scenario and the ruleset wins on
+        # objectives (the objective-only cut, 09c4462), and `hold` scores
+        # positionally and models no shipped scenario (dropped, 6a54c6b). Neither
+        # ruling reached here, because this script never routed through
+        # price_atom() and so inherited nothing when PRICING_SCENARIOS moved.
+        #
+        # The stored artefact was correctly marked VOID on both counts — and that
+        # was not enough, because RE-RUNNING IT REPRODUCED THE VOID BASIS. A
+        # policy that lives in a constant only protects the callers that read the
+        # constant. Both scenarios are kept as DIAGNOSTICS so the sign-split
+        # detector still sees them; they no longer enter the price.
+        res = M.price_atom(spec, eff, n=N)
+        wp = res["price_wp"]
+
+        def _c(s, _r=res):
+            c = _r["cells"].get(s)
+            return "    degen" if (c is None or c["degenerate"]) else f"{c['wp']:+.3f}"
+
+        if wp is None:
+            print(f"    {f'{r}->{r+1}':<10}  ALL OBJECTIVE CELLS DEGENERATE - no price")
+            all_rows.append({"stat": stat, "weapon": weapon, "rung": f"{r}->{r+1}",
+                             "wp": None, "significant": False,
+                             "per_scenario": {s: c["wp"] for s, c in res["cells"].items()},
+                             "scenarios_used": [],
+                             "scenarios_excluded_degenerate": res["dropped_degenerate"]})
             continue
-        per = [c.per_applied for c in live]
-        ses = [c.per_applied_se for c in live]
-        mean = statistics.fmean(per)
-        pooled = (sum(s * s for s in ses) ** 0.5) / len(ses)
-        lo, hi = mean - 1.96 * pooled, mean + 1.96 * pooled
-        cr = mean / ANCHOR * 15
-        sig = abs(mean) > 1.96 * pooled
-        # Key by the cell's own scenario name. Indexing per[] positionally would
-        # mislabel the moment a degenerate scenario is dropped from the list.
-        by_scen = {c.scenario: (None if c.degenerate else round(c.per_applied, 4))
-                   for c in cells}
+        se = res["price_se"]
+        lo, hi = res["price_ci"]
+        cr = wp / ANCHOR * 15
+        sig = res["price_significant"]
         all_rows.append({"stat": stat, "weapon": weapon, "rung": f"{r}->{r+1}",
-                         "per_scenario": by_scen,
-                         "wp": round(mean, 4), "se": round(pooled, 4),
-                         "ci": [round(lo, 4), round(hi, 4)],
+                         "per_scenario": {s: c["wp"] for s, c in res["cells"].items()},
+                         "wp": wp, "se": se, "ci": [lo, hi],
                          "credits": round(cr, 1), "significant": sig,
-                         "scenarios_used": [c.scenario for c in live],
-                         "scenarios_excluded_degenerate": [c.scenario for c in dead],
-                         "draw_rates": {c.scenario: round(c.draw_rate, 3) for c in cells}})
-        h = f"{cells[0].per_applied:+.3f}" if not cells[0].degenerate else "  drawn"
-        a = f"{cells[1].per_applied:+.3f}" if not cells[1].degenerate else "  drawn"
-        print(f"    {f'{r}->{r+1}':<10}{h:>9}{a:>9}{mean:>+10.3f}{pooled:>7.3f}"
+                         "sign_split": res["sign_split"],
+                         "scenarios_used": res["priced_from"],
+                         "scenarios_excluded_degenerate": res["dropped_degenerate"]})
+        print(f"    {f'{r}->{r+1}':<10}{_c('hold_claim'):>10}{_c('hold'):>9}{_c('annihilate'):>9}"
+              f"{wp:>+9.3f}{se:>7.3f}"
               f"  [{lo:+.3f}, {hi:+.3f}]{cr:>6.0f}{cr - 15:>+8.0f}  {'yes' if sig else ' no'}"
-              f"{'   (' + str(len(dead)) + ' scenario excluded)' if dead else ''}")
+              f"{'   SIGN-SPLIT' if res['sign_split'] else ''}")
     print()
 
 print("  A flat price is only correct if these rows are flat. Read the spread, not the mean.")
@@ -137,6 +172,10 @@ env = P.Envelope(
         "A uniform crew is not a real crew. It isolates the rung, which is the point, but "
         "a real fighter's rungs interact with its own other stats and its weapon.",
     ],
+    engine=ENGINE_AT_START,
+    cost_table=COST_AT_START,
+    harness=HARNESS_AT_START,
+    git=GIT_AT_START,
 )
 out = env.write()
 print(f"\n[stamped] {out.name}")

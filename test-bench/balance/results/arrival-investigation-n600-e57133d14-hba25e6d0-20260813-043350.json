@@ -1,0 +1,340 @@
+{
+  "name": "arrival-investigation-n600",
+  "question": "Sabotage/Raid objectives sit ~26\" out and crews close ~3\"/round, against a ruleset clock that assumes 6-12\"/round and an arm by Round 2-3. Which is wrong: deployment distance, movement rates, round count - or the AI's action allocation? Quantified; no lever is chosen.",
+  "values": {
+    "by_policy": {
+      "sabotage/Fireteam (6)/balanced": {
+        "end_dist": 9.088691056600432,
+        "frac_arrived": 0.203515873015873,
+        "interactions": 0.028333333333333332
+      },
+      "sabotage/Fireteam (6)/sprint": {
+        "end_dist": 2.497367641127248,
+        "frac_arrived": 0.7228901515151516,
+        "interactions": 6.07
+      },
+      "sabotage/Mixed (6)/balanced": {
+        "end_dist": 7.144638173364786,
+        "frac_arrived": 0.27718253968253964,
+        "interactions": 0.12333333333333334
+      },
+      "sabotage/Mixed (6)/sprint": {
+        "end_dist": 2.8541340435092604,
+        "frac_arrived": 0.7307661736411737,
+        "interactions": 6.053333333333334
+      },
+      "raid/Fireteam (6)/balanced": {
+        "end_dist": 6.210151756209719,
+        "frac_arrived": 0.3915376984126984,
+        "interactions": 0.09
+      },
+      "raid/Fireteam (6)/sprint": {
+        "end_dist": 2.366936681161327,
+        "frac_arrived": 0.7397910654160654,
+        "interactions": 4.576666666666667
+      },
+      "raid/Mixed (6)/balanced": {
+        "end_dist": 4.9081961809400125,
+        "frac_arrived": 0.5182797619047619,
+        "interactions": 0.25833333333333336
+      },
+      "raid/Mixed (6)/sprint": {
+        "end_dist": 2.648145594122532,
+        "frac_arrived": 0.7621041366041366,
+        "interactions": 4.755
+      }
+    },
+    "by_rounds": {
+      "sabotage@6": {
+        "end_dist": 7.04893889059919,
+        "frac_arrived": 0.2863650793650793,
+        "interactions": 0.09333333333333334
+      },
+      "sabotage@8": {
+        "end_dist": 6.479813157479197,
+        "frac_arrived": 0.3606666666666667,
+        "interactions": 0.3433333333333333
+      },
+      "sabotage@10": {
+        "end_dist": 6.128012394852391,
+        "frac_arrived": 0.40161111111111114,
+        "interactions": 0.4
+      },
+      "sabotage@12": {
+        "end_dist": 6.742741974694974,
+        "frac_arrived": 0.3588888888888889,
+        "interactions": 0.2833333333333333
+      },
+      "raid@6": {
+        "end_dist": 4.697050146426784,
+        "frac_arrived": 0.5500833333333334,
+        "interactions": 0.2633333333333333
+      },
+      "raid@8": {
+        "end_dist": 4.921242147377639,
+        "frac_arrived": 0.5157777777777778,
+        "interactions": 0.42
+      },
+      "raid@10": {
+        "end_dist": 4.978138481963159,
+        "frac_arrived": 0.5273333333333333,
+        "interactions": 0.56
+      },
+      "raid@12": {
+        "end_dist": 4.844943129621828,
+        "frac_arrived": 0.5661666666666666,
+        "interactions": 0.5933333333333334
+      }
+    }
+  },
+  "raw_cells": {
+    "policy": [
+      {
+        "draw": 0.9933333333333333,
+        "end_dist": 9.088691056600432,
+        "frac_arrived": 0.203515873015873,
+        "interactions": 0.028333333333333332,
+        "scenario": "sabotage",
+        "crew": "Fireteam (6)",
+        "policy": "balanced"
+      },
+      {
+        "draw": 0.225,
+        "end_dist": 2.497367641127248,
+        "frac_arrived": 0.7228901515151516,
+        "interactions": 6.07,
+        "scenario": "sabotage",
+        "crew": "Fireteam (6)",
+        "policy": "sprint"
+      },
+      {
+        "draw": 0.9733333333333334,
+        "end_dist": 7.144638173364786,
+        "frac_arrived": 0.27718253968253964,
+        "interactions": 0.12333333333333334,
+        "scenario": "sabotage",
+        "crew": "Mixed (6)",
+        "policy": "balanced"
+      },
+      {
+        "draw": 0.17,
+        "end_dist": 2.8541340435092604,
+        "frac_arrived": 0.7307661736411737,
+        "interactions": 6.053333333333334,
+        "scenario": "sabotage",
+        "crew": "Mixed (6)",
+        "policy": "sprint"
+      },
+      {
+        "draw": 0.915,
+        "end_dist": 6.210151756209719,
+        "frac_arrived": 0.3915376984126984,
+        "interactions": 0.09,
+        "scenario": "raid",
+        "crew": "Fireteam (6)",
+        "policy": "balanced"
+      },
+      {
+        "draw": 0.31833333333333336,
+        "end_dist": 2.366936681161327,
+        "frac_arrived": 0.7397910654160654,
+        "interactions": 4.576666666666667,
+        "scenario": "raid",
+        "crew": "Fireteam (6)",
+        "policy": "sprint"
+      },
+      {
+        "draw": 0.785,
+        "end_dist": 4.9081961809400125,
+        "frac_arrived": 0.5182797619047619,
+        "interactions": 0.25833333333333336,
+        "scenario": "raid",
+        "crew": "Mixed (6)",
+        "policy": "balanced"
+      },
+      {
+        "draw": 0.35,
+        "end_dist": 2.648145594122532,
+        "frac_arrived": 0.7621041366041366,
+        "interactions": 4.755,
+        "scenario": "raid",
+        "crew": "Mixed (6)",
+        "policy": "sprint"
+      }
+    ],
+    "rounds": [
+      {
+        "draw": 0.98,
+        "end_dist": 7.04893889059919,
+        "frac_arrived": 0.2863650793650793,
+        "interactions": 0.09333333333333334,
+        "scenario": "sabotage",
+        "rounds": 6
+      },
+      {
+        "draw": 0.93,
+        "end_dist": 6.479813157479197,
+        "frac_arrived": 0.3606666666666667,
+        "interactions": 0.3433333333333333,
+        "scenario": "sabotage",
+        "rounds": 8
+      },
+      {
+        "draw": 0.9233333333333333,
+        "end_dist": 6.128012394852391,
+        "frac_arrived": 0.40161111111111114,
+        "interactions": 0.4,
+        "scenario": "sabotage",
+        "rounds": 10
+      },
+      {
+        "draw": 0.9533333333333334,
+        "end_dist": 6.742741974694974,
+        "frac_arrived": 0.3588888888888889,
+        "interactions": 0.2833333333333333,
+        "scenario": "sabotage",
+        "rounds": 12
+      },
+      {
+        "draw": 0.7733333333333333,
+        "end_dist": 4.697050146426784,
+        "frac_arrived": 0.5500833333333334,
+        "interactions": 0.2633333333333333,
+        "scenario": "raid",
+        "rounds": 6
+      },
+      {
+        "draw": 0.7266666666666667,
+        "end_dist": 4.921242147377639,
+        "frac_arrived": 0.5157777777777778,
+        "interactions": 0.42,
+        "scenario": "raid",
+        "rounds": 8
+      },
+      {
+        "draw": 0.71,
+        "end_dist": 4.978138481963159,
+        "frac_arrived": 0.5273333333333333,
+        "interactions": 0.56,
+        "scenario": "raid",
+        "rounds": 10
+      },
+      {
+        "draw": 0.69,
+        "end_dist": 4.844943129621828,
+        "frac_arrived": 0.5661666666666666,
+        "interactions": 0.5933333333333334,
+        "scenario": "raid",
+        "rounds": 12
+      }
+    ]
+  },
+  "params": {
+    "N_per_cell": 600,
+    "MOV": 6.0,
+    "deploy_gap": 24.0,
+    "rounds_default": 6,
+    "interact_reach": 3.0,
+    "sprint_rule": "both slots, 2xMOV, no Shoot/Ready (Full Rules sec 115)",
+    "variant": "SprintingPolicy - sprints while goal is beyond MOV+reach, then reverts so the arriving activation can spend its Action on the Interact"
+  },
+  "caveats": [
+    "QUANTIFY ONLY. No rule is changed, no lever is chosen, policies.py is untouched.",
+    "The sprint variant deliberately STOPS sprinting within one move of the goal. Sprint consumes the Action slot, so a model that sprints onto an objective cannot Interact with it that turn - sprinting all the way in arrives faster and never arms.",
+    "Deployment distance is NOT freely tunable: the 24\" gap is load-bearing in the opposite direction. Full Rules sec 558 caps weapon range at 24\" BECAUSE the zones are 24\" apart, so a longer gap would silently un-cap long-range weapons and a shorter one would let a 24\" gun fire from its own deployment on turn one - which the sim already found beating every other list by 13-30 points.",
+    "Round count is not free either: every scenario's clock is sized to 6 rounds, and Take a Hold's 15-VP ceiling is 3 objectives x 5 scoring rounds.",
+    "MOV is the most constrained of the three: fixed at 6\" by sec 448 with Fleet (8\") named as the ONLY way to raise it, so a general MOV change rewrites a stat the whole skill list is balanced against."
+  ],
+  "engine": {
+    "combined": "57133d14350f2abe",
+    "files": {
+      "engine.py": "971c9a32afec2e24",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "1c7fd32fd446674f",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "harness": {
+    "combined": "ba25e6d068724020",
+    "files": {
+      "measure.py": "498d71098e24f631",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "42083e3fcca14103",
+      "rosters.py": "0ea0162cc3038c11",
+      "diag_arrival.py": "8053c1c1360d59d6",
+      "measure_anchor.py": "18b899b87e588a1f",
+      "measure_armour.py": "e5fb576c45bc1dd4",
+      "measure_density.py": "e9f9d0fa1cd53dd8",
+      "measure_elevation.py": "f4adca96ad1180f1",
+      "measure_payloads.py": "c4411dcfad7a2775",
+      "measure_pinned.py": "2e569266ee228ee7",
+      "measure_signsplit.py": "33e9ff327a547457",
+      "measure_stat_ladder.py": "57e4cb92a0bedddb",
+      "measure_weapon_classes.py": "1522f215095908bf",
+      "verify_scenarios.py": "da39545895392a68"
+    }
+  },
+  "script": {
+    "name": "investigate_arrival.py",
+    "sha": "e3d164c02312b735"
+  },
+  "git": {
+    "commit": "6a54c6b0deca",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py",
+      "test-bench/harness/rosters.py",
+      "test-bench/harness/conftest.py",
+      "test-bench/harness/diag_arrival.py",
+      "test-bench/harness/investigate_arrival.py",
+      "test-bench/harness/measure_density.py",
+      "test-bench/harness/measure_elevation.py",
+      "test-bench/harness/test_scenario_mechanics.py",
+      "test-bench/harness/two_route.py",
+      "test-bench/harness/verify_scenarios.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "docs/POINTS-REBUILD-TRACKING.md",
+      "docs/POINTS-TABLE.md",
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py",
+      "test-bench/harness/rosters.py",
+      ".cursor/hooks/state/continual-learning-index.json",
+      "docs/OVERNIGHT-LOG.md",
+      "test-bench/balance/results/armour-level-n12000-e57133d14-hbe154bd6-20260813-023032.json"
+    ]
+  },
+  "created": "20260813-043350",
+  "python": "3.13.7",
+  "schema": 2
+}

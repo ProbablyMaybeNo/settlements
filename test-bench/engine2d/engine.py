@@ -63,13 +63,24 @@ def d10():
     return random.randint(1, 10)
 
 
-def core(mod, target=7):
+def core_d(mod, target=7):
+    """core(), but also returns the raw die.
+
+    Some rules key off a NATURAL result rather than the pass/fail: the Sabotage
+    defuse is "DEX 7+, nat 1 = it goes off now", so a failed defuse and a
+    catastrophic one are different outcomes. core() delegates here rather than
+    duplicating the dice logic, so the two can never drift apart.
+    """
     d = d10()
     if d == 1:
-        return False
+        return False, d
     if d == 10:
-        return True
-    return d + mod >= target
+        return True, d
+    return d + mod >= target, d
+
+
+def core(mod, target=7):
+    return core_d(mod, target)[0]
 
 
 def opposed(a, b):        # ties -> defender (b)
@@ -215,6 +226,12 @@ class Game:
         self.claims = {i: None for i in range(len(self.objectives))}
         self.stat = {'snap': 0, 'dodge_try': 0, 'dodge_save': 0}   # BLKOUT-import instrumentation
         self.blooded = False        # has first blood been drawn? (Deed instrumentation)
+        # SUDDEN DEATH HOOK. Two of the five shipped scenarios (Sabotage, Power
+        # Supply) end the moment a condition is met rather than at the round
+        # limit, so a scenario needs a way to stop the loop from inside
+        # score_objectives. Base Game never sets it; nothing changes for the
+        # VP-accrual scenarios.
+        self.over = False
 
     def _spawn(self):
         for side, crew in enumerate(self.sides):
@@ -499,10 +516,21 @@ class Game:
 
     def move_to(self, u, point, max_dist):
         if u.off_balance and max_dist > u.mov:
-            # Off-Balance denies Sprint and Charge outright. To do either you must
-            # first shed it, and shedding costs the Move slot — so this activation
-            # buys the clear instead of the distance.
-            u.off_balance = False
+            # A DENIED SPRINT SPENDS NOTHING — ruled 2026-08-13.
+            #
+            # Off-Balance denies Sprint and Charge outright, so the action never
+            # legally occurs and there is nothing to have spent: no distance, and
+            # NO SHED. This branch used to clear the condition here, on the
+            # reasoning that shedding costs the Move slot and the activation buys
+            # the clear instead of the distance. That reasoning was imported from
+            # Pinned, and it does not transfer — the rules say *directly* that
+            # clearing Pinned costs the Move, which is a stated cost, not a
+            # general principle. Nothing grants a denied Sprint the same
+            # treatment, and inferring it let a condition shed itself via an
+            # action that was never legal in the first place.
+            #
+            # The unit therefore does not move and stays Off-Balance. Callers must
+            # not ask for a sprint they cannot have: `policies.can_sprint(u)`.
             return
         p0 = u.pos
         u.pos = toward(u.pos, point, max_dist)
@@ -957,6 +985,8 @@ class Game:
             self.score_objectives(rnd)
             if self.record:
                 self._snapshot(rnd)
+            if self.over:                 # sudden death — the scenario ended it
+                break
         return self.result()
 
     def result(self):

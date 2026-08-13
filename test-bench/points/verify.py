@@ -79,19 +79,31 @@ def verify_structural() -> list[str]:
             f"{CHAR_CREDITS['long_range']} = {rhs}"
         )
 
-    # Armour must be linear: -2 costs exactly twice -1, with no refunds, because
-    # each armour point is a flat -10% on the injury roll.
+    # ARMOUR LINEARITY IS NO LONGER REQUIRED — the premise was withdrawn 2026-08-13.
+    #
+    # This check used to demand that -2 cost exactly twice -1, on the argument
+    # that each armour point is a flat -10% on the injury roll. That argument is
+    # about the WRONG QUANTITY: linear in injury probability does not imply linear
+    # in win-points, because the second armour point buys survival on a model that
+    # is already surviving more often. Measured heavy/light = 1.745 +- 0.416, and
+    # the ratio question is closed as unanswerable (N~66k to exclude 2.0, N~194k
+    # to exclude 1.667, and neither resolves if the truth sits between them).
+    #
+    # A check that enforces a withdrawn premise does not merely fail — it would
+    # force the measured values back onto the discarded rule to make itself pass.
+    # What IS still checkable, and what the ladder must never do, is invert: more
+    # armour must cost more. That is a real invariant; 2x was an assumption.
     from .ticks import ARMOUR_CREDITS, ARMOUR_INJURY
-    per_point = {}
-    for name, cost in ARMOUR_CREDITS.items():
-        inj = ARMOUR_INJURY.get(name, 0)
-        if inj:
-            per_point[name] = cost / abs(inj)
-    if per_point and len(set(per_point.values())) != 1:
-        errs.append(
-            "armour ladder is not linear: Credits per armour point = "
-            + ", ".join(f"{k} {v:g}" for k, v in sorted(per_point.items()))
-        )
+    graded = sorted(
+        ((abs(ARMOUR_INJURY.get(n, 0)), c, n) for n, c in ARMOUR_CREDITS.items()),
+        key=lambda t: t[0],
+    )
+    for (inj_a, cost_a, name_a), (inj_b, cost_b, name_b) in zip(graded, graded[1:]):
+        if inj_b > inj_a and cost_b <= cost_a:
+            errs.append(
+                f"armour ladder inverts: {name_b} ({inj_b} pts, {cost_b} Cr) does not "
+                f"cost more than {name_a} ({inj_a} pts, {cost_a} Cr)"
+            )
 
     # Every class must sit in a range band, and the band must match CLASS_META.
     for cls, meta in CLASS_META.items():
@@ -203,15 +215,31 @@ def run_report() -> int:
             "structural invariants hold\n"
         )
 
-    zeros = getattr(ticks, "UNPRICEABLE_MEASURED_ZERO", ())
-    if zeros:
-        print("MEASURED AT ZERO — a rules defect, not a price (M4, conditions2d.py):")
-        for name in zeros:
-            print(
-                f"  !! {name:<16} still listed at {ticks.CHAR_CREDITS[name]:3} Credits, "
-                f"measured inside the noise floor"
-            )
-        print("  Strengthen the rule or cut the trait; do not sell it at any price.\n")
+    # Measured NET values, payload-table-objective-n2500 (2026-08-13). Printed so
+    # the reader sees WHY each is blocked; "inside the noise floor" was the old
+    # message and it is no longer true of the first three, which are significantly
+    # negative — a trait that makes an attack worse than not buying it.
+    _BLOCKED_WHY = {
+        "concussive": "-0.592 wp  SIGNIFICANTLY NEGATIVE  (Off-Balance replaces Pinned; "
+                      "value(Off-Balance) measures 0.000 exactly)",
+        "crippling": "-0.613 wp  SIGNIFICANTLY NEGATIVE  (Hobbled replaces Pinned; "
+                     "value(Hobbled) +0.078 n.s.)",
+        "blinding": "-0.317 wp  SIGNIFICANTLY NEGATIVE  (Blind is worth +0.369 and "
+                    "STILL loses — what it replaces is worth more)",
+        "hook": "-0.230 wp  negative point estimate, SE 0.858 — unmeasurably noisy",
+        "toxic": "-0.080 wp  negative point estimate, not significant",
+    }
+    blocked = getattr(ticks, "BLOCKED_REDESIGN", ())
+    if blocked:
+        print("BLOCKED — REDESIGN. These do NOT ship. Escalated 2026-08-13:")
+        for name in blocked:
+            print(f"  !! {name:<12} listed {ticks.CHAR_CREDITS[name]:3} Cr   "
+                  f"{_BLOCKED_WHY.get(name, 'measured at or below zero')}")
+        print("  A price cannot fix a trait that replaces a good default with a worse")
+        print("  one — that sells the player a downgrade at any number. The likely")
+        print("  root cause is ONE rule, not five traits: replace-not-stack was")
+        print("  designed when Pinned was believed worth ~zero, and Pinned measures")
+        print("  +0.510 significant. RULES DECISION, not a pricing one.\n")
 
     drift = legacy_drift()
     moved = [r for r in drift if r["delta"]]

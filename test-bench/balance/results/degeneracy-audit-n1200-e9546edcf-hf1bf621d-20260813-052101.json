@@ -1,0 +1,221 @@
+{
+  "name": "degeneracy-audit-n1200",
+  "question": "What was concluded from 'all-ranged crews cannot score on hold_claim', and does any of it survive the sprint + objective-first fixes? The behaviour was treated as a property of the game and used to exclude cells, design rosters and price an atom from a single scenario.",
+  "values": {
+    "artefacts_with_dropped_cells": [
+      "stat-ladder-n3000-3310fdc4.json",
+      "weapon-class-atoms-n2500-a4ce9165.json",
+      "weapon-class-atoms-objective-n2500-e3b61ae81-h42615a70-20260812-235756.json"
+    ],
+    "recovered": [
+      {
+        "crew": "uniform rifle (6)",
+        "scenario": "hold_claim",
+        "wp": 0.9513888888888888,
+        "significant": true
+      },
+      {
+        "crew": "uniform rifle (6)",
+        "scenario": "hold",
+        "wp": 1.5972222222222223,
+        "significant": true
+      },
+      {
+        "crew": "uniform pistol (6)",
+        "scenario": "hold_claim",
+        "wp": 0.4861111111111111,
+        "significant": false
+      },
+      {
+        "crew": "probe chassis d1 (6)",
+        "scenario": "hold_claim",
+        "wp": 0.9513888888888888,
+        "significant": true
+      }
+    ],
+    "still_degenerate": []
+  },
+  "raw_cells": [
+    {
+      "crew": "uniform rifle (6)",
+      "scenario": "hold_claim",
+      "was": "DROPPED",
+      "draw_rate": 0.33666666666666667,
+      "degenerate": false,
+      "wp": 0.9513888888888888,
+      "significant": true
+    },
+    {
+      "crew": "uniform rifle (6)",
+      "scenario": "hold",
+      "was": "DROPPED",
+      "draw_rate": 0.02666666666666667,
+      "degenerate": false,
+      "wp": 1.5972222222222223,
+      "significant": true
+    },
+    {
+      "crew": "uniform pistol (6)",
+      "scenario": "hold_claim",
+      "was": "DROPPED",
+      "draw_rate": 0.2925,
+      "degenerate": false,
+      "wp": 0.4861111111111111,
+      "significant": false
+    },
+    {
+      "crew": "probe chassis d1 (6)",
+      "scenario": "hold_claim",
+      "was": "DROPPED",
+      "draw_rate": 0.33666666666666667,
+      "degenerate": false,
+      "wp": 0.9513888888888888,
+      "significant": true
+    },
+    {
+      "crew": "Fireteam (6)",
+      "scenario": "hold_claim",
+      "was": "kept",
+      "draw_rate": 0.3016666666666667,
+      "degenerate": false,
+      "wp": 0.34027777777777773,
+      "significant": false
+    },
+    {
+      "crew": "Squad (8)",
+      "scenario": "hold_claim",
+      "was": "kept",
+      "draw_rate": 0.19,
+      "degenerate": false,
+      "wp": 0.515625,
+      "significant": true
+    },
+    {
+      "crew": "Armoured (6)",
+      "scenario": "hold_claim",
+      "was": "kept",
+      "draw_rate": 0.24916666666666668,
+      "degenerate": false,
+      "wp": 1.1666666666666667,
+      "significant": true
+    },
+    {
+      "crew": "Mixed (6)",
+      "scenario": "hold_claim",
+      "was": "kept",
+      "draw_rate": 0.3233333333333333,
+      "degenerate": false,
+      "wp": 0.8402777777777778,
+      "significant": true
+    }
+  ],
+  "params": {
+    "N_per_cell": 1200,
+    "guard_threshold": "draw_rate >= 0.95",
+    "fixes_applied": [
+      "sprint when goal beyond mov+IN_POSITION",
+      "objective Interact before shooting"
+    ]
+  },
+  "caveats": [
+    "The guard THRESHOLD is not the defect and is unchanged. The defect was its stated MECHANISM, and the conclusions that mechanism licensed.",
+    "Recovered cells are NOT retro-fitted into old results. Every pre-fix measurement is void on its own terms; this audit says which CONCLUSIONS need re-examining, not which numbers can be salvaged.",
+    "Measured under the sprint overcorrection (accepted residual): mobility-adjacent atoms may read low on Raid specifically."
+  ],
+  "engine": {
+    "combined": "9546edcf089f506d",
+    "files": {
+      "engine.py": "971c9a32afec2e24",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "c2a47303271b86cc",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "harness": {
+    "combined": "f1bf621dca65dbd6",
+    "files": {
+      "measure.py": "7766c65c499ad3d5",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "42083e3fcca14103",
+      "rosters.py": "0ea0162cc3038c11",
+      "diag_arrival.py": "8053c1c1360d59d6",
+      "measure_anchor.py": "18b899b87e588a1f",
+      "measure_armour.py": "e5fb576c45bc1dd4",
+      "measure_density.py": "e9f9d0fa1cd53dd8",
+      "measure_elevation.py": "f4adca96ad1180f1",
+      "measure_payloads.py": "c4411dcfad7a2775",
+      "measure_pinned.py": "2e569266ee228ee7",
+      "measure_signsplit.py": "33e9ff327a547457",
+      "measure_stat_ladder.py": "57e4cb92a0bedddb",
+      "measure_weapon_classes.py": "1522f215095908bf",
+      "verify_scenarios.py": "da39545895392a68",
+      "verify_sprint_fix.py": "502eb33a0797f22e"
+    }
+  },
+  "script": {
+    "name": "audit_degeneracy.py",
+    "sha": "dc015b53e6b003b3"
+  },
+  "git": {
+    "commit": "6a54c6b0deca",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py",
+      "test-bench/harness/rosters.py",
+      "test-bench/harness/audit_degeneracy.py",
+      "test-bench/harness/conftest.py",
+      "test-bench/harness/diag_arrival.py",
+      "test-bench/harness/investigate_arrival.py",
+      "test-bench/harness/measure_density.py",
+      "test-bench/harness/measure_elevation.py",
+      "test-bench/harness/test_scenario_mechanics.py",
+      "test-bench/harness/two_route.py",
+      "test-bench/harness/verify_scenarios.py",
+      "test-bench/harness/verify_sprint_fix.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "docs/POINTS-REBUILD-TRACKING.md",
+      "docs/POINTS-TABLE.md",
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py",
+      "test-bench/harness/rosters.py",
+      ".cursor/hooks/state/continual-learning-index.json",
+      "docs/OVERNIGHT-LOG.md"
+    ]
+  },
+  "created": "20260813-052101",
+  "python": "3.13.7",
+  "schema": 2
+}

@@ -1,0 +1,357 @@
+{
+  "name": "weapon-class-atoms-objective-n5000",
+  "question": "What are the weapon classes actually worth, decomposed into damage and range on a fixed probe chassis and priced from OBJECTIVE play only, replacing the legacy x10 figures?",
+  "values": {
+    "range": {
+      "probe_r8": 5.75,
+      "probe_r12": 5.17,
+      "probe_r18": 5.34,
+      "probe_r24": 4.68
+    },
+    "damage": {
+      "probe_d0": -1.2683,
+      "probe_d2": 0.7117,
+      "probe_d3": 1.4217,
+      "probe_d4": 1.9067
+    },
+    "melee_to_ranged": {
+      "probe_r6": 2.53,
+      "probe_r18": 10.93
+    }
+  },
+  "raw_cells": {
+    "range": [
+      {
+        "variant": "probe_r8",
+        "wp": 5.75,
+        "se": 0.8074,
+        "ci": [
+          4.1676,
+          7.3324
+        ],
+        "credits": 142.3,
+        "hold": 5.9,
+        "hold_claim": 5.75,
+        "annihilate": 4.77,
+        "priced_from": [
+          "hold_claim"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "sign_split": false,
+        "saturated": false
+      },
+      {
+        "variant": "probe_r12",
+        "wp": 5.17,
+        "se": 0.8097,
+        "ci": [
+          3.5829,
+          6.7571
+        ],
+        "credits": 128.0,
+        "hold": 7.1,
+        "hold_claim": 5.17,
+        "annihilate": 5.65,
+        "priced_from": [
+          "hold_claim"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "sign_split": false,
+        "saturated": false
+      },
+      {
+        "variant": "probe_r18",
+        "wp": 5.34,
+        "se": 0.8109,
+        "ci": [
+          3.7506,
+          6.9294
+        ],
+        "credits": 132.2,
+        "hold": 6.14,
+        "hold_claim": 5.34,
+        "annihilate": 4.21,
+        "priced_from": [
+          "hold_claim"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "sign_split": false,
+        "saturated": false
+      },
+      {
+        "variant": "probe_r24",
+        "wp": 4.68,
+        "se": 0.8161,
+        "ci": [
+          3.0805,
+          6.2795
+        ],
+        "credits": 115.8,
+        "hold": 6.19,
+        "hold_claim": 4.68,
+        "annihilate": 4.71,
+        "priced_from": [
+          "hold_claim"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "sign_split": false,
+        "saturated": false
+      }
+    ],
+    "damage": [
+      {
+        "variant": "probe_d0",
+        "wp": -1.2683,
+        "se": 0.1432,
+        "ci": [
+          -1.549,
+          -0.9877
+        ],
+        "credits": -31.4,
+        "hold": -1.865,
+        "hold_claim": -1.2683,
+        "annihilate": -2.0583,
+        "priced_from": [
+          "hold_claim"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "sign_split": false,
+        "saturated": false
+      },
+      {
+        "variant": "probe_d2",
+        "wp": 0.7117,
+        "se": 0.1395,
+        "ci": [
+          0.4383,
+          0.985
+        ],
+        "credits": 17.6,
+        "hold": 1.6683,
+        "hold_claim": 0.7117,
+        "annihilate": 1.7917,
+        "priced_from": [
+          "hold_claim"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "sign_split": false,
+        "saturated": false
+      },
+      {
+        "variant": "probe_d3",
+        "wp": 1.4217,
+        "se": 0.1379,
+        "ci": [
+          1.1513,
+          1.692
+        ],
+        "credits": 35.2,
+        "hold": 2.55,
+        "hold_claim": 1.4217,
+        "annihilate": 2.6967,
+        "priced_from": [
+          "hold_claim"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "sign_split": false,
+        "saturated": false
+      },
+      {
+        "variant": "probe_d4",
+        "wp": 1.9067,
+        "se": 0.1372,
+        "ci": [
+          1.6377,
+          2.1756
+        ],
+        "credits": 47.2,
+        "hold": 3.5567,
+        "hold_claim": 1.9067,
+        "annihilate": 3.795,
+        "priced_from": [
+          "hold_claim"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "sign_split": false,
+        "saturated": false
+      }
+    ],
+    "melee": [
+      {
+        "variant": "probe_r6",
+        "wp": 2.53,
+        "se": 0.8642,
+        "ci": [
+          0.8363,
+          4.2237
+        ],
+        "credits": 62.6,
+        "hold": -1.24,
+        "hold_claim": 2.53,
+        "annihilate": 0.85,
+        "priced_from": [
+          "hold_claim"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "sign_split": false,
+        "saturated": false
+      },
+      {
+        "variant": "probe_r18",
+        "wp": 10.93,
+        "se": 0.8531,
+        "ci": [
+          9.258,
+          12.602
+        ],
+        "credits": 270.5,
+        "hold": 9.08,
+        "hold_claim": 10.93,
+        "annihilate": 9.27,
+        "priced_from": [
+          "hold_claim"
+        ],
+        "scenarios_degenerate": [],
+        "significant": true,
+        "sign_split": false,
+        "saturated": false
+      }
+    ]
+  },
+  "params": {
+    "N_per_cell": 5000,
+    "anchor_wp_per_model": 0.606,
+    "anchor_provisional": "COVERAGE-LIMITED - rests on 1 of 5 shipped scenarios, and the most static one. FIFTH value in a row to reject its predecessor; every one was internally clean. Mobility atoms may additionally read low (sprint overcorrection). Best-founded to date, not settled.",
+    "credits_per_winpoint": 24.7525,
+    "ranges": [
+      6,
+      8,
+      12,
+      18,
+      24
+    ],
+    "pricing_scenarios": [
+      "hold_claim"
+    ],
+    "diagnostic_scenarios": [
+      "annihilate",
+      "hold"
+    ],
+    "method": "paired mirror between probe weapons differing in ONE field"
+  },
+  "caveats": [
+    "Probes carry no traits and cost zero: this measures VALUE, not price. Conflating the two is how a harness ends up asserting the number it was built to test.",
+    "SUPERSEDES weapon-class-atoms-n2500 and -n3000, which averaged hold with annihilate and so priced a game the ruleset says nobody wins. The earlier caveat that 'most rows rest on Annihilate' described the pre-policy-fix engine; Hold now resolves and carries its own weight.",
+    "The anchor is PROVISIONAL - third in a row to reject its predecessors. Every Credits column moves if it moves; the win-point column does not.",
+    "hands/slots, the rank gate, Loud/Quiet and fire-while-Engaged are all unmeasurable on this engine, so a class price from this file covers damage and range only.",
+    "12\" is measured explicitly because the entire banding argument rests on it being the turn-one firing threshold, and that has never been tested."
+  ],
+  "engine": {
+    "combined": "a5d00586737908e5",
+    "files": {
+      "engine.py": "971c9a32afec2e24",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "02f2bc2037150c2c",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "harness": {
+    "combined": "23dd0dc0376c4cd7",
+    "files": {
+      "measure.py": "4a64cfe6aef9965d",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "2800335824ef4da9",
+      "rosters.py": "0ea0162cc3038c11",
+      "diag_arrival.py": "8053c1c1360d59d6",
+      "measure_anchor.py": "18b899b87e588a1f",
+      "measure_armour.py": "e5fb576c45bc1dd4",
+      "measure_density.py": "e9f9d0fa1cd53dd8",
+      "measure_elevation.py": "f4adca96ad1180f1",
+      "measure_payloads.py": "c4411dcfad7a2775",
+      "measure_pinned.py": "e7e342093ab3a8e0",
+      "measure_signsplit.py": "33e9ff327a547457",
+      "measure_stat_ladder.py": "812ec48eedd6c054",
+      "measure_weapon_classes.py": "1522f215095908bf",
+      "verify_scenarios.py": "da39545895392a68",
+      "verify_sprint_fix.py": "502eb33a0797f22e"
+    }
+  },
+  "script": {
+    "name": "measure_weapon_classes.py",
+    "sha": "1522f215095908bf"
+  },
+  "git": {
+    "commit": "6a54c6b0deca",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/test_conditions.py -> test-bench/engine2d/check_conditions.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/anchor.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py",
+      "test-bench/harness/rosters.py",
+      "test-bench/points/ticks.py",
+      "test-bench/harness/audit_degeneracy.py",
+      "test-bench/harness/conftest.py",
+      "test-bench/harness/diag_arrival.py",
+      "test-bench/harness/investigate_arrival.py",
+      "test-bench/harness/measure_density.py",
+      "test-bench/harness/measure_elevation.py",
+      "test-bench/harness/test_scenario_mechanics.py",
+      "test-bench/harness/two_route.py",
+      "test-bench/harness/verify_scenarios.py",
+      "test-bench/harness/verify_sprint_fix.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "docs/POINTS-COMPLETION-PLAN.md",
+      "docs/POINTS-REBUILD-TRACKING.md",
+      "docs/POINTS-TABLE.md",
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/test_conditions.py -> test-bench/engine2d/check_conditions.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/anchor.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py"
+    ]
+  },
+  "created": "20260813-120335",
+  "python": "3.13.7",
+  "schema": 2
+}

@@ -1,0 +1,354 @@
+{
+  "name": "payload-signsplit-n3000",
+  "question": "Are Concussive/Crippling/Hook genuinely flat, or sign-split across scenario families the way Pinned turned out to be? Checked for every payload, since a general pattern would mean the whole table was priced across a boundary.",
+  "values": {
+    "concussive": {
+      "hold": -0.37915,
+      "hold_claim": -0.6264000000000001,
+      "annihilate": 0.06665,
+      "price_wp": -0.6264000000000001,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    "crippling": {
+      "hold": -0.64445,
+      "hold_claim": -0.63615,
+      "annihilate": -0.18055000000000002,
+      "price_wp": -0.63615,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    "hook": {
+      "hold": -1.05835,
+      "hold_claim": 0.13335000000000002,
+      "annihilate": -1.175,
+      "price_wp": 0.13335000000000002,
+      "sign_split": false,
+      "verdict": "flat - genuinely ~0"
+    },
+    "bleeding": {
+      "hold": 3.4111000000000002,
+      "hold_claim": 1.4375,
+      "annihilate": 4.6625,
+      "price_wp": 1.4375,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    "fire": {
+      "hold": 2.08055,
+      "hold_claim": 0.92085,
+      "annihilate": 2.75835,
+      "price_wp": 0.92085,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    "toxic": {
+      "hold": 0.2014,
+      "hold_claim": -0.12919999999999998,
+      "annihilate": 0.72085,
+      "price_wp": -0.12919999999999998,
+      "sign_split": false,
+      "verdict": "flat - genuinely ~0"
+    },
+    "blinding": {
+      "hold": -0.0889,
+      "hold_claim": -0.325,
+      "annihilate": 0.275,
+      "price_wp": -0.325,
+      "sign_split": false,
+      "verdict": "flat - genuinely ~0"
+    },
+    "shocking": {
+      "hold": 0.6764,
+      "hold_claim": 0.23055,
+      "annihilate": 1.3556,
+      "price_wp": 0.23055,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    "heavy_impact": {
+      "hold": 0.4125,
+      "hold_claim": 0.13470000000000001,
+      "annihilate": 0.08055000000000001,
+      "price_wp": 0.13470000000000001,
+      "sign_split": false,
+      "verdict": "flat - genuinely ~0"
+    },
+    "suppressive": {
+      "hold": 2.22,
+      "hold_claim": 1.6033,
+      "annihilate": 2.1433,
+      "price_wp": 1.6033,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    "blast": {
+      "hold": 3.8733500000000003,
+      "hold_claim": 1.29,
+      "annihilate": 3.5866499999999997,
+      "price_wp": 1.29,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    "armour_piercing": {
+      "hold": 0.75415,
+      "hold_claim": 0.39585,
+      "annihilate": 0.7611,
+      "price_wp": 0.39585,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    }
+  },
+  "raw_cells": [
+    {
+      "trait": "concussive",
+      "hold": -0.37915,
+      "hold_claim": -0.6264000000000001,
+      "annihilate": 0.06665,
+      "price_wp": -0.6264000000000001,
+      "credits": -15.5,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    {
+      "trait": "crippling",
+      "hold": -0.64445,
+      "hold_claim": -0.63615,
+      "annihilate": -0.18055000000000002,
+      "price_wp": -0.63615,
+      "credits": -15.7,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    {
+      "trait": "hook",
+      "hold": -1.05835,
+      "hold_claim": 0.13335000000000002,
+      "annihilate": -1.175,
+      "price_wp": 0.13335000000000002,
+      "credits": 3.3,
+      "price_significant": false,
+      "sign_split": false,
+      "verdict": "flat - genuinely ~0"
+    },
+    {
+      "trait": "bleeding",
+      "hold": 3.4111000000000002,
+      "hold_claim": 1.4375,
+      "annihilate": 4.6625,
+      "price_wp": 1.4375,
+      "credits": 35.6,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    {
+      "trait": "fire",
+      "hold": 2.08055,
+      "hold_claim": 0.92085,
+      "annihilate": 2.75835,
+      "price_wp": 0.92085,
+      "credits": 22.8,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    {
+      "trait": "toxic",
+      "hold": 0.2014,
+      "hold_claim": -0.12919999999999998,
+      "annihilate": 0.72085,
+      "price_wp": -0.12919999999999998,
+      "credits": -3.2,
+      "price_significant": false,
+      "sign_split": false,
+      "verdict": "flat - genuinely ~0"
+    },
+    {
+      "trait": "blinding",
+      "hold": -0.0889,
+      "hold_claim": -0.325,
+      "annihilate": 0.275,
+      "price_wp": -0.325,
+      "credits": -8.0,
+      "price_significant": false,
+      "sign_split": false,
+      "verdict": "flat - genuinely ~0"
+    },
+    {
+      "trait": "shocking",
+      "hold": 0.6764,
+      "hold_claim": 0.23055,
+      "annihilate": 1.3556,
+      "price_wp": 0.23055,
+      "credits": 5.7,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    {
+      "trait": "heavy_impact",
+      "hold": 0.4125,
+      "hold_claim": 0.13470000000000001,
+      "annihilate": 0.08055000000000001,
+      "price_wp": 0.13470000000000001,
+      "credits": 3.3,
+      "price_significant": false,
+      "sign_split": false,
+      "verdict": "flat - genuinely ~0"
+    },
+    {
+      "trait": "suppressive",
+      "hold": 2.22,
+      "hold_claim": 1.6033,
+      "annihilate": 2.1433,
+      "price_wp": 1.6033,
+      "credits": 39.7,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    {
+      "trait": "blast",
+      "hold": 3.8733500000000003,
+      "hold_claim": 1.29,
+      "annihilate": 3.5866499999999997,
+      "price_wp": 1.29,
+      "credits": 31.9,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    },
+    {
+      "trait": "armour_piercing",
+      "hold": 0.75415,
+      "hold_claim": 0.39585,
+      "annihilate": 0.7611,
+      "price_wp": 0.39585,
+      "credits": 9.8,
+      "price_significant": true,
+      "sign_split": false,
+      "verdict": "real on objectives"
+    }
+  ],
+  "params": {
+    "N_per_cell": 3000,
+    "pricing_scenarios": [
+      "hold_claim"
+    ],
+    "diagnostic_scenarios": [
+      "annihilate",
+      "hold"
+    ],
+    "anchor_wp_per_model": 0.606,
+    "credits_per_winpoint": 24.752475247524753
+  },
+  "caveats": [
+    "Prices come from objective scenarios ONLY. The ruleset wins on objectives and never on kills, so an average including Annihilate prices a game nobody plays.",
+    "Annihilate is reported per cell because it diagnoses what an atom does; it is never summed into a price.",
+    "A sign-split verdict means the average was hiding opposite behaviour, not that the effect is strong. The objective-only figure still has to clear significance on its own before it becomes a price."
+  ],
+  "engine": {
+    "combined": "2b861d61f09acca4",
+    "files": {
+      "engine.py": "85b4ab067caf5784",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "34344c3ea5c165b8",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "harness": {
+    "combined": "f20a47e35e0cd66a",
+    "files": {
+      "measure.py": "4a64cfe6aef9965d",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "2800335824ef4da9",
+      "rosters.py": "0ea0162cc3038c11",
+      "diag_arrival.py": "8053c1c1360d59d6",
+      "measure_anchor.py": "18b899b87e588a1f",
+      "measure_armour.py": "e5fb576c45bc1dd4",
+      "measure_conditions.py": "3813d3607be33bf7",
+      "measure_density.py": "e9f9d0fa1cd53dd8",
+      "measure_elevation.py": "f4adca96ad1180f1",
+      "measure_payloads.py": "c4411dcfad7a2775",
+      "measure_pinned.py": "e7e342093ab3a8e0",
+      "measure_signsplit.py": "33e9ff327a547457",
+      "measure_stat_ladder.py": "812ec48eedd6c054",
+      "measure_weapon_classes.py": "1522f215095908bf",
+      "verify_scenarios.py": "da39545895392a68",
+      "verify_sprint_fix.py": "502eb33a0797f22e"
+    }
+  },
+  "script": {
+    "name": "measure_signsplit.py",
+    "sha": "33e9ff327a547457"
+  },
+  "git": {
+    "commit": "6a54c6b0deca",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/test_conditions.py -> test-bench/engine2d/check_conditions.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/anchor.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py",
+      "test-bench/harness/rosters.py",
+      "test-bench/points/ticks.py",
+      "test-bench/harness/audit_degeneracy.py",
+      "test-bench/harness/conftest.py",
+      "test-bench/harness/diag_arrival.py",
+      "test-bench/harness/investigate_arrival.py",
+      "test-bench/harness/measure_conditions.py",
+      "test-bench/harness/measure_density.py",
+      "test-bench/harness/measure_elevation.py",
+      "test-bench/harness/test_scenario_mechanics.py",
+      "test-bench/harness/two_route.py",
+      "test-bench/harness/verify_scenarios.py",
+      "test-bench/harness/verify_sprint_fix.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "docs/POINTS-COMPLETION-PLAN.md",
+      "docs/POINTS-REBUILD-TRACKING.md",
+      "docs/POINTS-TABLE.md",
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/engine2d/test_conditions.py -> test-bench/engine2d/check_conditions.py",
+      "test-bench/engine2d/engine.py",
+      "test-bench/engine2d/policies.py",
+      "test-bench/harness/anchor.py",
+      "test-bench/harness/measure.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_armour.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_signsplit.py",
+      "test-bench/harness/measure_stat_ladder.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py"
+    ]
+  },
+  "created": "20260813-144827",
+  "python": "3.13.7",
+  "schema": 2
+}

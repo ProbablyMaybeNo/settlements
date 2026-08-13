@@ -55,8 +55,16 @@ MIXED6 = [('Boss', 'Leader', 'rifle', 'none', dict(dex=4, str=2)),
 
 def uniform(stat: str, value: int, weapon: str, n: int = 6):
     """Every model on the SAME rung, so a measured delta belongs to that rung and
-    is not an average over a mixed stat line."""
-    ranks = ['Leader', 'Specialist', 'Fighter', 'Fighter', 'Recruit', 'Recruit'][:n]
+    is not an average over a mixed stat line.
+
+    Sizes above 6 pad with Recruits rather than raising: the rank list was
+    hard-sliced at 6 and `uniform(..., 8)` died with an IndexError, which is a
+    problem because crew-size sweeps are exactly where scenario degeneracy shows
+    up. Padding with the LOWEST rank is the conservative choice - it adds bodies
+    without silently adding Orders, which a Leader or Specialist would.
+    """
+    base = ['Leader', 'Specialist', 'Fighter', 'Fighter', 'Recruit', 'Recruit']
+    ranks = (base + ['Recruit'] * max(0, n - len(base)))[:n]
     return [(f'U{i}', ranks[i], weapon, 'none', {stat: value}) for i in range(n)]
 
 

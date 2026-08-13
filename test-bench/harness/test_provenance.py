@@ -32,9 +32,12 @@ def test_cost_fingerprint_ignores_comment_edits():
     base = _fingerprint_ticks_at(P.TICKS)
     with tempfile.TemporaryDirectory() as td:
         p = Path(td) / "ticks.py"
+        # Anchor updated 2026-08-13: the write-back turned the one-line docstring
+        # into a multi-paragraph one, so the old literal no longer matched. The
+        # assertion below is what caught it — it is doing its job, not failing.
         edited = src.replace(
-            '"""Atomic tick table — 1000-Credit scale. Players never see these atoms."""',
-            '"""Atomic tick table. REWORDED PROVENANCE COMMENTARY, no value moved."""',
+            "Atomic tick table — 1000-Credit scale. Players never see these atoms.",
+            "REWORDED PROVENANCE COMMENTARY, no value moved.",
         )
         assert edited != src, "the docstring anchor moved; update this test"
         edited += "\n# a trailing explanatory comment added during a doc pass\n"
@@ -58,7 +61,8 @@ def test_cost_fingerprint_catches_a_nested_dict_value():
     base = _fingerprint_ticks_at(P.TICKS)
     with tempfile.TemporaryDirectory() as td:
         p = Path(td) / "ticks.py"
-        edited = src.replace('"bleeding": 46,', '"bleeding": 47,')
+        # 46 -> 35 in the 2026-08-13 write-back (payload-table-objective-n2500).
+        edited = src.replace('"bleeding": 35,', '"bleeding": 36,')
         assert edited != src, "bleeding anchor moved; update this test"
         p.write_text(edited, encoding="utf-8")
         assert _fingerprint_ticks_at(p) != base

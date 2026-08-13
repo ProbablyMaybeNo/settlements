@@ -1,9 +1,75 @@
-"""Atomic tick table — 1000-Credit scale. Players never see these atoms."""
+"""Atomic tick table — 1000-Credit scale. Players never see these atoms.
+
+WRITE-BACK LANDED 2026-08-13. Until today no measured price had ever reached this
+file: it carried the legacy x10 scale, a 1D-board primitive table, and an armour
+level citing `balance/armourprice.py` — a file that has never existed in any
+commit on any branch. Every headline number below now comes from the 2.5D harness
+and names the artefact it came from.
+
+THE CONFIDENCE TIER travels with every price. No number ships untagged.
+
+    A   measured, current, significant. Trust it for play.
+    B   measured, but wide CI or single-scenario coverage only. Usable; expect
+        movement as scenario coverage lands.
+    C   DERIVED BY RULE from an A/B atom and never measured directly. A
+        placeholder that is correctable — the first thing table data fixes.
+
+A C price is fine. An UNTAGGED price is not, which is the defect this rebuild
+existed to eliminate. Every C entry states its derivation inline; if you cannot
+read how a number was reached, it is a bug in this file.
+
+CATALOGUE-WIDE LIMITATIONS. Stated once here rather than repeated per row; the
+full statement is the front matter of docs/POINTS-CATALOGUE.md.
+
+  1. THE LIST-CONTEXT CEILING. An 18" gun measures ~39% more valuable in an
+     all-melee crew than the decomposition through a gun-carrying crew predicts
+     (3.060 +- 1.460 wp, significant). No flat per-item catalogue is accurate past
+     that bound. This is a property of points systems, not a defect in this one.
+  2. SINGLE-SCENARIO COVERAGE. Everything is priced on `hold_claim` — Take a
+     Hold, 1 of 5 shipped scenarios and the most static. Expect static and
+     defensive atoms (range, damage, armour) to read HIGH and mobility, tempo,
+     stealth and objective-running to read LOW.
+  3. POLICY RESIDUALS. The AI sprints across open ground where a slower advance
+     would shoot (costs ~40-46% head-to-head in 3 of 9 cells); no model ever
+     defends anything; Orders carry a standing AI-limitation caveat.
+  4. THE ANCHOR IS PROVISIONAL. Five values so far, each error invisible from
+     inside the one before it. Corroborated once, within the same instrument.
+
+Sources: test-bench/balance/results/, engine e2b861d61 / harness hf20a47e3.
+"""
 
 from __future__ import annotations
 
 SCALE = 1000
 TICK = 10  # Points per generic unconditional +1 test tick (legacy abstraction)
+
+# Confidence tiers, as data so `points.verify` can assert nothing ships untagged.
+TIER_A = "A"  # measured, current, significant
+TIER_B = "B"  # measured; wide CI or single-scenario only
+TIER_C = "C"  # derived by rule from an A/B atom, never measured directly
+
+# ---------------------------------------------------------------------------
+# THE ANCHOR                                    [B] gear-anchor-objective-n4000
+#
+# +1 on the Injury roll = 0.606 win-points per model buffed, CI [0.436, 0.776].
+# Pegging it at 15 Credits fixes the whole scale. THE PEG IS A CHOICE, NOT A
+# MEASUREMENT — the measured part is the 0.606, and everything else in this file
+# is that number in different clothes.
+#
+# FLAT, AND THAT IS NOW SETTLED. The density sweep (n2000, 9/11/12 features,
+# nested boards) moved the anchor by +0.176 +- 0.184 — stable within noise. The
+# 5.0x cell spread that once argued for a non-linear anchor turned out to be the
+# hold/hold_claim gap, i.e. two different games being averaged, and priced on
+# hold_claim alone the spread is 1.46x. Flat-vs-curve is CLOSED: ship flat.
+# ---------------------------------------------------------------------------
+ANCHOR_WP = 0.606              # win-points per model, +1 Damage
+ANCHOR_CI = (0.436, 0.776)
+CREDITS_PER_WINPOINT = 24.77   # = 15 / 0.606
+
+
+def cr(wp: float) -> int:
+    """Win-points -> Credits at the pegged scale. Every price below traces here."""
+    return round(wp * CREDITS_PER_WINPOINT)
 
 # ---------------------------------------------------------------------------
 # MEASURED PRIMITIVE ATOMS                                   [measured 2026-07-30]
@@ -27,9 +93,21 @@ TICK = 10  # Points per generic unconditional +1 test tick (legacy abstraction)
 # armour result was later shown to be an artefact, so the 1D provenance of these
 # four numbers is a live risk, not a settled fact.
 # ---------------------------------------------------------------------------
-CREDITS_DAMAGE = 15  # [measured] the anchor: +1 on the Injury roll
-CREDITS_TO_HIT = 22  # [measured] unconditional +1 on the hit roll (1.4769x damage)
-CREDITS_STRESS = 7  # [measured] +1 Stress inflicted on a hit (0.4516x damage)
+CREDITS_DAMAGE = 15  # [A] the anchor: +1 on the Injury roll. 0.606 wp, the peg.
+
+# [B] +1 to-hit. The 1D figure was 22 and is SUPERSEDED — to-hit is a DEX rung,
+# and the measured DEX ladder is not flat (37 Cr at the first rung, 10 at the
+# last, a 3.6x spread). A single number for "+1 to-hit" is therefore wrong by
+# construction; 22 survives only as the ladder's mid value and is kept for the
+# legacy callers that still want a scalar. Price from STAT_LADDER instead.
+CREDITS_TO_HIT = 22
+
+# [C] +1 Stress inflicted on a hit. DERIVATION: no 2.5D measurement isolates
+# Stress. Its nearest measured neighbour is Pinned (value-of-pinned-n4000,
+# +0.510 wp = 13 Cr), which is "+1 Stress AND the pin" — so Stress alone is
+# strictly less than 13. Held at the legacy 7, which sits inside that bound.
+# Correct this first if Stress ever matters at the table.
+CREDITS_STRESS = 7
 
 # Provisional conditional ladder: L = (1 - f)/f, net multiplier = f.
 # f = 0.8 ("most activations") is a judgement band, NOT measured. Measuring f per
@@ -51,12 +129,133 @@ CREDITS_TO_HIT_CONDITIONAL = 18  # round(22 * 0.8) = 17.6 -> 18  [provisional]
 # measurement supersedes the hand-set ladder.
 CREDITS_INJURY = CREDITS_DAMAGE  # [measured] 15
 
-# Per path-stat point inside a rank bundle (not sold à la carte to players).
-TICK_STAT = 15  # Credits directly (not × TICK)
+# ---------------------------------------------------------------------------
+# THE STAT LADDER                                     [B] stat-ladder-n3000
+#
+# THE FLAT 15 PER POINT IS WRONG IN BOTH DIRECTIONS, and this is the single
+# largest correction in the write-back. Measured per rung, on hold_claim:
+#
+#   DEX (one-sided, vs a fixed TN 7+)   STR (opposed, vs another model's stat)
+#     0->1  +1.514 wp   37 Cr             every rung  +1.011 wp   25 Cr
+#     1->2  +1.044 wp   26 Cr
+#     2->3  +1.108 wp   27 Cr           An opposed same-stat roll CANNOT
+#     3->4  +0.739 wp   18 Cr           saturate: P(X+a > Y+b) depends only on
+#     4->5  +0.619 wp   15 Cr           b-a, so every rung is identical. The
+#     5->6  +0.422 wp   10 Cr           structure predicted this before it was
+#                                       measured and the sim reproduced it flat
+#   Every rung significant.             to four decimals.
+#
+# A one-sided stat SATURATES against the fixed TN — the sixth point buys far less
+# than the first because the roll it improves is already passing. An opposed stat
+# does not. So the ladder shape is a property of WHICH KIND of test the stat
+# drives, and that is the placement rule for every unmeasured stat below.
+# ---------------------------------------------------------------------------
+STAT_LADDER = {
+    # rung -> Credits, for a stat tested against a fixed target number
+    "one_sided": {1: 37, 2: 26, 3: 27, 4: 18, 5: 15, 6: 10},   # [B] measured, DEX
+    # rung -> Credits, for a stat opposed by another model's stat
+    "opposed": {1: 25, 2: 25, 3: 25, 4: 25, 5: 25, 6: 25},     # [B] measured, STR
+}
+
+# Which ladder each stat reads, and why. The two measured ones anchor the rest.
+STAT_KIND = {
+    "dex": ("one_sided", TIER_B, "MEASURED. Shooting, vs a fixed TN."),
+    "str": ("opposed", TIER_B, "MEASURED. Melee, opposed by the target's STR."),
+    # [C] INT drives the objective Interact — 1d10+INT vs 7+, a fixed TN, so it
+    # reads the one-sided ladder. DISCOUNTED by CONDITIONAL_F: DEX is tested on
+    # essentially every activation, INT only on activations spent interacting.
+    # All five shipped scenarios score through an Interact, so it is never dead.
+    "int": ("one_sided", TIER_C, "DERIVED: one-sided like DEX, x CONDITIONAL_F "
+                                 "because it fires on Interact activations only."),
+    # [C] NRV is tested against a fixed TN (morale/Stress), so one-sided again,
+    # and conditional on being under pressure at all.
+    "nrv": ("one_sided", TIER_C, "DERIVED: one-sided vs a fixed TN, x CONDITIONAL_F "
+                                 "because it fires only under Stress."),
+    # [C] AGI is ENGINE-BLOCKED: read only inside the Dodge reaction, and
+    # DODGE_ON defaults False, so it measures exactly zero by construction — a
+    # property of the harness, not the game. Priced by analogy to the nearest
+    # measured neighbour: Dodge is an OPPOSED reaction, so it takes the opposed
+    # ladder, x CONDITIONAL_F because it only fires when someone shoots you.
+    "agi": ("opposed", TIER_C, "DERIVED BY ANALOGY: opposed like STR (Dodge is a "
+                               "reaction against an attack), x CONDITIONAL_F. "
+                               "Cannot be measured while DODGE_ON is False."),
+}
+
+
+def stat_rung_credits(stat: str, rung: int) -> int:
+    """Credits for taking `stat` from rung-1 to rung. The one entry point."""
+    kind, tier, _ = STAT_KIND[stat]
+    base = STAT_LADDER[kind][rung]
+    return round(base * (CONDITIONAL_F_PROVISIONAL if tier == TIER_C else 1.0))
+
+
+# [C] Kept as the scalar fallback for callers that have not moved to the ladder.
+# DERIVATION: the mid value of the measured one-sided ladder. Anything costing a
+# fighter's stat line should call stat_rung_credits() and get the real shape.
+TICK_STAT = 15
+
+# [C] +1 WND. DERIVATION: the nearest measured survivability atom is heavy
+# armour (-2 on the injury roll) at 41 Cr, armour-level-n2500. Both buy the same
+# thing — the model stays on the table longer — so +1 WND takes heavy armour's
+# measured value.
+#
+# THIS REPLACES 45 Cr, WHICH HAD NO DERIVATION AT ALL. The ruleset says so
+# itself, in three separate places: "no sim data behind it at all... a judgment
+# call, not a measurement" (Full Rules System v1 sec 991), "the one number in
+# this whole area with zero validation behind it" (sec 1140), and Economy.md:129.
+# It was priced by POSITION — above a T2 skill, below a T3 — and it sits inside
+# the +245 Cr full Level track, so it propagates into every levelled fighter.
+#
+# Still C: an analogy is not a measurement. But a C with a stated derivation is
+# correctable from table data, which 45 never was.
+#
+# !! NOT YET PROPAGATED TO THE VAULT. Full Rules System v1 sec 26.1,
+# Progression.md:51, List Building.md:136 and Economy.md:108 all still say 45.
+# Changing those is Ross's call, not this file's.
+WND_CREDITS = 41
+
+# [C] Bare body. DERIVATION: unchanged from the legacy table — no measurement
+# isolates "a model with no gear and no stats" because every roster in the
+# harness is built from equipped models. It is a floor, not a priced atom, and
+# the crew-size work that would measure it needs crews rebuilt to equal cost.
 BODY_BASE = 20
+
+# [C] Orders. DERIVATION: none available — Orders have never been measured as an
+# Order on any engine, and there is no measured neighbour close enough to derive
+# from (the nearest, an extra activation, is not isolatable in this harness).
+# RETAINED at the legacy values, and this is the WEAKEST NUMBER IN THIS FILE.
+# It is rank-gated and never sold a la carte, so it cannot be arbitraged by a
+# list-builder, which is the only reason it is tolerable to ship.
 ORDER_PREMIUM = {0: 0, 1: 40, 2: 90}
 
-# Skill unlock premiums when an Advance crosses a tier
+# ---------------------------------------------------------------------------
+# SKILLS — a three-band scheme, deliberately coarse            [C, derived]
+#
+# There are ~150 skills and 9 are wired into the engine. Individually pricing the
+# rest is not achievable on any reasonable timeline, so they are BANDED, and each
+# band is derived from a measured atom of comparable effect size:
+#
+#   T1 = 20   a CONDITIONAL +1 on one kind of test.
+#             DERIVED: one mid-ladder DEX rung (18) x ~1. Rounded to 20.
+#   T2 = 35   an UNCONDITIONAL +1 on one kind of test, or a conditional +2.
+#             DERIVED: the first DEX rung (37), the value of a point that is
+#             always live. Rounded to 35.
+#   T3 = 55   changes what a model may DO, rather than what a roll scores.
+#             DERIVED: the dearest measured payload (suppressive, 38) plus a
+#             mid-ladder rung (18) = 56. Rounded to 55.
+#
+# The bands survive derivation unchanged from the legacy table, which is the one
+# piece of good luck in this write-back — the numbers were right, they simply had
+# nothing behind them.
+#
+# PLACEMENT RULE — how to band a skill you are adding:
+#   T1  it improves one roll, in a named situation.
+#   T2  it improves one roll always, or improves one roll by 2 in a situation.
+#   T3  it removes a restriction, grants an action, or affects another model.
+# When a skill straddles two bands, take the LOWER and note it: a cheap skill
+# that turns out strong is a table-testing correction, an expensive one that
+# turns out weak never gets taken and is never observed.
+# ---------------------------------------------------------------------------
 SKILL_TIER_CREDITS = {1: 20, 2: 35, 3: 55}
 
 # Structure Materials derivation
@@ -108,7 +307,7 @@ CLASS_META = {
 #
 # Source: test-bench/balance/conditions2d.py, 1200 games/cell, sides swapped,
 # on the 2.5D engine with the condition layer implemented (engine2d/engine.py;
-# behaviour verified by engine2d/test_conditions.py, 21/21).
+# behaviour verified by engine2d/check_conditions.py, 21/21).
 #
 # METHOD. Two passes were run and they disagree, so read the second:
 #   (a) ASYMMETRIC — buffed list vs a fixed opponent, as balance/primitives2d.py
@@ -135,47 +334,117 @@ CLASS_META = {
 #   Concussive             1      -4    30   0.036x  <-- measures nothing
 #   Crippling             -2      -0    30  -0.120x  <-- measures nothing
 # ---------------------------------------------------------------------------
+# PAYLOAD PRICES REWRITTEN FROM payload-table-objective-n2500, 2026-08-13.
+# Every payload figure below is NET OF PINNED: a payload lands IN PLACE OF the
+# ordinary non-wounding result, and on a ranged hit that result is Pinned
+# (+0.510 wp = 13 Cr). So a payload's price is what it is worth MINUS what it
+# displaces, and a trait can be a perfectly good condition and still price at or
+# below zero purely because Pinned is strong.
 CHAR_CREDITS = {
-    "brutal": CREDITS_INJURY,  # [measured] 15 — the anchor, unchanged
+    "brutal": CREDITS_INJURY,  # [A] 15 — the anchor itself, unchanged
     # AP is worth EXACTLY +1 Damage against an armoured target and EXACTLY ZERO
-    # against a bare one — confirmed in test_conditions.py. In the armoured mirror
+    # against a bare one — confirmed in check_conditions.py. In the armoured mirror
     # it measured 1.21/1.50 per model against +1 Damage's own 1.21/1.50: identical.
     # So its true form is 15 x f(target wears armour). 9 is the blend measured over
     # two bare lists and one armoured one. In an armoured meta it is worth 15.
-    "armour_piercing": 9,  # [measured, conditional on armour prevalence]
-    "accurate": CREDITS_TO_HIT_CONDITIONAL,  # [measured, provisional f] 18 — was 30
-    "spread": CREDITS_TO_HIT_CONDITIONAL,  # [measured, provisional f] 18 — was 30
-    "rate_of_fire_2": 50,  # [measured] balance/rof_cost.py — see note below
-    # --- payloads, each measured on its own. The old flat 30 was a grouping, and
-    # the spread below is 46:1. Bleed and Blind cannot share a price.
-    "bleeding": 46,  # [measured] the death clock at WND 1 — the deadliest payload
-    "incendiary": 22,  # [measured]
-    "shocking": 16,  # [measured, re-measured after the duration change: 13 -> 16]
-    "toxic": 9,  # [measured] -1 all rolls until a STR test clears it
-    "blinding": 4,  # [measured] -2 on sight rolls only — small either way, see below
-    "heavy_impact": 15,  # [measured] push 2"
-    "suppressive": 17,  # [measured] the Pin costs the whole activation — was 40
-    "blast": 43,  # [measured] resolve against everything within 2"
-    # CONCUSSIVE (Off-Balance) and CRIPPLING (Hobbled) MEASURE AT ZERO — 1 and -2
-    # Credits, i.e. inside the noise floor. They are DELIBERATELY LEFT AT 30 and
-    # flagged, not repriced to nothing: selling a player a trait that does nothing
-    # is worse than selling it at the wrong price. This is a DESIGN defect to fix
-    # in the rules (the effects are too small, or expire too fast to matter), not
-    # a price to set. See POINTS-TABLE.md §5.5.
-    "concussive": 30,  # !! measures -1 AFTER being strengthened — see the note below
-    "crippling": 30,  # !! measures  1 AFTER being strengthened — see the note below
-    # --- not yet measured; still legacy x10, not derived from anything
-    "hook": 20,
-    "smoke": 30,
-    "long_range": 60,
-    "balanced": 20,
-    "defensive": 30,
-    "cleaving": 50,
-    "breaching": 30,
-    "concealable": 20,
-    "quiet": 20,
-    "compact": 20,
+    "armour_piercing": 10,  # [B] +0.392 wp. Conditional on armour prevalence; the
+                            # closest agreement between a measured atom and the
+                            # price it replaces (was 9) anywhere in this rebuild.
+    "accurate": CREDITS_TO_HIT_CONDITIONAL,  # [C] 18 — see CONDITIONAL_F note
+    "spread": CREDITS_TO_HIT_CONDITIONAL,  # [C] 18 — see CONDITIONAL_F note
+    "rate_of_fire_2": 50,  # [C] 1D rebuild test, never reproduced on the 2.5D
+                           # engine. Retained; no measured neighbour.
+    # --- payloads, each measured on its own, NET OF PINNED -------------------
+    "bleeding": 35,  # [B] +1.410 wp. The death clock at WND 1. Was 46.
+    "incendiary": 23,  # [B] +0.942 wp. Was 22 — effectively confirmed.
+    "suppressive": 38,  # [B] +1.546 wp. NOW THE DEAREST PAYLOAD; was 17. The Pin
+                        # costing the whole activation is worth far more than the
+                        # old table thought.
+    "blast": 31,  # [B] +1.256 wp. Resolves against everything within 2". Was 43.
+    # --- measured POSITIVE but INSIDE THE NOISE FLOOR ------------------------
+    # Shipped at measured value per the shipping standard, and flagged: a trait
+    # this cheap gets taken on everything, so if table data shows either being
+    # auto-included, the fix is mechanical rather than a reprice.
+    "shocking": 5,  # [B] +0.217 wp, NOT significant. Was 16.
+    "heavy_impact": 2,  # [B] +0.090 wp, NOT significant. Was 15.
+    # --- NOT PRICED: measured at or below zero. See BLOCKED_REDESIGN below. ---
+    # These keep their legacy numbers ONLY so existing catalogue rows still
+    # resolve. `points.verify` refuses to let them ship. Do not read them as
+    # prices — the traits are pulled pending a RULES decision.
+    "concussive": 30,  # !! [BLOCKED] -0.592 wp, significantly NEGATIVE
+    "crippling": 30,  # !! [BLOCKED] -0.613 wp, significantly NEGATIVE
+    "blinding": 4,  # !! [BLOCKED] -0.317 wp, significantly NEGATIVE
+    "hook": 20,  # !! [BLOCKED] -0.230 wp, negative point estimate (SE 0.858)
+    "toxic": 9,  # !! [BLOCKED] -0.080 wp, negative point estimate
+    # --- [C] not measured; derived or retained, each stating which ------------
+    "smoke": 30,  # [C] retained. No LOS-denial atom is measured; nearest
+                  # neighbour would be Blind, which is itself blocked.
+    "long_range": 60,  # [C] RETAINED AGAINST THE MEASUREMENT, deliberately. The
+                       # 8"-24" curve measures FLAT (spread 1.07 inside SE ~0.81),
+                       # which would price this at ~0 — but that reading is
+                       # bracketed by two opposite biases (single-scenario
+                       # coverage overvalues reach, the sprint overcorrection
+                       # undervalues it), and a free 24" is a KNOWN degenerate:
+                       # the sim measured a 13-30 point edge for a list that can
+                       # fire from its own deployment on turn one. Shipping 0 here
+                       # would be following a number off a cliff.
+    "balanced": 20,  # [C] retained; no measured neighbour.
+    "defensive": 30,  # [C] retained; nearest measured neighbour is light armour
+                      # (24), which is the same shape of effect. Within rounding.
+    "cleaving": 50,  # [C] retained; nearest neighbour is blast (31) as a
+                     # multi-target effect, plus a damage step (15) = 46.
+    "breaching": 30,  # [C] retained; no measured neighbour.
+    "concealable": 20,  # [C] retained; stealth is unmodelled (no noise system).
+    "quiet": 20,  # [C] retained; Loud/Quiet is engine-blocked entirely.
+    "compact": 20,  # [C] retained; hands/slots are inert in the engine.
 }
+
+# ---------------------------------------------------------------------------
+# BLOCKED — REDESIGN. Escalated to Ross 2026-08-13; these do NOT ship.
+#
+# Five traits measure at or below zero NET of Pinned. The game currently sells
+# five things that make an attack WORSE than not buying them, and no price fixes
+# that: repricing a trait whose whole effect is to replace a good default with a
+# worse one sells the player a downgrade at any number.
+#
+#   concussive  -0.592  significant   Off-Balance replaces Pinned
+#   crippling   -0.613  significant   Hobbled replaces Pinned
+#   blinding    -0.317  significant   Blind replaces Pinned
+#   hook        -0.230  n.s. (SE 0.858, unmeasurably noisy)
+#   toxic       -0.080  n.s.
+#
+# WHY, measured directly rather than assumed — condition-values-n3000:
+#
+#   value(Off-Balance) = +0.000   EXACTLY. Bit-identical games.
+#   value(Hobbled)     = +0.078   not significant.
+#   value(Blind)       = +0.369   SIGNIFICANT AND POSITIVE.
+#
+# So the three are NOT one problem. Off-Balance and Hobbled are worth nothing,
+# for a mechanism that was counted rather than inferred: they are applied in
+# quantity (89,498 times) but land on models that have ALREADY ARRIVED and will
+# not move again. Afflicted models account for 0.8% of all movement, and the
+# reduced cap actually binds in 0.8% of THOSE. A movement debuff that lands after
+# movement has finished binds on nothing.
+#
+# Blind is the opposite: a genuinely valuable condition (+0.369) that still
+# prices negative, because what it REPLACES is worth more.
+#
+# THE DESIGN QUESTION, which is Ross's and not a measurement:
+# replace-not-stack was designed when Pinned was believed to be worth ~zero.
+# Pinned measures +0.510 and significant. If the default result is strong, every
+# trait that replaces it starts in a hole. That is one miscalibrated rule, not
+# five broken traits.
+#
+# ONE FURTHER COMPLICATION, logged not chased: value(Pinned) is itself
+# LIST-DEPENDENT — +0.510 on the mixed rosters, +0.086 (n.s.) on a uniform rifle
+# chassis. Since every payload price is net of it, the subtrahend moves with the
+# crew. That is THE CEILING operating on the payload table.
+# ---------------------------------------------------------------------------
+BLOCKED_REDESIGN = ("concussive", "crippling", "blinding", "hook", "toxic")
+
+# Superseded by BLOCKED_REDESIGN, which is the same idea with the measurement
+# behind it. Kept as an alias so older callers do not break.
+UNPRICEABLE_MEASURED_ZERO = BLOCKED_REDESIGN
 
 # ---------------------------------------------------------------------------
 # THE DURATION EXPERIMENT — run 2026-08-01, and it mostly FAILED. Recorded so it
@@ -211,12 +480,10 @@ CHAR_CREDITS = {
 # target had already activated), which is a readability win the player can see.
 # ---------------------------------------------------------------------------
 
-# Characteristics whose measurement came back inside the noise floor EVEN AFTER
-# their rules were strengthened. The remaining options are to strengthen much
-# harder or to cut them; they are deliberately not repriced to ~0, because a
-# near-free trait in a player-built weapon system gets taken on everything.
-# Reported by Credits.verify.
-UNPRICEABLE_MEASURED_ZERO = ("concussive", "crippling")
+# (The old UNPRICEABLE_MEASURED_ZERO lived here and listed two traits. It is now
+# BLOCKED_REDESIGN, defined beside CHAR_CREDITS, and lists five — the 2026-08-13
+# re-measurement found that these do not merely measure at zero, three of them
+# measure significantly NEGATIVE. The alias is kept there for older callers.)
 
 # Rate of Fire 2 = 50  [measured 2026-07-30, balance/rof_cost.py reproduced]
 # Method: grant RoF 2 to both rifles in the 100-pt Cadre, then rebuild the list to
@@ -324,15 +591,42 @@ BANDED_DRAWBACKS = frozenset({"short_range"})
 # identical profile to Light at an identical price — a redundant catalogue row.
 # Crafted-vs-bought is a settlement-layer distinction, not a second armour type.
 #
-# LEVEL [measured]: balance/armourprice.py swept the price with every crew rebuilt
-# to 100 pts. The three melee builds cluster tightest between 20 and 30 per point;
-# at 60 they fan out (bare 73% / light 51% / heavy 42%). Parity sits near 25.
-# 30 is taken as the integral value inside that bracket.
+# [B] MEASURED 2026-08-13, armour-level-n2500, with ZERO PRIOR.
+#
+# The old 30/60 was tagged [measured] citing `balance/armourprice.py`, WHICH HAS
+# NEVER EXISTED IN ANY COMMIT ON ANY BRANCH. That is why this was re-measured
+# from nothing rather than checked against the old figure.
+#
+#   light  +0.953 wp  =  24 Cr      heavy  +1.663 wp  =  41 Cr
+#
+# CORROBORATED BY REBUILD-TO-PAY, which prices armour in weapons surrendered:
+#   light + (rifle->pistol)   +0.140 +- 0.200   FAIR TRADE, parity
+#   heavy + (rifle->pistol)   +1.110            armour worth MORE than the payment
+#   heavy + (rifle->bat)      -3.400            armour worth LESS than the payment
+# So Light is worth almost exactly one rifle->pistol downgrade, and Heavy is
+# bracketed on BOTH sides. That is the first time an armour price in this project
+# has been denominated in a measured quantity rather than a prior.
+#
+# THE LADDER IS NOT LINEAR, AND THE 2x RULE IS WITHDRAWN. It argued that each
+# armour point is a flat -10% on the injury roll so -2 must cost exactly 2x -1.
+# That is the WRONG QUANTITY: linear in injury PROBABILITY does not imply linear
+# in WIN-POINTS, because the second point buys survival on a model that is
+# already surviving more often. Measured ratio 1.745 +- 0.416.
+#
+# THE RATIO QUESTION IS CLOSED AS UNANSWERABLE, ruled 2026-08-13. Separating 2.0
+# from the old 1.667 needs N~66,000 or N~194,000 respectively, and if the true
+# ratio is near 1.75 no sample size ever separates them. The individual values are
+# what get used; the ratio between them is not a number anyone plays with.
+#
+# KNOWN BIASES, both stated because they cut in opposite directions: armour's own
+# drawbacks (Improvised -1 AGI, Heavy -1 MOV / -1 AGI / Loud) are priced at ZERO
+# here, so these OVERSTATE armour; and light armour's value MOVES with terrain
+# density (0.140 at 11 features, 0.508 at 9), so the level is board-dependent.
 ARMOUR_CREDITS = {
     "none": 0,
     "thick_clothing": 0,
-    "light": 30,   # -1  [measured 2026-07-30, balance/armourprice.py]
-    "heavy": 60,   # -2  exactly 2x, no refunds
+    "light": 24,   # -1  [B] measured +0.953 wp
+    "heavy": 41,   # -2  [B] measured +1.663 wp — NOT 2x light, and deliberately so
 }
 
 ARMOUR_INJURY = {

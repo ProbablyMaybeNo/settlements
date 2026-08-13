@@ -25,6 +25,22 @@ then the whole table has been priced across a boundary it should not cross.
 
 from __future__ import annotations
 
+# IMPORT GUARD. This file is a SCRIPT: it runs its whole measurement at module
+# level. `import measure_x` therefore executes a full sweep as a side effect -
+# which happened TWICE in one session, once silently writing an artefact from a
+# known-broken board ladder that then passed every provenance check.
+#
+# Deliberately a loud raise rather than the usual `if __name__ == "__main__":`
+# wrapper. The wrapper makes an accidental import a silent no-op; this says why
+# nothing happened. The failure being guarded is a silent one, so the guard is
+# not silent.
+if __name__ != "__main__":
+    raise RuntimeError(
+        f"{__name__} is a script, not a module - importing it would run its entire "
+        "measurement as a side effect. Run it with `py -3.13 <file>.py` instead, or "
+        "move the helper you wanted into a module."
+    )
+
 import json
 import sys
 from pathlib import Path
@@ -43,6 +59,13 @@ except Exception:
     pass
 
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 3000
+
+# Fingerprinted BEFORE the games run: Envelope's default_factory fields
+# evaluate at construction, which is after the run.
+ENGINE_AT_START = P.engine_fingerprint()
+COST_AT_START = P.cost_table_fingerprint()
+HARNESS_AT_START = P.harness_fingerprint()
+GIT_AT_START = P.git_state()
 
 TRAITS = [
     ("concussive", {}), ("crippling", {}), ("hook", {"require_melee": True}),
@@ -140,6 +163,10 @@ env = P.Envelope(
         "the effect is strong. The objective-only figure still has to clear significance "
         "on its own before it becomes a price.",
     ],
+    engine=ENGINE_AT_START,
+    cost_table=COST_AT_START,
+    harness=HARNESS_AT_START,
+    git=GIT_AT_START,
 )
 out = env.write()
 print(f"\n[stamped] {out.name}")

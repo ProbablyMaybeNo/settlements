@@ -35,6 +35,22 @@ contradicts. Measure from zero. Do not anchor on either pair.
 
 from __future__ import annotations
 
+# IMPORT GUARD. This file is a SCRIPT: it runs its whole measurement at module
+# level. `import measure_x` therefore executes a full sweep as a side effect -
+# which happened TWICE in one session, once silently writing an artefact from a
+# known-broken board ladder that then passed every provenance check.
+#
+# Deliberately a loud raise rather than the usual `if __name__ == "__main__":`
+# wrapper. The wrapper makes an accidental import a silent no-op; this says why
+# nothing happened. The failure being guarded is a silent one, so the guard is
+# not silent.
+if __name__ != "__main__":
+    raise RuntimeError(
+        f"{__name__} is a script, not a module - importing it would run its entire "
+        "measurement as a side effect. Run it with `py -3.13 <file>.py` instead, or "
+        "move the helper you wanted into a module."
+    )
+
 import statistics
 import sys
 from pathlib import Path
@@ -153,8 +169,12 @@ lin = None
 lo_r = next((r for r in value_rows if r["variant"] == "light" and r["wp"]), None)
 hi_r = next((r for r in value_rows if r["variant"] == "heavy" and r["wp"]), None)
 print()
-print("  2. LINEARITY — heavy must be EXACTLY 2x light; each point is a flat -10%")
-print("     on the injury roll, so this is arithmetic, not a design preference.")
+print("  2. LINEARITY — is heavy 2x light, the ruled 1.667, or neither?")
+print("     THE '2x IS ARITHMETIC' PREMISE IS WITHDRAWN (2026-08-13). It argued from the")
+print("     flat -10%/point on the injury roll, which is the WRONG QUANTITY: linear in")
+print("     injury PROBABILITY does not imply linear in WIN-POINTS, because the second")
+print("     armour point buys survival on a model already surviving more often. Neither")
+print("     2.0 nor 1.667 is privileged here; both are rivals to be discriminated.")
 if lo_r and hi_r and lo_r["significant"] and hi_r["significant"]:
     ratio = hi_r["wp"] / lo_r["wp"]
     # SE of a ratio, delta method.
@@ -167,22 +187,29 @@ if lo_r and hi_r and lo_r["significant"] and hi_r["significant"]:
     # as agreement. 1.67 is the ruled Light 60 / Heavy 100 ratio and is the
     # specific rival this test exists to discriminate against.
     informative = (rhi - rlo) < 1.0
+    has2 = rlo <= 2.0 <= rhi
+    has167 = rlo <= 1.667 <= rhi
+    # Naming a verdict "LINEAR (2.0)" while the interval ALSO contains the rival
+    # is how a non-result gets read as a confirmation. If both candidates are
+    # inside, the only honest verdict is that the run did not discriminate.
+    if has2 and has167:
+        verdict = "CANNOT DISCRIMINATE — both 2.0 and 1.667 inside the CI"
+    elif has2:
+        verdict = "consistent with 2.0; 1.667 EXCLUDED"
+    elif has167:
+        verdict = "consistent with the ruled 1.667; 2.0 EXCLUDED"
+    else:
+        verdict = "EXCLUDES BOTH — the ratio is neither candidate"
     lin = {"ratio": round(ratio, 3), "se": round(rse, 3),
            "ci": [round(rlo, 3), round(rhi, 3)],
            "informative": informative,
-           "contains_2": rlo <= 2.0 <= rhi,
-           "contains_167": rlo <= 1.667 <= rhi,
-           "verdict": ("UNINFORMATIVE" if not informative
-                       else "LINEAR (2.0)" if rlo <= 2.0 <= rhi
-                       else "NOT 2.0 — investigate")}
+           "contains_2": has2, "contains_167": has167,
+           "verdict": verdict}
     print(f"     heavy/light = {ratio:.3f} +- {rse:.3f}   95% CI [{rlo:.3f}, {rhi:.3f}]")
+    print(f"     VERDICT: {verdict}")
     if not informative:
-        print(f"     VERDICT: UNINFORMATIVE — the CI spans {rhi - rlo:.2f}, so it contains 2.0")
-        print("     and almost everything else. This is NOT evidence of linearity.")
-    else:
-        print(f"     VERDICT: {lin['verdict']}"
-              f"   |  rival 1.667 (ruled Light 60 / Heavy 100) "
-              f"{'ALSO inside — cannot discriminate' if lin['contains_167'] else 'EXCLUDED'}")
+        print(f"     (CI spans {rhi - rlo:.2f} — wide enough that agreement with any value")
+        print("      would be uninformative on its own.)")
 else:
     print("     VERDICT: not testable — at least one armour level did not measure")
     print("     significantly different from zero, so their ratio is noise over noise.")
