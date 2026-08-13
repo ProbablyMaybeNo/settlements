@@ -1,0 +1,230 @@
+{
+  "name": "value-of-pinned-n4000",
+  "question": "What is Pinned worth? It is the baseline every ranged payload price is quoted against, and it decides whether Concussive/Crippling are underpriced or redundant with the free default result.",
+  "values": {
+    "pinned_wp_per_model": 0.1655,
+    "ci95_lo": 0.0325,
+    "ci95_hi": 0.2985,
+    "significant": true,
+    "anchor_used": 0.786,
+    "anchor_provisional": "PROVISIONAL - third anchor in a row to reject its predecessors; each prior error was invisible from inside the number before it. Best-founded to date, not settled.",
+    "cells": {
+      "Fireteam (6)/hold": 0.0425,
+      "Fireteam (6)/hold_claim": 0.0375,
+      "Fireteam (6)/annihilate": -0.07,
+      "Squad (8)/hold": 0.1167,
+      "Squad (8)/hold_claim": 0.2312,
+      "Squad (8)/annihilate": -0.2458,
+      "Armoured (6)/hold": 0.305,
+      "Armoured (6)/hold_claim": 0.26,
+      "Armoured (6)/annihilate": -0.2275
+    }
+  },
+  "raw_cells": [
+    {
+      "list": "Fireteam (6)",
+      "effect": "null payload (suppresses Pinned)",
+      "cells": {
+        "hold": {
+          "wp": -0.0425,
+          "se": 0.2087,
+          "winrate": 0.4881,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 5
+        },
+        "hold_claim": {
+          "wp": -0.0375,
+          "se": 0.117,
+          "winrate": 0.4964,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 5
+        },
+        "annihilate": {
+          "wp": 0.07,
+          "se": 0.2092,
+          "winrate": 0.5059,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 5
+        }
+      },
+      "priced_from": [
+        "hold",
+        "hold_claim"
+      ],
+      "dropped_degenerate": [],
+      "any_saturated": false,
+      "price_wp": -0.04,
+      "price_se": 0.1196,
+      "price_ci": [
+        -0.2745,
+        0.1945
+      ],
+      "price_significant": false,
+      "sign_split": false
+    },
+    {
+      "list": "Squad (8)",
+      "effect": "null payload (suppresses Pinned)",
+      "cells": {
+        "hold": {
+          "wp": -0.1167,
+          "se": 0.1806,
+          "winrate": 0.4984,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "hold_claim": {
+          "wp": -0.2312,
+          "se": 0.1218,
+          "winrate": 0.4853,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "annihilate": {
+          "wp": 0.2458,
+          "se": 0.1786,
+          "winrate": 0.5151,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        }
+      },
+      "priced_from": [
+        "hold",
+        "hold_claim"
+      ],
+      "dropped_degenerate": [],
+      "any_saturated": false,
+      "price_wp": -0.174,
+      "price_se": 0.1089,
+      "price_ci": [
+        -0.3875,
+        0.0395
+      ],
+      "price_significant": false,
+      "sign_split": false
+    },
+    {
+      "list": "Armoured (6)",
+      "effect": "null payload (suppresses Pinned)",
+      "cells": {
+        "hold": {
+          "wp": -0.305,
+          "se": 0.2149,
+          "winrate": 0.4833,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 5
+        },
+        "hold_claim": {
+          "wp": -0.26,
+          "se": 0.1218,
+          "winrate": 0.488,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 5
+        },
+        "annihilate": {
+          "wp": 0.2275,
+          "se": 0.2117,
+          "winrate": 0.5029,
+          "significant": false,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 5
+        }
+      },
+      "priced_from": [
+        "hold",
+        "hold_claim"
+      ],
+      "dropped_degenerate": [],
+      "any_saturated": false,
+      "price_wp": -0.2825,
+      "price_se": 0.1235,
+      "price_ci": [
+        -0.5245,
+        -0.0405
+      ],
+      "price_significant": true,
+      "sign_split": false
+    }
+  ],
+  "params": {
+    "N_per_cell": 4000,
+    "method": "paired mirror vs a null-payload variant",
+    "pricing_scenarios": [
+      "hold",
+      "hold_claim"
+    ],
+    "diagnostic_scenarios": [
+      "annihilate"
+    ],
+    "divisor": "ranged carriers only - a melee non-wound is Shaken, not Pinned"
+  },
+  "caveats": [
+    "Priced from OBJECTIVE scenarios only. Supersedes value-of-pinned-n4000, which averaged Annihilate in - and Pinned is the atom whose sign-split ACROSS that boundary is what forced the objective-only policy in the first place.",
+    "Measured on this engine's AI, which never spends a Move to clear Pinned (clear_movement_condition is called by no policy). Pinned IS cleared by clear_pin() in every policy, so unlike Hobbled this is not a permanent-condition artefact - but the AI clears it immediately and unconditionally, which is a lower bound on a player who would sometimes shoot from where they stand.",
+    "Suppressive is excluded: it modifies what clearing Pinned costs, so it is a second-order effect on this same baseline and must be measured after it."
+  ],
+  "engine": {
+    "combined": "3b61ae8186d232be",
+    "files": {
+      "engine.py": "bb6afa1b70eca9eb",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "1c7fd32fd446674f",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "harness": {
+    "combined": "42615a7088ff6d98",
+    "files": {
+      "measure.py": "9764d240f9621d3a",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "53ec55752859c0b6"
+    }
+  },
+  "git": {
+    "commit": "073130072d39",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_armour.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "docs/POINTS-REBUILD-TRACKING.md",
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/harness/measure_pinned.py",
+      ".cursor/hooks/state/continual-learning-index.json",
+      "test-bench/harness/measure_armour.py"
+    ]
+  },
+  "created": "20260813-015605",
+  "python": "3.13.7",
+  "schema": 2
+}

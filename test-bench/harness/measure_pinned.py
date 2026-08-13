@@ -53,19 +53,25 @@ except Exception:
     pass
 
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 4000
-import anchor as _anchor  # noqa: E402
-ANCHOR = _anchor.VALUE
+import anchor as A  # noqa: E402
+ANCHOR = A.VALUE
+
+ENGINE_AT_START = P.engine_fingerprint()
+COST_AT_START = P.cost_table_fingerprint()
+HARNESS_AT_START = P.harness_fingerprint()
+GIT_AT_START = P.git_state()
 
 LISTS = {"Fireteam (6)": FIRETEAM6, "Squad (8)": SQUAD8, "Armoured (6)": ARMOURED6}
-SCEN = ("hold", "annihilate")
 
-print("=" * 100)
+print("=" * 108)
 print(f"VALUE OF PINNED — via a null payload that suppresses it, N={N}/cell")
-print("=" * 100)
+print("=" * 108)
 print("A ranged payload REPLACES Pinned, so every payload price on record is")
 print("value(condition) - value(Pinned), and the subtrahend has never been measured.")
+print(A.describe())
 print()
-print(f"  {'list':<16}{'scenario':<13}{'delta':>9}{'SE':>7}{'/applied':>10}{'95% CI':>18}{'sig':>5}")
+print(f"  {'list':<16}{'hold':>10}{'hold_claim':>12}{'annihilate':>12}"
+      f"{'PRICE (obj)':>14}{'SE':>8}{'sig':>5}  dropped")
 
 # ranged-only: a melee non-wound is Shaken, so there is no Pinned to suppress
 eff = E.Effect(kind="weapon_trait", trait="null_payload", require_ranged=True,
@@ -73,16 +79,28 @@ eff = E.Effect(kind="weapon_trait", trait="null_payload", require_ranged=True,
 
 rows = []
 for lname, spec in LISTS.items():
-    for scen in SCEN:
-        r = M.measure(spec, eff, scen, n=N)
-        lo = r.per_applied - 1.96 * r.per_applied_se
-        hi = r.per_applied + 1.96 * r.per_applied_se
-        rows.append((lname, scen, r, lo, hi))
-        print(f"  {lname:<16}{scen:<13}{r.delta:>+8.2f}{r.se:>7.2f}{r.per_applied:>10.3f}"
-              f"   [{lo:+.3f}, {hi:+.3f}]{'  yes' if r.significant else '   no':>5}")
+    res = M.price_atom(spec, eff, n=N)
 
-per = [r.per_applied for _, _, r, _, _ in rows]
-ses = [r.per_applied_se for _, _, r, _, _ in rows]
+    def cell(s):
+        c = res["cells"].get(s)
+        return None if (c is None or c["degenerate"]) else c["wp"]
+
+    def f(v):
+        return f"{v:+.3f}" if v is not None else "   degen"
+
+    rows.append((lname, res))
+    print(f"  {lname:<16}{f(cell('hold')):>10}{f(cell('hold_claim')):>12}"
+          f"{f(cell('annihilate')):>12}{f(res['price_wp']):>14}"
+          f"{res.get('price_se', float('nan')):>8.3f}"
+          f"{'  yes' if res['price_significant'] else '   no':>5}  "
+          f"{','.join(res['dropped_degenerate']) or '-'}")
+
+priced = [r for _, r in rows if r["price_wp"] is not None]
+if not priced:
+    print("\n  NO LIST PRODUCED A PRICE — every objective cell degenerate.")
+    sys.exit(1)
+per = [r["price_wp"] for r in priced]
+ses = [r["price_se"] for r in priced]
 mean = statistics.fmean(per)
 pooled = (sum(s * s for s in ses) ** 0.5) / len(ses)
 lo, hi = mean - 1.96 * pooled, mean + 1.96 * pooled
@@ -121,14 +139,20 @@ env = P.Envelope(
             "ci95_lo": round(pinned_lo, 4), "ci95_hi": round(pinned_hi, 4),
             "significant": significant,
             "anchor_used": ANCHOR,
-            "cells": {f"{l}/{s}": round(-r.per_applied, 4) for l, s, r, _, _ in rows}},
-    raw_cells=[{"list": l, "scenario": s, "delta": round(r.delta, 3), "se": round(r.se, 3),
-                "per_applied": round(r.per_applied, 4), "n_applied": r.n_applied,
-                "n_present": r.n_present, "significant": r.significant}
-               for l, s, r, _, _ in rows],
+            "anchor_provisional": A.PROVISIONAL,
+            # Sign flipped: the effect SUPPRESSES Pinned, so value(Pinned) is the
+            # negative of what removing it is worth.
+            "cells": {f"{lname}/{s}": (None if not c or c["degenerate"] else round(-c["wp"], 4))
+                      for lname, res in rows for s, c in res["cells"].items()}},
+    raw_cells=[{"list": lname, **res} for lname, res in rows],
     params={"N_per_cell": N, "method": "paired mirror vs a null-payload variant",
+            "pricing_scenarios": list(M.PRICING_SCENARIOS),
+            "diagnostic_scenarios": list(M.DIAGNOSTIC_SCENARIOS),
             "divisor": "ranged carriers only - a melee non-wound is Shaken, not Pinned"},
     caveats=[
+        "Priced from OBJECTIVE scenarios only. Supersedes value-of-pinned-n4000, which "
+        "averaged Annihilate in - and Pinned is the atom whose sign-split ACROSS that "
+        "boundary is what forced the objective-only policy in the first place.",
         "Measured on this engine's AI, which never spends a Move to clear Pinned "
         "(clear_movement_condition is called by no policy). Pinned IS cleared by "
         "clear_pin() in every policy, so unlike Hobbled this is not a permanent-condition "
@@ -137,6 +161,10 @@ env = P.Envelope(
         "Suppressive is excluded: it modifies what clearing Pinned costs, so it is a "
         "second-order effect on this same baseline and must be measured after it.",
     ],
+    engine=ENGINE_AT_START,
+    cost_table=COST_AT_START,
+    harness=HARNESS_AT_START,
+    git=GIT_AT_START,
 )
 out = env.write()
 print(f"\n[stamped] {out.name}")

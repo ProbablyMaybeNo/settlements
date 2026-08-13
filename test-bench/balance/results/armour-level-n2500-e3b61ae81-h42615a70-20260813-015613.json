@@ -1,0 +1,185 @@
+{
+  "name": "armour-level-n2500",
+  "question": "What is a point of armour worth (value), is the ladder linear (it must be, arithmetically), and what does it cost when a crew has to pay for it by giving something up (rebuild-to-pay)? Measured with ZERO prior - the 30/60 in ticks.py cites a file that has never existed.",
+  "values": {
+    "value": {
+      "light": 1.0933,
+      "heavy": 1.8167
+    },
+    "linearity": {
+      "ratio": 1.662,
+      "se": 0.239,
+      "ci": [
+        1.194,
+        2.13
+      ],
+      "informative": true,
+      "contains_2": true,
+      "contains_167": true,
+      "verdict": "LINEAR (2.0)"
+    },
+    "rebuild_to_pay": {
+      "light armour, rifle->pistol": -2.2783,
+      "heavy armour, rifle->pistol": -1.3583,
+      "heavy armour, rifle->bat": -1.3117
+    }
+  },
+  "raw_cells": {
+    "value": [
+      {
+        "variant": "light",
+        "wp": 1.0933,
+        "se": 0.1346,
+        "ci": [
+          0.8294,
+          1.3572
+        ],
+        "per_point": 1.0933,
+        "credits": 20.9,
+        "rel_to_damage": 1.391,
+        "significant": true,
+        "sign_split": false,
+        "hold": 1.44,
+        "hold_claim": 0.7467,
+        "annihilate": 1.66
+      },
+      {
+        "variant": "heavy",
+        "wp": 1.8167,
+        "se": 0.1348,
+        "ci": [
+          1.5524,
+          2.0809
+        ],
+        "per_point": 0.90835,
+        "credits": 34.7,
+        "rel_to_damage": 2.311,
+        "significant": true,
+        "sign_split": false,
+        "hold": 2.5767,
+        "hold_claim": 1.0567,
+        "annihilate": 3.1967
+      }
+    ],
+    "linearity": {
+      "ratio": 1.662,
+      "se": 0.239,
+      "ci": [
+        1.194,
+        2.13
+      ],
+      "informative": true,
+      "contains_2": true,
+      "contains_167": true,
+      "verdict": "LINEAR (2.0)"
+    },
+    "rebuild_to_pay": [
+      {
+        "package": "light armour, rifle->pistol",
+        "wp": -2.2783,
+        "se": 0.1334,
+        "ci": [
+          -2.5398,
+          -2.0168
+        ],
+        "significant": true,
+        "reading": "armour WORTH LESS than the payment",
+        "note": "light armour vs 10\" of reach and -1 dmg"
+      },
+      {
+        "package": "heavy armour, rifle->pistol",
+        "wp": -1.3583,
+        "se": 0.137,
+        "ci": [
+          -1.6269,
+          -1.0898
+        ],
+        "significant": true,
+        "reading": "armour WORTH LESS than the payment",
+        "note": "heavy armour vs the same payment"
+      },
+      {
+        "package": "heavy armour, rifle->bat",
+        "wp": -1.3117,
+        "se": 0.1212,
+        "ci": [
+          -1.5493,
+          -1.074
+        ],
+        "significant": true,
+        "reading": "armour WORTH LESS than the payment",
+        "note": "heavy armour vs surrendering ranged entirely"
+      }
+    ]
+  },
+  "params": {
+    "N_per_cell": 2500,
+    "anchor_wp_per_model": 0.786,
+    "anchor_provisional": "PROVISIONAL - third anchor in a row to reject its predecessors; each prior error was invisible from inside the number before it. Best-founded to date, not settled.",
+    "credits_per_winpoint": 19.084,
+    "baseline_crew": "6 uniform DEX2 riflemen, no armour",
+    "armour_table": "none 0 / light -1 / heavy -2 on the injury roll",
+    "pricing_scenarios": [
+      "hold",
+      "hold_claim"
+    ],
+    "diagnostic_scenarios": [
+      "annihilate"
+    ],
+    "method": "paired mirror; rebuild-to-pay via a composite buy+payment effect"
+  },
+  "caveats": [
+    "ZERO PRIOR by design. ticks.py's Light 30 / Heavy 60 is tagged [measured] citing balance/armourprice.py, which has never existed in any commit on any branch. The master note's ruled Light 60 / Heavy 100 implies a 1.67 ratio, which contradicts the flat -10%-per-point arithmetic. Neither pair is used as a starting guess.",
+    "Armour and payloads are JOINTLY DETERMINED: a payload only lands on a hit that fails to wound, so more armour on the table makes every payload more valuable, and AP is worth a full damage step against armour and nothing against a bare target. The payload table must be re-run after this lands, and AP after that.",
+    "Rebuild-to-pay prices armour in units of the weapon surrendered. That is only meaningful because the weapon classes are now measured; before that it returned 'about as much as a rifle' denominated in a legacy x10 figure.",
+    "The armour penalties in the rules (Improvised -1 AGI; Heavy -1 MOV / -1 AGI / Loud) are NOT modelled here: AGI is read only inside Dodge and DODGE_ON is False, and there is no noise system. So this OVERSTATES armour by pricing its drawbacks at zero - a known upward bias, not a neutral omission.",
+    "Every Credits column is provisional on the anchor AND on the scenario-mix ruling (tracking doc 4.5). The win-point column is not."
+  ],
+  "engine": {
+    "combined": "3b61ae8186d232be",
+    "files": {
+      "engine.py": "bb6afa1b70eca9eb",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "1c7fd32fd446674f",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "harness": {
+    "combined": "42615a7088ff6d98",
+    "files": {
+      "measure.py": "9764d240f9621d3a",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "53ec55752859c0b6"
+    }
+  },
+  "git": {
+    "commit": "073130072d39",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/harness/measure_pinned.py",
+      "test-bench/harness/measure_armour.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "docs/POINTS-REBUILD-TRACKING.md",
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/harness/measure_pinned.py",
+      ".cursor/hooks/state/continual-learning-index.json",
+      "test-bench/harness/measure_armour.py"
+    ]
+  },
+  "created": "20260813-015613",
+  "python": "3.13.7",
+  "schema": 2
+}

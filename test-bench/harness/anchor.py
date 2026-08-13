@@ -16,8 +16,11 @@ HISTORY, kept because the movement is the point:
   1.332    paired mirror, N=4000 x 6 cells, 2026-08-12, after the BalancedPolicy
            advance fix. Rejected all three earlier candidates - but priced across
            hold AND annihilate, and so superseded in turn.
-  0.786    paired mirror, N=4000 x 9 cells, 2026-08-12, OBJECTIVE-ONLY pricing.
-           REJECTS ALL FOUR PREDECESSORS, 1.332 included. CI [0.679, 0.894].
+  0.786    paired mirror, N=4000 x 9 cells, 2026-08-12, objective-only pricing,
+           hold and hold_claim weighted 50/50. Superseded: the 50/50 was never
+           chosen, and half of it was a scenario the ruleset does not contain.
+  0.3432   hold_claim ONLY, 2026-08-13. `hold` dropped as modelling no shipped
+           scenario. CI [0.234, 0.453]. HONEST, NOT CORRECT - see below.
 
 The 1.150 run and an incidental 1.162 run agreed with each other and with 1.12,
 and all of them were wrong for the same reason: BalancedPolicy shot instead of
@@ -30,25 +33,31 @@ price, and the ruleset wins on objectives and never on kills. Dropping the kill
 scenario cuts the anchor by 41% and RAISES every Credits price by 1.694x, because
 the anchor is a denominator. Both defects were invisible from inside the number.
 
-THE SPREAD IS PART OF THE NUMBER, AND IT HAS NOW WIDENED TWICE. Objective-cell
-values run 0.292 to 1.471 - a 5.0x spread, up from ~2x under mixed pricing. The
-structure is not noise: hold_claim reads 0.29-0.40 in EVERY list while hold reads
-0.90-1.47 in every list, consistently, 3/3. So the pricing set itself contains a
-systematic scenario gap, and the headline averages across it. Whether that
-average is the right shape is OPEN (see POINTS-REBUILD-TRACKING §4.2) and is
-deliberately NOT ruled on here: terrain density is a 66-point win-rate lever in
-the ruleset (Full Rules System v1 §187), larger than any atom yet measured, and
-it is expected to move this spread. Do not let the headline figure travel alone.
+THE 5x SPREAD IS GONE, AND WHERE IT WENT IS THE POINT. Under the 50/50 blend the
+per-cell values ran 0.292 to 1.471 - a 5.0x spread that had widened twice and was
+the main evidence that a flat scalar might be the wrong SHAPE for this constant.
+
+Priced on hold_claim alone the spread is 0.292 to 0.396: 1.35x. The 5x was almost
+entirely the hold-vs-hold_claim gap, and that gap was never dispersion - it was
+THE COST OF THE CLAIM STEP. An Action spent claiming is an Action not spent
+attacking, so a damage buff has fewer chances to land. Two different games were
+being averaged, and the average looked like a curve.
+
+So the flat-vs-curve case is now much WEAKER than it appeared, on this evidence.
+The question stays open pending the terrain-density sweep (a measured 66-point
+win-rate lever, Full Rules System v1 §187), but the 5x that was driving it was an
+artefact of the scenario mix, not a property of the atom.
 
 The 15 Credits it is pegged to remains a CHOICE, not a measurement.
 """
 
 from __future__ import annotations
 
-# win-points per model buffed, +1 on the injury roll. OBJECTIVE-ONLY.
-VALUE = 0.786
-CI95 = (0.679, 0.894)
-CELL_SPREAD = (0.292, 1.471)
+# win-points per model buffed, +1 on the injury roll.
+# hold_claim ONLY - the single faithful model of a shipped scenario.
+VALUE = 0.3432
+CI95 = (0.2337, 0.4527)
+CELL_SPREAD = (0.292, 0.396)
 
 # The scale choice. Pegging +1 Damage at this many Credits fixes the whole
 # Credits scale; nothing measured it.
@@ -78,10 +87,40 @@ MEASURED = "gear-anchor-objective-n4000, 2026-08-12, objective-only pricing"
 #
 # Cite it with this caveat everywhere, exactly as 1.332 and 1.150 should have been.
 PROVISIONAL = (
-    "PROVISIONAL - third anchor in a row to reject its predecessors; each prior "
-    "error was invisible from inside the number before it. Best-founded to date, "
-    "not settled."
+    "COVERAGE-LIMITED, NOT A WORKING ANCHOR - rests on 1 of 5 shipped scenarios, "
+    "and the most static one. Overvalues range/damage/armour, undervalues "
+    "mobility/tempo/stealth. Fourth value in a row to reject its predecessors."
 )
+
+# 0.3432 IS HONEST. IT IS NOT CORRECT. DO NOT TREAT IT AS THE WORKING ANCHOR.
+#
+# Dropping `hold` removed a scenario that does not exist in the ruleset, which
+# makes this number honest about WHAT IT MEASURED. It does not make it right,
+# because what it measured is one fifth of the game:
+#
+#   Take a Hold    Control, VP accrual        MODELLED (this number)
+#   Escort         Mobile, asymmetric         absent
+#   Raid           Retrieve, enemy half       absent
+#   Sabotage       Timer, sudden death        absent
+#   Power Supply   Network, sudden death      absent
+#
+# Take a Hold is the most STATIC of the five. Pricing the whole game against it
+# systematically overvalues defensive and static atoms - range, damage, armour -
+# and undervalues mobility, tempo, stealth and objective-running, which is what
+# the four missing scenarios reward. That is the DEX-ladder failure one level up:
+# internally clean, structurally biased by the thing it was measured on.
+#
+# THE BLOCKER IS NO LONGER "WHICH ANCHOR VALUE". IT IS SCENARIO COVERAGE.
+# Every atom priced from here inherits single-scenario bias until the harness
+# covers something structurally different from control play. Sabotage and Raid
+# are the two furthest from what hold_claim already measures - sudden-death
+# timing and scoring in the enemy's half - so they expose the bias fastest.
+#
+# Expect this number to move again when they land. Do not spend a durable stamp
+# on it, and do not write Credits into any shipped table against it.
+
+# Every price taken at the 50/50 blend is low by this factor.
+RESCALE_FROM_0786 = 2.2900
 
 # Every price taken at 1.332 is low by this factor. Kept as a constant because
 # several stored results carry valid objective-only NUMERATORS and only a wrong

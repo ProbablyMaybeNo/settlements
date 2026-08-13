@@ -15,6 +15,37 @@ the two hardest findings is in `POINTS-REBUILD-EXPLANATIONS.txt`.
 
 ---
 
+## 0a · THE BLOCKER, as of 2026-08-13 — scenario coverage, not anchor value
+
+**Ruled: `hold` is dropped.** It scores positionally, the ruleset scores every objective
+through an Interact, so it modelled no shipped scenario while carrying half the anchor.
+Anchor is now **0.3432** (`hold_claim` only), CI [0.234, 0.453], **43.71 Cr per win-point**.
+
+**0.3432 is honest, not correct, and is NOT the working anchor.** It rests on 1 of 5 shipped
+scenarios — and the most *static* one.
+
+| Shipped scenario | Shape | Modelled |
+|---|---|---|
+| Take a Hold | Control, VP accrual | ✅ `hold_claim` |
+| Escort | Mobile, **asymmetric** | ❌ |
+| Raid | Retrieve, **enemy's half** | ❌ |
+| Sabotage | Timer, **sudden death** | ❌ |
+| Power Supply | Network, **sudden death** | ❌ |
+
+Pricing the whole game against control play **systematically overvalues defensive and static
+atoms — range, damage, armour — and undervalues mobility, tempo, stealth and
+objective-running**, which is precisely what the four missing scenarios reward. Internally
+clean, structurally biased by what it was measured on: **the DEX-ladder failure one level up.**
+
+**So the question is no longer "which anchor value".** Every atom priced from here inherits
+single-scenario bias until the harness covers something structurally different from control
+play. **Next build: Sabotage and Raid** — furthest from what `hold_claim` already measures
+(sudden-death timing; scoring in the enemy's half), so they expose the bias fastest.
+
+Anchor re-stamp remains **held** — do not spend a durable stamp on a number about to move.
+
+---
+
 ## 0 · Standing invariants
 
 | Invariant | Enforced by |
@@ -51,7 +82,8 @@ must be re-run. **BLOCKED**: cannot be measured on this engine as built.
 |---|---|---|---|
 | +1 Damage (the anchor) | **MEASURED — PROVISIONAL** | **0.786** wp/model, CI [0.679, 0.894] | Objective-only, N=4000 × 9 cells. **REJECTS ALL FOUR PREDECESSORS** — 1.332, 1.12, 1.1183, 0.90385 all outside the CI. `CREDITS_PER_WINPOINT` 11.26 → **19.08**. **Carries the heaviest provisional marking in the project — see the box below §1.** Spread 0.292–1.471; the structure inside it is §4a, not §4.2. |
 | Payload table (12 traits) | **MEASURED** | bleeding 34 · blast 27 · suppressive 21 · fire 20 · shocking 17 · heavy_impact 12 · AP 10 · toxic 6 · blinding 6 Cr | Canonical run, `payload-table-objective-n2500`. **Concussive, Crippling, Hook are indistinguishable from zero** (+0.018 / +0.012 / +0.020) — no price; they have a rules problem. Values still move when armour is priced. |
-| value(Pinned) | **VOID** | — | Mixed-scenario. The sign-split finding that motivated the whole policy change came from here and survives; the *number* does not. |
+| value(Pinned) | **MEASURED — single-scenario coverage** | **+0.165** wp/model, CI [+0.033, +0.298], **significant** | **It flipped.** Mixed-scenario read −0.013, n.s. ("Pinned is worth nothing"). Objective-only reads **+0.165 and significant**. Every ranged payload price is NET of this, so gross = measured + 0.165. |
+| Armour level | **MEASURED — single-scenario coverage** | light **+1.093** wp · heavy **+1.817** wp, both significant | Zero prior. Linearity **not resolvable** — ratio 1.662 ± 0.239, CI [1.194, 2.130] contains both 2.0 and the ruled 1.667. Rebuild-to-pay: **all three packages significantly negative**, so armour is worth *less* than a rifle→pistol step. |
 | Range bands | **MEASURED** | 8″ 169 Cr · 12″ 175 · 18″ 194 · 24″ 230 | Value of upgrading **one** model off a 6″ baseline. **The 12″ threshold is not visible** — see below. |
 | Weapon classes | **MEASURED** (damage + range only) | damage +1 → 1.300 wp *(hold-only)* | Objective-only, `weapon-class-atoms-objective-n2500`. Unblocks armour. Hands/slots, rank gate, Loud/Quiet, fire-while-Engaged remain unmeasurable, so a class price from this is damage + range and a flagged judgment for the rest. |
 | Armour level | **UNBLOCKED — next** | — | Weapon classes are now real, so rebuild-to-pay has a currency. Measure with **zero prior** — 30/60 cites a file that has never existed. Then re-run payloads, which move with armour prevalence. |
@@ -126,6 +158,44 @@ must be re-run. **BLOCKED**: cannot be measured on this engine as built.
 > The marking travels in code, not just here: `anchor.PROVISIONAL` is embedded in
 > `anchor.describe()`, which every measurement script prints, so a caller who wants only the
 > number still gets the caveat.
+
+> ### Two results from 2026-08-13, both labelled single-scenario coverage
+>
+> **Pinned flipped, and it re-reads the payload table.** Mixed-scenario said −0.013,
+> n.s. — "Pinned is worth nothing". Objective-only says **+0.165, CI [+0.033, +0.298],
+> significant**. A ranged payload *replaces* Pinned, so every ranged payload price is
+> **net** of it and gross ≈ measured + 0.165.
+>
+> That decides the Concussive/Crippling/Hook question in the direction that **cannot be
+> fixed by pricing**. They measured +0.018 / +0.012 / +0.020 net — so gross ≈ 0.18, which
+> is *what Pinned is already worth for free*. They are **redundant, not weak**. Repricing a
+> trait whose whole effect is to swap one result for an equally-valuable one sells the
+> player nothing at any price; the fix is mechanical.
+> *Caveat:* the net-of-Pinned relation holds for **ranged** delivery only — a melee
+> non-wound is Shaken, not Pinned — so it applies to the ranged share of each trait.
+> The per-list gradient (Fireteam −0.04 → Squad −0.17 → **Armoured −0.28**) is coherent:
+> Pinned lands on a hit that *fails to wound*, and armour creates those.
+>
+> **Armour: the "linearity is arithmetic" premise looks wrong.** Measured light **+1.093**,
+> heavy **+1.817** (both significant, zero prior). Ratio **1.662 ± 0.239**, CI [1.194, 2.130].
+> The guard correctly refuses a verdict — the interval contains 2.0 *and* the ruled 1.667,
+> so it cannot discriminate. But note what the point estimate sat on: **1.662 vs the ruled
+> Light 60 / Heavy 100 ratio of 1.667.**
+> `POINTS-REBUILD-EXPLANATIONS.txt` §2 argued Heavy *must* be exactly 2× Light because each
+> armour point is a flat −10% on the injury roll, so "linearity is a property of the
+> arithmetic". **That reasoning is about the wrong quantity.** Linear in *injury
+> probability* does not imply linear in *win-points* — the second armour point buys
+> survival on a model that is already surviving more often, which is a textbook diminishing
+> return. So the ruling "the measured invariant wins and Heavy is exactly twice Light"
+> rested on an arithmetic claim that does not transfer, and is **reopened**.
+> **Rebuild-to-pay bounds armour from above.** All three packages came back significantly
+> negative (light+downgrade −2.278; heavy+downgrade −1.358; heavy+drop-to-melee −1.312), so
+> even heavy armour does not compensate for losing the rifle. The fair trade lies *between*
+> no payment and rifle→pistol — armour is worth **less than** that step, which contradicts
+> the old "≈60 Cr, about as much as a rifle" figure that was denominated in the legacy ×10 scale.
+> **Known upward bias:** armour's own drawbacks (Improvised −1 AGI; Heavy −1 MOV / −1 AGI /
+> Loud) are priced at **zero** here, because AGI is read only inside Dodge (`DODGE_ON` False)
+> and there is no noise system. So these figures *overstate* armour.
 
 ### Materials axis
 
@@ -211,7 +281,26 @@ deleted `BALANCED_GOALS`. That dependency is now cleared.
    **Ruling is withheld for sequencing, not caution.** Terrain density is a measured **66-point win-rate swing** (`Full Rules System v1` §187; `Crew Sim — Findings`; parity at 9–12 large features) — a bigger lever than any atom this rebuild has measured, and expected to move this spread. Ruling now would fix one variable while a larger untested one sits open. **Decide with both in hand.**
    *See §4a — the spread number is not the interesting part of this finding, and must not be the thing that gets carried forward.*
 
-### 4a · The `hold` / `hold_claim` gap — a distinct finding, NOT "wide spread"
+### 4a · The `hold` / `hold_claim` gap — ✅ **RESOLVED 2026-08-13. Mechanism found.**
+
+> **The gap was measuring the cost of the claim step.** `hold_claim` requires an INT 7+
+> Interact that costs the Action; `hold` scores by proximity and costs nothing. An Action
+> spent claiming is an Action not spent attacking, so a damage buff has fewer chances to
+> land. The two scenarios were never dispersion around one quantity — they were two
+> different games, and `hold` is the one that is not in the ruleset.
+>
+> **Consequences, all confirmed:**
+> - `hold` dropped from pricing (ruled). It carried half the anchor's weight while modelling
+>   no shipped scenario.
+> - **The 5.0× spread was an artefact.** Priced on `hold_claim` alone the anchor's cell
+>   spread is **1.35×** (0.292–0.396). So the main evidence for flat-vs-**curve** was the
+>   scenario mix, not the atom. §4.2 is materially weaker than it looked — still open pending
+>   density, but no longer pointing where it seemed to.
+> - Flagging this as *distinct from* "wide spread" is what made the mechanism findable. Folded
+>   into a dispersion narrative it would have been "resolved" by the density sweep showing
+>   something unrelated.
+
+*Original analysis retained below — being right for a findable reason is part of the record.*
 
 **Do not fold this into the spread narrative.** A wide spread and this are different objects,
 and this one is the more troubling of the two.
@@ -294,28 +383,76 @@ denominated differently from each other, and the file does not say so on its fac
 priced from `hold` alone is systematically **higher** than one priced across both, by exactly
 the §4a factor. Any catalogue built by reading rows off this table side by side inherits
 that. `priced_from` is recorded per row; nothing yet *warns* when rows in one table disagree.
-### 4.5 · TOP OPEN QUESTION — what is the scenario mix, and who decides it?
+### 4.5 · SCENARIO MIX — the mapping, written down BEFORE any weighting
 
-**Not a measurement. A design decision, currently being made by accident.**
+**Ruled 2026-08-13:** weight by actual frequency in the shipped pack, not 50/50, because
+50/50 is denominated in "the harness happened to have two scenario types" — the same class of
+defect as the legacy ×10 weapon scale and armour's 30/60. **Condition of the ruling: map the
+five explicitly here first, and state coverage gaps rather than forcing a scenario into the
+nearest bucket.** Executing that condition produced the finding below.
 
-`PRICING_SCENARIOS = ("hold", "hold_claim")` weights the two equally, because there are two
-of them. Nothing chose that. And the choice moves the anchor **0.786 ↔ 1.229 — 36%** — which
-multiplies through every Credits figure in the project (§4a).
+#### The ruleset's own rule for every objective
 
-The three candidate answers are all defensible and give different games:
+> "**Objectives are Interacts** — base contact, costs the Action, resolves as `1d10+Stat` vs
+> 7+. Claim/activate/connect → INT." — `Full Rules System v1` §12.7 preamble
 
-| Weighting | Anchor | Means |
-|---|---|---|
-| `hold` only | 1.229 | claim is a variant, not a pricing scenario |
-| 50/50 (current, unchosen) | 0.786 | both equally likely at the table |
-| weighted by real play | between | requires knowing the actual scenario mix |
+**There is no proximity-only scoring anywhere in the ruleset.** Every objective in all five
+scenarios costs an Action and a stat test.
 
-**This blocks nothing mechanically** — every atom can be measured in win-points and converted
-later, which is exactly why the harness stores win-points and never Credits. But **no Credits
-figure is final until it is settled**, and that includes every number already produced.
+#### The mapping
 
-**Ross's call.** The honest framing: what fraction of real games are claim games? If the
-published scenario pack is the answer, the mix is countable rather than arguable.
+| # | Ruleset scenario (§12.7) | Shape | Sim representation | Verdict |
+|---|---|---|---|---|
+| 1 | **Take a Hold** | Control. 3 terminals on centreline, **claimed via INT 7+**, 1 VP per held terminal per End Phase, Rounds 2–6 | `hold_claim` | **FAITHFUL** |
+| 2 | **Escort** | Mobile, **asymmetric**. Caravan 6″/Action to the far edge; defender gates a chokepoint | — | **NOT REPRESENTED** |
+| 3 | **Raid** | Retrieve. 3 hidden caches in your *own* half, score by looting the *enemy's*, one secret 2-VP Jackpot | — | **NOT REPRESENTED** |
+| 4 | **Sabotage** | Timer, **sudden death**. Arm a charge (INT 7+), 3 End Phases, defuse (DEX 7+) | — | **NOT REPRESENTED** |
+| 5 | **Power Supply** | Network, INT-primary, **sudden death**. Hub + 4 nodes, adjacency lines within 8″ | — | **NOT REPRESENTED** (nearest is `hold_claim`, but adjacency and sudden-death are both absent) |
+| — | — | — | `hold` | **MODELS NO RULESET SCENARIO** |
+
+#### The two findings that fall out, neither of them small
+
+**1. `hold` is not a scenario in this game.** `engine.py:880-889` scores `claim_mode=False`
+positionally — "bodies-in-area", `if a and not b: vp[0] += 1`, no stat test at all. The
+ruleset requires an INT 7+ Interact to claim a terminal (`try_claim`, `engine.py:854`). So
+`hold` is a **harness simplification that omits the claim step**, and it corresponds to
+nothing in §12.7. It is currently carrying **half the weight of the anchor**.
+
+Whether `hold` is a legitimate *proxy* for the four unmodelled scenarios — fighting over
+ground generally — is a defensible design position, but **nobody has taken it explicitly**,
+it is written down nowhere, and it is not what the rules describe. That is precisely the
+convenience-not-measurement pattern the ruling was made to eliminate.
+
+**2. Coverage is 1 of 5, and weighting cannot repair that.** The anchor's sample faithfully
+represents **one** of five shipped scenarios. Four are absent — and they are not minor
+variants: two resolve by **sudden death** rather than VP accumulation, one is **asymmetric**,
+and one scores in the **enemy's** half rather than the centreline. An atom's value under
+sudden-death or asymmetric play is not obviously a rescaling of its value under VP control;
+it could differ in sign, as Annihilate did.
+
+**Stated plainly rather than smoothed, per the ruling:** weighting the covered part more
+precisely does not fix the uncovered 4/5, it makes the gap harder to see.
+
+#### What the honest weighting would do to the anchor
+
+If the pack is the denominator and `hold` is dropped as modelling nothing:
+
+| Basis | Anchor | Cr/wp | vs current |
+|---|---|---|---|
+| `hold` only | 1.229 | 12.20 | — |
+| **50/50 (current, unchosen)** | **0.786** | **19.08** | — |
+| `hold_claim` only (= Take a Hold, faithfully) | **0.343** | **43.73** | **prices ×2.29** |
+
+Per-cell `hold_claim`: Fireteam 0.342 · Squad 0.292 · Armoured 0.396.
+
+**This is a bigger move than any correction so far** — larger than the policy fix (×1.19) and
+the objective-only cut (×1.69) combined. **It is not applied.** It needs Ross's ruling on
+whether `hold` stays as a declared proxy for the unmodelled four or is dropped as
+unrepresentative, and that is a design decision about what the game *is*, not a measurement.
+
+**Consequence for the anchor re-stamp:** deliberately not run yet. Re-running under weights
+that are themselves in question would spend 72,000 games to durably stamp a number this
+mapping may supersede — the exact 1.332 mistake, one level up.
 
 3. **The Take-a-Hold tie-break**, re-evaluated now that the scenario resolves on its own.
 4. **`IN_POSITION` 2.5 → 3.0.** Folded into the policy fix as a fidelity correction, not required by the invariant. Can be isolated and measured separately on request.

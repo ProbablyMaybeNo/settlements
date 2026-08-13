@@ -78,8 +78,40 @@ SCENARIOS = {
 #
 # Annihilate stays measurable and stays REPORTED per cell - it is useful for
 # diagnosing what an atom does - but it never contributes to a price.
-PRICING_SCENARIOS = ("hold", "hold_claim")
-DIAGNOSTIC_SCENARIOS = ("annihilate",)
+#
+# ---------------------------------------------------------------------------
+# 2026-08-13: `hold` DROPPED FROM PRICING. It is not a scenario in this game.
+#
+# Every objective in the ruleset is an Interact: "base contact, costs the Action,
+# resolves as 1d10+Stat vs 7+. Claim/activate/connect -> INT" (Full Rules System
+# v1 sec 12.7). `hold` is claim_mode=False, which scores POSITIONALLY -
+# bodies-in-area, no stat test, no Action spent (engine.py score_objectives).
+# There is no proximity-only scoring anywhere in the five shipped scenarios.
+#
+# So `hold` is not a variant of Take a Hold. It is a different game, in which
+# objectives are taken by standing near them rather than by spending an Action.
+# It was carrying HALF the anchor's weight, denominated in nothing - the same
+# defect class as the "legacy x10" weapon scale, armour's 30/60 citing a file
+# that never existed, and the unchosen 50/50 weighting itself.
+#
+# This also EXPLAINS the systematic hold-vs-hold_claim gap (0.90-1.47 against
+# 0.29-0.40, consistent 3/3 across every list, replicated at 3.7-6.9x on the
+# range probes). The gap was never dispersion. It was measuring THE COST OF THE
+# CLAIM STEP: an Action spent claiming is an Action not spent attacking, so a
+# damage buff has fewer opportunities to land. Flag resolved.
+#
+# WHAT THIS DOES NOT FIX - READ BEFORE TRUSTING ANY PRICE FROM HERE.
+# hold_claim is a faithful model of ONE of five shipped scenarios, and it is the
+# most STATIC one. Escort (mobile, asymmetric), Raid (scoring in the enemy half),
+# Sabotage (sudden death) and Power Supply (network, sudden death) are all
+# unrepresented. Pricing the whole game against control play will systematically
+# OVERVALUE defensive and static atoms - range, damage, armour - and UNDERVALUE
+# mobility, tempo, stealth and objective-running, which is exactly what the four
+# missing scenarios reward. Internally clean, structurally biased by what it was
+# measured on: the DEX-ladder failure one level up.
+# ---------------------------------------------------------------------------
+PRICING_SCENARIOS = ("hold_claim",)
+DIAGNOSTIC_SCENARIOS = ("annihilate", "hold")
 
 
 @dataclass

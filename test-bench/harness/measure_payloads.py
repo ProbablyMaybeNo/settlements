@@ -171,6 +171,12 @@ env = P.Envelope(
         "The anchor is PROVISIONAL - third in a row to reject its predecessors, each "
         "prior error invisible from inside the number before it. Every Credits column "
         "here moves if it moves; the win-point column does not.",
+        "THESE ARE NET OF PINNED, NOT GROSS. A ranged payload REPLACES Pinned, and "
+        "value(Pinned) = +0.165 wp/model (CI [0.033, 0.298], significant) as of the "
+        "objective-only re-run - it is NOT ~0 as the mixed-scenario run reported. So the "
+        "gross worth of a ranged trait is roughly this figure PLUS 0.165, and a trait "
+        "measuring ~0 net is worth about what the free default result is already worth. "
+        "Applies to the RANGED share only: a melee non-wound is Shaken, not Pinned.",
         "AI-limited downward for any trait whose value depends on the target REACTING "
         "to it: no policy calls clear_movement_condition, so Off-Balance and Hobbled are "
         "permanent AND unexploited, and the AI never kites or focuses a slowed target.",
