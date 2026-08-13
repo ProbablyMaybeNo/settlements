@@ -1,0 +1,1430 @@
+{
+  "name": "payload-table-objective-n2500",
+  "question": "What is every payload worth, priced from OBJECTIVE play only, with melee delivering its payload and the divisor counting only models that can actually deliver it? This is the canonical payload table.",
+  "values": {
+    "bleeding": 1.765,
+    "incendiary_fire": 1.0558,
+    "toxic": 0.3384,
+    "blinding": 0.3116,
+    "shocking": 0.8992,
+    "concussive": 0.0183,
+    "crippling": 0.0117,
+    "heavy_impact": 0.6225,
+    "hook": 0.02,
+    "suppressive": 1.114,
+    "blast": 1.399,
+    "armour_piercing": 0.5409
+  },
+  "raw_cells": [
+    {
+      "trait": "bleeding",
+      "hold": 2.6233,
+      "hold_claim": 0.90665,
+      "annihilate": 5.205,
+      "price_wp": 1.765,
+      "price_se": 0.0869,
+      "price_ci": [
+        1.5947,
+        1.9353
+      ],
+      "rel_to_damage": 2.246,
+      "credits": 33.7,
+      "ticks_now": 46,
+      "significant": true,
+      "sign_split": false,
+      "per_list": [
+        {
+          "effect": "bleeding",
+          "cells": {
+            "hold": {
+              "wp": 2.2833,
+              "se": 0.2128,
+              "winrate": 0.6192,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": 0.84,
+              "se": 0.1202,
+              "winrate": 0.5444,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 4.5133,
+              "se": 0.2024,
+              "winrate": 0.7692,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 1.5617,
+          "price_se": 0.1222,
+          "price_ci": [
+            1.3221,
+            1.8012
+          ],
+          "price_significant": true,
+          "sign_split": false
+        },
+        {
+          "effect": "bleeding",
+          "cells": {
+            "hold": {
+              "wp": 2.9633,
+              "se": 0.2139,
+              "winrate": 0.6702,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": 0.9733,
+              "se": 0.1238,
+              "winrate": 0.5588,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 5.8967,
+              "se": 0.1927,
+              "winrate": 0.8512,
+              "significant": true,
+              "degenerate": false,
+              "saturated": true,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": true,
+          "price_wp": 1.9683,
+          "price_se": 0.1236,
+          "price_ci": [
+            1.7261,
+            2.2105
+          ],
+          "price_significant": true,
+          "sign_split": false
+        }
+      ]
+    },
+    {
+      "trait": "incendiary_fire",
+      "hold": 1.9632999999999998,
+      "hold_claim": 0.1483,
+      "annihilate": 2.83165,
+      "price_wp": 1.0558,
+      "price_se": 0.0871,
+      "price_ci": [
+        0.8851,
+        1.2265
+      ],
+      "rel_to_damage": 1.343,
+      "credits": 20.1,
+      "ticks_now": 22,
+      "significant": true,
+      "sign_split": false,
+      "per_list": [
+        {
+          "effect": "incendiary_fire",
+          "cells": {
+            "hold": {
+              "wp": 1.8633,
+              "se": 0.219,
+              "winrate": 0.594,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": 0.1833,
+              "se": 0.1134,
+              "winrate": 0.505,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 2.36,
+              "se": 0.2201,
+              "winrate": 0.64,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 1.0233,
+          "price_se": 0.1233,
+          "price_ci": [
+            0.7816,
+            1.265
+          ],
+          "price_significant": true,
+          "sign_split": false
+        },
+        {
+          "effect": "incendiary_fire",
+          "cells": {
+            "hold": {
+              "wp": 2.0633,
+              "se": 0.2181,
+              "winrate": 0.6162,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": 0.1133,
+              "se": 0.1142,
+              "winrate": 0.5072,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 3.3033,
+              "se": 0.2132,
+              "winrate": 0.6956,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 1.0883,
+          "price_se": 0.1231,
+          "price_ci": [
+            0.8471,
+            1.3296
+          ],
+          "price_significant": true,
+          "sign_split": false
+        }
+      ]
+    },
+    {
+      "trait": "toxic",
+      "hold": 0.54335,
+      "hold_claim": 0.13335,
+      "annihilate": 0.905,
+      "price_wp": 0.3384,
+      "price_se": 0.0908,
+      "price_ci": [
+        0.1604,
+        0.5163
+      ],
+      "rel_to_damage": 0.43,
+      "credits": 6.5,
+      "ticks_now": 9,
+      "significant": true,
+      "sign_split": false,
+      "per_list": [
+        {
+          "effect": "toxic",
+          "cells": {
+            "hold": {
+              "wp": 0.71,
+              "se": 0.2222,
+              "winrate": 0.5248,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": 0.1,
+              "se": 0.1225,
+              "winrate": 0.5,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 0.7367,
+              "se": 0.2243,
+              "winrate": 0.5426,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 0.405,
+          "price_se": 0.1269,
+          "price_ci": [
+            0.1563,
+            0.6537
+          ],
+          "price_significant": true,
+          "sign_split": false
+        },
+        {
+          "effect": "toxic",
+          "cells": {
+            "hold": {
+              "wp": 0.3767,
+              "se": 0.2256,
+              "winrate": 0.515,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": 0.1667,
+              "se": 0.1288,
+              "winrate": 0.5104,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 1.0733,
+              "se": 0.2224,
+              "winrate": 0.5618,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 0.2717,
+          "price_se": 0.1299,
+          "price_ci": [
+            0.0171,
+            0.5262
+          ],
+          "price_significant": true,
+          "sign_split": false
+        }
+      ]
+    },
+    {
+      "trait": "blinding",
+      "hold": 0.56165,
+      "hold_claim": 0.061649999999999996,
+      "annihilate": 0.7082999999999999,
+      "price_wp": 0.3116,
+      "price_se": 0.091,
+      "price_ci": [
+        0.1333,
+        0.49
+      ],
+      "rel_to_damage": 0.397,
+      "credits": 5.9,
+      "ticks_now": 4,
+      "significant": true,
+      "sign_split": false,
+      "per_list": [
+        {
+          "effect": "blinding",
+          "cells": {
+            "hold": {
+              "wp": 0.5033,
+              "se": 0.2208,
+              "winrate": 0.5124,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": 0.1633,
+              "se": 0.1255,
+              "winrate": 0.5038,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 0.3433,
+              "se": 0.2227,
+              "winrate": 0.519,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 0.3333,
+          "price_se": 0.127,
+          "price_ci": [
+            0.0845,
+            0.5822
+          ],
+          "price_significant": true,
+          "sign_split": false
+        },
+        {
+          "effect": "blinding",
+          "cells": {
+            "hold": {
+              "wp": 0.62,
+              "se": 0.225,
+              "winrate": 0.5296,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": -0.04,
+              "se": 0.1315,
+              "winrate": 0.498,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 1.0733,
+              "se": 0.2256,
+              "winrate": 0.5618,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 0.29,
+          "price_se": 0.1303,
+          "price_ci": [
+            0.0346,
+            0.5454
+          ],
+          "price_significant": true,
+          "sign_split": false
+        }
+      ]
+    },
+    {
+      "trait": "shocking",
+      "hold": 1.325,
+      "hold_claim": 0.47329999999999994,
+      "annihilate": 1.8466999999999998,
+      "price_wp": 0.8992,
+      "price_se": 0.0904,
+      "price_ci": [
+        0.7219,
+        1.0765
+      ],
+      "rel_to_damage": 1.144,
+      "credits": 17.2,
+      "ticks_now": 16,
+      "significant": true,
+      "sign_split": false,
+      "per_list": [
+        {
+          "effect": "shocking",
+          "cells": {
+            "hold": {
+              "wp": 1.23,
+              "se": 0.2211,
+              "winrate": 0.556,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": 0.3433,
+              "se": 0.1236,
+              "winrate": 0.5146,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 1.5167,
+              "se": 0.2213,
+              "winrate": 0.5894,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 0.7867,
+          "price_se": 0.1266,
+          "price_ci": [
+            0.5385,
+            1.0349
+          ],
+          "price_significant": true,
+          "sign_split": false
+        },
+        {
+          "effect": "shocking",
+          "cells": {
+            "hold": {
+              "wp": 1.42,
+              "se": 0.224,
+              "winrate": 0.5776,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": 0.6033,
+              "se": 0.1289,
+              "winrate": 0.5366,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 2.1767,
+              "se": 0.221,
+              "winrate": 0.628,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 1.0117,
+          "price_se": 0.1292,
+          "price_ci": [
+            0.7584,
+            1.2649
+          ],
+          "price_significant": true,
+          "sign_split": false
+        }
+      ]
+    },
+    {
+      "trait": "concussive",
+      "hold": 0.0317,
+      "hold_claim": 0.0049999999999999975,
+      "annihilate": 0.195,
+      "price_wp": 0.0183,
+      "price_se": 0.0912,
+      "price_ci": [
+        -0.1605,
+        0.1972
+      ],
+      "rel_to_damage": 0.023,
+      "credits": 0.4,
+      "ticks_now": 30,
+      "significant": false,
+      "sign_split": false,
+      "per_list": [
+        {
+          "effect": "concussive",
+          "cells": {
+            "hold": {
+              "wp": 0.0667,
+              "se": 0.2234,
+              "winrate": 0.4862,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": 0.1133,
+              "se": 0.1222,
+              "winrate": 0.5008,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 0.1333,
+              "se": 0.2243,
+              "winrate": 0.5064,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 0.09,
+          "price_se": 0.1273,
+          "price_ci": [
+            -0.1595,
+            0.3395
+          ],
+          "price_significant": false,
+          "sign_split": false
+        },
+        {
+          "effect": "concussive",
+          "cells": {
+            "hold": {
+              "wp": -0.0033,
+              "se": 0.2281,
+              "winrate": 0.4922,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": -0.1033,
+              "se": 0.1275,
+              "winrate": 0.4942,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 0.2567,
+              "se": 0.2213,
+              "winrate": 0.5128,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": -0.0533,
+          "price_se": 0.1307,
+          "price_ci": [
+            -0.3094,
+            0.2028
+          ],
+          "price_significant": false,
+          "sign_split": false
+        }
+      ]
+    },
+    {
+      "trait": "crippling",
+      "hold": 0.0817,
+      "hold_claim": -0.0583,
+      "annihilate": 0.38,
+      "price_wp": 0.0117,
+      "price_se": 0.0904,
+      "price_ci": [
+        -0.1654,
+        0.1888
+      ],
+      "rel_to_damage": 0.015,
+      "credits": 0.2,
+      "ticks_now": 30,
+      "significant": false,
+      "sign_split": false,
+      "per_list": [
+        {
+          "effect": "crippling",
+          "cells": {
+            "hold": {
+              "wp": 0.2667,
+              "se": 0.221,
+              "winrate": 0.4982,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": -0.0033,
+              "se": 0.1217,
+              "winrate": 0.4938,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 0.2967,
+              "se": 0.2231,
+              "winrate": 0.5162,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 0.1317,
+          "price_se": 0.1261,
+          "price_ci": [
+            -0.1156,
+            0.3789
+          ],
+          "price_significant": false,
+          "sign_split": false
+        },
+        {
+          "effect": "crippling",
+          "cells": {
+            "hold": {
+              "wp": -0.1033,
+              "se": 0.2261,
+              "winrate": 0.4862,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": -0.1133,
+              "se": 0.1265,
+              "winrate": 0.4936,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 0.4633,
+              "se": 0.2231,
+              "winrate": 0.5252,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": -0.1083,
+          "price_se": 0.1295,
+          "price_ci": [
+            -0.3622,
+            0.1456
+          ],
+          "price_significant": false,
+          "sign_split": false
+        }
+      ]
+    },
+    {
+      "trait": "heavy_impact",
+      "hold": 0.94335,
+      "hold_claim": 0.30169999999999997,
+      "annihilate": 0.46499999999999997,
+      "price_wp": 0.6225,
+      "price_se": 0.092,
+      "price_ci": [
+        0.4421,
+        0.8029
+      ],
+      "rel_to_damage": 0.792,
+      "credits": 11.9,
+      "ticks_now": 15,
+      "significant": true,
+      "sign_split": false,
+      "per_list": [
+        {
+          "effect": "heavy_impact",
+          "cells": {
+            "hold": {
+              "wp": 0.72,
+              "se": 0.2234,
+              "winrate": 0.5254,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": 0.2167,
+              "se": 0.1271,
+              "winrate": 0.507,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 0.4167,
+              "se": 0.2245,
+              "winrate": 0.5234,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 0.4683,
+          "price_se": 0.1285,
+          "price_ci": [
+            0.2165,
+            0.7202
+          ],
+          "price_significant": true,
+          "sign_split": false
+        },
+        {
+          "effect": "heavy_impact",
+          "cells": {
+            "hold": {
+              "wp": 1.1667,
+              "se": 0.2254,
+              "winrate": 0.5624,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": 0.3867,
+              "se": 0.1369,
+              "winrate": 0.5236,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 0.5133,
+              "se": 0.2189,
+              "winrate": 0.5282,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 0.7767,
+          "price_se": 0.1318,
+          "price_ci": [
+            0.5182,
+            1.0351
+          ],
+          "price_significant": true,
+          "sign_split": false
+        }
+      ]
+    },
+    {
+      "trait": "hook",
+      "hold": 0.33999999999999997,
+      "hold_claim": -0.3,
+      "annihilate": -0.12000000000000001,
+      "price_wp": 0.02,
+      "price_se": 0.5369,
+      "price_ci": [
+        -1.0323,
+        1.0723
+      ],
+      "rel_to_damage": 0.025,
+      "credits": 0.4,
+      "ticks_now": 20,
+      "significant": false,
+      "sign_split": false,
+      "per_list": [
+        {
+          "effect": "hook",
+          "cells": {
+            "hold": {
+              "wp": 0.62,
+              "se": 1.3357,
+              "winrate": 0.4884,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 1
+            },
+            "hold_claim": {
+              "wp": -0.18,
+              "se": 0.7018,
+              "winrate": 0.4922,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 1
+            },
+            "annihilate": {
+              "wp": 0.22,
+              "se": 1.3249,
+              "winrate": 0.5006,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 1
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 0.22,
+          "price_se": 0.7544,
+          "price_ci": [
+            -1.2587,
+            1.6987
+          ],
+          "price_significant": false,
+          "sign_split": false
+        },
+        {
+          "effect": "hook",
+          "cells": {
+            "hold": {
+              "wp": 0.06,
+              "se": 1.3265,
+              "winrate": 0.493,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 1
+            },
+            "hold_claim": {
+              "wp": -0.42,
+              "se": 0.7588,
+              "winrate": 0.4962,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 1
+            },
+            "annihilate": {
+              "wp": -0.46,
+              "se": 1.3249,
+              "winrate": 0.4928,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 1
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": -0.18,
+          "price_se": 0.7641,
+          "price_ci": [
+            -1.6776,
+            1.3176
+          ],
+          "price_significant": false,
+          "sign_split": false
+        }
+      ]
+    },
+    {
+      "trait": "suppressive",
+      "hold": 2.012,
+      "hold_claim": 0.216,
+      "annihilate": 1.68,
+      "price_wp": 1.114,
+      "price_se": 0.1087,
+      "price_ci": [
+        0.9009,
+        1.3271
+      ],
+      "rel_to_damage": 1.417,
+      "credits": 21.3,
+      "ticks_now": 17,
+      "significant": true,
+      "sign_split": false,
+      "per_list": [
+        {
+          "effect": "suppressive",
+          "cells": {
+            "hold": {
+              "wp": 1.936,
+              "se": 0.2636,
+              "winrate": 0.579,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 5
+            },
+            "hold_claim": {
+              "wp": 0.124,
+              "se": 0.1469,
+              "winrate": 0.5002,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 5
+            },
+            "annihilate": {
+              "wp": 1.432,
+              "se": 0.2668,
+              "winrate": 0.57,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 5
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 1.03,
+          "price_se": 0.1509,
+          "price_ci": [
+            0.7342,
+            1.3258
+          ],
+          "price_significant": true,
+          "sign_split": false
+        },
+        {
+          "effect": "suppressive",
+          "cells": {
+            "hold": {
+              "wp": 2.088,
+              "se": 0.2728,
+              "winrate": 0.5968,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 5
+            },
+            "hold_claim": {
+              "wp": 0.308,
+              "se": 0.1536,
+              "winrate": 0.5158,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 5
+            },
+            "annihilate": {
+              "wp": 1.928,
+              "se": 0.2652,
+              "winrate": 0.5938,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 5
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 1.198,
+          "price_se": 0.1565,
+          "price_ci": [
+            0.8912,
+            1.5048
+          ],
+          "price_significant": true,
+          "sign_split": false
+        }
+      ]
+    },
+    {
+      "trait": "blast",
+      "hold": 2.204,
+      "hold_claim": 0.5940000000000001,
+      "annihilate": 2.4059999999999997,
+      "price_wp": 1.399,
+      "price_se": 0.106,
+      "price_ci": [
+        1.1913,
+        1.6067
+      ],
+      "rel_to_damage": 1.78,
+      "credits": 26.7,
+      "ticks_now": 43,
+      "significant": true,
+      "sign_split": false,
+      "per_list": [
+        {
+          "effect": "blast",
+          "cells": {
+            "hold": {
+              "wp": 2.204,
+              "se": 0.2586,
+              "winrate": 0.5924,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 5
+            },
+            "hold_claim": {
+              "wp": 0.676,
+              "se": 0.1401,
+              "winrate": 0.5278,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 5
+            },
+            "annihilate": {
+              "wp": 2.348,
+              "se": 0.2662,
+              "winrate": 0.6158,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 5
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 1.44,
+          "price_se": 0.1471,
+          "price_ci": [
+            1.1517,
+            1.7283
+          ],
+          "price_significant": true,
+          "sign_split": false
+        },
+        {
+          "effect": "blast",
+          "cells": {
+            "hold": {
+              "wp": 2.204,
+              "se": 0.2678,
+              "winrate": 0.6026,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 5
+            },
+            "hold_claim": {
+              "wp": 0.512,
+              "se": 0.1464,
+              "winrate": 0.526,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 5
+            },
+            "annihilate": {
+              "wp": 2.464,
+              "se": 0.2651,
+              "winrate": 0.6206,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 5
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 1.358,
+          "price_se": 0.1526,
+          "price_ci": [
+            1.0589,
+            1.6571
+          ],
+          "price_significant": true,
+          "sign_split": false
+        }
+      ]
+    },
+    {
+      "trait": "armour_piercing",
+      "hold": 0.8,
+      "hold_claim": 0.28165,
+      "annihilate": 0.92335,
+      "price_wp": 0.5409,
+      "price_se": 0.065,
+      "price_ci": [
+        0.4135,
+        0.6683
+      ],
+      "rel_to_damage": 0.688,
+      "credits": 10.3,
+      "ticks_now": 9,
+      "significant": true,
+      "sign_split": false,
+      "per_list": [
+        {
+          "effect": "armour_piercing",
+          "cells": {
+            "hold": {
+              "wp": 0.0,
+              "se": 0.0,
+              "winrate": 0.4822,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": 0.0,
+              "se": 0.0,
+              "winrate": 0.494,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 0.0,
+              "se": 0.0,
+              "winrate": 0.4984,
+              "significant": false,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 0.0,
+          "price_se": 0.0,
+          "price_ci": [
+            0.0,
+            0.0
+          ],
+          "price_significant": false,
+          "sign_split": false
+        },
+        {
+          "effect": "armour_piercing",
+          "cells": {
+            "hold": {
+              "wp": 1.6,
+              "se": 0.2271,
+              "winrate": 0.5884,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "hold_claim": {
+              "wp": 0.5633,
+              "se": 0.1264,
+              "winrate": 0.5342,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            },
+            "annihilate": {
+              "wp": 1.8467,
+              "se": 0.2191,
+              "winrate": 0.6082,
+              "significant": true,
+              "degenerate": false,
+              "saturated": false,
+              "n_applied": 6
+            }
+          },
+          "priced_from": [
+            "hold",
+            "hold_claim"
+          ],
+          "dropped_degenerate": [],
+          "any_saturated": false,
+          "price_wp": 1.0817,
+          "price_se": 0.13,
+          "price_ci": [
+            0.827,
+            1.3364
+          ],
+          "price_significant": true,
+          "sign_split": false
+        }
+      ]
+    }
+  ],
+  "params": {
+    "N_per_cell": 2500,
+    "anchor_wp_per_model": 0.786,
+    "anchor_provisional": "PROVISIONAL - third anchor in a row to reject its predecessors; each prior error was invisible from inside the number before it. Best-founded to date, not settled.",
+    "credits_per_winpoint": 19.084,
+    "lists": [
+      "Fireteam (6)",
+      "Armoured (6)"
+    ],
+    "pricing_scenarios": [
+      "hold",
+      "hold_claim"
+    ],
+    "diagnostic_scenarios": [
+      "annihilate"
+    ],
+    "method": "paired mirror, differenced per game on a shared seed"
+  },
+  "caveats": [
+    "CANONICAL. Supersedes both payload-table-meleefixed (mixed scenarios) and the payload values carried in payload-signsplit (objective numerators over a mixed 1.332 anchor). measure_signsplit.py remains, answering only its own question.",
+    "Supersedes the conditions2d.py M4 table: that one measured ranged-only delivery while dividing by melee carriers too, a DIFFERENTIAL bias that distorted the ranking rather than the level.",
+    "Annihilate is reported per cell and NEVER priced. The ruleset wins on objectives and never on kills.",
+    "The anchor is PROVISIONAL - third in a row to reject its predecessors, each prior error invisible from inside the number before it. Every Credits column here moves if it moves; the win-point column does not.",
+    "AI-limited downward for any trait whose value depends on the target REACTING to it: no policy calls clear_movement_condition, so Off-Balance and Hobbled are permanent AND unexploited, and the AI never kites or focuses a slowed target.",
+    "Payload value rises with target armour (a payload only lands on a hit that fails to wound), which is why an armoured list is one of the two here. The armour LEVEL is still unresolved, so these prices move if it moves."
+  ],
+  "engine": {
+    "combined": "3b61ae8186d232be",
+    "files": {
+      "engine.py": "bb6afa1b70eca9eb",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "1c7fd32fd446674f",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "harness": {
+    "combined": "42615a7088ff6d98",
+    "files": {
+      "measure.py": "9764d240f9621d3a",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "53ec55752859c0b6"
+    }
+  },
+  "git": {
+    "commit": "4170b5e45f5f",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/harness/anchor.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/harness/anchor.py",
+      "test-bench/harness/measure_anchor.py",
+      "test-bench/harness/measure_payloads.py",
+      "test-bench/harness/measure_weapon_classes.py",
+      "test-bench/harness/provenance.py",
+      ".cursor/hooks/state/continual-learning-index.json"
+    ]
+  },
+  "created": "20260813-000130",
+  "python": "3.13.7",
+  "schema": 2
+}

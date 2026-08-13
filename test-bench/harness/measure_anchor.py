@@ -64,6 +64,7 @@ from rosters import ARMOURED6, FIRETEAM6, SQUAD8  # noqa: E402
 # front; this script now does too. The remaining measure_* scripts do not yet.
 ENGINE_AT_START = P.engine_fingerprint()
 COST_AT_START = P.cost_table_fingerprint()
+HARNESS_AT_START = P.harness_fingerprint()
 GIT_AT_START = P.git_state()
 
 LISTS = {'Fireteam (6)': FIRETEAM6, 'Squad (8)': SQUAD8, 'Armoured (6)': ARMOURED6}
@@ -194,6 +195,7 @@ env = P.Envelope(
     ],
     engine=ENGINE_AT_START,
     cost_table=COST_AT_START,
+    harness=HARNESS_AT_START,
     git=GIT_AT_START,
 )
 out = env.write()

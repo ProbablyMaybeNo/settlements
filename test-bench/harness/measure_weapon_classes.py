@@ -68,8 +68,15 @@ except Exception:
     pass
 
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 2500
-import anchor as _anchor  # noqa: E402
-ANCHOR = _anchor.VALUE
+import anchor as A  # noqa: E402
+ANCHOR = A.VALUE
+
+# Fingerprinted BEFORE the games run, so an edit landing mid-run cannot stamp this
+# result with code that never executed.
+ENGINE_AT_START = P.engine_fingerprint()
+COST_AT_START = P.cost_table_fingerprint()
+HARNESS_AT_START = P.harness_fingerprint()
+GIT_AT_START = P.git_state()
 
 # --- probes -----------------------------------------------------------------
 # 12" is included deliberately. The whole banding story rests on 12" being the
@@ -90,35 +97,50 @@ def uniform(weapon, n=6):
 
 def sweep(base_weapon, variants, label, note, only_first=False):
     """Mirror a crew carrying `base_weapon` against itself, upgrading one side to
-    each variant. Returns rows of (variant, wp, se, live scenarios)."""
+    each variant. Priced from OBJECTIVE cells only; Annihilate reported, never priced.
+
+    The previous version of this function averaged hold and annihilate together,
+    which is why its results were void: a weapon's value on a kill scenario is not
+    a component of its price in a ruleset that wins on objectives.
+    """
     print(f"\n  {label}")
-    print(f"    {'variant':<16}{'wp/model':>10}{'SE':>7}{'95% CI':>18}"
-          f"{'Cr':>7}{'scenarios':>22}")
+    print(f"    {'variant':<16}{'hold':>9}{'hold_clm':>10}{'annih':>9}"
+          f"{'PRICE':>9}{'SE':>7}{'Cr':>7}  sig  dropped")
     rows = []
     spec = uniform(base_weapon)
     for v in variants:
         eff = E.Effect(kind="weapon_swap", weapon=v, name=v, only_first=only_first)
-        cells = [M.measure(spec, eff, s, n=N) for s in ("hold", "annihilate")]
-        live = [c for c in cells if not c.degenerate]
-        dead = [c.scenario for c in cells if c.degenerate]
-        if not live:
-            print(f"    {v:<16}{'ALL SCENARIOS DEGENERATE - unmeasurable on this crew':>60}")
+        res = M.price_atom(spec, eff, n=N)
+
+        def cell(s):
+            c = res["cells"].get(s)
+            return None if (c is None or c["degenerate"]) else c["wp"]
+
+        def f(x):
+            return f"{x:+.3f}" if x is not None else "   degen"
+
+        if res["price_wp"] is None:
+            print(f"    {v:<16}{'ALL OBJECTIVE CELLS DEGENERATE - no price':>50}")
             rows.append({"variant": v, "wp": None, "se": None,
-                         "degenerate": [c.scenario for c in cells]})
+                         "degenerate": res["dropped_degenerate"]})
             continue
-        wp = statistics.fmean([c.per_applied for c in live])
-        se = (sum(c.per_applied_se ** 2 for c in live) ** 0.5) / len(live)
-        lo, hi = wp - 1.96 * se, wp + 1.96 * se
-        used = ",".join(c.scenario for c in live) + (f" (-{','.join(dead)})" if dead else "")
-        print(f"    {v:<16}{wp:>+10.3f}{se:>7.3f}  [{lo:+.3f}, {hi:+.3f}]"
-              f"{wp / ANCHOR * 15:>7.0f}{used:>22}")
+        wp, se = res["price_wp"], res["price_se"]
+        lo, hi = res["price_ci"]
+        print(f"    {v:<16}{f(cell('hold')):>9}{f(cell('hold_claim')):>10}"
+              f"{f(cell('annihilate')):>9}{wp:>+9.3f}{se:>7.3f}"
+              f"{A.to_credits(wp):>7.0f}"
+              f"{'  yes' if res['price_significant'] else '   no'}  "
+              f"{','.join(res['dropped_degenerate']) or '-'}")
         rows.append({"variant": v, "wp": round(wp, 4), "se": round(se, 4),
                      "ci": [round(lo, 4), round(hi, 4)],
-                     "credits": round(wp / ANCHOR * 15, 1),
-                     "scenarios_used": [c.scenario for c in live],
-                     "scenarios_degenerate": dead,
-                     "significant": abs(wp) > 1.96 * se,
-                     "saturated": any(c.saturated for c in live)})
+                     "credits": round(A.to_credits(wp), 1),
+                     "hold": cell("hold"), "hold_claim": cell("hold_claim"),
+                     "annihilate": cell("annihilate"),
+                     "priced_from": res["priced_from"],
+                     "scenarios_degenerate": res["dropped_degenerate"],
+                     "significant": res["price_significant"],
+                     "sign_split": res["sign_split"],
+                     "saturated": res["any_saturated"]})
     print(f"    {note}")
     return rows
 
@@ -126,8 +148,11 @@ def sweep(base_weapon, variants, label, note, only_first=False):
 print("=" * 104)
 print(f"WEAPON CLASS ATOMS — probes, not catalogue weapons. N={N}/cell, paired mirror")
 print("=" * 104)
-print(f"anchor {ANCHOR:.3f} wp/model = 15 Cr   |   replacing prices whose own source comment")
-print("reads 'Weapon classes - legacy x10' and which nothing has ever measured")
+print(A.describe())
+print("replacing prices whose own source comment reads 'Weapon classes - legacy x10'")
+print("and which nothing has ever measured")
+print(f"Pricing: {', '.join(M.PRICING_SCENARIOS)}.  "
+      f"{', '.join(M.DIAGNOSTIC_SCENARIOS)} reported, never priced.")
 
 range_rows = sweep(
     "probe_r6", [f"probe_r{r}" for r in RANGES if r != 6],
@@ -163,29 +188,41 @@ print("  A class price built from this file is therefore damage + range only, an
 print("  the remainder is a flagged judgment call rather than a measurement.")
 
 env = P.Envelope(
-    name=f"weapon-class-atoms-n{N}",
+    name=f"weapon-class-atoms-objective-n{N}",
     question="What are the weapon classes actually worth, decomposed into damage and "
-            "range on a fixed probe chassis, replacing the legacy x10 figures?",
+            "range on a fixed probe chassis and priced from OBJECTIVE play only, "
+            "replacing the legacy x10 figures?",
     values={"range": {r["variant"]: r["wp"] for r in range_rows},
             "damage": {r["variant"]: r["wp"] for r in dmg_rows},
             "melee_to_ranged": {r["variant"]: r["wp"] for r in melee_rows}},
     raw_cells={"range": range_rows, "damage": dmg_rows, "melee": melee_rows},
-    params={"N_per_cell": N, "anchor_wp_per_model": ANCHOR, "ranges": list(RANGES),
+    params={"N_per_cell": N, "anchor_wp_per_model": ANCHOR,
+            "anchor_provisional": A.PROVISIONAL,
+            "credits_per_winpoint": round(A.credits_per_winpoint(), 4),
+            "ranges": list(RANGES),
+            "pricing_scenarios": list(M.PRICING_SCENARIOS),
+            "diagnostic_scenarios": list(M.DIAGNOSTIC_SCENARIOS),
             "method": "paired mirror between probe weapons differing in ONE field"},
     caveats=[
         "Probes carry no traits and cost zero: this measures VALUE, not price. "
         "Conflating the two is how a harness ends up asserting the number it was "
         "built to test.",
-        "Hold is degenerate for symmetric pure-ranged crews (100% draws, 0.00 VP "
-        "against a 15-VP ceiling), so most rows here rest on Annihilate - the one "
-        "scenario the ruleset says you do not win by. Same structural limit as the "
-        "DEX ladder. Blocked on the Take-a-Hold scoring fix.",
+        "SUPERSEDES weapon-class-atoms-n2500 and -n3000, which averaged hold with "
+        "annihilate and so priced a game the ruleset says nobody wins. The earlier "
+        "caveat that 'most rows rest on Annihilate' described the pre-policy-fix "
+        "engine; Hold now resolves and carries its own weight.",
+        "The anchor is PROVISIONAL - third in a row to reject its predecessors. Every "
+        "Credits column moves if it moves; the win-point column does not.",
         "hands/slots, the rank gate, Loud/Quiet and fire-while-Engaged are all "
         "unmeasurable on this engine, so a class price from this file covers damage "
         "and range only.",
         "12\" is measured explicitly because the entire banding argument rests on it "
         "being the turn-one firing threshold, and that has never been tested.",
     ],
+    engine=ENGINE_AT_START,
+    cost_table=COST_AT_START,
+    harness=HARNESS_AT_START,
+    git=GIT_AT_START,
 )
 out = env.write()
 print(f"\n[stamped] {out.name}")

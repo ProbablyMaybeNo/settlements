@@ -56,6 +56,33 @@ DAMAGE_CREDITS = 15
 
 MEASURED = "gear-anchor-objective-n4000, 2026-08-12, objective-only pricing"
 
+# THE HEAVIEST PROVISIONAL MARKING IN THE PROJECT, AND IT TRAVELS WITH THE NUMBER.
+#
+# 0.786 is the THIRD value in a row to reject its predecessors, and each preceding
+# error was invisible from inside the number the one before it produced:
+#
+#   1.150 -> rejected by 1.332   cause: BalancedPolicy shot instead of advancing
+#   1.332 -> rejected by 0.786   cause: Annihilate averaged into a price
+#
+# Neither cause was detectable from the measurement that carried it. Both runs
+# were internally clean: paired estimator, tight CI, sane per-cell spread. 1.150
+# even had two independent confirmations, and all of them were wrong together.
+#
+# This is NOT a reason to doubt 0.786 specifically - it is the best-founded anchor
+# this project has had, and it is the first one measured on the scenarios the
+# ruleset actually wins on. It is a reason it must not be treated as SETTLED
+# merely because two prior errors were found. The base rate for "this anchor is
+# final" is currently 0 for 3, and nothing about the third run changes what the
+# first two demonstrated: a clean internal result cannot see the assumption it
+# was built on.
+#
+# Cite it with this caveat everywhere, exactly as 1.332 and 1.150 should have been.
+PROVISIONAL = (
+    "PROVISIONAL - third anchor in a row to reject its predecessors; each prior "
+    "error was invisible from inside the number before it. Best-founded to date, "
+    "not settled."
+)
+
 # Every price taken at 1.332 is low by this factor. Kept as a constant because
 # several stored results carry valid objective-only NUMERATORS and only a wrong
 # conversion - those can be re-priced by arithmetic instead of re-run.
@@ -72,8 +99,11 @@ def to_credits(wp: float) -> float:
 
 
 def describe() -> str:
+    """Every script prints this. The caveat is IN it so it cannot be dropped by a
+    caller who only wanted the number."""
     lo, hi = CI95
     slo, shi = CELL_SPREAD
     return (f"anchor {VALUE:.3f} wp/model = {DAMAGE_CREDITS} Cr "
             f"(CI [{lo:.3f}, {hi:.3f}], per-cell {slo:.3f}..{shi:.3f}) "
-            f"-> {credits_per_winpoint():.2f} Cr per win-point")
+            f"-> {credits_per_winpoint():.2f} Cr per win-point\n"
+            f"  {PROVISIONAL}")

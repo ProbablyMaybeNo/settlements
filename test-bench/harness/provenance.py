@@ -39,6 +39,7 @@ import platform
 import subprocess
 import sys
 from dataclasses import dataclass, field, asdict
+from datetime import datetime
 from pathlib import Path
 
 
@@ -49,6 +50,7 @@ except Exception:
 
 REPO = Path(__file__).resolve().parents[2]
 ENGINE_DIR = REPO / "test-bench" / "engine2d"
+HARNESS_DIR = Path(__file__).resolve().parent
 TICKS = REPO / "test-bench" / "points" / "ticks.py"
 RESULTS = REPO / "test-bench" / "balance" / "results"
 
@@ -56,6 +58,28 @@ RESULTS = REPO / "test-bench" / "balance" / "results"
 # and rendering; they are excluded so a plotting tweak does not invalidate every
 # stored measurement. If a file here is ever imported by engine.py, add it.
 ENGINE_SOURCES = ("engine.py", "board.py", "policies.py", "data.py", "crews.py")
+
+# Harness files that decide what a number MEANS, as opposed to what the game does.
+#
+# WHY THIS SET EXISTS AT ALL. The objective-only pricing cut (2026-08-12) voided
+# the anchor, the stat ladder, the weapon classes and value(Pinned) - and
+# staleness() went on reporting every one of them CURRENT, because the engine and
+# the cost table had not moved. The policy that voided them lived HERE. So the
+# module written to catch stale artefacts could not catch itself, which is the
+# same false-freshness failure one layer up.
+#
+#   measure.py   PRICING_SCENARIOS, the estimator, the degeneracy and saturation
+#                guards, price_atom's sign-split detector.
+#   effects.py   the divisor. n_applied vs models-present is a ~20% swing on the
+#                project's own standard lists.
+#   anchor.py    VALUE. Every Credits figure is win-points x 15/VALUE.
+#
+# TEXT-hashed, not value-hashed, deliberately - the opposite choice from the cost
+# table above. ticks.py is mostly provenance commentary, so rewording it must not
+# invalidate a measurement. These three are mostly LOGIC, and an estimator can
+# change completely while its constants stay put. False-stale is noise here;
+# false-fresh is what this whole module exists to prevent.
+HARNESS_SOURCES = ("measure.py", "effects.py", "anchor.py")
 
 
 def _sha(text: str) -> str:
@@ -67,6 +91,17 @@ def engine_fingerprint() -> dict:
     per_file = {}
     for name in ENGINE_SOURCES:
         p = ENGINE_DIR / name
+        per_file[name] = _sha(p.read_text(encoding="utf-8")) if p.exists() else None
+    combined = _sha(json.dumps(per_file, sort_keys=True))
+    return {"combined": combined[:16], "files": {k: (v[:16] if v else None)
+                                                 for k, v in per_file.items()}}
+
+
+def harness_fingerprint() -> dict:
+    """Hash the harness logic that decides what a measurement MEANS."""
+    per_file = {}
+    for name in HARNESS_SOURCES:
+        p = HARNESS_DIR / name
         per_file[name] = _sha(p.read_text(encoding="utf-8")) if p.exists() else None
     combined = _sha(json.dumps(per_file, sort_keys=True))
     return {"combined": combined[:16], "files": {k: (v[:16] if v else None)
@@ -164,14 +199,41 @@ class Envelope:
     caveats: list = field(default_factory=list)
     engine: dict = field(default_factory=engine_fingerprint)
     cost_table: dict = field(default_factory=cost_table_fingerprint)
+    harness: dict = field(default_factory=harness_fingerprint)
     git: dict = field(default_factory=git_state)
+    created: str = field(default_factory=lambda: datetime.now().strftime("%Y%m%d-%H%M%S"))
     python: str = field(default_factory=lambda: f"{platform.python_version()}")
-    schema: int = 1
+    schema: int = 2
 
     def write(self, stdout_text: str | None = None) -> Path:
+        """Write to a filename that CANNOT collide with a prior artefact.
+
+        WHY THE NAME CARRIES ALL OF THIS. The old stem was `name-engine8`, which
+        is content-independent: re-running a script with the SAME name, N and
+        engine silently overwrote the previous result. That is not a theoretical
+        risk - it destroyed the sign-split artefact on 2026-08-12, and only a
+        commit 26 minutes earlier made it recoverable. `git show` is not a
+        durability guarantee for an uncommitted run.
+
+        This is the second artefact-naming defect in two milestones, and both had
+        the same root: the filename carried no uniqueness guarantee. So the fix is
+        the class, not the instance - the timestamp makes collision impossible
+        even for a byte-identical re-run, and the exists() check below refuses
+        rather than clobbers if it somehow happens anyway. No CI check can catch a
+        silent overwrite after the fact, because the evidence is what got deleted.
+        """
         RESULTS.mkdir(parents=True, exist_ok=True)
-        stem = f"{self.name}-{self.engine['combined'][:8]}"
+        stem = (f"{self.name}"
+                f"-e{self.engine['combined'][:8]}"
+                f"-h{self.harness['combined'][:8]}"
+                f"-{self.created}")
         out = RESULTS / f"{stem}.json"
+        if out.exists():
+            raise FileExistsError(
+                f"refusing to overwrite an existing result: {out.name}. "
+                "Filenames are timestamped, so this means two runs finished in "
+                "the same second - re-run rather than losing the earlier one."
+            )
         out.write_text(json.dumps(asdict(self), indent=2), encoding="utf-8")
         if stdout_text is not None:
             (RESULTS / f"{stem}.txt").write_text(stdout_text, encoding="utf-8")
@@ -179,12 +241,23 @@ class Envelope:
 
 
 def staleness(verbose: bool = True) -> list[dict]:
-    """Which stored results were taken against an engine or cost table that moved?
+    """Which stored results were taken against something that has since moved?
 
     This is the check that did not exist when the extra-activation row went stale.
+    It compares three fingerprints. `harness` was added after the objective-only
+    pricing cut voided four measurements while this function reported all four
+    CURRENT - the engine and cost table had not moved, and the policy that voided
+    them was not covered by anything.
+
+    It also answers the question timestamped filenames create: with collision made
+    impossible, a name now has MANY artefacts and only one is live. Superseded
+    ones are labelled rather than left for a reader to date by eye - the milestone-1
+    finding was precisely that a result is only findable under the question it
+    appears to answer, and "which of these six is current" is the same defect.
     """
     eng_now = engine_fingerprint()["combined"]
     cost_now = cost_table_fingerprint()["combined"]
+    harness_now = harness_fingerprint()["combined"]
     rows = []
     for p in sorted(RESULTS.glob("*.json")):
         try:
@@ -201,20 +274,54 @@ def staleness(verbose: bool = True) -> list[dict]:
             moved.append("engine")
         if d.get("cost_table", {}).get("combined") != cost_now:
             moved.append("cost_table")
+        # A pre-schema-2 result has no harness fingerprint at all. That is not
+        # "unchanged", it is unknown - and unknown must read as stale, because the
+        # objective-only cut is exactly the change these files cannot describe.
+        if d.get("harness", {}).get("combined") != harness_now:
+            moved.append("harness" if d.get("harness") else "harness(unstamped)")
         rows.append({
             "file": p.name,
+            "name": d.get("name", p.stem),
+            "created": d.get("created", ""),
             "status": "STALE" if moved else "CURRENT",
             "detail": ", ".join(moved) if moved else "",
             "was_dirty": bool(d.get("git", {}).get("dirty_relevant", [])),
         })
+
+    # Supersession is per measurement NAME, newest wins. Sorting by `created`
+    # falls back to filename for pre-schema-2 files, which embedded no timestamp -
+    # so those sort by engine hash and their relative order is not meaningful.
+    # Flagged rather than guessed at.
+    by_name: dict[str, list] = {}
+    for r in rows:
+        if "name" in r:
+            by_name.setdefault(r["name"], []).append(r)
+    for name, group in by_name.items():
+        group.sort(key=lambda r: (r.get("created") or "", r["file"]))
+        for r in group[:-1]:
+            r["superseded_by"] = group[-1]["file"]
+        group[-1]["latest_of_name"] = True
+
     if verbose:
-        _print_staleness(rows, eng_now, cost_now)
+        _print_staleness(rows, eng_now, cost_now, harness_now)
     return rows
 
 
-def _print_staleness(rows, eng_now, cost_now) -> None:
+def latest(name: str) -> Path | None:
+    """The live artefact for a measurement name. Use this instead of globbing.
+
+    Timestamped filenames mean a name maps to many files; reading 'the' result by
+    hand-picking a filename is how a superseded number gets quoted as current.
+    """
+    rows = [r for r in staleness(verbose=False)
+            if r.get("name") == name and r.get("latest_of_name")]
+    return RESULTS / rows[0]["file"] if rows else None
+
+
+def _print_staleness(rows, eng_now, cost_now, harness_now) -> None:
     print(f"engine     {eng_now}")
     print(f"cost_table {cost_now}")
+    print(f"harness    {harness_now}")
     unstamped = [p.name for p in sorted(RESULTS.glob("*.txt"))
                  if not (RESULTS / f"{p.stem}.json").exists()]
     print()
@@ -223,9 +330,12 @@ def _print_staleness(rows, eng_now, cost_now) -> None:
     for r in rows:
         mark = {"CURRENT": "  ok  ", "STALE": " STALE", "UNSTAMPED": " UNSTMP",
                 "UNREADABLE": " ERROR"}.get(r["status"], "  ?   ")
-        print(f"{mark}  {r['file']:<52} {r['detail']}")
+        live = "" if r.get("superseded_by") else ("  <- LIVE" if r.get("latest_of_name") else "")
+        print(f"{mark}  {r['file']:<64} {r['detail']}{live}")
+        if r.get("superseded_by"):
+            print(f"          {'':<64} superseded by {r['superseded_by']}")
         if r.get("was_dirty"):
-            print(f"          {'':<52} (uncommitted engine/points changes at run time)")
+            print(f"          {'':<64} (uncommitted engine/points changes at run time)")
     if unstamped:
         print()
         print("UNSTAMPED raw outputs — no envelope, so staleness cannot be checked:")
