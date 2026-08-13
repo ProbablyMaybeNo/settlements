@@ -83,11 +83,15 @@ for name, kw in TRAITS:
     sig = any(r["price_significant"] for r in per_list)
     split = any(r["sign_split"] for r in per_list)
 
-    obj_signs = {(1 if v > 0 else -1) for v in (h, hc) if v is not None}
-    kill_sign = {(1 if an > 0 else -1)} if an is not None else set()
-    manual_split = bool(obj_signs) and bool(kill_sign) and obj_signs.isdisjoint(kill_sign)
-
-    if manual_split or split:
+    # The detector lives in measure.price_atom and NOWHERE ELSE. There was a
+    # second one here that tested raw SIGN with no significance requirement, then
+    # OR'd itself with the real one - so it could only ever add false positives,
+    # never remove them, and it silently defeated the tightening in price_atom.
+    # It called Concussive split on hold -0.021 vs annihilate +0.225: opposite in
+    # sign, both indistinguishable from zero, i.e. noise against nothing. A
+    # detector that fires on noise is worse than no detector, because it
+    # manufactures exactly the false structure this rebuild exists to remove.
+    if split:
         verdict = "SIGN-SPLIT - not flat"
     elif sig:
         verdict = "real on objectives"
@@ -102,7 +106,7 @@ for name, kw in TRAITS:
     rows.append({"trait": name, "hold": h, "hold_claim": hc, "annihilate": an,
                  "price_wp": price,
                  "credits": round(A.to_credits(price), 1) if price is not None else None,
-                 "price_significant": sig, "sign_split": manual_split or split,
+                 "price_significant": sig, "sign_split": split,
                  "verdict": verdict, "per_list": per_list})
 
 print()

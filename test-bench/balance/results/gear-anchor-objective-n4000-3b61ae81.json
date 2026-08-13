@@ -1,0 +1,241 @@
+{
+  "name": "gear-anchor-objective-n4000",
+  "question": "What is +1 Damage worth in win-points per model, priced from OBJECTIVE scenarios only? Re-derives the denominator of every Credits figure in the project so it comes from the same game its numerators now do.",
+  "values": {
+    "anchor_wp_per_model": 0.7863,
+    "ci95_lo": 0.6787,
+    "ci95_hi": 0.8938,
+    "pooled_se": 0.0549,
+    "credits_per_winpoint": 19.0775,
+    "objective_cell_spread": [
+      0.2922,
+      1.4708
+    ],
+    "objective_cell_spread_note": "5.03x across 6 cells",
+    "objective_cells": {
+      "Fireteam (6)/hold": 1.3187,
+      "Fireteam (6)/hold_claim": 0.3417,
+      "Squad (8)/hold": 0.8984,
+      "Squad (8)/hold_claim": 0.2922,
+      "Armoured (6)/hold": 1.4708,
+      "Armoured (6)/hold_claim": 0.3958
+    },
+    "supersedes": {
+      "value": 1.332,
+      "why": "priced across hold+annihilate"
+    },
+    "rescale_factor_from_1332": 1.6941,
+    "cells": {
+      "Fireteam (6)/hold": 1.3187,
+      "Fireteam (6)/hold_claim": 0.3417,
+      "Fireteam (6)/annihilate": 1.3146,
+      "Squad (8)/hold": 0.8984,
+      "Squad (8)/hold_claim": 0.2922,
+      "Squad (8)/annihilate": 1.1094,
+      "Armoured (6)/hold": 1.4708,
+      "Armoured (6)/hold_claim": 0.3958,
+      "Armoured (6)/annihilate": 1.8792
+    }
+  },
+  "raw_cells": [
+    {
+      "list": "Fireteam (6)",
+      "effect": "+1 Damage (GEAR anchor)",
+      "cells": {
+        "hold": {
+          "wp": 1.3187,
+          "se": 0.1752,
+          "winrate": 0.5694,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "hold_claim": {
+          "wp": 0.3417,
+          "se": 0.0982,
+          "winrate": 0.5188,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "annihilate": {
+          "wp": 1.3146,
+          "se": 0.1754,
+          "winrate": 0.5813,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        }
+      },
+      "priced_from": [
+        "hold",
+        "hold_claim"
+      ],
+      "dropped_degenerate": [],
+      "any_saturated": false,
+      "price_wp": 0.8302,
+      "price_se": 0.1004,
+      "price_ci": [
+        0.6334,
+        1.027
+      ],
+      "price_significant": true,
+      "sign_split": false
+    },
+    {
+      "list": "Squad (8)",
+      "effect": "+1 Damage (GEAR anchor)",
+      "cells": {
+        "hold": {
+          "wp": 0.8984,
+          "se": 0.1324,
+          "winrate": 0.5773,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 8
+        },
+        "hold_claim": {
+          "wp": 0.2922,
+          "se": 0.092,
+          "winrate": 0.5225,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 8
+        },
+        "annihilate": {
+          "wp": 1.1094,
+          "se": 0.1324,
+          "winrate": 0.5891,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 8
+        }
+      },
+      "priced_from": [
+        "hold",
+        "hold_claim"
+      ],
+      "dropped_degenerate": [],
+      "any_saturated": false,
+      "price_wp": 0.5953,
+      "price_se": 0.0806,
+      "price_ci": [
+        0.4373,
+        0.7533
+      ],
+      "price_significant": true,
+      "sign_split": false
+    },
+    {
+      "list": "Armoured (6)",
+      "effect": "+1 Damage (GEAR anchor)",
+      "cells": {
+        "hold": {
+          "wp": 1.4708,
+          "se": 0.179,
+          "winrate": 0.5867,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "hold_claim": {
+          "wp": 0.3958,
+          "se": 0.0999,
+          "winrate": 0.5248,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        },
+        "annihilate": {
+          "wp": 1.8792,
+          "se": 0.1739,
+          "winrate": 0.6042,
+          "significant": true,
+          "degenerate": false,
+          "saturated": false,
+          "n_applied": 6
+        }
+      },
+      "priced_from": [
+        "hold",
+        "hold_claim"
+      ],
+      "dropped_degenerate": [],
+      "any_saturated": false,
+      "price_wp": 0.9333,
+      "price_se": 0.1025,
+      "price_ci": [
+        0.7325,
+        1.1342
+      ],
+      "price_significant": true,
+      "sign_split": false
+    }
+  ],
+  "params": {
+    "N_per_cell": 4000,
+    "method": "paired mirror, differenced per game on a shared seed",
+    "lists": [
+      "Fireteam (6)",
+      "Squad (8)",
+      "Armoured (6)"
+    ],
+    "pricing_scenarios": [
+      "hold",
+      "hold_claim"
+    ],
+    "diagnostic_scenarios": [
+      "annihilate"
+    ]
+  },
+  "caveats": [
+    "Applies to melee AND ranged: injure() is reached from both fight() and shoot(), so unlike the payload traits this measurement carries no melee/ranged bias.",
+    "Annihilate is measured and reported per cell but NEVER priced. The ruleset wins on objectives and never on kills, so a price averaged across it prices a game nobody plays.",
+    "This fixes the win-points side only. The 15 Credits it is pegged to remains a CHOICE, not a measurement.",
+    "The objective-cell spread is printed because a flat scalar may be the wrong SHAPE for this constant, exactly as a flat 15/stat-point was wrong for the stat ladder. That ruling is deliberately NOT taken on this evidence: terrain density is a 66-point lever in the ruleset, larger than any atom measured so far, and it is expected to move this spread. Ruling on scenario-spread alone would fix one variable while a bigger untested one sits open. Held until the density sweep.",
+    "policies.py still carries fixed action priorities beyond the advance fix - no kiting, no focusing a slowed target, unconditional Pinned-clearing. This is the best estimate under a LESS WRONG AI, not a provably right one."
+  ],
+  "engine": {
+    "combined": "3b61ae8186d232be",
+    "files": {
+      "engine.py": "bb6afa1b70eca9eb",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "1c7fd32fd446674f",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "dde14ab334e2389d",
+    "n_constants": 32
+  },
+  "git": {
+    "commit": "09c4462b5dc7",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/harness/measure_anchor.py"
+    ],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      "test-bench/balance/audit_dodge.py",
+      "test-bench/balance/audit_fate.py",
+      "test-bench/balance/audit_pyramid.py",
+      "test-bench/harness/measure_anchor.py",
+      ".cursor/hooks/state/continual-learning-index.json"
+    ]
+  },
+  "python": "3.13.7",
+  "schema": 1
+}
