@@ -48,7 +48,7 @@ Surviving units earn a **Level** after a battle — from kills, [[Full Rules Sys
 | **4** | +1 **Secondary** stat | 15 |
 | **5** | +1 **Primary** stat | 15 |
 | **6** | **Tier 2 skill** (Primary path) | 35 |
-| **7** | **+1 WND** | 45 |
+| **7** | **+1 WND** | 41 |
 | **8** | +1 **Secondary** stat | 15 |
 | **9** | +1 **Primary** stat | 15 |
 | **10** | **Tier 3 skill** (Primary path) — the capstone | 55 |
@@ -57,7 +57,7 @@ Surviving units earn a **Level** after a battle — from kills, [[Full Rules Sys
 
 **Choosing the skill at Levels 3, 6 and 10:** roll **three times** on that tier's chart within the fighter's Primary path (reroll duplicates), then **choose one of the three**.
 
-A fully-levelled fighter carries **+245 Credits** over their rank body, **6 lifetime stat points** (3 Primary + 3 Secondary), **4 skills** (1 starting + 3 levelled, all one path) and **one wound**. **A fighter caps at Level 10** — further kills and Deeds still bank Resources, but no longer advance them. Reaching Level 10 should be rare.
+A fully-levelled fighter carries **+241 Credits** over their rank body, **6 lifetime stat points** (3 Primary + 3 Secondary), **4 skills** (1 starting + 3 levelled, all one path) and **one wound**. **A fighter caps at Level 10** — further kills and Deeds still bank Resources, but no longer advance them. Reaching Level 10 should be rare.
 
 ### Caps (anti-snowball)
 - Campaign cap is **+6** (Tier 3). Start caps (+2 / +4) lift as a unit levels — most plateau around +4–5, a rare few reach +6.
@@ -66,7 +66,8 @@ A fully-levelled fighter carries **+245 Credits** over their rank body, **6 life
 - **Scar-healing is not on the track.** It lives in the **Med-bay's T2 structure tier**, and in the **once-per-career Special Treatment** option on a third Scar ([[Campaign#The third Scar — forced retirement]]). *([[Full Rules System v1]] §26.1 still words this as the Med-bay's "T2 **worker** benefit" — a leftover from the Proficiency track cut on 2026-08-05. Worker benefits have no tiers any more; the T2 that heals scars is the structure's, per §21 and [[Structures#Recover — people come back]].)*
 
 > [!warning] Two prices on this track are unmeasured
-> **+1 WND at 45 Credits has no sim data behind it at all** — it is priced above a T2 skill and below a T3 by judgement. And the flat **15 per stat point** is a known underprice: measurement puts a stat point at **16–34 Credits**, worst for STR/melee builds. Both are flagged in [[Full Rules System v1]] §26.1.
+> **+1 WND is now 41 Credits, derived from the measured value of heavy armour (-2 on the injury roll, 41 Credits, `armour-level-n2500` 2026-08-13) - both buy the same thing, the model staying on the table longer.** It was 45 by pure judgement. Still C-tier — derived, not measured.
+> And the flat **15 per stat point** is a known underprice, but the old "16–34 Credits" figure quoted here was **contaminated** (measured before the 2026-08-13 policy fix and priced across scenarios since dropped). The current measured ladder is **DEX 37/26/27/18/15/10 across the six rungs** — a one-sided stat saturates — and **STR flat at 25**, because an opposed roll cannot saturate. The flat 15 is therefore wrong in *both* directions. Both flagged in [[Full Rules System v1]] §26.1; full derivation in `docs/POINTS-CATALOGUE.md`.
 >
 > A fighter who takes **Tough** (T3 STR) at Level 6 or 10 stacks it with the Level 7 wound for **WND 3** at the ceiling. That was walked through deliberately and accepted — recorded here so the stack is visible in the rules, not just in the conversation that produced it.
 

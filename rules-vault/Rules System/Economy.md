@@ -105,7 +105,7 @@ Two other caps run on the same principle:
 Where Credits and Materials actually go:
 
 - **Materials** → structures, **upgrade tiers**, **Groundworks**, **repair at a flat 30 per structure**, research up the Fabricator ladder, crafting at the Workbench/Workshop.
-- **Credits** → rank bodies, built weapons, armour, equipment and deployables, **Levels** (15/stat point · 20/35/55 per T1/T2/T3 skill · 45 for the Level-7 wound), Chems, and **ransoming a captured fighter back at half their Credits cost** ([[Campaign]]).
+- **Credits** → rank bodies, built weapons, armour, equipment and deployables, **Levels** (15/stat point · 20/35/55 per T1/T2/T3 skill · 41 for the Level-7 wound), Chems, and **ransoming a captured fighter back at half their Credits cost** ([[Campaign]]).
 
 > [!info] The real anti-snowball valve is Crew Rating, not a tax
 > Veterans get **more expensive as they Advance** and Scars **refund nothing** ([[Progression]] · [[List Building]]). So the longer a campaign runs, the **smaller** your fielded crew gets, because your best fighters crowd out rookies on the Rating cap. That is the valve — an upkeep tax was tried, measured, and cut as both unnecessary and harmful.
@@ -126,7 +126,7 @@ Where Credits and Materials actually go:
 - [ ] Per-structure Materials costs are drafted in [[Structures]] but **untested** — HQ tiers, Med-bay and Mess Hall especially.
 - [ ] Territory **supply requirements** per cycle ([[Territory]]).
 - [ ] **Stat-point Level pricing is a known underprice** — measurement puts a stat point at **16–34 Credits** against the **15** charged, worst for STR/melee builds ([[Progression]]).
-- [ ] The **+1 WND price (45 Credits)** has no measurement behind it at all.
+- [x] The **+1 WND price** is now **41 Credits**, derived from the measured value of heavy armour (-2 on the injury roll, 41 Credits, `armour-level-n2500` 2026-08-13) - both buy the same thing, the model staying on the table longer. C-tier: derived, not measured. Was 45 with nothing behind it.
 - [ ] Whether owned gear is **also** Credit-costed to field (two-gate) or ownership replaces the cost — E2. *(Ruled in [[Full Rules System v1]] §16: stashed gear counts 0, fielded gear counts full. Confirm this closes E2.)*
 - [ ] Solo / drop-in economy tracking is undrafted ([[Solo & Co-op]]).
 

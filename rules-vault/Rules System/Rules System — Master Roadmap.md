@@ -203,7 +203,7 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [x] Exact costing: ~~ranks **5 / 8 / 16 / 24**, budget **100**~~ → **superseded 2026-08-05** by the 1000-Credit scale and **two starting tiers** (Match Play / Campaign Start). Stats & skills are still FREE — rank is the bundle.
 - [x] **Recruit** rank added — the 0-stat body that makes a swarm legally fieldable.
 - [ ] **Doctrine** layer (crew identity, 8 archetypes) — **pulled to the campaign layer.** It's a list-building / campaign mechanic, not a first-battle rule; revisit when the campaign phase is built.
-- [x] Campaign roster: ~~**+2 per Advance**~~; **scars change nothing** (veterans crowd out rookies = anti-snowball). *(The −2 scar rebate was cut 2026-08-01 — it made scarred veterans cheaper, working against the valve it sat inside. The flat +2 was replaced 2026-08-05 by the priced **10-Level track** — 15/stat point · 20/35/55 per skill tier · 45 for the Level-7 wound, **+245 Credits** for a full track — [[Progression]].)*
+- [x] Campaign roster: ~~**+2 per Advance**~~; **scars change nothing** (veterans crowd out rookies = anti-snowball). *(The −2 scar rebate was cut 2026-08-01 — it made scarred veterans cheaper, working against the valve it sat inside. The flat +2 was replaced 2026-08-05 by the priced **10-Level track** — 15/stat point · 20/35/55 per skill tier · 41 for the Level-7 wound, **+241 Credits** for a full track — [[Progression]].)*
 - [x] Anti-hero ⅓ cap **cut** — redundant at WND 1.
 - [x] Validated: **11-point spread across 8 archetypes** on a legal board → [[Crew Sim — Findings]].
 - [ ] Faction selection / buffs & nerfs at list level → socket left open in [[Factions]].

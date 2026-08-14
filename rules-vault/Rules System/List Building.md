@@ -133,7 +133,7 @@ You keep a persistent **roster** and field a **crew** to the scenario's budget e
 
 > **Each Level a fighter has gained adds its own printed Credit cost to that fighter. Scars cost nothing and refund nothing.**
 
-Levels are a **fixed track**, not a freeform spend, and each rung has a price: 15 per stat point, 20/35/55 per T1/T2/T3 skill, 45 for the Level-7 wound. A fighter who runs the whole track carries **+245 Credits** over their rank body. Full table in [[Progression#Levels — the fixed advancement track]]. *(This replaces the old flat "+2 per Advance", which was written on the retired 100-point scale.)*
+Levels are a **fixed track**, not a freeform spend, and each rung has a price: 15 per stat point, 20/35/55 per T1/T2/T3 skill, 41 for the Level-7 wound. A fighter who runs the whole track carries **+241 Credits** over their rank body. Full table in [[Progression#Levels — the fixed advancement track]]. *(This replaces the old flat "+2 per Advance", which was written on the retired 100-point scale.)*
 
 That first half is the anti-snowball valve: **veterans crowd out rookies.** The longer a campaign runs, the smaller your crew gets — the war grinds you down to a handful of hardened survivors who then can't hold enough ground. Every campaign list becomes a real question: *field my best, or field the most?* See [[Progression]] · [[Campaign]].
 
