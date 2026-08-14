@@ -42,6 +42,11 @@ NOT_A_PRICE = {
     "BANDED_DRAWBACKS", "BLOCKED_REDESIGN", "STAT_KIND", "STAT_LADDER",
     "UNPRICEABLE_MEASURED_ZERO", "OVERRIDES_MEASUREMENT", "RANGE_STEP_UNPRICED",
     "CONDITIONAL_F_PROVISIONAL", "DAMAGE_FLOOR", "RANK_ORDER",
+    # Envelope CONSTRAINTS, not prices: caps, ceilings, rank gates and per-crew
+    # limits say what is legal, never what it costs. RANGE_CREDITS is a price and
+    # is deliberately NOT in this set.
+    "DAMAGE_CAP", "CRAFTABLE_RANGE_CEILING", "LONG_RANGE_MIN_RANK",
+    "LONG_RANGE_PER_CREW",
 }
 
 TIER_MARKS = ("[A]", "[B]", "[C]", "[BLOCKED]", "[OVERRIDE]", "[PARKED]", "[measured")
@@ -175,3 +180,69 @@ def test_rank_gate_is_actually_enforced():
         assert "requires rank" in str(e)
     else:
         raise AssertionError("a Recruit was costed with a Heavy Ranged weapon")
+
+
+# --- the 24" range gate: four gates, each asserted separately ----------------
+
+def test_no_craftable_weapon_exceeds_24_inches():
+    """Gate 1 of 4. Above 24" is MANUFACTURED ONLY - loot and raid spoils, never
+    craftable at any Workshop tier. A 36" weapon fires from 12" BEHIND its own
+    deployment zone and covers the whole board; the sim measured an uncapped
+    long-range crew beating every other list by 13-30 points."""
+    from points.weapons import WeaponBuild
+    for cls, meta in ticks.CLASS_META.items():
+        band = meta["range"]
+        if band is None or band[1] <= ticks.CRAFTABLE_RANGE_CEILING:
+            continue
+        errs = WeaponBuild("probe", cls, damage=meta["damage"][0],
+                           reach=band[1]).validate()
+        assert any("MANUFACTURED" in e for e in errs), (
+            f"{cls} at {band[1]}in was accepted as craftable")
+
+
+def test_long_range_requires_specialist():
+    """Gate 3 of 4."""
+    from points.weapons import WeaponBuild, validate_carrier
+    sniper = WeaponBuild("probe", "heavy_ranged", damage=3, reach=36,
+                         manufactured=True)
+    assert validate_carrier(sniper, "fighter"), "a Fighter took a 36in weapon"
+    assert not validate_carrier(sniper, "specialist")
+
+
+def test_long_range_is_limited_to_one_per_crew():
+    """Gate 2 of 4 - the load-bearing one. The 13-30 point finding was a LIST
+    archetype; limit-1 is what destroys the archetype rather than taxing it."""
+    from points.units import Fighter, validate_crew
+    from points.weapons import WeaponBuild
+    sniper = WeaponBuild("Long Rifle", "heavy_ranged", damage=3, reach=36,
+                         manufactured=True)
+    one = [Fighter(name="A", rank=Rank.SPECIALIST, weapons=[sniper])]
+    two = one + [Fighter(name="B", rank=Rank.SPECIALIST, weapons=[sniper])]
+    assert not validate_crew(one)
+    assert validate_crew(two), "two 36in weapons in one crew were allowed"
+
+
+def test_damage_cap_moved_to_five():
+    """heavy_ranged floors at +3 and ceilings at +5; the old +4 cap would have
+    made its own envelope illegal."""
+    assert ticks.DAMAGE_CAP == 5
+    assert ticks.CLASS_META["heavy_ranged"]["damage"] == (3, 5)
+
+
+def test_class_envelopes_overlap_rather_than_tier():
+    """The flaw this replaced: class was a global damage tier, so a .22 and a
+    Magnum could not both be one-handed. Overlap is the fix, not an accident."""
+    oh = ticks.CLASS_META["one_handed_melee"]["damage"]
+    hm = ticks.CLASS_META["heavy_melee"]["damage"]
+    assert oh[1] >= hm[0], "one_handed and heavy_melee no longer overlap"
+    assert hm[1] > oh[1], "heavy_melee must reach higher than one_handed"
+    sa = ticks.CLASS_META["sidearm"]["damage"]
+    sr = ticks.CLASS_META["standard_ranged"]["damage"]
+    assert sr[0] > sa[0], "nothing shoulder-fired should be a .22"
+
+
+def test_concealable_is_cut_and_stays_cut():
+    assert "concealable" not in ticks.CHAR_CREDITS, (
+        "Concealable was cut 2026-08-14 - 'may start Hidden' is skill territory, "
+        "and Vanishing Point / Camouflage Drill already do it properly")
+    assert "quiet" in ticks.CHAR_CREDITS, "Quiet is a real axis and stays"

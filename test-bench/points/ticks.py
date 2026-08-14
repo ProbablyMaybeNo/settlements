@@ -373,25 +373,114 @@ DEPLOYMENT_PREMIUM = 15   # the 24" band, on top of the floor
 SLOT_CREDITS = 0
 
 
-def _class_credits(meta: dict) -> int:
-    """A class costs what its atoms cost. No class price is written by hand."""
-    dmg = max(0, meta["damage"] - DAMAGE_FLOOR) * CREDITS_DAMAGE
-    rng = 0
-    if meta["range"] >= 6:
-        rng += REACH_FLOOR
-    if meta["range"] >= 24:
-        rng += DEPLOYMENT_PREMIUM
-    return dmg + rng + meta["slots"] * SLOT_CREDITS
+def class_base(slots: int) -> int:
+    """What a class costs before any pick. Slots are the only class-level axis
+    left, and SLOT_CREDITS is 0 by the 2026-07-30 Cumbersome ruling: a slot is
+    opportunity cost - what you cannot also carry - not a priced feature. The
+    hook stays explicit so the ruling is visible and reversible."""
+    return slots * SLOT_CREDITS
+
+
+def damage_credits(damage: int) -> int:
+    """Damage above the free floor weapon (light_melee, +1), at the measured
+    anchor. Global, not per-class: a +3 is worth the same wherever it is bought.
+    A class with a high floor therefore cannot be bought cheap - which is the
+    point of the floor."""
+    return max(0, damage - DAMAGE_FLOOR) * CREDITS_DAMAGE
+
+
+def range_credits(inches) -> int:
+    if not inches:
+        return 0
+    if inches in RANGE_CREDITS:
+        return RANGE_CREDITS[inches]
+    # Between rungs: take the next rung down, so a non-standard reach never
+    # prices above the band it sits in.
+    below = [r for r in sorted(RANGE_CREDITS) if r <= inches]
+    return RANGE_CREDITS[below[-1]] if below else 0
+
+
+def is_long_range(inches) -> bool:
+    """Above the craftable ceiling: manufactured only, limit 1, Specialist+."""
+    return bool(inches) and inches > CRAFTABLE_RANGE_CEILING
+
+# ---------------------------------------------------------------------------
+# CLASS ENVELOPES — the class is a CONSTRAINT SET, not a price. 2026-08-14.
+#
+# THE FLAW THIS REPLACES. CLASS_META used to assign each class ONE fixed damage
+# and ONE fixed range, which made weapon class a global damage tier: a .22 pistol
+# and a Magnum could not both be one-handed, and a snub-nose and a long-barrel
+# could not both be sidearms. It also crushed the damage axis - standard_ranged,
+# heavy_melee and heavy_ranged all sat at +3 against a +4 cap, so a basic rifle,
+# a great axe and a machine gun shared a tier with one step of headroom.
+#
+# Now: the class sets the damage BAND and range BAND available; the specific
+# weapon picks inside both, and pays for what it picked.
+#
+#     weapon_cost = class_base(slots) + damage_steps x 15 + range_credits + chars
+#
+# Overlapping bands are deliberate. Heavy melee overlaps the top of one-handed
+# and reaches higher; nothing shoulder-fired is a .22, so standard_ranged floors
+# at +2; heavy ranged is inherently powerful and floors at +3.
+#
+# The damage cap moves +4 -> +5 to accommodate heavy_ranged's ceiling.
+# ---------------------------------------------------------------------------
+DAMAGE_CAP = 5
+
+# The 24" line, and why it is a gate rather than a price. Deployment zones sit
+# 24" apart, so a 24" weapon fires from its own deployment on turn one. A 36"
+# weapon fires from 12" BEHIND its deployment - it covers the whole board from a
+# square the enemy needs a round of sprinting to threaten. The sim measured an
+# uncapped long-range crew beating every other list by 13-30 points, larger than
+# any single atom in this catalogue. A threshold cannot be priced away, so
+# everything above 24" is gated FOUR ways: manufactured-only, limit 1 per crew,
+# Specialist rank, and a steeply accelerating price.
+CRAFTABLE_RANGE_CEILING = 24
+LONG_RANGE_MIN_RANK = "specialist"
+LONG_RANGE_PER_CREW = 1
 
 CLASS_META = {
-    "unarmed": {"damage": 0, "range": 0, "slots": 0, "min_rank": "recruit"},
-    "light_melee": {"damage": 1, "range": 0, "slots": 2, "min_rank": "recruit"},
-    "one_handed_melee": {"damage": 2, "range": 0, "slots": 2, "min_rank": "fighter"},
-    "heavy_melee": {"damage": 3, "range": 0, "slots": 3, "min_rank": "specialist"},
-    "thrown": {"damage": 1, "range": 6, "slots": 2, "min_rank": "recruit"},
-    "sidearm": {"damage": 2, "range": 8, "slots": 2, "min_rank": "recruit"},
-    "standard_ranged": {"damage": 3, "range": 18, "slots": 3, "min_rank": "fighter"},
-    "heavy_ranged": {"damage": 3, "range": 24, "slots": 4, "min_rank": "specialist"},
+    # damage: (min, max) inclusive. range: (min, max) in inches, or None = melee.
+    "unarmed": {
+        "damage": (0, 0), "range": None, "slots": 0, "min_rank": "recruit"},
+    "light_melee": {
+        "damage": (1, 1), "range": None, "slots": 2, "min_rank": "recruit"},
+    "one_handed_melee": {
+        "damage": (1, 3), "range": None, "slots": 2, "min_rank": "recruit"},
+    "heavy_melee": {
+        "damage": (2, 4), "range": None, "slots": 3, "min_rank": "specialist"},
+    "thrown": {
+        "damage": (1, 2), "range": (8, 8), "slots": 2, "min_rank": "recruit"},
+    "sidearm": {
+        "damage": (1, 3), "range": (6, 12), "slots": 2, "min_rank": "recruit"},
+    "standard_ranged": {
+        "damage": (2, 4), "range": (12, 36), "slots": 3, "min_rank": "fighter"},
+    "heavy_ranged": {
+        "damage": (3, 5), "range": (12, 36), "slots": 4, "min_rank": "specialist"},
+}
+
+# [OVERRIDE] the range ladder. Required fields:
+#   measured:  the 8"-24" curve is FLAT (5.75 / 5.17 / 5.34 / 4.68 wp, spread
+#              1.07 inside one SE of ~0.81). Nothing above 24" has ever been
+#              measured at all - the engine caps weapon range at 24".
+#   not trusted because: a flat curve prices every range pick at zero, and a free
+#              36" is taken by every list that may take it. The measurement
+#              describes a policy that does not exploit range, not a rule that
+#              does not matter.
+#   retires when: scenario coverage lands, or a range-exploiting policy makes the
+#              curve measurable - and the >24" band needs a NEW measurement,
+#              since the engine has never modelled it.
+# Ruled shape: gentle inside the band the sim measured, accelerating hard across
+# the 24" threshold. The 24->30 step is twice the 18->24 step, and 30->36 is
+# larger again.
+RANGE_CREDITS = {
+    6: 5,
+    8: 6,
+    12: 8,
+    18: 12,
+    24: 18,
+    30: 30,   # crosses the deployment threshold
+    36: 45,   # covers the board from behind your own zone
 }
 
 # THE CLASS TABLE. Derived, never written by hand — edit the atoms above, not
@@ -420,7 +509,12 @@ CLASS_META = {
 # re-derivation is a live open box and it changes every crew cost in the game, so
 # it is Ross's call and not smuggled in here.
 # [B] derived from the measured Damage atom plus the [OVERRIDE] range ruling.
-CLASS_CREDITS = {name: _class_credits(meta) for name, meta in CLASS_META.items()}
+CLASS_CREDITS = {
+    name: (class_base(m["slots"])
+           + damage_credits(m["damage"][0])
+           + range_credits(m["range"][0] if m["range"] else None))
+    for name, m in CLASS_META.items()
+}
 
 # ---------------------------------------------------------------------------
 # PAYLOADS & CHARACTERISTICS                         [measured 2026-08-01, M4]
@@ -524,7 +618,20 @@ CHAR_CREDITS = {
     "cleaving": 50,  # [C] retained; nearest neighbour is blast (31) as a
                      # multi-target effect, plus a damage step (15) = 46.
     "breaching": 30,  # [C] retained; no measured neighbour.
-    "concealable": 20,  # [C] retained; stealth is unmodelled (no noise system).
+    # CONCEALABLE IS CUT — 2026-08-14. Not repriced: removed.
+    #
+    # It granted "may start Hidden, or be smuggled past a search" for ~20 Cr.
+    # Both are edge cases that do nothing in a typical battle, and more
+    # importantly it BREAKS THE WEAPON DESIGN CONTRACT already written into
+    # Weapons.md: weapons do damage / range / armour / conditions / noise, and
+    # SKILLS do positioning exceptions. "May start Hidden" is skill territory,
+    # and Vanishing Point and Camouflage Drill already do it properly.
+    #
+    # Same reasoning that cut Rapid, Precision and Reliable. Listed in Weapons.md
+    # section 6 "Cut, and why" so it cannot creep back as a fresh idea.
+    #
+    # QUIET IS KEPT and is not the same thing: no-reveal / no-alarm-trip is a
+    # real mechanical axis that interacts with Hidden and the Sensor deployables.
     "quiet": 20,  # [C] retained; Loud/Quiet is engine-blocked entirely.
     "compact": 20,  # [C] retained; hands/slots are inert in the engine.
 }

@@ -56,6 +56,7 @@ def legacy_drift() -> list[dict]:
 def verify_structural() -> list[str]:
     """Invariants the costing system claims about itself, checked not asserted."""
     from .ticks import (
+        DAMAGE_CAP,
         CHAR_CREDITS,
         CLASS_CREDITS,
         CLASS_META,
@@ -105,16 +106,51 @@ def verify_structural() -> list[str]:
                 f"cost more than {name_a} ({inj_a} pts, {cost_a} Cr)"
             )
 
-    # Every class must sit in a range band, and the band must match CLASS_META.
+    # ENVELOPES, not fixed bands - rewritten 2026-08-14. A class no longer HAS a
+    # range; it has a range BAND that a specific weapon picks inside. The old
+    # check compared CLASS_RANGE_BAND against a single CLASS_META["range"] value,
+    # which stopped existing the moment the class became a constraint set.
+    from .ticks import RANGE_CREDITS, CRAFTABLE_RANGE_CEILING
     for cls, meta in CLASS_META.items():
-        band = CLASS_RANGE_BAND.get(cls)
+        dlo, dhi = meta["damage"]
+        if dlo > dhi:
+            errs.append(f"class {cls}: damage envelope inverted +{dlo}..+{dhi}")
+        if dhi > DAMAGE_CAP:
+            errs.append(f"class {cls}: damage ceiling +{dhi} exceeds the +{DAMAGE_CAP} cap")
+        band = meta["range"]
         if band is None:
-            errs.append(f"class {cls} has no range band")
-        elif RANGE_BAND[band] != meta["range"]:
+            continue
+        rlo, rhi = band
+        if rlo > rhi:
+            errs.append(f"class {cls}: range envelope inverted {rlo}-{rhi}")
+        # Every endpoint must be priceable, or a legal pick has no cost.
+        for endpoint in (rlo, rhi):
+            if endpoint not in RANGE_CREDITS:
+                errs.append(
+                    f"class {cls}: range endpoint {endpoint}\" has no entry in "
+                    "RANGE_CREDITS - a legal pick with no price")
+    # THE 24" GATE IS PER-WEAPON, NOT PER-CLASS - and this check asserts the
+    # BEHAVIOUR rather than a declaration. standard_ranged spans 12"-36" with a
+    # min_rank of fighter, which is correct: an 18" rifle is Fighter kit and a
+    # 36" one is not. A first version of this check demanded the CLASS be
+    # Specialist-gated and failed standard_ranged - it was testing the wrong
+    # object. What matters is that a long build is actually REFUSED to a Fighter.
+    from .weapons import WeaponBuild, validate_carrier
+    for cls, meta in CLASS_META.items():
+        band = meta["range"]
+        if band is None or band[1] <= CRAFTABLE_RANGE_CEILING:
+            continue
+        probe = WeaponBuild(f"<gate probe {cls}>", cls, damage=meta["damage"][0],
+                            reach=band[1], manufactured=True)
+        if not validate_carrier(probe, "fighter"):
             errs.append(
-                f"class {cls}: band {band} is {RANGE_BAND[band]}\" but "
-                f"CLASS_META says {meta['range']}\""
-            )
+                f"class {cls} can reach {band[1]}\" and a fighter was NOT refused - "
+                f"the Specialist gate past {CRAFTABLE_RANGE_CEILING}\" is not enforced")
+        if not WeaponBuild(f"<craft probe {cls}>", cls, damage=meta["damage"][0],
+                           reach=band[1]).validate():
+            errs.append(
+                f"class {cls} can reach {band[1]}\" and a CRAFTABLE build was not "
+                "refused - the manufactured-only gate is not enforced")
 
     # A refund must refund, and must never exceed the class it refunds against.
     for cls, refund in SHORT_RANGE_REFUND.items():
@@ -128,7 +164,7 @@ def verify_structural() -> list[str]:
 
     # The refund must be monotonic in what is actually lost: a longer-ranged
     # class must never get back less than a shorter-ranged one.
-    ordered = sorted(SHORT_RANGE_REFUND, key=lambda c: RANGE_BAND[CLASS_RANGE_BAND[c]])
+    ordered = sorted(SHORT_RANGE_REFUND, key=lambda c: CLASS_META[c]["range"][1])
     for a, b in zip(ordered, ordered[1:]):
         if SHORT_RANGE_REFUND[b] > SHORT_RANGE_REFUND[a]:
             errs.append(

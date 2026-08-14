@@ -9,8 +9,14 @@ from .ticks import (
     CHAR_CREDITS,
     CLASS_CREDITS,
     CLASS_META,
+    DAMAGE_CAP,
     DRAWBACK_CREDITS,
+    LONG_RANGE_MIN_RANK,
     SHORT_RANGE_REFUND,
+    class_base,
+    damage_credits,
+    is_long_range,
+    range_credits,
 )
 
 
@@ -28,10 +34,30 @@ def drawback_points(drawback: str, weapon_class: str) -> int:
 
 @dataclass(frozen=True)
 class WeaponBuild:
+    """A specific weapon, not a class.
+
+    `damage` and `reach` are PICKS inside the class envelope. Leaving them None
+    takes the class floor, which is what every pre-envelope build did implicitly.
+    """
     name: str
     weapon_class: str
     characteristics: tuple[str, ...] = ()
     drawbacks: tuple[str, ...] = ()
+    damage: int | None = None
+    reach: int | None = None          # inches; None = melee or class floor
+    manufactured: bool = False        # loot/raid spoils, not craftable
+
+    def _meta(self) -> dict:
+        return CLASS_META[self.weapon_class]
+
+    def picked_damage(self) -> int:
+        return self._meta()["damage"][0] if self.damage is None else self.damage
+
+    def picked_reach(self):
+        band = self._meta()["range"]
+        if band is None:
+            return None
+        return band[0] if self.reach is None else self.reach
 
     def validate(self) -> list[str]:
         errs: list[str] = []
@@ -39,6 +65,35 @@ class WeaponBuild:
             errs.append(f"unknown class {self.weapon_class!r}")
             return errs
         meta = CLASS_META[self.weapon_class]
+
+        # --- the envelope: damage and reach must sit inside the class band ---
+        lo, hi = meta["damage"]
+        d = self.picked_damage()
+        if not (lo <= d <= hi):
+            errs.append(f"{self.name}: damage +{d} outside {self.weapon_class} "
+                        f"envelope +{lo}..+{hi}")
+        band = meta["range"]
+        r = self.picked_reach()
+        if band is None:
+            if self.reach:
+                errs.append(f"{self.name}: {self.weapon_class} is melee, no reach")
+        else:
+            rlo, rhi = band
+            if r is None or not (rlo <= r <= rhi):
+                errs.append(f"{self.name}: reach {r}\" outside {self.weapon_class} "
+                            f"envelope {rlo}\"-{rhi}\"")
+
+        # --- the 24" gate. Manufactured-only is enforced here; limit-1-per-crew
+        # and the Specialist rank gate are enforced where a crew and a carrier
+        # exist (units.crew_rating / validate_carrier), because a catalogue entry
+        # has neither. ---
+        if is_long_range(r) and not self.manufactured:
+            errs.append(
+                f"{self.name}: {r}\" exceeds the craftable ceiling - "
+                "weapons past 24\" are MANUFACTURED only (loot and raid spoils), "
+                "never craftable at any Workshop tier"
+            )
+
         if len(self.characteristics) > meta["slots"]:
             errs.append(
                 f"{self.name}: {len(self.characteristics)} chars > {meta['slots']} slots"
@@ -55,9 +110,9 @@ class WeaponBuild:
                 errs.append(
                     f"{self.name}: {d} on {self.weapon_class} - no range to halve"
                 )
-        dmg = meta["damage"] + (1 if "brutal" in self.characteristics else 0)
-        if dmg > 4:
-            errs.append(f"{self.name}: damage {dmg} exceeds +4 cap")
+        dmg = self.picked_damage() + (1 if "brutal" in self.characteristics else 0)
+        if dmg > DAMAGE_CAP:
+            errs.append(f"{self.name}: damage {dmg} exceeds +{DAMAGE_CAP} cap")
         if "brutal" in self.characteristics and self.weapon_class in {
             "sidearm",
             "standard_ranged",
@@ -92,18 +147,29 @@ def can_carry(weapon_class: str, rank: str) -> bool:
 
 def validate_carrier(build: "WeaponBuild", rank: str) -> list[str]:
     """Errors from putting this weapon on a fighter of `rank`."""
+    errs = []
     if not can_carry(build.weapon_class, rank):
         need = CLASS_META[build.weapon_class]["min_rank"]
-        return [f"{build.name}: {build.weapon_class} requires rank {need}, "
-                f"carrier is {rank}"]
-    return []
+        errs.append(f"{build.name}: {build.weapon_class} requires rank {need}, "
+                    f"carrier is {rank}")
+    # Gate 3 of 4 on the 24" line: rank. A weapon that covers the board from
+    # behind its own deployment zone is a Specialist's tool, not standard kit.
+    if is_long_range(build.picked_reach()):
+        if RANK_ORDER.index(rank) < RANK_ORDER.index(LONG_RANGE_MIN_RANK):
+            errs.append(
+                f"{build.name}: {build.picked_reach()}\" exceeds 24\" and requires "
+                f"rank {LONG_RANGE_MIN_RANK}, carrier is {rank}")
+    return errs
 
 
 def weapon_cost(build: WeaponBuild) -> int:
     errs = build.validate()
     if errs:
         raise ValueError("; ".join(errs))
-    total = CLASS_CREDITS[build.weapon_class]
+    meta = CLASS_META[build.weapon_class]
+    total = class_base(meta["slots"])
+    total += damage_credits(build.picked_damage())
+    total += range_credits(build.picked_reach())
     total += sum(CHAR_CREDITS[c] for c in build.characteristics)
     total += sum(drawback_points(d, build.weapon_class) for d in build.drawbacks)
     return total

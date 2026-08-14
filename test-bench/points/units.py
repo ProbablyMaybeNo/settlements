@@ -117,5 +117,21 @@ def fielded_cost(fighter: Fighter) -> int:
     return total
 
 
+def validate_crew(fighters: list[Fighter]) -> list[str]:
+    """Crew-level legality. Gate 2 of 4 on the 24" line lives here, because
+    "limit 1 per crew" is the only one of the four that cannot be checked on a
+    single weapon or a single fighter."""
+    from .ticks import LONG_RANGE_PER_CREW, is_long_range
+
+    errs = []
+    long_guns = [(f.name, w.name) for f in fighters for w in f.weapons
+                 if is_long_range(w.picked_reach())]
+    if len(long_guns) > LONG_RANGE_PER_CREW:
+        errs.append(
+            f"{len(long_guns)} weapons over 24\" - limit is {LONG_RANGE_PER_CREW} "
+            f"per crew: " + ", ".join(f"{w} ({f})" for f, w in long_guns))
+    return errs
+
+
 def crew_rating(fighters: list[Fighter]) -> int:
     return sum(fielded_cost(f) for f in fighters)
