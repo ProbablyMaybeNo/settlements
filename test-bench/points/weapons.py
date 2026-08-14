@@ -69,6 +69,36 @@ class WeaponBuild:
         return errs
 
 
+RANK_ORDER = ("recruit", "fighter", "specialist", "leader")
+
+
+def can_carry(weapon_class: str, rank: str) -> bool:
+    """Is `rank` allowed this class? CLASS_META has declared a min_rank for all
+    eight classes since the table was written and NOTHING HAS EVER READ IT.
+
+    That is not cosmetic. Every gear:body ratio in the catalogue is measured
+    against "the cheapest body legally able to carry this", so an unenforced gate
+    means the denominator in the founding-bug check was itself unverified — a
+    Recruit could be costed with a Heavy Ranged and nothing objected.
+    """
+    meta = CLASS_META.get(weapon_class)
+    if meta is None:
+        raise ValueError(f"unknown class {weapon_class!r}")
+    min_rank = meta.get("min_rank", "recruit")
+    if rank not in RANK_ORDER:
+        raise ValueError(f"unknown rank {rank!r}")
+    return RANK_ORDER.index(rank) >= RANK_ORDER.index(min_rank)
+
+
+def validate_carrier(build: "WeaponBuild", rank: str) -> list[str]:
+    """Errors from putting this weapon on a fighter of `rank`."""
+    if not can_carry(build.weapon_class, rank):
+        need = CLASS_META[build.weapon_class]["min_rank"]
+        return [f"{build.name}: {build.weapon_class} requires rank {need}, "
+                f"carrier is {rank}"]
+    return []
+
+
 def weapon_cost(build: WeaponBuild) -> int:
     errs = build.validate()
     if errs:

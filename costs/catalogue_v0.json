@@ -58,33 +58,33 @@
     {
       "name": "Crowbar",
       "class": "one_handed_melee",
-      "class_points": 40,
+      "class_points": 15,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
         "breaching": 30
       },
       "drawbacks": {},
-      "total": 70,
+      "total": 45,
       "legacy_expected": 70,
-      "legacy_delta": 0
+      "legacy_delta": -25
     },
     {
       "name": "Great Axe",
       "class": "heavy_melee",
-      "class_points": 80,
+      "class_points": 30,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {},
       "drawbacks": {},
-      "total": 80,
+      "total": 30,
       "legacy_expected": 80,
-      "legacy_delta": 0
+      "legacy_delta": -50
     },
     {
       "name": "Sledgehammer",
       "class": "heavy_melee",
-      "class_points": 80,
+      "class_points": 30,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
@@ -92,14 +92,14 @@
         "breaching": 30
       },
       "drawbacks": {},
-      "total": 112,
+      "total": 62,
       "legacy_expected": 140,
-      "legacy_delta": -28
+      "legacy_delta": -78
     },
     {
       "name": "Fire Axe",
       "class": "heavy_melee",
-      "class_points": 80,
+      "class_points": 30,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
@@ -107,14 +107,14 @@
         "bleeding": 35
       },
       "drawbacks": {},
-      "total": 130,
+      "total": 80,
       "legacy_expected": 160,
-      "legacy_delta": -30
+      "legacy_delta": -80
     },
     {
       "name": "Reaping Hook",
       "class": "heavy_melee",
-      "class_points": 80,
+      "class_points": 30,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
@@ -122,26 +122,26 @@
         "defensive": 30
       },
       "drawbacks": {},
-      "total": 160,
+      "total": 110,
       "legacy_expected": 160,
-      "legacy_delta": 0
+      "legacy_delta": -50
     },
     {
       "name": "Pistol",
       "class": "sidearm",
-      "class_points": 40,
+      "class_points": 20,
       "range_band": "close",
       "range_inches": 8,
       "characteristics": {},
       "drawbacks": {},
-      "total": 40,
+      "total": 20,
       "legacy_expected": 40,
-      "legacy_delta": 0
+      "legacy_delta": -20
     },
     {
       "name": "Pipe Shotgun",
       "class": "standard_ranged",
-      "class_points": 100,
+      "class_points": 35,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
@@ -149,60 +149,60 @@
         "spread": 18
       },
       "drawbacks": {
-        "short_range": -30,
-        "unstable": -20
+        "short_range": -10,
+        "unstable": -5
       },
-      "total": 83,
+      "total": 53,
       "legacy_expected": 120,
-      "legacy_delta": -37
+      "legacy_delta": -67
     },
     {
       "name": "Assault Rifle",
       "class": "standard_ranged",
-      "class_points": 100,
+      "class_points": 35,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
         "accurate": 18
       },
       "drawbacks": {},
-      "total": 118,
+      "total": 53,
       "legacy_expected": 130,
-      "legacy_delta": -12
+      "legacy_delta": -77
     },
     {
       "name": "Nailgun",
       "class": "standard_ranged",
-      "class_points": 100,
+      "class_points": 35,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
         "bleeding": 35
       },
       "drawbacks": {},
-      "total": 135,
+      "total": 70,
       "legacy_expected": 140,
-      "legacy_delta": -5
+      "legacy_delta": -70
     },
     {
       "name": "Grandpa's Hunting Rifle",
       "class": "standard_ranged",
-      "class_points": 100,
+      "class_points": 35,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
         "accurate": 18,
-        "long_range": 60
+        "long_range": 15
       },
       "drawbacks": {},
-      "total": 178,
+      "total": 68,
       "legacy_expected": 190,
-      "legacy_delta": -12
+      "legacy_delta": -122
     },
     {
       "name": "Squad Machine Gun",
       "class": "heavy_ranged",
-      "class_points": 160,
+      "class_points": 50,
       "range_band": "deployment",
       "range_inches": 24,
       "characteristics": {
@@ -210,14 +210,14 @@
         "armour_piercing": 10
       },
       "drawbacks": {},
-      "total": 208,
+      "total": 98,
       "legacy_expected": 220,
-      "legacy_delta": -12
+      "legacy_delta": -122
     },
     {
       "name": "Makeshift Flamethrower",
       "class": "heavy_ranged",
-      "class_points": 160,
+      "class_points": 50,
       "range_band": "deployment",
       "range_inches": 24,
       "characteristics": {
@@ -225,17 +225,17 @@
         "blast": 31
       },
       "drawbacks": {
-        "short_range": -70,
-        "single_use": -20
+        "short_range": -15,
+        "single_use": -5
       },
-      "total": 124,
+      "total": 84,
       "legacy_expected": 150,
-      "legacy_delta": -26
+      "legacy_delta": -66
     },
     {
       "name": "Molotov",
       "class": "thrown",
-      "class_points": 40,
+      "class_points": 5,
       "range_band": "thrown",
       "range_inches": 6,
       "characteristics": {
@@ -243,58 +243,58 @@
         "blast": 31
       },
       "drawbacks": {
-        "single_use": -20
+        "single_use": -5
       },
-      "total": 74,
+      "total": 54,
       "legacy_expected": 90,
-      "legacy_delta": -16
+      "legacy_delta": -36
     },
     {
       "name": "Smoke Grenade",
       "class": "thrown",
-      "class_points": 40,
+      "class_points": 5,
       "range_band": "thrown",
       "range_inches": 6,
       "characteristics": {
         "smoke": 30
       },
       "drawbacks": {
-        "single_use": -20
+        "single_use": -5
       },
-      "total": 50,
+      "total": 30,
       "legacy_expected": 50,
-      "legacy_delta": 0
+      "legacy_delta": -20
     }
   ],
   "design_examples": [
     {
       "name": "Auto Rifle +Fire",
       "class": "standard_ranged",
-      "class_points": 100,
+      "class_points": 35,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
         "incendiary": 23
       },
       "drawbacks": {},
-      "total": 123
+      "total": 58
     },
     {
       "name": "Machete +Shock",
       "class": "one_handed_melee",
-      "class_points": 40,
+      "class_points": 15,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
         "shocking": 5
       },
       "drawbacks": {},
-      "total": 45
+      "total": 20
     },
     {
       "name": "Brutal Machete +Shock",
       "class": "one_handed_melee",
-      "class_points": 40,
+      "class_points": 15,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
@@ -302,7 +302,7 @@
         "shocking": 5
       },
       "drawbacks": {},
-      "total": 60
+      "total": 35
     }
   ],
   "structures": [

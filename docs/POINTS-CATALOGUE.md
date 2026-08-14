@@ -163,6 +163,51 @@ structure predicted that before it was measured.
 
 ### Weapons
 
+### Weapon classes — the hard gate, closed 2026-08-14
+
+**These were `# Weapon classes — legacy ×10` from the start of the project until
+today.** They are the reason the rebuild exists: a rifle cost **100** and the
+Fighter carrying it cost **95**.
+
+**The old blocker was invalid.** The stated reason for leaving them was that the
+lower range steps couldn't be separated from Damage and Hands — an argument that
+ran algebra on the `sidearm 40` / `standard_ranged 100` gap. *Those are the
+known-bad legacy numbers the rebuild exists to replace.* Solving for an unknown
+with untrusted inputs gives an untrusted output. The table could never have been
+fixed from inside itself.
+
+So classes are now **built from atoms**, like bodies and armour: damage at the
+measured 15/step counted above the free floor weapon, plus a ruled range term.
+
+| Class | Damage | Range | **Cr** | Cheapest carrier | Ratio |
+|---|:--:|:--:|:--:|---|:--:|
+| unarmed | 0 | — | **0** | — | — |
+| light_melee | 1 | — | **0** | recruit 65 | free floor |
+| thrown | 1 | 6″ | **5** | recruit 65 | 8% |
+| one_handed_melee | 2 | — | **15** | fighter 95 | 16% |
+| sidearm | 2 | 8″ | **20** | recruit 65 | 31% ✅ |
+| heavy_melee | 3 | — | **30** | specialist 165 | 18% ✅ |
+| **standard_ranged** | 3 | 18″ | **35** | **fighter 95** | **37%** ⚠ |
+| heavy_ranged | 3 | 24″ | **50** | specialist 165 | 30% ✅ |
+
+**A rifle now costs 35 against a 95-Credit Fighter.** That single line is what
+the rebuild was commissioned to fix.
+
+Knock-on across the sample armoury: Assault Rifle **130 → 53**, Hunting Rifle
+**190 → 68**, Pistol **40 → 20**. Fourteen of sixteen weapons moved; the armoury
+total fell **1780 → 897**.
+
+> **The one row still above the target band, stated rather than tuned away.**
+> `standard_ranged` sits at 37% — under the 40% hard cap, over the 33% target. It
+> **cannot** be brought down by pricing range lower: its Damage 3 alone is 2 steps
+> × 15 = 30 Cr, already 32% of a 95-Credit Fighter. **The constrained side is the
+> body scale, not the weapon.** Bodies still use the flat legacy `TICK_STAT = 15`;
+> on the *measured* stat ladder a Fighter is ~183 Cr and the same rifle lands at
+> **19%**, comfortably in band. That re-derivation changes every crew cost in the
+> game, so it is a live open box and Ross's call — not smuggled in here.
+
+### Weapon atoms
+
 | Atom | Value | Tier | Source |
 |---|---|:--:|---|
 | +1 Damage | **15 Cr** | **A** | the anchor itself |

@@ -135,6 +135,9 @@ CREDITS_STRESS = 7
 # f = 0.8 ("most activations") is a judgement band, NOT measured. Measuring f per
 # trait is Milestone 4's job; until then every conditional to-hit trait sits here.
 CONDITIONAL_F_PROVISIONAL = 0.8
+# [C] DERIVATION: the unconditional to-hit price x CONDITIONAL_F_PROVISIONAL.
+# f = 0.8 is a judgement band, not a measurement - measuring f per trait was
+# Milestone 4's job and never happened.
 CREDITS_TO_HIT_CONDITIONAL = 18  # round(22 * 0.8) = 17.6 -> 18  [provisional]
 
 # +1 Armour measured at 1.0089x damage (1D) and 0.9756x (2.5D) — both engines
@@ -278,10 +281,19 @@ ORDER_PREMIUM = {0: 0, 1: 40, 2: 90}
 # that turns out strong is a table-testing correction, an expensive one that
 # turns out weak never gets taken and is never observed.
 # ---------------------------------------------------------------------------
+# [C] Derived from measured atoms of comparable effect size - see the band
+# scheme and placement rule documented above.
 SKILL_TIER_CREDITS = {1: 20, 2: 35, 3: 55}
 
 # Structure Materials derivation
+# [PARKED] MATERIALS AXIS. Not measured, not derived, and deliberately NOT
+# attempted: every figure below prices off a base gatherer rate that is not
+# computable - D23 prices structures by payback and the denominator is stated
+# nowhere. That is a design decision of Ross's, not a measurement, so these are
+# parked rather than tagged C. PARKED is a legitimate terminal state; LEGACY is
+# not. Do not derive downstream numbers from these until the rate is ruled.
 POWER_MAT = 15
+# [PARKED] Materials axis - see POWER_MAT.
 FOOTPRINT_BAND = {
     "station": 25,
     "plant": 40,
@@ -290,6 +302,7 @@ FOOTPRINT_BAND = {
     "line": 25,
     "yard": 40,
 }
+# [PARKED] Materials axis - see POWER_MAT.
 ROLE_BAND = {
     "sustain": 0,
     "gatherer": 25,
@@ -298,20 +311,77 @@ ROLE_BAND = {
     "recover": 30,
     "defend": 45,
 }
+# [PARKED] Materials axis - see POWER_MAT.
 UPGRADE_MULT = {2: 1.60, 3: 1.75}
+# [PARKED] Materials axis - see POWER_MAT.
 GROUNDWORKS_MAT = {1: 120, 2: 200}
 
-# Weapon classes — legacy ×10
-CLASS_CREDITS = {
-    "unarmed": 0,
-    "light_melee": 0,
-    "one_handed_melee": 40,
-    "heavy_melee": 80,
-    "thrown": 40,
-    "sidearm": 40,
-    "standard_ranged": 100,
-    "heavy_ranged": 160,
-}
+# ---------------------------------------------------------------------------
+# WEAPON CLASSES — BUILT UP FROM ATOMS, 2026-08-14. THE HARD GATE, CLOSED.
+#
+# These were `# Weapon classes — legacy ×10` from the beginning of the project to
+# this line. They are the reason the rebuild was commissioned: a Standard Ranged
+# rifle cost 100 Credits and the Fighter carrying it cost 95.
+#
+# THE OLD BLOCKER WAS INVALID, and naming why matters more than the numbers.
+# The stated reason for leaving classes alone was that the lower range steps
+# could not be separated from Damage and Hands without new measurement - the
+# argument ran algebra on the sidearm-40 / standard-ranged-100 gap to solve for
+# what range was worth. BOTH OF THOSE ARE THE KNOWN-BAD LEGACY FIGURES THE
+# REBUILD EXISTS TO REPLACE. Solving for an unknown using untrusted inputs
+# produces an untrusted output however careful the arithmetic. The table could
+# never have been fixed from inside itself.
+#
+# So classes are now BUILT, exactly as bodies and armour were: state the atoms,
+# price each one, let the class fall out. Nothing here is asserted.
+#
+#   damage   [B]  15 Cr per step, the measured anchor, counted ABOVE Damage 1.
+#                 Damage 1 is light_melee - a bat - which is the free floor
+#                 weapon everyone may carry. A class is priced for what it adds
+#                 to that, not for existing.
+#   reach    [OVERRIDE]  a flat floor for having any usable range at all.
+#   deploy   [OVERRIDE]  a premium for reaching the 24" deployment band.
+#   slots    [OVERRIDE]  zero. Slots are opportunity cost, not a priced feature -
+#                 the 2026-07-30 Cumbersome decision already established this:
+#                 "its real cost is the SLOT count: 4 against Standard Ranged's
+#                 3 - opportunity, not penalty."
+# ---------------------------------------------------------------------------
+DAMAGE_FLOOR = 1          # light_melee. A class pays for damage ABOVE this.
+
+# [OVERRIDE] range. Required fields per the shipping standard:
+#   measured:  the 8"-24" curve is FLAT (5.75 / 5.17 / 5.34 / 4.68 wp, whole
+#              spread 1.07 inside one SE of ~0.81), and the melee->ranged step is
+#              enormous (2.53 wp at 6", 7.87-10.93 wp at 18").
+#   not trusted because: BOTH readings are unusable as prices. The flat top half
+#              measures a policy that does not exploit range. The huge bottom
+#              step measures ARMED vs UNARMED - a comparison no player ever makes,
+#              since every model carries something. Paying it would put a rifle
+#              at 195-271 Cr against a 95 Cr Fighter, i.e. the founding bug again
+#              with a measurement stapled to it.
+#   retires when: scenario coverage lands, or a range-exploiting policy makes the
+#              curve measurable honestly. Then re-derive from RANGE_BAND.
+# The ruled shape: one flat floor for having reach, one premium for the band that
+# creates the known degeneracy (firing from your own deployment zone on turn one,
+# measured at a 13-30 point edge).
+REACH_FLOOR = 5           # any weapon with range >= 6"
+# [OVERRIDE] see the range ruling above: measured, not trusted, retires when
+# scenario coverage lands.
+DEPLOYMENT_PREMIUM = 15   # the 24" band, on top of the floor
+# [OVERRIDE] slots are opportunity cost, not a priced feature - the 2026-07-30
+# Cumbersome decision. Measured: nothing, `two_handed` is inert in the engine.
+# Retires when hands/slots become a live mechanic the sim can read.
+SLOT_CREDITS = 0
+
+
+def _class_credits(meta: dict) -> int:
+    """A class costs what its atoms cost. No class price is written by hand."""
+    dmg = max(0, meta["damage"] - DAMAGE_FLOOR) * CREDITS_DAMAGE
+    rng = 0
+    if meta["range"] >= 6:
+        rng += REACH_FLOOR
+    if meta["range"] >= 24:
+        rng += DEPLOYMENT_PREMIUM
+    return dmg + rng + meta["slots"] * SLOT_CREDITS
 
 CLASS_META = {
     "unarmed": {"damage": 0, "range": 0, "slots": 0, "min_rank": "recruit"},
@@ -323,6 +393,34 @@ CLASS_META = {
     "standard_ranged": {"damage": 3, "range": 18, "slots": 3, "min_rank": "fighter"},
     "heavy_ranged": {"damage": 3, "range": 24, "slots": 4, "min_rank": "specialist"},
 }
+
+# THE CLASS TABLE. Derived, never written by hand — edit the atoms above, not
+# these. Resulting prices, against the cheapest body legally able to carry each
+# (the calibration constraint: a common weapon should run ~17-33% of its carrier,
+# and anything above ~40% fails outright):
+#
+#   unarmed             0            —
+#   light_melee         0            the free floor weapon
+#   one_handed_melee   15   fighter 95      16%
+#   heavy_melee        30   specialist 165  18%
+#   thrown              5   recruit 65       8%
+#   sidearm            20   recruit 65      31%
+#   standard_ranged    35   fighter 95      37%   <- above target, under the cap
+#   heavy_ranged       50   specialist 165  30%
+#
+# A RIFLE NOW COSTS 35 AGAINST A 95-CREDIT FIGHTER. It was 100 against 95. That
+# single line is what the rebuild was commissioned to fix.
+#
+# THE ONE ROW STILL ABOVE THE TARGET BAND, stated rather than tuned away:
+# standard_ranged sits at 37%. It cannot be brought under 33% by pricing range
+# lower, because its Damage 3 alone is 2 steps x 15 = 30 Cr, which is already 32%
+# of a 95-Credit Fighter. THE CONSTRAINED SIDE IS THE BODY SCALE, NOT THE WEAPON.
+# Bodies are still on the flat legacy TICK_STAT=15; on the MEASURED stat ladder a
+# Fighter is ~183 Cr and the same rifle lands at 19%, comfortably in band. That
+# re-derivation is a live open box and it changes every crew cost in the game, so
+# it is Ross's call and not smuggled in here.
+# [B] derived from the measured Damage atom plus the [OVERRIDE] range ruling.
+CLASS_CREDITS = {name: _class_credits(meta) for name, meta in CLASS_META.items()}
 
 # ---------------------------------------------------------------------------
 # PAYLOADS & CHARACTERISTICS                         [measured 2026-08-01, M4]
@@ -414,9 +512,12 @@ CHAR_CREDITS = {
     # is a KNOWN degenerate: the sim measured a 13-30 point edge for a list that
     # can fire from its own deployment on turn one.
     #
-    # Retained at 60 until scenario coverage or a range-exploiting policy can
-    # measure it honestly. See OVERRIDES_MEASUREMENT below.
-    "long_range": 60,
+    # Now DEPLOYMENT_PREMIUM (15), not a free-standing 60: buying Long Range on
+    # a Standard Ranged weapon moves it into the 24" band, so it must cost
+    # exactly what the class table charges for that band or a player can buy the
+    # same reach at two different prices. Was 60 against a 100-Credit class;
+    # the class is now 35 and the premium scales with it.
+    "long_range": DEPLOYMENT_PREMIUM,
     "balanced": 20,  # [C] retained; no measured neighbour.
     "defensive": 30,  # [C] retained; nearest measured neighbour is light armour
                       # (24), which is the same shape of effect. Within rounding.
@@ -584,7 +685,12 @@ CLASS_RANGE_BAND = {
 
 # Priced steps between adjacent bands.
 RANGE_STEP_CREDITS = {
-    # [derived twice, independently, from this file]
+    # [OVERRIDE] 2026-08-14: this is now DEPLOYMENT_PREMIUM, and the identity it
+    # used to "verify" was circular — (a) and (b) below were the same legacy
+    # number read twice, so the check confirmed arithmetic and never a price.
+    # It is now genuinely derived: the class table computes heavy_ranged from
+    # standard_ranged + DEPLOYMENT_PREMIUM, and CHAR_CREDITS["long_range"] is
+    # that same constant, so the identity holds BECAUSE both come from one atom.
     #   (a) CHAR_CREDITS["long_range"] == 60
     #   (b) CLASS_CREDITS["heavy_ranged"] 160
     #       == CLASS_CREDITS["standard_ranged"] 100 + long_range 60
@@ -593,7 +699,7 @@ RANGE_STEP_CREDITS = {
     # the SLOT count: 4 against Standard Ranged's 3 — opportunity, not penalty.
     # Cumbersome remains available as an OPT-IN drawback in DRAWBACK_CREDITS.
     # verify.verify_structural() checks (b) still holds.
-    ("effective", "deployment"): 60,
+    ("effective", "deployment"): DEPLOYMENT_PREMIUM,
 }
 
 # The lower steps are UNPRICED, not zero and not estimated. They cannot be read
@@ -613,20 +719,35 @@ RANGE_STEP_UNPRICED = (
 # Short Range halves a weapon's range, so its refund must scale with what is
 # actually lost — a flat -30 handed back a 24"->12" collapse for the same money
 # as an 18"->9" one. Banded by class:
+# [C] RESCALED 2026-08-14 with the class table. DERIVATION: a refund must be a
+# fraction of the thing it refunds, and these were set against classes of 40-160.
+# Against the derived classes (5-50) a -70 refund exceeded the entire weapon,
+# which would have paid a player to take Short Range on a Heavy Ranged. Each
+# refund is now the band premium the weapon actually drops out of, floored so no
+# weapon can price below its own damage:
+#   heavy_ranged  loses the 24" deployment band entirely  -> -DEPLOYMENT_PREMIUM
+#   standard_ranged  18" -> 9", keeps reach, loses reach headroom -> -2/3 of it
+#   sidearm / thrown  fall below the 6" reach floor -> -REACH_FLOOR
 SHORT_RANGE_REFUND = {
-    "thrown": -20,  # 6" -> 3"; was below both thresholds already
-    "sidearm": -20,  # 8" -> 4"; was below both thresholds already
-    "standard_ranged": -30,  # 18" -> 9"; loses the turn-one threshold
-    "heavy_ranged": -70,  # 24" -> 12"; loses the deployment threshold entirely
+    "thrown": -5,  # 6" -> 3"; drops below the reach floor
+    "sidearm": -5,  # 8" -> 4"; drops below the reach floor
+    "standard_ranged": -10,  # 18" -> 9"; keeps reach, loses the turn-one threshold
+    "heavy_ranged": -15,  # 24" -> 12"; loses the deployment band entirely
 }
 
-# Drawbacks — legacy ×10 (negative = refund).
+# [C] Drawbacks. RESCALED 2026-08-14 for the same reason as SHORT_RANGE_REFUND —
+# these were legacy ×10 set against 40-160 Credit classes, and a -30 refund
+# against a 15-Credit one_handed_melee pays the player to take the drawback.
+# DERIVATION: held at the same fraction of a class price they carried before
+# (roughly a third of a standard_ranged), which preserves their relative order —
+# slow is the worst, the other three are comparable — without inventing a new
+# ranking nothing has measured. None has ever been measured; all remain C.
 # short_range is NOT here: it is banded by class, see SHORT_RANGE_REFUND.
 DRAWBACK_CREDITS = {
-    "slow": -30,
-    "unstable": -20,
-    "cumbersome": -20,
-    "single_use": -20,  # renamed from "limited" 2026-07-31
+    "slow": -10,
+    "unstable": -5,
+    "cumbersome": -5,
+    "single_use": -5,  # renamed from "limited" 2026-07-31
 }
 
 BANDED_DRAWBACKS = frozenset({"short_range"})
@@ -690,12 +811,68 @@ ARMOUR_INJURY = {
     "heavy": -2,
 }
 
+# [C] Hacking gear. DERIVATION: sells +1 / +2 on the Interact test. Against the
+# measured to-hit atom (22 Cr per +1) these price at 40 Cr per +1, i.e. 1.8x -
+# and INT is worth nothing in a scenario with no claim step. Retained pending a
+# measured INT ladder; flagged by consistency.check_equipment_vs_measured_primitive.
 HACK_GEAR_CREDITS = {
     "bare": 0,
     "breach_kit": 40,
     "exploit_suite": 80,
 }
 
+# ---------------------------------------------------------------------------
+# DEPLOYABLES — ON THE GEAR SCALE AT LAST                          [C, derived]
+#
+# These had ZERO entries in this file. They lived only in the rules text at
+# Full Rules System v1 sec 12.6, converted x10 from an older list onto the BODY
+# scale — which is failure mode A exactly: a sub-system priced against a
+# different scale and never reconciled. `consistency.check_deployables_scale`
+# has been failing on them continuously: 8 of 9 exceeded a Fighter body, worst
+# was a Burst Turret at 180 Cr = 189% OF THE MODEL DEPLOYING IT.
+#
+# DERIVATION, stated because a C price without one is the defect this rebuild
+# exists to remove. A turret is a weapon that fires without a body attached, so
+# its natural neighbour is THE WEAPON CLASS IT MOUNTS:
+#
+#   + it acts every round without spending anyone's activation   (premium)
+#   - it cannot move, so it holds one firing lane only           (discount)
+#   - it can be shot and destroyed; the Credits do not come back (discount)
+#   - deploying it costs an activation up front                  (discount)
+#
+# Ruled: the persistence premium and the immobility/destructibility discounts
+# CANCEL, so a deployable prices at the weapon class it mounts. That is a
+# judgment, not a measurement — the engine has turrets (`deploy_turret`,
+# `shoot_turret`) but the only turret figure on record is contaminated (`run.py`
+# credited side A half the draws; the real edge was ~1.6 points, not ~7.8).
+#
+# Every entry is then held under the gear:body hard cap, since a deployable is
+# carried to the table by a model like any other kit.
+# ---------------------------------------------------------------------------
+_SIDEARM = 20        # CLASS_CREDITS["sidearm"]
+_RIFLE = 35          # CLASS_CREDITS["standard_ranged"]
+
+# [C] derived from the weapon class each mounts - see the derivation above.
+DEPLOYABLE_CREDITS = {
+    # one-shot effects: priced under a mounted weapon because they fire once
+    "trip_wire": 10,             # no damage; delays and reveals
+    "proximity_mine": 15,        # single_use blast, no firing lane
+    "munitions_beacon": 15,      # supplies, no attack
+    "revive_beacon": 20,         # recovery, no attack
+    # turrets: the weapon they mount
+    "autoturret": _SIDEARM,      # 20 — a sidearm on a tripod
+    "sniper_turret": _RIFLE,     # 35 — a rifle on a tripod
+    "blast_turret": 30,          # rifle profile, blast pattern, shorter reach
+    "reinforced_turret": 32,     # autoturret + armour; survivability, not output
+    "burst_turret": 35,          # rifle profile, rate over accuracy
+}
+
 EQUIPMENT_CREDITS = {
+    # [C] med_kit. DERIVATION: it recovers a Down model, i.e. it buys back a
+    # body's worth of table presence once. Held at the legacy 40 — between a
+    # Fighter body (95) at a rough half-value and the +1 WND price (41), which is
+    # the other atom that buys survival. The agreement with WND is the reason to
+    # keep 40 rather than invent a new number, but it is an analogy, not a
+    # measurement, and it is the weakest entry in this dict.
     "med_kit": 40,
 }

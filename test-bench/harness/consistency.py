@@ -50,6 +50,16 @@ except Exception:
 # target - a class outside it is a question, not automatically an error.
 GEAR_BODY_BAND = (0.17, 0.33)
 
+# Two thresholds, not one - ruled 2026-08-14. The band above is a TARGET drawn
+# from reference data; sitting outside it is a question worth asking. The number
+# below is the HARD FAIL: an item costing more than this fraction of its own
+# carrier is the founding bug, whatever the reasoning.
+#
+# Separated because the check was previously failing everything outside the
+# target band, which made it unusable as a gate - and an unusable gate is how
+# this one came to be running, failing, and blocking nothing for months.
+GEAR_BODY_HARD_CAP = 0.40
+
 RANK_ORDER = ["recruit", "fighter", "specialist", "leader"]
 
 
@@ -107,8 +117,14 @@ def check_gear_body_ratio(rep: Report) -> None:
         detail = (f"{cls} {cost} Cr vs cheapest legal carrier {rank} {body} Cr "
                   f"= {ratio:.0%} of the body")
         src = "ticks.CLASS_CREDITS + ticks.CLASS_META[min_rank] vs units.LISTED_BODY"
-        if ratio > GEAR_BODY_BAND[1]:
-            rep.fail("gear:body ratio", detail + f"  (band {GEAR_BODY_BAND[0]:.0%}-{GEAR_BODY_BAND[1]:.0%})", src)
+        if ratio > GEAR_BODY_HARD_CAP:
+            rep.fail("gear:body ratio",
+                     detail + f"  (HARD CAP {GEAR_BODY_HARD_CAP:.0%})", src)
+        elif ratio > GEAR_BODY_BAND[1]:
+            rep.warn("gear:body ratio",
+                     detail + f"  (above the {GEAR_BODY_BAND[1]:.0%} target, under the "
+                     f"{GEAR_BODY_HARD_CAP:.0%} cap - the constrained side is usually the "
+                     "body scale, not the weapon)", src)
         elif ratio < GEAR_BODY_BAND[0]:
             rep.warn("gear:body ratio", detail + "  (below band - possibly underpriced)", src)
         else:
@@ -147,10 +163,16 @@ def check_equal_price_unequal_effect(rep: Report) -> None:
     """Failure mode B, mechanised: two things at one price is only fair if they
     are worth the same. Groups characteristics by price and flags any group whose
     members are known to differ."""
+    blocked = set(getattr(ticks, "BLOCKED_REDESIGN", ()))
     by_price = {}
     for name, cost in ticks.CHAR_CREDITS.items():
+        if name in blocked:
+            continue          # pulled from the catalogue; it has no shipping price
         by_price.setdefault(cost, []).append(name)
-    zeros = set(getattr(ticks, "UNPRICEABLE_MEASURED_ZERO", ()))
+    # BLOCKED traits are excluded: they do not ship, so they cannot collide with
+    # a shipping price. Leaving them in made the check fail on groupings whose
+    # only defect was containing something already pulled.
+    zeros = set(getattr(ticks, "BLOCKED_REDESIGN", ()))
     for cost, names in sorted(by_price.items()):
         if len(names) < 2:
             continue
@@ -200,23 +222,40 @@ LEGACY_UNDERIVED = {
 }
 
 
-def check_armour_linearity(rep: Report) -> None:
-    per_point = {}
-    for name, cost in ticks.ARMOUR_CREDITS.items():
-        inj = ticks.ARMOUR_INJURY.get(name, 0)
-        if inj:
-            per_point[name] = cost / abs(inj)
-    vals = set(per_point.values())
-    if len(vals) <= 1:
-        rep.ok("armour linear", f"{per_point} Cr per point of injury reduction")
+def check_armour_monotonic(rep: Report) -> None:
+    """LINEARITY IS NO LONGER REQUIRED - the premise was withdrawn 2026-08-13.
+
+    This check used to demand -2 cost exactly twice -1, arguing each armour point
+    is a flat -10% on the injury roll. That is the WRONG QUANTITY: linear in
+    injury PROBABILITY does not imply linear in WIN-POINTS, because the second
+    point buys survival on a model already surviving more often. Measured
+    heavy/light = 1.745 +- 0.416, and the ratio question is closed as
+    unanswerable (N~66k to exclude 2.0, N~194k to exclude 1.667, and never if the
+    truth sits between them).
+
+    A check enforcing a withdrawn premise is worse than no check: it would push
+    the measured values back onto the discarded rule to make itself pass. What
+    the ladder must never do is INVERT - more armour must cost more. That is a
+    real invariant; 2x was an assumption wearing one's clothes.
+    """
+    graded = sorted(
+        ((abs(ticks.ARMOUR_INJURY.get(n, 0)), c, n) for n, c in ticks.ARMOUR_CREDITS.items()),
+        key=lambda t: t[0],
+    )
+    bad = [(a, b) for a, b in zip(graded, graded[1:]) if b[0] > a[0] and b[1] <= a[1]]
+    if bad:
+        for a, b in bad:
+            rep.fail(
+                "armour monotonic",
+                f"{b[2]} ({b[0]} pts, {b[1]} Cr) does not cost more than "
+                f"{a[2]} ({a[0]} pts, {a[1]} Cr)",
+                "ticks.ARMOUR_CREDITS vs ticks.ARMOUR_INJURY",
+            )
     else:
-        rep.fail(
-            "armour linear",
-            f"Cr per armour point differs: {per_point}. Each point is a flat -10% on the "
-            "injury roll, so -2 must cost exactly twice -1 unless a diminishing-returns "
-            "judgment is being encoded deliberately",
-            "ticks.ARMOUR_CREDITS vs ticks.ARMOUR_INJURY",
-        )
+        ratio = ticks.ARMOUR_CREDITS["heavy"] / ticks.ARMOUR_CREDITS["light"]
+        rep.ok("armour monotonic",
+               f"more armour costs more; heavy/light = {ratio:.2f}x "
+               f"(measured 1.745 +- 0.416 - the 2x rule is withdrawn, not violated)")
 
 
 def check_derivation_is_not_tautology(rep: Report) -> None:
@@ -263,14 +302,12 @@ def check_body_formula_reproduces_ladder(rep: Report) -> None:
 def check_deployables_scale(rep: Report) -> None:
     """Deployables live in the rules text, not in ticks.py. Held as declared
     constants so the check runs; the point is the RELATION, not the source."""
-    deployables = {
-        "Autoturret": 120, "Sniper Turret": 150, "Burst Turret": 180,
-        "Blast Turret": 140, "Reinforced Turret": 150,
-        "Proximity mine + Explosion": 90, "Trip Wire": 30,
-        "Munitions Beacon": 80, "Revive Beacon": 120,
-    }
+    # Now read from ticks.py, where they landed 2026-08-14. Previously declared
+    # inline here because deployables existed ONLY in the rules text - which is
+    # why they were never repriced with everything else.
+    deployables = dict(getattr(ticks, "DEPLOYABLE_CREDITS", {}))
     fighter = LISTED_BODY[Rank.FIGHTER]
-    over = {k: v for k, v in deployables.items() if v / fighter > GEAR_BODY_BAND[1]}
+    over = {k: v for k, v in deployables.items() if v / fighter > GEAR_BODY_HARD_CAP}
     if over:
         worst = max(over.items(), key=lambda kv: kv[1])
         rep.fail(
@@ -303,22 +340,28 @@ def check_equipment_vs_measured_primitive(rep: Report) -> None:
             rep.ok("equipment vs primitive", f"{item} {implied:.0f} Cr per +1 vs measured {to_hit}")
 
 
-def main(strict: bool = False) -> int:
-    rep = Report()
-    print("=" * 100)
-    print("CROSS-SUBSYSTEM CONSISTENCY - relations that must hold whatever the prices are")
-    print("=" * 100)
-    print()
+def run_all(rep: "Report") -> "Report":
+    """Every check, no printing. Split out of main() so the suite can be asserted
+    from a test rather than only read by a human - the gap that let this module
+    run, fail, and block nothing."""
     check_body_formula_reproduces_ladder(rep)
     check_gear_body_ratio(rep)
     check_deployables_scale(rep)
     check_rank_gate_enforced(rep)
-    check_armour_linearity(rep)
+    check_armour_monotonic(rep)
     check_zero_measured_still_priced(rep)
     check_equal_price_unequal_effect(rep)
     check_derivation_is_not_tautology(rep)
     check_equipment_vs_measured_primitive(rep)
-    n_fail = rep.print()
+    return rep
+
+
+def main(strict: bool = False) -> int:
+    print("=" * 100)
+    print("CROSS-SUBSYSTEM CONSISTENCY - relations that must hold whatever the prices are")
+    print("=" * 100)
+    print()
+    n_fail = run_all(Report()).print()
     return 1 if (strict and n_fail) else 0
 
 

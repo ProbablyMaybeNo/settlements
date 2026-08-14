@@ -97,7 +97,17 @@ def equipment_points(item: str) -> int:
 
 
 def fielded_cost(fighter: Fighter) -> int:
-    """points rating contribution when this fighter is listed for battle."""
+    """points rating contribution when this fighter is listed for battle.
+
+    The rank gate is enforced HERE and not in WeaponBuild, because a weapon build
+    is a catalogue entry and has no carrier until it is put on one. Costing a
+    fighter is the first moment the pair exists.
+    """
+    from .weapons import validate_carrier
+
+    gate = [e for w in fighter.weapons for e in validate_carrier(w, fighter.rank.value)]
+    if gate:
+        raise ValueError("; ".join(gate))
     total = listed_body_cost(fighter.rank) + fighter.advance_points
     total += armour_points(fighter.armour)
     for w in fighter.weapons:
