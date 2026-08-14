@@ -45,6 +45,26 @@ ceiling and none of them move the ceiling itself.
 This is a property of points systems generally, not a defect in this one. It is
 stated first because it is the largest single caveat on the document.
 
+**And it operates INSIDE the payload table, not only at the catalogue's edges.**
+Every payload price is **net of Pinned** — a payload lands *in place of* the
+ordinary non-wounding result. But **value(Pinned) is itself list-dependent**:
+
+| Chassis | value(Pinned) |
+|---|---|
+| Mixed rosters (Fireteam / Squad / Armoured) | **+0.510**, significant |
+| Uniform rifle crew | **+0.086**, not significant |
+
+So the quantity every payload price is measured *against* moves by roughly 6×
+with the composition of the crew. The consequence is specific and it matters:
+
+> **Payload prices are structurally noisier than their confidence tiers imply.**
+> A B-tier payload row carries the uncertainty of its own measurement *plus* the
+> uncertainty of a subtrahend that is not a constant. The tier describes the
+> former only.
+
+Treat the payload table's *ordering* as far more reliable than its *levels*, and
+expect table testing to move the levels more than the tiers suggest.
+
 ### 2. Single-scenario coverage
 
 Everything is priced on **`hold_claim` — Take a Hold, 1 of 5 shipped scenarios,
@@ -153,12 +173,23 @@ structure predicted that before it was measured.
 | Rate of Fire 2 | 50 Cr | **C** | 1D rebuild test, never reproduced on the 2.5D engine |
 | Rate of Fire 3 | **unpriced** | — | Deliberately absent. The third die is superlinear; do not infer it from RoF 2 |
 
-> **On range.** Measurement says the 8″–24″ curve is flat, which would price
-> `long_range` at ~0. **It is deliberately NOT priced at 0.** Two opposite biases
-> bracket that reading — single-scenario coverage overvalues reach while the
-> sprint overcorrection undervalues it — and a free 24″ is a *known* degenerate:
-> the sim measured a **13–30 point edge** for a list that can fire from its own
-> deployment on turn one. Shipping 0 would be following a number off a cliff.
+> ### ⚠ OVERRIDE — `long_range` deliberately contradicts its own measurement
+>
+> **A fourth tag beside A/B/C, and it exists so nobody "fixes" this to match the
+> data.** An override is the one kind of entry a careful reader is most likely to
+> break: check the price against the artefact, find a mismatch, helpfully correct
+> the wrong one.
+>
+> | | |
+> |---|---|
+> | **Measured** | the 8″–24″ curve is **flat** — whole spread 1.07 inside one SE of ~0.81, which prices `long_range` at **~0** |
+> | **Shipped** | **60** |
+> | **Why** | The flat curve measures **a policy that does not exploit range**, not a rule that does not matter. Two opposite biases bracket it — single-scenario coverage overvalues reach, the sprint overcorrection undervalues it — and a free 24″ is a **known degenerate**: the sim measured a **13–30 point edge** for a list that can fire from its own deployment on turn one |
+> | **Retires when** | Scenario coverage lands, or a range-exploiting policy makes the curve measurable honestly |
+>
+> Shipping 0 here would be following a number off a cliff. Machine-readable at
+> `ticks.OVERRIDES_MEASUREMENT`; an override is legitimate **only** with all three
+> of measured value, why it is not trusted, and what would retire it.
 
 ### Armour
 
@@ -276,7 +307,7 @@ is worth more.
 |---|:--:|---|
 | Defensive | 30 | Nearest measured neighbour is light armour (24) — same shape of effect. Within rounding |
 | Cleaving | 50 | Blast (31) as a multi-target effect + one damage step (15) = 46 |
-| Long range | 60 | Retained **against** the measurement — see the range note above |
+| **Long range** | **60** | **⚠ OVERRIDE — not measured, not derived.** Deliberately overrides its own measurement; see below |
 | Smoke | 30 | Retained. No LOS-denial atom measured; nearest neighbour (Blind) is itself blocked |
 | Balanced | 20 | Retained; no measured neighbour |
 | Breaching | 30 | Retained; no measured neighbour |
@@ -292,7 +323,7 @@ is worth more.
 | Atom | Price | Tier | Derivation |
 |---|:--:|:--:|---|
 | Bare body | 20 | **C** | Unchanged. No measurement isolates a model with no gear and no stats — every harness roster is built from equipped models. A floor, not a priced atom |
-| **+1 WND** | **41** | **C** | **Was 45 with no derivation at all** — the ruleset called it "a judgment call, not a measurement" in three separate places. Now derived from the nearest measured survivability atom: **heavy armour, −2 injury, 41 Cr**. Still C — it is an analogy, not a measurement |
+| **+1 WND** | **41** | **C** | **Was 45 with no derivation at all** — the ruleset called it "a judgment call, not a measurement" in three separate places. Now derived from the nearest measured survivability atom: **heavy armour, −2 injury, 41 Cr**. Still C — it is an analogy, not a measurement. **Propagated to the vault 2026-08-13**: all nine references updated, and the full Level track total moves **+245 → +241** |
 | Orders (1 / 2) | 40 / 90 | **C** | **The weakest number in the catalogue.** Never measured as an Order on any engine, and no measured neighbour is close enough to derive from. Tolerable only because Orders are **rank-gated and never sold à la carte**, so a list-builder cannot arbitrage them |
 
 ---
@@ -351,11 +382,22 @@ inferred for these beyond the C-tier analogies above.
 **are deliberately not reconciled.**
 
 `data.py`'s costs exist only so the harness can build **equal-cost rosters inside
-the sim**. They are not player-facing prices. Reconciling them to this catalogue
-would make the measurement's own crews a function of the prices that measurement
-produces — a circularity that would invalidate every artefact in the same motion.
+the sim**. They are not player-facing prices, and nothing player-facing reads them.
 
-**They differ on purpose. The divergence is the safeguard, not the bug.**
+**Reconciling them would close a loop.** Measure → price → rebuild the sim's crews
+from those prices → measure again. The second measurement is then no longer
+independent of the first, and the apparatus converges on whatever it started with
+while every confidence interval stays reassuringly tight.
+
+**This project has already eaten that exact failure once.** T12 set
+`BATTLE_CREDITS = RECRUIT_CR` and then printed the ratio back as confirmation — a
+result that could not have come out any other way. It sits in the tracking doc's
+contaminated-findings list. Reconciling these two tables would rebuild the same
+loop at project scale instead of inside one script.
+
+**They differ on purpose. The divergence is the safeguard, not the bug.** If they
+ever must agree, the way to do it is to derive `data.py` **from** the catalogue and
+then re-measure *knowing the rosters changed* — never to quietly sync the numbers.
 
 ---
 

@@ -36,6 +36,28 @@ full statement is the front matter of docs/POINTS-CATALOGUE.md.
      inside the one before it. Corroborated once, within the same instrument.
 
 Sources: test-bench/balance/results/, engine e2b861d61 / harness hf20a47e3.
+
+THIS FILE AND engine2d/data.py ARE DELIBERATELY NOT RECONCILED — ruled 2026-08-13.
+
+data.py keeps its own 100-scale cost table. That looks like drift and it is not:
+those costs exist ONLY so the harness can build EQUAL-COST ROSTERS INSIDE THE SIM.
+They are not player-facing prices and nothing player-facing reads them.
+
+Reconciling them to this file would make the sim's crews a function of the prices
+the sim produces. Measure -> price -> rebuild the crews from those prices ->
+measure again: the second measurement is no longer independent of the first, and
+the whole apparatus would converge on whatever it started with while every CI
+stayed reassuringly tight.
+
+THIS PROJECT HAS ALREADY EATEN THAT EXACT FAILURE ONCE. T12 set
+BATTLE_CREDITS = RECRUIT_CR and then printed the ratio back as confirmation - a
+result that could not have come out any other way. It is listed in the tracking
+doc's contaminated findings, and reconciling these two tables would rebuild the
+same loop at project scale rather than in one script.
+
+THE DIVERGENCE IS THE SAFEGUARD, NOT THE BUG. If the two tables ever need to
+agree, the way to do it is to derive data.py FROM this file and then re-measure
+knowing the rosters changed - never to quietly sync the numbers.
 """
 
 from __future__ import annotations
@@ -379,15 +401,22 @@ CHAR_CREDITS = {
     # --- [C] not measured; derived or retained, each stating which ------------
     "smoke": 30,  # [C] retained. No LOS-denial atom is measured; nearest
                   # neighbour would be Blind, which is itself blocked.
-    "long_range": 60,  # [C] RETAINED AGAINST THE MEASUREMENT, deliberately. The
-                       # 8"-24" curve measures FLAT (spread 1.07 inside SE ~0.81),
-                       # which would price this at ~0 — but that reading is
-                       # bracketed by two opposite biases (single-scenario
-                       # coverage overvalues reach, the sprint overcorrection
-                       # undervalues it), and a free 24" is a KNOWN degenerate:
-                       # the sim measured a 13-30 point edge for a list that can
-                       # fire from its own deployment on turn one. Shipping 0 here
-                       # would be following a number off a cliff.
+    # [OVERRIDE] long_range. NOT a measured price and NOT a derived one — a
+    # DELIBERATE OVERRIDE of the measurement, ruled 2026-08-13. Tagged distinctly
+    # so nobody later "fixes" it to match the data: matching the data is exactly
+    # what must not happen here, and a plain [C] would invite it.
+    #
+    # The 8"-24" curve measures FLAT (whole spread 1.07 inside one SE of ~0.81),
+    # which would price this at ~0. That number is real and it is not the whole
+    # story: it measures A POLICY THAT DOES NOT EXPLOIT RANGE, not a rule that
+    # does not matter. Two opposite biases bracket it — single-scenario coverage
+    # overvalues reach, the sprint overcorrection undervalues it — and a free 24"
+    # is a KNOWN degenerate: the sim measured a 13-30 point edge for a list that
+    # can fire from its own deployment on turn one.
+    #
+    # Retained at 60 until scenario coverage or a range-exploiting policy can
+    # measure it honestly. See OVERRIDES_MEASUREMENT below.
+    "long_range": 60,
     "balanced": 20,  # [C] retained; no measured neighbour.
     "defensive": 30,  # [C] retained; nearest measured neighbour is light armour
                       # (24), which is the same shape of effect. Within rounding.
@@ -441,6 +470,31 @@ CHAR_CREDITS = {
 # crew. That is THE CEILING operating on the payload table.
 # ---------------------------------------------------------------------------
 BLOCKED_REDESIGN = ("concussive", "crippling", "blinding", "hook", "toxic")
+
+# ---------------------------------------------------------------------------
+# DELIBERATELY OVERRIDES ITS OWN MEASUREMENT. A fourth tag beside A/B/C, because
+# these are the entries most at risk of being "corrected" by a future reader who
+# checks the price against the artefact, finds a mismatch, and helpfully fixes
+# the wrong one.
+#
+# An override is legitimate ONLY with all three of: the measured value, why it is
+# not trusted as a price, and what would retire the override. Anything else is
+# just an unmeasured number wearing a justification.
+# ---------------------------------------------------------------------------
+OVERRIDES_MEASUREMENT = {
+    "long_range": {
+        "shipped": 60,
+        "measured": "the 8\"-24\" range curve is FLAT — spread 1.07 inside one "
+                    "SE of ~0.81 — which prices this at ~0",
+        "why_not_shipped": "the flat curve measures a policy that does not "
+                           "exploit range, not a rule that does not matter. A "
+                           "free 24\" is a known degenerate: 13-30 points of "
+                           "edge for a list that fires from its own deployment "
+                           "on turn one.",
+        "retires_when": "scenario coverage lands, or a range-exploiting policy "
+                        "makes the curve measurable honestly.",
+    },
+}
 
 # Superseded by BLOCKED_REDESIGN, which is the same idea with the measurement
 # behind it. Kept as an alias so older callers do not break.
