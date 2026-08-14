@@ -36,14 +36,34 @@ Grandpa's Rifle  Standard Ranged · Accurate · Long Range                     1
 
 | Class | Cost | Damage | Range | Hands | Min. rank | Slots | Always has |
 |---|:--:|:--:|:--:|:--:|---|:--:|---|
-| **Unarmed** | 0 | +0 | melee | — | Any | 0 | — |
-| **Light Melee** | 0 | +1 | melee | 1 | Recruit | 2 | *(the free basic loadout)* |
-| **One-Handed Melee** | 4 | +2 | melee | 1 | Fighter | 2 | — |
-| **Heavy Melee** | 8 | +3 | melee | 2 | Specialist | 3 | Two-Handed |
-| **Thrown** | **4** | +1 | 6" | 1 | Any | 2 | may also be used in **melee** |
-| **Sidearm** | 4 | +2 | 8" | 1 | Recruit | 2 | **Sidearm** (may fire while Engaged), Loud |
-| **Standard Ranged** | 10 | +3 | 18" | 2 | Fighter | 3 | Two-Handed, Loud |
-| **Heavy Ranged** | **16** | +3 | 24" | 2 | Specialist | 4 | Two-Handed, Loud |
+| **Unarmed** | 0 | +0 | — | — | Any | 0 | — |
+| **Light Melee** | 0 | **+1 only** | melee | 1 | Recruit | 2 | *(the free floor weapon)* |
+| **One-Handed Melee** | — | **+1 to +3** | melee | 1 | Recruit | 2 | spans a shiv to a Magnum |
+| **Heavy Melee** | — | **+2 to +4** | melee | 2 | Specialist | 3 | Two-Handed |
+| **Thrown** | — | **+1 to +2** | 8" flat | 1 | Any | 2 | may also be used in **melee** |
+| **Sidearm** | — | **+1 to +3** | **6"–12"** | 1 | Recruit | 2 | **Sidearm** (may fire while Engaged), Loud |
+| **Standard Ranged** | — | **+2 to +4** | **12"–36"** | 2 | Fighter | 3 | Two-Handed, Loud |
+| **Heavy Ranged** | — | **+3 to +5** | **12"–36"** | 2 | Specialist | 4 | Two-Handed, Loud |
+
+> ### The class is an ENVELOPE, not a value — reworked 2026-08-14
+>
+> **Each class used to have one fixed Damage and one fixed range**, which made
+> weapon class a global damage tier: a .22 pistol and a Magnum could not both be
+> One-Handed, and a snub-nose and a long-barrel could not both be Sidearms. It
+> also crushed the damage axis — Standard Ranged, Heavy Melee and Heavy Ranged
+> all sat at +3 against a +4 cap, so a basic rifle, a great axe and a machine gun
+> shared a tier with one step of headroom.
+>
+> **Now the class sets the BANDS and the weapon picks inside them**, paying for
+> what it picked:
+>
+> `cost = class base (slots) + Damage steps + range + characteristics`
+>
+> The bands **overlap deliberately**. Heavy Melee overlaps the top of One-Handed
+> and reaches higher. Nothing shoulder-fired is a .22, so Standard Ranged floors
+> at +2. Heavy Ranged is inherently powerful and floors at +3.
+>
+> **The Damage cap moves +4 → +5** to accommodate Heavy Ranged's ceiling.
 
 ^tbl-1-weapon-classes
 
@@ -59,7 +79,18 @@ Damage feeds the **Injury roll** — `1d10 + Damage − Armor` vs **7+** ([[Dama
 > [!warning] Two hard ceilings. Both are load-bearing.
 > **Damage stops at +4, and only Brutal reaches it.** Armour only runs to −2; if weapons ran past +4 the armour ladder would be decorative. Base classes stop at **+3**. On a ranged weapon, Brutal is gated behind **Short Range** — which encodes the finding from [[Terrain Hacking Cover — Sim Findings]]: *keep Brutal off any longer-ranged weapon.*
 >
-> **Range stops at 24".** Deployment zones sit **24" apart** ([[Core Game Format]]), so a weapon that reaches 24" can fire from its own deployment zone on turn one. That is a **threshold**, not a linear advantage, and no points cost can balance a threshold — the sim found an uncapped long-range crew beating every other list by 13–30 points. Only **Heavy Ranged** (Specialist rank, Cumbersome) reaches 24" cleanly.
+> **Range reaches 36", and everything past 24" is GATED.** Deployment zones sit **24" apart** ([[Core Game Format]]), so a 24" weapon fires from its own deployment zone on turn one, and a **36"** weapon fires from **12" behind** it — covering the whole board from a square the enemy needs a round of sprinting to threaten. That is a **threshold**, not a linear advantage, and no points cost can balance a threshold on its own: the sim found an uncapped long-range crew beating every other list by **13–30 points**, larger than any single atom in the catalogue.
+>
+> So the ceiling is no longer a hard 24". It is **24" for anything you can build**, and past that a weapon must clear **four gates**:
+>
+> | Gate | Rule |
+> |---|---|
+> | **Manufactured only** | Cannot be crafted at **any** Workshop tier. Loot and raid spoils only. |
+> | **Limit 1 per crew** | The 13–30 point finding was a *list archetype*; this is the gate that destroys the archetype rather than taxing it. |
+> | **Specialist or above** | The carrier is an expensive body in its own right. |
+> | **Steep price** | The cost step across 24" accelerates sharply — 18"→24" is +6, 24"→30" is +12, 30"→36" is +15. |
+>
+> The intent: a 36" rifle is a **rare, expensive, found weapon that a crew builds a plan around** — never standard kit. All four gates are enforced in code, not merely written here.
 
 ### Rank gates the class
 The hard lock that makes the ladder in [[List Building]] real — **a Recruit cannot hold a rifle.**
@@ -124,12 +155,11 @@ Each takes **one slot**. Restrictions in *italics*.
 ### Handling
 | Characteristic | Cost | Effect |
 |---|:--:|---|
-| **Long Range** | 6 | **+6"** maximum range, to the **24" ceiling**. *Ranged only.* |
+| **Long Range** | — | Moves the weapon up one range band. Past **24"** the four gates above apply. *Ranged only.* |
 | **Balanced** | 2 | May use **AGI** instead of STR for melee attacks with this weapon. *Light / One-Handed Melee only.* |
 | **Defensive** | 3 | **+1** on opposed melee rolls when you are **not** the attacker and did **not Move** this activation. *Melee only.* |
 | **Cleaving** | 5 | When you **win** a melee clash, make the Injury roll against **every** enemy Engaged with you. *Heavy Melee only.* |
 | **Breaching** | 3 | **+2** on STR tests to Force or break **Breachable** terrain ([[Terrain Interaction]]). |
-| **Concealable** | 2 | May start **Hidden**, or be smuggled past a search. |
 | **Quiet** | 2 | Attacks don't reveal you from **Hidden** and don't trip noise or alarms. |
 | **Compact** | 2 | Counts as **one-handed** despite its class. *Heavy classes only.* |
 
@@ -196,7 +226,7 @@ Every one of these is a legal build. Copy or rename freely.
 | Name | Build | Profile | Cost |
 |---|---|---|:--:|
 | **Baseball Bat** | Light Melee | +1 melee | **0** |
-| **Kitchen Knife** | Light Melee · Balanced · Concealable | +1, AGI, hidden | **4** |
+| **Kitchen Knife** | Light Melee · Balanced | +1, AGI | **2** |
 | **Crowbar** | One-Handed Melee · Breaching | +2, breaches | **7** |
 | **Great Axe** | Heavy Melee | +3 melee | **8** |
 | **Sledgehammer** | Heavy Melee · Heavy Impact · Breaching | +3, push 2" | **14** |
@@ -224,6 +254,7 @@ Kept so it doesn't creep back in a new costume ([[Out of Scope — What Settleme
 | **Rapid** *(extra attack at −2)* | It **is** **Quick Shot** — a **Tier 3** skill needing a stat of +6, i.e. campaign-earned. [[Skill Sim — Findings]] measured multi-attack as *the biggest DPS lever in the game* (+67% output). Selling it to a Fighter for 4 points destroys the entire skill economy. |
 | **Precision** *(flat +1 hit)* | Strictly stronger than **Dead Eye** (T3, which is conditional). Replaced by **Accurate** — conditional, and already a locked trait. |
 | **Reliable** *(re-roll)* | Introduces **re-rolls**, a dice mechanic that exists nowhere in Settlements. Breaks the one-mechanic ceiling. |
+| **Concealable** *(may start Hidden / smuggle past a search)* | **Cut 2026-08-14.** Both halves are edge cases that do nothing in a typical battle, and it **breaks the weapon design contract stated in §1**: weapons do damage / range / armour / conditions / noise, and **skills** do positioning exceptions. "May start Hidden" is skill territory — [[Skills]]' **Vanishing Point** and **Camouflage Drill** already do it properly. **Quiet is NOT cut**: no-reveal / no-alarm-trip is a real mechanical axis that interacts with Hidden and the Sensor deployables. |
 | **Quick Draw** *(fire after Sprinting)* | Sprint consumes **both slots** — there is no Action left to fire with. It silently invents a new action economy. |
 | **Crushing** *(ignore cover on the Wound Roll)* | **Cover never touches the Injury roll.** That is the load-bearing line of the entire engine. (Shields also don't exist.) |
 | **Awkward** *(no Move + attack)* | Free points on a static shooter, and it *synergises* with Accurate. A drawback must bite regardless of playstyle. |
