@@ -58,6 +58,7 @@ Each skill fills **one tier-slot** off its stat's path — you don't pay for it 
 
 ## Combat / Muscle (STR)
 ### Tier 1 — Good
+
 - **Heavy Hands** — Gain +1 on a melee attack against a **Pinned** or **Grappled** defender. *(Melee DPS · Grappler)*
 - **Knockback** — After winning a melee attack, push the defender 2" directly away before the Injury roll; you may follow up to 2". *(Melee DPS · Terrain controller)*
 - **Breakdown** — As an Action, automatically open or destroy an adjacent ordinary Breachable door, window or light barricade. *(Breacher)*
