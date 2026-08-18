@@ -91,7 +91,15 @@ SETTLEMENTS - As I'm working on the settlements section so many ideas are coming
 
 It would be great to include a mechanic for looting and capturing your opponents units and equipment. If a unit is taken out of action their body is replaced with a token ideally identifying the unit. If at any point in a battle an enemy unit gets into base 2 base with the token and uses an action to interact they pick the token up and either set it to the side or keep it on the board and move it with the unit.
 
-At the end of the battle for every token owned the enemy rolls on a chart to find out what was looted from the opponents unit. 1- nothing, 2- 25 credits 3 - 
+At the end of the battle for every token owned the enemy rolls on a chart to find out what was looted from the opponents unit. 1-2 25 credits 3-5 1 piece of equipment (armor/weapon/consumable) 6 Captured.
+
+The captured player removes whatever item was rolled from their settlement/roster and it is added to their opponents. If a 6 is rolled the enemy unit is captured.
+
+*If the owner of the downed unit moves into base to base with a token before the enemy has a chance to loot it the token is immediately removed from the battle and the player retains all the units equipment and rolls on the injury chart like normal*
+
+#settlements/rule *Captured* When a player captures an opponents unit and they have space in a holding cell or similar structure the unit is added to the players settlement tracker. The opponent then has the option to challenge the player who captured their unit to a "rescue" scenario battle. (SEE RAID SCENARIO FOR MORE DETAILS)
+
+If the player does not have room in a holding cell, wants some quick credits, or won't be able to play a battle against the opponent within the next two weeks they must ransom the captured enemy back to the opponent for half the total cost of the unit plus all their equipment. 
 ## 🔧 Promote to a rule
 Ideas ready to become real. Tick when you've moved them into a phase note (or a new note via the `Rule Phase` template).
 - [ ] 
