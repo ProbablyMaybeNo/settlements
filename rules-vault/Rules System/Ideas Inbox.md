@@ -87,7 +87,7 @@ SETTLEMENTS - As I'm working on the settlements section so many ideas are coming
    *This will need to be  tested*
 3. In a magical most ideal world I would absolutely love to do some sort of "global" narrative using an app we create where players from all over the planet can log their battles and victories and we'll have a map of the entire settlements battlefield with sections color coded to whoever controls it. We'd need to incorporate factions or something so players can pledge allegiance to a specific faction and then fight for them vs everyone else playing the game. 
 
-**LOOTING IN BATTLE**
+**LOOTING ENEMIES IN BATTLE**
 
 It would be great to include a mechanic for looting and capturing your opponents units and equipment. If a unit is taken out of action their body is replaced with a token ideally identifying the unit. If at any point in a battle an enemy unit gets into base 2 base with the token and uses an action to interact they pick the token up and either set it to the side or keep it on the board and move it with the unit.
 
@@ -100,6 +100,12 @@ The captured player removes whatever item was rolled from their settlement/roste
 #settlements/rule *Captured* When a player captures an opponents unit and they have space in a holding cell or similar structure the unit is added to the players settlement tracker. The opponent then has the option to challenge the player who captured their unit to a "rescue" scenario battle. (SEE RAID SCENARIO FOR MORE DETAILS)
 
 If the player does not have room in a holding cell, wants some quick credits, or won't be able to play a battle against the opponent within the next two weeks they must ransom the captured enemy back to the opponent for half the total cost of the unit plus all their equipment. 
+
+**LOOTING CACHES IN BATTLE**
+
+Each of the pre-determined scenarios should include a suggested number of "loot caches" to be added to the board. These can be represented by a 25mm token or a appropriate model roughly 1x1" in size. If either player interacts with the LOOT CACHE while in base 2 base they pick it up and place it on their unit card/mark it in the app or leave the token on the board and move it with the unit. At the end of the battle players roll on the LOOT table for every token they grabbed. At the end of the battle if a player "tables" their opponent wiping out all their units or forces a "bottle" they automatically pick up any of the remaining loot tokens as they scavenge the location they just battled to control.
+
+#settlements/rule *LOOT TABLE* We will need to build the loot table as either a single universal table or a scenario specific table. 
 ## 🔧 Promote to a rule
 Ideas ready to become real. Tick when you've moved them into a phase note (or a new note via the `Rule Phase` template).
 - [ ] 
