@@ -89,7 +89,9 @@ SETTLEMENTS - As I'm working on the settlements section so many ideas are coming
 
 **LOOTING IN BATTLE**
 
-It would be great to include a mechanic for looting and capturing your opponents units and equipment. 
+It would be great to include a mechanic for looting and capturing your opponents units and equipment. If a unit is taken out of action their body is replaced with a token ideally identifying the unit. If at any point in a battle an enemy unit gets into base 2 base with the token and uses an action to interact they pick the token up and either set it to the side or keep it on the board and move it with the unit.
+
+At the end of the battle for every token owned the enemy rolls on a chart to find out what was looted from the opponents unit. 1- nothing, 2- 25 credits 3 - 
 ## 🔧 Promote to a rule
 Ideas ready to become real. Tick when you've moved them into a phase note (or a new note via the `Rule Phase` template).
 - [ ] 
