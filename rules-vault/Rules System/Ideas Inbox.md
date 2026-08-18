@@ -86,6 +86,10 @@ SETTLEMENTS - As I'm working on the settlements section so many ideas are coming
 2. We need to decide how settlements are pointed when used in battles...are they a seperate points limit or incorporated into a single points limit allowing players to choose if they want more terrain or more crew...
    *This will need to be  tested*
 3. In a magical most ideal world I would absolutely love to do some sort of "global" narrative using an app we create where players from all over the planet can log their battles and victories and we'll have a map of the entire settlements battlefield with sections color coded to whoever controls it. We'd need to incorporate factions or something so players can pledge allegiance to a specific faction and then fight for them vs everyone else playing the game. 
+
+**LOOTING IN BATTLE**
+
+It would be great to include a mechanic for looting and capturing your opponents units and equipment. 
 ## 🔧 Promote to a rule
 Ideas ready to become real. Tick when you've moved them into a phase note (or a new note via the `Rule Phase` template).
 - [ ] 
