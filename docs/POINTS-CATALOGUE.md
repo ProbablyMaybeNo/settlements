@@ -1,6 +1,6 @@
 # Settlements — The Points Catalogue
 
-**v1.0 · 2026-08-13 · scale 1000 = standard Crew Rating**
+**v1.1 · 2026-08-19 · scale 1700 = standard Crew Rating** *(rebased from 1000 when bodies moved onto the measured stat ladder — see §8)*
 
 Every price in this game, what it is worth, and where the number came from.
 Machine-readable source: `test-bench/points/ticks.py`. Measurements:
@@ -122,6 +122,8 @@ this project four times out of four.
 | **+1 Damage** | **0.606 win-points per model**, CI [0.436, 0.776] · **[B]** |
 | **The peg** | +1 Damage ≡ **15 Credits**. A **choice**, not a measurement |
 | **Conversion** | **24.77 Credits per win-point** |
+| **Crew Rating** | **1700** standard · **850** Campaign Start |
+| **Materials** | **1 Material = 1 Credit**, derived — the two 80-Mat gatherers are identical on every priced axis |
 | **Shape** | **FLAT — settled.** Density sweep moved it +0.176 ± 0.184 across 9/11/12 features. Flat-vs-curve is **closed** |
 
 ---
