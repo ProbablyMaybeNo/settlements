@@ -29,7 +29,7 @@ The Rules column should nail down:
 
 2050 - Planet Earth - Post - Invasion conflict - A New Dawn
 
-The year is 2027, life on planet Earth is very much like it is today. The churn of civilization continues as it has for millenia pushing ever forward it spreads at a steady pace across the continents. 
+The year is 2027, life on planet Earth is very much like it is today. The churn of civilization continues as it has for millennia pushing ever forward it spreads at a steady pace across the continents. Wars, global warming,  
 
 The year is 2050, in the aftermath of a global alien invasion the majority of planet Earth has been reduced to rubble. 
 

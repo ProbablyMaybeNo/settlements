@@ -642,14 +642,14 @@ crew_rating ≤ agreed cap
 
 > **[NEW — Match Play vs. Campaign Start split]** These are genuinely different fighters, not the same table at two prices. A **Match Play** crew is built once for a single game with no persistence — it gets the richer starting kit because there's no other chance for those fighters to develop. A **Campaign Start** crew is meant to grow through the Level track (§26.1), so it starts leaner and earns its way to the same place over real play.
 
-**Match Play** — one-off games, no campaign attached. Standard 1000 Crew Rating cap.
+**Match Play** — one-off games, no campaign attached. Standard **1700** Crew Rating cap.
 
 | Rank | Stat pts | Starting skills | Orders | Credits |
 |---|:--:|:--:|:--:|:--:|
-| **Recruit** | 3 | **0** | 0 | **65** |
-| **Fighter** | 5 | **exactly the tiers your stats reach (max 2)** | 0 | **95** |
-| **Specialist** | 7 | **max 3** | 1 | **165** |
-| **Leader** | 9 | **max 4** | 2 | **245** |
+| **Recruit** | 3 | **0** | 0 | **131** |
+| **Fighter** | 5 | **exactly the tiers your stats reach (max 2)** | 0 | **183** |
+| **Specialist** | 7 | **max 3** | 1 | **268** |
+| **Leader** | 9 | **max 4** | 2 | **343** |
 
 > **Skills are never approximate: a fighter has exactly one skill per tier its
 > stats reach** (§14). The listed value is the maximum, hit only when every point
@@ -657,22 +657,22 @@ crew_rating ≤ agreed cap
 > `+4/+2/+1` = 3; Leader `+6/+2/+1` = 4. A fighter who spreads into +1 "dabbles"
 > trades skills for breadth — a legal, priced choice, not an error.
 
-**Campaign Start** — a fresh crew entering the persistent Settlements layer. Begins at **500 Crew Rating**, growing over the campaign (§25.5, §29).
+**Campaign Start** — a fresh crew entering the persistent Settlements layer. Begins at **850 Crew Rating**, growing over the campaign (§25.5, §29).
 
 | Rank | Stat pts | Starting skills | Orders | Credits |
 |---|:--:|:--:|:--:|:--:|
-| **Recruit** | 3 | 0 | 0 | **65** |
-| **Fighter** | 5 | 1× T1 | 0 | **75** |
-| **Specialist** | 7 | 1× T2 | 1 | **125** |
-| **Leader** | 9 | 1× T3 | 2 | **170** |
+| **Recruit** | 3 | 0 | 0 | **131** |
+| **Fighter** | 5 | 1× T1 | 0 | **183** |
+| **Specialist** | 7 | 1× T2 | 1 | **268** |
+| **Leader** | 9 | 1× T3 | 2 | **343** |
 
-> Same recost caveat as before applies to the Campaign column specifically: first-draft, backed out from §26.1's skill Credit values (T1=20/T2=35/T3=55), not a validated number.
+> **[RE-DERIVED 2026-08-19]** Rank bodies are no longer backed out by hand — they are computed from the measured stat ladder plus the body base and Orders premium, re-derived 2026-08-19 onto the **measured stat ladder** (37/26/27/18/15/10 across the six rungs — a one-sided stat saturates, so the flat 15/point was wrong in both directions). The **Crew Rating scale rebased 1000 → 1700** at the same time so a standard crew is still six models rather than four; Campaign Start moves 500 → **850**. Validated end-to-end: at equal Crew Rating the win-rate spread across four archetypes tightened from 31–70% to **41–61%** (`catalogue-validation-n1500`).
 
 ### The pyramid — two versions
 
-**Match Play (standard 1000 CR):** **Exactly one Leader.** Every Specialist requires two fighters of lower rank. Every Recruit requires one Fighter or better. Minimum four fighters.
+**Match Play (standard 1700 CR):** **Exactly one Leader.** Every Specialist requires two fighters of lower rank. Every Recruit requires one Fighter or better. Minimum four fighters.
 
-> **[NEW — Campaign Start variant]** **Exactly one Leader. Minimum three models. Every Specialist still requires two fighters of lower rank** — the Recruit-per-Fighter rule is the only part dropped, so a green crew can be all bodies but cannot be an all-Specialist elite. Otherwise pick any mix within the 500 Crew Rating cap. This is deliberately looser than the Match Play pyramid: a green crew hasn't built a chain of command yet, it's just whoever the founding Leader could recruit. Worth checking the same way the standard pyramid's model-count question was checked (`Crew Sim — Findings`) once this is played — dropping the ratio changes which body-count-vs-power-tier mixes are reachable at this budget, and that's untested.
+> **[NEW — Campaign Start variant]** **Exactly one Leader. Minimum three models. Every Specialist still requires two fighters of lower rank** — the Recruit-per-Fighter rule is the only part dropped, so a green crew can be all bodies but cannot be an all-Specialist elite. Otherwise pick any mix within the **850** Crew Rating cap. This is deliberately looser than the Match Play pyramid: a green crew hasn't built a chain of command yet, it's just whoever the founding Leader could recruit. Worth checking the same way the standard pyramid's model-count question was checked (`Crew Sim — Findings`) once this is played — dropping the ratio changes which body-count-vs-power-tier mixes are reachable at this budget, and that's untested.
 
 **The roster you own is capped separately by housing** (§21) — base 12 slots from the HQ, +6 per Bunkhouse. No per-head upkeep. **Housing is the only population brake.** Veterans get more expensive as they Advance (§26), which is the real anti-snowball valve: the longer a campaign runs, the smaller your crew gets, because your best fighters crowd out rookies on the Rating cap.
 
@@ -1137,7 +1137,7 @@ Tiebreak: total banked Credits + Materials. *(All values provisional — the poi
 - Deployables costs converted to the 1000-Credit scale (§12.6, ×10 conversion off the vault's own stated anchor).
 - Captured and Hardened both fully drafted (§26.3a, §26.3b) — Captured gated to Recruits/Fighters only, with a rescue-raid escape valve, ransom, and a two-stage brainwash path; Hardened grants a free Level.
 - The entire post-battle → Settlement Phase → Battle Prep sequence drafted (§25.5) — this was `Downtime.md`, confirmed `Not Started` in the vault, and everything else in this document that referenced a "Settlement Phase" was assuming content that didn't exist until now.
-- Advancement finalized as a **10-Level track** (§26.1) after several rounds of iteration — 6 lifetime stat points, 4 total skills (1 starting + 3 leveled, all one fixed path), one WND bump at Level 7. This applies to **Campaign Start** crews specifically — the Level track is what a persistent campaign fighter grows through. **List Building now runs two separate starting tiers, not one** (§16): **Match Play** crews (one-off games, no persistence) keep the original richer starting kit (~2/~3/~4 skills, Credits 95/165/245), because those fighters never get a second chance to develop. **Campaign Start** crews begin lean (1 skill per rank, Credits 75/125/170) at **500 Crew Rating**, with a **loosened pyramid** (one Leader, minimum three models, no ratio requirement) — deliberately, since a green crew hasn't built a chain of command yet. The Campaign Start Credits and the loosened pyramid are both first-draft and untested — worth checking the same way the standard pyramid's model-count balance was checked (`Crew Sim — Findings`) once played. The +1 WND price used to be the one number in this whole area with zero validation behind it; as of 2026-08-13 it is **41 Credits**, derived from the measured value of heavy armour (-2 on the injury roll, 41 Credits, `armour-level-n2500` 2026-08-13) - both buy the same thing, the model staying on the table longer (§26.1). The Campaign Start Credits and the loosened pyramid are now the untested numbers here.
+- Advancement finalized as a **10-Level track** (§26.1) after several rounds of iteration — 6 lifetime stat points, 4 total skills (1 starting + 3 leveled, all one fixed path), one WND bump at Level 7. This applies to **Campaign Start** crews specifically — the Level track is what a persistent campaign fighter grows through. **List Building now runs two separate starting tiers, not one** (§16): **Match Play** crews (one-off games, no persistence) keep the original richer starting kit (~2/~3/~4 skills, Credits 95/165/245), because those fighters never get a second chance to develop. **Campaign Start** crews begin lean (1 skill per rank, Credits 75/125/170) at **850 Crew Rating**, with a **loosened pyramid** (one Leader, minimum three models, no ratio requirement) — deliberately, since a green crew hasn't built a chain of command yet. The Campaign Start Credits and the loosened pyramid are both first-draft and untested — worth checking the same way the standard pyramid's model-count balance was checked (`Crew Sim — Findings`) once played. The +1 WND price used to be the one number in this whole area with zero validation behind it; as of 2026-08-13 it is **41 Credits**, derived from the measured value of heavy armour (-2 on the injury roll, 41 Credits, `armour-level-n2500` 2026-08-13) - both buy the same thing, the model staying on the table longer (§26.1). The Campaign Start Credits and the loosened pyramid are now the untested numbers here.
 - Hidden + objectives resolved (§25, §10): holding costs nothing and doesn't break Hidden; claiming/scoring always requires an Interact, which now explicitly breaks Hidden. Closes the sim's 17.9-point open question in practice.
 - Water killed for good (§21): any structure can be sabotage-charged during any raid using the mechanic the Sabotage scenario already had, no bespoke Water target needed.
 - Raid fairness resolved (§5): defender wins all Priority ties during a raid. One small lever, not a stacked pile of exceptions.

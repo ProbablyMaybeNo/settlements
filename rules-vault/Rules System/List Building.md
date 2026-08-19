@@ -49,10 +49,10 @@ The rank price *is* the stat price — see [[Unit Design#Ranks (build budget)]].
 
 | Rank | Stat pts | Tier caps | Skills | Orders | **Credits** |
 |---|:--:|---|:--:|:--:|:--:|
-| **Recruit** | 3 | no tiers | 0 | 0 | **65** |
-| **Fighter** | 5 | 2× T1 | ~2 | 0 | **95** |
-| **Specialist** | 7 | 1× T2 · 2× T1 | ~3 | 1 | **165** |
-| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | ~4 | 2 | **245** |
+| **Recruit** | 3 | no tiers | 0 | 0 | **131** |
+| **Fighter** | 5 | 2× T1 | ~2 | 0 | **183** |
+| **Specialist** | 7 | 1× T2 · 2× T1 | ~3 | 1 | **268** |
+| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | ~4 | 2 | **343** |
 
 ^tbl-the-four-ranks
 
@@ -60,10 +60,10 @@ The rank price *is* the stat price — see [[Unit Design#Ranks (build budget)]].
 
 | Rank | Stat pts | Tier caps | Starting skill | Orders | **Credits** |
 |---|:--:|---|:--:|:--:|:--:|
-| **Recruit** | 3 | no tiers | — | 0 | **65** |
-| **Fighter** | 5 | 2× T1 | 1× T1 | 0 | **75** |
-| **Specialist** | 7 | 1× T2 · 2× T1 | 1× T2 | 1 | **125** |
-| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | 1× T3 | 2 | **170** |
+| **Recruit** | 3 | no tiers | — | 0 | **131** |
+| **Fighter** | 5 | 2× T1 | 1× T1 | 0 | **183** |
+| **Specialist** | 7 | 1× T2 · 2× T1 | 1× T2 | 1 | **268** |
+| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | 1× T3 | 2 | **343** |
 
 ^tbl-the-four-ranks-campaign
 
