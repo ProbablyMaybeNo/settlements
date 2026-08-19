@@ -1,0 +1,199 @@
+{
+  "name": "catalogue-validation-n200",
+  "question": "Do crews built from the shipped catalogue at equal Crew Rating win equally? The end-to-end test of the points system, as opposed to of any single atom in it.",
+  "values": {
+    "matchups": [
+      {
+        "a": "Elite",
+        "b": "Horde",
+        "a_share": 0.3475,
+        "draw_rate": 0.135,
+        "se": 0.0354,
+        "verdict": "BROKEN"
+      },
+      {
+        "a": "Elite",
+        "b": "Armoured",
+        "a_share": 0.5275,
+        "draw_rate": 0.175,
+        "se": 0.0354,
+        "verdict": "EVEN"
+      },
+      {
+        "a": "Elite",
+        "b": "Assault",
+        "a_share": 0.615,
+        "draw_rate": 0.08,
+        "se": 0.0354,
+        "verdict": "BROKEN"
+      },
+      {
+        "a": "Horde",
+        "b": "Armoured",
+        "a_share": 0.6025,
+        "draw_rate": 0.165,
+        "se": 0.0354,
+        "verdict": "BROKEN"
+      },
+      {
+        "a": "Horde",
+        "b": "Assault",
+        "a_share": 0.69,
+        "draw_rate": 0.1,
+        "se": 0.0354,
+        "verdict": "BROKEN"
+      },
+      {
+        "a": "Armoured",
+        "b": "Assault",
+        "a_share": 0.6975,
+        "draw_rate": 0.125,
+        "se": 0.0354,
+        "verdict": "BROKEN"
+      }
+    ],
+    "even": 1,
+    "total": 6,
+    "target_rating": 1000,
+    "ratings": {
+      "Elite": 954,
+      "Horde": 753,
+      "Armoured": 875,
+      "Assault": 862
+    },
+    "models": {
+      "Elite": 4,
+      "Horde": 7,
+      "Armoured": 4,
+      "Assault": 5
+    }
+  },
+  "raw_cells": [
+    {
+      "a": "Elite",
+      "b": "Horde",
+      "a_share": 0.3475,
+      "draw_rate": 0.135,
+      "se": 0.0354,
+      "verdict": "BROKEN"
+    },
+    {
+      "a": "Elite",
+      "b": "Armoured",
+      "a_share": 0.5275,
+      "draw_rate": 0.175,
+      "se": 0.0354,
+      "verdict": "EVEN"
+    },
+    {
+      "a": "Elite",
+      "b": "Assault",
+      "a_share": 0.615,
+      "draw_rate": 0.08,
+      "se": 0.0354,
+      "verdict": "BROKEN"
+    },
+    {
+      "a": "Horde",
+      "b": "Armoured",
+      "a_share": 0.6025,
+      "draw_rate": 0.165,
+      "se": 0.0354,
+      "verdict": "BROKEN"
+    },
+    {
+      "a": "Horde",
+      "b": "Assault",
+      "a_share": 0.69,
+      "draw_rate": 0.1,
+      "se": 0.0354,
+      "verdict": "BROKEN"
+    },
+    {
+      "a": "Armoured",
+      "b": "Assault",
+      "a_share": 0.6975,
+      "draw_rate": 0.125,
+      "se": 0.0354,
+      "verdict": "BROKEN"
+    }
+  ],
+  "params": {
+    "N_per_matchup": 200,
+    "scenario": "hold_claim",
+    "sides_alternated": true,
+    "archetypes": [
+      "Elite",
+      "Horde",
+      "Armoured",
+      "Assault"
+    ]
+  },
+  "caveats": [
+    "Weapons are mapped to the nearest ENGINE weapon by damage and reach. Characteristics and skills are not modelled by the engine, so this validates the damage/range/armour/body spine only.",
+    "hold_claim only - the same single-scenario coverage limit every price in the catalogue carries.",
+    "Crews are trimmed to budget by shedding armour then models, which is what a player does, but the trim ORDER is a judgement and a different order would produce slightly different lists at the same rating."
+  ],
+  "engine": {
+    "combined": "2b861d61f09acca4",
+    "files": {
+      "engine.py": "85b4ab067caf5784",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "34344c3ea5c165b8",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "cb465518316ed6f3",
+    "n_constants": 57
+  },
+  "harness": {
+    "combined": "72138c9fabcb7c34",
+    "files": {
+      "measure.py": "4a64cfe6aef9965d",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "2800335824ef4da9",
+      "rosters.py": "0ea0162cc3038c11",
+      "diag_arrival.py": "8053c1c1360d59d6",
+      "measure_anchor.py": "18b899b87e588a1f",
+      "measure_armour.py": "e5fb576c45bc1dd4",
+      "measure_catalogue.py": "655e24b33c17ed09",
+      "measure_conditions.py": "3813d3607be33bf7",
+      "measure_density.py": "e9f9d0fa1cd53dd8",
+      "measure_elevation.py": "f4adca96ad1180f1",
+      "measure_payloads.py": "c4411dcfad7a2775",
+      "measure_pinned.py": "e7e342093ab3a8e0",
+      "measure_signsplit.py": "33e9ff327a547457",
+      "measure_stat_ladder.py": "812ec48eedd6c054",
+      "measure_weapon_classes.py": "1522f215095908bf",
+      "verify_scenarios.py": "da39545895392a68",
+      "verify_sprint_fix.py": "502eb33a0797f22e"
+    }
+  },
+  "script": {
+    "name": "measure_catalogue.py",
+    "sha": "655e24b33c17ed09"
+  },
+  "git": {
+    "commit": "c1a2e1d43c97",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [
+      "test-bench/points/ticks.py",
+      "test-bench/points/units.py",
+      "test-bench/harness/measure_catalogue.py",
+      "test-bench/points/skills.py"
+    ],
+    "dirty_paths": [
+      "est-bench/harness/test_catalogue_gates.py",
+      "test-bench/points/ticks.py",
+      "test-bench/points/units.py",
+      "test-bench/harness/measure_catalogue.py",
+      "test-bench/points/skills.py"
+    ]
+  },
+  "created": "20260819-123837",
+  "python": "3.13.7",
+  "schema": 2
+}

@@ -62,7 +62,23 @@ knowing the rosters changed - never to quietly sync the numbers.
 
 from __future__ import annotations
 
-SCALE = 1000
+# THE CREW RATING SCALE — REBASED 1000 -> 1700, 2026-08-19.
+#
+# Bodies were re-derived onto the measured stat ladder and rose 1.4x-2.0x (a
+# Recruit inflated most, a Leader least, because a one-sided stat saturates and
+# the cheap ranks were buying the DEAREST rungs). Left at 1000 that would have
+# cut a standard crew from six models to four and changed what the game is.
+#
+# 1700 holds bodies at the same 73% share of the budget a 6-model pyramid
+# occupied before, so the GAME SHAPE is unchanged - six models, same pyramid -
+# while the body:gear RELATIONSHIP moves to where measurement puts it. Gear did
+# not inflate, so at the new budget a crew affords relatively MORE gear, which is
+# the direction both the ratio check and the catalogue validation demanded.
+#
+# Campaign Start scales with it: 500 -> 850.
+SCALE = 1700
+CREW_RATING_STANDARD = 1700
+CREW_RATING_CAMPAIGN_START = 850
 TICK = 10  # Points per generic unconditional +1 test tick (legacy abstraction)
 
 # Confidence tiers, as data so `points.verify` can assert nothing ships untagged.
@@ -286,14 +302,74 @@ ORDER_PREMIUM = {0: 0, 1: 40, 2: 90}
 SKILL_TIER_CREDITS = {1: 20, 2: 35, 3: 55}
 
 # Structure Materials derivation
-# [PARKED] MATERIALS AXIS. Not measured, not derived, and deliberately NOT
-# attempted: every figure below prices off a base gatherer rate that is not
-# computable - D23 prices structures by payback and the denominator is stated
-# nowhere. That is a design decision of Ross's, not a measurement, so these are
-# parked rather than tagged C. PARKED is a legitimate terminal state; LEGACY is
-# not. Do not derive downstream numbers from these until the rate is ruled.
+# ---------------------------------------------------------------------------
+# THE BASE GATHERER RATE — RULED 2026-08-19. The parked decision, taken.
+#
+# This was the last thing blocking the entire Materials axis: structures cost
+# Materials, crews cost Credits, and NO RATE CONNECTED THEM. Nothing downstream
+# - Structures, Outposts, Trade Routes, worker benefits, loot, raid caps - could
+# be checked against anything.
+#
+# THE EXCHANGE RATE IS DERIVED, NOT CHOSEN. Economy.md sec 50: "The Processor
+# produces Materials, the Salvage Yard produces Credits, once per Settlement
+# Phase." Those two structures are IDENTICAL on every priced axis:
+#
+#     Processor      80 Mat   role gatherer   tier 1   power draw 1
+#     Salvage Yard   80 Mat   role gatherer   tier 1   power draw 1
+#
+# Same build cost, same upkeep, same role band. Two assets that cost the same and
+# draw the same must be worth the same, or one is strictly dominant and nobody
+# builds the other. Their outputs are therefore equal in value, which fixes the
+# rate at 1:1 WITHOUT anyone choosing it. That is the whole derivation, and it is
+# the only part of this block that is not a judgement.
+MATERIALS_PER_CREDIT = 1.0
+
+# [OVERRIDE] the rate itself. Required fields:
+#   measured:  nothing. The sim models battles, not settlement cycles, so no
+#              gatherer rate has ever been or can currently be measured.
+#   not trusted because: there is nothing to distrust - the alternative was
+#              leaving the axis uncomputable, which is what "parked" meant and
+#              why every structure price has been unverifiable since it was set.
+#   retires when: campaign play produces cycle data, which is table testing, not
+#              simulation. This is exactly the C-tier bargain: a ruled number
+#              with a written derivation is correctable; an absent one is not.
+#
+# DERIVATION: payback against the campaign's own clock. The campaign runs one
+# downtime cycle between EVERY game, so a Settlement Phase is a game. A tier-1
+# gatherer costs 80 Materials; ruling that it earns itself back over ~10 games -
+# one campaign arc - gives 8 per cycle.
+#
+#     80 Materials / 10 Settlement Phases = 8 per cycle
+#
+# TWO CONSEQUENCES, both stated rather than discovered later:
+#
+#  1. The stated worker bonus is +1 (Economy.md sec 50), so a worker is +12.5% on
+#     a base of 8. That is a real but not dominant incentive - deliberately, since
+#     a worker is a fighter NOT FIGHTING that cycle and the settlement layer must
+#     not out-compete the battle it exists to feed.
+#  2. Payback and worker-weight pull in opposite directions. A lower base makes
+#     the worker matter more and payback slower; a higher base does the reverse.
+#     8 is the compromise, and it is the number to move first if campaign play
+#     says the settlement layer is too fast or too slow.
+BASE_GATHER_RATE = 8          # Materials or Credits per Settlement Phase, tier 1
+WORKER_BONUS = 1              # Economy.md sec 50, stated not derived
+GATHERER_PAYBACK_CYCLES = 10  # the ruling above, in games
+
+
+def credits_to_materials(credits: float) -> float:
+    return credits * MATERIALS_PER_CREDIT
+
+
+def materials_to_credits(materials: float) -> float:
+    return materials / MATERIALS_PER_CREDIT
+
+
+# [C] MATERIALS AXIS - UNPARKED 2026-08-19. The base gatherer rate is now ruled
+# (see above), so these finally price against something. They remain C: each is
+# derived from the footprint/role bands rather than measured, and the whole axis
+# inherits the OVERRIDE on the rate itself.
 POWER_MAT = 15
-# [PARKED] Materials axis - see POWER_MAT.
+# [C] Materials axis - see BASE_GATHER_RATE and POWER_MAT.
 FOOTPRINT_BAND = {
     "station": 25,
     "plant": 40,
@@ -302,7 +378,7 @@ FOOTPRINT_BAND = {
     "line": 25,
     "yard": 40,
 }
-# [PARKED] Materials axis - see POWER_MAT.
+# [C] Materials axis - see BASE_GATHER_RATE and POWER_MAT.
 ROLE_BAND = {
     "sustain": 0,
     "gatherer": 25,
@@ -311,9 +387,9 @@ ROLE_BAND = {
     "recover": 30,
     "defend": 45,
 }
-# [PARKED] Materials axis - see POWER_MAT.
+# [C] Materials axis - see BASE_GATHER_RATE and POWER_MAT.
 UPGRADE_MULT = {2: 1.60, 3: 1.75}
-# [PARKED] Materials axis - see POWER_MAT.
+# [C] Materials axis - see BASE_GATHER_RATE and POWER_MAT.
 GROUNDWORKS_MAT = {1: 120, 2: 200}
 
 # ---------------------------------------------------------------------------

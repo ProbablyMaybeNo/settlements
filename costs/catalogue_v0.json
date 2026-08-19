@@ -1,29 +1,29 @@
 {
   "version": "0.1",
-  "scale": 1000,
+  "scale": 1700,
   "ranks": [
     {
       "rank": "recruit",
-      "derived": 65,
-      "listed": 65,
+      "derived": 131,
+      "listed": 131,
       "delta": 0
     },
     {
       "rank": "fighter",
-      "derived": 95,
-      "listed": 95,
+      "derived": 183,
+      "listed": 183,
       "delta": 0
     },
     {
       "rank": "specialist",
-      "derived": 165,
-      "listed": 165,
+      "derived": 268,
+      "listed": 268,
       "delta": 0
     },
     {
       "rank": "leader",
-      "derived": 245,
-      "listed": 245,
+      "derived": 343,
+      "listed": 343,
       "delta": 0
     }
   ],

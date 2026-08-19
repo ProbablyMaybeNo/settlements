@@ -457,3 +457,47 @@ So the write-back cannot be performed without appearing to invalidate its own
 inputs. `provenance.staleness()` now reports a moved cost table **separately**
 from engine and harness changes, marked *downstream — not a reason to re-run*. A
 guard that fires when nothing is wrong is worse than no guard.
+
+---
+
+## 8 · End-to-end validation — do equal-points crews play even?
+
+**The first test the points system has ever had of the only question it exists to
+answer.** Every earlier measurement priced an *atom* in isolation; none asked
+whether two lists costing the same actually win the same.
+
+Four archetypes built from *this catalogue* (not a harness roster), each spent up
+to the same Crew Rating, played as side-alternated matchups on `hold_claim`,
+N=1500. `catalogue-validation-n1500`.
+
+| | Legacy bodies | **Measured bodies (shipped)** |
+|---|:--:|:--:|
+| Win-rate spread | **31% – 70%** | **41% – 61%** |
+| Worst skew | 20.1% off parity | **11.2%** |
+| BROKEN (>10% off) | 4 of 6 | **1 of 6** |
+
+**Re-deriving bodies halved the spread.** That is the evidence the body-scale
+ruling rests on, and it is *corroborated* rather than single-sourced: the gear:body
+ratio check said bodies were too cheap relative to gear, and the sim independently
+said more cheap bodies win. Two different instruments, same direction.
+
+### What is still skewed, and it is one thing
+
+| Matchup | A share |
+|---|:--:|
+| Armoured vs **Assault** | **61.2%** ⚠ |
+| Horde vs **Assault** | 58.9% |
+| Elite vs **Assault** | 55.8% |
+| Elite vs Armoured | 40.8% |
+| Elite vs Horde | 42.2% |
+| Horde vs Armoured | 45.6% ✅ |
+
+**Assault — the melee archetype — loses every matchup.** That is the single
+remaining structural skew, and it is coherent with the catalogue's known biases:
+melee gets no value from the flat range curve, and `hold_claim` rewards holding
+ground over closing. Whether melee weapons are overpriced or the scenario
+undervalues them **cannot be separated at 1-of-5 scenario coverage** — Raid and
+Sabotage, both built and passing, are where a melee crew should show its worth.
+
+**This is a table-testing question now, not a measurement one.** It is the first
+thing to watch when the game hits a table.

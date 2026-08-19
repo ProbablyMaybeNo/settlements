@@ -47,6 +47,13 @@ NOT_A_PRICE = {
     # is deliberately NOT in this set.
     "DAMAGE_CAP", "CRAFTABLE_RANGE_CEILING", "LONG_RANGE_MIN_RANK",
     "LONG_RANGE_PER_CREW",
+    # Budget and economy CONSTANTS, not prices: a Crew Rating is the size of the
+    # envelope, a worker bonus and a payback target are stated rules, and the
+    # Materials:Credits rate is an exchange rate. None is the cost of a thing.
+    # BASE_GATHER_RATE IS deliberately not in this set - it is a rate that had to
+    # be ruled, and it carries its OVERRIDE fields.
+    "CREW_RATING_STANDARD", "CREW_RATING_CAMPAIGN_START",
+    "MATERIALS_PER_CREDIT", "WORKER_BONUS", "GATHERER_PAYBACK_CYCLES",
 }
 
 TIER_MARKS = ("[A]", "[B]", "[C]", "[BLOCKED]", "[OVERRIDE]", "[PARKED]", "[measured")
@@ -246,3 +253,33 @@ def test_concealable_is_cut_and_stays_cut():
         "Concealable was cut 2026-08-14 - 'may start Hidden' is skill territory, "
         "and Vanishing Point / Camouflage Drill already do it properly")
     assert "quiet" in ticks.CHAR_CREDITS, "Quiet is a real axis and stays"
+
+
+# --- M1: skills are attachable, priced, and rank-gated -----------------------
+
+def test_every_vault_skill_is_priced():
+    """149 skills parsed from the vault; each must resolve to a tier price."""
+    from points.skills import SKILLS, skill_credits
+    assert len(SKILLS) > 140, f"only {len(SKILLS)} skills parsed - vault format changed?"
+    for name in SKILLS:
+        assert skill_credits(name) in ticks.SKILL_TIER_CREDITS.values()
+
+
+def test_skills_are_rank_gated():
+    """A Recruit has no tiered stat, so it may hold no skill at all; a Fighter
+    tops out at 2x T1. Without this the pyramid stops meaning anything."""
+    from points.skills import validate_skills
+    assert validate_skills(["Dead Eye"], "recruit")
+    assert validate_skills(["Dead Eye"], "fighter")
+    assert not validate_skills(["Dead Eye"], "leader")
+    assert validate_skills(["Weave", "Vault", "Leaper"], "fighter")   # 3x T1 > cap 2
+    assert not validate_skills(["Weave", "Vault"], "fighter")
+
+
+def test_a_skill_costs_its_tier_on_a_model():
+    from points.units import Fighter, fielded_cost
+    from points.weapons import WeaponBuild
+    r = WeaponBuild("R", "standard_ranged", damage=3, reach=18)
+    plain = Fighter(name="L", rank=Rank.LEADER, weapons=[r])
+    skilled = Fighter(name="L", rank=Rank.LEADER, weapons=[r], skills=["Dead Eye"])
+    assert fielded_cost(skilled) - fielded_cost(plain) == ticks.SKILL_TIER_CREDITS[3]
