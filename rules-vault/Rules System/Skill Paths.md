@@ -27,7 +27,7 @@ So the stat line *is* the skill loadout — **spread wide** (`STR+2 / INT+2` →
 ^tbl-how-it-works-skills-ride-the-stat-line
 
 > [!info] Two starting kits, one catalogue
-> **Match Play** (one-off game, 1700 Crew Rating) takes every skill the stat line earns — those fighters never get another chance to develop. A **Campaign Start** crew (850 Crew Rating) takes **exactly one skill, at its rank's tier**, and earns the rest through the Level track ([[Progression]]) — a fully-levelled fighter ends on **four** skills, all from their Primary path. Ruled 2026-08-05, [[Full Rules System v1]] §16 · §26.1.
+> **Match Play** (one-off game, 850 Crew Rating) takes every skill the stat line earns — those fighters never get another chance to develop. A **Campaign Start** crew (425 Crew Rating) takes **exactly one skill, at its rank's tier**, and earns the rest through the Level track ([[Progression]]) — a fully-levelled fighter ends on **four** skills, all from their Primary path. Ruled 2026-08-05, [[Full Rules System v1]] §16 · §26.1.
 
 Only a **Leader** gets a **T3** stat (the +6 elite). Full rank rules in [[Unit Design#Ranks (build budget)]] · fielding in [[List Building]].
 

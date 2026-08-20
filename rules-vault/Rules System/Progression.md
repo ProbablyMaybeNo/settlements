@@ -67,7 +67,7 @@ A fully-levelled fighter carries **+241 Credits** over their rank body, **6 life
 
 > [!warning] Two prices on this track are unmeasured
 > **+1 WND is now 41 Credits, derived from the measured value of heavy armour (-2 on the injury roll, 41 Credits, `armour-level-n2500` 2026-08-13) - both buy the same thing, the model staying on the table longer.** It was 45 by pure judgement. Still C-tier — derived, not measured.
-> And the flat **15 per stat point** is a known underprice, but the old "16–34 Credits" figure quoted here was **contaminated** (measured before the 2026-08-13 policy fix and priced across scenarios since dropped). The current measured ladder is **DEX 37/26/27/18/15/10 across the six rungs** — a one-sided stat saturates — and **STR flat at 25**, because an opposed roll cannot saturate. The flat 15 is therefore wrong in *both* directions. Both flagged in [[Full Rules System v1]] §26.1; full derivation in `docs/POINTS-CATALOGUE.md`.
+> And the flat **15 per stat point** is a known underprice, but the old "16–34 Credits" figure quoted here was **contaminated** (measured before the 2026-08-13 policy fix and priced across scenarios since dropped). The current measured ladder is **DEX 20/15/15/10/10/5 across the six rungs** — a one-sided stat saturates — and **STR flat at 25**, because an opposed roll cannot saturate. The flat 15 is therefore wrong in *both* directions. Both flagged in [[Full Rules System v1]] §26.1; full derivation in `docs/POINTS-CATALOGUE.md`.
 >
 > A fighter who takes **Tough** (T3 STR) at Level 6 or 10 stacks it with the Level 7 wound for **WND 3** at the ceiling. That was walked through deliberately and accepted — recorded here so the stack is visible in the rules, not just in the conversation that produced it.
 

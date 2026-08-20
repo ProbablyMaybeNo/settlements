@@ -49,10 +49,10 @@ The rank price *is* the stat price — see [[Unit Design#Ranks (build budget)]].
 
 | Rank | Stat pts | Tier caps | Skills | Orders | **Credits** |
 |---|:--:|---|:--:|:--:|:--:|
-| **Recruit** | 3 | no tiers | 0 | 0 | **131** |
-| **Fighter** | 5 | 2× T1 | ~2 | 0 | **183** |
-| **Specialist** | 7 | 1× T2 · 2× T1 | ~3 | 1 | **268** |
-| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | ~4 | 2 | **343** |
+| **Recruit** | 3 | no tiers | 0 | 0 | **70** |
+| **Fighter** | 5 | 2× T1 | ~2 | 0 | **100** |
+| **Specialist** | 7 | 1× T2 · 2× T1 | ~3 | 1 | **145** |
+| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | ~4 | 2 | **185** |
 
 ^tbl-the-four-ranks
 
@@ -60,10 +60,10 @@ The rank price *is* the stat price — see [[Unit Design#Ranks (build budget)]].
 
 | Rank | Stat pts | Tier caps | Starting skill | Orders | **Credits** |
 |---|:--:|---|:--:|:--:|:--:|
-| **Recruit** | 3 | no tiers | — | 0 | **131** |
-| **Fighter** | 5 | 2× T1 | 1× T1 | 0 | **183** |
-| **Specialist** | 7 | 1× T2 · 2× T1 | 1× T2 | 1 | **268** |
-| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | 1× T3 | 2 | **343** |
+| **Recruit** | 3 | no tiers | — | 0 | **70** |
+| **Fighter** | 5 | 2× T1 | 1× T1 | 0 | **100** |
+| **Specialist** | 7 | 1× T2 · 2× T1 | 1× T2 | 1 | **145** |
+| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | 1× T3 | 2 | **185** |
 
 ^tbl-the-four-ranks-campaign
 
@@ -160,8 +160,8 @@ Full detail in **[[Crew Sim — Findings]]**. Eight archetypes, all built to 100
 ## Open dials
 - [x] Rank names locked: **Recruit / Fighter / Specialist / Leader** — replaces the old Rabble/Recruit working titles.
 - [x] Scale moved to **1000 Credits**; the old 5/8/16/24 ladder is retired *(2026-08-05, [[Full Rules System v1]] §16)*.
-- [ ] Match Play **65/95/165/245 at 1000** — sim-validated on the old 100-point scale (an 11-point spread across 8 archetypes), not yet at a table.
-- [ ] Campaign Start **65/75/125/170 at 500** — **not validated; the sim contradicts it.** See the warning above and `test-bench/balance/campaign500.py`.
+- [ ] Match Play **70/100/145/185 at 850** — bodies re-derived from the measured stat ladder 2026-08-19 and the scale halved 2026-08-20. Validated in the sim end-to-end (`catalogue-validation-n1500`: four archetypes at equal Crew Rating land in a 38–63% band), **not yet at a table**.
+- [ ] Campaign Start **70/100/145/185 at 425** — the separate Campaign-Start body table was retired 2026-08-19; both tiers now use one derived ladder and differ only in the cap and the starting skill count. The old 65/75/125/170 figures were never validated and the sim contradicted them.
 - [ ] NRV is close to a dead stat at Fighter level; it earns its keep only through Bravery *skills*.
 
 ## Rule ledger
