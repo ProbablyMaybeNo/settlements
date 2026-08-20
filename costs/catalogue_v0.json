@@ -1,29 +1,29 @@
 {
   "version": "0.1",
-  "scale": 1700,
+  "scale": 850,
   "ranks": [
     {
       "rank": "recruit",
-      "derived": 131,
-      "listed": 131,
+      "derived": 70,
+      "listed": 70,
       "delta": 0
     },
     {
       "rank": "fighter",
-      "derived": 183,
-      "listed": 183,
+      "derived": 100,
+      "listed": 100,
       "delta": 0
     },
     {
       "rank": "specialist",
-      "derived": 268,
-      "listed": 268,
+      "derived": 145,
+      "listed": 145,
       "delta": 0
     },
     {
       "rank": "leader",
-      "derived": 343,
-      "listed": 343,
+      "derived": 185,
+      "listed": 185,
       "delta": 0
     }
   ],
@@ -47,12 +47,12 @@
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
-        "balanced": 20
+        "balanced": 10
       },
       "drawbacks": {},
-      "total": 20,
+      "total": 10,
       "legacy_expected": 40,
-      "legacy_delta": -20
+      "legacy_delta": -30
     },
     {
       "name": "Machete",
@@ -62,9 +62,9 @@
       "range_inches": 0,
       "characteristics": {},
       "drawbacks": {},
-      "total": 15,
+      "total": 10,
       "legacy_expected": 40,
-      "legacy_delta": -25
+      "legacy_delta": -30
     },
     {
       "name": "Crowbar",
@@ -73,12 +73,12 @@
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
-        "breaching": 30
+        "breaching": 15
       },
       "drawbacks": {},
-      "total": 45,
+      "total": 25,
       "legacy_expected": 70,
-      "legacy_delta": -25
+      "legacy_delta": -45
     },
     {
       "name": "Magnum",
@@ -87,71 +87,71 @@
       "range_band": "close",
       "range_inches": 8,
       "characteristics": {
-        "brutal": 15
+        "brutal": 10
       },
       "drawbacks": {
         "short_range": -5
       },
-      "total": 45,
+      "total": 30,
       "legacy_expected": 90,
-      "legacy_delta": -45
+      "legacy_delta": -60
     },
     {
       "name": "Great Axe",
       "class": "heavy_melee",
-      "class_points": 15,
+      "class_points": 10,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {},
       "drawbacks": {},
-      "total": 30,
+      "total": 20,
       "legacy_expected": 80,
-      "legacy_delta": -50
+      "legacy_delta": -60
     },
     {
       "name": "Sledgehammer",
       "class": "heavy_melee",
-      "class_points": 15,
+      "class_points": 10,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
-        "heavy_impact": 2,
-        "breaching": 30
+        "heavy_impact": 5,
+        "breaching": 15
       },
       "drawbacks": {},
-      "total": 77,
+      "total": 50,
       "legacy_expected": 140,
-      "legacy_delta": -63
+      "legacy_delta": -90
     },
     {
       "name": "Fire Axe",
       "class": "heavy_melee",
-      "class_points": 15,
+      "class_points": 10,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
-        "brutal": 15,
-        "bleeding": 35
+        "brutal": 10,
+        "bleeding": 20
       },
       "drawbacks": {},
-      "total": 80,
+      "total": 50,
       "legacy_expected": 160,
-      "legacy_delta": -80
+      "legacy_delta": -110
     },
     {
       "name": "Reaping Hook",
       "class": "heavy_melee",
-      "class_points": 15,
+      "class_points": 10,
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
-        "cleaving": 50,
-        "defensive": 30
+        "cleaving": 25,
+        "defensive": 15
       },
       "drawbacks": {},
-      "total": 95,
+      "total": 50,
       "legacy_expected": 160,
-      "legacy_delta": -65
+      "legacy_delta": -110
     },
     {
       "name": "Pistol",
@@ -161,9 +161,9 @@
       "range_inches": 8,
       "characteristics": {},
       "drawbacks": {},
-      "total": 21,
+      "total": 15,
       "legacy_expected": 40,
-      "legacy_delta": -19
+      "legacy_delta": -25
     },
     {
       "name": "Snub Revolver",
@@ -173,160 +173,160 @@
       "range_inches": 8,
       "characteristics": {},
       "drawbacks": {},
-      "total": 20,
+      "total": 15,
       "legacy_expected": 40,
-      "legacy_delta": -20
+      "legacy_delta": -25
     },
     {
       "name": "Pipe Shotgun",
       "class": "standard_ranged",
-      "class_points": 23,
+      "class_points": 15,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
-        "brutal": 15,
-        "spread": 18
+        "brutal": 10,
+        "spread": 10
       },
       "drawbacks": {
-        "short_range": -10,
+        "short_range": -5,
         "unstable": -5
       },
-      "total": 56,
+      "total": 35,
       "legacy_expected": 120,
-      "legacy_delta": -64
+      "legacy_delta": -85
     },
     {
       "name": "Assault Rifle",
       "class": "standard_ranged",
-      "class_points": 23,
+      "class_points": 15,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
-        "accurate": 18
+        "accurate": 10
       },
       "drawbacks": {},
-      "total": 60,
+      "total": 35,
       "legacy_expected": 130,
-      "legacy_delta": -70
+      "legacy_delta": -95
     },
     {
       "name": "Nailgun",
       "class": "standard_ranged",
-      "class_points": 23,
+      "class_points": 15,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
-        "bleeding": 35
+        "bleeding": 20
       },
       "drawbacks": {},
-      "total": 58,
+      "total": 35,
       "legacy_expected": 140,
-      "legacy_delta": -82
+      "legacy_delta": -105
     },
     {
       "name": "Grandpa's Hunting Rifle",
       "class": "standard_ranged",
-      "class_points": 23,
+      "class_points": 15,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
-        "accurate": 18
+        "accurate": 10
       },
       "drawbacks": {},
-      "total": 66,
+      "total": 40,
       "legacy_expected": 190,
-      "legacy_delta": -124
+      "legacy_delta": -150
     },
     {
       "name": "Squad Machine Gun",
       "class": "heavy_ranged",
-      "class_points": 38,
+      "class_points": 25,
       "range_band": "deployment",
       "range_inches": 24,
       "characteristics": {
-        "suppressive": 38,
-        "armour_piercing": 10
+        "suppressive": 20,
+        "armour_piercing": 5
       },
       "drawbacks": {},
-      "total": 96,
+      "total": 55,
       "legacy_expected": 220,
-      "legacy_delta": -124
+      "legacy_delta": -165
     },
     {
       "name": "Makeshift Flamethrower",
       "class": "standard_ranged",
-      "class_points": 23,
+      "class_points": 15,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
-        "incendiary": 23
+        "incendiary": 10
       },
       "drawbacks": {
-        "short_range": -10
+        "short_range": -5
       },
-      "total": 36,
+      "total": 20,
       "legacy_expected": 150,
-      "legacy_delta": -114
+      "legacy_delta": -130
     },
     {
       "name": "Molotov",
       "class": "thrown",
-      "class_points": 6,
+      "class_points": 5,
       "range_band": "thrown",
       "range_inches": 6,
       "characteristics": {
-        "incendiary": 23
+        "incendiary": 10
       },
       "drawbacks": {
         "single_use": -5
       },
-      "total": 24,
+      "total": 10,
       "legacy_expected": 90,
-      "legacy_delta": -66
+      "legacy_delta": -80
     },
     {
       "name": "Smoke Grenade",
       "class": "thrown",
-      "class_points": 6,
+      "class_points": 5,
       "range_band": "thrown",
       "range_inches": 6,
       "characteristics": {
-        "smoke": 30
+        "smoke": 15
       },
       "drawbacks": {
         "single_use": -5
       },
-      "total": 31,
+      "total": 15,
       "legacy_expected": 50,
-      "legacy_delta": -19
+      "legacy_delta": -35
     },
     {
       "name": "Ranger's Long Rifle",
       "class": "heavy_ranged",
-      "class_points": 38,
+      "class_points": 25,
       "range_band": "deployment",
       "range_inches": 24,
       "characteristics": {
-        "accurate": 18
+        "accurate": 10
       },
       "drawbacks": {},
-      "total": 93,
+      "total": 55,
       "legacy_expected": 0,
-      "legacy_delta": 93
+      "legacy_delta": 55
     }
   ],
   "design_examples": [
     {
       "name": "Auto Rifle +Fire",
       "class": "standard_ranged",
-      "class_points": 23,
+      "class_points": 15,
       "range_band": "effective",
       "range_inches": 18,
       "characteristics": {
-        "incendiary": 23
+        "incendiary": 10
       },
       "drawbacks": {},
-      "total": 46
+      "total": 25
     },
     {
       "name": "Machete +Shock",
@@ -347,11 +347,11 @@
       "range_band": "melee",
       "range_inches": 0,
       "characteristics": {
-        "brutal": 15,
+        "brutal": 10,
         "shocking": 5
       },
       "drawbacks": {},
-      "total": 20
+      "total": 15
     }
   ],
   "structures": [
@@ -361,7 +361,7 @@
       "role": "operate",
       "tier": 1,
       "power_draw": 1,
-      "materials": 130,
+      "materials": 70,
       "starter": true
     },
     {
@@ -370,7 +370,7 @@
       "role": "sustain",
       "tier": 1,
       "power_draw": 0,
-      "materials": 40,
+      "materials": 20,
       "starter": true
     },
     {
@@ -379,7 +379,7 @@
       "role": "gatherer",
       "tier": 1,
       "power_draw": 1,
-      "materials": 80,
+      "materials": 45,
       "starter": true
     },
     {
@@ -388,7 +388,7 @@
       "role": "gatherer",
       "tier": 1,
       "power_draw": 1,
-      "materials": 80,
+      "materials": 45,
       "starter": true
     },
     {
@@ -397,7 +397,7 @@
       "role": "sustain",
       "tier": 1,
       "power_draw": 1,
-      "materials": 115,
+      "materials": 60,
       "starter": false
     },
     {
@@ -406,7 +406,7 @@
       "role": "sustain",
       "tier": 1,
       "power_draw": 1,
-      "materials": 90,
+      "materials": 50,
       "starter": false
     },
     {
@@ -415,7 +415,7 @@
       "role": "sustain",
       "tier": 1,
       "power_draw": 1,
-      "materials": 40,
+      "materials": 25,
       "starter": false
     },
     {
@@ -424,7 +424,7 @@
       "role": "sustain",
       "tier": 2,
       "power_draw": 2,
-      "materials": 168,
+      "materials": 96,
       "starter": false
     },
     {
@@ -433,7 +433,7 @@
       "role": "convert",
       "tier": 1,
       "power_draw": 1,
-      "materials": 75,
+      "materials": 45,
       "starter": false
     },
     {
@@ -442,7 +442,7 @@
       "role": "convert",
       "tier": 2,
       "power_draw": 2,
-      "materials": 224,
+      "materials": 128,
       "starter": false
     },
     {
@@ -451,7 +451,7 @@
       "role": "convert",
       "tier": 1,
       "power_draw": 1,
-      "materials": 75,
+      "materials": 45,
       "starter": false
     },
     {
@@ -460,7 +460,7 @@
       "role": "convert",
       "tier": 2,
       "power_draw": 2,
-      "materials": 224,
+      "materials": 128,
       "starter": false
     },
     {
@@ -469,7 +469,7 @@
       "role": "convert",
       "tier": 1,
       "power_draw": 1,
-      "materials": 125,
+      "materials": 70,
       "starter": false
     },
     {
@@ -478,7 +478,7 @@
       "role": "recover",
       "tier": 1,
       "power_draw": 1,
-      "materials": 120,
+      "materials": 65,
       "starter": false
     },
     {
@@ -487,7 +487,7 @@
       "role": "recover",
       "tier": 1,
       "power_draw": 1,
-      "materials": 120,
+      "materials": 65,
       "starter": false
     },
     {
@@ -496,7 +496,7 @@
       "role": "operate",
       "tier": 1,
       "power_draw": 1,
-      "materials": 95,
+      "materials": 50,
       "starter": false
     },
     {
@@ -505,7 +505,7 @@
       "role": "operate",
       "tier": 1,
       "power_draw": 1,
-      "materials": 95,
+      "materials": 50,
       "starter": false
     },
     {
@@ -514,7 +514,7 @@
       "role": "defend",
       "tier": 1,
       "power_draw": 1,
-      "materials": 85,
+      "materials": 50,
       "starter": false
     },
     {
@@ -523,7 +523,7 @@
       "role": "defend",
       "tier": 1,
       "power_draw": 1,
-      "materials": 135,
+      "materials": 75,
       "starter": false
     },
     {
@@ -532,7 +532,7 @@
       "role": "defend",
       "tier": 1,
       "power_draw": 1,
-      "materials": 100,
+      "materials": 55,
       "starter": false
     },
     {
@@ -541,7 +541,7 @@
       "role": "defend",
       "tier": 2,
       "power_draw": 2,
-      "materials": 184,
+      "materials": 104,
       "starter": false
     },
     {
@@ -550,7 +550,7 @@
       "role": "defend",
       "tier": 2,
       "power_draw": 2,
-      "materials": 184,
+      "materials": 104,
       "starter": false
     },
     {
@@ -559,7 +559,7 @@
       "role": "operate",
       "tier": 2,
       "power_draw": 2,
-      "materials": 272,
+      "materials": 144,
       "starter": false
     },
     {
@@ -568,7 +568,7 @@
       "role": "operate",
       "tier": 2,
       "power_draw": 2,
-      "materials": 232,
+      "materials": 128,
       "starter": false
     },
     {
@@ -577,13 +577,13 @@
       "role": "operate",
       "tier": 1,
       "power_draw": 1,
-      "materials": 95,
+      "materials": 50,
       "starter": false
     }
   ],
   "groundworks": {
-    "I": 120,
-    "II": 200
+    "I": 60,
+    "II": 100
   },
   "settlement_dials": {
     "housing_base": 12,

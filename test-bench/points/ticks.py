@@ -76,9 +76,9 @@ from __future__ import annotations
 # the direction both the ratio check and the catalogue validation demanded.
 #
 # Campaign Start scales with it: 500 -> 850.
-SCALE = 1700
-CREW_RATING_STANDARD = 1700
-CREW_RATING_CAMPAIGN_START = 850
+SCALE = 850
+CREW_RATING_STANDARD = 850
+CREW_RATING_CAMPAIGN_START = 425
 TICK = 10  # Points per generic unconditional +1 test tick (legacy abstraction)
 
 # Confidence tiers, as data so `points.verify` can assert nothing ships untagged.
@@ -102,7 +102,7 @@ TIER_C = "C"  # derived by rule from an A/B atom, never measured directly
 # ---------------------------------------------------------------------------
 ANCHOR_WP = 0.606              # win-points per model, +1 Damage
 ANCHOR_CI = (0.436, 0.776)
-CREDITS_PER_WINPOINT = 24.77   # = 15 / 0.606
+CREDITS_PER_WINPOINT = 12.385  # halved 2026-08-20; see ROUNDING below
 
 
 def cr(wp: float) -> int:
@@ -131,21 +131,21 @@ def cr(wp: float) -> int:
 # armour result was later shown to be an artefact, so the 1D provenance of these
 # four numbers is a live risk, not a settled fact.
 # ---------------------------------------------------------------------------
-CREDITS_DAMAGE = 15  # [A] the anchor: +1 on the Injury roll. 0.606 wp, the peg.
+CREDITS_DAMAGE = 10  # [A] the anchor: +1 on the Injury roll. 0.606 wp, the peg.
 
 # [B] +1 to-hit. The 1D figure was 22 and is SUPERSEDED — to-hit is a DEX rung,
 # and the measured DEX ladder is not flat (37 Cr at the first rung, 10 at the
 # last, a 3.6x spread). A single number for "+1 to-hit" is therefore wrong by
 # construction; 22 survives only as the ladder's mid value and is kept for the
 # legacy callers that still want a scalar. Price from STAT_LADDER instead.
-CREDITS_TO_HIT = 22
+CREDITS_TO_HIT = 10
 
 # [C] +1 Stress inflicted on a hit. DERIVATION: no 2.5D measurement isolates
 # Stress. Its nearest measured neighbour is Pinned (value-of-pinned-n4000,
 # +0.510 wp = 13 Cr), which is "+1 Stress AND the pin" — so Stress alone is
 # strictly less than 13. Held at the legacy 7, which sits inside that bound.
 # Correct this first if Stress ever matters at the table.
-CREDITS_STRESS = 7
+CREDITS_STRESS = 5
 
 # Provisional conditional ladder: L = (1 - f)/f, net multiplier = f.
 # f = 0.8 ("most activations") is a judgement band, NOT measured. Measuring f per
@@ -154,7 +154,7 @@ CONDITIONAL_F_PROVISIONAL = 0.8
 # [C] DERIVATION: the unconditional to-hit price x CONDITIONAL_F_PROVISIONAL.
 # f = 0.8 is a judgement band, not a measurement - measuring f per trait was
 # Milestone 4's job and never happened.
-CREDITS_TO_HIT_CONDITIONAL = 18  # round(22 * 0.8) = 17.6 -> 18  [provisional]
+CREDITS_TO_HIT_CONDITIONAL = 10  # round(22 * 0.8) = 17.6 -> 18  [provisional]
 
 # +1 Armour measured at 1.0089x damage (1D) and 0.9756x (2.5D) — both engines
 # agree armour is worth about the same as damage per point. The ABSOLUTE level is
@@ -193,9 +193,9 @@ CREDITS_INJURY = CREDITS_DAMAGE  # [measured] 15
 # ---------------------------------------------------------------------------
 STAT_LADDER = {
     # rung -> Credits, for a stat tested against a fixed target number
-    "one_sided": {1: 37, 2: 26, 3: 27, 4: 18, 5: 15, 6: 10},   # [B] measured, DEX
+    "one_sided": {1: 20, 2: 15, 3: 15, 4: 10, 5: 10, 6: 5},   # [B] measured, DEX
     # rung -> Credits, for a stat opposed by another model's stat
-    "opposed": {1: 25, 2: 25, 3: 25, 4: 25, 5: 25, 6: 25},     # [B] measured, STR
+    "opposed": {1: 15, 2: 15, 3: 15, 4: 15, 5: 15, 6: 15},     # [B] measured, STR
 }
 
 # Which ladder each stat reads, and why. The two measured ones anchor the rest.
@@ -233,7 +233,7 @@ def stat_rung_credits(stat: str, rung: int) -> int:
 # [C] Kept as the scalar fallback for callers that have not moved to the ladder.
 # DERIVATION: the mid value of the measured one-sided ladder. Anything costing a
 # fighter's stat line should call stat_rung_credits() and get the real shape.
-TICK_STAT = 15
+TICK_STAT = 10
 
 # [C] +1 WND. DERIVATION: the nearest measured survivability atom is heavy
 # armour (-2 on the injury roll) at 41 Cr, armour-level-n2500. Both buy the same
@@ -253,13 +253,13 @@ TICK_STAT = 15
 # !! NOT YET PROPAGATED TO THE VAULT. Full Rules System v1 sec 26.1,
 # Progression.md:51, List Building.md:136 and Economy.md:108 all still say 45.
 # Changing those is Ross's call, not this file's.
-WND_CREDITS = 41
+WND_CREDITS = 20
 
 # [C] Bare body. DERIVATION: unchanged from the legacy table — no measurement
 # isolates "a model with no gear and no stats" because every roster in the
 # harness is built from equipped models. It is a floor, not a priced atom, and
 # the crew-size work that would measure it needs crews rebuilt to equal cost.
-BODY_BASE = 20
+BODY_BASE = 10
 
 # [C] Orders. DERIVATION: none available — Orders have never been measured as an
 # Order on any engine, and there is no measured neighbour close enough to derive
@@ -267,7 +267,7 @@ BODY_BASE = 20
 # RETAINED at the legacy values, and this is the WEAKEST NUMBER IN THIS FILE.
 # It is rank-gated and never sold a la carte, so it cannot be arbitraged by a
 # list-builder, which is the only reason it is tolerable to ship.
-ORDER_PREMIUM = {0: 0, 1: 40, 2: 90}
+ORDER_PREMIUM = {0: 0, 1: 20, 2: 45}
 
 # ---------------------------------------------------------------------------
 # SKILLS — a three-band scheme, deliberately coarse            [C, derived]
@@ -299,7 +299,7 @@ ORDER_PREMIUM = {0: 0, 1: 40, 2: 90}
 # ---------------------------------------------------------------------------
 # [C] Derived from measured atoms of comparable effect size - see the band
 # scheme and placement rule documented above.
-SKILL_TIER_CREDITS = {1: 20, 2: 35, 3: 55}
+SKILL_TIER_CREDITS = {1: 10, 2: 20, 3: 30}
 
 # Structure Materials derivation
 # ---------------------------------------------------------------------------
@@ -351,7 +351,7 @@ MATERIALS_PER_CREDIT = 1.0
 #     the worker matter more and payback slower; a higher base does the reverse.
 #     8 is the compromise, and it is the number to move first if campaign play
 #     says the settlement layer is too fast or too slow.
-BASE_GATHER_RATE = 8          # Materials or Credits per Settlement Phase, tier 1
+BASE_GATHER_RATE = 5          # Materials or Credits per Settlement Phase, tier 1
 WORKER_BONUS = 1              # Economy.md sec 50, stated not derived
 GATHERER_PAYBACK_CYCLES = 10  # the ruling above, in games
 
@@ -368,29 +368,29 @@ def materials_to_credits(materials: float) -> float:
 # (see above), so these finally price against something. They remain C: each is
 # derived from the footprint/role bands rather than measured, and the whole axis
 # inherits the OVERRIDE on the rate itself.
-POWER_MAT = 15
+POWER_MAT = 10
 # [C] Materials axis - see BASE_GATHER_RATE and POWER_MAT.
 FOOTPRINT_BAND = {
-    "station": 25,
-    "plant": 40,
-    "building": 75,
-    "large": 100,
-    "line": 25,
-    "yard": 40,
+    "station": 15,
+    "plant": 20,
+    "building": 40,
+    "large": 50,
+    "line": 15,
+    "yard": 20,
 }
 # [C] Materials axis - see BASE_GATHER_RATE and POWER_MAT.
 ROLE_BAND = {
     "sustain": 0,
-    "gatherer": 25,
-    "convert": 35,
-    "operate": 40,
-    "recover": 30,
-    "defend": 45,
+    "gatherer": 15,
+    "convert": 20,
+    "operate": 20,
+    "recover": 15,
+    "defend": 25,
 }
 # [C] Materials axis - see BASE_GATHER_RATE and POWER_MAT.
 UPGRADE_MULT = {2: 1.60, 3: 1.75}
 # [C] Materials axis - see BASE_GATHER_RATE and POWER_MAT.
-GROUNDWORKS_MAT = {1: 120, 2: 200}
+GROUNDWORKS_MAT = {1: 60, 2: 100}
 
 # ---------------------------------------------------------------------------
 # WEAPON CLASSES — BUILT UP FROM ATOMS, 2026-08-14. THE HARD GATE, CLOSED.
@@ -439,10 +439,42 @@ DAMAGE_FLOOR = 1          # light_melee. A class pays for damage ABOVE this.
 # The ruled shape: one flat floor for having reach, one premium for the band that
 # creates the known degeneracy (firing from your own deployment zone on turn one,
 # measured at a 13-30 point edge).
+# [OVERRIDE] the range ladder. Required fields:
+#   measured:  the 8"-24" curve is FLAT (5.75 / 5.17 / 5.34 / 4.68 wp, spread
+#              1.07 inside one SE of ~0.81). Nothing above 24" has ever been
+#              measured at all - the engine caps weapon range at 24".
+#   not trusted because: a flat curve prices every range pick at zero, and a free
+#              36" is taken by every list that may take it. The measurement
+#              describes a policy that does not exploit range, not a rule that
+#              does not matter.
+#   retires when: scenario coverage lands, or a range-exploiting policy makes the
+#              curve measurable - and the >24" band needs a NEW measurement,
+#              since the engine has never modelled it.
+# Ruled shape: gentle inside the band the sim measured, accelerating hard across
+# the 24" threshold. The 24->30 step is twice the 18->24 step, and 30->36 is
+# larger again.
+RANGE_CREDITS = {
+    6: 5,
+    8: 5,
+    12: 5,
+    18: 5,
+    24: 10,   # crosses the deployment threshold
+    30: 15,
+    36: 25,   # covers the board from behind your own zone
+}
+
+# [OVERRIDE] the reach floor - having usable range AT ALL. Same ruling and same
+# retire condition as the range ladder directly above.
 REACH_FLOOR = 5           # any weapon with range >= 6"
 # [OVERRIDE] see the range ruling above: measured, not trusted, retires when
 # scenario coverage lands.
-DEPLOYMENT_PREMIUM = 15   # the 24" band, on top of the floor
+# DERIVED FROM THE LADDER, NEVER ROUNDED INDEPENDENTLY - ruled 2026-08-20.
+# Rounding this on its own gave 10 while the ladder's own 18"->24" step is 5,
+# which broke `heavy_ranged == standard_ranged + long_range` by exactly 5.
+# THE ROUNDING RULE IS: round the ATOMS, derive everything else from them.
+# Every total is then a sum of multiples of 5 and every identity holds by
+# construction rather than by luck.
+DEPLOYMENT_PREMIUM = RANGE_CREDITS[24] - RANGE_CREDITS[18]
 # [OVERRIDE] slots are opportunity cost, not a priced feature - the 2026-07-30
 # Cumbersome decision. Measured: nothing, `two_handed` is inert in the engine.
 # Retires when hands/slots become a live mechanic the sim can read.
@@ -535,29 +567,6 @@ CLASS_META = {
         "damage": (3, 5), "range": (12, 36), "slots": 4, "min_rank": "specialist"},
 }
 
-# [OVERRIDE] the range ladder. Required fields:
-#   measured:  the 8"-24" curve is FLAT (5.75 / 5.17 / 5.34 / 4.68 wp, spread
-#              1.07 inside one SE of ~0.81). Nothing above 24" has ever been
-#              measured at all - the engine caps weapon range at 24".
-#   not trusted because: a flat curve prices every range pick at zero, and a free
-#              36" is taken by every list that may take it. The measurement
-#              describes a policy that does not exploit range, not a rule that
-#              does not matter.
-#   retires when: scenario coverage lands, or a range-exploiting policy makes the
-#              curve measurable - and the >24" band needs a NEW measurement,
-#              since the engine has never modelled it.
-# Ruled shape: gentle inside the band the sim measured, accelerating hard across
-# the 24" threshold. The 24->30 step is twice the 18->24 step, and 30->36 is
-# larger again.
-RANGE_CREDITS = {
-    6: 5,
-    8: 6,
-    12: 8,
-    18: 12,
-    24: 18,
-    30: 30,   # crosses the deployment threshold
-    36: 45,   # covers the board from behind your own zone
-}
 
 # THE CLASS TABLE. Derived, never written by hand — edit the atoms above, not
 # these. Resulting prices, against the cheapest body legally able to carry each
@@ -637,7 +646,7 @@ CHAR_CREDITS = {
     # it measured 1.21/1.50 per model against +1 Damage's own 1.21/1.50: identical.
     # So its true form is 15 x f(target wears armour). 9 is the blend measured over
     # two bare lists and one armoured one. In an armoured meta it is worth 15.
-    "armour_piercing": 10,  # [B] +0.392 wp. Conditional on armour prevalence; the
+    "armour_piercing": 5,  # [B] +0.392 wp. Conditional on armour prevalence; the
                             # closest agreement between a measured atom and the
                             # price it replaces (was 9) anywhere in this rebuild.
     "accurate": CREDITS_TO_HIT_CONDITIONAL,  # [C] 18 — see CONDITIONAL_F note
@@ -645,18 +654,18 @@ CHAR_CREDITS = {
     "rate_of_fire_2": 50,  # [C] 1D rebuild test, never reproduced on the 2.5D
                            # engine. Retained; no measured neighbour.
     # --- payloads, each measured on its own, NET OF PINNED -------------------
-    "bleeding": 35,  # [B] +1.410 wp. The death clock at WND 1. Was 46.
-    "incendiary": 23,  # [B] +0.942 wp. Was 22 — effectively confirmed.
-    "suppressive": 38,  # [B] +1.546 wp. NOW THE DEAREST PAYLOAD; was 17. The Pin
+    "bleeding": 20,  # [B] +1.410 wp. The death clock at WND 1. Was 46.
+    "incendiary": 10,  # [B] +0.942 wp. Was 22 — effectively confirmed.
+    "suppressive": 20,  # [B] +1.546 wp. NOW THE DEAREST PAYLOAD; was 17. The Pin
                         # costing the whole activation is worth far more than the
                         # old table thought.
-    "blast": 31,  # [B] +1.256 wp. Resolves against everything within 2". Was 43.
+    "blast": 15,  # [B] +1.256 wp. Resolves against everything within 2". Was 43.
     # --- measured POSITIVE but INSIDE THE NOISE FLOOR ------------------------
     # Shipped at measured value per the shipping standard, and flagged: a trait
     # this cheap gets taken on everything, so if table data shows either being
     # auto-included, the fix is mechanical rather than a reprice.
     "shocking": 5,  # [B] +0.217 wp, NOT significant. Was 16.
-    "heavy_impact": 2,  # [B] +0.090 wp, NOT significant. Was 15.
+    "heavy_impact": 5,  # [B] +0.090 wp, NOT significant. Was 15.
     # --- NOT PRICED: measured at or below zero. See BLOCKED_REDESIGN below. ---
     # These keep their legacy numbers ONLY so existing catalogue rows still
     # resolve. `points.verify` refuses to let them ship. Do not read them as
@@ -667,7 +676,7 @@ CHAR_CREDITS = {
     "hook": 20,  # !! [BLOCKED] -0.230 wp, negative point estimate (SE 0.858)
     "toxic": 9,  # !! [BLOCKED] -0.080 wp, negative point estimate
     # --- [C] not measured; derived or retained, each stating which ------------
-    "smoke": 30,  # [C] retained. No LOS-denial atom is measured; nearest
+    "smoke": 15,  # [C] retained. No LOS-denial atom is measured; nearest
                   # neighbour would be Blind, which is itself blocked.
     # [OVERRIDE] long_range. NOT a measured price and NOT a derived one — a
     # DELIBERATE OVERRIDE of the measurement, ruled 2026-08-13. Tagged distinctly
@@ -688,12 +697,12 @@ CHAR_CREDITS = {
     # same reach at two different prices. Was 60 against a 100-Credit class;
     # the class is now 35 and the premium scales with it.
     "long_range": DEPLOYMENT_PREMIUM,
-    "balanced": 20,  # [C] retained; no measured neighbour.
-    "defensive": 30,  # [C] retained; nearest measured neighbour is light armour
+    "balanced": 10,  # [C] retained; no measured neighbour.
+    "defensive": 15,  # [C] retained; nearest measured neighbour is light armour
                       # (24), which is the same shape of effect. Within rounding.
-    "cleaving": 50,  # [C] retained; nearest neighbour is blast (31) as a
+    "cleaving": 25,  # [C] retained; nearest neighbour is blast (31) as a
                      # multi-target effect, plus a damage step (15) = 46.
-    "breaching": 30,  # [C] retained; no measured neighbour.
+    "breaching": 15,  # [C] retained; no measured neighbour.
     # CONCEALABLE IS CUT — 2026-08-14. Not repriced: removed.
     #
     # It granted "may start Hidden, or be smuggled past a search" for ~20 Cr.
@@ -708,8 +717,8 @@ CHAR_CREDITS = {
     #
     # QUIET IS KEPT and is not the same thing: no-reveal / no-alarm-trip is a
     # real mechanical axis that interacts with Hidden and the Sensor deployables.
-    "quiet": 20,  # [C] retained; Loud/Quiet is engine-blocked entirely.
-    "compact": 20,  # [C] retained; hands/slots are inert in the engine.
+    "quiet": 10,  # [C] retained; Loud/Quiet is engine-blocked entirely.
+    "compact": 10,  # [C] retained; hands/slots are inert in the engine.
 }
 
 # ---------------------------------------------------------------------------
@@ -914,8 +923,8 @@ RANGE_STEP_UNPRICED = (
 SHORT_RANGE_REFUND = {
     "thrown": -5,  # 6" -> 3"; drops below the reach floor
     "sidearm": -5,  # 8" -> 4"; drops below the reach floor
-    "standard_ranged": -10,  # 18" -> 9"; keeps reach, loses the turn-one threshold
-    "heavy_ranged": -15,  # 24" -> 12"; loses the deployment band entirely
+    "standard_ranged": -5,  # 18" -> 9"; keeps reach, loses the turn-one threshold
+    "heavy_ranged": -10,  # 24" -> 12"; loses the deployment band entirely
 }
 
 # [C] Drawbacks. RESCALED 2026-08-14 for the same reason as SHORT_RANGE_REFUND —
@@ -927,7 +936,7 @@ SHORT_RANGE_REFUND = {
 # ranking nothing has measured. None has ever been measured; all remain C.
 # short_range is NOT here: it is banded by class, see SHORT_RANGE_REFUND.
 DRAWBACK_CREDITS = {
-    "slow": -10,
+    "slow": -5,
     "unstable": -5,
     "cumbersome": -5,
     "single_use": -5,  # renamed from "limited" 2026-07-31
@@ -983,8 +992,8 @@ BANDED_DRAWBACKS = frozenset({"short_range"})
 ARMOUR_CREDITS = {
     "none": 0,
     "thick_clothing": 0,
-    "light": 24,   # -1  [B] measured +0.953 wp
-    "heavy": 41,   # -2  [B] measured +1.663 wp — NOT 2x light, and deliberately so
+    "light": 10,   # -1  [B] measured +0.953 wp
+    "heavy": 20,   # -2  [B] measured +1.663 wp — NOT 2x light, and deliberately so
 }
 
 ARMOUR_INJURY = {
@@ -1000,8 +1009,8 @@ ARMOUR_INJURY = {
 # measured INT ladder; flagged by consistency.check_equipment_vs_measured_primitive.
 HACK_GEAR_CREDITS = {
     "bare": 0,
-    "breach_kit": 40,
-    "exploit_suite": 80,
+    "breach_kit": 20,
+    "exploit_suite": 40,
 }
 
 # ---------------------------------------------------------------------------
@@ -1032,22 +1041,22 @@ HACK_GEAR_CREDITS = {
 # Every entry is then held under the gear:body hard cap, since a deployable is
 # carried to the table by a model like any other kit.
 # ---------------------------------------------------------------------------
-_SIDEARM = 20        # CLASS_CREDITS["sidearm"]
-_RIFLE = 35          # CLASS_CREDITS["standard_ranged"]
+_SIDEARM = 10        # CLASS_CREDITS["sidearm"]
+_RIFLE = 25          # CLASS_CREDITS["standard_ranged"]
 
 # [C] derived from the weapon class each mounts - see the derivation above.
 DEPLOYABLE_CREDITS = {
     # one-shot effects: priced under a mounted weapon because they fire once
-    "trip_wire": 10,             # no damage; delays and reveals
-    "proximity_mine": 15,        # single_use blast, no firing lane
-    "munitions_beacon": 15,      # supplies, no attack
-    "revive_beacon": 20,         # recovery, no attack
+    "trip_wire": 5,              # no damage; delays and reveals
+    "proximity_mine": 5,         # single_use blast, no firing lane
+    "munitions_beacon": 5,       # supplies, no attack
+    "revive_beacon": 10,         # recovery, no attack
     # turrets: the weapon they mount
     "autoturret": _SIDEARM,      # 20 — a sidearm on a tripod
     "sniper_turret": _RIFLE,     # 35 — a rifle on a tripod
-    "blast_turret": 30,          # rifle profile, blast pattern, shorter reach
-    "reinforced_turret": 32,     # autoturret + armour; survivability, not output
-    "burst_turret": 35,          # rifle profile, rate over accuracy
+    "blast_turret": 15,          # rifle profile, blast pattern, shorter reach
+    "reinforced_turret": 15,     # autoturret + armour; survivability, not output
+    "burst_turret": 20,          # rifle profile, rate over accuracy
 }
 
 EQUIPMENT_CREDITS = {
@@ -1057,5 +1066,5 @@ EQUIPMENT_CREDITS = {
     # the other atom that buys survival. The agreement with WND is the reason to
     # keep 40 rather than invent a new number, but it is an analogy, not a
     # measurement, and it is the weakest entry in this dict.
-    "med_kit": 40,
+    "med_kit": 20,
 }

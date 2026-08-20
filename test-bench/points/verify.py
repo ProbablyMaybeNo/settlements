@@ -68,17 +68,30 @@ def verify_structural() -> list[str]:
 
     errs: list[str] = []
 
-    # The 24" threshold, derived twice independently (POINTS-TABLE §4).
-    # Cumbersome is no longer welded onto Heavy Ranged (2026-07-30) — its cost is
-    # the slot count, not a penalty — so the -20 refund is gone from this identity.
-    lhs = CLASS_CREDITS["heavy_ranged"]
-    rhs = CLASS_CREDITS["standard_ranged"] + CHAR_CREDITS["long_range"]
-    if lhs != rhs:
-        errs.append(
-            f"24\" threshold broken: heavy_ranged {lhs} != standard "
-            f"{CLASS_CREDITS['standard_ranged']} + long_range "
-            f"{CHAR_CREDITS['long_range']} = {rhs}"
-        )
+    # THE OLD IDENTITY WAS PASSING BY COINCIDENCE - corrected 2026-08-20.
+    #
+    # This used to assert `heavy_ranged == standard_ranged + long_range`, which
+    # was true in the pre-envelope world where the two classes had the SAME fixed
+    # damage and differed only in range. Envelopes ended that: they now differ by
+    # a DAMAGE FLOOR (+2 vs +3) and share the identical 12"-36" range band.
+    #
+    # It kept passing anyway, because the damage step (15) and the deployment
+    # premium (15) happened to be the same number. Halving the scale moved them
+    # to 10 and 5 and the coincidence evaporated - which is the only reason
+    # anyone noticed. A check that is green for the wrong reason is the failure
+    # mode this project has now catalogued eight times (tracking doc sec 0d).
+    #
+    # The REAL relation under envelopes: the gap between two classes at their
+    # cheapest legal build is the gap between their damage floors.
+    for lo_cls, hi_cls in (("standard_ranged", "heavy_ranged"),
+                           ("one_handed_melee", "heavy_melee")):
+        steps = CLASS_META[hi_cls]["damage"][0] - CLASS_META[lo_cls]["damage"][0]
+        gap = CLASS_CREDITS[hi_cls] - CLASS_CREDITS[lo_cls]
+        expect = steps * ticks.CREDITS_DAMAGE
+        if gap != expect:
+            errs.append(
+                f"class floor gap broken: {hi_cls} - {lo_cls} = {gap} but the "
+                f"damage-floor difference is {steps} step(s) = {expect}")
 
     # ARMOUR LINEARITY IS NO LONGER REQUIRED — the premise was withdrawn 2026-08-13.
     #

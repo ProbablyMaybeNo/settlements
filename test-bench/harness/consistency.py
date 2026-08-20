@@ -259,21 +259,29 @@ def check_armour_monotonic(rep: Report) -> None:
 
 
 def check_derivation_is_not_tautology(rep: Report) -> None:
-    """`heavy_ranged == standard_ranged + long_range` is presented as derived
-    twice independently. It is one identity rearranged: both inputs are legacy,
-    so the check confirms arithmetic, never a price."""
-    lhs = ticks.CLASS_CREDITS["heavy_ranged"]
-    rhs = ticks.CLASS_CREDITS["standard_ranged"] + ticks.CHAR_CREDITS["long_range"]
-    if lhs == rhs:
-        rep.warn(
-            "range identity",
-            f"heavy_ranged {lhs} == standard_ranged {ticks.CLASS_CREDITS['standard_ranged']} "
-            f"+ long_range {ticks.CHAR_CREDITS['long_range']} holds - but both inputs are "
-            "legacy x10 and unmeasured, so this verifies arithmetic, not a price",
-            "ticks.CLASS_CREDITS + ticks.CHAR_CREDITS",
-        )
-    else:
-        rep.fail("range identity", f"heavy_ranged {lhs} != {rhs}", "ticks.CLASS_CREDITS")
+    """The class-gap relation, corrected 2026-08-20.
+
+    This used to assert `heavy_ranged == standard_ranged + long_range`. That was
+    true before envelopes, when both classes had one fixed damage and differed
+    only in range. Envelopes ended it - they now differ by a DAMAGE FLOOR and
+    share an identical 12"-36" band - and the check kept passing purely because
+    the damage step and the deployment premium were both 15. Halving the scale
+    moved them to 10 and 5 and the coincidence broke, which is the only reason
+    it was noticed. Green for the wrong reason; see tracking doc sec 0d.
+    """
+    for lo_cls, hi_cls in (("standard_ranged", "heavy_ranged"),
+                           ("one_handed_melee", "heavy_melee")):
+        steps = (ticks.CLASS_META[hi_cls]["damage"][0]
+                 - ticks.CLASS_META[lo_cls]["damage"][0])
+        gap = ticks.CLASS_CREDITS[hi_cls] - ticks.CLASS_CREDITS[lo_cls]
+        expect = steps * ticks.CREDITS_DAMAGE
+        detail = (f"{hi_cls} - {lo_cls} = {gap}, damage-floor difference "
+                  f"{steps} step(s) = {expect}")
+        src = "ticks.CLASS_CREDITS vs ticks.CLASS_META damage floors"
+        if gap == expect:
+            rep.ok("class floor gap", detail, src)
+        else:
+            rep.fail("class floor gap", detail, src)
 
 
 def check_body_formula_reproduces_ladder(rep: Report) -> None:

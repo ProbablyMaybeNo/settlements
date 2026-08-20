@@ -50,7 +50,7 @@ def test_cost_fingerprint_catches_a_moved_number():
     base = _fingerprint_ticks_at(P.TICKS)
     with tempfile.TemporaryDirectory() as td:
         p = Path(td) / "ticks.py"
-        edited = src.replace("TICK_STAT = 15", "TICK_STAT = 25")
+        edited = src.replace("TICK_STAT = 10", "TICK_STAT = 25")
         assert edited != src, "TICK_STAT anchor moved; update this test"
         p.write_text(edited, encoding="utf-8")
         assert _fingerprint_ticks_at(p) != base
@@ -61,8 +61,8 @@ def test_cost_fingerprint_catches_a_nested_dict_value():
     base = _fingerprint_ticks_at(P.TICKS)
     with tempfile.TemporaryDirectory() as td:
         p = Path(td) / "ticks.py"
-        # 46 -> 35 in the 2026-08-13 write-back (payload-table-objective-n2500).
-        edited = src.replace('"bleeding": 35,', '"bleeding": 36,')
+        # 46 -> 35 in the write-back, 35 -> 20 in the 2026-08-20 rescale.
+        edited = src.replace('"bleeding": 20,', '"bleeding": 21,')
         assert edited != src, "bleeding anchor moved; update this test"
         p.write_text(edited, encoding="utf-8")
         assert _fingerprint_ticks_at(p) != base

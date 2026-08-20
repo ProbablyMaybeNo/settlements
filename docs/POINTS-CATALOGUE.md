@@ -1,6 +1,6 @@
 # Settlements — The Points Catalogue
 
-**v1.1 · 2026-08-19 · scale 1700 = standard Crew Rating** *(rebased from 1000 when bodies moved onto the measured stat ladder — see §8)*
+**v1.2 · 2026-08-20 · scale 850 = standard Crew Rating** *(1000 → 1700 when bodies moved onto the measured stat ladder; halved to 850 and rounded to the nearest 5 — see §8–9)*
 
 Every price in this game, what it is worth, and where the number came from.
 Machine-readable source: `test-bench/points/ticks.py`. Measurements:
@@ -121,8 +121,8 @@ this project four times out of four.
 |---|---|
 | **+1 Damage** | **0.606 win-points per model**, CI [0.436, 0.776] · **[B]** |
 | **The peg** | +1 Damage ≡ **15 Credits**. A **choice**, not a measurement |
-| **Conversion** | **24.77 Credits per win-point** |
-| **Crew Rating** | **1700** standard · **850** Campaign Start |
+| **Conversion** | **12.385 Credits per win-point** |
+| **Crew Rating** | **850** standard · **425** Campaign Start |
 | **Materials** | **1 Material = 1 Credit**, derived — the two 80-Mat gatherers are identical on every priced axis |
 | **Shape** | **FLAT — settled.** Density sweep moved it +0.176 ± 0.184 across 9/11/12 features. Flat-vs-curve is **closed** |
 
@@ -425,7 +425,7 @@ inferred for these beyond the C-tier analogies above.
 
 ## 6 · A note on the two cost tables
 
-`points/ticks.py` (this catalogue, 1700-scale) and `engine2d/data.py` (100-scale)
+`points/ticks.py` (this catalogue, 850-scale) and `engine2d/data.py` (100-scale)
 **are deliberately not reconciled.**
 
 `data.py`'s costs exist only so the harness can build **equal-cost rosters inside
@@ -503,3 +503,66 @@ Sabotage, both built and passing, are where a melee crew should show its worth.
 
 **This is a table-testing question now, not a measurement one.** It is the first
 thing to watch when the game hits a table.
+
+---
+
+## 9 · The 2026-08-20 rescale — halved, then rounded to 5
+
+**Pure arithmetic on the scale, plus a rounding pass.** Every measured ratio is
+untouched; nothing was re-measured. `CREDITS_PER_WINPOINT` **24.77 → 12.385**,
+Crew Rating **1700 → 850**, Campaign Start **850 → 425**.
+
+### The rounding rule
+
+**Round the ATOMS to the nearest 5, ties up, minimum 5 — then derive everything
+else from them.** A total is a sum of atoms, so every total is automatically a
+multiple of 5 and every identity holds by construction rather than by luck.
+
+A price of exactly **0** stays 0: `unarmed`, `light_melee` and `thick_clothing`
+are *deliberately free*, which is a different thing from cheap. Nothing that
+costs anything rounds to nothing.
+
+> **This rule was forced by a real break, not chosen on taste.** Rounding
+> `DEPLOYMENT_PREMIUM` independently gave **10** while the range ladder's own
+> 18″→24″ step is **5** — the identity `heavy_ranged = standard_ranged +
+> long_range` failed by exactly 5. Deriving the premium *from* the ladder holds it.
+
+### Live rank bodies
+
+| Rank | Cr |
+|---|:--:|
+| Recruit | **70** |
+| Fighter | **100** |
+| Specialist | **145** |
+| Leader | **185** |
+
+### Live weapon classes *(cheapest legal build)*
+
+| Class | Cr |
+|---|:--:|
+| unarmed | **0** |
+| light_melee | **0** |
+| one_handed_melee | **0** |
+| heavy_melee | **10** |
+| thrown | **5** |
+| sidearm | **5** |
+| standard_ranged | **15** |
+| heavy_ranged | **25** |
+
+### Live payloads
+
+| Trait | Cr |
+|---|:--:|
+| suppressive | **20** |
+| bleeding | **20** |
+| blast | **15** |
+| incendiary | **10** |
+| armour_piercing | **5** |
+| shocking | **5** |
+| heavy_impact | **5** |
+
+Armour **light 10 / heavy 20** ·
+skills **T1 10 / T2 20 / T3 30** ·
++1 WND **20** · +1 Damage **10** ·
+DEX ladder **20/15/15/10/10/5** ·
+STR **15** flat · 149 skills priced by tier.

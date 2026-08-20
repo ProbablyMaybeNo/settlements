@@ -331,5 +331,5 @@ def test_superseded_points_doc_carries_its_banner():
 
 def test_the_scale_has_one_source_of_truth():
     """SCALE and CREW_RATING_STANDARD must not be able to drift apart."""
-    assert ticks.SCALE == ticks.CREW_RATING_STANDARD == 1700
-    assert ticks.CREW_RATING_CAMPAIGN_START == 850
+    assert ticks.SCALE == ticks.CREW_RATING_STANDARD == 850
+    assert ticks.CREW_RATING_CAMPAIGN_START == 425
