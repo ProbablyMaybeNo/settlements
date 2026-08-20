@@ -1,3 +1,10 @@
+> # ⛔ SUPERSEDED — do not price from this document
+>
+> Superseded by `POINTS-TABLE.md` (design) and **`POINTS-CATALOGUE.md`** (the
+> shipping prices). Everything below is on the **1000-Credit scale, which was
+> rebased to 1700 on 2026-08-19**, and its rank costs are the legacy flat-15
+> figures. Kept as the v0.1 record of how the scale was first laid out.
+
 # Settlements — Global Points System
 
 **Version:** 0.1 · **Scale:** 1000 Credits = standard Crew Rating  

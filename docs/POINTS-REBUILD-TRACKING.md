@@ -205,6 +205,38 @@ the fourth candidate instead of choosing among the three named ones.
 
 ---
 
+## 0d · THE BROKEN VERSION ALWAYS LOOKS PLAUSIBLE FIRST — ruled a standing expectation, 2026-08-19
+
+Recorded as a rule rather than a run of anecdotes, because the run is now long
+enough that treating each instance as a surprise is itself the mistake.
+
+| # | The plausible-looking number | What it was actually measuring |
+|---|---|---|
+| 1 | anchor **1.150**, twice independently confirmed | an AI that shot instead of advancing |
+| 2 | anchor **1.332**, tight CI | Annihilate averaged into an objective price |
+| 3 | "all-ranged crews **cannot** score on Take a Hold", 99.3% draws | two legal actions the AI never took |
+| 4 | density "clean null", identical **to four decimal places** | terrain that never changed a LOS check — bit-identical games |
+| 5 | `two_route` **`ok` — AGREE with 2.0** on armour linearity | a bar set at twice the distance between the rival hypotheses |
+| 6 | stat ladder re-run, fully stamped, fresh fingerprints | the void `hold`+`annihilate` basis, reproduced |
+| 7 | tier gate **green across all 25 tables** | a 2500-char window reading tags off neighbouring declarations |
+| 8 | catalogue validation, Horde beating Elite **69–31** | a fitter that only trimmed downward — a 200-point handicap |
+
+**The pattern.** An instrument artefact is usually *smooth*: bit-identical games,
+a clean null, a confident pass, a stable rank order. Real effects are noisy.
+**So "this result is clean and interesting" is weak evidence that it is right,
+and in this project it has been evidence of the opposite more often than not.**
+
+**The check, before reporting anything:** state what the result would look like
+if the instrument were broken, then confirm it does not look like that. #4 and #8
+were both caught exactly this way — by asking what a broken version would produce
+and noticing the output matched. #7 was caught by printing what the detector saw
+instead of trusting that it went green.
+
+**Corollary for a passing check:** a green result deserves the same scepticism as
+a red one. Two of the eight above were found by auditing something that passed.
+
+---
+
 ## 0 · Standing invariants
 
 | Invariant | Enforced by |
@@ -218,6 +250,7 @@ the fourth candidate instead of choosing among the three named ones.
 | Every price carries an SE and a computed significance flag. | `measure.Result` |
 | **A guard that fires when nothing is wrong is worse than no guard** — it trains you to ignore it. Every check must be powered well enough that a pass means something. | standing principle, 2026-08-13 |
 | A degenerate cell means *"did not resolve"*, never *"cannot resolve"*. Ask what legal action the AI missed. | `measure` guard comment, §0c |
+| **EXPECT THE BROKEN VERSION TO LOOK PLAUSIBLE FIRST.** Not a coincidence any more — it has happened on every defect this project has caught, without exception. A measurement that is measuring its own instrument produces a *clean, readable, interesting* number, because the artefact is usually smooth. **Ruled a standing expectation 2026-08-19**: before reporting any result, ask what it would look like if the instrument were broken, and check that it does not look like that. | §0d |
 | **A denied action spends nothing.** A condition that denies Sprint/Charge is not shed by *asking* for one — the action never legally occurred. Pinned's "clearing costs the Move" is a stated cost, not a general principle. **Ruled 2026-08-13.** | `policies.can_sprint`, `check_conditions.py` |
 | A script that is not a pytest module must not be named `test_*.py`. A file is only collected under the convention its name advertises. | the rename in §5 |
 | **PASSING rows get audited, not just failing ones.** A check that cannot fail is worse than no check: it manufactures confidence. Two of the three guard defects found in this project were found by reading a row that said `ok`. **Ruled a standing practice 2026-08-13.** | §5a |
@@ -584,6 +617,45 @@ deleted `BALANCED_GOALS`. That dependency is now cleared.
 ---
 
 ## 4 · Open decisions — Ross
+
+### 4b · ⚠ OPEN RISK — melee loses every matchup. Falsification condition set 2026-08-20.
+
+**Logged as an open risk, NOT a resolved question.** The diagnosis below is a
+hypothesis, and plausible hypotheses have been wrong here before (§0d).
+
+`catalogue-validation-n1500`, after the body rebase. The melee archetype loses to
+everything:
+
+| Matchup | melee's share |
+|---|:--:|
+| vs Armoured | **38.8%** |
+| vs Horde | 41.1% |
+| vs Elite | 44.2% |
+
+**The hypothesis:** it is scenario coverage, not pricing. Melee gets no value from
+a range curve that is flat by measurement, and `hold_claim` — the only scenario
+anything is priced on — rewards holding ground over closing it. Raid and Sabotage
+are built, pass verification, and are structurally where a melee crew should earn
+its keep: Raid scores in the *enemy's* half, Sabotage is a timer that rewards
+arriving.
+
+> ### THE FALSIFICATION CONDITION — written now so it is testable later
+>
+> **Re-run `measure_catalogue.py` on `raid` and `sabotage`.**
+>
+> - **If melee's share rises toward parity on either** → the hypothesis holds. It
+>   was coverage. No reprice; extend `PRICING_SCENARIOS` and re-derive.
+> - **If melee still loses every matchup on all three scenarios** → the hypothesis
+>   is FALSE and this is a **rules problem, not a pricing one**. A reprice cannot
+>   fix it: making melee weapons cheaper buys more of something that does not
+>   work, which is the Concussive failure in a new place (§BLOCKED). The fix would
+>   be **structural — melee needs something ranged does not have** (a charge
+>   bonus, a free Interact on arrival, an armour interaction) and that is a design
+>   decision, not a number.
+>
+> **Do not let "better coverage will fix it" survive as an assumption.** It is a
+> prediction with a stated way to be wrong, and the run that settles it is cheap.
+
 
 > ### 🚫 BLOCKED — REDESIGN. Five traits pulled from the catalogue, 2026-08-13.
 >

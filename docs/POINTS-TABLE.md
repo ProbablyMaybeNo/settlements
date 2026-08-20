@@ -1,6 +1,8 @@
 # Settlements — The Global Points Table
 
-**v0.2** · Scale: **1000 = standard Crew Rating** · Supersedes `GLOBAL-POINTS-SYSTEM.md` (v0.1)
+**v0.3** · Scale: **1700 = standard Crew Rating** *(rebased from 1000 on 2026-08-19 when bodies moved onto the measured stat ladder — see `POINTS-CATALOGUE.md` §8)* · Supersedes `GLOBAL-POINTS-SYSTEM.md` (v0.1)
+
+> ⚠ **Rank costs in this document are the LEGACY flat-15 figures** (Recruit 65 / Fighter 95 / Specialist 165 / Leader 245) wherever they appear in worked examples below. The live values are **131 / 183 / 268 / 343**, derived in `points/units.py` from the measured ladder. The examples are kept as written because they illustrate *method*; read the numbers from `POINTS-CATALOGUE.md`, never from here.
 
 Everything in the game costs points derived from one atom. Build anything by summing its parts from the tables below. Players see only final prices; the derivation is for the designer.
 
@@ -71,6 +73,17 @@ Rank sets what you may buy. It no longer carries a flat cost.
 ---
 
 ## 4 · Weapon classes
+
+> ⛔ **THIS SECTION IS SUPERSEDED — the class table below is the founding bug.**
+> A Standard Ranged rifle at **100** against a **95** Fighter is the exact defect
+> the rebuild was commissioned to fix. Classes are now **envelopes**: the class
+> sets a damage band and a range band, and the specific weapon picks inside and
+> pays for the pick. A rifle is **35**. Range reaches **36"** through four gates
+> rather than stopping at a hard 24". Live table: `POINTS-CATALOGUE.md` §2 and
+> `points/ticks.py`. **Kept below because the reasoning in §4.1–4.3 about
+> thresholds and unpriced steps is still how the bands were built** — read it for
+> method, never for prices.
+
 
 | Class | Cost | Damage | Range | Hands | Slots | Min rank |
 |---|:--:|:--:|:--:|:--:|:--:|---|
@@ -378,7 +391,9 @@ The engine is multiplicative: `P(kill) = P(hit) × P(injure)`. So a 100-point ri
 
 **A is assumed here**, because a single summable table was the requirement. Two things bound the error: the **±3 modifier cap** keeps builds near the diagonal where additive pricing is valid, and **rank gates** already stop Recruits carrying the best guns.
 
-**The test that settles it:** run the 4-model Cadre against the 11-model Pyramid at 1000 points. If the elite list drifts up, option A is leaking and B is needed.
+**The test that settles it:** run the 4-model Cadre against the many-model Pyramid at equal Crew Rating. If the elite list drifts up, option A is leaking and B is needed.
+
+> ✅ **RUN 2026-08-19** (`catalogue-validation-n1500`). It leaked, and badly, at the legacy body scale: a 7-model Horde beat a 4-model Elite **69–31**. Bodies were re-derived onto the measured ladder and the spread across four archetypes tightened from 31–70% to **41–61%**. Option A survives at the new scale; the residual is a melee skew, not an elite-vs-horde one — see `POINTS-REBUILD-TRACKING` §4b.
 
 ---
 
@@ -484,7 +499,7 @@ These are **part of the costing system**. Additive pricing is only valid because
 | gear | Light Melee 0 | 0 |
 | **total** | | **65** |
 
-A 1000-point crew: that Leader (**593**) + Fighter (175) + Recruit (65) + Recruit (65) = **898**, 102 spare.
+A 1700-point crew *(worked at legacy body costs — see the banner at the top)*: that Leader (**593**) + Fighter (175) + Recruit (65) + Recruit (65) = **898**. At the live 2026-08-19 bodies the same four models are **593 + 183 + 131 + 131 = 1038**, leaving 662 spare of 1700.
 
 ---
 
@@ -495,7 +510,7 @@ A 1000-point crew: that Leader (**593**) + Fighter (175) + Recruit (65) + Recrui
 - [ ] **RoF 3** — price by the same rebuild method
 - [ ] **Measure `f`** for every conditional trait rather than banding by judgement
 - [ ] **Skills as Advances** — the +20/35/55 ladder must match §2, or creation and progression diverge
-- [ ] **The pyramid after founding** — at 65/Recruit, 15 Recruits = 975 is a legal 1000-point crew with no Leader
+- [ ] **The pyramid after founding** — at the live 131/Recruit, 12 Recruits = 1572 is a legal 1700-point crew with no Leader. The rebase made the degenerate list *smaller* (15 bodies → 12) but did not close it; the pyramid rule is still what has to.
 - [ ] **Deployables, structures, the 2051 arsenal** — not yet costed from this spine
 - [ ] Re-run the full crew sim against these numbers; the 5/8/16/24 ladder was never validly validated
 

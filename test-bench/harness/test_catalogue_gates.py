@@ -283,3 +283,53 @@ def test_a_skill_costs_its_tier_on_a_model():
     plain = Fighter(name="L", rank=Rank.LEADER, weapons=[r])
     skilled = Fighter(name="L", rank=Rank.LEADER, weapons=[r], skills=["Dead Eye"])
     assert fielded_cost(skilled) - fielded_cost(plain) == ticks.SKILL_TIER_CREDITS[3]
+
+
+# --- the scale is one number, and every live document must agree on it -------
+
+LIVE_DOCS = ("POINTS-CATALOGUE.md", "POINTS-TABLE.md", "POINTS-REBUILD-TRACKING.md")
+
+
+def test_no_live_doc_cites_the_superseded_crew_rating():
+    """Crew Rating rebased 1000 -> 1700 (Campaign Start 500 -> 850) on 2026-08-19.
+
+    A stale cap in a secondary document is exactly how a wrong number gets picked
+    up later - and this project has a worked example of that failure already:
+    ARMOUR_CREDITS carried a price citing `balance/armourprice.py`, a file that
+    never existed, for months, because nothing checked.
+
+    Dated reports (POINTS-AUDIT, POINTS-RESEARCH, the CAMPAIGN-500 findings) are
+    deliberately NOT covered: they are records of what was true when written, and
+    rewriting them would falsify history. Only documents that a reader would
+    price FROM are checked, plus GLOBAL-POINTS-SYSTEM which must carry its
+    supersession banner.
+    """
+    import re
+    docs = TESTBENCH.parent / "docs"
+    stale = re.compile(r"\b1000[- ]?(?:Credit|point|pt|CR\b)|standard 1000|"
+                       r"1000 = standard|500 Crew Rating|at \*\*500\*\*", re.I)
+    bad = []
+    for name in LIVE_DOCS:
+        p = docs / name
+        if not p.exists():
+            continue
+        for i, line in enumerate(p.read_text(encoding="utf-8").splitlines(), 1):
+            if stale.search(line) and "LEGACY" not in line and "rebased" not in line:
+                bad.append(f"{name}:{i}: {line.strip()[:90]}")
+    assert not bad, "live docs still cite the superseded scale:\n  " + "\n  ".join(bad)
+
+
+def test_superseded_points_doc_carries_its_banner():
+    p = TESTBENCH.parent / "docs" / "GLOBAL-POINTS-SYSTEM.md"
+    if not p.exists():
+        return
+    head = p.read_text(encoding="utf-8")[:400]
+    assert "SUPERSEDED" in head, (
+        "GLOBAL-POINTS-SYSTEM.md states a 1000 Crew Rating as if live and must "
+        "open with its supersession banner")
+
+
+def test_the_scale_has_one_source_of_truth():
+    """SCALE and CREW_RATING_STANDARD must not be able to drift apart."""
+    assert ticks.SCALE == ticks.CREW_RATING_STANDARD == 1700
+    assert ticks.CREW_RATING_CAMPAIGN_START == 850

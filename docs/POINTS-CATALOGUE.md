@@ -425,7 +425,7 @@ inferred for these beyond the C-tier analogies above.
 
 ## 6 · A note on the two cost tables
 
-`points/ticks.py` (this catalogue, 1000-scale) and `engine2d/data.py` (100-scale)
+`points/ticks.py` (this catalogue, 1700-scale) and `engine2d/data.py` (100-scale)
 **are deliberately not reconciled.**
 
 `data.py`'s costs exist only so the harness can build **equal-cost rosters inside
