@@ -1,0 +1,30 @@
+{
+  "title": "Mad Dogs with Guns: Wargaming in the Gangster Era",
+  "author": "Howard Whitehouse & Roderick Robertson",
+  "publisher": "Osprey Games (Osprey Publishing Limited / Bloomsbury Publishing Plc)",
+  "year": 2017,
+  "isbn": {
+    "paperback": "9781472819291"
+  },
+  "url": null,
+  "acquisition_note": "Digital PDF, provided directly by Ross. Library master at G:\\My Drive\\Wargaming\\Mad Dogs with Guns\\Mad Dogs with Guns - Wargaming in the Gangster Era.pdf. Working copy extracted from research/sources/mad-dogs-with-guns/original.pdf (gitignored, not committed).",
+  "retrieved": "2026-08-20",
+  "pages": 116,
+  "sha256": "1adfea2b1ac5711dfbd48ece37fe368ea292188aa1ade6c066d51c8cc611c53b",
+  "bytes": 64259150,
+  "licence_note": "Third-party rulebook PDF. Not committed to the repo (research/sources/**/original.pdf is gitignored). source.md quotes/reproduces rules text for research analysis and citation; the vault note itself only quotes what's needed, not a full reproduction.",
+  "is_designer_statement": true,
+  "designer_statement_note": "The rulebook is the designers' own primary statement of the rules; the Design Notes chapter (p.105-106) is Howard Whitehouse writing in first person about design intent (card-driven Hold Cards, the campaign/rackets system being mostly Roderick Robertson's contribution, the Paradise setting being his own invention).",
+  "extraction_method": {
+    "tool": "PyMuPDF (fitz) 1.x, page.get_text('text')",
+    "ocr_used": false,
+    "reason": "Clean embedded text layer confirmed on every page per the pre-read probe (0 replacement characters, median 1519 chars/page, only 7 pages under 120 chars and those are full-page art). Re-verified during extraction: 0 U+FFFD across all 116 pages, 172,624 raw chars extracted.",
+    "page_numbering": "PDF page index runs 2 ahead of the printed page number from PDF page 5 (printed page 3, Contents) onward. PDF pages 1-4 are cover/half-title/title/copyright with no printed page number. All page citations in the vault note use the printed (footer) page number.",
+    "table_pages_verified_against_rendered_image": [82, 102, 104, 105],
+    "table_verification_dpi": 200,
+    "table_verification_note": "Rendered printed pages 82 (Official Payoffs) and 102/103 (Rackets of Paradise neighborhood table) at 200dpi and visually confirmed row/column order matches the reconstructed markdown tables in source.md. No reordering found despite the pdftk-java/iText producer chain flagged in the pre-read probe."
+  },
+  "capture_contents": {
+    "source.md": "Full 116-page verbatim text capture, page by page (printed page numbers), with 3 of the highest-value data tables reconstructed as clean markdown (Official Payoffs p.82, Wound Severity + Healing p.80, Rackets of Paradise neighborhood table p.102) plus the raw extracted text folded underneath each for audit. Other tabular pages (per-business Loot/Payoff entries, the Skills d66 table) read correctly in row order from the raw extraction without reconstruction."
+  }
+}

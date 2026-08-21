@@ -705,23 +705,62 @@
     },
     {
       "slug": "mad-dogs-with-guns",
-      "game": "Mad Dogs with Guns",
+      "game": "Mad Dogs with Guns - Wargaming in the Gangster Era",
       "note": "Research/Notes/Mad Dogs with Guns.md",
-      "depth": "second-hand summary - NEEDS PRIMARY READ",
-      "capture": null,
+      "designer": "Howard Whitehouse & Roderick Robertson",
+      "publisher": "Osprey Games",
+      "depth": "primary",
+      "capture": "research/sources/mad-dogs-with-guns/",
       "long_form": null,
+      "retrieved": "2026-08-20",
       "mechanics": [
         {
-          "name": "Turf types, each with one unique named site",
+          "name": "Turf types, unevenly seeded with named landmark sites",
           "type": "Settlement",
           "verdict": "steal"
         },
         {
-          "name": "Bribery with escalating prices",
+          "name": "Turf upkeep that forecloses on non-payment",
+          "type": "Economy",
+          "verdict": "adapt"
+        },
+        {
+          "name": "A published Loot exchange rate, and a guard count derived from it",
+          "type": "Economy",
+          "verdict": "steal"
+        },
+        {
+          "name": "Racket monopoly - a compounding bonus with a one-Raid kill switch",
+          "type": "Settlement",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Bribery - a scoped bidding war, not an economy-wide price rise",
           "type": "Campaign",
           "verdict": "steal"
+        },
+        {
+          "name": "Reputation - an uncapped, undecaying wealth-gates-wealth loop",
+          "type": "Campaign",
+          "verdict": "avoid"
+        },
+        {
+          "name": "Healing cost buys down your own death/crippling odds",
+          "type": "Campaign",
+          "verdict": "steal"
+        },
+        {
+          "name": "Public Outrage - the Heat/Attention track Settlements already cut",
+          "type": "Campaign",
+          "verdict": "reference"
+        },
+        {
+          "name": "Hiding and Creeping - a real but thin stealth mechanic",
+          "type": "Movement",
+          "verdict": "adapt"
         }
-      ]
+      ],
+      "notes": "Replaces a second-hand-summary entry (written from Ross's own paraphrase, not the rulebook) with a primary read of all 116 pages. The old note's central claim - a phrase quoted as 'the crooked SOBs get greedier' describing an economy-wide escalating bribe price - does not appear anywhere in the text (checked, NOT_FOUND) and overstated the mechanism: bribery escalation is a scoped, per-seat bidding war (18 exclusive seats total) with a spillover check limited to other seats in the same office category, not a global price rise. Card-driven activation and core D6 resolution covered but did not clear the hub-row bar (genre-conventional); no hub row given. Real but thin stealth mechanic found (Hiding + Creeping, SMARTS-gated, broken by noise) - first positive stealth data point after Zona Alfa's confirmed absence."
     },
     {
       "slug": "zona-alfa",
@@ -830,11 +869,6 @@
   ],
   "to_read": [
     {
-      "target": "Mad Dogs with Guns",
-      "why": "primary rulebook - closest published analogue to the Territory layer, currently on hearsay",
-      "priority": "high"
-    },
-    {
       "target": "Mordheim",
       "why": "injury and advancement tables, primary",
       "priority": "high"
@@ -856,7 +890,7 @@
     },
     {
       "target": "Stealth and noise mechanics (cross-game sweep)",
-      "why": "an Ideas Inbox want with no research behind it. Zona Alfa checked and came back empty - no stealth/concealment/noise-detection mechanic exists in that book despite the STALKER pedigree. The search needs games that treat sneaking as a primary verb, not just a matching setting.",
+      "why": "an Ideas Inbox want with thin research behind it. Zona Alfa checked and came back empty - no stealth/concealment/noise-detection mechanic in that book despite the STALKER pedigree. Mad Dogs with Guns (captured 2026-08-20) has a real but minimal one - SMARTS-to-hide plus cover, broken by noise - but it's one roll and one counter-roll, not the detailed system this want is asking for. The search still needs games that treat sneaking as a primary verb, not just a matching setting.",
       "priority": "medium"
     },
     {
