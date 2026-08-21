@@ -124,4 +124,4 @@ The **same Perk costs different amounts by context** **[FACT]**: an **Engineer**
 
 - Primary: Last Days core rulebook + *Seasons* supplement, both PDFs read in full
 - Long-form: `docs/POINTS-RESEARCH.md` §7.17
-- Related: [[Wargaming Research]] · [[Oathmark]] · [[Trench Crusade]] · [[The Walking Dead All Out War]] · [[Settlement]] · [[Structures]] · [[Economy]]
+- Related: [[Wargaming Research Hub]] · [[Oathmark]] · [[Trench Crusade]] · [[The Walking Dead All Out War]] · [[Settlement]] · [[Structures]] · [[Economy]]

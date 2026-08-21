@@ -115,4 +115,4 @@ Points attach to **formations in army context**, so unit cost is **not separable
 
 - Primary: Rogue Trader (1987) archive scans; WD251 / Chapter Approved 2001 VDR; *BFG Magazine #2*; NetEA statements
 - Long-form: `docs/POINTS-RESEARCH.md` §7.9
-- Related: [[Wargaming Research]] · [[Warhammer 40000]] · [[Kill Team]] · [[One Page Rules]] · [[Infinity]]
+- Related: [[Wargaming Research Hub]] · [[Warhammer 40000]] · [[Kill Team]] · [[One Page Rules]] · [[Infinity]]

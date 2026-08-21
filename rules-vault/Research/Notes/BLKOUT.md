@@ -150,4 +150,4 @@ BLKOUT's strategic variety comes almost entirely from **one Force Special Rule p
 - Primary: `z:/Downloads/BLKOUT-DIGITAL-RULE-BOOK.pdf` (Print 2nd Ed.) + `z:/Downloads/BLKOUT_Supplemental_4-26.pdf`, read 2026-07-22
 - Long-form analysis: `docs/BLKOUT-RULES-ANALYSIS.md` (§19 is the Settlements convergence plan)
 - Costing profile: `docs/POINTS-RESEARCH.md` §7.0
-- Related: [[Wargaming Research]] · [[Kill Team]] · [[Rules Engine]] · [[Morale]]
+- Related: [[Wargaming Research Hub]] · [[Kill Team]] · [[Rules Engine]] · [[Morale]]

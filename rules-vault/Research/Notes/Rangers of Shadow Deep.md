@@ -86,4 +86,4 @@ Companions are bought with **Recruitment Points, recalculated before every missi
 
 - Primary: Rangers of Shadow Deep rulebook PDF, read directly
 - Long-form: `docs/POINTS-RESEARCH.md` §7.13
-- Related: [[Wargaming Research]] · [[Frostgrave and Stargrave]] and [[Oathmark]] (same designer) · [[Solo & Co-op]] · [[Unit Design]] · [[Factions]]
+- Related: [[Wargaming Research Hub]] · [[Frostgrave and Stargrave]] and [[Oathmark]] (same designer) · [[Solo & Co-op]] · [[Unit Design]] · [[Factions]]

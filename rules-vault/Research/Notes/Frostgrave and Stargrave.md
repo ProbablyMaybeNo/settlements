@@ -75,4 +75,4 @@ Note how **few price points exist** **[FACT]**. Frostgrave: **Free / 10 / 50 / 7
 
 - Primary: Frostgrave and Stargrave rulebook PDFs, read directly
 - Long-form: `docs/POINTS-RESEARCH.md` §7.12
-- Related: [[Wargaming Research]] · [[Oathmark]] and [[Rangers of Shadow Deep]] (same designer) · [[Last Days Zombie Apocalypse]] · [[List Building]]
+- Related: [[Wargaming Research Hub]] · [[Oathmark]] and [[Rangers of Shadow Deep]] (same designer) · [[Last Days Zombie Apocalypse]] · [[List Building]]

@@ -74,4 +74,4 @@ One exchange rate is derivable from two published facts **[INFERENCE from FACT]*
 
 - Primary: official Osprey Gaslands Refuelled QRS v3
 - Long-form: `docs/POINTS-RESEARCH.md` §7.6
-- Related: [[Wargaming Research]] · [[Kill Team]] · [[Last Days Zombie Apocalypse]] · [[Weapons]]
+- Related: [[Wargaming Research Hub]] · [[Kill Team]] · [[Last Days Zombie Apocalypse]] · [[Weapons]]

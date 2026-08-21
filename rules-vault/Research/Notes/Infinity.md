@@ -84,4 +84,4 @@ Typically gated behind fielding that model as **Lieutenant**. And Lieutenant opt
 
 - Primary: official Infinity N5.2 wiki; N3 rulebook PDF for the cost figures
 - Long-form: `docs/POINTS-RESEARCH.md` §7.2, §2
-- Related: [[Wargaming Research]] · [[Gaslands]] · [[Kill Team]] · [[List Building]]
+- Related: [[Wargaming Research Hub]] · [[Gaslands]] · [[Kill Team]] · [[List Building]]

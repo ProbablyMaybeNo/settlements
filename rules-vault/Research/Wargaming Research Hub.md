@@ -1,10 +1,10 @@
 ---
 type: research-hub
-title: Wargaming Research
+title: Wargaming Research Hub
 tags: [settlements/research]
 status: Living
 ---
-# 🔬 Wargaming Research — the mechanics catalogue
+# 🔬 Wargaming Research Hub — the mechanics catalogue
 
 > **What this is.** Every notable rules system or mechanic we've come across — read in a rulebook, found on Reddit, dug out of a forum, or thought up ourselves — logged in one row so it can be found again, and linked to a full write-up so the actual rules are one click away.
 >

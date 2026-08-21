@@ -118,4 +118,4 @@ Special rules mix flat, derived and multiplicative forms **[FACT]**: Fear = 20 �
 
 - Primary: "AoF: Point Calculator v1.10" (official, archived copy), OPR patch notes
 - Long-form: `docs/POINTS-RESEARCH.md` §1.3, §1.4, §8
-- Related: [[Wargaming Research]] · [[Song of Blades and Heroes]] · [[BattleTech]] · [[Balance]]
+- Related: [[Wargaming Research Hub]] · [[Song of Blades and Heroes]] · [[BattleTech]] · [[Balance]]

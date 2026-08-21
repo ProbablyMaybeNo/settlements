@@ -170,4 +170,4 @@ Two exact out-of-sample hits, with the anti-charge increment derived from a *dif
 
 - Primary: Trench Crusade v1.6.3 playtest PDFs + community BattleScribe `.cat`, read directly
 - Long-form: `docs/POINTS-RESEARCH.md` §7.10, §8.11
-- Related: [[Wargaming Research]] · [[Necromunda and Mordheim]] (same designer lineage) · [[Last Days Zombie Apocalypse]] · [[The Walking Dead All Out War]] · [[Campaign]] · [[Progression]]
+- Related: [[Wargaming Research Hub]] · [[Necromunda and Mordheim]] (same designer lineage) · [[Last Days Zombie Apocalypse]] · [[The Walking Dead All Out War]] · [[Campaign]] · [[Progression]]

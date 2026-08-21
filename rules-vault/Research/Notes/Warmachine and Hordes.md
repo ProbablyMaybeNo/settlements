@@ -78,4 +78,4 @@ They sought *"the most fair and balanced approach to army composition across the
 
 - Primary: Will Shick / Privateer Press designer statements (April 2016); published scale figures
 - Long-form: `docs/POINTS-RESEARCH.md` §7.1
-- Related: [[Wargaming Research]] · [[The Rampant line]] · [[Infinity]] · [[List Building]] · [[Balance]]
+- Related: [[Wargaming Research Hub]] · [[The Rampant line]] · [[Infinity]] · [[List Building]] · [[Balance]]

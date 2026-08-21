@@ -19,7 +19,7 @@ tags: [settlements/research]
 | **Source** | Ross's `skirmish games and rules` note in this vault |
 
 > [!warning] Needs a primary read
-> Everything below comes from a **prose summary, not the rulebook.** No numbers, no exact wording, no verification. It is on the **to-read list** on [[Wargaming Research]] and it should be promoted — of everything in this vault, it is the closest structural match to the [[Territory]] layer, and we're running on hearsay.
+> Everything below comes from a **prose summary, not the rulebook.** No numbers, no exact wording, no verification. It is on the **to-read list** on [[Wargaming Research Hub]] and it should be promoted — of everything in this vault, it is the closest structural match to the [[Territory]] layer, and we're running on hearsay.
 
 ---
 ## Turf, and the one named site
@@ -60,4 +60,4 @@ Gangs can spend their income **bribing the press, police, judges and politicians
 
 - Primary: **not read.** Rulebook needed.
 - Second-hand: `skirmish games and rules` note in this vault
-- Related: [[Wargaming Research]] · [[Necromunda and Mordheim]] (same lineage) · [[Oathmark]] · [[Territory]] · [[Diplomacy]]
+- Related: [[Wargaming Research Hub]] · [[Necromunda and Mordheim]] (same lineage) · [[Oathmark]] · [[Territory]] · [[Diplomacy]]

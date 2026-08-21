@@ -66,4 +66,4 @@ Three decisions visible in that list:
 
 - Primary: official SoBH cost chart PDF + publisher worked examples
 - Long-form: `docs/POINTS-RESEARCH.md` §1.2, §1.4, §4.5
-- Related: [[Wargaming Research]] · [[One Page Rules]] (the same insight, different implementation) · [[BattleTech]] · [[Skill Paths]] · [[Weapons]]
+- Related: [[Wargaming Research Hub]] · [[One Page Rules]] (the same insight, different implementation) · [[BattleTech]] · [[Skill Paths]] · [[Weapons]]

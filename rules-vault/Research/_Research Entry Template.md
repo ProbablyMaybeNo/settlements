@@ -65,7 +65,7 @@ Tag anything load-bearing, matching the convention in `docs/POINTS-RESEARCH.md`:
 
 - Primary: 
 - Capture: `research/sources/<slug>/source.md`
-- Related: [[Wargaming Research]]
+- Related: [[Wargaming Research Hub]]
 
 ---
-*Add one row per mechanic to [[Wargaming Research]] when this note is finished.*
+*Add one row per mechanic to [[Wargaming Research Hub]] when this note is finished.*

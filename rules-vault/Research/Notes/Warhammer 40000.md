@@ -61,4 +61,4 @@ And here is what it costs to make them sidegrades:
 
 - Primary: published GW editions and designer statements, 3rd → 11th
 - Long-form: `docs/POINTS-RESEARCH.md` §7.14, §8.3b
-- Related: [[Wargaming Research]] · [[Kill Team]] · [[Games Workshop published formulas]] · [[Weapons]]
+- Related: [[Wargaming Research Hub]] · [[Kill Team]] · [[Games Workshop published formulas]] · [[Weapons]]

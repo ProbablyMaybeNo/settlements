@@ -39,4 +39,4 @@ Five stats, and **P (Presence) is simultaneously the unit's points cost and its 
 ## Source
 
 - Long-form: `docs/POINTS-RESEARCH.md` §7.8
-- Related: [[Wargaming Research]] · [[BLKOUT]] (fixed pre-costed cards) · [[Weapons]]
+- Related: [[Wargaming Research Hub]] · [[BLKOUT]] (fixed pre-costed cards) · [[Weapons]]

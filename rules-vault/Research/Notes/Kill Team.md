@@ -77,4 +77,4 @@ The price paid is that equipment can no longer express "this specific model is k
 
 - Primary: GW published rules and community articles across three editions
 - Long-form: `docs/POINTS-RESEARCH.md` §7.4
-- Related: [[Wargaming Research]] · [[Warhammer 40000]] · [[Gaslands]] · [[BLKOUT]] · [[Deployables]]
+- Related: [[Wargaming Research Hub]] · [[Warhammer 40000]] · [[Gaslands]] · [[BLKOUT]] · [[Deployables]]

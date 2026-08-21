@@ -80,4 +80,4 @@ Stable across the 2nd → 3rd edition change. **[INFERENCE]** The structure is *
 
 - Primary: published Bolt Action cost tables; official Warlord community forum and articles
 - Long-form: `docs/POINTS-RESEARCH.md` §7.5
-- Related: [[Wargaming Research]] · [[Infinity]] · [[One Page Rules]] · [[Gaslands]] · [[Weapons]]
+- Related: [[Wargaming Research Hub]] · [[Infinity]] · [[One Page Rules]] · [[Gaslands]] · [[Weapons]]

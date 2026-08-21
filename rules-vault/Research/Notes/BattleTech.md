@@ -70,4 +70,4 @@ Every other system in this vault is either unpublished ([[Infinity]], [[Malifaux
 
 - Primary: published BV2 rules; MegaMek open-source implementation
 - Long-form: `docs/POINTS-RESEARCH.md` §1.1, §6.1
-- Related: [[Wargaming Research]] · [[One Page Rules]] · [[Song of Blades and Heroes]] · [[Balance]]
+- Related: [[Wargaming Research Hub]] · [[One Page Rules]] · [[Song of Blades and Heroes]] · [[Balance]]

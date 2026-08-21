@@ -97,4 +97,4 @@ The designers on why Emissary upgrades were removed **[CONSENSUS — quote surfa
 
 - Primary: Malifaux M3E Rules Manual (official), quotes verified
 - Long-form: `docs/POINTS-RESEARCH.md` §7.3
-- Related: [[Wargaming Research]] · [[BLKOUT]] · [[Trench Crusade]] · [[Factions]] · [[List Building]]
+- Related: [[Wargaming Research Hub]] · [[BLKOUT]] · [[Trench Crusade]] · [[Factions]] · [[List Building]]

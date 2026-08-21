@@ -78,4 +78,4 @@ Dragon Rampant is the most explicit build system — base chassis plus purchased
 
 - Primary: Lion Rampant 1e/2e, Dragon Rampant 1e/2e, Xenos Rampant published cost tables and unit builds
 - Long-form: `docs/POINTS-RESEARCH.md` §7.7
-- Related: [[Wargaming Research]] · [[Warmachine and Hordes]] · [[Bolt Action]] · [[Balance]]
+- Related: [[Wargaming Research Hub]] · [[Warmachine and Hordes]] · [[Bolt Action]] · [[Balance]]

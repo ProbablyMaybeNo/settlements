@@ -58,7 +58,7 @@ A **100,000-run community simulation** found median campaign income of **750 cre
 
 **Type:** Costing · **Take:** ⭐ steal
 
-Base fighter and weapon costs have **no published derivation** and never have. **But the advancement table is a genuine published marginal-cost table** — GW prints what one point of a stat costs in credits — and N18 publishes an **escalating XP cost: each advance costs base XP +2 per prior advance.** **[FACT for the structure; the specific credit figures need a rulebook check — see the to-read list on [[Wargaming Research]].]**
+Base fighter and weapon costs have **no published derivation** and never have. **But the advancement table is a genuine published marginal-cost table** — GW prints what one point of a stat costs in credits — and N18 publishes an **escalating XP cost: each advance costs base XP +2 per prior advance.** **[FACT for the structure; the specific credit figures need a rulebook check — see the to-read list on [[Wargaming Research Hub]].]**
 
 > **Necromunda solves the derivation problem by only ever publishing *deltas*, never the absolutes.** Base costs stay hand-tuned and opaque; growth is fully transparent and rules-legible.
 
@@ -90,4 +90,4 @@ A model taken out of action rolls on an **injury table**: concussion, broken arm
 
 - Primary: Necromunda 1995 & N18, Mordheim published rules; community campaign simulation (100k runs)
 - Long-form: `docs/POINTS-RESEARCH.md` §10 (full lineage), §7.9 (the advancement-delta point)
-- Related: [[Wargaming Research]] · [[Trench Crusade]] (same designer lineage) · [[Frostgrave and Stargrave]] · [[Progression]] · [[Campaign]] · [[Damage]]
+- Related: [[Wargaming Research Hub]] · [[Trench Crusade]] (same designer lineage) · [[Frostgrave and Stargrave]] · [[Progression]] · [[Campaign]] · [[Damage]]

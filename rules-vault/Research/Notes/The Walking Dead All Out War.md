@@ -75,4 +75,4 @@ Walkers are fully neutral — *"enemy… refers to any model that is not part of
 
 - Primary: TWD: All Out War Anthology edition — rules, costing and campaign chapters
 - Long-form: `docs/POINTS-RESEARCH.md` §7.18
-- Related: [[Wargaming Research]] · [[Trench Crusade]] · [[Last Days Zombie Apocalypse]] · [[Events]] · [[Scenarios]]
+- Related: [[Wargaming Research Hub]] · [[Trench Crusade]] · [[Last Days Zombie Apocalypse]] · [[Events]] · [[Scenarios]]

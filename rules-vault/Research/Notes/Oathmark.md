@@ -98,4 +98,4 @@ Territory losses are **soft and reversible** — a territory is occupied, not ra
 
 - Primary: official Oathmark Kingdom Building extract (8pp) + official Osprey Army Planner PDF
 - Long-form: `docs/POINTS-RESEARCH.md` §7.15, §8.12
-- Related: [[Wargaming Research]] · [[Last Days Zombie Apocalypse]] (same instinct, opposite direction) · [[Frostgrave and Stargrave]] (same designer) · [[Settlement]] · [[Territory]]
+- Related: [[Wargaming Research Hub]] · [[Last Days Zombie Apocalypse]] (same instinct, opposite direction) · [[Frostgrave and Stargrave]] (same designer) · [[Settlement]] · [[Territory]]
