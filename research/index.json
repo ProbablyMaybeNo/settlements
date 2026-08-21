@@ -9,6 +9,7 @@
     "Reactions",
     "Movement",
     "Detection",
+    "Hacking",
     "Combat",
     "Morale",
     "Terrain",
@@ -289,9 +290,10 @@
       "game": "Infinity",
       "note": "Research/Notes/Infinity.md",
       "publisher": "Corvus Belli",
-      "depth": "official wiki + rulebook figures",
-      "capture": null,
+      "depth": "SWC: official wiki + N3 rulebook figures. Hacking/EW: official N5.2 wiki + N5 FAQ v0.0.0, 16 pages read in full (primary)",
+      "capture": "research/sources/infinity-hacking/ (Hacking/EW pass only — the earlier SWC costing pass predates this vault's capture convention and has no source folder, cited via long_form only)",
       "long_form": "docs/POINTS-RESEARCH.md#7.2",
+      "retrieved": "2026-08-20",
       "mechanics": [
         {
           "name": "SWC - a currency derived from the first",
@@ -302,8 +304,59 @@
           "name": "+X profiles that grant budget",
           "type": "List",
           "verdict": "steal"
+        },
+        {
+          "name": "A device grants a small, fixed menu of named Programs",
+          "type": "List",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Hackable by Troop Type, not by individual profile",
+          "type": "List",
+          "verdict": "steal"
+        },
+        {
+          "name": "Face-to-face hacking, and an ARO that doesn't need line of sight",
+          "type": "Reactions",
+          "verdict": "reference"
+        },
+        {
+          "name": "Camouflage, Sensor, and the Multispectral Visor",
+          "type": "Detection",
+          "verdict": "steal"
+        },
+        {
+          "name": "Hacking Area - the range mechanic is Zone of Control, not distance",
+          "type": "Hacking",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Repeaters - a network relay either side can use, at a penalty",
+          "type": "Hacking",
+          "verdict": "steal"
+        },
+        {
+          "name": "Total Control - possessing a TAG, and the four guardrails that stop it being a walking death sentence",
+          "type": "Hacking",
+          "verdict": "reference"
+        },
+        {
+          "name": "Firewall - Comms Attack's version of Cover",
+          "type": "Hacking",
+          "verdict": "steal"
+        },
+        {
+          "name": "Non-Hackable, ECM, and hunting the network",
+          "type": "Hacking",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Three editions of simplification - N3's five program families collapse into N5's two",
+          "type": "Hacking",
+          "verdict": "avoid"
         }
-      ]
+      ],
+      "notes": "Second capture for this game, scoped to Quantronic Combat (Hacking) and adjacent EW equipment/skills, per Ross's tech-layer sweep request. The earlier SWC costing entry above is untouched and kept intact. Biggest finding: Corvus Belli's own multi-edition trend (N3's five program families/seven device types collapsing into N5's two/four) is evidence that even the best-resourced publisher in the hobby has been shrinking hacking's scope, not growing it - read as validation that Settlements' current one-test v1 Hacking design is already the right size, not an under-built compromise."
     },
     {
       "slug": "kill-team",
