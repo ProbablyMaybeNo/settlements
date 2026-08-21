@@ -52,6 +52,14 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | ⚙️ | **BLKOUT** | Cover as dice, not modifier | Dice | Being in cover means *fewer dice are thrown at you*. Viscerally intuitive at the table; swingier than a flat modifier. | [[BLKOUT#The Skill Check — one test, and cover is dice]] |
 | ⚠️ | **BLKOUT** | The "Hard" check | Dice | A check flagged **Hard** caps you at **1D10** however many bonuses you hold — a ceiling expressed in the dice economy rather than as a modifier cap. | [[BLKOUT#The Skill Check — one test, and cover is dice]] |
 | 📎 | **Horizon Wars** | One stat is both cost and combat value | Dice | **Presence (P)** *is* the unit's points cost *and* its close-combat value. The cheapest possible statement of "cost is a property of the profile." | [[Horizon Wars#Presence is the cost]] |
+| 📎 | **Zona Alfa** | Inverted D10 — low roll wins | Dice | Roll **at or under** a stat; an unmodified **natural 1** is an automatic success plus a free bonus Action tacked onto the same activation, an unmodified **natural 10** an automatic failure plus an immediate Pinned counter. | [[Zona Alfa#Core resolution — an inverted D10, and a Critical that pays out immediately]] |
+
+## ⏱️ Activation & turn structure
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⚙️ | **Zona Alfa** | Initiative penalized by your own Pinned count | Activation | Initiative is a D10 roll **penalized by the number of your own currently-Pinned units** — suppression costs tempo as well as Actions off one shared number, and the roll's winner may **pass** first activation to the opponent. | [[Zona Alfa#Initiative and Alternating Activation]] |
+| 📎 | **Zona Alfa** | Combat Experience gates Actions, Skills and Slots on one tier | Activation | Three tiers (Rookie/Hardened/Veteran) each grant 1/2/3 Actions per Activation, 0/1/2 Skills, and 1/2/3 Equipment Slots — one rank answers three separate design questions. Converges independently on the same shape as our own Rank → Orders ladder. | [[Zona Alfa#Combat Experience — one tier gates Actions, Skills, and Equipment Slots together]] |
 
 ## ⚡ Reactions & the opponent's turn
 
@@ -61,6 +69,7 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | ⭐ | **BLKOUT** | **Juke** — an active dodge | Reactions | A targeted model spends its reaction to count as in cover (matched play: shooter rolls **−1D10**, survivor moves half). Gives the defender agency on the enemy's turn. *(Adopted as **Dodge** — opposed AGI vs DEX.)* | [[BLKOUT#Reactions — the beating heart]] |
 | ⭐ | **BLKOUT** | Move half to dodge Overwatch | Reactions | Overwatch only triggers on a move **longer than half** the Movement Value. Creep to stay safe, dash to close and expose yourself — enormous tactical texture for one sentence. *(Adopted.)* | [[BLKOUT#Reactions — the beating heart]] |
 | ⚙️ | **BLKOUT** | Reactions as a finite token | Reactions | Reacting costs an **Engaged Token**; a model holding one can neither act nor react again that round. Reactions are budgeted, not free. | [[BLKOUT#Reactions — the beating heart]] |
+| ⚙️ | **Zona Alfa** | **Alert** — bank 2 Actions to hold 1 reactive Action | Reactions | Spend two Actions to hold one Action in reserve and interrupt the opponent's Activation with *any* Action — Move, Shoot, Aim, even a grenade throw. A steep but simple 2-for-1 tax on reacting. | [[Zona Alfa#Initiative and Alternating Activation]] |
 
 ## 🏃 Movement & positioning
 
@@ -68,6 +77,7 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 |:--:|---|---|---|---|---|
 | ⭐ | **BLKOUT** | **Lean Out** marker | Movement | Spend half your move to place a marker and peek. Enemies who can only see the *marker* treat it as the model, and the leaner has cover from them. Lean-only doesn't count as "moving" for other rules. | [[BLKOUT#Lean Out]] |
 | ⚙️ | **BLKOUT** | No free-climbing, no free descent | Movement | You need an obvious means (ladder, crates) to go up, and the **Jump** rule to come down. Verticality is gated by scenery, not by a test. | [[BLKOUT#Verticality is gated by scenery]] |
+| ⚙️ | **Zona Alfa** | 360° field of view, base-front-to-rear movement | Movement | Every model sees in all directions regardless of facing; a Move is measured base-front to base-rear specifically **"to cut down on arguments."** Small, cheap friction-removers. | [[Zona Alfa#Movement, field of view, and layered Cover]] |
 
 ## 🎯 Combat, damage & injury
 
@@ -76,12 +86,21 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | ⭐ | **Gaslands** | The **BFG** — price the drawback | Combat | The biggest gun in the game costs **1 can**, because it eats 3 build slots, has Ammo 1, shoves you backwards, drops you to Gear 1 and adds 3 Hazard tokens. Spectacular toys without distorting the economy. | [[Gaslands#Price the drawback, not the number]] |
 | ⭐ | **Necromunda / Mordheim** | Lasting-injury tables | Combat | A model taken out rolls on an injury table — concussion, broken limb, severed limb, gouged eye, full recovery, death — each with a lasting or permanent effect. The lineage Settlements' own injury design descends from. | [[Necromunda and Mordheim#Lasting injuries]] |
 | 📎 | **Trench Crusade** | Melee costs are genuinely built | Combat | Melee prices reconstruct exactly from increments (CRITICAL +1, Ignore Shield +1, anti-charge +4) — two out-of-sample predictions hit exactly. Ranged prices do not reconstruct at all. Half a formula, published by accident. | [[Trench Crusade#Melee is built, ranged is eyeballed]] |
+| 📎 | **Zona Alfa** | The Armor Save decouples the hit from the wound | Combat | A Successful Hit still rolls an Armor Save; passing it is a **Deflected Hit** that forces a Will check instead of a wound. Every hit resolves into *something* — the same tenet Settlements already has locked, reached independently. | [[Zona Alfa#Ranged Combat — the Armor Save decouples the hit from the wound]] |
+| ⚙️ | **Zona Alfa** | Melee resolves simultaneously, Hits buy a Parry | Combat | Both combatants roll at once; the Attacker then spends any of their own Successful Hits to cancel an equal number of the Defender's. A tie is named **Deadlocked** rather than left ambiguous. | [[Zona Alfa#Melee — simultaneous rolls, and paying Hits to Parry]] |
+| ⭐ | **Zona Alfa** | Battle Scars gated by whether the model was revived | Combat | A 6-entry permanent-injury table, but it only triggers on a model nobody could reach with a Med-Kit in time — injury severity is gated by rescue access, not by a flat post-battle roll for every casualty. | [[Zona Alfa#Battle Scars — permanent injury gated by bad luck, not by poverty]] |
 
 ## 😱 Morale, stress & suppression
 
 | Take | Game | Mechanic | Type | Description | Full write-up |
 |:--:|---|---|---|---|---|
 | ⚠️ | **BLKOUT** | Morale deleted entirely | Morale | **No break tests, no fear, no rout, no suppression-from-fire.** The only pin comes from *hacking*, not from bullets. Models die instead of flinching — fast, and the game's biggest gap. Settlements' Stress/Nerve axis is the deliberate opposite. | [[BLKOUT#Morale, deleted]] |
+
+## 🏔️ Terrain, cover & interactive hazards
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⭐ | **Zona Alfa** | Elevation demotes Cover by one tier | Terrain | An attack from higher ground drops the target's Cover a full tier — Hard→Soft→Obstruction→none. High ground matters mechanically, not just for LOS, for one sentence of rules. | [[Zona Alfa#Movement, field of view, and layered Cover]] |
 
 ## 🧱 List building & force construction
 
@@ -102,6 +121,7 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | ⚠️ | **BLKOUT** | Slot currency — no points at all | List | *"Forget the tedious task of point-counting."* 1 Force Card + 3 Unit Cards. Zero costing risk, bought by pushing 100% of balance into card design and access gates. The opposite architecture to ours, chosen deliberately. | [[BLKOUT#Slot currency — there is no costing system]] |
 | ⚠️ | **Warmachine MKIV** | Comp rules written on a category | List | A rule requiring *N* Cohort models was removed because *"all Cohort models are not created equal."* **Any structural requirement written in terms of a category smuggles in an assumption that its members are interchangeable.** | [[Warmachine and Hordes#The category trap]] |
 | ⚠️ | **Kill Team (2021)** | Strip the cost, keep the choice | List | *"There's no reason to ever not pick the plasma pistol — the stronger option just always wins with no cost involved."* **If you make something free, make it mandatory.** | [[Kill Team#If you make it free, make it mandatory]] |
+| 📎 | **Zona Alfa** | Khrabrost' — a force-build currency made of Actions | List | Crew build "points" *are* the sum of Actions-per-turn across the crew (Veteran 3 / Hardened 2 / Rookie 1) — no separate Credits-style abstraction. Gear-blind by construction (see hub's Zona Alfa note, *What it gets wrong*). | [[Zona Alfa#Khrabrost' — a force-build currency made of Actions, not Credits]] |
 
 ## 💰 Costing & points derivation
 
@@ -139,6 +159,7 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | ⭐ | **Trench Crusade** | A faction rule that edits the *economy* | Faction | Knights of Avarice: *"Your force may have no models that cost less than 80 ducats."* Faction identity written as a constraint on the price list, not on the stat line. | [[Trench Crusade#Faction rules that edit the economy]] |
 | ⭐ | **Rangers of Shadow Deep** | The archetype pattern | Faction | A fixed base profile plus a small, hard-capped build-point spend — identity by *shape of the spend*, not by a faction list. | [[Rangers of Shadow Deep#The archetype pattern]] |
 | ⚙️ | **Oathmark** | Concentric rings with a rarity gate | Faction | Rarity allowed rises with distance from the capital: heartland racially coherent by construction, frontier a free-for-all. **One table of rarity numbers replaces an entire chapter of faction restrictions.** | [[Oathmark#Concentric rings and the rarity gate]] |
+| ⭐ | **Zona Alfa** | A non-reciprocal relationship grid across six factions | Faction | Allied/Neutral/Enemy standing between all six factions collapses into one 6×6 table instead of a paragraph per pairing — and cells aren't symmetric, which reads as characterisation for free. | [[Zona Alfa#Factions — a relationship grid instead of a rules chapter]] |
 
 ## 🏰 Settlement, base & territory
 
@@ -169,6 +190,8 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | ⚙️ | **The Walking Dead: AOW** | Tax survival directly | Campaign | *"Any character that was not removed as a casualty during the game receives an Experience bonus of one red die, and **increases their points value by 3 points**."* The exact opposite of Trench Crusade, released two years apart, neither reported broken. | [[The Walking Dead All Out War#Re-pricing veterans]] |
 | ⚠️ | **Necromunda** | Play frequency out-snowballs skill | Campaign | A 100,000-run simulation put median campaign income at **750 credits at one game per week versus 1,170 at two.** Schedule, not skill, is the biggest snowball source. A diminishing-returns income table is the cheapest mitigation. | [[Necromunda and Mordheim#Play frequency beats skill]] |
 | ⚠️ | **Malifaux** | Upgrades written as patches | Campaign | Emissary upgrades *"were either not impressive enough to see the table or so strong that they became mandatory hires."* **An upgrade written to patch a weak unit lands on auto-take by construction** — the patch is worth more than its price by design intent. | [[Malifaux#The upgrade failure mode]] |
+| ⚙️ | **Zona Alfa** | Advances are crew-pooled, not per-model | Campaign | XP goes into one Crew pool from four sources (survive/kill/loot/objective) and the Leader spends it on **anyone**. Removes the "my guy didn't get to do anything" complaint, at the cost of individual character arcs. | [[Zona Alfa#Campaign Advances — a crew-pooled XP economy, four payout channels]] |
+| ⭐ | **Zona Alfa** | The 10,000 Ruble Plan — a chosen soft end-condition | Campaign | Track savings on the roster; hit 10,000 Zone Script (or an equivalent quota goal) and the crew **retires by choice**. Sidesteps snowball management by giving players an explicit, opt-in finish line instead of an open-ended campaign. | [[Zona Alfa#The Stalls, and the 10,000 Ruble Plan]] |
 
 ## 💵 Economy & upkeep
 
@@ -177,6 +200,7 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | ⭐ | **Last Days** | Three payoff channels, split deliberately | Economy | Every Perk is exactly one of **Capacity** (+group size), **Economy** (income / dice upgrades), or **Battle effect** — and the split is what keeps the base from bleeding into the firefight. | [[Last Days Zombie Apocalypse#Three payoff channels]] |
 | ⭐ | **Last Days** | Losing the structure removes the asset | Economy | *"Stable (20 SP) unlocks 0–2 Horses at 15 SP each, and losing the Stable removes the Horses from the roster."* Structures own their unlocks — capability is leased, not bought outright. | [[Last Days Zombie Apocalypse#Structures own their unlocks]] |
 | ⚙️ | **Trench Crusade** | Cost gated on total force value | Economy | *"You may include 0-2 Artillery Witches in a warband worth more than 1000 ducats."* A roster cap keyed to force value — a third dial beyond price and LIMIT, letting a capability exist at high budgets without distorting small games. | [[Trench Crusade#Caps keyed to force value]] |
+| ⭐ | **Zona Alfa** | One implicit exchange rate, a flat sell cut | Economy | The whole cash economy pegs to *"the fixed exchange rate for a working AK-47"* — every other price checks against it. Selling anything costs a flat 10%; Factions layer their own context-priced discount on top. | [[Zona Alfa#The Stalls, and the 10,000 Ruble Plan]] |
 
 ## 🏁 Scenarios, objectives & victory
 
@@ -184,6 +208,9 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 |:--:|---|---|---|---|---|
 | ⭐ | **The Walking Dead: AOW** | The neutral threat scales with the *game* | Scenario | *"Walkers are 15 points each"* and you field them **to the same points limit as the game** — so a bigger game is not a safer game, and nobody pays for the threat out of their own list. Both players get to aim them. | [[The Walking Dead All Out War#The neutral threat]] |
 | ⚙️ | **Kill Team (2024)** | Alternating equipment placement | Scenario | Players **alternate setting up** their four equipment pieces before deployment — turning a list-building decision into an interactive pre-game one. | [[Kill Team#Slots instead of prices for the long tail]] |
+| ⭐ | **Zona Alfa** | Hot Spots trigger from range via a Bolt Toss | Scenario | Objectives and secondary Hot Spots are area triggers with a **3″ Reaction Radius** — engaging loot always spawns a fight first. A model can throw a **Bolt** into that radius to trigger it *remotely*, baiting hostiles onto a rival crew standing nearby. | [[Zona Alfa#Mission Objectives and Hot Spots — the Reaction Radius, and triggering a fight from range]] |
+| ⭐ | **Zona Alfa** | Zone Hostiles scale by Threat Level, four-rule AI | Scenario | Seven generic, reskinnable monster archetypes; spawn table scales by area Threat Level 1–3; AI never ranges past a **12″ leash** and always attacks the **nearest visible model**. The clearest published "board that feels alive" system captured. | [[Zona Alfa#Zone Hostiles — Threat Level spawn scaling, and a four-rule AI]] |
+| ⭐ | **Zona Alfa** | A Hot Spot is searchable once; Anomalies stack a Will-gated Artifact roll | Scenario | Loot and hazard share one system: clear it, search it once, and on certain rolls it's also an **Anomaly** — a Will check (penalized by Threat Level) against an area blast, for a shot at a valuable, sometimes stat-boosting Artifact. | [[Zona Alfa#Salvage and Anomalies — loot and hazard sharing one system]] |
 
 ## 🎲 Solo & co-op
 
