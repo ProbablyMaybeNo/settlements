@@ -1,0 +1,98 @@
+{
+  "title": "Spectre Operations",
+  "author": "Stephen May",
+  "publisher": "Spectre Miniatures",
+  "url": "https://spectreminiatures.com/pages/rules",
+  "retrieved": "2026-08-20",
+  "acquisition_note": "Digital PDFs, provided directly by Ross. Library master folder: 'G:\\My Drive\\Wargaming\\Spectre Operations [FULL COLLECTION]\\' (19 PDFs — the full published line: 4 rules editions, the QRG, and 13 supplements). Working copies extracted from the three files listed below (all gitignored, not committed).",
+  "licence_note": "Third-party rulebook PDFs. Not committed to the repo (research/sources/**/*.pdf is gitignored). source.md / errata.md / solo-rules.md are verbatim text extractions kept for citation and analysis, matching the precedent set by research/sources/zona-alfa/ and research/sources/mad-dogs-with-guns/ in this repo — not a redistribution product, and not committed anywhere outside this research pipeline.",
+  "is_designer_statement": true,
+  "designer_statement_note": "Written in first person by Stephen May throughout (designer's notes sidebars explain intent behind Momentum, Escalations, the Awareness/Detection system, etc.). The errata FAQ is Spectre Miniatures answering rules questions directly, also a first-party statement.",
+  "documents": [
+    {
+      "file": "original.pdf",
+      "role": "primary rules — current edition",
+      "title_on_cover": "Spectre Operations — Rules (3rd Ed) Revised 07-25",
+      "edition": "3rd Edition, Revised Version 0.1, Second Printing July 2025 (first published July 2023)",
+      "pages": 143,
+      "sha256": "b8eee4e4a286a3b94e3617c740b3c3d7e14e1293a053e8dc81d039d09ec52803",
+      "library_master": "G:\\My Drive\\Wargaming\\Spectre Operations [FULL COLLECTION]\\Spectre Operations - Rules (3rd Ed) Revised 07-25.pdf",
+      "hash_verified_against_library_master": true,
+      "extraction_method": {
+        "tool": "PyMuPDF (fitz), page.get_text('text')",
+        "ocr_used": false,
+        "reason": "Clean embedded text layer, median ~1770 chars/page, confirmed on probe before extraction.",
+        "encoding_check": "Not separately re-verified this session beyond the pre-extraction probe (0 U+FFFD reported); no OCR fallback was used so no expected corruption source."
+      },
+      "capture_output": "source.md — full verbatim page-by-page text, PDF pages 1-143."
+    },
+    {
+      "file": "errata.pdf",
+      "role": "official errata + FAQ — corrects original.pdf; where it conflicts, the errata wins",
+      "pages": 5,
+      "sha256": "b226b2ac7754ec898d57cced6fbd75c4eedb8ef4311a5e6461bbab28f71cb9b6",
+      "library_master": "G:\\My Drive\\Wargaming\\Spectre Operations [FULL COLLECTION]\\Spectre Operations - Errata \u2013 Spectre Miniatures.pdf",
+      "hash_verified_against_library_master": true,
+      "extraction_method": {
+        "tool": "PyMuPDF (fitz), page.get_text('text')",
+        "ocr_used": false,
+        "reason": "Clean text layer (scraped webpage-to-PDF, includes Shopify storefront nav/footer boilerplate repeated per page)."
+      },
+      "capture_output": "errata.md — full verbatim text, all 5 pages."
+    },
+    {
+      "file": "solo-rules.pdf",
+      "role": "Solo/NPC (NPE) rules supplement",
+      "pages": 5,
+      "sha256": "504487992351660382246117e9b796da9056b77500a0ecb7c3cb610b9f93fab5",
+      "library_master": "G:\\My Drive\\Wargaming\\Spectre Operations [FULL COLLECTION]\\Spectre Operations -  Solo Rules.pdf",
+      "hash_verified_against_library_master": true,
+      "extraction_method": {
+        "tool": "PyMuPDF (fitz), page.get_text('text')",
+        "ocr_used": false,
+        "reason": "Clean text layer confirmed on probe."
+      },
+      "capture_output": "solo-rules.md — full verbatim text, all 5 pages."
+    }
+  ],
+  "editions_in_library_not_captured_this_run": [
+    {
+      "file": "Spectre Operations - Rules (2nd Ed).pdf",
+      "pages": 154,
+      "status": "available, unread — image-only (median 0 chars/page), would need OCR"
+    },
+    {
+      "file": "Spectre Operations - Rules (2nd Ed) Hard Copy Scan.pdf",
+      "pages": 78,
+      "status": "available, unread — image-only (median 0 chars/page), would need OCR"
+    },
+    {
+      "file": "Spectre Operations - Rules (1st Ed).pdf",
+      "pages": 77,
+      "status": "available, unread — superseded edition, clean text but not read this run"
+    },
+    {
+      "file": "Spectre Operations - 3ed - Quick Reference Guide.pdf",
+      "pages": 8,
+      "status": "available, unread — image-only, would need OCR"
+    }
+  ],
+  "supplements_in_library_not_captured_this_run": [
+    "Frontlines v3.pdf (78pp)",
+    "Aftermath.pdf (56pp)",
+    "Jungle Supplement.pdf (32pp)",
+    "Outbreak.pdf (28pp)",
+    "Cosmic Horror.pdf (24pp)",
+    "Criminal Element-V01.pdf",
+    "Law Enforcement-V01.pdf",
+    "Russian Forces-v01.pdf",
+    "CHARACTERS - EOD rules-v01.pdf",
+    "CHARACTERS - Baba Yaga V01.pdf",
+    "Blackout Rifle.pdf",
+    "SCENARIO - Operation Harridan.pdf",
+    "SCENARIO - Operation Gallowglass v1.pdf",
+    "SCENARIO - Operation Leatherback Part 1 v1.pdf",
+    "SCENARIO - Operation Leatherback Part 2 v1.pdf",
+    "SCHARACTERS - The Hunter.pdf"
+  ]
+}

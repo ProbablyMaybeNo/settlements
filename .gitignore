@@ -44,5 +44,5 @@ tts/assets/gallery/index.html
 
 # Research: third-party rulebook PDFs are copyrighted and large — keep the
 # extracted source.md + meta.json, not the original.
-research/sources/**/original.pdf
+research/sources/**/*.pdf
 research/captures/

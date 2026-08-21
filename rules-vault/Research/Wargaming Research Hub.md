@@ -30,6 +30,7 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | **Activation** | turn/round structure, initiative, order economy | [[Initiative & Activation]] |
 | **Reactions** | interrupts, overwatch, dodges, opponent-turn agency | [[Initiative & Activation]] |
 | **Movement** | distance, climbing, jumping, stealth, positioning | [[Movement]] |
+| **Detection** | alert states, spotting/noise, covert disguise, guard AI | [[Ideas Inbox]] (no dedicated rules note yet) |
 | **Combat** | shooting, melee, wounds, injury, lethality | [[Shooting]] · [[Melee]] · [[Damage]] |
 | **Morale** | fear, stress, suppression, break, rout | [[Morale]] |
 | **Terrain** | cover, LOS, interactive scenery, board density | [[Terrain]] · [[Terrain Interaction]] |
@@ -60,6 +61,7 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 |:--:|---|---|---|---|---|
 | ⚙️ | **Zona Alfa** | Initiative penalized by your own Pinned count | Activation | Initiative is a D10 roll **penalized by the number of your own currently-Pinned units** — suppression costs tempo as well as Actions off one shared number, and the roll's winner may **pass** first activation to the opponent. | [[Zona Alfa#Initiative and Alternating Activation]] |
 | 📎 | **Zona Alfa** | Combat Experience gates Actions, Skills and Slots on one tier | Activation | Three tiers (Rookie/Hardened/Veteran) each grant 1/2/3 Actions per Activation, 0/1/2 Skills, and 1/2/3 Equipment Slots — one rank answers three separate design questions. Converges independently on the same shape as our own Rank → Orders ladder. | [[Zona Alfa#Combat Experience — one tier gates Actions, Skills, and Equipment Slots together]] |
+| ⭐ | **Spectre Operations** | Momentum — one pool pays for your Actions and your Reactions | Activation | A Force-wide shared pool (2/Element +1 in turns 1-3, floored at 1) pays for every Action **and** every Reaction; Suppressed/Pinned Elements generate less of it, and unspent Momentum is lost each turn. | [[Spectre Operations#Momentum — one pool pays for your Actions and your Reactions]] |
 
 ## ⚡ Reactions & the opponent's turn
 
@@ -70,6 +72,7 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | ⭐ | **BLKOUT** | Move half to dodge Overwatch | Reactions | Overwatch only triggers on a move **longer than half** the Movement Value. Creep to stay safe, dash to close and expose yourself — enormous tactical texture for one sentence. *(Adopted.)* | [[BLKOUT#Reactions — the beating heart]] |
 | ⚙️ | **BLKOUT** | Reactions as a finite token | Reactions | Reacting costs an **Engaged Token**; a model holding one can neither act nor react again that round. Reactions are budgeted, not free. | [[BLKOUT#Reactions — the beating heart]] |
 | ⚙️ | **Zona Alfa** | **Alert** — bank 2 Actions to hold 1 reactive Action | Reactions | Spend two Actions to hold one Action in reserve and interrupt the opponent's Activation with *any* Action — Move, Shoot, Aim, even a grenade throw. A steep but simple 2-for-1 tax on reacting. | [[Zona Alfa#Initiative and Alternating Activation]] |
+| 📎 | **Spectre Operations** | Return Fire, Snap Shot, Go to Ground, Break Contact | Reactions | A standard overwatch/return-fire suite, paid from the shared Momentum pool; Snap Shot resolves against **Awareness**, not Ballistics, and Untrained Elements lose all Reaction access while Suppressed or Pinned where Trained Elements keep it. | [[Spectre Operations#Reactions — Return Fire, Snap Shot, Go to Ground, Break Contact]] |
 
 ## 🏃 Movement & positioning
 
@@ -79,6 +82,13 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | ⚙️ | **BLKOUT** | No free-climbing, no free descent | Movement | You need an obvious means (ladder, crates) to go up, and the **Jump** rule to come down. Verticality is gated by scenery, not by a test. | [[BLKOUT#Verticality is gated by scenery]] |
 | ⚙️ | **Zona Alfa** | 360° field of view, base-front-to-rear movement | Movement | Every model sees in all directions regardless of facing; a Move is measured base-front to base-rear specifically **"to cut down on arguments."** Small, cheap friction-removers. | [[Zona Alfa#Movement, field of view, and layered Cover]] |
 | ⚙️ | **Mad Dogs with Guns** | Hiding and Creeping — a real but thin stealth mechanic | Movement | A SMARTS roll plus cover makes a figure unseeable; it breaks on leaving cover, on a dedicated Spot action, or explicitly **"loud noises (like firing a gun)"** — a genuine answer where [[Zona Alfa]] came back empty. | [[Mad Dogs with Guns#Hiding, Creeping, and noise — the stealth mechanic Zona Alfa didn't have]] |
+
+## 🕵️ Detection, stealth & alertness
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⭐ | **Spectre Operations** | The States of Awareness and Detection Mechanics | Detection | Three named alert states (Unaware/Uneasy/Alert) each gate Momentum, Stress and available Actions; unsuppressed fire auto-Alerts every enemy in range with no roll, suppressed fire needs one; guard behaviour is scripted with reusable Points of Interest and Areas of Patrol. The real system our stealth/noise want was asking for. | [[Spectre Operations#The States of Awareness and Detection Mechanics — a full alert system, not a spotting roll]] |
+| ⭐ | **Spectre Operations** | Covert Action and Cover Level | Detection | A Covert Element's disguise is a numeric, decaying Cover Level rather than a hidden/spotted flag — it bleeds down under Scrutinise/Search pressure and going to 0 Blows Cover force-wide. | [[Spectre Operations#Covert Action and Cover Level — a decaying resource under scrutiny]] |
 
 ## 🎯 Combat, damage & injury
 
@@ -90,12 +100,17 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | 📎 | **Zona Alfa** | The Armor Save decouples the hit from the wound | Combat | A Successful Hit still rolls an Armor Save; passing it is a **Deflected Hit** that forces a Will check instead of a wound. Every hit resolves into *something* — the same tenet Settlements already has locked, reached independently. | [[Zona Alfa#Ranged Combat — the Armor Save decouples the hit from the wound]] |
 | ⚙️ | **Zona Alfa** | Melee resolves simultaneously, Hits buy a Parry | Combat | Both combatants roll at once; the Attacker then spends any of their own Successful Hits to cancel an equal number of the Defender's. A tie is named **Deadlocked** rather than left ambiguous. | [[Zona Alfa#Melee — simultaneous rolls, and paying Hits to Parry]] |
 | ⭐ | **Zona Alfa** | Battle Scars gated by whether the model was revived | Combat | A 6-entry permanent-injury table, but it only triggers on a model nobody could reach with a Med-Kit in time — injury severity is gated by rescue access, not by a flat post-battle roll for every casualty. | [[Zona Alfa#Battle Scars — permanent injury gated by bad luck, not by poverty]] |
+| 📎 | **Spectre Operations** | The Engagement Pipeline — Accurate Fire, an Awareness save, then Lethality | Combat | Accurate hits force a Situational Awareness "save"; only failed saves roll Lethality. Independent convergence on Settlements' own "every hit does something, never both" tenet — plus CQB tests Accurate Fire against **Stress**, not Ballistics. | [[Spectre Operations#The Engagement Pipeline — Accurate Fire, a Situational Awareness "save," then Lethality]] |
+| ⭐ | **Spectre Operations** | Wound Severity by Margin of Failure | Combat | A failed Lethality roll's own margin (1 / 2 / 3+) directly selects Incapacitated / Minor Injury / Narrow Escape — no second injury-table roll needed. | [[Spectre Operations#Wound Severity by Margin of Failure]] |
+| ⚙️ | **Spectre Operations** | Drone and UGV Warfare — a Stress-free Element | Combat | Drones generate Momentum and take fire like any Element but never gain or confer Stress; dedicated Anti-Drone weapons and Cope Cage armour are the priced hard-counters. | [[Spectre Operations#Drone and UGV Warfare — a Stress-Free Element]] |
 
 ## 😱 Morale, stress & suppression
 
 | Take | Game | Mechanic | Type | Description | Full write-up |
 |:--:|---|---|---|---|---|
 | ⚠️ | **BLKOUT** | Morale deleted entirely | Morale | **No break tests, no fear, no rout, no suppression-from-fire.** The only pin comes from *hacking*, not from bullets. Models die instead of flinching — fast, and the game's biggest gap. Settlements' Stress/Nerve axis is the deliberate opposite. | [[BLKOUT#Morale, deleted]] |
+| ⚙️ | **Spectre Operations** | The Stress Result Table — Trained keeps more than Untrained | Morale | One shared Stress Test reads off one of two 9-step cascades by training tier; Trained Elements keep Reaction access two states longer than Untrained ones facing the same failure count. | [[Spectre Operations#The Stress Result Table — a graduated cascade, and Trained keeps more than Untrained]] |
+| ⚠️ | **Spectre Operations** | "Stress raised too quickly" — a shipped mistake, fixed in Errata | Morale | The 3rd Ed as printed added Stress from both a passed Awareness test *and* a failed Lethality roll on the same hit; the Errata deletes the second source, stating outright that wider playtesting showed Stress climbed too fast. | [[Spectre Operations#"Stress Raised Too Quickly" — a Shipped Mistake, Fixed in Errata]] |
 
 ## 🏔️ Terrain, cover & interactive hazards
 
@@ -123,6 +138,7 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | ⚠️ | **Warmachine MKIV** | Comp rules written on a category | List | A rule requiring *N* Cohort models was removed because *"all Cohort models are not created equal."* **Any structural requirement written in terms of a category smuggles in an assumption that its members are interchangeable.** | [[Warmachine and Hordes#The category trap]] |
 | ⚠️ | **Kill Team (2021)** | Strip the cost, keep the choice | List | *"There's no reason to ever not pick the plasma pistol — the stronger option just always wins with no cost involved."* **If you make something free, make it mandatory.** | [[Kill Team#If you make it free, make it mandatory]] |
 | 📎 | **Zona Alfa** | Khrabrost' — a force-build currency made of Actions | List | Crew build "points" *are* the sum of Actions-per-turn across the crew (Veteran 3 / Hardened 2 / Rookie 1) — no separate Credits-style abstraction. Gear-blind by construction (see hub's Zona Alfa note, *What it gets wrong*). | [[Zona Alfa#Khrabrost' — a force-build currency made of Actions, not Credits]] |
+| 📎 | **Spectre Operations** | One price ladder prices a Militia and an elite operator | List | Militia and Task Force share one Resources economy and catalogue; training tier sets a flat per-model rate (20r Militia → 60-80r Tier 1) **and** gates which equipment is available — identity comes from catalogue access, not price alone. | [[Spectre Operations#Force Builder — One Price Ladder Prices a Militia and an Elite Operator]] |
 
 ## 💰 Costing & points derivation
 
@@ -199,6 +215,7 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | ⚠️ | **Malifaux** | Upgrades written as patches | Campaign | Emissary upgrades *"were either not impressive enough to see the table or so strong that they became mandatory hires."* **An upgrade written to patch a weak unit lands on auto-take by construction** — the patch is worth more than its price by design intent. | [[Malifaux#The upgrade failure mode]] |
 | ⚙️ | **Zona Alfa** | Advances are crew-pooled, not per-model | Campaign | XP goes into one Crew pool from four sources (survive/kill/loot/objective) and the Leader spends it on **anyone**. Removes the "my guy didn't get to do anything" complaint, at the cost of individual character arcs. | [[Zona Alfa#Campaign Advances — a crew-pooled XP economy, four payout channels]] |
 | ⭐ | **Zona Alfa** | The 10,000 Ruble Plan — a chosen soft end-condition | Campaign | Track savings on the roster; hit 10,000 Zone Script (or an equivalent quota goal) and the crew **retires by choice**. Sidesteps snowball management by giving players an explicit, opt-in finish line instead of an open-ended campaign. | [[Zona Alfa#The Stalls, and the 10,000 Ruble Plan]] |
+| ⭐ | **Spectre Operations** | Veteran pricing as a flat surcharge, never a cap | Campaign | Enlisted → Veteran costs a flat +10r/model; keeping an Element between campaigns costs +10r per point of XP already spent. No headcount or tier cap anywhere — a clean third data point (with [[Trench Crusade]] and [[The Walking Dead All Out War]]) on the veteran price-vs-cap fork. | [[Spectre Operations#Veteran Pricing as a Flat Surcharge, Never a Cap]] |
 
 ## 💵 Economy & upkeep
 
@@ -226,6 +243,7 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | Take | Game | Mechanic | Type | Description | Full write-up |
 |:--:|---|---|---|---|---|
 | ⭐ | **Rangers of Shadow Deep** | Scale the *players*, not the enemies | Solo | There is **no formula scaling enemies to the Ranger's level.** Instead total Recruitment Points fall as players are added (100 → 40 → 30 → 10) and companion activations shrink. Difficulty is tuned on the side you control. | [[Rangers of Shadow Deep#Scale the players, not the enemies]] |
+| ⭐ | **Spectre Operations** | The Solo/NPC rules reuse the detection system's own tables as the bot | Solo | No parallel AI was built — Unaware/Uneasy/Alert states plus PoI/AoP scripted guard behaviour, already built for stealth missions, become the solo opponent's decision tree directly. The opposite axis from Rangers' "scale the players": here the AI genuinely decides things. | [[Spectre Operations#The Solo/NPC Rules — the detection system's own tables become the bot]] |
 
 ## 📦 Production & bookkeeping
 
@@ -267,6 +285,7 @@ Every note in `Research/Notes/`, with how deep the underlying read actually went
 | [[Warmachine and Hordes]] | Warmachine MK2 → MKIV | Privateer Press | Designer statements | `docs/POINTS-RESEARCH.md` §7.1 |
 | [[Mad Dogs with Guns]] | Mad Dogs with Guns — Prohibition-era gangster skirmish | Howard Whitehouse & Roderick Robertson · Osprey Games | **Primary** — full 116-page rulebook read in full | `research/sources/mad-dogs-with-guns/` |
 | [[Zona Alfa]] | Zona Alfa — STALKER-inspired post-apoc skirmish | Patrick Todoroff · Osprey Games | **Primary** — full 65-page rulebook read in full | `research/sources/zona-alfa/` |
+| [[Spectre Operations]] | Spectre Operations — modern/near-modern military skirmish | Stephen May · Spectre Miniatures | **Primary** — 3rd Ed Revised 07-25 (143pp) + Official Errata (5pp) + Solo Rules (5pp), all read in full | `research/sources/spectre-operations/` |
 
 ---
 ## 🔭 To read next
@@ -277,8 +296,9 @@ Sources we know exist and haven't captured. Hand any of these to the **`wargamin
 - [ ] **Mordheim** — primary rulebook, for the injury and advancement tables specifically ([[Damage]], [[Progression]]).
 - [ ] **Necromunda N18** — the actual credit figures on the advancement table. The *existence* of the published column is confirmed; the numbers are not.
 - [x] ~~Fallout: Wasteland Warfare · This Is Not a Test · S.T.A.L.K.E.R.-likes~~ — **[[Zona Alfa]]** captured 2026-08-20 (primary, full read) and is the best genre match found: neutral threat-spawn, Anomalies, Salvage, crew campaign. **Still open:** Fallout: Wasteland Warfare and This Is Not a Test specifically remain uncaptured — Zona Alfa doesn't have a Settlement/Territory layer, so that half of the lineage is still unaddressed.
-- [ ] **Reaction / interrupt economies** as a cross-game sweep — Infinity's ARO, Bolt Action's dice bag, Konflikt '47, and anything else that makes the opponent's turn active. [[Zona Alfa#Initiative and Alternating Activation|Zona Alfa's Alert]] is now one data point.
-- [ ] **Stealth and noise mechanics** across skirmish games — an [[Ideas Inbox]] want with thin research behind it so far. **[[Zona Alfa]] checked and came back empty** — no stealth/concealment/noise-detection mechanic exists in that book despite the STALKER pedigree ([[Zona Alfa#Stealth and noise — searched for, and it isn't here]]). **[[Mad Dogs with Guns]]** has a real but minimal one — SMARTS-to-hide plus cover, broken explicitly by "loud noises (like firing a gun)" ([[Mad Dogs with Guns#Hiding, Creeping, and noise — the stealth mechanic Zona Alfa didn't have]]) — but it's one roll and one counter-roll, not the detailed system the want is really asking for. The search still needs games that treat sneaking as a primary verb, not just a matching setting.
+- [ ] **Reaction / interrupt economies** as a cross-game sweep — Infinity's ARO, Bolt Action's dice bag, Konflikt '47, and anything else that makes the opponent's turn active. [[Zona Alfa#Initiative and Alternating Activation|Zona Alfa's Alert]] and **[[Spectre Operations#Momentum — one pool pays for your Actions and your Reactions|Spectre's Momentum]]** (reactions paid from the same pool your turn runs on) are now two data points.
+- [x] ~~Stealth and noise mechanics across skirmish games~~ — **[[Spectre Operations]]** captured 2026-08-20 (primary, full read) finally delivers the real system this want was asking for: three States of Awareness gating Momentum/Stress/Actions, an asymmetric audio-detection roll (unsuppressed = automatic Alert, suppressed = a roll), Points of Interest / Areas of Patrol guard scripting, and a Covert Action layer with a numeric, decaying Cover Level ([[Spectre Operations#The States of Awareness and Detection Mechanics — a full alert system, not a spotting roll]], [[Spectre Operations#Covert Action and Cover Level — a decaying resource under scrutiny]]). [[Zona Alfa]] (confirmed absent) and [[Mad Dogs with Guns]] (one thin roll) stay logged as the earlier, thinner data points on the same want.
+- [ ] **Spectre Operations supplements** — 13 titles in the library, all clean text, none read this run: Frontlines v3 (78pp — likely core-rules expansion, probably the next highest-value pick), Aftermath (56pp), Jungle Supplement (32pp), Outbreak (28pp), Cosmic Horror (24pp), Criminal Element, Law Enforcement, Russian Forces, EOD rules, Baba Yaga, Blackout Rifle, and the Operation Harridan / Gallowglass / Leatherback scenario packs. Low priority: the 2nd Ed (154pp) and 2nd Ed Hard Copy Scan (78pp) are image-only (would need OCR) and 1st Ed (77pp) is superseded — none captured, none urgent given the 3rd Ed is current.
 - [ ] **r/wargaming · TMP · Dakka · BGG** design threads worth keeping — no capture pipeline is pointed at them yet.
 
 ---

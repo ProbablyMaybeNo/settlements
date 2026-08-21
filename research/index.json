@@ -8,6 +8,7 @@
     "Activation",
     "Reactions",
     "Movement",
+    "Detection",
     "Combat",
     "Morale",
     "Terrain",
@@ -865,6 +866,80 @@
         }
       ],
       "notes": "No Settlement/Territory layer at all in this book (pure crew-and-gear campaign) - does not inform Settlement/Structures. Checked and confirmed NOT_FOUND: no stealth/noise/detection mechanic anywhere in the 65 pages, despite the STALKER pedigree."
+    },
+    {
+      "slug": "spectre-operations",
+      "game": "Spectre Operations - modern/near-modern military skirmish",
+      "note": "Research/Notes/Spectre Operations.md",
+      "designer": "Stephen May",
+      "publisher": "Spectre Miniatures",
+      "depth": "primary",
+      "capture": "research/sources/spectre-operations/",
+      "long_form": null,
+      "retrieved": "2026-08-20",
+      "mechanics": [
+        {
+          "name": "Momentum - one pool pays for your Actions and your Reactions",
+          "type": "Activation",
+          "verdict": "steal"
+        },
+        {
+          "name": "Return Fire, Snap Shot, Go to Ground, Break Contact",
+          "type": "Reactions",
+          "verdict": "reference"
+        },
+        {
+          "name": "The States of Awareness and Detection Mechanics",
+          "type": "Detection",
+          "verdict": "steal"
+        },
+        {
+          "name": "Covert Action and Cover Level",
+          "type": "Detection",
+          "verdict": "steal"
+        },
+        {
+          "name": "The Engagement Pipeline - Accurate Fire, an Awareness save, then Lethality",
+          "type": "Combat",
+          "verdict": "reference"
+        },
+        {
+          "name": "Wound Severity by Margin of Failure",
+          "type": "Combat",
+          "verdict": "steal"
+        },
+        {
+          "name": "Drone and UGV Warfare - a Stress-free Element",
+          "type": "Combat",
+          "verdict": "adapt"
+        },
+        {
+          "name": "The Stress Result Table - Trained keeps more than Untrained",
+          "type": "Morale",
+          "verdict": "adapt"
+        },
+        {
+          "name": "\"Stress raised too quickly\" - a shipped mistake, fixed in Errata",
+          "type": "Morale",
+          "verdict": "avoid"
+        },
+        {
+          "name": "One price ladder prices a Militia and an elite operator",
+          "type": "List",
+          "verdict": "reference"
+        },
+        {
+          "name": "Veteran pricing as a flat surcharge, never a cap",
+          "type": "Campaign",
+          "verdict": "steal"
+        },
+        {
+          "name": "The Solo/NPC rules reuse the detection system's own tables as the bot",
+          "type": "Solo",
+          "verdict": "steal"
+        }
+      ],
+      "notes": "Richest capture yet for the stealth/detection open want - Zona Alfa came back NOT_FOUND and Mad Dogs with Guns had one thin roll; Spectre Operations has a full three-state alert system (Unaware/Uneasy/Alert), asymmetric audio detection, PoI/AoP guard scripting, and a Covert Action Cover Level layer. Read 3rd Ed Revised 07-25 (143pp, current edition) + Official Errata (5pp, wins where it conflicts with the 3rd Ed) + Solo/NPC Rules (5pp) in full. 2nd Ed / 2nd Ed Hard Copy Scan are image-only and unread (would need OCR); 1st Ed is superseded and unread. 13 supplements in the library (Frontlines v3, Aftermath, Jungle, Outbreak, Cosmic Horror, Criminal Element, Law Enforcement, Russian Forces, EOD, Baba Yaga, Blackout Rifle, 3 scenario packs) not read this run - see to_read."
     }
   ],
   "to_read": [
@@ -885,13 +960,18 @@
     },
     {
       "target": "Reaction and interrupt economies (cross-game sweep)",
-      "why": "Infinity ARO, Bolt Action dice bag, Konflikt '47; Zona Alfa's Alert action (2 Actions banks 1 reactive Action of any kind) is now one data point",
+      "why": "Infinity ARO, Bolt Action dice bag, Konflikt '47; Zona Alfa's Alert action (2 Actions banks 1 reactive Action of any kind) and Spectre Operations' Momentum (reactions paid from the same shared pool your turn runs on, captured 2026-08-20) are now two data points",
       "priority": "medium"
     },
     {
-      "target": "Stealth and noise mechanics (cross-game sweep)",
-      "why": "an Ideas Inbox want with thin research behind it. Zona Alfa checked and came back empty - no stealth/concealment/noise-detection mechanic in that book despite the STALKER pedigree. Mad Dogs with Guns (captured 2026-08-20) has a real but minimal one - SMARTS-to-hide plus cover, broken by noise - but it's one roll and one counter-roll, not the detailed system this want is asking for. The search still needs games that treat sneaking as a primary verb, not just a matching setting.",
-      "priority": "medium"
+      "target": "Stealth and noise mechanics (cross-game sweep) - SUBSTANTIALLY ANSWERED",
+      "why": "Spectre Operations (captured 2026-08-20, primary, full read) finally delivers the real system this want was asking for: three States of Awareness gating Momentum/Stress/Actions, an asymmetric audio-detection roll (unsuppressed = automatic Alert, suppressed = a roll), Points of Interest / Areas of Patrol guard scripting, and a Covert Action layer with a numeric, decaying Cover Level. Zona Alfa (confirmed absent) and Mad Dogs with Guns (one thin roll) remain logged as the earlier, thinner data points on the same want.",
+      "priority": "low"
+    },
+    {
+      "target": "Spectre Operations supplements (13 titles) + older editions",
+      "why": "Frontlines v3 (78pp, likely core-rules expansion - probably the next highest-value pick), Aftermath (56pp), Jungle Supplement (32pp), Outbreak (28pp), Cosmic Horror (24pp), Criminal Element, Law Enforcement, Russian Forces, EOD rules, Baba Yaga, Blackout Rifle, and 3 scenario packs (Harridan/Gallowglass/Leatherback) - all clean text, none read this run. Low priority: 2nd Ed (154pp) and 2nd Ed Hard Copy Scan (78pp) are image-only (need OCR), 1st Ed (77pp) is superseded - none urgent given the 3rd Ed is current and already captured.",
+      "priority": "low"
     },
     {
       "target": "r/wargaming, TMP, Dakka, BGG design threads",
