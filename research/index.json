@@ -993,6 +993,85 @@
         }
       ],
       "notes": "Richest capture yet for the stealth/detection open want - Zona Alfa came back NOT_FOUND and Mad Dogs with Guns had one thin roll; Spectre Operations has a full three-state alert system (Unaware/Uneasy/Alert), asymmetric audio detection, PoI/AoP guard scripting, and a Covert Action Cover Level layer. Read 3rd Ed Revised 07-25 (143pp, current edition) + Official Errata (5pp, wins where it conflicts with the 3rd Ed) + Solo/NPC Rules (5pp) in full. 2nd Ed / 2nd Ed Hard Copy Scan are image-only and unread (would need OCR); 1st Ed is superseded and unread. 13 supplements in the library (Frontlines v3, Aftermath, Jungle, Outbreak, Cosmic Horror, Criminal Element, Law Enforcement, Russian Forces, EOD, Baba Yaga, Blackout Rifle, 3 scenario packs) not read this run - see to_read."
+    },
+    {
+      "slug": "fallout-wasteland-warfare",
+      "game": "Fallout: Wasteland Warfare - post-apocalyptic skirmish with a base-building campaign layer",
+      "note": "Research/Notes/Fallout Wasteland Warfare.md",
+      "designer": "James Sheahan",
+      "publisher": "Modiphius Entertainment",
+      "depth": "primary (4 of 5 docs, official-confirmed) / community reconstruction (5th doc, provenance unresolved)",
+      "capture": "research/sources/fallout-wasteland-warfare/",
+      "long_form": null,
+      "retrieved": "2026-08-20",
+      "mechanics": [
+        {
+          "name": "A d20 Skill Dice plus stacked d12 Effect Dice",
+          "type": "Dice",
+          "verdict": "reference"
+        },
+        {
+          "name": "Computers — hacking as one Expertise skill among four",
+          "type": "Hacking",
+          "verdict": "reference"
+        },
+        {
+          "name": "Investigation Markers and Searchable Markers",
+          "type": "Scenario",
+          "verdict": "adapt"
+        },
+        {
+          "name": "The Automatron — a robot built from three cards",
+          "type": "List",
+          "verdict": "steal"
+        },
+        {
+          "name": "Clunky — a named, priced-unreliable robot tier",
+          "type": "Costing",
+          "verdict": "steal"
+        },
+        {
+          "name": "The Robot Controller — one Leader gates a whole robot faction",
+          "type": "Faction",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Turrets — pure-reaction defenses, aware at double range",
+          "type": "Combat",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Power Armor's two-stage degrade",
+          "type": "Combat",
+          "verdict": "avoid"
+        },
+        {
+          "name": "Land — a slot-cap that also funds one specific scenario's budget",
+          "type": "Settlement",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Settlement Attacks — a computed Defense Rating, and a Watch-Tower-gated surprise roll",
+          "type": "Detection",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Two currencies for one settlement — Caps buys, Resources maintains",
+          "type": "Economy",
+          "verdict": "avoid"
+        },
+        {
+          "name": "Survival Mode's own admitted snowball warning",
+          "type": "Campaign",
+          "verdict": "avoid"
+        },
+        {
+          "name": "Natural Behavior — a swappable AI-override card",
+          "type": "Solo",
+          "verdict": "steal"
+        }
+      ],
+      "notes": "Top scorer of a 287-PDF tech-content sweep, and the closest whole-game match to Settlements left uncaptured: post-apoc skirmish, persistent crew, base-building layer. Core d20-Skill-Dice-plus-stacked-d12-Effect-Dice engine does not transfer to our 1d10 system - flagged explicitly in the note. Read Rules of Play (60pp), Into the Wasteland (24pp), Homestead Rules Expansion v2 (34pp), and Automatron Player Rules (2pp) in full, all confirmed official via product code + Bethesda/ZeniMax trademark footer + library-hash match. The 5th file (Robots Battle Mode faction list, 11pp) carries neither marker - official/fan provenance unresolved, see meta.json and the hub's to-read list. Homestead assumes the (uncaptured) Campaign Handbook's base Settlement/Caps loop as a prerequisite, so whether ordinary away-battle Crew budgets scale with settlement size is NOT_FOUND, not inferred. Web search corrected a mid-research assumption: FWW is not discontinued - a 2nd Edition is in development for 2026."
     }
   ],
   "to_read": [
@@ -1007,9 +1086,24 @@
       "priority": "medium"
     },
     {
-      "target": "Fallout: Wasteland Warfare / This Is Not a Test",
-      "why": "post-apocalyptic scavenge-and-base lineage - Zona Alfa (captured 2026-08-20) closes the STALKER-like half of this with a primary full read; Fallout: Wasteland Warfare and This Is Not a Test specifically remain uncaptured, and neither of those has a Settlement/Territory layer confirmed either",
+      "target": "Fallout: Wasteland Warfare / This Is Not a Test - SUBSTANTIALLY ANSWERED",
+      "why": "post-apocalyptic scavenge-and-base lineage - Zona Alfa (captured 2026-08-20) closed the STALKER-like half; Fallout: Wasteland Warfare (captured 2026-08-20, 4 of 5 docs primary full read) closes the Settlement/Territory half - Automatron modular-robot build, Clunky priced-unreliable tier, Land's slot-cap-plus-scenario-budget mechanic, card-driven Natural Behavior AI. This Is Not a Test remains uncaptured.",
+      "priority": "low"
+    },
+    {
+      "target": "Fallout: Wasteland Warfare - Campaign Handbook",
+      "why": "defines the base Settlement/Caps loop Homestead extends and the full AI Response system (Attack/Move/Objective/Fall Back/Defend, Target Priorities) that Natural Behavior overrides - both load-bearing for the Fallout Wasteland Warfare note but not directly read this run. Highest-priority single follow-up.",
       "priority": "high"
+    },
+    {
+      "target": "Fallout: Wasteland Warfare - Into The Vault",
+      "why": "a separate terminal/vault-crawl-themed expansion (distinct from 'Into the Wasteland' despite the name overlap) - plausible next-highest hacking/terminal capture, unread this run",
+      "priority": "medium"
+    },
+    {
+      "target": "Fallout: Wasteland Warfare - BMCE provenance",
+      "why": "whether the 14 BMCE-prefixed per-faction Battle Mode force lists (incl. the Robots list captured this run) are official Modiphius shorthand or a fan-maintained companion was not resolved by web search - see research/sources/fallout-wasteland-warfare/meta.json. Confirming this corrects the Robots row's depth tag either up or down.",
+      "priority": "low"
     },
     {
       "target": "Reaction and interrupt economies (cross-game sweep)",

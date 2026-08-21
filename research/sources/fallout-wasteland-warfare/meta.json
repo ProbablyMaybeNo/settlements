@@ -1,0 +1,82 @@
+{
+  "slug": "fallout-wasteland-warfare",
+  "game": "Fallout: Wasteland Warfare",
+  "publisher": "Modiphius Entertainment (under license from Bethesda Softworks / ZeniMax Media)",
+  "designer": "James Sheahan (lead designer)",
+  "retrieved": "2026-08-20",
+  "is_designer_statement": false,
+  "library_root": "G:\\My Drive\\Wargaming\\Fallout\\",
+  "library_root_note": "Recursively holds 1,211 files across Campaign/, Faction Rules/, Fallout Tokens/, Rule books/, Scenarios/, plus loose top-level PDFs. This capture covers 5 of them, chosen as the top tech-content scorers plus the settlement/robot-construction sources. Far more is uncaptured (13+ Battle Mode faction lists, the RPG line, card decks, scenario packs, Nuka-World materials, Into the Vault).",
+  "sources": [
+    {
+      "working_copy": "research/sources/fallout-wasteland-warfare/rules-of-play.pdf",
+      "capture_md": "research/sources/fallout-wasteland-warfare/rules-of-play.md",
+      "library_master": "G:\\My Drive\\Wargaming\\Fallout\\Rule books\\Fallout; Wasteland Warfare - Rules of Play.pdf",
+      "sha256": "e7104a7d9673db49db1cee7a7958e4175e26edf301f4c7030d6d5a4846cda73a",
+      "hash_match": "exact — working copy, capture source, and library master are byte-identical",
+      "title": "Fallout: Wasteland Warfare — Rules of Play",
+      "pages": 60,
+      "product_code": "FOWW 2PB-002-111",
+      "official": true,
+      "text_quality": "clean embedded text throughout, no OCR artifacts observed",
+      "notes": "The 2-Player Boxed Set core rulebook. Covers the core d20 Skill Dice + colored d12 Effect Dice resolution, S.P.E.C.I.A.L. attributes, Expertise skills (Computers/Lockpick/Search/Presence), Investigation/Searchable Markers, Power Armor, Turrets, factions overview. Does not itself define the AI Response system (Attack/Move/Objective/Fall Back/Defend/Close Combat/Ranged Combat) in detail — those entries are cross-referenced to 'Campaign Handbook CH11', which is not among the 5 files captured this run."
+    },
+    {
+      "working_copy": "research/sources/fallout-wasteland-warfare/into-the-wasteland.pdf",
+      "capture_md": "research/sources/fallout-wasteland-warfare/into-the-wasteland.md",
+      "library_master": "G:\\My Drive\\Wargaming\\Fallout\\Rule books\\Fallout; Wasteland Warfare Into the Wasteland.pdf",
+      "sha256": "d32134993d0506f370e46d96de34f175788bfe2cf3060437c4b033ecc88ec6c7",
+      "hash_match": "exact — working copy, capture source, and library master are byte-identical. NOTE: a different-hashed '(v1.1)' edition of the same title also exists in the library (both in Rule books/ and in the top-level Fallout Wasteland Warfare/ folder) and was NOT the file captured this run — flagging so a future capture doesn't assume this note already covers v1.1.",
+      "title": "Fallout: Wasteland Warfare — Into the Wasteland",
+      "pages": 24,
+      "product_code": "FOWW ITW-001-111",
+      "official": true,
+      "text_quality": "clean embedded text throughout, no OCR artifacts observed",
+      "notes": "Solo/co-op wilderness-scenario expansion. Defines Wasteland Scenarios, Inhabitants, and the Natural Behavior AI-override system (Grazing/Hunting/Traveling/Fleeing) that layers on top of the base AI system defined in the (uncaptured) Campaign Handbook."
+    },
+    {
+      "working_copy": "research/sources/fallout-wasteland-warfare/homestead.pdf",
+      "capture_md": "research/sources/fallout-wasteland-warfare/homestead.md",
+      "library_master": "G:\\My Drive\\Wargaming\\Fallout\\Rule books\\Fallout Wasteland Warfare Homestead Rules Expansion v2 Book DIGITAL 006w.pdf",
+      "sha256": "f5af645f0206d13715f45966ffd8524f6b0dd12d0c0418fffbdaf9e7b29edd3f",
+      "hash_match": "NOT byte-identical to the library master (which hashes 315f653e3f6d6bdb...) despite matching page count (34) and spot-checked identical text on pages 5, 15, and 25 — almost certainly the same v2 Homestead book re-exported/re-compressed at a different time, not a different edition. No new file was added to the library since the content is already present there under a clear name.",
+      "title": "Fallout: Wasteland Warfare: Homestead — Rules Expansion v2",
+      "pages": 34,
+      "official": true,
+      "text_quality": "PROBED AS EXPECTED-OCR PER BRIEF, BUT IS NOT: fitz text extraction returns clean, coherent embedded text on every body-text page checked (pp.3, 11, 21, 30 spot-read in full). The ONLY garbled output is on pages containing the physical Settlement Layout Grid diagram (e.g. page 3, after the Resources rules) and a MuPDF 'cannot find object in xref (781 0 R)' warning on one page (the internal page-30/29 boundary) — both are artifacts of an embedded raster/vector diagram object, not of the running rules text, which reads normally around them.",
+      "notes": "The Homestead expansion. Requires the base Settlement/Caps rules from the Campaign Handbook (uncaptured, referenced explicitly on p.3: 'To use Homestead, a player must be using the Settlement rules included in the Campaign Handbook') — this note's Settlement analysis is therefore scoped to what Homestead ADDS (physical layout, Structural Damage, Attack/Defense Rating, Resources currency, Survival Mode persistent roster), not the baseline Settlement Mode loop itself."
+    },
+    {
+      "working_copy": "research/sources/fallout-wasteland-warfare/robots.pdf",
+      "capture_md": "research/sources/fallout-wasteland-warfare/robots.md",
+      "library_master": "G:\\My Drive\\Wargaming\\Fallout\\Faction Rules\\FWW\\BMCE-Robots-v-1-0.pdf",
+      "sha256": "12c03dc4dc72414a031c7ffd58ca9774c34272dcfc60e2f996ad1b728e593561",
+      "hash_match": "exact — working copy, capture source, and library master are byte-identical",
+      "title": "Fallout: Wasteland Warfare — Robots (Battle Mode Faction List)",
+      "pages": 11,
+      "official": "UNCERTAIN — see notes",
+      "text_quality": "clean embedded text throughout, tabular unit/item cost lists only (no rules prose, no stat cards)",
+      "notes": "Filename prefix 'BMCE' and internal header read 'FWW BMCE v 1.0 22/06/2024 — Battle Mode Faction List'. This does NOT match the official Modiphius product-code convention seen on every other file in this capture (FOWW <code>-111) and carries no Bethesda/ZeniMax trademark footer anywhere in its 11 pages — both present on every other official document sampled, including the separate, differently-named official Battle Mode Rulebook (product code FOWW BTL-001-111, confirmed via a direct check of G:\\...\\BMCE-Rulebook-v-1-6 (2).pdf p.1-2, which DOES carry the official code and IS an official living-document PDF Modiphius hosts and updates). Whether the per-faction 'BMCE-*' Force List PDFs (Robots, Survivors, Raiders, etc., 14 files in Faction Rules/FWW/) are official Modiphius Battle Mode force lists using an internal shorthand, or a fan-maintained companion sharing similar naming, was NOT resolved by a web search this run (searches found the official Battle Mode program and its forums but no definition of the literal 'BMCE' acronym) [NOT FOUND]. Depth is therefore graded 'community reconstruction' rather than 'official PDF' in the hub, and its price figures are treated as reference-only, not FACT-tagged, pending confirmation."
+    },
+    {
+      "working_copy": "research/sources/fallout-wasteland-warfare/automatron.pdf",
+      "capture_md": "research/sources/fallout-wasteland-warfare/automatron.md",
+      "library_master": "G:\\My Drive\\Wargaming\\Fallout\\foww_automatron_player_rules_v.1.0.pdf",
+      "sha256": "95a79c6efe1a1a8cf50d8eb86ae889f7e6def4e5a168be6fd6c1c68e9f450e80",
+      "hash_match": "exact — working copy, capture source, and library master are byte-identical",
+      "title": "Fallout: Wasteland Warfare — Automatron Player Rules v1.0",
+      "pages": 2,
+      "product_code": "FOWW APR-001-111",
+      "official": true,
+      "text_quality": "clean embedded text throughout",
+      "notes": "Official 2-page supplement: robot equip limits, the Clunky unreliable-robot rule, the Robot Controller leader/faction rule, and the Automatron (Head/Torso/Legs modular robot build) rule."
+    }
+  ],
+  "web_verification_note": "A web search this run corrected an assumption made mid-research: Fallout: Wasteland Warfare is NOT a discontinued line — Modiphius announced a Second Edition in active development, targeted for 2026. Do not carry forward any prior note framing FWW as abandoned/legacy.",
+  "not_captured_this_run_but_relevant": [
+    "Campaign Handbook — defines the base Settlement/Caps loop Homestead extends, and the full AI Response system (Attack/Move/Objective/Fall Back/Defend/Close/Ranged Combat Methods, Target Priorities) that Natural Behavior overrides. Highest-priority follow-up capture.",
+    "Battle Mode Rulebook (FOWW BTL-001-111, v1.6) — the competitive/tournament ruleset; explicitly disables Settlement Mode, Solo/Co-op Mode, and all deck-based systems, so it is NOT where the settlement/hacking/AI material lives.",
+    "13 other BMCE-prefixed faction Force Lists (Survivors, Raiders, Brotherhood of Steel, Institute, NCR, Enclave, Gunners, Railroad, Children of Atom, Super Mutants, Creatures, Nuka-World Gangs) — same official-vs-fan uncertainty as robots.pdf.",
+    "Into The Vault (a separate boxed expansion, terminal/vault-crawl themed — 'Into The Vault - Rulebook.pdf' in Rule books/) — the name overlaps with 'Into the Wasteland' but is a distinct product; NOT read this run despite being a plausible high-hacking-density candidate."
+  ]
+}
