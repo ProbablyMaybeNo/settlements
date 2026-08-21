@@ -1,0 +1,247 @@
+---
+type: research-hub
+title: Wargaming Research
+tags: [settlements/research]
+status: Living
+---
+# 🔬 Wargaming Research — the mechanics catalogue
+
+> **What this is.** Every notable rules system or mechanic we've come across — read in a rulebook, found on Reddit, dug out of a forum, or thought up ourselves — logged in one row so it can be found again, and linked to a full write-up so the actual rules are one click away.
+>
+> **What this is not.** Not a to-do list and not a design decision. Nothing here is adopted into Settlements by being written down. Adoption happens in [[Full Rules System v1]] and nowhere else.
+
+> [!tip] How to use it
+> **Reading:** scan the **Type** section you're designing in, then follow the link for the real rules. **Ctrl+Hover** a link to peek without leaving this note.
+> **Adding:** copy [[_Research Entry Template]] into `Research/Notes/`, write it up, then add one row here per mechanic. One source note may own many rows — link the *heading*, not just the note: `[[Malifaux#The keyword tax]]`.
+> **Automating:** ask the **`wargaming-researcher`** agent. It scrapes a PDF / article / thread, files the raw capture into the repo's `research/sources/`, writes the vault note, and appends the rows here.
+
+> [!info] The columns
+> **Game** · **Mechanic** · **Type** · **Description** · **Full write-up** are the spec. **Take** is one extra character that earns its place — it's the reason you'd re-read the row.
+> ⭐ **steal** — do this, or something like it · ⚙️ **adapt** — good idea, wrong shape for us · ⚠️ **avoid** — instructive failure · 📎 **reference** — context, not a candidate.
+
+---
+## 🏷️ Mechanic types
+
+The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], so a row points at the note it would touch.
+
+| Type | Covers | Our note |
+|---|---|---|
+| **Dice** | core resolution, target numbers, dice pools, crits | [[Rules Engine]] |
+| **Activation** | turn/round structure, initiative, order economy | [[Initiative & Activation]] |
+| **Reactions** | interrupts, overwatch, dodges, opponent-turn agency | [[Initiative & Activation]] |
+| **Movement** | distance, climbing, jumping, stealth, positioning | [[Movement]] |
+| **Combat** | shooting, melee, wounds, injury, lethality | [[Shooting]] · [[Melee]] · [[Damage]] |
+| **Morale** | fear, stress, suppression, break, rout | [[Morale]] |
+| **Terrain** | cover, LOS, interactive scenery, board density | [[Terrain]] · [[Terrain Interaction]] |
+| **List** | force construction, slots, caps, legality gates | [[List Building]] |
+| **Costing** | how prices are *derived* — formulas, atoms, multipliers | [[Balance]] · `docs/GLOBAL-POINTS-SYSTEM.md` |
+| **Faction** | identity rules, keywords, thematic taxes | [[Factions]] |
+| **Campaign** | persistence, XP, advancement, snowball control | [[Campaign]] · [[Progression]] |
+| **Settlement** | bases, territory, entitlement, what growth buys | [[Settlement]] · [[Territory]] · [[Structures]] |
+| **Economy** | currencies, income, upkeep, exchange rates | [[Economy]] |
+| **Scenario** | objectives, victory, neutral threats, side quests | [[Scenarios]] |
+| **Solo** | solo/co-op scaling, AI opponents | [[Solo & Co-op]] |
+| **Production** | bookkeeping load, tokens, packaging, teaching | [[Components]] · [[Rulebook]] |
+
+---
+## 🎲 Dice & resolution
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| 📎 | **BLKOUT** | The Skill Check | Dice | `2D10` vs the model's **Skill** (lower is better), count successes, **one success passes**. A natural 10 is an **Ace** worth two. Modifiers **add or remove whole dice** — they never touch the target number. | [[BLKOUT#The Skill Check — one test, and cover is dice]] |
+| ⚙️ | **BLKOUT** | Cover as dice, not modifier | Dice | Being in cover means *fewer dice are thrown at you*. Viscerally intuitive at the table; swingier than a flat modifier. | [[BLKOUT#The Skill Check — one test, and cover is dice]] |
+| ⚠️ | **BLKOUT** | The "Hard" check | Dice | A check flagged **Hard** caps you at **1D10** however many bonuses you hold — a ceiling expressed in the dice economy rather than as a modifier cap. | [[BLKOUT#The Skill Check — one test, and cover is dice]] |
+| 📎 | **Horizon Wars** | One stat is both cost and combat value | Dice | **Presence (P)** *is* the unit's points cost *and* its close-combat value. The cheapest possible statement of "cost is a property of the profile." | [[Horizon Wars#Presence is the cost]] |
+
+## ⚡ Reactions & the opponent's turn
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⭐ | **BLKOUT** | Simultaneous **Return Fire** | Reactions | Shot at? Shoot back *at the same time* — more successes applies damage first, and **a destroyed model deals no damage**. Every trigger-pull becomes a gamble. *(Evaluated and **cut** for Settlements — [[Shooting\|Snap Shot]] resolves sequentially so the attacker keeps a first-mover incentive.)* | [[BLKOUT#Reactions — the beating heart]] |
+| ⭐ | **BLKOUT** | **Juke** — an active dodge | Reactions | A targeted model spends its reaction to count as in cover (matched play: shooter rolls **−1D10**, survivor moves half). Gives the defender agency on the enemy's turn. *(Adopted as **Dodge** — opposed AGI vs DEX.)* | [[BLKOUT#Reactions — the beating heart]] |
+| ⭐ | **BLKOUT** | Move half to dodge Overwatch | Reactions | Overwatch only triggers on a move **longer than half** the Movement Value. Creep to stay safe, dash to close and expose yourself — enormous tactical texture for one sentence. *(Adopted.)* | [[BLKOUT#Reactions — the beating heart]] |
+| ⚙️ | **BLKOUT** | Reactions as a finite token | Reactions | Reacting costs an **Engaged Token**; a model holding one can neither act nor react again that round. Reactions are budgeted, not free. | [[BLKOUT#Reactions — the beating heart]] |
+
+## 🏃 Movement & positioning
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⭐ | **BLKOUT** | **Lean Out** marker | Movement | Spend half your move to place a marker and peek. Enemies who can only see the *marker* treat it as the model, and the leaner has cover from them. Lean-only doesn't count as "moving" for other rules. | [[BLKOUT#Lean Out]] |
+| ⚙️ | **BLKOUT** | No free-climbing, no free descent | Movement | You need an obvious means (ladder, crates) to go up, and the **Jump** rule to come down. Verticality is gated by scenery, not by a test. | [[BLKOUT#Verticality is gated by scenery]] |
+
+## 🎯 Combat, damage & injury
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⭐ | **Gaslands** | The **BFG** — price the drawback | Combat | The biggest gun in the game costs **1 can**, because it eats 3 build slots, has Ammo 1, shoves you backwards, drops you to Gear 1 and adds 3 Hazard tokens. Spectacular toys without distorting the economy. | [[Gaslands#Price the drawback, not the number]] |
+| ⭐ | **Necromunda / Mordheim** | Lasting-injury tables | Combat | A model taken out rolls on an injury table — concussion, broken limb, severed limb, gouged eye, full recovery, death — each with a lasting or permanent effect. The lineage Settlements' own injury design descends from. | [[Necromunda and Mordheim#Lasting injuries]] |
+| 📎 | **Trench Crusade** | Melee costs are genuinely built | Combat | Melee prices reconstruct exactly from increments (CRITICAL +1, Ignore Shield +1, anti-charge +4) — two out-of-sample predictions hit exactly. Ranged prices do not reconstruct at all. Half a formula, published by accident. | [[Trench Crusade#Melee is built, ranged is eyeballed]] |
+
+## 😱 Morale, stress & suppression
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⚠️ | **BLKOUT** | Morale deleted entirely | Morale | **No break tests, no fear, no rout, no suppression-from-fire.** The only pin comes from *hacking*, not from bullets. Models die instead of flinching — fast, and the game's biggest gap. Settlements' Stress/Nerve axis is the deliberate opposite. | [[BLKOUT#Morale, deleted]] |
+
+## 🧱 List building & force construction
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⭐ | **Trench Crusade** | `LIMIT: N` printed beside the price | List | Every catalogue entry carries **two independently-tuned dials** — a price and a cap. Errata adjust them separately: fix "too strong" without making it unaffordable, fix "too common" without making it weak. | [[Trench Crusade#Two dials per item — price and LIMIT]] |
+| ⭐ | **Trench Crusade** | A cap that loot can break | List | `LIMIT` caps **purchasing**, not possession — *"if you find more via looting/exploration, you can break this limit."* Constrains list-building without forbidding the moment you take the enemy's machine gun off the field. | [[Trench Crusade#Two dials per item — price and LIMIT]] |
+| ⭐ | **Kill Team (2024)** | Equipment as team-level slots | List | *"Pick up to four equipment options"*, **not attached to any operative**, set up alternately before deployment. Turns a pricing problem into a slot problem and kills the combinatorial balance nightmare. | [[Kill Team#Slots instead of prices for the long tail]] |
+| ⭐ | **Malifaux** | Leftover budget → capped in-game resource | List | Unspent Soulstones become your in-game Soulstone Pool, **capped at 10**. Nothing is wasted, and hoarding is bounded. | [[Malifaux#Leftover budget becomes a capped resource]] |
+| ⭐ | **Malifaux** | Free Leader, conditionally-free Totem | List | The Leader's cost *"is treated as 0 when hiring"*; the Totem is free if its Master leads. The budget gets spent only on real choices. | [[Malifaux#The free leader]] |
+| ⭐ | **Malifaux** | One upgrade at hiring, unlimited in play | List | *"Any model can pay for and Attach a single Upgrade"* during hiring — *"this limit only applies during hiring."* A structural fix to upgrade-stacking that costs one sentence. | [[Malifaux#One upgrade at hiring]] |
+| ⭐ | **Infinity** | SWC — a currency derived from the first | List | *"Each 50 Army Points will provide 1 point of SWC."* The scarce currency auto-scales with game size; you can't sell your heavy weapons to buy bodies. Half-point granularity on the scarce currency, integers on the abundant one. | [[Infinity#SWC — the derived second budget]] |
+| ⭐ | **Infinity** | "+X" profiles that **grant** budget | List | Some profiles *give* you SWC rather than costing it — usually gated behind fielding that model as Lieutenant. The leader tax priced in currency #2, never in points. | [[Infinity#Profiles that pay you]] |
+| ⭐ | **Gaslands** | Cans **plus unbuyable slots** | List | Everything costs points *and* build slots; slots are fixed by chassis and **cannot be bought**. Decouples "how strong" from "how much fits," and cannot be points-optimised around. | [[Gaslands#Points plus an unbuyable capacity]] |
+| ⭐ | **Rangers of Shadow Deep** | Deliberately over-subscribed build points | List | Sub-caps total **16 BP against a 10 BP budget**. You cannot max any two categories — the over-subscription *is* the choice. | [[Rangers of Shadow Deep#Over-subscribed build points]] |
+| ⭐ | **Frostgrave / Stargrave** | Two constraints that take turns binding | List | 400gc minus the 100gc apprentice leaves 300 for 8 soldiers; 4 specialists would cost 500 on their own. **The budget binds at creation; the specialist cap only starts biting several games into the campaign.** | [[Frostgrave and Stargrave#Two constraints that take turns binding]] |
+| ⚙️ | **Warmachine / Hordes** | Field Allowance as a *flavour unlock* | List | `FA: 1/2/3/4` caps copies independently of points — and **Theme Forces raise FA** for thematically-appropriate units. A restriction repurposed as a reward. | [[Warmachine and Hordes#Field Allowance, used forwards]] |
+| ⚠️ | **BLKOUT** | Slot currency — no points at all | List | *"Forget the tedious task of point-counting."* 1 Force Card + 3 Unit Cards. Zero costing risk, bought by pushing 100% of balance into card design and access gates. The opposite architecture to ours, chosen deliberately. | [[BLKOUT#Slot currency — there is no costing system]] |
+| ⚠️ | **Warmachine MKIV** | Comp rules written on a category | List | A rule requiring *N* Cohort models was removed because *"all Cohort models are not created equal."* **Any structural requirement written in terms of a category smuggles in an assumption that its members are interchangeable.** | [[Warmachine and Hordes#The category trap]] |
+| ⚠️ | **Kill Team (2021)** | Strip the cost, keep the choice | List | *"There's no reason to ever not pick the plasma pistol — the stronger option just always wins with no cost involved."* **If you make something free, make it mandatory.** | [[Kill Team#If you make it free, make it mandatory]] |
+
+## 💰 Costing & points derivation
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⭐ | **Song of Blades and Heroes** | Quality as a whole-cost multiplier | Costing | `Cost = (5 × Combat + Σ Abilities) × (7 − Quality) / 2`. Quality governs *how often you act*, so it multiplies **everything, including every ability** — the same Stealth costs 3 on militia and 7.5 on a hero, automatically, with no per-rank tables. | [[Song of Blades and Heroes#The Quality multiplier]] |
+| ⭐ | **One Page Rules** | One stat adds to defence, multiplies offence | Costing | Quality is additive in the base and multiplicative on every weapon, so **a Quality step costs ~1.75× a Defense step for free** — correct offence/defence coupling with no separate budget. | [[One Page Rules#Quality adds, then multiplies]] |
+| ⭐ | **One Page Rules** | A super-linear jump at the top of the ladder | Costing | The stat ladder runs 2 · 4 · 6 · 8 · **16** — the doubling at the extreme makes it self-limiting without a hard cap. | [[One Page Rules#The stat ladder doubles at the top]] |
+| ⭐ | **One Page Rules** | Ship a second, orthogonal validator | Costing | Beyond the formula, OPR compare *"how many potential wounds a unit can deal vs how many wounds the unit can take"* and badge armies pass/fail. **Points ≠ balance; catch what the formula misses with a different instrument.** | [[One Page Rules#Points are not balance]] |
+| ⭐ | **One Page Rules** | Price upgrades as deltas | Costing | `cost(new) − cost(old)`, rounded up — kills the "sidegrade costs 0" exploit. Then round the final number to a coarse grid (nearest 5) so lists stay mentally addable. | [[One Page Rules#Deltas and a coarse grid]] |
+| ⭐ | **BattleTech** | Battle Value 2 — multiply what multiplies | Costing | `BV = (Defense × DefensiveFactor) + (Offense × SpeedFactor)`, then × pilot skill. **Mobility and crew quality multiply; armour and weapons add.** The deepest published, machine-checkable derivation in the hobby. | [[BattleTech#Battle Value 2]] |
+| ⭐ | **Bolt Action** | Name your atomic reference unit | Costing | The community derived it where the designer wouldn't: **1 Regular rifleman = 10 points = 1 shot at 24″.** A public exchange rate makes every other price arguable in the open and lets playtesters audit the design. | [[Bolt Action#The implicit unit of account]] |
+| ⭐ | **Gaslands** | Publish the *inverse* of your exchange rate | Costing | +2 Hull costs 4 cans — **and** an errata removing 2 Hull refunds 4 cans. Stating the rate in both directions makes it self-auditing. | [[Gaslands#Publish the inverse]] |
+| ⭐ | **Necromunda** | Publish deltas, never the derivation | Costing | Base costs stay hand-tuned and opaque; the **advancement table prints exactly what one point of a stat costs**, and N18 escalates XP by +2 per prior advance. Designer control *and* player-verifiable progression, with no global formula to defend. | [[Necromunda and Mordheim#Publish deltas, never the derivation]] |
+| ⭐ | **The Rampant line** | Raise the budget, don't subdivide the atom | Costing | Dragon Rampant 2e went **24 → 30 points** because 24 *"never quite gave them enough scope"* — and grew the upgrade list from 16 to ~48. Granularity pressure solved by more budget, not smaller atoms. | [[The Rampant line#Raise the budget, not the resolution]] |
+| ⭐ | **The Rampant line** | Context-price where the swing differs | Costing | Javelins are **−1 on cavalry and +1 on foot** — the same widget, priced by its net swing on that chassis. | [[The Rampant line#Context pricing]] |
+| ⭐ | **Warmachine / Hordes** | The rescale is a container, not an answer | Costing | Privateer doubled the scale for *"greater granularity"* — then re-costed everything inside it, *"long, arduous."* Army size stayed constant (75-pt games at 2× costs); the whole gain went into **resolution**. Budget for the re-costing pass, not the rescale. | [[Warmachine and Hordes#The MK2 to MK3 rescale]] |
+| ⭐ | **40k Vehicle Design Rules** | Price the gun by the shooter | Costing | Heavy Bolter **+20 at BS4 / +15 at BS3**; Lascannon +35/+25. The same gun costs more on a better shooter — the cleanest published answer to platform-dependence found anywhere. | [[Games Workshop published formulas#The Vehicle Design Rules]] |
+| ⭐ | **Rogue Trader (1987)** | Patch your own super-linearity, in print | Costing | GW's own formula *"tends to undervalue the larger creatures,"* so anything over 10 points gets a multiplier band (×1½ … ×10). **They found the non-linearity in 1987 and printed the fix.** | [[Games Workshop published formulas#Rogue Trader, 1987]] |
+| ⭐ | **The Walking Dead: AOW** | Ship the formula, admit the premium | Costing | Publishes its custom-build costs — *and* prints that *"there's no way of accounting for every possible combination… so these rules include a slight premium,"* then quarantines custom characters to friendly play. The most honest statement of the atomic-costing problem in the corpus. | [[The Walking Dead All Out War#The published formula, and its confession]] |
+| ⚙️ | **Battlefleet Gothic** | Faction identity as override layers | Costing | One shared linear formula, then per-faction overrides — Eldar double their Hits cost, double their speed cost, and pay a **+15 "too many weapons on too small a ship"** surcharge. | [[Games Workshop published formulas#Battlefleet Gothic]] |
+| ⚠️ | **Epic / NetEA** | When units aren't separable, cost the container | Costing | *"Applying points costs in Epic is more of an art than a science… it's to do with the way the attributes of a unit fits in **both with any formation it belongs to and with that formation's place in an army**."* The clearest published argument *against* atomic costing. | [[Games Workshop published formulas#Epic — the negative result]] |
+| ⚠️ | **Kill Team (2018)** | Coarse atoms in a tight budget | Costing | A 100-point cap **with** per-item wargear pricing — the worst combination. Every item is a large fraction of the budget, so small mispricings decide games. | [[Kill Team#The three-philosophy experiment]] |
+| ⚠️ | **Bolt Action** | Flat weapon prices on quality-priced bodies | Costing | Bodies cost 7/10/13 by quality; weapons cost the same regardless of carrier. Result: *"you should never take anything other than Inexperienced mortars — you need 6s to hit anyway."* 3rd edition fixed it by **changing the rules, not the price**. | [[Bolt Action#Where flat pricing breaks]] |
+| ⚠️ | **Warhammer 40,000** | Free options homogenise the profiles | Costing | To make N options cost the same you must make them *worth* the same — Death Guard flails, cleavers and maces collapsed into one identical weapon. **You cannot escape paying for differentiation: you pay in points arithmetic, or you pay in flavour.** | [[Warhammer 40000#The hidden price of free wargear]] |
+| 📎 | **Warhammer 40,000** | The 25-year wargear arc | Costing | Per-item (3rd–7th) → dual system (8th) → quiet deletion (9th) → **all free** (10th) → **June 2026, partially reversed**: free by default, priced only where an option provably dominates, rebased so default loadouts stay points-neutral. | [[Warhammer 40000#The full arc]] |
+| 📎 | **Malifaux** | Deliberately coarse atoms | Costing | 50 Soulstones, models 2–15 SS. Extra Masters are costed as *"less than half this encounter's size"* — a price expressed as a **fraction of game size**. | [[Malifaux#Coarse atoms and fractional pricing]] |
+
+## 🎭 Faction identity
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⭐ | **Malifaux** | The **keyword tax** | Faction | *"Models that do not share a Keyword with their Crew's Leader have their Cost increased by +1 during hiring"* — with a named **`Versatile`** exemption. One flat, tiny modifier makes thematic lists cheaper than optimised ones, **without banning anything and without a second price list.** | [[Malifaux#The keyword tax]] |
+| ⭐ | **BLKOUT** | One playstyle rule per faction | Faction | Strategic variety comes almost entirely from **Force Rules** — Harlow +sprint/assault, Impisi recruit-recursion, Boone shoot-in-reposition. The cheapest possible lever for "players choose different strategies," and the thing reviewers actually feel. | [[BLKOUT#Force Rules — one rule, one playstyle]] |
+| ⭐ | **Trench Crusade** | A faction rule that edits the *economy* | Faction | Knights of Avarice: *"Your force may have no models that cost less than 80 ducats."* Faction identity written as a constraint on the price list, not on the stat line. | [[Trench Crusade#Faction rules that edit the economy]] |
+| ⭐ | **Rangers of Shadow Deep** | The archetype pattern | Faction | A fixed base profile plus a small, hard-capped build-point spend — identity by *shape of the spend*, not by a faction list. | [[Rangers of Shadow Deep#The archetype pattern]] |
+| ⚙️ | **Oathmark** | Concentric rings with a rarity gate | Faction | Rarity allowed rises with distance from the capital: heartland racially coherent by construction, frontier a free-for-all. **One table of rarity numbers replaces an entire chapter of faction restrictions.** | [[Oathmark#Concentric rings and the rarity gate]] |
+
+## 🏰 Settlement, base & territory
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⭐ | **Oathmark** | Growth widens the menu, never the budget | Settlement | *"The kingdom might gain new territory… but when it comes to each game, the players are still playing to the same points value."* A 20-territory kingdom and a 10-territory kingdom both field 2,500 points. **The single decision that makes a persistent base safe to bolt onto a points-buy game.** | [[Oathmark#The kingdom widens the menu]] |
+| ⭐ | **Oathmark** | Persist the place, not the army | Settlement | *"Players shouldn't focus on armies, which are just temporary constructs for a given battle, but upon the kingdom which produced them"* — because persistent armies *"grow completely out of hand really quickly."* | [[Oathmark#Persist the place, not the army]] |
+| ⭐ | **Last Days** | The Refuge costs **zero** points | Settlement | The base sits entirely outside the creation budget and is described by exactly three numbers: **Max Group Size / Empty Spaces / Built-In Perks**. Choosing a base is a *shape* decision, not a *spend* decision. | [[Last Days Zombie Apocalypse#The Refuge costs zero]] |
+| ⭐ | **Last Days** | Slots are the constraint; money decides *when* | Settlement | **Empty Spaces (2–10)** is the real limit — built-in perks never consume one, and most perks build only once. Cash only sets the schedule. | [[Last Days Zombie Apocalypse#Empty Spaces is the real constraint]] |
+| ⭐ | **Last Days** | Keep the base out of ordinary battles | Settlement | Of ~16 Perks, **only three touch a normal away game.** The rest are economy, or fire only in the one scenario where your base is on the table. Same instinct as Oathmark, reached from the opposite direction. | [[Last Days Zombie Apocalypse#Keep the base out of ordinary battles]] |
+| ⭐ | **Last Days** | Context-priced construction | Settlement | An **Engineer** assigned to Build cuts a Perk's cost **25% rounding up**; an **Exposed** Refuge adds **+5** to every Perk. *(The book never states the order of operations — a real, unresolved ambiguity worth not repeating.)* | [[Last Days Zombie Apocalypse#Context-priced construction]] |
+| ⭐ | **Mad Dogs with Guns** | Turf types, each with one unique named site | Settlement | Speakeasies, gambling dens, brothels — several generic sites per type giving different bonuses, plus **a single unique, named one** that gives that bonus *plus* extras. | [[Mad Dogs with Guns#Turf, and the one named site]] |
+| ⚙️ | **Oathmark** | Soft, reversible territory loss | Settlement | Territory is **occupied, never destroyed.** Losses are recoverable, so a bad run doesn't end the campaign. | [[Oathmark#Occupied, never destroyed]] |
+
+## 📈 Campaign, progression & snowball control
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⭐ | **Mad Dogs with Guns** | Bribery with **escalating** prices | Campaign | Gangs spend income bribing press, police, judges and politicians for standing favours — and as gangs compete, *"the crooked SOBs get greedier"*: **the price of bribes rises over the campaign.** A shared contested resource that self-inflates. | [[Mad Dogs with Guns#Bribery, and the price of corruption]] |
+| ⭐ | **Trench Crusade** | A published fixed threshold schedule | Campaign | Everyone's ceiling rises on the same printed ladder (700 → 1800 over 12 battles) **regardless of who is winning** — and a **separate Max Field Strength track** caps model count independently, so a rising budget can't be converted purely into bodies. | [[Trench Crusade#The published threshold ladder]] |
+| ⭐ | **Trench Crusade** | An opt-in rubber band with a real price | Campaign | To rebuild to threshold you forego the Exploration Phase, sell all unassigned gear, and **empty your treasury**. Catching up is always available and always costs the upside phase — **the losing player chooses it.** Better than any win-rate handicap. | [[Trench Crusade#The rubber band you choose]] |
+| ⭐ | **Trench Crusade** | **Glory** — earned by playing dramatically | Campaign | A second currency bought only with named **Glorious Deeds**, and *"whichever player completes them first gets the Glory"* — self-limiting by construction, and it buys things ducats cannot. | [[Trench Crusade#Glory]] |
+| ⭐ | **Trench Crusade** | Cap the veterans, don't tax them | Campaign | Veterans are **never re-priced** — a Lieutenant with 18 XP still counts as his day-one 70 ducats. Inflation is capped structurally: max 6 ELITE, two Battle Scar slots then death, one promotion per battle. **Pick the valve — price *or* cap — and let the other axis run.** *(Settlements currently taxes; this is the live fork.)* | [[Trench Crusade#Cap the veterans, don't tax them]] |
+| ⭐ | **Frostgrave / Stargrave** | Two currencies that never convert | Campaign | **Gold buys bodies and items. XP buys stats, spells and powers.** No exchange rate exists in either direction — Settlements' own "points buy bodies and guns, stats and skills are free" principle, arrived at independently by a designer with ten years of campaign games shipped. | [[Frostgrave and Stargrave#Two economies, no exchange rate]] |
+| ⭐ | **Necromunda** | Rating is a snapshot, not cumulative spend | Campaign | **Stashed gear does not count toward gang rating.** *Ownership is wealth; rating is fielded power* — which is what makes underdog banding work. Settles the Armoury fork. | [[Necromunda and Mordheim#Rating is a snapshot]] |
+| ⭐ | **Necromunda** | Underdog bonuses scale by rating gap | Campaign | The handicap keys off the *difference* in rating, so it self-adjusts without anyone tuning it. | [[Necromunda and Mordheim#Underdog banding]] |
+| ⭐ | **Rangers of Shadow Deep** | Recruitment Points recalculated every mission | Campaign | Companions are bought with RP that is **recomputed before each mission and cannot be banked.** Nothing carries over, so nothing compounds. | [[Rangers of Shadow Deep#Recruitment points cannot be banked]] |
+| ⚙️ | **The Walking Dead: AOW** | Tax survival directly | Campaign | *"Any character that was not removed as a casualty during the game receives an Experience bonus of one red die, and **increases their points value by 3 points**."* The exact opposite of Trench Crusade, released two years apart, neither reported broken. | [[The Walking Dead All Out War#Re-pricing veterans]] |
+| ⚠️ | **Necromunda** | Play frequency out-snowballs skill | Campaign | A 100,000-run simulation put median campaign income at **750 credits at one game per week versus 1,170 at two.** Schedule, not skill, is the biggest snowball source. A diminishing-returns income table is the cheapest mitigation. | [[Necromunda and Mordheim#Play frequency beats skill]] |
+| ⚠️ | **Malifaux** | Upgrades written as patches | Campaign | Emissary upgrades *"were either not impressive enough to see the table or so strong that they became mandatory hires."* **An upgrade written to patch a weak unit lands on auto-take by construction** — the patch is worth more than its price by design intent. | [[Malifaux#The upgrade failure mode]] |
+
+## 💵 Economy & upkeep
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⭐ | **Last Days** | Three payoff channels, split deliberately | Economy | Every Perk is exactly one of **Capacity** (+group size), **Economy** (income / dice upgrades), or **Battle effect** — and the split is what keeps the base from bleeding into the firefight. | [[Last Days Zombie Apocalypse#Three payoff channels]] |
+| ⭐ | **Last Days** | Losing the structure removes the asset | Economy | *"Stable (20 SP) unlocks 0–2 Horses at 15 SP each, and losing the Stable removes the Horses from the roster."* Structures own their unlocks — capability is leased, not bought outright. | [[Last Days Zombie Apocalypse#Structures own their unlocks]] |
+| ⚙️ | **Trench Crusade** | Cost gated on total force value | Economy | *"You may include 0-2 Artillery Witches in a warband worth more than 1000 ducats."* A roster cap keyed to force value — a third dial beyond price and LIMIT, letting a capability exist at high budgets without distorting small games. | [[Trench Crusade#Caps keyed to force value]] |
+
+## 🏁 Scenarios, objectives & victory
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⭐ | **The Walking Dead: AOW** | The neutral threat scales with the *game* | Scenario | *"Walkers are 15 points each"* and you field them **to the same points limit as the game** — so a bigger game is not a safer game, and nobody pays for the threat out of their own list. Both players get to aim them. | [[The Walking Dead All Out War#The neutral threat]] |
+| ⚙️ | **Kill Team (2024)** | Alternating equipment placement | Scenario | Players **alternate setting up** their four equipment pieces before deployment — turning a list-building decision into an interactive pre-game one. | [[Kill Team#Slots instead of prices for the long tail]] |
+
+## 🎲 Solo & co-op
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⭐ | **Rangers of Shadow Deep** | Scale the *players*, not the enemies | Solo | There is **no formula scaling enemies to the Ranger's level.** Instead total Recruitment Points fall as players are added (100 → 40 → 30 → 10) and companion activations shrink. Difficulty is tuned on the side you control. | [[Rangers of Shadow Deep#Scale the players, not the enemies]] |
+
+## 📦 Production & bookkeeping
+
+| Take | Game | Mechanic | Type | Description | Full write-up |
+|:--:|---|---|---|---|---|
+| ⭐ | **40k Vehicle Design Rules** | Price abuse in painting labour | Production | *"In order to use a vehicle created with the VDR it MUST be represented by a PAINTED WYSIWYG MODEL… almost all of the arguments I've seen for unlikely 'game-winning' vehicles fall down on the fact that the author is clearly never going to be able to produce a painted wysiwyg model."* A non-mathematical governor on a mathematical system. | [[Games Workshop published formulas#Abuse priced in painting labour]] |
+| ⭐ | **Bolt Action** | Cull the catalogue | Production | 3rd edition cut Germany from *"over 200 unit types"* to about 50. **Every entry deleted is one you no longer have to cost correctly.** | [[Bolt Action#Cull the catalogue]] |
+| ⚠️ | **BLKOUT** | Fragmentation and token clutter | Production | Rules split across 6+ documents is the game's **#1 community complaint**, and it gets dinged for token load even with a thin ruleset. Single-source and marker discipline are cheap wins. | [[BLKOUT#What it gets wrong]] |
+| 📎 | **One Page Rules** | Where maths can't reach, write a guideline | Production | From the calculator book itself: *"avoid using Quality 2+ and 6+ because players feel like they are not very balanced, even if point costs compensate for the rolls."* **Costing the extremes correctly is not the same as making them fun.** | [[One Page Rules#Points are not balance]] |
+
+---
+## 📚 Source index
+
+Every note in `Research/Notes/`, with how deep the underlying read actually went — so a claim's weight is visible from here.
+
+| Note | Game / subject | Designer · Publisher | Depth | Long-form source |
+|---|---|---|---|---|
+| [[BLKOUT]] | BLKOUT — 2110 sci-fi skirmish | Enemy Spotted Studios | **Full rulebook + supplement read** | `docs/BLKOUT-RULES-ANALYSIS.md` |
+| [[Song of Blades and Heroes]] | SoBH | Andrea Sfiligoi · Ganesha | Formula derived, **verified 34/34** | `docs/POINTS-RESEARCH.md` §1.2 |
+| [[One Page Rules]] | Age of Fantasy / Grimdark Future | Gaetano Ferrara | Official calculator recovered, **verified 4/4** | `docs/POINTS-RESEARCH.md` §1.3 |
+| [[BattleTech]] | BattleTech | Catalyst | Open-source implementation checked | `docs/POINTS-RESEARCH.md` §1.1 |
+| [[Infinity]] | Infinity N3–N5 | Corvus Belli | Official wiki + rulebook figures | `docs/POINTS-RESEARCH.md` §7.2 |
+| [[Malifaux]] | Malifaux M3E | Wyrd | Rules Manual verified | `docs/POINTS-RESEARCH.md` §7.3 |
+| [[Kill Team]] | Kill Team 2018 / 2021 / 2024 | Games Workshop | Three editions compared | `docs/POINTS-RESEARCH.md` §7.4 |
+| [[Bolt Action]] | Bolt Action 2e / 3e | Warlord Games | Published cost tables | `docs/POINTS-RESEARCH.md` §7.5 |
+| [[Gaslands]] | Gaslands Refuelled | Mike Hutchinson · Osprey | Official QRS v3 | `docs/POINTS-RESEARCH.md` §7.6 |
+| [[The Rampant line]] | Lion / Dragon / Xenos Rampant | Daniel Mersey · Osprey | 21 published builds reconciled | `docs/POINTS-RESEARCH.md` §7.7 |
+| [[Horizon Wars]] | Horizon Wars | Precinct Omega · Osprey | Profile structure only | `docs/POINTS-RESEARCH.md` §7.8 |
+| [[Games Workshop published formulas]] | Rogue Trader · VDR · WFB · BFG · Epic | Games Workshop | Archive scans; one modifier graphic unreadable | `docs/POINTS-RESEARCH.md` §7.9 |
+| [[Trench Crusade]] | Trench Crusade (playtest v1.6.3) | Pirinen · Franchina · Sherriff | **Primary PDFs + BattleScribe `.cat`** | `docs/POINTS-RESEARCH.md` §7.10 |
+| [[Frostgrave and Stargrave]] | Frostgrave · Stargrave | J. A. McCullough · Osprey | **Primary PDFs** | `docs/POINTS-RESEARCH.md` §7.12 |
+| [[Rangers of Shadow Deep]] | Rangers of Shadow Deep | J. A. McCullough | **Primary PDF** | `docs/POINTS-RESEARCH.md` §7.13 |
+| [[Warhammer 40000]] | 40k 3rd → 11th edition | Games Workshop | 25-year wargear arc traced | `docs/POINTS-RESEARCH.md` §7.14 |
+| [[Oathmark]] | Oathmark | J. A. McCullough · Osprey | Kingdom extract + Army Planner, 154 values | `docs/POINTS-RESEARCH.md` §7.15 |
+| [[Last Days Zombie Apocalypse]] | Last Days + *Seasons* | Ash Barker · Osprey | **Both PDFs read in full** | `docs/POINTS-RESEARCH.md` §7.17 |
+| [[The Walking Dead All Out War]] | TWD: All Out War | Mantic | Anthology edition, costing chapter | `docs/POINTS-RESEARCH.md` §7.18 |
+| [[Necromunda and Mordheim]] | Necromunda 1995 / N18 · Mordheim | Games Workshop | Campaign-economy lineage | `docs/POINTS-RESEARCH.md` §10 |
+| [[Warmachine and Hordes]] | Warmachine MK2 → MKIV | Privateer Press | Designer statements | `docs/POINTS-RESEARCH.md` §7.1 |
+| [[Mad Dogs with Guns]] | Mad Dogs with Guns | — | ⚠️ Second-hand summary — **needs a primary read** | this vault |
+
+---
+## 🔭 To read next
+
+Sources we know exist and haven't captured. Hand any of these to the **`wargaming-researcher`** agent.
+
+- [ ] **Mad Dogs with Guns** — the primary rulebook. Its turf + bribery economy is the closest published analogue to the Settlements territory layer and we only have a second-hand summary.
+- [ ] **Mordheim** — primary rulebook, for the injury and advancement tables specifically ([[Damage]], [[Progression]]).
+- [ ] **Necromunda N18** — the actual credit figures on the advancement table. The *existence* of the published column is confirmed; the numbers are not.
+- [ ] **Fallout: Wasteland Warfare · This Is Not a Test · S.T.A.L.K.E.R.-likes** — the post-apocalyptic scavenge-and-base lineage. Nothing captured yet, and it's our own genre.
+- [ ] **Reaction / interrupt economies** as a cross-game sweep — Infinity's ARO, Bolt Action's dice bag, Konflikt '47, and anything else that makes the opponent's turn active.
+- [ ] **Stealth and noise mechanics** across skirmish games — an [[Ideas Inbox]] want with no research behind it yet.
+- [ ] **r/wargaming · TMP · Dakka · BGG** design threads worth keeping — no capture pipeline is pointed at them yet.
+
+---
+*Curated notes live in `Research/Notes/`. Raw captures live in the Settlements repo under `research/sources/`. This folder mirrors into `rules-vault/Research/` on the 15-minute sync — [[Rules System MOC|back to the Rules System]].*
