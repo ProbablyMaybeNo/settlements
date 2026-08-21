@@ -19,6 +19,7 @@ Visual, editable map of the whole rules system, ported from the Notion **Build R
 > 📚 **Every table in one place:** [[_Rules Catalogue]] — live embeds of every rules table, grouped for design review. Regenerate with `py -3.13 scripts/build_catalogue.py`.
 > 🔓 **What's still open:** [[Open Decisions]] — auto-generated from unticked boxes and `status:` fields.
 > 💡 **Random idea? Dump it here:** [[Ideas Inbox]] — a no-structure scratchpad; triage into rules later.
+> 🔬 **What other games do:** [[Wargaming Research]] — the mechanics catalogue. Every notable system or mechanic we come across, one row each, linked to a full write-up. Research only — nothing there is adopted until it lands in [[Full Rules System v1]].
 > 📇 **Rules reference:** [[Weapons]] · [[Skill Paths]] — catalogues the combat notes point to.
 > 🧪 **Sim findings:** [[Dice Mechanic — Sim Findings]] · [[Skill Sim — Findings]] · [[Terrain Hacking Cover — Sim Findings]] · [[Crew Sim — Findings]] · [[Deployables Sim — Findings]]
 > 📑 **Rules Ledger:** short *graduated* rule cards under `Rules Ledger/` — the durable one-page text (not the full phase discussion). Phase notes draft; ledger stores the clean final wording for embeds / the eventual rulebook.

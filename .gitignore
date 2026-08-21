@@ -41,3 +41,8 @@ tts/assets/models/*_assembly.stl
 # so without it those pick lists cannot be resolved on a fresh clone.
 tts/assets/gallery/thumbs/
 tts/assets/gallery/index.html
+
+# Research: third-party rulebook PDFs are copyrighted and large — keep the
+# extracted source.md + meta.json, not the original.
+research/sources/**/original.pdf
+research/captures/

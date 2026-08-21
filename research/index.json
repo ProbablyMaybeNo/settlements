@@ -1,0 +1,371 @@
+{
+  "$comment": "Machine-readable index for the Wargaming Research hub. The join key between raw captures in research/sources/ and the curated vault notes in Research/Notes/. The wargaming-researcher agent appends one entry per source. Keep `mechanics` in sync with the rows the note contributed to 'Wargaming Research.md' — the hub is the human view, this is the queryable one.",
+  "schema_version": 1,
+  "hub_note": "Research/Wargaming Research.md",
+  "notes_dir": "Research/Notes/",
+  "mechanic_types": [
+    "Dice", "Activation", "Reactions", "Movement", "Combat", "Morale",
+    "Terrain", "List", "Costing", "Faction", "Campaign", "Settlement",
+    "Economy", "Scenario", "Solo", "Production"
+  ],
+  "verdicts": {
+    "steal": "do this, or something like it",
+    "adapt": "good idea, wrong shape for us",
+    "avoid": "instructive failure",
+    "reference": "context, not a candidate"
+  },
+  "evidence_tags": {
+    "FACT": "verifiable in a published rulebook, official document, or open-source implementation",
+    "CONSENSUS": "repeated, consistent community opinion — not a published number",
+    "INFERENCE": "our own derivation — label every time",
+    "NOT_FOUND": "searched, found nothing — state it rather than padding"
+  },
+  "sources": [
+    {
+      "slug": "blkout",
+      "game": "BLKOUT",
+      "note": "Research/Notes/BLKOUT.md",
+      "publisher": "Enemy Spotted Studios & Mr. Mystery Studios",
+      "depth": "primary",
+      "capture": null,
+      "long_form": "docs/BLKOUT-RULES-ANALYSIS.md",
+      "retrieved": "2026-07-22",
+      "mechanics": [
+        {"name": "The Skill Check", "type": "Dice", "verdict": "reference"},
+        {"name": "Cover as dice, not modifier", "type": "Dice", "verdict": "adapt"},
+        {"name": "The Hard check", "type": "Dice", "verdict": "avoid"},
+        {"name": "Simultaneous Return Fire", "type": "Reactions", "verdict": "steal"},
+        {"name": "Juke - an active dodge", "type": "Reactions", "verdict": "steal"},
+        {"name": "Move half to dodge Overwatch", "type": "Reactions", "verdict": "steal"},
+        {"name": "Reactions as a finite token", "type": "Reactions", "verdict": "adapt"},
+        {"name": "Lean Out marker", "type": "Movement", "verdict": "steal"},
+        {"name": "No free-climbing, no free descent", "type": "Movement", "verdict": "adapt"},
+        {"name": "Morale deleted entirely", "type": "Morale", "verdict": "avoid"},
+        {"name": "Slot currency - no points at all", "type": "List", "verdict": "avoid"},
+        {"name": "One playstyle rule per faction", "type": "Faction", "verdict": "steal"},
+        {"name": "Fragmentation and token clutter", "type": "Production", "verdict": "avoid"}
+      ]
+    },
+    {
+      "slug": "trench-crusade",
+      "game": "Trench Crusade",
+      "note": "Research/Notes/Trench Crusade.md",
+      "designer": "Tuomas Pirinen, Mike Franchina, James Sherriff",
+      "depth": "primary",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.10",
+      "warning": "open playtest v1.6.3 - structure is the finding, every number is provisional",
+      "mechanics": [
+        {"name": "LIMIT: N printed beside the price", "type": "List", "verdict": "steal"},
+        {"name": "A cap that loot can break", "type": "List", "verdict": "steal"},
+        {"name": "Caps keyed to force value", "type": "Economy", "verdict": "adapt"},
+        {"name": "The published threshold ladder", "type": "Campaign", "verdict": "steal"},
+        {"name": "An opt-in rubber band with a real price", "type": "Campaign", "verdict": "steal"},
+        {"name": "Glory - earned by playing dramatically", "type": "Campaign", "verdict": "steal"},
+        {"name": "Cap the veterans, don't tax them", "type": "Campaign", "verdict": "steal"},
+        {"name": "A faction rule that edits the economy", "type": "Faction", "verdict": "steal"},
+        {"name": "Melee costs are genuinely built", "type": "Combat", "verdict": "reference"}
+      ]
+    },
+    {
+      "slug": "oathmark",
+      "game": "Oathmark",
+      "note": "Research/Notes/Oathmark.md",
+      "designer": "Joseph A. McCullough",
+      "publisher": "Osprey Games",
+      "depth": "primary",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.15",
+      "mechanics": [
+        {"name": "Growth widens the menu, never the budget", "type": "Settlement", "verdict": "steal"},
+        {"name": "Persist the place, not the army", "type": "Settlement", "verdict": "steal"},
+        {"name": "Soft, reversible territory loss", "type": "Settlement", "verdict": "adapt"},
+        {"name": "Concentric rings with a rarity gate", "type": "Faction", "verdict": "adapt"}
+      ]
+    },
+    {
+      "slug": "last-days-zombie-apocalypse",
+      "game": "Last Days: Zombie Apocalypse",
+      "note": "Research/Notes/Last Days Zombie Apocalypse.md",
+      "designer": "Ash Barker",
+      "publisher": "Osprey Games",
+      "depth": "primary",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.17",
+      "mechanics": [
+        {"name": "The Refuge costs zero points", "type": "Settlement", "verdict": "steal"},
+        {"name": "Slots are the constraint; money decides when", "type": "Settlement", "verdict": "steal"},
+        {"name": "Keep the base out of ordinary battles", "type": "Settlement", "verdict": "steal"},
+        {"name": "Context-priced construction", "type": "Settlement", "verdict": "steal"},
+        {"name": "Three payoff channels, split deliberately", "type": "Economy", "verdict": "steal"},
+        {"name": "Losing the structure removes the asset", "type": "Economy", "verdict": "steal"}
+      ]
+    },
+    {
+      "slug": "malifaux",
+      "game": "Malifaux M3E",
+      "note": "Research/Notes/Malifaux.md",
+      "publisher": "Wyrd Miniatures",
+      "depth": "official rules manual",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.3",
+      "mechanics": [
+        {"name": "The keyword tax", "type": "Faction", "verdict": "steal"},
+        {"name": "Free Leader, conditionally-free Totem", "type": "List", "verdict": "steal"},
+        {"name": "Leftover budget becomes a capped resource", "type": "List", "verdict": "steal"},
+        {"name": "One upgrade at hiring, unlimited in play", "type": "List", "verdict": "steal"},
+        {"name": "Coarse atoms and fractional pricing", "type": "Costing", "verdict": "reference"},
+        {"name": "Upgrades written as patches", "type": "Campaign", "verdict": "avoid"}
+      ]
+    },
+    {
+      "slug": "infinity",
+      "game": "Infinity",
+      "note": "Research/Notes/Infinity.md",
+      "publisher": "Corvus Belli",
+      "depth": "official wiki + rulebook figures",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.2",
+      "mechanics": [
+        {"name": "SWC - a currency derived from the first", "type": "List", "verdict": "steal"},
+        {"name": "+X profiles that grant budget", "type": "List", "verdict": "steal"}
+      ]
+    },
+    {
+      "slug": "kill-team",
+      "game": "Kill Team",
+      "note": "Research/Notes/Kill Team.md",
+      "publisher": "Games Workshop",
+      "depth": "three editions compared",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.4",
+      "mechanics": [
+        {"name": "Equipment as team-level slots", "type": "List", "verdict": "steal"},
+        {"name": "Alternating equipment placement", "type": "Scenario", "verdict": "adapt"},
+        {"name": "Strip the cost, keep the choice", "type": "List", "verdict": "avoid"},
+        {"name": "Coarse atoms in a tight budget", "type": "Costing", "verdict": "avoid"}
+      ]
+    },
+    {
+      "slug": "gaslands",
+      "game": "Gaslands Refuelled",
+      "note": "Research/Notes/Gaslands.md",
+      "designer": "Mike Hutchinson",
+      "publisher": "Osprey Games",
+      "depth": "official QRS v3",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.6",
+      "mechanics": [
+        {"name": "Cans plus unbuyable slots", "type": "List", "verdict": "steal"},
+        {"name": "The BFG - price the drawback", "type": "Combat", "verdict": "steal"},
+        {"name": "Publish the inverse of your exchange rate", "type": "Costing", "verdict": "steal"}
+      ]
+    },
+    {
+      "slug": "necromunda-mordheim",
+      "game": "Necromunda & Mordheim",
+      "note": "Research/Notes/Necromunda and Mordheim.md",
+      "publisher": "Games Workshop",
+      "depth": "published rules + community simulation",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#10",
+      "mechanics": [
+        {"name": "Rating is a snapshot, not cumulative spend", "type": "Campaign", "verdict": "steal"},
+        {"name": "Underdog bonuses scale by rating gap", "type": "Campaign", "verdict": "steal"},
+        {"name": "Play frequency out-snowballs skill", "type": "Campaign", "verdict": "avoid"},
+        {"name": "Publish deltas, never the derivation", "type": "Costing", "verdict": "steal"},
+        {"name": "Lasting-injury tables", "type": "Combat", "verdict": "steal"}
+      ]
+    },
+    {
+      "slug": "song-of-blades-and-heroes",
+      "game": "Song of Blades and Heroes",
+      "note": "Research/Notes/Song of Blades and Heroes.md",
+      "designer": "Andrea Sfiligoi",
+      "publisher": "Ganesha Games",
+      "depth": "formula derived, verified 34/34",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#1.2",
+      "mechanics": [
+        {"name": "Quality as a whole-cost multiplier", "type": "Costing", "verdict": "steal"},
+        {"name": "Zero-cost flavour traits", "type": "Costing", "verdict": "steal"},
+        {"name": "Stepped accelerating range ladder", "type": "Costing", "verdict": "steal"}
+      ]
+    },
+    {
+      "slug": "one-page-rules",
+      "game": "One Page Rules",
+      "note": "Research/Notes/One Page Rules.md",
+      "designer": "Gaetano Ferrara",
+      "depth": "official calculator recovered, verified 4/4",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#1.3",
+      "mechanics": [
+        {"name": "Quality adds to defence, multiplies offence", "type": "Costing", "verdict": "steal"},
+        {"name": "Super-linear jump at the top of the ladder", "type": "Costing", "verdict": "steal"},
+        {"name": "Ship a second, orthogonal validator", "type": "Costing", "verdict": "steal"},
+        {"name": "Price upgrades as deltas", "type": "Costing", "verdict": "steal"},
+        {"name": "Where maths can't reach, write a guideline", "type": "Production", "verdict": "reference"}
+      ]
+    },
+    {
+      "slug": "battletech",
+      "game": "BattleTech",
+      "note": "Research/Notes/BattleTech.md",
+      "publisher": "Catalyst Game Labs",
+      "depth": "published + open-source verified",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#1.1",
+      "mechanics": [
+        {"name": "Battle Value 2 - multiply what multiplies", "type": "Costing", "verdict": "steal"}
+      ]
+    },
+    {
+      "slug": "frostgrave-stargrave",
+      "game": "Frostgrave / Stargrave",
+      "note": "Research/Notes/Frostgrave and Stargrave.md",
+      "designer": "Joseph A. McCullough",
+      "publisher": "Osprey Games",
+      "depth": "primary",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.12",
+      "mechanics": [
+        {"name": "Two currencies that never convert", "type": "Campaign", "verdict": "steal"},
+        {"name": "Two constraints that take turns binding", "type": "List", "verdict": "steal"}
+      ]
+    },
+    {
+      "slug": "rangers-of-shadow-deep",
+      "game": "Rangers of Shadow Deep",
+      "note": "Research/Notes/Rangers of Shadow Deep.md",
+      "designer": "Joseph A. McCullough",
+      "depth": "primary",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.13",
+      "mechanics": [
+        {"name": "Deliberately over-subscribed build points", "type": "List", "verdict": "steal"},
+        {"name": "The archetype pattern", "type": "Faction", "verdict": "steal"},
+        {"name": "Recruitment Points recalculated every mission", "type": "Campaign", "verdict": "steal"},
+        {"name": "Scale the players, not the enemies", "type": "Solo", "verdict": "steal"}
+      ]
+    },
+    {
+      "slug": "walking-dead-all-out-war",
+      "game": "The Walking Dead: All Out War",
+      "note": "Research/Notes/The Walking Dead All Out War.md",
+      "publisher": "Mantic Games",
+      "depth": "anthology edition, costing chapter",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.18",
+      "mechanics": [
+        {"name": "Ship the formula, admit the premium", "type": "Costing", "verdict": "steal"},
+        {"name": "Tax survival directly", "type": "Campaign", "verdict": "adapt"},
+        {"name": "The neutral threat scales with the game", "type": "Scenario", "verdict": "steal"}
+      ]
+    },
+    {
+      "slug": "warhammer-40000",
+      "game": "Warhammer 40,000",
+      "note": "Research/Notes/Warhammer 40000.md",
+      "publisher": "Games Workshop",
+      "depth": "25-year wargear arc traced",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.14",
+      "mechanics": [
+        {"name": "Free options homogenise the profiles", "type": "Costing", "verdict": "avoid"},
+        {"name": "The 25-year wargear arc", "type": "Costing", "verdict": "reference"}
+      ]
+    },
+    {
+      "slug": "gw-published-formulas",
+      "game": "Rogue Trader / VDR / WFB / BFG / Epic",
+      "note": "Research/Notes/Games Workshop published formulas.md",
+      "publisher": "Games Workshop",
+      "depth": "archive scans; one modifier graphic unreadable",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.9",
+      "mechanics": [
+        {"name": "Price the gun by the shooter", "type": "Costing", "verdict": "steal"},
+        {"name": "Patch your own super-linearity, in print", "type": "Costing", "verdict": "steal"},
+        {"name": "Faction identity as override layers", "type": "Costing", "verdict": "adapt"},
+        {"name": "When units aren't separable, cost the container", "type": "Costing", "verdict": "avoid"},
+        {"name": "Price abuse in painting labour", "type": "Production", "verdict": "steal"}
+      ]
+    },
+    {
+      "slug": "bolt-action",
+      "game": "Bolt Action",
+      "note": "Research/Notes/Bolt Action.md",
+      "publisher": "Warlord Games",
+      "depth": "published cost tables",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.5",
+      "mechanics": [
+        {"name": "Name your atomic reference unit", "type": "Costing", "verdict": "steal"},
+        {"name": "Flat weapon prices on quality-priced bodies", "type": "Costing", "verdict": "avoid"},
+        {"name": "Cull the catalogue", "type": "Production", "verdict": "steal"}
+      ]
+    },
+    {
+      "slug": "rampant-line",
+      "game": "Lion / Dragon / Xenos Rampant",
+      "note": "Research/Notes/The Rampant line.md",
+      "designer": "Daniel Mersey",
+      "publisher": "Osprey Games",
+      "depth": "21 published builds reconciled",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.7",
+      "mechanics": [
+        {"name": "Raise the budget, don't subdivide the atom", "type": "Costing", "verdict": "steal"},
+        {"name": "Context-price where the swing differs", "type": "Costing", "verdict": "steal"}
+      ]
+    },
+    {
+      "slug": "warmachine-hordes",
+      "game": "Warmachine / Hordes",
+      "note": "Research/Notes/Warmachine and Hordes.md",
+      "publisher": "Privateer Press",
+      "depth": "designer statements",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.1",
+      "mechanics": [
+        {"name": "The rescale is a container, not an answer", "type": "Costing", "verdict": "steal"},
+        {"name": "Field Allowance as a flavour unlock", "type": "List", "verdict": "adapt"},
+        {"name": "Comp rules written on a category", "type": "List", "verdict": "avoid"}
+      ]
+    },
+    {
+      "slug": "horizon-wars",
+      "game": "Horizon Wars",
+      "note": "Research/Notes/Horizon Wars.md",
+      "publisher": "Osprey Games",
+      "depth": "shallow - profile structure only, second-hand",
+      "capture": null,
+      "long_form": "docs/POINTS-RESEARCH.md#7.8",
+      "mechanics": [
+        {"name": "One stat is both cost and combat value", "type": "Dice", "verdict": "reference"}
+      ]
+    },
+    {
+      "slug": "mad-dogs-with-guns",
+      "game": "Mad Dogs with Guns",
+      "note": "Research/Notes/Mad Dogs with Guns.md",
+      "depth": "second-hand summary - NEEDS PRIMARY READ",
+      "capture": null,
+      "long_form": null,
+      "mechanics": [
+        {"name": "Turf types, each with one unique named site", "type": "Settlement", "verdict": "steal"},
+        {"name": "Bribery with escalating prices", "type": "Campaign", "verdict": "steal"}
+      ]
+    }
+  ],
+  "to_read": [
+    {"target": "Mad Dogs with Guns", "why": "primary rulebook - closest published analogue to the Territory layer, currently on hearsay", "priority": "high"},
+    {"target": "Mordheim", "why": "injury and advancement tables, primary", "priority": "high"},
+    {"target": "Necromunda N18", "why": "actual credit figures on the advancement table", "priority": "medium"},
+    {"target": "Fallout: Wasteland Warfare / This Is Not a Test", "why": "post-apocalyptic scavenge-and-base lineage - our own genre, nothing captured", "priority": "high"},
+    {"target": "Reaction and interrupt economies (cross-game sweep)", "why": "Infinity ARO, Bolt Action dice bag, Konflikt '47", "priority": "medium"},
+    {"target": "Stealth and noise mechanics (cross-game sweep)", "why": "an Ideas Inbox want with no research behind it", "priority": "medium"},
+    {"target": "r/wargaming, TMP, Dakka, BGG design threads", "why": "no capture pipeline pointed at them yet", "priority": "low"}
+  ]
+}
