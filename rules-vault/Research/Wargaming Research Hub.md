@@ -128,6 +128,8 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | Take | Game | Mechanic | Type | Description | Full write-up |
 |:--:|---|---|---|---|---|
 | ⭐ | **Song of Blades and Heroes** | Quality as a whole-cost multiplier | Costing | `Cost = (5 × Combat + Σ Abilities) × (7 − Quality) / 2`. Quality governs *how often you act*, so it multiplies **everything, including every ability** — the same Stealth costs 3 on militia and 7.5 on a hero, automatically, with no per-rank tables. | [[Song of Blades and Heroes#The Quality multiplier]] |
+| ⭐ | **Song of Blades and Heroes** | Zero-cost flavour traits as an explicit category | Costing | Evil, Standard Bearer, Were and Solar Force are **priced at 0** in the published list. *A zero price is a legitimate, published answer* for a trait that is narrative rather than mechanical — and it gives pure character somewhere to live that isn't the price list. | [[Song of Blades and Heroes#The Quality multiplier]] |
+| ⭐ | **Song of Blades and Heroes** | A stepped, accelerating range ladder | Costing | Ranged reach is priced in steps that **accelerate** — Shooter Short **2** / Medium **4** / Long **7** (2 → +2 → +3) — not as a linear per-inch rate, correctly reflecting that reach compounds with mobility. | [[Song of Blades and Heroes#The Quality multiplier]] |
 | ⭐ | **One Page Rules** | One stat adds to defence, multiplies offence | Costing | Quality is additive in the base and multiplicative on every weapon, so **a Quality step costs ~1.75× a Defense step for free** — correct offence/defence coupling with no separate budget. | [[One Page Rules#Quality adds, then multiplies]] |
 | ⭐ | **One Page Rules** | A super-linear jump at the top of the ladder | Costing | The stat ladder runs 2 · 4 · 6 · 8 · **16** — the doubling at the extreme makes it self-limiting without a hard cap. | [[One Page Rules#The stat ladder doubles at the top]] |
 | ⭐ | **One Page Rules** | Ship a second, orthogonal validator | Costing | Beyond the formula, OPR compare *"how many potential wounds a unit can deal vs how many wounds the unit can take"* and badge armies pass/fail. **Points ≠ balance; catch what the formula misses with a different instrument.** | [[One Page Rules#Points are not balance]] |
@@ -226,6 +228,7 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | ⭐ | **Bolt Action** | Cull the catalogue | Production | 3rd edition cut Germany from *"over 200 unit types"* to about 50. **Every entry deleted is one you no longer have to cost correctly.** | [[Bolt Action#Cull the catalogue]] |
 | ⚠️ | **BLKOUT** | Fragmentation and token clutter | Production | Rules split across 6+ documents is the game's **#1 community complaint**, and it gets dinged for token load even with a thin ruleset. Single-source and marker discipline are cheap wins. | [[BLKOUT#What it gets wrong]] |
 | 📎 | **One Page Rules** | Where maths can't reach, write a guideline | Production | From the calculator book itself: *"avoid using Quality 2+ and 6+ because players feel like they are not very balanced, even if point costs compensate for the rolls."* **Costing the extremes correctly is not the same as making them fun.** | [[One Page Rules#Points are not balance]] |
+| ⭐ | **Zona Alfa** | A 65-page rulebook holds core rules, campaign and scenarios | Production | Fits full rules, campaign layer, and a scenario pack in 65pp via deliberately coarse catalogues (7 monster archetypes, ~15 weapon categories, one force-build number instead of a points list) rather than fewer subsystems. | [[Zona Alfa#How a 65-page rulebook holds a full campaign]] |
 
 ---
 ## 📚 Source index
@@ -256,6 +259,7 @@ Every note in `Research/Notes/`, with how deep the underlying read actually went
 | [[Necromunda and Mordheim]] | Necromunda 1995 / N18 · Mordheim | Games Workshop | Campaign-economy lineage | `docs/POINTS-RESEARCH.md` §10 |
 | [[Warmachine and Hordes]] | Warmachine MK2 → MKIV | Privateer Press | Designer statements | `docs/POINTS-RESEARCH.md` §7.1 |
 | [[Mad Dogs with Guns]] | Mad Dogs with Guns | — | ⚠️ Second-hand summary — **needs a primary read** | this vault |
+| [[Zona Alfa]] | Zona Alfa — STALKER-inspired post-apoc skirmish | Patrick Todoroff · Osprey Games | **Primary** — full 65-page rulebook read in full | `research/sources/zona-alfa/` |
 
 ---
 ## 🔭 To read next
@@ -265,9 +269,9 @@ Sources we know exist and haven't captured. Hand any of these to the **`wargamin
 - [ ] **Mad Dogs with Guns** — the primary rulebook. Its turf + bribery economy is the closest published analogue to the Settlements territory layer and we only have a second-hand summary.
 - [ ] **Mordheim** — primary rulebook, for the injury and advancement tables specifically ([[Damage]], [[Progression]]).
 - [ ] **Necromunda N18** — the actual credit figures on the advancement table. The *existence* of the published column is confirmed; the numbers are not.
-- [ ] **Fallout: Wasteland Warfare · This Is Not a Test · S.T.A.L.K.E.R.-likes** — the post-apocalyptic scavenge-and-base lineage. Nothing captured yet, and it's our own genre.
-- [ ] **Reaction / interrupt economies** as a cross-game sweep — Infinity's ARO, Bolt Action's dice bag, Konflikt '47, and anything else that makes the opponent's turn active.
-- [ ] **Stealth and noise mechanics** across skirmish games — an [[Ideas Inbox]] want with no research behind it yet.
+- [x] ~~Fallout: Wasteland Warfare · This Is Not a Test · S.T.A.L.K.E.R.-likes~~ — **[[Zona Alfa]]** captured 2026-08-20 (primary, full read) and is the best genre match found: neutral threat-spawn, Anomalies, Salvage, crew campaign. **Still open:** Fallout: Wasteland Warfare and This Is Not a Test specifically remain uncaptured — Zona Alfa doesn't have a Settlement/Territory layer, so that half of the lineage is still unaddressed.
+- [ ] **Reaction / interrupt economies** as a cross-game sweep — Infinity's ARO, Bolt Action's dice bag, Konflikt '47, and anything else that makes the opponent's turn active. [[Zona Alfa#Initiative and Alternating Activation|Zona Alfa's Alert]] is now one data point.
+- [ ] **Stealth and noise mechanics** across skirmish games — an [[Ideas Inbox]] want with no research behind it yet. **[[Zona Alfa]] checked and came back empty** — no stealth/concealment/noise-detection mechanic exists in that book despite the STALKER pedigree ([[Zona Alfa#Stealth and noise — searched for, and it isn't here]]). The search needs games that treat sneaking as a primary verb, not just a matching setting.
 - [ ] **r/wargaming · TMP · Dakka · BGG** design threads worth keeping — no capture pipeline is pointed at them yet.
 
 ---

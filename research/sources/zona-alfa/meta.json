@@ -1,0 +1,35 @@
+{
+  "title": "Zona Alfa: Salvage and Survival in the Exclusion Zone",
+  "author": "Patrick Todoroff",
+  "publisher": "Osprey Games (Osprey Publishing / Bloomsbury Publishing Plc)",
+  "year": 2020,
+  "isbn": {
+    "paperback": "9781472835697",
+    "ebook": "9781472835680",
+    "epdf": "9781472835673",
+    "xml": "9781472835703"
+  },
+  "url": null,
+  "acquisition_note": "Digital PDF, provided directly by Ross. Library master at G:\\My Drive\\Wargaming\\Zona Alfa\\Zona Alfa - Salvage and Survival in the Exclusion Zone.pdf; original download recorded at Z:\\Telegram\\Osprey_Wargames_Zona_Alfa_Salvage_and_Survival_in_the_Exclusion.pdf. Working copy extracted from research/sources/zona-alfa/original.pdf (gitignored, not committed).",
+  "retrieved": "2026-08-20",
+  "pages": 65,
+  "sha256": "a8c7c986bb0d706726c32976d82bde67e672c304bb350b548721d79f5cd9aaf9",
+  "bytes": 11375120,
+  "licence_note": "Third-party rulebook PDF. Not committed to the repo (research/sources/**/original.pdf is gitignored). source.md quotes rules text for analysis under fair-use/citation, not a full reproduction of the book.",
+  "is_designer_statement": true,
+  "designer_statement_note": "The rulebook itself is the designer's own primary statement of the rules (Patrick Todoroff writing in first person throughout, including sidebar design-intent notes e.g. on Powered Weapons and on keeping rules light in Part 11).",
+  "extraction_method": {
+    "tool": "PyMuPDF (fitz) 1.x, page.get_text('text')",
+    "ocr_used": false,
+    "reason": "Clean embedded text layer confirmed on every page (no OCR fallback needed).",
+    "encoding_check": "Full extraction scanned for U+FFFD (replacement character): 0 found across all 65 pages. The non-ASCII characters present are legitimate typographic Unicode already correctly decoded by PyMuPDF (right/left single and double smart quotes U+2019/U+2018/U+201D/U+201C, en dash U+2013, ellipsis U+2026, bullet U+2022, copyright sign U+00A9, e-acute U+00E9, no-break space U+00A0, narrow no-break space U+202F). See research/captures/zona-alfa/extraction_report.json for the full inventory. The 'that turn?s Initiative'-style corruption flagged in the pre-extraction probe did not reproduce with fitz — see the wargaming-researcher session notes for the friction writeup.",
+    "table_pages_verified_against_rendered_image": [25, 38, 41, 44, 45, 46, 52, 56],
+    "table_verification_dpi": 200
+  },
+  "capture_contents": {
+    "source.md": "Full 65-page verbatim text capture, page by page, with the 9 highest-value data tables reconstructed as clean markdown tables (inline) plus the raw extracted text folded underneath each for audit.",
+    "extraction_report.json": "Non-ASCII character inventory and replacement-character count for the full extraction.",
+    "table_overrides.json": "The 9 reconstructed markdown tables used to build source.md, keyed by printed page number.",
+    "page_images/": "PNG renders (200dpi) of the pages used to visually verify table extraction: 25, 38, 41, 44, 45, 46, 52, 56, plus a few narrative pages checked in passing."
+  }
+}

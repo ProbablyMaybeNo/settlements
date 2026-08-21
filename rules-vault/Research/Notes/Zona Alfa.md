@@ -251,7 +251,7 @@ Core rules, full campaign layer (Advances, Battle Scars, Factions, the Stalls), 
 Three concrete techniques do the actual work, not just the stated intent: **[INFERENCE — our synthesis of the book's structure, not a stated design list]**
 - **Deliberately generic catalogues.** Weapons are ~15 broad categories (not per-model), Zone Hostiles are 7 reskinnable archetypes (not a bestiary), Armor is 7 tiers. WYSIWYG statting substitutes for an exhaustive options list.
 - **One force-build number.** Khrabrost' replaces a points catalogue entirely (see above) — there's no army-list chapter to write or maintain.
-- **The base economy needs no formula.** Prices are simply printed (Equipment, Weapons, Grenades tables) with resale at a flat 50%/90% split — no published derivation, and none is needed for a book this size.
+- **The base economy needs no formula.** Prices are simply printed (Equipment, Weapons, Grenades tables); resale runs two flat rates — **90%** net on Salvage/Equipment/Artifacts (a 10% Trader cut) and **50%** trade-in on Weapons/Armor sold back — no published derivation for either, and none is needed for a book this size.
 
 **Why it works.** Every one of these is a place most skirmish games spend pages on precision (per-model costs, per-monster stat blocks, a formula for the exchange rate) that Zona Alfa deliberately declines to buy, in exchange for staying short.
 
