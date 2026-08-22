@@ -9,7 +9,7 @@ updated: 2026-08-21
 
 > **What this is.** A status map of the rulebook library on `G:\My Drive\Wargaming` against the notes in [[Wargaming Research Hub]]. It answers one question: **which games have we actually analysed, and which are still sitting unread?**
 >
-> **Library size:** 1,575 PDFs / 24.5 GB across 27 folders. **Hub state:** 28 sources, 186 mechanics.
+> **Library size:** 1,575 PDFs / 24.5 GB across 27 folders. **Hub state:** 29 sources, 193 mechanics.
 
 > [!warning] A note on file counts
 > The PDF count per folder is **not** a measure of how much is unread — most folders are mostly cards, tokens, scenario packs and duplicates, not rules. A folder of 141 files might hold three rulebooks. Treat the counts as *"how much is in there"*, not *"how much work is left"*.
@@ -37,6 +37,7 @@ updated: 2026-08-21
 | **Last Days** | `Last Days` | 2 | 2 | primary — core 114pp + *Seasons* 90pp | [[Last Days Zombie Apocalypse]] |
 | **Judge Dredd Miniatures Game** | `Judge dredd` | 77 | 1 | primary — Warlord 2020, 164pp | [[Judge Dredd Miniatures Game]] |
 | **Fistful of Lead** | `Fistful of Lead` | 1 | 1 | primary — full 62pp | [[Fistful of Lead]] |
+| **Mordheim** | `Mordheim` + mordheimer.net | 39 | 4 + wiki | primary — wiki cross-checked vs the 122pp Living Rulebook | [[Mordheim]] |
 | **Infinity** *(hacking/EW)* | — *(no drive PDF)* | — | — | official N5.2 wiki | [[Infinity]] |
 
 ---
@@ -46,7 +47,7 @@ updated: 2026-08-21
 
 | Game | Drive folder(s) | PDFs | Current note depth | Upgrade value |
 |---|---|:--:|---|---|
-| **Necromunda & Mordheim** | `NECROMUNDA` + `Necromunda (1)` + `Mordheim` | **187** | ⚠️ *published rules + community simulation* — **secondary** | ⭐⭐⭐ **The biggest gap in the library.** The founding lineage of the genre Settlements sits in, 187 files, never opened, and the note rests on a community campaign simulation rather than a primary read. It's also the outstanding source for the [[Progression]] injury/advancement tables |
+| **Necromunda** | `NECROMUNDA` + `Necromunda (1)` | **148** | ⚠️ *published rules + community simulation* — **secondary** | ⭐⭐⭐ **Now the single biggest gap.** Mordheim is done; Necromunda is not. ⚠️ **Edition minefield** — 1995, Underhive 2017, N18, Ash Wastes, House books. **Pin one edition as the spine before reading anything.** |
 | **Frostgrave / Stargrave** | `Frostgrave` + `Stargrave` | 39 | primary (core books only) | ⭐⭐ Stargrave is sci-fi with a Hacker soldier type — feeds the tech layer. Supplements unread |
 | **BLKOUT** | `BLKOUT` | 17 | primary — but **one** file, read 2026-07, no capture on file | ⭐⭐ 16 unread files incl. Badlands + Impact expansions. Our stated battle-feel target |
 | **Rangers of Shadow Deep** | `RoSD` | 16 | primary (core only) | ⭐ Core already mined for [[Solo & Co-op]]; supplements likely thin |
@@ -100,13 +101,12 @@ These came from `docs/POINTS-RESEARCH.md` (a costing-focused secondary sweep) or
 ---
 ## 🎯 What I'd do next
 
-1. **`0200`** — 37pp, on the drive, detection-dense (detect ×82, alert ×58). Cheapest capture available and it pairs with [[Spectre Operations]] and [[Fistful of Lead]] to make detection a three-source pattern.
-2. **Necromunda + Mordheim primary read** — 187 files, the genre's founding lineage, and our note is still secondary. Now the largest remaining gap by a wide margin.
-3. **Strontium Dog** (Warlord 2019) — sci-fi bounty hunters on the Judge Dredd engine, already on the drive, and the arrest/bounty thread is live after [[Judge Dredd Miniatures Game]].
+1. **Necromunda** — 148 files, now the largest remaining gap, and the last of the founding lineage. ⚠️ **Pin an edition first**: 1995 / Underhive 2017 / N18 / Ash Wastes are different games sharing a name, and blending them is exactly the failure mode that nearly bit us on Infinity.
+2. **`0200`** — 37pp, on the drive, detection-dense. Cheapest capture available; makes detection a three-source pattern with [[Spectre Operations]] and [[Fistful of Lead]].
+3. **Strontium Dog** (Warlord 2019) — sci-fi bounty hunters on the [[Judge Dredd Miniatures Game]] engine, already on the drive; the arrest/bounty thread is live.
 4. **Konflikt '47** — complete set, small, tech-tier relevant.
-5. **Scrappers** (Osprey 2017) — see [[Candidate Games]]; the closest structural match found online and **not yet on the drive**.
 
-**To source:** Fallout **Campaign Handbook** + *Into The Vault* (both confirmed purchasable) · **Reality's Edge** (the cyberpunk gap) · **Scrappers** · **Skirmish Sangin** · Infinity N5 rulebook · Five Leagues core rulebook (Modiphius hardcover now exists) · **Black Ops**. Full detail and availability in [[Candidate Games]].
+**To source:** **Scrappers** and **Skirmish Sangin** (top of [[Candidate Games]]) · Fallout **Campaign Handbook** + *Into The Vault* (both purchasable) · **Reality's Edge** (the cyberpunk gap) · Infinity N5 rulebook · Five Leagues core (Modiphius hardcover now exists) · **Black Ops**.
 
 ---
 *Regenerate the underlying scan with `research/captures/tech_scan.py`. See [[Wargaming Research Hub]] for the mechanics themselves.*

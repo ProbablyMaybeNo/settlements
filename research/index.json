@@ -1293,6 +1293,52 @@
       "publisher": "Immersion Studios",
       "depth": "sampler / quickstart — RPG, not a wargame",
       "is_rpg": true
+    },
+    {
+      "slug": "mordheim",
+      "game": "Mordheim",
+      "designer": "Tuomas Pirinen",
+      "publisher": "Games Workshop",
+      "note": "Research/Notes/Mordheim.md",
+      "capture": "research/sources/mordheim/",
+      "depth": "primary — mordheimer.net wiki cross-checked against the 122pp Living Rulebook",
+      "mechanics": [
+        {
+          "name": "Serious Injuries — confirmed against the official rulebook",
+          "type": "Combat",
+          "verdict": "steal"
+        },
+        {
+          "name": "Two encampment rulesets, neither of them a real base",
+          "type": "Settlement",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Lads Got Talent — henchmen graduate into heroes",
+          "type": "Campaign",
+          "verdict": "steal"
+        },
+        {
+          "name": "Wyrdstone price falls with batch size and warband size",
+          "type": "Economy",
+          "verdict": "steal"
+        },
+        {
+          "name": "Exploration multiples — one roll, two lotteries",
+          "type": "Economy",
+          "verdict": "adapt"
+        },
+        {
+          "name": "The psychology suite's headcount cost, and what Insanity adds on top",
+          "type": "Morale",
+          "verdict": "avoid"
+        },
+        {
+          "name": "Core resolution — WFB charts that don't port",
+          "type": "Dice",
+          "verdict": "reference"
+        }
+      ]
     }
   ],
   "to_read": [

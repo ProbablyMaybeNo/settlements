@@ -1,0 +1,90 @@
+{
+  "slug": "mordheim",
+  "game": "Mordheim",
+  "publisher": "Games Workshop (1999), rules consolidated by the community at mordheimer.net (\"The New Mordheimer\")",
+  "designer": "Tuomas Pirinen (original design)",
+  "retrieved": "2026-08-21",
+  "is_designer_statement": false,
+  "primary_source": {
+    "site": "https://mordheimer.net",
+    "site_type": "Docusaurus rules wiki, community-maintained, active through Aug 2026 blog posts",
+    "note": "The rules CONTENT is faithful to published Mordheim (core rulebook + Town Cryer / Mordheim Annual / official supplements). The CONSOLIDATION, cross-referencing, and any house-ruling markers (the '\u270f\ufe0f' pencil-edit icon and '\u2753' clarification icon seen throughout the site) are community work, not GW. Tagged inline in the note where it matters.",
+    "access_method": "firecrawl_scrape (plain WebFetch returns 403). firecrawl_map used to enumerate the docs tree.",
+    "pages_captured": [
+      "/docs/rules (index)",
+      "/docs/rules/characteristics",
+      "/docs/rules/the-turn",
+      "/docs/rules/recovery",
+      "/docs/rules/movement",
+      "/docs/rules/shooting",
+      "/docs/rules/close-combat",
+      "/docs/rules/wounds-and-injuries",
+      "/docs/rules/leadership-psychology",
+      "/docs/campaigns (index + full Serious Injuries chart)",
+      "/docs/campaigns/experience",
+      "/docs/campaigns/income",
+      "/docs/campaigns/skills",
+      "/docs/optional-rules/encampments (index)",
+      "/docs/optional-rules/encampments/sigmarhaven",
+      "/docs/optional-rules/encampments/cutthroats-den",
+      "/docs/optional-rules/encampments/brigandsburg",
+      "/docs/campaigns/campaign-settings/lustria/optional-rules/settlements",
+      "/docs/optional-rules/at-the-mouth-of-madness",
+      "/docs/optional-rules/random-happenings",
+      "/docs/tools (dense reference tables incl. weapon profiles + full post-battle sequence)",
+      "/docs/faqs (86k chars, skimmed not fully transcribed \u2014 see note below)",
+      "/docs/weapons-armour/armour"
+    ],
+    "pages_not_read_deliberately": [
+      "~40 warband list pages (/docs/warbands/**)",
+      "~80 scenario pages (/docs/campaigns/scenarios/**)",
+      "/docs/magic/** (spell lists)",
+      "/docs/campaigns/dramatis-personae/** and /docs/campaigns/hired-swords/** (named-character and hired-sword stat blocks)",
+      "/docs/weapons-armour/close-combat and /docs/weapons-armour/missile \u2014 attempted; the close-combat page alone is a 73k-char catalogue of every melee weapon across every warband (core + all supplements). A naive regex extraction of it produced WRONG cost figures (e.g. Dagger '15gc', Kitchen Knife '40gc') that do not match the core rulebook. Correct core weapon costs were instead pulled from the Living Rulebook PDF's Mercenary Equipment List (p.52) and cross-checked against /docs/weapons-armour/armour, which DID scrape cleanly. Do not re-attempt a bulk regex parse of the close-combat page without manually verifying every value against a second source \u2014 logged so a future pass doesn't repeat the mistake."
+    ],
+    "faqs_page_note": "The /docs/faqs page (86.9k chars) is a Q&A compendium of rules-clarification rulings (mostly Tuomas Pirinen Facebook posts and Mordheim Annual/Town Cryer FAQ answers), organised by rules topic (Movement, Charging, Combat, Psychology, Weapons & Armour, Warbands, Scenarios, Objectives, Border Town Burning, etc.). It is overwhelmingly warband-specific rules-lawyering (e.g. 'do Hired Swords count +5 in warband rating') rather than mechanic-level content. Skimmed via targeted keyword search (Serious Injury, Rating, Rout, Psychology, Stupidity) rather than read in full; confirmed no divergence from the core rules captured elsewhere in this run. Full-text search performed with Python over the raw scrape, not manually read top to bottom \u2014 flagging depth honestly."
+  },
+  "cross_check_source": {
+    "description": "Local PDFs, staged by Ross before this run, already hash-verified against the library.",
+    "files": [
+      {
+        "working_copy": "research/sources/mordheim/living-rulebook.pdf",
+        "library_master": "G:\\My Drive\\Wargaming\\Mordheim\\Mordheim Living Rulebook.pdf",
+        "sha256": "08868d8a9d0a0b86f609cd15cf574b5c1daa808d9d8260b82cf0b00d11fa96f5",
+        "hash_match": "exact",
+        "pages": 122,
+        "text_quality": "clean embedded text throughout (fitz get_text, 2716 chars/page avg), no OCR needed",
+        "notes": "The canonical consolidated core rulebook + errata. Used to cross-check the wiki's Serious Injuries chart, Experience/Advancement tables, underdog table, and core weapon/armour prices."
+      },
+      {
+        "working_copy": "research/sources/mordheim/ultimate-reference-sheet.pdf",
+        "library_master": "G:\\My Drive\\Wargaming\\Mordheim\\Ultimate Reference Sheet.pdf (byte-identical duplicate also exists as 'Ultimate Reference Sheet V1.pdf')",
+        "sha256": "768e0e228a51beab5f945848eafef153631243d6492c71f4965c6f2215044a8a",
+        "hash_match": "exact",
+        "pages": 6,
+        "text_quality": "clean, very dense (6996 chars/page avg)",
+        "notes": "Community quick-reference booklet. Confirms warband rating formula verbatim."
+      },
+      {
+        "working_copy": "research/sources/mordheim/campaign-reference.pdf",
+        "library_master": "G:\\My Drive\\Wargaming\\Mordheim\\Books\\Vampire Hunters 1.4\\Campaign Reference.pdf",
+        "sha256": "8aca641b25de1ebee589b45de98be5935ca4854c264da1fe770401438ed850c5",
+        "hash_match": "exact \u2014 found by full-tree hash search since the filename didn't appear at the top level of the library folder",
+        "pages": 2,
+        "text_quality": "clean, dense (6490 chars/page avg)",
+        "notes": "A dense campaign-turn summary sheet, bundled inside a 'Vampire Hunters 1.4' fan-warband book folder but its content is generic Mordheim campaign process, not Vampire-Hunter-specific."
+      },
+      {
+        "working_copy": "research/sources/mordheim/post-game-chart.pdf",
+        "library_master": "G:\\My Drive\\Wargaming\\Mordheim\\Post Game Chart.pdf",
+        "sha256": "ed7bae446a441df171872061e09b2b45a7a6eea2d3d55e7f0d22ab340891d308",
+        "hash_match": "exact",
+        "pages": 2,
+        "text_quality": "clean (4651 chars/page avg)",
+        "notes": "Community-condensed post-battle sequence cheat sheet. Contains two small internal-consistency typos vs the wiki/Living Rulebook (Arm Wound and Smashed Leg both print '2-5 = miss next game' where the source material says '2-6' \u2014 the D6 range 2-5 silently drops the 6 result) and one addition not found in the core rulebook or wiki (a 1-4/5-6 sub-roll on who holds a Captured warrior). Logged as findings in the note, not corrected here."
+      }
+    ]
+  },
+  "library_root": "G:\\My Drive\\Wargaming\\Mordheim\\",
+  "library_root_note": "39 files across Books/, Campaign_/, Game Resources/, Rosters/, Rules/, STL/, Terrain/, plus loose top-level PDFs. All four staged working copies confirmed byte-identical to files already present in this tree \u2014 nothing new needed to be filed."
+}
