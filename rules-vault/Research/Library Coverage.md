@@ -9,7 +9,7 @@ updated: 2026-08-21
 
 > **What this is.** A status map of the rulebook library on `G:\My Drive\Wargaming` against the notes in [[Wargaming Research Hub]]. It answers one question: **which games have we actually analysed, and which are still sitting unread?**
 >
-> **Library size:** 1,575 PDFs / 24.5 GB across 27 folders. **Hub state:** 25 sources, 148 mechanics.
+> **Library size:** 1,575 PDFs / 24.5 GB across 27 folders. **Hub state:** 28 sources, 186 mechanics.
 
 > [!warning] A note on file counts
 > The PDF count per folder is **not** a measure of how much is unread — most folders are mostly cards, tokens, scenario packs and duplicates, not rules. A folder of 141 files might hold three rulebooks. Treat the counts as *"how much is in there"*, not *"how much work is left"*.
@@ -33,6 +33,10 @@ updated: 2026-08-21
 | **Spectre Operations** | `Spectre Operations [FULL COLLECTION]` | 23 | 3 | primary — 3rd Ed + Errata + Solo | [[Spectre Operations]] |
 | **Zona Alfa** | `Zona Alfa` | 1 | 1 | primary — full 65pp | [[Zona Alfa]] |
 | **Mad Dogs with Guns** | `Mad Dogs with Guns` | 1 | 1 | primary — full 116pp | [[Mad Dogs with Guns]] |
+| **Oathmark** | `Oathmark` | 7 | 3 | primary — core 194pp + Battlesworn + Bane of Kings | [[Oathmark]] |
+| **Last Days** | `Last Days` | 2 | 2 | primary — core 114pp + *Seasons* 90pp | [[Last Days Zombie Apocalypse]] |
+| **Judge Dredd Miniatures Game** | `Judge dredd` | 77 | 1 | primary — Warlord 2020, 164pp | [[Judge Dredd Miniatures Game]] |
+| **Fistful of Lead** | `Fistful of Lead` | 1 | 1 | primary — full 62pp | [[Fistful of Lead]] |
 | **Infinity** *(hacking/EW)* | — *(no drive PDF)* | — | — | official N5.2 wiki | [[Infinity]] |
 
 ---
@@ -48,8 +52,6 @@ updated: 2026-08-21
 | **Rangers of Shadow Deep** | `RoSD` | 16 | primary (core only) | ⭐ Core already mined for [[Solo & Co-op]]; supplements likely thin |
 | **Trench Crusade** | `TRENCH CRUSADE` | 15 | primary (v1.6.3 playtest + BattleScribe) | ⭐⭐ Playtest moves fast — 15 files may hold a newer revision than the one our numbers came from |
 | **Warhammer 40,000** | `40k` | 14 | ⚠️ *wargear arc traced* — **secondary** | ⭐ Codices, not core rules. Low value for us |
-| **Oathmark** | `Oathmark` | 7 | primary (Kingdom extract + Army Planner) | ⭐⭐ We never read the **core rulebook** — only the kingdom extract. Our single best settlement source is a partial read |
-| **Last Days** | `Last Days` | 2 | primary (core + *Seasons*) | ✅ Effectively complete |
 | **Kill Team** | `Kill Team` | 1 | ⚠️ *three editions compared* — **secondary** | ⭐ |
 | **The Walking Dead** | `The Walking Dead` | 1 | ⚠️ *costing chapter only* — **partial** | ⭐ The neutral-threat design deserves a full read |
 
@@ -60,11 +62,11 @@ updated: 2026-08-21
 |---|---|:--:|---|---|
 | **Konflikt '47** | `Konflict 47` | 7 | Weird-WW2 — walkers, experimental tech. **Complete set**: Rulebook + Field Manual + 3 army lists + QRG | ⭐⭐ Yes. Complete, small, and the tech tier is the relevant part |
 | **`0200`** | *loose in root* | 1 (37pp) | Card-driven covert/night ops. **detect ×82, alert ×58, stealth ×11** | ⭐⭐⭐ **Best pending pick.** Cheapest capture in the queue and it pairs with [[Spectre Operations]] to turn one detection source into a pattern |
-| **Fistful of Lead: Reloaded** | *loose in root* | 1 (62pp) | Card-driven activation, gang campaign, traits | ⭐⭐ Card-driven initiative is a mechanic family we have nothing on |
 | **Five Leagues from the Borderlands** | `5LFTB` | 4 | Solo fantasy campaign (Ivan Sorensen) — **highly regarded for solo campaign design** | ⭐⭐ but ⚠️ **no core rulebook on the drive** — only 4 supplements. Needs sourcing |
-| **Judge Dredd** | `Judge dredd` | 77 | Almost entirely the **2d20 RPG** (*Worlds of 2000AD* Case Files, Mongoose RPG, d20) | ⭐ Low. RPG mechanics don't transfer to skirmish. Scored #2 on tech density but that was the setting, not the rules |
+| **Strontium Dog** *(and Slaine)* | `Judge dredd` subfolder | 2 | Warlord's sibling 2000AD miniatures games on a related engine. **Strontium Dog is sci-fi bounty-hunting** — the stronger of the two for us | ⭐⭐ Surfaced while capturing [[Judge Dredd Miniatures Game]] |
+| **Judge Dredd *Block War*** | `Judge dredd` subfolder | 1 | ⚠️ **A different, older game** — ©2013 Mongoose, Matthew Sprange, unrelated engine to the Warlord 2020 book. Core rulebook **not** in the library | ⭐ Has a citable-but-unverified Territory-control mechanic |
 | **Barons' War** | `Barons War` | 37 | Medieval historical skirmish + `Pillage` campaign | ⭐ Low for 2051 tech; the campaign supplement is the only draw |
-| **Infected!** | `Infected!` | 4 | Zombie survival — but it's an **RPG** (Narrator Screen), and there's **no core rulebook** here | ❌ Skip |
+| ~~**Infected!**~~ | `Infected!` | 4 | ✅ **Done 2026-08-21 — [[Infected]].** Confirmed a **TTRPG, not a wargame**. One mechanic kept (Hardness Rating) | ❌ **Do not source the full rulebook** |
 | **Age of Sigmar** | `AOS` | 21 | Fantasy mass battle | ❌ Skip — wrong scale, wrong genre |
 
 ---
@@ -98,12 +100,13 @@ These came from `docs/POINTS-RESEARCH.md` (a costing-focused secondary sweep) or
 ---
 ## 🎯 What I'd do next
 
-1. **`0200`** — 37pp, already on the drive, and detection-dense. Cheapest capture available and it pairs with Spectre.
-2. **Necromunda + Mordheim primary read** — 187 files, the genre's founding lineage, and our note is secondary. Biggest single gap.
-3. **Oathmark core rulebook** — our best settlement source is a partial read of an extract.
-4. **Konflikt '47** — complete, small, tech-tier relevant.
+1. **`0200`** — 37pp, on the drive, detection-dense (detect ×82, alert ×58). Cheapest capture available and it pairs with [[Spectre Operations]] and [[Fistful of Lead]] to make detection a three-source pattern.
+2. **Necromunda + Mordheim primary read** — 187 files, the genre's founding lineage, and our note is still secondary. Now the largest remaining gap by a wide margin.
+3. **Strontium Dog** (Warlord 2019) — sci-fi bounty hunters on the Judge Dredd engine, already on the drive, and the arrest/bounty thread is live after [[Judge Dredd Miniatures Game]].
+4. **Konflikt '47** — complete set, small, tech-tier relevant.
+5. **Scrappers** (Osprey 2017) — see [[Candidate Games]]; the closest structural match found online and **not yet on the drive**.
 
-**To source (not on the drive):** Fallout **Campaign Handbook** (Homestead depends on it and our settlement finding is `[NOT FOUND]` without it) · *Into The Vault* · **Reality's Edge** (the cyberpunk gap — nothing in 1,575 files covers it) · Infinity N5 rulebook · **Black Ops** · Five Leagues core rulebook.
+**To source:** Fallout **Campaign Handbook** + *Into The Vault* (both confirmed purchasable) · **Reality's Edge** (the cyberpunk gap) · **Scrappers** · **Skirmish Sangin** · Infinity N5 rulebook · Five Leagues core rulebook (Modiphius hardcover now exists) · **Black Ops**. Full detail and availability in [[Candidate Games]].
 
 ---
 *Regenerate the underlying scan with `research/captures/tech_scan.py`. See [[Wargaming Research Hub]] for the mechanics themselves.*

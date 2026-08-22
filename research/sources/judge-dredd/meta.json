@@ -1,0 +1,46 @@
+{
+  "title": "Judge Dredd Miniatures Game — Rulebook",
+  "author": "Dylan Owen (Design & Production)",
+  "editors": ["Darron Bowley", "Duncan Macfarlane", "Paul Sawyer"],
+  "publisher": "Warlord Games",
+  "year": 2020,
+  "url": null,
+  "acquisition_note": "Digital PDF, provided directly by Ross. Library master at G:\\My Drive\\Wargaming\\Judge dredd\\Miniatures Games (Judge Dredd, Strontium Dog, Slaine)\\Judge Dredd Miniatures Game -  Rulebook [2020][Warlord Games].pdf. Working copy at research/sources/judge-dredd/original.pdf (gitignored, not committed). Both hashes confirmed identical before extraction.",
+  "retrieved": "2026-08-21",
+  "pages": 164,
+  "sha256": "b35fd720131660b1199a2b96f38d96eed5790ff03d9f34d946b7481750d38a02",
+  "pdf_metadata": {
+    "producer": "QuarkXPress(R) 15.0",
+    "creationDate": "2019-10-16",
+    "modDate": "2019-10-18"
+  },
+  "licence_note": "Third-party rulebook PDF. Not committed to the repo (research/sources/**/original.pdf is gitignored). source.md is a full page-by-page verbatim text extraction, kept for internal research reproducibility and citation only — it is quoted from, never reproduced wholesale, in the vault note.",
+  "is_designer_statement": true,
+  "designer_statement_note": "The rulebook is the publisher's own primary rules text — the direct source, not a secondary summary.",
+  "extraction_method": {
+    "tool": "PyMuPDF (fitz) 1.x, page.get_text('text')",
+    "ocr_used": false,
+    "reason": "Clean embedded text layer confirmed across all 164 pages (avg text well above the 120 char/page OCR threshold).",
+    "encoding_check": "Full extraction scanned for U+FFFD (replacement character): 0 found across all 164 pages."
+  },
+  "probe_note": "Ross's earlier keyword probe found 'robot' x110, 'campaign' x73, 'perp' x54, 'hacking' x3, 'stealth' x3 across the book. Full read confirms campaign/perp/sentencing hits were real mechanical density (see vault note). The robot count was largely repetitive flavour text and a single repeated one-line special rule ('Robot') stamped on every robot profile — NOT 110 distinct mechanical touchpoints. Hacking and stealth are each a single Armoury-card item, not subsystems. See vault note for detail.",
+  "important_correction": "block-war.pdf in this source folder was originally assumed to be a supplement to THIS rulebook (Warlord Games 2020). It is not. Its own copyright page reads '(c)2013 Rebellion Developments Ltd... www.mongoosepublishing.com... Revised 16th April 2013' and its rules use Credits/Rep/Minions/Heroes/Experience Points terminology with no Notoriety, Action chips, or Combat dice anywhere in the text -- a completely different, older Judge Dredd miniatures game published by Mongoose (c.2009-2013), not a Warlord Games product. See block-war-meta.json in this folder for detail. It was NOT used as a source for the Judge Dredd Miniatures Game vault note.",
+  "related_uncaptured_titles_in_same_drive_folder": [
+    {
+      "title": "Strontium Dog Miniatures Game Rulebook",
+      "publisher": "Warlord Games",
+      "year": 2019,
+      "note": "Sibling Warlord 2000AD skirmish engine (likely the same Notoriety/Action-chip/Combat-dice chassis as this book, sci-fi bounty-hunter setting). Flagged by the batch brief as the stronger candidate of the two siblings for Settlements — uncaptured this run."
+    },
+    {
+      "title": "Slaine Miniatures Game Rulebook",
+      "publisher": "Warlord Games",
+      "year": 2022,
+      "note": "Sibling Warlord 2000AD engine, Celtic fantasy setting — thematically distant from Settlements. Uncaptured this run."
+    }
+  ],
+  "capture_contents": {
+    "source.md": "Full 164-page verbatim text capture, page by page, from the PDF text layer.",
+    "meta.json": "This file."
+  }
+}

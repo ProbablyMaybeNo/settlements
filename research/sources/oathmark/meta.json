@@ -1,0 +1,59 @@
+{
+  "slug": "oathmark",
+  "game": "Oathmark: Battles of the Lost Age",
+  "publisher": "Osprey Games (Osprey Publishing Ltd)",
+  "designer": "Joseph A. McCullough",
+  "retrieved": "2026-08-21",
+  "is_designer_statement": true,
+  "designer_statement_note": "All three books are the designer's own primary rules text. McCullough also authored Frostgrave, Frostgrave: Ghost Archipelago, and Rangers of Shadow Deep (see sibling notes).",
+  "library_root": "G:\\My Drive\\Wargaming\\Oathmark\\",
+  "library_root_note": "Holds 4 Oathmark PDFs (this capture's 3 + an Army Roster form, uncaptured/not needed) plus 3 Warbirds (OS301/302/303) WWII air-combat PDFs that are a DIFFERENT, unrelated Osprey game entirely, misfiled into this folder. Left in place per instructions (not this agent's job to reorganize the library), flagged here so a future pass doesn't mistake them for Oathmark material.",
+  "sources": [
+    {
+      "working_copy": "research/sources/oathmark/original.pdf",
+      "capture_md": "research/sources/oathmark/core-rulebook.md",
+      "library_master": "G:\\My Drive\\Wargaming\\Oathmark\\Osprey - Oathmark - Battles of the Lost Age.pdf",
+      "sha256": "8ca269501a6f0a64f9641677d4347399cab2c7ef0240f5b1b4852366bb5cabf7",
+      "hash_match": "exact — working copy and library master are byte-identical",
+      "title": "Oathmark: Battles of the Lost Age — core rulebook",
+      "pages": 194,
+      "official": true,
+      "priority": "primary — first full read of the core rulebook; prior note was built from an 8-page official extract + the Army Planner PDF only",
+      "text_quality": "clean embedded text throughout, avg 1022 chars/page, 47 of 194 pages under 120 chars (full-page art/section breaks)",
+      "notes": "Covers: The Basics / Playing the Game / Advanced Rules (core resolution, activation, combat — mass battle, ~pp.7-73); Building an Army (Create a Kingdom p.76, five-region Terrain Lists by race p.78-81, Assemble an Army + Unit Limit p.82-83, Figure Lists p.83-149); The Campaign (Principles of War, battle-type table, muster/scenario/record-results, p.151-165). Confirms the core headline finding directly in the rulebook body (p.82), not just the previously-cited designer blog: army point value is fixed per game/scenario and is independent of kingdom size."
+    },
+    {
+      "working_copy": "research/sources/oathmark/battlesworn.pdf",
+      "capture_md": "research/sources/oathmark/battlesworn.md",
+      "library_master": "G:\\My Drive\\Wargaming\\Oathmark\\Oathmark [OAK 2] Battlesworn [OEF][2022-01-27]red.pdf",
+      "sha256": "9466033453f377d4cf45cd3fa3c2b3a8ed80e042973204106b79803616f00a55",
+      "hash_match": "exact — working copy and library master are byte-identical",
+      "title": "Oathmark [OAK 2]: Battlesworn",
+      "pages": 81,
+      "official": true,
+      "priority": "primary — first read; this book was NOT what the brief expected",
+      "scope_correction": "IMPORTANT: this book is not a skirmish-scale variant of Oathmark. It is the first Oathmark supplement, covering three things: (1) Battle Honours — an optional persistent-veteran-unit system with a hard 3-honour cap, a compounding 10% cost tax per honour, spend-not-store reroll tokens, and a d10 destroyed-unit table; (2) water/river rules, boats, and engineer units; (3) three linked 'Military Expedition' mini-campaign scenario chains plus new Unique Territories. All still at Oathmark's native mass-battle scale (units of 9-20+ figures). The word 'skirmish' appears exactly twice in the text and both times means a small on-water engagement, not a game-scale mode. Corrected here rather than silently reinterpreted.",
+      "text_quality": "clean embedded text, avg 1346 chars/page, 23 of 81 pages under 120 chars (art/section breaks)"
+    },
+    {
+      "working_copy": "research/sources/oathmark/bane-of-kings.pdf",
+      "capture_md": "research/sources/oathmark/bane-of-kings.md",
+      "library_master": "G:\\My Drive\\Wargaming\\Oathmark\\Oathmark; Battles of the Lost Age - Bane of Kings (2021).pdf",
+      "sha256": "7c0b42ce017b6453ac3877552f74c88b2eb0dbf4678782801d9ab92978588ccb",
+      "hash_match": "exact — working copy and library master are byte-identical",
+      "title": "Oathmark: Battles of the Lost Age — Bane of Kings",
+      "pages": 81,
+      "official": true,
+      "priority": "primary — first read; skimmed for kingdom/campaign material per brief, Kingdom Events chapter read in full",
+      "text_quality": "clean embedded text, avg 1507 chars/page, 14 of 81 pages under 120 chars (art/section breaks)",
+      "notes": "Covers: Special Formations (reuse existing owned units in new tactical modes — Phalanx, Square, Skirmish formation — explicitly marketed by the designer as growth 'without having to buy or paint new units'); Kingdom Events chapter (a D10 category roll -> sub-table system for between-battle texture, ~40-60% no-event, six categories: Political/Internal/External/Natural/Magical/Miscellaneous, plus a deliberately non-mechanical 'Passage of Time' flavour-only sub-table); two new Unique Territories (The High Seat, Prison of the Ice Queen). Also contains the ONE documented exception to 'growth never costs budget' found across all three books: the Land Purchase political event lets a kingdom buy a new Region 5 territory outside of combat, at a cost of -10% points in the next battle."
+    }
+  ],
+  "extraction_method": {
+    "tool": "PyMuPDF (fitz) 1.x, page.get_text('text')",
+    "ocr_used": false,
+    "reason": "All three PDFs have clean embedded text layers (sampled avg 1022-1507 chars/page); no OCR needed.",
+    "page_numbering": "Each capture .md uses PDF page index in its '## PDF page N' headers, not printed page numbers, to keep the mapping unambiguous — see each file's header note for the printed-page offset.",
+    "verification": "Terrain List tables (Dwarf/Human/Elf/Goblin&Orc/Unaligned, core rulebook pp.78-81) spot-checked by eye against the raw extraction and read correctly in row order with no reconstruction needed."
+  }
+}

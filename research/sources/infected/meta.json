@@ -1,0 +1,41 @@
+{
+  "slug": "infected",
+  "title": "Infected! (Immersion RPG system)",
+  "publisher": "Immersion Studios",
+  "author": "Oliver R. Shead",
+  "url": "https://www.immersion-rpg.com/ (per sampler p.3: 'order a PDF copy of the book on Drive Thru RPG, search for Infected Zombie RPG') — exact DriveThruRPG listing URL not independently verified this run",
+  "retrieved": "2026-08-21",
+  "licence_note": "Third-party commercial RPG PDFs. original.pdf, narrator-screen.pdf and lobster-problems.pdf are NOT committed to the repo (gitignored) per project policy — quoted excerpts only, in source.md and the vault note.",
+  "is_designer_statement": false,
+  "game_type_determination": "CONFIRMED TABLETOP RPG, not a miniatures wargame. Sampler p.4 states outright: 'Welcome to Infected!, a tabletop role playing game — also called an RPG.' Character build uses Attributes/Skills/Circumstances/Advantages-Disadvantages purchased with Experience, a Narrator (GM) sets scenes, and 'combat' resolves via the same 1D10+Attribute / 1D10+Skill dice-pool check as every other action — there is no miniatures/basing/measured-movement layer of any kind anywhere in the 66 pages read.",
+  "files_captured": [
+    {
+      "working_copy": "research/sources/infected/original.pdf",
+      "library_master": "G:\\My Drive\\Wargaming\\Infected!\\Infected! Sampler_2016.pdf",
+      "sha256": "d76ff4424233dbc47dec9d6ceb31e1d14e3b70d15fcb0928303cabd0765c842e",
+      "pages": 50,
+      "description": "Second-edition sampler/quickstart PDF — preview of the full rulebook, funded via 2015 Kickstarter, printed mid-2016. Covers the core dice mechanic, Attributes/Skills/Circumstances, Health/Morality, Hardness Rating (armour vs weapon tiers), a short combat-sequence walkthrough, five pre-gen NPCs, and one full sample scenario ('The Fifty Hands')."
+    },
+    {
+      "working_copy": "research/sources/infected/narrator-screen.pdf",
+      "library_master": "G:\\My Drive\\Wargaming\\Infected!\\Infected! - Core - Narrator Screen [Back].pdf",
+      "sha256": "90836b44f9b97dba04b611c932aa5e10a5ffbfb18c65bf2d6a19f177b8667e97",
+      "pages": 1,
+      "description": "Back face of the official GM/Narrator screen — labelled 'Core' (i.e. drawn from the full published rulebook, not the sampler). Dense single-page reference: weapon/armour quick-reference, Hardness Rating table, combat sequence, targeted-strike table, bungle-result table, random NPC generator, gradients of success. Highest information density of the three files."
+    },
+    {
+      "working_copy": "research/sources/infected/lobster-problems.pdf",
+      "library_master": "G:\\My Drive\\Wargaming\\Infected!\\Infected! - Adv - Lobster Problems.pdf",
+      "sha256": "bdf63c43407a300210bd58d82a23cace3b884c47b8b9b82a8db7bae5256f4d89",
+      "pages": 15,
+      "description": "Published adventure/scenario module (1-4 players, 4-6hr). Pure narrative scene-setting and NPC dialogue for a Narrator to run — no new mechanics, no infection/noise/scavenging rules beyond flavour text. References 'page 188 of the Infected Rulebook' for full setting detail, confirming a much larger core book exists that we do not have."
+    }
+  ],
+  "not_captured": [
+    {
+      "library_master": "G:\\My Drive\\Wargaming\\Infected!\\Infected! - Core - Narrator Screen [Front].pdf",
+      "reason": "Not provided as a working copy for this run. Likely player-facing charts (Attribute/Skill lists, statistic-level ladder) mirroring content already in the sampler. Lower priority than the Back face per the task brief; not fetched or read."
+    }
+  ],
+  "verification": "sha256 of research/sources/infected/{original,narrator-screen,lobster-problems}.pdf matches the corresponding file in G:\\My Drive\\Wargaming\\Infected!\\ exactly (checked 2026-08-21)."
+}

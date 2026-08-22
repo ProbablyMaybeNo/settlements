@@ -1,0 +1,41 @@
+{
+  "slug": "last-days",
+  "game": "Last Days - Zombie Apocalypse",
+  "designer": "Ash Barker",
+  "publisher": "Osprey Games",
+  "sources": [
+    {
+      "title": "Last Days: Zombie Apocalypse (core rulebook, 2nd edition)",
+      "file": "original.pdf",
+      "pages": 114,
+      "chars_extracted": 148032,
+      "isbn_epdf": "9781472826718",
+      "year": 2018,
+      "library_master": "G:\\My Drive\\Wargaming\\Last Days\\Osprey - LDZA - Last Days Zombie Apocalypse (red) (2).pdf",
+      "sha256": "ee0a9e8c5f50b9255bcd0836885f97d8514e800cf57e9504dddfdcdc56323d7f",
+      "extraction_method": "fitz (PyMuPDF), page.get_text('text') — clean embedded text layer, no OCR needed"
+    },
+    {
+      "title": "Last Days: Zombie Apocalypse — Seasons (campaign supplement)",
+      "file": "seasons.pdf",
+      "pages": 90,
+      "chars_extracted": 119444,
+      "isbn_epdf": "9781472838896",
+      "year": 2019,
+      "library_master": "G:\\My Drive\\Wargaming\\Last Days\\Last Days - Zombie Apocalypse - Seasons (2).pdf",
+      "sha256": "d38a4edd8a679f1690f04b10bd865e5fa49844018867d8d6d56edda01f0112f8",
+      "extraction_method": "fitz (PyMuPDF), page.get_text('text') — clean embedded text layer, no OCR needed"
+    }
+  ],
+  "retrieved": "2026-08-21",
+  "licence_note": "Third-party copyrighted rulebook PDFs. Not committed to the repo (gitignored). Filed in the personal library at G:\\My Drive\\Wargaming\\Last Days\\ and quoted here only for analysis/citation, per house research policy.",
+  "is_designer_statement": false,
+  "read_passes": [
+    "Pass 1 (prior session): settlement/Refuge layer only — produced the original note",
+    "Pass 2 (this session): full read of both books for core resolution, turn structure, the Menace Phase / noise-and-ammo spawn loop, zombie AI, Knockback / Shoot Them in the Head, Breaking Point, the Injury Table, Seasons weather + Character Conditions (Hunger/Health/Thirst/Warmth), and Solo/Cooperative Play"
+  ],
+  "notes": [
+    "Core Refuge table (p.20) lists Farm House as 8 Max Group Size / 6 Empty Spaces / Fenced-Off Garden only. Seasons (p.64) explicitly replaces this entry with 8/5/Fenced-Off Garden-or-Stable+Cold Cellar — an errata-style overwrite, not an additive option. The vault note's Farm House row already reflected the Seasons-corrected numbers; this capture records the provenance so it's not mistaken for a core-book fact.",
+    "Vault note originally claimed 'only three Perks touch a normal away game: Armoury, Fortified Windows, Radio Room' as an INFERENCE. Full read shows Fortified Windows only ever modifies the off-table, abstracted Zombie Attack roll (p.83) and never appears in any on-table Encounter's text, including Home Defense. Corrected in the note — the accurate set is Armoury (fires inside any ordinary Encounter) and Radio Room (shifts which Encounter gets rolled), with Fortified Windows moved to the same off-table-economy bucket as Watch Tower's re-roll effect."
+  ]
+}

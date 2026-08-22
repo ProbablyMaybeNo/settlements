@@ -176,8 +176,8 @@
       "note": "Research/Notes/Oathmark.md",
       "designer": "Joseph A. McCullough",
       "publisher": "Osprey Games",
-      "depth": "primary",
-      "capture": null,
+      "depth": "primary — core rulebook (194pp) + Battlesworn + Bane of Kings",
+      "capture": "research/sources/oathmark/",
       "long_form": "docs/POINTS-RESEARCH.md#7.15",
       "mechanics": [
         {
@@ -199,6 +199,31 @@
           "name": "Concentric rings with a rarity gate",
           "type": "Faction",
           "verdict": "adapt"
+        },
+        {
+          "name": "Reuse before purchase — formations before new figures",
+          "type": "Settlement",
+          "verdict": "steal"
+        },
+        {
+          "name": "Unique territories — a fixed, contested set of trophies",
+          "type": "Settlement",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Two prices for one veteran, spent not stored",
+          "type": "Campaign",
+          "verdict": "steal"
+        },
+        {
+          "name": "Six raid types, six different stakes",
+          "type": "Campaign",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Kingdom Events, and the one crack in \"growth never costs budget\"",
+          "type": "Campaign",
+          "verdict": "adapt"
         }
       ]
     },
@@ -208,8 +233,8 @@
       "note": "Research/Notes/Last Days Zombie Apocalypse.md",
       "designer": "Ash Barker",
       "publisher": "Osprey Games",
-      "depth": "primary",
-      "capture": null,
+      "depth": "primary — full core rulebook (114pp) + Seasons (90pp)",
+      "capture": "research/sources/last-days/",
       "long_form": "docs/POINTS-RESEARCH.md#7.17",
       "mechanics": [
         {
@@ -240,6 +265,61 @@
         {
           "name": "Losing the structure removes the asset",
           "type": "Economy",
+          "verdict": "steal"
+        },
+        {
+          "name": "Movable TN for Tests, flat 7 for combat",
+          "type": "Dice",
+          "verdict": "reference"
+        },
+        {
+          "name": "The Menace Phase — noise and ammo resolve before anyone moves",
+          "type": "Activation",
+          "verdict": "steal"
+        },
+        {
+          "name": "Noise as a stacking attribute, one counter-skill",
+          "type": "Detection",
+          "verdict": "steal"
+        },
+        {
+          "name": "Zombie AI in four rules, and \"Sticky\" Horror instead of a morale check",
+          "type": "Scenario",
+          "verdict": "steal"
+        },
+        {
+          "name": "Knockback vs. Shoot Them in the Head",
+          "type": "Combat",
+          "verdict": "reference"
+        },
+        {
+          "name": "One 2D6 table for maiming, capture, infection, and death",
+          "type": "Combat",
+          "verdict": "steal"
+        },
+        {
+          "name": "Breaking Point — one Group roll, triggered only by a casualty",
+          "type": "Morale",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Zero food/water/fuel tracking in the core game",
+          "type": "Economy",
+          "verdict": "steal"
+        },
+        {
+          "name": "Seasons' 4-condition upkeep, and its real table-time cost",
+          "type": "Economy",
+          "verdict": "avoid"
+        },
+        {
+          "name": "Seasons and Weather — four tables that reskin the same Encounters",
+          "type": "Campaign",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Solo Play reuses the Keyword axis as its targeting AI",
+          "type": "Solo",
           "verdict": "steal"
         }
       ]
@@ -1072,6 +1152,147 @@
         }
       ],
       "notes": "Top scorer of a 287-PDF tech-content sweep, and the closest whole-game match to Settlements left uncaptured: post-apoc skirmish, persistent crew, base-building layer. Core d20-Skill-Dice-plus-stacked-d12-Effect-Dice engine does not transfer to our 1d10 system - flagged explicitly in the note. Read Rules of Play (60pp), Into the Wasteland (24pp), Homestead Rules Expansion v2 (34pp), and Automatron Player Rules (2pp) in full, all confirmed official via product code + Bethesda/ZeniMax trademark footer + library-hash match. The 5th file (Robots Battle Mode faction list, 11pp) carries neither marker - official/fan provenance unresolved, see meta.json and the hub's to-read list. Homestead assumes the (uncaptured) Campaign Handbook's base Settlement/Caps loop as a prerequisite, so whether ordinary away-battle Crew budgets scale with settlement size is NOT_FOUND, not inferred. Web search corrected a mid-research assumption: FWW is not discontinued - a 2nd Edition is in development for 2026."
+    },
+    {
+      "slug": "judge-dredd",
+      "note": "Research/Notes/Judge Dredd Miniatures Game.md",
+      "capture": "research/sources/judge-dredd/",
+      "mechanics": [
+        {
+          "name": "Stun/Injury fork — capturability as a weapon property",
+          "type": "Combat",
+          "verdict": "steal"
+        },
+        {
+          "name": "The Crime Ledger — sentences built from actions taken",
+          "type": "Scenario",
+          "verdict": "steal"
+        },
+        {
+          "name": "Informers — pay to bias scenario role assignment",
+          "type": "Scenario",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Sentencing, Iso-Cubes, and the jailbreak loop",
+          "type": "Campaign",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Deeds — the losing side still earns advancement",
+          "type": "Campaign",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Underdog Big Meg Cards — bonus resource scales with the gap",
+          "type": "Campaign",
+          "verdict": "reference"
+        },
+        {
+          "name": "Notoriety phase ceiling — fixed schedule, catch-up top-up",
+          "type": "Campaign",
+          "verdict": "reference"
+        },
+        {
+          "name": "Grudge Points — a two-faction nemesis track",
+          "type": "Campaign",
+          "verdict": "reference"
+        },
+        {
+          "name": "Base Upgrades — fire-arc costs the field of fire",
+          "type": "Costing",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Robots — a keyword, not a subsystem",
+          "type": "List",
+          "verdict": "reference"
+        }
+      ],
+      "game": "Judge Dredd Miniatures Game",
+      "publisher": "Warlord Games",
+      "depth": "primary — 2020 rulebook, 164pp"
+    },
+    {
+      "slug": "fistful-of-lead",
+      "note": "Research/Notes/Fistful of Lead.md",
+      "capture": "research/sources/fistful-of-lead/",
+      "mechanics": [
+        {
+          "name": "A shuffled deck sets hidden, variable activation order",
+          "type": "Activation",
+          "verdict": "reference"
+        },
+        {
+          "name": "Special Cards staple a bonus onto the same draw",
+          "type": "Activation",
+          "verdict": "reference"
+        },
+        {
+          "name": "Quality expressed as die size (d8/d10/d12), not a modifier",
+          "type": "Dice",
+          "verdict": "reference"
+        },
+        {
+          "name": "Tiered Task difficulty, with an escalating-failure ratchet",
+          "type": "Dice",
+          "verdict": "avoid"
+        },
+        {
+          "name": "Hide/Spot: three states off one roll and two distance bands",
+          "type": "Detection",
+          "verdict": "steal"
+        },
+        {
+          "name": "Retreat triggers off comparing two existing counters",
+          "type": "Morale",
+          "verdict": "steal"
+        },
+        {
+          "name": "One Wound Chart resolves Shock/Wound/OOA off a single roll",
+          "type": "Combat",
+          "verdict": "reference"
+        },
+        {
+          "name": "Traits and Equipment Slots trade against each other 2-for-1",
+          "type": "List",
+          "verdict": "adapt"
+        },
+        {
+          "name": "A Negative Trait unlocks exactly one Positive Trait slot",
+          "type": "List",
+          "verdict": "reference"
+        },
+        {
+          "name": "Rabble: three bodies activate on one card",
+          "type": "List",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Renown: one currency for rerolls, recruits, upgrades, and the campaign's end",
+          "type": "Campaign",
+          "verdict": "adapt"
+        }
+      ],
+      "game": "Fistful of Lead: Reloaded 2nd Ed",
+      "publisher": "Wiley Games",
+      "depth": "primary — full 62pp"
+    },
+    {
+      "slug": "infected",
+      "note": "Research/Notes/Infected.md",
+      "capture": "research/sources/infected/",
+      "mechanics": [
+        {
+          "name": "Hardness Rating — a tier margin that can fully negate or fully bypass armour",
+          "type": "Combat",
+          "verdict": "adapt"
+        }
+      ],
+      "game": "Infected! (Immersion RPG)",
+      "publisher": "Immersion Studios",
+      "depth": "sampler / quickstart — RPG, not a wargame",
+      "is_rpg": true
     }
   ],
   "to_read": [
@@ -1123,6 +1344,61 @@
     {
       "target": "r/wargaming, TMP, Dakka, BGG design threads",
       "why": "no capture pipeline pointed at them yet",
+      "priority": "low"
+    },
+    {
+      "target": "Scrappers (Osprey Games)",
+      "why": "discovery run 2026-08-21 [[Candidate Games]] - closest structural match found: post-apoc Scrapper Crew salvage campaign, D10, commander-driven activation, Lifeform Type (Human/Mutant/Synthetic) gating traits+gear. Same publisher as Zona Alfa and Mad Dogs with Guns. Not yet purchased/read.",
+      "priority": "high"
+    },
+    {
+      "target": "Skirmish Sangin",
+      "why": "discovery run 2026-08-21 [[Candidate Games]] - closest tonal/scale match found: grounded modern Afghanistan combined-arms, 8-16 models/side, fireteam radio comms, full ORBATs incl. insurgent side, off-table fire support. Radio Dishdash Publishing. Not yet purchased/read.",
+      "priority": "high"
+    },
+    {
+      "target": "Cyberpunk RED: Combat Zone",
+      "why": "discovery run 2026-08-21 [[Candidate Games]] - officially licensed (Monster Fight Club + R.Talsorian), designer Aaron Dill, 2022. No-rounds continuous action economy: colour-coded Actions (green/yellow/red) shrink as the model takes wounds, so action economy and wound state are the same track. Not yet purchased/read.",
+      "priority": "medium"
+    },
+    {
+      "target": "Force on Force / Tomorrow's War",
+      "why": "discovery run 2026-08-21 [[Candidate Games]] - Ambush Alley Games/Osprey. Asymmetric modern-warfare engine (Force on Force) reused for near-future sci-fi (Tomorrow's War) on one chassis; Confidence/Force Morale governs squad willingness to fight, separate from individual nerve. PDF still available via Wargame Vault; physical is secondary-market only (publishing partnership ended).",
+      "priority": "medium"
+    },
+    {
+      "target": "Across the Dead Earth",
+      "why": "discovery run 2026-08-21 [[Candidate Games]] - Dead Earth Games (Rich Chappell). Explicitly the grittier/less-exaggerated post-apoc lane (reviewers' own framing) with Event Cards that disrupt the opponent's turn. Not yet purchased/read.",
+      "priority": "medium"
+    },
+    {
+      "target": "Reality's Edge",
+      "why": "already on the want list (Library Coverage) as the cyberpunk gap; discovery run 2026-08-21 [[Candidate Games]] confirmed details - Osprey Games, Joseph McGuire (also author of This Is Not a Test) + Thomas Elliott, 2018, 208pp hardcover. Individual data-jack crew, hacking (data nodes/robots/enemy chrome) described as pivotal. PDF via DriveThruRPG, print via Osprey.",
+      "priority": "high"
+    },
+    {
+      "target": "Black Ops (Osprey Wargames #10)",
+      "why": "already on the want list; discovery run 2026-08-21 [[Candidate Games]] confirmed details - Guy Bowers, 2015. Card-driven activation, mission generator (stealth extraction through raids/assassinations), character types include hackers. Available PDF/print via Osprey.",
+      "priority": "medium"
+    },
+    {
+      "target": "Core Space",
+      "why": "already on the want list; discovery run 2026-08-21 [[Candidate Games]] confirmed details - Battle Systems, launched 2017, First Born 2022, an 'Evolution' relaunch in progress. Sci-fi Traders vs. the Purge, co-op or competitive, modular 3D terrain, campaign-linking missions. Reads more hybrid board-game/dungeon-crawler than pure skirmish wargame - source for the campaign-linking structure specifically.",
+      "priority": "low"
+    },
+    {
+      "target": "Deadzone / Firefight (Mantic, 3rd Edition)",
+      "why": "already on the want list; discovery run 2026-08-21 [[Candidate Games]] confirmed details - 3rd edition released September 2021, full campaign system + 16 missions; Firefight is a game mode inside the same 3rd-edition rulebook rather than a separate ruleset. Free rules tier via Mantic Companion.",
+      "priority": "low"
+    },
+    {
+      "target": "Five Leagues from the Borderlands (core rulebook) - SOURCING UNBLOCKED",
+      "why": "discovery run 2026-08-21 [[Candidate Games]] found Modiphius acquired the IP from Ivan Sorensen/Nordic Weasel in June 2023 (Sorensen retained as lead writer) and now publishes a proper official hardcover core rulebook, resolving Library Coverage's 'no core rulebook on the drive' flag. Caveat: setting is fantasy, not modern/near-future - wanted for Sorensen's solo-campaign engine, not the setting.",
+      "priority": "medium"
+    },
+    {
+      "target": "This Is Not a Test (2nd edition, Black Site Studio)",
+      "why": "discovery run 2026-08-21 [[Candidate Games]] - already flagged internally (see the Fallout WW/This Is Not a Test entry above, still uncaptured); confirms a 2nd edition now exists and is sold directly by Black Site Studio, distinct from the original Joseph McGuire 2015 Kickstarter edition.",
       "priority": "low"
     }
   ]

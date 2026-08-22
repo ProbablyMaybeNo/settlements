@@ -1,0 +1,26 @@
+{
+  "title": "Fistful of Lead: Reloaded, 2nd Edition",
+  "author": "Jaye Wiley",
+  "publisher": "Wiley Games",
+  "year": 2024,
+  "isbn": null,
+  "url": "https://www.wiley-games.com",
+  "acquisition_note": "Digital PDF, provided directly by Ross. Library master at G:\\My Drive\\Wargaming\\Fistful of Lead\\Fistful of Lead - Reloaded 2nd Edition.pdf. Working copy at research/sources/fistful-of-lead/original.pdf (gitignored, not committed). sha256 of all three copies (source, library master, working copy) verified identical: 8116884ca49b12f8b41735436cdabe15aa046be701952a28bf1a5cf15cece374.",
+  "retrieved": "2026-08-21",
+  "pages": 62,
+  "sha256": "8116884ca49b12f8b41735436cdabe15aa046be701952a28bf1a5cf15cece374",
+  "licence_note": "Third-party rulebook PDF. Not committed to the repo (research/sources/**/original.pdf is gitignored). source.md quotes rules text for analysis under fair-use/citation, not a full reproduction of the book.",
+  "is_designer_statement": true,
+  "designer_statement_note": "The rulebook is Jaye Wiley's own primary statement of the rules, written in first person throughout (the Introduction, page-14 gang-building framing, and closing notes on p.3 all speak directly as the designer).",
+  "extraction_method": {
+    "tool": "PyMuPDF (fitz) 1.x, page.get_text('text')",
+    "ocr_used": false,
+    "reason": "Clean embedded text layer confirmed: median 2539 chars/page across 62 pages, 0 pages requiring OCR fallback.",
+    "encoding_check": "Full extraction scanned for U+FFFD (replacement character): 0 found across all 62 pages. Non-ASCII characters present are legitimate typographic Unicode already correctly decoded by PyMuPDF (copyright sign U+00A9, en dash U+2013, left/right single and double smart quotes U+2018/U+2019/U+201C/U+201D, bullet U+2022) -- these render as '?' in a cp1252 terminal but are not corruption.",
+    "weapons_table_note": "The Weapons table (printed p.30-31) extracts as three separate column blocks (Name / Range / Notes) rather than row-aligned text, a known PyMuPDF layout artifact on multi-column tables. Reconstructed as a single markdown table in source.md by manual row-matching, cross-checked against the prose weapon descriptions on p.31-33 (10 of 18 rows independently confirmed word-for-word against prose; the remaining 8 follow the same pattern with no contradicting prose). Flagged inline in source.md as reconstructed, not raw-extracted."
+  },
+  "capture_contents": {
+    "source.md": "Full 62-page verbatim text capture, page by page, plus the reconstructed Weapons table.",
+    "source_full.txt": "Raw, unedited PyMuPDF page-by-page extraction (working file, pre-cleanup)."
+  }
+}
