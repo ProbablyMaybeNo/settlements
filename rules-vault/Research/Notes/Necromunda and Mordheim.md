@@ -8,6 +8,9 @@ tags: [settlements/research]
 ---
 # 🎲 Necromunda & Mordheim
 
+> [!info] Mordheim now has its own primary-source note
+> **[[Mordheim]]** covers Mordheim in depth from a primary read (the mordheimer.net wiki, cross-checked against the official Living Rulebook) — the Serious Injuries chart, the Encampment/settlement layer, Experience and Income, and the full psychology suite. **This note remains the Necromunda-side read and the lineage view across both games** — all five headings below are unchanged and still hold the rows already pointed at them from the hub. Where the primary Mordheim read confirmed or sharpened a claim made here from summary (notably [[Mordheim#The Serious Injuries chart — confirmed line for line|Lasting injuries]]), that's noted in the new note.
+
 > [!abstract] In one breath
 > The **founding lineage** of the warband-campaign genre Settlements sits in. Between them they settle two of our open questions outright — **stashed gear doesn't count toward rating**, and **publish deltas, never the derivation** — and they document the snowball source nobody expects: **how often you play beats how well you play.**
 
