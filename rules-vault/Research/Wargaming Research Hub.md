@@ -13,6 +13,7 @@ status: Living
 > [!tip] How to use it
 > **Reading:** scan the **Type** section you're designing in, then follow the link for the real rules. **Ctrl+Hover** a link to peek without leaving this note.
 > **Adding:** copy [[_Research Entry Template]] into `Research/Notes/`, write it up, then add one row here per mechanic. One source note may own many rows — link the *heading*, not just the note: `[[Malifaux#The keyword tax]]`.
+> **The best of it:** [[Shortlist — Best Mechanics]] — a hard second cut over all 235 rows, down to the ones that actually earn a place in Settlements battles and the campaign layer.
 > **Coverage:** [[Library Coverage]] tracks which games on the G Drive have been analysed and which are still pending.
 > **Automating:** ask the **`wargaming-researcher`** agent. It scrapes a PDF / article / thread, files the raw capture into the repo's `research/sources/`, writes the vault note, and appends the rows here.
 
