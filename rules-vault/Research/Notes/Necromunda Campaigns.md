@@ -136,7 +136,7 @@ This is the finding no other single game in the corpus can offer, because no oth
 
 **Why it works.** The mirrored effects mean neither state is strictly better, so the choice is a genuine trade (legal supply chain vs. cheap illegal gear), and the **forced-flip risk baked into off-category Intrigues** means a player can be tempted into betraying their own alignment mid-campaign by a single good in-battle opportunity, without the Arbitrator ever having to adjudicate it by hand.
 
-**For Settlements.** The nearest published precedent yet found for our unstarted [[Diplomacy]] note's **"reputation/standing tracking and what it affects mechanically"** bullet. Compare [[Uprising Campaign]]'s three-way version below — Necromunda's own product line disagrees with itself on whether two aligned camps or three (with a genuine fence-sitting option) is the better shape, which is useful precisely because it's an unresolved internal fork, not a settled answer.
+**For Settlements.** The nearest published precedent yet found for our unstarted [[Diplomacy]] note's **"reputation/standing tracking and what it affects mechanically"** bullet. Compare [[#Unaligned as a third faction — the Uprising Campaign's fence-sitter|the Uprising Campaign]]'s three-way version below — Necromunda's own product line disagrees with itself on whether two aligned camps or three (with a genuine fence-sitting option) is the better shape, which is useful precisely because it's an unresolved internal fork, not a settled answer.
 
 ---
 ## Intrigues — a claimable sub-plot deck that risks your alignment

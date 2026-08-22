@@ -19,6 +19,7 @@
     "Campaign",
     "Settlement",
     "Economy",
+    "Diplomacy",
     "Scenario",
     "Solo",
     "Production"
@@ -1339,6 +1340,246 @@
           "verdict": "reference"
         }
       ]
+    },
+    {
+      "slug": "necromunda",
+      "capture": "research/sources/necromunda/",
+      "mechanics": [
+        {
+          "name": "Lasting Injuries — the 1995→2023 death-probability rebuild",
+          "type": "Combat",
+          "verdict": "steal"
+        },
+        {
+          "name": "Four rolls to land one wound",
+          "type": "Dice",
+          "verdict": "avoid"
+        },
+        {
+          "name": "The Advancement table, verified — escalation is per-stat, not global",
+          "type": "Costing",
+          "verdict": "steal"
+        },
+        {
+          "name": "Gang Rating vs Wealth, confirmed 1995 → 2023",
+          "type": "Campaign",
+          "verdict": "steal"
+        },
+        {
+          "name": "The Post-Battle Sequence — Gang Rating updated last",
+          "type": "Campaign",
+          "verdict": "reference"
+        },
+        {
+          "name": "Availability as a roll-gate, not a count-cap",
+          "type": "List",
+          "verdict": "adapt"
+        },
+        {
+          "name": "The action economy — Simple/Basic/Double, gated by Status",
+          "type": "Activation",
+          "verdict": "reference"
+        },
+        {
+          "name": "Conditions live on the weapon, not just the model",
+          "type": "Production",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Book fragmentation forced a fan concordance to exist",
+          "type": "Production",
+          "verdict": "avoid"
+        }
+      ],
+      "game": "Necromunda (core rules)",
+      "publisher": "Games Workshop",
+      "note": "Research/Notes/Necromunda.md",
+      "depth": "primary — NecroRAW consolidation cross-checked against the N23 Core Rulebook (epub) and the 1995 Living Rulebook"
+    },
+    {
+      "slug": "necromunda-campaigns",
+      "capture": "research/sources/necromunda-campaigns/",
+      "mechanics": [
+        {
+          "name": "The Outlander settlement — Materials-costed structures, no research gate",
+          "type": "Settlement",
+          "verdict": "steal"
+        },
+        {
+          "name": "Settlement Locations — one choice caps three structure categories independently",
+          "type": "Settlement",
+          "verdict": "steal"
+        },
+        {
+          "name": "Territories — one boon chassis, reused across the entire product line",
+          "type": "Settlement",
+          "verdict": "steal"
+        },
+        {
+          "name": "Enhanced Boons, Linked Rackets, Sympathisers, Road Sections — the same chassis, reskinned five times",
+          "type": "Settlement",
+          "verdict": "reference"
+        },
+        {
+          "name": "Linked Rackets — boons that chain into a synergy graph",
+          "type": "Settlement",
+          "verdict": "steal"
+        },
+        {
+          "name": "Road Sections — territory as graph edges, and the same node paying two gangs at once",
+          "type": "Settlement",
+          "verdict": "adapt"
+        },
+        {
+          "name": "The Rule of Law and the Path of the Outlaw — a two-state alignment that can flip involuntarily",
+          "type": "Faction",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Unaligned as a third faction — the Uprising Campaign's fence-sitter",
+          "type": "Faction",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Reputation Boons — a continuous, bracketed reward ladder that self-revokes",
+          "type": "Campaign",
+          "verdict": "adapt"
+        },
+        {
+          "name": "House Patronage — underdog banding evolved into a spendable currency",
+          "type": "Campaign",
+          "verdict": "steal"
+        },
+        {
+          "name": "The 3× kill-ratio threshold — gating territory control behind a decisive win",
+          "type": "Campaign",
+          "verdict": "adapt"
+        },
+        {
+          "name": "The Exploration-point race — the campaign advances on pooled player action, not the calendar",
+          "type": "Campaign",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Splinter gangs — the one persistence mechanic every book keeps",
+          "type": "Campaign",
+          "verdict": "steal"
+        },
+        {
+          "name": "Twelve dials on one chassis — the official campaign variants",
+          "type": "Campaign",
+          "verdict": "reference"
+        },
+        {
+          "name": "Semi-Perpetual Campaigns — a Triumph-to-legacy-bonus table",
+          "type": "Campaign",
+          "verdict": "adapt"
+        },
+        {
+          "name": "Campaign end conditions, compared across the line",
+          "type": "Campaign",
+          "verdict": "reference"
+        },
+        {
+          "name": "Intrigues — a claimable sub-plot deck that risks your alignment",
+          "type": "Scenario",
+          "verdict": "steal"
+        },
+        {
+          "name": "Madness, Desolation and Darkness — three escalating hazard axes locked to campaign phase",
+          "type": "Morale",
+          "verdict": "steal"
+        },
+        {
+          "name": "The chassis-reuse discipline breaks down under supplement pressure",
+          "type": "Production",
+          "verdict": "avoid"
+        }
+      ],
+      "game": "Necromunda — the 8 campaign systems",
+      "publisher": "Games Workshop",
+      "note": "Research/Notes/Necromunda Campaigns.md",
+      "depth": "primary — NecroRAW, settlement layer verified against Book of the Outcast pp.67/68/83/85"
+    },
+    {
+      "slug": "necromunda-homebrew",
+      "capture": "research/sources/necromunda-homebrew/",
+      "mechanics": [
+        {
+          "name": "Striking a Deal — a one-roll table with a hidden hedge for betrayal",
+          "type": "Diplomacy",
+          "verdict": "steal"
+        },
+        {
+          "name": "The Meet and the Double-Cross — betrayal staged as a scenario",
+          "type": "Diplomacy",
+          "verdict": "steal"
+        },
+        {
+          "name": "Alliances without teeth — the modern homebrew default",
+          "type": "Diplomacy",
+          "verdict": "avoid"
+        },
+        {
+          "name": "Hard-blocked pairings — some factions never get to roll",
+          "type": "Faction",
+          "verdict": "steal"
+        },
+        {
+          "name": "The Arbitrator's Special — a costed, GM-adjudicated wildcard slot",
+          "type": "Campaign",
+          "verdict": "steal"
+        },
+        {
+          "name": "Arbitrator-curated rotating NPC pools — the same fix, invented twice",
+          "type": "Campaign",
+          "verdict": "steal"
+        },
+        {
+          "name": "Reputation, admitted broken, rebuilt as a second currency",
+          "type": "Economy",
+          "verdict": "avoid"
+        },
+        {
+          "name": "Six-category Triumphs instead of one winner",
+          "type": "Campaign",
+          "verdict": "steal"
+        },
+        {
+          "name": "Achievements with zero mechanical payout",
+          "type": "Campaign",
+          "verdict": "steal"
+        },
+        {
+          "name": "The Campaign Events Table — catch-up baked into the randomness itself",
+          "type": "Campaign",
+          "verdict": "steal"
+        },
+        {
+          "name": "The post-battle action — one downtime action per surviving fighter",
+          "type": "Campaign",
+          "verdict": "steal"
+        },
+        {
+          "name": "Arbitrator's Monster — a dual-mode PvE stat block",
+          "type": "Solo",
+          "verdict": "steal"
+        },
+        {
+          "name": "Settlement visit as an encounter roll, not just a shop",
+          "type": "Settlement",
+          "verdict": "steal"
+        },
+        {
+          "name": "The settlement-nominee template — identity as reweighted odds, not a new system",
+          "type": "Settlement",
+          "verdict": "reference"
+        }
+      ],
+      "game": "Necromunda — community & homebrew campaigns",
+      "publisher": "community",
+      "note": "Research/Notes/Necromunda Homebrew Campaigns.md",
+      "depth": "COMMUNITY — 17 of 94 homebrew PDFs; unofficial, not playtested at commercial scale"
     }
   ],
   "to_read": [

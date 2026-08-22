@@ -1,0 +1,37 @@
+{
+  "slug": "necromunda-campaigns",
+  "title": "Necromunda — Campaign Systems (all 8, consolidated)",
+  "primary_urls": [
+    "https://www.necroraw.com.ru/docs/campaigns/the-dominion-campaign/",
+    "https://www.necroraw.com.ru/docs/campaigns/the-law-and-misrule-campaign/",
+    "https://www.necroraw.com.ru/docs/campaigns/the-uprising-campaign/",
+    "https://www.necroraw.com.ru/docs/campaigns/the-outlander-campaign/",
+    "https://www.necroraw.com.ru/docs/campaigns/the-ash-wastes-campaign/",
+    "https://www.necroraw.com.ru/docs/campaigns/the-succession-campaign/",
+    "https://www.necroraw.com.ru/docs/campaigns/underhells-campaign/",
+    "https://www.necroraw.com.ru/docs/campaigns/other-campaigns/",
+    "https://www.necroraw.com.ru/docs/category/arbitrator-tools"
+  ],
+  "site": "NecroRAW (necroraw.com.ru) — volunteer Docusaurus consolidation of published Necromunda rules across ~24 official Games Workshop books. robots: noindex, nofollow (firecrawl_map returns nothing; pages reached only by following links). NOT to be confused with the dead necroraw.ru (no .com), which now serves an unrelated adult link-farm.",
+  "publisher": "Games Workshop",
+  "authors_of_consolidation": "NecroRAW volunteer project (not GW-affiliated)",
+  "retrieved": "2026-08-22",
+  "sha256_source_md": "5141a5e9a764443c4b88e9531017f21a8e59ed53a596c60486520356ed872a9a",
+  "licence_note": "Rules text transcribed from copyrighted Games Workshop publications by the NecroRAW volunteer project for personal reference. Quoted here for analysis/critique under fair use; no whole rulebook reproduced. Third-party rulebook PDFs used for cross-check (book-of-the-outcast.pdf, book-of-judgement.pdf, core-rulebook.pdf, ash-wastes.pdf) are pre-staged in the sibling research/sources/necromunda/ folder (shared with a concurrent capture of Necromunda's core rules) and are gitignored — not committed.",
+  "is_designer_statement": false,
+  "cross_check": {
+    "verified_against": "research/sources/necromunda/book-of-the-outcast.pdf",
+    "verified_sha256": "b46dbc0dd09e663a0d94a96c71fbe74f7c6ae1becec97328bd1778f768cf3656",
+    "verified_pages": ["p67", "p68", "p83", "p85"],
+    "method": "PyMuPDF (fitz) get_text('text') on the exact page indices, diffed by eye against the NecroRAW markdown capture",
+    "result": "Verbatim match on every checked page — Settlement Locations table, Starting Structures rules, the three location-based Structure caps, and all 24 rows of the Supply/Building/Defence Structure tables.",
+    "library_master_paths": [
+      "G:\\My Drive\\Wargaming\\NECROMUNDA\\RULE BOOKS\\Necromunda - The Book of the Outcast.pdf",
+      "G:\\My Drive\\Wargaming\\NECROMUNDA\\RULE BOOKS\\Necromunda - Book of Judgement (2019).pdf",
+      "G:\\My Drive\\Wargaming\\NECROMUNDA\\RULE BOOKS\\Necromunda -  Ash Wastes - Rulebook [2022].pdf"
+    ],
+    "note": "Library masters already existed at these paths (Ross's pre-existing collection); not re-filed by this capture. Working copies at research/sources/necromunda/*.pdf were pre-staged by a concurrent session capturing Necromunda's core rules — this capture only reads them, does not own or duplicate them."
+  },
+  "scope": "Campaign systems only (territories, settlements/structures, alignment, rackets, intrigues, catch-up mechanisms, end conditions, official variants). Core rules (actions, shooting, injuries, XP, trading post) are out of scope — captured separately in Necromunda.md by a concurrent session.",
+  "depth": "primary (official rulebook text, quoted via a fan consolidation site; one section directly cross-checked page-for-page against the source PDF)"
+}

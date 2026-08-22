@@ -9,7 +9,7 @@ updated: 2026-08-21
 
 > **What this is.** A status map of the rulebook library on `G:\My Drive\Wargaming` against the notes in [[Wargaming Research Hub]]. It answers one question: **which games have we actually analysed, and which are still sitting unread?**
 >
-> **Library size:** 1,575 PDFs / 24.5 GB across 27 folders. **Hub state:** 29 sources, 193 mechanics.
+> **Library size:** 1,575 PDFs / 24.5 GB across 27 folders. **Hub state:** 32 sources, 235 mechanics.
 
 > [!warning] A note on file counts
 > The PDF count per folder is **not** a measure of how much is unread — most folders are mostly cards, tokens, scenario packs and duplicates, not rules. A folder of 141 files might hold three rulebooks. Treat the counts as *"how much is in there"*, not *"how much work is left"*.
@@ -38,6 +38,9 @@ updated: 2026-08-21
 | **Judge Dredd Miniatures Game** | `Judge dredd` | 77 | 1 | primary — Warlord 2020, 164pp | [[Judge Dredd Miniatures Game]] |
 | **Fistful of Lead** | `Fistful of Lead` | 1 | 1 | primary — full 62pp | [[Fistful of Lead]] |
 | **Mordheim** | `Mordheim` + mordheimer.net | 39 | 4 + wiki | primary — wiki cross-checked vs the 122pp Living Rulebook | [[Mordheim]] |
+| **Necromunda** *(core)* | `NECROMUNDA` + necroraw.com.ru | **167** | wiki + N23 epub + 1995 LRB | primary | [[Necromunda]] |
+| **Necromunda** *(8 campaigns)* | as above | — | wiki + Book of the Outcast | primary | [[Necromunda Campaigns]] |
+| **Necromunda** *(homebrew)* | `Campaigns and Homebrews` | 94 | 17 read | ⚠️ **COMMUNITY** — unofficial | [[Necromunda Homebrew Campaigns]] |
 | **Infinity** *(hacking/EW)* | — *(no drive PDF)* | — | — | official N5.2 wiki | [[Infinity]] |
 
 ---
@@ -47,7 +50,6 @@ updated: 2026-08-21
 
 | Game | Drive folder(s) | PDFs | Current note depth | Upgrade value |
 |---|---|:--:|---|---|
-| **Necromunda** | `NECROMUNDA` + `Necromunda (1)` | **148** | ⚠️ *published rules + community simulation* — **secondary** | ⭐⭐⭐ **Now the single biggest gap.** Mordheim is done; Necromunda is not. ⚠️ **Edition minefield** — 1995, Underhive 2017, N18, Ash Wastes, House books. **Pin one edition as the spine before reading anything.** |
 | **Frostgrave / Stargrave** | `Frostgrave` + `Stargrave` | 39 | primary (core books only) | ⭐⭐ Stargrave is sci-fi with a Hacker soldier type — feeds the tech layer. Supplements unread |
 | **BLKOUT** | `BLKOUT` | 17 | primary — but **one** file, read 2026-07, no capture on file | ⭐⭐ 16 unread files incl. Badlands + Impact expansions. Our stated battle-feel target |
 | **Rangers of Shadow Deep** | `RoSD` | 16 | primary (core only) | ⭐ Core already mined for [[Solo & Co-op]]; supplements likely thin |
@@ -101,12 +103,17 @@ These came from `docs/POINTS-RESEARCH.md` (a costing-focused secondary sweep) or
 ---
 ## 🎯 What I'd do next
 
-1. **Necromunda** — 148 files, now the largest remaining gap, and the last of the founding lineage. ⚠️ **Pin an edition first**: 1995 / Underhive 2017 / N18 / Ash Wastes are different games sharing a name, and blending them is exactly the failure mode that nearly bit us on Infinity.
-2. **`0200`** — 37pp, on the drive, detection-dense. Cheapest capture available; makes detection a three-source pattern with [[Spectre Operations]] and [[Fistful of Lead]].
-3. **Strontium Dog** (Warlord 2019) — sci-fi bounty hunters on the [[Judge Dredd Miniatures Game]] engine, already on the drive; the arrest/bounty thread is live.
-4. **Konflikt '47** — complete set, small, tech-tier relevant.
+**The founding lineage is now done.** Mordheim and Necromunda are both captured at primary depth, which was the largest gap in the library. What's left is smaller and more targeted.
 
-**To source:** **Scrappers** and **Skirmish Sangin** (top of [[Candidate Games]]) · Fallout **Campaign Handbook** + *Into The Vault* (both purchasable) · **Reality's Edge** (the cyberpunk gap) · Infinity N5 rulebook · Five Leagues core (Modiphius hardcover now exists) · **Black Ops**.
+1. **Finish the Necromunda core read** — Close Combat, Skills, Weapon Traits and Battlefield Set-Up were not fetched (three agents shared one firecrawl rate limit). Also outstanding: Aranthian Succession Parts 2–4 and the 2-player Underhells variant.
+2. **`0200`** — 37pp, on the drive, detection-dense. Cheapest capture left; makes detection a three-source pattern with [[Spectre Operations]] and [[Fistful of Lead]].
+3. **Strontium Dog** (Warlord 2019) — sci-fi bounty hunters on the [[Judge Dredd Miniatures Game]] engine, already on the drive.
+4. **Konflikt '47** — complete set, small, tech-tier relevant.
+5. **The other 77 homebrew PDFs** — only if a specific want justifies it. The 17 read produced a clear convergence signal (the Arbitrator role); diminishing returns are likely.
+
+**To source:** **Scrappers** and **Skirmish Sangin** (top of [[Candidate Games]]) · Fallout **Campaign Handbook** + *Into The Vault* · **Reality's Edge** (the cyberpunk gap) · Infinity N5 rulebook · Five Leagues core · **Black Ops**.
+
+**Now well-covered, stop looking:** settlement/base design (five sources), campaign snowball control (six), injury and advancement (three primary), neutral threats (four).
 
 ---
 *Regenerate the underlying scan with `research/captures/tech_scan.py`. See [[Wargaming Research Hub]] for the mechanics themselves.*

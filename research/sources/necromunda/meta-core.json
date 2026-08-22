@@ -1,0 +1,72 @@
+{
+  "_comment": "Metadata for the CORE RULES capture only (source-core.md). Named meta-core.json rather than meta.json to avoid a concurrent write collision with the sibling agent capturing Necromunda campaign systems into the same research/sources/necromunda/ directory at the same time. Merge into a single meta.json when convenient.",
+  "slug": "necromunda",
+  "scope": "core-rules",
+  "title": "Necromunda — Core Rules (N17/N23), via NecroRAW consolidation",
+  "primary_secondary_source": {
+    "name": "NecroRAW",
+    "url": "https://www.necroraw.com.ru",
+    "is_designer_statement": false,
+    "note": "Community project, not affiliated with Games Workshop (site footer). robots: noindex, nofollow — no sitemap crawl possible, pages reached by following child links from section roots only. States it transcribes 100% verbatim (RAW) rules, tagged RAW/RAI/OBS per page.",
+    "gotcha": "The old necroraw.ru domain (no .com) is dead and now a link-farm; only necroraw.com.ru is legitimate."
+  },
+  "pages_fetched": [
+    "https://www.necroraw.com.ru/docs/intro",
+    "https://www.necroraw.com.ru/docs/general-principles/conditions",
+    "https://www.necroraw.com.ru/docs/the-rules/game-structure/",
+    "https://www.necroraw.com.ru/docs/the-rules/game-structure/the-action-phase/shooting",
+    "https://www.necroraw.com.ru/docs/the-rules/game-structure/the-action-phase/resolve-hits",
+    "https://www.necroraw.com.ru/docs/the-rules/game-structure/the-action-phase/fighter-actions",
+    "https://www.necroraw.com.ru/docs/the-rules/gaining-experience",
+    "https://www.necroraw.com.ru/docs/the-rules/the-post-battle-sequence",
+    "https://www.necroraw.com.ru/docs/gangs",
+    "https://www.necroraw.com.ru/docs/founding-a-gang/",
+    "https://www.necroraw.com.ru/docs/founding-a-gang/gang-creation",
+    "https://www.necroraw.com.ru/docs/trading-post/",
+    "https://www.necroraw.com.ru/docs/publication-index/rules-index"
+  ],
+  "pages_not_yet_fetched_for_core": [
+    "https://www.necroraw.com.ru/docs/gang-fighters-and-their-weaponry/skills/",
+    "https://www.necroraw.com.ru/docs/gang-fighters-and-their-weaponry/weapon-traits",
+    "https://www.necroraw.com.ru/docs/battlefield-set-up/",
+    "https://www.necroraw.com.ru/docs/the-rules/game-structure/the-action-phase/close-combat",
+    "https://www.necroraw.com.ru/docs/the-rules/game-structure/vehicle-actions",
+    "https://www.necroraw.com.ru/docs/the-rules/game-structure/the-priority-phase",
+    "https://www.necroraw.com.ru/docs/the-rules/game-structure/the-end-phase/"
+  ],
+  "retrieved": "2026-08-22",
+  "capture_file": "research/sources/necromunda/source-core.md",
+  "capture_sha256": "36018dd260b94af4929f6344f927bb449b8e3648a02baddf5a1eff356b53ee42",
+  "cross_check_primary_sources": [
+    {
+      "label": "N23 Core Rulebook (Revised 2023) — the CORRECT N23 primary source",
+      "library_master_path": "G:\\My Drive\\Wargaming\\NECROMUNDA\\RULE BOOKS\\Necromunda Core Rulebook Revised 2023.epub",
+      "sha256": "6cd8a5dec98a4b9132cbc8f4ac6fc6d7ff9f0bb33edfe60ae5ce51d770ecbc6c",
+      "size_bytes": 139359176,
+      "format_note": "EPUB, not PDF. fitz.get_text() on rendered epub pages is badly truncated (multi-column CSS reflow artifact) — do not trust it. Unzipping as a plain zip archive and stripping the embedded XHTML tags directly gives clean complete text. Internal filenames encode print-page ranges, e.g. 142-163_NM_Core_Rulebook_23_EPUB-8.xhtml covers print pages 142-163.",
+      "verified_sections": [
+        "Lasting Injury Table (print pp.126-127) — word-for-word match to NecroRAW",
+        "Advancement table + escalation rule (print pp.149-150) — word-for-word match to NecroRAW, all XP costs and credit increases confirmed",
+        "Gang Rating vs Wealth definitions (print p.92) — confirmed, more precise than the NecroRAW summary alone"
+      ]
+    },
+    {
+      "label": "1995 Necromunda Living Rulebook — MISLABELED as core-rulebook.pdf in this directory",
+      "working_copy_path": "research/sources/necromunda/core-rulebook.pdf",
+      "sha256": "719c2c8678fb928980f7f30035cfe3d8fc608674890559b6efba81a06d6dea7b",
+      "pages": 120,
+      "correction_note": "This file is NOT the N23 Core Rulebook the filename implies. fitz metadata: title 'NECROLRB', creator 'QuarkXPress: LaserWriter 8', creationDate 2005-12-12 (Living Rulebook PDF-conversion date, content is the 1995 original). Page 1 text: 'Living Rulebook edition compiled by Andy Hall'. Kept deliberately as the 1995 primary-source data point for the injury-table and gang-rating lineage comparison (see Necromunda.md).",
+      "verified_sections": [
+        "Serious Injuries D66 table (pp.83-85) — the direct 1995 ancestor of N23's Lasting Injuries table",
+        "THE GANG RATING / ADJUSTING THE GANG RATING (pp.83, 99-100) — 'value not included in the gang rating' for unassigned/hoarded equipment, stated three times (general rule + two item-specific examples for Screamers/Stummers)"
+      ]
+    }
+  ],
+  "other_staged_pdfs_not_used_for_core": [
+    "research/sources/necromunda/book-of-judgement.pdf",
+    "research/sources/necromunda/book-of-the-outcast.pdf",
+    "research/sources/necromunda/ash-wastes.pdf"
+  ],
+  "licence_note": "NecroRAW explicitly omits GW lore/artwork and states it exists to encourage buying the official books. Quoted here for analysis/citation only, per this vault's standing copyright policy — no rulebook PDF or full page transcription is committed to the repo.",
+  "is_designer_statement": false
+}
