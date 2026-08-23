@@ -37,13 +37,18 @@ The acceptance of other forms of sentient life beyond planet Earth sparked a glo
 
 Extraterrestrial, inter-dimensional, intraterrestrial, temporal, metaphysical, paranormal, celestial, infernal, we threw caution to the wind and shouted into the abyss without a worry...and then the abyss shouted back.
 
-It began as a whisper shared amongst the planets elite. Inter-dimensional portals were opening in top secret 
+It began as a whisper shared amongst the planets elite. Deep within top secret bunkers spread through out the united states scientists had made contact. Soon inter-dimensional portals, gateways to other realities, were rumored to exist across the country. Before long they were appearing everywhere. 
 
 
 
 The year is 2050, in the aftermath of a global alien invasion the majority of planet Earth has been reduced to rubble. 
 
 For nearly a decade the citizens of Earth were forced to fight for their survival against a race of intergalactic locusts who spread across the planet devouring all living matter. 
+
+-----------------------------
+**SETTLEMENTS NARRATIVE**
+
+Settlements takes place in 2050 in an alternate history planet Earth. In the year 2027 the Earth made contact with a sentient otherworldly 
 ## Rule ledger
 _none_
 
