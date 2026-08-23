@@ -39,7 +39,9 @@ Unlike the space race which primarily involved two nations the push for first co
 
 A period of massive scientific growth consumes the planet. Trillions of dollars are poured into research and development resulting in the creation of new inventions and advanced technologies across all sectors. Communications, utilities, manufacturing, transportation, weaponry, medicines, computers, and AI are all impacted by the race for first contact changing the daily lives for the planets citizens. 
 
-A growing group of the planets wealthiest 1%They call themselves "The Vanguard" and their mission is focused on the development of a global military, advanced weapondry, and defensive systems 
+A growing group of the planets wealthiest 1% begin preparing the planet for what they believe will be a great war between civilizations uniting mankind once and for all to defeat the hostile invaders that inevitably answer our calls for contact. They call themselves "The Vanguard" and their mission is focused on the development of a global military, advanced weaponry, and defensive systems. They fervently preach a sudo-religious sermon, praying for first contact so that humanity can cast off our differences and embrace each other as brothers in arms and a unified people fighting for survival against the evil invaders. A sizeable percentage of first contact funding comes from the highest members of the vanguard.
+
+Ironically it appears that "The Vanguard" fulfilled it's own prophecy when it began to detonate several antimatter bombs in space,
 
 Extraterrestrial, inter-dimensional, intraterrestrial, temporal, metaphysical, paranormal, celestial, infernal, we threw caution to the wind and shouted into the abyss without a worry...and then the abyss shouted back.
 
