@@ -37,7 +37,7 @@ The acceptance of other forms of sentient life beyond planet Earth sparked a glo
 
 Extraterrestrial, inter-dimensional, intraterrestrial, temporal, metaphysical, paranormal, celestial, infernal, we threw caution to the wind and shouted into the abyss without a worry...and then the abyss shouted back.
 
-It began as a whisper shared amongst the planets elite. A bunker deep within the 
+It began as a whisper shared amongst the planets elite. Inter-dimensional portals were opening in top secret 
 
 
 
