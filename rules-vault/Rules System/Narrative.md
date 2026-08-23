@@ -29,7 +29,13 @@ The Rules column should nail down:
 
 2050 - Planet Earth - Post - Invasion conflict - A New Dawn
 
-The year is 2027, life on planet Earth is very much like it is today. The churn of civilization continues as it has for millennia pushing ever forward it spreads at a steady pace across the continents. Wars, global warming,  
+The year is 2027, life on planet Earth is very much like it is today. The churn of civilization continues as it has for millennia pushing ever forward it spreads at a steady pace across the continents. Wars, global warming, natural disasters, diseases, pose a looming threat but ultimately fail to slow the planet's growing population as new technology and advancements in AI create new short cuts for humanity to travel into the future. 
+
+But then one day everything changed...
+
+The rise of the internet and the integration of camera phones into our daily lives resulted in an increase of interest in UAP activities. Across the planet footage of unidentified aircraft performing Governments around the planet struggled to contain the existence of extraterrestrial or unidentified 
+
+Then one day
 
 The year is 2050, in the aftermath of a global alien invasion the majority of planet Earth has been reduced to rubble. 
 
