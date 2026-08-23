@@ -11,6 +11,18 @@ tags: [settlements/inbox]
 ---
 ## 🧠 Unsorted (type freely here)
 
+**WE SHOULD GIVE THE RANKS EQUIPMENT SLOTS**
+Leader = 3 slots
+Specialist = 3 slots
+fighter = 2 slots
+recruit = 1 slot
+
+**STARTING FACTIONS**
+
+Each player chooses a starting faction during the founding of their settlement/crew.
+
+Each faction offers the player some free starting equipment and then discounts on 
+
 #### BIG RULES UPDATE - POST GLOBAL POINTS SYSTEM DRAFT
 
 I want to use this section to basically try to describe the type of game I want settlers to be, the type of combsat I want players to experience, the world I want them to explore and inhabit. These ideas are not facts or auto includes. They are just my thoughts on how ideally want the Settlements game to come together and be played. 
