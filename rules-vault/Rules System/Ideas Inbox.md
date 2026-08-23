@@ -21,7 +21,19 @@ recruit = 1 slot
 
 Each player chooses a starting faction during the founding of their settlement/crew.
 
-Each faction offers the player some free starting equipment and then discounts on 
+Each faction offers the player some free starting equipment and then persistent discounts on specific types of equipment relating to the faction themeatically. 
+
+*FACTION LIST*
+
+The Veterans - Ex-military who fought on the frontlines during the invasion. Shooting focused, discounts on gun related mods/crafting pieces. Nerf to their nerve due to PTSD from the war.
+
+FIRST RESPONDERS - Ex-police, firefighters, EMTs, paramedics, etc. The jack of all trades faction. 
+
+THE WATCH - Neighborhood watch, civilians from the suburbs, the "swarm" faction. Lots of cheap bodies.
+
+The Union - Union workers from factories, mines, dockyards, railroads, etc. The +STR melee faction with a focus on free melee starting equipment and persistent discounts on melee weapons. 
+
+
 
 #### BIG RULES UPDATE - POST GLOBAL POINTS SYSTEM DRAFT
 
