@@ -35,7 +35,7 @@ The Union - Union workers from factories, mines, dockyards, railroads, etc. The 
 
 The Syndicate - A fragile union of the regions most notorious criminals and outlaws. Gang members, mafia, Yakuza, Triad, bikers, all working together to take control of the region. They don't get any free equipment or big discounts on a specific equipment group instead they get a smaller discount across all the market categories. 
 
-The
+The Wyrm - Techno cultists, hackers, and bio-tech enhanced fighters. They specialize in hacking and INT. Get free terminal hacking related mods/conhsumables and discounts on hackign related equipment.
 
 
 
