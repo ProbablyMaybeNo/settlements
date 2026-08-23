@@ -27,11 +27,15 @@ Each faction offers the player some free starting equipment and then persistent 
 
 The Veterans - Ex-military who fought on the frontlines during the invasion. Shooting focused, discounts on gun related mods/crafting pieces. Nerf to their nerve due to PTSD from the war.
 
-FIRST RESPONDERS - Ex-police, firefighters, EMTs, paramedics, etc. The jack of all trades faction. 
+The First Responders - Ex-police, firefighters, EMTs, paramedics, etc. The jack of all trades faction. 
 
-THE WATCH - Neighborhood watch, civilians from the suburbs, the "swarm" faction. Lots of cheap bodies.
+The Watch - Neighborhood watch, civilians from the suburbs, the "swarm" faction. Lots of cheap bodies.
 
 The Union - Union workers from factories, mines, dockyards, railroads, etc. The +STR melee faction with a focus on free melee starting equipment and persistent discounts on melee weapons. 
+
+The Syndicate - A fragile union of the regions most notorious criminals and outlaws. Gang members, mafia, Yakuza, Triad, bikers, all working together to take control of the region. They don't get any free equipment or big discounts on a specific equipment group instead they get a smaller discount across all the market categories. 
+
+The
 
 
 
