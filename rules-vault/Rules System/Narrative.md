@@ -31,11 +31,9 @@ The Rules column should nail down:
 
 The year is 2027, life on planet Earth is very much like it is today. The churn of civilization continues as it has for millennia pushing ever forward it spreads at a steady pace across the continents. Wars, global warming, natural disasters, diseases, pose a looming threat but ultimately fail to slow the planet's growing population as new technology and advancements in AI create new short cuts for humanity to travel into the future. 
 
-But then one day everything changed...
+The rise of the internet and the integration of camera phones into our daily lives resulted in an increase of interest in UAP activities. Across the planet footage of highly advanced otherworldly aircraft performing impossible maneuvers was captured and verified by the planets militaries and government officials. In the US congressional hearings all but confirmed the existence of "non-human biologics" and the great efforts that the government had gone to and ultimately failed to cover up. Then a leaked video depicting recent interactions between a team of the worlds greatest scientists and sentient in-human life forms spread like wild fire across the internet. The government tried to label the footage as "fake news" or "deep fake" but it was too late...the secret was no more. We were not a lone. 
 
-The rise of the internet and the integration of camera phones into our daily lives resulted in an increase of interest in UAP activities. Across the planet footage of unidentified aircraft performing Governments around the planet struggled to contain the existence of extraterrestrial or unidentified 
-
-Then one day
+The acceptance of life beyond planet Earth sparked a global race to contact. Unlike the space race which primarily involved two nations the push for first contact involved a large number of the planets nations, rich or poor, large or small, it did not matter 
 
 The year is 2050, in the aftermath of a global alien invasion the majority of planet Earth has been reduced to rubble. 
 
