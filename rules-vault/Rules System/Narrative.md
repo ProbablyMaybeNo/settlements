@@ -37,7 +37,9 @@ A leaked video depicting recent interactions between a team of the worlds greate
 
 Unlike the space race which primarily involved two nations the push for first contact involves a large number of the nations, rich or poor, large or small, it did not matter. Some took an isolationist approach while others joined together forming international entities. Our search for life outside our own quickly became an  obsession, one that played out in top secret laboratories, government bunkers, and deep sea facilities. Where the planets greatest minds worked tirelessly to test their latest theories in a desperate attempt to contact sentient life outside of Planet Earth.
 
-A period of massive technological and scientific growth consumes the planet. Breath taking advancements across all sectors result in the invention of post-modern communications,
+A period of massive scientific growth consumes the planet. Trillions of dollars are poured into research and development resulting in the creation of new inventions and advanced technologies across all sectors. Communications, utilities, manufacturing, transportation, weaponry, medicines, computers, and AI are all impacted by the race for first contact changing the daily lives for the planets citizens. 
+
+A growing group of the planets wealthiest 1%They call themselves "The Vanguard" and their mission is focused on the development of a global military, advanced weapondry, and defensive systems 
 
 Extraterrestrial, inter-dimensional, intraterrestrial, temporal, metaphysical, paranormal, celestial, infernal, we threw caution to the wind and shouted into the abyss without a worry...and then the abyss shouted back.
 
