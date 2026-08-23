@@ -35,7 +35,7 @@ The rise of the internet and the integration of camera phones into our daily liv
 
 The acceptance of other forms of sentient life beyond planet Earth sparked a global race to contact. Unlike the space race which primarily involved two nations the push for first contact involved a large number of the planets nations, rich or poor, large or small, it did not matter. Some took an isolationist approach while others joined together forming international entities. In top secret laboratories, government bunkers, and deep sea facilities the planets greatest minds were hard at work testing their latest attempt at otherworldly contact. 
 
-Extraterrestrial, inter-dimensional, extraterrestrial, temporal, metaphysical, paranormal, 
+Extraterrestrial, inter-dimensional, intraterrestrial, temporal, metaphysical, paranormal, celestial, even infernal we tried everything we could think of recklessly shouting into the abyss with no worry about what might shout back
 
 The year is 2050, in the aftermath of a global alien invasion the majority of planet Earth has been reduced to rubble. 
 
