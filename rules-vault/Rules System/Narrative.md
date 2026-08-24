@@ -45,7 +45,7 @@ Ironically "The Vanguard" fulfilled it's own prophecy when it began a series of 
 
 In 2040, on the eve of The Vanguards 3rd antimatter bo0mb test first contact was made. Scientists living aboard a Vanguard space station were visited by an embassy of sentient life forms. Very little is known about the specifics of this meeting however due to intercepted documents being sent from the space station back to the Vanguard HQ on planet Earth we know that a warning was given about continuing the testing of the antimatter bombs and that there would be a immediate and swift retribution if the tests were not stopped immediately. 
 
-The Vanguard ignored the convoys warning and on January 8th 2040 the third and largest antimatter bomb was tested in space. 
+The Vanguard ignored the convoys warning and on January 8th 2040 the third and largest antimatter bomb was tested in space. Three days later an invasion force of epic proportions materialized just beyond Earths atmosphere. A massive fleet of hi
 
 Extraterrestrial, inter-dimensional, intraterrestrial, temporal, metaphysical, paranormal, celestial, infernal, we threw caution to the wind and shouted into the abyss without a worry...and then the abyss shouted back.
 
