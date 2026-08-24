@@ -49,17 +49,11 @@ The Vanguard ignored the convoys warning and on January 8th 2040 the third and l
 
 The beings sent a message to the citizens of planet earth which played through every radio, speaker, television, across the planet. In a robotic, unnatural voice, a final warning was given. Cease testing of antimatter bombs in  space or face the consequences. The baffled citizens and leaders of planet Earth had no idea what the aliens were ref3erencing as The Vanguard had kept their tests a secret. Either way it was not important because before mankind began to create a global response The Vanguard acted. 
 
-Across the planet the citizens of planet Earth watched in silence as thousands of rockets cut thin black lines through the sky before disappearing for a moment before reappearing as a magnificent bloom of vibrant colors tearing holes in the alien ships which suddenly began to break from their barrier formation
+Across the planet the citizens of planet Earth watched in silence as thousands of rockets cut thin black lines through the sky before disappearing for a moment before reappearing as a magnificent bloom of vibrant colors tearing holes in the alien ships which suddenly began to break from their barrier formation slowly tipping toward the planet they entered the Earths atmosphere engulfed in violently colors flames, neon greens, pinks, and oranges. Before tyhe citizens knew what was even happening huge black clouds rose up from the Earth forming a shape shifting spear as they reached up iunto the sky. Trillions of tiny drones pwoered by antimatter spreading out across the globe creating a barrier around the entire planet. 
 
-Extraterrestrial, inter-dimensional, intraterrestrial, temporal, metaphysical, paranormal, celestial, infernal, we threw caution to the wind and shouted into the abyss without a worry...and then the abyss shouted back.
-
-It began as a whisper shared amongst the planets elite. Deep within top secret bunkers spread through out the united states scientists had made contact. Soon inter-dimensional portals, gateways to other realities, were rumored to exist across the country. Before long they were appearing everywhere. 
+The aliens reacted first with a bombardment of powerful blasts of energy each tearing a hole in the planmets barrier which was quickly filled in with more drones. Next the aliens launched a wave of ships which pierced through the barrier before losing power and starting to fall toward earth. The face of the planet was littered with the smoldering husks of alien vessels. Earth citizens were snapped oput of their stunned trance as sirens sounded across the globe followed by orders from their governing bodies to report immediately to their local HQ. The messages ended with a warning, "This is not a drill, planet earth is underattack." The last war had begun. 
 
 
-
-The year is 2050, in the aftermath of a global alien invasion the majority of planet Earth has been reduced to rubble. 
-
-For nearly a decade the citizens of Earth were forced to fight for their survival against a race of intergalactic locusts who spread across the planet devouring all living matter. 
 
 -----------------------------
 **SETTLEMENTS NARRATIVE**
