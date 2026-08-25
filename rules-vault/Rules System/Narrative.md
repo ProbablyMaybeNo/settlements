@@ -28,7 +28,11 @@ The Rules column should nail down:
 
 ### CURRENT DRAFT 
 
-2027 - 
+2027 - The United States begins a top secret weapons program titled Tiamat. The first antimatter bomb is exploded in space.
+
+2028 - Increased UAP activity and sightings around the planet. Largest increase reported in the US especially around military installations and test sites. 
+
+2029 - Second Antimatter bomb detonated in space.
 
 
 **OLD DRAFT**
