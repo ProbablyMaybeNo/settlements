@@ -26,6 +26,20 @@ The Rules column should nail down:
 
 ## Working rules / decisions
 
+OUTLINE/BASICS
+
+In the year 2024 the United States started a project to develop the most powerful bomb known to man. They named the project Tiamat.
+
+in  2027 the first test for project Tiamat was conducted. A newly developed antimatter bomb was detonated in space. At thousands of times more powerful than a nuclear explosion.
+
+In 2030 after several more antimatter bomb tests planet Earth made first contact with an alien race. A UAP containing a human sized monolith entered Earths atmosphere and crashed into the mojave desert.
+
+The monolith was covered in hieroglyphic like images and did not relate to any know language from our present to our past. 
+
+2032 Through the use of AI a group of scientists successfully decifered the message inscribed into the surface of the monolith. It was a warning 
+
+
+
 ### CURRENT DRAFT 
 
 2027 - The United States begins a top secret weapons program titled Project Tiamat. The first test antimatter bomb is exploded in space.
