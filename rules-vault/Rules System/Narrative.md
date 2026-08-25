@@ -26,7 +26,11 @@ The Rules column should nail down:
 
 ## Working rules / decisions
 
+### CURRENT DRAFT 
 
+
+
+**OLD DRAFT**
 2050 - Planet Earth - Post - Invasion conflict - A New Dawn
 
 The year is 2027, life on planet Earth is very much like it is today. The churn of civilization continues as it has for millennia pushing ever forward with increasing speed it spreads at a steady pace across the continents. Wars, global warming, natural disasters, diseases, continue to pose a looming threat but ultimately fail to slow the planet's growing population. New technology and massive advancements in AI open new passages for humanity to travel into the future.
