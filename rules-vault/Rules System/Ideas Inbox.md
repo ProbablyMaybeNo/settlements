@@ -11,8 +11,10 @@ tags: [settlements/inbox]
 ---
 ## 🧠 Unsorted (type freely here)
 
+**Should ranks have
+
 **WE SHOULD GIVE THE RANKS EQUIPMENT SLOTS**
-Leader = 3 slots
+Leader = 4 slots
 Specialist = 3 slots
 fighter = 2 slots
 recruit = 1 slot

@@ -26,6 +26,12 @@ The Rules column should nail down:
 
 ## Working rules / decisions
 
+"==He who fights with monsters might take care lest he thereby become a monster==. And if you gaze long into an abyss, the abyss also gazes into you.
+
+Friedrich Nietzsche
+
+In Settlements players will build and grow their own settlement and crew. 
+
 OUTLINE/BASICS
 
 In the year 2024 the United States started a project to develop the most powerful bomb known to man. They named the project Tiamat.
