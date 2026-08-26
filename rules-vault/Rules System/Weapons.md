@@ -95,12 +95,12 @@ Damage feeds the **Injury roll** — `1d10 + Damage − Armor` vs **7+** ([[Dama
 ### Rank gates the class
 The hard lock that makes the ladder in [[List Building]] real — **a Recruit cannot hold a rifle.**
 
-| Rank | May carry |
-|---|---|
-| **Recruit** | Unarmed · Light Melee · Sidearm · Thrown |
-| **Fighter** | + One-Handed Melee · Standard Ranged |
-| **Specialist** | + Heavy Melee · Heavy Ranged |
-| **Leader** | everything |
+| Rank           | May carry                                |
+| -------------- | ---------------------------------------- |
+| **Recruit**    | Unarmed · Light Melee · Sidearm · Thrown |
+| **Fighter**    | + One-Handed Melee · Standard Ranged     |
+| **Specialist** | + Heavy Melee · Heavy Ranged             |
+| **Leader**     | everything                               |
 
 ^tbl-rank-gates-the-class
 
