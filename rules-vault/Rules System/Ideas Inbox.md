@@ -13,9 +13,11 @@ tags: [settlements/inbox]
 
 **GENERAL NOTES
 
+*VAULT* We can remove this, unnecessary. 
+
 *Aerial Attack* A unit is 3" or more above an enemy. They activate and want to charge the target below them. The charging unit determines how far away the target is from the active unit. The player measures this distance horizontally. Downward movements are never counted toward a units movement. If the target is 3" or more below the active unit and within 3" or less of the closest ledge the active unit may declare an aerial attack. They roll their charge as normal and if they equal or surpass the horisontal difference the aerial attack occurs. 
 
-**AERIAL ATTACK** - Are tested using the units AGI stat not STR. The attacking unit gets +2 to DMG. Aerial attacks cannot be reacted to by the opponent. The sudden 
+**AERIAL ATTACK** - Are tested using the units AGI stat not STR. The attacking unit gets +2 to DMG. Aerial attacks cannot be reacted to by the opponent. The sudden appearance of the enemy diving down toward their target does not allow the target enough time to react. If the target survives the aerial attack and is not pinned or down they may have a chance to react or attack back. If the attacking unit fails to hit they become pinned and should be placed prone within 1" of the target. +2 stress.
 
 *Height Advantage* In order to promote the use of multi-story terrain units should get a bonus when shooting down on a target who is at least 3" below the shooter. 
 
