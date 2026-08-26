@@ -11,6 +11,12 @@ tags: [settlements/inbox]
 ---
 ## 🧠 Unsorted (type freely here)
 
+**GENERAL NOTES
+
+Orders - Currently an order can give a unit an additional action or reaction...
+
+The way I was thinbking about it orders could be used to give a uni
+
 **VEHICLES
 
 We should allow players to interact with vehicles that are deployed on the board, abandoned cars, morotcycles, law mowers, horses, etc, depending on the "vehicle" the player must pass a skill test while in base 2 base with the vehicle. If the player succeeds in their roll they manage to hotwire/activate the vehicle and can use it to manuever around the board, crash into opponents, etc. A vehicles "lifespan" is determined when the unit tests their skill. For each point above the target number (7+) the vehicle can be used for an additional turn.
