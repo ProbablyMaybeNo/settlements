@@ -13,6 +13,12 @@ tags: [settlements/inbox]
 
 **GENERAL NOTES
 
+*ARMOR* we could make armor a bit more fun  by including sets that stopped various conditions like "fireproof" can't be lit on fire, "hazmat" ignores poison
+
+*SLOW* It shouldn't be that you can't charge with the weapon instead maybe it's that you attack last even if you charge. The weapon would have to have a lot of damage or conditions if it's slow. 
+
+*RANK GATING WEAPON TYPE* I don't love this...
+
 *VAULT* We can remove this, unnecessary. 
 
 *Aerial Attack* A unit is 3" or more above an enemy. They activate and want to charge the target below them. The charging unit determines how far away the target is from the active unit. The player measures this distance horizontally. Downward movements are never counted toward a units movement. If the target is 3" or more below the active unit and within 3" or less of the closest ledge the active unit may declare an aerial attack. They roll their charge as normal and if they equal or surpass the horisontal difference the aerial attack occurs. 
