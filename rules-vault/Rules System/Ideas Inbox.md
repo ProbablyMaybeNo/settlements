@@ -13,7 +13,13 @@ tags: [settlements/inbox]
 
 **GENERAL NOTES
 
-Orders - Currently an order can give a unit an additional action or reaction...
+*Height Advantage* In order to promote the use of multi-story terrain units should get a bonus when shooting down on a target who is at least 3" below the shooter. 
+
+The shooter ignores 1 level of cover.
+
+EXAMPLE: A unit choose a shoot action and targets an enemy in heavy cover 4"
+
+*Orders* Currently an order can give a unit an additional action or reaction...
 
 The way I was thinking about it orders could be used to give a unit a reaction not a regular action. Meaning even if a unit had sprinted in their activation a specialist or leader could give them an order which basically "readies" them to shoot an overwatch shot if someone triggers the unit. The order wouldn't allow a unit who has already gone to go again only react. 
 
