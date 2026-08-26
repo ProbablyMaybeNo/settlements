@@ -15,7 +15,7 @@ tags: [settlements/inbox]
 
 Orders - Currently an order can give a unit an additional action or reaction...
 
-The way I was thinbking about it orders could be used to give a uni
+The way I was thinking about it orders could be used to give a unit a reaction not a regular action. Meaning even if a unit had sprinted in their activation a specialist or leader could give them an order which basically "readies" them to shoot an overwatch shot if someone triggers the unit. The order wouldn't allow a unit who has already gone to go again only react. 
 
 **VEHICLES
 
