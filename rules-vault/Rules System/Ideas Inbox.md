@@ -11,7 +11,13 @@ tags: [settlements/inbox]
 ---
 ## 🧠 Unsorted (type freely here)
 
-**Should ranks have
+**VEHICLES
+
+We should allow players to interact with vehicles that are deployed on the board, abandoned cars, morotcycles, law mowers, horses, etc, depending on the "vehicle" the player must pass a skill test while in base 2 base with the vehicle. If the player succeeds in their roll they manage to hotwire/activate the vehicle and can use it to manuever around the board, crash into opponents, etc. A vehicles "lifespan" is determined when the unit tests their skill. For each point above the target number (7+) the vehicle can be used for an additional turn.
+
+For example, a unit must test their INT to hotwire a car. They roll a d10 + their INT and get a 10. 10 is 3 points more than the target number  of 7 so the vehicle will be active for 3 turns. 
+
+If a player is shot at while inside a vehicle they are treated as if they are in heavy cover. However if a vehicle is hit the target player must also test their nerve to maintain control of the vehicle. If they fail their nerve test they loose control and the vehicle travels d10 in a random direction. If the vehicle hits anything other than another unit while out of control the unit inside the vehicle is placed on the ground next to the vehicles door and is pinned/stunned. 
 
 **WE SHOULD GIVE THE RANKS EQUIPMENT SLOTS**
 Leader = 4 slots
