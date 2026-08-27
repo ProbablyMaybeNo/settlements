@@ -102,17 +102,17 @@ A rank grants **more stat points than a unit can spike into one stat** — **tie
 
 | Rank | Stat pts | Tier caps (per stat line) | Skills* | Orders | Credits |
 |---|:---:|---|:---:|:---:|:---:|
-| **Recruit** | **3** | none — no tiered stats | **0** | 0 | 65 |
-| **Fighter** | **5** | up to **2× T1** | ~2 | 0 | 95 |
-| **Specialist** | **7** | **1× T2 · 2× T1** | ~3 | 1 | 165 |
-| **Leader** | **9** | **1× T3 · 2× T2 · 4× T1** | ~4 | 2 | 245 |
+| **Recruit** | **3** | none — no tiered stats | **0** | 0 | **70** |
+| **Fighter** | **5** | up to **2× T1** | ~2 | 0 | **100** |
+| **Specialist** | **7** | **1× T2 · 2× T1** | ~3 | 1 | **145** |
+| **Leader** | **9** | **1× T3 · 2× T2 · 4× T1** | ~4 | 2 | **185** |
 
 ^tbl-ranks-build-budget
 
 <small>*Skills are derived from the stat line — see [[Skill Paths]]. **Counts are exact, not approximate: one skill per tier a stat reaches.** The table value is the maximum, reached only when every point lands in tiered stats — a fighter who spreads into +1 "dabbles" trades skills for breadth. Costs live in [[List Building]] · [[Full Rules System v1]] §16.</small>
 
 > [!info] Starting skills depend on the **format**, not the rank alone
-> The table above is **Match Play** — a crew built for one game with no campaign attached, so it gets the richer kit. A **Campaign Start** crew is meant to *grow* through the Level track ([[Progression]]) and begins with **exactly one skill each, at the rank's own tier**: Recruit none · Fighter 1× T1 · Specialist 1× T2 · Leader 1× T3, at **65 / 75 / 125 / 170** against a 425 Crew Rating cap. Stat points, tier caps and Orders are identical in both. Full tables in [[List Building#The four ranks — two starting tiers]].
+> The table above is **Match Play** — a crew built for one game with no campaign attached, so it gets the richer kit. A **Campaign Start** crew is meant to *grow* through the Level track ([[Progression]]) and begins with **exactly one skill each, at the rank's own tier**: Recruit none · Fighter 1× T1 · Specialist 1× T2 · Leader 1× T3, against a **425** Crew Rating cap. **Body costs are identical in both tiers** — 70 / 100 / 145 / 185 — and the separate Campaign-Start ladder is retired; the tiers differ only in the **cap** and the **starting skill count**. Stat points, tier caps and Orders are identical in both. Full tables in [[List Building#The four ranks — two starting tiers]].
 
 - **Tiers:** a path-stat at **+2 = Tier 1**, **+4 = Tier 2**, **+6 = Tier 3**. **+1 is a "dabble"** — capable, but not a tier (no skill). Max stat **+6**.
 - **The tier caps are the ceiling** — they set how many stats a rank may push to each tier, so points *must* spread. A Fighter (5 pts, max 2× T1) builds e.g. `STR+2 / INT+2 / AGI+1` — a brawler who can also hack. Only a **Leader** ever gets a **T3** (a +6 elite stat) — its signature.
@@ -125,8 +125,12 @@ A rank grants **more stat points than a unit can spike into one stat** — **tie
 > [!info] The rank price **is** the stat price
 > Buying a rank buys its stat points and its skills. That's why [[List Building]] never charges you separately for stats — it would be double-counting. Rank is a *bundle*.
 
-> [!warning] Costs are provisional — a re-cost is owed
-> The ladder is on the **1000-Credit scale** as of 2026-08-05; the old **5 / 8 / 16 / 24** numbers are retired. The Credits figures are still inherited rather than measured — `TICK_STAT` (15/stat point) and the Order premium (0/0/40/90) in `test-bench/points/ticks.py` are hand-set legacy values, unlike the weapon and condition atoms beside them, which are measured. The [[Crew Sim — Findings|sim]] shows the richer stat lines run meaningfully stronger. Locked to *play-test the structure*, not the final numbers.
+> [!check] Bodies are now **derived from the measured stat ladder** — 2026-08-19, rescaled 2026-08-20
+> The flat 15-per-stat-point is gone. Bodies compute as `body base + stat ladder + Orders premium`, on the **850-Credit** scale, and the measured ladder is **non-flat and stat-dependent**: a one-sided stat (DEX/INT/NRV) is tested against a fixed TN and **saturates** (20/15/15/10/10/5 across the six rungs), while an opposed stat (STR/AGI) cannot saturate and measures **flat at 15**. The old flat rate was wrong in *both* directions.
+>
+> **Validated end-to-end**: at equal Crew Rating the win-rate spread across four archetypes tightened from **31–70%** to **41–61%** (`catalogue-validation-n1500`). Re-deriving bodies halved the spread.
+>
+> **The weakest number left here is the Orders premium** (0 / 20 / 45) — never measured as an Order on any engine, and with no measured neighbour close enough to derive from. Tolerable only because Orders are **rank-gated and never sold à la carte**, so a list-builder cannot arbitrage them.
 
 - Role labels (Brawler, Techie, Medic…) are **emergent** — a role is what a unit is *good at*, never a rank.
 

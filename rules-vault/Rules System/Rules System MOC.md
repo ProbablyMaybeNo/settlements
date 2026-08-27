@@ -28,7 +28,7 @@ Visual, editable map of the whole rules system, ported from the Notion **Build R
 
 ✅ Core dice locked in draft. Lethality first pass drafted in [[Damage]] — final **Lock** after playtest.
 
-✅ **[[List Building]] + [[Weapons]] drafted and sim-validated** (2026-07-13). Eight archetypes sit within an **11-point spread** — on a legal 9–12-feature board. See [[Crew Sim — Findings]]. *(Validated on the retired 100-point scale; everything is on the **1000-Credit** scale as of 2026-08-05, with separate **Match Play** and **Campaign Start** starting tiers.)*
+✅ **[[List Building]] + [[Weapons]] drafted and sim-validated** (2026-07-13). Eight archetypes sit within an **11-point spread** — on a legal 9–12-feature board. See [[Crew Sim — Findings]]. *(Validated on the retired 100-point scale. Everything is now on the **850-Credit** scale — bodies re-derived from the measured stat ladder 2026-08-19, scale rebased 2026-08-20, propagated to every note 2026-08-27. **Match Play 850 · Campaign Start 425**, one body ladder, differing only in cap and starting skill count.)*
 
 ## Stages
 ### S1 Foundation

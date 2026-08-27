@@ -55,7 +55,10 @@ The Rules column should nail down:
 > - **The signature-rule lever from the 2026-07-23 note still applies:** one strong, playstyle-defining rule per faction, modelled on how BLKOUT's **Force Rules** each encode a single identity (aggro / attrition / gunline / cyber) — see `docs/BLKOUT-RULES-ANALYSIS.md` §19, steal #4. The six rules above are conditional nudges; check at the table whether each one is actually *identity-defining* or merely *flavourful*.
 
 ### WIP faction list — the original setting voice
-*Kept verbatim. Superseded as a roster by the table above; the **flat stat bonuses and nerfs** below are explicitly ruled out by the framework.*
+> [!danger] **Not rules. Naming and tone input only.**
+> Kept verbatim for the setting voice. **Superseded as a roster** by the framework table above, and **every flat stat bonus and nerf below is explicitly forbidden** by that framework — no faction may grant a flat stat modifier, a matched drawback, or an exclusive unlock. Read this for the *names* and the *flavour*, never for a mechanic.
+>
+> A newer faction list also exists in [[Ideas Inbox]] — **The Veterans · The First Responders · The Watch · The Union · The Syndicate · The Wyrm** — carrying more setting voice than either list here, and built around *free starting equipment plus persistent category discounts* rather than battlefield rules. **The names are still open and this is the strongest candidate set.**
 
 1. Civilians - Jack of all trade master of none, a crew made up of your average soccer moms and little league coach dads.
    

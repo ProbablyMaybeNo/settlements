@@ -88,6 +88,12 @@ KEY_STRUCTURES: list[StructureSpec] = [
     StructureSpec("Fabricator", "building", "convert", tier=1),
     StructureSpec("Med-bay", "building", "recover", tier=1),
     StructureSpec("Holding Cells", "building", "recover", tier=1),
+    # Added 2026-08-27. Mess Hall was the only one of the 23 catalogue
+    # structures with no derived cost anywhere in the engine — the rules note
+    # carried "~120 Materials" flagged explicitly as a guess. It is a 6x8
+    # Building (the `large` band) in the Recover role, priced by the same
+    # formula as every peer; nothing bespoke.
+    StructureSpec("Mess Hall", "large", "recover", tier=1),
     StructureSpec("Scout Post", "plant", "operate", tier=1),
     StructureSpec("Comms Mast", "plant", "operate", tier=1),
     StructureSpec("Perimeter Wall (6\" seg)", "line", "defend", tier=1),

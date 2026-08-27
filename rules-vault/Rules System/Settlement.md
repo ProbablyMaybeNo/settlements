@@ -46,7 +46,7 @@ At founding, choose **one Location**. It grants **one free structure or upgrade 
 | **High School / University** | Free **Comms Mast** |
 | **Auto Shop / Garage** | Free **Workshop** *(Workbench pre-upgraded)* |
 | **Radio / TV Station** | Free **Server Core** |
-| **Farm / Ranch** | **+50 Materials** to the founding budget |
+| **Farm / Ranch** | **+25 Materials** to the founding budget |
 | **Strip Mall / Shopping Center** | Free **Trade House** *(Trader's Kiosk pre-upgraded)* |
 
 ^tbl-choosing-a-location
@@ -63,9 +63,9 @@ Starting footprint: **95 of 432 squares**. Full entries in [[Structures#Starting
 
 ### Founding budget
 
-**250 Materials + 150 Credits.** 250 Materials is roughly **two Tier-1 structures** on top of the free four. The **whole 23-structure catalogue is open from turn one** — no prerequisites, no research gate ([[Structures]]).
+**125 Materials + 75 Credits.** 125 Materials is roughly **two Tier-1 structures** on top of the free four. The **whole 23-structure catalogue is open from turn one** — no prerequisites, no research gate ([[Structures]]).
 
-Structures and repairs are paid in **Materials**; the Credits half goes on the crew ([[List Building]]). A **Farm/Ranch** Location adds **+50 Materials** to this budget instead of a free building.
+Structures and repairs are paid in **Materials**; the Credits half goes on the crew ([[List Building]]). A **Farm/Ranch** Location adds **+25 Materials** to this budget instead of a free building.
 
 ### Settlements in battles
 

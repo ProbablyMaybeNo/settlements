@@ -491,6 +491,15 @@
       "starter": false
     },
     {
+      "name": "Mess Hall",
+      "footprint": "large",
+      "role": "recover",
+      "tier": 1,
+      "power_draw": 1,
+      "materials": 75,
+      "starter": false
+    },
+    {
       "name": "Scout Post",
       "footprint": "plant",
       "role": "operate",

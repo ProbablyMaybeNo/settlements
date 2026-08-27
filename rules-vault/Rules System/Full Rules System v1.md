@@ -40,8 +40,33 @@ tags:
 > table testing — the FIX 4 Annihilate skew (WND 3 dominates pure-kill missions) and FIX 5,
 > which the engine AI cannot currently stress.
 >
+> **Revised 2026-08-27 — the whole rules system is reconciled onto one scale.**
+> Every price in this document now comes from the **850-Credit shipping catalogue**
+> (`test-bench/points/ticks.py`, `costs/catalogue_v0.json`), and every satellite note in
+> `Rules System/` was propagated in the same pass. What moved:
+> - **Crew Rating is 850 / 425.** The 1000 and 500 figures are retired everywhere,
+>   including the two places this document contradicted itself.
+> - **Weapons run on class *bands*, not one fixed value per class** (§15) — the
+>   2026-08-14 rework, which this document had never received. Damage ceiling **+4 → +5**;
+>   range reaches **36"** behind four gates instead of a hard 24" wall; **Concealable is cut**.
+> - **All prices reconciled** — weapons, armour, hack gear, deployables, structures,
+>   Level track. A rifle is **35 Credits**, not 130; an Autoturret is **10**, not 120;
+>   the HQ is **70 Materials**, not 130.
+> - **Stat levels read off the measured ladder**, which is non-flat *and* stat-dependent.
+>   The flat 15/point is gone, and the contaminated "16–34" underprice flag with it.
+> - **Five weapon payloads are BLOCKED** (§15) — Crippling, Concussive, Blinding, Hook,
+>   Toxic all measure ≤0 net because they replace Pinned, which measures +0.510. This is a
+>   **rules question** (replace-not-stack), not a pricing one, and it is open.
+> - **Fifteen of twenty-four deployables are marked [UNPRICED]** (§12.6) rather than
+>   carrying invented numbers.
+> - **Mess Hall** was the only structure with no derived cost anywhere; it is now in the
+>   costing engine at **75 Materials**.
+> - The **§28.7 worked example** is rebuilt on the new scale — and now shows the founding
+>   Power draw correctly (the free Location structure eats the whole margin).
+>
 > Costing engine: `test-bench/points/` · sim harnesses: `test-bench/balance/` ·
-> decisions log: `docs/POINTS-DECISIONS.md`.
+> shipping prices: `docs/POINTS-CATALOGUE.md` · decisions log: `docs/POINTS-DECISIONS.md`.
+> Consistency guard: `py -3.13 scripts/check_rules_consistency.py`.
 
 # Settlements — Full Rules System v1
 

@@ -53,11 +53,11 @@ The Rules column should nail down:
 - **Raiding.** Taking what an opponent has banked, out of the containers it sits in (below).
 
 > [!success] The reward rate is checked — T12
-> A normal battle reward of **65 Credits + 33 Materials** funds about **one Recruit**, and a **Tier I structure takes ~3.0 battles** to afford. That matches the design targets once real prices are applied: a fighter is an impulse buy, a building is a campaign-scale commitment.
+> A normal battle reward of **70 Credits + 15 Materials** funds about **one Recruit**, and a **Tier I structure takes ~3 battles** to afford. Those two ratios *are* the finding; the raw numbers moved with the 850 rescale and were re-derived to preserve them. A fighter is an impulse buy, a building is a campaign-scale commitment.
 
 ### Founding budget
 
-**250 Materials + 150 Credits.** 250 Materials is roughly **two Tier-1 structures** on top of the four free starters ([[Settlement#Starting structures]]).
+**125 Materials + 75 Credits.** 125 Materials is roughly **two Tier-1 structures** on top of the four free starters ([[Settlement#Starting structures]]). *(Halved with the rest of the economy on the 2026-08-20 rescale, preserving the stated intent.)*
 
 The **whole 23-structure catalogue is open from turn one** — there are **no prerequisites**, so a founding player is choosing what to specialise in rather than climbing a tree ([[Structures]]).
 
@@ -104,8 +104,8 @@ Two other caps run on the same principle:
 
 Where Credits and Materials actually go:
 
-- **Materials** → structures, **upgrade tiers**, **Groundworks**, **repair at a flat 30 per structure**, research up the Fabricator ladder, crafting at the Workbench/Workshop.
-- **Credits** → rank bodies, built weapons, armour, equipment and deployables, **Levels** (15/stat point · 20/35/55 per T1/T2/T3 skill · 41 for the Level-7 wound), Chems, and **ransoming a captured fighter back at half their Credits cost** ([[Campaign]]).
+- **Materials** → structures, **upgrade tiers**, **Groundworks**, **repair at a flat 15 per structure**, research up the Fabricator ladder, crafting at the Workbench/Workshop.
+- **Credits** → rank bodies, built weapons, armour, equipment and deployables, **Levels** (a stat point off the measured ladder · **10/20/30** per T1/T2/T3 skill · **20** for the Level-7 wound), Chems, and **ransoming a captured fighter back at half their Credits cost** ([[Campaign]]).
 
 > [!info] The real anti-snowball valve is Crew Rating, not a tax
 > Veterans get **more expensive as they Advance** and Scars **refund nothing** ([[Progression]] · [[List Building]]). So the longer a campaign runs, the **smaller** your fielded crew gets, because your best fighters crowd out rookies on the Rating cap. That is the valve — an upkeep tax was tried, measured, and cut as both unnecessary and harmful.
@@ -125,8 +125,9 @@ Where Credits and Materials actually go:
 - [ ] **How much a successful raider actually takes** from each container.
 - [ ] Per-structure Materials costs are drafted in [[Structures]] but **untested** — HQ tiers, Med-bay and Mess Hall especially.
 - [ ] Territory **supply requirements** per cycle ([[Territory]]).
-- [ ] **Stat-point Level pricing is a known underprice** — measurement puts a stat point at **16–34 Credits** against the **15** charged, worst for STR/melee builds ([[Progression]]).
-- [x] The **+1 WND price** is now **41 Credits**, derived from the measured value of heavy armour (-2 on the injury roll, 41 Credits, `armour-level-n2500` 2026-08-13) - both buy the same thing, the model staying on the table longer. C-tier: derived, not measured. Was 45 with nothing behind it.
+- [x] **Stat-point Level pricing** — the flat 15 is gone; stat levels read off the **measured ladder**, which is non-flat *and* stat-dependent ([[Progression]]). The old "16–34 vs 15" underprice figure was contaminated and is retired.
+- [ ] **AGI is unpriced by construction** — the engine reads it only inside Dodge and `DODGE_ON` is False, so it measures exactly zero. Priced by analogy only.
+- [x] The **+1 WND price** is **20 Credits** on the 850 scale, derived from the measured value of heavy armour (−2 on the injury roll, the same 20 Cr) — both buy the same thing, the model staying on the table longer. C-tier: derived, not measured. Was 45 with nothing behind it.
 - [ ] Whether owned gear is **also** Credit-costed to field (two-gate) or ownership replaces the cost — E2. *(Ruled in [[Full Rules System v1]] §16: stashed gear counts 0, fielded gear counts full. Confirm this closes E2.)*
 - [ ] Solo / drop-in economy tracking is undrafted ([[Solo & Co-op]]).
 

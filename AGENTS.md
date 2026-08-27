@@ -32,8 +32,9 @@ generation — see "Superseded facts" at the bottom so the old versions don't cr
 - **Five stats:** STR (melee, force, hauling) · DEX (ranged, throwing, fine work) · AGI (climbing, jumping, dodging) · INT (hacking, crafting, medicine, searching) · NRV (nerve, Stress, Break tests). Max **+6**.
 - **Ranks and stat points:** Recruit **3** · Fighter **5** · Specialist **7** · Leader **9**. Orders: 0 / 0 / 1 / 2. Tier caps at creation: Recruit none · Fighter 2×T1 · Specialist 1×T2 + 2×T1 · Leader 1×T3 + 2×T2 + 4×T1.
 - **Skills ride the stat, one per tier a stat reaches** — +2 unlocks T1, +4 unlocks T2, +6 unlocks T3. Counts are **exact, not approximate**. There is no separate skill pool and skills are never charged Credits (`POINTS-DECISIONS` D22/D27).
-- **Crew Rating caps:** Match Play **1000** · raid 750 · pitched 1500 · Campaign Start **500**. Rank bodies: Match Play 65/95/165/245, Campaign Start 65/75/125/170.
+- **Crew Rating caps:** Match Play **850** · raid **640** · pitched **1275** · Campaign Start **425**. **Rank bodies are one ladder for both tiers — 70 / 100 / 145 / 185** — derived from the measured stat ladder, not hand-set. The tiers differ only in the cap and the starting skill count.
 - **WND is 1 for everyone.** Campaign veterans reach WND 2 (Level 7) and at most **WND 3** (Level 7 + Tough) — a hard ceiling, logged as a deliberate tenet exception in `Out of Scope` §4. Nothing may push past 3.
+- **Weapon class is an ENVELOPE, not a value.** The class sets Damage and range *bands*; the weapon picks inside them and pays for what it picked. **Damage ceiling is +5** (only Heavy Ranged reaches it). **Range reaches 36", gated four ways past 24"** — manufactured-only, limit 1 per crew, Specialist+, steep price. Reworked 2026-08-14, propagated 2026-08-27.
 - **Terrain density is the single most powerful balance dial: 9–12 large features, one per each of the nine 12"×12" squares, 12 is a hard ceiling.** Density alone swung win rate 66 points in simulation — more than any points cost can.
 - **You win on objectives, never on kills.** Resources are banked by both crews regardless of who won.
 - **Every hit does something:** a hit wounds *or* delivers its payload, never both, and a failed wound becomes Stress — which is the entire fear/suppression system.
@@ -53,12 +54,26 @@ generation — see "Superseded facts" at the bottom so the old versions don't cr
 | Declared Primary *and* Secondary, fixed for life | Primary derived and permanent; secondaries float | 2026-08-08 |
 | Generator +3 | **+5**, draws T1 −1 / T2 −2 / T3 −3 | D9 |
 | HQ 10 housing | **12**, +6 per Bunkhouse | D10 |
-| Armour 30 / 60 | **60 / 100** *(`points/ticks.py` still carries the old pair — a known, unfixed defect)* | 2026-08-05 |
+| Armour 30 / 60, then 60 / 100 | **10 / 20** — measured directly with zero prior (`armour-level-n2500`). Heavy is **not** twice Light; measured ratio 1.745 ± 0.416 | 2026-08-27 |
+| 1000-Credit scale, ranks 65/95/165/245 | **850 scale, ranks 70/100/145/185**, one ladder for both tiers | 2026-08-20 |
+| Rifle 100–130 Cr | **35 Cr.** The armoury total fell 1950 → 575 when bodies moved onto the measured stat ladder | 2026-08-20 |
+| Deployables 30–180 Cr | **5–25 Cr** — repriced onto the *gear* scale. A Burst Turret used to cost 189% of the Fighter deploying it | 2026-08-27 |
+| Structure Materials (HQ 130, Generator 40) | **HQ 70, Generator 20** — halved with the rest of the economy | 2026-08-27 |
+| Founding budget 250 Mat + 150 Cr | **125 Mat + 75 Cr** — preserves "roughly two Tier-1 structures" | 2026-08-27 |
+| Damage ceiling +4, range ceiling 24" | **+5**, and range reaches **36" behind four gates** | 2026-08-27 |
+| Flat 15 per stat point | The **measured ladder** — one-sided stats saturate (20/15/15/10/10/5), opposed stats are flat at 15 | 2026-08-27 |
 | 25 structures | **23** — Water Reclaimer and Cistern went with Water | 2026-08-01 |
 | Worker Proficiency 0–100 track | Cut. A worker is assigned or not; ten benefits ship, ten parked | 2026-08-05/08 |
 
 ## Known open defects
 
-- `test-bench/points/ticks.py` carries armour at **30/60** and marks it `[measured]`, but the cited source file `balance/armourprice.py` **does not exist in the repo**, and a 500-cap sim measured 60/100 as the better price. The engine and the rules disagree.
-- `PACKET-TEST-RESULTS.md` is cited by the master note for its **T1–T14** sim findings and **is not in the repo**. Those figures are quoted, not reproducible.
+**Guard against the whole class of these:** `py -3.13 scripts/check_rules_consistency.py` fails when a rules note and the costing engine disagree, or when a note still carries a retired value. Run it before committing rules changes. `--repo` checks the mirror instead of the live vault.
+
+- **Five weapon payloads are BLOCKED and do not ship** — Crippling, Concussive, Blinding, Hook, Toxic all measure ≤0 net value. Root cause is *replace-not-stack*: a payload lands **in place of** Pinned, and Pinned measures **+0.510 significant**, so every trait that replaces it starts in a hole. **This is an open RULES decision, not a pricing one.** Do not "fix" it by repricing.
+- **Fifteen of twenty-four deployables are `[UNPRICED]`** — the Remote chassis, all five mine payloads, four of five traps, five of seven beacons. Marked rather than guessed, deliberately: an untagged number is the defect the points rebuild exists to remove.
+- **AGI has never been measured.** The engine reads it only inside the Dodge reaction and `DODGE_ON` is False, so it prices exactly zero by construction. It rides the opposed ladder at ×0.8 by analogy. One of five stats is unpriced.
+- **Assault (melee) loses every matchup** in `catalogue-validation-n1500` — 61.2% against it at worst. Cannot be separated from 1-of-5 scenario coverage without table data.
+- **Everything is priced on `hold_claim`**, one of five shipped scenarios and the most static. Expect static/defensive atoms to read HIGH and mobility/tempo/stealth to read LOW.
+- `PACKET-TEST-RESULTS.md` is cited by the master note for its **T1–T14** sim findings. Those figures are quoted, not reproducible from the repo.
 - `docs/SETTLEMENTS-WHOLE-SYSTEM-AUDIT.md` has an **unapproved** approval sheet — do not act on its recommendations without Ross's ticks.
+- **Naming collision, unruled:** *Wrecking Crew* and *Trapper* are each both a Glorious Deed and a skill.
