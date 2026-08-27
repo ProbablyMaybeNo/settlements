@@ -69,7 +69,7 @@ Roll **1d10** whenever a Search, Raid loot or Scavenge action calls for it:
 | 4 | **+10 Credits** |
 | 5 | A basic **Light Melee or Sidearm** weapon, unbuilt — the player picks the class, no characteristics ([[Weapons]]) |
 | 6 | **+15 Materials** |
-| 7 | One dose of a basic **Chem** *(Dependence still applies normally)* |
+| 7 | **+15 Credits** |
 | 8 | **+20 Credits** |
 | 9 | One piece of **equipment** — Med-Kit, Breach Kit, or a basic Trap/Mine, player's choice ([[List Building]] · [[Deployables]]) |
 | 10 | **Jackpot** — roll twice more on this table, ignoring further 10s |

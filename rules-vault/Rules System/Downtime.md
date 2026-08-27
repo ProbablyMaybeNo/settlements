@@ -55,7 +55,7 @@ Follows immediately once Phase 1 is fully resolved. This is where the settlement
 ### Phase 3 — Battle Prep
 Immediately before the next battle.
 1. **Choose the territory**, and therefore the scenario from its card ([[Territory]]).
-2. **Set the Crew Rating cap** for the format — standard 1000 · raid 750 · pitched 1500 ([[List Building]]).
+2. **Set the Crew Rating cap** for the format — Match Play **850** · raid **640** · pitched **1275** · Campaign Start **425** ([[List Building]]).
 3. **Build the roster** — which owned fighters to field within housing, equipped within the Rating cap.
 4. **Resolve setup-time bonuses** — Faction battlefield rules, Location founding benefits, territory-card modifiers.
 5. **Roll the Twist** once deployment is set.

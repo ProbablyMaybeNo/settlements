@@ -7,18 +7,10 @@ tags: [settlements/reference]
 
 Weapons are **built, not bought off a shelf.** Pick a **Class**, then spend Credits on **Characteristics**. Name the result after your miniature.
 
-> [!warning] Every cost printed in this note is on the **retired 100-point scale** — multiply by 10
-> The game runs on **Credits** now ([[List Building#Budget]]). The current catalogue lives in **[[Full Rules System v1]] §15** and the engine that generates it is `test-bench/points/`. The mechanics below are unchanged and correct; only the numbers are stale. **The conversion is ×10** — Sidearm 4 → 40, Standard Ranged 10 → 100, Fire Axe 16 → 160.
+> [!success] Prices reconciled 2026-08-27 — this note, the master and the engine now agree
+> Every number below is the **850-Credit shipping catalogue**, generated from `test-bench/points/ticks.py`. The old ×10 conversion warning is retired, and so are the three disagreements it tracked: **armour is 10 / 20** (measured with zero prior, `armour-level-n2500`), **Thrown is 5**, **Heavy Ranged is 25**. Regenerate with `py -3.13 -m points` from `test-bench/`.
 >
-> Three rows do **not** simply ×10, because the master document and the costing engine disagree. Do not treat any of them as settled:
->
-> | Row | This note ×10 | [[Full Rules System v1]] §15 | `points/ticks.py` |
-> |---|:--:|:--:|:--:|
-> | **Light / Heavy armour** | 30 / 60 | **60 / 100** ✅ | 30 / 60 |
-> | **Thrown** class | 20 | **20** | **40** |
-> | **Heavy Ranged** class | 160 | **140** | **160** |
->
-> **Armour is settled in the doc's favour** — re-measured 2026-08-05 (`test-bench/balance/campaign500.py armour`): at 30 the armoured crew wins **64%** and is the best list in the game; at **60** it wins **51%** and the whole field tightens by 9 points. Use **60 / 100**; `ticks.py` is owed the correction. Its old cited source (`balance/armourprice.py`) is **missing from the repo**, which is why the 30 could never be re-derived. Heavy Ranged still differs because the engine removed the welded-on Cumbersome drawback (2026-07-30) and the doc's table predates that. A rewrite of the tables below is owed once Thrown and Heavy Ranged are ruled too.
+> Confidence tiers travel with the numbers — see `docs/POINTS-CATALOGUE.md`. **[A]** measured and current · **[B]** measured, wide CI or single-scenario · **[C]** derived by rule from a measured atom, never measured directly. **No number here is untagged**, and a C-tier price is fine — it is simply the first thing table data corrects.
 
 > [!info] Design contract — the three rules that keep this honest
 > 1. **Stats decide if you land it · Weapons decide how bad it is · Skills decide what else happens.** A weapon **never** grants an effect a **[[Skill Paths|skill]]** grants. Weapons do damage, range, armour, conditions, noise and concealment. Skills do extra actions, reactions, exceptions and positioning.
@@ -26,24 +18,26 @@ Weapons are **built, not bought off a shelf.** Pick a **Class**, then spend Cred
 > 3. **A hit does exactly one thing: it wounds, or it delivers its payload.** Never both ([[Damage]]).
 
 ```
-Fire Axe         Heavy Melee · Brutal · Bleeding                             16 pts
-Pipe Shotgun     Standard Ranged · Brutal · Spread · Short Range · Unstable  12 pts
-Grandpa's Rifle  Standard Ranged · Accurate · Long Range                     19 pts
+Fire Axe         Heavy Melee · Brutal · Bleeding                             50 Cr
+Pipe Shotgun     Standard Ranged · Brutal · Spread · Short Range · Unstable  35 Cr
+Grandpa's Rifle  Standard Ranged · Accurate · Long Range                     40 Cr
 ```
 
 ---
 ## 1 · Weapon classes
 
-| Class | Cost | Damage | Range | Hands | Min. rank | Slots | Always has |
+| Class | Cheapest build | Damage | Range | Hands | Min. rank | Slots | Always has |
 |---|:--:|:--:|:--:|:--:|---|:--:|---|
-| **Unarmed** | 0 | +0 | — | — | Any | 0 | — |
-| **Light Melee** | 0 | **+1 only** | melee | 1 | Recruit | 2 | *(the free floor weapon)* |
-| **One-Handed Melee** | — | **+1 to +3** | melee | 1 | Recruit | 2 | spans a shiv to a Magnum |
-| **Heavy Melee** | — | **+2 to +4** | melee | 2 | Specialist | 3 | Two-Handed |
-| **Thrown** | — | **+1 to +2** | 8" flat | 1 | Any | 2 | may also be used in **melee** |
-| **Sidearm** | — | **+1 to +3** | **6"–12"** | 1 | Recruit | 2 | **Sidearm** (may fire while Engaged), Loud |
-| **Standard Ranged** | — | **+2 to +4** | **12"–36"** | 2 | Fighter | 3 | Two-Handed, Loud |
-| **Heavy Ranged** | — | **+3 to +5** | **12"–36"** | 2 | Specialist | 4 | Two-Handed, Loud |
+| **Unarmed** | **0** | +0 | — | — | Any | 0 | — |
+| **Light Melee** | **0** | **+1 only** | melee | 1 | Recruit | 2 | *(the free floor weapon)* |
+| **One-Handed Melee** | **0** | **+1 to +3** | melee | 1 | Recruit | 2 | spans a shiv to a Magnum |
+| **Heavy Melee** | **10** | **+2 to +4** | melee | 2 | Specialist | 3 | Two-Handed |
+| **Thrown** | **5** | **+1 to +2** | 8" flat | 1 | Any | 2 | may also be used in **melee** |
+| **Sidearm** | **5** | **+1 to +3** | **6"–12"** | 1 | Recruit | 2 | **Sidearm** (may fire while Engaged), Loud |
+| **Standard Ranged** | **15** | **+2 to +4** | **12"–36"** | 2 | Fighter | 3 | Two-Handed, Loud |
+| **Heavy Ranged** | **25** | **+3 to +5** | **12"–36"** | 2 | Specialist | 4 | Two-Handed, Loud |
+
+*"Cheapest build" is the class at its **floor** Damage and **floor** range with no characteristics. Every step up the band costs **+10 per Damage point**; range is priced separately (below).*
 
 > ### The class is an ENVELOPE, not a value — reworked 2026-08-14
 >
@@ -74,7 +68,7 @@ Damage feeds the **Injury roll** — `1d10 + Damage − Armor` vs **7+** ([[Dama
 >
 > To keep a reusable thrown weapon from being a worse Sidearm, the class carries two edges no other ranged class has: it is **not Loud**, and it **may also be used as a melee weapon** at its own Damage — a javelin is a spear. It also holds exclusive access to **Blast** and **Smoke**.
 >
-> Every existing thrown weapon costs exactly what it did before: the class base rose from 2 to 4 and `Single-Use` refunds 2, so a Molotov is still **9** and a Smoke Grenade still **5**.
+> On the 850 scale a **Molotov** (Thrown · Incendiary · Blast · *Single-Use*) is **10 Cr** and a **Smoke Grenade** (Thrown · Smoke · *Single-Use*) is **15 Cr** — the smoke costs more than the firebomb, because Smoke is a placed-area effect and Incendiary is a payload riding a hit that already happened.
 
 > [!warning] Two hard ceilings. Both are load-bearing.
 > **Damage stops at +4, and only Brutal reaches it.** Armour only runs to −2; if weapons ran past +4 the armour ladder would be decorative. Base classes stop at **+3**. On a ranged weapon, Brutal is gated behind **Short Range** — which encodes the finding from [[Terrain Hacking Cover — Sim Findings]]: *keep Brutal off any longer-ranged weapon.*
@@ -109,18 +103,18 @@ The hard lock that makes the ladder in [[List Building]] real — **a Recruit ca
 Each takes **one slot**. Restrictions in *italics*.
 
 ### Damage & armour
-| Characteristic | Cost | Effect |
-|---|:--:|---|
-| **Brutal** | 4 | **+1 Damage**, to a maximum of **+4**. *Melee only — or a ranged weapon that also takes **Short Range**.* |
-| **Armour Piercing** | 4 | Reduce the target's **Armor by 1** on the Injury roll. |
+| Characteristic | Cr | Tier | Effect |
+|---|:--:|:--:|---|
+| **Brutal** | **10** | **A** | **+1 Damage**, to the class band's ceiling (max **+5**). *Melee only — or a ranged weapon that also takes **Short Range**.* |
+| **Armour Piercing** | **5** | **B** | Reduce the target's **Armor by 1** on the Injury roll. *The closest agreement between a measured atom and its old shipped price anywhere in the rebuild.* |
 
 ^tbl-damage-armour
 
 ### To hit
-| Characteristic | Cost | Effect |
-|---|:--:|---|
-| **Accurate** | 3 | **+1 to hit** if you did not Move, Sprint or Climb this activation. |
-| **Spread** | 3 | **+1 to hit** at half range or less; **−1** beyond it. *Ranged only.* |
+| Characteristic | Cr | Tier | Effect |
+|---|:--:|:--:|---|
+| **Accurate** | **10** | **B** | **+1 to hit** if you did not Move, Sprint or Climb this activation. |
+| **Spread** | **10** | **B** | **+1 to hit** at half range or less; **−1** beyond it. *Ranged only.* |
 
 ^tbl-to-hit
 
@@ -129,39 +123,58 @@ Each takes **one slot**. Restrictions in *italics*.
 >
 > This is what makes conditions work in a **WND-1** game. Wounding is binary and terminal, so there is no headroom to "add damage" — a weapon's extra bite has to land on the *hit that didn't kill you*.
 
-| Characteristic | Cost | Payload |
-|---|:--:|---|
-| **Concussive** | 3 | **Off-Balance** |
-| **Crippling** | 3 | **Hobbled** |
-| **Blinding** | 3 | **Blind** |
-| **Shocking** | 3 | **Shocked** |
-| **Toxic** | 3 | **Poison** |
-| **Incendiary** | 3 | **Fire** |
-| **Bleeding** | 4 | **Bleed** — *at WND 1 this is a two-round death clock unless treated. The deadliest payload; priced for it.* |
-| **Heavy Impact** | 3 | Push the target **2"** directly away. Falls and hazards resolve normally ([[Terrain]]). |
-| **Hook** | 2 | Pull the target **1"** toward you. *Melee only.* |
-| **Suppressive** | 4 | The target **may not clear the Pin with its Move** — it must spend its **entire activation**. *Ranged only.* |
+**Every payload price is net of Pinned.** A payload lands *in place of* the ordinary non-wounding result, and on a ranged hit that result is **Pinned — measured at +0.510 and significant**. So a payload's price is what it is worth **minus what it displaces**.
+
+| Characteristic | Cr | Tier | Payload |
+|---|:--:|:--:|---|
+| **Suppressive** | **20** | **B** | The target **may not clear the Pin with its Move** — it must spend its **entire activation**. *Ranged only. Now the dearest payload: the Pin costing a whole activation is worth far more than the old table thought.* |
+| **Bleeding** | **20** | **B** | **Bleed** — *at WND 1 this is a two-round death clock unless treated.* |
+| **Incendiary** | **10** | **B** | **Fire** |
+| **Shocking** | **5** | **B** ⚠ | **Shocked** — *measures positive but inside the noise floor.* |
+| **Heavy Impact** | **5** | **B** ⚠ | Push the target **2"** directly away. Falls and hazards resolve normally ([[Terrain]]). *Also inside the noise floor.* |
+
+> [!danger] ⛔ Five payloads are BLOCKED — they do **not** ship
+> **Concussive · Crippling · Blinding · Hook · Toxic.** All five measure at or below **zero net value**, three of them significantly. No price fixes this: repricing a trait whose whole effect is to replace a good default with a worse one sells the player a downgrade at any number.
+>
+> | Trait | Net | |
+> |---|:--:|---|
+> | **Crippling** | **−0.613** | significantly negative |
+> | **Concussive** | **−0.592** | significantly negative |
+> | **Blinding** | **−0.317** | significantly negative |
+> | Hook | −0.230 | negative point estimate, unmeasurably noisy |
+> | Toxic | −0.080 | negative point estimate, not significant |
+>
+> **The mechanism was counted, not inferred** (`condition-values-n3000`): value(Off-Balance) = **0.000 exactly — bit-identical games**; value(Hobbled) = +0.078 (n.s.); value(Blind) = **+0.369, significant and POSITIVE**. Blind is the tell — a genuinely valuable condition that still prices negative purely because what it replaces is worth more. Off-Balance and Hobbled fail differently: applied **89,498 times**, they land on models that have *already arrived and will not move again*.
+>
+> **This is a RULES question, not a pricing one.** Replace-not-stack was designed when Pinned was believed worth ~zero. That is plausibly **one miscalibrated rule, not five broken traits** — and it is open. Until it is ruled on, these five are not legal to buy.
 
 ^tbl-payload-replaces-the-non-wounding-result
 
 ### Area
-| Characteristic | Cost | Effect |
-|---|:--:|---|
-| **Blast** | 4 | Resolve the attack separately against **every model within 2"** of the target. *Thrown / Heavy Ranged only.* |
-| **Smoke** | 3 | Instead of attacking, place a **3" Dense Smoke** area ([[Terrain#Hazards (the Dangerous overlay)]]). *Thrown only.* |
+| Characteristic | Cr | Tier | Effect |
+|---|:--:|:--:|---|
+| **Blast** | **15** | **B** | Resolve the attack separately against **every model within 2"** of the target. *Thrown / Heavy Ranged only.* |
+| **Smoke** | **15** | **C** | Instead of attacking, place a **3" Dense Smoke** area ([[Terrain#Hazards (the Dangerous overlay)]]). *Thrown only. No LOS-denial atom has been measured; its nearest neighbour (Blind) is itself blocked.* |
 
 ^tbl-area
 
 ### Handling
-| Characteristic | Cost | Effect |
-|---|:--:|---|
-| **Long Range** | — | Moves the weapon up one range band. Past **24"** the four gates above apply. *Ranged only.* |
-| **Balanced** | 2 | May use **AGI** instead of STR for melee attacks with this weapon. *Light / One-Handed Melee only.* |
-| **Defensive** | 3 | **+1** on opposed melee rolls when you are **not** the attacker and did **not Move** this activation. *Melee only.* |
-| **Cleaving** | 5 | When you **win** a melee clash, make the Injury roll against **every** enemy Engaged with you. *Heavy Melee only.* |
-| **Breaching** | 3 | **+2** on STR tests to Force or break **Breachable** terrain ([[Terrain Interaction]]). |
-| **Quiet** | 2 | Attacks don't reveal you from **Hidden** and don't trip noise or alarms. |
-| **Compact** | 2 | Counts as **one-handed** despite its class. *Heavy classes only.* |
+| Characteristic | Cr | Tier | Effect |
+|---|:--:|:--:|---|
+| **Long Range** | **5**/step | **⚠ OVERRIDE** | Moves the weapon up one range band. Past **24"** the four gates above apply. *Ranged only.* |
+| **Balanced** | **10** | **C** | May use **AGI** instead of STR for melee attacks with this weapon. *Light / One-Handed Melee only.* |
+| **Defensive** | **15** | **C** | **+1** on opposed melee rolls when you are **not** the attacker and did **not Move** this activation. *Melee only. Derived from light armour, the nearest measured neighbour.* |
+| **Cleaving** | **25** | **C** | When you **win** a melee clash, make the Injury roll against **every** enemy Engaged with you. *Heavy Melee only. Derived: Blast (multi-target) + one damage step.* |
+| **Breaching** | **15** | **C** | **+2** on STR tests to Force or break **Breachable** terrain ([[Terrain Interaction]]). |
+| **Quiet** | **10** | **C** | Attacks don't reveal you from **Hidden** and don't trip noise or alarms. *Engine-blocked — no noise or alarm system exists in the sim.* |
+| **Compact** | **10** | **C** | Counts as **one-handed** despite its class. *Heavy classes only. Engine-blocked — hands and slots are inert in the sim.* |
+
+> [!warning] ⚠ `Long Range` deliberately contradicts its own measurement
+> **Measured:** the 8"–24" range curve is **flat** — the whole spread sits inside one standard error, which prices Long Range at **~0**. **Shipped:** a real price, accelerating steeply across 24".
+>
+> **Why:** the flat curve measures *a policy that does not exploit range*, not a rule that does not matter. Two opposite biases bracket it, and a free 24" is a **known degenerate** — the sim measured a **13–30 point edge** for a list that can fire from its own deployment zone on turn one. Shipping 0 here would be following a number off a cliff.
+>
+> **Retires when:** scenario coverage lands, or a range-exploiting policy makes the curve measurable honestly. Machine-readable at `ticks.OVERRIDES_MEASUREMENT`.
 
 ^tbl-handling
 
@@ -170,11 +183,11 @@ The DIY layer. This is how you build a pipe shotgun that might blow up in your h
 
 | Drawback | Refund | Effect |
 |---|:--:|---|
-| **Short Range** | −3 | **Halve** the weapon's maximum range. *Ranged only.* |
-| **Slow** | −3 | You may not **Charge** with this weapon. *Melee only.* |
-| **Unstable** | −2 | On a **natural 1** to hit, the weapon is **destroyed**. |
-| **Cumbersome** | −2 | **−1 MOV** while carried. |
-| **Single-Use** | −2 | **One use** per battle — the weapon is expended when thrown or fired. |
+| **Short Range** | **−5** *(−10 on Heavy Ranged)* | **Halve** the weapon's maximum range. *Ranged only. Heavy Ranged refunds double because halving takes it out of the 24" deployment band entirely.* |
+| **Slow** | **−5** | You may not **Charge** with this weapon. *Melee only.* |
+| **Unstable** | **−5** | On a **natural 1** to hit, the weapon is **destroyed**. |
+| **Cumbersome** | **−5** | **−1 MOV** while carried. |
+| **Single-Use** | **−5** | **One use** per battle — the weapon is expended when thrown or fired. |
 
 ^tbl-drawbacks-refund-points-take-no-slot-max-2-p
 
@@ -196,12 +209,19 @@ Armor reduces the **Injury roll only** — never the hit. Cover protects against
 >
 > **Improvised armour is cut.** With its penalty gone it was Light armour under another name. Whether a suit was **scavenged and welded together** or **bought from a trader** is a settlement-economy distinction — it does not need a second row on this table.
 
-| Armor | Injury | Drawback | Cost |
-|---|:---:|---|:--:|
-| None | 0 | — | **0** |
-| Thick clothing | 0 | ignore the first Environmental Stress once per game | **0** |
-| Light | −1 | — | **3** |
-| Heavy | −2 | — | **6** |
+| Armor | Injury | Drawback | Cr | Tier |
+|---|:---:|---|:--:|:--:|
+| None | 0 | — | **0** | — |
+| Thick clothing | 0 | ignore the first Environmental Stress once per game | **0** | — |
+| Light | −1 | — | **10** | **B** |
+| Heavy | −2 | — | **20** | **B** |
+
+> [!info] **Heavy is NOT twice Light, and that question is closed**
+> The old rule argued each armour point is a flat −10% on the injury roll, so −2 must cost 2× −1. That is the **wrong quantity**: linear in injury *probability* does not imply linear in *win-points*, because the second point buys survival on a model that is already surviving more often. **Measured ratio: 1.745 ± 0.416.**
+>
+> Measured with **zero prior** (`armour-level-n2500`) — the old 30/60 pair was tagged `[measured]` citing `balance/armourprice.py`, **a file that has never existed in any commit on any branch.** Corroborated by rebuild-to-pay: **Light armour ≈ exactly one rifle→pistol downgrade** (+0.140 ± 0.200, parity), with Heavy bracketed on both sides.
+>
+> Two known biases, opposite directions: armour's own historical drawbacks price at **zero** here, so these overstate it slightly; and light armour's value **moves with terrain density** (0.140 at 11 features, 0.508 at 9), so the level is board-dependent.
 
 ^tbl-3-armor
 
@@ -209,11 +229,13 @@ Armor reduces the **Injury roll only** — never the hit. Cover protects against
 ## 4 · Hacking gear
 A hack is one INT test ([[Hacking]]). Gear grants a flat **+/− modifier to hacking rolls** — the v1 hack test today, and mostly the **breach roll** if the parked deeper system is ever built ([[Hacking]]).
 
-| Hack gear | Modifier | Cost | Notes |
-|---|:---:|:--:|---|
-| Bare-handed | +0 | 0 | improvising at a terminal |
-| Breach Kit | +1 | 4 | standard hacker loadout |
-| Exploit Suite | +2 | 8 | specialist kit |
+| Hack gear | Modifier | Cr | Tier | Notes |
+|---|:---:|:--:|:--:|---|
+| Bare-handed | +0 | **0** | — | improvising at a terminal |
+| Breach Kit | +1 | **20** | **C** | standard hacker loadout |
+| Exploit Suite | +2 | **40** | **C** | specialist kit |
+
+*Both are **C-tier and flagged**: they sell +1 / +2 on the Interact test, which prices high against the measured to-hit atom, and INT is worth nothing in a scenario with no claim step. Retained pending a measured INT ladder.*
 
 ^tbl-4-hacking-gear
 
@@ -223,25 +245,33 @@ Defence is the same in reverse: a defender's gear/skill or a scenario may impose
 ## 5 · Sample armoury
 Every one of these is a legal build. Copy or rename freely.
 
-| Name | Build | Profile | Cost |
+*Generated from the costing engine — `py -3.13 -m points` from `test-bench/`.*
+
+| Name | Build | Profile | Cr |
 |---|---|---|:--:|
 | **Baseball Bat** | Light Melee | +1 melee | **0** |
-| **Kitchen Knife** | Light Melee · Balanced | +1, AGI | **2** |
-| **Crowbar** | One-Handed Melee · Breaching | +2, breaches | **7** |
-| **Great Axe** | Heavy Melee | +3 melee | **8** |
-| **Sledgehammer** | Heavy Melee · Heavy Impact · Breaching | +3, push 2" | **14** |
-| **Fire Axe** | Heavy Melee · Brutal · Bleeding | **+4**, Bleed | **16** |
-| **Reaping Hook** | Heavy Melee · Cleaving · Defensive | +3, hits everyone Engaged | **16** |
-| **Pistol** | Sidearm | 8", +2, fires while Engaged | **4** |
-| **Pipe Shotgun** | Standard Ranged · Brutal · Spread · *Short Range* · *Unstable* | 9", **+4**, Spread | **12** |
-| **Assault Rifle** | Standard Ranged · Accurate | 18", +3 | **13** |
-| **Nailgun** | Standard Ranged · Bleeding | 18", +3, **Bleed** | **14** |
-| **Grandpa's Hunting Rifle** | Standard Ranged · Accurate · Long Range | **24"**, +3 | **19** |
-| **Squad Machine Gun** | Heavy Ranged · Suppressive · Armour Piercing | 24", +3, locks you down | **22** |
-| **Makeshift Flamethrower** | Heavy Ranged · Incendiary · Blast · *Short Range* · *Single-Use* | 12", +3, **Fire**, Blast | **14** |
-| **Molotov** | Thrown · Incendiary · Blast · *Single-Use* | 6", +1, **Fire**, Blast, one use | **9** |
-| **Javelin** | Thrown | 6", +1, throw it or stab with it, **reusable** | **4** |
-| **Smoke Grenade** | Thrown · Smoke · *Single-Use* | 6", places 3" smoke | **5** |
+| **Kitchen Knife** | Light Melee · Balanced | +1, AGI | **10** |
+| **Machete** | One-Handed Melee | +2 melee | **10** |
+| **Crowbar** | One-Handed Melee · Breaching | +2, breaches | **25** |
+| **Magnum** | Sidearm · Brutal · *Short Range* | 4", +3, fires while Engaged | **30** |
+| **Great Axe** | Heavy Melee | +3 melee | **20** |
+| **Sledgehammer** | Heavy Melee · Heavy Impact · Breaching | +3, push 2" | **50** |
+| **Fire Axe** | Heavy Melee · Brutal · Bleeding | **+4**, Bleed | **50** |
+| **Reaping Hook** | Heavy Melee · Cleaving · Defensive | +3, hits everyone Engaged | **50** |
+| **Pistol** | Sidearm | 8", +2, fires while Engaged | **15** |
+| **Snub Revolver** | Sidearm | 6", +2, fires while Engaged | **15** |
+| **Pipe Shotgun** | Standard Ranged · Brutal · Spread · *Short Range* · *Unstable* | 9", **+4**, Spread | **35** |
+| **Assault Rifle** | Standard Ranged · Accurate | 18", +3 | **35** |
+| **Nailgun** | Standard Ranged · Bleeding | 18", +3, **Bleed** | **35** |
+| **Grandpa's Hunting Rifle** | Standard Ranged · Accurate · Long Range | **24"**, +3 | **40** |
+| **Squad Machine Gun** | Heavy Ranged · Suppressive · Armour Piercing | 24", +3, locks you down | **55** |
+| **Makeshift Flamethrower** | Standard Ranged · Incendiary · Blast · *Short Range* · *Single-Use* | 9", +3, **Fire**, Blast | **20** |
+| **Molotov** | Thrown · Incendiary · Blast · *Single-Use* | 8", +1, **Fire**, Blast, one use | **10** |
+| **Javelin** | Thrown | 8", +1, throw it or stab with it, **reusable** | **5** |
+| **Smoke Grenade** | Thrown · Smoke · *Single-Use* | 8", places 3" smoke | **15** |
+| **Ranger's Long Rifle** | Heavy Ranged · 36" *(manufactured, limit 1, Specialist+)* | **36"**, +3 | **55** |
+
+*Nineteen of twenty moved when the rebuild landed. The armoury total fell **1950 → 575** — **a rifle now costs 35 against a 100-Credit Fighter**, where it used to cost 100 against a 95-Credit one. That single line is what the rebuild was commissioned to fix.*
 
 ^tbl-5-sample-armoury
 
@@ -254,7 +284,7 @@ Kept so it doesn't creep back in a new costume ([[Out of Scope — What Settleme
 | **Rapid** *(extra attack at −2)* | It **is** **Quick Shot** — a **Tier 3** skill needing a stat of +6, i.e. campaign-earned. [[Skill Sim — Findings]] measured multi-attack as *the biggest DPS lever in the game* (+67% output). Selling it to a Fighter for 4 points destroys the entire skill economy. |
 | **Precision** *(flat +1 hit)* | Strictly stronger than **Dead Eye** (T3, which is conditional). Replaced by **Accurate** — conditional, and already a locked trait. |
 | **Reliable** *(re-roll)* | Introduces **re-rolls**, a dice mechanic that exists nowhere in Settlements. Breaks the one-mechanic ceiling. |
-| **Concealable** *(may start Hidden / smuggle past a search)* | **Cut 2026-08-14.** Both halves are edge cases that do nothing in a typical battle, and it **breaks the weapon design contract stated in §1**: weapons do damage / range / armour / conditions / noise, and **skills** do positioning exceptions. "May start Hidden" is skill territory — [[Skills]]' **Vanishing Point** and **Camouflage Drill** already do it properly. **Quiet is NOT cut**: no-reveal / no-alarm-trip is a real mechanical axis that interacts with Hidden and the Sensor deployables. |
+| **Concealable** *(may start Hidden / smuggle past a search)* | **Cut 2026-08-14.** Both halves are edge cases that do nothing in a typical battle, and it **breaks the weapon design contract stated in §1**: weapons do damage / range / armour / conditions / noise, and **skills** do positioning exceptions. "May start Hidden" is skill territory — [[Skill Paths]]' **Vanishing Point** and **Camouflage Drill** already do it properly. **Quiet is NOT cut**: no-reveal / no-alarm-trip is a real mechanical axis that interacts with Hidden and the Sensor deployables. *(Propagated to [[Full Rules System v1]] §15 on 2026-08-27 — the master still listed it as live.)* |
 | **Quick Draw** *(fire after Sprinting)* | Sprint consumes **both slots** — there is no Action left to fire with. It silently invents a new action economy. |
 | **Crushing** *(ignore cover on the Wound Roll)* | **Cover never touches the Injury roll.** That is the load-bearing line of the entire engine. (Shields also don't exist.) |
 | **Awkward** *(no Move + attack)* | Free points on a static shooter, and it *synergises* with Accurate. A drawback must bite regardless of playstyle. |

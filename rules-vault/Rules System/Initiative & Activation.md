@@ -67,7 +67,7 @@ Resolve immediately, interrupting the enemy's next steps if any remain. A Reacti
 | **Throw** | Resolve a normal thrown-weapon / thrown-object attack (no extra −2). |
 | **Interact / Operate** | Open/close a door, Lift-block / clear a Block, hit a button/lever, **operate an Infrastructure feature you can reach** — by hand in base contact, or by hacking a terminal within range — or **Interrupt** an enemy hack ([[Infrastructure#3 · As a Reaction]] / [[Hacking#Interrupt — contesting a hack]]). Still **no** Search, Repair, or Stabilize as a Reaction. |
 | **Trigger** | Only your own traps with the **Remote Detonation** tag (set by the placer, or by a Hacker). Not every trap is remote. |
-| **Dodge** | When **targeted by a ranged attack** (from **any angle** — no facing needed, so this is your answer to flank/rear shots), make an opposed roll: **`1d10 + AGI`** vs the shooter's **`1d10 + DEX`** (ties to you). This *replaces* the shot's to-hit; **cover doesn't apply** (you traded cover for evasion). **Win →** the shot misses; move up to **full MOV"** in any direction, **ending out of the shooter's LOS** (or max toward breaking it if impossible); this scramble draws **no** reactions; then you gain **Pinned**. **Lose →** the shot hits — resolve the Injury roll as normal. |
+| **Dodge** | When **targeted by a ranged attack** (from **any angle** — no facing needed, so this is your answer to flank/rear shots), make an opposed roll: **`1d10 + AGI`** vs the shooter's **`1d10 + DEX`** (ties to you). This *replaces* the shot's to-hit; **cover doesn't apply** (you traded cover for evasion). **Win →** the shot misses; move up to **half MOV"** (round down) in any direction, preferably **ending out of the shooter's LOS**; this scramble draws **no** reactions; then you gain **Pinned**. **Lose →** the shot hits — resolve the Injury roll as normal. |
 
 ^tbl-reaction-options
 
@@ -93,7 +93,7 @@ Alpha ships with **underdog +1 Priority only**. No free-hold surge rule unless p
 > - **Distance-gated Snap Shot — added** (trigger #2): only a Move **> half MOV"** ending in an enemy's LOS draws a reaction; a short shuffle (≤ half MOV) is safe.
 > - **Orders** already limited to Specialist 1 / Leader 2 — no change needed.
 >
-> **Playtest dials:** is the full-move-out-of-LOS escape too strong? should the shooter's aim traits (Accurate / range) modify their side of the Dodge roll? keep Dodge-ends-Pinned? Reactions still don't cost the reactor's own activation — watch for overwatch stacking when many units are Ready.
+> **Playtest dials:** the escape move was **cut from full MOV to half** in the 2026-08-07 audit ([[Full Rules System v1]] §3) — a full move out of LOS made Dodge strictly better than cover. Is half still too strong? should the shooter's aim traits (Accurate / range) modify their side of the Dodge roll? keep Dodge-ends-Pinned? Reactions still don't cost the reactor's own activation — watch for overwatch stacking when many units are Ready.
 
 ## Rule ledger
 - [[core-005 Activation order]]

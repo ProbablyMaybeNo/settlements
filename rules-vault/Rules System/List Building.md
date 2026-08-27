@@ -18,7 +18,7 @@ tags: [settlements/phase, settlements/stage/s3]
 How players assemble a legal crew — roster rules, costs, and force composition.
 
 > [!info] Superseded — [[Full Rules System v1]] is the ruling
-> **§16 is canonical for costs and composition.** The old 5/8/16/24 ladder on the 100-point budget is deprecated; everything is on the 1000-Credit scale. Match Play skill counts are now *exact* (one per tier a stat reaches), and Campaign Start keeps the Specialist ratio.
+> **§16 is canonical for costs and composition.** The old 5/8/16/24 ladder is deprecated, and so is the 1000-Credit scale that replaced it — everything is on the **850-Credit** scale as of 2026-08-20. Match Play skill counts are *exact* (one per tier a stat reaches), and Campaign Start keeps the Specialist ratio.
 
 ## The core claim
 > [!info] Points buy **bodies and guns**. Stats and skills are **free**.
@@ -33,14 +33,14 @@ A crew is built to a **Crew Rating** cap in **Credits**, set by the scenario.
 
 | Format | Cap |
 |---|:--:|
-| **Match Play** — a one-off game, no campaign attached | **1000** |
-| Raid variant | 750 |
-| Pitched variant | 1500 |
-| **Campaign Start** — a fresh crew entering the settlement layer | **500** |
+| **Match Play** — a one-off game, no campaign attached | **850** |
+| Raid variant *(75%)* | **640** |
+| Pitched variant *(150%)* | **1275** |
+| **Campaign Start** — a fresh crew entering the settlement layer | **425** |
 
 ^tbl-budget
 
-*The **100-point** budget and its 5/8/16/24 ladder are **retired**. Everything is on the 1000-Credit scale ([[Full Rules System v1]] §16). One number does both jobs: you buy with Credits, and the Credits you field are your Crew Rating.*
+*The 100-point budget, its 5/8/16/24 ladder, **and the 1000/500 pair that replaced them** are all retired. The scale rebased 1000 → 1700 when bodies moved onto the measured stat ladder, then halved to **850** on 2026-08-20 so a standard crew is still six models rather than four. One number does both jobs: you buy with Credits, and the Credits you field are your Crew Rating.*
 
 ### The four ranks — two starting tiers
 The rank price *is* the stat price — see [[Unit Design#Ranks (build budget)]].
@@ -69,14 +69,12 @@ The rank price *is* the stat price — see [[Unit Design#Ranks (build budget)]].
 
 More points than a unit can spike into one stat, capped by tier so it *spreads* — full rules in [[Unit Design#Ranks (build budget)]]. Skills come off the stat line (one per tier a stat reaches).
 
-> [!warning] The Campaign Start column is a first draft, and the sim says the **cap** is the problem, not the prices
-> Those prices were **backed out arithmetically** from the Match Play column by subtracting skill Credit values (T1 20 / T2 35 / T3 55) — never measured. `test-bench/balance/campaign500.py` (2026-08-05, 30,000 games per configuration, six archetypes × four scenarios, sides swapped) found:
-> - At **500** a crew is only **2–4 models**, and the mandatory Leader eats **34%** of the budget against Match Play's 24%.
-> - **A shooting list cannot be built at 500.** Gunline won **18%**. Leader + rifle (270) + Fighter + rifle (175) = 445, and the cheapest third body is 65 — so a rifle-armed Leader puts the crew **below this note's own three-model minimum**.
-> - **Six rank ladders were swept** — the one above, Match Play prices, skills-charged, and body-scale ×0.75 / ×0.5 / ×0.35. Spread never fell below **21 points**, and the only ladder that reached it did so by shrinking every crew to two models. **No ladder fixes it.**
-> - **Sweeping the cap does.** Holding this ladder fixed: 500 → **46**-point spread · 625 → **32** · 750 → **32** · 875 → 37 · 1000 → 36. The penalty is specific to 500 and disappears by 625.
+> [!check] The old Campaign-Start squeeze was fixed by the rebuild, not by a cap change
+> A 2026-08-05 sweep (`campaign500.py`, 30,000 games per configuration) found the 500-cap crew badly squeezed: **2–4 models**, the mandatory Leader eating **34%** of the budget, and **a shooting list that could not be built at all** (Gunline won 18%, because Leader + rifle at the old prices was 270 Credits on its own). Six rank ladders were swept and none fixed it; only raising the cap did.
 >
-> The cleanest fix is therefore **not** a new rank ladder — it is to raise the Campaign Start cap to about **625–750**, or to cut the price of the mandatory Leader specifically. Left as-is pending your call.
+> **The weapon reprice dissolved the problem from the other side.** On the 850 scale a rifle costs **35**, not 130 — so a Leader with an Assault Rifle is **220 of 425**, not 270 of 500, and a three-to-four model Campaign Start crew can carry real guns. The end-to-end check is `catalogue-validation-n1500`: at equal Crew Rating the win-rate spread across four archetypes tightened from **31–70%** to **41–61%**.
+>
+> **Still open:** the one remaining structural skew is that **Assault — the melee archetype — loses every matchup** (61.2% against it at worst). Whether melee is overpriced or `hold_claim` simply undervalues closing cannot be separated at 1-of-5 scenario coverage. That is a table question now.
 
 ### The pyramid — two versions
 > **Match Play:** exactly one Leader. Every Specialist requires two fighters of lower rank. Every Recruit requires one Fighter or better. Minimum four fighters.
@@ -100,31 +98,29 @@ The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed
 | Armour | Injury | Credits |
 |---|:--:|:--:|
 | None / Thick clothing | 0 | **0** |
-| Light | −1 | **60** |
-| Heavy | −2 | **100** |
+| Light | −1 | **10** |
+| Heavy | −2 | **20** |
 
 ^tbl-armour-equipment
 
-> [!success] Armour: 60 / 100 is the better number — re-measured 2026-08-05
-> Two prices were live. [[Full Rules System v1]] §15 printed **60 / 100** (above); the costing engine `test-bench/points/ticks.py` carried **30 / 60**, marked *[measured]* — a **2× gap on every armoured fighter in the game**, and unresolvable, because `POINTS-COMPLETION-PLAN.md` M2 records that the file both `ticks.py` and `POINTS-TABLE.md` §7 cite as its source (`balance/armourprice.py`) **does not exist in the repo**.
+> [!success] Armour is **measured**, not argued — and the doc/engine split is closed
+> The old 30/60-vs-60/100 fight is over. Both were priors: the engine's 30/60 cited `balance/armourprice.py`, **a file that has never existed in any commit on any branch**, and the doc's 60/100 came from a single 500-cap sweep. Armour has since been **measured directly with zero prior** (`armour-level-n2500`) and lands at **10 / 20** on the 850 scale.
 >
-> `campaign500.py armour` swapped only these two numbers and held everything else fixed, 30,000 games per side:
+> **Corroborated by rebuild-to-pay**, which denominates armour in weapons surrendered rather than in a prior: `light + (rifle→pistol)` measures **+0.140 ± 0.200 — fair trade, parity**, with Heavy bracketed on both sides. First time an armour price here has been expressed in a measured quantity.
 >
-> | Armour price | Armoured crew win % | Overall spread |
-> |---|:--:|:--:|
-> | engine 30 / 60 | **64%** — top of the table | 46 |
-> | **doc 60 / 100** | **51%** — mid-table | **37** |
->
-> At 30 the Armoured list is the best crew in the game; at 60 it is an average one, and the whole field tightens by 9 points. **Adopt 60 / 100 and correct `ticks.py`.** One caveat kept honest: at 60 the Armoured crew drops to two models, so part of that fall is affordability rather than pricing, and this was measured at a 500 cap only. Worth repeating at 1000 before it is called settled.
+> **Heavy is not twice Light**, and that question is closed: the "each point is −10% so −2 must cost 2×" argument runs on the wrong quantity, because linear in injury *probability* is not linear in *win-points*. Measured ratio **1.745 ± 0.416**.
 
 *Armour carries no drawbacks, and the ladder is linear — each point is a flat −10% on the Injury roll, so Heavy costs exactly twice Light. Improvised was cut once its penalty went; it was Light armour under a second name. Full note in [[Weapons#3 · Armor]].*
 
 | Equipment | Effect | Credits |
 |---|---|:--:|
-| Med-Kit | Cancels the −2 on Stabilize / treating Bleed & Poison ([[Damage]]) | **40** |
-| Breach Kit | **+1 to the hack test** ([[Hacking]]) | **40** |
-| Deployable | Turret · mine · trap · beacon — full costed catalogue in [[Deployables]] | **30–180** |
-| Exploit Suite | **+2 to the hack test** ([[Hacking]]) | **80** |
+| Med-Kit | Cancels the −2 on Stabilize / treating Bleed & Poison ([[Damage]]) | **20** |
+| Breach Kit | **+1 to the hack test** ([[Hacking]]) | **20** |
+| Exploit Suite | **+2 to the hack test** ([[Hacking]]) | **40** |
+| Deployable | Turret · mine · trap · beacon — see [[Deployables]] | **5–25** *(9 of 24 priced)* |
+
+> [!warning] Four lines is the whole equipment catalogue
+> Every fighter carries **two** equipment slots and there are effectively two things worth putting in them. This is the thinnest catalogue in the game and the cheapest to widen — equipment is the one category that can add breadth **without touching the combat maths**, because most of it modifies a test that already exists. Flagged, not fixed.
 
 ^tbl-armour-equipment-2
 
@@ -133,7 +129,7 @@ You keep a persistent **roster** and field a **crew** to the scenario's budget e
 
 > **Each Level a fighter has gained adds its own printed Credit cost to that fighter. Scars cost nothing and refund nothing.**
 
-Levels are a **fixed track**, not a freeform spend, and each rung has a price: 15 per stat point, 20/35/55 per T1/T2/T3 skill, 41 for the Level-7 wound. A fighter who runs the whole track carries **+241 Credits** over their rank body. Full table in [[Progression#Levels — the fixed advancement track]]. *(This replaces the old flat "+2 per Advance", which was written on the retired 100-point scale.)*
+Levels are a **fixed track**, not a freeform spend, and each rung has a price: a stat point off the **measured ladder** (not a flat rate), **10 / 20 / 30** per T1/T2/T3 skill, and **20** for the Level-7 wound. A fully-levelled fighter carries roughly **+140 Credits** over their rank body, depending on which stats they grew. Full table in [[Progression#Levels — the fixed advancement track]].
 
 That first half is the anti-snowball valve: **veterans crowd out rookies.** The longer a campaign runs, the smaller your crew gets — the war grinds you down to a handful of hardened survivors who then can't hold enough ground. Every campaign list becomes a real question: *field my best, or field the most?* See [[Progression]] · [[Campaign]].
 
@@ -160,8 +156,9 @@ Full detail in **[[Crew Sim — Findings]]**. Eight archetypes, all built to 100
 ## Open dials
 - [x] Rank names locked: **Recruit / Fighter / Specialist / Leader** — replaces the old Rabble/Recruit working titles.
 - [x] Scale moved to **1000 Credits**; the old 5/8/16/24 ladder is retired *(2026-08-05, [[Full Rules System v1]] §16)*.
-- [ ] Match Play **70/100/145/185 at 850** — bodies re-derived from the measured stat ladder 2026-08-19 and the scale halved 2026-08-20. Validated in the sim end-to-end (`catalogue-validation-n1500`: four archetypes at equal Crew Rating land in a 38–63% band), **not yet at a table**.
-- [ ] Campaign Start **70/100/145/185 at 425** — the separate Campaign-Start body table was retired 2026-08-19; both tiers now use one derived ladder and differ only in the cap and the starting skill count. The old 65/75/125/170 figures were never validated and the sim contradicted them.
+- [x] Match Play **70/100/145/185 at 850** — bodies re-derived from the measured stat ladder 2026-08-19, scale halved 2026-08-20, propagated to every note 2026-08-27. Validated in the sim end-to-end (`catalogue-validation-n1500`: spread tightened 31–70% → **41–61%**), **not yet at a table**.
+- [x] Campaign Start **70/100/145/185 at 425** — the separate Campaign-Start body table is retired; both tiers use one derived ladder and differ only in the cap and the starting skill count.
+- [ ] **Assault (melee) loses every matchup** — the one remaining structural skew in `catalogue-validation-n1500`. Cannot be separated from single-scenario coverage without table data.
 - [ ] NRV is close to a dead stat at Fighter level; it earns its keep only through Bravery *skills*.
 
 ## Rule ledger

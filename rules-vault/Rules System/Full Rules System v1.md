@@ -373,27 +373,29 @@ The gear a crew **builds and plants on the board** to deal or deny damage — tu
 
 **Destruction/repair** reuses the Feature-damage engine (§6): WND 1, Armor −2, Heavy cover unless attacker within 6". One hit → Offline (repairable, INT 7+ adjacent). Second hit while Offline → Destroyed for the battle.
 
-> **[FIXED — Credits conversion]** These costs are now on the 1000-Credit scale, using the same **×10** ratio the vault's own note anchors itself to (its stated anchor: Trap 4→40, Med-Kit 4→40, Molotov 9→90, Assault Rifle 13→130 — exactly the ratio already used to price the sample armoury in §15). The old small-point numbers below the line are gone; this table is the only one that matters now.
+> **[REPRICED 2026-08-27 — the gear scale, at last]** The ×10 conversion these costs used to carry priced deployables against the **body** scale, which is why a Burst Turret cost 189% of the Fighter deploying it. They are now derived the way the costing engine states: **a deployable prices at the weapon class it mounts** — the persistence premium and the immobility/destructibility discounts cancel — and every entry is held under the gear:body cap. Source: `test-bench/points/ticks.py` · `DEPLOYABLE_CREDITS`.
+>
+> **Nine of twenty-four entries are priced.** The rest are marked **[UNPRICED]** and are *not legal to field* until the engine carries them. That is deliberate: an untagged number is the exact defect the points rebuild exists to remove, and inventing fifteen of them here would reintroduce it. The derivation rule above is written down, so pricing them is a short job — it just has to happen in the engine, not in this document.
 
 ### Family A — Turrets *(standing, repairable, both equipment slots)*
 Holds a Ready reaction; auto-fires once/round at the first enemy that Moves/acts in range+LOS, no facing (360°), never moves. An enemy hacker can hijack, deactivate, or turn one against its own side.
 
 | Turret | Build | Range | Credits | Profile |
 |---|---|---|:--:|---|
-| Autoturret | Complex −1 | 18" | 120 | 1 shot/round, Damage +3 |
-| Sniper Turret | Intricate −2 | 24" | 150 | 1 shot/round, Damage +3, +1 to hit |
-| Burst Turret | Intricate −2 | 18" | 180 | 2 shots/round, Damage +2 each |
-| Blast Turret | Complex −1 | 12" | 140 | 1 shot/round, Damage +3, Blast 2" |
-| Reinforced Turret | Complex −1 | 18" | 150 | 1 shot/round, Damage +3, always Heavy cover (the within-6" Open clause doesn't apply) |
+| Autoturret | Complex −1 | 18" | **10** | 1 shot/round, Damage +3 — a sidearm on a tripod |
+| Sniper Turret | Intricate −2 | 24" | **25** | 1 shot/round, Damage +3, +1 to hit — a rifle on a tripod |
+| Burst Turret | Intricate −2 | 18" | **20** | 2 shots/round, Damage +2 each |
+| Blast Turret | Complex −1 | 12" | **15** | 1 shot/round, Damage +3, Blast 2" |
+| Reinforced Turret | Complex −1 | 18" | **15** | 1 shot/round, Damage +3, always Heavy cover (the within-6" Open clause doesn't apply) |
 
 ### Family B — Mines *(spent-on-trigger, concealed, one slot)*
 Built like a weapon: chassis + one payload.
 
-**Chassis:** Proximity (50 Cr, 3" template, triggers on enemy Move inside) · Remote (70 Cr, 6" trigger radius, owner command-detonates as a Reaction — buying one grants 1 live + 3 dummy markers as a bluff kit). *(The **Seeker** chassis is parked — see the rejected log in §15.)*
+**Chassis:** Proximity (**5 Cr**, 3" template, triggers on enemy Move inside) · Remote (**[UNPRICED]**, 6" trigger radius, owner command-detonates as a Reaction — buying one grants 1 live + 3 dummy markers as a bluff kit). *(The **Seeker** chassis is parked — see the rejected log in §15.)*
 
-**Payload (buy exactly one):** Explosion (+40 Cr, Damage +3, Blast) · Fire (+30 Cr, Blast Damage +2 + Fire hazard) · Poison (+30 Cr, 3" Poison hazard, no direct Injury) · Shock (+30 Cr, Blast, no Injury — Shocked+Blind) · Smoke (+20 Cr, no damage, 3" Dense Smoke).
+**Payload (buy exactly one) — all five [UNPRICED].** Explosion (Damage +3, Blast) · Fire (Blast Damage +2 + Fire hazard) · Poison (3" Poison hazard, no direct Injury) · Shock (Blast, no Injury — Shocked+Blind) · Smoke (no damage, 3" Dense Smoke).
 
-*Examples:* Proximity + Explosion = 90 Cr · Remote + Poison = 100 Cr · Seeker + Explosion = 120 Cr · Proximity + Smoke = 70 Cr.
+> **Why the payloads are held rather than guessed.** A mine payload's natural neighbour is the weapon characteristic it mirrors — and three of those five characteristics (Toxic, and the Blast/Shock pair's partners) sit inside the **blocked-payload problem** in §15. Pricing a mine off a trait that measures negative would bake the same defect into a second catalogue. These unlock the moment the payload rule is ruled on.
 
 ### Family C — Traps *(spent-on-trigger, concealed, one slot — deny movement, not kill)*
 Trip Wire (30 Cr, 1" trigger → Prone) · Spike Strip (40 Cr, 3" area, Difficult + Hobbled) · Covered Pit (50 Cr, concealed 2" hole → FALL + Snared) · Leg Clamp (50 Cr, 1" trigger → Snared) · Razor Barrier (40 Cr, 3" Impassable wall, Force STR 7+ to break through, Hobbled on success).
@@ -479,7 +481,7 @@ Each **+1** ≈ +10% on a core test, bounded 10–90%. **Max is +6.**
 
 A rank grants **more points than can spike into one stat** — tier caps force the spread, so a Fighter (5 pts, max 2×T1) builds something like `STR+2 / INT+2 / AGI+1`, not one giant number. Only a **Leader** ever reaches T3. Recruits get no tiered stat and no skills — pure chaff/screen bodies, not a melee force. **Rank is also a weapon gate** (§16) — a Recruit physically cannot hold a rifle. **Rank rises only via deliberate promotion into an open slot** (§27), never automatically.
 
-**Fielding costs live in §17 (List Building), on the 1000-Credit scale — the old 5/8/16/24 ladder from this note is deprecated (see the scale note in §30).**
+**Fielding costs live in §16 (List Building), on the 850-Credit scale — the old 5/8/16/24 ladder is deprecated, and so is the 1000-Credit scale that replaced it.**
 
 ---
 
@@ -536,28 +538,49 @@ Skills are the **third lever**: stats decide if you hit, weapons decide how bad,
 
 ---
 
-## 15 · Weapons — Construction System **[DRAFTED mechanics, reconciled to the 1000-Credit scale]**
+## 15 · Weapons — Construction System **[DRAFTED mechanics · prices from the 850-Credit shipping catalogue]**
 
 Weapons are **built, not bought off a shelf**: pick a Class, spend Credits on Characteristics, name the result.
 
 > **Design contract:** (1) a weapon never grants an effect a skill grants — weapons do damage/range/armor/conditions/noise/concealment, skills do extra actions/reactions/exceptions/positioning. (2) Weapons apply conditions, never define them (§10). (3) A hit does exactly one thing — wounds, or delivers its payload, never both.
 
-### Weapon classes
+### Weapon classes — the class is an ENVELOPE, not a value
 
-| Class | Credits | Damage | Range | Min rank | Always has |
+**The class sets the Damage and Range *bands*; the weapon picks inside them and pays for what it picked.**
+
+```
+weapon cost = class base (slots) + Damage steps + range + characteristics − drawbacks
+```
+
+| Class | Damage | Range | Cheapest build | Min rank | Always has |
 |---|:--:|:--:|:--:|---|---|
-| Unarmed | 0 | +0 | melee | Any | — |
-| Light Melee | 0 | +1 | melee | Any | the free basic loadout |
-| One-Handed Melee | 40 | +2 | melee | Fighter | — |
-| Heavy Melee | 80 | +3 | melee | Specialist | Two-Handed |
-| Thrown | 20 | +1 | 6" | Any | usable in melee too; not Loud; exclusive to Blast/Smoke |
-| Sidearm | 40 | +2 | 8" | Any | may fire while Engaged, Loud |
-| Standard Ranged | 100 | +3 | 18" | Fighter | Two-Handed, Loud |
-| Heavy Ranged | 140 | +3 | 24" | Specialist | Two-Handed, Loud |
+| Unarmed | +0 | melee | **0** | Any | — |
+| Light Melee | +1 | melee | **0** | Any | the free basic loadout |
+| One-Handed Melee | **+1 to +3** | melee | **0** | Any | — |
+| Heavy Melee | **+2 to +4** | melee | **10** | Specialist | Two-Handed |
+| Thrown | **+1 to +2** | 8" | **5** | Any | usable in melee too; not Loud; exclusive to Blast/Smoke |
+| Sidearm | **+1 to +3** | 6"–12" | **5** | Any | may fire while Engaged, Loud |
+| Standard Ranged | **+2 to +4** | 12"–36" | **15** | Fighter | Two-Handed, Loud |
+| Heavy Ranged | **+3 to +5** | 12"–36" | **25** | Specialist | Two-Handed, Loud |
 
-**Hard ceilings — load-bearing, don't move these:** Damage stops at **+4** (Brutal only, gated behind Short Range on ranged weapons). Range stops at **24"** — deployment zones sit 24" apart, so anything reaching 24" fires from its own deployment zone turn one; sim found an uncapped long-range crew beating every other list by 13–30 points.
+> **Why bands, and why this replaced one fixed value per class (2026-08-14).** A fixed value made weapon class a global damage tier: a .22 and a Magnum could not both be One-Handed, and a snub-nose and a long-barrel could not both be Sidearms. It also crushed the damage axis flat — Standard Ranged, Heavy Melee and Heavy Ranged all sat at +3 against a +4 cap, so a basic rifle, a great axe and a machine gun shared a tier with one step of headroom.
+>
+> The bands **overlap deliberately**: Heavy Melee overlaps the top of One-Handed and reaches higher; nothing shoulder-fired is a .22, so Standard Ranged floors at +2; Heavy Ranged floors at +3.
 
-**Rank gates the class:** Recruit → Unarmed/Light Melee/Sidearm/Thrown only. Fighter adds One-Handed Melee + Standard Ranged. Specialist adds Heavy Melee + Heavy Ranged. Leader → everything.
+**Damage stops at +5.** Armour only runs to −2, and the ceiling is what stops the armour ladder becoming decorative. **Only Heavy Ranged reaches +5.**
+
+**Range reaches 36", and everything past 24" is GATED, never priced.** Deployment zones sit 24" apart, so a 24" weapon fires from its own deployment zone on turn one and a **36"** weapon fires from **12" behind it**, covering the whole board from a square the enemy needs a round of sprinting to threaten. That is a **threshold**, and no points cost can balance a threshold — the sim found an uncapped long-range crew beating every other list by **13–30 points**, larger than any single atom in the catalogue. So past 24" a weapon must clear **four gates**:
+
+| Gate | Rule |
+|---|---|
+| **Manufactured only** | Cannot be crafted at **any** Workshop tier. Loot and raid spoils only. |
+| **Limit 1 per crew** | The finding was a *list archetype*; this destroys the archetype rather than taxing it. |
+| **Specialist or above** | The carrier is an expensive body in its own right. |
+| **Steep price** | The cost step accelerates sharply across 24". |
+
+A 36" rifle is a **rare, expensive, found weapon a crew builds a plan around** — never standard kit. All four gates are enforced in the costing engine, not merely written here.
+
+**Rank gates the class:** Recruit → Unarmed / Light Melee / **One-Handed Melee** / Sidearm / Thrown. Fighter adds **Standard Ranged**. Specialist adds Heavy Melee + Heavy Ranged. Leader → everything. **A Recruit still physically cannot hold a rifle** — that is the gate doing the load-bearing work; a machete is not.
 
 ### Characteristics (one slot each; ~30 Credits typical, scaled from the vault's point costs)
 
@@ -597,9 +620,11 @@ Armor reduces the Injury roll only, never the hit. **Carries no drawbacks** — 
 
 | Armor | Injury | Cost |
 |---|:--:|:--:|
-| None / Thick clothing | 0 | 0 |
-| Light | −1 | 60 |
-| Heavy | −2 | 100 |
+| None / Thick clothing | 0 | **0** |
+| Light | −1 | **10** |
+| Heavy | −2 | **20** |
+
+*Measured, not derived — `armour-level-n2500`, with zero prior. **Heavy is not twice Light**: linear in injury probability does not imply linear in win-points, because the second point buys survival on a model already surviving more often. Measured ratio **1.745 ± 0.416**; the individual values are what get used.*
 
 *(Improvised armor is cut — with its drawback gone it was just Light armor under another name.)*
 
@@ -607,29 +632,68 @@ Armor reduces the Injury roll only, never the hit. **Carries no drawbacks** — 
 
 | Gear | Modifier | Cost |
 |---|:--:|:--:|
-| Bare-handed | +0 | 0 |
-| Breach Kit | +1 | 40 |
-| Exploit Suite | +2 | 80 |
+| Bare-handed | +0 | **0** |
+| Breach Kit | +1 | **20** |
+| Exploit Suite | +2 | **40** |
 
-### Sample armoury *(names and builds preserved from the vault; Credits recomputed on the 1000 scale from class + characteristic costs above)*
+### Sample armoury *(generated from the costing engine, 850 scale — `py -3.13 -m points`)*
 
-Baseball Bat (Light Melee, 0) · Kitchen Knife (Light Melee·Balanced·Concealable) · Crowbar (One-Handed·Breaching, ~70) · Great Axe (Heavy Melee, 80) · Sledgehammer (Heavy Melee·Heavy Impact·Breaching, ~140) · Fire Axe (Heavy Melee·Brutal·Bleeding, ~160) · Reaping Hook (Heavy Melee·Cleaving·Defensive, ~160) · Pistol (Sidearm, 40) · Pipe Shotgun (Standard Ranged·Brutal·Spread·Short Range·Unstable, ~120) · Assault Rifle (Standard Ranged·Accurate, ~130) · Nailgun (Standard Ranged·Bleeding, ~140) · Grandpa's Hunting Rifle (Standard Ranged·Accurate·Long Range, ~190) · Squad Machine Gun (Heavy Ranged·Suppressive·Armour Piercing, ~220) · Makeshift Flamethrower (Heavy Ranged·Incendiary·Blast·Short Range·Single-Use, ~150) · Molotov (Thrown·Incendiary·Blast·Single-Use, ~90) · Smoke Grenade (Thrown·Smoke·Single-Use, ~50).
+| Name | Build | Cr |
+|---|---|:--:|
+| Baseball Bat | Light Melee | **0** |
+| Kitchen Knife | Light Melee · Balanced | **10** |
+| Machete | One-Handed Melee | **10** |
+| Crowbar | One-Handed Melee · Breaching | **25** |
+| Magnum | Sidearm · Brutal · *Short Range* | **30** |
+| Great Axe | Heavy Melee | **20** |
+| Sledgehammer | Heavy Melee · Heavy Impact · Breaching | **50** |
+| Fire Axe | Heavy Melee · Brutal · Bleeding | **50** |
+| Reaping Hook | Heavy Melee · Cleaving · Defensive | **50** |
+| Pistol | Sidearm | **15** |
+| Snub Revolver | Sidearm | **15** |
+| Pipe Shotgun | Standard Ranged · Brutal · Spread · *Short Range* · *Unstable* | **35** |
+| Assault Rifle | Standard Ranged · Accurate | **35** |
+| Nailgun | Standard Ranged · Bleeding | **35** |
+| Grandpa's Hunting Rifle | Standard Ranged · Accurate · Long Range | **40** |
+| Squad Machine Gun | Heavy Ranged · Suppressive · Armour Piercing | **55** |
+| Makeshift Flamethrower | Standard Ranged · Incendiary · Blast · *Short Range* · *Single-Use* | **20** |
+| Molotov | Thrown · Incendiary · Blast · *Single-Use* | **10** |
+| Smoke Grenade | Thrown · Smoke · *Single-Use* | **15** |
+| Ranger's Long Rifle | Heavy Ranged · 36" *(manufactured, limit 1)* | **55** |
+
+*Nineteen of twenty moved when the rebuild landed — the armoury total fell **1950 → 575**. A rifle now costs 35 against a 100-Credit Fighter; it used to cost 100 against 95, which is the single line the rebuild was commissioned to fix.*
+
+> ### ⛔ Five payloads are BLOCKED — they do not ship
+> **Crippling, Concussive, Blinding, Hook and Toxic all measure at or below zero net value**, three of them significantly. The game would be selling a player a downgrade at any price.
+>
+> The cause was measured, not assumed. A payload lands **in place of** the ordinary non-wounding result, and on a ranged hit that result is **Pinned — worth +0.510 and significant**. So a payload's value is what it does *minus what it displaces*. Blind is the tell: it measures **+0.369 and positive** and still prices negative, purely because Pinned is worth more.
+>
+> **This is a RULES decision, not a pricing one.** Replace-not-stack was designed when Pinned was believed to be worth roughly zero. It is one miscalibrated rule, not five broken traits — and until it is ruled on, these five are not legal to buy.
 
 > **[SIM-CONFIRMED — `PACKET-TEST-RESULTS.md` T5]** The one-payload-per-weapon cap is worth keeping, but **not because stacking is explosive** — it isn't. A second payload measured +3.3 win-points (real but sharply diminishing against the first payload's +15.5); a third measured zero (a known rules defect in how Crippling/Concussive price, not evidence the cap doesn't matter). **This is a readability/bookkeeping choice, not a balance emergency** — keep the cap, but justify it that way.
 
 ### Cut, and why (kept so it doesn't creep back)
 
-Seeker mine (self-moving munition) — parked, not rejected. A moving munition on a 3'×3' board is an edge-case factory: does it draw Reactions? trigger traps? get shot as a Feature? what is its facing? Revisit once the Edge Cases audit exists; Proximity and Remote carry the family fine, and Remote's bluff kit is the interesting one anyway. Rapid (extra attack) — it *is* Quick Shot, a T3 skill; selling it as a cheap characteristic destroys the skill economy. Precision (flat +1 hit) — strictly better than Dead Eye; replaced by conditional Accurate. Reliable (re-roll) — no re-roll mechanic exists anywhere else in the game. Quick Draw (fire after Sprinting) — Sprint uses both slots, there's no Action left. Crushing (ignore cover on Injury) — cover never touches Injury, that's load-bearing. Awkward — free points on a static shooter. Intimidating (Stress aura) — parked, too volatile given Stress-cascade findings.
+Seeker mine (self-moving munition) — parked, not rejected. A moving munition on a 3'×3' board is an edge-case factory: does it draw Reactions? trigger traps? get shot as a Feature? what is its facing? Revisit once the Edge Cases audit exists; Proximity and Remote carry the family fine, and Remote's bluff kit is the interesting one anyway. Rapid (extra attack) — it *is* Quick Shot, a T3 skill; selling it as a cheap characteristic destroys the skill economy. Precision (flat +1 hit) — strictly better than Dead Eye; replaced by conditional Accurate. Reliable (re-roll) — no re-roll mechanic exists anywhere else in the game. Quick Draw (fire after Sprinting) — Sprint uses both slots, there's no Action left. Crushing (ignore cover on Injury) — cover never touches Injury, that's load-bearing. Awkward — free points on a static shooter. Intimidating (Stress aura) — parked, too volatile given Stress-cascade findings. **Concealable** (may start Hidden / smuggle past a search) — **cut 2026-08-14**: both halves are edge cases that do nothing in a typical battle, and it breaks the design contract at the top of this section, because "may start Hidden" is *positioning*, which is skill territory (Vanishing Point and Camouflage Drill already do it properly). **Quiet is NOT cut** — no-reveal / no-alarm-trip is a real mechanical axis that interacts with Hidden and with sensor deployables.
 
 ---
 
-## 16 · List Building **[DRAFTED shape, reconciled to the 1000-Credit scale]**
+## 16 · List Building **[DRAFTED shape · 850-Credit scale]**
 
 > **The core claim:** points buy **bodies and guns**. Stats and skills are free — rank already caps them, so pricing them again would double-count. The board prices stats (terrain density, not points, decides whether a Shooter or a Grabber wins); points price the only two things whose value doesn't depend on the mission — a body, and the weapon in its hands.
 
 ### Crew Rating
 
-**Standard cap: 1000 Credits.** *(75%/150% for raid/pitched variants, scaled from the old 75/150-point convention.)*
+**Standard cap: 850 Credits** *(Match Play)* · **425** *(Campaign Start)*.
+
+| Format | Cap |
+|---|:--:|
+| **Match Play** — a one-off game, no campaign attached | **850** |
+| Raid variant *(75%)* | **640** |
+| Pitched variant *(150%)* | **1275** |
+| **Campaign Start** — a fresh crew entering the settlement layer | **425** |
+
+*The 1000/500 pair is **retired**. The scale rebased 1000 → 1700 when bodies moved onto the measured stat ladder, then halved to **850** on 2026-08-20 so a standard crew is still six models rather than four.*
 
 ```
 crew_rating = sum(body + equipped weapons + armour + equipment) for each fielded fighter
@@ -642,7 +706,7 @@ crew_rating ≤ agreed cap
 
 > **[NEW — Match Play vs. Campaign Start split]** These are genuinely different fighters, not the same table at two prices. A **Match Play** crew is built once for a single game with no persistence — it gets the richer starting kit because there's no other chance for those fighters to develop. A **Campaign Start** crew is meant to grow through the Level track (§26.1), so it starts leaner and earns its way to the same place over real play.
 
-**Match Play** — one-off games, no campaign attached. Standard **850** Crew Rating cap.
+**Match Play** — one-off games, no campaign attached. Standard **850** Crew Rating cap. Rank bodies are identical in both tiers; the tiers differ only in the **cap** and the **starting skill count**.
 
 | Rank | Stat pts | Starting skills | Orders | Credits |
 |---|:--:|:--:|:--:|:--:|
@@ -718,9 +782,11 @@ Every settlement begins with, free: **HQ** (command, 12 housing) · **Generator*
 
 ### 17.3 · Founding budget **[NEW]**
 
-**250 Materials + 150 Credits.** 250 Materials ≈ two Tier-1 structures. Full 23-structure catalogue open from turn one, no prerequisites.
+**125 Materials + 75 Credits.** 125 Materials is still ≈ **two Tier-1 structures** on the 850 scale — the stated design intent, preserved through the rescale. Full 23-structure catalogue open from turn one, no prerequisites.
 
-> **[SIM-CONFIRMED — T12]** A normal battle reward (65 Credits + 33 Materials) funds ~1 Recruit; a Tier I structure takes ~3.0 battles. Matches design targets once real prices are applied.
+*(Was 250 + 150. Materials halved along with Credits on 2026-08-20; leaving the budget at 250 against halved structure costs would have quietly doubled a founding player's buying power.)*
+
+> **[SIM-CONFIRMED — T12, rescaled]** A normal battle reward of **70 Credits + 15 Materials** funds **~1 Recruit**, and a Tier I structure takes **~3 battles**. Those two ratios are the finding; the raw numbers moved with the 850 rescale and were re-derived to preserve them. A fighter is an impulse buy, a building is a campaign-scale commitment.
 
 ---
 
@@ -744,10 +810,12 @@ HQ (a little of everything) · Gatherer buffer (a little of its own resource, ea
 
 | Store | Capacity *(provisional)* | Raidable? |
 |---|---|---|
-| HQ | **150 Credits + 150 Materials** | Yes |
-| Gatherer buffer (each) | **30 of its own resource** | Yes — and first to go |
-| Storehouse (each) | **+250 combined**, any mix | Yes — the raid target |
-| Vault | **150 combined** | **No** — Sabotage/hack only, never raid loot |
+| HQ | **75 Credits + 75 Materials** | Yes |
+| Gatherer buffer (each) | **15 of its own resource** | Yes — and first to go |
+| Storehouse (each) | **+125 combined**, any mix | Yes — the raid target |
+| Vault | **75 combined** | **No** — Sabotage/hack only, never raid loot |
+
+*(Halved with the rest of the economy on the 850 rescale. Still provisional — these are the numbers §29 lists as genuinely open.)*
 
 ^tbl-storage-caps
 
@@ -763,56 +831,60 @@ HQ (a little of everything) · Gatherer buffer (a little of its own resource, ea
 
 ### Sustain
 | Structure | Class | Size | Pwr | Materials | Effect |
-|---|---|---|---|---|---|
-| Generator ★ | Plant | 3×3 | +5 | 40 | Power |
-| Bunkhouse | Building | 6×9 | −1 | 115 | +6 housing |
-| Storehouse *(repeatable)* | Building | 6×6 | −1 | 90 | Bulk storage; raid target |
-| Equipment Shed→Armory | Station→Building | 3×2→6×6 | 0→−2 | 40→168 | Unequipped-gear cap |
+|---|---|---|---|:--:|---|
+| Generator ★ | Plant | 3×3 | +5 | **20** | Power |
+| Bunkhouse | Building | 6×9 | −1 | **60** | +6 housing |
+| Storehouse *(repeatable)* | Building | 6×6 | −1 | **50** | Bulk storage; raid target |
+| Equipment Shed→Armory | Station→Building | 3×2→6×6 | −1→−2 | **25 → 96** | Unequipped-gear cap |
 
 ### Convert
 | Structure | Class | Size | Pwr | Materials | Effect |
-|---|---|---|---|---|---|
-| Processor ★ | Plant | 3×5 | −1 | 80 | Materials gatherer |
-| Salvage Yard ★ | Yard | 5×7 | −1 | 80 | Credits gatherer |
-| Trader's Kiosk→Trade House | Station→Building | 3×2→6×6 | −1→−2 | 75→224 | Sell gear; convert resources (below) |
-| Workbench→Workshop | Station→Building | 3×2→6×8 | −1→−2 | 75→224 | Craft/repair; unlocks weapon/armour/chem branches |
-| Fabricator→Robotics Workshop→Advanced Weapons Lab | Building | 6×6→6×8→6×10 | −1/−2/−3 | 125→~200→~330 | Research tiers; T3 unlocks the 2051 arsenal |
+|---|---|---|---|:--:|---|
+| Processor ★ | Plant | 3×5 | −1 | **45** | Materials gatherer |
+| Salvage Yard ★ | Yard | 5×7 | −1 | **45** | Credits gatherer |
+| Trader's Kiosk→Trade House | Station→Building | 3×2→6×6 | −1→−2 | **45 → 128** | Sell gear; convert resources (below) |
+| Workbench→Workshop | Station→Building | 3×2→6×8 | −1→−2 | **45 → 128** | Craft/repair; unlocks weapon/armour/chem branches |
+| Fabricator→Robotics Workshop→Advanced Weapons Lab | Building | 6×6→6×8→6×10 | −1/−2/−3 | **70 → 110 → 195** | Research tiers; T3 unlocks the 2051 arsenal |
+
+*The Fabricator's two upper tiers are **[C-tier, derived]** — the engine carries the T1 entry and the ladder's own `UPGRADE_MULT` (×1.60, ×1.75); it does not yet carry the named T2/T3 forms as rows.*
 
 ### Operate
 | Structure | Class | Size | Pwr | Materials | Effect |
-|---|---|---|---|---|---|
-| HQ ★ | Building | 6×6 | −1 | 130 | Campaign actions, 12 housing, dispatch |
-| Vault *(HQ add-on)* | Plant | 3×3 | −1 | 95 | Secure storage |
-| Scout Post | Plant | 3×3 | −1 | 95 | Pre-battle info |
-| Comms Mast | Plant | 3×3 | −1 | 95 | Mission-quality rerolls |
-| Server Core | Building | 6×6 | −2 | 232 | Rival intel; friendly terminals Linked |
-| Drone Bay | Building | 6×8 | −2 | 272 | Drone deployables; free recon mission |
+|---|---|---|---|:--:|---|
+| HQ ★ | Building | 6×6 | −1 | **70** | Campaign actions, 12 housing, dispatch |
+| Vault *(HQ add-on)* | Plant | 3×3 | −1 | **50** | Secure storage |
+| Scout Post | Plant | 3×3 | −1 | **50** | Pre-battle info |
+| Comms Mast | Plant | 3×3 | −1 | **50** | Mission-quality rerolls |
+| Server Core | Building | 6×6 | −2 | **128** | Rival intel; friendly terminals Linked |
+| Drone Bay | Building | 6×8 | −2 | **144** | Drone deployables; free recon mission |
 
 ### Recover
 | Structure | Class | Size | Pwr | Materials | Effect |
-|---|---|---|---|---|---|
-| Med-bay | Building | 6×6 | −1 | 120 | **+1 to Fate roll** *(NEW)*; T2 heals scars |
-| Holding Cells | Building | 6×6 | −1 | 120 | Prisoner capacity |
-| Mess Hall | Building | 6×8 | −1 | ~120 | **Once/battle, one fighter clears 1 Stress free** *(NEW)* |
+|---|---|---|---|:--:|---|
+| Med-bay | Building | 6×6 | −1 | **65** | **+1 to Fate roll**; T2 heals scars |
+| Holding Cells | Building | 6×6 | −1 | **65** | Prisoner capacity |
+| Mess Hall | Building | 6×8 | −1 | **75** | **Once/battle, one fighter clears 1 Stress free** |
+
+*Mess Hall was the only one of the 23 structures with **no derived cost anywhere** — it carried "~120", flagged as a guess. It is now in the costing engine and priced by the same formula as every peer (2026-08-27).*
 
 ### Defend
 | Structure | Class | Size | Pwr | Materials | Effect |
 |---|---|---|---|---|---|
-| Perimeter Wall | Line | 6" segments | 0 | 85/seg | Shapes the raid board |
-| Gatehouse | Building | 6×6 | −1 | 135 | Chokepoint |
-| Watchtower | Plant | 3×3 | 0 | 100 | Defender starts a model in it |
-| Turret Mount | Plant | 2×2 | −2 | 184 | Auto-deploy turret hardpoint (still costs Credits to field) |
-| EW Mast | Plant | 3×3 | −2 | 184 | Counter-hack/drone |
+| Perimeter Wall | Line | 6" segments | −1 | **50**/seg | Shapes the raid board |
+| Gatehouse | Building | 6×6 | −1 | **75** | Chokepoint |
+| Watchtower | Plant | 3×3 | −1 | **55** | Defender starts a model in it |
+| Turret Mount | Plant | 2×2 | −2 | **104** | Auto-deploy turret hardpoint (still costs Credits to field) |
+| EW Mast | Plant | 3×3 | −2 | **104** | Counter-hack/drone |
 
 **Trader conversion** *(NEW)*: **Kiosk** sells 2 Materials → 1 Credit and buys 2 Credits → 1 Material. **Trade House** does 3 Materials → 2 Credits and 3 Credits → 2 Materials. An assigned worker adds +10% yield, round down. **Convert in one direction only per Settlement Phase** — the spread means no conversion loop is ever profitable. *(Rates provisional.)*
 
-**Repair: flat 30 Materials/structure** *(NEW)*. **HQ tiers** *(NEW, first-draft)*: HQ I (starter, 1 dispatch/12 housing) → HQ II (210 Mat, 2 dispatch/18 housing, unlocks Vault) → HQ III (370 Mat, 3 dispatch/24 housing). Groundworks I: 120 Mat. Groundworks II: 200 Mat.
+**Repair: flat 15 Materials/structure.** **HQ tiers** *(**[C-tier, derived]** from HQ I and the ladder's own `UPGRADE_MULT`)*: HQ I (starter, 1 dispatch / 12 housing) → **HQ II (110 Mat**, 2 dispatch / 18 housing, unlocks Vault) → **HQ III (195 Mat**, 3 dispatch / 24 housing). **Groundworks I: 60 Mat. Groundworks II: 100 Mat.**
 
 ### What winning a raid actually takes **[NEW]**
 
-**If the attacker wins a raid** they carry off **25% (round down) of the defender's stored Credits and 25% of stored Materials** — Vault contents excluded — **capped at 100 Credits + 100 Materials per raid**, plus whatever they looted or sabotaged in-battle. **If the defender wins,** the attacker keeps only what they physically looted during the battle.
+**If the attacker wins a raid** they carry off **25% (round down) of the defender's stored Credits and 25% of stored Materials** — Vault contents excluded — **capped at 50 Credits + 50 Materials per raid**, plus whatever they looted or sabotaged in-battle. **If the defender wins,** the attacker keeps only what they physically looted during the battle.
 
-**Floor:** raid theft never reduces a defender below **50 Credits and 50 Materials** — a settlement can be hurt, not deleted. *(The cap and the floor are the anti-death-spiral pair; both provisional.)*
+**Floor:** raid theft never reduces a defender below **25 Credits and 25 Materials** — a settlement can be hurt, not deleted. *(The cap and the floor are the anti-death-spiral pair; both provisional, and both halved with the 850 rescale.)*
 
 ---
 
@@ -936,7 +1008,7 @@ Follows immediately once Phase 1 is fully resolved. This is where the settlement
 Immediately before the next battle. Once a player has done everything they intend to in the Settlement Phase, they move here.
 
 1. **Choose the territory** (and therefore the scenario, per that territory's card, §23) for the next battle.
-2. **Set the Crew Rating cap** for the format being played (standard 1000, raid 750, pitched 1500 — §16).
+2. **Set the Crew Rating cap** for the format being played (Match Play 850, raid 640, pitched 1275, Campaign Start 425 — §16).
 3. **Build the roster.** Choose which owned fighters to field within housing (§20) and equip them within the Rating cap — weapons, armor, equipment, all per §15–16.
 4. **Resolve setup-time bonuses** — Faction battlefield rules (§24), Location founding benefits if still relevant, any territory-card modifiers.
 5. **Roll the Twist** (§12.7) once deployment is set, per standard Scenario setup.
@@ -963,18 +1035,31 @@ Immediately before the next battle. Once a player has done everything they inten
 
 | Level | Grants | Credits |
 |:--:|---|:--:|
-| **1** | +1 **any stat** (floating) | 15 |
-| **2** | +1 **Primary** stat | 15 |
-| **3** | **Skill slot** | 20 |
-| **4** | +1 **any stat** (floating) | 15 |
-| **5** | +1 **Primary** stat | 15 |
-| **6** | **Skill slot** | 35 |
-| **7** | **+1 WND** | 41 |
-| **8** | +1 **any stat** (floating) | 15 |
-| **9** | +1 **Primary** stat | 15 |
-| **10** | **Skill slot** — the capstone for a committed fighter | 55 |
+| **1** | +1 **any stat** (floating) | *ladder* |
+| **2** | +1 **Primary** stat | *ladder* |
+| **3** | **Skill slot** | **10** |
+| **4** | +1 **any stat** (floating) | *ladder* |
+| **5** | +1 **Primary** stat | *ladder* |
+| **6** | **Skill slot** | **20** |
+| **7** | **+1 WND** | **20** |
+| **8** | +1 **any stat** (floating) | *ladder* |
+| **9** | +1 **Primary** stat | *ladder* |
+| **10** | **Skill slot** — the capstone for a committed fighter | **30** |
 
-A fully-leveled fighter costs **+241 Credits** on top of their Rank body cost. **A fighter caps at Level 10** — further kills/Deeds/etc. still bank Resources and count for Glorious Deeds, but no longer advance the fighter further. Reaching Level 10 at all should be rare — surviving that long takes real luck. A Level 10 fighter is a **legend by civilian standards** — feared, storied, and still one bad round from the dirt. This game never makes anyone unkillable (see the WND ruling in *Out of Scope*, §4).
+**A stat level is priced off the measured ladder, not a flat rate** — this replaced the flat 15/point, which was wrong in *both* directions:
+
+| Rung | One-sided stat *(DEX, INT, NRV)* | Opposed stat *(STR, AGI)* |
+|:--:|:--:|:--:|
+| 0→1 | **20** | 15 |
+| 1→2 | **15** | 15 |
+| 2→3 | **15** | 15 |
+| 3→4 | **10** | 15 |
+| 4→5 | **10** | 15 |
+| 5→6 | **5** | 15 |
+
+*A one-sided stat is tested against a fixed TN, so it **saturates** — the sixth point improves a roll that is already passing. An opposed stat is tested against another model's stat, where the odds depend only on the gap, so it **cannot** saturate: STR measured flat to four decimals at every rung, and the structure predicted that before it was measured. INT and NRV take the one-sided ladder at ×0.8; AGI takes the opposed ladder at ×0.8 and is **engine-blocked**, priced by analogy only.*
+
+**A fully-levelled fighter costs roughly +140 Credits** on top of their Rank body, depending on which stats they grew — a Primary-DEX fighter who spends every floating level on DEX pays less at the top of the track than one spreading into STR. **A fighter caps at Level 10** — further kills/Deeds/etc. still bank Resources and count for Glorious Deeds, but no longer advance the fighter further. Reaching Level 10 at all should be rare — surviving that long takes real luck. A Level 10 fighter is a **legend by civilian standards** — feared, storied, and still one bad round from the dirt. This game never makes anyone unkillable (see the WND ruling in *Out of Scope*, §4).
 
 **MOV is not part of this track.** It stays exactly where it already was — Fleet (T2 AGI skill) is the only way to raise it. No collision, no separate MOV-swap option; keeping it purely skill-gated is cleaner narratively and avoids any interaction with Sprint/Charge distances at the top of the track.
 
@@ -986,9 +1071,9 @@ A fully-leveled fighter costs **+241 Credits** on top of their Rank body cost. *
 
 **Scar-healing is not part of this track.** It lives in two dedicated places instead: the Med-bay's T2 worker benefit (§22) and the one-per-career Special Treatment option on a fighter's third Scar (§26.4).
 
-> **[SIM FLAG — T10, still relevant]** Measured stat value is **16–34 Credits**, above the flat 15 charged here — worse for STR/melee builds specifically. Not urgent, but a known underprice, unchanged by this restructure.
+> **[CLOSED 2026-08-27]** This entry used to flag a "16–34 Credits" measured stat value against a flat 15 charged. **That figure was contaminated** — measured before the 2026-08-13 policy fix and averaged across scenarios since dropped. The flat 15 is gone; stat levels now read off the measured ladder above, which is non-flat *and* stat-dependent. The residual risk moved: it is no longer an underprice, it is that **AGI has never been measured at all** (`DODGE_ON` is False in the engine, so it reads exactly zero by construction) and is priced purely by analogy.
 
-> **[DERIVED 2026-08-13 — no longer a judgment call, but not measured either]** The +1 WND price was **45 Credits with no sim data behind it at all**, priced by position (above a T2 skill, below a T3). It is now **41**, derived from the measured value of heavy armour (-2 on the injury roll, 41 Credits, `armour-level-n2500` 2026-08-13) - both buy the same thing, the model staying on the table longer. That makes it a **C-tier price** in `docs/POINTS-CATALOGUE.md`: derived by rule from a measured atom, never measured directly. An analogy is not a measurement — but unlike the 45, it is correctable from table data, because the derivation is written down.
+> **[DERIVED — no longer a judgment call, but not measured either]** The +1 WND price was **45 Credits with no sim data behind it at all**, priced by position (above a T2 skill, below a T3). It is now **20** on the 850 scale, derived from the measured value of **heavy armour** (−2 on the injury roll, the same 20 Cr) — both buy the same thing, the model staying on the table longer. That makes it a **C-tier price** in `docs/POINTS-CATALOGUE.md`: derived by rule from a measured atom, never measured directly. An analogy is not a measurement — but unlike the 45, it is correctable from table data, because the derivation is written down.
 
 ### 26.2 · Glorious Deeds **[NEW]**
 
@@ -1111,17 +1196,21 @@ Tiebreak: total banked Credits + Materials. *(All values provisional — the poi
 
 ## 28.7 · Appendix — a worked founding and first campaign turn **[NEW]**
 
-**Founding.** Rosa picks **Fire Station** (free Bunkhouse). She starts with HQ, Generator (+5), Processor, Salvage Yard and the Bunkhouse. Founding budget 250 Materials + 150 Credits: she builds a **Med-bay** (120 Mat), banking 130 Mat + 150 Cr. Power draw: HQ 1 + Processor 1 + Salvage Yard 1 + Med-bay 1 = 4 of 5 — one spare.
+**Founding.** Rosa picks **Fire Station** (free Bunkhouse). She starts with HQ, Generator (+5), Processor, Salvage Yard and the Bunkhouse. Founding budget **125 Materials + 75 Credits**: she builds a **Med-bay** (65 Mat), banking **60 Mat + 75 Cr**.
 
-**Crew (Campaign Start, 500 CR).** Leader **Marisol** (170) + Assault Rifle (130) = 300 · Fighter **Deke** (75) + Sidearm (40) = 115 · Fighter **Junie** (75) + the free bat = 75. **Total 490/500.** Pyramid legal: one Leader, no Specialists, three models.
+Power draw: HQ 1 + Processor 1 + Salvage Yard 1 + **Bunkhouse 1** + Med-bay 1 = **5 of 5 — nothing spare.** Her free Location structure cost her the whole margin, and her next build needs a second Generator first. *(That is the tension §19 says should arrive on the second build, arriving exactly on schedule.)*
 
-**Battle 1** — Take a Hold on a neutral territory. Marisol claims two terminals; Junie goes Down in round 5 and the crew cannot reach her. **Win.** Rewards: 65 Cr + 33 Mat.
+**Crew (Campaign Start, 425 CR).** Leader **Marisol** (185) + Assault Rifle (35) = **220** · Fighter **Deke** (100) + Pistol (15) = **115** · Recruit **Junie** (70) + the free bat = **70**. **Total 405 / 425**, 20 Credits spare. Pyramid legal: exactly one Leader, three models, no Specialists to ratio against.
+
+**Battle 1** — Take a Hold on a neutral territory. Marisol claims two terminals; Junie goes Down in round 5 and the crew cannot reach her. **Win.** Rewards: **70 Cr + 15 Mat**.
 
 **Post-Battle.** Junie rolls Fate at +1 (Med-bay): a 6 becomes 7 → **Lasting scar, broken arm** (−1 STR next battle only). Marisol survived and held an objective → **Level 1: +1 to any stat.** Deke survived → **Level 1**.
 
-**Settlement Phase.** Bank to 215 Cr + 163 Mat — **215 is over the 180 Cr store** (HQ 150 + Salvage buffer 30), **which is legal**: caps bite only at phase end (§20). Assign the crew's one worker to the **Processor** (+1 Materials per gather). Buy Junie a Sidearm (40 Cr → 175 Cr). Scavenge dispatch (HQ I): loot roll 6 → +15 Materials. The phase closes at **175 Cr + 178 Mat** — both under cap, nothing lost.
+**Settlement Phase.** Bank to **145 Cr + 75 Mat** — 145 is over the **90 Cr store** (HQ 75 + Salvage buffer 15), **which is legal**: caps bite only at phase end (§20). Assign the crew's one worker to the **Processor** (+1 Materials per gather). Buy Junie a Pistol (15 Cr → 130 Cr). Scavenge dispatch (HQ I): loot roll 6 → **+15 Materials** → 90 Mat.
 
-**Battle Prep.** Choose the next territory; the cap stays 500 CR; Junie fields with her scar. Roll the Twist once deployment is set.
+The phase closes at **130 Cr + 90 Mat**. Her Materials cap is HQ 75 + Processor buffer 15 = **90** — exactly at cap, nothing lost. Her Credits cap is HQ 75 + Salvage buffer 15 = **90**, and she is holding **130**. **40 Credits spoil.** Rosa's first real lesson: she needed a Storehouse (50 Mat) more than she needed the Med-bay.
+
+**Battle Prep.** Choose the next territory; the cap stays 425 CR; Junie fields with her scar. Roll the Twist once deployment is set.
 
 ---
 
@@ -1153,7 +1242,9 @@ Tiebreak: total banked Credits + Materials. *(All values provisional — the poi
 
 **Still open, unchanged by this turn:**
 - The economy sink (explained above).
-- Stat-point Level pricing underpriced for melee/STR (16–34 measured vs. 15 charged at Levels 2/4).
+- **AGI is unpriced by construction.** The engine reads it only inside the Dodge reaction and `DODGE_ON` is False, so it measures exactly zero. One of five stats has never been priced; it currently rides the opposed ladder at ×0.8 by analogy. *(The old "16–34 vs 15" underprice flag is closed — that figure was contaminated and the flat rate is gone.)*
+- **Five weapon payloads are blocked** (§15) — Crippling, Concussive, Blinding, Hook, Toxic all measure ≤0 net because they replace Pinned, which measures +0.510. Needs a rules ruling on replace-not-stack, not a reprice.
+- **Fifteen of twenty-four deployables are unpriced** (§12.6) — the four traps beyond Trip Wire, five of seven beacons, the Remote chassis and all five mine payloads.
 - D21's methodology flag (explained above).
 - Territory terrain-type → pre-built terrain list mapping.
 - Loot markers vs. the 9–12 terrain-density budget — confirm they're counted separately. *(The default Loot table itself is now drafted, §23 — this remaining item is specifically about physical loot-marker footprint on the board, a separate question.)*
