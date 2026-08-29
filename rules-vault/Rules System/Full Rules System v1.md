@@ -251,7 +251,7 @@ A unit spends its Action to Interact with adjacent terrain, stat determined by t
 
 1. Declare a target in range, true LOS, forward 180°.
 2. Measure range.
-3. **Attack roll:** `1d10 + DEX + modifiers` vs 7+.
+3. **Attack roll:** `1d10 + DEX + modifiers` vs 7+. **One roll per Attack Die** (§15) — default 1, all at full stats, all for the same Action.
 4. Hit → Injury roll (§9). Miss → nothing.
 
 **Modifiers:** Cover Light −1 / Heavy −2 / Hidden −3. Weapons rarely add to hit — only via a conditional trait like Accurate.
@@ -278,6 +278,8 @@ After a hit lands, the attacker makes one **Injury roll**: `1d10 + Weapon Damage
 - **Fail** → no wound, but the hit still tells: **Ranged** → Pinned (+1 Stress). **Melee** → +1 Stress (Shaken) but stays Engaged, no Pinned.
 
 Every hit does *something*. No wasted hits.
+
+**Multi-die weapons (Attack Dice, §15):** a weapon with Attack Dice 2 or 3 rolls one attack and one Injury die *per die*, all at once, and the attacker applies **one** Injury result. **A burst inflicts at most 1 WND however many of its dice pass** — surplus passes are discarded, not banked against a multi-wound target. Every *other* hit that failed to injure still Pins. Full rule and costs in §15.
 
 **Weapon Damage** is a small class: +0 unarmed · +1 light · +2 medium · +3 heavy (see Weapons, §16, for the full construction system and reconciled Credit pricing). **Armor** reduces Injury only: 0 none · −1 light · −2 heavy.
 
@@ -567,7 +569,7 @@ Skills are the **third lever**: stats decide if you hit, weapons decide how bad,
 
 Weapons are **built, not bought off a shelf**: pick a Class, spend Credits on Characteristics, name the result.
 
-> **Design contract:** (1) a weapon never grants an effect a skill grants — weapons do damage/range/armor/conditions/noise/concealment, skills do extra actions/reactions/exceptions/positioning. (2) Weapons apply conditions, never define them (§10). (3) A hit does exactly one thing — wounds, or delivers its payload, never both.
+> **Design contract:** (1) a weapon never grants an effect a skill grants — weapons do damage/range/armor/conditions/noise/concealment, skills do extra actions/reactions/exceptions/positioning. (2) Weapons apply conditions, never define them (§10). (3) A hit does exactly one thing — wounds, or delivers its payload, never both. **This contract is per DIE, not per Action:** a multi-die burst (Attack Dice, below) rolls the contract once per die, and a whole burst still inflicts at most **one wound**.
 
 ### Weapon classes — the class is an ENVELOPE, not a value
 
@@ -606,6 +608,47 @@ weapon cost = class base (slots) + Damage steps + range + characteristics − dr
 A 36" rifle is a **rare, expensive, found weapon a crew builds a plan around** — never standard kit. All four gates are enforced in the costing engine, not merely written here.
 
 **Rank gates the class:** Recruit → Unarmed / Light Melee / **One-Handed Melee** / Sidearm / Thrown. Fighter adds **Standard Ranged**. Specialist adds Heavy Melee + Heavy Ranged. Leader → everything. **A Recruit still physically cannot hold a rifle** — that is the gate doing the load-bearing work; a machete is not.
+
+### Attack Dice — the multi-shot axis **[RULED 2026-08-29 · sim-priced]**
+
+Every weapon has an **Attack Dice** value, **default 1**. Unlisted on a weapon card means 1; it needs no catalogue line. A weapon with Attack Dice 2 or 3 fires that many shots for **one Action**.
+
+**Resolution — roll the whole burst at once, then apply ONE result:**
+
+1. Roll **one attack roll per Attack Die**, all together. Each is the normal `1d10 + DEX + modifiers` vs 7+, at **full stats** — no diminishing to-hit, no recoil penalty.
+2. Every die that **hit** rolls its **Injury die** (§9). Roll them together.
+3. The **attacker chooses one** of those Injury results to apply. A pass means the target loses **1 WND**; a fail means **Pinned (+1 Stress)**.
+4. **Every other hit that failed to injure also applies Pinned (+1 Stress).** A burst that lands and does not wound still suppresses. *(Sub-ruling flagged in §29 — see below.)*
+5. **One Action, whatever the dice count.**
+
+> **A burst can only ever inflict one wound.** However many dice hit and pass, the Action takes the target down **1 WND** — never more. This is the load-bearing half of the rule: it caps overkill at zero on a WND-1 body, and it means **no burst can shortcut a Leader**. A 3-die weapon cannot take a WND-2 or WND-3 veteran from full to Down in a single Action — measured at exactly **0%**, by construction, against **29.5%** (WND 2) and **4.7%** (WND 3) if surplus wounds were allowed to stack. Attack Dice **shred rank-and-file and do not melt characters.**
+
+*Worked example.* A 3-die weapon fires. All three hit. The target's three Injury rolls come up **one pass, two fails**. The attacker takes the pass: the target goes **Down**. The two fails would have Pinned, but a Down model cannot be Pinned, so they are discarded. — *Had all three failed, the target would take **3 Stress** in one Action and go straight to a Break test (§11).*
+
+> **When is the choice in step 3 a real choice?** With a vanilla weapon against a WND-1 body, never: **Down strictly dominates Pinned** on every axis — a Down model cannot Shoot, cannot clear itself, and costs its crew an Action to Stabilize or it bleeds out. Always take the wound. The pick becomes live in exactly two cases, and they are the same case: **when one wound is not decisive.** (a) A **payload** weapon, where the alternative to a wound is Bleeding or Fire rather than a bare Pin — against a WND-3 target, a two-round death clock can beat 1 of 3 WND. (b) Any **multi-wound** target, for the same reason. Do not read step 3 as a decision the player owes on every burst.
+
+**Cost — measured, not estimated:**
+
+| Attack Dice | Marginal Cr | Cumulative over baseline |
+|:--:|:--:|:--:|
+| 1 (baseline) | — | 0 |
+| **2** | **+40** | **+40** |
+| **3** | **+25** | **+65** |
+
+**The step runs downward, and that is not a typo.** Because a burst caps at one wound, each extra die is worth only the chance the previous dice *all missed or failed* — so **die 2 is the expensive one** and die 3 is worth barely half of it. Priced at the catalogue's own offensive exchange rate (10 Cr per +1 Damage = 167 Cr per 1.0 wounds/Action), the marginal wound gain is **+0.230** for die 2 and **+0.148** for die 3 on the standard open target. An evenly-stepped or rising price sells die 3 at a premium to die 2 while delivering less.
+
+> [!warning] **Attack Dice break the stat ceiling — this is why they need a gate, not just a price.**
+> A **DEX +6 marksman** — the hard stat cap — with a medium weapon tops out at **54.0%** wound per Action, and cannot go higher: the natural-1 rule caps to-hit at 90%. A plain **DEX +2 Fighter with Attack Dice 2** reaches **59.0%**, and with **Attack Dice 3, 73.8% — +37% over the best marksman the game permits.** A **DEX +0 Recruit** with three dice beats him too (56.1%).
+>
+> That directly contradicts this section's own first tenet — *stats decide if you land it, weapons decide how bad it is.* No price repairs it, exactly as no price repaired the 36" range threshold: a purchase that outperforms four stat points at the cap has stopped being a weapon axis and started being a stat replacement.
+
+> [!tip] **Proposed gates — NOT yet law, pending Ross's tick (§29)**
+> The Phase 15b brief pre-authorised gating *if* the auto-include flag fired. It fired: at these prices a 3-die rifle is the most Credit-efficient way to put a body down on the board, beating the **Heavy Gunner** benchmark by **+51%** on identical fielded Credits (175 vs 175). Same treatment as the 24" line — gate the archetype rather than tax it:
+> - **Attack Dice 2 → Fighter or above. Attack Dice 3 → Specialist or above.**
+> - **Limit one Attack Dice 3 weapon per crew.**
+> - **Attack Dice 3 is manufactured-only** — loot and raid spoils, never craftable.
+
+*Full measured basis: `Attack Dice — Sim Findings`, harnesses `test-bench/attack_dice_sim.py` and `test-bench/attack_dice_rules_compare.py`, both stamped.*
 
 ### Characteristics (one slot each; ~30 Credits typical, scaled from the vault's point costs)
 
@@ -1264,6 +1307,13 @@ The phase closes at **130 Cr + 90 Mat**. Her Materials cap is HQ 75 + Processor 
 - *Infrastructure:* CRUSH lethality · Blast Door's CRUSH-vs-Displace choice · conveyor/vent distances · one-vs-two features per building · the Generator macro-toggle's off-by-default.
 
 **Confirmed genuinely not started anywhere in the vault — a gap in the game, not in this document:** Diplomacy, Edge Cases, Solo & Co-op, Balance, Components, Narrative, Rulebook. All carry `status: Not Started` in the source. *(Downtime is no longer on this list — drafted this turn.)*
+
+**Opened this turn — Attack Dice (§15), ruled 2026-08-29 but with live sub-decisions:**
+- **Do surplus whiffed dice Pin?** §15 step 4 says yes, and that is the **only** thing separating the two candidate resolutions — they are otherwise **the same weapon**, with identical P(Down) at every dice count. Saying *no* (apply strictly one result and discard the rest) cuts effective suppression by **14–40%** and caps a burst at **one** Stress, so a 3-die burst would suppress exactly as hard as a pistol. That deletes the mechanic's stated second identity rather than trimming it, which is why step 4 reads as it does — **but it was not explicitly ruled, and Ross's worked example does not disambiguate it** (both readings give the same answer in that example, because the target went Down). Wants a tick.
+- **The gates in §15 are PROPOSED, not law.** Rank gate, one-per-crew on AD 3, manufactured-only on AD 3. The brief pre-authorised gating if the auto-include flag fired and it fired hard: AD 3 beats the Heavy Gunner benchmark by **+51%** on identical fielded Credits, and a DEX +0 Recruit with 3 dice out-shoots a DEX +6 marksman. Price alone cannot fix a stat-ceiling breach — same shape of problem as the 24" range threshold, which was solved with gates.
+- **Split fire is still unruled.** §15 assumes all dice go at the declared target. Allowing a burst to split across targets would change the maths materially — surplus dice would stop being wasted, which is the assumption the one-wound cap and the whole cost table rest on.
+- **Is 3 the ceiling?** Nothing in the maths breaks past 3, but the auto-include gap widens with each die. Reserving 4+ for turrets and vehicles is untested either way.
+- **A defect this pass turned up in a neighbouring harness, unrelated to Attack Dice:** `test-bench/sim_report.py` applies Stress on a *successful* wound as well as a failed one, which contradicts §9 and §10. Invisible at WND 1 (a wound ends the fight), but at WND 3 it roughly **doubles** the break rate — the published "~1.75 breaks/fight" in `Dice Mechanic — Sim Findings` §7 measures **0.744** rules-correct. The qualitative claim that morale is a duration mechanic probably survives; the number does not. Needs its own pass.
 
 **Still open, unchanged by this turn:**
 - The economy sink (explained above).

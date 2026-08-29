@@ -38,9 +38,10 @@ Worked cover × armour matrix already lives with the rule → [[core-000 Core Te
 ### Ranged attack sequence
 1. Declare a target in **range**, **true LOS**, and your **forward 180°** facing arc ([[Rules Engine#House Conventions]]).
 2. Measure range vs weapon range.
-3. **Attack roll:** `1d10 + DEX + modifiers` vs **7+**.
+3. **Attack roll:** `1d10 + DEX + modifiers` vs **7+**. Make **one roll per Attack Die** ([[Weapons#1.5 · Attack Dice — the multi-shot axis]]) — default 1, all at full stats, all on the same Action.
 4. On a hit → **Injury roll** (see [[Damage]]).
 5. A clean **miss** does nothing. A hit's outcome is the **Injury roll** (step 4): a wound, or **Pinned (+1 Stress)** if it fails to wound. **Only a hit that connects generates Stress** — see [[Damage]] / [[Morale]].
+6. **Multi-die weapons:** roll every die's Injury together, then apply **one** result of your choice; every *other* hit that failed to wound still Pins. **A burst inflicts at most 1 WND** however many dice pass — see [[Weapons#1.5 · Attack Dice — the multi-shot axis]].
 
 You may set facing for free as part of a Move (including a facing-only Move — [[Movement]]). Declaring Shoot does **not** itself rotate you — turn first if the target is outside your arc.
 

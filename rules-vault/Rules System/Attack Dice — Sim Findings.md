@@ -10,9 +10,25 @@ Sim pass on [[15b · Attack Dice]], run 2026-08-29. Mirrors the [[core-000 Core 
 **Every headline figure here is exact**, by full enumeration of the 10-face space. The chain is analytically closed, so Monte-Carlo would only add sampling error; the 10k run is carried as a cross-check and agrees in every cell.
 
 > [!success] Headline
-> **The mechanic works and the brief's own arithmetic is right.** 36 / 59 / 74% P(≥1 wound) reproduces exactly. Two things do not survive contact: **the costing table is roughly half the output-equivalent price**, and **the linearity assumption breaks at WND 1** — which is everyone. AD 3 at +60 Cr is an **auto-include**, beating the Heavy Gunner benchmark by 51% on identical fielded Credits.
+> **The mechanic works and the brief's own arithmetic is right.** 36 / 59 / 74% P(≥1 wound) reproduces exactly. Three things do not survive contact:
+> 1. **The linearity assumption breaks at WND 1** — which is everyone. E[wounds] is capped at 1.0 by construction.
+> 2. **AD 3 is an auto-include**, beating the Heavy Gunner benchmark by **+51%** on identical fielded Credits — and **Attack Dice break the stat ceiling**: a DEX +0 Recruit with 3 dice out-shoots a DEX +6 marksman. Price cannot fix that; it needs a gate.
+> 3. **The cost step runs the wrong way.** Fair is **+40 then +25** (65 cumulative), not +25 then +35. Die 2 is the expensive one.
+>
+> *(An earlier draft of this note said the table was "roughly half price". That was the uncapped-overkill reading and is corrected in §6.)*
 
-## The one blocking ruling
+> [!success] RULED 2026-08-29 — a burst inflicts at most ONE wound
+> Ross ruled the resolution after this pass: **roll every die's chain at once, apply one Injury result of the attacker's choice, and every other hit that failed to wound still Pins.** That settles the blocking question below in favour of a hard **one-wound cap per Action**. The rule is now law in [[Full Rules System v1]] §15 and [[Weapons]] §1.5.
+>
+> Consequences measured in the follow-up pass (`test-bench/attack_dice_rules_compare.py`, stamped):
+> - **The candidate rules were never an offence choice.** P(Down) is *identical* — 73.8% at AD 3 — under all four resolutions. The order you learn a wound in cannot change whether it happened.
+> - **The one-wound cap is the load-bearing half.** A 3-die weapon now takes a WND-2 or WND-3 veteran from full to Down **0%** of the time, against **29.5%** / **4.7%** if surplus wounds stacked. Attack Dice shred rank-and-file and do not melt characters.
+> - **Step 4 — surplus whiffs still Pin — is the one sub-decision still owed a tick.** It is the *only* thing separating the two candidates. Dropping it cuts effective suppression **14–40%** and caps a burst at one Stress, making a 3-die burst suppress exactly as hard as a pistol.
+> - **The fair price is 40 / 65 and the step runs DOWNWARD** — see §6, rewritten.
+>
+> §§1–5 below stand as measured. §6's pre-ruling recommendation is superseded.
+
+## The blocking ruling — now settled, see banner
 
 The brief's sim ask assumes the dice are independent. That is only true if surplus dice have somewhere to go. **At WND 1, die 1 wounding means the target is already Down when dice 2 and 3 resolve.** So there are two engines, not one:
 
@@ -91,6 +107,9 @@ Stress accrues **only on a hit that fails to wound**. A wound gives no Stress ([
 
 ^tbl-3-e-stress-per-action
 
+> [!note] Which Stress measure is this?
+> The table above is the **raw** measure — every Pin the dice produced, including Pins landing on a target the same Action then put Down. The follow-up pass also computes the **live** measure: Stress on a target *still standing*. Pinned restricts Move/Charge/Sprint/Disengage and feeds a Break test, none of which a Down model can do or take, so **live is the number that measures suppression**. For open/unarmoured AD 3 the two read **0.492 raw / 0.295 live**. Both are carried in the stamped JSON; neither is hidden. The Break-test column is computed on the live basis and is unaffected.
+
 **Cover and armour push Stress in opposite directions.** Stress is `p_hit × (1 − p_wound)`: cover cuts *both* wounds and Stress, while armour *converts* wounds into Stress. So the suppression payoff peaks on an **armoured target in the open**, not a dug-in one. A 3-die weapon into a dug-in target is simply weak.
 
 The Break column is the real result: **one 3-die Action puts an armoured, exposed target into Break-test range 23.3% of the time on its own**, from a standing start of zero Stress. That is a genuine second identity, not a consolation prize — and it is the honest justification for the mechanic.
@@ -160,8 +179,19 @@ They **disagree on the shape**, and that disagreement is the whole ruling:
 
 **The draft's stepped-upward table (+25 then +35) is the one shape that is wrong under both readings.** That finding does not depend on which way the WND-1 ruling goes.
 
-> [!tip] Recommended, pending the ruling
-> **`stop_on_down`: AD 2 +40, AD 3 +65 cumulative.** **`resolve_all`: AD 2 +60, AD 3 +120 cumulative.** Both put AD 3 below the Heavy Gunner's Cr-efficiency instead of above it.
+> [!success] SUPERSEDED BY THE RULING — the price is 40 / 65, and all four rules agree
+> The follow-up pass prices every candidate resolution and they come out **identical: +40 (AD 2) then +25 (AD 3), 65 cumulative.** They deliver the same wounds, and the catalogue's exchange rate prices wounds only — so the rule choice was free at the till and paid for in suppression and character durability instead.
+>
+> **This corrects the "roughly half price" line above.** That came from `resolve_all`'s *uncapped* E[wounds] (60/120 fair), which counts overkill on a WND-1 target as value. It is not value. Capped at the target's actual WND — which the ruling now makes universal — the honest figures are:
+>
+> | | Fair | Draft | Gap |
+> |---|:--:|:--:|:--:|
+> | **AD 2** | **40** | 25 | **−35%**, the underpriced rung |
+> | **AD 3** | **65** | 60 | −5%, close to right |
+>
+> **The step runs downward: +40 then +25.** The draft's +25 then +35 is backwards. Because a burst caps at one wound, die 2 buys **+0.230** wounds/Action and die 3 only **+0.148** — die 2 is the expensive one.
+>
+> **The auto-include finding in §5 is unaffected and still stands.** It compares Attack Dice against *bodies*, not against the Damage ladder. Both are true at once: the price matches the damage-step rate, and the damage ladder is itself cheap next to a 100 Cr Fighter.
 
 ## Design takeaways
 1. ✅ **The brief's probability arithmetic is exactly right** — 36 / 59 / 74 reproduces to the decimal, and the baseline holds across all twelve cover×armour bands.

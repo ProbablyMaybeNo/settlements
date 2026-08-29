@@ -3,13 +3,22 @@ type: inbox
 title: Ideas Inbox
 tags: [settlements/inbox]
 ---
-# 💡 Ideas Inbox — brain dump
+ # 💡 Ideas Inbox — brain dump
 
 > [!tip] Just dump. No structure required.
 > This is your scratchpad — half-formed ideas, "what if", random mechanics, names, tone notes, anything. Don't organise while capturing. Triage later. Nothing here is committed to the game until it's moved into a real rule.
 
 ---
 ## 🧠 Unsorted (type freely here)
+
+**FIXES
+
+*Nerve States*
+We need to replace one of the current nerve states with a new result as Bolt and BugOut pretty much do the exact same thing. 
+
+I just thought of the fix. It should bbe the following:
+
+GTFO: Unit sprints toward the closest board edge ignoring cover
 
 **GENERAL NOTES
 

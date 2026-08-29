@@ -99,6 +99,37 @@ The hard lock that makes the ladder in [[List Building]] real — **a Recruit ca
 ^tbl-rank-gates-the-class
 
 ---
+## 1.5 · Attack Dice — the multi-shot axis
+> **Ruled 2026-08-29.** Master text: [[Full Rules System v1]] §15. Measured basis: [[Attack Dice — Sim Findings]]. Phase note: [[15b · Attack Dice]].
+
+Every weapon has an **Attack Dice** value, **default 1** — unlisted on a card means 1, and it needs no catalogue line. Attack Dice 2 or 3 fires that many shots for **one Action**.
+
+**Roll the burst at once, then apply ONE result:**
+1. One **attack roll per die**, all at **full stats** — no diminishing to-hit, no recoil penalty.
+2. Every die that hit rolls its **Injury die** ([[Damage]]). Roll them together.
+3. The attacker **chooses one Injury result** to apply — a pass costs the target **1 WND**, a fail is **Pinned (+1 Stress)**.
+4. Every **other** hit that failed to injure also applies **Pinned (+1 Stress)**. A burst that lands without wounding still suppresses.
+5. **One Action**, whatever the dice count.
+
+> [!important] A burst inflicts at most ONE wound
+> However many dice hit and pass, the Action costs the target **1 WND** — never more. Overkill on a WND-1 body is capped at zero, and **no burst can shortcut a Leader**: a 3-die weapon takes a WND-2 or WND-3 veteran from full to Down **0%** of the time, against **29.5%** / **4.7%** if surplus wounds stacked. Attack Dice **shred rank-and-file and do not melt characters.**
+
+| Attack Dice | Marginal Cr | Cumulative |
+|:--:|:--:|:--:|
+| 1 (baseline) | — | 0 |
+| **2** | **+40** | **+40** |
+| **3** | **+25** | **+65** |
+
+^tbl-attack-dice-costs
+
+**The step runs downward on purpose.** Because a burst caps at one wound, each extra die is worth only the chance the earlier dice all missed or failed — die 2 buys **+0.230** wounds/Action, die 3 only **+0.148**. A rising price would sell die 3 at a premium for less delivery.
+
+> [!warning] Attack Dice break the stat ceiling — gates, not just price
+> A **DEX +6 marksman** (the hard cap) with a medium weapon peaks at **54.0%** wound/Action. A **DEX +2 Fighter with AD 2** hits **59.0%**; with **AD 3, 73.8%**. A **DEX +0 Recruit with AD 3** reaches **56.1%** — also above the marksman. That contradicts §Tenet 1 of this note (*stats decide if you land it*), and no price repairs a stat-ceiling breach, exactly as none repaired the 36" threshold.
+>
+> **Proposed, pending Ross's tick:** AD 2 → Fighter+, AD 3 → Specialist+ · limit **one** AD 3 weapon per crew · AD 3 **manufactured-only**. Tracked in [[Full Rules System v1]] §29.
+
+---
 ## 2 · Characteristics
 Each takes **one slot**. Restrictions in *italics*.
 
