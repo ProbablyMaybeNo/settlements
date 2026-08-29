@@ -97,6 +97,10 @@ FORBIDDEN = [
     ("List Building.md",        r"inside the 500 cap",      "Campaign Start is 425"),
     ("List Building.md",        r"at 1000 Credits the legal", "the scale is 850"),
     ("List Building.md",        r"no ratio requirement",    "the Specialist ratio still holds; only Recruit-per-Fighter is dropped"),
+    # --- Attack Dice: all outcomes count, ruled 2026-08-29 ---
+    ("Full Rules System v1.md", r"surplus passes are discarded", "surplus hits convert to +1 Stress"),
+    ("Damage.md",               r"surplus passes are discarded", "surplus hits convert to +1 Stress"),
+    ("Weapons.md",              r"surplus passes are discarded", "surplus hits convert to +1 Stress"),
     # --- retired structure Materials ---
     ("Structures.md",           r"\*\*130\*\*\|Campaign actions", "the HQ is 70 Materials"),
     ("Full Rules System v1.md", r"250 Materials \+ 150 Credits", "founding is 125 + 75"),

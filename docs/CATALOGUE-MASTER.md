@@ -136,7 +136,7 @@ Every weapon has an **Attack Dice** value, **default 1** — unlisted on a card 
 5. **One Action**, whatever the dice count.
 
 > [!important] A burst inflicts at most ONE wound
-> However many dice hit and pass, the Action costs the target **1 WND** — never more. Overkill on a WND-1 body is capped at zero, and **no burst can shortcut a Leader**: a 3-die weapon takes a WND-2 or WND-3 veteran from full to Down **0%** of the time, against **29.5%** / **4.7%** if surplus wounds stacked. Attack Dice **shred rank-and-file and do not melt characters.**
+> However many dice hit and pass, the Action costs the target **1 WND** — never more. **Every surplus hit converts to +1 Stress instead** (ruled 2026-08-29): a burst never wastes a die, it just cannot stack wounds. Overkill on a WND-1 body is capped at zero, and **no burst can shortcut a Leader**: a 3-die weapon takes a WND-2 or WND-3 veteran from full to Down **0%** of the time, against **29.5%** / **4.7%** if surplus wounds stacked. Attack Dice **shred rank-and-file and do not melt characters.**
 
 | Attack Dice | Marginal Cr | Cumulative |
 |:--:|:--:|:--:|
