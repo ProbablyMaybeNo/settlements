@@ -37,7 +37,7 @@ the bottom. Three housekeeping items remain, none of them blocking:
 
 # 🔴 Gate A — rulings that block the first test game
 
-*Eleven items. Nothing below Gate A is worth doing until these land, because a test game
+*9 still open, 1 closed 2026-08-29. Nothing below Gate A is worth doing until these land, because a test game
 played on an unruled mechanic measures the wrong thing.*
 
 ## A1 · Attack Dice — ruled 2026-08-29, but four sub-decisions are still open
@@ -67,7 +67,7 @@ game measures.**
 
 # 🟠 Gate B — the mechanics a test game needs in order to be playable
 
-*Nine items. These are not design questions — they are things that exist in prose but
+*9 items. These are not design questions — they are things that exist in prose but
 cannot be used at a table.*
 
 ## B1 · The costing engine does not know about this month's rules
@@ -89,7 +89,8 @@ cannot be used at a table.*
 
 # 🟡 Gate C — the reference pack (Phase 2 proper)
 
-*Six sheets. You cannot hand this to a stranger without them, and the audit found the
+*8 items — six sheets, and two structural problems underneath them. You cannot hand this
+to a stranger without the sheets, and the audit found the
 layer they were supposed to be generated from is not ready.*
 
 - [ ] **The Rules Ledger only covers the battle core.** **[Build] M** — the MOC declares it *"the clean final wording for embeds / the eventual rulebook"*, i.e. the source for these sheets. It holds nine `core-*` cards and five parked `adv-*` cards. There is **no ledger card for list building, campaign, settlement, economy, progression, hacking, deployables, terrain or scenarios.** Roughly two-thirds of the reference pack has to be written from scratch rather than graduated. *(Three cards were brought current this pass — core-002, core-006, core-007. The other six are still v0.1 from July.)*
@@ -105,8 +106,8 @@ layer they were supposed to be generated from is not ready.*
 
 # 🟢 Gate D — decide *at* the table, not before it
 
-*Do not try to close these first. They are the reason to test, and several are already
-designed as experiments.*
+*7 still open, 1 closed 2026-08-29. Do not try to close these first — they are the reason to
+test, and several are designed as experiments.*
 
 - [ ] **Six real games with real people.** **[Table] L** — **nothing else on this page is worth more than this.** Roughly six million simulated games and zero human ones.
 - [ ] **Stress persistence** (§§9–11, drafted 2026-08-29). **[Table]** — deliberately shipped as *drafted, pending playtest*: only the table can say whether losing a just-rescued fighter reads as brutal-good or brutal-bad. Costs about **1 revival in 53** walking off at current rates. **Valve held in reserve, not pre-applied:** *"a Stabilised fighter returns Shaken, however much Stress it had."*
