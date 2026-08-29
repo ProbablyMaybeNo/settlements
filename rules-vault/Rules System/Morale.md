@@ -106,8 +106,28 @@ Scoring stops the instant you bottle or clear the board — see [[Scenarios#Conc
 > [!question] Alpha rule — campaign may soften it
 > Under [[Campaign]] rules a bottle may become a *withdrawal* (save the roster for a resource/territory cost) rather than a flat loss. Test the flat version first.
 
+### Stress and Down — persistence **[DRAFTED 2026-08-29 · pending playtest]**
+> Measured in [[Stress Persistence — Sim Findings]]. Being Downed was never ruled either way; this closes that gap.
+
+**Stress persists through Down.** A unit reduced to **0 WND** keeps every point of Stress it had. Going Down is not a rest.
+
+- **A Down unit does not take Break tests.** It is out of the fight — it doesn't activate, so it can't Bolt, freeze or rout while lying there. Its Stress simply sits frozen with it. (It also can't shed Stress, since shedding requires a clean round or a passed test.)
+- **Stabilize brings the fighter back with its Stress intact** ([[Damage#Down & bleeding out]]). From that moment it tests normally again — so a fighter recovered at **2+ Stress** faces a **Break test in the next End Phase**, and a failure at **4+** removes it outright.
+- **No new test and no new trigger.** The End Phase Break test above already does all of this. The rule is the *absence* of a clearing step, which is why it costs nothing to write.
+
+> [!warning] What this actually feels like at the table
+> Someone spends an **Action and an INT test** to drag a friend up, and the friend may immediately bolt — or, at 4+ Stress, rout straight off the board. That is the intended beat: **you can patch the body faster than the nerve.** It also makes Stabilize a real decision instead of an automatic yes.
+>
+> Measured cost, NRV +2: **8.8%** of revived fighters fail their first Break test and **1.9%** BugOut immediately — roughly **one revival in fifty-three**. Story frequency, not a pattern to play around.
+
+> [!question] Watch the stacking, not the rule
+> If [[15b · Attack Dice|Attack Dice]] later also converts **surplus injury passes into Stress**, a downed model's Stress roughly **2.2×** (0.66 → 1.44 mean) and wasted revivals go from ~1-in-11 to nearly **1-in-4**. Both rules are defensible; adopt them **one at a time**, this one first. Note also that this compounds the **death-spiral risk** flagged in [[Dice Mechanic — Sim Findings]] §7.
+>
+> **Valve, held in reserve and deliberately not pre-applied:** *"a Stabilised fighter returns Shaken, however much Stress it had."* One clause, kills the bad beat, also kills the beat. Only the table can say which way it plays.
+
 ### Recovery
 - **Passing a Break test** (2+ Stress) clears **all** Stress; a **natural 10** always clears all.
+- **Being Downed clears nothing** — see *Stress and Down* above. A Down unit neither tests nor sheds; its Stress waits for it.
 - **A point of Stress never clears on the round you gain it — it carries to your next turn.** A unit at **exactly 1 Stress** sheds it in the End Phase **only on a round where it took no new Stress.** So a fighter tagged in melee **stays Shaken (−1) right through its next turn** and only shrugs it off after a *clean* round — do **not** reduce it to 0 at the end of the turn it was hit. (At 2+ Stress you can't passively drain a real panic at all; you must pass a Break test.)
 - **Everything else is a skill.** Removing Stress before/without a test, shedding it faster, or ending a **Bolt/Broken** state early comes from the **Bravery path** ([[Skill Paths]]) — *Steady, Count Breaths, Rally, Talk Them Down, Iron Will*, and the rest. Deliberately: composure is a build choice, not free.
 - **BugOut can't be rallied** — the unit has already routed. It can only be stopped *at the moment of failure* by *Talk Them Down* or *Stand Your Ground*.

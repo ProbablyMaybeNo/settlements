@@ -61,6 +61,7 @@ Every hit does *something* — it wounds or it pins. No wasted hits.
 - **Ranged / hazard leaves them Down.** A unit reduced to 0 by **ranged fire or a hazard** goes **Down** — prone and out of the fight, but still alive on the table. It counts as **Heavy cover vs ranged unless in the open**; a **melee / engaged attack auto-hits** to finish it (Injury roll still made, a **pass = Out**), but **ranged attacks resolve normally** — so a downed fighter has a chance to be reached and Stabilized instead of shot for free.
 - A Down unit must be **Stabilized** by the end of its **next** activation or it **bleeds out** and is removed (→ [[Campaign#Post-battle — the Fate table|Fate roll]]).
 - **Stabilize** = 1 Action + an **INT test (7+)**, by the Down unit itself or an adjacent friendly. **−2 without a Med-Kit**; a **Med-Kit** cancels the penalty; a **Medic** ([[Skill Paths]]) auto-stabilizes.
+- **A Down unit keeps its Stress** ([[Morale#Stress and Down — persistence]], *drafted 2026-08-29*). It takes no Break tests while Down — it is out of the fight — but it sheds nothing either, and it comes back up carrying every point. A fighter Stabilized at **2+ Stress** therefore faces a Break test in the next End Phase, and at **4+** a failure removes it. **You can patch the body faster than the nerve.**
 
 ### Wounds
 **Every unit has WND 1** — one injury pass drops it (**Down** from ranged, **Out** from melee). The *only* way to have more is a specific **skill** that grants +1 WND ([[Skill Paths]]); a multi-wound unit takes each pass as **−1 WND**, going Down at 0.

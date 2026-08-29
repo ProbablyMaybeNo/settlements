@@ -285,6 +285,8 @@ Every hit does *something*. No wasted hits.
 
 **Melee is decisive** — a melee kill goes straight to Out of Action, no bleed-out. **Ranged/hazard kills leave a fighter Down** (alive, prone, counts as Heavy cover vs ranged unless in the open; a melee/engaged attack auto-hits to finish it, ranged resolves normally). A Down unit must be Stabilized by the end of its **next** activation or bleeds out. Stabilize = Action + INT 7+ (−2 without a Med-Kit; a Medic skill auto-succeeds).
 
+**A Down unit keeps its Stress** *(drafted 2026-08-29 — §11)*. It takes no Break tests while Down and sheds nothing, then returns carrying every point. Stabilized at **2+ Stress** means a Break test in the next End Phase; at **4+**, a failure removes it. **You can patch the body faster than the nerve.**
+
 **Every unit has WND 1**, raised only by a specific skill (Tough, §14). Campaign veterans can reach **WND 2** (Level 7) and at most **WND 3** (Level 7 + the Tough skill) — the hard ceiling, logged in *Out of Scope* §4.
 
 ---
@@ -297,7 +299,7 @@ A condition is a status token. **No stacking** — reapplying refreshes duration
 
 **Core combat conditions:**
 - **Pinned** (ranged non-wound) — can't Move/Charge/Sprint/Disengage; must spend Move to clear; may still Shoot/Interact.
-- **Down** — prone, out of the fight; ranged-only origin; Stabilize or bleed out.
+- **Down** — prone, out of the fight; ranged-only origin; Stabilize or bleed out. **Keeps its Stress and takes no Break tests while Down**, resuming them on recovery (§11).
 - **Prone** — knocked flat, not an injury; can't Shoot/Charge/Sprint; standing costs the whole activation.
 - **Hidden** — −3 to be hit; earned via Hide in Concealing terrain or gear/skill; lost on moving, shooting, **interacting** (any Action that resolves an Interact test — claim/loot/hack/arm/defuse, §6, §12.7), or being revealed. *(See §25 for the ruling on holding an objective while Hidden.)*
 
@@ -325,6 +327,20 @@ Every hit that fails to wound generates **Stress** instead — this is the entir
 | 4+ | **BugOut** — routs off the board, removed from play |
 
 **Bottling** (voluntary concession) and full Recovery timing rules live in the vault note; the short version: a unit at exactly 1 Stress sheds it in the End Phase only on a round it took no new Stress. BugOut can't be rallied — only prevented at the moment of failure by specific skills.
+
+### Stress and Down — persistence **[DRAFTED 2026-08-29 · pending playtest]**
+
+**Stress persists through Down.** A unit reduced to 0 WND keeps every point it had; going Down is not a rest.
+
+- **A Down unit does not take Break tests** — it is out of the fight, so it cannot Bolt, freeze or rout while lying there. Its Stress freezes with it, and it sheds nothing either.
+- **Stabilize returns the fighter with its Stress intact** (§9), and it tests normally from then on. Recovered at **2+ Stress** → Break test the next End Phase. At **4+**, a failure removes it.
+- **No new test, no new trigger, no new token.** The End Phase Break test already does all of it. This rule is the *absence* of a clearing step, which is exactly why it is free.
+
+> **Why it was ruled in.** The rules had never said either way, and this was never an Attack Dice question — with **no** Attack Dice in the game a downed model already carries **0.66 Stress** and sits in Break-test range **15.5%** of the time. A single shot that Downs you carries none (its one pass *is* the wound); all of it comes from everything that missed or failed first. Measured in `Stress Persistence — Sim Findings`.
+>
+> Cost at NRV +2: **8.8%** of revived fighters fail their first Break test, **1.9%** BugOut immediately — about **one revival in fifty-three**. Story frequency. It also makes Stabilize a real decision rather than an automatic yes.
+>
+> **Watch the stacking, not the rule.** If Attack Dice later also converts surplus injury passes into Stress (§29), a downed model's Stress roughly **2.2×** and wasted revivals go from ~1-in-11 to nearly **1-in-4**. Adopt one at a time, this one first. It also compounds the death-spiral risk flagged in `Dice Mechanic — Sim Findings` §7. **Valve held in reserve, deliberately not pre-applied:** *"a Stabilised fighter returns Shaken, however much Stress it had."*
 
 > **[Vision-doc note, preserved for the record]** The original design notes for this project proposed two additional nerve states beyond Bolt/Broken — a "Freak" (attack nearest friend or foe) and a forced "Fight" (berserk charge). Two similar softeners to the current three-tier system were sim-tested and **both broke the game**. The current system's skill-gated **Fight** state (Fanatic and similar Tier-3 skills only) is the surviving, safe version of that idea — never a routine morale outcome.
 
@@ -1307,6 +1323,12 @@ The phase closes at **130 Cr + 90 Mat**. Her Materials cap is HQ 75 + Processor 
 - *Infrastructure:* CRUSH lethality · Blast Door's CRUSH-vs-Displace choice · conveyor/vent distances · one-vs-two features per building · the Generator macro-toggle's off-by-default.
 
 **Confirmed genuinely not started anywhere in the vault — a gap in the game, not in this document:** Diplomacy, Edge Cases, Solo & Co-op, Balance, Components, Narrative, Rulebook. All carry `status: Not Started` in the source. *(Downtime is no longer on this list — drafted this turn.)*
+
+**Drafted this turn — Stress persistence (§9, §10, §11), 2026-08-29:**
+- **Stress now survives being Downed**, and a Down unit takes no Break tests until Stabilized. Drafted rather than locked: **pending playtest**, on the grounds that only the table can say whether losing a just-rescued fighter reads as brutal-good or brutal-bad. Measured in `Stress Persistence — Sim Findings`; costs ~1 revival in 53 walking off at today's rates.
+- **Still to decide:** whether **surplus Attack Dice injury passes convert to +1 Stress each**. Measured and ready (`attack-dice-15b-surplus`), deliberately NOT adopted alongside persistence — together they roughly **2.2×** the Stress on a downed model and take wasted revivals from ~1-in-11 to nearly 1-in-4. **Test persistence alone first**, then decide. Note the conversion does nothing at all at WND 1 unless persistence is in force, so this ordering is the only one that makes either rule legible.
+- **Valve on standby, not applied:** *"a Stabilised fighter returns Shaken, however much Stress it had."* One clause if persistence plays too punishing.
+- **Watch for:** the death-spiral risk in `Dice Mechanic — Sim Findings` §7 — many triggers × a compounding −1 — which persistence directly compounds.
 
 **Opened this turn — Attack Dice (§15), ruled 2026-08-29 but with live sub-decisions:**
 - **Do surplus whiffed dice Pin?** §15 step 4 says yes, and that is the **only** thing separating the two candidate resolutions — they are otherwise **the same weapon**, with identical P(Down) at every dice count. Saying *no* (apply strictly one result and discard the rest) cuts effective suppression by **14–40%** and caps a burst at **one** Stress, so a 3-die burst would suppress exactly as hard as a pistol. That deletes the mechanic's stated second identity rather than trimming it, which is why step 4 reads as it does — **but it was not explicitly ruled, and Ross's worked example does not disambiguate it** (both readings give the same answer in that example, because the target went Down). Wants a tick.
