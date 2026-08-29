@@ -124,10 +124,14 @@ Every weapon has an **Attack Dice** value, **default 1** — unlisted on a card 
 
 **The step runs downward on purpose.** Because a burst caps at one wound, each extra die is worth only the chance the earlier dice all missed or failed — die 2 buys **+0.230** wounds/Action, die 3 only **+0.148**. A rising price would sell die 3 at a premium for less delivery.
 
-> [!warning] Attack Dice break the stat ceiling — gates, not just price
-> A **DEX +6 marksman** (the hard cap) with a medium weapon peaks at **54.0%** wound/Action. A **DEX +2 Fighter with AD 2** hits **59.0%**; with **AD 3, 73.8%**. A **DEX +0 Recruit with AD 3** reaches **56.1%** — also above the marksman. That contradicts §Tenet 1 of this note (*stats decide if you land it*), and no price repairs a stat-ceiling breach, exactly as none repaired the 36" threshold.
+> [!warning] Attack Dice vs the damage axis — gate case restated 2026-08-29
+> **At equal weapon (Damage +2)**, a **DEX +6** shooter peaks at **54.0%** wound/Action — the natural-1 rule caps to-hit at 90%. **DEX +2 with AD 2** hits **59.0%**; with **AD 3, 73.8%**; **DEX +0 with AD 3** reaches **56.1%**.
 >
-> **Proposed, pending Ross's tick:** AD 2 → Fighter+, AD 3 → Specialist+ · limit **one** AD 3 weapon per crew · AD 3 **manufactured-only**. Tracked in [[Full Rules System v1]] §29.
+> **That is dice-vs-stat at equal weapon, and nothing more.** An earlier draft read it as "a Recruit out-shoots the best marksman", which is wrong: armed as a marksman can be, **DEX +6 reaches 72.0%** (Std Ranged +4 + Accurate) or **81.0%** (Heavy Ranged +5). Two things worth carrying out of that — **Accurate is worth exactly zero at DEX +6** (already at the 90% ceiling), and a **Recruit cannot legally carry Standard Ranged at all**, so a "Recruit with three dice" tops out on a Sidearm at 6–12" (**62.7%** at Damage +3).
+>
+> **The auto-include flag still fires:** AD 3 on a rifle is **+24%** more Credit-efficient than a properly-built Heavy Gunner (Heavy Ranged +5, 190 Cr) at the shipped +65 — not the **+51%** first reported, which benchmarked a Heavy Ranged at its **+3 floor** against the **draft** +60 price.
+>
+> **Proposed, pending Ross's tick — and wanting a re-run against catalogue weapons first:** AD 2 → Fighter+, AD 3 → Specialist+ · limit **one** AD 3 weapon per crew · AD 3 **manufactured-only**. Tracked in [[Full Rules System v1]] §29.
 
 ---
 ## 2 · Characteristics

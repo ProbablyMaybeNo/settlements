@@ -653,13 +653,17 @@ Every weapon has an **Attack Dice** value, **default 1**. Unlisted on a weapon c
 
 **The step runs downward, and that is not a typo.** Because a burst caps at one wound, each extra die is worth only the chance the previous dice *all missed or failed* — so **die 2 is the expensive one** and die 3 is worth barely half of it. Priced at the catalogue's own offensive exchange rate (10 Cr per +1 Damage = 167 Cr per 1.0 wounds/Action), the marginal wound gain is **+0.230** for die 2 and **+0.148** for die 3 on the standard open target. An evenly-stepped or rising price sells die 3 at a premium to die 2 while delivering less.
 
-> [!warning] **Attack Dice break the stat ceiling — this is why they need a gate, not just a price.**
-> A **DEX +6 marksman** — the hard stat cap — with a medium weapon tops out at **54.0%** wound per Action, and cannot go higher: the natural-1 rule caps to-hit at 90%. A plain **DEX +2 Fighter with Attack Dice 2** reaches **59.0%**, and with **Attack Dice 3, 73.8% — +37% over the best marksman the game permits.** A **DEX +0 Recruit** with three dice beats him too (56.1%).
+> [!warning] **Attack Dice compete hard with the damage axis — the gate case, restated 2026-08-29.**
+> On a **weapon held constant at Damage +2**, a **DEX +6** shooter tops out at **54.0%** wound per Action — it cannot go higher, because the natural-1 rule caps to-hit at 90%. A **DEX +2 Fighter with Attack Dice 2** reaches **59.0%** and with **Attack Dice 3, 73.8%**; a **DEX +0** shooter with three dice reaches **56.1%**.
+>
+> **Read that comparison only as what it is: dice-vs-stat at equal weapon.** It is *not* a claim about the best marksman the game permits, and an earlier draft of this section overstated it as one. Armed as a marksman actually can be, **DEX +6 reaches 72.0%** (Standard Ranged +4 with Accurate) or **81.0%** (Heavy Ranged +5) — comfortably ahead of three dice on a rifle. Note also that **Accurate's +1 to hit is worth exactly zero at DEX +6**, which is already at the 90% ceiling; the damage step does all the work.
+>
+> **The auto-include flag still fires, at roughly half the advertised size.** Against the benchmark as originally run — a Heavy Gunner at Heavy Ranged **+3**, the *floor* of its +3-to-+5 band, versus AD 3 at the *draft* +60 — the margin read **+51%** on `e_wounds`. Against a **real** Heavy Gunner (Heavy Ranged **+5**, 190 Cr) at the **shipped +65**, AD 3 on a rifle is **+24%** more Credit-efficient (0.410 vs 0.332 P(wound)/Action per 100 Cr). Still an auto-include; a much weaker case for a hard gate than the original figure implied.
 >
 > That directly contradicts this section's own first tenet — *stats decide if you land it, weapons decide how bad it is.* No price repairs it, exactly as no price repaired the 36" range threshold: a purchase that outperforms four stat points at the cap has stopped being a weapon axis and started being a stat replacement.
 
-> [!tip] **Proposed gates — NOT yet law, pending Ross's tick (§29)**
-> The Phase 15b brief pre-authorised gating *if* the auto-include flag fired. It fired: at these prices a 3-die rifle is the most Credit-efficient way to put a body down on the board, beating the **Heavy Gunner** benchmark by **+51%** on identical fielded Credits (175 vs 175). Same treatment as the 24" line — gate the archetype rather than tax it:
+> [!tip] **Proposed gates — NOT yet law, and the evidence for them is now weaker (§29)**
+> The Phase 15b brief pre-authorised gating *if* the auto-include flag fired. It fires — but at **+24%** against a properly-built Heavy Gunner, not the +51% first reported. **Before ruling, the auto-include check wants re-running against the actual catalogue weapons** (Assault Rifle, Grandpa's Hunting Rifle, the Heavy Ranged entries) rather than synthetic loadouts. The gates below stand as the proposal on the table:
 > - **Attack Dice 2 → Fighter or above. Attack Dice 3 → Specialist or above.**
 > - **Limit one Attack Dice 3 weapon per crew.**
 > - **Attack Dice 3 is manufactured-only** — loot and raid spoils, never craftable.
