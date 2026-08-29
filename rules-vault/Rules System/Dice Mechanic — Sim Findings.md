@@ -8,7 +8,7 @@ tags: [settlements/reference, settlements/analysis]
 First full simulation pass over the locked core engine. Every test = **10,000 rolls** (the standard sample), engine mirrors the [[Rules Engine|Test Bench]] exactly, seed `20260708` (reproducible). Run: `test-bench/sim_report.py`.
 
 > [!success] Headline
-> **The engine is sound and the design thesis holds up.** Cover is the single biggest lever (it roughly *halves* lethality), and — the big one — **in a terrain-free 1v1, combat specialists crush the utility builds**. That's not a bug: it's proof that **[[Terrain|terrain]] and scenario objectives *must* carry the balance**, exactly as the pillar says. One dial still wants attention: **mobility/utility needs scenario structure to be worth taking**. (The Stress/Nerve worry from the first pass is **resolved** — see §7, re-run on the revised system.)
+> **The engine is sound and the design thesis holds up.** Cover is the single biggest lever (it roughly *halves* lethality), and — the big one — **in a terrain-free 1v1, combat specialists crush the utility builds**. That's not a bug: it's proof that **[[Terrain|terrain]] and scenario objectives *must* carry the balance**, exactly as the pillar says. One dial still wants attention: **mobility/utility needs scenario structure to be worth taking**. (The Stress/Nerve worry from the first pass is **largely resolved, with a smaller margin than first reported** — see §7, corrected 2026-08-29.)
 
 ## 1 · Engine validation — [[core-000 Core Test]]
 Simulated vs exact across the stat range. They match within sampling noise → the RNG is fair and the curve is exactly as designed: **clean ±10% per point, floored/capped 10–90%**, and **+5 = +6 on a flat roll** (the natural-1 cap).
@@ -97,16 +97,19 @@ Opposed test, ties to the defender. **Each point of advantage ≈ ±9–10%.** R
 ## 6 · Duel matrix — the archetypes fight ⚔️
 Every [[Skill Paths|archetype]] vs every other, **10k fights each**, random who-goes-first, Stress on. **WND all = 1, and crucially NO terrain or cover** — a pure attrition vacuum. Cells = row's win %.
 
+> [!warning] Refreshed 2026-08-29 — this table was a revision behind
+> The figures below were re-run on the current engine. The previous ones were produced **before** the 2026-07-09 nerve rework (Shaken −1 / Break at 2+ / BugOut removal), which changed `duel()` but was only ever written up into §7 — so §6 sat one system revision stale for seven weeks. Movement is small and changes nothing directional (biggest cell shift 3 pts; Jack and Techie swap ranks 6/7 on a 0.5-pt gap). **This is unrelated to the Stress fix below**, which provably moves nothing at WND 1.
+
 | | Braw | Gunn | Tech | Buil | Obje | Heav | Quic | Jack |
 |---|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| **Brawler** | — | 47 | 67 | 61 | 86 | 37 | 62 | 76 |
-| **Gunner** | 54 | — | 69 | 57 | 75 | 49 | 58 | 66 |
-| **Techie** | 33 | 31 | — | 36 | 58 | 30 | 37 | 47 |
-| **Builder** | 38 | 42 | 64 | — | 80 | 33 | 51 | 67 |
-| **Obj. Grabber** | 14 | 24 | 43 | 20 | — | 15 | 19 | 33 |
-| **Heavy Gunner** | 63 | 51 | 72 | 68 | 85 | — | 68 | 77 |
-| **Quick Muscle** | 38 | 43 | 64 | 50 | 80 | 33 | — | 67 |
-| **Jack** | 24 | 34 | 54 | 34 | 67 | 23 | 33 | — |
+| **Brawler** | — | 47 | 69 | 64 | 88 | 37 | 63 | 78 |
+| **Gunner** | 53 | — | 70 | 57 | 76 | 51 | 58 | 67 |
+| **Techie** | 31 | 30 | — | 34 | 57 | 30 | 35 | 46 |
+| **Builder** | 36 | 43 | 64 | — | 82 | 31 | 50 | 67 |
+| **Obj. Grabber** | 12 | 24 | 42 | 18 | — | 14 | 18 | 32 |
+| **Heavy Gunner** | 63 | 50 | 71 | 68 | 85 | — | 68 | 77 |
+| **Quick Muscle** | 36 | 43 | 65 | 51 | 81 | 32 | — | 68 |
+| **Jack** | 22 | 34 | 54 | 33 | 68 | 23 | 32 | — |
 
 ^tbl-6-duel-matrix-the-archetypes-fight
 
@@ -115,34 +118,45 @@ Every [[Skill Paths|archetype]] vs every other, **10k fights each**, random who-
 | Rank | Archetype | Win rate |
 |:---:|---|:---:|
 | 1 | Heavy Gunner | 68.9% |
-| 2 | Brawler | 62.4% |
-| 3 | Gunner | 61.3% |
-| 4 | Quick Muscle | 53.6% |
-| 5 | Builder | 53.3% |
-| 6 | Techie | 38.9% |
-| 7 | Jack of All Trades | 38.5% |
-| 8 | Objective Grabber | 24.1% |
+| 2 | Brawler | 63.9% |
+| 3 | Gunner | 61.7% |
+| 4 | Quick Muscle | 53.7% |
+| 5 | Builder | 53.4% |
+| 6 | Jack of All Trades | 38.0% |
+| 7 | Techie | 37.5% |
+| 8 | Objective Grabber | 23.0% |
 
 ^tbl-6-duel-matrix-the-archetypes-fight-2
 
 > [!important] The big finding — this *validates* the design
-> In a terrain-free slugfest, **combat specialists dominate and utility builds get stomped** — the Objective Grabber wins just **24%** and loses 86–14 to the Brawler. That is *exactly what should happen*: raw stats say a mobility/tech build is near-useless in a straight fight. **Their value can only come from the [[Terrain|board]] and [[Scenarios|scenario]]** — locked doors that need the Techie, gaps and objectives that need the Grabber, cover that lets the fragile survive. **This sim is the proof that terrain/objectives must be the balancer.** If a scenario is just "kill each other on open ground," the game collapses to Heavy Gunners — so the scenario deck has to reliably demand non-combat stats.
+> In a terrain-free slugfest, **combat specialists dominate and utility builds get stomped** — the Objective Grabber wins just **23%** and loses 88–12 to the Brawler. That is *exactly what should happen*: raw stats say a mobility/tech build is near-useless in a straight fight. **Their value can only come from the [[Terrain|board]] and [[Scenarios|scenario]]** — locked doors that need the Techie, gaps and objectives that need the Grabber, cover that lets the fragile survive. **This sim is the proof that terrain/objectives must be the balancer.** If a scenario is just "kill each other on open ground," the game collapses to Heavy Gunners — so the scenario deck has to reliably demand non-combat stats.
 > Also: **Heavy Gunner (STR+DEX, heavy weapon, armour) is the raw-power king.** Watch it doesn't become an auto-include — it should pay for that in points and be punished by terrain it can't shoot through.
 
-## 7 · Stress / Nerve — fires where it should ✅ — [[Morale]]
+## 7 · Stress / Nerve — shows up in grinds ⚠️ — [[Morale]]
+
+> [!bug] Corrected 2026-08-29 — the WND-3 figure was inflated by a sim bug
+> This section previously published **~1.75 breaks/fight** at WND 3. That number came from a defect in `test-bench/sim_report.py`: `attack()` applied **+1 Stress on a successful wound as well as on a failed one**, so every landed hit fed the Stress ladder. [[Damage]] is explicit that a hit does exactly one thing — *"Every hit does something — it wounds or it pins"* — and [[Conditions]] says the same from the other side: Pinned/Shaken's *"+1 **is** the non-wounding-hit result, so don't count it twice."*
+>
+> The rules-correct figure is **0.75**. The bug was **invisible at WND 1** — a wound there ends the fight before the extra Stress is ever read — which is why it survived a re-run and a write-up. Re-running the whole report before and after the fix, the output is **byte-identical everywhere except the WND-3 line**: §6, both WND-1 rows, and §§1–5 do not move at all. Fixed in `cbe57b1`; figures below are from the stamped run `dice-mechanic-sim-report-n10000-e2b861d61-h326cd413-20260829-113219`.
+
 Re-run on the **revised** system (Shaken −1 always-on · Break test at 2+ · pass clears all Stress). Fight length and how often a unit breaks:
 
-| Matchup | Avg rounds | Cracks / fight (old → **new**) |
+| Matchup | Avg rounds | Cracks / fight (pre-rework → **now**) |
 |---|:---:|:---:|
 | Jack vs Jack (WND 1) | 2.3 | 0.000 → **0.089** |
 | Gunner vs Brawler (WND 1) | 1.6 | 0.000 → **0.089** |
-| Jack vs Jack (WND 3) | 9.5 | 0.000 → **1.75** |
+| Jack vs Jack (WND 3) | 9.1 | 0.000 → **0.75** |
 
 ^tbl-7-stress-nerve-fires-where-it-should-morale
 
-> [!success] Right shape — quiet in fast kills, bites in grinds
-> The revised model **self-corrected the "inert morale" problem** without a single new combat trigger. At **WND 1** the lethality band is fast enough that fights usually end before Stress hits 2 — so nerve stays out of the way (~0.09 breaks/fight). In a sustained **WND-3** fight it wakes up hard: **~1.75 breaks per fight**, because Stress now *accumulates* (a passed test clears all, a failed one only sheds 1) instead of draining NRV-worth every round. Morale is now a **duration** mechanic — it takes over exactly when a fight drags, which is the intended feel.
-> *Still true:* combat triggers alone are thin — the full [[Morale]] trigger list (ranged targeting, friendly Down in LOS, hazards, skills) will push WND-1 rates up too at crew scale. But the engine is no longer inert, so that's headroom, not a fix we need.
+> [!success] Right shape, smaller margin — quiet in fast kills, live in grinds
+> The revised model **did clear the "inert morale" problem** without a single new combat trigger — the pre-rework engine broke a unit **0.000** times per fight at every wound count, and it no longer does. The direction is intact and the mechanism is real. The *size* of the effect is not what §7 previously claimed.
+>
+> At **WND 1** the lethality band is fast enough that fights end before Stress reaches 2, so nerve stays out of the way (**0.089** breaks/fight). At **WND 3** it becomes live: **0.75** breaks/fight — an **8.4×** jump. But most of that multiple is simply that the fight lasts 4× longer. Per *round* the crack rate goes 0.039 → 0.082, a **~2.1×** rise, and that part is the genuine accumulation effect: a passed test clears all Stress, a failed one sheds only 1, so pressure ratchets instead of draining NRV-worth every round.
+>
+> So morale **is** a duration mechanic, and it does wake up in grinds. It does not *take over* them — at 0.75 breaks per fight across two units, a long fight typically sees about one crack, not a cascade. Read it as **"morale starts mattering when a fight drags"**, not "morale decides drawn-out fights."
+>
+> *Still true, and now load-bearing rather than optional:* combat triggers alone are thin. The full [[Morale]] trigger list (ranged targeting, friendly Down in LOS, hazards, skills) is what has to carry morale at crew scale — at 0.75/fight in the longest matchup the engine models, that is **headroom the system needs**, not spare headroom it happens to have. Worth re-measuring once the trigger list is implemented.
 
 > [!note] System revised since this sim (2026-07-09)
 > The Nerve system was reworked after these runs. **Shook is now the always-on "Shaken" state** — any 1+ Stress = −1 to all rolls, no roll. **Break tests only start at 2+ Stress** (`1d10 + NRV − (Stress−1) ≥ 7`, Shaken's −1 excluded), failing into **Bolt (2) / Broken (3) / BugOut (4+)**. The −1-severity analysis below still holds (Shaken *is* that −1); the old margin-ladder above it is superseded — see [[Morale]].
@@ -171,10 +185,10 @@ Two things to decide (they matter more than the −1):
 2. 🗺️ **Terrain/objectives are load-bearing for balance, confirmed** — build the scenario deck to demand INT/AGI, or utility builds are dead weight.
 3. 💥 **Cover > armour for survival** — good, on-pillar.
 4. ⚔️ **Charge and the defender tie-edge both matter** — melee has real texture.
-5. ✅ **Stress/Nerve fires correctly** on the revised system — quiet in fast WND-1 kills, ~1.75 breaks/fight in sustained WND-3 grinds. Morale is now a duration mechanic.
+5. ⚠️ **Stress/Nerve fires correctly** on the revised system, but the margin is thinner than §7 first reported — 0.089 breaks/fight in fast WND-1 kills, **0.75** (not 1.75) in sustained WND-3 grinds. Morale is a duration mechanic, and the [[Morale]] trigger list is what has to carry it at crew scale.
 6. 🎯 **Watch Heavy Gunner** as a potential auto-include; price it and gate it with terrain.
 
 ---
-*Next passes worth running: multi-model crew fights (does Stress wake up?), the same duels **with cover** (does the Grabber/Techie survivability change?), and points-cost balancing once [[List Building]] numbers exist.*
+*Next passes worth running: multi-model crew fights (does Stress wake up?), the same duels **with cover** (does the Grabber/Techie survivability change?), the WND-3 crack **distribution** (mean 0.75 across two units — how many fights see zero?), a re-measure once the full [[Morale]] trigger list is implemented, and points-cost balancing once [[List Building]] numbers exist.*
 
 See [[Rules Engine]] · [[core-000 Core Test]] · [[Shooting]] · [[Melee]] · [[Damage]] · [[Morale]] · [[Terrain]].

@@ -18,7 +18,11 @@ We need to replace one of the current nerve states with a new result as Bolt and
 
 I just thought of the fix. It should bbe the following:
 
-GTFO: Unit sprints toward the closest board edge ignoring cover
+Bolt: Unit sprints toward the closest board edge following the shortest path possible. 
+
+Broken: Unit freezes, cannot act/react until they rally.
+
+BugOut: Unit scrambles for cover. Sprint unit to the nearest heavy cover that is not within any enemies LOS.
 
 **GENERAL NOTES
 
