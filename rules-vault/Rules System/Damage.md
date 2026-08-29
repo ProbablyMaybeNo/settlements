@@ -43,7 +43,7 @@ After an attack lands ([[Shooting]] / [[Melee]]), the **attacker** makes one **I
 
 Every hit does *something* — it wounds or it pins. No wasted hits.
 
-**Multi-die weapons ([[Weapons#1.5 · Attack Dice — the multi-shot axis]]).** A weapon with Attack Dice 2 or 3 rolls one attack and one Injury die *per die*, all at once; the attacker applies **one** Injury result and every other hit that failed to wound still Pins. **A burst inflicts at most 1 WND however many of its dice pass** — surplus passes are discarded, never banked against a multi-wound target. The wounds-or-pins contract above is therefore **per die, not per Action**.
+**Multi-die weapons ([[Weapons#1.5 · Attack Dice — the multi-shot axis]]).** A weapon with Attack Dice 2 or 3 rolls one attack and one Injury die *per die*, all at once; the attacker applies **one** Injury result. **A burst inflicts at most 1 WND however many of its dice pass** — wounds never stack; **every other die that hit converts to +1 Stress**, whether it passed the Injury roll or failed it. Nothing is banked against a multi-wound target. The wounds-or-pins contract above is therefore **per die, not per Action**.
 
 ### Weapon Damage & Armor
 - **Damage** runs **+0 to +5**, and the weapon's **class sets the band** it may pick inside — a Magnum and a shiv are both One-Handed, at different Damage. See [[Weapons#1 · Weapon classes]]. Only Heavy Ranged reaches +5.

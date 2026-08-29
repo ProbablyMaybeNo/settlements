@@ -121,7 +121,7 @@ Scoring stops the instant you bottle or clear the board — see [[Scenarios#Conc
 > Measured cost, NRV +2: **8.8%** of revived fighters fail their first Break test and **1.9%** BugOut immediately — roughly **one revival in fifty-three**. Story frequency, not a pattern to play around.
 
 > [!question] Watch the stacking, not the rule
-> If [[15b · Attack Dice|Attack Dice]] later also converts **surplus injury passes into Stress**, a downed model's Stress roughly **2.2×** (0.66 → 1.44 mean) and wasted revivals go from ~1-in-11 to nearly **1-in-4**. Both rules are defensible; adopt them **one at a time**, this one first. Note also that this compounds the **death-spiral risk** flagged in [[Dice Mechanic — Sim Findings]] §7.
+> **Both rules are now in** (ruled 2026-08-29): Attack Dice converts **surplus hits into Stress** *and* Stress persists through Down. Together a downed model's Stress roughly **2.2×** (0.66 → 1.44 mean) and wasted revivals go from ~1-in-11 to nearly **1-in-4**. The earlier plan was to adopt them one at a time; they landed together, so **the table tests the stacked case**. Note also that this compounds the **death-spiral risk** flagged in [[Dice Mechanic — Sim Findings]] §7.
 >
 > **Valve, held in reserve and deliberately not pre-applied:** *"a Stabilised fighter returns Shaken, however much Stress it had."* One clause, kills the bad beat, also kills the beat. Only the table can say which way it plays.
 

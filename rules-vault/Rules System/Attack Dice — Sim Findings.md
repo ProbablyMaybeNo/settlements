@@ -17,13 +17,13 @@ Sim pass on [[15b · Attack Dice]], run 2026-08-29. Mirrors the [[core-000 Core 
 >
 > *(An earlier draft of this note said the table was "roughly half price". That was the uncapped-overkill reading and is corrected in §6.)*
 
-> [!success] RULED 2026-08-29 — a burst inflicts at most ONE wound
-> Ross ruled the resolution after this pass: **roll every die's chain at once, apply one Injury result of the attacker's choice, and every other hit that failed to wound still Pins.** That settles the blocking question below in favour of a hard **one-wound cap per Action**. The rule is now law in [[Full Rules System v1]] §15 and [[Weapons]] §1.5.
+> [!success] RULED 2026-08-29 — one WOUND per burst, but every hit counts
+> Ross ruled the resolution after this pass: **roll every die's chain at once, apply one Injury result of the attacker's choice, and convert every other hit to +1 Stress — whether it passed the Injury roll or failed it.** Wounds never stack; nothing else is wasted either. That settles the blocking question below in favour of a hard **one-wound cap per Action**. The rule is now law in [[Full Rules System v1]] §15 and [[Weapons]] §1.5.
 >
 > Consequences measured in the follow-up pass (`test-bench/attack_dice_rules_compare.py`, stamped):
 > - **The candidate rules were never an offence choice.** P(Down) is *identical* — 73.8% at AD 3 — under all four resolutions. The order you learn a wound in cannot change whether it happened.
 > - **The one-wound cap is the load-bearing half.** A 3-die weapon now takes a WND-2 or WND-3 veteran from full to Down **0%** of the time, against **29.5%** / **4.7%** if surplus wounds stacked. Attack Dice shred rank-and-file and do not melt characters.
-> - **Step 4 — surplus whiffs still Pin — is the one sub-decision still owed a tick.** It is the *only* thing separating the two candidates. Dropping it cuts effective suppression **14–40%** and caps a burst at one Stress, making a 3-die burst suppress exactly as hard as a pistol.
+> - **Step 4 is now settled in the widest form** — *every* surplus hit converts, passes included (confirmed with Ross 2026-08-29). Measured in `attack-dice-15b-surplus`: at WND 2–3 it lifts P(Break test) **14.5% → 28.5%** with E[wounds] untouched at 0.738, and it prices at **38/63 either way** because the catalogue prices wounds and this adds none. **Free at the till, not free at the table.**
 > - **The fair price is 40 / 65 and the step runs DOWNWARD** — see §6, rewritten.
 >
 > §§1–5 below stand as measured. §6's pre-ruling recommendation is superseded.
