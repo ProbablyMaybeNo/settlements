@@ -404,7 +404,7 @@ Cargo Crane (Shift Terrain/Cover/Displace — CRUSH or Displace) · Blast Door (
 
 The gear a crew **builds and plants on the board** to deal or deny damage — turrets, mines, traps, and beacons. Bought like a weapon, carried by a fighter, set up with an INT test. This is where INT's combat role lives now that v1 hacking only flips switches.
 
-**Design contract:** inherits the weapon contract (§15) — a deployable applies conditions, never defines them; a deployable attack does exactly one thing, wounds or delivers its payload, never both; obeys the same +4 Damage ceiling and ±3 modifier cap as everything else. **One deploy = one Action.** **INT builds and repairs; DEX disarms.**
+**Design contract:** inherits the weapon contract (§15) — a deployable applies conditions, never defines them; a deployable attack does exactly one thing, wounds or delivers its payload, never both; obeys the same +5 Damage ceiling and ±3 modifier cap as everything else. **One deploy = one Action.** **INT builds and repairs; DEX disarms.**
 
 - **Bought like equipment**, taken against a fighter's equipment allowance in List Building. **Persists across the campaign** like a weapon — spent or destroyed only for the rest of the *current* battle, returns intact next battle.
 - **Two shapes:** spent-on-trigger (mines, traps — fires once, then gone) and standing hardware (turrets, beacons — works every round until destroyed, repairable once).
@@ -677,7 +677,7 @@ Every weapon has an **Attack Dice** value, **default 1**. Unlisted on a weapon c
 | Payload *(replaces the non-wound result)* | **Concussive** → Off-Balance · **Crippling** → Hobbled · **Blinding** → Blind · **Shocking** → Shocked · **Toxic** → Poison · **Incendiary** → Fire · **Bleeding** → Bleed *(priciest — the deadliest payload)* · **Heavy Impact** → push 2" · **Hook** → pull 1" (melee only) · **Suppressive** → target must spend its whole activation to clear the Pin (ranged only) |
 | Area | **Blast** | Resolve vs every model within 2" (Thrown/Heavy Ranged only). |
 | | **Smoke** | Place 3" Dense Smoke instead of attacking (Thrown only). |
-| Handling | **Long Range** | +6" range, to the 24" ceiling. |
+| Handling | **Long Range** | +6" range. Past 24" the four gates in §15 apply. |
 | | **Balanced** | Use AGI instead of STR for melee (Light/One-Handed only). |
 | | **Defensive** | +1 opposed melee when not attacker and didn't Move (melee only). |
 | | **Cleaving** | Injury vs every Engaged enemy on a melee win (Heavy Melee only). |

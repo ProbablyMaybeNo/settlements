@@ -85,6 +85,18 @@ FORBIDDEN = [
     ("Progression.md",          r"\+1 \*\*Secondary\*\* stat", "levels 1/4/8 float to any stat"),
     ("Damage.md",               r"Armor carries drawbacks", "armour carries none"),
     ("Deployables.md",          r"\|\s*\*\*Seeker\*\*\s*\|\s*\*\*80\*\*", "the Seeker chassis is parked"),
+    # --- retired ceilings that had leaked back into the MASTER itself (2026-08-29) ---
+    # The checker previously only guarded satellites against these; the source of
+    # truth was its own blind spot and had drifted in two places.
+    ("Full Rules System v1.md", r"same [+]4 Damage ceiling", "the ceiling is +5"),
+    ("Factions.md",             r"the [+]4 Damage cap",      "the ceiling is +5"),
+    ("Factions.md",             r'the 24" range cap',       "range reaches 36\" behind four gates"),
+    # --- retired rank name ---
+    ("Unit Design.md",          r"Champions and Leaders",   "the rank is Specialist"),
+    # --- retired scales that survived inside List Building's prose (2026-08-29) ---
+    ("List Building.md",        r"inside the 500 cap",      "Campaign Start is 425"),
+    ("List Building.md",        r"at 1000 Credits the legal", "the scale is 850"),
+    ("List Building.md",        r"no ratio requirement",    "the Specialist ratio still holds; only Recruit-per-Fighter is dropped"),
     # --- retired structure Materials ---
     ("Structures.md",           r"\*\*130\*\*\|Campaign actions", "the HQ is 70 Materials"),
     ("Full Rules System v1.md", r"250 Materials \+ 150 Credits", "founding is 125 + 75"),

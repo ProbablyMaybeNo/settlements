@@ -37,6 +37,8 @@ The brief's sim ask assumes the dice are independent. That is only true if surpl
 | **`resolve_all`** | Every die resolves regardless. Correct if surplus dice may be redirected, or against WND 2–3 campaign veterans. |
 | **`stop_on_down`** | The sequence ends at Down; surplus dice are lost. Correct at WND 1 with dice locked to one target. |
 
+^tbl-candidate-down-rules
+
 This is **the same question as the brief's split-fire item**, and the draft answers neither. It is worth **21–32% of AD 3's output** and it changes the *shape* of the correct price, not just the level. Nothing can be finalised until it is ruled. Both columns are reported below rather than averaged.
 
 ## 1 · P(at least 1 wound) per Action — the brief's headline holds

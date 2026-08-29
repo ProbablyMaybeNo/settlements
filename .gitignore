@@ -46,3 +46,6 @@ tts/assets/gallery/index.html
 # extracted source.md + meta.json, not the original.
 research/sources/**/*.pdf
 research/captures/
+
+# Sim Explorer DB - 9.5MB and fully regenerable from build_db.py
+test-bench/explorer/*.db

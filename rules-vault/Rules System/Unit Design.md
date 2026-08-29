@@ -38,7 +38,7 @@ The Rules column should nail down:
 
 ![[core-000 Core Test#Probability]]
 
-The engine already spends these stats: **Dexterity** → ranged tests · **Strength** → melee · **Morale** → the Nerve/Morale system. Champions and Leaders also carry the Command economy from [[Rules Engine#Universal Action Economy]].
+The engine already spends these stats: **Dexterity** → ranged tests · **Strength** → melee · **Morale** → the Nerve/Morale system. Specialists and Leaders also carry the Command economy from [[Rules Engine#Universal Action Economy]].
 
 ## Working rules / decisions
 

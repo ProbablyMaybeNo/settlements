@@ -7,6 +7,9 @@ tags: [settlements/interview, settlements/dashboard]
 
 The live working script for finishing the ruleset. **16 interviews**, dependency-ordered, each linked to its rule note(s). We walk them one at a time: I propose concrete values, you rule, I draft the note + its cross-edits. **Tick a box when a question's answered and jot the call on the `Answer:` line** — the Tasks plugin rolls up what's left. See [[Rules System — Master Roadmap]] · [[Rules System MOC]] · `docs/RULES-INTERVIEW-PLAN.md` (repo mirror of this).
 
+>[!danger] SUPERSEDED — historical record, not live rules (flagged 2026-08-29)
+> This is the **2026-07 working script**. Its "locked context" below is **three generations stale** and must not be cited as current: **Cash** is now **Credits** · **Water was cut** (2026-08-01) · the **100-point / 5-8-16-24 scale** is retired (now **850 Credits**, ranks **70/100/145/185**) · **Reactor** is **Power**. The live source of truth is [[Full Rules System v1]]; its §29 carries what is actually open. Keep this note for the decision trail, not for values.
+
 > [!info] Locked context every interview inherits
 > - **Setting = 2051, near-future grounded tech** (`docs/SETTING-TECH-2051.md`). **5 factions + 10 locations** at release.
 > - **Ownership ⟂ fielding:** Cash / Materials / Power / Water = what you *own*; **crew-points** (sim-validated 100-pt) = what you *field*. Structures build off-table (single **Materials** cost), deploy for points inside the sacred **9–12** density.

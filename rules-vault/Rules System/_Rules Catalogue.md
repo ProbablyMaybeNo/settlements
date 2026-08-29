@@ -65,7 +65,6 @@ tags:
 
 ![[Unit Design#^tbl-ranks-build-budget]]
 
-
 **Match Play bodies — the richer starting kit** · source: [[List Building]]
 
 ![[List Building#^tbl-the-four-ranks]]
@@ -406,11 +405,18 @@ tags:
 
 ## Coverage
 
-68 tables embedded · 37 anchored tables not placed in a section.
+68 tables embedded · 48 anchored tables not placed in a section.
 
 > [!question] Anchored tables this catalogue does not show
 > Either add them to a section in `build_catalogue.py`, or accept them as note-local detail.
 >
+> - [[Attack Dice — Sim Findings]] `^tbl-1-p-at-least-one-wound`
+> - [[Attack Dice — Sim Findings]] `^tbl-2-e-wounds-per-action`
+> - [[Attack Dice — Sim Findings]] `^tbl-3-e-stress-per-action`
+> - [[Attack Dice — Sim Findings]] `^tbl-4-activations-to-down`
+> - [[Attack Dice — Sim Findings]] `^tbl-5-auto-include-check`
+> - [[Attack Dice — Sim Findings]] `^tbl-6-derived-fair-price`
+> - [[Attack Dice — Sim Findings]] `^tbl-candidate-down-rules`
 > - [[Board Representation]] `^tbl-condition-status-tokens`
 > - [[Board Representation]] `^tbl-terrain`
 > - [[Crew Sim — Findings]] `^tbl-2-the-final-balance-table-2`
@@ -440,6 +446,9 @@ tags:
 > - [[Skill Sim — Findings]] `^tbl-4-bravery-path-break-rate-impact-nrv-2`
 > - [[Skill Sim — Findings]] `^tbl-5-marquee-duel-is-it-worth-a-point`
 > - [[Skill Sim — Findings]] `^tbl-the-self-stress-fix-applied`
+> - [[Stress Persistence — Sim Findings]] `^tbl-1-where-stress-comes-from`
+> - [[Stress Persistence — Sim Findings]] `^tbl-2-cost-per-revival`
+> - [[Stress Persistence — Sim Findings]] `^tbl-3-break-test-failure-odds`
 > - [[Structures]] `^tbl-groundworks-the-expansion-project`
 > - [[Structures]] `^tbl-storage-caps-what-you-can-hold-and-what-a-ra`
 > - [[Structures]] `^tbl-three-ways-to-grow-and-how-to-tell-them-apar`
@@ -448,3 +457,4 @@ tags:
 > - [[Terrain Hacking Cover — Sim Findings]] `^tbl-t6-hacker-shut-outs-are-too-weak`
 > - [[Terrain Hacking Cover — Sim Findings]] `^tbl-t8-disengage-is-a-dead-option`
 > - [[Terrain Hacking Cover — Sim Findings]] `^tbl-validated`
+> - [[Weapons]] `^tbl-attack-dice-costs`

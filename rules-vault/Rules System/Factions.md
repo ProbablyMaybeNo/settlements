@@ -32,7 +32,7 @@ The Rules column should nail down:
 > superseded by the one-battlefield-rule + one-settlement-affinity model.
 
 > [!success] Framework ruled 2026-08-05 — [[Full Rules System v1]] §24
-> **One battlefield rule + one settlement affinity per faction. No flat stat bonus, no matched drawback, no exclusive unlock.** Factions are balanced peer-to-peer, not against a paired nerf. Every rule must be a discount, a conditional modifier, an action-economy nudge, or a terrain-verb exception — **none may touch a hard ceiling** (the ±3 modifier cap, the +4 Damage cap, the 24" range cap, re-rolls, or extra attacks).
+> **One battlefield rule + one settlement affinity per faction. No flat stat bonus, no matched drawback, no exclusive unlock.** Factions are balanced peer-to-peer, not against a paired nerf. Every rule must be a discount, a conditional modifier, an action-economy nudge, or a terrain-verb exception — **none may touch a hard ceiling** (the ±3 modifier cap, the **+5** Damage cap, the **36"** range ceiling and its four gates, re-rolls, or extra attacks).
 >
 > | Faction | Battlefield rule | Settlement affinity |
 > |---|---|---|

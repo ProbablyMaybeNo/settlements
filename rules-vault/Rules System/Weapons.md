@@ -328,7 +328,7 @@ Kept so it doesn't creep back in a new costume ([[Out of Scope — What Settleme
 ## 7 · Conflicts flagged in [[Skill Paths]]
 Three skills are now out-competed by a characteristic. Flagged, not changed.
 
-- **Long Barrel** (T1 DEX) — *"+5" rifle range if you don't Move."* **Long Range** gives +6" unconditionally for 6 points, and the 24" ceiling makes the skill's extra reach unusable anyway. The skill is dead and wants a rewrite.
+- **Long Barrel** (T1 DEX) — *"+5" rifle range if you don't Move."* **Long Range** moves the weapon up a whole range band unconditionally for **5**/step, so the skill buys less for a Move restriction. The skill is dead and wants a rewrite. *(Reasoning corrected 2026-08-29: the old text cited a retired 24" ceiling and a retired 6-point price.)*
 - **Knockback** (T1 STR) vs **Heavy Impact** — different triggers (the skill fires on a melee *win* and allows a follow-up; the characteristic fires on a *non-wounding* hit). Distinct enough to keep both — but watch them.
 - **Ghost Blade** (T3 AGI) vs **Balanced** — the skill covers *all* melee including Heavy (+3); the characteristic caps at One-Handed (+2). Distinct, but the margin is thin.
 
