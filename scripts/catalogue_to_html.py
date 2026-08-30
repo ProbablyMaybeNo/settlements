@@ -13,8 +13,11 @@ import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.normpath(os.path.join(HERE, "..", "docs", "CATALOGUE-MASTER.md"))
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "catalogue.html")
+# optional second arg selects a different source doc; defaults to the master catalogue
+SRC = (sys.argv[2] if len(sys.argv) > 2
+       else os.path.normpath(os.path.join(HERE, "..", "docs", "CATALOGUE-MASTER.md")))
+TITLE = os.path.splitext(os.path.basename(SRC))[0].replace("-", " ").title()
 
 CALLOUT = {"success": ("ok", "Ruled"), "warning": ("warn", "Watch"),
            "danger": ("bad", "Superseded"), "info": ("info", "Note"),
@@ -241,7 +244,7 @@ header.mast{border-bottom:2px solid var(--ink);padding-bottom:1.1rem;margin-bott
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 """
 
-page = f"""<title>Settlements Master Catalogue</title>
+page = f"""<title>{TITLE}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
@@ -251,7 +254,7 @@ page = f"""<title>Settlements Master Catalogue</title>
 <main>
 <header class="mast">
   <div class="eyebrow"><span>Settlements</span><span>Pre-alpha</span><span>Generated from the rules vault</span><span>2026-08-29</span></div>
-  <h1>Master Catalogue</h1>
+  <h1>{TITLE}</h1>
   <p class="lede">Every catalogue in the game with its stats, costs and rules, pulled straight out of the Obsidian vault by <code>build_catalogue_master.py</code>. Nothing here is retyped, so it cannot drift from source — regenerate after any catalogue change.</p>
 </header>
 {bodyhtml}
