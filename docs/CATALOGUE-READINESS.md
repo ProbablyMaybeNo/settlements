@@ -65,12 +65,28 @@ the nine entries that *do* have a price are shipping untagged.
 
 No confidence-tier column either. *(`Structures.md` does use the word "Tier", but
 for **HQ upgrade tiers** — a different axis entirely. Don't mistake one for the
-other when adding the column.)* Worse, `POINTS-CATALOGUE` §5 lists the **Materials
-axis as engine-blocked**: D23 prices structures by payback, and *the denominator — the base
-gatherer rate — is stated nowhere.* Every Materials number rests on it.
+other when adding the column.)*
 
-- [ ] **State the base gatherer rate.** **[Ross] S** — this is one number and it unblocks the whole axis. Until it exists, no structure price can be tiered above C, and the payback derivation cannot be written down.
-- [ ] **Add a confidence-tier column** and tag all 23. **[Build] S** — after the rate exists. Name it distinctly (`Conf.`) so it cannot be read as an HQ upgrade tier.
+The deeper problem is what the prices rest on. **D23** rules that structures cannot
+be priced on the battle anchor — *a Storehouse buys zero win probability* — so they
+use a second anchor: **payback period in Materials against production per cycle.**
+That needs a production-per-cycle figure, and the situation is a propagation gap
+rather than a missing decision:
+
+| | |
+|---|---|
+| **The engine has one** | `points/ticks.py` carries `BASE_GATHER_RATE = 5` and `GATHERER_PAYBACK_CYCLES = 10` — a gatherer returns its cost in ten Settlement Phases at 5 Materials a cycle. |
+| **The rules do not** | `Economy.md` says only that the Processor "produces Materials, once per Settlement Phase" and that a worker adds **+1**. The modifier is written down; the base it modifies is not. |
+| **Nothing measures it** | `POINTS-CATALOGUE` §5 lists the Materials axis as engine-blocked: the rate is an assumed constant, not a measured or derived one. All 23 structure prices inherit that assumption. |
+
+**A player reading the rulebook cannot run the economy** — there is no number for
+what a gatherer yields. The two anchors do roughly agree, which is reassuring:
+10 cycles × 5 = 50 Materials against a 45-Materials Processor, and the T12 reward
+finding independently puts a Tier I structure at ~3 battles × 15 Materials = 45.
+
+- [ ] **Confirm 5 Materials per cycle and write it into `Economy.md`.** **[Ross] S** — the engine already assumes it; the rules never say it. Confirming the number costs you one line and makes the economy playable. *(Sanity check before you tick it: at 5/cycle against a 15-Materials battle reward, a gatherer is worth a third of a battle, and there is one downtime cycle between every game — so buildings are a minority of income by design. If that is not the intent, this is the number that changes it.)*
+- [ ] **Then tier the structure prices honestly.** **[Build] S** — with the rate written down the payback derivation can be stated, which makes every structure a legitimate **C** rather than untagged. It cannot go above C until something measures the rate.
+- [ ] **Add a confidence-tier column** to the 23-structure catalogue. **[Build] S** — name it distinctly (`Conf.`) so it cannot be read as an HQ upgrade tier.
 - [ ] **Confirm the provisional numbers** flagged first-draft: HQ tiers (110/195), Med-bay, Mess Hall. **[Ross] S**
 
 ## Faction rules — the framework forbids things but nothing fills it
@@ -164,7 +180,7 @@ apply — rank buys the tier slots. But the breadth is a lookup problem.
 
 **One number, then two columns, then the empty shelves.**
 
-1. **The base gatherer rate** — one ruling from you that unblocks the entire Materials axis and 23 structure prices.
+1. **Confirm the base gatherer rate (5/cycle) and write it into the rules** — the engine already assumes it, the rulebook never states it, and 23 structure prices hang off it.
 2. **Tier columns on Deployables and Structures**, then tag everything. Mechanical, and it moves two catalogues from "untagged" to "shipping standard" without a single new price.
 3. **The 9 derivable deployable prices** — traps and beacons, blocked on nothing.
 4. **Equipment to 12–16** — the biggest single gain in player choice per hour spent.
