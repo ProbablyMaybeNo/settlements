@@ -35,7 +35,7 @@ Every catalogue is checked on the same four axes:
 | Conditions | 29 | ✅ | ✅ | n/a | ✅ |
 | Terrain | 6 + 6 | ✅ | ✅ | n/a | ✅ |
 | Scenarios | 5 | ✅ | ✅ | n/a | ⚠️ |
-| Faction rules | 0 | ❌ | ❌ | ❌ | n/a |
+| Faction rules | 6 | ⚠️ | ✅ | ❌ | n/a |
 | Chems | 0 | ❌ | ❌ | ❌ | ❌ |
 | Drones | 0 | ❌ | ❌ | ❌ | ❌ |
 | Ambush | — | ❌ | n/a | n/a | n/a |
@@ -89,11 +89,17 @@ finding independently puts a Tier I structure at ~3 battles × 15 Materials = 45
 - [ ] **Add a confidence-tier column** to the 23-structure catalogue. **[Build] S** — name it distinctly (`Conf.`) so it cannot be read as an HQ upgrade tier.
 - [ ] **Confirm the provisional numbers** flagged first-draft: HQ tiers (110/195), Med-bay, Mess Hall. **[Ross] S**
 
-## Faction rules — the framework forbids things but nothing fills it
+## Faction rules — six adopted, none of them numeric
 
-- [ ] **Write one playstyle-defining rule per faction, with numbers.** **[Ross + Build] M** — "Improved Build test for field deployables" doesn't say by how much. The framework already bars flat stat bonuses, matched drawbacks and exclusive unlocks, so the shape is constrained; what's missing is the content.
-- [ ] **Lock the faction names.** **[Ross] S** — the `Ideas Inbox` set (The Veterans · First Responders · The Watch · The Union · The Syndicate · The Wyrm) is flagged in `Factions.md` itself as the strongest candidate.
-- [ ] **Decide the count.** **[Ross] S** — the superseded interview script said 5 factions + 10 locations. That number has never been re-confirmed against the current framework.
+*Correcting an earlier version of this doc that recorded Factions as empty. It is
+not: **§24 carries six factions**, each with a battlefield rule and a settlement
+affinity, adopted 2026-08-05 — Military, First Responders, Labor, Residents, Tech
+Workers, Criminals. What they lack is numbers, not content.*
+
+- [ ] **Put a number inside every battlefield rule.** **[Ross + Build] S** — "Improved Build test for field deployables" doesn't say by how much; it needs a value inside the ±3 cap. Five of the six read the same way.
+- [ ] **Check each rule is identity-defining, not merely flavourful.** **[Table]** — §24 raises this against itself: the six are *conditional nudges*, and the stated target was one strong playstyle-defining rule each, on the BLKOUT Force Rules model.
+- [ ] **Lock the names.** **[Ross] S** — nothing in the framework depends on the label. The `Ideas Inbox` set carries more setting voice than Military / Tech Workers.
+- [ ] **Confirm six is the count.** **[Ross] S** — the superseded interview script said five; §24 ships six.
 
 ## Chems — a mechanic with maths and no content
 

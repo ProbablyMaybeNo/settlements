@@ -169,8 +169,9 @@ COVERAGE = [
     ("Terrain types", 6, "complete", "Plus 6 hazards and a 3-tier cover ladder."),
     ("Scenarios", 5, "complete",
      "Everything is priced on `hold_claim` alone — one of the five, and the most static."),
-    ("Factions", 0, "**FRAMEWORK ONLY**",
-     "Rules framework exists; no faction has a numeric rule and the names are unlocked."),
+    ("Factions", 6, "rules adopted, **not numeric**",
+     "Six battlefield rules + settlement affinities, canonical in §24. None carries a number yet "
+     "(\"improved Build test\" — by how much?), and the names are still open."),
     ("Chems", 0, "**MISSING**",
      "Dependence maths sim-confirmed. No list, no prices, no effects."),
     ("Drones", 0, "**MISSING**",
@@ -211,9 +212,10 @@ for name, n, status, note in COVERAGE:
     parts.append(f"| **{name}** | {n if n else '—'} | {status} | {note} |")
 
 parts.append("""
-**Read the status column first.** Four catalogues are empty or unreachable
-(Factions' numbers, Chems, Drones, Ambush), one is critically thin (Equipment),
-and one is over-large (Skills). Everything else exists and is current.
+**Read the status column first.** Three catalogues are empty or unreachable
+(Chems, Drones, Ambush), one is critically thin (Equipment), one is over-large
+(Skills), and Factions has six adopted rules that still need numbers rather than
+content. Everything else exists and is current.
 
 ---
 """)
@@ -257,7 +259,6 @@ inferred from an absence.
 | **Chems** | The Dependence maths, sim-confirmed — 1.55 clean uses at NRV +0, 3.02 at NRV +4. | A whole consumable economy the Med-bay and trader already reference. |
 | **Drones** | Bandwidth is ruled; the Drone Bay is a built structure. | The 2051 setting's signature unit type. |
 | **Ambush** | Resolution fully sim-tuned. | Stealth as a playable axis — Quiet has no job without it. |
-| **Faction rules** | A framework forbidding flat bonuses, and an unlocked name list. | Faction identity, and the "one strong playstyle-defining rule" target. |
 | **Equipment (beyond 4)** | Med-Kit, Breach Kit, Exploit Suite, and a pointer to Deployables. | Loadout choice. Everything else on a fighter is a weapon. |
 | **Regional map** | The territory card and control states. | The campaign layer's connective tissue. |
 
