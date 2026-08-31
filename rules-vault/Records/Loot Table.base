@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: All
+    filters:
+      and:
+        - type == "loot-table"
+    order:
+      - file.name
+      - field
+      - what_it_carries

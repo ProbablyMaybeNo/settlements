@@ -1,14 +1,14 @@
 ---
-type: weapon-characteristic
-name: "Armour Piercing"
-group: "Damage & armour"
-kind: characteristic
-cr: 5
-cr_suffix: ""
+type: weapon-characteristics
+catalogue: "Weapon Characteristics"
+table: 0
+row: 1
+cols: 4
+characteristic: "Armour Piercing"
+cr: "5"
 tier: "B"
-tier_flag: ""
 effect: "Reduce the target's **Armor by 1** on the Injury roll. *The closest agreement between a measured atom and its old shipped price anywhere in the rebuild.*"
-source: "Weapons.md §2 · Characteristics"
+source: "Weapons.md"
 tags: [settlements/record, settlements/gear/characteristic]
 ---
 
@@ -16,6 +16,4 @@ tags: [settlements/record, settlements/gear/characteristic]
 
 Reduce the target's **Armor by 1** on the Injury roll. *The closest agreement between a measured atom and its old shipped price anywhere in the rebuild.*
 
-*Record note. The value of every property above is the source of truth —
-`records_weapon_chars.py rebuild` regenerates the markdown table in
-[[Weapons]] §2 from these. Edit here (or in the Base), not in the table.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Weapons]] from them.*

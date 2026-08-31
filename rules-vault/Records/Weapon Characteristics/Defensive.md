@@ -1,14 +1,14 @@
 ---
-type: weapon-characteristic
-name: "Defensive"
-group: "Handling"
-kind: characteristic
-cr: 15
-cr_suffix: ""
+type: weapon-characteristics
+catalogue: "Weapon Characteristics"
+table: 5
+row: 2
+cols: 4
+characteristic: "Defensive"
+cr: "15"
 tier: "C"
-tier_flag: ""
 effect: "**+1** on opposed melee rolls when you are **not** the attacker and did **not Move** this activation. *Melee only. Derived from light armour, the nearest measured neighbour.*"
-source: "Weapons.md §2 · Characteristics"
+source: "Weapons.md"
 tags: [settlements/record, settlements/gear/characteristic]
 ---
 
@@ -16,6 +16,4 @@ tags: [settlements/record, settlements/gear/characteristic]
 
 **+1** on opposed melee rolls when you are **not** the attacker and did **not Move** this activation. *Melee only. Derived from light armour, the nearest measured neighbour.*
 
-*Record note. The value of every property above is the source of truth —
-`records_weapon_chars.py rebuild` regenerates the markdown table in
-[[Weapons]] §2 from these. Edit here (or in the Base), not in the table.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Weapons]] from them.*

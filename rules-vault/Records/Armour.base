@@ -1,0 +1,26 @@
+views:
+  - type: table
+    name: All
+    filters:
+      and:
+        - type == "armour"
+    order:
+      - file.name
+      - injury
+      - drawback
+      - cr
+      - tier
+  - type: table
+    name: By tier
+    filters:
+      and:
+        - type == "armour"
+    order:
+      - tier
+      - file.name
+      - injury
+      - drawback
+      - cr
+    sort:
+      - property: tier
+        direction: ASC

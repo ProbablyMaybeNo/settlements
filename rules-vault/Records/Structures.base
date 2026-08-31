@@ -1,0 +1,28 @@
+views:
+  - type: table
+    name: All
+    filters:
+      and:
+        - type == "structures"
+    order:
+      - file.name
+      - class
+      - size
+      - pwr
+      - materials
+      - what_it_does
+  - type: table
+    name: By class
+    filters:
+      and:
+        - type == "structures"
+    order:
+      - class
+      - file.name
+      - size
+      - pwr
+      - materials
+      - what_it_does
+    sort:
+      - property: class
+        direction: ASC

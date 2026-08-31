@@ -1,0 +1,285 @@
+{
+ "note": "Conditions",
+ "section": "Working rules",
+ "index": null,
+ "tag": "combat/condition",
+ "tables": [
+  {
+   "head": [
+    "name",
+    "description"
+   ],
+   "props": [
+    "name",
+    "description"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+   ],
+   "bullet": true,
+   "seps": [
+    " ",
+    " ",
+    " ",
+    " ",
+    " ",
+    " "
+   ],
+   "leads": [
+    "- ",
+    "- ",
+    "- ",
+    "- ",
+    "- ",
+    "- "
+   ]
+  },
+  {
+   "head": [
+    "name",
+    "description"
+   ],
+   "props": [
+    "name",
+    "description"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    50,
+    51,
+    52,
+    53
+   ],
+   "bullet": true,
+   "seps": [
+    " — ",
+    " — ",
+    " — ",
+    " — "
+   ],
+   "leads": [
+    "- ",
+    "- ",
+    "- ",
+    "- "
+   ]
+  },
+  {
+   "head": [
+    "name",
+    "description"
+   ],
+   "props": [
+    "name",
+    "description"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+   ],
+   "bullet": true,
+   "seps": [
+    " — ",
+    " — ",
+    " — ",
+    " — ",
+    " — ",
+    " — ",
+    " — ",
+    " — "
+   ],
+   "leads": [
+    "- ",
+    "- ",
+    "- ",
+    "- ",
+    "- ",
+    "- ",
+    "- ",
+    "- "
+   ]
+  },
+  {
+   "head": [
+    "name",
+    "description"
+   ],
+   "props": [
+    "name",
+    "description"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    85,
+    86,
+    87
+   ],
+   "bullet": true,
+   "seps": [
+    " — ",
+    " — ",
+    " — "
+   ],
+   "leads": [
+    "- ",
+    "- ",
+    "- "
+   ]
+  },
+  {
+   "head": [
+    "name",
+    "description"
+   ],
+   "props": [
+    "name",
+    "description"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    97,
+    98,
+    99,
+    100,
+    101
+   ],
+   "bullet": true,
+   "seps": [
+    " — ",
+    " — ",
+    " — ",
+    " — ",
+    " — "
+   ],
+   "leads": [
+    "- ",
+    "- ",
+    "- ",
+    "- ",
+    "- "
+   ]
+  },
+  {
+   "head": [
+    "name",
+    "description"
+   ],
+   "props": [
+    "name",
+    "description"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    104,
+    105,
+    106
+   ],
+   "bullet": true,
+   "seps": [
+    " — ",
+    " — ",
+    " — "
+   ],
+   "leads": [
+    "- ",
+    "- ",
+    "- "
+   ]
+  },
+  {
+   "head": [
+    "name",
+    "description"
+   ],
+   "props": [
+    "name",
+    "description"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    110,
+    111,
+    112,
+    113,
+    114
+   ],
+   "bullet": true,
+   "seps": [
+    " — ",
+    " — ",
+    " — ",
+    " — ",
+    " — "
+   ],
+   "leads": [
+    "- ",
+    "- ",
+    "- ",
+    "- ",
+    "- "
+   ]
+  }
+ ]
+}

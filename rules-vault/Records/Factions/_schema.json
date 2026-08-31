@@ -1,0 +1,96 @@
+{
+ "note": "Factions",
+ "section": "Working rules",
+ "index": null,
+ "tag": "campaign/faction",
+ "tables": [
+  {
+   "head": [
+    "Faction",
+    "Battlefield rule",
+    "Settlement affinity"
+   ],
+   "props": [
+    "faction",
+    "battlefield_rule",
+    "settlement_affinity"
+   ],
+   "patterns": [
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    38,
+    39,
+    40,
+    41,
+    42,
+    43
+   ],
+   "pad": false,
+   "widths": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "rowpad": [
+    [
+     14,
+     48,
+     36
+    ],
+    [
+     22,
+     43,
+     30
+    ],
+    [
+     11,
+     47,
+     40
+    ],
+    [
+     15,
+     45,
+     42
+    ],
+    [
+     18,
+     39,
+     34
+    ],
+    [
+     15,
+     76,
+     29
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  }
+ ]
+}

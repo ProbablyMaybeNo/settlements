@@ -1,0 +1,179 @@
+{
+ "note": "Weapons",
+ "section": "1 · Weapon classes",
+ "index": 0,
+ "tag": "gear/class",
+ "tables": [
+  {
+   "head": [
+    "Class",
+    "Cheapest build",
+    "Damage",
+    "Range",
+    "Hands",
+    "Min. rank",
+    "Slots",
+    "Always has"
+   ],
+   "props": [
+    "class",
+    "cheapest_build",
+    "damage",
+    "range",
+    "hands",
+    "min_rank",
+    "slots",
+    "always_has"
+   ],
+   "patterns": [
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+   ],
+   "pad": true,
+   "widths": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+   ],
+   "rowpad": [
+    [
+     13,
+     7,
+     4,
+     3,
+     3,
+     5,
+     3,
+     3
+    ],
+    [
+     17,
+     7,
+     13,
+     7,
+     3,
+     9,
+     3,
+     27
+    ],
+    [
+     22,
+     7,
+     14,
+     7,
+     3,
+     9,
+     3,
+     26
+    ],
+    [
+     17,
+     8,
+     14,
+     7,
+     3,
+     12,
+     3,
+     12
+    ],
+    [
+     12,
+     7,
+     14,
+     9,
+     3,
+     5,
+     3,
+     31
+    ],
+    [
+     13,
+     7,
+     14,
+     12,
+     3,
+     9,
+     3,
+     44
+    ],
+    [
+     21,
+     8,
+     14,
+     13,
+     3,
+     9,
+     3,
+     18
+    ],
+    [
+     18,
+     8,
+     14,
+     13,
+     3,
+     12,
+     3,
+     18
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  }
+ ]
+}

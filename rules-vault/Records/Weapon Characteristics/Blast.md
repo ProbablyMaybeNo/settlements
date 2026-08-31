@@ -1,14 +1,14 @@
 ---
-type: weapon-characteristic
-name: "Blast"
-group: "Area"
-kind: characteristic
-cr: 15
-cr_suffix: ""
+type: weapon-characteristics
+catalogue: "Weapon Characteristics"
+table: 4
+row: 0
+cols: 4
+characteristic: "Blast"
+cr: "15"
 tier: "B"
-tier_flag: ""
 effect: "Resolve the attack separately against **every model within 2\"** of the target. *Thrown / Heavy Ranged only.*"
-source: "Weapons.md §2 · Characteristics"
+source: "Weapons.md"
 tags: [settlements/record, settlements/gear/characteristic]
 ---
 
@@ -16,6 +16,4 @@ tags: [settlements/record, settlements/gear/characteristic]
 
 Resolve the attack separately against **every model within 2"** of the target. *Thrown / Heavy Ranged only.*
 
-*Record note. The value of every property above is the source of truth —
-`records_weapon_chars.py rebuild` regenerates the markdown table in
-[[Weapons]] §2 from these. Edit here (or in the Base), not in the table.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Weapons]] from them.*

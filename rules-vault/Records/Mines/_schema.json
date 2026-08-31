@@ -1,0 +1,149 @@
+{
+ "note": "Deployables",
+ "section": "Family B",
+ "index": null,
+ "tag": "gear/deployable",
+ "tables": [
+  {
+   "head": [
+    "Chassis",
+    "Credits",
+    "Delivery"
+   ],
+   "props": [
+    "chassis",
+    "credits",
+    "delivery"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    108,
+    109,
+    110
+   ],
+   "pad": true,
+   "widths": [
+    3,
+    3,
+    3
+   ],
+   "rowpad": [
+    [
+     15,
+     7,
+     84
+    ],
+    [
+     12,
+     16,
+     487
+    ],
+    [
+     16,
+     12,
+     385
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "Payload",
+    "Credits",
+    "Effect"
+   ],
+   "props": [
+    "payload",
+    "credits",
+    "effect"
+   ],
+   "patterns": [
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    118,
+    119,
+    120,
+    121,
+    122
+   ],
+   "pad": true,
+   "widths": [
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "rowpad": [
+    [
+     15,
+     16,
+     59
+    ],
+    [
+     10,
+     16,
+     137
+    ],
+    [
+     12,
+     16,
+     108,
+     40
+    ],
+    [
+     11,
+     16,
+     140
+    ],
+    [
+     11,
+     16,
+     100
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  }
+ ]
+}

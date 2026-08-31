@@ -1,0 +1,541 @@
+{
+ "note": "Weapons",
+ "section": "2 · Characteristics",
+ "index": null,
+ "tag": "gear/characteristic",
+ "tables": [
+  {
+   "head": [
+    "Characteristic",
+    "Cr",
+    "Tier",
+    "Effect"
+   ],
+   "props": [
+    "characteristic",
+    "cr",
+    "tier",
+    "effect"
+   ],
+   "patterns": [
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    142,
+    143
+   ],
+   "pad": true,
+   "widths": [
+    4,
+    4
+   ],
+   "rowpad": [
+    [
+     12,
+     8,
+     7,
+     125
+    ],
+    [
+     21,
+     7,
+     7,
+     155
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "Characteristic",
+    "Cr",
+    "Tier",
+    "Effect"
+   ],
+   "props": [
+    "characteristic",
+    "cr",
+    "tier",
+    "effect"
+   ],
+   "patterns": [
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "bold_suffix"
+    }
+   ],
+   "lines": [
+    150,
+    151
+   ],
+   "pad": true,
+   "widths": [
+    4,
+    4
+   ],
+   "rowpad": [
+    [
+     14,
+     8,
+     7,
+     69
+    ],
+    [
+     12,
+     8,
+     7,
+     71
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "Characteristic",
+    "Cr",
+    "Tier",
+    "Payload"
+   ],
+   "props": [
+    "characteristic",
+    "cr",
+    "tier",
+    "payload"
+   ],
+   "patterns": [
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "bold_suffix"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    164,
+    165,
+    166,
+    167,
+    168
+   ],
+   "pad": true,
+   "widths": [
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "rowpad": [
+    [
+     17,
+     8,
+     7,
+     216
+    ],
+    [
+     14,
+     8,
+     7,
+     72
+    ],
+    [
+     16,
+     8,
+     7,
+     10
+    ],
+    [
+     14,
+     7,
+     9,
+     63
+    ],
+    [
+     18,
+     7,
+     9,
+     120
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "Trait",
+    "Net",
+    ""
+   ],
+   "props": [
+    "trait",
+    "net",
+    "col"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    175,
+    176,
+    177,
+    178,
+    179
+   ],
+   "pad": false,
+   "widths": [
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "rowpad": [
+    [
+     15,
+     12,
+     24
+    ],
+    [
+     16,
+     12,
+     24
+    ],
+    [
+     14,
+     12,
+     24
+    ],
+    [
+     6,
+     8,
+     45
+    ],
+    [
+     7,
+     8,
+     42
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "head": [
+    "Characteristic",
+    "Cr",
+    "Tier",
+    "Effect"
+   ],
+   "props": [
+    "characteristic",
+    "cr",
+    "tier",
+    "effect"
+   ],
+   "patterns": [
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    190,
+    191
+   ],
+   "pad": true,
+   "widths": [
+    4,
+    4
+   ],
+   "rowpad": [
+    [
+     11,
+     8,
+     7,
+     110
+    ],
+    [
+     11,
+     8,
+     7,
+     204
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "Characteristic",
+    "Cr",
+    "Tier",
+    "Effect"
+   ],
+   "props": [
+    "characteristic",
+    "cr",
+    "tier",
+    "effect"
+   ],
+   "patterns": [
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "bold_suffix"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204
+   ],
+   "pad": true,
+   "widths": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "rowpad": [
+    [
+     16,
+     12,
+     16,
+     93
+    ],
+    [
+     14,
+     8,
+     7,
+     101
+    ],
+    [
+     15,
+     8,
+     7,
+     176
+    ],
+    [
+     14,
+     8,
+     7,
+     165
+    ],
+    [
+     15,
+     8,
+     7,
+     89
+    ],
+    [
+     11,
+     8,
+     7,
+     137
+    ],
+    [
+     13,
+     8,
+     7,
+     122
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "Drawback",
+    "Refund",
+    "Effect"
+   ],
+   "props": [
+    "drawback",
+    "refund",
+    "effect"
+   ],
+   "patterns": [
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "bold_suffix"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    220,
+    221,
+    222,
+    223,
+    224
+   ],
+   "pad": true,
+   "widths": [
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "rowpad": [
+    [
+     17,
+     32,
+     148
+    ],
+    [
+     10,
+     8,
+     56
+    ],
+    [
+     14,
+     8,
+     57
+    ],
+    [
+     16,
+     8,
+     27
+    ],
+    [
+     16,
+     8,
+     71
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  }
+ ]
+}

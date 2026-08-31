@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: All
+    filters:
+      and:
+        - type == "infrastructure"
+    order:
+      - file.name
+      - description

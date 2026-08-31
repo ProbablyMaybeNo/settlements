@@ -1,0 +1,85 @@
+{
+ "note": "Weapons",
+ "section": "4 · Hacking gear",
+ "index": 0,
+ "tag": "gear/hack",
+ "tables": [
+  {
+   "head": [
+    "Hack gear",
+    "Modifier",
+    "Cr",
+    "Tier",
+    "Notes"
+   ],
+   "props": [
+    "hack_gear",
+    "modifier",
+    "cr",
+    "tier",
+    "notes"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    268,
+    269,
+    270
+   ],
+   "pad": true,
+   "widths": [
+    5,
+    5,
+    5
+   ],
+   "rowpad": [
+    [
+     13,
+     4,
+     7,
+     3,
+     27
+    ],
+    [
+     12,
+     4,
+     8,
+     7,
+     25
+    ],
+    [
+     15,
+     4,
+     8,
+     7,
+     16
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false,
+    false
+   ]
+  }
+ ]
+}

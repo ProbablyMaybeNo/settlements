@@ -1,0 +1,529 @@
+{
+ "note": "Structures",
+ "section": "The catalogue",
+ "index": null,
+ "tag": "settlement/structure",
+ "tables": [
+  {
+   "head": [
+    "Structure",
+    "Class",
+    "Size",
+    "Pwr",
+    "Materials",
+    "What it does"
+   ],
+   "props": [
+    "structure",
+    "class",
+    "size",
+    "pwr",
+    "materials",
+    "what_it_does"
+   ],
+   "patterns": [
+    {
+     "kind": "bold_suffix"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    291,
+    292,
+    293,
+    294
+   ],
+   "pad": false,
+   "widths": [
+    6,
+    6,
+    6,
+    6
+   ],
+   "rowpad": [
+    [
+     15,
+     5,
+     3,
+     6,
+     6,
+     16
+    ],
+    [
+     13,
+     8,
+     3,
+     2,
+     6,
+     42
+    ],
+    [
+     29,
+     8,
+     3,
+     2,
+     6,
+     97
+    ],
+    [
+     35,
+     7,
+     3,
+     7,
+     11,
+     160
+    ]
+   ],
+   "rowspaced": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "Structure",
+    "Class",
+    "Size",
+    "Pwr",
+    "Materials",
+    "What it does"
+   ],
+   "props": [
+    "structure",
+    "class",
+    "size",
+    "pwr",
+    "materials",
+    "what_it_does"
+   ],
+   "patterns": [
+    {
+     "kind": "bold_suffix"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    307,
+    308,
+    309,
+    310,
+    311
+   ],
+   "pad": false,
+   "widths": [
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "rowpad": [
+    [
+     15,
+     5,
+     3,
+     2,
+     6,
+     42
+    ],
+    [
+     18,
+     4,
+     3,
+     2,
+     6,
+     110
+    ],
+    [
+     40,
+     7,
+     3,
+     7,
+     12,
+     78
+    ],
+    [
+     32,
+     7,
+     3,
+     7,
+     12,
+     114
+    ],
+    [
+     14,
+     8,
+     16,
+     12,
+     18,
+     291
+    ]
+   ],
+   "rowspaced": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "Structure",
+    "Class",
+    "Size",
+    "Pwr",
+    "Materials",
+    "What it does"
+   ],
+   "props": [
+    "structure",
+    "class",
+    "size",
+    "pwr",
+    "materials",
+    "what_it_does"
+   ],
+   "patterns": [
+    {
+     "kind": "bold_suffix"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    327,
+    328,
+    329,
+    330,
+    331,
+    332
+   ],
+   "pad": false,
+   "widths": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "rowpad": [
+    [
+     8,
+     8,
+     3,
+     2,
+     6,
+     131
+    ],
+    [
+     28,
+     5,
+     3,
+     2,
+     6,
+     84
+    ],
+    [
+     14,
+     5,
+     3,
+     2,
+     6,
+     84
+    ],
+    [
+     14,
+     5,
+     3,
+     2,
+     6,
+     132
+    ],
+    [
+     15,
+     8,
+     3,
+     2,
+     7,
+     126
+    ],
+    [
+     13,
+     8,
+     3,
+     2,
+     7,
+     100
+    ]
+   ],
+   "rowspaced": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "Structure",
+    "Class",
+    "Size",
+    "Pwr",
+    "Materials",
+    "What it does"
+   ],
+   "props": [
+    "structure",
+    "class",
+    "size",
+    "pwr",
+    "materials",
+    "what_it_does"
+   ],
+   "patterns": [
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    355,
+    356,
+    357
+   ],
+   "pad": false,
+   "widths": [
+    6,
+    6,
+    6
+   ],
+   "rowpad": [
+    [
+     11,
+     8,
+     3,
+     2,
+     6,
+     136
+    ],
+    [
+     17,
+     8,
+     3,
+     2,
+     6,
+     112
+    ],
+    [
+     13,
+     8,
+     3,
+     2,
+     6,
+     66
+    ]
+   ],
+   "rowspaced": [
+    false,
+    false,
+    false
+   ],
+   "callout": [
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "Structure",
+    "Class",
+    "Size",
+    "Pwr",
+    "Materials",
+    "What it does"
+   ],
+   "props": [
+    "structure",
+    "class",
+    "size",
+    "pwr",
+    "materials",
+    "what_it_does"
+   ],
+   "patterns": [
+    {
+     "kind": "bold_suffix"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "bold_suffix"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    374,
+    375,
+    376,
+    377,
+    378
+   ],
+   "pad": false,
+   "widths": [
+    6,
+    6,
+    6,
+    6,
+    6
+   ],
+   "rowpad": [
+    [
+     18,
+     4,
+     25,
+     2,
+     16,
+     70
+    ],
+    [
+     13,
+     8,
+     3,
+     2,
+     6,
+     69
+    ],
+    [
+     14,
+     5,
+     3,
+     2,
+     6,
+     65
+    ],
+    [
+     52,
+     5,
+     3,
+     2,
+     7,
+     108
+    ],
+    [
+     11,
+     5,
+     3,
+     2,
+     7,
+     108
+    ]
+   ],
+   "rowspaced": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  }
+ ]
+}

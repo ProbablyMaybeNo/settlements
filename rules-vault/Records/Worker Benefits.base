@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: All
+    filters:
+      and:
+        - type == "worker-benefits"
+    order:
+      - file.name
+      - structure
+      - assigned_worker_gives

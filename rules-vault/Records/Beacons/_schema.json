@@ -1,0 +1,117 @@
+{
+ "note": "Deployables",
+ "section": "Family D",
+ "index": 0,
+ "tag": "gear/deployable",
+ "tables": [
+  {
+   "head": [
+    "Beacon",
+    "Build",
+    "Credits",
+    "Aura (within 6\")"
+   ],
+   "props": [
+    "beacon",
+    "build",
+    "credits",
+    "aura_within_6"
+   ],
+   "patterns": [
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159
+   ],
+   "pad": true,
+   "widths": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ],
+   "rowpad": [
+    [
+     22,
+     12,
+     7,
+     121
+    ],
+    [
+     22,
+     12,
+     16,
+     39
+    ],
+    [
+     18,
+     12,
+     16,
+     103
+    ],
+    [
+     18,
+     12,
+     16,
+     86
+    ],
+    [
+     22,
+     12,
+     16,
+     177
+    ],
+    [
+     19,
+     14,
+     8,
+     162
+    ],
+    [
+     18,
+     12,
+     16,
+     133
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  }
+ ]
+}

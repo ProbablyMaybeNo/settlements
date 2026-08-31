@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: All
+    filters:
+      and:
+        - type == "mines"
+    order:
+      - file.name
+      - credits
+      - delivery

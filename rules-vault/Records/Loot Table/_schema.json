@@ -1,0 +1,311 @@
+{
+ "note": "Territory",
+ "section": "Working rules",
+ "index": null,
+ "tag": "campaign/loot",
+ "tables": [
+  {
+   "head": [
+    "#",
+    "Field",
+    "What it carries"
+   ],
+   "props": [
+    "col",
+    "field",
+    "what_it_carries"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "pad": true,
+   "widths": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "rowpad": [
+    [
+     3,
+     20,
+     102
+    ],
+    [
+     3,
+     24,
+     70
+    ],
+    [
+     3,
+     23,
+     49
+    ],
+    [
+     3,
+     20,
+     73
+    ],
+    [
+     3,
+     12,
+     76
+    ],
+    [
+     3,
+     16,
+     51
+    ],
+    [
+     3,
+     21,
+     57
+    ],
+    [
+     3,
+     24,
+     28
+    ],
+    [
+     3,
+     19,
+     41
+    ],
+    [
+     4,
+     26,
+     68
+    ],
+    [
+     4,
+     18,
+     53
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "d10",
+    "Result"
+   ],
+   "props": [
+    "d10",
+    "result"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74
+   ],
+   "pad": true,
+   "widths": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "rowpad": [
+    [
+     3,
+     59
+    ],
+    [
+     3,
+     16
+    ],
+    [
+     3,
+     19
+    ],
+    [
+     3,
+     17
+    ],
+    [
+     3,
+     115
+    ],
+    [
+     3,
+     19
+    ],
+    [
+     3,
+     17
+    ],
+    [
+     3,
+     17
+    ],
+    [
+     3,
+     127
+    ],
+    [
+     4,
+     67
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "State",
+    "Reached by",
+    "Benefit"
+   ],
+   "props": [
+    "state",
+    "reached_by",
+    "benefit"
+   ],
+   "patterns": [
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "bold_suffix"
+    }
+   ],
+   "lines": [
+    89,
+    90,
+    91
+   ],
+   "pad": true,
+   "widths": [
+    3,
+    3,
+    3
+   ],
+   "rowpad": [
+    [
+     13,
+     31,
+     52
+    ],
+    [
+     16,
+     41,
+     12
+    ],
+    [
+     14,
+     54,
+     42
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false,
+    false
+   ]
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: All
+    filters:
+      and:
+        - type == "skills"
+    order:
+      - file.name
+      - description

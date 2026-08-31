@@ -1,21 +1,20 @@
 ---
-type: weapon-characteristic
-name: "Accurate"
-group: "To hit"
-kind: characteristic
-cr: 10
-cr_suffix: ""
+type: weapon-characteristics
+catalogue: "Weapon Characteristics"
+table: 1
+row: 0
+cols: 4
+characteristic: "Accurate"
+cr: "10"
 tier: "B"
-tier_flag: ""
-effect: "**+1 to hit** if you did not Move, Sprint or Climb this activation."
-source: "Weapons.md §2 · Characteristics"
+effect: "+1 to hit"
+effect_suffix: " if you did not Move, Sprint or Climb this activation."
+source: "Weapons.md"
 tags: [settlements/record, settlements/gear/characteristic]
 ---
 
 # Accurate
 
-**+1 to hit** if you did not Move, Sprint or Climb this activation.
++1 to hit
 
-*Record note. The value of every property above is the source of truth —
-`records_weapon_chars.py rebuild` regenerates the markdown table in
-[[Weapons]] §2 from these. Edit here (or in the Base), not in the table.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Weapons]] from them.*

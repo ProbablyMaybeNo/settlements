@@ -1,0 +1,386 @@
+{
+ "note": "Terrain",
+ "section": "Working rules",
+ "index": null,
+ "tag": "terrain/type",
+ "tables": [
+  {
+   "head": [
+    "Property",
+    "Question",
+    "Values"
+   ],
+   "props": [
+    "property",
+    "question",
+    "values"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    38,
+    39,
+    40
+   ],
+   "pad": false,
+   "widths": [
+    3,
+    3,
+    3
+   ],
+   "rowpad": [
+    [
+     8,
+     18,
+     29
+    ],
+    [
+     5,
+     36,
+     48
+    ],
+    [
+     4,
+     20,
+     61
+    ]
+   ],
+   "rowspaced": [
+    false,
+    false,
+    false
+   ],
+   "callout": [
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "Cover",
+    "To-hit"
+   ],
+   "props": [
+    "cover",
+    "to_hit"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    54,
+    55,
+    56,
+    57,
+    58
+   ],
+   "pad": false,
+   "widths": [
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "rowpad": [
+    [
+     4,
+     1
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     5,
+     2
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     21,
+     18
+    ]
+   ],
+   "rowspaced": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "Type",
+    "What it is",
+    "Default Movement",
+    "Default Cover",
+    "Common tags"
+   ],
+   "props": [
+    "type",
+    "what_it_is",
+    "default_movement",
+    "default_cover",
+    "common_tags"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    72,
+    73,
+    74,
+    75,
+    76,
+    77
+   ],
+   "pad": false,
+   "widths": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "rowpad": [
+    [
+     8,
+     38,
+     64,
+     57,
+     83
+    ],
+    [
+     4,
+     38,
+     29,
+     61,
+     46
+    ],
+    [
+     7,
+     34,
+     30,
+     22,
+     45
+    ],
+    [
+     13,
+     32,
+     23,
+     30,
+     29
+    ],
+    [
+     7,
+     42,
+     17,
+     61,
+     39
+    ],
+    [
+     8,
+     40,
+     9,
+     12,
+     34
+    ]
+   ],
+   "rowspaced": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "Hazard",
+    "Effect"
+   ],
+   "props": [
+    "hazard",
+    "effect"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+   ],
+   "pad": false,
+   "widths": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "rowpad": [
+    [
+     21,
+     9
+    ],
+    [
+     20,
+     11
+    ],
+    [
+     19,
+     26
+    ],
+    [
+     16,
+     12
+    ],
+    [
+     10,
+     55
+    ],
+    [
+     11,
+     45
+    ]
+   ],
+   "rowspaced": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  },
+  {
+   "head": [
+    "Interaction",
+    "Stat"
+   ],
+   "props": [
+    "interaction",
+    "stat"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    155,
+    156,
+    157,
+    158
+   ],
+   "pad": true,
+   "widths": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "rowpad": [
+    [
+     38,
+     6
+    ],
+    [
+     38,
+     6
+    ],
+    [
+     56,
+     6
+    ],
+    [
+     38,
+     6
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false
+   ]
+  }
+ ]
+}

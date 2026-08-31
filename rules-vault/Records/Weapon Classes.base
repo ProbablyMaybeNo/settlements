@@ -1,0 +1,13 @@
+views:
+  - type: table
+    name: All
+    filters:
+      and:
+        - type == "weapon-classes"
+    order:
+      - file.name
+      - cheapest_build
+      - damage
+      - range
+      - hands
+      - min_rank

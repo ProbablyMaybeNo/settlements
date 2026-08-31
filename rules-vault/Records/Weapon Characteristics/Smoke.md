@@ -1,14 +1,14 @@
 ---
-type: weapon-characteristic
-name: "Smoke"
-group: "Area"
-kind: characteristic
-cr: 15
-cr_suffix: ""
+type: weapon-characteristics
+catalogue: "Weapon Characteristics"
+table: 4
+row: 1
+cols: 4
+characteristic: "Smoke"
+cr: "15"
 tier: "C"
-tier_flag: ""
 effect: "Instead of attacking, place a **3\" Dense Smoke** area ([[Terrain#Hazards (the Dangerous overlay)]]). *Thrown only. No LOS-denial atom has been measured; its nearest neighbour (Blind) is itself blocked.*"
-source: "Weapons.md §2 · Characteristics"
+source: "Weapons.md"
 tags: [settlements/record, settlements/gear/characteristic]
 ---
 
@@ -16,6 +16,4 @@ tags: [settlements/record, settlements/gear/characteristic]
 
 Instead of attacking, place a **3" Dense Smoke** area ([[Terrain#Hazards (the Dangerous overlay)]]). *Thrown only. No LOS-denial atom has been measured; its nearest neighbour (Blind) is itself blocked.*
 
-*Record note. The value of every property above is the source of truth —
-`records_weapon_chars.py rebuild` regenerates the markdown table in
-[[Weapons]] §2 from these. Edit here (or in the Base), not in the table.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Weapons]] from them.*

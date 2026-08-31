@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: All
+    filters:
+      and:
+        - type == "events"
+    order:
+      - file.name
+      - event
+      - effect

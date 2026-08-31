@@ -1,0 +1,26 @@
+views:
+  - type: table
+    name: All
+    filters:
+      and:
+        - type == "terrain-verbs"
+    order:
+      - file.name
+      - tag
+      - stat
+      - resolution
+      - notes
+  - type: table
+    name: By stat
+    filters:
+      and:
+        - type == "terrain-verbs"
+    order:
+      - stat
+      - file.name
+      - tag
+      - resolution
+      - notes
+    sort:
+      - property: stat
+        direction: ASC

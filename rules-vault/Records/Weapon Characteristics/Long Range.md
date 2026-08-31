@@ -1,14 +1,15 @@
 ---
-type: weapon-characteristic
-name: "Long Range"
-group: "Handling"
-kind: characteristic
-cr: 5
+type: weapon-characteristics
+catalogue: "Weapon Characteristics"
+table: 5
+row: 0
+cols: 4
+characteristic: "Long Range"
+cr: "5"
 cr_suffix: "/step"
 tier: "⚠ OVERRIDE"
-tier_flag: ""
 effect: "Moves the weapon up one range band. Past **24\"** the four gates above apply. *Ranged only.*"
-source: "Weapons.md §2 · Characteristics"
+source: "Weapons.md"
 tags: [settlements/record, settlements/gear/characteristic]
 ---
 
@@ -16,6 +17,4 @@ tags: [settlements/record, settlements/gear/characteristic]
 
 Moves the weapon up one range band. Past **24"** the four gates above apply. *Ranged only.*
 
-*Record note. The value of every property above is the source of truth —
-`records_weapon_chars.py rebuild` regenerates the markdown table in
-[[Weapons]] §2 from these. Edit here (or in the Base), not in the table.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Weapons]] from them.*

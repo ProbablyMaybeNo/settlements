@@ -1,14 +1,13 @@
 ---
-type: weapon-characteristic
-name: "Single-Use"
-group: "Drawbacks"
-kind: drawback
-cr: -5
-cr_suffix: ""
-tier: ""
-tier_flag: ""
+type: weapon-characteristics
+catalogue: "Weapon Characteristics"
+table: 6
+row: 4
+cols: 3
+drawback: "Single-Use"
+refund: "−5"
 effect: "**One use** per battle — the weapon is expended when thrown or fired."
-source: "Weapons.md §2 · Characteristics"
+source: "Weapons.md"
 tags: [settlements/record, settlements/gear/characteristic]
 ---
 
@@ -16,6 +15,4 @@ tags: [settlements/record, settlements/gear/characteristic]
 
 **One use** per battle — the weapon is expended when thrown or fired.
 
-*Record note. The value of every property above is the source of truth —
-`records_weapon_chars.py rebuild` regenerates the markdown table in
-[[Weapons]] §2 from these. Edit here (or in the Base), not in the table.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Weapons]] from them.*

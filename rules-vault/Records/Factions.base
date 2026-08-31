@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: All
+    filters:
+      and:
+        - type == "factions"
+    order:
+      - file.name
+      - battlefield_rule
+      - settlement_affinity

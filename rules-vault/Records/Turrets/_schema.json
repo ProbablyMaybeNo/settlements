@@ -1,0 +1,107 @@
+{
+ "note": "Deployables",
+ "section": "Family A",
+ "index": 0,
+ "tag": "gear/deployable",
+ "tables": [
+  {
+   "head": [
+    "Turret",
+    "Build",
+    "Credits",
+    "Range",
+    "Auto-fire profile"
+   ],
+   "props": [
+    "turret",
+    "build",
+    "credits",
+    "range",
+    "auto_fire_profile"
+   ],
+   "patterns": [
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    94,
+    95,
+    96,
+    97,
+    98
+   ],
+   "pad": true,
+   "widths": [
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "rowpad": [
+    [
+     16,
+     12,
+     8,
+     5,
+     79
+    ],
+    [
+     19,
+     14,
+     8,
+     5,
+     149
+    ],
+    [
+     18,
+     14,
+     8,
+     5,
+     149
+    ],
+    [
+     18,
+     12,
+     8,
+     5,
+     104
+    ],
+    [
+     23,
+     12,
+     8,
+     5,
+     187
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ]
+  }
+ ]
+}

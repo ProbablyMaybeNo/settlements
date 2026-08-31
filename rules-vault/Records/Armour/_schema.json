@@ -1,0 +1,96 @@
+{
+ "note": "Weapons",
+ "section": "3 · Armor",
+ "index": 0,
+ "tag": "gear/armour",
+ "tables": [
+  {
+   "head": [
+    "Armor",
+    "Injury",
+    "Drawback",
+    "Cr",
+    "Tier"
+   ],
+   "props": [
+    "armor",
+    "injury",
+    "drawback",
+    "cr",
+    "tier"
+   ],
+   "patterns": [
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "raw"
+    },
+    {
+     "kind": "bold"
+    },
+    {
+     "kind": "raw"
+    }
+   ],
+   "lines": [
+    248,
+    249,
+    250,
+    251
+   ],
+   "pad": true,
+   "widths": [
+    5,
+    5,
+    5,
+    5
+   ],
+   "rowpad": [
+    [
+     6,
+     3,
+     3,
+     7,
+     3
+    ],
+    [
+     16,
+     3,
+     53,
+     7,
+     3
+    ],
+    [
+     7,
+     4,
+     3,
+     8,
+     7
+    ],
+    [
+     7,
+     4,
+     3,
+     8,
+     7
+    ]
+   ],
+   "rowspaced": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "callout": [
+    false,
+    false,
+    false,
+    false
+   ]
+  }
+ ]
+}

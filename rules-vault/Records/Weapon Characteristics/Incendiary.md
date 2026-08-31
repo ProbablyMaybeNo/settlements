@@ -1,14 +1,14 @@
 ---
-type: weapon-characteristic
-name: "Incendiary"
-group: "Payload"
-kind: characteristic
-cr: 10
-cr_suffix: ""
+type: weapon-characteristics
+catalogue: "Weapon Characteristics"
+table: 2
+row: 2
+cols: 4
+characteristic: "Incendiary"
+cr: "10"
 tier: "B"
-tier_flag: ""
-effect: "**Fire**"
-source: "Weapons.md §2 · Characteristics"
+payload: "**Fire**"
+source: "Weapons.md"
 tags: [settlements/record, settlements/gear/characteristic]
 ---
 
@@ -16,6 +16,4 @@ tags: [settlements/record, settlements/gear/characteristic]
 
 **Fire**
 
-*Record note. The value of every property above is the source of truth —
-`records_weapon_chars.py rebuild` regenerates the markdown table in
-[[Weapons]] §2 from these. Edit here (or in the Base), not in the table.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Weapons]] from them.*

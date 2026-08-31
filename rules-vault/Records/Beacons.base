@@ -1,0 +1,24 @@
+views:
+  - type: table
+    name: All
+    filters:
+      and:
+        - type == "beacons"
+    order:
+      - file.name
+      - build
+      - credits
+      - aura_within_6
+  - type: table
+    name: By build
+    filters:
+      and:
+        - type == "beacons"
+    order:
+      - build
+      - file.name
+      - credits
+      - aura_within_6
+    sort:
+      - property: build
+        direction: ASC

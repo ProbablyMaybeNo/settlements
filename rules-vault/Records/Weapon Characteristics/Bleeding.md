@@ -1,14 +1,14 @@
 ---
-type: weapon-characteristic
-name: "Bleeding"
-group: "Payload"
-kind: characteristic
-cr: 20
-cr_suffix: ""
+type: weapon-characteristics
+catalogue: "Weapon Characteristics"
+table: 2
+row: 1
+cols: 4
+characteristic: "Bleeding"
+cr: "20"
 tier: "B"
-tier_flag: ""
-effect: "**Bleed** — *at WND 1 this is a two-round death clock unless treated.*"
-source: "Weapons.md §2 · Characteristics"
+payload: "**Bleed** — *at WND 1 this is a two-round death clock unless treated.*"
+source: "Weapons.md"
 tags: [settlements/record, settlements/gear/characteristic]
 ---
 
@@ -16,6 +16,4 @@ tags: [settlements/record, settlements/gear/characteristic]
 
 **Bleed** — *at WND 1 this is a two-round death clock unless treated.*
 
-*Record note. The value of every property above is the source of truth —
-`records_weapon_chars.py rebuild` regenerates the markdown table in
-[[Weapons]] §2 from these. Edit here (or in the Base), not in the table.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Weapons]] from them.*

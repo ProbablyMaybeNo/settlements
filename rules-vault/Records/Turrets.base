@@ -1,0 +1,26 @@
+views:
+  - type: table
+    name: All
+    filters:
+      and:
+        - type == "turrets"
+    order:
+      - file.name
+      - build
+      - credits
+      - range
+      - auto_fire_profile
+  - type: table
+    name: By build
+    filters:
+      and:
+        - type == "turrets"
+    order:
+      - build
+      - file.name
+      - credits
+      - range
+      - auto_fire_profile
+    sort:
+      - property: build
+        direction: ASC

@@ -1,14 +1,13 @@
 ---
-type: weapon-characteristic
-name: "Slow"
-group: "Drawbacks"
-kind: drawback
-cr: -5
-cr_suffix: ""
-tier: ""
-tier_flag: ""
+type: weapon-characteristics
+catalogue: "Weapon Characteristics"
+table: 6
+row: 1
+cols: 3
+drawback: "Slow"
+refund: "−5"
 effect: "You may not **Charge** with this weapon. *Melee only.*"
-source: "Weapons.md §2 · Characteristics"
+source: "Weapons.md"
 tags: [settlements/record, settlements/gear/characteristic]
 ---
 
@@ -16,6 +15,4 @@ tags: [settlements/record, settlements/gear/characteristic]
 
 You may not **Charge** with this weapon. *Melee only.*
 
-*Record note. The value of every property above is the source of truth —
-`records_weapon_chars.py rebuild` regenerates the markdown table in
-[[Weapons]] §2 from these. Edit here (or in the Base), not in the table.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Weapons]] from them.*
