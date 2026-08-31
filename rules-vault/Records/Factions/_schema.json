@@ -90,6 +90,14 @@
     true,
     true,
     true
+   ],
+   "orig": [
+    "> | **Military** | Ready token survives a failed Reaction attempt | +1 free Bunkhouse tier at founding |",
+    "> | **First Responders** | Improved Build test for field deployables | Med-bay costs −10% Materials |",
+    "> | **Labor** | Re-attempt one failed Search per battle, free | Gatherers +1 flat per Settlement Phase |",
+    "> | **Residents** | +1 Break test within 3\" of another Resident | Bunkhouse costs one fewer Materials tier |",
+    "> | **Tech Workers** | Hack range bands read one step closer | Fabricator ladder −10% Materials |",
+    "> | **Criminals** | Hide in Light cover, not just Concealing — never within 6\" of an objective | Trade House sell rates +10% |"
    ]
   }
  ]

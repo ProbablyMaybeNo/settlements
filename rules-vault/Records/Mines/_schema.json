@@ -63,6 +63,11 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| **Proximity** | **5** | Place a **3\" template**. Detonates the instant an enemy **ends a Move** inside it. |",
+    "| **Remote** | **[UNPRICED]** | Place a hidden marker with a **6\" trigger radius**; the **owner command-detonates** it while any enemy is inside the radius (a **Reaction** costing a Ready token; it ignores the forward-arc / end-of-move requirement, like the Hacking Interrupt). **Bluff kit:** buying a Remote gives you **4 markers — 1 live, 3 dummy**. The carrier may spend an activation to place a dummy; only the live marker ever detonates. The enemy can't tell which is which without a **Threat Scan** or a disarm. |",
+    "| ~~**Seeker**~~ | **PARKED** | **Not in v1** — a self-moving munition on a 3'×3' board is an edge-case factory (does it draw Reactions? trigger traps? get shot as a Feature? what is its facing?). Parked, not rejected; revisit once [[Edge Cases]] exists. Proximity and Remote carry the family, and Remote's bluff kit is the interesting one anyway. ([[Out of Scope — What Settlements is NOT#4 · Rejected-ideas log]]) |"
    ]
   },
   {
@@ -143,6 +148,13 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| **Explosion** | **[UNPRICED]** | Injury **Damage +3**, **Blast** (2\"). The default killer. |",
+    "| **Fire** | **[UNPRICED]** | **Blast** Injury **Damage +2**, sets **Fire**, leaves a **3\" Fire** hazard for one round ([[Terrain#Hazards (the Dangerous overlay)]]). |",
+    "| **Poison** | **[UNPRICED]** | Places a **3\" Poison** hazard for two rounds ([[Conditions#Persistent conditions (resolve in the End Phase)|Poison]] to anyone inside or entering). |",
+    "| **Shock** | **[UNPRICED]** | **Blast**, no Injury: **Shocked + Blind** on every model in radius ([[Conditions#Control conditions (from skills, weapons and terrain)]]). |",
+    "| **Smoke** | **[UNPRICED]** | No damage — places a **3\" Dense Smoke** ([[Weapons]] Smoke). A trap that screens instead of kills. |"
    ]
   }
  ]

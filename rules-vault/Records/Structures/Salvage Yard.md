@@ -9,7 +9,7 @@ structure_suffix: " ★"
 class: "Yard"
 size: "5×7"
 pwr: "−1"
-materials: "45"
+materials: 45
 what_it_does: "**Credits** gatherer — sorts and values what scavengers haul back; better break-down rates on gear. Expandable"
 source: "Structures.md"
 tags: [settlements/record, settlements/settlement/structure]

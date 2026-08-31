@@ -79,6 +79,11 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| Bare-handed | +0 | **0** | — | improvising at a terminal |",
+    "| Breach Kit | +1 | **20** | **C** | standard hacker loadout |",
+    "| Exploit Suite | +2 | **40** | **C** | specialist kit |"
    ]
   }
  ]

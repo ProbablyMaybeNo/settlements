@@ -126,6 +126,18 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| 1 | **Clear skies** | No effect |",
+    "| 2 | **Rain rolls in** | Ranged range **−3\"**; **Hide** test **+1** |",
+    "| 3 | **Trader's caravan** | Place a neutral **Trader** marker; a unit in base contact may buy one item |",
+    "| 4 | **Pack on the move** | A neutral hostile token attacks the nearest model within **12\"** |",
+    "| 5 | **Power flicker** | Powered terrain within **12\"** of centre is **Disabled** this round ([[Infrastructure]]) |",
+    "| 6 | **Distant gunfire** | Every model within **12\"** of centre gains **1 Stress** ([[Morale]]) |",
+    "| 7 | **Scavenger's luck** | An extra loot token appears at an unclaimed **Side Objective** ([[Territory]]) |",
+    "| 8 | **Structural failure** | One Building piece within **12\"** of centre becomes **Difficult** ground ([[Terrain]]) |",
+    "| 9 | **Radio chatter** | Both players may reroll one failed **Spot** this round |",
+    "| 10 | **All quiet** | No effect |"
    ]
   }
  ]

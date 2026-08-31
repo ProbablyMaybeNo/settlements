@@ -101,6 +101,13 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| **Autoturret** | Complex −1 | **10** | 18\" | One shot / round, Injury **Damage +3**. The baseline — a sidearm on a tripod. |",
+    "| **Sniper Turret** | Intricate −2 | **25** | 24\" | One shot / round, **Damage +3**, **+1 to hit** (it never moves, so it is always braced). Reaches from its own deployment zone. A rifle on a tripod. |",
+    "| **Burst Turret** | Intricate −2 | **20** | 18\" | **Two** shots / round at **Damage +2** each (same or split targets). Volume of fire — priced up because multi-shot is the game's biggest DPS lever. |",
+    "| **Blast Turret** | Complex −1 | **15** | 12\" | One shot / round, **Damage +3**, **Blast** (2\" — resolve against every model within 2\" of the target). |",
+    "| **Reinforced Turret** | Complex −1 | **15** | 18\" | One shot / round, **Damage +3**. **Hardened:** always counts as **Heavy (−2) cover** to be hit — the within-6\" *Open* clause does **not** apply, so it can't be walked up to and wrecked. |"
    ]
   }
  ]

@@ -5,7 +5,7 @@ table: 4
 row: 0
 cols: 4
 characteristic: "Blast"
-cr: "15"
+cr: 15
 tier: "B"
 effect: "Resolve the attack separately against **every model within 2\"** of the target. *Thrown / Heavy Ranged only.*"
 source: "Weapons.md"

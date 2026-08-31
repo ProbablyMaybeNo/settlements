@@ -63,6 +63,20 @@
     "- ",
     "- ",
     "- "
+   ],
+   "orig": [
+    "- **Cargo Crane** — *Manipulation · Shift Terrain / Create-Remove Cover / Displace*. The signature piece. Move a Movable piece up to 4\" (open a lane, drop a crate as **Heavy cover**, or lift cover away). Drop a load on a model → **CRUSH**; sweep a model → **Displace 2\"** (off a ledge → **FALL**). Carry a junked car between rooftops to make a shielded crossing.",
+    "- **Blast Door** — *Access · Open-Close Path*. Heavy security door. Toggle a doorway Passable↔Impassable; a model caught in the gap when it shuts prints **CRUSH** (dial to a 1\" Displace if too lethal). Locked = **sealed room** (Blocked); Force STR 7+ to break out. *Manual = STR.*",
+    "- **Roller / Security Gate** — *Access · Open-Close Path*. Lighter door: toggles a chokepoint, **no CRUSH** — a caught model is just Displaced 1\" to the near side.",
+    "- **Retractable Bridge** — *Mobility · Create-Remove Route*. Extend to span a gap (new route); retract to remove it — a model on it when it retracts → **FALL**.",
+    "- **Elevator / Cargo Lift** — *Mobility · Change Elevation*. Raise/lower a platform between levels, carrying models on it. A vertical shortcut either crew can recall to their level.",
+    "- **Conveyor Belt** — *Mobility · Create-Remove Route*. While running, a model that ends its Move on the belt is carried **+4\"** along it in the End Phase — and can stay **Hidden** behind a load as it rides ([[Terrain#Cover]]). Toggle on/off, or reverse direction.",
+    "- **Window Shutters** — *Visibility · Block-Clear LOS*. Toggle a facade between open (LOS through the windows, Light cover) and shut (**Blocked LOS**). Close a fire lane, or open one onto an enemy, without moving a model.",
+    "- **Floodlights** — *Visibility · Clear LOS*. Light a zone: models in it **cannot be Hidden** while lit ([[Terrain#Cover]]), stripping ambush cover. Toggle on/off.",
+    "- **Flood Gates** — *Utilities · Field a Zone*. Open to flood a low area → **Deep water** (Swim on entry) or **Difficult**; close to drain. Reshapes which routes exist.",
+    "- **HVAC / Gas Vent** — *Utilities · Field a Zone / Displace*. Vent a blast: **Displace 2\"** every model in the vent's line (off a ledge → **FALL**), and/or fill an area with **3\" Dense Smoke** (Blind + Concealing, per [[Weapons]] Smoke). Blocks a crossing and covers movement at once.",
+    "- **Trash Compactor / Crusher** — *Utilities · bounded hazard*. The one overt hazard feature — industrial and believable. Activate to run it: a model inside the compactor zone takes **CRUSH**. Scenario-flagged, controlled, never passive.",
+    "- **Power Generator / Junction** — *Utilities · enabler*. The optional macro-toggle: while off, all infrastructure in its zone is **Powered Down**. Operating the Generator (hack or manual) powers the zone on or off. It can't be destroyed — deny it by **Overloading** its terminal (an interrupt)."
    ]
   }
  ]

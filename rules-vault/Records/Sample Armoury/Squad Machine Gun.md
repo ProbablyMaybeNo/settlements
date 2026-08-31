@@ -7,7 +7,7 @@ cols: 4
 name: "Squad Machine Gun"
 build: "Heavy Ranged · Suppressive · Armour Piercing"
 profile: "24\", +3, locks you down"
-cr: "55"
+cr: 55
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

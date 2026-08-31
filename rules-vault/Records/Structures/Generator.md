@@ -9,7 +9,7 @@ structure_suffix: " ★"
 class: "Plant"
 size: "3×3"
 pwr: "**+5**"
-materials: "20"
+materials: 20
 what_it_does: "**Power** output"
 source: "Structures.md"
 tags: [settlements/record, settlements/settlement/structure]

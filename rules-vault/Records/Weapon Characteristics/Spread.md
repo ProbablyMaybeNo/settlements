@@ -5,7 +5,7 @@ table: 1
 row: 1
 cols: 4
 characteristic: "Spread"
-cr: "10"
+cr: 10
 tier: "B"
 effect: "+1 to hit"
 effect_suffix: " at half range or less; **−1** beyond it. *Ranged only.*"

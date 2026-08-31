@@ -7,7 +7,7 @@ cols: 4
 name: "Javelin"
 build: "Thrown"
 profile: "8\", +1, throw it or stab with it, **reusable**"
-cr: "5"
+cr: 5
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

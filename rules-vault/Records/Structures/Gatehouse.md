@@ -8,7 +8,7 @@ structure: "Gatehouse"
 class: "Building"
 size: "6×6"
 pwr: "−1"
-materials: "75"
+materials: 75
 what_it_does: "A controlled chokepoint: the attacker breaches it or routes around it"
 source: "Structures.md"
 tags: [settlements/record, settlements/settlement/structure]

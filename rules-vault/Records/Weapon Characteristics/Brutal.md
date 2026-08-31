@@ -5,7 +5,7 @@ table: 0
 row: 0
 cols: 4
 characteristic: "Brutal"
-cr: "10"
+cr: 10
 tier: "A"
 effect: "**+1 Damage**, to the class band's ceiling (max **+5**). *Melee only — or a ranged weapon that also takes **Short Range**.*"
 source: "Weapons.md"

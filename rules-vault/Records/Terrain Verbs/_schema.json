@@ -134,6 +134,16 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| Open / close              | Openable                  | —    | Auto           | —                                            |",
+    "| Force door / Smash object | Breachable                | STR  | 7+             | Attempt is Loud                              |",
+    "| Lockpick                  | Lockable                  | DEX  | 7+             | Quiet                                        |",
+    "| Hack                      | Hackable / Powered        | INT  | see [[Hacking]] | Terminals, range, the Interrupt              |",
+    "| Lift                      | Movable                   | STR  | 7+             | Half MOV while carrying; drop within 1\" free |",
+    "| Search                    | Searchable                | INT  | 7+             | See Searching                                |",
+    "| Repair feature            | Powered / Hackable / etc. | INT  | 7+             | See Feature damage                           |",
+    "|Climb / vault / leap / swim|Climbable / water|AGI|Move slot — see [[Movement]]|Under 2\" = low leap, no test, −2\" Move|"
    ]
   }
  ]

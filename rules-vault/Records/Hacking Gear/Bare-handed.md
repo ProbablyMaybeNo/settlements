@@ -6,7 +6,7 @@ row: 0
 cols: 5
 hack_gear: "Bare-handed"
 modifier: "+0"
-cr: "0"
+cr: 0
 tier: "—"
 notes: "improvising at a terminal"
 source: "Weapons.md"

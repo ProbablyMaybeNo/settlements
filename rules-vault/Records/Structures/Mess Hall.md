@@ -8,7 +8,7 @@ structure: "Mess Hall"
 class: "Building"
 size: "6×8"
 pwr: "−1"
-materials: "75"
+materials: 75
 what_it_does: "**Once per battle, one fighter clears 1 Stress free** ([[Morale]])"
 source: "Structures.md"
 tags: [settlements/record, settlements/settlement/structure]

@@ -7,7 +7,7 @@ cols: 4
 name: "Pistol"
 build: "Sidearm"
 profile: "8\", +2, fires while Engaged"
-cr: "15"
+cr: 15
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

@@ -7,7 +7,7 @@ cols: 4
 name: "Snub Revolver"
 build: "Sidearm"
 profile: "6\", +2, fires while Engaged"
-cr: "15"
+cr: 15
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

@@ -7,7 +7,7 @@ cols: 4
 name: "Machete"
 build: "One-Handed Melee"
 profile: "+2 melee"
-cr: "10"
+cr: 10
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

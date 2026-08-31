@@ -7,7 +7,7 @@ cols: 4
 name: "Sledgehammer"
 build: "Heavy Melee · Heavy Impact · Breaching"
 profile: "+3, push 2\""
-cr: "50"
+cr: 50
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

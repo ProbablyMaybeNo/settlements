@@ -7,7 +7,7 @@ cols: 5
 armor: "Heavy"
 injury: "−2"
 drawback: "—"
-cr: "20"
+cr: 20
 tier: "**B**"
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/armour]

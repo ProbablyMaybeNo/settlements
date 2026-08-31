@@ -3,6 +3,8 @@
     py -3.13 scripts/records.py explode      # tables -> record notes + .base files
     py -3.13 scripts/records.py verify       # round-trip every catalogue, byte-for-byte
     py -3.13 scripts/records.py rebuild NAME # print the regenerated table for one
+    py -3.13 scripts/records.py status       # what would change, and any conflicts
+    py -3.13 scripts/records.py apply        # WRITE the records back into the notes
 
 Generalises the weapon-characteristics prototype. Rather than a bespoke script
 per catalogue, the COLUMN CONVENTION IS DERIVED FROM THE DATA: for each column
@@ -200,7 +202,17 @@ def compose(d, pat):
 
 
 def yq(s):
-    return '"%s"' % str(s).replace("\\", "\\\\").replace('"', '\\"')
+    """YAML-quote, except for plain integers.
+
+    Bases types a property from its YAML, so a quoted "10" sorts as text and a
+    Credits column orders 10, 100, 15. Only ASCII digits are unquoted: the
+    catalogues use U+2212 MINUS in refunds ("−5"), and emitting that as a number
+    would rebuild it as ASCII "-5" and break the byte-for-byte round trip.
+    """
+    t = str(s)
+    if t.isdigit():
+        return t
+    return '"%s"' % t.replace("\\", "\\\\").replace('"', '\\"')
 
 
 def catalogue_folder(name):
@@ -246,6 +258,7 @@ def explode_one(folder, note, section_re, want_index, tag):
     out = catalogue_folder(folder)
     os.makedirs(out, exist_ok=True)
 
+    srclines = lines_of(note)
     schema = {"note": note, "section": section_re, "index": want_index,
               "tag": tag, "tables": []}
     written, seen = 0, {}
@@ -260,7 +273,8 @@ def explode_one(folder, note, section_re, want_index, tag):
             schema["tables"].append({"head": t["head"], "props": props,
                                      "patterns": [{"kind": "raw"}] * len(props),
                                      "lines": t["lines"], "bullet": True,
-                                     "seps": t["seps"], "leads": t["leads"]})
+                                     "seps": t["seps"], "leads": t["leads"],
+                                     "orig": [srclines[n] for n in t["lines"]]})
             for r_i, (row, ln) in enumerate(zip(t["rows"], t["lines"])):
                 write_record(out, folder, note, tag, t_i, r_i, len(row),
                              props, [{"v": row[0], "s": ""}, {"v": row[1], "s": ""}],
@@ -272,7 +286,8 @@ def explode_one(folder, note, section_re, want_index, tag):
                                  "pad": t["pad"], "widths": t["widths"],
                                  "rowpad": t["rowpad"],
                                  "rowspaced": t["rowspaced"],
-                                 "callout": t["callout"]})
+                                 "callout": t["callout"],
+                                 "orig": [srclines[n] for n in t["lines"]]})
 
         for r_i, (row, ln) in enumerate(zip(t["rows"], t["lines"])):
             parts = [decompose(row[c], pats[c]) for c in range(len(row))]
@@ -497,10 +512,137 @@ def cmd_canvas():
     print("  %d Base widgets in %d bands" % (bases, len(CANVAS_BANDS)))
 
 
+# --------------------------------------------------------------------------
+# Write-back: records -> the rules notes.
+#
+# This is the direction that makes frontmatter authoritative, so it is guarded
+# by a three-way comparison rather than a blind overwrite. For every managed row
+# there are three versions:
+#
+#   orig  what the note said when the records were last exploded  (merge base)
+#   cur   what the note says right now
+#   new   what the record regenerates
+#
+#   cur == new   -> already in sync, nothing to write
+#   cur == orig  -> only the record moved, safe to write
+#   otherwise    -> the NOTE was edited directly since the explode. Conflict.
+#                   Refuse, and say so. Never clobber a hand edit.
+# --------------------------------------------------------------------------
+def plan_one(folder):
+    """Return (note, [(line, cur, new, state)]) for one catalogue."""
+    sp = os.path.join(catalogue_folder(folder), "_schema.json")
+    if not os.path.exists(sp):
+        return None, []
+    schema = json.load(io.open(sp, encoding="utf-8"))
+    note = schema["note"]
+    cur_lines = lines_of(note)
+    origs = {}
+    for t in schema["tables"]:
+        for r_i, ln in enumerate(t["lines"]):
+            o = t.get("orig") or []
+            origs[ln] = o[r_i] if r_i < len(o) else None
+
+    plan = []
+    for ln, new in rebuild_one(folder):
+        if new is None:
+            plan.append((ln, None, None, "missing-record"))
+            continue
+        if ln >= len(cur_lines):
+            plan.append((ln, None, new, "out-of-range"))
+            continue
+        cur, orig = cur_lines[ln], origs.get(ln)
+        if cur == new:
+            state = "in-sync"
+        elif orig is not None and cur == orig:
+            state = "write"
+        else:
+            state = "conflict"
+        plan.append((ln, cur, new, state))
+    return note, plan
+
+
+def cmd_status():
+    total = {"write": 0, "conflict": 0, "in-sync": 0, "other": 0}
+    for folder, note, sec, idx, tag in CATALOGUES:
+        n, plan = plan_one(folder)
+        if not plan:
+            continue
+        c = {}
+        for _, _, _, st in plan:
+            c[st] = c.get(st, 0) + 1
+            total[st if st in total else "other"] += 1
+        bits = " ".join("%s %d" % (k, v) for k, v in sorted(c.items()) if k != "in-sync")
+        print("  %-24s %3d rows   %s" % (folder, len(plan), bits or "all in sync"))
+    print("\n%d to write, %d conflicts, %d already in sync%s"
+          % (total["write"], total["conflict"], total["in-sync"],
+             ", %d other" % total["other"] if total["other"] else ""))
+    return 1 if total["conflict"] else 0
+
+
+def cmd_apply(dry=False, force=False):
+    edits = {}          # note -> {line: new}
+    conflicts = []
+    for folder, note, sec, idx, tag in CATALOGUES:
+        n, plan = plan_one(folder)
+        if not plan:
+            continue
+        for ln, cur, new, st in plan:
+            if st == "write":
+                edits.setdefault(n, {})[ln] = new
+            elif st == "conflict":
+                conflicts.append((folder, n, ln, cur, new))
+            elif st in ("missing-record", "out-of-range"):
+                conflicts.append((folder, n, ln, cur, new))
+
+    if conflicts and not force:
+        print("REFUSING TO WRITE — %d rows changed in the note since the last "
+              "explode:\n" % len(conflicts))
+        for folder, note, ln, cur, new in conflicts[:8]:
+            print("  %s  %s:%d" % (folder, note, ln))
+            print("    note   : %s" % (cur or "")[:120])
+            print("    record : %s" % (new or "<missing>")[:120])
+        if len(conflicts) > 8:
+            print("  ... and %d more" % (len(conflicts) - 8))
+        print("\nRe-run `explode` to take the notes as truth, or fix the records.")
+        print("`apply --force` writes anyway and DISCARDS those note edits.")
+        return 1
+
+    if not edits:
+        print("nothing to write — every managed row already matches its record.")
+        return 0
+
+    written = 0
+    for note, rows in sorted(edits.items()):
+        path = os.path.join(RULES, note + ".md")
+        raw = io.open(path, encoding="utf-8", newline="").read()
+        nl = "\r\n" if "\r\n" in raw else "\n"
+        lines = raw.replace("\r\n", "\n").split("\n")
+        for ln, new in rows.items():
+            lines[ln] = new
+        if dry:
+            print("  would write %d rows -> %s" % (len(rows), note + ".md"))
+        else:
+            tmp = path + ".rec-tmp"
+            io.open(tmp, "w", encoding="utf-8", newline="").write(nl.join(lines))
+            os.replace(tmp, path)
+            print("  wrote %d rows -> %s" % (len(rows), note + ".md"))
+        written += len(rows)
+
+    print("\n%d rows %s across %d notes."
+          % (written, "would be written" if dry else "written", len(edits)))
+    if not dry:
+        print("Re-run `explode` to reset the merge base, then `verify`.")
+    return 0
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "verify"
     if cmd == "explode":
         cmd_explode()
+    elif cmd == "status":
+        sys.exit(cmd_status())
+    elif cmd == "apply":
+        sys.exit(cmd_apply(dry="--dry-run" in sys.argv, force="--force" in sys.argv))
     elif cmd == "canvas":
         cmd_canvas()
     elif cmd == "rebuild":

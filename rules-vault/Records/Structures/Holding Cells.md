@@ -8,7 +8,7 @@ structure: "Holding Cells"
 class: "Building"
 size: "6×6"
 pwr: "−1"
-materials: "65"
+materials: 65
 what_it_does: "Prisoner capacity ([[Campaign#Captured — resolution]]); the upgraded tier is what allows a **Brainwash** attempt"
 source: "Structures.md"
 tags: [settlements/record, settlements/settlement/structure]

@@ -7,7 +7,7 @@ cols: 4
 name: "Smoke Grenade"
 build: "Thrown · Smoke · *Single-Use*"
 profile: "8\", places 3\" smoke"
-cr: "15"
+cr: 15
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

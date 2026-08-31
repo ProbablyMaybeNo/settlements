@@ -7,7 +7,7 @@ cols: 4
 name: "Nailgun"
 build: "Standard Ranged · Bleeding"
 profile: "18\", +3, **Bleed**"
-cr: "35"
+cr: 35
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

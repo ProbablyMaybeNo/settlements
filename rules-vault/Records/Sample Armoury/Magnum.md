@@ -7,7 +7,7 @@ cols: 4
 name: "Magnum"
 build: "Sidearm · Brutal · *Short Range*"
 profile: "4\", +3, fires while Engaged"
-cr: "30"
+cr: 30
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

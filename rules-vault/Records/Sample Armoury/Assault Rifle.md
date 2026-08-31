@@ -7,7 +7,7 @@ cols: 4
 name: "Assault Rifle"
 build: "Standard Ranged · Accurate"
 profile: "18\", +3"
-cr: "35"
+cr: 35
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

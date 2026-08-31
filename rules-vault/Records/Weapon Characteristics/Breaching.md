@@ -5,7 +5,7 @@ table: 5
 row: 4
 cols: 4
 characteristic: "Breaching"
-cr: "15"
+cr: 15
 tier: "C"
 effect: "**+2** on STR tests to Force or break **Breachable** terrain ([[Terrain Interaction]])."
 source: "Weapons.md"

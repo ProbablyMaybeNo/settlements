@@ -135,6 +135,19 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| 1 | **Terrain recipe** | What fills the density squares — still inside the sacred **9–12** band ([[Terrain#Setup procedure]]) |",
+    "| 2 | **Scenario weighting** | Which of the five shapes this place tends to produce ([[Scenarios]]) |",
+    "| 3 | **Side Objective(s)** | The optional secondary goal, revealed or hidden |",
+    "| 4 | **Infrastructure** | Which operable features are bolted into this board ([[Infrastructure]]) |",
+    "| 5 | **Events** | Any location-specific entries layered over the standard table ([[Events]]) |",
+    "| 6 | **Loot table** | The default table below, or this card's overrides |",
+    "| 7 | **Control benefit** | **Access, never power** — what holding it lets you *do* |",
+    "| 8 | **Supply requirement** | What it costs to keep held |",
+    "| 9 | **Control state** | Claimed · Controlled · Isolated (below) |",
+    "| 10 | **Adjacent territories** | The map graph — what it borders, and therefore what can cut it off |",
+    "| 11 | **Raid profile** | How a raid on this territory is laid out and fought |"
    ]
   },
   {
@@ -244,6 +257,18 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| 1 | Nothing usable — spoiled, broken, or already picked clean |",
+    "| 2 | **+5 Credits** |",
+    "| 3 | **+10 Materials** |",
+    "| 4 | **+10 Credits** |",
+    "| 5 | A basic **Light Melee or Sidearm** weapon, unbuilt — the player picks the class, no characteristics ([[Weapons]]) |",
+    "| 6 | **+15 Materials** |",
+    "| 7 | **+15 Credits** |",
+    "| 8 | **+20 Credits** |",
+    "| 9 | One piece of **equipment** — Med-Kit, Breach Kit, or a basic Trap/Mine, player's choice ([[List Building]] · [[Deployables]]) |",
+    "| 10 | **Jackpot** — roll twice more on this table, ignoring further 10s |"
    ]
   },
   {
@@ -305,6 +330,11 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| **Claimed** | Winning a battle fought there | **None yet** — you hold the ground, not the output |",
+    "| **Controlled** | Assigning a worker, or paying Materials | **Active** |",
+    "| **Isolated** | An enemy holds an adjacent territory and cuts it off | **Suspended** until the link is restored |"
    ]
   }
  ]

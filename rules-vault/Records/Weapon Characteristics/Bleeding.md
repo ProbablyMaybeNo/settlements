@@ -5,7 +5,7 @@ table: 2
 row: 1
 cols: 4
 characteristic: "Bleeding"
-cr: "20"
+cr: 20
 tier: "B"
 payload: "**Bleed** — *at WND 1 this is a two-round death clock unless treated.*"
 source: "Weapons.md"

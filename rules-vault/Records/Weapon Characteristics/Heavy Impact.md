@@ -5,7 +5,7 @@ table: 2
 row: 4
 cols: 4
 characteristic: "Heavy Impact"
-cr: "5"
+cr: 5
 tier: "B"
 tier_suffix: " ⚠"
 payload: "Push the target **2\"** directly away. Falls and hazards resolve normally ([[Terrain]]). *Also inside the noise floor.*"

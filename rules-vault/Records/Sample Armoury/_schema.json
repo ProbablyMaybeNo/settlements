@@ -251,6 +251,29 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| **Baseball Bat** | Light Melee | +1 melee | **0** |",
+    "| **Kitchen Knife** | Light Melee · Balanced | +1, AGI | **10** |",
+    "| **Machete** | One-Handed Melee | +2 melee | **10** |",
+    "| **Crowbar** | One-Handed Melee · Breaching | +2, breaches | **25** |",
+    "| **Magnum** | Sidearm · Brutal · *Short Range* | 4\", +3, fires while Engaged | **30** |",
+    "| **Great Axe** | Heavy Melee | +3 melee | **20** |",
+    "| **Sledgehammer** | Heavy Melee · Heavy Impact · Breaching | +3, push 2\" | **50** |",
+    "| **Fire Axe** | Heavy Melee · Brutal · Bleeding | **+4**, Bleed | **50** |",
+    "| **Reaping Hook** | Heavy Melee · Cleaving · Defensive | +3, hits everyone Engaged | **50** |",
+    "| **Pistol** | Sidearm | 8\", +2, fires while Engaged | **15** |",
+    "| **Snub Revolver** | Sidearm | 6\", +2, fires while Engaged | **15** |",
+    "| **Pipe Shotgun** | Standard Ranged · Brutal · Spread · *Short Range* · *Unstable* | 9\", **+4**, Spread | **35** |",
+    "| **Assault Rifle** | Standard Ranged · Accurate | 18\", +3 | **35** |",
+    "| **Nailgun** | Standard Ranged · Bleeding | 18\", +3, **Bleed** | **35** |",
+    "| **Grandpa's Hunting Rifle** | Standard Ranged · Accurate · Long Range | **24\"**, +3 | **40** |",
+    "| **Squad Machine Gun** | Heavy Ranged · Suppressive · Armour Piercing | 24\", +3, locks you down | **55** |",
+    "| **Makeshift Flamethrower** | Standard Ranged · Incendiary · Blast · *Short Range* · *Single-Use* | 9\", +3, **Fire**, Blast | **20** |",
+    "| **Molotov** | Thrown · Incendiary · Blast · *Single-Use* | 8\", +1, **Fire**, Blast, one use | **10** |",
+    "| **Javelin** | Thrown | 8\", +1, throw it or stab with it, **reusable** | **5** |",
+    "| **Smoke Grenade** | Thrown · Smoke · *Single-Use* | 8\", places 3\" smoke | **15** |",
+    "| **Ranger's Long Rifle** | Heavy Ranged · 36\" *(manufactured, limit 1, Specialist+)* | **36\"**, +3 | **55** |"
    ]
   }
  ]

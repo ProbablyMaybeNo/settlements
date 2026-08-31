@@ -5,7 +5,7 @@ table: 2
 row: 2
 cols: 4
 characteristic: "Incendiary"
-cr: "10"
+cr: 10
 tier: "B"
 payload: "**Fire**"
 source: "Weapons.md"

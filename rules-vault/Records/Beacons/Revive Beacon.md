@@ -6,7 +6,7 @@ row: 5
 cols: 4
 beacon: "Revive Beacon"
 build: "Intricate −2"
-credits: "10"
+credits: 10
 aura_within_6: "*Allies:* each **End Phase**, one friendly **Down** unit in range **recovers to Prone** (stands next activation). **Down only — a melee kill (Out) stays dead.**"
 source: "Deployables.md"
 tags: [settlements/record, settlements/gear/deployable]

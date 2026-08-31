@@ -8,7 +8,7 @@ structure: "Med-bay"
 class: "Building"
 size: "6×6"
 pwr: "−1"
-materials: "65"
+materials: 65
 what_it_does: "**+1** to the post-battle Fate roll ([[Campaign#Post-battle — the Fate table]]); the **T2** tier heals scars at a Credits/Materials cost"
 source: "Structures.md"
 tags: [settlements/record, settlements/settlement/structure]

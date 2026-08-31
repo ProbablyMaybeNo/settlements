@@ -63,6 +63,11 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "|Movement|How do I cross it?|Open · Difficult · Impassable|",
+    "|Cover|How hard am I to hit while using it?|Open · Light · Heavy (+ Concealing enables Hide)|",
+    "|Tags|What can I do to it?|Openable, Climbable, Searchable, Hackable… (see Terrain tags)|"
    ]
   },
   {
@@ -132,6 +137,13 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "|Open|0|",
+    "|Light|−1|",
+    "|Heavy|−2|",
+    "|Hidden|−3|",
+    "|Blocked line of sight|cannot be targeted|"
    ]
   },
   {
@@ -242,6 +254,14 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "|Building|Intact enclosed structure, 1–3 stories|Interior Open (mark cluttered rooms Difficult); walls Impassable|Light inside at windows/doorways; Heavy behind solid wall|Openable · Lockable · Searchable · Climbable (exterior) · Powered/Hackable if wired|",
+    "|Ruin|Broken structure, partial walls/floors|Difficult; gaps may need Leap|Light at stub walls; Heavy at solid remains; often Concealing|Climbable · Unstable · Searchable · Breachable|",
+    "|Scatter|Cars, dumpsters, crates, low walls|Open around; low leap over <2\"|Light or Heavy by bulk|Movable · Searchable · sometimes Barricadable|",
+    "|Environmental|Water, mud, woods, slopes, pools|Difficult or Impassable|Usually Open; woods Concealing|Climbable · Dangerous overlay|",
+    "|Feature|Terminals, turrets, vents, cameras, alarms|Occupies its spot|Feature damage rules ([[Terrain Interaction#Feature damage]])|Hackable · Powered · Linked · Explosive|",
+    "|Deployed|Player-placed: barricades, traps, builds|As placed|As the piece|Barricadable · Movable · Buildable|"
    ]
   },
   {
@@ -319,6 +339,14 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "|Fire / burning ground|Gain Fire|",
+    "|Acid / chemical pool|Gain Poison|",
+    "|Ice / slick surface|AGI 7+ or gain Off-Balance|",
+    "|Electrified area|Gain Shocked|",
+    "|Deep water|Swim (AGI, on entering — [[Movement#Terrain movement]])|",
+    "|Dense smoke|Blind while inside; area counts as Concealing|"
    ]
   },
   {
@@ -380,6 +408,12 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| Kick door · drag object · Lift       | STR  |",
+    "| Pick lock · disarm trap              | DEX  |",
+    "| Hack · build/repair feature · lay/deploy trap · Search | INT  |",
+    "| Steady yourself in a hazard          | NRV  |"
    ]
   }
  ]

@@ -216,6 +216,28 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| ✅ | **Generator** | **+1 Power** output |",
+    "| ✅ | **Storehouse** | **+10%** effective storage cap |",
+    "| ✅ | **Equipment Shed / Armory** | **+10 equipment slots** on top of the structure's own |",
+    "| ✅ | **Processor** | **+1 Materials** per gather |",
+    "| ✅ | **Salvage Yard** | **+1 Credits** per gather |",
+    "| ✅ | **Trader's Kiosk / Trade House** | Sell rate **+10%** |",
+    "| ✅ | **Workbench / Workshop** | Crafted item Materials cost **−10%** |",
+    "| ⏸ | **Fabricator ladder** | Unlock one blueprint **one tier early** |",
+    "| ✅ | **HQ** | **+1 dispatch action** per cycle, on top of the tier's base rate |",
+    "| ⏸ | **Scout Post** | Reveal a territory's hidden **Side Objective**, not just its Twist |",
+    "| ⏸ | **Comms Mast** | The mission-quality reroll applies to **two rolls** instead of one |",
+    "| ⏸ | **Server Core** | Rival intel includes one fighter's current **Level and skills**, not just roster size |",
+    "| ⏸ | **Drone Bay** | The free recon mission also reveals a territory's **Loot table** entries ([[Territory]]) |",
+    "| ✅ | **Med-bay** | **+1 further to the Fate roll** — stacks with the structure's own +1, **total +2** ([[Campaign]]) |",
+    "| ⏸ | **Holding Cells** | The opposed INT test for **Brainwashing** gets **+1** ([[Campaign#Captured — resolution]]) |",
+    "| ✅ | **Mess Hall** | The free Stress-clear triggers on **two fighters** instead of one |",
+    "| ⏸ | **Gatehouse** | The chokepoint counts as **Heavy** cover, not Light, for defenders behind it in a raid |",
+    "| ⏸ | **Watchtower** | The starting model in the tower also **starts Readied**, no Action spent |",
+    "| ⏸ | **Turret Mount** | The turret gains **+1** to its auto-fire hit roll |",
+    "| ⏸ | **EW Mast** | Counter-hack / counter-drone radius extends to **12\"** from the structure |"
    ]
   }
  ]

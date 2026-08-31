@@ -90,6 +90,12 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| None | 0 | — | **0** | — |",
+    "| Thick clothing | 0 | ignore the first Environmental Stress once per game | **0** | — |",
+    "| Light | −1 | — | **10** | **B** |",
+    "| Heavy | −2 | — | **20** | **B** |"
    ]
   }
  ]

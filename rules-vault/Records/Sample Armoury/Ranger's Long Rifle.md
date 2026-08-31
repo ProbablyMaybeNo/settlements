@@ -7,7 +7,7 @@ cols: 4
 name: "Ranger's Long Rifle"
 build: "Heavy Ranged · 36\" *(manufactured, limit 1, Specialist+)*"
 profile: "**36\"**, +3"
-cr: "55"
+cr: 55
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

@@ -6,7 +6,7 @@ row: 0
 cols: 4
 trap: "Trip Wire"
 build: "Simple +1"
-credits: "5"
+credits: 5
 trigger_effect: "Within **1\"** → the model is knocked **Prone**. Stops a rush cold."
 source: "Deployables.md"
 tags: [settlements/record, settlements/gear/deployable]

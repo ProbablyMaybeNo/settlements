@@ -7,7 +7,7 @@ cols: 4
 name: "Grandpa's Hunting Rifle"
 build: "Standard Ranged · Accurate · Long Range"
 profile: "**24\"**, +3"
-cr: "40"
+cr: 40
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

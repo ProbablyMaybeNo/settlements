@@ -5,7 +5,7 @@ table: 5
 row: 3
 cols: 4
 characteristic: "Cleaving"
-cr: "25"
+cr: 25
 tier: "C"
 effect: "When you **win** a melee clash, make the Injury roll against **every** enemy Engaged with you. *Heavy Melee only. Derived: Blast (multi-target) + one damage step.*"
 source: "Weapons.md"

@@ -7,7 +7,7 @@ cols: 4
 name: "Great Axe"
 build: "Heavy Melee"
 profile: "+3 melee"
-cr: "20"
+cr: 20
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

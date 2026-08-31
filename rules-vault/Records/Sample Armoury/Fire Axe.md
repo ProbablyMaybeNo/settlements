@@ -7,7 +7,7 @@ cols: 4
 name: "Fire Axe"
 build: "Heavy Melee · Brutal · Bleeding"
 profile: "**+4**, Bleed"
-cr: "50"
+cr: 50
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

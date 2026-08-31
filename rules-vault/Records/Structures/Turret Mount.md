@@ -9,7 +9,7 @@ structure_suffix: " *(attaches to a Wall or Gatehouse)*"
 class: "Plant"
 size: "2×2"
 pwr: "−2"
-materials: "104"
+materials: 104
 what_it_does: "Hardpoint. The turret **auto-deploys** — but costs Credits against your Crew Rating and keeps full fragility"
 source: "Structures.md"
 tags: [settlements/record, settlements/settlement/structure]

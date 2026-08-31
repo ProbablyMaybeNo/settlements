@@ -9,7 +9,7 @@ structure_suffix: " *(repeatable)*"
 class: "Building"
 size: "6×6"
 pwr: "−1"
-materials: "50"
+materials: 50
 what_it_does: "Bulk storage for **Credits and Materials** above the HQ's base cap. **The loot target in a raid**"
 source: "Structures.md"
 tags: [settlements/record, settlements/settlement/structure]

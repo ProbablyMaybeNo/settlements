@@ -111,6 +111,15 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| **Munitions Beacon** | Complex −1 | **5** | *Allies:* **+1 to the Injury roll** (a damage buff — capped by ±3; never lifts a weapon past its class band's ceiling). |",
+    "| **Targeting Beacon** | Complex −1 | **[UNPRICED]** | *Allies:* **+1 to ranged hit rolls.** |",
+    "| **Aegis Beacon** | Complex −1 | **[UNPRICED]** | *Allies:* enemy **Injury rolls against them suffer −1** (the \"+1 armour\" aura, as a capped modifier). |",
+    "| **Cover Beacon** | Standard 0 | **[UNPRICED]** | *Allies:* count as in **Light cover** (−1 to be hit) if not already in better cover. |",
+    "| **Cleansing Beacon** | Standard 0 | **[UNPRICED]** | *Allies:* each **End Phase**, one friendly in range **clears one negative condition** (Fire, Poison, Blind, Shocked, Pinned); also acts as a **Med-Kit** for Stabilize / Bleed. |",
+    "| **Revive Beacon** | Intricate −2 | **10** | *Allies:* each **End Phase**, one friendly **Down** unit in range **recovers to Prone** (stands next activation). **Down only — a melee kill (Out) stays dead.** |",
+    "| **Dread Beacon** | Standard 0 | **[UNPRICED]** | *Enemies:* a model that **enters** the aura gains **+1 Stress**; while inside, **−1 on Break tests**. The one negative-aura beacon. |"
    ]
   }
  ]

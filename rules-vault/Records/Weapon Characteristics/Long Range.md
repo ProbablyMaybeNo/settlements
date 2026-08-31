@@ -5,7 +5,7 @@ table: 5
 row: 0
 cols: 4
 characteristic: "Long Range"
-cr: "5"
+cr: 5
 cr_suffix: "/step"
 tier: "⚠ OVERRIDE"
 effect: "Moves the weapon up one range band. Past **24\"** the four gates above apply. *Ranged only.*"

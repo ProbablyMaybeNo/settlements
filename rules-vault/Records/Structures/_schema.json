@@ -99,6 +99,12 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "|**Generator** ★|Plant|3×3|**+5**|**20**|**Power** output|",
+    "|**Bunkhouse**|Building|6×9|−1|**60**|**+6 owned body slots** above HQ's base 12|",
+    "|**Storehouse** *(repeatable)*|Building|6×6|−1|**50**|Bulk storage for **Credits and Materials** above the HQ's base cap. **The loot target in a raid**|",
+    "|**Equipment Shed** *(→ Armory 6×6)*|Station|3×2|−1 → −2|**25 → 96**|Holds every **unequipped** weapon, armour and piece of kit the crew owns — **30 slots**, **+30 per Armory tier**. The Armory tier raises the cap and adds a lock|"
    ]
   },
   {
@@ -208,6 +214,13 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "|**Processor** ★|Plant|3×5|−1|**45**|**Materials** gatherer — scrap → Materials|",
+    "|**Salvage Yard** ★|Yard|5×7|−1|**45**|**Credits** gatherer — sorts and values what scavengers haul back; better break-down rates on gear. Expandable|",
+    "|**Trader's Kiosk** *(→ Trade House 6×6)*|Station|3×2|−1 → −2|**45 → 128**|Sell owned gear and surplus → **Credits**; the Trade House tier improves rates|",
+    "|**Workbench** *(→ Workshop 6×8)*|Station|3×2|−1 → −2|**45 → 128**|Craft and repair. **Workshop tiers unlock the weapon / armour / chem branches** — upgrades, not separate buildings|",
+    "|**Fabricator**|Building|6×6 → 6×8 → 6×10|−1 / −2 / −3|**70 → 110 → 195**|**Research**, in three tiers. **T1 Fabricator** unlocks new blueprints · **T2 Robotics Workshop** builds robots and UGVs and services the Drone Bay's airframes · **T3 Advanced Weapons Lab** unlocks the 2051 arsenal — directed-energy, guided small-arms, drone-delivered payloads ([[Weapons]])|"
    ]
   },
   {
@@ -329,6 +342,14 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "|**HQ** ★|Building|6×6|−1|**70**|Campaign actions, base **12** body slots, base storage. **Tiers raise how many crew you can dispatch per cycle** and gate the Vault|",
+    "|**Vault** *(attaches to HQ)*|Plant|3×3|−1|**50**|**Secure** storage — small capacity, near-unbreachable. Where the irreplaceable goes|",
+    "|**Scout Post**|Plant|3×3|−1|**50**|Pre-**battle** information: see a Twist, choose attacker/defender, reroll deployment|",
+    "|**Comms Mast**|Plant|3×3|−1|**50**|**Mission quality**: reroll a mission test, reach longer-range targets, broadcast for recruits. Dispatch *count* comes from HQ tiers|",
+    "|**Server Core**|Building|6×6|−2|**128**|Intelligence and networked control — rival roster intel, and friendly terminals on the board count as **Linked** ([[Hacking]])|",
+    "|**Drone Bay**|Building|6×8|−2|**144**|Drone [[Deployables]] **and** a recon drone that runs a scout mission **without spending a fighter**|"
    ]
   },
   {
@@ -414,6 +435,11 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "|**Med-bay**|Building|6×6|−1|**65**|**+1** to the post-battle Fate roll ([[Campaign#Post-battle — the Fate table]]); the **T2** tier heals scars at a Credits/Materials cost|",
+    "|**Holding Cells**|Building|6×6|−1|**65**|Prisoner capacity ([[Campaign#Captured — resolution]]); the upgraded tier is what allows a **Brainwash** attempt|",
+    "|**Mess Hall**|Building|6×8|−1|**75**|**Once per battle, one fighter clears 1 Stress free** ([[Morale]])|"
    ]
   },
   {
@@ -523,6 +549,13 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "|**Perimeter Wall**|Line|1\" thick, **6\" segments**|−1|**50** / segment|The floor benefit — bought by the segment; shapes the whole raid board|",
+    "|**Gatehouse**|Building|6×6|−1|**75**|A controlled chokepoint: the attacker breaches it or routes around it|",
+    "|**Watchtower**|Plant|3×3|−1|**55**|The defender starts one model in it; denies the attacker surprise|",
+    "|**Turret Mount** *(attaches to a Wall or Gatehouse)*|Plant|2×2|−2|**104**|Hardpoint. The turret **auto-deploys** — but costs Credits against your Crew Rating and keeps full fragility|",
+    "|**EW Mast**|Plant|3×3|−2|**104**|Counter-hack and counter-drone: penalises enemy [[Hacking]] in a raid on you; blocks enemy drone deployables|"
    ]
   }
  ]

@@ -6,7 +6,7 @@ row: 1
 cols: 5
 hack_gear: "Breach Kit"
 modifier: "+1"
-cr: "20"
+cr: 20
 tier: "**C**"
 notes: "standard hacker loadout"
 source: "Weapons.md"

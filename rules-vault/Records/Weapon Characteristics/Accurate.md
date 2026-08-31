@@ -5,7 +5,7 @@ table: 1
 row: 0
 cols: 4
 characteristic: "Accurate"
-cr: "10"
+cr: 10
 tier: "B"
 effect: "+1 to hit"
 effect_suffix: " if you did not Move, Sprint or Climb this activation."

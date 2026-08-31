@@ -8,7 +8,7 @@ structure: "Drone Bay"
 class: "Building"
 size: "6×8"
 pwr: "−2"
-materials: "144"
+materials: 144
 what_it_does: "Drone [[Deployables]] **and** a recon drone that runs a scout mission **without spending a fighter**"
 source: "Structures.md"
 tags: [settlements/record, settlements/settlement/structure]

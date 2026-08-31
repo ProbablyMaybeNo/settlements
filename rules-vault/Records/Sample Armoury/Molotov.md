@@ -7,7 +7,7 @@ cols: 4
 name: "Molotov"
 build: "Thrown · Incendiary · Blast · *Single-Use*"
 profile: "8\", +1, **Fire**, Blast, one use"
-cr: "10"
+cr: 10
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

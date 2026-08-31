@@ -7,7 +7,7 @@ cols: 4
 name: "Pipe Shotgun"
 build: "Standard Ranged · Brutal · Spread · *Short Range* · *Unstable*"
 profile: "9\", **+4**, Spread"
-cr: "35"
+cr: 35
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

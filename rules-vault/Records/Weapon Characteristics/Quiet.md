@@ -5,7 +5,7 @@ table: 5
 row: 5
 cols: 4
 characteristic: "Quiet"
-cr: "10"
+cr: 10
 tier: "C"
 effect: "Attacks don't reveal you from **Hidden** and don't trip noise or alarms. *Engine-blocked — no noise or alarm system exists in the sim.*"
 source: "Weapons.md"

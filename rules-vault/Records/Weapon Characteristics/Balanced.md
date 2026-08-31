@@ -5,7 +5,7 @@ table: 5
 row: 1
 cols: 4
 characteristic: "Balanced"
-cr: "10"
+cr: 10
 tier: "C"
 effect: "May use **AGI** instead of STR for melee attacks with this weapon. *Light / One-Handed Melee only.*"
 source: "Weapons.md"

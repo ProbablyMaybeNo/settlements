@@ -7,7 +7,7 @@ cols: 4
 name: "Reaping Hook"
 build: "Heavy Melee · Cleaving · Defensive"
 profile: "+3, hits everyone Engaged"
-cr: "50"
+cr: 50
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

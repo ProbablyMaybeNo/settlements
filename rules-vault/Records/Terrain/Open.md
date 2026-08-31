@@ -5,7 +5,7 @@ table: 1
 row: 0
 cols: 2
 cover: "Open"
-to_hit: "0"
+to_hit: 0
 source: "Terrain.md"
 tags: [settlements/record, settlements/terrain/type]
 ---

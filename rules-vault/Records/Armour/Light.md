@@ -7,7 +7,7 @@ cols: 5
 armor: "Light"
 injury: "−1"
 drawback: "—"
-cr: "10"
+cr: 10
 tier: "**B**"
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/armour]

@@ -7,7 +7,7 @@ cols: 4
 name: "Crowbar"
 build: "One-Handed Melee · Breaching"
 profile: "+2, breaches"
-cr: "25"
+cr: 25
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

@@ -7,7 +7,7 @@ cols: 4
 name: "Makeshift Flamethrower"
 build: "Standard Ranged · Incendiary · Blast · *Short Range* · *Single-Use*"
 profile: "9\", +3, **Fire**, Blast"
-cr: "20"
+cr: 20
 source: "Weapons.md"
 tags: [settlements/record, settlements/gear/weapon]
 ---

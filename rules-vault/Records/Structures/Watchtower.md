@@ -8,7 +8,7 @@ structure: "Watchtower"
 class: "Plant"
 size: "3×3"
 pwr: "−1"
-materials: "55"
+materials: 55
 what_it_does: "The defender starts one model in it; denies the attacker surprise"
 source: "Structures.md"
 tags: [settlements/record, settlements/settlement/structure]

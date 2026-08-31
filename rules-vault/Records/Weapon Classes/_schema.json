@@ -173,6 +173,16 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| **Unarmed** | **0** | +0 | — | — | Any | 0 | — |",
+    "| **Light Melee** | **0** | **+1 only** | melee | 1 | Recruit | 2 | *(the free floor weapon)* |",
+    "| **One-Handed Melee** | **0** | **+1 to +3** | melee | 1 | Recruit | 2 | spans a shiv to a Magnum |",
+    "| **Heavy Melee** | **10** | **+2 to +4** | melee | 2 | Specialist | 3 | Two-Handed |",
+    "| **Thrown** | **5** | **+1 to +2** | 8\" flat | 1 | Any | 2 | may also be used in **melee** |",
+    "| **Sidearm** | **5** | **+1 to +3** | **6\"–12\"** | 1 | Recruit | 2 | **Sidearm** (may fire while Engaged), Loud |",
+    "| **Standard Ranged** | **15** | **+2 to +4** | **12\"–36\"** | 2 | Fighter | 3 | Two-Handed, Loud |",
+    "| **Heavy Ranged** | **25** | **+3 to +5** | **12\"–36\"** | 2 | Specialist | 4 | Two-Handed, Loud |"
    ]
   }
  ]

@@ -91,6 +91,13 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| **Trip Wire** | Simple +1 | **5** | Within **1\"** → the model is knocked **Prone**. Stops a rush cold. |",
+    "| **Spike Strip** | Simple +1 | **[UNPRICED]** | A **3\" area**; enemies entering treat it as **Difficult** ground and gain **Hobbled**. Persists until cleared. |",
+    "| **Covered Pit** | Standard 0 | **[UNPRICED]** | A concealed **2\" hole** that reads as normal floor. A model entering **FALLs** ([[Terrain]] verticality — **Prone**) and is **Snared** (stuck until it climbs out). |",
+    "| **Leg Clamp** | Standard 0 | **[UNPRICED]** | Within **1\"** → the model is **Snared** (cannot move; Action + **STR 7+** to break free). A hard single-model stop. |",
+    "| **Razor Barrier** | Standard 0 | **[UNPRICED]** | Deploy a **3\" barrier**: **Impassable** without **Forcing** it (STR 7+, and you take **Hobbled** shoving through). A pure movement wall — blocks bodies, not sight. |"
    ]
   }
  ]

@@ -61,6 +61,10 @@
    "callout": [
     false,
     false
+   ],
+   "orig": [
+    "| **Brutal** | **10** | **A** | **+1 Damage**, to the class band's ceiling (max **+5**). *Melee only — or a ranged weapon that also takes **Short Range**.* |",
+    "| **Armour Piercing** | **5** | **B** | Reduce the target's **Armor by 1** on the Injury roll. *The closest agreement between a measured atom and its old shipped price anywhere in the rebuild.* |"
    ]
   },
   {
@@ -120,6 +124,10 @@
    "callout": [
     false,
     false
+   ],
+   "orig": [
+    "| **Accurate** | **10** | **B** | **+1 to hit** if you did not Move, Sprint or Climb this activation. |",
+    "| **Spread** | **10** | **B** | **+1 to hit** at half range or less; **−1** beyond it. *Ranged only.* |"
    ]
   },
   {
@@ -209,6 +217,13 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| **Suppressive** | **20** | **B** | The target **may not clear the Pin with its Move** — it must spend its **entire activation**. *Ranged only. Now the dearest payload: the Pin costing a whole activation is worth far more than the old table thought.* |",
+    "| **Bleeding** | **20** | **B** | **Bleed** — *at WND 1 this is a two-round death clock unless treated.* |",
+    "| **Incendiary** | **10** | **B** | **Fire** |",
+    "| **Shocking** | **5** | **B** ⚠ | **Shocked** — *measures positive but inside the noise floor.* |",
+    "| **Heavy Impact** | **5** | **B** ⚠ | Push the target **2\"** directly away. Falls and hazards resolve normally ([[Terrain]]). *Also inside the noise floor.* |"
    ]
   },
   {
@@ -288,6 +303,13 @@
     true,
     true,
     true
+   ],
+   "orig": [
+    "> | **Crippling** | **−0.613** | significantly negative |",
+    "> | **Concussive** | **−0.592** | significantly negative |",
+    "> | **Blinding** | **−0.317** | significantly negative |",
+    "> | Hook | −0.230 | negative point estimate, unmeasurably noisy |",
+    "> | Toxic | −0.080 | negative point estimate, not significant |"
    ]
   },
   {
@@ -347,6 +369,10 @@
    "callout": [
     false,
     false
+   ],
+   "orig": [
+    "| **Blast** | **15** | **B** | Resolve the attack separately against **every model within 2\"** of the target. *Thrown / Heavy Ranged only.* |",
+    "| **Smoke** | **15** | **C** | Instead of attacking, place a **3\" Dense Smoke** area ([[Terrain#Hazards (the Dangerous overlay)]]). *Thrown only. No LOS-denial atom has been measured; its nearest neighbour (Blind) is itself blocked.* |"
    ]
   },
   {
@@ -456,6 +482,15 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| **Long Range** | **5**/step | **⚠ OVERRIDE** | Moves the weapon up one range band. Past **24\"** the four gates above apply. *Ranged only.* |",
+    "| **Balanced** | **10** | **C** | May use **AGI** instead of STR for melee attacks with this weapon. *Light / One-Handed Melee only.* |",
+    "| **Defensive** | **15** | **C** | **+1** on opposed melee rolls when you are **not** the attacker and did **not Move** this activation. *Melee only. Derived from light armour, the nearest measured neighbour.* |",
+    "| **Cleaving** | **25** | **C** | When you **win** a melee clash, make the Injury roll against **every** enemy Engaged with you. *Heavy Melee only. Derived: Blast (multi-target) + one damage step.* |",
+    "| **Breaching** | **15** | **C** | **+2** on STR tests to Force or break **Breachable** terrain ([[Terrain Interaction]]). |",
+    "| **Quiet** | **10** | **C** | Attacks don't reveal you from **Hidden** and don't trip noise or alarms. *Engine-blocked — no noise or alarm system exists in the sim.* |",
+    "| **Compact** | **10** | **C** | Counts as **one-handed** despite its class. *Heavy classes only. Engine-blocked — hands and slots are inert in the sim.* |"
    ]
   },
   {
@@ -535,6 +570,13 @@
     false,
     false,
     false
+   ],
+   "orig": [
+    "| **Short Range** | **−5** *(−10 on Heavy Ranged)* | **Halve** the weapon's maximum range. *Ranged only. Heavy Ranged refunds double because halving takes it out of the 24\" deployment band entirely.* |",
+    "| **Slow** | **−5** | You may not **Charge** with this weapon. *Melee only.* |",
+    "| **Unstable** | **−5** | On a **natural 1** to hit, the weapon is **destroyed**. |",
+    "| **Cumbersome** | **−5** | **−1 MOV** while carried. |",
+    "| **Single-Use** | **−5** | **One use** per battle — the weapon is expended when thrown or fired. |"
    ]
   }
  ]

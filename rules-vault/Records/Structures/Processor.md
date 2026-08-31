@@ -9,7 +9,7 @@ structure_suffix: " ★"
 class: "Plant"
 size: "3×5"
 pwr: "−1"
-materials: "45"
+materials: 45
 what_it_does: "**Materials** gatherer — scrap → Materials"
 source: "Structures.md"
 tags: [settlements/record, settlements/settlement/structure]

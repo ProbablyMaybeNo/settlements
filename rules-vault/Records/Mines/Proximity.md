@@ -5,7 +5,7 @@ table: 0
 row: 0
 cols: 3
 chassis: "**Proximity**"
-credits: "5"
+credits: 5
 delivery: "Place a **3\" template**. Detonates the instant an enemy **ends a Move** inside it."
 source: "Deployables.md"
 tags: [settlements/record, settlements/gear/deployable]

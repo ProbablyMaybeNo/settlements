@@ -8,7 +8,7 @@ structure: "Scout Post"
 class: "Plant"
 size: "3×3"
 pwr: "−1"
-materials: "50"
+materials: 50
 what_it_does: "Pre-**battle** information: see a Twist, choose attacker/defender, reroll deployment"
 source: "Structures.md"
 tags: [settlements/record, settlements/settlement/structure]
