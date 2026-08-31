@@ -1,3 +1,14 @@
+TOOLS:
+
+- Access to weapons
+- Stat modifiers
+- To hit/Injure Modifiers
+- Conditions
+- Attack Dice
+- Credits
+- Actions/Reactions/Orders
+- Priority
+
 
 WEAPONS
 - 1h Range
@@ -46,6 +57,13 @@ SETTLEMENTS
 - Advancement
 
 Factions
+
+- Civilians - Swarmers, 
+- Veterans
+- First Responders
+- The Geeks/Techies
+- The syndicate/Criminals
+- The Union/Workers
 
 Campaign
 - Territory
