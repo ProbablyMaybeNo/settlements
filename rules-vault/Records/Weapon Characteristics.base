@@ -1,0 +1,49 @@
+views:
+  - type: table
+    name: All characteristics
+    filters:
+      and:
+        - type == "weapon-characteristic"
+    order:
+      - file.name
+      - cr
+      - tier
+      - group
+      - effect
+    sort:
+      - property: cr
+        direction: DESC
+  - type: table
+    name: By tier
+    filters:
+      and:
+        - type == "weapon-characteristic"
+    order:
+      - file.name
+      - tier
+      - cr
+      - effect
+    sort:
+      - property: tier
+        direction: ASC
+  - type: table
+    name: Drawbacks - refunds
+    filters:
+      and:
+        - type == "weapon-characteristic"
+        - kind == "drawback"
+    order:
+      - file.name
+      - cr
+      - effect
+  - type: table
+    name: Untiered - the costing gap
+    filters:
+      and:
+        - type == "weapon-characteristic"
+        - tier == ""
+    order:
+      - file.name
+      - cr
+      - kind
+      - effect
