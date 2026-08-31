@@ -12,7 +12,7 @@
   {
    "id": "n2",
    "type": "text",
-   "text": "![[Initiative & Activation#Reaction options]]",
+   "text": "![[Initiative & Activation#^tbl-reaction-options]]",
    "x": 60,
    "y": 80,
    "width": 520,
@@ -24,708 +24,735 @@
    "label": "Combat",
    "x": 0,
    "y": 486,
-   "width": 640,
-   "height": 406
+   "width": 1200,
+   "height": 328
   },
   {
    "id": "n4",
    "type": "text",
-   "text": "![[Morale#Break test — End Phase, 2+ Stress]]",
+   "text": "![[Morale#^tbl-break-test-end-phase-2-stress]]",
    "x": 60,
    "y": 566,
-   "width": 520,
-   "height": 266
-  },
-  {
-   "id": "g5",
-   "type": "group",
-   "label": "Gear",
-   "x": 0,
-   "y": 972,
-   "width": 2880,
-   "height": 2884
-  },
-  {
-   "id": "n6",
-   "type": "text",
-   "text": "![[Weapons#1 · Weapon classes]]",
-   "x": 60,
-   "y": 1052,
-   "width": 520,
-   "height": 422
-  },
-  {
-   "id": "n7",
-   "type": "text",
-   "text": "![[Weapons#Rank gates the class]]",
-   "x": 620,
-   "y": 1052,
-   "width": 520,
-   "height": 214
-  },
-  {
-   "id": "n8",
-   "type": "text",
-   "text": "![[Weapons#1.5 · Attack Dice — the multi-shot axis]]",
-   "x": 1180,
-   "y": 1052,
    "width": 520,
    "height": 188
   },
   {
+   "id": "n5",
+   "type": "text",
+   "text": "![[Morale#^tbl-break-test-end-phase-2-stress-2]]",
+   "x": 620,
+   "y": 566,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "g6",
+   "type": "group",
+   "label": "Gear",
+   "x": 0,
+   "y": 894,
+   "width": 2880,
+   "height": 2884
+  },
+  {
+   "id": "n7",
+   "type": "text",
+   "text": "![[Weapons#^1-weapon-classes]]",
+   "x": 60,
+   "y": 974,
+   "width": 520,
+   "height": 318
+  },
+  {
+   "id": "n8",
+   "type": "text",
+   "text": "![[Weapons#^tbl-rank-gates-the-class]]",
+   "x": 620,
+   "y": 974,
+   "width": 520,
+   "height": 214
+  },
+  {
    "id": "n9",
    "type": "text",
-   "text": "![[Weapons#Damage & armour]]",
-   "x": 1740,
-   "y": 1052,
+   "text": "![[Weapons#^tbl-attack-dice-costs]]",
+   "x": 1180,
+   "y": 974,
    "width": 520,
-   "height": 162
+   "height": 188
   },
   {
    "id": "n10",
    "type": "text",
-   "text": "![[Weapons#To hit]]",
-   "x": 2300,
-   "y": 1052,
+   "text": "![[Weapons#^tbl-damage-armour]]",
+   "x": 1740,
+   "y": 974,
    "width": 520,
    "height": 162
   },
   {
    "id": "n11",
    "type": "text",
-   "text": "![[Weapons#Payload — replaces the non-wounding result]]",
-   "x": 60,
-   "y": 1748,
-   "width": 520,
-   "height": 370
-  },
-  {
-   "id": "n12",
-   "type": "text",
-   "text": "![[Weapons#Area]]",
-   "x": 620,
-   "y": 1748,
+   "text": "![[Weapons#^tbl-to-hit]]",
+   "x": 2300,
+   "y": 974,
    "width": 520,
    "height": 162
   },
   {
+   "id": "n12",
+   "type": "text",
+   "text": "![[Weapons#^payload-replaces-the-non-wounding-result]]",
+   "x": 60,
+   "y": 1670,
+   "width": 520,
+   "height": 240
+  },
+  {
    "id": "n13",
    "type": "text",
-   "text": "![[Weapons#Handling]]",
-   "x": 1180,
-   "y": 1748,
+   "text": "![[Weapons#^tbl-area]]",
+   "x": 620,
+   "y": 1670,
    "width": 520,
-   "height": 292
+   "height": 162
   },
   {
    "id": "n14",
    "type": "text",
-   "text": "![[Weapons#Drawbacks — refund points, take no slot (max 2 per weapon)]]",
-   "x": 1740,
-   "y": 1748,
+   "text": "![[Weapons#^handling]]",
+   "x": 1180,
+   "y": 1670,
    "width": 520,
-   "height": 240
+   "height": 292
   },
   {
    "id": "n15",
    "type": "text",
-   "text": "![[Weapons#3 · Armor]]",
-   "x": 2300,
-   "y": 1748,
+   "text": "![[Weapons#^tbl-drawbacks-refund-points-take-no-slot-max-2-p]]",
+   "x": 1740,
+   "y": 1670,
    "width": 520,
-   "height": 214
+   "height": 240
   },
   {
    "id": "n16",
    "type": "text",
-   "text": "![[Weapons#4 · Hacking gear]]",
-   "x": 60,
-   "y": 2444,
-   "width": 520,
-   "height": 188
-  },
-  {
-   "id": "n17",
-   "type": "text",
-   "text": "![[Weapons#5 · Sample armoury]]",
-   "x": 620,
-   "y": 2444,
-   "width": 520,
-   "height": 656
-  },
-  {
-   "id": "n18",
-   "type": "text",
-   "text": "![[Weapons#6 · Cut, and why]]",
-   "x": 1180,
-   "y": 2444,
-   "width": 520,
-   "height": 344
-  },
-  {
-   "id": "n19",
-   "type": "text",
-   "text": "![[Deployables#Build rating — some things are harder to build]]",
-   "x": 1740,
-   "y": 2444,
+   "text": "![[Weapons#^3-armor]]",
+   "x": 2300,
+   "y": 1670,
    "width": 520,
    "height": 214
   },
   {
-   "id": "n20",
+   "id": "n17",
    "type": "text",
-   "text": "![[Deployables#Family A · Turrets]]",
-   "x": 2300,
-   "y": 2444,
-   "width": 520,
-   "height": 240
-  },
-  {
-   "id": "n21",
-   "type": "text",
-   "text": "![[Deployables#Chassis — how it delivers]]",
+   "text": "![[Weapons#^4-hacking-gear]]",
    "x": 60,
-   "y": 3140,
+   "y": 2366,
    "width": 520,
    "height": 188
   },
   {
-   "id": "n22",
+   "id": "n18",
    "type": "text",
-   "text": "![[Deployables#Payload — what it does on detonation]]",
+   "text": "![[Weapons#^5-sample-armoury]]",
    "x": 620,
-   "y": 3140,
+   "y": 2366,
+   "width": 520,
+   "height": 656
+  },
+  {
+   "id": "n19",
+   "type": "text",
+   "text": "![[Weapons#^tbl-6-cut-and-why]]",
+   "x": 1180,
+   "y": 2366,
+   "width": 520,
+   "height": 344
+  },
+  {
+   "id": "n20",
+   "type": "text",
+   "text": "![[Deployables#^tbl-build-rating-some-things-are-harder-to-build]]",
+   "x": 1740,
+   "y": 2366,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n21",
+   "type": "text",
+   "text": "![[Deployables#^tbl-family-a-turrets]]",
+   "x": 2300,
+   "y": 2366,
    "width": 520,
    "height": 240
   },
   {
+   "id": "n22",
+   "type": "text",
+   "text": "![[Deployables#^tbl-chassis-how-it-delivers]]",
+   "x": 60,
+   "y": 3062,
+   "width": 520,
+   "height": 188
+  },
+  {
    "id": "n23",
    "type": "text",
-   "text": "![[Deployables#Family C · Traps]]",
-   "x": 1180,
-   "y": 3140,
+   "text": "![[Deployables#^payload-what-it-does-on-detonation]]",
+   "x": 620,
+   "y": 3062,
    "width": 520,
    "height": 240
   },
   {
    "id": "n24",
    "type": "text",
-   "text": "![[Deployables#Family D · Beacons]]",
-   "x": 1740,
-   "y": 3140,
-   "width": 520,
-   "height": 292
-  },
-  {
-   "id": "g25",
-   "type": "group",
-   "label": "Movement · terrain · machines",
-   "x": 0,
-   "y": 3936,
-   "width": 2880,
-   "height": 1174
-  },
-  {
-   "id": "n26",
-   "type": "text",
-   "text": "![[Movement#Terrain movement]]",
-   "x": 60,
-   "y": 4016,
-   "width": 520,
-   "height": 214
-  },
-  {
-   "id": "n27",
-   "type": "text",
-   "text": "![[Terrain#The three properties]]",
-   "x": 620,
-   "y": 4016,
-   "width": 520,
-   "height": 188
-  },
-  {
-   "id": "n28",
-   "type": "text",
-   "text": "![[Terrain#Cover]]",
+   "text": "![[Deployables#^tbl-family-c-traps]]",
    "x": 1180,
-   "y": 4016,
+   "y": 3062,
    "width": 520,
    "height": 240
   },
   {
+   "id": "n25",
+   "type": "text",
+   "text": "![[Deployables#^tbl-family-d-beacons]]",
+   "x": 1740,
+   "y": 3062,
+   "width": 520,
+   "height": 292
+  },
+  {
+   "id": "g26",
+   "type": "group",
+   "label": "Movement · terrain · machines",
+   "x": 0,
+   "y": 3858,
+   "width": 2880,
+   "height": 1174
+  },
+  {
+   "id": "n27",
+   "type": "text",
+   "text": "![[Movement#^tbl-terrain-movement]]",
+   "x": 60,
+   "y": 3938,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n28",
+   "type": "text",
+   "text": "![[Terrain#^tbl-the-three-properties]]",
+   "x": 620,
+   "y": 3938,
+   "width": 520,
+   "height": 188
+  },
+  {
    "id": "n29",
    "type": "text",
-   "text": "![[Terrain#Terrain types]]",
-   "x": 1740,
-   "y": 4016,
+   "text": "![[Terrain#^tbl-cover]]",
+   "x": 1180,
+   "y": 3938,
    "width": 520,
-   "height": 266
+   "height": 240
   },
   {
    "id": "n30",
    "type": "text",
-   "text": "![[Terrain#Hazards (the Dangerous overlay)]]",
-   "x": 2300,
-   "y": 4016,
+   "text": "![[Terrain#^tbl-terrain-types]]",
+   "x": 1740,
+   "y": 3938,
    "width": 520,
    "height": 266
   },
   {
    "id": "n31",
    "type": "text",
-   "text": "![[Terrain#Interact]]",
-   "x": 60,
-   "y": 4374,
+   "text": "![[Terrain#^tbl-hazards-the-dangerous-overlay]]",
+   "x": 2300,
+   "y": 3938,
    "width": 520,
-   "height": 214
+   "height": 266
   },
   {
    "id": "n32",
    "type": "text",
-   "text": "![[Terrain Interaction#Stat ownership]]",
-   "x": 620,
-   "y": 4374,
+   "text": "![[Terrain#^tbl-interact]]",
+   "x": 60,
+   "y": 4296,
    "width": 520,
    "height": 214
   },
   {
    "id": "n33",
    "type": "text",
-   "text": "![[Terrain Interaction#Interaction verbs]]",
-   "x": 1180,
-   "y": 4374,
+   "text": "![[Terrain Interaction#^tbl-stat-ownership]]",
+   "x": 620,
+   "y": 4296,
    "width": 520,
-   "height": 318
+   "height": 214
   },
   {
    "id": "n34",
    "type": "text",
-   "text": "![[Terrain Interaction#Searching and looting]]",
-   "x": 1740,
-   "y": 4374,
+   "text": "![[Terrain Interaction#^tbl-interaction-verbs]]",
+   "x": 1180,
+   "y": 4296,
    "width": 520,
-   "height": 240
+   "height": 318
   },
   {
    "id": "n35",
    "type": "text",
-   "text": "![[Terrain Interaction#In-battle repair / settlement hook]]",
-   "x": 2300,
-   "y": 4374,
-   "width": 520,
-   "height": 266
-  },
-  {
-   "id": "n36",
-   "type": "text",
-   "text": "![[Infrastructure#Infrastructure vs Deployables]]",
-   "x": 60,
-   "y": 4732,
-   "width": 520,
-   "height": 188
-  },
-  {
-   "id": "n37",
-   "type": "text",
-   "text": "![[Infrastructure#The five categories]]",
-   "x": 620,
-   "y": 4732,
+   "text": "![[Terrain Interaction#^tbl-searching-and-looting]]",
+   "x": 1740,
+   "y": 4296,
    "width": 520,
    "height": 240
   },
   {
+   "id": "n36",
+   "type": "text",
+   "text": "![[Terrain Interaction#^tbl-in-battle-repair-settlement-hook]]",
+   "x": 2300,
+   "y": 4296,
+   "width": 520,
+   "height": 266
+  },
+  {
+   "id": "n37",
+   "type": "text",
+   "text": "![[Infrastructure#^tbl-infrastructure-vs-deployables]]",
+   "x": 60,
+   "y": 4654,
+   "width": 520,
+   "height": 188
+  },
+  {
    "id": "n38",
    "type": "text",
-   "text": "![[Infrastructure#Custom battles]]",
-   "x": 1180,
-   "y": 4732,
+   "text": "![[Infrastructure#^tbl-the-five-categories]]",
+   "x": 620,
+   "y": 4654,
    "width": 520,
    "height": 240
   },
   {
    "id": "n39",
    "type": "text",
-   "text": "![[Hacking#Range bands]]",
-   "x": 1740,
-   "y": 4732,
+   "text": "![[Infrastructure#^tbl-custom-battles]]",
+   "x": 1180,
+   "y": 4654,
    "width": 520,
    "height": 240
   },
   {
-   "id": "g40",
+   "id": "n40",
+   "type": "text",
+   "text": "![[Hacking#^tbl-range-bands]]",
+   "x": 1740,
+   "y": 4654,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "g41",
    "type": "group",
    "label": "Crew",
    "x": 0,
-   "y": 5190,
+   "y": 5112,
    "width": 2880,
-   "height": 1232
-  },
-  {
-   "id": "n41",
-   "type": "text",
-   "text": "![[Unit Design#Stat Scale]]",
-   "x": 60,
-   "y": 5270,
-   "width": 520,
-   "height": 318
+   "height": 1330
   },
   {
    "id": "n42",
    "type": "text",
-   "text": "![[Unit Design#Ranks (build budget)]]",
-   "x": 620,
-   "y": 5270,
+   "text": "![[Unit Design#^tbl-stat-scale]]",
+   "x": 60,
+   "y": 5192,
    "width": 520,
-   "height": 214
+   "height": 318
   },
   {
    "id": "n43",
    "type": "text",
-   "text": "![[List Building#Budget]]",
-   "x": 1180,
-   "y": 5270,
+   "text": "![[Unit Design#^tbl-ranks-build-budget]]",
+   "x": 620,
+   "y": 5192,
    "width": 520,
    "height": 214
   },
   {
    "id": "n44",
    "type": "text",
-   "text": "![[List Building#The four ranks — two starting tiers]]",
-   "x": 1740,
-   "y": 5270,
+   "text": "![[List Building#^tbl-budget]]",
+   "x": 1180,
+   "y": 5192,
    "width": 520,
-   "height": 318
+   "height": 214
   },
   {
    "id": "n45",
    "type": "text",
-   "text": "![[List Building#Armour & equipment]]",
-   "x": 2300,
-   "y": 5270,
+   "text": "![[List Building#^tbl-the-four-ranks]]",
+   "x": 1740,
+   "y": 5192,
    "width": 520,
-   "height": 292
+   "height": 214
   },
   {
    "id": "n46",
    "type": "text",
-   "text": "![[List Building#Validation]]",
-   "x": 60,
-   "y": 5836,
+   "text": "![[List Building#^tbl-the-four-ranks-campaign]]",
+   "x": 2300,
+   "y": 5192,
    "width": 520,
-   "height": 188
+   "height": 214
   },
   {
    "id": "n47",
    "type": "text",
-   "text": "![[Progression#Levels — the fixed advancement track]]",
-   "x": 620,
-   "y": 5836,
+   "text": "![[List Building#^tbl-armour-equipment]]",
+   "x": 60,
+   "y": 5602,
    "width": 520,
-   "height": 526
+   "height": 188
   },
   {
    "id": "n48",
    "type": "text",
-   "text": "![[Skill Paths#How it works — skills ride the stat line]]",
-   "x": 1180,
-   "y": 5836,
+   "text": "![[List Building#^armour-equipment]]",
+   "x": 620,
+   "y": 5602,
    "width": 520,
    "height": 214
   },
   {
    "id": "n49",
    "type": "text",
-   "text": "![[Skill Paths#The five paths]]",
-   "x": 1740,
-   "y": 5836,
+   "text": "![[List Building#^tbl-validation]]",
+   "x": 1180,
+   "y": 5602,
    "width": 520,
-   "height": 240
+   "height": 188
   },
   {
-   "id": "g50",
-   "type": "group",
-   "label": "Campaign & settlement",
-   "x": 0,
-   "y": 6502,
-   "width": 2880,
-   "height": 4120
+   "id": "n50",
+   "type": "text",
+   "text": "![[Progression#^tbl-level-track]]",
+   "x": 1740,
+   "y": 5602,
+   "width": 520,
+   "height": 370
   },
   {
    "id": "n51",
    "type": "text",
-   "text": "![[Campaign#Post-battle — the Fate table]]",
-   "x": 60,
-   "y": 6582,
+   "text": "![[Progression#^levels-the-fixed-advancement-track]]",
+   "x": 2300,
+   "y": 5602,
    "width": 520,
    "height": 266
   },
   {
    "id": "n52",
    "type": "text",
-   "text": "![[Campaign#Glorious Deeds]]",
-   "x": 620,
-   "y": 6582,
-   "width": 520,
-   "height": 370
-  },
-  {
-   "id": "n53",
-   "type": "text",
-   "text": "![[Economy#Three resources, two of them banked]]",
-   "x": 1180,
-   "y": 6582,
-   "width": 520,
-   "height": 188
-  },
-  {
-   "id": "n54",
-   "type": "text",
-   "text": "![[Economy#Power — output vs draw]]",
-   "x": 1740,
-   "y": 6582,
-   "width": 520,
-   "height": 188
-  },
-  {
-   "id": "n55",
-   "type": "text",
-   "text": "![[Economy#Storage, caps and overflow]]",
-   "x": 2300,
-   "y": 6582,
+   "text": "![[Skill Paths#^tbl-how-it-works-skills-ride-the-stat-line]]",
+   "x": 60,
+   "y": 6012,
    "width": 520,
    "height": 214
   },
   {
+   "id": "n53",
+   "type": "text",
+   "text": "![[Skill Paths#^tbl-the-five-paths]]",
+   "x": 620,
+   "y": 6012,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "g54",
+   "type": "group",
+   "label": "Campaign & settlement",
+   "x": 0,
+   "y": 6522,
+   "width": 2880,
+   "height": 4120
+  },
+  {
+   "id": "n55",
+   "type": "text",
+   "text": "![[Campaign#^tbl-post-battle-the-fate-table]]",
+   "x": 60,
+   "y": 6602,
+   "width": 520,
+   "height": 266
+  },
+  {
    "id": "n56",
    "type": "text",
-   "text": "![[Settlement#Choosing a location]]",
-   "x": 60,
-   "y": 7252,
+   "text": "![[Campaign#^tbl-glorious-deeds]]",
+   "x": 620,
+   "y": 6602,
    "width": 520,
    "height": 370
   },
   {
    "id": "n57",
    "type": "text",
-   "text": "![[Structures#The settlement canvas]]",
-   "x": 620,
-   "y": 7252,
+   "text": "![[Economy#^tbl-three-resources]]",
+   "x": 1180,
+   "y": 6602,
    "width": 520,
-   "height": 214
+   "height": 188
   },
   {
    "id": "n58",
    "type": "text",
-   "text": "![[Structures#Groundworks — the expansion project]]",
-   "x": 1180,
-   "y": 7252,
+   "text": "![[Economy#^tbl-power-draw-by-tier]]",
+   "x": 1740,
+   "y": 6602,
    "width": 520,
    "height": 188
   },
   {
    "id": "n59",
    "type": "text",
-   "text": "![[Structures#Footprint classes]]",
-   "x": 1740,
-   "y": 7252,
-   "width": 520,
-   "height": 188
-  },
-  {
-   "id": "n60",
-   "type": "text",
-   "text": "![[Structures#Starting structures — four]]",
+   "text": "![[Economy#^tbl-storage-containers]]",
    "x": 2300,
-   "y": 7252,
+   "y": 6602,
    "width": 520,
    "height": 214
   },
   {
+   "id": "n60",
+   "type": "text",
+   "text": "![[Settlement#^tbl-choosing-a-location]]",
+   "x": 60,
+   "y": 7272,
+   "width": 520,
+   "height": 370
+  },
+  {
    "id": "n61",
    "type": "text",
-   "text": "![[Structures#Storage & caps — what you can hold, and what a raider can take]]",
-   "x": 60,
-   "y": 7922,
+   "text": "![[Structures#^tbl-the-settlement-canvas]]",
+   "x": 620,
+   "y": 7272,
    "width": 520,
    "height": 214
   },
   {
    "id": "n62",
    "type": "text",
-   "text": "![[Structures#HQ tiers — the scavenger pipeline]]",
-   "x": 620,
-   "y": 7922,
+   "text": "![[Structures#^tbl-groundworks-the-expansion-project]]",
+   "x": 1180,
+   "y": 7272,
    "width": 520,
    "height": 188
   },
   {
    "id": "n63",
    "type": "text",
-   "text": "![[Structures#Three ways to grow — and how to tell them apart]]",
-   "x": 1180,
-   "y": 7922,
+   "text": "![[Structures#^tbl-footprint-classes]]",
+   "x": 1740,
+   "y": 7272,
    "width": 520,
    "height": 188
   },
   {
    "id": "n64",
    "type": "text",
-   "text": "![[Structures#Upgrade ladders]]",
-   "x": 1740,
-   "y": 7922,
+   "text": "![[Structures#^tbl-starting-structures-five]]",
+   "x": 2300,
+   "y": 7272,
    "width": 520,
-   "height": 292
+   "height": 214
   },
   {
    "id": "n65",
    "type": "text",
-   "text": "![[Structures#Sustain — keep people alive, keep the grid up]]",
-   "x": 2300,
-   "y": 7922,
+   "text": "![[Structures#^tbl-storage-caps-what-you-can-hold-and-what-a-ra]]",
+   "x": 60,
+   "y": 7942,
    "width": 520,
    "height": 214
   },
   {
    "id": "n66",
    "type": "text",
-   "text": "![[Structures#Convert — turn one resource into another, and make gear]]",
-   "x": 60,
-   "y": 8592,
+   "text": "![[Structures#^tbl-hq-tiers]]",
+   "x": 620,
+   "y": 7942,
    "width": 520,
-   "height": 240
+   "height": 188
   },
   {
    "id": "n67",
    "type": "text",
-   "text": "![[Structures#Operate — what you can do outside the walls]]",
-   "x": 620,
-   "y": 8592,
+   "text": "![[Structures#^tbl-three-ways-to-grow-and-how-to-tell-them-apar]]",
+   "x": 1180,
+   "y": 7942,
    "width": 520,
-   "height": 266
+   "height": 188
   },
   {
    "id": "n68",
    "type": "text",
-   "text": "![[Structures#Recover — people come back]]",
-   "x": 1180,
-   "y": 8592,
-   "width": 520,
-   "height": 188
-  },
-  {
-   "id": "n69",
-   "type": "text",
-   "text": "![[Structures#Defend — this is the raid board]]",
+   "text": "![[Structures#^tbl-upgrade-ladders]]",
    "x": 1740,
-   "y": 8592,
-   "width": 520,
-   "height": 240
-  },
-  {
-   "id": "n70",
-   "type": "text",
-   "text": "![[Structures#Worker benefits]]",
-   "x": 2300,
-   "y": 8592,
-   "width": 520,
-   "height": 630
-  },
-  {
-   "id": "n71",
-   "type": "text",
-   "text": "![[Structures#Space budget]]",
-   "x": 60,
-   "y": 9262,
-   "width": 520,
-   "height": 188
-  },
-  {
-   "id": "n72",
-   "type": "text",
-   "text": "![[Territory#The territory card — eleven required fields]]",
-   "x": 620,
-   "y": 9262,
-   "width": 520,
-   "height": 396
-  },
-  {
-   "id": "n73",
-   "type": "text",
-   "text": "![[Territory#The default loot table]]",
-   "x": 1180,
-   "y": 9262,
-   "width": 520,
-   "height": 370
-  },
-  {
-   "id": "n74",
-   "type": "text",
-   "text": "![[Territory#Control states]]",
-   "x": 1740,
-   "y": 9262,
-   "width": 520,
-   "height": 188
-  },
-  {
-   "id": "n75",
-   "type": "text",
-   "text": "![[Events#Battlefield Events — exactly two rolls, no running clock]]",
-   "x": 2300,
-   "y": 9262,
-   "width": 520,
-   "height": 370
-  },
-  {
-   "id": "n76",
-   "type": "text",
-   "text": "![[Scenarios#The scenario template]]",
-   "x": 60,
-   "y": 9932,
+   "y": 7942,
    "width": 520,
    "height": 292
   },
   {
-   "id": "n77",
+   "id": "n69",
    "type": "text",
-   "text": "![[Scenarios#The Twist (roll 1d6 at setup)]]",
+   "text": "![[Structures#^tbl-sustain-keep-people-alive-keep-the-grid-up]]",
+   "x": 2300,
+   "y": 7942,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n70",
+   "type": "text",
+   "text": "![[Structures#^tbl-convert-turn-one-resource-into-another-and-m]]",
+   "x": 60,
+   "y": 8612,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "n71",
+   "type": "text",
+   "text": "![[Structures#^tbl-operate-what-you-can-do-outside-the-walls]]",
    "x": 620,
-   "y": 9932,
+   "y": 8612,
    "width": 520,
    "height": 266
+  },
+  {
+   "id": "n72",
+   "type": "text",
+   "text": "![[Structures#^tbl-recover-people-come-back]]",
+   "x": 1180,
+   "y": 8612,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n73",
+   "type": "text",
+   "text": "![[Structures#^tbl-defend-this-is-the-raid-board]]",
+   "x": 1740,
+   "y": 8612,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "n74",
+   "type": "text",
+   "text": "![[Structures#^worker-benefits]]",
+   "x": 2300,
+   "y": 8612,
+   "width": 520,
+   "height": 630
+  },
+  {
+   "id": "n75",
+   "type": "text",
+   "text": "![[Structures#^tbl-space-budget]]",
+   "x": 60,
+   "y": 9282,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n76",
+   "type": "text",
+   "text": "![[Territory#^tbl-the-territory-card]]",
+   "x": 620,
+   "y": 9282,
+   "width": 520,
+   "height": 396
+  },
+  {
+   "id": "n77",
+   "type": "text",
+   "text": "![[Territory#^tbl-the-default-loot-table]]",
+   "x": 1180,
+   "y": 9282,
+   "width": 520,
+   "height": 370
   },
   {
    "id": "n78",
    "type": "text",
-   "text": "![[Factions#Working rules / decisions]]",
-   "x": 1180,
-   "y": 9932,
+   "text": "![[Territory#^tbl-control-states]]",
+   "x": 1740,
+   "y": 9282,
    "width": 520,
-   "height": 266
+   "height": 188
   },
   {
-   "id": "g79",
-   "type": "group",
-   "label": "Physical",
-   "x": 0,
-   "y": 10702,
-   "width": 1200,
-   "height": 432
+   "id": "n79",
+   "type": "text",
+   "text": "![[Events#^tbl-battlefield-events]]",
+   "x": 2300,
+   "y": 9282,
+   "width": 520,
+   "height": 370
   },
   {
    "id": "n80",
    "type": "text",
-   "text": "![[Board Representation#Terrain]]",
+   "text": "![[Scenarios#^tbl-the-scenario-template]]",
    "x": 60,
-   "y": 10782,
+   "y": 9952,
    "width": 520,
-   "height": 266
+   "height": 292
   },
   {
    "id": "n81",
    "type": "text",
-   "text": "![[Board Representation#Condition & status tokens]]",
+   "text": "![[Scenarios#^tbl-the-twist-roll-1d6-at-setup]]",
    "x": 620,
-   "y": 10782,
+   "y": 9952,
+   "width": 520,
+   "height": 266
+  },
+  {
+   "id": "g82",
+   "type": "group",
+   "label": "Physical",
+   "x": 0,
+   "y": 10722,
+   "width": 1200,
+   "height": 432
+  },
+  {
+   "id": "n83",
+   "type": "text",
+   "text": "![[Board Representation#^tbl-terrain]]",
+   "x": 60,
+   "y": 10802,
+   "width": 520,
+   "height": 266
+  },
+  {
+   "id": "n84",
+   "type": "text",
+   "text": "![[Board Representation#^tbl-condition-status-tokens]]",
+   "x": 620,
+   "y": 10802,
    "width": 520,
    "height": 292
   }

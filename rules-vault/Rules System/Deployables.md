@@ -122,6 +122,8 @@ Buy exactly one. All effects route to rules you already have.
 | **Shock** | **[UNPRICED]** | **Blast**, no Injury: **Shocked + Blind** on every model in radius ([[Conditions#Control conditions (from skills, weapons and terrain)]]). |
 | **Smoke** | **[UNPRICED]** | No damage — places a **3" Dense Smoke** ([[Weapons]] Smoke). A trap that screens instead of kills. |
 
+^payload-what-it-does-on-detonation
+
 > [!warning] Why the payloads are held rather than guessed
 > A mine payload's natural neighbour is the **weapon characteristic it mirrors** — and Poison mirrors **Toxic**, Shock mirrors **Shocking**, and both sit inside the **blocked-payload problem** ([[Weapons#Payload — *replaces* the non-wounding result]]). Pricing a mine off a trait that measures negative would bake the same defect into a second catalogue. These unlock the moment the replace-not-stack rule is ruled on.
 

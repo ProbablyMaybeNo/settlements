@@ -37,6 +37,8 @@ Grandpa's Rifle  Standard Ranged · Accurate · Long Range                     4
 | **Standard Ranged** | **15** | **+2 to +4** | **12"–36"** | 2 | Fighter | 3 | Two-Handed, Loud |
 | **Heavy Ranged** | **25** | **+3 to +5** | **12"–36"** | 2 | Specialist | 4 | Two-Handed, Loud |
 
+^1-weapon-classes
+
 *"Cheapest build" is the class at its **floor** Damage and **floor** range with no characteristics. Every step up the band costs **+10 per Damage point**; range is priced separately (below).*
 
 > ### The class is an ENVELOPE, not a value — reworked 2026-08-14
@@ -168,6 +170,8 @@ Each takes **one slot**. Restrictions in *italics*.
 | **Shocking** | **5** | **B** ⚠ | **Shocked** — *measures positive but inside the noise floor.* |
 | **Heavy Impact** | **5** | **B** ⚠ | Push the target **2"** directly away. Falls and hazards resolve normally ([[Terrain]]). *Also inside the noise floor.* |
 
+^payload-replaces-the-non-wounding-result
+
 > [!danger] ⛔ Five payloads are BLOCKED — they do **not** ship
 > **Concussive · Crippling · Blinding · Hook · Toxic.** All five measure at or below **zero net value**, three of them significantly. No price fixes this: repricing a trait whose whole effect is to replace a good default with a worse one sells the player a downgrade at any number.
 >
@@ -203,6 +207,8 @@ Each takes **one slot**. Restrictions in *italics*.
 | **Breaching** | **15** | **C** | **+2** on STR tests to Force or break **Breachable** terrain ([[Terrain Interaction]]). |
 | **Quiet** | **10** | **C** | Attacks don't reveal you from **Hidden** and don't trip noise or alarms. *Engine-blocked — no noise or alarm system exists in the sim.* |
 | **Compact** | **10** | **C** | Counts as **one-handed** despite its class. *Heavy classes only. Engine-blocked — hands and slots are inert in the sim.* |
+
+^handling
 
 > [!warning] ⚠ `Long Range` deliberately contradicts its own measurement
 > **Measured:** the 8"–24" range curve is **flat** — the whole spread sits inside one standard error, which prices Long Range at **~0**. **Shipped:** a real price, accelerating steeply across 24".
@@ -251,6 +257,8 @@ Armor reduces the **Injury roll only** — never the hit. Cover protects against
 | Light | −1 | — | **10** | **B** |
 | Heavy | −2 | — | **20** | **B** |
 
+^3-armor
+
 > [!info] **Heavy is NOT twice Light, and that question is closed**
 > The old rule argued each armour point is a flat −10% on the injury roll, so −2 must cost 2× −1. That is the **wrong quantity**: linear in injury *probability* does not imply linear in *win-points*, because the second point buys survival on a model that is already surviving more often. **Measured ratio: 1.745 ± 0.416.**
 >
@@ -269,6 +277,8 @@ A hack is one INT test ([[Hacking]]). Gear grants a flat **+/− modifier to hac
 | Bare-handed | +0 | **0** | — | improvising at a terminal |
 | Breach Kit | +1 | **20** | **C** | standard hacker loadout |
 | Exploit Suite | +2 | **40** | **C** | specialist kit |
+
+^4-hacking-gear
 
 *Both are **C-tier and flagged**: they sell +1 / +2 on the Interact test, which prices high against the measured to-hit atom, and INT is worth nothing in a scenario with no claim step. Retained pending a measured INT ladder.*
 
@@ -305,6 +315,8 @@ Every one of these is a legal build. Copy or rename freely.
 | **Javelin** | Thrown | 8", +1, throw it or stab with it, **reusable** | **5** |
 | **Smoke Grenade** | Thrown · Smoke · *Single-Use* | 8", places 3" smoke | **15** |
 | **Ranger's Long Rifle** | Heavy Ranged · 36" *(manufactured, limit 1, Specialist+)* | **36"**, +3 | **55** |
+
+^5-sample-armoury
 
 *Nineteen of twenty moved when the rebuild landed. The armoury total fell **1950 → 575** — **a rifle now costs 35 against a 100-Credit Fighter**, where it used to cost 100 against a 95-Credit one. That single line is what the rebuild was commissioned to fix.*
 

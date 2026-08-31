@@ -1,10 +1,10 @@
 views:
   - type: table
     name: All
-    rowHeight: medium
     filters:
       and:
         - type == "infrastructure"
     order:
       - file.name
       - description
+    rowHeight: medium

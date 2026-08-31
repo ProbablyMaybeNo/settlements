@@ -70,6 +70,8 @@ At the **floating** levels (1, 4, 8) add +1 to **any** stat, chosen when the lev
 | 4→5 | **10** | 15 |
 | 5→6 | **5** | 15 |
 
+^levels-the-fixed-advancement-track
+
 A fully-levelled fighter carries roughly **+140 Credits** over their rank body (it depends which stats they grew), **6 lifetime stat points**, **4 skills** (1 starting + 3 levelled) and **one wound**. **A fighter caps at Level 10** — further kills and Deeds still bank Resources, but no longer advance them. Reaching Level 10 should be rare.
 
 ### Caps (anti-snowball)

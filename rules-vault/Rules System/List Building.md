@@ -119,6 +119,8 @@ The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed
 | Exploit Suite | **+2 to the hack test** ([[Hacking]]) | **40** |
 | Deployable | Turret · mine · trap · beacon — see [[Deployables]] | **5–25** *(9 of 24 priced)* |
 
+^armour-equipment
+
 > [!warning] Four lines is the whole equipment catalogue
 > Every fighter carries **two** equipment slots and there are effectively two things worth putting in them. This is the thinnest catalogue in the game and the cheapest to widen — equipment is the one category that can add breadth **without touching the combat maths**, because most of it modifies a test that already exists. Flagged, not fixed.
 

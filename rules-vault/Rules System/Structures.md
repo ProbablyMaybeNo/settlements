@@ -430,6 +430,8 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 | ⏸ | **Turret Mount** | The turret gains **+1** to its auto-fire hit roll |
 | ⏸ | **EW Mast** | Counter-hack / counter-drone radius extends to **12"** from the structure |
 
+^worker-benefits
+
 **✅ ships in v1 (10) · ⏸ parked for a future supplement (10)** — per [[Full Rules System v1]] §22.
 
 ^tbl-worker-benefits
