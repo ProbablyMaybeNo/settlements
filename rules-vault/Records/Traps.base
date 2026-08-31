@@ -1,6 +1,7 @@
 views:
   - type: table
     name: All
+    rowHeight: medium
     filters:
       and:
         - type == "traps"
@@ -11,6 +12,7 @@ views:
       - trigger_effect
   - type: table
     name: By build
+    rowHeight: medium
     filters:
       and:
         - type == "traps"

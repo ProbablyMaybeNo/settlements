@@ -1,6 +1,7 @@
 views:
   - type: table
     name: All
+    rowHeight: medium
     filters:
       and:
         - type == "sample-armoury"
@@ -11,6 +12,7 @@ views:
       - cr
   - type: table
     name: By build
+    rowHeight: medium
     filters:
       and:
         - type == "sample-armoury"

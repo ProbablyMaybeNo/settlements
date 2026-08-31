@@ -1,6 +1,7 @@
 views:
   - type: table
     name: All
+    rowHeight: medium
     filters:
       and:
         - type == "armour"
@@ -12,6 +13,7 @@ views:
       - tier
   - type: table
     name: By tier
+    rowHeight: medium
     filters:
       and:
         - type == "armour"

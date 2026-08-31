@@ -1,6 +1,7 @@
 views:
   - type: table
     name: All
+    rowHeight: medium
     filters:
       and:
         - type == "terrain"

@@ -292,7 +292,8 @@ def make_base(folder, schema):
     props = t["props"]
     typ = slug(folder).replace("_", "-")
     cols = [p for p in props[:6]]
-    y = ["views:", "  - type: table", "    name: All", "    filters:", "      and:",
+    y = ["views:", "  - type: table", "    name: All", "    rowHeight: medium",
+         "    filters:", "      and:",
          '        - type == "%s"' % typ, "    order:", "      - file.name"]
     y += ["      - %s" % p for p in cols[1:]]
     # a second view grouped on the first short column that looks categorical
@@ -300,7 +301,8 @@ def make_base(folder, schema):
                 if p in ("tier", "class", "kind", "category", "role", "group",
                          "build", "type", "state", "stat")), None)
     if cat:
-        y += ["  - type: table", "    name: By " + cat, "    filters:", "      and:",
+        y += ["  - type: table", "    name: By " + cat, "    rowHeight: medium",
+              "    filters:", "      and:",
               '        - type == "%s"' % typ, "    order:", "      - " + cat,
               "      - file.name"] + ["      - %s" % p for p in cols[1:] if p != cat]
         y += ["    sort:", "      - property: " + cat, "        direction: ASC"]
@@ -430,7 +432,32 @@ CANVAS_BANDS = [
                                "Events", "Factions"]),
 ]
 
-CARD_W, CARD_H, GAP, PAD = 460, 560, 40, 60
+GAP, PAD = 40, 60
+ROW_PX = 34 * 2          # --bases-table-row-height x the "medium" multiplier
+CHROME_PX = 96           # view tabs + header row
+MIN_W, MAX_W = 520, 1500
+MIN_H, MAX_H = 380, 1150
+
+
+def card_size(cat):
+    """Size a Base node from its own row and column count.
+
+    One fixed box either cropped the big catalogues or wasted half the canvas
+    on the small ones, so measure: width from columns (prose columns get more),
+    height from rows, both clamped so the canvas stays navigable.
+    """
+    sp = os.path.join(catalogue_folder(cat), "_schema.json")
+    if not os.path.exists(sp):
+        return MIN_W, MIN_H
+    sch = json.load(io.open(sp, encoding="utf-8"))
+    rows = sum(len(t["lines"]) for t in sch["tables"])
+    props = sch["tables"][0]["props"]
+    wide = sum(1 for p in props[:6]
+               if p in ("effect", "description", "what_it_does", "notes",
+                        "payload", "trigger_effect", "result", "unlocks"))
+    w = 180 * min(len(props), 6) + 220 * wide
+    h = CHROME_PX + rows * ROW_PX
+    return (max(MIN_W, min(MAX_W, w)), max(MIN_H, min(MAX_H, h)))
 
 
 def cmd_canvas():
@@ -441,21 +468,25 @@ def cmd_canvas():
                 if os.path.exists(os.path.join(ROOT, c + ".base"))]
         if not cats:
             continue
-        cols = min(len(cats), 5)
-        rows = (len(cats) + cols - 1) // cols
-        gw = cols * CARD_W + (cols - 1) * GAP + PAD * 2
-        gh = rows * CARD_H + (rows - 1) * GAP + PAD * 2 + 20
+        sizes = {c: card_size(c) for c in cats}
+        cols = min(len(cats), 4)
+        colw = max(w for w, _ in sizes.values())
+        rowsn = (len(cats) + cols - 1) // cols
+        rowh = max(h for _, h in sizes.values())
+        gw = cols * colw + (cols - 1) * GAP + PAD * 2
+        gh = rowsn * rowh + (rowsn - 1) * GAP + PAD * 2 + 20
         n += 1
         nodes.append({"id": "g%d" % n, "type": "group", "label": band,
                       "x": 0, "y": y, "width": gw, "height": gh})
         for k, c in enumerate(cats):
             n += 1
+            w, h = sizes[c]
             nodes.append({
                 "id": "n%d" % n, "type": "file",
                 "file": "Settlements/Records/%s.base" % c,
-                "x": PAD + (k % cols) * (CARD_W + GAP),
-                "y": y + PAD + 20 + (k // cols) * (CARD_H + GAP),
-                "width": CARD_W, "height": CARD_H})
+                "x": PAD + (k % cols) * (colw + GAP),
+                "y": y + PAD + 20 + (k // cols) * (rowh + GAP),
+                "width": w, "height": h})
         y += gh + GAP * 2
 
     out = os.path.join(VAULT, "Records", "_All Catalogues.canvas")

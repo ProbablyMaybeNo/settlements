@@ -1,6 +1,7 @@
 views:
   - type: table
     name: All
+    rowHeight: medium
     filters:
       and:
         - type == "terrain-verbs"
@@ -12,6 +13,7 @@ views:
       - notes
   - type: table
     name: By stat
+    rowHeight: medium
     filters:
       and:
         - type == "terrain-verbs"

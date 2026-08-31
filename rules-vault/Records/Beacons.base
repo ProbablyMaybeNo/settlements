@@ -1,6 +1,7 @@
 views:
   - type: table
     name: All
+    rowHeight: medium
     filters:
       and:
         - type == "beacons"
@@ -11,6 +12,7 @@ views:
       - aura_within_6
   - type: table
     name: By build
+    rowHeight: medium
     filters:
       and:
         - type == "beacons"

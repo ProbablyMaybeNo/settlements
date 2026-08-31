@@ -1,6 +1,7 @@
 views:
   - type: table
     name: All
+    rowHeight: medium
     filters:
       and:
         - type == "structures"
@@ -13,6 +14,7 @@ views:
       - what_it_does
   - type: table
     name: By class
+    rowHeight: medium
     filters:
       and:
         - type == "structures"

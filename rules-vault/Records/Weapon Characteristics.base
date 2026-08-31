@@ -1,6 +1,7 @@
 views:
   - type: table
     name: All
+    rowHeight: medium
     filters:
       and:
         - type == "weapon-characteristics"
@@ -11,6 +12,7 @@ views:
       - effect
   - type: table
     name: By tier
+    rowHeight: medium
     filters:
       and:
         - type == "weapon-characteristics"
