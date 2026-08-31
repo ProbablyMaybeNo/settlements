@@ -29,8 +29,10 @@ def inline(t):
     t = re.sub(r"`([^`]+)`", r"<code>\1</code>", t)
     t = re.sub(r"\[\[([^\]|]+)\|([^\]]+)\]\]", r"<span class='wl'>\2</span>", t)
     t = re.sub(r"\[\[([^\]]+)\]\]", r"<span class='wl'>\1</span>", t)
-    t = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", t)
-    t = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"<em>\1</em>", t)
+    # Bold FIRST and non-greedy so nested emphasis survives: "**T1 *and* T2**"
+    # broke a [^*]+ class and silently left the markers in the output.
+    t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
+    t = re.sub(r"(?<![*\w])\*(?!\s)([^*\n]+?)\*(?!\w)", r"<em>\1</em>", t)
     return t
 
 

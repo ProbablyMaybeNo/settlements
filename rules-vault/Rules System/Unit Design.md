@@ -44,31 +44,31 @@ The engine already spends these stats: **Dexterity** → ranged tests · **Stren
 
 ### UNIT STATISTICS
 
-**Wounds — WND
+**Wounds — WND**
 
 How many serious hits a unit can suffer before it goes down. Most units have 1 Wound.
 
-**Move — MOV
+**Move — MOV**
 
 The number of inches a unit may move when it takes a Move action. The standard human Move is 6".
 
-**Strength — STR
+**Strength — STR**
 
 Used for physical force, including melee combat, breaching doors, smashing obstacles, dragging heavy objects, carrying wounded units, moving terrain, and constructing barricades or defenses.
 
-**Agility — AGI
+**Agility — AGI**
 
 Used for physical movement tests, including jumping, climbing, vaulting, balancing, swinging, crawling, dodging hazards, avoiding falls, and escaping dangerous positions.
 
-**Dexterity — DEX
+**Dexterity — DEX**
 
 Used for precise hand-eye actions, including ranged combat, throwing objects, lockpicking, setting traps, disarming traps, and using delicate equipment.
 
-**Intelligence — INT
+**Intelligence — INT**
 
 Used for technical and knowledge-based actions, including hacking, crafting, repairing, medicine, searching, identifying terrain features, and using complex equipment.
 
-**Nerve — NRV
+**Nerve — NRV**
 
 Used to test a unit’s mental state under pressure, including stress
 
