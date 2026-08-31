@@ -12,10 +12,13 @@ Nothing is copied and no rules note is modified. Each entry is
 the Sync Embeds plugin enabled those embeds become editable in place and write
 straight back to the source. That is the whole point: one copy, no sync step.
 
-Heading embeds rather than block embeds (`#^anchor`) because Sync Embeds
-addresses by heading. A handful of sections hold more than one table, so those
-cards show every table under that heading; that is a display quirk, not a
-correctness problem, and it avoids editing the rules notes to add anchors.
+BLOCK embeds (`![[Note#^anchor]]`), so each card is the table and nothing else.
+Heading embeds were the first attempt and were wrong: they pull the whole
+section, which across these notes measured 54% prose, with some cards only 19%
+table. `anchor_tables.py` gives every table an anchor so this is possible.
+
+Note the consequence for plugins: Sync Embeds addresses by HEADING, so it
+cannot make these editable. Embed Editor handles block references and can.
 """
 import io
 import json
@@ -42,16 +45,12 @@ BANDS = [
 
 
 def tables_by_heading(note):
-    """(heading, rows, shares) for every table, keyed by its enclosing heading.
-
-    `shares` flags a heading that holds more than one table — the embed will
-    show all of them, which is worth saying out loud on the card.
-    """
+    """(anchor, rows, caption) for every table, addressed by its BLOCK anchor."""
     path = os.path.join(RULES, note + ".md")
     if not os.path.exists(path):
         return []
     lines = io.open(path, encoding="utf-8").read().replace("\r\n", "\n").split("\n")
-    found, heading = [], None
+    found, heading = [], "table"
     i = 0
     while i < len(lines):
         bare = re.sub(r"^>\s?", "", lines[i])
@@ -66,22 +65,24 @@ def tables_by_heading(note):
             while j < len(lines) and re.sub(r"^>\s?", "", lines[j]).startswith("|"):
                 n += 1
                 j += 1
-            if n and heading:
-                found.append([heading, n])
+            anc = None
+            k, seen = j, 0
+            while k < len(lines) and seen < 2:
+                t = lines[k].strip()
+                if t:
+                    seen += 1
+                    m = re.match(r"^\^([a-z0-9-]+)$", t)
+                    if m:
+                        anc = m.group(1)
+                    break
+                k += 1
+            if n and anc:
+                found.append([anc, n, clean(heading)])
             i = j
             continue
         i += 1
 
-    # collapse repeats and mark the shared headings
-    out, seen = [], {}
-    for hd, n in found:
-        if hd in seen:
-            out[seen[hd]][1] += n
-            out[seen[hd]][2] = True
-        else:
-            seen[hd] = len(out)
-            out.append([hd, n, False])
-    return out
+    return found
 
 
 def clean(h):
@@ -96,8 +97,8 @@ def collect():
     for band, notes in BANDS:
         items = []
         for note in notes:
-            for hd, rows, shares in tables_by_heading(note):
-                items.append((note, clean(hd), rows, shares))
+            for anc, rows, cap in tables_by_heading(note):
+                items.append((note, anc, rows, cap))
         if items:
             bands.append((band, items))
     return bands
@@ -127,12 +128,10 @@ def write_page(bands):
     for band, items in bands:
         out += ["---", "", "## " + band, ""]
         for note, hd, rows, shares in items:
-            note_hd = "%s — %s" % (note, hd)
-            out += ["### " + note_hd,
-                    "*[[%s]] · %d rows%s*" % (note, rows,
-                                              " · shares this heading with another table" if shares else ""),
+            out += ["### %s — %s" % (note, shares),
+                    "*[[%s]] · %d rows*" % (note, rows),
                     "",
-                    "![[%s#%s]]" % (note, hd),
+                    "![[%s#^%s]]" % (note, hd),
                     ""]
     p = os.path.join(RULES, "_Tables Lens.md")
     io.open(p, "w", encoding="utf-8", newline="").write("\n".join(out) + "\n")
@@ -158,7 +157,7 @@ def write_canvas(bands):
             k += 1
             nodes.append({
                 "id": "n%d" % k, "type": "text",
-                "text": "![[%s#%s]]" % (note, hd),
+                "text": "![[%s#^%s]]" % (note, hd),
                 "x": PAD + (idx % cols) * (CARD_W + GAP),
                 "y": y + PAD + 20 + (idx // cols) * (h + GAP),
                 "width": CARD_W,
@@ -170,12 +169,12 @@ def write_canvas(bands):
     return p, len([n for n in nodes if n["type"] == "text"])
 
 
-def headings_of(note):
+def anchors_of(note):
     p = os.path.join(RULES, note + ".md")
     if not os.path.exists(p):
         return set()
     txt = io.open(p, encoding="utf-8").read()
-    return {clean(m.group(1)) for m in re.finditer(r"^#{1,6}\s+(.*)$", txt, re.M)}
+    return set(re.findall(r"^\^([a-z0-9-]+)\s*$", txt, re.M))
 
 
 def check(bands):
@@ -184,7 +183,7 @@ def check(bands):
     for _, items in bands:
         for note, hd, _, _ in items:
             if note not in cache:
-                cache[note] = headings_of(note)
+                cache[note] = anchors_of(note)
             if hd not in cache[note]:
                 bad.append((note, hd))
     return bad
@@ -204,9 +203,5 @@ if __name__ == "__main__":
     print("      %d tables, %d rows, %d bands" % (n_t, n_r, len(bands)))
     print("wrote %s" % p2)
     print("      %d embed cards" % n_c)
-    shared = [(n, h) for _, i in bands for n, h, _, s in i if s]
-    if shared:
-        print("\n%d headings hold more than one table — those cards show all of them:"
-              % len(shared))
-        for n, h in shared[:6]:
-            print("   %s — %s" % (n, h))
+    print("")
+    print("block embeds — each card is the table only, no surrounding prose.")
