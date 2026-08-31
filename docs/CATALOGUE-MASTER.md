@@ -32,6 +32,13 @@ catalogue change.*
 | **Chems** | — | **MISSING** | Dependence maths sim-confirmed. No list, no prices, no effects. |
 | **Drones** | — | **MISSING** | Bandwidth ruled, Drone Bay built. No profiles exist. |
 | **Ambush** | — | **UNREACHABLE** | Resolution fully sim-tuned; no action, skill or gear defines how to attempt one. |
+| **Infrastructure features** | 12 | complete | Board machines — Cargo Crane, Blast Door, Conveyor, Floodlights, Compactor and the rest. **Missed by the first pass**: written as bullets, not a table. |
+| **Terrain interaction verbs** | 8 | complete | Open · Force · Lockpick · Hack · Lift · Search · Repair · Climb. §24 names a terrain-verb exception as a legal faction lever. |
+| **Reaction options** | 6 | complete | Snap Shot · Charge · Throw · Interact · Trigger · Dodge, off a Ready token. |
+| **Loot table** | 10 | complete | d10, drafted §23. Also what Search, Raid loot and Scavenge roll on. |
+| **Battlefield events** | 10 | complete | Exactly two rolls, no running clock. Settlement + map events are still missing. |
+| **Nerve states** | 3 | complete | Bolt · Broken · BugOut, by Stress at the Break test. |
+| **Scenario Twists** | 6 | complete | d6 at setup. |
 | **Vehicles** | — | parked | `adv-001`, deliberately out of scope for v1. |
 
 **Read the status column first.** Three catalogues are empty or unreachable
@@ -40,6 +47,561 @@ catalogue change.*
 content. Everything else exists and is current.
 
 ---
+
+
+
+---
+
+# Core engine
+
+*The universal spine every other catalogue inherits from.*
+
+
+## The engine — resolution, action economy, Orders, Reactions
+
+*Source: `Rules Engine.md`*
+
+### Turn / Round Structure
+- Standard game length = 6 rounds.
+- Each round consists of:
+  1. Priority Phase
+  2. Alternating Activations
+  3. End Phase
+- End Phase:
+  1. Refresh Actions, Orders and Reactions.
+  2. Resolve persistent conditions (Fire, Poison, etc.) — see [[Conditions]].
+  3. **Break tests** — every unit with **2+ Stress** tests (1 Stress = Shaken, no test). See [[Morale]].
+  4. Score objectives / victory points.
+
+---
+
+### Priority
+- Both players roll:
+  - 1d10
+  - +1 if they have fewer surviving models.
+- Highest result chooses whether to activate first or second this round.
+- Ties are re-rolled.
+
+---
+
+### Universal Action Economy
+Each activation is **one Move slot + one Action slot**.
+
+- **Move** (slot 1): up to **MOV"**. Any direction, around obstacles; may not be split before/after the Action. A unit is never forced to move.
+- **Action** (slot 2): Shoot, Fight, Interact, Hide, Stabilize, etc. It may **not** be a second normal Move, and a unit makes at most **one attack per activation**.
+- **Sprint** (both slots): move up to **2× MOV"**, nothing else.
+- **Charge** (both slots): move up to **2× MOV"** into base contact, then a **free melee attack** at the charge bonus. See [[Melee]].
+
+#### Orders
+- **Recruits and Fighters have none · Specialists have 1 · Leaders have 2.**
+- An Order grants a **free Action or Reaction** to the issuing unit or another friendly unit.
+- Orders can't chain (an ordered action can't itself be an Order).
+- **Orders are issued only during the issuing unit's own activation.** *(Locked 2026-07-13.)*
+- Each unit may **receive only one Order** per round.
+
+> [!success] Why Orders are activation-bound
+> A 4-model elite crew gets 4 activations **plus** 4 banked **Ready** tokens — every fighter effectively shoots twice, which is the right ceiling against a swarm's extra activations. Letting a Leader issue Orders *at any time* would push that to 7 shots from 4 models, and would turn Reactions into a gotcha — a unit with no Ready suddenly snapping into overwatch the instant you enter its LOS. **Ready already persists across rounds**; bank it on your own activation. See [[Initiative & Activation#Ready]] and [[Crew Sim — Findings]].
+
+#### Reactions
+- Full Ready / Reaction rules live in [[Initiative & Activation]].
+- Summary: Ready via Action or Order → react once when an enemy ends a Move/Action in your forward LOS → Snap Shot, Dodge, Charge, Throw, Interact, or Trigger.
+---
+
+### Universal Resolution Mechanic
+
+#### Standard Test
+
+```
+1d10 + Stat + Modifiers
+
+7+ = Success
+```
+
+- This mechanic is used for all attacks, skill tests, terrain interactions and objective interactions.
+- Natural **1** = Automatic Failure.
+- Natural **10** = Automatic Success.
+
+Example:
+
+```
+Shoot
+
+1d10 + Dexterity + Positive Modifiers - Negative Modifiers
+
+7+ = Hit
+```
+
+Example:
+
+```
+Standard fighter shooting an enemy behind Heavy Cover
+
+1d10
++1 Dexterity
+-2 Heavy Cover
+
+Needs 8+ on the die to hit.
+```
+
+- Terrain and cover are intended to have a major impact on gameplay. Well-positioned units should be extremely difficult to hit.
+- **Armor never affects the hit** — it only reduces the **Injury roll**. Cover protects against *being hit*; armor protects against *being hurt*. See [[Damage]].
+
+### Combat — two rolls
+Every attack resolves in two steps:
+1. **Attack roll** — *did it land?* Ranged = `1d10 + DEX + mods vs 7+` (cover is a negative modifier; weapons rarely add to hit). Melee = **opposed** (see [[Melee]]).
+2. **Injury roll** — *how bad?* `1d10 + Weapon Damage − Armor vs 7+`. **Pass** → target loses 1 WND (**Down** at 0 WND; **melee → Out**). **Fail** → target is **Pinned** (+1 Stress). Full detail in [[Damage]].
+
+> [!info] The engine in one line
+> **Stats decide if you land it · Weapons decide how bad it is · Skills decide what else happens.** Terrain and Stress sit on top as pressure.
+
+#### Opposed Tests
+
+Some situations use opposed rolls instead.
+
+```
+1d10 + Stat + Modifiers
+```
+
+Highest total wins.
+
+- Ties are won by the defender.
+- **Melee attacks are opposed** (STR vs STR/AGI) — see [[Melee]]. Ranged attacks use the fixed 7+ target instead: you can't *passively* dodge a bullet — **cover is your standing defence**. The one exception is the **Dodge** reaction ([[Initiative & Activation#Reaction options]]) — spend your reaction to actively dive clear of a *single* shot (opposed **AGI vs DEX**), ending **Pinned**.
+
+---
+
+### Nerve / Stress
+- Fear, suppression and morale are all handled by the **Stress** system, tested against **NRV**.
+- **1+ Stress = Shaken:** −1 to all rolls (always-on). **2+ Stress:** also a **Break test** in the End Phase.
+- Stress does **not** affect Priority.
+- Full rules: [[Morale]].
+
+---
+
+### House Conventions
+- Pre-measuring is always allowed.
+- **Facing & ranged LOS:** every model faces a direction — use the miniature's orientation (head / weapon / torso toward the front). A unit has a **180° forward arc**. **Ranged** attacks, Ready triggers, and other shoot-based actions need the target in that arc **and** true LOS. No facing notches required — how you place the model *is* the facing.
+- **Melee ignores facing.** Once Engaged, you fight normally regardless of which way either model faces.
+- Measurements are always Base Edge to Base Edge.
+- A unit is **Engaged** while within **1"** of an enemy; you fight enemies you're Engaged with. Direct interaction with terrain/objects needs base contact.
+- Enter melee by **Charging** (needs ranged LOS to declare) or a normal **Move** into an enemy's 1" zone (no LOS needed); reposition *within* that zone, but leaving it is a **Disengage** ([[Movement#Disengaging]]).
+- Standard movement and range increments are based around 6".
+- Always round down.
+
+
+## Activation, Ready and the reaction menu
+
+*Source: `Initiative & Activation.md`*
+
+### Activation
+- Players **alternate**, activating one unit at a time. Who activates first each round is set by the **Priority** roll ([[Rules Engine#Priority]]).
+- Each activation = **Move slot + Action slot** ([[Rules Engine#Universal Action Economy]]). One attack per activation.
+
+### Ready
+- A unit gains **Ready** by spending its **Action** on Ready, or by receiving Ready from an **Order** (Specialist 1 / Leader 2).
+- **Move then Ready** is legal (Action only).
+- A unit may have **at most one Ready token**. Spending it clears the token. It may gain Ready again later that round (another Ready Action, or an Order) — never two tokens at once.
+- Ready **persists across rounds** until spent or cancelled.
+- **Cancelled** when the unit:
+  - takes any other Action (Shoot, Fight, Interact, Hide, Stabilize, etc.), or
+  - is **hit** by an attack, a hostile hack effect, or a terrain/hazard effect (Injury pass, condition applied, a feature triggered on it, etc.).
+- Sprint / Charge consume both slots and leave no Ready; starting a Sprint or Charge cancels Ready.
+
+### Reaction triggers
+A Ready unit may react **once** (spend the token) **after** an enemy finishes a Move or Action, if all are true:
+1. The enemy (or the relevant terrain trigger) is in the reactor's **forward 180°** and **true LOS** ([[Rules Engine#House Conventions]]).
+2. The trigger is one of: ended a **Move greater than half its MOV"** in that arc (a short shuffle of ≤ half MOV doesn't draw fire) · finished a Shoot · finished an Interact (open door, etc.) · finished / resolved a Charge · sprung a visible trap / Triggerable feature the reactor can see.
+
+No mid-move interrupts — wait until the Move or Action resolves.
+
+### Reaction options
+Resolve immediately, interrupting the enemy's next steps if any remain. A Reaction **attack** does **not** spend the reactor's next activation attack.
+
+| Option | Effect |
+|---|---|
+| **Snap Shot** | Make a normal ranged attack at the triggering enemy (**no** extra −2). Must be in range + forward LOS. Any legal ranged weapon (Sidearm rules still apply if Engaged). **This is your "return fire":** when an enemy Shoots, a Ready model may Snap Shot back — but it resolves *after* the enemy's shot, so if that shot Downs it first, it can't reply (that's the shooter's first-mover incentive). |
+| **Charge** | Move up to **MOV"** into Engagement with the triggerer (not 2×). Free melee with **no** Charge +1. Needs forward LOS when declared. *Playtest whether full-strength Charge feels better.* |
+| **Throw** | Resolve a normal thrown-weapon / thrown-object attack (no extra −2). |
+| **Interact / Operate** | Open/close a door, Lift-block / clear a Block, hit a button/lever, **operate an Infrastructure feature you can reach** — by hand in base contact, or by hacking a terminal within range — or **Interrupt** an enemy hack ([[Infrastructure#3 · As a Reaction]] / [[Hacking#Interrupt — contesting a hack]]). Still **no** Search, Repair, or Stabilize as a Reaction. |
+| **Trigger** | Only your own traps with the **Remote Detonation** tag (set by the placer, or by a Hacker). Not every trap is remote. |
+| **Dodge** | When **targeted by a ranged attack** (from **any angle** — no facing needed, so this is your answer to flank/rear shots), make an opposed roll: **`1d10 + AGI`** vs the shooter's **`1d10 + DEX`** (ties to you). This *replaces* the shot's to-hit; **cover doesn't apply** (you traded cover for evasion). **Win →** the shot misses; move up to **half MOV"** (round down) in any direction, preferably **ending out of the shooter's LOS**; this scramble draws **no** reactions; then you gain **Pinned**. **Lose →** the shot hits — resolve the Injury roll as normal. |
+
+^tbl-reaction-options
+
+#### Orders received
+Each unit may **receive only one Order** per round. So max Ready opportunities in a round = own Action Ready + one Order Ready.
+
+**Orders are issued only during the issuing unit's own activation** ([[Rules Engine#Orders]], locked 2026-07-13). A Leader cannot hold Orders in reserve and spend them reactively.
+
+### Catch-up
+Alpha ships with **underdog +1 Priority only**. No free-hold surge rule unless playtests feel unfair.
+
+> [!question] Playtest dials
+> - Reaction Charge: MOV" + no +1 vs full Charge (2× MOV" + +1)
+> - Whether finishing a move in a Ready arc feels oppressive on dense boards
+> [!success] Uneven crew sizes — **Ready is the answer** (validated 2026-07-13)
+> [[List Building]] lets crews run from 4 to 14 models, so a small crew runs out of activations first and the big crew dumps its tail unopposed. **No new rule is needed.** The elite crew converts its last activations into **Ready** and snap-shoots the tail as it moves — 4 models = 4 banked reactions, so every fighter effectively shoots twice.
+> The **underdog +1 Priority** likewise stays exactly as written. It is not an exploit for small crews — it is their **compensation**: [[Crew Sim — Findings|the crew sim]] shows swarms out-produce elites on raw output, because WND is fixed at 1 and the Injury roll ignores stats, so quality has a hard ceiling that numbers don't. Fewer models *should* go first.
+
+### BLKOUT import — status (drafted 2026-07-23)
+> [!note] From the BLKOUT read-through (Settlements repo → `docs/BLKOUT-RULES-ANALYSIS.md` §19). Now **drafted into the live rules above** — playtest before graduating further, and propagate any further change through every note that references these reactions before committing.
+> - **Return Fire — cut.** Sequential "shoot back at a shooter" already **is** Snap Shot (above): it resolves *after* the enemy's shot, so a shooter can Down its target before it replies — the attacker keeps a first-mover incentive to shoot. Simultaneous resolution was rejected as too swingy / anti-shooter.
+> - **Dodge — added** (reaction, above): opposed **AGI vs DEX** active evasion. A deliberate, resourced exception to *"you can't dodge a bullet"* ([[Rules Engine]]) — it costs your Ready, can be lost, and ends you **Pinned**.
+> - **Distance-gated Snap Shot — added** (trigger #2): only a Move **> half MOV"** ending in an enemy's LOS draws a reaction; a short shuffle (≤ half MOV) is safe.
+> - **Orders** already limited to Specialist 1 / Leader 2 — no change needed.
+>
+> **Playtest dials:** the escape move was **cut from full MOV to half** in the 2026-08-07 audit ([[Full Rules System v1]] §3) — a full move out of LOS made Dodge strictly better than cover. Is half still too strong? should the shooter's aim traits (Accurate / range) modify their side of the Dodge roll? keep Dodge-ends-Pinned? Reactions still don't cost the reactor's own activation — watch for overwatch stacking when many units are Ready.
+
+
+## Core game format
+
+*Source: `Core Game Format.md`*
+
+core Format — Working Rules / Decisions
+
+- Board Size: Standard 3'×3' board. Variations may be defined by the scenario.
+
+- Deployment: Defined by the scenario. If not specified, players deploy within 6” of opposite board edges.
+
+- Player Count: 1v1 PvP is the standard format. Additional modes (co-op, solo, PvPvE) will be supported separately.
+
+- Game Length: 6 rounds, approximately 1.5 hours per game.
+
+  The game ends after 6 rounds or immediately when a scenario objective is completed.
+
+- Victory Structure: **Objective-driven** — the battle is won on scenario **objectives, never on kills** ([[Scenarios]]). The crew ahead on objectives at the end of the game wins; you fight because the enemy is standing on your objective, not to run up a body count.  
+
+  Players earn Resources from **scenario-defined sources** — these vary from scenario to scenario and may include completing **objectives**, scoring **kills**, control/extraction, or landing a **Glorious Deed**: a high-risk signature feat in the spirit of Trench Crusade ([[Campaign#Glorious Deeds]]).  
+
+  Resources are **campaign earnings, not the win metric** — banked regardless of who won the battle, so both crews profit from every fight and killing still *pays* toward your settlement even when it doesn't *win*.  
+
+  All Resources gained are retained for campaign progression, ensuring both players benefit from every battle.
+
+- Win Philosophy: **objective-primary on the table, resource-rich off it**; the *path* to objectives and the sources of resources are scenario-dependent.  
+
+  No single route is mandated — one scenario may reward holding objectives and extracting, another may reward aggression (kills) or glorious deeds. The **battle is always won on objectives**; kills and deeds change how much you *earn*, not who *wins*. Conflict is inevitable.  
+
+  Tactical withdrawal and resource extraction remain valid, often optimal strategies.
+
+> [!check] "Glorious Deed" is the final term, and the list is drafted — 2026-08-05
+> The name stuck, and the ten deeds plus the once-per-fighter-per-battle limit are written up in [[Campaign#Glorious Deeds]] ([[Full Rules System v1]] §26.2). What a Deed *pays* is a **Level trigger** ([[Progression]]) rather than a separate resource line, and each **territory card** adds **1–5** location-themed Deeds of its own ([[Territory]]).
+
+- Miniatures: Compatible with any modern 28mm-scale miniatures.  
+
+  Standard infantry bases: 28mm. Larger units may use 40–50mm bases.
+
+- Terrain: The game requires dense, highly interactive terrain.  
+
+  Boards should include multiple structures, line-of-sight blockers, and interactive elements.  
+
+  Terrain is expected to be actively used, modified, and contested during play
+
+
+
+---
+
+# Combat
+
+*Two rolls: to hit, then to injure. Every hit does exactly one thing.*
+
+
+## Shooting
+
+*Source: `Shooting.md`*
+
+### Ranged attack sequence
+1. Declare a target in **range**, **true LOS**, and your **forward 180°** facing arc ([[Rules Engine#House Conventions]]).
+2. Measure range vs weapon range.
+3. **Attack roll:** `1d10 + DEX + modifiers` vs **7+**. Make **one roll per Attack Die** ([[Weapons#1.5 · Attack Dice — the multi-shot axis]]) — default 1, all at full stats, all on the same Action.
+4. On a hit → **Injury roll** (see [[Damage]]).
+5. A clean **miss** does nothing. A hit's outcome is the **Injury roll** (step 4): a wound, or **Pinned (+1 Stress)** if it fails to wound. **Only a hit that connects generates Stress** — see [[Damage]] / [[Morale]].
+6. **Multi-die weapons:** roll every die's Injury together, then apply **one** result of your choice; every *other* hit that failed to wound still Pins. **A burst inflicts at most 1 WND** however many dice pass — see [[Weapons#1.5 · Attack Dice — the multi-shot axis]].
+
+You may set facing for free as part of a Move (including a facing-only Move — [[Movement]]). Declaring Shoot does **not** itself rotate you — turn first if the target is outside your arc.
+
+> [!info] The target can react. A **Ready** enemy you Shoot may **Dodge** — an opposed **AGI vs DEX** roll that, if it wins, negates the shot and lets it dive out of LOS (then Pinned). A Ready enemy in its own forward arc may **Snap Shot** back *after* your shot resolves. See [[Initiative & Activation#Reaction options]].
+
+### Modifiers
+- Cover: **Light −1 · Heavy −2 · Hidden −3** (see [[Terrain]]).
+- Out of range or outside forward arc / no LOS: cannot target.
+- **Weapons rarely add to hit** — only via a conditional trait such as **Accurate** (see [[Weapons]]). Stats decide the hit; weapons decide the injury.
+
+### Firing while Engaged
+- Most ranged weapons **cannot** fire while in base contact with an enemy.
+- A **Sidearm** weapon may fire while Engaged, using DEX and targeting only the Engaged enemy (see [[Weapons]]) — facing still required toward that enemy.
+- Some skills may give a unit the ability to fire while engaged.
+
+
+## Melee
+
+*Source: `Melee.md`*
+
+### Engagement
+A unit is **Engaged** while within **1"** of an enemy. You reach it two ways:
+- **Move in** (Move slot, no LOS needed) → enter the enemy's **1" zone**. You may move *within* the zone but can't enter and leave it in the same move. Then **Fight** with your Action — a straight opposed attack, no bonus.
+- **Charge** (both slots, LOS required) → extra reach *and* a free attack at **+1** (below).
+
+### Melee attack (opposed)
+Melee is an **opposed** test — a brawler really is harder to hit than a shaking medic, because you *can* dodge a blow (you can't dodge a bullet):
+
+`Attacker 1d10 + STR` vs `Defender 1d10 + STR`
+
+- **Highest total wins. Ties go to the defender.**
+- Some weapons/skills swap the stat — a knife or agile skill may use **AGI**; a heavy weapon is **STR only** (see [[Weapons]]).
+- The **winner lands the hit** → **Injury roll** (see [[Damage]]).
+- **Facing does not apply in melee.** Once Engaged, either fighter attacks regardless of which way the models face.
+
+### Charging
+- **Charge** = both slots. Requires **line of sight** to the target (the path need not be straight). Move up to **2× MOV"** into the enemy's 1" zone, then a **free melee attack at +1** — the surprise bonus.
+- A unit that was just charged, or that started the turn already Engaged, gets **no** charge bonus.
+- **Charge vs Move-in:** charging needs LOS (terrain blocking sight blocks the charge) and grants +1; moving in works anywhere but gives no bonus. That's the trade.
+
+### Losing a melee
+The loser takes the **Injury roll** ([[Damage]]): a **wound** costs a WND (→ **Out of Action** at 0), while a **non-wounding** blow gives **+1 Stress** (**Shaken**, −1 next turn — [[Morale]]). One or the other, never both.
+
+
+## Damage and casualties
+
+*Source: `Damage.md`*
+
+### Two-roll combat
+After an attack lands ([[Shooting]] / [[Melee]]), the **attacker** makes one **Injury roll**:
+
+`1d10 + Weapon Damage − Armor` vs **7+**
+
+- **Pass →** the target loses **1 WND**. Reduced to **0 WND** → **Down** if the wound was **ranged / hazard**, or straight to **Out of Action** if it was **melee** (see below).
+- **Fail →** no wound, but the hit still tells:
+    - **Ranged** → the target is **Pinned** (+1 Stress) — head down, can't advance.
+    - **Melee** → the target gains **+1 Stress** (**Shaken**, −1 next round) but stays engaged. No Pinned — you can't pin someone you're locked toe-to-toe with.
+
+Every hit does *something* — it wounds or it pins. No wasted hits.
+
+**Multi-die weapons ([[Weapons#1.5 · Attack Dice — the multi-shot axis]]).** A weapon with Attack Dice 2 or 3 rolls one attack and one Injury die *per die*, all at once; the attacker applies **one** Injury result. **A burst inflicts at most 1 WND however many of its dice pass** — wounds never stack; **every other die that hit converts to +1 Stress**, whether it passed the Injury roll or failed it. Nothing is banked against a multi-wound target. The wounds-or-pins contract above is therefore **per die, not per Action**.
+
+### Weapon Damage & Armor
+- **Damage** runs **+0 to +5**, and the weapon's **class sets the band** it may pick inside — a Magnum and a shiv are both One-Handed, at different Damage. See [[Weapons#1 · Weapon classes]]. Only Heavy Ranged reaches +5.
+- **Armor** reduces the Injury roll only, never the hit: **0** none · **−1** light · **−2** heavy. **Armour carries no drawbacks** — a drawback you opt into for a discount is a deal, one welded onto something you want is a tax ([[Weapons#3 · Armor]]).
+- *Example:* pistol (**+2**) into heavy armor (**−2**) = net 0 → `1d10 vs 7+` = 40% to wound.
+
+### Pinned
+- Pinned is **suppression, not injury**, and it's the **ranged** non-wound result — the shot landed but didn't wound. (A non-wounding **melee** blow instead piles Stress → **Shaken**; you can't pin someone you're toe-to-toe with.)
+- A Pinned unit **cannot Move, Charge, Sprint or Disengage**; it must spend its **Move** to shake Pinned off before it can reposition. It may still **Shoot or Interact** from where it stands.
+- Pinned **persists until cleared**, and applying it is **+1 Stress** — so a unit that keeps getting Pinned climbs the [[Morale|Stress]] ladder toward **Shaken** and a **Break test**. That accumulation, not the Pin itself, is what wears down a dug-in shooter.
+- Full status entry in [[Conditions]].
+
+### Down & bleeding out
+- **Melee is decisive.** A unit reduced to **0 WND by a melee attack** goes **straight to Out of Action** — removed (→ Fate). No finisher, no bleed-out clock: put someone down in a brawl and they're done.
+- **Ranged / hazard leaves them Down.** A unit reduced to 0 by **ranged fire or a hazard** goes **Down** — prone and out of the fight, but still alive on the table. It counts as **Heavy cover vs ranged unless in the open**; a **melee / engaged attack auto-hits** to finish it (Injury roll still made, a **pass = Out**), but **ranged attacks resolve normally** — so a downed fighter has a chance to be reached and Stabilized instead of shot for free.
+- A Down unit must be **Stabilized** by the end of its **next** activation or it **bleeds out** and is removed (→ [[Campaign#Post-battle — the Fate table|Fate roll]]).
+- **Stabilize** = 1 Action + an **INT test (7+)**, by the Down unit itself or an adjacent friendly. **−2 without a Med-Kit**; a **Med-Kit** cancels the penalty; a **Medic** ([[Skill Paths]]) auto-stabilizes.
+- **A Down unit keeps its Stress** ([[Morale#Stress and Down — persistence]], *drafted 2026-08-29*). It takes no Break tests while Down — it is out of the fight — but it sheds nothing either, and it comes back up carrying every point. A fighter Stabilized at **2+ Stress** therefore faces a Break test in the next End Phase, and at **4+** a failure removes it. **You can patch the body faster than the nerve.**
+
+### Wounds
+**Every unit has WND 1** — one injury pass drops it (**Down** from ranged, **Out** from melee). The *only* way to have more is a specific **skill** that grants +1 WND ([[Skill Paths]]); a multi-wound unit takes each pass as **−1 WND**, going Down at 0.
+
+
+## Morale — Stress and Nerve
+
+*Source: `Morale.md`*
+
+### Stress
+Stress represents fear, panic, suppression and shock. It is tracked as points on a unit and tested against **NRV**. Stress does **two separate jobs** — a small always-on penalty, and a break test once it piles up.
+
+**A unit gains +1 Stress when it:**
+- Takes a **non-wounding hit** — the **Pinned** (ranged) or **Shaken** (melee) result of a failed Injury roll. *(Every hit does exactly one thing — it **wounds** or it **stresses**, never both; a clean **miss** does nothing.)*
+- Gains a negative condition (Fire, Poison, Blind, Shocked)
+- Has a friendly go **Down** or **Out of Action** within line of sight
+- Suffers a hazard, skill, or scenario effect that says so
+
+**Environmental Stress** = Stress from the board itself — hazards, weather, fire, smoke, cold — as opposed to *combat* Stress (being shot or fought). Some gear ignores the first Environmental Stress each game (e.g. Thick clothing, [[Weapons]]).
+
+> [!info] More triggers are coming
+> The sim shows Stress from combat alone barely fires in a 1v1 ([[Dice Mechanic — Sim Findings]]). That's expected — most Stress will come from **skills, hazards, terrain and scenario events**, which stack far faster at crew scale. Tune trigger *frequency* before touching the numbers below.
+
+### Shaken — the always-on penalty
+Any unit with **1+ Stress is Shaken: −1 to all rolls.** Flat, passive, no test — it does **not** grow with more Stress. This is the reliable "under fire, rattled, shooting worse" effect, and it is the *only* thing 1 Stress does. You risk actually breaking only once Stress reaches 2. **Shaken carries into your next turn** — a point of Stress never clears on the same round you gain it (see Recovery), so hitting a unit in melee is never wasted: it fights its next activation at −1.
+
+### Break test — End Phase, 2+ Stress
+Every End Phase, each unit with **2+ Stress** tests:
+
+`1d10 + NRV − (Stress − 1)` vs **7+**
+
+- The first Stress point is a free buffer — it costs you the −1, not the test.
+- The **Shaken −1 does not apply to this roll.** Stress is already in the formula; don't double-count it.
+- **Natural 10 →** auto-pass. **Natural 1 →** auto-fail.
+
+- **Pass →** the unit steadies: remove **all** Stress.
+- **Fail →** the unit **breaks** into the state set by its Stress level, then removes **1** Stress:
+
+| Stress | Break state |
+|:---:|---|
+| 2 | **Bolt** |
+| 3 | **Broken** |
+| 4+ | **BugOut** |
+
+^tbl-break-test-end-phase-2-stress
+
+**Chance of breaking** on a failed roll (`1 − pass%`):
+
+| NRV | 2 → Bolt | 3 → Broken | 4 → BugOut |
+|:---:|:---:|:---:|:---:|
+| +0 | 70% | 80% | 90% |
+| +2 | 50% | 60% | 70% |
+| +4 | 30% | 40% | 50% |
+
+^tbl-break-test-end-phase-2-stress-2
+
+### Nerve states
+Full status entries in [[Conditions]]. A state governs the unit's **next activation**; it clears when the unit passes its next Break test or is steadied by Rally/Interact.
+- **Bolt** — flees toward the nearest board edge, hugging cover.
+- **Broken** — freezes; cannot act.
+- **BugOut** — routs: moves full speed off the nearest board edge and is **removed from play** (a casualty).
+
+> [!question] BugOut replaces the old "Insanity"
+> The worst state is now a clean **rout off the table**, not attack-nearest-model. Fits the name and the gritty-realism pillar better than berserk-attacks-allies. Flag to revisit if you want the chaos option back.
+
+> [!success] Validated at crew scale — **do not touch these numbers** (2026-07-13)
+> The friendly-Down trigger looked, on paper, like it would wipe crews: three casualties in LOS is 3 Stress, and a Break test at NRV 0 / Stress 3 fails **80%** of the time. [[Crew Sim — Findings|The crew sim]] says leave it alone. On a legal board ([[Terrain#Setup procedure|9–12 features]]) the cascade is mild — **0.6 BugOuts per battle**, versus 5.3 on an illegally sparse one. Two proposed softeners were tested and **both broke the game**:
+> - *"Ignore Stress from friendly Downs while bunched"* → took a 14-model horde to **93–96% win rate at every terrain density.**
+> - *"Cap Stress from friendly Downs at 1 per round"* → flipped a sparse board from 19% to **60%** for the horde.
+>
+> **The cascade is not a bug — it is the only thing keeping a swarm honest.** A mob of civilians crossing open ground under rifle fire *should* shatter. Dense terrain is the mitigation, and it already works.
+
+### Bottling — voluntary concession
+Breaking happens *to* a crew (the Nerve states above); **bottling** is a crew *choosing* to quit the field. Any player may bottle — but **when** decides **how**:
+
+- **Rounds 1–3 — an early bottle is never free.** You may not simply lift your crew off the table. Either:
+	- **Fighting withdrawal** — walk every model off your **own** board edge by normal movement. They stay in play, and exposed, until they physically leave. A crew that clears the board this way has quit (it can no longer contest or score), but its survivors live to fight another day — see [[Campaign]]. *Or*
+	- **Surrender** — offer it; if your **opponent accepts**, the game **ends immediately** as *their* victory.
+- **Round 4 onward — a clean bottle.** Declare it during your activation; **all your models are removed from play at once and the game ends.** This is a **concession: the opponent wins**, whatever the objective score at that moment — an empty board holds nothing.
+
+Scoring stops the instant you bottle or clear the board — see [[Scenarios#Concession, bottling & the wipe]].
+
+> [!question] Alpha rule — campaign may soften it
+> Under [[Campaign]] rules a bottle may become a *withdrawal* (save the roster for a resource/territory cost) rather than a flat loss. Test the flat version first.
+
+### Stress and Down — persistence **[DRAFTED 2026-08-29 · pending playtest]**
+> Measured in [[Stress Persistence — Sim Findings]]. Being Downed was never ruled either way; this closes that gap.
+
+**Stress persists through Down.** A unit reduced to **0 WND** keeps every point of Stress it had. Going Down is not a rest.
+
+- **A Down unit does not take Break tests.** It is out of the fight — it doesn't activate, so it can't Bolt, freeze or rout while lying there. Its Stress simply sits frozen with it. (It also can't shed Stress, since shedding requires a clean round or a passed test.)
+- **Stabilize brings the fighter back with its Stress intact** ([[Damage#Down & bleeding out]]). From that moment it tests normally again — so a fighter recovered at **2+ Stress** faces a **Break test in the next End Phase**, and a failure at **4+** removes it outright.
+- **No new test and no new trigger.** The End Phase Break test above already does all of this. The rule is the *absence* of a clearing step, which is why it costs nothing to write.
+
+> [!warning] What this actually feels like at the table
+> Someone spends an **Action and an INT test** to drag a friend up, and the friend may immediately bolt — or, at 4+ Stress, rout straight off the board. That is the intended beat: **you can patch the body faster than the nerve.** It also makes Stabilize a real decision instead of an automatic yes.
+>
+> Measured cost, NRV +2: **8.8%** of revived fighters fail their first Break test and **1.9%** BugOut immediately — roughly **one revival in fifty-three**. Story frequency, not a pattern to play around.
+
+> [!question] Watch the stacking, not the rule
+> **Both rules are now in** (ruled 2026-08-29): Attack Dice converts **surplus hits into Stress** *and* Stress persists through Down. Together a downed model's Stress roughly **2.2×** (0.66 → 1.44 mean) and wasted revivals go from ~1-in-11 to nearly **1-in-4**. The earlier plan was to adopt them one at a time; they landed together, so **the table tests the stacked case**. Note also that this compounds the **death-spiral risk** flagged in [[Dice Mechanic — Sim Findings]] §7.
+>
+> **Valve, held in reserve and deliberately not pre-applied:** *"a Stabilised fighter returns Shaken, however much Stress it had."* One clause, kills the bad beat, also kills the beat. Only the table can say which way it plays.
+
+### Recovery
+- **Passing a Break test** (2+ Stress) clears **all** Stress; a **natural 10** always clears all.
+- **Being Downed clears nothing** — see *Stress and Down* above. A Down unit neither tests nor sheds; its Stress waits for it.
+- **A point of Stress never clears on the round you gain it — it carries to your next turn.** A unit at **exactly 1 Stress** sheds it in the End Phase **only on a round where it took no new Stress.** So a fighter tagged in melee **stays Shaken (−1) right through its next turn** and only shrugs it off after a *clean* round — do **not** reduce it to 0 at the end of the turn it was hit. (At 2+ Stress you can't passively drain a real panic at all; you must pass a Break test.)
+- **Everything else is a skill.** Removing Stress before/without a test, shedding it faster, or ending a **Bolt/Broken** state early comes from the **Bravery path** ([[Skill Paths]]) — *Steady, Count Breaths, Rally, Talk Them Down, Iron Will*, and the rest. Deliberately: composure is a build choice, not free.
+- **BugOut can't be rallied** — the unit has already routed. It can only be stopped *at the moment of failure* by *Talk Them Down* or *Stand Your Ground*.
+
+
+## Conditions
+
+*Source: `Conditions.md`*
+
+A condition is a **status token on a unit**. Combat conditions come from [[Damage]] and skills ([[Skill Paths]]); Nerve states come from [[Morale]]; persistent conditions come from weapons, terrain hazards and skills.
+
+> [!info] Weapons apply conditions — the **Payload** rule
+> A [[Weapons|weapon characteristic]] that applies a condition does so **in place of the normal non-wounding result** (Pinned for ranged, Shaken for melee). A hit still does exactly one thing: **it wounds, or it delivers its payload** — never both. The payload's +1 Stress is the same +1 Pinned would have given; don't count it twice.
+>
+> This is what makes conditions work in a **WND-1** game. Wounding is binary and terminal, so there is no headroom to "add damage" — a weapon's extra bite has to land on the *hit that didn't kill you*.
+
+### General rules
+- **Tokens.** Every condition is one token beside the model. If a unit has no token, it has no condition — nothing is tracked in your head.
+- **No stacking.** The same condition never applies twice. Reapplying it refreshes its duration; it does not deepen the effect.
+- **Stress hook.** Gaining a negative condition gives **+1 Stress** (see [[Morale]]) — the *first* time it's applied, not on a refresh. **Exception: Pinned and Shaken** — their +1 *is* the non-wounding-hit result, so don't count it twice.
+- **Stress does not clear on Down.** A unit reduced to 0 WND keeps every point and resumes testing once Stabilized ([[Morale#Stress and Down — persistence]]).
+- **Modifier cap.** However many conditions a unit carries, the total modifier on any single roll never exceeds **−3** (or +3). Conditions past the cap still matter — they still restrict actions and still have to be cleared.
+- **Timing.** "Until the End Phase" clears in step 2 of the End Phase ([[Rules Engine#Turn / Round Structure]]). "Until the end of its next activation" clears when that activation ends, even if the unit did nothing.
+
+### Core combat conditions
+- **Pinned** — the **ranged** non-wound result (suppression, not injury). **Cannot Move, Charge, Sprint or Disengage**; must spend its **Move** to clear before it can reposition, but may still **Shoot or Interact**. Persists until cleared; applying it gives **+1 Stress**. *(A non-wounding **melee** blow gives Stress → **Shaken** instead — you can't pin someone you're engaged with.)*
+- **Down** — prone and out of the fight; no normal actions. Only **ranged / hazard** hits leave a unit Down — a **melee** kill goes straight to **Out of Action**. **Heavy cover vs ranged unless in the open**; a **melee / engaged** attack **auto-hits** to finish it (Injury roll still made, a pass = Out), but **ranged attacks resolve normally**. Stabilize by the end of its next activation or it bleeds out — full rules in [[Damage]]. **Keeps its Stress** and takes **no Break tests while Down**, resuming them on recovery ([[Morale#Stress and Down — persistence]]).
+- **Prone** — knocked flat by a fall, slip, or being forced off a ledge (*not* an injury). **Heavy cover vs ranged unless in the open**; cannot Shoot, Charge or Sprint. **Standing up costs the whole activation** (Move + Action). Not bleeding and not auto-hit — that line is what separates Prone from Down.
+- **Hidden** — **−3 to be hit.** Earned via the **Hide** action in Concealing terrain, or from gear/skill. Lost on moving (except where a skill allows it), shooting, **interacting** — any Action that resolves an Interact test: claim, loot, hack, arm, defuse ([[Terrain Interaction]], [[Hacking]]) — or being revealed.
+
+### Stealth & Ambush
+*Drafted 2026-08-05 ([[Full Rules System v1]] §25), sim-tuned across 700–2000 games per cell in paired mirrors — cited to `PACKET-TEST-RESULTS.md` T1–T3, **a file that is not in the Settlements repo**; the numbers below are quoted from the master note, not re-verifiable from source. This is the only place these rulings live; **Hidden** above is the condition they hang off.*
+
+- **An Ambush attacks off AGI**, never STR or DEX, **and this must be printed explicitly on the card.** A DEX carrier running Ambush measured **−30 to −33 win-points** — it was attacking on its worst stat. An AGI carrier measured **+1.0 to +12.7**.
+- **The failed-Ambush free Attack Back is load-bearing — keep it unchanged.** It removes **4.1** of the mechanic's 12.1 win-points and fires on **47.5%** of attempts. Confirmed by measurement, not just designed; do not soften it later.
+
+> [!check] Ruled — a Hidden fighter may **hold** an objective, but **claiming or scoring** one breaks Hidden
+> **Holding** is just standing within 3" with no enemy within 3" ([[Scenarios#Shared rules]]) — it costs nothing and never touches Hidden. But **claiming** a terminal, **looting** a cache, **arming** or **defusing** a charge is always an **Interact**, and Interacting breaks Hidden (above).
+>
+> **Take a Hold** is where this reads cleanest: a terminal must be *claimed* (INT 7+, breaks Hidden) before it can ever be *held* for score, so the hold state a Hidden fighter benefits from only ever applies **after** the reveal already happened. A Hidden fighter can sit on an unclaimed objective all day; the instant they do the thing that scores it, they are not Hidden.
+>
+> The sim's **+12.7 / −5.2** swing was measured against a simplified "can this fighter contribute to score while Hidden" toggle. With Interact-breaks-Hidden as a hard rule the practical answer lands near the sim's **No** case for anything needing a claim, and near **Yes** for a pure territorial-control read. Revisit only if a future scenario introduces a hold-only objective with no claim step.
+
+> [!danger] If Hidden ever becomes "not a legal target", a skill-stacking cap ships in the same change
+> Under the current **−3** reading, a fighter stacking three concealment skills still gets shot ~**12 times** a game and dies normally. Under an untargetable reading the same stack was shot **zero times per game**. The −3 is what makes concealment stacking safe.
+
+> [!question] Ambush has no card yet
+> §25 rules how an Ambush *resolves*, but no Ambush action, skill or piece of gear is defined anywhere in [[Skill Paths]] or [[Weapons]] — only the **Ambush Predator** Glorious Deed ([[Campaign#Glorious Deeds]]) references landing one. The trigger and cost still need writing.
+
+### Control conditions (from skills, weapons and terrain)
+- **Grappled** — grappler and target stay within 1". The target cannot Move, Charge, Sprint or Disengage; it may only attack its grappler, or spend its Action on an **opposed STR test** to escape. The grappler may release it freely, or move at **half MOV** while dragging it. Grappling ends if either model goes Down.
+- **Suppressed** — counts as **Pinned**, and the unit **cannot React** until it has cleared the Pinned effect.
+- **Off-Balance** — cannot Sprint or Charge. **Persists until cleared:** spend your **Move** slot to shed it (you keep your Action), exactly as you would shake off **Pinned**.
+- **Hobbled** — **−2" MOV**. **Persists until cleared:** spend your **Move** slot to shed it (you keep your Action), exactly as you would shake off **Pinned**.
+- **Blind** — **−2 on all rolls that need sight** (attacks, Spot, Reactions, targeted Interacts). Ends at the end of the unit's **next activation**.
+- **Shocked** — **−2 to all rolls** and **cannot React**. Ends at the end of the unit's **next activation**.
+- **Provoked** — the unit's first attack against anyone *except* the source suffers **−1**. Ends after that attack, or at the end of its next activation.
+- **Snared** — caught by a clamp, wire or pit (a [[Deployables]] trap). **Cannot Move, Charge, Sprint or Disengage.** On its activation it may spend its **Action** on a **STR test (7+)** to break free (nat 1 fails, it stays). A device-sourced negative condition, so its first application gives **+1 Stress**. Persists until it breaks free or the device is cleared. *(Kin to **Grappled**, but no grappler holds it — the terrain does.)*
+
+### Persistent conditions (resolve in the End Phase)
+- **Fire** — each End Phase, the unit suffers an **Injury roll at +1 Damage, ignoring Armor**. It (or an adjacent friendly) may spend an **Action** to extinguish it — automatic, no test. Persists until extinguished.
+- **Bleed** — each End Phase, the unit loses **1 WND** unless treated. Treating = an Action + **INT test (7+)** by the unit or an adjacent friendly, **−2 without a Med-Kit**; a **Medic** ([[Skill Paths]]) treats automatically. **At WND 1 — i.e. almost everyone — Bleed is a two-round death clock:** it drops you Down at the next End Phase, and Down + Bleed bleeds out. It is the harshest condition in the game by a wide margin, which is why **Bleeding** is the priciest weapon payload and why a **Med-Kit** earns its points.
+- **Poison** — **−1 to all rolls.** Each End Phase the unit makes a **STR test (7+)**: pass ends it. It can also be treated exactly like Bleed.
+
+> [!success] Why these four durations changed — measured 2026-08-01
+> **Off-Balance, Hobbled, Blind and Shocked all measured at or near zero value** in simulation (1 · −2 · 7 · 13 Credits against Bleeding's 46), while all four were sold at **30** on the [[Weapons]] payload table. Two separate causes, both timing:
+> - **Blind and Shocked cleared in the End Phase**, so a payload delivered mid-round only bit a target that had not yet activated. Roughly half the time they did nothing at all — an invisible coin-flip the player could not read off the card. They now run on the **activation clock**, so the target feels the debuff exactly once, whenever it lands. They also moved out of the persistent list, because they no longer resolve in the End Phase.
+> - **Off-Balance and Hobbled expired after one activation**, which on a 36" board is worth almost nothing. They now **persist until cleared**, on the same pattern as **Pinned** — which is the right benchmark, because a payload *replaces* Pinned. A payload worth less than the Pinned it displaces is a payload nobody should ever buy.
+>
+> Re-measure before the payload prices are re-locked: `test-bench/balance/conditions2d.py`.
+
+### Nerve states (from [[Morale]])
+- **Shaken** — any unit with **1+ Stress**: −1 to all rolls. Always-on, doesn't stack, no test. Clears when all Stress clears.
+- **Bolt** — flees toward the nearest board edge, hugging cover. *(Break test fail at Stress 2.)*
+- **Broken** — frozen; cannot act. *(fail at Stress 3.)*
+- **BugOut** — routs off the nearest board edge and is removed from play. *(fail at Stress 4+.)*
+- **Fight** — *skill-induced only* (e.g. Fanatic, [[Skill Paths]]): instead of cracking, the unit must move by the shortest route toward the nearest visible enemy on its next activation and attack it if able. It cannot Hide, detour for cover, or move away from that enemy.
+
+### Morale modifiers (from skills)
+- **Braced** — **+1 on Break tests**, and reduce the first Stress gained from losing a melee by 1. Ends at the start of the unit's next activation.
+- **Cowed** — **−1 on the unit's next Break test**, then ends.
+- **Frightened** — **cannot React** and **−1 on Break tests**. Ends at the end of the unit's next activation.
+
+### Marker & device states (not conditions on units)
+These sit on terrain, devices or as table markers — they never give Stress and don't count against the modifier cap:
+- **Spotted** — the observing unit has identified the target for named skills, until the stated expiry. Spotted does not remove Hidden by itself.
+- **Jammed** — remote activation and wireless control of the device fail; local and manual operation still work. Ends at the start of the jammer's next activation.
+- **Overloaded** — a terminal used to **interrupt** a hack ([[Hacking]]) powers down: it cannot be accessed or used to interrupt again until the **start of next turn**.
+- **Compromised** — the **next hack test** against this system gains **+2**, then Compromised ends. Applied by a skill (e.g. **Counter-Hack**).
+- **Linked** — devices explicitly share a terminal or local network. Range alone never makes devices Linked.
+
+> [!info] Locked for playtest
+> The persistent-condition values above (Fire +1 ignoring Armor, Bleed's 1-WND clock, Poison's STR recovery, the −2 Blind/Shocked penalties) are the first locked pass — validate them at the table before graduating this note to the ledger.
+
+
+
+---
+
+# Gear
+
+*Weapons are built from an envelope; every price should carry a confidence tier.*
 
 
 ## Weapon classes — the envelope
@@ -358,107 +920,6 @@ Every one of these is a legal build. Copy or rename freely.
 ---
 
 
-## Crew, ranks and equipment
-
-*Source: `List Building.md`*
-
-### Budget
-A crew is built to a **Crew Rating** cap in **Credits**, set by the scenario.
-
-| Format | Cap |
-|---|:--:|
-| **Match Play** — a one-off game, no campaign attached | **850** |
-| Raid variant *(75%)* | **640** |
-| Pitched variant *(150%)* | **1275** |
-| **Campaign Start** — a fresh crew entering the settlement layer | **425** |
-
-^tbl-budget
-
-*The 100-point budget, its 5/8/16/24 ladder, **and the 1000/500 pair that replaced them** are all retired. The scale rebased 1000 → 1700 when bodies moved onto the measured stat ladder, then halved to **850** on 2026-08-20 so a standard crew is still six models rather than four. One number does both jobs: you buy with Credits, and the Credits you field are your Crew Rating.*
-
-### The four ranks — two starting tiers
-The rank price *is* the stat price — see [[Unit Design#Ranks (build budget)]].
-
-**Match Play** gets the richer starting kit, because those fighters are built for one game and never get another chance to develop.
-
-| Rank | Stat pts | Tier caps | Skills | Orders | **Credits** |
-|---|:--:|---|:--:|:--:|:--:|
-| **Recruit** | 3 | no tiers | 0 | 0 | **70** |
-| **Fighter** | 5 | 2× T1 | ~2 | 0 | **100** |
-| **Specialist** | 7 | 1× T2 · 2× T1 | ~3 | 1 | **145** |
-| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | ~4 | 2 | **185** |
-
-^tbl-the-four-ranks
-
-**Campaign Start** is a green crew *meant* to grow through the Level track ([[Progression]]), so it starts lean — **exactly one skill each, at the rank's own tier.**
-
-| Rank | Stat pts | Tier caps | Starting skill | Orders | **Credits** |
-|---|:--:|---|:--:|:--:|:--:|
-| **Recruit** | 3 | no tiers | — | 0 | **70** |
-| **Fighter** | 5 | 2× T1 | 1× T1 | 0 | **100** |
-| **Specialist** | 7 | 1× T2 · 2× T1 | 1× T2 | 1 | **145** |
-| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | 1× T3 | 2 | **185** |
-
-^tbl-the-four-ranks-campaign
-
-More points than a unit can spike into one stat, capped by tier so it *spreads* — full rules in [[Unit Design#Ranks (build budget)]]. Skills come off the stat line (one per tier a stat reaches).
-
-> [!check] The old Campaign-Start squeeze was fixed by the rebuild, not by a cap change
-> A 2026-08-05 sweep (`campaign500.py`, 30,000 games per configuration) found the 500-cap crew badly squeezed: **2–4 models**, the mandatory Leader eating **34%** of the budget, and **a shooting list that could not be built at all** (Gunline won 18%, because Leader + rifle at the old prices was 270 Credits on its own). Six rank ladders were swept and none fixed it; only raising the cap did.
->
-> **The weapon reprice dissolved the problem from the other side.** On the 850 scale a rifle costs **35**, not 130 — so a Leader with an Assault Rifle is **220 of 425**, not 270 of 500, and a three-to-four model Campaign Start crew can carry real guns. The end-to-end check is `catalogue-validation-n1500`: at equal Crew Rating the win-rate spread across four archetypes tightened from **31–70%** to **41–61%**.
->
-> **Still open:** the one remaining structural skew is that **Assault — the melee archetype — loses every matchup** (61.2% against it at worst). Whether melee is overpriced or `hold_claim` simply undervalues closing cannot be separated at 1-of-5 scenario coverage. That is a table question now.
-
-### The pyramid — two versions
-> **Match Play:** exactly one Leader. Every Specialist requires two fighters of lower rank. Every Recruit requires one Fighter or better. Minimum four fighters.
-
-> **Campaign Start:** exactly one Leader, **minimum three models**. **The Specialist ratio still holds** — every Specialist requires two fighters of lower rank; **only the Recruit-per-Fighter rule is dropped**. Any mix inside the **425** cap. Deliberately looser: a green crew can be all bodies, but it cannot be an all-Specialist elite. **Untested** — dropping the Recruit ratio makes all-Recruit lists legal for the first time. *(Corrected 2026-08-29 to [[Full Rules System v1]] §16, which is canonical; this note previously dropped the Specialist ratio as well, and quoted the retired 500 cap.)*
-
-**There is no unit cap on the crew you field.** The pyramid and the budget do it: at **850** Credits the legal maximum is **8 fighters** (Leader 185 + 3 Fighters 300 + 4 Recruits 280 = 765, leaving roughly **85** Credits of gear between them — a mob with bats). *(Recomputed 2026-08-29 from the 70/100/145/185 ladder; the old figure was 11 at the retired 1000 scale.)*
-
-> [!warning] Per-battle only — the roster IS capped
-> "No unit cap" scopes to the **crew you field in one battle**. The **roster you own** is capped by housing: a base **12** body slots from the HQ, **+6** per Bunkhouse ([[Structures#The catalogue — 23 structures|Structures]]). **Housing is the only population brake** — there is no per-head upkeep *(Water cut 2026-08-01)*. Ownership and fielding are orthogonal — **Credits buy what you own, Crew Rating gates what you field.** *(HQ housing was 10 here and 12 in the decisions log; [[Full Rules System v1]] §17.2 rules **12**.)*
-
-The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed at 1 ([[Damage]]), so a 40-point Leader in plate dies to one lucky pistol shot from a Recruit with a knife. The engine already forbids heroes.
-
-### Loadout
-- **Free to every fighter:** fists, one **Light Melee** weapon, and thick clothing. A civilian with a bat and a jacket.
-- **Carry limits:** one armour · two hands (a Two-Handed weapon takes both, otherwise two one-handers) · up to **two** pieces of equipment.
-- **Weapons are built, not bought** — class + characteristics, rank-gated. Full system in **[[Weapons]]**. A Recruit physically cannot hold a rifle.
-
-### Armour & equipment
-
-| Armour | Injury | Credits |
-|---|:--:|:--:|
-| None / Thick clothing | 0 | **0** |
-| Light | −1 | **10** |
-| Heavy | −2 | **20** |
-
-^tbl-armour-equipment
-
-> [!success] Armour is **measured**, not argued — and the doc/engine split is closed
-> The old 30/60-vs-60/100 fight is over. Both were priors: the engine's 30/60 cited `balance/armourprice.py`, **a file that has never existed in any commit on any branch**, and the doc's 60/100 came from a single 500-cap sweep. Armour has since been **measured directly with zero prior** (`armour-level-n2500`) and lands at **10 / 20** on the 850 scale.
->
-> **Corroborated by rebuild-to-pay**, which denominates armour in weapons surrendered rather than in a prior: `light + (rifle→pistol)` measures **+0.140 ± 0.200 — fair trade, parity**, with Heavy bracketed on both sides. First time an armour price here has been expressed in a measured quantity.
->
-> **Heavy is not twice Light**, and that question is closed: the "each point is −10% so −2 must cost 2×" argument runs on the wrong quantity, because linear in injury *probability* is not linear in *win-points*. Measured ratio **1.745 ± 0.416**.
-
-*Armour carries no drawbacks, and the ladder is linear — each point is a flat −10% on the Injury roll, so Heavy costs exactly twice Light. Improvised was cut once its penalty went; it was Light armour under a second name. Full note in [[Weapons#3 · Armor]].*
-
-| Equipment | Effect | Credits |
-|---|---|:--:|
-| Med-Kit | Cancels the −2 on Stabilize / treating Bleed & Poison ([[Damage]]) | **20** |
-| Breach Kit | **+1 to the hack test** ([[Hacking]]) | **20** |
-| Exploit Suite | **+2 to the hack test** ([[Hacking]]) | **40** |
-| Deployable | Turret · mine · trap · beacon — see [[Deployables]] | **5–25** *(9 of 24 priced)* |
-
-> [!warning] Four lines is the whole equipment catalogue
-> Every fighter carries **two** equipment slots and there are effectively two things worth putting in them. This is the thinnest catalogue in the game and the cheapest to widen — equipment is the one category that can add breadth **without touching the combat maths**, because most of it modifies a test that already exists. Flagged, not fixed.
-
-^tbl-armour-equipment-2
-
-
 ## Deployables · Family A — Turrets
 
 *Source: `Deployables.md`*
@@ -554,264 +1015,113 @@ Standing hardware · **repairable** · takes **both** equipment slots. A beacon 
 ^tbl-family-d-beacons
 
 
-## Structures
+## Deployables — the Build test
 
-*Source: `Structures.md`*
+*Source: `Deployables.md`*
 
-**★** free starting structure. **Everything else is buildable from founding onward** — no structure requires another.
-Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup procedure]])
+> [!info] Recall — deploying is **one core test**: `1d10 + INT + Build vs 7+`, the same engine as everything else.
 
-**Costs are in Materials**, printed 2026-08-05 from [[Full Rules System v1]] §21. **Repair is a flat 30 Materials per structure**, whatever it cost to build. Every number here is **first-draft** — see [[Economy#Open dials]].
+1. **Declare & place.** Spend your **Action**; place the deployable within **1"** (base contact for standing hardware). One Action = one deploy.
+2. **Roll** `1d10 + INT + Build rating` vs **7+**.
+3. **Pass** → the deployable is **active**: a mine/trap is **armed and concealed**; standing hardware is **online**.
+4. **Fail** → it is **placed but exposed and inert**: a mine/trap is **armed but visible** (the enemy can see it, avoid it, disarm or shoot it); standing hardware sits **Offline** until a fighter gets it running (a **repair**, below).
+5. **Nat 1** → **backfire.** A mine/trap **triggers on the deployer** (resolve its effect against them); standing hardware is **Destroyed** for this battle. **Nat 10** auto-succeeds as normal.
 
-### Sustain — keep people alive, keep the grid up
+Pre-placed **settlement** deployables (a [[Terrain Interaction#In-battle repair / settlement hook|Trap stockpile]], or a turret on a built [[Structures|Turret Mount]]) skip the roll — they **deploy armed and concealed / online** during setup.
 
-|Structure|Class|Size|Pwr|Materials|What it does|
-|---|---|---|---|:--:|---|
-|**Generator** ★|Plant|3×3|**+5**|**20**|**Power** output|
-|**Bunkhouse**|Building|6×9|−1|**60**|**+6 owned body slots** above HQ's base 12|
-|**Storehouse** *(repeatable)*|Building|6×6|−1|**50**|Bulk storage for **Credits and Materials** above the HQ's base cap. **The loot target in a raid**|
-|**Equipment Shed** *(→ Armory 6×6)*|Station|3×2|−1 → −2|**25 → 96**|Holds every **unequipped** weapon, armour and piece of kit the crew owns — **30 slots**, **+30 per Armory tier**. The Armory tier raises the cap and adds a lock|
+> [!warning] Auto-deploy is all that ownership buys
+> Owning the structure removes the **INT test**, nothing else. The deployable still **costs Credits against your Crew Rating** in [[List Building]], still occupies a slot inside the sacred **9–12** density band ([[Terrain#Settlement boards — the same procedure, one square-set pre-filled|settlement boards]]), and keeps **full fragility** — `WND−1`, repairable once, hijackable, destroyable. A bigger settlement never means a bigger army.
 
-^tbl-sustain-keep-people-alive-keep-the-grid-up
+### Build rating — some things are harder to build
+The **Build rating** is a modifier on the deploy test, printed on the item. It is **intrinsic to the device**, not a difficulty the table assigns — a sentry gun is genuinely fiddlier than a tripwire. It obeys the global **±3** cap alongside skills, conditions and **Shaken**.
 
-- Generator — `Feature · Impassable · Heavy · Powered, Hackable, Explosive`
-- Bunkhouse — `Building · Interior Open · Heavy · Openable, Lockable, Searchable, Climbable`
-- Storehouse — `Building · Interior Open · Heavy · Lockable, Searchable, Breachable`
-- Equipment Shed — `Scatter · Open · Light · Searchable` · Armory — `Building · Interior Open · Heavy · Lockable, Searchable, Breachable`
+| Build | Modifier | Feel |
+|---|:---:|---|
+| **Simple** | **+1** | wire, spikes — anyone can lay one |
+| **Standard** | **0** | a straight 7+ |
+| **Complex** | **−1** | most turrets & beacons — a Specialist's job |
+| **Intricate** | **−2** | the flagship hardware (sniper / burst turret) |
 
-### Convert — turn one resource into another, and make gear
+^tbl-build-rating-some-things-are-harder-to-build
 
-|Structure|Class|Size|Pwr|Materials|What it does|
-|---|---|---|---|:--:|---|
-|**Processor** ★|Plant|3×5|−1|**45**|**Materials** gatherer — scrap → Materials|
-|**Salvage Yard** ★|Yard|5×7|−1|**45**|**Credits** gatherer — sorts and values what scavengers haul back; better break-down rates on gear. Expandable|
-|**Trader's Kiosk** *(→ Trade House 6×6)*|Station|3×2|−1 → −2|**45 → 128**|Sell owned gear and surplus → **Credits**; the Trade House tier improves rates|
-|**Workbench** *(→ Workshop 6×8)*|Station|3×2|−1 → −2|**45 → 128**|Craft and repair. **Workshop tiers unlock the weapon / armour / chem branches** — upgrades, not separate buildings|
-|**Fabricator**|Building|6×6 → 6×8 → 6×10|−1 / −2 / −3|**70 → 110 → 195**|**Research**, in three tiers. **T1 Fabricator** unlocks new blueprints · **T2 Robotics Workshop** builds robots and UGVs and services the Drone Bay's airframes · **T3 Advanced Weapons Lab** unlocks the 2051 arsenal — directed-energy, guided small-arms, drone-delivered payloads ([[Weapons]])|
-
-^tbl-convert-turn-one-resource-into-another-and-m
-
-- Processor — `Feature · Impassable · Heavy · Powered, Hackable, Climbable`
-- Salvage Yard — `Scatter cluster · Difficult · Light/Heavy by piece · Searchable, Movable, Unstable`
-- Trader's Kiosk — `Scatter · Open · Light · Searchable` · Trade House — `Building · Interior Open · Heavy · Lockable, Searchable`
-- Workbench — `Scatter · Open · Light · Searchable` · Workshop — `Building · Interior Difficult · Heavy · Lockable, Searchable, Powered`
-- Fabricator — `Building · Interior Open · Heavy · Lockable, Powered, Hackable, Searchable`
-- Robotics Workshop (T2) — adds `Interior Difficult, Openable`
-- Advanced Weapons Lab (T3) — adds `Explosive`
-
-### Operate — what you can do outside the walls
-
-|Structure|Class|Size|Pwr|Materials|What it does|
-|---|---|---|---|:--:|---|
-|**HQ** ★|Building|6×6|−1|**70**|Campaign actions, base **12** body slots, base storage. **Tiers raise how many crew you can dispatch per cycle** and gate the Vault|
-|**Vault** *(attaches to HQ)*|Plant|3×3|−1|**50**|**Secure** storage — small capacity, near-unbreachable. Where the irreplaceable goes|
-|**Scout Post**|Plant|3×3|−1|**50**|Pre-**battle** information: see a Twist, choose attacker/defender, reroll deployment|
-|**Comms Mast**|Plant|3×3|−1|**50**|**Mission quality**: reroll a mission test, reach longer-range targets, broadcast for recruits. Dispatch *count* comes from HQ tiers|
-|**Server Core**|Building|6×6|−2|**128**|Intelligence and networked control — rival roster intel, and friendly terminals on the board count as **Linked** ([[Hacking]])|
-|**Drone Bay**|Building|6×8|−2|**144**|Drone [[Deployables]] **and** a recon drone that runs a scout mission **without spending a fighter**|
-
-^tbl-operate-what-you-can-do-outside-the-walls
-
-- HQ — `Building · Interior Open · Heavy · Openable, Lockable, Searchable, Climbable, Powered`
-- Vault — `Feature · Impassable · Heavy · Lockable, Hackable`
-- Scout Post — `Scatter · Impassable · Light · Climbable`
-- Comms Mast — `Feature · Impassable · Open · Climbable, Powered, Hackable`
-- Server Core — `Building · Interior Open · Heavy · Lockable, Powered, Hackable, Searchable`
-- Drone Bay — `Building · Interior Open · Heavy · Openable, Powered, Hackable, Searchable`
-
-> [!info] The Vault — the one thing a raid cannot just kick open
-> The HQ is where your Credits, gear and loot sit during a raid, which makes it the natural target. The **Vault** is the answer, and it is deliberately the hardest object in the game to open. It is **not Breachable** — a Breach charge does nothing to it. The only ways in are the full **Sabotage** sequence (enter → plant → detonate, DEX-defusable) or an **INT hack** at the vault door.
->
-> It cannot be separated from the HQ: it is an add-on placed in base contact, and it falls if the HQ does.
-
-> [!info] Why the Drone Bay matters more than it looks
-> [[Settlement]] locks **one roster with per-cycle assignment** — sending a fighter on a mission means they cannot fight. That opportunity cost is the whole tension of the downtime layer, and it bites hardest on small crews. The recon drone is the **pressure valve**: it buys back one mission without costing a body, at a price that competes with everything else on the lot.
-
-### Recover — people come back
-
-|Structure|Class|Size|Pwr|Materials|What it does|
-|---|---|---|---|:--:|---|
-|**Med-bay**|Building|6×6|−1|**65**|**+1** to the post-battle Fate roll ([[Campaign#Post-battle — the Fate table]]); the **T2** tier heals scars at a Credits/Materials cost|
-|**Holding Cells**|Building|6×6|−1|**65**|Prisoner capacity ([[Campaign#Captured — resolution]]); the upgraded tier is what allows a **Brainwash** attempt|
-|**Mess Hall**|Building|6×8|−1|**75**|**Once per battle, one fighter clears 1 Stress free** ([[Morale]])|
-
-^tbl-recover-people-come-back
-
-- Med-bay — `Building · Interior Open · Heavy · Lockable, Searchable, Powered`
-- Holding Cells — `Building · Interior Open · Heavy · Lockable, Breachable, Hackable`
-- Mess Hall — `Building · Interior Open · Heavy · Openable, Searchable`
-
-> [!info] Why scar healing is still gated, now that the rebate is gone
-> This callout used to argue that the Med-bay must not undo [[List Building#Campaign rosters|the −2 scar rebate]]. **That rebate was cut on 2026-08-01** — a scar is a pure nerf and does not touch Crew Rating — so the free-lunch argument no longer applies.
->
-> The gate stays anyway, for a better reason: **removing a permanent penalty is one of the strongest things a settlement can do for a fighter**, and a veteran who can be scrubbed clean between every battle never carries a scar for long enough to matter. That would hollow out the *scars tell the story* tenet ([[Game Vision]]) far more effectively than any points exploit would have. Scar healing stays **T2 only** and costs Credits/Materials. See [[Progression]] · [[Campaign]].
-
-### Defend — this is the raid board
-
-|Structure|Class|Size|Pwr|Materials|What it does|
-|---|---|---|---|:--:|---|
-|**Perimeter Wall**|Line|1" thick, **6" segments**|−1|**50** / segment|The floor benefit — bought by the segment; shapes the whole raid board|
-|**Gatehouse**|Building|6×6|−1|**75**|A controlled chokepoint: the attacker breaches it or routes around it|
-|**Watchtower**|Plant|3×3|−1|**55**|The defender starts one model in it; denies the attacker surprise|
-|**Turret Mount** *(attaches to a Wall or Gatehouse)*|Plant|2×2|−2|**104**|Hardpoint. The turret **auto-deploys** — but costs Credits against your Crew Rating and keeps full fragility|
-|**EW Mast**|Plant|3×3|−2|**104**|Counter-hack and counter-drone: penalises enemy [[Hacking]] in a raid on you; blocks enemy drone deployables|
-
-^tbl-defend-this-is-the-raid-board
-
-- Perimeter Wall — `Scatter · Impassable · Heavy · Climbable, Breachable, Barricadable`
-- Gatehouse — `Building · Interior Open · Heavy · Openable, Lockable, Hackable, Climbable`
-- Watchtower — `Scatter · Impassable · Light · Climbable`
-- Turret Mount — `Feature · Impassable · Light · Powered, Hackable` — hosts one turret [[Deployables|deployable]]
-- EW Mast — `Feature · Impassable · Open · Climbable, Powered, Hackable`
-
-> [!danger] The Turret Mount is not free board power
-> Owning the mount grants **auto-deploy** only — the turret skips the [[Deployables#Deploying — the INT test|INT test]] and starts online. It still **costs Credits against your Crew Rating** to field, still counts against the **9–12** density band, and keeps full fragility: `WND−1`, repairable once, hijackable. This is the settled answer to a pre-placed settlement deployable being strictly better and free.
+A low-INT fighter can *carry* a Sentry Gun; reliably **standing it up under fire** is what INT buys.
 
 
-## Worker benefits
+## Weapons — cut, and why
 
-*Source: `Structures.md`*
+*Source: `Weapons.md`*
 
-*Drafted 2026-08-05 from [[Full Rules System v1]] §22. Workers are assigned in the **Settlement Phase** ([[Downtime#Phase 2 — Settlement]]); a retiring third-Scar veteran can be **reassigned** into one of these slots instead of leaving the roster ([[Campaign#The third Scar — forced retirement]]).*
+Kept so it doesn't creep back in a new costume ([[Out of Scope — What Settlements is NOT#4 · Rejected-ideas log]]).
 
-**One worker slot per structure that accepts one. A worker is either assigned or not.** The listed benefit applies while they are assigned and **stops the moment they are reassigned** — full stop. There is no number to track and nothing to level.
+| Proposed | Why it's out |
+|---|---|
+| **Rapid** *(extra attack at −2)* | It **is** **Quick Shot** — a **Tier 3** skill needing a stat of +6, i.e. campaign-earned. [[Skill Sim — Findings]] measured multi-attack as *the biggest DPS lever in the game* (+67% output). Selling it to a Fighter for 4 points destroys the entire skill economy. |
+| **Precision** *(flat +1 hit)* | Strictly stronger than **Dead Eye** (T3, which is conditional). Replaced by **Accurate** — conditional, and already a locked trait. |
+| **Reliable** *(re-roll)* | Introduces **re-rolls**, a dice mechanic that exists nowhere in Settlements. Breaks the one-mechanic ceiling. |
+| **Concealable** *(may start Hidden / smuggle past a search)* | **Cut 2026-08-14.** Both halves are edge cases that do nothing in a typical battle, and it **breaks the weapon design contract stated in §1**: weapons do damage / range / armour / conditions / noise, and **skills** do positioning exceptions. "May start Hidden" is skill territory — [[Skill Paths]]' **Vanishing Point** and **Camouflage Drill** already do it properly. **Quiet is NOT cut**: no-reveal / no-alarm-trip is a real mechanical axis that interacts with Hidden and the Sensor deployables. *(Propagated to [[Full Rules System v1]] §15 on 2026-08-27 — the master still listed it as live.)* |
+| **Quick Draw** *(fire after Sprinting)* | Sprint consumes **both slots** — there is no Action left to fire with. It silently invents a new action economy. |
+| **Crushing** *(ignore cover on the Wound Roll)* | **Cover never touches the Injury roll.** That is the load-bearing line of the entire engine. (Shields also don't exist.) |
+| **Awkward** *(no Move + attack)* | Free points on a static shooter, and it *synergises* with Accurate. A drawback must bite regardless of playstyle. |
+| **Intimidating** *(Stress aura)* | A free, always-on Stress aura is far too volatile given the Stress-cascade findings in [[Crew Sim — Findings]]. **Parked**, not rejected. |
+| **Area Effect** | Merged into **Blast**. |
 
-> [!important] **Ten of these twenty ship in v1. Ten are parked.**
-> [[Full Rules System v1]] §22 rules that only the benefits carrying the campaign loop are live: **Processor · Salvage Yard · Generator · Med-bay · Storehouse · Equipment Shed/Armory · Trader's Kiosk/Trade House · Workbench/Workshop · HQ · Mess Hall**.
->
-> The other ten — **Fabricator ladder · Scout Post · Comms Mast · Server Core · Drone Bay · Holding Cells · Gatehouse · Watchtower · Turret Mount · EW Mast** — are **parked for a future supplement**. They are either battle-facing micro-buffs that complicate a raid, or intel and unlock effects serving systems that are themselves thin in v1. Marked ⏸ in the table below.
+^tbl-6-cut-and-why
 
-> [!check] Proficiency is cut — ruled 2026-08-05
-> The earlier design had a **0–100 Proficiency** track per worker with three unlocking bands. That was real bookkeeping — a number per worker, per structure, growing over time — for a mechanic that ultimately still just says *"a structure works better with a person in it."*
->
-> It is the same category of complexity this project has cut everywhere else — per-head upkeep, the Heat/Attention track, HP-based structure damage — and worker progression didn't earn an exception by arriving later. The flat benefits below are each drawn from what used to be that system's T1 or T2 tier.
->
-> **Not thrown away:** the three-tier version is parked in [[Full Rules System v1]] §22 as a candidate for a future settlement-focused supplement, where granular management is something players opt into rather than something everyone carries.
-
-| | Structure | Assigned worker gives |
-|:--:|---|---|
-| ✅ | **Generator** | **+1 Power** output |
-| ✅ | **Storehouse** | **+10%** effective storage cap |
-| ✅ | **Equipment Shed / Armory** | **+10 equipment slots** on top of the structure's own |
-| ✅ | **Processor** | **+1 Materials** per gather |
-| ✅ | **Salvage Yard** | **+1 Credits** per gather |
-| ✅ | **Trader's Kiosk / Trade House** | Sell rate **+10%** |
-| ✅ | **Workbench / Workshop** | Crafted item Materials cost **−10%** |
-| ⏸ | **Fabricator ladder** | Unlock one blueprint **one tier early** |
-| ✅ | **HQ** | **+1 dispatch action** per cycle, on top of the tier's base rate |
-| ⏸ | **Scout Post** | Reveal a territory's hidden **Side Objective**, not just its Twist |
-| ⏸ | **Comms Mast** | The mission-quality reroll applies to **two rolls** instead of one |
-| ⏸ | **Server Core** | Rival intel includes one fighter's current **Level and skills**, not just roster size |
-| ⏸ | **Drone Bay** | The free recon mission also reveals a territory's **Loot table** entries ([[Territory]]) |
-| ✅ | **Med-bay** | **+1 further to the Fate roll** — stacks with the structure's own +1, **total +2** ([[Campaign]]) |
-| ⏸ | **Holding Cells** | The opposed INT test for **Brainwashing** gets **+1** ([[Campaign#Captured — resolution]]) |
-| ✅ | **Mess Hall** | The free Stress-clear triggers on **two fighters** instead of one |
-| ⏸ | **Gatehouse** | The chokepoint counts as **Heavy** cover, not Light, for defenders behind it in a raid |
-| ⏸ | **Watchtower** | The starting model in the tower also **starts Readied**, no Action spent |
-| ⏸ | **Turret Mount** | The turret gains **+1** to its auto-fire hit roll |
-| ⏸ | **EW Mast** | Counter-hack / counter-drone radius extends to **12"** from the structure |
-
-**✅ ships in v1 (10) · ⏸ parked for a future supplement (10)** — per [[Full Rules System v1]] §22.
-
-^tbl-worker-benefits
-
-**Three structures take no worker** — **Bunkhouse**, **Vault** and **Perimeter Wall**. They are passive amenities or board shaping, with no operational job for a person to hold.
-
-> [!warning] All twenty numbers are first-draft and untested
-> Same flag as everything else content-shaped in the 2026-08-05 pass — though they are now much simpler to check, since there is no Proficiency curve to validate alongside them ([[Downtime#Still open]]).
-
-### Category counts
-Sustain **4** · Convert **5** · Operate **6** · Recover **3** · Defend **5** = **23**. Deliberately uneven — forcing five per category is what produced filler in the first pass. *(Was 25; the Water Reclaimer and Cistern were cut with Water on 2026-08-01.)*
+---
 
 
-## Conditions
 
-*Source: `Conditions.md`*
+---
 
-A condition is a **status token on a unit**. Combat conditions come from [[Damage]] and skills ([[Skill Paths]]); Nerve states come from [[Morale]]; persistent conditions come from weapons, terrain hazards and skills.
+# Movement, terrain and board machines
 
-> [!info] Weapons apply conditions — the **Payload** rule
-> A [[Weapons|weapon characteristic]] that applies a condition does so **in place of the normal non-wounding result** (Pinned for ranged, Shaken for melee). A hit still does exactly one thing: **it wounds, or it delivers its payload** — never both. The payload's +1 Stress is the same +1 Pinned would have given; don't count it twice.
->
-> This is what makes conditions work in a **WND-1** game. Wounding is binary and terminal, so there is no headroom to "add damage" — a weapon's extra bite has to land on the *hit that didn't kill you*.
+*Terrain density is the single most powerful balance dial in the game.*
 
-### General rules
-- **Tokens.** Every condition is one token beside the model. If a unit has no token, it has no condition — nothing is tracked in your head.
-- **No stacking.** The same condition never applies twice. Reapplying it refreshes its duration; it does not deepen the effect.
-- **Stress hook.** Gaining a negative condition gives **+1 Stress** (see [[Morale]]) — the *first* time it's applied, not on a refresh. **Exception: Pinned and Shaken** — their +1 *is* the non-wounding-hit result, so don't count it twice.
-- **Stress does not clear on Down.** A unit reduced to 0 WND keeps every point and resumes testing once Stabilized ([[Morale#Stress and Down — persistence]]).
-- **Modifier cap.** However many conditions a unit carries, the total modifier on any single roll never exceeds **−3** (or +3). Conditions past the cap still matter — they still restrict actions and still have to be cleared.
-- **Timing.** "Until the End Phase" clears in step 2 of the End Phase ([[Rules Engine#Turn / Round Structure]]). "Until the end of its next activation" clears when that activation ends, even if the unit did nothing.
 
-### Core combat conditions
-- **Pinned** — the **ranged** non-wound result (suppression, not injury). **Cannot Move, Charge, Sprint or Disengage**; must spend its **Move** to clear before it can reposition, but may still **Shoot or Interact**. Persists until cleared; applying it gives **+1 Stress**. *(A non-wounding **melee** blow gives Stress → **Shaken** instead — you can't pin someone you're engaged with.)*
-- **Down** — prone and out of the fight; no normal actions. Only **ranged / hazard** hits leave a unit Down — a **melee** kill goes straight to **Out of Action**. **Heavy cover vs ranged unless in the open**; a **melee / engaged** attack **auto-hits** to finish it (Injury roll still made, a pass = Out), but **ranged attacks resolve normally**. Stabilize by the end of its next activation or it bleeds out — full rules in [[Damage]]. **Keeps its Stress** and takes **no Break tests while Down**, resuming them on recovery ([[Morale#Stress and Down — persistence]]).
-- **Prone** — knocked flat by a fall, slip, or being forced off a ledge (*not* an injury). **Heavy cover vs ranged unless in the open**; cannot Shoot, Charge or Sprint. **Standing up costs the whole activation** (Move + Action). Not bleeding and not auto-hit — that line is what separates Prone from Down.
-- **Hidden** — **−3 to be hit.** Earned via the **Hide** action in Concealing terrain, or from gear/skill. Lost on moving (except where a skill allows it), shooting, **interacting** — any Action that resolves an Interact test: claim, loot, hack, arm, defuse ([[Terrain Interaction]], [[Hacking]]) — or being revealed.
+## Movement
 
-### Stealth & Ambush
-*Drafted 2026-08-05 ([[Full Rules System v1]] §25), sim-tuned across 700–2000 games per cell in paired mirrors — cited to `PACKET-TEST-RESULTS.md` T1–T3, **a file that is not in the Settlements repo**; the numbers below are quoted from the master note, not re-verifiable from source. This is the only place these rulings live; **Hidden** above is the condition they hang off.*
+*Source: `Movement.md`*
 
-- **An Ambush attacks off AGI**, never STR or DEX, **and this must be printed explicitly on the card.** A DEX carrier running Ambush measured **−30 to −33 win-points** — it was attacking on its worst stat. An AGI carrier measured **+1.0 to +12.7**.
-- **The failed-Ambush free Attack Back is load-bearing — keep it unchanged.** It removes **4.1** of the mechanic's 12.1 win-points and fires on **47.5%** of attempts. Confirmed by measurement, not just designed; do not soften it later.
+### Basic move
+The **Move** slot moves up to **MOV"** (baseline 6"), any direction, around obstacles. It can't be split around the Action, and a unit is never forced to move.
 
-> [!check] Ruled — a Hidden fighter may **hold** an objective, but **claiming or scoring** one breaks Hidden
-> **Holding** is just standing within 3" with no enemy within 3" ([[Scenarios#Shared rules]]) — it costs nothing and never touches Hidden. But **claiming** a terminal, **looting** a cache, **arming** or **defusing** a charge is always an **Interact**, and Interacting breaks Hidden (above).
->
-> **Take a Hold** is where this reads cleanest: a terminal must be *claimed* (INT 7+, breaks Hidden) before it can ever be *held* for score, so the hold state a Hidden fighter benefits from only ever applies **after** the reveal already happened. A Hidden fighter can sit on an unclaimed objective all day; the instant they do the thing that scores it, they are not Hidden.
->
-> The sim's **+12.7 / −5.2** swing was measured against a simplified "can this fighter contribute to score while Hidden" toggle. With Interact-breaks-Hidden as a hard rule the practical answer lands near the sim's **No** case for anything needing a claim, and near **Yes** for a pure territorial-control read. Revisit only if a future scenario introduces a hold-only objective with no claim step.
+**Facing:** when you Move (including Charge / Sprint / Disengage), place the model facing its final direction as part of that move. You may also spend the **Move** slot to **change facing only** — no displacement — to aim your 180° arc ([[Rules Engine#House Conventions]]). Facing does not affect melee.
 
-> [!danger] If Hidden ever becomes "not a legal target", a skill-stacking cap ships in the same change
-> Under the current **−3** reading, a fighter stacking three concealment skills still gets shot ~**12 times** a game and dies normally. Under an untargetable reading the same stack was shot **zero times per game**. The −3 is what makes concealment stacking safe.
+> [!info] **Movement draws fire.** A Move that covers **more than half your MOV"** and ends in an enemy's LOS can be **reacted to** (Snap Shot, etc. — [[Initiative & Activation#Reaction triggers]]). A short shuffle (**≤ half MOV"**) does not trigger — creep to reposition safely, Sprint to cross ground fast at the risk of reaction fire.
 
-> [!question] Ambush has no card yet
-> §25 rules how an Ambush *resolves*, but no Ambush action, skill or piece of gear is defined anywhere in [[Skill Paths]] or [[Weapons]] — only the **Ambush Predator** Glorious Deed ([[Campaign#Glorious Deeds]]) references landing one. The trigger and cost still need writing.
+### Sprint & Charge
+- **Sprint** (both slots): move up to **2× MOV"** — nothing else — no Shoot, no Ready. You may set facing at the end.
+- **Charge** (both slots): move **MOV x2** into base contact, then a free melee attack at **+1** (see [[Melee]]). Declaring a Charge needs the target in your forward 180° + true LOS; once Engaged, facing no longer matters.
 
-### Control conditions (from skills, weapons and terrain)
-- **Grappled** — grappler and target stay within 1". The target cannot Move, Charge, Sprint or Disengage; it may only attack its grappler, or spend its Action on an **opposed STR test** to escape. The grappler may release it freely, or move at **half MOV** while dragging it. Grappling ends if either model goes Down.
-- **Suppressed** — counts as **Pinned**, and the unit **cannot React** until it has cleared the Pinned effect.
-- **Off-Balance** — cannot Sprint or Charge. **Persists until cleared:** spend your **Move** slot to shed it (you keep your Action), exactly as you would shake off **Pinned**.
-- **Hobbled** — **−2" MOV**. **Persists until cleared:** spend your **Move** slot to shed it (you keep your Action), exactly as you would shake off **Pinned**.
-- **Blind** — **−2 on all rolls that need sight** (attacks, Spot, Reactions, targeted Interacts). Ends at the end of the unit's **next activation**.
-- **Shocked** — **−2 to all rolls** and **cannot React**. Ends at the end of the unit's **next activation**.
-- **Provoked** — the unit's first attack against anyone *except* the source suffers **−1**. Ends after that attack, or at the end of its next activation.
-- **Snared** — caught by a clamp, wire or pit (a [[Deployables]] trap). **Cannot Move, Charge, Sprint or Disengage.** On its activation it may spend its **Action** on a **STR test (7+)** to break free (nat 1 fails, it stays). A device-sourced negative condition, so its first application gives **+1 Stress**. Persists until it breaks free or the device is cleared. *(Kin to **Grappled**, but no grappler holds it — the terrain does.)*
+### Terrain movement
+Open ground, marked stairs, and clear paths are normal movement — no test.
 
-### Persistent conditions (resolve in the End Phase)
-- **Fire** — each End Phase, the unit suffers an **Injury roll at +1 Damage, ignoring Armor**. It (or an adjacent friendly) may spend an **Action** to extinguish it — automatic, no test. Persists until extinguished.
-- **Bleed** — each End Phase, the unit loses **1 WND** unless treated. Treating = an Action + **INT test (7+)** by the unit or an adjacent friendly, **−2 without a Med-Kit**; a **Medic** ([[Skill Paths]]) treats automatically. **At WND 1 — i.e. almost everyone — Bleed is a two-round death clock:** it drops you Down at the next End Phase, and Down + Bleed bleeds out. It is the harshest condition in the game by a wide margin, which is why **Bleeding** is the priciest weapon payload and why a **Med-Kit** earns its points.
-- **Poison** — **−1 to all rolls.** Each End Phase the unit makes a **STR test (7+)**: pass ends it. It can also be treated exactly like Bleed.
+**Low leap** — leaping over an obstacle **under 2" tall** needs **no AGI test**, but always costs **2"** from your Move allowance for that activation (flat cost — a 6" curb and an 18" rail both cost 2"). Measure height at the narrowest point you cross.
 
-> [!success] Why these four durations changed — measured 2026-08-01
-> **Off-Balance, Hobbled, Blind and Shocked all measured at or near zero value** in simulation (1 · −2 · 7 · 13 Credits against Bleeding's 46), while all four were sold at **30** on the [[Weapons]] payload table. Two separate causes, both timing:
-> - **Blind and Shocked cleared in the End Phase**, so a payload delivered mid-round only bit a target that had not yet activated. Roughly half the time they did nothing at all — an invisible coin-flip the player could not read off the card. They now run on the **activation clock**, so the target feels the debuff exactly once, whenever it lands. They also moved out of the persistent list, because they no longer resolve in the End Phase.
-> - **Off-Balance and Hobbled expired after one activation**, which on a 36" board is worth almost nothing. They now **persist until cleared**, on the same pattern as **Pinned** — which is the right benchmark, because a payload *replaces* Pinned. A payload worth less than the Pinned it displaces is a payload nobody should ever buy.
->
-> Re-measure before the payload prices are re-locked: `test-bench/balance/conditions2d.py`.
+**Athletic traversal** (everything else) uses an **AGI** test (`1d10 + AGI + mods` vs **7+**), paid from the **Move** slot (counts against MOV). These are **not** Interact Actions — see [[Terrain Interaction]] for STR/DEX/INT verbs.
 
-### Nerve states (from [[Morale]])
-- **Shaken** — any unit with **1+ Stress**: −1 to all rolls. Always-on, doesn't stack, no test. Clears when all Stress clears.
-- **Bolt** — flees toward the nearest board edge, hugging cover. *(Break test fail at Stress 2.)*
-- **Broken** — frozen; cannot act. *(fail at Stress 3.)*
-- **BugOut** — routs off the nearest board edge and is removed from play. *(fail at Stress 4+.)*
-- **Fight** — *skill-induced only* (e.g. Fanatic, [[Skill Paths]]): instead of cracking, the unit must move by the shortest route toward the nearest visible enemy on its next activation and attack it if able. It cannot Hide, detour for cover, or move away from that enemy.
+| Maneuver | When | On fail |
+|---|---|---|
+| **Climb** | Ascending / descending **Climbable** terrain, walls, roofs, fire escapes | Stop at the base / last safe level; if already mid-climb, **fall** |
+| **Jump / Leap** | Crossing a horizontal **gap**, or an obstacle **2" or taller** | Fall short — place at the near edge, or **fall** if you committed past it |
+| **Vault** | Crossing a waist-high obstacle onto / over it (when not covered by low leap) | Bounce off — end short of the obstacle; no fall unless the far side is a drop |
+| **Swim** | Entering or crossing **deep water** / swimmable hazard | End the move in the water; gain **Pinned** (or hazard effect from the scenario) |
 
-### Morale modifiers (from skills)
-- **Braced** — **+1 on Break tests**, and reduce the first Stress gained from losing a melee by 1. Ends at the start of the unit's next activation.
-- **Cowed** — **−1 on the unit's next Break test**, then ends.
-- **Frightened** — **cannot React** and **−1 on Break tests**. Ends at the end of the unit's next activation.
+^tbl-terrain-movement
 
-### Marker & device states (not conditions on units)
-These sit on terrain, devices or as table markers — they never give Stress and don't count against the modifier cap:
-- **Spotted** — the observing unit has identified the target for named skills, until the stated expiry. Spotted does not remove Hidden by itself.
-- **Jammed** — remote activation and wireless control of the device fail; local and manual operation still work. Ends at the start of the jammer's next activation.
-- **Overloaded** — a terminal used to **interrupt** a hack ([[Hacking]]) powers down: it cannot be accessed or used to interrupt again until the **start of next turn**.
-- **Compromised** — the **next hack test** against this system gains **+2**, then Compromised ends. Applied by a skill (e.g. **Counter-Hack**).
-- **Linked** — devices explicitly share a terminal or local network. Range alone never makes devices Linked.
+- No job-difficulty modifiers — only skills, conditions, **Shaken**, etc.
+- Skills may auto-succeed or soften fails (**Sure-Footed**, **Leaper**, **Vault**, **Water Walker**, **Like a Cat** — [[Skill Paths]]).
+- Difficult ground costs double movement. *(exact categories in [[Terrain]].)*
+- Fall damage / fall tests → [[Terrain]] (verticality).
 
-> [!info] Locked for playtest
-> The persistent-condition values above (Fire +1 ignoring Armor, Bleed's 1-WND clock, Poison's STR recovery, the −2 Blind/Shocked penalties) are the first locked pass — validate them at the table before graduating this note to the ledger.
+### Disengaging
+Breaking away from melee is a **Disengage** — it uses your **Move** slot (a normal move, not your whole activation):
+- Move up to **MOV"** in any direction, out of the enemy's 1" zone.
+- **Every enemy you were Engaged with gets a free swing at −2** as you scramble clear — that's the risk you take.
+- You keep your **Action**: you may then Shoot, Interact, or even Fight a *new* enemy — but you **cannot Charge**, so any fresh melee is fought **even** (no charge bonus). That's the trade versus a clean Charge.
+
+> [!success] Resolved 2026-07-13 — single cost
+> Disengage is a **Move + the −2 swings**, *not* the whole activation. The double cost made it a dead option (sim: ~14% chance to be Downed leaving one engager, ~26% leaving two — *plus* losing your turn). The free swings are deterrent enough on their own.
 
 
 ## Terrain
@@ -965,61 +1275,547 @@ Climb · vault · leap · swim are not Interacts — they are Move-slot man
 > - Interior Building floors defaulting Open vs Difficult.
 
 
-## Scenarios
+## Terrain interaction — the verbs
 
-*Source: `Scenarios.md`*
+*Source: `Terrain Interaction.md`*
 
-### 1 · Take a Hold  *(Shape: Control)*
-**Premise.** Three power terminals sit on the centreline; light them up and stand on them.
+### Resolution
 
-- **Objectives.** **3 terminals**, one central and one 12" to each flank, all on the centreline ([[Hacking]]-style Interacts). A terminal is neutral until **claimed** (base contact, **INT 7+** → your marker). A claimed terminal that no one holds stays claimed until an enemy re-claims it.
-- **Scoring.** Each **End Phase (Rounds 2–6)**, score **1 VP** per terminal you **hold** (claimed *and* uncontested, per Holding rules). Max **15 VP**.
-- **Victory.** Most VP after Round 6.
-- **Terrain hook.** You can't score a terminal you haven't hacked — so a fast body isn't enough; you need the **INT** to claim and the bodies to hold.
-- **Twist flavour.** *Blackout* turns the flanks into knife-fights; *Live Board* often lands the hazard on the centre terminal.
+Terrain Interacts use the core test.
 
-### 2 · Escort  *(Shape: Mobile · asymmetric)*
-**Premise.** The **Attacker** walks a caravan across the board; the **Defender** runs out the clock.
+- **Auto-pass** — trivial actions with no consequence (open an unlocked door, push a button, drop a carried object).
+- **Test** — everything else: `1d10 + Stat + mods` vs **7+**.
+- No job-difficulty modifiers on ordinary Interacts. The only modifiers are ones the game already applies (skills, conditions, **Shaken**, etc.).
+- Terminals / digital control → [[Hacking]] (range modifiers live there).
+- **Natural 1** / **Natural 10** still auto-fail / auto-succeed.
+- Direct interaction needs **base contact**. Spends the unit's **Action** slot.
 
-- **Setup.** One **Caravan** model starts in the Attacker's deployment zone. It has **no activation of its own** and cannot be destroyed — only delayed. It **cannot** cross **Impassable/Blocked** terrain.
-- **Moving it.** A friendly (Attacker) unit in base contact may spend its **Action** to move the caravan up to **6"** (an **Order** can move it again — [[Initiative & Activation]]). It moves at half rate through Difficult ground.
-- **The route.** The board is laid with a **chokepoint** the caravan must pass — a door, bridge or blast door ([[Infrastructure]]). The **Defender** may operate/close it (or raise barriers, drop shutters); the **Attacker** must **hack or Force** it back open. *This is the scenario's beating heart — terrain gates the escort.*
-- **Victory.** **Attacker** wins the instant the caravan **exits the far edge**. **Defender** wins if it hasn't by the end of Round 6.
-- **Terrain hook.** Built-in: the caravan literally cannot finish without the crews fighting over an operated feature.
+### Contested Interacts
 
-### 3 · Raid  *(Shape: Retrieve)*
-**Premise.** Both crews cache loot at home and send raiders for the enemy's.
+Most Interacts are auto-pass or a solo **7+** test.  
+When two units contest the same object at the same time, use an **Opposed Test** (`1d10 + Stat + mods`, highest wins, **ties to the defender**):
 
-- **Setup.** Each player places **3 loot caches** in their **own half**, each **6"+ apart** and **6"+ from any board edge**, tucked into or behind terrain (a building, a locked room). One of your three is secretly your **Jackpot** (worth **2**).
-- **Looting.** An **enemy** unit in base contact spends its **Action** on an **INT 7+** Search → the cache is **Looted** (your token; it's spent). A cache in a **locked/reinforced** container first needs the door **Forced (STR)**, **picked (DEX)** or **hacked (INT)** — [[Terrain Interaction]].
-- **Victory.** Most **enemy** loot value taken by end of Round 6 (Jackpot = 2). You score by raiding *theirs*, not by defending *yours* — so both crews must attack.
-- **Terrain hook.** Caches live inside terrain; the Interact suite (Force / Lockpick / Hack / Search) is the scenario.
+- **Lift contest** — opposed **STR**; defender = carrier / first claim.
+- Skills may create other contests (e.g. **Doorstop**); they still use this pattern.
+- Digital contests (hacking, the Interrupt) → [[Hacking]].
 
-### 4 · Sabotage  *(Shape: Timer · sudden death)*
-**Premise.** Each crew nominates a building it must **defend**, and plants a charge on the enemy's.
+### Stat ownership
 
-- **Setup.** Each player nominates one **target building** in their own half. It is the objective the *enemy* is coming for.
-- **The charge.** An enemy unit in base contact with your target spends its **Action** + **INT 7+** to **arm** a charge (a scenario [[Deployables|deployable]]). Once armed it **counts down at each End Phase**; after it survives **3 End Phases armed**, it **detonates**.
-- **Defusing.** A defender in base contact spends its **Action** + **DEX 7+** to **defuse** (nat 1 = it goes off now). A defused charge is removed; the enemy may re-arm from scratch.
-- **Victory.** **Detonating the enemy's building wins immediately** (sudden death). If neither detonates by the end of Round 6, the side whose charge reached the **most countdown** wins; equal = **draw**.
-- **Terrain hook.** The target is a real building — often **locked or reinforced** ([[Terrain Interaction#In-battle repair / settlement hook]]); you fight *into* it to arm and *around* it to defend.
+|Domain|Stat|Examples|
+|---|---|---|
+|Force / haul|STR|Force door, Smash, Lift|
+|Mechanical precision|DEX|Lockpick, **disarm** traps & devices (defusing under pressure)|
+|Digital / knowledge|INT|Hack, Search, **Build / Deploy / Repair devices** ([[Deployables]]), ID terrain|
+|Climb / vault / leap|AGI|Move-slot tests (see [[Movement]] / [[Terrain]]) — not an Interact|
 
-> [!important] This charge is now the game's **general** structure-destruction mechanic
-> As of 2026-08-05 the same arm/countdown/defuse sequence is what lets a raider wreck **any** structure in a settlement, in **any** raid — not just a nominated target in this scenario ([[Structures#Storage & caps — what you can hold, and what a raider can take]] · [[Full Rules System v1]] §21). A detonated structure goes **Disabled** until repaired at a flat 30 Materials.
->
-> That closed the hole Water left when it was cut — raids needed a target you *destroy* rather than *loot* — using a mechanic that already existed instead of inventing a resource. It also means the **3-round fuse below is load-bearing in two places at once.**
+^tbl-stat-ownership
 
-### 5 · Power Supply  *(Shape: Network · INT-primary)*
-**Premise.** Bring the grid back online — run lines from the central transformer out to the supplies. The showcase for the **INT / terrain** engine.
+### Interaction verbs
 
-- **Setup.** A neutral **Transformer** (a hub terminal) sits **dead-centre**. **Four Power Supply** nodes are placed in the terrain around it, each **>8"** from the hub and from each other.
-- **Claiming the hub.** A unit in base contact hacks it (**INT 7+**) to bring it online **for your side**.
-- **Running a line.** A unit in base contact with a node you already control (the hub, or a connected supply) spends its **Action** + **INT 7+** to **run a line** to an **uncontrolled supply within 8"**, claiming it — building the chain **outward** from the hub.
-- **Cutting a line.** An enemy unit in base contact with one of your claimed nodes spends its **Action** to **sever** it (**DEX 7+**, or a successful melee/ranged hit on it as a Feature); the node and everything downstream of it revert to neutral.
-- **Victory.** First crew to hold the **hub + 2 connected supplies** at an **End Phase wins** (sudden death). If neither does by Round 6, **most connected supplies** wins.
-- **Terrain hook.** Lines route through contested terrain; nodes sit in cover; the whole scenario is a spatial **INT** race with the firefight deciding who gets to keep building.
+| Verb                      | Tag                       | Stat | Resolution     | Notes                                        |
+| ------------------------- | ------------------------- | ---- | -------------- | -------------------------------------------- |
+| Open / close              | Openable                  | —    | Auto           | —                                            |
+| Force door / Smash object | Breachable                | STR  | 7+             | Attempt is Loud                              |
+| Lockpick                  | Lockable                  | DEX  | 7+             | Quiet                                        |
+| Hack                      | Hackable / Powered        | INT  | see [[Hacking]] | Terminals, range, the Interrupt              |
+| Lift                      | Movable                   | STR  | 7+             | Half MOV while carrying; drop within 1" free |
+| Search                    | Searchable                | INT  | 7+             | See Searching                                |
+| Repair feature            | Powered / Hackable / etc. | INT  | 7+             | See Feature damage                           |
+|Climb / vault / leap / swim|Climbable / water|AGI|Move slot — see [[Movement]]|Under 2" = low leap, no test, −2" Move|
+
+^tbl-interaction-verbs
+
+There is no Barricade verb. Blocking openings is done with Lift.
+
+### Lift → Blocked openings
+
+- Lift a Movable object and drop it blocking an Openable opening.
+- That opening becomes Blocked: it cannot be used until someone Lifts the object clear (STR, 7+), or opposed STR if contested.
+- Skills (Deadlift, Power Position, Doorstop) override or contest as written.
+
+### Searching and looting
+
+- Who: any fighter in base contact with a Searchable piece, not Engaged, not Down.
+- Roll: Interact, INT, 7+.
+- Exhaust: place a Searched token after the attempt — pass or fail. That piece cannot be searched again this battle.
+- Default find table (`1d10` on a pass; scenarios may override):
+
+|d10|Result|
+|---|---|
+|1|Hazard — trap/alarm/collapse; searcher is Pinned; search is Loud|
+|2–4|Nothing|
+|5–7|**Supply cache** — roll on the default Loot table ([[Territory#The default loot table]])|
+|8–9|**Gear** — roll on the default Loot table ([[Territory#The default loot table]])|
+|10|Jackpot — 1 Resource + one gear item|
+
+^tbl-searching-and-looting
+
+### Structural integrity (buildings / cover)
+
+Out of scope for launch (maybe forever). No damaging walls, cover sections, or building collapse.
+
+Cover pieces stay as passive cover from [[Terrain]].
+
+### Feature damage
+
+Applies to interactive features (turrets, traps, cameras, alarms) — not walls/cover.
+
+- WND 1
+- Armor −2 (heavy)
+- Cover: Heavy (−2) to be hit, unless the attacker is within 6" → Open (0)
+- Hit + successful Injury → feature goes **Offline** (non-functional; still on the board as terrain/LOS)
+- Repair: adjacent Interact, INT, 7+ → restore to 1 WND and online (Jury-Rig may auto-succeed)
+- If an **Offline** feature is Injured again → Destroyed, removed for the rest of the battle
+
+This is also the shared damage / repair engine for standing **[[Deployables]]** (turrets, beacons). Untriggered traps can be damaged this way. A trap that has already triggered is spent — don't use **Offline** to cancel a boom mid-trigger.
+
+### Hacking
+Operating terminals, Linked networks, range bands, and the hacker-vs-hacker **Interrupt** live in **[[Hacking]]**. Terminals themselves can't be destroyed ([[Infrastructure]]).
+
+### In-battle repair / settlement hook
+
+- Repair = INT Interact, 7+, adjacent to a Down feature.
+- No in-battle building reinforce at launch.
+- Built structures show up as board state. The full list is the catalogue in [[Structures]]; each entry's terrain line is declared from the settlement sheet at setup.
+
+|Structure|Battle effect|
+|---|---|
+|**Gatehouse** / reinforced doors|Named doors start Lockable (skills/traits may be required to Force)|
+|**Turret Mount**|Hosts one [[Deployables]] turret that **auto-deploys** — online at setup, no INT test|
+|Trap stockpile|X traps pre-placed, armed and concealed|
+|**Workshop** / **Salvage Yard**|Materials / Build tokens if used|
+|**Generator** / security net|Terminals, cameras, alarms — the Linked network|
+|**Watchtower** / **Scout Post**|Elevated firing position; the defender may start a model in it|
+
+^tbl-in-battle-repair-settlement-hook
+
+> [!warning] Auto-deploy is not free deploy
+> A settlement piece skips only the **INT test**. It still **costs Credits against your Crew Rating** in [[List Building]], still occupies a slot inside the sacred **9–12** density band ([[Terrain#Settlement boards — the same procedure, one square-set pre-filled]]), and keeps full fragility — `WND−1`, repairable once, hijackable. Ownership buys **availability**, never board power.
+
+### Traps and deployable defences
+
+Trap = a waiting weapon card (trigger + effect + traits).
+
+Deploy (**INT** Interact, adjacent — full catalogue & rules in [[Deployables]]):
+
+- Pass → armed and concealed
+- Fail → armed but visible
+- Nat 1 → triggers on the placer
+- Pre-battle settlement traps skip the roll: deploy armed and concealed
+
+Trigger: first enemy meeting the condition sets it off once, then spent. Fits Reaction Trigger and skills (Tripwire Eye, One in a Million).
+
+Find: Threat Scan, or opposed INT vs the placer for a concealed trap.
+
+Disarm (either type) → **DEX** Interact, 7+ (nat 1 = boom). A trap wired into a **Linked** network can *alternatively* be neutralised by hacking the network (**INT** — Jam Signals / Linked terminal / related skills, see [[Hacking]]).
+
+Deployables: Lifted scatter (Blocked openings), carried traps, settlement turrets/terminals.
+
+### Locked design notes
+
+1. **DEX** = mechanical · **INT** = digital
+2. **Lift** replaces Barricade
+3. **Searched** exhausts the *piece*
+4. Turrets = [[Deployables]] — auto-fire for their owner, hackable to hijack
+5. No building collapse; feature two-strike damage only
+6. Ordinary Interacts = auto-pass **or** flat **7+**
+7. Contested Lift = opposed STR; ties to defender
+8. Full hacking system → [[Hacking]]
+
+
+## Infrastructure — the five categories
+
+*Source: `Infrastructure.md`*
+
+Every Infrastructure Feature belongs to one category, which names its battlefield role. Each category is built from the shared **board verbs** below, so a feature's category tells you which verbs it uses.
+
+| Category | Role | Verbs it draws on |
+|---|---|---|
+| **Mobility** | new ways to move (verticality, transit) | Create/Remove Route · Change Elevation |
+| **Access** | gate existing chokepoints | Open/Close Path |
+| **Visibility** | create or remove sight | Block/Clear LOS |
+| **Manipulation** | physically move parts of the board | Shift Terrain · Create/Remove Cover · Displace |
+| **Utilities** | change the environment of an area | Field a Zone |
+
+^tbl-the-five-categories
+
+*(Mobility **creates** movement options; Access **gates** ones that already exist — that's the line between them.)*
+
+
+## Infrastructure — the board verbs
+
+*Source: `Infrastructure.md`*
+
+Every feature is **[category] + one or two verbs + an optional damage keyword.** Eight verbs cover the whole system. Each is a **toggle** unless a feature says otherwise, and each has a "caught in the change" clause that routes to an existing rule.
+
+1. **Open / Close Path** — toggle an opening between passable and **Impassable / Blocked** ([[Terrain]] · [[Terrain Interaction#Lift → Blocked openings]]). *Caught in it:* a model in the closing gap is **Displaced** 1" to the nearer open side (a heavy blast door prints **CRUSH** instead). *Sealed room:* every exit Blocked means a model can't leave until someone **operates** the door or **Forces** it (STR 7+, [[Terrain Interaction]]).
+2. **Create / Remove Route** — add or delete a traversal line: a bridge span, a lift car, a running conveyor. *Caught in it:* removing an **elevated** route with a model on it → **FALL**; a ground route just closes.
+3. **Block / Clear LOS** — toggle a facade or zone between clear sight and **Blocked LOS**, or set **Concealing** / strip **Hidden** ([[Terrain#Cover]]). No model harm — this reshapes fire lanes, not bodies.
+4. **Create / Remove Cover** — set down or lift away a cover piece, or change a piece's Cover value (Open / Light / Heavy, [[Terrain#Cover]]). A model that was relying on removed cover is now **Open**.
+5. **Shift Terrain** — slide a **Movable** piece up to **4"** ([[Terrain Interaction]] Movable/Lift framework). *Caught in it:* a model in the path is Displaced clear; a model pinned against a wall or another piece prints **CRUSH**.
+6. **Change Elevation** — raise or lower a platform/lift, carrying the models on it to the new level. A model half-on steps to the nearer level (no FALL under 3").
+7. **Field a Zone** — apply a **Dangerous / Difficult / Impassable** overlay to an area using the existing hazard→condition map ([[Terrain#Hazards (the Dangerous overlay)]]): flood → Deep water (Swim) or Difficult; gas → 3" Dense Smoke (Blind + Concealing). **Never invent a new condition here.**
+8. **Displace** — force-move a model **2"** directly away from the source, stopping at terrain or another fighter (matches [[Skill Paths|Knockback]] / Sledgehammer). Off a ledge → **FALL**; into a **Dangerous** area → triggers it immediately ([[Terrain]]); **Rooted** resists (STR test). A powerful effect may push **4"**.
+
+
+## Infrastructure — feature catalogue
+
+*Source: `Infrastructure.md`*
+
+Each entry: **Name** — *Category · verb(s)*. How to operate, then effect and any damage keyword. Damage uses the two keywords in [[#Damage — two keywords]].
+
+- **Cargo Crane** — *Manipulation · Shift Terrain / Create-Remove Cover / Displace*. The signature piece. Move a Movable piece up to 4" (open a lane, drop a crate as **Heavy cover**, or lift cover away). Drop a load on a model → **CRUSH**; sweep a model → **Displace 2"** (off a ledge → **FALL**). Carry a junked car between rooftops to make a shielded crossing.
+- **Blast Door** — *Access · Open-Close Path*. Heavy security door. Toggle a doorway Passable↔Impassable; a model caught in the gap when it shuts prints **CRUSH** (dial to a 1" Displace if too lethal). Locked = **sealed room** (Blocked); Force STR 7+ to break out. *Manual = STR.*
+- **Roller / Security Gate** — *Access · Open-Close Path*. Lighter door: toggles a chokepoint, **no CRUSH** — a caught model is just Displaced 1" to the near side.
+- **Retractable Bridge** — *Mobility · Create-Remove Route*. Extend to span a gap (new route); retract to remove it — a model on it when it retracts → **FALL**.
+- **Elevator / Cargo Lift** — *Mobility · Change Elevation*. Raise/lower a platform between levels, carrying models on it. A vertical shortcut either crew can recall to their level.
+- **Conveyor Belt** — *Mobility · Create-Remove Route*. While running, a model that ends its Move on the belt is carried **+4"** along it in the End Phase — and can stay **Hidden** behind a load as it rides ([[Terrain#Cover]]). Toggle on/off, or reverse direction.
+- **Window Shutters** — *Visibility · Block-Clear LOS*. Toggle a facade between open (LOS through the windows, Light cover) and shut (**Blocked LOS**). Close a fire lane, or open one onto an enemy, without moving a model.
+- **Floodlights** — *Visibility · Clear LOS*. Light a zone: models in it **cannot be Hidden** while lit ([[Terrain#Cover]]), stripping ambush cover. Toggle on/off.
+- **Flood Gates** — *Utilities · Field a Zone*. Open to flood a low area → **Deep water** (Swim on entry) or **Difficult**; close to drain. Reshapes which routes exist.
+- **HVAC / Gas Vent** — *Utilities · Field a Zone / Displace*. Vent a blast: **Displace 2"** every model in the vent's line (off a ledge → **FALL**), and/or fill an area with **3" Dense Smoke** (Blind + Concealing, per [[Weapons]] Smoke). Blocks a crossing and covers movement at once.
+- **Trash Compactor / Crusher** — *Utilities · bounded hazard*. The one overt hazard feature — industrial and believable. Activate to run it: a model inside the compactor zone takes **CRUSH**. Scenario-flagged, controlled, never passive.
+- **Power Generator / Junction** — *Utilities · enabler*. The optional macro-toggle: while off, all infrastructure in its zone is **Powered Down**. Operating the Generator (hack or manual) powers the zone on or off. It can't be destroyed — deny it by **Overloading** its terminal (an interrupt).
+
+
+## Infrastructure vs Deployables
+
+*Source: `Infrastructure.md`*
+
+Two different jobs; keep them separate.
+
+| | Infrastructure | Deployables |
+|---|---|---|
+| What | Fixed parts of the board (crane, door, bridge, shutters, generator) | Gear a unit carries (turret, mine, tripwire, barricade, med-station) |
+| Job | **Reshape the battlefield** | **Deal or deny damage** |
+| Rules home | This note | [[Deployables]] · [[Terrain Interaction]] · [[Weapons]] · [[Skill Paths]] |
+
+^tbl-infrastructure-vs-deployables
+
+Turrets, mines, and traps are **[[Deployables]]**, not Infrastructure — a thing that exists only to hurt people belongs in gear, not in the walls.
+
+
+## Infrastructure — setup & placement
+
+*Source: `Infrastructure.md`*
+
+### Standard battles
+Infrastructure is fixed by the **scenario** ([[Scenarios]]): which buildings hold a feature, and which feature each holds. Fast, balanced, cinematic — no random combos.
+
+### Custom battles
+Assign features before deployment, guideline **one Infrastructure Feature per building**, chosen to fit the terrain (pick one from the menu):
+
+| Building | Menu (choose one) |
+|---|---|
+| Warehouse | Cargo Crane · Roller Door |
+| Factory | Conveyor · Generator |
+| Office | Window Shutters · Floodlights |
+| Apartment | Elevator · Blast Door |
+| Hospital | Generator · Flood/Fire Suppression |
+
+^tbl-custom-battles
+
+- **Symmetry:** assign features **alternately** (or mirror them across the centreline) so neither crew hand-picks all the strong ones near its own deployment.
+- **Density tie-in:** infrastructure rides on the terrain the board already needs — the [[Terrain]] density band is **9–12 large features**; put infrastructure on **roughly half** of the eligible buildings, not all of them.
+
+### Settlement battles
+The **defender's own layout** supplies the back three density squares ([[Terrain#Settlement boards — the same procedure, one square-set pre-filled]]), which replaces the symmetric assignment above on that half of the board. This is deliberately asymmetric — you are fighting in someone's home.
+
+- **The defender's structures carry their own features.** A built [[Structures|structure]] arrives with the tags printed in its catalogue entry — a Gatehouse is Openable/Lockable/Hackable because it is a gate, not because a scenario assigned it. No alternate-assignment pass over the settlement squares.
+- **The attacker's six squares assign as normal**, alternately or mirrored, on roughly half the eligible buildings.
+- **The one-per-building guideline still holds** — a structure's catalogue tags *are* its feature; don't stack a scenario feature on top.
+- The attacker's compensation is the ~24" of open approach, not a matching set of toys.
+
+### Placement
+Infrastructure belongs to the **building**, not a spot inside it. Put the token on or beside the structure to show it possesses that feature; the building is the source unless a feature states otherwise (a crane's arm, a vent's line — use the model).
+
+
+## Hacking
+
+*Source: `Hacking.md`*
+
+### Terminals & Linked features
+- A **terminal** is terrain a fighter can Interact with while in **base contact**.
+- Features are **Linked** only when the scenario or settlement says so — range alone never makes something Linked.
+- Operating a terminal spends the unit's **Action** slot.
+- One Action = one hack = at most **one** Linked function, unless a skill says otherwise ([[Skill Paths]]).
+- **Access doesn't wear a terminal out.** A terminal used only to **access** features stays live all turn — different units may each hack it — but a **single unit may not access the same terminal twice in one turn.**
+- **Interrupting does.** A terminal used to **interrupt** (below) becomes **Overloaded** and powers down until the **start of next turn**. So each turn a terminal is either your reusable access point *or* a one-shot interrupt — never both.
+
+### Hacking a terminal — the core test
+1. **Declare** the terminal and the Linked feature you want. The feature must be within a legal **range band** (below).
+2. **Roll** `1d10 + INT − range band` vs **7+**.
+3. **Pass** → activate that Linked feature now (open the door, fire the turret, trip the hazard, loop the camera).
+4. **Fail** → nothing happens this activation.
+5. **Nat 1 / Nat 10** = auto-fail / auto-succeed.
+
+That's the whole hack. No damage roll, no second mechanic — controlling the feature *is* the reward.
+
+### Range bands
+Measure **terminal → feature**. Max **24"**. Applies to the hack test.
+
+| Band | Distance | Mod |
+|---|---|:---:|
+| Close | up to 6" | 0 |
+| Short | over 6", up to 12" | −1 |
+| Medium | over 12", up to 18" | −2 |
+| Long | over 18", up to 24" | −3 |
+| Out | over 24" | illegal |
+
+^tbl-range-bands
+
+Other modifiers (skills, gear, **Shaken**, conditions) stack normally; the global **±3** cap applies.
+
+### Interrupt — contesting a hack
+An enemy in base contact with another **live** (non-Overloaded) terminal on the network may **Interrupt** a declared hack. It's a **Reaction** — the *interrupt Interact* option ([[Initiative & Activation#Reaction options]]) — but a **network** one, so it bends two of the usual Reaction rules: it's declared *as* the enemy hacks (not after they finish), and it **ignores the forward-180°/LOS requirement** — you contest through the wire, needing only base contact with your own live terminal, not sight of the hacker. It costs **no Ready token**; its price is the **Overload** below.
+
+**Declare early, pay only if it lands:**
+1. The hacker declares the terminal and the feature.
+2. The enemy declares **Interrupt** — *before* the access roll.
+3. The hacker rolls `1d10 + INT − range` vs **7+**.
+   - **Fail** → the hack fails on its own. The interrupt is **not spent** — the interrupter's terminal stays **live**.
+   - **Pass** → the interrupt **jams it**: the feature does **not** activate, and the interrupter's terminal becomes **Overloaded** (down till the start of next turn).
+
+There's no opposed roll — the only die is the hacker's access. A declared interrupt automatically jams a hack that *would* have landed, and costs nothing against one that fails anyway.
+
+**What it does and doesn't do:**
+- It stops **one** access attempt — **not** the terminal for the turn. A *different* unit can hack the same target terminal again; and once an interrupter has Overloaded their terminal, they can't stop that second attempt. **Bait the interrupt with one unit, land the hack with the next.**
+- Each interrupter terminal absorbs exactly **one** successful hack per turn. To push a feature through a defended network, bring bodies (see sim).
+
+**The decision:** an interrupt spends your terminal for the turn to deny one enemy feature. Worth it to jam the turret about to shoot your squad; rarely worth it to stop a door.
+
+### Linked functions (what a successful hack controls)
+The **one** function a passed hack grants — one per Action unless a skill says otherwise:
+- Doors — lock / unlock / open / close
+- Cameras — loop / reveal / ignore named fighters
+- Alarms — suppress next trigger / trip now
+- Power — toggle a Powered system or printed hazard
+- Turrets — rotate / deactivate / **fire once** (counts as your attack)
+- Electronic traps — arm / disarm / trigger if legal
+
+**Turrets are [[Deployables]].** There are **no board-built turrets** — every turret is a deployable that **auto-fires for its owner**. Hacking one **hijacks** it: deactivate it, turn it, or fire it once at its own side (your Action).
+
+> The full catalogue of operable features — cranes, bridges, shutters, vents, flood gates — and exactly what each does to the board (with every crush/fall/push routed to an existing rule) lives in [[Infrastructure]]. Hacking is *how* you operate them; Infrastructure is *what happens*.
+
+### Modifiers — from gear & skills, not a hardening stat
+A hack test takes **+/− modifiers** like any other roll: hacking **gear** (Breach Kit, Exploit Suite — [[Weapons]] / [[List Building]]), INT **skills** ([[Skill Paths]]), **conditions**, and **Shaken**. Difficulty is the same in reverse — a defender's gear/skill or a scenario may impose a **penalty** on enemy hacks against a device. There is **no separate "hardened systems" stat**; toughness is just a modifier, and the global **±3** cap applies.
+
+### Action economy
+One hack per activation. A feature that deals damage (turret fire, a triggered hazard) is your **one attack** for the activation — you may not also make a separate attack.
+
+### Skills
+INT-path skills ([[Skill Paths]]) are exceptions and payoffs on top of these rules (**Hacker**, **Computer Whiz**, **Turret Tamer**, **Counter-Hack**, etc.). They modify the hack test, change what one Action can do, or change how the **interrupt** works — e.g. **Counter-Hack** lets a fighter Interrupt *without* Overloading their own terminal.
+
+> [!question] Playtest dials
+> - **Interrupt is a hard counter** — automatic against a *successful* hack, no opposed roll. Because it only spends when the hack would land, one interrupter reliably eats one feature per turn. A lone hacker can't beat an interrupter alone — the sim shows you need **two** successful hacks to push one through. If that's too strong, let a hacker's **nat 10** punch through, or add an opposed INT test.
+> - **Bait dynamic** — Overload (not turn-long lockout) + multi-use terminals means a second unit beats a spent interrupter. The **Overloaded-till-next-turn** duration is the lever if interrupts feel too weak or too strong.
+> - **Hack-modifier ladder** — set the gear/skill +/− values once first playtests show how reliable an unmodified hack feels.
+
+
 
 ---
+
+# Crew
+
+*Rank is the bundle. Skills ride the stat line and are never charged Credits.*
+
+
+## List building — ranks, pyramid, equipment
+
+*Source: `List Building.md`*
+
+### Budget
+A crew is built to a **Crew Rating** cap in **Credits**, set by the scenario.
+
+| Format | Cap |
+|---|:--:|
+| **Match Play** — a one-off game, no campaign attached | **850** |
+| Raid variant *(75%)* | **640** |
+| Pitched variant *(150%)* | **1275** |
+| **Campaign Start** — a fresh crew entering the settlement layer | **425** |
+
+^tbl-budget
+
+*The 100-point budget, its 5/8/16/24 ladder, **and the 1000/500 pair that replaced them** are all retired. The scale rebased 1000 → 1700 when bodies moved onto the measured stat ladder, then halved to **850** on 2026-08-20 so a standard crew is still six models rather than four. One number does both jobs: you buy with Credits, and the Credits you field are your Crew Rating.*
+
+### The four ranks — two starting tiers
+The rank price *is* the stat price — see [[Unit Design#Ranks (build budget)]].
+
+**Match Play** gets the richer starting kit, because those fighters are built for one game and never get another chance to develop.
+
+| Rank | Stat pts | Tier caps | Skills | Orders | **Credits** |
+|---|:--:|---|:--:|:--:|:--:|
+| **Recruit** | 3 | no tiers | 0 | 0 | **70** |
+| **Fighter** | 5 | 2× T1 | ~2 | 0 | **100** |
+| **Specialist** | 7 | 1× T2 · 2× T1 | ~3 | 1 | **145** |
+| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | ~4 | 2 | **185** |
+
+^tbl-the-four-ranks
+
+**Campaign Start** is a green crew *meant* to grow through the Level track ([[Progression]]), so it starts lean — **exactly one skill each, at the rank's own tier.**
+
+| Rank | Stat pts | Tier caps | Starting skill | Orders | **Credits** |
+|---|:--:|---|:--:|:--:|:--:|
+| **Recruit** | 3 | no tiers | — | 0 | **70** |
+| **Fighter** | 5 | 2× T1 | 1× T1 | 0 | **100** |
+| **Specialist** | 7 | 1× T2 · 2× T1 | 1× T2 | 1 | **145** |
+| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | 1× T3 | 2 | **185** |
+
+^tbl-the-four-ranks-campaign
+
+More points than a unit can spike into one stat, capped by tier so it *spreads* — full rules in [[Unit Design#Ranks (build budget)]]. Skills come off the stat line (one per tier a stat reaches).
+
+> [!check] The old Campaign-Start squeeze was fixed by the rebuild, not by a cap change
+> A 2026-08-05 sweep (`campaign500.py`, 30,000 games per configuration) found the 500-cap crew badly squeezed: **2–4 models**, the mandatory Leader eating **34%** of the budget, and **a shooting list that could not be built at all** (Gunline won 18%, because Leader + rifle at the old prices was 270 Credits on its own). Six rank ladders were swept and none fixed it; only raising the cap did.
+>
+> **The weapon reprice dissolved the problem from the other side.** On the 850 scale a rifle costs **35**, not 130 — so a Leader with an Assault Rifle is **220 of 425**, not 270 of 500, and a three-to-four model Campaign Start crew can carry real guns. The end-to-end check is `catalogue-validation-n1500`: at equal Crew Rating the win-rate spread across four archetypes tightened from **31–70%** to **41–61%**.
+>
+> **Still open:** the one remaining structural skew is that **Assault — the melee archetype — loses every matchup** (61.2% against it at worst). Whether melee is overpriced or `hold_claim` simply undervalues closing cannot be separated at 1-of-5 scenario coverage. That is a table question now.
+
+### The pyramid — two versions
+> **Match Play:** exactly one Leader. Every Specialist requires two fighters of lower rank. Every Recruit requires one Fighter or better. Minimum four fighters.
+
+> **Campaign Start:** exactly one Leader, **minimum three models**. **The Specialist ratio still holds** — every Specialist requires two fighters of lower rank; **only the Recruit-per-Fighter rule is dropped**. Any mix inside the **425** cap. Deliberately looser: a green crew can be all bodies, but it cannot be an all-Specialist elite. **Untested** — dropping the Recruit ratio makes all-Recruit lists legal for the first time. *(Corrected 2026-08-29 to [[Full Rules System v1]] §16, which is canonical; this note previously dropped the Specialist ratio as well, and quoted the retired 500 cap.)*
+
+**There is no unit cap on the crew you field.** The pyramid and the budget do it: at **850** Credits the legal maximum is **8 fighters** (Leader 185 + 3 Fighters 300 + 4 Recruits 280 = 765, leaving roughly **85** Credits of gear between them — a mob with bats). *(Recomputed 2026-08-29 from the 70/100/145/185 ladder; the old figure was 11 at the retired 1000 scale.)*
+
+> [!warning] Per-battle only — the roster IS capped
+> "No unit cap" scopes to the **crew you field in one battle**. The **roster you own** is capped by housing: a base **12** body slots from the HQ, **+6** per Bunkhouse ([[Structures#The catalogue — 23 structures|Structures]]). **Housing is the only population brake** — there is no per-head upkeep *(Water cut 2026-08-01)*. Ownership and fielding are orthogonal — **Credits buy what you own, Crew Rating gates what you field.** *(HQ housing was 10 here and 12 in the decisions log; [[Full Rules System v1]] §17.2 rules **12**.)*
+
+The old ⅓-of-budget **anti-hero cap is cut** — it is redundant. WND is fixed at 1 ([[Damage]]), so a 40-point Leader in plate dies to one lucky pistol shot from a Recruit with a knife. The engine already forbids heroes.
+
+### Loadout
+- **Free to every fighter:** fists, one **Light Melee** weapon, and thick clothing. A civilian with a bat and a jacket.
+- **Carry limits:** one armour · two hands (a Two-Handed weapon takes both, otherwise two one-handers) · up to **two** pieces of equipment.
+- **Weapons are built, not bought** — class + characteristics, rank-gated. Full system in **[[Weapons]]**. A Recruit physically cannot hold a rifle.
+
+### Armour & equipment
+
+| Armour | Injury | Credits |
+|---|:--:|:--:|
+| None / Thick clothing | 0 | **0** |
+| Light | −1 | **10** |
+| Heavy | −2 | **20** |
+
+^tbl-armour-equipment
+
+> [!success] Armour is **measured**, not argued — and the doc/engine split is closed
+> The old 30/60-vs-60/100 fight is over. Both were priors: the engine's 30/60 cited `balance/armourprice.py`, **a file that has never existed in any commit on any branch**, and the doc's 60/100 came from a single 500-cap sweep. Armour has since been **measured directly with zero prior** (`armour-level-n2500`) and lands at **10 / 20** on the 850 scale.
+>
+> **Corroborated by rebuild-to-pay**, which denominates armour in weapons surrendered rather than in a prior: `light + (rifle→pistol)` measures **+0.140 ± 0.200 — fair trade, parity**, with Heavy bracketed on both sides. First time an armour price here has been expressed in a measured quantity.
+>
+> **Heavy is not twice Light**, and that question is closed: the "each point is −10% so −2 must cost 2×" argument runs on the wrong quantity, because linear in injury *probability* is not linear in *win-points*. Measured ratio **1.745 ± 0.416**.
+
+*Armour carries no drawbacks, and the ladder is linear — each point is a flat −10% on the Injury roll, so Heavy costs exactly twice Light. Improvised was cut once its penalty went; it was Light armour under a second name. Full note in [[Weapons#3 · Armor]].*
+
+| Equipment | Effect | Credits |
+|---|---|:--:|
+| Med-Kit | Cancels the −2 on Stabilize / treating Bleed & Poison ([[Damage]]) | **20** |
+| Breach Kit | **+1 to the hack test** ([[Hacking]]) | **20** |
+| Exploit Suite | **+2 to the hack test** ([[Hacking]]) | **40** |
+| Deployable | Turret · mine · trap · beacon — see [[Deployables]] | **5–25** *(9 of 24 priced)* |
+
+> [!warning] Four lines is the whole equipment catalogue
+> Every fighter carries **two** equipment slots and there are effectively two things worth putting in them. This is the thinnest catalogue in the game and the cheapest to widen — equipment is the one category that can add breadth **without touching the combat maths**, because most of it modifies a test that already exists. Flagged, not fixed.
+
+^tbl-armour-equipment-2
+
+
+## Unit design
+
+*Source: `Unit Design.md`*
+
+### UNIT STATISTICS
+
+**Wounds — WND
+
+How many serious hits a unit can suffer before it goes down. Most units have 1 Wound.
+
+**Move — MOV
+
+The number of inches a unit may move when it takes a Move action. The standard human Move is 6".
+
+**Strength — STR
+
+Used for physical force, including melee combat, breaching doors, smashing obstacles, dragging heavy objects, carrying wounded units, moving terrain, and constructing barricades or defenses.
+
+**Agility — AGI
+
+Used for physical movement tests, including jumping, climbing, vaulting, balancing, swinging, crawling, dodging hazards, avoiding falls, and escaping dangerous positions.
+
+**Dexterity — DEX
+
+Used for precise hand-eye actions, including ranged combat, throwing objects, lockpicking, setting traps, disarming traps, and using delicate equipment.
+
+**Intelligence — INT
+
+Used for technical and knowledge-based actions, including hacking, crafting, repairing, medicine, searching, identifying terrain features, and using complex equipment.
+
+**Nerve — NRV
+
+Used to test a unit’s mental state under pressure, including stress
+
+### Stat Scale
+Only the **five path-stats** (STR, AGI, DEX, INT, NRV) take stat points. **WND stays 1 and MOV stays 6"** — they rise only via a specific [[Skill Paths|skill]], never from points. Each **+1 ≈ +10%** on a [[core-000 Core Test|core test]] (bounded 10–90%).
+
+| Value | Meaning | Path tier |
+|:---:|---|:---:|
+| −1 | Impaired — injured, panicked, exhausted | — |
+| 0 | Civilian baseline | — |
+| +1 | Capable | — |
+| +2 | Skilled | **Tier 1** |
+| +3 | Trained | — |
+| +4 | Veteran | **Tier 2** |
+| +5 | Elite | — |
+| +6 | Peak / master | **Tier 3** |
+
+^tbl-stat-scale
+
+**Max is +6**, which keeps the clean 2-point tier cadence. A flat test still tops out at 90% (the natural-1 floor), so +5 and +6 read the same on an *unmodified* roll — the extra point earns its keep against cover, armour, and opposed rolls.
+
+### Rank vs Role
+Two separate axes — don't conflate them:
+- **Rank** = a unit's **command slot**, limited by [[List Building]]. It sets stat points, skill slots, Orders, and caps. Only **Rank** is restricted.
+- **Role** = what a unit is *good at* (Brawler, Shooter, Techie, Medic…). It **emerges** from stats, [[Skill Paths|skills]], gear and scars — unlimited and narrative, and never restricts fielding.
+
+### Ranks (build budget)
+Units buy up from the civilian baseline with **stat points**, spent only on the five path-stats.
+
+A rank grants **more stat points than a unit can spike into one stat** — **tier caps force the spread**, so a fighter is a real character, not a single +2 in a field of zeros.
+
+| Rank | Stat pts | Tier caps (per stat line) | Skills* | Orders | Credits |
+|---|:---:|---|:---:|:---:|:---:|
+| **Recruit** | **3** | none — no tiered stats | **0** | 0 | **70** |
+| **Fighter** | **5** | up to **2× T1** | ~2 | 0 | **100** |
+| **Specialist** | **7** | **1× T2 · 2× T1** | ~3 | 1 | **145** |
+| **Leader** | **9** | **1× T3 · 2× T2 · 4× T1** | ~4 | 2 | **185** |
+
+^tbl-ranks-build-budget
+
+<small>*Skills are derived from the stat line — see [[Skill Paths]]. **Counts are exact, not approximate: one skill per tier a stat reaches.** The table value is the maximum, reached only when every point lands in tiered stats — a fighter who spreads into +1 "dabbles" trades skills for breadth. Costs live in [[List Building]] · [[Full Rules System v1]] §16.</small>
+
+> [!info] Starting skills depend on the **format**, not the rank alone
+> The table above is **Match Play** — a crew built for one game with no campaign attached, so it gets the richer kit. A **Campaign Start** crew is meant to *grow* through the Level track ([[Progression]]) and begins with **exactly one skill each, at the rank's own tier**: Recruit none · Fighter 1× T1 · Specialist 1× T2 · Leader 1× T3, against a **425** Crew Rating cap. **Body costs are identical in both tiers** — 70 / 100 / 145 / 185 — and the separate Campaign-Start ladder is retired; the tiers differ only in the **cap** and the **starting skill count**. Stat points, tier caps and Orders are identical in both. Full tables in [[List Building#The four ranks — two starting tiers]].
+
+- **Tiers:** a path-stat at **+2 = Tier 1**, **+4 = Tier 2**, **+6 = Tier 3**. **+1 is a "dabble"** — capable, but not a tier (no skill). Max stat **+6**.
+- **The tier caps are the ceiling** — they set how many stats a rank may push to each tier, so points *must* spread. A Fighter (5 pts, max 2× T1) builds e.g. `STR+2 / INT+2 / AGI+1` — a brawler who can also hack. Only a **Leader** ever gets a **T3** (a +6 elite stat) — its signature.
+- **Skills ride the stat line:** each stat grants **one skill at every tier it reaches**, from *that stat's* path. So a **+4** stat = its **T1 *and* T2** skill; a **+6** = T1 + T2 + T3 ([[Skill Paths]]). *(Replaces the old points ÷ 2 rule.)*
+- **Recruits** are the bottom of the ladder: a body, nothing more. **No tiered stat, so no skills** — 3 points of +1 dabbles over a flat civilian baseline. They exist so a *swarm* can be fielded; chaff, screens and objective-sitters — **not** a melee force ([[List Building]]).
+- **Rank is also a weapon gate** — a Recruit physically cannot hold a rifle ([[Weapons#Rank gates the class]]).
+- A **Leader is a fighter with Orders** — never benched. Rank rises only by deliberate **promotion** into an open slot ([[Progression]]), never automatically.
+- Fielding caps and costs live in [[List Building]].
+
+> [!info] The rank price **is** the stat price
+> Buying a rank buys its stat points and its skills. That's why [[List Building]] never charges you separately for stats — it would be double-counting. Rank is a *bundle*.
+
+> [!check] Bodies are now **derived from the measured stat ladder** — 2026-08-19, rescaled 2026-08-20
+> The flat 15-per-stat-point is gone. Bodies compute as `body base + stat ladder + Orders premium`, on the **850-Credit** scale, and the measured ladder is **non-flat and stat-dependent**: a one-sided stat (DEX/INT/NRV) is tested against a fixed TN and **saturates** (20/15/15/10/10/5 across the six rungs), while an opposed stat (STR/AGI) cannot saturate and measures **flat at 15**. The old flat rate was wrong in *both* directions.
+>
+> **Validated end-to-end**: at equal Crew Rating the win-rate spread across four archetypes tightened from **31–70%** to **41–61%** (`catalogue-validation-n1500`). Re-deriving bodies halved the spread.
+>
+> **The weakest number left here is the Orders premium** (0 / 20 / 45) — never measured as an Order on any engine, and with no measured neighbour close enough to derive from. Tolerable only because Orders are **rank-gated and never sold à la carte**, so a list-builder cannot arbitrage them.
+
+- Role labels (Brawler, Techie, Medic…) are **emergent** — a role is what a unit is *good at*, never a rank.
 
 
 ## Progression — the Level track
@@ -1089,6 +1885,581 @@ A fully-levelled fighter carries roughly **+140 Credits** over their rank body (
 ### Promotion
 - **Rank never rises automatically.** You may **promote** a veteran into an **open** rank slot between battles (e.g. a fallen Leader's seat), gaining that rank's Orders + skill slot.
 - Multiple veterans can be *leader-calibre* — a deep bench for a brutal game — but [[List Building]] caps decide how many hold rank at once. A promoted Leader still **fights**.
+
+
+## Skills — how the framework works
+
+*Source: `Skill Paths.md`*
+
+Every point-stat (STR, DEX, AGI, INT, NRV) is also a **skill path**. There's no separate skill pool — **a stat hands you a skill every time it reaches a tier.**
+
+- A path-stat at **+2 = Tier 1 · +4 = Tier 2 · +6 = Tier 3.** (**+1 is a dabble** — capable, no tier, no skill.)
+- **Each tier a stat reaches grants one skill from that stat's path, at that tier.** So a stat at **+4** grants its **T1 *and* T2** skill; at **+6**, its **T1 + T2 + T3**.
+- You **choose** the specific skill from that path at that tier — and may take a lower-tier skill from the same path if you prefer (the tier is a ceiling). It must match the stat's path: no Combat skill on your Intelligence.
+- Pick at **crew-build** as you set the stat line, and again in a **campaign** whenever an Advance tips a stat into a new tier ([[Progression]]).
+
+So the stat line *is* the skill loadout — **spread wide** (`STR+2 / INT+2` → one Combat + one Expertise skill, a melee-hacker) or **specialise deep** (`STR+4` → two Combat skills, a master). Same count, different shape. Rank sets how far you can push it:
+
+| Rank | Stat pts | Tier caps | Skills *(Match Play)* | Skills *(Campaign Start)* |
+|---|:---:|---|:---:|:---:|
+| **Recruit** | 3 | no tiers | **0** | **0** |
+| **Fighter** | 5 | 2× T1 | ~2 | **1× T1** |
+| **Specialist** | 7 | 1× T2 · 2× T1 | ~3 | **1× T2** |
+| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | ~4 | **1× T3** |
+
+^tbl-how-it-works-skills-ride-the-stat-line
+
+> [!info] Two starting kits, one catalogue
+> **Match Play** (one-off game, 850 Crew Rating) takes every skill the stat line earns — those fighters never get another chance to develop. A **Campaign Start** crew (425 Crew Rating) takes **exactly one skill, at its rank's tier**, and earns the rest through the Level track ([[Progression]]) — a fully-levelled fighter ends on **four** skills, all from their Primary path. Ruled 2026-08-05, [[Full Rules System v1]] §16 · §26.1.
+
+Only a **Leader** gets a **T3** stat (the +6 elite). Full rank rules in [[Unit Design#Ranks (build budget)]] · fielding in [[List Building]].
+
+
+## Skills — the five paths
+
+*Source: `Skill Paths.md`*
+
+Each path-stat has one path with three tiers. **WND and MOV have no path** — they're fixed (1 and 6"), raised only by a specific skill below. *Path names are WIP.*
+
+| Stat | Path | Covers |
+|---|---|---|
+| **STR** | Combat / Muscle | melee, force, grappling, breaking, hauling |
+| **DEX** | Shooting / Perception | ranged, aim, spotting, trick shots |
+| **AGI** | Movement / Acrobatics | climbing, dodging, repositioning, escaping |
+| **INT** | Expertise / Knowledge | hacking, traps, medicine, tech, terrain |
+| **NRV** | Bravery / Morale | rallying, resisting fear, reckless aggression |
+
+^tbl-the-five-paths
+
+
+
+---
+
+# Campaign and settlement
+
+*Ownership is orthogonal to fielding.*
+
+
+## Structures
+
+*Source: `Structures.md`*
+
+**★** free starting structure. **Everything else is buildable from founding onward** — no structure requires another.
+Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup procedure]])
+
+**Costs are in Materials**, printed 2026-08-05 from [[Full Rules System v1]] §21. **Repair is a flat 30 Materials per structure**, whatever it cost to build. Every number here is **first-draft** — see [[Economy#Open dials]].
+
+### Sustain — keep people alive, keep the grid up
+
+|Structure|Class|Size|Pwr|Materials|What it does|
+|---|---|---|---|:--:|---|
+|**Generator** ★|Plant|3×3|**+5**|**20**|**Power** output|
+|**Bunkhouse**|Building|6×9|−1|**60**|**+6 owned body slots** above HQ's base 12|
+|**Storehouse** *(repeatable)*|Building|6×6|−1|**50**|Bulk storage for **Credits and Materials** above the HQ's base cap. **The loot target in a raid**|
+|**Equipment Shed** *(→ Armory 6×6)*|Station|3×2|−1 → −2|**25 → 96**|Holds every **unequipped** weapon, armour and piece of kit the crew owns — **30 slots**, **+30 per Armory tier**. The Armory tier raises the cap and adds a lock|
+
+^tbl-sustain-keep-people-alive-keep-the-grid-up
+
+- Generator — `Feature · Impassable · Heavy · Powered, Hackable, Explosive`
+- Bunkhouse — `Building · Interior Open · Heavy · Openable, Lockable, Searchable, Climbable`
+- Storehouse — `Building · Interior Open · Heavy · Lockable, Searchable, Breachable`
+- Equipment Shed — `Scatter · Open · Light · Searchable` · Armory — `Building · Interior Open · Heavy · Lockable, Searchable, Breachable`
+
+### Convert — turn one resource into another, and make gear
+
+|Structure|Class|Size|Pwr|Materials|What it does|
+|---|---|---|---|:--:|---|
+|**Processor** ★|Plant|3×5|−1|**45**|**Materials** gatherer — scrap → Materials|
+|**Salvage Yard** ★|Yard|5×7|−1|**45**|**Credits** gatherer — sorts and values what scavengers haul back; better break-down rates on gear. Expandable|
+|**Trader's Kiosk** *(→ Trade House 6×6)*|Station|3×2|−1 → −2|**45 → 128**|Sell owned gear and surplus → **Credits**; the Trade House tier improves rates|
+|**Workbench** *(→ Workshop 6×8)*|Station|3×2|−1 → −2|**45 → 128**|Craft and repair. **Workshop tiers unlock the weapon / armour / chem branches** — upgrades, not separate buildings|
+|**Fabricator**|Building|6×6 → 6×8 → 6×10|−1 / −2 / −3|**70 → 110 → 195**|**Research**, in three tiers. **T1 Fabricator** unlocks new blueprints · **T2 Robotics Workshop** builds robots and UGVs and services the Drone Bay's airframes · **T3 Advanced Weapons Lab** unlocks the 2051 arsenal — directed-energy, guided small-arms, drone-delivered payloads ([[Weapons]])|
+
+^tbl-convert-turn-one-resource-into-another-and-m
+
+- Processor — `Feature · Impassable · Heavy · Powered, Hackable, Climbable`
+- Salvage Yard — `Scatter cluster · Difficult · Light/Heavy by piece · Searchable, Movable, Unstable`
+- Trader's Kiosk — `Scatter · Open · Light · Searchable` · Trade House — `Building · Interior Open · Heavy · Lockable, Searchable`
+- Workbench — `Scatter · Open · Light · Searchable` · Workshop — `Building · Interior Difficult · Heavy · Lockable, Searchable, Powered`
+- Fabricator — `Building · Interior Open · Heavy · Lockable, Powered, Hackable, Searchable`
+- Robotics Workshop (T2) — adds `Interior Difficult, Openable`
+- Advanced Weapons Lab (T3) — adds `Explosive`
+
+### Operate — what you can do outside the walls
+
+|Structure|Class|Size|Pwr|Materials|What it does|
+|---|---|---|---|:--:|---|
+|**HQ** ★|Building|6×6|−1|**70**|Campaign actions, base **12** body slots, base storage. **Tiers raise how many crew you can dispatch per cycle** and gate the Vault|
+|**Vault** *(attaches to HQ)*|Plant|3×3|−1|**50**|**Secure** storage — small capacity, near-unbreachable. Where the irreplaceable goes|
+|**Scout Post**|Plant|3×3|−1|**50**|Pre-**battle** information: see a Twist, choose attacker/defender, reroll deployment|
+|**Comms Mast**|Plant|3×3|−1|**50**|**Mission quality**: reroll a mission test, reach longer-range targets, broadcast for recruits. Dispatch *count* comes from HQ tiers|
+|**Server Core**|Building|6×6|−2|**128**|Intelligence and networked control — rival roster intel, and friendly terminals on the board count as **Linked** ([[Hacking]])|
+|**Drone Bay**|Building|6×8|−2|**144**|Drone [[Deployables]] **and** a recon drone that runs a scout mission **without spending a fighter**|
+
+^tbl-operate-what-you-can-do-outside-the-walls
+
+- HQ — `Building · Interior Open · Heavy · Openable, Lockable, Searchable, Climbable, Powered`
+- Vault — `Feature · Impassable · Heavy · Lockable, Hackable`
+- Scout Post — `Scatter · Impassable · Light · Climbable`
+- Comms Mast — `Feature · Impassable · Open · Climbable, Powered, Hackable`
+- Server Core — `Building · Interior Open · Heavy · Lockable, Powered, Hackable, Searchable`
+- Drone Bay — `Building · Interior Open · Heavy · Openable, Powered, Hackable, Searchable`
+
+> [!info] The Vault — the one thing a raid cannot just kick open
+> The HQ is where your Credits, gear and loot sit during a raid, which makes it the natural target. The **Vault** is the answer, and it is deliberately the hardest object in the game to open. It is **not Breachable** — a Breach charge does nothing to it. The only ways in are the full **Sabotage** sequence (enter → plant → detonate, DEX-defusable) or an **INT hack** at the vault door.
+>
+> It cannot be separated from the HQ: it is an add-on placed in base contact, and it falls if the HQ does.
+
+> [!info] Why the Drone Bay matters more than it looks
+> [[Settlement]] locks **one roster with per-cycle assignment** — sending a fighter on a mission means they cannot fight. That opportunity cost is the whole tension of the downtime layer, and it bites hardest on small crews. The recon drone is the **pressure valve**: it buys back one mission without costing a body, at a price that competes with everything else on the lot.
+
+### Recover — people come back
+
+|Structure|Class|Size|Pwr|Materials|What it does|
+|---|---|---|---|:--:|---|
+|**Med-bay**|Building|6×6|−1|**65**|**+1** to the post-battle Fate roll ([[Campaign#Post-battle — the Fate table]]); the **T2** tier heals scars at a Credits/Materials cost|
+|**Holding Cells**|Building|6×6|−1|**65**|Prisoner capacity ([[Campaign#Captured — resolution]]); the upgraded tier is what allows a **Brainwash** attempt|
+|**Mess Hall**|Building|6×8|−1|**75**|**Once per battle, one fighter clears 1 Stress free** ([[Morale]])|
+
+^tbl-recover-people-come-back
+
+- Med-bay — `Building · Interior Open · Heavy · Lockable, Searchable, Powered`
+- Holding Cells — `Building · Interior Open · Heavy · Lockable, Breachable, Hackable`
+- Mess Hall — `Building · Interior Open · Heavy · Openable, Searchable`
+
+> [!info] Why scar healing is still gated, now that the rebate is gone
+> This callout used to argue that the Med-bay must not undo [[List Building#Campaign rosters|the −2 scar rebate]]. **That rebate was cut on 2026-08-01** — a scar is a pure nerf and does not touch Crew Rating — so the free-lunch argument no longer applies.
+>
+> The gate stays anyway, for a better reason: **removing a permanent penalty is one of the strongest things a settlement can do for a fighter**, and a veteran who can be scrubbed clean between every battle never carries a scar for long enough to matter. That would hollow out the *scars tell the story* tenet ([[Game Vision]]) far more effectively than any points exploit would have. Scar healing stays **T2 only** and costs Credits/Materials. See [[Progression]] · [[Campaign]].
+
+### Defend — this is the raid board
+
+|Structure|Class|Size|Pwr|Materials|What it does|
+|---|---|---|---|:--:|---|
+|**Perimeter Wall**|Line|1" thick, **6" segments**|−1|**50** / segment|The floor benefit — bought by the segment; shapes the whole raid board|
+|**Gatehouse**|Building|6×6|−1|**75**|A controlled chokepoint: the attacker breaches it or routes around it|
+|**Watchtower**|Plant|3×3|−1|**55**|The defender starts one model in it; denies the attacker surprise|
+|**Turret Mount** *(attaches to a Wall or Gatehouse)*|Plant|2×2|−2|**104**|Hardpoint. The turret **auto-deploys** — but costs Credits against your Crew Rating and keeps full fragility|
+|**EW Mast**|Plant|3×3|−2|**104**|Counter-hack and counter-drone: penalises enemy [[Hacking]] in a raid on you; blocks enemy drone deployables|
+
+^tbl-defend-this-is-the-raid-board
+
+- Perimeter Wall — `Scatter · Impassable · Heavy · Climbable, Breachable, Barricadable`
+- Gatehouse — `Building · Interior Open · Heavy · Openable, Lockable, Hackable, Climbable`
+- Watchtower — `Scatter · Impassable · Light · Climbable`
+- Turret Mount — `Feature · Impassable · Light · Powered, Hackable` — hosts one turret [[Deployables|deployable]]
+- EW Mast — `Feature · Impassable · Open · Climbable, Powered, Hackable`
+
+> [!danger] The Turret Mount is not free board power
+> Owning the mount grants **auto-deploy** only — the turret skips the [[Deployables#Deploying — the INT test|INT test]] and starts online. It still **costs Credits against your Crew Rating** to field, still counts against the **9–12** density band, and keeps full fragility: `WND−1`, repairable once, hijackable. This is the settled answer to a pre-placed settlement deployable being strictly better and free.
+
+
+## Structures — canvas, footprints, power, storage, tiers
+
+*Source: `Structures.md`*
+
+### The settlement canvas
+
+Your settlement occupies a strip **12" deep × 36" wide**, drawn on a **1" grid** — a 12 × 36 sheet of one-inch squares, 432 squares total.
+
+The strip is sized so that **your whole settlement always fits on a standard board.** [[Terrain#Setup procedure|Terrain]] divides the 3'×3' board into nine 12"×12" density squares; your settlement is exactly the **back three squares**, on your own board edge.
+
+|Term|Value|
+|---|---|
+|Canvas|**12" × 36"**, 1" grid|
+|Board|**3' × 3'** — the standard board|
+|Settlement occupies|the defender's **back three density squares**|
+|Attacker crosses|~24" of neutral ground|
+
+^tbl-the-settlement-canvas
+
+- **No raid window.** Because the settlement fits the board, a raid always uses **all of it**. There is no sub-section to pick, randomise or argue about — the attacker deploys on the far edge and comes at the whole compound.
+- **Density normalisation is automatic.** Count your placed structures as the large features of your three squares; fill the attacker's six squares with neutral terrain until the board sits at **9–12 large features** total. The band in [[Terrain]] is sacred and a settlement never overrides it.
+- **Bigger boards.** On a 4'×4' the strip widens to **12" × 48"**. Both players use the same canvas size in a given game.
+
+> [!question] Confirm the board size for alpha testing
+> **3'×3'** is recommended: the attacker crosses 24" instead of 36", which is the fairer approach against a defender in prepared positions. 4'×4' is playable but favours the defence.
+
+#### Groundworks — the expansion project
+
+**Groundworks** is a settlement **project**, not a catalogue entry — it clears ground rather than occupying it. It costs **Materials** and extends the canvas:
+
+|Tier|Canvas|Squares|Materials|
+|---|---|---|:--:|
+|Base|12" × 36"|432|—|
+|Groundworks I|**18" × 36"**|648 *(+50%)*|**60**|
+|Groundworks II *(4'×4' play)*|**18" × 48"**|864|**100**|
+
+^tbl-groundworks-the-expansion-project
+
+A maxed settlement reaches roughly **14–15 structures** — still well short of 25.
+
+### Footprint classes
+
+A structure's footprint follows **the physical thing it is**, not its game function. Three classes:
+
+|Class|Footprint|What it is|
+|---|---|---|
+|**Building**|**6×6" minimum**|An enclosed structure with an interior you can enter|
+|**Plant**|**~3×3"**|Tanks, towers, gensets, masts — bulk with no interior|
+|**Station**|**3×1" minimum**|Kiosks, benches, boards — open-air, no walls|
+
+^tbl-footprint-classes
+
+*Yards (Salvage, Vehicle) are scatter clusters and are sized to their sprawl. The Perimeter Wall is a line, bought by the segment.*
+
+Because Buildings are 6×6" minimum on a 12"-deep strip, you can fit **at most two rows of Buildings**. The natural compound is a building line at the back with plant and stations in the yard in front of it.
+
+> [!example] The mix is a strategic axis
+> An all-Buildings settlement fits about **six** structures and is a fortress. A plant-and-stations settlement fits **fifteen** and is made almost entirely of things that don't block line of sight — far more capable, far harder to hold.
+
+### On terrain sizes
+
+> [!important] The footprints in this catalogue are grid sizes, not shopping lists
+> A structure's size tells you how much room it takes on your **settlement sheet** — how much of your 12×36 it costs you. It is **not** a requirement about the model on your table.
+>
+> Use whatever terrain you own that comes closest. A fuel-drum cluster measuring 2½" is a **3×3" Generator**. A ruined house 7" on a side is a **6×6" HQ**. Get in the neighbourhood and carry on — **nobody measures your scenery.**
+
+**Tolerance**
+
+1. **Close enough is correct.** Within **2"** in any dimension for Buildings and yards, within **1"** for Plant and Stations. Just use the piece.
+2. **Undersized is always legal.** You already paid for the space on the sheet; a smaller model costs you nothing and gains you nothing.
+3. **Badly oversized re-reserves.** If a model exceeds the tolerance, **increase its footprint on your sheet to match what's actually on the table.** No policing needed — a 12"-wide mansion standing in for a 6×6 HQ is allowed, it just eats an extra 72 square inches and costs you two other structures.
+
+**Build the detail in.** Where you can, model what the structure actually *does* — a working gate, a ladder to a firing platform, a roof hatch, a wall terminal, a turret hardpoint. The closer your scenery matches its record, the more the table reads itself at a glance, and the better a raid plays.
+
+> [!important] Mark every interactive point
+> Any **Tag** a structure carries — Openable, Lockable, Hackable, Searchable, Climbable, Powered — must be **physically visible on the table**, either modelled onto the piece or marked with a token. If a door can be locked, there is a door or a door token. If there's a terminal, there's a terminal. Nothing interactive is invisible.
+
+### Starting structures — four
+
+Every settlement begins with these, free. **One gatherer per resource**, plus the command hub.
+
+|Structure|Role|Why it's mandatory|
+|---|---|---|
+|**HQ**|command|Campaign actions, mission dispatch, and the base **12** body slots|
+|**Generator**|**Power**|Everything with a draw needs it|
+|**Processor**|**Materials** gatherer|Scrap → Materials. Nothing gets built without it|
+|**Salvage Yard**|**Credits** gatherer|Sorts and values what scavengers haul back — goods, scrap, equipment|
+
+^tbl-starting-structures-five
+
+Starting footprint is **95 of 432 squares — 22%.** A new settlement should read as a found shell with a genset and a heap of sorted scrap.
+
+#### One gatherer each — but never a hard ceiling
+The starting set gives you exactly one gatherer per resource. **You may always build more.** What you may never do is raise output without paying floor space:
+
+- **Build another** gatherer of the same type — a second Processor, a second Salvage Yard. Each is a full structure and eats the canvas accordingly.
+- **Upgrade** the one you have — a tier costs Materials, and where the tier promotes a Station into a Building it costs space too.
+
+That is the whole anti-inflation shape for production: output scales, but only against the scarcest resource in the game — **room on a 12×36 lot**. A settlement that doubles its Materials is a settlement with fewer guns.
+
+### Founding — choosing your first few
+
+At founding you spend **125 Materials + 75 Credits** on **anything in the catalogue** ([[Full Rules System v1]] §17.3). Your picks are placed on the canvas immediately, before your first game. There is no founding-only subset and no prerequisite — the budget and the lot are the only limits.
+
+**125 Materials is roughly two Tier-1 structures** on top of the four free starters. Structures are bought and repaired in **Materials**; the Credits half of the budget goes on the crew ([[List Building]]).
+
+Your **location** ([[Settlement#Choosing a location]]) grants **one structure or upgrade free, at zero Materials cost** — hospital → Med-bay, police station → Holding Cells, scrapyard → a Salvage Yard upgraded one tier. Location and founding budget draw on the **same catalogue**, so a location is a head start and a flavour, never a building nobody else can reach.
+
+> [!check] Founding budget is set — 2026-08-05
+> **125 Materials + 75 Credits**, with per-structure Materials costs printed in the catalogue below and generated from the costing engine. Checked against the reward rate: a normal battle pays **70 Credits + 15 Materials**, so a **Tier I structure still takes ~3 battles** to afford ([[Economy#Income]], T12). *(Halved with the rest of the economy on the 2026-08-20 rescale — leaving the budget at 250 against halved structure costs would have quietly doubled a founding player's buying power.)*
+
+### Power
+
+The **Generator** produces **+5**. Every powered structure has a **draw** scaled to its tier — **T1 −1 · T2 −2 · T3 −3**. The settlement runs on a single sum: **total output ≥ total draw**, tracked on the sheet ([[Economy#Power — output vs draw]]). A structure without Power is **Disabled for the round** and gives no benefit.
+
+The four starters draw **3** — HQ 1, Processor 1, Salvage Yard 1 — against one Generator's **+5**, leaving **two spare**.
+
+> [!check] Resolved — the Generator is **+5**, and D9 was right
+> This note carried **+3** and flagged the contradiction with `docs/POINTS-DECISIONS.md` **D9** (+5, draws T1 1 / T2 2 / T3 3). [[Full Rules System v1]] §19 rules **+5** with exactly D9's draw ladder, so **D9 wins and the +3 is retired**.
+>
+> That also settles the old start-at-capacity question by choosing the other side of it: a new settlement opens with **two Power spare** rather than sitting at exactly capacity. The tension arrives on the *second* build, not the first, which is the better place for it — a founding player shouldn't have to buy a second Generator before they buy anything interesting.
+
+### Storage & caps — what you can hold, and what a raider can take
+
+**Both hoardable resources are capped by what you have built.** Credits and Materials go in sheds — you cannot fit unlimited scrap in one shed. Only **Power** is never banked: it is output-vs-draw ([[Economy]]), a flow rather than a store.
+
+**Your cap on each resource is the sum of what you have built:**
+
+|Source|Holds|Exposure in a raid|
+|---|---|---|
+|**HQ** — base|a small amount of every resource|must be entered; Lockable|
+|**Gatherer buffer**|a little of *its own* resource — the scrap heap beside the Processor, the pallet by the Salvage Yard|**easy pickings** — open ground, Searchable|
+|**Storehouse** — repeatable|the bulk of **Credits and Materials** (dry stores only)|**the loot target** — Breachable and Searchable|
+|**Vault** — HQ upgrade|small, and **secure**|Sabotage or an INT hack, nothing else|
+
+^tbl-storage-caps-what-you-can-hold-and-what-a-ra
+
+**Overflow is lost.** Income above your cap does not bank; it spoils, walks off, or never gets hauled home. That is the anti-inflation lever ([[Economy]]) and it is why a rich settlement must keep building sheds instead of sitting on a pile.
+
+**Two other caps run on the same principle:**
+- **Housing** — **12** body slots from the HQ, **+6 per Bunkhouse**. Housing is the **only** population brake; there is no per-head upkeep ([[List Building]]).
+- **Equipment** — **30** slots to start, **+30 per Armory tier**.
+
+> [!info] Why storage is standalone and not all in the HQ
+> If everything lived in the HQ, every raid would have exactly **one** objective and every raid would play identically. Spreading storage across the lot makes the attacker choose which target is worth the crossing, and makes the defender choose what to cluster behind the wall and what to leave in the open. That is a real layout decision on a 12×36 lot, and it is the main reason the settlement is worth drawing at all.
+
+> [!success] The Vault trade — safe *or* plentiful, never both
+> The **Vault** holds little but is nearly untouchable. **Storehouses** hold a lot and are Breachable. So a settlement sitting on a fortune has to split it: the irreplaceable part goes in the Vault, the working stock sits in sheds where a determined attacker can get it. Losing a raid should cost you something, and this is the dial that decides how much.
+
+**Storage is repeatable across the board.** Build as many **Storehouses** as you have room for. The ceiling on hoarding is floor space, exactly like production.
+
+> [!check] Closed — **any structure can be sabotage-charged in any raid** (2026-08-05)
+> Water was the one resource an attacker **destroyed rather than looted** — you cannot carry a tank away, but you can hole it — and cutting it left every raid target a *loot* target. [[Full Rules System v1]] §21 closes that with a mechanic **that already existed** rather than a new resource:
+>
+> During any raid, an attacker may target **any** of the defender's structures with the **Sabotage** charge the [[Scenarios|Sabotage scenario]] already uses. A fighter in base contact spends an **Action + INT 7+** to **arm** a charge; it detonates after surviving **3 End Phases** armed, unless a defender spends an **Action + DEX 7+** to **defuse** it (**nat 1 = it goes off immediately**).
+>
+> A detonated structure goes **Disabled** until repaired at its flat Materials cost (below). It does not need to be looted, and it was never a bespoke "Water tank" target. **Any** Generator, Processor, Trader's Kiosk or Storehouse is a legitimate sabotage target under this rule.
+>
+> Watch the **3-round fuse** — it is now doing double duty as both the Sabotage scenario's tension knob and the general raid structure-sabotage timer, so tuning one tunes the other ([[Scenarios#Open dials]]).
+
+### HQ tiers — the scavenger pipeline
+
+The **HQ** is the only structure with a full upgrade ladder, and dispatch capacity is what the ladder buys:
+
+| Tier | Materials | Dispatch actions / cycle | Housing | Unlocks |
+|---|:--:|:--:|:--:|---|
+| **HQ I** | *(starter, free)* | **1** | **12** | — |
+| **HQ II** | **110** | **2** | **18** | the **Vault** add-on |
+| **HQ III** | **195** | **3** | **24** | — |
+
+^tbl-hq-tiers
+
+- **Each HQ tier raises the number of crew you can send out per cycle** — scavenging, scouting, sabotage. This is how a settlement fields more scavengers on the map ([[Downtime#Phase 2 — Settlement]]).
+- It also raises the HQ's own base storage and housing, and gates the **Vault** add-on.
+- An assigned **worker** adds **+1 dispatch action** on top of the tier's rate (below).
+
+*HQ tier costs are **first-draft and untested** ([[Full Rules System v1]] §21).*
+
+[[Downtime]] owns the mission rules; the **Comms Mast** is a separate axis — it improves mission *quality* (rerolls, longer-range targets, recruitment broadcasts), never the number of bodies you can dispatch. Build the HQ to send more people, the Mast to send them further.
+
+### Three ways to grow — and how to tell them apart
+
+The lot is small on purpose, so the catalogue must not waste slots on things that are really the same building twice. Every expansion resolves to one of three moves:
+
+|Move|Use when|Costs|Example|
+|---|---|---|---|
+|**Upgrade**|The later thing is the **same job at greater scale**|Materials, and often floor space|Equipment Shed → **Armory** · Workbench → **Workshop**|
+|**Build another**|You want **more throughput** of something you already have|A whole new footprint|A second Processor, another Storehouse, another tank|
+|**Groundworks**|You are out of lot|Materials + its own footprint|12×36 → 18×36|
+
+^tbl-three-ways-to-grow-and-how-to-tell-them-apar
+
+> [!danger] Nothing is chained — no structure requires another
+> **There are no build prerequisites.** Every entry in the catalogue is available from founding onward, and the only gates are **Materials cost** and **room on the lot**. You may build an EW Mast before you build a wall if that is the settlement you want.
+>
+> This is deliberate. Space already stops you building everything — the catalogue is ~651 square inches against a 432-square lot — and it stops each player building a *different* everything, because everyone cuts something different. A prerequisite tree does the opposite: it makes every settlement climb the same ladder in the same order. Scarcity produces divergence; tech trees produce convergence.
+>
+> **Upgrades are not chains.** A tier is the same structure maturing — an Equipment Shed becoming an Armory raises your gear cap without costing a second slot on the lot. That is the point of the ladders, and it is the only kind of sequencing the catalogue has.
+>
+> **Two structures attach rather than gate.** The **Vault** is bolted to the HQ and the **Turret Mount** is a hardpoint on a wall — they must be *placed* in contact with their host because they are physically part of it. That is a placement rule, not a prerequisite, and the HQ is a starting structure anyway.
+
+**A new catalogue entry has to earn itself by doing a different job.** If it does the same job bigger, it is a tier of something you already own — that is the test every entry below passes.
+
+**Entries are named at their first tier**, so the ladder reads naturally as it grows. An Equipment Shed becoming an Armory is the same structure maturing; it does not consume a second slot on the lot.
+
+> [!info] Why this matters — the space is genuinely tight
+> Building the entire catalogue would take roughly **651 square inches**. The base lot is **432**, of which about **300** is usable once you leave lanes to move through. So the base lot fits under **half** the catalogue, Groundworks I fits about **70%**, and even a fully expanded 18×48 lot falls short of everything.
+>
+> That pressure is the point — but it only works if the catalogue is honest. Three separate research buildings would have burned **28% of the lot** on one activity, which is why the **Fabricator** ladder exists instead.
+
+### Upgrade ladders
+
+Every ladder in the catalogue, and what each tier costs in floor space. Where a tier promotes a **Station** into a **Building**, the space cost is the real price of growing up.
+
+|T1|T2|T3|Space|
+|---|---|---|---|
+|**Equipment Shed** 3×2|**Armory** 6×6|—|6 → 36|
+|**Workbench** 3×2|**Workshop** 6×8|—|6 → 48|
+|**Trader's Kiosk** 3×2|**Trade House** 6×6|—|6 → 36|
+|**Fabricator** 6×6|**Robotics Workshop** 6×8|**Advanced Weapons Lab** 6×10|36 → 48 → 60|
+|**HQ** 6×6|HQ II|HQ III|dispatch slots + storage; gates the **Vault**|
+|**Med-bay** 6×6|Med-bay II|—|scar healing unlocks at T2|
+|**Storehouse** 6×6|Storehouse II|—|capacity, not footprint|
+
+^tbl-upgrade-ladders
+
+A young settlement is a scatter of stalls, tanks and gensets; growing up means those stalls swallow the yard. This is why **Groundworks** gets bought to *upgrade*, not only to expand.
+
+---
+
+
+## Structures — space budget
+
+*Source: `Structures.md`*
+
+|Build|Squares|% of 432|
+|---|---|---|
+|Starting four|**95**|22%|
+|Typical ten-structure settlement|**~290**|~67%|
+|Practical ceiling *(lanes to move through)*|**~300**|~70%|
+
+^tbl-space-budget
+
+The sprawl costs are real: the **Salvage Yard** eats **8%** of the lot at its starting size and more once expanded, and every 6×8 Building is another **11%**. Those are decisions, not shopping.
+
+**Twenty-three structures, room for about ten.** You cannot build the good version of everything, and demolishing to rebuild is a real move rather than a footnote.
+
+
+## Worker benefits
+
+*Source: `Structures.md`*
+
+*Drafted 2026-08-05 from [[Full Rules System v1]] §22. Workers are assigned in the **Settlement Phase** ([[Downtime#Phase 2 — Settlement]]); a retiring third-Scar veteran can be **reassigned** into one of these slots instead of leaving the roster ([[Campaign#The third Scar — forced retirement]]).*
+
+**One worker slot per structure that accepts one. A worker is either assigned or not.** The listed benefit applies while they are assigned and **stops the moment they are reassigned** — full stop. There is no number to track and nothing to level.
+
+> [!important] **Ten of these twenty ship in v1. Ten are parked.**
+> [[Full Rules System v1]] §22 rules that only the benefits carrying the campaign loop are live: **Processor · Salvage Yard · Generator · Med-bay · Storehouse · Equipment Shed/Armory · Trader's Kiosk/Trade House · Workbench/Workshop · HQ · Mess Hall**.
+>
+> The other ten — **Fabricator ladder · Scout Post · Comms Mast · Server Core · Drone Bay · Holding Cells · Gatehouse · Watchtower · Turret Mount · EW Mast** — are **parked for a future supplement**. They are either battle-facing micro-buffs that complicate a raid, or intel and unlock effects serving systems that are themselves thin in v1. Marked ⏸ in the table below.
+
+> [!check] Proficiency is cut — ruled 2026-08-05
+> The earlier design had a **0–100 Proficiency** track per worker with three unlocking bands. That was real bookkeeping — a number per worker, per structure, growing over time — for a mechanic that ultimately still just says *"a structure works better with a person in it."*
+>
+> It is the same category of complexity this project has cut everywhere else — per-head upkeep, the Heat/Attention track, HP-based structure damage — and worker progression didn't earn an exception by arriving later. The flat benefits below are each drawn from what used to be that system's T1 or T2 tier.
+>
+> **Not thrown away:** the three-tier version is parked in [[Full Rules System v1]] §22 as a candidate for a future settlement-focused supplement, where granular management is something players opt into rather than something everyone carries.
+
+| | Structure | Assigned worker gives |
+|:--:|---|---|
+| ✅ | **Generator** | **+1 Power** output |
+| ✅ | **Storehouse** | **+10%** effective storage cap |
+| ✅ | **Equipment Shed / Armory** | **+10 equipment slots** on top of the structure's own |
+| ✅ | **Processor** | **+1 Materials** per gather |
+| ✅ | **Salvage Yard** | **+1 Credits** per gather |
+| ✅ | **Trader's Kiosk / Trade House** | Sell rate **+10%** |
+| ✅ | **Workbench / Workshop** | Crafted item Materials cost **−10%** |
+| ⏸ | **Fabricator ladder** | Unlock one blueprint **one tier early** |
+| ✅ | **HQ** | **+1 dispatch action** per cycle, on top of the tier's base rate |
+| ⏸ | **Scout Post** | Reveal a territory's hidden **Side Objective**, not just its Twist |
+| ⏸ | **Comms Mast** | The mission-quality reroll applies to **two rolls** instead of one |
+| ⏸ | **Server Core** | Rival intel includes one fighter's current **Level and skills**, not just roster size |
+| ⏸ | **Drone Bay** | The free recon mission also reveals a territory's **Loot table** entries ([[Territory]]) |
+| ✅ | **Med-bay** | **+1 further to the Fate roll** — stacks with the structure's own +1, **total +2** ([[Campaign]]) |
+| ⏸ | **Holding Cells** | The opposed INT test for **Brainwashing** gets **+1** ([[Campaign#Captured — resolution]]) |
+| ✅ | **Mess Hall** | The free Stress-clear triggers on **two fighters** instead of one |
+| ⏸ | **Gatehouse** | The chokepoint counts as **Heavy** cover, not Light, for defenders behind it in a raid |
+| ⏸ | **Watchtower** | The starting model in the tower also **starts Readied**, no Action spent |
+| ⏸ | **Turret Mount** | The turret gains **+1** to its auto-fire hit roll |
+| ⏸ | **EW Mast** | Counter-hack / counter-drone radius extends to **12"** from the structure |
+
+**✅ ships in v1 (10) · ⏸ parked for a future supplement (10)** — per [[Full Rules System v1]] §22.
+
+^tbl-worker-benefits
+
+**Three structures take no worker** — **Bunkhouse**, **Vault** and **Perimeter Wall**. They are passive amenities or board shaping, with no operational job for a person to hold.
+
+> [!warning] All twenty numbers are first-draft and untested
+> Same flag as everything else content-shaped in the 2026-08-05 pass — though they are now much simpler to check, since there is no Proficiency curve to validate alongside them ([[Downtime#Still open]]).
+
+### Category counts
+Sustain **4** · Convert **5** · Operate **6** · Recover **3** · Defend **5** = **23**. Deliberately uneven — forcing five per category is what produced filler in the first pass. *(Was 25; the Water Reclaimer and Cistern were cut with Water on 2026-08-01.)*
+
+
+## Settlement
+
+*Source: `Settlement.md`*
+
+*Founding drafted 2026-08-05 from [[Full Rules System v1]] §17. The canvas is in [[Structures#The settlement canvas]], Power and storage in [[Economy]], and the between-battles sequence in [[Downtime]]. The original design notes are kept verbatim further down.*
+
+### Choosing a location
+
+At founding, choose **one Location**. It grants **one free structure or upgrade at zero Materials cost** — drawn from the same catalogue everyone else buys from, so a Location is a head start and a flavour, never a building nobody else can reach.
+
+| Location | Grants |
+|---|---|
+| **Hospital** | Free **Med-bay** |
+| **Police Station** | Free **Holding Cells** |
+| **Scrapyard** | **Salvage Yard** upgraded one tier |
+| **Fire Station** | Free **Bunkhouse** |
+| **National Guard Armory** | Free **Armory** *(Equipment Shed pre-upgraded)* |
+| **High School / University** | Free **Comms Mast** |
+| **Auto Shop / Garage** | Free **Workshop** *(Workbench pre-upgraded)* |
+| **Radio / TV Station** | Free **Server Core** |
+| **Farm / Ranch** | **+25 Materials** to the founding budget |
+| **Strip Mall / Shopping Center** | Free **Trade House** *(Trader's Kiosk pre-upgraded)* |
+
+^tbl-choosing-a-location
+
+Every one is a real structure type found in and around a major city — the Location is the fiction of *what this place used to be* doing mechanical work.
+
+### Starting structures
+
+Every settlement begins with these four, free — one gatherer per resource plus the command hub:
+
+**HQ** (command, **12 housing**) · **Generator** (**+5 Power**) · **Processor** (Materials gatherer) · **Salvage Yard** (Credits gatherer).
+
+Starting footprint: **95 of 432 squares**. Full entries in [[Structures#Starting structures — four]].
+
+### Founding budget
+
+**125 Materials + 75 Credits.** 125 Materials is roughly **two Tier-1 structures** on top of the free four. The **whole 23-structure catalogue is open from turn one** — no prerequisites, no research gate ([[Structures]]).
+
+Structures and repairs are paid in **Materials**; the Credits half goes on the crew ([[List Building]]). A **Farm/Ranch** Location adds **+25 Materials** to this budget instead of a free building.
+
+### Settlements in battles
+
+Resolved — the settlement **is** the board. A settlement's 12"×36" canvas is exactly the defender's **back three density squares** on a 3'×3' board, so a raid uses the whole compound and the attacker crosses ~24" of neutral ground ([[Terrain#Settlement boards — the same procedure, one square-set pre-filled]]).
+
+**A raid is not meant to be fair.** The defender fights on home ground with their own structures' tags, turrets and [[Infrastructure]] for free, and **wins all Priority ties** — one small lever, not a stack of raid-only exceptions.
+
+### Assigning roles
+
+Two jobs a person can hold, and they compete for the same bodies:
+
+- **Crew** — fielded in battles, within housing and the Crew Rating cap ([[List Building]]).
+- **Worker** — assigned to a structure for its printed benefit, **assigned or not**, no progression track ([[Structures#Worker benefits]]).
+
+Sending a fighter out on a **dispatch** — Scout or Scavenge — means they are not available for that battle. That opportunity cost is the whole tension of the downtime layer ([[Downtime#Phase 2 — Settlement]]).
+
+---
+
+
+## Downtime — the campaign turn
+
+*Source: `Downtime.md`*
+
+> [!info] Superseded — [[Full Rules System v1]] is the ruling
+> **Drafted as §25.5, the Campaign Turn.** This note mirrors it; §25.5 is the ruling.
+
+*Drafted 2026-08-05 in [[Full Rules System v1]] §25.5. Everything in [[Structures]], [[Settlement]] and [[Progression]] that referred to a "Settlement Phase" was assuming this sequence existed before it was ever written.*
+
+Every cycle between battles runs three phases, **in order**. Nothing in Workers or campaign persistence happens outside this sequence.
+
+### Phase 1 — Post-Battle
+Resolved the moment a battle ends, before anything else.
+1. **Survival.** Check every fighter against the **Safe** rule ([[Campaign]]): still standing with the crew, left via a friendly edge, or ending in base contact with a friendly needs **no roll**. Everyone else rolls the Fate table, resolving Captured or Hardened on the spot.
+2. **Level-ups.** Apply every qualifying trigger from the battle just played — kills, Glorious Deeds, surviving, objectives held — to each survivor, subject to the **6-source soft cap**. Anyone crossing a Level resolves it now ([[Progression]]).
+3. **Bank Resources.** Add the battle's Credits and Materials, capped by storage.
+
+### Phase 2 — Settlement
+Follows immediately once Phase 1 is fully resolved. This is where the settlement itself moves.
+- **Build & upgrade structures** against the catalogue ([[Structures]]).
+- **Assign or reassign workers.** Reassigning ends the old benefit *immediately*; the new one starts producing next Settlement Phase, never retroactively.
+- **Assign Power** across powered structures, respecting each one's draw. Anything left unpowered is **Disabled** until covered.
+- **Resolve pending Captured decisions** — Ransom or Brainwash attempts due this phase.
+- **Resolve third-Scar retirement decisions.**
+- **Dispatch actions** — one per HQ tier (HQ I = 1 · II = 2 · III = 3). Two types exist in v1:
+	- **Scout** — reveal a chosen territory's Twist or hidden Side Objective before a battle is fought there.
+	- **Scavenge** — roll that territory's Loot table ([[Territory#The default loot table]]) for a small Credits/Materials gain, no battle needed.
+
+	*Sabotage-by-dispatch is deliberately **not** in v1: wrecking a specific structure needs the planted-charge mechanic, which needs a raid. Dispatch stays light and non-combat, and the interesting sabotage decision stays on the table, literally.*
+
+### Phase 3 — Battle Prep
+Immediately before the next battle.
+1. **Choose the territory**, and therefore the scenario from its card ([[Territory]]).
+2. **Set the Crew Rating cap** for the format — Match Play **850** · raid **640** · pitched **1275** · Campaign Start **425** ([[List Building]]).
+3. **Build the roster** — which owned fighters to field within housing, equipped within the Rating cap.
+4. **Resolve setup-time bonuses** — Faction battlefield rules, Location founding benefits, territory-card modifiers.
+5. **Roll the Twist** once deployment is set.
+
+### Still open
+- **Train is cut** as a downtime action — growth comes only from post-battle Levels ([[Progression]]).
+- Craft/repair sit inside the Workbench/Workshop, not as a separate downtime menu entry.
+- **Solo & co-op downtime is not drafted** — see [[Solo & Co-op]], still `Not Started`.
+- **Worker benefit numbers are first-draft, untested** ([[Structures#Worker benefits]]). *(The 0–100 **Proficiency** track was cut on 2026-08-05 — a worker is assigned or not, so there is no gain rate to resolve in this phase any more.)*
 
 
 ## Economy
@@ -1188,6 +2559,112 @@ Where Credits and Materials actually go:
 > Nothing in the 2026-08-05 pass addressed it, and it is the reason [[Territory#The default loot table|the loot table]] is deliberately left untuned — loot is one of the few natural places to route a sink fix through.
 
 
+## Territory — cards, loot table, control states
+
+*Source: `Territory.md`*
+
+*Drafted 2026-08-05 from [[Full Rules System v1]] §23. The **territory card** is the unit of content here — a territory is not a hex with a bonus printed on it, it is a bundle of a board, a scenario, a loot profile and a reason to go there.*
+
+### The territory card — eleven required fields
+Every territory ships as one card. A card missing any of these fields is not finished:
+
+| # | Field | What it carries |
+|:--:|---|---|
+| 1 | **Terrain recipe** | What fills the density squares — still inside the sacred **9–12** band ([[Terrain#Setup procedure]]) |
+| 2 | **Scenario weighting** | Which of the five shapes this place tends to produce ([[Scenarios]]) |
+| 3 | **Side Objective(s)** | The optional secondary goal, revealed or hidden |
+| 4 | **Infrastructure** | Which operable features are bolted into this board ([[Infrastructure]]) |
+| 5 | **Events** | Any location-specific entries layered over the standard table ([[Events]]) |
+| 6 | **Loot table** | The default table below, or this card's overrides |
+| 7 | **Control benefit** | **Access, never power** — what holding it lets you *do* |
+| 8 | **Supply requirement** | What it costs to keep held |
+| 9 | **Control state** | Claimed · Controlled · Isolated (below) |
+| 10 | **Adjacent territories** | The map graph — what it borders, and therefore what can cut it off |
+| 11 | **Raid profile** | How a raid on this territory is laid out and fought |
+
+^tbl-the-territory-card
+
+> [!important] A control benefit grants **access**, never power
+> This is [[Game Vision|the first tenet]] applied to the map: holding ground widens what a crew can *choose to do*, and never makes a fighter flatly stronger for standing somewhere. A territory printing "+1 DEX to your crew" would be an unpriced power grant and does not belong on a card.
+
+Each card also carries **1–5 Territory Deeds** — Glorious Deeds themed to that location, on top of the ten standard ones ([[Campaign#Glorious Deeds]]).
+
+### The default loot table
+
+Every territory needs a Loot table. **This is the base table** any territory uses unless its own card overrides specific entries to fit its flavour — an industrial territory might swap found jewellery for found tools.
+
+It is also what [[Terrain Interaction#Searching and looting|Search]] rolls on for its *Supply cache* and *Gear* results, what the **Raid** scenario draws for loot ([[Scenarios]]), and what a **Scavenge** dispatch rolls ([[Downtime]]).
+
+Roll **1d10** whenever a Search, Raid loot or Scavenge action calls for it:
+
+| d10 | Result |
+|:--:|---|
+| 1 | Nothing usable — spoiled, broken, or already picked clean |
+| 2 | **+5 Credits** |
+| 3 | **+10 Materials** |
+| 4 | **+10 Credits** |
+| 5 | A basic **Light Melee or Sidearm** weapon, unbuilt — the player picks the class, no characteristics ([[Weapons]]) |
+| 6 | **+15 Materials** |
+| 7 | **+15 Credits** |
+| 8 | **+20 Credits** |
+| 9 | One piece of **equipment** — Med-Kit, Breach Kit, or a basic Trap/Mine, player's choice ([[List Building]] · [[Deployables]]) |
+| 10 | **Jackpot** — roll twice more on this table, ignoring further 10s |
+
+^tbl-the-default-loot-table
+
+Small, fast and deliberately low-stakes. The job is to make searching worth doing **even when a battle is going badly** — not to be a second economy.
+
+> [!warning] First-draft values, and deliberately not tuned yet
+> These numbers have **not** been checked against the economy-sink problem flagged in [[Economy#Open — the economy sink]], and probably shouldn't be tuned until that is addressed. Loot is one of the few natural places to route a sink fix through if the economy needs one, so tuning it first would mean tuning it twice.
+
+### Control states
+
+A territory moves through three states:
+
+| State | Reached by | Benefit |
+|---|---|:--:|
+| **Claimed** | Winning a battle fought there | **None yet** — you hold the ground, not the output |
+| **Controlled** | Assigning a worker, or paying Materials | **Active** |
+| **Isolated** | An enemy holds an adjacent territory and cuts it off | **Suspended** until the link is restored |
+
+^tbl-control-states
+
+**Claimed is not Controlled.** Winning the battle is the easy half; a territory only starts paying once you spend something to hold it, which is what makes a wide, thin empire a real risk rather than a free win.
+
+
+## Events
+
+*Source: `Events.md`*
+
+*Drafted 2026-08-05 from [[Full Rules System v1]] §27. What exists in v1 is the **battlefield** event table; settlement- and map-scale events are still open (below).*
+
+### Battlefield Events — exactly two rolls, no running clock
+
+Roll **1d10** twice per battle: at the **start of Round 1**, and at the **start of the midpoint round**. That is the whole schedule — there is no per-round event roll and no escalating clock, because a running event track competes with the scenario for the players' attention and turns every round into table-lookup.
+
+| d10 | Event | Effect |
+|:--:|---|---|
+| 1 | **Clear skies** | No effect |
+| 2 | **Rain rolls in** | Ranged range **−3"**; **Hide** test **+1** |
+| 3 | **Trader's caravan** | Place a neutral **Trader** marker; a unit in base contact may buy one item |
+| 4 | **Pack on the move** | A neutral hostile token attacks the nearest model within **12"** |
+| 5 | **Power flicker** | Powered terrain within **12"** of centre is **Disabled** this round ([[Infrastructure]]) |
+| 6 | **Distant gunfire** | Every model within **12"** of centre gains **1 Stress** ([[Morale]]) |
+| 7 | **Scavenger's luck** | An extra loot token appears at an unclaimed **Side Objective** ([[Territory]]) |
+| 8 | **Structural failure** | One Building piece within **12"** of centre becomes **Difficult** ground ([[Terrain]]) |
+| 9 | **Radio chatter** | Both players may reroll one failed **Spot** this round |
+| 10 | **All quiet** | No effect |
+
+^tbl-battlefield-events
+
+**Two of the ten entries do nothing on purpose.** A 20% chance of "the world stays out of it" is what keeps the table feeling like weather rather than a second scenario.
+
+Events are layered by [[Territory|territory cards]], which may add location-specific entries over the standard table — a subway territory rolling *Power flicker* differently to an open lot.
+
+> [!info] Events vs the Twist — different jobs, don't merge them
+> The **Twist** ([[Scenarios#The Twist (roll 1d6 at setup)]]) is rolled **once at setup** and changes the whole game's shape before a die is thrown, so both players can plan around it. An **Event** fires mid-battle and is something you *react* to. One is a condition of the fight; the other is an interruption. Keeping them separate is why neither needs to be gentle.
+
+
 ## Campaign — Fate, Scars, Glorious Deeds
 
 *Source: `Campaign.md`*
@@ -1284,6 +2761,122 @@ On taking a **third Scar**, a fighter must retire. Choose one, resolved in the *
 > [!question] Fate is a first-draft spread — tune once campaigns are played. The per-injury effects, Captured and Hardened were drafted 2026-08-05 ([[Full Rules System v1]] §26.3), closing the long-standing gap where the table pointed at scar content that had never been written. Scars hook into [[Progression]] and the *every scar tells a story* tenet.
 
 
+## Scenarios
+
+*Source: `Scenarios.md`*
+
+### 1 · Take a Hold  *(Shape: Control)*
+**Premise.** Three power terminals sit on the centreline; light them up and stand on them.
+
+- **Objectives.** **3 terminals**, one central and one 12" to each flank, all on the centreline ([[Hacking]]-style Interacts). A terminal is neutral until **claimed** (base contact, **INT 7+** → your marker). A claimed terminal that no one holds stays claimed until an enemy re-claims it.
+- **Scoring.** Each **End Phase (Rounds 2–6)**, score **1 VP** per terminal you **hold** (claimed *and* uncontested, per Holding rules). Max **15 VP**.
+- **Victory.** Most VP after Round 6.
+- **Terrain hook.** You can't score a terminal you haven't hacked — so a fast body isn't enough; you need the **INT** to claim and the bodies to hold.
+- **Twist flavour.** *Blackout* turns the flanks into knife-fights; *Live Board* often lands the hazard on the centre terminal.
+
+### 2 · Escort  *(Shape: Mobile · asymmetric)*
+**Premise.** The **Attacker** walks a caravan across the board; the **Defender** runs out the clock.
+
+- **Setup.** One **Caravan** model starts in the Attacker's deployment zone. It has **no activation of its own** and cannot be destroyed — only delayed. It **cannot** cross **Impassable/Blocked** terrain.
+- **Moving it.** A friendly (Attacker) unit in base contact may spend its **Action** to move the caravan up to **6"** (an **Order** can move it again — [[Initiative & Activation]]). It moves at half rate through Difficult ground.
+- **The route.** The board is laid with a **chokepoint** the caravan must pass — a door, bridge or blast door ([[Infrastructure]]). The **Defender** may operate/close it (or raise barriers, drop shutters); the **Attacker** must **hack or Force** it back open. *This is the scenario's beating heart — terrain gates the escort.*
+- **Victory.** **Attacker** wins the instant the caravan **exits the far edge**. **Defender** wins if it hasn't by the end of Round 6.
+- **Terrain hook.** Built-in: the caravan literally cannot finish without the crews fighting over an operated feature.
+
+### 3 · Raid  *(Shape: Retrieve)*
+**Premise.** Both crews cache loot at home and send raiders for the enemy's.
+
+- **Setup.** Each player places **3 loot caches** in their **own half**, each **6"+ apart** and **6"+ from any board edge**, tucked into or behind terrain (a building, a locked room). One of your three is secretly your **Jackpot** (worth **2**).
+- **Looting.** An **enemy** unit in base contact spends its **Action** on an **INT 7+** Search → the cache is **Looted** (your token; it's spent). A cache in a **locked/reinforced** container first needs the door **Forced (STR)**, **picked (DEX)** or **hacked (INT)** — [[Terrain Interaction]].
+- **Victory.** Most **enemy** loot value taken by end of Round 6 (Jackpot = 2). You score by raiding *theirs*, not by defending *yours* — so both crews must attack.
+- **Terrain hook.** Caches live inside terrain; the Interact suite (Force / Lockpick / Hack / Search) is the scenario.
+
+### 4 · Sabotage  *(Shape: Timer · sudden death)*
+**Premise.** Each crew nominates a building it must **defend**, and plants a charge on the enemy's.
+
+- **Setup.** Each player nominates one **target building** in their own half. It is the objective the *enemy* is coming for.
+- **The charge.** An enemy unit in base contact with your target spends its **Action** + **INT 7+** to **arm** a charge (a scenario [[Deployables|deployable]]). Once armed it **counts down at each End Phase**; after it survives **3 End Phases armed**, it **detonates**.
+- **Defusing.** A defender in base contact spends its **Action** + **DEX 7+** to **defuse** (nat 1 = it goes off now). A defused charge is removed; the enemy may re-arm from scratch.
+- **Victory.** **Detonating the enemy's building wins immediately** (sudden death). If neither detonates by the end of Round 6, the side whose charge reached the **most countdown** wins; equal = **draw**.
+- **Terrain hook.** The target is a real building — often **locked or reinforced** ([[Terrain Interaction#In-battle repair / settlement hook]]); you fight *into* it to arm and *around* it to defend.
+
+> [!important] This charge is now the game's **general** structure-destruction mechanic
+> As of 2026-08-05 the same arm/countdown/defuse sequence is what lets a raider wreck **any** structure in a settlement, in **any** raid — not just a nominated target in this scenario ([[Structures#Storage & caps — what you can hold, and what a raider can take]] · [[Full Rules System v1]] §21). A detonated structure goes **Disabled** until repaired at a flat 30 Materials.
+>
+> That closed the hole Water left when it was cut — raids needed a target you *destroy* rather than *loot* — using a mechanic that already existed instead of inventing a resource. It also means the **3-round fuse below is load-bearing in two places at once.**
+
+### 5 · Power Supply  *(Shape: Network · INT-primary)*
+**Premise.** Bring the grid back online — run lines from the central transformer out to the supplies. The showcase for the **INT / terrain** engine.
+
+- **Setup.** A neutral **Transformer** (a hub terminal) sits **dead-centre**. **Four Power Supply** nodes are placed in the terrain around it, each **>8"** from the hub and from each other.
+- **Claiming the hub.** A unit in base contact hacks it (**INT 7+**) to bring it online **for your side**.
+- **Running a line.** A unit in base contact with a node you already control (the hub, or a connected supply) spends its **Action** + **INT 7+** to **run a line** to an **uncontrolled supply within 8"**, claiming it — building the chain **outward** from the hub.
+- **Cutting a line.** An enemy unit in base contact with one of your claimed nodes spends its **Action** to **sever** it (**DEX 7+**, or a successful melee/ranged hit on it as a Feature); the node and everything downstream of it revert to neutral.
+- **Victory.** First crew to hold the **hub + 2 connected supplies** at an **End Phase wins** (sudden death). If neither does by Round 6, **most connected supplies** wins.
+- **Terrain hook.** Lines route through contested terrain; nodes sit in cover; the whole scenario is a spatial **INT** race with the firefight deciding who gets to keep building.
+
+---
+
+
+## Scenarios — the template
+
+*Source: `Scenarios.md`*
+
+Every scenario fills in the same seven slots. Build new ones by answering these.
+
+| Slot | What it sets |
+|---|---|
+| **Shape** | Control · Mobile · Retrieve · Timer · Network — the win *pattern*. |
+| **Board & terrain** | 3'×3', **9–12 large features** (the legal-board density from [[Crew Sim — Findings]]). Below this it isn't a Settlements game. |
+| **Deployment** | Zones **24" apart** ([[Core Game Format]]). Symmetric or **attacker/defender** asymmetric. |
+| **Objectives** | What they are, where they sit, and the **Interact** that claims/uses them. |
+| **Scoring & victory** | How points are earned and what wins. Never "eliminate the enemy." |
+| **Length** | **6 rounds** standard ([[Rules Engine]]); Timer/Network shapes can end in **sudden death**. |
+| **Twist** | One variable rolled at setup (below) so no two games are identical. |
+
+^tbl-the-scenario-template
+
+
+## Scenarios — shared rules and the Twist
+
+*Source: `Scenarios.md`*
+
+### Objectives are Interacts
+An **objective** is a marker or a piece of interactive terrain. Acting on one needs **base contact**, costs the unit's **Action**, and resolves as the listed test (`1d10 + Stat ≥ 7`, nat 1/10 as always). The scenario names the stat:
+- **Claim / activate / connect** → **INT** (a hack or a technical Interact — [[Hacking]] / [[Terrain Interaction]]).
+- **Loot / search** → **INT**, and the piece takes a **Searched/Looted token** (it's spent — [[Terrain Interaction#Searching and looting]]).
+- **Arm / defuse a charge** → **INT** to arm, **DEX** to defuse (like a [[Deployables]] mine).
+- **Open the route** → **Force STR** / **Lockpick DEX** / **hack a door INT** / operate [[Infrastructure]] (bridge, blast door).
+
+A unit that is **Down, Out or Broken** cannot hold, claim or score. **Shaken** units may act normally (at their −1).
+
+### Holding & contesting
+For any "hold" objective:
+- You **hold** it if you have a **standing** (not Down/Out) unit within **3"** and **no** enemy within 3".
+- **Contested** (models from both sides within 3") → **nobody** holds it that round. Break the contest by removing or driving off the enemy — *that* is what combat is for.
+
+### Scoring clock
+Points are scored in the **End Phase** (step after conditions resolve, [[Rules Engine#Turn / Round Structure]]), so a mid-round grab that is lost by End Phase scores nothing. **No scoring in Round 1** — the first round is the advance.
+
+### Concession, bottling & the wipe
+- **Wiped out.** A crew reduced to **zero standing models** (all Down / Out / BugOut) can no longer contest or score; the opponent **plays on to bank objectives** (a **Retrieve** or **Network** win can still be raced against the clock). If **both** crews are wiped in the same round, the side **ahead on objectives** at that moment wins.
+- **Bottling** ([[Morale#Bottling — voluntary concession]]) is a *choice*, and resolves by timing. **Rounds 1–3**, a crew can only quit by a **fighting withdrawal** off its own edge (which becomes a wipe once the board is clear, above) or by an **accepted surrender** (immediate opponent win). **Round 4+**, a declared bottle **ends the game at once as the opponent's win**, regardless of the objective score.
+
+### The Twist (roll 1d6 at setup)
+| d6 | Twist |
+|:--:|---|
+| 1 | **Blackout** — true LOS is capped at **12"** all game (night fight). |
+| 2 | **Live Board** — one printed terrain **hazard** starts active ([[Terrain#Hazards (the Dangerous overlay)]]); place it centrally. |
+| 3 | **Reinforcements** — at the End Phase of Round 3, each crew returns **one Down** model to its own board edge. |
+| 4 | **Scavengers** — a neutral **bonus objective** (worth +1 / a looted cache) sits dead-centre; either side may take it. |
+| 5 | **Foul Weather** — the open is **Difficult** ground (double movement cost outside cover); rewards fighting through terrain. |
+| 6 | **Clean** — no twist. A straight fight over the objectives. |
+
+^tbl-the-twist-roll-1d6-at-setup
+
+---
+
+
 ## Factions
 
 *Source: `Factions.md`*
@@ -1340,6 +2933,148 @@ On taking a **third Scar**, a fighter must retire. Choose one, resolved in the *
 1. The HACKERS - Tech experts, nerds, hackers, etc. 
    
    - Bonus to INT minus to STR, early access to high-tech equipment, excel at hacking. Playstyle = Control/buffs/debuffs Elite smaller unit crews.
+
+
+## Out of scope — what Settlements is NOT
+
+*Source: `Out of Scope — What Settlements is NOT.md`*
+
+Things that would make Settlements a different game. Guard these.
+
+- **Not a mass-battle / army game.** Skirmish scale only — small crews, one board, ~90 minutes. No regiment/company-scale rules. *(Format: 2p, 3'×3', 6 turns.)*
+- **Not annihilation-driven.** Victory is objective-driven; you can win without a kill; bottling is the norm. Never make "table the enemy" the default win condition.
+- **Not miniatures-locked.** Rules must work with ANY models (DIY / 3D-printed / bought). Never write a rule that only functions with a specific proprietary miniature or base.
+- **No real-world political branding.** Factions are ideologically-coded *archetypes*, never branded with real parties, figures, or organisations. This is wargame design, not political commentary. *(From Setting Notes — hard line.)*
+- **No superhero power fantasy.** "We are only human" (Tenet 4) — everyday people in brutal firefights, not invincible action heroes. Fighters mostly have 1 wound; death is real. ⚠️ *Boundary to set: psychic abilities (the Mental stat: telekinesis/telepathy/healing) and 50mm "beasts" DO exist — so the line is "grounded, fragile humans + limited grim edge," not "no powers at all." Decide exactly where that edge sits.*
+- **No rules bloat.** "Crunchy not Concrete" (Tenet 5) — see the ceiling in §3. Never add a subsystem that a whole game can be played without noticing.
+- **Not a video game / app-dependent game.** Tabletop-first. Never make a rule *require* an app, timer, or digital tool to resolve. ⚠️ *(Solo/co-op AI later may use helper tools — allowed, but the core game stays paper-playable.)*
+- **No pay-to-win / collection-to-win.** A bigger model budget must not beat better play (Tenet 1: "the board is the great equaliser"). Never gate power behind volume of purchases.
+- ⚠️ **No high-fantasy / sci-fi aesthetic.** Modern near-future civil war setting — no elves/orcs/space-marines/aliens. *(Confirm how far "near-future tech" and the psychic/beast elements are allowed to push before it stops feeling grounded.)*
+
+## 2 · Parked — not now, maybe later
+Deferred deliberately. These are *paused*, not rejected — revisit after the Final Alpha.
+
+- The **advanced/parking-lot rules** already logged: [[adv-001 Vehicles]] · [[adv-002 Drones]] · [[adv-003 Civilians and non-combatants]] · [[adv-004 Weather and climate]] · [[adv-005 Campaign rules]].
+- **Solo / co-op / PvPvE** — designed *after* the 2-player core works ([[Solo & Co-op]]).
+- **3+ player** board/format rules — 2p is the design target first.
+- Anything that fails the rule: *don't deepen a system until the [[Final Alpha]] slice plays.*
+
+## 3 · Complexity ceiling (enforces "Crunchy not Concrete")
+Concrete limits so crunch never becomes bloat. ⚠️ *numbers are proposals — set them deliberately.*
+
+- **One core dice mechanic**, reused everywhere. No per-system bespoke resolutions. *(See [[Rules Engine]].)*
+- **A fighter activates in under a minute.** If a rule can't resolve that fast, simplify it.
+- **Modifier cap ±3** — never stack endless modifiers.
+- **~2 activations per fighter.** No sprawling action-point economies.
+- **No hit-location tables, ammo-counting, or encumbrance spreadsheets** — abstract them into the injury/condition systems instead. ⚠️
+- **A rule must fit its reference card.** If it needs a page of exceptions, it's too complex.
+
+## 4 · Rejected-ideas log
+When you say "no" to something, record it here with *why* — so it doesn't creep back in a new costume.
+
+| Idea | Ruling | Why | Date |
+|---|---|---|---|
+| _(example)_ Per-shot ammo tracking | Rejected | Violates the complexity ceiling; abstracted into weapon traits | — |
+| **Veteran WND above 1** | **ALLOWED, hard-capped at WND 3** | Campaign survival must be mechanically felt or "scars tell the story" is flavour text. WND 2 costs a fighter ~10 battles of survival (Level 7); WND 3 additionally costs a T3 skill slot (Tough). Both are visible on the card, priced into Crew Rating, and every hit still does *something* ([[Damage]]) — a WND 3 legend still dies in one bad round. **No current or future source may push WND past 3, and no source below Level 7 / Tier 3 may grant WND.** | 2026-08-06 |
+| **Seeker mine** (self-moving munition) | **Parked, not rejected** | A moving munition on a 3'×3' board is an edge-case factory — does it draw Reactions? trigger traps? get shot as a Feature? what is its facing? Revisit after the [[Edge Cases]] audit exists. Proximity and Remote carry the family fine. | 2026-08-06 |
+
+^tbl-4-rejected-ideas-log
+
+---
+*A living document — edit freely. See [[Game Vision]] · [[Rules System — Master Roadmap]] · [[Rules System MOC]].*
+
+
+
+---
+
+# Physical representation
+
+*What each thing looks like on the table.*
+
+
+## Board — terrain
+
+*Source: `Board Representation.md`*
+
+Represent the piece however you like, then declare its one-line profile at setup (`Type · Movement · Cover · tags`). See [[Terrain]] for the rules.
+
+| Type | Represent with | Default at setup |
+|---|---|---|
+| **Building** | any boxed / printed / MDF structure; mark each floor | interior Open, walls Impassable; Light at windows, Heavy behind walls |
+| **Ruin** | broken MDF, foam offcuts, partial walls | Difficult; Light/Heavy; often Concealing |
+| **Scatter** | cars, crates, barrels, dumpsters, low walls, sandbags | Open around; Light/Heavy by bulk; low-leap under 2" |
+| **Environmental** | felt / paper for water & mud, lichen or clump foliage for woods | Difficult or Impassable; woods Concealing |
+| **Feature** | a printed token or a small model (terminal, vent, camera, turret) | occupies its spot; feature-damage rules ([[Terrain Interaction]]) |
+| **Deployed** | the player-placed model itself (barricade, trap, turret) | as placed / as the piece |
+
+^tbl-terrain
+
+
+## Board — settlement structures
+
+*Source: `Board Representation.md`*
+
+Built structures follow the **Terrain** rules above — declare the same one-line profile at setup. The catalogue prints one for every entry ([[Structures]]).
+
+- **Footprints are approximate.** The size in [[Structures#Footprint classes|the catalogue]] is what a structure costs on your **settlement sheet**, not a requirement about your model. Within **2"** (Buildings/yards) or **1"** (Plant/Stations), use whatever you own. Badly oversized? Re-reserve the bigger footprint on the sheet — it costs you other structures, so it self-corrects.
+- **Mark every interactive point.** Any tag a structure carries — Openable, Lockable, Hackable, Searchable, Climbable, Powered — must be **visible on the table**, either modelled onto the piece or shown with a token. If a door can be locked there is a door or a door token; if there is a terminal, there is a terminal. Nothing interactive is invisible.
+- **Build the detail in.** Model what the structure actually does where you can — a working gate, a ladder to a firing platform, a roof hatch, a wall terminal, a turret hardpoint. The closer the scenery matches its profile, the more the table reads itself.
+- **Disabled** structures (sabotaged, or unpowered) get a face-down or flipped marker; they give no benefit until repaired.
+
+
+## Board — infrastructure features
+
+*Source: `Board Representation.md`*
+
+Infrastructure belongs to the **building**, not a spot inside it ([[Infrastructure#Placement]]). Put a labelled token on or beside the structure to show it owns that feature; use the model itself for a moving part (crane arm, vent line, bridge span).
+
+- **Show current state with the token's orientation** — door open ↔ closed, bridge out ↔ retracted, lights on ↔ off, power on ↔ off. Everything **starts Powered Down** (inert) until operated.
+- **Triggers can't be shot off the board** — a terminal / control is a permanent fixture. Leave its token in place all game.
+
+
+## Board — objectives
+
+*Source: `Board Representation.md`*
+
+- **3 objective markers** on the centreline — a poker chip, printed disc, or coin works. Each is placed **on top of, or inside, a building — not both**.
+- A held marker is just held by **bodies within 3"** in this first pass (no claim token yet). If/when the hack-to-claim hook returns, flip a **colour marker** to the holding crew.
+
+
+## Board — condition & status tokens
+
+*Source: `Board Representation.md`*
+
+One token per condition, sitting beside the model ([[Conditions#General rules]] — no token, no condition). Anything works as long as both players agree the key:
+
+| Show with | Suggested |
+|---|---|
+| **Stress** | a d6 or bead count beside the model (drives Shaken / Break) |
+| **Persistent** (Fire, Bleed, Poison) | coloured rings or printed chits — resolved each End Phase |
+| **Pinned / Down / Prone** | lay the model down for Down/Prone; a ring or cotton-ball for Pinned |
+| **Hidden** | a "?" token, or remove from the table onto a sheet until revealed |
+| **Ready** | a die or arrow token; **persists across rounds** — clear only when spent or cancelled |
+| **Order used** | a marker; clear in the End Phase refresh |
+| **Objective / VP** | tally on the crew sheet or a dial |
+
+^tbl-condition-status-tokens
+
+
+## Board — deployables
+
+*Source: `Board Representation.md`*
+
+Place the **actual model** (turret, mine, tripwire, beacon) when deployed, plus a small **owner marker** so both crews know whose it is. Track its damage state (Online → Offline → Destroyed) by turning or removing the marker ([[Deployables]]).
+
+---
+See [[Terrain]] · [[Infrastructure]] · [[Conditions]] · [[Scenarios]] · [[Rules System MOC]].
+
+
+
+---
+
+# Skills
+
+*150 across five paths, ten per tier per stat.*
 
 
 ## Skills — the complete catalogue
