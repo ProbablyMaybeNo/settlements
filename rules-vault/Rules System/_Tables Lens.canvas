@@ -1,0 +1,734 @@
+{
+ "nodes": [
+  {
+   "id": "g1",
+   "type": "group",
+   "label": "Core engine",
+   "x": 0,
+   "y": 0,
+   "width": 640,
+   "height": 406
+  },
+  {
+   "id": "n2",
+   "type": "text",
+   "text": "![[Initiative & Activation#Reaction options]]",
+   "x": 60,
+   "y": 80,
+   "width": 520,
+   "height": 266
+  },
+  {
+   "id": "g3",
+   "type": "group",
+   "label": "Combat",
+   "x": 0,
+   "y": 486,
+   "width": 640,
+   "height": 406
+  },
+  {
+   "id": "n4",
+   "type": "text",
+   "text": "![[Morale#Break test — End Phase, 2+ Stress]]",
+   "x": 60,
+   "y": 566,
+   "width": 520,
+   "height": 266
+  },
+  {
+   "id": "g5",
+   "type": "group",
+   "label": "Gear",
+   "x": 0,
+   "y": 972,
+   "width": 2880,
+   "height": 2884
+  },
+  {
+   "id": "n6",
+   "type": "text",
+   "text": "![[Weapons#1 · Weapon classes]]",
+   "x": 60,
+   "y": 1052,
+   "width": 520,
+   "height": 422
+  },
+  {
+   "id": "n7",
+   "type": "text",
+   "text": "![[Weapons#Rank gates the class]]",
+   "x": 620,
+   "y": 1052,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n8",
+   "type": "text",
+   "text": "![[Weapons#1.5 · Attack Dice — the multi-shot axis]]",
+   "x": 1180,
+   "y": 1052,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n9",
+   "type": "text",
+   "text": "![[Weapons#Damage & armour]]",
+   "x": 1740,
+   "y": 1052,
+   "width": 520,
+   "height": 162
+  },
+  {
+   "id": "n10",
+   "type": "text",
+   "text": "![[Weapons#To hit]]",
+   "x": 2300,
+   "y": 1052,
+   "width": 520,
+   "height": 162
+  },
+  {
+   "id": "n11",
+   "type": "text",
+   "text": "![[Weapons#Payload — replaces the non-wounding result]]",
+   "x": 60,
+   "y": 1748,
+   "width": 520,
+   "height": 370
+  },
+  {
+   "id": "n12",
+   "type": "text",
+   "text": "![[Weapons#Area]]",
+   "x": 620,
+   "y": 1748,
+   "width": 520,
+   "height": 162
+  },
+  {
+   "id": "n13",
+   "type": "text",
+   "text": "![[Weapons#Handling]]",
+   "x": 1180,
+   "y": 1748,
+   "width": 520,
+   "height": 292
+  },
+  {
+   "id": "n14",
+   "type": "text",
+   "text": "![[Weapons#Drawbacks — refund points, take no slot (max 2 per weapon)]]",
+   "x": 1740,
+   "y": 1748,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "n15",
+   "type": "text",
+   "text": "![[Weapons#3 · Armor]]",
+   "x": 2300,
+   "y": 1748,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n16",
+   "type": "text",
+   "text": "![[Weapons#4 · Hacking gear]]",
+   "x": 60,
+   "y": 2444,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n17",
+   "type": "text",
+   "text": "![[Weapons#5 · Sample armoury]]",
+   "x": 620,
+   "y": 2444,
+   "width": 520,
+   "height": 656
+  },
+  {
+   "id": "n18",
+   "type": "text",
+   "text": "![[Weapons#6 · Cut, and why]]",
+   "x": 1180,
+   "y": 2444,
+   "width": 520,
+   "height": 344
+  },
+  {
+   "id": "n19",
+   "type": "text",
+   "text": "![[Deployables#Build rating — some things are harder to build]]",
+   "x": 1740,
+   "y": 2444,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n20",
+   "type": "text",
+   "text": "![[Deployables#Family A · Turrets]]",
+   "x": 2300,
+   "y": 2444,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "n21",
+   "type": "text",
+   "text": "![[Deployables#Chassis — how it delivers]]",
+   "x": 60,
+   "y": 3140,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n22",
+   "type": "text",
+   "text": "![[Deployables#Payload — what it does on detonation]]",
+   "x": 620,
+   "y": 3140,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "n23",
+   "type": "text",
+   "text": "![[Deployables#Family C · Traps]]",
+   "x": 1180,
+   "y": 3140,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "n24",
+   "type": "text",
+   "text": "![[Deployables#Family D · Beacons]]",
+   "x": 1740,
+   "y": 3140,
+   "width": 520,
+   "height": 292
+  },
+  {
+   "id": "g25",
+   "type": "group",
+   "label": "Movement · terrain · machines",
+   "x": 0,
+   "y": 3936,
+   "width": 2880,
+   "height": 1174
+  },
+  {
+   "id": "n26",
+   "type": "text",
+   "text": "![[Movement#Terrain movement]]",
+   "x": 60,
+   "y": 4016,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n27",
+   "type": "text",
+   "text": "![[Terrain#The three properties]]",
+   "x": 620,
+   "y": 4016,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n28",
+   "type": "text",
+   "text": "![[Terrain#Cover]]",
+   "x": 1180,
+   "y": 4016,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "n29",
+   "type": "text",
+   "text": "![[Terrain#Terrain types]]",
+   "x": 1740,
+   "y": 4016,
+   "width": 520,
+   "height": 266
+  },
+  {
+   "id": "n30",
+   "type": "text",
+   "text": "![[Terrain#Hazards (the Dangerous overlay)]]",
+   "x": 2300,
+   "y": 4016,
+   "width": 520,
+   "height": 266
+  },
+  {
+   "id": "n31",
+   "type": "text",
+   "text": "![[Terrain#Interact]]",
+   "x": 60,
+   "y": 4374,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n32",
+   "type": "text",
+   "text": "![[Terrain Interaction#Stat ownership]]",
+   "x": 620,
+   "y": 4374,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n33",
+   "type": "text",
+   "text": "![[Terrain Interaction#Interaction verbs]]",
+   "x": 1180,
+   "y": 4374,
+   "width": 520,
+   "height": 318
+  },
+  {
+   "id": "n34",
+   "type": "text",
+   "text": "![[Terrain Interaction#Searching and looting]]",
+   "x": 1740,
+   "y": 4374,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "n35",
+   "type": "text",
+   "text": "![[Terrain Interaction#In-battle repair / settlement hook]]",
+   "x": 2300,
+   "y": 4374,
+   "width": 520,
+   "height": 266
+  },
+  {
+   "id": "n36",
+   "type": "text",
+   "text": "![[Infrastructure#Infrastructure vs Deployables]]",
+   "x": 60,
+   "y": 4732,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n37",
+   "type": "text",
+   "text": "![[Infrastructure#The five categories]]",
+   "x": 620,
+   "y": 4732,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "n38",
+   "type": "text",
+   "text": "![[Infrastructure#Custom battles]]",
+   "x": 1180,
+   "y": 4732,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "n39",
+   "type": "text",
+   "text": "![[Hacking#Range bands]]",
+   "x": 1740,
+   "y": 4732,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "g40",
+   "type": "group",
+   "label": "Crew",
+   "x": 0,
+   "y": 5190,
+   "width": 2880,
+   "height": 1232
+  },
+  {
+   "id": "n41",
+   "type": "text",
+   "text": "![[Unit Design#Stat Scale]]",
+   "x": 60,
+   "y": 5270,
+   "width": 520,
+   "height": 318
+  },
+  {
+   "id": "n42",
+   "type": "text",
+   "text": "![[Unit Design#Ranks (build budget)]]",
+   "x": 620,
+   "y": 5270,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n43",
+   "type": "text",
+   "text": "![[List Building#Budget]]",
+   "x": 1180,
+   "y": 5270,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n44",
+   "type": "text",
+   "text": "![[List Building#The four ranks — two starting tiers]]",
+   "x": 1740,
+   "y": 5270,
+   "width": 520,
+   "height": 318
+  },
+  {
+   "id": "n45",
+   "type": "text",
+   "text": "![[List Building#Armour & equipment]]",
+   "x": 2300,
+   "y": 5270,
+   "width": 520,
+   "height": 292
+  },
+  {
+   "id": "n46",
+   "type": "text",
+   "text": "![[List Building#Validation]]",
+   "x": 60,
+   "y": 5836,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n47",
+   "type": "text",
+   "text": "![[Progression#Levels — the fixed advancement track]]",
+   "x": 620,
+   "y": 5836,
+   "width": 520,
+   "height": 526
+  },
+  {
+   "id": "n48",
+   "type": "text",
+   "text": "![[Skill Paths#How it works — skills ride the stat line]]",
+   "x": 1180,
+   "y": 5836,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n49",
+   "type": "text",
+   "text": "![[Skill Paths#The five paths]]",
+   "x": 1740,
+   "y": 5836,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "g50",
+   "type": "group",
+   "label": "Campaign & settlement",
+   "x": 0,
+   "y": 6502,
+   "width": 2880,
+   "height": 4120
+  },
+  {
+   "id": "n51",
+   "type": "text",
+   "text": "![[Campaign#Post-battle — the Fate table]]",
+   "x": 60,
+   "y": 6582,
+   "width": 520,
+   "height": 266
+  },
+  {
+   "id": "n52",
+   "type": "text",
+   "text": "![[Campaign#Glorious Deeds]]",
+   "x": 620,
+   "y": 6582,
+   "width": 520,
+   "height": 370
+  },
+  {
+   "id": "n53",
+   "type": "text",
+   "text": "![[Economy#Three resources, two of them banked]]",
+   "x": 1180,
+   "y": 6582,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n54",
+   "type": "text",
+   "text": "![[Economy#Power — output vs draw]]",
+   "x": 1740,
+   "y": 6582,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n55",
+   "type": "text",
+   "text": "![[Economy#Storage, caps and overflow]]",
+   "x": 2300,
+   "y": 6582,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n56",
+   "type": "text",
+   "text": "![[Settlement#Choosing a location]]",
+   "x": 60,
+   "y": 7252,
+   "width": 520,
+   "height": 370
+  },
+  {
+   "id": "n57",
+   "type": "text",
+   "text": "![[Structures#The settlement canvas]]",
+   "x": 620,
+   "y": 7252,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n58",
+   "type": "text",
+   "text": "![[Structures#Groundworks — the expansion project]]",
+   "x": 1180,
+   "y": 7252,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n59",
+   "type": "text",
+   "text": "![[Structures#Footprint classes]]",
+   "x": 1740,
+   "y": 7252,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n60",
+   "type": "text",
+   "text": "![[Structures#Starting structures — four]]",
+   "x": 2300,
+   "y": 7252,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n61",
+   "type": "text",
+   "text": "![[Structures#Storage & caps — what you can hold, and what a raider can take]]",
+   "x": 60,
+   "y": 7922,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n62",
+   "type": "text",
+   "text": "![[Structures#HQ tiers — the scavenger pipeline]]",
+   "x": 620,
+   "y": 7922,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n63",
+   "type": "text",
+   "text": "![[Structures#Three ways to grow — and how to tell them apart]]",
+   "x": 1180,
+   "y": 7922,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n64",
+   "type": "text",
+   "text": "![[Structures#Upgrade ladders]]",
+   "x": 1740,
+   "y": 7922,
+   "width": 520,
+   "height": 292
+  },
+  {
+   "id": "n65",
+   "type": "text",
+   "text": "![[Structures#Sustain — keep people alive, keep the grid up]]",
+   "x": 2300,
+   "y": 7922,
+   "width": 520,
+   "height": 214
+  },
+  {
+   "id": "n66",
+   "type": "text",
+   "text": "![[Structures#Convert — turn one resource into another, and make gear]]",
+   "x": 60,
+   "y": 8592,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "n67",
+   "type": "text",
+   "text": "![[Structures#Operate — what you can do outside the walls]]",
+   "x": 620,
+   "y": 8592,
+   "width": 520,
+   "height": 266
+  },
+  {
+   "id": "n68",
+   "type": "text",
+   "text": "![[Structures#Recover — people come back]]",
+   "x": 1180,
+   "y": 8592,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n69",
+   "type": "text",
+   "text": "![[Structures#Defend — this is the raid board]]",
+   "x": 1740,
+   "y": 8592,
+   "width": 520,
+   "height": 240
+  },
+  {
+   "id": "n70",
+   "type": "text",
+   "text": "![[Structures#Worker benefits]]",
+   "x": 2300,
+   "y": 8592,
+   "width": 520,
+   "height": 630
+  },
+  {
+   "id": "n71",
+   "type": "text",
+   "text": "![[Structures#Space budget]]",
+   "x": 60,
+   "y": 9262,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n72",
+   "type": "text",
+   "text": "![[Territory#The territory card — eleven required fields]]",
+   "x": 620,
+   "y": 9262,
+   "width": 520,
+   "height": 396
+  },
+  {
+   "id": "n73",
+   "type": "text",
+   "text": "![[Territory#The default loot table]]",
+   "x": 1180,
+   "y": 9262,
+   "width": 520,
+   "height": 370
+  },
+  {
+   "id": "n74",
+   "type": "text",
+   "text": "![[Territory#Control states]]",
+   "x": 1740,
+   "y": 9262,
+   "width": 520,
+   "height": 188
+  },
+  {
+   "id": "n75",
+   "type": "text",
+   "text": "![[Events#Battlefield Events — exactly two rolls, no running clock]]",
+   "x": 2300,
+   "y": 9262,
+   "width": 520,
+   "height": 370
+  },
+  {
+   "id": "n76",
+   "type": "text",
+   "text": "![[Scenarios#The scenario template]]",
+   "x": 60,
+   "y": 9932,
+   "width": 520,
+   "height": 292
+  },
+  {
+   "id": "n77",
+   "type": "text",
+   "text": "![[Scenarios#The Twist (roll 1d6 at setup)]]",
+   "x": 620,
+   "y": 9932,
+   "width": 520,
+   "height": 266
+  },
+  {
+   "id": "n78",
+   "type": "text",
+   "text": "![[Factions#Working rules / decisions]]",
+   "x": 1180,
+   "y": 9932,
+   "width": 520,
+   "height": 266
+  },
+  {
+   "id": "g79",
+   "type": "group",
+   "label": "Physical",
+   "x": 0,
+   "y": 10702,
+   "width": 1200,
+   "height": 432
+  },
+  {
+   "id": "n80",
+   "type": "text",
+   "text": "![[Board Representation#Terrain]]",
+   "x": 60,
+   "y": 10782,
+   "width": 520,
+   "height": 266
+  },
+  {
+   "id": "n81",
+   "type": "text",
+   "text": "![[Board Representation#Condition & status tokens]]",
+   "x": 620,
+   "y": 10782,
+   "width": 520,
+   "height": 292
+  }
+ ],
+ "edges": []
+}
