@@ -1,6 +1,7 @@
 views:
   - type: table
     name: All
+    rowHeight: medium
     filters:
       and:
         - type == "armour"
@@ -10,9 +11,9 @@ views:
       - drawback
       - cr
       - tier
-    rowHeight: medium
   - type: table
     name: By tier
+    rowHeight: medium
     filters:
       and:
         - type == "armour"
@@ -25,4 +26,3 @@ views:
     sort:
       - property: tier
         direction: ASC
-    rowHeight: medium
