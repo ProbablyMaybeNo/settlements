@@ -195,6 +195,13 @@ LEGEND = [
     ("C", "Derived by rule from an A/B atom, never measured directly — placeholder."),
     ("(blank)", "Not costed yet. This is the one the old catalogues kept hiding."),
     ("", ""),
+    ("The Ruled column", ""),
+    ("(blank) or Ross", "You decided it. This is the default — leave it blank and it means yours."),
+    ("derived", "Worked out from another rule rather than decided. Fine to keep, but it is an inference, not a ruling."),
+    ("carried-over", "Brought in from the old system without being re-checked."),
+    ("unruled", "Placeholder. Nobody has actually decided this yet."),
+    ("Why it exists", "\"Only a Leader ever reaches T3\" was a derived gloss that entered with the master doc on 2026-08-05, restating a July cap table — then got quoted back at you as a design constraint you never set. This column makes that impossible to repeat."),
+    ("", ""),
     ("Sheets that are new", ""),
     ("Chems, Drones", "No catalogue exists in the rules today. Both are named in the setting and referenced by built structures."),
     ("Weapon Drawbacks", "Split out from Characteristics — a refund is a price, and they were never tiered."),
@@ -238,6 +245,11 @@ def build():
 
     # ---- one sheet per catalogue --------------------------------------
     for name, band, cols, example in SHEETS:
+        # Provenance, on every sheet. The failure this exists to stop: a derived
+        # observation hardening into a stated tenet and then being quoted back
+        # as a ruling. Blank means Ross typed it, so the common case is no work.
+        cols = cols + [("Ruled", 11)]
+        example = example + ["Ross"]
         ws = wb.create_sheet(name)
         ws.sheet_properties.tabColor = BAND[band]
         fill = PatternFill("solid", fgColor=BAND[band])
@@ -258,6 +270,15 @@ def build():
         ws.auto_filter.ref = "A1:%s1" % get_column_letter(len(cols))
 
         headers = [h for h, _ in cols]
+        dvr = DataValidation(type="list", formula1='"Ross,derived,carried-over,unruled"',
+                             allow_blank=True, showErrorMessage=False)
+        dvr.prompt = ("Blank or Ross = your decision. derived = worked out from another "
+                      "rule. carried-over = brought in from the old system, unchecked. "
+                      "unruled = placeholder, nobody has decided.")
+        dvr.promptTitle = "Who ruled this?"
+        ws.add_data_validation(dvr)
+        rcol = get_column_letter(headers.index("Ruled") + 1)
+        dvr.add("%s2:%s400" % (rcol, rcol))
         if "Conf" in headers:
             dv = DataValidation(type="list", formula1='"A,B,C"', allow_blank=True,
                                 showErrorMessage=False)
