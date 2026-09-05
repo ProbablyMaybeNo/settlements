@@ -371,6 +371,49 @@ Numbered so you can answer inline.
 
 ---
 
+## 8. Addendum (2026-09-05) — reading the Idea Dump against the four engines
+
+`rules-vault/Ross' Idea Dump.md` landed on main after this doc was written. Two things in it change what the engine has to carry.
+
+### 8.1 Monsters
+
+If the setting takes the alien invasion, the engine must express targets that are nothing like a civilian: Workers and Kings with heavy chitin, regeneration and mass; Stalkers that are fast and armoured. That means **multiple wounds and armour beyond plates**, and the four engines are not equal here.
+
+| | A · Handful | B · Margin | C · Step-Up | D · Face-Off |
+|---|---|---|---|---|
+| Heavy armour | **Breaks.** Armour downgrades the result; a 2-step downgrade turns even a Kill into Pinned, so no pool size can wound a Worker. Would need monsters modelled as extra Wounds with armour capped at 2 steps, or *Crush* to ignore it. | Arithmetic. Worker Armour 3 vs a rifle (net 2): green 8%, veteran 28%, elite aimed 58% per shot. Stalker Armour 2: green 17%, veteran 42%. | Armour die d10 or d12 vs weapon Damage; raises still bypass. Works, but a d12 armour die stops rifles nearly always. | Arithmetic, same shape as B. |
+| Multiple wounds | Track Wounds; each Down result removes one. Fine. | Same. | Same. | Same. |
+| Regeneration | Remove a Stress or Wound token per round; engine-independent. | Same. | Same. | Same. |
+
+Measured against monsters, B's lead widens: the same one-roll rule that resolves a civilian shot resolves a rifle against a King, with *Crush* as "ignore armour" and *Precise* as +1. A needs a second armour model for anything past plates.
+
+### 8.2 The weapon keyword vocabulary
+
+The Idea Dump's keyword list maps onto each engine as follows. Where an engine has no clean home for a keyword, that is a cost of the engine.
+
+| Keyword (Idea Dump) | A · Handful | B · Margin | C · Step-Up | D · Face-Off |
+|---|---|---|---|---|
+| DMG +N | +N Volume dice, or +N steps on the ladder | +N to margin | +N Damage vs armour die | +N to margin |
+| Multishot N | +N dice (native) | roll N times, or +1 margin per extra shot | roll N dice, keep best | roll N times |
+| Precise | +1 die | +1 to roll | +1 to roll | +1 to roll |
+| Crush (ignore armour) | skip the downgrade | ignore Armour | skip the armour die | ignore Armour |
+| Smash (−1 enemy armour) | armour downgrades one step less | Armour −1 | armour die one size smaller | Armour −1 |
+| Cleave / Hack | +2 / +1 successes-equivalent, or +1 die | +2 / +1 margin | +2 / +1 Damage | +2 / +1 margin |
+| Parry | −1 die to the enemy's Fight pool | −1 to the enemy's roll | enemy's die one size smaller | −1 to the enemy's roll |
+| Block | armour +1 step in melee | Armour +1 in melee | armour die one size larger | Armour +1 |
+| Reach / Push / Pull / Hook / Skewer / Throw | positional; engine-independent | same | same | same |
+| Reload / Stationary / Limit / Load | action economy; engine-independent | same | same | same |
+| Silent | detection; engine-independent | same | same | same |
+| Fire / Template / Blast / Indirect | one roll per model in the area; A's pool makes this many pools, B and D one roll each, C one die each | | | |
+
+Reading the rows: A and C carry the keywords as dice and die sizes, which is legible but coarse (there is no "+1 margin" in a pool; every keyword becomes a whole die). B and D carry them as small integers on one roll, which is exactly what the Idea Dump already wrote them as: DMG +1, +2, +3. **The Idea Dump's own notation is a margin system.**
+
+### 8.3 Shared Threats
+
+The Threat Counter (start 10, roll 1d10 each round from Round 2, a Shared Threat arrives on a roll above the counter, Loud actions lower it, quiet rounds raise it) is independent of the combat engine and works unchanged under any of the four. It does mean a d10 stays on the table even if combat is d6-only, which touches question 1.
+
+---
+
 ## Appendix — outcome splits used above
 
 All figures exact. "Down+" is Down or Killed.
