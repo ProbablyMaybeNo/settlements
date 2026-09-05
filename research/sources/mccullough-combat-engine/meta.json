@@ -1,0 +1,58 @@
+{
+  "title": "The McCullough Combat Engine — Frostgrave 2.0 / Stargrave / Rangers of Shadow Deep combat-resolution chapters",
+  "author": "Joseph A. McCullough",
+  "publisher": "Osprey Games (Frostgrave, Stargrave); self-published/Modiphius (Rangers of Shadow Deep)",
+  "scope_note": "Combat resolution ONLY. Costing/list-building for these three games is already captured in Research/Notes/Frostgrave and Stargrave.md and Research/Notes/Rangers of Shadow Deep.md (docs/POINTS-RESEARCH.md sections 7.12-7.13) - this is a separate, narrower pass answering whether/how a single-roll hit-and-wound mechanic ports to Settlements.",
+  "retrieved": "2026-09-05",
+  "is_designer_statement": true,
+  "designer_statement_note": "All three are the designer's own rulebooks (Joseph A. McCullough), not third-party summaries.",
+  "sources": [
+    {
+      "game": "Frostgrave (2nd Edition)",
+      "file": "Frostgrave 2.0.pdf",
+      "library_master": "G:\\My Drive\\Wargaming\\Frostgrave\\Frostgrave 2.0.pdf",
+      "working_copy": "research/sources/mccullough-combat-engine/original-frostgrave-2e.pdf (gitignored, not committed)",
+      "sha256": "17a1653860342768192ed7aba6a139890b9ec39f06538c30648b5eca8cd65e47",
+      "bytes": 32869537,
+      "pages": 225,
+      "combat_pages_read": "44-61 (printed page numbers; Stat Rolls / Automatic Success-Failure / Movement Into Combat / Combat / Multiple Combats / Critical Hits / Shooting / Shooting Defence Modifiers / Damage / Wounded)"
+    },
+    {
+      "game": "Stargrave",
+      "file": "Osprey - Wargame - 01 - Stargrave (Joseph McCullough, 2021).pdf",
+      "library_master": "G:\\My Drive\\Wargaming\\Stargrave\\Osprey - Wargame - 01 - Stargrave (Joseph McCullough, 2021).pdf",
+      "working_copy": "research/sources/mccullough-combat-engine/original-stargrave.pdf (gitignored, not committed)",
+      "sha256": "ba2cbcb0ff69f5d2306bc90a0043855585ce9114b67f296e9ef3f21bf62f993b",
+      "bytes": 26875722,
+      "pages": 177,
+      "combat_pages_read": "43-62 (printed page numbers; Movement Into Combat / Combat / Multiple Combats / Shooting / Shooting Modifiers / Extreme Results / Damage / Stun / Wounded / Toxins)",
+      "note_on_prior_extract": "docs/POINTS-RESEARCH.md:1827 flagged a prior Stargrave extract as truncated at p.79 (missing the 'Spending Loot' campaign chapter). That truncation does not affect this capture - the combat chapters (pp.43-62) are well before p.79, and this file's full 177 pages were confirmed readable via PyMuPDF page count and per-page text extraction before capturing."
+    },
+    {
+      "game": "Rangers of Shadow Deep - Standard Edition (2021 update)",
+      "file": "1. Rangers of Shadow Deep - Standard Edition Updated (2021).pdf",
+      "library_master": "G:\\My Drive\\Wargaming\\RoSD\\1. Rangers of Shadow Deep - Standard Edition Updated (2021).pdf",
+      "working_copy": "research/sources/mccullough-combat-engine/original-rosd.pdf (gitignored, not committed)",
+      "sha256": "56ec1b2b507fd1858a279522f80956aee0ef4e55ce950591b3afee8f3090e54c",
+      "bytes": 20599007,
+      "pages": 136,
+      "combat_pages_read": "8-33 (printed page numbers; Dice / Creating a Ranger stat baseline / Heroic Ability List (modifier-stacking survey) / Movement Into Combat / Skill and Stat Rolls / Hand-to-Hand Combat / Multiple Combats / Critical Hits / Shooting / Shooting Modifiers / Damage / Poison / Disease)"
+    },
+    {
+      "game": "ROSD Archetypes",
+      "file": "ROSD Archetypes.pdf",
+      "library_master": "G:\\My Drive\\Wargaming\\RoSD\\ROSD Archetypes.pdf",
+      "status": "NOT re-extracted for this pass. Already captured for costing in Research/Notes/Rangers of Shadow Deep.md (the archetype pattern: budgets and sub-caps adjusted, catalogue never repriced). Spot-checked: it is a budget/build-point supplement, not a combat-resolution document - contains no additional combat mechanics beyond the core rulebook it modifies."
+    }
+  ],
+  "extraction_method": {
+    "tool": "PyMuPDF (fitz) 1.x, page.get_text('text')",
+    "ocr_used": false,
+    "reason": "All three PDFs confirmed to have clean embedded text layers (1,400-2,200 chars/page average across full documents) via a pre-extraction probe before committing to a pipeline.",
+    "encoding_note": "PyMuPDF renders some apostrophes/em-dashes as the replacement glyph in raw terminal output on this Windows cp1252 console; this is a display/font-decode artifact of the source PDF's font encoding, not a corrupt capture. Content meaning is unaffected and was cross-checked by eye against the worked numeric examples (all arithmetic in source.md was independently verified: e.g. 17-10=7, 20-11=9, 11-10=1)."
+  },
+  "licence_note": "Third-party rulebook PDFs. Not committed to the repo (research/sources/**/*.pdf is gitignored). source.md quotes rules text for analysis/citation, not a full reproduction of any book.",
+  "capture_contents": {
+    "source.md": "Verbatim quoted combat-resolution rules text (melee, shooting, damage, critical hits, modifier caps) from all three books, with page citations and worked examples, structured to answer the six research questions on the McCullough single-roll engine."
+  }
+}

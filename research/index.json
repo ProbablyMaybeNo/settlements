@@ -1580,6 +1580,50 @@
       "publisher": "community",
       "note": "Research/Notes/Necromunda Homebrew Campaigns.md",
       "depth": "COMMUNITY — 17 of 94 homebrew PDFs; unofficial, not playtested at commercial scale"
+    },
+    {
+      "slug": "mccullough-combat-engine",
+      "game": "Frostgrave 2.0 / Stargrave / Rangers of Shadow Deep — combat resolution only",
+      "note": "Research/Notes/McCullough Combat Engine.md",
+      "designer": "Joseph A. McCullough",
+      "publisher": "Osprey Games (Frostgrave, Stargrave); self-published/Modiphius (Rangers of Shadow Deep)",
+      "depth": "primary",
+      "capture": "research/sources/mccullough-combat-engine/",
+      "long_form": null,
+      "retrieved": "2026-09-05",
+      "mechanics": [
+        {
+          "name": "Melee — a single opposed roll decides both winner and damage",
+          "type": "Combat",
+          "verdict": "steal"
+        },
+        {
+          "name": "Shooting — the identical mechanic, asymmetric stats",
+          "type": "Combat",
+          "verdict": "steal"
+        },
+        {
+          "name": "The damage formula — winner's total minus loser's Armour, no second roll",
+          "type": "Combat",
+          "verdict": "steal"
+        },
+        {
+          "name": "The zero-damage hit — no equivalent to Settlements' Stress-on-failed-wound",
+          "type": "Morale",
+          "verdict": "avoid"
+        },
+        {
+          "name": "Health as a quantity — the formula leans on multi-point pools",
+          "type": "Combat",
+          "verdict": "reference"
+        },
+        {
+          "name": "d20 handling — the modifier cap Frostgrave/Stargrave share, that Rangers of Shadow Deep doesn't",
+          "type": "Dice",
+          "verdict": "adapt"
+        }
+      ],
+      "notes": "Combat resolution ONLY - costing for these three games is separately captured under slugs frostgrave-stargrave and rangers-of-shadow-deep. All three books use the identical formula 'if it is 0 or negative, no damage is done' verbatim in their numbered Combat/Shooting summaries - confirmed NOT_FOUND for any hit-but-no-wound consequence (push/stagger/forced test/marker) in any of the three. Rangers of Shadow Deep Standard Edition core rulebook confirmed NOT_FOUND for an overall modifier cap (Frostgrave/Stargrave both cap at +10 on d20)."
     }
   ],
   "to_read": [
