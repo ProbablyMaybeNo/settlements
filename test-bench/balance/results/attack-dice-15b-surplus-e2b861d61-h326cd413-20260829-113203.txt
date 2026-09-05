@@ -1,0 +1,105 @@
+==============================================================================
+ATTACK DICE - SHOULD SURPLUS INJURY PASSES BECOME STRESS?   exact
+==============================================================================
+
+[A] HOW OFTEN DOES THE NEW RULE EVEN FIRE?
+    It needs 2+ injury passes in one Action. Standard DEX+2, weapon +2.
+                band  AD2: P(2 passes)  AD3: P(2+ passes)  AD3: P(3)
+     open/unarmoured             13.0%              29.5%       4.7%
+          open/light              9.0%              21.6%       2.7%
+          open/heavy              5.8%              14.5%       1.4%
+    light/unarmoured              9.0%              21.6%       2.7%
+         light/light              6.2%              15.6%       1.6%
+         light/heavy              4.0%              10.4%       0.8%
+    heavy/unarmoured              5.8%              14.5%       1.4%
+         heavy/light              4.0%              10.4%       0.8%
+         heavy/heavy              2.6%               6.9%       0.4%
+   hidden/unarmoured              3.2%               8.6%       0.6%
+        hidden/light              2.2%               6.1%       0.3%
+        hidden/heavy              1.4%               4.0%       0.2%
+
+    Fires on   4.0% to  29.5% of 3-die Actions (hidden/heavy to open/unarmoured).
+    Not a corner case - roughly one 3-die Action in three against a soft
+    target. Whatever it does, it will do it often.
+
+------------------------------------------------------------------------------
+[B] AT WND 1 - THE WHOLE EFFECT HANGS ON ONE UNRULED QUESTION
+    Standard DEX+2, weapon +2, open unarmoured, AD 3.
+    rule   Down-Stress  E[wounds]  E[Stress]   P(Down)  P(Shaken+)
+   RULED         inert      0.738      0.295     73.8%       19.8%
+   RULED        counts      0.738      0.720     73.8%       56.1%
+      R5         inert      0.738      0.295     73.8%       19.8%
+      R5        counts      0.738      1.062     73.8%       76.3%
+
+    IF STRESS IS INERT ON A DOWN MODEL: R5 changes NOTHING at WND 1.
+      E[Stress] 0.295 -> 0.295. Identical, and identical in every band.
+      Every surplus pass by definition lands on a model already Down, so
+      converting it to Stress converts it to nothing.
+
+    IF STRESS PERSISTS THROUGH BEING DOWNED AND STABILISED:
+      E[Stress] 0.720 -> 1.062, a +48% increase.
+      A fighter who is patched up comes back already rattled - the burst
+      followed him off the table. That is a real and quite characterful
+      mechanic, and it is NOT currently a rule anywhere.
+
+------------------------------------------------------------------------------
+[C] AT WND 2-3 - WHERE R5 IS UNAMBIGUOUSLY LIVE
+    The target survives, so the Stress lands on a model that can feel it.
+    AD 3, open unarmoured. Down-Stress setting is irrelevant here.
+ WND    rule  E[wounds]  E[Stress]   P(fine)  P(Shaken)  P(Break test)
+   2   RULED      0.738      0.720     43.9%      41.6%          14.5%
+   2      R5      0.738      1.062     23.7%      47.8%          28.5%
+
+   3   RULED      0.738      0.720     43.9%      41.6%          14.5%
+   3      R5      0.738      1.062     23.7%      47.8%          28.5%
+
+    Against a WND-2 target, R5 lifts P(Break test) from  14.5% to  28.5%
+    - a +96% swing - while leaving E[wounds] untouched at
+    0.738. The one-wound cap still holds; the burst just stops
+    being wasted.
+
+    WND 2 and WND 3 read identically, and that is correct rather than a
+    bug: the burst caps at one wound, so a single Action cannot Down
+    either, and the starting WND never enters the arithmetic. Both rows
+    assume a FULL-HEALTH target - against a WND-2 Leader already down to
+    1 WND this Action Downs him, and the WND-1 row applies instead.
+
+    THIS PARTLY RE-OPENS THE DOOR THE CAP CLOSED. The cap's whole point
+    was that no burst can shortcut a Leader. R5 does not give the burst
+    wounds back - but a Leader taking 2 Stress from one Action is Shaken
+    and testing to Break, which is a different way of shortcutting the
+    same fight. Softer than melting him. Not nothing.
+
+------------------------------------------------------------------------------
+[D] DOES IT CHANGE THE PRICE?
+    The catalogue prices WOUNDS (10 Cr per +1 Damage = 167 Cr per 1.0 wounds/Action).
+       RULED: AD2 +38 / AD3 +63 cumulative
+          R5: AD2 +38 / AD3 +63 cumulative
+
+    IDENTICAL - 38 / 63 either way, because R5 adds
+    no wounds and the exchange rate prices nothing else. The Stress axis
+    has never been priced. Pinned measures +0.510 win-points per model
+    (`value-of-pinned-n4000`, flagged significant) - checked against the
+    stored envelopes rather than quoted. But note ALL SEVEN artefacts of
+    that run are STALE, and its three earlier values were -0.109, -0.013
+    and +0.166, two of them not significant. Either way nothing converts
+    it into the weapon table, so the weapon axis cannot see suppression.
+    >> R5 IS FREE AT THE TILL AND IS NOT FREE AT THE TABLE. That is the
+       same gap that left five payloads blocked at <=0 net value - the
+       costing engine cannot see suppression, so anything paid for in
+       Stress is invisible to it.
+
+------------------------------------------------------------------------------
+[E] TABLE COST - the anti-bloat check
+    Extra steps R5 adds to resolving one burst:
+      1. Count injury passes instead of stopping at the first.   (minor)
+      2. Apply 1 wound, convert the rest to Stress.              (minor)
+      3. ...but ONLY if Stress on a Down model does something,
+         which needs its own ruling and its own line of rules text.
+
+    Steps 1-2 are genuinely cheap - you are already rolling the dice and
+    already reading them. Step 3 is the expensive one, and it is a rules
+    question, not a dice question.
+
+[json] D:\AI-Workstation\Antigravity\apps\Settlements\test-bench\balance\results\attack-dice-15b-surplus.json
+==============================================================================

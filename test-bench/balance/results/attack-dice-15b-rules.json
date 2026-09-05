@@ -1,0 +1,340 @@
+{
+  "headline": [
+    {
+      "rule": "stop_on_down",
+      "dice": 1,
+      "p_down": 0.36,
+      "e_wounds": 0.36,
+      "e_stress_live": 0.24,
+      "e_stress_raw": 0.24
+    },
+    {
+      "rule": "stop_on_down",
+      "dice": 2,
+      "p_down": 0.5904,
+      "e_wounds": 0.5904,
+      "e_stress_live": 0.3072,
+      "e_stress_raw": 0.3936
+    },
+    {
+      "rule": "stop_on_down",
+      "dice": 3,
+      "p_down": 0.7379,
+      "e_wounds": 0.7379,
+      "e_stress_live": 0.2949,
+      "e_stress_raw": 0.4919
+    },
+    {
+      "rule": "pick_one",
+      "dice": 1,
+      "p_down": 0.36,
+      "e_wounds": 0.36,
+      "e_stress_live": 0.24,
+      "e_stress_raw": 0.24
+    },
+    {
+      "rule": "pick_one",
+      "dice": 2,
+      "p_down": 0.5904,
+      "e_wounds": 0.5904,
+      "e_stress_live": 0.2496,
+      "e_stress_raw": 0.2496
+    },
+    {
+      "rule": "pick_one",
+      "dice": 3,
+      "p_down": 0.7379,
+      "e_wounds": 0.7379,
+      "e_stress_live": 0.1981,
+      "e_stress_raw": 0.1981
+    },
+    {
+      "rule": "resolve_all",
+      "dice": 1,
+      "p_down": 0.36,
+      "e_wounds": 0.36,
+      "e_stress_live": 0.24,
+      "e_stress_raw": 0.24
+    },
+    {
+      "rule": "resolve_all",
+      "dice": 2,
+      "p_down": 0.5904,
+      "e_wounds": 0.5904,
+      "e_stress_live": 0.3072,
+      "e_stress_raw": 0.48
+    },
+    {
+      "rule": "resolve_all",
+      "dice": 3,
+      "p_down": 0.7379,
+      "e_wounds": 0.7379,
+      "e_stress_live": 0.2949,
+      "e_stress_raw": 0.72
+    },
+    {
+      "rule": "pick+pins",
+      "dice": 1,
+      "p_down": 0.36,
+      "e_wounds": 0.36,
+      "e_stress_live": 0.24,
+      "e_stress_raw": 0.24
+    },
+    {
+      "rule": "pick+pins",
+      "dice": 2,
+      "p_down": 0.5904,
+      "e_wounds": 0.5904,
+      "e_stress_live": 0.3072,
+      "e_stress_raw": 0.48
+    },
+    {
+      "rule": "pick+pins",
+      "dice": 3,
+      "p_down": 0.7379,
+      "e_wounds": 0.7379,
+      "e_stress_live": 0.2949,
+      "e_stress_raw": 0.72
+    }
+  ],
+  "suppression": [
+    {
+      "band": "open/unarmoured",
+      "R1": 0.2949,
+      "R3": 0.1981,
+      "R2": 0.2949,
+      "R4": 0.2949,
+      "r3_vs_rest": -0.3281
+    },
+    {
+      "band": "open/light",
+      "R1": 0.441,
+      "R3": 0.279,
+      "R2": 0.441,
+      "R4": 0.441,
+      "r3_vs_rest": -0.3673
+    },
+    {
+      "band": "open/heavy",
+      "R1": 0.6238,
+      "R3": 0.375,
+      "R2": 0.6238,
+      "R4": 0.6238,
+      "r3_vs_rest": -0.3989
+    },
+    {
+      "band": "light/unarmoured",
+      "R1": 0.294,
+      "R3": 0.218,
+      "R2": 0.294,
+      "R4": 0.294,
+      "r3_vs_rest": -0.2585
+    },
+    {
+      "band": "light/light",
+      "R1": 0.4219,
+      "R3": 0.2969,
+      "R2": 0.4219,
+      "R4": 0.4219,
+      "r3_vs_rest": -0.2963
+    },
+    {
+      "band": "light/heavy",
+      "R1": 0.576,
+      "R3": 0.387,
+      "R2": 0.576,
+      "R4": 0.576,
+      "r3_vs_rest": -0.3281
+    },
+    {
+      "band": "heavy/unarmoured",
+      "R1": 0.2772,
+      "R3": 0.223,
+      "R2": 0.2772,
+      "R4": 0.2772,
+      "r3_vs_rest": -0.1958
+    },
+    {
+      "band": "heavy/light",
+      "R1": 0.384,
+      "R3": 0.296,
+      "R2": 0.384,
+      "R4": 0.384,
+      "r3_vs_rest": -0.2292
+    },
+    {
+      "band": "heavy/heavy",
+      "R1": 0.508,
+      "R3": 0.3767,
+      "R2": 0.508,
+      "R4": 0.508,
+      "r3_vs_rest": -0.2585
+    },
+    {
+      "band": "hidden/unarmoured",
+      "R1": 0.2421,
+      "R3": 0.2084,
+      "R2": 0.2421,
+      "R4": 0.2421,
+      "r3_vs_rest": -0.1392
+    },
+    {
+      "band": "hidden/light",
+      "R1": 0.3251,
+      "R3": 0.2711,
+      "R2": 0.3251,
+      "R4": 0.3251,
+      "r3_vs_rest": -0.1661
+    },
+    {
+      "band": "hidden/heavy",
+      "R1": 0.4182,
+      "R3": 0.3385,
+      "R2": 0.4182,
+      "R4": 0.4182,
+      "r3_vs_rest": -0.1906
+    }
+  ],
+  "multiwound": [
+    {
+      "wnd": 1,
+      "rule": "stop_on_down",
+      "e_wounds": 0.7379,
+      "p_down": 0.7379
+    },
+    {
+      "wnd": 1,
+      "rule": "pick_one",
+      "e_wounds": 0.7379,
+      "p_down": 0.7379
+    },
+    {
+      "wnd": 1,
+      "rule": "resolve_all",
+      "e_wounds": 0.7379,
+      "p_down": 0.7379
+    },
+    {
+      "wnd": 1,
+      "rule": "pick+pins",
+      "e_wounds": 0.7379,
+      "p_down": 0.7379
+    },
+    {
+      "wnd": 2,
+      "rule": "stop_on_down",
+      "e_wounds": 1.0333,
+      "p_down": 0.2955
+    },
+    {
+      "wnd": 2,
+      "rule": "pick_one",
+      "e_wounds": 0.7379,
+      "p_down": 0.0
+    },
+    {
+      "wnd": 2,
+      "rule": "resolve_all",
+      "e_wounds": 1.0333,
+      "p_down": 0.2955
+    },
+    {
+      "wnd": 2,
+      "rule": "pick+pins",
+      "e_wounds": 0.7379,
+      "p_down": 0.0
+    },
+    {
+      "wnd": 3,
+      "rule": "stop_on_down",
+      "e_wounds": 1.08,
+      "p_down": 0.0467
+    },
+    {
+      "wnd": 3,
+      "rule": "pick_one",
+      "e_wounds": 0.7379,
+      "p_down": 0.0
+    },
+    {
+      "wnd": 3,
+      "rule": "resolve_all",
+      "e_wounds": 1.08,
+      "p_down": 0.0467
+    },
+    {
+      "wnd": 3,
+      "rule": "pick+pins",
+      "e_wounds": 0.7379,
+      "p_down": 0.0
+    }
+  ],
+  "stat_ceiling": [
+    {
+      "shooter": "DEX +6 marksman, AD 1 (the cap)",
+      "p_wound_action": 0.54,
+      "vs_stat_cap": 0.0
+    },
+    {
+      "shooter": "DEX +2 Fighter, AD 2",
+      "p_wound_action": 0.5904,
+      "vs_stat_cap": 0.0933
+    },
+    {
+      "shooter": "DEX +2 Fighter, AD 3",
+      "p_wound_action": 0.7379,
+      "vs_stat_cap": 0.3664
+    },
+    {
+      "shooter": "DEX +0 Recruit, AD 3",
+      "p_wound_action": 0.561,
+      "vs_stat_cap": 0.0389
+    },
+    {
+      "shooter": "DEX -1, AD 3",
+      "p_wound_action": 0.4486,
+      "vs_stat_cap": -0.1692
+    }
+  ],
+  "fair_price": [
+    {
+      "rule": "stop_on_down",
+      "ad2_cumulative_cr": 38.4,
+      "ad3_cumulative_cr": 63.0,
+      "draft_ad3": 60
+    },
+    {
+      "rule": "pick_one",
+      "ad2_cumulative_cr": 38.4,
+      "ad3_cumulative_cr": 63.0,
+      "draft_ad3": 60
+    },
+    {
+      "rule": "resolve_all",
+      "ad2_cumulative_cr": 38.4,
+      "ad3_cumulative_cr": 63.0,
+      "draft_ad3": 60
+    },
+    {
+      "rule": "pick+pins",
+      "ad2_cumulative_cr": 38.4,
+      "ad3_cumulative_cr": 63.0,
+      "draft_ad3": 60
+    }
+  ],
+  "params": {
+    "engine": "exact enumeration, mirrors attack_dice_sim.py / sim_report.py",
+    "shooter": "DEX +2",
+    "weapon": "medium +2",
+    "rifle_cr": 15,
+    "fighter_cr": 100,
+    "credits_damage": 10,
+    "fair_rate_cr_per_wound_per_action": 166.7,
+    "rules": {
+      "R1": "stop_on_down",
+      "R2": "resolve_all",
+      "R3": "pick_one",
+      "R4": "pick_wound_pins_stack"
+    }
+  }
+}

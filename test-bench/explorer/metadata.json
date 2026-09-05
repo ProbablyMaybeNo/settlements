@@ -1,0 +1,101 @@
+{
+  "title": "Settlements - Sim Explorer",
+  "description_html": "Every simulation result in one place. <b>shot_matrix</b> and <b>weapon_shot</b> are <i>derived-exact</i> - closed-form over the locked core engine, recomputed on every build, no sampling error. <b>sim_runs</b> / <b>sim_values</b> are <i>measured</i> Monte-Carlo envelopes and carry engine / cost-table / harness fingerprints; a <b>stale</b> flag means something they depended on has moved since. Never average the two kinds together.",
+  "license": "internal",
+  "databases": {
+    "settlements-sims": {
+      "tables": {
+        "shot_matrix": {
+          "description": "Exact probability for any shot: stat x cover x extra to-hit modifier x armour x weapon damage x attack dice. 'over_mod_cap' flags rows where the raw modifier exceeded the +/-3 cap and was clamped.",
+          "sort": "id",
+          "facets": ["stat_label", "cover", "armour", "damage_label", "attack_dice", "extra_to_hit"],
+          "columns": {
+            "to_hit": "P(the attack roll hits), 1d10 + stat + capped modifiers >= 7",
+            "injure_given_hit": "P(the Injury roll wounds), 1d10 + Damage - Armour >= 7",
+            "wound_per_die": "to_hit x injure_given_hit - one die's chance to wound",
+            "stress_per_die": "to_hit x (1 - injure_given_hit) - one die's chance to Pin (+1 Stress)",
+            "p_wound_action": "P(at least one wound) across the whole Action. At WND 1 this IS P(Down).",
+            "e_wounds_resolve_all": "E[wounds] if every die resolves regardless - correct vs WND 2-3 or if surplus dice may be redirected",
+            "e_wounds_stop_on_down": "E[wounds] if the sequence ends at Down - correct at WND 1 with dice locked to one target",
+            "e_stress_stop_on_down": "E[Stress applied] under the same stop rule",
+            "p_break_test": "P(>=2 Pins in one Action) - the Break-test trigger (2+ Stress)",
+            "actions_to_down": "1 / p_wound_action"
+          }
+        },
+        "weapon_shot": {
+          "description": "The same chain, but for every weapon in the shipped catalogue at its real Credits cost. 'fielded_credits' = cheapest body legally able to carry it + the weapon.",
+          "facets": ["weapon", "class", "cover", "armour", "attack_dice", "carrier_rank"],
+          "sort_desc": "p_wound_action"
+        },
+        "weapons": {
+          "description": "The shipped armoury, priced live from points/ticks.py at build time.",
+          "facets": ["class", "min_rank"],
+          "sort_desc": "credits"
+        },
+        "skills": {"facets": ["path", "tier", "stat"], "sort": "path"},
+        "bodies": {"description": "Rank body costs on the 850-Credit scale."},
+        "armour_costs": {"description": "Armour is 10 / 20 Cr - measured directly with zero prior (armour-level-n2500)."},
+        "characteristics": {"description": "Weapon characteristic prices.", "sort_desc": "credits"},
+        "sim_runs": {
+          "description": "Every stamped Monte-Carlo envelope in balance/results/. STALE means the engine, cost table or harness has moved since the run - the project deliberately prefers false-stale to false-fresh, so most older runs are flagged.",
+          "facets": ["stale", "script", "git_branch"],
+          "sort_desc": "created"
+        },
+        "sim_values": {
+          "description": "Every measured value from those envelopes, flattened to one searchable row each.",
+          "facets": ["run_name", "leaf", "stale"],
+          "sort_desc": "created"
+        },
+        "search": {"description": "Full-text across findings, weapons, skills and runs. Query with ?_search=..."}
+      },
+
+      "queries": {
+        "chance_to_injure": {
+          "title": "1. Chance to injure - pick a stat line and a weapon",
+          "description_html": "The main lookup. <b>stat</b> is the shooter's DEX (-1 to +6), <b>damage</b> the weapon's Damage (+0 to +5), <b>cover</b> one of open/light/heavy/hidden, <b>armour</b> one of unarmoured/light/heavy. Leave <b>dice</b> at 1 for a normal weapon.",
+          "sql": "SELECT stat_label AS stat, damage_label AS weapon, cover, armour, attack_dice,\n       ROUND(to_hit*100,1)            || '%' AS to_hit,\n       ROUND(injure_given_hit*100,1)  || '%' AS injure_if_hit,\n       ROUND(wound_per_die*100,1)     || '%' AS wound_per_shot,\n       ROUND(p_wound_action*100,1)    || '%' AS wound_per_action,\n       ROUND(stress_per_die*100,1)    || '%' AS pin_per_shot,\n       ROUND(actions_to_down,2)              AS actions_to_down\nFROM shot_matrix\nWHERE stat = CAST(:stat AS INTEGER)\n  AND damage = CAST(:damage AS INTEGER)\n  AND cover = :cover\n  AND armour = :armour\n  AND attack_dice = CAST(:dice AS INTEGER)\n  AND extra_to_hit = 0"
+        },
+        "one_stat_line_all_cover": {
+          "title": "2. One stat line, every cover x armour band",
+          "description": "Fix the shooter and the weapon; see the whole board. This is the table to read before pricing anything.",
+          "sql": "SELECT cover, armour,\n       ROUND(to_hit*100,1)         || '%' AS to_hit,\n       ROUND(wound_per_die*100,1)  || '%' AS wound_per_shot,\n       ROUND(p_wound_action*100,1) || '%' AS wound_per_action,\n       ROUND(e_stress_stop_on_down,3)     AS stress_per_action,\n       ROUND(actions_to_down,2)           AS actions_to_down\nFROM shot_matrix\nWHERE stat = CAST(:stat AS INTEGER)\n  AND damage = CAST(:damage AS INTEGER)\n  AND attack_dice = CAST(:dice AS INTEGER)\n  AND extra_to_hit = 0\nORDER BY cover_mod DESC, armour_mod DESC"
+        },
+        "weapon_lookup": {
+          "title": "3. Named weapon vs a target",
+          "description": "Type part of a weapon's name (e.g. 'rifle', 'axe', 'shotgun').",
+          "sql": "SELECT ws.weapon, ws.class, ws.damage, ws.weapon_credits AS weapon_cr,\n       ws.carrier_rank, ws.fielded_credits AS fielded_cr,\n       ws.stat AS shooter_stat, ws.cover, ws.armour, ws.attack_dice,\n       ROUND(ws.to_hit*100,1)         || '%' AS to_hit,\n       ROUND(ws.p_wound_action*100,1) || '%' AS wound_per_action,\n       ROUND(ws.actions_to_down,2)           AS actions_to_down,\n       ROUND(ws.wounds_per_action_per_100cr,3) AS wounds_per_100cr\nFROM weapon_shot ws\nWHERE ws.weapon LIKE '%' || :weapon_name || '%'\n  AND ws.stat = CAST(:stat AS INTEGER)\n  AND ws.cover = :cover\n  AND ws.armour = :armour\nORDER BY ws.attack_dice, ws.weapon"
+        },
+        "attack_dice_ladder": {
+          "title": "4. Attack Dice - the 15b ladder across every band",
+          "description_html": "Both down-rules side by side. <b>resolve_all</b> assumes every die resolves; <b>stop_on_down</b> assumes the sequence ends when the target goes Down - the WND-1 default. The gap between them is the open ruling.",
+          "sql": "SELECT cover, armour, attack_dice AS dice,\n       ROUND(p_wound_action*100,1) || '%' AS p_at_least_one_wound,\n       ROUND(e_wounds_resolve_all,3)      AS e_wounds_all,\n       ROUND(e_wounds_stop_on_down,3)     AS e_wounds_stop,\n       ROUND((1 - e_wounds_stop_on_down/NULLIF(e_wounds_resolve_all,0))*100,1) || '%' AS overkill_wasted,\n       ROUND(e_stress_stop_on_down,3)     AS e_stress,\n       ROUND(p_break_test*100,1)   || '%' AS p_break_test\nFROM shot_matrix\nWHERE stat = CAST(:stat AS INTEGER) AND damage = CAST(:damage AS INTEGER)\n  AND extra_to_hit = 0\nORDER BY cover_mod DESC, armour_mod DESC, attack_dice"
+        },
+        "credit_efficiency": {
+          "title": "5. Credit efficiency - what is an auto-include?",
+          "description": "Wounds per Action per 100 Credits FIELDED (body + weapon). The body belongs in the denominator: a weapon multiplies the output of a body, and the body is the expensive part.",
+          "sql": "SELECT weapon, class, carrier_rank, damage, weapon_credits AS weapon_cr,\n       fielded_credits AS fielded_cr, attack_dice,\n       ROUND(p_wound_action*100,1) || '%'      AS wound_per_action,\n       ROUND(wounds_per_action_per_100cr,3)    AS wounds_per_100cr\nFROM weapon_shot\nWHERE stat = CAST(:stat AS INTEGER) AND cover = :cover AND armour = :armour\n  AND attack_dice = 1\nORDER BY wounds_per_100cr DESC"
+        },
+        "current_findings": {
+          "title": "6. Measured findings that are still current",
+          "description": "Values from stamped runs whose engine, cost table and harness fingerprints all still match today's. Everything else is flagged stale - see all_findings.",
+          "sql": "SELECT v.run_name, v.path, v.value_num, v.value_text, v.created\nFROM sim_values v JOIN sim_runs r ON r.file = v.run_file\nWHERE r.stale = 0 AND v.path LIKE '%' || :contains || '%'\nORDER BY v.created DESC, v.path\nLIMIT 500"
+        },
+        "all_findings": {
+          "title": "7. Search every measured finding (incl. stale)",
+          "description": "Substring match on the value path. Try 'value', 'credits', 'wp', 'ratio', 'significant'.",
+          "sql": "SELECT v.run_name, v.path, v.value_num, v.value_text, v.created,\n       r.stale, r.stale_reason\nFROM sim_values v JOIN sim_runs r ON r.file = v.run_file\nWHERE v.path LIKE '%' || :contains || '%'\nORDER BY r.stale, v.created DESC\nLIMIT 500"
+        },
+        "search_everything": {
+          "title": "8. Search everything",
+          "description": "Full-text across findings, weapons, skills and run questions.",
+          "sql": "SELECT kind, name, detail, value, source FROM search\nWHERE search MATCH :q ORDER BY rank LIMIT 300"
+        },
+        "skill_lookup": {
+          "title": "9. Skills by path / stat / tier",
+          "description": "Skills are never charged Credits to players (D22/D27); the figure is the designer-side value.",
+          "sql": "SELECT name, path, tier, stat, unlocks_at, credits\nFROM skills WHERE path LIKE '%' || :contains || '%'\n   OR stat LIKE '%' || :contains || '%'\n   OR name LIKE '%' || :contains || '%'\nORDER BY path, tier, name"
+        }
+      }
+    }
+  }
+}

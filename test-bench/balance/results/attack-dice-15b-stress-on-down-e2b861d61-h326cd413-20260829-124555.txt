@@ -1,0 +1,109 @@
+==============================================================================
+SHOULD STRESS SURVIVE BEING DOWNED?   exact + seeded MC
+==============================================================================
+
+[A] WHAT STRESS DOES A DOWNED MODEL CARRY, FROM THE BURST ALONE?
+    Conditional on the target going Down. DEX+2, weapon +2, open
+    unarmoured, surplus injury passes converting to Stress.
+ dice      S=0      S=1      S=2     S=3+    mean  P(S>=2 | Down)
+    1   100.0%     0.0%     0.0%     0.0%    0.00            0.0%
+    2    48.8%    51.2%     0.0%     0.0%    0.51            0.0%
+    3    23.4%    49.2%    27.4%     0.0%    1.04           27.4%
+
+    A 3-die burst leaves its victim on 1.04 Stress on average,
+    and at 2+ Stress - Break-test range -  27.4% of the time.
+    A single shot leaves 0.00: a lone bullet that Downs you
+    carries no Stress at all, because its one pass IS the wound. So this
+    Stress is entirely an Attack Dice phenomenon at the moment of Down.
+
+------------------------------------------------------------------------------
+[B] BUT MOST OF THE STRESS IS NOT FROM THE BURST
+    A model usually arrives at Down having already been shot at for
+    rounds. Seeded MC, N=20,000: a DEX+2 rifleman is fired on until Down
+    by single-shot weapons only - NO Attack Dice anywhere.
+     S=0      S=1      S=2      S=3     S=4+    mean   P(S>=2)
+   59.6%    24.3%     9.6%     4.0%     2.5%    0.67     16.1%
+
+    With NO Attack Dice in the game at all, a model reaches Down carrying
+    0.67 Stress on average and is in Break-test range  16.1% of the time.
+    Against 1.04 /  27.4% from a 3-die burst in one Action.
+
+    >> THE RULING IS NOT ABOUT ATTACK DICE. Ordinary single-shot fire
+       already puts more Stress on a downed model than a burst does,
+       because it takes several attempts and every failed one Pins.
+       Attack Dice compress that into one Action; they did not create it.
+
+------------------------------------------------------------------------------
+[B2] BOTH RULES TOGETHER - the case actually on the table
+     Same MC, but the shooter carries a 3-die weapon and surplus injury
+     passes convert to Stress. This is what Stress-at-Down looks like if
+     BOTH open items are ruled yes.
+                     configuration    mean   P(S>=2)   P(S>=4)
+      1 die, no conversion (today)    0.66     15.5%      2.5%
+             3 dice, no conversion    0.97     22.7%      3.6%
+          3 dice + surplus->Stress    1.44     40.8%      5.6%
+
+     Adopting both roughly 2.2x the Stress a downed model
+     carries (0.66 -> 1.44), and takes P(in Break-test range)
+     from  15.5% to  40.8%. The BugOut band (4+) goes
+       2.5% ->   5.6%.
+
+------------------------------------------------------------------------------
+[C] THE SHARP END - what happens when someone revives him?
+    A Stabilised fighter opens his next activation with a Break test.
+ Stress   test?  NRV+1 fail  NRV+2 fail  NRV+3 fail      failure means
+      0      no        0.0%        0.0%        0.0%            no test
+      1      no        0.0%        0.0%        0.0%            no test
+      2     yes       60.0%       50.0%       40.0%               Bolt
+      3     yes       70.0%       60.0%       50.0%             Broken
+      4     yes       80.0%       70.0%       60.0%   BUGOUT (removed)
+      5     yes       90.0%       80.0%       70.0%   BUGOUT (removed)
+
+    The 4+ row is the one that matters. A crew spends an Action AND an
+    INT test to Stabilise a friend; he stands up, rolls, and on a failure
+    at 4+ Stress he BUGS OUT - removed from play. The rescue bought
+    nothing, and it cost a whole activation to buy it.
+
+    How often does that actually happen, per revival, at NRV +2?
+                        game state  fails 1st test   BUGS OUT  ~1 in N bug out
+      1 die, no conversion (today)            8.8%       1.9%          1 in 53
+             3 dice, no conversion           12.8%       2.7%          1 in 37
+          3 dice + surplus->Stress           22.5%       4.2%          1 in 24
+
+    TODAY'S GAME, if Stress simply persists:   8.8% of revived
+    fighters lose the activation,   1.9% walk off - about 1 in 53.
+    WITH BOTH ATTACK DICE RULES:  22.5% and   4.2% - about 1 in 24.
+
+    Both land in story territory rather than feels-bad territory. The
+    second is the one to watch: a fifth of revivals wasted is a lot more
+    noticeable than a tenth, and it is the version that also has three
+    dice hitting the model on the way down.
+
+------------------------------------------------------------------------------
+[D] THREE WAYS TO RULE IT, and what each costs
+
+    1. STRESS PERSISTS IN FULL  (Ross's reading)
+       Revived fighter tests immediately, can BugOut.
+       + Realistic, dramatic, zero new rules text - it is the ABSENCE of a
+         clearing rule, so it is literally the cheapest option to write.
+       + Makes Stabilise a real decision instead of an automatic yes.
+       - The double-punish above: 22.5% of revivals fail at once, 4.2% are
+         removed outright after someone spent an Action saving them.
+       - Interacts with the death-spiral risk already flagged in
+         `Dice Mechanic - Sim Findings` 7.
+       - Note those figures are for BOTH Attack Dice rules adopted. On
+         today's game the same rule costs only 8.8% / 1.9%.
+
+    2. STABILISE CLEARS TO 1 STRESS  (the valve)
+       "A Stabilised fighter returns Shaken, however much Stress it had."
+       + One clause. Keeps the flavour - he comes back rattled, at -1.
+       + Removes the bad beat entirely; no test on revival, ever.
+       - Loses exactly the beat Ross wants: no nerve test on standing up.
+
+    3. PERSISTS, BUT NO BUGOUT ON THE FIRST TEST  (capped)
+       Failure on the revival test caps at Broken - lose the activation.
+       + Keeps the test and the drama, removes only the walk-off-the-table.
+       - A special case, and special cases are what this project cuts.
+
+[json] D:\AI-Workstation\Antigravity\apps\Settlements\test-bench\balance\results\attack-dice-15b-stress-on-down.json
+==============================================================================

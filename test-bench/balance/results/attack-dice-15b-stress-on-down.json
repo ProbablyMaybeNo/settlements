@@ -1,0 +1,178 @@
+{
+  "stress_given_down": [
+    {
+      "dice": 1,
+      "mean_stress_given_down": 0.0,
+      "p_stress_ge2_given_down": 0,
+      "dist": {
+        "0": 1.0
+      }
+    },
+    {
+      "dice": 2,
+      "mean_stress_given_down": 0.512,
+      "p_stress_ge2_given_down": 0,
+      "dist": {
+        "0": 0.4878,
+        "1": 0.5122
+      }
+    },
+    {
+      "dice": 3,
+      "mean_stress_given_down": 1.04,
+      "p_stress_ge2_given_down": 0.274,
+      "dist": {
+        "0": 0.2342,
+        "1": 0.4918,
+        "2": 0.274
+      }
+    }
+  ],
+  "accumulated_stress_no_attack_dice": {
+    "mean": 0.67,
+    "p_ge2": 0.1608,
+    "dist": {
+      "0": 0.5957,
+      "1": 0.2435,
+      "2": 0.096,
+      "3": 0.0401,
+      "4": 0.0144,
+      "5": 0.0066,
+      "6": 0.0023,
+      "7": 0.0007,
+      "8": 0.0005,
+      "9": 0.0001,
+      "10": 0.0001
+    }
+  },
+  "both_rules_together": [
+    {
+      "config": "1 die, no conversion (today)",
+      "mean": 0.656,
+      "p_ge2": 0.1547,
+      "p_ge4": 0.025,
+      "dist": {
+        "0": 0.6038,
+        "1": 0.2416,
+        "2": 0.091,
+        "3": 0.0386,
+        "4": 0.0155,
+        "5": 0.0054,
+        "6": 0.0029,
+        "7": 0.0007,
+        "8": 0.0003,
+        "9": 0.0003,
+        "10": 0.0001
+      }
+    },
+    {
+      "config": "3 dice, no conversion",
+      "mean": 0.972,
+      "p_ge2": 0.2274,
+      "p_ge4": 0.0363,
+      "dist": {
+        "0": 0.4018,
+        "1": 0.3708,
+        "2": 0.1394,
+        "3": 0.0517,
+        "4": 0.0225,
+        "5": 0.0088,
+        "6": 0.0032,
+        "7": 0.0011,
+        "8": 0.0004,
+        "9": 0.0003,
+        "10": 0.0001
+      }
+    },
+    {
+      "config": "3 dice + surplus->Stress",
+      "mean": 1.443,
+      "p_ge2": 0.4076,
+      "p_ge4": 0.0562,
+      "dist": {
+        "0": 0.185,
+        "1": 0.4074,
+        "2": 0.2807,
+        "3": 0.0707,
+        "4": 0.034,
+        "5": 0.0133,
+        "6": 0.0053,
+        "7": 0.0024,
+        "8": 0.0004,
+        "9": 0.0004,
+        "10": 0.0003,
+        "11": 0.0001
+      }
+    }
+  ],
+  "revival_break_test": [
+    {
+      "stress": 0,
+      "fail_nrv1": 0.0,
+      "fail_nrv2": 0.0,
+      "fail_nrv3": 0.0,
+      "severity": "no test"
+    },
+    {
+      "stress": 1,
+      "fail_nrv1": 0.0,
+      "fail_nrv2": 0.0,
+      "fail_nrv3": 0.0,
+      "severity": "no test"
+    },
+    {
+      "stress": 2,
+      "fail_nrv1": 0.6,
+      "fail_nrv2": 0.5,
+      "fail_nrv3": 0.4,
+      "severity": "Bolt"
+    },
+    {
+      "stress": 3,
+      "fail_nrv1": 0.7,
+      "fail_nrv2": 0.6,
+      "fail_nrv3": 0.5,
+      "severity": "Broken"
+    },
+    {
+      "stress": 4,
+      "fail_nrv1": 0.8,
+      "fail_nrv2": 0.7,
+      "fail_nrv3": 0.6,
+      "severity": "BUGOUT (removed)"
+    },
+    {
+      "stress": 5,
+      "fail_nrv1": 0.9,
+      "fail_nrv2": 0.8,
+      "fail_nrv3": 0.7,
+      "severity": "BUGOUT (removed)"
+    }
+  ],
+  "bad_beat": [
+    {
+      "config": "1 die, no conversion (today)",
+      "p_fail_first_test": 0.0877,
+      "p_bugout_on_revival": 0.019
+    },
+    {
+      "config": "3 dice, no conversion",
+      "p_fail_first_test": 0.1281,
+      "p_bugout_on_revival": 0.0274
+    },
+    {
+      "config": "3 dice + surplus->Stress",
+      "p_fail_first_test": 0.2252,
+      "p_bugout_on_revival": 0.0425
+    }
+  ],
+  "params": {
+    "seed": 20260708,
+    "N": 20000,
+    "shooter": "DEX +2",
+    "weapon": "medium +2",
+    "target": "open, unarmoured",
+    "break_test": "1d10 + NRV - (Stress-1) >= 7; fail -> Bolt(2)/Broken(3)/BugOut(4+)",
+    "note": "Section B is deliberately Attack-Dice-free - it measures what the ruling does to the EXISTING game, which is the larger effect."
+  }
+}

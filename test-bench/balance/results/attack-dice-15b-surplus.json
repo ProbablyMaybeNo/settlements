@@ -1,0 +1,185 @@
+{
+  "fire_rate": [
+    {
+      "band": "open/unarmoured",
+      "ad2_two_passes": 0.1296,
+      "ad3_two_plus": 0.2955,
+      "ad3_three": 0.0467
+    },
+    {
+      "band": "open/light",
+      "ad2_two_passes": 0.09,
+      "ad3_two_plus": 0.216,
+      "ad3_three": 0.027
+    },
+    {
+      "band": "open/heavy",
+      "ad2_two_passes": 0.0576,
+      "ad3_two_plus": 0.1452,
+      "ad3_three": 0.0138
+    },
+    {
+      "band": "light/unarmoured",
+      "ad2_two_passes": 0.09,
+      "ad3_two_plus": 0.216,
+      "ad3_three": 0.027
+    },
+    {
+      "band": "light/light",
+      "ad2_two_passes": 0.0625,
+      "ad3_two_plus": 0.1562,
+      "ad3_three": 0.0156
+    },
+    {
+      "band": "light/heavy",
+      "ad2_two_passes": 0.04,
+      "ad3_two_plus": 0.104,
+      "ad3_three": 0.008
+    },
+    {
+      "band": "heavy/unarmoured",
+      "ad2_two_passes": 0.0576,
+      "ad3_two_plus": 0.1452,
+      "ad3_three": 0.0138
+    },
+    {
+      "band": "heavy/light",
+      "ad2_two_passes": 0.04,
+      "ad3_two_plus": 0.104,
+      "ad3_three": 0.008
+    },
+    {
+      "band": "heavy/heavy",
+      "ad2_two_passes": 0.0256,
+      "ad3_two_plus": 0.0686,
+      "ad3_three": 0.0041
+    },
+    {
+      "band": "hidden/unarmoured",
+      "ad2_two_passes": 0.0324,
+      "ad3_two_plus": 0.0855,
+      "ad3_three": 0.0058
+    },
+    {
+      "band": "hidden/light",
+      "ad2_two_passes": 0.0225,
+      "ad3_two_plus": 0.0607,
+      "ad3_three": 0.0034
+    },
+    {
+      "band": "hidden/heavy",
+      "ad2_two_passes": 0.0144,
+      "ad3_two_plus": 0.0397,
+      "ad3_three": 0.0017
+    }
+  ],
+  "wnd1": [
+    {
+      "rule": "RULED",
+      "down_stress_counts": false,
+      "e_wounds": 0.7379,
+      "e_stress": 0.2949,
+      "p_down": 0.7379,
+      "p_stress_0": 0.8019,
+      "p_shaken": 0.1152,
+      "p_break": 0.0829
+    },
+    {
+      "rule": "RULED",
+      "down_stress_counts": true,
+      "e_wounds": 0.7379,
+      "e_stress": 0.72,
+      "p_down": 0.7379,
+      "p_stress_0": 0.439,
+      "p_shaken": 0.4159,
+      "p_break": 0.1452
+    },
+    {
+      "rule": "R5",
+      "down_stress_counts": false,
+      "e_wounds": 0.7379,
+      "e_stress": 0.2949,
+      "p_down": 0.7379,
+      "p_stress_0": 0.8019,
+      "p_shaken": 0.1152,
+      "p_break": 0.0829
+    },
+    {
+      "rule": "R5",
+      "down_stress_counts": true,
+      "e_wounds": 0.7379,
+      "e_stress": 1.0621,
+      "p_down": 0.7379,
+      "p_stress_0": 0.2368,
+      "p_shaken": 0.4781,
+      "p_break": 0.2851
+    }
+  ],
+  "multiwound": [
+    {
+      "wnd": 2,
+      "rule": "RULED",
+      "e_wounds": 0.7379,
+      "e_stress": 0.72,
+      "p_down": 0.0,
+      "p_stress_0": 0.439,
+      "p_shaken": 0.4159,
+      "p_break": 0.1452
+    },
+    {
+      "wnd": 2,
+      "rule": "R5",
+      "e_wounds": 0.7379,
+      "e_stress": 1.0621,
+      "p_down": 0.0,
+      "p_stress_0": 0.2368,
+      "p_shaken": 0.4781,
+      "p_break": 0.2851
+    },
+    {
+      "wnd": 3,
+      "rule": "RULED",
+      "e_wounds": 0.7379,
+      "e_stress": 0.72,
+      "p_down": 0.0,
+      "p_stress_0": 0.439,
+      "p_shaken": 0.4159,
+      "p_break": 0.1452
+    },
+    {
+      "wnd": 3,
+      "rule": "R5",
+      "e_wounds": 0.7379,
+      "e_stress": 1.0621,
+      "p_down": 0.0,
+      "p_stress_0": 0.2368,
+      "p_shaken": 0.4781,
+      "p_break": 0.2851
+    }
+  ],
+  "price": [
+    {
+      "rule": "RULED",
+      "ad2_cr": 38.4,
+      "ad3_cr": 63.0
+    },
+    {
+      "rule": "R5",
+      "ad2_cr": 38.4,
+      "ad3_cr": 63.0
+    }
+  ],
+  "params": {
+    "engine": "exact enumeration; mirrors attack_dice_sim.py / sim_report.py",
+    "shooter": "DEX +2",
+    "weapon": "medium +2",
+    "rifle_cr": 15,
+    "fighter_cr": 100,
+    "credits_damage": 10,
+    "rules": {
+      "RULED": "surplus injury passes discarded",
+      "R5": "each surplus injury pass adds +1 Stress"
+    },
+    "open_question": "does Stress persist on a Down model and return with it on Stabilize? R5's entire WND-1 effect depends on it."
+  }
+}

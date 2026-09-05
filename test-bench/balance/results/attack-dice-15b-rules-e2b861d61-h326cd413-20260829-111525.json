@@ -1,0 +1,75 @@
+{
+  "name": "attack-dice-15b-rules",
+  "question": "Phase 15b follow-up: which resolution rule? R1 stop_on_down vs R3 pick_one vs R2 resolve_all vs R4 pick+pins. Exact enumeration.",
+  "values": {},
+  "raw_cells": [],
+  "params": {
+    "harness": "test-bench\\attack_dice_rules_compare.py",
+    "argv": [],
+    "status": "ok"
+  },
+  "caveats": [
+    "stdout captured verbatim and NOT parsed; the .txt beside this envelope is the record"
+  ],
+  "engine": {
+    "combined": "2b861d61f09acca4",
+    "files": {
+      "engine.py": "85b4ab067caf5784",
+      "board.py": "04a657ac574bcc0f",
+      "policies.py": "34344c3ea5c165b8",
+      "data.py": "77e931aab7419f03",
+      "crews.py": "874a8406eae85f8b"
+    }
+  },
+  "cost_table": {
+    "combined": "81b9de1b9ab07d02",
+    "n_constants": 59
+  },
+  "harness": {
+    "combined": "326cd41330e80b2e",
+    "files": {
+      "measure.py": "4a64cfe6aef9965d",
+      "effects.py": "ca55644b814c5697",
+      "anchor.py": "2800335824ef4da9",
+      "rosters.py": "0ea0162cc3038c11",
+      "diag_arrival.py": "8053c1c1360d59d6",
+      "measure_anchor.py": "18b899b87e588a1f",
+      "measure_armour.py": "e5fb576c45bc1dd4",
+      "measure_catalogue.py": "9d24c35768e7ae98",
+      "measure_conditions.py": "3813d3607be33bf7",
+      "measure_density.py": "e9f9d0fa1cd53dd8",
+      "measure_elevation.py": "f4adca96ad1180f1",
+      "measure_payloads.py": "c4411dcfad7a2775",
+      "measure_pinned.py": "e7e342093ab3a8e0",
+      "measure_signsplit.py": "33e9ff327a547457",
+      "measure_stat_ladder.py": "812ec48eedd6c054",
+      "measure_weapon_classes.py": "1522f215095908bf",
+      "verify_scenarios.py": "da39545895392a68",
+      "verify_sprint_fix.py": "502eb33a0797f22e"
+    }
+  },
+  "script": {
+    "name": "run_stamped.py",
+    "sha": "feb8a57af5653eb7"
+  },
+  "git": {
+    "commit": "c867139a89eb",
+    "branch": "main",
+    "dirty": true,
+    "dirty_relevant": [],
+    "dirty_paths": [
+      "cursor/hooks/state/continual-learning.json",
+      ".gitignore",
+      "test-bench/attack_dice_rules_compare.py",
+      "test-bench/attack_dice_sim.py",
+      "test-bench/balance/results/attack-dice-15b-n10000-e2b861d61-h326cd413-20260829-084346.json",
+      "test-bench/balance/results/attack-dice-15b-n10000-e2b861d61-h326cd413-20260829-084346.txt",
+      "test-bench/balance/results/attack-dice-15b-rules.json",
+      "test-bench/balance/results/attack-dice-15b.json",
+      "test-bench/explorer/"
+    ]
+  },
+  "created": "20260829-111525",
+  "python": "3.13.7",
+  "schema": 2
+}

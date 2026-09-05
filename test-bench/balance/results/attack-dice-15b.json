@@ -1,0 +1,854 @@
+{
+  "engine_mirror": [
+    {
+      "cover": "open",
+      "wound_per_shot": 0.36,
+      "findings_mc": "35.8%"
+    },
+    {
+      "cover": "light",
+      "wound_per_shot": 0.3,
+      "findings_mc": "29.9%"
+    },
+    {
+      "cover": "heavy",
+      "wound_per_shot": 0.24,
+      "findings_mc": "24.0%"
+    },
+    {
+      "cover": "hidden",
+      "wound_per_shot": 0.18,
+      "findings_mc": "17.7%"
+    }
+  ],
+  "test1_p_at_least_one_wound": [
+    {
+      "armour": "unarmoured",
+      "cover": "open",
+      "p_down": {
+        "1": 0.36,
+        "2": 0.5904,
+        "3": 0.7379
+      },
+      "delta_die2": 0.2304,
+      "delta_die3": 0.1475
+    },
+    {
+      "armour": "unarmoured",
+      "cover": "light",
+      "p_down": {
+        "1": 0.3,
+        "2": 0.51,
+        "3": 0.657
+      },
+      "delta_die2": 0.21,
+      "delta_die3": 0.147
+    },
+    {
+      "armour": "unarmoured",
+      "cover": "heavy",
+      "p_down": {
+        "1": 0.24,
+        "2": 0.4224,
+        "3": 0.561
+      },
+      "delta_die2": 0.1824,
+      "delta_die3": 0.1386
+    },
+    {
+      "armour": "unarmoured",
+      "cover": "hidden",
+      "p_down": {
+        "1": 0.18,
+        "2": 0.3276,
+        "3": 0.4486
+      },
+      "delta_die2": 0.1476,
+      "delta_die3": 0.121
+    },
+    {
+      "armour": "light",
+      "cover": "open",
+      "p_down": {
+        "1": 0.3,
+        "2": 0.51,
+        "3": 0.657
+      },
+      "delta_die2": 0.21,
+      "delta_die3": 0.147
+    },
+    {
+      "armour": "light",
+      "cover": "light",
+      "p_down": {
+        "1": 0.25,
+        "2": 0.4375,
+        "3": 0.5781
+      },
+      "delta_die2": 0.1875,
+      "delta_die3": 0.1406
+    },
+    {
+      "armour": "light",
+      "cover": "heavy",
+      "p_down": {
+        "1": 0.2,
+        "2": 0.36,
+        "3": 0.488
+      },
+      "delta_die2": 0.16,
+      "delta_die3": 0.128
+    },
+    {
+      "armour": "light",
+      "cover": "hidden",
+      "p_down": {
+        "1": 0.15,
+        "2": 0.2775,
+        "3": 0.3859
+      },
+      "delta_die2": 0.1275,
+      "delta_die3": 0.1084
+    },
+    {
+      "armour": "heavy",
+      "cover": "open",
+      "p_down": {
+        "1": 0.24,
+        "2": 0.4224,
+        "3": 0.561
+      },
+      "delta_die2": 0.1824,
+      "delta_die3": 0.1386
+    },
+    {
+      "armour": "heavy",
+      "cover": "light",
+      "p_down": {
+        "1": 0.2,
+        "2": 0.36,
+        "3": 0.488
+      },
+      "delta_die2": 0.16,
+      "delta_die3": 0.128
+    },
+    {
+      "armour": "heavy",
+      "cover": "heavy",
+      "p_down": {
+        "1": 0.16,
+        "2": 0.2944,
+        "3": 0.4073
+      },
+      "delta_die2": 0.1344,
+      "delta_die3": 0.1129
+    },
+    {
+      "armour": "heavy",
+      "cover": "hidden",
+      "p_down": {
+        "1": 0.12,
+        "2": 0.2256,
+        "3": 0.3185
+      },
+      "delta_die2": 0.1056,
+      "delta_die3": 0.0929
+    }
+  ],
+  "test1_front_loading_ratio": [
+    {
+      "band": "open/unarmoured",
+      "delta_die2": 0.2304,
+      "delta_die3": 0.1475,
+      "ratio": 1.5625
+    },
+    {
+      "band": "light/unarmoured",
+      "delta_die2": 0.21,
+      "delta_die3": 0.147,
+      "ratio": 1.4286
+    },
+    {
+      "band": "heavy/unarmoured",
+      "delta_die2": 0.1824,
+      "delta_die3": 0.1386,
+      "ratio": 1.3158
+    },
+    {
+      "band": "hidden/unarmoured",
+      "delta_die2": 0.1476,
+      "delta_die3": 0.121,
+      "ratio": 1.2195
+    },
+    {
+      "band": "open/light",
+      "delta_die2": 0.21,
+      "delta_die3": 0.147,
+      "ratio": 1.4286
+    },
+    {
+      "band": "light/light",
+      "delta_die2": 0.1875,
+      "delta_die3": 0.1406,
+      "ratio": 1.3333
+    },
+    {
+      "band": "heavy/light",
+      "delta_die2": 0.16,
+      "delta_die3": 0.128,
+      "ratio": 1.25
+    },
+    {
+      "band": "hidden/light",
+      "delta_die2": 0.1275,
+      "delta_die3": 0.1084,
+      "ratio": 1.1765
+    },
+    {
+      "band": "open/heavy",
+      "delta_die2": 0.1824,
+      "delta_die3": 0.1386,
+      "ratio": 1.3158
+    },
+    {
+      "band": "light/heavy",
+      "delta_die2": 0.16,
+      "delta_die3": 0.128,
+      "ratio": 1.25
+    },
+    {
+      "band": "heavy/heavy",
+      "delta_die2": 0.1344,
+      "delta_die3": 0.1129,
+      "ratio": 1.1905
+    },
+    {
+      "band": "hidden/heavy",
+      "delta_die2": 0.1056,
+      "delta_die3": 0.0929,
+      "ratio": 1.1364
+    }
+  ],
+  "test2_e_wounds": [
+    {
+      "armour": "unarmoured",
+      "cover": "open",
+      "resolve_all": {
+        "1": 0.36,
+        "2": 0.72,
+        "3": 1.08
+      },
+      "stop_on_down": {
+        "1": 0.36,
+        "2": 0.5904,
+        "3": 0.7379
+      },
+      "ad3_wasted_fraction": 0.3168
+    },
+    {
+      "armour": "unarmoured",
+      "cover": "light",
+      "resolve_all": {
+        "1": 0.3,
+        "2": 0.6,
+        "3": 0.9
+      },
+      "stop_on_down": {
+        "1": 0.3,
+        "2": 0.51,
+        "3": 0.657
+      },
+      "ad3_wasted_fraction": 0.27
+    },
+    {
+      "armour": "unarmoured",
+      "cover": "heavy",
+      "resolve_all": {
+        "1": 0.24,
+        "2": 0.48,
+        "3": 0.72
+      },
+      "stop_on_down": {
+        "1": 0.24,
+        "2": 0.4224,
+        "3": 0.561
+      },
+      "ad3_wasted_fraction": 0.2208
+    },
+    {
+      "armour": "unarmoured",
+      "cover": "hidden",
+      "resolve_all": {
+        "1": 0.18,
+        "2": 0.36,
+        "3": 0.54
+      },
+      "stop_on_down": {
+        "1": 0.18,
+        "2": 0.3276,
+        "3": 0.4486
+      },
+      "ad3_wasted_fraction": 0.1692
+    },
+    {
+      "armour": "light",
+      "cover": "open",
+      "resolve_all": {
+        "1": 0.3,
+        "2": 0.6,
+        "3": 0.9
+      },
+      "stop_on_down": {
+        "1": 0.3,
+        "2": 0.51,
+        "3": 0.657
+      },
+      "ad3_wasted_fraction": 0.27
+    },
+    {
+      "armour": "light",
+      "cover": "light",
+      "resolve_all": {
+        "1": 0.25,
+        "2": 0.5,
+        "3": 0.75
+      },
+      "stop_on_down": {
+        "1": 0.25,
+        "2": 0.4375,
+        "3": 0.5781
+      },
+      "ad3_wasted_fraction": 0.2292
+    },
+    {
+      "armour": "light",
+      "cover": "heavy",
+      "resolve_all": {
+        "1": 0.2,
+        "2": 0.4,
+        "3": 0.6
+      },
+      "stop_on_down": {
+        "1": 0.2,
+        "2": 0.36,
+        "3": 0.488
+      },
+      "ad3_wasted_fraction": 0.1867
+    },
+    {
+      "armour": "light",
+      "cover": "hidden",
+      "resolve_all": {
+        "1": 0.15,
+        "2": 0.3,
+        "3": 0.45
+      },
+      "stop_on_down": {
+        "1": 0.15,
+        "2": 0.2775,
+        "3": 0.3859
+      },
+      "ad3_wasted_fraction": 0.1425
+    },
+    {
+      "armour": "heavy",
+      "cover": "open",
+      "resolve_all": {
+        "1": 0.24,
+        "2": 0.48,
+        "3": 0.72
+      },
+      "stop_on_down": {
+        "1": 0.24,
+        "2": 0.4224,
+        "3": 0.561
+      },
+      "ad3_wasted_fraction": 0.2208
+    },
+    {
+      "armour": "heavy",
+      "cover": "light",
+      "resolve_all": {
+        "1": 0.2,
+        "2": 0.4,
+        "3": 0.6
+      },
+      "stop_on_down": {
+        "1": 0.2,
+        "2": 0.36,
+        "3": 0.488
+      },
+      "ad3_wasted_fraction": 0.1867
+    },
+    {
+      "armour": "heavy",
+      "cover": "heavy",
+      "resolve_all": {
+        "1": 0.16,
+        "2": 0.32,
+        "3": 0.48
+      },
+      "stop_on_down": {
+        "1": 0.16,
+        "2": 0.2944,
+        "3": 0.4073
+      },
+      "ad3_wasted_fraction": 0.1515
+    },
+    {
+      "armour": "heavy",
+      "cover": "hidden",
+      "resolve_all": {
+        "1": 0.12,
+        "2": 0.24,
+        "3": 0.36
+      },
+      "stop_on_down": {
+        "1": 0.12,
+        "2": 0.2256,
+        "3": 0.3185
+      },
+      "ad3_wasted_fraction": 0.1152
+    }
+  ],
+  "test3_e_stress": [
+    {
+      "armour": "unarmoured",
+      "cover": "open",
+      "resolve_all": {
+        "1": 0.24,
+        "2": 0.48,
+        "3": 0.72
+      },
+      "stop_on_down": {
+        "1": 0.24,
+        "2": 0.3936,
+        "3": 0.4919
+      },
+      "p_break_test_triggered_ad3": 0.1037
+    },
+    {
+      "armour": "unarmoured",
+      "cover": "light",
+      "resolve_all": {
+        "1": 0.2,
+        "2": 0.4,
+        "3": 0.6
+      },
+      "stop_on_down": {
+        "1": 0.2,
+        "2": 0.34,
+        "3": 0.438
+      },
+      "p_break_test_triggered_ad3": 0.08
+    },
+    {
+      "armour": "unarmoured",
+      "cover": "heavy",
+      "resolve_all": {
+        "1": 0.16,
+        "2": 0.32,
+        "3": 0.48
+      },
+      "stop_on_down": {
+        "1": 0.16,
+        "2": 0.2816,
+        "3": 0.374
+      },
+      "p_break_test_triggered_ad3": 0.0563
+    },
+    {
+      "armour": "unarmoured",
+      "cover": "hidden",
+      "resolve_all": {
+        "1": 0.12,
+        "2": 0.24,
+        "3": 0.36
+      },
+      "stop_on_down": {
+        "1": 0.12,
+        "2": 0.2184,
+        "3": 0.2991
+      },
+      "p_break_test_triggered_ad3": 0.0346
+    },
+    {
+      "armour": "light",
+      "cover": "open",
+      "resolve_all": {
+        "1": 0.3,
+        "2": 0.6,
+        "3": 0.9
+      },
+      "stop_on_down": {
+        "1": 0.3,
+        "2": 0.51,
+        "3": 0.657
+      },
+      "p_break_test_triggered_ad3": 0.162
+    },
+    {
+      "armour": "light",
+      "cover": "light",
+      "resolve_all": {
+        "1": 0.25,
+        "2": 0.5,
+        "3": 0.75
+      },
+      "stop_on_down": {
+        "1": 0.25,
+        "2": 0.4375,
+        "3": 0.5781
+      },
+      "p_break_test_triggered_ad3": 0.125
+    },
+    {
+      "armour": "light",
+      "cover": "heavy",
+      "resolve_all": {
+        "1": 0.2,
+        "2": 0.4,
+        "3": 0.6
+      },
+      "stop_on_down": {
+        "1": 0.2,
+        "2": 0.36,
+        "3": 0.488
+      },
+      "p_break_test_triggered_ad3": 0.088
+    },
+    {
+      "armour": "light",
+      "cover": "hidden",
+      "resolve_all": {
+        "1": 0.15,
+        "2": 0.3,
+        "3": 0.45
+      },
+      "stop_on_down": {
+        "1": 0.15,
+        "2": 0.2775,
+        "3": 0.3859
+      },
+      "p_break_test_triggered_ad3": 0.054
+    },
+    {
+      "armour": "heavy",
+      "cover": "open",
+      "resolve_all": {
+        "1": 0.36,
+        "2": 0.72,
+        "3": 1.08
+      },
+      "stop_on_down": {
+        "1": 0.36,
+        "2": 0.6336,
+        "3": 0.8415
+      },
+      "p_break_test_triggered_ad3": 0.2333
+    },
+    {
+      "armour": "heavy",
+      "cover": "light",
+      "resolve_all": {
+        "1": 0.3,
+        "2": 0.6,
+        "3": 0.9
+      },
+      "stop_on_down": {
+        "1": 0.3,
+        "2": 0.54,
+        "3": 0.732
+      },
+      "p_break_test_triggered_ad3": 0.18
+    },
+    {
+      "armour": "heavy",
+      "cover": "heavy",
+      "resolve_all": {
+        "1": 0.24,
+        "2": 0.48,
+        "3": 0.72
+      },
+      "stop_on_down": {
+        "1": 0.24,
+        "2": 0.4416,
+        "3": 0.6109
+      },
+      "p_break_test_triggered_ad3": 0.1267
+    },
+    {
+      "armour": "heavy",
+      "cover": "hidden",
+      "resolve_all": {
+        "1": 0.18,
+        "2": 0.36,
+        "3": 0.54
+      },
+      "stop_on_down": {
+        "1": 0.18,
+        "2": 0.3384,
+        "3": 0.4778
+      },
+      "p_break_test_triggered_ad3": 0.0778
+    }
+  ],
+  "test4_activations_to_down": [
+    {
+      "label": "1x Fighter, rifle AD1",
+      "cr": 115,
+      "shooters": 1,
+      "dice": 1,
+      "dmg": 2,
+      "dex": 2,
+      "dice_per_activation": 1,
+      "p_down": 0.25,
+      "e_activations": 4.0,
+      "cr_activations": 460.0
+    },
+    {
+      "label": "1x Fighter, rifle AD2",
+      "cr": 140,
+      "shooters": 1,
+      "dice": 2,
+      "dmg": 2,
+      "dex": 2,
+      "dice_per_activation": 2,
+      "p_down": 0.4375,
+      "e_activations": 2.286,
+      "cr_activations": 320.0
+    },
+    {
+      "label": "1x Fighter, rifle AD3",
+      "cr": 175,
+      "shooters": 1,
+      "dice": 3,
+      "dmg": 2,
+      "dex": 2,
+      "dice_per_activation": 3,
+      "p_down": 0.5781,
+      "e_activations": 1.73,
+      "cr_activations": 302.7
+    },
+    {
+      "label": "1x Fighter, rifle +4 dmg (AD1)",
+      "dmg": 4,
+      "dex": 2,
+      "cr": 135,
+      "shooters": 1,
+      "dice": 1,
+      "dice_per_activation": 1,
+      "p_down": 0.35,
+      "e_activations": 2.857,
+      "cr_activations": 385.7
+    },
+    {
+      "label": "2x Recruit, pistol (AD1)",
+      "cr": 170,
+      "shooters": 2,
+      "dice": 1,
+      "dmg": 2,
+      "dex": 2,
+      "dice_per_activation": 2,
+      "p_down": 0.4375,
+      "e_activations": 2.286,
+      "cr_activations": 388.6
+    },
+    {
+      "label": "1x Fighter rifle + 1x Recruit pistol (AD1)",
+      "cr": 200,
+      "shooters": 2,
+      "dice": 1,
+      "dmg": 2,
+      "dex": 2,
+      "dice_per_activation": 2,
+      "p_down": 0.4375,
+      "e_activations": 2.286,
+      "cr_activations": 457.1
+    }
+  ],
+  "test5_auto_include": [
+    {
+      "purchase": "Fighter + Std Ranged +2 (baseline)",
+      "cr": 115,
+      "wounds_per_action": 0.36,
+      "wounds_per_action_per_100cr": 0.313,
+      "kind": "baseline"
+    },
+    {
+      "purchase": "Fighter + Std Ranged +3",
+      "cr": 125,
+      "wounds_per_action": 0.42,
+      "wounds_per_action_per_100cr": 0.336,
+      "kind": "damage step"
+    },
+    {
+      "purchase": "Fighter + Std Ranged +4",
+      "cr": 135,
+      "wounds_per_action": 0.48,
+      "wounds_per_action_per_100cr": 0.3556,
+      "kind": "damage step"
+    },
+    {
+      "purchase": "Specialist + Heavy Ranged +3 (Heavy Gunner)",
+      "cr": 175,
+      "wounds_per_action": 0.49,
+      "wounds_per_action_per_100cr": 0.28,
+      "kind": "benchmark"
+    },
+    {
+      "purchase": "Fighter + rifle AD2 (draft +25, stop)",
+      "cr": 140,
+      "wounds_per_action": 0.5904,
+      "wounds_per_action_per_100cr": 0.4217,
+      "kind": "attack die"
+    },
+    {
+      "purchase": "Fighter + rifle AD3 (draft +60, stop)",
+      "cr": 175,
+      "wounds_per_action": 0.7379,
+      "wounds_per_action_per_100cr": 0.4216,
+      "kind": "attack die"
+    },
+    {
+      "purchase": "Fighter + rifle AD2 (draft +25, all)",
+      "cr": 140,
+      "wounds_per_action": 0.72,
+      "wounds_per_action_per_100cr": 0.5143,
+      "kind": "attack die"
+    },
+    {
+      "purchase": "Fighter + rifle AD3 (draft +60, all)",
+      "cr": 175,
+      "wounds_per_action": 1.08,
+      "wounds_per_action_per_100cr": 0.6171,
+      "kind": "attack die"
+    }
+  ],
+  "test6_fair_price": [
+    {
+      "rule": "resolve_all",
+      "die": 2,
+      "delta_wounds": 0.36,
+      "fair_marginal_cr": 60.0,
+      "fair_cumulative_cr": 60.0,
+      "draft_cumulative_cr": 25,
+      "draft_over_fair": 0.417
+    },
+    {
+      "rule": "resolve_all",
+      "die": 3,
+      "delta_wounds": 0.36,
+      "fair_marginal_cr": 60.0,
+      "fair_cumulative_cr": 120.0,
+      "draft_cumulative_cr": 60,
+      "draft_over_fair": 0.5
+    },
+    {
+      "rule": "stop_on_down",
+      "die": 2,
+      "delta_wounds": 0.2304,
+      "fair_marginal_cr": 38.4,
+      "fair_cumulative_cr": 38.4,
+      "draft_cumulative_cr": 25,
+      "draft_over_fair": 0.651
+    },
+    {
+      "rule": "stop_on_down",
+      "die": 3,
+      "delta_wounds": 0.1475,
+      "fair_marginal_cr": 24.6,
+      "fair_cumulative_cr": 63.0,
+      "draft_cumulative_cr": 60,
+      "draft_over_fair": 0.953
+    }
+  ],
+  "mc_crosscheck": [
+    {
+      "cell": "open/unarmoured",
+      "dice": 3,
+      "exact_p_down": 0.7379,
+      "mc_p_down": 0.7475,
+      "exact_e_stress": 0.4919,
+      "mc_e_stress": 0.4997
+    },
+    {
+      "cell": "open/heavy",
+      "dice": 3,
+      "exact_p_down": 0.561,
+      "mc_p_down": 0.562,
+      "exact_e_stress": 0.8415,
+      "mc_e_stress": 0.8297
+    },
+    {
+      "cell": "light/unarmoured",
+      "dice": 3,
+      "exact_p_down": 0.657,
+      "mc_p_down": 0.6557,
+      "exact_e_stress": 0.438,
+      "mc_e_stress": 0.4267
+    },
+    {
+      "cell": "light/heavy",
+      "dice": 3,
+      "exact_p_down": 0.488,
+      "mc_p_down": 0.4811,
+      "exact_e_stress": 0.732,
+      "mc_e_stress": 0.7393
+    },
+    {
+      "cell": "heavy/unarmoured",
+      "dice": 3,
+      "exact_p_down": 0.561,
+      "mc_p_down": 0.5583,
+      "exact_e_stress": 0.374,
+      "mc_e_stress": 0.3793
+    },
+    {
+      "cell": "heavy/heavy",
+      "dice": 3,
+      "exact_p_down": 0.4073,
+      "mc_p_down": 0.4023,
+      "exact_e_stress": 0.6109,
+      "mc_e_stress": 0.6052
+    },
+    {
+      "cell": "hidden/unarmoured",
+      "dice": 3,
+      "exact_p_down": 0.4486,
+      "mc_p_down": 0.4433,
+      "exact_e_stress": 0.2991,
+      "mc_e_stress": 0.2961
+    },
+    {
+      "cell": "hidden/heavy",
+      "dice": 3,
+      "exact_p_down": 0.3185,
+      "mc_p_down": 0.31,
+      "exact_e_stress": 0.4778,
+      "mc_e_stress": 0.4824
+    }
+  ],
+  "params": {
+    "seed": 20260708,
+    "N_per_cell": 10000,
+    "shooter": "DEX +2",
+    "weapon": "medium, Damage +2",
+    "rifle_cr": 15,
+    "pistol_cr": 15,
+    "fighter_cr": 100,
+    "recruit_cr": 70,
+    "credits_damage": 10,
+    "fair_rate_cr_per_wound_per_action": 166.7,
+    "proposed_cumulative_cr": {
+      "1": 0,
+      "2": 25,
+      "3": 60
+    },
+    "engine": "mirrors test-bench/sim_report.py (1d10+mod>=7, nat1 fail, nat10 pass)"
+  },
+  "open_rulings_blocking": [
+    "resolve_all vs stop_on_down at WND 1 - worth 21-32% of AD3's output, and it is the same question as the brief's split-fire item. Nothing can be priced until this is ruled.",
+    "1 Action vs both slots - [E] measures 1 Action. Both-slots roughly halves the tempo value and would move the fair price down by about half."
+  ]
+}

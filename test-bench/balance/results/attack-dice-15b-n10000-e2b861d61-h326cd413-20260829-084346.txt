@@ -1,0 +1,261 @@
+==============================================================================
+SETTLEMENTS - ATTACK DICE SIM   (Phase 15b)   exact + N=10,000 crosscheck
+==============================================================================
+
+[A] ENGINE MIRROR CHECK - reproduce section 3 of 'Dice Mechanic - Sim Findings'
+    Standard shooter DEX +2, medium weapon (+2), unarmoured target.
+   cover   to-hit  wound/shot  shots->Down   findings s3
+    open    60.0%       36.0%         2.8         35.8%
+   light    50.0%       30.0%         3.3         29.9%
+   heavy    40.0%       24.0%         4.2         24.0%
+  hidden    30.0%       18.0%         5.6         17.7%
+    -> exact sits within sampling noise of the stored MC figures. Same engine.
+
+------------------------------------------------------------------------------
+[B] TEST 1 - P(>=1 wound) per ACTION, by Attack Dice, across cover x armour
+    Standard DEX+2 shooter, medium weapon (+2). Identical under both
+    down-rules: 'at least one' cannot care what happens after the first.
+
+    target armour: unarmoured
+   cover     AD 1     AD 2     AD 3   d die2   d die3
+    open    36.0%    59.0%    73.8%    23.0%    14.7%
+   light    30.0%    51.0%    65.7%    21.0%    14.7%
+   heavy    24.0%    42.2%    56.1%    18.2%    13.9%
+  hidden    18.0%    32.8%    44.9%    14.8%    12.1%
+
+    target armour: light
+   cover     AD 1     AD 2     AD 3   d die2   d die3
+    open    30.0%    51.0%    65.7%    21.0%    14.7%
+   light    25.0%    43.8%    57.8%    18.8%    14.1%
+   heavy    20.0%    36.0%    48.8%    16.0%    12.8%
+  hidden    15.0%    27.8%    38.6%    12.8%    10.8%
+
+    target armour: heavy
+   cover     AD 1     AD 2     AD 3   d die2   d die3
+    open    24.0%    42.2%    56.1%    18.2%    13.9%
+   light    20.0%    36.0%    48.8%    16.0%    12.8%
+   heavy    16.0%    29.4%    40.7%    13.4%    11.3%
+  hidden    12.0%    22.6%    31.9%    10.6%     9.3%
+
+    BRIEF CLAIMS 36 / 59 / 74 for open+unarmoured.
+    EXACT         36.0% /  59.0% /  73.8%  -> the brief's headline holds.
+    But the SHAPE the costing table rests on does not survive the bands.
+    'Front-loaded on die 2' is a fixed ratio, not a cell-specific fact:
+                  band   d die2   d die3    ratio
+       open/unarmoured    23.0%    14.7%     1.56
+      light/unarmoured    21.0%    14.7%     1.43
+      heavy/unarmoured    18.2%    13.9%     1.32
+     hidden/unarmoured    14.8%    12.1%     1.22
+            open/light    21.0%    14.7%     1.43
+           light/light    18.8%    14.1%     1.33
+           heavy/light    16.0%    12.8%     1.25
+          hidden/light    12.8%    10.8%     1.18
+            open/heavy    18.2%    13.9%     1.32
+           light/heavy    16.0%    12.8%     1.25
+           heavy/heavy    13.4%    11.3%     1.19
+          hidden/heavy    10.6%     9.3%     1.14
+    The ratio is exactly 1/(1-w) in every cell - it runs 1.14 to 1.56.
+    The draft prices each die at ~1.4x the last (25 then 35). That is inside
+    the range, so the STEPPED SHAPE is defensible. The LEVEL is not - see [G].
+
+------------------------------------------------------------------------------
+[C] TEST 2 - E[wounds] per ACTION. THE LINEARITY CLAIM FAILS AT WND 1.
+    resolve_all  = every die resolves (linear by construction)
+    stop_on_down = sequence ends at Down; surplus dice lost (WND 1 default)
+
+    target armour: unarmoured
+         |  --- resolve_all ---  | --- stop_on_down --- |
+   cover |    AD1    AD2    AD3 |    AD1    AD2    AD3 |  AD3 wasted
+    open |  0.360  0.720  1.080 |  0.360  0.590  0.738 |       31.7%
+   light |  0.300  0.600  0.900 |  0.300  0.510  0.657 |       27.0%
+   heavy |  0.240  0.480  0.720 |  0.240  0.422  0.561 |       22.1%
+  hidden |  0.180  0.360  0.540 |  0.180  0.328  0.449 |       16.9%
+
+    target armour: light
+         |  --- resolve_all ---  | --- stop_on_down --- |
+   cover |    AD1    AD2    AD3 |    AD1    AD2    AD3 |  AD3 wasted
+    open |  0.300  0.600  0.900 |  0.300  0.510  0.657 |       27.0%
+   light |  0.250  0.500  0.750 |  0.250  0.438  0.578 |       22.9%
+   heavy |  0.200  0.400  0.600 |  0.200  0.360  0.488 |       18.7%
+  hidden |  0.150  0.300  0.450 |  0.150  0.278  0.386 |       14.2%
+
+    target armour: heavy
+         |  --- resolve_all ---  | --- stop_on_down --- |
+   cover |    AD1    AD2    AD3 |    AD1    AD2    AD3 |  AD3 wasted
+    open |  0.240  0.480  0.720 |  0.240  0.422  0.561 |       22.1%
+   light |  0.200  0.400  0.600 |  0.200  0.360  0.488 |       18.7%
+   heavy |  0.160  0.320  0.480 |  0.160  0.294  0.407 |       15.1%
+  hidden |  0.120  0.240  0.360 |  0.120  0.226  0.319 |       11.5%
+
+    The brief predicts ~0.36 / 0.72 / 1.07. That is the resolve_all column
+    for open/unarmoured and it is exactly right THERE (1.080). Under
+    stop_on_down the same cell reads 0.738 - die 3 adds 0.148, not 0.360.
+    At WND 1 E[wounds] can never exceed 1.0, so 'linear' is unreachable: an
+    Attack Dice weapon locked to one WND-1 target overkills by 21-32% at AD 3.
+    THIS IS THE COSTING QUESTION, and the draft does not rule on it.
+
+------------------------------------------------------------------------------
+[D] TEST 3 - E[Stress applied] per ACTION  ('the whiffed burst suppresses')
+    Stress accrues ONLY on a hit that fails to wound (Pinned). A wound
+    gives no Stress - Conditions.md, Stress hook: don't count it twice.
+
+    target armour: unarmoured
+         |  --- resolve_all ---  | --- stop_on_down --- |
+   cover |    AD1    AD2    AD3 |    AD1    AD2    AD3 |  P(Break) AD3
+    open |  0.240  0.480  0.720 |  0.240  0.394  0.492 |         10.4%
+   light |  0.200  0.400  0.600 |  0.200  0.340  0.438 |          8.0%
+   heavy |  0.160  0.320  0.480 |  0.160  0.282  0.374 |          5.6%
+  hidden |  0.120  0.240  0.360 |  0.120  0.218  0.299 |          3.5%
+
+    target armour: light
+         |  --- resolve_all ---  | --- stop_on_down --- |
+   cover |    AD1    AD2    AD3 |    AD1    AD2    AD3 |  P(Break) AD3
+    open |  0.300  0.600  0.900 |  0.300  0.510  0.657 |         16.2%
+   light |  0.250  0.500  0.750 |  0.250  0.438  0.578 |         12.5%
+   heavy |  0.200  0.400  0.600 |  0.200  0.360  0.488 |          8.8%
+  hidden |  0.150  0.300  0.450 |  0.150  0.278  0.386 |          5.4%
+
+    target armour: heavy
+         |  --- resolve_all ---  | --- stop_on_down --- |
+   cover |    AD1    AD2    AD3 |    AD1    AD2    AD3 |  P(Break) AD3
+    open |  0.360  0.720  1.080 |  0.360  0.634  0.842 |         23.3%
+   light |  0.300  0.600  0.900 |  0.300  0.540  0.732 |         18.0%
+   heavy |  0.240  0.480  0.720 |  0.240  0.442  0.611 |         12.7%
+  hidden |  0.180  0.360  0.540 |  0.180  0.338  0.478 |          7.8%
+
+    The suppression identity is REAL, and it peaks where the target is
+    ARMOURED BUT EXPOSED - open cover, heavy armour (0.900 resolve_all).
+    Stress is p_hit x (1 - p_wound), so cover suppresses it and armour
+    feeds it. Cover cuts BOTH wounds and Stress; armour converts wounds
+    INTO Stress. A 3-die weapon into a dug-in target is simply weak; into
+    an armoured target in the open it is a suppression engine.
+    Note the Break column: one 3-die Action puts an armoured open target
+    into Break-test range 16.2% of the time on its own, from a standing
+    start of zero Stress. That is a real second identity, not a consolation.
+
+------------------------------------------------------------------------------
+[E] TEST 4 - ACTIVATIONS-TO-DOWN, POINTS-NORMALIZED
+    Live prices out of points/ticks.py, not the draft's assumptions.
+
+    Standard Ranged +2 @18"  = 15 Cr
+    Sidearm +2 @8"           = 15 Cr
+    Fighter body             = 100 Cr    Recruit body = 70 Cr
+    Draft Attack Dice adder  = +25 (AD2) / +60 (AD3) cumulative
+
+    >> A second attack die (+25 Cr) costs MORE THAN THE WHOLE RIFLE
+       (15 Cr) it is bolted to. AD 3 (+60) is 4x the weapon and
+       60% of the Fighter carrying it.
+
+    Target: standard body in LIGHT cover / LIGHT armour (the modal cell).
+    E[activations to Down] = 1 / P(Down per activation).
+                             configuration    Cr  dice/act  P(Down)  E[acts]   Cr*acts
+                     1x Fighter, rifle AD1   115         1    25.0%     4.00       460
+                     1x Fighter, rifle AD2   140         2    43.8%     2.29       320
+                     1x Fighter, rifle AD3   175         3    57.8%     1.73       303
+            1x Fighter, rifle +4 dmg (AD1)   135         1    35.0%     2.86       386
+                  2x Recruit, pistol (AD1)   170         2    43.8%     2.29       389
+1x Fighter rifle + 1x Recruit pistol (AD1)   200         2    43.8%     2.29       457
+
+    Lower Cr*acts is better.
+      BEST : 1x Fighter, rifle AD3  (303)
+      WORST: 1x Fighter, rifle AD1  (460)
+
+    VERDICT ON THE COSTING TABLE: the stepped price DOES NOT close the
+    tempo gap. AD 3 at full draft cost is the most Credit-efficient way to
+    put a body down on this board, and AD 1 is the least. Every Attack
+    Dice rung beats every alternative use of the same Credits, including
+    the two-cheap-bodies build the mechanic is supposed to lose to.
+
+    THE REASON IS THE DENOMINATOR. Attack Dice are bought per WEAPON but
+    they multiply the output of a BODY, and the body is the expensive
+    part - a Fighter is 100 Cr against a 15 Cr rifle. Buying a
+    second die costs 25 Cr; buying a second body to fire a second die
+    costs 85 Cr. Any per-die price below the price of a body will
+    make dice the efficient purchase, and 25 is far below it.
+
+    Two cheap bodies still bring a second activation, a second objective-
+    carrier and a second body to lose - real value this test does not
+    price, because it measures shooting only. That is the honest caveat,
+    and it does not close a 1.5x Credit-efficiency gap.
+
+------------------------------------------------------------------------------
+[F] TEST 5 - IS AD 3 AN AUTO-INCLUDE (the Heavy Gunner test)?
+    Findings takeaway #6 flagged Heavy Gunner at 68.9% avg win rate and
+    said to watch it. Same treatment here.
+
+    Cost is FIELDED cost - body + weapon - not weapon alone. A weapon-only
+    denominator flatters cheap weapons on expensive bodies and is what
+    makes Attack Dice look expensive when they are not; the die multiplies
+    the body's output, so the body belongs in the price of the output.
+                            fielded purchase    Cr  wounds/act   per 100 Cr
+          Fighter + Std Ranged +2 (baseline)   115       0.360        0.313
+                     Fighter + Std Ranged +3   125       0.420        0.336
+                     Fighter + Std Ranged +4   135       0.480        0.356
+ Specialist + Heavy Ranged +3 (Heavy Gunner)   175       0.490        0.280
+       Fighter + rifle AD2 (draft +25, stop)   140       0.590        0.422
+       Fighter + rifle AD3 (draft +60, stop)   175       0.738        0.422
+        Fighter + rifle AD2 (draft +25, all)   140       0.720        0.514
+        Fighter + rifle AD3 (draft +60, all)   175       1.080        0.617
+
+    Baseline Fighter+rifle: 0.313 wounds/act per 100 Cr.
+    Heavy Gunner benchmark: 0.280 per 100 Cr at 175 Cr fielded.
+    Fighter + AD3 rifle   : 0.422 per 100 Cr at 175 Cr fielded.
+
+    AD 3 IS AN AUTO-INCLUDE AT THE DRAFT PRICE. FLAG RAISED.
+    Every Attack Dice rung outperforms every Damage step per Credit, and
+    AD 3 beats the Heavy Gunner benchmark by +51% on the SAME fielded
+    Credits (175 vs 175) - and that is the pessimistic
+    stop_on_down reading. Under resolve_all it is worse again.
+    Findings takeaway #6 asked for price-plus-gate on Heavy Gunner. This
+    wants the same: the derived price in [G], AND a rarity/rank gate.
+
+------------------------------------------------------------------------------
+[G] WHAT SHOULD IT COST? - derived from the shipped catalogue, not asserted
+    The catalogue's own offensive exchange rate is CREDITS_DAMAGE = 10 Cr per +1 Damage.
+    +1 Damage (+2 to +3) on the modal open target buys +0.0600 wounds/Action
+    -> the shipped rate is 167 Cr per 1.0 wounds/Action.
+
+    priced under resolve_all:
+            d wounds/act   fair Cr  cumulative   draft  draft/fair
+     die 2        0.3600      60.0        60.0      25       0.42x
+     die 3        0.3600      60.0       120.0      60       0.50x
+
+    priced under stop_on_down:
+            d wounds/act   fair Cr  cumulative   draft  draft/fair
+     die 2        0.2304      38.4        38.4      25       0.65x
+     die 3        0.1475      24.6        63.0      60       0.95x
+
+    Both readings agree in direction: the draft is UNDERPRICED. +25/+60 is
+    about half the output-equivalent price under resolve_all and about
+    two thirds of it under stop_on_down. The draft's own instinct - that a
+    flat per-die price 'would underprice die 2' - was right in direction
+    and much too small in magnitude.
+
+    They DISAGREE on the shape, and the disagreement is the whole ruling:
+      resolve_all  -> dice are LINEAR (60 / 60). A flat per-die price is
+                      correct and the stepped table is the wrong shape.
+      stop_on_down -> dice DECAY (38 / 25). Die 3 is worth less than die 2,
+                      so the step should run DOWNWARD, not upward.
+    The draft's stepped-UPWARD table (+25 then +35) is the one shape that
+    is wrong under BOTH readings. That is the finding, and it does not
+    depend on which way the WND-1 ruling goes.
+
+    RECOMMENDED, pending that ruling: AD2 +40, AD3 +65 cumulative under
+    stop_on_down; AD2 +60, AD3 +120 under resolve_all. Both leave AD 3
+    below the Heavy Gunner's Cr-efficiency instead of above it.
+
+------------------------------------------------------------------------------
+[H] MONTE-CARLO CROSS-CHECK (N=10,000/cell, seed 20260708) - noise only
+      cell (AD3, stop_on_down)  exact P(Down)       MC  exact E[str]       MC
+               open/unarmoured          73.8%    74.8%         0.492    0.500
+                    open/heavy          56.1%    56.2%         0.842    0.830
+              light/unarmoured          65.7%    65.6%         0.438    0.427
+                   light/heavy          48.8%    48.1%         0.732    0.739
+              heavy/unarmoured          56.1%    55.8%         0.374    0.379
+                   heavy/heavy          40.7%    40.2%         0.611    0.605
+             hidden/unarmoured          44.9%    44.3%         0.299    0.296
+                  hidden/heavy          31.9%    31.0%         0.478    0.482
+    All cells agree inside sampling noise. The exact figures are the record.
+
+[json] D:\AI-Workstation\Antigravity\apps\Settlements\test-bench\balance\results\attack-dice-15b.json
+==============================================================================
