@@ -119,10 +119,38 @@ def resolve_d20_dmg_bar(dex, cover, dmg, armour, shaken):
 # native 2/3/4+ table in every run - scaling the baseline as well would have
 # silently zeroed the current system's morale removals and made the whole
 # comparison meaningless.
+
+def resolve_d20_split(dex, cover, dmg, armour, shaken):
+    """Proposed C: one roll read at TWO points - McCullough's actual shape.
+
+    Cover modifies the roll that decides whether you are HIT. Armour is applied
+    only when that same total is re-read to decide whether you are HURT. This is
+    the structure Frostgrave/Stargrave/RoSD actually use (cover is a Shooting
+    Modifier on the target's side; Armour is subtracted from the winner's total
+    afterwards), and it is what SS2 of the Settlements rules already requires:
+    "Cover protects against being hit; armor protects against being hurt."
+
+    The cost, relative to folding Damage into the roll: the Pin band is no longer
+    a flat 25%. Its width is (5 - Damage + Armour) faces, so it varies from 35%
+    (unarmed vs heavy armour) down to 0% (a +5 Heavy Ranged against an unarmoured
+    target, where every hit wounds). Whether that matters is what this measures.
+    """
+    d = random.randint(1, 20)
+    if d == 1:
+        return "miss"
+    if d == 20:
+        return "wound"
+    total = d + dex - cover - shaken
+    if total < 12:
+        return "miss"
+    return "wound" if total + dmg - armour >= 17 else "pin"
+
+
 SYSTEMS = {
     "d10 two-roll (current)": (resolve_d10_two, 10, 7, False),
     "d20 one-roll, DMG in roll": (resolve_d20_dmg_in, 20, 12, True),
     "d20 one-roll, DMG on bar": (resolve_d20_dmg_bar, 20, 12, True),
+    "d20 split: cover=hit arm=wound": (resolve_d20_split, 20, 12, True),
 }
 
 

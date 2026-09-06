@@ -21,97 +21,132 @@
         "removals_by_bugout": 0.0736,
         "nerve_share": 0.01413848414703255,
         "unresolved_share": 0.0
+      },
+      "d20 split: cover=hit arm=wound": {
+        "mean_rounds": 3.3953,
+        "removals_by_wound": 5.14205,
+        "removals_by_bugout": 0.0761,
+        "nerve_share": 0.014583712618456732,
+        "unresolved_share": 0.0
       }
     },
     "line fighters, heavy cover + heavy armour": {
       "d10 two-roll (current)": {
-        "mean_rounds": 5.30605,
-        "removals_by_wound": 4.8293,
-        "removals_by_bugout": 0.3794,
-        "nerve_share": 0.07283967208708507,
+        "mean_rounds": 5.2986,
+        "removals_by_wound": 4.8186,
+        "removals_by_bugout": 0.38355,
+        "nerve_share": 0.07372913122458984,
         "unresolved_share": 0.0
       },
       "d20 one-roll, DMG in roll": {
-        "mean_rounds": 4.4415,
-        "removals_by_wound": 4.91115,
-        "removals_by_bugout": 0.32395,
-        "nerve_share": 0.06188038432885714,
+        "mean_rounds": 4.44415,
+        "removals_by_wound": 4.91035,
+        "removals_by_bugout": 0.32245,
+        "nerve_share": 0.0616209295214799,
         "unresolved_share": 0.0
       },
       "d20 one-roll, DMG on bar": {
-        "mean_rounds": 4.49535,
-        "removals_by_wound": 5.01005,
-        "removals_by_bugout": 0.2222,
-        "nerve_share": 0.042467389746285056,
+        "mean_rounds": 4.4668,
+        "removals_by_wound": 4.9969,
+        "removals_by_bugout": 0.23135,
+        "nerve_share": 0.044249988045713194,
+        "unresolved_share": 0.0
+      },
+      "d20 split: cover=hit arm=wound": {
+        "mean_rounds": 4.5024,
+        "removals_by_wound": 5.0027,
+        "removals_by_bugout": 0.2289,
+        "nerve_share": 0.04375334505696154,
         "unresolved_share": 0.0
       }
     },
     "green crew, pistols, dug-in target": {
       "d10 two-roll (current)": {
-        "mean_rounds": 9.0193,
-        "removals_by_wound": 3.8907,
-        "removals_by_bugout": 1.247,
-        "nerve_share": 0.24271561204429998,
-        "unresolved_share": 0.00145
+        "mean_rounds": 8.98335,
+        "removals_by_wound": 3.8959,
+        "removals_by_bugout": 1.2416,
+        "nerve_share": 0.24167396593673965,
+        "unresolved_share": 0.0014
       },
       "d20 one-roll, DMG in roll": {
-        "mean_rounds": 8.62025,
-        "removals_by_wound": 3.78385,
-        "removals_by_bugout": 1.38925,
-        "nerve_share": 0.26855270534109144,
+        "mean_rounds": 8.5801,
+        "removals_by_wound": 3.7902,
+        "removals_by_bugout": 1.3711,
+        "nerve_share": 0.26565012690601203,
         "unresolved_share": 0.00075
       },
       "d20 one-roll, DMG on bar": {
-        "mean_rounds": 8.2089,
-        "removals_by_wound": 3.5297,
-        "removals_by_bugout": 1.695,
-        "nerve_share": 0.32442054089230005,
-        "unresolved_share": 0.0002
+        "mean_rounds": 8.16495,
+        "removals_by_wound": 3.5146,
+        "removals_by_bugout": 1.69165,
+        "nerve_share": 0.3249267707082833,
+        "unresolved_share": 0.0003
+      },
+      "d20 split: cover=hit arm=wound": {
+        "mean_rounds": 8.1945,
+        "removals_by_wound": 3.5089,
+        "removals_by_bugout": 1.7068,
+        "nerve_share": 0.32724274785743046,
+        "unresolved_share": 0.0003
       }
     },
     "veterans, heavy cover": {
       "d10 two-roll (current)": {
-        "mean_rounds": 2.9617,
-        "removals_by_wound": 5.13505,
-        "removals_by_bugout": 0.05435,
-        "nerve_share": 0.010473272439973792,
+        "mean_rounds": 2.9487,
+        "removals_by_wound": 5.11865,
+        "removals_by_bugout": 0.0538,
+        "nerve_share": 0.010401260524509662,
         "unresolved_share": 0.0
       },
       "d20 one-roll, DMG in roll": {
-        "mean_rounds": 2.7846,
-        "removals_by_wound": 5.0894,
-        "removals_by_bugout": 0.08095,
-        "nerve_share": 0.015656580308876573,
+        "mean_rounds": 2.7743,
+        "removals_by_wound": 5.08665,
+        "removals_by_bugout": 0.08595,
+        "nerve_share": 0.016616401809534855,
         "unresolved_share": 0.0
       },
       "d20 one-roll, DMG on bar": {
-        "mean_rounds": 2.77945,
-        "removals_by_wound": 5.15945,
-        "removals_by_bugout": 0.01565,
-        "nerve_share": 0.0030240961527313484,
+        "mean_rounds": 2.773,
+        "removals_by_wound": 5.1572,
+        "removals_by_bugout": 0.01525,
+        "nerve_share": 0.0029483126951444674,
+        "unresolved_share": 0.0
+      },
+      "d20 split: cover=hit arm=wound": {
+        "mean_rounds": 2.7809,
+        "removals_by_wound": 5.1551,
+        "removals_by_bugout": 0.0133,
+        "nerve_share": 0.0025733302375977093,
         "unresolved_share": 0.0
       }
     },
     "marksmen, heavy cover + heavy armour": {
       "d10 two-roll (current)": {
-        "mean_rounds": 2.7816,
-        "removals_by_wound": 3.6286,
-        "removals_by_bugout": 0.17265,
-        "nerve_share": 0.04541926997698126,
+        "mean_rounds": 2.7607,
+        "removals_by_wound": 3.627,
+        "removals_by_bugout": 0.1736,
+        "nerve_share": 0.04567699836867863,
         "unresolved_share": 0.0
       },
       "d20 one-roll, DMG in roll": {
-        "mean_rounds": 2.55315,
-        "removals_by_wound": 3.7186,
-        "removals_by_bugout": 0.0582,
-        "nerve_share": 0.015409870790086846,
+        "mean_rounds": 2.5547,
+        "removals_by_wound": 3.71905,
+        "removals_by_bugout": 0.0578,
+        "nerve_share": 0.015303758423024479,
         "unresolved_share": 0.0
       },
       "d20 one-roll, DMG on bar": {
-        "mean_rounds": 2.55755,
-        "removals_by_wound": 3.7305,
-        "removals_by_bugout": 0.0411,
-        "nerve_share": 0.010897231944002545,
+        "mean_rounds": 2.5631,
+        "removals_by_wound": 3.73565,
+        "removals_by_bugout": 0.04025,
+        "nerve_share": 0.010659710267750734,
+        "unresolved_share": 0.0
+      },
+      "d20 split: cover=hit arm=wound": {
+        "mean_rounds": 2.54565,
+        "removals_by_wound": 3.73275,
+        "removals_by_bugout": 0.04095,
+        "nerve_share": 0.010851419031719533,
         "unresolved_share": 0.0
       }
     }
@@ -119,70 +154,91 @@
   "margin_unscaled": {
     "line fighters, light cover": {
       "d10 two-roll (current)": {
-        "mean_rounds": 3.8277,
-        "removals_by_wound": 5.032,
-        "removals_by_bugout": 0.19615,
-        "nerve_share": 0.037518051318343966,
+        "mean_rounds": 3.8159,
+        "removals_by_wound": 5.01805,
+        "removals_by_bugout": 0.2023,
+        "nerve_share": 0.03875219094505158,
         "unresolved_share": 0.0
       },
       "d20 one-roll, DMG in roll": {
-        "mean_rounds": 3.2699,
-        "removals_by_wound": 4.9354,
-        "removals_by_bugout": 0.32005,
-        "nerve_share": 0.06089868612583128,
+        "mean_rounds": 3.25565,
+        "removals_by_wound": 4.9293,
+        "removals_by_bugout": 0.3226,
+        "nerve_share": 0.0614253889068718,
         "unresolved_share": 0.0
       },
       "d20 one-roll, DMG on bar": {
-        "mean_rounds": 3.34955,
-        "removals_by_wound": 5.09355,
-        "removals_by_bugout": 0.1358,
-        "nerve_share": 0.025968810655243958,
+        "mean_rounds": 3.34975,
+        "removals_by_wound": 5.0903,
+        "removals_by_bugout": 0.1396,
+        "nerve_share": 0.026692670987973,
+        "unresolved_share": 0.0
+      },
+      "d20 split: cover=hit arm=wound": {
+        "mean_rounds": 3.345,
+        "removals_by_wound": 5.1041,
+        "removals_by_bugout": 0.1333,
+        "nerve_share": 0.025451559934318555,
         "unresolved_share": 0.0
       }
     },
     "line fighters, heavy cover + heavy armour": {
       "d10 two-roll (current)": {
-        "mean_rounds": 5.30445,
-        "removals_by_wound": 4.83705,
-        "removals_by_bugout": 0.3789,
-        "nerve_share": 0.07264256750927443,
+        "mean_rounds": 5.30405,
+        "removals_by_wound": 4.81875,
+        "removals_by_bugout": 0.38365,
+        "nerve_share": 0.07374481008765185,
         "unresolved_share": 0.0
       },
       "d20 one-roll, DMG in roll": {
-        "mean_rounds": 4.21985,
-        "removals_by_wound": 4.73085,
-        "removals_by_bugout": 0.54355,
-        "nerve_share": 0.10305437585317762,
+        "mean_rounds": 4.202,
+        "removals_by_wound": 4.73915,
+        "removals_by_bugout": 0.53755,
+        "nerve_share": 0.10187238236018724,
         "unresolved_share": 0.0
       },
       "d20 one-roll, DMG on bar": {
-        "mean_rounds": 4.32365,
-        "removals_by_wound": 4.87115,
-        "removals_by_bugout": 0.3868,
-        "nerve_share": 0.07356479236204225,
+        "mean_rounds": 4.30695,
+        "removals_by_wound": 4.8675,
+        "removals_by_bugout": 0.3792,
+        "nerve_share": 0.07227400080050317,
+        "unresolved_share": 0.0
+      },
+      "d20 split: cover=hit arm=wound": {
+        "mean_rounds": 4.2764,
+        "removals_by_wound": 4.8501,
+        "removals_by_bugout": 0.3873,
+        "nerve_share": 0.07394890594569825,
         "unresolved_share": 0.0
       }
     },
     "green crew, pistols, dug-in target": {
       "d10 two-roll (current)": {
-        "mean_rounds": 9.005,
-        "removals_by_wound": 3.9024,
-        "removals_by_bugout": 1.2408,
-        "nerve_share": 0.24125058329444704,
-        "unresolved_share": 0.0018
+        "mean_rounds": 8.99465,
+        "removals_by_wound": 3.87465,
+        "removals_by_bugout": 1.2523,
+        "nerve_share": 0.24425828221457202,
+        "unresolved_share": 0.00165
       },
       "d20 one-roll, DMG in roll": {
-        "mean_rounds": 7.77695,
-        "removals_by_wound": 3.49405,
-        "removals_by_bugout": 1.6746,
-        "nerve_share": 0.3239917580025732,
-        "unresolved_share": 0.0003
+        "mean_rounds": 7.71145,
+        "removals_by_wound": 3.4994,
+        "removals_by_bugout": 1.67225,
+        "nerve_share": 0.3233494145968888,
+        "unresolved_share": 0.0004
       },
       "d20 one-roll, DMG on bar": {
-        "mean_rounds": 7.1575,
-        "removals_by_wound": 3.18735,
-        "removals_by_bugout": 2.02565,
-        "nerve_share": 0.3885766353347401,
+        "mean_rounds": 7.1863,
+        "removals_by_wound": 3.1975,
+        "removals_by_bugout": 2.02445,
+        "nerve_share": 0.38768084719309837,
+        "unresolved_share": 0.0001
+      },
+      "d20 split: cover=hit arm=wound": {
+        "mean_rounds": 7.2386,
+        "removals_by_wound": 3.18435,
+        "removals_by_bugout": 2.05075,
+        "nerve_share": 0.3917308169853489,
         "unresolved_share": 0.0002
       }
     }

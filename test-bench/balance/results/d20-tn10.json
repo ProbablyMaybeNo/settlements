@@ -1,0 +1,235 @@
+{
+  "A_tn10_outcomes": {
+    "Recruit  +1 DEX, +1 pistol, hvy cvr, hvy arm": {
+      "hit": 0.5,
+      "injure": 0.5,
+      "miss": 0.5,
+      "pin": 0.25,
+      "down": 0.25,
+      "d10_today": 0.09
+    },
+    "Recruit  +1 DEX, +1 pistol, open, unarmoured": {
+      "hit": 0.6,
+      "injure": 0.6,
+      "miss": 0.4,
+      "pin": 0.24,
+      "down": 0.36,
+      "d10_today": 0.25
+    },
+    "Fighter  +2 DEX, +3 rifle,  lt cvr,  lt arm": {
+      "hit": 0.6,
+      "injure": 0.65,
+      "miss": 0.4,
+      "pin": 0.21,
+      "down": 0.39,
+      "d10_today": 0.3
+    },
+    "Fighter  +2 DEX, +3 rifle,  hvy cvr, hvy arm": {
+      "hit": 0.55,
+      "injure": 0.6,
+      "miss": 0.44999999999999996,
+      "pin": 0.22000000000000003,
+      "down": 0.33,
+      "d10_today": 0.2
+    },
+    "Spec     +4 DEX, +4 rifle,  hvy cvr, lt arm": {
+      "hit": 0.65,
+      "injure": 0.7,
+      "miss": 0.35,
+      "pin": 0.19500000000000003,
+      "down": 0.45499999999999996,
+      "d10_today": 0.42
+    },
+    "Marksman +6 DEX, +3 rifle,  hvy cvr, hvy arm": {
+      "hit": 0.75,
+      "injure": 0.6,
+      "miss": 0.25,
+      "pin": 0.30000000000000004,
+      "down": 0.44999999999999996,
+      "d10_today": 0.4
+    },
+    "Marksman +6 DEX, +5 heavy,  hvy cvr, hvy arm": {
+      "hit": 0.75,
+      "injure": 0.7,
+      "miss": 0.25,
+      "pin": 0.22500000000000003,
+      "down": 0.5249999999999999,
+      "d10_today": 0.5599999999999999
+    },
+    "Marksman +6 DEX, +3 rifle,  open, unarmoured": {
+      "hit": 0.85,
+      "injure": 0.7,
+      "miss": 0.15000000000000002,
+      "pin": 0.255,
+      "down": 0.595,
+      "d10_today": 0.63
+    },
+    "Marksman +6 DEX, +5 heavy,  open, unarmoured": {
+      "hit": 0.85,
+      "injure": 0.8,
+      "miss": 0.15000000000000002,
+      "pin": 0.16999999999999996,
+      "down": 0.68,
+      "d10_today": 0.81
+    }
+  },
+  "B_target_number_dial": {
+    "Recruit  +1 DEX, +1 pistol, hvy cvr, hvy arm": {
+      "tn10": 0.25,
+      "tn11": 0.2025,
+      "tn12": 0.16000000000000003
+    },
+    "Recruit  +1 DEX, +1 pistol, open, unarmoured": {
+      "tn10": 0.36,
+      "tn11": 0.30250000000000005,
+      "tn12": 0.25
+    },
+    "Fighter  +2 DEX, +3 rifle,  lt cvr,  lt arm": {
+      "tn10": 0.39,
+      "tn11": 0.33,
+      "tn12": 0.275
+    },
+    "Fighter  +2 DEX, +3 rifle,  hvy cvr, hvy arm": {
+      "tn10": 0.33,
+      "tn11": 0.275,
+      "tn12": 0.225
+    },
+    "Spec     +4 DEX, +4 rifle,  hvy cvr, lt arm": {
+      "tn10": 0.45499999999999996,
+      "tn11": 0.39,
+      "tn12": 0.33
+    },
+    "Marksman +6 DEX, +3 rifle,  hvy cvr, hvy arm": {
+      "tn10": 0.44999999999999996,
+      "tn11": 0.385,
+      "tn12": 0.325
+    },
+    "Marksman +6 DEX, +5 heavy,  hvy cvr, hvy arm": {
+      "tn10": 0.5249999999999999,
+      "tn11": 0.45499999999999996,
+      "tn12": 0.39
+    },
+    "Marksman +6 DEX, +3 rifle,  open, unarmoured": {
+      "tn10": 0.595,
+      "tn11": 0.52,
+      "tn12": 0.44999999999999996
+    },
+    "Marksman +6 DEX, +5 heavy,  open, unarmoured": {
+      "tn10": 0.68,
+      "tn11": 0.6000000000000001,
+      "tn12": 0.5249999999999999
+    }
+  },
+  "C_injury_two_bars": {
+    "Damage +1 vs Armour -0": {
+      "wound": 0.6,
+      "severe": 0.35,
+      "severe_share_of_wounds": 0.5833333333333334,
+      "severe_per_attack_dex2_lt_cover": 0.21
+    },
+    "Damage +1 vs Armour -1": {
+      "wound": 0.55,
+      "severe": 0.3,
+      "severe_share_of_wounds": 0.5454545454545454,
+      "severe_per_attack_dex2_lt_cover": 0.18
+    },
+    "Damage +1 vs Armour -2": {
+      "wound": 0.5,
+      "severe": 0.25,
+      "severe_share_of_wounds": 0.5,
+      "severe_per_attack_dex2_lt_cover": 0.15
+    },
+    "Damage +2 vs Armour -0": {
+      "wound": 0.65,
+      "severe": 0.4,
+      "severe_share_of_wounds": 0.6153846153846154,
+      "severe_per_attack_dex2_lt_cover": 0.24
+    },
+    "Damage +2 vs Armour -1": {
+      "wound": 0.6,
+      "severe": 0.35,
+      "severe_share_of_wounds": 0.5833333333333334,
+      "severe_per_attack_dex2_lt_cover": 0.21
+    },
+    "Damage +2 vs Armour -2": {
+      "wound": 0.55,
+      "severe": 0.3,
+      "severe_share_of_wounds": 0.5454545454545454,
+      "severe_per_attack_dex2_lt_cover": 0.18
+    },
+    "Damage +3 vs Armour -0": {
+      "wound": 0.7,
+      "severe": 0.45,
+      "severe_share_of_wounds": 0.6428571428571429,
+      "severe_per_attack_dex2_lt_cover": 0.27
+    },
+    "Damage +3 vs Armour -1": {
+      "wound": 0.65,
+      "severe": 0.4,
+      "severe_share_of_wounds": 0.6153846153846154,
+      "severe_per_attack_dex2_lt_cover": 0.24
+    },
+    "Damage +3 vs Armour -2": {
+      "wound": 0.6,
+      "severe": 0.35,
+      "severe_share_of_wounds": 0.5833333333333334,
+      "severe_per_attack_dex2_lt_cover": 0.21
+    },
+    "Damage +4 vs Armour -0": {
+      "wound": 0.75,
+      "severe": 0.5,
+      "severe_share_of_wounds": 0.6666666666666666,
+      "severe_per_attack_dex2_lt_cover": 0.3
+    },
+    "Damage +4 vs Armour -1": {
+      "wound": 0.7,
+      "severe": 0.45,
+      "severe_share_of_wounds": 0.6428571428571429,
+      "severe_per_attack_dex2_lt_cover": 0.27
+    },
+    "Damage +4 vs Armour -2": {
+      "wound": 0.65,
+      "severe": 0.4,
+      "severe_share_of_wounds": 0.6153846153846154,
+      "severe_per_attack_dex2_lt_cover": 0.24
+    },
+    "Damage +5 vs Armour -0": {
+      "wound": 0.8,
+      "severe": 0.55,
+      "severe_share_of_wounds": 0.6875,
+      "severe_per_attack_dex2_lt_cover": 0.33
+    },
+    "Damage +5 vs Armour -1": {
+      "wound": 0.75,
+      "severe": 0.5,
+      "severe_share_of_wounds": 0.6666666666666666,
+      "severe_per_attack_dex2_lt_cover": 0.3
+    },
+    "Damage +5 vs Armour -2": {
+      "wound": 0.7,
+      "severe": 0.45,
+      "severe_share_of_wounds": 0.6428571428571429,
+      "severe_per_attack_dex2_lt_cover": 0.27
+    }
+  },
+  "D_saturation": {
+    "tn10": {
+      "distinct": 12,
+      "collapsed": {
+        "0.95": [
+          8,
+          9
+        ]
+      }
+    },
+    "tn11": {
+      "distinct": 13,
+      "collapsed": {}
+    },
+    "tn12": {
+      "distinct": 13,
+      "collapsed": {}
+    }
+  },
+  "E_mc_max_gap": 0.0017750000000000266
+}
