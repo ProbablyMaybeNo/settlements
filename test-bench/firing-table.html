@@ -106,6 +106,17 @@ header{
   font-family:var(--mono);font-size:9.5px;color:var(--faint);margin-top:-4px}
 .ctl.off{opacity:.34;pointer-events:none}
 
+/* custom dice */
+.ctl2{display:grid;grid-template-columns:1fr 92px;gap:var(--s2);align-items:center}
+.ctl2 label{font-family:var(--display);font-size:12px;font-weight:500;letter-spacing:.4px;color:var(--ink)}
+.ctl2 select,.ctl2 input{font-family:var(--mono);font-size:12px;background:var(--well);
+  color:var(--ink);border:1px solid var(--line);padding:6px var(--s2);width:100%;
+  font-variant-numeric:tabular-nums}
+.chk{display:flex;gap:var(--s2);align-items:center;font-size:11.5px;color:var(--dim);cursor:pointer}
+.chk input{accent-color:var(--amber);flex:none}
+.hint{margin:0;font-family:var(--mono);font-size:10.5px;line-height:1.6;color:var(--faint)}
+.hint b{color:var(--amber);font-weight:400}
+
 .presets{display:grid;grid-template-columns:1fr 1fr;gap:var(--s1)}
 .presets button{
   font-family:var(--display);font-size:11.5px;font-weight:500;letter-spacing:.3px;
@@ -235,6 +246,41 @@ footer b{color:var(--dim);font-weight:400}
     <div class="block">
       <h3>Resolution system</h3>
       <div class="sys" id="sysPick"></div>
+    </div>
+
+    <div class="block">
+      <h3>Custom dice</h3>
+      <div class="body">
+        <div class="ctl2">
+          <label for="cSides">Die</label>
+          <select id="cSides">
+            <option>4</option><option>6</option><option>8</option><option>10</option>
+            <option>12</option><option selected>20</option><option>100</option>
+          </select>
+        </div>
+        <div class="ctl2">
+          <label for="cMode">Structure</label>
+          <select id="cMode">
+            <option value="two" selected>Two rolls</option>
+            <option value="folded">One roll, folded</option>
+            <option value="split">One roll, split</option>
+            <option value="opposed">Opposed</option>
+          </select>
+        </div>
+        <div class="ctl2">
+          <label for="cT1" id="cT1L">Hit target</label>
+          <input type="number" id="cT1" value="11" min="1" max="40">
+        </div>
+        <div class="ctl2">
+          <label for="cT2" id="cT2L">Injury target</label>
+          <input type="number" id="cT2" value="11" min="1" max="40">
+        </div>
+        <label class="chk"><input type="checkbox" id="cNatLow" checked>
+          Natural 1 always fails</label>
+        <label class="chk"><input type="checkbox" id="cNatHigh" checked>
+          Natural <span id="cNatHighN">20</span> always succeeds</label>
+        <p class="hint" id="cHint"></p>
+      </div>
     </div>
 
     <div class="block">
@@ -430,95 +476,132 @@ footer b{color:var(--dim);font-weight:400}
 
 const clampMod = m => Math.max(-3, Math.min(3, m));
 
-function twoRoll(sides, tn, p){
+/* One die of `c.sides` with `net` added - does it clear `tn`?
+   Natural low/high are toggles because they are worth 1/sides, so on a d100
+   "natural 1 always fails" costs 1% where on a d10 it costs 10%. */
+function passes(d, net, tn, c){
+  if(c.natLow  && d === 1)       return false;
+  if(c.natHigh && d === c.sides) return true;
+  return d + net >= tn;
+}
+
+/* Every system in the picker is one of these four shapes with different
+   numbers, so there is exactly one resolver and Custom is not a special case. */
+function resolve(c, p){
+  const S = c.sides;
   const hitNet = p.stat + clampMod(p.hitmod - p.cover);
   const injNet = p.dmg  + clampMod(p.injmod - p.armour);
-  const f = (net) => {
-    let n = 0;
-    for(let d=1; d<=sides; d++){
-      if(d===1) continue;
-      if(d===sides || d+net >= tn) n++;
+
+  if(c.mode === "two"){
+    let h = 0, i = 0;
+    for(let d = 1; d <= S; d++){
+      if(passes(d, hitNet, c.t1, c)) h++;
+      if(passes(d, injNet, c.t2, c)) i++;
     }
-    return n/sides;
-  };
-  const h = f(hitNet), i = f(injNet);
-  return {miss:1-h, pin:h*(1-i), down:h*i, hit:h, inj:i};
-}
-
-function oneRollFolded(p){           /* damage inside the single roll */
-  const net = p.stat + p.dmg + clampMod(p.hitmod + p.injmod - p.cover - p.armour);
-  let m=0,pin=0,w=0;
-  for(let d=1; d<=20; d++){
-    if(d===1){m++;continue}
-    if(d===20){w++;continue}
-    const t = d+net;
-    if(t>=17) w++; else if(t>=12) pin++; else m++;
+    h /= S; i /= S;
+    return {miss:1-h, pin:h*(1-i), down:h*i, hit:h, inj:i};
   }
-  return {miss:m/20, pin:pin/20, down:w/20, hit:(pin+w)/20, inj:w/(pin+w||1)};
-}
 
-function oneRollSplit(p){            /* cover gates the hit, armour gates the wound */
-  const hitNet = p.stat + clampMod(p.hitmod - p.cover);
-  const injAdj = p.dmg  + clampMod(p.injmod - p.armour);
-  let m=0,pin=0,w=0;
-  for(let d=1; d<=20; d++){
-    if(d===1){m++;continue}
-    if(d===20){w++;continue}
-    const t = d+hitNet;
-    if(t<12){m++;continue}
-    if(t+injAdj>=17) w++; else pin++;
+  if(c.mode === "folded" || c.mode === "split"){
+    const net = c.mode === "folded"
+      ? p.stat + p.dmg + clampMod(p.hitmod + p.injmod - p.cover - p.armour)
+      : hitNet;
+    let m = 0, pin = 0, w = 0;
+    for(let d = 1; d <= S; d++){
+      if(c.natLow  && d === 1){ m++; continue; }
+      if(c.natHigh && d === S){ w++; continue; }
+      const t = d + net;
+      if(c.mode === "folded"){
+        if(t >= c.t2) w++; else if(t >= c.t1) pin++; else m++;
+      } else {
+        if(t < c.t1){ m++; continue; }
+        if(t + injNet >= c.t2) w++; else pin++;
+      }
+    }
+    return {miss:m/S, pin:pin/S, down:w/S, hit:(pin+w)/S, inj:w/(pin+w||1)};
   }
-  return {miss:m/20, pin:pin/20, down:w/20, hit:(pin+w)/20, inj:w/(pin+w||1)};
-}
 
-function opposed(p){                 /* shooter vs defender, margin decides severity */
-  const need = 7 - (p.dmg + clampMod(p.injmod - p.armour));
-  const atk = p.stat + clampMod(p.hitmod);
-  const def = p.agi + p.cover;
-  let m=0,pin=0,w=0,n=0;
-  for(let a=1;a<=20;a++) for(let b=1;b<=20;b++){
+  /* opposed - both sides roll, ties to the defender, margin sets severity */
+  const need = c.t2 - injNet;
+  const atk  = p.stat + clampMod(p.hitmod);
+  const def  = p.agi + p.cover;
+  let m = 0, pin = 0, w = 0, n = 0;
+  for(let a = 1; a <= S; a++) for(let b = 1; b <= S; b++){
     n++;
-    if(a===1||b===20){m++;continue}
-    if(a===20){w++;continue}
-    const ta=a+atk, tb=b+def;
-    if(ta<=tb){m++;continue}              /* ties to the defender */
-    if(ta-tb>=need) w++; else pin++;
+    if((c.natLow && a === 1) || (c.natHigh && b === S)){ m++; continue; }
+    if(c.natHigh && a === S){ w++; continue; }
+    const ta = a + atk, tb = b + def;
+    if(ta <= tb){ m++; continue; }
+    if(ta - tb >= need) w++; else pin++;
   }
   return {miss:m/n, pin:pin/n, down:w/n, hit:(pin+w)/n, inj:w/(pin+w||1)};
 }
 
+const MODE_NAME = {two:"two rolls", folded:"one roll, folded",
+                   split:"one roll, split", opposed:"opposed"};
+
+function formulaFor(c){
+  const D = "1d" + c.sides;
+  if(c.mode === "two") return [
+    D + " + <em>DEX</em> + mods vs <em>" + c.t1 + "</em> + Cover",
+    D + " + <em>DMG</em> + mods vs <em>" + c.t2 + "</em> + Armour"];
+  if(c.mode === "folded") return [
+    D + " + <em>DEX</em> + <em>DMG</em> \u2212 Cover \u2212 Armour",
+    "<em>" + c.t1 + "+</em> hits \u00b7 <em>" + c.t2 + "+</em> downs"];
+  if(c.mode === "split") return [
+    D + " + <em>DEX</em> \u2212 Cover \u2265 <em>" + c.t1 + "</em> to hit",
+    "same total + <em>DMG</em> \u2212 Armour \u2265 <em>" + c.t2 + "</em> to down"];
+  return [
+    D + " + <em>DEX</em> &nbsp;vs&nbsp; " + D + " + <em>AGI</em> + Cover",
+    "margin + <em>DMG</em> \u2212 Armour \u2265 <em>" + c.t2 + "</em> to down"];
+}
+
+/* mutable - the Custom system's dice, driven by the rail */
+const CUSTOM = {sides:20, mode:"two", t1:11, t2:11, natLow:true, natHigh:true};
+const NAT = {natLow:true, natHigh:true};
+
 const SYSTEMS = [
   {group:"in the rules today"},
-  {id:"d10",    name:"d10 two-roll",   tag:"7+",     fn:p=>twoRoll(10,7,p),  sides:10, tn:7,
-   f1:"1d10 + <em>DEX</em> + mods \u2212 Cover \u2265 <em>7</em>", f2:"1d10 + <em>DMG</em> + mods \u2212 Armour \u2265 <em>7</em>",
+  {id:"d10",  name:"d10 two-roll", tag:"7+",
+   cfg:Object.assign({sides:10, mode:"two", t1:7,  t2:7 }, NAT),
    note:"two rolls \u00b7 current rules"},
 
   {group:"symmetric two-roll on d20"},
-  {id:"tn12",   name:"d20 two-roll",   tag:"12+",    fn:p=>twoRoll(20,12,p), sides:20, tn:12,
-   f1:"1d20 + <em>DEX</em> + mods vs <em>12</em> + Cover", f2:"1d20 + <em>DMG</em> + mods vs <em>12</em> + Armour",
+  {id:"tn12", name:"d20 two-roll", tag:"12+",
+   cfg:Object.assign({sides:20, mode:"two", t1:12, t2:12}, NAT),
    note:"two rolls \u00b7 13/13 states clean"},
-  {id:"tn11",   name:"d20 two-roll",   tag:"11+",    fn:p=>twoRoll(20,11,p), sides:20, tn:11,
-   f1:"1d20 + <em>DEX</em> + mods vs <em>11</em> + Cover", f2:"1d20 + <em>DMG</em> + mods vs <em>11</em> + Armour",
+  {id:"tn11", name:"d20 two-roll", tag:"11+",
+   cfg:Object.assign({sides:20, mode:"two", t1:11, t2:11}, NAT),
    note:"two rolls \u00b7 13/13 states clean"},
-  {id:"tn10",   name:"d20 two-roll",   tag:"10+",    fn:p=>twoRoll(20,10,p), sides:20, tn:10,
-   f1:"1d20 + <em>DEX</em> + mods vs <em>10</em> + Cover", f2:"1d20 + <em>DMG</em> + mods vs <em>10</em> + Armour",
+  {id:"tn10", name:"d20 two-roll", tag:"10+",
+   cfg:Object.assign({sides:20, mode:"two", t1:10, t2:10}, NAT),
    note:"two rolls \u00b7 net +8 and +9 collapse"},
 
   {group:"one roll, read twice"},
-  {id:"fold",   name:"d20 folded",     tag:"12/17",  fn:oneRollFolded, sides:20, tn:12,
-   f1:"1d20 + <em>DEX</em> + <em>DMG</em> \u2212 Cover \u2212 Armour", f2:"<em>12+</em> hits \u00b7 <em>17+</em> downs",
+  {id:"fold", name:"d20 folded", tag:"12/17",
+   cfg:Object.assign({sides:20, mode:"folded", t1:12, t2:17}, NAT),
    note:"one die \u00b7 Damage helps you hit"},
-  {id:"split",  name:"d20 split",      tag:"12/17",  fn:oneRollSplit, sides:20, tn:12,
-   f1:"1d20 + <em>DEX</em> \u2212 Cover \u2265 <em>12</em> to hit", f2:"same total + <em>DMG</em> \u2212 Armour \u2265 <em>17</em> to down",
+  {id:"split", name:"d20 split", tag:"12/17",
+   cfg:Object.assign({sides:20, mode:"split", t1:12, t2:17}, NAT),
    note:"one die \u00b7 cover hits, armour hurts"},
 
   {group:"opposed"},
-  {id:"opp",    name:"d20 opposed",    tag:"margin", fn:opposed, sides:20, tn:12,
-   f1:"1d20 + <em>DEX</em> &nbsp;vs&nbsp; 1d20 + <em>AGI</em> + Cover", f2:"margin + <em>DMG</em> \u2212 Armour \u2265 <em>7</em> to down",
+  {id:"opp",  name:"d20 opposed", tag:"margin",
+   cfg:Object.assign({sides:20, mode:"opposed", t1:0, t2:7}, NAT),
    note:"two dice \u00b7 both players roll"},
+
+  {group:"your own"},
+  {id:"custom", name:"Custom", tag:"set below", cfg:CUSTOM, note:null},
 ];
 const byId = id => SYSTEMS.find(s=>s.id===id);
 const realSystems = SYSTEMS.filter(s=>s.id);
+const noteFor = s => s.note ||
+  (MODE_NAME[s.cfg.mode] + " \u00b7 d" + s.cfg.sides +
+   (s.cfg.mode === "opposed" ? " \u00b7 margin " + s.cfg.t2
+                             : " \u00b7 " + s.cfg.t1 + " / " + s.cfg.t2));
+const tagFor = s => s.id !== "custom" ? s.tag
+  : (s.cfg.mode === "opposed" ? "d" + s.cfg.sides + " opp"
+                              : "d" + s.cfg.sides + " " + s.cfg.t1 + "/" + s.cfg.t2);
 
 /* ============================ STATE ============================ */
 
@@ -540,7 +623,7 @@ const pct  = v => (v*100).toFixed(0)+"%";
 const pct1 = v => (v*100).toFixed(1)+"%";
 const sgn  = v => (v>=0?"+":"\u2212")+Math.abs(v);
 
-function calc(sys, p){ return sys.fn(p); }
+function calc(sys, p){ return resolve(sys.cfg, p); }
 
 /* burst: attacker applies ONE injury result; surplus hits become Stress */
 function burst(o, n){
@@ -554,7 +637,7 @@ function buildRail(){
   const sp = document.getElementById("sysPick");
   sp.innerHTML = SYSTEMS.map(s=>{
     if(s.group) return `<div class="divider">${s.group}</div>`;
-    return `<button data-sys="${s.id}"><span>${s.name}</span><span class="tag">${s.tag}</span></button>`;
+    return `<button data-sys="${s.id}"><span>${s.name}</span><span class="tag">${tagFor(s)}</span></button>`;
   }).join("");
   sp.addEventListener("click", e=>{
     const b = e.target.closest("button[data-sys]"); if(!b) return;
@@ -577,6 +660,45 @@ function buildRail(){
       P[k] = +e.target.value; render();
     });
   });
+
+  /* custom dice - touching any of these selects the Custom system */
+  const CIDS = ["cSides","cMode","cT1","cT2","cNatLow","cNatHigh"];
+  CIDS.forEach(id=>{
+    document.getElementById(id).addEventListener("input", ()=>{
+      readCustom(); sysId = "custom"; render();
+    });
+  });
+}
+
+/* pull the Custom config out of the rail, clamping the targets to the die */
+function readCustom(){
+  CUSTOM.sides   = +document.getElementById("cSides").value;
+  CUSTOM.mode    =  document.getElementById("cMode").value;
+  CUSTOM.natLow  =  document.getElementById("cNatLow").checked;
+  CUSTOM.natHigh =  document.getElementById("cNatHigh").checked;
+  const hi = CUSTOM.sides * 2;
+  const t1 = document.getElementById("cT1"), t2 = document.getElementById("cT2");
+  t1.max = hi; t2.max = hi;
+  CUSTOM.t1 = Math.max(1, Math.min(hi, +t1.value || 1));
+  CUSTOM.t2 = Math.max(1, Math.min(hi, +t2.value || 1));
+}
+
+/* the labels change meaning with the structure, so they say what they mean */
+function syncCustom(){
+  const m = CUSTOM.mode;
+  document.getElementById("cT1L").textContent =
+    m === "two" ? "Hit target" : m === "opposed" ? "unused" : "Hit at";
+  document.getElementById("cT2L").textContent =
+    m === "two" ? "Injury target" : m === "opposed" ? "Margin to down" : "Down at";
+  document.getElementById("cT1").disabled = (m === "opposed");
+  document.getElementById("cNatHighN").textContent = CUSTOM.sides;
+
+  /* the base rate is the one number that tells you if the dial is sane */
+  const flat = resolve(CUSTOM, {stat:0,hitmod:0,dmg:0,injmod:0,cover:0,armour:0,agi:0,ad:1});
+  const step = CUSTOM.sides ? (100 / CUSTOM.sides) : 0;
+  document.getElementById("cHint").innerHTML =
+    `At every stat and modifier zero: <b>${pct1(flat.hit)}</b> to hit, `+
+    `<b>${pct1(flat.down)}</b> to down.<br>One point of anything is worth <b>${step.toFixed(1)}%</b>.`;
 }
 
 function syncRail(){
@@ -596,9 +718,10 @@ function syncRail(){
 
 function renderHero(){
   const sys = byId(sysId), o = calc(sys, P);
+  const [f1, f2] = formulaFor(sys.cfg);
   document.getElementById("formula").innerHTML =
-    `<span class="fl">${sys.f1}</span><span class="fl">${sys.f2}</span>`+
-    `<span class="note">${sys.note}</span>`;
+    `<span class="fl">${f1}</span><span class="fl">${f2}</span>`+
+    `<span class="note">${noteFor(sys)}</span>`;
 
   const segs = [["segMiss",o.miss,"legMiss"],["segPin",o.pin,"legPin"],["segDown",o.down,"legDown"]];
   segs.forEach(([id,v,lg])=>{
@@ -701,7 +824,7 @@ function renderSystems(){
     const o = calc(s,P), b = burst(o,P.ad);
     const on = s.id===sysId;
     return `<tr>
-      <td${on?' class="hi"':''}>${s.name} <span style="color:var(--faint)">${s.tag}</span></td>
+      <td${on?' class="hi"':''}>${s.name} <span style="color:var(--faint)">${tagFor(s)}</span></td>
       <td style="color:var(--miss)">${pct1(o.miss)}</td>
       <td style="color:var(--pin)">${pct1(o.pin)}</td>
       <td style="color:var(--down)">${pct1(o.down)}</td>
@@ -716,7 +839,7 @@ function renderSystems(){
   const CEIL  = {stat:6,hitmod:0,dmg:5,injmod:0,cover:0,armour:0,agi:1,ad:1};
   rows = realSystems.map(s=>{
     const lo = calc(s,FLOOR).down, hi = calc(s,CEIL).down;
-    return `<tr><td${s.id===sysId?' class="hi"':''}>${s.name} <span style="color:var(--faint)">${s.tag}</span></td>
+    return `<tr><td${s.id===sysId?' class="hi"':''}>${s.name} <span style="color:var(--faint)">${tagFor(s)}</span></td>
       <td>${pct1(lo)}</td><td>${pct1(hi)}</td>
       <td>${(hi-lo>0?(hi/lo).toFixed(1):"\u2014")}\u00d7</td>
       <td>${((hi-lo)*100).toFixed(0)} pts</td></tr>`;
@@ -729,7 +852,7 @@ function renderSystems(){
 /* ============================ LADDER ============================ */
 
 function renderLadder(){
-  const sys = byId(sysId);
+  const sys = byId(sysId), C = sys.cfg;
   const seen = new Map();
   const rows = [];
   for(let net=-3; net<=9; net++){
@@ -737,13 +860,12 @@ function renderLadder(){
     /* drive the net directly so the ladder is about the roll, not a legal build */
     const f = (n)=>{
       let c=0;
-      for(let d=1; d<=sys.sides; d++){
-        if(d===1) continue;
-        if(d===sys.sides || d+n >= sys.tn) c++;
+      for(let d=1; d<=C.sides; d++){
+        if(passes(d, n, C.t1, C)) c++;
       }
-      return c/sys.sides;
+      return c/C.sides;
     };
-    const v = sys.id==="opp" ? null : f(net);
+    const v = C.mode==="opposed" ? null : f(net);
     rows.push({net, v});
     if(v!==null){ const k=v.toFixed(6); seen.set(k,(seen.get(k)||0)+1); }
   }
@@ -760,7 +882,7 @@ function renderLadder(){
 
   const distinct = seen.size, collapsed = 13-distinct;
   const f=[];
-  if(sys.id==="opp"){
+  if(C.mode==="opposed"){
     f.push(["","Opposed", "The ladder measures a fixed target number. An opposed system has no fixed bar to plot against \u2014 pick any other system to read it."]);
   } else if(collapsed===0){
     f.push(["ok","Clean", `All <b>13 of 13</b> net states resolve to distinct probabilities. Every point of stat and every point of cover changes the outcome.`]);
@@ -783,8 +905,8 @@ function runFirefight(){
   const out = realSystems.map(sys=>{
     const o  = calc(sys,P);
     const oS = calc(sys, Object.assign({},P,{hitmod:P.hitmod-1}));  /* Shaken \u22121 */
-    const sides = sys.sides, tn = sys.tn;
-    const scale = sides===20 ? mScale : 1;
+    const sides = sys.cfg.sides, tn = sys.cfg.t1;
+    const scale = sides>10 ? mScale : 1;
 
     let totR=0, totD=0, totB=0, stuck=0;
     for(let g=0; g<N; g++){
@@ -842,7 +964,7 @@ function runFirefight(){
       <th>Unresolved</th></tr></thead><tbody>`+
     out.map(x=>{
       const d = x.rounds-base.rounds;
-      return `<tr><td${x.sys.id===sysId?' class="hi"':''}>${x.sys.name} <span style="color:var(--faint)">${x.sys.tag}</span></td>
+      return `<tr><td${x.sys.id===sysId?' class="hi"':''}>${x.sys.name} <span style="color:var(--faint)">${tagFor(x.sys)}</span></td>
         <td>${x.rounds.toFixed(1)}</td>
         <td style="color:${d<=0?'var(--pin)':'var(--down)'}">${d>0?"+":"\u2212"}${Math.abs(d).toFixed(1)}</td>
         <td>${x.wound.toFixed(2)}</td><td>${x.nerve.toFixed(2)}</td>
@@ -853,7 +975,7 @@ function runFirefight(){
   const fast = out.reduce((a,b)=>b.rounds<a.rounds?b:a);
   document.getElementById("fightFlags").innerHTML =
     `<div class="flag ok"><span class="k">Fastest</span><span class="t">
-      <b>${fast.sys.name} ${fast.sys.tag}</b> resolves in ${fast.rounds.toFixed(1)} rounds against today's ${base.rounds.toFixed(1)}.</span></div>`+
+      <b>${fast.sys.name} ${tagFor(fast.sys)}</b> resolves in ${fast.rounds.toFixed(1)} rounds against today's ${base.rounds.toFixed(1)}.</span></div>`+
     `<div class="flag"><span class="k">Caveat</span><span class="t">
       Fixed geometry \u2014 no movement, terrain, reactions or Stabilize. The <b>delta between systems</b> is the finding; the absolute round counts are not game predictions.</span></div>`;
 }
@@ -863,22 +985,23 @@ function runFirefight(){
 function renderSeverity(){
   const gap = +document.getElementById("sevGap").value;
   const sys = byId(sysId);
-  if(sys.sides!==20 || sys.id==="fold" || sys.id==="split" || sys.id==="opp"){
+  if(sys.cfg.mode!=="two"){
     document.getElementById("sevTbl").innerHTML = "";
     document.getElementById("sevFlags").innerHTML =
-      `<div class="flag"><span class="k">N/A</span><span class="t">A second injury bar needs a separate injury roll with a fixed target. Pick one of the <b>d20 two-roll</b> systems.</span></div>`;
+      `<div class="flag"><span class="k">N/A</span><span class="t">A second injury bar needs its own injury roll against a fixed target. Pick a <b>two-roll</b> system \u2014 one of the presets, or set Custom to two rolls.</span></div>`;
     return;
   }
+  const C = sys.cfg;
   const f = (net,target)=>{
     let c=0;
-    for(let d=1;d<=20;d++){ if(d===1) continue; if(d===20||d+net>=target) c++; }
-    return c/20;
+    for(let d=1;d<=C.sides;d++){ if(passes(d, net, target, C)) c++; }
+    return c/C.sides;
   };
   let rows="", worst=0, best=1;
   for(let dmg=1;dmg<=5;dmg++){
     for(let arm=0;arm<=2;arm++){
       const net = dmg - arm;
-      const w = f(net, sys.tn), s = f(net, sys.tn+gap);
+      const w = f(net, C.t1), s = f(net, C.t1+gap);
       const share = w? s/w : 0;
       worst = Math.max(worst,share); best = Math.min(best,share);
       rows += `<tr><td>Damage ${sgn(dmg)} vs Armour ${arm?"\u2212"+arm:"0"}</td>
@@ -887,12 +1010,12 @@ function renderSeverity(){
     }
   }
   document.getElementById("sevTbl").innerHTML =
-    `<thead><tr><th>Weapon against armour</th><th>Wounds (${sys.tn}+)</th>
-      <th>Severe (${sys.tn+gap}+)</th><th>Severe as share of wounds</th></tr></thead><tbody>${rows}</tbody>`;
+    `<thead><tr><th>Weapon against armour</th><th>Wounds (${C.t1}+)</th>
+      <th>Severe (${C.t1+gap}+)</th><th>Severe as share of wounds</th></tr></thead><tbody>${rows}</tbody>`;
 
   const f2=[];
   if(best>0.4){
-    f2.push(["warn","Not rare", `Even at its rarest, a severe result fires on <b>${pct(best)}</b> of wounds, and up to <b>${pct(worst)}</b>. Two thresholds ${gap} apart on a d20 cannot produce an uncommon tier \u2014 the ordinary wound becomes the exception.`]);
+    f2.push(["warn","Not rare", `Even at its rarest, a severe result fires on <b>${pct(best)}</b> of wounds, and up to <b>${pct(worst)}</b>. Two thresholds ${gap} apart on a d20 cannot produce an uncommon tier on a d${C.sides} \u2014 the ordinary wound becomes the exception.`]);
   } else {
     f2.push(["ok","Rare enough", `A severe result fires on <b>${pct(best)}</b>\u2013<b>${pct(worst)}</b> of wounds. At a gap of ${gap} it reads as an exceptional outcome rather than the default.`]);
   }
@@ -925,6 +1048,7 @@ function buildTabs(){
 
 function render(){
   syncRail();
+  syncCustom();
   renderHero();
   document.querySelectorAll("[data-tab]").forEach(b=>b.classList.toggle("on", b.dataset.tab===tab));
   document.querySelectorAll(".view").forEach(v=>v.classList.toggle("on", v.id==="v-"+tab));
@@ -937,6 +1061,7 @@ function render(){
 
 buildRail();
 buildTabs();
+readCustom();
 render();
 runFirefight();   /* open in a working state, not an empty shell */
 </script>
