@@ -1,0 +1,942 @@
+<title>Settlements Firing Table</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500&family=JetBrains+Mono:wght@400;500;700&display=swap">
+
+<style>
+:root{
+  /* single-theme by deliberate choice: this is an instrument readout, and it
+     inherits the dark panel of test-bench/index.html, the project's own system */
+  --ground:#0a0e0d;
+  --panel:#121917;
+  --well:#0d1412;
+  --raised:#1a2320;
+  --line:#263531;
+  --line-soft:#1c2724;
+  --ink:#dfe7e2;
+  --dim:#83938b;
+  --faint:#5a6862;
+  --amber:#e8a33d;
+  --amber-dim:#8a6224;
+
+  /* validated categorical - miss / pin / down. never the accent. */
+  --miss:#3d80c9;
+  --pin:#3aa88c;
+  --down:#d95f3c;
+
+  --display:"Chakra Petch",'Segoe UI',system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  --sans:"IBM Plex Sans",'Segoe UI',system-ui,sans-serif;
+
+  --s1:4px; --s2:8px; --s3:12px; --s4:18px; --s5:26px; --s6:40px;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;background:var(--ground);color:var(--ink);
+  font-family:var(--sans);font-size:14px;line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+/* ---------- shell ---------- */
+.shell{max-width:1400px;margin:0 auto;padding:0 var(--s5) var(--s6)}
+
+header{
+  border-bottom:1px solid var(--line);padding:var(--s5) 0 var(--s4);
+  display:flex;flex-wrap:wrap;gap:var(--s4);align-items:flex-end;justify-content:space-between;
+}
+.brand h1{
+  font-size:22px;font-weight:700;letter-spacing:3px;text-transform:uppercase;
+}
+.brand h1 span{color:var(--amber)}
+.brand p{
+  margin:var(--s2) 0 0;font-family:var(--mono);font-size:11.5px;color:var(--dim);
+  letter-spacing:.4px;max-width:62ch;
+}
+.formula{
+  font-family:var(--mono);font-size:12.5px;color:var(--ink);
+  background:var(--well);border:1px solid var(--line);border-left:3px solid var(--amber);
+  padding:var(--s3) var(--s4);min-width:330px;
+}
+.formula .fl{display:block;white-space:nowrap;overflow-x:auto}
+.formula .fl+.fl{margin-top:var(--s1)}
+.formula em{color:var(--amber);font-style:normal}
+.formula .note{color:var(--faint);font-size:10.5px;letter-spacing:.3px;
+  text-transform:uppercase;margin-top:var(--s2);display:block}
+
+/* ---------- panel layout ---------- */
+.panels{display:grid;grid-template-columns:296px 1fr;gap:var(--s5);margin-top:var(--s5);align-items:start}
+@media(max-width:1000px){.panels{grid-template-columns:1fr}}
+
+.rail{position:sticky;top:var(--s3);display:flex;flex-direction:column;gap:var(--s4)}
+@media(max-width:1000px){.rail{position:static}}
+
+.block{background:var(--panel);border:1px solid var(--line)}
+.block>h3{
+  font-size:11px;font-weight:600;letter-spacing:1.6px;text-transform:uppercase;
+  color:var(--dim);padding:var(--s3) var(--s4);border-bottom:1px solid var(--line-soft);
+}
+.block .body{padding:var(--s4);display:flex;flex-direction:column;gap:var(--s3)}
+
+/* system picker */
+.sys{display:flex;flex-direction:column;gap:2px;padding:var(--s2)}
+.sys button{
+  font-family:var(--display);font-size:12.5px;font-weight:500;letter-spacing:.5px;
+  text-align:left;background:transparent;color:var(--dim);border:1px solid transparent;
+  padding:9px var(--s3);cursor:pointer;transition:.12s;display:flex;
+  justify-content:space-between;gap:var(--s2);align-items:baseline;
+}
+.sys button:hover{color:var(--ink);background:var(--raised)}
+.sys button.on{background:var(--amber);color:#14100a;font-weight:700;border-color:var(--amber)}
+.sys button .tag{font-family:var(--mono);font-size:10px;opacity:.72}
+.sys .divider{
+  font-family:var(--mono);font-size:9.5px;letter-spacing:1.4px;text-transform:uppercase;
+  color:var(--faint);padding:var(--s3) var(--s3) var(--s1);
+}
+
+/* sliders */
+.ctl{display:grid;grid-template-columns:1fr auto;gap:var(--s1) var(--s2);align-items:center}
+.ctl label{font-family:var(--display);font-size:12px;font-weight:500;letter-spacing:.4px;color:var(--ink)}
+.ctl .v{font-family:var(--mono);font-size:12.5px;font-weight:700;color:var(--amber);
+  font-variant-numeric:tabular-nums;min-width:26px;text-align:right}
+.ctl input[type=range]{grid-column:1/-1;width:100%;margin:0;accent-color:var(--amber);
+  height:18px;background:transparent;cursor:pointer}
+.ctl .scale{grid-column:1/-1;display:flex;justify-content:space-between;
+  font-family:var(--mono);font-size:9.5px;color:var(--faint);margin-top:-4px}
+.ctl.off{opacity:.34;pointer-events:none}
+
+.presets{display:grid;grid-template-columns:1fr 1fr;gap:var(--s1)}
+.presets button{
+  font-family:var(--display);font-size:11.5px;font-weight:500;letter-spacing:.3px;
+  background:var(--raised);color:var(--dim);border:1px solid var(--line);
+  padding:7px var(--s2);cursor:pointer;transition:.12s;text-align:left;
+}
+.presets button:hover{color:var(--amber);border-color:var(--amber-dim)}
+
+/* ---------- readout ---------- */
+.main{display:flex;flex-direction:column;gap:var(--s4);min-width:0}
+
+.hero{background:var(--panel);border:1px solid var(--line);padding:var(--s5)}
+.hero .cap{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:1.6px;text-transform:uppercase;
+  color:var(--dim);margin-bottom:var(--s4);display:flex;justify-content:space-between;
+  flex-wrap:wrap;gap:var(--s2);
+}
+.hero .cap b{color:var(--amber);font-weight:500}
+
+.bar{display:flex;height:56px;border:1px solid var(--line);overflow:hidden;background:var(--well)}
+.bar .seg{display:flex;align-items:center;justify-content:center;min-width:0;
+  transition:width .22s ease;position:relative}
+.bar .seg+.seg{border-left:2px solid var(--panel)}
+.bar .seg .pct{font-family:var(--mono);font-size:15px;font-weight:700;color:#0b0f0e;
+  font-variant-numeric:tabular-nums;letter-spacing:-.3px}
+.bar .seg.thin .pct{display:none}
+
+.legend{display:flex;gap:var(--s5);flex-wrap:wrap;margin-top:var(--s4)}
+.legend .item{display:flex;gap:var(--s2);align-items:baseline}
+.legend .sw{width:11px;height:11px;flex:none;transform:translateY(1px)}
+.legend .lb{font-family:var(--display);font-size:12.5px;font-weight:600;letter-spacing:.5px}
+.legend .ds{font-size:11.5px;color:var(--dim)}
+.legend .pv{font-family:var(--mono);font-size:13px;font-weight:700;
+  font-variant-numeric:tabular-nums;margin-left:auto}
+
+/* tabs */
+.tabs{display:flex;gap:2px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.tabs button{
+  font-family:var(--display);font-size:12px;font-weight:600;letter-spacing:1.1px;
+  text-transform:uppercase;background:transparent;color:var(--dim);border:0;
+  border-bottom:2px solid transparent;padding:10px var(--s4);cursor:pointer;transition:.12s;
+}
+.tabs button:hover{color:var(--ink)}
+.tabs button.on{color:var(--amber);border-bottom-color:var(--amber)}
+
+.view{display:none}
+.view.on{display:flex;flex-direction:column;gap:var(--s4)}
+
+.card{background:var(--panel);border:1px solid var(--line);padding:var(--s4) var(--s5) var(--s5)}
+.card>h3{font-size:12.5px;font-weight:600;letter-spacing:1.3px;text-transform:uppercase;
+  color:var(--ink);margin-bottom:var(--s1)}
+.card>.sub{font-size:12px;color:var(--dim);margin:0 0 var(--s4);max-width:76ch}
+.card>.sub b{color:var(--ink);font-weight:500}
+
+.scroller{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:12.5px}
+th,td{padding:7px var(--s3);text-align:right;white-space:nowrap}
+th{font-family:var(--display);font-size:10.5px;font-weight:600;letter-spacing:1px;
+  text-transform:uppercase;color:var(--dim);border-bottom:1px solid var(--line)}
+td{font-family:var(--mono);font-variant-numeric:tabular-nums;
+  border-bottom:1px solid var(--line-soft)}
+th:first-child,td:first-child{text-align:left;font-family:var(--sans)}
+tbody tr:hover td{background:var(--raised)}
+td.hi{color:var(--amber);font-weight:700}
+.cellpct{display:block;padding:6px 4px;text-align:center;font-family:var(--mono);
+  font-size:11.5px;font-variant-numeric:tabular-nums;border:1px solid var(--panel)}
+
+.flags{display:flex;flex-direction:column;gap:var(--s2);margin-top:var(--s4)}
+.flag{display:flex;gap:var(--s3);align-items:flex-start;font-size:12.5px;
+  padding:var(--s3);background:var(--well);border-left:2px solid var(--line)}
+.flag.warn{border-left-color:var(--down)}
+.flag.ok{border-left-color:var(--pin)}
+.flag .k{font-family:var(--mono);font-size:10px;letter-spacing:1px;text-transform:uppercase;
+  color:var(--dim);flex:none;width:74px;padding-top:2px}
+.flag.warn .k{color:var(--down)}
+.flag.ok .k{color:var(--pin)}
+.flag .t{color:var(--ink)}
+.flag .t b{color:var(--amber);font-weight:600}
+
+.runrow{display:flex;gap:var(--s4);align-items:flex-end;flex-wrap:wrap;margin-bottom:var(--s4)}
+.runrow .f{display:flex;flex-direction:column;gap:var(--s1)}
+.runrow label{font-family:var(--display);font-size:10.5px;font-weight:600;letter-spacing:1.1px;
+  text-transform:uppercase;color:var(--dim)}
+.runrow select,.runrow input[type=number]{
+  font-family:var(--mono);font-size:12.5px;background:var(--well);color:var(--ink);
+  border:1px solid var(--line);padding:7px var(--s3);min-width:104px;
+}
+.go{font-family:var(--display);font-size:12.5px;font-weight:700;letter-spacing:1.2px;
+  text-transform:uppercase;background:var(--amber);color:#14100a;border:0;
+  padding:9px var(--s5);cursor:pointer;transition:.12s}
+.go:hover{filter:brightness(1.12)}
+.go:disabled{opacity:.5;cursor:wait}
+
+.ladder{display:flex;flex-direction:column;gap:3px}
+.lrow{display:grid;grid-template-columns:52px 1fr 56px;gap:var(--s3);align-items:center}
+.lrow .lb{font-family:var(--mono);font-size:11.5px;color:var(--dim);text-align:right}
+.lrow .track{height:17px;background:var(--well);border:1px solid var(--line-soft);position:relative}
+.lrow .fill{height:100%;background:var(--miss);transition:width .2s}
+.lrow.dup .fill{background:var(--down)}
+.lrow .pv{font-family:var(--mono);font-size:11.5px;font-variant-numeric:tabular-nums}
+.lrow.dup .pv{color:var(--down);font-weight:700}
+.lrow.dup .lb{color:var(--down)}
+
+footer{margin-top:var(--s6);padding-top:var(--s4);border-top:1px solid var(--line);
+  font-family:var(--mono);font-size:11px;color:var(--faint);line-height:1.7}
+footer b{color:var(--dim);font-weight:400}
+
+:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="shell">
+
+<header>
+  <div class="brand">
+    <h1>Settlements <span>Firing Table</span></h1>
+    <p>Every resolution system on the table, computed exactly &mdash; not sampled. Drag a stat and the whole board moves.</p>
+  </div>
+  <div class="formula" id="formula"></div>
+</header>
+
+<div class="panels">
+
+  <!-- ============ CONTROL RAIL ============ -->
+  <div class="rail">
+
+    <div class="block">
+      <h3>Resolution system</h3>
+      <div class="sys" id="sysPick"></div>
+    </div>
+
+    <div class="block">
+      <h3>Attacker</h3>
+      <div class="body">
+        <div class="ctl">
+          <label for="stat">Stat &mdash; DEX</label><span class="v num" id="statV">+2</span>
+          <input type="range" id="stat" min="0" max="6" step="1" value="2">
+          <div class="scale"><span>+0</span><span>+6</span></div>
+        </div>
+        <div class="ctl">
+          <label for="hitmod">Hit modifiers</label><span class="v num" id="hitmodV">+0</span>
+          <input type="range" id="hitmod" min="-3" max="3" step="1" value="0">
+          <div class="scale"><span>&minus;3</span><span>+3</span></div>
+        </div>
+        <div class="ctl">
+          <label for="dmg">Weapon Damage</label><span class="v num" id="dmgV">+3</span>
+          <input type="range" id="dmg" min="0" max="5" step="1" value="3">
+          <div class="scale"><span>+0</span><span>+5</span></div>
+        </div>
+        <div class="ctl" id="injmodCtl">
+          <label for="injmod">Injury modifiers</label><span class="v num" id="injmodV">+0</span>
+          <input type="range" id="injmod" min="-3" max="3" step="1" value="0">
+          <div class="scale"><span>&minus;3</span><span>+3</span></div>
+        </div>
+        <div class="ctl">
+          <label for="ad">Attack Dice</label><span class="v num" id="adV">1</span>
+          <input type="range" id="ad" min="1" max="3" step="1" value="1">
+          <div class="scale"><span>1</span><span>3</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>Target</h3>
+      <div class="body">
+        <div class="ctl">
+          <label for="cover">Cover</label><span class="v num" id="coverV">&minus;1</span>
+          <input type="range" id="cover" min="0" max="3" step="1" value="1">
+          <div class="scale"><span>open</span><span>hidden</span></div>
+        </div>
+        <div class="ctl">
+          <label for="armour">Armour</label><span class="v num" id="armourV">&minus;1</span>
+          <input type="range" id="armour" min="0" max="2" step="1" value="1">
+          <div class="scale"><span>none</span><span>heavy</span></div>
+        </div>
+        <div class="ctl off" id="agiCtl">
+          <label for="agi">Defender AGI</label><span class="v num" id="agiV">+2</span>
+          <input type="range" id="agi" min="0" max="6" step="1" value="2">
+          <div class="scale"><span>+0</span><span>+6</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <h3>Archetypes</h3>
+      <div class="body">
+        <div class="presets" id="presets"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ============ READOUT ============ -->
+  <div class="main">
+
+    <div class="hero">
+      <div class="cap">
+        <span id="heroCap"></span>
+        <span>one attack die &middot; exact enumeration</span>
+      </div>
+      <div class="bar" id="bar">
+        <div class="seg" style="background:var(--miss)"><span class="pct" id="segMiss"></span></div>
+        <div class="seg" style="background:var(--pin)"><span class="pct" id="segPin"></span></div>
+        <div class="seg" style="background:var(--down)"><span class="pct" id="segDown"></span></div>
+      </div>
+      <div class="legend">
+        <div class="item"><span class="sw" style="background:var(--miss)"></span>
+          <span><span class="lb">Miss</span> <span class="ds">&mdash; nothing</span></span>
+          <span class="pv" id="legMiss" style="color:var(--miss)"></span></div>
+        <div class="item"><span class="sw" style="background:var(--pin)"></span>
+          <span><span class="lb">Pinned</span> <span class="ds">&mdash; hit, +1 Stress</span></span>
+          <span class="pv" id="legPin" style="color:var(--pin)"></span></div>
+        <div class="item"><span class="sw" style="background:var(--down)"></span>
+          <span><span class="lb">Down</span> <span class="ds">&mdash; 1 WND</span></span>
+          <span class="pv" id="legDown" style="color:var(--down)"></span></div>
+      </div>
+    </div>
+
+    <div class="tabs" id="tabs"></div>
+
+    <!-- READOUT -->
+    <div class="view on" id="v-readout">
+      <div class="card">
+        <h3>The burst</h3>
+        <p class="sub">A burst rolls every die at once, the attacker applies <b>one</b> Injury result, and inflicts <b>at most 1 WND</b> however many pass. Every other die that hit converts to <b>+1 Stress</b> &mdash; ruled 2026-08-29.</p>
+        <div class="scroller"><table id="burstTbl"></table></div>
+      </div>
+      <div class="card">
+        <h3>Reading it</h3>
+        <div class="flags" id="readFlags"></div>
+      </div>
+    </div>
+
+    <!-- MATRIX -->
+    <div class="view" id="v-matrix">
+      <div class="card">
+        <h3>Down rate &mdash; stat against cover</h3>
+        <p class="sub">Weapon and armour held at the rail's settings. Each cell is the chance a single attack die puts the target down.</p>
+        <div class="scroller"><table id="mtxHit"></table></div>
+      </div>
+      <div class="card">
+        <h3>Down rate &mdash; Damage against Armour</h3>
+        <p class="sub">Stat and cover held at the rail's settings.</p>
+        <div class="scroller"><table id="mtxInj"></table></div>
+      </div>
+    </div>
+
+    <!-- SYSTEMS -->
+    <div class="view" id="v-systems">
+      <div class="card">
+        <h3>Every system, this build</h3>
+        <p class="sub">The same fighter and the same target, resolved seven ways. <b>Down</b> is what changes the board; <b>Pin</b> is what feeds the Stress economy.</p>
+        <div class="scroller"><table id="sysTbl"></table></div>
+      </div>
+      <div class="card">
+        <h3>Floor and ceiling</h3>
+        <p class="sub">The worst shot in the game against the best-protected target, and the best shot against the worst &mdash; the two ends every system has to place. <b>Ratio</b> is how much being good at shooting is worth.</p>
+        <div class="scroller"><table id="rangeTbl"></table></div>
+      </div>
+    </div>
+
+    <!-- LADDER -->
+    <div class="view" id="v-ladder">
+      <div class="card">
+        <h3>Saturation ladder</h3>
+        <p class="sub">The hit roll has to tell <b>13 net states</b> apart &mdash; stat +0&hellip;+6 crossed with modifiers &minus;3&hellip;+3. Any two states sharing a probability are mechanically the same state, and no amount of tuning separates them. Collapsed rows are marked in rust.</p>
+        <div class="ladder" id="ladder"></div>
+        <div class="flags" id="ladderFlags"></div>
+      </div>
+    </div>
+
+    <!-- FIREFIGHT -->
+    <div class="view" id="v-firefight">
+      <div class="card">
+        <h3>Firefight &mdash; Monte Carlo</h3>
+        <p class="sub">Two symmetric squads, everyone shoots once a round, then an End Phase runs Break tests. <b>Fixed geometry</b> &mdash; no movement, terrain, reactions or Stabilize &mdash; so only the delta between systems is meaningful, never the absolute numbers.</p>
+        <div class="runrow">
+          <div class="f"><label for="squad">Squad size</label>
+            <select id="squad"><option>3</option><option selected>4</option><option>5</option><option>6</option></select></div>
+          <div class="f"><label for="nrv">NRV</label>
+            <select id="nrv"><option>0</option><option>1</option><option selected>2</option><option>3</option><option>4</option></select></div>
+          <div class="f"><label for="nfights">Fights</label>
+            <select id="nfights"><option>2000</option><option selected>10000</option><option>25000</option></select></div>
+          <div class="f"><label for="margin">Break margin</label>
+            <select id="margin"><option value="2" selected>&times;2 on d20 (4/6/8+)</option><option value="1">unscaled (2/3/4+)</option></select></div>
+          <button class="go" id="runFight">Run</button>
+        </div>
+        <div class="scroller"><table id="fightTbl"></table></div>
+        <div class="flags" id="fightFlags"></div>
+      </div>
+    </div>
+
+    <!-- SEVERITY -->
+    <div class="view" id="v-severity">
+      <div class="card">
+        <h3>A second injury bar</h3>
+        <p class="sub">If the injury roll carried a severity tier &mdash; a higher bar above the wound bar &mdash; how often would it fire? <b>What a severe result does is not ruled</b>, so this reports frequency only.</p>
+        <div class="runrow">
+          <div class="f"><label for="sevGap">Severe bar sits above the wound bar by</label>
+            <select id="sevGap"><option>3</option><option selected>5</option><option>7</option><option>9</option></select></div>
+        </div>
+        <div class="scroller"><table id="sevTbl"></table></div>
+        <div class="flags" id="sevFlags"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <b>Engine</b> &mdash; nat 1 always fails, nat 20 (or nat 10 on d10) always succeeds &middot; modifier cap &plusmn;3 &middot; a hit that fails to wound becomes Pinned +1 Stress &middot; a burst inflicts at most 1 WND, surplus hits convert to Stress<br>
+  <b>Method</b> &mdash; outcome probabilities are exact full enumeration over the die's faces, never sampled. Only the firefight tab is Monte Carlo, and it is fixed-geometry.<br>
+  <b>Not modelled</b> &mdash; movement, terrain, reactions, Dodge, payloads, Stabilize, bleed-out, Fate. Costs are unchanged: every price in the catalogue was measured under 1d10 vs 7+.
+</footer>
+</div>
+
+<script>
+"use strict";
+
+/* ============================ SYSTEMS ============================ */
+/* Each returns {miss,pin,down} exactly, by enumerating the die faces. */
+
+const clampMod = m => Math.max(-3, Math.min(3, m));
+
+function twoRoll(sides, tn, p){
+  const hitNet = p.stat + clampMod(p.hitmod - p.cover);
+  const injNet = p.dmg  + clampMod(p.injmod - p.armour);
+  const f = (net) => {
+    let n = 0;
+    for(let d=1; d<=sides; d++){
+      if(d===1) continue;
+      if(d===sides || d+net >= tn) n++;
+    }
+    return n/sides;
+  };
+  const h = f(hitNet), i = f(injNet);
+  return {miss:1-h, pin:h*(1-i), down:h*i, hit:h, inj:i};
+}
+
+function oneRollFolded(p){           /* damage inside the single roll */
+  const net = p.stat + p.dmg + clampMod(p.hitmod + p.injmod - p.cover - p.armour);
+  let m=0,pin=0,w=0;
+  for(let d=1; d<=20; d++){
+    if(d===1){m++;continue}
+    if(d===20){w++;continue}
+    const t = d+net;
+    if(t>=17) w++; else if(t>=12) pin++; else m++;
+  }
+  return {miss:m/20, pin:pin/20, down:w/20, hit:(pin+w)/20, inj:w/(pin+w||1)};
+}
+
+function oneRollSplit(p){            /* cover gates the hit, armour gates the wound */
+  const hitNet = p.stat + clampMod(p.hitmod - p.cover);
+  const injAdj = p.dmg  + clampMod(p.injmod - p.armour);
+  let m=0,pin=0,w=0;
+  for(let d=1; d<=20; d++){
+    if(d===1){m++;continue}
+    if(d===20){w++;continue}
+    const t = d+hitNet;
+    if(t<12){m++;continue}
+    if(t+injAdj>=17) w++; else pin++;
+  }
+  return {miss:m/20, pin:pin/20, down:w/20, hit:(pin+w)/20, inj:w/(pin+w||1)};
+}
+
+function opposed(p){                 /* shooter vs defender, margin decides severity */
+  const need = 7 - (p.dmg + clampMod(p.injmod - p.armour));
+  const atk = p.stat + clampMod(p.hitmod);
+  const def = p.agi + p.cover;
+  let m=0,pin=0,w=0,n=0;
+  for(let a=1;a<=20;a++) for(let b=1;b<=20;b++){
+    n++;
+    if(a===1||b===20){m++;continue}
+    if(a===20){w++;continue}
+    const ta=a+atk, tb=b+def;
+    if(ta<=tb){m++;continue}              /* ties to the defender */
+    if(ta-tb>=need) w++; else pin++;
+  }
+  return {miss:m/n, pin:pin/n, down:w/n, hit:(pin+w)/n, inj:w/(pin+w||1)};
+}
+
+const SYSTEMS = [
+  {group:"in the rules today"},
+  {id:"d10",    name:"d10 two-roll",   tag:"7+",     fn:p=>twoRoll(10,7,p),  sides:10, tn:7,
+   f1:"1d10 + <em>DEX</em> + mods \u2212 Cover \u2265 <em>7</em>", f2:"1d10 + <em>DMG</em> + mods \u2212 Armour \u2265 <em>7</em>",
+   note:"two rolls \u00b7 current rules"},
+
+  {group:"symmetric two-roll on d20"},
+  {id:"tn12",   name:"d20 two-roll",   tag:"12+",    fn:p=>twoRoll(20,12,p), sides:20, tn:12,
+   f1:"1d20 + <em>DEX</em> + mods vs <em>12</em> + Cover", f2:"1d20 + <em>DMG</em> + mods vs <em>12</em> + Armour",
+   note:"two rolls \u00b7 13/13 states clean"},
+  {id:"tn11",   name:"d20 two-roll",   tag:"11+",    fn:p=>twoRoll(20,11,p), sides:20, tn:11,
+   f1:"1d20 + <em>DEX</em> + mods vs <em>11</em> + Cover", f2:"1d20 + <em>DMG</em> + mods vs <em>11</em> + Armour",
+   note:"two rolls \u00b7 13/13 states clean"},
+  {id:"tn10",   name:"d20 two-roll",   tag:"10+",    fn:p=>twoRoll(20,10,p), sides:20, tn:10,
+   f1:"1d20 + <em>DEX</em> + mods vs <em>10</em> + Cover", f2:"1d20 + <em>DMG</em> + mods vs <em>10</em> + Armour",
+   note:"two rolls \u00b7 net +8 and +9 collapse"},
+
+  {group:"one roll, read twice"},
+  {id:"fold",   name:"d20 folded",     tag:"12/17",  fn:oneRollFolded, sides:20, tn:12,
+   f1:"1d20 + <em>DEX</em> + <em>DMG</em> \u2212 Cover \u2212 Armour", f2:"<em>12+</em> hits \u00b7 <em>17+</em> downs",
+   note:"one die \u00b7 Damage helps you hit"},
+  {id:"split",  name:"d20 split",      tag:"12/17",  fn:oneRollSplit, sides:20, tn:12,
+   f1:"1d20 + <em>DEX</em> \u2212 Cover \u2265 <em>12</em> to hit", f2:"same total + <em>DMG</em> \u2212 Armour \u2265 <em>17</em> to down",
+   note:"one die \u00b7 cover hits, armour hurts"},
+
+  {group:"opposed"},
+  {id:"opp",    name:"d20 opposed",    tag:"margin", fn:opposed, sides:20, tn:12,
+   f1:"1d20 + <em>DEX</em> &nbsp;vs&nbsp; 1d20 + <em>AGI</em> + Cover", f2:"margin + <em>DMG</em> \u2212 Armour \u2265 <em>7</em> to down",
+   note:"two dice \u00b7 both players roll"},
+];
+const byId = id => SYSTEMS.find(s=>s.id===id);
+const realSystems = SYSTEMS.filter(s=>s.id);
+
+/* ============================ STATE ============================ */
+
+const P = {stat:2, hitmod:0, dmg:3, injmod:0, cover:1, armour:1, agi:2, ad:1};
+let sysId = "d10";
+
+const PRESETS = {
+  "Recruit":   {stat:1, dmg:1, cover:2, armour:2, agi:1, ad:1, hitmod:0, injmod:0},
+  "Fighter":   {stat:2, dmg:3, cover:1, armour:1, agi:2, ad:1, hitmod:0, injmod:0},
+  "Specialist":{stat:4, dmg:4, cover:2, armour:1, agi:2, ad:1, hitmod:0, injmod:0},
+  "Marksman":  {stat:6, dmg:3, cover:2, armour:2, agi:3, ad:1, hitmod:0, injmod:0},
+  "Gunner AD3":{stat:4, dmg:5, cover:1, armour:1, agi:2, ad:3, hitmod:0, injmod:0},
+  "Open field":{stat:2, dmg:3, cover:0, armour:0, agi:2, ad:1, hitmod:0, injmod:0},
+};
+const COVER_NAME  = ["open","light","heavy","hidden"];
+const ARMOUR_NAME = ["none","light","heavy"];
+
+const pct  = v => (v*100).toFixed(0)+"%";
+const pct1 = v => (v*100).toFixed(1)+"%";
+const sgn  = v => (v>=0?"+":"\u2212")+Math.abs(v);
+
+function calc(sys, p){ return sys.fn(p); }
+
+/* burst: attacker applies ONE injury result; surplus hits become Stress */
+function burst(o, n){
+  const down = 1-Math.pow(1-o.down, n);
+  return {down, stress: n*o.hit - down};
+}
+
+/* ============================ RAIL ============================ */
+
+function buildRail(){
+  const sp = document.getElementById("sysPick");
+  sp.innerHTML = SYSTEMS.map(s=>{
+    if(s.group) return `<div class="divider">${s.group}</div>`;
+    return `<button data-sys="${s.id}"><span>${s.name}</span><span class="tag">${s.tag}</span></button>`;
+  }).join("");
+  sp.addEventListener("click", e=>{
+    const b = e.target.closest("button[data-sys]"); if(!b) return;
+    sysId = b.dataset.sys; render();
+  });
+
+  const pr = document.getElementById("presets");
+  pr.innerHTML = Object.keys(PRESETS).map(k=>`<button data-p="${k}">${k}</button>`).join("");
+  pr.addEventListener("click", e=>{
+    const b = e.target.closest("button[data-p]"); if(!b) return;
+    Object.assign(P, PRESETS[b.dataset.p]);
+    ["stat","hitmod","dmg","injmod","cover","armour","agi","ad"].forEach(k=>{
+      document.getElementById(k).value = P[k];
+    });
+    render();
+  });
+
+  ["stat","hitmod","dmg","injmod","cover","armour","agi","ad"].forEach(k=>{
+    document.getElementById(k).addEventListener("input", e=>{
+      P[k] = +e.target.value; render();
+    });
+  });
+}
+
+function syncRail(){
+  document.getElementById("statV").textContent   = sgn(P.stat);
+  document.getElementById("hitmodV").textContent = sgn(P.hitmod);
+  document.getElementById("dmgV").textContent    = sgn(P.dmg);
+  document.getElementById("injmodV").textContent = sgn(P.injmod);
+  document.getElementById("adV").textContent     = P.ad;
+  document.getElementById("coverV").textContent  = P.cover ? "\u2212"+P.cover : "0";
+  document.getElementById("armourV").textContent = P.armour ? "\u2212"+P.armour : "0";
+  document.getElementById("agiV").textContent    = sgn(P.agi);
+  document.querySelectorAll("[data-sys]").forEach(b=>b.classList.toggle("on", b.dataset.sys===sysId));
+  document.getElementById("agiCtl").classList.toggle("off", sysId!=="opp");
+}
+
+/* ============================ HERO ============================ */
+
+function renderHero(){
+  const sys = byId(sysId), o = calc(sys, P);
+  document.getElementById("formula").innerHTML =
+    `<span class="fl">${sys.f1}</span><span class="fl">${sys.f2}</span>`+
+    `<span class="note">${sys.note}</span>`;
+
+  const segs = [["segMiss",o.miss,"legMiss"],["segPin",o.pin,"legPin"],["segDown",o.down,"legDown"]];
+  segs.forEach(([id,v,lg])=>{
+    const el = document.getElementById(id), seg = el.parentElement;
+    seg.style.width = (v*100)+"%";
+    seg.classList.toggle("thin", v < 0.09);
+    el.textContent = pct(v);
+    document.getElementById(lg).textContent = pct1(v);
+  });
+
+  document.getElementById("heroCap").innerHTML =
+    `DEX <b>${sgn(P.stat)}</b> \u00b7 Damage <b>${sgn(P.dmg)}</b> \u00b7 target in <b>${COVER_NAME[P.cover]}</b> cover, <b>${ARMOUR_NAME[P.armour]}</b> armour`;
+}
+
+/* ============================ READOUT ============================ */
+
+function renderReadout(){
+  const sys = byId(sysId), o = calc(sys, P);
+  const cur = byId("d10"), oc = calc(cur, P);
+
+  let rows = "";
+  for(let n=1;n<=3;n++){
+    const b = burst(o,n), bc = burst(oc,n);
+    const delta = b.down - bc.down;
+    rows += `<tr><td>Attack Dice ${n}</td>
+      <td${n===P.ad?' class="hi"':''}>${pct1(b.down)}</td>
+      <td>${b.stress.toFixed(2)}</td>
+      <td>${(1/b.down).toFixed(1)}</td>
+      <td style="color:${delta>=0?'var(--pin)':'var(--down)'}">${delta>=0?"+":"\u2212"}${Math.abs(delta*100).toFixed(1)}</td>
+      <td style="color:var(--dim)">${pct1(bc.down)}</td></tr>`;
+  }
+  document.getElementById("burstTbl").innerHTML =
+    `<thead><tr><th>Dice in the burst</th><th>Down</th><th>E[Stress]</th>
+      <th>Shots to down</th><th>vs today</th><th>d10 today</th></tr></thead><tbody>${rows}</tbody>`;
+
+  /* flags \u2014 every one is derived from the live numbers, none are canned */
+  const f = [];
+  const pinShare = o.pin / (o.hit || 1);
+  if(o.pin < 0.05){
+    f.push(["warn","Pin band", `The Pin band is <b>${pct1(o.pin)}</b>. Suppression barely fires in this matchup \u2014 nearly every hit wounds, and the Stress economy stops running.`]);
+  } else if(pinShare > 0.55){
+    f.push(["ok","Suppression", `<b>${pct(pinShare)}</b> of hits fail to wound and become Stress. This build suppresses more than it kills \u2014 the green-crew signature.`]);
+  } else {
+    f.push(["ok","Pin band", `<b>${pct1(o.pin)}</b> of attacks Pin. Healthy \u2014 the failed wound is what feeds Stress and the Break test.`]);
+  }
+  const b3 = burst(o,3);
+  if(P.ad>1){
+    f.push(["","Burst", `At Attack Dice ${P.ad} this build downs <b>${pct1(burst(o,P.ad).down)}</b> per Action and lays <b>${burst(o,P.ad).stress.toFixed(2)}</b> Stress on a survivor. A burst never stacks wounds \u2014 the surplus converts.`]);
+  }
+  const d = o.down - oc.down;
+  if(sysId==="d10"){
+    f.push(["","Baseline", `This is the system in the vault today. Every other row's <b>vs today</b> column is measured against this one.`]);
+  } else {
+    f.push([d>=0?"ok":"warn","vs today",
+      `This system is <b>${Math.abs(d*100).toFixed(1)} points ${d>=0?"more":"less"}</b> lethal per die than the d10 rules in the vault (${pct1(o.down)} against ${pct1(oc.down)}).`]);
+  }
+  if(sysId==="fold"){
+    f.push(["warn","Fiction", `Damage sits inside the accuracy roll here, so a heavier weapon makes this fighter <b>easier to hit with</b>. \u00a72 of the master note says the opposite: cover protects against being hit, armour against being hurt.`]);
+  }
+  if(sysId==="opp"){
+    f.push(["","Defender", `AGI <b>${sgn(P.agi)}</b> is live in this system \u2014 the target rolls. AGI currently prices at exactly zero in the costing engine, so adopting this would give the game's one unpriced stat a job.`]);
+  }
+  document.getElementById("readFlags").innerHTML = f.map(([k,t,x])=>
+    `<div class="flag ${k}"><span class="k">${t}</span><span class="t">${x}</span></div>`).join("");
+}
+
+/* ============================ MATRIX ============================ */
+/* sequential ramp: one hue, monotonic lightness, dark -> hot */
+const RAMP = ["#151d1b","#3a2622","#652f26","#8f3d2d","#b64d36","#d95f3c","#ef8560"];
+const rampFor = v => RAMP[Math.min(RAMP.length-1, Math.max(0, Math.round(v*(RAMP.length-1))))];
+const inkFor  = v => v>0.62 ? "#12100c" : "#dfe7e2";
+
+function matrix(elId, rowKey, rowVals, rowLabel, colKey, colVals, colLabel){
+  const sys = byId(sysId);
+  let head = `<thead><tr><th>${rowLabel} \\ ${colLabel}</th>`+
+    colVals.map(c=>`<th>${typeof c==="string"?c:sgn(c)}</th>`).join("")+`</tr></thead>`;
+  let body = "";
+  rowVals.forEach(r=>{
+    body += `<tr><td>${rowLabel} ${sgn(r)}</td>`;
+    colVals.forEach((c,ci)=>{
+      const p = Object.assign({}, P);
+      p[rowKey] = r; p[colKey] = ci;
+      const o = calc(sys, p);
+      body += `<td style="padding:2px"><span class="cellpct" style="background:${rampFor(o.down)};color:${inkFor(o.down)}">${pct(o.down)}</span></td>`;
+    });
+    body += `</tr>`;
+  });
+  document.getElementById(elId).innerHTML = head+`<tbody>${body}</tbody>`;
+}
+
+function renderMatrix(){
+  matrix("mtxHit","stat",[0,1,2,3,4,5,6],"DEX","cover",COVER_NAME,"Cover");
+  matrix("mtxInj","dmg",[0,1,2,3,4,5],"Damage","armour",ARMOUR_NAME,"Armour");
+}
+
+/* ============================ SYSTEMS ============================ */
+
+function renderSystems(){
+  let rows = realSystems.map(s=>{
+    const o = calc(s,P), b = burst(o,P.ad);
+    const on = s.id===sysId;
+    return `<tr>
+      <td${on?' class="hi"':''}>${s.name} <span style="color:var(--faint)">${s.tag}</span></td>
+      <td style="color:var(--miss)">${pct1(o.miss)}</td>
+      <td style="color:var(--pin)">${pct1(o.pin)}</td>
+      <td style="color:var(--down)">${pct1(o.down)}</td>
+      <td>${pct1(b.down)}</td>
+      <td>${b.stress.toFixed(2)}</td></tr>`;
+  }).join("");
+  document.getElementById("sysTbl").innerHTML =
+    `<thead><tr><th>System</th><th>Miss</th><th>Pin</th><th>Down</th>
+      <th>Down \u00b7 AD${P.ad}</th><th>E[Stress]</th></tr></thead><tbody>${rows}</tbody>`;
+
+  const FLOOR = {stat:1,hitmod:0,dmg:1,injmod:0,cover:2,armour:2,agi:3,ad:1};
+  const CEIL  = {stat:6,hitmod:0,dmg:5,injmod:0,cover:0,armour:0,agi:1,ad:1};
+  rows = realSystems.map(s=>{
+    const lo = calc(s,FLOOR).down, hi = calc(s,CEIL).down;
+    return `<tr><td${s.id===sysId?' class="hi"':''}>${s.name} <span style="color:var(--faint)">${s.tag}</span></td>
+      <td>${pct1(lo)}</td><td>${pct1(hi)}</td>
+      <td>${(hi-lo>0?(hi/lo).toFixed(1):"\u2014")}\u00d7</td>
+      <td>${((hi-lo)*100).toFixed(0)} pts</td></tr>`;
+  }).join("");
+  document.getElementById("rangeTbl").innerHTML =
+    `<thead><tr><th>System</th><th>Floor \u2014 recruit, pistol, dug in</th>
+      <th>Ceiling \u2014 marksman, +5, open</th><th>Ratio</th><th>Spread</th></tr></thead><tbody>${rows}</tbody>`;
+}
+
+/* ============================ LADDER ============================ */
+
+function renderLadder(){
+  const sys = byId(sysId);
+  const seen = new Map();
+  const rows = [];
+  for(let net=-3; net<=9; net++){
+    const p = Object.assign({},P,{stat:Math.max(0,Math.min(6,net)), hitmod:0, cover:0});
+    /* drive the net directly so the ladder is about the roll, not a legal build */
+    const f = (n)=>{
+      let c=0;
+      for(let d=1; d<=sys.sides; d++){
+        if(d===1) continue;
+        if(d===sys.sides || d+n >= sys.tn) c++;
+      }
+      return c/sys.sides;
+    };
+    const v = sys.id==="opp" ? null : f(net);
+    rows.push({net, v});
+    if(v!==null){ const k=v.toFixed(6); seen.set(k,(seen.get(k)||0)+1); }
+  }
+  const dupVals = new Set([...seen].filter(([,n])=>n>1).map(([k])=>k));
+
+  document.getElementById("ladder").innerHTML = rows.map(r=>{
+    if(r.v===null) return "";
+    const dup = dupVals.has(r.v.toFixed(6));
+    return `<div class="lrow ${dup?"dup":""}">
+      <span class="lb">net ${sgn(r.net)}</span>
+      <span class="track"><span class="fill" style="width:${r.v*100}%"></span></span>
+      <span class="pv">${pct(r.v)}</span></div>`;
+  }).join("");
+
+  const distinct = seen.size, collapsed = 13-distinct;
+  const f=[];
+  if(sys.id==="opp"){
+    f.push(["","Opposed", "The ladder measures a fixed target number. An opposed system has no fixed bar to plot against \u2014 pick any other system to read it."]);
+  } else if(collapsed===0){
+    f.push(["ok","Clean", `All <b>13 of 13</b> net states resolve to distinct probabilities. Every point of stat and every point of cover changes the outcome.`]);
+  } else {
+    f.push(["warn","Collapsed", `<b>${distinct} of 13</b> states are distinct \u2014 <b>${collapsed}</b> collapse. Those rows are the same state to the dice, so cover, modifiers and stat stop mattering once you reach them.`]);
+  }
+  document.getElementById("ladderFlags").innerHTML = f.map(([k,t,x])=>
+    `<div class="flag ${k}"><span class="k">${t}</span><span class="t">${x}</span></div>`).join("");
+}
+
+/* ============================ FIREFIGHT ============================ */
+
+function runFirefight(){
+  const squad = +document.getElementById("squad").value;
+  const nrv   = +document.getElementById("nrv").value;
+  const N     = +document.getElementById("nfights").value;
+  const mScale= +document.getElementById("margin").value;
+  const MAXR  = 30;
+
+  const out = realSystems.map(sys=>{
+    const o  = calc(sys,P);
+    const oS = calc(sys, Object.assign({},P,{hitmod:P.hitmod-1}));  /* Shaken \u22121 */
+    const sides = sys.sides, tn = sys.tn;
+    const scale = sides===20 ? mScale : 1;
+
+    let totR=0, totD=0, totB=0, stuck=0;
+    for(let g=0; g<N; g++){
+      const side=[[],[]];
+      for(let s=0;s<2;s++) for(let i=0;i<squad;i++)
+        side[s].push({st:0, alive:true, sup:false, gained:false});
+      let r=1;
+      for(; r<=MAXR; r++){
+        side[0].concat(side[1]).forEach(u=>u.gained=false);
+        for(let s=0;s<2;s++){
+          for(const u of side[s]){
+            if(!u.alive||u.sup) continue;
+            const foes = side[1-s].filter(x=>x.alive);
+            if(!foes.length) break;
+            const t = foes[(Math.random()*foes.length)|0];
+            const oo = u.st>=1 ? oS : o;
+            const roll = Math.random();
+            if(roll < oo.down){ t.alive=false; totD++; }
+            else if(roll < oo.down+oo.pin){ t.st++; t.gained=true; }
+          }
+        }
+        /* End Phase */
+        for(const u of side[0].concat(side[1])){
+          u.sup=false;
+          if(!u.alive) continue;
+          if(u.st>=2){
+            const d = 1+((Math.random()*sides)|0);
+            let broke=null;
+            if(d!==sides){
+              const total = d+nrv-(u.st-1);
+              if(d===1 || total<tn){
+                const marg = tn-total;
+                if(marg>=4*scale) broke="bug";
+                else if(marg>=2*scale) broke="sup";
+              }
+            }
+            if(broke==="bug"){ u.alive=false; totB++; }
+            else if(broke==="sup"){ u.sup=true; }
+          } else if(u.st===1 && !u.gained){ u.st=0; }
+        }
+        if(!side[0].some(u=>u.alive) || !side[1].some(u=>u.alive)) break;
+      }
+      totR += Math.min(r,MAXR);
+      if(r>=MAXR) stuck++;
+    }
+    const rem = totD+totB;
+    return {sys, rounds:totR/N, wound:totD/N, nerve:totB/N,
+            share: rem? totB/rem : 0, stuck:stuck/N};
+  });
+
+  const base = out.find(x=>x.sys.id==="d10");
+  document.getElementById("fightTbl").innerHTML =
+    `<thead><tr><th>System</th><th>Rounds to resolve</th><th>vs today</th>
+      <th>Removed by wound</th><th>Removed by nerve</th><th>Nerve share</th>
+      <th>Unresolved</th></tr></thead><tbody>`+
+    out.map(x=>{
+      const d = x.rounds-base.rounds;
+      return `<tr><td${x.sys.id===sysId?' class="hi"':''}>${x.sys.name} <span style="color:var(--faint)">${x.sys.tag}</span></td>
+        <td>${x.rounds.toFixed(1)}</td>
+        <td style="color:${d<=0?'var(--pin)':'var(--down)'}">${d>0?"+":"\u2212"}${Math.abs(d).toFixed(1)}</td>
+        <td>${x.wound.toFixed(2)}</td><td>${x.nerve.toFixed(2)}</td>
+        <td>${pct(x.share)}</td>
+        <td style="color:var(--dim)">${pct1(x.stuck)}</td></tr>`;
+    }).join("")+`</tbody>`;
+
+  const fast = out.reduce((a,b)=>b.rounds<a.rounds?b:a);
+  document.getElementById("fightFlags").innerHTML =
+    `<div class="flag ok"><span class="k">Fastest</span><span class="t">
+      <b>${fast.sys.name} ${fast.sys.tag}</b> resolves in ${fast.rounds.toFixed(1)} rounds against today's ${base.rounds.toFixed(1)}.</span></div>`+
+    `<div class="flag"><span class="k">Caveat</span><span class="t">
+      Fixed geometry \u2014 no movement, terrain, reactions or Stabilize. The <b>delta between systems</b> is the finding; the absolute round counts are not game predictions.</span></div>`;
+}
+
+/* ============================ SEVERITY ============================ */
+
+function renderSeverity(){
+  const gap = +document.getElementById("sevGap").value;
+  const sys = byId(sysId);
+  if(sys.sides!==20 || sys.id==="fold" || sys.id==="split" || sys.id==="opp"){
+    document.getElementById("sevTbl").innerHTML = "";
+    document.getElementById("sevFlags").innerHTML =
+      `<div class="flag"><span class="k">N/A</span><span class="t">A second injury bar needs a separate injury roll with a fixed target. Pick one of the <b>d20 two-roll</b> systems.</span></div>`;
+    return;
+  }
+  const f = (net,target)=>{
+    let c=0;
+    for(let d=1;d<=20;d++){ if(d===1) continue; if(d===20||d+net>=target) c++; }
+    return c/20;
+  };
+  let rows="", worst=0, best=1;
+  for(let dmg=1;dmg<=5;dmg++){
+    for(let arm=0;arm<=2;arm++){
+      const net = dmg - arm;
+      const w = f(net, sys.tn), s = f(net, sys.tn+gap);
+      const share = w? s/w : 0;
+      worst = Math.max(worst,share); best = Math.min(best,share);
+      rows += `<tr><td>Damage ${sgn(dmg)} vs Armour ${arm?"\u2212"+arm:"0"}</td>
+        <td>${pct(w)}</td><td>${pct(s)}</td>
+        <td class="${share>0.5?"hi":""}">${pct(share)}</td></tr>`;
+    }
+  }
+  document.getElementById("sevTbl").innerHTML =
+    `<thead><tr><th>Weapon against armour</th><th>Wounds (${sys.tn}+)</th>
+      <th>Severe (${sys.tn+gap}+)</th><th>Severe as share of wounds</th></tr></thead><tbody>${rows}</tbody>`;
+
+  const f2=[];
+  if(best>0.4){
+    f2.push(["warn","Not rare", `Even at its rarest, a severe result fires on <b>${pct(best)}</b> of wounds, and up to <b>${pct(worst)}</b>. Two thresholds ${gap} apart on a d20 cannot produce an uncommon tier \u2014 the ordinary wound becomes the exception.`]);
+  } else {
+    f2.push(["ok","Rare enough", `A severe result fires on <b>${pct(best)}</b>\u2013<b>${pct(worst)}</b> of wounds. At a gap of ${gap} it reads as an exceptional outcome rather than the default.`]);
+  }
+  f2.push(["","Unruled", `What a severe result <b>does</b> has never been ruled. Currently a ranged wound leaves the target Down, with Stabilize and then a Fate roll between it and a dead fighter.`]);
+  document.getElementById("sevFlags").innerHTML = f2.map(([k,t,x])=>
+    `<div class="flag ${k}"><span class="k">${t}</span><span class="t">${x}</span></div>`).join("");
+}
+
+/* ============================ TABS ============================ */
+
+const TABS = [["readout","Readout"],["matrix","Matrix"],["systems","Systems"],
+              ["ladder","Ladder"],["firefight","Firefight"],["severity","Severity"]];
+let tab = "readout";
+
+function buildTabs(){
+  const el = document.getElementById("tabs");
+  el.innerHTML = TABS.map(([id,l])=>`<button data-tab="${id}">${l}</button>`).join("");
+  el.addEventListener("click", e=>{
+    const b = e.target.closest("button[data-tab]"); if(!b) return;
+    tab = b.dataset.tab; render();
+  });
+  document.getElementById("runFight").addEventListener("click", e=>{
+    e.target.disabled = true; e.target.textContent = "Running";
+    setTimeout(()=>{ runFirefight(); e.target.disabled=false; e.target.textContent="Run"; }, 20);
+  });
+  document.getElementById("sevGap").addEventListener("change", renderSeverity);
+}
+
+/* ============================ RENDER ============================ */
+
+function render(){
+  syncRail();
+  renderHero();
+  document.querySelectorAll("[data-tab]").forEach(b=>b.classList.toggle("on", b.dataset.tab===tab));
+  document.querySelectorAll(".view").forEach(v=>v.classList.toggle("on", v.id==="v-"+tab));
+  if(tab==="readout")   renderReadout();
+  if(tab==="matrix")    renderMatrix();
+  if(tab==="systems")   renderSystems();
+  if(tab==="ladder")    renderLadder();
+  if(tab==="severity")  renderSeverity();
+}
+
+buildRail();
+buildTabs();
+render();
+runFirefight();   /* open in a working state, not an empty shell */
+</script>
