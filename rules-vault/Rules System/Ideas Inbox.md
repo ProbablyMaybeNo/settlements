@@ -9,11 +9,10 @@ tags: [settlements/inbox]
 > This is your scratchpad — half-formed ideas, "what if", random mechanics, names, tone notes, anything. Don't organise while capturing. Triage later. Nothing here is committed to the game until it's moved into a real rule.
 
 ---
-## 🧠 Unsorted (type freely here)
+# 🧠 Unsorted (type freely here)
 
-
-
-**FIXES
+ 
+## FIXES
 
 *Nerve States*
 We need to replace one of the current nerve states with a new result as Bolt and BugOut pretty much do the exact same thing. 
