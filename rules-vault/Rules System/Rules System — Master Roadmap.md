@@ -11,6 +11,11 @@ Everything needed to take Settlements from *scaffold* to a *complete, book-ready
 > This roadmap is a **log of what got decided when**, so some ticked items below record numbers that have since been superseded — they are marked where that happened. Where this file and the master note disagree, **the master note wins.**
 
 ## 1 · Where it stands today
+### Modifier framework — 2026-09-09
+
+- [x] Save [[Modifier Design Framework]] with Weapons, Armour, Skills, Equipment, Advancements, and Injuries; Equipment benefits are limited-use and do not persist between games.
+- [ ] Audit and integrate the framework into the live rules, resolving Tough, medical recovery, and item replenishment before propagating changes. See [[design-001 Modifier framework]] for the ledger record.
+
 
 **37 phases** — ✅ **27 drafted** · 🎯 1 milestone · ⬜ 9 not started. *(Recounted 2026-08-05.)*  
 Reference notes: [[Weapons]] · [[Skill Paths]] · *(Terrain Features catalogue TBD)*
