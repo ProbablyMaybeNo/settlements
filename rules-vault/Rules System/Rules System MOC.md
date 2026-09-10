@@ -34,6 +34,8 @@ Visual, editable map of the whole rules system, ported from the Notion **Build R
 
 [[Modifier Design Framework]] — the six unit categories, their effect boundaries, and limited-use Equipment. Design direction recorded 2026-09-09; integration into live rules remains pending. Ledger: [[design-001 Modifier framework]].
 
+[[Basic Weapon System]] — the seven basic weapon classes, construction sequence, and basic characteristics. Design draft recorded 2026-09-10; named catalogue and Credits integration remain open.
+
 ## Stages
 ### S1 Foundation
 - [[Game Vision]] — *Drafted*
