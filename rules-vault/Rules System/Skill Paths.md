@@ -67,8 +67,7 @@ Each skill fills **one tier-slot** off its stat's path — you don't pay for it 
 - **Grapple** — Replace a melee attack with an opposed STR test. On a win, apply **Grappled** instead of making an Injury roll. *(Grappler · Controller)*
 - **Bodyguard** — Once per round, when an attack targets a friendly within 2", move up to 2" and become the target instead if you are a legal target. *(Tank · Protector)*
 - **Rooted** — When an effect would forcibly move you, pass a STR test to ignore all forced movement from that effect. *(Tank · Terrain controller)*
-- **Pack Mule** — Carrying an objective or friendly does not reduce your Move. You may Sprint while carrying, but cannot Charge. *(Hauler · Objective runner)*
-- **Doorstop** — While adjacent to a closed Openable door, an enemy must spend an Action and beat you in an opposed STR test to open it. *(Tank · Terrain controller)*
+- **Pack Mule** — Carrying an objective or friendly does not reduce
 
 ### Tier 2 — Great
 - **Muscle Override** — As an Action, force an adjacent powered or locked door open or closed without its terminal. This is Loud and cannot affect Reinforced barriers. *(Breacher · INT combo)*
