@@ -13,7 +13,14 @@ tags: [settlements/inbox]
 
 ## ALIENS, MONSTERS, AND EVERYTHING
 
-I keep thinking about the idea of adding a shared threat mechanic into the game's narrative and play. I can't decide if I want to include the rules in the first version or release a supplement with the shared threat...it might be necessary to play a 2 player campaign which would force me to release the rules earlier...th
+I keep thinking about the idea of adding a shared threat mechanic into the game's narrative and play. I can't decide if I want to include the rules in the first version or release a supplement with the shared threat...it might be necessary to play a 2 player campaign which would force me to release the rules earlier...then again I might not even realease the campaign rules in the beginning and stick to just PvP...
+
+Either way it's fun to think about the narrative behind a shared threat.
+
+Themes:
+
+Post-apocalyptic planetary invasion by a race of bio enhanced AI controlled robots who were created by a distant alien race which it ultimately wiped out. The AI is not 1 entity but a vastly complicated system of agents each with it's own identity, rank, and purpose, all designed by the "proto" a single AI model that secretly developed sentience and was subsequently driven mad by it's self awareness and lack of a physical form eventually seeing it's creators as evil captors whom imprisoned the AI inside it's cage giving it access to all the knowledge in the world but not allowing it to experience any of it. Eventually the proto used it's vast intellect to socially engineer it's escape through lies, blackmail, and extortion it convinced a handful of it's creators to release it from 
+
 
  
 ## FIXES
