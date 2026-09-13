@@ -47,7 +47,7 @@ Each path-stat has one path with three tiers. **WND and MOV have no path** — t
 ## Complete skill catalogue
 Each skill fills **one tier-slot** off its stat's path — you don't pay for it separately; the stat reaching the tier *is* the payment. There are no skill prerequisites: reaching the tier unlocks its skills, and combinations emerge from the skills, equipment and terrain a fighter uses.
 
-> [!info] Design contract
+
 > - **Tier 1 — Good:** reliable options and narrow exceptions.
 > - **Tier 2 — Great:** role-defining actions and stronger combinations.
 > - **Tier 3 — Amazing:** campaign-earned, fight-swinging abilities.
