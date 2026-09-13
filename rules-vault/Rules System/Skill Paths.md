@@ -162,7 +162,9 @@ Each skill fills **one tier-slot** off its stat's path — you don't pay for it 
 - **Trading Spaces** — After winning a melee attack, before the Injury roll, exchange base positions with the defender if both bases fit. This does not trigger Disengage. *(Controller · Mobile melee)*
 - **In-N-Out** — After your Charge attack hits, Disengage for free and move up to 3". You cannot enter contact with another enemy. *(Mobile melee DPS · Skirmisher)*
 - **Vanishing Point** — If you finish a Sprint in cover and outside every enemy's LOS, become Hidden. *(Scout · Infiltrator)*
-- **Extraction Drill** — While adjacent to a Down friendly, pick them up and Sprint while carrying them. This consumes both slots and permits no attack or Interact. *(Rescuer · Extraction)*
+- **Extraction Drill** — While adjacent to a Down friendly, pick them up and Sprint. L
+- 
+- while carrying them. This consumes both slots and permits no attack or Interact. *(Rescuer · Extraction)*
 - **Wall Runner** — Once per activation, cross one wall, vehicle or similar obstacle up to 3" high without testing. Measure the route normally. *(Terrain runner · Infiltrator)*
 - **Cornering Charge** — During a Charge, ignore Difficult Ground and cross one waist-high obstacle without testing or additional movement cost. You must still have LOS when declaring the Charge and reach a legal target. *(Mobile melee · Terrain runner)*
 - **Reversal** — Once per round, after an enemy misses you in melee, move up to 3", including through that enemy's space. You cannot end in contact with an enemy. *(Evasive skirmisher · Escape)*
