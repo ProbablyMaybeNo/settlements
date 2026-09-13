@@ -11,6 +11,10 @@ tags: [settlements/inbox]
 ---
 # 🧠 Unsorted (type freely here)
 
+## ALIENS, MONSTERS, AND EVERYTHING
+
+I keep thinking about the idea of adding a shared threat mechanic into the game's narrative and play. I can't decide if I want to include the rules in the first version or release a supplement with the shared threat...it might be necessary to play a 2 player campaign which would force me to release the rules earlier...th
+
  
 ## FIXES
 
