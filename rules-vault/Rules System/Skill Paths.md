@@ -51,7 +51,7 @@ Each skill fills **one tier-slot** off its stat's path — you don't pay for it 
 > - **Tier 1 — Good:** reliable options and narrow exceptions.
 > - **Tier 2 — Great:** role-defining actions and stronger combinations.
 > - **Tier 3 — Amazing:** campaign-earned, fight-swinging abilities.
-> - A modifier from a skill is conditional and the final modifier on any roll cannot exceed **+3 or −3**.
+>dddddd- A modifier from a skill is conditional and the final modifier on any roll cannot exceed **+3 or −3**.
 > - **Difficulty is a modifier on the standard 7+ test, never a raised target number.** A harder job is **−1 / −2 / −3** (within the cap); a strong roll can grant a bonus (*"beat the target by 2+"*). No 9+/11+ targets.
 > - Unless a skill explicitly says otherwise, a fighter still makes at most **one attack per activation**.
 > - Every condition a skill applies is defined in **[[Conditions]]** — skills apply conditions, they never redefine them.
