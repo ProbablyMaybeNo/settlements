@@ -20,7 +20,7 @@ Visual, editable map of the whole rules system, ported from the Notion **Build R
 > 🔓 **What's still open:** [[Open Decisions]] — auto-generated from unticked boxes and `status:` fields.
 > 💡 **Random idea? Dump it here:** [[Ideas Inbox]] — a no-structure scratchpad; triage into rules later.
 > 🔬 **What other games do:** [[Wargaming Research Hub]] — the mechanics catalogue. Every notable system or mechanic we come across, one row each, linked to a full write-up. Research only — nothing there is adopted until it lands in [[Full Rules System v1]].
-> 📇 **Rules reference:** [[Weapons]] · [[Skill Paths]] — catalogues the combat notes point to.
+> 📇 **Rules reference:** [[Weapons]] · [[Basic Weapon System]] · [[Skill Paths]] — the current weapon construction and skill catalogues.
 > 🧪 **Sim findings:** [[Dice Mechanic — Sim Findings]] · [[Skill Sim — Findings]] · [[Terrain Hacking Cover — Sim Findings]] · [[Crew Sim — Findings]] · [[Deployables Sim — Findings]]
 > 📑 **Rules Ledger:** short *graduated* rule cards under `Rules Ledger/` — the durable one-page text (not the full phase discussion). Phase notes draft; ledger stores the clean final wording for embeds / the eventual rulebook.
 
@@ -34,7 +34,7 @@ Visual, editable map of the whole rules system, ported from the Notion **Build R
 
 [[Modifier Design Framework]] — the six unit categories, their effect boundaries, and limited-use Equipment. Design direction recorded 2026-09-09; integration into live rules remains pending. Ledger: [[design-001 Modifier framework]].
 
-[[Basic Weapon System]] — the seven basic weapon classes, construction sequence, and basic characteristics. Design draft recorded 2026-09-10; named catalogue and Credits integration remain open.
+[[Basic Weapon System]] — the seven basic weapon classes, construction sequence, basic characteristics, and named build examples. Current weapon-system entry point from 2026-09-19; the named catalogue and Credits values remain the next content pass. Ledger: [[design-002 Basic Weapon System]].
 
 ## Stages
 ### S1 Foundation

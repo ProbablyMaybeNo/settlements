@@ -3,7 +3,7 @@ type: master
 title: Full Rules System v1
 status: Source of Truth
 adopted: 2026-08-05
-revised: 2026-08-05
+revised: 2026-09-19
 tags:
   - settlements/master
 ---
@@ -67,6 +67,8 @@ tags:
 > Costing engine: `test-bench/points/` · sim harnesses: `test-bench/balance/` ·
 > shipping prices: `docs/POINTS-CATALOGUE.md` · decisions log: `docs/POINTS-DECISIONS.md`.
 > Consistency guard: `py -3.13 scripts/check_rules_consistency.py`.
+
+> **Revised 2026-09-19 — Basic Weapon System integrated.** The current player-facing weapon construction rules now live in [[Basic Weapon System]], with [[Weapons]] retained as the stable entry point. The former weapon note and superseded construction text are archived for reference. The current system uses seven classes, modular characteristics, and named weapon builds; it does not adopt Reach or Deadly / Automatic Down as basic characteristics.
 
 # Settlements — Full Rules System v1
 
@@ -581,7 +583,23 @@ Skills are the **third lever**: stats decide if you hit, weapons decide how bad,
 
 ---
 
-## 15 · Weapons — Construction System **[DRAFTED mechanics · prices from the 850-Credit shipping catalogue]**
+## 15 · Weapons — Basic Weapon System **[CURRENT DESIGN · 2026-09-19]**
+
+The current basic weapon system is defined in [[Basic Weapon System]] and entered through [[Weapons]]. Every weapon is built by selecting a class, choosing values inside that class's Damage and Range envelope, adding legal characteristics or drawbacks, and naming the finished build.
+
+> [!important] Current weapon ruling
+> The seven live basic classes are **Unarmed, 1h Ranged / Sidearm, 2h Ranged, Heavy 2h Ranged, 1h Melee, 2h Melee, and Thrown**. Heavy 2h Ranged is Specialist-gated. A sniper rifle has no extra Specialist or Leader gate beyond the class it uses. Reach and Deadly / Automatic Down are not basic characteristics. Accurate and Precision are intentionally separate, overlapping accuracy options. Reload costs one Action before the weapon can fire again.
+
+![[Basic Weapon System#1. Weapon construction]]
+![[Basic Weapon System#2. Basic weapon classes]]
+![[Basic Weapon System#3. Basic weapon characteristics]]
+![[Basic Weapon System#4. Basic weapon examples]]
+
+> [!warning] Historical text below
+> The former construction and pricing text is retained below for audit history only. It is superseded by [[Basic Weapon System]] and must not be used to resolve a rules conflict. The prior satellite note is archived at [[Archived/Weapons — superseded 2026-09-19]].
+
+<details>
+<summary>Archived weapon-system text — superseded 2026-09-19</summary>
 
 Weapons are **built, not bought off a shelf**: pick a Class, spend Credits on Characteristics, name the result.
 
@@ -765,6 +783,8 @@ Armor reduces the Injury roll only, never the hit. **Carries no drawbacks** — 
 Seeker mine (self-moving munition) — parked, not rejected. A moving munition on a 3'×3' board is an edge-case factory: does it draw Reactions? trigger traps? get shot as a Feature? what is its facing? Revisit once the Edge Cases audit exists; Proximity and Remote carry the family fine, and Remote's bluff kit is the interesting one anyway. Rapid (extra attack) — it *is* Quick Shot, a T3 skill; selling it as a cheap characteristic destroys the skill economy. Precision (flat +1 hit) — strictly better than Dead Eye; replaced by conditional Accurate. Reliable (re-roll) — no re-roll mechanic exists anywhere else in the game. Quick Draw (fire after Sprinting) — Sprint uses both slots, there's no Action left. Crushing (ignore cover on Injury) — cover never touches Injury, that's load-bearing. Awkward — free points on a static shooter. Intimidating (Stress aura) — parked, too volatile given Stress-cascade findings. **Concealable** (may start Hidden / smuggle past a search) — **cut 2026-08-14**: both halves are edge cases that do nothing in a typical battle, and it breaks the design contract at the top of this section, because "may start Hidden" is *positioning*, which is skill territory (Vanishing Point and Camouflage Drill already do it properly). **Quiet is NOT cut** — no-reveal / no-alarm-trip is a real mechanical axis that interacts with Hidden and with sensor deployables.
 
 ---
+
+</details>
 
 ## 16 · List Building **[DRAFTED shape · 850-Credit scale]**
 

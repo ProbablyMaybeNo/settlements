@@ -36,6 +36,8 @@ Weapons are the primary source of direct offensive improvement. They may improve
 | **2h Melee** | +3 to +5 | Melee | 2 | Fighter | 2 | Large, powerful, or two-handed melee weapons. |
 | **Thrown** | +1 to +2 | 8" | 1 | Recruit | 1 | Weapons thrown at range; may also be used in melee. |
 
+^tbl-1-weapon-classes
+
 The class's Damage and Range values are selected when the weapon is built. They are not automatically the maximum shown in the envelope.
 
 ### Rank access
@@ -63,6 +65,8 @@ Characteristics describe the finished weapon's behaviour. Each characteristic mu
 | **Automatic** | Roll the stated number of Attack Dice for one Action. Resolve the burst using the normal Attack Dice rules. |
 | **Ignore Cover** | Ignore the stated amount of cover penalty when making the attack. This does not permit attacks without line of sight. |
 
+^tbl-damage-armour
+
 Accurate and Precision are intentionally overlapping options. Accurate improves the attack roll directly; Precision replaces one result with a second attempt. They may be assigned to different weapons at different prices.
 
 ### Payloads and conditions
@@ -76,6 +80,8 @@ Accurate and Precision are intentionally overlapping options. Accurate improves 
 | **Pull** | Move the target directly toward the weapon or impact point by the stated distance, subject to the final weapon wording. |
 | **Hook** | Apply the stated close-combat disengagement penalty. The exact modifier and duration must be printed on the weapon. |
 
+^tbl-payload-replaces-the-non-wounding-result
+
 Weapon payloads apply existing conditions; they do not redefine those conditions. A weapon attack still wounds or delivers its payload according to the core rules and may not stack a second result unless the rule expressly permits it.
 
 ### Use and handling
@@ -88,6 +94,8 @@ Weapon payloads apply existing conditions; they do not redefine those conditions
 | **Reload** | After firing, the weapon cannot be fired again until its wielder spends one Action reloading it. A unit may reload and fire in the same activation if it has enough Actions remaining. |
 | **Long Range** | Increase the weapon's range to the next legal range band. Any additional restrictions on range beyond 24" still apply. |
 | **Single-Use** | The weapon may be used once per battle and is then expended. |
+
+^tbl-handling
 
 “Agile” is a weapon handling rule. It does not improve the wielder's AGI stat. “Close Combat” describes where the weapon may be used; it does not add a separate attack.
 
@@ -117,6 +125,8 @@ These examples show how classes and characteristics combine. They are constructi
 | Smoke Grenade | Thrown | Single-Use, Smoke payload | — | 8" | 1 | Recruit | 1 |
 | Molotov | Thrown | Blast, Suppression, Single-Use | +1 | 8" | 1 | Recruit | 1 |
 | Javelin | Thrown | Piercing, Close Combat | +2 | 8" / Melee | 1 | Recruit | 1 |
+
+^tbl-5-sample-armoury
 
 ## 5. Build restrictions
 

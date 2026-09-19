@@ -18,7 +18,7 @@ Everything needed to take Settlements from *scaffold* to a *complete, book-ready
 
 
 **37 phases** — ✅ **27 drafted** · 🎯 1 milestone · ⬜ 9 not started. *(Recounted 2026-08-05.)*  
-Reference notes: [[Weapons]] · [[Skill Paths]] · *(Terrain Features catalogue TBD)*
+Reference notes: [[Weapons]] · [[Basic Weapon System]] · [[Skill Paths]] · *(Terrain Features catalogue TBD)*
 
 | Stage | Phases | Status |
 |---|---|---|
@@ -36,7 +36,7 @@ Reference notes: [[Weapons]] · [[Skill Paths]] · *(Terrain Features catalogue 
 
 - [x] **Core dice mechanic** ([[Rules Engine]] / [[core-000 Core Test]]) — `1d10 + Stat + mods, 7+`, nat 1/10 auto.
 - [x] **Lethality first pass** ([[Damage]]) — Injury roll, WND 1, Down / Stabilize / bleed-out, Fate hook. **Not Locked** until playtested — treat as Drafted, not Done.
-- [x] **List Building + Weapons** (2026-07-13) — ranks 5/8/16/24 at a 100-pt budget; weapons built from class + characteristics. Sim-validated to an 11-point spread across 8 archetypes. → [[Crew Sim — Findings]] *(**Scale superseded twice.** 2026-08-05: 1000 Credits, ranks 65/95/165/245. **2026-08-19/20: bodies re-derived from the measured stat ladder and the scale rebased to 850 — ranks are now 70/100/145/185 in both tiers, at 850 Match Play / 425 Campaign Start.** See [[List Building]].)*
+- [x] **Basic Weapon System** (2026-09-19) — seven classes, class envelopes, modular characteristics, Reload timing, and named build examples. Current wording: [[Basic Weapon System]]; stable entry point: [[Weapons]]; superseded wording: [[Archived/Weapons — superseded 2026-09-19]].
 - [x] **Terrain density is a BAND (9–12 features), not a floor** — it swings win rate by 66 points, more than any cost. → [[Terrain#Setup procedure]]
 
 Secondary opens: Glorious Deed name ([[Core Game Format]] / [[Scenarios]]), List Building point values, catch-up rule ([[Initiative & Activation]]). *(Skill Paths 9+/11+ → flat 7+ with modifiers: done.)*
@@ -126,10 +126,10 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 
 - [x] Ranged sequence: declare → range/LOS → `1d10 + DEX` vs 7+ → Injury → +1 Stress.
 - [x] DEX drives to-hit; core test method.
-- [x] Weapon profile fields live in [[Weapons]] (range, Damage, traits).
+- [x] Weapon profile fields live in [[Basic Weapon System]] (class, range, Damage, characteristics, hands, rank gate, and slots).
 - [ ] Target-priority rules (closest? must shoot?).
 - [x] Cover modifiers (Light/Heavy/Hidden). Elevation / moving-and-shooting still open.
-- [ ] Ammo / reload / jam — deferred (traits TBD in [[Weapons]]); not required for alpha.
+- [x] Reload — a weapon must spend one Action reloading before it can fire again; ammunition and jam subsystems remain deferred.
 
 #### 14 · [[Melee]] — ✅ Drafted
 <small>depends on: Unit Design, Movement</small>

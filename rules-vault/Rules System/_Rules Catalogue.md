@@ -105,53 +105,25 @@ tags:
 
 *Pick a class, spend Credits on characteristics, name the result. The class sets damage, range and rank gate; characteristics do the rest.*
 
-**Classes — the chassis** · source: [[Weapons]]
+**Classes — the chassis** · source: [[Basic Weapon System]]
 
-![[Weapons#^tbl-1-weapon-classes]]
+![[Basic Weapon System#^tbl-1-weapon-classes]]
 
-**Rank gates which classes you may hold** · source: [[Weapons]]
+**Accuracy and harm characteristics** · source: [[Basic Weapon System]]
 
-![[Weapons#^tbl-rank-gates-the-class]]
+![[Basic Weapon System#^tbl-damage-armour]]
 
-**Damage & armour characteristics** · source: [[Weapons]]
+**Payloads and conditions** · source: [[Basic Weapon System]]
 
-![[Weapons#^tbl-damage-armour]]
+![[Basic Weapon System#^tbl-payload-replaces-the-non-wounding-result]]
 
-**To-hit characteristics** · source: [[Weapons]]
+**Use and handling** · source: [[Basic Weapon System]]
 
-![[Weapons#^tbl-to-hit]]
+![[Basic Weapon System#^tbl-handling]]
 
-**Payloads — replace the non-wound result** · source: [[Weapons]]
+**Sample armoury — worked builds** · source: [[Basic Weapon System]]
 
-![[Weapons#^tbl-payload-replaces-the-non-wounding-result]]
-
-**Area** · source: [[Weapons]]
-
-![[Weapons#^tbl-area]]
-
-**Handling** · source: [[Weapons]]
-
-![[Weapons#^tbl-handling]]
-
-**Drawbacks — refund Credits** · source: [[Weapons]]
-
-![[Weapons#^tbl-drawbacks-refund-points-take-no-slot-max-2-p]]
-
-**Armour** · source: [[Weapons]]
-
-![[Weapons#^tbl-3-armor]]
-
-**Hacking gear** · source: [[Weapons]]
-
-![[Weapons#^tbl-4-hacking-gear]]
-
-**Sample armoury — worked builds** · source: [[Weapons]]
-
-![[Weapons#^tbl-5-sample-armoury]]
-
-**Cut, and why — so it does not creep back** · source: [[Weapons]]
-
-![[Weapons#^tbl-6-cut-and-why]]
+![[Basic Weapon System#^tbl-5-sample-armoury]]
 
 ---
 
@@ -405,7 +377,7 @@ tags:
 
 ## Coverage
 
-68 tables embedded · 48 anchored tables not placed in a section.
+61 tables embedded · 51 anchored tables not placed in a section.
 
 > [!question] Anchored tables this catalogue does not show
 > Either add them to a section in `build_catalogue.py`, or accept them as note-local detail.
@@ -421,6 +393,7 @@ tags:
 > - [[Board Representation]] `^tbl-terrain`
 > - [[Crew Sim — Findings]] `^tbl-2-the-final-balance-table-2`
 > - [[Crew Sim — Findings]] `^tbl-3-morale-change-nothing`
+> - [[Deployables]] `^payload-what-it-does-on-detonation`
 > - [[Deployables Sim — Findings]] `^tbl-2-int-is-a-real-gate-on-deploying`
 > - [[Deployables Sim — Findings]] `^tbl-3-turrets-price-out-except-burst-now-fixed`
 > - [[Deployables Sim — Findings]] `^tbl-4-mines-land-hard-but-are-one-use-and-avoida`
@@ -437,9 +410,11 @@ tags:
 > - [[Full Rules System v1]] `^tbl-season-score`
 > - [[Full Rules System v1]] `^tbl-storage-caps`
 > - [[Infrastructure]] `^tbl-custom-battles`
+> - [[List Building]] `^armour-equipment`
 > - [[List Building]] `^tbl-armour-equipment`
 > - [[List Building]] `^tbl-armour-equipment-2`
 > - [[Morale]] `^tbl-break-test-end-phase-2-stress-2`
+> - [[Progression]] `^levels-the-fixed-advancement-track`
 > - [[Skill Sim — Findings]] `^tbl-1-flat-combat-modifiers-raw-bought-exact`
 > - [[Skill Sim — Findings]] `^tbl-2-multi-attack-expected-wounds-activation`
 > - [[Skill Sim — Findings]] `^tbl-3-grapple-chain`
@@ -452,9 +427,9 @@ tags:
 > - [[Structures]] `^tbl-groundworks-the-expansion-project`
 > - [[Structures]] `^tbl-storage-caps-what-you-can-hold-and-what-a-ra`
 > - [[Structures]] `^tbl-three-ways-to-grow-and-how-to-tell-them-apar`
+> - [[Structures]] `^worker-benefits`
 > - [[Terrain]] `^tbl-interact`
 > - [[Terrain Hacking Cover — Sim Findings]] `^tbl-t3-a-2-fall-is-a-coin-flip-kill`
 > - [[Terrain Hacking Cover — Sim Findings]] `^tbl-t6-hacker-shut-outs-are-too-weak`
 > - [[Terrain Hacking Cover — Sim Findings]] `^tbl-t8-disengage-is-a-dead-option`
 > - [[Terrain Hacking Cover — Sim Findings]] `^tbl-validated`
-> - [[Weapons]] `^tbl-attack-dice-costs`
