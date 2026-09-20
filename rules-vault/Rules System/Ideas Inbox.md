@@ -11,6 +11,18 @@ tags: [settlements/inbox]
 ---
 # 🧠 Unsorted (type freely here)
 
+## SKILLS TACTICS
+
+*STR* - TANK / 
+
+*DEX* - DPS RANGE
+
+*INT* - SUPPORT/CONTROL RANGE
+
+*AGI* - DPS MELEE
+
+*NRV* - SUPPORT/CONTROL AOE
+
 ## ALIENS, MONSTERS, AND EVERYTHING
 
 I keep thinking about the idea of adding a shared threat mechanic into the game's narrative and play. I can't decide if I want to include the rules in the first version or release a supplement with the shared threat...it might be necessary to play a 2 player campaign which would force me to release the rules earlier...then again I might not even realease the campaign rules in the beginning and stick to just PvP...
