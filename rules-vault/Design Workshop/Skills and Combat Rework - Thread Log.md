@@ -35,7 +35,7 @@ tags:
 | Dice | The working system uses d20s. The older master text used in earlier answers still said d10. | Ross corrected; full d20 specification not supplied here |
 | Positive skill bonuses | Increase the drafted +1 bonuses to +2. | Ross directed; not yet applied to the preserved catalogue below |
 | Positive modifier cap | Combined positive modifiers cap at +6 on d20, replacing +3. | Ross confirmed; negative cap not specified |
-| Hidden and Marked | Hidden gives -4 to be hit and prevents targeting beyond 12 inches. Marked removes Hidden. Check automatic exposure at start/end of the Hidden unit's own activation: enemy within 12 inches with LOS removes Hidden. An enemy moving into LOS during its own activation may shoot within 12 inches at -4 without revealing the target. | Ross clarified activation timing; replaces earlier movement-endpoint wording; master unchanged |
+| Hidden and Marked | Hidden gives -4 to be hit and prevents targeting beyond 12 inches. Marked or any successful hit removes Hidden; a complete miss leaves it intact. Check exposure at start/end of the Hidden unit's activation: enemy within 12 inches with LOS removes Hidden. Enemy movement into LOS alone does not reveal. | Ross clarified activation timing and hit-based reveal; master unchanged |
 | Ordinary attack outcomes | Every successful ranged or melee hit gives 1 Stress, whether or not it wounds, capped at 5 total Stress. | Ross clarified; working direction, not master integration |
 | Suppressed | Remove the separate condition. | Ross directed |
 | Pinned | A qualifying skill or weapon may Pin on a ranged hit that does not wound. Self or friendly spends an action point to Recover. No additional Stress for Pinning. | Ross clarified; previous friendly range was 3 inches; detailed restrictions pending |
@@ -673,6 +673,18 @@ Automatic exposure is checked at the **start and end of the Hidden unit's own ac
 - Marked remains an explicit reveal effect. Existing shooting/Interact reveal rules have not expressly been removed by this clarification.
 - Decide how the activation-end exposure check is ordered against a reaction to the final Move/Action. Do not silently import the discarded immediate movement-end reveal rule.
 - The assistant's proposed Mark duration and ban on re-Hiding while Marked remain unconfirmed.
+
+### Successful hits reveal Hidden units — latest clarification
+
+Ross clarified: an enemy can legally target a Hidden unit within the permitted range at -4; if it hits, Hidden is removed because the target gains Stress/is Shaken or goes Down. If every attack die misses, Hidden remains.
+
+- Record this directly as **a successful hit removes Hidden**, regardless of whether Injury succeeds. This covers wounded survivors as well as non-wounding hits, without requiring a separate Down check.
+- Existing range restriction remains: enemies beyond 12 inches cannot normally target Hidden units. The statement about targeting does not revoke it.
+- Every hit still adds 1 Stress, capped at 5; no second Stress point is created by losing Hidden. A hit at the Stress cap still reveals.
+- "Shaken" here describes being affected by Stress; it does not reinstate the superseded flat -2 penalty. Current Stress remains -1 per point, maximum -5.
+- A complete miss does not reveal by itself. Other reveal triggers, including Marked and the unit's activation checkpoints, still apply independently.
+- For simultaneous Attack Dice, assistant recommends applying Hidden's -4 to every die in that attack, then removing Hidden if any hit. Subsequent attacks would use the target's revealed state. This timing is a proposal pending confirmation, not a new per-die recalculation rule.
+- Does not imply that a unit already carrying Stress is permanently barred from Hiding; whether Stress restricts taking Hide remains unspecified.
 
 ## 14. Eventual integration checklist — inactive until authorised
 
