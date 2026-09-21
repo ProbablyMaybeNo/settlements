@@ -457,7 +457,34 @@ Suggested direction for discussion: retain one Action/one INT test/one printed d
 - Do not assume electronic hacks cause Stress merely because weapon hits do. Decide which effects count as attacks/hits; operating a door need not become a psychological attack.
 - Full scope: only terminals/infrastructure/deployables, or also carried electronics? No new category of hackable targets authorised.
 
-## 11. Eventual integration checklist — inactive until authorised
+## 11. Scenario terrain and token-based interactions — 2026-09-21
+
+### Ross's design direction
+
+- Board setup is not yet fully designed. A possible setup mechanic has players roll on a table and place tokens identifying interactive terrain.
+- Physical scenery should ideally communicate the function, but players cannot be expected to own functioning lifts, shutters, or other specialised models.
+- Scenarios can suggest terrain or specify key pieces, with players filling out the remainder of the battlefield.
+- Tokens/templates can represent most interactive features, including larger machinery such as cranes without needing a crane model.
+
+### Crane example supplied by Ross — exploratory wording
+
+> Spend an Action while in base contact with the crane token. Move obstacles or scatter terrain within 12 inches of the token. Terrain placed on a unit causes an automatic Injury roll at +5 Damage unless the target succeeds on an AGI test.
+
+This is an example of the desired physical interaction, not a validated damage value or completed placement rule. The example includes both rearranging terrain and damaging units with terrain; do not reject the latter solely because an older infrastructure rule discouraged direct harm.
+
+### Assistant suggestions — not adopted
+
+- Let scenarios guarantee the functional terrain their objectives require; random features add variety around that structure.
+- Guarantee a useful number/distribution of interactions rather than randomising whether hackers have anything relevant to do.
+- A feature token/card can define local access, operation, range/area, targets, state, and any avoidance roll. Scenery remains the physical obstacle where present.
+- Previously suggested local control points and remote hacking without mandatory separate terminals remain proposals, not an adopted replacement of the network rules.
+- For a first crane test, consider one eligible movable piece per Action, with both original and final positions wholly inside the crane's operating radius. Agree eligible pieces at setup; exclude fixed buildings and scenario objectives unless explicitly allowed.
+- Separate movement of cover from the optional damaging placement. Keep Ross's +5 as a trial value, not a balanced recommendation.
+- Define what happens to the target and obstacle after a successful/failed AGI test. Physical bases and scenery must finish in legal, non-overlapping positions; avoid inventing unresolved buried-unit states.
+- Clarify maximum piece size, whether intervening terrain obstructs the lift, protection/Armour, occupied pieces, multiple targets, use limits, and whether dropping terrain counts as the operator's attack. These are design questions, not additional approved mechanics.
+- Remote hacking should operate the same feature effect if permitted; avoid creating separate manual and electronic crane minigames.
+
+## 12. Eventual integration checklist — inactive until authorised
 
 1. Produce a reviewed, internally consistent proposal from the current direction and close relevant open questions.
 2. Reconcile d20 resolution, Stress, Pinned, attack outcomes, skills, and progression together.
