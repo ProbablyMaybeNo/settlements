@@ -484,7 +484,77 @@ This is an example of the desired physical interaction, not a validated damage v
 - Clarify maximum piece size, whether intervening terrain obstructs the lift, protection/Armour, occupied pieces, multiple targets, use limits, and whether dropping terrain counts as the operator's attack. These are design questions, not additional approved mechanics.
 - Remote hacking should operate the same feature effect if permitted; avoid creating separate manual and electronic crane minigames.
 
-## 12. Eventual integration checklist — inactive until authorised
+## 12. Interactive feature candidates — 2026-09-21
+
+### Ross's Bottomless Pit example
+
+- Place a 3-inch circular pit template and a control token anywhere within 6 inches.
+- A unit in base contact with the token spends an Action to open/close the pit doors.
+- Units standing on the pit when opened must pass AGI or fall to their doom.
+- Units pushed or thrown so any part of their base touches the open template must likewise pass AGI or fall to their doom.
+- On success, place the unit anywhere around the template.
+- This is a proposed environmental hazard, not a master-rule amendment. The campaign meaning of "doom" (Out for battle versus campaign death/Fate) is not specified.
+
+### Assistant candidate examples — all provisional
+
+Default suggestion for this candidate set: a control token within 6 inches of its associated template; base-contact Action to operate, unless the feature card states otherwise. Do not treat this as an adopted universal rule or allow it to silently override the crane's own layout.
+
+| Feature | Representation | Candidate operation |
+| --- | --- | --- |
+| Retractable Bridge | Narrow bridge strip across a printed gap/pit | Extend/retract; retraction uses the pit's AGI/escape procedure for occupants. Supports access and isolation rather than requiring moving scenery. |
+| Conveyor Belt | 2 x 8-inch strip with direction arrow | Each operation moves occupants/eligible movable scatter up to 3 inches along the belt, using one common chosen direction. Stops at obstructions; units crossing into hazards resolve their hazard. Deliberately one movement per Action, not an undefined ongoing round effect. |
+| Hydraulic Barricade | 1 x 4-inch strip | Raise/lower a wall: raised blocks ground passage and LOS, lowered is passable. Raising places overlapping units at nearest legal edge without damage. |
+| Ventilation Outlet | Outlet token plus 3-inch smoke circle | Toggle smoke at the outlet. Smoke blocks LOS through it; clear removes this feature's smoke. No unspecified general smoke subsystem required for the sketch. |
+| Floodlights | Lamp/control marker and 6-inch-diameter light circle | Position light centre within 12 inches of lamp and toggle on/off. Units touching lit zone lose/cannot gain Hidden. Light does not allow seeing through solid terrain. |
+| Cargo Lift | Matching 3-inch platform templates on two elevations | Move the platform and its occupants between marked stops. Occupants retain own activation resources; clear landing area required. |
+| Floodgate | 2 x 8-inch channel strip | Flood/drain; flooded ground costs double movement, drained is normal. Does not add drowning unless separately designed. |
+| Security Shutters | Markers for up to three openings on one building | Open/close the marked shutters together, allowing/blocking LOS through them. Avoids affecting unrelated windows. |
+
+These illustrate different tactical jobs, not tested ranges, dimensions, or damage values. Review repeat operation, overlapping templates, reactions, eligible terrain, and normal objective access before finalising.
+
+### Pit review notes — assistant suggestions, not edits to Ross's example
+
+- Successful escape could use the nearest legal edge rather than any edge, avoiding free repositioning around the pit; Ross's original permits anywhere around it.
+- Prefer define "doom" as Out of Action for the battle with ordinary campaign Fate, unless permanent death is explicitly intended.
+- Instant removal plus displacement may dominate surrounding objectives; bound setup placement and test it. No prohibition on environmental kills is being reintroduced.
+- Resolve opening occupancy and later forced-entry triggers once per relevant event, not repeatedly for mere continued template contact; exact trigger wording still pending.
+
+## 13. AGI traversal and stealth review — 2026-09-21
+
+### Traversal discussion
+
+Ross observed that interactive terrain makes AGI and INT more important. Assistant noted that AGI should actively exploit routes as well as avoid hazards; INT controls features and STR can displace enemies into them.
+
+Ross proposed an AGI skill allowing climbing without gear or access points. Assistant drafted **Free Climber**: may climb structures without gear/access point; make AGI test, counting vertical distance against movement; normal failure consequences and no passage through solid surfaces. This is a candidate, not an approved thirteenth AGI skill or a confirmed replacement for one of the twelve. Assistant suggested retaining a test because access itself is valuable.
+
+### Readback of written stealth/ambush
+
+Read master sections 10 and 25, relevant action/skill references, Conditions' stealth subsection and Spotted definition. These remain separate from our workshop skills.
+
+- Hide is listed as an Action. Hidden is gained in Concealing terrain, or via permitted gear/skills.
+- Hidden imposes -3 to be hit, not untargetability. LOS and other attack legality still apply.
+- Moving, shooting, interacting, or being revealed removes Hidden, except explicit exceptions. Quiet weapon and movement skills may create such exceptions.
+- Holding an objective without acting may retain Hidden; claiming/looting/arming/defusing Interacts break it. The broader phrase "claiming/scoring breaks Hidden" is not fully consistent with the surrounding explanation of passive holding; clarify later.
+- Spotted identifies a target for named skills until the relevant expiry; does not itself remove Hidden. Workshop Marked's cover reduction is a different draft mechanic.
+- Master Ambush uses AGI rather than STR/DEX and grants the target a free Attack Back when Ambush fails.
+- Conditions explicitly flags that Ambush has no defined action/skill/gear card specifying trigger and cost. Its complete procedure cannot be reconstructed reliably from those two master statements alone. Do not invent range, timing, or melee/ranged eligibility.
+- Hide-test references exist, but a complete core Hide/Spot procedure was not found in the reviewed sections. Avoid assuming an AGI Hide test or a universal Spot range/cost.
+- Master quotes old simulation findings for Ambush and concealment; Conditions says the referenced packet file is unavailable in the repo. This review does not independently verify those findings or establish their validity for d20 and revised Stress.
+
+Our workshop **Ambush** (+1 first hit/melee from Hidden within 6 inches, subsequently subject to Ross's +2 bonus direction) is a proposed different design, not the master's existing AGI-substitution mechanic. Low Profile and Vanish likewise remain workshop candidates.
+
+### Proposed AGI-exclusive Ambush access
+
+Ross asked whether Ambush attacks should be reserved for an AGI skill and indicated that this felt appropriate. Assistant supports this as a proposed access rule, not a complete adopted attack procedure:
+
+- Ordinary Hide and ordinary attacks remain available without Ambush.
+- Selecting the AGI **Ambush** skill unlocks the special Ambush attack; high AGI alone does not grant it automatically.
+- Other AGI skills must remain useful independently. Concealment/movement skills can support Ambush without requiring it or becoming mandatory prerequisites.
+- An attack made from Hidden without the skill is an ordinary attack and gains no Ambush-specific benefits.
+- Using AGI to resolve the special attack is the recommended starting point and aligns with the written master's concept. This does not settle trigger, cost, range, eligibility, extra payoff, or failed-attempt retaliation.
+- The earlier workshop Ambush accuracy-bonus wording should not be silently combined with AGI substitution; decide the final package explicitly.
+
+## 14. Eventual integration checklist — inactive until authorised
 
 1. Produce a reviewed, internally consistent proposal from the current direction and close relevant open questions.
 2. Reconcile d20 resolution, Stress, Pinned, attack outcomes, skills, and progression together.
