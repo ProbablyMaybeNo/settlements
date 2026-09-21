@@ -34,10 +34,10 @@ tags:
 | Avoid mandatory builds | Signature mechanics should support some skills without making the other choices unattractive. Follow-ups should normally work independently. | Shared design direction; exact implementation untested |
 | Dice | The working system uses d20s. The older master text used in earlier answers still said d10. | Ross corrected; full d20 specification not supplied here |
 | Positive skill bonuses | Increase the drafted +1 bonuses to +2. | Ross directed; not yet applied to the preserved catalogue below |
-| Ordinary attack outcomes | Miss: nothing. Hit and wound: lose 1 Wound. Hit without a wound: 1 Stress and Pinned, for both ranged and melee. | Direction agreed in discussion; multi-die details unresolved |
+| Ordinary attack outcomes | Every successful ranged or melee hit gives 1 Stress, whether or not it wounds, capped at 5 total Stress. | Ross clarified; working direction, not master integration |
 | Suppressed | Remove the separate condition. | Ross directed |
-| Pinned | Stops movement; clear by spending Move, retaining Action. Does not inherently prevent Shoot, Fight, Interact, or React. | Latest assistant wording consistent with discussion; final text pending |
-| Stress | Each point imposes a cumulative -1 on all the unit's rolls. Clearing Pinned leaves Stress. | Ross directed; roll scope and cap interaction need closure |
+| Pinned | A qualifying skill or weapon may Pin on a ranged hit that does not wound. Self or friendly spends an action point to Recover. No additional Stress for Pinning. | Ross clarified; previous friendly range was 3 inches; detailed restrictions pending |
+| Stress | Each point gives -1 to rolls, maximum 5 Stress / -5. The flat Shaken -2 proposal is superseded. | Ross clarified; general modifier-cap interaction and NRV procedure pending |
 | Master integration | Keep everything separate until ideas are fleshed out and reviewed. | Ross explicitly directed |
 
 ## 1. Design intent and category boundaries
@@ -271,7 +271,7 @@ Latest concise Pinned wording proposed:
 - Explicit movement exceptions, such as Scramble, still require review under the new shared melee/ranged application.
 - Skills that formerly applied Suppressed cannot simply retain the retired word. Pin Them Down is particularly affected because ordinary failed Injury now already Pins.
 
-## 7. Cumulative Stress proposal
+## 7. Earlier cumulative Stress proposal — now under reconsideration
 
 The old Shaken explanation was: any Stress gives a flat -1 to rolls; extra points increase morale risk rather than worsening every roll.
 
@@ -301,7 +301,77 @@ The assistant proposed replacing the separate Shaken penalty rather than stackin
 - **Recovery:** Thresholds, passive recovery, Stress retention through Down, and Rally interactions have not been redesigned yet.
 - **Compounding penalties:** Stress on both hit and Injury can make recovery and aggressive Stress-clearing much stronger. Evaluate before costing skills.
 
+## 7a. Superseded proposal: flat Shaken and ranged-only Pinned (2026-09-20)
+
+> Historical proposal. Ross's clarification in section 7b replaces the flat -2 penalty and the not-Down pinning trigger. Do not use this section as current wording.
+
+### Ross's proposal — not yet adopted
+
+- Every successful ranged or melee hit adds 1 Stress, independently of whether it wounds.
+- At 1+ Stress the unit is **Shaken: -2 to all rolls**. This is flat, not an additional penalty per point.
+- At 2+ Stress, take an NRV test and roll on the NRV table if failed. Timing/frequency and table contents were not specified.
+- **Pinned** is separate, ranged-only, normally granted by a skill but potentially inherent to some weapons.
+- Example skill trigger: a successful ranged attack that does not Down its target Pins it. This can include a wounded multi-Wound target that remains standing; confirm whether that is intended.
+- The unit or a friendly within 3 inches may spend an Action to Recover from Pinned. This replaces the earlier proposed Move-slot clearing cost if adopted.
+- Further hits add Stress normally.
+- Ross's example: three Attack Dice, two hits, both fail Injury, attacker has Pin Them Down. Result: Pinned and 2 total Stress (one associated with the pinning hit, one from the additional hit).
+
+### Assistant assessment / proposed clarification
+
+This separates accumulated pressure from movement control and avoids the per-point penalty spiral. Ordinary hits have the same Stress rule in ranged and melee; Pinned is an explicit ranged specialty.
+
+Recommend wording: **each hit adds 1 Stress; applying Pinned adds no additional Stress beyond that hit.** This expresses Ross's example without accidentally giving three Stress for two hits. If a non-hit source can Pin, specify its Stress separately; do not assume an extra universal condition bonus.
+
+Proposed attack-level trigger: after resolving a ranged attack with at least one hit, if the target is not Down or Out, apply Pinned. This avoids unclear per-die ordering and double pinning. Wounds and Stress still follow their normal limits; the existing one-wound-per-attack cap is not changed merely by this proposal.
+
+Recommend one NRV test in the End Phase for units at 2+ Stress, rather than after each hit. This is an assistant suggestion, not a user decision. Apply Shaken once on the test; do not silently retain an additional old Stress subtraction. Decide whether the subsequent NRV outcome-table roll is modified, especially given the phrase "all rolls".
+
+Keep previous Pinned restrictions provisionally (cannot move, may act/react), pending confirmation. An Action to Recover then leaves Move available; this deliberately differs from clearing with Move and retaining an attack. Friendly recovery permits the pinned unit to keep its own slots. Recovery removes Pinned, not Stress, unless Ross chooses otherwise.
+
+### Newly exposed questions
+
+- Exact NRV-test timing, frequency, target number, and outcome table.
+- Does more than 2 Stress affect test/table odds, or only the effort needed to recover below the threshold?
+- Does "all rolls" include Injury and the NRV outcome table? Keep test and outcome-roll penalties distinct until ruled.
+- Does not-Down deliberately include wounded survivors? How are already Down targets handled?
+- Must a recovering helper be unengaged, have LOS, and be otherwise able to act?
+- Are Pinned units allowed to Shoot/Fight/Interact/React as in the previous proposal?
+- How does Stress recovery work, and does Stress persist through Down?
+- Reconcile old surplus-hit Stress and negative-condition Stress rules so each hit is counted once.
+
+## 7b. Current clarification: cumulative Stress capped at 5 (2026-09-20)
+
+### Ross's explicit direction
+
+1. Each successful hit from a ranged or melee attack adds **1 Stress**, whether or not it wounds.
+2. Each Stress point gives **-1 to the unit's rolls**.
+3. Stress is capped at **5**, producing a maximum Stress penalty of **-5**.
+4. Some skills or weapons may apply **Pinned when a ranged hit does not wound**. Ordinary hits do not inherently Pin, and melee does not cause Pinned through this trigger.
+5. A Pinned unit spends **an action point to Recover**. A friendly may also spend an action point to Recover it.
+6. Pinning adds no extra Stress and does not replace the hit's Stress. Two non-wounding hits with a qualifying skill cause **Pinned and 2 Stress**, not 3 Stress.
+
+Concise working wording:
+
+> **Stress:** Each successful ranged or melee hit adds 1 Stress, up to 5. Each Stress gives -1 to the unit's rolls.
+>
+> **Pinned:** A skill or weapon may Pin a target on a ranged hit that fails to wound. The target or a friendly may spend an action point to Recover it. Pinning adds no additional Stress.
+
+### Context retained / points not settled by this clarification
+
+- The previous proposal allowed friendly recovery within **3 inches**. Ross did not revoke or restate that distance; retain it provisionally rather than claiming a newly confirmed range. LOS and helper eligibility remain unspecified.
+- Previous Pinned wording prevented movement while allowing actions/reactions. No new restriction was stated here; confirm exact condition text before integration.
+- Recovery clears Pinned; no Stress removal was newly granted. Stress recovery remains to be designed/confirmed.
+- **Not wounded** replaces **not Down** as the pinning trigger. Do not Pin merely because a wounded multi-Wound target survives.
+- Mixed multi-die results need a ruling: one hit wounds while another fails Injury. Do not silently choose whether that surviving target also becomes Pinned.
+- A -5 Stress penalty must be possible under this direction; the old +/-3 general cap cannot truncate it to -3. How Stress interacts with other modifiers still needs wording.
+- The earlier 2+ Stress NRV-test/table proposal was not restated or explicitly revoked. Keep it pending confirmation, including timing, target, table, and whether Stress modifies the outcome-table roll.
+- No additional flat Shaken penalty should be stacked onto cumulative Stress. Whether Shaken remains a descriptive label is open.
+- The term **action point** is Ross's wording. Do not infer a complete replacement of Move/Action slots with a new AP economy from this alone.
+- Existing surplus-hit and condition Stress must not be added again on top of one Stress per hit. The one-wound-per-attack limit was not changed here.
+
 ## 8. Open decisions and next review
+
+> Section 7b is the current working direction. Earlier flat-penalty, not-Down pinning, and automatic-Pinned proposals are history. Unresolved items below must be assessed against the 5-Stress cap and cumulative -1 penalty.
 
 - [ ] Confirm current d20 target number(s), which rolls use d20, and natural-result rules.
 - [ ] Confirm opposed-test procedure under d20; do not infer it from the old ambiguous wording.
@@ -338,6 +408,9 @@ The assistant proposed replacing the separate Shaken penalty rather than stackin
 9. Ross questioned Pinned versus Suppressed. Stronger Suppressed was explored, then superseded by removing it and making ranged/melee non-wounding hits both cause **Pinned and 1 Stress**.
 10. Ross directed **cumulative -1 per Stress on all rolls**. Cap, roll scope, Break formula, and recovery remain open.
 11. Ross requested this separate running Obsidian document before any master-system changes.
+12. Ross clarified that the document should be viewable beside the conversation. The existing Markdown file was queued to open in the Codex right-hand panel; no ChatGPT Canvas was created.
+13. Ross proposed replacing cumulative penalties with Shaken (-2 at any Stress), an NRV test/table at 2+ Stress, one Stress per successful hit in either combat mode, and ranged-only Pinned from skills/weapons with Action-based self/ally recovery. Historical proposal in section 7a, subsequently clarified.
+14. Ross clarified: each ranged/melee hit gives 1 Stress; each Stress gives -1 to rolls, capped at 5 Stress/-5. Qualifying skills/weapons Pin on ranged hits that fail to wound. Self or friendly spends an action point to Recover. Two failed-Injury hits cause Pinned and 2 Stress. Section 7b is current; master remains untouched.
 
 ### Original supplied candidates — historical reference
 
