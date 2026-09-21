@@ -34,6 +34,7 @@ tags:
 | Avoid mandatory builds | Signature mechanics should support some skills without making the other choices unattractive. Follow-ups should normally work independently. | Shared design direction; exact implementation untested |
 | Dice | The working system uses d20s. The older master text used in earlier answers still said d10. | Ross corrected; full d20 specification not supplied here |
 | Positive skill bonuses | Increase the drafted +1 bonuses to +2. | Ross directed; not yet applied to the preserved catalogue below |
+| Positive modifier cap | Combined positive modifiers cap at +6 on d20, replacing +3. | Ross confirmed; negative cap not specified |
 | Ordinary attack outcomes | Every successful ranged or melee hit gives 1 Stress, whether or not it wounds, capped at 5 total Stress. | Ross clarified; working direction, not master integration |
 | Suppressed | Remove the separate condition. | Ross directed |
 | Pinned | A qualifying skill or weapon may Pin on a ranged hit that does not wound. Self or friendly spends an action point to Recover. No additional Stress for Pinning. | Ross clarified; previous friendly range was 3 inches; detailed restrictions pending |
@@ -553,6 +554,35 @@ Ross asked whether Ambush attacks should be reserved for an AGI skill and indica
 - An attack made from Hidden without the skill is an ordinary attack and gains no Ambush-specific benefits.
 - Using AGI to resolve the special attack is the recommended starting point and aligns with the written master's concept. This does not settle trigger, cost, range, eligibility, extra payoff, or failed-attempt retaliation.
 - The earlier workshop Ambush accuracy-bonus wording should not be silently combined with AGI substitution; decide the final package explicitly.
+
+### Latest Ambush draft from Ross
+
+Ross proposed a Hidden unit starting a successful Charge or Aerial Assault outside the target's LOS (described parenthetically as outside its forward 180-degree arc) may choose Ambush. Pass AGI for +4 hit and +4 Injury in melee; with two one-handed melee weapons, choose one to benefit. On failed AGI, target may spend its Action or Ready token to attack first, then the ambusher attacks normally without bonuses.
+
+Assistant's concise working version, for review:
+
+> **Ambush:** If you begin a Charge or Aerial Assault Hidden and outside the target's forward 180-degree arc, test AGI when you reach it. **Pass:** one melee weapon gains +4 to hit and Injury for this attack. **Fail:** the target may spend its unused Action or Ready token to attack you first; if still able, you then attack normally.
+
+Interpretations to confirm rather than silently adopt:
+
+- The concise version uses Ross's forward-arc parenthesis as the eligibility test. Blocked true LOS from within the forward arc is a different condition and is not automatically included.
+- Hidden is checked at the start, before movement would normally reveal the attacker. Roll after a successful approach reaches the target; a failed Charge/Aerial Assault does not grant an Ambush attack.
+- One weapon benefits for that attack; another one-handed weapon is resolved normally if the base dual-wield rules permit its attack. The skill itself does not grant another attack.
+- This proposal gives an AGI setup test then normal melee resolution with bonuses. It supersedes the previous suggested AGI-for-STR attack substitution as the active draft; do not silently apply both.
+- "Unused Action" clarifies expenditure and avoids creating extra Actions. Whether a target that already activated can retaliate without Ready remains a user decision; the concise proposal says no.
+- Retaliation is optional, costs one stated resource, happens before the ambusher's attack on failure, and can prevent that attack if the ambusher is no longer able to fight. Define interaction with ordinary opposed melee counter-damage before integration to avoid duplicate retaliation.
+- +4 bonuses require revisiting the old +/-3 cap; do not silently truncate or exempt them. On d20 a +4 changes an uncapped threshold roll by 20 percentage points, but opposed melee is not the same calculation. No balance claim has been verified.
+- Aerial Assault and dual-wield baseline rules have not been read or finalised in this review.
+
+### Positive modifier cap confirmed — 2026-09-21
+
+Ross explicitly confirmed changing the old +3 modifier cap to **+6**, matching the d10-to-d20 scale change. This is the current workshop direction; master remains untouched.
+
+- Interpret as the cap on the combined modifier for a roll, not a cap on each individual skill. Base stat values and weapon profiles are not automatically doubled or recapped by this change.
+- Ambush's +4 hit and +4 Injury now fit under the positive cap, each on its own separate roll. Each roll has room for a further net +2 modifier before reaching +6.
+- +3 on d10 and +6 on d20 both represent a 30-percentage-point change in an uncapped flat-threshold test, away from natural-result limits. This is a scale comparison, not proof of balance for opposed tests or full attack sequences.
+- Ross specified **+6**, not explicitly **+/-6**. Keep the negative cap and exact netting procedure pending confirmation; do not silently change them. The confirmed Stress direction still requires penalties up to -5 to function.
+- Earlier cap-related concerns above are historical where they concern the positive +3 limit. Remaining negative-cap/Stress questions still apply.
 
 ## 14. Eventual integration checklist — inactive until authorised
 
