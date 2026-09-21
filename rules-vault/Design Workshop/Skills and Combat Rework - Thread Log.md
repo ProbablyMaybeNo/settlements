@@ -584,6 +584,54 @@ Ross explicitly confirmed changing the old +3 modifier cap to **+6**, matching t
 - Ross specified **+6**, not explicitly **+/-6**. Keep the negative cap and exact netting procedure pending confirmation; do not silently change them. The confirmed Stress direction still requires penalties up to -5 to function.
 - Earlier cap-related concerns above are historical where they concern the positive +3 limit. Remaining negative-cap/Stress questions still apply.
 
+### Simplified Ambush proposal — latest wording, 2026-09-21
+
+Ross removed the rear-arc/LOS gate: a successful Charge begun Hidden may trigger Ambush. Test AGI for +4 hit/+4 Injury. On failure the target may spend an Action to Attack Back; close combat resolves normally except the ambusher fights last without the bonuses.
+
+Concise assistant wording for review:
+
+> **Ambush:** After completing a Charge begun Hidden, test AGI. **Pass:** one melee weapon gains +4 to hit and +4 to injure for this combat. **Fail:** gain no bonuses; the target may spend an unused Action to Attack Back, resolving its attack before yours. Resolve the combat normally otherwise.
+
+- Retains the AGI-skill access direction; ordinary Hidden units do not automatically gain Ambush.
+- Hidden is checked at Charge start, so normal movement removing Hidden does not make the skill impossible.
+- Rear arc and starting out of LOS are no longer required.
+- Read retaliation as changing the order of this combat, not adding a separate preliminary combat followed by another complete exchange. This is the assistant's interpretation of "fights last" and needs compatible core melee wording.
+- If the defender declines or cannot pay, no bonus still applies; there is no free retaliatory attack created by the failed test.
+- "Unused Action" is proposed precision; confirm availability under the eventual action-point economy.
+- Ready expenditure was not included in Ross's latest wording; do not automatically retain the previous Action-or-Ready alternative.
+- Aerial Assault was not restated; whether it qualifies through Charge rules or needs explicit inclusion remains open.
+- One-weapon limit is retained from Ross's earlier explicit dual-wield restriction, not a grant of additional attacks.
+- Current written master melee uses one opposed exchange where the loser suffers Injury. Attacking first/last is not fully defined there. Resolve this as part of the working melee redesign rather than claiming the new sequence already works in that master.
+- Positive +6 modifier cap accommodates +4 bonuses. No numerical balance test performed.
+
+### Ambush success grants Fights First — latest proposal, 2026-09-21
+
+Ross noted that normal melee is head-to-head and proposed: a successful Ambush grants **Fights First with one chosen weapon**; resolve the second weapon normally.
+
+- Retain latest eligibility: skill-holder completes a Charge begun Hidden, then tests AGI.
+- On success, chosen weapon gains Fights First. Existing +4 hit/+4 Injury bonuses remain provisionally because Ross did not remove them; this is not a decision that the whole package is balanced.
+- If another weapon may attack under dual-wield rules, resolve it normally without Ambush bonuses or Fights First. Do not grant a new extra attack or use the chosen weapon a second time merely because it struck first.
+- Previous failed-test proposal remains: no bonuses; defender may spend an unused Action to Attack Back first. Formal Fights First/Attack Back sequencing is still pending.
+- In a single opposed exchange, merely rolling one participant's die first provides no advantage. Fights First needs an actual sequencing exception. Assistant suggests the chosen weapon resolves its hit and Injury before the remaining exchange, allowing removal/incapacitation to prevent a response.
+- Whether that first strike is an unopposed ordinary hit test, and how the defender's normal melee contribution/second-weapon exchange works, remains explicitly unresolved. Do not silently present either as existing master procedure.
+- Resolve the first-strike procedure before judging +4/+4: bypassing an opposed contest and potentially preventing retaliation is an additional benefit beyond those modifiers.
+
+### Unanswered instead of attack-order keywords — active discussion
+
+Ross initially requested official Fights First/Last keywords, then identified that normal head-to-head melee makes attack ordering problematic. Assistant proposed **Unanswered** instead. This is still a proposal; Fights First/Last were not adopted.
+
+Proposed Unanswered resolution: normal opposed melee test; on attacker win, resolve the attack normally; on defender win (including ties), the exchange ends with no Injury or other hit effects on either participant. It protects against the defender's normal winning-exchange damage without guaranteeing a hit.
+
+Ross asked whether the target then attacks again normally or whether Unanswered should be a separate situation. Assistant recommends:
+
+- An Unanswered attack is a **complete, standalone exchange**, not a preliminary roll requiring another exchange to finish it.
+- It grants no automatic return attack. The defender retains any later attacks its own activation, resources, or another explicit rule allow; defending has not spent its Action.
+- Applying Unanswered to an existing attack changes that attack's resolution; it does not also grant another normal attack with the same weapon.
+- Any permitted second-weapon attack is a separate normal exchange unless its own rule says otherwise.
+- Latest Ambush proposal: successful AGI modifies one selected weapon's attack with Unanswered and +4 hit/+4 Injury; another permitted weapon resolves normally. These benefits remain untested.
+- Failed Ambush's optional paid defender attack is an **explicit extra exchange**: defender spends its Action for an Unanswered attack, then the original ambusher attacks normally if still able. The keyword itself does not create that extra attack.
+- Using Unanswered for failed-Ambush retaliation and retaining +4/+4 are assistant draft suggestions, not final user-approved text.
+
 ## 14. Eventual integration checklist — inactive until authorised
 
 1. Produce a reviewed, internally consistent proposal from the current direction and close relevant open questions.
