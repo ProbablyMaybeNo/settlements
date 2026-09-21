@@ -35,6 +35,7 @@ tags:
 | Dice | The working system uses d20s. The older master text used in earlier answers still said d10. | Ross corrected; full d20 specification not supplied here |
 | Positive skill bonuses | Increase the drafted +1 bonuses to +2. | Ross directed; not yet applied to the preserved catalogue below |
 | Positive modifier cap | Combined positive modifiers cap at +6 on d20, replacing +3. | Ross confirmed; negative cap not specified |
+| Hidden and Marked | Hidden gives -4 to be hit and prevents targeting beyond 12 inches. Marked removes Hidden. Check automatic exposure at start/end of the Hidden unit's own activation: enemy within 12 inches with LOS removes Hidden. An enemy moving into LOS during its own activation may shoot within 12 inches at -4 without revealing the target. | Ross clarified activation timing; replaces earlier movement-endpoint wording; master unchanged |
 | Ordinary attack outcomes | Every successful ranged or melee hit gives 1 Stress, whether or not it wounds, capped at 5 total Stress. | Ross clarified; working direction, not master integration |
 | Suppressed | Remove the separate condition. | Ross directed |
 | Pinned | A qualifying skill or weapon may Pin on a ranged hit that does not wound. Self or friendly spends an action point to Recover. No additional Stress for Pinning. | Ross clarified; previous friendly range was 3 inches; detailed restrictions pending |
@@ -631,6 +632,47 @@ Ross asked whether the target then attacks again normally or whether Unanswered 
 - Latest Ambush proposal: successful AGI modifies one selected weapon's attack with Unanswered and +4 hit/+4 Injury; another permitted weapon resolves normally. These benefits remain untested.
 - Failed Ambush's optional paid defender attack is an **explicit extra exchange**: defender spends its Action for an Unanswered attack, then the original ambusher attacks normally if still able. The keyword itself does not create that extra attack.
 - Using Unanswered for failed-Ambush retaliation and retaining +4/+4 are assistant draft suggestions, not final user-approved text.
+
+### Revised Hidden / Marked proposal — latest discussion
+
+Ross proposes:
+
+- Hidden gives **-4 to be hit**.
+- A Hidden unit is **untargetable from beyond 12 inches**. At 12 inches or less, normal targeting requirements apply and attacks suffer the Hidden penalty.
+- DEX skills may **Mark Hidden targets from greater distances**.
+- **Marked removes Hidden**, removing both its penalty and distance-based targeting protection.
+- A Hidden unit may move and retain Hidden if **both its starting and finishing positions are outside LOS of any enemy within 12 inches of those respective positions**.
+
+Assistant concise wording:
+
+> **Hidden:** Attacks against this unit suffer -4 to hit. Enemies beyond 12 inches cannot target it. It may move without losing Hidden if no enemy within 12 inches has LOS to its starting or finishing position. Becoming Marked removes Hidden.
+
+### Interpretations / pending details
+
+- Endpoint requirement is checked against all enemies, not one selected observer. Enemies beyond 12 inches do not prevent retained Hidden under this movement rule.
+- Ross specifies start/end, not the whole route. Visible intermediate ground does not itself remove Hidden under that wording. Reaction checks during the movement still need a timing decision; do not silently require the entire path to be concealed.
+- Long-range Mark skills need an explicit exception allowing selection of Hidden targets beyond 12 inches, otherwise untargetability would prevent using them. Recommend retaining true LOS for Marking unless a particular sensor effect explicitly changes it.
+- Define whether an active Mark also prevents re-entering Hidden, its duration, and whether Hidden can be regained after it expires. Removing Hidden does not by itself settle these questions.
+- Previous Hide acquisition (Action in Concealing terrain) and shooting/Interact reveal rules were not expressly changed here. Clarify them rather than treating the new movement permission as permission to shoot without revealing.
+- Workshop Mark Target's previous cover-reduction effect should be reconciled with now removing Hidden; do not silently stack both or assume which effects remain against non-Hidden targets. Original master Spotted remains distinct until names/mechanics are deliberately consolidated.
+- Review Low Profile, Vanish, Ambush, floodlights, and other concealment/reveal effects under this replacement. Low Profile's old movement permission may be redundant and needs redesign.
+- Negative modifier-cap interaction remains unresolved: intended Hidden penalty is -4 and Stress can reach -5. Confirm combined treatment rather than applying the retired -3 limit.
+- Direct untargetability does not settle incidental blast/hazard exposure, no-LOS weapons, or how attackers measure sight/forward arc. These remain edge cases, not adopted immunities.
+- No master, records, or skill catalogue changes made by this proposal.
+
+### Hidden exposure timing clarification — latest direction
+
+Ross clarified that a nearby enemy gaining LOS during the enemy's activation does **not** automatically remove Hidden. That enemy may shoot the target within 12 inches, taking the Hidden -4 modifier.
+
+Automatic exposure is checked at the **start and end of the Hidden unit's own activation**, not whenever another unit sees it, and not at the end of every movement segment. If an enemy within 12 inches has LOS at either activation checkpoint, remove Hidden. An enemy's proximity alone is insufficient without LOS.
+
+- This supersedes the previous movement-start/end wording and the assistant suggestion to reveal before a movement-triggered reaction just because movement ended exposed.
+- A revealed unit does not automatically regain Hidden by moving out of sight; it needs an eligible Hide action/effect.
+- If the unit is exposed at activation start, remove Hidden before checking a Charge-begun-Hidden Ambush trigger. This follows the proposed timing; no exception has been granted.
+- Hidden still prevents targeting beyond 12 inches; at 12 inches or less, a legal ranged attack can target it at -4 while it remains Hidden.
+- Marked remains an explicit reveal effect. Existing shooting/Interact reveal rules have not expressly been removed by this clarification.
+- Decide how the activation-end exposure check is ordered against a reaction to the final Move/Action. Do not silently import the discarded immediate movement-end reveal rule.
+- The assistant's proposed Mark duration and ban on re-Hiding while Marked remain unconfirmed.
 
 ## 14. Eventual integration checklist — inactive until authorised
 
