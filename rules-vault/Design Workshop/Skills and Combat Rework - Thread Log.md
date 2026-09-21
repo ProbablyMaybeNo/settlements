@@ -2,7 +2,7 @@
 type: working-discussion
 status: exploratory-not-adopted
 created: 2026-09-20
-updated: 2026-09-20
+updated: 2026-09-21
 tags:
   - settlements/workshop
   - settlements/skills
@@ -418,7 +418,46 @@ Concise working wording:
 - **DEX:** Marked, Dead Shot, Quick Shot, Gunslinger, Run N' Gun, Sniper, Calm Under Fire, Pray and Spray, an unnamed +1 ranged Injury skill, I See You, Crossfire, Eagle Eye.
 - Original high-impact concepts included extra Wounds, automatic takedowns of Grappled targets, redirecting attacks into held enemies, compulsory attacks, and extra shots. None should be treated as adopted merely because later discussion permitted combat skills.
 
-## 10. Eventual integration checklist — inactive until authorised
+## 10. Hacking review — 2026-09-21
+
+**Request:** Ross asked for a reading of hacking in the master and design feedback. This section records analysis, not an adopted hacking redesign.
+
+**Reading coverage:** master sections 12, 12.5, 12.6, hacking skill entries, hacking gear and loadout entries; the complete dedicated `Rules System/Hacking.md` note. Master references to activation, terrain interaction, and device states were also inspected. No simulation was run or independently verified.
+
+### Written system
+
+- Master: declare terminal and Linked feature, roll INT minus range against the written threshold, maximum 24 inches. Another terminal can Interrupt and Overload itself until next turn. No separate hacker-duel subsystem in v1.
+- Dedicated Hacking note supplies details absent from the short master summary: base-contact terminal access, Action cost, one function per hack, scenario-defined Linked connections, range measured terminal to feature, and one access per unit per terminal per turn.
+- Range bands: 0 through 6 inches, -1 through 12, -2 through 18, -3 through 24. Range alone never creates a Link.
+- Interrupt is declared before access is rolled, needs an enemy at another live terminal on the network, ignores LOS/facing, and needs no Ready. In the dedicated note it has **no separate test**: a successful access is automatically cancelled and the interrupt terminal Overloads. Failed access does not spend the interrupt/Overload the terminal.
+- Master summary says "Pass" without identifying the roll; the dedicated note clarifies the intended automatic interrupt procedure. Do not present the detail as if the master specifies it fully.
+- Manual infrastructure operation requires contact and a DEX test (STR for heavy mechanisms) and cannot be Interrupted. Ready can allow operation as a reaction.
+- Effects include doors, bridges, lights, shutters, vents, power, cameras, traps and turret functions. Damaging hacks count as the unit's attack; no extra personal attack.
+- Turrets are deployables; hacking can deactivate/hijack/fire them under the dedicated description. Infrastructure otherwise focuses on board changes, with printed FALL/CRUSH hazards where appropriate.
+
+### Assessment — assistant recommendations, not decisions
+
+The strongest identity is environmental and device control. This enables meaningful combinations with concealment, movement, displacement, and fire lanes without creating a separate damage minigame. Manual operation as an uninterruptible alternative gives a useful positioning tradeoff.
+
+The main concern is automatic Interrupt: one equipped defender at a live terminal can cancel a lone hacker's successful attempt regardless of the hacker's INT. More access bonuses cannot overcome a guaranteed veto. Multiple hackers can exhaust interrupt terminals, so the system rewards available bodies and access attempts more than specialist quality in this situation. Exact impact still depends on network layout and timing.
+
+Hacker value also depends heavily on scenario terrain. Every relevant board needs useful, accessible Linked features, not just decorative terminals or ubiquitous uncontested toggles. Printed connections and functions are preferable to on-the-fly arguments about what can be hacked.
+
+Suggested direction for discussion: retain one Action/one INT test/one printed device function; make network connections legible; define temporary override versus lasting control; reconsider automatic Interrupt through a paid/limited counterplay mechanic (for example a reaction-based opposed INT test), without introducing Program/Firewall tracks. Opposed defence would be an optional extra resolution only when contested; it is not yet adopted.
+
+### Inconsistencies and questions to resolve
+
+- Master hacking still uses d10/7+. Hacking note's introduction says d20/7+, but its step-by-step rules still say d10 and natural 10. This does not establish that the d20 target and natural-roll rules are settled.
+- Dedicated note says terminals may be reusable access points or a one-shot Interrupt, "never both," but does not clearly explain whether accessing then Interrupting is forbidden mechanically. Define timing and when Overload ends (round versus unit activation/turn).
+- Master lists Interruption among reaction options; dedicated note removes Ready cost. Clarify whether it still consumes the normal reaction allowance and how multiple interrupters resolve.
+- Printed turrets may fire automatically once per round; does a hacked shot consume that existing allowance? Clarify rather than create extra attacks accidentally.
+- Define who can hack without a skill. Core access and bare-handed gear imply broad availability; old skill text says Hacker grants basic terminal access.
+- Hacking gear prices disagree inside the master (20/40 in hacking gear; 40/80 in loadout). Resolve later during integration; no price edits made.
+- Old Counter-Hack skill removing Overload needs review: it removes the main cost from an automatic veto even if a reaction limit remains.
+- Do not assume electronic hacks cause Stress merely because weapon hits do. Decide which effects count as attacks/hits; operating a door need not become a psychological attack.
+- Full scope: only terminals/infrastructure/deployables, or also carried electronics? No new category of hackable targets authorised.
+
+## 11. Eventual integration checklist — inactive until authorised
 
 1. Produce a reviewed, internally consistent proposal from the current direction and close relevant open questions.
 2. Reconcile d20 resolution, Stress, Pinned, attack outcomes, skills, and progression together.

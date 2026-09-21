@@ -34,7 +34,7 @@ The Rules column nails down:
 - How turrets, cameras, doors, and alarms plug in without a second dice mechanic.
 
 ## Inherits from the engine
-> [!info] Recall — a hack is **one core test**: `1d10 + INT − range` vs **7+**, the same engine as everything else. Range is a **modifier**, not a new target number. Device states (**Jammed**, **Linked**, **Overloaded**, **Compromised**) live in [[Conditions#Marker & device states (not conditions on units)]].
+> [!info] Recall — a hack is **one core test**: `1d20 + INT − range` vs **7+**, the same engine as everything else. Range is a **modifier**, not a new target number. Device states (**Jammed**, **Linked**, **Overloaded**, **Compromised**) live in [[Conditions#Marker & device states (not conditions on units)]].
 
 ![[core-000 Core Test#Text]]
 
