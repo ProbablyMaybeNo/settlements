@@ -725,7 +725,74 @@ Assistant recommendation: use these as overlapping **tactical contribution tags*
 
 This is an assistant proposal for organising the concept pass; no archetype slate or skill rewrite is approved by this discussion alone.
 
-## 15. Eventual integration checklist — inactive until authorised
+## 15. Ross's revised STR archetypes — concept selection stage
+
+Ross supplied a new, deliberately strong and thematic STR outline: **Grappler, Tank, Charger, Berserker**, three skills each, plus three flex skills. This supersedes the earlier Bruiser grouping as the latest proposed STR roster. Skill concepts are under discussion; no official wording, action-economy reconciliation, or balance approval yet.
+
+### Grappler
+
+1. **Grapple:** Opposed STR against an enemy within 1 inch; success makes it Grappled. Ross wants substantial standalone value, rather than a humorous but inferior alternative to attacking.
+   - Held target cannot activate/react normally; at activation start gets an opposed STR escape test. Pass escapes; fail stays held.
+   - Grappler moves at half speed.
+   - Proposed built-in **Crush**: an Action to make opposed STR with +4 for the grappler. Ross also floated a free end-of-activation Crush; choice and actual successful result remain unresolved.
+   - Proposed built-in **Meat Shield** protects holder and allies within 2 inches against incoming shooting. Shooter rolls an unmodified d20 versus 10+ (called Luck); success hits intended target, failure hits captive. Exact targeting/attack-roll order is not settled. No permanent Luck stat was proposed.
+2. **Strong Arm:** With a held target, move full distance, Interact, and attack using one-handed melee/ranged weapons. No Charge, Dash, Climb, or two-handed equipment. Ross explicitly intends an interaction with a skill treating two-handed melee weapons as one-handed. **Subsequent addition:** also ignore the Heavy weapon keyword (normally halves movement), allowing normal movement with heavy two-handed guns or melee weapons even without Grapple. Ignoring Heavy does not itself waive the held-target two-handed restriction.
+3. **Throw:** In base contact, throw scatter/obstacle terrain no bigger than 3 inches a distance equal to STR. Terrain hitting a unit Pins it. Also throw a Grappled target. A thrown target striking a structure suffers an Injury roll at +3 Damage; thrown units colliding with another unit Pin both. Further movement/fall details not settled here.
+
+### Tank — defensive
+
+4. **Brace:** Spend an Action to Brace. Cannot move, act, or react; incoming attacks suffer -4 hit until end of turn.
+5. **Come on then:** Pass STR to require enemies within 6 inches to target this unit with their Attack actions.
+6. **Tough as nails:** Once per round, if attacked in melee but not wounded, ignore the hit's effects. Subsequent attacks from any enemy suffer -4 Injury against this unit until end of turn.
+
+### Charger — movement/offence
+
+7. **Rampage:** Down an enemy with a Charge attack, then continue the remaining charge distance in any direction. Reaching within 1 inch of another enemy grants a free melee attack.
+8. **Bull:** On declaring Charge, pass STR to move through non-LOS-blocking scatter, obstacles, and barricades. Enemies contacted during charge test AGI; failure pushes them 2 inches in charger-chosen direction and Pins them. Does not cross reinforced doors, buildings, or LOS-blocking structures.
+9. **Human Bullet:** Charge distance becomes movement plus the sum of 2d6 instead of 1d6. This proposes/assumes a charge procedure different from the older master; record without silently importing it into live core rules or rejecting the concept during this stage.
+
+### Berserker — offensive
+
+10. **Rage:** When attacking in melee, choose up to +3 Injury Damage and gain 1 Stress for each point added.
+11. **I'm about to break:** Once per turn when charged, turn Stress penalties into positive modifiers for that combat. After combat gain 1 Stress and immediately take a Break test regardless of outcome. Ignore beneficial Stress modifiers from friendly units/skills/equipment for this test. Exact coverage of modifiers is for later wording.
+12. **Blowing off steam:** Downing an enemy removes 2 Stress. Ross's current wording does not limit this to melee.
+
+### Flex
+
+13. **Goliath:** Dual-wield two-handed melee weapons as if one-handed.
+14. **Tough:** +1 Wound.
+15. **Big Fella:** Ignore Unwieldy on weapons.
+
+### Concept-level assistant assessment — not additional rules
+
+- This is a coherent four-archetype roster with explicit identity and potential mixed builds. Recommend retaining all fifteen concepts for this stage rather than cutting them based on unfinished numbers.
+- Grappler controls one enemy; Tank influences enemy target choices/attention; Charger exploits routes and momentum; Berserker manages aggression and Stress. Those distinctions prevent all four from becoming simply stronger melee attackers.
+- Grapple needs **situational superiority** to attacking (capturing position, denying an important unit, protecting a group), not universal superiority. Bundling denial, damage, protection and free damage risks letting one skill perform most jobs without needing a tactical choice.
+- Recommend keep Crush as an optional use of the held target rather than automatic free damage for now. This preserves the choice to hold, drag, shield, or hurt without deciding numeric costs yet.
+- Preserve the Tank's offensive sacrifice while Braced; it differentiates a protector from the Berserker. Confirm compatible skill timing during the later mechanics pass, not as a concept blocker now.
+- Charger sequence has clear complementary jobs: reach, path disruption, and continuation. Strong concept cohesion without needing a prescribed build for players.
+- Berserker has a real resource loop: create Stress for offence, exploit it defensively when charged, release it by downing enemies. Recommend STR retain personal physical aggression while NRV retains wider resolve/leadership roles, without banning cross-stat combinations.
+- Goliath and Big Fella now have different names/functions from earlier snapshots; use this latest naming in future discussion. Flex skills broaden equipment/endurance without belonging to mandatory packages.
+- Leave d6 charge distance, Luck naming, damage caps, action availability, attack chains, Down/Out, and allocation of Stress modifiers for the scheduled mechanics phase. Their presence here is not silent confirmation of a complete core-rules change.
+
+### STR standalone-use check and Strong Arm addition
+
+Ross added ignoring **Heavy** to Strong Arm to make it valuable outside grappling, and asked whether any other STR skills require another archetype skill.
+
+Assistant assessment at concept level:
+
+- All fifteen proposed STR skills have standalone use, assuming their referenced core actions/keywords are available. None presently requires selecting another skill.
+- Meat Shield and Crush are built into Grapple, so no separate dead-end follow-up purchase is required.
+- Strong Arm supports heavy-weapon users without Grapple. Its grappling permissions remain additional benefits, not prerequisites for ignoring Heavy.
+- Throw works on eligible scatter/obstacle terrain without Grapple; throwing a held enemy is its additional use.
+- Brace, Come on then, and Tough as nails individually provide protection, target influence, and endurance. Synergy does not mean dependency.
+- Rampage, Bull, and Human Bullet all work with normal Charge; no other Charger skill is required.
+- Rage generates its own Stress; I'm about to break can use Stress gained from ordinary enemy hits; Blowing off steam removes Stress after ordinary takedowns. No prerequisite Rage purchase is needed.
+- Goliath, Tough, and Big Fella rely on loadout or baseline durability rather than another skill. Equipment specificity is different from a skill prerequisite.
+- Strong Arm, Goliath, and Big Fella can all support a heavy-weapon character. Keep each identity distinct: carrying/movement, wielding/hand requirements, and Unwieldy handling respectively. Whether all become practically compulsory together is a later build-review question, not a reason to rewrite their concepts now.
+- This does not resolve which unit types may access skills, Heavy/Unwieldy pricing, core Charge rules, or detailed action economy.
+
+## 16. Eventual integration checklist — inactive until authorised
 
 1. Produce a reviewed, internally consistent proposal from the current direction and close relevant open questions.
 2. Reconcile d20 resolution, Stress, Pinned, attack outcomes, skills, and progression together.
