@@ -2,7 +2,7 @@
 type: working-discussion
 status: exploratory-not-adopted
 created: 2026-09-20
-updated: 2026-09-21
+updated: 2026-09-22
 tags:
   - settlements/workshop
   - settlements/skills
@@ -20,14 +20,14 @@ tags:
 - Distinguish **Ross's direction**, **assistant proposal**, **unresolved**, and **superseded**. Do not turn an assistant suggestion into an adopted rule through repetition.
 - Preserve prior wording when a substantial change needs comparison. Keep the current direction prominent.
 - Keep skill effects concise; put shared rules and edge cases outside the effect text where possible.
-- This is a structured discussion record, not a verbatim transcript. Earlier abandoned catalogues are summarised; the latest complete 60-skill draft is preserved below.
+- This is a structured discussion record, not a verbatim transcript. The earlier 60-skill draft is preserved below. Ross's newer 75-skill Sheet is captured separately in [[Skills Table Snapshot - 2026-09-22]], with review in [[75 Skills - Archetype and Combo Review]].
 - Maintain this note as this task continues. No background automation or automatic capture has been configured.
 
 ## Current direction at a glance
 
 | Topic | Current workshop direction | Status |
 | --- | --- | --- |
-| Skill count | 12 skills per stat, 60 total, all in one tier; replacing the proposed 30 per stat across three tiers. | Ross confirmed |
+| Skill count | 15 skills per stat, 75 total, all in one tier. Latest first-pass Sheet reviewed 2026-09-22. | Ross increased count; supersedes 12 per stat |
 | Skill purpose | Define tactical approaches and unit archetypes. Combat and defensive benefits are allowed. Avoid universally useful numerical upgrades with no interesting decision. | Ross directed |
 | Combinations | Support combinations within a stat and across stats. Players should discover interactions rather than receive mandatory build recipes. | Ross directed |
 | Signature themes | STR Grapple; DEX Spotted/Marked; INT Hacking; AGI Ambush; NRV local buffs/debuffs rather than one signature state. | Ross proposed; structure still exploratory |
@@ -686,7 +686,31 @@ Ross clarified: an enemy can legally target a Hidden unit within the permitted r
 - For simultaneous Attack Dice, assistant recommends applying Hidden's -4 to every die in that attack, then removing Hidden if any hit. Subsequent attacks would use the target's revealed state. This timing is a proposal pending confirmation, not a new per-die recalculation rule.
 - Does not imply that a unit already carrying Stress is permanently barred from Hiding; whether Stress restricts taking Hide remains unspecified.
 
-## 14. Eventual integration checklist — inactive until authorised
+## 14. Review of Ross's 75-skill first pass — 2026-09-22
+
+Ross supplied [SETTLEMENTSCATALOGUES / Skills](https://docs.google.com/spreadsheets/d/1l7hMrpLqTqCJfIHnmESnVUWRgYR9NCoj5tbjcnTiU6I/edit#gid=964457579) and requested an archetype/combo review before further refinement. Desired STR identities: Tank, Charger, Grappler, DPS, plus flex choices such as Wounds and weapon handling. Wants similarly deliberate groups in the other stats, removing weak fits and adding supporting choices.
+
+- Read all 75 skill rows (2–76), 15 per stat, plus bounded supporting Conditions, Weapon Characteristics, Weapon Drawbacks, and Reactions ranges.
+- Source Sheet left unchanged. Preserved values in [[Skills Table Snapshot - 2026-09-22]].
+- Proposed primary grouping for every current skill, combo examples, conflicts, merges and missing support in [[75 Skills - Archetype and Combo Review]].
+- STR is the clearest grouping; DEX overwatch is coherent; INT is overconcentrated in hacking while Medic has one skill; AGI has strong mobility/stealth identity but overlapping extra attacks; NRV has promising leadership, terror, and Stress-management builds.
+- Important undefined/conflicting mechanics: attack/reaction budgets, down versus Out triggers, Unwieldy/Fights Last under opposed melee, Grapple holder versus target restrictions, cumulative Stress versus Shaken text, Marked removing Hidden versus old Notes, aura limits, and model-count objective control.
+- Carryover Notes and Type cells frequently contradict updated Effects; flagged as review issues, not automatically applied as intended restrictions.
+- Review is qualitative design analysis, not tested balance. All groupings and new-role suggestions remain proposals for Ross's review.
+
+### Review priority correction — archetypes and concepts first
+
+Ross explicitly directed that exact wording, action economy, mechanical finesse, and detailed balance be deferred. Current work is to decide **which archetypes each stat supports and which skill concepts belong to them**. Only after that selection should the group work through wording and mechanics.
+
+- The previous review's mechanical issues are parked, not current blockers or grounds for rejecting otherwise useful concepts.
+- Evaluate whether each archetype offers a distinct player intention and whether the selected skills create useful thematic/tactical connections.
+- Differentiate concepts before deciding costs, distances, tests, caps, timing, or numeric balance.
+- Allow overlapping skill membership and shared flex. Designer groupings are not mandatory player paths.
+- Do not edit the source Sheet or treat the assistant's grouping as approved without the user's selection.
+- Proposed discussion slate: STR Tank/Charger/Grappler/Bruiser; DEX Marksman/Mobile Shooter/Overwatch/Gunner; INT Controller/Saboteur/Engineer/Medic; AGI Ambusher/Duelist/Acrobat/Skirmisher; NRV Commander/Rallying Leader/Terror Leader/Fanatic. These are proposals, not decisions.
+- Next pass should map existing concepts to these roles, identify genuine gaps, and propose concepts for missing support. Do not resume detailed action-economy critique during this phase.
+
+## 15. Eventual integration checklist — inactive until authorised
 
 1. Produce a reviewed, internally consistent proposal from the current direction and close relevant open questions.
 2. Reconcile d20 resolution, Stress, Pinned, attack outcomes, skills, and progression together.
