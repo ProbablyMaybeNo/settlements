@@ -710,6 +710,21 @@ Ross explicitly directed that exact wording, action economy, mechanical finesse,
 - Proposed discussion slate: STR Tank/Charger/Grappler/Bruiser; DEX Marksman/Mobile Shooter/Overwatch/Gunner; INT Controller/Saboteur/Engineer/Medic; AGI Ambusher/Duelist/Acrobat/Skirmisher; NRV Commander/Rallying Leader/Terror Leader/Fanatic. These are proposals, not decisions.
 - Next pass should map existing concepts to these roles, identify genuine gaps, and propose concepts for missing support. Do not resume detailed action-economy critique during this phase.
 
+### Shared archetype outline — discussion
+
+Ross asked whether each stat should roughly cover offence, defence, control, and movement, while avoiding forced symmetry (for example forcing direct DPS into INT).
+
+Assistant recommendation: use these as overlapping **tactical contribution tags**, not compulsory archetypes or equal skill allocations. Archetypes remain thematic player identities (Grappler, Medic, Marksman); tags indicate what each contributes. A Grappler can be control/offence, a Medic support/defence, and a Controller control/access.
+
+- Each stat needs multiple distinct, useful approaches, an active way to influence play, and value beyond simply increasing attack output.
+- Offensive contribution can be enabling attacks, exposing targets, or manipulating hazards; it need not mean personal damage.
+- Defence can be recovery, denial, positioning, or endurance; it need not mean a tank.
+- Movement contribution can affect routes or allies rather than increase the unit's movement.
+- Strong specialisation and gaps are acceptable. Do not force identical role coverage, counts, or effectiveness across stats.
+- Use the outline to identify a whole list that only attacks or only reacts, then add a concept only if it fits the stat's identity and intended archetypes.
+
+This is an assistant proposal for organising the concept pass; no archetype slate or skill rewrite is approved by this discussion alone.
+
 ## 15. Eventual integration checklist — inactive until authorised
 
 1. Produce a reviewed, internally consistent proposal from the current direction and close relevant open questions.
