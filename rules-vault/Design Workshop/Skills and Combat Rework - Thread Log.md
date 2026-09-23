@@ -921,7 +921,81 @@ Assistant interpretations suggested for later wording, not additional user rulin
 - Scope of action cost, meaning of maximum Move, failure to reach a legal shot, and On Me activation eligibility remain for the later mechanics phase.
 - Breach remains usable alone as a close-range entry tool; Spray and Pray remains usable with ordinary shooting; On Me remains useful for other coordinated unit roles. Exact bonus-die chains and balance are untested.
 
-## 17. Eventual integration checklist — inactive until authorised
+### DEX completion and shared dual-wielding decision
+
+Ross considers DEX's concept pass complete. Latest Gunslinger trio supersedes the earlier versions above:
+
+| Skill | Type | Working effect |
+| --- | --- | --- |
+| Gunslinger | Passive | When dual wielding 1 HANDED RANGED weapons, the off-hand contributes its full attack dice to the combined SHOOT action. |
+| Bullet Time | Action modifier | Once per turn, when resolving a SHOOT action, divide its combined attack dice between the initial target and additional enemies within 6 inches of it. Each target requires LOS and range from the weapon contributing that die. No additional action cost. |
+| Run + Gun | Passive | Resolve a SHOOT action at any point during a normal MOVE, then complete the remaining movement. Grants neither extra movement nor a free attack. |
+
+**Shared dual wielding:** No skill is required to attack with two eligible one-handed weapons. Choose a dominant weapon before rolling: it contributes normal attack dice, while the off-hand contributes one die without an accuracy penalty. Each die retains its weapon's damage, traits, and applicable range. Combined shooting is one attack and one SHOOT action, not two skill triggers; ordinary targeting is one enemy unless a rule permits splitting. Exact opposed-melee resolution remains to be settled. Gunslinger overrides the ranged off-hand die limit. AGI Ambidextrous supplies a narrower melee exception, below.
+
+Other DEX groups remain Marksman (Mark Target / Head Shot / Steady Breathing), Breacher (Breach / Spray and Pray / On Me), Watcher (Watch Out! / Cover Me / Eyes Peeled). The full-list draft offered Planning Ahead / Speed Loader / Pin Them Down as flex; Ross subsequently called DEX done without individual further changes to those candidates. Preserve that completion context without inventing additional detailed rulings.
+
+## 17. AGILITY — selected fifteen-skill concept draft
+
+Status: Ross supplied four archetypes, accepted the conceptual revisions below, then selected Sprinter as the third flex skill and asked to record the result. Working draft only; exact timing, limits and balance remain for a later pass. These changes do not update the master rules.
+
+### Stalker — offensive movement and stealth
+
+| Skill | Working effect |
+| --- | --- |
+| Ambush | After a successful CHARGE begun HIDDEN, test AGI. Pass: one melee weapon makes an UNANSWERED attack with +4 to hit and +4 to injure; a defender win causes no damage. The second weapon attacks normally. Fail: no bonuses; the target may spend an unused Action to make an UNANSWERED attack first, followed by this unit's normal attack if still able. |
+| Return to the Shadows | Once per turn after resolving CLOSE COMBAT, move up to 6 inches without disengage attacks. End behind or in heavy cover and outside LOS of READY enemies. Become HIDDEN if the destination also meets the normal hiding requirements. |
+| Incapacitate | Once per turn, make a 6-inch RANGED ATTACK using AGI and one attack die. A hit causes STUNNED instead of an injury roll. |
+
+**STUNNED — proposed condition:** The unit loses its action points and cannot Ready or react until the start of its next activation. The exact relationship to action-point refresh at that activation remains unresolved; do not silently treat it as losing the entire next activation. Add to the official Conditions section only when integration is authorised. Ordinary hit/Stress interaction also needs wording later.
+
+### Ghost — ranged offence and stealth
+
+| Skill | Working effect |
+| --- | --- |
+| Ghost | Once per turn, resolve a ranged action without losing HIDDEN from firing. Other normal reveal triggers still apply. |
+| Phantom Shot | When shooting while HIDDEN, hits that fail to wound inflict additional Stress. |
+| Show Yourself | Enemies can only target this unit within 6 inches while it is HIDDEN, instead of 12 inches. |
+
+Phantom Shot's accepted direction replaces the original simultaneous +2 hit / +2 injury / +2 Stress package with extra Stress on non-wounding hits. The original Stress amount was +2, but the accepted replacement wording did not specify the amount or settle per-hit accounting; confirm during the mechanics pass.
+
+### Duelist — melee offence and movement
+
+| Skill | Working effect |
+| --- | --- |
+| Ambidextrous | When dual wielding two 1 HANDED melee weapons that BOTH have AGILE, the off-hand contributes its full attack dice instead of one. |
+| Blade Fury | Once per turn, after downing an enemy in melee, make a free MOVE and ATTACK against another enemy within 6 inches. If that enemy is downed, repeat once more against an enemy within 3 inches. |
+| Parry | When an enemy fails to hit this unit in melee, it may make an UNANSWERED melee counterattack against that enemy. This can trigger Blade Fury. |
+
+Parry's failed-hit trigger replaces the original survives-a-melee-attack trigger. Normal opposed damage, repeated triggers, and counterattack loops still need an explicit resolution rule; none is assumed here.
+
+**Weapon gate:** Ross clarified that AGI-based melee belongs to the weapon characteristic, called AGILE in this draft. Earlier live weapon text used BALANCED for AGI substitution; reconcile the name later. The universal STR-or-AGI melee suggestion was withdrawn. Remove the redundant Agile skill. Ambidextrous replaces it in the archetype, not in flex. It does not unlock full attacks for two sledgehammers merely because Goliath makes them count as one-handed; both weapons must independently have AGILE. Footwork was an alternative suggestion, not selected.
+
+### Traceur — movement and elevation
+
+| Skill | Working effect |
+| --- | --- |
+| Acrobatic | Climb scalable structures without climbing gear or access points. Climbing costs movement equal to half the structure's height. |
+| Dodge | When targeted by an enemy CHARGE or MELEE ATTACK, test AGI. On success, move 3 inches. Resolve the enemy's charge, but omit its melee attack if this unit is outside engagement range. |
+| Aerial Assault | From a structure at least 3 inches high, select an enemy within charge range. Roll to charge, then test AGI on success. If both succeed, move into engagement and make an UNANSWERED attack, gaining +1 to hit and injure per 2 inches of starting elevation above ground, up to +4/+4. |
+
+Aerial Assault's failed-test consequences and interaction with Ambush remain for later. The suggested direction is that overlapping UNANSWERED effects do not create extra attacks; do not assume a new attack chain from duplicated keywords.
+
+### Flex — selected
+
+| Skill | Working effect |
+| --- | --- |
+| Quick | Passive: +2 MOVE. |
+| Sneak | Ignore the movement penalty while HIDDEN. |
+| Sprinter | DASH using only the MOVE action instead of spending both actions. |
+
+Sprinter preserves the other action; it does not grant an additional action. Run + Gun refers to a normal MOVE, so Sprinter does not automatically permit shooting midway through a DASH. Escape Artist and Sure Footed were rejected/not selected as too situational or unnecessary alternatives. The earlier placement of Ambidextrous in flex is superseded by its conditional Duelist version.
+
+### Next discussion: INTELLIGENCE
+
+DEX and AGI concept passes are complete enough to move on. INT archetypes and skills are next; none has yet been selected in this pass. Continue prioritising playstyles, broadly usable skills and cross-stat combinations before exact action economy. Keep hacking and interactive terrain relevant without making INT useful only on boards with bespoke devices.
+
+## 18. Eventual integration checklist — inactive until authorised
 
 1. Produce a reviewed, internally consistent proposal from the current direction and close relevant open questions.
 2. Reconcile d20 resolution, Stress, Pinned, attack outcomes, skills, and progression together.
