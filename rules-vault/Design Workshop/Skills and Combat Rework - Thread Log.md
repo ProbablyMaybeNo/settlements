@@ -866,6 +866,41 @@ Assistant concept recommendations, not yet selected skills:
 - Planning Ahead is a proposed flex candidate; Speed Loader may also serve flex. No final fifteen-slot allocation made.
 - Defensive Breacher skill should complement its offensive occupation role, while STR Tank Brace can retain its more complete sacrifice of activity. No exact action costs, bonuses, durations, or guaranteed denial of return fire specified at this concept stage.
 
+### Breacher revised to explosive assault and immediate follow-up
+
+Ross replaced the earlier weapon-switching/reload package and explored moving away from the defensive-tank concept. Latest Breacher skills:
+
+1. **Spray and Pray:** Once per turn, when making a ranged attack against an initial target within 12 inches, distribute Attack Dice among different enemies within 8 inches of the initial target and LOS. Resolve per target; each Downed enemy adds an Attack Die to allocate to remaining targets.
+2. **On me:** Nominate a friendly within 6 inches and LOS. Immediately after the user's activation ends, activate that friendly.
+3. **Pump and Dump:** At activation start, add +2 Attack Dice to the next ranged attack. After that attack, the weapon must Reload before firing again.
+
+Ross describes the resulting identity as committing to enough damage to clear the threat, with danger if enemies survive. These are conceptual selections/proposals, not mechanically validated final rules.
+
+Assistant assessment:
+
+- Clear pattern: prepare a heavy opening volley, distribute it through a group, immediately bring a teammate into the opening. The three skills provide ammunition volume, distribution/momentum, and crew follow-up.
+- The updated identity is **assault/room-clearing leader**, rather than a shooter protected by a defensive buff. On me adds valuable teamwork and need not make the build pure personal damage.
+- On me can let an ally occupy the cleared objective, cover the exhausted shooter, or continue the assault. This is meaningful cross-unit synergy, not an assurance of safety if the volley fails.
+- All three have uses outside Breacher: burst on another gunner, spread fire on dual pistols, coordinate a marksman/spotter or escort pair. No prerequisite dependency introduced.
+- Gunslinger retains movement/escape; Breacher commits to concentrated offensive momentum; Watcher supplies reactive support. Maintain this distinction while evaluating concepts.
+- Current Gunslinger **Bullet Time** also splits Attack Dice. Now that Spray and Pray owns multi-target offensive momentum, consider replacing Bullet Time with a movement/cover concept, or differentiate them substantially. Do not remove it without choosing the replacement.
+- **Pump and Dump** is now extra dice within one attack, not the prior conditional second Shoot. Preserve latest identity and name, rather than silently stacking both versions. Planning Ahead/Speed Loader remain potential flex concepts.
+- Deferred wording questions: whether On me advances an unactivated ally's ordinary activation or grants a second activation; repeated bonus-die triggers/target order; per-target weapon legality; Heavy/Reload interactions; attack-dice wound and Stress accounting. No action-economy critique is a blocker at concept-selection stage.
+
+### Breacher identity reconsidered — entry, clearing, and securing
+
+Ross questioned whether the latest burst/split-fire/activation trio truly captures a Breacher and invited a better conceptual fit.
+
+Assistant assessment: latest Spray and Pray plus Pump and Dump emphasises multiplying damage across a crowd, which can read as gunner/rampage rather than assaulting a defended position. Missing identity is overcoming the exposed entry into that position. Breacher should win access to occupied space and help the crew take it; strong damage is a means, not the entire identity.
+
+Suggested conceptual alternative (not selected or written as rules):
+
+- **Dynamic Entry:** help cross an opening or approach into defended close quarters and limit the defender's immediate reaction advantage. A timing/entry technique rather than another general damage multiplier or STR terrain-smashing skill. Must work with ordinary gaps/approaches as well as specialised door terrain.
+- **Pump and Dump:** retain the committed close-range volley and reload consequence as the clearing tool; no extra numeric revision proposed here.
+- **On Me:** retain the coordinated follow-up so a teammate can enter, hold, or cover the newly contested position. Provides the securing/support component without a mandatory personal defensive bonus.
+
+Alternative if Ross prefers a lone offensive tank: replace On Me with a **Hold the Breach** concept that rewards staying in the position just assaulted with protection against retaliation. Pick the desired identity before costs, numbers, or exact triggering geometry. Spray and Pray may be parked/reassigned as a general multi-target skill rather than discarded outright.
+
 ## 17. Eventual integration checklist — inactive until authorised
 
 1. Produce a reviewed, internally consistent proposal from the current direction and close relevant open questions.
