@@ -792,7 +792,48 @@ Assistant assessment at concept level:
 - Strong Arm, Goliath, and Big Fella can all support a heavy-weapon character. Keep each identity distinct: carrying/movement, wielding/hand requirements, and Unwieldy handling respectively. Whether all become practically compulsory together is a later build-review question, not a reason to rewrite their concepts now.
 - This does not resolve which unit types may access skills, Heavy/Unwieldy pricing, core Charge rules, or detailed action economy.
 
-## 16. Eventual integration checklist — inactive until authorised
+## 16. Ross's revised DEX archetypes — concept selection stage
+
+Ross supplied twelve skill concepts across four archetypes, leaving three flex slots open. This is the latest DEX proposal, superseding the earlier suggested grouping without editing the source Sheet or live rules. Concept selection remains the priority over action-economy and wording refinement.
+
+### Marksman — long-range offence/support, two-handed ranged
+
+1. **Mark Target:** Spend Move to Mark an enemy within 24 inches and LOS. Friendlies gain +2 shooting it; Hidden targets may be targeted from 24 inches. Lasts until the start of the marking unit's next activation. This wording may change the previous Marked-removes-Hidden direction; clarify later rather than combine both silently.
+2. **Head Shot:** +4 Injury against Marked targets if this unit has not moved this turn.
+3. **Steady Breathing:** +12-inch range for this unit's two-handed ranged weapons and Mark Target. Existing long-range caps/gates are not automatically reconciled by this concept proposal.
+
+### Gunslinger — short-range offence/movement, dual one-handed ranged
+
+4. **Gunslinger:** Equip two one-handed ranged weapons and attack with both. Ross asks whether to resolve separately or combine Attack Dice into one attack, favouring a combined attack that Bullet Time can split.
+5. **Bullet Time:** Spend both actions on a ranged attack; distribute Attack Dice among extra enemies within 6 inches of the original target, resolving per target.
+6. **Run + Gun:** After a ranged attack, move up to MOVE for free, even if normal Move was already spent.
+
+### Unnamed short-range two-handed archetype
+
+7. **Pump N Dump:** Once per turn, Down a target within 12 inches with a ranged attack to gain a free ranged attack against another enemy within 12 inches and LOS. After the second attack the same weapon requires Reload before firing again.
+8. **Planning Ahead:** Equip two two-handed ranged weapons or one one-handed and one two-handed ranged weapon. Choose one at activation start; cannot switch until next activation starts.
+9. **Speed Loader:** Once per turn reload one ranged weapon while resolving a Move.
+
+### Watcher — two-handed heavy ranged, offence/protection
+
+10. **Watch Out!:** When an ally within 12 inches and LOS is charged, spend this unit's Action or reaction to give the ally a free ranged attack before the Charge completes.
+11. **Cover Me:** Once per turn, when an ally is targeted by an enemy in this unit's LOS, make a free shooting intervention resolved as opposed DEX against the enemy. Win cancels the enemy's shot; loss automatically Pins and Shakes the original target. Enemy finishes activation normally. Exact damage/Stress sequence remains unspecified; record concept rather than invent it.
+12. **Eyes Peeled:** Down an enemy with a ranged attack to gain Ready; keep it or give it to an ally within 12 inches and LOS.
+
+### Flex and assistant concept-level assessment
+
+- Ross has not selected the remaining three skills. Specifically likes DEX heavy-weapon users buying STR **Strong Arm** to ignore Heavy; do not automatically duplicate that permission in DEX.
+- Suggested name for short-range two-handed role: **Breacher**, with **Pointman** as an alternative. Its niche is close-range commitment plus weapon/reload preparation rather than sidearm mobility.
+- Four distinct intentions: Marksman prepares precise shots; Gunslinger distributes fire and repositions; Breacher chooses the right weapon and exploits a close-range takedown; Watcher protects allied actions and movement.
+- Watcher currently reads as support/control through fire, not merely offensive heavy-gun damage. That is a useful distinction. Watch Out! empowers the ally's weapon, while Cover Me uses the watcher's intervention; these are deliberate different functions to preserve or choose between later.
+- Recommend combined dual-pistol attack as one Shoot action/attack pool while retaining the origin and profile of each die, e.g. different coloured dice for different weapons. Do not blend Damage, range, traits, or ammo into a new synthetic weapon. Bullet Time can distribute those dice, but every assigned die must still have a legal target for its source weapon.
+- Bullet Time plus Run + Gun can offer a committed multi-target attack followed by repositioning. This is the requested playstyle concept, not proof of balance or an approved Action/attack budget.
+- Head Shot depends on a Marked target but not necessarily on buying Mark Target personally: allies can provide it. Decide later whether it should also have another trigger; don't reject coordinated unit roles solely for relying on team setup.
+- Strong Arm/Planning Ahead provide potential cross-stat heavy-weapon builds; do not assume bonus hands or firing all carried weapons from Planning Ahead.
+- Candidate flex concepts, not adopted: **Pin Them Down** (trade/augment fire toward movement control; exact effect later), **Calm Under Fire** (preserve shooting/reaction effectiveness under pressure), **Field of Fire** (broaden the area a Ready unit can watch). They support control, resilience, and awareness rather than duplicating Marksman range or STR weight handling.
+- Details parked for later: hidden/marked relationship, handling unmatched weapon profiles, additional-target wound limits, off-turn resource spending, Ready chains, Cover Me's miss/Pin/Stress consequences, ranged reload/ammo interactions, and long-range caps.
+
+## 17. Eventual integration checklist — inactive until authorised
 
 1. Produce a reviewed, internally consistent proposal from the current direction and close relevant open questions.
 2. Reconcile d20 resolution, Stress, Pinned, attack outcomes, skills, and progression together.
