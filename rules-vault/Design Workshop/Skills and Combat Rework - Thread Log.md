@@ -2,7 +2,7 @@
 type: working-discussion
 status: exploratory-not-adopted
 created: 2026-09-20
-updated: 2026-09-22
+updated: 2026-09-23
 tags:
   - settlements/workshop
   - settlements/skills
@@ -900,6 +900,26 @@ Suggested conceptual alternative (not selected or written as rules):
 - **On Me:** retain the coordinated follow-up so a teammate can enter, hold, or cover the newly contested position. Provides the securing/support component without a mandatory personal defensive bonus.
 
 Alternative if Ross prefers a lone offensive tank: replace On Me with a **Hold the Breach** concept that rewards staying in the position just assaulted with protection against retaliation. Pick the desired identity before costs, numbers, or exact triggering geometry. Spray and Pray may be parked/reassigned as a general multi-target skill rather than discarded outright.
+
+### Latest Breacher trio — Breach / Spray and Pray / On Me (2026-09-23)
+
+Ross proposed replacing the archetype's opening skill with **Breach**, retaining his earlier **Spray and Pray** and **On Me**. Pump and Dump is no longer in this proposed three; it is parked, not automatically reassigned to flex. Assistant's Dynamic Entry remains historical, not a fourth skill.
+
+**Breach — user proposal:** Once per turn, declare Breach against an enemy within 12 inches; initial LOS is not required. Move up to maximum Move, then immediately make a Shoot attack. During the movement, passing through doorways requires no Action or test. The unit cannot be targeted by reactions until after its Shoot Action resolves.
+
+**Spray and Pray — retained user version:** Once per turn, when shooting an initial target within 12 inches, distribute Attack Dice among different enemies within 8 inches of the initial target and LOS. Each Downed enemy adds an Attack Die to allocate to remaining targets.
+
+**On Me — retained user version:** Nominate a friendly within 6 inches and LOS; immediately after this unit's activation, activate that friendly.
+
+Concept assessment: this trio provides a distinct entry/clear/follow-up sequence. Breach gets the unit into a firing position before reactions, Spray and Pray spreads pressure through nearby defenders, and On Me brings a teammate into the opening. Gunslinger still avoids exposure through movement after shooting; Breacher commits forward before firing.
+
+Assistant interpretations suggested for later wording, not additional user rulings:
+
+- Lack of LOS applies when declaring the target. The actual shot should still require normal range and LOS after the movement unless explicitly intended as indirect fire.
+- Decide which doors the free passage includes. An existing doorway is different from passing through a solid wall or indestructible/sealed scenario feature. No blanket wall passage inferred.
+- Breach's reaction immunity ends after the shot; it does not itself grant enemies a new reaction opportunity beyond the normal trigger rules.
+- Scope of action cost, meaning of maximum Move, failure to reach a legal shot, and On Me activation eligibility remain for the later mechanics phase.
+- Breach remains usable alone as a close-range entry tool; Spray and Pray remains usable with ordinary shooting; On Me remains useful for other coordinated unit roles. Exact bonus-die chains and balance are untested.
 
 ## 17. Eventual integration checklist — inactive until authorised
 
