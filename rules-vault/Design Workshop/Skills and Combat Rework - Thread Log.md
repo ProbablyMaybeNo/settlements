@@ -847,6 +847,25 @@ Assistant assessment at concept level:
 - Assistant prefers exploring Suppressor/Fire Support: establish Pinned/Stress, influence multiple enemies, and create openings for allies, differentiated from Watcher's reactive protection.
 - Pump N Dump remains a candidate skill even if the Breacher group is removed; do not delete it or rewrite the Sheet automatically.
 
+### DEX identities clarified by Ross — retain Breacher and Watcher
+
+Ross rejected the proposed Fire Support replacement as overlapping Watcher's enemy-control/protection role and clarified the intended four:
+
+- **Marksman:** long-range, high single-target damage, with a substantial crew-wide benefit.
+- **Gunslinger:** dual pistols, primarily movement rather than pure offence; move between cover, pick off enemies, avoid return fire.
+- **Breacher:** offensive tank; force entry, deliver a close-range blast, then dig in and withstand return fire.
+- **Watcher:** support through buffs, debuffs, and reaction shots.
+
+These identities resolve the conceptual overlap. Gunslinger avoids retaliation through movement; Breacher accepts exposure and survives while holding the ground gained. Watcher protects the crew rather than personally occupying the assault role. Retain these four as the user-stated direction; Fire Support remains a discarded assistant alternative.
+
+Assistant concept recommendations, not yet selected skills:
+
+- Marksman and Watcher current groups broadly express their intended roles.
+- Gunslinger's Gunslinger and Run + Gun fit. Bullet Time's split-target damage emphasis is less aligned with movement-first identity; consider a third concept around evasive repositioning/using cover. Keep Bullet Time as a candidate, not automatically delete it.
+- Breacher's Pump N Dump fits aggressive entry, but its other two current skills solve loadout/reload problems instead of entry and survival. Suggest a breach/assault-access concept and a defensive dig-in/brace-after-advancing concept.
+- Planning Ahead is a proposed flex candidate; Speed Loader may also serve flex. No final fifteen-slot allocation made.
+- Defensive Breacher skill should complement its offensive occupation role, while STR Tank Brace can retain its more complete sacrifice of activity. No exact action costs, bonuses, durations, or guaranteed denial of return fire specified at this concept stage.
+
 ## 17. Eventual integration checklist — inactive until authorised
 
 1. Produce a reviewed, internally consistent proposal from the current direction and close relevant open questions.
