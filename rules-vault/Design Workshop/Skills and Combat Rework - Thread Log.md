@@ -833,6 +833,20 @@ Ross supplied twelve skill concepts across four archetypes, leaving three flex s
 - Candidate flex concepts, not adopted: **Pin Them Down** (trade/augment fire toward movement control; exact effect later), **Calm Under Fire** (preserve shooting/reaction effectiveness under pressure), **Field of Fire** (broaden the area a Ready unit can watch). They support control, resilience, and awareness rather than duplicating Marksman range or STR weight handling.
 - Details parked for later: hidden/marked relationship, handling unmatched weapon profiles, additional-target wound limits, off-turn resource spending, Ready chains, Cover Me's miss/Pin/Stress consequences, ranged reload/ammo interactions, and long-range caps.
 
+### DEX Gunslinger / Breacher overlap — under reconsideration
+
+Ross questioned whether Gunslinger and Breacher serve the same purpose with different weapons. Also questioned Planning Ahead's placement: it is broadly useful, and the apparent Breacher payoff is using a backup while the primary requires Reload after Pump N Dump.
+
+Assistant assessment at concept level:
+
+- The overlap is real in the current concepts: both deliver close-range burst fire and maintain momentum. Weapon type alone does not establish a distinct tactical role.
+- Planning Ahead has a genuine connection to Pump N Dump: it provides an alternative weapon during the reload cycle. However, the existing choice-at-activation-start restriction makes this chiefly a next-activation option, not an immediate swap after firing. No restriction is changed by this observation.
+- Speed Loader and Planning Ahead mainly offer two solutions to the same reload problem rather than inherently forming a three-part combo. This is not necessarily bad, but weakens the case for a coherent dedicated archetype.
+- Recommend move Planning Ahead to flex as a candidate, rather than requiring a unique archetype home for every broadly useful skill. Broad utility alone does not always require flex classification; classify by strongest thematic/tactical purpose.
+- Two possible directions, neither adopted: (1) retain Breacher but make its core about entry, close-range displacement, and claiming rooms/objectives, supported by distinctive concepts; or (2) treat one-/two-handed close-range guns as branches of a mobile assault shooter and use the fourth archetype for Suppressor/Fire Support.
+- Assistant prefers exploring Suppressor/Fire Support: establish Pinned/Stress, influence multiple enemies, and create openings for allies, differentiated from Watcher's reactive protection.
+- Pump N Dump remains a candidate skill even if the Breacher group is removed; do not delete it or rewrite the Sheet automatically.
+
 ## 17. Eventual integration checklist — inactive until authorised
 
 1. Produce a reviewed, internally consistent proposal from the current direction and close relevant open questions.
