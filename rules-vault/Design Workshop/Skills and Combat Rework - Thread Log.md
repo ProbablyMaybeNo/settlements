@@ -2,7 +2,7 @@
 type: working-discussion
 status: exploratory-not-adopted
 created: 2026-09-20
-updated: 2026-09-23
+updated: 2026-09-24
 tags:
   - settlements/workshop
   - settlements/skills
@@ -994,6 +994,48 @@ Sprinter preserves the other action; it does not grant an additional action. Run
 ### Next discussion: INTELLIGENCE
 
 DEX and AGI concept passes are complete enough to move on. INT archetypes and skills are next; none has yet been selected in this pass. Continue prioritising playstyles, broadly usable skills and cross-stat combinations before exact action economy. Keep hacking and interactive terrain relevant without making INT useful only on boards with bespoke devices.
+
+### INT Hacker proposal — Neural Uplink (2026-09-24)
+
+Ross proposed the first skill for the Hacker archetype during voice discussion. Name is tentative; the other Hacker skills and INT archetype choices remain open.
+
+| Skill | Archetype | Working effect | Status |
+| --- | --- | --- | --- |
+| Neural Uplink | Hacker | Gain +4 to hacking tests when resolving a HACKING action at a terminal. | Ross's proposal; name and balance provisional. |
+
+This bonus applies to hacking, not all INT tests. It does not itself grant remote terminal access, new device functions, or a bonus to a separate counter-hacking procedure. Exact terminal-access requirements remain for the mechanics pass. Master rules unchanged.
+
+### INT Hacker trio — Hijack and Counter-Hack added (2026-09-24)
+
+Ross explored direct hacking against units to give hackers something to do without terminal-heavy terrain. Communications interference causing Stress was considered but not selected. False Orders removing Ready and Feedback were assistant alternatives, not adopted skills. Ross then favoured hacking terrain and enemy electronic deployables.
+
+| Skill | Working effect | Status |
+| --- | --- | --- |
+| Neural Uplink | +4 to hacking tests when resolving a HACKING action at a terminal. | Retained proposal. |
+| Hijack | Test INT to take control of an enemy deployable with the ELECTRONIC keyword and perform one of its normal actions. No terminal required. | Ross accepted this direction after the assistant proposed temporary control for one action. Name and keyword spelling provisional; range and costs unspecified. |
+| Counter-Hack | While in base contact with a terminal, when an enemy attempts to hack using another terminal within 24 inches, test INT. On success, cancel the enemy hack and shut down the enemy's terminal until the end of the following turn, preventing its use next turn as well. | Ross's third-skill proposal; assistant working name. |
+
+Counter-Hack uses an INT test, not an assumed opposed test. The working reading measures 24 inches between terminals and shuts down the enemy terminal; confirm precise range reference and shared-network eligibility during wording. Ross described interaction then specifically cancelling a hack: no blanket power to interrupt non-hacking manual interactions is inferred. Exact meaning of turn, reaction resources, frequency and whether Neural Uplink applies to the interruption remain open. This proposed shutdown affects the enemy terminal, unlike the older self-overload Interrupt mechanism; reconcile rather than stack those systems during eventual integration.
+
+This trio offers reliable terminal access, exploitation of enemy devices, and denial of enemy terminal use. It still depends on available infrastructure or enemy electronic deployables; it does not establish universal communications equipment or unrestricted hacking of ordinary units.
+
+### Interactive terrain required at setup — Ross's direction (2026-09-24)
+
+Ross intends board/scenario setup to require a minimum quantity of additional interactive terrain features, ensuring hackers have meaningful targets on every board. The number and selection procedure are not yet decided. Examples include cranes, elevators, retractable bridges and opening pits; manipulating these may create damaging attacks or hazards as well as access and movement options.
+
+Doors and windows belong to ordinary terrain and are separate from this required feature list. They do not fill the minimum by themselves. Ross considered requiring variety, then favoured excluding ordinary doors/windows from the additional-feature list; no specific category quotas were selected. The assistant's proposed one movement hazard / one objective-control piece / one damage threat remains an unadopted example.
+
+This is a workshop setup requirement for eventual integration, not an edit to the live board/scenario rules.
+
+### INT Medic archetype — first skill (2026-09-24)
+
+Ross moved from Hacker to Medic and proposed its base skill:
+
+| Skill | Archetype | Working effect | Status |
+| --- | --- | --- | --- |
+| Medic | Medic | Gain +4 to STABILIZE rolls. | Ross's proposed base skill. |
+
+This bonus does not itself alter the outcome of Stabilize, restore Wounds, waive medical equipment requirements, or change its action cost. The other two Medic skills remain open.
 
 ## 18. Eventual integration checklist — inactive until authorised
 
