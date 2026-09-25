@@ -2,7 +2,7 @@
 type: working-discussion
 status: exploratory-not-adopted
 created: 2026-09-20
-updated: 2026-09-24
+updated: 2026-09-25
 tags:
   - settlements/workshop
   - settlements/skills
@@ -1085,7 +1085,45 @@ Retain the four groups for discussion: environmental/device control; deployment 
 - NRV should own rallying and most Stress management. STABILIZE is retained as a deliberate medical exception. This does not automatically remove previously selected Stress effects from STR, AGI or other groups; reconcile boundaries in the final pass.
 - The preceding concept-review paragraph records the earlier assessment; the current table and these decisions supersede its unadopted replacement/swap suggestions. Proceed to NRV; action costs, frequencies, interaction scopes and balance remain deferred.
 
-## 19. Eventual integration checklist — inactive until authorised
+## 19. NERVE — Ross's first complete concept proposal (2026-09-25)
+
+Ross deliberately uses three designer-only archetypes plus extra flex; no player-facing archetype prerequisites. Four groups are not mandatory. This submitted list contains sixteen skills (nine grouped, seven flex), one above the target fifteen. Nothing is cut or adopted as final by recording it.
+
+| Group | Skill | Proposed effect |
+| --- | --- | --- |
+| Commissar — support | Inspire | Once per turn, spend an ACTION and test NRV. On success remove 2 Stress from three friendly units within 8 inches. |
+| Commissar | Rally | Once per turn, spend an ACTION and test NRV. On success automatically rally up to three units within 8 inches. |
+| Commissar | Motivate | Test NRV; choose two friendlies within 8 inches. Each gains an additional ACTION point in its next activation and may repeat the same action in that activation. Alternative proposed by Ross: instead allow each to spend its MOVE as a normal ACTION and repeat actions, without an extra action point. Choice unresolved. |
+| Berserker — melee/offence | Rage | Once per turn, add up to three dice to a MELEE ATTACK pool. After resolving it, gain 1 Stress per added die. |
+| Berserker | Sin Eater | Once per turn, spend an ACTION to remove up to three Stress in total from friendlies within 6 inches, taking an equal amount onto this unit. |
+| Berserker | Implode | Increase this unit's maximum Stress by two. Shift BREAK results up by two. Once per turn halve this unit's Stress; each point removed grants +1 hit and injury for its next MELEE ATTACK. |
+| Anchor — defence | He's on Our Team | Spend an ACTION and pass NRV to activate a 6-inch aura granting friendlies within range +2 ARMOUR. |
+| Anchor | Menacing | Spend an ACTION and pass NRV to activate a 6-inch aura: friendlies within range inflict +1 Stress on enemies. |
+| Anchor | Big Aura | May maintain two AURA effects at once. |
+| Flex | Roar | Pass NRV; enemies must pass NRV to charge this unit or friendlies within 3 inches. |
+| Flex | On Your Feet | Choose two friendlies within 8 inches and test NRV; on success clear Stress from all three units (source plus selected allies). |
+| Flex | Lean on Me | Pass NRV to activate a 6-inch aura transferring Stress inflicted on friendlies in range to this unit. |
+| Flex | Not Time for a Nap | Pass NRV; units within 8 inches automatically clear PINNED or SHAKEN. Stress points remain. |
+| Flex | Solid | +1 Wound. |
+| Flex | Commanding Presence | Once per turn, a friendly within 8 inches and LOS may use this unit's NRV for a BREAK test. |
+| Flex | Beta Blocker | Halve Stress penalties to rolls; e.g. 6 Stress imposes -3. Does not affect BREAK tests. |
+
+**Proposed AURA shared rule:** A passive effect remains active until its source activates another aura or is DOWNED. Big Aura raises the simultaneous limit to two. Exact replacement with two slots, self-affecting eligibility, LOS and other incapacity endings remain for later wording.
+
+### Supersession and open concepts
+
+- Latest Inspire reduces Stress. Earlier INT-to-NRV Inspire auto-rally draft is superseded in this slate by the distinct Rally skill and its test/range/target wording.
+- STR already has a Berserker group and a Rage skill with a different effect (+Damage for Stress). No relocation, deletion, or replacement of STR was requested. Resolve the overlap deliberately rather than silently merging the two Rage effects.
+- On Your Feet overlaps Inspire and can clear more Stress from a comparable number of units. Recommend merge/cut one to reach fifteen; not yet approved.
+- Big Aura has no effect without access to another aura, unlike the desired independently attractive skill choices. Consider a built-in modest effect or treat as a deliberate exception; neither adopted.
+- Stress transfer must not destroy overflow at the recipient's cap. A possible later rule is transfer only what the source can actually receive, leaving excess with original targets. Implode introduces a proposed cap of seven for its user against the ordinary five; rounding and direction/meaning of shifting BREAK results remain unspecified.
+- The workshop has no separate flat Shaken penalty beyond accumulated Stress. Clearing SHAKEN but retaining Stress does not have a defined lasting benefit; Not Time for a Nap may focus on Pinned instead.
+- Solid duplicates STR Tough. Retaining both raises a deliberate duplicate-benefit/stacking question; no new Wound maximum authorised here.
+- Motivate's MOVE conversion is the assistant's preferred direction: flexible action use with a movement sacrifice. It is not adopted merely by being recommended. Cost, repeat-action limits and recipient frequency remain deferred.
+- He's on Our Team has a clear protective role but its literal armour increase needs thematic consideration. Menacing is offensive support within the Anchor group; designer labels need not be exclusive.
+- This is a concept review, not a balance test. Preserve strong combinations such as Sin Eater / Implode, Lean on Me / Beta Blocker, and protective / offensive aura choice without assuming unbounded chains or new free-action permissions.
+
+## 20. Eventual integration checklist — inactive until authorised
 
 1. Produce a reviewed, internally consistent proposal from the current direction and close relevant open questions.
 2. Reconcile d20 resolution, Stress, Pinned, attack outcomes, skills, and progression together.
