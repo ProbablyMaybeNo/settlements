@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "I'm About to Break"
+table: 0
+row: 10
+cols: 4
+skill: "I'M ABOUT TO BREAK"
 stat: "STR"
-skill_type: "Triggered"
+usage: "Triggered"
 effect: "Once per turn when CHARGED, use STRESS as positive modifiers instead of penalties for that combat. Afterwards gain 1 STRESS and immediately make a BREAK test, ignoring beneficial Stress modifiers from friendly units, skills or equipment."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# I'm About to Break
+# I'M ABOUT TO BREAK
 
 Once per turn when CHARGED, use STRESS as positive modifiers instead of penalties for that combat. Afterwards gain 1 STRESS and immediately make a BREAK test, ignoring beneficial Stress modifiers from friendly units, skills or equipment.
 
-Source: [[Rules System/Skills#STR]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

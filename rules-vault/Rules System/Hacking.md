@@ -34,7 +34,7 @@ The Rules column nails down:
 - How turrets, cameras, doors, and alarms plug in without a second dice mechanic.
 
 ## Inherits from the engine
-> [!info] Recall — a hack is **one core test**: `1d20 + INT − range` vs **7+**, the same engine as everything else. Range is a **modifier**, not a new target number. Device states (**Jammed**, **Linked**, **Overloaded**, **Compromised**) live in [[Conditions#Marker & device states (not conditions on units)]].
+> [!info] Recall — a hack is **one core test**: `1d20 + INT − range` vs **7+**, the same engine as everything else. Range is a **modifier**, not a new target number. Device states (**Jammed**, **Linked**, **Frozen**) live in [[Conditions#Marker & device states (not conditions on units)]].
 
 ![[core-000 Core Test#Text]]
 
@@ -110,19 +110,6 @@ _none yet — graduate a `core-00X Hacking` stub after first playtest_
 > [!note]- Parked — deeper hacking (a later version, do not build yet)
 > A two-roll **breach** system was drafted then set aside to keep v1 simple. Recorded here so the design isn't lost; the full drafted text lives in git history (see commits around the `hacking_sim.py` two-roll work).
 >
-> **Shape:** a hack is *Access* (the to-hit) then, **only against a live rival hacker**, a *Breach* roll (the injury) — `1d10 + Program − Firewall`, exclusive tiers:
-> - **7+ Shut Out** — deny the feature for a turn.
-> - **8+ Power Surge** — destroy the contested terminal (symmetric denial).
-> - **9+ Take Over** — seize control of the network + activate a feature.
-> - **10+ System Shock** — brick the rival hacker's unit (forfeits its next activation). *A full "puppet the unit into a hazard" version exists but is quarantined to opt-in hacker duels only — never off a normal terminal Interact.*
->
-> **Key decisions already made (so we don't re-litigate):**
-> - Breach targets **terrain control**, not the fighter's body — losing a breach costs you the terminal, not your model. This is what keeps hacking from *dissuading* terrain interaction.
-> - The catastrophic "steal the unit and walk it into lava" outcome is a **tail you can't out-reward** — bound it (System Shock) or quarantine it to duels; don't try to make features juicy enough to justify it.
-> - **Program** = breach damage, **Firewall** = armor / static hardening. In v1 **neither is a stat** — gear and skills grant flat +/− modifiers to the hack test instead ([[Weapons]]). When this system is revived those modifiers would land mostly on the **breach** roll.
-> - Graduate this only if v1 hacking proves too thin at the table.
-
-*See [[Rules System MOC]] and [[_Rules Map.canvas|the map]].*
 
 ## Current skills
 Neural Uplink adds +4 to HACKING tests. Trojan operates an enemy ELECTRIC deployable. Interrupt contests terminal interactions. Full effects: [[Skills#INT]].

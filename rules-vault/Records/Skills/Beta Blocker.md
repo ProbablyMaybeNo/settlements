@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Beta Blocker"
+table: 4
+row: 12
+cols: 4
+skill: "BETA BLOCKER"
 stat: "NRV"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Halve STRESS penalties, rounding up. Full STRESS still applies to BREAK tests."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Beta Blocker
+# BETA BLOCKER
 
 Halve STRESS penalties, rounding up. Full STRESS still applies to BREAK tests.
 
-Source: [[Rules System/Skills#NRV]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

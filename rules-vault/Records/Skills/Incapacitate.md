@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Incapacitate"
+table: 2
+row: 2
+cols: 4
+skill: "INCAPACITATE"
 stat: "AGI"
-skill_type: "Action"
+usage: "Action"
 effect: "Once per turn, make a 6-inch RANGED ATTACK using AGI and one attack die. A hit causes STUNNED; do not roll for injury."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Incapacitate
+# INCAPACITATE
 
 Once per turn, make a 6-inch RANGED ATTACK using AGI and one attack die. A hit causes STUNNED; do not roll for injury.
 
-Source: [[Rules System/Skills#AGI]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

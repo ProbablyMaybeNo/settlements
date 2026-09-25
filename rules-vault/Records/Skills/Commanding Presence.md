@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Commanding Presence"
+table: 4
+row: 11
+cols: 4
+skill: "COMMANDING PRESENCE"
 stat: "NRV"
-skill_type: "Triggered"
+usage: "Triggered"
 effect: "Once per turn, a friendly within 8 inches and LOS may use this unit's NRV for a BREAK test."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Commanding Presence
+# COMMANDING PRESENCE
 
 Once per turn, a friendly within 8 inches and LOS may use this unit's NRV for a BREAK test.
 
-Source: [[Rules System/Skills#NRV]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

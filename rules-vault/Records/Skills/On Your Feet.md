@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "On Your Feet"
+table: 4
+row: 10
+cols: 4
+skill: "ON YOUR FEET"
 stat: "NRV"
-skill_type: "Action"
+usage: "Action"
 effect: "Once per turn, spend an ACTION and test NRV. On success remove PINNED from up to three friendlies within 8 inches."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# On Your Feet
+# ON YOUR FEET
 
 Once per turn, spend an ACTION and test NRV. On success remove PINNED from up to three friendlies within 8 inches.
 
-Source: [[Rules System/Skills#NRV]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

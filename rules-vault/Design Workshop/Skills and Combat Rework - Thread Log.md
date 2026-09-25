@@ -1,6 +1,6 @@
 ---
 type: working-discussion
-status: exploratory-not-adopted
+status: historical discussion; skill catalogue integrated 2026-09-25
 created: 2026-09-20
 updated: 2026-09-25
 tags:
@@ -11,7 +11,10 @@ tags:
 
 # Skills and Combat Rework — Thread Log
 
-> [!important] Separate working document — not live rules
+> [!important] Design history — current skills now integrated
+> On 2026-09-25 Ross authorised replacing the live skill system. The canonical list is [[Rules System/Skills]]; this log preserves prior discussion and superseded proposals. Acquisition is explicitly undecided. The broader core mechanics remain subject to the integration decisions note.
+
+> Earlier boundary, retained for history:
 > This note tracks the discussion in this Codex task. It is outside `Rules System/` and does not amend the master, rules records, ledger, or roadmap. Decisions here are workshop directions until Ross explicitly authorises integration. The vault's scheduled mirror may copy this file into the repository; that does not make it authoritative.
 
 ## How to use this log
@@ -1130,3 +1133,9 @@ Ross deliberately uses three designer-only archetypes plus extra flex; no player
 3. Audit references in the live master, Conditions, Morale, skill records, weapons, unit creation, advancement, and relevant simulations.
 4. Only with approval: update the live rules, ledger, roadmap, and satellite references; regenerate affected catalogues and validate consistency.
 5. Preserve this discussion log as rationale and history. Do not use it as a competing source of live rulings.
+
+## Integration authorised — 2026-09-25
+
+Ross accepted the assistant's final NERVE roster with HOLD FAST changed to flat -2 incoming injury rolls, regardless of cover. The fifteen are Inspire, Rally, Motivate, Sin Eater, Implode, Last Laugh, Hold Fast, Menacing, Lean on Me, Roar, On Your Feet, Commanding Presence, Beta Blocker, Unflinching and Big Aura. They are recorded in [[Rules System/Skills#NRV]].
+
+Ross authorised archiving all previous skill-system entries and integrating the 75-skill replacement. Old skill material is archived. Skill acquisition is explicitly undecided, following his answer during integration. [[Skill Integration Decisions]] records remaining mechanics; this is not a claim of completed balance testing or a finished playable engine.

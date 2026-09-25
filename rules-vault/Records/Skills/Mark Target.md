@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Mark Target"
+table: 1
+row: 0
+cols: 4
+skill: "MARK TARGET"
 stat: "DEX"
-skill_type: "Move"
+usage: "Move"
 effect: "Spend a MOVE action to MARK an enemy within 24 inches and LOS until the start of this unit's next activation. Friendly shooting gains +2 to hit it and may target it within 24 inches even while HIDDEN, subject to weapon range."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Mark Target
+# MARK TARGET
 
 Spend a MOVE action to MARK an enemy within 24 inches and LOS until the start of this unit's next activation. Friendly shooting gains +2 to hit it and may target it within 24 inches even while HIDDEN, subject to weapon range.
 
-Source: [[Rules System/Skills#DEX]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

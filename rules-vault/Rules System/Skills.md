@@ -22,7 +22,7 @@ Shared definitions live in [[Keywords]]. The skills were designed for the thread
 
 ## STR
 
-| SKILL | STAT | TYPE | EFFECT |
+| SKILL | STAT | USAGE | EFFECT |
 | --- | --- | --- | --- |
 | **GRAPPLE** | STR | Action | Make an opposed STR test against an enemy within 1 inch. On success, it becomes GRAPPLED; see Keywords for holding, escape and Meat Shield. |
 | **STRONG ARM** | STR | Passive | Ignore HEAVY. While holding a GRAPPLED target, move at full MOVE, INTERACT and attack with 1 HANDED weapons. Cannot CHARGE, DASH, CLIMB or use 2 HANDED equipment while holding it. |
@@ -44,7 +44,7 @@ Shared definitions live in [[Keywords]]. The skills were designed for the thread
 
 ## DEX
 
-| SKILL | STAT | TYPE | EFFECT |
+| SKILL | STAT | USAGE | EFFECT |
 | --- | --- | --- | --- |
 | **MARK TARGET** | DEX | Move | Spend a MOVE action to MARK an enemy within 24 inches and LOS until the start of this unit's next activation. Friendly shooting gains +2 to hit it and may target it within 24 inches even while HIDDEN, subject to weapon range. |
 | **HEAD SHOT** | DEX | Passive | Gain +4 to injure MARKED targets with RANGED ATTACKS if this unit has not moved this turn. |
@@ -66,7 +66,7 @@ Shared definitions live in [[Keywords]]. The skills were designed for the thread
 
 ## AGI
 
-| SKILL | STAT | TYPE | EFFECT |
+| SKILL | STAT | USAGE | EFFECT |
 | --- | --- | --- | --- |
 | **AMBUSH** | AGI | Attack modifier | After a successful CHARGE begun HIDDEN, test AGI. Pass: one melee weapon makes an UNANSWERED attack with +4 to hit and injure; the second weapon attacks normally. Fail: no bonuses; the target may spend an unused ACTION to make an UNANSWERED attack first, followed by your normal attack if still able. |
 | **RETURN TO THE SHADOWS** | AGI | Triggered | Once per turn after CLOSE COMBAT, move up to 6 inches without disengage attacks. End behind or in heavy cover and outside LOS of READY enemies. Become HIDDEN if normal hiding requirements are met. |
@@ -88,7 +88,7 @@ Shared definitions live in [[Keywords]]. The skills were designed for the thread
 
 ## INT
 
-| SKILL | STAT | TYPE | EFFECT |
+| SKILL | STAT | USAGE | EFFECT |
 | --- | --- | --- | --- |
 | **NEURAL UPLINK** | INT | Passive | Gain +4 INT when resolving HACKING tests. |
 | **TROJAN** | INT | Action | Test INT to take control of an enemy DEPLOYABLE with ELECTRIC. Immediately resolve an action with it. SINGLE USE deployables may be triggered or defused; resolve their action if triggered, then remove them in either case. |
@@ -110,7 +110,7 @@ Shared definitions live in [[Keywords]]. The skills were designed for the thread
 
 ## NRV
 
-| SKILL | STAT | TYPE | EFFECT |
+| SKILL | STAT | USAGE | EFFECT |
 | --- | --- | --- | --- |
 | **INSPIRE** | NRV | Action | Once per turn, spend an ACTION and test NRV. On success remove 2 STRESS from up to three friendlies within 8 inches. |
 | **RALLY** | NRV | Action | Once per turn, spend an ACTION and test NRV. On success RALLY up to three BROKEN friendlies within 8 inches. |

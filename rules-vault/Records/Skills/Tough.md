@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Tough"
+table: 0
+row: 13
+cols: 4
+skill: "TOUGH"
 stat: "STR"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Gain +1 WOUND, subject to the unit's Wound ceiling."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Tough
+# TOUGH
 
 Gain +1 WOUND, subject to the unit's Wound ceiling.
 
-Source: [[Rules System/Skills#STR]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

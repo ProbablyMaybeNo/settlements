@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Neural Uplink"
+table: 3
+row: 0
+cols: 4
+skill: "NEURAL UPLINK"
 stat: "INT"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Gain +4 INT when resolving HACKING tests."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Neural Uplink
+# NEURAL UPLINK
 
 Gain +4 INT when resolving HACKING tests.
 
-Source: [[Rules System/Skills#INT]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

@@ -77,8 +77,8 @@ A low-INT fighter can *carry* a Sentry Gun; reliably **standing it up under fire
 ## Destruction & repair — reuse the Feature-damage engine
 Nothing new here: deployables that sit on the board are **Features**, and they take damage exactly like every other interactive feature ([[Terrain Interaction#Feature damage]]).
 
-- **Standing hardware** (turrets, beacons): **WND 1**, **Armour −2**, cover **Heavy (−2)** to be hit unless the attacker is within **6"** (then **Open**). One successful Injury → **Offline** (dead weight, still blocks LOS). **Repair once**: a fighter adjacent passes an **INT test (7+)** to bring it back **online** (**Jury-Rig** may auto-succeed). A **second** Injury while Offline → **Destroyed**, gone for the battle. *This is the "repaired one time before it's lost" rule — it already existed; deployables just use it.*
-- **Mines & traps**: **concealed** on a passed deploy (found by **Threat Scan** or an opposed INT test). While **untriggered** they can be **shot** (Feature damage) or **disarmed** — **DEX 7+**, nat 1 = boom; or, if the device is electronic (**Remote**), **Jammed** or hacked instead (**Jam Signals** / **Minefield Conductor**, [[Hacking]] · [[Skills]]). Once a trap **triggers**, it is spent — you cannot Offline a boom mid-trigger.
+- **Standing hardware** (turrets, beacons): **WND 1**, **Armour −2**, cover **Heavy (−2)** to be hit unless the attacker is within **6"** (then **Open**). One successful Injury → **Offline** (dead weight, still blocks LOS). **Repair once**: a fighter adjacent passes an **INT test (7+)** to bring it back **online**. A **second** Injury while Offline → **Destroyed**, gone for the battle. *This is the "repaired one time before it's lost" rule — it already existed; deployables just use it.*
+- **Mines & traps**: **concealed** on a passed deploy (found by an opposed INT test). While **untriggered** they can be **shot** (Feature damage) or **disarmed** — **DEX 7+**, nat 1 = boom; or, if the device is electronic (**Remote**), **Jammed** or hacked instead (**Trojan**, [[Hacking]] · [[Skills]]). Once a trap **triggers**, it is spent — you cannot Offline a boom mid-trigger.
 
 ---
 
@@ -88,7 +88,7 @@ Standing hardware · **repairable** · takes **both** equipment slots.
 A deployed turret holds a **Ready** reaction. **Once per round**, as a **Reaction**, it auto-fires one shot at the **first enemy that Moves or acts within its range and LOS**. It has **no facing** (360°) and never moves. The shot is a normal ranged attack — hit, then Injury — using the profile below. A turret fires at a fixed **+0 gunnery** (a crude auto-mount) plus the target's cover; the **Sniper Turret's +1** is on top of that.
 
 > [!note] Turrets are yours; hijacking them is the counterplay
-> A deployed turret **auto-fires for its owner** — that is what the points and the one-hit fragility buy. There are **no board-built turrets**; *every* turret is a deployable. An enemy **hacker can hijack one** — deactivate it, lock it off their squad (**Rewrite Killbox**), or fire it at its own side (**Turret Tamer**) — see [[Hacking#Linked functions (what a successful hack controls)]].
+> A deployed turret **auto-fires for its owner** — that is what the points and the one-hit fragility buy. There are **no board-built turrets**; *every* turret is a deployable. An enemy **hacker can hijack one** — operate it with **Trojan**, including firing at its former owner where legal — see [[Hacking#Linked functions (what a successful hack controls)]].
 
 | Turret | Build | Credits | Range | Auto-fire profile |
 |---|:---:|:---:|:---:|---|
@@ -107,7 +107,7 @@ Spent-on-trigger · **concealed** · **one** equipment slot each. **Built like a
 | Chassis | Credits | Delivery |
 |---|:---:|---|
 | **Proximity** | **5** | Place a **3" template**. Detonates the instant an enemy **ends a Move** inside it. |
-| **Remote** | **[UNPRICED]** | Place a hidden marker with a **6" trigger radius**; the **owner command-detonates** it while any enemy is inside the radius (a **Reaction** costing a Ready token; it ignores the forward-arc / end-of-move requirement, like the Hacking Interrupt). **Bluff kit:** buying a Remote gives you **4 markers — 1 live, 3 dummy**. The carrier may spend an activation to place a dummy; only the live marker ever detonates. The enemy can't tell which is which without a **Threat Scan** or a disarm. |
+| **Remote** | **[UNPRICED]** | Place a hidden marker with a **6" trigger radius**; the **owner command-detonates** it while any enemy is inside the radius (a **Reaction** costing a Ready token; it ignores the forward-arc / end-of-move requirement, like the Hacking Interrupt). **Bluff kit:** buying a Remote gives you **4 markers — 1 live, 3 dummy**. The carrier may spend an activation to place a dummy; only the live marker ever detonates. The enemy can't tell which is which without a a search or disarm. |
 | ~~**Seeker**~~ | **PARKED** | **Not in v1** — a self-moving munition on a 3'×3' board is an edge-case factory (does it draw Reactions? trigger traps? get shot as a Feature? what is its facing?). Parked, not rejected; revisit once [[Edge Cases]] exists. Proximity and Remote carry the family, and Remote's bluff kit is the interesting one anyway. ([[Out of Scope — What Settlements is NOT#4 · Rejected-ideas log]]) |
 
 ^tbl-chassis-how-it-delivers
@@ -166,7 +166,7 @@ Standing hardware · **repairable** · takes **both** equipment slots. A beacon 
 ## How INT gets its job back
 Deployables hand a technical crew a full battlefield loop — and every step is INT:
 
-- **Build** it (deploy test), **Repair** it (**Jury-Rig**), **Find** the enemy's (**Threat Scan**, **Forensic Sweep**).
+- **Build** with a deployment test, **Repair** with the normal repair action, and **Find** concealed devices using the normal search procedure.
 - **Enemy devices:** Trojan can operate an enemy ELECTRIC deployable; see [[Skills#INT]].
 
 That is the design payoff: an INT specialist is no longer *only* a door-opener. They plant the killbox, keep it running, and turn the enemy's own devices against them.

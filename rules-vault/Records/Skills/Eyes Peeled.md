@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Eyes Peeled"
+table: 1
+row: 11
+cols: 4
+skill: "EYES PEELED"
 stat: "DEX"
-skill_type: "Triggered"
+usage: "Triggered"
 effect: "When this unit DOWNS an enemy with a RANGED ATTACK, gain a READY token. Keep it or give it to a friendly within 12 inches and LOS."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Eyes Peeled
+# EYES PEELED
 
 When this unit DOWNS an enemy with a RANGED ATTACK, gain a READY token. Keep it or give it to a friendly within 12 inches and LOS.
 
-Source: [[Rules System/Skills#DEX]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

@@ -22,7 +22,7 @@ tags:
 
 - [[#1 · The engine — one mechanic, everywhere|1 · The engine — one mechanic, everywhere]]
 - [[#2 · Building a fighter — what the player actually chooses|2 · Building a fighter — what the player actually chooses]]
-- [[#3 · Skills — the full catalogue, by path and tier|3 · Skills — the full catalogue, by path and tier]]
+- [[#3 · Skills — 75 skills in one tier|3 · Skills — 75 skills in one tier]]
 - [[#4 · Weapons — built, not bought|4 · Weapons — built, not bought]]
 - [[#5 · Damage, conditions and morale — what a hit actually does|5 · Damage, conditions and morale — what a hit actually does]]
 - [[#6 · Deployables — the gear you plant on the board|6 · Deployables — the gear you plant on the board]]
@@ -55,7 +55,7 @@ tags:
 
 ## 2 · Building a fighter — what the player actually chooses
 
-*Read this block top to bottom to see the whole customisation surface: rank buys stat points, stat points unlock skill tiers, and Credits buy the body and the gun. Nothing else is priced.*
+*Read this block top to bottom to see the whole customisation surface: rank buys stat points, skill acquisition remains undecided, and Credits buy the body and the gun. Nothing else is priced.*
 
 **The stat scale — what each +1 buys** · source: [[Unit Design]]
 
@@ -77,13 +77,13 @@ tags:
 
 ![[List Building#^tbl-budget]]
 
-**How skills attach to stats** · source: [[Skills]]
+**Skill acquisition is undecided** · source: [[Skills]]
 
 ![[Skills]]
 
-**The five paths** · source: [[Skills]]
+**Shared skill keywords** · source: [[Keywords]]
 
-![[Skills]]
+![[Keywords]]
 
 **The 10-Level campaign track** · source: [[Progression]]
 
@@ -91,13 +91,29 @@ tags:
 
 ---
 
-## 3 · Skills — the full catalogue, by path and tier
+## 3 · Skills — 75 skills in one tier
 
-*This is the block to study for tier balance. T1 is a reliable option or a narrow exception; T2 is role-defining; T3 is campaign-earned and fight-swinging. A skill is always a verb or a conditional exception — never a flat stat bump.*
+*Fifteen skills per stat; acquisition remains undecided.*
 
-**Every skill, all five paths, T1 through T3** · source: [[Skills]]
+**STR** · source: [[Skills]]
 
-![[Skills]]
+![[Skills#^tbl-skills-str]]
+
+**DEX** · source: [[Skills]]
+
+![[Skills#^tbl-skills-dex]]
+
+**AGI** · source: [[Skills]]
+
+![[Skills#^tbl-skills-agi]]
+
+**INT** · source: [[Skills]]
+
+![[Skills#^tbl-skills-int]]
+
+**NRV** · source: [[Skills]]
+
+![[Skills#^tbl-skills-nrv]]
 
 ---
 
@@ -353,31 +369,15 @@ tags:
 
 *Balance evidence, so a number can be argued with rather than asserted.*
 
-**Terrain density beats any points cost** · source: historical analysis (archived)
-
-historical analysis (archived)
-
-**The archetype balance table** · source: historical analysis (archived)
-
-historical analysis (archived)
-
 **Spread by board legality** · source: [[List Building]]
 
 ![[List Building#^tbl-validation]]
-
-**Skill value measurements** · source: [[Skill Integration Decisions]]
-
-![[Skill Integration Decisions]]
-
-**The core-test curve** · source: historical analysis (archived)
-
-historical analysis (archived)
 
 ---
 
 ## Coverage
 
-61 tables embedded · 51 anchored tables not placed in a section.
+62 tables embedded · 26 anchored tables not placed in a section.
 
 > [!question] Anchored tables this catalogue does not show
 > Either add them to a section in `build_catalogue.py`, or accept them as note-local detail.
@@ -391,22 +391,7 @@ historical analysis (archived)
 > - [[Attack Dice — Sim Findings]] `^tbl-candidate-down-rules`
 > - [[Board Representation]] `^tbl-condition-status-tokens`
 > - [[Board Representation]] `^tbl-terrain`
-> - historical analysis (archived) `^tbl-2-the-final-balance-table-2`
-> - historical analysis (archived) `^tbl-3-morale-change-nothing`
 > - [[Deployables]] `^payload-what-it-does-on-detonation`
-> - historical analysis (archived) `^tbl-2-int-is-a-real-gate-on-deploying`
-> - historical analysis (archived) `^tbl-3-turrets-price-out-except-burst-now-fixed`
-> - historical analysis (archived) `^tbl-4-mines-land-hard-but-are-one-use-and-avoida`
-> - historical analysis (archived) `^tbl-1-engine-validation-core-000-core-test`
-> - historical analysis (archived) `^tbl-2-difficulty-ladder-stat-checks`
-> - historical analysis (archived) `^tbl-3-shooting-shooting-damage`
-> - historical analysis (archived) `^tbl-3-shooting-shooting-damage-2`
-> - historical analysis (archived) `^tbl-4-melee-melee`
-> - historical analysis (archived) `^tbl-5-head-to-head-contests-terminals-arm-wrestl`
-> - historical analysis (archived) `^tbl-6-duel-matrix-the-archetypes-fight`
-> - historical analysis (archived) `^tbl-6-duel-matrix-the-archetypes-fight-2`
-> - historical analysis (archived) `^tbl-7-stress-nerve-fires-where-it-should-morale`
-> - historical analysis (archived) `^tbl-the-shook-1-is-it-the-right-penalty-added-20`
 > - [[Full Rules System v1]] `^tbl-season-score`
 > - [[Full Rules System v1]] `^tbl-storage-caps`
 > - [[Infrastructure]] `^tbl-custom-battles`
@@ -415,12 +400,6 @@ historical analysis (archived)
 > - [[List Building]] `^tbl-armour-equipment-2`
 > - [[Morale]] `^tbl-break-test-end-phase-2-stress-2`
 > - [[Progression]] `^levels-the-fixed-advancement-track`
-> - [[Skill Integration Decisions]] `^tbl-1-flat-combat-modifiers-raw-bought-exact`
-> - [[Skill Integration Decisions]] `^tbl-2-multi-attack-expected-wounds-activation`
-> - [[Skill Integration Decisions]] `^tbl-3-grapple-chain`
-> - [[Skill Integration Decisions]] `^tbl-4-bravery-path-break-rate-impact-nrv-2`
-> - [[Skill Integration Decisions]] `^tbl-5-marquee-duel-is-it-worth-a-point`
-> - [[Skill Integration Decisions]] `^tbl-the-self-stress-fix-applied`
 > - [[Stress Persistence — Sim Findings]] `^tbl-1-where-stress-comes-from`
 > - [[Stress Persistence — Sim Findings]] `^tbl-2-cost-per-revival`
 > - [[Stress Persistence — Sim Findings]] `^tbl-3-break-test-failure-odds`
@@ -429,7 +408,3 @@ historical analysis (archived)
 > - [[Structures]] `^tbl-three-ways-to-grow-and-how-to-tell-them-apar`
 > - [[Structures]] `^worker-benefits`
 > - [[Terrain]] `^tbl-interact`
-> - historical analysis (archived) `^tbl-t3-a-2-fall-is-a-coin-flip-kill`
-> - historical analysis (archived) `^tbl-t6-hacker-shut-outs-are-too-weak`
-> - historical analysis (archived) `^tbl-t8-disengage-is-a-dead-option`
-> - historical analysis (archived) `^tbl-validated`

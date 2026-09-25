@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Ghost"
+table: 2
+row: 3
+cols: 4
+skill: "GHOST"
 stat: "AGI"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Once per turn, resolve a ranged action without losing HIDDEN from firing. Other reveal triggers still apply."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Ghost
+# GHOST
 
 Once per turn, resolve a ranged action without losing HIDDEN from firing. Other reveal triggers still apply.
 
-Source: [[Rules System/Skills#AGI]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

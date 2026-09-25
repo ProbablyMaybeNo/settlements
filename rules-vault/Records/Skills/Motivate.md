@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Motivate"
+table: 4
+row: 2
+cols: 4
+skill: "MOTIVATE"
 stat: "NRV"
-skill_type: "Action"
+usage: "Action"
 effect: "Once per turn, spend an ACTION and test NRV. Choose two friendlies within 8 inches. During their next activation each may use its MOVE as an ACTION and repeat an action."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Motivate
+# MOTIVATE
 
 Once per turn, spend an ACTION and test NRV. Choose two friendlies within 8 inches. During their next activation each may use its MOVE as an ACTION and repeat an action.
 
-Source: [[Rules System/Skills#NRV]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

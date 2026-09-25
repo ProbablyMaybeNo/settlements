@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Strategist"
+table: 3
+row: 4
+cols: 4
+skill: "STRATEGIST"
 stat: "INT"
-skill_type: "Setup"
+usage: "Setup"
 effect: "Once per game, during a turn's initiative phase, decide who activates first."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Strategist
+# STRATEGIST
 
 Once per game, during a turn's initiative phase, decide who activates first.
 
-Source: [[Rules System/Skills#INT]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

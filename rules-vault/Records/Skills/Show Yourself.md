@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Show Yourself"
+table: 2
+row: 5
+cols: 4
+skill: "SHOW YOURSELF"
 stat: "AGI"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Enemies can only target this unit within 6 inches while it is HIDDEN, instead of 12 inches."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Show Yourself
+# SHOW YOURSELF
 
 Enemies can only target this unit within 6 inches while it is HIDDEN, instead of 12 inches.
 
-Source: [[Rules System/Skills#AGI]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

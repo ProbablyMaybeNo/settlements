@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "MOLLE"
+table: 3
+row: 6
+cols: 4
+skill: "MOLLE"
 stat: "INT"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Equip up to three unique DEPLOYABLES for battle."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
 # MOLLE
 
 Equip up to three unique DEPLOYABLES for battle.
 
-Source: [[Rules System/Skills#INT]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

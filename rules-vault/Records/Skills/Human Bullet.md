@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Human Bullet"
+table: 0
+row: 8
+cols: 4
+skill: "HUMAN BULLET"
 stat: "STR"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Determine CHARGE distance using MOVE plus the total of 2d6 instead of 1d6."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Human Bullet
+# HUMAN BULLET
 
 Determine CHARGE distance using MOVE plus the total of 2d6 instead of 1d6.
 
-Source: [[Rules System/Skills#STR]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Quick"
+table: 2
+row: 12
+cols: 4
+skill: "QUICK"
 stat: "AGI"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Gain +2 MOVE."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Quick
+# QUICK
 
 Gain +2 MOVE.
 
-Source: [[Rules System/Skills#AGI]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

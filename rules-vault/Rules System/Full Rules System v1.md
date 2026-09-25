@@ -3,72 +3,12 @@ type: master
 title: Full Rules System v1
 status: Source of Truth
 adopted: 2026-08-05
-revised: 2026-09-19
+revised: 2026-09-25
 tags:
   - settlements/master
 ---
-> [!success] This note is the source of truth
-> Adopted **2026-08-05**. Where any other note in `Rules System/` disagrees with this
-> document, **this document wins** and the other note is owed an edit. It is the draft
-> that becomes the rulebook. Individual phase notes remain useful for the long-form
-> reasoning behind a rule; this is the ruling.
->
-> **Revised 2026-08-05** — §22 Workers: the 0–100 **Proficiency** track is **cut**. A worker
-> is assigned or not, one flat benefit per structure, nothing to level. The full three-tier
-> version is parked in §22 as future-supplement content. Ripples through §25.5 (no
-> Proficiency-gain step), §26.4 (Reassign carries no Proficiency) and §29.
->
-> **Revised 2026-08-08 — the full-rules audit is integrated.** All 15 approved items from
-> `docs/SETTLEMENTS-FULL-RULES-AUDIT.md` (Ross verdict 2026-08-07, "approve everything as
-> written"):
-> - **§26.3 Fate:** natural 1 is always Dead, natural 10 always Hardened, modifiers capped
->   at **+2**. Fixes a real bug — a staffed Med-bay made death impossible.
-> - **§26.1 Levels:** Primary is derived and permanent; **no declared Secondary** (levels
-Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
-> - **§9 / Out of Scope §4:** WND is capped at **3**, logged as a deliberate tenet exception.
-> - **§3 Dodge:** the winning move is **half MOV**, not full.
-Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
->   keeps the Specialist ratio.
-> - **§22:** ten worker benefits ship, ten are parked.
-> - **§12.6:** the Seeker mine chassis is parked. **§27:** Trader's caravan → Burst main.
->   **§23:** loot entry 7 → +15 Credits.
-> - **New:** §20 storage caps with a phase-end "spend it or lose it" sink · §21 trader
->   conversion rates and raid-loot 25%/cap/floor · **§28.6 The Season** (campaign end) ·
->   **§28.7** a worked founding-and-first-turn example.
->
-> Sim-verified where possible: `test-bench/balance/audit_*.py`. Two items ride into Phase 2
-> table testing — the FIX 4 Annihilate skew (WND 3 dominates pure-kill missions) and FIX 5,
-> which the engine AI cannot currently stress.
->
-> **Revised 2026-08-27 — the whole rules system is reconciled onto one scale.**
-> Every price in this document now comes from the **850-Credit shipping catalogue**
-> (`test-bench/points/ticks.py`, `costs/catalogue_v0.json`), and every satellite note in
-> `Rules System/` was propagated in the same pass. What moved:
-> - **Crew Rating is 850 / 425.** The 1000 and 500 figures are retired everywhere,
->   including the two places this document contradicted itself.
-> - **Weapons run on class *bands*, not one fixed value per class** (§15) — the
->   2026-08-14 rework, which this document had never received. Damage ceiling **+4 → +5**;
->   range reaches **36"** behind four gates instead of a hard 24" wall; **Concealable is cut**.
-> - **All prices reconciled** — weapons, armour, hack gear, deployables, structures,
->   Level track. A rifle is **35 Credits**, not 130; an Autoturret is **10**, not 120;
->   the HQ is **70 Materials**, not 130.
-> - **Stat levels read off the measured ladder**, which is non-flat *and* stat-dependent.
->   The flat 15/point is gone, and the contaminated "16–34" underprice flag with it.
-> - **Five weapon payloads are BLOCKED** (§15) — Crippling, Concussive, Blinding, Hook,
->   Toxic all measure ≤0 net because they replace Pinned, which measures +0.510. This is a
->   **rules question** (replace-not-stack), not a pricing one, and it is open.
-> - **Fifteen of twenty-four deployables are marked [UNPRICED]** (§12.6) rather than
->   carrying invented numbers.
-> - **Mess Hall** was the only structure with no derived cost anywhere; it is now in the
->   costing engine at **75 Materials**.
-> - The **§28.7 worked example** is rebuilt on the new scale — and now shows the founding
->   Power draw correctly (the free Location structure eats the whole margin).
->
-> Costing engine: `test-bench/points/` · sim harnesses: `test-bench/balance/` ·
-> shipping prices: `docs/POINTS-CATALOGUE.md` · decisions log: `docs/POINTS-DECISIONS.md`.
-> Consistency guard: `py -3.13 scripts/check_rules_consistency.py`.
-
-> **Revised 2026-09-19 — Basic Weapon System integrated.** The current player-facing weapon construction rules now live in [[Basic Weapon System]], with [[Weapons]] retained as the stable entry point. The former weapon note and superseded construction text are archived for reference. The current system uses seven classes, modular characteristics, and named weapon builds; it does not adopt Reach or Deadly / Automatic Down as basic characteristics.
+> [!important] Current source of truth — skill catalogue revised 2026-09-25
+> Section 14 embeds the approved 75 single-tier skills. Skill acquisition is explicitly undecided. The previous skill catalogue, records and revision commentary have been archived. The new skill design uses the thread's d20 mechanics; the remaining core engine still needs the coordinated conversion listed in [[Skill Integration Decisions]]. This is a design master, not yet a coherent ready-to-play packet.
 
 # Settlements — Full Rules System v1
 
@@ -309,9 +249,9 @@ A condition is a status token. **No stacking** — reapplying refreshes duration
 
 **Persistent conditions** (resolve in End Phase): **Fire** (Injury roll at +1 Damage ignoring Armor each End Phase; extinguish with an Action). **Bleed** (lose 1 WND each End Phase unless treated — at WND 1 this is a two-round death clock, the harshest condition in the game). **Poison** (−1 all rolls; STR 7+ each End Phase to end).
 
-**Nerve states** (from Morale, §11): Shaken, Bolt, Broken, BugOut, and the skill-induced **Fight** state.
+**Nerve states** (from Morale, §11): Shaken, Bolt, Broken, BugOut, and any explicitly printed skill states.
 
-**Marker/device states** (not conditions, no Stress, don't count toward the modifier cap): Spotted, Jammed, Overloaded, Compromised, Linked.
+**Marker/device states** (not conditions, no Stress, don't count toward the modifier cap): Marked, Tagged, Frozen, Jammed and Linked; see [[Keywords]].
 
 ---
 
@@ -344,18 +284,18 @@ Every hit that fails to wound generates **Stress** instead — this is the entir
 >
 > **Both halves are now in, so watch the stacking.** Attack Dice converts surplus hits into Stress (§15, ruled 2026-08-29) **and** Stress persists through Down — together a downed model's Stress roughly **2.2×** (0.66 → 1.44 mean) and wasted revivals go from ~1-in-11 to nearly **1-in-4**. The note previously said adopt one at a time; Ross ruled both the same day, so **the table is testing the stacked case from the start.** If it plays too punishing, pull the valve below before touching either rule. It also compounds the death-spiral risk flagged in `Dice Mechanic — Sim Findings` §7. **Valve held in reserve, deliberately not pre-applied:** *"a Stabilised fighter returns Shaken, however much Stress it had."*
 
-> **[Vision-doc note, preserved for the record]** The original design notes for this project proposed two additional nerve states beyond Bolt/Broken — a "Freak" (attack nearest friend or foe) and a forced "Fight" (berserk charge). Two similar softeners to the current three-tier system were sim-tested and **both broke the game**. The current system's skill-gated **Fight** state (Fanatic and similar Tier-3 skills only) is the surviving, safe version of that idea — never a routine morale outcome.
+
 
 ---
 
 ## 12 · Hacking **[DRAFTED — fully drafted in the vault, no changes]**
 
-v1 is deliberately small: hack a terminal to control its Linked features; an enemy at another terminal can Interrupt you at the cost of Overloading their own.
+v1 is deliberately small: hack a terminal to control its Linked features; the Interrupt skill contests enemy terminal use.
 
 1. **Declare** the terminal and the Linked feature (must be in a legal range band, max 24").
 2. **Roll** `1d10 + INT − range band` vs 7+.
 
-**Interrupt:** an enemy in base contact with another live terminal may Interrupt as it happens (not after) — ignores the forward-arc/LOS requirement, costs no Ready token. Pass → jams the one attempt, interrupter's terminal goes Overloaded (down till start of next turn). A different unit can still hack the same target terminal again.
+**Interrupt:** use the INT skill in [[Skills#INT]]: opposed INT, enemy terminal within 12 inches, success cancels the interaction and FREEZEs that terminal through the end of the next turn. No automatic veto or self-Overload.
 
 No hacker-vs-hacker minigame in v1 — a deeper system is drafted and parked for later.
 
@@ -392,7 +332,7 @@ Everything else a feature does is pure repositioning or an existing condition (D
 2. **Manual operation:** base contact, DEX Interact 7+ (STR for heavy manual mechanisms). **Cannot be Interrupted** — the payoff for exposing yourself.
 3. **As a Reaction:** a Readied unit may operate one reachable feature as its Reaction when an enemy's move/action triggers the moment.
 
-**Feature state:** everything starts Powered Down (inert). Operating it sets or flips its state; either crew may flip it back — that back-and-forth *is* the contest. Terminals/controls can never be destroyed — only Overloaded via an Interrupt.
+**Feature state:** everything starts Powered Down (inert). Operating it sets or flips its state; either crew may flip it back — that back-and-forth *is* the contest. Terminals/controls can never be destroyed — FROZEN by Interrupt.
 
 ### Feature catalogue (representative, not exhaustive)
 Cargo Crane (Shift Terrain/Cover/Displace — CRUSH or Displace) · Blast Door (Open/Close Path — CRUSH or Displace) · Roller/Security Gate (lighter door, Displace only) · Retractable Bridge (Create/Remove Route — FALL if retracted under someone) · Elevator/Cargo Lift (Change Elevation) · Conveyor Belt (carries a model +4"/round while on it) · Window Shutters (Block/Clear LOS) · Floodlights (strip Hidden in the lit zone) · Flood Gates (Field a Zone — Deep water/Difficult) · HVAC/Gas Vent (Displace + Dense Smoke) · Trash Compactor (the one overt hazard — CRUSH, always scenario-flagged) · Power Generator/Junction (macro-toggle — powers a whole zone on/off; can't be destroyed, only Overloaded).
@@ -491,7 +431,7 @@ Five path-stats, plus two fixed values:
 
 | Stat | Governs |
 |---|---|
-| **WND** | How many serious hits before Down/Out. Fixed at **1** for everyone; raised only by the **Tough** skill. |
+| **WND** | How many serious hits before Down/Out. Fixed at **1** for everyone; raised by **Tough** or the specified campaign advancement. |
 | **MOV** | Inches per Move. Fixed at **6"**; raised only by the **Quick** skill. |
 | **STR** | Melee, breaching, hauling, lifting, carrying |
 | **AGI** | Climbing, jumping, dodging, escaping, repositioning |
@@ -505,7 +445,7 @@ Each **+1** ≈ +10% on a core test, bounded 10–90%. **Max is +6.**
 |---|---|:---:|
 | −1 | Impaired | — |
 | 0 | Civilian baseline | — |
-| +1 | Capable (a "dabble" — no tier, no skill) | — |
+| +1 | Capable (a "dabble" — no automatic skill grant) | — |
 | +2 | Skilled | — |
 | +4 | Veteran | — |
 | +6 | Peak/master | — |
@@ -517,12 +457,10 @@ Each **+1** ≈ +10% on a core test, bounded 10–90%. **Max is +6.**
 
 | Rank | Stat pts | Stat allocation caps | Orders |
 |---|:---:|---|:---:|
-| **Recruit** | 3 | each stat at most +1 | 0 |
-| **Fighter** | 5 | 2 stats reaching +2 | 0 |
-| **Specialist** | 7 | **Undecided** | 1 |
-| **Leader** | 9 | **Undecided** | 2 |
-
-Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
+| **Recruit** | 3 | Each stat at most +1 | 0 |
+| **Fighter** | 5 | At most 2 stats reach +2; none reaches +4 | 0 |
+| **Specialist** | 7 | At most 1 stat reaches +4; at most 2 reach +2 | 1 |
+| **Leader** | 9 | At most 1 stat reaches +6; at most 2 reach +4; at most 4 reach +2 | 2 |
 
 Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
@@ -655,7 +593,7 @@ Every weapon has an **Attack Dice** value, **default 1**. Unlisted on a weapon c
 | Area | **Blast** | Resolve vs every model within 2" (Thrown/Heavy Ranged only). |
 | | **Smoke** | Place 3" Dense Smoke instead of attacking (Thrown only). |
 | Handling | **Long Range** | +6" range. Past 24" the four gates in §15 apply. |
-| | **Balanced** | Use AGI instead of STR for melee (Light/One-Handed only). |
+| | **Agile** | Use AGI instead of STR for melee (Light/One-Handed only). |
 | | **Defensive** | +1 opposed melee when not attacker and didn't Move (melee only). |
 | | **Cleaving** | Injury vs every Engaged enemy on a melee win (Heavy Melee only). |
 | | **Breaching** | +2 STR vs Breachable terrain. |
@@ -702,7 +640,7 @@ Armor reduces the Injury roll only, never the hit. **Carries no drawbacks** — 
 | Name | Build | Cr |
 |---|---|:--:|
 | Baseball Bat | Light Melee | **0** |
-| Kitchen Knife | Light Melee · Balanced | **10** |
+| Kitchen Knife | Light Melee · Agile | **10** |
 | Machete | One-Handed Melee | **10** |
 | Crowbar | One-Handed Melee · Breaching | **25** |
 | Magnum | Sidearm · Brutal · *Short Range* | **30** |
@@ -735,7 +673,7 @@ Armor reduces the Injury roll only, never the hit. **Carries no drawbacks** — 
 
 ### Cut, and why (kept so it doesn't creep back)
 
-Seeker mine (self-moving munition) — parked, not rejected. A moving munition on a 3'×3' board is an edge-case factory: does it draw Reactions? trigger traps? get shot as a Feature? what is its facing? Revisit once the Edge Cases audit exists; Proximity and Remote carry the family fine, and Remote's bluff kit is the interesting one anyway. Rapid (extra attack) — it *is* Quick Shot, a T3 skill; selling it as a cheap characteristic destroys the skill economy. Precision (flat +1 hit) — strictly better than Dead Eye; replaced by conditional Accurate. Reliable (re-roll) — no re-roll mechanic exists anywhere else in the game. Quick Draw (fire after Sprinting) — Sprint uses both slots, there's no Action left. Crushing (ignore cover on Injury) — cover never touches Injury, that's load-bearing. Awkward — free points on a static shooter. Intimidating (Stress aura) — parked, too volatile given Stress-cascade findings. **Concealable** (may start Hidden / smuggle past a search) — **cut 2026-08-14**: both halves are edge cases that do nothing in a typical battle, and it breaks the design contract at the top of this section, because "may start Hidden" is *positioning*, which is skill territory (Vanishing Point and Camouflage Drill already do it properly). **Quiet is NOT cut** — no-reveal / no-alarm-trip is a real mechanical axis that interacts with Hidden and with sensor deployables.
+
 
 ---
 
@@ -773,10 +711,10 @@ Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]]
 
 | Rank | Stat pts | Starting skills | Orders | Credits |
 |---|:--:|:--:|:--:|:--:|
-| **Recruit** | 3 | **0** | 0 | **70** |
+| **Recruit** | 3 | **Undecided** | 0 | **70** |
 | **Fighter** | 5 | **Undecided** | 0 | **100** |
-| **Specialist** | 7 | **max 3** | 1 | **145** |
-| **Leader** | 9 | **max 4** | 2 | **185** |
+| **Specialist** | 7 | **Undecided** | 1 | **145** |
+| **Leader** | 9 | **Undecided** | 2 | **185** |
 
 Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 > stats reach** (§14). The listed value is the maximum, hit only when every point
@@ -788,7 +726,7 @@ Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]]
 
 | Rank | Stat pts | Starting skills | Orders | Credits |
 |---|:--:|:--:|:--:|:--:|
-| **Recruit** | 3 | 0 | 0 | **70** |
+| **Recruit** | 3 | **Undecided** | 0 | **70** |
 | **Fighter** | 5 | **Undecided** | 0 | **100** |
 | **Specialist** | 7 | **Undecided** | 1 | **145** |
 | **Leader** | 9 | **Undecided** | 2 | **185** |
@@ -1013,7 +951,7 @@ Small, fast, and deliberately low-stakes — this is meant to make searching wor
 
 ## 24 · Factions **[PACKET framework + this project's roster]**
 
-One battlefield rule + one settlement affinity each. No flat stat bonus, no matched drawback, no exclusive unlock. Balanced peer-to-peer, not against a paired nerf. *(Supersedes the vault's own unstarted `Factions.md` placeholder, which still uses flat stat bonuses/nerfs.)*
+One battlefield rule + one settlement affinity each. No flat stat bonus, no matched drawback, no exclusive unlock. Agile peer-to-peer, not against a paired nerf. *(Supersedes the vault's own unstarted `Factions.md` placeholder, which still uses flat stat bonuses/nerfs.)*
 
 | Faction | Battlefield rule | Settlement affinity |
 |---|---|---|
@@ -1076,7 +1014,7 @@ Immediately before the next battle. Once a player has done everything they inten
 
 ### 26.1 · Levels — fixed advancement track **[NEW — replaces the previous freeform Advance-spend model per direct instruction; finalized after several rounds of iteration]**
 
-> **This supersedes the earlier draft's direct-choice Advance system.** The old model let a player spend any earned Advance on any of stat/skill/scar-heal, freely, up to a flat +6 cap. This one fixes *what* each Advance buys, in a set order, folding in a version of the packet's controlled-random skill selection — narrowed, after discussion, to a single fixed path per fighter rather than any path at any tier.
+Skill acquisition and selection remain undecided; see [[Skills#Acquisition]].
 
 **Earning a Level-up** uses the same triggers as before — kills, Glorious Deeds (§26.2), surviving, objectives held — one qualifying trigger advances a fighter to their next Level. The same **soft cap of 6 distinct sources/fighter/battle** still applies **[SIM-CONFIRMED — T8]**.
 
@@ -1118,7 +1056,7 @@ Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]]
 
 **MOV is not part of this track.** It stays exactly where it already was — Quick (AGI skill) is the only way to raise it. No collision, no separate MOV-swap option; keeping it purely skill-gated is cleaner narratively and avoids any interaction with Sprint/Charge distances at the top of the track.
 
-**Choosing the skill at Levels 3, 6 and 10:** declare a path, pick any tier that path's stat has unlocked (+2/+4/+6), roll **3 times** on that tier's chart (reroll duplicates), then **choose one of the three.** Cross-path picks are legal and cost you your own path's capstone — a genuine trade, not a freebie.
+Skill acquisition and selection remain undecided; see [[Skills#Acquisition]].
 
 Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
@@ -1128,11 +1066,11 @@ Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]]
 
 > **[CLOSED 2026-08-27]** This entry used to flag a "16–34 Credits" measured stat value against a flat 15 charged. **That figure was contaminated** — measured before the 2026-08-13 policy fix and averaged across scenarios since dropped. The flat 15 is gone; stat levels now read off the measured ladder above, which is non-flat *and* stat-dependent. The residual risk moved: it is no longer an underprice, it is that **AGI has never been measured at all** (`DODGE_ON` is False in the engine, so it reads exactly zero by construction) and is priced purely by analogy.
 
-> **[DERIVED — no longer a judgment call, but not measured either]** The +1 WND price was **45 Credits with no sim data behind it at all**, priced by position (above a T2 skill, below a T3). It is now **20** on the 850 scale, derived from the measured value of **heavy armour** (−2 on the injury roll, the same 20 Cr) — both buy the same thing, the model staying on the table longer. That makes it a **C-tier price** in `docs/POINTS-CATALOGUE.md`: derived by rule from a measured atom, never measured directly. An analogy is not a measurement — but unlike the 45, it is correctable from table data, because the derivation is written down.
+> **[DERIVED — no longer a judgment call, but not measured either]** The +1 WND price was **45 Credits with no sim data behind it at all**, priced by an earlier unvalidated estimate. It is now **20** on the 850 scale, derived from the measured value of **heavy armour** (−2 on the injury roll, the same 20 Cr) — both buy the same thing, the model staying on the table longer. That makes it a **C-tier price** in `docs/POINTS-CATALOGUE.md`: derived by rule from a measured atom, never measured directly. An analogy is not a measurement — but unlike the 45, it is correctable from table data, because the derivation is written down.
 
 ### 26.2 · Glorious Deeds **[NEW]**
 
-Once per fighter per battle: **Daredevil** (gap leap) · **Wrecking Crew** (terrain-verb kill) · **Duelist** (win a head-to-head) · **Last One Standing** · **Medic** (revive a Down friendly) · **Steady Hand** (Rally/Talk Down) · **Ghost** (never targeted) · **Ambush Predator** (land an Ambush) · **Trapper** (trap/deployable kill) · **Against the Odds** (win at 2+ Stress). Plus 1–5 **Territory Deeds** per territory card, themed to that location.
+Once per fighter per battle: **Daredevil** (gap leap) · **Wrecking Crew** (terrain-verb kill) · **Duelist** (win a head-to-head) · **Last One Standing** · **Medic** (revive a Down friendly) · **Steady Hand** (Rally) · **Ghost** (never targeted) · **Ambush Predator** (land an Ambush) · **Trapper** (trap/deployable kill) · **Against the Odds** (win at 2+ Stress). Plus 1–5 **Territory Deeds** per territory card, themed to that location.
 
 ### 26.3 · The Fate table **[DRAFTED pre-check + categories, NEW per-injury effects, NEW Captured/Hardened mechanics]**
 
@@ -1210,7 +1148,7 @@ First-draft 10 entries; expand toward 15–20 once the rhythm is confirmed.
 
 Drone Operator (INT-primary), hard **Bandwidth** cap: 1/Operator, one drone action per the Operator's own activation. **Bandwidth is a fixed fighter stat, not a settlement resource** — the Drone Bay grants access, not more Bandwidth.
 
-> **[SIM FLAG — T13]** The packet's "super-linear" justification for the cap didn't reproduce at crew scale — extra actions measured **linear** (~2.2–2.6 win-points/fighter, 1–4 fighters, comparable to +2 DEX). **Keep the cap anyway**, justified as bounded risk: the vault's own single-duel sim measured a comparable skill (Quick Shot) at +24%, an order of magnitude larger, in a context this crew-scale test doesn't cover.
+
 
 ### 28.2 · Chems **[PACKET]**
 
@@ -1322,6 +1260,6 @@ Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]]
 - BUILDER-type on-table construction units — mentioned in original vision notes, never built anywhere.
 - A worked example of objective-completion → specific settlement benefit.
 - Scale note: `List Building.md`'s old 5/8/16/24 ladder is superseded everywhere in this document by the 1000-Credit scale; worth a one-line flag in that file itself.
-- Three flagged-but-unfixed skill/characteristic conflicts from `Weapons.md` §7: Long Barrel is dead, Knockback vs. Heavy Impact and Ghost Blade vs. Balanced are thin overlaps.
+
 
 This is the Tier 4/5 list from the last review, minus everything Tier 1–3 just closed. Ready for more context whenever you want to tackle it.

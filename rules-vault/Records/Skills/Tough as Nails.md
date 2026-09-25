@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Tough as Nails"
+table: 0
+row: 5
+cols: 4
+skill: "TOUGH AS NAILS"
 stat: "STR"
-skill_type: "Triggered"
+usage: "Triggered"
 effect: "Once per round, when attacked in melee without being wounded, ignore the hit's effects. Subsequent attacks against this unit suffer -4 to injure until the end of the turn."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Tough as Nails
+# TOUGH AS NAILS
 
 Once per round, when attacked in melee without being wounded, ignore the hit's effects. Subsequent attacks against this unit suffer -4 to injure until the end of the turn.
 
-Source: [[Rules System/Skills#STR]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Steady Breathing"
+table: 1
+row: 2
+cols: 4
+skill: "STEADY BREATHING"
 stat: "DEX"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Increase the range of this unit's 2 HANDED RANGED weapons and MARK TARGET by 12 inches."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Steady Breathing
+# STEADY BREATHING
 
 Increase the range of this unit's 2 HANDED RANGED weapons and MARK TARGET by 12 inches.
 
-Source: [[Rules System/Skills#DEX]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

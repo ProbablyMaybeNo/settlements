@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Sprinter"
+table: 2
+row: 14
+cols: 4
+skill: "SPRINTER"
 stat: "AGI"
-skill_type: "Passive"
+usage: "Passive"
 effect: "DASH using only the MOVE action instead of spending both actions."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Sprinter
+# SPRINTER
 
 DASH using only the MOVE action instead of spending both actions.
 
-Source: [[Rules System/Skills#AGI]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

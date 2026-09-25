@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Brace"
+table: 0
+row: 3
+cols: 4
+skill: "BRACE"
 stat: "STR"
-skill_type: "Action"
+usage: "Action"
 effect: "BRACE until the end of the turn: incoming attacks suffer -4 to hit. This unit cannot move, act or react while BRACING."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Brace
+# BRACE
 
 BRACE until the end of the turn: incoming attacks suffer -4 to hit. This unit cannot move, act or react while BRACING.
 
-Source: [[Rules System/Skills#STR]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

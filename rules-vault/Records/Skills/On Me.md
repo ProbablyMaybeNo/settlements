@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "On Me"
+table: 1
+row: 8
+cols: 4
+skill: "ON ME"
 stat: "DEX"
-skill_type: "Triggered"
+usage: "Triggered"
 effect: "Nominate a friendly within 6 inches and LOS. Immediately after this unit finishes its activation, activate that friendly. Activation eligibility requires ruling."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# On Me
+# ON ME
 
 Nominate a friendly within 6 inches and LOS. Immediately after this unit finishes its activation, activate that friendly. Activation eligibility requires ruling.
 
-Source: [[Rules System/Skills#DEX]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Speed Loader"
+table: 1
+row: 13
+cols: 4
+skill: "SPEED LOADER"
 stat: "DEX"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Once per turn, RELOAD one RANGED weapon while resolving a MOVE action."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Speed Loader
+# SPEED LOADER
 
 Once per turn, RELOAD one RANGED weapon while resolving a MOVE action.
 
-Source: [[Rules System/Skills#DEX]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

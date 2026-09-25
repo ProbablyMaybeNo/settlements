@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Technician"
+table: 3
+row: 7
+cols: 4
+skill: "TECHNICIAN"
 stat: "INT"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Gain +4 INT when testing to set up a DEPLOYABLE during battle."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Technician
+# TECHNICIAN
 
 Gain +4 INT when testing to set up a DEPLOYABLE during battle.
 
-Source: [[Rules System/Skills#INT]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

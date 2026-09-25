@@ -1,7 +1,28 @@
-filters:
-  and:
-    - file.inFolder("Records/Skills")
 views:
   - type: table
-    name: Skills
-    order: [stat, name, skill_type, effect]
+    name: All
+    rowHeight: medium
+    filters:
+      and:
+        - type == "skills"
+        - file.inFolder("Records/Skills")
+    order:
+      - file.name
+      - stat
+      - usage
+      - effect
+  - type: table
+    name: By stat
+    rowHeight: medium
+    filters:
+      and:
+        - type == "skills"
+        - file.inFolder("Records/Skills")
+    order:
+      - stat
+      - file.name
+      - usage
+      - effect
+    sort:
+      - property: stat
+        direction: ASC

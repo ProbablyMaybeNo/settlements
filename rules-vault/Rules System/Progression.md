@@ -30,8 +30,8 @@ The Rules column should nail down:
 > [!info] Superseded — [[Full Rules System v1]] is the ruling
 > **§26.1 is canonical.** The freeform Advance spend is dead. Note the 2026-08-07
 > revision: **Primary is derived and never changes, and there is no declared
-> Secondary** — levels 1/4/8 float to *any* stat, chosen when earned — while a
-> **skill slot's tier is gated by the stat**, +2/+4/+6 unlocking T1/T2/T3.
+> Secondary** — levels 1/4/8 float to *any* stat, chosen when earned. Skill acquisition remains undecided.
+
 
 ### Levels — the fixed advancement track
 Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
@@ -75,10 +75,10 @@ Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]]
 Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
 ### Caps (anti-snowball)
-- Campaign cap is **+6** (Tier 3). Start caps (+2 / +4) lift as a unit levels — most plateau around +4–5, a rare few reach +6.
+- Campaign cap is **+6**. Start caps (+2 / +4) lift as a unit levels — most plateau around +4–5, a rare few reach +6.
 - **MOV never rises from Levels** — only from **Quick** (AGI, see [[Skills]]). **WND** rises exactly once, at Level 7.
 - Growth makes a unit *better*, not higher-*ranked*.
-- **Scar-healing is not on the track.** It lives in the **Med-bay's T2 structure tier**, and in the **once-per-career Special Treatment** option on a third Scar ([[Campaign#The third Scar — forced retirement]]). *(Worker benefits have each stat at most +1 — the Proficiency track was cut 2026-08-05 — so the T2 that heals scars is the **structure's**, per [[Full Rules System v1]] §21 and [[Structures#Recover — people come back]].)*
+- **Scar-healing is not on the track.** It lives in the **Med-bay's T2 structure tier**, and in the **once-per-career Special Treatment** option on a third Scar ([[Campaign#The third Scar — forced retirement]]). *(Worker benefits have no tiers — the Proficiency track was cut 2026-08-05 — so the T2 that heals scars is the **structure's**, per [[Full Rules System v1]] §21 and [[Structures#Recover — people come back]].)*
 
 > [!warning] One price on this track is derived, and one stat is unmeasured entirely
 > **+1 WND is 20 Credits**, derived from the measured value of **heavy armour** (−2 on the injury roll, the same 20 Cr) — both buy the same thing, the model staying on the table longer. It was 45 by pure judgement. Still **C-tier** — an analogy is not a measurement, but unlike the 45 it is correctable from table data, because the derivation is written down.
@@ -90,7 +90,7 @@ Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]]
 > A fighter who takes **Tough** (STR) at Level 6 or 10 stacks it with the Level 7 wound for **WND 3** at the ceiling. That was walked through deliberately and accepted — recorded here so the stack is visible in the rules, not just in the conversation that produced it.
 
 ### Promotion
-- **Rank never rises automatically.** You may **promote** a veteran into an **open** rank slot between battles (e.g. a fallen Leader's seat), gaining that rank's Orders + skill slot.
+- **Rank never rises automatically.** You may **promote** a veteran into an **open** rank slot between battles (e.g. a fallen Leader's seat), gaining that rank's Orders; skill grants remain undecided.
 - Multiple veterans can be *leader-calibre* — a deep bench for a brutal game — but [[List Building]] caps decide how many hold rank at once. A promoted Leader still **fights**.
 
 ## Rule ledger

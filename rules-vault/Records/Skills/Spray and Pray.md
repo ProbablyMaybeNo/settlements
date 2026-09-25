@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Spray and Pray"
+table: 1
+row: 7
+cols: 4
+skill: "SPRAY AND PRAY"
 stat: "DEX"
-skill_type: "Attack modifier"
+usage: "Attack modifier"
 effect: "Once per turn when SHOOTING an initial target within 12 inches, divide attack dice between it and other enemies within 8 inches of it and LOS. Each enemy DOWNED adds one die to allocate to a remaining eligible target."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Spray and Pray
+# SPRAY AND PRAY
 
 Once per turn when SHOOTING an initial target within 12 inches, divide attack dice between it and other enemies within 8 inches of it and LOS. Each enemy DOWNED adds one die to allocate to a remaining eligible target.
 
-Source: [[Rules System/Skills#DEX]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

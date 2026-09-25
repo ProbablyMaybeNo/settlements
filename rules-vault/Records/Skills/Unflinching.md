@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Unflinching"
+table: 4
+row: 13
+cols: 4
+skill: "UNFLINCHING"
 stat: "NRV"
-skill_type: "Triggered"
+usage: "Triggered"
 effect: "Once per turn, when a hit would remove this unit's READY token, it may retain it. Resolve all other effects normally."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Unflinching
+# UNFLINCHING
 
 Once per turn, when a hit would remove this unit's READY token, it may retain it. Resolve all other effects normally.
 
-Source: [[Rules System/Skills#NRV]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

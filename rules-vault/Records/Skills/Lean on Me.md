@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Lean on Me"
+table: 4
+row: 8
+cols: 4
+skill: "LEAN ON ME"
 stat: "NRV"
-skill_type: "Aura"
+usage: "Aura"
 effect: "Spend an ACTION and test NRV to activate a 6-inch AURA. Transfer STRESS inflicted on other friendlies within it to this unit, up to its remaining Stress capacity; excess stays on its original recipient."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Lean on Me
+# LEAN ON ME
 
 Spend an ACTION and test NRV to activate a 6-inch AURA. Transfer STRESS inflicted on other friendlies within it to this unit, up to its remaining Stress capacity; excess stays on its original recipient.
 
-Source: [[Rules System/Skills#NRV]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

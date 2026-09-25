@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Cover Me"
+table: 1
+row: 10
+cols: 4
+skill: "COVER ME"
 stat: "DEX"
-skill_type: "Reaction"
+usage: "Reaction"
 effect: "Once per turn, when an enemy in LOS SHOOTS a friendly, intervene with a free SHOOTING ATTACK resolved as an opposed DEX test. On success the enemy attack misses; on failure the friendly becomes PINNED and SHAKEN. Damage/Stress resolution requires ruling."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Cover Me
+# COVER ME
 
 Once per turn, when an enemy in LOS SHOOTS a friendly, intervene with a free SHOOTING ATTACK resolved as an opposed DEX test. On success the enemy attack misses; on failure the friendly becomes PINNED and SHAKEN. Damage/Stress resolution requires ruling.
 
-Source: [[Rules System/Skills#DEX]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

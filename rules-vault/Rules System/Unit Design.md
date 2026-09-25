@@ -102,19 +102,17 @@ Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]]
 
 | Rank | Stat pts | Stat allocation caps (per stat line) | Skills* | Orders | Credits |
 |---|:---:|---|:---:|:---:|:---:|
-| **Recruit** | **3** | none — each stat at most +1 | **0** | 0 | **70** |
-| **Fighter** | **5** | up to **2 stats reaching +2** | **Undecided** | 0 | **100** |
-| **Specialist** | **7** | **Undecided** | **Undecided** | 1 | **145** |
-| **Leader** | **9** | **Undecided** | **Undecided** | 2 | **185** |
+| **Recruit** | **3** | Each stat at most +1 | **Undecided** | 0 | **70** |
+| **Fighter** | **5** | At most 2 stats reach +2; none reaches +4 | **Undecided** | 0 | **100** |
+| **Specialist** | **7** | At most 1 stat reaches +4; at most 2 reach +2 | **Undecided** | 1 | **145** |
+| **Leader** | **9** | At most 1 stat reaches +6; at most 2 reach +4; at most 4 reach +2 | **Undecided** | 2 | **185** |
 
 ^tbl-ranks-build-budget
 
 Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
-Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
 
-- **The stat allocation caps are the ceiling** — they set how many stats a rank may push to each tier, so points *must* spread. A Fighter (5 pts, max 2 stats reaching +2) builds e.g. `STR+2 / INT+2 / AGI+1` — a brawler who can also hack. Only a **Leader** ever gets a — (a +6 elite stat) — its signature.
 Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
 - **Rank is also a weapon gate** — a Recruit physically cannot hold a rifle ([[Weapons#Rank gates the class]]).

@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Come On Then"
+table: 0
+row: 4
+cols: 4
+skill: "COME ON THEN"
 stat: "STR"
-skill_type: "Action"
+usage: "Action"
 effect: "Test STR. On success, enemies within 6 inches must target this unit with their ATTACK actions. Duration and legal-target exceptions require ruling."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Come On Then
+# COME ON THEN
 
 Test STR. On success, enemies within 6 inches must target this unit with their ATTACK actions. Duration and legal-target exceptions require ruling.
 
-Source: [[Rules System/Skills#STR]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

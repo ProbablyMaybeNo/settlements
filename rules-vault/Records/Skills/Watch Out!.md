@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Watch Out!"
+table: 1
+row: 9
+cols: 4
+skill: "WATCH OUT!"
 stat: "DEX"
-skill_type: "Reaction"
+usage: "Reaction"
 effect: "When a friendly within 12 inches and LOS is CHARGED, spend this unit's action or reaction to give that friendly a free RANGED ATTACK before the charge completes."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Watch Out!
+# WATCH OUT!
 
 When a friendly within 12 inches and LOS is CHARGED, spend this unit's action or reaction to give that friendly a free RANGED ATTACK before the charge completes.
 
-Source: [[Rules System/Skills#DEX]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

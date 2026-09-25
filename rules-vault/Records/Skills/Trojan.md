@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Trojan"
+table: 3
+row: 1
+cols: 4
+skill: "TROJAN"
 stat: "INT"
-skill_type: "Action"
+usage: "Action"
 effect: "Test INT to take control of an enemy DEPLOYABLE with ELECTRIC. Immediately resolve an action with it. SINGLE USE deployables may be triggered or defused; resolve their action if triggered, then remove them in either case."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Trojan
+# TROJAN
 
 Test INT to take control of an enemy DEPLOYABLE with ELECTRIC. Immediately resolve an action with it. SINGLE USE deployables may be triggered or defused; resolve their action if triggered, then remove them in either case.
 
-Source: [[Rules System/Skills#INT]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

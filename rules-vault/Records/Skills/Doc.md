@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Doc"
+table: 3
+row: 11
+cols: 4
+skill: "DOC"
 stat: "INT"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Equip up to three unique CHEMS. Once per turn, resolve a free CHEM action on a friendly within 6 inches."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Doc
+# DOC
 
 Equip up to three unique CHEMS. Once per turn, resolve a free CHEM action on a friendly within 6 inches.
 
-Source: [[Rules System/Skills#INT]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

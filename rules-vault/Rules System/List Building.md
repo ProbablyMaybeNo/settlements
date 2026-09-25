@@ -22,7 +22,7 @@ Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]]
 
 ## The core claim
 > [!info] Points buy **bodies and guns**. Stats and skills are **free**.
-> Rank already caps stats and skills — a Specialist *always* has 4 stat points and 2 skills — so pricing them again is double-counting. **Buying a rank IS buying its stats.** The only things worth pricing separately are the two whose value doesn't depend on the mission: **a body, and the weapon in its hands.**
+
 >
 > It is also the honest call. historical analysis (archived) proved you *cannot* price a stat fairly in a vacuum — the Objective Grabber wins 24% on bare ground and the Heavy Gunner 69%. **The board prices stats. Points price bodies and guns.**
 
@@ -49,10 +49,10 @@ The rank price *is* the stat price — see [[Unit Design#Ranks (build budget)]].
 
 | Rank | Stat pts | Stat allocation caps | Skills | Orders | **Credits** |
 |---|:--:|---|:--:|:--:|:--:|
-| **Recruit** | 3 | each stat at most +1 | 0 | 0 | **70** |
-| **Fighter** | 5 | 2 stats reaching +2 | **Undecided** | 0 | **100** |
-| **Specialist** | 7 | **Undecided** | **Undecided** | 1 | **145** |
-| **Leader** | 9 | **Undecided** | **Undecided** | 2 | **185** |
+| **Recruit** | 3 | Each stat at most +1 | **Undecided** | 0 | **70** |
+| **Fighter** | 5 | At most 2 stats reach +2; none reaches +4 | **Undecided** | 0 | **100** |
+| **Specialist** | 7 | At most 1 stat reaches +4; at most 2 reach +2 | **Undecided** | 1 | **145** |
+| **Leader** | 9 | At most 1 stat reaches +6; at most 2 reach +4; at most 4 reach +2 | **Undecided** | 2 | **185** |
 
 ^tbl-the-four-ranks
 
@@ -60,10 +60,10 @@ Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]]
 
 | Rank | Stat pts | Stat allocation caps | Starting skill | Orders | **Credits** |
 |---|:--:|---|:--:|:--:|:--:|
-| **Recruit** | 3 | each stat at most +1 | — | 0 | **70** |
-| **Fighter** | 5 | 2 stats reaching +2 | **Undecided** | 0 | **100** |
-| **Specialist** | 7 | **Undecided** | **Undecided** | 1 | **145** |
-| **Leader** | 9 | **Undecided** | **Undecided** | 2 | **185** |
+| **Recruit** | 3 | Each stat at most +1 | **Undecided** | 0 | **70** |
+| **Fighter** | 5 | At most 2 stats reach +2; none reaches +4 | **Undecided** | 0 | **100** |
+| **Specialist** | 7 | At most 1 stat reaches +4; at most 2 reach +2 | **Undecided** | 1 | **145** |
+| **Leader** | 9 | At most 1 stat reaches +6; at most 2 reach +4; at most 4 reach +2 | **Undecided** | 2 | **185** |
 
 ^tbl-the-four-ranks-campaign
 

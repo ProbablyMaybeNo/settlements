@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Sin Eater"
+table: 4
+row: 3
+cols: 4
+skill: "SIN EATER"
 stat: "NRV"
-skill_type: "Action"
+usage: "Action"
 effect: "Once per turn, spend an ACTION to transfer up to 3 STRESS in total from friendlies within 6 inches to this unit, limited by its remaining Stress capacity."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Sin Eater
+# SIN EATER
 
 Once per turn, spend an ACTION to transfer up to 3 STRESS in total from friendlies within 6 inches to this unit, limited by its remaining Stress capacity.
 
-Source: [[Rules System/Skills#NRV]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

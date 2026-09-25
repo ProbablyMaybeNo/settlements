@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Smart"
+table: 3
+row: 14
+cols: 4
+skill: "SMART"
 stat: "INT"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Resolve one free INTERACT action per turn. Qualifying action categories require ruling."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Smart
+# SMART
 
 Resolve one free INTERACT action per turn. Qualifying action categories require ruling.
 
-Source: [[Rules System/Skills#INT]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

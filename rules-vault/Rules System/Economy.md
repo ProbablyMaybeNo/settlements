@@ -105,7 +105,7 @@ Two other caps run on the same principle:
 Where Credits and Materials actually go:
 
 - **Materials** → structures, **upgrade tiers**, **Groundworks**, **repair at a flat 15 per structure**, research up the Fabricator ladder, crafting at the Workbench/Workshop.
-- **Credits** → rank bodies, built weapons, armour, equipment and deployables, **Levels** (a stat point off the measured ladder · **10/20/30** per T1/T2/T3 skill · **20** for the Level-7 wound), Chems, and **ransoming a captured fighter back at half their Credits cost** ([[Campaign]]).
+- **Credits** → rank bodies, built weapons, armour, equipment and deployables, **Levels** (a stat point off the measured ladder · skill advancement costs **undecided** · **20** for the Level-7 wound), Chems, and **ransoming a captured fighter back at half their Credits cost** ([[Campaign]]).
 
 > [!info] The real anti-snowball valve is Crew Rating, not a tax
 > Veterans get **more expensive as they Advance** and Scars **refund nothing** ([[Progression]] · [[List Building]]). So the longer a campaign runs, the **smaller** your fielded crew gets, because your best fighters crowd out rookies on the Rating cap. That is the valve — an upkeep tax was tried, measured, and cut as both unnecessary and harmful.

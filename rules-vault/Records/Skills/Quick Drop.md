@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Quick Drop"
+table: 3
+row: 8
+cols: 4
+skill: "QUICK DROP"
 stat: "INT"
-skill_type: "Triggered"
+usage: "Triggered"
 effect: "Once per turn after successfully placing a DEPLOYABLE, place another for free within LOS and 8 inches of the first. Uses carried equipment; creates no free device."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Quick Drop
+# QUICK DROP
 
 Once per turn after successfully placing a DEPLOYABLE, place another for free within LOS and 8 inches of the first. Uses carried equipment; creates no free device.
 
-Source: [[Rules System/Skills#INT]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

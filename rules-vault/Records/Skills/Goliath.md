@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Goliath"
+table: 0
+row: 12
+cols: 4
+skill: "GOLIATH"
 stat: "STR"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Wield two 2 HANDED melee weapons as if they were 1 HANDED. The off-hand still contributes only one attack die unless another rule explicitly overrides it."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Goliath
+# GOLIATH
 
 Wield two 2 HANDED melee weapons as if they were 1 HANDED. The off-hand still contributes only one attack die unless another rule explicitly overrides it.
 
-Source: [[Rules System/Skills#STR]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

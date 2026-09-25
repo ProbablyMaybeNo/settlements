@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Chemical Cocktail"
+table: 3
+row: 10
+cols: 4
+skill: "CHEMICAL COCKTAIL"
 stat: "INT"
-skill_type: "Passive"
+usage: "Passive"
 effect: "May resolve two CHEM actions on the same unit. This permission does not make either action free."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Chemical Cocktail
+# CHEMICAL COCKTAIL
 
 May resolve two CHEM actions on the same unit. This permission does not make either action free.
 
-Source: [[Rules System/Skills#INT]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

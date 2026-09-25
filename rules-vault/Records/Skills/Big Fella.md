@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Big Fella"
+table: 0
+row: 14
+cols: 4
+skill: "BIG FELLA"
 stat: "STR"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Ignore UNWIELDY on this unit's weapons."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Big Fella
+# BIG FELLA
 
 Ignore UNWIELDY on this unit's weapons.
 
-Source: [[Rules System/Skills#STR]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

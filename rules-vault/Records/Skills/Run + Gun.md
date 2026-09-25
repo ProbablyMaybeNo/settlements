@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Run + Gun"
+table: 1
+row: 5
+cols: 4
+skill: "RUN + GUN"
 stat: "DEX"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Resolve a SHOOT action at any point during this unit's normal MOVE, then complete any remaining movement. Grants no additional movement or free attack."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Run + Gun
+# RUN + GUN
 
 Resolve a SHOOT action at any point during this unit's normal MOVE, then complete any remaining movement. Grants no additional movement or free attack.
 
-Source: [[Rules System/Skills#DEX]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

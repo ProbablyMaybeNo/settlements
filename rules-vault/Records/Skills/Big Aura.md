@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Big Aura"
+table: 4
+row: 14
+cols: 4
+skill: "BIG AURA"
 stat: "NRV"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Increase this unit's AURA ranges by 3 inches. It may maintain two AURAS simultaneously."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Big Aura
+# BIG AURA
 
 Increase this unit's AURA ranges by 3 inches. It may maintain two AURAS simultaneously.
 
-Source: [[Rules System/Skills#NRV]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

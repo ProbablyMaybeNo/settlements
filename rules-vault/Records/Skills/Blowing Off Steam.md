@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Blowing Off Steam"
+table: 0
+row: 11
+cols: 4
+skill: "BLOWING OFF STEAM"
 stat: "STR"
-skill_type: "Triggered"
+usage: "Triggered"
 effect: "Whenever this unit DOWNS an enemy, remove 2 of its STRESS."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Blowing Off Steam
+# BLOWING OFF STEAM
 
 Whenever this unit DOWNS an enemy, remove 2 of its STRESS.
 
-Source: [[Rules System/Skills#STR]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

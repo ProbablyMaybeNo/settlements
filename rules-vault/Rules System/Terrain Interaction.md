@@ -116,7 +116,7 @@ Applies to interactive features (turrets, traps, cameras, alarms) — not wall
 - Armor −2 (heavy)
 - Cover: Heavy (−2) to be hit, unless the attacker is within 6" → Open (0)
 - Hit + successful Injury → feature goes **Offline** (non-functional; still on the board as terrain/LOS)
-- Repair: adjacent Interact, INT, 7+ → restore to 1 WND and online (Jury-Rig may auto-succeed)
+- Repair: adjacent Interact, INT, 7+ → restore to 1 WND and online
 - If an **Offline** feature is Injured again → Destroyed, removed for the rest of the battle
 
 This is also the shared damage / repair engine for standing **[[Deployables]]** (turrets, beacons). Untriggered traps can be damaged this way. A trap that has already triggered is spent — don't use **Offline** to cancel a boom mid-trigger.
@@ -157,7 +157,7 @@ Deploy (**INT** Interact, adjacent — full catalogue & rules in [[Deployables]]
 
 Trigger: first enemy meeting the condition sets it off once, then spent. Fits Reaction Trigger and explicit skill effects.
 
-Find: Threat Scan, or opposed INT vs the placer for a concealed trap.
+Find: opposed INT vs the placer for a concealed trap.
 
 Disarm (either type) → **DEX** Interact, 7+ (nat 1 = boom). A trap wired into a **Linked** network can *alternatively* be neutralised by hacking the network (**INT** — a Linked terminal or Trojan, see [[Hacking]]).
 

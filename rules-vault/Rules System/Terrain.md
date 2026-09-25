@@ -102,7 +102,7 @@ Trigger: a fighter that ends its Move or activation inside the area suffers t
 
 ^tbl-hazards-the-dangerous-overlay
 
-Forced movement (Knockback, Slam & Throw, etc.) into a Dangerous area triggers it immediately. Steadying yourself in a hazard is an NRV Interact ([[Terrain Interaction]]).
+Forced movement (Throw, Bull or other explicit effects) into a Dangerous area triggers it immediately. Steadying yourself in a hazard is an NRV Interact ([[Terrain Interaction]]).
 
 ### Verticality
 

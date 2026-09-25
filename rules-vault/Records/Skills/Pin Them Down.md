@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Pin Them Down"
+table: 1
+row: 14
+cols: 4
+skill: "PIN THEM DOWN"
 stat: "DEX"
-skill_type: "Passive"
+usage: "Passive"
 effect: "RANGED hits that fail to wound also cause PINNED. Generate STRESS normally; pinning adds no extra Stress."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Pin Them Down
+# PIN THEM DOWN
 
 RANGED hits that fail to wound also cause PINNED. Generate STRESS normally; pinning adds no extra Stress.
 
-Source: [[Rules System/Skills#DEX]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

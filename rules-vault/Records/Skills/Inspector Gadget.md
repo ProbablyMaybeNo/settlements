@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Inspector Gadget"
+table: 3
+row: 12
+cols: 4
+skill: "INSPECTOR GADGET"
 stat: "INT"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Equip up to three EQUIPMENT items for battle."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Inspector Gadget
+# INSPECTOR GADGET
 
 Equip up to three EQUIPMENT items for battle.
 
-Source: [[Rules System/Skills#INT]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

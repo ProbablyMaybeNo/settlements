@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Roar"
+table: 4
+row: 9
+cols: 4
+skill: "ROAR"
 stat: "NRV"
-skill_type: "Action"
+usage: "Action"
 effect: "Once per turn, spend an ACTION and test NRV. Until this unit's next activation, enemies must pass NRV to CHARGE it or friendlies within 3 inches."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Roar
+# ROAR
 
 Once per turn, spend an ACTION and test NRV. Until this unit's next activation, enemies must pass NRV to CHARGE it or friendlies within 3 inches.
 
-Source: [[Rules System/Skills#NRV]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

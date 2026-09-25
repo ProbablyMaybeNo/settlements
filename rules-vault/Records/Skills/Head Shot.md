@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Head Shot"
+table: 1
+row: 1
+cols: 4
+skill: "HEAD SHOT"
 stat: "DEX"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Gain +4 to injure MARKED targets with RANGED ATTACKS if this unit has not moved this turn."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Head Shot
+# HEAD SHOT
 
 Gain +4 to injure MARKED targets with RANGED ATTACKS if this unit has not moved this turn.
 
-Source: [[Rules System/Skills#DEX]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

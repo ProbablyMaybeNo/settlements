@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Last Laugh"
+table: 4
+row: 5
+cols: 4
+skill: "LAST LAUGH"
 stat: "NRV"
-skill_type: "Triggered"
+usage: "Triggered"
 effect: "Once per turn, when an enemy attack would DOWN this unit, first make one final SHOOT or MELEE ATTACK against that enemy if it is a legal target. Then resolve this unit becoming DOWNED."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Last Laugh
+# LAST LAUGH
 
 Once per turn, when an enemy attack would DOWN this unit, first make one final SHOOT or MELEE ATTACK against that enemy if it is a legal target. Then resolve this unit becoming DOWNED.
 
-Source: [[Rules System/Skills#NRV]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Bullet Time"
+table: 1
+row: 4
+cols: 4
+skill: "BULLET TIME"
 stat: "DEX"
-skill_type: "Attack modifier"
+usage: "Attack modifier"
 effect: "Once per turn when resolving a SHOOT action, divide the combined attack dice between the initial target and additional enemies within 6 inches of it. Each target requires LOS and the contributing weapon's range."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Bullet Time
+# BULLET TIME
 
 Once per turn when resolving a SHOOT action, divide the combined attack dice between the initial target and additional enemies within 6 inches of it. Each target requires LOS and the contributing weapon's range.
 
-Source: [[Rules System/Skills#DEX]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

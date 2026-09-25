@@ -130,7 +130,7 @@ Scoring stops the instant you bottle or clear the board — see [[Scenarios#Conc
 - **Being Downed clears nothing** — see *Stress and Down* above. A Down unit neither tests nor sheds; its Stress waits for it.
 - **A point of Stress never clears on the round you gain it — it carries to your next turn.** A unit at **exactly 1 Stress** sheds it in the End Phase **only on a round where it took no new Stress.** So a fighter tagged in melee **stays Shaken (−1) right through its next turn** and only shrugs it off after a *clean* round — do **not** reduce it to 0 at the end of the turn it was hit. (At 2+ Stress you can't passively drain a real panic at all; you must pass a Break test.)
 - **Everything else is a skill.** Removing Stress before/without a test, shedding it faster, or ending a **Bolt/Broken** state early comes from the **NRV skills** ([[Skills]]) — *Inspire, Rally, Sin Eater*, and other printed effects. Deliberately: composure is a build choice, not free.
-- **BugOut can't be rallied** — the unit has already routed. It can only be stopped *at the moment of failure* by *Talk Them Down* or *Stand Your Ground*.
+- **BugOut cannot be rallied** unless a current skill explicitly says otherwise.
 
 ## Rule ledger
 - [[core-006 Morale and suppression]]

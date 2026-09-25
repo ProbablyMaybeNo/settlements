@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Acrobatic"
+table: 2
+row: 9
+cols: 4
+skill: "ACROBATIC"
 stat: "AGI"
-skill_type: "Passive"
+usage: "Passive"
 effect: "Climb scalable structures without climbing gear or access points. Climbing costs movement equal to half the structure's height."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Acrobatic
+# ACROBATIC
 
 Climb scalable structures without climbing gear or access points. Climbing costs movement equal to half the structure's height.
 
-Source: [[Rules System/Skills#AGI]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

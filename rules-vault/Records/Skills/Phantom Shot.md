@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Phantom Shot"
+table: 2
+row: 4
+cols: 4
+skill: "PHANTOM SHOT"
 stat: "AGI"
-skill_type: "Passive"
+usage: "Passive"
 effect: "When SHOOTING while HIDDEN, hits that fail to wound inflict additional STRESS. Additional amount requires ruling."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Phantom Shot
+# PHANTOM SHOT
 
 When SHOOTING while HIDDEN, hits that fail to wound inflict additional STRESS. Additional amount requires ruling.
 
-Source: [[Rules System/Skills#AGI]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

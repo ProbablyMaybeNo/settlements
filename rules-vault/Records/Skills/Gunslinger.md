@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Gunslinger"
+table: 1
+row: 3
+cols: 4
+skill: "GUNSLINGER"
 stat: "DEX"
-skill_type: "Passive"
+usage: "Passive"
 effect: "When dual wielding 1 HANDED RANGED weapons, the off-hand contributes its full attack dice to the combined SHOOT action."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Gunslinger
+# GUNSLINGER
 
 When dual wielding 1 HANDED RANGED weapons, the off-hand contributes its full attack dice to the combined SHOOT action.
 
-Source: [[Rules System/Skills#DEX]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*

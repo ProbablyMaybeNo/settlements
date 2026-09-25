@@ -1,16 +1,19 @@
 ---
-type: "skills"
+type: skills
 catalogue: "Skills"
-name: "Grapple"
+table: 0
+row: 0
+cols: 4
+skill: "GRAPPLE"
 stat: "STR"
-skill_type: "Action"
+usage: "Action"
 effect: "Make an opposed STR test against an enemy within 1 inch. On success, it becomes GRAPPLED; see Keywords for holding, escape and Meat Shield."
-source: "Rules System/Skills.md"
-tags: ["settlements/record", "settlements/crew/skill"]
+source: "Skills.md"
+tags: [settlements/record, settlements/crew/skill]
 ---
 
-# Grapple
+# GRAPPLE
 
 Make an opposed STR test against an enemy within 1 inch. On success, it becomes GRAPPLED; see Keywords for holding, escape and Meat Shield.
 
-Source: [[Rules System/Skills#STR]]
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
