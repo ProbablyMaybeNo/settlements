@@ -11,6 +11,16 @@ tags: [settlements/inbox]
 ---
 # 🧠 Unsorted (type freely here)
 
+## Nerves
+
+Berserker ~ OFFENSE
+
+Commissar - SUPPORT
+
+BUFFER
+
+TEST NERVES TO TRIGGER 
+
 ## intelligence 
 
 Strategist -
