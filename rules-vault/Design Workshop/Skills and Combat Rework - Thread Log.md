@@ -1039,7 +1039,7 @@ This bonus does not itself alter the outcome of Stabilize, restore Wounds, waive
 
 ## 18. INTELLIGENCE — Ross's full fifteen-skill proposal (2026-09-24)
 
-Latest conceptual roster: Hacker / Tactician / Artificer / Medic, three skills each, plus three flex. This supersedes the earlier proposed Engineer/Saboteur grouping and the partial voice drafts where they differ. Ross requests evaluation, not live integration or final balance approval.
+Latest conceptual roster: Hacker / Tactician / Artificer / Medic, three skills each, plus three flex. This supersedes the earlier proposed Engineer/Saboteur grouping and the partial voice drafts where they differ. The table includes the subsequently confirmed TAGGED replacement and Chemical Cocktail / Stims grouping swap. Concept selection is complete; no live integration or final balance approval.
 
 | Archetype | Skill | Proposed effect |
 | --- | --- | --- |
@@ -1048,15 +1048,15 @@ Latest conceptual roster: Hacker / Tactician / Artificer / Medic, three skills e
 | Hacker | Interrupt | While in base contact with an active terminal, when an enemy interacts with another terminal within 12 inches, test INT head-to-head. On success cancel the interaction and FREEZE that terminal until the end of the next turn. May be used even after this unit has activated. |
 | Tactician — support | Tunnels | After board setup, before deployment, place two tunnel tokens: 8 inches from enemy deployment or units, 12 inches from each other, 6 inches from the board edge. Secretly hold two crew units back during deployment. During battle, deploy one model at a tunnel; the same tunnel cannot serve both units. Activate the arriving unit normally; enemies may react to its arrival. |
 | Tactician | Strategist | Once per game, during any turn's initiative phase, decide who activates first. |
-| Tactician | Inspire | Once per turn, automatically rally a BROKEN unit within 12 inches and LOS. |
+| Tactician | Tagged | Test INT while within 12 inches and LOS of an UNCONTESTED objective. On success, your crew controls it until an enemy captures it. Your crew may have only one TAGGED objective at a time. |
 | Artificer — defensive offence | MOLLE | Equip up to three unique DEPLOYABLES for battle. |
 | Artificer | Technician | +4 INT when testing to set up a DEPLOYABLE during battle. |
 | Artificer | Quick Drop | Once per turn, after successfully placing a DEPLOYABLE, place another for free within LOS and 8 inches of the first. |
 | Medic — support/buffs | Stabilize | +4 INT for STABILIZE tests. A successful Stabilize also removes all target Stress. May spend an action to Stabilize a non-Down unit and reduce its Stress to zero. Once per turn. |
-| Medic | Stims | Once per turn, give two units within 6 inches an additional MOVE action during their next activation. Each target gains 1 Stress at the end of that activation. |
+| Medic | Chemical Cocktail | Resolve two CHEM actions on the same unit. |
 | Medic | Doc | Equip up to three unique CHEMS. Once per turn, resolve a free CHEM action on a friendly within 6 inches. |
 | Flex | Inspector Gadget | Equip up to three EQUIPMENT items for battle. |
-| Flex | Chemical Cocktail | Resolve two CHEM actions on the same unit. |
+| Flex | Stims | Once per turn, give two units within 6 inches an additional MOVE action during their next activation. Each target gains 1 Stress at the end of that activation. |
 | Flex | Smart | Resolve a free INTERACT action once per turn. |
 
 ### Changes from earlier discussion and deferred details
@@ -1075,6 +1075,15 @@ Latest conceptual roster: Hacker / Tactician / Artificer / Medic, three skills e
 ### Concept review — assistant assessment, not adopted changes
 
 Retain the four groups for discussion: environmental/device control; deployment and activation timing; deployable positioning; medical and chem support. Medic now has work before casualties occur. Tactician's Inspire overlaps NRV's intended rally/leadership identity more than its other two skills; consider a positioning/redeployment alternative if needed after NRV is designed. Chemical Cocktail is strongly chem-specific and might fit Medic better, with Stims a potential broader flex choice. Capacity skills must remain distinct from Inspector Gadget to avoid one subsuming another. Strong combinations are intentional; no balance or action-economy approval is implied by keeping the concepts.
+
+### INT concept pass completed — subsequent decisions
+
+- Ross explicitly swapped Chemical Cocktail into Medic and Stims into flex. Effects are unchanged. Medic is Stabilize / Chemical Cocktail / Doc; flex is Inspector Gadget / Stims / Smart.
+- INSPIRE leaves INT and belongs in NRV. Retain its proposed once-per-turn automatic rally of a Broken unit within 12 inches and LOS as a candidate for the Nerve pass, not an automatically finalised NRV slot.
+- TAGGED replaces INSPIRE in Tactician. UNCONTESTED will have a shared entry in the rulebook's KEYWORD section at integration time, rather than repeating its definition in the skill. Its exact definition and the handling of the previous tag when tagging another objective remain for the mechanics pass. The proposed meaning was no enemy within control range; do not silently equate this with every possible objective-control use of uncontested.
+- STICKY was the earlier physical-presence version, superseded by TAGGED's remote INT test. Contingency, Decoy, Sabotaged Approach and Prepared Ground were assistant alternatives, not selected.
+- NRV should own rallying and most Stress management. STABILIZE is retained as a deliberate medical exception. This does not automatically remove previously selected Stress effects from STR, AGI or other groups; reconcile boundaries in the final pass.
+- The preceding concept-review paragraph records the earlier assessment; the current table and these decisions supersede its unadopted replacement/swap suggestions. Proceed to NRV; action costs, frequencies, interaction scopes and balance remain deferred.
 
 ## 19. Eventual integration checklist — inactive until authorised
 
