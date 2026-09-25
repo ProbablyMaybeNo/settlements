@@ -15,11 +15,10 @@ tags: [settlements/inbox]
 
 Berserker ~ OFFENSE
 
+- generate stress and then expend to deal big damage 
+
 Commissar - SUPPORT
 
-BUFFER
-
-TEST NERVES TO TRIGGER 
 
 ## intelligence 
 
