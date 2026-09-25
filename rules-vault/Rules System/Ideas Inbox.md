@@ -15,7 +15,7 @@ tags: [settlements/inbox]
 
 Strategist -
 
-Tunnels - after terrain has been placed before deployment. Place two tunnel tokens on the board. 
+Tunnels - after terrain has been placed before deployment. Place two tunnel tokens anywhere on the board 8” from enemy deployment 
 
 ## SKILLS TACTICS
 
@@ -25,7 +25,7 @@ Tunnels - after terrain has been placed before deployment. Place two tunnel toke
 
 *INT* - SUPPORT/CONTROL RANGE
 
-*AGI* - DPS MELEE
+*AGI* - DPS MELEE.       
 
 *NRV* - SUPPORT/CONTROL AOE
 
