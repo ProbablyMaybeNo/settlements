@@ -11,6 +11,12 @@ tags: [settlements/inbox]
 ---
 # 🧠 Unsorted (type freely here)
 
+## intelligence 
+
+Strategist -
+
+
+
 ## SKILLS TACTICS
 
 *STR* - TANK / 
