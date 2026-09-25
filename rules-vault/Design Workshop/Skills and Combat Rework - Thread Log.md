@@ -1037,7 +1037,46 @@ Ross moved from Hacker to Medic and proposed its base skill:
 
 This bonus does not itself alter the outcome of Stabilize, restore Wounds, waive medical equipment requirements, or change its action cost. The other two Medic skills remain open.
 
-## 18. Eventual integration checklist — inactive until authorised
+## 18. INTELLIGENCE — Ross's full fifteen-skill proposal (2026-09-24)
+
+Latest conceptual roster: Hacker / Tactician / Artificer / Medic, three skills each, plus three flex. This supersedes the earlier proposed Engineer/Saboteur grouping and the partial voice drafts where they differ. Ross requests evaluation, not live integration or final balance approval.
+
+| Archetype | Skill | Proposed effect |
+| --- | --- | --- |
+| Hacker — control/offence | Neural Uplink | +4 INT when resolving HACKING tests. |
+| Hacker | Trojan | Test INT to take control of an enemy DEPLOYABLE with ELECTRIC. Immediately resolve an action with it. SINGLE USE deployables may be triggered or defused; resolve their action if triggered, then remove them in either case. |
+| Hacker | Interrupt | While in base contact with an active terminal, when an enemy interacts with another terminal within 12 inches, test INT head-to-head. On success cancel the interaction and FREEZE that terminal until the end of the next turn. May be used even after this unit has activated. |
+| Tactician — support | Tunnels | After board setup, before deployment, place two tunnel tokens: 8 inches from enemy deployment or units, 12 inches from each other, 6 inches from the board edge. Secretly hold two crew units back during deployment. During battle, deploy one model at a tunnel; the same tunnel cannot serve both units. Activate the arriving unit normally; enemies may react to its arrival. |
+| Tactician | Strategist | Once per game, during any turn's initiative phase, decide who activates first. |
+| Tactician | Inspire | Once per turn, automatically rally a BROKEN unit within 12 inches and LOS. |
+| Artificer — defensive offence | MOLLE | Equip up to three unique DEPLOYABLES for battle. |
+| Artificer | Technician | +4 INT when testing to set up a DEPLOYABLE during battle. |
+| Artificer | Quick Drop | Once per turn, after successfully placing a DEPLOYABLE, place another for free within LOS and 8 inches of the first. |
+| Medic — support/buffs | Stabilize | +4 INT for STABILIZE tests. A successful Stabilize also removes all target Stress. May spend an action to Stabilize a non-Down unit and reduce its Stress to zero. Once per turn. |
+| Medic | Stims | Once per turn, give two units within 6 inches an additional MOVE action during their next activation. Each target gains 1 Stress at the end of that activation. |
+| Medic | Doc | Equip up to three unique CHEMS. Once per turn, resolve a free CHEM action on a friendly within 6 inches. |
+| Flex | Inspector Gadget | Equip up to three EQUIPMENT items for battle. |
+| Flex | Chemical Cocktail | Resolve two CHEM actions on the same unit. |
+| Flex | Smart | Resolve a free INTERACT action once per turn. |
+
+### Changes from earlier discussion and deferred details
+
+- Neural Uplink now names HACKING tests without the former explicit at-terminal restriction. Which other skills count as HACKING tests remains to be classified.
+- Trojan replaces the Hijack name; ELECTRIC is Ross's latest keyword spelling. Immediate use is specified, but the duration of control over a reusable device and range remain open.
+- Interrupt replaces Counter-Hack; its range is now 12 inches and it explicitly uses opposed INT. The latest trigger says terminal interaction, broader than the earlier hack-only interpretation; do not silently narrow it. Exact range origin, frequency, network rules and FREEZE recovery timing remain for later.
+- Tunnels' placement distances are recorded as supplied; minimum/exact interpretation, arrival timing and declaration secrecy require wording later. No extra activation inferred from arrival.
+- Medic was questioned as too narrow during voice discussion. Field Support, Reinforce Armour and Extraction were suggestions, not selected. This full proposal restores Medic as a broader medical/chem support archetype.
+- Stabilize's non-Down use test requirement and scope of once-per-turn need clarification later. Preserve full Stress clearance and do not restore the earlier bonus-only effect.
+- Capacity effects need a shared equipment taxonomy: equipment, deployables and chems may be overlapping categories. Do not infer additive slots, free purchases, replenishment, or waived consumable use from these skills.
+- Quick Drop's free placement must later specify carried stock, setup tests and legal placement; no free creation of a device is assumed. Its 8-inch placement is a meaningful remote-placement benefit as well as an action saving.
+- Chemical Cocktail supplies permission for two CHEM actions, not automatically two free actions. Stims does not yet specify whether it is itself a CHEM action.
+- Smart's INTERACT scope must eventually be reconciled with terminal use, objectives, deployable setup and medical actions. Do not assume all named INT actions qualify.
+
+### Concept review — assistant assessment, not adopted changes
+
+Retain the four groups for discussion: environmental/device control; deployment and activation timing; deployable positioning; medical and chem support. Medic now has work before casualties occur. Tactician's Inspire overlaps NRV's intended rally/leadership identity more than its other two skills; consider a positioning/redeployment alternative if needed after NRV is designed. Chemical Cocktail is strongly chem-specific and might fit Medic better, with Stims a potential broader flex choice. Capacity skills must remain distinct from Inspector Gadget to avoid one subsuming another. Strong combinations are intentional; no balance or action-economy approval is implied by keeping the concepts.
+
+## 19. Eventual integration checklist — inactive until authorised
 
 1. Produce a reviewed, internally consistent proposal from the current direction and close relevant open questions.
 2. Reconcile d20 resolution, Stress, Pinned, attack outcomes, skills, and progression together.
