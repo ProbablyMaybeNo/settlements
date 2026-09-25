@@ -15,7 +15,7 @@ tags: [settlements/inbox]
 
 Strategist -
 
-
+Tunnels - after terrain has been placed before deployment. Place two tunnel tokens on the board. 
 
 ## SKILLS TACTICS
 
