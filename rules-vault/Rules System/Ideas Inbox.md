@@ -19,6 +19,11 @@ Berserker ~ OFFENSE
 
 Commissar - SUPPORT
 
+- Remove stress from friendly units, rally units within 12”, give two friendly units an additional action
+
+IRONMAN - defense 
+
+UNBREAKABLE - after a successful combat action remove 2 stress from this unit and any friendly units with 3” 
 
 ## intelligence 
 
