@@ -48,7 +48,7 @@ Most Interacts are auto-pass or a solo **7+** test.
 When two units contest the same object at the same time, use an **Opposed Test** (`1d10 + Stat + mods`, highest wins, **ties to the defender**):
 
 - **Lift contest** — opposed **STR**; defender = carrier / first claim.
-- Skills may create other contests (e.g. **Doorstop**); they still use this pattern.
+- Skills may create other contests when explicitly printed; they still use this pattern.
 - Digital contests (hacking, the Interrupt) → [[Hacking]].
 
 ### Stat ownership
@@ -83,7 +83,7 @@ There is no Barricade verb. Blocking openings is done with Lift.
 
 - Lift a Movable object and drop it blocking an Openable opening.
 - That opening becomes Blocked: it cannot be used until someone Lifts the object clear (STR, 7+), or opposed STR if contested.
-- Skills (Deadlift, Power Position, Doorstop) override or contest as written.
+- Skills override ordinary interactions only as explicitly printed in [[Skills]].
 
 ### Searching and looting
 
@@ -155,11 +155,11 @@ Deploy (**INT** Interact, adjacent — full catalogue & rules in [[Deployables]]
 - Nat 1 → triggers on the placer
 - Pre-battle settlement traps skip the roll: deploy armed and concealed
 
-Trigger: first enemy meeting the condition sets it off once, then spent. Fits Reaction Trigger and skills (Tripwire Eye, One in a Million).
+Trigger: first enemy meeting the condition sets it off once, then spent. Fits Reaction Trigger and explicit skill effects.
 
 Find: Threat Scan, or opposed INT vs the placer for a concealed trap.
 
-Disarm (either type) → **DEX** Interact, 7+ (nat 1 = boom). A trap wired into a **Linked** network can *alternatively* be neutralised by hacking the network (**INT** — Jam Signals / Linked terminal / related skills, see [[Hacking]]).
+Disarm (either type) → **DEX** Interact, 7+ (nat 1 = boom). A trap wired into a **Linked** network can *alternatively* be neutralised by hacking the network (**INT** — a Linked terminal or Trojan, see [[Hacking]]).
 
 Deployables: Lifted scatter (Blocked openings), carried traps, settlement turrets/terminals.
 

@@ -5,7 +5,7 @@ tags: [settlements/reference, settlements/analysis, settlements/mechanic/attack-
 ---
 # 🎲 Attack Dice — Sim Findings
 
-Sim pass on [[15b · Attack Dice]], run 2026-08-29. Mirrors the [[core-000 Core Test]] / [[Dice Mechanic — Sim Findings]] harness exactly — same core test, same seed `20260708`, same 10,000-sample standard. Harness: `test-bench/attack_dice_sim.py`, stamped as `attack-dice-15b-n10000-e2b861d61-h326cd413`.
+Sim pass on [[15b · Attack Dice]], run 2026-08-29. Mirrors the [[core-000 Core Test]] / historical analysis (archived) harness exactly — same core test, same seed `20260708`, same 10,000-sample standard. Harness: `test-bench/attack_dice_sim.py`, stamped as `attack-dice-15b-n10000-e2b861d61-h326cd413`.
 
 **Every headline figure here is exact**, by full enumeration of the 10-face space. The chain is analytically closed, so Monte-Carlo would only add sampling error; the 10k run is carried as a cross-check and agrees in every cell.
 
@@ -95,7 +95,7 @@ Stress accrues **only on a hit that fails to wound**. A wound gives no Stress ([
 > | Rules-correct (Pin only) | 0.090 | **0.744** |
 > | Change | +4.2% (noise) | **−57.8%** |
 >
-> The **"~1.75 breaks per fight"** in [[Dice Mechanic — Sim Findings]] §7 — the evidence for "morale is now a **duration** mechanic", which "self-corrected the inert morale problem" — is **roughly double** what the written rules produce. The correct figure is **~0.74**. The qualitative conclusion may well survive (0.74 is still far above the WND-1 rate of 0.09, so morale does still wake up in grinds), but the headline number is wrong and the margin is smaller than the note claims.
+> The **"~1.75 breaks per fight"** in historical analysis (archived) §7 — the evidence for "morale is now a **duration** mechanic", which "self-corrected the inert morale problem" — is **roughly double** what the written rules produce. The correct figure is **~0.74**. The qualitative conclusion may well survive (0.74 is still far above the WND-1 rate of 0.09, so morale does still wake up in grinds), but the headline number is wrong and the margin is smaller than the note claims.
 >
 > **This is a separate defect from Attack Dice and wants its own pass.** Nothing in this note depends on it — the Attack Dice harness applies the rules-correct version throughout.
 
@@ -159,7 +159,7 @@ Cost is **fielded** (body + weapon). Open target, unarmoured.
 > [!danger] AD 3 is an auto-include at the draft price
 > Every Attack Dice rung outperforms every Damage step per Credit, and **AD 3 beats the Heavy Gunner benchmark by +51% on identical fielded Credits (175 vs 175)** — under the *pessimistic* `stop_on_down` reading. Under `resolve_all` it is worse again.
 >
-> [[Dice Mechanic — Sim Findings]] takeaway #6 asked for price-plus-terrain-gate on Heavy Gunner. This wants the same treatment: **the derived price below, AND a rarity/rank gate.**
+> historical analysis (archived) takeaway #6 asked for price-plus-terrain-gate on Heavy Gunner. This wants the same treatment: **the derived price below, AND a rarity/rank gate.**
 
 ## 6 · What it should cost — derived, not asserted
 
@@ -215,4 +215,4 @@ They **disagree on the shape**, and that disagreement is the whole ruling:
 > [!info] `[[15b · Attack Dice]]` is a deliberate dangling link
 > The Phase 15b draft was handed over in chat and has never been filed to the vault. The link marks it as owed, not missing.
 
-See [[15b · Attack Dice]] · [[Dice Mechanic — Sim Findings]] · [[Weapons]] · [[Shooting]] · [[Damage]] · [[Conditions]] · [[Morale]] · [[List Building]].
+See [[15b · Attack Dice]] · historical analysis (archived) · [[Weapons]] · [[Shooting]] · [[Damage]] · [[Conditions]] · [[Morale]] · [[List Building]].

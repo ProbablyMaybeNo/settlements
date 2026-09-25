@@ -46,7 +46,7 @@ Melee is an **opposed** test — a brawler really is harder to hit than a shakin
 `Attacker 1d10 + STR` vs `Defender 1d10 + STR`
 
 - **Highest total wins. Ties go to the defender.**
-- Some weapons/skills swap the stat — a knife or agile skill may use **AGI**; a heavy weapon is **STR only** (see [[Weapons]]).
+- Some weapons/skills swap the stat — an **AGILE weapon** may use **AGI**; a heavy weapon is **STR only** (see [[Weapons]]).
 - The **winner lands the hit** → **Injury roll** (see [[Damage]]).
 - **Facing does not apply in melee.** Once Engaged, either fighter attacks regardless of which way the models face.
 

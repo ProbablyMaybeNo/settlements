@@ -19,7 +19,7 @@ tags: [settlements/rule, settlements/cat/core]
 - **2+ Stress:** End Phase Break test — `1d10 + NRV − (Stress − 1)` vs **7+** (Shaken −1 does not apply here).
   - Pass → clear all Stress.
   - Fail → Nerve state by Stress, then lose 1 Stress: **2 Bolt · 3 Broken · 4+ BugOut**.
-- Recovery otherwise comes from Bravery skills ([[Skill Paths]]). BugOut cannot be rallied after it starts.
+- Recovery otherwise comes from Bravery skills ([[Skills]]). BugOut cannot be rallied after it starts.
 - **Stress survives going Down** ([[Full Rules System v1]] §§9–11, drafted 2026-08-29, **pending playtest**). A Down unit **keeps its Stress and takes no Break tests until Stabilized** — the clock stops, the pressure does not reset. Measured in [[Stress Persistence — Sim Findings]].
 - **Surplus Attack Dice hits convert to +1 Stress each** ([[core-002 Shooting]], §15, ruled 2026-08-29) — a burst wastes nothing. With persistence in force this is where a burst's suppression actually lands.
 

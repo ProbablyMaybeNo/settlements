@@ -24,10 +24,10 @@ tags:
 > - **§26.3 Fate:** natural 1 is always Dead, natural 10 always Hardened, modifiers capped
 >   at **+2**. Fixes a real bug — a staffed Med-bay made death impossible.
 > - **§26.1 Levels:** Primary is derived and permanent; **no declared Secondary** (levels
->   1/4/8 float to any stat); **skill tier is gated by the stat**, +2/+4/+6 → T1/T2/T3.
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 > - **§9 / Out of Scope §4:** WND is capped at **3**, logged as a deliberate tenet exception.
 > - **§3 Dodge:** the winning move is **half MOV**, not full.
-> - **§16:** Match Play skill counts are **exact** (one per tier reached); Campaign Start
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 >   keeps the Specialist ratio.
 > - **§22:** ten worker benefits ship, ten are parked.
 > - **§12.6:** the Seeker mine chassis is parked. **§27:** Trader's caravan → Burst main.
@@ -285,7 +285,7 @@ Every hit does *something*. No wasted hits.
 
 **Weapon Damage** is a small class: +0 unarmed · +1 light · +2 medium · +3 heavy (see Weapons, §16, for the full construction system and reconciled Credit pricing). **Armor** reduces Injury only: 0 none · −1 light · −2 heavy.
 
-**Melee is decisive** — a melee kill goes straight to Out of Action, no bleed-out. **Ranged/hazard kills leave a fighter Down** (alive, prone, counts as Heavy cover vs ranged unless in the open; a melee/engaged attack auto-hits to finish it, ranged resolves normally). A Down unit must be Stabilized by the end of its **next** activation or bleeds out. Stabilize = Action + INT 7+ (−2 without a Med-Kit; a Medic skill auto-succeeds).
+**Melee is decisive** — a melee kill goes straight to Out of Action, no bleed-out. **Ranged/hazard kills leave a fighter Down** (alive, prone, counts as Heavy cover vs ranged unless in the open; a melee/engaged attack auto-hits to finish it, ranged resolves normally). A Down unit must be Stabilized by the end of its **next** activation or bleeds out. Stabilize = Action + INT 7+ (−2 without a Med-Kit; the Stabilize skill adds +4 INT and its printed Stress recovery).
 
 **A Down unit keeps its Stress** *(drafted 2026-08-29 — §11)*. It takes no Break tests while Down and sheds nothing, then returns carrying every point. Stabilized at **2+ Stress** means a Break test in the next End Phase; at **4+**, a failure removes it. **You can patch the body faster than the nerve.**
 
@@ -492,7 +492,7 @@ Five path-stats, plus two fixed values:
 | Stat | Governs |
 |---|---|
 | **WND** | How many serious hits before Down/Out. Fixed at **1** for everyone; raised only by the **Tough** skill. |
-| **MOV** | Inches per Move. Fixed at **6"**; raised only by the **Fleet** skill. |
+| **MOV** | Inches per Move. Fixed at **6"**; raised only by the **Quick** skill. |
 | **STR** | Melee, breaching, hauling, lifting, carrying |
 | **AGI** | Climbing, jumping, dodging, escaping, repositioning |
 | **DEX** | Ranged combat, throwing, lockpicking, trap work, delicate equipment |
@@ -501,87 +501,42 @@ Five path-stats, plus two fixed values:
 
 Each **+1** ≈ +10% on a core test, bounded 10–90%. **Max is +6.**
 
-| Value | Meaning | Tier |
+| Value | Meaning | Skill tier (none) |
 |---|---|:---:|
 | −1 | Impaired | — |
 | 0 | Civilian baseline | — |
 | +1 | Capable (a "dabble" — no tier, no skill) | — |
-| +2 | Skilled | **T1** |
-| +4 | Veteran | **T2** |
-| +6 | Peak/master | **T3** |
+| +2 | Skilled | — |
+| +4 | Veteran | — |
+| +6 | Peak/master | — |
 
 ### Rank vs Role
 **Rank** = command slot, restricted, sets stat points/skills/Orders/caps. **Role** (Brawler, Techie, Medic…) is **emergent** from stats/skills/gear — unlimited, narrative, never restricts fielding.
 
 ### Ranks
 
-| Rank | Stat pts | Tier caps | Orders |
+| Rank | Stat pts | Stat allocation caps | Orders |
 |---|:---:|---|:---:|
-| **Recruit** | 3 | none — no tiered stat | 0 |
-| **Fighter** | 5 | 2× T1 | 0 |
-| **Specialist** | 7 | 1× T2 · 2× T1 | 1 |
-| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | 2 |
+| **Recruit** | 3 | each stat at most +1 | 0 |
+| **Fighter** | 5 | 2 stats reaching +2 | 0 |
+| **Specialist** | 7 | **Undecided** | 1 |
+| **Leader** | 9 | **Undecided** | 2 |
 
-**Starting skill count now depends on which game you're building for, not rank alone** — a richer kit for a one-off Match Play crew, a leaner one for a fresh Campaign Start crew that's meant to grow. Full breakdown and Credits costs for both in §16.
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
-A rank grants **more points than can spike into one stat** — tier caps force the spread, so a Fighter (5 pts, max 2×T1) builds something like `STR+2 / INT+2 / AGI+1`, not one giant number. Only a **Leader** ever reaches T3. Recruits get no tiered stat and no skills — pure chaff/screen bodies, not a melee force. **Rank is also a weapon gate** (§16) — a Recruit physically cannot hold a rifle. **Rank rises only via deliberate promotion into an open slot** (§27), never automatically.
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
 **Fielding costs live in §16 (List Building), on the 850-Credit scale — the old 5/8/16/24 ladder is deprecated, and so is the 1000-Credit scale that replaced it.**
 
 ---
 
-## 14 · Skill Paths **[DRAFTED — full catalogue]**
+## 14 · Skills
 
-Skills are the **third lever**: stats decide if you hit, weapons decide how bad, **skills decide what else happens**. A skill is a verb or a conditional exception, never a flat stat bump.
+The canonical 75-skill catalogue is embedded below. One tier, fifteen skills per stat. Acquisition remains explicitly undecided; previous tier gates and selection rules no longer apply. Detailed integration questions are tracked separately.
 
-**A stat hands you a skill every time it reaches a tier.** No separate skill pool. A stat at +4 grants both its T1 and T2 skill; at +6, T1+T2+T3. You choose the specific skill from that stat's path at that tier (may take a lower tier if preferred). Picked at crew-build, and again in campaign whenever an Advance tips a stat into a new tier.
+![[Skills]]
 
-| Stat | Path | Covers |
-|---|---|---|
-| **STR** | Combat / Muscle | melee, force, grappling, breaking, hauling |
-| **DEX** | Shooting / Perception | ranged, aim, spotting, trick shots |
-| **AGI** | Movement / Acrobatics | climbing, dodging, repositioning, escaping |
-| **INT** | Expertise / Knowledge | hacking, traps, medicine, tech, terrain |
-| **NRV** | Bravery / Morale | rallying, resisting fear, reckless aggression |
-
-**Design contract:** T1 = reliable options and narrow exceptions. T2 = role-defining actions. T3 = campaign-earned, fight-swinging. Any modifier from a skill is conditional, capped at ±3. Difficulty is always a modifier on 7+, never a raised target number. At most one attack per activation unless a skill explicitly overrides it.
-
-### Combat / Muscle (STR)
-**T1 — Good:** Heavy Hands (+1 melee vs Pinned/Grappled) · Knockback (push 2" after a melee win) · Breakdown (auto-open/destroy adjacent Breachable) · Deadlift (carry Movable terrain at half MOV) · Strong Arm (2× thrown range) · Grapple (opposed STR replaces attack) · Bodyguard (redirect an attack to yourself once/round) · Rooted (ignore forced movement on a STR test) · Pack Mule (carry without Move penalty, can Sprint not Charge) · Doorstop (contest a door with opposed STR).
-
-**T2 — Great:** Muscle Override (force a powered/locked door, Loud) · Human Shield (grappled enemy blocks LOS as Heavy cover) · Super Slam (failed-injury Charge → Suppressed not Shaken) · Squeeze (auto-hit a Grappled target) · Come Along (drag a Grappled enemy at full MOV) · Disarm (forgo Injury to strip a held item) · Breach and Clear (move 3" through a door you just opened) · Power Position (move/rotate adjacent Movable terrain 3") · Fireman's Carry (carry + Stabilize a Down friendly at full MOV) · Clinch (stop a Disengage you hit).
-
-**T3 — Amazing:** Tough (**+1 WND** — the only way to raise it) · The Muscle (+2 Injury on first Charge hit) · Slam & Throw (place a Grappled enemy anywhere within 5", Pinned) · Falcon Punch (push 4" on Charge hit, Pinned on contact) · Wrecking Crew (bonus −2 melee attack if Charge downs the target) · Juggernaut (Charge through a door, destroying it) · Crushing Hold (failed Grapple escape → Pinned + Bleed) · Living Barricade (redirect a saved shot to yourself) · Structural Collapse (destroy 4" of Breachable terrain, Pin everyone within 2") · Too Angry to Drop (ignore a Pin for 1 Stress).
-
-### Shooting / Perception (DEX)
-**T1 — Good:** Long Barrel (+5" rifle range if stationary — *superseded by Long Range characteristic, needs a rewrite*) · Ready to React (pre-emptive Ready vs Charges) · Bank Shot (miss-by-1 vs cover → target Pinned) · Sharp Eyes (Spot at 18") · Muzzle Flash (auto-Spot a shooter within 24") · Covering Fire (lane suppression) · Called Shot (forgo Injury to disarm/Hobble) · Shoot and Shift (2" repositioning after firing) · Crossfire (Pinned target that fails Injury → Suppressed) · Tripwire Eye (shoot a trigger from range).
-
-**T2 — Great:** Sniper (12"+ miss-by-1, stationary → Pinned) · I See You (Hidden penalty −3→−2 vs Spotted targets) · Lookout (Spot for allies too) · One in a Million (shoot a trigger at max range) · Kill Lane (3"-wide reaction lane) · Relocation Drill (3" move after firing from cover) · Pin Them Down (failed Injury → Suppressed) · Breach Window (auto-Spot on ally-opened terrain) · Running Read (auto-Spot after a 5"+ move) · Calm Under Fire (Pinned doesn't block Ready/Spot/trigger Actions) · Last Known Position (softer Hidden penalty against tracked targets) · Controlled Burst (forgo Injury for Suppressed + 2" push).
-
-**T3 — Amazing:** Dead Eye (+1 hit if stationary, no cover on target) · Quick Shot (second attack at −2, no Reactions that round — *the single biggest DPS lever in the game per sim*) · Gunslinger (two targets, dual pistols, at −2 each) · Counter-Sniper (free Spot + Ready vs 18"+ attackers) · Patient Overwatch (Ready an area, not a target) · Thread the Gap (reduce cover penalty through a narrow gap) · Forward Observer (Spot for the whole crew within 12") · Shoot the Supports (destroy terrain via shooting).
-
-### Movement / Acrobatics (AGI)
-**T1 — Good:** Sure-Footed (auto-pass unstable-ground tests) · Like a Cat (reduce fall distance by 3") · Weave (−1 to melee attacks against you after moving) · Leaper (3" gap for free, +2 on longer jumps) · Vault (waist-high obstacles free) · Low Profile (3" move while Hidden without breaking it) · Quick Hands (interact during your Move) · Break Contact (extra 3" after Disengage) · Rescue Grip (carry a Down friendly without Move penalty) · Scramble (2" free move on becoming Pinned).
-
-**T2 — Great:** Houdini (evade a 12"+ shot, become Hidden if LOS breaks) · Sidestep (evade a Charge) · Water Walker (treat shallow water as open) · Slide (pass through an enemy's space mid-move) · Double Dash (Sprint on Action slot only) · Fleet (**MOV 8" instead of 6"** — the only way to raise it) · Parkour Route (combine terrain maneuvers into one test) · Grab and Go (3" move after grabbing an objective/friendly) · Feint (+2 melee after a 3"+ approach from outside LOS) · Leg Sweep (forgo Injury for Off-Balance).
-
-**T3 — Amazing:** Ghost Blade (**use AGI instead of STR for melee**) · Dual Wield (attack with both one-handers, second at −2) · Trading Spaces (swap positions after a melee win) · In-N-Out (free Disengage + 3" after a Charge hit) · Vanishing Point (become Hidden after a concealed Sprint) · Extraction Drill (Sprint while carrying a Down friendly) · Wall Runner (cross a 3"-high obstacle free) · Cornering Charge (ignore Difficult ground on a Charge) · Reversal (3" free move after an enemy misses in melee) · Action on the Run (an Action mid-Move).
-
-### Expertise / Knowledge (INT)
-**T1 — Good:** Hacker (basic terminal access) · Locksmith (lock/unlock without damage) · Trapper (arm/disarm/reposition traps) · Medic (auto-Stabilize, remove Bleed/Poison) · Camouflage Drill (extend Hide to an adjacent ally) · Loop Camera (blind a camera to your crew) · Jury-Rig (temp-restore a damaged Powered device) · Threat Scan (reveal Hidden hazards in a 6" area) · Jam Signals (Jam a device/trap) · Read the Objective (learn an objective's defenses).
-
-**T2 — Great:** Computer Whiz (hack a Linked device remotely) · Turret Tamer (hack and fire a Linked turret) · Lockdown (lock up to 3 Linked doors) · Field Surgeon (restore a Down fighter to 1 WND at −2) · Counter-Hack (Interrupt without Overloading) · Trap Relay (chain up to 3 linked traps) · Power Broker (disable one Linked system, overcharge another) · Forensic Sweep (identify last interaction at a site) · Tactical Uplink (grant 2 allies immunity to Blind/Shaken for one Action) · Shepherd Alarm (suppress/redirect one alarm trigger).
-
-**T3 — Amazing:** Mastermind (operate 2 device functions on one test) · Kaboom (weaponize a hazard) · Blackout Protocol (disable a whole Linked zone at −2) · Rewrite Killbox (turn enemy turrets against them) · Trauma Reset (full Down recovery at −3) · Ghost the Network (invisible to cameras/alarms/logs) · Fortify Objective (arm an objective's defenses) · Minefield Conductor (control up to 3 electronic mines) · Predictive Model (pre-emptive Stress removal or Pin) · Camo King (Hide a group even while observed).
-
-### Bravery / Morale (NRV)
-**T1 — Good:** Steady (remove 1 Stress/activation) · Rattle-Proof (ignore first Stress/round) · Battle Cry (+1 Stress on a melee-engaged enemy) · Dig In (stay still → Braced) · Keep Moving (move an ally 3" as an Action) · Stare Down (opposed NRV → enemy Stress + Cowed) · Feed the Anger (+1 Stress for +1 melee, ignore Shaken) · Drag Clear (reduce Stress from a nearby Down event) · Count Breaths (remove 2 Stress for a passive activation) · Buddy Check (remove 1 Stress for standing together, passive).
-
-**T2 — Great:** Rally (remove 2 Stress or end Bolt/Broken) · Fearless (no Stress from seeing an ally Down) · Bloodlust (remove 3 Stress on a melee kill) · Talk Them Down (soften a failed Break by one step, +2 Stress to you) · Snap Out of It (end a condition on an ally, +1 Stress to them) · Take It on Me (absorb up to 2 Stress from an ally) · Dare Me (Provoke an enemy) · No One Left (carry a Down ally without a free-swing Disengage penalty) · Hard Case (first condition/round costs no Stress) · Lead from the Front (Order recipient also removes 1 Stress).
-
-**T3 — Amazing:** Iron Will (auto-pass one Break test/game) · Fanatic (a failed Break → Fight instead of Bolt/Broken) · Unbreakable (reduce first Stress/round for the whole crew within 6") · Last Command (issue an Order the instant you go Down, once/game) · Stand Your Ground (save an ally from a failed Break, once/game) · Terrify (opposed NRV → enemy Stress + Frightened) · Master the Moment (one Order affects two allies, once/game) · Walk into Fire (redirect a ranged shot to yourself) · Red Mist (+3 Stress for +2 melee, ignore Shaken, can't Rally/receive Orders that activation) · Clear Heads (a natural-10 Break test clears Stress for the whole crew within 6").
-
----
+Shared terms: [[Keywords]]. Open rulings: [[Skill Integration Decisions]].
 
 ## 15 · Weapons — Basic Weapon System **[CURRENT DESIGN · 2026-09-19]**
 
@@ -814,18 +769,18 @@ crew_rating ≤ agreed cap
 
 > **[NEW — Match Play vs. Campaign Start split]** These are genuinely different fighters, not the same table at two prices. A **Match Play** crew is built once for a single game with no persistence — it gets the richer starting kit because there's no other chance for those fighters to develop. A **Campaign Start** crew is meant to grow through the Level track (§26.1), so it starts leaner and earns its way to the same place over real play.
 
-**Match Play** — one-off games, no campaign attached. Standard **850** Crew Rating cap. Rank bodies are identical in both tiers; the tiers differ only in the **cap** and the **starting skill count**.
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
 | Rank | Stat pts | Starting skills | Orders | Credits |
 |---|:--:|:--:|:--:|:--:|
 | **Recruit** | 3 | **0** | 0 | **70** |
-| **Fighter** | 5 | **exactly the tiers your stats reach (max 2)** | 0 | **100** |
+| **Fighter** | 5 | **Undecided** | 0 | **100** |
 | **Specialist** | 7 | **max 3** | 1 | **145** |
 | **Leader** | 9 | **max 4** | 2 | **185** |
 
-> **Skills are never approximate: a fighter has exactly one skill per tier its
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 > stats reach** (§14). The listed value is the maximum, hit only when every point
-> lands in tiered stats — e.g. Fighter `+2/+2/+1` = 2 skills; Specialist
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 > `+4/+2/+1` = 3; Leader `+6/+2/+1` = 4. A fighter who spreads into +1 "dabbles"
 > trades skills for breadth — a legal, priced choice, not an error.
 
@@ -834,9 +789,9 @@ crew_rating ≤ agreed cap
 | Rank | Stat pts | Starting skills | Orders | Credits |
 |---|:--:|:--:|:--:|:--:|
 | **Recruit** | 3 | 0 | 0 | **70** |
-| **Fighter** | 5 | 1× T1 | 0 | **100** |
-| **Specialist** | 7 | 1× T2 | 1 | **145** |
-| **Leader** | 9 | 1× T3 | 2 | **185** |
+| **Fighter** | 5 | **Undecided** | 0 | **100** |
+| **Specialist** | 7 | **Undecided** | 1 | **145** |
+| **Leader** | 9 | **Undecided** | 2 | **185** |
 
 > **[RE-DERIVED 2026-08-19]** Rank bodies are no longer backed out by hand — they are computed from the measured stat ladder plus the body base and Orders premium, re-derived 2026-08-19 onto the **measured stat ladder** (20/15/15/10/10/5 across the six rungs — a one-sided stat saturates, so the flat 15/point was wrong in both directions). The **Crew Rating scale rebased 1000 → 1700, then halved to 850 on 2026-08-20** at the same time so a standard crew is still six models rather than four; Campaign Start moves 500 → **425**. Validated end-to-end: at equal Crew Rating the win-rate spread across four archetypes tightened from 31–70% to **41–61%** (`catalogue-validation-n1500`).
 
@@ -954,7 +909,7 @@ HQ (a little of everything) · Gatherer buffer (a little of its own resource, ea
 | Workbench→Workshop | Station→Building | 3×2→6×8 | −1→−2 | **45 → 128** | Craft/repair; unlocks weapon/armour/chem branches |
 | Fabricator→Robotics Workshop→Advanced Weapons Lab | Building | 6×6→6×8→6×10 | −1/−2/−3 | **70 → 110 → 195** | Research tiers; T3 unlocks the 2051 arsenal |
 
-*The Fabricator's two upper tiers are **[C-tier, derived]** — the engine carries the T1 entry and the ladder's own `UPGRADE_MULT` (×1.60, ×1.75); it does not yet carry the named T2/T3 forms as rows.*
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
 ### Operate
 | Structure | Class | Size | Pwr | Materials | Effect |
@@ -1073,19 +1028,11 @@ None touch a hard ceiling (modifier cap, damage cap, range cap, re-rolls, extra 
 
 ---
 
-## 25 · Stealth & Ambush **[NEW — sim-tuned]**
+## 25 · Stealth & Ambush
 
-*700–2000 games/cell, paired mirrors. Full data: `PACKET-TEST-RESULTS.md` T1–T3.*
+Ambush is the AGI skill in [[Skills#AGI]]. A successful charge begun Hidden allows its AGI setup test; use the attacking weapon's normal melee stat, including AGILE where applicable. Success modifies one weapon with UNANSWERED and +4 hit/injury. Failure grants only the optional paid defender attack described on the skill, not a free automatic attack.
 
-**Ambush attacks off AGI instead of STR/DEX**, and this must be printed explicitly on the card — a DEX carrier running Ambush measured **−30 to −33 win-points** (attacking on its worst stat); an AGI carrier measured **+1.0 to +12.7**.
-
-**The failed-Ambush free Attack Back is load-bearing — keep it unchanged.** It removes 4.1 of the mechanic's 12.1 win-points and fires on 47.5% of attempts. This is confirmed, not just designed — don't soften it later.
-
-**RULED — a Hidden fighter may hold an objective, but claiming/scoring one breaks Hidden.** Holding just means sitting within 3" with no enemy within 3" (§12.7) — that costs nothing and doesn't touch Hidden at all. But *claiming* a terminal, *looting* a cache, *arming* or *defusing* a charge is always an Interact test, and Interacting now explicitly breaks Hidden (§10, fixed above). In practice this makes the sim's "may/may not hold" question close to moot for objective types that require an active claim — a Hidden fighter can sit on an unclaimed objective all day, but the instant they do the thing that scores it, they're not Hidden anymore. **Take a Hold** is the one scenario where this matters most cleanly: a terminal has to be claimed (INT 7+, breaks Hidden) before it can ever be *held* for score, so the "hold" state a Hidden fighter benefits from only ever applies *after* the reveal already happened. The sim's measured **+12.7 / −5.2** swing was run against a simplified "can this fighter contribute to score while Hidden" toggle — with Interact-breaks-Hidden as a hard rule, the practical answer lands close to the sim's "No" case for anything requiring a claim, and close to "Yes" for a scenario that only needs bodies standing still (a pure territorial-control read). This is the resolution going forward; if a future scenario type introduces a hold-only objective with no claim step, revisit this specific interaction then.
-
-**If Hidden ever moves from a −3 modifier to "not a legal target," a skill-stacking cap is required in the same change** — stacking three specific concealment skills under the untargetable reading produced a fighter shot **zero times per game**; under the current −3 reading the same stack gets shot ~12 times and dies normally.
-
----
+The adopted skill design uses Hidden at -4 to hit and untargetability beyond 12 inches; successful hits reveal. Exposure is checked at the start/end of the Hidden unit's own activation against enemies within 12 inches and LOS. Enemy movement into LOS alone does not reveal. Shooting and interactions reveal unless explicitly overridden. Reconcile the remaining core stealth/Stress text through [[Skill Integration Decisions]].
 
 ## 25.5 · The Campaign Turn **[NEW — this is `Downtime.md`'s actual content; that file was `status: Not Started` in the vault, and §17/§22/§26 all assumed this sequence existed without it ever being written]**
 
@@ -1095,7 +1042,7 @@ Every cycle between battles runs through three phases, in order. Nothing in §22
 Happens the moment a battle ends, before anything else.
 
 1. **Survival.** Check every fighter against the Safe rule (§26.3) — still standing, left via a friendly edge, or in base contact with a friendly needs no roll. Everyone else rolls the Fate table (§26.3), including resolving any Captured or Hardened result on the spot where the immediate part applies (§26.3a step 1, §26.3b).
-2. **Level-ups.** Apply every qualifying trigger from the battle just played (kills, Glorious Deeds, surviving, objectives held) to each surviving fighter, subject to the 6-source soft cap. Any fighter who crosses into a new Level resolves it now — choose the stat, or roll-3-choose-1 the skill, per §26.1.
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 3. **Bank Resources.** Add the battle's earned Credits and Materials to the settlement's totals, capped by storage (§20).
 
 ### Phase 2 — Settlement
@@ -1133,11 +1080,11 @@ Immediately before the next battle. Once a player has done everything they inten
 
 **Earning a Level-up** uses the same triggers as before — kills, Glorious Deeds (§26.2), surviving, objectives held — one qualifying trigger advances a fighter to their next Level. The same **soft cap of 6 distinct sources/fighter/battle** still applies **[SIM-CONFIRMED — T8]**.
 
-**Primary** is the stat carrying the fighter's highest point investment at creation (player's choice on ties). It never changes — it is who they were when they signed on, and it names their Primary skill path.
+**Primary** is the stat carrying the fighter's highest point investment at creation (player's choice on ties). It never changes — it is who they were when they signed on, and it names their Primary stat.
 
-**There is no declared Secondary. Every other stat is a secondary stat.** At the track's **floating stat levels (1, 4, 8)**, add +1 to **any stat, chosen when the level is earned** (Primary included) — a fighter's direction emerges from play, not from a box ticked at hire. Levels 2, 5 and 9 remain forced **+1 Primary**, so identity keeps growing regardless of direction. Only the **campaign stat cap (+6)** limits track growth; **rank tier caps are creation-time caps and do not constrain leveling.**
+**There is no declared Secondary. Every other stat is a secondary stat.** At the track's **floating stat levels (1, 4, 8)**, add +1 to **any stat, chosen when the level is earned** (Primary included) — a fighter's direction emerges from play, not from a box ticked at hire. Levels 2, 5 and 9 remain forced **+1 Primary**, so identity keeps growing regardless of direction. Only the **campaign stat cap (+6)** limits track growth; **rank stat-allocation caps are creation-time caps and do not constrain leveling.**
 
-**Skill slots (Levels 3, 6, 10):** declare any path, and roll on any tier that path's stat has **unlocked: +2 → Tier 1, +4 → Tier 2, +6 → Tier 3** — the same thresholds creation already uses (§14). The Level no longer fixes the tier; **the stat does.** A fighter's Primary path always counts as unlocked at Tier 1, so a slot is never dead.
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
 **The track — ten Levels, fixed contents:**
 
@@ -1145,14 +1092,14 @@ Immediately before the next battle. Once a player has done everything they inten
 |:--:|---|:--:|
 | **1** | +1 **any stat** (floating) | *ladder* |
 | **2** | +1 **Primary** stat | *ladder* |
-| **3** | **Skill slot** | **10** |
+| **3** | Skill advancement — selection rule pending | **Undecided** |
 | **4** | +1 **any stat** (floating) | *ladder* |
 | **5** | +1 **Primary** stat | *ladder* |
-| **6** | **Skill slot** | **20** |
+| **6** | Skill advancement — selection rule pending | **Undecided** |
 | **7** | **+1 WND** | **20** |
 | **8** | +1 **any stat** (floating) | *ladder* |
 | **9** | +1 **Primary** stat | *ladder* |
-| **10** | **Skill slot** — the capstone for a committed fighter | **30** |
+| **10** | Skill advancement — selection rule pending | **Undecided** |
 
 **A stat level is priced off the measured ladder, not a flat rate** — this replaced the flat 15/point, which was wrong in *both* directions:
 
@@ -1169,13 +1116,13 @@ Immediately before the next battle. Once a player has done everything they inten
 
 **A fully-levelled fighter costs roughly +140 Credits** on top of their Rank body, depending on which stats they grew — a Primary-DEX fighter who spends every floating level on DEX pays less at the top of the track than one spreading into STR. **A fighter caps at Level 10** — further kills/Deeds/etc. still bank Resources and count for Glorious Deeds, but no longer advance the fighter further. Reaching Level 10 at all should be rare — surviving that long takes real luck. A Level 10 fighter is a **legend by civilian standards** — feared, storied, and still one bad round from the dirt. This game never makes anyone unkillable (see the WND ruling in *Out of Scope*, §4).
 
-**MOV is not part of this track.** It stays exactly where it already was — Fleet (T2 AGI skill) is the only way to raise it. No collision, no separate MOV-swap option; keeping it purely skill-gated is cleaner narratively and avoids any interaction with Sprint/Charge distances at the top of the track.
+**MOV is not part of this track.** It stays exactly where it already was — Quick (AGI skill) is the only way to raise it. No collision, no separate MOV-swap option; keeping it purely skill-gated is cleaner narratively and avoids any interaction with Sprint/Charge distances at the top of the track.
 
 **Choosing the skill at Levels 3, 6 and 10:** declare a path, pick any tier that path's stat has unlocked (+2/+4/+6), roll **3 times** on that tier's chart (reroll duplicates), then **choose one of the three.** Cross-path picks are legal and cost you your own path's capstone — a genuine trade, not a freebie.
 
-**Lifetime totals for a fully-leveled fighter:** **6 stat points** (3 Secondary + 3 Primary) on top of whatever Rank already gave them, **4 skills total** (1 starting — see the updated Rank table in §13 — plus 3 from leveling: T1/T2/T3, all one consistent path), and **one WND bump.**
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
-> **[Flagged, not blocking]** A fighter who also picks **Tough** (T3 STR skill) as their Level 6 or 10 skill choice can stack it with the Level 7 WND bump — base 1 + Tough's +1 + Level 7's +1 = **WND 3** at the absolute ceiling. This was walked through directly and landed on as acceptable (down from an earlier version that would have reached WND 4) — flagged here so the stacking is visible in the rules text, not just in the design conversation that produced it.
+> **[Flagged, not blocking]** A fighter who also picks **Tough** (STR skill) as their Level 6 or 10 skill choice can stack it with the Level 7 WND bump — base 1 + Tough's +1 + Level 7's +1 = **WND 3** at the absolute ceiling. This was walked through directly and landed on as acceptable (down from an earlier version that would have reached WND 4) — flagged here so the stacking is visible in the rules text, not just in the design conversation that produced it.
 
 **Scar-healing is not part of this track.** It lives in two dedicated places instead: the Med-bay's T2 worker benefit (§22) and the one-per-career Special Treatment option on a fighter's third Scar (§26.4).
 
@@ -1334,7 +1281,7 @@ The phase closes at **130 Cr + 90 Mat**. Her Materials cap is HQ 75 + Processor 
 - Deployables costs converted to the 1000-Credit scale (§12.6, ×10 conversion off the vault's own stated anchor).
 - Captured and Hardened both fully drafted (§26.3a, §26.3b) — Captured gated to Recruits/Fighters only, with a rescue-raid escape valve, ransom, and a two-stage brainwash path; Hardened grants a free Level.
 - The entire post-battle → Settlement Phase → Battle Prep sequence drafted (§25.5) — this was `Downtime.md`, confirmed `Not Started` in the vault, and everything else in this document that referenced a "Settlement Phase" was assuming content that didn't exist until now.
-- Advancement finalized as a **10-Level track** (§26.1) after several rounds of iteration — 6 lifetime stat points, 4 total skills (1 starting + 3 leveled, all one fixed path), one WND bump at Level 7. This applies to **Campaign Start** crews specifically — the Level track is what a persistent campaign fighter grows through. **List Building now runs two separate starting tiers, not one** (§16): **Match Play** crews (one-off games, no persistence) keep the original richer starting kit (~2/~3/~4 skills, Credits 95/165/245), because those fighters never get a second chance to develop. **Campaign Start** crews begin lean (1 skill per rank, Credits 75/125/170) at **425 Crew Rating**, with a **loosened pyramid** (one Leader, minimum three models, no ratio requirement) — deliberately, since a green crew hasn't built a chain of command yet. The Campaign Start Credits and the loosened pyramid are both first-draft and untested — worth checking the same way the standard pyramid's model-count balance was checked (`Crew Sim — Findings`) once played. The +1 WND price used to be the one number in this whole area with zero validation behind it; as of 2026-08-13 it is **41 Credits**, derived from the measured value of heavy armour (-2 on the injury roll, 41 Credits, `armour-level-n2500` 2026-08-13) - both buy the same thing, the model staying on the table longer (§26.1). The Campaign Start Credits and the loosened pyramid are now the untested numbers here.
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 - Hidden + objectives resolved (§25, §10): holding costs nothing and doesn't break Hidden; claiming/scoring always requires an Interact, which now explicitly breaks Hidden. Closes the sim's 17.9-point open question in practice.
 - Water killed for good (§21): any structure can be sabotage-charged during any raid using the mechanic the Sabotage scenario already had, no bespoke Water target needed.
 - Raid fairness resolved (§5): defender wins all Priority ties during a raid. One small lever, not a stacked pile of exceptions.

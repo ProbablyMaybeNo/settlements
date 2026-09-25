@@ -1,17 +1,16 @@
 ---
-type: skills
+type: "skills"
 catalogue: "Skills"
-table: 0
-row: 4
-cols: 2
 name: "Strong Arm"
-description: "Double the printed range of thrown weapons. You may throw a carried Movable object up to 4\" as an Action. *(Thrower · DEX combo)*"
-source: "Skill Paths.md"
-tags: [settlements/record, settlements/crew/skill]
+stat: "STR"
+skill_type: "Passive"
+effect: "Ignore HEAVY. While holding a GRAPPLED target, move at full MOVE, INTERACT and attack with 1 HANDED weapons. Cannot CHARGE, DASH, CLIMB or use 2 HANDED equipment while holding it."
+source: "Rules System/Skills.md"
+tags: ["settlements/record", "settlements/crew/skill"]
 ---
 
 # Strong Arm
 
-Double the printed range of thrown weapons. You may throw a carried Movable object up to 4" as an Action. *(Thrower · DEX combo)*
+Ignore HEAVY. While holding a GRAPPLED target, move at full MOVE, INTERACT and attack with 1 HANDED weapons. Cannot CHARGE, DASH, CLIMB or use 2 HANDED equipment while holding it.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skill Paths]] from them.*
+Source: [[Rules System/Skills#STR]]

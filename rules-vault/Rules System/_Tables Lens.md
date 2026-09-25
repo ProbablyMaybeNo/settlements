@@ -264,15 +264,15 @@ tags: [settlements/catalogue]
 
 ![[Progression#^levels-the-fixed-advancement-track]]
 
-### Skill Paths — How it works — skills ride the stat line
-*[[Skill Paths]] · 4 rows*
+### Skills — How it works — skills ride the stat line
+*[[Skills]] · 4 rows*
 
-![[Skill Paths#^tbl-how-it-works-skills-ride-the-stat-line]]
+![[Skills]]
 
-### Skill Paths — The five paths
-*[[Skill Paths]] · 5 rows*
+### Skills — The five paths
+*[[Skills]] · 5 rows*
 
-![[Skill Paths#^tbl-the-five-paths]]
+![[Skills]]
 
 ---
 

@@ -152,4 +152,4 @@ These examples show how classes and characteristics combine. They are constructi
 - [ ] Assemble the final named weapon catalogue and Credits costs.
 - [ ] Propagate adopted values to [[Full Rules System v1]], [[Weapons]], the costing engine, and the Rules Ledger.
 
-Related: [[Modifier Design Framework]] · [[Full Rules System v1]] · [[Weapons]] · [[Skill Paths]] · [[Damage]] · [[Conditions]] · [[Rules System — Master Roadmap]]
+Related: [[Modifier Design Framework]] · [[Full Rules System v1]] · [[Weapons]] · [[Skills]] · [[Damage]] · [[Conditions]] · [[Rules System — Master Roadmap]]

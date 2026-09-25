@@ -18,13 +18,13 @@ tags: [settlements/phase, settlements/stage/s3]
 How players assemble a legal crew — roster rules, costs, and force composition.
 
 > [!info] Superseded — [[Full Rules System v1]] is the ruling
-> **§16 is canonical for costs and composition.** The old 5/8/16/24 ladder is deprecated, and so is the 1000-Credit scale that replaced it — everything is on the **850-Credit** scale as of 2026-08-20. Match Play skill counts are *exact* (one per tier a stat reaches), and Campaign Start keeps the Specialist ratio.
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
 ## The core claim
 > [!info] Points buy **bodies and guns**. Stats and skills are **free**.
 > Rank already caps stats and skills — a Specialist *always* has 4 stat points and 2 skills — so pricing them again is double-counting. **Buying a rank IS buying its stats.** The only things worth pricing separately are the two whose value doesn't depend on the mission: **a body, and the weapon in its hands.**
 >
-> It is also the honest call. [[Dice Mechanic — Sim Findings]] proved you *cannot* price a stat fairly in a vacuum — the Objective Grabber wins 24% on bare ground and the Heavy Gunner 69%. **The board prices stats. Points price bodies and guns.**
+> It is also the honest call. historical analysis (archived) proved you *cannot* price a stat fairly in a vacuum — the Objective Grabber wins 24% on bare ground and the Heavy Gunner 69%. **The board prices stats. Points price bodies and guns.**
 
 ## Working rules / decisions
 
@@ -47,27 +47,27 @@ The rank price *is* the stat price — see [[Unit Design#Ranks (build budget)]].
 
 **Match Play** gets the richer starting kit, because those fighters are built for one game and never get another chance to develop.
 
-| Rank | Stat pts | Tier caps | Skills | Orders | **Credits** |
+| Rank | Stat pts | Stat allocation caps | Skills | Orders | **Credits** |
 |---|:--:|---|:--:|:--:|:--:|
-| **Recruit** | 3 | no tiers | 0 | 0 | **70** |
-| **Fighter** | 5 | 2× T1 | ~2 | 0 | **100** |
-| **Specialist** | 7 | 1× T2 · 2× T1 | ~3 | 1 | **145** |
-| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | ~4 | 2 | **185** |
+| **Recruit** | 3 | each stat at most +1 | 0 | 0 | **70** |
+| **Fighter** | 5 | 2 stats reaching +2 | **Undecided** | 0 | **100** |
+| **Specialist** | 7 | **Undecided** | **Undecided** | 1 | **145** |
+| **Leader** | 9 | **Undecided** | **Undecided** | 2 | **185** |
 
 ^tbl-the-four-ranks
 
-**Campaign Start** is a green crew *meant* to grow through the Level track ([[Progression]]), so it starts lean — **exactly one skill each, at the rank's own tier.**
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
-| Rank | Stat pts | Tier caps | Starting skill | Orders | **Credits** |
+| Rank | Stat pts | Stat allocation caps | Starting skill | Orders | **Credits** |
 |---|:--:|---|:--:|:--:|:--:|
-| **Recruit** | 3 | no tiers | — | 0 | **70** |
-| **Fighter** | 5 | 2× T1 | 1× T1 | 0 | **100** |
-| **Specialist** | 7 | 1× T2 · 2× T1 | 1× T2 | 1 | **145** |
-| **Leader** | 9 | 1× T3 · 2× T2 · 4× T1 | 1× T3 | 2 | **185** |
+| **Recruit** | 3 | each stat at most +1 | — | 0 | **70** |
+| **Fighter** | 5 | 2 stats reaching +2 | **Undecided** | 0 | **100** |
+| **Specialist** | 7 | **Undecided** | **Undecided** | 1 | **145** |
+| **Leader** | 9 | **Undecided** | **Undecided** | 2 | **185** |
 
 ^tbl-the-four-ranks-campaign
 
-More points than a unit can spike into one stat, capped by tier so it *spreads* — full rules in [[Unit Design#Ranks (build budget)]]. Skills come off the stat line (one per tier a stat reaches).
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
 > [!check] The old Campaign-Start squeeze was fixed by the rebuild, not by a cap change
 > A 2026-08-05 sweep (`campaign500.py`, 30,000 games per configuration) found the 500-cap crew badly squeezed: **2–4 models**, the mandatory Leader eating **34%** of the budget, and **a shooting list that could not be built at all** (Gunline won 18%, because Leader + rifle at the old prices was 270 Credits on its own). Six rank ladders were swept and none fixed it; only raising the cap did.
@@ -131,7 +131,7 @@ You keep a persistent **roster** and field a **crew** to the scenario's budget e
 
 > **Each Level a fighter has gained adds its own printed Credit cost to that fighter. Scars cost nothing and refund nothing.**
 
-Levels are a **fixed track**, not a freeform spend, and each rung has a price: a stat point off the **measured ladder** (not a flat rate), **10 / 20 / 30** per T1/T2/T3 skill, and **20** for the Level-7 wound. A fully-levelled fighter carries roughly **+140 Credits** over their rank body, depending on which stats they grew. Full table in [[Progression#Levels — the fixed advancement track]].
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
 That first half is the anti-snowball valve: **veterans crowd out rookies.** The longer a campaign runs, the smaller your crew gets — the war grinds you down to a handful of hardened survivors who then can't hold enough ground. Every campaign list becomes a real question: *field my best, or field the most?* See [[Progression]] · [[Campaign]].
 
@@ -143,7 +143,7 @@ That first half is the anti-snowball valve: **veterans crowd out rookies.** The 
 > The real question a scarred veteran now poses is the right one: *this fighter costs more than a rookie **and** is worse than they were — is what they can still do worth the Credits?* Sometimes the answer is to bench them, or spend a Med-bay visit ([[Structures]]). See `POINTS-DECISIONS.md` D14 · D27.
 
 ## Validation
-Full detail in **[[Crew Sim — Findings]]**. Eight archetypes, all built to 100 points, 3,000 battles per pairing:
+Full detail in **historical analysis (archived)**. Eight archetypes, all built to 100 points, 3,000 battles per pairing:
 
 | Board | Spread across all 8 lists |
 |---|---|
@@ -159,7 +159,7 @@ Full detail in **[[Crew Sim — Findings]]**. Eight archetypes, all built to 100
 - [x] Rank names locked: **Recruit / Fighter / Specialist / Leader** — replaces the old Rabble/Recruit working titles.
 - [x] Scale moved to **1000 Credits**; the old 5/8/16/24 ladder is retired *(2026-08-05, [[Full Rules System v1]] §16)*.
 - [x] Match Play **70/100/145/185 at 850** — bodies re-derived from the measured stat ladder 2026-08-19, scale halved 2026-08-20, propagated to every note 2026-08-27. Validated in the sim end-to-end (`catalogue-validation-n1500`: spread tightened 31–70% → **41–61%**), **not yet at a table**.
-- [x] Campaign Start **70/100/145/185 at 425** — the separate Campaign-Start body table is retired; both tiers use one derived ladder and differ only in the cap and the starting skill count.
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 - [ ] **Assault (melee) loses every matchup** — the one remaining structural skew in `catalogue-validation-n1500`. Cannot be separated from single-scenario coverage without table data.
 - [ ] NRV is close to a dead stat at Fighter level; it earns its keep only through Bravery *skills*.
 
@@ -167,4 +167,4 @@ Full detail in **[[Crew Sim — Findings]]**. Eight archetypes, all built to 100
 _none yet — graduate a `core-00X List building` card after first playtest._
 
 ---
-_See [[Rules System MOC]] · [[Unit Design]] · [[Weapons]] · [[Terrain]] · [[Crew Sim — Findings]]._
+_See [[Rules System MOC]] · [[Unit Design]] · [[Weapons]] · [[Terrain]] · historical analysis (archived)._

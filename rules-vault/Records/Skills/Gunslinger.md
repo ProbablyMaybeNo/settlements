@@ -1,17 +1,16 @@
 ---
-type: skills
+type: "skills"
 catalogue: "Skills"
-table: 5
-row: 2
-cols: 2
 name: "Gunslinger"
-description: "If carrying two pistols and you did not Move, attack two different targets within 8\", once each at −2. You cannot make Reactions this round. *(Ranged DPS · Gunslinger)*"
-source: "Skill Paths.md"
-tags: [settlements/record, settlements/crew/skill]
+stat: "DEX"
+skill_type: "Passive"
+effect: "When dual wielding 1 HANDED RANGED weapons, the off-hand contributes its full attack dice to the combined SHOOT action."
+source: "Rules System/Skills.md"
+tags: ["settlements/record", "settlements/crew/skill"]
 ---
 
 # Gunslinger
 
-If carrying two pistols and you did not Move, attack two different targets within 8", once each at −2. You cannot make Reactions this round. *(Ranged DPS · Gunslinger)*
+When dual wielding 1 HANDED RANGED weapons, the off-hand contributes its full attack dice to the combined SHOOT action.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skill Paths]] from them.*
+Source: [[Rules System/Skills#DEX]]

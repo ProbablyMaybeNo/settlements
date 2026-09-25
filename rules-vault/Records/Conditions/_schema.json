@@ -192,7 +192,7 @@
    ],
    "orig": [
     "- **Fire** — each End Phase, the unit suffers an **Injury roll at +1 Damage, ignoring Armor**. It (or an adjacent friendly) may spend an **Action** to extinguish it — automatic, no test. Persists until extinguished.",
-    "- **Bleed** — each End Phase, the unit loses **1 WND** unless treated. Treating = an Action + **INT test (7+)** by the unit or an adjacent friendly, **−2 without a Med-Kit**; a **Medic** ([[Skill Paths]]) treats automatically. **At WND 1 — i.e. almost everyone — Bleed is a two-round death clock:** it drops you Down at the next End Phase, and Down + Bleed bleeds out. It is the harshest condition in the game by a wide margin, which is why **Bleeding** is the priciest weapon payload and why a **Med-Kit** earns its points.",
+    "- **Bleed** — each End Phase, the unit loses **1 WND** unless treated. Treating = an Action + **INT test (7+)** by the unit or an adjacent friendly, **−2 without a Med-Kit**; a **Medic** ([[Skills]]) treats automatically. **At WND 1 — i.e. almost everyone — Bleed is a two-round death clock:** it drops you Down at the next End Phase, and Down + Bleed bleeds out. It is the harshest condition in the game by a wide margin, which is why **Bleeding** is the priciest weapon payload and why a **Med-Kit** earns its points.",
     "- **Poison** — **−1 to all rolls.** Each End Phase the unit makes a **STR test (7+)**: pass ends it. It can also be treated exactly like Bleed."
    ]
   },
@@ -240,7 +240,7 @@
     "- **Bolt** — flees toward the nearest board edge, hugging cover. *(Break test fail at Stress 2.)*",
     "- **Broken** — frozen; cannot act. *(fail at Stress 3.)*",
     "- **BugOut** — routs off the nearest board edge and is removed from play. *(fail at Stress 4+.)*",
-    "- **Fight** — *skill-induced only* (e.g. Fanatic, [[Skill Paths]]): instead of cracking, the unit must move by the shortest route toward the nearest visible enemy on its next activation and attack it if able. It cannot Hide, detour for cover, or move away from that enemy."
+    "- **Fight** — *skill-induced only* (e.g. Fanatic, [[Skills]]): instead of cracking, the unit must move by the shortest route toward the nearest visible enemy on its next activation and attack it if able. It cannot Hide, detour for cover, or move away from that enemy."
    ]
   },
   {

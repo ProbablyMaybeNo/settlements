@@ -11,7 +11,7 @@ depends_on:
   - Damage
 feeds_into:
   - List Building
-  - Skill Paths
+  - Skills
   - Scenarios
 tags:
   - settlements/phase
@@ -21,7 +21,7 @@ tags:
 > **S3 Battle Layer** · status **Drafted** · build order **16**
 
 **Depends on:** [[Weapons]], [[Conditions]], [[Terrain Interaction]], [[Damage]]
-**Feeds into:** [[List Building]], [[Skill Paths]], [[Scenarios]]
+**Feeds into:** [[List Building]], [[Skills]], [[Scenarios]]
 
 ## Focus
 The gear a crew **builds and plants on the board** to deal or deny damage — turrets, mines, traps, and support beacons. [[Infrastructure]] reshapes the battlefield and deliberately *doesn't* hurt people; **that job lives here.** A deployable is bought like a weapon, carried by a fighter, and set up with an **INT test**.
@@ -78,7 +78,7 @@ A low-INT fighter can *carry* a Sentry Gun; reliably **standing it up under fire
 Nothing new here: deployables that sit on the board are **Features**, and they take damage exactly like every other interactive feature ([[Terrain Interaction#Feature damage]]).
 
 - **Standing hardware** (turrets, beacons): **WND 1**, **Armour −2**, cover **Heavy (−2)** to be hit unless the attacker is within **6"** (then **Open**). One successful Injury → **Offline** (dead weight, still blocks LOS). **Repair once**: a fighter adjacent passes an **INT test (7+)** to bring it back **online** (**Jury-Rig** may auto-succeed). A **second** Injury while Offline → **Destroyed**, gone for the battle. *This is the "repaired one time before it's lost" rule — it already existed; deployables just use it.*
-- **Mines & traps**: **concealed** on a passed deploy (found by **Threat Scan** or an opposed INT test). While **untriggered** they can be **shot** (Feature damage) or **disarmed** — **DEX 7+**, nat 1 = boom; or, if the device is electronic (**Remote**), **Jammed** or hacked instead (**Jam Signals** / **Minefield Conductor**, [[Hacking]] · [[Skill Paths]]). Once a trap **triggers**, it is spent — you cannot Offline a boom mid-trigger.
+- **Mines & traps**: **concealed** on a passed deploy (found by **Threat Scan** or an opposed INT test). While **untriggered** they can be **shot** (Feature damage) or **disarmed** — **DEX 7+**, nat 1 = boom; or, if the device is electronic (**Remote**), **Jammed** or hacked instead (**Jam Signals** / **Minefield Conductor**, [[Hacking]] · [[Skills]]). Once a trap **triggers**, it is spent — you cannot Offline a boom mid-trigger.
 
 ---
 
@@ -167,7 +167,7 @@ Standing hardware · **repairable** · takes **both** equipment slots. A beacon 
 Deployables hand a technical crew a full battlefield loop — and every step is INT:
 
 - **Build** it (deploy test), **Repair** it (**Jury-Rig**), **Find** the enemy's (**Threat Scan**, **Forensic Sweep**).
-- **Seize or suppress** the enemy's: **Trapper** (arm/disarm/reposition), **Jam Signals** ([[Hacking]]), **Turret Tamer**, **Minefield Conductor**, **Trap Relay**, **Kaboom** — the whole INT-path *Trapper / Engineer / Hacker* families now have real targets ([[Skill Paths]]).
+- **Enemy devices:** Trojan can operate an enemy ELECTRIC deployable; see [[Skills#INT]].
 
 That is the design payoff: an INT specialist is no longer *only* a door-opener. They plant the killbox, keep it running, and turn the enemy's own devices against them.
 
@@ -180,7 +180,7 @@ That is the design payoff: an INT specialist is no longer *only* a door-opener. 
 >
 > Marking them rather than guessing is deliberate — **an untagged number is the exact defect the points rebuild exists to remove.** The derivation rule is written down, so this is a short job; it just has to happen in the engine, not in this note.
 
-- [ ] **Burst Turret's two shots.** Multi-attack is the biggest DPS lever in the game ([[Skill Sim — Findings]]). +2×2 is priced high and gated (Intricate −2) — first item to watch. Fallback: one shot with **Spread**.
+- [ ] **Burst Turret's two shots.** Multi-attack is the biggest DPS lever in the game ([[Skill Integration Decisions]]). +2×2 is priced high and gated (Intricate −2) — first item to watch. Fallback: one shot with **Spread**.
 - [ ] **Revive Beacon.** Returning Down units in a **WND-1** game is a huge swing — bounded to *one unit, to Prone, Down-only*. If it warps games, cut it to a flat Med/Cleansing effect.
 - [ ] **Turret auto-fire.** One Reaction shot / round is the lever. If a free static gun proves oppressive, drop it to **fire only when operated**.
 - [ ] **Slot weight.** Standing hardware eating **both** slots + the **two-auras-per-model** cap are the anti-stack brakes — confirm they bite at the table.
@@ -191,4 +191,4 @@ That is the design payoff: an INT specialist is no longer *only* a door-opener. 
 _none yet — graduate a `core-00X Deployables` card after the first deployables sim / playtest._
 
 ---
-See [[Rules System MOC]] · deals damage through [[Damage]] · conditions in [[Conditions]] · costed in [[List Building]] · skills in [[Skill Paths]] · sim in [[Deployables Sim — Findings]] · not to be confused with [[Infrastructure]].
+See [[Rules System MOC]] · deals damage through [[Damage]] · conditions in [[Conditions]] · costed in [[List Building]] · skills in [[Skills]] · sim in historical analysis (archived) · not to be confused with [[Infrastructure]].

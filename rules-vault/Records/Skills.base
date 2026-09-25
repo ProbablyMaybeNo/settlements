@@ -1,10 +1,7 @@
+filters:
+  and:
+    - file.inFolder("Records/Skills")
 views:
   - type: table
-    name: All
-    rowHeight: medium
-    filters:
-      and:
-        - type == "skills"
-    order:
-      - file.name
-      - description
+    name: Skills
+    order: [stat, name, skill_type, effect]

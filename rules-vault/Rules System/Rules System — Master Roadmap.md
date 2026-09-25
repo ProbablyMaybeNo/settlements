@@ -18,7 +18,7 @@ Everything needed to take Settlements from *scaffold* to a *complete, book-ready
 
 
 **37 phases** — ✅ **27 drafted** · 🎯 1 milestone · ⬜ 9 not started. *(Recounted 2026-08-05.)*  
-Reference notes: [[Weapons]] · [[Basic Weapon System]] · [[Skill Paths]] · *(Terrain Features catalogue TBD)*
+Reference notes: [[Weapons]] · [[Basic Weapon System]] · [[Skills]] · *(Terrain Features catalogue TBD)*
 
 | Stage | Phases | Status |
 |---|---|---|
@@ -39,7 +39,7 @@ Reference notes: [[Weapons]] · [[Basic Weapon System]] · [[Skill Paths]] · *(
 - [x] **Basic Weapon System** (2026-09-19) — seven classes, class envelopes, modular characteristics, Reload timing, and named build examples. Current wording: [[Basic Weapon System]]; stable entry point: [[Weapons]]; superseded wording: [[Archived/Weapons — superseded 2026-09-19]].
 - [x] **Terrain density is a BAND (9–12 features), not a floor** — it swings win rate by 66 points, more than any cost. → [[Terrain#Setup procedure]]
 
-Secondary opens: Glorious Deed name ([[Core Game Format]] / [[Scenarios]]), List Building point values, catch-up rule ([[Initiative & Activation]]). *(Skill Paths 9+/11+ → flat 7+ with modifiers: done.)*
+Secondary opens: Glorious Deed name ([[Core Game Format]] / [[Scenarios]]), List Building point values, catch-up rule ([[Initiative & Activation]]). *(Skills 9+/11+ → flat 7+ with modifiers: done.)*
 
 ## 3 · Critical path to a *playable* game
 
@@ -210,7 +210,7 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [ ] **Doctrine** layer (crew identity, 8 archetypes) — **pulled to the campaign layer.** It's a list-building / campaign mechanic, not a first-battle rule; revisit when the campaign phase is built.
 - [x] Campaign roster: ~~**+2 per Advance**~~; **scars change nothing** (veterans crowd out rookies = anti-snowball). *(The −2 scar rebate was cut 2026-08-01 — it made scarred veterans cheaper, working against the valve it sat inside. The flat +2 was replaced 2026-08-05 by the priced **10-Level track** — 15/stat point · 20/35/55 per skill tier · 41 for the Level-7 wound, **+241 Credits** for a full track — [[Progression]].)*
 - [x] Anti-hero ⅓ cap **cut** — redundant at WND 1.
-- [x] Validated: **11-point spread across 8 archetypes** on a legal board → [[Crew Sim — Findings]].
+- [x] Validated: **11-point spread across 8 archetypes** on a legal board → historical analysis (archived).
 - [ ] Faction selection / buffs & nerfs at list level → socket left open in [[Factions]].
 - [ ] Table playtest (all numbers are sim-derived, not table-derived).
 
@@ -229,7 +229,7 @@ Each phase lists exactly what must be *nailed down* to consider it done. Order =
 - [x] Bought like gear; **deploy = INT test** (restores INT's battlefield job); one use/battle, kept on roster.
 - [x] Four families, 5+ each: turrets (auto-fire), mines (chassis × payload), movement traps, buff/debuff beacons.
 - [x] Damage/repair reuse the Feature-damage engine (Offline → repair once → Destroyed).
-- [x] Validated: no ceiling breaks, costs price out vs the armoury; Burst Turret repriced 16→18 → [[Deployables Sim — Findings]].
+- [x] Validated: no ceiling breaks, costs price out vs the armoury; Burst Turret repriced 16→18 → historical analysis (archived).
 - [ ] Crew-integration sim — deployables inside the full battle loop for win-rate swing.
 
 #### 18 · [[Scenarios]] — ✅ Drafted
@@ -486,3 +486,11 @@ You can call the rules system complete when **all of these are true**:
 
 ---
 *Generated from the canonical phase notes. Re-run the importer after Notion changes to refresh both this and the map.*
+
+## Skill catalogue replacement — 2026-09-25
+
+- [x] Archive the previous catalogue and skill records.
+- [x] Publish 75 single-tier skills in [[Skills]] and link the master.
+- [x] HOLD FAST: flat -2 incoming injury rolls, no cover requirement.
+- [ ] Resolve acquisition; explicitly deferred by Ross.
+- [ ] Complete [[Skill Integration Decisions]] and validate the new skill balance.

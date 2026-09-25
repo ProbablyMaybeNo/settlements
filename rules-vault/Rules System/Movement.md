@@ -61,7 +61,7 @@ Open ground, marked stairs, and clear paths are normal movement — no test.
 ^tbl-terrain-movement
 
 - No job-difficulty modifiers — only skills, conditions, **Shaken**, etc.
-- Skills may auto-succeed or soften fails (**Sure-Footed**, **Leaper**, **Vault**, **Water Walker**, **Like a Cat** — [[Skill Paths]]).
+- Skills alter movement only as printed: **Acrobatic, Quick, Sneak, Sprinter** — [[Skills#AGI]].
 - Difficult ground costs double movement. *(exact categories in [[Terrain]].)*
 - Fall damage / fall tests → [[Terrain]] (verticality).
 

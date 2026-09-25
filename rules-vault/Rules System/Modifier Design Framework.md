@@ -50,21 +50,9 @@ Always name the threat being resisted. Protection against one condition does not
 
 **Identity:** Armour improves the protection worn by the unit.
 
-## 3. Skills — Capability
+## 3. Skills — Tactical identity
 
-Skills represent training, technique, and practical experience. Their primary purpose is to grant actions, options, permissions, and ways to interact with the battlefield.
-
-Skills should fit their governing stat, provide broadly comparable benefits across stat paths at the same tier, support believable behaviour, and make units distinct through meaningful choices.
-
-Suitable effects include additional carrying options, altered equipment-handling requirements, specialised interactions, new actions, and alternative ways to traverse terrain.
-
-Skills may improve specifically named non-combat tests. For example, “+1 to INT tests to repair machinery” is suitable. A blanket INT-test bonus is too broad if it also improves direct combat effects.
-
-Skills must not directly improve hit rolls, wound rolls, Damage, attack count, injury resistance, or Wounds. Permanent increases to underlying stats or movement distance belong to Advancements.
-
-A movement Skill changes how a unit moves. An equipment-handling Skill changes what it can carry or wield. Neither should add an unrelated offensive or protective bonus. Permissions such as treating a two-handed melee weapon as one-handed must still be assessed for their full tactical benefit.
-
-**Identity:** A skilled unit has more ways to solve a problem.
+Skills represent training, techniques and behaviours that define a unit's tactical choices. They may affect attacks, protection, movement, control and support. The current single-tier catalogue is [[Skills]]. Skills should support combinations without compulsory archetype packages. Tough and Quick are explicit characteristic-changing skills; the former blanket ban on skill offence, defence and Wounds no longer applies.
 
 ## 4. Equipment — Limited Benefits
 
@@ -93,7 +81,7 @@ They represent lasting development earned through the campaign. They may also un
 
 Advancements must follow the existing progression structure and characteristic limits. This framework creates no extra advancement opportunities.
 
-A Skill unlocked through an Advancement still follows the Skill boundaries. Any permanent characteristic increase belongs to the Advancement itself.
+An acquired skill follows its printed effect, including explicit characteristic exceptions. Skill acquisition is undecided.
 
 **Identity:** An Advancement records how the unit has grown, independently of its current loadout.
 
@@ -135,4 +123,4 @@ Place an effect in the category that owns its direct purpose. Equipment is the e
 - [ ] Confirm item-by-item replenishment and whether unspent items remain on the roster; expiry of benefits alone does not decide inventory retention.
 - [ ] Propagate any subsequently adopted mechanical changes through the master, satellite notes, ledger, and relevant catalogues.
 
-Related: [[Full Rules System v1]] · [[Weapons]] · [[Skill Paths]] · [[Unit Design]] · [[Progression]] · [[Conditions]] · [[Rules System — Master Roadmap]]
+Related: [[Full Rules System v1]] · [[Weapons]] · [[Skills]] · [[Unit Design]] · [[Progression]] · [[Conditions]] · [[Rules System — Master Roadmap]]

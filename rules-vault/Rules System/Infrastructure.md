@@ -13,7 +13,7 @@ depends_on:
 feeds_into:
   - Scenarios
   - Settlement
-  - Skill Paths
+  - Skills
 tags:
   - settlements/phase
   - settlements/stage/s3
@@ -22,7 +22,7 @@ tags:
 > **S3 Battle Layer** · status **Drafted** · build order **15**
 
 **Depends on:** [[Terrain]], [[Terrain Interaction]], [[Hacking]], [[Movement]], [[Conditions]]
-**Feeds into:** [[Scenarios]], [[Settlement]], [[Skill Paths]]
+**Feeds into:** [[Scenarios]], [[Settlement]], [[Skills]]
 
 ## Focus
 The operable machines built into the city — cranes, doors, bridges, shutters, floodlights, vents — and how crews **reshape the battlefield** by operating them. The physical acts of forcing/searching/lifting terrain stay in [[Terrain Interaction]]; the hack itself lives in [[Hacking]]. This note is the layer that turns a static board into a machine both crews fight to control.
@@ -44,7 +44,7 @@ Two different jobs; keep them separate.
 |---|---|---|
 | What | Fixed parts of the board (crane, door, bridge, shutters, generator) | Gear a unit carries (turret, mine, tripwire, barricade, med-station) |
 | Job | **Reshape the battlefield** | **Deal or deny damage** |
-| Rules home | This note | [[Deployables]] · [[Terrain Interaction]] · [[Weapons]] · [[Skill Paths]] |
+| Rules home | This note | [[Deployables]] · [[Terrain Interaction]] · [[Weapons]] · [[Skills]] |
 
 ^tbl-infrastructure-vs-deployables
 
@@ -75,7 +75,7 @@ Every feature is **[category] + one or two verbs + an optional damage keyword.**
 5. **Shift Terrain** — slide a **Movable** piece up to **4"** ([[Terrain Interaction]] Movable/Lift framework). *Caught in it:* a model in the path is Displaced clear; a model pinned against a wall or another piece prints **CRUSH**.
 6. **Change Elevation** — raise or lower a platform/lift, carrying the models on it to the new level. A model half-on steps to the nearer level (no FALL under 3").
 7. **Field a Zone** — apply a **Dangerous / Difficult / Impassable** overlay to an area using the existing hazard→condition map ([[Terrain#Hazards (the Dangerous overlay)]]): flood → Deep water (Swim) or Difficult; gas → 3" Dense Smoke (Blind + Concealing). **Never invent a new condition here.**
-8. **Displace** — force-move a model **2"** directly away from the source, stopping at terrain or another fighter (matches [[Skill Paths|Knockback]] / Sledgehammer). Off a ledge → **FALL**; into a **Dangerous** area → triggers it immediately ([[Terrain]]); **Rooted** resists (STR test). A powerful effect may push **4"**.
+8. **Displace** — force-move a model **2"** directly away from the source, stopping at terrain or another fighter . Off a ledge → **FALL**; into a **Dangerous** area → triggers it immediately ([[Terrain]]); Resistance requires an explicit current rule. A powerful effect may push **4"**.
 
 ## Damage — two keywords
 Infrastructure deals damage in exactly two ways. Both are **keywords a feature prints**, and both resolve on rules we already have. Everything else a feature does is a **board verb** (movement/position) or an **existing condition** — not damage. **No new conditions are required.**

@@ -46,7 +46,7 @@ Every scenario fills in the same seven slots. Build new ones by answering these.
 | Slot | What it sets |
 |---|---|
 | **Shape** | Control · Mobile · Retrieve · Timer · Network — the win *pattern*. |
-| **Board & terrain** | 3'×3', **9–12 large features** (the legal-board density from [[Crew Sim — Findings]]). Below this it isn't a Settlements game. |
+| **Board & terrain** | 3'×3', **9–12 large features** (the legal-board density from historical analysis (archived)). Below this it isn't a Settlements game. |
 | **Deployment** | Zones **24" apart** ([[Core Game Format]]). Symmetric or **attacker/defender** asymmetric. |
 | **Objectives** | What they are, where they sit, and the **Interact** that claims/uses them. |
 | **Scoring & victory** | How points are earned and what wins. Never "eliminate the enemy." |
@@ -160,7 +160,7 @@ Not a dice sim — scenario balance is a **table** question — but the clocks h
 - [ ] **Caravan speed (6"/Action)** and whether the Defender may *also* escort a second caravan (symmetric variant).
 - [ ] **Sabotage fuse (3 rounds)** — the whole scenario's tension knob, **and now the general raid structure-sabotage timer too** ([[Structures]]). Doing double duty means it deserves extra attention: a fuse tuned for this scenario may be wrong for wrecking a Generator mid-raid.
 - [ ] **Power Supply node count (4) and line range (8")** — board-size dependent; validate on the 3'×3'.
-- [ ] **Crew-integration sim** — the honest next test: run these scoring/clock rules inside the [[Crew Sim — Findings|full battle loop]] (with [[Deployables]]) to confirm objective-primary doesn't reward a lone-runner degenerate.
+- [ ] **Crew-integration sim** — the honest next test: run these scoring/clock rules inside the historical analysis (archived) (with [[Deployables]]) to confirm objective-primary doesn't reward a lone-runner degenerate.
 
 ## Rule ledger
 _Stubs to graduate after first playtests:_

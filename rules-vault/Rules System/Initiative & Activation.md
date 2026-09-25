@@ -84,7 +84,7 @@ Alpha ships with **underdog +1 Priority only**. No free-hold surge rule unless p
 > - Whether finishing a move in a Ready arc feels oppressive on dense boards
 > [!success] Uneven crew sizes — **Ready is the answer** (validated 2026-07-13)
 > [[List Building]] lets crews run from 4 to 14 models, so a small crew runs out of activations first and the big crew dumps its tail unopposed. **No new rule is needed.** The elite crew converts its last activations into **Ready** and snap-shoots the tail as it moves — 4 models = 4 banked reactions, so every fighter effectively shoots twice.
-> The **underdog +1 Priority** likewise stays exactly as written. It is not an exploit for small crews — it is their **compensation**: [[Crew Sim — Findings|the crew sim]] shows swarms out-produce elites on raw output, because WND is fixed at 1 and the Injury roll ignores stats, so quality has a hard ceiling that numbers don't. Fewer models *should* go first.
+> The **underdog +1 Priority** likewise stays exactly as written. It is not an exploit for small crews — it is their **compensation**: historical analysis (archived) shows swarms out-produce elites on raw output, because WND is fixed at 1 and the Injury roll ignores stats, so quality has a hard ceiling that numbers don't. Fewer models *should* go first.
 
 ### BLKOUT import — status (drafted 2026-07-23)
 > [!note] From the BLKOUT read-through (Settlements repo → `docs/BLKOUT-RULES-ANALYSIS.md` §19). Now **drafted into the live rules above** — playtest before graduating further, and propagate any further change through every note that references these reactions before committing.

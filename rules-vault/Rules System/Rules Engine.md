@@ -71,7 +71,7 @@ Each activation is **one Move slot + one Action slot**.
 - Each unit may **receive only one Order** per round.
 
 > [!success] Why Orders are activation-bound
-> A 4-model elite crew gets 4 activations **plus** 4 banked **Ready** tokens — every fighter effectively shoots twice, which is the right ceiling against a swarm's extra activations. Letting a Leader issue Orders *at any time* would push that to 7 shots from 4 models, and would turn Reactions into a gotcha — a unit with no Ready suddenly snapping into overwatch the instant you enter its LOS. **Ready already persists across rounds**; bank it on your own activation. See [[Initiative & Activation#Ready]] and [[Crew Sim — Findings]].
+> A 4-model elite crew gets 4 activations **plus** 4 banked **Ready** tokens — every fighter effectively shoots twice, which is the right ceiling against a swarm's extra activations. Letting a Leader issue Orders *at any time* would push that to 7 shots from 4 models, and would turn Reactions into a gotcha — a unit with no Ready suddenly snapping into overwatch the instant you enter its LOS. **Ready already persists across rounds**; bank it on your own activation. See [[Initiative & Activation#Ready]] and historical analysis (archived).
 
 #### Reactions
 - Full Ready / Reaction rules live in [[Initiative & Activation]].

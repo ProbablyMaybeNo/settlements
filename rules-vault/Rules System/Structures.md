@@ -32,7 +32,7 @@ The **catalogue** — the 23 things a player can build, what each one costs in *
 The lot itself is a **barren, battle-scarred site** — a vacant lot between brownstones, a dead mall car park, an overgrown city park, a gutted warehouse. Damaged, overgrown, showing recent conflict. You build onto it.
 
 > [!check] Reconciled against Interview 1 — ruled 2026-07-26
-> Every conflict with [[Interviews — Completing the Rules System]] was checked against the source and ruled on:
+> Every conflict with historical analysis (archived) was checked against the source and ruled on:
 > - ~~**Currency stays Goods**~~ — **superseded 2026-08-01. The currency is Credits.** "Goods" read as cargo rather than money, which is the job the word had to do. The 07-24 Cash rename was reverted on 07-26 on a scavenging-flavour argument; Credits replaces both. See `POINTS-DECISIONS.md` D24.
 > - **Power stays the Generator** — the Reactor rename is reverted.
 > - **One gatherer per resource, but you may build more.** Adopted, with the restriction loosened: the starting set gives one gatherer each for Credits / Materials, and **additional output always costs another structure or an upgrade** — never a free multiplier.

@@ -16,3 +16,6 @@ Weapons own direct offense; Armour sustained protection; Skills learned capabili
 This is a design record, not a graduated gameplay rule. [[Full Rules System v1]] remains authoritative. Existing mechanics have not been rewritten.
 
 Framework captured; mechanical integration remains open on [[Rules System — Master Roadmap]]. Review existing exceptions such as Tough, permanent medical recovery, and item replenishment before changing live rules.
+
+## Skill scope revision — 2026-09-25
+[[design-003 Single-tier skills]] supersedes the prohibition on offensive, protective and characteristic-changing skills. Use [[Skills]].

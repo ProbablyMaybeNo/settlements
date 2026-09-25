@@ -77,13 +77,13 @@ tags:
 
 ![[List Building#^tbl-budget]]
 
-**How skills attach to stats** · source: [[Skill Paths]]
+**How skills attach to stats** · source: [[Skills]]
 
-![[Skill Paths#^tbl-how-it-works-skills-ride-the-stat-line]]
+![[Skills]]
 
-**The five paths** · source: [[Skill Paths]]
+**The five paths** · source: [[Skills]]
 
-![[Skill Paths#^tbl-the-five-paths]]
+![[Skills]]
 
 **The 10-Level campaign track** · source: [[Progression]]
 
@@ -95,9 +95,9 @@ tags:
 
 *This is the block to study for tier balance. T1 is a reliable option or a narrow exception; T2 is role-defining; T3 is campaign-earned and fight-swinging. A skill is always a verb or a conditional exception — never a flat stat bump.*
 
-**Every skill, all five paths, T1 through T3** · source: [[Skill Paths]]
+**Every skill, all five paths, T1 through T3** · source: [[Skills]]
 
-![[Skill Paths]]
+![[Skills]]
 
 ---
 
@@ -353,25 +353,25 @@ tags:
 
 *Balance evidence, so a number can be argued with rather than asserted.*
 
-**Terrain density beats any points cost** · source: [[Crew Sim — Findings]]
+**Terrain density beats any points cost** · source: historical analysis (archived)
 
-![[Crew Sim — Findings#^tbl-1-terrain-is-a-bigger-lever-than-any-point-c]]
+historical analysis (archived)
 
-**The archetype balance table** · source: [[Crew Sim — Findings]]
+**The archetype balance table** · source: historical analysis (archived)
 
-![[Crew Sim — Findings#^tbl-2-the-final-balance-table]]
+historical analysis (archived)
 
 **Spread by board legality** · source: [[List Building]]
 
 ![[List Building#^tbl-validation]]
 
-**Skill value measurements** · source: [[Skill Sim — Findings]]
+**Skill value measurements** · source: [[Skill Integration Decisions]]
 
-![[Skill Sim — Findings]]
+![[Skill Integration Decisions]]
 
-**The core-test curve** · source: [[Dice Mechanic — Sim Findings]]
+**The core-test curve** · source: historical analysis (archived)
 
-![[Dice Mechanic — Sim Findings]]
+historical analysis (archived)
 
 ---
 
@@ -391,22 +391,22 @@ tags:
 > - [[Attack Dice — Sim Findings]] `^tbl-candidate-down-rules`
 > - [[Board Representation]] `^tbl-condition-status-tokens`
 > - [[Board Representation]] `^tbl-terrain`
-> - [[Crew Sim — Findings]] `^tbl-2-the-final-balance-table-2`
-> - [[Crew Sim — Findings]] `^tbl-3-morale-change-nothing`
+> - historical analysis (archived) `^tbl-2-the-final-balance-table-2`
+> - historical analysis (archived) `^tbl-3-morale-change-nothing`
 > - [[Deployables]] `^payload-what-it-does-on-detonation`
-> - [[Deployables Sim — Findings]] `^tbl-2-int-is-a-real-gate-on-deploying`
-> - [[Deployables Sim — Findings]] `^tbl-3-turrets-price-out-except-burst-now-fixed`
-> - [[Deployables Sim — Findings]] `^tbl-4-mines-land-hard-but-are-one-use-and-avoida`
-> - [[Dice Mechanic — Sim Findings]] `^tbl-1-engine-validation-core-000-core-test`
-> - [[Dice Mechanic — Sim Findings]] `^tbl-2-difficulty-ladder-stat-checks`
-> - [[Dice Mechanic — Sim Findings]] `^tbl-3-shooting-shooting-damage`
-> - [[Dice Mechanic — Sim Findings]] `^tbl-3-shooting-shooting-damage-2`
-> - [[Dice Mechanic — Sim Findings]] `^tbl-4-melee-melee`
-> - [[Dice Mechanic — Sim Findings]] `^tbl-5-head-to-head-contests-terminals-arm-wrestl`
-> - [[Dice Mechanic — Sim Findings]] `^tbl-6-duel-matrix-the-archetypes-fight`
-> - [[Dice Mechanic — Sim Findings]] `^tbl-6-duel-matrix-the-archetypes-fight-2`
-> - [[Dice Mechanic — Sim Findings]] `^tbl-7-stress-nerve-fires-where-it-should-morale`
-> - [[Dice Mechanic — Sim Findings]] `^tbl-the-shook-1-is-it-the-right-penalty-added-20`
+> - historical analysis (archived) `^tbl-2-int-is-a-real-gate-on-deploying`
+> - historical analysis (archived) `^tbl-3-turrets-price-out-except-burst-now-fixed`
+> - historical analysis (archived) `^tbl-4-mines-land-hard-but-are-one-use-and-avoida`
+> - historical analysis (archived) `^tbl-1-engine-validation-core-000-core-test`
+> - historical analysis (archived) `^tbl-2-difficulty-ladder-stat-checks`
+> - historical analysis (archived) `^tbl-3-shooting-shooting-damage`
+> - historical analysis (archived) `^tbl-3-shooting-shooting-damage-2`
+> - historical analysis (archived) `^tbl-4-melee-melee`
+> - historical analysis (archived) `^tbl-5-head-to-head-contests-terminals-arm-wrestl`
+> - historical analysis (archived) `^tbl-6-duel-matrix-the-archetypes-fight`
+> - historical analysis (archived) `^tbl-6-duel-matrix-the-archetypes-fight-2`
+> - historical analysis (archived) `^tbl-7-stress-nerve-fires-where-it-should-morale`
+> - historical analysis (archived) `^tbl-the-shook-1-is-it-the-right-penalty-added-20`
 > - [[Full Rules System v1]] `^tbl-season-score`
 > - [[Full Rules System v1]] `^tbl-storage-caps`
 > - [[Infrastructure]] `^tbl-custom-battles`
@@ -415,12 +415,12 @@ tags:
 > - [[List Building]] `^tbl-armour-equipment-2`
 > - [[Morale]] `^tbl-break-test-end-phase-2-stress-2`
 > - [[Progression]] `^levels-the-fixed-advancement-track`
-> - [[Skill Sim — Findings]] `^tbl-1-flat-combat-modifiers-raw-bought-exact`
-> - [[Skill Sim — Findings]] `^tbl-2-multi-attack-expected-wounds-activation`
-> - [[Skill Sim — Findings]] `^tbl-3-grapple-chain`
-> - [[Skill Sim — Findings]] `^tbl-4-bravery-path-break-rate-impact-nrv-2`
-> - [[Skill Sim — Findings]] `^tbl-5-marquee-duel-is-it-worth-a-point`
-> - [[Skill Sim — Findings]] `^tbl-the-self-stress-fix-applied`
+> - [[Skill Integration Decisions]] `^tbl-1-flat-combat-modifiers-raw-bought-exact`
+> - [[Skill Integration Decisions]] `^tbl-2-multi-attack-expected-wounds-activation`
+> - [[Skill Integration Decisions]] `^tbl-3-grapple-chain`
+> - [[Skill Integration Decisions]] `^tbl-4-bravery-path-break-rate-impact-nrv-2`
+> - [[Skill Integration Decisions]] `^tbl-5-marquee-duel-is-it-worth-a-point`
+> - [[Skill Integration Decisions]] `^tbl-the-self-stress-fix-applied`
 > - [[Stress Persistence — Sim Findings]] `^tbl-1-where-stress-comes-from`
 > - [[Stress Persistence — Sim Findings]] `^tbl-2-cost-per-revival`
 > - [[Stress Persistence — Sim Findings]] `^tbl-3-break-test-failure-odds`
@@ -429,7 +429,7 @@ tags:
 > - [[Structures]] `^tbl-three-ways-to-grow-and-how-to-tell-them-apar`
 > - [[Structures]] `^worker-benefits`
 > - [[Terrain]] `^tbl-interact`
-> - [[Terrain Hacking Cover — Sim Findings]] `^tbl-t3-a-2-fall-is-a-coin-flip-kill`
-> - [[Terrain Hacking Cover — Sim Findings]] `^tbl-t6-hacker-shut-outs-are-too-weak`
-> - [[Terrain Hacking Cover — Sim Findings]] `^tbl-t8-disengage-is-a-dead-option`
-> - [[Terrain Hacking Cover — Sim Findings]] `^tbl-validated`
+> - historical analysis (archived) `^tbl-t3-a-2-fall-is-a-coin-flip-kill`
+> - historical analysis (archived) `^tbl-t6-hacker-shut-outs-are-too-weak`
+> - historical analysis (archived) `^tbl-t8-disengage-is-a-dead-option`
+> - historical analysis (archived) `^tbl-validated`

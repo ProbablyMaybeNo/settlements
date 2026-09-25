@@ -11,7 +11,7 @@ depends_on:
 feeds_into:
   - Settlement
   - Scenarios
-  - Skill Paths
+  - Skills
 tags:
   - settlements/phase
   - settlements/stage/s3
@@ -20,12 +20,12 @@ tags:
 > **S3 Battle Layer** · status **Drafted** · build order **14**
 
 **Depends on:** [[Terrain]], [[Terrain Interaction]], [[Rules Engine]]
-**Feeds into:** [[Settlement]], [[Scenarios]], [[Skill Paths]]
+**Feeds into:** [[Settlement]], [[Scenarios]], [[Skills]]
 
 ## Focus
 Terminals, Linked features, and range-banded control of terrain. Physical Interacts (Lift, Force, Search, traps) stay in [[Terrain Interaction]] — this note is the digital layer.
 
-**v1 is deliberately small:** you hack a terminal to control its Linked features, and an enemy at another terminal can **interrupt** you — Overloading their own terminal for the turn to jam one hack. One roll, one clean decision. A deeper hacker-vs-hacker system is drafted and **parked** at the bottom for a later version.
+
 
 The Rules column nails down:
 - How a fighter operates a terminal (declare → range → **INT test**).
@@ -44,9 +44,9 @@ The Rules column nails down:
 - A **terminal** is terrain a fighter can Interact with while in **base contact**.
 - Features are **Linked** only when the scenario or settlement says so — range alone never makes something Linked.
 - Operating a terminal spends the unit's **Action** slot.
-- One Action = one hack = at most **one** Linked function, unless a skill says otherwise ([[Skill Paths]]).
+- One Action = one hack = at most **one** Linked function, unless a skill says otherwise ([[Skills]]).
 - **Access doesn't wear a terminal out.** A terminal used only to **access** features stays live all turn — different units may each hack it — but a **single unit may not access the same terminal twice in one turn.**
-- **Interrupting does.** A terminal used to **interrupt** (below) becomes **Overloaded** and powers down until the **start of next turn**. So each turn a terminal is either your reusable access point *or* a one-shot interrupt — never both.
+
 
 ### Hacking a terminal — the core test
 1. **Declare** the terminal and the Linked feature you want. The feature must be within a legal **range band** (below).
@@ -72,23 +72,8 @@ Measure **terminal → feature**. Max **24"**. Applies to the hack test.
 
 Other modifiers (skills, gear, **Shaken**, conditions) stack normally; the global **±3** cap applies.
 
-### Interrupt — contesting a hack
-An enemy in base contact with another **live** (non-Overloaded) terminal on the network may **Interrupt** a declared hack. It's a **Reaction** — the *interrupt Interact* option ([[Initiative & Activation#Reaction options]]) — but a **network** one, so it bends two of the usual Reaction rules: it's declared *as* the enemy hacks (not after they finish), and it **ignores the forward-180°/LOS requirement** — you contest through the wire, needing only base contact with your own live terminal, not sight of the hacker. It costs **no Ready token**; its price is the **Overload** below.
-
-**Declare early, pay only if it lands:**
-1. The hacker declares the terminal and the feature.
-2. The enemy declares **Interrupt** — *before* the access roll.
-3. The hacker rolls `1d10 + INT − range` vs **7+**.
-   - **Fail** → the hack fails on its own. The interrupt is **not spent** — the interrupter's terminal stays **live**.
-   - **Pass** → the interrupt **jams it**: the feature does **not** activate, and the interrupter's terminal becomes **Overloaded** (down till the start of next turn).
-
-There's no opposed roll — the only die is the hacker's access. A declared interrupt automatically jams a hack that *would* have landed, and costs nothing against one that fails anyway.
-
-**What it does and doesn't do:**
-- It stops **one** access attempt — **not** the terminal for the turn. A *different* unit can hack the same target terminal again; and once an interrupter has Overloaded their terminal, they can't stop that second attempt. **Bait the interrupt with one unit, land the hack with the next.**
-- Each interrupter terminal absorbs exactly **one** successful hack per turn. To push a feature through a defended network, bring bodies (see sim).
-
-**The decision:** an interrupt spends your terminal for the turn to deny one enemy feature. Worth it to jam the turret about to shoot your squad; rarely worth it to stop a door.
+### Interrupt
+Interrupt is the INT skill in [[Skills#INT]]. It requires contact with an active terminal and an enemy terminal interaction within 12 inches. Resolve opposed INT; success cancels that interaction and FREEZEs the enemy terminal until the end of the next turn. It may be used after the source has activated. No automatic veto or self-Overload applies. See [[Skill Integration Decisions]] for unresolved frequency/network details.
 
 ### Linked functions (what a successful hack controls)
 The **one** function a passed hack grants — one per Action unless a skill says otherwise:
@@ -104,17 +89,17 @@ The **one** function a passed hack grants — one per Action unless a skill says
 > The full catalogue of operable features — cranes, bridges, shutters, vents, flood gates — and exactly what each does to the board (with every crush/fall/push routed to an existing rule) lives in [[Infrastructure]]. Hacking is *how* you operate them; Infrastructure is *what happens*.
 
 ### Modifiers — from gear & skills, not a hardening stat
-A hack test takes **+/− modifiers** like any other roll: hacking **gear** (Breach Kit, Exploit Suite — [[Weapons]] / [[List Building]]), INT **skills** ([[Skill Paths]]), **conditions**, and **Shaken**. Difficulty is the same in reverse — a defender's gear/skill or a scenario may impose a **penalty** on enemy hacks against a device. There is **no separate "hardened systems" stat**; toughness is just a modifier, and the global **±3** cap applies.
+A hack test takes **+/− modifiers** like any other roll: hacking **gear** (Breach Kit, Exploit Suite — [[Weapons]] / [[List Building]]), INT **skills** ([[Skills]]), **conditions**, and **Shaken**. Difficulty is the same in reverse — a defender's gear/skill or a scenario may impose a **penalty** on enemy hacks against a device. There is **no separate "hardened systems" stat**; toughness is just a modifier, and the global **±3** cap applies.
 
 ### Action economy
 One hack per activation. A feature that deals damage (turret fire, a triggered hazard) is your **one attack** for the activation — you may not also make a separate attack.
 
 ### Skills
-INT-path skills ([[Skill Paths]]) are exceptions and payoffs on top of these rules (**Hacker**, **Computer Whiz**, **Turret Tamer**, **Counter-Hack**, etc.). They modify the hack test, change what one Action can do, or change how the **interrupt** works — e.g. **Counter-Hack** lets a fighter Interrupt *without* Overloading their own terminal.
+
 
 > [!question] Playtest dials
-> - **Interrupt is a hard counter** — automatic against a *successful* hack, no opposed roll. Because it only spends when the hack would land, one interrupter reliably eats one feature per turn. A lone hacker can't beat an interrupter alone — the sim shows you need **two** successful hacks to push one through. If that's too strong, let a hacker's **nat 10** punch through, or add an opposed INT test.
-> - **Bait dynamic** — Overload (not turn-long lockout) + multi-use terminals means a second unit beats a spent interrupter. The **Overloaded-till-next-turn** duration is the lever if interrupts feel too weak or too strong.
+
+
 > - **Hack-modifier ladder** — set the gear/skill +/− values once first playtests show how reliable an unmodified hack feels.
 
 ## Rule ledger
@@ -138,3 +123,6 @@ _none yet — graduate a `core-00X Hacking` stub after first playtest_
 > - Graduate this only if v1 hacking proves too thin at the table.
 
 *See [[Rules System MOC]] and [[_Rules Map.canvas|the map]].*
+
+## Current skills
+Neural Uplink adds +4 to HACKING tests. Trojan operates an enemy ELECTRIC deployable. Interrupt contests terminal interactions. Full effects: [[Skills#INT]].

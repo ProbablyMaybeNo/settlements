@@ -99,7 +99,7 @@ A **Glorious Deed** is a high-risk feat that earns a fighter a Level trigger. **
 Each **territory card** also carries **1–5 Territory Deeds** themed to that location ([[Territory]]).
 
 > [!warning] Two names collide — **still open, needs a ruling**
-> **Wrecking Crew** is both this Deed and a **T3 STR skill** ([[Skill Paths]]), and **Trapper** is both this Deed and a **T1 INT skill**. A player asking "did I earn Wrecking Crew?" cannot tell which system is being talked about.
+> **Wrecking Crew** is both this Deed and a **T3 STR skill** ([[Skills]]), and **Trapper** is both this Deed and a **T1 INT skill**. A player asking "did I earn Wrecking Crew?" cannot tell which system is being talked about.
 >
 > **Rename the Deeds, not the skills** — the skills are referenced from the stat ladder and the costing engine, the Deeds only from this table. Suggested: **Wrecking Crew → Demolition Man** · **Trapper → Sprung the Trap**. Not applied; it is a naming call, not a propagation fix.
 

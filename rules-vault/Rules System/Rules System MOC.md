@@ -18,17 +18,17 @@ Visual, editable map of the whole rules system, ported from the Notion **Build R
 > ⌨️ **Keep this docked while you work:** [[Quick Reference — Writing Rules]] — the workflow + every key/command on one screen (right-click its tab → Move to right sidebar).
 > 📚 **Every table in one place:** [[_Rules Catalogue]] — live embeds of every rules table, grouped for design review. Regenerate with `py -3.13 scripts/build_catalogue.py`.
 > 🔓 **What's still open:** [[Open Decisions]] — auto-generated from unticked boxes and `status:` fields.
-> 💡 **Random idea? Dump it here:** [[Ideas Inbox]] — a no-structure scratchpad; triage into rules later.
+> 💡 **Random idea? Dump it here:** historical analysis (archived) — a no-structure scratchpad; triage into rules later.
 > 🔬 **What other games do:** [[Wargaming Research Hub]] — the mechanics catalogue. Every notable system or mechanic we come across, one row each, linked to a full write-up. Research only — nothing there is adopted until it lands in [[Full Rules System v1]].
-> 📇 **Rules reference:** [[Weapons]] · [[Basic Weapon System]] · [[Skill Paths]] — the current weapon construction and skill catalogues.
-> 🧪 **Sim findings:** [[Dice Mechanic — Sim Findings]] · [[Skill Sim — Findings]] · [[Terrain Hacking Cover — Sim Findings]] · [[Crew Sim — Findings]] · [[Deployables Sim — Findings]]
+> 📇 **Rules reference:** [[Weapons]] · [[Basic Weapon System]] · [[Skills]] — the current weapon construction and skill catalogues.
+> 🧪 **Sim findings:** historical analysis (archived) · [[Skill Integration Decisions]] · historical analysis (archived) · historical analysis (archived) · historical analysis (archived)
 > 📑 **Rules Ledger:** short *graduated* rule cards under `Rules Ledger/` — the durable one-page text (not the full phase discussion). Phase notes draft; ledger stores the clean final wording for embeds / the eventual rulebook.
 
 **Pitch:** miniatures-agnostic skirmish wargame of brutal, ultra-realistic firefights on battlefields dense with interactive terrain; build a settlement, persist your crew, fight for your region. Full detail in [[Game Vision]].
 
 ✅ Core dice locked in draft. Lethality first pass drafted in [[Damage]] — final **Lock** after playtest.
 
-✅ **[[List Building]] + [[Weapons]] drafted and sim-validated** (2026-07-13). Eight archetypes sit within an **11-point spread** — on a legal 9–12-feature board. See [[Crew Sim — Findings]]. *(Validated on the retired 100-point scale. Everything is now on the **850-Credit** scale — bodies re-derived from the measured stat ladder 2026-08-19, scale rebased 2026-08-20, propagated to every note 2026-08-27. **Match Play 850 · Campaign Start 425**, one body ladder, differing only in cap and starting skill count.)*
+✅ **[[List Building]] + [[Weapons]] drafted and sim-validated** (2026-07-13). Eight archetypes sit within an **11-point spread** — on a legal 9–12-feature board. See historical analysis (archived). *(Validated on the retired 100-point scale. Everything is now on the **850-Credit** scale — bodies re-derived from the measured stat ladder 2026-08-19, scale rebased 2026-08-20, propagated to every note 2026-08-27. **Match Play 850 · Campaign Start 425**, one body ladder, differing only in cap and starting skill count.)*
 
 ## Modifier design framework
 

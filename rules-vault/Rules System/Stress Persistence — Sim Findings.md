@@ -66,10 +66,10 @@ The only difference is rhythm: depending on turn order a revived fighter may get
 1. 📌 **Rule it in.** Realistic, free to write, and it fixes a genuine gap rather than adding a mechanic.
 2. 🎲 **The bad beat is rare enough to be a story** — ~1 revival in 53 walks off at today's rates.
 3. 🔗 **Both were adopted together (2026-08-29), so the stacked case is what ships.** Stress-persistence *and* surplus-hits-to-Stress roughly **2.2×** the Stress on a downed model (0.66 → 1.44) and take wasted revivals from 1-in-11 to nearly 1-in-4. The recommendation had been to test them one at a time; Ross ruled both, and they interlock — surplus-to-Stress does **nothing at WND 1** without persistence, so splitting them would have made the second rule untestable anyway.
-4. ⚠️ **Compounds the death-spiral risk** already flagged in [[Dice Mechanic — Sim Findings]] §7 — many triggers × a compounding −1. Worth watching at the table specifically.
+4. ⚠️ **Compounds the death-spiral risk** already flagged in historical analysis (archived) §7 — many triggers × a compounding −1. Worth watching at the table specifically.
 5. 🩹 **Valve held in reserve, not pre-applied:** *"a Stabilised fighter returns Shaken, however much Stress it had."* One clause if it plays too punishing. The maths cannot tell you whether the bad beat feels brutal-good or brutal-bad — only the table can.
 
 ---
 *Raw JSON at `test-bench/balance/results/attack-dice-15b-stress-on-down.json`; browsable in the Sim Explorer (`powershell -File test-bench/explorer/serve.ps1`).*
 
-See [[Morale]] · [[Damage]] · [[Conditions]] · [[Attack Dice — Sim Findings]] · [[Dice Mechanic — Sim Findings]] · [[Crew Sim — Findings]].
+See [[Morale]] · [[Damage]] · [[Conditions]] · [[Attack Dice — Sim Findings]] · historical analysis (archived) · historical analysis (archived).

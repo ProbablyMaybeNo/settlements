@@ -42,7 +42,7 @@ Stress represents fear, panic, suppression and shock. It is tracked as points on
 **Environmental Stress** = Stress from the board itself — hazards, weather, fire, smoke, cold — as opposed to *combat* Stress (being shot or fought). Some gear ignores the first Environmental Stress each game (e.g. Thick clothing, [[Weapons]]).
 
 > [!info] More triggers are coming
-> The sim shows Stress from combat alone barely fires in a 1v1 ([[Dice Mechanic — Sim Findings]]). That's expected — most Stress will come from **skills, hazards, terrain and scenario events**, which stack far faster at crew scale. Tune trigger *frequency* before touching the numbers below.
+> The sim shows Stress from combat alone barely fires in a 1v1 (historical analysis (archived)). That's expected — most Stress will come from **skills, hazards, terrain and scenario events**, which stack far faster at crew scale. Tune trigger *frequency* before touching the numbers below.
 
 ### Shaken — the always-on penalty
 Any unit with **1+ Stress is Shaken: −1 to all rolls.** Flat, passive, no test — it does **not** grow with more Stress. This is the reliable "under fire, rattled, shooting worse" effect, and it is the *only* thing 1 Stress does. You risk actually breaking only once Stress reaches 2. **Shaken carries into your next turn** — a point of Stress never clears on the same round you gain it (see Recovery), so hitting a unit in melee is never wasted: it fights its next activation at −1.
@@ -87,7 +87,7 @@ Full status entries in [[Conditions]]. A state governs the unit's **next activat
 > The worst state is now a clean **rout off the table**, not attack-nearest-model. Fits the name and the gritty-realism pillar better than berserk-attacks-allies. Flag to revisit if you want the chaos option back.
 
 > [!success] Validated at crew scale — **do not touch these numbers** (2026-07-13)
-> The friendly-Down trigger looked, on paper, like it would wipe crews: three casualties in LOS is 3 Stress, and a Break test at NRV 0 / Stress 3 fails **80%** of the time. [[Crew Sim — Findings|The crew sim]] says leave it alone. On a legal board ([[Terrain#Setup procedure|9–12 features]]) the cascade is mild — **0.6 BugOuts per battle**, versus 5.3 on an illegally sparse one. Two proposed softeners were tested and **both broke the game**:
+> The friendly-Down trigger looked, on paper, like it would wipe crews: three casualties in LOS is 3 Stress, and a Break test at NRV 0 / Stress 3 fails **80%** of the time. historical analysis (archived) says leave it alone. On a legal board ([[Terrain#Setup procedure|9–12 features]]) the cascade is mild — **0.6 BugOuts per battle**, versus 5.3 on an illegally sparse one. Two proposed softeners were tested and **both broke the game**:
 > - *"Ignore Stress from friendly Downs while bunched"* → took a 14-model horde to **93–96% win rate at every terrain density.**
 > - *"Cap Stress from friendly Downs at 1 per round"* → flipped a sparse board from 19% to **60%** for the horde.
 >
@@ -121,7 +121,7 @@ Scoring stops the instant you bottle or clear the board — see [[Scenarios#Conc
 > Measured cost, NRV +2: **8.8%** of revived fighters fail their first Break test and **1.9%** BugOut immediately — roughly **one revival in fifty-three**. Story frequency, not a pattern to play around.
 
 > [!question] Watch the stacking, not the rule
-> **Both rules are now in** (ruled 2026-08-29): Attack Dice converts **surplus hits into Stress** *and* Stress persists through Down. Together a downed model's Stress roughly **2.2×** (0.66 → 1.44 mean) and wasted revivals go from ~1-in-11 to nearly **1-in-4**. The earlier plan was to adopt them one at a time; they landed together, so **the table tests the stacked case**. Note also that this compounds the **death-spiral risk** flagged in [[Dice Mechanic — Sim Findings]] §7.
+> **Both rules are now in** (ruled 2026-08-29): Attack Dice converts **surplus hits into Stress** *and* Stress persists through Down. Together a downed model's Stress roughly **2.2×** (0.66 → 1.44 mean) and wasted revivals go from ~1-in-11 to nearly **1-in-4**. The earlier plan was to adopt them one at a time; they landed together, so **the table tests the stacked case**. Note also that this compounds the **death-spiral risk** flagged in historical analysis (archived) §7.
 >
 > **Valve, held in reserve and deliberately not pre-applied:** *"a Stabilised fighter returns Shaken, however much Stress it had."* One clause, kills the bad beat, also kills the beat. Only the table can say which way it plays.
 
@@ -129,7 +129,7 @@ Scoring stops the instant you bottle or clear the board — see [[Scenarios#Conc
 - **Passing a Break test** (2+ Stress) clears **all** Stress; a **natural 10** always clears all.
 - **Being Downed clears nothing** — see *Stress and Down* above. A Down unit neither tests nor sheds; its Stress waits for it.
 - **A point of Stress never clears on the round you gain it — it carries to your next turn.** A unit at **exactly 1 Stress** sheds it in the End Phase **only on a round where it took no new Stress.** So a fighter tagged in melee **stays Shaken (−1) right through its next turn** and only shrugs it off after a *clean* round — do **not** reduce it to 0 at the end of the turn it was hit. (At 2+ Stress you can't passively drain a real panic at all; you must pass a Break test.)
-- **Everything else is a skill.** Removing Stress before/without a test, shedding it faster, or ending a **Bolt/Broken** state early comes from the **Bravery path** ([[Skill Paths]]) — *Steady, Count Breaths, Rally, Talk Them Down, Iron Will*, and the rest. Deliberately: composure is a build choice, not free.
+- **Everything else is a skill.** Removing Stress before/without a test, shedding it faster, or ending a **Bolt/Broken** state early comes from the **NRV skills** ([[Skills]]) — *Inspire, Rally, Sin Eater*, and other printed effects. Deliberately: composure is a build choice, not free.
 - **BugOut can't be rallied** — the unit has already routed. It can only be stopped *at the moment of failure* by *Talk Them Down* or *Stand Your Ground*.
 
 ## Rule ledger

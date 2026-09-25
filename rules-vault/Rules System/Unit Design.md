@@ -73,18 +73,18 @@ Used for technical and knowledge-based actions, including hacking, crafting, rep
 Used to test a unit’s mental state under pressure, including stress
 
 ### Stat Scale
-Only the **five path-stats** (STR, AGI, DEX, INT, NRV) take stat points. **WND stays 1 and MOV stays 6"** — they rise only via a specific [[Skill Paths|skill]], never from points. Each **+1 ≈ +10%** on a [[core-000 Core Test|core test]] (bounded 10–90%).
+Only the **five path-stats** (STR, AGI, DEX, INT, NRV) take stat points. **WND stays 1 and MOV stays 6"** — they rise only via a specific [[Skills|skill]], never from points. Each **+1 ≈ +10%** on a [[core-000 Core Test|core test]] (bounded 10–90%).
 
-| Value | Meaning | Path tier |
+| Value | Meaning | Skill tier (none) |
 |:---:|---|:---:|
 | −1 | Impaired — injured, panicked, exhausted | — |
 | 0 | Civilian baseline | — |
 | +1 | Capable | — |
-| +2 | Skilled | **Tier 1** |
+| +2 | Skilled | — |
 | +3 | Trained | — |
-| +4 | Veteran | **Tier 2** |
+| +4 | Veteran | — |
 | +5 | Elite | — |
-| +6 | Peak / master | **Tier 3** |
+| +6 | Peak / master | — |
 
 ^tbl-stat-scale
 
@@ -92,32 +92,31 @@ Only the **five path-stats** (STR, AGI, DEX, INT, NRV) take stat points. **WND s
 
 ### Rank vs Role
 Two separate axes — don't conflate them:
-- **Rank** = a unit's **command slot**, limited by [[List Building]]. It sets stat points, skill slots, Orders, and caps. Only **Rank** is restricted.
-- **Role** = what a unit is *good at* (Brawler, Shooter, Techie, Medic…). It **emerges** from stats, [[Skill Paths|skills]], gear and scars — unlimited and narrative, and never restricts fielding.
+- **Rank** = a unit's **command slot**, limited by [[List Building]]. It sets stat points, skill slots, Orders, and caps. Only **Rank** is restricted. Skill acquisition is pending.
+- **Role** = what a unit is *good at* (Brawler, Shooter, Techie, Medic…). It **emerges** from stats, [[Skills|skills]], gear and scars — unlimited and narrative, and never restricts fielding.
 
 ### Ranks (build budget)
 Units buy up from the civilian baseline with **stat points**, spent only on the five path-stats.
 
-A rank grants **more stat points than a unit can spike into one stat** — **tier caps force the spread**, so a fighter is a real character, not a single +2 in a field of zeros.
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
-| Rank | Stat pts | Tier caps (per stat line) | Skills* | Orders | Credits |
+| Rank | Stat pts | Stat allocation caps (per stat line) | Skills* | Orders | Credits |
 |---|:---:|---|:---:|:---:|:---:|
-| **Recruit** | **3** | none — no tiered stats | **0** | 0 | **70** |
-| **Fighter** | **5** | up to **2× T1** | ~2 | 0 | **100** |
-| **Specialist** | **7** | **1× T2 · 2× T1** | ~3 | 1 | **145** |
-| **Leader** | **9** | **1× T3 · 2× T2 · 4× T1** | ~4 | 2 | **185** |
+| **Recruit** | **3** | none — each stat at most +1 | **0** | 0 | **70** |
+| **Fighter** | **5** | up to **2 stats reaching +2** | **Undecided** | 0 | **100** |
+| **Specialist** | **7** | **Undecided** | **Undecided** | 1 | **145** |
+| **Leader** | **9** | **Undecided** | **Undecided** | 2 | **185** |
 
 ^tbl-ranks-build-budget
 
-<small>*Skills are derived from the stat line — see [[Skill Paths]]. **Counts are exact, not approximate: one skill per tier a stat reaches.** The table value is the maximum, reached only when every point lands in tiered stats — a fighter who spreads into +1 "dabbles" trades skills for breadth. Costs live in [[List Building]] · [[Full Rules System v1]] §16.</small>
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
-> [!info] Starting skills depend on the **format**, not the rank alone
-> The table above is **Match Play** — a crew built for one game with no campaign attached, so it gets the richer kit. A **Campaign Start** crew is meant to *grow* through the Level track ([[Progression]]) and begins with **exactly one skill each, at the rank's own tier**: Recruit none · Fighter 1× T1 · Specialist 1× T2 · Leader 1× T3, against a **425** Crew Rating cap. **Body costs are identical in both tiers** — 70 / 100 / 145 / 185 — and the separate Campaign-Start ladder is retired; the tiers differ only in the **cap** and the **starting skill count**. Stat points, tier caps and Orders are identical in both. Full tables in [[List Building#The four ranks — two starting tiers]].
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
 
-- **Tiers:** a path-stat at **+2 = Tier 1**, **+4 = Tier 2**, **+6 = Tier 3**. **+1 is a "dabble"** — capable, but not a tier (no skill). Max stat **+6**.
-- **The tier caps are the ceiling** — they set how many stats a rank may push to each tier, so points *must* spread. A Fighter (5 pts, max 2× T1) builds e.g. `STR+2 / INT+2 / AGI+1` — a brawler who can also hack. Only a **Leader** ever gets a **T3** (a +6 elite stat) — its signature.
-- **Skills ride the stat line:** each stat grants **one skill at every tier it reaches**, from *that stat's* path. So a **+4** stat = its **T1 *and* T2** skill; a **+6** = T1 + T2 + T3 ([[Skill Paths]]). *(Replaces the old points ÷ 2 rule.)*
-- **Recruits** are the bottom of the ladder: a body, nothing more. **No tiered stat, so no skills** — 3 points of +1 dabbles over a flat civilian baseline. They exist so a *swarm* can be fielded; chaff, screens and objective-sitters — **not** a melee force ([[List Building]]).
+
+- **The stat allocation caps are the ceiling** — they set how many stats a rank may push to each tier, so points *must* spread. A Fighter (5 pts, max 2 stats reaching +2) builds e.g. `STR+2 / INT+2 / AGI+1` — a brawler who can also hack. Only a **Leader** ever gets a — (a +6 elite stat) — its signature.
+Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
+
 - **Rank is also a weapon gate** — a Recruit physically cannot hold a rifle ([[Weapons#Rank gates the class]]).
 - A **Leader is a fighter with Orders** — never benched. Rank rises only by deliberate **promotion** into an open slot ([[Progression]]), never automatically.
 - Fielding caps and costs live in [[List Building]].

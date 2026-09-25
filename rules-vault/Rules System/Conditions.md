@@ -32,7 +32,7 @@ The Rules column should nail down:
 
 ## Working rules / decisions
 
-A condition is a **status token on a unit**. Combat conditions come from [[Damage]] and skills ([[Skill Paths]]); Nerve states come from [[Morale]]; persistent conditions come from weapons, terrain hazards and skills.
+A condition is a **status token on a unit**. Combat conditions come from [[Damage]] and skills ([[Skills]]); Nerve states come from [[Morale]]; persistent conditions come from weapons, terrain hazards and skills.
 
 > [!info] Weapons apply conditions — the **Payload** rule
 > A [[Weapons|weapon characteristic]] that applies a condition does so **in place of the normal non-wounding result** (Pinned for ranged, Shaken for melee). A hit still does exactly one thing: **it wounds, or it delivers its payload** — never both. The payload's +1 Stress is the same +1 Pinned would have given; don't count it twice.
@@ -54,26 +54,10 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 - **Hidden** — **−3 to be hit.** Earned via the **Hide** action in Concealing terrain, or from gear/skill. Lost on moving (except where a skill allows it), shooting, **interacting** — any Action that resolves an Interact test: claim, loot, hack, arm, defuse ([[Terrain Interaction]], [[Hacking]]) — or being revealed.
 
 ### Stealth & Ambush
-*Drafted 2026-08-05 ([[Full Rules System v1]] §25), sim-tuned across 700–2000 games per cell in paired mirrors — cited to `PACKET-TEST-RESULTS.md` T1–T3, **a file that is not in the Settlements repo**; the numbers below are quoted from the master note, not re-verifiable from source. This is the only place these rulings live; **Hidden** above is the condition they hang off.*
-
-- **An Ambush attacks off AGI**, never STR or DEX, **and this must be printed explicitly on the card.** A DEX carrier running Ambush measured **−30 to −33 win-points** — it was attacking on its worst stat. An AGI carrier measured **+1.0 to +12.7**.
-- **The failed-Ambush free Attack Back is load-bearing — keep it unchanged.** It removes **4.1** of the mechanic's 12.1 win-points and fires on **47.5%** of attempts. Confirmed by measurement, not just designed; do not soften it later.
-
-> [!check] Ruled — a Hidden fighter may **hold** an objective, but **claiming or scoring** one breaks Hidden
-> **Holding** is just standing within 3" with no enemy within 3" ([[Scenarios#Shared rules]]) — it costs nothing and never touches Hidden. But **claiming** a terminal, **looting** a cache, **arming** or **defusing** a charge is always an **Interact**, and Interacting breaks Hidden (above).
->
-> **Take a Hold** is where this reads cleanest: a terminal must be *claimed* (INT 7+, breaks Hidden) before it can ever be *held* for score, so the hold state a Hidden fighter benefits from only ever applies **after** the reveal already happened. A Hidden fighter can sit on an unclaimed objective all day; the instant they do the thing that scores it, they are not Hidden.
->
-> The sim's **+12.7 / −5.2** swing was measured against a simplified "can this fighter contribute to score while Hidden" toggle. With Interact-breaks-Hidden as a hard rule the practical answer lands near the sim's **No** case for anything needing a claim, and near **Yes** for a pure territorial-control read. Revisit only if a future scenario introduces a hold-only objective with no claim step.
-
-> [!danger] If Hidden ever becomes "not a legal target", a skill-stacking cap ships in the same change
-> Under the current **−3** reading, a fighter stacking three concealment skills still gets shot ~**12 times** a game and dies normally. Under an untargetable reading the same stack was shot **zero times per game**. The −3 is what makes concealment stacking safe.
-
-> [!question] Ambush has no card yet
-> §25 rules how an Ambush *resolves*, but no Ambush action, skill or piece of gear is defined anywhere in [[Skill Paths]] or [[Weapons]] — only the **Ambush Predator** Glorious Deed ([[Campaign#Glorious Deeds]]) references landing one. The trigger and cost still need writing.
+Use the current Ambush skill in [[Skills#AGI]] and UNANSWERED in [[Keywords]]. Its AGI test is a setup test; it does not automatically substitute AGI for the weapon's melee stat.
 
 ### Control conditions (from skills, weapons and terrain)
-- **Grappled** — grappler and target stay within 1". The target cannot Move, Charge, Sprint or Disengage; it may only attack its grappler, or spend its Action on an **opposed STR test** to escape. The grappler may release it freely, or move at **half MOV** while dragging it. Grappling ends if either model goes Down.
+- **Grappled** — see [[Keywords#GRAPPLED]] for the current holding and escape procedure.
 - **Suppressed** — counts as **Pinned**, and the unit **cannot React** until it has cleared the Pinned effect.
 - **Off-Balance** — cannot Sprint or Charge. **Persists until cleared:** spend your **Move** slot to shed it (you keep your Action), exactly as you would shake off **Pinned**.
 - **Hobbled** — **−2" MOV**. **Persists until cleared:** spend your **Move** slot to shed it (you keep your Action), exactly as you would shake off **Pinned**.
@@ -84,7 +68,7 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 
 ### Persistent conditions (resolve in the End Phase)
 - **Fire** — each End Phase, the unit suffers an **Injury roll at +1 Damage, ignoring Armor**. It (or an adjacent friendly) may spend an **Action** to extinguish it — automatic, no test. Persists until extinguished.
-- **Bleed** — each End Phase, the unit loses **1 WND** unless treated. Treating = an Action + **INT test (7+)** by the unit or an adjacent friendly, **−2 without a Med-Kit**; a **Medic** ([[Skill Paths]]) treats automatically. **At WND 1 — i.e. almost everyone — Bleed is a two-round death clock:** it drops you Down at the next End Phase, and Down + Bleed bleeds out. It is the harshest condition in the game by a wide margin, which is why **Bleeding** is the priciest weapon payload and why a **Med-Kit** earns its points.
+- **Bleed** — each End Phase, the unit loses **1 WND** unless treated. Treating = an Action + **INT test (7+)** by the unit or an adjacent friendly, **−2 without a Med-Kit**; the Stabilize skill does not grant automatic treatment of Bleed or Poison. **At WND 1 — i.e. almost everyone — Bleed is a two-round death clock:** it drops you Down at the next End Phase, and Down + Bleed bleeds out. It is the harshest condition in the game by a wide margin, which is why **Bleeding** is the priciest weapon payload and why a **Med-Kit** earns its points.
 - **Poison** — **−1 to all rolls.** Each End Phase the unit makes a **STR test (7+)**: pass ends it. It can also be treated exactly like Bleed.
 
 > [!success] Why these four durations changed — measured 2026-08-01
@@ -99,19 +83,16 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 - **Bolt** — flees toward the nearest board edge, hugging cover. *(Break test fail at Stress 2.)*
 - **Broken** — frozen; cannot act. *(fail at Stress 3.)*
 - **BugOut** — routs off the nearest board edge and is removed from play. *(fail at Stress 4+.)*
-- **Fight** — *skill-induced only* (e.g. Fanatic, [[Skill Paths]]): instead of cracking, the unit must move by the shortest route toward the nearest visible enemy on its next activation and attack it if able. It cannot Hide, detour for cover, or move away from that enemy.
 
-### Morale modifiers (from skills)
-- **Braced** — **+1 on Break tests**, and reduce the first Stress gained from losing a melee by 1. Ends at the start of the unit's next activation.
-- **Cowed** — **−1 on the unit's next Break test**, then ends.
-- **Frightened** — **cannot React** and **−1 on Break tests**. Ends at the end of the unit's next activation.
+### Skill conditions
+- **Stunned** — [[Keywords#STUNNED]].
+- **Auras** — [[Keywords#AURA]].
 
 ### Marker & device states (not conditions on units)
 These sit on terrain, devices or as table markers — they never give Stress and don't count against the modifier cap:
 - **Spotted** — the observing unit has identified the target for named skills, until the stated expiry. Spotted does not remove Hidden by itself.
 - **Jammed** — remote activation and wireless control of the device fail; local and manual operation still work. Ends at the start of the jammer's next activation.
-- **Overloaded** — a terminal used to **interrupt** a hack ([[Hacking]]) powers down: it cannot be accessed or used to interrupt again until the **start of next turn**.
-- **Compromised** — the **next hack test** against this system gains **+2**, then Compromised ends. Applied by a skill (e.g. **Counter-Hack**).
+- **Frozen terminal** — [[Keywords#FREEZE]].
 - **Linked** — devices explicitly share a terminal or local network. Range alone never makes devices Linked.
 
 > [!info] Locked for playtest

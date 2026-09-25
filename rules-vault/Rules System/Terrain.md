@@ -108,8 +108,8 @@ Forced movement (Knockback, Slam & Throw, etc.) into a Dangerous area triggers i
 
 - Height advantage: a ranged attacker 2"+ above its target ignores Light cover from pieces at the target's level (Heavy still counts). _(single, simple bonus — no melee height mods at launch)_
 - Engagement across levels: you can only be Engaged by an enemy on your own level, or within 1" including the vertical distance.
-- **Falling.** A fall under **3"** has no effect. **3"+** lands the fighter **Prone**. **6"+** also forces an **Injury roll** at **+1 Damage per full 2" fallen**, ignoring Armor. A **voluntary** drop may test **AGI 7+** to land clean (avoid Prone); a 6"+ fall still rolls Injury on a fail. Like a Cat ([[Skill Paths]]) modifies as written.
-- Fall _risk_ moments (failed climbs, Knockback off a ledge) come from [[Movement]] and skills; this section only owns what a fall _does_.
+- **Falling.** A fall under **3"** has no effect. **3"+** lands the fighter **Prone**. **6"+** also forces an **Injury roll** at **+1 Damage per full 2" fallen**, ignoring Armor. A **voluntary** drop may test **AGI 7+** to land clean (avoid Prone); a 6"+ fall still rolls Injury on a fail.
+- Fall _risk_ moments (failed climbs, forced movement off a ledge) come from [[Movement]] and skills; this section only owns what a fall _does_.
 
 ### Setup procedure
 
@@ -143,7 +143,7 @@ Because the settlement fits inside one board there is **no window to pick** — 
 One line per piece is enough: `Ruin · Difficult · Light · Unstable, Climbable, Searchable`.
 
 > [!danger] Density is a **band**, not a floor — the most powerful dial in the game
-> [[Crew Sim — Findings|The crew sim]] measured a **66-point swing** in win rate from terrain density alone — bigger than any points cost could ever produce. A 4-model elite crew beats a 14-model horde **81%** of the time on a sparse board and **15%** of the time on a very crowded one. **Parity sits at 9–12 large features** — exactly the band above, and every list in [[List Building]] is costed against it.
+> historical analysis (archived) measured a **66-point swing** in win rate from terrain density alone — bigger than any points cost could ever produce. A 4-model elite crew beats a 14-model horde **81%** of the time on a sparse board and **15%** of the time on a very crowded one. **Parity sits at 9–12 large features** — exactly the band above, and every list in [[List Building]] is costed against it.
 >
 > Density is chosen *after* lists are locked, so it **must not be open-ended.** "Nine minimum, as crowded as you like" hands the game to whoever pushes the dial: a swarm player wants a jungle, a gunline wants a car park. **9–12.** A scenario may fix an exact number.
 

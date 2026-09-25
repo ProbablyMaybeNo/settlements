@@ -1,17 +1,16 @@
 ---
-type: skills
+type: "skills"
 catalogue: "Skills"
-table: 0
-row: 5
-cols: 2
 name: "Grapple"
-description: "Replace a melee attack with an opposed STR test. On a win, apply **Grappled** instead of making an Injury roll. *(Grappler · Controller)*"
-source: "Skill Paths.md"
-tags: [settlements/record, settlements/crew/skill]
+stat: "STR"
+skill_type: "Action"
+effect: "Make an opposed STR test against an enemy within 1 inch. On success, it becomes GRAPPLED; see Keywords for holding, escape and Meat Shield."
+source: "Rules System/Skills.md"
+tags: ["settlements/record", "settlements/crew/skill"]
 ---
 
 # Grapple
 
-Replace a melee attack with an opposed STR test. On a win, apply **Grappled** instead of making an Injury roll. *(Grappler · Controller)*
+Make an opposed STR test against an enemy within 1 inch. On success, it becomes GRAPPLED; see Keywords for holding, escape and Meat Shield.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skill Paths]] from them.*
+Source: [[Rules System/Skills#STR]]

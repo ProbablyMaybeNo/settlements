@@ -1,0 +1,40 @@
+views:
+  - type: table
+    name: 🗺️ Roadmap
+    filters:
+      and:
+        - type == "rule-phase"
+    order:
+      - file.name
+      - stage
+      - status
+      - build_order
+    sort:
+      - property: build_order
+        direction: ASC
+  - type: table
+    name: 🔓 Not started
+    filters:
+      and:
+        - type == "rule-phase"
+        - status == "Not Started"
+    order:
+      - file.name
+      - stage
+      - depends_on
+    sort:
+      - property: build_order
+        direction: ASC
+  - type: table
+    name: 📋 Rule ledger
+    filters:
+      and:
+        - type == "rule"
+    order:
+      - file.name
+      - category
+      - status
+      - parent_phase
+    sort:
+      - property: category
+        direction: ASC
