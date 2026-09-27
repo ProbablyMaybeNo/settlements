@@ -167,7 +167,7 @@
 			"x": 3463,
 			"y": -60,
 			"width": 880,
-			"height": 3628,
+			"height": 3524,
 			"color": "4"
 		},
 		{
@@ -228,14 +228,14 @@
 			"x": 3523,
 			"y": 574,
 			"width": 760,
-			"height": 502
+			"height": 398
 		},
 		{
 			"id": "t0022",
 			"type": "text",
 			"text": "**Conditions · Control conditions (from skills, weapons and terrain)**",
 			"x": 3523,
-			"y": 1102,
+			"y": 998,
 			"width": 760,
 			"height": 46,
 			"color": "4"
@@ -246,7 +246,7 @@
 			"file": "Settlements/Rules System/Conditions.md",
 			"subpath": "#Working rules / decisions#Control conditions (from skills, weapons and terrain)",
 			"x": 3523,
-			"y": 1156,
+			"y": 1052,
 			"width": 760,
 			"height": 528
 		},
@@ -255,7 +255,7 @@
 			"type": "text",
 			"text": "**Conditions · Persistent conditions (resolve in the End Phase)**",
 			"x": 3523,
-			"y": 1710,
+			"y": 1606,
 			"width": 760,
 			"height": 46,
 			"color": "4"
@@ -266,7 +266,7 @@
 			"file": "Settlements/Rules System/Conditions.md",
 			"subpath": "#Working rules / decisions#Persistent conditions (resolve in the End Phase)",
 			"x": 3523,
-			"y": 1764,
+			"y": 1660,
 			"width": 760,
 			"height": 736
 		},
@@ -275,7 +275,7 @@
 			"type": "text",
 			"text": "**Conditions · Nerve states (from [[Morale]])**",
 			"x": 3523,
-			"y": 2526,
+			"y": 2422,
 			"width": 760,
 			"height": 46,
 			"color": "4"
@@ -286,7 +286,7 @@
 			"file": "Settlements/Rules System/Conditions.md",
 			"subpath": "#Working rules / decisions#Nerve states (from [[Morale]])",
 			"x": 3523,
-			"y": 2580,
+			"y": 2476,
 			"width": 760,
 			"height": 190
 		},
@@ -295,7 +295,7 @@
 			"type": "text",
 			"text": "**Conditions · Skill conditions**",
 			"x": 3523,
-			"y": 2796,
+			"y": 2692,
 			"width": 760,
 			"height": 46,
 			"color": "4"
@@ -306,7 +306,7 @@
 			"file": "Settlements/Rules System/Conditions.md",
 			"subpath": "#Working rules / decisions#Skill conditions",
 			"x": 3523,
-			"y": 2850,
+			"y": 2746,
 			"width": 760,
 			"height": 180
 		},
@@ -315,7 +315,7 @@
 			"type": "text",
 			"text": "**Conditions · Marker & device states (not conditions on units)**",
 			"x": 3523,
-			"y": 3056,
+			"y": 2952,
 			"width": 760,
 			"height": 46,
 			"color": "4"
@@ -326,7 +326,7 @@
 			"file": "Settlements/Rules System/Conditions.md",
 			"subpath": "#Working rules / decisions#Marker & device states (not conditions on units)",
 			"x": 3523,
-			"y": 3110,
+			"y": 3006,
 			"width": 760,
 			"height": 398
 		},

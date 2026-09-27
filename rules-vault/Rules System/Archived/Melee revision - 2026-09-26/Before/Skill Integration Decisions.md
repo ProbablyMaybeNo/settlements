@@ -11,10 +11,7 @@ The 75-skill list is adopted; these unresolved mechanics were not decided by the
 - [ ] **Core engine migration:** thread specifies d20, +6 positive cap, cumulative Stress capped at 5, revised Hidden and Pinned. Remaining core text still contains d10, ±3, old injury outcomes and Break bands. Resolve as one explicit core-mechanics pass; do not invent d20 TNs, natural outcomes, negative cap, or a new Break table. The published skill values must not be silently reduced to fit old caps.
 - [ ] **Stress:** roll scope, Break procedure and recovery under cumulative penalties; Implode extends cap to 7. Shaken is descriptive of Stress, not a second flat penalty in the new design.
 - [ ] **Actions:** define turn versus round, unspecified action/reaction costs, repeat eligibility, On Me recipient activation and Ready ownership. Counters cannot be assumed to recurse without limit.
-- [x] **Melee exchange and injury, 2026-09-26:** d20/15+ hit cancellation; charge adds one dominant-weapon Attack Die; UNANSWERED prevents defender injury; no automatic attack-back; each Injury success removes one Wound, Down at zero for all attacks. See [[Melee]] and [[Damage]].
-- [ ] **Remaining melee details:** failed-charge movement, declaration range, Parry and Last Laugh sequencing, Ambush/Aerial Assault overlap and failed aerial movement. AGILE supplies stat substitution.
-- [ ] **Universal Pinned:** hit survivors now become Pinned. Reconcile its restrictions/recovery and replace the now-redundant Pin Them Down skill; no replacement silently selected.
-- [ ] **Treatment:** specify Wounds and state restored by Stabilize.
+- [ ] **Melee:** combined dice/weapon exchanges, Parry and Last Laugh sequencing, injury limits, Down versus Out triggers, Ambush and Aerial Assault overlap/failure. AGILE supplies stat substitution through weapons, not every unit automatically.
 - [ ] **Grapple:** release and separation, full Meat Shield targeting order, Crush cost and successful outcome. Do not invent free automatic takedowns.
 - [ ] **DEX:** Marked versus Hidden, Cover Me's failed-intervention damage/Stress, split-fire bonus-die chains, range limits and Breach through sealed doors.
 - [ ] **AGI:** Phantom Shot additional Stress amount; normal Hidden movement penalty for Sneak; limits on Dodge and Parry. The new Ambush replaces the old AGI-attack/free-retaliation version.

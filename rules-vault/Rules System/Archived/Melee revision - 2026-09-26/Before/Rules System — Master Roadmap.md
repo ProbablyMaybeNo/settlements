@@ -494,9 +494,3 @@ You can call the rules system complete when **all of these are true**:
 - [x] HOLD FAST: flat -2 incoming injury rolls, no cover requirement.
 - [ ] Resolve acquisition; explicitly deferred by Ross.
 - [ ] Complete [[Skill Integration Decisions]] and validate the new skill balance.
-
-
-## Melee adoption — 2026-09-26
-- [x] Adopt d20/15+ melee hit cancellation, charge die, UNANSWERED and multi-wound injury resolution.
-- [x] Archive originals and align master, melee/damage notes, movement summaries, keywords and ledgers.
-- [ ] Complete remaining activation/condition conversion and basic skill simulations; no balance claim made.

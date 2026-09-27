@@ -63,7 +63,7 @@ Resolve immediately, interrupting the enemy's next steps if any remain. A Reacti
 | Option | Effect |
 |---|---|
 | **Snap Shot** | Make a normal ranged attack at the triggering enemy (**no** extra −2). Must be in range + forward LOS. Any legal ranged weapon (Sidearm rules still apply if Engaged). **This is your "return fire":** when an enemy Shoots, a Ready model may Snap Shot back — but it resolves *after* the enemy's shot, so if that shot Downs it first, it can't reply (that's the shooter's first-mover incentive). |
-| **Charge** | Spend READY to resolve the normal Charge in [[Melee]], using MOVE + 1d6 and +1 Attack Die for a successful charge. |
+| **Charge** | Move up to **MOV"** into Engagement with the triggerer (not 2×). Free melee with **no** Charge +1. Needs forward LOS when declared. *Playtest whether full-strength Charge feels better.* |
 | **Throw** | Resolve a normal thrown-weapon / thrown-object attack (no extra −2). |
 | **Interact / Operate** | Open/close a door, Lift-block / clear a Block, hit a button/lever, **operate an Infrastructure feature you can reach** — by hand in base contact, or by hacking a terminal within range — or **Interrupt** an enemy hack ([[Infrastructure#3 · As a Reaction]] / [[Hacking#Interrupt — contesting a hack]]). Still **no** Search, Repair, or Stabilize as a Reaction. |
 | **Trigger** | Only your own traps with the **Remote Detonation** tag (set by the placer, or by a Hacker). Not every trap is remote. |
@@ -80,7 +80,7 @@ Each unit may **receive only one Order** per round. So max Ready opportunities i
 Alpha ships with **underdog +1 Priority only**. No free-hold surge rule unless playtests feel unfair.
 
 > [!question] Playtest dials
-> - Reaction Charge uses the current normal Charge procedure in [[Melee]] (revised 2026-09-26).
+> - Reaction Charge: MOV" + no +1 vs full Charge (2× MOV" + +1)
 > - Whether finishing a move in a Ready arc feels oppressive on dense boards
 > [!success] Uneven crew sizes — **Ready is the answer** (validated 2026-07-13)
 > [[List Building]] lets crews run from 4 to 14 models, so a small crew runs out of activations first and the big crew dumps its tail unopposed. **No new rule is needed.** The elite crew converts its last activations into **Ready** and snap-shoots the tail as it moves — 4 models = 4 banked reactions, so every fighter effectively shoots twice.

@@ -42,7 +42,7 @@ The **Move** slot moves up to **MOV"** (baseline 6"), any direction, around obst
 
 ### Sprint & Charge
 - **Sprint** (both slots): move up to **2× MOV"** — nothing else — no Shoot, no Ready. You may set facing at the end.
-- **Charge** (both slots): declare a target in LOS; roll **MOVE + 1d6** for charge distance. Reach within 1 inch for a free melee exchange with **+1 Attack Die on the dominant weapon**. See [[Melee]] for skills and resolution.
+- **Charge** (both slots): move **MOV x2** into base contact, then a free melee attack at **+1** (see [[Melee]]). Declaring a Charge needs the target in your forward 180° + true LOS; once Engaged, facing no longer matters.
 
 ### Terrain movement
 Open ground, marked stairs, and clear paths are normal movement — no test.
@@ -69,7 +69,7 @@ Open ground, marked stairs, and clear paths are normal movement — no test.
 Breaking away from melee is a **Disengage** — it uses your **Move** slot (a normal move, not your whole activation):
 - Move up to **MOV"** in any direction, out of the enemy's 1" zone.
 - **Every enemy you were Engaged with gets a free swing at −2** as you scramble clear — that's the risk you take.
-- You keep your **Action**, but cannot Charge afterwards. Ordinary movement cannot engage a new enemy; only explicit skill movement can override this restriction.
+- You keep your **Action**: you may then Shoot, Interact, or even Fight a *new* enemy — but you **cannot Charge**, so any fresh melee is fought **even** (no charge bonus). That's the trade versus a clean Charge.
 
 > [!success] Resolved 2026-07-13 — single cost
 > Disengage is a **Move + the −2 swings**, *not* the whole activation. The double cost made it a dead option (sim: ~14% chance to be Downed leaving one engager, ~26% leaving two — *plus* losing your turn). The free swings are deterrent enough on their own.

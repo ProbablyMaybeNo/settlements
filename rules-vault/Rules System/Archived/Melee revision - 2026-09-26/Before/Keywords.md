@@ -6,10 +6,10 @@ tags: [settlements/reference]
 # Keywords
 
 ## UNANSWERED
-Resolve the normal melee hit-cancellation exchange in [[Melee]]. Only the initiating unit can inflict injuries: defender hits cancel attacker hits, but surplus defender hits cause no injury, Stress or Pinned. No automatic return attack follows. Explicit skill counterattacks remain separate exceptions.
+Resolve the normal opposed melee test. If the attacker wins, resolve its attack. If the defender wins, including a tie, neither suffers a hit from this exchange. This is a complete exchange: no automatic return attack is added. Separate actions and explicitly granted counterattacks still require their own eligibility.
 
 ## DUAL WIELDING
-Any unit may attack with two eligible 1 HANDED weapons. Choose a dominant weapon before rolling: use its normal attack dice and one die from the off-hand, without an accuracy penalty. Each die retains its source weapon's damage, traits and range. Combined shooting is one attack and one SHOOT action; target one enemy unless a rule allows splitting. Melee hit cancellation and weapon allocation follow [[Melee]].
+Any unit may attack with two eligible 1 HANDED weapons. Choose a dominant weapon before rolling: use its normal attack dice and one die from the off-hand, without an accuracy penalty. Each die retains its source weapon's damage, traits and range. Combined shooting is one attack and one SHOOT action; target one enemy unless a rule allows splitting. Opposed melee allocation for multiple dice remains in [[Skill Integration Decisions]].
 
 ## AGILE
 A weapon with AGILE permits AGI instead of STR for melee. It does not change Damage. This is the current name for the weapon characteristic formerly called Balanced. Ambidextrous requires BOTH weapons to have AGILE; Goliath alone does not supply it.

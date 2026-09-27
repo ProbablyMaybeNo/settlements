@@ -34,7 +34,7 @@ The Rules column should nail down:
 Stress represents fear, panic, suppression and shock. It is tracked as points on a unit and tested against **NRV**. Stress does **two separate jobs** — a small always-on penalty, and a break test once it piles up.
 
 **A unit gains +1 Stress when it:**
-- Takes a **non-wounding hit** — the Stress result of a failed Injury roll, for ranged or melee attacks. *(Every hit does exactly one thing — it **wounds** or it **stresses**, never both; a clean **miss** does nothing.)*
+- Takes a **non-wounding hit** — the **Pinned** (ranged) or **Shaken** (melee) result of a failed Injury roll. *(Every hit does exactly one thing — it **wounds** or it **stresses**, never both; a clean **miss** does nothing.)*
 - Gains a negative condition (Fire, Poison, Blind, Shocked)
 - Has a friendly go **Down** or **Out of Action** within line of sight
 - Suffers a hazard, skill, or scenario effect that says so
@@ -121,7 +121,7 @@ Scoring stops the instant you bottle or clear the board — see [[Scenarios#Conc
 > Measured cost, NRV +2: **8.8%** of revived fighters fail their first Break test and **1.9%** BugOut immediately — roughly **one revival in fifty-three**. Story frequency, not a pattern to play around.
 
 > [!question] Watch the stacking, not the rule
-> The old surplus-hit Stress analysis is superseded by [[Damage]] (2026-09-26); successful Injury dice remove Wounds and failures add Stress.
+> **Both rules are now in** (ruled 2026-08-29): Attack Dice converts **surplus hits into Stress** *and* Stress persists through Down. Together a downed model's Stress roughly **2.2×** (0.66 → 1.44 mean) and wasted revivals go from ~1-in-11 to nearly **1-in-4**. The earlier plan was to adopt them one at a time; they landed together, so **the table tests the stacked case**. Note also that this compounds the **death-spiral risk** flagged in historical analysis (archived) §7.
 >
 > **Valve, held in reserve and deliberately not pre-applied:** *"a Stabilised fighter returns Shaken, however much Stress it had."* One clause, kills the bad beat, also kills the beat. Only the table can say which way it plays.
 

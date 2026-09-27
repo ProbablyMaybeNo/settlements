@@ -15,51 +15,27 @@ tags: [settlements/phase, settlements/stage/s2]
 **Feeds into:** [[Damage]]
 **Raw dependency (from Notion):** Unit Design, Movement
 
-## Focus
-Close combat — engagement, the fight sequence, and positional modifiers.
-
-The Rules column should nail down:
-- What counts as "engaged" (range), and how combats start (charge vs being in reach).
-- The melee sequence: who strikes first (Initiative / charging), simultaneous vs alternating blows.
-- Which stat drives melee (Strength) and any defence/parry interplay.
-- Positional modifiers: charging, flank/rear, outnumbering, high ground, terrain.
-- The melee-weapon profile fields and how they differ from ranged weapons.
-- How the result feeds into the shared Damage sequence (don't duplicate damage logic here).
-
-## Inherits from the engine
-> [!info] Recall — melee resolves as an **opposed** core test (Strength; ties go to the defender). A unit is **Engaged** within **1"** of an enemy.
-
-![[core-000 Core Test#Text]]
-
-Engagement conventions → [[Rules Engine#House Conventions]] (Engaged within 1"; enter by Charge or Move-in).
-
-## Working rules / decisions
+## Current melee rules — 2026-09-26
 
 ### Engagement
-A unit is **Engaged** while within **1"** of an enemy. You reach it two ways:
-- **Move in** (Move slot, no LOS needed) → enter the enemy's **1" zone**. You may move *within* the zone but can't enter and leave it in the same move. Then **Fight** with your Action — a straight opposed attack, no bonus.
-- **Charge** (both slots, LOS required) → extra reach *and* a free attack at **+1** (below).
+A unit is **Engaged** within **1 inch** of an enemy. Ordinary movement cannot initiate engagement: enter by **Charge**, or by a rule explicitly permitting movement into close combat, such as Blade Fury or Rampage. Already-engaged units may remain engaged and use their Core Action to Fight without charging again. Facing does not apply during melee.
 
-### Melee attack (opposed)
-Melee is an **opposed** test — a brawler really is harder to hit than a shaking medic, because you *can* dodge a blow (you can't dodge a bullet):
+### Charge
+Charge costs both the **Move and Core Action**. Declare an enemy in LOS and roll **MOVE + 1d6** for maximum charge movement; Human Bullet uses **MOVE + 2d6**. Reach within **1 inch** of the declared target to succeed and resolve a **free melee exchange**. The charging unit adds **one Attack Die to its dominant weapon**; the defender gains no charge die. A failed charge grants no melee exchange.
 
-`Attacker 1d10 + STR` vs `Defender 1d10 + STR`
+### Melee exchange
+1. Both units gather their melee Attack Dice. When dual wielding, use the dominant weapon's full dice and one off-hand die unless a skill overrides this. Retain each die's weapon identity.
+2. Both roll **1d20 + melee stat + applicable modifiers vs 15+**, once per Attack Die. STR is normal; AGILE weapons permit AGI. Natural 1 fails and natural 20 succeeds. Do **not** subtract the opponent's stat.
+3. Each successful hit cancels one opposing successful hit. Equal hit counts cancel completely. The side with more hits retains the difference. Each player chooses which opposing hits their successes cancel; remaining hits retain their weapon profiles.
+4. Roll one Injury die for each uncancelled hit, using [[Damage]].
 
-- **Highest total wins. Ties go to the defender.**
-- Some weapons/skills swap the stat — an **AGILE weapon** may use **AGI**; a heavy weapon is **STR only** (see [[Weapons]]).
-- The **winner lands the hit** → **Injury roll** (see [[Damage]]).
-- **Facing does not apply in melee.** Once Engaged, either fighter attacks regardless of which way the models face.
+This is simultaneous **hit cancellation**, not paired opposed dice. Defender-wins-ties remains a rule for genuine opposed tests; it does not turn tied melee hit counts into defender hits. Cancelled hits cause neither injury, Stress nor Pinned. There is **no additional automatic attack-back** after the exchange; the defender already participated. Explicit skill counterattacks are separate exceptions.
 
-### Charging
-- **Charge** = both slots. Requires **line of sight** to the target (the path need not be straight). Move up to **2× MOV"** into the enemy's 1" zone, then a **free melee attack at +1** — the surprise bonus.
-- A unit that was just charged, or that started the turn already Engaged, gets **no** charge bonus.
-- **Charge vs Move-in:** charging needs LOS (terrain blocking sight blocks the charge) and grants +1; moving in works anywhere but gives no bonus. That's the trade.
+### UNANSWERED
+Resolve the same exchange, but only its initiating unit can inflict injuries. Defender hits cancel attacker hits normally; surplus defender hits cause no injury, Stress or Pinned. Do not add an automatic return attack. A Charge alone is not UNANSWERED; Ambush, Aerial Assault and other explicit effects grant it.
 
-### Losing a melee
-The loser takes the **Injury roll** ([[Damage]]): a **wound** costs a WND (→ **Out of Action** at 0), while a **non-wounding** blow gives **+1 Stress** (**Shaken**, −1 next turn — [[Morale]]). One or the other, never both.
+### Simulation choice
+For automated basic tests, cancel the opponent's highest-Damage hits first. This is a simulator decision policy, **not a compulsory player rule**. Record the policy when reporting results.
 
 ## Rule ledger
 - [[core-003 Melee]]
-
----
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._

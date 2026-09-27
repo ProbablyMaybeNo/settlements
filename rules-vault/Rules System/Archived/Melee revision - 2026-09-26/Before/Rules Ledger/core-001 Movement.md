@@ -15,7 +15,7 @@ tags: [settlements/rule, settlements/cat/core]
 ## Text
 - **Move slot:** up to **MOV"** (baseline 6"). Cannot split around the Action.
 - **Sprint** (both slots): up to **2× MOV"** — nothing else.
-- **Charge** (both slots): declare a target in LOS; roll **MOVE + 1d6** for charge distance. Reach within 1 inch for a free melee exchange with **+1 Attack Die on the dominant weapon**. See [[Melee]] for skills and resolution.
+- **Charge** (both slots): up to **2× MOV"** into Engagement, then free melee at **+1** (see [[Melee]] / [[core-003 Melee]]).
 - **Low leap:** obstacle under **2"** tall — no test, costs **2"** Move.
 - **Athletic traversal** (climb, gap/jump, vault ≥2", swim): Move-slot **AGI** test vs **7+**. Fail = stop / fall short / hazard (see [[Movement#Terrain movement]]).
 - **Difficult** ground costs double Move ([[Terrain]]). **Impassable** blocks entry unless Climbable / Breached.

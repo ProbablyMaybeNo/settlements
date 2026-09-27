@@ -61,7 +61,7 @@ Each activation is **one Move slot + one Action slot**.
 - **Move** (slot 1): up to **MOV"**. Any direction, around obstacles; may not be split before/after the Action. A unit is never forced to move.
 - **Action** (slot 2): Shoot, Fight, Interact, Hide, Stabilize, etc. It may **not** be a second normal Move, and a unit makes at most **one attack per activation**.
 - **Sprint** (both slots): move up to **2× MOV"**, nothing else.
-- **Charge** (both slots): declare a target in LOS; roll **MOVE + 1d6** for charge distance. Reach within 1 inch for a free melee exchange with **+1 Attack Die on the dominant weapon**. See [[Melee]] for skills and resolution.
+- **Charge** (both slots): move up to **2× MOV"** into base contact, then a **free melee attack** at the charge bonus. See [[Melee]].
 
 #### Orders
 - **Recruits and Fighters have none · Specialists have 1 · Leaders have 2.**
@@ -119,8 +119,8 @@ Needs 8+ on the die to hit.
 
 ### Combat — two rolls
 Every attack resolves in two steps:
-1. **Attack roll:** use [[Shooting]] for ranged attacks and the revised d20/15+ hit-cancellation procedure in [[Melee]] for close combat.
-2. **Injury roll:** one d20 + Damage − Armour + modifiers vs 15+ per hit (uncancelled in melee). Each success removes one Wound; each failure adds one Stress. Hit survivors are Pinned; at zero Wounds they are Downed. See [[Damage]].
+1. **Attack roll** — *did it land?* Ranged = `1d10 + DEX + mods vs 7+` (cover is a negative modifier; weapons rarely add to hit). Melee = **opposed** (see [[Melee]]).
+2. **Injury roll** — *how bad?* `1d10 + Weapon Damage − Armor vs 7+`. **Pass** → target loses 1 WND (**Down** at 0 WND; **melee → Out**). **Fail** → target is **Pinned** (+1 Stress). Full detail in [[Damage]].
 
 > [!info] The engine in one line
 > **Stats decide if you land it · Weapons decide how bad it is · Skills decide what else happens.** Terrain and Stress sit on top as pressure.
@@ -136,7 +136,7 @@ Some situations use opposed rolls instead.
 Highest total wins.
 
 - Ties are won by the defender.
-- **Melee uses simultaneous hit cancellation**, not opposed die pairing; see [[Melee]]. Genuine opposed tests retain their normal defender-wins-ties rule.
+- **Melee attacks are opposed** (STR vs STR/AGI) — see [[Melee]]. Ranged attacks use the fixed 7+ target instead: you can't *passively* dodge a bullet — **cover is your standing defence**. The one exception is the **Dodge** reaction ([[Initiative & Activation#Reaction options]]) — spend your reaction to actively dive clear of a *single* shot (opposed **AGI vs DEX**), ending **Pinned**.
 
 ---
 

@@ -3,15 +3,12 @@ type: master
 title: Full Rules System v1
 status: Source of Truth
 adopted: 2026-08-05
-revised: 2026-09-26
+revised: 2026-09-25
 tags:
   - settlements/master
 ---
 > [!important] Current source of truth — skill catalogue revised 2026-09-25
 > Section 14 embeds the approved 75 single-tier skills. Skill acquisition is explicitly undecided. The previous skill catalogue, records and revision commentary have been archived. The new skill design uses the thread's d20 mechanics; the remaining core engine still needs the coordinated conversion listed in [[Skill Integration Decisions]]. This is a design master, not yet a coherent ready-to-play packet.
-
-> [!important] Melee and injury revision — 2026-09-26
-> Sections 8–9 now use d20/15+, simultaneous hit cancellation, +1 charge Attack Die and one Wound per successful Injury die. These override older combat summaries and historical simulation commentary. Remaining core conversion issues are tracked in [[Skill Integration Decisions]].
 
 # Settlements — Full Rules System v1
 
@@ -83,7 +80,7 @@ Each activation = **one Move slot + one Action slot**.
 | **Move** | Up to MOV" (baseline 6"), any direction. Never split around the Action. Never forced. |
 | **Action** | Shoot, Fight, Interact, Hide, Stabilize, etc. Not a second Move. At most **one attack per activation**. |
 | **Sprint** *(both slots)* | Move up to 2× MOV", nothing else — no Shoot, no Ready. |
-| **Charge** *(both slots)* | MOVE + 1d6 into engagement; success grants a free melee exchange with +1 Attack Die on the dominant weapon (§8). |
+| **Charge** *(both slots)* | Move up to 2× MOV" into base contact, then a free melee attack at the charge bonus (§8). |
 
 ### Orders
 Recruits/Fighters get none. **Specialists get 1, Leaders get 2.** An Order grants a free Action or Reaction to the issuing unit or a friendly. Orders can't chain. **Orders are issued only during the issuing unit's own activation** — a Leader can't hold one in reserve. Each unit may receive only **one Order per round**.
@@ -97,7 +94,7 @@ Recruits/Fighters get none. **Specialists get 1, Leaders get 2.** An Order grant
 | Reaction | Effect |
 |---|---|
 | **Snap Shot** | Normal ranged attack at the trigger, no extra penalty. Resolves *after* the enemy's action — a shooter who Downs its target first denies the reply. |
-| **Charge** | Spend READY for the normal Charge in §8: MOVE + 1d6 and a free melee exchange with +1 dominant-weapon Attack Die on success. |
+| **Charge** | Move up to MOV" into Engagement, free melee at no bonus. |
 | **Throw** | Normal thrown attack, no penalty. |
 | **Interact/Operate** | Doors, Lift-block/clear, buttons, reachable Infrastructure, or Interrupt an enemy hack. No Search, Repair, or Stabilize as a Reaction. |
 | **Trigger** | Only your own **Remote Detonation** traps. |
@@ -111,7 +108,7 @@ Recruits/Fighters get none. **Specialists get 1, Leaders get 2.** An Order grant
 
 Basic Move: up to MOV" (baseline 6"), any direction. **Movement draws fire** — a Move covering more than half MOV" that ends in an enemy's LOS can be reacted to; a short shuffle (≤half MOV) doesn't.
 
-**Sprint:** both slots, up to 2× MOV", nothing else. **Charge:** both slots, MOVE + 1d6 into engagement; success grants the melee exchange in §8, with +1 Attack Die on the dominant weapon.
+**Sprint:** both slots, up to 2× MOV", nothing else. **Charge:** both slots, up to 2× MOV" into base contact, then a free melee attack at +1 (§8).
 
 ### Terrain movement
 Open ground and clear paths: no test. **Low leap** (obstacle under 2" tall): no test, flat **−2" Move cost**. Everything else is an **AGI test** (`1d10+AGI` vs 7+), paid from the Move slot:
@@ -205,49 +202,34 @@ A unit spends its Action to Interact with adjacent terrain, stat determined by t
 
 ---
 
-## 8 · Melee **[REVISED 2026-09-26]**
+## 8 · Melee **[DRAFTED]**
 
-### Engagement
-A unit is **Engaged** within **1 inch** of an enemy. Ordinary movement cannot initiate engagement: enter by **Charge**, or by a rule explicitly permitting movement into close combat, such as Blade Fury or Rampage. Already-engaged units may remain engaged and use their Core Action to Fight without charging again. Facing does not apply during melee.
+**Engagement:** move into an enemy's 1" zone (no LOS needed) then Fight with your Action, no bonus — or **Charge** (both slots, LOS required, 2× MOV") for a free attack at **+1**.
 
-### Charge
-Charge costs both the **Move and Core Action**. Declare an enemy in LOS and roll **MOVE + 1d6** for maximum charge movement; Human Bullet uses **MOVE + 2d6**. Reach within **1 inch** of the declared target to succeed and resolve a **free melee exchange**. The charging unit adds **one Attack Die to its dominant weapon**; the defender gains no charge die. A failed charge grants no melee exchange.
+**Melee attack (opposed):** `1d10+STR` (attacker) vs `1d10+STR` (defender), highest wins, **ties to the defender**. Some weapons/skills swap in AGI. **Facing doesn't apply** — either fighter attacks regardless of orientation.
 
-### Melee exchange
-1. Both units gather their melee Attack Dice. When dual wielding, use the dominant weapon's full dice and one off-hand die unless a skill overrides this. Retain each die's weapon identity.
-2. Both roll **1d20 + melee stat + applicable modifiers vs 15+**, once per Attack Die. STR is normal; AGILE weapons permit AGI. Natural 1 fails and natural 20 succeeds. Do **not** subtract the opponent's stat.
-3. Each successful hit cancels one opposing successful hit. Equal hit counts cancel completely. The side with more hits retains the difference. Each player chooses which opposing hits their successes cancel; remaining hits retain their weapon profiles.
-4. Roll one Injury die for each uncancelled hit, using §9.
-
-This is simultaneous **hit cancellation**, not paired opposed dice. Defender-wins-ties remains a rule for genuine opposed tests; it does not turn tied melee hit counts into defender hits. Cancelled hits cause neither injury, Stress nor Pinned. There is **no additional automatic attack-back** after the exchange; the defender already participated. Explicit skill counterattacks are separate exceptions.
-
-### UNANSWERED
-Resolve the same exchange, but only its initiating unit can inflict injuries. Defender hits cancel attacker hits normally; surplus defender hits cause no injury, Stress or Pinned. Do not add an automatic return attack. A Charge alone is not UNANSWERED; Ambush, Aerial Assault and other explicit effects grant it.
-
-### Simulation choice
-For automated basic tests, cancel the opponent's highest-Damage hits first. This is a simulator decision policy, **not a compulsory player rule**. Record the policy when reporting results.
+**Losing a melee:** the loser takes the Injury roll (§9). A charged/just-engaged unit gets no charge bonus of its own.
 
 ---
 
-## 9 · Damage **[REVISED 2026-09-26]**
+## 9 · Damage **[DRAFTED]**
 
-After a successful ranged hit or an **uncancelled melee hit**, roll one Injury die using that hit's weapon:
+After a hit lands, the attacker makes one **Injury roll**: `1d10 + Weapon Damage − Armor` vs 7+.
 
-**1d20 + Weapon Damage − Armour + applicable modifiers vs 15+.** Natural 1 fails; natural 20 succeeds.
+- **Pass** → target loses 1 WND. At 0 WND: **Down** if the wound was ranged/hazard, straight to **Out of Action** if melee.
+- **Fail** → no wound, but the hit still tells: **Ranged** → Pinned (+1 Stress). **Melee** → +1 Stress (Shaken) but stays Engaged, no Pinned.
 
-- Each success removes **1 Wound**.
-- Each failure adds **1 Stress**.
-- A hit target with Wounds remaining becomes **Pinned**. Applying Pinned adds no further Stress by itself.
-- At **0 Wounds**, the target becomes **Downed**, including in melee.
+Every hit does *something*. No wasted hits.
 
-Resolve the pool together. There is **no one-wound-per-attack cap**: three successful Injury dice remove three Wounds. A three-Wound target is Downed; a four-Wound target retains one Wound and becomes Pinned. Surplus successes do not convert to Stress or automatically finish a Downed target during the same pool. Explicit special attacks that replace normal injury resolution retain their printed effects.
+**Multi-die weapons (Attack Dice, §15):** a weapon with Attack Dice 2 or 3 rolls one attack and one Injury die *per die*, all at once, and the attacker applies **one** Injury result. **A burst inflicts at most 1 WND however many of its dice pass** — wounds never stack; **every other die that hit converts to +1 Stress**, whether it passed the Injury roll or failed it. Nothing is banked against a multi-wound target. Full rule and costs in §15.
 
-Damage and Armour come from the equipment profiles in [[Basic Weapon System]] and the armour catalogue; Armour affects injury, not accuracy. Wounds normally start at 1; explicit skills and campaign advancement may increase them under the existing Wound ceiling.
+**Weapon Damage** is a small class: +0 unarmed · +1 light · +2 medium · +3 heavy (see Weapons, §16, for the full construction system and reconciled Credit pricing). **Armor** reduces Injury only: 0 none · −1 light · −2 heavy.
 
-### Down and treatment
-A Downed unit remains on the board rather than being removed automatically by a melee wound. It retains its Stress and takes no Break tests while Downed. A separate melee attack against an already-Downed target auto-hits; a successful Injury roll finishes it. Ranged attacks against Downed targets resolve normally. These are separate attacks, not surplus dice from the attack that Downed it.
+**Melee is decisive** — a melee kill goes straight to Out of Action, no bleed-out. **Ranged/hazard kills leave a fighter Down** (alive, prone, counts as Heavy cover vs ranged unless in the open; a melee/engaged attack auto-hits to finish it, ranged resolves normally). A Down unit must be Stabilized by the end of its **next** activation or bleeds out. Stabilize = Action + INT 7+ (−2 without a Med-Kit; the Stabilize skill adds +4 INT and its printed Stress recovery).
 
-Retain the existing stabilization deadline: by the end of the unit's next activation or it bleeds out. Stabilize costs an Action and an INT test against **15+**, with the existing −2 without a Med-Kit; the Stabilize skill applies its printed +4 and Stress recovery. Detailed recovery state and the revised Pinned restrictions remain in [[Skill Integration Decisions]]; this melee revision does not invent them.
+**A Down unit keeps its Stress** *(drafted 2026-08-29 — §11)*. It takes no Break tests while Down and sheds nothing, then returns carrying every point. Stabilized at **2+ Stress** means a Break test in the next End Phase; at **4+**, a failure removes it. **You can patch the body faster than the nerve.**
+
+**Every unit has WND 1**, raised only by a specific skill (Tough, §14). Campaign veterans can reach **WND 2** (Level 7) and at most **WND 3** (Level 7 + the Tough skill) — the hard ceiling, logged in *Out of Scope* §4.
 
 ---
 
@@ -258,8 +240,8 @@ A condition is a status token. **No stacking** — reapplying refreshes duration
 > **Payload rule:** a weapon characteristic that applies a condition does so **in place of** the normal non-wound result (Pinned/Shaken), never in addition. A hit does exactly one thing.
 
 **Core combat conditions:**
-- **Pinned** (a hit target with Wounds remaining; see §9) — can't Move/Charge/Sprint/Disengage; must spend Move to clear; may still Shoot/Interact.
-- **Down** — prone, out of the fight; caused by reaching zero Wounds from any attack; Stabilize or bleed out. **Keeps its Stress and takes no Break tests while Down**, resuming them on recovery (§11).
+- **Pinned** (ranged non-wound) — can't Move/Charge/Sprint/Disengage; must spend Move to clear; may still Shoot/Interact.
+- **Down** — prone, out of the fight; ranged-only origin; Stabilize or bleed out. **Keeps its Stress and takes no Break tests while Down**, resuming them on recovery (§11).
 - **Prone** — knocked flat, not an injury; can't Shoot/Charge/Sprint; standing costs the whole activation.
 - **Hidden** — −3 to be hit; earned via Hide in Concealing terrain or gear/skill; lost on moving, shooting, **interacting** (any Action that resolves an Interact test — claim/loot/hack/arm/defuse, §6, §12.7), or being revealed. *(See §25 for the ruling on holding an objective while Hidden.)*
 
@@ -300,7 +282,7 @@ Every hit that fails to wound generates **Stress** instead — this is the entir
 >
 > Cost at NRV +2: **8.8%** of revived fighters fail their first Break test, **1.9%** BugOut immediately — about **one revival in fifty-three**. Story frequency. It also makes Stabilize a real decision rather than an automatic yes.
 >
-> Historical surplus-hit Stress analysis is superseded by the injury pool in §9; it does not validate the revised system.
+> **Both halves are now in, so watch the stacking.** Attack Dice converts surplus hits into Stress (§15, ruled 2026-08-29) **and** Stress persists through Down — together a downed model's Stress roughly **2.2×** (0.66 → 1.44 mean) and wasted revivals go from ~1-in-11 to nearly **1-in-4**. The note previously said adopt one at a time; Ross ruled both the same day, so **the table is testing the stacked case from the start.** If it plays too punishing, pull the valve below before touching either rule. It also compounds the death-spiral risk flagged in `Dice Mechanic — Sim Findings` §7. **Valve held in reserve, deliberately not pre-applied:** *"a Stabilised fighter returns Shaken, however much Stress it had."*
 
 
 
@@ -1251,7 +1233,18 @@ Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]]
 
 **Confirmed genuinely not started anywhere in the vault — a gap in the game, not in this document:** Diplomacy, Edge Cases, Solo & Co-op, Balance, Components, Narrative, Rulebook. All carry `status: Not Started` in the source. *(Downtime is no longer on this list — drafted this turn.)*
 
-**Combat revision — 2026-09-26:** the old surplus-hit Stress analysis, single-Wound attack cap and unresolved split-fire commentary are archived. Use sections 8–9 and current skill permissions. Old simulation results do not validate this revision.
+**Drafted this turn — Stress persistence (§9, §10, §11), 2026-08-29:**
+- **Stress now survives being Downed**, and a Down unit takes no Break tests until Stabilized. Drafted rather than locked: **pending playtest**, on the grounds that only the table can say whether losing a just-rescued fighter reads as brutal-good or brutal-bad. Measured in `Stress Persistence — Sim Findings`; costs ~1 revival in 53 walking off at today's rates.
+- **RULED 2026-08-29 — surplus Attack Dice hits convert to +1 Stress each.** All outcomes count; nothing a burst lands is wasted (§15 step 4). Measured in `attack-dice-15b-surplus`. **This rule does nothing at WND 1 unless Stress persists through Down** — and it does, ruled the same day, so the two interlock deliberately. Consequence: at WND 2–3 it lifts P(Break test) from **14.5% → 28.5%** while leaving E[wounds] untouched at 0.738; at WND 1 it takes E[Stress] from 0.720 to **1.062**. **It costs nothing at the till** — AD 2/3 price at 38/63 either way, because the catalogue prices wounds and this adds none. It is not free at the table.
+- **Valve on standby, not applied:** *"a Stabilised fighter returns Shaken, however much Stress it had."* One clause if persistence plays too punishing.
+- **Watch for:** the death-spiral risk in `Dice Mechanic — Sim Findings` §7 — many triggers × a compounding −1 — which persistence directly compounds.
+
+**Opened this turn — Attack Dice (§15), ruled 2026-08-29 but with live sub-decisions:**
+- **~~Do surplus whiffed dice Pin?~~ CLOSED 2026-08-29 — yes, and so do surplus *passes*.** §15 step 4 now converts **every** surplus hit to Stress. Original reasoning kept for the record: it was the **only** thing separating the two candidate resolutions — they are otherwise **the same weapon**, with identical P(Down) at every dice count. Saying *no* (apply strictly one result and discard the rest) cuts effective suppression by **14–40%** and caps a burst at **one** Stress, so a 3-die burst would suppress exactly as hard as a pistol. That deletes the mechanic's stated second identity rather than trimming it, which is why step 4 reads as it does — **but it was not explicitly ruled, and Ross's worked example does not disambiguate it** (both readings give the same answer in that example, because the target went Down). Wants a tick.
+- **The gates in §15 are PROPOSED, not law.** Rank gate, one-per-crew on AD 3, manufactured-only on AD 3. The brief pre-authorised gating if the auto-include flag fired and it fired hard: AD 3 beats the Heavy Gunner benchmark by **+51%** on identical fielded Credits, and a DEX +0 Recruit with 3 dice out-shoots a DEX +6 marksman. Price alone cannot fix a stat-ceiling breach — same shape of problem as the 24" range threshold, which was solved with gates.
+- **Split fire is still unruled.** §15 assumes all dice go at the declared target. Allowing a burst to split across targets would change the maths materially — a second target could take a second **wound**, which is exactly what the one-wound cap exists to prevent. *(Note the old framing — "surplus dice would stop being wasted" — no longer applies: since 2026-08-29 surplus hits convert to Stress, so nothing is wasted already. The live objection is wound-stacking by the back door, not waste.)*
+- **Is 3 the ceiling?** Nothing in the maths breaks past 3, but the auto-include gap widens with each die. Reserving 4+ for turrets and vehicles is untested either way.
+- **A defect this pass turned up in a neighbouring harness, unrelated to Attack Dice:** `test-bench/sim_report.py` applies Stress on a *successful* wound as well as a failed one, which contradicts §9 and §10. Invisible at WND 1 (a wound ends the fight), but at WND 3 it roughly **doubles** the break rate — the published "~1.75 breaks/fight" in `Dice Mechanic — Sim Findings` §7 measures **0.744** rules-correct. The qualitative claim that morale is a duration mechanic probably survives; the number does not. Needs its own pass.
 
 **Still open, unchanged by this turn:**
 - The economy sink (explained above).
