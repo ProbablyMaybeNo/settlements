@@ -1139,3 +1139,28 @@ Ross deliberately uses three designer-only archetypes plus extra flex; no player
 Ross accepted the assistant's final NERVE roster with HOLD FAST changed to flat -2 incoming injury rolls, regardless of cover. The fifteen are Inspire, Rally, Motivate, Sin Eater, Implode, Last Laugh, Hold Fast, Menacing, Lean on Me, Roar, On Your Feet, Commanding Presence, Beta Blocker, Unflinching and Big Aura. They are recorded in [[Rules System/Skills#NRV]].
 
 Ross authorised archiving all previous skill-system entries and integrating the 75-skill replacement. Old skill material is archived. Skill acquisition is explicitly undecided, following his answer during integration. [[Skill Integration Decisions]] records remaining mechanics; this is not a claim of completed balance testing or a finished playable engine.
+
+
+## Second Draft decision record — 2026-09-27
+
+This dated record captures the subsequent thread decisions missing from the earlier log. It supersedes conflicting historical summaries above; it does not endorse every assistant suggestion.
+
+### Recorded direction
+- Ordinary resolution is d20 + relevant stat and modifiers vs 15+, natural 1 failure and natural 20 success. Shooting is d20, NOT d10.
+- Source caps replace the old global cap: Skills ±4, Weapons ±3, Stats ±6, Armour ±6. Skill modifiers stack within their cap; other sources combine. Exact cap application to printed Damage and opposing signs remains a testing assumption.
+- One Move and one Core Action per activation. Dash and Charge use both unless explicitly modified. Successful Charge grants a free melee attack and +1 Attack Die on the dominant weapon. Charge distance is MOVE + 1d6 (Human Bullet: +2d6).
+- Ordinary movement does not initiate engagement within 1 inch. Explicit movement-and-fight skills permit their stated engagement; already-engaged units may Fight normally.
+- The September 26 adoption used 15+ hits cancelling one-for-one. Ross subsequently preferred rolling against the opponent's highest roll. The latest melee direction: each modified attack die exceeding the opponent's highest total hits; equal highest totals cause no hits and units remain engaged. No second automatic attack-back. UNANSWERED permits only the initiating unit to inflict hits.
+- Injury: one d20 + Damage − Armour + applicable modifiers vs 15+ per hit. Each success removes one Wound; each failure adds one Stress. No one-Wound-per-attack cap. Hit survivors become Pinned; at zero Wounds they become Downed, including melee. Pinned itself adds no extra Stress.
+- Stress normally caps at 5 with −1 per point to rolls; explicit skills can modify it. This replaces older flat Shaken penalties. No general Stress for a wounding hit under the latest injury procedure.
+- READY permits a single reaction outside activation. It can be granted by an Action, Order, skill or ability; persists across rounds; normally ends when used, when the unit moves/takes another regular action, or when hit/explicitly removed. Reactions cannot trigger reactions unless explicitly allowed.
+- Reaction eligibility uses the start/end of an enemy ACTION within LOS and applicable range, rather than only activation boundaries. Reaction choices: Attack, Charge, Interact, Hack, Deploy, Skill, Move, Hide, Dodge.
+- Return Fire is APPROVED FOR TESTING: a READY target may spend READY to shoot back at its shooter. Both use highest-opposing-roll pools; ties cause no hits; the exchange spends/resolves both attacks. Reaction shooting at movement/other actions remains 15+.
+- Skill acquisition remains undecided. All 75 adopted skills remain selected; mechanical gaps and redundant Pin Them Down still require review. HOLD FAST is flat −2 incoming injury rolls regardless of cover.
+- The existing Basic Weapon System catalogue is the completed weapons-basics input, not an endorsement of historical prices or obsolete damage contracts.
+
+### Assumptions, not final rules
+The simulation handoff proposed natural-20 priority/both-20 ties in opposed pools; excluding natural 1s from defence; separate positive/negative source caps; printed Damage outside the weapon cap; once-per-turn meaning once-per-round; and particular Pinned restrictions/recovery. These remain labelled test assumptions. Cover Me becoming ally Return Fire was suggested, not adopted. Full Break tables, failed-charge details and other unanswered mechanics are not silently inherited from Draft 1.
+
+### Draft organisation authorised
+Ross requested a separate Second Draft using the old master's structure, containing only the discussion/working-record material, with blank unfinished systems and notes. Archive the old master once the new draft is created. See [[Rules System/Second Draft/Full Rules System v2]].

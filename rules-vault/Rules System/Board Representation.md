@@ -3,6 +3,10 @@ type: reference
 title: Board Representation & Tokens
 tags: [settlements/reference]
 ---
+
+> [!warning] Legacy reference — not the active Second Draft
+> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+
 # 🧱 Board Representation & Tokens
 
 How to physically stand in for every game element on the table. Any collection — DIY, 3D-printed, or bought — plugs into the same rules ([[Terrain#Setup procedure]]); this note just says *what to put on the table* and *how to show state*. Playtest aid — mirrored onto the Scenario & Board printable.

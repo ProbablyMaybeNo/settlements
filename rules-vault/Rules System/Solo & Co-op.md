@@ -8,6 +8,10 @@ depends_on: ["Morale", "Campaign", "Settlement"]
 feeds_into: []
 tags: [settlements/phase, settlements/stage/s4]
 ---
+
+> [!warning] Legacy reference — not the active Second Draft
+> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+
 # 26 · Solo & Co-op
 > **S4 Settlement & Campaign** · status **Not Started** · build order **26**
 

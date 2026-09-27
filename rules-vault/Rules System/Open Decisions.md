@@ -3,6 +3,10 @@ type: dashboard
 title: Open Decisions
 tags: [settlements/dashboard]
 ---
+
+> [!warning] Legacy reference — not the active Second Draft
+> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+
 # 🔓 Open Decisions — live
 
 Auto-generated from the phase notes. Tick a box or change a `status:` and these refresh. See [[Rules System — Master Roadmap]] for the full plan and [[_Rules Map.canvas|the map]].

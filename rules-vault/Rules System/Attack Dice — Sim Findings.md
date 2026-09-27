@@ -3,6 +3,10 @@ type: reference
 title: Attack Dice — Sim Findings
 tags: [settlements/reference, settlements/analysis, settlements/mechanic/attack-dice]
 ---
+
+> [!warning] Legacy reference — not the active Second Draft
+> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+
 # 🎲 Attack Dice — Sim Findings
 
 Sim pass on [[15b · Attack Dice]], run 2026-08-29. Mirrors the [[core-000 Core Test]] / historical analysis (archived) harness exactly — same core test, same seed `20260708`, same 10,000-sample standard. Harness: `test-bench/attack_dice_sim.py`, stamped as `attack-dice-15b-n10000-e2b861d61-h326cd413`.

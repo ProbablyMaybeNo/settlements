@@ -7,6 +7,10 @@ version: v0.1
 parent_phase: "[[Melee]]"
 tags: [settlements/rule, settlements/cat/core]
 ---
+
+> [!warning] Legacy reference — not the active Second Draft
+> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+
 # core-003 · Melee
 > **core** · status **draft** · v0.1
 

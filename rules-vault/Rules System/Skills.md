@@ -4,6 +4,10 @@ status: Adopted catalogue; mechanics review pending
 updated: 2026-09-25
 tags: [settlements/reference, settlements/skills]
 ---
+
+> [!warning] Legacy reference — not the active Second Draft
+> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+
 # Skills
 
 The current catalogue contains **75 skills: 15 each for STR, DEX, AGI, INT and NRV, all in one tier**. Skills create tactical options, playstyles and combinations within and across stats. Offensive and defensive benefits are permitted. There are no player-facing archetype packages or archetype prerequisites.

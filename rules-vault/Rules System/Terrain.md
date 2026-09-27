@@ -8,6 +8,10 @@ depends_on: ["Movement"]
 feeds_into: ["Terrain Interaction", "Hacking", "Scenarios", "Edge Cases"]
 tags: [settlements/phase, settlements/stage/s3]
 ---
+
+> [!warning] Legacy reference — not the active Second Draft
+> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+
 # 08 · Terrain
 > **S3 Battle Layer** · status **Drafted** · build order **12**
 

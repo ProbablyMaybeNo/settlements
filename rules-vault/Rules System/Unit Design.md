@@ -16,6 +16,10 @@ tags:
   - settlements/phase
   - settlements/stage/s2
 ---
+
+> [!warning] Legacy reference — not the active Second Draft
+> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+
 # 06 · Unit Design
 > **S2 Core Combat** · status **Drafted** · build order **4**
 

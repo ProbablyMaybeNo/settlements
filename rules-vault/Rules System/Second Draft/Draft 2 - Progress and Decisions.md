@@ -1,0 +1,71 @@
+# Draft 2 — Progress and Decisions
+
+Main document: [[Full Rules System v2]]. Blank systems have no fallback rules. Each section states what remains.
+
+| Section | Status | Location |
+| --- | --- | --- |
+| 0 | RECORDED | [[Full Rules System v2#0 · The one rule everything else answers to\|0 · The one rule everything else answers to]] |
+| 1 | OUTLINE | [[Full Rules System v2#1 · Core Game Format\|1 · Core Game Format]] |
+| 2 | PARTIAL | [[Full Rules System v2#2 · The Core Test\|2 · The Core Test]] |
+| 3 | PARTIAL | [[Full Rules System v2#3 · Turn Structure & Activation\|3 · Turn Structure & Activation]] |
+| 4 | PARTIAL | [[Full Rules System v2#4 · Movement\|4 · Movement]] |
+| 5 | PARTIAL | [[Full Rules System v2#5 · Terrain\|5 · Terrain]] |
+| 6 | PARTIAL | [[Full Rules System v2#6 · Terrain Interaction\|6 · Terrain Interaction]] |
+| 7 | PARTIAL | [[Full Rules System v2#7 · Shooting\|7 · Shooting]] |
+| 8 | PARTIAL | [[Full Rules System v2#8 · Melee\|8 · Melee]] |
+| 9 | RECORDED | [[Full Rules System v2#9 · Damage\|9 · Damage]] |
+| 10 | PARTIAL | [[Full Rules System v2#10 · Conditions\|10 · Conditions]] |
+| 11 | PARTIAL | [[Full Rules System v2#11 · Morale\|11 · Morale]] |
+| 12 | PARTIAL | [[Full Rules System v2#12 · Hacking\|12 · Hacking]] |
+| 12.5 | PARTIAL | [[Full Rules System v2#12.5 · Infrastructure\|12.5 · Infrastructure]] |
+| 12.6 | PARTIAL | [[Full Rules System v2#12.6 · Deployables\|12.6 · Deployables]] |
+| 12.7 | PARTIAL | [[Full Rules System v2#12.7 · Scenarios\|12.7 · Scenarios]] |
+| 13 | PARTIAL | [[Full Rules System v2#13 · Unit Design — the stat line\|13 · Unit Design — the stat line]] |
+| 14 | RECORDED | [[Full Rules System v2#14 · Skills\|14 · Skills]] |
+| 15 | RECORDED | [[Full Rules System v2#15 · Weapons — Basic Weapon System\|15 · Weapons — Basic Weapon System]] |
+| 16 | OUTLINE | [[Full Rules System v2#16 · List Building\|16 · List Building]] |
+| 17 | OUTLINE | [[Full Rules System v2#17 · Founding a settlement\|17 · Founding a settlement]] |
+| 18 | OUTLINE | [[Full Rules System v2#18 · The settlement canvas\|18 · The settlement canvas]] |
+| 19 | OUTLINE | [[Full Rules System v2#19 · Power\|19 · Power]] |
+| 20 | OUTLINE | [[Full Rules System v2#20 · Storage & caps\|20 · Storage & caps]] |
+| 21 | OUTLINE | [[Full Rules System v2#21 · The structure catalogue\|21 · The structure catalogue]] |
+| 22 | OUTLINE | [[Full Rules System v2#22 · Workers\|22 · Workers]] |
+| 23 | OUTLINE | [[Full Rules System v2#23 · Territory & the campaign map\|23 · Territory & the campaign map]] |
+| 24 | OUTLINE | [[Full Rules System v2#24 · Factions\|24 · Factions]] |
+| 25 | PARTIAL | [[Full Rules System v2#25 · Stealth & Ambush\|25 · Stealth & Ambush]] |
+| 25.5 | OUTLINE | [[Full Rules System v2#25.5 · The Campaign Turn\|25.5 · The Campaign Turn]] |
+| 26 | OUTLINE | [[Full Rules System v2#26 · Campaign persistence\|26 · Campaign persistence]] |
+| 27 | OUTLINE | [[Full Rules System v2#27 · Battlefield Events\|27 · Battlefield Events]] |
+| 28 | PARTIAL | [[Full Rules System v2#28 · Drones & Chems — advanced modules\|28 · Drones & Chems — advanced modules]] |
+| 28.5 | PARTIAL | [[Full Rules System v2#28.5 · Appendix — Board Representation & Tokens\|28.5 · Appendix — Board Representation & Tokens]] |
+| 28.6 | OUTLINE | [[Full Rules System v2#28.6 · The Season — how a campaign ends\|28.6 · The Season — how a campaign ends]] |
+| 28.7 | OUTLINE | [[Full Rules System v2#28.7 · Appendix — a worked founding and first campaign turn\|28.7 · Appendix — a worked founding and first campaign turn]] |
+| 29 | TRACKER | [[Full Rules System v2#29 · What's still genuinely open\|29 · What's still genuinely open]] |
+
+## Priority follow-ups
+- [ ] Resolve opposed natural results.
+- [ ] Finalise Pinned restrictions/recovery and replace Pin Them Down.
+- [ ] Confirm source-cap arithmetic.
+- [ ] Finalise action definitions, timing and Charge failure.
+- [ ] Resolve Marked versus Hidden.
+- [ ] Draft Break and recovery procedures.
+- [ ] Review test results before adopting Return Fire permanently.
+- [ ] Decide skill acquisition later; still intentionally undecided.
+
+## Skill-specific gaps carried forward for review
+- [ ] **Remaining melee details:** failed-charge movement, declaration range, Parry and Last Laugh sequencing, Ambush/Aerial Assault overlap and failed aerial movement. AGILE supplies stat substitution.
+- [ ] **Treatment:** specify Wounds and state restored by Stabilize.
+- [ ] **Grapple:** release and separation, full Meat Shield targeting order, Crush cost and successful outcome. Do not invent free automatic takedowns.
+- [ ] **DEX:** Marked versus Hidden, Cover Me's failed-intervention damage/Stress, split-fire bonus-die chains, range limits and Breach through sealed doors.
+- [ ] **AGI:** Phantom Shot additional Stress amount; normal Hidden movement penalty for Sneak; limits on Dodge and Parry. The new Ambush replaces the old AGI-attack/free-retaliation version.
+- [ ] **INT:** Trojan range and reusable-device control duration, Interrupt test classification/frequency/network; Tunnels placement minima/arrival; UNCONTESTED and tag replacement; distinct equipment/chem/deployable capacity; Quick Drop tests; Stabilize non-Down test; Stims as chem or not; Smart's qualifying interactions.
+- [ ] **NRV:** aura self-inclusion/LOS/replacement at two slots; last-attack timing; cannot erase overflow Stress through transfers. Hold Fast is a flat -2 to incoming injury rolls within range, with no cover requirement.
+
+## Build record
+- [x] Create Second Draft in its own folder.
+- [x] Carry forward all 75 selected skills and the weapons-basics catalogue.
+- [x] Record latest conversation decisions in working log.
+- [x] Preserve numbered master structure; leave unselected systems blank with notes.
+- [x] Separate test assumptions from adopted direction.
+- [x] Archive Draft 1 after validating Draft 2.
+- [x] Route old master and main navigation to Draft 2.

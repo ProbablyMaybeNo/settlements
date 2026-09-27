@@ -3,6 +3,10 @@ type: rule-ledger
 status: Adopted catalogue; acquisition and mechanics pending
 date: 2026-09-25
 ---
+
+> [!warning] Legacy reference — not the active Second Draft
+> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+
 # Single-tier skills
 
 Ross authorised archiving the previous skill system and replacing it with the thread's approved 75-skill list. HOLD FAST is a flat -2 to injury rolls, with no cover condition. Five stats have fifteen skills each, one tier; archetypes are not player prerequisites.

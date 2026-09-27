@@ -3,6 +3,10 @@ type: design-decisions
 status: Open
 updated: 2026-09-25
 ---
+
+> [!warning] Legacy reference — not the active Second Draft
+> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+
 # Skill integration decisions
 
 The 75-skill list is adopted; these unresolved mechanics were not decided by the catalogue approval. The previous skill system is archived, not a fallback.

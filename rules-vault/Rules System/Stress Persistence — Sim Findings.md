@@ -3,6 +3,10 @@ type: reference
 title: Stress Persistence — Sim Findings
 tags: [settlements/reference, settlements/analysis, settlements/mechanic/morale]
 ---
+
+> [!warning] Legacy reference — not the active Second Draft
+> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+
 # 😰 Stress Persistence — Sim Findings
 
 Does **Stress survive being Downed?** Measured 2026-08-29. Harness `test-bench/attack_dice_stress_on_down.py`, stamped `attack-dice-15b-stress-on-down-e2b861d61-h326cd413`. Exact enumeration for the burst arithmetic; seeded Monte-Carlo (N=20,000, seed `20260708`) where a fight has to exist for the question to mean anything.

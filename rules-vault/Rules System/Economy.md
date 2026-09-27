@@ -8,6 +8,10 @@ depends_on: ["Settlement"]
 feeds_into: ["Balance"]
 tags: [settlements/phase, settlements/stage/s4]
 ---
+
+> [!warning] Legacy reference — not the active Second Draft
+> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+
 # 11 · Economy
 > **S4 Settlement & Campaign** · status **Drafted** · build order **17**
 

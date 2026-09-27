@@ -8,6 +8,10 @@ depends_on: ["Core Game Format"]
 feeds_into: ["Structures", "Economy", "Campaign", "Final Alpha", "Downtime", "Events", "Solo & Co-op", "Factions"]
 tags: [settlements/phase, settlements/stage/s4]
 ---
+
+> [!warning] Legacy reference — not the active Second Draft
+> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+
 # 10 · Settlement
 > **S4 Settlement & Campaign** · status **Drafted** · build order **16**
 

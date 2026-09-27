@@ -4,6 +4,10 @@ title: Quick Reference — Writing Rules
 tags: [settlements/reference]
 cssclasses: [quickref]
 ---
+
+> [!warning] Legacy reference — not the active Second Draft
+> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+
 # ⌨️ Quick Reference
 
 > [!tip] Dock me on the right
