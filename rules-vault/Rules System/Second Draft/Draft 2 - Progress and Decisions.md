@@ -4,43 +4,43 @@ Main document: [[Full Rules System v2]]. Blank systems have no fallback rules. E
 
 | Section | Status | Location |
 | --- | --- | --- |
-| 0 | RECORDED | [[Full Rules System v2#0 · The one rule everything else answers to\|0 · The one rule everything else answers to]] |
-| 1 | OUTLINE | [[Full Rules System v2#1 · Core Game Format\|1 · Core Game Format]] |
-| 2 | PARTIAL | [[Full Rules System v2#2 · The Core Test\|2 · The Core Test]] |
-| 3 | PARTIAL | [[Full Rules System v2#3 · Turn Structure & Activation\|3 · Turn Structure & Activation]] |
-| 4 | PARTIAL | [[Full Rules System v2#4 · Movement\|4 · Movement]] |
-| 5 | PARTIAL | [[Full Rules System v2#5 · Terrain\|5 · Terrain]] |
-| 6 | PARTIAL | [[Full Rules System v2#6 · Terrain Interaction\|6 · Terrain Interaction]] |
-| 7 | PARTIAL | [[Full Rules System v2#7 · Shooting\|7 · Shooting]] |
-| 8 | PARTIAL | [[Full Rules System v2#8 · Melee\|8 · Melee]] |
-| 9 | RECORDED | [[Full Rules System v2#9 · Damage\|9 · Damage]] |
-| 10 | PARTIAL | [[Full Rules System v2#10 · Conditions\|10 · Conditions]] |
-| 11 | PARTIAL | [[Full Rules System v2#11 · Morale\|11 · Morale]] |
-| 12 | PARTIAL | [[Full Rules System v2#12 · Hacking\|12 · Hacking]] |
-| 12.5 | PARTIAL | [[Full Rules System v2#12.5 · Infrastructure\|12.5 · Infrastructure]] |
-| 12.6 | PARTIAL | [[Full Rules System v2#12.6 · Deployables\|12.6 · Deployables]] |
-| 12.7 | PARTIAL | [[Full Rules System v2#12.7 · Scenarios\|12.7 · Scenarios]] |
-| 13 | PARTIAL | [[Full Rules System v2#13 · Unit Design — the stat line\|13 · Unit Design — the stat line]] |
-| 14 | RECORDED | [[Full Rules System v2#14 · Skills\|14 · Skills]] |
-| 15 | RECORDED | [[Full Rules System v2#15 · Weapons — Basic Weapon System\|15 · Weapons — Basic Weapon System]] |
-| 16 | OUTLINE | [[Full Rules System v2#16 · List Building\|16 · List Building]] |
-| 17 | OUTLINE | [[Full Rules System v2#17 · Founding a settlement\|17 · Founding a settlement]] |
-| 18 | OUTLINE | [[Full Rules System v2#18 · The settlement canvas\|18 · The settlement canvas]] |
-| 19 | OUTLINE | [[Full Rules System v2#19 · Power\|19 · Power]] |
-| 20 | OUTLINE | [[Full Rules System v2#20 · Storage & caps\|20 · Storage & caps]] |
-| 21 | OUTLINE | [[Full Rules System v2#21 · The structure catalogue\|21 · The structure catalogue]] |
-| 22 | OUTLINE | [[Full Rules System v2#22 · Workers\|22 · Workers]] |
-| 23 | OUTLINE | [[Full Rules System v2#23 · Territory & the campaign map\|23 · Territory & the campaign map]] |
-| 24 | OUTLINE | [[Full Rules System v2#24 · Factions\|24 · Factions]] |
-| 25 | PARTIAL | [[Full Rules System v2#25 · Stealth & Ambush\|25 · Stealth & Ambush]] |
-| 25.5 | OUTLINE | [[Full Rules System v2#25.5 · The Campaign Turn\|25.5 · The Campaign Turn]] |
-| 26 | OUTLINE | [[Full Rules System v2#26 · Campaign persistence\|26 · Campaign persistence]] |
-| 27 | OUTLINE | [[Full Rules System v2#27 · Battlefield Events\|27 · Battlefield Events]] |
-| 28 | PARTIAL | [[Full Rules System v2#28 · Drones & Chems — advanced modules\|28 · Drones & Chems — advanced modules]] |
-| 28.5 | PARTIAL | [[Full Rules System v2#28.5 · Appendix — Board Representation & Tokens\|28.5 · Appendix — Board Representation & Tokens]] |
-| 28.6 | OUTLINE | [[Full Rules System v2#28.6 · The Season — how a campaign ends\|28.6 · The Season — how a campaign ends]] |
-| 28.7 | OUTLINE | [[Full Rules System v2#28.7 · Appendix — a worked founding and first campaign turn\|28.7 · Appendix — a worked founding and first campaign turn]] |
-| 29 | TRACKER | [[Full Rules System v2#29 · What's still genuinely open\|29 · What's still genuinely open]] |
+| 0 | <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span> | [[Full Rules System v2#0 · The one rule everything else answers to\|0 · The one rule everything else answers to]] |
+| 1 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#1 · Core Game Format\|1 · Core Game Format]] |
+| 2 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#2 · The Core Test\|2 · The Core Test]] |
+| 3 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#3 · Turn Structure & Activation\|3 · Turn Structure & Activation]] |
+| 4 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#4 · Movement\|4 · Movement]] |
+| 5 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#5 · Terrain\|5 · Terrain]] |
+| 6 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#6 · Terrain Interaction\|6 · Terrain Interaction]] |
+| 7 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#7 · Shooting\|7 · Shooting]] |
+| 8 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#8 · Melee\|8 · Melee]] |
+| 9 | <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span> | [[Full Rules System v2#9 · Damage\|9 · Damage]] |
+| 10 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#10 · Conditions\|10 · Conditions]] |
+| 11 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#11 · Morale\|11 · Morale]] |
+| 12 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#12 · Hacking\|12 · Hacking]] |
+| 12.5 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#12.5 · Infrastructure\|12.5 · Infrastructure]] |
+| 12.6 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#12.6 · Deployables\|12.6 · Deployables]] |
+| 12.7 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#12.7 · Scenarios\|12.7 · Scenarios]] |
+| 13 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#13 · Unit Design — the stat line\|13 · Unit Design — the stat line]] |
+| 14 | <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span> | [[Full Rules System v2#14 · Skills\|14 · Skills]] |
+| 15 | <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span> | [[Full Rules System v2#15 · Weapons — Basic Weapon System\|15 · Weapons — Basic Weapon System]] |
+| 16 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#16 · List Building\|16 · List Building]] |
+| 17 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#17 · Founding a settlement\|17 · Founding a settlement]] |
+| 18 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#18 · The settlement canvas\|18 · The settlement canvas]] |
+| 19 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#19 · Power\|19 · Power]] |
+| 20 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#20 · Storage & caps\|20 · Storage & caps]] |
+| 21 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#21 · The structure catalogue\|21 · The structure catalogue]] |
+| 22 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#22 · Workers\|22 · Workers]] |
+| 23 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#23 · Territory & the campaign map\|23 · Territory & the campaign map]] |
+| 24 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#24 · Factions\|24 · Factions]] |
+| 25 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#25 · Stealth & Ambush\|25 · Stealth & Ambush]] |
+| 25.5 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#25.5 · The Campaign Turn\|25.5 · The Campaign Turn]] |
+| 26 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#26 · Campaign persistence\|26 · Campaign persistence]] |
+| 27 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#27 · Battlefield Events\|27 · Battlefield Events]] |
+| 28 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#28 · Drones & Chems — advanced modules\|28 · Drones & Chems — advanced modules]] |
+| 28.5 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#28.5 · Appendix — Board Representation & Tokens\|28.5 · Appendix — Board Representation & Tokens]] |
+| 28.6 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#28.6 · The Season — how a campaign ends\|28.6 · The Season — how a campaign ends]] |
+| 28.7 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#28.7 · Appendix — a worked founding and first campaign turn\|28.7 · Appendix — a worked founding and first campaign turn]] |
+| 29 | <span style="color:#1565c0"><strong>TRACKER · BLUE</strong></span> | [[Full Rules System v2#29 · What's still genuinely open\|29 · What's still genuinely open]] |
 
 ## Priority follow-ups
 - [ ] Resolve opposed natural results.

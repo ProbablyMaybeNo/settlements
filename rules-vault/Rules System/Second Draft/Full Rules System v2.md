@@ -10,11 +10,20 @@ created: 2026-09-27
 
 [[Rules System/Second Draft/Draft 2 - Sources and Status|Sources and Status]] · [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]
 
-**Status:** RECORDED = selected direction with any stated follow-ups; PARTIAL = some mechanics recorded; OUTLINE = no rules adopted; TEST = simulation-only.
+**Status legend:**
+
+- <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span> — selected direction, with any listed follow-ups.
+- <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> — some mechanics recorded; important work remains.
+- <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> — no rules adopted yet.
+- <span style="color:#c62828"><strong>OUTDATED · RED</strong></span> — superseded and retained only for history.
+
+The colour is a reading aid, not a second rules layer. Blank sections remain undecided.
+
+**TEST** is reserved for simulation-only material and remains explicitly labelled where it appears.
 
 ## 0 · The one rule everything else answers to
 
-**Status: RECORDED.**
+**Status: <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span>.**
 
 Weapons provide offensive capabilities; Armour provides protection; Equipment supplies temporary or limited-use options; Advancements and Injuries record lasting development and consequences.
 
@@ -28,7 +37,7 @@ Skills define tactical choices and discoverable combinations within and across s
 
 ## 1 · Core Game Format
 
-**Status: OUTLINE.**
+**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
 **Rules:** —
 
@@ -38,7 +47,7 @@ Skills define tactical choices and discoverable combinations within and across s
 
 ## 2 · The Core Test
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 Ordinary tests and shooting use **1d20 + relevant stat + modifiers vs 15+**. Natural 1 fails; natural 20 succeeds. Charge distance explicitly uses d6.
 
@@ -59,7 +68,7 @@ Skill modifiers stack within their cap; different sources combine. Other modifie
 
 ## 3 · Turn Structure & Activation
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 Players alternate activating units. An activation supplies **one Move and one Core Action**; skills can grant alternatives or additional actions. Dash and Charge spend both. A reaction is one permitted action outside activation, not an activation refresh.
 
@@ -75,7 +84,7 @@ Players alternate activating units. An activation supplies **one Move and one Co
 
 ## 4 · Movement
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 Move uses the unit's MOVE value. Ordinary movement cannot end within 1 inch of an enemy to initiate engagement unless Charging or resolving an explicit movement-into-combat effect. Already-engaged units can remain engaged; Blade Fury and Rampage retain their movement-and-fight permissions.
 
@@ -87,7 +96,7 @@ Charge spends Move and Core Action; roll **MOVE + 1d6**. Reach within 1 inch of 
 
 ## 5 · Terrain
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 Scenarios can guide key terrain placement, with players filling the rest. Additional interactive features should be mandatory so INT has relevant choices. Ordinary doors/windows do not satisfy that additional-feature requirement. Tokens/templates can represent features where matching models are unavailable.
 
@@ -97,7 +106,7 @@ Scenarios can guide key terrain placement, with players filling the rest. Additi
 
 ## 6 · Terrain Interaction
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 Interactive features provide stated operations and consequences. Tokens can be interacted with in base contact, spending an action where specified. The discussed crane moves scatter/obstacles; the pit opens/closes a template and threatens units above it or pushed into it.
 
@@ -107,7 +116,7 @@ Interactive features provide stated operations and consequences. Tokens can be i
 
 ## 7 · Shooting
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 Roll one **d20 + DEX + applicable modifiers vs 15+** per Attack Die, then one Injury die per successful hit (§9). Natural 1 fails; natural 20 succeeds. Use each weapon's range and characteristics; LOS is required unless explicitly overridden.
 
@@ -119,7 +128,7 @@ Dual wielding uses full dominant-weapon dice plus one off-hand die, retaining ea
 
 ## 8 · Melee
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 **Latest thread direction: highest opposing total**, superseding the September 26 hit-cancellation method.
 
@@ -142,7 +151,7 @@ Example totals: 22/19/16/10 versus 18/13 yields two hits for the first unit, non
 
 ## 9 · Damage
 
-**Status: RECORDED.**
+**Status: <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span>.**
 
 Roll **1d20 + the hit's weapon Damage − target Armour + applicable modifiers vs 15+** per successful hit. Natural 1 fails; natural 20 succeeds.
 
@@ -159,7 +168,7 @@ No one-Wound-per-attack cap: three successful Injury dice remove three Wounds. A
 
 ## 10 · Conditions
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 **Pinned:** hit survivors are Pinned under §9. Recover spends an action; friendly units can help. Earlier discussion used a 3-inch friendly range. Exact restrictions, range and recovery timing need formal wording. Pinning does not independently add Stress. Suppressed was removed as a separate condition.
 
@@ -173,7 +182,7 @@ Other skill definitions: [[Draft 2 - Keywords]]. **Still to decide:** Pinned res
 
 ## 11 · Morale
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 Stress normally caps at **5**, applying **−1 per point** to relevant rolls. Implode extends its holder's maximum by two; other skills apply their stated exceptions. Shaken describes Stress rather than adding a second flat penalty. Injury failures generate Stress; successful wounds do not also generate it under the latest procedure.
 
@@ -183,7 +192,7 @@ Stress normally caps at **5**, applying **−1 per point** to relevant rolls. Im
 
 ## 12 · Hacking
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 Hacking operates interactive terrain through terminals. Neural Uplink improves hacking tests. Trojan temporarily uses an enemy ELECTRIC deployable for its stated action. Interrupt contests another terminal interaction and FREEZEs the enemy terminal. Use the current skill text for the selected effects.
 
@@ -193,7 +202,7 @@ Hacking operates interactive terrain through terminals. Neural Uplink improves h
 
 ## 12.5 · Infrastructure
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 Selected direction: cranes, elevators, retractable bridges and pits can make terrain tactically interactive; represent them with tokens/templates. Doors/windows are baseline terrain rather than the entire required feature selection.
 
@@ -205,7 +214,7 @@ Selected direction: cranes, elevators, retractable bridges and pits can make ter
 
 ## 12.6 · Deployables
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 Deployables are carried items placed during battle. Skills selected: Molle expands carrying options, Technician improves placement tests, Quick Drop grants another placement, and Trojan can use ELECTRIC enemy devices. Single-use hacked devices are consumed when triggered or defused as stated.
 
@@ -217,7 +226,7 @@ Deployables are carried items placed during battle. Skills selected: Molle expan
 
 ## 12.7 · Scenarios
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 Scenarios should suggest key terrain and include meaningful interactive features. Tagged is the selected remote-objective skill; UNCONTESTED will be a shared keyword.
 
@@ -231,7 +240,7 @@ Scenarios should suggest key terrain and include meaningful interactive features
 
 ## 13 · Unit Design — the stat line
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 Five skill stats: **STR, DEX, AGI, INT, NRV**. Units also use MOVE and Wounds. AGILE weapon handling permits AGI melee. Tough and Quick are explicit characteristic-changing skills.
 
@@ -243,7 +252,7 @@ Five skill stats: **STR, DEX, AGI, INT, NRV**. Units also use MOVE and Wounds. A
 
 ## 14 · Skills
 
-**Status: RECORDED.**
+**Status: <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span>.**
 
 **75 skills, 15 per stat, one tier.** Archetypes guide design but impose no compulsory packages. Acquisition, stat eligibility and progression are **undecided**.
 
@@ -255,7 +264,7 @@ Five skill stats: **STR, DEX, AGI, INT, NRV**. Units also use MOVE and Wounds. A
 
 ## 15 · Weapons — Basic Weapon System
 
-**Status: RECORDED.**
+**Status: <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span>.**
 
 The completed weapons-basics catalogue is carried forward as a design catalogue, with its own unresolved profile fields. It does not import historical prices or one-Wound attack caps.
 
@@ -267,7 +276,7 @@ The completed weapons-basics catalogue is carried forward as a design catalogue,
 
 ## 16 · List Building
 
-**Status: OUTLINE.**
+**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
 **Rules:** —
 
@@ -279,7 +288,7 @@ The completed weapons-basics catalogue is carried forward as a design catalogue,
 
 ## 17 · Founding a settlement
 
-**Status: OUTLINE.**
+**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
 **Rules:** —
 
@@ -289,7 +298,7 @@ The completed weapons-basics catalogue is carried forward as a design catalogue,
 
 ## 18 · The settlement canvas
 
-**Status: OUTLINE.**
+**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
 **Rules:** —
 
@@ -299,7 +308,7 @@ The completed weapons-basics catalogue is carried forward as a design catalogue,
 
 ## 19 · Power
 
-**Status: OUTLINE.**
+**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
 **Rules:** —
 
@@ -309,7 +318,7 @@ The completed weapons-basics catalogue is carried forward as a design catalogue,
 
 ## 20 · Storage & caps
 
-**Status: OUTLINE.**
+**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
 **Rules:** —
 
@@ -319,7 +328,7 @@ The completed weapons-basics catalogue is carried forward as a design catalogue,
 
 ## 21 · The structure catalogue
 
-**Status: OUTLINE.**
+**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
 **Rules:** —
 
@@ -329,7 +338,7 @@ The completed weapons-basics catalogue is carried forward as a design catalogue,
 
 ## 22 · Workers
 
-**Status: OUTLINE.**
+**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
 **Rules:** —
 
@@ -339,7 +348,7 @@ The completed weapons-basics catalogue is carried forward as a design catalogue,
 
 ## 23 · Territory & the campaign map
 
-**Status: OUTLINE.**
+**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
 **Rules:** —
 
@@ -349,7 +358,7 @@ The completed weapons-basics catalogue is carried forward as a design catalogue,
 
 ## 24 · Factions
 
-**Status: OUTLINE.**
+**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
 **Rules:** —
 
@@ -359,7 +368,7 @@ The completed weapons-basics catalogue is carried forward as a design catalogue,
 
 ## 25 · Stealth & Ambush
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 Ambush is an AGI skill triggered by a successful Charge begun Hidden. Its selected text supplies the AGI test, one-weapon +4 hit/injury and UNANSWERED effect, with its stated failure consequence. UNANSWERED now means the highest-opposing-roll method in §8.
 
@@ -371,7 +380,7 @@ Hidden grants −4 incoming accuracy and protection beyond 12 inches, with the a
 
 ## 25.5 · The Campaign Turn
 
-**Status: OUTLINE.**
+**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
 **Rules:** —
 
@@ -381,7 +390,7 @@ Hidden grants −4 incoming accuracy and protection beyond 12 inches, with the a
 
 ## 26 · Campaign persistence
 
-**Status: OUTLINE.**
+**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
 **Rules:** —
 
@@ -391,7 +400,7 @@ Hidden grants −4 incoming accuracy and protection beyond 12 inches, with the a
 
 ## 27 · Battlefield Events
 
-**Status: OUTLINE.**
+**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
 **Rules:** —
 
@@ -401,7 +410,7 @@ Hidden grants −4 incoming accuracy and protection beyond 12 inches, with the a
 
 ## 28 · Drones & Chems — advanced modules
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 Chems are limited-use equipment. Doc expands Chem access and grants its printed application; Chemical Cocktail allows two Chem actions on one unit; Stims remains a selected skill.
 
@@ -413,7 +422,7 @@ Chems are limited-use equipment. Doc expands Chem access and grants its printed 
 
 ## 28.5 · Appendix — Board Representation & Tokens
 
-**Status: PARTIAL.**
+**Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
 Tokens/templates can represent interactive features and their controls. Units use markers for tracked states such as READY, Pinned, Stress and skill-specific effects.
 
@@ -423,7 +432,7 @@ Tokens/templates can represent interactive features and their controls. Units us
 
 ## 28.6 · The Season — how a campaign ends
 
-**Status: OUTLINE.**
+**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
 **Rules:** —
 
@@ -433,7 +442,7 @@ Tokens/templates can represent interactive features and their controls. Units us
 
 ## 28.7 · Appendix — a worked founding and first campaign turn
 
-**Status: OUTLINE.**
+**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
 **Rules:** —
 
@@ -443,7 +452,7 @@ Tokens/templates can represent interactive features and their controls. Units us
 
 ## 29 · What's still genuinely open
 
-**Status: TRACKER.**
+**Status: <span style="color:#1565c0"><strong>TRACKER · BLUE</strong></span>.**
 
 Use [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]] for per-section progress, outstanding questions and skill-specific gaps. Test assumptions are in [[Draft 2 - Simulation Assumptions]].
 
