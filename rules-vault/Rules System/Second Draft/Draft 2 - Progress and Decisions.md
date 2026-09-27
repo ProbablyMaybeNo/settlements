@@ -44,6 +44,8 @@ Main document: [[Full Rules System v2]]. Blank systems have no fallback rules. E
 
 ## Priority follow-ups
 - [ ] Resolve opposed natural results.
+- [x] Clarify Rage/Implode timing: Rage adds Stress after its attack; Implode converts Stress during the End Phase into the next melee activation's bonus.
+- [ ] Rerun the Rage + Implode combination under cumulative Stress and the finalized Break procedure.
 - [ ] Finalise Pinned restrictions/recovery and replace Pin Them Down.
 - [ ] Confirm source-cap arithmetic.
 - [ ] Finalise action definitions, timing and Charge failure.

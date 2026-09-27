@@ -19,7 +19,7 @@ status: Selected catalogue — mechanics review pending
 | **RAMPAGE** | STR | Triggered | After DOWNING an enemy with a CHARGE ATTACK, move the remaining charge distance. If this brings the unit within 1 inch of another enemy, make a free MELEE ATTACK against it. |
 | **BULL** | STR | Attack modifier | When declaring a CHARGE, test STR. On success, pass through non-LOS-blocking scatter, obstacles and barricades. Enemies contacted test AGI; on failure, push them 2 inches in your chosen direction and PIN them. Cannot pass reinforced doors, buildings or LOS-blocking structures. |
 | **HUMAN BULLET** | STR | Passive | Determine CHARGE distance using MOVE plus the total of 2d6 instead of 1d6. |
-| **RAGE** | STR | Attack modifier | When making a MELEE ATTACK, add up to +3 Damage to its injury roll. Gain 1 STRESS per point added. |
+| **RAGE** | STR | Attack modifier | When resolving a MELEE ATTACK, add up to +3 Damage to its Injury rolls. After the attack is resolved, gain 1 STRESS for each point added. |
 | **I'M ABOUT TO BREAK** | STR | Triggered | Once per turn when CHARGED, use STRESS as positive modifiers instead of penalties for that combat. Afterwards gain 1 STRESS and immediately make a BREAK test, ignoring beneficial Stress modifiers from friendly units, skills or equipment. |
 | **BLOWING OFF STEAM** | STR | Triggered | Whenever this unit DOWNS an enemy, remove 2 of its STRESS. |
 | **GOLIATH** | STR | Passive | Wield two 2 HANDED melee weapons as if they were 1 HANDED. The off-hand still contributes only one attack die unless another rule explicitly overrides it. |
@@ -102,7 +102,7 @@ status: Selected catalogue — mechanics review pending
 | **RALLY** | NRV | Action | Once per turn, spend an ACTION and test NRV. On success RALLY up to three BROKEN friendlies within 8 inches. |
 | **MOTIVATE** | NRV | Action | Once per turn, spend an ACTION and test NRV. Choose two friendlies within 8 inches. During their next activation each may use its MOVE as an ACTION and repeat an action. |
 | **SIN EATER** | NRV | Action | Once per turn, spend an ACTION to transfer up to 3 STRESS in total from friendlies within 6 inches to this unit, limited by its remaining Stress capacity. |
-| **IMPLODE** | NRV | Attack modifier | Increase maximum STRESS by 2. Once per turn before a MELEE ATTACK, remove up to half this unit's STRESS, rounding down. Gain +1 to hit and injure for that attack per point removed. |
+| **IMPLODE** | NRV | End Phase | Increase maximum STRESS by 2. During the End Phase, instead of resolving this unit's BREAK test, it may IMPLODE. Remove all STRESS. During this unit's next activation, gain +1 to melee hit and Injury rolls for each point removed, up to +4. |
 | **LAST LAUGH** | NRV | Triggered | Once per turn, when an enemy attack would DOWN this unit, first make one final SHOOT or MELEE ATTACK against that enemy if it is a legal target. Then resolve this unit becoming DOWNED. |
 | **HOLD FAST** | NRV | Aura | Spend an ACTION and test NRV to activate a 6-inch AURA. Injury rolls against friendlies within the aura suffer -2, whether or not they are in cover. |
 | **MENACING** | NRV | Aura | Spend an ACTION and test NRV to activate a 6-inch AURA. Friendly attacks made from within it inflict +1 additional STRESS if they score at least one hit. |
