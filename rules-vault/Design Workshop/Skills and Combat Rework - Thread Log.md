@@ -1164,3 +1164,9 @@ The simulation handoff proposed natural-20 priority/both-20 ties in opposed pool
 
 ### Draft organisation authorised
 Ross requested a separate Second Draft using the old master's structure, containing only the discussion/working-record material, with blank unfinished systems and notes. Archive the old master once the new draft is created. See [[Rules System/Second Draft/Full Rules System v2]].
+
+
+## Next-pass integration — 2026-09-29
+User authorised filling assumptions so the next simulation uses the intended rules. Pinned allows half-speed MOVE and Core-Action Recover. Dash is 2x MOVE; failed Charge moves up to MOVE toward the target and ends activation. Stress affects all unit rolls except Break/Rally. End-Phase Break at 2+ Stress is d20 + NRV vs 15+, ignoring Stress: pass clears Stress; failure keeps it and assigns Broken at 1–2, Bolting at 3–4, Bugging Out at 5+. Existing conditions Rally instead; failure retains the condition, success clears it and Stress. The die-total failure bands and Stress-subtracted formula are superseded.
+
+The current source caps remain ±4 skills / ±3 weapons / ±6 stats / ±6 armour. Printed Damage is separate; cap signed contributions separately; caps do not limit dice/inches/Wounds. Hidden -4 stacks with cover. No smaller skill roster or +3 cap adopted. The assistant-selected edge cases for this authorised pass are separately labelled in [[Rules System/Second Draft/Draft 2 - Simulation Assumptions]]; they are not retroactively attributed to Ross. Old reports are preserved as historical results, not fresh validation.

@@ -37,3 +37,9 @@ Use Mark Target's range, +2 friendly shooting bonus and expiry. Its latest text 
 
 ## HEAVY / UNWIELDY / ELECTRIC / SINGLE USE
 Use the equipment's printed definition. Heavy halves normal movement unless ignored. Electric identifies a hackable deployable. Single Use is consumed after its action or defusal. Big Fella ignores Unwieldy; this catalogue does not invent a missing equipment definition.
+
+## PINNED / RECOVER
+Only MOVE (half speed) and RECOVER are permitted while Pinned. Recover spends a Core Action and removes Pinned, not Stress or a break condition. Recover before moving to use normal MOVE, or move at half speed before recovering. Forced Bolt/Bugging Out overrides this movement restriction. See [[Full Rules System v2#10 · Conditions]].
+
+## BREAK / RALLY
+See [[Full Rules System v2#11 · Morale]]. Both use d20 + NRV vs 15+ with applicable non-Stress modifiers; neither subtracts Stress. Failed Break severity uses Stress: 1–2 Broken, 3–4 Bolting, 5+ Bugging Out. Failed Rally retains the existing condition. Use [[Draft 2 - Simulation Assumptions]] for next-pass edge cases.

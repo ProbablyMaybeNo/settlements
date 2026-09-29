@@ -60,7 +60,9 @@ Ordinary tests and shooting use **1d20 + relevant stat + modifiers vs 15+**. Nat
 
 Skill modifiers stack within their cap; different sources combine. Other modifiers stack. These replace the previous global +6/±3 caps.
 
-**Still to decide:** whether printed Damage counts toward the weapon cap; how positive and negative contributions combine within a source; opposed-pool natural results; numerical modifiers versus extra dice/distance. Simulation assumptions are separate.
+**Cap arithmetic (2026-09-29):** cap positive and negative contributions separately within each source, then combine. Printed weapon Damage is separate from the weapon modifier cap. Skill-granted Damage remains a skill-source roll modifier. Caps apply to roll modifiers, not Attack Dice, inches or Wounds. Stress and terrain are separate sources. Hidden and applicable cover stack. The +3 skill-cap proposal was not adopted.
+
+**Next-pass working rulings:** opposed natural results and other bounded implementation choices are specified in [[Draft 2 - Simulation Assumptions]]. These are explicit test choices, not permission to guess or fill unrelated blank systems.
 
 **Opposed tests:** the earlier single-test direction gave ties to the defender. Latest melee pool ties cause no hits; do not silently extend melee's rule to every single-test contest.
 
@@ -72,13 +74,15 @@ Skill modifiers stack within their cap; different sources combine. Other modifie
 
 Players alternate activating units. An activation supplies **one Move and one Core Action**; skills can grant alternatives or additional actions. Dash and Charge spend both. A reaction is one permitted action outside activation, not an activation refresh.
 
-**READY:** gained using an Action, Order, skill or ability, including after activation. It carries between rounds until used, cancelled by movement/another regular action, hit by an attack, or explicitly removed. A permitted READY reaction spends the token. Use one READY token as the current working limit; formal token stacking is listed for confirmation.
+**READY:** gained using an Action, Order, skill or ability, including after activation. It carries between rounds until used, cancelled by movement/another regular action, hit by an attack, or explicitly removed. A permitted READY reaction spends the token. Maximum one READY token per unit. Pinned units cannot use reactions except movement permitted by the Pinned rule; retaining READY does not override action restrictions.
 
 **Triggers:** an enemy starts or finishes an action within LOS and applicable range, or a skill/ability grants a reaction. Permitted choices: ranged/melee Attack, Charge, Interact, Hack, Deploy, Skill action, Move, Hide, Dodge. Reactions cannot trigger other reactions unless explicitly permitted. The discussed pre-action reaction resolves before the declared action; if it Pins/Downs the actor, the declared action is lost.
 
 **Return Fire — test variant:** when a READY unit is targeted by a ranged attack, it can spend READY to make a legal shot back. Both roll opposed attack pools using §8's highest-total comparison with DEX. Resolve both attacks once; ties cause no hits. Against movement or other non-shooting actions, reaction shooting remains a normal 15+ test. See [[Draft 2 - Simulation Assumptions]].
 
-**Still to decide:** round sequence/initiative, Orders' costs/range/counts, exact action list and definitions, multiple-reactor priority, core Dodge, skill-generated action chains, action repetition, round/turn terminology and reaction Charge costs.
+**Sequencing:** start-trigger reactions resolve before the declared action; end-trigger reactions resolve after it. A start-trigger shot that Pins or Downs the actor cancels the declared action and spends its cost, even if that action was movement. Do not cancel participation retrospectively in the simultaneous exchange that caused Pinned. Resolve an attack pool completely before its after-attack/after-Down effects. No automatic attack-back follows an exchange; explicit skill attacks retain their printed permissions and limits. [[Draft 2 - Simulation Assumptions]] specifies simultaneous-trigger and recursion handling for the next pass.
+
+**Still to decide:** full round sequence/initiative, Orders' costs/range/counts, remaining action definitions and core Dodge. Next-pass timing choices are explicit in the linked test contract.
 
 ---
 
@@ -88,9 +92,9 @@ Players alternate activating units. An activation supplies **one Move and one Co
 
 Move uses the unit's MOVE value. Ordinary movement cannot end within 1 inch of an enemy to initiate engagement unless Charging or resolving an explicit movement-into-combat effect. Already-engaged units can remain engaged; Blade Fury and Rampage retain their movement-and-fight permissions.
 
-Charge spends Move and Core Action; roll **MOVE + 1d6**. Reach within 1 inch of the declared enemy to succeed and gain the free melee exchange and charge die. Human Bullet changes the roll to MOVE + 2d6. Dash spends both actions; Sprinter permits Dash using only Move.
+Charge spends Move and Core Action; roll **MOVE + 1d6**. Reach within 1 inch of the declared enemy to succeed and gain the free melee exchange and charge die. Human Bullet changes the roll to MOVE + 2d6. Dash moves up to **2 × MOVE** and spends both actions; Sprinter permits Dash using only Move. On a failed Charge, move up to MOVE toward the target by the most direct legal route, stopping outside engagement range; the activation ends.
 
-**Still to decide:** normal MOVE baseline, Dash distance, failed-charge movement and declaration limits (earlier 12-inch gate versus extended skills), general traversal, disengage attacks, forced-movement placement, and movement during engagement. Do not inherit Draft 1's 2×MOVE Charge.
+**Still to decide:** normal MOVE baseline and Charge declaration limits (earlier 12-inch gate versus extended skills), general traversal, disengage attacks, forced-movement placement, and movement during engagement. Do not inherit Draft 1's 2×MOVE Charge.
 
 ---
 
@@ -100,7 +104,9 @@ Charge spends Move and Core Action; roll **MOVE + 1d6**. Reach within 1 inch of 
 
 Scenarios can guide key terrain placement, with players filling the rest. Additional interactive features should be mandatory so INT has relevant choices. Ordinary doors/windows do not satisfy that additional-feature requirement. Tokens/templates can represent features where matching models are unavailable.
 
-**Still to decide:** feature counts/selection, terrain density, cover values, LOS/facing, traversal, height and falls. No old terrain-density balance claim is adopted.
+**Cover:** Hidden gives -4 to hit and stacks with cover; -2 cover plus Hidden is -6. The next-pass terrain fixture uses light cover -1 and heavy cover -2, explicitly recorded in [[Draft 2 - Simulation Assumptions]].
+
+**Still to decide:** feature counts/selection, terrain density, full cover qualification, LOS/facing, traversal, height and falls. No old terrain-density balance claim is adopted.
 
 ---
 
@@ -145,7 +151,7 @@ Dual wielding uses full dominant-weapon dice plus one off-hand die, retaining ea
 
 Example totals: 22/19/16/10 versus 18/13 yields two hits for the first unit, none for the second.
 
-**Still to decide:** natural 1/20 handling within pools, multiple engaged enemies, empty defensive pools, and skill counterattack timing. The natural-result hierarchy in the test handoff is not a final rule.
+**Next-pass working rulings:** natural 1/20 handling, empty defensive pools and skill-counterattack ordering are defined in [[Draft 2 - Simulation Assumptions]]. General multiple-enemy engagement remains unfinished; do not manufacture a full melee subsystem for isolated tests.
 
 ---
 
@@ -170,13 +176,15 @@ No one-Wound-per-attack cap: three successful Injury dice remove three Wounds. A
 
 **Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
-**Pinned:** hit survivors are Pinned under §9. Recover spends an action; friendly units can help. Earlier discussion used a 3-inch friendly range. Exact restrictions, range and recovery timing need formal wording. Pinning does not independently add Stress. Suppressed was removed as a separate condition.
+**Pinned:** hit survivors are Pinned under §9. A Pinned unit cannot resolve actions except MOVE and RECOVER. MOVE is at half speed. Spend one Core Action to RECOVER and remove Pinned. It may Recover first and then move at normal speed, or move at half speed and then Recover. Recover does not clear Stress or a break condition. Pinning adds no Stress. Suppressed is not a separate condition. Friendly recovery uses the explicit next-pass ruling in [[Draft 2 - Simulation Assumptions]].
+
+Forced Bolt/Bugging Out movement overrides Pinned: spend both actions to Dash at normal speed. Other movement restrictions still apply unless explicitly overridden.
 
 **Downed:** zero Wounds; precise activity/recovery/removal rules remain unfinished.
 
 **Hidden:** −4 to hit and normally untargetable beyond 12 inches. Enemy movement into LOS alone does not reveal it; check exposure at the start/end of the Hidden unit's own activation against enemies within 12 inches and LOS. A successful hit reveals; a complete miss does not. Skill exceptions apply. See §25.
 
-Other skill definitions: [[Draft 2 - Keywords]]. **Still to decide:** Pinned restrictions, Hidden acquisition/movement penalty, Marked conflict, and the full condition list. Do not import old Fire/Poison/Break tables by default.
+Other skill definitions: [[Draft 2 - Keywords]]. **Still to decide:** Hidden acquisition/movement penalty, Marked conflict, and the full condition list. Do not import old Fire/Poison/Break tables by default.
 
 ---
 
@@ -184,9 +192,23 @@ Other skill definitions: [[Draft 2 - Keywords]]. **Still to decide:** Pinned res
 
 **Status: <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span>.**
 
-Stress normally caps at **5**, applying **−1 per point** to relevant rolls. Implode extends its holder's maximum by two; other skills apply their stated exceptions. Shaken describes Stress rather than adding a second flat penalty. Injury failures generate Stress; successful wounds do not also generate it under the latest procedure.
+Stress normally caps at **5**, applying **−1 per point to all unit rolls**, including hit, Injury and ordinary skill tests. **BREAK and RALLY are exceptions: ignore Stress penalties.** Apply Stress once per roll; the unit rolling uses its own Stress. Implode extends its holder's maximum by two; other skills apply their stated exceptions. Shaken describes Stress rather than adding a second flat penalty. Injury failures generate Stress; successful wounds do not also generate it under the latest procedure.
 
-**Still to write:** exact roll scope, Break timing/formula/results, Stress recovery, Rally consequences, Downed persistence, and additional Stress triggers. Prior proposed End Phase/2+ Stress procedures require review; old simulation numbers are not evidence for this draft.
+**BREAK:** At the end of each round, a unit without a break condition and with 2+ Stress rolls **1d20 + NRV + applicable non-Stress modifiers vs 15+**. Natural 1 fails; natural 20 succeeds. Pass: clear all Stress. Fail: keep Stress and use its current amount, not the die total, to assign one break condition:
+
+| Stress | Condition | Effect during its next activation |
+| --- | --- | --- |
+| 1–2 | BROKEN | Become Pinned. Recover/movement then follow the Pinned rule. |
+| 3–4 | BOLTING | Spend both actions to Dash toward the nearest reachable heavy cover outside every enemy's LOS, taking the most direct safe route. Stop on reaching safety; both actions are still spent. |
+| 5+ | BUGGING OUT | Spend both actions to Dash toward the nearest board edge by the shortest route, including hazardous terrain. Resolve required movement tests. Reaching the edge removes the unit from play, but not as Out of Action. |
+
+The 1-Stress band covers a skill-forced Break test below the normal threshold; 5+ also covers Implode's increased capacity.
+
+**RALLY:** At the End Phase, units already carrying a break condition test to Rally instead of Break. Roll **1d20 + NRV + applicable non-Stress modifiers vs 15+**, ignoring Stress. Pass: clear the break condition and all Stress. Fail: retain both and repeat that condition's behaviour next activation; do not reselect the condition from current Stress. A newly failed Break does not grant an immediate Rally test in the same End Phase.
+
+Friendly units can use an action or a skill to attempt a Rally. Next-pass range, Pinned removal, timing and edge cases are explicitly fixed in [[Draft 2 - Simulation Assumptions]]. Implode replaces an eligible End-Phase Break test, not a Rally test.
+
+**Still to write:** Downed persistence and additional environmental/campaign Stress triggers. The older Stress-subtracted Break formula and die-total failure bands are superseded.
 
 ---
 

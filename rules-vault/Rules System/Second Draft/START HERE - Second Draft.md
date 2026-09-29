@@ -9,6 +9,8 @@
 - [[Draft 2 - Keywords]]
 - [[Draft 2 - Simulation Assumptions]]
 
+**Next simulation pass:** use the dated **2026-09-29 contract** in [[Draft 2 - Simulation Assumptions]]. It replaces older test assumptions and explicitly labels remaining working rulings. Previous simulation reports predate these changes.
+
 Only this folder is the active rules draft. Blank sections await discussion.
 
 <span style="color:#c62828"><strong>OUTDATED · RED</strong></span> Draft 1 and its archived satellite notes are historical reference only.

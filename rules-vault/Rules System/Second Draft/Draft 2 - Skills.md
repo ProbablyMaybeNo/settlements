@@ -4,7 +4,7 @@ status: Selected catalogue — mechanics review pending
 ---
 # Draft 2 — Skills
 
-75 selected skills, fifteen per stat. One tier; acquisition undecided. Effects are preserved from the approved catalogue; unresolved wording is not an extra rule. Read with [[Full Rules System v2]] and [[Draft 2 - Progress and Decisions]]. UNANSWERED uses the latest opposed-pool procedure. Pin Them Down is redundant under universal Pinned; replacement is pending.
+75 selected skills, fifteen per stat. One tier; acquisition undecided. Effects are preserved from the approved catalogue; unresolved wording is not an extra rule. Read with [[Full Rules System v2]] and [[Draft 2 - Progress and Decisions]]. The dated next-pass contract in [[Draft 2 - Simulation Assumptions]] supplies explicit working rulings where printed skill wording remains unresolved. UNANSWERED uses the latest opposed-pool procedure. Pin Them Down is redundant under universal Pinned; replacement is pending.
 
 ## STR
 
@@ -99,7 +99,7 @@ status: Selected catalogue — mechanics review pending
 | SKILL | STAT | USAGE | EFFECT |
 | --- | --- | --- | --- |
 | **INSPIRE** | NRV | Action | Once per turn, spend an ACTION and test NRV. On success remove 2 STRESS from up to three friendlies within 8 inches. |
-| **RALLY** | NRV | Action | Once per turn, spend an ACTION and test NRV. On success RALLY up to three BROKEN friendlies within 8 inches. |
+| **RALLY** | NRV | Action | Once per turn, spend an ACTION and test NRV. On success RALLY up to three friendlies with a break condition within 8 inches. This RALLY test ignores Stress penalties; use the shared Rally outcome. |
 | **MOTIVATE** | NRV | Action | Once per turn, spend an ACTION and test NRV. Choose two friendlies within 8 inches. During their next activation each may use its MOVE as an ACTION and repeat an action. |
 | **SIN EATER** | NRV | Action | Once per turn, spend an ACTION to transfer up to 3 STRESS in total from friendlies within 6 inches to this unit, limited by its remaining Stress capacity. |
 | **IMPLODE** | NRV | End Phase | Increase maximum STRESS by 2. During the End Phase, instead of resolving this unit's BREAK test, it may IMPLODE. Remove all STRESS. During this unit's next activation, gain +1 to melee hit and Injury rolls for each point removed, up to +4. |
@@ -110,7 +110,7 @@ status: Selected catalogue — mechanics review pending
 | **ROAR** | NRV | Action | Once per turn, spend an ACTION and test NRV. Until this unit's next activation, enemies must pass NRV to CHARGE it or friendlies within 3 inches. |
 | **ON YOUR FEET** | NRV | Action | Once per turn, spend an ACTION and test NRV. On success remove PINNED from up to three friendlies within 8 inches. |
 | **COMMANDING PRESENCE** | NRV | Triggered | Once per turn, a friendly within 8 inches and LOS may use this unit's NRV for a BREAK test. |
-| **BETA BLOCKER** | NRV | Passive | Halve STRESS penalties, rounding up. Full STRESS still applies to BREAK tests. |
+| **BETA BLOCKER** | NRV | Passive | Halve STRESS penalties, rounding up. This does not reduce Stress points or change Break thresholds/severity. BREAK and RALLY ignore Stress penalties for all units. |
 | **UNFLINCHING** | NRV | Triggered | Once per turn, when a hit would remove this unit's READY token, it may retain it. Resolve all other effects normally. |
 | **BIG AURA** | NRV | Passive | Increase this unit's AURA ranges by 3 inches. It may maintain two AURAS simultaneously. |
 

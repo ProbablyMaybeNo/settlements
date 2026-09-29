@@ -43,19 +43,22 @@ Main document: [[Full Rules System v2]]. Blank systems have no fallback rules. E
 | 29 | <span style="color:#1565c0"><strong>TRACKER · BLUE</strong></span> | [[Full Rules System v2#29 · What's still genuinely open\|29 · What's still genuinely open]] |
 
 ## Priority follow-ups
-- [ ] Resolve opposed natural results.
+- [x] Fix opposed natural results for the next pass; design remains experimental.
 - [x] Clarify Rage/Implode timing: Rage adds Stress after its attack; Implode converts Stress during the End Phase into the next melee activation's bonus.
 - [ ] Rerun the Rage + Implode combination under cumulative Stress and the finalized Break procedure.
-- [ ] Finalise Pinned restrictions/recovery and replace Pin Them Down.
-- [ ] Confirm source-cap arithmetic.
-- [ ] Finalise action definitions, timing and Charge failure.
+- [x] Record Pinned restrictions/recovery and forced-flight exception.
+- [ ] Replace redundant Pin Them Down.
+- [x] Record separate signed source caps, printed Damage exclusion and Hidden/cover stacking.
+- [x] Record Dash distance, failed Charge and core reaction/bonus-attack order.
+- [ ] Complete remaining action definitions; use the dated test contract for bounded sequencing cases.
 - [ ] Resolve Marked versus Hidden.
-- [ ] Draft Break and recovery procedures.
+- [x] Record Stress-free Break/Rally tests, Stress-based severity and recovery sequence.
+- [ ] Review assistant-selected edge cases after the next pass.
 - [ ] Review test results before adopting Return Fire permanently.
 - [ ] Decide skill acquisition later; still intentionally undecided.
 
 ## Skill-specific gaps carried forward for review
-- [ ] **Remaining melee details:** failed-charge movement, declaration range, Parry and Last Laugh sequencing, Ambush/Aerial Assault overlap and failed aerial movement. AGILE supplies stat substitution.
+- [ ] **Remaining melee details:** review next-pass declaration range, Parry and Last Laugh sequencing; Ambush/Aerial Assault overlap and failed aerial movement. AGILE supplies stat substitution.
 - [ ] **Treatment:** specify Wounds and state restored by Stabilize.
 - [ ] **Grapple:** release and separation, full Meat Shield targeting order, Crush cost and successful outcome. Do not invent free automatic takedowns.
 - [ ] **DEX:** Marked versus Hidden, Cover Me's failed-intervention damage/Stress, split-fire bonus-die chains, range limits and Breach through sealed doors.
@@ -71,3 +74,10 @@ Main document: [[Full Rules System v2]]. Blank systems have no fallback rules. E
 - [x] Separate test assumptions from adopted direction.
 - [x] Archive Draft 1 after validating Draft 2.
 - [x] Route old master and main navigation to Draft 2.
+
+## Next-pass rules freeze — 2026-09-29
+- User authorised filling assumptions for the next test pass. [[Draft 2 - Simulation Assumptions]] distinguishes confirmed thread rulings from assistant-selected test choices; both must be implemented for this pass.
+- All 75 skills remain; no +3 cap or ten-skill overhaul adopted.
+- Stress now affects Injury rolls as well as other unit rolls; Break/Rally explicitly ignore it. Old simulation conclusions are historical until rerun.
+- Beta Blocker's obsolete Break penalty clause removed; Rally skill uses the shared break-condition definition.
+- No new simulations were run by this rules update. Remaining unsupported systems must be marked blocked, not guessed or assigned zero value.
