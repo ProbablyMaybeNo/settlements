@@ -1,0 +1,27 @@
+/* Full width editor and preview */
+.cm-editor {
+  max-width: 100% !important;
+}
+
+.markdown-source-view {
+  max-width: 100% !important;
+}
+
+.markdown-preview-view {
+  max-width: 100% !important;
+}
+
+.workspace-leaf-content {
+  max-width: 100% !important;
+}
+
+/* Remove any side padding that might constrain width */
+.cm-content {
+  max-width: none !important;
+}
+
+.markdown-preview-view .markdown-preview-sizer {
+  max-width: 100% !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
