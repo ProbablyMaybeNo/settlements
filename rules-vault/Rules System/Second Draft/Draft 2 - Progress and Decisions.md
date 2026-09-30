@@ -45,7 +45,7 @@ Main document: [[Full Rules System v2]]. Blank systems have no fallback rules. E
 ## Priority follow-ups
 - [x] Fix opposed natural results for the next pass; design remains experimental.
 - [x] Clarify Rage/Implode timing: Rage adds Stress after its attack; Implode converts Stress during the End Phase into the next melee activation's bonus.
-- [ ] Rerun the Rage + Implode combination under cumulative Stress and the finalized Break procedure.
+- [x] Rerun the Rage + Implode combination under cumulative Stress and the finalized Break procedure — Pass 3, report 002. Implemented cycle works; strength and automatic Break avoidance still need design review.
 - [x] Record Pinned restrictions/recovery and forced-flight exception.
 - [ ] Replace redundant Pin Them Down.
 - [x] Record separate signed source caps, printed Damage exclusion and Hidden/cover stacking.
@@ -81,3 +81,12 @@ Main document: [[Full Rules System v2]]. Blank systems have no fallback rules. E
 - Stress now affects Injury rolls as well as other unit rolls; Break/Rally explicitly ignore it. Old simulation conclusions are historical until rerun.
 - Beta Blocker's obsolete Break penalty clause removed; Rally skill uses the shared break-condition definition.
 - No new simulations were run by this rules update. Remaining unsupported systems must be marked blocked, not guessed or assigned zero value.
+
+## Pass 3 review — 2026-09-30
+- [x] Review report 002, its implementation assumptions and Stress diagnostic. Four scripted suites completed; scope is 29 skills and seven rule checks, not full-game balance. See [[SIMULATION RESULTS]].
+- [ ] Correct implementation choice I6: Motivate permits repeating an action; it does not require repetition. Test Recover followed by Shoot using the converted Move slot, then rerun affected support comparisons.
+- [ ] Expand Stress-at-roll diagnostics to defensive melee pools, Injury, reactions and skill/terrain tests, including same-round friendly Recover. The existing diagnostic samples shots and normal carrier-initiated melee, not all unit rolls.
+- [ ] Review automatic Implode Break avoidance and the interaction of its activation expiry with Pinned recovery.
+- [ ] Review Blowing Off Steam's mandatory Stress removal competing with Implode; no replacement effect adopted.
+- [ ] Review NRV test costs after correcting Motivate; do not generalise negative scenario outcomes into universal skill failure.
+- [ ] Review Unflinching/Pinned and relative-cover Return Fire. No rule changes adopted by this review.

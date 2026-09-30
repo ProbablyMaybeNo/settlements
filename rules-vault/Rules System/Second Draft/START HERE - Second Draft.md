@@ -9,7 +9,7 @@
 - [[Draft 2 - Keywords]]
 - [[Draft 2 - Simulation Assumptions]]
 
-**Next simulation pass:** use the dated **2026-09-29 contract** in [[Draft 2 - Simulation Assumptions]]. It replaces older test assumptions and explicitly labels remaining working rulings. Previous simulation reports predate these changes.
+**Simulation status:** Pass 3 (report 002 in [[SIMULATION RESULTS]]) tested the **2026-09-29 contract** in [[Draft 2 - Simulation Assumptions]]. Reports from Pass 1/2 predate it. Review the corrections and follow-ups in [[Draft 2 - Progress and Decisions]] before another run; the contract's working rulings remain explicitly labelled.
 
 Only this folder is the active rules draft. Blank sections await discussion.
 
