@@ -21,15 +21,15 @@ Weapons are the primary source of direct offensive improvement. They may improve
 
 ## 2. Basic weapon classes
 
-| Class | Damage envelope | Range envelope | Hands | Rank gate | Slots | Identity |
-|---|---:|---:|---:|---|---:|---|
-| **Unarmed** | +0 | Melee | — | Any | 0 | Universal fallback when no weapon is available. |
-| **1h Ranged / Sidearm** | +1 to +3 | 6"–12" | 1 | Recruit | 1 | Pistols and other one-handed firearms. Always a Sidearm and may fire while Engaged. |
-| **2h Ranged** | +1 to +3 | 24" base | 2 | Fighter | 2 | Ordinary rifles, SMGs, shotguns, and other general-purpose firearms. |
-| **Heavy 2h Ranged** | +3 to +5 | 24" base | 2 | Specialist | 3 | Heavy or support weapons, launchers, and other high-output systems. |
-| **1h Melee** | +1 to +3 | Melee | 1 | Recruit | 1 | Knives, clubs, axes, machetes, and other one-handed weapons. |
-| **2h Melee** | +3 to +5 | Melee | 2 | Fighter | 2 | Large, powerful, or two-handed melee weapons. |
-| **Thrown** | +1 to +2 | 8" | 1 | Recruit | 1 | Weapons thrown at range; may also be used in melee. |
+| Class                   | Damage envelope | Range envelope | Hands | Rank gate  | Slots | Identity                                                                            |
+| ----------------------- | --------------: | -------------: | ----: | ---------- | ----: | ----------------------------------------------------------------------------------- |
+| **Unarmed**             |              +0 |          Melee |     — | Any        |     0 | Universal fallback when no weapon is available.                                     |
+| **1h Ranged / Sidearm** |        +1 to +3 |         6"–12" |     1 | Recruit    |     1 | Pistols and other one-handed firearms. Always a Sidearm and may fire while Engaged. |
+| **2h Ranged**           |        +1 to +3 |       24" base |     2 | Fighter    |     2 | Ordinary rifles, SMGs, shotguns, and other general-purpose firearms.                |
+| **Heavy 2h Ranged**     |        +3 to +5 |       24" base |     2 | Specialist |     3 | Heavy or support weapons, launchers, and other high-output systems.                 |
+| **1h Melee**            |        +1 to +3 |          Melee |     1 | Recruit    |     1 | Knives, clubs, axes, machetes, and other one-handed weapons.                        |
+| **2h Melee**            |        +3 to +5 |          Melee |     2 | Fighter    |     2 | Large, powerful, or two-handed melee weapons.                                       |
+| **Thrown**              |        +1 to +2 |             8" |     1 | Recruit    |     1 | Weapons thrown at range; may also be used in melee.                                 |
 
 ^tbl-1-weapon-classes
 
