@@ -39,7 +39,17 @@ Skills define tactical choices and discoverable combinations within and across s
 
 **Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
 
-**Rules:** —
+**Rules:** 
+
+Board size - Determined by the scenario most commonly 3x3 or 4x4 but can differ depending on the mission. 
+
+Crew size - In matched play the players will set a crew rating limit for the battle. They will determine that limit by tallying the total cost of all their units, equipment, weapons, etc.
+
+In campaign play the GM will determine a starting Crew Rating and decide whether it should increase over the course of the campaign, stay the same, or be determined by the scenarios. We suggest a starting crew rating of 750 with a 250 point increase after each campaign round or battle totally between a final crew rating of 2000 to 2500 for the "final battle." 
+
+*Crew ratings will be determined by the cost of the units, equipment, and weapons, that a player choose for their crew. These costs will be set by us and included in the core rulebook*
+
+Victory and end conditions will be set at 259 credits for the winner and 125 for the looser. Scenarios may have their own additional victory/end conditions but all battles will reward the above credits. Players will also be rewarded with any credits/equipment that they scavenge or loot during the battle.
 
 **Still to decide:** board size, crew size, deployment, game length, victory and end conditions. The discussion supports scenario-guided interactive boards; it does not re-adopt Draft 1's exact formats.
 
