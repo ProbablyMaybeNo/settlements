@@ -49,9 +49,12 @@ In campaign play the GM will determine a starting Crew Rating and decide whether
 
 *Crew ratings will be determined by the cost of the units, equipment, and weapons, that a player choose for their crew. These costs will be set by us and included in the core rulebook*
 
-Victory and end conditions will be set at 259 credits for the winner and 125 for the looser. Scenarios may have their own additional victory/end conditions but all battles will reward the above credits. Players will also be rewarded with any credits/equipment that they scavenge or loot during the battle.
+Standard battles will last 6 rounds but can be altered by the scenario.
 
-**Still to decide:** board size, crew size, deployment, game length, victory and end conditions. The discussion supports scenario-guided interactive boards; it does not re-adopt Draft 1's exact formats.
+Victory and end conditions will be set at 250 credits for the winner and 125 for the looser. Scenarios may have their own additional victory/end conditions but all battles will reward the above credits. Players will also be rewarded with any credits/equipment that they scavenge or loot during the battle.
+
+
+~~**Still to decide:** board size, crew size, deployment, game length, victory and end conditions. The discussion supports scenario-guided interactive boards; it does not re-adopt Draft 1's exact formats.~~
 
 ---
 
