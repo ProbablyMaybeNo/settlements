@@ -5,7 +5,7 @@ Main document: [[Full Rules System v2]]. Blank systems have no fallback rules. E
 | Section | Status | Location |
 | --- | --- | --- |
 | 0 | <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span> | [[Full Rules System v2#0 · The one rule everything else answers to\|0 · The one rule everything else answers to]] |
-| 1 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#1 · Core Game Format\|1 · Core Game Format]] |
+| 1 | <span style="color:#7b1fa2"><strong>DRAFTED · PURPLE</strong></span> | [[Full Rules System v2#1 · Core Game Format\|1 · Core Game Format]] |
 | 2 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#2 · The Core Test\|2 · The Core Test]] |
 | 3 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#3 · Turn Structure & Activation\|3 · Turn Structure & Activation]] |
 | 4 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#4 · Movement\|4 · Movement]] |
@@ -43,6 +43,7 @@ Main document: [[Full Rules System v2]]. Blank systems have no fallback rules. E
 | 29 | <span style="color:#1565c0"><strong>TRACKER · BLUE</strong></span> | [[Full Rules System v2#29 · What's still genuinely open\|29 · What's still genuinely open]] |
 
 ## Priority follow-ups
+- [ ] Review/adopt §1 after choosing the battlefield measurement unit and whether to publish a default matched-play Crew Rating; develop scenarios and detailed roster rules in their own sections.
 - [x] Fix opposed natural results for the next pass; design remains experimental.
 - [x] Clarify Rage/Implode timing: Rage adds Stress after its attack; Implode converts Stress during the End Phase into the next melee activation's bonus.
 - [x] Rerun the Rage + Implode combination under cumulative Stress and the finalized Break procedure — Pass 3, report 002. Implemented cycle works; strength and automatic Break avoidance still need design review.

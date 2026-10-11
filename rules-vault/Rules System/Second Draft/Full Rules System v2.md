@@ -13,6 +13,7 @@ created: 2026-09-27
 **Status legend:**
 
 - <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span> — selected direction, with any listed follow-ups.
+- <span style="color:#7b1fa2"><strong>DRAFTED · PURPLE</strong></span> — rules text is written as a proposal; review and adoption are pending, and unresolved choices are listed below.
 - <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> — some mechanics recorded; important work remains.
 - <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> — no rules adopted yet.
 - <span style="color:#c62828"><strong>OUTDATED · RED</strong></span> — superseded and retained only for history.
@@ -37,24 +38,27 @@ Skills define tactical choices and discoverable combinations within and across s
 
 ## 1 · Core Game Format
 
-**Status: <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span>.**
+**Status: <span style="color:#7b1fa2"><strong>DRAFTED · PURPLE</strong></span> — proposed rules text pending review and adoption.
 
-**Rules:** 
+### Battlefield and scenario setup
 
-Board size - Determined by the scenario most commonly 3x3 or 4x4 but can differ depending on the mission. 
+The scenario states the battlefield's dimensions, deployment setup, objectives, and any special setup or end conditions. Proposed common battlefield footprints are 3 × 3 or 4 × 4; a scenario may call for a different size. Use each scenario's terrain and interactive-feature instructions; this section does not prescribe a universal layout (see §§5 and 12.7).
 
-Crew size - In matched play the players will set a crew rating limit for the battle. They will determine that limit by tallying the total cost of all their units, equipment, weapons, etc.
+### Crew Rating and roster size
 
-In campaign play the GM will determine a starting Crew Rating and decide whether it should increase over the course of the campaign, stay the same, or be determined by the scenarios. We suggest a starting crew rating of 750 with a 250 point increase after each campaign round or battle totally between a final crew rating of 2000 to 2500 for the "final battle." 
+In matched play, the players agree on a maximum Crew Rating before building their crews. A published event or scenario may set that limit. A crew's Crew Rating is the total listed Credits cost of its selected units, weapons, and equipment. Credits are both the purchase cost and the roster-rating measure; there is no separate list-building currency. The cost entries and any included standard equipment must be clear in the relevant catalogues.
 
-*Crew ratings will be determined by the cost of the units, equipment, and weapons, that a player choose for their crew. These costs will be set by us and included in the core rulebook*
+For campaign battles, the GM sets the Crew Rating limit. The GM may keep it fixed, increase it during the campaign, or set it by scenario.
 
-Standard battles will last 6 rounds but can be altered by the scenario.
+**Suggested campaign pace:** begin around 750 Crew Rating and increase by about 250 between campaign rounds, aiming for a final battle around 2,000–2,500. The GM may adjust the pace and limit to suit the campaign.
 
-Victory and end conditions will be set at 250 credits for the winner and 125 for the looser. Scenarios may have their own additional victory/end conditions but all battles will reward the above credits. Players will also be rewarded with any credits/equipment that they scavenge or loot during the battle.
+### Battle length, victory, and rewards
 
+A standard battle lasts six rounds unless its scenario specifies a different duration. Scenarios state their objectives and end conditions. Victory is determined by the scenario's objectives; eliminating enemy units alone does not determine the winner.
 
-~~**Still to decide:** board size, crew size, deployment, game length, victory and end conditions. The discussion supports scenario-guided interactive boards; it does not re-adopt Draft 1's exact formats.~~
+After each battle, award 250 Credits to the winning crew and 125 Credits to the losing crew. If the battle is a draw, each crew receives 125 Credits. Both crews bank resources they earned, regardless of the result. A scenario may also award Credits or equipment recovered through scavenging or looting.
+
+**Still to decide:** the measurement unit for the proposed battlefield sizes and whether matched play should publish a default Crew Rating. Write scenario-specific setup and roster-building details in §§12.7 and 16; they do not need to be settled for this core format to be useful.
 
 ---
 
@@ -315,7 +319,7 @@ The completed weapons-basics catalogue is carried forward as a design catalogue,
 
 **Rules:** —
 
-**Still to decide:** crew limits, costs, rank restrictions outside printed weapon access, equipment slots and skill acquisition. Fixed test loadouts are not roster-building rules.
+**Still to decide:** standard Crew Rating limits and published costs (the general Crew Rating method is drafted in §1); rank restrictions outside printed weapon access; equipment slots; and skill acquisition. Fixed test loadouts are not roster-building rules.
 
 ---
 

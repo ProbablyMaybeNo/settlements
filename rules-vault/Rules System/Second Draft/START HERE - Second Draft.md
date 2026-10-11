@@ -20,6 +20,7 @@ Only this folder is the active rules draft. Blank sections await discussion.
 **Status legend:**
 
 - <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span> — selected direction, with any listed follow-ups.
+- <span style="color:#7b1fa2"><strong>DRAFTED · PURPLE</strong></span> — rules text is written as a proposal; review and adoption are pending, and unresolved choices are listed below.
 - <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> — some mechanics recorded; important work remains.
 - <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> — no rules adopted yet.
 - <span style="color:#c62828"><strong>OUTDATED · RED</strong></span> — superseded and retained only for history.
