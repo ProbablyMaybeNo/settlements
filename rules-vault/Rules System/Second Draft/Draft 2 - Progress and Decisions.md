@@ -75,6 +75,7 @@ Main document: [[Full Rules System v2]]. Blank systems have no fallback rules. E
 - [x] Separate test assumptions from adopted direction.
 - [x] Archive Draft 1 after validating Draft 2.
 - [x] Route old master and main navigation to Draft 2.
+- [x] Add a compact, one-pass decisions workbook with KEEP / CHANGE / DEFAULT / LATER answers and no follow-up questionnaire.
 
 ## Next-pass rules freeze — 2026-09-29
 - User authorised filling assumptions for the next test pass. [[Draft 2 - Simulation Assumptions]] distinguishes confirmed thread rulings from assistant-selected test choices; both must be implemented for this pass.
