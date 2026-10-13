@@ -17,18 +17,18 @@ When you return this sheet, I will turn the answers into draft rules in one pass
 
 ## First playable battle
 
-| #   | One decision                                                                                           | Your answer                                |
-| --- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------ |
-| 1   | What should a normal match look like: player count, board size, and usual length?                      | 2 players, 3x3 foot board, 6 rounds        |
-| 2   | How do players decide which units and gear they can bring?                                             | They select their units by choosing a rank |
-| 3   | What are players trying to do to win a battle?                                                         |                                            |
-| 4   | What should the stat numbers mean, including an ordinary unit's baseline and a specialist's upper end? |                                            |
-| 5   | What should a unit normally be able to do on its activation, including its core actions?               |                                            |
-| 6   | At a high level, how should a basic ranged or melee attack work?                                       |                                            |
-| 7   | What should happen to a unit when it is hit, wounded, or taken out of action?                          |                                            |
-| 8   | Which morale or condition effects are essential in the first playable version?                         |                                            |
-| 9   | What should a scenario provide so players can set up and start playing?                                |                                            |
-| 10  | What should make a specialist meaningfully different from an ordinary unit?                            |                                            |
+| #   | One decision                                                                                           | Your answer                         |
+| --- | ------------------------------------------------------------------------------------------------------ | ----------------------------------- |
+| 1   | What should a normal match look like: player count, board size, and usual length?                      | 2 players, 3x3 foot board, 6 rounds |
+| 2   | How do players decide which units and gear they can bring?                                             | Players set                         |
+| 3   | What are players trying to do to win a battle?                                                         |                                     |
+| 4   | What should the stat numbers mean, including an ordinary unit's baseline and a specialist's upper end? |                                     |
+| 5   | What should a unit normally be able to do on its activation, including its core actions?               |                                     |
+| 6   | At a high level, how should a basic ranged or melee attack work?                                       |                                     |
+| 7   | What should happen to a unit when it is hit, wounded, or taken out of action?                          |                                     |
+| 8   | Which morale or condition effects are essential in the first playable version?                         |                                     |
+| 9   | What should a scenario provide so players can set up and start playing?                                |                                     |
+| 10  | What should make a specialist meaningfully different from an ordinary unit?                            |                                     |
 
 ## Campaign layer — answer now or mark LATER
 
