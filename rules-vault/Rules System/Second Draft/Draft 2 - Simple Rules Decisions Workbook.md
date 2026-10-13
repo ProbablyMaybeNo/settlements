@@ -20,7 +20,7 @@ When you return this sheet, I will turn the answers into draft rules in one pass
 | #   | One decision                                                                                           | Your answer                         |
 | --- | ------------------------------------------------------------------------------------------------------ | ----------------------------------- |
 | 1   | What should a normal match look like: player count, board size, and usual length?                      | 2 players, 3x3 foot board, 6 rounds |
-| 2   | How do players decide which units and gear they can bring?                                             | Players set                         |
+| 2   | How do players decide which units and gear they can bring?                                             | Players build lists out of          |
 | 3   | What are players trying to do to win a battle?                                                         |                                     |
 | 4   | What should the stat numbers mean, including an ordinary unit's baseline and a specialist's upper end? |                                     |
 | 5   | What should a unit normally be able to do on its activation, including its core actions?               |                                     |
