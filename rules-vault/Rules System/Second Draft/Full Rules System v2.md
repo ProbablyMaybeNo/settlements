@@ -24,7 +24,7 @@ The colour is a reading aid, not a second rules layer. Blank sections remain und
 
 ## 0 · The one rule everything else answers to
 
-**Status: <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span>.**
+**Status: <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span>.
 
 Weapons provide offensive capabilities; Armour provides protection; Equipment supplies temporary or limited-use options; Advancements and Injuries record lasting development and consequences.
 
@@ -38,7 +38,7 @@ Skills define tactical choices and discoverable combinations within and across s
 
 ## 1 · Core Game Format
 
-**Status: <span style="color:#7b1fa2"><strong>DRAFTED · PURPLE</strong></span> — proposed rules text pending review and adoption.
+Status: <font color="#92d050">Recorded</font>
 
 ### Battlefield and scenario setup
 
@@ -58,7 +58,7 @@ A standard battle lasts six rounds unless its scenario specifies a different dur
 
 After each battle, award 250 Credits to the winning crew and 125 Credits to the losing crew. If the battle is a draw, each crew receives 125 Credits. Both crews bank resources they earned, regardless of the result. A scenario may also award Credits or equipment recovered through scavenging or looting.
 
-**Still to decide:** the measurement unit for the proposed battlefield sizes and whether matched play should publish a default Crew Rating. Write scenario-specific setup and roster-building details in §§12.7 and 16; they do not need to be settled for this core format to be useful.
+
 
 ---
 
