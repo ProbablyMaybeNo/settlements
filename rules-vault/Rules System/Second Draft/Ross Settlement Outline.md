@@ -1,4 +1,4 @@
 
-## The Core Mechanic 
+## INTRODUCTION - Setting the Scene
 
-1d20 + 
+*Near future, post apocalyptic, civil war fought between crews of survivors battling for control of their neighborhoods and establishing 
