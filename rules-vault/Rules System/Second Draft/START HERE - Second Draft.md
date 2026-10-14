@@ -9,6 +9,7 @@
 - [[Draft 2 - Keywords]]
 - [[Draft 2 - Simulation Assumptions]]
 - [[Draft 2 - Simple Rules Decisions Workbook]]
+- [[Settlements Core Rulebook Outline]] — proposed book contents, summaries and section statuses based on Draft 2.
 
 **Simulation status:** Pass 3 (report 002 in [[SIMULATION RESULTS]]) tested the **2026-09-29 contract** in [[Draft 2 - Simulation Assumptions]]. Reports from Pass 1/2 predate it. Review the corrections and follow-ups in [[Draft 2 - Progress and Decisions]] before another run; the contract's working rulings remain explicitly labelled.
 

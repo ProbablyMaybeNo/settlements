@@ -91,3 +91,15 @@ Main document: [[Full Rules System v2]]. Blank systems have no fallback rules. E
 - [ ] Review Blowing Off Steam's mandatory Stress removal competing with Implode; no replacement effect adopted.
 - [ ] Review NRV test costs after correcting Motivate; do not generalise negative scenario outcomes into universal skill failure.
 - [ ] Review Unflinching/Pinned and relative-cover Return Fire. No rule changes adopted by this review.
+
+
+## Core rulebook outline — 2026-10-14
+
+- [x] Create [[Settlements Core Rulebook Outline]] with rulebook parts, chapters, subheadings, keywords, brief content summaries and Pending / Drafted / Confirmed / Canceled / Blocked statuses.
+- [x] Use active Draft 2 as rule authority and local research rulebooks for organisation and presentation only. No blank system filled from Draft 1; no mechanics adopted by the outline.
+- [x] Record the outline as [[Rules System/Rules Ledger/design-004 Draft 2 Core Rulebook Outline]].
+- [ ] Review the proposed book structure and chapter scope.
+- [ ] Reconcile current source conflicts: §1 master now records inches, standard 36 × 36-inch board and rewards while this table still describes the older proposal; Tagged remote-objective removal conflicts with the master and INT catalogue; moving-Pinned base visibility appears only in Keywords; weapon handling terms are marked for relocation.
+- [ ] Complete the playable-battle gaps identified in the outline before writing final quick references or example crews.
+
+Outline statuses are an editorial assessment, not new rulings or evidence of balance. Existing source statuses are preserved pending reconciliation.
