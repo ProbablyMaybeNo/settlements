@@ -80,7 +80,7 @@ Ordinary tests and shooting use **1d20 + relevant stat + modifiers vs 15+**. Nat
 
 Skill modifiers stack within their cap; different sources combine. Other modifiers stack. These replace the previous global +6/±3 caps.
 
-**Cap arithmetic (2026-09-29):** cap positive and negative contributions separately within each source, then combine. Printed weapon Damage is separate from the weapon modifier cap. Skill-granted Damage remains a skill-source roll modifier. Caps apply to roll modifiers, not Attack Dice, inches or Wounds. Stress and terrain are separate sources. Hidden and applicable cover stack. The +3 skill-cap proposal was not adopted.
+**Cap arithmetic (2026-09-29):** cap positive and negative contributions separately within each source, then combine. Printed weapon Damage is separate from the weapon modifier cap. Skill-granted Damage remains a skill-source roll modifier. Caps apply e to roll modifiers, not Attack Dice, inches or Wounds. Stress and terrain are separate sources. Hidden and applicable cover stack. The +3 skill-cap proposal was not adopted.
 
 **Next-pass working rulings:** opposed natural results and other bounded implementation choices are specified in [[Draft 2 - Simulation Assumptions]]. These are explicit test choices, not permission to guess or fill unrelated blank systems.
 
