@@ -18,7 +18,7 @@ created: 2026-09-27
 - <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> — no rules adopted yet.
 - <span style="color:#c62828"><strong>OUTDATED · RED</strong></span> — superseded and retained only for history.
 
-The colour is a reading aid, not a second rules layer. Blank sections remain undecided.
+The colour is a reading aid, not a second rules layer. Blank sections    remain undecided.
 
 **TEST** is reserved for simulation-only material and remains explicitly labelled where it appears.
 
