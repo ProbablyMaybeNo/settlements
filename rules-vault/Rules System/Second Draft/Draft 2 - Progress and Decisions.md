@@ -56,8 +56,7 @@ Main document: [[Full Rules System v2]]. Blank systems have no fallback rules. E
 - [x] Record Stress-free Break/Rally tests, Stress-based severity and recovery sequence.
 - [ ] Review assistant-selected edge cases after the next pass.
 - [ ] Review test results before adopting Return Fire permanently.
-- [ ] Decide skill acquisition later; still intentionally undecided.
-
+- [ ] Decide skill acquisition later; still intentionally Pł 
 ## Skill-specific gaps carried forward for review
 - [ ] **Remaining melee details:** review next-pass declaration range, Parry and Last Laugh sequencing; Ambush/Aerial Assault overlap and failed aerial movement. AGILE supplies stat substitution.
 - [ ] **Treatment:** specify Wounds and state restored by Stabilize.

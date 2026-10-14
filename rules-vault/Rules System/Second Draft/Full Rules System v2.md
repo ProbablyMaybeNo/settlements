@@ -58,6 +58,9 @@ A standard battle lasts six rounds unless its scenario specifies a different dur
 
 After each battle, award 250 Credits to the winning crew and 125 Credits to the losing crew. If the battle is a draw, each crew receives 125 Credits. Both crews bank resources they earned, regardless of the result. A scenario may also award Credits or equipment recovered through scavenging or looting.
 
+### Measurements 
+
+All measurements are done in inches. Standard board is 36x36” unless otherwise stated. 
 
 
 ---
