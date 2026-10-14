@@ -9,4 +9,7 @@ In an attempt to open up a campaign system for all battle outcomes, injuries, lo
 
 A companion app will provide players with the ability to easily track their crews progress and the growth of their settlement with a variety of features. Players will have the ability to track their factions control of the greater settlements region with colored territories and 
 
-Fast pace, bloody battles, and interactive terrain all work to give settlements a heightened sense of realism over other skirmish games. Locations in and around a fictional city provide the perfect backdrop for your crews fight for survival while scenarios focused on 
+Fast pace, bloody battles, and interactive terrain all work to give settlements a heightened sense of realism over other skirmish games. Locations xddin and around a fictional city provide the perfect backdrop for your crews fight for survival while scenarios focused on interactive objectives and no-kill victory conditions further the sense of realism while providing players with everything they need to tell their crews story through the battles they fight. 
+
+## Core Mechanics 
+
