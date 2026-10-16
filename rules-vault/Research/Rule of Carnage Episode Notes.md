@@ -7,7 +7,7 @@ tags: [settlements/research, game-design, skirmish-games]
 ---
 # Rule of Carnage Episode Notes
 
-Detailed design findings from **83 distinct videos** in the six selected playlists. The notes retain **689 findings**, including context, mechanisms, tradeoffs and practical prompts. Repeated ideas are retained where an episode adds a different argument or example.
+Detailed design findings from **83 distinct videos** in the six selected playlists. The notes retain **688 findings**, including context, mechanisms, tradeoffs and practical prompts. Repeated ideas are retained where an episode adds a different argument or example.
 
 Start with [[Rule of Carnage Skirmish Game Design Reference]] for the thematic guide. Use [[Rule of Carnage Episode Index]] to find a title, duration, playlist or capture method.
 
@@ -4451,10 +4451,6 @@ Rules should earn their place by supporting the fantasy or experience the game p
 
 [Supporting discussion, 34:28–34:33](https://www.youtube.com/watch?v=7DTonRcCfXY&t=2068s)
 
-**Differences in approach or unresolved questions**
-
-- The hosts describe their definition of non-discrete miniature games as a useful framing, not a universal taxonomy; they acknowledge that other kinds of games can sit outside it while remaining worthwhile.
-
 **Episode-specific limits**
 
 - This is an introductory discussion tied to a book section; the episode previews but does not fully explain the dramatic-focus framework.
@@ -4569,7 +4565,7 @@ Hidden movement can be made practical by limiting possible locations even if con
 
 ### Double blind needs uncertainty about detection
 
-Double blind is more than both players hiding their own movement; the hidden player also does not learn which searches found them. In Pacific Command, reconnaissance samples chips from a stack, shuffles them back, and conceals which subset was examined, so neither side knows what was seen.
+Double blind is more than both players hiding their own movement; the hidden player also does not learn which searches found them. In Pacific Command, reconnaissance shuffles a stack and samples chips; the searching player learns the sampled contents, while the owner cannot tell which subset was examined. The chips are then returned and reshuffled.
 
 **Tradeoff to consider:** This creates richer fog of war, but requires components and an explicit procedure for preserving uncertainty.
 
@@ -4619,7 +4615,7 @@ A player who must decide without access to information available to the opponent
 
 ### Prefer symmetric fog when appropriate
 
-Hidden information is easier to accept when both players face the same uncertainty about positions and detection. The hosts contrast asymmetric stealth with Pacific Command's shell game, where both sides lack knowledge of the other's ships and whether searches have occurred.
+Hidden information is easier to accept when both players face the same uncertainty about positions and detection. The hosts contrast asymmetric stealth with Pacific Command, where both sides lack knowledge of the other's ships and whether their own hidden ships have been detected.
 
 **Tradeoff to consider:** Symmetry reduces unequal competence, though it may not fit a scenario built around a single stealth attacker.
 
@@ -4656,10 +4652,6 @@ A solo opponent can keep secrets because the game itself need not share the play
 **Design prompt:** For solo designs, define what the system knows and what triggers detection; use concealed tokens for probabilistic threats or behavioral rules for spatial stealth.
 
 [Supporting discussion, 28:11–28:18](https://www.youtube.com/watch?v=zzgdqZGY8UQ&t=1691s)
-
-**Differences in approach or unresolved questions**
-
-- The hosts are skeptical that fully continuous hidden movement can be practical or enjoyable in a miniature game without a computer or heavy administration, but explicitly leave the question open and favor exploring discrete and partially hidden alternatives.
 
 **Episode-specific limits**
 
@@ -4751,10 +4743,6 @@ A campaign's apparent depth can make a product seem richer even when a shorter c
 **Design prompt:** Evaluate campaign inclusion against the game's actual needs and audience, not a presumed expectation that a rulebook must be thick.
 
 [Supporting discussion, 13:25–13:30](https://www.youtube.com/watch?v=rihuqsIcn30&t=805s)
-
-**Differences in approach or unresolved questions**
-
-- The hosts remain divided between rational concerns about unnecessary and under-tested campaigns and their own enthusiasm for campaigns' narrative promise; they explicitly invite examples and contrary views.
 
 **Episode-specific limits**
 
@@ -4866,10 +4854,6 @@ Both realism and genre-faithful drama can be undermined when an outcome contradi
 **Design prompt:** Identify the fiction contract—physical realism, heroic emulation, or another target—and test whether unexpected results support or break it.
 
 [Supporting discussion, 16:37–16:43](https://www.youtube.com/watch?v=8Vti7Ck0uT8&t=997s)
-
-**Differences in approach or unresolved questions**
-
-- One host favors bounded narrative guarantees and rewards; the other warns that head-to-head games are poorly suited to controlled hero narratives and that imposed story can weaken competition. They converge on supporting selected moments without guaranteeing a complete plot.
 
 **Episode-specific limits**
 
@@ -5021,10 +5005,6 @@ A design document and a visual mood board can help a team preserve the inspirati
 
 [Supporting discussion, 29:44–29:51](https://www.youtube.com/watch?v=OVJ8SGDKoBI&t=1784s)
 
-**Differences in approach or unresolved questions**
-
-- The hosts differ in how strongly they want to engineer narrative behavior and emotional response; one emphasizes rules that prompt beats, while the other cautions that labels alone do not deliver theme and highlights the limits of physical representation.
-
 **Episode-specific limits**
 
 - The episode title suggests four thematic lenses, but the transcript ranges across broader design advice and does not provide a neat four-part taxonomy.
@@ -5125,10 +5105,6 @@ Worldbuilding may benefit the designer's understanding without all of it needing
 
 [Supporting discussion, 30:51–30:59](https://www.youtube.com/watch?v=CPJCjUWxA2A&t=1851s)
 
-**Differences in approach or unresolved questions**
-
-- The hosts contrast structured worldbuilding with a more improvisational, atmospheric approach and acknowledge that both can work for different creators; they favor practical coherence for settings players must inhabit and extend.
-
 **Episode-specific limits**
 
 - The hosts explicitly say worldbuilding is an area where they are less expert than rules design, and frame the discussion as an in-progress reflection.
@@ -5148,7 +5124,7 @@ A character-led skirmish game and an open-ended army game benefit from different
 
 **Design prompt:** Decide how much of the setting players are meant to author themselves, and match detail to whether the game centers on named characters or player-built forces.
 
-[Supporting discussion, 3:00–7:00](https://www.youtube.com/watch?v=KKijQHXVqEE&t=180s)
+[Supporting discussion, 5:08–5:15](https://www.youtube.com/watch?v=KKijQHXVqEE&t=308s)
 
 ### Use genre chords for a compact setting
 
@@ -5158,7 +5134,7 @@ A concise premise can let players supply familiar associations without extensive
 
 **Design prompt:** For a self-contained game, test whether a small number of setting cues reliably evokes the intended genre and use rules to reinforce them.
 
-[Supporting discussion, 6:00–9:00](https://www.youtube.com/watch?v=KKijQHXVqEE&t=360s)
+[Supporting discussion, 9:15–9:21](https://www.youtube.com/watch?v=KKijQHXVqEE&t=555s)
 
 ### Provide richer worlds for long-term play
 
@@ -5168,7 +5144,7 @@ A setting intended to sustain campaigns, expansions, or broad army creation may 
 
 **Design prompt:** Scale published lore to the expected lifespan and extension of the game; add detail where it unlocks new play or hobby choices.
 
-[Supporting discussion, 5:00–8:00](https://www.youtube.com/watch?v=KKijQHXVqEE&t=300s)
+[Supporting discussion, 7:35–7:46](https://www.youtube.com/watch?v=KKijQHXVqEE&t=455s)
 
 ### Make lore teach game use
 
@@ -5178,7 +5154,7 @@ Fiction can help players understand how a model or ability should behave, not me
 
 **Design prompt:** Write character or faction details that foreshadow actual tabletop behavior, then check whether players infer the intended strategy without relying on lore alone.
 
-[Supporting discussion, 31:00–35:00](https://www.youtube.com/watch?v=KKijQHXVqEE&t=1860s)
+[Supporting discussion, 34:19–34:27](https://www.youtube.com/watch?v=KKijQHXVqEE&t=2059s)
 
 ### Avoid lore stapled onto unrelated mechanics
 
@@ -5188,7 +5164,7 @@ Adding more story does not strengthen a setting if it no longer informs play or 
 
 **Design prompt:** Evaluate setting additions by whether they guide play, illuminate a mechanic, or create useful player meaning; distinguish those goals from fiction for its own sake.
 
-[Supporting discussion, 34:00–37:00](https://www.youtube.com/watch?v=KKijQHXVqEE&t=2040s)
+[Supporting discussion, 35:44–35:51](https://www.youtube.com/watch?v=KKijQHXVqEE&t=2144s)
 
 ### Let setting inspire models, terrain, and scenarios
 
@@ -5198,7 +5174,7 @@ A world can create hobby value by making players want to build new forces, table
 
 **Design prompt:** Include distinctive biomes, conflicts, and faction premises that translate into buildable models and board features; connect them to scenario or rules possibilities.
 
-[Supporting discussion, 37:00–40:00](https://www.youtube.com/watch?v=KKijQHXVqEE&t=2220s)
+[Supporting discussion, 38:55–39:03](https://www.youtube.com/watch?v=KKijQHXVqEE&t=2335s)
 
 ### Use setting details as memory aids
 
@@ -5208,7 +5184,7 @@ A small piece of descriptive fiction can help players understand or remember a g
 
 **Design prompt:** Pair names, art, and short flavor text with a component's rules role; check that the combined presentation accurately signals how and when it is useful.
 
-[Supporting discussion, 31:00–33:00](https://www.youtube.com/watch?v=KKijQHXVqEE&t=1860s)
+[Supporting discussion, 32:00–32:07](https://www.youtube.com/watch?v=KKijQHXVqEE&t=1920s)
 
 **Differences in approach or unresolved questions**
 
@@ -5233,7 +5209,7 @@ Complexity budget is the amount of new system knowledge a game asks players to l
 
 **Design prompt:** Assess learning burden and moment-to-moment burden separately; spend each where it supports the game's identity.
 
-[Supporting discussion, 0:00–3:00](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=0s)
+[Supporting discussion, 1:12–1:19](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=72s)
 
 ### Spend attention on interesting decisions
 
@@ -5243,7 +5219,7 @@ Players should use mental effort on tactical choices and reading opponents rathe
 
 **Design prompt:** Audit common turns for what players calculate and remember; simplify or automate tasks that do not create an interesting decision.
 
-[Supporting discussion, 2:00–4:00](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=120s)
+[Supporting discussion, 3:36–3:46](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=216s)
 
 ### Make persistent state visible
 
@@ -5253,7 +5229,7 @@ Players should not have to remember an uninteresting changing number when that s
 
 **Design prompt:** Use the smallest clear marker system for persistent state and test whether players can read the board without recalling hidden values.
 
-[Supporting discussion, 5:00–10:00](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=300s)
+[Supporting discussion, 9:59–10:06](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=599s)
 
 ### Limit the number of active objects
 
@@ -5263,7 +5239,7 @@ The count of independently tracked and activated entities often matters more to 
 
 **Design prompt:** Count independent decisions and state-bearing groups per turn; consolidate models where individual handling does not serve the design.
 
-[Supporting discussion, 7:00–10:00](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=420s)
+[Supporting discussion, 8:29–8:38](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=509s)
 
 ### Make the table readable at a glance
 
@@ -5273,7 +5249,7 @@ A player should be able to understand the relevant public game state by looking 
 
 **Design prompt:** Define what players should be able to see immediately and provide consistent visual cues; hide information only when secrecy serves play.
 
-[Supporting discussion, 8:00–11:00](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=480s)
+[Supporting discussion, 9:29–9:38](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=569s)
 
 ### Separate private choice from shared resolution
 
@@ -5283,7 +5259,7 @@ Complex resolution can be easier to handle when players first make a simple deci
 
 **Design prompt:** Keep the choice prompt intuitive where possible, then make complicated consequences visible and communal rather than requiring hidden calculations before action.
 
-[Supporting discussion, 23:00–27:00](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=1380s)
+[Supporting discussion, 26:28–26:34](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=1588s)
 
 ### Put complexity where the theme needs it
 
@@ -5293,7 +5269,7 @@ A game's limited novelty budget should go to the mechanics that express its dist
 
 **Design prompt:** Identify the core conceit and assign novel procedures to it; keep peripheral activities familiar unless their complexity also creates value.
 
-[Supporting discussion, 0:00–3:00](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=0s)
+[Supporting discussion, 1:40–1:46](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=100s)
 
 ### Do not hide facts to test memory
 
@@ -5303,7 +5279,7 @@ Concealing a number because players must remember it creates frustration and rew
 
 **Design prompt:** Keep strategically relevant state visible unless its concealment creates meaningful choices for both players.
 
-[Supporting discussion, 30:00–33:00](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=1800s)
+[Supporting discussion, 31:42–31:52](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=1902s)
 
 ### Make record keeping easy for do-it-yourself play
 
@@ -5313,7 +5289,7 @@ If a game asks players to track a persistent state, show them how to record it w
 
 **Design prompt:** Provide a low-cost default tracking method and clear conventions, even when optional premium tokens exist.
 
-[Supporting discussion, 10:00–14:00](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=600s)
+[Supporting discussion, 10:48–10:55](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=648s)
 
 ### Budget cognitive load for the intended audience and occasion
 
@@ -5323,7 +5299,7 @@ Players have different appetites for mental effort, and the same player may want
 
 **Design prompt:** Define the audience and expected play context, then test whether the required attention matches that promise.
 
-[Supporting discussion, 14:00–17:00](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=840s)
+[Supporting discussion, 14:51–14:59](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=891s)
 
 ### Do not confuse busy work with meaningful depth
 
@@ -5333,7 +5309,7 @@ Many tracked interactions can create a feeling of complexity without giving play
 
 **Design prompt:** For each repeated calculation or status, ask what decision or emotion it creates and remove it if it only tests memory.
 
-[Supporting discussion, 15:00–20:00](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=900s)
+[Supporting discussion, 16:12–16:19](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=972s)
 
 ### Put calculation after commitment when possible
 
@@ -5343,7 +5319,7 @@ Players need a quick private estimate to decide whether an action is worthwhile;
 
 **Design prompt:** Keep decision-time math small and move multi-step arithmetic to the common resolution procedure or reference aids.
 
-[Supporting discussion, 20:00–29:00](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=1200s)
+[Supporting discussion, 21:19–21:26](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=1279s)
 
 ### Make complexity budget and cognitive load work together
 
@@ -5353,15 +5329,10 @@ Familiar procedures let players make intuitive decisions, leaving attention for 
 
 **Design prompt:** Reserve new procedures for the central experience and keep surrounding systems recognizable where possible.
 
-[Supporting discussion, 27:00–31:00](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=1620s)
-
-**Differences in approach or unresolved questions**
-
-- The hosts acknowledge that some games deliberately embrace demanding calculation or complexity, citing Infinity as a distinctive case; their concern is copying such a niche experience without a design reason.
+[Supporting discussion, 29:19–29:30](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=1759s)
 
 **Episode-specific limits**
 
-- A middle section of the transcript was truncated in output, so findings emphasize clear opening and closing passages and themes repeated later.
 - The ‘seven or nine’ group-size reference is an analogy from the hosts, not a universal hard limit or empirical rule.
 
 ## How much pressure can players handle?
@@ -5378,7 +5349,7 @@ A game can be distinctive without making every subsystem unfamiliar; too much in
 
 **Design prompt:** Identify which rules are standard and which are genuinely new, then concentrate novelty on the mechanics most tied to the game's promise.
 
-[Supporting discussion, 0:00–4:00](https://www.youtube.com/watch?v=qTpiFtBmbhk&t=0s)
+[Supporting discussion, 3:31–3:39](https://www.youtube.com/watch?v=qTpiFtBmbhk&t=211s)
 
 ### Do not reinvent familiar procedures without payoff
 
@@ -5388,7 +5359,7 @@ A new mechanism is not valuable merely because it uses different steps when it p
 
 **Design prompt:** For each novel subsystem, state what new outcome, choice, or interaction it enables; retain the familiar method when the result is equivalent.
 
-[Supporting discussion, 3:00–7:00](https://www.youtube.com/watch?v=qTpiFtBmbhk&t=180s)
+[Supporting discussion, 3:57–4:03](https://www.youtube.com/watch?v=qTpiFtBmbhk&t=237s)
 
 ### Use prior knowledge as a scaffold
 
@@ -5398,7 +5369,7 @@ Shared genre conventions let players spend less effort learning routine tasks an
 
 **Design prompt:** Reuse well-understood procedures for supporting tasks, then clearly signal how a new mechanic differs and why that difference matters.
 
-[Supporting discussion, 4:00–8:00](https://www.youtube.com/watch?v=qTpiFtBmbhk&t=240s)
+[Supporting discussion, 4:34–4:40](https://www.youtube.com/watch?v=qTpiFtBmbhk&t=274s)
 
 ### Keep major innovations few
 
@@ -5408,7 +5379,7 @@ The hosts offer a rough heuristic that a standalone game should foreground only 
 
 **Design prompt:** Treat the number as a prompt to prioritize; test comprehension and retention with the intended audience rather than applying it as a fixed cap.
 
-[Supporting discussion, 6:00–9:00](https://www.youtube.com/watch?v=qTpiFtBmbhk&t=360s)
+[Supporting discussion, 5:42–5:50](https://www.youtube.com/watch?v=qTpiFtBmbhk&t=342s)
 
 ### Make novelty earn its cost
 
@@ -5418,7 +5389,7 @@ Unfamiliar rules are justified when they create a meaningfully different experie
 
 **Design prompt:** Explain what the new procedure makes possible and how it connects to other mechanics; remove novelty that only changes terminology or steps.
 
-[Supporting discussion, 7:00–10:00](https://www.youtube.com/watch?v=qTpiFtBmbhk&t=420s)
+[Supporting discussion, 9:20–9:26](https://www.youtube.com/watch?v=qTpiFtBmbhk&t=560s)
 
 ### Signal where complexity matters
 
@@ -5428,7 +5399,7 @@ Rule depth and presentation can tell players which parts of a game deserve the m
 
 **Design prompt:** Use rulebook space and subsystem detail proportionally to the game's core decisions; make supporting procedures short and dependable.
 
-[Supporting discussion, 27:00–31:00](https://www.youtube.com/watch?v=qTpiFtBmbhk&t=1620s)
+[Supporting discussion, 29:05–29:14](https://www.youtube.com/watch?v=qTpiFtBmbhk&t=1745s)
 
 ### Earn trust before breaking conventions
 
@@ -5438,11 +5409,7 @@ Players may accept a demanding new system when familiar procedures show that the
 
 **Design prompt:** Keep routine procedures legible and focus explanations on the mechanics that change the experience; show players what they gain from learning them.
 
-[Supporting discussion, 23:00–28:00](https://www.youtube.com/watch?v=qTpiFtBmbhk&t=1380s)
-
-**Differences in approach or unresolved questions**
-
-- The hosts agree on the cost of novelty but treat the ‘three innovations’ limit as a heuristic; one emphasizes breaking stale conventions, while the other stresses player trust and the burden of learning.
+[Supporting discussion, 25:36–25:42](https://www.youtube.com/watch?v=qTpiFtBmbhk&t=1536s)
 
 **Episode-specific limits**
 
@@ -5463,7 +5430,7 @@ Psychology rules serve particular themes and scales; machinery-centered or cinem
 
 **Design prompt:** Identify whether morale is central to the game's subject and intended feel before adding a subsystem.
 
-[Supporting discussion, 0:00–4:00](https://www.youtube.com/watch?v=T5kJZYtUlds&t=0s)
+[Supporting discussion, 3:24–3:31](https://www.youtube.com/watch?v=T5kJZYtUlds&t=204s)
 
 ### Protect agency with short, bounded effects
 
@@ -5473,7 +5440,7 @@ Psychology becomes more costly when it persistently removes a player's control o
 
 **Design prompt:** Measure how long an effect lasts, what choices it removes, and when control returns; prefer bounded disruption unless sustained loss is the game's central purpose.
 
-[Supporting discussion, 3:00–5:00](https://www.youtube.com/watch?v=T5kJZYtUlds&t=180s)
+[Supporting discussion, 4:14–4:21](https://www.youtube.com/watch?v=T5kJZYtUlds&t=254s)
 
 ### Use fear as spatial pressure
 
@@ -5483,7 +5450,7 @@ A psychology effect can shape movement and engagement without forcing units to f
 
 **Design prompt:** Consider whether morale can change where players are willing to move, rather than only subtracting actions after a test.
 
-[Supporting discussion, 5:00–8:00](https://www.youtube.com/watch?v=T5kJZYtUlds&t=300s)
+[Supporting discussion, 6:51–6:58](https://www.youtube.com/watch?v=T5kJZYtUlds&t=411s)
 
 ### Make effects fit the subject's physical logic
 
@@ -5493,7 +5460,7 @@ A similar emotional pressure should be expressed through behavior appropriate to
 
 **Design prompt:** Translate the emotional premise into plausible actions for the represented entity instead of copying a human flee rule across all subjects.
 
-[Supporting discussion, 6:00–9:00](https://www.youtube.com/watch?v=T5kJZYtUlds&t=360s)
+[Supporting discussion, 8:22–8:29](https://www.youtube.com/watch?v=T5kJZYtUlds&t=502s)
 
 ### Psychology can improve simulation and character expectation
 
@@ -5503,7 +5470,7 @@ Morale rules help when players expect the represented people or creatures to rea
 
 **Design prompt:** Use the game's setting and player expectations to decide what reactions need representation; do not assume all genres need equal realism.
 
-[Supporting discussion, 10:00–13:00](https://www.youtube.com/watch?v=T5kJZYtUlds&t=600s)
+[Supporting discussion, 10:37–10:45](https://www.youtube.com/watch?v=T5kJZYtUlds&t=637s)
 
 ### Unpredictability can create stories
 
@@ -5513,7 +5480,7 @@ A morale outcome may be enjoyable when it produces memorable events and gives pl
 
 **Design prompt:** Test whether surprise creates a story players value or merely removes their ability to make meaningful choices.
 
-[Supporting discussion, 12:00–15:00](https://www.youtube.com/watch?v=T5kJZYtUlds&t=720s)
+[Supporting discussion, 12:52–12:59](https://www.youtube.com/watch?v=T5kJZYtUlds&t=772s)
 
 ### Watch for morale cascades
 
@@ -5523,7 +5490,7 @@ Breaking effects can accelerate an ending, but can also make an early leader imp
 
 **Design prompt:** Measure both pacing benefits and win-more effects in playtests, especially when morale failures compound across nearby units.
 
-[Supporting discussion, 12:00–14:00](https://www.youtube.com/watch?v=T5kJZYtUlds&t=720s)
+[Supporting discussion, 13:15–13:23](https://www.youtube.com/watch?v=T5kJZYtUlds&t=795s)
 
 ### Offer deliberate ways to accept or mitigate risk
 
@@ -5533,7 +5500,7 @@ A severe morale risk is easier to accept when players choose whether to pay for 
 
 **Design prompt:** If a psychology result can remove a major unit, consider visible countermeasures and test whether they are optional choices rather than mandatory purchases.
 
-[Supporting discussion, 13:00–17:00](https://www.youtube.com/watch?v=T5kJZYtUlds&t=780s)
+[Supporting discussion, 15:06–15:14](https://www.youtube.com/watch?v=T5kJZYtUlds&t=906s)
 
 ### Psychology opens a legible design vocabulary
 
@@ -5543,7 +5510,7 @@ Morale is a familiar domain that can differentiate troops, scenarios, and enviro
 
 **Design prompt:** Use the subsystem to create distinct tactical puzzles only when those choices matter; keep triggers and tracked states simple enough to execute reliably.
 
-[Supporting discussion, 16:00–20:00](https://www.youtube.com/watch?v=T5kJZYtUlds&t=960s)
+[Supporting discussion, 19:15–19:22](https://www.youtube.com/watch?v=T5kJZYtUlds&t=1155s)
 
 **Differences in approach or unresolved questions**
 
@@ -5568,7 +5535,7 @@ A useful design taxonomy distinguishes why a unit acts unpredictably rather than
 
 **Design prompt:** Describe each effect by trigger and resulting behavior; use familiar labels cautiously and explain the actual rule.
 
-[Supporting discussion, 0:00–4:00](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=0s)
+[Supporting discussion, 3:33–3:41](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=213s)
 
 ### Separate passive fear from triggered panic
 
@@ -5578,7 +5545,7 @@ An aura that continuously changes opponents' behavior is mechanically different 
 
 **Design prompt:** Track how often an effect applies and whether it is automatic, tested, or triggered; balance recurring auras accordingly.
 
-[Supporting discussion, 3:00–8:00](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=180s)
+[Supporting discussion, 5:15–5:23](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=315s)
 
 ### Count how often an effect applies
 
@@ -5588,7 +5555,7 @@ A rule's impact depends partly on the number of opportunities it has to affect p
 
 **Design prompt:** Estimate occurrences per game and affected models when assessing a rule's strength; test cumulative board-wide effects.
 
-[Supporting discussion, 6:00–9:00](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=360s)
+[Supporting discussion, 8:04–8:12](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=484s)
 
 ### Include positive morale when it serves the fiction
 
@@ -5598,7 +5565,7 @@ Psychology need not mean only fear or loss of control; inspiration can represent
 
 **Design prompt:** Decide whether morale represents emotional behavior, leadership, or both; keep the mechanical purpose clear across positive and negative effects.
 
-[Supporting discussion, 8:00–11:00](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=480s)
+[Supporting discussion, 9:54–10:03](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=594s)
 
 ### Make special behavior justify its rule weight
 
@@ -5608,7 +5575,7 @@ Unusual psychology rules are valuable when they create distinctive character or 
 
 **Design prompt:** Keep an unusual behavior when it changes play in a way central to the faction or scenario; otherwise fold it into a shared rule or omit it.
 
-[Supporting discussion, 33:00–39:00](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=1980s)
+[Supporting discussion, 36:04–36:09](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=2164s)
 
 ### Design faction behavior from its premise
 
@@ -5618,7 +5585,7 @@ A faction's distinctive psychology can express its character through target choi
 
 **Design prompt:** Choose a behavior players can recognize from the faction premise and make its trigger and consequence clear enough to plan around.
 
-[Supporting discussion, 34:00–38:00](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=2040s)
+[Supporting discussion, 38:17–38:24](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=2297s)
 
 ### Keep taxonomy as a tool, not a rules mandate
 
@@ -5628,7 +5595,7 @@ The five categories are an organizing scheme from the speaker, not universal ter
 
 **Design prompt:** Use the categories to inspect an effect's function, then choose terminology and procedures that fit the game's own system.
 
-[Supporting discussion, 3:00–8:00](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=180s)
+[Supporting discussion, 9:43–9:52](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=583s)
 
 ### Treat loss of control as a real cost
 
@@ -5638,7 +5605,7 @@ Psychology often reduces player agency, so its narrative or tactical benefit sho
 
 **Design prompt:** For each control-limiting rule, ask whether it creates enough decision tension or narrative payoff to offset the lost action.
 
-[Supporting discussion, 20:00–22:00](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=1200s)
+[Supporting discussion, 21:52–21:56](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=1312s)
 
 ### Choose simulation or abstraction deliberately
 
@@ -5648,7 +5615,7 @@ The right treatment of fleeing or broken units depends on the experience the gam
 
 **Design prompt:** Decide whether the retreat itself is a core play moment; simplify or remove it when it adds no desired decision or story.
 
-[Supporting discussion, 28:00–33:00](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=1680s)
+[Supporting discussion, 30:21–30:27](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=1821s)
 
 ### Expect uncontrolled movement to create adjudication demands
 
@@ -5658,7 +5625,7 @@ Broken or panicked units move under behavior rules rather than direct player con
 
 **Design prompt:** Test involuntary movement with close-charge and blocking edge cases, and specify enough procedure for the game’s desired precision.
 
-[Supporting discussion, 21:00–25:00](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=1260s)
+[Supporting discussion, 23:03–23:13](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=1383s)
 
 ### Use psychology to reconnect strategic play with individual stories
 
@@ -5668,7 +5635,7 @@ Psychological mechanics can help players imagine the small human experiences rep
 
 **Design prompt:** Use these rules when human response is a central part of the intended experience; consider non-restrictive inspiration when positive morale matters.
 
-[Supporting discussion, 10:00–15:00](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=600s)
+[Supporting discussion, 11:25–11:35](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=685s)
 
 ### Keep one-off targeting rules contained
 
@@ -5678,11 +5645,11 @@ Highly specific psychological reactions can add character, but each isolated rul
 
 **Design prompt:** Reserve bespoke target priorities for distinctive cases and check whether a common procedure could express the same behavior.
 
-[Supporting discussion, 35:00–39:00](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=2100s)
+[Supporting discussion, 37:51–37:59](https://www.youtube.com/watch?v=LP7Dj0_zYN8&t=2271s)
 
 **Differences in approach or unresolved questions**
 
-- The hosts differ on whether positive inspiration belongs within psychology; they agree it is a plausible morale effect but note that it usually behaves as a straightforward buff rather than unpredictable action.
+- An initially negative definition of psychology is challenged by the suggestion that inspiration and friendly leadership effects also belong; the hosts accept that broader possibility while noting that buffs usually increase reliability.
 
 **Episode-specific limits**
 
@@ -5703,7 +5670,7 @@ A failed action or defense can consume time and attention without changing the g
 
 **Design prompt:** Track how often an exchange ends with no changed position, resource, risk, or future option; ask whether the same result can create a consequence instead.
 
-[Supporting discussion, 0:00–4:00](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=0s)
+[Supporting discussion, 1:13–1:18](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=73s)
 
 ### Make failure chaotic rather than inert
 
@@ -5713,7 +5680,7 @@ Failure can produce an uncontrolled consequence instead of simply preventing the
 
 **Design prompt:** For common failed actions, test a consequence that changes risk, position, or resources without erasing the entire action sequence.
 
-[Supporting discussion, 3:00–8:00](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=180s)
+[Supporting discussion, 5:22–5:32](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=322s)
 
 ### Convert negation into a cost or redirect
 
@@ -5723,7 +5690,7 @@ When a defensive rule cancels a dramatic action, consider allowing it to occur w
 
 **Design prompt:** Give denial mechanics a meaningful exchange—such as redirecting, delaying, or taxing an effect—when full cancellation creates repeated no-change outcomes.
 
-[Supporting discussion, 6:00–9:00](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=360s)
+[Supporting discussion, 6:58–7:05](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=418s)
 
 ### Let skill operate on changing situations
 
@@ -5733,7 +5700,7 @@ A changing or chaotic state can preserve opportunities for skilled players to ad
 
 **Design prompt:** Test whether unpredictable consequences create decisions for both sides and preserve room for counterplay rather than deciding the result outright.
 
-[Supporting discussion, 8:00–12:00](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=480s)
+[Supporting discussion, 8:25–8:34](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=505s)
 
 ### Do not remove models automatically when objectives drive play
 
@@ -5743,7 +5710,7 @@ In an objective game, a model's removal may not be necessary for the core victor
 
 **Design prompt:** Check whether casualty removal contributes to objectives, pacing, or theme; consider pushes, pulls, or reconfiguration when positioning is the more interesting outcome.
 
-[Supporting discussion, 26:00–30:00](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=1560s)
+[Supporting discussion, 28:59–29:05](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=1739s)
 
 ### Preserve capability until a dramatic terminal event
 
@@ -5753,7 +5720,7 @@ Progressively weakening a damaged unit can make its remaining turns less interes
 
 **Design prompt:** Compare degradation with escalating-risk models; favor the one that creates meaningful choices throughout the unit's final state.
 
-[Supporting discussion, 32:00–36:00](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=1920s)
+[Supporting discussion, 33:47–33:53](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=2027s)
 
 ### Turn failure into spectacle
 
@@ -5763,7 +5730,7 @@ A failed action can trigger an entertaining chain reaction that keeps attention 
 
 **Design prompt:** Connect failure consequences to the game's central physical fantasy and ensure they create further choices or visible events.
 
-[Supporting discussion, 34:00–37:00](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=2040s)
+[Supporting discussion, 35:32–35:38](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=2132s)
 
 ### Question inherited cancellation rules
 
@@ -5773,7 +5740,7 @@ A familiar rule is not automatically a good rule if its only rationale is that i
 
 **Design prompt:** For every inherited prohibition, identify the problem it prevents and compare that benefit with the choices it removes.
 
-[Supporting discussion, 35:00–37:00](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=2100s)
+[Supporting discussion, 35:59–36:02](https://www.youtube.com/watch?v=CCSUM-fHN2Y&t=2159s)
 
 **Differences in approach or unresolved questions**
 
@@ -5798,7 +5765,7 @@ Power creep makes successive additions stronger; bloat adds too many options or 
 
 **Design prompt:** Diagnose whether the problem is escalating power or too much material before choosing a correction.
 
-[Supporting discussion, 0:00–4:00](https://www.youtube.com/watch?v=jbVEKA0tReM&t=0s)
+[Supporting discussion, 2:10–2:16](https://www.youtube.com/watch?v=jbVEKA0tReM&t=130s)
 
 ### Remove options that duplicate or do not find a role
 
@@ -5808,7 +5775,7 @@ New content is not valuable when it duplicates an existing option or fails to cr
 
 **Design prompt:** Evaluate additions by their distinct gameplay role and actual table value; prune duplicates and content that never becomes a satisfying choice.
 
-[Supporting discussion, 5:00–8:00](https://www.youtube.com/watch?v=jbVEKA0tReM&t=300s)
+[Supporting discussion, 7:27–7:35](https://www.youtube.com/watch?v=jbVEKA0tReM&t=447s)
 
 ### Content expands interaction surface rapidly
 
@@ -5818,7 +5785,7 @@ Each new option creates possible interactions with every existing option, so the
 
 **Design prompt:** Assess additions against all relevant existing systems and track the interactions they introduce, not only the new rule in isolation.
 
-[Supporting discussion, 8:00–12:00](https://www.youtube.com/watch?v=jbVEKA0tReM&t=480s)
+[Supporting discussion, 10:04–10:12](https://www.youtube.com/watch?v=jbVEKA0tReM&t=604s)
 
 ### Do not turn learning into homework
 
@@ -5828,7 +5795,7 @@ A game becomes inaccessible when players must continuously study a large catalog
 
 **Design prompt:** Set an accessible baseline and make advanced content findable; do not require exhaustive memorization of every release for a fair basic game.
 
-[Supporting discussion, 10:00–13:00](https://www.youtube.com/watch?v=jbVEKA0tReM&t=600s)
+[Supporting discussion, 12:01–12:08](https://www.youtube.com/watch?v=jbVEKA0tReM&t=721s)
 
 ### Optional labels do not control community usage
 
@@ -5838,7 +5805,7 @@ Calling content noncanonical or optional may not prevent players or organizers f
 
 **Design prompt:** Consider how content will be adopted by groups and tournaments, and design clear modular boundaries rather than relying only on a disclaimer.
 
-[Supporting discussion, 29:00–33:00](https://www.youtube.com/watch?v=jbVEKA0tReM&t=1740s)
+[Supporting discussion, 30:20–30:26](https://www.youtube.com/watch?v=jbVEKA0tReM&t=1820s)
 
 ### Estimate expansion by blast radius
 
@@ -5848,7 +5815,7 @@ The same addition can be modest in a modular game and disruptive in a tightly sh
 
 **Design prompt:** Map which units, lists, or procedures can use an addition and prioritize testing where it reaches the broadest part of the game.
 
-[Supporting discussion, 31:00–34:00](https://www.youtube.com/watch?v=jbVEKA0tReM&t=1860s)
+[Supporting discussion, 32:30–32:35](https://www.youtube.com/watch?v=jbVEKA0tReM&t=1950s)
 
 ### Design for a satisfying range, not exhaustive choice
 
@@ -5858,7 +5825,7 @@ A strong option list need not contain every possibility or match the designer's 
 
 **Design prompt:** Use playtest feedback and audience expectations alongside editorial judgment to decide whether an option adds a distinct desirable experience.
 
-[Supporting discussion, 34:00–38:00](https://www.youtube.com/watch?v=jbVEKA0tReM&t=2040s)
+[Supporting discussion, 36:04–36:12](https://www.youtube.com/watch?v=jbVEKA0tReM&t=2164s)
 
 ### End content cycles deliberately
 
@@ -5868,7 +5835,7 @@ A game may benefit from a clear stopping point and a new cycle instead of indefi
 
 **Design prompt:** When expansion no longer improves the core, consider a deliberate new cycle with explicit carry-forward choices rather than endless accretion.
 
-[Supporting discussion, 36:00–40:00](https://www.youtube.com/watch?v=jbVEKA0tReM&t=2160s)
+[Supporting discussion, 38:22–38:32](https://www.youtube.com/watch?v=jbVEKA0tReM&t=2302s)
 
 ### Test additions against distraction, dilution, and duplication
 
@@ -5878,7 +5845,7 @@ An expansion option earns its place when it adds a distinct play experience with
 
 **Design prompt:** Compare the option with existing choices and remove it if it lacks a unique role or weakens faction differences.
 
-[Supporting discussion, 12:00–16:00](https://www.youtube.com/watch?v=jbVEKA0tReM&t=720s)
+[Supporting discussion, 14:55–15:03](https://www.youtube.com/watch?v=jbVEKA0tReM&t=895s)
 
 ### Set option counts around editorial intent and learnability
 
@@ -5888,7 +5855,7 @@ There is no universal correct number of options; the useful range depends on sco
 
 **Design prompt:** Pick a deliberate launch scope, then observe where players feel both constrained and overloaded before expanding.
 
-[Supporting discussion, 19:00–25:00](https://www.youtube.com/watch?v=jbVEKA0tReM&t=1140s)
+[Supporting discussion, 20:57–21:04](https://www.youtube.com/watch?v=jbVEKA0tReM&t=1257s)
 
 ### Treat optional content as a community convention
 
@@ -5898,7 +5865,7 @@ Calling material optional does not guarantee that players will treat it as separ
 
 **Design prompt:** Label intended use clearly and check how actual groups adopt the material rather than assuming the designation will contain it.
 
-[Supporting discussion, 27:00–31:00](https://www.youtube.com/watch?v=jbVEKA0tReM&t=1620s)
+[Supporting discussion, 30:24–30:32](https://www.youtube.com/watch?v=jbVEKA0tReM&t=1824s)
 
 ### Use personal taste as an editorial signal, not a universal rule
 
@@ -5908,16 +5875,11 @@ Designers can use their own excitement and ability to explain an option as a use
 
 **Design prompt:** State who the game is for, invite collaborators or playtesters with different preferences, and edit toward the intended audience.
 
-[Supporting discussion, 23:00–28:00](https://www.youtube.com/watch?v=jbVEKA0tReM&t=1380s)
-
-**Differences in approach or unresolved questions**
-
-- The hosts differ on how much extra content is useful and whether aesthetic ‘mouth feel’ is a sufficient guide; they agree that content should be edited and that optional status does not automatically prevent bloat.
+[Supporting discussion, 24:29–24:37](https://www.youtube.com/watch?v=jbVEKA0tReM&t=1469s)
 
 **Episode-specific limits**
 
 - The episode offers judgment and examples rather than a measurable threshold for bloat.
-- Some mid-transcript material was truncated in the capture; findings rely on clearly legible opening and later passages.
 
 ## Spotting Features and Fixing Flaws in Your Game
 
@@ -5933,7 +5895,7 @@ A mechanic that appears to reward a behavior can become a flaw if experienced pl
 
 **Design prompt:** Watch what experienced players actually do and whether the intended behavior remains attractive; treat avoidance as evidence that the mechanic's incentives need revision.
 
-[Supporting discussion, 0:00–3:00](https://www.youtube.com/watch?v=Jrf_g89eprg&t=0s)
+[Supporting discussion, 2:13–2:20](https://www.youtube.com/watch?v=Jrf_g89eprg&t=133s)
 
 ### A flaw may evolve into the game's signature
 
@@ -5943,7 +5905,7 @@ An unintended weakness can become a feature when refinement turns it into a reli
 
 **Design prompt:** Trace the behavior a flaw creates, then adjust surrounding rules until that behavior produces the intended payoff without making optimal play monotonous.
 
-[Supporting discussion, 1:00–3:00](https://www.youtube.com/watch?v=Jrf_g89eprg&t=60s)
+[Supporting discussion, 3:07–3:18](https://www.youtube.com/watch?v=Jrf_g89eprg&t=187s)
 
 ### Challenge presumed core mechanics
 
@@ -5953,7 +5915,7 @@ Early rules that seem essential may be scaffolding, not the game's true design h
 
 **Design prompt:** Return to the design brief after prototypes exist; test whether each supposed pillar remains necessary and be willing to discard it.
 
-[Supporting discussion, 3:00–7:00](https://www.youtube.com/watch?v=Jrf_g89eprg&t=180s)
+[Supporting discussion, 5:02–5:08](https://www.youtube.com/watch?v=Jrf_g89eprg&t=302s)
 
 ### Use the pitch as a starting set of hypotheses
 
@@ -5963,7 +5925,7 @@ A design can begin with several exciting hooks without requiring every hook to s
 
 **Design prompt:** Write down the initial hooks, then label them as hypotheses; compare them with what playtesting actually makes fun.
 
-[Supporting discussion, 6:00–9:00](https://www.youtube.com/watch?v=Jrf_g89eprg&t=360s)
+[Supporting discussion, 8:29–8:36](https://www.youtube.com/watch?v=Jrf_g89eprg&t=509s)
 
 ### Separate scaffold from design principle
 
@@ -5973,7 +5935,7 @@ A temporary rule used to get a prototype running should not be confused with a p
 
 **Design prompt:** Document why each major rule exists and whether it is provisional or a design commitment, then revisit that status as the prototype matures.
 
-[Supporting discussion, 8:00–11:00](https://www.youtube.com/watch?v=Jrf_g89eprg&t=480s)
+[Supporting discussion, 8:52–9:02](https://www.youtube.com/watch?v=Jrf_g89eprg&t=532s)
 
 ### Do not dismiss feedback as wrong play
 
@@ -5983,7 +5945,7 @@ A designer should investigate flaws instead of assuming dissatisfied players are
 
 **Design prompt:** Classify feedback by severity, frequency, and target audience; fix tractable problems and state deliberate tradeoffs clearly.
 
-[Supporting discussion, 22:00–25:00](https://www.youtube.com/watch?v=Jrf_g89eprg&t=1320s)
+[Supporting discussion, 24:03–24:09](https://www.youtube.com/watch?v=Jrf_g89eprg&t=1443s)
 
 ### Design for the actual audience's entry barriers
 
@@ -5993,7 +5955,7 @@ A feature can be an obstacle for newcomers even when experienced miniature gamer
 
 **Design prompt:** Identify assumptions your core audience overlooks and make minimal components or flexible substitutes possible for newcomers.
 
-[Supporting discussion, 25:00–28:00](https://www.youtube.com/watch?v=Jrf_g89eprg&t=1500s)
+[Supporting discussion, 26:14–26:19](https://www.youtube.com/watch?v=Jrf_g89eprg&t=1574s)
 
 ### Build a distinctive feature from constraints
 
@@ -6003,7 +5965,7 @@ A constraint can become an advantage if the game turns it into a clear and satis
 
 **Design prompt:** Ask which players a quirk frustrates and which it excites, and consider whether sharpening it creates a coherent feature for the intended group.
 
-[Supporting discussion, 24:00–27:00](https://www.youtube.com/watch?v=Jrf_g89eprg&t=1440s)
+[Supporting discussion, 25:04–25:10](https://www.youtube.com/watch?v=Jrf_g89eprg&t=1504s)
 
 ### Distinguish a core compromise from a fixable defect
 
@@ -6013,17 +5975,17 @@ Some limitations are inseparable from a game’s premise; others can be improved
 
 **Design prompt:** Ask whether a concern conflicts with a stated design principle or merely reflects an imperfect implementation, then test changes accordingly.
 
-[Supporting discussion, 10:00–15:00](https://www.youtube.com/watch?v=Jrf_g89eprg&t=600s)
+[Supporting discussion, 11:18–11:24](https://www.youtube.com/watch?v=Jrf_g89eprg&t=678s)
 
 ### Offer alternatives that feel worthwhile
 
-A tactic becomes a design problem when players feel foolish for choosing anything else. Feedback on a repeated overwatch approach leads to proposals such as split objectives or escalating pressure that make other choices useful.
+A tactic becomes a design problem when players feel foolish for choosing anything else. Discussing Perilous Tales overwatch play, the hosts distinguish freely choosing repetition from feeling foolish whenever an alternative tactic gives neither more excitement nor more reward.
 
 **Tradeoff to consider:** Leaving dominant strategies available supports player freedom; counterpressure can add scenario demands and reduce straightforward play.
 
 **Design prompt:** Test whether alternative tactics deliver their own reward, and change incentives or objectives when they feel strictly inferior.
 
-[Supporting discussion, 18:00–23:00](https://www.youtube.com/watch?v=Jrf_g89eprg&t=1080s)
+[Supporting discussion, 21:06–21:12](https://www.youtube.com/watch?v=Jrf_g89eprg&t=1266s)
 
 ### Make the physical setup legible to new audiences
 
@@ -6033,7 +5995,7 @@ A miniature game’s terrain requirements can become a major entry barrier for p
 
 **Design prompt:** Identify what a newcomer must gather and prepare before play; make components easy to substitute where exact models do not matter.
 
-[Supporting discussion, 25:00–28:00](https://www.youtube.com/watch?v=Jrf_g89eprg&t=1500s)
+[Supporting discussion, 26:43–26:51](https://www.youtube.com/watch?v=Jrf_g89eprg&t=1603s)
 
 **Differences in approach or unresolved questions**
 
@@ -6042,7 +6004,6 @@ A miniature game’s terrain requirements can become a major entry barrier for p
 **Episode-specific limits**
 
 - The hosts present design anecdotes, not a formal diagnostic checklist or controlled playtest data.
-- Some middle sections were truncated in output; findings rely on legible opening, later examples, and the transcript's clear closing discussion.
 
 ## Designing Your Wargame's "Meta"
 
@@ -6058,7 +6019,7 @@ A list-building meta is the strategic game players create by selecting forces an
 
 **Design prompt:** Analyze how lists answer and expose one another, not only the isolated strength of each option.
 
-[Supporting discussion, 0:00–4:00](https://www.youtube.com/watch?v=D7u-kmwuY04&t=0s)
+[Supporting discussion, 2:10–2:16](https://www.youtube.com/watch?v=D7u-kmwuY04&t=130s)
 
 ### Healthy metas keep producing answers
 
@@ -6068,7 +6029,7 @@ A healthy meta is one where dominant strategies provoke viable counters and the 
 
 **Design prompt:** Check whether players can identify and test answers to strong strategies; distinguish meaningful evolution from random turbulence.
 
-[Supporting discussion, 3:00–6:00](https://www.youtube.com/watch?v=D7u-kmwuY04&t=180s)
+[Supporting discussion, 4:13–4:24](https://www.youtube.com/watch?v=D7u-kmwuY04&t=253s)
 
 ### Use updating carefully
 
@@ -6078,7 +6039,7 @@ Online points updates can alter list incentives without a new edition, but requi
 
 **Design prompt:** If values are mutable, publish one clear source of truth and a transparent update process; update only when evidence and capacity support it.
 
-[Supporting discussion, 4:00–8:00](https://www.youtube.com/watch?v=D7u-kmwuY04&t=240s)
+[Supporting discussion, 6:46–6:52](https://www.youtube.com/watch?v=D7u-kmwuY04&t=406s)
 
 ### Do not assume local reports represent the whole scene
 
@@ -6088,7 +6049,7 @@ Small gaming groups can have very different perceptions of what is overpowered b
 
 **Design prompt:** Record which communities and matchups support a balance claim; avoid changing rules solely from an isolated pocket meta.
 
-[Supporting discussion, 7:00–11:00](https://www.youtube.com/watch?v=D7u-kmwuY04&t=420s)
+[Supporting discussion, 9:59–10:08](https://www.youtube.com/watch?v=D7u-kmwuY04&t=599s)
 
 ### Stagnation is different from stability
 
@@ -6098,7 +6059,7 @@ A solved or stagnant meta has no discoverable answers, while a stable meta may s
 
 **Design prompt:** Ask whether players can still discover meaningful counters and enjoy repeat matchups before labeling an unchanging meta a failure.
 
-[Supporting discussion, 29:00–32:00](https://www.youtube.com/watch?v=D7u-kmwuY04&t=1740s)
+[Supporting discussion, 31:01–31:08](https://www.youtube.com/watch?v=D7u-kmwuY04&t=1861s)
 
 ### Seed clues and counters in the option set
 
@@ -6108,7 +6069,7 @@ Players need enough visible clues to understand how to respond to a powerful str
 
 **Design prompt:** For each powerful play pattern, ensure the rules or roster contain a counter players can plausibly discover through play or reading.
 
-[Supporting discussion, 25:00–31:00](https://www.youtube.com/watch?v=D7u-kmwuY04&t=1500s)
+[Supporting discussion, 28:19–28:27](https://www.youtube.com/watch?v=D7u-kmwuY04&t=1699s)
 
 ### Faction differentiation can support continued learning
 
@@ -6118,7 +6079,7 @@ Distinct factions give players room to interpret matchups as a strategic puzzle 
 
 **Design prompt:** Use differentiated options when they create meaningful learning and counterplay; ensure each faction retains tools to respond outside its favored matchup.
 
-[Supporting discussion, 31:00–35:00](https://www.youtube.com/watch?v=D7u-kmwuY04&t=1860s)
+[Supporting discussion, 32:42–32:55](https://www.youtube.com/watch?v=D7u-kmwuY04&t=1962s)
 
 ### Use variety to buffer self-blame after a loss
 
@@ -6128,7 +6089,7 @@ Distinct forces can help players interpret defeat as a matchup or list-building 
 
 **Design prompt:** Offer meaningful roster variation while independently checking whether the supposed counters work; do not rely on player self-attribution as balance evidence.
 
-[Supporting discussion, 34:00–36:00](https://www.youtube.com/watch?v=D7u-kmwuY04&t=2040s)
+[Supporting discussion, 35:25–35:32](https://www.youtube.com/watch?v=D7u-kmwuY04&t=2125s)
 
 ### Let solutions travel between player groups
 
@@ -6138,7 +6099,7 @@ Cross-pollination helps a game’s metagame evolve when local groups otherwise r
 
 **Design prompt:** Support tournaments, forums, or shared list discussions at a scale suited to the community, and avoid treating one local report as universal.
 
-[Supporting discussion, 17:00–20:00](https://www.youtube.com/watch?v=D7u-kmwuY04&t=1020s)
+[Supporting discussion, 19:33–19:44](https://www.youtube.com/watch?v=D7u-kmwuY04&t=1173s)
 
 ### Match balance maintenance to available evidence
 
@@ -6148,7 +6109,7 @@ Frequent points updates are only useful when the designer can gather enough reli
 
 **Design prompt:** Choose a transparent update process and state whether values are fixed or subject to mutual agreement and revision.
 
-[Supporting discussion, 7:30–9:00](https://www.youtube.com/watch?v=D7u-kmwuY04&t=450s)
+[Supporting discussion, 8:19–8:27](https://www.youtube.com/watch?v=D7u-kmwuY04&t=499s)
 
 ### Create bounded choices that invite counterplay
 
@@ -6158,7 +6119,7 @@ A meta can emerge from a small number of constrained choices when no player can 
 
 **Design prompt:** Design a few viable approaches with clear strengths and vulnerabilities, then restrict selections enough to preserve meaningful tradeoffs.
 
-[Supporting discussion, 32:00–34:00](https://www.youtube.com/watch?v=D7u-kmwuY04&t=1920s)
+[Supporting discussion, 32:29–32:35](https://www.youtube.com/watch?v=D7u-kmwuY04&t=1949s)
 
 ### Provide an accessible first counter-question
 
@@ -6168,7 +6129,7 @@ A player who discovers one plausible answer to a dominant tactic is more likely 
 
 **Design prompt:** Playtest the initial list-building path and ensure at least one counter can be found from the information the game provides.
 
-[Supporting discussion, 28:00–31:00](https://www.youtube.com/watch?v=D7u-kmwuY04&t=1680s)
+[Supporting discussion, 29:25–29:36](https://www.youtube.com/watch?v=D7u-kmwuY04&t=1765s)
 
 **Differences in approach or unresolved questions**
 
@@ -6193,7 +6154,7 @@ List building is an early player activity but often a late design task because i
 
 **Design prompt:** Use provisional forces to test the core game; refine roster breadth and faction identity after the common rules are stable.
 
-[Supporting discussion, 1:00–4:00](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=60s)
+[Supporting discussion, 3:08–3:14](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=188s)
 
 ### Make the base game fun without factions
 
@@ -6203,7 +6164,7 @@ A faction system cannot reliably rescue an uninteresting core play loop. The hos
 
 **Design prompt:** Test symmetrical forces before adding faction rules and ask whether the game is already engaging in its simplest form.
 
-[Supporting discussion, 3:00–5:00](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=180s)
+[Supporting discussion, 4:15–4:22](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=255s)
 
 ### List building is play outside the table
 
@@ -6213,7 +6174,7 @@ Constructing and revising lists can itself be a substantial solo game that exten
 
 **Design prompt:** Decide whether pregame optimization is a central intended activity or whether the game should move players quickly to shared table play.
 
-[Supporting discussion, 10:00–12:00](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=600s)
+[Supporting discussion, 11:50–11:55](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=710s)
 
 ### Lists can create hobby loops
 
@@ -6223,7 +6184,7 @@ Distinct factions and options can motivate new modeling, painting, and repeat pl
 
 **Design prompt:** When adding a faction or list option, consider the concrete hobby project and play experience it invites, not only its rules novelty.
 
-[Supporting discussion, 10:00–12:00](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=600s)
+[Supporting discussion, 10:08–10:16](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=608s)
 
 ### List systems support modular growth
 
@@ -6233,7 +6194,7 @@ A stable core engine plus modular lists can support recurring content and repeat
 
 **Design prompt:** If planning expansions, preserve a simple core and define how new options enter the existing ecosystem; budget for interaction testing.
 
-[Supporting discussion, 7:00–12:00](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=420s)
+[Supporting discussion, 8:38–8:49](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=518s)
 
 ### Internet optimization can erase the intended puzzle
 
@@ -6243,7 +6204,7 @@ Publicly shared best lists can let players outsource list-building decisions and
 
 **Design prompt:** Make the tabletop engine engaging even when lists converge; consider whether pregame depth is robust to published solutions.
 
-[Supporting discussion, 31:00–36:00](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=1860s)
+[Supporting discussion, 33:21–33:28](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=2001s)
 
 ### Offer constrained or preset forces for quick starts
 
@@ -6253,17 +6214,7 @@ Presets and limited menus can help time-poor players reach play without requirin
 
 **Design prompt:** Provide a quick-start roster or small constrained menu alongside full construction when list-building is not the main attraction.
 
-[Supporting discussion, 37:00–40:00](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=2220s)
-
-### Differentiate lists when the meta needs interpretation
-
-Faction asymmetry can give players a framework for interpreting defeat and searching for a counter, rather than concluding the whole game is broken. Distinct forces create a matchup puzzle and give players a reason to revise their faction strategy after losing.
-
-**Tradeoff to consider:** This can sustain exploration, but may mask actual balance problems or create hard counters.
-
-**Design prompt:** Use distinct lists to create meaningful matchup questions, then independently verify that the apparent counters actually work.
-
-[Supporting discussion, 34:00–37:00](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=2040s)
+[Supporting discussion, 38:31–38:38](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=2311s)
 
 ### Use a piloting goal to shorten a hesitant first turn
 
@@ -6273,7 +6224,7 @@ A prepared force with clear intentions can help players start acting instead of 
 
 **Design prompt:** If a game’s first turn tends to stall, provide example lists or objectives that establish a concrete opening goal.
 
-[Supporting discussion, 11:00–15:00](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=660s)
+[Supporting discussion, 12:34–12:42](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=754s)
 
 ### Let scenario variety carry part of the list challenge
 
@@ -6283,7 +6234,7 @@ The breadth of scenarios affects how much strategic coverage a list must provide
 
 **Design prompt:** Decide whether players build for a fixed matchup or a rotating scenario pool, and tune list constraints to that expectation.
 
-[Supporting discussion, 14:00–17:00](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=840s)
+[Supporting discussion, 15:24–15:31](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=924s)
 
 ### Design list puzzles for the audience that enjoys solving them
 
@@ -6293,7 +6244,7 @@ Some players find combinations and stronger lists rewarding; others do not engag
 
 **Design prompt:** Make list-building depth an intentional feature and provide clear entry paths for players who prefer to learn through tabletop play.
 
-[Supporting discussion, 17:00–22:00](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=1020s)
+[Supporting discussion, 20:15–20:21](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=1215s)
 
 ### Weigh list building against onboarding cost
 
@@ -6303,7 +6254,7 @@ A list system can add solo preparation and replay value while making it harder t
 
 **Design prompt:** Offer a beginner route such as preset lists or a restricted selection before requiring the full catalog.
 
-[Supporting discussion, 22:00–25:00](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=1320s)
+[Supporting discussion, 22:31–22:37](https://www.youtube.com/watch?v=-0W6yuqPcAw&t=1351s)
 
 **Differences in approach or unresolved questions**
 
@@ -6327,7 +6278,7 @@ A progression system should exist because the game needs a persistent arc, not b
 
 **Design prompt:** State the persistent experience progression is meant to create and test whether rewards or setbacks actually support it.
 
-[Supporting discussion, 0:00–3:00](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=0s)
+[Supporting discussion, 2:08–2:15](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=128s)
 
 ### Progression can memorialize player-created stories
 
@@ -6337,7 +6288,7 @@ Players may want rules and models to preserve events that made a battle feel per
 
 **Design prompt:** Let players turn memorable events into persistent identity while considering whether cosmetic records can preserve the story without permanently weakening the character.
 
-[Supporting discussion, 5:00–8:00](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=300s)
+[Supporting discussion, 5:34–5:38](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=334s)
 
 ### Guard against runaway leader
 
@@ -6347,27 +6298,27 @@ Rewards that increase the winner's future strength can make later campaign games
 
 **Design prompt:** Simulate several consecutive wins and losses, not just one advancement step; inspect whether both players still have a plausible reason to play the next game.
 
-[Supporting discussion, 8:00–12:00](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=480s)
+[Supporting discussion, 9:52–9:59](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=592s)
 
-### Do not confuse setback with meaningful drama
+### Do not mistake random deprivation for story
 
-Injuries and losses create stories only when players retain enough agency and attachment to continue. The hosts describe campaigns where characters accumulate damage or die, which may be flavorful but can leave a player with a weakened force and no appealing next step.
+Randomly unequal rewards can create memorable highs and lows while still frustrating players by locking away the content they wanted to use. The hosts contrast a useless reward with another player's exciting hammer, and a pigsty with a gold mine; one host acknowledges story potential while questioning how much content random access denies.
 
 **Tradeoff to consider:** Hard setbacks create stakes, while softer consequences preserve participation and narrative continuity.
 
 **Design prompt:** Test the emotional and mechanical effect of each loss over multiple sessions; provide recovery, replacement, or alternate goals when setbacks compound.
 
-[Supporting discussion, 12:00–16:00](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=720s)
+[Supporting discussion, 14:54–15:01](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=894s)
 
 ### Build catch-up into the reward curve
 
-A campaign can preserve competition by ensuring that rewards for winning do not create a widening force-strength gap. The hosts discuss brakes on leaders, boosts to lagging players, and capped rewards that limit how much one good result can widen progression.
+Catch-up provisions should address the widening strength gap rather than merely make an inevitable snowball take longer. One host criticizes brakes and boosts that only delay the same runaway result; later the discussion acknowledges capped rewards as a partial restraint and describes alternative progression streams.
 
 **Tradeoff to consider:** Catch-up preserves future play but may make success feel less valuable or artificially equalize outcomes.
 
 **Design prompt:** Bound winner gains and model both the incentive to win and the loser’s next-game prospects; explain any catch-up as part of the campaign's intended competition.
 
-[Supporting discussion, 14:00–18:00](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=840s)
+[Supporting discussion, 11:43–11:51](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=703s)
 
 ### Support irregular attendance
 
@@ -6377,7 +6328,7 @@ Campaign rules should account for real schedules so a missed session does not pe
 
 **Design prompt:** Provide a fair way for absent players to earn baseline resources or re-enter at the group's current level.
 
-[Supporting discussion, 33:00–36:00](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=1980s)
+[Supporting discussion, 34:06–34:14](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=2046s)
 
 ### Unlock options rather than raw power
 
@@ -6387,7 +6338,7 @@ Progression can broaden a player's choices without making their force strictly s
 
 **Design prompt:** Consider unlocking tools or branches instead of permanent stat increases, then test whether flexibility itself creates a substantial advantage.
 
-[Supporting discussion, 41:30–42:00](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=2490s)
+[Supporting discussion, 41:40–41:45](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=2500s)
 
 ### Use caps to bound rewards
 
@@ -6397,7 +6348,7 @@ A strict maximum on rewards can dampen the advantage of an exceptional result wi
 
 **Design prompt:** Set reward ceilings based on multi-game progression simulations and communicate what gains above the cap mean narratively, if anything.
 
-[Supporting discussion, 38:00–40:00](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=2280s)
+[Supporting discussion, 39:07–39:12](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=2347s)
 
 ### Make advancement follow what a character did
 
@@ -6407,7 +6358,7 @@ A reward connected to a model’s actual actions makes progression feel like a r
 
 **Design prompt:** Tie a small set of earned advances to observable events, and use a concise checklist rather than a large progression ledger.
 
-[Supporting discussion, 17:00–22:00](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=1020s)
+[Supporting discussion, 19:20–19:27](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=1160s)
 
 ### Give every player a meaningful reward path
 
@@ -6417,7 +6368,7 @@ Progression can reward both success and effort so that a setback does not leave 
 
 **Design prompt:** Offer alternate achievements that grant comparably valuable choices and connect each to what happened in play.
 
-[Supporting discussion, 20:00–24:00](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=1200s)
+[Supporting discussion, 21:36–21:44](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=1296s)
 
 ### Separate campaign victory from roster growth
 
@@ -6427,7 +6378,7 @@ A player should be able to progress without automatically moving closer to winni
 
 **Design prompt:** If a campaign needs long-term growth, consider making growth unlock options while a separate objective determines the winner.
 
-[Supporting discussion, 26:00–33:00](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=1560s)
+[Supporting discussion, 30:37–30:42](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=1837s)
 
 ### Make campaign rewards fit the campaign’s story
 
@@ -6437,7 +6388,7 @@ The more complex a progression system becomes, the more closely its rewards shou
 
 **Design prompt:** Choose the depth of advancement based on campaign length and how much narrative continuity the game promises.
 
-[Supporting discussion, 22:00–30:00](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=1320s)
+[Supporting discussion, 25:20–25:29](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=1520s)
 
 ### Make long campaigns resilient to missed sessions
 
@@ -6447,11 +6398,7 @@ Campaign structures should account for real-life absences so players can return 
 
 **Design prompt:** Identify which sessions require everyone and provide a fair way for absent players to rejoin.
 
-[Supporting discussion, 32:00–36:00](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=1920s)
-
-**Differences in approach or unresolved questions**
-
-- The hosts recognize the appeal of dramatic injury and winner rewards, while warning that these can undermine continued play; their examples favor resilient attendance and capped or option-based progression as alternatives.
+[Supporting discussion, 35:02–35:08](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=2102s)
 
 **Episode-specific limits**
 
@@ -6471,7 +6418,7 @@ A campaign can connect stories without changing the army's capabilities, and pro
 
 **Design prompt:** Decide independently whether players need a connected narrative, persistent advancement, or both; avoid bundling them by convention.
 
-[Supporting discussion, 7:00–9:00](https://www.youtube.com/watch?v=SkPcJk244sA&t=420s)
+[Supporting discussion, 8:40–8:44](https://www.youtube.com/watch?v=SkPcJk244sA&t=520s)
 
 ### Choose campaign structure for the story
 
@@ -6481,7 +6428,7 @@ Linear, branching, and map campaigns offer different amounts of author control a
 
 **Design prompt:** Choose the lightest structure that supports the intended story and the group's appetite for organizing repeated games.
 
-[Supporting discussion, 5:00–9:00](https://www.youtube.com/watch?v=SkPcJk244sA&t=300s)
+[Supporting discussion, 7:35–7:42](https://www.youtube.com/watch?v=SkPcJk244sA&t=455s)
 
 ### Start a linear campaign with a clear story arc
 
@@ -6491,7 +6438,7 @@ A fixed sequence is difficult to write until the designer knows what story or hi
 
 **Design prompt:** Outline the intended arc before building scenarios; ensure each battle has a distinct purpose in the sequence.
 
-[Supporting discussion, 8:00–12:00](https://www.youtube.com/watch?v=SkPcJk244sA&t=480s)
+[Supporting discussion, 10:52–10:58](https://www.youtube.com/watch?v=SkPcJk244sA&t=652s)
 
 ### Use branching outcomes to change the next question
 
@@ -6501,7 +6448,7 @@ A result matters more when it changes the next scenario or its conditions rather
 
 **Design prompt:** Keep branches legible and ensure each path leads to a playable next episode; test the less likely paths too.
 
-[Supporting discussion, 6:00–9:00](https://www.youtube.com/watch?v=SkPcJk244sA&t=360s)
+[Supporting discussion, 6:56–7:03](https://www.youtube.com/watch?v=SkPcJk244sA&t=416s)
 
 ### Use a map to shape encounters, not add a second game
 
@@ -6511,17 +6458,17 @@ A campaign map can organize who fights, where, and why without needing a full st
 
 **Design prompt:** Define what the map contributes and keep its procedures limited to that role unless the strategic game is itself a core design goal.
 
-[Supporting discussion, 47:00–54:00](https://www.youtube.com/watch?v=SkPcJk244sA&t=2820s)
+[Supporting discussion, 54:00–54:09](https://www.youtube.com/watch?v=SkPcJk244sA&t=3240s)
 
 ### Beware snowballing from territory count
 
-Even a map that gives no direct combat bonus can create runaway advantage when holding more spaces makes a player numerically stronger. The hosts note that occupying more nodes can itself create a points lead, even if each node offers no additional benefit.
+Holding more campaign-map nodes can create a discouraging lead in campaign standing even when nodes grant no battlefield bonuses. The hosts say that owning more nodes still leaves a player many campaign points ahead, drawing a comparison with league standings that make others feel they have already lost.
 
 **Tradeoff to consider:** Territory control creates visible stakes but may make losing players feel they cannot recover.
 
 **Design prompt:** Check whether map ownership translates into more resources, options, or matches; cap or counterbalance advantages that accumulate too quickly.
 
-[Supporting discussion, 45:00–48:00](https://www.youtube.com/watch?v=SkPcJk244sA&t=2700s)
+[Supporting discussion, 47:52–47:59](https://www.youtube.com/watch?v=SkPcJk244sA&t=2872s)
 
 ### Judge a campaign by whether it increases desire to play
 
@@ -6531,7 +6478,7 @@ A campaign should make players look forward to the next game rather than make ro
 
 **Design prompt:** Ask whether the campaign adds excitement beyond the matches players would already schedule; design recovery or low-stakes participation if standings persist.
 
-[Supporting discussion, 48:00–51:00](https://www.youtube.com/watch?v=SkPcJk244sA&t=2880s)
+[Supporting discussion, 49:27–49:35](https://www.youtube.com/watch?v=SkPcJk244sA&t=2967s)
 
 ### Avoid combining two mastery contests casually
 
@@ -6541,7 +6488,7 @@ A campaign that links strategic map play and tabletop battles can let one player
 
 **Design prompt:** Keep a map layer organizational unless prepared to design and test both games as an integrated system.
 
-[Supporting discussion, 51:00–54:00](https://www.youtube.com/watch?v=SkPcJk244sA&t=3060s)
+[Supporting discussion, 52:15–52:26](https://www.youtube.com/watch?v=SkPcJk244sA&t=3135s)
 
 ### Reward completion across the whole campaign
 
@@ -6551,7 +6498,7 @@ A campaign needs a reason for players to continue even when they are no longer l
 
 **Design prompt:** Define what completion means and give participants a reason to stay through later games after setbacks.
 
-[Supporting discussion, 10:00–14:00](https://www.youtube.com/watch?v=SkPcJk244sA&t=600s)
+[Supporting discussion, 11:39–11:45](https://www.youtube.com/watch?v=SkPcJk244sA&t=699s)
 
 ### Make each linear scenario worth playing
 
@@ -6561,7 +6508,7 @@ Players should have an appealing experience in every chapter rather than wait fo
 
 **Design prompt:** Give each scenario a distinct hook and spread terrain or miniature projects across the campaign.
 
-[Supporting discussion, 13:00–22:00](https://www.youtube.com/watch?v=SkPcJk244sA&t=780s)
+[Supporting discussion, 16:29–16:35](https://www.youtube.com/watch?v=SkPcJk244sA&t=989s)
 
 ### Compress branching stories into a few threads
 
@@ -6571,7 +6518,7 @@ A fully branching campaign grows rapidly in writing effort and is difficult to f
 
 **Design prompt:** Plan a beginning, middle, and end, then use a few outcome-sensitive routes that reconverge at key moments.
 
-[Supporting discussion, 29:00–35:00](https://www.youtube.com/watch?v=SkPcJk244sA&t=1740s)
+[Supporting discussion, 34:09–34:18](https://www.youtube.com/watch?v=SkPcJk244sA&t=2049s)
 
 ### Choose scenario specificity to match campaign structure
 
@@ -6581,7 +6528,7 @@ The scenario format should fit whether the campaign is linear, branching, or map
 
 **Design prompt:** Build a scenario pool with an appropriate level of specificity and validate it in the game system before linking it into a campaign.
 
-[Supporting discussion, 34:00–40:00](https://www.youtube.com/watch?v=SkPcJk244sA&t=2040s)
+[Supporting discussion, 35:23–35:30](https://www.youtube.com/watch?v=SkPcJk244sA&t=2123s)
 
 ### Use maps to organize players and stakes
 
@@ -6591,7 +6538,7 @@ A campaign map can explain why two forces meet and what kind of encounter they f
 
 **Design prompt:** Use map features to select opponents and frame tabletop scenarios, while checking whether positional advantages snowball.
 
-[Supporting discussion, 54:00–56:00](https://www.youtube.com/watch?v=SkPcJk244sA&t=3240s)
+[Supporting discussion, 54:04–54:09](https://www.youtube.com/watch?v=SkPcJk244sA&t=3244s)
 
 ### Do not assume a league creates campaign motivation
 
@@ -6601,26 +6548,25 @@ Competition tracking can reduce enthusiasm if it only records that a player is a
 
 **Design prompt:** Measure success by whether the campaign increases interest in future games, not only by whether it produces a ranking.
 
-[Supporting discussion, 46:00–51:00](https://www.youtube.com/watch?v=SkPcJk244sA&t=2760s)
+[Supporting discussion, 49:23–49:31](https://www.youtube.com/watch?v=SkPcJk244sA&t=2963s)
 
-### Keep crossover campaign layers from rewarding one skill twice
+### Consider compounded mastery across campaign layers
 
-Combining a map game and tabletop game can magnify the advantage of players who master both. Winning the strategic layer may provide an advantage in the skirmish layer, letting one expert dominate both contests.
+Interdependent map and tabletop systems can magnify the advantage of someone who masters both, while demanding two well-designed games. Winning the strategic layer may provide an advantage in the skirmish layer, letting one expert dominate both contests.
 
 **Tradeoff to consider:** Interdependent layers create depth, but can compound uneven experience and leave others unable to compete.
 
 **Design prompt:** If campaign choices affect battle conditions, limit their power so success in one layer does not decide the other automatically.
 
-[Supporting discussion, 50:00–54:00](https://www.youtube.com/watch?v=SkPcJk244sA&t=3000s)
+[Supporting discussion, 52:10–52:14](https://www.youtube.com/watch?v=SkPcJk244sA&t=3130s)
 
 **Differences in approach or unresolved questions**
 
-- The hosts differ slightly on whether ranking leagues count as campaign systems; they agree that narrative campaigns should increase interest in future games, while competitive scoring can reduce it for some groups.
+- One host separates narrative campaigns from progression systems in his own terminology; the other notes that most players expect a campaign discussion to include progression.
 
 **Episode-specific limits**
 
 - The transcript is a broad discussion of narrative structures and does not prescribe one best format.
-- A large middle portion was truncated in output; examples are selected from clear opening and closing passages, and specific campaign anecdotes are not exhaustively captured.
 
 ## Your Game Needs A Catch-Up Mechanic
 
@@ -6636,7 +6582,7 @@ Catch-up is most useful when players disengage, downtime grows, or outcomes beco
 
 **Design prompt:** Observe when players stop making meaningful decisions and whether the result is already mathematically settled; target that specific problem.
 
-[Supporting discussion, 0:00–4:00](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=0s)
+[Supporting discussion, 2:00–2:05](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=120s)
 
 ### Use rewards to keep eliminated players engaged
 
@@ -6646,27 +6592,27 @@ A catch-up resource can give a player a way back into active play after temporar
 
 **Design prompt:** If a mechanic temporarily removes a player, consider a bounded return path that restores meaningful choices without undoing every consequence.
 
-[Supporting discussion, 2:00–5:00](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=120s)
+[Supporting discussion, 2:38–2:44](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=158s)
 
-### Avoid catch-up when the objective system already keeps play live
+### Identify participation already supported by the engine
 
-A game may not need a conventional comeback bonus if a player can still affect objectives and outcomes despite losing units. In A Billion Suns, losing ships does not necessarily mean losing the mission because utility and objective interactions matter beyond combat strength.
+Explicit comeback bonuses may be less necessary when objectives and deployment keep players active despite unequal combat losses. In A Billion Suns, losing ships does not necessarily mean losing the mission because utility and objective interactions matter beyond combat strength.
 
 **Tradeoff to consider:** Objective play can preserve agency, but can still reach a mathematically closed state or contain loops that need correction.
 
 **Design prompt:** Assess whether trailing players still have plausible ways to influence the scoring conditions before adding explicit catch-up rewards.
 
-[Supporting discussion, 3:00–7:00](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=180s)
+[Supporting discussion, 3:52–3:58](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=232s)
 
 ### Distinguish comeback from spectacular late play
 
-A trailing player may still enjoy a dramatic final action even when it is unlikely to change the winner. Late deployment in A Billion Suns can let a player spend resources on a powerful fleet, creating a last-stand spectacle that may occasionally reverse a close result.
+A trailing player may still enjoy a dramatic final action even when it is unlikely to change the winner. The hosts describe a losing player deploying an overwhelming fleet after the opponent has effectively won, creating a cinematic but futile response to an achieved objective.
 
 **Tradeoff to consider:** Allowing late power creates memorable reversals, but also permits wasteful or frustrating deployments after a player believes the game is lost.
 
 **Design prompt:** Decide whether late actions should offer a real comeback chance, a narrative finale, or both; use social expectations when rules do not constrain them.
 
-[Supporting discussion, 6:00–10:00](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=360s)
+[Supporting discussion, 9:59–10:11](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=599s)
 
 ### Use objectives to resist table elimination
 
@@ -6676,7 +6622,7 @@ Scoring goals can keep a player relevant when combat losses would otherwise remo
 
 **Design prompt:** Check whether a losing force retains objectives or alternate ways to score; do not assume objectives alone solve the engagement problem.
 
-[Supporting discussion, 31:00–36:00](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=1860s)
+[Supporting discussion, 36:12–36:16](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=2172s)
 
 ### Let movement and formation create natural catch-up
 
@@ -6686,7 +6632,7 @@ Some battle structures contain self-balancing effects that isolate successful un
 
 **Design prompt:** Model movement, range, and activation together to see whether a successful attack opens or closes opportunities elsewhere.
 
-[Supporting discussion, 29:00–34:00](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=1740s)
+[Supporting discussion, 31:19–31:28](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=1879s)
 
 ### Do not assume older battle structures solve modern skirmish problems
 
@@ -6696,17 +6642,17 @@ Catch-up built into slow rank-and-flank movement may disappear in highly mobile 
 
 **Design prompt:** Evaluate catch-up at the actual game scale, with its model count, range, and movement; do not import assumptions from a different battle format.
 
-[Supporting discussion, 31:00–36:00](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=1860s)
+[Supporting discussion, 33:36–33:43](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=2016s)
 
 ### Keep the goal as engagement, not guaranteed victory
 
-A catch-up tool can succeed by giving the trailing player meaningful activity even if it does not equalize win probability. The hosts suggest extra resources, headwinds, or other choices that let a player remain active and preserve a close-feeling result.
+A catch-up tool can succeed by giving the trailing player meaningful activity even if it does not equalize win probability. The hosts prioritize remaining engaged and discuss giving otherwise inactive players wandering monsters or atmospheric effects to control, explicitly presenting this as something to experiment with.
 
 **Tradeoff to consider:** Engagement tools may feel cosmetic if they cannot affect the outcome, while strong equalizers may make success feel unearned.
 
 **Design prompt:** Choose whether the problem is boredom, mathematical hopelessness, or both; tune the intervention to improve agency without promising a comeback.
 
-[Supporting discussion, 35:00–39:00](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=2100s)
+[Supporting discussion, 36:40–36:49](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=2200s)
 
 ### Give behind players a new resource before the game ends
 
@@ -6716,7 +6662,7 @@ A late-game resource can matter more to a player who has lost options and provid
 
 **Design prompt:** Consider an earned or contested resource that becomes available after setbacks and lets a player re-enter meaningful decisions.
 
-[Supporting discussion, 20:00–26:00](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=1200s)
+[Supporting discussion, 4:40–4:44](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=280s)
 
 ### Consider a formal way to call a game
 
@@ -6726,7 +6672,7 @@ Players may need a rule-defined way to stop once the game is no longer enjoyable
 
 **Design prompt:** Specify when players may concede and what the outcome means for scores, campaign resources, and surviving models.
 
-[Supporting discussion, 15:00–19:00](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=900s)
+[Supporting discussion, 17:36–17:44](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=1056s)
 
 ### Maintain stakes through tournament or campaign scoring
 
@@ -6736,7 +6682,7 @@ Even a player who cannot win the current match may still care about points that 
 
 **Design prompt:** Choose whether the game should motivate tactical scoring, campaign survival, or immediate victory, then make those stakes explicit.
 
-[Supporting discussion, 18:00–22:00](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=1080s)
+[Supporting discussion, 20:32–20:42](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=1232s)
 
 ### Distinguish rubber bands from leader penalties
 
@@ -6746,7 +6692,7 @@ A catch-up resource and a leader penalty create different player experiences. A 
 
 **Design prompt:** Name the intended catch-up effect and avoid relying on opponents to gang up as the sole balancing procedure.
 
-[Supporting discussion, 21:00–25:00](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=1260s)
+[Supporting discussion, 23:04–23:08](https://www.youtube.com/watch?v=jxTuWF1a8jE&t=1384s)
 
 **Differences in approach or unresolved questions**
 
@@ -6755,7 +6701,6 @@ A catch-up resource and a leader penalty create different player experiences. A 
 **Episode-specific limits**
 
 - The discussion does not provide a universal formula or assert that every miniature game needs a catch-up mechanic.
-- The transcript output was truncated in its middle; distinct visible opening and closing passages support the findings.
 
 ## Designing Tabletop Catch Up Mechanics
 
@@ -6771,7 +6716,7 @@ Catch-up mechanics can preserve interest when a player has no realistic route to
 
 **Design prompt:** Decide whether you want actual comeback chances or simply a satisfying ending; do not mistake visual closeness for restored agency.
 
-[Supporting discussion, 2:00–5:00](https://www.youtube.com/watch?v=CuEZVnOLuls&t=120s)
+[Supporting discussion, 3:05–3:12](https://www.youtube.com/watch?v=CuEZVnOLuls&t=185s)
 
 ### Multiplayer creates kingmaking risk
 
@@ -6781,7 +6726,7 @@ Catch-up has added value in games with three or more players, where someone who 
 
 **Design prompt:** Test multiplayer turn order and endgame choices separately from two-player play; consider whether losing players retain meaningful but bounded agency.
 
-[Supporting discussion, 3:00–6:00](https://www.youtube.com/watch?v=CuEZVnOLuls&t=180s)
+[Supporting discussion, 3:34–3:41](https://www.youtube.com/watch?v=CuEZVnOLuls&t=214s)
 
 ### Do not punish a player for taking the lead
 
@@ -6791,7 +6736,7 @@ A catch-up tool should help trailing players remain involved without making succ
 
 **Design prompt:** Check whether the leader still has a reason to pursue the game's primary goal; reward or constrain based on position without making winning behavior irrational.
 
-[Supporting discussion, 22:00–25:00](https://www.youtube.com/watch?v=CuEZVnOLuls&t=1320s)
+[Supporting discussion, 22:28–22:34](https://www.youtube.com/watch?v=CuEZVnOLuls&t=1348s)
 
 ### Use flexible resources as catch-up and tactical currency
 
@@ -6801,7 +6746,7 @@ A resource earned during play can be more useful to a trailing player while rema
 
 **Design prompt:** Consider giving players an in-game resource that has baseline tactical uses and a stronger recovery use when behind.
 
-[Supporting discussion, 23:00–28:00](https://www.youtube.com/watch?v=CuEZVnOLuls&t=1380s)
+[Supporting discussion, 27:37–27:42](https://www.youtube.com/watch?v=CuEZVnOLuls&t=1657s)
 
 ### Make recovery resources arrive after the setback
 
@@ -6811,51 +6756,31 @@ A catch-up resource is harder to remove from the player if it is granted in resp
 
 **Design prompt:** Test when recovery resources are awarded and whether the trailing player still has access when the game begins to slip away.
 
-[Supporting discussion, 26:00–30:00](https://www.youtube.com/watch?v=CuEZVnOLuls&t=1560s)
+[Supporting discussion, 27:52–27:58](https://www.youtube.com/watch?v=CuEZVnOLuls&t=1672s)
 
-### Do not add a comeback rule when victory conditions already preserve agency
+### Objectives can preserve useful actions after losses
 
-Objective-focused games may remain playable without equalizing combat strength if losses do not prevent scoring. The hosts explain that a force with fewer ships may still perform well by using utility assets and interacting with objectives.
+Objective-focused games can keep players active when redundant ways of scoring survive combat losses. The hosts describe objectives making some units expendable and multiple ways of achieving a goal making it hard to remove all of a player's options.
 
 **Tradeoff to consider:** This avoids extra catch-up rules, but can fail if a player's remaining options are mathematically insufficient or key routes are blocked.
 
 **Design prompt:** Evaluate how combat losses affect access to objectives and whether a trailing player can still take consequential actions before adding a separate bonus.
 
-[Supporting discussion, 3:00–7:00](https://www.youtube.com/watch?v=CuEZVnOLuls&t=180s)
-
-### Separate continued play from guaranteed comeback
-
-A game can preserve dramatic participation without guaranteeing that a losing player will win. The hosts value late deployments and last-stand actions that can occasionally reverse a close game or create a memorable but futile finale.
-
-**Tradeoff to consider:** Spectacle sustains attention but can look like throwing the game if players can make unrestricted late choices.
-
-**Design prompt:** Specify whether late resources are intended to rebalance, offer a last chance, or create a narrative send-off; test how opponents perceive each use.
-
-[Supporting discussion, 7:00–11:00](https://www.youtube.com/watch?v=CuEZVnOLuls&t=420s)
-
-### Match catch-up to game structure
-
-Movement scale and formation rules can provide natural or absent comeback opportunities. Slow rank-and-flank units can be pulled out of position after a successful charge; mobile skirmish units may instead threaten multiple parts of a small table quickly.
-
-**Tradeoff to consider:** Natural positional limits reduce special rules, but may be missing in free-flowing games.
-
-**Design prompt:** Evaluate how many turns it takes for a unit to affect distant objectives and whether successful attacks leave the victor exposed or free to snowball.
-
-[Supporting discussion, 29:00–31:39](https://www.youtube.com/watch?v=CuEZVnOLuls&t=1740s)
+[Supporting discussion, 19:56–20:06](https://www.youtube.com/watch?v=CuEZVnOLuls&t=1196s)
 
 ### Design for engagement as well as score
 
-The most useful catch-up outcome may be a player staying active, making choices, and enjoying the ending rather than changing the winner. The hosts propose extra resources and headwinds as ways to keep a trailing player involved and let them describe a close loss.
+The most useful catch-up outcome may be a player staying active, making choices, and enjoying the ending rather than changing the winner. The hosts explain catch-up as keeping a game worth finishing and illustrate headwinds that compress the visible scoring gap, while warning that this closeness can be illusory.
 
 **Tradeoff to consider:** Engagement may not satisfy players who want strict competitive fairness; strong balancing can reduce the consequences of earlier play.
 
 **Design prompt:** Choose the goal—retention, agency, close scoring, or actual comeback—and design the mechanic around that goal.
 
-[Supporting discussion, 31:37–31:39](https://www.youtube.com/watch?v=CuEZVnOLuls&t=1897s)
+[Supporting discussion, 5:17–5:22](https://www.youtube.com/watch?v=CuEZVnOLuls&t=317s)
 
 **Differences in approach or unresolved questions**
 
-- One host is more comfortable with late, spectacular deployments and social judgment; the other is concerned with fairness and designed catch-up. They agree that an early version that made the leader lose was a flaw.
+- The hosts distinguish an observation that front-runners were being shot apart from an intentional design goal; both agree that making racing to the front nonviable is a flaw requiring correction.
 
 **Episode-specific limits**
 
@@ -6876,7 +6801,7 @@ Output randomness resolves an action after choosing it, while dice spending make
 
 **Design prompt:** Decide whether the random pool should determine action availability or only success; account for that agency difference explicitly.
 
-[Supporting discussion, 0:00–4:00](https://www.youtube.com/watch?v=H3piagVcDyU&t=0s)
+[Supporting discussion, 1:10–1:17](https://www.youtube.com/watch?v=H3piagVcDyU&t=70s)
 
 ### Protect basic actions from unusable pools
 
@@ -6886,7 +6811,7 @@ A poor roll should still allow baseline participation when core actions such as 
 
 **Design prompt:** Separate baseline actions from premium actions so every result has some useful assignment.
 
-[Supporting discussion, 3:00–6:00](https://www.youtube.com/watch?v=H3piagVcDyU&t=180s)
+[Supporting discussion, 4:43–4:49](https://www.youtube.com/watch?v=H3piagVcDyU&t=283s)
 
 ### Give weak dice broad utility and strong dice specific power
 
@@ -6896,7 +6821,7 @@ A pool becomes more interesting when low results remain useful in flexible ways 
 
 **Design prompt:** Map each result's flexibility and strength; test whether a pool with mostly low values still offers meaningful tactical options.
 
-[Supporting discussion, 5:00–8:00](https://www.youtube.com/watch?v=H3piagVcDyU&t=300s)
+[Supporting discussion, 6:14–6:25](https://www.youtube.com/watch?v=H3piagVcDyU&t=374s)
 
 ### Build mitigation into the system
 
@@ -6906,7 +6831,7 @@ Dice spending needs ways to reshape bad pools because even usable results may no
 
 **Design prompt:** Include clear mitigation options and test how often they rescue plans without making the initial roll irrelevant.
 
-[Supporting discussion, 7:00–10:00](https://www.youtube.com/watch?v=H3piagVcDyU&t=420s)
+[Supporting discussion, 8:05–8:11](https://www.youtube.com/watch?v=H3piagVcDyU&t=485s)
 
 ### Make the pool express the turn's strategic texture
 
@@ -6916,7 +6841,7 @@ A variable pool is most satisfying when it changes the style of the turn rather 
 
 **Design prompt:** Define several viable plans that different pools can support; avoid pools that routinely turn a player's whole turn into inactivity.
 
-[Supporting discussion, 35:00–38:00](https://www.youtube.com/watch?v=H3piagVcDyU&t=2100s)
+[Supporting discussion, 35:24–35:30](https://www.youtube.com/watch?v=H3piagVcDyU&t=2124s)
 
 ### Use symbols to soften numeric hierarchy
 
@@ -6926,17 +6851,17 @@ Custom icons can make results feel like categories of opportunity rather than an
 
 **Design prompt:** Consider symbolic results when the design wants players to see qualitative action types instead of simply valuing the largest number.
 
-[Supporting discussion, 8:00–11:00](https://www.youtube.com/watch?v=H3piagVcDyU&t=480s)
+[Supporting discussion, 10:30–10:35](https://www.youtube.com/watch?v=H3piagVcDyU&t=630s)
 
-### Make assignments visible
+### Externalize variable action thresholds
 
-Players need physical ways to see which dice remain available and which have been committed to actions. Battle boards, summary cards, and moving dice between a planning area and a committed area externalize choices that would be hard to hold in memory.
+When dice actions need different target values, a summary aid can reduce frustrating recall demands. The host describes needing a summary card listing thresholds for moving, marching, bolstering, and entering mountains after experimentation with varied action costs.
 
 **Tradeoff to consider:** Visual aids improve planning but add table footprint and component needs.
 
 **Design prompt:** Prototype how dice are laid out and reassigned, and provide concise reference aids for action thresholds and combinations.
 
-[Supporting discussion, 34:00–38:00](https://www.youtube.com/watch?v=H3piagVcDyU&t=2040s)
+[Supporting discussion, 36:27–36:34](https://www.youtube.com/watch?v=H3piagVcDyU&t=2187s)
 
 ### Let tactical state shape the next pool
 
@@ -6946,11 +6871,27 @@ A feedback loop between model positions and dice results can make the miniatures
 
 **Design prompt:** When linking board state to dice generation, test both thematic payoff and whether the loop snowballs or creates a useful positional incentive.
 
-[Supporting discussion, 31:00–34:00](https://www.youtube.com/watch?v=H3piagVcDyU&t=1860s)
+[Supporting discussion, 33:08–33:17](https://www.youtube.com/watch?v=H3piagVcDyU&t=1988s)
 
-**Differences in approach or unresolved questions**
+### Put dice spending at the center when it carries the game
 
-- The hosts note that dice assignment can create an enjoyable adaptation puzzle, but differ in how much randomness is acceptable before it denies the player's intended turn; they agree mitigation is necessary.
+The host argues that the rich allocation puzzle should occupy a central role rather than decorate a peripheral subsystem. A Billion Suns abandoned a dice-assignment command system when its economy, ship acquisition and spatial relationships proved more central; low rolls had also become increasingly punitive as damage raised order requirements.
+
+**Tradeoff to consider:** An attractive imported mechanic can compete with the game's strongest decisions and amplify setbacks, even when it works well elsewhere.
+
+**Design prompt:** Before adding dice allocation, decide whether adapting and manipulating the pool is an activity the whole game should foreground.
+
+[Supporting discussion, 19:10–22:29](https://www.youtube.com/watch?v=H3piagVcDyU&t=1150s)
+
+### Consider public allocation before secret dice plans
+
+The hosts favor public dice assignment in this discussion because it can be a shared, simultaneous part of the game. They describe discussing visible Saga allocations and contrast that experience with hiding dice behind a screen; easily rotated dice also create accidental alteration and trust concerns.
+
+**Tradeoff to consider:** Secrecy creates a reveal moment but sacrifices communal planning and makes the original rolled state harder to verify. This is the hosts' preference, not a universal prohibition.
+
+**Design prompt:** Test public allocation as its own interaction before adding a screen or hidden reveal, and consider how players preserve rolled faces.
+
+[Supporting discussion, 23:01–24:50](https://www.youtube.com/watch?v=H3piagVcDyU&t=1381s)
 
 **Episode-specific limits**
 
@@ -6971,7 +6912,7 @@ Push-your-luck gives players a choice to repeat a risky action for greater gain 
 
 **Design prompt:** Make the decision to stop or press explicit and ensure each additional attempt meaningfully changes both reward and bust risk.
 
-[Supporting discussion, 1:00–4:00](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=60s)
+[Supporting discussion, 2:48–2:55](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=168s)
 
 ### Watch for leader snowball
 
@@ -6981,7 +6922,7 @@ A trailing player may feel forced to take greater risks than the leader, making 
 
 **Design prompt:** Test the same risk choice from ahead and behind; consider equalizing stakes or making failure costs independent of current score.
 
-[Supporting discussion, 6:00–9:00](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=360s)
+[Supporting discussion, 7:45–7:57](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=465s)
 
 ### Keep a safe baseline action
 
@@ -6991,7 +6932,7 @@ A push-your-luck system should not make a player feel they must gamble just to p
 
 **Design prompt:** Ensure the low-risk choice still produces a meaningful turn, then make extra attempts attractive but not mandatory.
 
-[Supporting discussion, 8:00–12:00](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=480s)
+[Supporting discussion, 10:00–10:13](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=600s)
 
 ### Put risk around a central shared resource
 
@@ -7001,7 +6942,7 @@ A push-your-luck choice feels more consequential when it changes a resource that
 
 **Design prompt:** Use a common resource only when both players understand its value and the consequences of adding to or exhausting it.
 
-[Supporting discussion, 23:00–26:00](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=1380s)
+[Supporting discussion, 25:36–25:46](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=1536s)
 
 ### Bound how far players can push
 
@@ -7011,7 +6952,7 @@ A clear upper limit can keep risk decisions tense without allowing a single turn
 
 **Design prompt:** Set a maximum risk range and test whether players face a real choice at multiple points rather than routinely selecting the same number.
 
-[Supporting discussion, 18:00–24:00](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=1080s)
+[Supporting discussion, 9:53–10:05](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=593s)
 
 ### Make busting change the table state
 
@@ -7021,17 +6962,17 @@ A failed push can be more engaging when it creates a visible consequence instead
 
 **Design prompt:** Design bust outcomes that fit the miniatures' physical space and create further decisions; avoid a dead result that simply wastes setup and time.
 
-[Supporting discussion, 30:00–33:00](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=1800s)
+[Supporting discussion, 32:24–32:30](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=1944s)
 
 ### Solo play tolerates harsher risk more easily
 
-A solo opponent avoids some fairness and collusion problems because risk does not push another human player over the same cliff. The hosts describe noise or repeated actions increasing a monster's chance to detect or attack the solo character.
+Solo play avoids the problem of a shared risk mechanism imposing consequences on another human player. The host describes a solo prototype in which making noise powers a blind monster's response, then contrasts this with the difficulty of feedback loops that punish players in opposed games.
 
 **Tradeoff to consider:** Solo systems can use sharper risk escalation, though they still need meaningful player choices and understandable consequences.
 
 **Design prompt:** When adapting push-your-luck to competitive play, revisit any penalty that was harmless against an automated opponent.
 
-[Supporting discussion, 26:00–30:00](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=1560s)
+[Supporting discussion, 28:31–28:40](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=1711s)
 
 ### Engineer suspense as performance
 
@@ -7041,11 +6982,7 @@ A visible, escalating risk can make the table watch a roll together and create a
 
 **Design prompt:** Reserve escalation for moments with clear stakes and consequences; use the physical board to make success and failure visually legible.
 
-[Supporting discussion, 31:00–33:00](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=1860s)
-
-**Differences in approach or unresolved questions**
-
-- The hosts agree that push-your-luck can create suspense but differ in appetite for how central it should be; one emphasizes careful limits and competitive fairness, while the other highlights spectacle and positional consequences.
+[Supporting discussion, 31:40–31:46](https://www.youtube.com/watch?v=E0DIj1aOY4I&t=1900s)
 
 **Episode-specific limits**
 
@@ -7060,13 +6997,13 @@ The hosts discuss translating balancing, stacking, throwing, and flicking dexter
 
 ### Make physical actions express the fiction
 
-Dexterity procedures can make a game's central physical premise present in the player's hands, not only in its written rules. Space Gits uses dice stacks to represent drunken orcs and dice placement to represent movement, attacks, and displacement.
+Dexterity procedures can make a game's central physical premise present in the player's hands, not only in its written rules. The host describes the alpha Space Gits prototype using dice stacks to represent drunken orcs, with physical dice procedures for movement, attacks, and displacement.
 
 **Tradeoff to consider:** Physical play increases tactile fun but transfers some control from the player to the geometry and objects on the table.
 
 **Design prompt:** Choose physical actions that embody the setting and test whether the resulting loss of precision feels expressive rather than arbitrary.
 
-[Supporting discussion, 0:00–4:00](https://www.youtube.com/watch?v=R5fY2BwgubE&t=0s)
+[Supporting discussion, 2:35–2:43](https://www.youtube.com/watch?v=R5fY2BwgubE&t=155s)
 
 ### Use rising physical tension as a persistent loop
 
@@ -7076,7 +7013,7 @@ A stack can create an escalating tension arc that keeps a player engaged even wh
 
 **Design prompt:** Tie stacking height to a meaningful game state and make failure produce a visible next decision rather than simply remove the model.
 
-[Supporting discussion, 1:00–4:00](https://www.youtube.com/watch?v=R5fY2BwgubE&t=60s)
+[Supporting discussion, 2:56–3:04](https://www.youtube.com/watch?v=R5fY2BwgubE&t=176s)
 
 ### Treat shared components as a design constraint
 
@@ -7086,7 +7023,7 @@ A dexterity game can behave differently depending on the size, weight, grip, and
 
 **Design prompt:** Decide whether component variation is part of the fun or an uncontrolled balance problem; specify size or surface requirements if consistency matters.
 
-[Supporting discussion, 12:00–15:00](https://www.youtube.com/watch?v=R5fY2BwgubE&t=720s)
+[Supporting discussion, 13:35–13:43](https://www.youtube.com/watch?v=R5fY2BwgubE&t=815s)
 
 ### Specify the surface when friction drives play
 
@@ -7096,7 +7033,7 @@ In a dexterity game, table texture can function like terrain and alter the diffi
 
 **Design prompt:** Test across common table surfaces and state acceptable materials or acknowledge that surface texture is a deliberate variable.
 
-[Supporting discussion, 14:00–17:00](https://www.youtube.com/watch?v=R5fY2BwgubE&t=840s)
+[Supporting discussion, 15:45–15:52](https://www.youtube.com/watch?v=R5fY2BwgubE&t=945s)
 
 ### Let random movement create characterful control loss
 
@@ -7106,7 +7043,7 @@ A movement action can be random in both distance and direction to make impaired 
 
 **Design prompt:** Use a physical randomizer when uncertainty itself expresses the fiction; keep enough choice in order or destination selection for players to adapt.
 
-[Supporting discussion, 3:00–6:00](https://www.youtube.com/watch?v=R5fY2BwgubE&t=180s)
+[Supporting discussion, 4:51–5:01](https://www.youtube.com/watch?v=R5fY2BwgubE&t=291s)
 
 ### Match physical risk to miniature value
 
@@ -7116,7 +7053,7 @@ Dexterity play near finely painted miniatures creates a tension between tactile 
 
 **Design prompt:** Consider model durability, table spacing, and component weight as part of the rules environment; make the degree of rough handling clear to players.
 
-[Supporting discussion, 17:00–23:00](https://www.youtube.com/watch?v=R5fY2BwgubE&t=1020s)
+[Supporting discussion, 20:03–20:10](https://www.youtube.com/watch?v=R5fY2BwgubE&t=1203s)
 
 ### Build several scales of tension
 
@@ -7126,7 +7063,7 @@ A persistent dexterity challenge can provide small moments of suspense inside a 
 
 **Design prompt:** Use a compact physical loop that resolves quickly and continues to matter, so it adds tension without replacing the core game.
 
-[Supporting discussion, 26:00–30:00](https://www.youtube.com/watch?v=R5fY2BwgubE&t=1560s)
+[Supporting discussion, 28:04–28:12](https://www.youtube.com/watch?v=R5fY2BwgubE&t=1684s)
 
 ### Use dexterity to create visible action
 
@@ -7136,7 +7073,7 @@ Physical dice and tokens can make actions visible in a way that abstract rolls o
 
 **Design prompt:** Choose physical components whose locations communicate actions and consequences; make the table state part of the feedback players see.
 
-[Supporting discussion, 22:00–25:00](https://www.youtube.com/watch?v=R5fY2BwgubE&t=1320s)
+[Supporting discussion, 23:23–23:31](https://www.youtube.com/watch?v=R5fY2BwgubE&t=1403s)
 
 ### Decide whether dexterity should reward learned skill
 
@@ -7146,7 +7083,7 @@ Physical uncertainty can be mostly random or allow players to improve through pr
 
 **Design prompt:** State which outcomes players can influence, then test whether the actual table surface and dice make that influence perceptible.
 
-[Supporting discussion, 4:00–8:00](https://www.youtube.com/watch?v=R5fY2BwgubE&t=240s)
+[Supporting discussion, 7:24–7:30](https://www.youtube.com/watch?v=R5fY2BwgubE&t=444s)
 
 ### Prototype component tolerances early
 
@@ -7156,7 +7093,7 @@ A physical mechanic can behave differently with components that appear interchan
 
 **Design prompt:** Test common component sizes and surfaces, then either specify acceptable materials or embrace variation as part of the design.
 
-[Supporting discussion, 10:00–14:00](https://www.youtube.com/watch?v=R5fY2BwgubE&t=600s)
+[Supporting discussion, 13:03–13:10](https://www.youtube.com/watch?v=R5fY2BwgubE&t=783s)
 
 ### Make tactical symbols match their physical language
 
@@ -7166,7 +7103,7 @@ A dexterity system should use gestures and symbols that communicate the intended
 
 **Design prompt:** Test the physical action, icon, and resolution relationship together rather than treating the symbol as decoration.
 
-[Supporting discussion, 16:00–20:00](https://www.youtube.com/watch?v=R5fY2BwgubE&t=960s)
+[Supporting discussion, 18:52–18:59](https://www.youtube.com/watch?v=R5fY2BwgubE&t=1132s)
 
 ### Turn rolling into a visible event on the battlefield
 
@@ -7176,7 +7113,7 @@ A physical randomizer can also communicate where an action happens. In the proto
 
 **Design prompt:** Use physical random placement when it adds useful shared information, and protect models through component scale and clear handling expectations.
 
-[Supporting discussion, 22:00–26:00](https://www.youtube.com/watch?v=R5fY2BwgubE&t=1320s)
+[Supporting discussion, 23:54–24:06](https://www.youtube.com/watch?v=R5fY2BwgubE&t=1434s)
 
 **Differences in approach or unresolved questions**
 
@@ -7201,17 +7138,17 @@ Pre-game deck construction gives players control before play; deckbuilding chang
 
 **Design prompt:** Name the timing and purpose of deck changes before borrowing the mechanic; test whether players can understand it from familiar card actions.
 
-[Supporting discussion, 2:00–6:00](https://www.youtube.com/watch?v=DEXPYDM-brM&t=120s)
+[Supporting discussion, 3:48–3:59](https://www.youtube.com/watch?v=DEXPYDM-brM&t=228s)
 
 ### Keep imported systems close to the table
 
-A borrowed mechanic feels integrated when its choices remain connected to models and battlefield events. Cards held in front of players and familiar actions such as discarding or replacing a card are presented as immediate and legible.
+A borrowed mechanic feels integrated when its choices remain connected to models and battlefield events. The hosts describe Malifaux players retaining an unwanted Black Joker outside circulation at the cost of hand size, using that example to argue that an explicit trashing rule would be understandable.
 
 **Tradeoff to consider:** Rich card decisions can add depth, but detached sideboards and token administration pull attention away from miniatures.
 
 **Design prompt:** Tie a card change to an observable event or model state, and avoid a remote subsystem unless its payoff justifies the attention cost.
 
-[Supporting discussion, 6:00–10:00](https://www.youtube.com/watch?v=DEXPYDM-brM&t=360s)
+[Supporting discussion, 7:29–7:34](https://www.youtube.com/watch?v=DEXPYDM-brM&t=449s)
 
 ### Use deck shaping for progression without simple power escalation
 
@@ -7221,7 +7158,7 @@ Deck changes can represent a force changing its specialties rather than merely b
 
 **Design prompt:** Use replacement or reshaping when the intended story is a shift in emphasis; spell out which battlefield event permits it.
 
-[Supporting discussion, 10:00–14:00](https://www.youtube.com/watch?v=DEXPYDM-brM&t=600s)
+[Supporting discussion, 11:56–12:02](https://www.youtube.com/watch?v=DEXPYDM-brM&t=716s)
 
 ### Represent attrition through changing activation decks
 
@@ -7231,7 +7168,7 @@ A declining deck can show reduced operational capacity without removing miniatur
 
 **Design prompt:** If using card attrition, connect each removed card to a clear effect and test whether the remaining units still have meaningful choices.
 
-[Supporting discussion, 12:00–16:00](https://www.youtube.com/watch?v=DEXPYDM-brM&t=720s)
+[Supporting discussion, 13:45–13:49](https://www.youtube.com/watch?v=DEXPYDM-brM&t=825s)
 
 ### Choose a coherent scale for deck effects
 
@@ -7241,7 +7178,7 @@ Effects should operate at a scale that makes narrative sense for the deck they a
 
 **Design prompt:** State whether a deck belongs to a character, unit, or force, then restrict inserted conditions to effects that plausibly apply at that scale.
 
-[Supporting discussion, 14:00–18:00](https://www.youtube.com/watch?v=DEXPYDM-brM&t=840s)
+[Supporting discussion, 15:45–15:52](https://www.youtube.com/watch?v=DEXPYDM-brM&t=945s)
 
 ### Use cards to express faction identity economically
 
@@ -7251,7 +7188,7 @@ Shared card procedures can make factions feel distinct without giving every unit
 
 **Design prompt:** Give factions a small set of consistent deck interactions and explain what battlefield condition each represents.
 
-[Supporting discussion, 16:00–20:00](https://www.youtube.com/watch?v=DEXPYDM-brM&t=960s)
+[Supporting discussion, 16:28–16:35](https://www.youtube.com/watch?v=DEXPYDM-brM&t=988s)
 
 ### Constrain explosive card chains in miniature games
 
@@ -7261,7 +7198,7 @@ A dramatic deck “kick” can create excitement, but its swing must not bury th
 
 **Design prompt:** Limit frequency, scope, or payoff of chain effects; ensure a successful combo still asks players to make battlefield decisions.
 
-[Supporting discussion, 18:00–23:00](https://www.youtube.com/watch?v=DEXPYDM-brM&t=1080s)
+[Supporting discussion, 20:03–20:09](https://www.youtube.com/watch?v=DEXPYDM-brM&t=1203s)
 
 ### Let card geometry interact with the battlefield
 
@@ -7271,7 +7208,7 @@ Physical cards can function as templates and spatial tools, not only as abstract
 
 **Design prompt:** Use card geometry when placement is central to the mechanic; prefer an ordinary deck when lowering entry barriers matters more.
 
-[Supporting discussion, 21:00–26:00](https://www.youtube.com/watch?v=DEXPYDM-brM&t=1260s)
+[Supporting discussion, 22:33–22:40](https://www.youtube.com/watch?v=DEXPYDM-brM&t=1353s)
 
 ### Carry deck changes across campaign games
 
@@ -7281,17 +7218,17 @@ Persistent deck evolution can make a campaign’s shared history tangible. Playe
 
 **Design prompt:** Define whether campaign card changes are reversible, who owns the evolving deck, and how new or returning players can join.
 
-[Supporting discussion, 24:00–30:30](https://www.youtube.com/watch?v=DEXPYDM-brM&t=1440s)
+[Supporting discussion, 27:58–28:03](https://www.youtube.com/watch?v=DEXPYDM-brM&t=1678s)
 
-### Prototype with standard components before custom production
+### Standard decks lower barriers to entry
 
-A normal deck of cards offers a low-cost test bed for many deck mechanics. The hosts note that suits, colors, face cards, and card orientation can create varied functions without a bespoke deck.
+A normal deck can offer substantial mechanical variety while keeping a miniature game accessible to players without bespoke cards. The hosts contrast publishing a custom deck with using familiar cards, highlighting colors, face cards, and subdivisions of cards as useful affordances.
 
 **Tradeoff to consider:** Standard components lower barriers and improve accessibility, while limiting the range of tailored effects and presentation.
 
 **Design prompt:** Prototype the core loop with a standard deck; commission custom cards only when their physical features materially improve play.
 
-[Supporting discussion, 23:00–30:00](https://www.youtube.com/watch?v=DEXPYDM-brM&t=1380s)
+[Supporting discussion, 25:06–25:12](https://www.youtube.com/watch?v=DEXPYDM-brM&t=1506s)
 
 **Episode-specific limits**
 

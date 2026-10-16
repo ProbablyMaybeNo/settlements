@@ -1,14 +1,15 @@
 ---
 type: research-index
 title: Rule of Carnage Episode Index
+status: Complete for selected playlists
 tags: [settlements/research, game-design]
 retrieved: 2026-10-15
 ---
 # Rule of Carnage Episode Index
 
-All 83 distinct videos in the six selected playlists have timestamped English transcript captures. The playlists contain 96 entries, including repeats within The Basics and overlaps between playlists.
+All **83 distinct videos** in the six selected playlists have timestamped English transcript captures. The playlists contain **96 entries**, including repeats within The Basics and overlaps between playlists.
 
-Design reference: [[Rule of Carnage Skirmish Game Design Reference]].
+Read [[Rule of Carnage Skirmish Game Design Reference]] by topic, or [[Rule of Carnage Episode Notes]] for the detailed findings under each episode title.
 
 ## Playlist coverage
 
@@ -21,11 +22,11 @@ Design reference: [[Rule of Carnage Skirmish Game Design Reference]].
 | [Other Mechanics.](https://www.youtube.com/playlist?list=PLhcmIWRM4EH5nV8kFRMDqo8swiTmHdWNM) | 5 | 5 | 5 |
 | [Cursed Problems.](https://www.youtube.com/playlist?list=PLhcmIWRM4EH6nrfSvF_-oWVHRuxMb2LP2) | 11 | 11 | 11 |
 
+The requested ‘Cured Problems’ playlist is titled **Cursed Problems** on the channel.
+
 ## Sources
 
-The source captures retain caption wording and timestamps. Most captions are automatic or of unknown track origin; names and specialist terms can be mistranscribed. Collection checks confirm file integrity, ordered timestamps, and coverage near the beginning and end; they do not independently verify speech against the audio.
-
-Raw captures are in `D:/AI-Workstation/Antigravity/apps/Settlements/research/sources/rule-of-carnage/`.
+The captures retain caption wording and timestamps. Most captions are automatic or of unknown track origin; names and specialist terms can be mistranscribed. Collection checks confirm file integrity, ordered timestamps and coverage near the beginning and end. They do not independently verify speech against audio.
 
 | Video | Duration | Playlists | Capture method |
 | --- | --- | --- | --- |
@@ -63,7 +64,7 @@ Raw captures are in `D:/AI-Workstation/Antigravity/apps/Settlements/research/sou
 | [Finding your voice.](https://www.youtube.com/watch?v=qqDrQQ6Bg40) | 40:21 | The Basics | YouTube captions |
 | [Additional Voices.](https://www.youtube.com/watch?v=FGzcB6Bhrgg) | 47:41 | The Basics | YouTube captions |
 | [Affordances and what you shouldn't let your players do.](https://www.youtube.com/watch?v=ao1l5G6-WOE) | 30:35 | The Basics, Cursed Problems | YouTube captions |
-| [Non-miniature removal.](https://www.youtube.com/watch?v=RByi1Jyvy10) | 30:56 | The Basics | YouTube transcript panel |
+| [Non-miniature removal.](https://www.youtube.com/watch?v=RByi1Jyvy10) | 30:56 | The Basics | Visible YouTube transcript |
 | [How to produce minis as an independent designer.](https://www.youtube.com/watch?v=bxWL7tqnSWY) | 30:00 | The Basics | FreeTranscriptAPI |
 | [How to produce books as an independent designer.](https://www.youtube.com/watch?v=98Co_mdwcPw) | 34:30 | The Basics | FreeTranscriptAPI |
 | [A Billion Suns: Second Edition \| Design Goals](https://www.youtube.com/watch?v=694bwtpMcq8) | 28:14 | The Basics | FreeTranscriptAPI |
@@ -115,4 +116,6 @@ Raw captures are in `D:/AI-Workstation/Antigravity/apps/Settlements/research/sou
 
 ## Analysis coverage
 
-Collection is complete. The topic reference and episode findings are being prepared from the captured transcripts. The short UKGE walk-around and commercial discussions remain in the inventory; only their relevant design or production lessons belong in the reference.
+All 83 sources are represented in the episode companion, with **688 findings**. Full-transcript extraction was followed by contextual checks of supporting passages. The short UKGE walk-around remains indexed without invented mechanics findings. Commercial discussions contribute production lessons rather than current price advice.
+
+Raw captures, inventory, hashes and validation reports are preserved at `D:/AI-Workstation/Antigravity/apps/Settlements/research/sources/rule-of-carnage/`.

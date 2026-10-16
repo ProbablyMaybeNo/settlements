@@ -1,7 +1,7 @@
 ---
 type: research-reference
 title: Rule of Carnage Skirmish Game Design Reference
-status: Draft
+status: Complete for selected playlists
 retrieved: 2026-10-15
 tags: [settlements/research, game-design, skirmish-games]
 ---
@@ -312,6 +312,10 @@ Equipment, scars, injuries and advancement can memorialize events players alread
 
 Follow the reward curve across several wins and losses. Giving the winner more future strength while removing the loser's assets compounds an initial gap. Possible brakes include capped gains, baseline support, recovery and unlocking options rather than simply adding power. Broader options still confer flexibility, so an unlock is not automatically balance-neutral. [Campaign Progression](https://www.youtube.com/watch?v=8rLqTB5EEg4)
 
+A brake that only delays the same inevitable runaway has not solved that problem. The hosts also challenge random deprivation being defended as story: unequal rewards can create anecdotes while denying access to the models, equipment or content a player wanted. Distinguish an interesting consequence from a frustrating restriction. [Campaign Progression](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=703s), [random rewards](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=894s)
+
+Growth can record what a character actually did. A short achievement checklist can connect advancement to action, while different useful reward paths can give both successful and struggling players something to anticipate. Campaign victory and roster growth can also follow separate tracks, so developing a force does not automatically move it closer to winning the wider competition. These choices need their own rules and testing. [Campaign Progression](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=1160s), [separate goals](https://www.youtube.com/watch?v=8rLqTB5EEg4&t=1837s)
+
 Real groups miss sessions. Decide how absent or returning players can rejoin without making either attendance or ordinary life feel punished. Reward limits and baseline participation rules need to preserve both a reason to win and a reason to continue after losing. [Campaign Progression](https://www.youtube.com/watch?v=8rLqTB5EEg4)
 
 ### Narrative structures
@@ -326,6 +330,8 @@ Real groups miss sessions. Decide how absent or returning players can rejoin wit
 A map can organize encounters without becoming a complete resource-and-conquest game. Even territory with no explicit combat bonus can accumulate a decisive scoring advantage. Test whether the extra layer increases enthusiasm for the next battle or turns ordinary games into an obligation for someone already behind. [Narrative Campaigns](https://www.youtube.com/watch?v=SkPcJk244sA)
 
 Campaign scenarios can record information, personal achievements, escape, loot or a changed future situation instead of only win/loss. Narrative is not a synonym for noncompetitive or deliberately unbalanced: asymmetry, preparation and persistent consequences are separate attributes. [Designing Scenarios](https://www.youtube.com/watch?v=efVHaNo50MA&t=1440s)
+
+Authored scenarios reduce the invention required from players, but create obligations around cast, forces and roles. Explain who supplies or plays the antagonists and how new people enter. A tutorial sequence should help newcomers without forcing an experienced group to restart its entire story. Cooperative or solo presentation can suit a strongly prescribed narrative more readily than asking one opponent to serve as another player's disposable obstacle. [Narrative](https://www.youtube.com/watch?v=FqDy4m-xmTk)
 
 Campaign validation is a separate undertaking. Isolated battles and hypothetical late-stage rosters can expose defects but miss interactions across a complete sequence. The hosts emphasize the time and coordination needed for end-to-end runs. Do not present a battle test as proof of a healthy campaign. [Why Campaigns?](https://www.youtube.com/watch?v=rihuqsIcn30&t=540s)
 
@@ -356,6 +362,8 @@ Scope is a powerful complexity tool. A bounded environment can avoid rules for m
 ### Borrow mechanics with a clear connection to the battlefield
 
 **Dice allocation:** roll resources, then choose their assignments. Keep basic participation possible with poor results; make different pools suggest different viable plans. Rerolls, conversion or sacrificing one result to reshape others can mitigate a bad pool, at the cost of another decision layer. Track available and committed dice visibly. Connecting future pools to current positions can integrate the systems, but may also amplify a lead. [Dice Spend](https://www.youtube.com/watch?v=H3piagVcDyU)
+
+The hosts argue that this allocation puzzle is substantial enough to deserve a central place if it is used. Mike describes removing it from A Billion Suns when other decisions proved more important. They also favor open allocation in this discussion: discussing visible results can be communal, while concealed dice sacrifice that interaction and are easier to alter accidentally. These are reasons to test the whole experience before adding a hidden reveal. [Dice Spend, central role](https://www.youtube.com/watch?v=H3piagVcDyU&t=1150s), [public allocation](https://www.youtube.com/watch?v=H3piagVcDyU&t=1381s)
 
 **Push your luck:** the player chooses whether to stop or risk accumulated value for more. A risky resolution with no continue/stop choice is a different mechanism. Preserve a useful safe option, limit runaway sequences and test incentives from ahead and behind. A trailing player forced to gamble more can fall further behind. Visible failure consequences can make the risk a shared spectacle. [Push Your Luck](https://www.youtube.com/watch?v=E0DIj1aOY4I)
 

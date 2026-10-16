@@ -432,7 +432,6 @@ Every note in `Research/Notes/`, with how deep the underlying read actually went
 | [[Necromunda]] | Necromunda — 1995 Living Rulebook & N23 (2023) Core Rulebook, core rules only | Games Workshop | **Primary** — NecroRAW verbatim consolidation, cross-checked page-for-page against two library primary sources (the 1995 PDF and the N23 epub) | `research/sources/necromunda/source-core.md` |
 | [[Necromunda Campaigns]] | Necromunda — all 8 published campaign systems (N17→N23, 2017–2024) | Games Workshop Design Studio | **Primary** — official text via NecroRAW consolidation; Outlander settlement section directly verified page-for-page against `book-of-the-outcast.pdf` | `research/sources/necromunda-campaigns/` |
 | [[Necromunda Homebrew Campaigns]] | Necromunda — homebrew/community campaign layer (deals, Arbitrator role, Triumphs, settlement events) | Multiple community authors; one source (`arbitrator-campaign.pdf`) reads as GW studio-authored, flagged in the note | **Community reconstruction** — 5 of 17 curated PDFs read closely, remainder grepped/spot-checked for convergence (94-file library, 17 curated, ~77 uncaptured) | `research/sources/necromunda-homebrew/` |
-
 | [[Rule of Carnage Skirmish Game Design Reference]] | Rule of Carnage — six selected design playlists | Rule of Carnage | **83 caption captures**; full-transcript extraction with contextual finding audits. Primary evidence of the hosts' views; no independent verification of every game example or caption word | `research/sources/rule-of-carnage/` |
 
 ---
