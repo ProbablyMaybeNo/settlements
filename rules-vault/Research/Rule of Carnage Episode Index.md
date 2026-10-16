@@ -13,14 +13,14 @@ Read [[Rule of Carnage Skirmish Game Design Reference]] by topic, or [[Rule of C
 
 ## Playlist coverage
 
-| Playlist | Listed entries | Distinct videos | Transcripts collected |
-| --- | ---: | ---: | ---: |
-| [The Basics](https://www.youtube.com/playlist?list=PLhcmIWRM4EH43NqkXKsoHbyMqbIrlUw9j) | 48 | 40 | 40 |
-| [Getting Started.](https://www.youtube.com/playlist?list=PLhcmIWRM4EH77Kz0zSkJxLmaTQLSd7qH5) | 8 | 8 | 8 |
-| [Advanced Design](https://www.youtube.com/playlist?list=PLhcmIWRM4EH6PmsoK32POgMtUJozCc2Mb) | 21 | 21 | 21 |
-| [Playtesting](https://www.youtube.com/playlist?list=PLhcmIWRM4EH7ANACKJtL8CrNSt67c8boo) | 3 | 3 | 3 |
-| [Other Mechanics.](https://www.youtube.com/playlist?list=PLhcmIWRM4EH5nV8kFRMDqo8swiTmHdWNM) | 5 | 5 | 5 |
-| [Cursed Problems.](https://www.youtube.com/playlist?list=PLhcmIWRM4EH6nrfSvF_-oWVHRuxMb2LP2) | 11 | 11 | 11 |
+| Playlist                                                                                     | Listed entries | Distinct videos | Transcripts collected |
+| -------------------------------------------------------------------------------------------- | -------------: | --------------: | --------------------: |
+| [The Basics](https://www.youtube.com/playlist?list=PLhcmIWRM4EH43NqkXKsoHbyMqbIrlUw9j)       |             48 |              40 |                    40 |
+| [Getting Started.](https://www.youtube.com/playlist?list=PLhcmIWRM4EH77Kz0zSkJxLmaTQLSd7qH5) |              8 |               8 |                     8 |
+| [Advanced Design](https://www.youtube.com/playlist?list=PLhcmIWRM4EH6PmsoK32POgMtUJozCc2Mb)  |             21 |              21 |                    21 |
+| [Playtesting](https://www.youtube.com/playlist?list=PLhcmIWRM4EH7ANACKJtL8CrNSt67c8boo)      |              3 |               3 |                     3 |
+| [Other Mechanics.](https://www.youtube.com/playlist?list=PLhcmIWRM4EH5nV8kFRMDqo8swiTmHdWNM) |              5 |               5 |                     5 |
+| [Cursed Problems.](https://www.youtube.com/playlist?list=PLhcmIWRM4EH6nrfSvF_-oWVHRuxMb2LP2) |             11 |              11 |                    11 |
 
 The requested ‘Cured Problems’ playlist is titled **Cursed Problems** on the channel.
 
