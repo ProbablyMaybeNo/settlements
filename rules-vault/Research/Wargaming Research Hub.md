@@ -8,7 +8,7 @@ status: Living
 
 > **What this is.** Every notable rules system or mechanic we've come across — read in a rulebook, found on Reddit, dug out of a forum, or thought up ourselves — logged in one row so it can be found again, and linked to a full write-up so the actual rules are one click away.
 >
-> **What this is not.** Not a to-do list and not a design decision. Nothing here is adopted into Settlements by being written down. Adoption happens in [[Settlements/Rules System/Archived/Full Rules System v1]] and nowhere else.
+> **What this is not.** Not a to-do list and not a design decision. Nothing here is adopted into Settlements by being written down. The current working rules are [[Settlements Rules System Version 2]]; research suggestions are not automatically adopted.
 
 > [!tip] How to use it
 > **Reading:** scan the **Type** section you're designing in, then follow the link for the real rules. **Ctrl+Hover** a link to peek without leaving this note.
@@ -22,6 +22,10 @@ status: Living
 > ⭐ **steal** — do this, or something like it · ⚙️ **adapt** — good idea, wrong shape for us · ⚠️ **avoid** — instructive failure · 📎 **reference** — context, not a candidate.
 
 ---
+## Current Settlements application
+
+[[Draft 2 - Design Requirements and Research Audit]] maps the research to Ross's October 17 tenets and the complete proposed manuscript. Earlier “for Settlements” commentary may assume Draft 1, old costs or an older edition of another game; consult the audit before importing it.
+
 ## Game design references
 
 | Take | Source | Scope | Full write-up |

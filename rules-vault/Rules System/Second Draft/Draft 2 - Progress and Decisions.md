@@ -1,105 +1,39 @@
-# Draft 2 — Progress and Decisions
+# Draft 2 Progress and Decisions
 
-Main document: [[Full Rules System v2]]. Blank systems have no fallback rules. Each section states what remains.
+Current master: [[Settlements Rules System Version 2]]. Design record: [[Draft 2 - Design Requirements and Research Audit]]. Updated 2026-10-17.
 
-| Section | Status | Location |
-| --- | --- | --- |
-| 0 | <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span> | [[Full Rules System v2#0 · The one rule everything else answers to\|0 · The one rule everything else answers to]] |
-| 1 | <span style="color:#7b1fa2"><strong>DRAFTED · PURPLE</strong></span> | [[Full Rules System v2#1 · Core Game Format\|1 · Core Game Format]] |
-| 2 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#2 · The Core Test\|2 · The Core Test]] |
-| 3 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#3 · Turn Structure & Activation\|3 · Turn Structure & Activation]] |
-| 4 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#4 · Movement\|4 · Movement]] |
-| 5 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#5 · Terrain\|5 · Terrain]] |
-| 6 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#6 · Terrain Interaction\|6 · Terrain Interaction]] |
-| 7 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#7 · Shooting\|7 · Shooting]] |
-| 8 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#8 · Melee\|8 · Melee]] |
-| 9 | <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span> | [[Full Rules System v2#9 · Damage\|9 · Damage]] |
-| 10 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#10 · Conditions\|10 · Conditions]] |
-| 11 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#11 · Morale\|11 · Morale]] |
-| 12 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#12 · Hacking\|12 · Hacking]] |
-| 12.5 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#12.5 · Infrastructure\|12.5 · Infrastructure]] |
-| 12.6 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#12.6 · Deployables\|12.6 · Deployables]] |
-| 12.7 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#12.7 · Scenarios\|12.7 · Scenarios]] |
-| 13 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#13 · Unit Design — the stat line\|13 · Unit Design — the stat line]] |
-| 14 | <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span> | [[Full Rules System v2#14 · Skills\|14 · Skills]] |
-| 15 | <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span> | [[Full Rules System v2#15 · Weapons — Basic Weapon System\|15 · Weapons — Basic Weapon System]] |
-| 16 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#16 · List Building\|16 · List Building]] |
-| 17 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#17 · Founding a settlement\|17 · Founding a settlement]] |
-| 18 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#18 · The settlement canvas\|18 · The settlement canvas]] |
-| 19 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#19 · Power\|19 · Power]] |
-| 20 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#20 · Storage & caps\|20 · Storage & caps]] |
-| 21 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#21 · The structure catalogue\|21 · The structure catalogue]] |
-| 22 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#22 · Workers\|22 · Workers]] |
-| 23 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#23 · Territory & the campaign map\|23 · Territory & the campaign map]] |
-| 24 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#24 · Factions\|24 · Factions]] |
-| 25 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#25 · Stealth & Ambush\|25 · Stealth & Ambush]] |
-| 25.5 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#25.5 · The Campaign Turn\|25.5 · The Campaign Turn]] |
-| 26 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#26 · Campaign persistence\|26 · Campaign persistence]] |
-| 27 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#27 · Battlefield Events\|27 · Battlefield Events]] |
-| 28 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#28 · Drones & Chems — advanced modules\|28 · Drones & Chems — advanced modules]] |
-| 28.5 | <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> | [[Full Rules System v2#28.5 · Appendix — Board Representation & Tokens\|28.5 · Appendix — Board Representation & Tokens]] |
-| 28.6 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#28.6 · The Season — how a campaign ends\|28.6 · The Season — how a campaign ends]] |
-| 28.7 | <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> | [[Full Rules System v2#28.7 · Appendix — a worked founding and first campaign turn\|28.7 · Appendix — a worked founding and first campaign turn]] |
-| 29 | <span style="color:#1565c0"><strong>TRACKER · BLUE</strong></span> | [[Full Rules System v2#29 · What's still genuinely open\|29 · What's still genuinely open]] |
+## Completed writing work
 
-## Priority follow-ups
-- [ ] Review/adopt §1 after choosing the battlefield measurement unit and whether to publish a default matched-play Crew Rating; develop scenarios and detailed roster rules in their own sections.
-- [x] Fix opposed natural results for the next pass; design remains experimental.
-- [x] Clarify Rage/Implode timing: Rage adds Stress after its attack; Implode converts Stress during the End Phase into the next melee activation's bonus.
-- [x] Rerun the Rage + Implode combination under cumulative Stress and the finalized Break procedure — Pass 3, report 002. Implemented cycle works; strength and automatic Break avoidance still need design review.
-- [x] Record Pinned restrictions/recovery and forced-flight exception.
-- [ ] Replace redundant Pin Them Down.
-- [x] Record separate signed source caps, printed Damage exclusion and Hidden/cover stacking.
-- [x] Record Dash distance, failed Charge and core reaction/bonus-attack order.
-- [ ] Complete remaining action definitions; use the dated test contract for bounded sequencing cases.
-- [ ] Resolve Marked versus Hidden.
-- [x] Record Stress-free Break/Rally tests, Stress-based severity and recovery sequence.
-- [ ] Review assistant-selected edge cases after the next pass.
-- [ ] Review test results before adopting Return Fire permanently.
-- [ ] Decide skill acquisition later; still intentionally Pł 
-## Skill-specific gaps carried forward for review
-- [ ] **Remaining melee details:** review next-pass declaration range, Parry and Last Laugh sequencing; Ambush/Aerial Assault overlap and failed aerial movement. AGILE supplies stat substitution.
-- [ ] **Treatment:** specify Wounds and state restored by Stabilize.
-- [ ] **Grapple:** release and separation, full Meat Shield targeting order, Crush cost and successful outcome. Do not invent free automatic takedowns.
-- [ ] **DEX:** Marked versus Hidden, Cover Me's failed-intervention damage/Stress, split-fire bonus-die chains, range limits and Breach through sealed doors.
-- [ ] **AGI:** Phantom Shot additional Stress amount; normal Hidden movement penalty for Sneak; limits on Dodge and Parry. The new Ambush replaces the old AGI-attack/free-retaliation version.
-- [ ] **INT:** Trojan range and reusable-device control duration, Interrupt test classification/frequency/network; Tunnels placement minima/arrival; UNCONTESTED and tag replacement; distinct equipment/chem/deployable capacity; Quick Drop tests; Stabilize non-Down test; Stims as chem or not; Smart's qualifying interactions.
-- [ ] **NRV:** aura self-inclusion/LOS/replacement at two slots; last-attack timing; cannot erase overflow Stress through transfers. Hold Fast is a flat -2 to incoming injury rolls within range, with no cover requirement.
+- [x] Parse Ross's full tenets and answers into 54 traceable requirements.
+- [x] Audit the curated Research folder: 33 game notes and the Rule of Carnage synthesis, with 16 targeted episode reviews and six transcript checks.
+- [x] Preserve all thirteen previous Second Draft notes before replacing active reference views.
+- [x] Write the whole rules manuscript with 24 chapters, concrete procedures and worked examples.
+- [x] Complete movement, cover, combat, casualties, morale, stealth, hacking, devices, utility drones and terrain.
+- [x] Supply a usable armoury, equipment, 40 skills, objective procedures and mission generator.
+- [x] Complete injuries, capture, progression and settlement play outside campaigns.
+- [x] Supply twenty structures, Power/workers, founding, prices, construction and recovery.
+- [x] Account for all 75 previous skills and explain major changes from Draft 1/2.
+- [x] Produce the compact battle reference and update navigation/authority.
+- [x] Check document structure, links, catalogue coverage, founding arithmetic and four-page PDF layout; see [[Draft 2 - Manuscript Checks]].
 
-## Build record
-- [x] Create Second Draft in its own folder.
-- [x] Carry forward all 75 selected skills and the weapons-basics catalogue.
-- [x] Record latest conversation decisions in working log.
-- [x] Preserve numbered master structure; leave unselected systems blank with notes.
-- [x] Separate test assumptions from adopted direction.
-- [x] Archive Draft 1 after validating Draft 2.
-- [x] Route old master and main navigation to Draft 2.
-- [x] Add a compact, one-pass decisions workbook with KEEP / CHANGE / DEFAULT / LATER answers and no follow-up questionnaire.
+## Consequential proposed decisions
 
-## Next-pass rules freeze — 2026-09-29
-- User authorised filling assumptions for the next test pass. [[Draft 2 - Simulation Assumptions]] distinguishes confirmed thread rulings from assistant-selected test choices; both must be implemented for this pass.
-- All 75 skills remain; no +3 cap or ten-skill overhaul adopted.
-- Stress now affects Injury rolls as well as other unit rolls; Break/Rally explicitly ignore it. Old simulation conclusions are historical until rerun.
-- Beta Blocker's obsolete Break penalty clause removed; Rally skill uses the shared break-condition definition.
-- No new simulations were run by this rules update. Remaining unsupported systems must be marked blocked, not guessed or assigned zero value.
+One Wound for all humans; alternating individual actions; one own attack and one reaction per round; three-die attack ceiling; no Stress penalty to Injury; simultaneous ordinary shooting for Return Fire; forty skills with no free attack chains; utility-only drones; physical Claim; ten injury outcomes; modest winner income; full rating for advances and discounted gear. See the audit for reasons and provenance.
 
-## Pass 3 review — 2026-09-30
-- [x] Review report 002, its implementation assumptions and Stress diagnostic. Four scripted suites completed; scope is 29 skills and seven rule checks, not full-game balance. See [[SIMULATION RESULTS]].
-- [ ] Correct implementation choice I6: Motivate permits repeating an action; it does not require repetition. Test Recover followed by Shoot using the converted Move slot, then rerun affected support comparisons.
-- [ ] Expand Stress-at-roll diagnostics to defensive melee pools, Injury, reactions and skill/terrain tests, including same-round friendly Recover. The existing diagnostic samples shots and normal carrier-initiated melee, not all unit rolls.
-- [ ] Review automatic Implode Break avoidance and the interaction of its activation expiry with Pinned recovery.
-- [ ] Review Blowing Off Steam's mandatory Stress removal competing with Implode; no replacement effect adopted.
-- [ ] Review NRV test costs after correcting Motivate; do not generalise negative scenario outcomes into universal skill failure.
-- [ ] Review Unflinching/Pinned and relative-cover Return Fire. No rule changes adopted by this review.
+These decisions are written to make a coherent playable proposal. They have not been separately adopted by Ross or validated by playtests.
 
+## Remaining validation and publication work
 
-## Core rulebook outline — 2026-10-14
+- [ ] Ross reviews consequential changes and overall fit to the tenets.
+- [ ] Play a complete first battle and record timings, lookups, terrain use, rescue and morale lockouts.
+- [ ] Test 5-versus-10 action timing, front/rear attacks, hackers and drones across different objectives.
+- [ ] Run repeated persistent cycles with two fixed opponents to check income, injury recovery and advance valuation.
+- [ ] Blind-read the manuscript and reference with players unfamiliar with the design.
+- [ ] Calibrate catalogue prices and the proposed 750-Credit default from evidence.
+- [ ] Write a new dated simulation contract if code testing is used; old engine results do not validate these rules.
+- [ ] Add authored scenarios, setting, fiction, factions and campaign content when Ross is ready.
+- [ ] Complete publication layout, artwork, indexing and accessibility review after rules revisions.
 
-- [x] Create [[Settlements Core Rulebook Outline]] with rulebook parts, chapters, subheadings, keywords, brief content summaries and Pending / Drafted / Confirmed / Canceled / Blocked statuses.
-- [x] Use active Draft 2 as rule authority and local research rulebooks for organisation and presentation only. No blank system filled from Draft 1; no mechanics adopted by the outline.
-- [x] Record the outline as [[Rules System/Rules Ledger/design-004 Draft 2 Core Rulebook Outline]].
-- [ ] Review the proposed book structure and chapter scope.
-- [ ] Reconcile current source conflicts: §1 master now records inches, standard 36 × 36-inch board and rewards while this table still describes the older proposal; Tagged remote-objective removal conflicts with the master and INT catalogue; moving-Pinned base visibility appears only in Keywords; weapon handling terms are marked for relocation.
-- [ ] Complete the playable-battle gaps identified in the outline before writing final quick references or example crews.
+## Historical record
 
-Outline statuses are an editorial assessment, not new rulings or evidence of balance. Existing source statuses are preserved pending reconciliation.
+The former progress checklist and September simulation follow-ups remain in [[Rules System/Archived/Draft 2 before complete rulebook - 2026-10-17/Draft 2 - Progress and Decisions|the snapshot]]. Completed drafting is distinct from validated game balance; none of the playtest boxes above is checked by a document consistency pass.

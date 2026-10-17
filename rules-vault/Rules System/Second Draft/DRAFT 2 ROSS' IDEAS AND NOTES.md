@@ -1,3 +1,6 @@
+> [!warning] Historical material
+> The October 17 manuscript [[Settlements Rules System Version 2]] supersedes this note as playing rules. This text is retained as history, not a current rule source. See [[Draft 2 - Design Requirements and Research Audit]] for the changes.
+
 
 ## MECHANICS
 

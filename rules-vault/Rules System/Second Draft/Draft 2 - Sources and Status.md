@@ -1,27 +1,26 @@
-# Draft 2 — Sources and Status
+# Draft 2 Sources and Status
 
-## Authority
-[[Full Rules System v2]] is the active incomplete draft. Its blank sections are deliberate; old master/satellite rules do not fill them. Selected skill/weapon catalogues in this folder are referenced by the master. Test assumptions remain separately labelled.
+## Current authority
 
-## Sources used
-- [[Design Workshop/Skills and Combat Rework - Thread Log]]: historical proposals plus the appended September 27 decision record. Newer decisions supersede older entries.
-- September 25 adopted Skills catalogue: 75 selected skills, copied without inventing replacement effects.
-- Basic Weapon System: weapons-basics catalogue already identified by Ross as completed; unresolved values/prices retained as unresolved.
-- September 26–27 thread: d20/15+, multi-Wound injury, latest opposed-pool melee, tied combat and experimental Return Fire.
-- Draft 1: used for numbered section structure ONLY. No campaign, economic, stat-budget or scenario tables inherited by default.
+[[Settlements Rules System Version 2]] is the complete **working proposal**, dated 2026-10-17. Ross authorised completing missing rules and revising existing mechanics to satisfy his detailed tenets. New assistant-selected procedures and numbers are clearly design proposals, not retroactively attributed decisions or validated balance.
+
+## Source roles
+
+- Ross's October 17 brief and answers: primary design requirements and requested scope.
+- Previous Draft 2 master, skills, weapon catalogue, keywords and decisions: starting rules, preserved before revision.
+- Archived Draft 1: useful historical mechanics, particularly settlement organisation; no automatic numerical authority.
+- [[Rule of Carnage Skirmish Game Design Reference]], episode notes and transcripts: design arguments and tradeoffs, not Settlements rulings.
+- Research game notes: precedents with differing evidence depth and edition dates; local curated descriptions, not freshly verified current editions.
+- [[Draft 2 - Design Requirements and Research Audit]]: exact coverage, 54 requirements, adaptations, cuts, qualifications and playtest questions.
 
 ## Status meanings
 
-**Status legend:**
+**Proposed complete** means the rules needed for the requested scope have been written, with concrete defaults. **Validated document** means structure, links and examples were checked. Neither means **playtested**, **balanced**, **approved for publication** or a confirmed sixty-minute duration.
 
-- <span style="color:#2e7d32"><strong>RECORDED · GREEN</strong></span> — selected direction, with any listed follow-ups.
-- <span style="color:#7b1fa2"><strong>DRAFTED · PURPLE</strong></span> — rules text is written as a proposal; review and adoption are pending, and unresolved choices are listed below.
-- <span style="color:#f9a825"><strong>PARTIAL · YELLOW</strong></span> — some mechanics recorded; important work remains.
-- <span style="color:#1565c0"><strong>OUTLINE · BLUE</strong></span> — no rules adopted yet.
-- <span style="color:#c62828"><strong>OUTDATED · RED</strong></span> — superseded and retained only for history.
+The four-page battle reference covers common procedures; fielded skill/profile and terrain cards accompany it. Lore, factions, authored scenario presentation and the linked campaign framework remain intentional placeholders.
 
-The colour is a reading aid, not a second rules layer. Blank sections remain undecided.
-RECORDED means a selected design direction, not playtested balance or a claim every edge case is resolved. DRAFTED means the rules have been written as a proposal but still await review and adoption; listed follow-ups remain open. PARTIAL identifies unfinished systems with some selected mechanics. OUTLINE sections contain no adopted rules. Simulation assumptions are proposals for tests, not automatic rulings.
+## Historical evidence
 
-## History
-<span style="color:#c62828"><strong>OUTDATED · RED</strong></span> The exact former master is preserved at [[Rules System/Archived/Draft 1 retirement - 2026-09-27/Full Rules System v1 - archived 2026-09-27]]. The old path is now a redirect, not another master. Legacy supporting notes stay accessible for historical research with explicit warnings. Their old links and generated views are not current rule authority.
+The pre-completion notes live in [[Rules System/Archived/Draft 2 before complete rulebook - 2026-10-17/README]]. September simulation assumptions/results describe their dated mechanics only. This manuscript changes Stress-on-Injury, Return Fire, skill effects, Wounds, activation and prices. A new simulation contract is required before reusing that code as evidence for it.
+
+Draft 1, old root catalogues and archived satellites remain historical. The live Obsidian vault is the source of truth; the repository's `rules-vault` directory is its one-way copy.

@@ -7,6 +7,9 @@ updated: 2026-08-22
 ---
 # 🥇 Shortlist — the best mechanics for Settlements
 
+> Historical editorial shortlist. Re-evaluated for Version 2 in [[Draft 2 - Design Requirements and Research Audit]]. Its “best” or adoption language is not a current ruling, and some recommendations are explicitly rejected there.
+
+
 > **What this is.** A curated pass over all **235 mechanics** in [[Wargaming Research Hub]], filtered to the ones that genuinely earn a place in **Settlements battles** and **the campaign/persistence layer**. 121 were tagged ⭐ steal; these are the ones that survived a second, harder cut.
 >
 > **What this is not.** **Nothing here is adopted.** This is a candidate list for Ross to rule on. Adoption happens in [[Settlements/Rules System/Archived/Full Rules System v1]] and nowhere else.

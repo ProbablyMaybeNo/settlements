@@ -150,7 +150,7 @@ Use 5–10 fighters for the first games. More are allowed when the agreed limit 
 
 ### Carrying equipment
 
-A fighter has **four weapon slots**, **two equipment slots**, and may wear **one armour item**. A one-handed weapon uses one weapon slot; a two-handed weapon uses two; a Heavy weapon uses three. The included knife uses no slot. A grenade uses one equipment slot rather than a weapon slot. Other equipment lists its slots. A fighter may use only two hands at a time.
+A fighter has **four weapon slots**, **two equipment slots**, and may wear **one armour item**. A one-handed weapon uses one weapon slot; a two-handed weapon uses two; a Heavy weapon uses three. The included knife uses no slot. A grenade uses one equipment slot rather than a weapon slot. Other equipment lists its slots. A fighter may use only two hands at a time. Weapon slots hold weapons, equipment slots hold supplies/devices; worn armour uses neither. Carried devices continue to reserve their operator's equipment slots after deployment until lost, consumed, or transferred, so deployment does not create extra capacity.
 
 Choose held weapons at the start of your fighter's first action or reaction each round. Once during a later own action that round, you may change held weapons before resolving it. You cannot switch in response to an enemy declaration after that round's choice. A carried but unheld weapon contributes no attack dice.
 
@@ -228,7 +228,7 @@ You may spend a Pass instead. Without a Pass, you may only pass if you have no l
 | Reload | Core | Ready a weapon with Reload to fire again |
 | Disengage | Both | Leave engagement by the procedure in Chapter 7 |
 
-A fighter may perform at most **one own-turn attack action** each round: Shoot, Fight, or Charge. A reaction attack is separate. Defensive melee participation is not an attack action. A skill may change an action's cost or timing but cannot create an extra own-turn attack. A printed second non-attack Core Action is legal if an ability supplies its cost.
+A fighter may perform at most **one own-turn attack action** each round: Shoot, Fight, or Charge. A reaction attack is separate. Defensive melee participation is not an attack action. A skill may change an action's cost or timing but cannot create an extra own-turn attack. A printed second non-attack Core Action is legal if an ability supplies its cost. Any own action directly attacking a fighter—including Shove, Grapple, Throw, Incapacitate, or a damaging grenade—uses the own-turn attack allowance. Firing a turret through an operation or Trojan also uses the operator's allowance. Terrain operations and deploying devices remain interactions, even if their hazards threaten enemies; they do not grant a second direct attack.
 
 ### READY
 
@@ -276,7 +276,7 @@ An attack declared from wholly behind the target's dividing line is a **rear att
 
 ### Ordinary movement
 
-Move up to MOVE along a legal path. You may stop early. A normal Move cannot enter within 1 inch of a standing enemy; use Charge instead. You may pass within 1 inch of Down or Unconscious enemies and enter contact to rescue, loot, or capture them.
+Move up to MOVE along a legal path. You may stop early. A normal Move cannot enter within 1 inch of a conscious enemy, including a Pinned one; use Charge instead. You may pass within 1 inch of Down or Unconscious enemies and enter contact to rescue, loot, or capture them.
 
 Cross an unlocked ordinary door as part of movement; opening it is automatic. Closing it deliberately is an Interact. A low obstacle up to 1 inch high costs 2 inches of movement to cross. Difficult ground costs twice the distance travelled. Movement penalties do not multiply: half-speed movement and difficult ground together still halve available movement once. Heavy carrying also uses this rule.
 
@@ -284,7 +284,7 @@ Cross an unlocked ordinary door as part of movement; opening it is automatic. Cl
 
 Dash spends Both slots and moves up to twice MOVE. Hidden fighters cannot Dash without first removing Hidden.
 
-Declare a Charge against one visible enemy within **MOVE + 6 inches**, along a plausible route. Spend Both slots, roll one d6, and move up to MOVE plus that result. Reach within 1 inch of the target to succeed; resolve one melee exchange with +1 die on the dominant weapon, within the three-die pool ceiling. On failure, move up to MOVE toward the target along the declared route, stop outside engagement, and end the action. Stress does not alter distance, but applies to any traversal tests and the attack.
+Declare a Charge against one visible conscious enemy within **MOVE + 6 inches**, along a plausible route. Spend Both slots, roll one d6, and move up to MOVE plus that result. Reach within 1 inch of the target to succeed; resolve one melee exchange with +1 die on the dominant weapon, within the three-die pool ceiling. On failure, move up to MOVE toward the target along the declared route, stop outside engagement, and end the action. Stress does not alter distance, but applies to any traversal tests and the attack.
 
 You may attempt a risky route as part of a Charge. Resolve its tests at the relevant point. A failed traversal ends the Charge, even if its distance roll was sufficient. A reaction can likewise stop it. Charge does not let a fighter pass through other standing fighters.
 
@@ -300,7 +300,7 @@ A deliberate drop of up to 2 inches is safe and costs its vertical distance. For
 
 Pushes and pulls follow the shortest stated direction. Stop at an immovable obstruction or another standing base; excess distance is lost. A ledge or open pit is a hazard, not a wall: use the fall rules. A move cannot end with overlapping bases. If terrain closes on a model, use the feature's Displace or Crush rule.
 
-Dragging a casualty, escorting a captive, or carrying a Heavy objective halves movement, prohibits Dash and Charge, and occupies one hand. Two unengaged friendlies in contact can jointly carry one casualty: one spends Move, both use their Move slots, and both move together up to the slower fighter's normal MOVE. This is one combined action and one reaction window; either carrier may trigger it. If either is Pinned or Downed, the movement stops and they release the casualty. A carrier may drop a load without a test at any time during its own action.
+Dragging a casualty, escorting a captive, or carrying a Heavy objective halves movement, prohibits Dash and Charge, and occupies one hand. Two unengaged friendlies in contact can jointly carry one casualty: one spends Move, both use their Move slots, and both move together up to the slower fighter's normal MOVE. This is one combined action and one reaction window; either carrier may trigger it. If either is Pinned or Downed, the movement stops and they release the casualty. Taking hold of a friendly casualty in contact is part of the carrying Move, with no extra action. An enemy casualty must first be Secured. A carrier may drop a load without a test at any time during its own action.
 
 ### Engagement and withdrawal
 
@@ -324,7 +324,7 @@ A normal Shoot targets one fighter. Split Fire permits allocation to several tar
 
 Using two one-handed weapons gives the dominant weapon's full dice and **one off-hand die**. Identify that die separately and use its own range, Damage, and traits. Both weapons must be eligible for the attack. A shooting pair must contain two firearms; a melee pair may contain melee weapons or Sidearms. Skill exceptions never raise a combined attack pool above **three dice**, including a Charge die. Remove excess dice of your choice before rolling.
 
-A fighter with only its included knife makes one melee die at Damage 1. Unarmed attacks make one die at Damage 0. A Sidearm may contribute one melee die, using STR to hit and its printed Damage. It does not use DEX in melee.
+A fighter with no eligible held melee weapon may always use one unarmed die at Damage 0. A fighter with only its included knife makes one melee die at Damage 1. Unarmed attacks make one die at Damage 0. A Sidearm may contribute one melee die, using STR to hit and its printed Damage. It does not use DEX in melee. Sidearm shots in melee still require a loaded weapon and use Reload normally; a two-handed gun without Close Combat cannot contribute its shooting pool.
 
 ### Shooting into an engagement
 
@@ -400,7 +400,7 @@ Mark ownership transfers immediately. A looted item exists in only one place. A 
 
 An unengaged fighter in contact with a Down or Unconscious enemy may spend Core to **Secure** it. This is automatic if no conscious, unpinned enemy is within 1 inch of either model. Mark Captured. The captive cannot act or self-treat. Its Down timer continues normally.
 
-The captor may escort or drag one captive using the carrying rules. Move both bases together, keeping them in contact. Capture becomes a lasting capture only when the captive is escorted completely off the captor's deployment edge while the escort remains capable of moving. An Unconscious captive can be dragged in the same way.
+The captor may escort or drag one captive using the carrying rules. Move both bases together, keeping them in contact. Capture becomes a lasting capture only when the captive is escorted completely off the captor's deployment edge while the escort remains capable of moving. The escort leaves with it and cannot return that battle. Carrying mission cargo off an exit or evacuating a friendly casualty likewise removes its carrier from play; surviving extracted carriers return to the settlement afterward. An Unconscious captive can be dragged in the same way.
 
 If the escort becomes Down, Unconscious, Pinned, or gains a morale condition, it releases the captive immediately. Remove Captured; the captive retains its underlying Down or Unconscious state. An unengaged friendly may also free a captive from contact with a Core Interact, provided the escort is not a conscious unpinned enemy within 1 inch. A captor can release voluntarily at the start of its own action.
 
@@ -442,7 +442,7 @@ Bolting or Bugging Out fighters need friendly help or the End Phase to Rally. Th
 
 ### Voluntary withdrawal
 
-At the start of any of your turns, you may withdraw the crew and end the battle. Resolve current casualties and post-battle procedures normally. The opponent wins, but you retain rewards already earned and evacuated loot. Remaining uncaptured fighters and casualties return to their own settlement; an on-board captive that was not extracted is released. There is no bonus round of unopposed killing or looting. Scenario-specific extraction rewards still require actual extraction before withdrawal.
+At the start of any of your turns, you may withdraw the crew and end the battle. Resolve current casualties and post-battle procedures normally. The opponent wins, but you retain rewards already earned and evacuated loot. Remaining uncaptured fighters and casualties return to their own settlement with the equipment they currently carry, including looted gear; an on-board captive that was not extracted is released. There is no bonus round of unopposed killing or looting. Scenario-specific extraction rewards still require actual extraction before withdrawal.
 
 ## 11 Stealth and observation
 
@@ -606,7 +606,7 @@ Spend the operator's **Core** to perform one of these through the drone:
 
 The operator must be conscious, unpinned, unengaged, and free of a morale condition. Use the operator's Stress on its tests. Remote operation can change terrain, but **cannot Claim, Secure, loot, defuse a mission bomb, or complete an objective that requires a human interaction**. A scenario may expressly allow a drone operation as one step, not assume it can replace every human task.
 
-If the operator becomes unavailable or moves out of control range, the drone stays inert at its position until control is restored. It remains targetable. Another friendly in contact with the drone may spend Core to become its operator, provided it has two equipment slots available; update both cards. Returning the drone to its operator's base and spending Interact packs it away.
+If the operator becomes unavailable or moves out of control range, the drone stays inert at its position until control is restored. It remains targetable. Drone movement or operation offers the opponent the action's single reaction window against either the visible operator or visible drone, using the chosen target's position. Disabling the operator or drone stops the unfinished remote action. Another friendly in contact with the drone may spend Core to become its operator, provided it has two equipment slots available; update both cards. Returning the drone to its operator's base and spending Interact packs it away.
 
 A single successful hit destroys a drone; there is no armour or Injury roll. Place a wreck marker. It may be recovered like an item, including by an enemy. This makes remote access useful but exposed, and prevents a flying device becoming a second combatant for free.
 
@@ -671,9 +671,9 @@ The included utility knife cannot be duplicated for free to gain an off-hand die
 
 ### Blasts smoke and fire
 
-For a Blast, choose a visible impact point within range. It must be a surface or a model's position, not an arbitrary point in the air. Each fighter or device whose base touches the **2-inch-radius** template and has an unobstructed line to its centre is a target, including the user's crew. This blast line ignores the target's facing. Targets must be on the impact point's level or within 2 inches vertically; intervening floors block it. Roll one normal ranged Attack Die against each, then Injury for hits. Use cover from the impact point and ignore Hidden's −4. There is no separate shot at the centre, scatter roll, or extra attack on the original target. Solid walls contain the blast. A fighter can be hit only once by that blast.
+For a Blast, choose a visible impact point within range. It must be a surface or a model's position, not an arbitrary point in the air. Each fighter or device whose base touches the **2-inch-radius** template and has an unobstructed line to its centre is a target, including the user's crew. This blast line ignores the target's facing. Targets must be on the impact point's level or within 2 inches vertically; intervening floors block it. Roll one normal ranged Attack Die against each, then Injury for hits on fighters; devices instead use their hit-based damage rule. Rear and Aim bonuses apply using the shooter's position and state, not the blast centre. Use cover from the impact point and ignore Hidden's −4. There is no separate shot at the centre, scatter roll, or extra attack on the original target. Solid walls contain the blast. A fighter can be hit only once by that blast.
 
-A smoke grenade instead requires one DEX test to place a **3-inch-diameter** smoke template at a visible point within 8 inches. Pass: place it there. Fail: place it 2 inches closer to the thrower along the same line, stopping at the first obstruction. It produces no hits. Smoke lasts through the End Phase of the **next round**, then clears; mark its expiry round.
+Throwing a damaging grenade or fire bottle is a Core Shoot action and uses the own-turn attack allowance. It cannot be combined with another held weapon. A smoke grenade is a non-attack Core Use Item action and instead requires one DEX test to place a **3-inch-diameter** smoke template at a visible point within 8 inches. Pass: place it there. Fail: place it 2 inches closer to the thrower along the same line, stopping at the first obstruction. It produces no hits. Smoke lasts through the End Phase of the **next round**, then clears; mark its expiry round.
 
 A fire bottle uses the grenade Blast profile, then leaves a 3-inch-diameter fire zone at the chosen point regardless of hit results. A human entering or starting an action inside fire suffers one Damage 2 Injury roll, at most once per round from fire zones. The initial bottle attack counts as that exposure. Fire blocks neither LOS nor movement. It lasts through the next round's End Phase. Core Interact in contact with the zone's edge extinguishes it on an INT test; a fire extinguisher does so automatically. Fire does not spread or add a separate Burning condition.
 
@@ -782,7 +782,7 @@ These **40 skills** are the Version 2 selection. Learn only skills whose stat is
 | Skill | Use | Effect |
 | --- | --- | --- |
 | Inspire | Core | Test NRV, applying your Stress. Success removes up to 2 Stress from you and from one friendly within 6 inches and LOS. Does not remove Pinned or a morale condition. |
-| Rally Training | Core | Make the normal Stress-free Rally test for up to two friendlies within 6 inches and LOS instead of one within 3. One test determines both outcomes. You may include yourself, even while Broken. |
+| Rally Training | Core | Make the normal Stress-free Rally test for up to two friendlies within 6 inches and LOS instead of one within 3. One test determines both outcomes. You may include yourself. While Broken, you may use this skill only to Rally yourself, not to assist others. |
 | Motivate | Core | Test NRV. Success lets one other friendly within 6 inches and LOS use its remaining Move as a Core later this round, for a non-attack action. It cannot use that slot to Motivate another fighter. No slot is refreshed. |
 | Share the Burden | Core | Transfer up to 2 Stress in total from friendlies within 3 inches and LOS to yourself, limited by your remaining capacity. No test. Does not remove their morale conditions. |
 | Hold Fast | Recover modifier | When your Recover action helps another fighter in cover, also remove 1 of its Stress. It must actually have cover from at least one visible enemy. No injury-prevention aura is created. |
@@ -813,7 +813,7 @@ Every mission must offer a route to primary and secondary success without killin
 This procedure supplies playable objectives when you have no authored scenario. It does not supply setting or campaign fiction.
 
 1. Choose one primary type from the table below. Place its relevant markers in the middle 12-inch band, outside deployment zones, at least 6 inches apart and 3 inches from any edge. Alternate placing markers; each player must be able to reach them by two plausible routes.
-2. Choose one secondary type for each crew, openly and simultaneously. Both players can choose the same one. Each secondary can score only once and is worth 2 points.
+2. Choose one secondary type for each crew, openly and simultaneously. Both players can choose the same one. Each secondary can score only once and is worth 2 points. An extracted carrier counts as having completed its recorded secondary before leaving play.
 3. Link at least two of the four interactive terrain features to useful approaches to those objectives. Neither side may require a specific paid item or skill merely to participate.
 4. Play six rounds. Highest total score wins; ties are draws. A withdrawn crew loses regardless of score.
 

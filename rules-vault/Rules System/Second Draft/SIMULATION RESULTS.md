@@ -1,3 +1,6 @@
+> [!warning] Historical material
+> The October 17 manuscript [[Settlements Rules System Version 2]] supersedes this note as playing rules. This text is retained as history, not a current rule source. See [[Draft 2 - Design Requirements and Research Audit]] for the changes.
+
 > [!important] Rules changed — 2026-09-29
 > Reports below describe earlier rules. The next pass must use [[Draft 2 - Simulation Assumptions]]: Stress-free Break/Rally with Stress-based severity, Stress on Injury rolls, half-speed Pinned movement and the updated Rage/Implode cycle. In particular, the historical Rage FAILED verdict does not evaluate the new cycle. No rerun results are implied.
 
