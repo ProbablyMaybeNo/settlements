@@ -63,7 +63,7 @@ A campaign may connect battles through a story or map. It is not required for an
 
 ### Components
 
-Each player needs 5–10 human miniatures for a starting crew, a roster, several d20s, one d6, an inch measure, and markers. Use a 36 × 36-inch battlefield, terrain, and a round counter numbered 1–6. Larger crews are legal by agreement but increase play time.
+The standard game has two players. Each player needs 5–10 human miniatures for a starting crew, a roster, several d20s, one d6, an inch measure, and markers. Use a 36 × 36-inch battlefield, terrain, and a round counter numbered 1–6. Larger crews are legal by agreement but increase play time.
 
 Use the same base size for comparable humans, normally 25–32 mm, and mark the front half of each base. Agree proxies and unusual sizes before deployment. A tall pose, banner, or weapon barrel does not make a fighter easier to see. Paper footprints can represent every interactive feature in this book.
 
@@ -142,7 +142,7 @@ These grades describe experience and responsibility among civilians. They do not
 
 ### Composition
 
-Nominate one fielded fighter as the crew leader for tie-breaking and narrative records. They need not have the Leader training grade; acting leadership grants no stat or action bonus. A crew may include at most one fighter with the Leader grade and one Specialist for every two fielded Recruits or Fighters. Advancement does not change training grade or this ratio unless you promote the fighter.
+Nominate one fielded fighter as the crew leader for tie-breaking and narrative records. They need not have the Leader training grade; acting leadership grants no stat or action bonus. A crew may include at most one fighter with the Leader grade and one Specialist for every two fielded Recruits or Fighters. Advancement does not change training grade or this ratio through experience; this edition has no grade-promotion purchase.
 
 For each complete five human fighters in the Battle Roster, you may field one Heavy weapon and one powered combat device in total; a sentry turret is a powered combat device. You may also field one utility drone per complete five fighters. A crew below five may field one utility drone but no Heavy weapon or powered combat device. These limits count carried, deployed, and reserve items together. Mines and smoke emitters are not combat devices for this limit.
 
@@ -234,11 +234,13 @@ A fighter may perform at most **one own-turn attack action** each round: Shoot, 
 
 Ready grants one token, never a second. It can be gained after spending Move and can remain into later rounds. A fighter loses READY when it moves voluntarily, performs any regular action other than Ready, is hit by an attack, becomes Down or Unconscious, is captured, or gains a morale condition. A stationary free facing change made as part of another action does not save READY from that action's cancellation.
 
-A conscious fighter with READY, no morale condition, and no Reacted marker may react. It must see the triggering enemy in its forward arc at the moment of the trigger, within the relevant action's range. Pinned fighters can only use the Dive reaction, and only if they somehow retained READY through a specific skill.
+A conscious, unengaged fighter with READY, no morale condition, and no Reacted marker may react. It must see the triggering enemy in its forward arc at the moment of the trigger, within the relevant action's range. Pinned fighters can only use the Dive reaction, and only if they somehow retained READY through a specific skill.
 
 ### Reaction windows
 
 After an enemy declares an action, the non-active player may declare **one reaction by one model**. Alternatively, they may wait for a visible point along a declared movement path or the end of the action. Announce the precise point before the model moves past it. The entire action, including a Charge's movement and attack, allows only one reacting model, even if several are eligible.
+
+For an incoming Shoot, Return Fire, Dive, or Cover Me must be declared before any attack dice are rolled. Waiting until its end does not permit retroactive fire or evasion. An ordinary reaction Shoot is available only against a non-shooting action; Cover Me supplies the exception for protecting another target.
 
 Spend READY immediately and mark Reacted. No reaction triggers another reaction. Devices' automatic mine triggers are hazards, not reactions; a sentry turret's shot is a reaction and uses the same one-model limit.
 
@@ -298,13 +300,13 @@ A deliberate drop of up to 2 inches is safe and costs its vertical distance. For
 
 Pushes and pulls follow the shortest stated direction. Stop at an immovable obstruction or another standing base; excess distance is lost. A ledge or open pit is a hazard, not a wall: use the fall rules. A move cannot end with overlapping bases. If terrain closes on a model, use the feature's Displace or Crush rule.
 
-Dragging a casualty, escorting a captive, or carrying a Heavy objective halves movement, prohibits Dash and Charge, and occupies one hand. Two unengaged friendlies in contact can jointly carry one casualty: one spends Move, both use their Move slots, and both move together up to the slower fighter's normal MOVE. A carrier may drop a load without a test at any time during its own action.
+Dragging a casualty, escorting a captive, or carrying a Heavy objective halves movement, prohibits Dash and Charge, and occupies one hand. Two unengaged friendlies in contact can jointly carry one casualty: one spends Move, both use their Move slots, and both move together up to the slower fighter's normal MOVE. This is one combined action and one reaction window; either carrier may trigger it. If either is Pinned or Downed, the movement stops and they release the casualty. A carrier may drop a load without a test at any time during its own action.
 
 ### Engagement and withdrawal
 
 Engaged fighters may Fight, Grapple, use a Sidearm in that melee exchange, Recover, Rally themselves, or Disengage. They cannot shoot someone outside the engagement, operate a terminal, Treat, or manipulate an objective. A Pinned fighter is still engaged if an enemy is within 1 inch.
 
-Disengage normally spends Both slots. Test AGI opposed by one engaging enemy's AGI, chosen by the opponent. Pass: move up to MOVE and leave engagement. Fail: move up to half MOVE after that enemy makes one Unanswered melee exchange against you; cancel movement if you become Down. The free exchange is not a reaction and cannot trigger follow-up attacks. Pinned fighters may attempt Disengage, but halve the resulting movement and retain Pinned. Any forced Bolt or Bugging Out movement also allows one such Unanswered exchange, then the survivor moves without an escape test.
+Disengage normally spends Both slots. Test AGI opposed by one engaging enemy's AGI, chosen by the opponent. Pass: move up to MOVE and leave engagement. Fail: move up to half MOVE after that enemy makes one Unanswered melee exchange against you; cancel movement if you become Down. The free exchange is not a reaction and cannot trigger follow-up attacks. Pinned fighters may attempt Disengage and retain Pinned; their movement is at most half MOVE on either success or failure, without halving twice. Any forced Bolt or Bugging Out movement also allows one such Unanswered exchange, then the survivor moves without an escape test.
 
 Within engagement, a fighter may spend Move to shift up to 1 inch around an enemy, remaining engaged and not entering another enemy's engagement. It cannot cross the enemy base. Both may face each other after a completed melee exchange.
 
@@ -426,7 +428,7 @@ At the End Phase, each conscious fighter without a morale condition and with **2
 
 The 1-Stress entry is for effects that explicitly force a Break test. Never make a normal End Phase Break test at Stress 0 or 1. If a forced test fails at 0 Stress, use Broken.
 
-A fighter with a morale condition cannot react, give assistance, score, or contest. Bolting and Bugging Out movement overrides Pinned and spends the fighter's remaining slots even if it reaches its destination early. Movement remains subject to physical obstacles and traversal tests. Bolting never deliberately takes a hazardous route when a safe one exists. Bugging Out may take one if it is the shortest legal way out. If no destination can be reached, move as far along a legal route toward it as possible; if no route exists, remain in place and spend the slots. The owner breaks equal-distance route ties.
+A fighter with a morale condition cannot react, give assistance, score, or contest. Bolting and Bugging Out movement overrides Pinned and spends the fighter's remaining slots even if it reaches its destination early. Movement remains subject to physical obstacles and traversal tests. Bolting never deliberately takes a hazardous route when a safe one exists. Bugging Out may take one if it is the shortest legal way out. If no destination can be reached, move as far along a legal route toward it as possible; if no route exists, remain in place and spend the slots. The owner breaks equal-distance route ties. Choose this forced action on one of your turns before ending your crew's actions; it is taken once that round, even if only one slot remained. If no slots remain when the condition is gained, the forced movement waits until the next round.
 
 A fighter that flees off-board is Withdrawn, not Down, and does not roll an injury merely for fleeing. Any casualty it was carrying is released at the point it started fleeing.
 
@@ -434,7 +436,7 @@ A fighter that flees off-board is Withdrawn, not Down, and does not roll an inju
 
 A fighter already carrying Broken, Bolting, or Bugging Out at the beginning of the End Phase makes **Rally instead of Break**, using the same Stress-free NRV test. Success removes the morale condition, all Stress, and Pinned. Failure retains its current condition, even if Stress changed. It never immediately rerolls a new Break failure in that End Phase.
 
-A Core Rally action may be attempted by the affected fighter if Broken, or by a conscious, unpinned, unengaged friendly within 3 inches and LOS. Test the acting fighter's NRV, ignoring Stress. Success removes all Stress, the morale condition, and Pinned from the target. Rally may also be used on a stressed fighter with no morale condition. Failed Rally has no additional effect beyond its action cost.
+A Core Rally action may be attempted on itself by a conscious fighter, including while Pinned or Broken but not Bolting or Bugging Out, or by a conscious, unpinned, unengaged friendly within 3 inches and LOS. Test the acting fighter's NRV, ignoring Stress. Success removes all Stress, the morale condition, and Pinned from the target. Rally may also be used on a stressed fighter with no morale condition. Failed Rally has no additional effect beyond its action cost.
 
 Bolting or Bugging Out fighters need friendly help or the End Phase to Rally. They cannot spend their forced action on self-Rally. Removing Pinned alone does not remove a morale condition.
 
@@ -484,7 +486,7 @@ An operation that directly threatens an occupied space is dangerous and requires
 
 ### Controls and terminals
 
-Every interactive feature has a physical control in contact with it or at a marked nearby panel. Electronic features may also be linked to a **terminal**. A terminal may link up to three features within 12 inches; draw or label these links before play. Links ignore intervening walls but cannot chain through another terminal to reach farther. Either crew can use the same terminal.
+Every interactive feature has a physical control in contact with it or at a marked nearby panel. Electronic features may also be linked to a **terminal**. A terminal may link up to three features within 12 inches; draw or label these links before play. Two terminals sharing a linked feature are on the same network for Interrupt; this never grants access to each other's other features. Links ignore intervening walls but cannot chain through another terminal to reach farther. Either crew can use the same terminal.
 
 An unengaged fighter in contact with an active terminal may spend Core and test INT to **Hack** one linked feature. Success performs one printed operation immediately. Failure changes nothing. A natural 1 **Freezes that terminal until this round ends**. Freeze affects remote electronic use through that terminal; it never disables local manual controls.
 
@@ -516,7 +518,7 @@ Give each feature a card showing its **footprint, control point, linked terminal
 
 **Displace:** move an affected fighter the shortest distance up to 2 inches to a safe legal position outside the changing area, chosen by its owner. If none exists, the operation stops before trapping it unless the feature explicitly has Crush.
 
-**Crush:** each affected conscious fighter tests AGI. Pass: Displace it safely. Fail, or no safe destination: one Damage 3 Injury roll ignoring Armour, then Pinned if still conscious. Move a casualty to the nearest accessible edge of the hazard footprint. Down or Unconscious casualties cannot evade, but are never removed as dead. A feature cannot affect the same fighter with Crush more than once per round.
+**Crush:** each affected conscious fighter tests AGI. Pass: Displace it safely. Fail, or no safe destination: one Damage 3 Injury roll ignoring Armour, then Pinned if still conscious. Move a casualty to the nearest accessible edge of the hazard footprint. Down or Unconscious casualties cannot evade; an Injury success against Down makes it Unconscious, and Unconscious has no further injury effect. Neither is removed as dead. A feature cannot affect the same fighter with Crush more than once per round.
 
 **Fall:** use Chapter 7. **Smoke:** blocks LOS through the template at any height up to 3 inches above its surface; fighters inside can see and be seen only within 1 inch. **Difficult:** movement costs double. Only the named state persists; do not add new conditions for individual machines.
 
@@ -581,7 +583,7 @@ A visible device can be shot or struck. Use normal shooting to hit; an adjacent 
 | Portable ladder | 10 | 1 | Place a ladder reaching up to 6 inches. It provides normal ladder movement to either crew. |
 | Tripwire | 10 | 1 | Single-use. First human crossing its marked 2-inch line tests AGI; failure stops movement and Pins them. Success continues. Consumed either way. |
 | Blast mine | 20 | 1 | Single-use, electronic. First model entering within 2 inches and LOS triggers a 2-inch-radius Crush hazard centred on the mine, using the shared AGI escape and Damage 3 procedure. Affects both crews. |
-| Smoke emitter | 15 | 1 | Single-use, electronic. From a terminal linked during setup or a hacking kit within 8 inches, operate it to create ordinary smoke for this and the next round. |
+| Smoke emitter | 15 | 1 | Single-use, electronic. From contact, a terminal with a link reserved during setup, or a hacking kit within 8 inches, operate it to create ordinary smoke for this and the next round. |
 | Remote clamp | 15 | 1 | Single-use, electronic. First human entering within 1 inch tests AGI. Failure Pins it and ends that movement; success continues. Consumed either way. |
 | Sentry turret | 50 | 2 | Electronic. Stationary, 180-degree arc chosen at deployment, range 12 inches, DEX 2, one Attack Die, Damage 2. Gains one READY each Start Phase; it may react once that round. |
 | Field supply case | 15 | 1 | Deploy an open cache containing one medkit and one smoke grenade. These two contents replace the case; they cannot be sold as extra profit because its total value equals their 15 Credits. Picking up each is an Interact. |
@@ -607,3 +609,490 @@ The operator must be conscious, unpinned, unengaged, and free of a morale condit
 If the operator becomes unavailable or moves out of control range, the drone stays inert at its position until control is restored. It remains targetable. Another friendly in contact with the drone may spend Core to become its operator, provided it has two equipment slots available; update both cards. Returning the drone to its operator's base and spending Interact packs it away.
 
 A single successful hit destroys a drone; there is no armour or Injury roll. Place a wreck marker. It may be recovered like an item, including by an enemy. This makes remote access useful but exposed, and prevents a flying device becoming a second combatant for free.
+
+## 15 Weapons armour and equipment
+
+### Reading a profile
+
+**Dice** is the number rolled for one attack action, before dual-wielding and Charge. **Damage** modifies Injury. **Range** is the maximum shooting range; Melee means within engagement. **Hands** and **Slots** determine what can be used and carried. **Access** names the settlement structure required to buy or craft the item; it never increases the agreed Crew Rating.
+
+All Credits in these catalogues are **provisional Version 2 prices**. Use the same published price sheet for both crews. No previous simulation result validates these new profiles or prices.
+
+### Standard armoury
+
+| Weapon | Credits | Dice | Damage | Range | Hands / slots | Characteristics | Access |
+| --- | ---: | ---: | ---: | --- | --- | --- | --- |
+| Unarmed | 0 | 1 | 0 | Melee | 1 / 0 | None | Always |
+| Utility knife | Included | 1 | 1 | Melee | 1 / 0 | Agile | Included with fighter |
+| Shiv or fighting knife | 10 | 1 | 2 | Melee | 1 / 1 | Agile | Basic |
+| Club or machete | 15 | 2 | 2 | Melee | 1 / 1 | None | Basic |
+| Crowbar | 15 | 1 | 2 | Melee | 1 / 1 | Breaching | Basic |
+| Spear | 20 | 2 | 3 | Melee | 2 / 2 | Agile | Basic |
+| Two-handed axe | 25 | 2 | 3 | Melee | 2 / 2 | Brutal | Workshop |
+| Pistol | 15 | 1 | 1 | 8 inches | 1 / 1 | Sidearm | Basic |
+| Revolver | 20 | 1 | 2 | 8 inches | 1 / 1 | Sidearm, Accurate | Basic |
+| Magnum | 20 | 1 | 3 | 12 inches | 1 / 1 | Sidearm, Reload | Workshop |
+| Carbine | 20 | 1 | 2 | 24 inches | 2 / 2 | None | Basic |
+| Assault rifle | 35 | 2 | 2 | 24 inches | 2 / 2 | Automatic 2 | Basic |
+| Submachine gun | 30 | 2 | 1 | 12 inches | 2 / 2 | Automatic 2, Close Combat | Workshop |
+| Shotgun | 30 | 1 | 3 | 12 inches | 2 / 2 | Brutal | Basic |
+| Suppressed carbine | 35 | 1 | 2 | 18 inches | 2 / 2 | Quiet | Armoury |
+| Sniper rifle | 55 | 1 | 3 | 36 inches | 2 / 2 | Precision, Accurate | Armoury |
+| Machine gun | 70 | 3 | 4 | 24 inches | 2 / 3 | Heavy, Automatic 3, Unwieldy, Suppression | Armoury |
+| Grenade launcher | 65 | 1 per target | 3 | 24 inches | 2 / 3 | Heavy, Blast, Reload, Unwieldy | Armoury |
+| Flamethrower | 65 | 1 per target | 2 | 8 inches | 2 / 3 | Heavy, Blast, Ignore Cover 2, Unwieldy | Armoury |
+| Rocket launcher | 60 | 1 per target | 5 | 24 inches | 2 / 3 | Heavy, Blast, Piercing 2, Single-use, Unwieldy | Advanced Workshop |
+| Throwing knife | 10 | 1 | 1 | 8 inches / Melee | 1 / 1 | Agile, Quiet, Thrown | Basic |
+| Javelin | 15 | 1 | 2 | 8 inches / Melee | 1 / 1 | Piercing 1, Thrown | Basic |
+
+The included utility knife cannot be duplicated for free to gain an off-hand die. Buy a second weapon if you want two weapons. A Heavy weapon is restricted by Chapter 4, even if its profile has no movement penalty beyond Unwieldy. A standard crew may field at most **one weapon with range over 24 inches per complete five human fighters**, minimum allowance one. Range-increasing effects count toward this limit.
+
+### Characteristics
+
+| Characteristic | Rule |
+| --- | --- |
+| Accurate | +1 to hit when the target is within half the weapon's printed range. No benefit in melee. |
+| Precision | If the fighter has Aim, reroll one failed Attack Die with this weapon. |
+| Automatic X | The printed ranged Dice value is X; do not add X again. |
+| Agile | Use AGI instead of STR for melee hit totals. Damage is unchanged. |
+| Sidearm | May contribute one die to a melee pool. Uses STR there. |
+| Close Combat | May contribute one die to melee despite being two-handed. It occupies both hands. |
+| Brutal | For each hit, roll two Injury dice and use the higher raw result as that hit's one Injury roll. It cannot cause two Wounds from one hit. |
+| Piercing X | Reduce Armour by X, minimum 0. It never increases Damage against an unarmoured target. |
+| Ignore Cover X | Reduce the shooting cover penalty by X, minimum 0. Does not remove Hidden or bypass blocked LOS. |
+| Quiet | Firing does not itself remove Hidden if the shooter remains in cover. Other reveal rules still apply. |
+| Breaching | +2 STR when forcing a physical door or simple obstruction with this tool. |
+| Suppression | If this attack hits but causes no Wound, add one extra Stress to the target, once for the whole attack. |
+| Reload | After firing, mark unloaded. Spend Core to Reload before firing again. A weapon begins the battle loaded. |
+| Single-use | Expend the item after one declared use, even if it fails. It must be replaced between battles. |
+| Unwieldy | −2 to hit if its wielder has moved earlier this round, including forced movement. Pivoting alone is not movement for this trait. |
+| Thrown | A successful throw leaves the weapon at the target's position; a miss leaves it halfway along the line to the target. Recover it with Interact. It cannot be thrown again while lying on the table. |
+| Blast | Use the area attack procedure below. It cannot be dual-wielded or gain extra dice from Charge, skills, or Automatic. |
+
+### Blasts smoke and fire
+
+For a Blast, choose a visible impact point within range. It must be a surface or a model's position, not an arbitrary point in the air. Each fighter or device whose base touches the **2-inch-radius** template and has an unobstructed line to its centre is a target, including the user's crew. This blast line ignores the target's facing. Targets must be on the impact point's level or within 2 inches vertically; intervening floors block it. Roll one normal ranged Attack Die against each, then Injury for hits. Use cover from the impact point and ignore Hidden's −4. There is no separate shot at the centre, scatter roll, or extra attack on the original target. Solid walls contain the blast. A fighter can be hit only once by that blast.
+
+A smoke grenade instead requires one DEX test to place a **3-inch-diameter** smoke template at a visible point within 8 inches. Pass: place it there. Fail: place it 2 inches closer to the thrower along the same line, stopping at the first obstruction. It produces no hits. Smoke lasts through the End Phase of the **next round**, then clears; mark its expiry round.
+
+A fire bottle uses the grenade Blast profile, then leaves a 3-inch-diameter fire zone at the chosen point regardless of hit results. A human entering or starting an action inside fire suffers one Damage 2 Injury roll, at most once per round from fire zones. The initial bottle attack counts as that exposure. Fire blocks neither LOS nor movement. It lasts through the next round's End Phase. Core Interact in contact with the zone's edge extinguishes it on an INT test; a fire extinguisher does so automatically. Fire does not spread or add a separate Burning condition.
+
+### Armour and supplies
+
+| Item | Credits | Equipment slots | Rule | Access |
+| --- | ---: | ---: | --- | --- |
+| Light armour | 10 | Worn | Armour 1 | Basic |
+| Heavy armour | 25 | Worn | Armour 2; MOVE reduced by 1 | Armoury |
+| Protective shield | 15 | 1 | Occupies one hand. +1 Armour against attacks through the forward arc; total Armour maximum 3. No protection from falls or Crush. | Workshop |
+| Medkit | 10 | 1 | Single-use; Treat or self-treatment | Basic |
+| Smoke grenade | 5 | 1 | Single-use; smoke procedure | Basic |
+| Frag grenade | 10 | 1 | Single-use; range 8, Damage 1, Blast | Workshop |
+| Fire bottle | 10 | 1 | Single-use; range 8, Damage 1, Blast, fire zone | Basic |
+| Hacking kit | 20 | 1 | +2 to Hack; enables portable hacking of devices within 8 inches | Basic |
+| Climbing kit | 10 | 1 | +2 to a climb with usable anchor points; permits otherwise smooth climbs where a rope can be secured from an accessible top | Basic |
+| Safety harness | 10 | 1 | Once per battle reroll a failed AGI test to avoid a fall; must be used with a climbing kit or a declared safety line | Workshop |
+| Respirator | 10 | 1 | Ignore irritant gas Stress; does not ignore smoke LOS | Basic |
+| Tool kit | 10 | 1 | +2 INT to Repair a device, not Deploy or Hack | Basic |
+| Fire extinguisher | 10 | 1 | Core Interact automatically clears one adjacent fire template; reusable | Basic |
+| Trauma dressings | 5 | 1 | Single-use; when treating another fighter, reroll one failed treatment test after spending the medkit. No effect on self-treatment. | Clinic |
+| Stimulant | 5 | 1 | Single-use; Core in contact removes Pinned and 1 Stress from a conscious friendly. It gains 1 Stress at this End Phase. Cannot affect a Down fighter. | Clinic |
+| Anti-anxiety dose | 5 | 1 | Single-use; Core on self or friendly in contact gives +2 to its next Break or Rally this battle. Only one dose may be pending per fighter. | Clinic |
+
+A conscious fighter may administer a chem to itself only when otherwise permitted to Use Item. A Pinned fighter needs help; a chem does not silently override its action restrictions. A fighter may receive **one chem dose per round**. The bonus ends when used, and duplicates do not stack. Medkits and dressings are medical supplies, not chems. There is no addiction, toxicity, or drug-combination track in the core rules.
+
+### Building and naming weapons
+
+Use the armoury immediately, or agree a custom profile before either player selects a roster. A custom weapon must stay inside its class and use the characteristics above. An exact copy of a published profile always uses the published price, not a cheaper builder result. Its appearance does not grant unprinted capabilities. The following construction prices are a **provisional design tool**, not evidence of equivalence to the curated armoury. Both players must accept the complete profile and Credits value before it can enter persistent play; otherwise use the nearest published profile.
+
+| Class | Starting profile | Base Credits | Limits |
+| --- | --- | ---: | --- |
+| One-handed ranged | 1 die, Damage 1, range 8, Sidearm | 10 | Damage 1–3; range at most 12; two dice maximum |
+| Two-handed ranged | 1 die, Damage 1, range 24 | 15 | Damage 1–3; range at most 36; three dice maximum |
+| Heavy ranged | 1 die, Damage 3, range 24, Heavy, Unwieldy | 35 | Damage 3–5; range at most 36; three dice maximum; three weapon slots |
+| One-handed melee | 1 die, Damage 1 | 5 | Damage 1–3; two dice maximum |
+| Two-handed melee | 2 dice, Damage 3 | 15 | Damage 3–5; three dice maximum |
+| Thrown | 1 die, Damage 1, range 8, Thrown | 5 | Damage 1–2; one die; one weapon slot |
+
+Add 5 Credits per extra Damage, 15 per extra Attack Die, 5 to extend a Sidearm from 8 to 12 inches, or 15 to extend a two-handed ranged weapon from 24 to 36. Shortening a two-handed ranged weapon to 12 inches reduces its price by 5. Each trait costs: Accurate 5; Precision 10; Agile 5; Close Combat 5; Brutal 10; Piercing 1 costs 5, Piercing 2 costs 10; Ignore Cover 1 costs 5, Ignore Cover 2 costs 10; Quiet 15; Breaching 5; Suppression 10; Blast 20. Blast restricts the profile to one die per target and cannot combine with Automatic or Quiet. Ordinary class traits are included, not purchased twice.
+
+Reload reduces the result by 5; Single-use reduces it by 10. Use no more than one price-reducing drawback. Minimum weapon price is 5 Credits. At most **two optional traits** may be added to a custom weapon; class traits, Automatic's printed dice, and the one drawback do not count toward those two. No profile exceeds Damage 5, range 36, or the three-die ceiling. Consumable grenades use their printed profiles rather than this builder.
+
+## 16 Skills
+
+### Choosing and using skills
+
+These **40 skills** are the Version 2 selection. Learn only skills whose stat is at least +2 before lasting injuries. Each fighter knows at most three; do not stack several copies. Starting skills are included in the training grade. Later skills come from advancement, not a separate purchase of powers.
+
+“Once per round” means once across all of that fighter's turns and reactions combined. Free movement or a changed action cost never creates an extra own-turn attack or reaction. All skill tests use the core test unless explicitly opposed. A passive bonus has no action cost. A fighter must be conscious, unpinned, unengaged, and free of a morale condition to use a skill action unless its text explicitly permits otherwise. Melee skills can be used during their stated engagement.
+
+### Strength skills
+
+| Skill | Use | Effect |
+| --- | --- | --- |
+| Grapple | Core; engaged | Opposed STR against one engaged enemy. Pass: hold it. Neither can attack, react, or operate equipment while the hold remains. The holder may drag at half MOVE and release at the start of its own turn. The held fighter may spend Core to oppose STR and escape; success releases it and allows a free 1-inch separation. Down, Unconscious, Pinned, or a morale condition on the holder ends the hold. No human-shield or automatic takedown effect. |
+| Strong Arm | Passive | Move at normal MOVE when dragging one casualty or carrying a Heavy mission object. Both still prohibit Dash and Charge and occupy one hand. Does not permit full-speed dragging of a resisting Grappled enemy. |
+| Throw | Core | In contact, lift and throw a loose, plausibly hand-carried object no larger than a 1 × 2-inch footprint up to 3 inches. Test STR to hit one visible fighter at the destination; success Pins it and Displaces it 1 inch, with normal hazard consequences. Failure moves the object halfway without hitting. Cannot throw a person, anchored scenery, or mission-critical feature. |
+| Brace | Core; in heavy cover | Ready and brace in place. Until you next move or take another Core Action, reduce Stress gained from each incoming attack by 1, minimum 0. Hits still Pin normally and may remove READY. This is not armour or injury resistance. |
+| Bull | Charge modifier | You may replace the Charge's melee exchange with Shove, gaining +2 to that opposed STR test. There is no separate charge attack or charge die. |
+| Rage | Melee modifier | Before rolling an own-turn Fight or Charge exchange, accept 1 Stress after the exchange to gain +2 Damage for its Injury rolls. You must have room for that Stress when declaring. No bonus in defensive exchanges or reaction attacks. |
+| Tough | Once per battle | Reroll your failed self-treatment test using the same medkit. This is the same treatment attempt, not a second charge or an extra Wound. |
+| Big Fella | Passive | An Unwieldy weapon suffers −1 instead of −2 after your movement. It still occupies its normal hands and slots. |
+
+### Dexterity skills
+
+| Skill | Use | Effect |
+| --- | --- | --- |
+| Mark Target | Move; once per round | Test DEX against one legally visible enemy within 24 inches. Pass: Mark it through this round's End Phase; friendly shooting gains +2 to hit it. Reveal it as described in Chapter 11. Only one enemy may be Marked by your crew at a time; a new mark replaces the old. |
+| Head Shot | Shooting modifier | Gain +2 Damage against a Marked target when using a one-die ranged weapon. Does not apply to Blast or an Automatic weapon reduced to one die. |
+| Gunslinger | Passive | When using two one-handed firearms, add one off-hand Attack Die beyond the normal allowance, to the shared maximum of three. Keep each die's weapon identity. |
+| Split Fire | Shooting modifier | Divide your normal shooting pool between at most two enemies within 3 inches of each other. Each die needs its own weapon range and LOS. No extra dice or follow-up shots. |
+| Run and Gun | Move plus Core | If both slots remain, combine normal Move and Shoot as one turn, firing at a declared point along the route. Spend both slots at declaration. This is your one own-turn attack and offers the opponent one reaction window for the combined action. |
+| Breach | Move modifier; once per round | During your Move, attempt to force one closed ordinary door with an STR test without spending Core. Success opens it and movement continues; failure stops movement at the door. Reinforced blast doors are excluded. Reactions work normally. |
+| Cover Me | Reaction | Spend READY when a visible enemy shoots another friendly within 6 inches of you. Shoot the attacker as a simultaneous Return Fire exchange; the attacker still targets the original friendly. Neither shot cancels the other. Counts as your one reaction and the action's one reacting model. |
+| Speed Loader | Move; once per round | Reload one held weapon instead of moving. Does not grant a free Move or waive the attack-action limit. |
+
+### Agility skills
+
+| Skill | Use | Effect |
+| --- | --- | --- |
+| Ambush | Charge modifier | If you begin a Charge Hidden, test AGI before moving. Success makes its exchange Unanswered and gives +2 to hit. Failure removes Hidden and gives no bonus; the Charge still proceeds normally. Rear and skill hit bonuses can both apply, but the attack pool is still capped. |
+| Incapacitate | Core; engaged | Make a one-die Unanswered melee exchange using AGI and Damage 0. A successful Injury puts the target Down as normal; mark Subdued. If it suffers no other successful Injury or hazard before battle ends, its lasting-injury roll becomes Full Recovery instead. Capture still requires Secure and extraction. |
+| Ghost | Once per round | Shooting a one-die weapon while in cover does not itself remove your Hidden. Other reveal triggers still apply. Cannot use with Blast or Automatic weapons. |
+| Acrobatic | Passive | +2 to AGI for climbing or jumping. Climbing still costs double vertical distance and unsupported jumps remain limited to 3 inches. |
+| Dodge | Reaction modifier | Reroll a failed Dive test. You still need READY, still become Pinned, and move no farther than 3 inches. |
+| Quick | Passive | Increase MOVE by 1, to a maximum of 7 before armour and injuries. Does not alter Charge's d6 or the jump limit. |
+| Sneak | Passive | Hidden no longer halves your normal Move. Other causes of half-speed movement still apply. |
+| Sprinter | Both | Dash up to twice MOVE plus 2 inches. It still costs both slots and grants no attack. |
+
+### Intelligence skills
+
+| Skill | Use | Effect |
+| --- | --- | --- |
+| Terminal Training | Passive | +2 INT to Hack while your own fighter is physically in contact with the terminal. Does not apply through a drone or to portable device hacking. |
+| Trojan | Core | With a hacking kit, test INT against one visible electronic enemy device within 8 inches. Success performs one legal operation with it, then control returns to its owner. A Single-use device is consumed if triggered. A turret needs unspent READY and cannot exceed its attack limit. A drone may move up to 4 inches but cannot perform an objective action. Failure changes nothing. |
+| Interrupt | Reaction | While touching a terminal, spend READY when an enemy within 12 inches uses a terminal on the same network. This reaction needs the terminal link, not LOS to the hacker. Oppose INT. Success cancels that Hack and Freezes its terminal through this End Phase; failure permits the original Hack to succeed without another roll. A tied test favours the active hacker. |
+| Technician | Passive | +2 INT when Deploying or arming a device. Does not improve its firing stat or create equipment. |
+| Stabilize | Treatment modifier | +2 INT to Treat another fighter. On success set the patient's Stress to 0 instead of 2. It is still Pinned and has used its one revival. |
+| Doc | Passive | Carry two medkits in one equipment slot. Pay for both. When Treating another fighter, you may spend its carried medkit instead of yours. Treatment still requires contact and Core. |
+| Pack Rat | Passive | Gain one equipment slot, maximum three. Does not add hands or weapon slots. |
+| Smart | Move; once per round | Spend Move as Core for one direct physical Interact, including an objective's Claim, Retrieve, or Work action. It cannot be Hack, Treat, Capture, Deploy, an attack, or a skill action. |
+
+### Nerve skills
+
+| Skill | Use | Effect |
+| --- | --- | --- |
+| Inspire | Core | Test NRV, applying your Stress. Success removes up to 2 Stress from you and from one friendly within 6 inches and LOS. Does not remove Pinned or a morale condition. |
+| Rally Training | Core | Make the normal Stress-free Rally test for up to two friendlies within 6 inches and LOS instead of one within 3. One test determines both outcomes. You may include yourself, even while Broken. |
+| Motivate | Core | Test NRV. Success lets one other friendly within 6 inches and LOS use its remaining Move as a Core later this round, for a non-attack action. It cannot use that slot to Motivate another fighter. No slot is refreshed. |
+| Share the Burden | Core | Transfer up to 2 Stress in total from friendlies within 3 inches and LOS to yourself, limited by your remaining capacity. No test. Does not remove their morale conditions. |
+| Hold Fast | Recover modifier | When your Recover action helps another fighter in cover, also remove 1 of its Stress. It must actually have cover from at least one visible enemy. No injury-prevention aura is created. |
+| On Your Feet | Core | Recover up to two friendlies within 6 inches and LOS instead of one within 3. No test. Neither may be Down or Unconscious; morale conditions remain. |
+| Commanding Presence | Once per round | One friendly within 6 inches and LOS may use your NRV for its Break or Rally test. You must be conscious, unpinned, and without a morale condition. Other modifiers belong to the fighter taking the test. |
+| Unflinching | Once per battle | After an attack hits you but causes no Wound, ignore Pinned from that attack and retain READY if you had it. Gain all Stress normally. This does not remove pre-existing Pinned or a morale condition. |
+
+## 17 Objectives and building a mission
+
+### Shared objective rules
+
+A fighter controls an objective when it is within 2 inches, conscious, unpinned, unengaged, and free of a morale condition, and no eligible enemy is also within 2 inches. If both crews have eligible fighters there, it is contested. Extra bodies do not outweigh one enemy unless a scenario explicitly says so. Devices, drones, Down fighters, and captives never control or contest.
+
+**Claim** is a Core Interact in base contact with an uncontested marker. It places your crew's token. For a Claim objective, that token remains when you move away and is replaced when an enemy Claims it. A contested marker scores for neither crew, even if it still bears a claim. Claim is always physical; there is no remote Tagged objective power.
+
+**Retrieve** picks up a portable objective with a Core Interact in contact. A fighter may carry one; the scenario identifies it as normal or Heavy. Passing it to a friendly in contact takes the giver's Core. A Down fighter drops it. A drone cannot carry it.
+
+**Work** is a Core Interact and an appropriate test to advance a marked objective, such as disabling a bomb or repairing a generator. Default: two successful INT or DEX tests in total, whichever the objective card names. Place a progress token for each success. A failure spends the action but does not remove progress. Opponents cannot erase progress unless the mission explicitly includes that operation.
+
+### A mission must state
+
+Record deployment, the primary objective, one secondary objective per crew, scoring times and values, the end condition, and any special terrain or loadout requirements. Both sides must know whether an objective is Control, Claim, Retrieve, Escort, or Work before selecting crews. Objectives that are secret must still use publicly agreed scoring procedures.
+
+Every mission must offer a route to primary and secondary success without killing opponents. A requirement to loot an enemy casualty is suitable as an optional story objective, not the only available route to scoring. Do not award routine points for casualties in addition to the advantage of removing their actions.
+
+### Generate a simple mission
+
+This procedure supplies playable objectives when you have no authored scenario. It does not supply setting or campaign fiction.
+
+1. Choose one primary type from the table below. Place its relevant markers in the middle 12-inch band, outside deployment zones, at least 6 inches apart and 3 inches from any edge. Alternate placing markers; each player must be able to reach them by two plausible routes.
+2. Choose one secondary type for each crew, openly and simultaneously. Both players can choose the same one. Each secondary can score only once and is worth 2 points.
+3. Link at least two of the four interactive terrain features to useful approaches to those objectives. Neither side may require a specific paid item or skill merely to participate.
+4. Play six rounds. Highest total score wins; ties are draws. A withdrawn crew loses regardless of score.
+
+| Primary type | Setup | Scoring |
+| --- | --- | --- |
+| Control | Three neutral markers | At each End Phase from round 2 onward, 1 point per marker controlled, maximum 2 points per crew per round. |
+| Claim | Three neutral markers | Claim in contact. At each End Phase from round 2 onward, 1 point per uncontested friendly claim, maximum 2 per crew per round. |
+| Retrieve | Three normal cargo markers | 2 points for each cargo taken off your deployment edge; 1 point for each still carried at battle end. Each cargo scores once, using the higher result. |
+| Work | Two independent panels with separate progress for each crew | Completing both Work successes on a panel earns 2 points; each crew may complete each panel once. A human must finish the work in contact. |
+
+| Secondary type | Completion |
+| --- | --- |
+| Open the route | Successfully operate two different interactive features while outside your deployment zone. Repeated toggling of one feature does not count twice. |
+| Reconnoitre | End an action with a conscious eligible fighter in the opponent's deployment zone, outside engagement, and spend its Core to record the route. |
+| Recover supplies | Place one additional neutral cargo at the centre before deployment. Retrieve and extract it; only one crew can score this secondary from that cargo. If both selected it, share that one marker. |
+| Rescue | Revive or evacuate one of your own Down fighters. This is optional; never the sole secondary choice offered to someone learning the game. |
+
+### Escort and sabotage conventions
+
+An authored Escort objective must give the escorted figure a profile, who controls its movement, its exit, and how it behaves if its escort falls. The default is an unarmed Recruit profile, no independent action slots, moving with a friendly in contact at the escort's normal Move. It cannot attack, score other objectives, or be used to gain Passes. Harm uses the ordinary casualty rules.
+
+For a sabotage objective, require Work at a marked charge or control point. The scenario must print the number of successes and the detonation time. In the absence of a special rule, two Work successes arm it; it triggers at the following End Phase, and one successful enemy DEX Work disarms it beforehand. Apply the feature's printed hazard or Disabled state rather than destroying an entire settlement by implication.
+
+## 18 Ending a battle and lasting injuries
+
+### Close the battlefield
+
+End after round 6, an agreed scenario ending, or voluntary withdrawal. Finish the current action before a scenario ending; withdrawal follows Chapter 10. Score any end-of-battle objectives, then record the winner or draw.
+
+Recover all your surviving fighters, including those Down or Unconscious, except captives already escorted off the enemy edge. Fighters who fled return home. Equipment still carried returns with its carrier. Unclaimed equipment and device wrecks are recovered by their original owner; a destroyed device returns as scrap with no sale value. Neither winning nor remaining on the table grants free extra Loot actions. Resolve actual ownership changes recorded during play once, with both players present.
+
+Each fighter still Down or Unconscious at the end, including an evacuated or captured casualty, makes **one lasting-injury roll**. A revived fighter who finished conscious makes none unless put Down again. An Incapacitate-only Subdued casualty gets Full recovery without a roll. No fighter rolls twice because they were shot several times. Dead fighters are removed only at this post-battle step.
+
+### Lasting-injury table
+
+Roll a d20 and read its pair of results. There are ten outcomes; only the first is death. This is not a stat test: no natural-success rule, Stress, skill, or NRV modifier applies.
+
+| d20 | Result | Effect |
+| --- | --- | --- |
+| 1–2 | Died of wounds | Remove the fighter from the Settlement Roster. Their recovered equipment goes into your stores; stolen equipment remains with its new owner. |
+| 3–4 | Convalescence | Unavailable for your next battle and its Settlement round. After that round they return without a lasting penalty. |
+| 5–6 | Damaged leg | Permanent MOVE −1, to a minimum of 4 before temporary movement effects. |
+| 7–8 | Damaged arm | Permanent STR −1, to a minimum of 0. |
+| 9–10 | Damaged eye | Permanent DEX −1, to a minimum of 0. |
+| 11–12 | Shell shock | Begin each battle with 1 Stress. |
+| 13–14 | Shaken confidence | Permanent NRV −1, to a minimum of 0. |
+| 15–16 | Hatred | Record the opposing settlement. Once per battle against it, before one own melee attack, choose +1 Damage and gain 1 Stress after the exchange. You cannot choose this at Stress 5. This counts as a scar and adds 5 Credits to the fighter's value. |
+| 17–18 | Full recovery | No lasting effect. |
+| 19–20 | Hard-earned lesson | Full recovery and 1 extra XP, within the battle's XP cap. |
+
+The five permanent penalties and Hatred are **scars**. A fighter can carry at most two scars; repeated instances of the same scar do not stack. If a new result would duplicate a scar or exceed two scars, apply Convalescence instead. A penalty at a stat's minimum still occupies its scar slot. Injury never reduces Crew Rating: deliberately injuring a fighter cannot buy a cheaper veteran. Hatred's value is removed if that scar is treated.
+
+Convalescence prevents both deployment and work for one subsequent battle cycle. Mark it with the next battle number; clear it after that battle's Settlement round, not immediately after the injury. Other scars do not prevent deployment or work. A fighter can retire voluntarily; keep their equipment, receive no refund for their body or experience, and free their housing.
+
+### Captives
+
+Only a captive actually escorted off the enemy deployment edge is a post-battle prisoner. Resolve their lasting injury on their owner's roster first. Death cancels captivity. A surviving prisoner misses their owner's next battle and cannot work during that cycle; they return automatically after that battle's Settlement round. A prisoner is not converted to the captor's roster, sold, or held indefinitely.
+
+Before that next battle, the owner may pay **25 Credits** to recover the prisoner immediately. If the captor has an operational Holding Room, the payment is **30 Credits**. This is paid to the captor; the captor cannot refuse a rules-defined release. Without payment, the one-battle return remains automatic. Temporary injury and captivity run concurrently, never consecutively. Immediate release does not cure Convalescence.
+
+Captured equipment transfers only if actually taken with a Loot action during the battle. Otherwise it returns with the prisoner. Friendly evacuation, winning, or capturing a body does not grant an automatic inventory sweep. Captivity is a limited setback, not a route to removing the opponent from a two-player game.
+
+### Battle rewards
+
+Both crews receive **125 Credits and 20 Materials** for completing a battle. The winner gains another **25 Credits**; a draw gives no winner bonus. Both crews keep their legitimately extracted loot and scenario resource rewards. The default mission generator adds no extra resources for victory points, kills, or prisoners. A withdrawn crew receives the same participation reward but no winner bonus.
+
+A battle counts for rewards, production, recovery, and experience after at least two complete rounds, or when its printed objective ends it earlier through normal play. A voluntary early concession is allowed but generates none of those benefits for either crew. Both players may instead void and replay a disrupted game; it then has no roster consequences. Do not manufacture empty games solely to generate income.
+
+## 19 Experience and advancement
+
+### Earning experience
+
+Each surviving owned fighter deployed in a qualifying battle gains **1 XP**, including fighters who fled or were captured. Gain **1 additional XP** if that fighter completed at least one of these deeds:
+
+- Made a successful Claim or Work action, or carried mission cargo off the table.
+- Operated an interactive feature that opened or closed a useful route, moved a model or cargo, or affected an enemy; toggling an irrelevant switch does not qualify.
+- Revived or evacuated a friendly casualty, or extracted an enemy captive.
+- Put an enemy fighter Down through an attack, device, or terrain operation they personally resolved.
+
+A fighter earns the deed bonus once per battle, however many deeds they perform. The injury-table lesson can add another XP, but **3 XP per battle is the absolute maximum**. Workers, reserves, Relief Volunteers, and fighters already dead gain none. Record a deed when it happens; use it to reward contribution rather than reconstructing every shot afterward.
+
+### The ten-level track
+
+New recruits start at **Level 0, XP 0**. Every **3 accumulated XP** grants the next level, to Level 10 at 30 XP. Apply each newly reached row after injuries. Keep total XP; do not spend it. Resolve multiple new levels in order. Level 10 fighters keep their history but gain no further numerical advances.
+
+| Level | Total XP | Advance | Added Crew Rating |
+| --- | ---: | --- | ---: |
+| 1 | 3 | +1 to any one stat | 10 |
+| 2 | 6 | +1 to any one stat | 10 |
+| 3 | 9 | Learn a skill | 10 |
+| 4 | 12 | +1 to any one stat | 10 |
+| 5 | 15 | +1 to any one stat | 10 |
+| 6 | 18 | Learn a skill; eligible to handle Heavy weapons | 10 |
+| 7 | 21 | +1 to any one stat | 10 |
+| 8 | 24 | +1 to any one stat | 10 |
+| 9 | 27 | Learn a skill | 10 |
+| 10 | 30 | +1 to any one stat | 10 |
+
+Add each advance's value to the fighter's original body price. This is a valuation change, not a treasury payment. A stat can never exceed +6 before scars, and Wounds never increase. A learned skill requires an uninjured stat of at least +2 in its path. Keep at most three skills; when learning a fourth, replace one. At a skill level, you may instead replace one existing skill; if you neither learn nor replace, the advance is lost but its value still applies. At a stat level where you decline a legal increase, the value also applies.
+
+Write uninjured stats and scars separately. A scar reducing a stat does not erase a learned skill or make future improvement exceed the uninjured +6 limit. Advancement does not change training grade. An experienced Recruit can become highly useful without replacing their profile or being charged for the same training twice.
+
+### Retraining and promotion
+
+An operational Training Yard lets one fighter replace one known skill for **20 Credits** per Settlement round, respecting the +2 prerequisite and three-skill maximum. It adds no skill or XP and changes no Crew Rating.
+
+There is **no automatic promotion purchase** in this edition. Training grade stays the grade bought at recruitment. Recruit and Fighter veterans may handle Heavy weapons at Level 6, within the crew's item limit. If a fighter takes over as crew leader, that is the nominated role, not the Leader recruitment grade. This prevents a promotion from granting another starting allocation on top of earned advances.
+
+## 20 Founding and running a settlement
+
+### Founding package
+
+Name your settlement and start with **1,000 Credits, 125 Materials, twelve building plots**, and these four free structures: **Headquarters, Generator, Materials Processor, and Salvage Yard**. Each occupies one plot, leaving eight free. Headquarters houses twelve people. Recruit a first crew, buy equipment, and optionally build additional available structures using the starting resources.
+
+Founding is the one exception to construction timing: all structures bought during founding are operational for the first battle. Generate and allocate Power once before that battle. You receive no founding production or battle rewards. You may keep resources unspent. Buildings need no scale model; a named box on a settlement sheet is enough.
+
+The founding package can buy a six-person 750-Credit Battle Roster, two basic workers, a Workshop, and a Clinic. The worked example in Chapter 22 shows the exact accounts. Persistent development does not require a campaign organiser, map, third player, or regular group.
+
+### The Settlement round
+
+Resolve one Settlement round after each qualifying battle, in this order:
+
+1. **Record the battlefield:** score, ownership changes, prisoners, expended items, damaged devices, and which fighters need injury rolls. Clear battle Stress and conditions after recording them.
+2. **Allocate workers and Power:** use structures already built before this round. A worker must be an available owned fighter who was not on the preceding Battle Roster, is not a prisoner or convalescent, and is not assigned elsewhere. Generate Power, then assign it to whole structures. No benefits apply until their required Power is assigned.
+3. **Resolve injuries and medical services:** roll once per eligible casualty. Use an operational Clinic for treatment if desired. Resolve prisoner release payments. A newly injured or captured fighter cannot become a worker in this round.
+4. **Collect resources:** receive battle rewards and each operational producer's output once. Buildings never generate extra rounds while you wait between games. Apply storage limits after purchases in step 6, not before you can spend the new income.
+5. **Apply experience:** award XP and advances to survivors. Update their current Credits value.
+6. **Manage the roster and buildings:** recruit, buy, sell, craft, repair, build, expand, and retrain. A service's per-round limit applies across all its uses. Each completed new structure becomes operational at the start of the next Settlement round; it grants no output, unlock, or Power now. Equipment bought or crafted now is ready for the next battle.
+7. **Close records:** clear a previously due Convalescence or unpaid captivity after this cycle. Keep new ones marked for the next cycle. Discard Materials above storage capacity; record the next Battle Roster separately when a matchup is agreed.
+
+For structures which unlock purchases or battle equipment, the last allocation of Power remains in force until the next Settlement round. Such access is available during pre-battle shopping too; a per-round production, service, or preparation limit does not refresh during shopping. Fielding someone previously assigned as a worker is legal: their completed production remains earned, but they cannot work in the Settlement round following that battle.
+
+### Power and workers
+
+Each Generator produces **10 Power** at allocation. Power is assigned, not spent as a stored currency: it expires at the next allocation and cannot be sold or saved. Pay a structure's entire listed requirement or leave it unpowered. No partially powered effects. A passive structure needs no Power. Multiple Generators add their output.
+
+One eligible worker may occupy a structure's worker slot. A worker has no proficiency track and needs no particular stat. Worker benefits are printed in the structure table: roughly a tenth of normal production or a small service discount. Do not apply a generic extra 10% to everything. Structures marked “none” receive no worker benefit. Unpowered structures receive no worker benefit either. A worker assigned to a Generator adds its output before Power allocation.
+
+No worker receives both a battle role and a production role for the same battle cycle. Workers still occupy housing and are paid for when recruited, but have no recurring wages, food, or water track. Every human body remains the same roster entry when reassigned.
+
+### Buying selling and construction
+
+Basic items are available without a special structure. An unlock marked Workshop, Armoury, Drone Bay, or Advanced Workshop requires that operational powered structure. Owned items remain usable if their unlock later loses Power. You may buy between rounds using your last valid unlocks, but cannot gain another round's income or manufacturing discount.
+
+Buy **1 Material for 2 Credits**. Materials cannot be sold for Credits. Sell intact ordinary equipment for **half its listed Credits value, rounded down**. Consumed items, scrap, Relief gear, included knives, buildings, and fighter bodies cannot be sold. A crafted or stolen item sells at the same half value; the crafting rules never produce it for less than that value. Never count the same item in both a carrier's inventory and stores.
+
+Construct a building by paying its Materials cost and reserving a vacant plot. Prerequisites must already be built; they need not be powered merely to permit construction. You cannot use a prerequisite still under construction to start its dependent structure in the same round. Unless a row says otherwise, only one of each structure may exist. You may build several independent structures in a round. Demolition frees the plot immediately but returns no resources, and removing a prerequisite disables its dependent structures until it is restored. Headquarters cannot be demolished.
+
+Purchase **four additional plots for 40 Materials**, at most three times, for a maximum of twenty-four plots. A plot is an accounting slot, not a placement puzzle. Housing limits owned living people including workers, prisoners, and recovering fighters; Relief Volunteers do not occupy housing. Recruit only if there is space. Destroying or disabling a structure never deletes people or equipment you already own; excess residents may remain, but you cannot recruit until housing is sufficient.
+
+Credits and equipment storage are unlimited. Headquarters stores **250 Materials**; each Storehouse adds 250. At the close of a Settlement round, excess Materials are discarded. You may spend them first. This cap never destroys items or removes Credits already earned.
+
+### Medical treatment and device repair
+
+An operational Clinic can treat one fighter per Settlement round. Pay **30 Credits** and nominate one scar. The fighter must sit out the next battle and cannot work in its following Settlement round; remove the scar after that recovery cycle. The treatment can run concurrently with Convalescence or captivity. It cannot reverse death. You can treat the same fighter again in a later round for a different scar. No Clinic is needed for the ordinary one-battle Convalescence recovery.
+
+An Offline owned device is restored for free between battles. A Destroyed device can be rebuilt at a powered Workshop for **half its listed Credits value, rounded up**, once per device; remove its scrap entry and add the restored item. A utility drone or sentry also requires a powered Drone Bay. Without the required facilities, keep the scrap or discard it. Scrap has no battlefield use and cannot be repeatedly sold. Consumed mines, traps, grenades, rockets, and medical supplies must be replaced at their normal prices.
+
+## 21 Settlement structures
+
+### Structure catalogue
+
+“Power” is the allocation each round. Every row occupies one plot. A prerequisite means the named structure must exist, in addition to any Power needed for that row's own benefit. A discount applies only to the named service, once to its final price, rounded down; it cannot create a negative cost or reduce an item's Crew Rating.
+
+| Structure | Materials | Prerequisite | Power | Benefit | One worker |
+| --- | ---: | --- | ---: | --- | --- |
+| Headquarters | Free at founding; unique | — | 0 | Housing 12; storage 250 Materials; ordinary recruitment and basic shopping. | None |
+| Generator | 40; one free | Headquarters | Produces 10 | Supply 10 Power. Up to three Generators. | +1 Power |
+| Materials Processor | 50; one free | Headquarters | 2 | Produce 20 Materials each Settlement round. | +2 Materials |
+| Salvage Yard | 50; one free | Headquarters | 2 | Produce 50 Credits each Settlement round. | +5 Credits |
+| Bunkhouse | 30 | Headquarters | 0 | Housing +6. Up to three Bunkhouses. | None |
+| Storehouse | 25 | Headquarters | 0 | Material storage +250. Up to two Storehouses. | None |
+| Workshop | 60 | Headquarters | 2 | Unlock Workshop items, repair devices, and craft up to two eligible items each round. | Crafting price −10% |
+| Armoury | 60 | Workshop | 2 | Unlock Armoury items and high-quality firearms. | None |
+| Advanced Workshop | 80 | Armoury | 3 | Unlock rockets and approved custom Heavy profiles. | None |
+| Clinic | 60 | Headquarters | 2 | Treat one fighter's scar per round; unlock dressings and medical drugs. | Treatment price −3 Credits |
+| Drone Bay | 60 | Workshop | 2 | Unlock utility drones and sentries; repair their wrecks at a Workshop. | Their rebuild price −10% |
+| Training Yard | 40 | Headquarters | 1 | Retrain one known skill for 20 Credits each round. | Retraining price −2 Credits |
+| Comms Mast | 40 | Workshop | 1 | Prepare one Signal Plan per round for 10 Credits. | None |
+| Scout Post | 35 | Headquarters | 1 | Prepare one Route Map per round for 10 Credits. | None |
+| Smoke Shop | 35 | Workshop | 1 | Craft up to two smoke grenades each round for 3 Credits apiece. Separate from Workshop's two-item limit. | None |
+| Medical Stores | 35 | Clinic | 1 | Craft up to two medkits each round for 6 Credits apiece. Separate from Workshop's limit. | None |
+| Materials Exchange | 45 | Headquarters | 1 | Buy up to 20 Materials per round for 30 Credits as one batch, instead of the ordinary 40. | None |
+| Holding Room | 25 | Headquarters | 0 | Immediate release price for a prisoner is 30 rather than 25 Credits. Does not extend captivity. | None |
+| Repair Depot | 35 | Workshop | 1 | One eligible device rebuild per round costs 5 Credits less, minimum 1. Apply after any worker discount. | None |
+| Community Hall | 30 | Headquarters | 0 | One Recruit per round costs 55 Credits to hire; their normal 60-Credit body value still counts in Crew Rating. | None |
+
+There are no mandatory food, water, worker-proficiency, building-hit-point, or attention tracks. Settlement buildings provide production, capacity, access, or one named service. They do not add passive to-hit bonuses, extra Wounds, or free units to a Battle Roster.
+
+### Crafting and availability
+
+At a powered Workshop, craft up to two non-human items per Settlement round for **80% of listed Credits value, rounded up**, minimum 1 Credit. You must also have the item's normal unlock operational. A Workshop worker reduces that crafting price by 10%, rounded down, minimum 1. Use the finished item's full listed value when fielding or selling it. This process consumes Credits for parts and labour; Materials remain the construction resource. The Smoke Shop and Medical Stores prices cannot also receive the Workshop discount.
+
+All weapons state their unlock in Chapter 15. Shields, climbing harnesses, frag grenades, and remote clamps need a Workshop. Heavy armour needs an Armoury. Blast mines, smoke emitters, hacking kits, and other ordinary equipment are Basic. Utility drones and sentries need a Drone Bay; its Workshop prerequisite must exist but need not also be powered just to purchase them. Rebuilding or Workshop crafting them requires both powered facilities. Clinic drugs and dressings need a Clinic. Custom weapon variants require at least a Workshop, plus Armoury for range over 24 inches or an Advanced Workshop for Heavy designs.
+
+### Battle preparations
+
+Preparations are single-use items assigned to one fighter before deployment. They use no inventory slot, but count at their **full 10 Credits** in Crew Rating even if prepared earlier. A Battle Roster may take at most one of each. Unused preparations remain in stores; a preparation lost with an unrecovered carrier is lost like other equipment.
+
+- **Signal Plan:** after rolling your crew's initiative, expend it to reroll that die once. The carrier must be conscious, on the table, and not Broken, Bolting, or Bugging Out. Use the new result. It grants no extra turn or action.
+- **Route Map:** after both crews deploy, expend it to move its carrier up to 3 inches wholly within its own deployment zone. It cannot interact, Hide, attack, or enter engagement. If both crews use a map, the player who deployed first moves first. It grants no objective progress.
+
+These preparations are examples of settlement development affecting a battle through a paid, limited option. They never raise the agreed Crew Rating or create an automatic advantage for a larger settlement.
+
+## 22 Worked examples
+
+### A six-person founding crew
+
+This example costs exactly **750 Credits** and uses six humans, including one Specialist, one Leader, two Fighters, and two Recruits. Each carries their included utility knife. Stat order below is STR / DEX / AGI / INT / NRV.
+
+| Fighter | Stats | Skills | Equipment | Total |
+| --- | --- | --- | --- | ---: |
+| Leader | 1 / 2 / 1 / 2 / 3 | Inspire; Rally Training | Assault rifle 35, light armour 10, medkit 10 | 185 |
+| Fighter A | 1 / 2 / 1 / 0 / 1 | Mark Target | Assault rifle 35, light armour 10 | 125 |
+| Fighter B | 1 / 2 / 1 / 0 / 1 | Split Fire | Assault rifle 35, light armour 10 | 125 |
+| Specialist | 0 / 1 / 1 / 4 / 1 | Terminal Training; Technician | Pistol 15, hacking kit 20, light armour 10 | 155 |
+| Recruit A | 0 / 1 / 1 / 0 / 1 | — | Pistol 15, smoke grenade 5 | 80 |
+| Recruit B | 0 / 1 / 1 / 0 / 1 | — | Pistol 15, smoke grenade 5 | 80 |
+
+Starting with 1,000 Credits leaves 250. Hire two additional Recruits as workers for 120 Credits, leaving **130 Credits** and eight residents. Build a Workshop and Clinic for 60 Materials each, leaving **5 Materials**. Six buildings occupy six of twelve plots. Allocate the Generator's 10 Power: 2 each to the Processor, Salvage Yard, Workshop, and Clinic, leaving 2 unused.
+
+Do not collect production during founding. After the first qualifying battle, the two non-deployed workers can staff the Processor and Salvage Yard, producing 22 Materials and 55 Credits. With a loss or draw, the settlement receives 125 Credits and 20 Materials from the battle as well: **180 Credits and 42 Materials** before other expenses. A win adds another 25 Credits. Injuries, used supplies, and construction still need to be paid for.
+
+### Actions and a reaction
+
+Mara spends her Move to advance into cover. The other player takes an action. Mara later spends her Core to Ready. On a later enemy Move, Mara sees a legal target cross her front arc at a declared point. She spends READY to Shoot there and marks Reacted. The shot hits but fails Injury: the enemy gains Stress and becomes Pinned, ending its unfinished movement. Mara cannot react again this round even if she somehow gains READY again.
+
+### Shooting and Injury
+
+A DEX 2 rifle user at Stress 1 shoots a target in heavy cover with two attack dice. They have no other bonus, so each die adds 2 − 1 − 2 = **−1**. Rolls of 16 and 9 become 15 and 8: one hit. The rifle's Damage 2 attacks Armour 1. An Injury roll of 13 becomes 14, so it fails: the target gains 1 Stress and becomes Pinned. A 14 would total 15 and put the target Down instead. The shooter's Stress never modifies Injury.
+
+### Opposed melee
+
+A STR 2 attacker rolls 17 and 8, for totals **19 and 10**. A STR 1 defender rolls 14 and 6, for **15 and 7**. Only the attacker's 19 exceeds the defender's highest 15, so the attacker scores one hit. The defender has no die higher than 19 and scores none. Neither side counts 15+ successes here. If both highest totals were 19, neither would score a hit.
+
+### A casualty's two full rounds
+
+Nico goes Down during round 2. Record “Down 2.” The remaining part of round 2 does not count as a full round. Nico can crawl half MOVE or spend an available Core and medkit to try self-treatment. Friends can attempt treatment too. If still Down after complete rounds 3 and 4, Nico becomes Unconscious at the End Phase of round 4. No further battlefield revival is allowed. If evacuated earlier while still Down and never revived, Nico still makes one post-battle injury roll.
+
+### Terrain as a weapon and a route
+
+A fighter at a terminal successfully HACKS a linked pit cover. Opening the cover reveals a gap and triggers the printed fall procedure for its occupants. Closing a gate through an occupied doorway instead uses that gate's Crush procedure, including the operator test and the victims' escape tests. Both operations spend the same Core used for Shoot or Claim. A second reachable physical control means an opponent can restore the route without buying a hacking kit.
+
+### An advance changes what you can field
+
+A Fighter body originally worth 80 Credits reaches Level 1 and adds +1 INT. Their body is now worth 90 Credits; no treasury Credits are paid for the advance. With a 35-Credit rifle and 10-Credit armour they count as 135. Their settlement must find room for that extra 10 in the next agreed Battle Roster. An old injury does not discount it, and a discounted rifle still counts as 35.
+
+## 23 Roster sheets and reference
+
+### Battle Roster fields
+
+Record the agreed limit, scenario, six-round counter, score, primary and secondary objectives, and crew Passes. For each fighter record:
+
+| Name and grade | Current body value | STR | DEX | AGI | INT | NRV | MOVE | Armour | Weapons and equipment | Skills | Total value |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- | ---: |
+|  |  |  |  |  |  |  |  |  |  |  |  |
+
+Beside each entry, leave boxes for Move, Core, READY, Reacted, Stress, morale, Pinned, Hidden, Down round, revival used, consumables, and once-per-battle skills. You need only the weapon, skill, and device rules actually fielded; copy their short entries onto the roster or cards.
+
+### Settlement record fields
+
+Keep treasury Credits, stored Materials and capacity, plots, buildings, Power allocation, workers, and pending construction. For each person record training grade, original and current body value, uninjured stats, scars, skills, XP, level, equipment, availability, and any treatment, captivity, or recovery due after a numbered battle. Keep one shared inventory of stored items and device scrap.
+
+At each battle's end, record the score, rewards, actual loot transfers, injuries, XP deeds, advances, production, purchases, construction, and the new balances. Both players should agree transferred items and prisoners before updating their separate records.
+
+### Table reference
+
+Use [[Draft 2 - Battle Quick Reference]] for the condensed battle procedures. The four-page A4 version is intended for two double-sided sheets. Keep fielded profiles, chosen skills, and the agreed terrain cards beside it; the reference does not replace those roster-specific details. Settlement bookkeeping belongs after the battle rather than on the battle reference.
+
+## 24 Campaign and scenario content
+
+### Campaign framework
+
+**[PLACEHOLDER — linked stories, maps, territories, campaign events, organisers' guidance, and campaign endings.]** These may connect battles later. The persistent roster, injury, advancement, settlement, and Crew Rating rules already operate without a campaign.
+
+### Authored scenarios
+
+**[PLACEHOLDER — named missions, illustrated layouts, deployment diagrams, recommended interactive features, and narrative introductions.]** Each scenario must print the information required in Chapter 17. The mission generator is sufficient to play while these are written.
+
+### Setting and presentation material
+
+**[PLACEHOLDER — factions, character examples, artwork, terrain-building photographs, fiction, designer introduction, acknowledgements, and publication credits.]** Add these around the rules without silently creating equipment exceptions or changing the resolution system.
