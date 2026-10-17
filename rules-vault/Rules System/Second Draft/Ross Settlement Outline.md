@@ -1,7 +1,7 @@
 - Introduction
 - Setting/lore
 - Mission/Community
-- Requirements to play (Dice needed, tokens, minis, terrain, etc)
+- Requirements to play (Dice needed, tokens, minis, terrain, How do I increase the width of etc)
 
 - Core Mechanics
   - Dice 
