@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Once per turn, spend an ACTION to transfer up to 3 STRESS in total from friendlies within 6 inches to this unit, limited by its remaining Stress capacity.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

@@ -4,8 +4,10 @@ rule_id: adv-003
 category: advanced
 status: parking-lot
 version: v0.0
-parent_phase: "[[Scenarios]]"
-tags: [settlements/rule, settlements/cat/advanced]
+parent_phase: "[[Settlements/Rules System/Archived/Scenarios]]"
+tags:
+  - settlements/rule
+  - settlements/cat/advanced
 ---
 
 > [!warning] Legacy reference — not the active Second Draft
@@ -14,7 +16,7 @@ tags: [settlements/rule, settlements/cat/advanced]
 # adv-003 · Civilians and non-combatants
 > **advanced** · status **parking-lot** · v0.0
 
-**Parent phase:** [[Scenarios]]
+**Parent phase:** [[Settlements/Rules System/Archived/Scenarios]]
 
 ## Text
 _No rule text yet — stub imported from the Notion Rules database._

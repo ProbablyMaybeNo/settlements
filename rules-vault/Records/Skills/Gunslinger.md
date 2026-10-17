@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 When dual wielding 1 HANDED RANGED weapons, the off-hand contributes its full attack dice to the combined SHOOT action.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

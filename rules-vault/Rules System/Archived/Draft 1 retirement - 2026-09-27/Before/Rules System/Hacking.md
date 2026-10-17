@@ -19,11 +19,11 @@ tags:
 # 33 · Hacking
 > **S3 Battle Layer** · status **Drafted** · build order **14**
 
-**Depends on:** [[Terrain]], [[Terrain Interaction]], [[Rules Engine]]
-**Feeds into:** [[Settlement]], [[Scenarios]], [[Skills]]
+**Depends on:** [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain]], [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction]], [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules Engine]]
+**Feeds into:** [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Settlement]], [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Scenarios]], [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]]
 
 ## Focus
-Terminals, Linked features, and range-banded control of terrain. Physical Interacts (Lift, Force, Search, traps) stay in [[Terrain Interaction]] — this note is the digital layer.
+Terminals, Linked features, and range-banded control of terrain. Physical Interacts (Lift, Force, Search, traps) stay in [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction]] — this note is the digital layer.
 
 
 
@@ -34,7 +34,7 @@ The Rules column nails down:
 - How turrets, cameras, doors, and alarms plug in without a second dice mechanic.
 
 ## Inherits from the engine
-> [!info] Recall — a hack is **one core test**: `1d20 + INT − range` vs **7+**, the same engine as everything else. Range is a **modifier**, not a new target number. Device states (**Jammed**, **Linked**, **Frozen**) live in [[Conditions#Marker & device states (not conditions on units)]].
+> [!info] Recall — a hack is **one core test**: `1d20 + INT − range` vs **7+**, the same engine as everything else. Range is a **modifier**, not a new target number. Device states (**Jammed**, **Linked**, **Frozen**) live in [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Conditions#Marker & device states (not conditions on units)]].
 
 ![[core-000 Core Test#Text]]
 
@@ -44,7 +44,7 @@ The Rules column nails down:
 - A **terminal** is terrain a fighter can Interact with while in **base contact**.
 - Features are **Linked** only when the scenario or settlement says so — range alone never makes something Linked.
 - Operating a terminal spends the unit's **Action** slot.
-- One Action = one hack = at most **one** Linked function, unless a skill says otherwise ([[Skills]]).
+- One Action = one hack = at most **one** Linked function, unless a skill says otherwise ([[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]]).
 - **Access doesn't wear a terminal out.** A terminal used only to **access** features stays live all turn — different units may each hack it — but a **single unit may not access the same terminal twice in one turn.**
 
 
@@ -73,7 +73,7 @@ Measure **terminal → feature**. Max **24"**. Applies to the hack test.
 Other modifiers (skills, gear, **Shaken**, conditions) stack normally; the global **±3** cap applies.
 
 ### Interrupt
-Interrupt is the INT skill in [[Skills#INT]]. It requires contact with an active terminal and an enemy terminal interaction within 12 inches. Resolve opposed INT; success cancels that interaction and FREEZEs the enemy terminal until the end of the next turn. It may be used after the source has activated. No automatic veto or self-Overload applies. See [[Skill Integration Decisions]] for unresolved frequency/network details.
+Interrupt is the INT skill in [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills#INT]]. It requires contact with an active terminal and an enemy terminal interaction within 12 inches. Resolve opposed INT; success cancels that interaction and FREEZEs the enemy terminal until the end of the next turn. It may be used after the source has activated. No automatic veto or self-Overload applies. See [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skill Integration Decisions]] for unresolved frequency/network details.
 
 ### Linked functions (what a successful hack controls)
 The **one** function a passed hack grants — one per Action unless a skill says otherwise:
@@ -84,12 +84,12 @@ The **one** function a passed hack grants — one per Action unless a skill says
 - Turrets — rotate / deactivate / **fire once** (counts as your attack)
 - Electronic traps — arm / disarm / trigger if legal
 
-**Turrets are [[Deployables]].** There are **no board-built turrets** — every turret is a deployable that **auto-fires for its owner**. Hacking one **hijacks** it: deactivate it, turn it, or fire it once at its own side (your Action).
+**Turrets are [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables]].** There are **no board-built turrets** — every turret is a deployable that **auto-fires for its owner**. Hacking one **hijacks** it: deactivate it, turn it, or fire it once at its own side (your Action).
 
-> The full catalogue of operable features — cranes, bridges, shutters, vents, flood gates — and exactly what each does to the board (with every crush/fall/push routed to an existing rule) lives in [[Infrastructure]]. Hacking is *how* you operate them; Infrastructure is *what happens*.
+> The full catalogue of operable features — cranes, bridges, shutters, vents, flood gates — and exactly what each does to the board (with every crush/fall/push routed to an existing rule) lives in [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Infrastructure]]. Hacking is *how* you operate them; Infrastructure is *what happens*.
 
 ### Modifiers — from gear & skills, not a hardening stat
-A hack test takes **+/− modifiers** like any other roll: hacking **gear** (Breach Kit, Exploit Suite — [[Weapons]] / [[List Building]]), INT **skills** ([[Skills]]), **conditions**, and **Shaken**. Difficulty is the same in reverse — a defender's gear/skill or a scenario may impose a **penalty** on enemy hacks against a device. There is **no separate "hardened systems" stat**; toughness is just a modifier, and the global **±3** cap applies.
+A hack test takes **+/− modifiers** like any other roll: hacking **gear** (Breach Kit, Exploit Suite — [[Weapons]] / [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building]]), INT **skills** ([[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]]), **conditions**, and **Shaken**. Difficulty is the same in reverse — a defender's gear/skill or a scenario may impose a **penalty** on enemy hacks against a device. There is **no separate "hardened systems" stat**; toughness is just a modifier, and the global **±3** cap applies.
 
 ### Action economy
 One hack per activation. A feature that deals damage (turret fire, a triggered hazard) is your **one attack** for the activation — you may not also make a separate attack.
@@ -112,4 +112,4 @@ _none yet — graduate a `core-00X Hacking` stub after first playtest_
 >
 
 ## Current skills
-Neural Uplink adds +4 to HACKING tests. Trojan operates an enemy ELECTRIC deployable. Interrupt contests terminal interactions. Full effects: [[Skills#INT]].
+Neural Uplink adds +4 to HACKING tests. Trojan operates an enemy ELECTRIC deployable. Interrupt contests terminal interactions. Full effects: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills#INT]].

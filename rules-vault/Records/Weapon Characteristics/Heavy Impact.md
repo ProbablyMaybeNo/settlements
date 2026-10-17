@@ -15,6 +15,6 @@ tags: [settlements/record, settlements/gear/characteristic]
 
 # Heavy Impact
 
-Push the target **2"** directly away. Falls and hazards resolve normally ([[Terrain]]). *Also inside the noise floor.*
+Push the target **2"** directly away. Falls and hazards resolve normally ([[Settlements/Rules System/Archived/Terrain]]). *Also inside the noise floor.*
 
 *Record. These properties are the source of truth — `records.py` regenerates the table in [[Weapons]] from them.*

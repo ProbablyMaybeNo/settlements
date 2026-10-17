@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Increase this unit's AURA ranges by 3 inches. It may maintain two AURAS simultaneously.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

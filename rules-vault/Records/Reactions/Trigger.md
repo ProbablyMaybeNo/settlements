@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/core/reaction]
 
 Only your own traps with the **Remote Detonation** tag (set by the placer, or by a Hacker). Not every trap is remote.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Initiative & Activation]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Initiative & Activation]] from them.*

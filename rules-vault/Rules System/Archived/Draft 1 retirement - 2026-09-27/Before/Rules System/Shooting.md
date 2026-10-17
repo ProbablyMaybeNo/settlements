@@ -11,8 +11,8 @@ tags: [settlements/phase, settlements/stage/s2]
 # 13 · Shooting
 > **S2 Core Combat** · status **Drafted** · build order **7**
 
-**Depends on:** [[Unit Design]], [[Movement]]
-**Feeds into:** [[Damage]]
+**Depends on:** [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Unit Design]], [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Movement]]
+**Feeds into:** [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Damage]]
 **Raw dependency (from Notion):** Unit Design, Movement
 
 ## Focus
@@ -36,19 +36,19 @@ Worked cover × armour matrix already lives with the rule → [[core-000 Core Te
 ## Working rules / decisions
 
 ### Ranged attack sequence
-1. Declare a target in **range**, **true LOS**, and your **forward 180°** facing arc ([[Rules Engine#House Conventions]]).
+1. Declare a target in **range**, **true LOS**, and your **forward 180°** facing arc ([[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules Engine#House Conventions]]).
 2. Measure range vs weapon range.
 3. **Attack roll:** `1d10 + DEX + modifiers` vs **7+**. Make **one roll per Attack Die** ([[Weapons#1.5 · Attack Dice — the multi-shot axis]]) — default 1, all at full stats, all on the same Action.
-4. On a hit → **Injury roll** (see [[Damage]]).
-5. A clean **miss** does nothing. A hit's outcome is the **Injury roll** (step 4): a wound, or **Pinned (+1 Stress)** if it fails to wound. **Only a hit that connects generates Stress** — see [[Damage]] / [[Morale]].
+4. On a hit → **Injury roll** (see [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Damage]]).
+5. A clean **miss** does nothing. A hit's outcome is the **Injury roll** (step 4): a wound, or **Pinned (+1 Stress)** if it fails to wound. **Only a hit that connects generates Stress** — see [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Damage]] / [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Morale]].
 6. **Multi-die weapons:** roll every die's Injury together, then apply **one** result of your choice; every *other* hit that failed to wound still Pins. **A burst inflicts at most 1 WND** however many dice pass — see [[Weapons#1.5 · Attack Dice — the multi-shot axis]].
 
-You may set facing for free as part of a Move (including a facing-only Move — [[Movement]]). Declaring Shoot does **not** itself rotate you — turn first if the target is outside your arc.
+You may set facing for free as part of a Move (including a facing-only Move — [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Movement]]). Declaring Shoot does **not** itself rotate you — turn first if the target is outside your arc.
 
-> [!info] The target can react. A **Ready** enemy you Shoot may **Dodge** — an opposed **AGI vs DEX** roll that, if it wins, negates the shot and lets it dive out of LOS (then Pinned). A Ready enemy in its own forward arc may **Snap Shot** back *after* your shot resolves. See [[Initiative & Activation#Reaction options]].
+> [!info] The target can react. A **Ready** enemy you Shoot may **Dodge** — an opposed **AGI vs DEX** roll that, if it wins, negates the shot and lets it dive out of LOS (then Pinned). A Ready enemy in its own forward arc may **Snap Shot** back *after* your shot resolves. See [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Initiative & Activation#Reaction options]].
 
 ### Modifiers
-- Cover: **Light −1 · Heavy −2 · Hidden −3** (see [[Terrain]]).
+- Cover: **Light −1 · Heavy −2 · Hidden −3** (see [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain]]).
 - Out of range or outside forward arc / no LOS: cannot target.
 - **Weapons rarely add to hit** — only via a conditional trait such as **Accurate** (see [[Weapons]]). Stats decide the hit; weapons decide the injury.
 
@@ -61,4 +61,4 @@ You may set facing for free as part of a Move (including a facing-only Move — 
 - [[core-002 Shooting]]
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

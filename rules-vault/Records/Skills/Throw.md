@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Throw adjacent scatter or obstacle terrain no larger than 3 inches a distance in inches equal to STR. May instead throw a GRAPPLED target. Terrain hitting a unit causes PINNED. A thrown unit hitting a structure suffers an injury roll at +3 Damage; collision with another unit PINs both.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

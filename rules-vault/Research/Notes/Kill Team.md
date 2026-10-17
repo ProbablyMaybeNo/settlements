@@ -68,7 +68,7 @@ The universal list is mostly battlefield furniture and consumables — barricade
 
 The price paid is that equipment can no longer express "this specific model is kitted differently."
 
-**For Settlements — the shape to take.** Not the wholesale removal of prices; we've chosen a player-built armoury deliberately. The transferable rule is: **slots for the long tail, real pricing for the things that carry the game.** Barricades, ladders, ammo caches, mines and comms gear are *exactly* the category — and they map straight onto [[Deployables]] and the [[Ideas Inbox]] want for player-placed defensive structures in territory battles. **A "pick 4 deployables, place alternately" pre-game step would give us the interactive board setup for almost no rules text and zero costing risk.** See [[Terrain Interaction]] and [[Scenarios]].
+**For Settlements — the shape to take.** Not the wholesale removal of prices; we've chosen a player-built armoury deliberately. The transferable rule is: **slots for the long tail, real pricing for the things that carry the game.** Barricades, ladders, ammo caches, mines and comms gear are *exactly* the category — and they map straight onto [[Settlements/Rules System/Archived/Deployables]] and the [[Ideas Inbox]] want for player-placed defensive structures in territory battles. **A "pick 4 deployables, place alternately" pre-game step would give us the interactive board setup for almost no rules text and zero costing risk.** See [[Settlements/Rules System/Archived/Terrain Interaction]] and [[Settlements/Rules System/Archived/Scenarios]].
 
 **The arc, in one line:** atomic → structural → structural-with-slot-budget. GW ended up back at a resource system; they just made the resource **unit-less**.
 
@@ -77,4 +77,4 @@ The price paid is that equipment can no longer express "this specific model is k
 
 - Primary: GW published rules and community articles across three editions
 - Long-form: `docs/POINTS-RESEARCH.md` §7.4
-- Related: [[Wargaming Research Hub]] · [[Warhammer 40000]] · [[Gaslands]] · [[BLKOUT]] · [[Deployables]]
+- Related: [[Wargaming Research Hub]] · [[Warhammer 40000]] · [[Gaslands]] · [[BLKOUT]] · [[Settlements/Rules System/Archived/Deployables]]

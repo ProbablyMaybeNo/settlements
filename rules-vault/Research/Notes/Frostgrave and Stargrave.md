@@ -31,7 +31,7 @@ The wizard/captain is **free**, their gear is **free**, and spells and powers ar
 
 **Why it works.** It removes the arbitrage that breaks most point-buy campaign games. If stats can be bought with the same currency as bodies, a player can always convert quantity into quality (or the reverse) at whatever rate the designer got slightly wrong — and they will find that rate. **Two hard-separated currencies means there's no rate to get wrong.**
 
-**For Settlements.** This is our locked principle — *points buy bodies and guns; stats and skills are free* ([[List Building]], `POINTS-DECISIONS` D22/D27) — and it's worth noting that **a designer with ten years of shipped campaign games arrived at the same conclusion independently.** Same finding again in [[Last Days Zombie Apocalypse]] (SP vs XP, never converting). Three systems, same answer.
+**For Settlements.** This is our locked principle — *points buy bodies and guns; stats and skills are free* ([[Settlements/Rules System/Archived/List Building]], `POINTS-DECISIONS` D22/D27) — and it's worth noting that **a designer with ten years of shipped campaign games arrived at the same conclusion independently.** Same finding again in [[Last Days Zombie Apocalypse]] (SP vs XP, never converting). Three systems, same answer.
 
 ---
 ## Two constraints that take turns binding
@@ -44,7 +44,7 @@ The wizard/captain is **free**, their gear is **free**, and spells and powers ar
 
 **Why it works.** Two constraints that take turns being the real one gives you a campaign that changes shape over time **without a single rule changing.** Early games are about affording anything; late games are about the ceiling. That's a progression arc for free.
 
-**For Settlements.** Directly relevant to the **Campaign Start 500** vs **Match Play 1000** split. At 500 the budget binds; at 1000 the rank pyramid should. **If both bind at once, you've collapsed the arc — check that the pyramid isn't the binding constraint at 500.** See [[List Building]] and [[Campaign]].
+**For Settlements.** Directly relevant to the **Campaign Start 500** vs **Match Play 1000** split. At 500 the budget binds; at 1000 the rank pyramid should. **If both bind at once, you've collapsed the arc — check that the pyramid isn't the binding constraint at 500.** See [[Settlements/Rules System/Archived/List Building]] and [[Settlements/Rules System/Archived/Campaign]].
 
 ---
 ## The published price ladders
@@ -75,4 +75,4 @@ Note how **few price points exist** **[FACT]**. Frostgrave: **Free / 10 / 50 / 7
 
 - Primary: Frostgrave and Stargrave rulebook PDFs, read directly
 - Long-form: `docs/POINTS-RESEARCH.md` §7.12
-- Related: [[Wargaming Research Hub]] · [[Oathmark]] and [[Rangers of Shadow Deep]] (same designer) · [[Last Days Zombie Apocalypse]] · [[List Building]]
+- Related: [[Wargaming Research Hub]] · [[Oathmark]] and [[Rangers of Shadow Deep]] (same designer) · [[Last Days Zombie Apocalypse]] · [[Settlements/Rules System/Archived/List Building]]

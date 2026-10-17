@@ -5,7 +5,7 @@ tags: [settlements/dashboard]
 ---
 # 🔓 Open Decisions — live
 
-Auto-generated from the phase notes. Tick a box or change a `status:` and these refresh. See [[Rules System — Master Roadmap]] for the full plan and [[_Rules Map.canvas|the map]].
+Auto-generated from the phase notes. Tick a box or change a `status:` and these refresh. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System — Master Roadmap]] for the full plan and [[_Rules Map.canvas|the map]].
 
 ## Phases still to start
 ```dataview

@@ -37,7 +37,7 @@ A Stabilised fighter re-enters the fight carrying its Stress, so it starts takin
 
 **The sharp end** is a revived fighter at 4+ Stress: the crew spent an Action *and* an INT test to save him, he stands up, fails one roll and walks off the table. At today's rates that is **about one revival in fifty-three** — story frequency. Memorable when it lands, not a pattern anyone plays around.
 
-Break-test failure odds by Stress, for reference ([[Morale]]'s `1d10 + NRV − (Stress−1)` vs 7+):
+Break-test failure odds by Stress, for reference ([[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Morale]]'s `1d10 + NRV − (Stress−1)` vs 7+):
 
 | Stress | Test? | NRV +1 | NRV +2 | NRV +3 | Failure means |
 |:--:|:--:|:--:|:--:|:--:|---|
@@ -58,7 +58,7 @@ The two alternatives both cost more:
 
 ## 4 · One correction to how this was described
 
-The rule was discussed as *"their next activation will begin with a nerve test."* **It does not need to, and it should not.** [[Morale]]'s Break test is an **End Phase** test. A revived fighter at 2+ Stress is picked up by that machinery automatically — no new trigger, no activation-start test, nothing to remember. The beat Ross wanted happens; it just resolves in the End Phase like every other Break test, which is the whole reason this rule is free.
+The rule was discussed as *"their next activation will begin with a nerve test."* **It does not need to, and it should not.** [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Morale]]'s Break test is an **End Phase** test. A revived fighter at 2+ Stress is picked up by that machinery automatically — no new trigger, no activation-start test, nothing to remember. The beat Ross wanted happens; it just resolves in the End Phase like every other Break test, which is the whole reason this rule is free.
 
 The only difference is rhythm: depending on turn order a revived fighter may get one activation in before the test, rather than testing the instant it stands. **That is a feature, not a shortfall** — it means the rescue can still pay off, which is exactly what stops the double-punish being a pure waste.
 
@@ -72,4 +72,4 @@ The only difference is rhythm: depending on turn order a revived fighter may get
 ---
 *Raw JSON at `test-bench/balance/results/attack-dice-15b-stress-on-down.json`; browsable in the Sim Explorer (`powershell -File test-bench/explorer/serve.ps1`).*
 
-See [[Morale]] · [[Damage]] · [[Conditions]] · [[Attack Dice — Sim Findings]] · historical analysis (archived) · historical analysis (archived).
+See [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Morale]] · [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Damage]] · [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Conditions]] · [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Attack Dice — Sim Findings]] · historical analysis (archived) · historical analysis (archived).

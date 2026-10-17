@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Resolve a SHOOT action at any point during this unit's normal MOVE, then complete any remaining movement. Grants no additional movement or free attack.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

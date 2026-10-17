@@ -42,7 +42,7 @@ Shooting, close combat, hacking, securing objectives, running someone over — a
 
 **Why it works.** *Cover literally removes dice thrown at you.* That is more viscerally legible at the table than a number written on a chart, and it makes the fiction and the maths the same gesture.
 
-**For Settlements.** Ours is `1d10 + Stat + mods vs 7+` — one die, modifiers shift the total ([[Rules Engine]]). Same design goal, one universal test, opposite implementation. **Ours is faster to read and less swingy; theirs is more visceral.** We are not changing engines — the locked tenet is that no second dice type exists anywhere in the game. What's worth borrowing is the *framing*: "Hard" as a ceiling expressed inside the resolution economy is a cleaner idea than a bolted-on cap, and it's a lens on our own **±3 modifier cap**.
+**For Settlements.** Ours is `1d10 + Stat + mods vs 7+` — one die, modifiers shift the total ([[Settlements/Rules System/Archived/Rules Engine]]). Same design goal, one universal test, opposite implementation. **Ours is faster to read and less swingy; theirs is more visceral.** We are not changing engines — the locked tenet is that no second dice type exists anywhere in the game. What's worth borrowing is the *framing*: "Hard" as a ceiling expressed inside the resolution economy is a cleaner idea than a bolted-on cap, and it's a lens on our own **±3 modifier cap**.
 
 ---
 ## Reactions — the beating heart
@@ -65,8 +65,8 @@ Three reactions:
 
 **For Settlements — status.** Drafted into the vault 2026-07-23, not merely proposed:
 
-- **Return Fire was cut.** Sequential shoot-back already exists as **[[Shooting|Snap Shot]]** (resolves *after* the enemy's shot, so the attacker keeps a first-mover incentive). The simultaneous version was rejected as too swingy and anti-shooter. **[INFERENCE — a design call, not a measured result.]**
-- **Juke became [[Movement|Dodge]]** — an opposed **AGI vs DEX** evasion; win = the shot misses and you move full MOV out of LOS, then Pinned. A resourced exception to the "can't dodge a bullet" tenet.
+- **Return Fire was cut.** Sequential shoot-back already exists as **[[Settlements/Rules System/Archived/Shooting|Snap Shot]]** (resolves *after* the enemy's shot, so the attacker keeps a first-mover incentive). The simultaneous version was rejected as too swingy and anti-shooter. **[INFERENCE — a design call, not a measured result.]**
+- **Juke became [[Settlements/Rules System/Archived/Movement|Dodge]]** — an opposed **AGI vs DEX** evasion; win = the shot misses and you move full MOV out of LOS, then Pinned. A resourced exception to the "can't dodge a bullet" tenet.
 - **Overwatch** = a distance-gated Snap Shot: only a Move greater than half MOV, ending in enemy LOS, triggers it.
 
 ---
@@ -78,7 +78,7 @@ Spend **half your Move** to place a **Lean Out Marker** and peek. Enemies who ca
 
 **Why it works.** It models the single most common real infantry action — exposing the minimum of yourself to see and shoot — with one marker and one sentence. It also creates a genuine positional decision that costs tempo rather than dice.
 
-**For Settlements.** Directly compatible with [[Terrain Interaction]] and our [[Movement]] economy. The "lean-only doesn't count as moving" clause is the load-bearing half — without it, it's just a worse move.
+**For Settlements.** Directly compatible with [[Settlements/Rules System/Archived/Terrain Interaction]] and our [[Settlements/Rules System/Archived/Movement]] economy. The "lean-only doesn't count as moving" clause is the load-bearing half — without it, it's just a worse move.
 
 ---
 ## Verticality is gated by scenery
@@ -92,7 +92,7 @@ Spend **half your Move** to place a **Lean Out Marker** and peek. Enemies who ca
 
 **Why it works.** No climbing test exists, so no climbing test can be argued about. The terrain piece itself is the permission.
 
-**For Settlements.** Ours resolves climbing through **AGI** ([[Movement]]), which is the right call for a game where AGI is a purchased stat — but the *no free descent* rule is worth a look. It makes rooftops a commitment rather than a free vantage, which is a cheap way to make our nine-feature board matter more.
+**For Settlements.** Ours resolves climbing through **AGI** ([[Settlements/Rules System/Archived/Movement]]), which is the right call for a game where AGI is a purchased stat — but the *no free descent* rule is worth a look. It makes rooftops a commitment rather than a free vantage, which is a cheap way to make our nine-feature board matter more.
 
 ---
 ## Morale, deleted
@@ -103,7 +103,7 @@ BLKOUT has **no break tests, no fear, no rout, and no suppression-from-fire.** T
 
 So a firefight never suppresses heads down. Models die instead of flinching.
 
-**Why it's here.** It is a *defensible* choice — deleting morale is a large part of why the game runs 30–45 minutes — but it is also the game's biggest gap, and it's the axis where Settlements is deliberately deeper. Our **Stress/Nerve** system (1 Stress = Shaken, −1 to everything; 2+ = a Break test in the End Phase) is lean by design and should stay that way. See [[Morale]].
+**Why it's here.** It is a *defensible* choice — deleting morale is a large part of why the game runs 30–45 minutes — but it is also the game's biggest gap, and it's the axis where Settlements is deliberately deeper. Our **Stress/Nerve** system (1 Stress = Shaken, −1 to everything; 2+ = a Break test in the End Phase) is lean by design and should stay that way. See [[Settlements/Rules System/Archived/Morale]].
 
 **The tension to hold consciously.** BLKOUT is fast *partly because* it deleted morale and kept conditions thin. Settlements carries Stress **and** a conditions ladder **and** hacking/terrain/deployables **and** a campaign. **Depth and a 30-minute pace trade off directly** — the realistic target is 45–75 minutes, paid for with ruthless bookkeeping discipline. Every new status token is a tax on the exact feel we're chasing.
 
@@ -133,14 +133,14 @@ BLKOUT's strategic variety comes almost entirely from **one Force Special Rule p
 
 **Why it works.** It is the cheapest possible lever for "players choose different strategies," and it is the thing reviewers actually *feel* and write about. One strong, legible rule beats twelve small modifiers, because a player can hold it in their head while making every decision.
 
-**For Settlements.** [[Factions]] is drafted as a framework with a six-faction roster adopted and the names still open. **Give each faction one strong rule that dictates a playstyle** before adding anything else. Compare [[Malifaux#The keyword tax]] and [[Trench Crusade#Faction rules that edit the economy]] — three different places to write faction identity: the rules, the hiring price, or the price list itself.
+**For Settlements.** [[Settlements/Rules System/Archived/Factions]] is drafted as a framework with a six-faction roster adopted and the names still open. **Give each faction one strong rule that dictates a playstyle** before adding anything else. Compare [[Malifaux#The keyword tax]] and [[Trench Crusade#Faction rules that edit the economy]] — three different places to write faction identity: the rules, the hiring price, or the price list itself.
 
 ---
 ## What it gets wrong
 
 **Type:** Production · **Take:** ⚠️
 
-- **Fragmentation is the #1 community complaint** — rules spread across 6+ documents. **[CONSENSUS]** Our single-vault, single-master-note approach ([[Full Rules System v1]]) is the thing we're already doing right; don't lose it.
+- **Fragmentation is the #1 community complaint** — rules spread across 6+ documents. **[CONSENSUS]** Our single-vault, single-master-note approach ([[Settlements/Rules System/Archived/Full Rules System v1]]) is the thing we're already doing right; don't lose it.
 - **Token clutter** gets flagged even with a *thin* ruleset. Settlements carries Stress + conditions + hacking + terrain states — **marker load is our biggest silent threat to the pace goal.**
 - **Cover changes between books.** The core rule is binary (terrain blocks >half of you = Cover); matched play patches in a graded Full/Partial chart. A newcomer who learns the base book then plays matched finds the cover rules meaningfully different. We bake graded cover (Light −1 / Heavy −2) into the core engine from the start — better.
 
@@ -150,4 +150,4 @@ BLKOUT's strategic variety comes almost entirely from **one Force Special Rule p
 - Primary: `z:/Downloads/BLKOUT-DIGITAL-RULE-BOOK.pdf` (Print 2nd Ed.) + `z:/Downloads/BLKOUT_Supplemental_4-26.pdf`, read 2026-07-22
 - Long-form analysis: `docs/BLKOUT-RULES-ANALYSIS.md` (§19 is the Settlements convergence plan)
 - Costing profile: `docs/POINTS-RESEARCH.md` §7.0
-- Related: [[Wargaming Research Hub]] · [[Kill Team]] · [[Rules Engine]] · [[Morale]]
+- Related: [[Wargaming Research Hub]] · [[Kill Team]] · [[Settlements/Rules System/Archived/Rules Engine]] · [[Settlements/Rules System/Archived/Morale]]

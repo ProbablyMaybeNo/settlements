@@ -7,7 +7,7 @@ date: 2026-09-25
 
 Ross authorised archiving the previous skill system and replacing it with the thread's approved 75-skill list. HOLD FAST is a flat -2 to injury rolls, with no cover condition. Five stats have fifteen skills each, one tier; archetypes are not player prerequisites.
 
-Canonical catalogue: [[Skills]], embedded by [[Full Rules System v1]] section 14. Shared definitions: [[Keywords]]. Open decisions: [[Skill Integration Decisions]].
+Canonical catalogue: [[Settlements/Rules System/Archived/Skills]], embedded by [[Settlements/Rules System/Archived/Full Rules System v1]] section 14. Shared definitions: [[Settlements/Rules System/Archived/Keywords]]. Open decisions: [[Settlements/Rules System/Archived/Skill Integration Decisions]].
 
 Ross explicitly chose to leave acquisition undecided. Old tier unlocks and rank/campaign skill counts are retired; no replacement milestones or pricing were invented. Core dice conversion and remaining timing ambiguities are not falsely marked complete.
 

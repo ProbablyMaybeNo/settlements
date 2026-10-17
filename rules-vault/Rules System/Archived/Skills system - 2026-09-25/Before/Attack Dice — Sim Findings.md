@@ -18,7 +18,7 @@ Sim pass on [[15b · Attack Dice]], run 2026-08-29. Mirrors the [[core-000 Core 
 > *(An earlier draft of this note said the table was "roughly half price". That was the uncapped-overkill reading and is corrected in §6.)*
 
 > [!success] RULED 2026-08-29 — one WOUND per burst, but every hit counts
-> Ross ruled the resolution after this pass: **roll every die's chain at once, apply one Injury result of the attacker's choice, and convert every other hit to +1 Stress — whether it passed the Injury roll or failed it.** Wounds never stack; nothing else is wasted either. That settles the blocking question below in favour of a hard **one-wound cap per Action**. The rule is now law in [[Full Rules System v1]] §15 and [[Weapons]] §1.5.
+> Ross ruled the resolution after this pass: **roll every die's chain at once, apply one Injury result of the attacker's choice, and convert every other hit to +1 Stress — whether it passed the Injury roll or failed it.** Wounds never stack; nothing else is wasted either. That settles the blocking question below in favour of a hard **one-wound cap per Action**. The rule is now law in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §15 and [[Weapons]] §1.5.
 >
 > Consequences measured in the follow-up pass (`test-bench/attack_dice_rules_compare.py`, stamped):
 > - **The candidate rules were never an offence choice.** P(Down) is *identical* — 73.8% at AD 3 — under all four resolutions. The order you learn a wound in cannot change whether it happened.
@@ -84,7 +84,7 @@ The brief predicts **~0.36 / 0.72 / 1.07**. That is the `resolve_all` column for
 
 ## 3 · E[Stress] per Action — the suppression identity is real
 
-Stress accrues **only on a hit that fails to wound**. A wound gives no Stress ([[Conditions]] §Stress hook — Pinned's +1 *is* the non-wounding result, don't count it twice).
+Stress accrues **only on a hit that fails to wound**. A wound gives no Stress ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Conditions]] §Stress hook — Pinned's +1 *is* the non-wounding result, don't count it twice).
 
 > [!danger] `sim_report.py` has this wrong, and it moves a published number
 > `attack()` adds Stress on **both** branches — a wound *and* a failed wound. The rules say a hit does exactly one thing. At WND 1 the divergence is invisible, because a wound ends the fight, which is why it survived unnoticed. **At WND 3 it is not invisible.** Re-running that harness's own `duel_stats` both ways, 10k fights, same seed:
@@ -215,4 +215,4 @@ They **disagree on the shape**, and that disagreement is the whole ruling:
 > [!info] `[[15b · Attack Dice]]` is a deliberate dangling link
 > The Phase 15b draft was handed over in chat and has never been filed to the vault. The link marks it as owed, not missing.
 
-See [[15b · Attack Dice]] · [[Dice Mechanic — Sim Findings]] · [[Weapons]] · [[Shooting]] · [[Damage]] · [[Conditions]] · [[Morale]] · [[List Building]].
+See [[15b · Attack Dice]] · [[Dice Mechanic — Sim Findings]] · [[Weapons]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Shooting]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Damage]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Conditions]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]].

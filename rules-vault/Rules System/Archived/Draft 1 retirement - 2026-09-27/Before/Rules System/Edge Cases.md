@@ -11,7 +11,7 @@ tags: [settlements/phase, settlements/stage/s6]
 # 31 · Edge Cases
 > **S6 Production** · status **Not Started** · build order **31**
 
-**Depends on:** [[Movement]], [[Terrain]], [[Morale]]
+**Depends on:** [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Movement]], [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain]], [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Morale]]
 **Feeds into:** —
 **Raw dependency (from Notion):** Movement, Terrain, full combat loop (all rules drafted)
 
@@ -31,4 +31,4 @@ _Not drafted yet._
 _none_
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

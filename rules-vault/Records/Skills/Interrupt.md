@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 While in base contact with an active terminal, when an enemy interacts with another terminal within 12 inches, make an opposed INT test. On success cancel the interaction and FREEZE that terminal until the end of the next turn. May be used after this unit has activated.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

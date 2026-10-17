@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Spend an ACTION and test NRV to activate a 6-inch AURA. Friendly attacks made from within it inflict +1 additional STRESS if they score at least one hit.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

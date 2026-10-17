@@ -11,7 +11,7 @@ tags: [settlements/phase, settlements/stage/s4]
 # 21 · Progression
 > **S4 Settlement & Campaign** · status **Drafted** · build order **19**
 
-**Depends on:** [[Campaign]]
+**Depends on:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign]]
 **Feeds into:** —
 **Raw dependency (from Notion):** Campaign
 
@@ -27,16 +27,16 @@ The Rules column should nail down:
 
 ## Working rules / decisions
 
-> [!info] Superseded — [[Full Rules System v1]] is the ruling
+> [!info] Superseded — [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] is the ruling
 > **§26.1 is canonical.** The freeform Advance spend is dead. Note the 2026-08-07
 > revision: **Primary is derived and never changes, and there is no declared
 > Secondary** — levels 1/4/8 float to *any* stat, chosen when earned — while a
 > **skill slot's tier is gated by the stat**, +2/+4/+6 unlocking T1/T2/T3.
 
 ### Levels — the fixed advancement track
-*Replaces the freeform Advance spend, 2026-08-05 ([[Full Rules System v1]] §26.1). Revised 2026-08-07: the track's stat levels float and skill tiers ride the stat.*
+*Replaces the freeform Advance spend, 2026-08-05 ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §26.1). Revised 2026-08-07: the track's stat levels float and skill tiers ride the stat.*
 
-Surviving units earn a **Level** after a battle — from kills, [[Full Rules System v1|Glorious Deeds]], surviving, and objectives held. One qualifying trigger = one Level, with a soft cap of **6 distinct sources per fighter per battle**.
+Surviving units earn a **Level** after a battle — from kills, [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1|Glorious Deeds]], surviving, and objectives held. One qualifying trigger = one Level, with a soft cap of **6 distinct sources per fighter per battle**.
 
 **Primary is derived, not declared** — it is the stat carrying the fighter's highest investment at creation (player's choice on ties). It never changes, and it names their Primary skill path. **There is no declared Secondary.** Every other stat is a secondary stat.
 
@@ -78,7 +78,7 @@ A fully-levelled fighter carries roughly **+140 Credits** over their rank body (
 - Campaign cap is **+6** (Tier 3). Start caps (+2 / +4) lift as a unit levels — most plateau around +4–5, a rare few reach +6.
 - **MOV never rises from Levels** — only from **Fleet** (T2 AGI, see [[Skill Paths]]). **WND** rises exactly once, at Level 7.
 - Growth makes a unit *better*, not higher-*ranked*.
-- **Scar-healing is not on the track.** It lives in the **Med-bay's T2 structure tier**, and in the **once-per-career Special Treatment** option on a third Scar ([[Campaign#The third Scar — forced retirement]]). *(Worker benefits have no tiers — the Proficiency track was cut 2026-08-05 — so the T2 that heals scars is the **structure's**, per [[Full Rules System v1]] §21 and [[Structures#Recover — people come back]].)*
+- **Scar-healing is not on the track.** It lives in the **Med-bay's T2 structure tier**, and in the **once-per-career Special Treatment** option on a third Scar ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign#The third Scar — forced retirement]]). *(Worker benefits have no tiers — the Proficiency track was cut 2026-08-05 — so the T2 that heals scars is the **structure's**, per [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §21 and [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#Recover — people come back]].)*
 
 > [!warning] One price on this track is derived, and one stat is unmeasured entirely
 > **+1 WND is 20 Credits**, derived from the measured value of **heavy armour** (−2 on the injury roll, the same 20 Cr) — both buy the same thing, the model staying on the table longer. It was 45 by pure judgement. Still **C-tier** — an analogy is not a measurement, but unlike the 45 it is correctable from table data, because the derivation is written down.
@@ -91,10 +91,10 @@ A fully-levelled fighter carries roughly **+140 Credits** over their rank body (
 
 ### Promotion
 - **Rank never rises automatically.** You may **promote** a veteran into an **open** rank slot between battles (e.g. a fallen Leader's seat), gaining that rank's Orders + skill slot.
-- Multiple veterans can be *leader-calibre* — a deep bench for a brutal game — but [[List Building]] caps decide how many hold rank at once. A promoted Leader still **fights**.
+- Multiple veterans can be *leader-calibre* — a deep bench for a brutal game — but [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]] caps decide how many hold rank at once. A promoted Leader still **fights**.
 
 ## Rule ledger
 _none_
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

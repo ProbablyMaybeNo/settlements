@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/gear/deployable]
 
 A **3" area**; enemies entering treat it as **Difficult** ground and gain **Hobbled**. Persists until cleared.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Deployables]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Deployables]] from them.*

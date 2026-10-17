@@ -17,4 +17,4 @@ tags: [settlements/record, settlements/terrain/verb]
 
 Quiet
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Terrain Interaction]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Terrain Interaction]] from them.*

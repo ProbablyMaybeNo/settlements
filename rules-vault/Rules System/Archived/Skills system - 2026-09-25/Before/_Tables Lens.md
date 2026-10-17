@@ -19,23 +19,23 @@ tags: [settlements/catalogue]
 ## Core engine
 
 ### Initiative & Activation — Reaction options
-*[[Initiative & Activation]] · 6 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Initiative & Activation]] · 6 rows*
 
-![[Initiative & Activation#^tbl-reaction-options]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Initiative & Activation#^tbl-reaction-options]]
 
 ---
 
 ## Combat
 
 ### Morale — Break test — End Phase, 2+ Stress
-*[[Morale]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale]] · 3 rows*
 
-![[Morale#^tbl-break-test-end-phase-2-stress]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale#^tbl-break-test-end-phase-2-stress]]
 
 ### Morale — Break test — End Phase, 2+ Stress
-*[[Morale]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale]] · 3 rows*
 
-![[Morale#^tbl-break-test-end-phase-2-stress-2]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale#^tbl-break-test-end-phase-2-stress-2]]
 
 ---
 
@@ -107,162 +107,162 @@ tags: [settlements/catalogue]
 ![[Weapons#^tbl-6-cut-and-why]]
 
 ### Deployables — Build rating — some things are harder to build
-*[[Deployables]] · 4 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]] · 4 rows*
 
-![[Deployables#^tbl-build-rating-some-things-are-harder-to-build]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables#^tbl-build-rating-some-things-are-harder-to-build]]
 
 ### Deployables — Family A · Turrets
-*[[Deployables]] · 5 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]] · 5 rows*
 
-![[Deployables#^tbl-family-a-turrets]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables#^tbl-family-a-turrets]]
 
 ### Deployables — Chassis — how it delivers
-*[[Deployables]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]] · 3 rows*
 
-![[Deployables#^tbl-chassis-how-it-delivers]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables#^tbl-chassis-how-it-delivers]]
 
 ### Deployables — Payload — what it does on detonation
-*[[Deployables]] · 5 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]] · 5 rows*
 
-![[Deployables#^payload-what-it-does-on-detonation]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables#^payload-what-it-does-on-detonation]]
 
 ### Deployables — Family C · Traps
-*[[Deployables]] · 5 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]] · 5 rows*
 
-![[Deployables#^tbl-family-c-traps]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables#^tbl-family-c-traps]]
 
 ### Deployables — Family D · Beacons
-*[[Deployables]] · 7 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]] · 7 rows*
 
-![[Deployables#^tbl-family-d-beacons]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables#^tbl-family-d-beacons]]
 
 ---
 
 ## Movement · terrain · machines
 
 ### Movement — Terrain movement
-*[[Movement]] · 4 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Movement]] · 4 rows*
 
-![[Movement#^tbl-terrain-movement]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Movement#^tbl-terrain-movement]]
 
 ### Terrain — The three properties
-*[[Terrain]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain]] · 3 rows*
 
-![[Terrain#^tbl-the-three-properties]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain#^tbl-the-three-properties]]
 
 ### Terrain — Cover
-*[[Terrain]] · 5 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain]] · 5 rows*
 
-![[Terrain#^tbl-cover]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain#^tbl-cover]]
 
 ### Terrain — Terrain types
-*[[Terrain]] · 6 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain]] · 6 rows*
 
-![[Terrain#^tbl-terrain-types]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain#^tbl-terrain-types]]
 
 ### Terrain — Hazards (the Dangerous overlay)
-*[[Terrain]] · 6 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain]] · 6 rows*
 
-![[Terrain#^tbl-hazards-the-dangerous-overlay]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain#^tbl-hazards-the-dangerous-overlay]]
 
 ### Terrain — Interact
-*[[Terrain]] · 4 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain]] · 4 rows*
 
-![[Terrain#^tbl-interact]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain#^tbl-interact]]
 
 ### Terrain Interaction — Stat ownership
-*[[Terrain Interaction]] · 4 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain Interaction]] · 4 rows*
 
-![[Terrain Interaction#^tbl-stat-ownership]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain Interaction#^tbl-stat-ownership]]
 
 ### Terrain Interaction — Interaction verbs
-*[[Terrain Interaction]] · 8 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain Interaction]] · 8 rows*
 
-![[Terrain Interaction#^tbl-interaction-verbs]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain Interaction#^tbl-interaction-verbs]]
 
 ### Terrain Interaction — Searching and looting
-*[[Terrain Interaction]] · 5 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain Interaction]] · 5 rows*
 
-![[Terrain Interaction#^tbl-searching-and-looting]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain Interaction#^tbl-searching-and-looting]]
 
 ### Terrain Interaction — In-battle repair / settlement hook
-*[[Terrain Interaction]] · 6 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain Interaction]] · 6 rows*
 
-![[Terrain Interaction#^tbl-in-battle-repair-settlement-hook]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain Interaction#^tbl-in-battle-repair-settlement-hook]]
 
 ### Infrastructure — Infrastructure vs Deployables
-*[[Infrastructure]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Infrastructure]] · 3 rows*
 
-![[Infrastructure#^tbl-infrastructure-vs-deployables]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Infrastructure#^tbl-infrastructure-vs-deployables]]
 
 ### Infrastructure — The five categories
-*[[Infrastructure]] · 5 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Infrastructure]] · 5 rows*
 
-![[Infrastructure#^tbl-the-five-categories]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Infrastructure#^tbl-the-five-categories]]
 
 ### Infrastructure — Custom battles
-*[[Infrastructure]] · 5 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Infrastructure]] · 5 rows*
 
-![[Infrastructure#^tbl-custom-battles]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Infrastructure#^tbl-custom-battles]]
 
 ### Hacking — Range bands
-*[[Hacking]] · 5 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Hacking]] · 5 rows*
 
-![[Hacking#^tbl-range-bands]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Hacking#^tbl-range-bands]]
 
 ---
 
 ## Crew
 
 ### Unit Design — Stat Scale
-*[[Unit Design]] · 8 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Unit Design]] · 8 rows*
 
-![[Unit Design#^tbl-stat-scale]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Unit Design#^tbl-stat-scale]]
 
 ### Unit Design — Ranks (build budget)
-*[[Unit Design]] · 4 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Unit Design]] · 4 rows*
 
-![[Unit Design#^tbl-ranks-build-budget]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Unit Design#^tbl-ranks-build-budget]]
 
 ### List Building — Budget
-*[[List Building]] · 4 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]] · 4 rows*
 
-![[List Building#^tbl-budget]]
-
-### List Building — The four ranks — two starting tiers
-*[[List Building]] · 4 rows*
-
-![[List Building#^tbl-the-four-ranks]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building#^tbl-budget]]
 
 ### List Building — The four ranks — two starting tiers
-*[[List Building]] · 4 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]] · 4 rows*
 
-![[List Building#^tbl-the-four-ranks-campaign]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building#^tbl-the-four-ranks]]
+
+### List Building — The four ranks — two starting tiers
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]] · 4 rows*
+
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building#^tbl-the-four-ranks-campaign]]
 
 ### List Building — Armour & equipment
-*[[List Building]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]] · 3 rows*
 
-![[List Building#^tbl-armour-equipment]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building#^tbl-armour-equipment]]
 
 ### List Building — Armour & equipment
-*[[List Building]] · 4 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]] · 4 rows*
 
-![[List Building#^armour-equipment]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building#^armour-equipment]]
 
 ### List Building — Validation
-*[[List Building]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]] · 3 rows*
 
-![[List Building#^tbl-validation]]
-
-### Progression — Levels — the fixed advancement track
-*[[Progression]] · 10 rows*
-
-![[Progression#^tbl-level-track]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building#^tbl-validation]]
 
 ### Progression — Levels — the fixed advancement track
-*[[Progression]] · 6 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]] · 10 rows*
 
-![[Progression#^levels-the-fixed-advancement-track]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression#^tbl-level-track]]
+
+### Progression — Levels — the fixed advancement track
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]] · 6 rows*
+
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression#^levels-the-fixed-advancement-track]]
 
 ### Skill Paths — How it works — skills ride the stat line
 *[[Skill Paths]] · 4 rows*
@@ -279,151 +279,151 @@ tags: [settlements/catalogue]
 ## Campaign & settlement
 
 ### Campaign — Post-battle — the Fate table
-*[[Campaign]] · 6 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign]] · 6 rows*
 
-![[Campaign#^tbl-post-battle-the-fate-table]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign#^tbl-post-battle-the-fate-table]]
 
 ### Campaign — Glorious Deeds
-*[[Campaign]] · 10 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign]] · 10 rows*
 
-![[Campaign#^tbl-glorious-deeds]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign#^tbl-glorious-deeds]]
 
 ### Economy — Three resources, two of them banked
-*[[Economy]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy]] · 3 rows*
 
-![[Economy#^tbl-three-resources]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy#^tbl-three-resources]]
 
 ### Economy — Power — output vs draw
-*[[Economy]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy]] · 3 rows*
 
-![[Economy#^tbl-power-draw-by-tier]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy#^tbl-power-draw-by-tier]]
 
 ### Economy — Storage, caps and overflow
-*[[Economy]] · 4 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy]] · 4 rows*
 
-![[Economy#^tbl-storage-containers]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy#^tbl-storage-containers]]
 
 ### Settlement — Choosing a location
-*[[Settlement]] · 10 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement]] · 10 rows*
 
-![[Settlement#^tbl-choosing-a-location]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement#^tbl-choosing-a-location]]
 
 ### Structures — The settlement canvas
-*[[Structures]] · 4 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] · 4 rows*
 
-![[Structures#^tbl-the-settlement-canvas]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#^tbl-the-settlement-canvas]]
 
 ### Structures — Groundworks — the expansion project
-*[[Structures]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] · 3 rows*
 
-![[Structures#^tbl-groundworks-the-expansion-project]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#^tbl-groundworks-the-expansion-project]]
 
 ### Structures — Footprint classes
-*[[Structures]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] · 3 rows*
 
-![[Structures#^tbl-footprint-classes]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#^tbl-footprint-classes]]
 
 ### Structures — Starting structures — four
-*[[Structures]] · 4 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] · 4 rows*
 
-![[Structures#^tbl-starting-structures-five]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#^tbl-starting-structures-five]]
 
 ### Structures — Storage & caps — what you can hold, and what a raider can take
-*[[Structures]] · 4 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] · 4 rows*
 
-![[Structures#^tbl-storage-caps-what-you-can-hold-and-what-a-ra]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#^tbl-storage-caps-what-you-can-hold-and-what-a-ra]]
 
 ### Structures — HQ tiers — the scavenger pipeline
-*[[Structures]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] · 3 rows*
 
-![[Structures#^tbl-hq-tiers]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#^tbl-hq-tiers]]
 
 ### Structures — Three ways to grow — and how to tell them apart
-*[[Structures]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] · 3 rows*
 
-![[Structures#^tbl-three-ways-to-grow-and-how-to-tell-them-apar]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#^tbl-three-ways-to-grow-and-how-to-tell-them-apar]]
 
 ### Structures — Upgrade ladders
-*[[Structures]] · 7 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] · 7 rows*
 
-![[Structures#^tbl-upgrade-ladders]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#^tbl-upgrade-ladders]]
 
 ### Structures — Sustain — keep people alive, keep the grid up
-*[[Structures]] · 4 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] · 4 rows*
 
-![[Structures#^tbl-sustain-keep-people-alive-keep-the-grid-up]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#^tbl-sustain-keep-people-alive-keep-the-grid-up]]
 
 ### Structures — Convert — turn one resource into another, and make gear
-*[[Structures]] · 5 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] · 5 rows*
 
-![[Structures#^tbl-convert-turn-one-resource-into-another-and-m]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#^tbl-convert-turn-one-resource-into-another-and-m]]
 
 ### Structures — Operate — what you can do outside the walls
-*[[Structures]] · 6 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] · 6 rows*
 
-![[Structures#^tbl-operate-what-you-can-do-outside-the-walls]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#^tbl-operate-what-you-can-do-outside-the-walls]]
 
 ### Structures — Recover — people come back
-*[[Structures]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] · 3 rows*
 
-![[Structures#^tbl-recover-people-come-back]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#^tbl-recover-people-come-back]]
 
 ### Structures — Defend — this is the raid board
-*[[Structures]] · 5 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] · 5 rows*
 
-![[Structures#^tbl-defend-this-is-the-raid-board]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#^tbl-defend-this-is-the-raid-board]]
 
 ### Structures — Worker benefits
-*[[Structures]] · 20 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] · 20 rows*
 
-![[Structures#^worker-benefits]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#^worker-benefits]]
 
 ### Structures — Space budget
-*[[Structures]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] · 3 rows*
 
-![[Structures#^tbl-space-budget]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#^tbl-space-budget]]
 
 ### Territory — The territory card — eleven required fields
-*[[Territory]] · 11 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Territory]] · 11 rows*
 
-![[Territory#^tbl-the-territory-card]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Territory#^tbl-the-territory-card]]
 
 ### Territory — The default loot table
-*[[Territory]] · 10 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Territory]] · 10 rows*
 
-![[Territory#^tbl-the-default-loot-table]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Territory#^tbl-the-default-loot-table]]
 
 ### Territory — Control states
-*[[Territory]] · 3 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Territory]] · 3 rows*
 
-![[Territory#^tbl-control-states]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Territory#^tbl-control-states]]
 
 ### Events — Battlefield Events — exactly two rolls, no running clock
-*[[Events]] · 10 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Events]] · 10 rows*
 
-![[Events#^tbl-battlefield-events]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Events#^tbl-battlefield-events]]
 
 ### Scenarios — The scenario template
-*[[Scenarios]] · 7 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Scenarios]] · 7 rows*
 
-![[Scenarios#^tbl-the-scenario-template]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Scenarios#^tbl-the-scenario-template]]
 
 ### Scenarios — The Twist (roll 1d6 at setup)
-*[[Scenarios]] · 6 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Scenarios]] · 6 rows*
 
-![[Scenarios#^tbl-the-twist-roll-1d6-at-setup]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Scenarios#^tbl-the-twist-roll-1d6-at-setup]]
 
 ---
 
 ## Physical
 
 ### Board Representation — Terrain
-*[[Board Representation]] · 6 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Board Representation]] · 6 rows*
 
-![[Board Representation#^tbl-terrain]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Board Representation#^tbl-terrain]]
 
 ### Board Representation — Condition & status tokens
-*[[Board Representation]] · 7 rows*
+*[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Board Representation]] · 7 rows*
 
-![[Board Representation#^tbl-condition-status-tokens]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Board Representation#^tbl-condition-status-tokens]]
 

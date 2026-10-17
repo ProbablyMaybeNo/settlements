@@ -173,7 +173,7 @@ Here's the loop for one rule, start to finish:
 1. **Pick the next thing.** Open **`Open Decisions.md`** or the **Master Roadmap**. Dependencies decide order — you can't finalise Shooting before Unit Design exists. The roadmap's critical path already sequences this.
 2. **Open the phase note.** Read its **Focus** checklist — that's literally the list of decisions this rule needs.
 3. **Flip status to `Designing`.** Click the `status` property, change it. (The dashboards now show it as in-progress.)
-4. **Write in the "Working rules / decisions" section.** Draft the actual rule in plain English. Use a `> [!question]` callout for anything unresolved. Link freely: "resolved on a [[Rules Engine|core test]] vs the target's Cover."
+4. **Write in the "Working rules / decisions" section.** Draft the actual rule in plain English. Use a `> [!question]` callout for anything unresolved. Link freely: "resolved on a [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules Engine|core test]] vs the target's Cover."
 5. **Prototype if it's mathy.** For dice/probability, use the **Dice Roller** ([§8](#8-·-your-toolkit-tool-by-tool)) right in the note to sanity-check odds before committing.
 6. **Tick the Focus checkboxes** as you resolve each sub-decision. They vanish from your Open Decisions board automatically.
 7. **Flip status to `Drafted`** when the rule is written end-to-end.
@@ -216,13 +216,13 @@ Turn it on (`Ctrl+,` → Community plugins). Then in any note, a fenced block li
 1d10
 ```
 ````
-gives you a clickable roller. For a game designer this is gold: while designing the **[[Rules Engine|core dice mechanic]]**, you can test "how often does 1d10 ≥ 7 succeed?" by rolling, or use it to feel out probability curves before you commit the rule. (It also does `2d6`, `1d10+3`, etc.)
+gives you a clickable roller. For a game designer this is gold: while designing the **[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules Engine|core dice mechanic]]**, you can test "how often does 1d10 ≥ 7 succeed?" by rolling, or use it to feel out probability curves before you commit the rule. (It also does `2d6`, `1d10+3`, etc.)
 
 ### 📇 Fantasy Statblocks — unit cards
-For when you reach **[[Unit Design]]**. It renders clean stat cards from a `statblock` code block. Your `Unit` template already lays out the Wounds/Move/STR/DEX/INT/MEN/MOR line; Statblocks makes it print-pretty later. Park it until units exist.
+For when you reach **[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Unit Design]]**. It renders clean stat cards from a `statblock` code block. Your `Unit` template already lays out the Wounds/Move/STR/DEX/INT/MEN/MOR line; Statblocks makes it print-pretty later. Park it until units exist.
 
 ### 🗺️ Leaflet — settlement & territory maps
-For **[[Settlement]]** and **[[Territory]]**. Drops an interactive, zoomable, pin-able map into a note from an image. Perfect for "here's the settlement layout that becomes the board." Later-stage tool.
+For **[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Settlement]]** and **[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Territory]]**. Drops an interactive, zoomable, pin-able map into a note from an image. Perfect for "here's the settlement layout that becomes the board." Later-stage tool.
 
 ### 🔒 Obsidian Git — your undo button
 The safety net. `Ctrl+P` → **"Git: Commit all changes"** makes a save point; **"Git: Create backup"** commits everything at once. If you ever break something or want yesterday's version, every commit is recoverable. **Commit at the end of every session** — it's the one habit that turns "I lost my work" into "I'll just roll back."
@@ -237,7 +237,7 @@ The safety net. `Ctrl+P` → **"Git: Commit all changes"** makes a save point; *
 You are not writing the rulebook *now* — you're locking the *system*. But the vault is built so the book falls out of it:
 
 - Every phase note, once `Done`, is a written chapter's worth of rules.
-- The **[[Rules System — Master Roadmap#6 · From rules → rulebook (target table of contents)|rulebook table of contents]]** already maps each phase to a chapter (Learn-to-Play → Core → Campaign → Factions → Reference).
+- The **[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules System — Master Roadmap#6 · From rules → rulebook (target table of contents)|rulebook table of contents]]** already maps each phase to a chapter (Learn-to-Play → Core → Campaign → Factions → Reference).
 - When enough is `Done`, you (or I) assemble the book by **embedding** the locked sections with `![[Shooting#Working rules]]` into a master rulebook note — so the book *quotes the live rules* and never drifts from them.
 - Then export to PDF (`Ctrl+P` → "Export to PDF") or hand it to me to lay out.
 
@@ -299,4 +299,4 @@ Front door → `Rules System MOC` · What next → `Open Decisions` / `Master Ro
 `Ctrl+P` → "Git: Commit all changes" — at the end of every session.
 
 ---
-*Made for you. If any step doesn't match what you see on screen, tell me what's different and I'll fix the guide. See also [[Rules System MOC]] · [[Rules System — Master Roadmap]].*
+*Made for you. If any step doesn't match what you see on screen, tell me what's different and I'll fix the guide. See also [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules System MOC]] · [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules System — Master Roadmap]].*

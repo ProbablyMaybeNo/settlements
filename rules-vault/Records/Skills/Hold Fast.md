@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Spend an ACTION and test NRV to activate a 6-inch AURA. Injury rolls against friendlies within the aura suffer -2, whether or not they are in cover.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

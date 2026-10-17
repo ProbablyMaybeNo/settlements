@@ -12,6 +12,6 @@ tags: [settlements/record, settlements/combat/condition]
 
 # Hidden
 
-**−3 to be hit.** Earned via the **Hide** action in Concealing terrain, or from gear/skill. Lost on moving (except where a skill allows it), shooting, **interacting** — any Action that resolves an Interact test: claim, loot, hack, arm, defuse ([[Terrain Interaction]], [[Hacking]]) — or being revealed.
+**−3 to be hit.** Earned via the **Hide** action in Concealing terrain, or from gear/skill. Lost on moving (except where a skill allows it), shooting, **interacting** — any Action that resolves an Interact test: claim, loot, hack, arm, defuse ([[Settlements/Rules System/Archived/Terrain Interaction]], [[Settlements/Rules System/Archived/Hacking]]) — or being revealed.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

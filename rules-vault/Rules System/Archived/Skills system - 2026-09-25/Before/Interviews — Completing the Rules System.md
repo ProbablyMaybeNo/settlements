@@ -5,10 +5,10 @@ tags: [settlements/interview, settlements/dashboard]
 ---
 # 🎙️ Interviews — Completing the Rules System
 
-The live working script for finishing the ruleset. **16 interviews**, dependency-ordered, each linked to its rule note(s). We walk them one at a time: I propose concrete values, you rule, I draft the note + its cross-edits. **Tick a box when a question's answered and jot the call on the `Answer:` line** — the Tasks plugin rolls up what's left. See [[Rules System — Master Roadmap]] · [[Rules System MOC]] · `docs/RULES-INTERVIEW-PLAN.md` (repo mirror of this).
+The live working script for finishing the ruleset. **16 interviews**, dependency-ordered, each linked to its rule note(s). We walk them one at a time: I propose concrete values, you rule, I draft the note + its cross-edits. **Tick a box when a question's answered and jot the call on the `Answer:` line** — the Tasks plugin rolls up what's left. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System — Master Roadmap]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] · `docs/RULES-INTERVIEW-PLAN.md` (repo mirror of this).
 
 >[!danger] SUPERSEDED — historical record, not live rules (flagged 2026-08-29)
-> This is the **2026-07 working script**. Its "locked context" below is **three generations stale** and must not be cited as current: **Cash** is now **Credits** · **Water was cut** (2026-08-01) · the **100-point / 5-8-16-24 scale** is retired (now **850 Credits**, ranks **70/100/145/185**) · **Reactor** is **Power**. The live source of truth is [[Full Rules System v1]]; its §29 carries what is actually open. Keep this note for the decision trail, not for values.
+> This is the **2026-07 working script**. Its "locked context" below is **three generations stale** and must not be cited as current: **Cash** is now **Credits** · **Water was cut** (2026-08-01) · the **100-point / 5-8-16-24 scale** is retired (now **850 Credits**, ranks **70/100/145/185**) · **Reactor** is **Power**. The live source of truth is [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]]; its §29 carries what is actually open. Keep this note for the decision trail, not for values.
 
 > [!info] Locked context every interview inherits
 > - **Setting = 2051, near-future grounded tech** (`docs/SETTING-TECH-2051.md`). **5 factions + 10 locations** at release.
@@ -22,7 +22,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 ## PHASE 1 · Settlement Core
 
 ### Interview 1 — Structures & the Catalogue
-**Notes:** [[Settlement]] (structures) · new **Structure Catalogue** reference
+**Notes:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement]] (structures) · new **Structure Catalogue** reference
 **Goal:** the full building list — category, Materials cost, benefit, board-object — each mapping to an existing system.
 
 - [x] **The picture / aesthetic.**
@@ -41,7 +41,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 	- *Answer:* I think it is mainly out of battle stuff but during battle maybe it's the location for the players cash and equipment, loot, etc. The player can build vaults which is a literally vault add on to the HQ building that holds cash, equipment, resources, etc, and is exceptionally hard to break into during a raid. 
 
 ### Interview 2 — Founding & Locations
-**Notes:** [[Settlement]] (founding) · **10-location roster** · socket to [[Factions]]
+**Notes:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement]] (founding) · **10-location roster** · socket to [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Factions]]
 **Goal:** the founding sequence + all 10 locations and their starting boosts, balanced against each other.
 
 - [ ] The 10 locations and each one's single starting boost (pinned to an existing system).
@@ -56,7 +56,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 	- *Answer:* 
 
 ### Interview 3 — Economy & Resources
-**Notes:** [[Economy]] *(Not Started)*
+**Notes:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy]] *(Not Started)*
 **Goal:** the four resource flows, sinks, anti-inflation, armoury, research.
 
 - [ ] Inflow (equal base + objective bonuses): set the base numbers + what objectives/deeds pay.
@@ -75,7 +75,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 	- *Answer:* 
 
 ### Interview 4 — Roster, Housing & Hiring
-**Notes:** [[List Building]] (edit) · [[Settlement]] (housing) · [[Unit Design]] (BUILDER socket)
+**Notes:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]] (edit) · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement]] (housing) · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Unit Design]] (BUILDER socket)
 **Goal:** own-vs-field split made concrete.
 
 - [ ] Cash hire-price per rank — separate scale from the 5/8/16/24 battle points, or reuse them?
@@ -96,13 +96,13 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 ## PHASE 2 · Settlement on the Board
 
 ### Interview 5 — Board Provenance & Settlement Scenarios
-**Notes:** [[Scenarios]] (edit) · [[Terrain]] (density-normalization) · [[Infrastructure]] · [[Core Game Format]]
+**Notes:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Scenarios]] (edit) · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain]] (density-normalization) · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Infrastructure]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Core Game Format]]
 **Goal:** "your layout becomes the board" without breaking 9–12 or collection-to-win.
 
 - [ ] Board-provenance selector: settlement window / owned-structure encampment / themed scavenge — each normalized to 9–12.
 	- *Answer:* 
 - [x] Grid scale (inches/cell); is the canvas larger than one board (raid = a window)?
-	- *Answer:* **1" grid. Canvas is 12" × 36" — it is NOT larger than one board.** It fits the defender's back three 12"×12" density squares on a 3'×3'. [[Structures#The settlement canvas]]
+	- *Answer:* **1" grid. Canvas is 12" × 36" — it is NOT larger than one board.** It fits the defender's back three 12"×12" density squares on a 3'×3'. [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#The settlement canvas]]
 - [ ] Fill-and-cap: under-fill → neutral to 9, over-fill → bench to 12. Who places neutral fill?
 	- *Answer:* 
 - [x] Raid window: fixed by defender / randomized / attacker-chosen? Attacker-side balancing lever?
@@ -113,7 +113,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 	- *Answer:* 
 
 ### Interview 6 — Sabotage & In-Battle Structures
-**Notes:** [[Terrain Interaction]] (edit) · [[Infrastructure]] · [[Deployables]] (edit)
+**Notes:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain Interaction]] (edit) · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Infrastructure]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]] (edit)
 **Goal:** binary destruction + settlement pieces on the table, fairly priced.
 
 - [ ] Sabotage sequence/stat: multi-turn INT plant vs 2-step DEX same-turn?
@@ -130,7 +130,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 	- *Answer:* 
 
 ### Interview 7 — BUILDER / On-table Construction
-**Notes:** [[Skill Paths]] (new skill) · [[Infrastructure]] hook
+**Notes:** [[Skill Paths]] (new skill) · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Infrastructure]] hook
 **Goal:** the minimal emergent BUILDER.
 
 - [ ] Confirm minimal: emergent role (skill off STR's build clause), one on-table build per game (terminal OR connection).
@@ -143,7 +143,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 ## PHASE 3 · Campaign & Meta
 
 ### Interview 8 — The Campaign Cycle & Downtime
-**Notes:** [[Campaign]] (reframe) · [[Downtime]] *(Not Started)*
+**Notes:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign]] (reframe) · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Downtime]] *(Not Started)*
 **Goal:** the persistent post-battle loop that runs after *every* game.
 
 - [ ] Confirm: one downtime cycle between every battle; growth = post-battle Advances only (cut "train").
@@ -158,7 +158,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 	- *Answer:* 
 
 ### Interview 9 — Capture, Holding, Recovery & Diplomacy
-**Notes:** [[Campaign]] · [[Diplomacy]] (capture loop) · [[Progression]] (med-bay reconcile)
+**Notes:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Diplomacy]] (capture loop) · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]] (med-bay reconcile)
 **Goal:** the prisoner economy + light reputation.
 
 - [ ] Capture = hook-only conversion of Fate-Captured on enemies you Downed-and-held; cells raise capacity + cut escape.
@@ -171,7 +171,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 	- *Answer:* 
 
 ### Interview 10 — Progression & Roster Persistence
-**Notes:** [[Progression]] *(Drafted, thin)*
+**Notes:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]] *(Drafted, thin)*
 **Goal:** how fighters grow and scar over a campaign.
 
 - [ ] Exact Advance award rates (kills / deeds / survive / objectives).
@@ -184,7 +184,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 	- *Answer:* 
 
 ### Interview 11 — Events & Narrative
-**Notes:** [[Events]] · [[Narrative]] *(both Not Started)*
+**Notes:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Events]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Narrative]] *(both Not Started)*
 **Goal:** what keeps two campaigns different + how the game tells stories.
 
 - [ ] Event triggers/cadence (roll each cycle / triggers / minimal-for-alpha); settlement vs world; one-off vs lasting.
@@ -193,7 +193,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 	- *Answer:* 
 
 ### Interview 12 — Territory & Supply Lines
-**Notes:** [[Territory]] *(Not Started)*
+**Notes:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Territory]] *(Not Started)*
 **Goal:** the local strategic frame (alpha = 2-settlement slice).
 
 - [ ] Territory tracking (personal frontier ledger) + claim/contest/flip state machine.
@@ -206,7 +206,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 	- *Answer:* 
 
 ### Interview 13 — Solo & Co-op
-**Notes:** [[Solo & Co-op]] *(Not Started)*
+**Notes:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Solo & Co-op]] *(Not Started)*
 **Goal:** automated opponent + shared play, reusing the core loop.
 
 - [ ] Solo AI: priority list / d10 table / flowchart; difficulty scaling; strategic-map AI.
@@ -219,7 +219,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 ## PHASE 4 · Content (2051)
 
 ### Interview 14 — Factions
-**Notes:** [[Factions]] *(Not Started)* · uses `docs/SETTING-TECH-2051.md`
+**Notes:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Factions]] *(Not Started)* · uses `docs/SETTING-TECH-2051.md`
 **Goal:** ~5 factions — identity + one faction-wide buff AND nerf + unique units, each hooking existing systems.
 
 - [ ] The 5 faction concepts (from scratch). Raw material: research triangle — military remnant / scavengers / drone-swarm / EW-cyber / robotics-automation.
@@ -230,7 +230,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 	- *Answer:* 
 
 ### Interview 15 — Near-Future Arsenal & Setting
-**Notes:** [[Weapons]] (expand) · [[Deployables]] · new **Equipment** · [[Game Vision]] (fold in 2051)
+**Notes:** [[Weapons]] (expand) · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]] · new **Equipment** · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Game Vision]] (fold in 2051)
 **Goal:** the 2051 kit, built on the existing weapon-construction system.
 
 - [ ] New weapon classes/characteristics: directed-energy (laser heat/cooldown, HPM anti-drone), guided small-arms, drone-delivered.
@@ -247,7 +247,7 @@ The live working script for finishing the ruleset. **16 interviews**, dependency
 ## PHASE 5 · Production
 
 ### Interview 16 — Balance · Components · Edge Cases · Rulebook · Playtesting
-**Notes:** [[Balance]] · [[Components]] · [[Edge Cases]] · [[Rulebook]] · [[Playtesting]] *(all Not Started)*
+**Notes:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Balance]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Components]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Edge Cases]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rulebook]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Playtesting]] *(all Not Started)*
 **Goal:** the book-ready cluster (mostly downstream — lighter interviews).
 
 - [ ] Balance: costing formulas for buildings / gear / 2051 kit; the tuning spreadsheet.

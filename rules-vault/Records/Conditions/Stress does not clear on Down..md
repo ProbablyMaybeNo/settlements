@@ -12,6 +12,6 @@ tags: [settlements/record, settlements/combat/condition]
 
 # Stress does not clear on Down.
 
-A unit reduced to 0 WND keeps every point and resumes testing once Stabilized ([[Morale#Stress and Down — persistence]]).
+A unit reduced to 0 WND keeps every point and resumes testing once Stabilized ([[Settlements/Rules System/Archived/Morale#Stress and Down — persistence]]).
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

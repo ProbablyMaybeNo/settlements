@@ -11,8 +11,8 @@ tags: [settlements/phase, settlements/stage/s3]
 # 08 · Terrain
 > **S3 Battle Layer** · status **Drafted** · build order **12**
 
-**Depends on:** [[Movement]]
-**Feeds into:** [[Terrain Interaction]], [[Hacking]], [[Scenarios]], [[Edge Cases]]
+**Depends on:** [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Movement]]
+**Feeds into:** [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction]], [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Hacking]], [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Scenarios]], [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Edge Cases]]
 **Raw dependency (from Notion):** Movement
 
 ## Focus
@@ -48,7 +48,7 @@ Every piece is described by three independent properties. Never merge them —
 
 ### Cover
 
-Cover is a negative modifier to the attacker's ranged hit roll (see [[Shooting]]):
+Cover is a negative modifier to the attacker's ranged hit roll (see [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Shooting]]):
 
 |Cover|To-hit|
 |---|---|
@@ -74,7 +74,7 @@ Type = defaults + setup duties. It tells you the usual answer for each axis whe
 |Ruin|Broken structure, partial walls/floors|Difficult; gaps may need Leap|Light at stub walls; Heavy at solid remains; often Concealing|Climbable · Unstable · Searchable · Breachable|
 |Scatter|Cars, dumpsters, crates, low walls|Open around; low leap over <2"|Light or Heavy by bulk|Movable · Searchable · sometimes Barricadable|
 |Environmental|Water, mud, woods, slopes, pools|Difficult or Impassable|Usually Open; woods Concealing|Climbable · Dangerous overlay|
-|Feature|Terminals, turrets, vents, cameras, alarms|Occupies its spot|Feature damage rules ([[Terrain Interaction#Feature damage]])|Hackable · Powered · Linked · Explosive|
+|Feature|Terminals, turrets, vents, cameras, alarms|Occupies its spot|Feature damage rules ([[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction#Feature damage]])|Hackable · Powered · Linked · Explosive|
 |Deployed|Player-placed: barricades, traps, builds|As placed|As the piece|Barricadable · Movable · Buildable|
 
 ^tbl-terrain-types
@@ -83,11 +83,11 @@ Building access rule (setup duty): every floor of a Building or multi-level Rui
 
 - Stairs — free, normal movement.
 - Ladders — no test; _(optional playtest dial: −2" Move like a low leap)._
-- Climb (no ladder) — AGI 7+ ([[Movement#Terrain movement]]).
+- Climb (no ladder) — AGI 7+ ([[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Movement#Terrain movement]]).
 
 ### Hazards (the Dangerous overlay)
 
-Dangerous marks any area that can hurt you. There is no separate Hazards type — Dangerous sits on top of any piece (usually Environmental, sometimes Feature or Ruin). Each Dangerous area names its hazard; effects reuse existing [[Conditions]] — never invent a new condition here.
+Dangerous marks any area that can hurt you. There is no separate Hazards type — Dangerous sits on top of any piece (usually Environmental, sometimes Feature or Ruin). Each Dangerous area names its hazard; effects reuse existing [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Conditions]] — never invent a new condition here.
 
 Trigger: a fighter that ends its Move or activation inside the area suffers the hazard. (Crossing at full tilt doesn't trigger it — deep water is the exception, see Swim.)
 
@@ -97,19 +97,19 @@ Trigger: a fighter that ends its Move or activation inside the area suffers t
 |Acid / chemical pool|Gain Poison|
 |Ice / slick surface|AGI 7+ or gain Off-Balance|
 |Electrified area|Gain Shocked|
-|Deep water|Swim (AGI, on entering — [[Movement#Terrain movement]])|
+|Deep water|Swim (AGI, on entering — [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Movement#Terrain movement]])|
 |Dense smoke|Blind while inside; area counts as Concealing|
 
 ^tbl-hazards-the-dangerous-overlay
 
-Forced movement (Throw, Bull or other explicit effects) into a Dangerous area triggers it immediately. Steadying yourself in a hazard is an NRV Interact ([[Terrain Interaction]]).
+Forced movement (Throw, Bull or other explicit effects) into a Dangerous area triggers it immediately. Steadying yourself in a hazard is an NRV Interact ([[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction]]).
 
 ### Verticality
 
 - Height advantage: a ranged attacker 2"+ above its target ignores Light cover from pieces at the target's level (Heavy still counts). _(single, simple bonus — no melee height mods at launch)_
 - Engagement across levels: you can only be Engaged by an enemy on your own level, or within 1" including the vertical distance.
 - **Falling.** A fall under **3"** has no effect. **3"+** lands the fighter **Prone**. **6"+** also forces an **Injury roll** at **+1 Damage per full 2" fallen**, ignoring Armor. A **voluntary** drop may test **AGI 7+** to land clean (avoid Prone); a 6"+ fall still rolls Injury on a fail.
-- Fall _risk_ moments (failed climbs, forced movement off a ledge) come from [[Movement]] and skills; this section only owns what a fall _does_.
+- Fall _risk_ moments (failed climbs, forced movement off a ledge) come from [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Movement]] and skills; this section only owns what a fall _does_.
 
 ### Setup procedure
 
@@ -125,7 +125,7 @@ Any collection — DIY, 3D-printed, bought — plugs in the same way:
 #### Settlement boards — the same procedure, one square-set pre-filled
 When a battle is fought at someone's settlement, the defender's layout supplies part of the board and **the density band is unchanged**.
 
-1. The settlement is a **12" × 36"** strip on the defender's board edge — exactly the **back three 12"×12" squares** of the nine above ([[Structures#The settlement canvas]]).
+1. The settlement is a **12" × 36"** strip on the defender's board edge — exactly the **back three 12"×12" squares** of the nine above ([[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#The settlement canvas]]).
 2. Those three squares are already filled: the defender's placed structures **are** their large features. Each declares its one-line profile from the settlement sheet.
 3. Fill the attacker's remaining **six** squares with neutral terrain as normal, until the board totals **9–12** large features.
 4. Over-filled? Bench structures down to the ceiling exactly as you would neutral scatter. **The band wins over the layout, always.**
@@ -133,17 +133,17 @@ When a battle is fought at someone's settlement, the defender's layout supplies 
 Because the settlement fits inside one board there is **no window to pick** — a raid uses all of it, and the attacker crosses ~24" of neutral ground to reach it.
 
 > [!info] A settlement never buys board advantage
-> A developed settlement changes *what* fills those three squares, never *how many* features the board has. Structures granting deploy-rights (turret hardpoints and the like) still cost Credits against your Crew Rating and still sit inside the band — see [[Structures#Design contract — the five rules that keep this honest|the structure contract]] and [[Deployables]].
+> A developed settlement changes *what* fills those three squares, never *how many* features the board has. Structures granting deploy-rights (turret hardpoints and the like) still cost Credits against your Crew Rating and still sit inside the band — see [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#Design contract — the five rules that keep this honest|the structure contract]] and [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables]].
 
 > [!check] Ruled — raid fairness is one lever: **the defender wins all Priority ties**
-> Drafted 2026-08-05 ([[Full Rules System v1]] §5). A raid **is not meant to be fair** — the defender is fighting on home ground and should have a genuine edge, because that is what makes attacking risky. During a raid the **defender simply takes every Priority tie** instead of re-rolling it ([[Initiative & Activation]]).
+> Drafted 2026-08-05 ([[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Full Rules System v1]] §5). A raid **is not meant to be fair** — the defender is fighting on home ground and should have a genuine edge, because that is what makes attacking risky. During a raid the **defender simply takes every Priority tie** instead of re-rolling it ([[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Initiative & Activation]]).
 >
-> **No other asymmetry is added.** The rule above already hands the defender their built structures' tags, turrets and [[Infrastructure]] for free, which is edge enough on top of the tiebreak. Deliberately a single small lever, not a stacked pile of raid-only exceptions.
+> **No other asymmetry is added.** The rule above already hands the defender their built structures' tags, turrets and [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Infrastructure]] for free, which is edge enough on top of the tiebreak. Deliberately a single small lever, not a stacked pile of raid-only exceptions.
 
 One line per piece is enough: `Ruin · Difficult · Light · Unstable, Climbable, Searchable`.
 
 > [!danger] Density is a **band**, not a floor — the most powerful dial in the game
-> historical analysis (archived) measured a **66-point swing** in win rate from terrain density alone — bigger than any points cost could ever produce. A 4-model elite crew beats a 14-model horde **81%** of the time on a sparse board and **15%** of the time on a very crowded one. **Parity sits at 9–12 large features** — exactly the band above, and every list in [[List Building]] is costed against it.
+> historical analysis (archived) measured a **66-point swing** in win rate from terrain density alone — bigger than any points cost could ever produce. A 4-model elite crew beats a 14-model horde **81%** of the time on a sparse board and **15%** of the time on a very crowded one. **Parity sits at 9–12 large features** — exactly the band above, and every list in [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building]] is costed against it.
 >
 > Density is chosen *after* lists are locked, so it **must not be open-ended.** "Nine minimum, as crowded as you like" hands the game to whoever pushes the dial: a swarm player wants a jungle, a gunline wants a car park. **9–12.** A scenario may fix an exact number.
 
@@ -160,9 +160,9 @@ A unit spends its Action to Interact with adjacent terrain; the stat used d
 
 ^tbl-interact
 
-Routine Interacts auto-pass; test (7+) only when failure has a consequence. Terminals and digital control → [[Hacking]]. Full verb table → [[Terrain Interaction]].
+Routine Interacts auto-pass; test (7+) only when failure has a consequence. Terminals and digital control → [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Hacking]]. Full verb table → [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction]].
 
-Climb · vault · leap · swim are not Interacts — they are Move-slot maneuvers ([[Movement#Terrain movement]]):
+Climb · vault · leap · swim are not Interacts — they are Move-slot maneuvers ([[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Movement#Terrain movement]]):
 
 - Obstacles under 2" — low leap: no test, −2" Move cost (flat).
 - Gaps, 2"+ obstacles, climbs, and swim — AGI test vs 7+.
@@ -179,4 +179,4 @@ Climb · vault · leap · swim are not Interacts — they are Move-slot man
 - [[adv-004 Weather and climate]]
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

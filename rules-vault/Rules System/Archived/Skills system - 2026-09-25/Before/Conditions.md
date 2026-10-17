@@ -11,7 +11,7 @@ tags: [settlements/phase, settlements/stage/s2]
 # 16 · Conditions
 > **S2 Core Combat** · status **Drafted** · build order **10**
 
-**Depends on:** [[Damage]]
+**Depends on:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Damage]]
 **Feeds into:** —
 **Raw dependency (from Notion):** Damage
 
@@ -28,11 +28,11 @@ The Rules column should nail down:
 ## Inherits from the engine
 > [!info] Recall — persistent conditions are resolved in the **End Phase** each round (engine turn structure). Define each condition's effect and expiry against that clock.
 
-![[Rules Engine#Turn / Round Structure]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules Engine#Turn / Round Structure]]
 
 ## Working rules / decisions
 
-A condition is a **status token on a unit**. Combat conditions come from [[Damage]] and skills ([[Skill Paths]]); Nerve states come from [[Morale]]; persistent conditions come from weapons, terrain hazards and skills.
+A condition is a **status token on a unit**. Combat conditions come from [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Damage]] and skills ([[Skill Paths]]); Nerve states come from [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale]]; persistent conditions come from weapons, terrain hazards and skills.
 
 > [!info] Weapons apply conditions — the **Payload** rule
 > A [[Weapons|weapon characteristic]] that applies a condition does so **in place of the normal non-wounding result** (Pinned for ranged, Shaken for melee). A hit still does exactly one thing: **it wounds, or it delivers its payload** — never both. The payload's +1 Stress is the same +1 Pinned would have given; don't count it twice.
@@ -42,25 +42,25 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 ### General rules
 - **Tokens.** Every condition is one token beside the model. If a unit has no token, it has no condition — nothing is tracked in your head.
 - **No stacking.** The same condition never applies twice. Reapplying it refreshes its duration; it does not deepen the effect.
-- **Stress hook.** Gaining a negative condition gives **+1 Stress** (see [[Morale]]) — the *first* time it's applied, not on a refresh. **Exception: Pinned and Shaken** — their +1 *is* the non-wounding-hit result, so don't count it twice.
-- **Stress does not clear on Down.** A unit reduced to 0 WND keeps every point and resumes testing once Stabilized ([[Morale#Stress and Down — persistence]]).
+- **Stress hook.** Gaining a negative condition gives **+1 Stress** (see [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale]]) — the *first* time it's applied, not on a refresh. **Exception: Pinned and Shaken** — their +1 *is* the non-wounding-hit result, so don't count it twice.
+- **Stress does not clear on Down.** A unit reduced to 0 WND keeps every point and resumes testing once Stabilized ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale#Stress and Down — persistence]]).
 - **Modifier cap.** However many conditions a unit carries, the total modifier on any single roll never exceeds **−3** (or +3). Conditions past the cap still matter — they still restrict actions and still have to be cleared.
-- **Timing.** "Until the End Phase" clears in step 2 of the End Phase ([[Rules Engine#Turn / Round Structure]]). "Until the end of its next activation" clears when that activation ends, even if the unit did nothing.
+- **Timing.** "Until the End Phase" clears in step 2 of the End Phase ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules Engine#Turn / Round Structure]]). "Until the end of its next activation" clears when that activation ends, even if the unit did nothing.
 
 ### Core combat conditions
 - **Pinned** — the **ranged** non-wound result (suppression, not injury). **Cannot Move, Charge, Sprint or Disengage**; must spend its **Move** to clear before it can reposition, but may still **Shoot or Interact**. Persists until cleared; applying it gives **+1 Stress**. *(A non-wounding **melee** blow gives Stress → **Shaken** instead — you can't pin someone you're engaged with.)*
-- **Down** — prone and out of the fight; no normal actions. Only **ranged / hazard** hits leave a unit Down — a **melee** kill goes straight to **Out of Action**. **Heavy cover vs ranged unless in the open**; a **melee / engaged** attack **auto-hits** to finish it (Injury roll still made, a pass = Out), but **ranged attacks resolve normally**. Stabilize by the end of its next activation or it bleeds out — full rules in [[Damage]]. **Keeps its Stress** and takes **no Break tests while Down**, resuming them on recovery ([[Morale#Stress and Down — persistence]]).
+- **Down** — prone and out of the fight; no normal actions. Only **ranged / hazard** hits leave a unit Down — a **melee** kill goes straight to **Out of Action**. **Heavy cover vs ranged unless in the open**; a **melee / engaged** attack **auto-hits** to finish it (Injury roll still made, a pass = Out), but **ranged attacks resolve normally**. Stabilize by the end of its next activation or it bleeds out — full rules in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Damage]]. **Keeps its Stress** and takes **no Break tests while Down**, resuming them on recovery ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale#Stress and Down — persistence]]).
 - **Prone** — knocked flat by a fall, slip, or being forced off a ledge (*not* an injury). **Heavy cover vs ranged unless in the open**; cannot Shoot, Charge or Sprint. **Standing up costs the whole activation** (Move + Action). Not bleeding and not auto-hit — that line is what separates Prone from Down.
-- **Hidden** — **−3 to be hit.** Earned via the **Hide** action in Concealing terrain, or from gear/skill. Lost on moving (except where a skill allows it), shooting, **interacting** — any Action that resolves an Interact test: claim, loot, hack, arm, defuse ([[Terrain Interaction]], [[Hacking]]) — or being revealed.
+- **Hidden** — **−3 to be hit.** Earned via the **Hide** action in Concealing terrain, or from gear/skill. Lost on moving (except where a skill allows it), shooting, **interacting** — any Action that resolves an Interact test: claim, loot, hack, arm, defuse ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain Interaction]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Hacking]]) — or being revealed.
 
 ### Stealth & Ambush
-*Drafted 2026-08-05 ([[Full Rules System v1]] §25), sim-tuned across 700–2000 games per cell in paired mirrors — cited to `PACKET-TEST-RESULTS.md` T1–T3, **a file that is not in the Settlements repo**; the numbers below are quoted from the master note, not re-verifiable from source. This is the only place these rulings live; **Hidden** above is the condition they hang off.*
+*Drafted 2026-08-05 ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §25), sim-tuned across 700–2000 games per cell in paired mirrors — cited to `PACKET-TEST-RESULTS.md` T1–T3, **a file that is not in the Settlements repo**; the numbers below are quoted from the master note, not re-verifiable from source. This is the only place these rulings live; **Hidden** above is the condition they hang off.*
 
 - **An Ambush attacks off AGI**, never STR or DEX, **and this must be printed explicitly on the card.** A DEX carrier running Ambush measured **−30 to −33 win-points** — it was attacking on its worst stat. An AGI carrier measured **+1.0 to +12.7**.
 - **The failed-Ambush free Attack Back is load-bearing — keep it unchanged.** It removes **4.1** of the mechanic's 12.1 win-points and fires on **47.5%** of attempts. Confirmed by measurement, not just designed; do not soften it later.
 
 > [!check] Ruled — a Hidden fighter may **hold** an objective, but **claiming or scoring** one breaks Hidden
-> **Holding** is just standing within 3" with no enemy within 3" ([[Scenarios#Shared rules]]) — it costs nothing and never touches Hidden. But **claiming** a terminal, **looting** a cache, **arming** or **defusing** a charge is always an **Interact**, and Interacting breaks Hidden (above).
+> **Holding** is just standing within 3" with no enemy within 3" ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Scenarios#Shared rules]]) — it costs nothing and never touches Hidden. But **claiming** a terminal, **looting** a cache, **arming** or **defusing** a charge is always an **Interact**, and Interacting breaks Hidden (above).
 >
 > **Take a Hold** is where this reads cleanest: a terminal must be *claimed* (INT 7+, breaks Hidden) before it can ever be *held* for score, so the hold state a Hidden fighter benefits from only ever applies **after** the reveal already happened. A Hidden fighter can sit on an unclaimed objective all day; the instant they do the thing that scores it, they are not Hidden.
 >
@@ -70,7 +70,7 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 > Under the current **−3** reading, a fighter stacking three concealment skills still gets shot ~**12 times** a game and dies normally. Under an untargetable reading the same stack was shot **zero times per game**. The −3 is what makes concealment stacking safe.
 
 > [!question] Ambush has no card yet
-> §25 rules how an Ambush *resolves*, but no Ambush action, skill or piece of gear is defined anywhere in [[Skill Paths]] or [[Weapons]] — only the **Ambush Predator** Glorious Deed ([[Campaign#Glorious Deeds]]) references landing one. The trigger and cost still need writing.
+> §25 rules how an Ambush *resolves*, but no Ambush action, skill or piece of gear is defined anywhere in [[Skill Paths]] or [[Weapons]] — only the **Ambush Predator** Glorious Deed ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign#Glorious Deeds]]) references landing one. The trigger and cost still need writing.
 
 ### Control conditions (from skills, weapons and terrain)
 - **Grappled** — grappler and target stay within 1". The target cannot Move, Charge, Sprint or Disengage; it may only attack its grappler, or spend its Action on an **opposed STR test** to escape. The grappler may release it freely, or move at **half MOV** while dragging it. Grappling ends if either model goes Down.
@@ -80,7 +80,7 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 - **Blind** — **−2 on all rolls that need sight** (attacks, Spot, Reactions, targeted Interacts). Ends at the end of the unit's **next activation**.
 - **Shocked** — **−2 to all rolls** and **cannot React**. Ends at the end of the unit's **next activation**.
 - **Provoked** — the unit's first attack against anyone *except* the source suffers **−1**. Ends after that attack, or at the end of its next activation.
-- **Snared** — caught by a clamp, wire or pit (a [[Deployables]] trap). **Cannot Move, Charge, Sprint or Disengage.** On its activation it may spend its **Action** on a **STR test (7+)** to break free (nat 1 fails, it stays). A device-sourced negative condition, so its first application gives **+1 Stress**. Persists until it breaks free or the device is cleared. *(Kin to **Grappled**, but no grappler holds it — the terrain does.)*
+- **Snared** — caught by a clamp, wire or pit (a [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]] trap). **Cannot Move, Charge, Sprint or Disengage.** On its activation it may spend its **Action** on a **STR test (7+)** to break free (nat 1 fails, it stays). A device-sourced negative condition, so its first application gives **+1 Stress**. Persists until it breaks free or the device is cleared. *(Kin to **Grappled**, but no grappler holds it — the terrain does.)*
 
 ### Persistent conditions (resolve in the End Phase)
 - **Fire** — each End Phase, the unit suffers an **Injury roll at +1 Damage, ignoring Armor**. It (or an adjacent friendly) may spend an **Action** to extinguish it — automatic, no test. Persists until extinguished.
@@ -94,7 +94,7 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 >
 > Re-measure before the payload prices are re-locked: `test-bench/balance/conditions2d.py`.
 
-### Nerve states (from [[Morale]])
+### Nerve states (from [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale]])
 - **Shaken** — any unit with **1+ Stress**: −1 to all rolls. Always-on, doesn't stack, no test. Clears when all Stress clears.
 - **Bolt** — flees toward the nearest board edge, hugging cover. *(Break test fail at Stress 2.)*
 - **Broken** — frozen; cannot act. *(fail at Stress 3.)*
@@ -110,7 +110,7 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 These sit on terrain, devices or as table markers — they never give Stress and don't count against the modifier cap:
 - **Spotted** — the observing unit has identified the target for named skills, until the stated expiry. Spotted does not remove Hidden by itself.
 - **Jammed** — remote activation and wireless control of the device fail; local and manual operation still work. Ends at the start of the jammer's next activation.
-- **Overloaded** — a terminal used to **interrupt** a hack ([[Hacking]]) powers down: it cannot be accessed or used to interrupt again until the **start of next turn**.
+- **Overloaded** — a terminal used to **interrupt** a hack ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Hacking]]) powers down: it cannot be accessed or used to interrupt again until the **start of next turn**.
 - **Compromised** — the **next hack test** against this system gains **+2**, then Compromised ends. Applied by a skill (e.g. **Counter-Hack**).
 - **Linked** — devices explicitly share a terminal or local network. Range alone never makes devices Linked.
 
@@ -121,4 +121,4 @@ These sit on terrain, devices or as table markers — they never give Stress and
 _none_
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

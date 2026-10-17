@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 When targeted by an enemy CHARGE or MELEE ATTACK, test AGI. On success move 3 inches. Resolve the charge, but omit its melee attack if this unit is no longer in engagement range.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

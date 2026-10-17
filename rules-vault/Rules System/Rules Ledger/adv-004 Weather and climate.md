@@ -4,8 +4,10 @@ rule_id: adv-004
 category: advanced
 status: parking-lot
 version: v0.0
-parent_phase: "[[Terrain]]"
-tags: [settlements/rule, settlements/cat/advanced]
+parent_phase: "[[Settlements/Rules System/Archived/Terrain]]"
+tags:
+  - settlements/rule
+  - settlements/cat/advanced
 ---
 
 > [!warning] Legacy reference — not the active Second Draft
@@ -14,7 +16,7 @@ tags: [settlements/rule, settlements/cat/advanced]
 # adv-004 · Weather and climate
 > **advanced** · status **parking-lot** · v0.0
 
-**Parent phase:** [[Terrain]]
+**Parent phase:** [[Settlements/Rules System/Archived/Terrain]]
 
 ## Text
 _No rule text yet — stub imported from the Notion Rules database._

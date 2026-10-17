@@ -12,6 +12,6 @@ tags: [settlements/record, settlements/crew/skill]
 
 # Computer Whiz
 
-As an Action at an accessed terminal, hack one **Linked** device on its local network ([[Hacking]] rules apply — modifiers, Interrupt). *(Hacker · Remote control)*
+As an Action at an accessed terminal, hack one **Linked** device on its local network ([[Settlements/Rules System/Archived/Hacking]] rules apply — modifiers, Interrupt). *(Hacker · Remote control)*
 
 *Record. These properties are the source of truth — `records.py` regenerates the table in [[Skill Paths]] from them.*

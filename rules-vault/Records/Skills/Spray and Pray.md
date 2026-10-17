@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Once per turn when SHOOTING an initial target within 12 inches, divide attack dice between it and other enemies within 8 inches of it and LOS. Each enemy DOWNED adds one die to allocate to a remaining eligible target.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

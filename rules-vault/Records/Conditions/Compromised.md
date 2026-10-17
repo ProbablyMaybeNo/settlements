@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/combat/condition]
 
 the **next hack test** against this system gains **+2**, then Compromised ends. Applied by a skill (e.g. **Counter-Hack**).
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

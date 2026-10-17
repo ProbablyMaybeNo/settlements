@@ -19,13 +19,13 @@ Cadre (4 models) vs Recruit horde (14), as LOS-blocking rises:
 
 ^tbl-1-terrain-is-a-bigger-lever-than-any-point-c
 
-A **66-point swing** from terrain alone. No points value could move a matchup that far. Parity sits at **40–45% blocked** — which is exactly what **9–12 large features** on a 3'×3' produces ([[Terrain#Setup procedure]]).
+A **66-point swing** from terrain alone. No points value could move a matchup that far. Parity sits at **40–45% blocked** — which is exactly what **9–12 large features** on a 3'×3' produces ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain#Setup procedure]]).
 
 > [!danger] This is why terrain density needs a **ceiling**, not just a floor
 > Density is chosen *after* lists are locked. "Nine minimum, as crowded as you like" hands the game to whoever pushes the dial — a swarm player wants a jungle, a gunline wants a car park. **9–12.**
 
 ## 2 · The final balance table
-Eight archetypes, every list legal at ≤100 points under the [[List Building]] pyramid, 3,000 battles per pairing.
+Eight archetypes, every list legal at ≤100 points under the [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]] pyramid, 3,000 battles per pairing.
 
 > [!note] **Doctrines were pulled from the battle ruleset** (they're a campaign / list-building mechanic). The rows tagged *Firebase / Storm / Cadre / Mob* below are the crew **archetypes** the sim ran — the doctrine **discounts** some leaned on (especially **Storm**'s free melee classes → armour budget) are no longer in the rules, so read those rows as archival. See the melee-elite note in §5.
 
@@ -65,10 +65,10 @@ The friendly-Down Stress trigger *looked* like it would wipe crews (3 casualties
 
 ^tbl-3-morale-change-nothing
 
-On a legal board the cascade is mild — **0.6 BugOuts per battle** versus 5.3 on a sparse one. **The cascade is not a bug; it is the only thing keeping a swarm honest.** [[Morale]] stays exactly as written.
+On a legal board the cascade is mild — **0.6 BugOuts per battle** versus 5.3 on a sparse one. **The cascade is not a bug; it is the only thing keeping a swarm honest.** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale]] stays exactly as written.
 
 ## 4 · Ready is the answer to uneven crew sizes
-No new rule is needed for a 4-model crew facing a 14-model one. The elite crew converts its last activations into **Ready** and snap-shoots the tail as it moves — 4 models = 4 banked reactions, so every fighter effectively shoots twice. The **underdog +1 Priority** likewise stays: it is not an exploit for small crews, it is their **compensation**. WND is fixed at 1 and the Injury roll ignores stats, so **quality has a hard ceiling that numbers don't** — swarms out-produce elites on raw output, and fewer models *should* go first. See [[Initiative & Activation]].
+No new rule is needed for a 4-model crew facing a 14-model one. The elite crew converts its last activations into **Ready** and snap-shoots the tail as it moves — 4 models = 4 banked reactions, so every fighter effectively shoots twice. The **underdog +1 Priority** likewise stays: it is not an exploit for small crews, it is their **compensation**. WND is fixed at 1 and the Injury roll ignores stats, so **quality has a hard ceiling that numbers don't** — swarms out-produce elites on raw output, and fewer models *should* go first. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Initiative & Activation]].
 
 ## 5 · What the weapon system taught us
 - **A drawback must bite no matter how you play.** Caught twice: **Slow on a rifle** is free points (a rifleman never Charges) and **Awkward on a sniper** is free points (he never moves — and it *synergises* with Accurate). Slow is now melee-only; **Awkward is cut**.
@@ -81,6 +81,6 @@ No new rule is needed for a 4-model crew facing a 14-model one. The elite crew c
 Objectives, skills, hacking, terrain interaction, verticality, Hidden, flanking. It prices the **combat floor** only — AGI and INT are worth literally zero in it by construction, which is precisely why **the board has to price them** ([[Dice Mechanic — Sim Findings]] §6). It cannot tell you whether a Techie is worth 16 points. It *can* tell you that the Cadre and the horde trade evenly at equal cost — which they now do.
 
 ---
-*Next: a scenario-aware pass once [[Scenarios]] exists, so objective-runners and hackers finally register.*
+*Next: a scenario-aware pass once [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Scenarios]] exists, so objective-runners and hackers finally register.*
 
-See [[List Building]] · [[Weapons]] · [[Terrain]] · [[Morale]] · [[Initiative & Activation]] · [[Dice Mechanic — Sim Findings]] · [[Skill Sim — Findings]].
+See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]] · [[Weapons]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Initiative & Activation]] · [[Dice Mechanic — Sim Findings]] · [[Skill Sim — Findings]].

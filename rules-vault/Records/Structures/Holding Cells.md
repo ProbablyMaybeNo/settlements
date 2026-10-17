@@ -16,6 +16,6 @@ tags: [settlements/record, settlements/settlement/structure]
 
 # Holding Cells
 
-Prisoner capacity ([[Campaign#Captured — resolution]]); the upgraded tier is what allows a **Brainwash** attempt
+Prisoner capacity ([[Settlements/Rules System/Archived/Campaign#Captured — resolution]]); the upgraded tier is what allows a **Brainwash** attempt
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Structures]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Structures]] from them.*

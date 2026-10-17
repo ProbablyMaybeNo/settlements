@@ -11,8 +11,8 @@ tags: [settlements/phase, settlements/stage/s2]
 # 15 · Damage
 > **S2 Core Combat** · status **Drafted** · build order **9**
 
-**Depends on:** [[Shooting]], [[Melee]]
-**Feeds into:** [[Conditions]], [[Morale]], [[Scenarios]]
+**Depends on:** [[Settlements/Rules System/Archived/Shooting]], [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Melee]]
+**Feeds into:** [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Conditions]], [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Morale]], [[Settlements/Rules System/Archived/Scenarios]]
 **Raw dependency (from Notion):** Shooting, Melee
 
 ## Focus
@@ -27,12 +27,12 @@ The Rules column should nail down:
 - The hook into the persistent roster: post-battle survival vs death vs lasting injury (brutal-realism pillar).
 
 ## Inherits from the engine
-> [!info] Recall — saves / wound rolls should reuse the [[Rules Engine#Universal Resolution Mechanic|core test]] (armour as a modifier, AP as a negative to it), and criticals hook off the **natural 10** rule. Don't introduce a new dice type here — set the lethality dial by *how a hit converts*, not by changing the roll.
+> [!info] Recall — saves / wound rolls should reuse the [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Rules Engine#Universal Resolution Mechanic|core test]] (armour as a modifier, AP as a negative to it), and criticals hook off the **natural 10** rule. Don't introduce a new dice type here — set the lethality dial by *how a hit converts*, not by changing the roll.
 
 ## Working rules / decisions
 
 ### Two-roll combat
-After an attack lands ([[Shooting]] / [[Melee]]), the **attacker** makes one **Injury roll**:
+After an attack lands ([[Settlements/Rules System/Archived/Shooting]] / [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Melee]]), the **attacker** makes one **Injury roll**:
 
 `1d10 + Weapon Damage − Armor` vs **7+**
 
@@ -53,21 +53,21 @@ Every hit does *something* — it wounds or it pins. No wasted hits.
 ### Pinned
 - Pinned is **suppression, not injury**, and it's the **ranged** non-wound result — the shot landed but didn't wound. (A non-wounding **melee** blow instead piles Stress → **Shaken**; you can't pin someone you're toe-to-toe with.)
 - A Pinned unit **cannot Move, Charge, Sprint or Disengage**; it must spend its **Move** to shake Pinned off before it can reposition. It may still **Shoot or Interact** from where it stands.
-- Pinned **persists until cleared**, and applying it is **+1 Stress** — so a unit that keeps getting Pinned climbs the [[Morale|Stress]] ladder toward **Shaken** and a **Break test**. That accumulation, not the Pin itself, is what wears down a dug-in shooter.
-- Full status entry in [[Conditions]].
+- Pinned **persists until cleared**, and applying it is **+1 Stress** — so a unit that keeps getting Pinned climbs the [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Morale|Stress]] ladder toward **Shaken** and a **Break test**. That accumulation, not the Pin itself, is what wears down a dug-in shooter.
+- Full status entry in [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Conditions]].
 
 ### Down & bleeding out
 - **Melee is decisive.** A unit reduced to **0 WND by a melee attack** goes **straight to Out of Action** — removed (→ Fate). No finisher, no bleed-out clock: put someone down in a brawl and they're done.
 - **Ranged / hazard leaves them Down.** A unit reduced to 0 by **ranged fire or a hazard** goes **Down** — prone and out of the fight, but still alive on the table. It counts as **Heavy cover vs ranged unless in the open**; a **melee / engaged attack auto-hits** to finish it (Injury roll still made, a **pass = Out**), but **ranged attacks resolve normally** — so a downed fighter has a chance to be reached and Stabilized instead of shot for free.
-- A Down unit must be **Stabilized** by the end of its **next** activation or it **bleeds out** and is removed (→ [[Campaign#Post-battle — the Fate table|Fate roll]]).
+- A Down unit must be **Stabilized** by the end of its **next** activation or it **bleeds out** and is removed (→ [[Settlements/Rules System/Archived/Campaign#Post-battle — the Fate table|Fate roll]]).
 - **Stabilize** = 1 Action + an **INT test (7+)**, by the Down unit itself or an adjacent friendly. **−2 without a Med-Kit**; a **Med-Kit** cancels the penalty; the **Stabilize** skill grants +4 INT and its printed Stress recovery; success is not automatic.
-- **A Down unit keeps its Stress** ([[Morale#Stress and Down — persistence]], *drafted 2026-08-29*). It takes no Break tests while Down — it is out of the fight — but it sheds nothing either, and it comes back up carrying every point. A fighter Stabilized at **2+ Stress** therefore faces a Break test in the next End Phase, and at **4+** a failure removes it. **You can patch the body faster than the nerve.**
+- **A Down unit keeps its Stress** ([[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Morale#Stress and Down — persistence]], *drafted 2026-08-29*). It takes no Break tests while Down — it is out of the fight — but it sheds nothing either, and it comes back up carrying every point. A fighter Stabilized at **2+ Stress** therefore faces a Break test in the next End Phase, and at **4+** a failure removes it. **You can patch the body faster than the nerve.**
 
 ### Wounds
-**Every unit has WND 1** — one injury pass drops it (**Down** from ranged, **Out** from melee). The *only* way to have more is a specific **skill** that grants +1 WND ([[Skills]]); a multi-wound unit takes each pass as **−1 WND**, going Down at 0.
+**Every unit has WND 1** — one injury pass drops it (**Down** from ranged, **Out** from melee). The *only* way to have more is a specific **skill** that grants +1 WND ([[Settlements/Rules System/Archived/Skills]]); a multi-wound unit takes each pass as **−1 WND**, going Down at 0.
 
 ## Rule ledger
 - [[core-007 Casualties]]
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

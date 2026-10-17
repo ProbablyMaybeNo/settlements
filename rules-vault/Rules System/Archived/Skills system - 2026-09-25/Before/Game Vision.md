@@ -17,7 +17,7 @@ tags:
 > **S1 Foundation** · status **Drafted** · build order **1**
 
 **Depends on:** —
-**Feeds into:** [[Core Game Format]]
+**Feeds into:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Core Game Format]]
 **Raw dependency (from Notion):** —
 
 ## Focus
@@ -28,7 +28,7 @@ The Rules column should nail down:
 - 5 ranked design tenets/pillars — you may only break a lower one in service of a higher one.
 - The 3–4 signature experiences every battle must deliver (terrain mastery, brutal stakes, emergent stories, persistent attachment).
 - The hard non-negotiables (terrain as a major focus, persistent character rosters, ultra-realism, drop-in/out campaign).
-- An explicit "what Settlements is NOT" to guard scope creep. → [[Out of Scope — What Settlements is NOT]]
+- An explicit "what Settlements is NOT" to guard scope creep. → [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Out of Scope — What Settlements is NOT]]
 
 ## Working rules / decisions
 
@@ -89,4 +89,4 @@ Units persist between games, gaining experience, suffering injuries, and develop
 _none_
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

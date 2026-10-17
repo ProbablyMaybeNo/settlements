@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Wield two 2 HANDED melee weapons as if they were 1 HANDED. The off-hand still contributes only one attack die unless another rule explicitly overrides it.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

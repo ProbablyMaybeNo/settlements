@@ -11,8 +11,8 @@ tags: [settlements/phase, settlements/stage/s4]
 # 10 · Settlement
 > **S4 Settlement & Campaign** · status **Drafted** · build order **16**
 
-**Depends on:** [[Core Game Format]]
-**Feeds into:** [[Structures]], [[Economy]], [[Campaign]], [[Final Alpha]], [[Downtime]], [[Events]], [[Solo & Co-op]], [[Factions]]
+**Depends on:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Core Game Format]]
+**Feeds into:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Final Alpha]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Downtime]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Events]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Solo & Co-op]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Factions]]
 **Raw dependency (from Notion):** Format
 
 ## Focus
@@ -20,17 +20,17 @@ The base layer — resources and buildings. A thin slice of this is required for
 
 The Rules column should nail down:
 - The settlement map and how players place built structures — these placements literally become the boards battles are fought on.
-- Building types and what each does: resource gatherers, crafting stations, defences, utility structures. → **drafted in [[Structures]]**
+- Building types and what each does: resource gatherers, crafting stations, defences, utility structures. → **drafted in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]]**
 - Build/upgrade costs and the in-battle buffs structures grant (turrets, reinforced doors, traps).
 - Structural damage and collapse, driving the tough choices: rebuild/reinforce vs recruit vs research.
 - The minimum viable slice the Final Alpha needs (~10 buildings, **3 resources** — Credits, Materials, Power). *(Water cut 2026-08-01: population is braked by housing slots alone.)*
 
-> [!info] The catalogue lives in [[Structures]]
+> [!info] The catalogue lives in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]]
 > **23 structures**, footprint classes, the 12"×36" canvas, Materials cost, Power draw, worker benefit and the terrain line for every entry. This note keeps **founding**, layout, roles and the resource loop.
 
 ## Working rules / decisions
 
-*Founding drafted 2026-08-05 from [[Full Rules System v1]] §17. The canvas is in [[Structures#The settlement canvas]], Power and storage in [[Economy]], and the between-battles sequence in [[Downtime]]. The original design notes are kept verbatim further down.*
+*Founding drafted 2026-08-05 from [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §17. The canvas is in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#The settlement canvas]], Power and storage in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy]], and the between-battles sequence in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Downtime]]. The original design notes are kept verbatim further down.*
 
 ### Choosing a location
 
@@ -59,28 +59,28 @@ Every settlement begins with these four, free — one gatherer per resource plus
 
 **HQ** (command, **12 housing**) · **Generator** (**+5 Power**) · **Processor** (Materials gatherer) · **Salvage Yard** (Credits gatherer).
 
-Starting footprint: **95 of 432 squares**. Full entries in [[Structures#Starting structures — four]].
+Starting footprint: **95 of 432 squares**. Full entries in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#Starting structures — four]].
 
 ### Founding budget
 
-**125 Materials + 75 Credits.** 125 Materials is roughly **two Tier-1 structures** on top of the free four. The **whole 23-structure catalogue is open from turn one** — no prerequisites, no research gate ([[Structures]]).
+**125 Materials + 75 Credits.** 125 Materials is roughly **two Tier-1 structures** on top of the free four. The **whole 23-structure catalogue is open from turn one** — no prerequisites, no research gate ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]]).
 
-Structures and repairs are paid in **Materials**; the Credits half goes on the crew ([[List Building]]). A **Farm/Ranch** Location adds **+25 Materials** to this budget instead of a free building.
+Structures and repairs are paid in **Materials**; the Credits half goes on the crew ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]]). A **Farm/Ranch** Location adds **+25 Materials** to this budget instead of a free building.
 
 ### Settlements in battles
 
-Resolved — the settlement **is** the board. A settlement's 12"×36" canvas is exactly the defender's **back three density squares** on a 3'×3' board, so a raid uses the whole compound and the attacker crosses ~24" of neutral ground ([[Terrain#Settlement boards — the same procedure, one square-set pre-filled]]).
+Resolved — the settlement **is** the board. A settlement's 12"×36" canvas is exactly the defender's **back three density squares** on a 3'×3' board, so a raid uses the whole compound and the attacker crosses ~24" of neutral ground ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain#Settlement boards — the same procedure, one square-set pre-filled]]).
 
-**A raid is not meant to be fair.** The defender fights on home ground with their own structures' tags, turrets and [[Infrastructure]] for free, and **wins all Priority ties** — one small lever, not a stack of raid-only exceptions.
+**A raid is not meant to be fair.** The defender fights on home ground with their own structures' tags, turrets and [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Infrastructure]] for free, and **wins all Priority ties** — one small lever, not a stack of raid-only exceptions.
 
 ### Assigning roles
 
 Two jobs a person can hold, and they compete for the same bodies:
 
-- **Crew** — fielded in battles, within housing and the Crew Rating cap ([[List Building]]).
-- **Worker** — assigned to a structure for its printed benefit, **assigned or not**, no progression track ([[Structures#Worker benefits]]).
+- **Crew** — fielded in battles, within housing and the Crew Rating cap ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]]).
+- **Worker** — assigned to a structure for its printed benefit, **assigned or not**, no progression track ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#Worker benefits]]).
 
-Sending a fighter out on a **dispatch** — Scout or Scavenge — means they are not available for that battle. That opportunity cost is the whole tension of the downtime layer ([[Downtime#Phase 2 — Settlement]]).
+Sending a fighter out on a **dispatch** — Scout or Scavenge — means they are not available for that battle. That opportunity cost is the whole tension of the downtime layer ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Downtime#Phase 2 — Settlement]]).
 
 ---
 
@@ -108,7 +108,7 @@ Founding a settlement
 *need to draft the rules for these*
 
 > [!check] Resolved — the canvas is **12 inches × 36 inches** on a **1" grid**
-> Sized so the whole settlement always fits on a standard **3'×3'** board: it occupies the defender's **back three 12"×12" density squares** ([[Terrain#Setup procedure]]), and the attacker crosses ~24" of neutral ground. Because the settlement fits the board, **there is no raid window** — a raid always uses all of it. Full rules in [[Structures#The settlement canvas]].
+> Sized so the whole settlement always fits on a standard **3'×3'** board: it occupies the defender's **back three 12"×12" density squares** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain#Setup procedure]]), and the attacker crosses ~24" of neutral ground. Because the settlement fits the board, **there is no raid window** — a raid always uses all of it. Full rules in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#The settlement canvas]].
 
 - Hiring a crew - I’m toying with the idea that a players starting crew will be determined by the structures they choose for their settlement. Every player will start with the same basic structures allowing for say 10 crew members but if they want to hire more for their starting crew they can spend some of their initial cash on building another "crew cabin" or housing which unlocks more recruit slots. This could also be the case for hiring more specialists.
   
@@ -153,4 +153,4 @@ Settlements in battles
 _none_
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

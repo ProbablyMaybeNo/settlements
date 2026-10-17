@@ -91,7 +91,7 @@ GW's non-use is explicitly documented in the community formula's own introductio
 
 **The interesting part is faction identity as override layers**: Eldar **double** their Hits cost, **double** their speed cost, and pay a **+15 *"too many weapons on too small a ship"*** surcharge. **[FACT]**
 
-**For Settlements.** A fourth place to write [[Factions]] identity — one shared formula, per-faction multipliers on top. Cheap to implement in `test-bench/points/`, and it means a faction's flavour is enforced by the price list rather than by rules text.
+**For Settlements.** A fourth place to write [[Settlements/Rules System/Archived/Factions]] identity — one shared formula, per-faction multipliers on top. Cheap to implement in `test-bench/points/`, and it means a faction's flavour is enforced by the price list rather than by rules text.
 
 ---
 ## Epic — the negative result
@@ -108,7 +108,7 @@ Points attach to **formations in army context**, so unit cost is **not separable
 
 > **If your units are only meaningful inside a container, cost the container.**
 
-**For Settlements — the honest self-check.** Our units are *mostly* separable — a fighter is a fighter regardless of the crew around it. But three things push toward container-costing and are worth watching: **Orders** (a Leader's value depends on who can receive them), the **rank pyramid** (a Specialist requires two lower-rank bodies, so its real cost includes theirs), and **crew synergy** generally. If a costing pass keeps producing residuals that only make sense at the crew level, that's this finding arriving — see [[Balance]] and `docs/POINTS-AUDIT.md`.
+**For Settlements — the honest self-check.** Our units are *mostly* separable — a fighter is a fighter regardless of the crew around it. But three things push toward container-costing and are worth watching: **Orders** (a Leader's value depends on who can receive them), the **rank pyramid** (a Specialist requires two lower-rank bodies, so its real cost includes theirs), and **crew synergy** generally. If a costing pass keeps producing residuals that only make sense at the crew level, that's this finding arriving — see [[Settlements/Rules System/Archived/Balance]] and `docs/POINTS-AUDIT.md`.
 
 ---
 ## Source

@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Once per turn, when an enemy attack would DOWN this unit, first make one final SHOOT or MELEE ATTACK against that enemy if it is a legal target. Then resolve this unit becoming DOWNED.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

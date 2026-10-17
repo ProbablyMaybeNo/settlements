@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/terrain/feature]
 
 *Visibility · Block-Clear LOS*. Toggle a facade between open (LOS through the windows, Light cover) and shut (**Blocked LOS**). Close a fire lane, or open one onto an enemy, without moving a model.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Infrastructure]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Infrastructure]] from them.*

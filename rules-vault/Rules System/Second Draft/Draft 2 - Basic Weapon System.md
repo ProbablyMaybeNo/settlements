@@ -17,7 +17,7 @@ Every basic weapon is built in four steps:
 
 The class is an envelope, not a finished weapon. A pistol, revolver, and machine pistol may share a class while differing in Damage, Range, and characteristics. A sniper rifle, shotgun, and automatic rifle may likewise be different builds within the two-handed ranged envelope.
 
-Weapons are the primary source of direct offensive improvement. They may improve how an attack hits, how much harm it causes, how many attack dice it rolls, what armour or cover it ignores, and what payload it delivers. Weapons do not grant Skills or permanent changes to a unit.
+Weapons are the primary source of direct offensive improvement. They may improve how an attack hits, how much harm it causes, how many attack dice it rolls, what armor or cover it ignores, and what payload it delivers. Weapons do not grant Skills or permanent changes to a unit.
 
 ## 2. Basic weapon classes
 

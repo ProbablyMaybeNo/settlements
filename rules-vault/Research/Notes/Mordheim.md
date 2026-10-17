@@ -26,7 +26,7 @@ tags: [settlements/research]
 ---
 ## Why it's here
 
-Mordheim is cited constantly in this vault as the ancestor of lasting injuries, underdog banding and the death-spiral warning — but every one of those claims, until now, came from a **summary of a summary**. This pass reads the actual chart, the actual campaign chapter, and the actual optional-rules supplements, and finds two things nobody expected: **a published base-camp layer** (Encampments — three named settlements, each with its own housing chart and shops) and **a second, unrelated settlement system** for the Lustria campaign setting. Both land directly on our [[Settlement]]/[[Structures]] layer and now make Mordheim a genuine fourth data point on the campaign-base question, alongside [[Oathmark]], [[Last Days Zombie Apocalypse]] and [[Fallout Wasteland Warfare]].
+Mordheim is cited constantly in this vault as the ancestor of lasting injuries, underdog banding and the death-spiral warning — but every one of those claims, until now, came from a **summary of a summary**. This pass reads the actual chart, the actual campaign chapter, and the actual optional-rules supplements, and finds two things nobody expected: **a published base-camp layer** (Encampments — three named settlements, each with its own housing chart and shops) and **a second, unrelated settlement system** for the Lustria campaign setting. Both land directly on our [[Settlements/Rules System/Archived/Settlement]]/[[Settlements/Rules System/Archived/Structures]] layer and now make Mordheim a genuine fourth data point on the campaign-base question, alongside [[Oathmark]], [[Last Days Zombie Apocalypse]] and [[Fallout Wasteland Warfare]].
 
 ---
 ## The Serious Injuries chart — confirmed line for line
@@ -68,8 +68,8 @@ it is heavily weighted toward keeping the roster intact, with a long tail of fla
 
 **For Settlements.** This is the chart our own **Fate** table (`natural 1 = Dead, natural 10 = Hardened, modifiers
 capped at +2`) already descends from in spirit — Mordheim's own **62-63 Hardened** and **11-15 Dead** are the exact
-two poles our system names on its own natural 1/10. Two structural notes worth carrying into [[Damage]] and
-[[Progression]]:
+two poles our system names on its own natural 1/10. Two structural notes worth carrying into [[Settlements/Rules System/Archived/Damage]] and
+[[Settlements/Rules System/Archived/Progression]]:
 
 - **The "re-roll and stack" shape of Multiple Injuries (16-21)** is a clean way to let one bad roll cascade
   into several minor penalties without ever risking a second death or capture in the same event — worth
@@ -130,10 +130,10 @@ free, numeric base entirely outside the crew budget. [[Fallout Wasteland Warfare
 upgradeable physical layout with real structural damage. **Mordheim's Encampments are the fourth and weakest
 data point: a settlement that's mostly a random-table wrapper around trading, with almost no player-directed
 construction.** That's genuinely useful as a *lower bound* — it tells us what "the least you could ship and
-still call it a settlement layer" looks like, and it's clearly less than what [[Settlement]] and [[Structures]]
+still call it a settlement layer" looks like, and it's clearly less than what [[Settlements/Rules System/Archived/Settlement]] and [[Settlements/Rules System/Archived/Structures]]
 already have (a real footprint canvas, 23 buildable structures, Materials/Power resources). The one piece worth
 lifting directly: **a residency tithe as the cost of a benefit**, rather than a flat upkeep number — Sigmarhaven's
-"2 shards per battle for the safest camp" is a clean, single-number trade that a [[Settlement]] Location or
+"2 shards per battle for the safest camp" is a clean, single-number trade that a [[Settlements/Rules System/Archived/Settlement]] Location or
 district choice could reuse for a "safe but taxed" vs "cheap but risky" fork. The Housing-chart-per-visit shape
 (random small perk, re-rolled if the camp is lost) is much lighter than anything we'd want — it's built for a
 Town Cryer article's worth of table content, not a campaign spine.
@@ -153,7 +153,7 @@ game already has — no new currency, no new roll type, just a re-interpretation
 result. A nameless mook becomes a named character exactly because he survived and rolled well, which is a
 better story than anything a designer could script deliberately.
 
-**For Settlements.** Directly relevant to [[Progression]] and to the project's own standing idea (already
+**For Settlements.** Directly relevant to [[Settlements/Rules System/Archived/Progression]] and to the project's own standing idea (already
 recorded in [[Necromunda and Mordheim#Lasting injuries]]) that **a permanent injury should have a second life**
 — a fighter losing a leg becoming a settlement worker. Lads Got Talent is the **mirror image** of that idea:
 promotion upward (henchman → hero) instead of demotion sideways (fighter → worker). Together they suggest our
@@ -209,7 +209,7 @@ eats a bigger cut). Two independent diminishing-returns curves compress into one
 "maintenance cost" line item anywhere on a roster sheet — the tax is baked directly into the sale price instead
 of being a separate upkeep subtraction.
 
-**For Settlements.** Directly useful for [[Economy]]. If Settlements ever wants a soft brake on hoarding loot
+**For Settlements.** Directly useful for [[Settlements/Rules System/Archived/Economy]]. If Settlements ever wants a soft brake on hoarding loot
 before converting it to Credits, this is a proof that **the brake can live entirely inside the exchange rate**
 rather than as a separate bookkeeping step — sell in smaller batches for a better rate, or take the hit for
 convenience. It also quietly answers a version of the "play frequency beats skill" problem
@@ -232,7 +232,7 @@ Rolling a double **and** a triple in the same batch only looks up the rarer one;
 loot, and did anything special happen) with **no extra rolling**. The rarity gradient is free — six-of-a-kind
 on 6 dice is astronomically unlikely, so the best rewards gate themselves without a separate rarity roll.
 
-**For Settlements.** Worth a look for [[Events]] or the post-battle sequence generally — if a resource-gathering
+**For Settlements.** Worth a look for [[Settlements/Rules System/Archived/Events]] or the post-battle sequence generally — if a resource-gathering
 roll of some kind already exists, checking that *same* roll for a pattern (rather than adding a second
 "anything special happen?" roll) is a free way to make results feel less uniform without adding table time.
 
@@ -258,11 +258,11 @@ the roster at the extreme). **The optional supplement roughly doubles the psycho
 already has.**
 
 **For Settlements.** This is the load-bearing comparison for the stated want of Insanity/terror beyond the
-current Stress track ([[Morale]], [[Conditions]]) — Mordheim's classic suite is the **genre-standard maximalist
+current Stress track ([[Settlements/Rules System/Archived/Morale]], [[Settlements/Rules System/Archived/Conditions]]) — Mordheim's classic suite is the **genre-standard maximalist
 version**, and it costs six-plus named states plus (optionally) a second full advancement track just to reach
 "classic." Our locked design already collapses fear/suppression into **one mechanic** (a failed wound becomes
 Stress) precisely to avoid this — this capture is direct, primary evidence for *why* that collapse was the
-right call, not just an assertion. If [[Morale]] or [[Conditions]] ever wants a single "flavour" state worth
+right call, not just an assertion. If [[Settlements/Rules System/Archived/Morale]] or [[Settlements/Rules System/Archived/Conditions]] ever wants a single "flavour" state worth
 borrowing cheaply, **Frenzy's forced-charge-for-double-Attacks** is the one mechanism here that's genuinely one
 line and self-contained, with no interaction table required.
 
@@ -308,4 +308,4 @@ worth recording: this wiki earns its "faithful consolidation" billing on every l
 - Primary: The New Mordheimer (mordheimer.net), `/docs/rules/*`, `/docs/campaigns/*`, `/docs/optional-rules/*` — a community-maintained Docusaurus wiki, active through Aug 2026 per its own blog, consolidating published Mordheim (core rulebook, Town Cryer magazine, Mordheim Annual, official supplements)
 - Cross-check: `living-rulebook.pdf` (122pp), `ultimate-reference-sheet.pdf` (6pp), `campaign-reference.pdf` (2pp), `post-game-chart.pdf` (2pp) — all hash-verified against `G:\My Drive\Wargaming\Mordheim\`
 - Capture: `research/sources/mordheim/source.md`, `research/sources/mordheim/meta.json`
-- Related: [[Necromunda and Mordheim]] (the prior secondary-source read — see the pointer at the top of that note) · [[Wargaming Research Hub]] · [[Oathmark#The kingdom widens the menu]] · [[Last Days Zombie Apocalypse#The Refuge costs zero]] · [[Fallout Wasteland Warfare]] · [[Trench Crusade]] (same designer, later game) · [[Settlement]] · [[Structures]] · [[Progression]] · [[Damage]] · [[Economy]] · [[Morale]] · [[Conditions]] · [[Events]]
+- Related: [[Necromunda and Mordheim]] (the prior secondary-source read — see the pointer at the top of that note) · [[Wargaming Research Hub]] · [[Oathmark#The kingdom widens the menu]] · [[Last Days Zombie Apocalypse#The Refuge costs zero]] · [[Fallout Wasteland Warfare]] · [[Trench Crusade]] (same designer, later game) · [[Settlements/Rules System/Archived/Settlement]] · [[Settlements/Rules System/Archived/Structures]] · [[Settlements/Rules System/Archived/Progression]] · [[Settlements/Rules System/Archived/Damage]] · [[Settlements/Rules System/Archived/Economy]] · [[Settlements/Rules System/Archived/Morale]] · [[Settlements/Rules System/Archived/Conditions]] · [[Settlements/Rules System/Archived/Events]]

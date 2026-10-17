@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/combat/condition]
 
 counts as **Pinned**, and the unit **cannot React** until it has cleared the Pinned effect.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

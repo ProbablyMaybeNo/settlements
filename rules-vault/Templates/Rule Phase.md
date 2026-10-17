@@ -24,4 +24,4 @@ _Not drafted yet._
 _none_
 
 ---
-_See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_See [[Settlements/Rules System/Archived/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

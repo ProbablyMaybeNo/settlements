@@ -5,7 +5,7 @@ tags: [settlements/reference, settlements/analysis]
 ---
 # 🛠️ Deployables Sim — Findings
 
-First validation pass on the [[Deployables]] catalogue — turrets, mines, traps and beacons — against the core engine. Exact-math probabilities plus a Monte-Carlo cross-check that imports the [[Weapons|weapon]] battle engine. Run: `test-bench/deployables_sim.py` (seed `20260715`).
+First validation pass on the [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]] catalogue — turrets, mines, traps and beacons — against the core engine. Exact-math probabilities plus a Monte-Carlo cross-check that imports the [[Weapons|weapon]] battle engine. Run: `test-bench/deployables_sim.py` (seed `20260715`).
 
 > [!success] Headline
 > **The catalogue is clean — no ceiling breaks, and every item prices out against the sim-validated armoury.** One item was mispriced on the first pass (**Burst Turret**, undercosted at 16) and was corrected to **18** before locking. Two items are flagged to watch at the table — Burst and the Revive Beacon — not because they're broken, but because they touch the two most powerful levers in the game (multi-attack and casualty recovery).
@@ -64,4 +64,4 @@ Each ±1 aura moves the relevant roll about **10%** per affected ally. That is c
 **Locked for playtest.** Every cost is a first-pass anchor validated against proven-balanced gear, not yet seen at a table. The next sim is crew-integration: turrets, mines and beacons inside the full [[Crew Sim — Findings|crew battle loop]] to measure win-rate swing, once first playtests show how the deploy-Action tempo actually feels.
 
 ---
-See [[Deployables]] · [[Weapons]] · [[Rules System MOC]].
+See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]] · [[Weapons]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]].

@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Increase the range of this unit's 2 HANDED RANGED weapons and MARK TARGET by 12 inches.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

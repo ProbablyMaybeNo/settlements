@@ -17,4 +17,4 @@ tags: [settlements/record, settlements/terrain/verb]
 
 Under 2" = low leap, no test, −2" Move
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Terrain Interaction]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Terrain Interaction]] from them.*

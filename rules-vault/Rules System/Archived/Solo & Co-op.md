@@ -1,0 +1,39 @@
+---
+type: rule-phase
+phase: "26"
+stage: S4 Settlement & Campaign
+status: Not Started
+build_order: 26
+depends_on: ["Morale", "Campaign", "Settlement"]
+feeds_into: []
+tags: [settlements/phase, settlements/stage/s4]
+---
+
+> [!warning] Legacy reference — not the active Second Draft
+> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+
+# 26 · Solo & Co-op
+> **S4 Settlement & Campaign** · status **Not Started** · build order **26**
+
+**Depends on:** [[Settlements/Rules System/Archived/Morale]], [[Settlements/Rules System/Archived/Campaign]], [[Settlements/Rules System/Archived/Settlement]]
+**Feeds into:** —
+**Raw dependency (from Notion):** Full combat loop, Campaign, Settlement
+
+## Focus
+Playing without a human opponent — AI rules, enemy priorities, shared settlements.
+
+The Rules column should nail down:
+- The automated-opponent system: how enemy units choose actions (priority lists / simple flowcharts).
+- Solo scenario setup and difficulty scaling.
+- Co-op: shared vs separate settlements, how players combine crews, and how rewards are split.
+- PvPvE handling (AI threats appearing during a 2-player game).
+- How all of this reuses the core rules rather than spawning a parallel ruleset.
+
+## Working rules / decisions
+_Not drafted yet._
+
+## Rule ledger
+_none_
+
+---
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Rules System MOC]] and [[Settlements/Rules System/_Rules Map.canvas|the map]]._

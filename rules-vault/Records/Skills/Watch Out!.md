@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 When a friendly within 12 inches and LOS is CHARGED, spend this unit's action or reaction to give that friendly a free RANGED ATTACK before the charge completes.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

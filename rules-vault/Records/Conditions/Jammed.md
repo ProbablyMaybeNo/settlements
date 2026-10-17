@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/combat/condition]
 
 remote activation and wireless control of the device fail; local and manual operation still work. Ends at the start of the jammer's next activation.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

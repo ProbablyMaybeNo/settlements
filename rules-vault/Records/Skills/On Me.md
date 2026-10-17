@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Nominate a friendly within 6 inches and LOS. Immediately after this unit finishes its activation, activate that friendly. Activation eligibility requires ruling.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

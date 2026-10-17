@@ -14,8 +14,8 @@ Weapons are **built, not bought off a shelf.** Pick a **Class**, then spend Cred
 
 > [!info] Design contract — the three rules that keep this honest
 > 1. **Stats decide if you land it · Weapons decide how bad it is · Skills decide what else happens.** A weapon **never** grants an effect a **[[Skill Paths|skill]]** grants. Weapons do damage, range, armour, conditions, noise and concealment. Skills do extra actions, reactions, exceptions and positioning.
-> 2. **Weapons apply conditions — they never define them.** Every condition below is written in **[[Conditions]]**.
-> 3. **A hit does exactly one thing: it wounds, or it delivers its payload.** Never both ([[Damage]]).
+> 2. **Weapons apply conditions — they never define them.** Every condition below is written in **[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Conditions]]**.
+> 3. **A hit does exactly one thing: it wounds, or it delivers its payload.** Never both ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Damage]]).
 
 ```
 Fire Axe         Heavy Melee · Brutal · Bleeding                             50 Cr
@@ -63,7 +63,7 @@ Grandpa's Rifle  Standard Ranged · Accurate · Long Range                     4
 
 ^tbl-1-weapon-classes
 
-Damage feeds the **Injury roll** — `1d10 + Damage − Armor` vs **7+** ([[Damage]]).
+Damage feeds the **Injury roll** — `1d10 + Damage − Armor` vs **7+** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Damage]]).
 
 > [!info] Thrown weapons are not automatically one-use *(2026-07-31)*
 > **One-use is a tag, not a class.** `Single-Use` is an ordinary drawback that a build may take for its refund — so a **molotov** takes it (you cannot un-throw a burning bottle) while a **javelin**, **hatchet** or **throwing knife** does not, and is simply thrown again next turn.
@@ -75,7 +75,7 @@ Damage feeds the **Injury roll** — `1d10 + Damage − Armor` vs **7+** ([[Dama
 > [!warning] Two hard ceilings. Both are load-bearing.
 > **Damage stops at +4, and only Brutal reaches it.** Armour only runs to −2; if weapons ran past +4 the armour ladder would be decorative. Base classes stop at **+3**. On a ranged weapon, Brutal is gated behind **Short Range** — which encodes the finding from [[Terrain Hacking Cover — Sim Findings]]: *keep Brutal off any longer-ranged weapon.*
 >
-> **Range reaches 36", and everything past 24" is GATED.** Deployment zones sit **24" apart** ([[Core Game Format]]), so a 24" weapon fires from its own deployment zone on turn one, and a **36"** weapon fires from **12" behind** it — covering the whole board from a square the enemy needs a round of sprinting to threaten. That is a **threshold**, not a linear advantage, and no points cost can balance a threshold on its own: the sim found an uncapped long-range crew beating every other list by **13–30 points**, larger than any single atom in the catalogue.
+> **Range reaches 36", and everything past 24" is GATED.** Deployment zones sit **24" apart** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Core Game Format]]), so a 24" weapon fires from its own deployment zone on turn one, and a **36"** weapon fires from **12" behind** it — covering the whole board from a square the enemy needs a round of sprinting to threaten. That is a **threshold**, not a linear advantage, and no points cost can balance a threshold on its own: the sim found an uncapped long-range crew beating every other list by **13–30 points**, larger than any single atom in the catalogue.
 >
 > So the ceiling is no longer a hard 24". It is **24" for anything you can build**, and past that a weapon must clear **four gates**:
 >
@@ -89,7 +89,7 @@ Damage feeds the **Injury roll** — `1d10 + Damage − Armor` vs **7+** ([[Dama
 > The intent: a 36" rifle is a **rare, expensive, found weapon that a crew builds a plan around** — never standard kit. All four gates are enforced in code, not merely written here.
 
 ### Rank gates the class
-The hard lock that makes the ladder in [[List Building]] real — **a Recruit cannot hold a rifle.**
+The hard lock that makes the ladder in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]] real — **a Recruit cannot hold a rifle.**
 
 | Rank           | May carry                                |
 | -------------- | ---------------------------------------- |
@@ -102,13 +102,13 @@ The hard lock that makes the ladder in [[List Building]] real — **a Recruit ca
 
 ---
 ## 1.5 · Attack Dice — the multi-shot axis
-> **Ruled 2026-08-29.** Master text: [[Full Rules System v1]] §15. Measured basis: [[Attack Dice — Sim Findings]]. Phase note: [[15b · Attack Dice]].
+> **Ruled 2026-08-29.** Master text: [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §15. Measured basis: [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Attack Dice — Sim Findings]]. Phase note: [[15b · Attack Dice]].
 
 Every weapon has an **Attack Dice** value, **default 1** — unlisted on a card means 1, and it needs no catalogue line. Attack Dice 2 or 3 fires that many shots for **one Action**.
 
 **Roll the burst at once, then apply ONE result:**
 1. One **attack roll per die**, all at **full stats** — no diminishing to-hit, no recoil penalty.
-2. Every die that hit rolls its **Injury die** ([[Damage]]). Roll them together.
+2. Every die that hit rolls its **Injury die** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Damage]]). Roll them together.
 3. The attacker **chooses one Injury result** to apply — a pass costs the target **1 WND**, a fail is **Pinned (+1 Stress)**.
 4. Every **other** hit that failed to injure also applies **Pinned (+1 Stress)**. A burst that lands without wounding still suppresses.
 5. **One Action**, whatever the dice count.
@@ -133,7 +133,7 @@ Every weapon has an **Attack Dice** value, **default 1** — unlisted on a card 
 >
 > **The auto-include flag still fires:** AD 3 on a rifle is **+24%** more Credit-efficient than a properly-built Heavy Gunner (Heavy Ranged +5, 190 Cr) at the shipped +65 — not the **+51%** first reported, which benchmarked a Heavy Ranged at its **+3 floor** against the **draft** +60 price.
 >
-> **Proposed, pending Ross's tick — and wanting a re-run against catalogue weapons first:** AD 2 → Fighter+, AD 3 → Specialist+ · limit **one** AD 3 weapon per crew · AD 3 **manufactured-only**. Tracked in [[Full Rules System v1]] §29.
+> **Proposed, pending Ross's tick — and wanting a re-run against catalogue weapons first:** AD 2 → Fighter+, AD 3 → Specialist+ · limit **one** AD 3 weapon per crew · AD 3 **manufactured-only**. Tracked in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §29.
 
 ---
 ## 2 · Characteristics
@@ -156,7 +156,7 @@ Each takes **one slot**. Restrictions in *italics*.
 ^tbl-to-hit
 
 ### Payload — *replaces* the non-wounding result
-> A payload lands **in place of Pinned** (ranged) **or Shaken** (melee) when a hit fails to wound. Its **+1 Stress** applies once, exactly as Pinned's would ([[Conditions#General rules]]) — never both.
+> A payload lands **in place of Pinned** (ranged) **or Shaken** (melee) when a hit fails to wound. Its **+1 Stress** applies once, exactly as Pinned's would ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Conditions#General rules]]) — never both.
 >
 > This is what makes conditions work in a **WND-1** game. Wounding is binary and terminal, so there is no headroom to "add damage" — a weapon's extra bite has to land on the *hit that didn't kill you*.
 
@@ -168,7 +168,7 @@ Each takes **one slot**. Restrictions in *italics*.
 | **Bleeding** | **20** | **B** | **Bleed** — *at WND 1 this is a two-round death clock unless treated.* |
 | **Incendiary** | **10** | **B** | **Fire** |
 | **Shocking** | **5** | **B** ⚠ | **Shocked** — *measures positive but inside the noise floor.* |
-| **Heavy Impact** | **5** | **B** ⚠ | Push the target **2"** directly away. Falls and hazards resolve normally ([[Terrain]]). *Also inside the noise floor.* |
+| **Heavy Impact** | **5** | **B** ⚠ | Push the target **2"** directly away. Falls and hazards resolve normally ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain]]). *Also inside the noise floor.* |
 
 ^payload-replaces-the-non-wounding-result
 
@@ -193,7 +193,7 @@ Each takes **one slot**. Restrictions in *italics*.
 | Characteristic | Cr | Tier | Effect |
 |---|:--:|:--:|---|
 | **Blast** | **15** | **B** | Resolve the attack separately against **every model within 2"** of the target. *Thrown / Heavy Ranged only.* |
-| **Smoke** | **15** | **C** | Instead of attacking, place a **3" Dense Smoke** area ([[Terrain#Hazards (the Dangerous overlay)]]). *Thrown only. No LOS-denial atom has been measured; its nearest neighbour (Blind) is itself blocked.* |
+| **Smoke** | **15** | **C** | Instead of attacking, place a **3" Dense Smoke** area ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain#Hazards (the Dangerous overlay)]]). *Thrown only. No LOS-denial atom has been measured; its nearest neighbour (Blind) is itself blocked.* |
 
 ^tbl-area
 
@@ -204,7 +204,7 @@ Each takes **one slot**. Restrictions in *italics*.
 | **Balanced** | **10** | **C** | May use **AGI** instead of STR for melee attacks with this weapon. *Light / One-Handed Melee only.* |
 | **Defensive** | **15** | **C** | **+1** on opposed melee rolls when you are **not** the attacker and did **not Move** this activation. *Melee only. Derived from light armour, the nearest measured neighbour.* |
 | **Cleaving** | **25** | **C** | When you **win** a melee clash, make the Injury roll against **every** enemy Engaged with you. *Heavy Melee only. Derived: Blast (multi-target) + one damage step.* |
-| **Breaching** | **15** | **C** | **+2** on STR tests to Force or break **Breachable** terrain ([[Terrain Interaction]]). |
+| **Breaching** | **15** | **C** | **+2** on STR tests to Force or break **Breachable** terrain ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain Interaction]]). |
 | **Quiet** | **10** | **C** | Attacks don't reveal you from **Hidden** and don't trip noise or alarms. *Engine-blocked — no noise or alarm system exists in the sim.* |
 | **Compact** | **10** | **C** | Counts as **one-handed** despite its class. *Heavy classes only. Engine-blocked — hands and slots are inert in the sim.* |
 
@@ -241,7 +241,7 @@ The DIY layer. This is how you build a pipe shotgun that might blow up in your h
 
 ---
 ## 3 · Armor
-Armor reduces the **Injury roll only** — never the hit. Cover protects against *being hit*; armor protects against *being hurt* ([[Rules Engine]]).
+Armor reduces the **Injury roll only** — never the hit. Cover protects against *being hit*; armor protects against *being hurt* ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules Engine]]).
 
 > [!info] Armour carries no drawbacks *(2026-07-30)*
 > A drawback you **opt into** for a discount is a deal — that is the DIY weapon layer below, and it stays. A drawback **welded onto something you want** is a tax, and armour had two of them. They are gone.
@@ -270,7 +270,7 @@ Armor reduces the **Injury roll only** — never the hit. Cover protects against
 
 ---
 ## 4 · Hacking gear
-A hack is one INT test ([[Hacking]]). Gear grants a flat **+/− modifier to hacking rolls** — the v1 hack test today, and mostly the **breach roll** if the parked deeper system is ever built ([[Hacking]]).
+A hack is one INT test ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Hacking]]). Gear grants a flat **+/− modifier to hacking rolls** — the v1 hack test today, and mostly the **breach roll** if the parked deeper system is ever built ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Hacking]]).
 
 | Hack gear | Modifier | Cr | Tier | Notes |
 |---|:---:|:--:|:--:|---|
@@ -324,14 +324,14 @@ Every one of these is a legal build. Copy or rename freely.
 
 ---
 ## 6 · Cut, and why
-Kept so it doesn't creep back in a new costume ([[Out of Scope — What Settlements is NOT#4 · Rejected-ideas log]]).
+Kept so it doesn't creep back in a new costume ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Out of Scope — What Settlements is NOT#4 · Rejected-ideas log]]).
 
 | Proposed | Why it's out |
 |---|---|
 | **Rapid** *(extra attack at −2)* | It **is** **Quick Shot** — a **Tier 3** skill needing a stat of +6, i.e. campaign-earned. [[Skill Sim — Findings]] measured multi-attack as *the biggest DPS lever in the game* (+67% output). Selling it to a Fighter for 4 points destroys the entire skill economy. |
 | **Precision** *(flat +1 hit)* | Strictly stronger than **Dead Eye** (T3, which is conditional). Replaced by **Accurate** — conditional, and already a locked trait. |
 | **Reliable** *(re-roll)* | Introduces **re-rolls**, a dice mechanic that exists nowhere in Settlements. Breaks the one-mechanic ceiling. |
-| **Concealable** *(may start Hidden / smuggle past a search)* | **Cut 2026-08-14.** Both halves are edge cases that do nothing in a typical battle, and it **breaks the weapon design contract stated in §1**: weapons do damage / range / armour / conditions / noise, and **skills** do positioning exceptions. "May start Hidden" is skill territory — [[Skill Paths]]' **Vanishing Point** and **Camouflage Drill** already do it properly. **Quiet is NOT cut**: no-reveal / no-alarm-trip is a real mechanical axis that interacts with Hidden and the Sensor deployables. *(Propagated to [[Full Rules System v1]] §15 on 2026-08-27 — the master still listed it as live.)* |
+| **Concealable** *(may start Hidden / smuggle past a search)* | **Cut 2026-08-14.** Both halves are edge cases that do nothing in a typical battle, and it **breaks the weapon design contract stated in §1**: weapons do damage / range / armour / conditions / noise, and **skills** do positioning exceptions. "May start Hidden" is skill territory — [[Skill Paths]]' **Vanishing Point** and **Camouflage Drill** already do it properly. **Quiet is NOT cut**: no-reveal / no-alarm-trip is a real mechanical axis that interacts with Hidden and the Sensor deployables. *(Propagated to [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §15 on 2026-08-27 — the master still listed it as live.)* |
 | **Quick Draw** *(fire after Sprinting)* | Sprint consumes **both slots** — there is no Action left to fire with. It silently invents a new action economy. |
 | **Crushing** *(ignore cover on the Wound Roll)* | **Cover never touches the Injury roll.** That is the load-bearing line of the entire engine. (Shields also don't exist.) |
 | **Awkward** *(no Move + attack)* | Free points on a static shooter, and it *synergises* with Accurate. A drawback must bite regardless of playstyle. |
@@ -349,4 +349,4 @@ Three skills are now out-competed by a characteristic. Flagged, not changed.
 - **Ghost Blade** (T3 AGI) vs **Balanced** — the skill covers *all* melee including Heavy (+3); the characteristic caps at One-Handed (+2). Distinct, but the margin is thin.
 
 ---
-See [[Rules System MOC]] · governed by [[Damage]] · [[Shooting]] · [[Melee]] · costed in [[List Building]] · conditions in [[Conditions]].
+See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] · governed by [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Damage]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Shooting]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Melee]] · costed in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]] · conditions in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Conditions]].

@@ -12,6 +12,6 @@ tags: [settlements/record, settlements/terrain/type]
 
 # Deep water
 
-Swim (AGI, on entering — [[Movement#Terrain movement]])
+Swim (AGI, on entering — [[Settlements/Records/Terrain/Movement#Terrain movement]])
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Terrain]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Terrain]] from them.*

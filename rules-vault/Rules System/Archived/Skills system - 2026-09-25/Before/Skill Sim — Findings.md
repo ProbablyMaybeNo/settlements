@@ -121,4 +121,4 @@ Red Mist stays a **one-shot nuke** by design (one use ≈ Broken-risk that round
 ---
 *Not covered (needs board/scenario/points, not dice): all INT/hacking, terrain & positioning, spotting, objective, and team-support skills (Rally, Talk Them Down, Bodyguard, etc.). Next pass worth running: multi-model fights so team-support and Grapple-vs-focus-fire actually register.*
 
-See [[Skill Paths]] · [[Conditions]] · [[Morale]] · [[Dice Mechanic — Sim Findings]].
+See [[Skill Paths]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Conditions]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale]] · [[Dice Mechanic — Sim Findings]].

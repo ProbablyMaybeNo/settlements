@@ -16,6 +16,6 @@ tags: [settlements/record, settlements/settlement/structure]
 
 # EW Mast
 
-Counter-hack and counter-drone: penalises enemy [[Hacking]] in a raid on you; blocks enemy drone deployables
+Counter-hack and counter-drone: penalises enemy [[Settlements/Rules System/Archived/Hacking]] in a raid on you; blocks enemy drone deployables
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Structures]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Structures]] from them.*

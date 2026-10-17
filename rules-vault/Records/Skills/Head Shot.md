@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Gain +4 to injure MARKED targets with RANGED ATTACKS if this unit has not moved this turn.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

@@ -15,4 +15,4 @@ tags: [settlements/record, settlements/campaign/faction]
 
 
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Factions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Factions]] from them.*

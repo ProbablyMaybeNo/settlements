@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/combat/condition]
 
 flees toward the nearest board edge, hugging cover. *(Break test fail at Stress 2.)*
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

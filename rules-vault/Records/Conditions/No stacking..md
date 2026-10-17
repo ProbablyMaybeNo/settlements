@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/combat/condition]
 
 The same condition never applies twice. Reapplying it refreshes its duration; it does not deepen the effect.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

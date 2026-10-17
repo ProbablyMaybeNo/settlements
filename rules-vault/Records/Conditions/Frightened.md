@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/combat/condition]
 
 **cannot React** and **−1 on Break tests**. Ends at the end of the unit's next activation.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

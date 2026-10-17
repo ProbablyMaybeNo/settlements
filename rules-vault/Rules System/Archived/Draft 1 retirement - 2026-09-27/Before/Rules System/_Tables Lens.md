@@ -19,361 +19,361 @@ tags: [settlements/catalogue]
 ## Core engine
 
 ### Initiative & Activation â€” Reaction options
-*[[Initiative & Activation]] Â· 6 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Initiative & Activation]] Â· 6 rows*
 
-![[Initiative & Activation#^tbl-reaction-options]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Initiative & Activation#^tbl-reaction-options]]
 
 ---
 
 ## Combat
 
 ### Morale â€” Break test — End Phase, 2+ Stress
-*[[Morale]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Morale]] Â· 3 rows*
 
-![[Morale#^tbl-break-test-end-phase-2-stress]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Morale#^tbl-break-test-end-phase-2-stress]]
 
 ### Morale â€” Break test — End Phase, 2+ Stress
-*[[Morale]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Morale]] Â· 3 rows*
 
-![[Morale#^tbl-break-test-end-phase-2-stress-2]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Morale#^tbl-break-test-end-phase-2-stress-2]]
 
 ---
 
 ## Gear
 
 ### Deployables â€” Build rating — some things are harder to build
-*[[Deployables]] Â· 4 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables]] Â· 4 rows*
 
-![[Deployables#^tbl-build-rating-some-things-are-harder-to-build]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables#^tbl-build-rating-some-things-are-harder-to-build]]
 
 ### Deployables â€” Family A · Turrets
-*[[Deployables]] Â· 5 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables]] Â· 5 rows*
 
-![[Deployables#^tbl-family-a-turrets]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables#^tbl-family-a-turrets]]
 
 ### Deployables â€” Chassis — how it delivers
-*[[Deployables]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables]] Â· 3 rows*
 
-![[Deployables#^tbl-chassis-how-it-delivers]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables#^tbl-chassis-how-it-delivers]]
 
 ### Deployables â€” Payload — what it does on detonation
-*[[Deployables]] Â· 5 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables]] Â· 5 rows*
 
-![[Deployables#^payload-what-it-does-on-detonation]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables#^payload-what-it-does-on-detonation]]
 
 ### Deployables â€” Family C · Traps
-*[[Deployables]] Â· 5 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables]] Â· 5 rows*
 
-![[Deployables#^tbl-family-c-traps]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables#^tbl-family-c-traps]]
 
 ### Deployables â€” Family D · Beacons
-*[[Deployables]] Â· 7 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables]] Â· 7 rows*
 
-![[Deployables#^tbl-family-d-beacons]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables#^tbl-family-d-beacons]]
 
 ---
 
 ## Movement Â· terrain Â· machines
 
 ### Movement â€” Terrain movement
-*[[Movement]] Â· 4 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Movement]] Â· 4 rows*
 
-![[Movement#^tbl-terrain-movement]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Movement#^tbl-terrain-movement]]
 
 ### Terrain â€” The three properties
-*[[Terrain]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain]] Â· 3 rows*
 
-![[Terrain#^tbl-the-three-properties]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain#^tbl-the-three-properties]]
 
 ### Terrain â€” Cover
-*[[Terrain]] Â· 5 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain]] Â· 5 rows*
 
-![[Terrain#^tbl-cover]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain#^tbl-cover]]
 
 ### Terrain â€” Terrain types
-*[[Terrain]] Â· 6 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain]] Â· 6 rows*
 
-![[Terrain#^tbl-terrain-types]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain#^tbl-terrain-types]]
 
 ### Terrain â€” Hazards (the Dangerous overlay)
-*[[Terrain]] Â· 6 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain]] Â· 6 rows*
 
-![[Terrain#^tbl-hazards-the-dangerous-overlay]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain#^tbl-hazards-the-dangerous-overlay]]
 
 ### Terrain â€” Interact
-*[[Terrain]] Â· 4 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain]] Â· 4 rows*
 
-![[Terrain#^tbl-interact]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain#^tbl-interact]]
 
 ### Terrain Interaction â€” Stat ownership
-*[[Terrain Interaction]] Â· 4 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction]] Â· 4 rows*
 
-![[Terrain Interaction#^tbl-stat-ownership]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction#^tbl-stat-ownership]]
 
 ### Terrain Interaction â€” Interaction verbs
-*[[Terrain Interaction]] Â· 8 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction]] Â· 8 rows*
 
-![[Terrain Interaction#^tbl-interaction-verbs]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction#^tbl-interaction-verbs]]
 
 ### Terrain Interaction â€” Searching and looting
-*[[Terrain Interaction]] Â· 5 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction]] Â· 5 rows*
 
-![[Terrain Interaction#^tbl-searching-and-looting]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction#^tbl-searching-and-looting]]
 
 ### Terrain Interaction â€” In-battle repair / settlement hook
-*[[Terrain Interaction]] Â· 6 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction]] Â· 6 rows*
 
-![[Terrain Interaction#^tbl-in-battle-repair-settlement-hook]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction#^tbl-in-battle-repair-settlement-hook]]
 
 ### Infrastructure â€” Infrastructure vs Deployables
-*[[Infrastructure]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Infrastructure]] Â· 3 rows*
 
-![[Infrastructure#^tbl-infrastructure-vs-deployables]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Infrastructure#^tbl-infrastructure-vs-deployables]]
 
 ### Infrastructure â€” The five categories
-*[[Infrastructure]] Â· 5 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Infrastructure]] Â· 5 rows*
 
-![[Infrastructure#^tbl-the-five-categories]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Infrastructure#^tbl-the-five-categories]]
 
 ### Infrastructure â€” Custom battles
-*[[Infrastructure]] Â· 5 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Infrastructure]] Â· 5 rows*
 
-![[Infrastructure#^tbl-custom-battles]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Infrastructure#^tbl-custom-battles]]
 
 ### Hacking â€” Range bands
-*[[Hacking]] Â· 5 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Hacking]] Â· 5 rows*
 
-![[Hacking#^tbl-range-bands]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Hacking#^tbl-range-bands]]
 
 ---
 
 ## Crew
 
 ### Unit Design â€” Stat Scale
-*[[Unit Design]] Â· 8 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Unit Design]] Â· 8 rows*
 
-![[Unit Design#^tbl-stat-scale]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Unit Design#^tbl-stat-scale]]
 
 ### Unit Design â€” Ranks (build budget)
-*[[Unit Design]] Â· 4 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Unit Design]] Â· 4 rows*
 
-![[Unit Design#^tbl-ranks-build-budget]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Unit Design#^tbl-ranks-build-budget]]
 
 ### List Building â€” Budget
-*[[List Building]] Â· 4 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building]] Â· 4 rows*
 
-![[List Building#^tbl-budget]]
-
-### List Building â€” The four ranks — two starting tiers
-*[[List Building]] Â· 4 rows*
-
-![[List Building#^tbl-the-four-ranks]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building#^tbl-budget]]
 
 ### List Building â€” The four ranks — two starting tiers
-*[[List Building]] Â· 4 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building]] Â· 4 rows*
 
-![[List Building#^tbl-the-four-ranks-campaign]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building#^tbl-the-four-ranks]]
+
+### List Building â€” The four ranks — two starting tiers
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building]] Â· 4 rows*
+
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building#^tbl-the-four-ranks-campaign]]
 
 ### List Building â€” Armour & equipment
-*[[List Building]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building]] Â· 3 rows*
 
-![[List Building#^tbl-armour-equipment]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building#^tbl-armour-equipment]]
 
 ### List Building â€” Armour & equipment
-*[[List Building]] Â· 4 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building]] Â· 4 rows*
 
-![[List Building#^armour-equipment]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building#^armour-equipment]]
 
 ### List Building â€” Validation
-*[[List Building]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building]] Â· 3 rows*
 
-![[List Building#^tbl-validation]]
-
-### Progression â€” Levels — the fixed advancement track
-*[[Progression]] Â· 10 rows*
-
-![[Progression#^tbl-level-track]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building#^tbl-validation]]
 
 ### Progression â€” Levels — the fixed advancement track
-*[[Progression]] Â· 6 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Progression]] Â· 10 rows*
 
-![[Progression#^levels-the-fixed-advancement-track]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Progression#^tbl-level-track]]
+
+### Progression â€” Levels — the fixed advancement track
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Progression]] Â· 6 rows*
+
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Progression#^levels-the-fixed-advancement-track]]
 
 ### Skills â€” STR
-*[[Skills]] Â· 15 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]] Â· 15 rows*
 
-![[Skills#^tbl-skills-str]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills#^tbl-skills-str]]
 
 ### Skills â€” DEX
-*[[Skills]] Â· 15 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]] Â· 15 rows*
 
-![[Skills#^tbl-skills-dex]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills#^tbl-skills-dex]]
 
 ### Skills â€” AGI
-*[[Skills]] Â· 15 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]] Â· 15 rows*
 
-![[Skills#^tbl-skills-agi]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills#^tbl-skills-agi]]
 
 ### Skills â€” INT
-*[[Skills]] Â· 15 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]] Â· 15 rows*
 
-![[Skills#^tbl-skills-int]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills#^tbl-skills-int]]
 
 ### Skills â€” NRV
-*[[Skills]] Â· 15 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]] Â· 15 rows*
 
-![[Skills#^tbl-skills-nrv]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills#^tbl-skills-nrv]]
 
 ---
 
 ## Campaign & settlement
 
 ### Campaign â€” Post-battle — the Fate table
-*[[Campaign]] Â· 6 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Campaign]] Â· 6 rows*
 
-![[Campaign#^tbl-post-battle-the-fate-table]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Campaign#^tbl-post-battle-the-fate-table]]
 
 ### Campaign â€” Glorious Deeds
-*[[Campaign]] Â· 10 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Campaign]] Â· 10 rows*
 
-![[Campaign#^tbl-glorious-deeds]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Campaign#^tbl-glorious-deeds]]
 
 ### Economy â€” Three resources, two of them banked
-*[[Economy]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Economy]] Â· 3 rows*
 
-![[Economy#^tbl-three-resources]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Economy#^tbl-three-resources]]
 
 ### Economy â€” Power — output vs draw
-*[[Economy]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Economy]] Â· 3 rows*
 
-![[Economy#^tbl-power-draw-by-tier]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Economy#^tbl-power-draw-by-tier]]
 
 ### Economy â€” Storage, caps and overflow
-*[[Economy]] Â· 4 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Economy]] Â· 4 rows*
 
-![[Economy#^tbl-storage-containers]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Economy#^tbl-storage-containers]]
 
 ### Settlement â€” Choosing a location
-*[[Settlement]] Â· 10 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Settlement]] Â· 10 rows*
 
-![[Settlement#^tbl-choosing-a-location]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Settlement#^tbl-choosing-a-location]]
 
 ### Structures â€” The settlement canvas
-*[[Structures]] Â· 4 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] Â· 4 rows*
 
-![[Structures#^tbl-the-settlement-canvas]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-the-settlement-canvas]]
 
 ### Structures â€” Groundworks — the expansion project
-*[[Structures]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] Â· 3 rows*
 
-![[Structures#^tbl-groundworks-the-expansion-project]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-groundworks-the-expansion-project]]
 
 ### Structures â€” Footprint classes
-*[[Structures]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] Â· 3 rows*
 
-![[Structures#^tbl-footprint-classes]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-footprint-classes]]
 
 ### Structures â€” Starting structures — four
-*[[Structures]] Â· 4 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] Â· 4 rows*
 
-![[Structures#^tbl-starting-structures-five]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-starting-structures-five]]
 
 ### Structures â€” Storage & caps — what you can hold, and what a raider can take
-*[[Structures]] Â· 4 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] Â· 4 rows*
 
-![[Structures#^tbl-storage-caps-what-you-can-hold-and-what-a-ra]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-storage-caps-what-you-can-hold-and-what-a-ra]]
 
 ### Structures â€” HQ tiers — the scavenger pipeline
-*[[Structures]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] Â· 3 rows*
 
-![[Structures#^tbl-hq-tiers]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-hq-tiers]]
 
 ### Structures â€” Three ways to grow — and how to tell them apart
-*[[Structures]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] Â· 3 rows*
 
-![[Structures#^tbl-three-ways-to-grow-and-how-to-tell-them-apar]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-three-ways-to-grow-and-how-to-tell-them-apar]]
 
 ### Structures â€” Upgrade ladders
-*[[Structures]] Â· 7 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] Â· 7 rows*
 
-![[Structures#^tbl-upgrade-ladders]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-upgrade-ladders]]
 
 ### Structures â€” Sustain — keep people alive, keep the grid up
-*[[Structures]] Â· 4 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] Â· 4 rows*
 
-![[Structures#^tbl-sustain-keep-people-alive-keep-the-grid-up]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-sustain-keep-people-alive-keep-the-grid-up]]
 
 ### Structures â€” Convert — turn one resource into another, and make gear
-*[[Structures]] Â· 5 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] Â· 5 rows*
 
-![[Structures#^tbl-convert-turn-one-resource-into-another-and-m]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-convert-turn-one-resource-into-another-and-m]]
 
 ### Structures â€” Operate — what you can do outside the walls
-*[[Structures]] Â· 6 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] Â· 6 rows*
 
-![[Structures#^tbl-operate-what-you-can-do-outside-the-walls]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-operate-what-you-can-do-outside-the-walls]]
 
 ### Structures â€” Recover — people come back
-*[[Structures]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] Â· 3 rows*
 
-![[Structures#^tbl-recover-people-come-back]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-recover-people-come-back]]
 
 ### Structures â€” Defend — this is the raid board
-*[[Structures]] Â· 5 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] Â· 5 rows*
 
-![[Structures#^tbl-defend-this-is-the-raid-board]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-defend-this-is-the-raid-board]]
 
 ### Structures â€” Worker benefits
-*[[Structures]] Â· 20 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] Â· 20 rows*
 
-![[Structures#^worker-benefits]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^worker-benefits]]
 
 ### Structures â€” Space budget
-*[[Structures]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] Â· 3 rows*
 
-![[Structures#^tbl-space-budget]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-space-budget]]
 
 ### Territory â€” The territory card — eleven required fields
-*[[Territory]] Â· 11 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Territory]] Â· 11 rows*
 
-![[Territory#^tbl-the-territory-card]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Territory#^tbl-the-territory-card]]
 
 ### Territory â€” The default loot table
-*[[Territory]] Â· 10 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Territory]] Â· 10 rows*
 
-![[Territory#^tbl-the-default-loot-table]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Territory#^tbl-the-default-loot-table]]
 
 ### Territory â€” Control states
-*[[Territory]] Â· 3 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Territory]] Â· 3 rows*
 
-![[Territory#^tbl-control-states]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Territory#^tbl-control-states]]
 
 ### Events â€” Battlefield Events — exactly two rolls, no running clock
-*[[Events]] Â· 10 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Events]] Â· 10 rows*
 
-![[Events#^tbl-battlefield-events]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Events#^tbl-battlefield-events]]
 
 ### Scenarios â€” The scenario template
-*[[Scenarios]] Â· 7 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Scenarios]] Â· 7 rows*
 
-![[Scenarios#^tbl-the-scenario-template]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Scenarios#^tbl-the-scenario-template]]
 
 ### Scenarios â€” The Twist (roll 1d6 at setup)
-*[[Scenarios]] Â· 6 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Scenarios]] Â· 6 rows*
 
-![[Scenarios#^tbl-the-twist-roll-1d6-at-setup]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Scenarios#^tbl-the-twist-roll-1d6-at-setup]]
 
 ---
 
 ## Physical
 
 ### Board Representation â€” Terrain
-*[[Board Representation]] Â· 6 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Board Representation]] Â· 6 rows*
 
-![[Board Representation#^tbl-terrain]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Board Representation#^tbl-terrain]]
 
 ### Board Representation â€” Condition & status tokens
-*[[Board Representation]] Â· 7 rows*
+*[[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Board Representation]] Â· 7 rows*
 
-![[Board Representation#^tbl-condition-status-tokens]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Board Representation#^tbl-condition-status-tokens]]
 

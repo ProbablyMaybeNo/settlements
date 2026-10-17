@@ -80,7 +80,7 @@ Each chapter has an overall status; its subsections give the more precise assess
 
 **Keywords:** Core Rules, Scenario, Optional Rules, Reference.
 
-**Sources:** [[Full Rules System v2]] §§0–1; [[Draft 2 - Simple Rules Decisions Workbook]]; historical [[Game Vision]] and [[Narrative]] for background only.
+**Sources:** [[Full Rules System v2]] §§0–1; [[Draft 2 - Simple Rules Decisions Workbook]]; historical [[Settlements/Rules System/Archived/Game Vision]] and [[Settlements/Rules System/Archived/Narrative]] for background only.
 
 ## 2 What You Need to Play
 
@@ -110,7 +110,7 @@ Each chapter has an overall status; its subsections give the more precise assess
 
 **Keywords:** Round, Activation, Trigger, Duration, Once per Round.
 
-**Sources:** [[Full Rules System v2]] §§1–3, 28.5; [[Draft 2 - Simulation Assumptions]] working ruling 1; historical [[Components]] and [[Board Representation]] for production ideas only.
+**Sources:** [[Full Rules System v2]] §§1–3, 28.5; [[Draft 2 - Simulation Assumptions]] working ruling 1; historical [[Settlements/Rules System/Archived/Components]] and [[Settlements/Rules System/Archived/Board Representation]] for production ideas only.
 
 ## 3 Characteristics and Tests
 
@@ -688,7 +688,7 @@ Each chapter has an overall status; its subsections give the more precise assess
 
 **Keywords:** Event, Trigger, Duration, Scenario Effect.
 
-**Sources:** [[Full Rules System v2]] §§1, 12.7, 27; [[Draft 2 - Keywords]] UNCONTESTED / TAGGED; historical [[Scenarios]] and [[Events]] for content options only.
+**Sources:** [[Full Rules System v2]] §§1, 12.7, 27; [[Draft 2 - Keywords]] UNCONTESTED / TAGGED; historical [[Settlements/Rules System/Archived/Scenarios]] and [[Settlements/Rules System/Archived/Events]] for content options only.
 
 # Part Four Settlements and Campaigns
 
@@ -734,7 +734,7 @@ Each chapter has an overall status; its subsections give the more precise assess
 
 **Keywords:** Structure Profile, Cost, Footprint, Power, Worker Benefit.
 
-**Sources:** [[Full Rules System v2]] §§17–22; historical [[Settlement]], [[Structures]], [[Economy]] and [[Components]] for review only.
+**Sources:** [[Full Rules System v2]] §§17–22; historical [[Settlements/Rules System/Archived/Settlement]], [[Settlements/Rules System/Archived/Structures]], [[Settlements/Rules System/Archived/Economy]] and [[Settlements/Rules System/Archived/Components]] for review only.
 
 ## 19 Running a Campaign
 
@@ -794,7 +794,7 @@ Each chapter has an overall status; its subsections give the more precise assess
 
 **Keywords:** Faction, Identity, Faction Rule, Settlement Benefit.
 
-**Sources:** [[Full Rules System v2]] §§1, 23–24, 25.5–26, 28.6; historical [[Campaign]], [[Downtime]], [[Progression]], [[Territory]] and [[Factions]] for review only.
+**Sources:** [[Full Rules System v2]] §§1, 23–24, 25.5–26, 28.6; historical [[Settlements/Rules System/Archived/Campaign]], [[Settlements/Rules System/Archived/Downtime]], [[Settlements/Rules System/Archived/Progression]], [[Settlements/Rules System/Archived/Territory]] and [[Settlements/Rules System/Archived/Factions]] for review only.
 
 # Part Five Reference and Optional Play
 
@@ -840,7 +840,7 @@ Each chapter has an overall status; its subsections give the more precise assess
 
 **Keywords:** Clarification, Specific Rule, Timing, Index.
 
-**Sources:** [[Full Rules System v2]] §§28.5, 28.7; [[Draft 2 - Keywords]]; historical [[Rulebook]], [[Components]] and [[Edge Cases]] for editorial requirements only.
+**Sources:** [[Full Rules System v2]] §§28.5, 28.7; [[Draft 2 - Keywords]]; historical [[Settlements/Rules System/Archived/Rulebook]], [[Settlements/Rules System/Archived/Components]] and [[Settlements/Rules System/Archived/Edge Cases]] for editorial requirements only.
 
 ## 21 Optional Drone Rules
 

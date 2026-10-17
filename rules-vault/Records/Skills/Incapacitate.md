@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Once per turn, make a 6-inch RANGED ATTACK using AGI and one attack die. A hit causes STUNNED; do not roll for injury.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

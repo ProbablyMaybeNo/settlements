@@ -18,4 +18,4 @@ tags: [settlements/record, settlements/settlement/structure]
 
 A controlled chokepoint: the attacker breaches it or routes around it
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Structures]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Structures]] from them.*

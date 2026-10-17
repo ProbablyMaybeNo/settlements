@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/terrain/type]
 
 Blind while inside; area counts as Concealing
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Terrain]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Terrain]] from them.*

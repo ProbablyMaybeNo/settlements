@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Once per round, when attacked in melee without being wounded, ignore the hit's effects. Subsequent attacks against this unit suffer -4 to injure until the end of the turn.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

@@ -6,22 +6,22 @@ tags: [settlements/reference]
 # Keywords
 
 ## UNANSWERED
-Resolve the normal melee hit-cancellation exchange in [[Melee]]. Only the initiating unit can inflict injuries: defender hits cancel attacker hits, but surplus defender hits cause no injury, Stress or Pinned. No automatic return attack follows. Explicit skill counterattacks remain separate exceptions.
+Resolve the normal melee hit-cancellation exchange in [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Melee]]. Only the initiating unit can inflict injuries: defender hits cancel attacker hits, but surplus defender hits cause no injury, Stress or Pinned. No automatic return attack follows. Explicit skill counterattacks remain separate exceptions.
 
 ## DUAL WIELDING
-Any unit may attack with two eligible 1 HANDED weapons. Choose a dominant weapon before rolling: use its normal attack dice and one die from the off-hand, without an accuracy penalty. Each die retains its source weapon's damage, traits and range. Combined shooting is one attack and one SHOOT action; target one enemy unless a rule allows splitting. Melee hit cancellation and weapon allocation follow [[Melee]].
+Any unit may attack with two eligible 1 HANDED weapons. Choose a dominant weapon before rolling: use its normal attack dice and one die from the off-hand, without an accuracy penalty. Each die retains its source weapon's damage, traits and range. Combined shooting is one attack and one SHOOT action; target one enemy unless a rule allows splitting. Melee hit cancellation and weapon allocation follow [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Melee]].
 
 ## AGILE
 A weapon with AGILE permits AGI instead of STR for melee. It does not change Damage. This is the current name for the weapon characteristic formerly called Balanced. Ambidextrous requires BOTH weapons to have AGILE; Goliath alone does not supply it.
 
 ## AURA
-A passive area effect centred on its source. A unit maintains one active aura; it ends when replaced or the source is DOWNED. Big Aura permits two and extends each range by 3 inches. Self-inclusion, LOS and other ending conditions require the shared ruling listed in [[Skill Integration Decisions]].
+A passive area effect centred on its source. A unit maintains one active aura; it ends when replaced or the source is DOWNED. Big Aura permits two and extends each range by 3 inches. Self-inclusion, LOS and other ending conditions require the shared ruling listed in [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skill Integration Decisions]].
 
 ## STRESS TRANSFER
 Only transfer Stress that the recipient can actually accept under its maximum. Excess stays on the original unit. Transfer does not create or erase points.
 
 ## GRAPPLED
-The held unit cannot act or react normally. At the start of its activation, make an opposed STR escape test against the holder; success releases it, failure leaves it held. The holder moves at half MOVE unless Strong Arm applies. Grapple includes Meat Shield: incoming shooting targeting the holder or a friendly within 2 inches requires an unmodified d20 Luck roll, 10+ to hit the intended target, otherwise the held unit. Shooting resolution order and the proposed Crush follow-up are unresolved; see [[Skill Integration Decisions]]. No new Luck stat is created.
+The held unit cannot act or react normally. At the start of its activation, make an opposed STR escape test against the holder; success releases it, failure leaves it held. The holder moves at half MOVE unless Strong Arm applies. Grapple includes Meat Shield: incoming shooting targeting the holder or a friendly within 2 inches requires an unmodified d20 Luck roll, 10+ to hit the intended target, otherwise the held unit. Shooting resolution order and the proposed Crush follow-up are unresolved; see [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skill Integration Decisions]]. No new Luck stat is created.
 
 ## STUNNED
 Lose current action points and cannot Ready or react until the start of the unit's next activation. This does not itself cancel the next activation's normal refresh.
@@ -33,7 +33,7 @@ A terminal disabled by Interrupt cannot be used until the end of the next turn. 
 Reserved keyword for Tagged. The proposed meaning is no enemy within objective control range; Ross required a shared keyword entry but has not finalised that definition. Until ruled, agree the interpretation before using Tagged.
 
 ## TAGGED
-An objective controlled remotely through Tagged remains controlled until captured by an enemy. At most one per crew. Replacing an existing tag and normal contested scoring require the ruling in [[Skill Integration Decisions]].
+An objective controlled remotely through Tagged remains controlled until captured by an enemy. At most one per crew. Replacing an existing tag and normal contested scoring require the ruling in [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skill Integration Decisions]].
 
 ## MARKED
 Use Mark Target's range, +2 friendly shooting bonus and expiry. Its latest text permits targeting a Hidden enemy at range; the earlier thread proposal removed Hidden entirely. That interaction is unresolved, not both benefits automatically combined.

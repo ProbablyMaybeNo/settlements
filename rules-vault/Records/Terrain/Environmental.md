@@ -17,4 +17,4 @@ tags: [settlements/record, settlements/terrain/type]
 
 
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Terrain]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Terrain]] from them.*

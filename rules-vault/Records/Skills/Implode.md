@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Increase maximum STRESS by 2. Once per turn before a MELEE ATTACK, remove up to half this unit's STRESS, rounding down. Gain +1 to hit and injure for that attack per point removed.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

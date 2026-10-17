@@ -6,7 +6,7 @@ tags: [settlements/scope]
 # 🚫 Out of Scope — What Settlements is NOT
 
 > [!warning] Read this before adding ANY rule
-> This is the scope guard. If a proposed rule fights something in **§1 Hard anti-goals**, don't add it — it breaks the game's identity. If it's in **§2 Parked**, it's *not now*, not *never*. Anchored to [[Game Vision]] and the ranked tenets in [[Rules System MOC]].
+> This is the scope guard. If a proposed rule fights something in **§1 Hard anti-goals**, don't add it — it breaks the game's identity. If it's in **§2 Parked**, it's *not now*, not *never*. Anchored to [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Game Vision]] and the ranked tenets in [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules System MOC]].
 > **Convention:** ⚠️ = a call I'm proposing — you confirm or cut it.
 
 ---
@@ -27,14 +27,14 @@ Things that would make Settlements a different game. Guard these.
 Deferred deliberately. These are *paused*, not rejected — revisit after the Final Alpha.
 
 - The **advanced/parking-lot rules** already logged: [[adv-001 Vehicles]] · [[adv-002 Drones]] · [[adv-003 Civilians and non-combatants]] · [[adv-004 Weather and climate]] · [[adv-005 Campaign rules]].
-- **Solo / co-op / PvPvE** — designed *after* the 2-player core works ([[Solo & Co-op]]).
+- **Solo / co-op / PvPvE** — designed *after* the 2-player core works ([[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Solo & Co-op]]).
 - **3+ player** board/format rules — 2p is the design target first.
-- Anything that fails the rule: *don't deepen a system until the [[Final Alpha]] slice plays.*
+- Anything that fails the rule: *don't deepen a system until the [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Final Alpha]] slice plays.*
 
 ## 3 · Complexity ceiling (enforces "Crunchy not Concrete")
 Concrete limits so crunch never becomes bloat. ⚠️ *numbers are proposals — set them deliberately.*
 
-- **One core dice mechanic**, reused everywhere. No per-system bespoke resolutions. *(See [[Rules Engine]].)*
+- **One core dice mechanic**, reused everywhere. No per-system bespoke resolutions. *(See [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules Engine]].)*
 - **A fighter activates in under a minute.** If a rule can't resolve that fast, simplify it.
 - **Modifier cap ±3** — never stack endless modifiers.
 - **~2 activations per fighter.** No sprawling action-point economies.
@@ -48,9 +48,9 @@ When you say "no" to something, record it here with *why* — so it doesn't cree
 |---|---|---|---|
 | _(example)_ Per-shot ammo tracking | Rejected | Violates the complexity ceiling; abstracted into weapon traits | — |
 | **Veteran WND above 1** | **Allowed, hard cap WND 3** | Base 1, Level 7 advancement and Tough may increase Wounds, never beyond 3. Tough is a single-tier STR skill; acquisition is undecided. | 2026-09-25 |
-| **Seeker mine** (self-moving munition) | **Parked, not rejected** | A moving munition on a 3'×3' board is an edge-case factory — does it draw Reactions? trigger traps? get shot as a Feature? what is its facing? Revisit after the [[Edge Cases]] audit exists. Proximity and Remote carry the family fine. | 2026-08-06 |
+| **Seeker mine** (self-moving munition) | **Parked, not rejected** | A moving munition on a 3'×3' board is an edge-case factory — does it draw Reactions? trigger traps? get shot as a Feature? what is its facing? Revisit after the [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Edge Cases]] audit exists. Proximity and Remote carry the family fine. | 2026-08-06 |
 
 ^tbl-4-rejected-ideas-log
 
 ---
-*A living document — edit freely. See [[Game Vision]] · [[Rules System — Master Roadmap]] · [[Rules System MOC]].*
+*A living document — edit freely. See [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Game Vision]] · [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules System — Master Roadmap]] · [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules System MOC]].*

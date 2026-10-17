@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 When an enemy fails to hit this unit in melee, make an UNANSWERED melee counterattack against that enemy. This may trigger BLADE FURY. Counterattack recursion requires ruling.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

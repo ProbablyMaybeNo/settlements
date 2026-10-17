@@ -16,6 +16,6 @@ tags: [settlements/record, settlements/settlement/structure]
 
 # Med-bay
 
-**+1** to the post-battle Fate roll ([[Campaign#Post-battle — the Fate table]]); the **T2** tier heals scars at a Credits/Materials cost
+**+1** to the post-battle Fate roll ([[Settlements/Rules System/Archived/Campaign#Post-battle — the Fate table]]); the **T2** tier heals scars at a Credits/Materials cost
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Structures]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Structures]] from them.*

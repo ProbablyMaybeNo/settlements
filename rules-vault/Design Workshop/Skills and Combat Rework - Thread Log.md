@@ -12,7 +12,7 @@ tags:
 # Skills and Combat Rework — Thread Log
 
 > [!important] Design history — current skills now integrated
-> On 2026-09-25 Ross authorised replacing the live skill system. The canonical list is [[Rules System/Skills]]; this log preserves prior discussion and superseded proposals. Acquisition is explicitly undecided. The broader core mechanics remain subject to the integration decisions note.
+> On 2026-09-25 Ross authorised replacing the live skill system. The canonical list is [[Settlements/Rules System/Archived/Skills]]; this log preserves prior discussion and superseded proposals. Acquisition is explicitly undecided. The broader core mechanics remain subject to the integration decisions note.
 
 > Earlier boundary, retained for history:
 > This note tracks the discussion in this Codex task. It is outside `Rules System/` and does not amend the master, rules records, ledger, or roadmap. Decisions here are workshop directions until Ross explicitly authorises integration. The vault's scheduled mirror may copy this file into the repository; that does not make it authoritative.
@@ -58,7 +58,7 @@ Ross wanted tangible, consistent categories explaining how units gain capabiliti
 - **Advancements:** permanent positive changes to stats, Wounds, and movement, plus character development.
 - **Injuries:** lasting penalties and narrative consequences, with explicit recovery where relevant.
 
-The separate existing [[Rules System/Modifier Design Framework|Modifier Design Framework]] records an earlier version of those boundaries. It has not been changed by this discussion.
+The separate existing [[Settlements/Rules System/Archived/Modifier Design Framework|Modifier Design Framework]] records an earlier version of those boundaries. It has not been changed by this discussion.
 
 ### Revised skill identity — supersedes the strict original restriction
 
@@ -1136,9 +1136,9 @@ Ross deliberately uses three designer-only archetypes plus extra flex; no player
 
 ## Integration authorised — 2026-09-25
 
-Ross accepted the assistant's final NERVE roster with HOLD FAST changed to flat -2 incoming injury rolls, regardless of cover. The fifteen are Inspire, Rally, Motivate, Sin Eater, Implode, Last Laugh, Hold Fast, Menacing, Lean on Me, Roar, On Your Feet, Commanding Presence, Beta Blocker, Unflinching and Big Aura. They are recorded in [[Rules System/Skills#NRV]].
+Ross accepted the assistant's final NERVE roster with HOLD FAST changed to flat -2 incoming injury rolls, regardless of cover. The fifteen are Inspire, Rally, Motivate, Sin Eater, Implode, Last Laugh, Hold Fast, Menacing, Lean on Me, Roar, On Your Feet, Commanding Presence, Beta Blocker, Unflinching and Big Aura. They are recorded in [[Settlements/Rules System/Archived/Skills#NRV]].
 
-Ross authorised archiving all previous skill-system entries and integrating the 75-skill replacement. Old skill material is archived. Skill acquisition is explicitly undecided, following his answer during integration. [[Skill Integration Decisions]] records remaining mechanics; this is not a claim of completed balance testing or a finished playable engine.
+Ross authorised archiving all previous skill-system entries and integrating the 75-skill replacement. Old skill material is archived. Skill acquisition is explicitly undecided, following his answer during integration. [[Settlements/Rules System/Archived/Skill Integration Decisions]] records remaining mechanics; this is not a claim of completed balance testing or a finished playable engine.
 
 
 ## Second Draft decision record — 2026-09-27

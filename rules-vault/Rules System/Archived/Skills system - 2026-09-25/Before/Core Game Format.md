@@ -12,8 +12,8 @@ tags: [settlements/phase, settlements/stage/s1]
 # 02 · Core Game Format
 > **S1 Foundation** · status **Drafted** · build order **2**
 
-**Depends on:** [[Game Vision]]
-**Feeds into:** [[Rules Engine]], [[Settlement]]
+**Depends on:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Game Vision]]
+**Feeds into:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules Engine]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement]]
 **Raw dependency (from Notion):** Vision
 
 ## Focus
@@ -40,9 +40,9 @@ core Format — Working Rules / Decisions
 
   The game ends after 6 rounds or immediately when a scenario objective is completed.
 
-- Victory Structure: **Objective-driven** — the battle is won on scenario **objectives, never on kills** ([[Scenarios]]). The crew ahead on objectives at the end of the game wins; you fight because the enemy is standing on your objective, not to run up a body count.  
+- Victory Structure: **Objective-driven** — the battle is won on scenario **objectives, never on kills** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Scenarios]]). The crew ahead on objectives at the end of the game wins; you fight because the enemy is standing on your objective, not to run up a body count.  
 
-  Players earn Resources from **scenario-defined sources** — these vary from scenario to scenario and may include completing **objectives**, scoring **kills**, control/extraction, or landing a **Glorious Deed**: a high-risk signature feat in the spirit of Trench Crusade ([[Campaign#Glorious Deeds]]).  
+  Players earn Resources from **scenario-defined sources** — these vary from scenario to scenario and may include completing **objectives**, scoring **kills**, control/extraction, or landing a **Glorious Deed**: a high-risk signature feat in the spirit of Trench Crusade ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign#Glorious Deeds]]).  
 
   Resources are **campaign earnings, not the win metric** — banked regardless of who won the battle, so both crews profit from every fight and killing still *pays* toward your settlement even when it doesn't *win*.  
 
@@ -55,7 +55,7 @@ core Format — Working Rules / Decisions
   Tactical withdrawal and resource extraction remain valid, often optimal strategies.
 
 > [!check] "Glorious Deed" is the final term, and the list is drafted — 2026-08-05
-> The name stuck, and the ten deeds plus the once-per-fighter-per-battle limit are written up in [[Campaign#Glorious Deeds]] ([[Full Rules System v1]] §26.2). What a Deed *pays* is a **Level trigger** ([[Progression]]) rather than a separate resource line, and each **territory card** adds **1–5** location-themed Deeds of its own ([[Territory]]).
+> The name stuck, and the ten deeds plus the once-per-fighter-per-battle limit are written up in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign#Glorious Deeds]] ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §26.2). What a Deed *pays* is a **Level trigger** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]]) rather than a separate resource line, and each **territory card** adds **1–5** location-themed Deeds of its own ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Territory]]).
 
 - Miniatures: Compatible with any modern 28mm-scale miniatures.  
 
@@ -70,4 +70,4 @@ core Format — Working Rules / Decisions
 _none_
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 When declaring a CHARGE, test STR. On success, pass through non-LOS-blocking scatter, obstacles and barricades. Enemies contacted test AGI; on failure, push them 2 inches in your chosen direction and PIN them. Cannot pass reinforced doors, buildings or LOS-blocking structures.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

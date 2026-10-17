@@ -11,8 +11,8 @@ tags: [settlements/phase, settlements/stage/s2]
 # 07 · Movement
 > **S2 Core Combat** · status **Drafted** · build order **6**
 
-**Depends on:** [[Unit Design]]
-**Feeds into:** [[Shooting]], [[Melee]], [[Terrain]], [[Edge Cases]]
+**Depends on:** [[Settlements/Rules System/Archived/Unit Design]]
+**Feeds into:** [[Settlements/Rules System/Archived/Shooting]], [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Melee]], [[Settlements/Rules System/Archived/Terrain]], [[Settlements/Rules System/Archived/Edge Cases]]
 **Raw dependency (from Notion):** Unit Design
 
 ## Focus
@@ -29,27 +29,27 @@ The Rules column should nail down:
 ## Inherits from the engine
 > [!info] Recall — baseline move and the measuring conventions are fixed by the engine (S1). Build run/charge/climb/fall on top; don't contradict these.
 
-![[Rules Engine#House Conventions]]
+![[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Rules Engine#House Conventions]]
 
 ## Working rules / decisions
 
 ### Basic move
 The **Move** slot moves up to **MOV"** (baseline 6"), any direction, around obstacles. It can't be split around the Action, and a unit is never forced to move.
 
-**Facing:** when you Move (including Charge / Sprint / Disengage), place the model facing its final direction as part of that move. You may also spend the **Move** slot to **change facing only** — no displacement — to aim your 180° arc ([[Rules Engine#House Conventions]]). Facing does not affect melee.
+**Facing:** when you Move (including Charge / Sprint / Disengage), place the model facing its final direction as part of that move. You may also spend the **Move** slot to **change facing only** — no displacement — to aim your 180° arc ([[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Rules Engine#House Conventions]]). Facing does not affect melee.
 
-> [!info] **Movement draws fire.** A Move that covers **more than half your MOV"** and ends in an enemy's LOS can be **reacted to** (Snap Shot, etc. — [[Initiative & Activation#Reaction triggers]]). A short shuffle (**≤ half MOV"**) does not trigger — creep to reposition safely, Sprint to cross ground fast at the risk of reaction fire.
+> [!info] **Movement draws fire.** A Move that covers **more than half your MOV"** and ends in an enemy's LOS can be **reacted to** (Snap Shot, etc. — [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Initiative & Activation#Reaction triggers]]). A short shuffle (**≤ half MOV"**) does not trigger — creep to reposition safely, Sprint to cross ground fast at the risk of reaction fire.
 
 ### Sprint & Charge
 - **Sprint** (both slots): move up to **2× MOV"** — nothing else — no Shoot, no Ready. You may set facing at the end.
-- **Charge** (both slots): move **MOV x2** into base contact, then a free melee attack at **+1** (see [[Melee]]). Declaring a Charge needs the target in your forward 180° + true LOS; once Engaged, facing no longer matters.
+- **Charge** (both slots): move **MOV x2** into base contact, then a free melee attack at **+1** (see [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Melee]]). Declaring a Charge needs the target in your forward 180° + true LOS; once Engaged, facing no longer matters.
 
 ### Terrain movement
 Open ground, marked stairs, and clear paths are normal movement — no test.
 
 **Low leap** — leaping over an obstacle **under 2" tall** needs **no AGI test**, but always costs **2"** from your Move allowance for that activation (flat cost — a 6" curb and an 18" rail both cost 2"). Measure height at the narrowest point you cross.
 
-**Athletic traversal** (everything else) uses an **AGI** test (`1d10 + AGI + mods` vs **7+**), paid from the **Move** slot (counts against MOV). These are **not** Interact Actions — see [[Terrain Interaction]] for STR/DEX/INT verbs.
+**Athletic traversal** (everything else) uses an **AGI** test (`1d10 + AGI + mods` vs **7+**), paid from the **Move** slot (counts against MOV). These are **not** Interact Actions — see [[Settlements/Rules System/Archived/Terrain Interaction]] for STR/DEX/INT verbs.
 
 | Maneuver | When | On fail |
 |---|---|---|
@@ -61,9 +61,9 @@ Open ground, marked stairs, and clear paths are normal movement — no test.
 ^tbl-terrain-movement
 
 - No job-difficulty modifiers — only skills, conditions, **Shaken**, etc.
-- Skills alter movement only as printed: **Acrobatic, Quick, Sneak, Sprinter** — [[Skills#AGI]].
-- Difficult ground costs double movement. *(exact categories in [[Terrain]].)*
-- Fall damage / fall tests → [[Terrain]] (verticality).
+- Skills alter movement only as printed: **Acrobatic, Quick, Sneak, Sprinter** — [[Settlements/Rules System/Archived/Skills#AGI]].
+- Difficult ground costs double movement. *(exact categories in [[Settlements/Rules System/Archived/Terrain]].)*
+- Fall damage / fall tests → [[Settlements/Rules System/Archived/Terrain]] (verticality).
 
 ### Disengaging
 Breaking away from melee is a **Disengage** — it uses your **Move** slot (a normal move, not your whole activation):
@@ -78,4 +78,4 @@ Breaking away from melee is a **Disengage** — it uses your **Move** slot (a no
 - [[core-001 Movement]]
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

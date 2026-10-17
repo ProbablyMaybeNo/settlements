@@ -19,4 +19,4 @@ tags: [settlements/record, settlements/settlement/structure]
 
 Bulk storage for **Credits and Materials** above the HQ's base cap. **The loot target in a raid**
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Structures]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Structures]] from them.*

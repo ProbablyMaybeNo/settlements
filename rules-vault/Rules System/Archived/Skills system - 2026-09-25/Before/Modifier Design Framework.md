@@ -9,7 +9,7 @@ tags: [settlements/design, settlements/modifiers]
 # Settlements — Modifier Design Framework
 
 > [!important] Design direction, pending integration
-> This note records the framework developed with Ross, including the revised Equipment boundary. It guides future design; it does not automatically replace existing rules or grant the example effects below. [[Full Rules System v1]] remains the authority for play until specific changes are reviewed and propagated.
+> This note records the framework developed with Ross, including the revised Equipment boundary. It guides future design; it does not automatically replace existing rules or grant the example effects below. [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] remains the authority for play until specific changes are reviewed and propagated.
 
 ## Purpose and Category Identities
 
@@ -130,9 +130,9 @@ Place an effect in the category that owns its direct purpose. Equipment is the e
 - [x] Record the six tangible categories and their design boundaries.
 - [x] Define Equipment as limited-use access to cross-category effects whose benefits do not persist between games.
 - [ ] Audit existing Skills, Weapons, Armour, Equipment, and campaign rules against the framework before changing their live wording.
-- [ ] Resolve existing exceptions, including Tough granting +1 WND in [[Full Rules System v1]]. This framework does not remove Tough or alter the current WND ceiling.
+- [ ] Resolve existing exceptions, including Tough granting +1 WND in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]]. This framework does not remove Tough or alter the current WND ceiling.
 - [ ] Decide whether medical Equipment may permanently remove a campaign Injury. No such exception is adopted here.
 - [ ] Confirm item-by-item replenishment and whether unspent items remain on the roster; expiry of benefits alone does not decide inventory retention.
 - [ ] Propagate any subsequently adopted mechanical changes through the master, satellite notes, ledger, and relevant catalogues.
 
-Related: [[Full Rules System v1]] · [[Weapons]] · [[Skill Paths]] · [[Unit Design]] · [[Progression]] · [[Conditions]] · [[Rules System — Master Roadmap]]
+Related: [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] · [[Weapons]] · [[Skill Paths]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Unit Design]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Conditions]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System — Master Roadmap]]

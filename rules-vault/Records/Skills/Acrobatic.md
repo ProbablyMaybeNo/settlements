@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Climb scalable structures without climbing gear or access points. Climbing costs movement equal to half the structure's height.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

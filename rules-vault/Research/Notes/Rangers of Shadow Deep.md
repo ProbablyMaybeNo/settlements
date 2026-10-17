@@ -39,7 +39,7 @@ A Ranger is **10 Build Points** on a fixed base (M6 F+2 S+1 A10 W+4 H18) **[FACT
 
 **Why it works.** That is what forces a real choice: **you cannot max any two categories.** A budget with sub-caps that sum to the budget isn't a choice at all — it's a checklist. Over-subscribing by ~60% means every build is a genuine trade, and no two Rangers look alike, without a single restriction rule.
 
-**For Settlements.** Directly applicable to unit creation in [[Unit Design]] and to the [[Ideas Inbox]] want to *"push each unit toward a specific archetype."* Our rank tier caps at creation (Fighter 2×T1, Specialist 1×T2 + 2×T1, Leader 1×T3 + 2×T2 + 4×T1) are already this shape — **worth checking the arithmetic: do the caps sum to more than the stat points available?** If they sum to exactly the budget, they're doing no work.
+**For Settlements.** Directly applicable to unit creation in [[Settlements/Rules System/Archived/Unit Design]] and to the [[Ideas Inbox]] want to *"push each unit toward a specific archetype."* Our rank tier caps at creation (Fighter 2×T1, Specialist 1×T2 + 2×T1, Leader 1×T3 + 2×T2 + 4×T1) are already this shape — **worth checking the arithmetic: do the caps sum to more than the stat points available?** If they sum to exactly the budget, they're doing no work.
 
 ---
 ## The archetype pattern
@@ -50,7 +50,7 @@ A fixed base profile plus a small, hard-capped build-point spend. **Identity com
 
 **Why it works.** It gets you distinguishable, recognisable character types with **no faction rules to write, balance, or errata.** The "Stealth Ranger" and the "Beast Master Ranger" are emergent, not enumerated — and a player who invents a fifth archetype nobody designed is playing the game correctly.
 
-**For Settlements.** Worth weighing against the enumerated-faction approach in [[Factions]] (framework + six-faction roster adopted, names still open). These aren't exclusive: **archetypes can carry the unit-level identity while factions carry the crew-level identity** — which is exactly the split the [[Ideas Inbox]] is circling with drone-operator and specialist builds.
+**For Settlements.** Worth weighing against the enumerated-faction approach in [[Settlements/Rules System/Archived/Factions]] (framework + six-faction roster adopted, names still open). These aren't exclusive: **archetypes can carry the unit-level identity while factions carry the crew-level identity** — which is exactly the split the [[Ideas Inbox]] is circling with drone-operator and specialist builds.
 
 ---
 ## Recruitment points cannot be banked
@@ -61,7 +61,7 @@ Companions are bought with **Recruitment Points, recalculated before every missi
 
 **Why it works.** **Nothing carries over, so nothing compounds.** There is no treasury to hoard, no wealth gap to open between sessions, and no bookkeeping between missions. It's the strongest possible answer to the snowball problem — and it's only available because companions are *hired*, not *owned*.
 
-**For Settlements — the honest read.** We can't take this wholesale: **persistent, owned, named crew members are the point of the game** ([[Progression]]). But the *shape* is worth having somewhere. A per-battle allowance that resets — hired hands, mercenaries, a militia levy drawn from the settlement's population — would give us a non-compounding force component alongside the persistent one, which is a lever we currently don't have. Compare [[Trench Crusade#The published threshold ladder]] (cap the total) and [[Necromunda and Mordheim#Play frequency beats skill]] (the problem it solves).
+**For Settlements — the honest read.** We can't take this wholesale: **persistent, owned, named crew members are the point of the game** ([[Settlements/Rules System/Archived/Progression]]). But the *shape* is worth having somewhere. A per-battle allowance that resets — hired hands, mercenaries, a militia levy drawn from the settlement's population — would give us a non-compounding force component alongside the persistent one, which is a lever we currently don't have. Compare [[Trench Crusade#The published threshold ladder]] (cap the total) and [[Necromunda and Mordheim#Play frequency beats skill]] (the problem it solves).
 
 ---
 ## Scale the players, not the enemies
@@ -79,11 +79,11 @@ Companions are bought with **Recruitment Points, recalculated before every missi
 
 **Why it works.** **Difficulty is tuned on the side you control**, which is the side whose numbers you can actually reason about. Scaling enemies means re-balancing every scenario for every party size; scaling the party means writing each scenario once. And the *activation* cap doing separate work from the *recruitment* cap is the same two-dial discipline seen in [[Trench Crusade#Two dials per item — price and LIMIT]] — how many you have and how many you can use are different questions.
 
-**For Settlements.** [[Solo & Co-op]] is one of the three remaining gaps in the campaign layer (with [[Narrative]] and [[Diplomacy]]). **This is the cheapest known architecture for it** — no AI opponent to design, no scenario re-balancing, and it works with the scenarios we already have.
+**For Settlements.** [[Settlements/Rules System/Archived/Solo & Co-op]] is one of the three remaining gaps in the campaign layer (with [[Settlements/Rules System/Archived/Narrative]] and [[Settlements/Rules System/Archived/Diplomacy]]). **This is the cheapest known architecture for it** — no AI opponent to design, no scenario re-balancing, and it works with the scenarios we already have.
 
 ---
 ## Source
 
 - Primary: Rangers of Shadow Deep rulebook PDF, read directly
 - Long-form: `docs/POINTS-RESEARCH.md` §7.13
-- Related: [[Wargaming Research Hub]] · [[Frostgrave and Stargrave]] and [[Oathmark]] (same designer) · [[Solo & Co-op]] · [[Unit Design]] · [[Factions]]
+- Related: [[Wargaming Research Hub]] · [[Frostgrave and Stargrave]] and [[Oathmark]] (same designer) · [[Settlements/Rules System/Archived/Solo & Co-op]] · [[Settlements/Rules System/Archived/Unit Design]] · [[Settlements/Rules System/Archived/Factions]]

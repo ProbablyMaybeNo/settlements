@@ -9,7 +9,7 @@ tags: [settlements/design, settlements/weapons, settlements/basic-weapons]
 # Settlements — Basic Weapon System
 
 > [!important] Design draft, pending integration
-> This note defines the basic weapon construction system and the characteristics available to ordinary weapons. It records the current design decisions; it does not by itself replace the weapon rules in [[Full Rules System v1]]. Any adopted mechanical change must be propagated to the master note, weapon catalogue, costing engine, and relevant ledger cards.
+> This note defines the basic weapon construction system and the characteristics available to ordinary weapons. It records the current design decisions; it does not by itself replace the weapon rules in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]]. Any adopted mechanical change must be propagated to the master note, weapon catalogue, costing engine, and relevant ledger cards.
 
 ## 1. Weapon construction
 
@@ -150,6 +150,6 @@ These examples show how classes and characteristics combine. They are constructi
 - [x] Reload defined as one Action before the weapon can fire again.
 - [ ] Confirm exact numeric values for every characteristic.
 - [ ] Assemble the final named weapon catalogue and Credits costs.
-- [ ] Propagate adopted values to [[Full Rules System v1]], [[Weapons]], the costing engine, and the Rules Ledger.
+- [ ] Propagate adopted values to [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]], [[Weapons]], the costing engine, and the Rules Ledger.
 
-Related: [[Modifier Design Framework]] · [[Full Rules System v1]] · [[Weapons]] · [[Skill Paths]] · [[Damage]] · [[Conditions]] · [[Rules System — Master Roadmap]]
+Related: [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Modifier Design Framework]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] · [[Weapons]] · [[Skill Paths]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Damage]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Conditions]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System — Master Roadmap]]

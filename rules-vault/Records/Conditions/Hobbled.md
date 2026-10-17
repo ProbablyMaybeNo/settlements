@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/combat/condition]
 
 **−2" MOV**. **Persists until cleared:** spend your **Move** slot to shed it (you keep your Action), exactly as you would shake off **Pinned**.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

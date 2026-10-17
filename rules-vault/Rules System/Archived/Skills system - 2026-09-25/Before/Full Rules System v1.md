@@ -68,7 +68,7 @@ tags:
 > shipping prices: `docs/POINTS-CATALOGUE.md` · decisions log: `docs/POINTS-DECISIONS.md`.
 > Consistency guard: `py -3.13 scripts/check_rules_consistency.py`.
 
-> **Revised 2026-09-19 — Basic Weapon System integrated.** The current player-facing weapon construction rules now live in [[Basic Weapon System]], with [[Weapons]] retained as the stable entry point. The former weapon note and superseded construction text are archived for reference. The current system uses seven classes, modular characteristics, and named weapon builds; it does not adopt Reach or Deadly / Automatic Down as basic characteristics.
+> **Revised 2026-09-19 — Basic Weapon System integrated.** The current player-facing weapon construction rules now live in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Basic Weapon System]], with [[Weapons]] retained as the stable entry point. The former weapon note and superseded construction text are archived for reference. The current system uses seven classes, modular characteristics, and named weapon builds; it does not adopt Reach or Deadly / Automatic Down as basic characteristics.
 
 # Settlements — Full Rules System v1
 
@@ -585,18 +585,18 @@ Skills are the **third lever**: stats decide if you hit, weapons decide how bad,
 
 ## 15 · Weapons — Basic Weapon System **[CURRENT DESIGN · 2026-09-19]**
 
-The current basic weapon system is defined in [[Basic Weapon System]] and entered through [[Weapons]]. Every weapon is built by selecting a class, choosing values inside that class's Damage and Range envelope, adding legal characteristics or drawbacks, and naming the finished build.
+The current basic weapon system is defined in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Basic Weapon System]] and entered through [[Weapons]]. Every weapon is built by selecting a class, choosing values inside that class's Damage and Range envelope, adding legal characteristics or drawbacks, and naming the finished build.
 
 > [!important] Current weapon ruling
 > The seven live basic classes are **Unarmed, 1h Ranged / Sidearm, 2h Ranged, Heavy 2h Ranged, 1h Melee, 2h Melee, and Thrown**. Heavy 2h Ranged is Specialist-gated. A sniper rifle has no extra Specialist or Leader gate beyond the class it uses. Reach and Deadly / Automatic Down are not basic characteristics. Accurate and Precision are intentionally separate, overlapping accuracy options. Reload costs one Action before the weapon can fire again.
 
-![[Basic Weapon System#1. Weapon construction]]
-![[Basic Weapon System#2. Basic weapon classes]]
-![[Basic Weapon System#3. Basic weapon characteristics]]
-![[Basic Weapon System#4. Basic weapon examples]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Basic Weapon System#1. Weapon construction]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Basic Weapon System#2. Basic weapon classes]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Basic Weapon System#3. Basic weapon characteristics]]
+![[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Basic Weapon System#4. Basic weapon examples]]
 
 > [!warning] Historical text below
-> The former construction and pricing text is retained below for audit history only. It is superseded by [[Basic Weapon System]] and must not be used to resolve a rules conflict. The prior satellite note is archived at [[Archived/Weapons — superseded 2026-09-19]].
+> The former construction and pricing text is retained below for audit history only. It is superseded by [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Basic Weapon System]] and must not be used to resolve a rules conflict. The prior satellite note is archived at [[Archived/Weapons — superseded 2026-09-19]].
 
 <details>
 <summary>Archived weapon-system text — superseded 2026-09-19</summary>

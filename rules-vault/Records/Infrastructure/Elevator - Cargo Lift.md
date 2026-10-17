@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/terrain/feature]
 
 *Mobility · Change Elevation*. Raise/lower a platform between levels, carrying models on it. A vertical shortcut either crew can recall to their level.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Infrastructure]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Infrastructure]] from them.*

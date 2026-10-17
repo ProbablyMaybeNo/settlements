@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/combat/condition]
 
 the **ranged** non-wound result (suppression, not injury). **Cannot Move, Charge, Sprint or Disengage**; must spend its **Move** to clear before it can reposition, but may still **Shoot or Interact**. Persists until cleared; applying it gives **+1 Stress**. *(A non-wounding **melee** blow gives Stress → **Shaken** instead — you can't pin someone you're engaged with.)*
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

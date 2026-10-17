@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Make an opposed STR test against an enemy within 1 inch. On success, it becomes GRAPPLED; see Keywords for holding, escape and Meat Shield.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

@@ -12,6 +12,6 @@ tags: [settlements/record, settlements/combat/condition]
 
 # Fight
 
-*skill-induced only* (e.g. Fanatic, [[Skills]]): instead of cracking, the unit must move by the shortest route toward the nearest visible enemy on its next activation and attack it if able. It cannot Hide, detour for cover, or move away from that enemy.
+*skill-induced only* (e.g. Fanatic, [[Settlements/Rules System/Archived/Skills]]): instead of cracking, the unit must move by the shortest route toward the nearest visible enemy on its next activation and attack it if able. It cannot Hide, detour for cover, or move away from that enemy.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

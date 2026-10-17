@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/terrain/feature]
 
 *Utilities · bounded hazard*. The one overt hazard feature — industrial and believable. Activate to run it: a model inside the compactor zone takes **CRUSH**. Scenario-flagged, controlled, never passive.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Infrastructure]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Infrastructure]] from them.*

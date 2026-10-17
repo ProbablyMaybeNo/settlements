@@ -19,4 +19,4 @@ tags: [settlements/record, settlements/settlement/structure]
 
 Hardpoint. The turret **auto-deploys** — but costs Credits against your Crew Rating and keeps full fragility
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Structures]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Structures]] from them.*

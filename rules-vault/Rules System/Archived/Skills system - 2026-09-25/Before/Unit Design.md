@@ -19,8 +19,8 @@ tags:
 # 06 · Unit Design
 > **S2 Core Combat** · status **Drafted** · build order **4**
 
-**Depends on:** [[Rules Engine]]
-**Feeds into:** [[Movement]], [[Shooting]], [[Melee]], [[List Building]], [[Factions]]
+**Depends on:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules Engine]]
+**Feeds into:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Movement]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Shooting]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Melee]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Factions]]
 **Raw dependency (from Notion):** Rules Engine
 
 ## Focus
@@ -34,11 +34,11 @@ The Rules column should nail down:
 - Baseline human numbers to anchor the whole game; how champions/leaders/veterans scale above baseline.
 
 ## Inherits from the engine
-> [!info] Recall — a stat is just the modifier a fighter brings to a [[Rules Engine#Universal Resolution Mechanic|core test]]. Design every number against this ±10%-per-point curve.
+> [!info] Recall — a stat is just the modifier a fighter brings to a [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules Engine#Universal Resolution Mechanic|core test]]. Design every number against this ±10%-per-point curve.
 
 ![[core-000 Core Test#Probability]]
 
-The engine already spends these stats: **Dexterity** → ranged tests · **Strength** → melee · **Morale** → the Nerve/Morale system. Specialists and Leaders also carry the Command economy from [[Rules Engine#Universal Action Economy]].
+The engine already spends these stats: **Dexterity** → ranged tests · **Strength** → melee · **Morale** → the Nerve/Morale system. Specialists and Leaders also carry the Command economy from [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules Engine#Universal Action Economy]].
 
 ## Working rules / decisions
 
@@ -92,7 +92,7 @@ Only the **five path-stats** (STR, AGI, DEX, INT, NRV) take stat points. **WND s
 
 ### Rank vs Role
 Two separate axes — don't conflate them:
-- **Rank** = a unit's **command slot**, limited by [[List Building]]. It sets stat points, skill slots, Orders, and caps. Only **Rank** is restricted.
+- **Rank** = a unit's **command slot**, limited by [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]]. It sets stat points, skill slots, Orders, and caps. Only **Rank** is restricted.
 - **Role** = what a unit is *good at* (Brawler, Shooter, Techie, Medic…). It **emerges** from stats, [[Skill Paths|skills]], gear and scars — unlimited and narrative, and never restricts fielding.
 
 ### Ranks (build budget)
@@ -109,21 +109,21 @@ A rank grants **more stat points than a unit can spike into one stat** — **tie
 
 ^tbl-ranks-build-budget
 
-<small>*Skills are derived from the stat line — see [[Skill Paths]]. **Counts are exact, not approximate: one skill per tier a stat reaches.** The table value is the maximum, reached only when every point lands in tiered stats — a fighter who spreads into +1 "dabbles" trades skills for breadth. Costs live in [[List Building]] · [[Full Rules System v1]] §16.</small>
+<small>*Skills are derived from the stat line — see [[Skill Paths]]. **Counts are exact, not approximate: one skill per tier a stat reaches.** The table value is the maximum, reached only when every point lands in tiered stats — a fighter who spreads into +1 "dabbles" trades skills for breadth. Costs live in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §16.</small>
 
 > [!info] Starting skills depend on the **format**, not the rank alone
-> The table above is **Match Play** — a crew built for one game with no campaign attached, so it gets the richer kit. A **Campaign Start** crew is meant to *grow* through the Level track ([[Progression]]) and begins with **exactly one skill each, at the rank's own tier**: Recruit none · Fighter 1× T1 · Specialist 1× T2 · Leader 1× T3, against a **425** Crew Rating cap. **Body costs are identical in both tiers** — 70 / 100 / 145 / 185 — and the separate Campaign-Start ladder is retired; the tiers differ only in the **cap** and the **starting skill count**. Stat points, tier caps and Orders are identical in both. Full tables in [[List Building#The four ranks — two starting tiers]].
+> The table above is **Match Play** — a crew built for one game with no campaign attached, so it gets the richer kit. A **Campaign Start** crew is meant to *grow* through the Level track ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]]) and begins with **exactly one skill each, at the rank's own tier**: Recruit none · Fighter 1× T1 · Specialist 1× T2 · Leader 1× T3, against a **425** Crew Rating cap. **Body costs are identical in both tiers** — 70 / 100 / 145 / 185 — and the separate Campaign-Start ladder is retired; the tiers differ only in the **cap** and the **starting skill count**. Stat points, tier caps and Orders are identical in both. Full tables in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building#The four ranks — two starting tiers]].
 
 - **Tiers:** a path-stat at **+2 = Tier 1**, **+4 = Tier 2**, **+6 = Tier 3**. **+1 is a "dabble"** — capable, but not a tier (no skill). Max stat **+6**.
 - **The tier caps are the ceiling** — they set how many stats a rank may push to each tier, so points *must* spread. A Fighter (5 pts, max 2× T1) builds e.g. `STR+2 / INT+2 / AGI+1` — a brawler who can also hack. Only a **Leader** ever gets a **T3** (a +6 elite stat) — its signature.
 - **Skills ride the stat line:** each stat grants **one skill at every tier it reaches**, from *that stat's* path. So a **+4** stat = its **T1 *and* T2** skill; a **+6** = T1 + T2 + T3 ([[Skill Paths]]). *(Replaces the old points ÷ 2 rule.)*
-- **Recruits** are the bottom of the ladder: a body, nothing more. **No tiered stat, so no skills** — 3 points of +1 dabbles over a flat civilian baseline. They exist so a *swarm* can be fielded; chaff, screens and objective-sitters — **not** a melee force ([[List Building]]).
+- **Recruits** are the bottom of the ladder: a body, nothing more. **No tiered stat, so no skills** — 3 points of +1 dabbles over a flat civilian baseline. They exist so a *swarm* can be fielded; chaff, screens and objective-sitters — **not** a melee force ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]]).
 - **Rank is also a weapon gate** — a Recruit physically cannot hold a rifle ([[Weapons#Rank gates the class]]).
-- A **Leader is a fighter with Orders** — never benched. Rank rises only by deliberate **promotion** into an open slot ([[Progression]]), never automatically.
-- Fielding caps and costs live in [[List Building]].
+- A **Leader is a fighter with Orders** — never benched. Rank rises only by deliberate **promotion** into an open slot ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]]), never automatically.
+- Fielding caps and costs live in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]].
 
 > [!info] The rank price **is** the stat price
-> Buying a rank buys its stat points and its skills. That's why [[List Building]] never charges you separately for stats — it would be double-counting. Rank is a *bundle*.
+> Buying a rank buys its stat points and its skills. That's why [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]] never charges you separately for stats — it would be double-counting. Rank is a *bundle*.
 
 > [!check] Bodies are now **derived from the measured stat ladder** — 2026-08-19, rescaled 2026-08-20
 > The flat 15-per-stat-point is gone. Bodies compute as `body base + stat ladder + Orders premium`, on the **850-Credit** scale, and the measured ladder is **non-flat and stat-dependent**: a one-sided stat (DEX/INT/NRV) is tested against a fixed TN and **saturates** (20/15/15/10/10/5 across the six rungs), while an opposed stat (STR/AGI) cannot saturate and measures **flat at 15**. The old flat rate was wrong in *both* directions.
@@ -139,4 +139,4 @@ A rank grants **more stat points than a unit can spike into one stat** — **tie
 - [[adv-002 Drones]]
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

@@ -16,9 +16,9 @@ The current catalogue contains **75 skills: 15 each for STR, DEX, AGI, INT and N
 
 Use the named weapon's profile and ordinary action rules unless a skill explicitly changes them. A free action does not create free equipment or replenish consumables. Skill-specific exceptions permit the combinations written here; no blanket ban on bonus attacks cancels an explicit chain.
 
-Type labels describe usage, not an extra action charge. Unspecified costs and frequencies remain unresolved, not automatically free or unlimited. See [[Skill Integration Decisions]] for the finite mechanics questions still requiring decisions. Values here are the approved design list, not simulation-validated balance.
+Type labels describe usage, not an extra action charge. Unspecified costs and frequencies remain unresolved, not automatically free or unlimited. See [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skill Integration Decisions]] for the finite mechanics questions still requiring decisions. Values here are the approved design list, not simulation-validated balance.
 
-Shared definitions live in [[Keywords]]. The skills were designed for the thread's d20 revision and positive modifier cap of +6. A complete core dice/Break-table conversion has **not** been approved by selecting these skills; remaining engine conflicts are listed in [[Skill Integration Decisions]], not silently resolved with invented thresholds.
+Shared definitions live in [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Keywords]]. The skills were designed for the thread's d20 revision and positive modifier cap of +6. A complete core dice/Break-table conversion has **not** been approved by selecting these skills; remaining engine conflicts are listed in [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skill Integration Decisions]], not silently resolved with invented thresholds.
 
 ## STR
 

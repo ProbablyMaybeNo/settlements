@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/combat/condition]
 
 Every condition is one token beside the model. If a unit has no token, it has no condition — nothing is tracked in your head.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

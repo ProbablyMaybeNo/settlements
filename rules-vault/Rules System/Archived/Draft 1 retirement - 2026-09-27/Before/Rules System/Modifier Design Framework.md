@@ -9,7 +9,7 @@ tags: [settlements/design, settlements/modifiers]
 # Settlements — Modifier Design Framework
 
 > [!important] Design direction, pending integration
-> This note records the framework developed with Ross, including the revised Equipment boundary. It guides future design; it does not automatically replace existing rules or grant the example effects below. [[Full Rules System v1]] remains the authority for play until specific changes are reviewed and propagated.
+> This note records the framework developed with Ross, including the revised Equipment boundary. It guides future design; it does not automatically replace existing rules or grant the example effects below. [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Full Rules System v1]] remains the authority for play until specific changes are reviewed and propagated.
 
 ## Purpose and Category Identities
 
@@ -52,7 +52,7 @@ Always name the threat being resisted. Protection against one condition does not
 
 ## 3. Skills — Tactical identity
 
-Skills represent training, techniques and behaviours that define a unit's tactical choices. They may affect attacks, protection, movement, control and support. The current single-tier catalogue is [[Skills]]. Skills should support combinations without compulsory archetype packages. Tough and Quick are explicit characteristic-changing skills; the former blanket ban on skill offence, defence and Wounds no longer applies.
+Skills represent training, techniques and behaviours that define a unit's tactical choices. They may affect attacks, protection, movement, control and support. The current single-tier catalogue is [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]]. Skills should support combinations without compulsory archetype packages. Tough and Quick are explicit characteristic-changing skills; the former blanket ban on skill offence, defence and Wounds no longer applies.
 
 ## 4. Equipment — Limited Benefits
 
@@ -118,9 +118,9 @@ Place an effect in the category that owns its direct purpose. Equipment is the e
 - [x] Record the six tangible categories and their design boundaries.
 - [x] Define Equipment as limited-use access to cross-category effects whose benefits do not persist between games.
 - [ ] Audit existing Skills, Weapons, Armour, Equipment, and campaign rules against the framework before changing their live wording.
-- [ ] Resolve existing exceptions, including Tough granting +1 WND in [[Full Rules System v1]]. This framework does not remove Tough or alter the current WND ceiling.
+- [ ] Resolve existing exceptions, including Tough granting +1 WND in [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Full Rules System v1]]. This framework does not remove Tough or alter the current WND ceiling.
 - [ ] Decide whether medical Equipment may permanently remove a campaign Injury. No such exception is adopted here.
 - [ ] Confirm item-by-item replenishment and whether unspent items remain on the roster; expiry of benefits alone does not decide inventory retention.
 - [ ] Propagate any subsequently adopted mechanical changes through the master, satellite notes, ledger, and relevant catalogues.
 
-Related: [[Full Rules System v1]] · [[Weapons]] · [[Skills]] · [[Unit Design]] · [[Progression]] · [[Conditions]] · [[Rules System — Master Roadmap]]
+Related: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Full Rules System v1]] · [[Weapons]] · [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]] · [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Unit Design]] · [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Progression]] · [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Conditions]] · [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules System — Master Roadmap]]

@@ -1,3 +1,11 @@
+- Introduction
+- Setting/lore
+- Mission/Community
+- Requirements to play (Dice needed, tokens, minis, terrain, etc)
+
+- Core Mechanics
+  - Dice 
+
 
 ## INTRODUCTION - Setting the Scene
 

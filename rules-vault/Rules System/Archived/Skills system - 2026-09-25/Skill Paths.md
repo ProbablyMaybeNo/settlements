@@ -13,7 +13,7 @@ Every point-stat (STR, DEX, AGI, INT, NRV) is also a **skill path**. There's no 
 - A path-stat at **+2 = Tier 1 · +4 = Tier 2 · +6 = Tier 3.** (**+1 is a dabble** — capable, no tier, no skill.)
 - **Each tier a stat reaches grants one skill from that stat's path, at that tier.** So a stat at **+4** grants its **T1 *and* T2** skill; at **+6**, its **T1 + T2 + T3**.
 - You **choose** the specific skill from that path at that tier — and may take a lower-tier skill from the same path if you prefer (the tier is a ceiling). It must match the stat's path: no Combat skill on your Intelligence.
-- Pick at **crew-build** as you set the stat line, and again in a **campaign** whenever an Advance tips a stat into a new tier ([[Progression]]).
+- Pick at **crew-build** as you set the stat line, and again in a **campaign** whenever an Advance tips a stat into a new tier ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]]).
 
 So the stat line *is* the skill loadout — **spread wide** (`STR+2 / INT+2` → one Combat + one Expertise skill, a melee-hacker) or **specialise deep** (`STR+4` → two Combat skills, a master). Same count, different shape. Rank sets how far you can push it:
 
@@ -27,9 +27,9 @@ So the stat line *is* the skill loadout — **spread wide** (`STR+2 / INT+2` →
 ^tbl-how-it-works-skills-ride-the-stat-line
 
 > [!info] Two starting kits, one catalogue
-> **Match Play** (one-off game, 850 Crew Rating) takes every skill the stat line earns — those fighters never get another chance to develop. A **Campaign Start** crew (425 Crew Rating) takes **exactly one skill, at its rank's tier**, and earns the rest through the Level track ([[Progression]]) — a fully-levelled fighter ends on **four** skills, all from their Primary path. Ruled 2026-08-05, [[Full Rules System v1]] §16 · §26.1.
+> **Match Play** (one-off game, 850 Crew Rating) takes every skill the stat line earns — those fighters never get another chance to develop. A **Campaign Start** crew (425 Crew Rating) takes **exactly one skill, at its rank's tier**, and earns the rest through the Level track ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]]) — a fully-levelled fighter ends on **four** skills, all from their Primary path. Ruled 2026-08-05, [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §16 · §26.1.
 
-Only a **Leader** gets a **T3** stat (the +6 elite). Full rank rules in [[Unit Design#Ranks (build budget)]] · fielding in [[List Building]].
+Only a **Leader** gets a **T3** stat (the +6 elite). Full rank rules in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Unit Design#Ranks (build budget)]] · fielding in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]].
 
 ## The five paths
 Each path-stat has one path with three tiers. **WND and MOV have no path** — they're fixed (1 and 6"), raised only by a specific skill below. *Path names are WIP.*
@@ -54,7 +54,7 @@ Each skill fills **one tier-slot** off its stat's path — you don't pay for it 
 >dddddd- A modifier from a skill is conditional and the final modifier on any roll cannot exceed **+3 or −3**.
 > - **Difficulty is a modifier on the standard 7+ test, never a raised target number.** A harder job is **−1 / −2 / −3** (within the cap); a strong roll can grant a bonus (*"beat the target by 2+"*). No 9+/11+ targets.
 > - Unless a skill explicitly says otherwise, a fighter still makes at most **one attack per activation**.
-> - Every condition a skill applies is defined in **[[Conditions]]** — skills apply conditions, they never redefine them.
+> - Every condition a skill applies is defined in **[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Conditions]]** — skills apply conditions, they never redefine them.
 
 ## Combat / Muscle (STR)
 ### Tier 1 — Good
@@ -171,7 +171,7 @@ Each skill fills **one tier-slot** off its stat's path — you don't pay for it 
 
 ## Expertise / Knowledge (INT)
 ### Tier 1 — Good
-- **Hacker** — As an Action beside a Hackable device, pass an INT test to access data, loop a camera, silence an alarm or toggle an unlocked Powered system. Modifiers apply and an enemy may Interrupt ([[Hacking]]). *(Hacker · Objective specialist)*
+- **Hacker** — As an Action beside a Hackable device, pass an INT test to access data, loop a camera, silence an alarm or toggle an unlocked Powered system. Modifiers apply and an enemy may Interrupt ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Hacking]]). *(Hacker · Objective specialist)*
 - **Locksmith** — As an Action beside a Lockable door or container, pass an INT test to lock or unlock it without damage; hard security is **at −2**, military-grade **at −3** (still a 7+ test). *(Infiltrator · Objective specialist)*
 - **Trapper** — As an Action, arm, disarm, conceal or reposition an adjacent carried trap or terrain trap with an INT test. Searching for your concealed trap is an opposed INT test. *(Trapper · Controller)*
 - **Medic** — As an Action beside a casualty with medical supplies, pass an INT test to remove Bleed or Poison. You automatically Stabilize an adjacent Down fighter instead of making the normal Stabilize test. *(Medic · Support)*
@@ -183,11 +183,11 @@ Each skill fills **one tier-slot** off its stat's path — you don't pay for it 
 - **Read the Objective** — As an Action beside an objective, pass an INT test to learn its active defences, required interaction and whether it is trapped, alarmed, Powered, Hackable or Lockable. *(Objective specialist · Intel support)*
 
 ### Tier 2 — Great
-- **Computer Whiz** — As an Action at an accessed terminal, hack one **Linked** device on its local network ([[Hacking]] rules apply — modifiers, Interrupt). *(Hacker · Remote control)*
+- **Computer Whiz** — As an Action at an accessed terminal, hack one **Linked** device on its local network ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Hacking]] rules apply — modifiers, Interrupt). *(Hacker · Remote control)*
 - **Turret Tamer** — As an Action, hack a Linked or adjacent turret to rotate, deactivate or fire it once. Firing uses the turret's profile and counts as your one attack. *(Hacker DPS · Controller)*
 - **Lockdown** — As an Action at a terminal or control panel, pass an INT test to lock or unlock up to three Linked Lockable doors until your next activation. *(Hacker · Area controller)*
 - **Field Surgeon** — As an Action beside a Down fighter with medical supplies, pass an INT test **at −2** to restore them to 1 WND, remove Down and leave them Pinned. Each casualty can benefit once per encounter. *(Medic · Recovery support)*
-- **Counter-Hack** — When Readied at a device or terminal, **Interrupt** a hostile hack ([[Hacking]]) **without Overloading your own terminal**; the interrupted system is left **Compromised**. *(Hacker nerfer · Tech support)*
+- **Counter-Hack** — When Readied at a device or terminal, **Interrupt** a hostile hack ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Hacking]]) **without Overloading your own terminal**; the interrupted system is left **Compromised**. *(Hacker nerfer · Tech support)*
 - **Trap Relay** — As an Action, pass an INT test to link up to three armed electronic traps within 6". Until your next activation, when one linked trap triggers normally, trigger one other linked trap whose normal conditions are met. A trap triggered by Trap Relay cannot trigger this skill, and each linked trap can trigger at most once. *(Trapper · Area control)*
 - **Power Broker** — As an Action at a power control, pass an INT test to disable one Linked Powered system and activate, restore or use the printed overcharge effect of another until your next activation. *(Engineer · Hacker buffer)*
 - **Forensic Sweep** — As an Action at a body, terminal, trap or objective, pass an INT test to identify the last interaction, its direction and one tool used; **beat the target by 2+** to also reveal deliberate tampering. *(Intel support · Objective specialist)*
@@ -244,7 +244,7 @@ Each skill fills **one tier-slot** off its stat's path — you don't pay for it 
 - **Clear Heads** — When you roll a natural 10 on a Break test, each ally within 6" removes 2 Stress in addition to you clearing all Stress. *(Morale support · Stress controller)*
 
 ## Skill conditions
-Every condition and marker state a skill applies — **Grappled, Suppressed, Off-Balance, Hobbled, Provoked, Braced, Cowed, Frightened, Fight, Spotted, Jammed, Compromised, Linked** — is fully defined in **[[Conditions]]**, alongside the core combat, persistent and Nerve states. Skills only *apply* conditions; they never redefine them.
+Every condition and marker state a skill applies — **Grappled, Suppressed, Off-Balance, Hobbled, Provoked, Braced, Cowed, Frightened, Fight, Spotted, Jammed, Compromised, Linked** — is fully defined in **[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Conditions]]**, alongside the core combat, persistent and Nerve states. Skills only *apply* conditions; they never redefine them.
 
 ## Example role combinations
 - **Tank / bodyguard** — Bodyguard + Living Barricade + Take It on Me or Walk into Fire.
@@ -263,4 +263,4 @@ Every condition and marker state a skill applies — **Grappled, Suppressed, Off
 - **Morale anchor** — Rally + Talk Them Down + Unbreakable.
 
 ---
-See [[Unit Design]] · [[Progression]] · [[Rules System MOC]].
+See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Unit Design]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]].

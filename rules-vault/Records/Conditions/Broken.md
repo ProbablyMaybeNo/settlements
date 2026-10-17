@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/combat/condition]
 
 frozen; cannot act. *(fail at Stress 3.)*
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

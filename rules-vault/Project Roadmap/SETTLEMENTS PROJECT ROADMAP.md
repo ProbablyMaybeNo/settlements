@@ -7,8 +7,8 @@ tags:
 # 🗺️ Settlements — Project Roadmap
 
 The eight phases from draft to release. For the *rules-writing* build order inside
-Phase 1, see [[Rules System — Master Roadmap]]; for the rules themselves,
-[[Full Rules System v1]] and the [[_Rules Catalogue]].
+Phase 1, see [[Settlements/Rules System/Archived/Rules System — Master Roadmap]]; for the rules themselves,
+[[Settlements/Rules System/Archived/Full Rules System v1]] and the [[_Rules Catalogue]].
 
 |Phase|Name|Description|Status|
 |---|---|---|---|
@@ -29,10 +29,10 @@ _Status legend: ⚪ Not started · 🟡 In progress · 🟢 Complete_
 
 **27 of 37** rule-phase notes are Drafted. The remaining gaps, from the vault:
 
-- **Not started in S4:** [[Diplomacy]] · [[Narrative]] *(overlaps Phase 4)* · [[Solo & Co-op]]
-- **Not started in S6:** [[Balance]] · [[Components]] · [[Rulebook]] · [[Edge Cases]] · [[Playtesting]] — these are Phase 2/3 work, not Phase 1
-- **Your two named sessions:** the **regional map** extends [[Territory]] (the card and control states exist; the *map* — how territories connect, supply routes, who can attack whom — does not). **Capstone structures** would be new top-tier entries beyond the 23-structure catalogue in [[Structures]].
-- **Decisions waiting on you:** the ten unticked recommendations in `docs/SETTLEMENTS-WHOLE-SYSTEM-AUDIT.md`, and the faction *names* in [[Factions]].
+- **Not started in S4:** [[Settlements/Rules System/Archived/Diplomacy]] · [[Settlements/Rules System/Archived/Narrative]] *(overlaps Phase 4)* · [[Settlements/Rules System/Archived/Solo & Co-op]]
+- **Not started in S6:** [[Settlements/Rules System/Archived/Balance]] · [[Settlements/Rules System/Archived/Components]] · [[Settlements/Rules System/Archived/Rulebook]] · [[Settlements/Rules System/Archived/Edge Cases]] · [[Settlements/Rules System/Archived/Playtesting]] — these are Phase 2/3 work, not Phase 1
+- **Your two named sessions:** the **regional map** extends [[Settlements/Rules System/Archived/Territory]] (the card and control states exist; the *map* — how territories connect, supply routes, who can attack whom — does not). **Capstone structures** would be new top-tier entries beyond the 23-structure catalogue in [[Settlements/Rules System/Archived/Structures]].
+- **Decisions waiting on you:** the ten unticked recommendations in `docs/SETTLEMENTS-WHOLE-SYSTEM-AUDIT.md`, and the faction *names* in [[Settlements/Rules System/Archived/Factions]].
 
 ## Phase 3 already has a head start
 
@@ -52,4 +52,4 @@ What it still needs, and what a Phase 3 plan should carry:
    pure-kill missions) and FIX 5 Dodge, which the engine AI cannot currently stress.
 
 ---
-*See [[Rules System MOC]] for the rules index.*
+*See [[Settlements/Rules System/Archived/Rules System MOC]] for the rules index.*

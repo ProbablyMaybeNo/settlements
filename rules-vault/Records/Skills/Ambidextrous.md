@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 When dual wielding two 1 HANDED melee weapons that BOTH have AGILE, the off-hand contributes its full attack dice instead of one.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

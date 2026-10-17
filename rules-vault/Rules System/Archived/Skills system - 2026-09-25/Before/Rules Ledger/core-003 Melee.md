@@ -4,13 +4,15 @@ rule_id: core-003
 category: core
 status: draft
 version: v0.1
-parent_phase: "[[Melee]]"
-tags: [settlements/rule, settlements/cat/core]
+parent_phase: "[[Settlements/Rules System/Archived/Melee]]"
+tags:
+  - settlements/rule
+  - settlements/cat/core
 ---
 # core-003 · Melee
 > **core** · status **draft** · v0.1
 
-**Parent phase:** [[Melee]]
+**Parent phase:** [[Settlements/Rules System/Archived/Melee]]
 
 ## Text
 - **Engaged:** within **1"** of an enemy.
@@ -19,4 +21,4 @@ tags: [settlements/rule, settlements/cat/core]
 - Winner → **Injury roll**: pass → loser loses **1 WND** (**Out** at 0 WND); fail → loser is **Shaken** (**+1 Stress**).
 - No Charge bonus if already Engaged or just charged this fight.
 
-*Graduated from [[Melee]]. See [[Rules System MOC]].*
+*Graduated from [[Settlements/Rules System/Archived/Melee]]. See [[Settlements/Rules System/Archived/Rules System MOC]].*

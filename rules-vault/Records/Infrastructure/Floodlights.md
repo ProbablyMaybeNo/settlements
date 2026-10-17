@@ -12,6 +12,6 @@ tags: [settlements/record, settlements/terrain/feature]
 
 # Floodlights
 
-*Visibility · Clear LOS*. Light a zone: models in it **cannot be Hidden** while lit ([[Terrain#Cover]]), stripping ambush cover. Toggle on/off.
+*Visibility · Clear LOS*. Light a zone: models in it **cannot be Hidden** while lit ([[Settlements/Rules System/Archived/Terrain#Cover]]), stripping ambush cover. Toggle on/off.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Infrastructure]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Infrastructure]] from them.*

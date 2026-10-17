@@ -4,13 +4,15 @@ rule_id: core-006
 category: core
 status: draft
 version: v0.3
-parent_phase: "[[Morale]]"
-tags: [settlements/rule, settlements/cat/core]
+parent_phase: "[[Settlements/Rules System/Archived/Morale]]"
+tags:
+  - settlements/rule
+  - settlements/cat/core
 ---
 # core-006 · Morale and suppression
 > **core** · status **draft** · v0.3
 
-**Parent phase:** [[Morale]]
+**Parent phase:** [[Settlements/Rules System/Archived/Morale]]
 
 ## Text
 **Stress** tracks fear / suppression. Gain +1 when: you take a **non-wounding hit** (Pinned from ranged, Shaken from melee — the failed-Injury result), gain a negative condition, or a **friendly goes Down or Out in LOS**. A clean miss does nothing; a wounding hit wounds instead of stressing.
@@ -20,9 +22,9 @@ tags: [settlements/rule, settlements/cat/core]
   - Pass → clear all Stress.
   - Fail → Nerve state by Stress, then lose 1 Stress: **2 Bolt · 3 Broken · 4+ BugOut**.
 - Recovery otherwise comes from Bravery skills ([[Skill Paths]]). BugOut cannot be rallied after it starts.
-- **Stress survives going Down** ([[Full Rules System v1]] §§9–11, drafted 2026-08-29, **pending playtest**). A Down unit **keeps its Stress and takes no Break tests until Stabilized** — the clock stops, the pressure does not reset. Measured in [[Stress Persistence — Sim Findings]].
+- **Stress survives going Down** ([[Settlements/Rules System/Archived/Full Rules System v1]] §§9–11, drafted 2026-08-29, **pending playtest**). A Down unit **keeps its Stress and takes no Break tests until Stabilized** — the clock stops, the pressure does not reset. Measured in [[Settlements/Rules System/Archived/Stress Persistence — Sim Findings]].
 - **Surplus Attack Dice hits convert to +1 Stress each** ([[core-002 Shooting]], §15, ruled 2026-08-29) — a burst wastes nothing. With persistence in force this is where a burst's suppression actually lands.
 
 **Suppressed** (condition) = Pinned + cannot React until Pinned cleared.
 
-*Graduated from [[Morale]] / [[Conditions]]. See [[Rules System MOC]].*
+*Graduated from [[Settlements/Rules System/Archived/Morale]] / [[Settlements/Rules System/Archived/Conditions]]. See [[Settlements/Rules System/Archived/Rules System MOC]].*

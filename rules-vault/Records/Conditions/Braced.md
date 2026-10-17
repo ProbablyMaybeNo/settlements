@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/combat/condition]
 
 **+1 on Break tests**, and reduce the first Stress gained from losing a melee by 1. Ends at the start of the unit's next activation.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

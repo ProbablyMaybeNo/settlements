@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Determine CHARGE distance using MOVE plus the total of 2d6 instead of 1d6.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

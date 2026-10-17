@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Once per turn, resolve a ranged action without losing HIDDEN from firing. Other reveal triggers still apply.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

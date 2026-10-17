@@ -19,4 +19,4 @@ tags: [settlements/record, settlements/settlement/structure]
 
 **Secure** storage — small capacity, near-unbreachable. Where the irreplaceable goes
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Structures]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Structures]] from them.*

@@ -51,7 +51,7 @@ Every Rate-of-Fire point a model spends shooting drops a Noise Token on it. In t
 
 **Why it works.** One player action — firing a gun — produces two consequences from a single die roll's worth of bookkeeping: you might miss, and either way you might just have rung the dinner bell. The threat is manufactured by the players' own tactical choices rather than rolled off a neutral generator — the same instinct as [[Zona Alfa#Zone Hostiles — Threat Level spawn scaling, and a four-rule AI]]'s Threat Level track, achieved here with nothing more than a die sitting next to the model.
 
-**For Settlements.** Touches [[Initiative & Activation]] and any future noise/detection layer. If Settlements ever wants a neutral-threat or stealth system, this is the cheapest version found in the corpus so far: don't build a new spawn table, make the thing already being tracked (shots fired) double as the spawn trigger.
+**For Settlements.** Touches [[Settlements/Rules System/Archived/Initiative & Activation]] and any future noise/detection layer. If Settlements ever wants a neutral-threat or stealth system, this is the cheapest version found in the corpus so far: don't build a new spawn table, make the thing already being tracked (shots fired) double as the spawn trigger.
 
 ---
 ## Noise as an attribute, not a subsystem
@@ -93,7 +93,7 @@ Zombies never touch the human Damage Capacity math. A hit from Shooting or CQC i
 
 **Why it works.** Every hit against a zombie does something: it's dead, or it's staggered and arrives a turn later — never neither, and never both a wound that doesn't matter *and* a delay. Resolving the horde's threat through tempo (fewer AP, later arrival) rather than a hit-point race is what lets 20+ zombie models stay cheap at the table: no HP tracked on any of them, just a token count that self-clears.
 
-**For Settlements.** Close kin to our own locked tenet — *"every hit does something: a hit wounds or delivers its payload, never both, and a failed wound becomes Stress."* Last Days reaches the identical shape (binary resolution, no wasted rolls) from the opposite direction: theirs delays the enemy's turn, ours delays the enemy's nerve. Worth citing in [[Damage]] as independent validation that "every hit resolves to exactly one of two outcomes" outperforms a graduated wound track.
+**For Settlements.** Close kin to our own locked tenet — *"every hit does something: a hit wounds or delivers its payload, never both, and a failed wound becomes Stress."* Last Days reaches the identical shape (binary resolution, no wasted rolls) from the opposite direction: theirs delays the enemy's turn, ours delays the enemy's nerve. Worth citing in [[Settlements/Rules System/Archived/Damage]] as independent validation that "every hit resolves to exactly one of two outcomes" outperforms a graduated wound track.
 
 ---
 ## Breaking Point — group morale keyed to casualties taken, not damage dealt
@@ -104,7 +104,7 @@ Any turn a Group takes at least one casualty, it rolls `1D6 + total casualties t
 
 **Why it works.** Morale is a single roll for the whole Group, triggered only by a casualty, rather than a per-model check every turn — cheap at the table, and it answers "how much punishment can this crew take before it's over" as one number instead of a cascade of individual checks.
 
-**For Settlements.** Relevant to [[Morale]]. We already run individual Stress/NRV per model; Last Days runs *both* an individual fear mechanic (Sticky Horror, above) *and* this separate Group-level circuit breaker without the two colliding — evidence that a Group-level morale check can coexist with per-model Stress rather than duplicating it.
+**For Settlements.** Relevant to [[Settlements/Rules System/Archived/Morale]]. We already run individual Stress/NRV per model; Last Days runs *both* an individual fear mechanic (Sticky Horror, above) *and* this separate Group-level circuit breaker without the two colliding — evidence that a Group-level morale check can coexist with per-model Stress rather than duplicating it.
 
 ---
 ## Zero upkeep in the core game, four tracked conditions in Seasons
@@ -117,7 +117,7 @@ The optional ***Seasons*** campaign supplement — a separate, paid book — bol
 
 **Why it matters as evidence.** This is a same-designer, same-game natural experiment. Ash Barker shipped the genre-canonical **zero-upkeep** version as the core game, and only added per-resource tracking two years later as a clearly-optional hardcore module. That is a real data point that the upkeep math is overhead the designer himself judged didn't belong in the default experience.
 
-**For Settlements.** Directly bears on the already-cut Water/per-head-upkeep tenet. **[INFERENCE]** This doesn't prove the cut correct on its own, but it's the closest same-genre precedent available, and it points the same direction already chosen: ship the abstracted version, and if a "hardcore mode" is ever wanted, make it an opt-in module exactly like *Seasons* — never the default rules. Touches [[Economy]] and [[Downtime]].
+**For Settlements.** Directly bears on the already-cut Water/per-head-upkeep tenet. **[INFERENCE]** This doesn't prove the cut correct on its own, but it's the closest same-genre precedent available, and it points the same direction already chosen: ship the abstracted version, and if a "hardcore mode" is ever wanted, make it an opt-in module exactly like *Seasons* — never the default rules. Touches [[Settlements/Rules System/Archived/Economy]] and [[Settlements/Rules System/Archived/Downtime]].
 
 ---
 ## The Injury Table — one roll for maiming, capture, infection, and death
@@ -140,7 +140,7 @@ A single 2D6 table, rolled once per Out-of-Action Character at game's end, cover
 
 **Why it works.** No separate infection sub-system, no separate capture sub-system — one table resolves all of it, weighted so outright death is rare (1/36) but permanent maiming is common enough that a veteran roster visibly accumulates scars. The escalation clause — roll the *same* wound type twice and the Character dies — lets an old injury make the *next* injury roll more dangerous without a separate stacking rule.
 
-**For Settlements.** Feeds [[Progression]] directly. Our WND-2/WND-3 veteran ceiling already caps how much punishment a model carries; this table is a candidate *shape* for what happens the game a model actually goes down, rather than what gets rolled for it. The "same wound twice = dead" clause is the cheapest permadeath-with-mercy mechanic seen anywhere in this research line.
+**For Settlements.** Feeds [[Settlements/Rules System/Archived/Progression]] directly. Our WND-2/WND-3 veteran ceiling already caps how much punishment a model carries; this table is a candidate *shape* for what happens the game a model actually goes down, rather than what gets rolled for it. The "same wound twice = dead" clause is the cheapest permadeath-with-mercy mechanic seen anywhere in this research line.
 
 ---
 ## Seasons and Weather — four tables that reskin the same six Encounters
@@ -153,7 +153,7 @@ The four Season-specific Encounters (a Spring flood, a Summer wildfire, a Fall z
 
 **Why it works.** "A season" is delivered entirely as reskinned battlefield conditions plus the parallel resource-condition track (above) — it never touches the combat engine. The campaign feels different by month at zero cost to rules the players already know.
 
-**For Settlements.** A cheap template for [[Events]]' battlefield-only scope and the [[Ideas Inbox]] want for boards that feel alive: a small seasonal/weather roll before terrain set-up (an LOS cap, one moving hazard, one altered zone) could deliver the same feel without inventing a new combat system — as long as it stays a pre-game table and never becomes a mid-battle one.
+**For Settlements.** A cheap template for [[Settlements/Rules System/Archived/Events]]' battlefield-only scope and the [[Ideas Inbox]] want for boards that feel alive: a small seasonal/weather roll before terrain set-up (an LOS cap, one moving hazard, one altered zone) could deliver the same feel without inventing a new combat system — as long as it stays a pre-game table and never becomes a mid-battle one.
 
 ---
 ## Solo Play recycles the Keyword axis as its targeting AI
@@ -166,7 +166,7 @@ The only other changes for solo play: drop Aggressor/Defender and activate in an
 
 **Why it works.** One property does three jobs — recruitment limit, resource-rationing order, and solo targeting priority — with zero new Character data added. That's the same "reuse, don't add" instinct already logged elsewhere in this corpus, and it's the cheapest solo-AI implementation found so far.
 
-**For Settlements.** A third data point for [[Solo & Co-op]], alongside [[Rangers of Shadow Deep]] (a full scripted monster-behavior table) and [[Spectre Operations#The Solo/NPC Rules — the detection system's own tables become the bot]] (the detection ladder doubles as the bot). All three converge on one principle: **the solo bot should run on a system the game already has**, never a parallel AI engine bolted on for one game mode. If Settlements ever ships a faction-disposition or alignment tag for any other reason, it's a free solo-AI hook already paid for.
+**For Settlements.** A third data point for [[Settlements/Rules System/Archived/Solo & Co-op]], alongside [[Rangers of Shadow Deep]] (a full scripted monster-behavior table) and [[Spectre Operations#The Solo/NPC Rules — the detection system's own tables become the bot]] (the detection ladder doubles as the bot). All three converge on one principle: **the solo bot should run on a system the game already has**, never a parallel AI engine bolted on for one game mode. If Settlements ever ships a faction-disposition or alignment tag for any other reason, it's a free solo-AI hook already paid for.
 
 ---
 ## The Refuge costs zero
@@ -191,7 +191,7 @@ The Refuge costs **zero points** and sits entirely outside the 100-point creatio
 > [!note] Provenance check on the Farm House row
 > The core rulebook's own Farm House entry is **8 / 6 / Fenced-Off Garden** (one Perk, six spaces). **[FACT, core p.20]** The row above — 5 spaces, three Perks including Stable and Cold Cellar — is *Seasons*' explicit errata replacement: *"the following existing Refuge entry should replace the one from the Last Days: Zombie Apocalypse rulebook."* **[FACT, Seasons p.64]** The table above was already correct; it just wasn't flagged as a supplement overwrite of a core-book number. *Seasons* also adds a second, orthogonal tag layer on top of the three-number interface — **Remote** (permanent +1 to the off-table Zombie Attack roll) and **Exposed** (+5 SP to every Perk built) — worth folding into any Settlements version of this pattern as an optional fourth descriptor rather than a fourth number.
 
-**For Settlements.** [[Settlement]] and [[Structures]]. Our HQ already carries housing (12, +6 per Bunkhouse) — the **Max Group Size / Empty Spaces / Built-In** triple is a candidate summary line for every settlement in the game, and it would make "which settlement do I want?" a legible question rather than a spreadsheet.
+**For Settlements.** [[Settlements/Rules System/Archived/Settlement]] and [[Settlements/Rules System/Archived/Structures]]. Our HQ already carries housing (12, +6 per Bunkhouse) — the **Max Group Size / Empty Spaces / Built-In** triple is a candidate summary line for every settlement in the game, and it would make "which settlement do I want?" a legible question rather than a spreadsheet.
 
 ---
 ## Empty Spaces is the real constraint
@@ -202,7 +202,7 @@ The Refuge costs **zero points** and sits entirely outside the 100-point creatio
 
 **Why it works.** A slot cap cannot be optimised around the way a price can. Income accelerates over a campaign; slot count doesn't. **The slot is what stops a rich player owning everything.** Same family as [[Gaslands#Points plus an unbuyable capacity]] and [[Kill Team#Slots instead of prices for the long tail]].
 
-**For Settlements.** Our [[Structures]] list runs to 23. A **build-slot count per settlement** would do more balance work than any per-structure price, and it directly serves the anti-bloat tenet — you can ship all 23 without every crew eventually owning all 23.
+**For Settlements.** Our [[Settlements/Rules System/Archived/Structures]] list runs to 23. A **build-slot count per settlement** would do more balance work than any per-structure price, and it directly serves the anti-bloat tenet — you can ship all 23 without every crew eventually owning all 23.
 
 ---
 ## Keep the base out of ordinary battles
@@ -216,7 +216,7 @@ Of the twelve core Perks, only two unambiguously touch an ordinary Encounter's o
 
 **Why it works.** It means the settlement layer can be as deep as you like without slowing down or unbalancing the ordinary firefight. **The designer deliberately kept the base out of normal battles** — which is [[Oathmark]]'s instinct arrived at from a completely different direction.
 
-**For Settlements.** A real design constraint worth adopting explicitly in [[Structures]]: *a structure's benefit fires in [[Downtime]], or in a raid on your own settlement — not in a territory battle.* It protects the pace goal and stops the settlement becoming a second army list.
+**For Settlements.** A real design constraint worth adopting explicitly in [[Settlements/Rules System/Archived/Structures]]: *a structure's benefit fires in [[Settlements/Rules System/Archived/Downtime]], or in a raid on your own settlement — not in a territory battle.* It protects the pace goal and stops the settlement becoming a second army list.
 
 ---
 ## Three payoff channels
@@ -233,7 +233,7 @@ Every Perk falls into **exactly one** of three categories **[FACT]**:
 
 **Why it works.** One structure, one job. It makes the settlement legible, makes the three-way trade explicit at build time, and is what makes the "only [two] touch an away game" discipline enforceable — you can *count* it.
 
-**For Settlements.** A clean taxonomy for the [[Structures]] table, and it maps onto the already-locked worker model (a worker assigned or not, ten benefits shipped and ten parked). Note the pattern in the Garden and Stove entries: **the upgrade improves a rate, not a number** — `1 Fuel heats 2 rooms` is a better upgrade than `+1 Fuel` because it scales with play.
+**For Settlements.** A clean taxonomy for the [[Settlements/Rules System/Archived/Structures]] table, and it maps onto the already-locked worker model (a worker assigned or not, ten benefits shipped and ten parked). Note the pattern in the Garden and Stove entries: **the upgrade improves a rate, not a number** — `1 Fuel heats 2 rooms` is a better upgrade than `+1 Fuel` because it scales with play.
 
 ---
 ## Structures own their unlocks
@@ -244,7 +244,7 @@ Every Perk falls into **exactly one** of three categories **[FACT]**:
 
 **Capability is leased, not bought outright.** The structure is a standing precondition, not a one-time purchase.
 
-**For Settlements.** This is the enforcement mechanism the [[Ideas Inbox]] crafting want needs: if new [[Structures]] unlock new craftable equipment tiers, then **losing the structure has to cost you the unlock**, or raids on a settlement never really hurt. It also gives raids a target that isn't a body.
+**For Settlements.** This is the enforcement mechanism the [[Ideas Inbox]] crafting want needs: if new [[Settlements/Rules System/Archived/Structures]] unlock new craftable equipment tiers, then **losing the structure has to cost you the unlock**, or raids on a settlement never really hurt. It also gives raids a target that isn't a body.
 
 ---
 ## Context-priced construction
@@ -255,7 +255,7 @@ The **same Perk costs different amounts by context** **[FACT]**: an **Engineer**
 
 ⚠️ **The book never states the order of operations.** 35 → 27, or 23 + 5 = 28? **Genuinely unresolved in print**, confirmed still unresolved on the full read of both books.
 
-**For Settlements.** Take the mechanic — a worker who reduces build cost is exactly our worker model — and **take the warning too.** Any time two modifiers touch the same number, the rules must state the order. That's a [[Rules Engine]] house-convention issue, and it's the sort of thing [[Edge Cases]] exists to catch.
+**For Settlements.** Take the mechanic — a worker who reduces build cost is exactly our worker model — and **take the warning too.** Any time two modifiers touch the same number, the rules must state the order. That's a [[Settlements/Rules System/Archived/Rules Engine]] house-convention issue, and it's the sort of thing [[Settlements/Rules System/Archived/Edge Cases]] exists to catch.
 
 ---
 ## What it does *not* do: hold points equal
@@ -274,4 +274,4 @@ The **same Perk costs different amounts by context** **[FACT]**: an **Engineer**
 - Primary: Last Days core rulebook + *Seasons* supplement, both PDFs read in full, twice — first for the settlement/Refuge layer, second for core resolution, the turn, the zombie horde, noise, injury, weather, and solo/co-op
 - Capture: `research/sources/last-days/` (`original.pdf` = core rulebook, `seasons.pdf` = campaign supplement)
 - Long-form: `docs/POINTS-RESEARCH.md` §7.17
-- Related: [[Wargaming Research Hub]] · [[Oathmark]] · [[Trench Crusade]] · [[The Walking Dead All Out War]] · [[Zona Alfa]] · [[Mad Dogs with Guns]] · [[Spectre Operations]] · [[Rangers of Shadow Deep]] · [[Settlement]] · [[Structures]] · [[Economy]] · [[Progression]] · [[Morale]] · [[Damage]] · [[Events]] · [[Solo & Co-op]] · [[Ideas Inbox]]
+- Related: [[Wargaming Research Hub]] · [[Oathmark]] · [[Trench Crusade]] · [[The Walking Dead All Out War]] · [[Zona Alfa]] · [[Mad Dogs with Guns]] · [[Spectre Operations]] · [[Rangers of Shadow Deep]] · [[Settlements/Rules System/Archived/Settlement]] · [[Settlements/Rules System/Archived/Structures]] · [[Settlements/Rules System/Archived/Economy]] · [[Settlements/Rules System/Archived/Progression]] · [[Settlements/Rules System/Archived/Morale]] · [[Settlements/Rules System/Archived/Damage]] · [[Settlements/Rules System/Archived/Events]] · [[Settlements/Rules System/Archived/Solo & Co-op]] · [[Ideas Inbox]]

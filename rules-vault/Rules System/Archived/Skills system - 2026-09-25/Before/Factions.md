@@ -11,8 +11,8 @@ tags: [settlements/phase, settlements/stage/s5]
 # 04 · Factions
 > **S5 Content** · status **Drafted** · build order **27**
 
-**Depends on:** [[Unit Design]], [[List Building]], [[Settlement]], [[Morale]]
-**Feeds into:** [[Balance]]
+**Depends on:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Unit Design]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale]]
+**Feeds into:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Balance]]
 **Raw dependency (from Notion):** Unit Design, List Building, Settlement, full combat loop
 
 ## Focus
@@ -27,11 +27,11 @@ The Rules column should nail down:
 
 ## Working rules / decisions
 
-> [!info] Superseded — [[Full Rules System v1]] is the ruling
+> [!info] Superseded — [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] is the ruling
 > **§24 is canonical.** The stat-bonus/nerf placeholder roster further down is
 > superseded by the one-battlefield-rule + one-settlement-affinity model.
 
-> [!success] Framework ruled 2026-08-05 — [[Full Rules System v1]] §24
+> [!success] Framework ruled 2026-08-05 — [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §24
 > **One battlefield rule + one settlement affinity per faction. No flat stat bonus, no matched drawback, no exclusive unlock.** Factions are balanced peer-to-peer, not against a paired nerf. Every rule must be a discount, a conditional modifier, an action-economy nudge, or a terrain-verb exception — **none may touch a hard ceiling** (the ±3 modifier cap, the **+5** Damage cap, the **36"** range ceiling and its four gates, re-rolls, or extra attacks).
 >
 > | Faction | Battlefield rule | Settlement affinity |
@@ -44,14 +44,14 @@ The Rules column should nail down:
 > | **Criminals** | Hide in Light cover, not just Concealing — never within 6" of an objective | Trade House sell rates +10% |
 
 > [!check] The six-faction roster above **is** the roster — adopted 2026-08-05
-> [[Full Rules System v1]] §24 carries the framework **and** this project's roster together, and explicitly **supersedes this note's earlier placeholder**, which was still built on flat stat bonuses and nerfs. So the table above is canon and the WIP list below is now **naming and setting-voice input, not a competing roster.**
+> [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §24 carries the framework **and** this project's roster together, and explicitly **supersedes this note's earlier placeholder**, which was still built on flat stat bonuses and nerfs. So the table above is canon and the WIP list below is now **naming and setting-voice input, not a competing roster.**
 >
 > The two line up closely: **Residents** ≈ Civilians · **First Responders** ≈ First Enforcers · **Labor** ≈ Laborers · **Military** ≈ Lost Batallion · **Tech Workers** ≈ The HACKERS. **Criminals** is new and has no WIP counterpart.
 >
 > **What is still yours to call:** the *names*. "Lost Batallion" and "The HACKERS" carry more setting voice than "Military" and "Tech Workers", and nothing in the framework depends on which label wins.
 
 > [!question] Two things the framework still owes
-> - **Each faction needs its rule tightened to one sentence a player can act on.** "Improved Build test for field deployables" (First Responders) doesn't say by how much — it needs a number inside the ±3 cap ([[Deployables#Build rating — some things are harder to build]]).
+> - **Each faction needs its rule tightened to one sentence a player can act on.** "Improved Build test for field deployables" (First Responders) doesn't say by how much — it needs a number inside the ±3 cap ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables#Build rating — some things are harder to build]]).
 > - **The signature-rule lever from the 2026-07-23 note still applies:** one strong, playstyle-defining rule per faction, modelled on how BLKOUT's **Force Rules** each encode a single identity (aggro / attrition / gunline / cyber) — see `docs/BLKOUT-RULES-ANALYSIS.md` §19, steal #4. The six rules above are conditional nudges; check at the table whether each one is actually *identity-defining* or merely *flavourful*.
 
 ### WIP faction list — the original setting voice
@@ -83,4 +83,4 @@ The Rules column should nail down:
 _none_
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

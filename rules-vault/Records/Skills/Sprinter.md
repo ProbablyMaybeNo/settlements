@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 DASH using only the MOVE action instead of spending both actions.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

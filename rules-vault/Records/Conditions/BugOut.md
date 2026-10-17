@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/combat/condition]
 
 routs off the nearest board edge and is removed from play. *(fail at Stress 4+.)*
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

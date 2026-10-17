@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Test STR. On success, enemies within 6 inches must target this unit with their ATTACK actions. Duration and legal-target exceptions require ruling.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

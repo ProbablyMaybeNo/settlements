@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Equip two 2 HANDED RANGED weapons, or one 1 HANDED and one 2 HANDED RANGED weapon. Choose the active weapon at the start of each activation; it cannot change during that activation.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

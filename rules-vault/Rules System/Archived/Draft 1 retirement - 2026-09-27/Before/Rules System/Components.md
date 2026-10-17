@@ -30,21 +30,21 @@ The Rules column should nail down:
 The one component the settlement layer cannot ship without.
 
 - A **12 × 36 grid of 1" squares** — 432 squares, one page. Groundworks II needs an 18 × 48 version.
-- It is the **mechanical source of truth**: every placed structure's footprint, Power draw and one-line terrain profile is read off the sheet at setup, not measured off the models ([[Structures#On terrain sizes]] · [[Board Representation#Settlement structures]]).
+- It is the **mechanical source of truth**: every placed structure's footprint, Power draw and one-line terrain profile is read off the sheet at setup, not measured off the models ([[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#On terrain sizes]] · [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Board Representation#Settlement structures]]).
 - Also carries: the Power sum (output vs draw), the four resource tracks, roster/housing count, and the Functional/Disabled flag per structure.
 
 ### Structure tiles
-Every entry in [[Structures]] ships as a **print-and-cut tile at its exact grid footprint**. This is the reference implementation and it must stay complete — a player with no scenery at all builds a full settlement from the printed sheet, which is what keeps the **no-collection-to-win** tenet honest.
+Every entry in [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] ships as a **print-and-cut tile at its exact grid footprint**. This is the reference implementation and it must stay complete — a player with no scenery at all builds a full settlement from the printed sheet, which is what keeps the **no-collection-to-win** tenet honest.
 
 - [ ] Tile art for all 25 entries + the three Station→Building upgrade forms
 - [ ] Who authors the art
 - [ ] Token set for the interactive points: door, terminal, hatch, ladder, hardpoint, **Disabled**
 
-> [!warning] Don't finalise ahead of [[Economy]]
-> Tiles can be drawn now — footprints are settled. **Costs cannot**: nothing in [[Structures]] is priced until the Credits/Materials inflow rates exist.
+> [!warning] Don't finalise ahead of [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Economy]]
+> Tiles can be drawn now — footprints are settled. **Costs cannot**: nothing in [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] is priced until the Credits/Materials inflow rates exist.
 
 ## Rule ledger
 _none_
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

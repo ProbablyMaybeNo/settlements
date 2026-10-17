@@ -11,7 +11,7 @@ tags: [settlements/phase, settlements/stage/s6]
 # 30 · Playtesting
 > **S6 Production** · status **Not Started** · build order **32**
 
-**Depends on:** [[Final Alpha]]
+**Depends on:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Final Alpha]]
 **Feeds into:** —
 **Raw dependency (from Notion):** Final Alpha gate (then runs continuously)
 
@@ -31,4 +31,4 @@ _Not drafted yet._
 _none_
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

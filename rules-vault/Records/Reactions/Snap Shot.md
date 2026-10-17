@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/core/reaction]
 
 Make a normal ranged attack at the triggering enemy (**no** extra −2). Must be in range + forward LOS. Any legal ranged weapon (Sidearm rules still apply if Engaged). **This is your "return fire":** when an enemy Shoots, a Ready model may Snap Shot back — but it resolves *after* the enemy's shot, so if that shot Downs it first, it can't reply (that's the shooter's first-mover incentive).
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Initiative & Activation]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Initiative & Activation]] from them.*

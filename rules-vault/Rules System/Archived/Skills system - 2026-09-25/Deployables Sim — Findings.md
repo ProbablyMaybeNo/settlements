@@ -5,7 +5,7 @@ tags: [settlements/reference, settlements/analysis]
 ---
 # 🛠️ Deployables Sim — Findings
 
-First validation pass on the [[Deployables]] catalogue — turrets, mines, traps and beacons — against the core engine. Exact-math probabilities plus a Monte-Carlo cross-check that imports the [[Weapons|weapon]] battle engine. Run: `test-bench/deployables_sim.py` (seed `20260715`).
+First validation pass on the [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]] catalogue — turrets, mines, traps and beacons — against the core engine. Exact-math probabilities plus a Monte-Carlo cross-check that imports the [[Weapons|weapon]] battle engine. Run: `test-bench/deployables_sim.py` (seed `20260715`).
 
 > [!success] Headline
 > **The catalogue is clean — no ceiling breaks, and every item prices out against the sim-validated armoury.** One item was mispriced on the first pass (**Burst Turret**, undercosted at 16) and was corrected to **18** before locking. Two items are flagged to watch at the table — Burst and the Revive Beacon — not because they're broken, but because they touch the two most powerful levers in the game (multi-attack and casualty recovery).
@@ -42,7 +42,7 @@ Expected **wounds/round** (open cover, unarmoured), against the Assault-Rifle bo
 Turrets sit slightly above the body's raw output-per-point — correct, because they cost **zero activation** after setup and fire 360°, and the discount is their **one-hit fragility**. The Monte-Carlo (turret vs an advancing rifleman over 6 rounds) matched the analytic numbers within 1–4 points (73 / 88 / 93 / 63 / 73%), confirming a turret kills ~0.6–1.0 bodies *if it survives to contact* — which a single hit prevents.
 
 > [!warning] Watch Burst at the table
-> Multi-shot is the biggest DPS lever in the game ([[Skill Integration Decisions]]). Even repriced to 18 and gated behind an **Intricate −2** build, two shots/round is the first thing to re-check with real crews. Fallback already noted: one shot with **Spread**.
+> Multi-shot is the biggest DPS lever in the game ([[Settlements/Rules System/Archived/Skill Integration Decisions]]). Even repriced to 18 and gated behind an **Intricate −2** build, two shots/round is the first thing to re-check with real crews. Fallback already noted: one shot with **Spread**.
 
 ## 4 · Mines land hard but are one-use and avoidable
 A Proximity + Explosion mine (9 pts) auto-applies a **70%** wound vs unarmoured on the model that trips it (no to-hit roll), plus 2" Blast — but it is single-use, stationary, and visible if the deploy failed. That is in line with the **Molotov** (9 pts, one use). Fire/Poison/Shock/Smoke payloads route to existing hazards and conditions.
@@ -64,4 +64,4 @@ Each ±1 aura moves the relevant roll about **10%** per affected ally. That is c
 **Locked for playtest.** Every cost is a first-pass anchor validated against proven-balanced gear, not yet seen at a table. The next sim is crew-integration: turrets, mines and beacons inside the full [[Crew Sim — Findings|crew battle loop]] to measure win-rate swing, once first playtests show how the deploy-Action tempo actually feels.
 
 ---
-See [[Deployables]] · [[Weapons]] · [[Rules System MOC]].
+See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]] · [[Weapons]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]].

@@ -19,4 +19,4 @@ tags: [settlements/record, settlements/settlement/structure]
 
 Craft and repair. **Workshop tiers unlock the weapon / armour / chem branches** — upgrades, not separate buildings
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Structures]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Structures]] from them.*

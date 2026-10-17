@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/gear/deployable]
 
 Within **1"** → the model is knocked **Prone**. Stops a rush cold.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Deployables]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Deployables]] from them.*

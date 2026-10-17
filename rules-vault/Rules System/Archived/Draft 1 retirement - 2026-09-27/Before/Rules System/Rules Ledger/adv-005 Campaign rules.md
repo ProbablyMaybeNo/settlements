@@ -4,13 +4,15 @@ rule_id: adv-005
 category: advanced
 status: parking-lot
 version: v0.0
-parent_phase: "[[Campaign]]"
-tags: [settlements/rule, settlements/cat/advanced]
+parent_phase: "[[Settlements/Rules System/Archived/Campaign]]"
+tags:
+  - settlements/rule
+  - settlements/cat/advanced
 ---
 # adv-005 · Campaign rules
 > **advanced** · status **parking-lot** · v0.0
 
-**Parent phase:** [[Campaign]]
+**Parent phase:** [[Settlements/Rules System/Archived/Campaign]]
 
 ## Text
 _No rule text yet — stub imported from the Notion Rules database._

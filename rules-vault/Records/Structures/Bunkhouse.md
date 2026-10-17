@@ -18,4 +18,4 @@ tags: [settlements/record, settlements/settlement/structure]
 
 **+6 owned body slots** above HQ's base 12
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Structures]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Structures]] from them.*

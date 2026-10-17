@@ -8,7 +8,7 @@ status: Living
 
 > **What this is.** Every notable rules system or mechanic we've come across — read in a rulebook, found on Reddit, dug out of a forum, or thought up ourselves — logged in one row so it can be found again, and linked to a full write-up so the actual rules are one click away.
 >
-> **What this is not.** Not a to-do list and not a design decision. Nothing here is adopted into Settlements by being written down. Adoption happens in [[Full Rules System v1]] and nowhere else.
+> **What this is not.** Not a to-do list and not a design decision. Nothing here is adopted into Settlements by being written down. Adoption happens in [[Settlements/Rules System/Archived/Full Rules System v1]] and nowhere else.
 
 > [!tip] How to use it
 > **Reading:** scan the **Type** section you're designing in, then follow the link for the real rules. **Ctrl+Hover** a link to peek without leaving this note.
@@ -31,29 +31,29 @@ status: Living
 ---
 ## 🏷️ Mechanic types
 
-The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], so a row points at the note it would touch.
+The type vocabulary deliberately mirrors the [[Settlements/Rules System/Archived/Rules System MOC|rules notes]], so a row points at the note it would touch.
 
 | Type | Covers | Our note |
 |---|---|---|
-| **Dice** | core resolution, target numbers, dice pools, crits | [[Rules Engine]] |
-| **Activation** | turn/round structure, initiative, order economy | [[Initiative & Activation]] |
-| **Reactions** | interrupts, overwatch, dodges, opponent-turn agency | [[Initiative & Activation]] |
-| **Movement** | distance, climbing, jumping, stealth, positioning | [[Movement]] |
+| **Dice** | core resolution, target numbers, dice pools, crits | [[Settlements/Rules System/Archived/Rules Engine]] |
+| **Activation** | turn/round structure, initiative, order economy | [[Settlements/Rules System/Archived/Initiative & Activation]] |
+| **Reactions** | interrupts, overwatch, dodges, opponent-turn agency | [[Settlements/Rules System/Archived/Initiative & Activation]] |
+| **Movement** | distance, climbing, jumping, stealth, positioning | [[Settlements/Rules System/Archived/Movement]] |
 | **Detection** | alert states, spotting/noise, covert disguise, guard AI | [[Ideas Inbox]] (no dedicated rules note yet) |
-| **Hacking** | cyberwarfare, terminals/network range, EW counters, possession | [[Hacking]] · [[Infrastructure]] · [[Deployables]] |
-| **Combat** | shooting, melee, wounds, injury, lethality | [[Shooting]] · [[Melee]] · [[Damage]] |
-| **Morale** | fear, stress, suppression, break, rout | [[Morale]] |
-| **Terrain** | cover, LOS, interactive scenery, board density | [[Terrain]] · [[Terrain Interaction]] |
-| **List** | force construction, slots, caps, legality gates | [[List Building]] |
-| **Costing** | how prices are *derived* — formulas, atoms, multipliers | [[Balance]] · `docs/GLOBAL-POINTS-SYSTEM.md` |
-| **Faction** | identity rules, keywords, thematic taxes | [[Factions]] |
-| **Campaign** | persistence, XP, advancement, snowball control | [[Campaign]] · [[Progression]] |
-| **Diplomacy** | deals, alliances, betrayal, faction standing | [[Diplomacy]] |
-| **Settlement** | bases, territory, entitlement, what growth buys | [[Settlement]] · [[Territory]] · [[Structures]] |
-| **Economy** | currencies, income, upkeep, exchange rates | [[Economy]] |
-| **Scenario** | objectives, victory, neutral threats, side quests | [[Scenarios]] |
-| **Solo** | solo/co-op scaling, AI opponents | [[Solo & Co-op]] |
-| **Production** | bookkeeping load, tokens, packaging, teaching | [[Components]] · [[Rulebook]] |
+| **Hacking** | cyberwarfare, terminals/network range, EW counters, possession | [[Settlements/Rules System/Archived/Hacking]] · [[Settlements/Rules System/Archived/Infrastructure]] · [[Settlements/Rules System/Archived/Deployables]] |
+| **Combat** | shooting, melee, wounds, injury, lethality | [[Settlements/Rules System/Archived/Shooting]] · [[Settlements/Rules System/Archived/Melee]] · [[Settlements/Rules System/Archived/Damage]] |
+| **Morale** | fear, stress, suppression, break, rout | [[Settlements/Rules System/Archived/Morale]] |
+| **Terrain** | cover, LOS, interactive scenery, board density | [[Settlements/Rules System/Archived/Terrain]] · [[Settlements/Rules System/Archived/Terrain Interaction]] |
+| **List** | force construction, slots, caps, legality gates | [[Settlements/Rules System/Archived/List Building]] |
+| **Costing** | how prices are *derived* — formulas, atoms, multipliers | [[Settlements/Rules System/Archived/Balance]] · `docs/GLOBAL-POINTS-SYSTEM.md` |
+| **Faction** | identity rules, keywords, thematic taxes | [[Settlements/Rules System/Archived/Factions]] |
+| **Campaign** | persistence, XP, advancement, snowball control | [[Settlements/Rules System/Archived/Campaign]] · [[Settlements/Rules System/Archived/Progression]] |
+| **Diplomacy** | deals, alliances, betrayal, faction standing | [[Settlements/Rules System/Archived/Diplomacy]] |
+| **Settlement** | bases, territory, entitlement, what growth buys | [[Settlements/Rules System/Archived/Settlement]] · [[Settlements/Rules System/Archived/Territory]] · [[Settlements/Rules System/Archived/Structures]] |
+| **Economy** | currencies, income, upkeep, exchange rates | [[Settlements/Rules System/Archived/Economy]] |
+| **Scenario** | objectives, victory, neutral threats, side quests | [[Settlements/Rules System/Archived/Scenarios]] |
+| **Solo** | solo/co-op scaling, AI opponents | [[Settlements/Rules System/Archived/Solo & Co-op]] |
+| **Production** | bookkeeping load, tokens, packaging, teaching | [[Settlements/Rules System/Archived/Components]] · [[Settlements/Rules System/Archived/Rulebook]] |
 
 ---
 ## 🎲 Dice & resolution
@@ -89,13 +89,13 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 
 | Take | Game | Mechanic | Type | Description | Full write-up |
 |:--:|---|---|---|---|---|
-| ⭐ | **BLKOUT** | Simultaneous **Return Fire** | Reactions | Shot at? Shoot back *at the same time* — more successes applies damage first, and **a destroyed model deals no damage**. Every trigger-pull becomes a gamble. *(Evaluated and **cut** for Settlements — [[Shooting\|Snap Shot]] resolves sequentially so the attacker keeps a first-mover incentive.)* | [[BLKOUT#Reactions — the beating heart]] |
+| ⭐ | **BLKOUT** | Simultaneous **Return Fire** | Reactions | Shot at? Shoot back *at the same time* — more successes applies damage first, and **a destroyed model deals no damage**. Every trigger-pull becomes a gamble. *(Evaluated and **cut** for Settlements — [[Settlements/Rules System/Archived/Shooting\|Snap Shot]] resolves sequentially so the attacker keeps a first-mover incentive.)* | [[BLKOUT#Reactions — the beating heart]] |
 | ⭐ | **BLKOUT** | **Juke** — an active dodge | Reactions | A targeted model spends its reaction to count as in cover (matched play: shooter rolls **−1D10**, survivor moves half). Gives the defender agency on the enemy's turn. *(Adopted as **Dodge** — opposed AGI vs DEX.)* | [[BLKOUT#Reactions — the beating heart]] |
 | ⭐ | **BLKOUT** | Move half to dodge Overwatch | Reactions | Overwatch only triggers on a move **longer than half** the Movement Value. Creep to stay safe, dash to close and expose yourself — enormous tactical texture for one sentence. *(Adopted.)* | [[BLKOUT#Reactions — the beating heart]] |
 | ⚙️ | **BLKOUT** | Reactions as a finite token | Reactions | Reacting costs an **Engaged Token**; a model holding one can neither act nor react again that round. Reactions are budgeted, not free. | [[BLKOUT#Reactions — the beating heart]] |
 | ⚙️ | **Zona Alfa** | **Alert** — bank 2 Actions to hold 1 reactive Action | Reactions | Spend two Actions to hold one Action in reserve and interrupt the opponent's Activation with *any* Action — Move, Shoot, Aim, even a grenade throw. A steep but simple 2-for-1 tax on reacting. | [[Zona Alfa#Initiative and Alternating Activation]] |
 | 📎 | **Spectre Operations** | Return Fire, Snap Shot, Go to Ground, Break Contact | Reactions | A standard overwatch/return-fire suite, paid from the shared Momentum pool; Snap Shot resolves against **Awareness**, not Ballistics, and Untrained Elements lose all Reaction access while Suppressed or Pinned where Trained Elements keep it. | [[Spectre Operations#Reactions — Return Fire, Snap Shot, Go to Ground, Break Contact]] |
-| 📎 | **Infinity** | Face-to-face hacking, and an ARO that doesn't need line of sight | Reactions | A hacking ARO is a genuine face-to-face roll that fires through the network rather than the eyes — independent convergence with our own [[Hacking\|Interrupt]] rule, which bends the same LOS requirement for the same reason. | [[Infinity#Face-to-face hacking, and an ARO that doesn't need line of sight]] |
+| 📎 | **Infinity** | Face-to-face hacking, and an ARO that doesn't need line of sight | Reactions | A hacking ARO is a genuine face-to-face roll that fires through the network rather than the eyes — independent convergence with our own [[Settlements/Rules System/Archived/Hacking\|Interrupt]] rule, which bends the same LOS requirement for the same reason. | [[Infinity#Face-to-face hacking, and an ARO that doesn't need line of sight]] |
 
 ## 🏃 Movement & positioning
 
@@ -123,8 +123,8 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 |:--:|---|---|---|---|---|
 | ⚙️ | **Infinity** | Hacking Area — the range mechanic is Zone of Control, not distance | Hacking | Range to a hack target is a connectivity check (are you inside a projected zone?), not a distance measurement — a genuinely different *kind* of range mechanic than our own terminal range bands, and richer than we want it. | [[Infinity#Hacking Area — the range mechanic is Zone of Control, not distance]] |
 | ⭐ | **Infinity** | Repeaters — a network relay either side can use, at a penalty | Hacking | A Repeater extends its owner's hacking reach, but an enemy hacker inside its zone can use it right back at a stated -3 penalty — one flat modifier prices "using someone else's infrastructure," and you can't shoot the relay to stop a hack, only the hacker. | [[Infinity#Repeaters — a network relay either side can use, at a penalty]] |
-| 📎 | **Infinity** | Total Control — possessing a TAG, and the four guardrails that stop it being a walking death sentence | Hacking | Possession is scoped to TAGs only, forces a hostile *generic, worse-than-native* stat-line, scores neither side Victory Points, and cancels for a flat 1 Command Token — the fully-shipped version of the exact tail our own [[Hacking\|parked deeper-hacking draft]] already flagged as unbuildable without bounding it this hard. | [[Infinity#Total Control — possessing a TAG, and the four guardrails that stop it being a walking death sentence]] |
-| ⭐ | **Infinity** | Firewall — Comms Attack's version of Cover | Hacking | The designer states outright that Firewall is "the equivalent of Cover in a BS Attack" — reusing an existing subsystem's shape for a new domain instead of inventing a hardening stat, exactly the call our own [[Hacking]] note already made independently. | [[Infinity#Firewall — Comms Attack's version of Cover]] |
+| 📎 | **Infinity** | Total Control — possessing a TAG, and the four guardrails that stop it being a walking death sentence | Hacking | Possession is scoped to TAGs only, forces a hostile *generic, worse-than-native* stat-line, scores neither side Victory Points, and cancels for a flat 1 Command Token — the fully-shipped version of the exact tail our own [[Settlements/Rules System/Archived/Hacking\|parked deeper-hacking draft]] already flagged as unbuildable without bounding it this hard. | [[Infinity#Total Control — possessing a TAG, and the four guardrails that stop it being a walking death sentence]] |
+| ⭐ | **Infinity** | Firewall — Comms Attack's version of Cover | Hacking | The designer states outright that Firewall is "the equivalent of Cover in a BS Attack" — reusing an existing subsystem's shape for a new domain instead of inventing a hardening stat, exactly the call our own [[Settlements/Rules System/Archived/Hacking]] note already made independently. | [[Infinity#Firewall — Comms Attack's version of Cover]] |
 | ⚙️ | **Infinity** | Non-Hackable, ECM, and hunting the network | Hacking | No single hard counter exists — a printed immunity tag, a flat ECM modifier, and a killable physical Repeater network are three cheap, stackable soft counters instead, so a non-hacking force is never defenseless but is still worse off than one that spent a little. | [[Infinity#Non-Hackable, ECM, and hunting the network — how a non-hacker force copes]] |
 | ⚠️ | **Infinity** | Three editions of simplification — N3's five program families collapse into N5's two | Hacking | N3 ran five program families across seven device types, including passive Army Shields and reactive-only Defense Protocols; none of that vocabulary survives on the current N5.2 wiki. The one publisher with the resources to make deep hacking work has spent three editions shrinking it, not growing it. | [[Infinity#Three editions of simplification — N3's five program families collapse into N5's two]] |
 | 📎 | **Fallout: Wasteland Warfare** | Computers — hacking as one Expertise skill among four | Hacking | One Skill Test, contact-gated, with a self-locking terminal on the same critical-fail icon (X) that fails every other test in the game — the highest-hacking-density file in the library turned out to be mostly flavor text around this one paragraph. | [[Fallout Wasteland Warfare#Computers — hacking as one Expertise skill among four, and a terminal that locks itself on a critical fail]] |
@@ -188,7 +188,7 @@ The type vocabulary deliberately mirrors the [[Rules System MOC|rules notes]], s
 | ⭐ | **Infinity** | SWC — a currency derived from the first | List | *"Each 50 Army Points will provide 1 point of SWC."* The scarce currency auto-scales with game size; you can't sell your heavy weapons to buy bodies. Half-point granularity on the scarce currency, integers on the abundant one. | [[Infinity#SWC — the derived second budget]] |
 | ⭐ | **Infinity** | "+X" profiles that **grant** budget | List | Some profiles *give* you SWC rather than costing it — usually gated behind fielding that model as Lieutenant. The leader tax priced in currency #2, never in points. | [[Infinity#Profiles that pay you]] |
 | ⚙️ | **Infinity** | A device grants a small, fixed menu of named Programs | List | Buying a Hacking Device *is* buying which small, printed menu of effects that model can produce — an EVO device is mechanically incapable of a killer attack, no restriction text needed. | [[Infinity#The Hacking Device — a device grants a small, fixed menu of named Programs]] |
-| ⭐ | **Infinity** | Hackable by Troop Type, not by individual profile | List | One printed tag (`TAG, HI, REM, VH, Hacker`) decides what can even be targeted — the same shape our own [[Deployables\|turret-hijack]] rule already uses, just scoped to one category instead of four. | [[Infinity#Hackable by Troop Type, not by individual profile]] |
+| ⭐ | **Infinity** | Hackable by Troop Type, not by individual profile | List | One printed tag (`TAG, HI, REM, VH, Hacker`) decides what can even be targeted — the same shape our own [[Settlements/Rules System/Archived/Deployables\|turret-hijack]] rule already uses, just scoped to one category instead of four. | [[Infinity#Hackable by Troop Type, not by individual profile]] |
 | ⭐ | **Gaslands** | Cans **plus unbuyable slots** | List | Everything costs points *and* build slots; slots are fixed by chassis and **cannot be bought**. Decouples "how strong" from "how much fits," and cannot be points-optimised around. | [[Gaslands#Points plus an unbuyable capacity]] |
 | ⭐ | **Rangers of Shadow Deep** | Deliberately over-subscribed build points | List | Sub-caps total **16 BP against a 10 BP budget**. You cannot max any two categories — the over-subscription *is* the choice. | [[Rangers of Shadow Deep#Over-subscribed build points]] |
 | ⭐ | **Frostgrave / Stargrave** | Two constraints that take turns binding | List | 400gc minus the 100gc apprentice leaves 300 for 8 soldiers; 4 specialists would cost 500 on their own. **The budget binds at creation; the specialist cap only starts biting several games into the campaign.** | [[Frostgrave and Stargrave#Two constraints that take turns binding]] |
@@ -459,4 +459,4 @@ Sources we know exist and haven't captured. Hand any of these to the **`wargamin
 - [ ] **Infinity N4 rulebook (Hacking chapter), primary** — discovered but not captured this run. The N4-era tactics article cited in [[Infinity#Three editions of simplification — N3's five program families collapse into N5's two]] quotes flat damage values (Carbonite 13, Oblivion 16, etc.) that don't match the current N5.2 Hacking Programs Chart's PS-based figures; the exact edition where the numbers changed was not tracked down. Low priority — the edition-drift *shape* (simplification over time) is already established as [FACT] via direct N5.2 page reads, only the precise N3→N4→N5 numeric timeline is open.
 
 ---
-*Curated notes live in `Research/Notes/`. Raw captures live in the Settlements repo under `research/sources/`. This folder mirrors into `rules-vault/Research/` on the 15-minute sync — [[Rules System MOC|back to the Rules System]].*
+*Curated notes live in `Research/Notes/`. Raw captures live in the Settlements repo under `research/sources/`. This folder mirrors into `rules-vault/Research/` on the 15-minute sync — [[Settlements/Rules System/Archived/Rules System MOC|back to the Rules System]].*

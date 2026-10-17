@@ -31,7 +31,7 @@ tags: [settlements/research]
 
 **Why it works.** It's a soft gradient where most games use a hard wall. Nobody is told "you may not take that"; they're told it costs one more. The thematic list wins on efficiency, the mercenary list wins on answers, and both are legal. It is the cheapest possible implementation of the "colour wheel" faction-identity principle.
 
-**For Settlements.** Directly applicable to [[Factions]], and it composes with — rather than replaces — [[BLKOUT#Force Rules — one rule, one playstyle]]. The `Versatile` exemption is the half people forget: **without a designer-controlled escape hatch, a tax on breadth becomes a tax on interesting lists.**
+**For Settlements.** Directly applicable to [[Settlements/Rules System/Archived/Factions]], and it composes with — rather than replaces — [[BLKOUT#Force Rules — one rule, one playstyle]]. The `Versatile` exemption is the half people forget: **without a designer-controlled escape hatch, a tax on breadth becomes a tax on interesting lists.**
 
 ---
 ## The free leader
@@ -44,7 +44,7 @@ Totems are conditionally free too: *"If this Master is a Crew's Leader, the Tote
 
 **Why it works.** The budget gets spent only on **real choices**. A mandatory purchase priced at its "true" value is just a smaller budget with extra arithmetic — and it makes every Leader's price a balance problem you didn't need to have.
 
-**For Settlements.** Worth weighing against our locked rank-body costs (Match Play 65/95/165/245). We charge for the Leader; Malifaux doesn't. Neither is wrong — but if a Leader is **mandatory**, its price is doing no gating work, only subtraction. See [[List Building]].
+**For Settlements.** Worth weighing against our locked rank-body costs (Match Play 65/95/165/245). We charge for the Leader; Malifaux doesn't. Neither is wrong — but if a Leader is **mandatory**, its price is doing no gating work, only subtraction. See [[Settlements/Rules System/Archived/List Building]].
 
 ---
 ## Leftover budget becomes a capped resource
@@ -55,7 +55,7 @@ Totems are conditionally free too: *"If this Master is a Crew's Leader, the Tote
 
 **Why it works.** Two problems solved with one line. Nobody is punished for a list that doesn't spend to the last point — the remainder converts into something useful — and because the conversion is **capped**, deliberately under-building to hoard resources is bounded and can't become a strategy.
 
-**For Settlements.** A live option for [[List Building]]: unspent Credits at a Match Play 1000 cap currently just evaporate. Converting them into a small, capped in-game resource would remove the "shave the list to hit exactly 1000" chore, which is pure friction.
+**For Settlements.** A live option for [[Settlements/Rules System/Archived/List Building]]: unspent Credits at a Match Play 1000 cap currently just evaporate. Converting them into a small, capped in-game resource would remove the "shave the list to hit exactly 1000" chore, which is pure friction.
 
 ---
 ## One upgrade at hiring
@@ -68,7 +68,7 @@ Plus a tiny constraint vocabulary printed on the cards: `Restricted (Name)`, `Sp
 
 **Why it works.** The combinatorial explosion that makes upgrades unbalanceable happens **at list-building**, where a player can search the whole space offline. In play, upgrades are gated by tempo and circumstance. **Cap where the search is free; open up where the game is already the constraint.**
 
-**For Settlements.** Relevant to any equipment-stacking in [[List Building]], and the three-word constraint vocabulary is worth copying wholesale — it's less text than a paragraph of restrictions.
+**For Settlements.** Relevant to any equipment-stacking in [[Settlements/Rules System/Archived/List Building]], and the three-word constraint vocabulary is worth copying wholesale — it's less text than a paragraph of restrictions.
 
 ---
 ## Coarse atoms and fractional pricing
@@ -97,4 +97,4 @@ The designers on why Emissary upgrades were removed **[CONSENSUS — quote surfa
 
 - Primary: Malifaux M3E Rules Manual (official), quotes verified
 - Long-form: `docs/POINTS-RESEARCH.md` §7.3
-- Related: [[Wargaming Research Hub]] · [[BLKOUT]] · [[Trench Crusade]] · [[Factions]] · [[List Building]]
+- Related: [[Wargaming Research Hub]] · [[BLKOUT]] · [[Trench Crusade]] · [[Settlements/Rules System/Archived/Factions]] · [[Settlements/Rules System/Archived/List Building]]

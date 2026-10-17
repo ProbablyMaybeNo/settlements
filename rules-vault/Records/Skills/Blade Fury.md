@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Once per turn, after DOWNING an enemy in melee, make a free MOVE and ATTACK against another enemy within 6 inches. If that enemy is DOWNED, repeat once more against an enemy within 3 inches.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

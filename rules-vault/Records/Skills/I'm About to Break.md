@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Once per turn when CHARGED, use STRESS as positive modifiers instead of penalties for that combat. Afterwards gain 1 STRESS and immediately make a BREAK test, ignoring beneficial Stress modifiers from friendly units, skills or equipment.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

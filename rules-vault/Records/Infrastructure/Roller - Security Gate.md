@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/terrain/feature]
 
 *Access · Open-Close Path*. Lighter door: toggles a chokepoint, **no CRUSH** — a caught model is just Displaced 1" to the near side.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Infrastructure]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Infrastructure]] from them.*

@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Before deployment place two tunnel tokens, 8 inches from enemy deployment or units, 12 inches apart and 6 inches from the board edge. Secretly hold back two crew units. During battle deploy each at a different tunnel, then activate it normally. Enemies may react to arrivals. Arrival timing and distance minima require ruling.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

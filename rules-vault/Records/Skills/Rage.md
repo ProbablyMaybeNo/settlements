@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 When making a MELEE ATTACK, add up to +3 Damage to its injury roll. Gain 1 STRESS per point added.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

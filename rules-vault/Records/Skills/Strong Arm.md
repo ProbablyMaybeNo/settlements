@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Ignore HEAVY. While holding a GRAPPLED target, move at full MOVE, INTERACT and attack with 1 HANDED weapons. Cannot CHARGE, DASH, CLIMB or use 2 HANDED equipment while holding it.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

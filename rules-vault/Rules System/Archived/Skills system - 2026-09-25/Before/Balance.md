@@ -11,7 +11,7 @@ tags: [settlements/phase, settlements/stage/s6]
 # 27 · Balance
 > **S6 Production** · status **Not Started** · build order **28**
 
-**Depends on:** [[Factions]], [[Scenarios]], [[Economy]]
+**Depends on:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Factions]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Scenarios]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy]]
 **Feeds into:** —
 **Raw dependency (from Notion):** Factions, Scenarios, Economy, all systems
 
@@ -32,4 +32,4 @@ _Not drafted yet._
 _none_
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

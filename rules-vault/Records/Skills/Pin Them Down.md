@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 RANGED hits that fail to wound also cause PINNED. Generate STRESS normally; pinning adds no extra Stress.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

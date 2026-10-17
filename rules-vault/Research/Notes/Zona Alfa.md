@@ -29,7 +29,7 @@ tags: [settlements/research]
 
 It is the genre match we didn't have yet: near-future irradiated exclusion zone, scavenger crews, mutants, anomalies, a black-market economy — closer to Settlements' 2051 setting than anything else captured so far, and it closes the "Fallout: Wasteland Warfare · This Is Not a Test · S.T.A.L.K.E.R.-likes" line on the hub's to-read list. It also directly answers three of our live open questions: **threat spawning** (its best mechanic, by a wide margin), **anomalies as interactive terrain**, and **scavenging that pays out via a shared, race-to-clear-it board** rather than a private draw.
 
-Two honest caveats before the rest of this note. First, **Zona Alfa has no settlement, base, or territory layer whatsoever** — advancement is entirely crew-and-gear, tracked on a roster sheet; nothing here informs [[Settlement]] or [[Territory]] directly. Second, and surprisingly given the STALKER pedigree: **there is no stealth or noise mechanic anywhere in the book.** See the dedicated section below — this is a real, checked negative result, not an oversight in the read.
+Two honest caveats before the rest of this note. First, **Zona Alfa has no settlement, base, or territory layer whatsoever** — advancement is entirely crew-and-gear, tracked on a roster sheet; nothing here informs [[Settlements/Rules System/Archived/Settlement]] or [[Settlements/Rules System/Archived/Territory]] directly. Second, and surprisingly given the STALKER pedigree: **there is no stealth or noise mechanic anywhere in the book.** See the dedicated section below — this is a real, checked negative result, not an oversight in the read.
 
 ---
 ## Core resolution — an inverted D10, and a Critical that pays out immediately
@@ -42,7 +42,7 @@ Crits are computed **once per round, not once per die**: *"A Critical Success is
 
 **Why it works.** However many dice you throw, you only ever get one bonus/penalty resolution per round — a big dice pool can't be farmed for extra free Actions. And the reward for a crit is wired directly into the same activation instead of a side-table roll.
 
-**For Settlements.** Our core engine is a locked mirror-image of this (`1d10 + Stat + Modifiers vs 7+`, high roll good, natural 1 always fails, natural 10 always succeeds) — so there's nothing to change here, only to note the resemblance. The one transferable idea, if our own crit payout is still open for debate, is **a free bonus Action tacked onto the same activation** rather than a separate crit table: cheap, immediate, and it never compounds across a multi-die pool. [[Rules Engine]].
+**For Settlements.** Our core engine is a locked mirror-image of this (`1d10 + Stat + Modifiers vs 7+`, high roll good, natural 1 always fails, natural 10 always succeeds) — so there's nothing to change here, only to note the resemblance. The one transferable idea, if our own crit payout is still open for debate, is **a free bonus Action tacked onto the same activation** rather than a separate crit table: cheap, immediate, and it never compounds across a multi-die pool. [[Settlements/Rules System/Archived/Rules Engine]].
 
 ---
 ## Initiative and Alternating Activation
@@ -55,7 +55,7 @@ Crits are computed **once per round, not once per die**: *"A Critical Success is
 
 There's also a genuine opponent's-turn reaction, priced honestly: *"At the cost of two Actions, a unit may hold One Action in reserve to interrupt an opponent's Activation. This interruption can be any Action. For example, Move, Shoot, Aim, even Prep and Throw a Grenade etc."* **[FACT — p.12, the Alert Action]** Paying 2-for-1 to hold a single reactive Action is a steep but simple tax — a Veteran can Alert and still act; a Rookie effectively can't (it would burn its entire activation).
 
-**For Settlements.** [[Initiative & Activation]]. The "pass the win to your opponent" option costs one sentence and hands a small tactical choice to whoever's ahead on the roll-off, without touching the roll-off mechanic itself. **Alert** is a minimal, single-rule reaction economy — 2 Actions banks 1 reactive Action of any kind — worth comparing against our own [[Initiative & Activation]] reaction rules for how cheaply an interrupt option can be priced.
+**For Settlements.** [[Settlements/Rules System/Archived/Initiative & Activation]]. The "pass the win to your opponent" option costs one sentence and hands a small tactical choice to whoever's ahead on the roll-off, without touching the roll-off mechanic itself. **Alert** is a minimal, single-rule reaction economy — 2 Actions banks 1 reactive Action of any kind — worth comparing against our own [[Settlements/Rules System/Archived/Initiative & Activation]] reaction rules for how cheaply an interrupt option can be priced.
 
 ---
 ## Combat Experience — one tier gates Actions, Skills, and Equipment Slots together
@@ -66,7 +66,7 @@ Three tiers — **Rookie** (1 Action, 0 Skills, 1 Equipment Slot), **Hardened** 
 
 **Why it works.** One published rank answers three separate design questions — turn economy, character build depth, and loadout capacity — off a single number instead of three independently-tuned tracks.
 
-**For Settlements.** [[Initiative & Activation]], [[List Building]]. This is the same shape as our own locked Rank ladder (Recruit/Fighter/Specialist/Leader → Orders 0/0/1/2, with tier caps on skills at creation) — a different designer converging on "one rank, several payoffs" independently. **[INFERENCE — convergent design, not a stated cross-reference in the book.]** Nothing to change; useful as citable precedent if that structure is ever questioned.
+**For Settlements.** [[Settlements/Rules System/Archived/Initiative & Activation]], [[Settlements/Rules System/Archived/List Building]]. This is the same shape as our own locked Rank ladder (Recruit/Fighter/Specialist/Leader → Orders 0/0/1/2, with tier caps on skills at creation) — a different designer converging on "one rank, several payoffs" independently. **[INFERENCE — convergent design, not a stated cross-reference in the book.]** Nothing to change; useful as citable precedent if that structure is ever questioned.
 
 ---
 ## Khrabrost' — a force-build currency made of Actions, not Credits
@@ -77,7 +77,7 @@ Three tiers — **Rookie** (1 Action, 0 Skills, 1 Equipment Slot), **Hardened** 
 
 **Why it works.** The list-building budget *is* the thing being budgeted — turn economy — with no abstraction layer standing between them. Leftover-K-into-a-stat-bump is structurally the same idea as Malifaux's leftover Soulstones becoming a capped in-game resource.
 
-**For Settlements.** [[List Building]]. We deliberately keep **Credits** as the single face currency — the Credits you field *are* your Crew Rating — and this is proof a skirmish game can run with *no* monetary abstraction at all. It's a road we've already chosen not to take, for a good reason gear pricing gives us here: see **What it gets wrong**, below, for the cost. Compare [[Malifaux#Leftover budget becomes a capped resource]].
+**For Settlements.** [[Settlements/Rules System/Archived/List Building]]. We deliberately keep **Credits** as the single face currency — the Credits you field *are* your Crew Rating — and this is proof a skirmish game can run with *no* monetary abstraction at all. It's a road we've already chosen not to take, for a good reason gear pricing gives us here: see **What it gets wrong**, below, for the cost. Compare [[Malifaux#Leftover budget becomes a capped resource]].
 
 ---
 ## Movement, field of view, and layered Cover
@@ -99,7 +99,7 @@ Cover comes in four stacking tiers, and each tier taxes a **different combinatio
 
 **Why it works.** Cover isn't one number to remember, it's three separate small numbers layered onto three separate rolls (to-hit, Armor Save, Pin check) — which lets Hard cover mean "harder to hit AND harder to hurt AND harder to rattle" without a single bespoke modifier. And the elevation rule gives high ground a second, purely mechanical reason to matter, on top of whatever it already does for LOS.
 
-**For Settlements.** [[Movement]], [[Terrain]]. **The elevation-demotes-cover-a-tier rule is the standout steal candidate in this whole note** — it's one sentence, it reuses cover tiers we'd already have, and it directly reinforces the tenet that terrain density is our single strongest balance dial. Worth checking against [[Terrain Interaction]] before adopting, since it touches whatever elevation rules already exist there.
+**For Settlements.** [[Settlements/Rules System/Archived/Movement]], [[Settlements/Rules System/Archived/Terrain]]. **The elevation-demotes-cover-a-tier rule is the standout steal candidate in this whole note** — it's one sentence, it reuses cover tiers we'd already have, and it directly reinforces the tenet that terrain density is our single strongest balance dial. Worth checking against [[Settlements/Rules System/Archived/Terrain Interaction]] before adopting, since it touches whatever elevation rules already exist there.
 
 ---
 ## Ranged Combat — the Armor Save decouples the hit from the wound
@@ -110,7 +110,7 @@ A Successful Hit still isn't automatically a wound: the Defender rolls an **Armo
 
 **Why it works.** Every hit resolves into *something* — a wound, or a forced nerve check — and a Miss is the only truly free outcome. That is functionally identical to the tenet Settlements already has locked (a hit wounds *or* delivers Stress, never neither, never both) — reached independently, by a different designer, for a different genre.
 
-**For Settlements.** [[Shooting]], [[Damage]], [[Morale]]. Nothing to change — this is validating precedent for an already-locked rule, worth citing the next time "does every hit need to do something" comes up again. **[INFERENCE — the "independently reached" framing is our read, not a stated cross-reference by Todoroff.]**
+**For Settlements.** [[Settlements/Rules System/Archived/Shooting]], [[Settlements/Rules System/Archived/Damage]], [[Settlements/Rules System/Archived/Morale]]. Nothing to change — this is validating precedent for an already-locked rule, worth citing the next time "does every hit need to do something" comes up again. **[INFERENCE — the "independently reached" framing is our read, not a stated cross-reference by Todoroff.]**
 
 ---
 ## Melee — simultaneous rolls, and paying Hits to Parry
@@ -121,7 +121,7 @@ Melee is not attacker-then-defender: *"In this simultaneous brawl, both the Atta
 
 **Why it works.** Winning the exchange and taking damage happen on the same roll, so nobody is left waiting to see if the other player's attack even lands before their own matters. Naming the tied state (Deadlocked) turns an ambiguous non-result into an actual game state with its own exit rule.
 
-**For Settlements.** [[Melee]]. Worth weighing against whatever our own melee sequencing currently is — simultaneous-with-Parry is a genuinely different table feel (both sides commit before either learns the result) and shouldn't be adopted just because it's tidy; it needs to earn its place against our activation-based turn structure specifically.
+**For Settlements.** [[Settlements/Rules System/Archived/Melee]]. Worth weighing against whatever our own melee sequencing currently is — simultaneous-with-Parry is a genuinely different table feel (both sides commit before either learns the result) and shouldn't be adopted just because it's tidy; it needs to earn its place against our activation-based turn structure specifically.
 
 ---
 ## Mission Objectives and Hot Spots — the Reaction Radius, and triggering a fight from range
@@ -134,7 +134,7 @@ You don't have to walk up to trigger one, either: *"Players can have one of thei
 
 **Why it works.** A neutral objective that's dangerous *by construction* (you cannot search it before clearing it) does double duty as both the scoring target and the board's built-in tension generator, with zero extra bookkeeping. Bolt Toss turns that same trigger into a weapon — bait a Hostile swarm onto an enemy crew standing near an untriggered Hot Spot, at the cost of one Action and a thrown die.
 
-**For Settlements.** [[Scenarios]]. This is the strongest published example of "a board that feels alive" found so far — closer to what we want than [[The Walking Dead All Out War#The neutral threat]]'s points-matched Walkers, because the threat here is *tied to the terrain itself* rather than a pre-agreed shared pool, and a player can weaponize it against the opponent rather than just deploying it. Directly informs any noise/detection design too, since Bolt Toss is effectively "make noise on purpose" without the game ever naming noise as a mechanic.
+**For Settlements.** [[Settlements/Rules System/Archived/Scenarios]]. This is the strongest published example of "a board that feels alive" found so far — closer to what we want than [[The Walking Dead All Out War#The neutral threat]]'s points-matched Walkers, because the threat here is *tied to the terrain itself* rather than a pre-agreed shared pool, and a player can weaponize it against the opponent rather than just deploying it. Directly informs any noise/detection design too, since Bolt Toss is effectively "make noise on purpose" without the game ever naming noise as a mechanic.
 
 ---
 ## Zone Hostiles — Threat Level spawn scaling, and a four-rule AI
@@ -156,7 +156,7 @@ Zone Hostiles are AI-controlled by the *opposing* player, under four printed rul
 
 **Why it works.** Seven stat lines cover an unlimited bestiary because every entry is deliberately a reskin target, not a fixed miniature range — and four short rules produce legible, predictable monster behaviour without a full AI subsystem. Both crews can be attacked by the same Hostile group, which makes the spawn a genuine neutral hazard rather than a PvE side-fight.
 
-**For Settlements.** [[Scenarios]]. This is the clearest, most complete published threat-spawn system captured yet — directly answers the "boards that feel alive" want. The **12″ leash + nearest-visible-target** pair is cheap enough to lift close to verbatim for any neutral-hostile mechanic Settlements adds.
+**For Settlements.** [[Settlements/Rules System/Archived/Scenarios]]. This is the clearest, most complete published threat-spawn system captured yet — directly answers the "boards that feel alive" want. The **12″ leash + nearest-visible-target** pair is cheap enough to lift close to verbatim for any neutral-hostile mechanic Settlements adds.
 
 ---
 ## Salvage and Anomalies — loot and hazard sharing one system
@@ -171,7 +171,7 @@ One more small, honest mechanic worth logging: **Messy Resolutions.** If two cre
 
 **Why it works.** Loot and hazard are the same die roll, so "go get the treasure" and "something bad might be here" never need separate tables to track. Gating the Anomaly's real prize behind a Will check keyed to Threat Level makes deep-Zone Artifacts a genuine gamble rather than a guaranteed bonus once you've won the fight.
 
-**For Settlements.** [[Scenarios]], [[Terrain]]. Anomalies are the strongest published "interactive terrain that isn't a building" found yet — a fixed location, a real risk (Will check, scaling with area danger), and a real reward, resolved with one extra roll layered onto an existing Hot Spot rather than a new subsystem. **On "loot that pays out even to the loser":** Zona Alfa does *not* have that — Salvage is race-to-clear-it, first-to-search-wins, with only the small Kill/Salvage credit split above as a consolation. **[NOT FOUND — no loser-payout mechanic exists in the book; Messy Resolutions is the closest thing, and it's a tie-break, not a design goal.]**
+**For Settlements.** [[Settlements/Rules System/Archived/Scenarios]], [[Settlements/Rules System/Archived/Terrain]]. Anomalies are the strongest published "interactive terrain that isn't a building" found yet — a fixed location, a real risk (Will check, scaling with area danger), and a real reward, resolved with one extra roll layered onto an existing Hot Spot rather than a new subsystem. **On "loot that pays out even to the loser":** Zona Alfa does *not* have that — Salvage is race-to-clear-it, first-to-search-wins, with only the small Kill/Salvage credit split above as a consolation. **[NOT FOUND — no loser-payout mechanic exists in the book; Messy Resolutions is the closest thing, and it's a tie-break, not a design goal.]**
 
 ---
 ## Stealth and noise — searched for, and it isn't here
@@ -193,7 +193,7 @@ Advances are never credited to an individual model — *"all Advances are credit
 
 **Why it works.** Pooling XP removes the "my guy didn't get to do anything this game" complaint entirely, and lets the Leader patch the crew's actual weak point instead of whoever happened to get a kill. The cost is narrative: no character arcs from individual growth, because growth is a Crew Leader spending decision, not a model's earned story.
 
-**For Settlements.** [[Campaign]], [[Progression]]. This is a real, opposite answer to our own **per-unit persistence and injury** fork: crew-pooled advancement trades "which specific veteran grew" for "zero bookkeeping disputes and zero benched characters." Worth naming explicitly as the alternative to whatever per-model XP path Settlements is currently leaning toward, since it's a legitimate, shipped design — not a strawman.
+**For Settlements.** [[Settlements/Rules System/Archived/Campaign]], [[Settlements/Rules System/Archived/Progression]]. This is a real, opposite answer to our own **per-unit persistence and injury** fork: crew-pooled advancement trades "which specific veteran grew" for "zero bookkeeping disputes and zero benched characters." Worth naming explicitly as the alternative to whatever per-model XP path Settlements is currently leaning toward, since it's a legitimate, shipped design — not a strawman.
 
 ---
 ## Battle Scars — permanent injury gated by bad luck, not by poverty
@@ -204,7 +204,7 @@ A model left **Out of Action** and not revived by a Med-Kit before the mission e
 
 **Why it works.** The gate is Med-Kit access, not gold: a model only rolls for permanent injury if nobody could reach it in time, which makes carrying spare Med-Kits a genuine risk-mitigation purchase rather than pure stat padding. The table itself is gentle by genre standards — no death, no amputation — one in six results is nothing at all, which keeps a long campaign roster survivable.
 
-**For Settlements.** [[Campaign]], [[Damage]]. Sits in the same lineage as [[Necromunda and Mordheim#Lasting injuries]] but resolves the "how punishing should this be" question differently: gate severity by *how the model was lost* (revived vs. abandoned) rather than by a flat post-battle roll for every casualty. Directly useful for the per-unit injury fork.
+**For Settlements.** [[Settlements/Rules System/Archived/Campaign]], [[Settlements/Rules System/Archived/Damage]]. Sits in the same lineage as [[Necromunda and Mordheim#Lasting injuries]] but resolves the "how punishing should this be" question differently: gate severity by *how the model was lost* (revived vs. abandoned) rather than by a flat post-battle roll for every casualty. Directly useful for the per-unit injury fork.
 
 ---
 ## Factions — a relationship grid instead of a rules chapter
@@ -226,7 +226,7 @@ Six Factions (Military, Scientists, Bandits, Independents, Cultists, Traders), e
 
 **Why it works.** Six factions' worth of relationship logic collapses into one 6×6 table instead of a paragraph of prose per pairing, and asymmetric cells (Military hates Cultists; Cultists are only Neutral back) read as *characterisation* for free.
 
-**For Settlements.** [[Factions]]. The grid format is the steal — it's the cheapest possible way to give N factions a legible web of alliances and grudges without writing N² paragraphs. The specific per-faction discounts and starting kits are much less rigorously balanced (see **What it gets wrong**) and shouldn't be copied as numbers, only as a shape.
+**For Settlements.** [[Settlements/Rules System/Archived/Factions]]. The grid format is the steal — it's the cheapest possible way to give N factions a legible web of alliances and grudges without writing N² paragraphs. The specific per-faction discounts and starting kits are much less rigorously balanced (see **What it gets wrong**) and shouldn't be copied as numbers, only as a shape.
 
 ---
 ## The Stalls, and the 10,000 Ruble Plan
@@ -239,7 +239,7 @@ Campaigns get an explicit, player-chosen exit: track savings on the roster sheet
 
 **Why it works.** Naming the implicit exchange rate (Bolt Action does the same with "1 Regular rifleman = 10 points") gives every other price something to be checked against without publishing a formula. And offering the players an explicit, chosen soft end-condition sidesteps the snowball problem other campaign games spend whole chapters managing — the campaign just *ends*, by design, when the players decide it has.
 
-**For Settlements.** [[Economy]], [[Campaign]]. Cross-link [[Bolt Action#The implicit unit of account]] — same idea, published in a completely different genre. The **chosen end-condition** idea is worth weighing against [[Trench Crusade#The published threshold ladder]]'s escalating-schedule approach: one lets players stop a campaign on their own terms; the other keeps every campaign converging on the same finish line. Different problems, both legitimate.
+**For Settlements.** [[Settlements/Rules System/Archived/Economy]], [[Settlements/Rules System/Archived/Campaign]]. Cross-link [[Bolt Action#The implicit unit of account]] — same idea, published in a completely different genre. The **chosen end-condition** idea is worth weighing against [[Trench Crusade#The published threshold ladder]]'s escalating-schedule approach: one lets players stop a campaign on their own terms; the other keeps every campaign converging on the same finish line. Different problems, both legitimate.
 
 ---
 ## How a 65-page rulebook holds a full campaign
@@ -255,7 +255,7 @@ Three concrete techniques do the actual work, not just the stated intent: **[INF
 
 **Why it works.** Every one of these is a place most skirmish games spend pages on precision (per-model costs, per-monster stat blocks, a formula for the exchange rate) that Zona Alfa deliberately declines to buy, in exchange for staying short.
 
-**For Settlements.** [[Rulebook]], [[Components]]. Direct evidence for the anti-bloat tenet: the size isn't an accident of having fewer subsystems, it's a consequence of choosing *coarse* catalogues over precise ones in the specific places where precision doesn't pay for itself at this scale. Worth reviewing our own catalogue granularity (weapons, gear, hostile/threat stat blocks) against this same question: does this entry need its own number, or does a category cover it?
+**For Settlements.** [[Settlements/Rules System/Archived/Rulebook]], [[Settlements/Rules System/Archived/Components]]. Direct evidence for the anti-bloat tenet: the size isn't an accident of having fewer subsystems, it's a consequence of choosing *coarse* catalogues over precise ones in the specific places where precision doesn't pay for itself at this scale. Worth reviewing our own catalogue granularity (weapons, gear, hostile/threat stat blocks) against this same question: does this entry need its own number, or does a category cover it?
 
 ---
 ## What it gets wrong

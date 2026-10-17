@@ -56,7 +56,7 @@ BattleTech has the same breakpoint problem every points system has, and it is vi
 
 > **Thresholds are the one failure mode no points system anywhere has solved with points.** Every game examined solves them by **hard cap, hard gate, or removal** — never by charging more.
 
-**For Settlements.** We discovered this independently: the 24" range ceiling exists because a sim found an uncapped long-range crew *"beat every list by 13–30 points **at any price**."* **The design instruction: enumerate the game's breakpoints explicitly, and put a gate on each. Do not attempt to price them.** See [[Weapons]], [[List Building]] and `docs/POINTS-RESEARCH.md` §6.1.
+**For Settlements.** We discovered this independently: the 24" range ceiling exists because a sim found an uncapped long-range crew *"beat every list by 13–30 points **at any price**."* **The design instruction: enumerate the game's breakpoints explicitly, and put a gate on each. Do not attempt to price them.** See [[Weapons]], [[Settlements/Rules System/Archived/List Building]] and `docs/POINTS-RESEARCH.md` §6.1.
 
 ---
 ## Why it matters that this one is public
@@ -70,4 +70,4 @@ Every other system in this vault is either unpublished ([[Infinity]], [[Malifaux
 
 - Primary: published BV2 rules; MegaMek open-source implementation
 - Long-form: `docs/POINTS-RESEARCH.md` §1.1, §6.1
-- Related: [[Wargaming Research Hub]] · [[One Page Rules]] · [[Song of Blades and Heroes]] · [[Balance]]
+- Related: [[Wargaming Research Hub]] · [[One Page Rules]] · [[Song of Blades and Heroes]] · [[Settlements/Rules System/Archived/Balance]]

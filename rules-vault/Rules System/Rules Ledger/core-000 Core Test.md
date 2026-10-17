@@ -4,7 +4,7 @@ rule_id: core-000
 category: core
 status: draft
 version: v0.1
-parent_phase: "[[Rules Engine]]"
+parent_phase: "[[Settlements/Rules System/Archived/Rules Engine]]"
 tags:
   - settlements/rule
   - settlements/cat/core
@@ -15,7 +15,7 @@ tags:
 
 # core-000 · Core Test
 > **core** · status **draft** · v0.1
-**Parent phase:** [[Rules Engine]]
+**Parent phase:** [[Settlements/Rules System/Archived/Rules Engine]]
 
 ## Text
 The single resolution mechanic every system reuses — attacks, skill tests, terrain and objective interactions.
@@ -49,7 +49,7 @@ Because nat 1 always fails and nat 10 always succeeds, every result is bounded *
 ^tbl-probability
 
 ### Worked example — a shooting matrix
-Standard fighter, **Dexterity +1**, shooting. Cover as −1 (light) / −2 (heavy) / −3 (hidden). **Armour is not on this table — it applies to the Injury roll, not the hit** (see [[Damage]]).
+Standard fighter, **Dexterity +1**, shooting. Cover as −1 (light) / −2 (heavy) / −3 (hidden). **Armour is not on this table — it applies to the Injury roll, not the hit** (see [[Settlements/Rules System/Archived/Damage]]).
 
 | Target | Net | Hit chance |
 |---|:---:|:---:|
@@ -64,4 +64,4 @@ Standard fighter, **Dexterity +1**, shooting. Cover as −1 (light) / −2 (heav
 > Deliberately swingy toward defence — a hidden target drops a decent shooter to a 1-in-5 shot, and after a hit the target's **armour** bites again on the injury roll. That's **Terrain is the core**: positioning beats stats. Nat-10 means no shot is ever truly impossible; nat-1 caps the best shot at 90%.
 
 ---
-*Graduated from [[Rules Engine]]. See [[Rules System MOC]].*
+*Graduated from [[Settlements/Rules System/Archived/Rules Engine]]. See [[Settlements/Rules System/Archived/Rules System MOC]].*

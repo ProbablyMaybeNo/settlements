@@ -19,4 +19,4 @@ tags: [settlements/record, settlements/settlement/structure]
 
 Sell owned gear and surplus → **Credits**; the Trade House tier improves rates
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Structures]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Structures]] from them.*

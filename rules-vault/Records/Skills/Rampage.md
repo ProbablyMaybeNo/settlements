@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 After DOWNING an enemy with a CHARGE ATTACK, move the remaining charge distance. If this brings the unit within 1 inch of another enemy, make a free MELEE ATTACK against it.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

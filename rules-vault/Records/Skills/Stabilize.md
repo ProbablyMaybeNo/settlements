@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Gain +4 INT for STABILIZE tests. Success also clears all target STRESS. May spend an ACTION to STABILIZE a non-DOWN unit and clear its STRESS. Once per turn.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

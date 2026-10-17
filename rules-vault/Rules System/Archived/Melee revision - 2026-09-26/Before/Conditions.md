@@ -11,7 +11,7 @@ tags: [settlements/phase, settlements/stage/s2]
 # 16 · Conditions
 > **S2 Core Combat** · status **Drafted** · build order **10**
 
-**Depends on:** [[Damage]]
+**Depends on:** [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Damage]]
 **Feeds into:** —
 **Raw dependency (from Notion):** Damage
 
@@ -28,11 +28,11 @@ The Rules column should nail down:
 ## Inherits from the engine
 > [!info] Recall — persistent conditions are resolved in the **End Phase** each round (engine turn structure). Define each condition's effect and expiry against that clock.
 
-![[Rules Engine#Turn / Round Structure]]
+![[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Rules Engine#Turn / Round Structure]]
 
 ## Working rules / decisions
 
-A condition is a **status token on a unit**. Combat conditions come from [[Damage]] and skills ([[Skills]]); Nerve states come from [[Morale]]; persistent conditions come from weapons, terrain hazards and skills.
+A condition is a **status token on a unit**. Combat conditions come from [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Damage]] and skills ([[Settlements/Rules System/Archived/Skills]]); Nerve states come from [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Morale]]; persistent conditions come from weapons, terrain hazards and skills.
 
 > [!info] Weapons apply conditions — the **Payload** rule
 > A [[Weapons|weapon characteristic]] that applies a condition does so **in place of the normal non-wounding result** (Pinned for ranged, Shaken for melee). A hit still does exactly one thing: **it wounds, or it delivers its payload** — never both. The payload's +1 Stress is the same +1 Pinned would have given; don't count it twice.
@@ -42,29 +42,29 @@ A condition is a **status token on a unit**. Combat conditions come from [[Damag
 ### General rules
 - **Tokens.** Every condition is one token beside the model. If a unit has no token, it has no condition — nothing is tracked in your head.
 - **No stacking.** The same condition never applies twice. Reapplying it refreshes its duration; it does not deepen the effect.
-- **Stress hook.** Gaining a negative condition gives **+1 Stress** (see [[Morale]]) — the *first* time it's applied, not on a refresh. **Exception: Pinned and Shaken** — their +1 *is* the non-wounding-hit result, so don't count it twice.
-- **Stress does not clear on Down.** A unit reduced to 0 WND keeps every point and resumes testing once Stabilized ([[Morale#Stress and Down — persistence]]).
+- **Stress hook.** Gaining a negative condition gives **+1 Stress** (see [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Morale]]) — the *first* time it's applied, not on a refresh. **Exception: Pinned and Shaken** — their +1 *is* the non-wounding-hit result, so don't count it twice.
+- **Stress does not clear on Down.** A unit reduced to 0 WND keeps every point and resumes testing once Stabilized ([[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Morale#Stress and Down — persistence]]).
 - **Modifier cap.** However many conditions a unit carries, the total modifier on any single roll never exceeds **−3** (or +3). Conditions past the cap still matter — they still restrict actions and still have to be cleared.
-- **Timing.** "Until the End Phase" clears in step 2 of the End Phase ([[Rules Engine#Turn / Round Structure]]). "Until the end of its next activation" clears when that activation ends, even if the unit did nothing.
+- **Timing.** "Until the End Phase" clears in step 2 of the End Phase ([[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Rules Engine#Turn / Round Structure]]). "Until the end of its next activation" clears when that activation ends, even if the unit did nothing.
 
 ### Core combat conditions
 - **Pinned** — the **ranged** non-wound result (suppression, not injury). **Cannot Move, Charge, Sprint or Disengage**; must spend its **Move** to clear before it can reposition, but may still **Shoot or Interact**. Persists until cleared; applying it gives **+1 Stress**. *(A non-wounding **melee** blow gives Stress → **Shaken** instead — you can't pin someone you're engaged with.)*
-- **Down** — prone and out of the fight; no normal actions. Only **ranged / hazard** hits leave a unit Down — a **melee** kill goes straight to **Out of Action**. **Heavy cover vs ranged unless in the open**; a **melee / engaged** attack **auto-hits** to finish it (Injury roll still made, a pass = Out), but **ranged attacks resolve normally**. Stabilize by the end of its next activation or it bleeds out — full rules in [[Damage]]. **Keeps its Stress** and takes **no Break tests while Down**, resuming them on recovery ([[Morale#Stress and Down — persistence]]).
+- **Down** — prone and out of the fight; no normal actions. Only **ranged / hazard** hits leave a unit Down — a **melee** kill goes straight to **Out of Action**. **Heavy cover vs ranged unless in the open**; a **melee / engaged** attack **auto-hits** to finish it (Injury roll still made, a pass = Out), but **ranged attacks resolve normally**. Stabilize by the end of its next activation or it bleeds out — full rules in [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Damage]]. **Keeps its Stress** and takes **no Break tests while Down**, resuming them on recovery ([[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Morale#Stress and Down — persistence]]).
 - **Prone** — knocked flat by a fall, slip, or being forced off a ledge (*not* an injury). **Heavy cover vs ranged unless in the open**; cannot Shoot, Charge or Sprint. **Standing up costs the whole activation** (Move + Action). Not bleeding and not auto-hit — that line is what separates Prone from Down.
-- **Hidden** — **−3 to be hit.** Earned via the **Hide** action in Concealing terrain, or from gear/skill. Lost on moving (except where a skill allows it), shooting, **interacting** — any Action that resolves an Interact test: claim, loot, hack, arm, defuse ([[Terrain Interaction]], [[Hacking]]) — or being revealed.
+- **Hidden** — **−3 to be hit.** Earned via the **Hide** action in Concealing terrain, or from gear/skill. Lost on moving (except where a skill allows it), shooting, **interacting** — any Action that resolves an Interact test: claim, loot, hack, arm, defuse ([[Settlements/Rules System/Archived/Terrain Interaction]], [[Settlements/Rules System/Archived/Hacking]]) — or being revealed.
 
 ### Stealth & Ambush
-Use the current Ambush skill in [[Skills#AGI]] and UNANSWERED in [[Keywords]]. Its AGI test is a setup test; it does not automatically substitute AGI for the weapon's melee stat.
+Use the current Ambush skill in [[Settlements/Rules System/Archived/Skills#AGI]] and UNANSWERED in [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Keywords]]. Its AGI test is a setup test; it does not automatically substitute AGI for the weapon's melee stat.
 
 ### Control conditions (from skills, weapons and terrain)
-- **Grappled** — see [[Keywords#GRAPPLED]] for the current holding and escape procedure.
+- **Grappled** — see [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Keywords#GRAPPLED]] for the current holding and escape procedure.
 - **Suppressed** — counts as **Pinned**, and the unit **cannot React** until it has cleared the Pinned effect.
 - **Off-Balance** — cannot Sprint or Charge. **Persists until cleared:** spend your **Move** slot to shed it (you keep your Action), exactly as you would shake off **Pinned**.
 - **Hobbled** — **−2" MOV**. **Persists until cleared:** spend your **Move** slot to shed it (you keep your Action), exactly as you would shake off **Pinned**.
 - **Blind** — **−2 on all rolls that need sight** (attacks, Spot, Reactions, targeted Interacts). Ends at the end of the unit's **next activation**.
 - **Shocked** — **−2 to all rolls** and **cannot React**. Ends at the end of the unit's **next activation**.
 - **Provoked** — the unit's first attack against anyone *except* the source suffers **−1**. Ends after that attack, or at the end of its next activation.
-- **Snared** — caught by a clamp, wire or pit (a [[Deployables]] trap). **Cannot Move, Charge, Sprint or Disengage.** On its activation it may spend its **Action** on a **STR test (7+)** to break free (nat 1 fails, it stays). A device-sourced negative condition, so its first application gives **+1 Stress**. Persists until it breaks free or the device is cleared. *(Kin to **Grappled**, but no grappler holds it — the terrain does.)*
+- **Snared** — caught by a clamp, wire or pit (a [[Settlements/Rules System/Archived/Deployables]] trap). **Cannot Move, Charge, Sprint or Disengage.** On its activation it may spend its **Action** on a **STR test (7+)** to break free (nat 1 fails, it stays). A device-sourced negative condition, so its first application gives **+1 Stress**. Persists until it breaks free or the device is cleared. *(Kin to **Grappled**, but no grappler holds it — the terrain does.)*
 
 ### Persistent conditions (resolve in the End Phase)
 - **Fire** — each End Phase, the unit suffers an **Injury roll at +1 Damage, ignoring Armor**. It (or an adjacent friendly) may spend an **Action** to extinguish it — automatic, no test. Persists until extinguished.
@@ -78,21 +78,21 @@ Use the current Ambush skill in [[Skills#AGI]] and UNANSWERED in [[Keywords]]. I
 >
 > Re-measure before the payload prices are re-locked: `test-bench/balance/conditions2d.py`.
 
-### Nerve states (from [[Morale]])
+### Nerve states (from [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Morale]])
 - **Shaken** — any unit with **1+ Stress**: −1 to all rolls. Always-on, doesn't stack, no test. Clears when all Stress clears.
 - **Bolt** — flees toward the nearest board edge, hugging cover. *(Break test fail at Stress 2.)*
 - **Broken** — frozen; cannot act. *(fail at Stress 3.)*
 - **BugOut** — routs off the nearest board edge and is removed from play. *(fail at Stress 4+.)*
 
 ### Skill conditions
-- **Stunned** — [[Keywords#STUNNED]].
-- **Auras** — [[Keywords#AURA]].
+- **Stunned** — [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Keywords#STUNNED]].
+- **Auras** — [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Keywords#AURA]].
 
 ### Marker & device states (not conditions on units)
 These sit on terrain, devices or as table markers — they never give Stress and don't count against the modifier cap:
 - **Spotted** — the observing unit has identified the target for named skills, until the stated expiry. Spotted does not remove Hidden by itself.
 - **Jammed** — remote activation and wireless control of the device fail; local and manual operation still work. Ends at the start of the jammer's next activation.
-- **Frozen terminal** — [[Keywords#FREEZE]].
+- **Frozen terminal** — [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Keywords#FREEZE]].
 - **Linked** — devices explicitly share a terminal or local network. Range alone never makes devices Linked.
 
 > [!info] Locked for playtest
@@ -102,4 +102,4 @@ These sit on terrain, devices or as table markers — they never give Stress and
 _none_
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

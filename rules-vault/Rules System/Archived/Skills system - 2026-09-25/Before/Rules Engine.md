@@ -16,8 +16,8 @@ tags:
 # 03 · Rules Engine
 > **S1 Foundation** · status **Drafted** · build order **3**
 
-**Depends on:** [[Core Game Format]]
-**Feeds into:** [[Unit Design]], [[Initiative & Activation]]
+**Depends on:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Core Game Format]]
+**Feeds into:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Unit Design]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Initiative & Activation]]
 **Raw dependency (from Notion):** Format
 
 ## Focus
@@ -40,8 +40,8 @@ The Rules column should nail down:
   3. End Phase
 - End Phase:
   1. Refresh Actions, Orders and Reactions.
-  2. Resolve persistent conditions (Fire, Poison, etc.) — see [[Conditions]].
-  3. **Break tests** — every unit with **2+ Stress** tests (1 Stress = Shaken, no test). See [[Morale]].
+  2. Resolve persistent conditions (Fire, Poison, etc.) — see [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Conditions]].
+  3. **Break tests** — every unit with **2+ Stress** tests (1 Stress = Shaken, no test). See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale]].
   4. Score objectives / victory points.
 
 ---
@@ -61,7 +61,7 @@ Each activation is **one Move slot + one Action slot**.
 - **Move** (slot 1): up to **MOV"**. Any direction, around obstacles; may not be split before/after the Action. A unit is never forced to move.
 - **Action** (slot 2): Shoot, Fight, Interact, Hide, Stabilize, etc. It may **not** be a second normal Move, and a unit makes at most **one attack per activation**.
 - **Sprint** (both slots): move up to **2× MOV"**, nothing else.
-- **Charge** (both slots): move up to **2× MOV"** into base contact, then a **free melee attack** at the charge bonus. See [[Melee]].
+- **Charge** (both slots): move up to **2× MOV"** into base contact, then a **free melee attack** at the charge bonus. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Melee]].
 
 #### Orders
 - **Recruits and Fighters have none · Specialists have 1 · Leaders have 2.**
@@ -71,10 +71,10 @@ Each activation is **one Move slot + one Action slot**.
 - Each unit may **receive only one Order** per round.
 
 > [!success] Why Orders are activation-bound
-> A 4-model elite crew gets 4 activations **plus** 4 banked **Ready** tokens — every fighter effectively shoots twice, which is the right ceiling against a swarm's extra activations. Letting a Leader issue Orders *at any time* would push that to 7 shots from 4 models, and would turn Reactions into a gotcha — a unit with no Ready suddenly snapping into overwatch the instant you enter its LOS. **Ready already persists across rounds**; bank it on your own activation. See [[Initiative & Activation#Ready]] and [[Crew Sim — Findings]].
+> A 4-model elite crew gets 4 activations **plus** 4 banked **Ready** tokens — every fighter effectively shoots twice, which is the right ceiling against a swarm's extra activations. Letting a Leader issue Orders *at any time* would push that to 7 shots from 4 models, and would turn Reactions into a gotcha — a unit with no Ready suddenly snapping into overwatch the instant you enter its LOS. **Ready already persists across rounds**; bank it on your own activation. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Initiative & Activation#Ready]] and [[Crew Sim — Findings]].
 
 #### Reactions
-- Full Ready / Reaction rules live in [[Initiative & Activation]].
+- Full Ready / Reaction rules live in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Initiative & Activation]].
 - Summary: Ready via Action or Order → react once when an enemy ends a Move/Action in your forward LOS → Snap Shot, Dodge, Charge, Throw, Interact, or Trigger.
 ---
 
@@ -115,12 +115,12 @@ Needs 8+ on the die to hit.
 ```
 
 - Terrain and cover are intended to have a major impact on gameplay. Well-positioned units should be extremely difficult to hit.
-- **Armor never affects the hit** — it only reduces the **Injury roll**. Cover protects against *being hit*; armor protects against *being hurt*. See [[Damage]].
+- **Armor never affects the hit** — it only reduces the **Injury roll**. Cover protects against *being hit*; armor protects against *being hurt*. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Damage]].
 
 ### Combat — two rolls
 Every attack resolves in two steps:
-1. **Attack roll** — *did it land?* Ranged = `1d10 + DEX + mods vs 7+` (cover is a negative modifier; weapons rarely add to hit). Melee = **opposed** (see [[Melee]]).
-2. **Injury roll** — *how bad?* `1d10 + Weapon Damage − Armor vs 7+`. **Pass** → target loses 1 WND (**Down** at 0 WND; **melee → Out**). **Fail** → target is **Pinned** (+1 Stress). Full detail in [[Damage]].
+1. **Attack roll** — *did it land?* Ranged = `1d10 + DEX + mods vs 7+` (cover is a negative modifier; weapons rarely add to hit). Melee = **opposed** (see [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Melee]]).
+2. **Injury roll** — *how bad?* `1d10 + Weapon Damage − Armor vs 7+`. **Pass** → target loses 1 WND (**Down** at 0 WND; **melee → Out**). **Fail** → target is **Pinned** (+1 Stress). Full detail in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Damage]].
 
 > [!info] The engine in one line
 > **Stats decide if you land it · Weapons decide how bad it is · Skills decide what else happens.** Terrain and Stress sit on top as pressure.
@@ -136,7 +136,7 @@ Some situations use opposed rolls instead.
 Highest total wins.
 
 - Ties are won by the defender.
-- **Melee attacks are opposed** (STR vs STR/AGI) — see [[Melee]]. Ranged attacks use the fixed 7+ target instead: you can't *passively* dodge a bullet — **cover is your standing defence**. The one exception is the **Dodge** reaction ([[Initiative & Activation#Reaction options]]) — spend your reaction to actively dive clear of a *single* shot (opposed **AGI vs DEX**), ending **Pinned**.
+- **Melee attacks are opposed** (STR vs STR/AGI) — see [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Melee]]. Ranged attacks use the fixed 7+ target instead: you can't *passively* dodge a bullet — **cover is your standing defence**. The one exception is the **Dodge** reaction ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Initiative & Activation#Reaction options]]) — spend your reaction to actively dive clear of a *single* shot (opposed **AGI vs DEX**), ending **Pinned**.
 
 ---
 
@@ -144,7 +144,7 @@ Highest total wins.
 - Fear, suppression and morale are all handled by the **Stress** system, tested against **NRV**.
 - **1+ Stress = Shaken:** −1 to all rolls (always-on). **2+ Stress:** also a **Break test** in the End Phase.
 - Stress does **not** affect Priority.
-- Full rules: [[Morale]].
+- Full rules: [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale]].
 
 ---
 
@@ -154,7 +154,7 @@ Highest total wins.
 - **Melee ignores facing.** Once Engaged, you fight normally regardless of which way either model faces.
 - Measurements are always Base Edge to Base Edge.
 - A unit is **Engaged** while within **1"** of an enemy; you fight enemies you're Engaged with. Direct interaction with terrain/objects needs base contact.
-- Enter melee by **Charging** (needs ranged LOS to declare) or a normal **Move** into an enemy's 1" zone (no LOS needed); reposition *within* that zone, but leaving it is a **Disengage** ([[Movement#Disengaging]]).
+- Enter melee by **Charging** (needs ranged LOS to declare) or a normal **Move** into an enemy's 1" zone (no LOS needed); reposition *within* that zone, but leaving it is a **Disengage** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Movement#Disengaging]]).
 - Standard movement and range increments are based around 6".
 - Always round down.
 
@@ -162,4 +162,4 @@ Highest total wins.
 - [[core-000 Core Test]] — the resolution mechanic, distilled + probability table
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

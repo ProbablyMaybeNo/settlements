@@ -8,7 +8,7 @@ tags:
   - settlements/master
 ---
 > [!important] Current source of truth — skill catalogue revised 2026-09-25
-> Section 14 embeds the approved 75 single-tier skills. Skill acquisition is explicitly undecided. The previous skill catalogue, records and revision commentary have been archived. The new skill design uses the thread's d20 mechanics; the remaining core engine still needs the coordinated conversion listed in [[Skill Integration Decisions]]. This is a design master, not yet a coherent ready-to-play packet.
+> Section 14 embeds the approved 75 single-tier skills. Skill acquisition is explicitly undecided. The previous skill catalogue, records and revision commentary have been archived. The new skill design uses the thread's d20 mechanics; the remaining core engine still needs the coordinated conversion listed in [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Skill Integration Decisions]]. This is a design master, not yet a coherent ready-to-play packet.
 
 # Settlements — Full Rules System v1
 
@@ -251,7 +251,7 @@ A condition is a status token. **No stacking** — reapplying refreshes duration
 
 **Nerve states** (from Morale, §11): Shaken, Bolt, Broken, BugOut, and any explicitly printed skill states.
 
-**Marker/device states** (not conditions, no Stress, don't count toward the modifier cap): Marked, Tagged, Frozen, Jammed and Linked; see [[Keywords]].
+**Marker/device states** (not conditions, no Stress, don't count toward the modifier cap): Marked, Tagged, Frozen, Jammed and Linked; see [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Keywords]].
 
 ---
 
@@ -295,7 +295,7 @@ v1 is deliberately small: hack a terminal to control its Linked features; the In
 1. **Declare** the terminal and the Linked feature (must be in a legal range band, max 24").
 2. **Roll** `1d10 + INT − range band` vs 7+.
 
-**Interrupt:** use the INT skill in [[Skills#INT]]: opposed INT, enemy terminal within 12 inches, success cancels the interaction and FREEZEs that terminal through the end of the next turn. No automatic veto or self-Overload.
+**Interrupt:** use the INT skill in [[Settlements/Rules System/Archived/Skills#INT]]: opposed INT, enemy terminal within 12 inches, success cancels the interaction and FREEZEs that terminal through the end of the next turn. No automatic veto or self-Overload.
 
 No hacker-vs-hacker minigame in v1 — a deeper system is drafted and parked for later.
 
@@ -462,7 +462,7 @@ Each **+1** ≈ +10% on a core test, bounded 10–90%. **Max is +6.**
 | **Specialist** | 7 | At most 1 stat reaches +4; at most 2 reach +2 | 1 |
 | **Leader** | 9 | At most 1 stat reaches +6; at most 2 reach +4; at most 4 reach +2 | 2 |
 
-Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
+Skill acquisition and starting counts: **undecided**; see [[Settlements/Rules System/Archived/Skills#Acquisition]].
 
 **Fielding costs live in §16 (List Building), on the 850-Credit scale — the old 5/8/16/24 ladder is deprecated, and so is the 1000-Credit scale that replaced it.**
 
@@ -472,24 +472,24 @@ Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]]
 
 The canonical 75-skill catalogue is embedded below. One tier, fifteen skills per stat. Acquisition remains explicitly undecided; previous tier gates and selection rules no longer apply. Detailed integration questions are tracked separately.
 
-![[Skills]]
+![[Settlements/Rules System/Archived/Skills]]
 
-Shared terms: [[Keywords]]. Open rulings: [[Skill Integration Decisions]].
+Shared terms: [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Keywords]]. Open rulings: [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Skill Integration Decisions]].
 
 ## 15 · Weapons — Basic Weapon System **[CURRENT DESIGN · 2026-09-19]**
 
-The current basic weapon system is defined in [[Basic Weapon System]] and entered through [[Weapons]]. Every weapon is built by selecting a class, choosing values inside that class's Damage and Range envelope, adding legal characteristics or drawbacks, and naming the finished build.
+The current basic weapon system is defined in [[Settlements/Rules System/Archived/Basic Weapon System]] and entered through [[Weapons]]. Every weapon is built by selecting a class, choosing values inside that class's Damage and Range envelope, adding legal characteristics or drawbacks, and naming the finished build.
 
 > [!important] Current weapon ruling
 > The seven live basic classes are **Unarmed, 1h Ranged / Sidearm, 2h Ranged, Heavy 2h Ranged, 1h Melee, 2h Melee, and Thrown**. Heavy 2h Ranged is Specialist-gated. A sniper rifle has no extra Specialist or Leader gate beyond the class it uses. Reach and Deadly / Automatic Down are not basic characteristics. Accurate and Precision are intentionally separate, overlapping accuracy options. Reload costs one Action before the weapon can fire again.
 
-![[Basic Weapon System#1. Weapon construction]]
-![[Basic Weapon System#2. Basic weapon classes]]
-![[Basic Weapon System#3. Basic weapon characteristics]]
-![[Basic Weapon System#4. Basic weapon examples]]
+![[Settlements/Rules System/Archived/Basic Weapon System#1. Weapon construction]]
+![[Settlements/Rules System/Archived/Basic Weapon System#2. Basic weapon classes]]
+![[Settlements/Rules System/Archived/Basic Weapon System#3. Basic weapon characteristics]]
+![[Settlements/Rules System/Archived/Basic Weapon System#4. Basic weapon examples]]
 
 > [!warning] Historical text below
-> The former construction and pricing text is retained below for audit history only. It is superseded by [[Basic Weapon System]] and must not be used to resolve a rules conflict. The prior satellite note is archived at [[Archived/Weapons — superseded 2026-09-19]].
+> The former construction and pricing text is retained below for audit history only. It is superseded by [[Settlements/Rules System/Archived/Basic Weapon System]] and must not be used to resolve a rules conflict. The prior satellite note is archived at [[Archived/Weapons — superseded 2026-09-19]].
 
 <details>
 <summary>Archived weapon-system text — superseded 2026-09-19</summary>
@@ -707,7 +707,7 @@ crew_rating ≤ agreed cap
 
 > **[NEW — Match Play vs. Campaign Start split]** These are genuinely different fighters, not the same table at two prices. A **Match Play** crew is built once for a single game with no persistence — it gets the richer starting kit because there's no other chance for those fighters to develop. A **Campaign Start** crew is meant to grow through the Level track (§26.1), so it starts leaner and earns its way to the same place over real play.
 
-Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
+Skill acquisition and starting counts: **undecided**; see [[Settlements/Rules System/Archived/Skills#Acquisition]].
 
 | Rank | Stat pts | Starting skills | Orders | Credits |
 |---|:--:|:--:|:--:|:--:|
@@ -716,9 +716,9 @@ Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]]
 | **Specialist** | 7 | **Undecided** | 1 | **145** |
 | **Leader** | 9 | **Undecided** | 2 | **185** |
 
-Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
+Skill acquisition and starting counts: **undecided**; see [[Settlements/Rules System/Archived/Skills#Acquisition]].
 > stats reach** (§14). The listed value is the maximum, hit only when every point
-Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
+Skill acquisition and starting counts: **undecided**; see [[Settlements/Rules System/Archived/Skills#Acquisition]].
 > `+4/+2/+1` = 3; Leader `+6/+2/+1` = 4. A fighter who spreads into +1 "dabbles"
 > trades skills for breadth — a legal, priced choice, not an error.
 
@@ -847,7 +847,7 @@ HQ (a little of everything) · Gatherer buffer (a little of its own resource, ea
 | Workbench→Workshop | Station→Building | 3×2→6×8 | −1→−2 | **45 → 128** | Craft/repair; unlocks weapon/armour/chem branches |
 | Fabricator→Robotics Workshop→Advanced Weapons Lab | Building | 6×6→6×8→6×10 | −1/−2/−3 | **70 → 110 → 195** | Research tiers; T3 unlocks the 2051 arsenal |
 
-Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
+Skill acquisition and starting counts: **undecided**; see [[Settlements/Rules System/Archived/Skills#Acquisition]].
 
 ### Operate
 | Structure | Class | Size | Pwr | Materials | Effect |
@@ -968,9 +968,9 @@ None touch a hard ceiling (modifier cap, damage cap, range cap, re-rolls, extra 
 
 ## 25 · Stealth & Ambush
 
-Ambush is the AGI skill in [[Skills#AGI]]. A successful charge begun Hidden allows its AGI setup test; use the attacking weapon's normal melee stat, including AGILE where applicable. Success modifies one weapon with UNANSWERED and +4 hit/injury. Failure grants only the optional paid defender attack described on the skill, not a free automatic attack.
+Ambush is the AGI skill in [[Settlements/Rules System/Archived/Skills#AGI]]. A successful charge begun Hidden allows its AGI setup test; use the attacking weapon's normal melee stat, including AGILE where applicable. Success modifies one weapon with UNANSWERED and +4 hit/injury. Failure grants only the optional paid defender attack described on the skill, not a free automatic attack.
 
-The adopted skill design uses Hidden at -4 to hit and untargetability beyond 12 inches; successful hits reveal. Exposure is checked at the start/end of the Hidden unit's own activation against enemies within 12 inches and LOS. Enemy movement into LOS alone does not reveal. Shooting and interactions reveal unless explicitly overridden. Reconcile the remaining core stealth/Stress text through [[Skill Integration Decisions]].
+The adopted skill design uses Hidden at -4 to hit and untargetability beyond 12 inches; successful hits reveal. Exposure is checked at the start/end of the Hidden unit's own activation against enemies within 12 inches and LOS. Enemy movement into LOS alone does not reveal. Shooting and interactions reveal unless explicitly overridden. Reconcile the remaining core stealth/Stress text through [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Skill Integration Decisions]].
 
 ## 25.5 · The Campaign Turn **[NEW — this is `Downtime.md`'s actual content; that file was `status: Not Started` in the vault, and §17/§22/§26 all assumed this sequence existed without it ever being written]**
 
@@ -980,7 +980,7 @@ Every cycle between battles runs through three phases, in order. Nothing in §22
 Happens the moment a battle ends, before anything else.
 
 1. **Survival.** Check every fighter against the Safe rule (§26.3) — still standing, left via a friendly edge, or in base contact with a friendly needs no roll. Everyone else rolls the Fate table (§26.3), including resolving any Captured or Hardened result on the spot where the immediate part applies (§26.3a step 1, §26.3b).
-Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
+Skill acquisition and starting counts: **undecided**; see [[Settlements/Rules System/Archived/Skills#Acquisition]].
 3. **Bank Resources.** Add the battle's earned Credits and Materials to the settlement's totals, capped by storage (§20).
 
 ### Phase 2 — Settlement
@@ -1014,7 +1014,7 @@ Immediately before the next battle. Once a player has done everything they inten
 
 ### 26.1 · Levels — fixed advancement track **[NEW — replaces the previous freeform Advance-spend model per direct instruction; finalized after several rounds of iteration]**
 
-Skill acquisition and selection remain undecided; see [[Skills#Acquisition]].
+Skill acquisition and selection remain undecided; see [[Settlements/Rules System/Archived/Skills#Acquisition]].
 
 **Earning a Level-up** uses the same triggers as before — kills, Glorious Deeds (§26.2), surviving, objectives held — one qualifying trigger advances a fighter to their next Level. The same **soft cap of 6 distinct sources/fighter/battle** still applies **[SIM-CONFIRMED — T8]**.
 
@@ -1022,7 +1022,7 @@ Skill acquisition and selection remain undecided; see [[Skills#Acquisition]].
 
 **There is no declared Secondary. Every other stat is a secondary stat.** At the track's **floating stat levels (1, 4, 8)**, add +1 to **any stat, chosen when the level is earned** (Primary included) — a fighter's direction emerges from play, not from a box ticked at hire. Levels 2, 5 and 9 remain forced **+1 Primary**, so identity keeps growing regardless of direction. Only the **campaign stat cap (+6)** limits track growth; **rank stat-allocation caps are creation-time caps and do not constrain leveling.**
 
-Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
+Skill acquisition and starting counts: **undecided**; see [[Settlements/Rules System/Archived/Skills#Acquisition]].
 
 **The track — ten Levels, fixed contents:**
 
@@ -1056,9 +1056,9 @@ Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]]
 
 **MOV is not part of this track.** It stays exactly where it already was — Quick (AGI skill) is the only way to raise it. No collision, no separate MOV-swap option; keeping it purely skill-gated is cleaner narratively and avoids any interaction with Sprint/Charge distances at the top of the track.
 
-Skill acquisition and selection remain undecided; see [[Skills#Acquisition]].
+Skill acquisition and selection remain undecided; see [[Settlements/Rules System/Archived/Skills#Acquisition]].
 
-Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
+Skill acquisition and starting counts: **undecided**; see [[Settlements/Rules System/Archived/Skills#Acquisition]].
 
 > **[Flagged, not blocking]** A fighter who also picks **Tough** (STR skill) as their Level 6 or 10 skill choice can stack it with the Level 7 WND bump — base 1 + Tough's +1 + Level 7's +1 = **WND 3** at the absolute ceiling. This was walked through directly and landed on as acceptable (down from an earlier version that would have reached WND 4) — flagged here so the stacking is visible in the rules text, not just in the design conversation that produced it.
 
@@ -1219,7 +1219,7 @@ The phase closes at **130 Cr + 90 Mat**. Her Materials cap is HQ 75 + Processor 
 - Deployables costs converted to the 1000-Credit scale (§12.6, ×10 conversion off the vault's own stated anchor).
 - Captured and Hardened both fully drafted (§26.3a, §26.3b) — Captured gated to Recruits/Fighters only, with a rescue-raid escape valve, ransom, and a two-stage brainwash path; Hardened grants a free Level.
 - The entire post-battle → Settlement Phase → Battle Prep sequence drafted (§25.5) — this was `Downtime.md`, confirmed `Not Started` in the vault, and everything else in this document that referenced a "Settlement Phase" was assuming content that didn't exist until now.
-Skill acquisition and starting counts: **undecided**; see [[Skills#Acquisition]].
+Skill acquisition and starting counts: **undecided**; see [[Settlements/Rules System/Archived/Skills#Acquisition]].
 - Hidden + objectives resolved (§25, §10): holding costs nothing and doesn't break Hidden; claiming/scoring always requires an Interact, which now explicitly breaks Hidden. Closes the sim's 17.9-point open question in practice.
 - Water killed for good (§21): any structure can be sabotage-charged during any raid using the mechanic the Sabotage scenario already had, no bespoke Water target needed.
 - Raid fairness resolved (§5): defender wins all Priority ties during a raid. One small lever, not a stacked pile of exceptions.

@@ -12,6 +12,6 @@ tags: [settlements/record, settlements/terrain/feature]
 
 # Conveyor Belt
 
-*Mobility · Create-Remove Route*. While running, a model that ends its Move on the belt is carried **+4"** along it in the End Phase — and can stay **Hidden** behind a load as it rides ([[Terrain#Cover]]). Toggle on/off, or reverse direction.
+*Mobility · Create-Remove Route*. While running, a model that ends its Move on the belt is carried **+4"** along it in the End Phase — and can stay **Hidden** behind a load as it rides ([[Settlements/Rules System/Archived/Terrain#Cover]]). Toggle on/off, or reverse direction.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Infrastructure]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Infrastructure]] from them.*

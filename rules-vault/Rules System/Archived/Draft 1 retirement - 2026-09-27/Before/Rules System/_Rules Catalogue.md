@@ -14,7 +14,7 @@ tags:
 > [!tip] Reading this for design review
 > §2 is the whole customisation surface a player touches. §3 is the block for judging whether T1/T2/T3 are correctly spaced. §11 is every hard ceiling in the game, and §12 is the evidence behind the numbers.
 
-**Ruling order:** [[Full Rules System v1]] wins over any phase note. Where this catalogue and the master note disagree, the master note is right and this page needs regenerating.
+**Ruling order:** [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Full Rules System v1]] wins over any phase note. Where this catalogue and the master note disagree, the master note is right and this page needs regenerating.
 
 ---
 
@@ -39,17 +39,17 @@ tags:
 
 *Everything below resolves through this. If a rule needs its own resolution method, it is wrong.*
 
-**The core test, turn structure and house conventions** · source: [[Rules Engine]]
+**The core test, turn structure and house conventions** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules Engine]]
 
-![[Rules Engine]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Rules Engine]]
 
-**Reactions — what a Ready token buys** · source: [[Initiative & Activation]]
+**Reactions — what a Ready token buys** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Initiative & Activation]]
 
-![[Initiative & Activation#^tbl-reaction-options]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Initiative & Activation#^tbl-reaction-options]]
 
-**Movement tests — the AGI checks** · source: [[Movement]]
+**Movement tests — the AGI checks** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Movement]]
 
-![[Movement#^tbl-terrain-movement]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Movement#^tbl-terrain-movement]]
 
 ---
 
@@ -57,37 +57,37 @@ tags:
 
 *Read this block top to bottom to see the whole customisation surface: rank buys stat points, skill acquisition remains undecided, and Credits buy the body and the gun. Nothing else is priced.*
 
-**The stat scale — what each +1 buys** · source: [[Unit Design]]
+**The stat scale — what each +1 buys** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Unit Design]]
 
-![[Unit Design#^tbl-stat-scale]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Unit Design#^tbl-stat-scale]]
 
-**Ranks: stat points, tier caps, Orders, Credits** · source: [[Unit Design]]
+**Ranks: stat points, tier caps, Orders, Credits** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Unit Design]]
 
-![[Unit Design#^tbl-ranks-build-budget]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Unit Design#^tbl-ranks-build-budget]]
 
-**Match Play bodies — the richer starting kit** · source: [[List Building]]
+**Match Play bodies — the richer starting kit** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building]]
 
-![[List Building#^tbl-the-four-ranks]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building#^tbl-the-four-ranks]]
 
-**Campaign Start bodies — lean, meant to grow** · source: [[List Building]]
+**Campaign Start bodies — lean, meant to grow** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building]]
 
-![[List Building#^tbl-the-four-ranks-campaign]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building#^tbl-the-four-ranks-campaign]]
 
-**Crew Rating caps by format** · source: [[List Building]]
+**Crew Rating caps by format** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building]]
 
-![[List Building#^tbl-budget]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building#^tbl-budget]]
 
-**Skill acquisition is undecided** · source: [[Skills]]
+**Skill acquisition is undecided** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]]
 
-![[Skills]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]]
 
-**Shared skill keywords** · source: [[Keywords]]
+**Shared skill keywords** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Keywords]]
 
-![[Keywords]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Keywords]]
 
-**The 10-Level campaign track** · source: [[Progression]]
+**The 10-Level campaign track** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Progression]]
 
-![[Progression#^tbl-level-track]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Progression#^tbl-level-track]]
 
 ---
 
@@ -95,25 +95,25 @@ tags:
 
 *Fifteen skills per stat; acquisition remains undecided.*
 
-**STR** · source: [[Skills]]
+**STR** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]]
 
-![[Skills#^tbl-skills-str]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills#^tbl-skills-str]]
 
-**DEX** · source: [[Skills]]
+**DEX** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]]
 
-![[Skills#^tbl-skills-dex]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills#^tbl-skills-dex]]
 
-**AGI** · source: [[Skills]]
+**AGI** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]]
 
-![[Skills#^tbl-skills-agi]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills#^tbl-skills-agi]]
 
-**INT** · source: [[Skills]]
+**INT** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]]
 
-![[Skills#^tbl-skills-int]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills#^tbl-skills-int]]
 
-**NRV** · source: [[Skills]]
+**NRV** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills]]
 
-![[Skills#^tbl-skills-nrv]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Skills#^tbl-skills-nrv]]
 
 ---
 
@@ -121,25 +121,25 @@ tags:
 
 *Pick a class, spend Credits on characteristics, name the result. The class sets damage, range and rank gate; characteristics do the rest.*
 
-**Classes — the chassis** · source: [[Basic Weapon System]]
+**Classes — the chassis** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Basic Weapon System]]
 
-![[Basic Weapon System#^tbl-1-weapon-classes]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Basic Weapon System#^tbl-1-weapon-classes]]
 
-**Accuracy and harm characteristics** · source: [[Basic Weapon System]]
+**Accuracy and harm characteristics** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Basic Weapon System]]
 
-![[Basic Weapon System#^tbl-damage-armour]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Basic Weapon System#^tbl-damage-armour]]
 
-**Payloads and conditions** · source: [[Basic Weapon System]]
+**Payloads and conditions** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Basic Weapon System]]
 
-![[Basic Weapon System#^tbl-payload-replaces-the-non-wounding-result]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Basic Weapon System#^tbl-payload-replaces-the-non-wounding-result]]
 
-**Use and handling** · source: [[Basic Weapon System]]
+**Use and handling** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Basic Weapon System]]
 
-![[Basic Weapon System#^tbl-handling]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Basic Weapon System#^tbl-handling]]
 
-**Sample armoury — worked builds** · source: [[Basic Weapon System]]
+**Sample armoury — worked builds** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Basic Weapon System]]
 
-![[Basic Weapon System#^tbl-5-sample-armoury]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Basic Weapon System#^tbl-5-sample-armoury]]
 
 ---
 
@@ -147,17 +147,17 @@ tags:
 
 *Every hit does something. A hit either wounds or delivers its payload, never both, and a failed wound becomes Stress — which is the entire fear system.*
 
-**The Injury roll, Down/Out, and WND** · source: [[Damage]]
+**The Injury roll, Down/Out, and WND** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Damage]]
 
-![[Damage]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Damage]]
 
-**Every condition, and the no-stacking rule** · source: [[Conditions]]
+**Every condition, and the no-stacking rule** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Conditions]]
 
-![[Conditions]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Conditions]]
 
-**Break test and the nerve states** · source: [[Morale]]
+**Break test and the nerve states** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Morale]]
 
-![[Morale#^tbl-break-test-end-phase-2-stress]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Morale#^tbl-break-test-end-phase-2-stress]]
 
 ---
 
@@ -165,29 +165,29 @@ tags:
 
 *Bought like a weapon, carried by a fighter, set up with an INT test. This is where INT earns its combat role.*
 
-**Build rating** · source: [[Deployables]]
+**Build rating** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables]]
 
-![[Deployables#^tbl-build-rating-some-things-are-harder-to-build]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables#^tbl-build-rating-some-things-are-harder-to-build]]
 
-**Turrets** · source: [[Deployables]]
+**Turrets** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables]]
 
-![[Deployables#^tbl-family-a-turrets]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables#^tbl-family-a-turrets]]
 
-**Mines — chassis** · source: [[Deployables]]
+**Mines — chassis** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables]]
 
-![[Deployables#^tbl-chassis-how-it-delivers]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables#^tbl-chassis-how-it-delivers]]
 
-**Mines — payload** · source: [[Deployables]]
+**Mines — payload** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables]]
 
-![[Deployables#^tbl-payload-what-it-does-on-detonation]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables#^tbl-payload-what-it-does-on-detonation]]
 
-**Traps** · source: [[Deployables]]
+**Traps** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables]]
 
-![[Deployables#^tbl-family-c-traps]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables#^tbl-family-c-traps]]
 
-**Beacons** · source: [[Deployables]]
+**Beacons** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables]]
 
-![[Deployables#^tbl-family-d-beacons]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables#^tbl-family-d-beacons]]
 
 ---
 
@@ -195,45 +195,45 @@ tags:
 
 *Density alone swung win rate 66 points in simulation, more than any points cost could. Nine to twelve large features, one per 12" square.*
 
-**The three independent properties** · source: [[Terrain]]
+**The three independent properties** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain]]
 
-![[Terrain#^tbl-the-three-properties]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain#^tbl-the-three-properties]]
 
-**Cover values** · source: [[Terrain]]
+**Cover values** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain]]
 
-![[Terrain#^tbl-cover]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain#^tbl-cover]]
 
-**Terrain types and their defaults** · source: [[Terrain]]
+**Terrain types and their defaults** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain]]
 
-![[Terrain#^tbl-terrain-types]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain#^tbl-terrain-types]]
 
-**Hazards** · source: [[Terrain]]
+**Hazards** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain]]
 
-![[Terrain#^tbl-hazards-the-dangerous-overlay]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain#^tbl-hazards-the-dangerous-overlay]]
 
-**Interact verbs and their stats** · source: [[Terrain Interaction]]
+**Interact verbs and their stats** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction]]
 
-![[Terrain Interaction#^tbl-interaction-verbs]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction#^tbl-interaction-verbs]]
 
-**Which stat owns which verb** · source: [[Terrain Interaction]]
+**Which stat owns which verb** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction]]
 
-![[Terrain Interaction#^tbl-stat-ownership]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction#^tbl-stat-ownership]]
 
-**Searching** · source: [[Terrain Interaction]]
+**Searching** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction]]
 
-![[Terrain Interaction#^tbl-searching-and-looting]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction#^tbl-searching-and-looting]]
 
-**Feature damage and repair** · source: [[Terrain Interaction]]
+**Feature damage and repair** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction]]
 
-![[Terrain Interaction#^tbl-in-battle-repair-settlement-hook]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain Interaction#^tbl-in-battle-repair-settlement-hook]]
 
-**Infrastructure vs Deployables** · source: [[Infrastructure]]
+**Infrastructure vs Deployables** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Infrastructure]]
 
-![[Infrastructure#^tbl-infrastructure-vs-deployables]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Infrastructure#^tbl-infrastructure-vs-deployables]]
 
-**The five categories, eight verbs** · source: [[Infrastructure]]
+**The five categories, eight verbs** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Infrastructure]]
 
-![[Infrastructure#^tbl-the-five-categories]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Infrastructure#^tbl-the-five-categories]]
 
 ---
 
@@ -241,21 +241,21 @@ tags:
 
 *You win on objectives, never on kills.*
 
-**The scenario template** · source: [[Scenarios]]
+**The scenario template** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Scenarios]]
 
-![[Scenarios#^tbl-the-scenario-template]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Scenarios#^tbl-the-scenario-template]]
 
-**The Twist** · source: [[Scenarios]]
+**The Twist** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Scenarios]]
 
-![[Scenarios#^tbl-the-twist-roll-1d6-at-setup]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Scenarios#^tbl-the-twist-roll-1d6-at-setup]]
 
-**Battlefield events** · source: [[Events]]
+**Battlefield events** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Events]]
 
-![[Events#^tbl-battlefield-events]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Events#^tbl-battlefield-events]]
 
-**Hacking range bands** · source: [[Hacking]]
+**Hacking range bands** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Hacking]]
 
-![[Hacking#^tbl-range-bands]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Hacking#^tbl-range-bands]]
 
 ---
 
@@ -263,57 +263,57 @@ tags:
 
 *Space is the scarcest resource: 23 entries against room for about ten.*
 
-**Founding locations** · source: [[Settlement]]
+**Founding locations** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Settlement]]
 
-![[Settlement#^tbl-choosing-a-location]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Settlement#^tbl-choosing-a-location]]
 
-**The canvas** · source: [[Structures]]
+**The canvas** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]]
 
-![[Structures#^tbl-the-settlement-canvas]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-the-settlement-canvas]]
 
-**Footprint classes** · source: [[Structures]]
+**Footprint classes** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]]
 
-![[Structures#^tbl-footprint-classes]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-footprint-classes]]
 
-**The free starting four** · source: [[Structures]]
+**The free starting four** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]]
 
-![[Structures#^tbl-starting-structures-five]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-starting-structures-five]]
 
-**Sustain** · source: [[Structures]]
+**Sustain** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]]
 
-![[Structures#^tbl-sustain-keep-people-alive-keep-the-grid-up]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-sustain-keep-people-alive-keep-the-grid-up]]
 
-**Convert** · source: [[Structures]]
+**Convert** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]]
 
-![[Structures#^tbl-convert-turn-one-resource-into-another-and-m]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-convert-turn-one-resource-into-another-and-m]]
 
-**Operate** · source: [[Structures]]
+**Operate** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]]
 
-![[Structures#^tbl-operate-what-you-can-do-outside-the-walls]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-operate-what-you-can-do-outside-the-walls]]
 
-**Recover** · source: [[Structures]]
+**Recover** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]]
 
-![[Structures#^tbl-recover-people-come-back]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-recover-people-come-back]]
 
-**Defend — the raid board** · source: [[Structures]]
+**Defend — the raid board** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]]
 
-![[Structures#^tbl-defend-this-is-the-raid-board]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-defend-this-is-the-raid-board]]
 
-**HQ tiers** · source: [[Structures]]
+**HQ tiers** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]]
 
-![[Structures#^tbl-hq-tiers]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-hq-tiers]]
 
-**Upgrade ladders** · source: [[Structures]]
+**Upgrade ladders** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]]
 
-![[Structures#^tbl-upgrade-ladders]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-upgrade-ladders]]
 
-**Worker benefits** · source: [[Structures]]
+**Worker benefits** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]]
 
-![[Structures#^tbl-worker-benefits]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-worker-benefits]]
 
-**Space budget** · source: [[Structures]]
+**Space budget** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]]
 
-![[Structures#^tbl-space-budget]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures#^tbl-space-budget]]
 
 ---
 
@@ -321,37 +321,37 @@ tags:
 
 *Credits buy what you own; Crew Rating gates what you field.*
 
-**The three resources** · source: [[Economy]]
+**The three resources** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Economy]]
 
-![[Economy#^tbl-three-resources]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Economy#^tbl-three-resources]]
 
-**Power draw by tier** · source: [[Economy]]
+**Power draw by tier** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Economy]]
 
-![[Economy#^tbl-power-draw-by-tier]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Economy#^tbl-power-draw-by-tier]]
 
-**Storage containers** · source: [[Economy]]
+**Storage containers** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Economy]]
 
-![[Economy#^tbl-storage-containers]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Economy#^tbl-storage-containers]]
 
-**The Fate table** · source: [[Campaign]]
+**The Fate table** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Campaign]]
 
-![[Campaign#^tbl-post-battle-the-fate-table]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Campaign#^tbl-post-battle-the-fate-table]]
 
-**Glorious Deeds** · source: [[Campaign]]
+**Glorious Deeds** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Campaign]]
 
-![[Campaign#^tbl-glorious-deeds]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Campaign#^tbl-glorious-deeds]]
 
-**The territory card** · source: [[Territory]]
+**The territory card** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Territory]]
 
-![[Territory#^tbl-the-territory-card]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Territory#^tbl-the-territory-card]]
 
-**The default loot table** · source: [[Territory]]
+**The default loot table** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Territory]]
 
-![[Territory#^tbl-the-default-loot-table]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Territory#^tbl-the-default-loot-table]]
 
-**Control states** · source: [[Territory]]
+**Control states** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Territory]]
 
-![[Territory#^tbl-control-states]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Territory#^tbl-control-states]]
 
 ---
 
@@ -359,9 +359,9 @@ tags:
 
 *These are load-bearing. Every one of them exists because something broke without it.*
 
-**The rejected/allowed log, including the WND 3 ceiling** · source: [[Out of Scope — What Settlements is NOT]]
+**The rejected/allowed log, including the WND 3 ceiling** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Out of Scope — What Settlements is NOT]]
 
-![[Out of Scope — What Settlements is NOT#^tbl-4-rejected-ideas-log]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Out of Scope — What Settlements is NOT#^tbl-4-rejected-ideas-log]]
 
 ---
 
@@ -369,9 +369,9 @@ tags:
 
 *Balance evidence, so a number can be argued with rather than asserted.*
 
-**Spread by board legality** · source: [[List Building]]
+**Spread by board legality** · source: [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building]]
 
-![[List Building#^tbl-validation]]
+![[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building#^tbl-validation]]
 
 ---
 
@@ -382,29 +382,29 @@ tags:
 > [!question] Anchored tables this catalogue does not show
 > Either add them to a section in `build_catalogue.py`, or accept them as note-local detail.
 >
-> - [[Attack Dice — Sim Findings]] `^tbl-1-p-at-least-one-wound`
-> - [[Attack Dice — Sim Findings]] `^tbl-2-e-wounds-per-action`
-> - [[Attack Dice — Sim Findings]] `^tbl-3-e-stress-per-action`
-> - [[Attack Dice — Sim Findings]] `^tbl-4-activations-to-down`
-> - [[Attack Dice — Sim Findings]] `^tbl-5-auto-include-check`
-> - [[Attack Dice — Sim Findings]] `^tbl-6-derived-fair-price`
-> - [[Attack Dice — Sim Findings]] `^tbl-candidate-down-rules`
-> - [[Board Representation]] `^tbl-condition-status-tokens`
-> - [[Board Representation]] `^tbl-terrain`
-> - [[Deployables]] `^payload-what-it-does-on-detonation`
-> - [[Full Rules System v1]] `^tbl-season-score`
-> - [[Full Rules System v1]] `^tbl-storage-caps`
-> - [[Infrastructure]] `^tbl-custom-battles`
-> - [[List Building]] `^armour-equipment`
-> - [[List Building]] `^tbl-armour-equipment`
-> - [[List Building]] `^tbl-armour-equipment-2`
-> - [[Morale]] `^tbl-break-test-end-phase-2-stress-2`
-> - [[Progression]] `^levels-the-fixed-advancement-track`
-> - [[Stress Persistence — Sim Findings]] `^tbl-1-where-stress-comes-from`
-> - [[Stress Persistence — Sim Findings]] `^tbl-2-cost-per-revival`
-> - [[Stress Persistence — Sim Findings]] `^tbl-3-break-test-failure-odds`
-> - [[Structures]] `^tbl-groundworks-the-expansion-project`
-> - [[Structures]] `^tbl-storage-caps-what-you-can-hold-and-what-a-ra`
-> - [[Structures]] `^tbl-three-ways-to-grow-and-how-to-tell-them-apar`
-> - [[Structures]] `^worker-benefits`
-> - [[Terrain]] `^tbl-interact`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Attack Dice — Sim Findings]] `^tbl-1-p-at-least-one-wound`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Attack Dice — Sim Findings]] `^tbl-2-e-wounds-per-action`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Attack Dice — Sim Findings]] `^tbl-3-e-stress-per-action`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Attack Dice — Sim Findings]] `^tbl-4-activations-to-down`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Attack Dice — Sim Findings]] `^tbl-5-auto-include-check`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Attack Dice — Sim Findings]] `^tbl-6-derived-fair-price`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Attack Dice — Sim Findings]] `^tbl-candidate-down-rules`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Board Representation]] `^tbl-condition-status-tokens`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Board Representation]] `^tbl-terrain`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Deployables]] `^payload-what-it-does-on-detonation`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Full Rules System v1]] `^tbl-season-score`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Full Rules System v1]] `^tbl-storage-caps`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Infrastructure]] `^tbl-custom-battles`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building]] `^armour-equipment`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building]] `^tbl-armour-equipment`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/List Building]] `^tbl-armour-equipment-2`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Morale]] `^tbl-break-test-end-phase-2-stress-2`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Progression]] `^levels-the-fixed-advancement-track`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Stress Persistence — Sim Findings]] `^tbl-1-where-stress-comes-from`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Stress Persistence — Sim Findings]] `^tbl-2-cost-per-revival`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Stress Persistence — Sim Findings]] `^tbl-3-break-test-failure-odds`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] `^tbl-groundworks-the-expansion-project`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] `^tbl-storage-caps-what-you-can-hold-and-what-a-ra`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] `^tbl-three-ways-to-grow-and-how-to-tell-them-apar`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Structures]] `^worker-benefits`
+> - [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Terrain]] `^tbl-interact`

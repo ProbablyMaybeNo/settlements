@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Whenever this unit DOWNS an enemy, remove 2 of its STRESS.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

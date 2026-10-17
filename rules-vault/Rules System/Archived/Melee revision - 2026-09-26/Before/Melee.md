@@ -11,8 +11,8 @@ tags: [settlements/phase, settlements/stage/s2]
 # 14 · Melee
 > **S2 Core Combat** · status **Drafted** · build order **8**
 
-**Depends on:** [[Unit Design]], [[Movement]]
-**Feeds into:** [[Damage]]
+**Depends on:** [[Settlements/Rules System/Archived/Unit Design]], [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Movement]]
+**Feeds into:** [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Damage]]
 **Raw dependency (from Notion):** Unit Design, Movement
 
 ## Focus
@@ -31,7 +31,7 @@ The Rules column should nail down:
 
 ![[core-000 Core Test#Text]]
 
-Engagement conventions → [[Rules Engine#House Conventions]] (Engaged within 1"; enter by Charge or Move-in).
+Engagement conventions → [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Rules Engine#House Conventions]] (Engaged within 1"; enter by Charge or Move-in).
 
 ## Working rules / decisions
 
@@ -47,7 +47,7 @@ Melee is an **opposed** test — a brawler really is harder to hit than a shakin
 
 - **Highest total wins. Ties go to the defender.**
 - Some weapons/skills swap the stat — an **AGILE weapon** may use **AGI**; a heavy weapon is **STR only** (see [[Weapons]]).
-- The **winner lands the hit** → **Injury roll** (see [[Damage]]).
+- The **winner lands the hit** → **Injury roll** (see [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Damage]]).
 - **Facing does not apply in melee.** Once Engaged, either fighter attacks regardless of which way the models face.
 
 ### Charging
@@ -56,10 +56,10 @@ Melee is an **opposed** test — a brawler really is harder to hit than a shakin
 - **Charge vs Move-in:** charging needs LOS (terrain blocking sight blocks the charge) and grants +1; moving in works anywhere but gives no bonus. That's the trade.
 
 ### Losing a melee
-The loser takes the **Injury roll** ([[Damage]]): a **wound** costs a WND (→ **Out of Action** at 0), while a **non-wounding** blow gives **+1 Stress** (**Shaken**, −1 next turn — [[Morale]]). One or the other, never both.
+The loser takes the **Injury roll** ([[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Damage]]): a **wound** costs a WND (→ **Out of Action** at 0), while a **non-wounding** blow gives **+1 Stress** (**Shaken**, −1 next turn — [[Settlements/Rules System/Archived/Melee revision - 2026-09-26/Before/Morale]]). One or the other, never both.
 
 ## Rule ledger
 - [[core-003 Melee]]
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

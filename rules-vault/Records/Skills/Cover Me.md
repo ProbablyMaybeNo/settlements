@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Once per turn, when an enemy in LOS SHOOTS a friendly, intervene with a free SHOOTING ATTACK resolved as an opposed DEX test. On success the enemy attack misses; on failure the friendly becomes PINNED and SHAKEN. Damage/Stress resolution requires ruling.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

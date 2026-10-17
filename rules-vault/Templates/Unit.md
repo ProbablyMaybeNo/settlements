@@ -27,4 +27,4 @@ tags: [settlements/unit]
 ## Notes / narrative
 
 ---
-_Statline defined in [[Unit Design]]. See [[Rules System MOC]]._
+_Statline defined in [[Settlements/Rules System/Archived/Unit Design]]. See [[Settlements/Rules System/Archived/Rules System MOC]]._

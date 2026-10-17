@@ -11,8 +11,8 @@ tags: [settlements/phase, settlements/stage/s4]
 # 19 · Campaign
 > **S4 Settlement & Campaign** · status **Drafted** · build order **18**
 
-**Depends on:** [[Scenarios]], [[Settlement]]
-**Feeds into:** [[Progression]], [[Territory]], [[Downtime]], [[Events]], [[Narrative]], [[Diplomacy]], [[Solo & Co-op]]
+**Depends on:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Scenarios]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement]]
+**Feeds into:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Territory]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Downtime]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Events]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Narrative]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Diplomacy]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Solo & Co-op]]
 **Raw dependency (from Notion):** Scenarios, Settlement
 
 ## Focus
@@ -28,11 +28,11 @@ The Rules column should nail down:
 ## Working rules / decisions
 
 ### Post-battle sequence
-This is **Phase 1** of the campaign turn — the full three-phase cycle lives in [[Downtime]].
+This is **Phase 1** of the campaign turn — the full three-phase cycle lives in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Downtime]].
 
 1. **Survival** — resolve each unit's fate (below).
-2. **Level-ups** — apply every qualifying trigger from the battle to each survivor, subject to the **6-source soft cap**; anyone crossing a Level resolves it now (see [[Progression]]). *(This replaced the old freeform Advance spend on 2026-08-05.)*
-3. **Resources** — bank scenario Resources for the crew, capped by storage (see [[Core Game Format]], [[Economy]]).
+2. **Level-ups** — apply every qualifying trigger from the battle to each survivor, subject to the **6-source soft cap**; anyone crossing a Level resolves it now (see [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]]). *(This replaced the old freeform Advance spend on 2026-08-05.)*
+3. **Resources** — bank scenario Resources for the crew, capped by storage (see [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Core Game Format]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy]]).
 
 ### Survival — who is Safe
 A unit is **Safe** (no roll) if, at the end of the battle, it:
@@ -46,10 +46,10 @@ Any unit that ends the battle **Down and alone**, or that **bled out** during it
 > [!important] A natural 1 is always Dead; a natural 10 is always Hardened
 > Fate modifiers shift every other result but never overwrite the die's own
 > extremes, and **total Fate modifiers are capped at +2**
-> ([[Full Rules System v1]] §26.3). Without this rule a staffed Med-bay made
+> ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §26.3). Without this rule a staffed Med-bay made
 > death arithmetically impossible.
 
-**+1 with a Med-bay**, **+2 if that Med-bay has an assigned worker** ([[Structures#Worker benefits]]). *(The old "Tier-1 worker" wording went with the Proficiency track, cut 2026-08-05 — a worker is assigned or not.)*
+**+1 with a Med-bay**, **+2 if that Med-bay has an assigned worker** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#Worker benefits]]). *(The old "Tier-1 worker" wording went with the Proficiency track, cut 2026-08-05 — a worker is assigned or not.)*
 
 | d10 | Fate | Specific result | Effect |
 |:---:|---|---|---|
@@ -64,7 +64,7 @@ Any unit that ends the battle **Down and alone**, or that **bled out** during it
 
 **Specialists and Leaders cannot be Captured** — a 4–5 for either re-rolls onto the Lasting Scar band. Ranked fighters are too dangerous, too well-protected, or too valuable to bag cleanly; only Recruits and Fighters get taken alive.
 
-**2–3 and 6–8 are Scars** for the third-Scar retirement rule ([[Progression]]). **Captured is not a Scar** — it is a separate campaign thread. **Scars never touch Crew Rating** — pure rules penalties, no refund.
+**2–3 and 6–8 are Scars** for the third-Scar retirement rule ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]]). **Captured is not a Scar** — it is a separate campaign thread. **Scars never touch Crew Rating** — pure rules penalties, no refund.
 
 ### Captured — resolution
 1. The fighter is **held by the capturing crew**, unavailable to their owner for the owner's **next battle**.
@@ -77,26 +77,26 @@ Any unit that ends the battle **Down and alone**, or that **bled out** during it
 So the captor picks between a guaranteed half-price payday and a two-phase gamble for a free permanent recruit that can end with nothing.
 
 ### Glorious Deeds
-*The signature-feat Level trigger, named and listed 2026-08-05 ([[Full Rules System v1]] §26.2). This retires the "name WIP" placeholder in [[Core Game Format]].*
+*The signature-feat Level trigger, named and listed 2026-08-05 ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §26.2). This retires the "name WIP" placeholder in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Core Game Format]].*
 
-A **Glorious Deed** is a high-risk feat that earns a fighter a Level trigger. **Once per fighter per battle** — a fighter banks at most one Deed no matter how many they perform, and the whole battle is still capped at **6 distinct Level sources per fighter** ([[Progression]]).
+A **Glorious Deed** is a high-risk feat that earns a fighter a Level trigger. **Once per fighter per battle** — a fighter banks at most one Deed no matter how many they perform, and the whole battle is still capped at **6 distinct Level sources per fighter** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]]).
 
 | Deed | Earned by |
 |---|---|
 | **Daredevil** | Clear a gap on a Jump/Leap test |
-| **Wrecking Crew** | Kill using a terrain verb ([[Infrastructure]]) |
+| **Wrecking Crew** | Kill using a terrain verb ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Infrastructure]]) |
 | **Duelist** | Win a head-to-head melee |
 | **Last One Standing** | Be the crew's only survivor still standing |
 | **Medic** | Revive a **Down** friendly |
 | **Steady Hand** | Rally an ally, or Talk Them Down |
 | **Ghost** | Finish the battle never having been targeted |
-| **Ambush Predator** | Land an Ambush ([[Conditions#Stealth & Ambush]]) |
-| **Trapper** | Kill with a trap or deployable ([[Deployables]]) |
+| **Ambush Predator** | Land an Ambush ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Conditions#Stealth & Ambush]]) |
+| **Trapper** | Kill with a trap or deployable ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]]) |
 | **Against the Odds** | Win a fight while carrying **2+ Stress** |
 
 ^tbl-glorious-deeds
 
-Each **territory card** also carries **1–5 Territory Deeds** themed to that location ([[Territory]]).
+Each **territory card** also carries **1–5 Territory Deeds** themed to that location ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Territory]]).
 
 > [!warning] Two names collide — **still open, needs a ruling**
 > **Wrecking Crew** is both this Deed and a **T3 STR skill** ([[Skill Paths]]), and **Trapper** is both this Deed and a **T1 INT skill**. A player asking "did I earn Wrecking Crew?" cannot tell which system is being talked about.
@@ -104,11 +104,11 @@ Each **territory card** also carries **1–5 Territory Deeds** themed to that lo
 > **Rename the Deeds, not the skills** — the skills are referenced from the stat ladder and the costing engine, the Deeds only from this table. Suggested: **Wrecking Crew → Demolition Man** · **Trapper → Sprung the Trap**. Not applied; it is a naming call, not a propagation fix.
 
 ### The third Scar — forced retirement
-*Options drafted 2026-08-05 ([[Full Rules System v1]] §26.4). **2–3** and **6–8** on the Fate table are Scars; **Captured is not**.*
+*Options drafted 2026-08-05 ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §26.4). **2–3** and **6–8** on the Fate table are Scars; **Captured is not**.*
 
-On taking a **third Scar**, a fighter must retire. Choose one, resolved in the **Settlement Phase** ([[Downtime]]):
+On taking a **third Scar**, a fighter must retire. Choose one, resolved in the **Settlement Phase** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Downtime]]):
 
-- **Reassign** to Worker — the fighter leaves the crew and takes a structure slot ([[Structures#Worker benefits]]).
+- **Reassign** to Worker — the fighter leaves the crew and takes a structure slot ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#Worker benefits]]).
 - **One last mission** — field them for one more battle, then retire regardless of the outcome.
 - **Special treatment** — a **T2 Med-bay**, at significant cost, **heals one Scar**. **Once per career, full stop.**
 - **Retire outright.**
@@ -116,10 +116,10 @@ On taking a **third Scar**, a fighter must retire. Choose one, resolved in the *
 > [!success] The once-per-career cap on Special Treatment is measured, not taste — T9
 > Uncapped, Special Treatment gets bought **3.98 times per 20-battle campaign** — routine rather than exceptional. Capping it at once per career brings that to **1.00**. **Do not ship it uncapped.**
 
-> [!question] Fate is a first-draft spread — tune once campaigns are played. The per-injury effects, Captured and Hardened were drafted 2026-08-05 ([[Full Rules System v1]] §26.3), closing the long-standing gap where the table pointed at scar content that had never been written. Scars hook into [[Progression]] and the *every scar tells a story* tenet.
+> [!question] Fate is a first-draft spread — tune once campaigns are played. The per-injury effects, Captured and Hardened were drafted 2026-08-05 ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §26.3), closing the long-standing gap where the table pointed at scar content that had never been written. Scars hook into [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]] and the *every scar tells a story* tenet.
 
 ## Rule ledger
 - [[adv-005 Campaign rules]]
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

@@ -52,7 +52,7 @@ updated: 2026-08-21
 |---|---|:--:|---|---|
 | **Frostgrave / Stargrave** | `Frostgrave` + `Stargrave` | 39 | primary (core books only) | ⭐⭐ Stargrave is sci-fi with a Hacker soldier type — feeds the tech layer. Supplements unread |
 | **BLKOUT** | `BLKOUT` | 17 | primary — but **one** file, read 2026-07, no capture on file | ⭐⭐ 16 unread files incl. Badlands + Impact expansions. Our stated battle-feel target |
-| **Rangers of Shadow Deep** | `RoSD` | 16 | primary (core only) | ⭐ Core already mined for [[Solo & Co-op]]; supplements likely thin |
+| **Rangers of Shadow Deep** | `RoSD` | 16 | primary (core only) | ⭐ Core already mined for [[Settlements/Rules System/Archived/Solo & Co-op]]; supplements likely thin |
 | **Trench Crusade** | `TRENCH CRUSADE` | 15 | primary (v1.6.3 playtest + BattleScribe) | ⭐⭐ Playtest moves fast — 15 files may hold a newer revision than the one our numbers came from |
 | **Warhammer 40,000** | `40k` | 14 | ⚠️ *wargear arc traced* — **secondary** | ⭐ Codices, not core rules. Low value for us |
 | **Kill Team** | `Kill Team` | 1 | ⚠️ *three editions compared* — **secondary** | ⭐ |

@@ -19,4 +19,4 @@ tags: [settlements/record, settlements/settlement/structure]
 
 The floor benefit — bought by the segment; shapes the whole raid board
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Structures]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Structures]] from them.*

@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Gain +1 WOUND, subject to the unit's Wound ceiling.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

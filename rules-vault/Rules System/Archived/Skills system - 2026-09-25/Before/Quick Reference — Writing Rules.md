@@ -7,7 +7,7 @@ cssclasses: [quickref]
 # ⌨️ Quick Reference
 
 > [!tip] Dock me on the right
-> Right-click this tab → **Move to right sidebar** (or drag the tab into the right panel). Keep it open while you write. Full detail: [[Obsidian Guide — Building Settlements]].
+> Right-click this tab → **Move to right sidebar** (or drag the tab into the right panel). Keep it open while you write. Full detail: [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Obsidian Guide — Building Settlements]].
 
 ---
 ## ✅ Finish a roadmap step
@@ -129,4 +129,4 @@ Every S2 combat note already has an **"Inherits from the engine"** panel doing t
 | Write rules | the **phase notes** |
 
 ---
-*Keep this docked. See also [[Rules System MOC]] · [[Rules System — Master Roadmap]].*
+*Keep this docked. See also [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System — Master Roadmap]].*

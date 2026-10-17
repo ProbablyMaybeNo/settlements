@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/terrain/feature]
 
 *Utilities · Field a Zone / Displace*. Vent a blast: **Displace 2"** every model in the vent's line (off a ledge → **FALL**), and/or fill an area with **3" Dense Smoke** (Blind + Concealing, per [[Weapons]] Smoke). Blocks a crossing and covers movement at once.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Infrastructure]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Infrastructure]] from them.*

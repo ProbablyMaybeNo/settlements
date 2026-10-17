@@ -18,4 +18,4 @@ tags: [settlements/record, settlements/settlement/structure]
 
 Pre-**battle** information: see a Twist, choose attacker/defender, reroll deployment
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Structures]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Structures]] from them.*

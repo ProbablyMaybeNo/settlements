@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/gear/deployable]
 
 Within **1"** → the model is **Snared** (cannot move; Action + **STR 7+** to break free). A hard single-model stop.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Deployables]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Deployables]] from them.*

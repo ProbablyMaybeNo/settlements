@@ -11,7 +11,7 @@ tags: [settlements/phase, settlements/stage/s4]
 # 24 · Narrative
 > **S4 Settlement & Campaign** · status **Not Started** · build order **24**
 
-**Depends on:** [[Campaign]]
+**Depends on:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign]]
 **Feeds into:** —
 **Raw dependency (from Notion):** Campaign
 
@@ -98,4 +98,4 @@ Settlements takes place in 2050 in an alternate history planet Earth. In the yea
 _none_
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

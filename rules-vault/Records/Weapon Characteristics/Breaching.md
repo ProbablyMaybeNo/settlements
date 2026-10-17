@@ -14,6 +14,6 @@ tags: [settlements/record, settlements/gear/characteristic]
 
 # Breaching
 
-**+2** on STR tests to Force or break **Breachable** terrain ([[Terrain Interaction]]).
+**+2** on STR tests to Force or break **Breachable** terrain ([[Settlements/Rules System/Archived/Terrain Interaction]]).
 
 *Record. These properties are the source of truth — `records.py` regenerates the table in [[Weapons]] from them.*

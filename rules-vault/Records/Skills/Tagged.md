@@ -16,4 +16,4 @@ tags: [settlements/record, settlements/crew/skill]
 
 Test INT within 12 inches and LOS of an UNCONTESTED objective. On success your crew controls it until an enemy captures it. Your crew may have only one TAGGED objective at a time.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Skills]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Skills]] from them.*

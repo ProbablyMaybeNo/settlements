@@ -12,6 +12,6 @@ tags: [settlements/record, settlements/combat/condition]
 
 # Overloaded
 
-a terminal used to **interrupt** a hack ([[Hacking]]) powers down: it cannot be accessed or used to interrupt again until the **start of next turn**.
+a terminal used to **interrupt** a hack ([[Settlements/Rules System/Archived/Hacking]]) powers down: it cannot be accessed or used to interrupt again until the **start of next turn**.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

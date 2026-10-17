@@ -11,8 +11,8 @@ tags: [settlements/phase, settlements/stage/s4]
 # 11 · Economy
 > **S4 Settlement & Campaign** · status **Drafted** · build order **17**
 
-**Depends on:** [[Settlement]]
-**Feeds into:** [[Balance]]
+**Depends on:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement]]
+**Feeds into:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Balance]]
 **Raw dependency (from Notion):** Settlement
 
 ## Focus
@@ -27,7 +27,7 @@ The Rules column should nail down:
 
 ## Working rules / decisions
 
-*Drafted 2026-08-05 from [[Full Rules System v1]] §17.3, §19, §20 and §29. The numbers here are the ones the master note rules; the **sink** question at the bottom is the one thing still genuinely open.*
+*Drafted 2026-08-05 from [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §17.3, §19, §20 and §29. The numbers here are the ones the master note rules; the **sink** question at the bottom is the one thing still genuinely open.*
 
 ### Three resources, two of them banked
 
@@ -42,14 +42,14 @@ The Rules column should nail down:
 *(Water was cut 2026-08-01. Housing slots are the only population brake, and there is **no per-head upkeep** — confirmed unneeded and actively harmful.)*
 
 > [!important] Credits do two jobs, and that is deliberate
-> **Credits buy what you own; Crew Rating gates what you field** ([[List Building]]). One number does both, so there is no second currency to convert between. **Stashed and unequipped gear counts 0** toward Rating — you paid to own it, it only occupies Rating when it is on the table.
+> **Credits buy what you own; Crew Rating gates what you field** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]]). One number does both, so there is no second currency to convert between. **Stashed and unequipped gear counts 0** toward Rating — you paid to own it, it only occupies Rating when it is on the table.
 
 ### Income
 
-- **Battle rewards.** Both crews bank Resources from scenario-defined sources — objectives, kills, control, Glorious Deeds — **regardless of who won** ([[Core Game Format]]). Killing pays even when it doesn't win.
-- **Gatherers.** The **Processor** produces Materials, the **Salvage Yard** produces Credits, once per Settlement Phase. An assigned worker adds **+1** to either ([[Structures#Worker benefits]]).
-- **Scavenge dispatches.** One roll on the territory's Loot table, no battle required ([[Downtime]] · [[Territory#The default loot table]]).
-- **Searching and looting** mid-battle, on the same table ([[Terrain Interaction#Searching and looting]]).
+- **Battle rewards.** Both crews bank Resources from scenario-defined sources — objectives, kills, control, Glorious Deeds — **regardless of who won** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Core Game Format]]). Killing pays even when it doesn't win.
+- **Gatherers.** The **Processor** produces Materials, the **Salvage Yard** produces Credits, once per Settlement Phase. An assigned worker adds **+1** to either ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures#Worker benefits]]).
+- **Scavenge dispatches.** One roll on the territory's Loot table, no battle required ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Downtime]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Territory#The default loot table]]).
+- **Searching and looting** mid-battle, on the same table ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain Interaction#Searching and looting]]).
 - **Raiding.** Taking what an opponent has banked, out of the containers it sits in (below).
 
 > [!success] The reward rate is checked — T12
@@ -57,9 +57,9 @@ The Rules column should nail down:
 
 ### Founding budget
 
-**125 Materials + 75 Credits.** 125 Materials is roughly **two Tier-1 structures** on top of the four free starters ([[Settlement#Starting structures]]). *(Halved with the rest of the economy on the 2026-08-20 rescale, preserving the stated intent.)*
+**125 Materials + 75 Credits.** 125 Materials is roughly **two Tier-1 structures** on top of the four free starters ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement#Starting structures]]). *(Halved with the rest of the economy on the 2026-08-20 rescale, preserving the stated intent.)*
 
-The **whole 23-structure catalogue is open from turn one** — there are **no prerequisites**, so a founding player is choosing what to specialise in rather than climbing a tree ([[Structures]]).
+The **whole 23-structure catalogue is open from turn one** — there are **no prerequisites**, so a founding player is choosing what to specialise in rather than climbing a tree ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]]).
 
 ### Power — output vs draw
 
@@ -73,12 +73,12 @@ The **Generator** produces **+5**. Every powered structure has a **draw** scaled
 
 ^tbl-power-draw-by-tier
 
-A structure left **unpowered is Disabled for the round** — it is Functional or Disabled, never partly working ([[Structures]]).
+A structure left **unpowered is Disabled for the round** — it is Functional or Disabled, never partly working ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]]).
 
 The four starters draw **3** — HQ 1 + Processor 1 + Salvage Yard 1 — against the Generator's **+5**, so a new settlement opens with **two spare**. More output means another Generator or an upgrade; never a free multiplier.
 
 > [!check] Reconciled — Generator **+5**, not +3
-> [[Structures]] carried **+3** with a `POINTS-DECISIONS.md` **D9** conflict flagged against it. [[Full Rules System v1]] §19 rules **+5** with the T1/T2/T3 draw ladder above, which agrees with D9. **+5 is the number**; the old +3 and its "start at capacity" tension note are retired.
+> [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] carried **+3** with a `POINTS-DECISIONS.md` **D9** conflict flagged against it. [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §19 rules **+5** with the T1/T2/T3 draw ladder above, which agrees with D9. **+5 is the number**; the old +3 and its "start at capacity" tension note are retired.
 
 ### Storage, caps and overflow
 
@@ -97,18 +97,18 @@ Four containers, each with a different raid exposure:
 
 Two other caps run on the same principle:
 
-- **Housing** — **12** body slots from the HQ, **+6 per Bunkhouse**. Housing is the **only** population brake ([[List Building]]).
-- **Equipment** — **30** slots to start, **+30 per Armory tier** ([[Structures]]).
+- **Housing** — **12** body slots from the HQ, **+6 per Bunkhouse**. Housing is the **only** population brake ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]]).
+- **Equipment** — **30** slots to start, **+30 per Armory tier** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]]).
 
 ### Sinks
 
 Where Credits and Materials actually go:
 
 - **Materials** → structures, **upgrade tiers**, **Groundworks**, **repair at a flat 15 per structure**, research up the Fabricator ladder, crafting at the Workbench/Workshop.
-- **Credits** → rank bodies, built weapons, armour, equipment and deployables, **Levels** (a stat point off the measured ladder · **10/20/30** per T1/T2/T3 skill · **20** for the Level-7 wound), Chems, and **ransoming a captured fighter back at half their Credits cost** ([[Campaign]]).
+- **Credits** → rank bodies, built weapons, armour, equipment and deployables, **Levels** (a stat point off the measured ladder · **10/20/30** per T1/T2/T3 skill · **20** for the Level-7 wound), Chems, and **ransoming a captured fighter back at half their Credits cost** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign]]).
 
 > [!info] The real anti-snowball valve is Crew Rating, not a tax
-> Veterans get **more expensive as they Advance** and Scars **refund nothing** ([[Progression]] · [[List Building]]). So the longer a campaign runs, the **smaller** your fielded crew gets, because your best fighters crowd out rookies on the Rating cap. That is the valve — an upkeep tax was tried, measured, and cut as both unnecessary and harmful.
+> Veterans get **more expensive as they Advance** and Scars **refund nothing** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]]). So the longer a campaign runs, the **smaller** your fielded crew gets, because your best fighters crowd out rookies on the Rating cap. That is the valve — an upkeep tax was tried, measured, and cut as both unnecessary and harmful.
 
 ### Open — the economy sink
 
@@ -117,22 +117,22 @@ Where Credits and Materials actually go:
 >
 > This is **not a balance danger** — nobody is winning unfairly — it is closer to a design *waste*: a wealthy settlement's surplus isn't buying interesting decisions, it's idling. The fix is **more expensive high-tier things to build**, or **ongoing costs**, so that wealth is doing something.
 >
-> Nothing in the 2026-08-05 pass addressed it, and it is the reason [[Territory#The default loot table|the loot table]] is deliberately left untuned — loot is one of the few natural places to route a sink fix through.
+> Nothing in the 2026-08-05 pass addressed it, and it is the reason [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Territory#The default loot table|the loot table]] is deliberately left untuned — loot is one of the few natural places to route a sink fix through.
 
 ## Open dials
 - [ ] **The sink** (above) — the headline item.
 - [ ] Storage numbers — the actual caps for HQ base, gatherer buffer, Storehouse and Vault.
 - [ ] **How much a successful raider actually takes** from each container.
-- [ ] Per-structure Materials costs are drafted in [[Structures]] but **untested** — HQ tiers, Med-bay and Mess Hall especially.
-- [ ] Territory **supply requirements** per cycle ([[Territory]]).
-- [x] **Stat-point Level pricing** — the flat 15 is gone; stat levels read off the **measured ladder**, which is non-flat *and* stat-dependent ([[Progression]]). The old "16–34 vs 15" underprice figure was contaminated and is retired.
+- [ ] Per-structure Materials costs are drafted in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Structures]] but **untested** — HQ tiers, Med-bay and Mess Hall especially.
+- [ ] Territory **supply requirements** per cycle ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Territory]]).
+- [x] **Stat-point Level pricing** — the flat 15 is gone; stat levels read off the **measured ladder**, which is non-flat *and* stat-dependent ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]]). The old "16–34 vs 15" underprice figure was contaminated and is retired.
 - [ ] **AGI is unpriced by construction** — the engine reads it only inside Dodge and `DODGE_ON` is False, so it measures exactly zero. Priced by analogy only.
 - [x] The **+1 WND price** is **20 Credits** on the 850 scale, derived from the measured value of heavy armour (−2 on the injury roll, the same 20 Cr) — both buy the same thing, the model staying on the table longer. C-tier: derived, not measured. Was 45 with nothing behind it.
-- [ ] Whether owned gear is **also** Credit-costed to field (two-gate) or ownership replaces the cost — E2. *(Ruled in [[Full Rules System v1]] §16: stashed gear counts 0, fielded gear counts full. Confirm this closes E2.)*
-- [ ] Solo / drop-in economy tracking is undrafted ([[Solo & Co-op]]).
+- [ ] Whether owned gear is **also** Credit-costed to field (two-gate) or ownership replaces the cost — E2. *(Ruled in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §16: stashed gear counts 0, fielded gear counts full. Confirm this closes E2.)*
+- [ ] Solo / drop-in economy tracking is undrafted ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Solo & Co-op]]).
 
 ## Rule ledger
 _none_
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

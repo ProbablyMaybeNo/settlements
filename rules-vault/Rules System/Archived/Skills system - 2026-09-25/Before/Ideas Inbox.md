@@ -239,7 +239,7 @@ Ideas ready to become real. Tick when you've moved them into a phase note (or a 
 - [ ] 
 
 ## 🌱 Maybe / someday
-Cool but not now. Cross-check against [[Out of Scope — What Settlements is NOT]] before promoting.
+Cool but not now. Cross-check against [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Out of Scope — What Settlements is NOT]] before promoting.
 - 
 
 ## ❓ Open questions to myself
@@ -251,6 +251,6 @@ Cool but not now. Cross-check against [[Out of Scope — What Settlements is NOT
 2. **Existing phase:** open it (`Ctrl+O`) and paste the idea into its `## Working rules / decisions` section.
 3. **New rule:** `Ctrl+P` → *Templater: Create new note from template* → `Rule Phase`.
 4. Delete it from here (or tick it in **Promote to a rule**).
-5. Sanity-check it isn't an anti-goal → [[Out of Scope — What Settlements is NOT]].
+5. Sanity-check it isn't an anti-goal → [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Out of Scope — What Settlements is NOT]].
 
-*See [[Rules System MOC]] · [[Rules System — Master Roadmap]].*
+*See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System — Master Roadmap]].*

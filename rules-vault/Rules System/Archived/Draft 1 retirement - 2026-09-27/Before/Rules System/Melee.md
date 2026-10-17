@@ -11,8 +11,8 @@ tags: [settlements/phase, settlements/stage/s2]
 # 14 · Melee
 > **S2 Core Combat** · status **Drafted** · build order **8**
 
-**Depends on:** [[Unit Design]], [[Movement]]
-**Feeds into:** [[Damage]]
+**Depends on:** [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Unit Design]], [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Movement]]
+**Feeds into:** [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Damage]]
 **Raw dependency (from Notion):** Unit Design, Movement
 
 ## Current melee rules — 2026-09-26
@@ -27,7 +27,7 @@ Charge costs both the **Move and Core Action**. Declare an enemy in LOS and roll
 1. Both units gather their melee Attack Dice. When dual wielding, use the dominant weapon's full dice and one off-hand die unless a skill overrides this. Retain each die's weapon identity.
 2. Both roll **1d20 + melee stat + applicable modifiers vs 15+**, once per Attack Die. STR is normal; AGILE weapons permit AGI. Natural 1 fails and natural 20 succeeds. Do **not** subtract the opponent's stat.
 3. Each successful hit cancels one opposing successful hit. Equal hit counts cancel completely. The side with more hits retains the difference. Each player chooses which opposing hits their successes cancel; remaining hits retain their weapon profiles.
-4. Roll one Injury die for each uncancelled hit, using [[Damage]].
+4. Roll one Injury die for each uncancelled hit, using [[Settlements/Rules System/Archived/Draft 1 retirement - 2026-09-27/Before/Rules System/Damage]].
 
 This is simultaneous **hit cancellation**, not paired opposed dice. Defender-wins-ties remains a rule for genuine opposed tests; it does not turn tied melee hit counts into defender hits. Cancelled hits cause neither injury, Stress nor Pinned. There is **no additional automatic attack-back** after the exchange; the defender already participated. Explicit skill counterattacks are separate exceptions.
 

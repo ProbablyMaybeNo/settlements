@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/combat/condition]
 
 the unit's first attack against anyone *except* the source suffers **−1**. Ends after that attack, or at the end of its next activation.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

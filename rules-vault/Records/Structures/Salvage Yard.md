@@ -19,4 +19,4 @@ tags: [settlements/record, settlements/settlement/structure]
 
 **Credits** gatherer — sorts and values what scavengers haul back; better break-down rates on gear. Expandable
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Structures]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Structures]] from them.*

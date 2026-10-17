@@ -23,11 +23,11 @@ tags:
 # 36 · Structures
 > **S4 Settlement & Campaign** · status **Drafted** · build order **16**
 
-**Depends on:** [[Settlement]], [[Terrain]], [[Terrain Interaction]], [[Infrastructure]], [[Deployables]]
-**Feeds into:** [[Economy]], [[Components]], [[Scenarios]], [[Downtime]], [[Final Alpha]]
+**Depends on:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain Interaction]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Infrastructure]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]]
+**Feeds into:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Components]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Scenarios]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Downtime]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Final Alpha]]
 
 ## Focus
-The **catalogue** — the 23 things a player can build, what each one costs in **Materials**, floor space and **Power**, what it does in the campaign layer, and what it becomes on the table when someone raids you. [[Settlement]] owns founding, layout and the resource loop; **this note owns the buildings themselves.**
+The **catalogue** — the 23 things a player can build, what each one costs in **Materials**, floor space and **Power**, what it does in the campaign layer, and what it becomes on the table when someone raids you. [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement]] owns founding, layout and the resource loop; **this note owns the buildings themselves.**
 
 The lot itself is a **barren, battle-scarred site** — a vacant lot between brownstones, a dead mall car park, an overgrown city park, a gutted warehouse. Damaged, overgrown, showing recent conflict. You build onto it.
 
@@ -45,9 +45,9 @@ The lot itself is a **barren, battle-scarred site** — a vacant lot between bro
 ## Design contract — the five rules that keep this honest
 
 1. **Every structure earns its slot.** No flat `+1`. A structure must do at least one of: unlock a campaign action · raise a meaningful capacity · convert one resource into another · expand list-building options · protect something you could otherwise lose · change how a raid is fought.
-2. **Every structure is a real object on a real board.** Each entry ships with a [[Terrain#Setup procedure|terrain line]] in the standard format. If it can't be placed and described, it isn't a structure — it's a bonus, and it doesn't belong here.
+2. **Every structure is a real object on a real board.** Each entry ships with a [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain#Setup procedure|terrain line]] in the standard format. If it can't be placed and described, it isn't a structure — it's a bonus, and it doesn't belong here.
 3. **Space is the scarcest resource.** The canvas holds roughly ten structures. Twenty-three entries against ten slots means **specialisation is forced, not offered.**
-4. **Ownership buys availability, never free board power.** Built structures grant **auto-deploy** (skipping the [[Deployables#Deploying — the INT test|INT test]]); the piece itself still costs Credits against your Crew Rating and still sits inside the **9–12** density band. A bigger settlement never means a bigger army.
+4. **Ownership buys availability, never free board power.** Built structures grant **auto-deploy** (skipping the [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables#Deploying — the INT test|INT test]]); the piece itself still costs Credits against your Crew Rating and still sits inside the **9–12** density band. A bigger settlement never means a bigger army.
 5. **Binary state only.** A structure is **Functional** or **Disabled**. No structure HP, no collapse tracking. Destruction runs through **Sabotage**; repair is a flat **Materials** cost.
 
 ## Working rules / decisions
@@ -56,7 +56,7 @@ The lot itself is a **barren, battle-scarred site** — a vacant lot between bro
 
 Your settlement occupies a strip **12" deep × 36" wide**, drawn on a **1" grid** — a 12 × 36 sheet of one-inch squares, 432 squares total.
 
-The strip is sized so that **your whole settlement always fits on a standard board.** [[Terrain#Setup procedure|Terrain]] divides the 3'×3' board into nine 12"×12" density squares; your settlement is exactly the **back three squares**, on your own board edge.
+The strip is sized so that **your whole settlement always fits on a standard board.** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain#Setup procedure|Terrain]] divides the 3'×3' board into nine 12"×12" density squares; your settlement is exactly the **back three squares**, on your own board edge.
 
 |Term|Value|
 |---|---|
@@ -68,7 +68,7 @@ The strip is sized so that **your whole settlement always fits on a standard boa
 ^tbl-the-settlement-canvas
 
 - **No raid window.** Because the settlement fits the board, a raid always uses **all of it**. There is no sub-section to pick, randomise or argue about — the attacker deploys on the far edge and comes at the whole compound.
-- **Density normalisation is automatic.** Count your placed structures as the large features of your three squares; fill the attacker's six squares with neutral terrain until the board sits at **9–12 large features** total. The band in [[Terrain]] is sacred and a settlement never overrides it.
+- **Density normalisation is automatic.** Count your placed structures as the large features of your three squares; fill the attacker's six squares with neutral terrain until the board sits at **9–12 large features** total. The band in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain]] is sacred and a settlement never overrides it.
 - **Bigger boards.** On a 4'×4' the strip widens to **12" × 48"**. Both players use the same canvas size in a given game.
 
 > [!question] Confirm the board size for alpha testing
@@ -150,29 +150,29 @@ That is the whole anti-inflation shape for production: output scales, but only a
 
 ### Founding — choosing your first few
 
-At founding you spend **125 Materials + 75 Credits** on **anything in the catalogue** ([[Full Rules System v1]] §17.3). Your picks are placed on the canvas immediately, before your first game. There is no founding-only subset and no prerequisite — the budget and the lot are the only limits.
+At founding you spend **125 Materials + 75 Credits** on **anything in the catalogue** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §17.3). Your picks are placed on the canvas immediately, before your first game. There is no founding-only subset and no prerequisite — the budget and the lot are the only limits.
 
-**125 Materials is roughly two Tier-1 structures** on top of the four free starters. Structures are bought and repaired in **Materials**; the Credits half of the budget goes on the crew ([[List Building]]).
+**125 Materials is roughly two Tier-1 structures** on top of the four free starters. Structures are bought and repaired in **Materials**; the Credits half of the budget goes on the crew ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]]).
 
-Your **location** ([[Settlement#Choosing a location]]) grants **one structure or upgrade free, at zero Materials cost** — hospital → Med-bay, police station → Holding Cells, scrapyard → a Salvage Yard upgraded one tier. Location and founding budget draw on the **same catalogue**, so a location is a head start and a flavour, never a building nobody else can reach.
+Your **location** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement#Choosing a location]]) grants **one structure or upgrade free, at zero Materials cost** — hospital → Med-bay, police station → Holding Cells, scrapyard → a Salvage Yard upgraded one tier. Location and founding budget draw on the **same catalogue**, so a location is a head start and a flavour, never a building nobody else can reach.
 
 > [!check] Founding budget is set — 2026-08-05
-> **125 Materials + 75 Credits**, with per-structure Materials costs printed in the catalogue below and generated from the costing engine. Checked against the reward rate: a normal battle pays **70 Credits + 15 Materials**, so a **Tier I structure still takes ~3 battles** to afford ([[Economy#Income]], T12). *(Halved with the rest of the economy on the 2026-08-20 rescale — leaving the budget at 250 against halved structure costs would have quietly doubled a founding player's buying power.)*
+> **125 Materials + 75 Credits**, with per-structure Materials costs printed in the catalogue below and generated from the costing engine. Checked against the reward rate: a normal battle pays **70 Credits + 15 Materials**, so a **Tier I structure still takes ~3 battles** to afford ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy#Income]], T12). *(Halved with the rest of the economy on the 2026-08-20 rescale — leaving the budget at 250 against halved structure costs would have quietly doubled a founding player's buying power.)*
 
 ### Power
 
-The **Generator** produces **+5**. Every powered structure has a **draw** scaled to its tier — **T1 −1 · T2 −2 · T3 −3**. The settlement runs on a single sum: **total output ≥ total draw**, tracked on the sheet ([[Economy#Power — output vs draw]]). A structure without Power is **Disabled for the round** and gives no benefit.
+The **Generator** produces **+5**. Every powered structure has a **draw** scaled to its tier — **T1 −1 · T2 −2 · T3 −3**. The settlement runs on a single sum: **total output ≥ total draw**, tracked on the sheet ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy#Power — output vs draw]]). A structure without Power is **Disabled for the round** and gives no benefit.
 
 The four starters draw **3** — HQ 1, Processor 1, Salvage Yard 1 — against one Generator's **+5**, leaving **two spare**.
 
 > [!check] Resolved — the Generator is **+5**, and D9 was right
-> This note carried **+3** and flagged the contradiction with `docs/POINTS-DECISIONS.md` **D9** (+5, draws T1 1 / T2 2 / T3 3). [[Full Rules System v1]] §19 rules **+5** with exactly D9's draw ladder, so **D9 wins and the +3 is retired**.
+> This note carried **+3** and flagged the contradiction with `docs/POINTS-DECISIONS.md` **D9** (+5, draws T1 1 / T2 2 / T3 3). [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §19 rules **+5** with exactly D9's draw ladder, so **D9 wins and the +3 is retired**.
 >
 > That also settles the old start-at-capacity question by choosing the other side of it: a new settlement opens with **two Power spare** rather than sitting at exactly capacity. The tension arrives on the *second* build, not the first, which is the better place for it — a founding player shouldn't have to buy a second Generator before they buy anything interesting.
 
 ### Storage & caps — what you can hold, and what a raider can take
 
-**Both hoardable resources are capped by what you have built.** Credits and Materials go in sheds — you cannot fit unlimited scrap in one shed. Only **Power** is never banked: it is output-vs-draw ([[Economy]]), a flow rather than a store.
+**Both hoardable resources are capped by what you have built.** Credits and Materials go in sheds — you cannot fit unlimited scrap in one shed. Only **Power** is never banked: it is output-vs-draw ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy]]), a flow rather than a store.
 
 **Your cap on each resource is the sum of what you have built:**
 
@@ -185,10 +185,10 @@ The four starters draw **3** — HQ 1, Processor 1, Salvage Yard 1 — against o
 
 ^tbl-storage-caps-what-you-can-hold-and-what-a-ra
 
-**Overflow is lost.** Income above your cap does not bank; it spoils, walks off, or never gets hauled home. That is the anti-inflation lever ([[Economy]]) and it is why a rich settlement must keep building sheds instead of sitting on a pile.
+**Overflow is lost.** Income above your cap does not bank; it spoils, walks off, or never gets hauled home. That is the anti-inflation lever ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy]]) and it is why a rich settlement must keep building sheds instead of sitting on a pile.
 
 **Two other caps run on the same principle:**
-- **Housing** — **12** body slots from the HQ, **+6 per Bunkhouse**. Housing is the **only** population brake; there is no per-head upkeep ([[List Building]]).
+- **Housing** — **12** body slots from the HQ, **+6 per Bunkhouse**. Housing is the **only** population brake; there is no per-head upkeep ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]]).
 - **Equipment** — **30** slots to start, **+30 per Armory tier**.
 
 > [!info] Why storage is standalone and not all in the HQ
@@ -200,13 +200,13 @@ The four starters draw **3** — HQ 1, Processor 1, Salvage Yard 1 — against o
 **Storage is repeatable across the board.** Build as many **Storehouses** as you have room for. The ceiling on hoarding is floor space, exactly like production.
 
 > [!check] Closed — **any structure can be sabotage-charged in any raid** (2026-08-05)
-> Water was the one resource an attacker **destroyed rather than looted** — you cannot carry a tank away, but you can hole it — and cutting it left every raid target a *loot* target. [[Full Rules System v1]] §21 closes that with a mechanic **that already existed** rather than a new resource:
+> Water was the one resource an attacker **destroyed rather than looted** — you cannot carry a tank away, but you can hole it — and cutting it left every raid target a *loot* target. [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §21 closes that with a mechanic **that already existed** rather than a new resource:
 >
-> During any raid, an attacker may target **any** of the defender's structures with the **Sabotage** charge the [[Scenarios|Sabotage scenario]] already uses. A fighter in base contact spends an **Action + INT 7+** to **arm** a charge; it detonates after surviving **3 End Phases** armed, unless a defender spends an **Action + DEX 7+** to **defuse** it (**nat 1 = it goes off immediately**).
+> During any raid, an attacker may target **any** of the defender's structures with the **Sabotage** charge the [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Scenarios|Sabotage scenario]] already uses. A fighter in base contact spends an **Action + INT 7+** to **arm** a charge; it detonates after surviving **3 End Phases** armed, unless a defender spends an **Action + DEX 7+** to **defuse** it (**nat 1 = it goes off immediately**).
 >
 > A detonated structure goes **Disabled** until repaired at its flat Materials cost (below). It does not need to be looted, and it was never a bespoke "Water tank" target. **Any** Generator, Processor, Trader's Kiosk or Storehouse is a legitimate sabotage target under this rule.
 >
-> Watch the **3-round fuse** — it is now doing double duty as both the Sabotage scenario's tension knob and the general raid structure-sabotage timer, so tuning one tunes the other ([[Scenarios#Open dials]]).
+> Watch the **3-round fuse** — it is now doing double duty as both the Sabotage scenario's tension knob and the general raid structure-sabotage timer, so tuning one tunes the other ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Scenarios#Open dials]]).
 
 ### HQ tiers — the scavenger pipeline
 
@@ -220,13 +220,13 @@ The **HQ** is the only structure with a full upgrade ladder, and dispatch capaci
 
 ^tbl-hq-tiers
 
-- **Each HQ tier raises the number of crew you can send out per cycle** — scavenging, scouting, sabotage. This is how a settlement fields more scavengers on the map ([[Downtime#Phase 2 — Settlement]]).
+- **Each HQ tier raises the number of crew you can send out per cycle** — scavenging, scouting, sabotage. This is how a settlement fields more scavengers on the map ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Downtime#Phase 2 — Settlement]]).
 - It also raises the HQ's own base storage and housing, and gates the **Vault** add-on.
 - An assigned **worker** adds **+1 dispatch action** on top of the tier's rate (below).
 
-*HQ tier costs are **first-draft and untested** ([[Full Rules System v1]] §21).*
+*HQ tier costs are **first-draft and untested** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §21).*
 
-[[Downtime]] owns the mission rules; the **Comms Mast** is a separate axis — it improves mission *quality* (rerolls, longer-range targets, recruitment broadcasts), never the number of bodies you can dispatch. Build the HQ to send more people, the Mast to send them further.
+[[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Downtime]] owns the mission rules; the **Comms Mast** is a separate axis — it improves mission *quality* (rerolls, longer-range targets, recruitment broadcasts), never the number of bodies you can dispatch. Build the HQ to send more people, the Mast to send them further.
 
 ### Three ways to grow — and how to tell them apart
 
@@ -281,9 +281,9 @@ A young settlement is a scatter of stalls, tanks and gensets; growing up means t
 ## The catalogue — 23 structures
 
 **★** free starting structure. **Everything else is buildable from founding onward** — no structure requires another.
-Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup procedure]])
+Terrain line format: `Type · Movement · Cover · Tags` ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Terrain#Setup procedure]])
 
-**Costs are in Materials**, printed 2026-08-05 from [[Full Rules System v1]] §21. **Repair is a flat 30 Materials per structure**, whatever it cost to build. Every number here is **first-draft** — see [[Economy#Open dials]].
+**Costs are in Materials**, printed 2026-08-05 from [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §21. **Repair is a flat 30 Materials per structure**, whatever it cost to build. Every number here is **first-draft** — see [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy#Open dials]].
 
 ### Sustain — keep people alive, keep the grid up
 
@@ -329,8 +329,8 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 |**Vault** *(attaches to HQ)*|Plant|3×3|−1|**50**|**Secure** storage — small capacity, near-unbreachable. Where the irreplaceable goes|
 |**Scout Post**|Plant|3×3|−1|**50**|Pre-**battle** information: see a Twist, choose attacker/defender, reroll deployment|
 |**Comms Mast**|Plant|3×3|−1|**50**|**Mission quality**: reroll a mission test, reach longer-range targets, broadcast for recruits. Dispatch *count* comes from HQ tiers|
-|**Server Core**|Building|6×6|−2|**128**|Intelligence and networked control — rival roster intel, and friendly terminals on the board count as **Linked** ([[Hacking]])|
-|**Drone Bay**|Building|6×8|−2|**144**|Drone [[Deployables]] **and** a recon drone that runs a scout mission **without spending a fighter**|
+|**Server Core**|Building|6×6|−2|**128**|Intelligence and networked control — rival roster intel, and friendly terminals on the board count as **Linked** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Hacking]])|
+|**Drone Bay**|Building|6×8|−2|**144**|Drone [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables]] **and** a recon drone that runs a scout mission **without spending a fighter**|
 
 ^tbl-operate-what-you-can-do-outside-the-walls
 
@@ -347,15 +347,15 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 > It cannot be separated from the HQ: it is an add-on placed in base contact, and it falls if the HQ does.
 
 > [!info] Why the Drone Bay matters more than it looks
-> [[Settlement]] locks **one roster with per-cycle assignment** — sending a fighter on a mission means they cannot fight. That opportunity cost is the whole tension of the downtime layer, and it bites hardest on small crews. The recon drone is the **pressure valve**: it buys back one mission without costing a body, at a price that competes with everything else on the lot.
+> [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement]] locks **one roster with per-cycle assignment** — sending a fighter on a mission means they cannot fight. That opportunity cost is the whole tension of the downtime layer, and it bites hardest on small crews. The recon drone is the **pressure valve**: it buys back one mission without costing a body, at a price that competes with everything else on the lot.
 
 ### Recover — people come back
 
 |Structure|Class|Size|Pwr|Materials|What it does|
 |---|---|---|---|:--:|---|
-|**Med-bay**|Building|6×6|−1|**65**|**+1** to the post-battle Fate roll ([[Campaign#Post-battle — the Fate table]]); the **T2** tier heals scars at a Credits/Materials cost|
-|**Holding Cells**|Building|6×6|−1|**65**|Prisoner capacity ([[Campaign#Captured — resolution]]); the upgraded tier is what allows a **Brainwash** attempt|
-|**Mess Hall**|Building|6×8|−1|**75**|**Once per battle, one fighter clears 1 Stress free** ([[Morale]])|
+|**Med-bay**|Building|6×6|−1|**65**|**+1** to the post-battle Fate roll ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign#Post-battle — the Fate table]]); the **T2** tier heals scars at a Credits/Materials cost|
+|**Holding Cells**|Building|6×6|−1|**65**|Prisoner capacity ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign#Captured — resolution]]); the upgraded tier is what allows a **Brainwash** attempt|
+|**Mess Hall**|Building|6×8|−1|**75**|**Once per battle, one fighter clears 1 Stress free** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale]])|
 
 ^tbl-recover-people-come-back
 
@@ -364,9 +364,9 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 - Mess Hall — `Building · Interior Open · Heavy · Openable, Searchable`
 
 > [!info] Why scar healing is still gated, now that the rebate is gone
-> This callout used to argue that the Med-bay must not undo [[List Building#Campaign rosters|the −2 scar rebate]]. **That rebate was cut on 2026-08-01** — a scar is a pure nerf and does not touch Crew Rating — so the free-lunch argument no longer applies.
+> This callout used to argue that the Med-bay must not undo [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building#Campaign rosters|the −2 scar rebate]]. **That rebate was cut on 2026-08-01** — a scar is a pure nerf and does not touch Crew Rating — so the free-lunch argument no longer applies.
 >
-> The gate stays anyway, for a better reason: **removing a permanent penalty is one of the strongest things a settlement can do for a fighter**, and a veteran who can be scrubbed clean between every battle never carries a scar for long enough to matter. That would hollow out the *scars tell the story* tenet ([[Game Vision]]) far more effectively than any points exploit would have. Scar healing stays **T2 only** and costs Credits/Materials. See [[Progression]] · [[Campaign]].
+> The gate stays anyway, for a better reason: **removing a permanent penalty is one of the strongest things a settlement can do for a fighter**, and a veteran who can be scrubbed clean between every battle never carries a scar for long enough to matter. That would hollow out the *scars tell the story* tenet ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Game Vision]]) far more effectively than any points exploit would have. Scar healing stays **T2 only** and costs Credits/Materials. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Progression]] · [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign]].
 
 ### Defend — this is the raid board
 
@@ -376,27 +376,27 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 |**Gatehouse**|Building|6×6|−1|**75**|A controlled chokepoint: the attacker breaches it or routes around it|
 |**Watchtower**|Plant|3×3|−1|**55**|The defender starts one model in it; denies the attacker surprise|
 |**Turret Mount** *(attaches to a Wall or Gatehouse)*|Plant|2×2|−2|**104**|Hardpoint. The turret **auto-deploys** — but costs Credits against your Crew Rating and keeps full fragility|
-|**EW Mast**|Plant|3×3|−2|**104**|Counter-hack and counter-drone: penalises enemy [[Hacking]] in a raid on you; blocks enemy drone deployables|
+|**EW Mast**|Plant|3×3|−2|**104**|Counter-hack and counter-drone: penalises enemy [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Hacking]] in a raid on you; blocks enemy drone deployables|
 
 ^tbl-defend-this-is-the-raid-board
 
 - Perimeter Wall — `Scatter · Impassable · Heavy · Climbable, Breachable, Barricadable`
 - Gatehouse — `Building · Interior Open · Heavy · Openable, Lockable, Hackable, Climbable`
 - Watchtower — `Scatter · Impassable · Light · Climbable`
-- Turret Mount — `Feature · Impassable · Light · Powered, Hackable` — hosts one turret [[Deployables|deployable]]
+- Turret Mount — `Feature · Impassable · Light · Powered, Hackable` — hosts one turret [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables|deployable]]
 - EW Mast — `Feature · Impassable · Open · Climbable, Powered, Hackable`
 
 > [!danger] The Turret Mount is not free board power
-> Owning the mount grants **auto-deploy** only — the turret skips the [[Deployables#Deploying — the INT test|INT test]] and starts online. It still **costs Credits against your Crew Rating** to field, still counts against the **9–12** density band, and keeps full fragility: `WND−1`, repairable once, hijackable. This is the settled answer to a pre-placed settlement deployable being strictly better and free.
+> Owning the mount grants **auto-deploy** only — the turret skips the [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Deployables#Deploying — the INT test|INT test]] and starts online. It still **costs Credits against your Crew Rating** to field, still counts against the **9–12** density band, and keeps full fragility: `WND−1`, repairable once, hijackable. This is the settled answer to a pre-placed settlement deployable being strictly better and free.
 
 ## Worker benefits
 
-*Drafted 2026-08-05 from [[Full Rules System v1]] §22. Workers are assigned in the **Settlement Phase** ([[Downtime#Phase 2 — Settlement]]); a retiring third-Scar veteran can be **reassigned** into one of these slots instead of leaving the roster ([[Campaign#The third Scar — forced retirement]]).*
+*Drafted 2026-08-05 from [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §22. Workers are assigned in the **Settlement Phase** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Downtime#Phase 2 — Settlement]]); a retiring third-Scar veteran can be **reassigned** into one of these slots instead of leaving the roster ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign#The third Scar — forced retirement]]).*
 
 **One worker slot per structure that accepts one. A worker is either assigned or not.** The listed benefit applies while they are assigned and **stops the moment they are reassigned** — full stop. There is no number to track and nothing to level.
 
 > [!important] **Ten of these twenty ship in v1. Ten are parked.**
-> [[Full Rules System v1]] §22 rules that only the benefits carrying the campaign loop are live: **Processor · Salvage Yard · Generator · Med-bay · Storehouse · Equipment Shed/Armory · Trader's Kiosk/Trade House · Workbench/Workshop · HQ · Mess Hall**.
+> [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §22 rules that only the benefits carrying the campaign loop are live: **Processor · Salvage Yard · Generator · Med-bay · Storehouse · Equipment Shed/Armory · Trader's Kiosk/Trade House · Workbench/Workshop · HQ · Mess Hall**.
 >
 > The other ten — **Fabricator ladder · Scout Post · Comms Mast · Server Core · Drone Bay · Holding Cells · Gatehouse · Watchtower · Turret Mount · EW Mast** — are **parked for a future supplement**. They are either battle-facing micro-buffs that complicate a raid, or intel and unlock effects serving systems that are themselves thin in v1. Marked ⏸ in the table below.
 
@@ -405,7 +405,7 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 >
 > It is the same category of complexity this project has cut everywhere else — per-head upkeep, the Heat/Attention track, HP-based structure damage — and worker progression didn't earn an exception by arriving later. The flat benefits below are each drawn from what used to be that system's T1 or T2 tier.
 >
-> **Not thrown away:** the three-tier version is parked in [[Full Rules System v1]] §22 as a candidate for a future settlement-focused supplement, where granular management is something players opt into rather than something everyone carries.
+> **Not thrown away:** the three-tier version is parked in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §22 as a candidate for a future settlement-focused supplement, where granular management is something players opt into rather than something everyone carries.
 
 | | Structure | Assigned worker gives |
 |:--:|---|---|
@@ -421,9 +421,9 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 | ⏸ | **Scout Post** | Reveal a territory's hidden **Side Objective**, not just its Twist |
 | ⏸ | **Comms Mast** | The mission-quality reroll applies to **two rolls** instead of one |
 | ⏸ | **Server Core** | Rival intel includes one fighter's current **Level and skills**, not just roster size |
-| ⏸ | **Drone Bay** | The free recon mission also reveals a territory's **Loot table** entries ([[Territory]]) |
-| ✅ | **Med-bay** | **+1 further to the Fate roll** — stacks with the structure's own +1, **total +2** ([[Campaign]]) |
-| ⏸ | **Holding Cells** | The opposed INT test for **Brainwashing** gets **+1** ([[Campaign#Captured — resolution]]) |
+| ⏸ | **Drone Bay** | The free recon mission also reveals a territory's **Loot table** entries ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Territory]]) |
+| ✅ | **Med-bay** | **+1 further to the Fate roll** — stacks with the structure's own +1, **total +2** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign]]) |
+| ⏸ | **Holding Cells** | The opposed INT test for **Brainwashing** gets **+1** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Campaign#Captured — resolution]]) |
 | ✅ | **Mess Hall** | The free Stress-clear triggers on **two fighters** instead of one |
 | ⏸ | **Gatehouse** | The chokepoint counts as **Heavy** cover, not Light, for defenders behind it in a raid |
 | ⏸ | **Watchtower** | The starting model in the tower also **starts Readied**, no Action spent |
@@ -432,14 +432,14 @@ Terrain line format: `Type · Movement · Cover · Tags` ([[Terrain#Setup proced
 
 ^worker-benefits
 
-**✅ ships in v1 (10) · ⏸ parked for a future supplement (10)** — per [[Full Rules System v1]] §22.
+**✅ ships in v1 (10) · ⏸ parked for a future supplement (10)** — per [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §22.
 
 ^tbl-worker-benefits
 
 **Three structures take no worker** — **Bunkhouse**, **Vault** and **Perimeter Wall**. They are passive amenities or board shaping, with no operational job for a person to hold.
 
 > [!warning] All twenty numbers are first-draft and untested
-> Same flag as everything else content-shaped in the 2026-08-05 pass — though they are now much simpler to check, since there is no Proficiency curve to validate alongside them ([[Downtime#Still open]]).
+> Same flag as everything else content-shaped in the 2026-08-05 pass — though they are now much simpler to check, since there is no Proficiency curve to validate alongside them ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Downtime#Still open]]).
 
 ### Category counts
 Sustain **4** · Convert **5** · Operate **6** · Recover **3** · Defend **5** = **23**. Deliberately uneven — forcing five per category is what produced filler in the first pass. *(Was 25; the Water Reclaimer and Cistern were cut with Water on 2026-08-01.)*
@@ -460,7 +460,7 @@ The sprawl costs are real: the **Salvage Yard** eats **8%** of the lot at its st
 
 ## Open decisions
 
-**Closed on 2026-08-05** by [[Full Rules System v1]] §17.3 · §19 · §20 · §21 · §22:
+**Closed on 2026-08-05** by [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §17.3 · §19 · §20 · §21 · §22:
 
 - [x] Build cost in **Materials** per structure — printed in the catalogue above *(first-draft)*
 - [x] Replace the destroy-only raid target Water used to provide — **any structure is sabotage-chargeable in any raid**
@@ -474,7 +474,7 @@ The sprawl costs are real: the **Salvage Yard** eats **8%** of the lot at its st
 - [x] Mess Hall effect — **once per battle, one fighter clears 1 Stress free**
 - [x] Whether the whole catalogue is available at founding — **yes, all 23, no research gate, no prerequisites**
 - [x] Worker benefits per structure — drafted above; **Proficiency tiers cut**
-- [x] Persistent armoury / two-gate — **stashed gear counts 0 toward Crew Rating; fielded gear counts full** ([[Full Rules System v1]] §16). *Confirm this closes [[Economy]] E2.*
+- [x] Persistent armoury / two-gate — **stashed gear counts 0 toward Crew Rating; fielded gear counts full** ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Full Rules System v1]] §16). *Confirm this closes [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Economy]] E2.*
 
 **Still open:**
 
@@ -483,11 +483,11 @@ The sprawl costs are real: the **Salvage Yard** eats **8%** of the lot at its st
 - [ ] How much a successful raider actually takes from each container
 - [ ] Upgrade tier costs beyond the ones printed, including the Station → Building space cost
 - [ ] Every Materials cost above is **untested** — HQ tiers, Med-bay and Mess Hall are explicitly flagged as guesses
-- [ ] Recruiting Board effect — depends on hiring rules that don't exist yet in [[List Building]]
-- [ ] Print-and-cut tile art for every entry ([[Components]])
+- [ ] Recruiting Board effect — depends on hiring rules that don't exist yet in [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/List Building]]
+- [ ] Print-and-cut tile art for every entry ([[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Components]])
 
 ## Rule ledger
 _none yet — the catalogue entries become ledger entries once costed._
 
 ---
-*Catalogue for [[Settlement]]. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]].*
+*Catalogue for [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement]]. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] and [[_Rules Map.canvas|the map]].*

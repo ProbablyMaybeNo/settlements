@@ -16,6 +16,6 @@ tags: [settlements/record, settlements/settlement/structure]
 
 # Mess Hall
 
-**Once per battle, one fighter clears 1 Stress free** ([[Morale]])
+**Once per battle, one fighter clears 1 Stress free** ([[Settlements/Rules System/Archived/Morale]])
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Structures]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Structures]] from them.*

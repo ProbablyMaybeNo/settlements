@@ -11,8 +11,8 @@ tags: [settlements/phase, settlements/stage/milestone]
 # 32 · Final Alpha
 > **Milestone** · status **Milestone** · build order **21**
 
-**Depends on:** [[Morale]], [[Scenarios]], [[Settlement]], [[Territory]]
-**Feeds into:** [[Playtesting]]
+**Depends on:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Morale]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Scenarios]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Settlement]], [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Territory]]
+**Feeds into:** [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Playtesting]]
 **Raw dependency (from Notion):** Thin slice of #1–20
 
 ## Focus
@@ -25,4 +25,4 @@ _Not drafted yet._
 _none_
 
 ---
-_Ported from Notion · Build Roadmap. See [[Rules System MOC]] and [[_Rules Map.canvas|the map]]._
+_Ported from Notion · Build Roadmap. See [[Settlements/Rules System/Archived/Skills system - 2026-09-25/Before/Rules System MOC]] and [[_Rules Map.canvas|the map]]._

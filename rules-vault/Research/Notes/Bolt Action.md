@@ -71,7 +71,7 @@ Stable across the 2nd → 3rd edition change. **[INFERENCE]** The structure is *
 
 > **Every entry deleted is one you no longer have to cost correctly.**
 
-**For Settlements.** This is the anti-bloat tenet in costing form, and it's a live consideration for the [[Weapons]] characteristic list and the [[Structures]] roster. Note also the **platoon types** change: replacing one generic selector with six themed ones that unlock different pools is the same move as [[Oathmark#Concentric rings and the rarity gate]] — **structure the menu instead of restricting it.**
+**For Settlements.** This is the anti-bloat tenet in costing form, and it's a live consideration for the [[Weapons]] characteristic list and the [[Settlements/Rules System/Archived/Structures]] roster. Note also the **platoon types** change: replacing one generic selector with six themed ones that unlock different pools is the same move as [[Oathmark#Concentric rings and the rarity gate]] — **structure the menu instead of restricting it.**
 
 **[NOT FOUND]** No derivation is published — and **Warlord's own forum confirms the vacuum.** A player asking exactly this question got no official answer; the only resource offered was an **unofficial fan-made** "Bolt Action Vehicle Design System" PDF. The best advice on the thread: *"If the tanks feel overpowered, hike up the price, test again, and try again until the tank hits a sweet spot in terms of points."*
 

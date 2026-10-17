@@ -71,11 +71,11 @@ Dragon Rampant is the most explicit build system — base chassis plus purchased
 
 > **A cheap chassis barely constrains anything.**
 
-**For Settlements.** Our rank bodies (Match Play 65/95/165/245) are the chassis. If the body is cheap relative to what it can carry, the body's price does no gating work and every crew converges on the same loadout hung off whatever frame is legal. That's a check to run against the costing engine — **what fraction of a fielded model's cost is the body?** — and it connects directly to the [[List Building]] pyramid doing the real work.
+**For Settlements.** Our rank bodies (Match Play 65/95/165/245) are the chassis. If the body is cheap relative to what it can carry, the body's price does no gating work and every crew converges on the same loadout hung off whatever frame is legal. That's a check to run against the costing engine — **what fraction of a fielded model's cost is the body?** — and it connects directly to the [[Settlements/Rules System/Archived/List Building]] pyramid doing the real work.
 
 ---
 ## Source
 
 - Primary: Lion Rampant 1e/2e, Dragon Rampant 1e/2e, Xenos Rampant published cost tables and unit builds
 - Long-form: `docs/POINTS-RESEARCH.md` §7.7
-- Related: [[Wargaming Research Hub]] · [[Warmachine and Hordes]] · [[Bolt Action]] · [[Balance]]
+- Related: [[Wargaming Research Hub]] · [[Warmachine and Hordes]] · [[Bolt Action]] · [[Settlements/Rules System/Archived/Balance]]

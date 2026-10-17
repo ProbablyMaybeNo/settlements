@@ -14,4 +14,4 @@ tags: [settlements/record, settlements/combat/condition]
 
 **−1 on the unit's next Break test**, then ends.
 
-*Record. These properties are the source of truth — `records.py` regenerates the table in [[Conditions]] from them.*
+*Record. These properties are the source of truth — `records.py` regenerates the table in [[Settlements/Rules System/Archived/Conditions]] from them.*

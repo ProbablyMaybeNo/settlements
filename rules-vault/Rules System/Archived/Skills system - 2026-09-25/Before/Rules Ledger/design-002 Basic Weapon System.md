@@ -4,12 +4,14 @@ rule_id: design-002
 category: weapons
 status: draft
 version: v0.1
-parent_phase: "[[Basic Weapon System]]"
-tags: [settlements/design, settlements/weapons]
+parent_phase: "[[Settlements/Rules System/Archived/Basic Weapon System]]"
+tags:
+  - settlements/design
+  - settlements/weapons
 ---
 # design-002 · Basic Weapon System
 
-Recorded 2026-09-19. Current wording: [[Basic Weapon System]]. Stable entry point: [[Weapons]].
+Recorded 2026-09-19. Current wording: [[Settlements/Rules System/Archived/Basic Weapon System]]. Stable entry point: [[Weapons]].
 
 The current basic weapon system uses seven classes: Unarmed, 1h Ranged / Sidearm, 2h Ranged, Heavy 2h Ranged, 1h Melee, 2h Melee, and Thrown. Classes provide envelopes; named weapons are assembled from class values plus characteristics and drawbacks.
 
