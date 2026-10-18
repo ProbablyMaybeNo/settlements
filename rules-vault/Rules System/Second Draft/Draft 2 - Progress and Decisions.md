@@ -16,6 +16,15 @@ Current master: [[Settlements Rules System Version 2]]. Design record: [[Draft 2
 - [x] Produce the compact battle reference and update navigation/authority.
 - [x] Check document structure, links, catalogue coverage, founding arithmetic and four-page PDF layout; see [[Draft 2 - Manuscript Checks]].
 
+## Confirmed follow-up decisions — 2026-10-17
+
+- [x] Apply Ross's distinct Move/Core actions: self-Recover stands in place using Move and leaves unused Core available.
+- [x] Apply −2 ranged / +2 melee hit modifiers against Pinned targets throughout combat, keywords and the battle reference.
+- [x] Include chosen recovery timing in the worked example and playtest questions.
+- [x] Remove proposed non-movement uses of Move and record collateral changes in [[design-006 Pinned movement and hit modifiers]].
+
+These user rulings supersede the earlier Core self-Recover text. Replacement skill effects and Aim/drone costs remain assistant proposals; they are not additional user-approved rulings.
+
 ## Consequential proposed decisions
 
 One Wound for all humans; alternating individual actions; one own attack and one reaction per round; three-die attack ceiling; no Stress penalty to Injury; simultaneous ordinary shooting for Return Fire; forty skills with no free attack chains; utility-only drones; physical Claim; ten injury outcomes; modest winner income; full rating for advances and discounted gear. See the audit for reasons and provenance.
@@ -25,7 +34,7 @@ These decisions are written to make a coherent playable proposal. They have not 
 ## Remaining validation and publication work
 
 - [ ] Ross reviews consequential changes and overall fit to the tenets.
-- [ ] Play a complete first battle and record timings, lookups, terrain use, rescue and morale lockouts.
+- [ ] Play a complete first battle and record timings, lookups, terrain use, rescue, chosen recovery moments and available enemy threats.
 - [ ] Test 5-versus-10 action timing, front/rear attacks, hackers and drones across different objectives.
 - [ ] Run repeated persistent cycles with two fixed opponents to check income, injury recovery and advance valuation.
 - [ ] Blind-read the manuscript and reference with players unfamiliar with the design.

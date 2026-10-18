@@ -9,12 +9,18 @@ Checked 2026-10-17 against [[Settlements Rules System Version 2]], [[Draft 2 - D
 - All 75 former skills have an explicit disposition. The proposed catalogue has 40 skills, eight per stat.
 - Catalogues contain 20 interactive terrain profiles, 20 settlement structures and 22 weapon profiles including unarmed and the included knife.
 - The ten injury rows cover every d20 result exactly once and contain one death outcome.
-- All 129 checked links and heading targets in the main active notes resolve.
+- All 132 checked links and heading targets in the main active notes resolve.
 - The six-person example's stats, skill prerequisites, listed equipment prices and row totals agree with the actual tables. Its Crew Rating is 750. Founding balances of 130 Credits and 5 Materials after two workers, Workshop and Clinic also agree.
 - All thirteen previous Second Draft files match their pre-edit hashes in the preserved snapshot.
 - The PDF has exactly four A4 pages. All four were rendered and visually inspected; revised pages were checked again after the final wording changes.
 
 The automated report recorded **25 passing checks and zero failures**. It and the source inventory/reading log are retained in the workspace's `docs/draft2-completion-2026-10-17/` folder.
+
+## Follow-up consistency review — Pinned and actions
+
+The later user rulings replace Core self-Recover with Move to stand, retaining unused Core. Pinned target modifiers are −2 ranged / +2 melee, applied before hit resolution and never to Injury. The melee bonus uses the existing opposing-pool comparison. Blast attacks still make ranged hit rolls; automatic hazards have no hit roll to modify. Standing removes both Pinned modifiers.
+
+The action table, casualty recovery, skill costs, drone commands, armour Loot, keywords and four-page reference were reconciled. The timing example allows a player to keep a fighter down while other fighters act, then stand when threats have spent actions/reactions or sightlines change. A continuing threat can still react under the normal rules; no extra immunity or action was added.
 
 ## Manual consistency review
 

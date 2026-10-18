@@ -13,7 +13,7 @@ Companion to [[Settlements Rules System Version 2]]. Print [[Settlements Version
 
 **Ordinary:** d20 + stat + modifiers − Stress; **15+ passes**. Natural 1 fails; natural 20 passes. Trivial safe tasks are automatic. Difficult or dangerous tasks use the same test; impossible tasks need another approach.
 
-**Modifiers:** use the largest positive and negative skill bonus (each capped at 4), and largest positive and negative equipment-characteristic bonus (each capped at 3). Then apply position once: light cover −1, heavy cover −2, legal Hidden target −4, rear +2, Aim +2. Printed Damage and Armour are profile values. Identical effects never stack; reroll a die once at most.
+**Modifiers:** use the largest positive and negative skill bonus (each capped at 4), and largest positive and negative equipment-characteristic bonus (each capped at 3). Then apply position once: light cover −1, heavy cover −2, legal Hidden target −4, rear +2, Aim +2; against Pinned, ranged −2 / melee +2. Pinned stacks with applicable cover; hit rolls only. Printed Damage and Armour are profile values. Identical effects never stack; reroll a die once at most.
 
 **Single opposed test:** both roll stat tests; higher wins, ties defend. Natural 20 beats non-20; natural 1 loses to non-1; matching natural extremes tie. Melee pools use Page 2 instead.
 
@@ -29,11 +29,13 @@ The crew with fewer available slots gets Passes equal to half the difference, ro
 
 ### Action costs
 
-**Move slot:** Move up to MOVE; or Aim for +2 on next Shoot this round, lost if you move first.
+**Move slot:** travel up to MOVE, crawl half MOVE while Pinned, or Recover: stand up in place, removing Pinned. Standing uses the whole Move and leaves unused Core available. Never convert Move to Core.
 
-**Both slots:** Dash up to 2 × MOVE; Charge MOVE + d6 then melee; Disengage; remove a casualty's armour.
+**Both slots:** Dash up to 2 × MOVE; Charge MOVE + d6 then melee; Disengage.
 
-**Core slot:** Shoot, Fight/Shove, Ready, Recover, Rally, Hide, Observe, Interact/Hack, Deploy, Repair, Treat/Use Item, Loot, Secure, Reload. Skills may expressly change a cost; never create an extra own attack.
+**Core slot:** Shoot, Fight/Shove, Ready, Aim, Help Recover, Rally, Hide, Observe, Interact/Hack, Deploy, Repair, Treat/Use Item, Loot, Secure, Reload. One Core only; skills cannot convert Move into another Core.
+
+**Aim:** +2 to next Shoot, including a reaction; expires end of next round. Lost on movement/standing, Pinned or engagement. Apply to whole shot, then remove; never stacks.
 
 ### READY and reactions
 
@@ -51,7 +53,7 @@ React only while conscious, unengaged, READY, not Reacted and without a morale c
 
 ### End Phase
 
-Resolve due end effects; expire Down at recorded round +2; resolve one Break/Rally per eligible fighter; score objectives; clear round effects, Aim and Passes; expire dated hazards. End after round 6 or the mission ending.
+Resolve due end effects; expire Down at recorded round +2; resolve one Break/Rally per eligible fighter; score objectives; clear round effects and Passes; expire dated Aim and hazards. End after round 6 or the mission ending.
 
 ## Page 2 Position combat and injury
 
@@ -79,7 +81,7 @@ Dual one-handed weapons: dominant pool plus one off-hand die; keep its weapon id
 
 ### Melee
 
-Choose one engaged enemy. Both roll held melee pools plus STR (AGI for Agile), modifiers and −Stress. Each die **above the enemy's highest total** hits. Equal maxima: no hits. Natural 1 excluded from attack and defence; natural 20 uses its modified total. Against all 1s, every non-1 hits. Defender always has at least one die unless incapacitated.
+Choose one engaged enemy. Both roll held melee pools plus STR (AGI for Agile), modifiers and −Stress; **+2 per die against Pinned**. Each die **above the enemy's highest total** hits. Equal maxima: no hits. Natural 1 excluded from attack and defence; natural 20 uses its modified total. Against all 1s, every non-1 hits. Defender always has at least one die unless incapacitated.
 
 Outnumbered: −1 per additional conscious unpinned engaging enemy, max −2. **Unanswered:** defender sets maximum but cannot score hits. A Charge wholly through the rear arc is Unanswered with +2 hit. Both may face each other after melee.
 
@@ -89,7 +91,7 @@ Outnumbered: −1 per additional conscious unpinned engaging enemy, max −2. **
 
 Each hit: **d20 + Damage − Armour + injury modifiers ≥15**. Natural 1 fails, 20 succeeds; no Stress penalty. Success removes the human's **one Wound: Down**. Failure gives 1 Stress. Any hit leaving a Wound also Pins. Resolve the pool together; surplus successes do not execute or multiply post-battle rolls.
 
-**Pinned:** half Move, Core Recover, self-Rally, or specified Disengage; defensive melee allowed. No voluntary attack/Ready/equipment action. Recover removes Pinned only. Unpinned unengaged helper within 3 inches and LOS spends Core to Recover you automatically.
+**Pinned:** ranged hits against it −2; melee hits +2. Stay down until you choose to act. Move can crawl half speed or stand in place (Recover); standing removes Pinned, not Stress/morale, and counts as movement for Aim/Unwieldy. Unused Core remains available. Self-Rally/Disengage allowed; no voluntary attack/Ready/equipment use while Pinned. A capable helper within 3 inches/LOS spends Core on automatic Help Recover.
 
 ## Page 3 Casualties morale and interaction
 
@@ -99,7 +101,7 @@ Down stays on table, drops mission cargo, loses READY/Hidden/Marked/Aim, retains
 
 **Treat:** Core, contact, medkit consumed, INT test. Helper must be conscious, unpinned and unengaged. Success: 1 Wound, Pinned, Stress 2, remove morale condition. Self-treatment ignores Stress. Failure consumes kit but does not change timer. One successful revival per fighter per battle. Slots do not refresh.
 
-**Loot:** Core/contact takes one item into free capacity; Both removes armour. Drop gear to make room. **Secure:** Core/contact Down or Unconscious enemy; no conscious unpinned enemy within 1 inch of either. Captive cannot act; its timer runs. Escort half MOVE off own deployment edge to complete capture. Escort Pinned/Down/fear releases it. Friendly evacuation needs no Secure. An extracting escort/carrier also leaves the battle. Evacuated casualties still roll injury.
+**Loot:** Core/contact takes one item, including armour, into free capacity. Drop gear to make room. **Secure:** Core/contact Down or Unconscious enemy; no conscious unpinned enemy within 1 inch of either. Captive cannot act; its timer runs. Escort half MOVE off own deployment edge to complete capture. Escort Pinned/Down/fear releases it. Friendly evacuation needs no Secure. An extracting escort/carrier also leaves the battle. Evacuated casualties still roll injury.
 
 Attacking Down: normal shot or contact Core for one automatic hit. Injury success makes Unconscious. No on-table death or further effect against Unconscious.
 
@@ -147,11 +149,11 @@ Both crews trigger mines/traps. Tripwire crossing/remote clamp within 1 inch: AG
 
 Devices have no Injury, Stress, morale or scoring: first hit Offline, next Destroyed; mine/trap hit ruined safely. Drone first hit Destroyed. Physical barricades cannot be shot away. Recover an inert item or wreck with Interact and free capacity.
 
-Drone: operator's Core deploys; operator's Move flies it 8 inches, within 12-inch control range, ≤6 inches over surface. Operator's Core uses drone-contact control/terminal or Observe within drone LOS/12 inches; use operator INT/Stress. Camera 360. Operator must be capable; otherwise drone inert. One reaction window may target either visible operator or drone; disabling either stops the remote action. No drone attack, READY, Claim, cargo, capture or independent actions.
+Drone: Core deploys. Later operator Core: fly 8 inches, operate drone-contact control/terminal, or Observe within drone LOS/12 inches. One command per Core; operator retains Move. Control range 12 inches; height ≤6 inches; camera 360. Use operator INT/Stress. Incapable operator means inert drone. One reaction window targets visible operator or drone; disabling either stops the command. No drone attack, READY, Claim, cargo, capture or independent actions.
 
 ### Special attacks and supplies
 
-Blast: visible point in weapon range, **2-inch radius**. One ordinary Attack Die per affected fighter/device with unobstructed blast line, on same level or within 2 inches vertically; solid floors/walls block. Cover from centre; ignore Hidden. No scatter/extra central hit; no bonus dice or dual use.
+Blast: visible point in weapon range, **2-inch radius**. One ordinary Attack Die per affected fighter/device with unobstructed blast line, on same level or within 2 inches vertically; solid floors/walls block. Cover from centre; −2 against Pinned; ignore Hidden. No scatter/extra central hit; no bonus dice or dual use.
 
 Smoke grenade: Core/DEX, visible point within 8 inches. Pass place; fail 2 inches closer along line, stopping at obstruction. Fire bottle: ordinary Damage 1 Blast, then fire zone; initial attack counts as that round's fire exposure. Damaging grenades use Core Shoot and the attack allowance; smoke uses Core Use Item. Grenades consume their item. Reload weapons start loaded, need Core reload after firing. One chem dose per fighter per round; Pinned needs a helper. Use printed roster entries for other traits/items.
 

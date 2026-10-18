@@ -39,7 +39,7 @@ Chapter numbers below refer to the new manuscript. “Implemented” means text 
 | 12 | Self-aid and friendly aid use medkits | Core plus a consumed kit, INT, one successful revival per battle; self-aid ignores Stress. Chapter 9. |
 | 13 | Two full rounds before unconsciousness | Store the Down round; expire at End Phase of that round +2. Explicit round-2 to round-4 example. Chapters 9, 22. |
 | 14 | Unconscious is not battlefield death | No further revival and no execution rule; one post-battle injury roll if still a casualty. Chapters 9, 18. |
-| 15 | Looting is a choice that costs time | Contact and Core per item; Both for armour; real capacity and ownership transfer. Chapter 9. |
+| 15 | Looting is a choice that costs time | Contact and Core per item, including armour; real capacity and ownership transfer. Chapter 9. |
 | 16 | Capture needs contact and extraction | Secure, escort at half speed, release if escort is disabled, then leave the board. Chapter 9. |
 | 17 | Injuries matter without endless tables | Ten paired d20 outcomes, one death row, at most two scars, treatment and retirement. Chapter 18. |
 | 18 | Fear affects how people fight | Stress hurts performance, hits Pin, witnesses gain limited Stress, Break produces three severities. Chapters 9–10. |
@@ -174,7 +174,7 @@ The eight supporting files serve different roles: **Wargaming Research Hub** loc
 | Timing | Move/Core, READY, reactions | Literal action alternation; bounded passes; one reactor per action; simultaneous normal Return Fire | Match the brief and prevent chained interruptions. Opposed Return Fire experiment retired for this manuscript. |
 | Durability | Hit creates injury or pressure | Human Wounds always 1, including Tough and veterans | Strongest expression of civilian fragility. Rescue and cover supply survival decisions. |
 | Casualties | Down on table and post-battle consequences | Two-full-round timer, single revival, no battlefield death, one ten-outcome table | Preserve attachment without extra mid-battle tables or infinite recovery. |
-| Morale | Stress bands, Stress-free Break/Rally, Core Recover, half-speed Pinned movement | Witness trigger capped; no Shaken layer; no stress-powered Implode immunity | Keep the useful existing direction while removing snowball and hero loops. |
+| Morale and pinning | Stress bands, Stress-free Break/Rally, half-speed Pinned crawl | Ross's follow-up: Move to stand, keep Core; Pinned target −2 ranged/+2 melee. Witness trigger capped; no Shaken layer. | Recovery timing is a player choice. Being Pinned trades mobility/action access for protection from fire and vulnerability in melee. |
 | Hacking | Terminals and devices as targets | Finite printed links, physical counters, utility drone actions paid by operator | Interactive battlefield remains the point; no separate hacking mini-game. |
 | Objectives | Mission victory and physical terrain interaction | Remote Tagged removed; physical Claim persists, humans perform mission work | Respect Ross's recorded removal and prevent remote objective play bypassing the board. |
 | Skills | Five stat identities and one tier | Forty bounded skills replace seventy-five; full disposition below | The old effects cannot be carried over unchanged into civilian limits and action alternation. |
@@ -212,7 +212,7 @@ These are proposed manuscript dispositions, not claims that the older selected c
 
 | Previous skill | Disposition |
 | --- | --- |
-| Mark Target | Test, legal visibility, one crew mark, round-end expiry; no Hidden range bypass. |
+| Mark Target | Core, test, legal visibility, one crew mark, round-end expiry; no Hidden range bypass. |
 | Head Shot | +2 Damage on a marked target with a genuine one-die weapon. |
 | Steady Breathing | Remove range inflation; published long-range profile and quantity gate instead. |
 | Gunslinger | Retain off-hand identity within three-die maximum. |
@@ -225,7 +225,7 @@ These are proposed manuscript dispositions, not claims that the older selected c
 | Cover Me | Simultaneous shooting to protect one nearby friendly, using READY. |
 | Eyes Peeled | Remove kill-triggered READY generation. |
 | Planning Ahead | Merge into common carrying and weapon-choice rules. |
-| Speed Loader | Spend Move to Reload; no movement plus free reload. |
+| Speed Loader | Proposed follow-up: one Core Reload readies up to two held Reload weapons. Move remains movement. |
 | Pin Them Down | Remove redundant skill; all ordinary non-wounding hits Pin. |
 
 ### AGI catalogue
@@ -266,7 +266,7 @@ These are proposed manuscript dispositions, not claims that the older selected c
 | Doc | Medical carrying efficiency and patient kit use; no free remote chem action. |
 | Inspector Gadget | Rename Pack Rat, one extra equipment slot. |
 | Stims | Replace free extra moves with a priced supply that eases Pinned/Stress temporarily. |
-| Smart | Spend Move for a defined physical interaction; no free actions. |
+| Smart | Proposed follow-up: reroll one failed physical Interact/Work test per round; still costs Core. No slot conversion. |
 
 ### NRV catalogue
 
@@ -274,7 +274,7 @@ These are proposed manuscript dispositions, not claims that the older selected c
 | --- | --- |
 | Inspire | One normal test, self plus one nearby friendly, remove Stress only. |
 | Rally | Rename Rally Training; improve the shared Rally action for two nearby targets. |
-| Motivate | Convert one remaining friendly Move into a non-attack Core; no refresh or chains. |
+| Motivate | Proposed follow-up: Core NRV test gives a nearby ally +2 inches on its next normal Move this round; ally spends its own Move. |
 | Sin Eater | Rename Share the Burden; transfer up to two Stress within available capacity. |
 | Implode | Remove Break bypass and stored damage spike; retain Stress as a problem to manage. |
 | Last Laugh | Remove extra attack after fatal timing; simultaneous Return Fire already preserves exchange risk. |
@@ -298,7 +298,7 @@ The manuscript is complete enough to test as a whole. None of the following is e
 | Does action alternation keep both players engaged? | Same mission at 5 versus 10 fighters under equal rating, then swapped sides | Pass usage, uncontested late turns, whether READY chains stall movement. |
 | Is combat bloody without deleting agency? | Cover approach, open crossing and flank on the same layout | Actions needed to Down; first-contact casualties; rescue attempts; who acts again after being Pinned. |
 | Is a rear Charge too strong or melee too weak? | Symmetric front/rear approaches with basic melee and rifle crews | Chance to reach combat, Injury outcome, exposure before contact; not isolated melee averages alone. |
-| Does morale add tension or a lockout? | Repeated pressure on a small crew with and without a support fighter | Break frequency, rounds spent unable to contribute, help cost, meaningful retreat decisions. |
+| Does morale add tension or a lockout? | Repeated pressure with and without support; let players wait for spent enemy actions/reactions, change LOS and create openings before standing | Break frequency, recovery timing, enemy threats still available, ranged protection, melee exposure and objective opportunity cost. Do not assume immediate recovery or inevitable re-pinning. |
 | Are drones and hackers alternatives to gunfire? | Same objectives with manual controls, then one drone or hacker swap | Useful operations, action opportunity cost, device survival, remaining human objective work. |
 | Does every terrain choice earn attention? | Four features, then remove the least-used one next game | Who used it, what changed, whether an alternate route existed, whether its card was reread. |
 | Do capture and injury let two opponents keep playing? | Paper-run six consecutive cycles, including one severe loss | Available humans, replacement cost, prison duration, recovery overlap and minimum viable roster. |
@@ -311,3 +311,11 @@ The first revision should respond to observed problems. If the game is slow, ide
 ## Completion evidence
 
 The manuscript contains the full rules and catalogues; the prior draft snapshot is preserved; active reference notes point to the new authority. A separate four-page battle reference and [[Draft 2 - Manuscript Checks|document check report]] accompany this audit. Those checks cover document structure, source coverage, catalogue counts, reference links and worked-example arithmetic. **No tabletop game, new combat simulation, balance calibration or duration validation was performed by this drafting task.**
+
+## Follow-up rulings: Move actions and Pinned — 2026-10-17
+
+Ross clarified that each fighter has one Move Action for moving and one Core Action for shooting, interacting, hiding or another task. Standing from Pinned uses Move instead of travelling and leaves an unused Core available. He set hit modifiers against Pinned targets at −2 ranged and +2 melee, and stressed evaluating recovery through actual timing choices: players can act with other fighters while waiting for threats to expend actions/reactions or leave LOS.
+
+These are confirmed user rulings. Their integration is recorded in [[design-006 Pinned movement and hit modifiers]]. The manuscript retains action-by-action alternation and existing specific friendly-help/Rally effects. Neither a modifier nor choosing a better recovery moment guarantees safety.
+
+Collateral implementation choices remain proposals: Aim now costs Core and lasts through the following round; Mark Target and drone movement cost Core; Speed Loader, Smart and Motivate no longer exchange Move for a non-movement task. Armour Loot uses Core like other loot, and improvised Both actions must include the fighter's movement. Their revised utility and prices require playtesting; Ross did not individually specify these replacement skill effects.

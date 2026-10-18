@@ -4,6 +4,8 @@
 
 [[Settlements Rules System Version 2]] is the complete **working proposal**, dated 2026-10-17. Ross authorised completing missing rules and revising existing mechanics to satisfy his detailed tenets. New assistant-selected procedures and numbers are clearly design proposals, not retroactively attributed decisions or validated balance.
 
+The subsequent Move/Core and Pinned rulings are confirmed by Ross: stand using Move, retain unused Core, −2 ranged / +2 melee hits against Pinned. See [[design-006 Pinned movement and hit modifiers]] for their scope and the separate proposed integration changes.
+
 ## Source roles
 
 - Ross's October 17 brief and answers: primary design requirements and requested scope.

@@ -103,7 +103,7 @@ Stats range from 0 to +6. Zero represents no particular training under combat pr
 
 Roll **1d20 + the relevant stat + modifiers − Stress**. A total of **15 or more succeeds**. Natural 1 always fails; natural 20 always succeeds. The action says what failure does. Do not add a difficulty scale: a task is automatic, a normal test, or impossible with the available tools and position.
 
-For any roll, use only the **largest positive and largest negative modifier from skills**, and likewise the largest positive and negative modifier from equipment characteristics. A skill modifier cannot exceed 4; an equipment characteristic modifier cannot exceed 3. Add these to the stat and applicable position modifiers. Cover is either 0, −1, or −2, never both cover grades. Hidden, rear attacks, Aim, and Stress have their own stated effects and apply once each. Identical effects still never stack.
+For any roll, use only the **largest positive and largest negative modifier from skills**, and likewise the largest positive and negative modifier from equipment characteristics. A skill modifier cannot exceed 4; an equipment characteristic modifier cannot exceed 3. Add these to the stat and applicable position modifiers. Cover is either 0, −1, or −2, never both cover grades. Pinned, Hidden, rear attacks, Aim, and Stress have their own stated effects and apply once each. The Pinned target modifier stacks with applicable cover and rear modifiers; it changes hit rolls, not Injury rolls. Identical effects still never stack.
 
 Printed weapon Damage and Armour are profile values, not equipment characteristic bonuses. Injury rolls have their own formula in Chapter 9 and **do not subtract Stress**. Break and Rally ignore Stress. Distance rolls, initiative, and post-battle tables are not stat tests and ignore Stress too.
 
@@ -204,7 +204,7 @@ Count each crew's available action slots after deployment and conditions. The sm
 
 On your turn, choose one fighter with a legal unused slot and perform one action. Mark the slot spent before resolving reactions. Play then passes to the opponent. You may return to that fighter on a later turn to spend its other slot. There are no consecutive full-unit activations.
 
-An action costing **Both** spends the fighter's unused Move and Core together. If either is already spent, it cannot perform that action. An unused Move cannot normally become a Core Action. There is no limit on which fighter you choose except its slots and state.
+An action costing **Both** spends the fighter's unused Move and Core together. If either is already spent, it cannot perform that action. Each fighter has one Move Action for its own movement and one Core Action for other tasks. Standing up from Pinned uses Move instead of travelling. Neither slot converts into the other, and skills do not grant a second Core Action. There is no limit on which fighter you choose except its slots and state.
 
 You may spend a Pass instead. Without a Pass, you may only pass if you have no legal action you wish to retain: mark all your remaining slots spent. If one crew has finished, the other completes its actions, still allowing reactions. Once both have finished, resolve the End Phase.
 
@@ -213,12 +213,13 @@ You may spend a Pass instead. Without a Pass, you may only pass if you have no l
 | Action | Cost | Main effect |
 | --- | --- | --- |
 | Move | Move | Travel up to MOVE and choose facing |
-| Aim | Move | Gain +2 on your next Shoot this round; lost if you move first |
+| Recover (stand up) | Move | Remove your own Pinned instead of travelling; Core remains available if unused |
+| Aim | Core | Prepare +2 on your next Shoot, lasting through the end of next round; lost if you move or become Pinned first |
 | Dash | Both | Move up to twice MOVE; no attack |
 | Charge | Both | MOVE + d6, then one melee exchange if successful |
 | Shoot or Fight | Core | One attack using Chapter 8 |
 | Ready | Core | Gain one READY token |
-| Recover | Core | Remove your own Pinned, or help a friendly within 3 inches and LOS remove Pinned |
+| Help Recover | Core | Help a friendly within 3 inches and LOS remove Pinned |
 | Rally | Core | Test NRV to clear Stress and a morale condition on yourself or one friendly within 3 inches and LOS |
 | Hide or Observe | Core | Use the stealth rules in Chapter 11 |
 | Interact or Hack | Core | Operate one control, objective, or device |
@@ -228,7 +229,7 @@ You may spend a Pass instead. Without a Pass, you may only pass if you have no l
 | Reload | Core | Ready a weapon with Reload to fire again |
 | Disengage | Both | Leave engagement by the procedure in Chapter 7 |
 
-A fighter may perform at most **one own-turn attack action** each round: Shoot, Fight, or Charge. A reaction attack is separate. Defensive melee participation is not an attack action. A skill may change an action's cost or timing but cannot create an extra own-turn attack. A printed second non-attack Core Action is legal if an ability supplies its cost. Any own action directly attacking a fighter—including Shove, Grapple, Throw, Incapacitate, or a damaging grenade—uses the own-turn attack allowance. Firing a turret through an operation or Trojan also uses the operator's allowance. Terrain operations and deploying devices remain interactions, even if their hazards threaten enemies; they do not grant a second direct attack.
+A fighter may perform at most **one own-turn attack action** each round: Shoot, Fight, or Charge. A reaction attack is separate. Defensive melee participation is not an attack action. Skills may combine movement and a Core task by spending both slots, but cannot turn Move into another Core or create an extra own-turn attack. Any own action directly attacking a fighter—including Shove, Grapple, Throw, Incapacitate, or a damaging grenade—uses the own-turn attack allowance. Firing a turret through an operation or Trojan also uses the operator's allowance. Terrain operations and deploying devices remain interactions, even if their hazards threaten enemies; they do not grant a second direct attack.
 
 ### READY
 
@@ -259,7 +260,7 @@ A hit that Pins or Downs the acting fighter cancels its unfinished action and co
 1. Finish any effects explicitly due at the end of the round; the first player resolves their crew's effects first if order matters.
 2. Check Down timers and turn overdue casualties Unconscious.
 3. Resolve one Break or Rally test per eligible fighter as described in Chapter 10.
-4. Score objectives due this round. Clear temporary effects whose duration is “this round,” including unused Aim and Passes. Resolve smoke, fire, and gas expiry.
+4. Score objectives due this round. Clear temporary effects whose duration is “this round,” including Passes. Remove unused Aim when its stated duration ends. Resolve smoke, fire, and gas expiry.
 5. Check the scenario's end condition. A standard battle ends after round 6.
 
 ## 7 Movement facing and visibility
@@ -314,7 +315,9 @@ Within engagement, a fighter may spend Move to shift up to 1 inch around an enem
 
 ### Shooting
 
-Choose held weapons and one legal target in the shooter's forward arc, within weapon range and LOS. Declare dice and any optional effects. Roll **1d20 + DEX + modifiers − Stress** for each Attack Die; each 15+ is a hit. Natural 1 misses and natural 20 hits. Apply −1 or −2 for cover, −4 for Hidden when the target is legally visible, +2 for a rear attack, and +2 for a retained Aim. Each hit then makes an Injury roll.
+Choose held weapons and one legal target in the shooter's forward arc, within weapon range and LOS. Declare dice and any optional effects. Roll **1d20 + DEX + modifiers − Stress** for each Attack Die; each 15+ is a hit. Natural 1 misses and natural 20 hits. Apply −1 or −2 for cover, **−2 if the target is Pinned**, −4 for Hidden when the target is legally visible, +2 for a rear attack, and +2 for a retained Aim. Each hit then makes an Injury roll.
+
+Aim costs Core and gives +2 to the next Shoot, including a shooting reaction. It lasts through the end of the following round, but is lost earlier if the fighter moves, stands up, becomes Pinned, or enters engagement. Apply it to the whole shot, then remove it. Repeated Aim does not stack.
 
 There is no long-range penalty within a weapon's printed range. There is no generic penalty for moving. You cannot shoot beyond range or through solid terrain. Premeasure before spending the action.
 
@@ -332,7 +335,7 @@ You may shoot an enemy engaged with your friendly fighter, but each natural 1 in
 
 ### Melee exchange
 
-The acting fighter chooses one engaged enemy. Both roll their held melee pools, normally adding STR and their own modifiers to every die; Agile allows AGI instead. An outnumbered fighter suffers −1 to its melee totals for each **additional** conscious, unpinned enemy engaging it, maximum −2.
+The acting fighter chooses one engaged enemy. Both roll their held melee pools, normally adding STR and their own modifiers to every die; Agile allows AGI instead. **Against a Pinned opponent, add +2 to every melee Attack Die total before comparing the pools.** This applies to melee hit rolls, including a Sidearm used in melee, not to Injury or opposed Shove/Grapple tests. An outnumbered fighter suffers −1 to its melee totals for each **additional** conscious, unpinned enemy engaging it, maximum −2.
 
 Each die whose total **exceeds the opponent's highest total** scores a hit. Equal highest totals cause no hits. Only one side can score hits in an ordinary exchange. Roll Injury for those hits; there is no automatic second attack-back.
 
@@ -364,9 +367,13 @@ All humans have one Wound, including experienced Leaders. An Injury success repr
 
 ### Pinned and Recover
 
-A Pinned fighter may Move at half speed, Recover, Rally itself, or attempt the specified Disengage. It cannot attack voluntarily, Hide, Ready, operate equipment, or use ordinary skill actions. It can still defend in melee. Spend a Core Action to Recover and remove Pinned. Move first and travel at half speed, or Recover first and use normal movement on a later turn. Recover does not remove Stress.
+A Pinned fighter stays low: **ranged hit rolls against it suffer −2; melee hit rolls against it gain +2**. Apply these alongside other applicable modifiers. It can still defend in melee. These modifiers end as soon as Pinned is removed; becoming Down or Unconscious replaces Pinned with that casualty's own rules.
 
-A conscious, unpinned, unengaged friendly within 3 inches and LOS may spend its Core to help the target Recover without a test. This removes Pinned only; it does not cure Down or a morale condition. The target keeps its own remaining slots.
+On a chosen turn, spend its **Move Action to Recover: stand up and remove Pinned automatically, instead of travelling**. This uses the whole Move Action; it grants no travel and does not spend or restore Core. Standing counts as movement for Aim and Unwieldy. Recover does not remove Stress or a morale condition. With an unused Core and no other restriction, the fighter can Shoot or perform another Core Action on a later turn.
+
+You may leave a fighter Pinned while using other fighters, then choose a useful moment to stand. If it instead spends Move crawling, it travels up to half MOVE and remains Pinned. While Pinned it may also Rally itself or attempt the specified Disengage, but cannot attack voluntarily, Hide, Ready, operate equipment, or use ordinary skill actions. It cannot exchange Core for an ordinary self-Recover.
+
+A conscious, unpinned, unengaged friendly within 3 inches and LOS may spend its Core on Help Recover to help the target stand without a test. This removes Pinned only; it does not cure Down or a morale condition. The target keeps its own remaining slots.
 
 ### Down and Unconscious
 
@@ -384,7 +391,7 @@ A medkit is a single-use consumable. A conscious, unpinned, unengaged fighter in
 
 A Down fighter carrying a medkit may use the same action on itself. For **self-treatment only**, ignore its Stress penalty: the attempt represents applying prepared emergency aid. An assisting fighter uses its own normal INT test and Stress. One fighter may be successfully revived **once per battle**. Record that use on its card. A later Down still allows crawling and capture but cannot be revived again that battle.
 
-Treatment never restores spent action slots. A patient revived with a Core slot still available must spend it Recovering before doing other work, unless a friendly helps it. A revived fighter retains injuries from earlier battles. Medical aid in battle does not erase a lasting injury.
+Treatment never restores spent action slots. A revived patient remains Pinned and can spend an unused Move to stand, leaving any unused Core available. If Move was already spent, ordinary self-Recover waits until its next Move becomes available; friendly help and Rally still work as stated. A revived fighter retains injuries from earlier battles. Medical aid in battle does not erase a lasting injury.
 
 ### Attacks against casualties
 
@@ -392,7 +399,7 @@ A Down or Unconscious fighter cannot be used as a shield for another model and d
 
 ### Loot
 
-An unengaged fighter in contact with a Down or Unconscious model may spend Core to take **one carried item**, including an unused medkit, or one carried objective already on the ground. No test is needed. The looter must have space; it may drop an item into contact to make room. Removing armour requires a whole Both-slots action instead. The included utility knife and clothing have no resale value.
+An unengaged fighter in contact with a Down or Unconscious model may spend Core to take **one carried item**, including an unused medkit, or one carried objective already on the ground. No test is needed. The looter must have space; it may drop an item into contact to make room. Armour counts as the one item taken with that Core Loot action. The included utility knife and clothing have no resale value.
 
 Mark ownership transfers immediately. A looted item exists in only one place. A weapon taken this way is not held until the looter next makes a permitted weapon choice. Carried loot is not added to the starting Crew Rating during the battle; it must be fully counted in later battles. A dropped item remains where it fell and can be picked up with Interact.
 
@@ -506,7 +513,7 @@ Critical terrain and objective terminals cannot be shot out of the game. They ca
 
 ### Improvised actions
 
-Players may propose an action that follows from the physical scene. Agree its **object, intended effect, Core or Both cost, relevant stat, and failure consequence before committing**. Use an existing operation such as Shove, Displace, Open, Close, Move Cover, or Create Smoke whenever possible. Ordinary people and the tools present must plausibly be able to do it.
+Players may propose an action that follows from the physical scene. Agree its **object, intended effect, action cost, relevant stat, and failure consequence before committing**. Use Move for the fighter's movement, Core for another task, and Both only when combining movement with a Core task. Use an existing operation such as Shove, Displace, Open, Close, Move Cover, or Create Smoke whenever possible. Ordinary people and the tools present must plausibly be able to do it.
 
 One improvised action normally affects one target or one terrain piece. It cannot exceed the common move distance, create a free attack, erase a scenario objective, or destroy an entire building. Throwing a hand-carried box or tipping a cabinet is plausible; throwing a car is not. Dangerous and difficult attempts use a normal test, not an invented modifier table. If you cannot agree quickly, use the nearest printed action for this battle and discuss a future addition afterwards.
 
@@ -596,7 +603,7 @@ Turrets use the owner's one-reactor window, including Return Fire if targeted. T
 
 A utility drone costs **45 Credits**, occupies two equipment slots on its operator, and counts toward the crew's drone limit. Assign its operator on the Battle Roster. It has no weapon, no independent actions, no READY, and cannot score, contest, capture, carry mission cargo, or earn experience.
 
-Deploy it from the operator's base with a Core Deploy action, automatically. On a later turn, spend the operator's **Move** to move the drone up to 8 inches, instead of moving the operator. It may fly over low obstacles but not through solid terrain. Keep it within 12 inches of the operator and no higher than 6 inches above the surface below it. Measure its real flying position; use a stand or height marker. It may finish hovering or on a stable surface. Its LOS uses its actual height and a 360-degree camera.
+Deploy it from the operator's base with a Core Deploy action, automatically. On a later turn, spend the operator's **Core** to move the drone up to 8 inches. This is one remote command; performing an operation through it requires a separate Core Action. The operator's Move remains available for its own movement. It may fly over low obstacles but not through solid terrain. Keep it within 12 inches of the operator and no higher than 6 inches above the surface below it. Measure its real flying position; use a stand or height marker. It may finish hovering or on a stable surface. Its LOS uses its actual height and a 360-degree camera.
 
 Spend the operator's **Core** to perform one of these through the drone:
 
@@ -671,7 +678,7 @@ The included utility knife cannot be duplicated for free to gain an off-hand die
 
 ### Blasts smoke and fire
 
-For a Blast, choose a visible impact point within range. It must be a surface or a model's position, not an arbitrary point in the air. Each fighter or device whose base touches the **2-inch-radius** template and has an unobstructed line to its centre is a target, including the user's crew. This blast line ignores the target's facing. Targets must be on the impact point's level or within 2 inches vertically; intervening floors block it. Roll one normal ranged Attack Die against each, then Injury for hits on fighters; devices instead use their hit-based damage rule. Rear and Aim bonuses apply using the shooter's position and state, not the blast centre. Use cover from the impact point and ignore Hidden's −4. There is no separate shot at the centre, scatter roll, or extra attack on the original target. Solid walls contain the blast. A fighter can be hit only once by that blast.
+For a Blast, choose a visible impact point within range. It must be a surface or a model's position, not an arbitrary point in the air. Each fighter or device whose base touches the **2-inch-radius** template and has an unobstructed line to its centre is a target, including the user's crew. This blast line ignores the target's facing. Targets must be on the impact point's level or within 2 inches vertically; intervening floors block it. Roll one normal ranged Attack Die against each, then Injury for hits on fighters; devices instead use their hit-based damage rule. Rear and Aim bonuses apply using the shooter's position and state, not the blast centre. Use cover from the impact point, apply −2 against a Pinned target, and ignore Hidden's −4. There is no separate shot at the centre, scatter roll, or extra attack on the original target. Solid walls contain the blast. A fighter can be hit only once by that blast.
 
 Throwing a damaging grenade or fire bottle is a Core Shoot action and uses the own-turn attack allowance. It cannot be combined with another held weapon. A smoke grenade is a non-attack Core Use Item action and instead requires one DEX test to place a **3-inch-diameter** smoke template at a visible point within 8 inches. Pass: place it there. Fail: place it 2 inches closer to the thrower along the same line, stopping at the first obstruction. It produces no hits. Smoke lasts through the End Phase of the **next round**, then clears; mark its expiry round.
 
@@ -723,7 +730,7 @@ Reload reduces the result by 5; Single-use reduces it by 10. Use no more than on
 
 These **40 skills** are the Version 2 selection. Learn only skills whose stat is at least +2 before lasting injuries. Each fighter knows at most three; do not stack several copies. Starting skills are included in the training grade. Later skills come from advancement, not a separate purchase of powers.
 
-“Once per round” means once across all of that fighter's turns and reactions combined. Free movement or a changed action cost never creates an extra own-turn attack or reaction. All skill tests use the core test unless explicitly opposed. A passive bonus has no action cost. A fighter must be conscious, unpinned, unengaged, and free of a morale condition to use a skill action unless its text explicitly permits otherwise. Melee skills can be used during their stated engagement.
+“Once per round” means once across all of that fighter's turns and reactions combined. A skill never converts Move into Core or grants another Core Action. Movement included in a skill effect does not create another action or reaction. All skill tests use the core test unless explicitly opposed. A passive bonus has no action cost. A fighter must be conscious, unpinned, unengaged, and free of a morale condition to use a skill action unless its text explicitly permits otherwise. Melee skills can be used during their stated engagement.
 
 ### Strength skills
 
@@ -742,14 +749,14 @@ These **40 skills** are the Version 2 selection. Learn only skills whose stat is
 
 | Skill | Use | Effect |
 | --- | --- | --- |
-| Mark Target | Move; once per round | Test DEX against one legally visible enemy within 24 inches. Pass: Mark it through this round's End Phase; friendly shooting gains +2 to hit it. Reveal it as described in Chapter 11. Only one enemy may be Marked by your crew at a time; a new mark replaces the old. |
+| Mark Target | Core | Test DEX against one legally visible enemy within 24 inches. Pass: Mark it through this round's End Phase; friendly shooting gains +2 to hit it. Reveal it as described in Chapter 11. Only one enemy may be Marked by your crew at a time; a new mark replaces the old. |
 | Head Shot | Shooting modifier | Gain +2 Damage against a Marked target when using a one-die ranged weapon. Does not apply to Blast or an Automatic weapon reduced to one die. |
 | Gunslinger | Passive | When using two one-handed firearms, add one off-hand Attack Die beyond the normal allowance, to the shared maximum of three. Keep each die's weapon identity. |
 | Split Fire | Shooting modifier | Divide your normal shooting pool between at most two enemies within 3 inches of each other. Each die needs its own weapon range and LOS. No extra dice or follow-up shots. |
 | Run and Gun | Move plus Core | If both slots remain, combine normal Move and Shoot as one turn, firing at a declared point along the route. Spend both slots at declaration. This is your one own-turn attack and offers the opponent one reaction window for the combined action. |
 | Breach | Move modifier; once per round | During your Move, attempt to force one closed ordinary door with an STR test without spending Core. Success opens it and movement continues; failure stops movement at the door. Reinforced blast doors are excluded. Reactions work normally. |
 | Cover Me | Reaction | Spend READY when a visible enemy shoots another friendly within 6 inches of you. Shoot the attacker as a simultaneous Return Fire exchange; the attacker still targets the original friendly. Neither shot cancels the other. Counts as your one reaction and the action's one reacting model. |
-| Speed Loader | Move; once per round | Reload one held weapon instead of moving. Does not grant a free Move or waive the attack-action limit. |
+| Speed Loader | Reload modifier | A Core Reload readies up to two held weapons with Reload instead of one. It does not include a shot or spend Move. |
 
 ### Agility skills
 
@@ -775,7 +782,7 @@ These **40 skills** are the Version 2 selection. Learn only skills whose stat is
 | Stabilize | Treatment modifier | +2 INT to Treat another fighter. On success set the patient's Stress to 0 instead of 2. It is still Pinned and has used its one revival. |
 | Doc | Passive | Carry two medkits in one equipment slot. Pay for both. When Treating another fighter, you may spend its carried medkit instead of yours. Treatment still requires contact and Core. |
 | Pack Rat | Passive | Gain one equipment slot, maximum three. Does not add hands or weapon slots. |
-| Smart | Move; once per round | Spend Move as Core for one direct physical Interact, including an objective's Claim, Retrieve, or Work action. It cannot be Hack, Treat, Capture, Deploy, an attack, or a skill action. |
+| Smart | Interact modifier; once per round | Reroll one failed test for a direct physical Interact, including a mission Work action. The action still costs Core. Does not apply to Hack, Treat, Capture, Deploy, attacks, or skill actions. Automatic interactions remain automatic. |
 
 ### Nerve skills
 
@@ -783,9 +790,9 @@ These **40 skills** are the Version 2 selection. Learn only skills whose stat is
 | --- | --- | --- |
 | Inspire | Core | Test NRV, applying your Stress. Success removes up to 2 Stress from you and from one friendly within 6 inches and LOS. Does not remove Pinned or a morale condition. |
 | Rally Training | Core | Make the normal Stress-free Rally test for up to two friendlies within 6 inches and LOS instead of one within 3. One test determines both outcomes. You may include yourself. While Broken, you may use this skill only to Rally yourself, not to assist others. |
-| Motivate | Core | Test NRV. Success lets one other friendly within 6 inches and LOS use its remaining Move as a Core later this round, for a non-attack action. It cannot use that slot to Motivate another fighter. No slot is refreshed. |
+| Motivate | Core | Test NRV. Success lets one other conscious, unpinned friendly within 6 inches and LOS travel 2 inches farther during its next normal Move this round. It must spend its own unused Move; no slot is restored. Does not extend Dash, Charge, Disengage, forced flight, or standing up. |
 | Share the Burden | Core | Transfer up to 2 Stress in total from friendlies within 3 inches and LOS to yourself, limited by your remaining capacity. No test. Does not remove their morale conditions. |
-| Hold Fast | Recover modifier | When your Recover action helps another fighter in cover, also remove 1 of its Stress. It must actually have cover from at least one visible enemy. No injury-prevention aura is created. |
+| Hold Fast | Help Recover modifier | When your Help Recover action helps another fighter in cover, also remove 1 of its Stress. It must actually have cover from at least one visible enemy. No injury-prevention aura is created. |
 | On Your Feet | Core | Recover up to two friendlies within 6 inches and LOS instead of one within 3. No test. Neither may be Down or Unconscious; morale conditions remain. |
 | Commanding Presence | Once per round | One friendly within 6 inches and LOS may use your NRV for its Break or Rally test. You must be conscious, unpinned, and without a morale condition. Other modifiers belong to the fighter taking the test. |
 | Unflinching | Once per battle | After an attack hits you but causes no Wound, ignore Pinned from that attack and retain READY if you had it. Gain all Stress normally. This does not remove pre-existing Pinned or a morale condition. |
@@ -1040,6 +1047,8 @@ Do not collect production during founding. After the first qualifying battle, th
 ### Actions and a reaction
 
 Mara spends her Move to advance into cover. The other player takes an action. Mara later spends her Core to Ready. On a later enemy Move, Mara sees a legal target cross her front arc at a declared point. She spends READY to Shoot there and marks Reacted. The shot hits but fails Injury: the enemy gains Stress and becomes Pinned, ending its unfinished movement. Mara cannot react again this round even if she somehow gains READY again.
+
+A Pinned fighter can wait while its crew takes other actions. Once nearby enemies have spent their attacks and reactions, an exposed target may provide an opening: spend Move to stand, then use the fighter's unused Core to Shoot on a later friendly turn. Until it stands, incoming ranged hits suffer −2. An enemy able to reach it in melee instead gains +2 to hit. Choosing the recovery moment matters; standing immediately is not compulsory.
 
 ### Shooting and Injury
 
