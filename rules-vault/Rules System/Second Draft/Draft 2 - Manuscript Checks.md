@@ -37,4 +37,4 @@ This review is not a guarantee that every emergent interaction is resolved. No n
 - Ross's edited opening and Components text remains intact; descriptions exclude crossed-out prose.
 - Updated quick-reference PDF retains four A4 pages; all four rendered pages were visually inspected.
 
-Template sizes and the two-carrier exception remain marked for review. These checks do not resolve those decisions or establish game balance. The annotated review table should be updated in place by stable ID, preserving Notes.
+Template sizes remain marked for review. Ross subsequently resolved carrying as one carrier at half speed; the joint action was removed from the master/reference and V2-091 was updated without changing IDs or Notes. Strong Arm remains its explicit speed exception. These are document checks, not game-balance validation. The annotated review table should be updated in place by stable ID, preserving Notes.

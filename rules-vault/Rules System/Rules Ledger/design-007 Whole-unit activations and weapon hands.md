@@ -21,7 +21,7 @@ Implementation choices supporting the ruling: spend/forfeit unused slots within 
 
 ## Coordinated carrying
 
-The former two-carrier rule spent another fighter's Move outside its activation. Ross was asked whether to simplify to one carrier at half speed or retain an explicit coordinated exception. Record his response here before treating a replacement as confirmed.
+Ross selected **one carrier at half speed**. The joint full-speed carry is removed: one fighter spends its own Move during its activation, without consuming another fighter's action. The existing Strong Arm skill remains its specific speed exception; Ross's choice between ordinary carrying and a coordinated two-carrier exception does not remove that skill.
 
 ## Verification scope
 

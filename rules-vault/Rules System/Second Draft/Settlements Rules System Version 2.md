@@ -317,7 +317,7 @@ A deliberate drop of up to 2 inches is safe and costs its vertical distance. For
 
 Pushes and pulls follow the shortest stated direction. Stop at an immovable obstruction or another standing base; excess distance is lost. A ledge or open pit is a hazard, not a wall: use the fall rules. A move cannot end with overlapping bases. If terrain closes on a model, use the feature's Displace or Crush rule.
 
-Dragging a casualty, escorting a captive, or carrying a Heavy objective halves movement, prohibits Dash and Charge, and occupies one hand. Two unengaged friendlies in contact can jointly carry one casualty: one spends Move, both use their Move slots, and both move together up to the slower fighter's normal MOVE. This is one combined action and one reaction window; either carrier may trigger it. If either is Pinned or Downed, the movement stops and they release the casualty. Taking hold of a friendly casualty in contact is part of the carrying Move, with no extra action. An enemy casualty must first be Secured. A carrier may drop a load without a test at any time during its own action.
+Dragging a casualty, escorting a captive, or carrying a Heavy objective halves movement, prohibits Dash and Charge, and occupies one hand. One fighter carries at a time, spending its own Move during its own activation. There is no coordinated two-carrier action and no spending another fighter's Move to carry together. Taking hold of a friendly casualty in contact is part of the carrying Move, with no extra action. An enemy casualty must first be Secured. A carrier may drop a load without a test at any time during its own action.
 
 ### Engagement and withdrawal
 

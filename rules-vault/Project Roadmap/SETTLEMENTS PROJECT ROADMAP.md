@@ -22,6 +22,7 @@ Updated 2026-10-18. Rules authority: [[Settlements Rules System Version 2]]. Det
 - [x] Integrate Ross's Move recovery and Pinned target modifiers (−2 ranged / +2 melee), with collateral proposals in [[design-006 Pinned movement and hit modifiers]].
 - [x] Integrate two-hand weapon capacity and whole-unit Move/Core activations in either order; see [[design-007 Whole-unit activations and weapon hands]].
 - [x] Create [[Settlements Rules System Version 2 - Rules and Mechanics Review|the concise rules review table]] with source links and editable feedback cells.
+- [x] Resolve ordinary carrying as one carrier at half speed; remove the joint activation exception and preserve annotated table IDs.
 - [ ] Review the proposed changes with Ross.
 - [ ] Test complete battles, timing and learning without the author.
 - [ ] Test economy, recovery and veteran rosters across repeated two-player games.

@@ -32,7 +32,8 @@ These user rulings supersede the earlier Core self-Recover text. Replacement ski
 - [x] Weapon slots represent two literal hands: Heavy weapons use two, never three.
 - [x] Alternate whole-fighter activations; resolve one Move and one Core in either order before the opponent activates.
 - [x] Update timing, READY/reaction examples, roster tracking, quick reference and hand-based profiles.
-- [x] Record integration choices and remaining carrying decision in [[design-007 Whole-unit activations and weapon hands]].
+- [x] Apply Ross's single-carrier choice: half-speed ordinary carrying; remove coordinated two-carrier movement; preserve the specific Strong Arm skill.
+- [x] Record integration choices in [[design-007 Whole-unit activations and weapon hands]].
 
 ## Consequential proposed decisions
 

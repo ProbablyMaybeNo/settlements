@@ -15,7 +15,7 @@ This is a concise review index, not replacement rules text. Limits, exceptions a
 
 **Feedback:** write freely, or start a note with **KEEP**, **CHANGE**, **REMOVE**, or **QUESTION**. Refer to another row by its V2 number when rules interact. I will read those notes, amend the linked master text, propagate the change, and update this summary while preserving your notes. An empty Notes cell is not approval. Do not regenerate this table over annotated rows.
 
-**Pending details:** template dimensions differ between Components and the attack rules. The retained two-carrier exception still needs an activation procedure or removal; your carrying-choice question remains open. These entries carry `#review`.
+**Pending details:** template dimensions differ between Components and the attack rules; affected entries carry `#review`. Carrying is resolved: one carrier at half speed, with the existing Strong Arm skill exception.
 
 **Reading shorthand:** Cr = Credits; Mat = Materials; Dmg = Damage; ″ = inches. Prices and profiles are provisional. `#review` identifies an unresolved detail in the existing text, not a new mechanic.
 
@@ -116,7 +116,7 @@ This is a concise review index, not replacement rules text. Limits, exceptions a
 | **Inaccessible casualties**<br>V2-088 | Movement | #movement #traversal #casualty | Mark at reachable rim; count Unconscious until post-battle recovery. Falls never kill on-table. | [[Settlements Rules System Version 2#Climbing jumping and falling\|§7 · Full text]] |  |
 | **Forced movement**<br>V2-089 | Movement | #movement #terrain | Follow stated direction; stop at solids/standing bases. Ledges cause falls; never overlap bases. | [[Settlements Rules System Version 2#Forced movement and carrying\|§7 · Full text]] |  |
 | **Carry or escort**<br>V2-090 | Movement | #movement #carry #move-minus #hands | One casualty/captive/Heavy cargo; half MOVE, one hand, no Dash/Charge. Friendly pickup accompanies Move. | [[Settlements Rules System Version 2#Forced movement and carrying\|§7 · Full text]] |  |
-| **Two-carrier movement**<br>V2-091 | Movement | #movement #carry #review | Two carriers spend both Move slots together for slower normal MOVE; compatibility with whole-unit activations awaits decision. | [[Settlements Rules System Version 2#Forced movement and carrying\|§7 · Full text]] |  |
+| **Single-carrier movement**<br>V2-091 | Movement | #movement #carry | One carrier uses its own Move; no joint full-speed carry or spending another fighter's Move. | [[Settlements Rules System Version 2#Forced movement and carrying\|§7 · Full text]] |  |
 | **Release a load**<br>V2-092 | Movement | #movement #carry #capture | Drop during own action without test; enemy casualties must first be Secured. | [[Settlements Rules System Version 2#Forced movement and carrying\|§7 · Full text]] |  |
 | **Engaged action limits**<br>V2-093 | Movement | #movement #melee #combat | Fight/Grapple, melee Sidearm, Recover, self-Rally or Disengage; no outside shooting, terminals, Treat or objectives. | [[Settlements Rules System Version 2#Engagement and withdrawal\|§7 · Full text]] |  |
 | **Disengage**<br>V2-094 | Movement | #movement #melee #both #opposed #combat | Both; opposed AGI. Pass moves MOVE; fail suffers one Unanswered exchange, then half MOVE if not Down. | [[Settlements Rules System Version 2#Engagement and withdrawal\|§7 · Full text]] |  |

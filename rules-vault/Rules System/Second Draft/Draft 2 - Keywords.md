@@ -24,6 +24,7 @@ Read these with [[Settlements Rules System Version 2]]. The manuscript controls 
 | Grappled | Specific opposed hold/escape; no human shield or automatic takedown. See Grapple skill. |
 | Offline / Destroyed | Device first/second hit; drone first hit destroys. Offline can Repair; Destroyed cannot in battle. |
 | Frozen | Terminal unavailable until End Phase; local manual controls remain. |
+| Carry / escort | One carrier at half MOVE using its own Move during its activation; one hand, no Dash/Charge. No joint carrying; Strong Arm is a specific speed exception. |
 | Crew Rating | Full current Credits value of all fielded people, gear, devices and preparations. Discounts do not reduce it. |
 | Settlement round | One management cycle after a qualifying battle, whether or not playing a campaign. |
 

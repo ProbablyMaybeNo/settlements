@@ -71,7 +71,7 @@ Low obstacle ≤1 inch costs 2 inches to cross. Difficult ground, Pinned, Hidden
 
 **Fall/drop:** deliberate ≤2 inches safe. Greater drop/fall: AGI; pass Pinned, fail Damage 3 Injury ignoring Armour, then Pinned if conscious. Over 6 inches automatically fails AGI. Inaccessible casualty: mark rim, Unconscious, recover post-battle.
 
-**Carry/escort:** half MOVE, one hand, no Dash/Charge. Two helpers may spend both Move slots as one action to carry at the slower normal MOVE. Either being Pinned/Down stops them and releases the load.
+**Carry/escort:** half MOVE, one hand, no Dash/Charge. One carrier uses its own Move in its activation; no joint two-carrier movement. Strong Arm is the printed speed exception.
 
 ### Shooting
 
