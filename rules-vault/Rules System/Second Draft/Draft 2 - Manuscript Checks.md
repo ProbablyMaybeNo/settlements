@@ -27,3 +27,14 @@ The action table, casualty recovery, skill costs, drone commands, armour Loot, k
 The drafting pass reconciled action costs and attack limits, reactions against movement and shooting, operator/drone interruption, casualty timing, extraction of carriers, Pinned engagement, self-Rally, Broken assistance, catalogue unlocks, worker eligibility, construction timing, recovery overlap and item ownership. The quick reference and current catalogue views use the same rules.
 
 This review is not a guarantee that every emergent interaction is resolved. No new combat simulation or tabletop playtest was run. Catalogue balance, campaign economics over repeated games, accessibility to new players, and the roughly sixty-minute target remain unverified. The next useful tests are listed in [[Draft 2 - Design Requirements and Research Audit#Risks and the next useful tests]].
+
+## October 18 review table and ruling checks
+
+- 453 review entries, each with a unique stable V2 reference and six table columns.
+- 454 row source-heading links and 154 navigation heading links resolve to the current master.
+- All 40 skills, 22 weapon profiles, 17 weapon characteristics, 20 interactive terrain features, eight deployables, sixteen armour/supply items and twenty structures are represented.
+- All four Heavy profiles and the custom Heavy class use two hands/weapon slots; whole-unit activations allow Move/Core in either order.
+- Ross's edited opening and Components text remains intact; descriptions exclude crossed-out prose.
+- Updated quick-reference PDF retains four A4 pages; all four rendered pages were visually inspected.
+
+Template sizes and the two-carrier exception remain marked for review. These checks do not resolve those decisions or establish game balance. The annotated review table should be updated in place by stable ID, preserving Notes.

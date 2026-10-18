@@ -14,6 +14,8 @@ Settlements is a skirmish game about ordinary people fighting over the things th
 
 ## Contents
 
+**[[Settlements Rules System Version 2 - Rules and Mechanics Review|Review every rule and mechanic]]** — concise table with tags, full-text links and space for your notes.
+
 **[[Settlements Rules System Version 2 - Index|Open the complete rules index]]** — jump directly to any chapter or subsection.
 
 > [!abstract]- Browse all sections here
@@ -85,7 +87,7 @@ The standard game has two players. Each player needs 5–10 human miniatures for
 ***Everything mentioned above will be explained later in the rulebook.***
 ## Common conventions
 
-- **Round:** both crews use their available actions, then resolve the End Phase. **Turn:** one player's opportunity to take one action. An action and its consequences finish before the other player's turn.
+- **Round:** both crews complete their available activations, then resolve the End Phase. **Turn:** one player activates one fighter, or spends a Pass. **Activation:** that fighter resolves its Move and Core Actions in either order before the opponent activates a fighter. Resolve each action and its reactions fully before beginning the next action.
 - **Within:** the shortest distance between bases is no greater than the stated distance. Base contact means touching; floors must also match unless a rule says otherwise. Engagement is within 1 inch on a reachable surface.
 - Measure movement along the path actually travelled, using the same point on the base throughout. You may premeasure. A unit cannot move through a solid wall, another standing unit's base, or a gap its base cannot fit through.
 - **Friendly** includes the acting fighter unless the rule says “another.” **Enemy** means the opposing crew. A **fighter** is a human model. A **device** is equipment, not a fighter.
@@ -162,7 +164,7 @@ Use 5–10 fighters for the first games. More are allowed when the agreed limit 
 
 ### Carrying equipment
 
-A fighter has **two weapon slots**, **two equipment slots**, and may wear **one armour item**. A one-handed weapon uses one weapon slot; a two-handed weapon uses two; a Heavy weapon uses three. The included knife uses no slot. A grenade uses one equipment slot rather than a weapon slot. Other equipment lists its slots. A fighter may use only two hands at a time. Weapon slots hold weapons, equipment slots hold supplies/devices; worn armour uses neither. Carried devices continue to reserve their operator's equipment slots after deployment until lost, consumed, or transferred, so deployment does not create extra capacity.
+A fighter has **two weapon slots representing its two hands**, **two equipment slots**, and may wear **one armour item**. A one-handed weapon uses one hand and one weapon slot; a two-handed weapon, including a Heavy weapon, uses both hands and both weapon slots. No weapon requires more than two hands or two weapon slots. The included knife uses no slot while stowed, but requires one hand when used. A grenade uses one equipment slot rather than a weapon slot. Other equipment lists its slots. A fighter may use only two hands at a time. Weapon slots hold weapons, equipment slots hold supplies/devices; worn armour uses neither. Carried devices continue to reserve their operator's equipment slots after deployment until lost, consumed, or transferred, so deployment does not create extra capacity.
 
 Choose held weapons at the start of your fighter's first action or reaction each round. Once during a later own action that round, you may change held weapons before resolving it. You cannot switch in response to an enemy declaration after that round's choice. A carried but unheld weapon contributes no attack dice.
 
@@ -206,19 +208,21 @@ Height gives a better view, not an automatic accuracy bonus. If an elevated atta
 
 ### Start Phase
 
-Advance the round counter. Restore each conscious, uncaptured fighter's Move and Core slots. Down fighters also receive those slots but can use only the limited actions in Chapter 9. Unconscious fighters receive neither. Clear Reacted markers and reset once-per-round abilities. READY tokens remain until used or cancelled.
+Advance the round counter. Restore each conscious, uncaptured fighter's Move and Core slots. Down fighters also receive those slots but can use only the limited actions in Chapter 9. Unconscious fighters receive neither. Clear Activated and Reacted markers and reset once-per-round abilities. READY tokens remain until used or cancelled.
 
 Each player rolls a d20; higher chooses who takes the first turn this round, with ties favouring the player who did not take the first turn last round. Reroll a round-1 tie.
 
-Count each crew's available action slots after deployment and conditions. The smaller total receives **Passes equal to half the difference, rounded up**. One Pass spends a turn without acting. Passes last only this round. They compensate for some timing advantage, not missing fighters or combat power.
+Count each crew's fighters eligible to activate at the Start Phase, including Down fighters but excluding Unconscious and Captured fighters and models with no independent activation. The smaller total receives **Passes equal to the difference in eligible fighters**. One Pass spends a turn without activating. Passes last only this round and are not recalculated after casualties. They compensate for activation timing, not missing fighters or combat power.
 
-### Alternating actions
+### Alternating activations
 
-On your turn, choose one fighter with a legal unused slot and perform one action. Mark the slot spent before resolving reactions. Play then passes to the opponent. You may return to that fighter on a later turn to spend its other slot. There are no consecutive full-unit activations.
+On your turn, choose one eligible fighter that has not yet activated this round and mark it Activated. During this activation it has **one Move Action and one Core Action, resolved in either order**. Complete both before the opponent activates a fighter. Mark each slot spent when its action is declared, before reactions. Normal Move and Core are separate actions, each with its own reaction window; the opponent does not receive a normal activation between them. A fighter activates at most once per round, even if it is later revived or helped to Recover.
 
-An action costing **Both** spends the fighter's unused Move and Core together. If either is already spent, it cannot perform that action. Each fighter has one Move Action for its own movement and one Core Action for other tasks. Standing up from Pinned uses Move instead of travelling. Neither slot converts into the other, and skills do not grant a second Core Action. There is no limit on which fighter you choose except its slots and state.
+Resolve or forfeit both slots before ending the activation. You may decline an unwanted or impossible action, but its slot is spent; unused slots cannot be saved for another turn. A Move may travel zero inches. Forfeiting a slot is not an action or a reaction trigger. Becoming Pinned or Down can restrict or cancel the remaining action; it does not grant a replacement activation.
 
-You may spend a Pass instead. Without a Pass, you may only pass if you have no legal action you wish to retain: mark all your remaining slots spent. If one crew has finished, the other completes its actions, still allowing reactions. Once both have finished, resolve the End Phase.
+An action costing **Both** spends the fighter's unused Move and Core together. If either is already spent, it cannot perform that action. Each fighter has one Move Action for its own movement and one Core Action for other tasks. Standing up from Pinned uses Move instead of travelling. Neither slot converts into the other, and skills do not grant a second Core Action. Choose any eligible, not-yet-activated fighter; there is no fixed activation order within your crew.
+
+You may spend a Pass instead of activating. Without a Pass, passing ends your crew's activations for the round: mark all remaining fighters Activated and their slots spent. If one crew has finished, the other completes its activations, still allowing reactions. Once both have finished, resolve the End Phase.
 
 ### Action reference
 
@@ -265,7 +269,7 @@ Spend READY immediately and mark Reacted. No reaction triggers another reaction.
 | Operate | Use a control or terminal you can currently reach. Resolve one legal terrain operation before the trigger completes. |
 | Interrupt | Requires the Interrupt skill and uses its opposed test. |
 
-A hit that Pins or Downs the acting fighter cancels its unfinished action and consumes the slots spent. If a moving fighter is interrupted, it stops at that point. A cancelled Charge has no attack. An operation that closes a route stops movement at the obstruction; it does not allow the remaining distance to pass through it. A simultaneous Return Fire exchange is completed even if one shooter is Downed by that exchange.
+A hit that Pins or Downs the acting fighter cancels its unfinished action and consumes the slots spent. If a moving fighter is interrupted, it stops at that point. Resolve or forfeit any other unused slot within the same activation according to the fighter's new state; a cancelled action is not refunded. A cancelled Charge has no attack. An operation that closes a route stops movement at the obstruction; it does not allow the remaining distance to pass through it. A simultaneous Return Fire exchange is completed even if one shooter is Downed by that exchange.
 
 ### End Phase
 
@@ -381,7 +385,7 @@ All humans have one Wound, including experienced Leaders. An Injury success repr
 
 A Pinned fighter stays low: **ranged hit rolls against it suffer −2; melee hit rolls against it gain +2**. Apply these alongside other applicable modifiers. It can still defend in melee. These modifiers end as soon as Pinned is removed; becoming Down or Unconscious replaces Pinned with that casualty's own rules.
 
-On a chosen turn, spend its **Move Action to Recover: stand up and remove Pinned automatically, instead of travelling**. This uses the whole Move Action; it grants no travel and does not spend or restore Core. Standing counts as movement for Aim and Unwieldy. Recover does not remove Stress or a morale condition. With an unused Core and no other restriction, the fighter can Shoot or perform another Core Action on a later turn.
+On a chosen turn, spend its **Move Action to Recover: stand up and remove Pinned automatically, instead of travelling**. This uses the whole Move Action; it grants no travel and does not spend or restore Core. Standing counts as movement for Aim and Unwieldy. Recover does not remove Stress or a morale condition. With an unused Core and no other restriction, the fighter can immediately continue its activation with Shoot or another legal Core Action, subject to reactions.
 
 You may leave a fighter Pinned while using other fighters, then choose a useful moment to stand. If it instead spends Move crawling, it travels up to half MOVE and remains Pinned. While Pinned it may also Rally itself or attempt the specified Disengage, but cannot attack voluntarily, Hide, Ready, operate equipment, or use ordinary skill actions. It cannot exchange Core for an ordinary self-Recover.
 
@@ -442,12 +446,12 @@ At the End Phase, each conscious fighter without a morale condition and with **2
 | Stress | Condition | What the fighter does |
 | --- | --- | --- |
 | 1–2 | Broken | Becomes Pinned. Until rallied it may only Move, Recover, Rally itself, or Disengage. |
-| 3–4 | Bolting | On its next available turn, spend all remaining slots to move up to twice MOVE toward the nearest reachable place outside enemy LOS. Prefer heavy cover; take the shortest safe route. |
-| 5 | Bugging Out | On its next available turn, spend all remaining slots to move up to twice MOVE toward the nearest reachable board edge. It leaves play if it reaches that edge. |
+| 3–4 | Bolting | During its activation, spend all remaining slots to move up to twice MOVE toward the nearest reachable place outside enemy LOS. Prefer heavy cover; take the shortest safe route. |
+| 5 | Bugging Out | During its activation, spend all remaining slots to move up to twice MOVE toward the nearest reachable board edge. It leaves play if it reaches that edge. |
 
 The 1-Stress entry is for effects that explicitly force a Break test. Never make a normal End Phase Break test at Stress 0 or 1. If a forced test fails at 0 Stress, use Broken.
 
-A fighter with a morale condition cannot react, give assistance, score, or contest. Bolting and Bugging Out movement overrides Pinned and spends the fighter's remaining slots even if it reaches its destination early. Movement remains subject to physical obstacles and traversal tests. Bolting never deliberately takes a hazardous route when a safe one exists. Bugging Out may take one if it is the shortest legal way out. If no destination can be reached, move as far along a legal route toward it as possible; if no route exists, remain in place and spend the slots. The owner breaks equal-distance route ties. Choose this forced action on one of your turns before ending your crew's actions; it is taken once that round, even if only one slot remained. If no slots remain when the condition is gained, the forced movement waits until the next round.
+A fighter with a morale condition cannot react, give assistance, score, or contest. Bolting and Bugging Out movement overrides Pinned and spends the fighter's remaining slots even if it reaches its destination early. Movement remains subject to physical obstacles and traversal tests. Bolting never deliberately takes a hazardous route when a safe one exists. Bugging Out may take one if it is the shortest legal way out. If no destination can be reached, move as far along a legal route toward it as possible; if no route exists, remain in place and spend the slots. The owner breaks equal-distance route ties. Resolve this forced action during the fighter's activation, or immediately before its next unused action if it gains the condition during its current activation. It occurs at most once that round, even if only one slot remains. A fighter that already ended its activation does not activate again; forced movement then waits until its next round's activation.
 
 A fighter that flees off-board is Withdrawn, not Down, and does not roll an injury merely for fleeing. Any casualty it was carrying is released at the point it started fleeing.
 
@@ -615,7 +619,7 @@ Turrets use the owner's one-reactor window, including Return Fire if targeted. T
 
 A utility drone costs **45 Credits**, occupies two equipment slots on its operator, and counts toward the crew's drone limit. Assign its operator on the Battle Roster. It has no weapon, no independent actions, no READY, and cannot score, contest, capture, carry mission cargo, or earn experience.
 
-Deploy it from the operator's base with a Core Deploy action, automatically. On a later turn, spend the operator's **Core** to move the drone up to 8 inches. This is one remote command; performing an operation through it requires a separate Core Action. The operator's Move remains available for its own movement. It may fly over low obstacles but not through solid terrain. Keep it within 12 inches of the operator and no higher than 6 inches above the surface below it. Measure its real flying position; use a stand or height marker. It may finish hovering or on a stable surface. Its LOS uses its actual height and a 360-degree camera.
+Deploy it from the operator's base with a Core Deploy action, automatically. On a later activation, spend the operator's **Core** to move the drone up to 8 inches. This is one remote command; performing an operation through it requires a separate Core Action in another activation. The operator's Move remains available for its own movement. It may fly over low obstacles but not through solid terrain. Keep it within 12 inches of the operator and no higher than 6 inches above the surface below it. Measure its real flying position; use a stand or height marker. It may finish hovering or on a stable surface. Its LOS uses its actual height and a 360-degree camera.
 
 Spend the operator's **Core** to perform one of these through the drone:
 
@@ -657,10 +661,10 @@ All Credits in these catalogues are **provisional Version 2 prices**. Use the sa
 | Shotgun | 30 | 1 | 3 | 12 inches | 2 / 2 | Brutal | Basic |
 | Suppressed carbine | 35 | 1 | 2 | 18 inches | 2 / 2 | Quiet | Armoury |
 | Sniper rifle | 55 | 1 | 3 | 36 inches | 2 / 2 | Precision, Accurate | Armoury |
-| Machine gun | 70 | 3 | 4 | 24 inches | 2 / 3 | Heavy, Automatic 3, Unwieldy, Suppression | Armoury |
-| Grenade launcher | 65 | 1 per target | 3 | 24 inches | 2 / 3 | Heavy, Blast, Reload, Unwieldy | Armoury |
-| Flamethrower | 65 | 1 per target | 2 | 8 inches | 2 / 3 | Heavy, Blast, Ignore Cover 2, Unwieldy | Armoury |
-| Rocket launcher | 60 | 1 per target | 5 | 24 inches | 2 / 3 | Heavy, Blast, Piercing 2, Single-use, Unwieldy | Advanced Workshop |
+| Machine gun | 70 | 3 | 4 | 24 inches | 2 / 2 | Heavy, Automatic 3, Unwieldy, Suppression | Armoury |
+| Grenade launcher | 65 | 1 per target | 3 | 24 inches | 2 / 2 | Heavy, Blast, Reload, Unwieldy | Armoury |
+| Flamethrower | 65 | 1 per target | 2 | 8 inches | 2 / 2 | Heavy, Blast, Ignore Cover 2, Unwieldy | Armoury |
+| Rocket launcher | 60 | 1 per target | 5 | 24 inches | 2 / 2 | Heavy, Blast, Piercing 2, Single-use, Unwieldy | Advanced Workshop |
 | Throwing knife | 10 | 1 | 1 | 8 inches / Melee | 1 / 1 | Agile, Quiet, Thrown | Basic |
 | Javelin | 15 | 1 | 2 | 8 inches / Melee | 1 / 1 | Piercing 1, Thrown | Basic |
 
@@ -727,7 +731,7 @@ Use the armoury immediately, or agree a custom profile before either player sele
 | --- | --- | ---: | --- |
 | One-handed ranged | 1 die, Damage 1, range 8, Sidearm | 10 | Damage 1–3; range at most 12; two dice maximum |
 | Two-handed ranged | 1 die, Damage 1, range 24 | 15 | Damage 1–3; range at most 36; three dice maximum |
-| Heavy ranged | 1 die, Damage 3, range 24, Heavy, Unwieldy | 35 | Damage 3–5; range at most 36; three dice maximum; three weapon slots |
+| Heavy ranged | 1 die, Damage 3, range 24, Heavy, Unwieldy | 35 | Damage 3–5; range at most 36; three dice maximum; two hands and two weapon slots |
 | One-handed melee | 1 die, Damage 1 | 5 | Damage 1–3; two dice maximum |
 | Two-handed melee | 2 dice, Damage 3 | 15 | Damage 3–5; three dice maximum |
 | Thrown | 1 die, Damage 1, range 8, Thrown | 5 | Damage 1–2; one die; one weapon slot |
@@ -765,7 +769,7 @@ These **40 skills** are the Version 2 selection. Learn only skills whose stat is
 | Head Shot | Shooting modifier | Gain +2 Damage against a Marked target when using a one-die ranged weapon. Does not apply to Blast or an Automatic weapon reduced to one die. |
 | Gunslinger | Passive | When using two one-handed firearms, add one off-hand Attack Die beyond the normal allowance, to the shared maximum of three. Keep each die's weapon identity. |
 | Split Fire | Shooting modifier | Divide your normal shooting pool between at most two enemies within 3 inches of each other. Each die needs its own weapon range and LOS. No extra dice or follow-up shots. |
-| Run and Gun | Move plus Core | If both slots remain, combine normal Move and Shoot as one turn, firing at a declared point along the route. Spend both slots at declaration. This is your one own-turn attack and offers the opponent one reaction window for the combined action. |
+| Run and Gun | Move plus Core | If both slots remain, combine normal Move and Shoot as one action, firing at a declared point along the route and then completing the remaining movement if still able. Spend both slots at declaration. Unlike an ordinary Move followed by Shoot, this permits a shot partway through movement and gives the opponent one reaction window for the combined action. It uses your one own-turn attack. |
 | Breach | Move modifier; once per round | During your Move, attempt to force one closed ordinary door with an STR test without spending Core. Success opens it and movement continues; failure stops movement at the door. Reinforced blast doors are excluded. Reactions work normally. |
 | Cover Me | Reaction | Spend READY when a visible enemy shoots another friendly within 6 inches of you. Shoot the attacker as a simultaneous Return Fire exchange; the attacker still targets the original friendly. Neither shot cancels the other. Counts as your one reaction and the action's one reacting model. |
 | Speed Loader | Reload modifier | A Core Reload readies up to two held weapons with Reload instead of one. It does not include a shot or spend Move. |
@@ -1058,9 +1062,9 @@ Do not collect production during founding. After the first qualifying battle, th
 
 ### Actions and a reaction
 
-Mara spends her Move to advance into cover. The other player takes an action. Mara later spends her Core to Ready. On a later enemy Move, Mara sees a legal target cross her front arc at a declared point. She spends READY to Shoot there and marks Reacted. The shot hits but fails Injury: the enemy gains Stress and becomes Pinned, ending its unfinished movement. Mara cannot react again this round even if she somehow gains READY again.
+Mara activates, spends her Move to advance into cover, then spends her Core to Ready. Her activation ends and the opponent activates a fighter. During that enemy's Move, Mara sees a legal target cross her front arc at a declared point. She spends READY to Shoot there and marks Reacted. The shot hits but fails Injury: the enemy gains Stress and becomes Pinned, ending its unfinished movement. Mara cannot react again this round even if she somehow gains READY again.
 
-A Pinned fighter can wait while its crew takes other actions. Once nearby enemies have spent their attacks and reactions, an exposed target may provide an opening: spend Move to stand, then use the fighter's unused Core to Shoot on a later friendly turn. Until it stands, incoming ranged hits suffer −2. An enemy able to reach it in melee instead gains +2 to hit. Choosing the recovery moment matters; standing immediately is not compulsory.
+A Pinned fighter can wait while its crew activates other fighters. Once nearby enemies have spent their attacks and reactions, an exposed target may provide an opening: activate the Pinned fighter, spend Move to stand, then use Core to Shoot in that same activation. The opponent cannot insert a normal activation between standing and shooting, but eligible reactions still apply. Until it stands, incoming ranged hits suffer −2. An enemy able to reach it in melee instead gains +2 to hit. Choosing the recovery moment matters; standing immediately is not compulsory.
 
 ### Shooting and Injury
 
@@ -1092,7 +1096,7 @@ Record the agreed limit, scenario, six-round counter, score, primary and seconda
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- | ---: |
 |  |  |  |  |  |  |  |  |  |  |  |  |
 
-Beside each entry, leave boxes for Move, Core, READY, Reacted, Stress, morale, Pinned, Hidden, Down round, revival used, consumables, and once-per-battle skills. You need only the weapon, skill, and device rules actually fielded; copy their short entries onto the roster or cards.
+Beside each entry, leave boxes for Activated, Move, Core, READY, Reacted, Stress, morale, Pinned, Hidden, Down round, revival used, consumables, and once-per-battle skills. You need only the weapon, skill, and device rules actually fielded; copy their short entries onto the roster or cards.
 
 ### Settlement record fields
 

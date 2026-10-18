@@ -6,6 +6,8 @@
 
 The subsequent Move/Core and Pinned rulings are confirmed by Ross: stand using Move, retain unused Core, −2 ranged / +2 melee hits against Pinned. See [[design-006 Pinned movement and hit modifiers]] for their scope and the separate proposed integration changes.
 
+October 18 rulings supersede individual-action alternation and three-slot Heavy weapons: whole-fighter activations, Move/Core in either order, and weapon slots based on two hands. See [[design-007 Whole-unit activations and weapon hands]].
+
 ## Source roles
 
 - Ross's October 17 brief and answers: primary design requirements and requested scope.

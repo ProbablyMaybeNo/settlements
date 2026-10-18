@@ -15,7 +15,7 @@ Players choose when to use their fighters. Recovery should be assessed with that
 
 [[Settlements Rules System Version 2]] applies the target modifier to hit rolls only. Melee adds +2 to the pool totals before comparing the opposing maximum. Ranged Blast hit rolls take −2 against Pinned; automatic hazards have no hit roll. Applicable cover/rear modifiers still apply. Standing ends both Pinned modifiers and counts as movement for Aim/Unwieldy. Neither Core nor spent Move is refreshed. Half-speed crawling remains an alternative Move that leaves the fighter Pinned. Existing friendly Help Recover, Rally and printed assistance effects remain distinct procedures.
 
-Individual actions still alternate. Standing and a later Core shot are separate chosen turns under that timing, with ordinary reaction windows. This revision grants no immunity after standing.
+October 18 supersedes the original individual-action timing: a fighter now stands with Move and may shoot with Core during the same whole-unit activation, in either legal action order. Per-action reactions remain; no immunity after standing. See [[design-007 Whole-unit activations and weapon hands]].
 
 ## Collateral proposals, not additional user rulings
 

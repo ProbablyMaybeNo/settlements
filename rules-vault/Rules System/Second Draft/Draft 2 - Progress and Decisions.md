@@ -1,6 +1,6 @@
 # Draft 2 Progress and Decisions
 
-Current master: [[Settlements Rules System Version 2]]. Design record: [[Draft 2 - Design Requirements and Research Audit]]. Updated 2026-10-17.
+Current master: [[Settlements Rules System Version 2]]. Design record: [[Draft 2 - Design Requirements and Research Audit]]. Updated 2026-10-18.
 
 ## Completed writing work
 
@@ -14,6 +14,7 @@ Current master: [[Settlements Rules System Version 2]]. Design record: [[Draft 2
 - [x] Supply twenty structures, Power/workers, founding, prices, construction and recovery.
 - [x] Account for all 75 previous skills and explain major changes from Draft 1/2.
 - [x] Produce the compact battle reference and update navigation/authority.
+- [x] Create [[Settlements Rules System Version 2 - Rules and Mechanics Review]]: 453 source-linked entries, consistent tags, stable IDs and a Notes column.
 - [x] Add a complete linked section index, available as its own note and expandable at the top of the master.
 - [x] Check document structure, links, catalogue coverage, founding arithmetic and four-page PDF layout; see [[Draft 2 - Manuscript Checks]].
 
@@ -26,9 +27,16 @@ Current master: [[Settlements Rules System Version 2]]. Design record: [[Draft 2
 
 These user rulings supersede the earlier Core self-Recover text. Replacement skill effects and Aim/drone costs remain assistant proposals; they are not additional user-approved rulings.
 
+## Confirmed follow-up decisions — 2026-10-18
+
+- [x] Weapon slots represent two literal hands: Heavy weapons use two, never three.
+- [x] Alternate whole-fighter activations; resolve one Move and one Core in either order before the opponent activates.
+- [x] Update timing, READY/reaction examples, roster tracking, quick reference and hand-based profiles.
+- [x] Record integration choices and remaining carrying decision in [[design-007 Whole-unit activations and weapon hands]].
+
 ## Consequential proposed decisions
 
-One Wound for all humans; alternating individual actions; one own attack and one reaction per round; three-die attack ceiling; no Stress penalty to Injury; simultaneous ordinary shooting for Return Fire; forty skills with no free attack chains; utility-only drones; physical Claim; ten injury outcomes; modest winner income; full rating for advances and discounted gear. See the audit for reasons and provenance.
+One Wound for all humans; one own attack and one reaction per round; three-die attack ceiling; no Stress penalty to Injury; simultaneous ordinary shooting for Return Fire; forty skills with no free attack chains; utility-only drones; physical Claim; ten injury outcomes; modest winner income; full rating for advances and discounted gear. See the audit for reasons and provenance.
 
 These decisions are written to make a coherent playable proposal. They have not been separately adopted by Ross or validated by playtests.
 

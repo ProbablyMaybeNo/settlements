@@ -2,6 +2,8 @@
 
 Jump to any chapter or subsection in [[Settlements Rules System Version 2]].
 
+For a concise annotated inventory, open [[Settlements Rules System Version 2 - Rules and Mechanics Review]].
+
 ## Rules sections
 
 - **[[Settlements Rules System Version 2#1 Introduction and the world|1 Introduction and the world]]**
@@ -33,7 +35,7 @@ Jump to any chapter or subsection in [[Settlements Rules System Version 2]].
 
 - **[[Settlements Rules System Version 2#6 Rounds actions and reactions|6 Rounds actions and reactions]]**
     - [[Settlements Rules System Version 2#Start Phase|Start Phase]]
-    - [[Settlements Rules System Version 2#Alternating actions|Alternating actions]]
+    - [[Settlements Rules System Version 2#Alternating activations|Alternating activations]]
     - [[Settlements Rules System Version 2#Action reference|Action reference]]
     - [[Settlements Rules System Version 2#READY|READY]]
     - [[Settlements Rules System Version 2#Reaction windows|Reaction windows]]

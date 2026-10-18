@@ -1,6 +1,6 @@
 # Settlements Project Roadmap
 
-Updated 2026-10-17. Rules authority: [[Settlements Rules System Version 2]]. Details and design choices: [[Draft 2 - Progress and Decisions]] and [[Draft 2 - Design Requirements and Research Audit]].
+Updated 2026-10-18. Rules authority: [[Settlements Rules System Version 2]]. Details and design choices: [[Draft 2 - Progress and Decisions]] and [[Draft 2 - Design Requirements and Research Audit]].
 
 | Phase | Work | Current status |
 | --- | --- | --- |
@@ -20,6 +20,8 @@ Updated 2026-10-17. Rules authority: [[Settlements Rules System Version 2]]. Det
 - [x] Preserve earlier drafts and record research-based changes.
 - [x] Create a compact battle reference and update active navigation.
 - [x] Integrate Ross's Move recovery and Pinned target modifiers (−2 ranged / +2 melee), with collateral proposals in [[design-006 Pinned movement and hit modifiers]].
+- [x] Integrate two-hand weapon capacity and whole-unit Move/Core activations in either order; see [[design-007 Whole-unit activations and weapon hands]].
+- [x] Create [[Settlements Rules System Version 2 - Rules and Mechanics Review|the concise rules review table]] with source links and editable feedback cells.
 - [ ] Review the proposed changes with Ross.
 - [ ] Test complete battles, timing and learning without the author.
 - [ ] Test economy, recovery and veteran rosters across repeated two-player games.

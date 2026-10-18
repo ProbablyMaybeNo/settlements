@@ -11,7 +11,7 @@ The accompanying [[Settlements Rules System Version 2]] turns Ross's five tenets
 
 Ross explicitly authorised completing missing rules and changing existing Draft 2 rules where necessary. That supersedes the earlier instruction to leave undecided sections blank for this drafting task. His latest brief is the design authority; the previous Draft 2 supplies a starting engine and vocabulary, and Draft 1 supplies historical examples. Neither an external game's mechanic nor an assistant's new number is a user-approved ruling merely because it appears here.
 
-**Direct requirements:** realistic but cinematic civilians; simple procedures with tactical depth; dangerous actions tested; objective-based battles; 180-degree vision; interactive terrain and hacking; drones; alternating actions and reactions; Down, rescue, loot, capture, unconsciousness after two complete rounds; persistence without a campaign; agreed Crew Rating; structures, Materials, allocated Power and modest worker benefits; 3 × 3 feet, six rounds, roughly 5–10 starting fighters, and a roughly one-hour familiar-play target.
+**Direct requirements:** realistic but cinematic civilians; simple procedures with tactical depth; dangerous actions tested; objective-based battles; 180-degree vision; interactive terrain and hacking; drones; alternating activations and per-action reactions (clarified October 18); Down, rescue, loot, capture, unconsciousness after two complete rounds; persistence without a campaign; agreed Crew Rating; structures, Materials, allocated Power and modest worker benefits; 3 × 3 feet, six rounds, roughly 5–10 starting fighters, and a roughly one-hour familiar-play target.
 
 **Design proposals:** exact action restrictions, numerical limits, prices, recruitment, the 40-skill selection, settlement outputs, XP thresholds, injury probabilities, capture return time, and every newly completed procedure. They are playable defaults awaiting review and playtesting, not claims that Ross dictated those details.
 
@@ -44,7 +44,7 @@ Chapter numbers below refer to the new manuscript. “Implemented” means text 
 | 17 | Injuries matter without endless tables | Ten paired d20 outcomes, one death row, at most two scars, treatment and retirement. Chapter 18. |
 | 18 | Fear affects how people fight | Stress hurts performance, hits Pin, witnesses gain limited Stress, Break produces three severities. Chapters 9–10. |
 | 19 | Retreat is an acceptable survival decision | Forced flight and voluntary crew withdrawal; no unopposed cleanup massacre. Chapter 10. |
-| 20 | Both players remain involved | Literal alternating actions, retained READY, one reacting model per action, no reaction chains. Chapter 6. |
+| 20 | Both players remain involved | Whole-fighter activations, Move/Core in either order, retained READY, one reacting model per action, no reaction chains. Chapter 6. |
 | 21 | Forward vision and rear attacks matter | 180-degree LOS; +2 rear hit modifier; rear Charge Unanswered; no free enemy-turn pivot. Chapters 7–8. |
 | 22 | Cover and flanking should beat frontal rushing | Cover, approach routes, reactive fire, Pinned action loss and rear attacks. Chapters 5–9. Their relative strength needs tests. |
 | 23 | Hacking is a useful route to a result | Linked terminals operate terrain; portable kit disables devices; manual access always remains. Chapter 12. |
@@ -104,11 +104,11 @@ Read alongside [[Rule of Carnage Skirmish Game Design Reference]], [[Rule of Car
 
 | Topic and source | Argument relevant to Settlements | Application and tradeoff |
 | --- | --- | --- |
-| [Core loop](https://www.youtube.com/watch?v=vtqS8bLGJ3c&t=610s) | Identify what players repeatedly do and how that creates the intended experience. | One alternating action asks whether to advance, attack, prepare or interact. Settlement management sits outside that loop. Two slots still need tracking. |
+| [Core loop](https://www.youtube.com/watch?v=vtqS8bLGJ3c&t=610s) | Identify what players repeatedly do and how that creates the intended experience. | Each activation combines one Move and one Core in either order; reactions address individual actions. Settlement management sits outside that loop. Two slots still need tracking. |
 | [Damage](https://www.youtube.com/watch?v=WFrPm84xZPU&t=1023s) | A casualty state needs decisions and payoff, not simply a delay before removal. | Down creates rescue, self-aid, theft and capture; Unconscious is a clear endpoint. Extra bodies remain on the board. |
 | [Game length](https://www.youtube.com/watch?v=UUgKFJ1ru7k&t=153s) | Duration is produced by actions and procedures, not only a round cap. | Six rounds plus one own attack, bounded reactions and small initial crews. Sixty minutes remains a test target, especially at ten fighters. |
 | [Scenarios](https://www.youtube.com/watch?v=xMzPFNzemr4&t=1256s) | Killing already changes control; scoring it again can distort objectives. | No generic kill points; multiple nonlethal scoring procedures and useful secondary tasks. Rescue remains optional, since it depends on casualties. |
-| [Activation advantage](https://www.youtube.com/watch?v=m6b3SgJSPaM&t=755s) | Unequal unit counts create timing advantages beyond raw power. | Limited Passes based on action-slot difference; no claim that this fully balances different crew sizes. Test 5 against 10. |
+| [Activation advantage](https://www.youtube.com/watch?v=m6b3SgJSPaM&t=755s) | Unequal unit counts create timing advantages beyond raw power. | Passes based on eligible-fighter activation difference; no claim that this fully balances different crew sizes. Test 5 against 10. |
 | [Shooting and terrain](https://www.youtube.com/watch?v=oXg_k-hnbiI&t=1656s) — direct check | Terrain instructions and arcs matter; neither is a universal cure for gunlines. | Explicit approach routes, four interactive features and midfield scoring accompany 180-degree sight. Do not rely on the rear bonus alone. |
 | [Cognitive load](https://www.youtube.com/watch?v=GxV9cguZ9Y0&t=216s) — direct check | Calculation and remembering states consume attention that could support decisions. | No global alert track, lingering aura layers or cybercurrency; shared statuses and named expiry. Move/Core, READY and Stress still impose real load to measure. |
 | [Psychology](https://www.youtube.com/watch?v=T5kJZYtUlds&t=255s) — direct check | Morale can model lost control, but excessive cascades remove player agency. | Witness Stress once per round, one End Phase test, three severities, helpers and withdrawal. Fear is meaningful without repeated immediate Break chains. |
@@ -171,13 +171,13 @@ The eight supporting files serve different roles: **Wargaming Research Hub** loc
 | --- | --- | --- | --- |
 | Resolution | d20/15+ shooting and Injury; highest-opposing-roll melee | Ordinary opposed natural results remain distinct from melee; Stress excluded from Injury | Fear affects performance rather than making bullets physically weaker; fewer repeated calculations. This intentionally supersedes the old simulation contract. |
 | Modifiers | Separate skill/equipment sources and positional effects | Largest positive and negative of each source, instead of stacking every named bonus to a cap | Reduce arithmetic and skill-combination escalation. Exact cap values remain proposed. |
-| Timing | Move/Core, READY, reactions | Literal action alternation; bounded passes; one reactor per action; simultaneous normal Return Fire | Match the brief and prevent chained interruptions. Opposed Return Fire experiment retired for this manuscript. |
+| Timing | Move/Core, READY, reactions | Whole-fighter activation alternation; bounded passes; one reactor per action; simultaneous normal Return Fire | Match the brief and prevent chained interruptions. Opposed Return Fire experiment retired for this manuscript. |
 | Durability | Hit creates injury or pressure | Human Wounds always 1, including Tough and veterans | Strongest expression of civilian fragility. Rescue and cover supply survival decisions. |
 | Casualties | Down on table and post-battle consequences | Two-full-round timer, single revival, no battlefield death, one ten-outcome table | Preserve attachment without extra mid-battle tables or infinite recovery. |
 | Morale and pinning | Stress bands, Stress-free Break/Rally, half-speed Pinned crawl | Ross's follow-up: Move to stand, keep Core; Pinned target −2 ranged/+2 melee. Witness trigger capped; no Shaken layer. | Recovery timing is a player choice. Being Pinned trades mobility/action access for protection from fire and vulnerability in melee. |
 | Hacking | Terminals and devices as targets | Finite printed links, physical counters, utility drone actions paid by operator | Interactive battlefield remains the point; no separate hacking mini-game. |
 | Objectives | Mission victory and physical terrain interaction | Remote Tagged removed; physical Claim persists, humans perform mission work | Respect Ross's recorded removal and prevent remote objective play bypassing the board. |
-| Skills | Five stat identities and one tier | Forty bounded skills replace seventy-five; full disposition below | The old effects cannot be carried over unchanged into civilian limits and action alternation. |
+| Skills | Five stat identities and one tier | Forty bounded skills replace seventy-five; full disposition below | The old effects cannot be carried over unchanged into civilian limits and activation timing. |
 | Equipment | Profile classes, custom appearances, slots | Basic rifles open to ordinary recruits; new provisional prices and curated catalogue; Heavy/long-range gates | Usable first-battle choices without returning to Draft 1 numbers as authority. |
 | Progression | Named persistent fighters and meaningful improvement | Ten finite levels, three skills, +6 stats, no extra Wounds; all advances valued | More experienced people remain human and consume the agreed rating. |
 | Settlement | Credits, Materials, Power, structures, worker assignments | Twenty structures; free four-building foundation; no food/water/upkeep; workers near 10% | Retain management choices outside the fast battle loop. |
@@ -220,7 +220,7 @@ These are proposed manuscript dispositions, not claims that the older selected c
 | Run + Gun | Rename Run and Gun; both slots paid, one combined turn and reaction window. |
 | Breach | Door-forcing during Move; remove free shot and reaction immunity. |
 | Spray and Pray | Merge targeting role into Split Fire; remove casualty-generated dice. |
-| On Me | Remove consecutive-activation exception; alternating actions already let you choose another fighter. |
+| On Me | Remove consecutive-activation exception; whole-fighter alternation lets you choose another eligible fighter on your next turn. |
 | Watch Out! | Merge protective role into READY/Cover Me; no borrowed free attack for a second model. |
 | Cover Me | Simultaneous shooting to protect one nearby friendly, using READY. |
 | Eyes Peeled | Remove kill-triggered READY generation. |
@@ -295,7 +295,7 @@ The manuscript is complete enough to test as a whole. None of the following is e
 | Question | Small useful test | Record before changing rules |
 | --- | --- | --- |
 | Can familiar play approach 60 minutes? | Six fighters each, six rounds, shared printed cards; then ten each | Actual minutes excluding setup, action count, lookups and stalled decisions. Do not infer speed from page count. |
-| Does action alternation keep both players engaged? | Same mission at 5 versus 10 fighters under equal rating, then swapped sides | Pass usage, uncontested late turns, whether READY chains stall movement. |
+| Does whole-fighter alternation keep both players engaged? | Same mission at 5 versus 10 fighters under equal rating, then swapped sides | Pass usage, uncontested late turns, whether READY chains stall movement. |
 | Is combat bloody without deleting agency? | Cover approach, open crossing and flank on the same layout | Actions needed to Down; first-contact casualties; rescue attempts; who acts again after being Pinned. |
 | Is a rear Charge too strong or melee too weak? | Symmetric front/rear approaches with basic melee and rifle crews | Chance to reach combat, Injury outcome, exposure before contact; not isolated melee averages alone. |
 | Does morale add tension or a lockout? | Repeated pressure with and without support; let players wait for spent enemy actions/reactions, change LOS and create openings before standing | Break frequency, recovery timing, enemy threats still available, ranged protection, melee exposure and objective opportunity cost. Do not assume immediate recovery or inevitable re-pinning. |
@@ -316,6 +316,10 @@ The manuscript contains the full rules and catalogues; the prior draft snapshot 
 
 Ross clarified that each fighter has one Move Action for moving and one Core Action for shooting, interacting, hiding or another task. Standing from Pinned uses Move instead of travelling and leaves an unused Core available. He set hit modifiers against Pinned targets at −2 ranged and +2 melee, and stressed evaluating recovery through actual timing choices: players can act with other fighters while waiting for threats to expend actions/reactions or leave LOS.
 
-These are confirmed user rulings. Their integration is recorded in [[design-006 Pinned movement and hit modifiers]]. The manuscript retains action-by-action alternation and existing specific friendly-help/Rally effects. Neither a modifier nor choosing a better recovery moment guarantees safety.
+These are confirmed user rulings. Their integration is recorded in [[design-006 Pinned movement and hit modifiers]]. The October 18 correction replaces action-by-action alternation with whole-fighter activations in either action order; existing specific friendly-help/Rally effects remain. Neither a modifier nor choosing a better recovery moment guarantees safety.
 
 Collateral implementation choices remain proposals: Aim now costs Core and lasts through the following round; Mark Target and drone movement cost Core; Speed Loader, Smart and Motivate no longer exchange Move for a non-movement task. Armour Loot uses Core like other loot, and improvised Both actions must include the fighter's movement. Their revised utility and prices require playtesting; Ross did not individually specify these replacement skill effects.
+
+## October 18 activation and hands correction
+
+Ross specified two literal hands and one Move plus one Core during each fighter's activation, in either order. All Heavy profiles now use two hands/weapon slots. See [[design-007 Whole-unit activations and weapon hands]] for linked timing changes and their status.

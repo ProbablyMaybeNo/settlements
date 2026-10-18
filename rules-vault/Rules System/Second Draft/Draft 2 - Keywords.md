@@ -4,7 +4,9 @@ Read these with [[Settlements Rules System Version 2]]. The manuscript controls 
 
 | Term | Current meaning |
 | --- | --- |
-| Round / Turn / Action | Six-round game; alternate one action per turn. One Move for own movement and one Core for other tasks per round; neither converts to the other. |
+| Round / Turn / Activation | Six rounds; alternate whole-fighter activations. Each fighter resolves one Move and one Core in either order during its activation; no banking or reactivation. |
+| Hands / weapon slots | Two hands give two weapon slots; one-handed uses one, two-handed/Heavy uses two. No weapon needs more than two. |
+| Activated | Fighter has taken its one activation this round; clear at Start. Recovery never grants another activation. |
 | READY / Reacted | One retained preparation token; spend for one reaction. One reaction per fighter per round, one reacting model per enemy action. |
 | Pinned | Ranged hits against it −2; melee hits +2; stack with applicable position modifiers, not Injury. Half-speed crawl, Move Recover, self-Rally or specified Disengage; defensive melee allowed. Base must be visible to shoot it. |
 | Recover / Help Recover | Self: Move to stand in place instead of travelling, keeping unused Core. Helper: Core within 3 inches and LOS. Both remove Pinned automatically, not Stress/morale. |

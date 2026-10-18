@@ -49,7 +49,7 @@ Reader-facing contents of [[Settlements Rules System Version 2]]. All rules chap
 [[Settlements Rules System Version 2#6 Rounds actions and reactions]]
 
 - Start Phase
-- Alternating actions
+- Alternating activations
 - Action reference
 - READY
 - Reaction windows

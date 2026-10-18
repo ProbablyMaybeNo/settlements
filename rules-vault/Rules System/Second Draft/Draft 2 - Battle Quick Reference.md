@@ -1,7 +1,7 @@
 ---
 type: battle-reference
 status: Proposed Version 2 rules; not playtested
-date: 2026-10-17
+date: 2026-10-18
 ---
 # Settlements Version 2 Battle Quick Reference
 
@@ -19,17 +19,17 @@ Companion to [[Settlements Rules System Version 2]]. Print [[Settlements Version
 
 **Stress exceptions:** never subtract Stress from Injury, Break, Rally, initiative, distance or post-battle tables.
 
-### Start and alternating actions
+### Start and alternating activations
 
-Play six rounds. At Start, restore Move and Core to conscious and Down fighters, clear Reacted, reset round abilities; READY persists. Unconscious/captured fighters get no usable slots. Roll initiative; high chooses first, ties favour last round's second player (reroll round-1 tie).
+Play six rounds. At Start, restore Move and Core to conscious and Down fighters, clear Activated/Reacted, reset round abilities; READY persists. Unconscious/captured fighters get no usable slots. Roll initiative; high chooses first, ties favour last round's second player (reroll round-1 tie).
 
-The crew with fewer available slots gets Passes equal to half the difference, rounded up. On a turn, spend one fighter's slot for an action, or a Pass. Alternate individual actions; the same fighter may use its other slot later. Both-cost actions need both unused slots. Passing without a Pass forfeits all your remaining slots.
+At Start, fewer eligible fighters grants Passes equal to that difference; Down counts, Unconscious/captured do not. Alternate whole-fighter activations: mark Activated, resolve one Move and one Core in either order, then opponent activates. Each action allows reactions. Forfeit unused slots; no reactivation. Both-cost actions use both slots. Passing without a Pass forfeits remaining activations.
 
 **One own-turn attack per fighter per round:** Shoot, Fight or Charge. One reaction is separate. Defensive melee is separate. Shove, Grapple, Throw, Incapacitate, damaging grenades and directing turret fire also use the own-attack allowance.
 
 ### Action costs
 
-**Move slot:** travel up to MOVE, crawl half MOVE while Pinned, or Recover: stand up in place, removing Pinned. Standing uses the whole Move and leaves unused Core available. Never convert Move to Core.
+**Move slot:** travel up to MOVE, crawl half MOVE while Pinned, or Recover: stand up in place, removing Pinned. Standing uses Move and leaves Core available in this activation. Never convert Move to Core.
 
 **Both slots:** Dash up to 2 × MOVE; Charge MOVE + d6 then melee; Disengage.
 
@@ -77,7 +77,7 @@ Low obstacle ≤1 inch costs 2 inches to cross. Difficult ground, Pinned, Hidden
 
 Forward LOS and weapon range. Roll each die: **d20 + DEX + modifiers − Stress ≥15** hits. Natural 1 misses, 20 hits. No generic range/move penalty. In an engagement, a natural 1 hits one involved friendly chosen by opponent; ignore that rule for Blast.
 
-Dual one-handed weapons: dominant pool plus one off-hand die; keep its weapon identity. **Maximum three dice** including Charge/skills. Both must be usable and held. No legal melee weapon: one unarmed die, Damage 0. A Sidearm contributes one STR-based melee die. Choose held weapons before first action/reaction; one later switch on own action, never retroactively.
+Dual one-handed weapons: dominant pool plus one off-hand die; keep its weapon identity. **Maximum three dice** including Charge/skills. Both must be usable and held. Weapon slots match two hands: one-handed uses one, two-handed/Heavy uses both. No legal melee weapon: one unarmed die, Damage 0. A Sidearm contributes one STR-based melee die. Choose held weapons before first action/reaction; one later switch on own action, never retroactively.
 
 ### Melee
 
@@ -91,7 +91,7 @@ Outnumbered: −1 per additional conscious unpinned engaging enemy, max −2. **
 
 Each hit: **d20 + Damage − Armour + injury modifiers ≥15**. Natural 1 fails, 20 succeeds; no Stress penalty. Success removes the human's **one Wound: Down**. Failure gives 1 Stress. Any hit leaving a Wound also Pins. Resolve the pool together; surplus successes do not execute or multiply post-battle rolls.
 
-**Pinned:** ranged hits against it −2; melee hits +2. Stay down until you choose to act. Move can crawl half speed or stand in place (Recover); standing removes Pinned, not Stress/morale, and counts as movement for Aim/Unwieldy. Unused Core remains available. Self-Rally/Disengage allowed; no voluntary attack/Ready/equipment use while Pinned. A capable helper within 3 inches/LOS spends Core on automatic Help Recover.
+**Pinned:** ranged hits against it −2; melee hits +2. Stay down until you choose to act. Move can crawl half speed or stand in place (Recover); standing removes Pinned, not Stress/morale, and counts as movement for Aim/Unwieldy. Unused Core remains available in this activation. Self-Rally/Disengage allowed; no voluntary attack/Ready/equipment use while Pinned. A capable helper within 3 inches/LOS spends Core on automatic Help Recover.
 
 ## Page 3 Casualties morale and interaction
 
@@ -111,7 +111,7 @@ Stress maximum **5**. Failed Injury: +1 each. First friendly Down seen within 6 
 
 End Phase, conscious with 2+ Stress and no morale condition: **Break = d20 + NRV + modifiers ≥15**, ignoring Stress. Pass clears Stress. Fail: 1–2 Broken; 3–4 Bolting; 5 Bugging Out. Natural 1/20 apply. Normal Break never occurs at 0–1; a forced failure at 0 uses Broken.
 
-**Broken:** Pinned; only Move, Recover, self-Rally, Disengage. **Bolting:** next chosen turn spends remaining slots moving up to 2 × MOVE toward nearest reachable safe place outside enemy LOS; prefer heavy cover. **Bugging Out:** same toward nearest reachable board edge; reaching it leaves play. Forced movement overrides Pinned but not terrain; once per round. None may react, assist, score or contest.
+**Broken:** Pinned; only Move, Recover, self-Rally, Disengage. **Bolting:** activation spends remaining slots moving up to 2 × MOVE toward nearest reachable safe place outside enemy LOS; prefer heavy cover. **Bugging Out:** same toward nearest reachable board edge; reaching it leaves play. Forced movement overrides Pinned but not terrain; once per round. None may react, assist, score or contest.
 
 Already afraid at start of End Phase: **Rally instead of Break**. Same Stress-free test; success clears morale, Stress and Pinned. Failure keeps condition; never Break then Rally immediately. Core self-Rally allowed except while Bolting/Bugging Out. A capable friendly within 3 inches and LOS may Rally you with its NRV. Also clears ordinary Stress on success.
 
