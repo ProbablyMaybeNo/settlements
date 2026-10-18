@@ -14,6 +14,7 @@ Current master: [[Settlements Rules System Version 2]]. Design record: [[Draft 2
 - [x] Supply twenty structures, Power/workers, founding, prices, construction and recovery.
 - [x] Account for all 75 previous skills and explain major changes from Draft 1/2.
 - [x] Produce the compact battle reference and update navigation/authority.
+- [x] Add a complete linked section index, available as its own note and expandable at the top of the master.
 - [x] Check document structure, links, catalogue coverage, founding arithmetic and four-page PDF layout; see [[Draft 2 - Manuscript Checks]].
 
 ## Confirmed follow-up decisions — 2026-10-17

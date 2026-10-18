@@ -14,6 +14,11 @@ Settlements is a skirmish game about ordinary people fighting over the things th
 
 ## Contents
 
+**[[Settlements Rules System Version 2 - Index|Open the complete rules index]]** — jump directly to any chapter or subsection.
+
+> [!abstract]- Browse all sections here
+> ![[Settlements Rules System Version 2 - Index#Rules sections]]
+
 1. [[#1 Introduction and the world]]
 2. [[#2 What you need and how to read the rules]]
 3. [[#3 Fighters and tests]]
