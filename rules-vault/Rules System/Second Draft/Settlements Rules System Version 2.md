@@ -82,8 +82,8 @@ The standard game has two players. Each player needs 5–10 human miniatures for
 
 ***Finally you might want to create or buy some templates, 8" flamer, 6" blast, 3" blast would all come in handy but are not necessary. A scatter dice or direction randomize might be helpful as well.
 
-***Everything mentioned above will be explained later in 
-### Common conventions
+***Everything mentioned above will be explained later in the rulebook.***
+## Common conventions
 
 - **Round:** both crews use their available actions, then resolve the End Phase. **Turn:** one player's opportunity to take one action. An action and its consequences finish before the other player's turn.
 - **Within:** the shortest distance between bases is no greater than the stated distance. Base contact means touching; floors must also match unless a rule says otherwise. Engagement is within 1 inch on a reachable surface.
