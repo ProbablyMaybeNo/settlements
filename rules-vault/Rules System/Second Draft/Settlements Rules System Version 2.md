@@ -70,12 +70,19 @@ A campaign may connect battles through a story or map. It is not required for an
 
 The standard game has two players. Each player needs 5–10 human miniatures for a starting crew, a roster, several d20 dice, a d6, a d10, measuring tape, and several unique markers. For a standard battle you will need 36 × 36-inch board, terrain, and a round counter numbered 1–6. Larger crews are legal by agreement but increase play time.
 
-Use the same base size for comparable humans, normally 25–32 mm, and mark the front half of each base. Agree proxies and unusual sizes before deployment. A tall pose, banner, or weapon barrel does not make a fighter easier to see. Paper footprints can represent every interactive feature in this book.
+***Settlements is a WYSIWYG wargame and when possible players should make a legitimate attempt at accuratley equipping your miniatues so their gear matches the unit on paper. 
 
-Mark a fighter's unused **Move** and **Core** slots on its card. Useful table markers are READY, Reacted, Pinned, Hidden, Stress 1–5, Down with the round number, Unconscious, Captured, Marked, and a carried objective. Put spent item charges and once-per-battle abilities on the card. A single marker may show a fighter's current morale condition; do not add a second Shaken marker.
+***Miniatures should be based on 28mm bases with a mark on the front half of each base to signify the center of the units 180 degree vision Arc.*** Agree proxies and unusual sizes before deployment. A tall pose, banner, or weapon barrel does not make a fighter easier to see. Paper footprints can represent every interactive feature in this book.
 
-Use circular templates with **2-inch radius** for blasts and **3-inch diameter** for smoke, fire, and gas. Radius and diameter are deliberately different: label the templates. Use a 1-inch marker for a terminal, objective, or mine.
+***Tokens are an important part of settlements. You will need a good variety of tokens and an solid over all amount. Feel free to create your own tokens out of cardboard, paper, change, or bottle caps, whatever you have access to. We will go over the exact tokens that you may need later in the book.
 
+~~Mark a fighter's unused **Move** and **Core** slots on its card. Useful table markers are READY, Reacted, Pinned, Hidden, Stress 1–5, Down with the round number, Unconscious, Captured, Marked, and a carried objective. Put spent item charges and once-per-battle abilities on the card. A single marker may show a fighter's current morale condition; do not add a second Shaken marker.~~
+
+~~Use circular templates with **2-inch radius** for blasts and **3-inch diameter** for smoke, fire, and gas. Radius and diameter are deliberately different: label the templates. Use a 1-inch marker for a terminal, objective, or mine.~~
+
+***Finally you might want to create or buy some templates, 8" flamer, 6" blast, 3" blast would all come in handy but are not necessary. A scatter dice or direction randomize might be helpful as well.
+
+***Everything mentioned above will be explained later in 
 ### Common conventions
 
 - **Round:** both crews use their available actions, then resolve the End Phase. **Turn:** one player's opportunity to take one action. An action and its consequences finish before the other player's turn.
