@@ -162,7 +162,7 @@ Use 5–10 fighters for the first games. More are allowed when the agreed limit 
 
 ### Carrying equipment
 
-A fighter has **four weapon slots**, **two equipment slots**, and may wear **one armour item**. A one-handed weapon uses one weapon slot; a two-handed weapon uses two; a Heavy weapon uses three. The included knife uses no slot. A grenade uses one equipment slot rather than a weapon slot. Other equipment lists its slots. A fighter may use only two hands at a time. Weapon slots hold weapons, equipment slots hold supplies/devices; worn armour uses neither. Carried devices continue to reserve their operator's equipment slots after deployment until lost, consumed, or transferred, so deployment does not create extra capacity.
+A fighter has **two weapon slots**, **two equipment slots**, and may wear **one armour item**. A one-handed weapon uses one weapon slot; a two-handed weapon uses two; a Heavy weapon uses three. The included knife uses no slot. A grenade uses one equipment slot rather than a weapon slot. Other equipment lists its slots. A fighter may use only two hands at a time. Weapon slots hold weapons, equipment slots hold supplies/devices; worn armour uses neither. Carried devices continue to reserve their operator's equipment slots after deployment until lost, consumed, or transferred, so deployment does not create extra capacity.
 
 Choose held weapons at the start of your fighter's first action or reaction each round. Once during a later own action that round, you may change held weapons before resolving it. You cannot switch in response to an enemy declaration after that round's choice. A carried but unheld weapon contributes no attack dice.
 
