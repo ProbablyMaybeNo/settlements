@@ -43,11 +43,11 @@ Settlements is a skirmish game about ordinary people fighting over the things th
 
 ### The kind of game you are playing
 
-The core rules are shared across the game. A difficult task uses the same test whether you are climbing a wall, treating a casualty, or hacking a terminal. The depth comes from where you stand, which action you spend, what the terrain can do, and what your opponent can threaten.
+~~The core rules are shared across the game. A difficult task uses the same test whether you are climbing a wall, treating a casualty, or hacking a terminal. The depth comes from where you stand, which action you spend, what the terrain can do, and what your opponent can threaten.~~
 
-Every fighter is human. Training offers better judgment and useful techniques; it does not make someone bulletproof. A fighter has one Wound. One successful Injury roll puts them Down. They remain on the battlefield and may be rescued, looted, or captured.
+~~Every fighter is human. Training offers better judgment and useful techniques; it does not make someone bulletproof. A fighter has one Wound. One successful Injury roll puts them Down. They remain on the battlefield and may be rescued, looted, or captured.~~
 
-Victory comes from the mission's primary and secondary objectives. Shooting helps secure a route, suppress a threat, or protect an interaction. Causing casualties earns no victory points by itself.
+~~Victory comes from the mission's primary and secondary objectives. Shooting helps secure a route, suppress a threat, or protect an interaction. Causing casualties earns no victory points by itself.~~
 
 ### Lore and setting
 
@@ -63,7 +63,7 @@ A campaign may connect battles through a story or map. It is not required for an
 
 ### Components
 
-The standard game has two players. Each player needs 5–10 human miniatures for a starting crew, a roster, several d20s, one d6, an inch measure, and markers. Use a 36 × 36-inch battlefield, terrain, and a round counter numbered 1–6. Larger crews are legal by agreement but increase play time.
+The standard game has two players. Each player needs 5–10 human miniatures for a starting crew, a roster, several d20 dice, a d6, a d10, measuring tape, and several unique markers. For a standard battle you will need 36 × 36-inch board, terrain, and a round counter numbered 1–6. Larger crews are legal by agreement but increase play time.
 
 Use the same base size for comparable humans, normally 25–32 mm, and mark the front half of each base. Agree proxies and unusual sizes before deployment. A tall pose, banner, or weapon barrel does not make a fighter easier to see. Paper footprints can represent every interactive feature in this book.
 
