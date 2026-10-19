@@ -1,6 +1,6 @@
 # Settlements Version 2 — Rules Index
 
-Jump to any chapter or subsection in [[Settlements Rules System Version 2]].
+This compatibility index preserves the existing master section links. For the agreed new order, use [[Settlements Core Rulebook Outline]] or [[Settlements Rulebook - Assembled]]. For individual notes and filters, use [[Rule Cards - Start Here]].
 
 For a concise annotated inventory, open [[Settlements Rules System Version 2 - Rules and Mechanics Review]].
 

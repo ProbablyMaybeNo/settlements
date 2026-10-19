@@ -1,0 +1,54 @@
+---
+type: settlements-rule-card
+rule_id: V2-356
+rule_name: Objective placement
+entry_type: Rule
+category: Objectives
+book_chapter: 5
+book_section: Scenarios
+book_subsection: Earlier objective proposals / Deferred
+tags:
+- settlements/v2
+- objectives
+- scenario
+- setup
+summary: Middle 12″ band, outside deployment, ≥6″ apart/3″ from edges; alternate placement; two plausible routes
+  each.
+status: Draft proposal
+review_status: Unreviewed
+publication: Deferred
+created: '2026-10-18'
+source:
+- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Generate a simple mission]]'
+review_notes: ''
+related_rules:
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-355 - Mission generator]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-363 - Recover supplies secondary]]'
+---
+
+# Objective placement
+
+## Summary
+
+Middle 12″ band, outside deployment, ≥6″ apart/3″ from edges; alternate placement; two plausible routes each.
+
+> [!warning] Earlier proposal — reserved for Ross
+> Retained for complete design coverage. Detailed objective/scenario rules are deferred and excluded from the assembled rulebook.
+
+## Rule text
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-363 - Recover supplies secondary#^text-s076-b000]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-355 - Mission generator#^text-s076-b001]]
+
+## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Generate a simple mission|Generate a simple mission — complete context]]
+- Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-355 - Mission generator|Mission generator]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-363 - Recover supplies secondary|Recover supplies secondary]]
+
+## Design notes
+
+<!-- Add feedback here. Existing review-table comments are also preserved. -->
+
+<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->

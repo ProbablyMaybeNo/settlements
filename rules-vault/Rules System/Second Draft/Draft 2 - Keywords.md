@@ -19,7 +19,8 @@ Read these with [[Settlements Rules System Version 2]]. The manuscript controls 
 | Rally | Stress-free NRV; success clears Stress, morale and Pinned. Existing fear uses Rally instead of Break at End Phase. |
 | Hidden | Public position, limited targeting beyond 12 inches, −4 when legally targeted, half Move unless Sneak. |
 | Marked | Core Mark Target success; +2 friendly shooting, reveal, ends this round. One mark per crew. No wall or Hidden-range bypass. |
-| Claim | Physical Core interaction; ownership persists until recaptured. The removed remote Tagged skill does not exist. |
+| Objective area | Maximum six objectives. 1–3 use 6-inch diameter; 4–6 use 3-inch diameter. The circle is the whole control area, with no extra distance. |
+| Claim / Retrieve / Work | Earlier objective procedures retained as Deferred cards; Ross will provide scenario specifics. |
 | Unanswered | Defender rolls pool to set maximum but cannot score hits; never automatic hits. |
 | Grappled | Specific opposed hold/escape; no human shield or automatic takedown. See Grapple skill. |
 | Offline / Destroyed | Device first/second hit; drone first hit destroys. Offline can Repair; Destroyed cannot in battle. |

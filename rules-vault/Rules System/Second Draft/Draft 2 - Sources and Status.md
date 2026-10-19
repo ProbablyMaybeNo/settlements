@@ -2,7 +2,13 @@
 
 ## Current authority
 
-[[Settlements Rules System Version 2]] is the complete **working proposal**, dated 2026-10-17. Ross authorised completing missing rules and revising existing mechanics to satisfy his detailed tenets. New assistant-selected procedures and numbers are clearly design proposals, not retroactively attributed decisions or validated balance.
+The full text is now owned by the **484 individual notes** in [[Rule Cards - Start Here]]. Shared passages are stored in one card and embedded elsewhere. [[Settlements Rulebook - Assembled]] provides the agreed thirteen-chapter view; [[Settlements Rules System Version 2]] retains older section links as a live reading view. Update the owning text and keep summaries/profile properties consistent; do not create separately edited copies.
+
+The original 453 review IDs and feedback are preserved. Thirty-one additional entries expose existing named stats, levels, interaction types, deeds and the Heavy keyword, plus the confirmed objective-area directions. Eighteen earlier objective/scenario proposals are marked Deferred; Ross will author the specifics. The archived pre-migration manuscript records the prior state.
+
+## Original manuscript provenance
+
+[[Settlements Rules System Version 2]] began as the complete **working proposal**, dated 2026-10-17. Ross authorised completing missing rules and revising existing mechanics to satisfy his detailed tenets. New assistant-selected procedures and numbers are clearly design proposals, not retroactively attributed decisions or validated balance.
 
 The subsequent Move/Core and Pinned rulings are confirmed by Ross: stand using Move, retain unused Core, −2 ranged / +2 melee hits against Pinned. See [[design-006 Pinned movement and hit modifiers]] for their scope and the separate proposed integration changes.
 

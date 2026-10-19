@@ -1,13 +1,13 @@
 ---
 type: rulebook-outline-review
 created: 2026-10-18
-status: Structure revised to Ross follow-up; full rule text migration pending
+status: Individual cards and chapter views assembled; publication review remains
 ---
 # Settlements Rulebook Outline — Review and Proposed Structure
 
 Ross's follow-up clarifies the reading order: a creator's introduction and setting, the basics, a concise picture of the whole game, then complete battle and settlement procedures. Keep the thirteen chapters. The shared battle rules belong under **Fighting Battles → Battle Overview**, with clear subheadings.
 
-This note records the clarified structure and maps the current manuscript into it. It is an outline, not the completed full-text migration. The manuscript and annotated [[Settlements Rules System Version 2 - Rules and Mechanics Review|453-entry review table]] remain intact. [[design-009 Rulebook outline and objective direction]] records the user directions and deferred work.
+This note records the clarified structure and source mapping. The text is now assembled in [[Settlements Rulebook - Assembled]] from [[Rule Cards - Start Here|484 individual cards]]. Original review IDs and Notes are preserved. [[design-009 Rulebook outline and objective direction]] records the user directions; [[design-010 Individual rule cards and section views]] records the migration.
 
 ## Confirmed reading sequence
 
@@ -361,17 +361,13 @@ This chapter-level check accounts for all twenty-four current chapters. It is a 
 | [[Settlements Rules System Version 2#23 Roster sheets and reference\|23 Records and reference]] | 6.7, 9.2 and supporting reference pages |
 | [[Settlements Rules System Version 2#24 Campaign and scenario content\|24 Content placeholders]] | 5, 11–13 and relevant setting placeholders |
 
-## How I recommend assembling it in Obsidian
+## Implemented Obsidian structure
 
-Use one canonical note for each coherent mechanic or rule family, section notes that display those mechanics under the book's actual subheadings, and a complete-book note that assembles the sections in reading order.
+Ross explicitly requested an individual note for every rule/mechanic and catalogue entry. The library therefore contains 484 cards, including all 453 original review entries. Each has filterable metadata and its concise description, full rule text/shared context, source links and feedback space.
 
-For example: **Fighting Battles → Injuries and Resolving Combat → Pinned and Recover**. The section should show the full Pinned/Recover text through an embed, not merely offer a link that makes the reader leave the chapter. A short index can provide links separately.
+Closely related cards reuse canonical blocks through live embeds. A passage is written in one owning card; other cards and section views display it without pasting a second editable copy. The old master retains its heading links and now displays the same sources. Thirteen chapter notes assemble the text under this outline; scenario, lore and creator-content placeholders remain for Ross.
 
-Do not equate 453 review-table rows with 453 necessary notes. Some rows are a restriction, modifier or catalogue entry belonging to a larger rule. Keep tightly coupled rules together; do not separate an exception from the rule needed to understand it. Skills, items and terrain can have individual records where that helps editing/filtering, while their chapter view remains a readable catalogue.
-
-The mechanic note would become its text's editing home, and chapter/full-book views would reuse that text. Until that migration is approved and performed, the existing master remains the editable manuscript. Avoid keeping a separately edited full-text master and separate rule notes that can drift apart.
-
-Keep tags, stable IDs, review status and Fibery fields in metadata or the design review view. They should support filters without interrupting the player-facing prose. Preserve all existing V2 IDs and Notes, update source links, and retain redirects for renamed notes/headings. A publication export should resolve embeds into one continuous document with ordinary section headings.
+Open [[Rule Cards - Start Here]] for the table/card views and complete index. The existing annotated review table now links to the individual cards. Stable IDs and all existing Notes are preserved. The master is a reading view, not a second place to maintain prose independently.
 
 ## Next drafting pass
 
@@ -381,7 +377,8 @@ Keep tags, stable IDs, review status and Fibery fields in metadata or the design
 - [x] Confirm objective diameter as the full control area, with no additional inches; retain the six-objective cap and two sizes.
 - [x] Reserve primary/secondary objective specifics and scenario writing for Ross.
 - [x] Record the complementary roles of the rulebook, battle cheat sheet and companion app.
-- [ ] Assemble the existing rule text into this hierarchy, preserving review IDs, Notes and confirmed rulings.
-- [ ] Integrate the confirmed objective-area conventions while leaving detailed scenario content as placeholders.
+- [x] Assemble existing rule text into individual cards and chapter views, preserving review IDs, Notes and confirmed rulings.
+- [x] Integrate the confirmed objective-area conventions while leaving detailed scenario content as placeholders.
 - [ ] Review the cheat sheet against the assembled book, propagate wording and verify battle-procedure coverage within the page target.
-- [ ] Check links, catalogue coverage, timing, examples and assembled-book readability. This will not establish balance or playtest results.
+- [x] Check link targets, source-text preservation, metadata and catalogue coverage.
+- [ ] Review presentation and assembled-book readability in Obsidian, then test play. Structural checks do not establish balance.

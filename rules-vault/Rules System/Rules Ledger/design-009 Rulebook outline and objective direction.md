@@ -1,7 +1,7 @@
 ---
 type: design-decision
 created: 2026-10-18
-status: Reading structure and objective-area direction clarified; full manuscript integration pending
+status: Directions integrated into individual cards and chapter views; authored scenarios deferred
 ---
 # Rulebook outline and objective direction
 
@@ -28,6 +28,6 @@ Ross confirms a battle cheat sheet plus the companion app. The book teaches and 
 
 ## Integration status
 
-The outline, ledger, navigation and trackers reflect these clarifications. Full manuscript migration and propagation of the objective-area rule into playing references remain pending. The existing manuscript and annotated review table are preserved. Earlier detailed scenario proposals should be retained as historical/reference material when excluded from the new book. No new objective designs, reward values, faction benefits, app implementation or playtest results have been added.
+The directions are now integrated into 484 individual cards, thirteen chapter views and the reference. The pre-migration manuscript and annotated table are archived; all original IDs and Notes are retained. Eighteen earlier objective/scenario cards are marked Deferred and excluded from the assembled book. See [[design-010 Individual rule cards and section views]]. No new objective designs, reward values, faction benefits, app implementation or playtest results have been added.
 
 The original outline's placement of initiative and fleeing has not been clarified as an explicit timing change. Keep that editorial distinction visible during migration; it does not block the agreed learning structure.

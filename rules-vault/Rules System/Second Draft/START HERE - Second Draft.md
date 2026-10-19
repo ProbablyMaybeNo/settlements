@@ -1,11 +1,15 @@
 # Settlements Second Draft
 
-Start with [[Settlements Rules System Version 2]] — the complete proposed rulebook manuscript written from Ross's October 17 tenets and answers.
+Start with **[[Rule Cards - Start Here|the individual rule-card library]]**: 484 notes, a complete index, and 15 table/card views.
 
-**Clarified rulebook structure:** [[Settlements Rulebook Outline - Review and Proposed Structure]] now follows Ross's introduction/learning sequence, places shared procedures under Battle Overview, records objective diameter as the whole control area, and reserves objective specifics for Ross. It also defines the roles of the book, cheat sheet and app. Full rule text has not yet been migrated.
+- [[Settlements Rule Cards.base|Browse and filter the cards]] — all entries, battle rules, combat, modifiers and catalogues.
+- [[Settlements Rulebook - Assembled]] — the agreed thirteen-chapter reading order, assembled from the same rule text.
+- [[Settlements Rules System Version 2]] — compatible master view retaining existing chapter/heading links.
+- [[Settlements Rules System Version 2 - Rules and Mechanics Review]] — 484 concise rows; original IDs and Notes preserved, each linking to its card.
+- [[Settlements Rulebook Outline - Review and Proposed Structure]] — the clarified structure and source mapping.
 
-- [[Settlements Rules System Version 2 - Rules and Mechanics Review]] — 453 concise entries with categories, tags, source links and an editable Notes column.
-- [[Settlements Rules System Version 2 - Index]] — direct links to every chapter and subsection; also available at the top of the master note.
+**Editing:** rule text lives in the card that owns its block; shared passages are live embeds. Edit the source card, not a separately pasted master. Keep its summary/properties consistent. The pre-migration manuscript and review table are preserved in [[Rules System/Archived/Before individual rule cards - 2026-10-18/README]].
+
 - [[Draft 2 - Battle Quick Reference]] — core battle procedures; four-page A4 PDF linked inside.
 - [[Draft 2 - Design Requirements and Research Audit]] — 54 requirements, research audit, changes and every previous skill's disposition.
 - [[Draft 2 - Progress and Decisions]] — completed drafting work and remaining validation.
@@ -14,6 +18,6 @@ Start with [[Settlements Rules System Version 2]] — the complete proposed rule
 - [[Draft 2 - Skills]], [[Draft 2 - Basic Weapon System]] and [[Draft 2 - Keywords]] — current reference views.
 - [[Settlements Core Rulebook Outline]] — navigable chapter outline.
 
-The working rules are complete as a **proposal**, including persistence outside campaigns. Prices, balance and the sixty-minute target await playtesting. Lore, factions, authored scenarios and linked campaign content are placeholders.
+The working rules remain a **proposal**, including persistence outside campaigns. Detailed objective/scenario design is reserved for Ross. Prices, balance and the sixty-minute target await playtesting. Lore, factions, authored scenarios and linked campaign content are placeholders.
 
 The September simulation contract and results are historical. They do not validate this manuscript's changed timing, skills, Stress, Wounds or economy. The former thirteen notes are preserved at [[Rules System/Archived/Draft 2 before complete rulebook - 2026-10-17/README]].

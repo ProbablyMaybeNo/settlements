@@ -1,0 +1,138 @@
+filters:
+  and:
+  - file.inFolder("Settlements/Rules System/Second Draft/Rule Cards")
+  - type == "settlements-rule-card"
+properties:
+  file.name:
+    displayName: Rule / card
+  rule_name:
+    displayName: Name
+  rule_id:
+    displayName: ID
+  entry_type:
+    displayName: Type
+  book_section:
+    displayName: Book section
+  book_subsection:
+    displayName: Subsection
+  summary:
+    displayName: Concise rule
+  publication:
+    displayName: Scope
+  review_status:
+    displayName: Review
+  credits:
+    displayName: Credits
+  materials:
+    displayName: Materials
+  power:
+    displayName: Power
+  review_notes:
+    displayName: Review notes
+  keywords:
+    displayName: Linked weapon keywords
+views:
+- type: table
+  name: All entries
+  order: &id001
+  - file.name
+  - note.rule_id
+  - note.entry_type
+  - note.book_section
+  - note.book_subsection
+  - note.summary
+  - note.tags
+  - note.publication
+  - note.review_status
+  - note.review_notes
+- type: cards
+  name: All cards
+  order: &id002
+  - file.name
+  - note.summary
+  - note.entry_type
+  - note.book_subsection
+  - note.tags
+  - note.publication
+  - note.review_status
+- type: table
+  name: By book section
+  groupBy:
+    property: note.book_section
+    direction: ASC
+  order: *id001
+- type: cards
+  name: Battle rules
+  filters:
+    and:
+    - book_chapter == 4
+    - publication == "Included"
+  order: *id002
+- type: cards
+  name: Combat
+  filters:
+    and:
+    - file.hasTag("combat")
+    - publication == "Included"
+  order: *id002
+- type: cards
+  name: To-hit bonuses
+  filters:
+    and:
+    - file.hasTag("hit-plus")
+    - publication == "Included"
+  order: *id002
+- type: cards
+  name: Armour bonuses
+  filters:
+    and:
+    - file.hasTag("armour-plus")
+    - publication == "Included"
+  order: *id002
+- type: cards
+  name: Weapons
+  filters:
+    or:
+    - entry_type == "Weapon"
+    - entry_type == "Weapon class"
+  order: *id002
+- type: cards
+  name: Weapon keywords
+  filters:
+    or:
+    - entry_type == "Weapon keyword"
+  order: *id002
+- type: cards
+  name: Skills
+  filters:
+    or:
+    - entry_type == "Skill"
+  order: *id002
+- type: cards
+  name: Equipment and devices
+  filters:
+    or:
+    - entry_type == "Armour"
+    - entry_type == "Equipment"
+    - entry_type == "Deployable"
+  order: *id002
+- type: cards
+  name: Interactive terrain
+  filters:
+    or:
+    - entry_type == "Interactive terrain"
+  order: *id002
+- type: cards
+  name: Structures
+  filters:
+    or:
+    - entry_type == "Structure"
+  order: *id002
+- type: table
+  name: Needs review
+  filters: review_status == "Needs review"
+  order: *id001
+- type: cards
+  name: Deferred objective proposals
+  filters: publication == "Deferred"
+  order: *id002

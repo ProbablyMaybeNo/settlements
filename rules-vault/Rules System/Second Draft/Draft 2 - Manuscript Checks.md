@@ -1,5 +1,11 @@
 # Draft 2 Manuscript Checks
 
+## Individual-card migration checks
+
+484 individual cards preserve all original 453 IDs and Notes. The library includes 455 uniquely owned source blocks, 218 catalogue/procedure table rows, thirteen chapter notes and fifteen Bases views. The report in `docs/draft2-rule-cards-2026-10-18/validation.json` checks source preservation, profile coverage, YAML and internal links. Obsidian application rendering and gameplay are not established by these checks. See [[design-010 Individual rule cards and section views]].
+
+## Earlier document checks — historical snapshots
+
 Checked 2026-10-17 against [[Settlements Rules System Version 2]], [[Draft 2 - Design Requirements and Research Audit]] and [[Draft 2 - Battle Quick Reference]]. These are document and worked-example checks, not game-balance validation.
 
 ## Completed checks

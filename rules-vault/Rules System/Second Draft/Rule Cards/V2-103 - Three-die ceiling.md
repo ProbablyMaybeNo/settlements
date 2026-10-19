@@ -1,0 +1,52 @@
+---
+type: settlements-rule-card
+rule_id: V2-103
+rule_name: Three-die ceiling
+entry_type: Rule
+category: Combat
+book_chapter: 4
+book_section: Fighting Battles
+book_subsection: Ranged Combat
+tags:
+- settlements/v2
+- combat
+- hands
+- dice
+- limits
+summary: Maximum three attack dice including Charge/skills; remove excess before rolling.
+status: Draft proposal
+review_status: Unreviewed
+publication: Included
+created: '2026-10-18'
+source:
+- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Two weapons and pool limits]]'
+review_notes: ''
+related_rules:
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-104 - Unarmed and melee Sidearms]]'
+---
+
+# Three-die ceiling
+
+## Summary
+
+Maximum three attack dice including Charge/skills; remove excess before rolling.
+
+## Rule text
+
+Using two one-handed weapons gives the dominant weapon's full dice and **one off-hand die**. Identify that die separately and use its own range, Damage, and traits. Both weapons must be eligible for the attack. A shooting pair must contain two firearms; a melee pair may contain melee weapons or Sidearms. Skill exceptions never raise a combined attack pool above **three dice**, including a Charge die. Remove excess dice of your choice before rolling.
+
+^text-s030-b000
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-104 - Unarmed and melee Sidearms#^text-s030-b001]]
+
+## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Two weapons and pool limits|Two weapons and pool limits — complete context]]
+- Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-104 - Unarmed and melee Sidearms|Unarmed and melee Sidearms]]
+
+## Design notes
+
+<!-- Add feedback here. Existing review-table comments are also preserved. -->
+
+<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->

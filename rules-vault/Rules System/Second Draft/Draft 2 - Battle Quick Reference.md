@@ -159,8 +159,8 @@ Smoke grenade: Core/DEX, visible point within 8 inches. Pass place; fail 2 inche
 
 ### Objectives and battle end
 
-Eligible controller: conscious, unpinned, unengaged human, no morale condition, within 2 inches; any eligible enemy contests. Extra bodies do not outweigh one opponent. **Claim:** Core/contact uncontested, ownership persists after leaving until opponent Claims; contested claim scores nothing. **Retrieve:** Core/contact take cargo, one per fighter; Heavy halves Move/occupies hand, no Dash/Charge. Pass to contact friendly costs giver Core. **Work:** Core/contact, appropriate normal test; default two cumulative successes, failed action loses no progress.
+Battles have a **primary objective and a secondary objective**. At most **six objectives** may be on the board. With **1–3 objectives**, each control area is **6 inches in diameter**; with **4–6**, each is **3 inches in diameter**. The circle is the entire control area: **no additional control distance**.
 
-Choose primary plus one public secondary per crew. Default primary: three Control/Claim markers score 1 each from End round 2, max 2/crew/round; or three Retrieve cargo score 2 extracted/1 held at end; or two Work panels, 2 points each crew per completed panel. Secondary 2 points once: operate two useful features outside own zone, record reconnaissance with Core in enemy zone, extract secondary supply, or rescue own casualty. No kill points. See manuscript for placement.
+**Scenario specifics are reserved for Ross.** Use the agreed scenario's instructions for scoring, interaction and rewards. The former generator's default objectives and scoring are deferred; they are retained in the card library for reference. No routine casualty points.
 
 End round 6: highest score wins, tie draws; withdrawal loses. Resolve injury once for each unresolved Down/Unconscious, update actual loot, then Settlement round. Both crews receive 125 Credits/20 Materials, winner +25 Credits. Qualifying battle needs two complete rounds or normal early mission completion. Use manuscript Chapters 18–21 for injuries, XP, workers and Power.

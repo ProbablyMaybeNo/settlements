@@ -1,6 +1,6 @@
 # Draft 2 Progress and Decisions
 
-Current master: [[Settlements Rules System Version 2]]. Design record: [[Draft 2 - Design Requirements and Research Audit]]. Updated 2026-10-18.
+Current text owners: [[Rule Cards - Start Here|individual rule cards]]. Reading views: [[Settlements Rulebook - Assembled]] and the compatible [[Settlements Rules System Version 2|master]]. Design record: [[Draft 2 - Design Requirements and Research Audit]]. Updated 2026-10-18.
 
 ## Completed writing work
 
@@ -43,11 +43,23 @@ These user rulings supersede the earlier Core self-Recover text. Replacement ski
 - [x] Record the six-objective cap and diameters: one to three use six-inch circles; four to six use three-inch circles. The diameter is the entire control area, with no extra inches.
 - [x] Reserve primary/secondary objective specifics and scenario writing for Ross; remove further mission-design recommendations from this pass.
 - [x] Record the battle cheat sheet and companion app as supporting references; see [[design-009 Rulebook outline and objective direction]].
-- [ ] Assemble full rule text into the clarified structure while preserving review IDs and user Notes.
-- [ ] Integrate confirmed objective-area conventions into playing rules and references; preserve earlier scenario proposals separately and leave new scenario content as placeholders.
+- [x] Assemble the text into 484 individual rule cards and thirteen chapter views, preserving original review IDs and Notes.
+- [x] Integrate confirmed objective-area conventions into the library and battle reference; retain eighteen earlier objective/scenario cards as Deferred and leave scenario specifics as placeholders.
 - [ ] Audit/update the cheat sheet against the assembled book for battle coverage and consistent wording.
 
-These follow-ups update the outline and design records. The manuscript and annotated review table remain unchanged so far. No revised cheat-sheet completeness, app implementation or new playtest result is claimed.
+The individual-card migration is implemented. No app implementation, new playtest result or comprehensive cheat-sheet completeness claim is implied.
+
+## Individual rule cards and views
+
+- [x] Create a note for every original review entry and add thirty-one separately addressable entries found during the coverage pass: 484 total.
+- [x] Include 22 weapons, six weapon classes, eighteen weapon keywords, forty skills, twenty interactive terrain features, nine deployables including the drone, sixteen armour/supply entries and twenty structures.
+- [x] Store each of 455 source blocks once; reuse it through live embeds in shared rule cards, text assemblies and chapter views.
+- [x] Add stable IDs, summaries, categories, tags, book placement, scope/review fields, profile data and links between related rules.
+- [x] Add fifteen Bases table/card views and a complete static index.
+- [x] Check source-text preservation, IDs, feedback, catalogue counts, YAML and internal links; details in [[design-010 Individual rule cards and section views]].
+- [ ] Review the card/table presentation in Obsidian with Ross and refine preferred views.
+
+The previous manuscript and review table are archived. No Fibery import or legacy catalogue regeneration was performed.
 
 ## Consequential proposed decisions
 
