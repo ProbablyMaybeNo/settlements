@@ -1,6 +1,6 @@
 # Draft 2 Skills
 
-Current working catalogue: **40 skills**, eight per stat. These are proposed revisions, not a claim of newly playtested balance. Each fighter knows at most three and needs +2 in a skill's stat before injuries.
+Current working catalogue: **39 skills**: seven Dexterity skills and eight for each other stat. These are proposed revisions, not a claim of newly playtested balance. Each fighter knows at most three and needs +2 in a skill's stat before injuries.
 
 ![[Settlements Rules System Version 2#16 Skills]]
 

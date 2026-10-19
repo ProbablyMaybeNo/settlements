@@ -17,3 +17,15 @@ Active follow-up: voluntary ending of remaining crew activations is retained; on
 ## Superseded printable reference
 
 [[Settlements/Rules System/Archived/Rule retirements - 2026-10-19/Settlements Version 2 Battle Quick Reference.pdf|Previous battle quick reference PDF]] is retained unchanged as historical material because it includes the retired Pass mechanic and the earlier Initiative summary. Use [[Settlements/Rules System/Second Draft/Draft 2 - Battle Quick Reference|the current Markdown reference]]. A replacement printable PDF has not been exported.
+
+## V2-322 - Cover Me
+
+Removed from active rules on **2026-10-19 (Pacific)** at Ross's explicit direction: no separate covering-shot mechanic and no replacement skill. Its only effect was the obsolete simultaneous protective-shot exception. [[Settlements/Rules System/Archived/Rule retirements - 2026-10-19/V2-322 - Cover Me|The original card]] is preserved byte for byte; its ID is retired and must not be reused.
+
+Ordinary [[Settlements/Rules System/Second Draft/Rule Cards/V2-067 - Reaction Shoot|Reaction Shoot]] can now follow an enemy Shoot at a different fighter, after every enemy attack outcome, if the reactor is not targeted and remains eligible. Return Fire when the reactor is targeted remains independent simultaneous normal shooting; both fighters can hit and be injured. No opposed-roll cancellation was adopted.
+
+Original annotated-review row, including feedback and its recorded update date:
+
+```text
+| **Cover Me**<br>V2-322 | Skills · DEX | #skill #dex #reaction #ranged #combat | READY reaction when visible attacker shoots another friendly within 6″: simultaneous shot at attacker; original target unchanged. | [[Settlements/Rules System/Second Draft/Rule Cards/V2-322 - Cover Me\|Open individual note]] |  |  |
+```

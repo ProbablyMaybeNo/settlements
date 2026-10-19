@@ -11,12 +11,12 @@ tags:
 - settlements/v2
 - reaction
 - ready
-summary: Voluntary movement, another regular action, a hit, Down, Unconscious, capture or morale condition removes
-  READY.
+summary: One READY held at a time; one spent per round; losing it does not count as spending. Eligible replacement allowed; Reacted remains; one reaction/round; carryover retained.
 status: Draft proposal
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
+last_rule_update: 2026-10-19
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#READY]]'
 review_notes: ''
@@ -28,11 +28,11 @@ related_rules:
 
 ## Summary
 
-Voluntary movement, another regular action, a hit, Down, Unconscious, capture or morale condition removes READY.
+One READY held at a time; one spent per round; losing it does not count as spending. Eligible replacement allowed; Reacted remains; one reaction/round; carryover retained.
 
 ## Rule text
 
-Ready grants one token, never a second. It can be gained after spending Move and can remain into later rounds. A fighter loses READY when it moves voluntarily, performs any regular action other than Ready, is hit by an attack, becomes Down or Unconscious, is captured, or gains a morale condition. A stationary free facing change made as part of another action does not save READY from that action's cancellation.
+A fighter gains a READY token by taking the Ready Core Action or receiving an order. Spend that token to perform one reaction. A fighter can hold at most one READY token at a time and can react at most once per round. A fighter can spend only one READY token per round. Losing a READY token does not count as spending it. If READY is spent or lost, the fighter may gain a replacement through the Ready Core Action or a valid order when eligible. Gaining replacement READY does not clear Reacted or grant another reaction or activation. READY can be gained after spending Move and can remain into later rounds. A fighter loses READY when it moves voluntarily, performs any regular action other than Ready, is hit by an attack, becomes Down or Unconscious, is captured, or gains a morale condition. A stationary free facing change made as part of another action does not save READY from that action's cancellation.
 
 ^text-s020-b000
 

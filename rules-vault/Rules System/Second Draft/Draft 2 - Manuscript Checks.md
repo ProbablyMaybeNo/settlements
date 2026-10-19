@@ -1,5 +1,7 @@
 # Draft 2 Manuscript Checks
 
+Current library after the 2026-10-19 retirements: **483 active cards and 39 skills**. Counts and validation claims below describe the earlier migration snapshot; see [[Draft 2 - Progress and Decisions#Confirmed follow-up decisions - 2026-10-19|the current decision record]].
+
 ## Individual-card migration checks
 
 484 individual cards preserve all original 453 IDs and Notes. The library includes 455 uniquely owned source blocks, 218 catalogue/procedure table rows, thirteen chapter notes and fifteen Bases views. The report in `docs/draft2-rule-cards-2026-10-18/validation.json` checks source preservation, profile coverage, YAML and internal links. Obsidian application rendering and gameplay are not established by these checks. See [[design-010 Individual rule cards and section views]].

@@ -12,17 +12,17 @@ tags:
 - reaction
 - combat
 - ranged
-summary: Shoot triggering non-shooting enemy before its action or at chosen movement point.
+summary: Ordinary Shoot at non-shooting action start/end, or after an enemy Shoot at another fighter. Resolve enemy outcomes first; check endpoint eligibility, LOS and range.
 status: Draft proposal
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
+last_rule_update: 2026-10-19
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Reaction windows]]'
 review_notes: ''
 reaction: Shoot
-resolution: Fire at the triggering enemy using the normal shooting rules. Resolve before the declared non-shooting
-  action or at the chosen movement point.
+resolution: Fire at the triggering enemy using the normal shooting rules at the start or end of each enemy non-shooting action. If an enemy Shoot targets a different fighter and does not target the reacting fighter, ordinary Reaction Shoot is also available at the end of that Shoot, after all enemy attack outcomes have been resolved. Start is after action declaration but before resolution; end is after that action is completed. At the chosen endpoint, check READY, normal reaction eligibility, line of sight within the reacting fighter's forward arc, and weapon range. Do not nominate an intermediate movement point. A start reaction may interrupt an unfinished action under the interruption rules. An end reaction cannot cancel or undo the completed action. Resolve or forfeit any remaining unused slot in the same activation according to the acting fighter's resulting state.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-065 - Reaction timing]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-066 - Reaction limits]]'
@@ -34,14 +34,14 @@ related_rules:
 
 ## Summary
 
-Shoot triggering non-shooting enemy before its action or at chosen movement point.
+Ordinary Shoot at non-shooting action start/end, or after an enemy Shoot at another fighter. Resolve enemy outcomes first; check endpoint eligibility, LOS and range.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Reaction | Shoot |
-| Resolution | Fire at the triggering enemy using the normal shooting rules. Resolve before the declared non-shooting action or at the chosen movement point. |
+| Resolution | Fire at the triggering enemy using the normal shooting rules at the start or end of each enemy non-shooting action. If an enemy Shoot targets a different fighter and does not target the reacting fighter, ordinary Reaction Shoot is also available at the end of that Shoot, after all enemy attack outcomes have been resolved. Start is after action declaration but before resolution; end is after that action is completed. At the chosen endpoint, check READY, normal reaction eligibility, line of sight within the reacting fighter's forward arc, and weapon range. Do not nominate an intermediate movement point. A start reaction may interrupt an unfinished action under the interruption rules. An end reaction cannot cancel or undo the completed action. Resolve or forfeit any remaining unused slot in the same activation according to the acting fighter's resulting state. |
 
 ^text-s021-b003
 

@@ -22,6 +22,7 @@ source:
 review_notes: ''
 action_cost: Core
 related_rules:
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-485 - Orders]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-062 - Losing READY]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-063 - Reaction eligibility]]'
 ---
@@ -48,6 +49,7 @@ Core grants one READY token, retained across rounds until used or cancelled.
 
 ## Links
 
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-485 - Orders|Orders — free READY grants during the issuer's activation]]
 - [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - READY|READY — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-062 - Losing READY|Losing READY]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-063 - Reaction eligibility|Reaction eligibility]]

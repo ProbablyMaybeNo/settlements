@@ -31,7 +31,7 @@ Relevant uninjured stat +2; maximum three skills, no duplicates. Starting grade 
 
 ## Rule text
 
-These **40 skills** are the Version 2 selection. Learn only skills whose stat is at least +2 before lasting injuries. Each fighter knows at most three; do not stack several copies. Starting skills are included in the training grade. Later skills come from advancement, not a separate purchase of powers.
+These **39 skills** are the Version 2 selection. Learn only skills whose stat is at least +2 before lasting injuries. Each fighter knows at most three; do not stack several copies. Starting skills are included in the training grade. Later skills come from advancement, not a separate purchase of powers.
 
 ^text-s068-b000
 

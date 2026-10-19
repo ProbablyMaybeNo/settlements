@@ -12,3 +12,6 @@ publication: Included
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-063 - Reaction eligibility#^text-s020-b001]]
 
+#### Orders
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-485 - Orders#Rule text]]

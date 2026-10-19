@@ -7,7 +7,7 @@ Read these with [[Settlements Rules System Version 2]]. The manuscript controls 
 | Round / Turn / Activation | Six rounds; alternate whole-fighter activations. Each fighter resolves one Move and one Core in either order during its activation; no banking or reactivation. |
 | Hands / weapon slots | Two hands give two weapon slots; one-handed uses one, two-handed/Heavy uses two. No weapon needs more than two. |
 | Activated | Fighter has taken its one activation this round; clear at Start. Recovery never grants another activation. |
-| READY / Reacted | One retained preparation token; spend for one reaction. One reaction per fighter per round, one reacting model per enemy action. |
+| READY / Reacted | Ready Core Action or order grants READY; maximum one token held at a time. A fighter can spend only one READY token per round; losing one does not count as spending it. Spent/lost READY may be replaced when eligible, without clearing Reacted or granting an extra reaction or activation. One reaction per fighter per round, one reacting model per enemy action. Carryover retained. |
 | Pinned | Ranged hits against it −2; melee hits +2; stack with applicable position modifiers, not Injury. Half-speed crawl, Move Recover, self-Rally or specified Disengage; defensive melee allowed. Base must be visible to shoot it. |
 | Recover / Help Recover | Self: Move to stand in place instead of travelling, keeping unused Core. Helper: Core within 3 inches and LOS. Both remove Pinned automatically, not Stress/morale. |
 | Aim | Core; +2 next Shoot, including a reaction, through end of next round. Lost on movement/standing, Pinned or engagement; consumed by shot. |

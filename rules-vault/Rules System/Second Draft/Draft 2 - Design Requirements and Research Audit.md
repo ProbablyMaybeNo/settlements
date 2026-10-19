@@ -221,8 +221,8 @@ These are proposed manuscript dispositions, not claims that the older selected c
 | Breach | Door-forcing during Move; remove free shot and reaction immunity. |
 | Spray and Pray | Merge targeting role into Split Fire; remove casualty-generated dice. |
 | On Me | Remove consecutive-activation exception; whole-fighter alternation lets you choose another eligible fighter on your next turn. |
-| Watch Out! | Merge protective role into READY/Cover Me; no borrowed free attack for a second model. |
-| Cover Me | Simultaneous shooting to protect one nearby friendly, using READY. |
+| Watch Out! | Protective response uses ordinary Reaction Shoot after an enemy Shoot at another fighter; no separate covering-shot skill (2026-10-19). |
+| Cover Me | Removed by Ross on 2026-10-19. Ordinary Reaction Shoot may follow an enemy Shoot at another fighter after its outcomes; no replacement skill. |
 | Eyes Peeled | Remove kill-triggered READY generation. |
 | Planning Ahead | Merge into common carrying and weapon-choice rules. |
 | Speed Loader | Proposed follow-up: one Core Reload readies up to two held Reload weapons. Move remains movement. |

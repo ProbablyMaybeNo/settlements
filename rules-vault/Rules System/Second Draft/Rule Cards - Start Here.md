@@ -33,9 +33,9 @@ The **Last updated** column in the [[Rule Cards - Complete Index|complete card-n
 | Interactive terrain | 20 |
 | Lasting injury | 10 |
 | Objective convention | 2 |
-| Rule | 281 |
+| Rule | 282 |
 | Scenario proposal | 8 |
-| Skill | 40 |
+| Skill | 39 |
 | Stat | 8 |
 | Structure | 20 |
 | Training grade | 4 |

@@ -11,12 +11,12 @@ tags:
 - settlements/v2
 - reaction
 - combat
-summary: One reacting model per enemy action; declare at start, visible movement point or end. Normal Move/Core
-  have separate windows.
+summary: One reactor per enemy action, including Charge. Reaction Shoot at non-shooting action start/end, or after an enemy Shoot at another fighter; endpoint eligibility applies.
 status: Draft proposal
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
+last_rule_update: 2026-10-19
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Reaction windows]]'
 review_notes: ''
@@ -30,11 +30,11 @@ related_rules:
 
 ## Summary
 
-One reacting model per enemy action; declare at start, visible movement point or end. Normal Move/Core have separate windows.
+One reactor per enemy action, including Charge. Reaction Shoot at non-shooting action start/end, or after an enemy Shoot at another fighter; endpoint eligibility applies.
 
 ## Rule text
 
-After an enemy declares an action, the non-active player may declare **one reaction by one model**. Alternatively, they may wait for a visible point along a declared movement path or the end of the action. Announce the precise point before the model moves past it. The entire action, including a Charge's movement and attack, allows only one reacting model, even if several are eligible.
+After an enemy declares an action, before that action resolves, the non-active player may declare **one reaction by one model**. Reaction Shoot is available at the start or end of a non-shooting enemy action. If an enemy Shoot targets a different fighter and does not target the reacting fighter, Reaction Shoot is available only at the end, after all outcomes of that Shoot have been resolved. Check the reacting model's READY, reaction eligibility, forward arc, line of sight, and range at the chosen endpoint. Reaction Shoot cannot be declared at an intermediate movement point. Other reactions retain the option to wait for a visible point along a declared movement path or the end of the action, subject to their own printed timing; announce the precise point before the model moves past it. The entire action, including a Charge's movement and attack, allows only one reacting model, even if several are eligible.
 
 ^text-s021-b000
 

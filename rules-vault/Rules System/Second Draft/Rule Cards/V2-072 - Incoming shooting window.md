@@ -11,12 +11,12 @@ tags:
 - settlements/v2
 - reaction
 - combat
-summary: Declare Return Fire, Dive or Cover Me before dice; no retroactive evasion or ordinary reaction Shoot against
-  Shoot.
+summary: Return Fire/Dive before incoming attack dice when targeted; ordinary Reaction Shoot after an enemy Shoot at another fighter and all its outcomes.
 status: Draft proposal
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
+last_rule_update: 2026-10-19
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Reaction windows]]'
 review_notes: ''
@@ -30,11 +30,11 @@ related_rules:
 
 ## Summary
 
-Declare Return Fire, Dive or Cover Me before dice; no retroactive evasion or ordinary reaction Shoot against Shoot.
+Return Fire/Dive before incoming attack dice when targeted; ordinary Reaction Shoot after an enemy Shoot at another fighter and all its outcomes.
 
 ## Rule text
 
-For an incoming Shoot, Return Fire, Dive, or Cover Me must be declared before any attack dice are rolled. Waiting until its end does not permit retroactive fire or evasion. An ordinary reaction Shoot is available only against a non-shooting action; Cover Me supplies the exception for protecting another target.
+For an incoming Shoot that targets the reacting fighter, Return Fire or Dive must be declared before any attack dice are rolled. Waiting until its end does not permit retroactive Return Fire or evasion. If the enemy instead shoots a different fighter and does not target the reactor, ordinary Reaction Shoot may be declared at the end of that Shoot, after all attack outcomes have been resolved. Check the reactor's READY, reaction eligibility, forward arc, line of sight, and range at that point.
 
 ^text-s021-b001
 

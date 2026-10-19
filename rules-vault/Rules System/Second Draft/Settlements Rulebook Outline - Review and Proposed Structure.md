@@ -363,7 +363,7 @@ This chapter-level check accounts for all twenty-four current chapters. It is a 
 
 ## Implemented Obsidian structure
 
-Ross explicitly requested an individual note for every rule/mechanic and catalogue entry. The library therefore contains 483 active-library cards; the original V2-054 is preserved in the dated retirement archive. Each has filterable metadata and its concise description, full rule text/shared context, source links and feedback space.
+Ross explicitly requested an individual note for every rule/mechanic and catalogue entry. The library therefore contains 483 active-library cards; the originals V2-054 and V2-322 are preserved in the dated retirement archive. Each has filterable metadata and its concise description, full rule text/shared context, source links and feedback space.
 
 Closely related cards reuse canonical blocks through live embeds. A passage is written in one owning card; other cards and section views display it without pasting a second editable copy. The old master retains its heading links and now displays the same sources. Thirteen chapter notes assemble the text under this outline; scenario, lore and creator-content placeholders remain for Ross.
 

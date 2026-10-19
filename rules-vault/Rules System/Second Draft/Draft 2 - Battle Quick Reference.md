@@ -39,17 +39,17 @@ Alternate whole-fighter activations: mark Activated, resolve one Move and one Co
 
 ### READY and reactions
 
-Ready costs Core. One token maximum. Lose it for voluntary movement, any regular action other than Ready, a hit, Down, Unconscious, capture or a morale condition.
+A fighter gains a READY token by taking the Ready Core Action or receiving an order. Spend that token to perform one reaction. A fighter can hold at most one READY token at a time and can react at most once per round. A fighter can spend only one READY token per round. Losing a READY token does not count as spending it. If READY is spent or lost, the fighter may gain a replacement through the Ready Core Action or a valid order when eligible. Gaining replacement READY does not clear Reacted or grant another reaction or activation. Lose it for voluntary movement, any regular action other than Ready, a hit, Down, Unconscious, capture or a morale condition.
 
-React only while conscious, unengaged, READY, not Reacted and without a morale condition. Need front LOS and action range. One reacting model per enemy action, including an entire Charge. Declare at the start, a precise visible movement point, or the end. Spend READY and mark Reacted. No reaction chains.
+React only while conscious, unengaged, READY, not Reacted and without a morale condition. Need front LOS and action range. One reacting model per enemy action, including an entire Charge. Reaction Shoot is limited to the start or end of each enemy action; other reaction options retain their existing printed timing, including any permitted movement-point window. Spend READY and mark Reacted. No reaction chains.
 
-**Shoot:** normal shot before a non-shooting action or at the chosen movement point. A hit that Pins/Downs cancels unfinished action; spent slots/items remain spent.
+**Shoot:** normal shot at the start or end of each enemy non-shooting action; also at the end of an enemy Shoot targeting another fighter and not the reactor, after all enemy attack outcomes resolve. Start is after declaration but before resolution; end is after completion. Check READY, eligibility, forward LOS and weapon range at that endpoint; no intermediate movement point. A start hit that Pins/Downs can cancel an unfinished action; spent slots/items remain spent. An end shot cannot undo the completed action; resolve or forfeit remaining unused slots according to the acting fighter's resulting state.
 
-**Return Fire:** when the enemy shoots you, shoot simultaneously using ordinary 15+ tests. Resolve both from declaration states, then apply outcomes. Neither shot cancels the other. Cover Me extends this to protecting a nearby friendly.
+**Return Fire:** when the enemy targets you and is a legal target, declare before any attack dice. Both shoot using independent normal 15+ tests from declaration states, then apply both outcomes. Both can hit and be injured; complete the exchange even if a shooter is Downed.
 
 **Dive:** before incoming Shoot/Charge dice, test AGI. Pass: move up to 3 inches and become Pinned. Fail: stay and become Pinned. Recheck attack legality. Pinned may only Dive if it retained READY by a specific rule.
 
-**Operate:** operate a reachable control/terminal before the trigger finishes. **Interrupt:** requires its skill. Return Fire, Dive and Cover Me must be declared before attack dice; no retroactive reactions.
+**Operate:** operate a reachable control/terminal before the trigger finishes. **Interrupt:** requires its skill. Return Fire and Dive against incoming shooting must be declared before attack dice; ordinary Reaction Shoot against a shot at another fighter follows all enemy attack outcomes.
 
 ### End Phase
 

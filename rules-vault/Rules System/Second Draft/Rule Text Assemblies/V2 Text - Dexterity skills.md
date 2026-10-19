@@ -32,10 +32,6 @@ publication: Included
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-321 - Breach#^text-s070-b005]]
 
-#### Cover Me
-
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-322 - Cover Me#^text-s070-b006]]
-
 #### Speed Loader
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-323 - Speed Loader#^text-s070-b007]]

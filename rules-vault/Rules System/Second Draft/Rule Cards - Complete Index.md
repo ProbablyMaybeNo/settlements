@@ -52,7 +52,7 @@
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-001 - Persistent rosters\|V2-001 · Persistent rosters]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-354 - Non-killing victory routes\|V2-354 · Non-killing victory routes]] |  |
 
-## 4. Fighting Battles — 191 cards
+## 4. Fighting Battles — 192 cards
 
 | Rule / card | Last updated |
 | --- | --- |
@@ -73,17 +73,18 @@
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-059 - Own attack limit\|V2-059 · Own attack limit]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-060 - Attack exceptions\|V2-060 · Attack exceptions]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-061 - Ready action\|V2-061 · Ready action]] |  |
-| [[Settlements/Rules System/Second Draft/Rule Cards/V2-062 - Losing READY\|V2-062 · Losing READY]] |  |
+| [[Settlements/Rules System/Second Draft/Rule Cards/V2-485 - Orders\|V2-485 · Orders]] | 2026-10-19 |
+| [[Settlements/Rules System/Second Draft/Rule Cards/V2-062 - Losing READY\|V2-062 · Losing READY]] | 2026-10-19 |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-063 - Reaction eligibility\|V2-063 · Reaction eligibility]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-064 - Pinned reactions\|V2-064 · Pinned reactions]] |  |
-| [[Settlements/Rules System/Second Draft/Rule Cards/V2-065 - Reaction timing\|V2-065 · Reaction timing]] |  |
+| [[Settlements/Rules System/Second Draft/Rule Cards/V2-065 - Reaction timing\|V2-065 · Reaction timing]] | 2026-10-19 |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-066 - Reaction limits\|V2-066 · Reaction limits]] |  |
-| [[Settlements/Rules System/Second Draft/Rule Cards/V2-067 - Reaction Shoot\|V2-067 · Reaction Shoot]] |  |
-| [[Settlements/Rules System/Second Draft/Rule Cards/V2-068 - Return Fire\|V2-068 · Return Fire]] |  |
+| [[Settlements/Rules System/Second Draft/Rule Cards/V2-067 - Reaction Shoot\|V2-067 · Reaction Shoot]] | 2026-10-19 |
+| [[Settlements/Rules System/Second Draft/Rule Cards/V2-068 - Return Fire\|V2-068 · Return Fire]] | 2026-10-19 |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-069 - Dive\|V2-069 · Dive]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-070 - Operate reaction\|V2-070 · Operate reaction]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-071 - Interrupted action\|V2-071 · Interrupted action]] |  |
-| [[Settlements/Rules System/Second Draft/Rule Cards/V2-072 - Incoming shooting window\|V2-072 · Incoming shooting window]] |  |
+| [[Settlements/Rules System/Second Draft/Rule Cards/V2-072 - Incoming shooting window\|V2-072 · Incoming shooting window]] | 2026-10-19 |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-073 - End Phase order\|V2-073 · End Phase order]] | 2026-10-19 |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-074 - Front arc and facing\|V2-074 · Front arc and facing]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-075 - Body-based LOS\|V2-075 · Body-based LOS]] |  |
@@ -425,7 +426,7 @@
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-450 - Route Map\|V2-450 · Route Map]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-456 - Heavy\|V2-456 · Heavy]] |  |
 
-## 8. Skills — 43 cards
+## 8. Skills — 42 cards
 
 | Rule / card | Last updated |
 | --- | --- |
@@ -446,7 +447,6 @@
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-319 - Split Fire\|V2-319 · Split Fire]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-320 - Run and Gun\|V2-320 · Run and Gun]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-321 - Breach\|V2-321 · Breach]] |  |
-| [[Settlements/Rules System/Second Draft/Rule Cards/V2-322 - Cover Me\|V2-322 · Cover Me]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-323 - Speed Loader\|V2-323 · Speed Loader]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-324 - Ambush\|V2-324 · Ambush]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-325 - Incapacitate\|V2-325 · Incapacitate]] |  |
