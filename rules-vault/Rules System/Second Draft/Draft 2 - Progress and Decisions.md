@@ -35,6 +35,16 @@ These user rulings supersede the earlier Core self-Recover text. Replacement ski
 - [x] Apply Ross's single-carrier choice: half-speed ordinary carrying; remove coordinated two-carrier movement; preserve the specific Strong Arm skill.
 - [x] Record integration choices in [[design-007 Whole-unit activations and weapon hands]].
 
+## Rulebook outline review — 2026-10-18
+
+- [x] Review Ross's new outline and map all twenty-four current chapters into a proposed thirteen-chapter reader-facing structure; see [[Settlements Rulebook Outline - Review and Proposed Structure]].
+- [x] Record the confirmed six-objective cap and diameters: one to three objectives use six-inch circles; four to six use three-inch circles. Objective examples remain exploratory; see [[design-009 Rulebook outline and objective direction]].
+- [ ] Review the proposed structure, objective-area/contact interpretation and ambiguous initiative/withdrawal timing before fleshing out the outline.
+- [ ] Integrate the confirmed objective direction into the manuscript, setup, generator, review table and quick reference after resolving those details.
+- [ ] Migrate rule text and links into the accepted book structure while preserving review IDs and user Notes.
+
+The existing manuscript and annotated review table remain unchanged by this outline review. Resource-focused secondaries and the proposed note/section assembly are recommendations, not adopted mechanics.
+
 ## Consequential proposed decisions
 
 One Wound for all humans; one own attack and one reaction per round; three-die attack ceiling; no Stress penalty to Injury; simultaneous ordinary shooting for Return Fire; forty skills with no free attack chains; utility-only drones; physical Claim; ten injury outcomes; modest winner income; full rating for advances and discounted gear. See the audit for reasons and provenance.

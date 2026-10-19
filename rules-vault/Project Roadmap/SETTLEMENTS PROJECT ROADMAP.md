@@ -24,6 +24,8 @@ Updated 2026-10-18. Rules authority: [[Settlements Rules System Version 2]]. Det
 - [x] Create [[Settlements Rules System Version 2 - Rules and Mechanics Review|the concise rules review table]] with source links and editable feedback cells.
 - [x] Resolve ordinary carrying as one carrier at half speed; remove the joint activation exception and preserve annotated table IDs.
 - [ ] Review the proposed changes with Ross.
+- [x] Assess Ross's new rulebook outline and record objective-count/diameter direction; see [[Settlements Rulebook Outline - Review and Proposed Structure]].
+- [ ] Settle outline integration choices, reorganize the book and propagate the objective changes; preserve annotated review rows.
 - [ ] Test complete battles, timing and learning without the author.
 - [ ] Test economy, recovery and veteran rosters across repeated two-player games.
 - [ ] Calibrate costs from current evidence.

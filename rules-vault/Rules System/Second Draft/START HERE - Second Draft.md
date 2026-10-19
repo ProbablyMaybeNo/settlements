@@ -2,6 +2,8 @@
 
 Start with [[Settlements Rules System Version 2]] — the complete proposed rulebook manuscript written from Ross's October 17 tenets and answers.
 
+**Latest outline review:** [[Settlements Rulebook Outline - Review and Proposed Structure]] assesses Ross's new rulebook outline, maps the current chapters to proposed homes, and records the clarified objective limit/sizes. The structure is for discussion; full rule text has not yet been migrated.
+
 - [[Settlements Rules System Version 2 - Rules and Mechanics Review]] — 453 concise entries with categories, tags, source links and an editable Notes column.
 - [[Settlements Rules System Version 2 - Index]] — direct links to every chapter and subsection; also available at the top of the master note.
 - [[Draft 2 - Battle Quick Reference]] — core battle procedures; four-page A4 PDF linked inside.
