@@ -33,7 +33,7 @@ Higher d20 chooses first player; ties favour last round's second player; reroll 
 
 ## Rule text
 
-Each player rolls a d20; higher chooses who takes the first turn this round, with ties favouring the player who did not take the first turn last round. Reroll a round-1 tie.
+Each player rolls a d20 and subtracts 1 from the result for each Broken fighter in their own crew. The player with the higher result chooses who takes the first turn this round. Ties favour the player who did not take the first turn last round. Reroll ties in round one.
 
 ^text-s017-b001
 
