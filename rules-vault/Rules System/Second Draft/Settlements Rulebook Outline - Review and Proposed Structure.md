@@ -1,83 +1,55 @@
 ---
 type: rulebook-outline-review
 created: 2026-10-18
-status: Proposed structure for discussion; rule text has not been migrated
+status: Structure revised to Ross follow-up; full rule text migration pending
 ---
 # Settlements Rulebook Outline — Review and Proposed Structure
 
-Your outline provides a sound reading order: understand the game, fight a battle, then learn how crews and settlements develop. Keep that order and its thirteen chapters. The main work is giving every existing mechanic a clear home inside those chapters, reducing repeated explanations, and resolving a few timing and objective details before moving the text.
+Ross's follow-up clarifies the reading order: a creator's introduction and setting, the basics, a concise picture of the whole game, then complete battle and settlement procedures. Keep the thirteen chapters. The shared battle rules belong under **Fighting Battles → Battle Overview**, with clear subheadings.
 
-This review compares Ross's supplied outline and follow-up messages with [[Settlements Rules System Version 2]]. The new outline takes precedence where it gives a definite direction. Its exploratory mission examples and possible faction benefits remain ideas. The current manuscript and annotated [[Settlements Rules System Version 2 - Rules and Mechanics Review|453-entry review table]] have not been rewritten or reorganized by this review.
+This note records the clarified structure and maps the current manuscript into it. It is an outline, not the completed full-text migration. The manuscript and annotated [[Settlements Rules System Version 2 - Rules and Mechanics Review|453-entry review table]] remain intact. [[design-009 Rulebook outline and objective direction]] records the user directions and deferred work.
 
-## Changes I recommend before drafting
+## Confirmed reading sequence
 
-1. **Give each introductory chapter a distinct job.** Introduction explains the world and appeal; Core Mechanics teaches vocabulary and resolution; Playing the Game gives a short guided overview. Fighting Battles holds the full procedures. Do not repeat the entire action system in three places.
-2. **Add explicit homes for the missing battle procedures.** Round sequence, activations, action costs, READY and reactions need full subsections. So do facing/LOS/cover, stealth, physical interactions, objective interactions, and casualty rescue/looting/capture.
-3. **Keep terrain prominent, but introduce its detailed catalogue after the common interaction rules.** Board Setup still explains functional terrain and what the table needs. Later, the terrain catalogue explains each feature using procedures the reader already knows. This avoids putting twenty feature descriptions between setup and learning a turn.
-4. **Separate battlefield casualties from lasting injuries.** Fighting Battles covers Pinned, Down, Unconscious, treatment, looting and evacuation. The Crew contains lasting injuries, captivity and advancement. The Settlement Round tells players when to resolve them.
-5. **Teach the shared objective actions once.** Fighting Battles defines Control, Claim, Retrieve, Work, Escort and sabotage. Scenarios combines those procedures into missions, victory conditions and rewards.
-6. **Place examples beside the rule they explain.** Keep the founding example with crew/settlement creation, reaction examples with reactions, and casualty timing with Down. Add roster sheets and the compact reference at the back.
+1. **Introduction:** creator's brief why/what/how; setting, lore and backstory; what players need; hints at persistent crews/settlements, the regional map and companion app; finish with a short account of the tenets and battle experience.
+2. **Core Mechanics:** teach the basics of reading a unit card, taking tests, using tokens, measuring and understanding terminology.
+3. **Playing the Game:** a concise overview of all aspects of Settlements and how they fit together, before the detailed rules.
+4. **Fighting Battles:** begin with Battle Overview, including the common procedures. The subsequent sections explain setup, terrain, movement, combat and other specialised rules.
 
-Crew, Equipment and Skills can remain after Scenarios as you proposed. Playing the Game should point to them and provide a ready-to-use starter roster so a first-time reader can learn a battle without designing a crew first.
+The only editorial refinement is to start Battle Overview with a short step-by-step sequence, then put its full shared procedures under named subheadings. It should be easy to read in order and to look up during play. The Introduction's final tenets overview explains the intended experience; it does not repeat the Core Mechanics lesson.
 
-## Objectives: confirmed direction and recommended implementation
+## Objectives — confirmed boundary
 
-### Your confirmed limit and sizes
+Battles have a **primary objective and a secondary objective**. Ross will supply their specifics. Leave the corresponding scenario sections as placeholders; do not develop mission lists, generators, scoring schedules, reward schemes or extra objective edge cases during this drafting pass. Existing generator content can be preserved as earlier draft material without treating it as the accepted scenario design.
 
-| Number of objectives on the board | Diameter of each objective |
+| Objectives on the board | Diameter of each control area |
 | --- | --- |
 | 1–3 | 6 inches |
 | 4–6 | 3 inches |
 
-**There must never be more than six objectives on the board.** This is the shared board limit, not six per crew. The specific objective examples in the original outline were brainstorming, not an approved mission list. Your later clarification retains the idea of crews going out to obtain something their settlement needs.
+The maximum is **six objectives on the board**. **The objective's diameter is its entire control area; there is no additional control distance outside it.** This is now a confirmed direction, not a recommendation awaiting agreement. These instructions supersede the manuscript's existing extra-distance approach when the text is integrated.
 
-These directions are recorded in [[design-009 Rulebook outline and objective direction]]. Their integration into the playing rules is still pending this outline review.
+The specific missions in the supplied outline were brainstorming. The settlement-needs idea remains available for Ross's later scenario writing; it is not assigned to primary or secondary objectives here.
 
-### Make the circle the objective area
+## Rulebook, cheat sheet and app
 
-**Recommendation, not yet a confirmed ruling:** the 3-inch or 6-inch circle is the control area. Do not add the current 2-inch control distance outside it. Otherwise a 6-inch marker has a 10-inch-wide control footprint, and a 3-inch marker has a 7-inch-wide footprint.
+Ross confirms that players will also have a battle cheat sheet and the companion app. Give these three surfaces distinct jobs:
 
-Keep the distinction between an **area to control** and a **physical point to operate**. A crate, terminal, charge or other clearly marked point inside the area can require contact for Claim, Retrieve or Work. A portable item uses a small carried token after pickup; a fighter does not carry a 6-inch disc around the board. The exact base-overlap/contact wording needs to be stated once when these rules are integrated.
+- **Rulebook:** teach the game, explain procedures and exceptions, and provide complete reference text.
+- **Battle cheat sheet:** provide the information needed to run a battle at the table, arranged in play order: setup, round sequence, action costs, reactions, movement/visibility, combat, modifiers, conditions/casualties, interactions and End Phase. Unit-specific stats and equipment should be easy to find on the associated roster/cards or in the app.
+- **Companion app:** searchable full rules and convenient crew/settlement records, as planned for the product. No app implementation is implied by this outline.
 
-I recommend choosing sizes from the total objective count at setup and keeping those sizes for the whole battle. Retrieving or completing an objective should not resize everything left on the table. Count any separate secondary-objective site toward the same six-site limit; controls used to reach an existing objective are supporting terrain, not additional objective sites. This counting interpretation and the area/contact distinction are proposals for review.
+Use the same terms and rule sources throughout. Audit the existing [[Draft 2 - Battle Quick Reference]] against the finished rulebook rather than assuming it already covers every revised rule. The earlier goal of one or at most two double-sided A4 sheets remains a layout target, not a demonstrated completeness claim. The cheat sheet supports lookup; Battle Overview can still explain the shared rules properly.
 
-Placement distances also need checking against the larger footprints. The existing generator's marker-spacing instructions cannot simply be copied without specifying whether distances are measured between centres or edges.
+## Existing editorial details to carry into drafting
 
-### Settlement needs as secondary objectives
-
-**Recommendation:** use a shared primary objective to determine the main contest, and let each crew pursue a settlement need as its secondary objective. One crew may need medical supplies while the other needs replacement parts. Both can gain something useful even when only one wins the battle.
-
-Use the same need as a primary mission when both crews want the same scarce resource, or when recovering it is the entire reason for the encounter. “Find what we need” therefore works at either scale; it does not need a separate subsystem.
-
-| Layer | Question it answers | Illustrative example only |
+| Topic | Current state | Treatment |
 | --- | --- | --- |
-| Location | Where are we fighting, and what terrain belongs here? | An abandoned maintenance depot |
-| Primary objective | What decides the main battle? | Control access to the depot |
-| Crew secondary | What does this settlement want to bring home? | Recover medical supplies or replacement parts |
-| Interactive terrain | What tactical choices enable or obstruct that task? | Open a shutter, move a lift, or restore a control panel |
-| Reward | What does completing the task actually earn? | A listed supply item, Materials, or a specified service benefit |
-
-For example, a crew seeking medicine could open a shutter, Retrieve supplies from an existing cabinet and extract them. That uses existing operations and movement; it does not need a new searching minigame, medical currency or recurring upkeep track. The cabinet can be part of an already designated objective site, avoiding an extra objective marker.
-
-Before setup, agree the available secondary tasks and required terrain. Do not make a selected task impossible because its cabinet, control or exit was never placed. If both crews want the same physical supply, define one shared source and who actually recovered it; do not award two copies accidentally.
-
-Keep rewards tied to completed tasks rather than giving every scavenging reward automatically to the overall winner. Preserve a participation/recovery floor so repeated losses do not stop one settlement playing. The current income amounts are provisional, and this review does not set new payouts. Any recovered equipment still counts at its normal Credits value when fielded.
-
-The ten-entry tables can offer ten mission variations using a small set of shared procedures. They do not require ten new objective mechanics. Players should be able to choose a needed reward instead of rolling away the purpose of their expedition.
-
-## Differences and decisions to resolve during integration
-
-| Topic | Current manuscript | Your outline or follow-up | Recommendation |
-| --- | --- | --- | --- |
-| Objective footprint | Control within 2 inches; physical actions in contact | Maximum six; 1–3 use 6-inch diameter, 4–6 use 3-inch diameter | Apply your sizes; use the discs as control areas and explicit contact points for physical tasks. Area/contact details still need agreement. |
-| Initiative timing | Roll in the Start Phase of every round | Next-round initiative appears in the End Phase | This may be outline shorthand. I favour keeping the actual roll at the start of the round it governs. If you intended the move, roll first-round initiative after deployment and subsequent initiative once at the preceding End Phase, only if another round will happen. Check Signal Plan timing too. |
-| Voluntary crew withdrawal | Allowed at the start of any own turn | Choosing to flee appears in the End Phase | I favour retaining the existing timing and reminding players at round end. End-Phase-only withdrawal would be a real restriction. Individual Bolting/Bugging Out remains a different mechanic. |
-| End Phase order | Timed effects, Down timers, Break/Rally, scoring/expiry, end check | Lists Nerve tests before checking Down | Use one numbered procedure, not an unordered checklist. Retain the current casualty-before-morale order unless you intended a change; explain Break versus Rally and avoid testing someone twice. |
-| Objective placement | Terrain and objectives are established before roster reveal and fighter deployment | Deployment heading also mentions adding objectives | Finish objective locations and required terrain before deploying fighters. The heading alone need not change this timing. |
-| Scenario generator | Four primary types and four secondaries, selected by players | Ten-entry component tables and resource-focused mission ideas | Expand the mission combinations, with reward-focused secondaries as the proposed starting point. Your examples remain a candidate pool. |
-| Extra secondary markers | Recover supplies adds a central cargo marker | Secondaries should avoid adding markers | Put supplies in an existing objective site or designated terrain feature; enforce the shared cap if a separate site is necessary. |
-| Factions and regional play | Setting/faction/campaign placeholders; no automatic faction bonuses | App allegiance, regional map and possible subtle bonuses | Reserve your chapters. Label future app/world functions and optional faction effects accurately; do not invent bonuses during a structural migration. |
-| Physical templates | Components mentions 8-inch flamer and 6-/3-inch blasts; detailed attacks use 2-inch-radius blasts and 3-inch-diameter smoke/fire | Tokens/templates have a clear home but no new attack sizes | Existing unresolved discrepancy. Keep it visible; objective-disc sizes do not resolve attack-template sizes. |
+| Initiative and withdrawal timing | The manuscript rolls initiative at round start and allows crew withdrawal at the start of an own turn; the original outline lists these topics in End Phase. | No explicit follow-up changes their timing. Keep this distinction visible during migration without blocking the agreed chapter structure. |
+| Injury and End Phase | Immediate combat outcomes and timed checks already have distinct jobs. | Injuries/Resolving Combat explains the states and immediate effects. End Phase runs the scheduled checks. Lasting injuries and recovery remain with crew/post-battle procedures. |
+| Primary and secondary objectives | Earlier manuscript includes detailed objective/generator proposals. | Ross will write the specifics. Preserve earlier material as reference when moving it out of active scenario text; leave placeholders in the new book. |
+| Factions and regional play | Future product/setting content, with possible faction effects only suggested. | Reserve the chapters; do not manufacture bonuses or claim app functions already exist. |
+| Attack templates | Components and detailed attacks still give different suggested template dimensions. | Keep the existing discrepancy flagged for integration. The confirmed objective diameters do not choose attack-template sizes. |
 
 Your outline does not overturn whole-fighter activations with Move and Core in either order, two-hand weapon capacity, single-carrier movement, the Pinned hit modifiers, or the current test/combat procedures. Reorganizing them should preserve those rules unless a specific new instruction changes them.
 
@@ -87,18 +59,24 @@ The headings below are the proposed book hierarchy. The short lines name the mec
 
 ### 1. Introduction
 
-#### 1.1 The World of Settlements
-Setting, lore, ordinary people, and the game's premise. **Setting text placeholder.**
+#### 1.1 From the Creator
+A brief why, what and how: why Settlements exists, what experience it aims to offer, and how to approach it. **Creator's introduction placeholder.**
 
-#### 1.2 A Living Community
-Brief introduction to persistent settlements, the companion app and the player community; point to Chapters 11–13 for detail.
+#### 1.2 The Setting
+Introduce the lore, set the scene and provide enough backstory to understand the world. **Setting text placeholder.**
 
-#### 1.3 Getting Started
-What players need; miniatures, board, dice, measuring tools, records and a route to the first game.
+#### 1.3 What You Need to Play
+Miniatures, board and terrain, dice, tokens, measuring tape and records; a practical heads-up before the detailed explanations.
+
+#### 1.4 Beyond a Single Battle
+Hint at persistent crews and settlements across all games, the regional map and companion app. Later chapters provide the detail.
+
+#### 1.5 The Game You Will Play
+A concise version of the tenets: simple rules with complex outcomes, ordinary fragile people, fast and bloody tactical battles, important interactive terrain, and an evolving crew/settlement. Explain the intended experience rather than teach every procedure.
 
 ### 2. Core Mechanics
 
-#### 2.1 Fighters, Stats and Ranks
+#### 2.1 Reading Your Unit Card
 STR, DEX, AGI, INT, NRV, MOVE, Wounds and Armour; profile reading and an overview of training grades.
 
 #### 2.2 Dice and Tests
@@ -118,6 +96,8 @@ Short vocabulary overview; one Move and one Core during a whole-fighter activati
 
 ### 3. Playing the Game
 
+Keep this chapter concise: show how the whole game fits together before the reader learns its detailed procedures.
+
 #### 3.1 Your Crew and Settlement
 Persistence without a campaign; Settlement Roster versus Battle Roster.
 
@@ -136,81 +116,88 @@ Start Phase, alternating activations, reactions, End Phase and standard battle l
 #### 3.6 After the Battle
 Casualties, rewards, advancement and the Settlement Round overview.
 
-#### 3.7 Your First Game
-Starter-roster example and pointers to a suitable starter scenario. Authored scenario content remains to be written.
-
 ### 4. Fighting Battles
 
-#### 4.1 Preparing to Fight
-Complete setup sequence; select a scenario, agree rating and scenario exceptions, establish the table, reveal rosters and preparations.
+#### 4.1 Battle Overview
 
-#### 4.2 Setting Up the Board
-Density, covered routes, elevations, interactive-feature requirements, objective areas, control links, starting states and accessible approaches.
+##### 4.1.1 The Battle Sequence
+Start with a short step-by-step route through preparing, setting up, fighting and resolving a battle. Point to the detailed sections that follow.
 
-#### 4.3 Deployment
+##### 4.1.2 Rounds, Turns and Phases
+Start/reset steps, alternating turns, round structure, Pass allocation and transitions. The Initiative and End Phase subsections contain their dedicated procedures.
+
+##### 4.1.3 Activations and Actions
+Eligibility; one Move and one Core in either order during a whole-fighter activation; Both actions; action menu; forfeiting; attack allowances; remaining slots; passing and ending activations.
+
+##### 4.1.4 READY and Reactions
+Ready tokens, eligibility, declaration windows, one-reactor limits, Shoot, Return Fire, Dive, Operate and skill exceptions; interruption outcomes.
+
+##### 4.1.5 Visibility, Cover and Stealth
+180-degree facing arcs, LOS, model volume, light/heavy cover, elevation, Hidden, revealing, Observe and Marked interactions.
+
+##### 4.1.6 Ordinary Interactions and Objectives
+The shared Interact procedure, physical controls and appropriate tests; establish that battles have primary and secondary objectives. Record only confirmed objective-area conventions. Detailed objective types, scoring and mission instructions remain for Ross. Ground the later terrain/hacking sections in these common procedures.
+
+#### 4.2 Selecting a Scenario
+Choose the battle's scenario; agree Crew Rating and any stated format changes. The Scenarios chapter holds Ross's mission content.
+
+#### 4.3 Board Setup
+Terrain density, covered routes, elevations, functional features, agreed representations, control links, starting states and accessible approaches. Use the shared rules already introduced in Battle Overview.
+
+#### 4.4 Interactive Terrain
+Feature-card format; moving terrain and safety rules; Displace, Crush and other hazards; route/access features, cover/visibility features and utilities. Place the existing feature catalogue here and link to movement/falling where needed.
+
+#### 4.5 Deployment
 Zone selection, alternating placement, legal starting positions, declared reserves and pre-battle effects such as Route Map.
 
-#### 4.4 Round Sequence and Initiative
-Start/reset steps, initiative and ties, who chooses first, Pass allocation and the transition into activations. Resolve the timing question before drafting.
-
-#### 4.5 Activations and Actions
-Eligibility; Move and Core in either order; Both actions; action menu; forfeiting; attack allowances; remaining slots; passing and ending activations.
-
-#### 4.6 READY and Reactions
-Ready tokens, eligibility, visibility, declaration windows, one-reactor limits, Shoot, Return Fire, Dive, Operate and skill exceptions; interruption outcomes.
+#### 4.6 Initiative
+How to roll, ties, applicable effects and the winner choosing who goes first. Keep timing consistent with the round sequence.
 
 #### 4.7 Movement
 Ordinary movement, facing changes, Dash, Charge movement, climbing, jumping, falling, forced movement, carrying, engagement and Disengage.
 
-#### 4.8 Visibility, Cover and Stealth
-180-degree arcs, LOS, model volume, light/heavy cover, elevation, Hidden, revealing, Observe and Marked interactions.
-
-#### 4.9 Close Combat
+#### 4.8 Close Combat
 Engagement requirements, melee attack pools, opposed results, defender participation, rear/Unanswered attacks, Sidearms, Shove and Grapple.
 
-#### 4.10 Ranged Combat
+#### 4.9 Ranged Combat
 Target legality, range, shooting tests, Aim, cover and Pinned modifiers, multiple weapons, shooting into engagements, attacks using templates and ammunition/reload procedures.
 
-#### 4.11 Hits, Injuries and Casualties
-Hit-to-Injury resolution, Armour and Damage, failed Injury/Stress, Pinned and Recover, Down and Unconscious, timers, Treat/self-treatment, attacks against casualties, Loot, Secure, capture and evacuation. Cross-reference carrying rather than writing it twice.
+#### 4.10 Hacking
+Terminals, connected terrain, portable hacking, interference, Repair and sabotage. Refer to the ordinary interaction rules in Battle Overview; a normal button does not automatically require hacking.
 
-#### 4.12 Stress and Morale
-Stress sources/cap/penalties, witness events, Break, Broken, Bolting, Bugging Out, Rally and individual flight. Explain whole-crew withdrawal separately.
-
-#### 4.13 Interactions and Hacking
-Shared Interact procedure; manual controls, STR/DEX tasks, terminals, connected terrain, portable hacking, interference, Repair, sabotage and improvised actions. Ordinary buttons do not automatically require a Hack test.
-
-#### 4.14 Interactive Terrain
-Feature-card format; movement and safety rules; Displace, Crush and other hazards; route/access features, cover/visibility features and utilities. Place all twenty existing feature entries here.
-
-#### 4.15 Deployables and Drones
+#### 4.11 Deployables and Drones
 Placement and arming, triggers, visibility, disarming, Offline/Destroyed states, repair during battle, drone movement/operation and operator restrictions. Item profiles and costs live in Equipment.
 
-#### 4.16 Objectives During Play
-Control and contesting, Claim, Retrieve and carrying mission objects, Work/progress, Escort, sabotage and extraction. Apply the confirmed size/cap direction after resolving the area/contact details.
+#### 4.12 Injuries and Resolving Combat
+Hit-to-Injury resolution, Armour and Damage, failed Injury/Stress, Pinned and Recover, Down and Unconscious, casualty timers, Treat/self-treatment, attacks against casualties, Loot, Secure, capture and evacuation. Explain immediate outcomes here; End Phase applies the scheduled checks. Cross-reference carrying rather than duplicating it.
 
-#### 4.17 The End Phase
-One ordered procedure for timed effects, casualty timers, Break/Rally, scoring, expiry, scenario events and end checks. Include the chosen initiative/withdrawal timing consistently.
+#### 4.13 Stress and Morale
+Stress sources/cap/penalties, witness events, Break, Broken, Bolting, Bugging Out, Rally and individual flight. Distinguish whole-crew withdrawal.
 
-#### 4.18 Ending the Battle
-Victory/draw, voluntary withdrawal, extraction and ownership records, returning fighters and equipment, identifying injury rolls and handing off to the Settlement Round. No free cleanup attacks or loot collection.
+#### 4.14 End Phase
+One ordered procedure for timed effects, casualty checks, Break/Rally, scoring when the scenario calls for it, expiry, scenario events and battle-end checks. Refer to the condition rules instead of rewriting them.
+
+#### 4.15 Ending the Battle
+Victory/draw as defined by the scenario, voluntary withdrawal, ownership records, returning fighters and equipment, identifying injury rolls and handing off to the Settlement Round. No new mission scoring or reward design in this pass.
 
 ### 5. Scenarios
 
-#### 5.1 Reading a Scenario
-Deployment, terrain, objectives, eligible actors, scoring, end conditions, rewards and exceptions; no-kill routes to success.
+Battles use a primary objective and a secondary objective. **Ross will write the specifics below.** Preserve these homes without filling them with assistant-designed missions or treating earlier brainstorming as settled rules.
+
+#### 5.1 Using a Scenario
+**Placeholder for Ross:** how to read and choose a scenario.
 
 #### 5.2 Primary Objectives
-Mission-specific placement, control/work/retrieval requirements, victory scoring, attacker/defender differences and the shared objective cap.
+**Placeholder for Ross.**
 
-#### 5.3 Secondary Objectives and Settlement Needs
-Side tasks, interactive terrain, wanted supplies, completion, extraction and rewards. Exact mission list and values remain to be designed.
+#### 5.3 Secondary Objectives
+**Placeholder for Ross.**
 
-#### 5.4 Building a Scenario
-Ten-entry component tables for locations and objective variations; required terrain and compatible combinations. Resource focus can be selected deliberately. Reuse Chapter 4's objective procedures.
+#### 5.4 Scenario Generator
+**Placeholder for Ross:** reserved from the original outline; no tables, combinations or rewards to develop in this pass.
 
-#### 5.5 Ready-to-Play Scenarios
-Basic, advanced and linked scenarios. **Authored content placeholders.**
+#### 5.5 Ready-to-Play and Linked Scenarios
+**Authored scenario placeholders for Ross.**
 
 ### 6. The Crew
 
@@ -351,26 +338,26 @@ This chapter-level check accounts for all twenty-four current chapters. It is a 
 | --- | --- |
 | [[Settlements Rules System Version 2#1 Introduction and the world\|1 Introduction and the world]] | 1; persistent-play overview in 3; setting/community detail in 11–13 |
 | [[Settlements Rules System Version 2#2 What you need and how to read the rules\|2 Components and conventions]] | 1.3, 2 and 3.3 |
-| [[Settlements Rules System Version 2#3 Fighters and tests\|3 Fighters and tests]] | 2; full combat procedures in 4 |
+| [[Settlements Rules System Version 2#3 Fighters and tests\|3 Fighters and tests]] | 2; full shared battle procedures in 4.1 |
 | [[Settlements Rules System Version 2#4 Building and equipping a crew\|4 Crew building]] | 6 |
-| [[Settlements Rules System Version 2#5 Preparing the battlefield\|5 Battlefield preparation]] | 4.1–4.3; cover in 4.8 |
-| [[Settlements Rules System Version 2#6 Rounds actions and reactions\|6 Rounds and actions]] | 4.4–4.6 and 4.17 |
-| [[Settlements Rules System Version 2#7 Movement facing and visibility\|7 Movement and visibility]] | 4.7–4.8 |
-| [[Settlements Rules System Version 2#8 Shooting and close combat\|8 Combat]] | 4.9–4.10 |
-| [[Settlements Rules System Version 2#9 Injury casualties and rescue\|9 Casualties and rescue]] | 4.11 |
-| [[Settlements Rules System Version 2#10 Stress and morale\|10 Stress and morale]] | 4.12; crew withdrawal in 4.18 |
-| [[Settlements Rules System Version 2#11 Stealth and observation\|11 Stealth]] | 4.8 |
-| [[Settlements Rules System Version 2#12 Interaction hacking and improvised actions\|12 Interactions]] | 4.13 |
-| [[Settlements Rules System Version 2#13 Interactive terrain catalogue\|13 Terrain catalogue]] | 4.14 |
-| [[Settlements Rules System Version 2#14 Deployables and drones\|14 Devices]] | Procedures in 4.15; profiles in 7.5 |
-| [[Settlements Rules System Version 2#15 Weapons armour and equipment\|15 Equipment]] | 7; shared attack-template procedures in 4.10 |
+| [[Settlements Rules System Version 2#5 Preparing the battlefield\|5 Battlefield preparation]] | 4.2–4.5; cover in 4.1.5 |
+| [[Settlements Rules System Version 2#6 Rounds actions and reactions\|6 Rounds and actions]] | 4.1.2–4.1.4, 4.6 and 4.14 |
+| [[Settlements Rules System Version 2#7 Movement facing and visibility\|7 Movement and visibility]] | 4.7 and 4.1.5 |
+| [[Settlements Rules System Version 2#8 Shooting and close combat\|8 Combat]] | 4.8–4.9 |
+| [[Settlements Rules System Version 2#9 Injury casualties and rescue\|9 Casualties and rescue]] | 4.12 |
+| [[Settlements Rules System Version 2#10 Stress and morale\|10 Stress and morale]] | 4.13; crew withdrawal in 4.15 |
+| [[Settlements Rules System Version 2#11 Stealth and observation\|11 Stealth]] | 4.1.5 |
+| [[Settlements Rules System Version 2#12 Interaction hacking and improvised actions\|12 Interactions]] | Common procedures in 4.1.6; hacking specifics in 4.10 |
+| [[Settlements Rules System Version 2#13 Interactive terrain catalogue\|13 Terrain catalogue]] | 4.4 |
+| [[Settlements Rules System Version 2#14 Deployables and drones\|14 Devices]] | Procedures in 4.11; profiles in 7.5 |
+| [[Settlements Rules System Version 2#15 Weapons armour and equipment\|15 Equipment]] | 7; shared attack-template procedures in 4.9 |
 | [[Settlements Rules System Version 2#16 Skills\|16 Skills]] | 8 |
-| [[Settlements Rules System Version 2#17 Objectives and building a mission\|17 Objectives and missions]] | Shared procedures in 4.16; mission construction in 5 |
-| [[Settlements Rules System Version 2#18 Ending a battle and lasting injuries\|18 Battle end and injuries]] | 4.18; injuries/prisoners in 6; payouts in 10 |
+| [[Settlements Rules System Version 2#17 Objectives and building a mission\|17 Objectives and missions]] | Confirmed conventions in 4.1.6; Chapter 5 placeholders for Ross. Preserve earlier detailed proposals as reference. |
+| [[Settlements Rules System Version 2#18 Ending a battle and lasting injuries\|18 Battle end and injuries]] | 4.15; injuries/prisoners in 6; existing payouts in 10 |
 | [[Settlements Rules System Version 2#19 Experience and advancement\|19 Advancement]] | 6.6 |
 | [[Settlements Rules System Version 2#20 Founding and running a settlement\|20 Settlement management]] | 9; ordered cycle in 10 |
 | [[Settlements Rules System Version 2#21 Settlement structures\|21 Structures]] | 9; carried preparation profiles in 7.6 |
-| [[Settlements Rules System Version 2#22 Worked examples\|22 Examples]] | Beside the relevant rule, including the first-game guide |
+| [[Settlements Rules System Version 2#22 Worked examples\|22 Examples]] | Beside the relevant full rule; do not expand the concise Playing the Game overview |
 | [[Settlements Rules System Version 2#23 Roster sheets and reference\|23 Records and reference]] | 6.7, 9.2 and supporting reference pages |
 | [[Settlements Rules System Version 2#24 Campaign and scenario content\|24 Content placeholders]] | 5, 11–13 and relevant setting placeholders |
 
@@ -378,7 +365,7 @@ This chapter-level check accounts for all twenty-four current chapters. It is a 
 
 Use one canonical note for each coherent mechanic or rule family, section notes that display those mechanics under the book's actual subheadings, and a complete-book note that assembles the sections in reading order.
 
-For example: **Fighting Battles → Hits, Injuries and Casualties → Pinned and Recover**. The section should show the full Pinned/Recover text through an embed, not merely offer a link that makes the reader leave the chapter. A short index can provide links separately.
+For example: **Fighting Battles → Injuries and Resolving Combat → Pinned and Recover**. The section should show the full Pinned/Recover text through an embed, not merely offer a link that makes the reader leave the chapter. A short index can provide links separately.
 
 Do not equate 453 review-table rows with 453 necessary notes. Some rows are a restriction, modifier or catalogue entry belonging to a larger rule. Keep tightly coupled rules together; do not separate an exception from the rule needed to understand it. Skills, items and terrain can have individual records where that helps editing/filtering, while their chapter view remains a readable catalogue.
 
@@ -388,10 +375,13 @@ Keep tags, stable IDs, review status and Fibery fields in metadata or the design
 
 ## Next drafting pass
 
-- [x] Review Ross's supplied outline and clarified objective direction against the current manuscript.
-- [x] Propose chapter/subsection homes covering all twenty-four existing chapters.
-- [ ] Settle the proposed structure, objective-area/contact interpretation, and whether the listed initiative/withdrawal placements intended timing changes.
-- [ ] Reorganize existing rule text into the accepted hierarchy, preserving annotations and confirmed rulings.
-- [ ] Integrate the objective count/diameter rule and selected scenario approach throughout setup, procedures, generator, review table and reference material.
-- [ ] Draft missing rules only where authorized; keep exploratory mission examples, faction effects and future app systems identified as proposals or placeholders.
-- [ ] Check links, catalogue coverage, timing, examples and assembled-book readability. These checks will not establish balance or playtest results.
+- [x] Review Ross's outline and map all twenty-four existing chapters to homes or explicitly deferred reference material.
+- [x] Record the clarified Introduction → Core Mechanics → Playing the Game → Fighting Battles reading sequence.
+- [x] Place shared procedures under Battle Overview and terrain detail after that groundwork.
+- [x] Confirm objective diameter as the full control area, with no additional inches; retain the six-objective cap and two sizes.
+- [x] Reserve primary/secondary objective specifics and scenario writing for Ross.
+- [x] Record the complementary roles of the rulebook, battle cheat sheet and companion app.
+- [ ] Assemble the existing rule text into this hierarchy, preserving review IDs, Notes and confirmed rulings.
+- [ ] Integrate the confirmed objective-area conventions while leaving detailed scenario content as placeholders.
+- [ ] Review the cheat sheet against the assembled book, propagate wording and verify battle-procedure coverage within the page target.
+- [ ] Check links, catalogue coverage, timing, examples and assembled-book readability. This will not establish balance or playtest results.

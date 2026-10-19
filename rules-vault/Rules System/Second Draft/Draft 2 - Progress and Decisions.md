@@ -37,13 +37,17 @@ These user rulings supersede the earlier Core self-Recover text. Replacement ski
 
 ## Rulebook outline review — 2026-10-18
 
-- [x] Review Ross's new outline and map all twenty-four current chapters into a proposed thirteen-chapter reader-facing structure; see [[Settlements Rulebook Outline - Review and Proposed Structure]].
-- [x] Record the confirmed six-objective cap and diameters: one to three objectives use six-inch circles; four to six use three-inch circles. Objective examples remain exploratory; see [[design-009 Rulebook outline and objective direction]].
-- [ ] Review the proposed structure, objective-area/contact interpretation and ambiguous initiative/withdrawal timing before fleshing out the outline.
-- [ ] Integrate the confirmed objective direction into the manuscript, setup, generator, review table and quick reference after resolving those details.
-- [ ] Migrate rule text and links into the accepted book structure while preserving review IDs and user Notes.
+- [x] Review Ross's outline and map all twenty-four current chapters; see [[Settlements Rulebook Outline - Review and Proposed Structure]].
+- [x] Apply the clarified opening: creator introduction, setting, supplies, persistence/app hints and tenets; then Core Mechanics and a concise Playing the Game overview.
+- [x] Place shared battle procedures beneath Battle Overview, with clear subheadings; retain the roles of Injuries/Resolving Combat and End Phase.
+- [x] Record the six-objective cap and diameters: one to three use six-inch circles; four to six use three-inch circles. The diameter is the entire control area, with no extra inches.
+- [x] Reserve primary/secondary objective specifics and scenario writing for Ross; remove further mission-design recommendations from this pass.
+- [x] Record the battle cheat sheet and companion app as supporting references; see [[design-009 Rulebook outline and objective direction]].
+- [ ] Assemble full rule text into the clarified structure while preserving review IDs and user Notes.
+- [ ] Integrate confirmed objective-area conventions into playing rules and references; preserve earlier scenario proposals separately and leave new scenario content as placeholders.
+- [ ] Audit/update the cheat sheet against the assembled book for battle coverage and consistent wording.
 
-The existing manuscript and annotated review table remain unchanged by this outline review. Resource-focused secondaries and the proposed note/section assembly are recommendations, not adopted mechanics.
+These follow-ups update the outline and design records. The manuscript and annotated review table remain unchanged so far. No revised cheat-sheet completeness, app implementation or new playtest result is claimed.
 
 ## Consequential proposed decisions
 

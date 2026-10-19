@@ -25,7 +25,8 @@ Updated 2026-10-18. Rules authority: [[Settlements Rules System Version 2]]. Det
 - [x] Resolve ordinary carrying as one carrier at half speed; remove the joint activation exception and preserve annotated table IDs.
 - [ ] Review the proposed changes with Ross.
 - [x] Assess Ross's new rulebook outline and record objective-count/diameter direction; see [[Settlements Rulebook Outline - Review and Proposed Structure]].
-- [ ] Settle outline integration choices, reorganize the book and propagate the objective changes; preserve annotated review rows.
+- [x] Record Ross's clarified learning sequence, Battle Overview grouping, objective control areas, author-owned scenario details, and cheat-sheet/app roles.
+- [ ] Assemble the book in that structure, propagate confirmed objective-area wording and audit the cheat sheet; preserve annotated review rows and leave scenario specifics to Ross.
 - [ ] Test complete battles, timing and learning without the author.
 - [ ] Test economy, recovery and veteran rosters across repeated two-player games.
 - [ ] Calibrate costs from current evidence.
