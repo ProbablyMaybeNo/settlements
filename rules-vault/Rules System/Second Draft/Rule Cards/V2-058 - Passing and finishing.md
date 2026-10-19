@@ -11,12 +11,12 @@ tags:
 - settlements/v2
 - activation
 - actions
-- passes
-summary: Use a Pass, or forfeit remaining activations to finish. Opponent continues; reactions remain available.
+summary: Voluntarily forfeit remaining activations to finish. Opponent continues; reactions remain available.
 status: Draft proposal
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
+last_rule_update: 2026-10-19
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Alternating activations]]'
 review_notes: ''
@@ -28,11 +28,11 @@ related_rules:
 
 ## Summary
 
-Use a Pass, or forfeit remaining activations to finish. Opponent continues; reactions remain available.
+Voluntarily forfeit remaining activations to finish. Opponent continues; reactions remain available.
 
 ## Rule text
 
-You may spend a Pass instead of activating. Without a Pass, passing ends your crew's activations for the round: mark all remaining fighters Activated and their slots spent. If one crew has finished, the other completes its activations, still allowing reactions. Once both have finished, resolve the End Phase.
+You may voluntarily end your crew's activations for the round: mark all remaining fighters Activated and their slots spent. If one crew has finished, the other completes its activations, still allowing reactions. Once both have finished, resolve the End Phase.
 
 ^text-s018-b003
 

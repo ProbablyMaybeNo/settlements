@@ -1,6 +1,6 @@
 # Draft 2 Progress and Decisions
 
-Current text owners: [[Rule Cards - Start Here|individual rule cards]]. Reading views: [[Settlements Rulebook - Assembled]] and the compatible [[Settlements Rules System Version 2|master]]. Design record: [[Draft 2 - Design Requirements and Research Audit]]. Updated 2026-10-18.
+Current text owners: [[Rule Cards - Start Here|individual rule cards]]. Reading views: [[Settlements Rulebook - Assembled]] and the compatible [[Settlements Rules System Version 2|master]]. Design record: [[Draft 2 - Design Requirements and Research Audit]]. Updated 2026-10-19.
 
 ## Completed writing work
 
@@ -48,6 +48,15 @@ These user rulings supersede the earlier Core self-Recover text. Replacement ski
 - [ ] Audit/update the cheat sheet against the assembled book for battle coverage and consistent wording.
 
 The individual-card migration is implemented. No app implementation, new playtest result or comprehensive cheat-sheet completeness claim is implied.
+
+## Confirmed follow-up decisions - 2026-10-19
+
+- [x] Clarify [[Rule Cards/V2-056 - Both-cost actions|V2-056 activation commitment]]: once chosen, finish the fighter's activation before the opponent's normal activation. Perform or forfeit each action; forfeited slots are spent for this round, with no later activation of that fighter. Round refresh remains unchanged.
+- [x] Initiative: d20 minus 1 per own Broken fighter; higher result chooses first player; tie rules retained. See [[Rule Cards/V2-053 - Initiative]].
+- [x] Remove V2-054 Balancing Passes from active rules, Start Phase, embeds and card indexes at Ross's explicit direction. No replacement balancing mechanic. Preserve the original card and review row in [[Settlements/Rules System/Archived/Rule retirements - 2026-10-19/README|the dated retirement archive]].
+- [x] Retain voluntary ending of remaining crew activations; the opponent completes its activations with reactions allowed. Reconcile the turn definition, End Phase cleanup, deferred escort exception, battle records and quick reference. Date the five changed rule owners 2026-10-19 (Pacific).
+- [x] Show rule-text revision dates in the complete index listing every card by name, alongside Bases views and the annotated review table. Unknown dates remain blank; housekeeping does not count as a rule revision.
+- [x] Archive the obsolete PDF export, which still contains the removed Pass mechanic. The Markdown battle reference is current; a new printable PDF has not been exported.
 
 ## Individual rule cards and views
 

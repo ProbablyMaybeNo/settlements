@@ -16,6 +16,7 @@ status: Draft proposal
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
+last_rule_update: 2026-10-19
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Common conventions]]'
 review_notes: ''
@@ -36,7 +37,7 @@ Declare choices before rolling; interrupted or impossible actions still spend de
 
 ## Rule text
 
-- **Round:** both crews complete their available activations, then resolve the End Phase. **Turn:** one player activates one fighter, or spends a Pass. **Activation:** that fighter resolves its Move and Core Actions in either order before the opponent activates a fighter. Resolve each action and its reactions fully before beginning the next action.
+- **Round:** both crews complete their available activations, then resolve the End Phase. **Turn:** one player activates one fighter, or voluntarily ends their crew's activations for the round. **Activation:** that fighter resolves its Move and Core Actions in either order before the opponent activates a fighter. Resolve each action and its reactions fully before beginning the next action.
 
 ^text-s004-b000
 

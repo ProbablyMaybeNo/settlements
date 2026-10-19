@@ -2,7 +2,7 @@
 
 ## Current authority
 
-The full text is now owned by the **484 individual notes** in [[Rule Cards - Start Here]]. Shared passages are stored in one card and embedded elsewhere. [[Settlements Rulebook - Assembled]] provides the agreed thirteen-chapter view; [[Settlements Rules System Version 2]] retains older section links as a live reading view. Update the owning text and keep summaries/profile properties consistent; do not create separately edited copies.
+The full text is now owned by the **483 active-library notes** in [[Rule Cards - Start Here]]. Shared passages are stored in one card and embedded elsewhere. [[Settlements Rulebook - Assembled]] provides the agreed thirteen-chapter view; [[Settlements Rules System Version 2]] retains older section links as a live reading view. Update the owning text and keep summaries/profile properties consistent; do not create separately edited copies.
 
 The original 453 review IDs and feedback are preserved. Thirty-one additional entries expose existing named stats, levels, interaction types, deeds and the Heavy keyword, plus the confirmed objective-area directions. Eighteen earlier objective/scenario proposals are marked Deferred; Ross will author the specifics. The archived pre-migration manuscript records the prior state.
 

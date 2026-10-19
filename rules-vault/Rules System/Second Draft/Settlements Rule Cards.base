@@ -17,6 +17,8 @@ properties:
     displayName: Subsection
   summary:
     displayName: Concise rule
+  last_rule_update:
+    displayName: Last updated
   publication:
     displayName: Scope
   review_status:
@@ -41,6 +43,7 @@ views:
   - note.book_section
   - note.book_subsection
   - note.summary
+  - note.last_rule_update
   - note.tags
   - note.publication
   - note.review_status
@@ -50,6 +53,7 @@ views:
   order: &id002
   - file.name
   - note.summary
+  - note.last_rule_update
   - note.entry_type
   - note.book_subsection
   - note.tags

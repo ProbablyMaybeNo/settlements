@@ -1,6 +1,6 @@
 # Settlements Rule Cards
 
-**484 individual notes** now cover the review inventory and the additional named profile/advancement entries found during migration. Every original V2 ID and review-table comment is preserved.
+**483 active-library notes** now cover the review inventory and the additional named profile/advancement entries found during migration. Every original V2 ID and review-table comment is preserved.
 
 Start with [[Settlements/Rules System/Second Draft/Settlements Rule Cards.base|the table and card views]]. Switch between All entries, All cards, book sections, Battle rules, Combat, To-hit bonuses, Armour bonuses, weapons, keywords, skills, equipment/devices, terrain, structures and deferred proposals. The existing Bases core plugin is enabled in this vault; no plugin installation or configuration changes were made.
 
@@ -18,6 +18,8 @@ Full rule text is stored once in the card that owns its block. Other cards and s
 
 `publication: Deferred` identifies earlier objective/scenario proposals reserved for Ross. All entries includes them; Battle rules and the assembled rulebook exclude them. `review_status: Needs review` marks existing unresolved details, including attack templates. Draft proposal does not mean playtested or adopted balance.
 
+The **Last updated** column in the [[Rule Cards - Complete Index|complete card-name index]], table/card views and annotated review table records each owning card's last confirmed rule-text change. It uses `last_rule_update: YYYY-MM-DD` in Pacific time (`America/Los_Angeles`). Blank means unknown or not yet recorded. For an actual rule-text change, update that property, the card's concise summary where needed, and its complete-index date and review-table date/description while preserving feedback. Formatting, metadata, links, indexing and other housekeeping do not advance the date. Do not infer rule revisions from filesystem timestamps. See [[Settlements/Rules System/Second Draft/AGENTS|rule-update maintenance instructions]].
+
 ## Coverage
 
 | Type | Individual cards |
@@ -31,7 +33,7 @@ Full rule text is stored once in the card that owns its block. Other cards and s
 | Interactive terrain | 20 |
 | Lasting injury | 10 |
 | Objective convention | 2 |
-| Rule | 282 |
+| Rule | 281 |
 | Scenario proposal | 8 |
 | Skill | 40 |
 | Stat | 8 |

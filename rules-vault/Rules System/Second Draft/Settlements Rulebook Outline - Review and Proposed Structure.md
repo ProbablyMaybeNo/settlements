@@ -7,7 +7,7 @@ status: Individual cards and chapter views assembled; publication review remains
 
 Ross's follow-up clarifies the reading order: a creator's introduction and setting, the basics, a concise picture of the whole game, then complete battle and settlement procedures. Keep the thirteen chapters. The shared battle rules belong under **Fighting Battles → Battle Overview**, with clear subheadings.
 
-This note records the clarified structure and source mapping. The text is now assembled in [[Settlements Rulebook - Assembled]] from [[Rule Cards - Start Here|484 individual cards]]. Original review IDs and Notes are preserved. [[design-009 Rulebook outline and objective direction]] records the user directions; [[design-010 Individual rule cards and section views]] records the migration.
+This note records the clarified structure and source mapping. The text is now assembled in [[Settlements Rulebook - Assembled]] from [[Rule Cards - Start Here|483 active-library cards]]. Original review IDs and Notes are preserved. [[design-009 Rulebook outline and objective direction]] records the user directions; [[design-010 Individual rule cards and section views]] records the migration.
 
 ## Confirmed reading sequence
 
@@ -124,7 +124,7 @@ Casualties, rewards, advancement and the Settlement Round overview.
 Start with a short step-by-step route through preparing, setting up, fighting and resolving a battle. Point to the detailed sections that follow.
 
 ##### 4.1.2 Rounds, Turns and Phases
-Start/reset steps, alternating turns, round structure, Pass allocation and transitions. The Initiative and End Phase subsections contain their dedicated procedures.
+Start/reset steps, alternating turns, round structure and transitions. The Initiative and End Phase subsections contain their dedicated procedures.
 
 ##### 4.1.3 Activations and Actions
 Eligibility; one Move and one Core in either order during a whole-fighter activation; Both actions; action menu; forfeiting; attack allowances; remaining slots; passing and ending activations.
@@ -363,7 +363,7 @@ This chapter-level check accounts for all twenty-four current chapters. It is a 
 
 ## Implemented Obsidian structure
 
-Ross explicitly requested an individual note for every rule/mechanic and catalogue entry. The library therefore contains 484 cards, including all 453 original review entries. Each has filterable metadata and its concise description, full rule text/shared context, source links and feedback space.
+Ross explicitly requested an individual note for every rule/mechanic and catalogue entry. The library therefore contains 483 active-library cards; the original V2-054 is preserved in the dated retirement archive. Each has filterable metadata and its concise description, full rule text/shared context, source links and feedback space.
 
 Closely related cards reuse canonical blocks through live embeds. A passage is written in one owning card; other cards and section views display it without pasting a second editable copy. The old master retains its heading links and now displays the same sources. Thirteen chapter notes assemble the text under this outline; scenario, lore and creator-content placeholders remain for Ross.
 

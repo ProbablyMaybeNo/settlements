@@ -12,24 +12,24 @@ tags:
 - activation
 - round
 - dice
-summary: Higher d20 chooses first player; ties favour last round's second player; reroll round-one tie.
+summary: d20 minus 1 per own Broken fighter; higher result chooses first player; tie rules retained.
 status: Draft proposal
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
+last_rule_update: 2026-10-19
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Start Phase]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-054 - Balancing Passes]]'
 ---
 
 # Initiative
 
 ## Summary
 
-Higher d20 chooses first player; ties favour last round's second player; reroll round-one tie.
+d20 minus 1 per own Broken fighter; higher result chooses first player; tie rules retained.
 
 ## Rule text
 
@@ -39,13 +39,11 @@ Each player rolls a d20 and subtracts 1 from the result for each Broken fighter 
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh#^text-s017-b000]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-054 - Balancing Passes#^text-s017-b002]]
-
 ## Links
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Start Phase|Start Phase — complete context]]
-- Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh|Round refresh]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-054 - Balancing Passes|Balancing Passes]]
+- Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh|Round refresh]]
 
 ## Design notes
 

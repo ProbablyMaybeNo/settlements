@@ -12,5 +12,3 @@ publication: Included
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-053 - Initiative#^text-s017-b001]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-054 - Balancing Passes#^text-s017-b002]]
-

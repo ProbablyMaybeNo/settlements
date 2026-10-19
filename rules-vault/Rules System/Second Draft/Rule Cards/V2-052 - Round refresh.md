@@ -22,7 +22,6 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-053 - Initiative]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-054 - Balancing Passes]]'
 ---
 
 # Round refresh
@@ -39,13 +38,11 @@ Advance the round counter. Restore each conscious, uncaptured fighter's Move and
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-053 - Initiative#^text-s017-b001]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-054 - Balancing Passes#^text-s017-b002]]
-
 ## Links
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Start Phase|Start Phase — complete context]]
-- Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-053 - Initiative|Initiative]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-054 - Balancing Passes|Balancing Passes]]
+- Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-053 - Initiative|Initiative]]
 
 ## Design notes
 

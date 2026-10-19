@@ -1,11 +1,11 @@
 ---
 type: battle-reference
 status: Proposed Version 2 rules; not playtested
-date: 2026-10-18
+date: 2026-10-19
 ---
 # Settlements Version 2 Battle Quick Reference
 
-Companion to [[Settlements Rules System Version 2]]. Print [[Settlements Version 2 Battle Quick Reference.pdf]] on two double-sided A4 sheets. Keep the selected roster, skills and feature cards beside it. This reference covers common battle procedures; full catalogues and settlement bookkeeping are in the manuscript.
+Companion to [[Settlements Rules System Version 2]]. Use this current Markdown reference. The previous PDF export is archived because it predates the October 19 Initiative and Pass-removal decisions; see [[Settlements/Rules System/Archived/Rule retirements - 2026-10-19/README|retirement record]]. Keep the selected roster, skills and feature cards beside it. This reference covers common battle procedures; full catalogues and settlement bookkeeping are in the manuscript.
 
 ## Page 1 Tests and turns
 
@@ -21,9 +21,9 @@ Companion to [[Settlements Rules System Version 2]]. Print [[Settlements Version
 
 ### Start and alternating activations
 
-Play six rounds. At Start, restore Move and Core to conscious and Down fighters, clear Activated/Reacted, reset round abilities; READY persists. Unconscious/captured fighters get no usable slots. Roll initiative; high chooses first, ties favour last round's second player (reroll round-1 tie).
+Play six rounds. At Start, restore Move and Core to conscious and Down fighters, clear Activated/Reacted, reset round abilities; READY persists. Unconscious/captured fighters get no usable slots. For initiative, each player rolls a d20 and subtracts 1 for each Broken fighter in their own crew; higher result chooses first, ties favour last round's second player (reroll round-1 tie).
 
-At Start, fewer eligible fighters grants Passes equal to that difference; Down counts, Unconscious/captured do not. Alternate whole-fighter activations: mark Activated, resolve one Move and one Core in either order, then opponent activates. Each action allows reactions. Forfeit unused slots; no reactivation. Both-cost actions use both slots. Passing without a Pass forfeits remaining activations.
+Alternate whole-fighter activations: mark Activated, resolve one Move and one Core in either order, then opponent activates. Each action allows reactions. Forfeit unused slots; no reactivation. Both-cost actions use both slots. You may voluntarily end your crew's activations, marking all remaining fighters Activated and their slots spent. Once one crew finishes, the other completes its activations with reactions still allowed; once both finish, resolve the End Phase.
 
 **One own-turn attack per fighter per round:** Shoot, Fight or Charge. One reaction is separate. Defensive melee is separate. Shove, Grapple, Throw, Incapacitate, damaging grenades and directing turret fire also use the own-attack allowance.
 
@@ -53,7 +53,7 @@ React only while conscious, unengaged, READY, not Reacted and without a morale c
 
 ### End Phase
 
-Resolve due end effects; expire Down at recorded round +2; resolve one Break/Rally per eligible fighter; score objectives; clear round effects and Passes; expire dated Aim and hazards. End after round 6 or the mission ending.
+Resolve due end effects; expire Down at recorded round +2; resolve one Break/Rally per eligible fighter; score objectives; clear round effects; expire dated Aim and hazards. End after round 6 or the mission ending.
 
 ## Page 2 Position combat and injury
 

@@ -12,11 +12,12 @@ tags:
 - activation
 - actions
 - both
-summary: Spend unused Move and Core together; unavailable after either slot is spent.
+summary: Finish chosen fighter's activation; perform or forfeit each slot. Both spends unused Move and Core together.
 status: Draft proposal
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
+last_rule_update: 2026-10-19
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Alternating activations]]'
 review_notes: ''
@@ -28,11 +29,11 @@ related_rules:
 
 ## Summary
 
-Spend unused Move and Core together; unavailable after either slot is spent.
+Finish chosen fighter's activation; perform or forfeit each slot. Both spends unused Move and Core together.
 
 ## Rule text
 
-On your turn, choose one eligible fighter that has not yet activated this round and mark it Activated. During this activation it has **one Move Action and one Core Action, resolved in either order**. Complete both before the opponent activates a fighter. Mark each slot spent when its action is declared, before reactions. Normal Move and Core are separate actions, each with its own reaction window; the opponent does not receive a normal activation between them. A fighter activates at most once per round, even if it is later revived or helped to Recover.
+On your turn, choose one eligible fighter that has not yet activated this round and mark it Activated. During this activation it has **one Move Action and one Core Action, resolved in either order**. Once chosen, the fighter must finish its activation before the opponent takes a normal activation. Perform or forfeit each of its Move and Core Actions; forfeited slots count as spent for this round, and you cannot return to activate that fighter later. Mark each slot spent when its action is declared, before reactions. Normal Move and Core are separate actions, each with its own reaction window; the opponent does not receive a normal activation between them. A fighter activates at most once per round, even if it is later revived or helped to Recover.
 
 ^text-s018-b000
 

@@ -16,6 +16,7 @@ status: Draft proposal
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
+last_rule_update: 2026-10-19
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#End Phase]]'
 review_notes: ''
@@ -33,7 +34,7 @@ Resolve due effects; expire Down timers; Break/Rally; score; clear expiring effe
 1. Finish any effects explicitly due at the end of the round; the first player resolves their crew's effects first if order matters.
 2. Check Down timers and turn overdue casualties Unconscious.
 3. Resolve one Break or Rally test per eligible fighter as described in [[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#10 Stress and morale|stress and morale]].
-4. Score objectives due this round. Clear temporary effects whose duration is “this round,” including Passes. Remove unused Aim when its stated duration ends. Resolve smoke, fire, and gas expiry.
+4. Score objectives due this round. Clear temporary effects whose duration is “this round.” Remove unused Aim when its stated duration ends. Resolve smoke, fire, and gas expiry.
 5. Check the scenario's end condition. A standard battle ends after round 6.
 
 ^text-s022-b000

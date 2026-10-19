@@ -11,12 +11,12 @@ tags:
 - settlements/v2
 - objectives
 - movement
-summary: Unarmed Recruit, no independent actions/Passes; moves with contact escort at escort's normal Move; no attacking/other
-  scoring.
+summary: Unarmed Recruit, no independent actions; moves with contact escort at escort's normal Move; no attacking/other scoring.
 status: Draft proposal
 review_status: Unreviewed
 publication: Deferred
 created: '2026-10-18'
+last_rule_update: 2026-10-19
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Escort and sabotage conventions]]'
 review_notes: ''
@@ -28,14 +28,14 @@ related_rules:
 
 ## Summary
 
-Unarmed Recruit, no independent actions/Passes; moves with contact escort at escort's normal Move; no attacking/other scoring.
+Unarmed Recruit, no independent actions; moves with contact escort at escort's normal Move; no attacking/other scoring.
 
 > [!warning] Earlier proposal — reserved for Ross
 > Retained for complete design coverage. Detailed objective/scenario rules are deferred and excluded from the assembled rulebook.
 
 ## Rule text
 
-An authored Escort objective must give the escorted figure a profile, who controls its movement, its exit, and how it behaves if its escort falls. The default is an unarmed Recruit profile, no independent action slots, moving with a friendly in contact at the escort's normal Move. It cannot attack, score other objectives, or be used to gain Passes. Harm uses the ordinary casualty rules.
+An authored Escort objective must give the escorted figure a profile, who controls its movement, its exit, and how it behaves if its escort falls. The default is an unarmed Recruit profile, no independent action slots, moving with a friendly in contact at the escort's normal Move. It cannot attack, score other objectives. Harm uses the ordinary casualty rules.
 
 ^text-s077-b000
 

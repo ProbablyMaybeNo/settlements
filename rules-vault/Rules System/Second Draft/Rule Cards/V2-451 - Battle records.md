@@ -11,12 +11,12 @@ tags:
 - settlements/v2
 - records
 - roster
-summary: Track profiles/loadouts, value, skills, objectives, score, round/Passes, Activated/actions, READY/Reacted,
-  states, timers, revival and consumables.
+summary: Track profiles/loadouts, value, skills, objectives, score, round, Activated/actions, READY/Reacted, states, timers, revival and consumables.
 status: Draft proposal
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
+last_rule_update: 2026-10-19
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Battle Roster fields]]'
 review_notes: ''
@@ -27,11 +27,11 @@ related_rules: []
 
 ## Summary
 
-Track profiles/loadouts, value, skills, objectives, score, round/Passes, Activated/actions, READY/Reacted, states, timers, revival and consumables.
+Track profiles/loadouts, value, skills, objectives, score, round, Activated/actions, READY/Reacted, states, timers, revival and consumables.
 
 ## Rule text
 
-Record the agreed limit, scenario, six-round counter, score, primary and secondary objectives, and crew Passes. For each fighter record:
+Record the agreed limit, scenario, six-round counter, score, and primary and secondary objectives. For each fighter record:
 
 ^text-s100-b000
 

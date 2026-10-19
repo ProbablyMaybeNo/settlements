@@ -1,11 +1,11 @@
 # Settlements Second Draft
 
-Start with **[[Rule Cards - Start Here|the individual rule-card library]]**: 484 notes, a complete index, and 15 table/card views.
+Start with **[[Rule Cards - Start Here|the individual rule-card library]]**: 483 active-library notes, a complete index, and 15 table/card views.
 
 - [[Settlements Rule Cards.base|Browse and filter the cards]] — all entries, battle rules, combat, modifiers and catalogues.
 - [[Settlements Rulebook - Assembled]] — the agreed thirteen-chapter reading order, assembled from the same rule text.
 - [[Settlements Rules System Version 2]] — compatible master view retaining existing chapter/heading links.
-- [[Settlements Rules System Version 2 - Rules and Mechanics Review]] — 484 concise rows; original IDs and Notes preserved, each linking to its card.
+- [[Settlements Rules System Version 2 - Rules and Mechanics Review]] — 483 concise rows; original IDs and Notes preserved, each linking to its card.
 - [[Settlements Rulebook Outline - Review and Proposed Structure]] — the clarified structure and source mapping.
 
 **Editing:** rule text lives in the card that owns its block; shared passages are live embeds. Edit the source card, not a separately pasted master. Keep its summary/properties consistent. The pre-migration manuscript and review table are preserved in [[Rules System/Archived/Before individual rule cards - 2026-10-18/README]].
