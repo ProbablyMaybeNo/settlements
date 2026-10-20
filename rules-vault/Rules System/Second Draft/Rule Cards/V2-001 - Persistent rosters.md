@@ -30,6 +30,8 @@ Keep settlement ownership between games; select a rating-limited Battle Roster e
 
 ## Rule text
 
+Settlements takes place in an ever changing universe that evolves over time partly due to you, the players, influence. As the universe grows so does your little slice of the metaphorical pie. This is represented in the rules by persistence mechanics relating to your settlement and crew. When players first start their Settlements journey they are given the materials and credits needed to build a basic settlement and hire a crew. As you fight battles and play campaig
+
 Keep a Settlement Roster containing everyone and everything you own. Before each battle, select a Battle Roster up to the Crew Rating agreed with your opponent. A large settlement gives you more choices; it never increases that agreed limit. Named fighters gain experience and injuries, while the settlement produces resources and unlocks equipment.
 
 ^text-s002-b000
