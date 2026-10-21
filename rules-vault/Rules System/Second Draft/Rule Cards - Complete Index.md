@@ -47,10 +47,10 @@
 
 ## 3. Playing the Game — 2 cards
 
-| Rule / card | Last updated |
-| --- | --- |
-| [[Settlements/Rules System/Second Draft/Rule Cards/V2-001 - Persistent rosters\|V2-001 · Persistent rosters]] |  |
-| [[Settlements/Rules System/Second Draft/Rule Cards/V2-354 - Non-killing victory routes\|V2-354 · Non-killing victory routes]] |  |
+| Rule / card                                                                                                                   | Last updated |
+| ----------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| [[Settlements/Rules System/Second Draft/Rule Cards/V2-001 - Persistent rosters\|V2-001 · Persistent rosters]]                 | 10/20 - Ross |
+| [[Settlements/Rules System/Second Draft/Rule Cards/V2-354 - Non-killing victory routes\|V2-354 · Non-killing victory routes]] |              |
 
 ## 4. Fighting Battles — 192 cards
 
