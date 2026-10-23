@@ -122,3 +122,13 @@ The former progress checklist and September simulation follow-ups remain in [[Ru
 - [ ] Apply Ross's eventual chosen layout/subsection order to the assembled manuscript after the placement review.
 
 This presentation work does not approve any rule, add a playtest result, or implement the discussed fall-incapacitation proposal.
+
+## Canvas placement and new-rule entry — 2026-10-23
+
+- [x] Create [[Settlements Rulebook Layout.canvas|the rulebook canvas]] with 483 live file cards, thirteen chapter groups and separate deferred parking.
+- [x] Install and enable the local Settlements Rule Workspace plugin. Canvas group moves update only planned_section; edits to that field from notes/boards reposition the existing canvas card. Current chapter/subsection, rule text, IDs, feedback and semantic dates are preserved.
+- [x] Add **Settlements Rule Workspace: Add a new rule card** with name/category/chapter/subsection/tags/summary/full-text entry, unique ID allocation, Pacific dates, index and review rows, progress tracking and a canvas card. New entries remain unreviewed drafts awaiting chapter embeds.
+- [x] Pass fourteen checks, including automatic Canvas → note and note → Canvas events in the live vault. Restore the tested card's text, metadata and position. Exercise new-card creation/indexing in memory; no dummy rules are added to the vault.
+- [x] Inspect the table, review board, placement board, canvas and new-rule form in Obsidian 1.14.4. Existing Colored Tags remains responsible for tag colours; native Bases supplies the table/board layouts.
+
+Precise within-chapter sequencing and reassembly remain a later editorial step. No rule or balance change is approved by this presentation work.

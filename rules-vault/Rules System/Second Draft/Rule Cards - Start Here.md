@@ -2,11 +2,17 @@
 
 **483 active-library notes** now cover the review inventory and the additional named profile/advancement entries found during migration. Every original V2 ID and review-table comment is preserved.
 
-Start with [[Rule Cards - Visual Workspace|the visual workspace]], [[Settlements/Rules System/Second Draft/Settlements Rule Cards.base|the table, cards and review board]], or [[Settlements Rulebook Layout.base|the chapter placement board]]. Switch between All entries, All cards, book sections, Battle rules, Combat, To-hit bonuses, Armour bonuses, weapons, keywords, skills, equipment/devices, terrain, structures and deferred proposals. Native Bases and the existing Colored Tags plugin provide these views. Scoped styling in the already-enabled bases-wrap CSS snippet adds readable cards and category/review strips; no additional plugin is installed. Last updated and Status are visible in the table. Planned section is outline-only metadata, with changes collected by the layout's Moved cards view.
+Start with [[Rule Cards - Visual Workspace|the visual workspace]], [[Settlements/Rules System/Second Draft/Settlements Rule Cards.base|the table, cards and review board]], or [[Settlements Rulebook Layout.base|the chapter placement board]]. Switch between All entries, All cards, book sections, Battle rules, Combat, To-hit bonuses, Armour bonuses, weapons, keywords, skills, equipment/devices, terrain, structures and deferred proposals. Native Bases and the existing Colored Tags plugin provide these views. Scoped styling in the already-enabled bases-wrap CSS snippet adds readable cards and category/review strips; the local Settlements Rule Workspace plugin now handles canvas-to-note placement and the new-rule command. Last updated and Status are visible in the table. Planned section is outline-only metadata, with changes collected by the layout's Moved cards view.
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Complete linked index]] — every individual note.
 - [[Settlements/Rules System/Second Draft/Settlements Rulebook - Assembled|Assembled rulebook]] — the agreed chapter order, using the same rule text.
 - [[Settlements/Rules System/Second Draft/Settlements Rules System Version 2 - Rules and Mechanics Review|Annotated review table]] — original feedback workflow, now linking directly to cards.
+
+## Visual editing and new rules
+
+- [[Settlements Rulebook Layout.canvas|Draggable chapter canvas]] — move live note cards between chapter groups to update Planned section; table/board edits move the canvas card too.
+- **Ctrl+P → Settlements Rule Workspace: Add a new rule card** — generates the unique ID, fields, dates and index links from your entered rule text.
+- [[Rule Cards - Visual Workspace|Full view, canvas and creation instructions]].
 
 ## Editing and filtering
 

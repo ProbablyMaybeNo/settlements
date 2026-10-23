@@ -5,7 +5,7 @@ cssclasses:
 
 # Rule cards — Visual workspace
 
-Open **[[Settlements Rule Cards.base|Rules table / cards / review board]]** or **[[Settlements Rulebook Layout.base|Rulebook layout]]** full-screen for the most room. These are live views of the individual notes.
+Open **[[Settlements Rule Cards.base|Rules table / cards / review board]]**, **[[Settlements Rulebook Layout.base|Rulebook layout board]]**, or **[[Settlements Rulebook Layout.canvas|the draggable rulebook canvas]]** full-screen for the most room. These are live views of the individual notes.
 
 ## Table and review board
 
@@ -26,6 +26,26 @@ The thirteen columns follow the agreed final rulebook chapters, including empty 
 This is an outline planning board. It does not rewrite the assembled rulebook, move note files, renumber IDs, change the rule text, or automatically assign a new subsection. The **Moved cards** view lists differences from current placement, ready for a later manuscript reassembly. **Placement table** lets you review all positions; **All placements including deferred** also shows the parked proposals. The main layout excludes Deferred material.
 
 Cards are sorted by ID inside each column. Dragging changes chapter placement, not precise within-chapter reading order. Use review notes for a proposed subsection or sequence until we apply the layout to the manuscript.
+
+## Draggable rulebook canvas
+
+Open [[Settlements Rulebook Layout.canvas|Settlements Rulebook Layout.canvas]]. It contains all 483 original library notes as live file cards: thirteen chapter groups plus a separate parking group for the eighteen deferred proposals. The summary is embedded from each owning note rather than copied.
+
+Drag a card by its title into another chapter group. Once its centre is inside that group and Canvas saves, **Planned section** updates in its note, table and board. Editing Planned section in those views also moves the existing canvas card to that chapter. The local **Settlements Rule Workspace** plugin must be enabled for automatic updates.
+
+Use **Ctrl+P → Canvas: Jump to group** to navigate the chapter headings. Pan and zoom to work on individual cards. Cards outside chapter groups retain their previous placement. Deferred parking does not change Scope; moving a deferred card never approves its rule. Keep one file card per rule on this canvas so two copies cannot assign competing chapters.
+
+Chapter placement is planning metadata. Positions inside a group do not set precise subsection/order, and the assembled manuscript is unchanged until we apply your chosen outline. Chapter groups have fixed mappings; renaming a group label does not rename the chapter. Canvas edits made while the plugin is disabled do not retrospectively change notes when it is enabled again.
+
+## Adding a new rule
+
+1. Press **Ctrl+P** and run **Settlements Rule Workspace: Add a new rule card** (or use the new rule-card ribbon icon).
+2. Enter its name, category, chapter, optional subsection, comma-separated tags, concise description and full rule text.
+3. Select **Create rule card**.
+
+The command generates a clean card with the next unused V2 ID, required fields, Pacific dates, and a unique owning block. It adds the card to the canvas, both indexes and live views as **Unreviewed / Draft proposal**. You can then edit its text and Design notes normally. Use this command for an indexed new rule; the generic Bases **New** button does not perform the ID/index setup.
+
+New cards still await placement of their owning block in the assembled chapter. Later semantic edits follow [[AGENTS|the normal rule-update tracking instructions]].
 
 ## Colours
 

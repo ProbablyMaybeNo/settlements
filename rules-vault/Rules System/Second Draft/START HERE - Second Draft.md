@@ -3,6 +3,7 @@
 Start with **[[Rule Cards - Start Here|the individual rule-card library]]**: 483 active-library notes, a complete index, and live table/card/board views.
 
 - [[Rule Cards - Visual Workspace|Visual workspace]] — table with Last updated/Status, coloured tags, cards and review board.
+- [[Settlements Rulebook Layout.canvas|Draggable chapter canvas]] — thirteen chapter groups; move cards to update Planned section automatically.
 - [[Settlements Rulebook Layout.base|Plan the rulebook layout]] — drag cards beneath the thirteen chapter headers; review proposed moves before reassembly.
 - [[Settlements Rule Cards.base|Browse and filter the cards]] — all entries, battle rules, combat, modifiers and catalogues.
 - [[Settlements Rulebook - Assembled]] — the agreed thirteen-chapter reading order, assembled from the same rule text.
