@@ -5,6 +5,8 @@ cssclasses:
 
 # Rule cards — Visual workspace
 
+For project locations, creating/editing rules, feedback and troubleshooting, see [[Settlements/START HERE - Settlements Project|the Settlements project guide]].
+
 Open **[[Settlements Rule Cards.base|Rules table / cards / review board]]**, **[[Settlements Rulebook Layout.base|Rulebook layout board]]**, or **[[Settlements Rulebook Layout.canvas|the draggable rulebook canvas]]** full-screen for the most room. These are live views of the individual notes.
 
 ## Table and review board

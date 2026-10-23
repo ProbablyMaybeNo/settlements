@@ -132,3 +132,7 @@ This presentation work does not approve any rule, add a playtest result, or impl
 - [x] Inspect the table, review board, placement board, canvas and new-rule form in Obsidian 1.14.4. Existing Colored Tags remains responsible for tag colours; native Bases supplies the table/board layouts.
 
 Precise within-chapter sequencing and reassembly remain a later editorial step. No rule or balance change is approved by this presentation work.
+
+## Project access guide — 2026-10-23
+
+- [x] Add [[Settlements/START HERE - Settlements Project|START HERE - Settlements Project]] directly inside the top-level Settlements folder, covering navigation, Draft 2 cards/views, the new-rule command, canonical text editing, revision dates, feedback, chapter planning, research and troubleshooting. Link back to it from the Draft 2 start note and Visual Workspace. No owning rule text or rule-revision date changes in this documentation pass.

@@ -1,5 +1,7 @@
 # Settlements Second Draft
 
+Project access and editing instructions: [[Settlements/START HERE - Settlements Project|Settlements project guide]].
+
 Start with **[[Rule Cards - Start Here|the individual rule-card library]]**: 483 active-library notes, a complete index, and live table/card/board views.
 
 - [[Rule Cards - Visual Workspace|Visual workspace]] — table with Last updated/Status, coloured tags, cards and review board.
