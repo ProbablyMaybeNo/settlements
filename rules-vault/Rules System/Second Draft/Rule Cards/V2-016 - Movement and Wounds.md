@@ -36,7 +36,7 @@ related_rules:
 
 ## Summary
 
-Humans normally MOVE 6, Armour 0–2 and exactly one Wound; experience never adds Wounds.
+Humans normally MOVE 6, *Armour 0–4* and exactly one Wound; experience never adds Wounds.
 
 ## Rule text
 
