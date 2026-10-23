@@ -52,6 +52,8 @@ Spend READY immediately and mark Reacted. No reaction triggers another reaction.
 
 ## Design notes
 
+For testing only — [[Draft 2 - Reaction Chains - For Testing|target-only counterfire variant (TEST VARIANT — NOT ADOPTED)]]. Only the eligible target of a resolved shooting reaction may reply; no third-party joining. Current rule text, reaction limits and revision dates are unchanged.
+
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
 
 <!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->

@@ -36,7 +36,7 @@ Premeasure; measure actual path consistently. No passage through solids, standin
 
 ## Rule text
 
-- Measure movement along the path actually travelled, using the same point on the base throughout. You may premeasure. A unit cannot move through a solid wall, another standing unit's base, or a gap its base cannot fit through.
+- Measure movement along the path actually travelled, using the same point on the base throughout. You may premeasure. A unit cannot move through a solid wall, another enemy standing unit's base, or a gap its base cannot fit through.
 
 ^text-s004-b002
 

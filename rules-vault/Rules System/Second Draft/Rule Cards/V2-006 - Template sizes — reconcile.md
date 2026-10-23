@@ -12,11 +12,12 @@ tags:
 - setup
 - templates
 - review
-summary: Components suggests 8″ flamer/6″/3″ blasts; attack rules retain 2″-radius blasts and 3″-diameter smoke/fire.
+summary: Optional 3″/5″-diameter circles and 8″ flame template; weapon specifies which template applies.
 status: Draft proposal
 review_status: Needs review
 publication: Included
 created: '2026-10-18'
+last_rule_update: '2026-10-22'
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Components]]'
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Blasts smoke and fire]]'
@@ -33,14 +34,14 @@ related_rules:
 
 ## Summary
 
-Components suggests 8″ flamer/6″/3″ blasts; attack rules retain 2″-radius blasts and 3″-diameter smoke/fire.
+Optional 3″/5″-diameter circles and 8″ flame template; weapon specifies which template applies.
 
 > [!warning] Needs review
 > This entry retains an unresolved manuscript detail; its inclusion is not approval.
 
 ## Rule text
 
-Finally you might want to create or buy some templates, 8" flamer, 6" blast, 3" blast would all come in handy but are not necessary. A scatter dice or direction randomize might be helpful as well.
+Finally, you may want to create or buy some templates: a **3-inch-diameter circle**, a **5-inch-diameter circle**, and an **8-inch flame template**. The weapon specifies which template applies. Owning physical templates is optional. A scatter dice or direction randomize might be helpful as well.
 
 ^text-s003-b004
 
@@ -68,6 +69,12 @@ Finally you might want to create or buy some templates, 8" flamer, 6" blast, 3" 
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Standard battle|Standard battle]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-004 - Bases and facing mark|Bases and facing mark]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Blast attack|Blast attack]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-250 - Smoke grenade procedure|Smoke grenade procedure]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-252 - Fire zones|Fire zones]]
 
 ## Design notes
+
+Confirmed by Ross on 2026-10-22: the template set and weapon-specific selection above replace the earlier 6-inch blast suggestion and universal 2-inch-radius Blast template.
+
+Profile assignments remain unresolved: Frag grenade (V2-259), Fire bottle initial Blast (V2-260), Grenade launcher (V2-300), Rocket launcher (V2-302), and Flamethrower (V2-301). No default size is assigned. The Flamethrower currently lists Blast and 8-inch range, but does not specify a template; flame shape/width and a flame attack procedure remain unresolved. Smoke and persistent fire zones retain their existing 3-inch diameter.
+
+The optional scatter-die/direction-randomizer suggestion remains for review: the Blast procedure explicitly has no scatter roll. This suggestion grants no scatter mechanic. See [[design-011 Weapon-specific templates]] for the remaining profile and hazard questions.
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
 

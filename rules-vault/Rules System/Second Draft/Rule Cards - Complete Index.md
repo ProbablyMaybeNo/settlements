@@ -12,7 +12,7 @@
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-003 - Miniature equipment\|V2-003 · Miniature equipment]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-004 - Bases and facing mark\|V2-004 · Bases and facing mark]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-005 - Dice and markers\|V2-005 · Dice and markers]] |  |
-| [[Settlements/Rules System/Second Draft/Rule Cards/V2-006 - Template sizes — reconcile\|V2-006 · Template sizes — reconcile]] |  |
+| [[Settlements/Rules System/Second Draft/Rule Cards/V2-006 - Template sizes — reconcile\|V2-006 · Template sizes — reconcile]] | 2026-10-22 |
 
 ## 2. Core Mechanics — 26 cards
 
@@ -231,7 +231,7 @@
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-225 - Drone reactions\|V2-225 · Drone reactions]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-226 - Transfer or pack drone\|V2-226 · Transfer or pack drone]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-227 - Drone wreck\|V2-227 · Drone wreck]] |  |
-| [[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Blast attack\|V2-248 · Blast attack]] |  |
+| [[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Blast attack\|V2-248 · Blast attack]] | 2026-10-22 |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-249 - Blast containment and modifiers\|V2-249 · Blast containment and modifiers]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-250 - Smoke grenade procedure\|V2-250 · Smoke grenade procedure]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-251 - Damaging grenades\|V2-251 · Damaging grenades]] |  |

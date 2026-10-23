@@ -13,11 +13,12 @@ tags:
 - area
 - ranged
 - review
-summary: Visible in-range impact point; 2″ radius; one normal hit roll per exposed base; then Injury/device damage.
+summary: Visible in-range point; weapon-specified template (circles 3″/5″ diameter); one hit roll per exposed base, then Injury/device damage.
 status: Draft proposal
 review_status: Needs review
 publication: Included
 created: '2026-10-18'
+last_rule_update: '2026-10-22'
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Blasts smoke and fire]]'
 review_notes: ''
@@ -30,14 +31,14 @@ related_rules:
 
 ## Summary
 
-Visible in-range impact point; 2″ radius; one normal hit roll per exposed base; then Injury/device damage.
+Visible in-range point; weapon-specified template (circles 3″/5″ diameter); one hit roll per exposed base, then Injury/device damage.
 
 > [!warning] Needs review
 > This entry retains an unresolved manuscript detail; its inclusion is not approval.
 
 ## Rule text
 
-For a Blast, choose a visible impact point within range. It must be a surface or a model's position, not an arbitrary point in the air. Each fighter or device whose base touches the **2-inch-radius** template and has an unobstructed line to its centre is a target, including the user's crew. This blast line ignores the target's facing. Targets must be on the impact point's level or within 2 inches vertically; intervening floors block it. Roll one normal ranged Attack Die against each, then Injury for hits on fighters; devices instead use their hit-based damage rule. Rear and Aim bonuses apply using the shooter's position and state, not the blast centre. Use cover from the impact point, apply −2 against a Pinned target, and ignore Hidden's −4. There is no separate shot at the centre, scatter roll, or extra attack on the original target. Solid walls contain the blast. A fighter can be hit only once by that blast.
+For a Blast, choose a visible impact point within range. It must be a surface or a model's position, not an arbitrary point in the air. Use the template specified by the weapon; circular Blast templates are **3 or 5 inches in diameter**. Each fighter or device whose base touches that template and has an unobstructed line to its centre is a target, including the user's crew. This blast line ignores the target's facing. Targets must be on the impact point's level or within 2 inches vertically; intervening floors block it. Roll one normal ranged Attack Die against each, then Injury for hits on fighters; devices instead use their hit-based damage rule. Rear and Aim bonuses apply using the shooter's position and state, not the blast centre. Use cover from the impact point, apply −2 against a Pinned target, and ignore Hidden's −4. There is no separate shot at the centre, scatter roll, or extra attack on the original target. Solid walls contain the blast. A fighter can be hit only once by that blast.
 
 ^text-s065-b000
 
@@ -52,6 +53,8 @@ For a Blast, choose a visible impact point within range. It must be a surface or
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-250 - Smoke grenade procedure|Smoke grenade procedure]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-252 - Fire zones|Fire zones]]
 
 ## Design notes
+
+Confirmed by Ross on 2026-10-22: template choice depends on the weapon. Missing profile assignments and flame-template details remain unresolved; no default circle or new flame procedure is supplied. See [[design-011 Weapon-specific templates]].
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
 

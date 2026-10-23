@@ -49,7 +49,7 @@ Use the same terms and rule sources throughout. Audit the existing [[Draft 2 - B
 | Injury and End Phase | Immediate combat outcomes and timed checks already have distinct jobs. | Injuries/Resolving Combat explains the states and immediate effects. End Phase runs the scheduled checks. Lasting injuries and recovery remain with crew/post-battle procedures. |
 | Primary and secondary objectives | Earlier manuscript includes detailed objective/generator proposals. | Ross will write the specifics. Preserve earlier material as reference when moving it out of active scenario text; leave placeholders in the new book. |
 | Factions and regional play | Future product/setting content, with possible faction effects only suggested. | Reserve the chapters; do not manufacture bonuses or claim app functions already exist. |
-| Attack templates | Components and detailed attacks still give different suggested template dimensions. | Keep the existing discrepancy flagged for integration. The confirmed objective diameters do not choose attack-template sizes. |
+| Attack templates | Ross confirmed 3″/5″-diameter circles and an 8″ flame template on 2026-10-22; the weapon specifies which applies. | Set and shared Blast wording reconciled; weapon-profile assignments and flame-template details remain unresolved. Objective diameters do not choose attack-template sizes. |
 
 Your outline does not overturn whole-fighter activations with Move and Core in either order, two-hand weapon capacity, single-carrier movement, the Pinned hit modifiers, or the current test/combat procedures. Reorganizing them should preserve those rules unless a specific new instruction changes them.
 
@@ -86,7 +86,7 @@ Automatic tasks, ordinary tests, natural results, opposed tests, attack-pool ove
 Distance, contact, reachable surfaces, friendly/enemy, models/devices, premeasurement and declared choices.
 
 #### 2.4 Tokens and Templates
-Status tracking, action slots, READY, Stress, casualty timers, objective areas and attack templates. Resolve the existing template discrepancy here and in the attack rules together.
+Status tracking, action slots, READY, Stress, casualty timers, objective areas and attack templates. Use the confirmed template set and weapon-specific selection in Components and the attack rules; keep missing profile assignments visible for review.
 
 #### 2.5 Interactive Terrain
 What makes a feature interactive; controls, connections and agreed representations. Detailed operations appear in Chapter 4.

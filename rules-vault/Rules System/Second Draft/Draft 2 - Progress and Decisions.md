@@ -67,6 +67,14 @@ The individual-card migration is implemented. No app implementation, new playtes
 - [x] Show rule-text revision dates in the complete index listing every card by name, alongside Bases views and the annotated review table. Unknown dates remain blank; housekeeping does not count as a rule revision.
 - [x] Archive the obsolete PDF export, which still contains the removed Pass mechanic. The Markdown battle reference is current; a new printable PDF has not been exported.
 
+## Confirmed follow-up decisions - 2026-10-22
+
+- [x] Apply Ross's template set: 3-inch-diameter circle, 5-inch-diameter circle, and 8-inch flame template; the weapon specifies which applies. Owning/making/buying physical templates remains optional.
+- [x] Update V2-006 and V2-248, their summaries/index dates, the duplicated quick-reference Blast wording and current editorial discrepancy notices. Preserve all other Blast resolution, existing 3-inch smoke/fire zones, Dice and markers, stable IDs, anchors and Notes. Actual rule owners are dated 2026-10-22 (Pacific); embedding cards are not redated.
+- [ ] Assign templates to Frag grenade, Fire bottle initial Blast, Grenade launcher, Rocket launcher and Flamethrower. No default size, flame geometry or new flame procedure is inferred. Review the separate Blast mine Crush footprint and optional scatter-die suggestion without changing either mechanic. See [[design-011 Weapon-specific templates]].
+
+- [x] Prepare [[Draft 2 - Reaction Chains - For Testing|a separate target-only counterfire test variant]] at Ross's request: only the eligible target of a resolved shooting reaction may reply, paying READY and respecting one reaction per fighter per round. TEST VARIANT — NOT ADOPTED; no third-party joining, no playtest yet, no core rule/date changes.
+
 ## Individual rule cards and views
 
 - [x] Create a note for every original review entry and add thirty-one separately addressable entries found during the coverage pass: 484 total.

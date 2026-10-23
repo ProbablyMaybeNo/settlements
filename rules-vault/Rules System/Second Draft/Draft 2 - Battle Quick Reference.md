@@ -153,7 +153,7 @@ Drone: Core deploys. Later operator Core: fly 8 inches, operate drone-contact co
 
 ### Special attacks and supplies
 
-Blast: visible point in weapon range, **2-inch radius**. One ordinary Attack Die per affected fighter/device with unobstructed blast line, on same level or within 2 inches vertically; solid floors/walls block. Cover from centre; −2 against Pinned; ignore Hidden. No scatter/extra central hit; no bonus dice or dual use.
+Blast: visible point in weapon range; use the weapon-specified template (circular templates: **3- or 5-inch diameter**). Missing weapon-profile assignments remain unresolved; no default size is assigned. One ordinary Attack Die per affected fighter/device with unobstructed blast line, on same level or within 2 inches vertically; solid floors/walls block. Cover from centre; −2 against Pinned; ignore Hidden. No scatter/extra central hit; no bonus dice or dual use.
 
 Smoke grenade: Core/DEX, visible point within 8 inches. Pass place; fail 2 inches closer along line, stopping at obstruction. Fire bottle: ordinary Damage 1 Blast, then fire zone; initial attack counts as that round's fire exposure. Damaging grenades use Core Shoot and the attack allowance; smoke uses Core Use Item. Grenades consume their item. Reload weapons start loaded, need Core reload after firing. One chem dose per fighter per round; Pinned needs a helper. Use printed roster entries for other traits/items.
 
