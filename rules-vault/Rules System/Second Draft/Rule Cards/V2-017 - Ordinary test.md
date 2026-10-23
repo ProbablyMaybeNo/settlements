@@ -10,11 +10,12 @@ book_subsection: Dice and Tests
 tags:
 - settlements/v2
 - tests
-summary: d20 + stat + modifiers − Stress; 15+ succeeds. Natural 1 fails; natural 20 succeeds.
+summary: d20 + stat + modifiers − Stress; 13+ succeeds. Natural 1 fails; natural 20 succeeds.
 status: Draft proposal
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
+last_rule_update: '2026-10-22'
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Ordinary tests]]'
 review_notes: ''
@@ -27,11 +28,11 @@ related_rules:
 
 ## Summary
 
-d20 + stat + modifiers − Stress; 15+ succeeds. Natural 1 fails; natural 20 succeeds.
+d20 + stat + modifiers − Stress; 13+ succeeds. Natural 1 fails; natural 20 succeeds.
 
 ## Rule text
 
-Roll **1d20 + the relevant stat + modifiers − Stress**. A total of **15 or more succeeds**. Natural 1 always fails; natural 20 always succeeds. The action says what failure does. Do not add a difficulty scale: a task is automatic, a normal test, or impossible with the available tools and position.
+Roll **1d20 + the relevant stat + modifiers − Stress**. A total of **13 or more succeeds**. Natural 1 always fails; natural 20 always succeeds. The action says what failure does. Do not add a difficulty scale: a task is automatic, a normal test, or impossible with the available tools and position.
 
 ^text-s006-b000
 

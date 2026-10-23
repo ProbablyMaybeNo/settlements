@@ -11,7 +11,7 @@ Companion to [[Settlements Rules System Version 2]]. Use this current Markdown r
 
 ### Core tests
 
-**Ordinary:** d20 + stat + modifiers − Stress; **15+ passes**. Natural 1 fails; natural 20 passes. Trivial safe tasks are automatic. Difficult or dangerous tasks use the same test; impossible tasks need another approach.
+**Ordinary:** d20 + stat + modifiers − Stress; **13+ passes**. Natural 1 fails; natural 20 passes. Trivial safe tasks are automatic. Difficult or dangerous tasks use the same test; impossible tasks need another approach.
 
 **Modifiers:** use the largest positive and negative skill bonus (each capped at 4), and largest positive and negative equipment-characteristic bonus (each capped at 3). Then apply position once: light cover −1, heavy cover −2, legal Hidden target −4, rear +2, Aim +2; against Pinned, ranged −2 / melee +2. Pinned stacks with applicable cover; hit rolls only. Printed Damage and Armour are profile values. Identical effects never stack; reroll a die once at most.
 
@@ -45,7 +45,7 @@ React only while conscious, unengaged, READY, not Reacted and without a morale c
 
 **Shoot:** normal shot at the start or end of each enemy non-shooting action; also at the end of an enemy Shoot targeting another fighter and not the reactor, after all enemy attack outcomes resolve. Start is after declaration but before resolution; end is after completion. Check READY, eligibility, forward LOS and weapon range at that endpoint; no intermediate movement point. A start hit that Pins/Downs can cancel an unfinished action; spent slots/items remain spent. An end shot cannot undo the completed action; resolve or forfeit remaining unused slots according to the acting fighter's resulting state.
 
-**Return Fire:** when the enemy targets you and is a legal target, declare before any attack dice. Both shoot using independent normal 15+ tests from declaration states, then apply both outcomes. Both can hit and be injured; complete the exchange even if a shooter is Downed.
+**Return Fire:** when the enemy targets you and is a legal target, declare before any attack dice. Both shoot using independent normal 13+ tests from declaration states, then apply both outcomes. Both can hit and be injured; complete the exchange even if a shooter is Downed.
 
 **Dive:** before incoming Shoot/Charge dice, test AGI. Pass: move up to 3 inches and become Pinned. Fail: stay and become Pinned. Recheck attack legality. Pinned may only Dive if it retained READY by a specific rule.
 
@@ -75,7 +75,7 @@ Low obstacle ≤1 inch costs 2 inches to cross. Difficult ground, Pinned, Hidden
 
 ### Shooting
 
-Forward LOS and weapon range. Roll each die: **d20 + DEX + modifiers − Stress ≥15** hits. Natural 1 misses, 20 hits. No generic range/move penalty. In an engagement, a natural 1 hits one involved friendly chosen by opponent; ignore that rule for Blast.
+Forward LOS and weapon range. Roll each die: **d20 + DEX + modifiers − Stress ≥13** hits. Natural 1 misses, 20 hits. No generic range/move penalty. In an engagement, a natural 1 hits one involved friendly chosen by opponent; ignore that rule for Blast.
 
 Dual one-handed weapons: dominant pool plus one off-hand die; keep its weapon identity. **Maximum three dice** including Charge/skills. Both must be usable and held. Weapon slots match two hands: one-handed uses one, two-handed/Heavy uses both. No legal melee weapon: one unarmed die, Damage 0. A Sidearm contributes one STR-based melee die. Choose held weapons before first action/reaction; one later switch on own action, never retroactively.
 
@@ -109,7 +109,7 @@ Attacking Down: normal shot or contact Core for one automatic hit. Injury succes
 
 Stress maximum **5**. Failed Injury: +1 each. First friendly Down seen within 6 inches each round: +1, using front LOS; no witness Stress while Down/Unconscious. Pinning adds none separately.
 
-End Phase, conscious with 2+ Stress and no morale condition: **Break = d20 + NRV + modifiers ≥15**, ignoring Stress. Pass clears Stress. Fail: 1–2 Broken; 3–4 Bolting; 5 Bugging Out. Natural 1/20 apply. Normal Break never occurs at 0–1; a forced failure at 0 uses Broken.
+End Phase, conscious with 2+ Stress and no morale condition: **Break = d20 + NRV + modifiers ≥13**, ignoring Stress. Pass clears Stress. Fail: 1–2 Broken; 3–4 Bolting; 5 Bugging Out. Natural 1/20 apply. Normal Break never occurs at 0–1; a forced failure at 0 uses Broken.
 
 **Broken:** Pinned; only Move, Recover, self-Rally, Disengage. **Bolting:** activation spends remaining slots moving up to 2 × MOVE toward nearest reachable safe place outside enemy LOS; prefer heavy cover. **Bugging Out:** same toward nearest reachable board edge; reaching it leaves play. Forced movement overrides Pinned but not terrain; once per round. None may react, assist, score or contest.
 

@@ -31,7 +31,7 @@ Natural 20 beats non-20; natural 1 loses to non-1; matching extremes tie.
 
 ## Rule text
 
-Each side rolls one d20 with the specified stat and ordinary modifiers. The higher total succeeds; ties favour the defender. A natural 20 beats a non-20 and a natural 1 loses to a non-1. Two natural 20s or two natural 1s are ties. There is no additional 15+ requirement. Grapple and Interrupt use this procedure.
+Each side rolls one d20 with the specified stat and ordinary modifiers. The higher total succeeds; ties favour the defender. A natural 20 beats a non-20 and a natural 1 loses to a non-1. Two natural 20s or two natural 1s are ties. There is no ordinary success threshold. Grapple and Interrupt use this procedure.
 
 ^text-s007-b000
 

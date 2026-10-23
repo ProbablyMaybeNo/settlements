@@ -12,17 +12,17 @@ tags:
 - reaction
 - combat
 - ranged
-summary: When targeted, declare before dice; independent simultaneous normal shooting from declaration states. Both outcomes apply, even if a shooter is Downed.
+summary: When targeted, declare before dice; independent simultaneous normal 13+ shooting from declaration states. Both outcomes apply, even if a shooter is Downed.
 status: Draft proposal
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
-last_rule_update: 2026-10-19
+last_rule_update: '2026-10-22'
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Reaction windows]]'
 review_notes: ''
 reaction: Return Fire
-resolution: If the triggering enemy is shooting you and is a legal target, declare Return Fire before any attack dice are rolled. Both fighters shoot using independent normal 15+ shooting tests. Resolve both attacks from the positions and states at declaration, then apply both sets of outcomes. Both fighters can hit and be injured; complete the exchange even if one shooter is Downed by it.
+resolution: If the triggering enemy is shooting you and is a legal target, declare Return Fire before any attack dice are rolled. Both fighters shoot using independent normal 13+ shooting tests. Resolve both attacks from the positions and states at declaration, then apply both sets of outcomes. Both fighters can hit and be injured; complete the exchange even if one shooter is Downed by it.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-065 - Reaction timing]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-066 - Reaction limits]]'
@@ -34,14 +34,14 @@ related_rules:
 
 ## Summary
 
-When targeted, declare before dice; independent simultaneous normal shooting from declaration states. Both outcomes apply, even if a shooter is Downed.
+When targeted, declare before dice; independent simultaneous normal 13+ shooting from declaration states. Both outcomes apply, even if a shooter is Downed.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Reaction | Return Fire |
-| Resolution | If the triggering enemy is shooting you and is a legal target, declare Return Fire before any attack dice are rolled. Both fighters shoot using independent normal 15+ shooting tests. Resolve both attacks from the positions and states at declaration, then apply both sets of outcomes. Both fighters can hit and be injured; complete the exchange even if one shooter is Downed by it. |
+| Resolution | If the triggering enemy is shooting you and is a legal target, declare Return Fire before any attack dice are rolled. Both fighters shoot using independent normal 13+ shooting tests. Resolve both attacks from the positions and states at declaration, then apply both sets of outcomes. Both fighters can hit and be injured; complete the exchange even if one shooter is Downed by it. |
 
 ^text-s021-b004
 

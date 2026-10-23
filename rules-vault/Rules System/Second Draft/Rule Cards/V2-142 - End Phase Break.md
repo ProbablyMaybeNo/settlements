@@ -11,11 +11,12 @@ tags:
 - settlements/v2
 - morale
 - tests
-summary: 'Conscious, no morale condition, Stress 2+: d20 +NRV +modifiers ≥15, ignoring Stress. Pass clears all Stress.'
+summary: 'Conscious, no morale condition, Stress 2+: d20 +NRV +modifiers ≥13, ignoring Stress. Pass clears all Stress.'
 status: Draft proposal
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
+last_rule_update: '2026-10-22'
 source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Break]]'
 review_notes: ''
@@ -31,11 +32,11 @@ related_rules:
 
 ## Summary
 
-Conscious, no morale condition, Stress 2+: d20 +NRV +modifiers ≥15, ignoring Stress. Pass clears all Stress.
+Conscious, no morale condition, Stress 2+: d20 +NRV +modifiers ≥13, ignoring Stress. Pass clears all Stress.
 
 ## Rule text
 
-At the End Phase, each conscious fighter without a morale condition and with **2+ Stress** makes a Break test: **d20 + NRV + applicable modifiers vs 15+**, ignoring Stress. Success removes all Stress. Failure retains Stress and gives the following condition, based on the Stress amount:
+At the End Phase, each conscious fighter without a morale condition and with **2+ Stress** makes a Break test: **d20 + NRV + applicable modifiers vs 13+**, ignoring Stress. Success removes all Stress. Failure retains Stress and gives the following condition, based on the Stress amount:
 
 ^text-s043-b000
 

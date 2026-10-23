@@ -12,7 +12,7 @@ tags:
 - combat
 - melee
 - tests
-summary: Use STR −Stress plus modifiers; Agile substitutes AGI. No ordinary 15+ threshold.
+summary: Use STR −Stress plus modifiers; Agile substitutes AGI. No ordinary success threshold.
 status: Draft proposal
 review_status: Unreviewed
 publication: Included
@@ -31,7 +31,7 @@ related_rules:
 
 ## Summary
 
-Use STR −Stress plus modifiers; Agile substitutes AGI. No ordinary 15+ threshold.
+Use STR −Stress plus modifiers; Agile substitutes AGI. No ordinary success threshold.
 
 ## Rule text
 

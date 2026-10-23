@@ -28,7 +28,7 @@
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-014 - Displaced models and bad dice\|V2-014 · Displaced models and bad dice]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Five stats\|V2-015 · Five stats]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-016 - Movement and Wounds\|V2-016 · Movement and Wounds]] |  |
-| [[Settlements/Rules System/Second Draft/Rule Cards/V2-017 - Ordinary test\|V2-017 · Ordinary test]] |  |
+| [[Settlements/Rules System/Second Draft/Rule Cards/V2-017 - Ordinary test\|V2-017 · Ordinary test]] | 2026-10-22 |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-018 - Automatic and impossible tasks\|V2-018 · Automatic and impossible tasks]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-019 - Skill and equipment modifiers\|V2-019 · Skill and equipment modifiers]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-020 - Position modifiers\|V2-020 · Position modifiers]] |  |
@@ -80,7 +80,7 @@
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-065 - Reaction timing\|V2-065 · Reaction timing]] | 2026-10-19 |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-066 - Reaction limits\|V2-066 · Reaction limits]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-067 - Reaction Shoot\|V2-067 · Reaction Shoot]] | 2026-10-19 |
-| [[Settlements/Rules System/Second Draft/Rule Cards/V2-068 - Return Fire\|V2-068 · Return Fire]] | 2026-10-19 |
+| [[Settlements/Rules System/Second Draft/Rule Cards/V2-068 - Return Fire\|V2-068 · Return Fire]] | 2026-10-22 |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-069 - Dive\|V2-069 · Dive]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-070 - Operate reaction\|V2-070 · Operate reaction]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-071 - Interrupted action\|V2-071 · Interrupted action]] |  |
@@ -109,7 +109,7 @@
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-094 - Disengage\|V2-094 · Disengage]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-095 - Pinned escape and forced flight\|V2-095 · Pinned escape and forced flight]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-096 - Engaged repositioning\|V2-096 · Engaged repositioning]] |  |
-| [[Settlements/Rules System/Second Draft/Rule Cards/V2-097 - Shoot\|V2-097 · Shoot]] |  |
+| [[Settlements/Rules System/Second Draft/Rule Cards/V2-097 - Shoot\|V2-097 · Shoot]] | 2026-10-22 |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-098 - Natural shooting results\|V2-098 · Natural shooting results]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-099 - Aim\|V2-099 · Aim]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-100 - Shooting range and movement\|V2-100 · Shooting range and movement]] |  |
@@ -154,7 +154,7 @@
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress track\|V2-139 · Stress track]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-140 - Witness casualty\|V2-140 · Witness casualty]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-141 - Stress penalty\|V2-141 · Stress penalty]] |  |
-| [[Settlements/Rules System/Second Draft/Rule Cards/V2-142 - End Phase Break\|V2-142 · End Phase Break]] |  |
+| [[Settlements/Rules System/Second Draft/Rule Cards/V2-142 - End Phase Break\|V2-142 · End Phase Break]] | 2026-10-22 |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-143 - Broken\|V2-143 · Broken]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-144 - Bolting\|V2-144 · Bolting]] |  |
 | [[Settlements/Rules System/Second Draft/Rule Cards/V2-145 - Bugging Out\|V2-145 · Bugging Out]] |  |

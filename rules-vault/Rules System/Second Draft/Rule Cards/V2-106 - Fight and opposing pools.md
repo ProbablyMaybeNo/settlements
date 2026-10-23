@@ -35,7 +35,7 @@ Core; each die exceeding enemy's highest total hits. Equal maxima cause no hits;
 
 ## Rule text
 
-Melee compares attack pools rather than single tests. The complete procedure is in [[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#8 Shooting and close combat|shooting and close combat]]. Do not pair dice, subtract enemy stats, or count ordinary 15+ successes in a melee exchange.
+Melee compares attack pools rather than single tests. The complete procedure is in [[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#8 Shooting and close combat|shooting and close combat]]. Do not pair dice, subtract enemy stats, or count ordinary test successes in a melee exchange.
 
 ^text-s008-b000
 

@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - tests
 - opposed
-summary: Both roll d20 + stat/modifiers; highest wins; ties defend. No 15+ threshold.
+summary: Both roll d20 + stat/modifiers; highest wins; ties defend. No ordinary success threshold.
 status: Draft proposal
 review_status: Unreviewed
 publication: Included
@@ -27,7 +27,7 @@ related_rules:
 
 ## Summary
 
-Both roll d20 + stat/modifiers; highest wins; ties defend. No 15+ threshold.
+Both roll d20 + stat/modifiers; highest wins; ties defend. No ordinary success threshold.
 
 ## Rule text
 

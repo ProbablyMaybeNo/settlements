@@ -75,6 +75,10 @@ The individual-card migration is implemented. No app implementation, new playtes
 
 - [x] Prepare [[Draft 2 - Reaction Chains - For Testing|a separate target-only counterfire test variant]] at Ross's request: only the eligible target of a resolved shooting reaction may reply, paying READY and respecting one reaction per fighter per round. TEST VARIANT — NOT ADOPTED; no third-party joining, no playtest yet, no core rule/date changes.
 
+- [x] Apply Ross's confirmed ordinary target of **13+**, keeping all five stats at base **0 before existing recruitment point allocation**. An unmodified stat-0, Stress-0 ordinary test succeeds on 8 of 20 faces (40%); 14+ would be 35%, and the former 15+ was 30%. V2-015/V2-029 already express the accepted zero-base/range/allocation and are unchanged.
+- [x] Date actual threshold changes in V2-017 Ordinary test, V2-068 Return Fire, V2-097 Shoot and V2-142 End Phase Break **2026-10-22 (Pacific)**; update their summaries and matching review/index dates, direct reference formulas and the shooting example. Opposed explanations now avoid the obsolete number without changing opposed rules or their dates. Keep historical decisions/audits/simulation contracts unchanged; this decision supersedes their earlier ordinary 15+ wording. See [[design-012 Ordinary target 13 and zero-base stats]].
+- [ ] Confirm separately if Injury's independently written **15+** formula should ever change. It is retained with its example, outcomes and table bands; this ordinary stat/hit-test decision supplies no Injury ruling. No dice, modifier-cap, stat-budget, price, wound or engine changes; no playtest or balance claim.
+
 ## Individual rule cards and views
 
 - [x] Create a note for every original review entry and add thirty-one separately addressable entries found during the coverage pass: 484 total.
