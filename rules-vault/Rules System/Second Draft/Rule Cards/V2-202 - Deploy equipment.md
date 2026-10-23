@@ -23,6 +23,7 @@ review_notes: ''
 action_cost: Core
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-203 - Device arming delay]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Deploy equipment

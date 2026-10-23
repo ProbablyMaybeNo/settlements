@@ -36,6 +36,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-228 - Weapon profile fields]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-230 - Long-range weapon limit]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-240 - Quiet]]'
+planned_section: "07 · Equipment"
 ---
 
 # Suppressed carbine

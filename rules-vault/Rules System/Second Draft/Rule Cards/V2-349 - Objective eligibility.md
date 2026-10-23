@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-350 - Claim]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-351 - Retrieve and transfer]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-352 - Work]]'
+planned_section: "05 · Scenarios"
 ---
 
 # Objective eligibility

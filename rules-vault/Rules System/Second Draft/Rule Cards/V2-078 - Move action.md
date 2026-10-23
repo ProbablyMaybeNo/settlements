@@ -22,6 +22,7 @@ review_notes: ''
 action_cost: Move
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-080 - Difficult and half-speed movement]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Move action

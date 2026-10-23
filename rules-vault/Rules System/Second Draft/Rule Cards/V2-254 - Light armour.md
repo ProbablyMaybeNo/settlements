@@ -26,6 +26,7 @@ rule: Armour 1
 access: Basic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
+planned_section: "07 · Equipment"
 ---
 
 # Light armour

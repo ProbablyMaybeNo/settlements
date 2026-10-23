@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-131 - Loot casualty]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-132 - Loot ownership]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Dropped gear

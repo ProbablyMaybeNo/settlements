@@ -28,6 +28,7 @@ scoring: 2 points for each cargo taken off your deployment edge; 1 point for eac
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-355 - Mission generator]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-363 - Recover supplies secondary]]'
+planned_section: "05 · Scenarios"
 ---
 
 # Retrieve primary

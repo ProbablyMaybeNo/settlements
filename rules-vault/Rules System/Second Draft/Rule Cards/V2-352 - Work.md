@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-348 - Control and contest]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-350 - Claim]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-351 - Retrieve and transfer]]'
+planned_section: "05 · Scenarios"
 ---
 
 # Work

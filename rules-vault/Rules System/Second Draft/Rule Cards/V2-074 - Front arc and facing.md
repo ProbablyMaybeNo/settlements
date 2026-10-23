@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-075 - Body-based LOS]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-076 - Prone visibility]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-077 - Rear attack bonus]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Front arc and facing

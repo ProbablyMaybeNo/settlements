@@ -27,6 +27,7 @@ rule: +2 to a climb with usable anchor points; permits otherwise smooth climbs w
 access: Basic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
+planned_section: "07 · Equipment"
 ---
 
 # Climbing kit

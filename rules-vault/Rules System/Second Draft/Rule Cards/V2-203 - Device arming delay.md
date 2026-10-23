@@ -23,6 +23,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploy equipment]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Device arming delay

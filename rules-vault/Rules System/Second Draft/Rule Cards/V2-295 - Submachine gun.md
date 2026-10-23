@@ -38,6 +38,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-230 - Long-range weapon limit]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-233 - Automatic X]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-236 - Close Combat]]'
+planned_section: "07 · Equipment"
 ---
 
 # Submachine gun

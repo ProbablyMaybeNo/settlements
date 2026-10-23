@@ -26,6 +26,7 @@ completion: Revive or evacuate one of your own Down fighters. This is optional; 
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-355 - Mission generator]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-363 - Recover supplies secondary]]'
+planned_section: "05 · Scenarios"
 ---
 
 # Rescue secondary

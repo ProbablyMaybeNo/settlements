@@ -22,6 +22,7 @@ review_notes: ''
 meaning: Strength, force, and ordinary melee attacks
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Five stats]]'
+planned_section: "02 · Core Mechanics"
 ---
 
 # STR characteristic

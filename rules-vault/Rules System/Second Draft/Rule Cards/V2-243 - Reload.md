@@ -23,6 +23,7 @@ review_notes: ''
 action_cost: Core
 rule: After firing, mark unloaded. Spend Core to Reload before firing again. A weapon begins the battle loaded.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Reload

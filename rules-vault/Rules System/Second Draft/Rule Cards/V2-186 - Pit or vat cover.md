@@ -25,6 +25,7 @@ occupied_space_and_counterplay: Opening beneath a model uses the bridge escape r
   crush someone beneath it; keep an accessible casualty marker.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Pit or vat cover

@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-106 - Fight and opposing pools]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-108 - Melee natural results]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-109 - Outnumbered penalty]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Defensive melee

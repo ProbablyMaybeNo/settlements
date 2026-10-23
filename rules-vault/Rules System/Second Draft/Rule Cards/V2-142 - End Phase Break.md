@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-145 - Bugging Out]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-146 - Forced low-Stress Break]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-149 - Withdrawn fighter]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # End Phase Break

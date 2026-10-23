@@ -44,6 +44,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-242 - Suppression]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-245 - Unwieldy]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-456 - Heavy]]'
+planned_section: "07 · Equipment"
 ---
 
 # Machine gun

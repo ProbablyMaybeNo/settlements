@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-017 - Ordinary test]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-019 - Skill and equipment modifiers]]'
+planned_section: "02 · Core Mechanics"
 ---
 
 # Stress-free rolls

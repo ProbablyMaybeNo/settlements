@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-065 - Reaction timing]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-071 - Interrupted action]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-072 - Incoming shooting window]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Reaction limits

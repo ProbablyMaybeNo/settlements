@@ -24,6 +24,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-162 - Direct Interact]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Dangerous terrain operation

@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-353 - Mission specification]]'
+planned_section: "03 · Playing the Game"
 ---
 
 # Non-killing victory routes

@@ -22,6 +22,7 @@ source:
 review_notes: ''
 rule: Expend the item after one declared use, even if it fails. It must be replaced between battles.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Single-use

@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-398 - No grade promotion]]'
+planned_section: "06 · The Crew"
 ---
 
 # Retraining

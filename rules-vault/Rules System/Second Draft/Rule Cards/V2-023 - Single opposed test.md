@@ -21,6 +21,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-024 - Opposed natural extremes]]'
+planned_section: "02 · Core Mechanics"
 ---
 
 # Single opposed test

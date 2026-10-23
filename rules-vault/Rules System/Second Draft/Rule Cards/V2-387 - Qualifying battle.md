@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-386 - Battle income]]'
+planned_section: "10 · The Settlement Round"
 ---
 
 # Qualifying battle

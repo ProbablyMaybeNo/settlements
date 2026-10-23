@@ -25,6 +25,7 @@ occupied_space_and_counterplay: Retraction under a model is dangerous; AGI succe
   2 inches, otherwise Fall.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Retractable bridge

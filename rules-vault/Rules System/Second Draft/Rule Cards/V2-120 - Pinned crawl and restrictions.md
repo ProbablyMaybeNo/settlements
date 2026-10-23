@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-117 - Pinned ranged protection]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-119 - Recover]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-121 - Help Recover]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Pinned crawl and restrictions

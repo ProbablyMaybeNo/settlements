@@ -24,6 +24,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-059 - Own attack limit]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Attack exceptions

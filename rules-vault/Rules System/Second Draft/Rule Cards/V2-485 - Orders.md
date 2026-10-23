@@ -28,6 +28,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-062 - Losing READY]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-063 - Reaction eligibility]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-066 - Reaction limits]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Orders

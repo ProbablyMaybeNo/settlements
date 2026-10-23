@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-049 - Light and heavy cover]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-051 - Elevated shooting]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Cover exceptions

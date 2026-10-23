@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-012 - Effect priority and stacking]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-013 - Declarations and spent resources]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-014 - Displaced models and bad dice]]'
+planned_section: "02 · Core Mechanics"
 ---
 
 # Distances and contact

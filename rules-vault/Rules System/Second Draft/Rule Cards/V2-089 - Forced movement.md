@@ -21,6 +21,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-091 - Single-carrier movement]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Forced movement

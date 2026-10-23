@@ -23,6 +23,7 @@ source:
 review_notes: ''
 rule: If the fighter has Aim, reroll one failed Attack Die with this weapon.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Precision

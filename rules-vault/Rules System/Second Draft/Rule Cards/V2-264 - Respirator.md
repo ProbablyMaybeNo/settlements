@@ -25,6 +25,7 @@ rule: Ignore irritant gas Stress; does not ignore smoke LOS
 access: Basic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
+planned_section: "07 · Equipment"
 ---
 
 # Respirator

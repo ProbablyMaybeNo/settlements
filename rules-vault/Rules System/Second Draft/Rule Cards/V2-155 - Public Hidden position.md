@@ -21,6 +21,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-154 - Hide action]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Public Hidden position

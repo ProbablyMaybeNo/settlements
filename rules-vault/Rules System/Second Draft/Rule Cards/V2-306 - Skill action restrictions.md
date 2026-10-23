@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Skill prerequisites]]'
+planned_section: "08 · Skills"
 ---
 
 # Skill action restrictions

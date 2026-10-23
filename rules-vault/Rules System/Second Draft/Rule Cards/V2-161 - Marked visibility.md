@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-159 - Hidden targeting]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-160 - Observe]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Marked visibility

@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-093 - Engaged action limits]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-095 - Pinned escape and forced flight]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-096 - Engaged repositioning]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Disengage

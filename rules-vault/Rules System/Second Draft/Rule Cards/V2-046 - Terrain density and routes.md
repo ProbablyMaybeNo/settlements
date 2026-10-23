@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-047 - Interactive battlefield minimum]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-048 - Declare terrain properties]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Terrain density and routes

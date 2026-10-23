@@ -23,6 +23,7 @@ operation_and_states: Clear one smoke or gas template linked to the vent, or tur
 occupied_space_and_counterplay: Clearing is immediate. It cannot remove a solid obstacle or a fire template.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Ventilation fans

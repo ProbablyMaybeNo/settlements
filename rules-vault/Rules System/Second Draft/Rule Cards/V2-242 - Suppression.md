@@ -22,6 +22,7 @@ source:
 review_notes: ''
 rule: If this attack hits but causes no Wound, add one extra Stress to the target, once for the whole attack.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Suppression

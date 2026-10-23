@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-031 - Fighter grade]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-032 - Specialist grade]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-033 - Leader grade]]'
+planned_section: "06 · The Crew"
 ---
 
 # Recruitment allocation

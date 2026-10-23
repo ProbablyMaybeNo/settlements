@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-177 - Displace]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-179 - Crush against casualties]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-180 - Smoke visibility]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Crush

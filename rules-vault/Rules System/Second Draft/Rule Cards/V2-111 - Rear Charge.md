@@ -23,6 +23,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-112 - Unanswered exchange]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Rear Charge

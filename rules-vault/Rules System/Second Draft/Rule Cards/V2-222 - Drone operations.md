@@ -28,6 +28,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-221 - Drone movement]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-224 - Drone control loss]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-227 - Drone wreck]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Drone operations

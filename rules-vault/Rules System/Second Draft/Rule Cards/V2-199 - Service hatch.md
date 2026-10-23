@@ -26,6 +26,7 @@ occupied_space_and_counterplay: Move through at half speed. The two ends are mar
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-201 - Usable terrain starting states]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Service hatch

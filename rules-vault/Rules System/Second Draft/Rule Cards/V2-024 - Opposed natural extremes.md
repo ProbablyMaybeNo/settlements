@@ -21,6 +21,7 @@ source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Single opposed tests]]'
 review_notes: ''
 related_rules: []
+planned_section: "02 · Core Mechanics"
 ---
 
 # Opposed natural extremes

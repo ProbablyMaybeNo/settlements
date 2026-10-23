@@ -22,6 +22,7 @@ review_notes: ''
 meaning: Climbing, jumping, balance, and Agile melee
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Five stats]]'
+planned_section: "02 · Core Mechanics"
 ---
 
 # AGI characteristic

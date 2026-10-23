@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-173 - Critical terrain protection]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Repair action

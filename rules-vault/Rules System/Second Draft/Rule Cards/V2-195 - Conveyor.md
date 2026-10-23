@@ -27,6 +27,7 @@ occupied_space_and_counterplay: Each object moves once per round. A conscious ri
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-201 - Usable terrain starting states]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Conveyor

@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-383 - Prisoner duration]]'
+planned_section: "06 · The Crew"
 ---
 
 # Early prisoner release

@@ -24,6 +24,7 @@ review_notes: ''
 rule: For each hit, roll two Injury dice and use the higher raw result as that hit's one Injury roll. It cannot
   cause two Wounds from one hit.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Brutal

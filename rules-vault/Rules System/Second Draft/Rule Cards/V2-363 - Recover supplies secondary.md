@@ -25,6 +25,7 @@ completion: Place one additional neutral cargo at the centre before deployment. 
   crew can score this secondary from that cargo. If both selected it, share that one marker.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-355 - Mission generator]]'
+planned_section: "05 · Scenarios"
 ---
 
 # Recover supplies secondary

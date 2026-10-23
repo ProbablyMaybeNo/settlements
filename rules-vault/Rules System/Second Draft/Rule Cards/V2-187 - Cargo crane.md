@@ -27,6 +27,7 @@ occupied_space_and_counterplay: The cargo must fit its marked lifting capacity. 
   Crush; otherwise Displace. Never lift a building.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Cargo crane

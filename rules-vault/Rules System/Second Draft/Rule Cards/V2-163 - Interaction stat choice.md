@@ -28,6 +28,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-478 - INT interactions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-479 - AGI interactions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-480 - NRV interactions]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Interaction stat choice

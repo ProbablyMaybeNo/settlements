@@ -23,6 +23,7 @@ review_notes: ''
 rule: Use the area attack procedure below. It cannot be dual-wielded or gain extra dice from Charge, skills, or
   Automatic.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Blast

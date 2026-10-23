@@ -24,6 +24,7 @@ occupied_space_and_counterplay: Closed shutters block LOS. Occupants are not inj
   manual control.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Window shutters

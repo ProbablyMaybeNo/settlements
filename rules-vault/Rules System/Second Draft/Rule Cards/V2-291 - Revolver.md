@@ -39,6 +39,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-230 - Long-range weapon limit]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-231 - Accurate]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-235 - Sidearm]]'
+planned_section: "07 · Equipment"
 ---
 
 # Revolver

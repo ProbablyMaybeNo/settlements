@@ -26,6 +26,7 @@ rule: Single-use; Treat or self-treatment
 access: Basic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
+planned_section: "07 · Equipment"
 ---
 
 # Medkit

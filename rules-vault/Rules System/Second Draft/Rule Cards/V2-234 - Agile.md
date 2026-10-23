@@ -22,6 +22,7 @@ source:
 review_notes: ''
 rule: Use AGI instead of STR for melee hit totals. Damage is unchanged.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Agile

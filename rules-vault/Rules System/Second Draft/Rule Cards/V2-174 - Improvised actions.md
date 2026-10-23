@@ -20,6 +20,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-175 - Improvisation limits]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Improvised actions

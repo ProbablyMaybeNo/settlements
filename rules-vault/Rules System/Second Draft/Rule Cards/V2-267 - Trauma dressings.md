@@ -27,6 +27,7 @@ rule: Single-use; when treating another fighter, reroll one failed treatment tes
 access: Clinic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
+planned_section: "07 · Equipment"
 ---
 
 # Trauma dressings

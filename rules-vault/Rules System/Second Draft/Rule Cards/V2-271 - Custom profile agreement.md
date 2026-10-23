@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-273 - One-handed ranged class]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-281 - Custom drawbacks and caps]]'
+planned_section: "07 · Equipment"
 ---
 
 # Custom profile agreement

@@ -27,6 +27,7 @@ rule: Single-use; Core on self or friendly in contact gives +2 to its next Break
 access: Clinic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
+planned_section: "07 · Equipment"
 ---
 
 # Anti-anxiety dose

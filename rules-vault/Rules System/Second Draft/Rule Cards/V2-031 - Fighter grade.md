@@ -26,6 +26,7 @@ starting_stat_maximum: '+3'
 starting_skills: 1
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-029 - Recruitment allocation]]'
+planned_section: "06 · The Crew"
 ---
 
 # Fighter grade

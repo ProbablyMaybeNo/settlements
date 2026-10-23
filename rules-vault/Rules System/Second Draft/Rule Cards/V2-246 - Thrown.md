@@ -23,6 +23,7 @@ review_notes: ''
 rule: A successful throw leaves the weapon at the target's position; a miss leaves it halfway along the line to
   the target. Recover it with Interact. It cannot be thrown again while lying on the table.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Thrown

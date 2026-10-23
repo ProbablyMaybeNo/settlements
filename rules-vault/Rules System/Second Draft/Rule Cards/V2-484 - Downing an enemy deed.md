@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-481 - Objective contribution deed]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-482 - Useful terrain deed]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-483 - Rescue or capture deed]]'
+planned_section: "06 · The Crew"
 ---
 
 # Downing an enemy deed

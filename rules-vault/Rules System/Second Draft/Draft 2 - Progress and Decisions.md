@@ -112,3 +112,13 @@ These decisions are written to make a coherent playable proposal. They have not 
 ## Historical record
 
 The former progress checklist and September simulation follow-ups remain in [[Rules System/Archived/Draft 2 before complete rulebook - 2026-10-17/Draft 2 - Progress and Decisions|the snapshot]]. Completed drafting is distinct from validated game balance; none of the playtest boxes above is checked by a document consistency pass.
+
+## Rule-card visual workspace — 2026-10-23
+
+- [x] Add a readable Rules table with Last updated, Status, tags, concise description and review notes; retain the existing rule dates and review values.
+- [x] Add a native Review board and category-coloured card strips, using existing Colored Tags and scoped CSS in bases-wrap.
+- [x] Add [[Settlements Rulebook Layout.base|Rulebook layout]] with thirteen chapter columns and a planning-only `planned_section` field on each card. Add Placement table, Moved cards, and an explicit deferred-inclusive alternative.
+- [x] Link [[Rule Cards - Visual Workspace|the visual workspace]] from both library entry notes. Moving a planning card does not change rule text, its revision date, the owning note's path, or current chapter embeds.
+- [ ] Apply Ross's eventual chosen layout/subsection order to the assembled manuscript after the placement review.
+
+This presentation work does not approve any rule, add a playtest result, or implement the discussed fall-incapacitation proposal.

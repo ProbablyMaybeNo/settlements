@@ -21,6 +21,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-368 - Recover fighters and equipment]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-369 - Lasting-injury eligibility]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # End and score

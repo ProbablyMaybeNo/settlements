@@ -30,6 +30,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-407 - Worker bonuses]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-422 - Structure rules]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-423 - Headquarters]]'
+planned_section: "09 · The Settlement"
 ---
 
 # Repair Depot

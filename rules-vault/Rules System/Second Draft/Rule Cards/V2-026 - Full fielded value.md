@@ -23,6 +23,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-025 - Battle budget]]'
+planned_section: "06 · The Crew"
 ---
 
 # Full fielded value

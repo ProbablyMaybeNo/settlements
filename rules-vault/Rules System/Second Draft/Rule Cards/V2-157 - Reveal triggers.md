@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-156 - Hidden movement]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-158 - Proximity and exposed reveal]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Reveal triggers

@@ -27,6 +27,7 @@ starting_skills: 2
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-029 - Recruitment allocation]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-031 - Fighter grade]]'
+planned_section: "06 · The Crew"
 ---
 
 # Specialist grade

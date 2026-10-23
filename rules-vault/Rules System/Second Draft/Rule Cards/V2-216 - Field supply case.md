@@ -29,6 +29,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-207 - Device damage]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-217 - Friendly mine triggers]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-218 - Turret operation]]'
+planned_section: "07 · Equipment"
 ---
 
 # Field supply case

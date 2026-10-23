@@ -28,6 +28,7 @@ rule: Occupies one hand. +1 Armour against attacks through the forward arc; tota
 access: Workshop
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
+planned_section: "07 · Equipment"
 ---
 
 # Protective shield

@@ -23,6 +23,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-126 - Treat ally]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Self-treatment

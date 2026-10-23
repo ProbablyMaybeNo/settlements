@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-392 - Levels]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-396 - Uninjured stats and grade]]'
+planned_section: "06 · The Crew"
 ---
 
 # Advance valuation

@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-412 - Selling equipment]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-414 - Demolition and prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-417 - Storage]]'
+planned_section: "09 · The Settlement"
 ---
 
 # Housing

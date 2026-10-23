@@ -1,7 +1,9 @@
 # Settlements Second Draft
 
-Start with **[[Rule Cards - Start Here|the individual rule-card library]]**: 483 active-library notes, a complete index, and 15 table/card views.
+Start with **[[Rule Cards - Start Here|the individual rule-card library]]**: 483 active-library notes, a complete index, and live table/card/board views.
 
+- [[Rule Cards - Visual Workspace|Visual workspace]] — table with Last updated/Status, coloured tags, cards and review board.
+- [[Settlements Rulebook Layout.base|Plan the rulebook layout]] — drag cards beneath the thirteen chapter headers; review proposed moves before reassembly.
 - [[Settlements Rule Cards.base|Browse and filter the cards]] — all entries, battle rules, combat, modifiers and catalogues.
 - [[Settlements Rulebook - Assembled]] — the agreed thirteen-chapter reading order, assembled from the same rule text.
 - [[Settlements Rules System Version 2]] — compatible master view retaining existing chapter/heading links.

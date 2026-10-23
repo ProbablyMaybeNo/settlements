@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-423 - Headquarters]]'
+planned_section: "09 · The Settlement"
 ---
 
 # Structure rules

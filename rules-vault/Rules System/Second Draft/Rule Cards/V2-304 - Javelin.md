@@ -40,6 +40,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-230 - Long-range weapon limit]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-238 - Piercing X]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-246 - Thrown]]'
+planned_section: "07 · Equipment"
 ---
 
 # Javelin

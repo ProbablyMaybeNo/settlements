@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Standard battle]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-006 - Template sizes — reconcile]]'
+planned_section: "01 · Introduction"
 ---
 
 # Bases and facing mark

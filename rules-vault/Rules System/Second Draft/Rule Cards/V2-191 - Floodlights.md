@@ -25,6 +25,7 @@ occupied_space_and_counterplay: While lit, remove Hidden in that zone and preven
   sight through cover or walls.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Floodlights

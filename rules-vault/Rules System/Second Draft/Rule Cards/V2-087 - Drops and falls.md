@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-085 - Free climbing]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-086 - Jumping]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Drops and falls

@@ -28,6 +28,7 @@ occupied_space_and_counterplay: Gas never causes direct Wounds. A respirator pre
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-201 - Usable terrain starting states]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Irritant gas vent

@@ -26,6 +26,7 @@ occupied_space_and_counterplay: Riders travel with it. Displace anyone at a bloc
   solid scenery.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Movable walkway

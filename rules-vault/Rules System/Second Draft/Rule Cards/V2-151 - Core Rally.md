@@ -25,6 +25,7 @@ action_cost: Core
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-150 - End Phase Rally]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-152 - Self-Rally restrictions]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Core Rally

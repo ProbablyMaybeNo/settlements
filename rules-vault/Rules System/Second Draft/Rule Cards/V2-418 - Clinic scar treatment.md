@@ -23,6 +23,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-420 - Between-battle device repair]]'
+planned_section: "09 · The Settlement"
 ---
 
 # Clinic scar treatment

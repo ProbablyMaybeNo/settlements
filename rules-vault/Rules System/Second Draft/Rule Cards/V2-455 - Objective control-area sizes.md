@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-454 - Objective limit]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Objective control-area sizes

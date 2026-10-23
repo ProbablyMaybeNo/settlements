@@ -37,6 +37,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-162 - Direct Interact]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploy equipment]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-243 - Reload]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Action reference

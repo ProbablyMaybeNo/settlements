@@ -26,6 +26,7 @@ rule: +2 INT to Repair a device, not Deploy or Hack
 access: Basic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
+planned_section: "07 · Equipment"
 ---
 
 # Tool kit

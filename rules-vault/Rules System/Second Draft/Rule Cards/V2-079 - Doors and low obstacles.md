@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move action]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-080 - Difficult and half-speed movement]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Doors and low obstacles

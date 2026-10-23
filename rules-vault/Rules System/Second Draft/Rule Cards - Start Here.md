@@ -2,7 +2,7 @@
 
 **483 active-library notes** now cover the review inventory and the additional named profile/advancement entries found during migration. Every original V2 ID and review-table comment is preserved.
 
-Start with [[Settlements/Rules System/Second Draft/Settlements Rule Cards.base|the table and card views]]. Switch between All entries, All cards, book sections, Battle rules, Combat, To-hit bonuses, Armour bonuses, weapons, keywords, skills, equipment/devices, terrain, structures and deferred proposals. The existing Bases core plugin is enabled in this vault; no plugin installation or configuration changes were made.
+Start with [[Rule Cards - Visual Workspace|the visual workspace]], [[Settlements/Rules System/Second Draft/Settlements Rule Cards.base|the table, cards and review board]], or [[Settlements Rulebook Layout.base|the chapter placement board]]. Switch between All entries, All cards, book sections, Battle rules, Combat, To-hit bonuses, Armour bonuses, weapons, keywords, skills, equipment/devices, terrain, structures and deferred proposals. Native Bases and the existing Colored Tags plugin provide these views. Scoped styling in the already-enabled bases-wrap CSS snippet adds readable cards and category/review strips; no additional plugin is installed. Last updated and Status are visible in the table. Planned section is outline-only metadata, with changes collected by the layout's Moved cards view.
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Complete linked index]] — every individual note.
 - [[Settlements/Rules System/Second Draft/Settlements Rulebook - Assembled|Assembled rulebook]] — the agreed chapter order, using the same rule text.

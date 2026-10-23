@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Leadership and specialists]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-035 - Heavy weapons and device limits]]'
+planned_section: "06 · The Crew"
 ---
 
 # Crews below five

@@ -21,6 +21,7 @@ source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#A recovery floor]]'
 review_notes: ''
 related_rules: []
+planned_section: "06 · The Crew"
 ---
 
 # Relief Volunteers

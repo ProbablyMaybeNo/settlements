@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-448 - Preparation limits]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-449 - Signal Plan]]'
+planned_section: "07 · Equipment"
 ---
 
 # Route Map

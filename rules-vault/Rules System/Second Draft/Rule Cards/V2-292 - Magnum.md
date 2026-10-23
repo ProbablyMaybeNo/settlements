@@ -38,6 +38,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-230 - Long-range weapon limit]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-235 - Sidearm]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-243 - Reload]]'
+planned_section: "07 · Equipment"
 ---
 
 # Magnum

@@ -21,6 +21,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-400 - Founding timing]]'
+planned_section: "09 · The Settlement"
 ---
 
 # Founding resources

@@ -23,6 +23,7 @@ source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Standard armoury]]'
 review_notes: ''
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Long-range weapon limit

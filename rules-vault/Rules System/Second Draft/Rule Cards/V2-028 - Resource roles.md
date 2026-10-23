@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-025 - Battle budget]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-026 - Full fielded value]]'
+planned_section: "06 · The Crew"
 ---
 
 # Resource roles

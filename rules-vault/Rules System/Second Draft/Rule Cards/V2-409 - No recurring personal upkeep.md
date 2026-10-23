@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-406 - Power allocation]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-407 - Worker bonuses]]'
+planned_section: "09 · The Settlement"
 ---
 
 # No recurring personal upkeep

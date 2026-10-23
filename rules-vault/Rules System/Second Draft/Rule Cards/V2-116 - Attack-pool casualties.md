@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-114 - Injury roll]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-115 - Injury outcomes]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Attack-pool casualties

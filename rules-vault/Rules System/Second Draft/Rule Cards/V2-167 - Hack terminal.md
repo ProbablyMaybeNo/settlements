@@ -25,6 +25,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-165 - Physical controls]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-166 - Terminal links]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Hack terminal

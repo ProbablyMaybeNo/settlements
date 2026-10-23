@@ -27,6 +27,7 @@ rule: Once per battle reroll a failed AGI test to avoid a fall; must be used wit
 access: Workshop
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
+planned_section: "07 · Equipment"
 ---
 
 # Safety harness

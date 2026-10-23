@@ -22,6 +22,7 @@ review_notes: ''
 meaning: Normally 1, with a maximum of 1 for human fighters
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Five stats]]'
+planned_section: "02 · Core Mechanics"
 ---
 
 # Wounds characteristic

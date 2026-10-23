@@ -24,6 +24,7 @@ review_notes: ''
 rule: −2 to hit if its wielder has moved earlier this round, including forced movement. Pivoting alone is not movement
   for this trait.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Unwieldy

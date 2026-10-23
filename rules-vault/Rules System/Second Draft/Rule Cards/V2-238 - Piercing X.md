@@ -22,6 +22,7 @@ source:
 review_notes: ''
 rule: Reduce Armour by X, minimum 0. It never increases Damage against an unarmoured target.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Piercing X

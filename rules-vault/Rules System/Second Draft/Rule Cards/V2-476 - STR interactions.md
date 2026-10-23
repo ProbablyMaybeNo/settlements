@@ -25,6 +25,7 @@ failure: Nothing changes; the action is Loud
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-162 - Direct Interact]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-164 - Dangerous terrain operation]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # STR interactions

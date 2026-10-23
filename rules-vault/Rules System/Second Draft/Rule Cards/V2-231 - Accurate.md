@@ -23,6 +23,7 @@ source:
 review_notes: ''
 rule: +1 to hit when the target is within half the weapon's printed range. No benefit in melee.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Accurate

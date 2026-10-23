@@ -21,6 +21,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-115 - Injury outcomes]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Injury roll

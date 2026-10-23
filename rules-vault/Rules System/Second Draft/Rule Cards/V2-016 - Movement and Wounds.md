@@ -30,6 +30,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-462 - MOVE characteristic]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-463 - Wounds characteristic]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-464 - Armour characteristic]]'
+planned_section: "02 · Core Mechanics"
 ---
 
 # Movement and Wounds

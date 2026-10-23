@@ -26,6 +26,7 @@ rule: Core Interact automatically clears one adjacent fire template; reusable
 access: Basic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
+planned_section: "07 · Equipment"
 ---
 
 # Fire extinguisher

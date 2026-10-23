@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-370 - Lasting-injury roll]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-372 - Convalescence]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-381 - Scar limits]]'
+planned_section: "06 · The Crew"
 ---
 
 # Shaken confidence

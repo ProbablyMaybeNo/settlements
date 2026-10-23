@@ -41,6 +41,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-234 - Agile]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-240 - Quiet]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-246 - Thrown]]'
+planned_section: "07 · Equipment"
 ---
 
 # Throwing knife

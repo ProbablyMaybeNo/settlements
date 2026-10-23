@@ -26,6 +26,7 @@ effect: Unavailable for your next battle and its Settlement round. After that ro
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-370 - Lasting-injury roll]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-381 - Scar limits]]'
+planned_section: "06 · The Crew"
 ---
 
 # Convalescence

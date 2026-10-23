@@ -22,6 +22,7 @@ source:
 review_notes: ''
 rule: May contribute one die to a melee pool. Uses STR there.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Sidearm

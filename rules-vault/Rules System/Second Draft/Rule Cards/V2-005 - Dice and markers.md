@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Standard battle]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-004 - Bases and facing mark]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-006 - Template sizes — reconcile]]'
+planned_section: "01 · Introduction"
 ---
 
 # Dice and markers

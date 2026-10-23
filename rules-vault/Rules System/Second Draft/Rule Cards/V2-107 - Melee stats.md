@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-108 - Melee natural results]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-109 - Outnumbered penalty]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-110 - Defensive melee]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Melee stats

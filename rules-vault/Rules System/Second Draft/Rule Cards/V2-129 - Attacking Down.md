@@ -22,6 +22,7 @@ source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Attacks against casualties]]'
 review_notes: ''
 related_rules: []
+planned_section: "04 · Fighting Battles"
 ---
 
 # Attacking Down

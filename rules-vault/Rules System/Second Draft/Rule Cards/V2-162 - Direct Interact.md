@@ -22,6 +22,7 @@ review_notes: ''
 action_cost: Core
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-164 - Dangerous terrain operation]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Direct Interact

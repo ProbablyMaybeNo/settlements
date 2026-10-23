@@ -25,6 +25,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress track]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-140 - Witness casualty]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Stress penalty

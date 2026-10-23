@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-099 - Aim]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-100 - Shooting range and movement]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-101 - One shooting target]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Natural shooting results

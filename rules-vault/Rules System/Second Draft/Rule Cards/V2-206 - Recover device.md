@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-204 - Concealed devices]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-205 - Disarm]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-207 - Device damage]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Recover device

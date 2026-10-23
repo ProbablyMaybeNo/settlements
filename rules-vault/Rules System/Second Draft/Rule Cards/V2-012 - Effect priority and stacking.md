@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-010 - Rounding and minimum pool]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-013 - Declarations and spent resources]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-014 - Displaced models and bad dice]]'
+planned_section: "02 · Core Mechanics"
 ---
 
 # Effect priority and stacking

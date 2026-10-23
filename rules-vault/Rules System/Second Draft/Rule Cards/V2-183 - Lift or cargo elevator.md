@@ -26,6 +26,7 @@ occupied_space_and_counterplay: No crushing under the lift. Someone standing ben
   safe space, the lift stops.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Lift or cargo elevator

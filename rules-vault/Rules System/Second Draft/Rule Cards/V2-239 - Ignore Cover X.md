@@ -22,6 +22,7 @@ source:
 review_notes: ''
 rule: Reduce the shooting cover penalty by X, minimum 0. Does not remove Hidden or bypass blocked LOS.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Ignore Cover X

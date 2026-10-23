@@ -31,6 +31,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-379 - Full recovery]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-380 - Hard-earned lesson]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-381 - Scar limits]]'
+planned_section: "06 · The Crew"
 ---
 
 # Lasting-injury roll

@@ -21,6 +21,7 @@ source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Hazards and utilities]]'
 review_notes: ''
 related_rules: []
+planned_section: "04 · Fighting Battles"
 ---
 
 # Usable terrain starting states

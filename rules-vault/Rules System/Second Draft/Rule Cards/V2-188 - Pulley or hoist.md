@@ -26,6 +26,7 @@ occupied_space_and_counterplay: A load can open a passage or screen a window. Dr
   uses Crush, once per round per target.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Pulley or hoist

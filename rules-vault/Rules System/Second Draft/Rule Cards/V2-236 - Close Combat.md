@@ -23,6 +23,7 @@ source:
 review_notes: ''
 rule: May contribute one die to melee despite being two-handed. It occupies both hands.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Close Combat

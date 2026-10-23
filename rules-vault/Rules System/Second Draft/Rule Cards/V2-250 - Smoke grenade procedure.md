@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Blast attack]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-252 - Fire zones]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Smoke grenade procedure

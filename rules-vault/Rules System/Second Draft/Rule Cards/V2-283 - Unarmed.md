@@ -34,6 +34,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Weapon hands and slots]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-228 - Weapon profile fields]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-230 - Long-range weapon limit]]'
+planned_section: "07 · Equipment"
 ---
 
 # Unarmed

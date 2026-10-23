@@ -21,6 +21,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-229 - Shared provisional prices]]'
+planned_section: "07 · Equipment"
 ---
 
 # Weapon profile fields

@@ -32,6 +32,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-473 - Level 8]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-474 - Level 9]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-475 - Level 10]]'
+planned_section: "06 · The Crew"
 ---
 
 # Levels

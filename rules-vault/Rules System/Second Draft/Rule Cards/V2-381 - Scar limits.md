@@ -25,6 +25,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-370 - Lasting-injury roll]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-372 - Convalescence]]'
+planned_section: "06 · The Crew"
 ---
 
 # Scar limits

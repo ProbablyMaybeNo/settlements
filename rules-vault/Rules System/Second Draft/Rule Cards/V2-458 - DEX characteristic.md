@@ -22,6 +22,7 @@ review_notes: ''
 meaning: Shooting, precise manipulation, and disarming
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Five stats]]'
+planned_section: "02 · Core Mechanics"
 ---
 
 # DEX characteristic

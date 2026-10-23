@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-401 - Settlement sequence]]'
+planned_section: "10 · The Settlement Round"
 ---
 
 # Allocation between battles

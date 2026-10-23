@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down state]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-124 - Two full rounds]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-125 - Unconscious state]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Down actions

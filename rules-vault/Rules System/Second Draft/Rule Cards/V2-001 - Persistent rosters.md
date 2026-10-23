@@ -20,6 +20,7 @@ source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Persistent play]]'
 review_notes: ''
 related_rules: []
+planned_section: "03 · Playing the Game"
 ---
 
 # Persistent rosters

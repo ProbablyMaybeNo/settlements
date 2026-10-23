@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-040 - Held weapon choices]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-041 - Heavy weapon handling]]'
+planned_section: "06 · The Crew"
 ---
 
 # Weapon hands and slots

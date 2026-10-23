@@ -22,6 +22,7 @@ source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Action reference]]'
 review_notes: ''
 related_rules: []
+planned_section: "04 · Fighting Battles"
 ---
 
 # Own attack limit

@@ -26,6 +26,7 @@ completion: Successfully operate two different interactive features while outsid
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-355 - Mission generator]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-363 - Recover supplies secondary]]'
+planned_section: "05 · Scenarios"
 ---
 
 # Open the route secondary

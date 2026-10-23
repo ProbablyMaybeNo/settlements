@@ -23,6 +23,7 @@ source:
 review_notes: ''
 rule: The printed ranged Dice value is X; do not add X again.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Automatic X

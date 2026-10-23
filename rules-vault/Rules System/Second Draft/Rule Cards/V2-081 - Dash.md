@@ -23,6 +23,7 @@ action_cost: Both
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-082 - Charge]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-083 - Failed Charge]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Dash

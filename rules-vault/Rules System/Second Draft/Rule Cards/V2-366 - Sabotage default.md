@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-365 - Escort default]]'
+planned_section: "05 · Scenarios"
 ---
 
 # Sabotage default

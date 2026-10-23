@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-354 - Non-killing victory routes]]'
+planned_section: "05 · Scenarios"
 ---
 
 # Mission specification

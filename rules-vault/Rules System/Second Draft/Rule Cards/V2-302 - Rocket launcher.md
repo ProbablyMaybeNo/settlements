@@ -48,6 +48,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-245 - Unwieldy]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-247 - Blast]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-456 - Heavy]]'
+planned_section: "07 · Equipment"
 ---
 
 # Rocket launcher

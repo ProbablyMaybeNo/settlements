@@ -22,6 +22,7 @@ source:
 - '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Shooting into an engagement]]'
 review_notes: ''
 related_rules: []
+planned_section: "04 · Fighting Battles"
 ---
 
 # Friendly fire

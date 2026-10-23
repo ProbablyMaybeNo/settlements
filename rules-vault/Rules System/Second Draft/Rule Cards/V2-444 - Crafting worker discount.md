@@ -24,6 +24,7 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-447 - Custom weapon access]]'
+planned_section: "09 · The Settlement"
 ---
 
 # Crafting worker discount

@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-177 - Displace]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-179 - Crush against casualties]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Smoke visibility

@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-097 - Shoot]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-099 - Aim]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-100 - Shooting range and movement]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # One shooting target

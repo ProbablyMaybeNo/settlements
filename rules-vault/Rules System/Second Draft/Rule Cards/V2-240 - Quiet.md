@@ -22,6 +22,7 @@ source:
 review_notes: ''
 rule: Firing does not itself remove Hidden if the shooter remains in cover. Other reveal rules still apply.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Quiet

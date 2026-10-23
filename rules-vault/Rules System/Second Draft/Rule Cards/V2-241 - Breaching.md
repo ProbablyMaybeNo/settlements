@@ -23,6 +23,7 @@ source:
 review_notes: ''
 rule: +2 STR when forcing a physical door or simple obstruction with this tool.
 related_rules: []
+planned_section: "07 · Equipment"
 ---
 
 # Breaching

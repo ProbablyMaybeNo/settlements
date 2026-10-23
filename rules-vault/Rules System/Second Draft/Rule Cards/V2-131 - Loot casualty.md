@@ -23,6 +23,7 @@ review_notes: ''
 action_cost: Core
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-132 - Loot ownership]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Loot casualty

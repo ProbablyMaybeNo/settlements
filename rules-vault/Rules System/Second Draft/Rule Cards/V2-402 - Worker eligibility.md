@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-401 - Settlement sequence]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-404 - Allocation between battles]]'
+planned_section: "10 · The Settlement Round"
 ---
 
 # Worker eligibility

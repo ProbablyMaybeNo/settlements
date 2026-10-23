@@ -29,6 +29,7 @@ rule: Single-use; Core in contact removes Pinned and 1 Stress from a conscious f
 access: Clinic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
+planned_section: "07 · Equipment"
 ---
 
 # Stimulant

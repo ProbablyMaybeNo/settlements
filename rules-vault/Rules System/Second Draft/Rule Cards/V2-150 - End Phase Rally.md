@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-151 - Core Rally]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-152 - Self-Rally restrictions]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # End Phase Rally

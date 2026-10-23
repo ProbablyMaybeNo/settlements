@@ -22,6 +22,7 @@ review_notes: ''
 meaning: Hacking, repair, medicine, and technical work
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Five stats]]'
+planned_section: "02 · Core Mechanics"
 ---
 
 # INT characteristic

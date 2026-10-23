@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-406 - Power allocation]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-407 - Worker bonuses]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-409 - No recurring personal upkeep]]'
+planned_section: "09 · The Settlement"
 ---
 
 # Generator worker

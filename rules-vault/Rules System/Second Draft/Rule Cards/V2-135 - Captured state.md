@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-136 - Extract captive]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-137 - Release or rescue captive]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-138 - Friendly evacuation]]'
+planned_section: "04 · Fighting Battles"
 ---
 
 # Captured state
