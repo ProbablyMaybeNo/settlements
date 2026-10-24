@@ -19,7 +19,7 @@ publication: Included
 created: '2026-10-19'
 last_rule_update: 2026-10-19
 source:
-- '[[Settlements/Rules System/Second Draft/Draft 2 - Progress and Decisions#Confirmed follow-up decisions - 2026-10-19]]'
+- '[[Settlements/Rules System/Rules Ledger/Draft 2 - Development decisions and history#Confirmed follow-up decisions - 2026-10-19]]'
 review_notes: 'Approved allowance, cost, range, LOS and recipient conditions; leader role/grade and finer activation timing still need clarification.'
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Leadership and specialists]]'
@@ -58,7 +58,7 @@ A fighter can hold at most one READY token. Receiving READY from an order does n
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Leadership and specialists|Leadership and specialists]]
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-061 - Ready action|Ready action]]
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-062 - Losing READY|Losing READY]]

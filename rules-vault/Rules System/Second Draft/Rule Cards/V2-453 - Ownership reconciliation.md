@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Settlement record fields]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Settlement record fields]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-452 - Settlement records]]'
@@ -42,7 +42,7 @@ At each battle's end, record the score, rewards, actual loot transfers, injuries
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Settlement record fields|Settlement record fields — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-452 - Settlement records|Settlement records]]
 

@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Attacks against casualties]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Attacks against casualties]]'
 review_notes: ''
 related_rules: []
 planned_section: "04 · Fighting Battles"
@@ -40,7 +40,7 @@ A Down or Unconscious fighter cannot be used as a shield for another model and d
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Attacks against casualties|Attacks against casualties — complete context]]
 
 ## Design notes

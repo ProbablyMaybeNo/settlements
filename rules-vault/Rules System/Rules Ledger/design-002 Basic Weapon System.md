@@ -4,18 +4,18 @@ rule_id: design-002
 category: weapons
 status: draft
 version: v0.1
-parent_phase: "[[Settlements/Rules System/Archived/Basic Weapon System]]"
+parent_phase: "[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Basic Weapon System]]"
 tags:
   - settlements/design
   - settlements/weapons
 ---
 
 > [!warning] Legacy reference — not the active Second Draft
-> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+> This note retains Draft 1 or prior discussion material. Use [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Settlements/Rules System/Rules Ledger/Draft 2 - Development decisions and history|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
 
 # design-002 · Basic Weapon System
 
-Recorded 2026-09-19. Current wording: [[Settlements/Rules System/Archived/Basic Weapon System]]. Stable entry point: [[Weapons]].
+Recorded 2026-09-19. Current wording: [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Basic Weapon System]]. Stable entry point: [[Weapons]].
 
 The current basic weapon system uses seven classes: Unarmed, 1h Ranged / Sidearm, 2h Ranged, Heavy 2h Ranged, 1h Melee, 2h Melee, and Thrown. Classes provide envelopes; named weapons are assembled from class values plus characteristics and drawbacks.
 

@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Characteristics]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Characteristics]]'
 review_notes: ''
 action_cost: Core
 rule: After firing, mark unloaded. Spend Core to Reload before firing again. A weapon begins the battle loaded.
@@ -52,7 +52,7 @@ Starts loaded; firing unloads; Core reloads before firing again.
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Characteristics|Characteristics — complete context]]
 
 ## Design notes

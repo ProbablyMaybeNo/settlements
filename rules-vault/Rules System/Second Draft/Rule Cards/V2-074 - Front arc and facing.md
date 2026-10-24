@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Facing and LOS]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Facing and LOS]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-075 - Body-based LOS]]'
@@ -48,7 +48,7 @@ A fighter sees through the **forward 180 degrees** of its base. Draw the dividin
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Facing and LOS|Facing and LOS — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-075 - Body-based LOS|Body-based LOS]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-076 - Prone visibility|Prone visibility]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-077 - Rear attack bonus|Rear attack bonus]]
 

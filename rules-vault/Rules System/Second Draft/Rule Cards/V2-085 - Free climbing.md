@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Climbing jumping and falling]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Climbing jumping and falling]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-086 - Jumping]]'
@@ -46,7 +46,7 @@ Stairs, ladders, and stable ramps use measured movement without a test. Free cli
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Climbing jumping and falling|Climbing jumping and falling — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-086 - Jumping|Jumping]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-087 - Drops and falls|Drops and falls]]
 

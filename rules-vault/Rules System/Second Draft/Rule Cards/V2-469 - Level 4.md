@@ -17,7 +17,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#The ten-level track]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#The ten-level track]]'
 review_notes: ''
 total_xp: 12
 advance: +1 to any one stat
@@ -55,7 +55,7 @@ At 12 total XP: +1 to any one stat; add 10 Crew Rating.
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - The ten-level track|The ten-level track — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-392 - Levels|Levels]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-395 - Advance valuation|Advance valuation]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-396 - Uninjured stats and grade|Uninjured stats and grade]]
 

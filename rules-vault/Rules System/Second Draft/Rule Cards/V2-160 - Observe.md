@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Targeting and Observe]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Targeting and Observe]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-159 - Hidden targeting]]'
@@ -45,7 +45,7 @@ An unengaged fighter may spend Core to **Observe** one Hidden enemy or one conce
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Targeting and Observe|Targeting and Observe — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-159 - Hidden targeting|Hidden targeting]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-161 - Marked visibility|Marked visibility]]
 

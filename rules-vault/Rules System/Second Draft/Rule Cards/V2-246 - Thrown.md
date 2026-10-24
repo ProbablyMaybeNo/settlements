@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Characteristics]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Characteristics]]'
 review_notes: ''
 rule: A successful throw leaves the weapon at the target's position; a miss leaves it halfway along the line to
   the target. Recover it with Interact. It cannot be thrown again while lying on the table.
@@ -44,7 +44,7 @@ Hit leaves weapon at target; miss halfway. Interact retrieves before throwing ag
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Characteristics|Characteristics — complete context]]
 
 ## Design notes

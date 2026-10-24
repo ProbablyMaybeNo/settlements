@@ -19,8 +19,8 @@ publication: Included
 created: '2026-10-18'
 last_rule_update: '2026-10-22'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Components]]'
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Blasts smoke and fire]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Components]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Blasts smoke and fire]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Standard battle]]'
@@ -65,7 +65,7 @@ Finally, you may want to create or buy some templates: a **3-inch-diameter circl
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Components|Components — complete context]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Blasts smoke and fire|Blasts smoke and fire — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Standard battle|Standard battle]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-004 - Bases and facing mark|Bases and facing mark]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Blast attack|Blast attack]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-250 - Smoke grenade procedure|Smoke grenade procedure]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-252 - Fire zones|Fire zones]]

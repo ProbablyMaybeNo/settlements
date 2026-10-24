@@ -68,11 +68,11 @@ Walkers are fully neutral — *"enemy… refers to any model that is not part of
 
 **Why it works.** **[INFERENCE]** The third-party threat **scales linearly with the size of the fight, so a bigger game is not a safer game** — and **nobody pays for it out of their own list.** The threat is a property of the scenario, not a purchase. And making it *steerable by both sides* turns it from atmosphere into a tactical resource: the walkers are a weapon neither player owns.
 
-**For Settlements.** This is the mechanical answer to the [[Ideas Inbox]] want for boards that *"feel alive"* — a pack of wolves, a rival scavenger band, an automated turret still running on old power. **Cost the threat against the game's Crew Rating cap, not against either crew**, and let both players push it. It composes directly with [[Settlements/Rules System/Archived/Events]] (already drafted, battlefield-only) and [[Settlements/Rules System/Archived/Scenarios]], and it's a way to make a territory feel dangerous without either player buying the danger.
+**For Settlements.** This is the mechanical answer to the [[Ideas Inbox]] want for boards that *"feel alive"* — a pack of wolves, a rival scavenger band, an automated turret still running on old power. **Cost the threat against the game's Crew Rating cap, not against either crew**, and let both players push it. It composes directly with [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Events]] (already drafted, battlefield-only) and [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Scenarios]], and it's a way to make a territory feel dangerous without either player buying the danger.
 
 ---
 ## Source
 
 - Primary: TWD: All Out War Anthology edition — rules, costing and campaign chapters
 - Long-form: `docs/POINTS-RESEARCH.md` §7.18
-- Related: [[Wargaming Research Hub]] · [[Trench Crusade]] · [[Last Days Zombie Apocalypse]] · [[Settlements/Rules System/Archived/Events]] · [[Settlements/Rules System/Archived/Scenarios]]
+- Related: [[Wargaming Research Hub]] · [[Trench Crusade]] · [[Last Days Zombie Apocalypse]] · [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Events]] · [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Scenarios]]

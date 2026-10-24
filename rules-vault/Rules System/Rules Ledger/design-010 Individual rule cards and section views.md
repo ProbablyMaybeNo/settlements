@@ -13,7 +13,7 @@ Ross explicitly requested one note/card for every rule and mechanic, including w
 - All 453 existing V2 IDs and their feedback preserved; thirty-one additional entries cover named profile stats, the Heavy keyword, the action menu, individual advancement levels, interaction types, XP deeds and the confirmed objective limit/diameters.
 - 22 weapon profiles, six weapon classes, eighteen weapon keywords, forty skills, twenty terrain profiles, nine deployables including the utility drone, sixteen armour/supply entries, twenty structures, four grades and ten lasting-injury outcomes.
 - Stable IDs, category/type, book placement, tags, summary, scope/status, review fields, printed profile data and related-rule links.
-- Fifteen table/card views in [[Settlements Rule Cards.base]], a complete index, thirteen section notes and [[Settlements Rulebook - Assembled]].
+- Fifteen table/card views in [[Settlements/Rules System/Second Draft/Settlements Rule Workspace.base#Rule index]], a complete index, thirteen section notes and [[Settlements Rulebook - Assembled]].
 
 ## Text ownership
 

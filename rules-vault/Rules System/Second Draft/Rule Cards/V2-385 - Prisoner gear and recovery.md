@@ -20,7 +20,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Captives]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Captives]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-383 - Prisoner duration]]'
@@ -45,7 +45,7 @@ Only actually looted gear transfers; injury/captivity timers overlap. No forced 
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Captives|Captives — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-383 - Prisoner duration|Prisoner duration]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-384 - Early prisoner release|Early prisoner release]]
 

@@ -20,7 +20,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Agility skills]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Agility skills]]'
 review_notes: ''
 stat: AGI
 use: Both
@@ -51,7 +51,7 @@ Both: Dash up to twice MOVE +2″; no attack.
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Agility skills|Agility skills — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Skill prerequisites|Skill prerequisites]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-306 - Skill action restrictions|Skill action restrictions]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-307 - Skill frequency|Skill frequency]]
 

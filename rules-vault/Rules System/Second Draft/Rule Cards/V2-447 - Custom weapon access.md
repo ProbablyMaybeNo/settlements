@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Crafting and availability]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Crafting and availability]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-444 - Crafting worker discount]]'
@@ -35,7 +35,7 @@ At least Workshop; range >24″ also Armoury; Heavy design Advanced Workshop.
 
 ## Rule text
 
-All weapons state their unlock in [[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#15 Weapons armour and equipment|weapons armour and equipment]]. Shields, climbing harnesses, frag grenades, and remote clamps need a Workshop. Heavy armour needs an Armoury. Blast mines, smoke emitters, hacking kits, and other ordinary equipment are Basic. Utility drones and sentries need a Drone Bay; its Workshop prerequisite must exist but need not also be powered just to purchase them. Rebuilding or Workshop crafting them requires both powered facilities. Clinic drugs and dressings need a Clinic. Custom weapon variants require at least a Workshop, plus Armoury for range over 24 inches or an Advanced Workshop for Heavy designs.
+All weapons state their unlock in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#15 Weapons armour and equipment|weapons armour and equipment]]. Shields, climbing harnesses, frag grenades, and remote clamps need a Workshop. Heavy armour needs an Armoury. Blast mines, smoke emitters, hacking kits, and other ordinary equipment are Basic. Utility drones and sentries need a Drone Bay; its Workshop prerequisite must exist but need not also be powered just to purchase them. Rebuilding or Workshop crafting them requires both powered facilities. Clinic drugs and dressings need a Clinic. Custom weapon variants require at least a Workshop, plus Armoury for range over 24 inches or an Advanced Workshop for Heavy designs.
 
 ^text-s091-b001
 
@@ -43,7 +43,7 @@ All weapons state their unlock in [[Settlements/Rules System/Second Draft/Settle
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Crafting and availability|Crafting and availability — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-444 - Crafting worker discount|Crafting worker discount]]
 

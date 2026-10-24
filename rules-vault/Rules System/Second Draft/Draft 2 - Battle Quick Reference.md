@@ -5,7 +5,7 @@ date: 2026-10-19
 ---
 # Settlements Version 2 Battle Quick Reference
 
-Companion to [[Settlements Rules System Version 2]]. Use this current Markdown reference. The previous PDF export is archived because it predates the October 19 Initiative and Pass-removal decisions; see [[Settlements/Rules System/Archived/Rule retirements - 2026-10-19/README|retirement record]]. Keep the selected roster, skills and feature cards beside it. This reference covers common battle procedures; full catalogues and settlement bookkeeping are in the manuscript.
+Companion to [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2]]. Use this current Markdown reference. The previous PDF export is archived because it predates the October 19 Initiative and Pass-removal decisions; see [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Rule retirements - 2026-10-19/README|retirement record]]. Keep the selected roster, skills and feature cards beside it. This reference covers common battle procedures; full catalogues and settlement bookkeeping are in the manuscript.
 
 ## Page 1 Tests and turns
 

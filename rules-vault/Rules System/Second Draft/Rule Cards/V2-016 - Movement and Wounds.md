@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#The profile]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#The profile]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Five stats]]'
@@ -62,7 +62,7 @@ Humans normally MOVE 6, *Armour 0–4* and exactly one Wound; experience never a
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - The profile|The profile — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Five stats|Five stats]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-457 - STR characteristic|STR characteristic]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-458 - DEX characteristic|DEX characteristic]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-459 - AGI characteristic|AGI characteristic]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-460 - INT characteristic|INT characteristic]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-461 - NRV characteristic|NRV characteristic]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-462 - MOVE characteristic|MOVE characteristic]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-463 - Wounds characteristic|Wounds characteristic]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-464 - Armour characteristic|Armour characteristic]]
 

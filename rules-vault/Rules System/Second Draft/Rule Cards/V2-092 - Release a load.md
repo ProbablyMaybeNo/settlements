@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Forced movement and carrying]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Forced movement and carrying]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-089 - Forced movement]]'
@@ -41,7 +41,7 @@ Drop during own action without test; enemy casualties must first be Secured.
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Forced movement and carrying|Forced movement and carrying — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-089 - Forced movement|Forced movement]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-091 - Single-carrier movement|Single-carrier movement]]
 

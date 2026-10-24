@@ -17,7 +17,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#A table that supports the game]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#A table that supports the game]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-046 - Terrain density and routes]]'
@@ -46,7 +46,7 @@ Agree what each piece represents: its footprint, height, cover grade, climbable 
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - A table that supports the game|A table that supports the game — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-046 - Terrain density and routes|Terrain density and routes]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-047 - Interactive battlefield minimum|Interactive battlefield minimum]]
 

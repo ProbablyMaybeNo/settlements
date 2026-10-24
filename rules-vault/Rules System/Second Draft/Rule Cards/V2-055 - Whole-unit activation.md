@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Alternating activations]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Alternating activations]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-056 - Both-cost actions]]'
@@ -46,7 +46,7 @@ Alternate fighters. Each activates once per round and resolves one Move and one 
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Alternating activations|Alternating activations — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-056 - Both-cost actions|Both-cost actions]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-058 - Passing and finishing|Passing and finishing]]
 

@@ -41,7 +41,7 @@ A battle has a primary objective and a secondary objective. There may never be m
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Objective areas|Objective areas — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-455 - Objective control-area sizes|Objective control-area sizes]]
 

@@ -13,7 +13,7 @@ created: 2026-10-18
 
 ## Integration
 
-[[Settlements Rules System Version 2]] updates definitions, Chapter 6 timing, Pinned recovery, Run and Gun, drone commands, morale movement, roster fields and examples. Heavy weapon profiles and the custom Heavy class now take two weapon slots. The included knife remains slot-free while stowed and needs one hand to use. Equipment slots, armour, costs and existing Heavy handling limits are unchanged.
+[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2]] updates definitions, Chapter 6 timing, Pinned recovery, Run and Gun, drone commands, morale movement, roster fields and examples. Heavy weapon profiles and the custom Heavy class now take two weapon slots. The included knife remains slot-free while stowed and needs one hand to use. Equipment slots, armour, costs and existing Heavy handling limits are unchanged.
 
 Each ordinary Move/Core has its own reaction window; existing one-reactor-per-action and one-reaction-per-model limits remain. Both-cost actions still spend both slots. Run and Gun retains a distinct effect: fire partway through movement and use one combined reaction window. A revived or assisted fighter cannot reactivate after its activation has ended.
 

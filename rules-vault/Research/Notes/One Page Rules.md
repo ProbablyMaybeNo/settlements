@@ -91,7 +91,7 @@ And they add a written guideline where maths can't reach **[FACT — from the ca
 
 > **Costing the extremes correctly is not the same as making them fun.**
 
-**For Settlements.** We already have the better version of the second instrument: `test-bench/` runs whole games in the 2.5D engine, which is a stronger validator than a wounds ratio. What we lack is the **badge** — a stated pass/fail criterion a list must meet. And the written-guideline point is worth taking literally in the [[Settlements/Rules System/Archived/Rulebook]]: some advice belongs in prose, not in the price list.
+**For Settlements.** We already have the better version of the second instrument: `test-bench/` runs whole games in the 2.5D engine, which is a stronger validator than a wounds ratio. What we lack is the **badge** — a stated pass/fail criterion a list must meet. And the written-guideline point is worth taking literally in the [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Rulebook]]: some advice belongs in prose, not in the price list.
 
 ---
 ## Deltas and a coarse grid
@@ -118,4 +118,4 @@ Special rules mix flat, derived and multiplicative forms **[FACT]**: Fear = 20 �
 
 - Primary: "AoF: Point Calculator v1.10" (official, archived copy), OPR patch notes
 - Long-form: `docs/POINTS-RESEARCH.md` §1.3, §1.4, §8
-- Related: [[Wargaming Research Hub]] · [[Song of Blades and Heroes]] · [[BattleTech]] · [[Settlements/Rules System/Archived/Balance]]
+- Related: [[Wargaming Research Hub]] · [[Song of Blades and Heroes]] · [[BattleTech]] · [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Balance]]

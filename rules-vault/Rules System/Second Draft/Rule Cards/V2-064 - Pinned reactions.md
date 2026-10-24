@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#READY]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#READY]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-062 - Losing READY]]'
@@ -42,7 +42,7 @@ Only Dive, and only if a specific rule retained READY while Pinned.
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - READY|READY — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-062 - Losing READY|Losing READY]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-063 - Reaction eligibility|Reaction eligibility]]
 

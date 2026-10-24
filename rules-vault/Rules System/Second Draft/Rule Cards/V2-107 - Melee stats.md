@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Melee exchange]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Melee exchange]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-106 - Fight and opposing pools]]'
@@ -47,7 +47,7 @@ Use STR −Stress plus modifiers; Agile substitutes AGI. No ordinary success thr
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Melee exchange|Melee exchange — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-106 - Fight and opposing pools|Fight and opposing pools]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-108 - Melee natural results|Melee natural results]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-109 - Outnumbered penalty|Outnumbered penalty]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-110 - Defensive melee|Defensive melee]]
 

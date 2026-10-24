@@ -87,8 +87,8 @@ the fighter becomes erratic or uncontrollable. N23's equivalent slot, **Head Inj
 flat **−1 Intelligence and −1 Willpower**. **[FACT]** The "your model behaves randomly forever"
 mechanic that both 1995 Necromunda and Mordheim shared is gone from the current edition,
 replaced by an ordinary stat debuff — GW's own negative result on a mechanic type Settlements
-already treats with caution (see [[Settlements/Rules System/Archived/Out of Scope — What Settlements is NOT]] on forced-behavior
-conditions, and compare [[Settlements/Rules System/Archived/Morale]]).
+already treats with caution (see [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Out of Scope — What Settlements is NOT]] on forced-behavior
+conditions, and compare [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Morale]]).
 
 **A third change: N23 invented a graduated recovery system 1995 never had.** 1995 has almost no
 "miss a future battle" mechanic outside Old Battle Wound's per-game re-check — every other named
@@ -100,7 +100,7 @@ many Lasting Injury rolls stack). **[FACT]**
 **For Settlements.** This is the strongest available evidence for how a AAA-scale, decades-run
 franchise actually tuned the exact chart our own **Fate** table (`natural 1 = Dead, natural 10 =
 Hardened, modifiers capped at +2`) descends from. Three structural notes to carry into
-[[Settlements/Rules System/Archived/Damage]] and [[Settlements/Rules System/Archived/Progression]]:
+[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Damage]] and [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Progression]]:
 
 - **The death-probability floor is worth pricing deliberately, not accidentally.** Whatever
   Fate's actual Dead-adjacent probability mass is, GW's own 28-year edit history shows the
@@ -152,7 +152,7 @@ the deltas are real numbers, not a placeholder, and sharpens the mechanism: the 
 meaningfully cheaper rule to steal — it needs one lookup per stat, not a running multiplier
 against the whole advancement history.
 
-**For Settlements.** Direct input to `docs/GLOBAL-POINTS-SYSTEM.md` and [[Settlements/Rules System/Archived/Progression]]: if a
+**For Settlements.** Direct input to `docs/GLOBAL-POINTS-SYSTEM.md` and [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Progression]]: if a
 "cost more to re-buy the same stat" rule is ever wanted, this is the verified published version
 to copy, including the fast-learner exemption for junior ranks — a clean way to let low-rank
 fighters (our Recruits?) advance cheaply without the same anti-farming friction veterans get.
@@ -194,8 +194,8 @@ excluded pile to a first-class tracked value.
 free idea: **name the excluded stash total** the way N23 names Wealth, rather than leaving it as
 an untracked pile. A named "Wealth" number costs nothing mechanically (it's a sum, not a new
 rule) and gives players and the campaign layer something to display for "everything you've ever
-owned" distinct from "what you're fielding today." See [[Settlements/Rules System/Archived/List Building]], [[Settlements/Rules System/Archived/Economy]],
-[[Settlements/Rules System/Archived/Campaign]].
+owned" distinct from "what you're fielding today." See [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/List Building]], [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Economy]],
+[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Campaign]].
 
 ---
 ## The Post-Battle Sequence — seven steps, rating updated last
@@ -230,7 +230,7 @@ shifting under the players' feet as they spend the same sequence's own income. *
 rulebook states the ordering as a fact; the "why" is our own reading of what it buys.]**
 
 **For Settlements.** Directly relevant to whatever post-battle/downtime loop
-[[Settlements/Rules System/Archived/Campaign]] and [[Settlements/Rules System/Archived/Downtime]] settle on: if Crew Rating is ever recalculated mid-sequence, this
+[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Campaign]] and [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Downtime]] settle on: if Crew Rating is ever recalculated mid-sequence, this
 is a clean published precedent for **freezing it until the very last step**, so nothing earlier
 in the sequence has to define "which Rating" it means.
 
@@ -258,8 +258,8 @@ the same knob: Trench Crusade caps *how many* regardless of skill; Necromunda ga
 can access the tier at all this visit*, rewarding an established, high-Reputation gang with
 easier access rather than a bigger allotment.
 
-**For Settlements.** Relevant to whatever gates rare/late equipment in [[Settlements/Rules System/Archived/Economy]] and
-[[Settlements/Rules System/Archived/List Building]]. The honest trade-off: a roll-gate rewards investment (Reputation, seniority)
+**For Settlements.** Relevant to whatever gates rare/late equipment in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Economy]] and
+[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/List Building]]. The honest trade-off: a roll-gate rewards investment (Reputation, seniority)
 but adds table-time variance and a "not this visit" result a player can't plan around; a
 `LIMIT: N` cap is fully plannable but doesn't reward an established gang for being established.
 **Worth a deliberate pick, not both** — see the anti-bloat tenet on parallel gating systems.
@@ -290,7 +290,7 @@ pacing; this is our own read against a game we know plays long in practice.]**
 **For Settlements.** No action needed — this is a confirmation, not a new finding. It's useful
 precisely because it shows *what* we cut: not an arbitrary choice, but the genre's own founding
 game's biggest structural cost. Worth citing the next time someone proposes adding a second roll
-"just for this one case" — see [[Settlements/Rules System/Archived/Shooting]], [[Settlements/Rules System/Archived/Melee]], and the locked *no second dice type*
+"just for this one case" — see [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Shooting]], [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Melee]], and the locked *no second dice type*
 tenet.
 
 ---
@@ -312,7 +312,7 @@ fighter keep functioning on their sidearm while their primary reloads, without n
 parallel "half-suppressed" model state. It's a narrower, cheaper way to add texture than a new
 model-level condition would be.
 
-**For Settlements.** Worth checking against [[Settlements/Rules System/Archived/Conditions]] and [[Weapons]]: if any future
+**For Settlements.** Worth checking against [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Conditions]] and [[Weapons]]: if any future
 ammo/heat/overload state is added, this is a published precedent for attaching it to the
 **item**, not the **unit** — avoids a combinatorial explosion of "model is docked -1 because one
 of their three weapons is degraded" special-casing.
@@ -335,7 +335,7 @@ the *entire available menu* by Status (rather than modifying individual actions'
 Broken or Seriously Injured fighter needs **zero new rules** to be meaningfully weaker: they
 simply have a much shorter list to choose from, most of it already forced. **[INFERENCE]**
 
-**For Settlements.** Compare against [[Settlements/Rules System/Archived/Initiative & Activation]] and whatever action-economy
+**For Settlements.** Compare against [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Initiative & Activation]] and whatever action-economy
 notation Settlements already uses — the Status-gates-the-menu pattern (rather than
 Status-modifies-each-action) is the cheaper implementation if a similar
 Broken/Suppressed/Down state ever needs its own restricted action list.

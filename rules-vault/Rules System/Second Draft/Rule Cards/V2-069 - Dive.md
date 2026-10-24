@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Reaction windows]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Reaction windows]]'
 review_notes: ''
 reaction: Dive
 resolution: 'Before an incoming shot or Charge, test AGI. Pass: move up to 3 inches to a legal position and become
@@ -59,7 +59,7 @@ Before Shoot/Charge, AGI test: pass moves up to 3″; either result Pins. Rechec
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Reaction windows|Reaction windows — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-065 - Reaction timing|Reaction timing]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-066 - Reaction limits|Reaction limits]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-071 - Interrupted action|Interrupted action]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-072 - Incoming shooting window|Incoming shooting window]]
 

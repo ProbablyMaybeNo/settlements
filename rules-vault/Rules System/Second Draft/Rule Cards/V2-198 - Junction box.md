@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Hazards and utilities]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Hazards and utilities]]'
 review_notes: ''
 operation_and_states: Turn power On or Off to up to two linked electronic features within 12 inches.
 occupied_space_and_counterplay: Mechanical positions stay where they are; active smoke, gas, and lights stop while
@@ -50,7 +50,7 @@ Power on/off up to two linked features within 12″; positions stay; active gas/
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Hazards and utilities|Hazards and utilities — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards|Terrain feature cards]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-201 - Usable terrain starting states|Usable terrain starting states]]
 

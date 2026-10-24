@@ -20,7 +20,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Shove and Grapple]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Shove and Grapple]]'
 review_notes: ''
 related_rules: []
 planned_section: "04 · Fighting Battles"
@@ -45,7 +45,7 @@ The Grapple skill offers a different use of the same opposed test. Its holding a
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Shove and Grapple|Shove and Grapple — complete context]]
 
 ## Design notes

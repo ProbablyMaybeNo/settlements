@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Deferred
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Generate a simple mission]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Generate a simple mission]]'
 review_notes: ''
 primary_type: Work
 setup: Two independent panels with separate progress for each crew
@@ -56,7 +56,7 @@ Two panels, separate crew progress; two successful Work tests completes panel fo
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Generate a simple mission|Generate a simple mission — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-355 - Mission generator|Mission generator]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-363 - Recover supplies secondary|Recover supplies secondary]]
 

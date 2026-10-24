@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Routes and access]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Routes and access]]'
 review_notes: ''
 operation_and_states: Rotate or slide a supported walkway between two marked connections within 4 inches of each
   other.
@@ -48,7 +48,7 @@ Rotate/slide between connections ≤4″ apart; riders travel; Displace blocked 
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Routes and access|Routes and access — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards|Terrain feature cards]]
 

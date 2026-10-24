@@ -17,7 +17,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Ordinary tests]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Ordinary tests]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-017 - Ordinary test]]'
@@ -34,7 +34,7 @@ Injury, Break, Rally, initiative, distance and post-battle rolls ignore Stress.
 
 ## Rule text
 
-Printed weapon Damage and Armour are profile values, not equipment characteristic bonuses. Injury rolls have their own formula in [[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#9 Injury casualties and rescue|injury casualties and rescue]] and **do not subtract Stress**. Break and Rally ignore Stress. Distance rolls, initiative, and post-battle tables are not stat tests and ignore Stress too.
+Printed weapon Damage and Armour are profile values, not equipment characteristic bonuses. Injury rolls have their own formula in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#9 Injury casualties and rescue|injury casualties and rescue]] and **do not subtract Stress**. Break and Rally ignore Stress. Distance rolls, initiative, and post-battle tables are not stat tests and ignore Stress too.
 
 ^text-s006-b002
 
@@ -46,7 +46,7 @@ Printed weapon Damage and Armour are profile values, not equipment characteristi
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Ordinary tests|Ordinary tests — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-017 - Ordinary test|Ordinary test]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-019 - Skill and equipment modifiers|Skill and equipment modifiers]]
 

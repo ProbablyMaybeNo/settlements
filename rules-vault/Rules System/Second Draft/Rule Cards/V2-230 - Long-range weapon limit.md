@@ -20,7 +20,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Standard armoury]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Standard armoury]]'
 review_notes: ''
 related_rules: []
 planned_section: "07 · Equipment"
@@ -35,13 +35,13 @@ One weapon exceeding 24″ per complete five humans, minimum one; count range-in
 
 ## Rule text
 
-The included utility knife cannot be duplicated for free to gain an off-hand die. Buy a second weapon if you want two weapons. A Heavy weapon is restricted by [[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#4 Building and equipping a crew|building and equipping a crew]], even if its profile has no movement penalty beyond Unwieldy. A standard crew may field at most **one weapon with range over 24 inches per complete five human fighters**, minimum allowance one. Range-increasing effects count toward this limit.
+The included utility knife cannot be duplicated for free to gain an off-hand die. Buy a second weapon if you want two weapons. A Heavy weapon is restricted by [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#4 Building and equipping a crew|building and equipping a crew]], even if its profile has no movement penalty beyond Unwieldy. A standard crew may field at most **one weapon with range over 24 inches per complete five human fighters**, minimum allowance one. Range-increasing effects count toward this limit.
 
 ^text-s063-b022
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Standard armoury|Standard armoury — complete context]]
 
 ## Design notes

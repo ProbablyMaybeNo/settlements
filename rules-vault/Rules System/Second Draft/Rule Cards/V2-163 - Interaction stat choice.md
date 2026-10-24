@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#One shared interaction procedure]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#One shared interaction procedure]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-162 - Direct Interact]]'
@@ -58,7 +58,7 @@ Force STR; fine work DEX; technical INT; traversal AGI; composure NRV. Ordinary 
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - One shared interaction procedure|One shared interaction procedure — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-162 - Direct Interact|Direct Interact]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-164 - Dangerous terrain operation|Dangerous terrain operation]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-476 - STR interactions|STR interactions]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-477 - DEX interactions|DEX interactions]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-478 - INT interactions|INT interactions]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-479 - AGI interactions|AGI interactions]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-480 - NRV interactions|NRV interactions]]
 

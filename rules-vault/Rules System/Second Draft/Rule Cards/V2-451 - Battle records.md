@@ -18,7 +18,7 @@ publication: Included
 created: '2026-10-18'
 last_rule_update: 2026-10-19
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Battle Roster fields]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Battle Roster fields]]'
 review_notes: ''
 related_rules: []
 planned_section: "06 · The Crew"
@@ -43,7 +43,7 @@ Beside each entry, leave boxes for Activated, Move, Core, READY, Reacted, Stress
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Battle Roster fields|Battle Roster fields — complete context]]
 
 ## Design notes

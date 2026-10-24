@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Composition]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Composition]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Leadership and specialists]]'
@@ -44,7 +44,7 @@ May field one utility drone; no Heavy weapon or powered combat device.
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Composition|Composition — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Leadership and specialists|Leadership and specialists]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-035 - Heavy weapons and device limits|Heavy weapons and device limits]]
 

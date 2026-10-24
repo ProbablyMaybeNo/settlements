@@ -17,7 +17,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Hazards and utilities]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Hazards and utilities]]'
 review_notes: ''
 operation_and_states: Cycle a marked 3-inch work area, then return to Open.
 occupied_space_and_counterplay: Uses Crush. It cannot enclose an unmarked room or permanently seal an objective.
@@ -49,7 +49,7 @@ Cycle 3″ work area using Crush, then reopen; nearby safety control; cannot per
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Hazards and utilities|Hazards and utilities — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards|Terrain feature cards]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-201 - Usable terrain starting states|Usable terrain starting states]]
 

@@ -17,7 +17,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Action reference]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Action reference]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-059 - Own attack limit]]'
@@ -85,7 +85,7 @@ Action costs and the standard Move, Core and Both action menu.
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Action reference|Action reference — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-059 - Own attack limit|Own attack limit]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-061 - Ready action|Ready action]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move action|Move action]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-081 - Dash|Dash]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-082 - Charge|Charge]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-094 - Disengage|Disengage]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-097 - Shoot|Shoot]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-099 - Aim|Aim]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-119 - Recover|Recover]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-121 - Help Recover|Help Recover]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-126 - Treat ally|Treat ally]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-131 - Loot casualty|Loot casualty]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-151 - Core Rally|Core Rally]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-154 - Hide action|Hide action]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-162 - Direct Interact|Direct Interact]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploy equipment|Deploy equipment]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-243 - Reload|Reload]]
 

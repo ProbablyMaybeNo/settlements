@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Building and naming weapons]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Building and naming weapons]]'
 review_notes: ''
 starting_profile: 1 die, Damage 1, range 8, Sidearm
 base_credits: 10
@@ -57,7 +57,7 @@ Add 5 Credits per extra Damage, 15 per extra Attack Die, 5 to extend a Sidearm f
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Building and naming weapons|Building and naming weapons — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-271 - Custom profile agreement|Custom profile agreement]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-281 - Custom drawbacks and caps|Custom drawbacks and caps]]
 

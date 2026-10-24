@@ -20,7 +20,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Pinned and Recover]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Pinned and Recover]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-117 - Pinned ranged protection]]'
@@ -50,7 +50,7 @@ You may leave a fighter Pinned while using other fighters, then choose a useful 
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Pinned and Recover|Pinned and Recover — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-117 - Pinned ranged protection|Pinned ranged protection]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-119 - Recover|Recover]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-121 - Help Recover|Help Recover]]
 

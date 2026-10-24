@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Melee exchange]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Melee exchange]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-108 - Melee natural results]]'
@@ -37,7 +37,7 @@ Core; each die exceeding enemy's highest total hits. Equal maxima cause no hits;
 
 ## Rule text
 
-Melee compares attack pools rather than single tests. The complete procedure is in [[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#8 Shooting and close combat|shooting and close combat]]. Do not pair dice, subtract enemy stats, or count ordinary test successes in a melee exchange.
+Melee compares attack pools rather than single tests. The complete procedure is in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#8 Shooting and close combat|shooting and close combat]]. Do not pair dice, subtract enemy stats, or count ordinary test successes in a melee exchange.
 
 ^text-s008-b000
 
@@ -53,7 +53,7 @@ Each die whose total **exceeds the opponent's highest total** scores a hit. Equa
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Melee exchange|Melee exchange — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-108 - Melee natural results|Melee natural results]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-109 - Outnumbered penalty|Outnumbered penalty]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-110 - Defensive melee|Defensive melee]]
 

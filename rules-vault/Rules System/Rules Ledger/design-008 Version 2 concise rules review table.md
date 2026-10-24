@@ -5,7 +5,7 @@ created: 2026-10-18
 ---
 # Version 2 concise rules review table
 
-Ross requested a concise, scannable Obsidian table covering all current Version 2 rules/mechanics, with names, categories, filtering tags, short descriptions and full-text links. [[Settlements Rules System Version 2 - Rules and Mechanics Review]] contains 453 entries and an additional Notes column for feedback.
+Ross requested a concise, scannable Obsidian table covering all current Version 2 rules/mechanics, with names, categories, filtering tags, short descriptions and full-text links. [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2 - Rules and Mechanics Review]] contains 453 entries and an additional Notes column for feedback.
 
 Entries include every named skill, weapon profile, weapon characteristic, equipment item, deployable, terrain feature, settlement structure and injury outcome, plus core procedures and roster bookkeeping. Each has a stable V2 reference. Worked examples are not duplicate mechanics; crossed-out source prose and presentation/campaign placeholders are excluded. Surviving rules elsewhere in the manuscript remain included.
 

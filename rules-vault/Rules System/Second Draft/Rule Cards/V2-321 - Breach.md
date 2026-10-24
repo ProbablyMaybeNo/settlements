@@ -20,7 +20,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Dexterity skills]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Dexterity skills]]'
 review_notes: ''
 stat: DEX
 use: Move modifier; once per round
@@ -53,7 +53,7 @@ Once/round during Move, STR forces ordinary closed door without Core; fail stops
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Dexterity skills|Dexterity skills — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Skill prerequisites|Skill prerequisites]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-306 - Skill action restrictions|Skill action restrictions]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-307 - Skill frequency|Skill frequency]]
 

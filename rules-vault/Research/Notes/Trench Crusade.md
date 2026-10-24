@@ -54,7 +54,7 @@ Every catalogue entry carries a **price in ducats** *and* a **`LIMIT: N`** cap, 
 
 So it persists across the whole campaign, allies are exempt, and **loot can exceed it**. That is a genuinely clever middle path: it constrains list-building without forbidding the narrative moment where you take the enemy's machine gun off the field.
 
-**For Settlements.** [[Settlements/Rules System/Archived/List Building]] currently gates by **rank**, which is a legitimate equivalent and needs no extra bookkeeping. The addition worth considering is a **printed cap column** on the [[Weapons]] catalogue for the handful of entries where rank alone isn't enough — and the loot exemption is a direct fit for the [[Ideas Inbox]] want of loot tables that can hand you gear you couldn't buy.
+**For Settlements.** [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/List Building]] currently gates by **rank**, which is a legitimate equivalent and needs no extra bookkeeping. The addition worth considering is a **printed cap column** on the [[Weapons]] catalogue for the handful of entries where rank alone isn't enough — and the loot exemption is a direct fit for the [[Ideas Inbox]] want of loot tables that can hand you gear you couldn't buy.
 
 ---
 ## Caps keyed to force value
@@ -85,7 +85,7 @@ The campaign power curve is a **published fixed schedule, not an emergent one** 
 
 **Everyone's ceiling rises on the same schedule regardless of who is winning.** Resupply scales with battles fought, not with performance.
 
-**For Settlements.** [[Settlements/Rules System/Archived/Campaign]] and [[Settlements/Rules System/Archived/Progression]]. A printed ladder is enormously better than "you keep what you earn" for a game that must stay playable between players with different play frequencies — which is exactly the failure mode measured in [[Necromunda and Mordheim#Play frequency beats skill]].
+**For Settlements.** [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Campaign]] and [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Progression]]. A printed ladder is enormously better than "you keep what you earn" for a game that must stay playable between players with different play frequencies — which is exactly the failure mode measured in [[Necromunda and Mordheim#Play frequency beats skill]].
 
 ---
 ## The rubber band you choose
@@ -101,7 +101,7 @@ To rebuild a mauled warband back up to the threshold you must **[FACT]**:
 
 **Catching up is always available and always costs you the upside phase.** That is a far better anti-snowball design than a win-rate-scaled handicap, **because the losing player chooses it.** No one is being handed charity, and no one is being punished for winning.
 
-**For Settlements.** The cleanest available answer to the catch-up problem in [[Settlements/Rules System/Archived/Campaign]], and it composes with our [[Settlements/Rules System/Archived/Downtime]] three-phase turn — foregoing a phase is a cost we can already express.
+**For Settlements.** The cleanest available answer to the catch-up problem in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Campaign]], and it composes with our [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Downtime]] three-phase turn — foregoing a phase is a cost we can already express.
 
 ---
 ## Cap the veterans, don't tax them
@@ -121,7 +121,7 @@ The consequences are deliberate: **advancement is free power**; two models at id
 
 **For Settlements — the fork.** Our current design is the opposite: *"each Advance a fighter carries adds +2 points to its cost"* — taxing veterans so they crowd out rookies, an anti-snowball valve. Compare [[The Walking Dead All Out War#Re-pricing veterans]], which taxes survival directly, and [[Last Days Zombie Apocalypse]], which never touches a veteran's cost. **Both shipped, neither is reported broken.**
 
-> **The rule that matters: pick the valve — price *or* cap — and let the other axis run. What you must not do is half of each.** See [[Settlements/Rules System/Archived/Progression]].
+> **The rule that matters: pick the valve — price *or* cap — and let the other axis run. What you must not do is half of each.** See [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Progression]].
 
 ---
 ## Glory
@@ -138,7 +138,7 @@ Glory buys effects with no ducat equivalent anywhere: armour that defeats armour
 
 **Why it works.** **Glory is a currency you earn by playing dramatically rather than efficiently**, and because deeds are claimed once per campaign it is **inherently self-limiting** — the second player to do a thing gets nothing. The designers give exactly one exchange data point (*"sell the book for either 150 ducats or 5 Glory Points"* → 1 Glory ≈ 30 ducats) and otherwise deliberately avoid a general conversion.
 
-**For Settlements.** This is the mechanical shape the [[Ideas Inbox]] "glorious deeds" want has been reaching for — leaping between buildings, downing an enemy with terrain, reviving a downed friendly, winning a hack-off. **The first-come-first-served claim is the piece that makes it self-limiting**, and it's free to add. See [[Settlements/Rules System/Archived/Progression]] and [[Settlements/Rules System/Archived/Economy]].
+**For Settlements.** This is the mechanical shape the [[Ideas Inbox]] "glorious deeds" want has been reaching for — leaping between buildings, downing an enemy with terrain, reviving a downed friendly, winning a hack-off. **The first-come-first-served claim is the piece that makes it self-limiting**, and it's free to add. See [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Progression]] and [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Economy]].
 
 ---
 ## Faction rules that edit the economy
@@ -149,7 +149,7 @@ Knights of Avarice **[FACT]**: *"Your force may have no models that cost less th
 
 **Why it works.** Faction identity written as a constraint on **the price list** rather than on the stat line. A minimum model cost produces an elite, few-bodies force *automatically*, with no special rules to balance.
 
-**For Settlements.** A third place to write [[Settlements/Rules System/Archived/Factions]] identity, alongside BLKOUT's one-playstyle-rule and Malifaux's hiring tax. This one costs nothing to balance because it only removes options.
+**For Settlements.** A third place to write [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Factions]] identity, alongside BLKOUT's one-playstyle-rule and Malifaux's hiring tax. This one costs nothing to balance because it only removes options.
 
 ---
 ## Melee is built, ranged is eyeballed
@@ -170,4 +170,4 @@ Two exact out-of-sample hits, with the anti-charge increment derived from a *dif
 
 - Primary: Trench Crusade v1.6.3 playtest PDFs + community BattleScribe `.cat`, read directly
 - Long-form: `docs/POINTS-RESEARCH.md` §7.10, §8.11
-- Related: [[Wargaming Research Hub]] · [[Necromunda and Mordheim]] (same designer lineage) · [[Last Days Zombie Apocalypse]] · [[The Walking Dead All Out War]] · [[Settlements/Rules System/Archived/Campaign]] · [[Settlements/Rules System/Archived/Progression]]
+- Related: [[Wargaming Research Hub]] · [[Necromunda and Mordheim]] (same designer lineage) · [[Last Days Zombie Apocalypse]] · [[The Walking Dead All Out War]] · [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Campaign]] · [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Progression]]

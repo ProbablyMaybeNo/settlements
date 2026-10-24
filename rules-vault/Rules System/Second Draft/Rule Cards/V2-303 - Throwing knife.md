@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Standard armoury]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Standard armoury]]'
 review_notes: ''
 credits: 10
 dice: 1
@@ -70,7 +70,7 @@ rule_parent: "Weapons"
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Standard armoury|Standard armoury — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Weapon hands and slots|Weapon hands and slots]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-228 - Weapon profile fields|Weapon profile fields]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-230 - Long-range weapon limit|Long-range weapon limit]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-234 - Agile|Agile]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-240 - Quiet|Quiet]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-246 - Thrown|Thrown]]
 

@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Buying selling and construction]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Buying selling and construction]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-410 - Purchase unlocks]]'
@@ -51,7 +51,7 @@ Pay Materials/reserve plot; prerequisites must exist, not necessarily powered. M
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Buying selling and construction|Buying selling and construction — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-410 - Purchase unlocks|Purchase unlocks]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-412 - Selling equipment|Selling equipment]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-414 - Demolition and prerequisites|Demolition and prerequisites]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-416 - Housing|Housing]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-417 - Storage|Storage]]
 

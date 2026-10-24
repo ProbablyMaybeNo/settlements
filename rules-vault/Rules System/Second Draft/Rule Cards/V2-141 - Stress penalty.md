@@ -20,7 +20,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Gaining Stress]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Gaining Stress]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress track]]'
@@ -47,7 +47,7 @@ Subtract current Stress from stat tests, shooting, and melee totals. Do not subt
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Gaining Stress|Gaining Stress — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress track|Stress track]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-140 - Witness casualty|Witness casualty]]
 

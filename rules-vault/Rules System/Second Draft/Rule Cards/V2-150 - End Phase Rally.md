@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Rally]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Rally]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-151 - Core Rally]]'
@@ -45,7 +45,7 @@ A fighter already carrying Broken, Bolting, or Bugging Out at the beginning of t
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Rally|Rally — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-151 - Core Rally|Core Rally]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-152 - Self-Rally restrictions|Self-Rally restrictions]]
 

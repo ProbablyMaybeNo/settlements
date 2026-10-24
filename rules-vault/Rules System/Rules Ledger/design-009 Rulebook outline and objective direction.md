@@ -5,7 +5,7 @@ status: Directions integrated into individual cards and chapter views; authored 
 ---
 # Rulebook outline and objective direction
 
-Ross supplied a thirteen-chapter outline and then clarified its learning sequence and scope. [[Settlements Rulebook Outline - Review and Proposed Structure]] contains the updated hierarchy and source mapping. These directions supersede the earlier outline recommendations where they differ.
+Ross supplied a thirteen-chapter outline and then clarified its learning sequence and scope. [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rulebook Outline - Review and Proposed Structure]] contains the updated hierarchy and source mapping. These directions supersede the earlier outline recommendations where they differ.
 
 ## Confirmed reading structure
 

@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Ordinary movement]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Ordinary movement]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move action]]'
@@ -41,7 +41,7 @@ Unlocked doors open during movement; closing costs Interact. Obstacles ≤1″ h
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Ordinary movement|Ordinary movement — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move action|Move action]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-080 - Difficult and half-speed movement|Difficult and half-speed movement]]
 

@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Down and Unconscious]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Down and Unconscious]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down state]]'
@@ -49,7 +49,7 @@ A Down fighter may only crawl up to half MOVE using its Move slot and attempt se
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Down and Unconscious|Down and Unconscious — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down state|Down state]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-124 - Two full rounds|Two full rounds]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-125 - Unconscious state|Unconscious state]]
 

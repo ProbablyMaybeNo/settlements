@@ -17,7 +17,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Hazards and utilities]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Hazards and utilities]]'
 review_notes: ''
 operation_and_states: Sound or Silence an alarm. Sounding removes Hidden from fighters within 3 inches of its marked
   panel.
@@ -50,7 +50,7 @@ Sound removes Hidden within 3″ of panel; Silence ends alarm; no global alert o
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Hazards and utilities|Hazards and utilities — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards|Terrain feature cards]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-201 - Usable terrain starting states|Usable terrain starting states]]
 

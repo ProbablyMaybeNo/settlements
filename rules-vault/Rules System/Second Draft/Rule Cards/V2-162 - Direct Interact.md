@@ -17,7 +17,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#One shared interaction procedure]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#One shared interaction procedure]]'
 review_notes: ''
 action_cost: Core
 related_rules:
@@ -52,7 +52,7 @@ Choose what you want to change, identify the control or object, spend Core, and 
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - One shared interaction procedure|One shared interaction procedure — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-164 - Dangerous terrain operation|Dangerous terrain operation]]
 

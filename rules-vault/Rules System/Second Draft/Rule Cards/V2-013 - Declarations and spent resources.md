@@ -18,7 +18,7 @@ publication: Included
 created: '2026-10-18'
 last_rule_update: 2026-10-19
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Common conventions]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Common conventions]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-007 - Distances and contact]]'
@@ -61,7 +61,7 @@ Declare choices before rolling; interrupted or impossible actions still spend de
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Common conventions|Common conventions — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-007 - Distances and contact|Distances and contact]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-008 - Legal movement and measuring|Legal movement and measuring]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-009 - Friendly and device definitions|Friendly and device definitions]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-010 - Rounding and minimum pool|Rounding and minimum pool]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-012 - Effect priority and stacking|Effect priority and stacking]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-014 - Displaced models and bad dice|Displaced models and bad dice]]
 

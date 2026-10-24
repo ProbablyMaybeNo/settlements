@@ -21,7 +21,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Engagement and withdrawal]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Engagement and withdrawal]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-093 - Engaged action limits]]'
@@ -48,7 +48,7 @@ Disengage normally spends Both slots. Test AGI opposed by one engaging enemy's A
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Engagement and withdrawal|Engagement and withdrawal — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-093 - Engaged action limits|Engaged action limits]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-096 - Engaged repositioning|Engaged repositioning]]
 

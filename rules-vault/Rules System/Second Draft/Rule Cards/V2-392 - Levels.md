@@ -17,7 +17,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#The ten-level track]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#The ten-level track]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-395 - Advance valuation]]'
@@ -74,7 +74,7 @@ New recruits start at **Level 0, XP 0**. Every **3 accumulated XP** grants the n
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - The ten-level track|The ten-level track — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-395 - Advance valuation|Advance valuation]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-396 - Uninjured stats and grade|Uninjured stats and grade]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-466 - Level 1|Level 1]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-467 - Level 2|Level 2]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-468 - Level 3|Level 3]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-469 - Level 4|Level 4]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-470 - Level 5|Level 5]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-471 - Level 6|Level 6]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-472 - Level 7|Level 7]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-473 - Level 8|Level 8]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-474 - Level 9|Level 9]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-475 - Level 10|Level 10]]
 

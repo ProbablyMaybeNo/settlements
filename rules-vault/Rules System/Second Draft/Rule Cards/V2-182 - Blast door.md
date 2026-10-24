@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Routes and access]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Routes and access]]'
 review_notes: ''
 operation_and_states: Open or Close a solid entrance up to 4 inches wide.
 occupied_space_and_counterplay: An occupied closing gap uses Crush. A failed operator test leaves it open. A manual
@@ -47,7 +47,7 @@ Open/close solid entrance ≤4″ wide; occupied closure uses Crush. Manual rele
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Routes and access|Routes and access — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards|Terrain feature cards]]
 

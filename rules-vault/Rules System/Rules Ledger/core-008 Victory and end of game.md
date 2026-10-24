@@ -4,19 +4,19 @@ rule_id: core-008
 category: core
 status: draft
 version: v0.1
-parent_phase: "[[Settlements/Rules System/Archived/Core Game Format]]"
+parent_phase: "[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Core Game Format]]"
 tags:
   - settlements/rule
   - settlements/cat/core
 ---
 
 > [!warning] Legacy reference — not the active Second Draft
-> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+> This note retains Draft 1 or prior discussion material. Use [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Settlements/Rules System/Rules Ledger/Draft 2 - Development decisions and history|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
 
 # core-008 · Victory and end of game
 > **core** · status **draft** · v0.1
 
-**Parent phase:** [[Settlements/Rules System/Archived/Core Game Format]] *(scenario detail → [[Settlements/Rules System/Archived/Scenarios]], not yet drafted)*
+**Parent phase:** [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Core Game Format]] *(scenario detail → [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Scenarios]], not yet drafted)*
 
 ## Text
 - Game length: **6 rounds** (~1.5 hrs), or ends immediately when a scenario objective completes.
@@ -24,6 +24,6 @@ tags:
 - **Resources are campaign earnings, not the win metric** — banked from **scenario-defined** sources (which may include holding objectives, kills, extraction, and/or a high-risk **Glorious Deed**, name WIP), *regardless of who won the battle*. Both players keep what they earned.
 - Tactical withdrawal / extraction remain valid strategies. Killing is never required to win — and is never itself a win.
 
-> [!info] Full scenario templates, VP tables, and bottling/end interactions land in [[Settlements/Rules System/Archived/Scenarios]].
+> [!info] Full scenario templates, VP tables, and bottling/end interactions land in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Scenarios]].
 
-*Graduated from [[Settlements/Rules System/Archived/Core Game Format]]. See [[Settlements/Rules System/Archived/Rules System MOC]].*
+*Graduated from [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Core Game Format]]. See [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Rules System MOC]].*

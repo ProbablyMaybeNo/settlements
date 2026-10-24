@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Recruitment]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Recruitment]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-030 - Recruit grade]]'
@@ -53,7 +53,7 @@ Pay the listed Credits from your treasury. Allocate the stat points once at recr
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Recruitment|Recruitment — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-030 - Recruit grade|Recruit grade]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-031 - Fighter grade|Fighter grade]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-032 - Specialist grade|Specialist grade]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-033 - Leader grade|Leader grade]]
 

@@ -19,7 +19,7 @@ publication: Included
 created: '2026-10-18'
 last_rule_update: 2026-10-19
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Start Phase]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Start Phase]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh]]'
@@ -43,7 +43,7 @@ Each player rolls a d20 and subtracts 1 from the result for each Broken fighter 
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Start Phase|Start Phase — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh|Round refresh]]
 

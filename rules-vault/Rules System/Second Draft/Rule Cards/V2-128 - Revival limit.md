@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Treat and self-treatment]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Treat and self-treatment]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-126 - Treat ally]]'
@@ -44,7 +44,7 @@ One successful revival per battle; never restores spent actions or removes lasti
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Treat and self-treatment|Treat and self-treatment — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-126 - Treat ally|Treat ally]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-127 - Self-treatment|Self-treatment]]
 

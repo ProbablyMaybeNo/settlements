@@ -4,22 +4,22 @@ rule_id: core-007
 category: core
 status: draft
 version: v0.3
-parent_phase: "[[Settlements/Rules System/Archived/Damage]]"
+parent_phase: "[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Damage]]"
 tags:
   - settlements/rule
   - settlements/cat/core
 ---
 
 > [!warning] Legacy reference — not the active Second Draft
-> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+> This note retains Draft 1 or prior discussion material. Use [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Settlements/Rules System/Rules Ledger/Draft 2 - Development decisions and history|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
 
 # core-007 · Casualties
 > **core** · status **draft** · v0.3
 
-**Parent phase:** [[Settlements/Rules System/Archived/Damage]]
+**Parent phase:** [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Damage]]
 
 ## Text
 
-![[Settlements/Rules System/Archived/Damage#Current damage rules — 2026-09-26]]
+![[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Damage#Current damage rules — 2026-09-26]]
 
 Revised 2026-09-26 by user approval. Prior version preserved in [[Archived/Melee revision - 2026-09-26/README]].

@@ -19,7 +19,7 @@ publication: Included
 created: '2026-10-18'
 last_rule_update: '2026-10-22'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Shooting]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Shooting]]'
 review_notes: ''
 action_cost: Core
 related_rules:
@@ -42,7 +42,7 @@ Core; legal front-arc target in range/LOS. Each d20 +DEX +modifiers −Stress �
 | --- | --- |
 | Action | Shoot or Fight |
 | Cost | Core |
-| Main effect | One attack using [[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#8 Shooting and close combat|shooting and close combat]] |
+| Main effect | One attack using [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#8 Shooting and close combat|shooting and close combat]] |
 
 ^text-s019-b005
 
@@ -58,7 +58,7 @@ Choose held weapons and one legal target in the shooter's forward arc, within we
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Shooting|Shooting — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-099 - Aim|Aim]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-100 - Shooting range and movement|Shooting range and movement]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-101 - One shooting target|One shooting target]]
 

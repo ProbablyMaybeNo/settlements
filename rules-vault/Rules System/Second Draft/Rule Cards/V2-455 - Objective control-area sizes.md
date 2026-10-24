@@ -42,7 +42,7 @@ With **one to three objectives**, each objective has a **6-inch diameter**. With
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Objective areas|Objective areas — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-454 - Objective limit|Objective limit]]
 

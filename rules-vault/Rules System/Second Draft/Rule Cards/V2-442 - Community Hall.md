@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Structure catalogue]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Structure catalogue]]'
 review_notes: ''
 materials: 30
 prerequisite: Headquarters
@@ -60,7 +60,7 @@ rule_parent: "Structures"
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Structure catalogue|Structure catalogue — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-406 - Power allocation|Power allocation]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-407 - Worker bonuses|Worker bonuses]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-422 - Structure rules|Structure rules]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-423 - Headquarters|Headquarters]]
 

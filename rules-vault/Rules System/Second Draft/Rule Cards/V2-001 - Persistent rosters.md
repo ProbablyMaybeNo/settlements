@@ -17,8 +17,8 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Persistent play]]'
-review_notes: ''
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Persistent play]]'
+review_notes: "Previous index annotation: 10/20 - Ross"
 related_rules: []
 planned_section: "03 · Playing the Game"
 rule_parent: "Your Crew and Settlement"
@@ -46,7 +46,7 @@ A campaign may connect battles through a story or map. It is not required for an
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Persistent play|Persistent play — complete context]]
 
 ## Design notes

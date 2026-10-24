@@ -18,7 +18,7 @@ publication: Included
 created: '2026-10-18'
 last_rule_update: '2026-10-22'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Break]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Break]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-143 - Broken]]'
@@ -56,7 +56,7 @@ At the End Phase, each conscious fighter without a morale condition and with **2
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Break|Break — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-143 - Broken|Broken]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-144 - Bolting|Bolting]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-145 - Bugging Out|Bugging Out]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-146 - Forced low-Stress Break|Forced low-Stress Break]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-149 - Withdrawn fighter|Withdrawn fighter]]
 

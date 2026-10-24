@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Components]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Components]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Standard battle]]'
@@ -51,7 +51,7 @@ Use 28mm bases with a front-centre mark defining the 180° arc.
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Components|Components — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Standard battle|Standard battle]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-006 - Template sizes — reconcile|Template sizes — reconcile]]
 

@@ -20,7 +20,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Facing and LOS]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Facing and LOS]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-074 - Front arc and facing]]'
@@ -38,7 +38,7 @@ Attack wholly behind target's dividing line gains +2 to hit; target cannot react
 
 ## Rule text
 
-An attack declared from wholly behind the target's dividing line is a **rear attack**. It gains +2 to hit. The target cannot react to that attacker through its rear arc. Close-combat defence and rear charges are resolved in [[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#8 Shooting and close combat|shooting and close combat]].
+An attack declared from wholly behind the target's dividing line is a **rear attack**. It gains +2 to hit. The target cannot react to that attacker through its rear arc. Close-combat defence and rear charges are resolved in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#8 Shooting and close combat|shooting and close combat]].
 
 ^text-s023-b003
 
@@ -50,7 +50,7 @@ An attack declared from wholly behind the target's dividing line is a **rear att
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Facing and LOS|Facing and LOS — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-074 - Front arc and facing|Front arc and facing]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-075 - Body-based LOS|Body-based LOS]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-076 - Prone visibility|Prone visibility]]
 

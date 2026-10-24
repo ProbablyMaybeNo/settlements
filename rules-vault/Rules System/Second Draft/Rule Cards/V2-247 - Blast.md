@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Characteristics]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Characteristics]]'
 review_notes: ''
 rule: Use the area attack procedure below. It cannot be dual-wielded or gain extra dice from Charge, skills, or
   Automatic.
@@ -44,7 +44,7 @@ Area procedure; no dual-wielding or bonus dice from Charge, skills or Automatic.
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Characteristics|Characteristics — complete context]]
 
 ## Design notes

@@ -17,7 +17,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Earning experience]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Earning experience]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-389 - Participation XP]]'
@@ -53,7 +53,7 @@ A fighter earns the deed bonus once per battle, however many deeds they perform.
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Earning experience|Earning experience — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-389 - Participation XP|Participation XP]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-481 - Objective contribution deed|Objective contribution deed]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-482 - Useful terrain deed|Useful terrain deed]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-483 - Rescue or capture deed|Rescue or capture deed]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-484 - Downing an enemy deed|Downing an enemy deed]]
 

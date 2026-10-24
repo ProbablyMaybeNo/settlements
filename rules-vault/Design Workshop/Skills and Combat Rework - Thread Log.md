@@ -12,7 +12,7 @@ tags:
 # Skills and Combat Rework — Thread Log
 
 > [!important] Design history — current skills now integrated
-> On 2026-09-25 Ross authorised replacing the live skill system. The canonical list is [[Settlements/Rules System/Archived/Skills]]; this log preserves prior discussion and superseded proposals. Acquisition is explicitly undecided. The broader core mechanics remain subject to the integration decisions note.
+> On 2026-09-25 Ross authorised replacing the live skill system. The canonical list is [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Skills]]; this log preserves prior discussion and superseded proposals. Acquisition is explicitly undecided. The broader core mechanics remain subject to the integration decisions note.
 
 > Earlier boundary, retained for history:
 > This note tracks the discussion in this Codex task. It is outside `Rules System/` and does not amend the master, rules records, ledger, or roadmap. Decisions here are workshop directions until Ross explicitly authorises integration. The vault's scheduled mirror may copy this file into the repository; that does not make it authoritative.
@@ -58,7 +58,7 @@ Ross wanted tangible, consistent categories explaining how units gain capabiliti
 - **Advancements:** permanent positive changes to stats, Wounds, and movement, plus character development.
 - **Injuries:** lasting penalties and narrative consequences, with explicit recovery where relevant.
 
-The separate existing [[Settlements/Rules System/Archived/Modifier Design Framework|Modifier Design Framework]] records an earlier version of those boundaries. It has not been changed by this discussion.
+The separate existing [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Modifier Design Framework|Modifier Design Framework]] records an earlier version of those boundaries. It has not been changed by this discussion.
 
 ### Revised skill identity — supersedes the strict original restriction
 
@@ -1136,9 +1136,9 @@ Ross deliberately uses three designer-only archetypes plus extra flex; no player
 
 ## Integration authorised — 2026-09-25
 
-Ross accepted the assistant's final NERVE roster with HOLD FAST changed to flat -2 incoming injury rolls, regardless of cover. The fifteen are Inspire, Rally, Motivate, Sin Eater, Implode, Last Laugh, Hold Fast, Menacing, Lean on Me, Roar, On Your Feet, Commanding Presence, Beta Blocker, Unflinching and Big Aura. They are recorded in [[Settlements/Rules System/Archived/Skills#NRV]].
+Ross accepted the assistant's final NERVE roster with HOLD FAST changed to flat -2 incoming injury rolls, regardless of cover. The fifteen are Inspire, Rally, Motivate, Sin Eater, Implode, Last Laugh, Hold Fast, Menacing, Lean on Me, Roar, On Your Feet, Commanding Presence, Beta Blocker, Unflinching and Big Aura. They are recorded in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Skills#NRV]].
 
-Ross authorised archiving all previous skill-system entries and integrating the 75-skill replacement. Old skill material is archived. Skill acquisition is explicitly undecided, following his answer during integration. [[Settlements/Rules System/Archived/Skill Integration Decisions]] records remaining mechanics; this is not a claim of completed balance testing or a finished playable engine.
+Ross authorised archiving all previous skill-system entries and integrating the 75-skill replacement. Old skill material is archived. Skill acquisition is explicitly undecided, following his answer during integration. [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Skill Integration Decisions]] records remaining mechanics; this is not a claim of completed balance testing or a finished playable engine.
 
 
 ## Second Draft decision record — 2026-09-27
@@ -1163,10 +1163,10 @@ This dated record captures the subsequent thread decisions missing from the earl
 The simulation handoff proposed natural-20 priority/both-20 ties in opposed pools; excluding natural 1s from defence; separate positive/negative source caps; printed Damage outside the weapon cap; once-per-turn meaning once-per-round; and particular Pinned restrictions/recovery. These remain labelled test assumptions. Cover Me becoming ally Return Fire was suggested, not adopted. Full Break tables, failed-charge details and other unanswered mechanics are not silently inherited from Draft 1.
 
 ### Draft organisation authorised
-Ross requested a separate Second Draft using the old master's structure, containing only the discussion/working-record material, with blank unfinished systems and notes. Archive the old master once the new draft is created. See [[Rules System/Second Draft/Full Rules System v2]].
+Ross requested a separate Second Draft using the old master's structure, containing only the discussion/working-record material, with blank unfinished systems and notes. Archive the old master once the new draft is created. See [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Full Rules System v2]].
 
 
 ## Next-pass integration — 2026-09-29
 User authorised filling assumptions so the next simulation uses the intended rules. Pinned allows half-speed MOVE and Core-Action Recover. Dash is 2x MOVE; failed Charge moves up to MOVE toward the target and ends activation. Stress affects all unit rolls except Break/Rally. End-Phase Break at 2+ Stress is d20 + NRV vs 15+, ignoring Stress: pass clears Stress; failure keeps it and assigns Broken at 1–2, Bolting at 3–4, Bugging Out at 5+. Existing conditions Rally instead; failure retains the condition, success clears it and Stress. The die-total failure bands and Stress-subtracted formula are superseded.
 
-The current source caps remain ±4 skills / ±3 weapons / ±6 stats / ±6 armour. Printed Damage is separate; cap signed contributions separately; caps do not limit dice/inches/Wounds. Hidden -4 stacks with cover. No smaller skill roster or +3 cap adopted. The assistant-selected edge cases for this authorised pass are separately labelled in [[Rules System/Second Draft/Draft 2 - Simulation Assumptions]]; they are not retroactively attributed to Ross. Old reports are preserved as historical results, not fresh validation.
+The current source caps remain ±4 skills / ±3 weapons / ±6 stats / ±6 armour. Printed Damage is separate; cap signed contributions separately; caps do not limit dice/inches/Wounds. Hidden -4 stacks with cover. No smaller skill roster or +3 cap adopted. The assistant-selected edge cases for this authorised pass are separately labelled in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Draft 2 - Simulation Assumptions]]; they are not retroactively attributed to Ross. Old reports are preserved as historical results, not fresh validation.

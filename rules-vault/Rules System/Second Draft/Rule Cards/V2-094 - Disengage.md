@@ -20,7 +20,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Engagement and withdrawal]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Engagement and withdrawal]]'
 review_notes: ''
 action_cost: Both
 related_rules:
@@ -43,7 +43,7 @@ Both; opposed AGI. Pass moves MOVE; fail suffers one Unanswered exchange, then h
 | --- | --- |
 | Action | Disengage |
 | Cost | Both |
-| Main effect | Leave engagement by the procedure in [[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#7 Movement facing and visibility|movement facing and visibility]] |
+| Main effect | Leave engagement by the procedure in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#7 Movement facing and visibility|movement facing and visibility]] |
 
 ^text-s019-b015
 
@@ -55,7 +55,7 @@ Both; opposed AGI. Pass moves MOVE; fail suffers one Unanswered exchange, then h
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Engagement and withdrawal|Engagement and withdrawal — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-093 - Engaged action limits|Engaged action limits]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-095 - Pinned escape and forced flight|Pinned escape and forced flight]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-096 - Engaged repositioning|Engaged repositioning]]
 

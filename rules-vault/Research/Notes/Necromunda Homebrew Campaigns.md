@@ -31,7 +31,7 @@ tags: [settlements/research]
 ---
 ## Why it's here
 
-Our own [[Settlements/Rules System/Archived/Diplomacy]] note is an empty phase scaffold — no reputation tracking, no alliance mechanics,
+Our own [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Diplomacy]] note is an empty phase scaffold — no reputation tracking, no alliance mechanics,
 no betrayal rules, nothing drafted at all. Necromunda's official campaign layer doesn't fill that gap
 either. But thirty years of players have kept bolting the same handful of things onto it anyway, and
 **what they keep re-adding, independently, is the actual measure of what the official game left out.**
@@ -97,7 +97,7 @@ the break-check behind an impartial third party is what makes it work at the tab
 genuinely don't know if they're about to be betrayed, which is the actual feeling "diplomacy" is
 supposed to produce, bought for the cost of one extra person glancing at a die.
 
-**For Settlements.** [[Settlements/Rules System/Archived/Diplomacy]] is currently an empty scaffold with four bullet points and nothing
+**For Settlements.** [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Diplomacy]] is currently an empty scaffold with four bullet points and nothing
 drafted. This is a direct, cheap answer to two of them at once — "alliance mechanics: truces and
 betrayal" and, partially, "reputation." It maps onto our engine with zero friction: this is an event
 table, not an opposed stat test, so it doesn't need a d10 conversion or a Stat — it's a flat lookup,
@@ -126,7 +126,7 @@ shoot each other by mistake, which is funnier and more tense at the table than a
 betrayed." **Necromunda's whole design habit is turning an abstract campaign event into an actual
 scenario** — this is that habit applied to diplomacy specifically.
 
-**For Settlements.** Feeds [[Settlements/Rules System/Archived/Scenarios]] as much as [[Settlements/Rules System/Archived/Diplomacy]] — a reusable scenario shape ("a
+**For Settlements.** Feeds [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Scenarios]] as much as [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Diplomacy]] — a reusable scenario shape ("a
 meeting under threat of ambush, with a chance for the wrong side to get shot") that could sit alongside
 our existing objective types with the deal/alliance content swapped for whatever fits our setting
 (a black-market buy, a prisoner exchange, a ceasefire). The honest cost is table setup — this needs a
@@ -144,7 +144,7 @@ stop — house rivalries baked in as an absolute veto rather than a modifier.
 does more thematic work than a whole reputation sub-system**, because it tells you something true about
 the two factions without requiring either of them to have fought yet.
 
-**For Settlements.** Direct, nearly-free precedent for [[Settlements/Rules System/Archived/Factions]]: a short table of faction pairs that
+**For Settlements.** Direct, nearly-free precedent for [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Factions]]: a short table of faction pairs that
 simply cannot ally or trade, independent of any Diplomacy mechanic built on top. Costs one bullet list,
 zero new tracked numbers.
 
@@ -172,7 +172,7 @@ favour of a social-contract-only alliance** — almost certainly because the hid
 third party or a trusted app to arbitrate, and that's friction most groups don't want to carry every
 game.
 
-**For Settlements.** The honest read for [[Settlements/Rules System/Archived/Diplomacy]]: **don't assume the dice-backed version is
+**For Settlements.** The honest read for [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Diplomacy]]: **don't assume the dice-backed version is
 strictly better just because it's more mechanically interesting.** If Settlements can't guarantee a
 neutral party (or a digital secret-roll tool) at the table, the unenforced "alliances are just table talk
 until someone shoots" version is the one three separate homebrews independently converged on as the
@@ -195,7 +195,7 @@ else) is fixed in advance, so it doesn't feel arbitrary when it lands.
 
 **For Settlements.** If Settlements ever adopts anything like an Arbitrator/campaign-referee role (see
 next entry), this is the cheapest version of "and here's how the referee's discretion gets paid for" —
-one costed catch-all line in [[Settlements/Rules System/Archived/Campaign]], rather than an unbounded house-rule habit.
+one costed catch-all line in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Campaign]], rather than an unbounded house-rule habit.
 
 ---
 ## Arbitrator-curated rotating NPC pools — the same fix, invented twice
@@ -215,7 +215,7 @@ most credits just buys the best thing. **Rotating a small, Arbitrator-curated se
 I buy" into a weekly event with its own tension**, and rationing scarce items by gang rating (lowest
 first) is a free, built-in catch-up mechanic riding on top of the same tool.
 
-**For Settlements.** Directly useful for [[Settlements/Rules System/Archived/Economy]] and whatever [[Settlements/Rules System/Archived/Downtime]] ends up being: a rotating,
+**For Settlements.** Directly useful for [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Economy]] and whatever [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Downtime]] ends up being: a rotating,
 capped availability list is cheap to run (one random-generation step per session) and quietly does
 anti-snowball work for free. The honest cost is that it needs *someone* to run the generator — a solo
 player or a 2-player game with no Arbitrator needs this automated, not GM'd.
@@ -234,7 +234,7 @@ works whether or not a referee is present.
 cost — one stat block, two run-modes, and the printed AI rules only need to exist once because they're
 reused across every creature that carries the tag.
 
-**For Settlements.** Direct precedent for [[Settlements/Rules System/Archived/Solo & Co-op]]: any PvE opponent built for a
+**For Settlements.** Direct precedent for [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Solo & Co-op]]: any PvE opponent built for a
 multiplayer/Arbitrated game should be designed from the start to also run on simple printed rules, so
 the same content serves solo and refereed play without a parallel AI system.
 
@@ -258,7 +258,7 @@ shipped mistake worth logging. But the fix Lost Zone reaches for is a **second p
 and Settlements has already locked against that: *"One economy only... never introduce a second
 parallel currency"* (`AGENTS.md`). The diagnosis transfers; the cure doesn't.
 
-**For Settlements.** File the *symptom*, not the *treatment*, against [[Settlements/Rules System/Archived/Economy]]: a tracked number that
+**For Settlements.** File the *symptom*, not the *treatment*, against [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Economy]]: a tracked number that
 exists but gates nothing meaningful is worse than not tracking it at all. If Settlements ever adds a
 Reputation-like stat, the Lost Zone critique is the test to run against it before shipping — *does this
 number ever actually close a door, or does it just sit on the sheet* — without reaching for a second
@@ -284,7 +284,7 @@ economy), which is a second, unrelated data point for the pattern.
 
 **For Settlements.** Direct support for the locked tenet *"you win on objectives, never on kills"* — a
 multi-category end state is the campaign-scale expression of the same idea already locked at the
-battle scale. Worth a note in [[Settlements/Rules System/Archived/Campaign]] as a candidate for how a Settlements campaign concludes
+battle scale. Worth a note in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Campaign]] as a candidate for how a Settlements campaign concludes
 without crowning one winner and leaving everyone else with nothing to show for the campaign.
 
 ---
@@ -338,7 +338,7 @@ studio-authored (*"Here at the studio I have been running an Arbitrator campaign
 homebrew, and the identical table also circulates standalone as `campaign-events-orb.pdf` — the same
 table, not independent corroboration. Flagged here rather than smoothed over.
 
-**For Settlements.** Direct precedent for [[Settlements/Rules System/Archived/Events]] and [[Settlements/Rules System/Archived/Campaign]]: if Settlements ever runs a
+**For Settlements.** Direct precedent for [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Events]] and [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Campaign]]: if Settlements ever runs a
 periodic random-event table between battles, auditing every entry against "does this help the gang
 that's behind, or the gang that's ahead" is a cheap, one-time design pass that buys most of the
 catch-up value banding/underdog-bonus systems buy separately.
@@ -363,7 +363,7 @@ the D3-location cap and the shared random-event roll both cost nothing extra to 
 roll) but make every visit feel like it's happening somewhere, not in a menu. The "when to quit" gate on
 the two sub-games is a clean, self-terminating push-your-luck loop that needs no new die type.
 
-**For Settlements.** Directly feeds the "boards that feel alive" want and [[Settlements/Rules System/Archived/Settlement]]/[[Settlements/Rules System/Archived/Downtime]]: a
+**For Settlements.** Directly feeds the "boards that feel alive" want and [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Settlement]]/[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Downtime]]: a
 single shared event roll per settlement visit (not per location) is nearly free, and a visit-cap
 (D3-equivalent) keeps downtime bounded without a hard rule against doing things. The
 gambling/pit-fighting quit-gate is a reusable shape for any future push-your-luck side-activity.
@@ -383,10 +383,10 @@ pure flavour text — zero mechanics.** Reported plainly: one of three contribut
 
 **Why it's only a reference, not a steal.** There's a real, cheap template here (identity = odds-reweight
 + one signature rule), but it's thin — two data points confirming it, one contest entry with nothing at
-all, and none of the three attempt anything Settlements' own [[Settlements/Rules System/Archived/Settlement]] work hasn't already
+all, and none of the three attempt anything Settlements' own [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Settlement]] work hasn't already
 considered at a more developed level.
 
-**For Settlements.** Worth naming as a *minimum viable* settlement-identity pattern if [[Settlements/Rules System/Archived/Settlement]]
+**For Settlements.** Worth naming as a *minimum viable* settlement-identity pattern if [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Settlement]]
 ever needs a fast, low-cost way to differentiate a named location: don't design a new system, reweight
 the existing table and add exactly one signature rule. Don't spend more design budget on this specific
 source than that one sentence — the contest entries themselves didn't.
@@ -409,7 +409,7 @@ action token per surviving fighter, spent on exactly one of several named things
 trade-off — do I send this ganger to chase rare loot, or does he sit still and let someone else do the
 income run — without adding a new resource type to track long-term; the token doesn't carry over.
 
-**For Settlements.** Direct candidate for [[Settlements/Rules System/Archived/Downtime]]: instead of "every surviving fighter can attempt
+**For Settlements.** Direct candidate for [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Downtime]]: instead of "every surviving fighter can attempt
 every listed downtime action," gate the phase with one token per fighter that must be spent on exactly
 one action. Cheap to run (a token or a tick-box per model), and it turns downtime into a genuine
 allocation puzzle instead of a checklist.

@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Common deployables]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Common deployables]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-217 - Friendly mine triggers]]'
@@ -43,7 +43,7 @@ Turrets use the owner's one-reactor window, including Return Fire if targeted. T
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Common deployables|Common deployables — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-217 - Friendly mine triggers|Friendly mine triggers]]
 

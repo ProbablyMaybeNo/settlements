@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Deferred
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#A mission must state]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#A mission must state]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-354 - Non-killing victory routes]]'
@@ -45,7 +45,7 @@ Record deployment, the primary objective, one secondary objective per crew, scor
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - A mission must state|A mission must state — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-354 - Non-killing victory routes|Non-killing victory routes]]
 

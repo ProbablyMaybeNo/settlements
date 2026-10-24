@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Hazards and utilities]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Hazards and utilities]]'
 review_notes: ''
 operation_and_states: On places a 3-inch-diameter Difficult zone. A human entering or starting an action inside
   gains 1 Stress, at most once per round from gas.
@@ -52,7 +52,7 @@ rule_parent: "Interactive terrain"
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Hazards and utilities|Hazards and utilities — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards|Terrain feature cards]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-201 - Usable terrain starting states|Usable terrain starting states]]
 

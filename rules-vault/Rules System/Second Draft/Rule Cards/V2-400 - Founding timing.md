@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Founding package]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Founding package]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-399 - Founding resources]]'
@@ -38,7 +38,7 @@ Founding is the one exception to construction timing: all structures bought duri
 
 ^text-s085-b001
 
-The founding package can buy a six-person 750-Credit Battle Roster, two basic workers, a Workshop, and a Clinic. The worked example in [[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#22 Worked examples|worked examples]] shows the exact accounts. Persistent development does not require a campaign organiser, map, third player, or regular group.
+The founding package can buy a six-person 750-Credit Battle Roster, two basic workers, a Workshop, and a Clinic. The worked example in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#22 Worked examples|worked examples]] shows the exact accounts. Persistent development does not require a campaign organiser, map, third player, or regular group.
 
 ^text-s085-b002
 
@@ -46,7 +46,7 @@ The founding package can buy a six-person 750-Credit Battle Roster, two basic wo
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Founding package|Founding package — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-399 - Founding resources|Founding resources]]
 

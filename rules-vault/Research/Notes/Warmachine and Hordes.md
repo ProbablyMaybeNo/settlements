@@ -56,7 +56,7 @@ Two more non-points levers worth noting:
 - **Requisition Points** — *"1 Requisition Point per 25 points of game size,"* spendable only on a short list of free additions. **A budget that scales with game size and is spend-restricted rather than amount-restricted** — the same derived-budget shape as [[Infinity#SWC — the derived second budget]].
 - **Warjack/Warbeast Points** — a pool granted by your caster, usable only within their battlegroup. A budget that only exists in a context.
 
-**For Settlements.** The **raise-the-cap-as-a-reward** move is the transferable one and it's underused everywhere. In [[Settlements/Rules System/Archived/Factions]] or [[Settlements/Rules System/Archived/Territory]], "this unlocks a *higher* cap on X" is a more interesting payout than a flat bonus, and it composes with the [[Oathmark#The kingdom widens the menu]] principle — it widens the menu without touching the budget.
+**For Settlements.** The **raise-the-cap-as-a-reward** move is the transferable one and it's underused everywhere. In [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Factions]] or [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Territory]], "this unlocks a *higher* cap on X" is a more interesting payout than a flat bonus, and it composes with the [[Oathmark#The kingdom widens the menu]] principle — it widens the menu without touching the budget.
 
 ---
 ## The category trap
@@ -71,11 +71,11 @@ They sought *"the most fair and balanced approach to army composition across the
 
 > **[INFERENCE] Any structural requirement written in terms of a category smuggles in an assumption that the category's members are interchangeable.**
 
-**For Settlements.** Our pyramid — *"every Specialist requires two fighters of lower rank"* — is **safe precisely because rank *is* the cost tier.** A rule saying *"you must take two ranged specialists"* would not be. Worth stating explicitly in [[Settlements/Rules System/Archived/List Building]] as the test any future composition rule must pass: **is the category I'm writing this on a cost tier, or a flavour label?**
+**For Settlements.** Our pyramid — *"every Specialist requires two fighters of lower rank"* — is **safe precisely because rank *is* the cost tier.** A rule saying *"you must take two ranged specialists"* would not be. Worth stating explicitly in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/List Building]] as the test any future composition rule must pass: **is the category I'm writing this on a cost tier, or a flavour label?**
 
 ---
 ## Source
 
 - Primary: Will Shick / Privateer Press designer statements (April 2016); published scale figures
 - Long-form: `docs/POINTS-RESEARCH.md` §7.1
-- Related: [[Wargaming Research Hub]] · [[The Rampant line]] · [[Infinity]] · [[Settlements/Rules System/Archived/List Building]] · [[Settlements/Rules System/Archived/Balance]]
+- Related: [[Wargaming Research Hub]] · [[The Rampant line]] · [[Infinity]] · [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/List Building]] · [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Balance]]

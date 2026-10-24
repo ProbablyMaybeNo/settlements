@@ -17,7 +17,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Lasting-injury table]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Lasting-injury table]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-371 - Died of wounds]]'
@@ -73,7 +73,7 @@ Roll a d20 and read its pair of results. There are ten outcomes; only the first 
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Lasting-injury table|Lasting-injury table — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-371 - Died of wounds|Died of wounds]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-372 - Convalescence|Convalescence]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-373 - Damaged leg|Damaged leg]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-374 - Damaged arm|Damaged arm]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-375 - Damaged eye|Damaged eye]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-376 - Shell shock|Shell shock]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-377 - Shaken confidence|Shaken confidence]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-378 - Hatred|Hatred]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-379 - Full recovery|Full recovery]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-380 - Hard-earned lesson|Hard-earned lesson]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-381 - Scar limits|Scar limits]]
 

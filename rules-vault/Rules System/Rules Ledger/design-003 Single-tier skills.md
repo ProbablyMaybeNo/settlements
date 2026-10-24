@@ -5,13 +5,13 @@ date: 2026-09-25
 ---
 
 > [!warning] Legacy reference — not the active Second Draft
-> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+> This note retains Draft 1 or prior discussion material. Use [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Settlements/Rules System/Rules Ledger/Draft 2 - Development decisions and history|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
 
 # Single-tier skills
 
 Ross authorised archiving the previous skill system and replacing it with the thread's approved 75-skill list. HOLD FAST is a flat -2 to injury rolls, with no cover condition. Five stats have fifteen skills each, one tier; archetypes are not player prerequisites.
 
-Canonical catalogue: [[Settlements/Rules System/Archived/Skills]], embedded by [[Settlements/Rules System/Archived/Full Rules System v1]] section 14. Shared definitions: [[Settlements/Rules System/Archived/Keywords]]. Open decisions: [[Settlements/Rules System/Archived/Skill Integration Decisions]].
+Canonical catalogue: [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Skills]], embedded by [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Full Rules System v1]] section 14. Shared definitions: [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Keywords]]. Open decisions: [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Skill Integration Decisions]].
 
 Ross explicitly chose to leave acquisition undecided. Old tier unlocks and rank/campaign skill counts are retired; no replacement milestones or pricing were invented. Core dice conversion and remaining timing ambiguities are not falsely marked complete.
 

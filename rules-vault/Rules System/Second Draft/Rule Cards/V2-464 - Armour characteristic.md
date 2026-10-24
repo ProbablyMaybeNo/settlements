@@ -17,7 +17,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#The profile]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#The profile]]'
 review_notes: ''
 meaning: Protection supplied by equipment; normally 0–2
 related_rules:
@@ -45,7 +45,7 @@ Protection supplied by equipment; normally 0–2
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - The profile|The profile — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Five stats|Five stats]]
 

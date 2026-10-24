@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Routes and access]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Routes and access]]'
 review_notes: ''
 operation_and_states: Open or Close a cover over a marked hole up to 3 inches across.
 occupied_space_and_counterplay: Opening beneath a model uses the bridge escape rule then Fall. The cover cannot
@@ -47,7 +47,7 @@ Open/close hole ≤3″ across; opening under rider uses bridge escape/fall; no 
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Routes and access|Routes and access — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards|Terrain feature cards]]
 

@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Facing and LOS]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Facing and LOS]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-074 - Front arc and facing]]'
@@ -36,7 +36,7 @@ See head/torso of agreed 2″ human silhouette; decorations ignored. Solids and 
 
 ## Rule text
 
-Agree a normal human silhouette as a cylinder above its base, approximately 2 inches tall. Check LOS from the acting fighter's eye point to the target's head or torso volume; ignore decorative parts. A sliver of weapon, scenic base, or clothing is not enough. Solid walls block sight. Other standing fighters' base-width body volumes block sight, including friendly fighters. For shooting into engagement, use [[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#8 Shooting and close combat|shooting and close combat]].
+Agree a normal human silhouette as a cylinder above its base, approximately 2 inches tall. Check LOS from the acting fighter's eye point to the target's head or torso volume; ignore decorative parts. A sliver of weapon, scenic base, or clothing is not enough. Solid walls block sight. Other standing fighters' base-width body volumes block sight, including friendly fighters. For shooting into engagement, use [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#8 Shooting and close combat|shooting and close combat]].
 
 ^text-s023-b001
 
@@ -48,7 +48,7 @@ Agree a normal human silhouette as a cylinder above its base, approximately 2 in
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Facing and LOS|Facing and LOS — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-074 - Front arc and facing|Front arc and facing]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-076 - Prone visibility|Prone visibility]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-077 - Rear attack bonus|Rear attack bonus]]
 

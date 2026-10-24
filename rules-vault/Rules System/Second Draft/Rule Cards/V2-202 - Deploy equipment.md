@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Deploying equipment]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Deploying equipment]]'
 review_notes: ''
 action_cost: Core
 related_rules:
@@ -51,7 +51,7 @@ Carried devices already count in Crew Rating. Spend Core to place one in base co
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Deploying equipment|Deploying equipment — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-203 - Device arming delay|Device arming delay]]
 

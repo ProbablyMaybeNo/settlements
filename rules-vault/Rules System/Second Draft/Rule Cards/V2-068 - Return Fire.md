@@ -19,7 +19,7 @@ publication: Included
 created: '2026-10-18'
 last_rule_update: '2026-10-22'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Reaction windows]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Reaction windows]]'
 review_notes: ''
 reaction: Return Fire
 resolution: If the triggering enemy is shooting you and is a legal target, declare Return Fire before any attack dice are rolled. Both fighters shoot using independent normal 13+ shooting tests. Resolve both attacks from the positions and states at declaration, then apply both sets of outcomes. Both fighters can hit and be injured; complete the exchange even if one shooter is Downed by it.
@@ -57,7 +57,7 @@ When targeted, declare before dice; independent simultaneous normal 13+ shooting
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Reaction windows|Reaction windows — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-065 - Reaction timing|Reaction timing]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-066 - Reaction limits|Reaction limits]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-071 - Interrupted action|Interrupted action]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-072 - Incoming shooting window|Incoming shooting window]]
 

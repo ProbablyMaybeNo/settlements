@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Deferred
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Shared objective rules]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Shared objective rules]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-348 - Control and contest]]'
@@ -52,7 +52,7 @@ Core/contact plus named INT/DEX test; default two cumulative successes; failure 
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Shared objective rules|Shared objective rules — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-348 - Control and contest|Control and contest]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-350 - Claim|Claim]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-351 - Retrieve and transfer|Retrieve and transfer]]
 

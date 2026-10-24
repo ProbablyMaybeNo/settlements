@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Deferred
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Escort and sabotage conventions]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Escort and sabotage conventions]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-365 - Escort default]]'
@@ -45,7 +45,7 @@ For a sabotage objective, require Work at a marked charge or control point. The 
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Escort and sabotage conventions|Escort and sabotage conventions — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-365 - Escort default|Escort default]]
 

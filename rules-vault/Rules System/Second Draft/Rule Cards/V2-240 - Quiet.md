@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Characteristics]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Characteristics]]'
 review_notes: ''
 rule: Firing does not itself remove Hidden if the shooter remains in cover. Other reveal rules still apply.
 related_rules: []
@@ -43,7 +43,7 @@ Firing in cover does not itself reveal Hidden shooter; other reveal triggers rem
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Characteristics|Characteristics — complete context]]
 
 ## Design notes

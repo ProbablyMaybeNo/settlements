@@ -17,7 +17,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Break]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Break]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-142 - End Phase Break]]'
@@ -47,7 +47,7 @@ The 1-Stress entry is for effects that explicitly force a Break test. Never make
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Break|Break — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-142 - End Phase Break|End Phase Break]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-145 - Bugging Out|Bugging Out]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-149 - Withdrawn fighter|Withdrawn fighter]]
 

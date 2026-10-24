@@ -13,7 +13,7 @@ This reference brings together design arguments and examples from the six select
 
 The advice is contextual. A technique that supports tense competition may undermine a chaotic narrative game; a harsh survival game may intentionally accept experiences another design should avoid. The hosts' examples explain design choices rather than supply complete or current rules for the games mentioned. Caption errors can affect names and terminology, so important passages have direct video links.
 
-This is external design research. It does not adopt mechanics into [[Rules System/Second Draft/Full Rules System v2|Settlements Draft 2]] or decide its intentionally unfinished systems.
+This is external design research. It does not adopt mechanics into [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Full Rules System v2|Settlements Draft 2]] or decide its intentionally unfinished systems.
 
 For the detailed findings, examples and qualifications from each video, use [[Rule of Carnage Episode Notes]]. This guide combines recurring arguments by topic; the companion retains episode-level detail. Practical applications and the worksheet below are editorial synthesis. Introductions, promotions and unrelated conversation are outside the design reference's scope.
 

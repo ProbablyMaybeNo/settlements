@@ -38,7 +38,7 @@ The actual rule, in enough detail to use. Quote the rulebook where the exact wor
 
 **Why it works.** The mechanism, not the outcome. What is the rule actually doing structurally?
 
-**For Settlements.** What it would touch ([[Settlements/Rules System/Archived/List Building]], [[Settlements/Rules System/Archived/Campaign]], …), what it would cost us, and the honest objection. If it's already been evaluated and rejected, say so and say why — a rejected idea with a reason is worth more than an unexamined one.
+**For Settlements.** What it would touch ([[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/List Building]], [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Campaign]], …), what it would cost us, and the honest objection. If it's already been evaluated and rejected, say so and say why — a rejected idea with a reason is worth more than an unexamined one.
 
 ---
 ## <Second mechanic>

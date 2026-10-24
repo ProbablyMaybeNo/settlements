@@ -19,9 +19,9 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Carrying equipment]]'
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Composition]]'
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Standard armoury]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Carrying equipment]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Composition]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Standard armoury]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-035 - Heavy weapons and device limits]]'
@@ -50,7 +50,7 @@ Two hands; restricted handling and crew allowance. Heavy does not mean a third h
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Heavy keyword|Heavy keyword — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-035 - Heavy weapons and device limits|Heavy weapons and device limits]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Weapon hands and slots|Weapon hands and slots]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-041 - Heavy weapon handling|Heavy weapon handling]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-230 - Long-range weapon limit|Long-range weapon limit]]
 

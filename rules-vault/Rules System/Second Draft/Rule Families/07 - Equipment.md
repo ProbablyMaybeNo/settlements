@@ -38,11 +38,11 @@ Equipment · Rulebook family
 
 ## Parents
 
-![[Settlements/Rules System/Second Draft/Settlements Rule Progress.base#Parents in this family]]
+![[Settlements/Rules System/Second Draft/Settlements Rule Workspace.base#Family progress]]
 
 Open a parent to see its automatically filtered rules.
 
-- [[Settlements/Rules System/Second Draft/Rulebook Progress - Start Here|Progress definitions and instructions]]
+- [[Settlements/START HERE - Settlements Project#Completion progress|Progress definitions and instructions]]
 - [[Settlements/Rules System/Second Draft/Settlements Rule Parents.canvas|Parent canvas]]
 
 ## Family notes

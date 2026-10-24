@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Medical treatment and device repair]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Medical treatment and device repair]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-418 - Clinic scar treatment]]'
@@ -41,7 +41,7 @@ Replace used consumables normally; scrap has no sale/battle value; rebuilding re
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Medical treatment and device repair|Medical treatment and device repair — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-418 - Clinic scar treatment|Clinic scar treatment]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-420 - Between-battle device repair|Between-battle device repair]]
 

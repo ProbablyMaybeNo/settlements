@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Feature cards]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Feature cards]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
@@ -47,7 +47,7 @@ AGI escapes by Displace; failure/no space: Dmg 3 Injury ignoring Armour, then Pi
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Feature cards|Feature cards — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards|Terrain feature cards]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-177 - Displace|Displace]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-179 - Crush against casualties|Crush against casualties]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-180 - Smoke visibility|Smoke visibility]]
 

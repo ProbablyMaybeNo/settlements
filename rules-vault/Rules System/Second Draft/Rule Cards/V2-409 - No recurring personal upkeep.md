@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Power and workers]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Power and workers]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-406 - Power allocation]]'
@@ -46,7 +46,7 @@ No worker receives both a battle role and a production role for the same battle 
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Power and workers|Power and workers — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-406 - Power allocation|Power allocation]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-407 - Worker bonuses|Worker bonuses]]
 

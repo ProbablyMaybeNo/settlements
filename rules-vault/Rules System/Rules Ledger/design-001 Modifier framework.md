@@ -4,23 +4,23 @@ rule_id: design-001
 category: design
 status: draft
 version: v0.1
-parent_phase: "[[Settlements/Rules System/Archived/Modifier Design Framework]]"
+parent_phase: "[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Modifier Design Framework]]"
 tags:
   - settlements/design
 ---
 
 > [!warning] Legacy reference — not the active Second Draft
-> This note retains Draft 1 or prior discussion material. Use [[Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Rules System/Second Draft/Draft 2 - Progress and Decisions|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
+> This note retains Draft 1 or prior discussion material. Use [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Full Rules System v2|Second Draft master]] and [[Settlements/Rules System/Rules Ledger/Draft 2 - Development decisions and history|Progress and Decisions]]. Its content does not fill blank Draft 2 sections.
 
 # design-001 · Modifier framework
 
-Recorded 2026-09-09. Full wording: [[Settlements/Rules System/Archived/Modifier Design Framework]].
+Recorded 2026-09-09. Full wording: [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Modifier Design Framework]].
 
 Weapons own direct offense; Armour sustained protection; Skills learned capabilities and specified non-combat benefits; Advancements permanent growth; Injuries lasting impairments. Equipment may borrow effects across categories only with limited uses and benefits that end no later than the end of the game.
 
-This is a design record, not a graduated gameplay rule. [[Settlements/Rules System/Archived/Full Rules System v1]] remains authoritative. Existing mechanics have not been rewritten.
+This is a design record, not a graduated gameplay rule. [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Full Rules System v1]] remains authoritative. Existing mechanics have not been rewritten.
 
-Framework captured; mechanical integration remains open on [[Settlements/Rules System/Archived/Rules System — Master Roadmap]]. Review existing exceptions such as Tough, permanent medical recovery, and item replenishment before changing live rules.
+Framework captured; mechanical integration remains open on [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Rules System — Master Roadmap]]. Review existing exceptions such as Tough, permanent medical recovery, and item replenishment before changing live rules.
 
 ## Skill scope revision — 2026-09-25
-[[design-003 Single-tier skills]] supersedes the prohibition on offensive, protective and characteristic-changing skills. Use [[Settlements/Rules System/Archived/Skills]].
+[[design-003 Single-tier skills]] supersedes the prohibition on offensive, protective and characteristic-changing skills. Use [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Skills]].

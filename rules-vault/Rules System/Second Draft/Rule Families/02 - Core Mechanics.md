@@ -4,7 +4,7 @@ family_name: Core Mechanics
 family_order: 2
 tags:
   - settlements/rule-family
-progress_status: Drafted
+progress_status: "Drafted"
 included_rules: 26
 deferred_rules: 0
 written_rules: 26
@@ -13,7 +13,7 @@ locked_rules: 0
 written_percent: 100
 confirmed_percent: 0
 final_percent: 0
-progress_summary: 100% written · 0% confirmed · 0% final
+progress_summary: "100% written · 0% confirmed · 0% final"
 total_parents: 4
 included_parents: 4
 locked_parents: 0
@@ -38,11 +38,11 @@ Core Mechanics · Rulebook family
 
 ## Parents
 
-![[Settlements/Rules System/Second Draft/Settlements Rule Progress.base#Parents in this family]]
+![[Settlements/Rules System/Second Draft/Settlements Rule Workspace.base#Family progress]]
 
 Open a parent to see its automatically filtered rules.
 
-- [[Settlements/Rules System/Second Draft/Rulebook Progress - Start Here|Progress definitions and instructions]]
+- [[Settlements/START HERE - Settlements Project#Completion progress|Progress definitions and instructions]]
 - [[Settlements/Rules System/Second Draft/Settlements Rule Parents.canvas|Parent canvas]]
 
 ## Family notes

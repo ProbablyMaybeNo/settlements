@@ -20,7 +20,7 @@ publication: Included
 created: '2026-10-18'
 last_rule_update: '2026-10-22'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Blasts smoke and fire]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Blasts smoke and fire]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-250 - Smoke grenade procedure]]'
@@ -50,7 +50,7 @@ For a Blast, choose a visible impact point within range. It must be a surface or
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Blasts smoke and fire|Blasts smoke and fire — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-250 - Smoke grenade procedure|Smoke grenade procedure]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-252 - Fire zones|Fire zones]]
 

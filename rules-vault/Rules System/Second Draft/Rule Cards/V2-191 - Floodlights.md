@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Cover and visibility]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Cover and visibility]]'
 review_notes: ''
 operation_and_states: Illuminate or darken a marked 6-inch-diameter zone.
 occupied_space_and_counterplay: While lit, remove Hidden in that zone and prevent Hide there. Light does not grant
@@ -47,7 +47,7 @@ Lit 6″-diameter zone removes Hidden and prevents Hide; no sight through walls.
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Cover and visibility|Cover and visibility — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards|Terrain feature cards]]
 

@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Break]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Break]]'
 review_notes: ''
 stress: 3–4
 what_the_fighter_does: During its activation, spend all remaining slots to move up to twice MOVE toward the nearest
@@ -59,7 +59,7 @@ Failed Break at Stress 3–4: forced activation spends remaining slots moving up
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Break|Break — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-142 - End Phase Break|End Phase Break]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-145 - Bugging Out|Bugging Out]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-146 - Forced low-Stress Break|Forced low-Stress Break]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-149 - Withdrawn fighter|Withdrawn fighter]]
 

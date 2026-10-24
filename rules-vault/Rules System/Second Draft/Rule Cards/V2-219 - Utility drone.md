@@ -17,7 +17,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Utility drones]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Utility drones]]'
 review_notes: ''
 credits: 45
 slots: 2
@@ -64,7 +64,7 @@ A utility drone costs **45 Credits**, occupies two equipment slots on its operat
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Utility drones|Utility drones — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploy equipment|Deploy equipment]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-203 - Device arming delay|Device arming delay]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-207 - Device damage|Device damage]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-220 - Drone deployment|Drone deployment]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-221 - Drone movement|Drone movement]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-222 - Drone operations|Drone operations]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-224 - Drone control loss|Drone control loss]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-227 - Drone wreck|Drone wreck]]
 

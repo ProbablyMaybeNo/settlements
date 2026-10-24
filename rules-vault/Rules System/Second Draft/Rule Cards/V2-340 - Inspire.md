@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Nerve skills]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Nerve skills]]'
 review_notes: ''
 stat: NRV
 use: Core
@@ -51,7 +51,7 @@ Core/normal NRV: remove up to two Stress from self and one friendly within 6″/
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Nerve skills|Nerve skills — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Skill prerequisites|Skill prerequisites]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-306 - Skill action restrictions|Skill action restrictions]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-307 - Skill frequency|Skill frequency]]
 

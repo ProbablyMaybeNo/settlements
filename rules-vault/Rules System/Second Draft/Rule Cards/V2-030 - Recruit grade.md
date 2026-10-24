@@ -17,7 +17,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Recruitment]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Recruitment]]'
 review_notes: ''
 training_grade: Recruit
 credits: 60
@@ -55,7 +55,7 @@ rule_parent: "Training grades"
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Recruitment|Recruitment — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-029 - Recruitment allocation|Recruitment allocation]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-031 - Fighter grade|Fighter grade]]
 

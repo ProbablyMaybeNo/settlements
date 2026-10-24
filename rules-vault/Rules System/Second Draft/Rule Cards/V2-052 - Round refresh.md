@@ -18,7 +18,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Start Phase]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Start Phase]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-053 - Initiative]]'
@@ -34,7 +34,7 @@ Restore eligible fighters' Move/Core; reset Activated, Reacted and round abiliti
 
 ## Rule text
 
-Advance the round counter. Restore each conscious, uncaptured fighter's Move and Core slots. Down fighters also receive those slots but can use only the limited actions in [[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#9 Injury casualties and rescue|injury casualties and rescue]]. Unconscious fighters receive neither. Clear Activated and Reacted markers and reset once-per-round abilities. READY tokens remain until used or cancelled.
+Advance the round counter. Restore each conscious, uncaptured fighter's Move and Core slots. Down fighters also receive those slots but can use only the limited actions in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#9 Injury casualties and rescue|injury casualties and rescue]]. Unconscious fighters receive neither. Clear Activated and Reacted markers and reset once-per-round abilities. READY tokens remain until used or cancelled.
 
 ^text-s017-b000
 
@@ -42,7 +42,7 @@ Advance the round counter. Restore each conscious, uncaptured fighter's Move and
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Start Phase|Start Phase — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-053 - Initiative|Initiative]]
 

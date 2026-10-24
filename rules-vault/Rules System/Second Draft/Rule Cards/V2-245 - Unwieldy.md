@@ -19,7 +19,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Characteristics]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Characteristics]]'
 review_notes: ''
 rule: −2 to hit if its wielder has moved earlier this round, including forced movement. Pivoting alone is not movement
   for this trait.
@@ -45,7 +45,7 @@ rule_parent: "Weapon keywords"
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Characteristics|Characteristics — complete context]]
 
 ## Design notes

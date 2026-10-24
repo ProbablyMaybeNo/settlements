@@ -17,7 +17,7 @@ review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Settlements/Rules System/Second Draft/Settlements Rules System Version 2#Single opposed tests]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Single opposed tests]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-024 - Opposed natural extremes]]'
@@ -37,7 +37,7 @@ Both roll d20 + stat/modifiers; highest wins; ties defend. No ordinary success t
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Start Here|Rule-card library]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
 - [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Single opposed tests|Single opposed tests — complete context]]
 - Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-024 - Opposed natural extremes|Opposed natural extremes]]
 
