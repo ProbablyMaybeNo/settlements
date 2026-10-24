@@ -14,7 +14,7 @@ tags:
 - injury
 - armour-ignore
 summary: 'Deliberate drop ≤2″ safe; longer fall: AGI pass Pins, fail Dmg 3 Injury ignoring Armour; >6″ auto-fails.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-085 - Free climbing]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-086 - Jumping]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Movement"
 ---
 
 # Drops and falls

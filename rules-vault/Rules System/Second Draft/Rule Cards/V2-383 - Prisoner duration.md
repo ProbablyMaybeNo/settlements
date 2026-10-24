@@ -13,7 +13,7 @@ tags:
 - capture
 summary: Extracted captive rolls injury; surviving prisoner misses next battle/work cycle, then automatically returns;
   death ends captivity.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-384 - Early prisoner release]]'
 planned_section: "06 · The Crew"
+rule_parent: "Prisoners"
 ---
 
 # Prisoner duration

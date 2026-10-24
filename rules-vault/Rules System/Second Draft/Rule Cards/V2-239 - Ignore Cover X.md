@@ -13,7 +13,7 @@ tags:
 - combat
 - cover
 summary: Reduce cover penalty by X to zero; no effect on Hidden or blocked LOS.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 rule: Reduce the shooting cover penalty by X, minimum 0. Does not remove Hidden or bypass blocked LOS.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Ignore Cover X

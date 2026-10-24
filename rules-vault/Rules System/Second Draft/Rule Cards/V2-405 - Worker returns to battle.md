@@ -13,7 +13,7 @@ tags:
 - timing
 - workers
 summary: May later field a former worker; completed production stays earned; cannot work in cycle after deploying.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-401 - Settlement sequence]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-404 - Allocation between battles]]'
 planned_section: "10 · The Settlement Round"
+rule_parent: "Resolve the Round"
 ---
 
 # Worker returns to battle

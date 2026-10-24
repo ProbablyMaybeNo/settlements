@@ -13,7 +13,7 @@ tags:
 - recruitment
 summary: Buy grade; distribute stat points once; unused points vanish. Start MOVE 6, one Wound, Armour 0, included
   knife.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-032 - Specialist grade]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-033 - Leader grade]]'
 planned_section: "06 · The Crew"
+rule_parent: "Starting and Recruiting a Crew"
 ---
 
 # Recruitment allocation

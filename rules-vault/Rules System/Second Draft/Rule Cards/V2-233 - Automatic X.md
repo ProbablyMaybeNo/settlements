@@ -14,7 +14,7 @@ tags:
 - ranged
 - dice
 summary: X is already the printed ranged Dice value; never add it twice.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 rule: The printed ranged Dice value is X; do not add X again.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Automatic X

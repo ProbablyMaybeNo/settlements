@@ -12,7 +12,7 @@ tags:
 - tests
 - opposed
 summary: Both roll d20 + stat/modifiers; highest wins; ties defend. No ordinary success threshold.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-024 - Opposed natural extremes]]'
 planned_section: "02 · Core Mechanics"
+rule_parent: "Dice and Tests"
 ---
 
 # Single opposed test

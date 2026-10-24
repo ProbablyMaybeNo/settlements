@@ -13,7 +13,7 @@ tags:
 - custom
 - economy
 summary: 'One discount: Reload −5 or Single-use −10; minimum 5 Cr. Caps Dmg 5/range 36″/three dice.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-271 - Custom profile agreement]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-273 - One-handed ranged class]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapons"
 ---
 
 # Custom drawbacks and caps

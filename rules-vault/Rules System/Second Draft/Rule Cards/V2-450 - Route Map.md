@@ -14,7 +14,7 @@ tags:
 - movement
 summary: After deployment move carrier ≤3″ within own zone; no interaction/Hide/attack/objective progress; deploy-first
   player resolves first.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-448 - Preparation limits]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-449 - Signal Plan]]'
 planned_section: "07 · Equipment"
+rule_parent: "Expendables and Preparations"
 ---
 
 # Route Map

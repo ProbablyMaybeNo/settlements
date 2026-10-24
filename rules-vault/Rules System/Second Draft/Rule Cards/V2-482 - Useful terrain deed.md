@@ -13,7 +13,7 @@ tags:
 - experience
 summary: 'Qualifying deed for the once-per-battle deed XP bonus: Operated an interactive feature that opened or
   closed a useful route, moved a model or cargo, or affected an enemy; toggling an irrelevant switch does not qualify.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-483 - Rescue or capture deed]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-484 - Downing an enemy deed]]'
 planned_section: "06 · The Crew"
+rule_parent: "Experience deeds"
 ---
 
 # Useful terrain deed

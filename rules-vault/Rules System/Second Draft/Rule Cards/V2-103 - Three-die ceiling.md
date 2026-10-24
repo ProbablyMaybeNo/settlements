@@ -14,7 +14,7 @@ tags:
 - dice
 - limits
 summary: Maximum three attack dice including Charge/skills; remove excess before rolling.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-104 - Unarmed and melee Sidearms]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Ranged Combat"
 ---
 
 # Three-die ceiling

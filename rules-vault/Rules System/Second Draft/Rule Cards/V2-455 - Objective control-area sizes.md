@@ -13,7 +13,7 @@ tags:
 - setup
 - measurement
 summary: '1–3 objectives: 6-inch diameter; 4–6: 3-inch diameter. The circle is the full control area.'
-status: Confirmed direction
+status: Confirmed
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-454 - Objective limit]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Objective conventions"
 ---
 
 # Objective control-area sizes

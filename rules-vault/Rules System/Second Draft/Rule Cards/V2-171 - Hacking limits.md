@@ -13,7 +13,7 @@ tags:
 - hacking
 - core
 summary: No hacking humans, ordinary guns or armour; Trojan hijacks; Interrupt counters terminal use.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-170 - Portable hacking]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Hacking"
 ---
 
 # Hacking limits

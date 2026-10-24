@@ -15,7 +15,7 @@ tags:
 - melee
 - armour-minus
 summary: '15 Cr; 1 dice; Dmg 2; 8″ / Melee; 1 hand(s). Piercing 1, Thrown. Access: Basic.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -41,6 +41,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-238 - Piercing X]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-246 - Thrown]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapons"
 ---
 
 # Javelin

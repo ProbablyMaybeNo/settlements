@@ -15,7 +15,7 @@ tags:
 - heavy
 - hit-minus
 summary: '70 Cr; 3 dice; Dmg 4; 24″; 2 hand(s). Heavy, Automatic 3, Unwieldy, Suppression. Access: Armoury.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -45,6 +45,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-245 - Unwieldy]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-456 - Heavy]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapons"
 ---
 
 # Machine gun

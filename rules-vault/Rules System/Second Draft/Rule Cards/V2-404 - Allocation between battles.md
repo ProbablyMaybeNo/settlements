@@ -13,7 +13,7 @@ tags:
 - timing
 - power
 summary: Last Power allocation governs access until next round; shopping never refreshes production/service limits.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-401 - Settlement sequence]]'
 planned_section: "10 · The Settlement Round"
+rule_parent: "Resolve the Round"
 ---
 
 # Allocation between battles

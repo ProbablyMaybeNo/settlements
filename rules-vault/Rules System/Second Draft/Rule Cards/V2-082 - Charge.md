@@ -15,7 +15,7 @@ tags:
 - melee
 - dice-plus
 summary: Visible target within MOVE +6″; move MOVE +d6; reach 1″ for melee with +1 dominant die, pool capped three.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-081 - Dash]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-083 - Failed Charge]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Movement"
 ---
 
 # Charge

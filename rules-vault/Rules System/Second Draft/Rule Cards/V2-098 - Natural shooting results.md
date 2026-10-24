@@ -14,7 +14,7 @@ tags:
 - dice
 - injury
 summary: Natural 1 misses; natural 20 hits. Each hit proceeds to Injury.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-100 - Shooting range and movement]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-101 - One shooting target]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Ranged Combat"
 ---
 
 # Natural shooting results

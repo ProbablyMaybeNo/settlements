@@ -13,7 +13,7 @@ tags:
 - actions
 - both
 summary: Finish chosen fighter's activation; perform or forfeit each slot. Both spends unused Move and Core together.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-058 - Passing and finishing]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Activations and Actions"
 ---
 
 # Both-cost actions

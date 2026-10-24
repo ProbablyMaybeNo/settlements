@@ -13,7 +13,7 @@ tags:
 - measurement
 - dice
 summary: Restore accidentally displaced models; reroll cocked/off-table dice; mark unsafe model positions.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -28,6 +28,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-012 - Effect priority and stacking]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-013 - Declarations and spent resources]]'
 planned_section: "02 · Core Mechanics"
+rule_parent: "Measuring and Common Terms"
 ---
 
 # Displaced models and bad dice

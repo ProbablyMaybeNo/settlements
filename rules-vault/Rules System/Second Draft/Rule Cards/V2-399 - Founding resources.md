@@ -12,7 +12,7 @@ tags:
 - settlement
 - founding
 summary: 1,000 Cr, 125 Mat, twelve plots; free Headquarters, Generator, Materials Processor, Salvage Yard.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-400 - Founding timing]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Founding a Settlement"
 ---
 
 # Founding resources

@@ -13,7 +13,7 @@ tags:
 - founding
 summary: Purchased founding buildings work immediately; allocate Power before first battle; no founding production
   or rewards.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-399 - Founding resources]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Founding a Settlement"
 ---
 
 # Founding timing

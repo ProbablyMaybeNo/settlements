@@ -14,7 +14,7 @@ tags:
 - weapon
 - custom
 summary: At least Workshop; range >24″ also Armoury; Heavy design Advanced Workshop.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-444 - Crafting worker discount]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Trade Crafting and Services"
 ---
 
 # Custom weapon access

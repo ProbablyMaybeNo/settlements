@@ -15,7 +15,7 @@ tags:
 - core
 - tests
 summary: Contact Core/INT operates one linked feature. Failure nothing; natural 1 Freezes terminal until End Phase.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-165 - Physical controls]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-166 - Terminal links]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Hacking"
 ---
 
 # Hack terminal

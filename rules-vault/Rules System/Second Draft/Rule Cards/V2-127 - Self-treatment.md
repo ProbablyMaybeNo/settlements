@@ -14,7 +14,7 @@ tags:
 - core
 - down
 summary: Down fighter uses carried medkit and Core; INT test ignores its Stress.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-126 - Treat ally]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Injuries and Resolving Combat"
 ---
 
 # Self-treatment

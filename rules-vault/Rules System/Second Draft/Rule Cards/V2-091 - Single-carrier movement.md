@@ -12,7 +12,7 @@ tags:
 - movement
 - carry
 summary: One carrier uses its own Move; no joint full-speed carry or spending another fighter's Move.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-089 - Forced movement]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Movement"
 ---
 
 # Single-carrier movement

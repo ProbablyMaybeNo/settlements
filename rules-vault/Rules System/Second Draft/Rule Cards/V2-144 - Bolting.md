@@ -14,7 +14,7 @@ tags:
 - movement
 summary: 'Failed Break at Stress 3–4: forced activation spends remaining slots moving up to 2×MOVE toward nearest
   safe concealment.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -30,6 +30,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-146 - Forced low-Stress Break]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-149 - Withdrawn fighter]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Stress and Morale"
 ---
 
 # Bolting

@@ -13,7 +13,7 @@ tags:
 - medical
 - consumable
 summary: 10 Cr/1 slot; consumed by Treat or self-treatment.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ access: Basic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
 planned_section: "07 · Equipment"
+rule_parent: "Equipment"
 ---
 
 # Medkit

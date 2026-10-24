@@ -1,19 +1,14 @@
 filters:
   and:
-  - file.inFolder("Settlements/Rules System/Second Draft/Rule Cards")
-  - type == "settlements-rule-card"
+    - file.inFolder("Settlements/Rules System/Second Draft/Rule Cards")
+    - type == "settlements-rule-card"
 formulas:
   rule_card_meta: note.rule_id + " · " + note.category + " · " + note.entry_type
-  rule_card_color: if(note.publication == "Deferred", "#7d8999", if(note.review_status == "Needs review", "#f3b65b", if(note.category
-    == "Combat" || note.category == "Weapons" || note.category == "Weapon traits" || note.category == "Weapon keyword" ||
-    note.category == "Weapon design", "#ef8178", if(note.category == "Movement" || note.category == "Activation" || note.category
-    == "Actions" || note.category == "Setup", "#66c7ed", if(note.category == "Terrain" || note.category == "Interaction" ||
-    note.category == "Devices", "#4dd5bc", if(note.category == "Morale" || note.category == "Casualties" || note.category
-    == "Lasting injuries" || note.category == "Stealth", "#c09af0", if(note.entry_type == "Skill", "#b4d776", if(note.category
-    == "Structures" || note.category == "Settlement" || note.category == "Equipment", "#e6c570", "#96aabd"))))))))
-  placement_changed: note.planned_section != (if(note.book_chapter < 10, "0", "") + note.book_chapter.toString() + " · " +
-    note.book_section)
+  rule_card_color: if(note.publication == "Deferred", "#7d8999", if(note.review_status == "Needs review", "#f3b65b", if(note.category == "Combat" || note.category == "Weapons" || note.category == "Weapon traits" || note.category == "Weapon keyword" || note.category == "Weapon design", "#ef8178", if(note.category == "Movement" || note.category == "Activation" || note.category == "Actions" || note.category == "Setup", "#66c7ed", if(note.category == "Terrain" || note.category == "Interaction" || note.category == "Devices", "#4dd5bc", if(note.category == "Morale" || note.category == "Casualties" || note.category == "Lasting injuries" || note.category == "Stealth", "#c09af0", if(note.entry_type == "Skill", "#b4d776", if(note.category == "Structures" || note.category == "Settlement" || note.category == "Equipment", "#e6c570", "#96aabd"))))))))
+  placement_changed: note.planned_section != (if(note.book_chapter < 10, "0", "") + note.book_chapter.toString() + " · " + note.book_section)
 properties:
+  note.rule_parent:
+    displayName: Type / Parent
   file.name:
     displayName: Rule / mechanic
   formula.rule_card_meta:
@@ -29,7 +24,7 @@ properties:
   note.entry_type:
     displayName: Type
   note.book_section:
-    displayName: Current chapter
+    displayName: Family / Current chapter
   note.book_subsection:
     displayName: Current subsection
   note.summary:
@@ -39,7 +34,7 @@ properties:
   note.publication:
     displayName: Scope
   note.review_status:
-    displayName: Status
+    displayName: Review flag
   note.credits:
     displayName: Credits
   note.materials:
@@ -51,7 +46,7 @@ properties:
   note.keywords:
     displayName: Linked weapon keywords
   note.status:
-    displayName: Rule stage
+    displayName: Status
   note.category:
     displayName: Category
   note.tags:
@@ -59,101 +54,120 @@ properties:
   note.planned_section:
     displayName: Planned section
 views:
-- type: kanban
-  name: Rulebook layout
-  columnWidth: 350
-  groupBy:
-    property: note.planned_section
-    direction: ASC
-  groupOrder: &id001
-  - 01 · Introduction
-  - 02 · Core Mechanics
-  - 03 · Playing the Game
-  - 04 · Fighting Battles
-  - 05 · Scenarios
-  - 06 · The Crew
-  - 07 · Equipment
-  - 08 · Skills
-  - 09 · The Settlement
-  - 10 · The Settlement Round
-  - 11 · The Outside World
-  - 12 · Factions
-  - 13 · Community
-  filters: note.publication == "Included"
-  image: formula.rule_card_color
-  imageAspectRatio: 0.025
-  order:
-  - note.rule_name
-  - formula.rule_card_meta
-  - note.summary
-  - note.book_subsection
-  - note.tags
-  - note.review_status
-  sort:
-  - property: note.rule_id
-    direction: ASC
-- type: table
-  name: Placement table
-  rowHeight: medium
-  order:
-  - file.name
-  - note.planned_section
-  - note.book_section
-  - note.book_subsection
-  - note.review_status
-  - note.summary
-  - note.tags
-  - note.publication
-  groupBy:
-    property: note.planned_section
-    direction: ASC
-  columnSize:
-    file.name: 300
-    note.last_rule_update: 135
-    note.review_status: 140
-    note.category: 130
-    note.summary: 440
-    note.tags: 250
-    note.book_section: 200
-    note.book_subsection: 230
-    note.planned_section: 260
-    note.review_notes: 350
-- type: table
-  name: Moved cards
-  rowHeight: medium
-  filters: formula.placement_changed
-  order:
-  - file.name
-  - note.book_section
-  - note.planned_section
-  - note.book_subsection
-  - note.summary
-  - note.review_notes
-  - note.publication
-  columnSize:
-    file.name: 300
-    note.last_rule_update: 135
-    note.review_status: 140
-    note.category: 130
-    note.summary: 440
-    note.tags: 250
-    note.book_section: 200
-    note.book_subsection: 230
-    note.planned_section: 260
-    note.review_notes: 350
-- type: kanban
-  name: All placements including deferred
-  columnWidth: 350
-  groupBy:
-    property: note.planned_section
-    direction: ASC
-  groupOrder: *id001
-  image: formula.rule_card_color
-  imageAspectRatio: 0.025
-  order:
-  - note.rule_name
-  - formula.rule_card_meta
-  - note.summary
-  - note.publication
-  - note.tags
-  - note.review_status
+  - type: kanban
+    name: Rulebook layout
+    filters: note.publication == "Included"
+    groupBy:
+      property: planned_section
+      direction: ASC
+    groupOrder:
+      - 01 · Introduction
+      - 02 · Core Mechanics
+      - 03 · Playing the Game
+      - 04 · Fighting Battles
+      - 05 · Scenarios
+      - 06 · The Crew
+      - 07 · Equipment
+      - 08 · Skills
+      - 09 · The Settlement
+      - 10 · The Settlement Round
+      - 11 · The Outside World
+      - 12 · Factions
+      - 13 · Community
+    order:
+      - rule_name
+      - formula.rule_card_meta
+      - summary
+      - book_subsection
+      - tags
+      - status
+      - note.rule_parent
+      - review_status
+    sort:
+      - property: rule_id
+        direction: ASC
+    columnWidth: 350
+    image: formula.rule_card_color
+    imageAspectRatio: 0.025
+  - type: table
+    name: Placement table
+    groupBy:
+      property: planned_section
+      direction: ASC
+    order:
+      - file.name
+      - planned_section
+      - book_section
+      - book_subsection
+      - status
+      - note.rule_parent
+      - review_status
+      - summary
+      - tags
+      - publication
+    rowHeight: medium
+    columnSize:
+      file.name: 300
+      note.last_rule_update: 135
+      note.review_status: 140
+      note.category: 130
+      note.summary: 440
+      note.tags: 250
+      note.book_section: 200
+      note.book_subsection: 230
+      note.planned_section: 260
+      note.review_notes: 350
+  - type: table
+    name: Moved cards
+    filters: formula.placement_changed
+    order:
+      - file.name
+      - book_section
+      - planned_section
+      - book_subsection
+      - summary
+      - review_notes
+      - publication
+    rowHeight: medium
+    columnSize:
+      file.name: 300
+      note.last_rule_update: 135
+      note.review_status: 140
+      note.category: 130
+      note.summary: 440
+      note.tags: 250
+      note.book_section: 200
+      note.book_subsection: 230
+      note.planned_section: 260
+      note.review_notes: 350
+  - type: kanban
+    name: All placements including deferred
+    groupBy:
+      property: planned_section
+      direction: ASC
+    groupOrder:
+      - 01 · Introduction
+      - 02 · Core Mechanics
+      - 03 · Playing the Game
+      - 04 · Fighting Battles
+      - 05 · Scenarios
+      - 06 · The Crew
+      - 07 · Equipment
+      - 08 · Skills
+      - 09 · The Settlement
+      - 10 · The Settlement Round
+      - 11 · The Outside World
+      - 12 · Factions
+      - 13 · Community
+    order:
+      - rule_name
+      - formula.rule_card_meta
+      - summary
+      - publication
+      - tags
+      - status
+      - note.rule_parent
+      - review_status
+    columnWidth: 350
+    image: formula.rule_card_color
+    imageAspectRatio: 0.025

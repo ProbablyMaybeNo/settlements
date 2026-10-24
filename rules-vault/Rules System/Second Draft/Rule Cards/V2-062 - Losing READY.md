@@ -12,7 +12,7 @@ tags:
 - reaction
 - ready
 summary: One READY held at a time; one spent per round; losing it does not count as spending. Eligible replacement allowed; Reacted remains; one reaction/round; carryover retained.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-063 - Reaction eligibility]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / READY and Reactions"
 ---
 
 # Losing READY

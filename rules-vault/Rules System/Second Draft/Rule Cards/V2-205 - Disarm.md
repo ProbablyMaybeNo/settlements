@@ -13,7 +13,7 @@ tags:
 - core
 summary: 'Contact Core/DEX: success inert, failure unchanged, natural 1 triggers mine/trap. Electronics may instead
   be hacked.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-204 - Concealed devices]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-207 - Device damage]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Deployables and Drones"
 ---
 
 # Disarm

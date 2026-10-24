@@ -13,7 +13,7 @@ tags:
 - melee
 - hit-minus
 summary: −1 melee total per additional conscious unpinned engaging enemy, maximum −2.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-108 - Melee natural results]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-110 - Defensive melee]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Close Combat"
 ---
 
 # Outnumbered penalty

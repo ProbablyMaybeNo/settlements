@@ -12,7 +12,7 @@ tags:
 - terrain
 - visibility
 summary: Blocks LOS up to 3″ above surface; models inside see/be seen only within 1″.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-177 - Displace]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-179 - Crush against casualties]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Interactive Terrain"
 ---
 
 # Smoke visibility

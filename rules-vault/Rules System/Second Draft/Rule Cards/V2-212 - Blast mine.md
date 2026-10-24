@@ -14,7 +14,7 @@ tags:
 - hazard
 - armour-ignore
 summary: 20 Cr/1 slot; entering 2″/LOS triggers 2″-radius Crush; either crew affected; single-use.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -32,6 +32,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-217 - Friendly mine triggers]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-218 - Turret operation]]'
 planned_section: "07 · Equipment"
+rule_parent: "Deployables"
 ---
 
 # Blast mine

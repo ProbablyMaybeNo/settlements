@@ -13,7 +13,7 @@ tags:
 - injury
 - roster
 summary: Remove fighter voluntarily; retain equipment, free housing; no body/XP refund.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-372 - Convalescence]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-381 - Scar limits]]'
 planned_section: "06 · The Crew"
+rule_parent: "Lasting Injuries and Recovery"
 ---
 
 # Retirement

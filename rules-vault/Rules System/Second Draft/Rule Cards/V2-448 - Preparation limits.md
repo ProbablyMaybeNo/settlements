@@ -14,7 +14,7 @@ tags:
 - rating
 summary: Single-use, assigned before deployment, no slot; full 10 Cr rating; maximum one of each per roster; unused
   remain stored.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-449 - Signal Plan]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-450 - Route Map]]'
 planned_section: "07 · Equipment"
+rule_parent: "Expendables and Preparations"
 ---
 
 # Preparation limits

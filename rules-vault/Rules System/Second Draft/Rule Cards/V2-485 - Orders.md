@@ -13,7 +13,7 @@ tags:
 - orders
 - ready
 summary: Leaders 2 orders/round; specialists 1. Free READY to another eligible friendly within 12 inches/LOS during own activation; Activated allowed; one READY held maximum.
-status: Draft proposal
+status: Drafted
 review_status: Needs review
 publication: Included
 created: '2026-10-19'
@@ -29,6 +29,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-063 - Reaction eligibility]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-066 - Reaction limits]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / READY and Reactions"
 ---
 
 # Orders

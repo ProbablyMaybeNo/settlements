@@ -13,7 +13,7 @@ tags:
 - injury
 - recovery
 summary: '3–4: miss next battle and its Settlement round; then return without permanent penalty.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-370 - Lasting-injury roll]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-381 - Scar limits]]'
 planned_section: "06 · The Crew"
+rule_parent: "Lasting injuries"
 ---
 
 # Convalescence

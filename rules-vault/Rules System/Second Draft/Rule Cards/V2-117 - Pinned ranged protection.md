@@ -14,7 +14,7 @@ tags:
 - ranged
 - hit-minus
 summary: Ranged hit rolls against Pinned −2; stacks with cover/rear; never modifies Injury.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-120 - Pinned crawl and restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-121 - Help Recover]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Injuries and Resolving Combat"
 ---
 
 # Pinned ranged protection

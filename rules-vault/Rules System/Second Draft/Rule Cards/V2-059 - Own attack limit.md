@@ -14,7 +14,7 @@ tags:
 - limits
 summary: One own Shoot/Fight/Charge per round; direct attack skills, damaging grenades and operated turret shots
   also count.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ source:
 review_notes: ''
 related_rules: []
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Activations and Actions"
 ---
 
 # Own attack limit

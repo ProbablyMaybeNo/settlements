@@ -13,7 +13,7 @@ tags:
 - combat
 - consumable
 summary: Declared use consumes item even on failure; replace between battles.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 rule: Expend the item after one declared use, even if it fails. It must be replaced between battles.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Single-use

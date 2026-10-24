@@ -13,7 +13,7 @@ tags:
 - battle-end
 summary: At turn start end battle; opponent wins. Retain earned rewards/carried loot; no enemy cleanup; unextracted
   captives released.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules: []
 planned_section: "04 · Fighting Battles"
+rule_parent: "Ending the Battle"
 ---
 
 # Crew withdrawal

@@ -13,7 +13,7 @@ tags:
 - scenario
 summary: Choose primary and one public secondary per crew; place central markers; connect useful terrain; six rounds;
   highest score wins.
-status: Draft proposal
+status: Deferred
 review_status: Unreviewed
 publication: Deferred
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-363 - Recover supplies secondary]]'
 planned_section: "05 · Scenarios"
+rule_parent: "Earlier objective proposals / Deferred"
 ---
 
 # Mission generator

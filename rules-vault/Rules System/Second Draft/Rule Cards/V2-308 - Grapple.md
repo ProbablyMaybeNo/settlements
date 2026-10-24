@@ -16,7 +16,7 @@ tags:
 - combat
 summary: Core/opposed STR holds enemy; neither attacks/reacts/operates. Drag half speed; target Core/opposed STR
   escapes with 1″ separation.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -34,6 +34,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-306 - Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-307 - Skill frequency]]'
 planned_section: "08 · Skills"
+rule_parent: "Skills"
 ---
 
 # Grapple

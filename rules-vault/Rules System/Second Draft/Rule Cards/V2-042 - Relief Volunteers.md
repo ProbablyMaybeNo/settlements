@@ -13,7 +13,7 @@ tags:
 - recovery
 summary: Borrow to reach five available fighters; 75 Cr rating each, fixed Recruit stats, pistol/knife. No purchase
   cost.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules: []
 planned_section: "06 · The Crew"
+rule_parent: "Composition and Crew Rating"
 ---
 
 # Relief Volunteers

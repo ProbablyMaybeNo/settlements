@@ -13,7 +13,7 @@ tags:
 - combat
 - melee
 summary: Use AGI instead of STR for melee hit totals; Damage unchanged.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 rule: Use AGI instead of STR for melee hit totals. Damage is unchanged.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Agile

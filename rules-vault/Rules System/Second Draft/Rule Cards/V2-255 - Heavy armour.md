@@ -14,7 +14,7 @@ tags:
 - move-minus
 - combat
 summary: 25 Cr; worn; Armour 2, MOVE −1; Armoury access.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -28,6 +28,7 @@ access: Armoury
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
 planned_section: "07 · Equipment"
+rule_parent: "Armour"
 ---
 
 # Heavy armour

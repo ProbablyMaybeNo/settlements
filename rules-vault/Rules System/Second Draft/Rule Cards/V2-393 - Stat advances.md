@@ -13,7 +13,7 @@ tags:
 - xp
 - stats
 summary: Levels 1, 2, 4, 5, 7, 8, 10 add +1 any stat; uninjured maximum +6.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-395 - Advance valuation]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-396 - Uninjured stats and grade]]'
 planned_section: "06 · The Crew"
+rule_parent: "Experience and Advancement"
 ---
 
 # Stat advances

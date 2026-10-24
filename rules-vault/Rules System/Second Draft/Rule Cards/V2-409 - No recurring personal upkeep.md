@@ -14,7 +14,7 @@ tags:
 - workers
 - economy
 summary: Workers need housing and recruitment cost; no wages, food, water or proficiency track.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-406 - Power allocation]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-407 - Worker bonuses]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Power and Workers"
 ---
 
 # No recurring personal upkeep

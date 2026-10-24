@@ -14,7 +14,7 @@ tags:
 - medical
 summary: 'Operational Clinic: 30 Cr treats one fighter/scar per round; miss next battle/work cycle, then remove
   scar; never reverses death.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-420 - Between-battle device repair]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Trade Crafting and Services"
 ---
 
 # Clinic scar treatment

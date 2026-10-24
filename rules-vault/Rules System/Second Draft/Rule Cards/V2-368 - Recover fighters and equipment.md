@@ -12,7 +12,7 @@ tags:
 - post-battle
 summary: All survivors return except extracted prisoners. Carried gear follows carrier; unclaimed gear/wrecks return
   to original owner; no free looting.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-367 - End and score]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-369 - Lasting-injury eligibility]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Ending the Battle"
 ---
 
 # Recover fighters and equipment

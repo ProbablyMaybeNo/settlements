@@ -13,7 +13,7 @@ tags:
 - routes
 - movement
 summary: Move platform/riders between stops ≤6″ apart; Displace underneath; stop if unsafe.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ occupied_space_and_counterplay: No crushing under the lift. Someone standing ben
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Interactive terrain"
 ---
 
 # Lift or cargo elevator

@@ -14,7 +14,7 @@ tags:
 - test-plus
 - terrain
 summary: +2 STR to force physical door or simple obstruction with this tool.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 rule: +2 STR when forcing a physical door or simple obstruction with this tool.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Breaching

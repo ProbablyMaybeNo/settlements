@@ -14,7 +14,7 @@ tags:
 - move
 summary: Move stands in place automatically; retains unused Core in this activation. Clears Pinned only; counts
   as movement.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-120 - Pinned crawl and restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-121 - Help Recover]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Injuries and Resolving Combat"
 ---
 
 # Recover

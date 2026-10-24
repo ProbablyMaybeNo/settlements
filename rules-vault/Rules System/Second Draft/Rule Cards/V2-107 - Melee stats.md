@@ -13,7 +13,7 @@ tags:
 - melee
 - tests
 summary: Use STR −Stress plus modifiers; Agile substitutes AGI. No ordinary success threshold.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-109 - Outnumbered penalty]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-110 - Defensive melee]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Close Combat"
 ---
 
 # Melee stats

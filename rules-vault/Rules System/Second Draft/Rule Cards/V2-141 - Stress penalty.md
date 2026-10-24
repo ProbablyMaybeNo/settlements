@@ -15,7 +15,7 @@ tags:
 - hit-minus
 - test-minus
 summary: Subtract current Stress from ordinary tests, shooting and melee; fixed MOVE unchanged.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress track]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-140 - Witness casualty]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Stress and Morale"
 ---
 
 # Stress penalty

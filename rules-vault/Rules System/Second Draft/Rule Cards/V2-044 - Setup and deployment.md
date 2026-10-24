@@ -13,7 +13,7 @@ tags:
 - deployment
 summary: Agree mission/rating; build table; reveal rosters; d20 winner chooses zone; opponent places first; alternate
   placing fighters.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules: []
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / The Battle Sequence"
 ---
 
 # Setup and deployment

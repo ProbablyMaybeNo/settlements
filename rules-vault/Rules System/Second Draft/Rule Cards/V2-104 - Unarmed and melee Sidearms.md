@@ -13,7 +13,7 @@ tags:
 - hands
 - melee
 summary: 'Unarmed: one Dmg 0 die. Sidearm: one STR melee die with its own Damage/Reload.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-103 - Three-die ceiling]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Ranged Combat"
 ---
 
 # Unarmed and melee Sidearms

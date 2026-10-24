@@ -13,7 +13,7 @@ tags:
 - limits
 - medical
 summary: One dose per fighter per round; Pinned needs helper. Medkits/dressings are not chems.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Tools and Supplies"
 ---
 
 # Chem limits

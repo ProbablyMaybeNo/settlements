@@ -12,7 +12,7 @@ tags:
 - skill
 - timing
 summary: Once/round includes all own actions and reactions; passive effects cost no action.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Skill prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-306 - Skill action restrictions]]'
 planned_section: "08 · Skills"
+rule_parent: "Choosing and Using Skills"
 ---
 
 # Skill frequency

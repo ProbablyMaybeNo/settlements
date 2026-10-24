@@ -13,7 +13,7 @@ tags:
 - injury
 - xp
 summary: '19–20: Full recovery plus one XP, within battle''s three-XP cap.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-372 - Convalescence]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-381 - Scar limits]]'
 planned_section: "06 · The Crew"
+rule_parent: "Lasting injuries"
 ---
 
 # Hard-earned lesson

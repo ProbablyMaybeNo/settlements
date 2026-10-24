@@ -13,7 +13,7 @@ tags:
 - combat
 - ranged
 summary: '35 Cr; 1 dice; Dmg 2; 18″; 2 hand(s). Quiet. Access: Armoury.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -37,6 +37,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-230 - Long-range weapon limit]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-240 - Quiet]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapons"
 ---
 
 # Suppressed carbine

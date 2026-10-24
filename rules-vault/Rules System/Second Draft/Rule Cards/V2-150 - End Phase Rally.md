@@ -13,7 +13,7 @@ tags:
 - tests
 summary: 'Already afraid at phase start: Rally instead of Break. Pass clears fear, Stress and Pinned; fail retains
   condition.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-151 - Core Rally]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-152 - Self-Rally restrictions]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Stress and Morale"
 ---
 
 # End Phase Rally

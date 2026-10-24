@@ -13,7 +13,7 @@ tags:
 - combat
 summary: Pin/Down cancels unfinished action, not spent costs. Any remaining activation action must be legal in the
   new state.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-066 - Reaction limits]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-072 - Incoming shooting window]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / READY and Reactions"
 ---
 
 # Interrupted action

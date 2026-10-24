@@ -13,7 +13,7 @@ tags:
 - economy
 - rating
 summary: Agree Crew Rating before roster selection; proposed starting limit 750 Cr, broader crew about 1,000 Cr.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-026 - Full fielded value]]'
 planned_section: "06 · The Crew"
+rule_parent: "Composition and Crew Rating"
 ---
 
 # Battle budget

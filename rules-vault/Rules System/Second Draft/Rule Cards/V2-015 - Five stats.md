@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - profile
 summary: STR force/melee; DEX shooting/fine work; AGI traversal; INT technical tasks; NRV morale. Each 0–6.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -28,6 +28,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-463 - Wounds characteristic]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-464 - Armour characteristic]]'
 planned_section: "02 · Core Mechanics"
+rule_parent: "Reading Your Unit Card"
 ---
 
 # Five stats

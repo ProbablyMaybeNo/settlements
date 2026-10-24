@@ -13,7 +13,7 @@ tags:
 - core
 - inventory
 summary: Contact Core takes one item, including armour, into available capacity; no test. Drop an item to make space.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ action_cost: Core
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-132 - Loot ownership]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Injuries and Resolving Combat"
 ---
 
 # Loot casualty

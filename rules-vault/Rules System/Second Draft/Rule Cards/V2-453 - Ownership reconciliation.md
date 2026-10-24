@@ -13,7 +13,7 @@ tags:
 - settlement
 - inventory
 summary: Both players agree prisoners and transferred items before separate post-battle records are updated.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-452 - Settlement records]]'
 planned_section: "09 · The Settlement"
+rule_parent: "People Stores and Resources"
 ---
 
 # Ownership reconciliation

@@ -14,7 +14,7 @@ tags:
 - test-plus
 - device
 summary: +2 INT Deploy/arm device; no firing-stat bonus or free equipment.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -29,6 +29,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-306 - Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-307 - Skill frequency]]'
 planned_section: "08 · Skills"
+rule_parent: "Skills"
 ---
 
 # Technician

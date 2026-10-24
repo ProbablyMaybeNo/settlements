@@ -13,7 +13,7 @@ tags:
 - tests
 summary: No reactions, assistance, scoring or contesting. Forced flight overrides Pinned, obeys terrain and spends
   remaining slots.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-146 - Forced low-Stress Break]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-149 - Withdrawn fighter]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Stress and Morale"
 ---
 
 # Fear restrictions

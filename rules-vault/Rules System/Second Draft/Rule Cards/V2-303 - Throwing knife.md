@@ -14,7 +14,7 @@ tags:
 - ranged
 - melee
 summary: '10 Cr; 1 dice; Dmg 1; 8″ / Melee; 1 hand(s). Agile, Quiet, Thrown. Access: Basic.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -42,6 +42,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-240 - Quiet]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-246 - Thrown]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapons"
 ---
 
 # Throwing knife

@@ -14,7 +14,7 @@ tags:
 - cover
 - hit-minus
 summary: Light cover −1 to hit; heavy −2. Target within 1″ of obscuring feature or inside cover area.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-050 - Cover exceptions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-051 - Elevated shooting]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Visibility Cover and Stealth"
 ---
 
 # Light and heavy cover

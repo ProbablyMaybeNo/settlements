@@ -14,7 +14,7 @@ tags:
 - stress
 - scar
 summary: '11–12: start each battle with one Stress.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -28,6 +28,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-372 - Convalescence]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-381 - Scar limits]]'
 planned_section: "06 · The Crew"
+rule_parent: "Lasting injuries"
 ---
 
 # Shell shock

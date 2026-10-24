@@ -14,7 +14,7 @@ tags:
 - injury
 summary: Bottle leaves 3″ fire; entry/action start Dmg 2 Injury once/round; initial attack counts. Clears end of
   next round.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Blast attack]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-250 - Smoke grenade procedure]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Ranged Combat"
 ---
 
 # Fire zones

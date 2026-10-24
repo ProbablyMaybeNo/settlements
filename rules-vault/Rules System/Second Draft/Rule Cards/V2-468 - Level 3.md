@@ -12,7 +12,7 @@ tags:
 - advancement
 - rating
 summary: 'At 9 total XP: Learn a skill; add 10 Crew Rating.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-395 - Advance valuation]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-396 - Uninjured stats and grade]]'
 planned_section: "06 · The Crew"
+rule_parent: "Advancement levels"
 ---
 
 # Level 3

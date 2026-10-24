@@ -13,7 +13,7 @@ tags:
 - power
 - workers
 summary: One eligible worker where permitted; use printed benefit, no generic 10%; unpowered structures gain none.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-406 - Power allocation]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-409 - No recurring personal upkeep]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Power and Workers"
 ---
 
 # Worker bonuses

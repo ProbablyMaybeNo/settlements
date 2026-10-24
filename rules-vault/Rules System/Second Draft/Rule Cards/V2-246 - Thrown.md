@@ -13,7 +13,7 @@ tags:
 - combat
 - inventory
 summary: Hit leaves weapon at target; miss halfway. Interact retrieves before throwing again.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ rule: A successful throw leaves the weapon at the target's position; a miss leav
   the target. Recover it with Interact. It cannot be thrown again while lying on the table.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Thrown

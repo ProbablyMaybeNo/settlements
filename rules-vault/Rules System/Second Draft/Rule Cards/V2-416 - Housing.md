@@ -14,7 +14,7 @@ tags:
 - roster
 summary: Count all owned living people including workers/prisoners/recovering; Volunteers exempt. Insufficient housing
   blocks recruitment, never deletes residents.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-414 - Demolition and prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-417 - Storage]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Construction Trade and Storage"
 ---
 
 # Housing

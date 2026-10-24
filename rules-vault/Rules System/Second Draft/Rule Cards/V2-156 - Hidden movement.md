@@ -14,7 +14,7 @@ tags:
 - movement
 - move-minus
 summary: Half MOVE; Dash/Charge remove Hidden. Charge may begin Hidden for Ambush.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-158 - Proximity and exposed reveal]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Visibility Cover and Stealth"
 ---
 
 # Hidden movement

@@ -13,7 +13,7 @@ tags:
 - economy
 - rating
 summary: Field discounted, gifted, crafted or stolen items at full listed value.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-025 - Battle budget]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-026 - Full fielded value]]'
 planned_section: "06 · The Crew"
+rule_parent: "Composition and Crew Rating"
 ---
 
 # Discounts and captured gear

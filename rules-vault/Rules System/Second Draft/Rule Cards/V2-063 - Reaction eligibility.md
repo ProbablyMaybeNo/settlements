@@ -12,7 +12,7 @@ tags:
 - reaction
 - ready
 summary: Conscious, unengaged, READY, no morale condition or Reacted marker; forward LOS and action range required.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-062 - Losing READY]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / READY and Reactions"
 ---
 
 # Reaction eligibility

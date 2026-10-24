@@ -13,7 +13,7 @@ tags:
 - melee
 - pinned
 summary: Always at least one defensive die, even Pinned/Unanswered; Down/Unconscious/Captured roll none.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-108 - Melee natural results]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-109 - Outnumbered penalty]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Close Combat"
 ---
 
 # Defensive melee

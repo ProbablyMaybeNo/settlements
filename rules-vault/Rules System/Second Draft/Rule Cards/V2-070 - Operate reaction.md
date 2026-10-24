@@ -14,7 +14,7 @@ tags:
 - terrain
 - interaction
 summary: Use a reachable control/terminal before the triggering action completes.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -30,6 +30,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-071 - Interrupted action]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-072 - Incoming shooting window]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / READY and Reactions"
 ---
 
 # Operate reaction

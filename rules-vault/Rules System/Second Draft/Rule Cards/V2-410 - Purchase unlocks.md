@@ -14,7 +14,7 @@ tags:
 - equipment
 summary: Basic freely available; named unlock must be operational/powered. Owned gear remains usable after unlock
   loses Power.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-416 - Housing]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-417 - Storage]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Construction Trade and Storage"
 ---
 
 # Purchase unlocks

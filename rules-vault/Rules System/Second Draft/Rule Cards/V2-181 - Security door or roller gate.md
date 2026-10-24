@@ -12,7 +12,7 @@ tags:
 - terrain
 - routes
 summary: Open/close entrance; closed blocks movement. Displace occupants; manual controls both sides.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ occupied_space_and_counterplay: Displace a model caught in the opening. Local ma
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Interactive terrain"
 ---
 
 # Security door or roller gate

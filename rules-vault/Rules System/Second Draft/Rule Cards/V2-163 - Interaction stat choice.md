@@ -13,7 +13,7 @@ tags:
 - core
 - tests
 summary: Force STR; fine work DEX; technical INT; traversal AGI; composure NRV. Ordinary failure changes nothing.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -29,6 +29,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-479 - AGI interactions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-480 - NRV interactions]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Ordinary Interactions and Objectives"
 ---
 
 # Interaction stat choice

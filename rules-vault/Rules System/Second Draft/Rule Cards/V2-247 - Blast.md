@@ -13,7 +13,7 @@ tags:
 - combat
 - area
 summary: Area procedure; no dual-wielding or bonus dice from Charge, skills or Automatic.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ rule: Use the area attack procedure below. It cannot be dual-wielded or gain ext
   Automatic.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Blast

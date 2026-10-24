@@ -14,7 +14,7 @@ tags:
 - construction
 summary: Demolish for vacant plot/no refund; Headquarters protected; removing prerequisite disables dependents until
   restored.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-416 - Housing]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-417 - Storage]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Construction Trade and Storage"
 ---
 
 # Demolition and prerequisites

@@ -12,7 +12,7 @@ tags:
 - crew
 - limits
 summary: Nominate any fighter as leader; maximum one Leader grade and one Specialist per two Recruits/Fighters.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-035 - Heavy weapons and device limits]]'
 planned_section: "06 · The Crew"
+rule_parent: "Composition and Crew Rating"
 ---
 
 # Leadership and specialists

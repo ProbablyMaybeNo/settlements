@@ -13,7 +13,7 @@ tags:
 - routes
 - hazard
 summary: Extend/retract ≤6″ bridge; rider AGI reaches end within 2″ or falls.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ occupied_space_and_counterplay: Retraction under a model is dangerous; AGI succe
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Interactive terrain"
 ---
 
 # Retractable bridge

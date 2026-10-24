@@ -14,7 +14,7 @@ tags:
 - economy
 - hands
 summary: '15 Cr base: one die, Dmg 1, range 24″; caps Dmg 3/range 36″/three dice.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -29,6 +29,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-273 - One-handed ranged class]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-281 - Custom drawbacks and caps]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapon classes"
 ---
 
 # Two-handed ranged class

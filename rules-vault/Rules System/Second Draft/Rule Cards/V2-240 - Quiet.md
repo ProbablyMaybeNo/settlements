@@ -13,7 +13,7 @@ tags:
 - combat
 - stealth
 summary: Firing in cover does not itself reveal Hidden shooter; other reveal triggers remain.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 rule: Firing does not itself remove Hidden if the shooter remains in cover. Other reveal rules still apply.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Quiet

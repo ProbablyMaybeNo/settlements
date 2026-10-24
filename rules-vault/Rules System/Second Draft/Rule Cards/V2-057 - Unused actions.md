@@ -14,7 +14,7 @@ tags:
 - move
 - core
 summary: Finish or forfeit slots within the activation; no banking, slot conversion or later reactivation.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-056 - Both-cost actions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-058 - Passing and finishing]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Activations and Actions"
 ---
 
 # Unused actions

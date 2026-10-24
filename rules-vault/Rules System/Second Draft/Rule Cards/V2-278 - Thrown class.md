@@ -15,7 +15,7 @@ tags:
 - ranged
 - combat
 summary: '5 Cr base: one die, Dmg 1, range 8″, Thrown; cap Dmg 2; one slot/die.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -30,6 +30,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-273 - One-handed ranged class]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-281 - Custom drawbacks and caps]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapon classes"
 ---
 
 # Thrown class

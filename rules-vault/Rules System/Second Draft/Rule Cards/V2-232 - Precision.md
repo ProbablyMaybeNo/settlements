@@ -14,7 +14,7 @@ tags:
 - ranged
 - reroll
 summary: While benefiting from Aim, reroll one failed Attack Die with this weapon.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 rule: If the fighter has Aim, reroll one failed Attack Die with this weapon.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Precision

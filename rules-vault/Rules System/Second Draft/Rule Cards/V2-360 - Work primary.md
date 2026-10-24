@@ -13,7 +13,7 @@ tags:
 - scenario
 summary: Two panels, separate crew progress; two successful Work tests completes panel for two points; each crew/panel
   once.
-status: Draft proposal
+status: Deferred
 review_status: Unreviewed
 publication: Deferred
 created: '2026-10-18'
@@ -28,6 +28,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-355 - Mission generator]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-363 - Recover supplies secondary]]'
 planned_section: "05 · Scenarios"
+rule_parent: "Scenario proposals"
 ---
 
 # Work primary

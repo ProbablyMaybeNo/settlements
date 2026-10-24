@@ -12,7 +12,7 @@ tags:
 - capture
 - casualty
 summary: No actions or self-treatment; underlying Down timer continues.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-137 - Release or rescue captive]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-138 - Friendly evacuation]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Injuries and Resolving Combat"
 ---
 
 # Captured state

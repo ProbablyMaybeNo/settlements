@@ -15,7 +15,7 @@ tags:
 - move-minus
 summary: Move crawls half speed, staying Pinned. Self-Rally/Disengage allowed; no voluntary attacks, Hide, Ready
   or equipment use.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-119 - Recover]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-121 - Help Recover]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Injuries and Resolving Combat"
 ---
 
 # Pinned crawl and restrictions

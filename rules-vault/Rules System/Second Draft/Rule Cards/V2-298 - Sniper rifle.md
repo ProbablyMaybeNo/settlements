@@ -15,7 +15,7 @@ tags:
 - hit-plus
 - reroll
 summary: '55 Cr; 1 dice; Dmg 3; 36″; 2 hand(s). Precision, Accurate. Access: Armoury.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -41,6 +41,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-231 - Accurate]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-232 - Precision]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapons"
 ---
 
 # Sniper rifle

@@ -13,7 +13,7 @@ tags:
 - tests
 - recovery
 summary: Fleeing off-board returns home after battle; no injury merely for fleeing; releases carried casualty.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-145 - Bugging Out]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-146 - Forced low-Stress Break]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Stress and Morale"
 ---
 
 # Withdrawn fighter

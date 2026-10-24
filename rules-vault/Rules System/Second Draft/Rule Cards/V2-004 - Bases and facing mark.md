@@ -13,7 +13,7 @@ tags:
 - models
 - facing
 summary: Use 28mm bases with a front-centre mark defining the 180° arc.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Standard battle]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-006 - Template sizes — reconcile]]'
 planned_section: "01 · Introduction"
+rule_parent: "What You Need to Play"
 ---
 
 # Bases and facing mark

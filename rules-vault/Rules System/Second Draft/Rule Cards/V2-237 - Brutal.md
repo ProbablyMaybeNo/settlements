@@ -14,7 +14,7 @@ tags:
 - injury
 - dice
 summary: Per hit roll two Injury dice; use higher raw result as one Injury roll.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ rule: For each hit, roll two Injury dice and use the higher raw result as that h
   cause two Wounds from one hit.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Brutal

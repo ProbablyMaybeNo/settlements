@@ -13,7 +13,7 @@ tags:
 - hands
 - dice-plus
 summary: Dominant weapon's pool plus one separately identified off-hand die; both held weapons must qualify.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-103 - Three-die ceiling]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-104 - Unarmed and melee Sidearms]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Ranged Combat"
 ---
 
 # Dual-wielding

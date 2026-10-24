@@ -13,7 +13,7 @@ tags:
 - power
 - workers
 summary: Generator supplies 10; allocate entire structure cost or no effect. No storage, selling or partial powering.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-407 - Worker bonuses]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-409 - No recurring personal upkeep]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Power and Workers"
 ---
 
 # Power allocation

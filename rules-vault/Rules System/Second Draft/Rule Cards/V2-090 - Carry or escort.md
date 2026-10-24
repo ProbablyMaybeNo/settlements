@@ -14,7 +14,7 @@ tags:
 - move-minus
 - hands
 summary: One casualty/captive/Heavy cargo; half MOVE, one hand, no Dash/Charge. Friendly pickup accompanies Move.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-089 - Forced movement]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-091 - Single-carrier movement]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Movement"
 ---
 
 # Carry or escort

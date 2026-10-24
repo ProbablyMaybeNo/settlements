@@ -13,7 +13,7 @@ tags:
 - experience
 summary: 'Qualifying deed for the once-per-battle deed XP bonus: Put an enemy fighter Down through an attack, device,
   or terrain operation they personally resolved.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-482 - Useful terrain deed]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-483 - Rescue or capture deed]]'
 planned_section: "06 · The Crew"
+rule_parent: "Experience deeds"
 ---
 
 # Downing an enemy deed

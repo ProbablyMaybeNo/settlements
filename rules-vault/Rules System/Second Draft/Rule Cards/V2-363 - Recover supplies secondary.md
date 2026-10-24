@@ -13,7 +13,7 @@ tags:
 - scenario
 - carry
 summary: 'Two points once: extract shared additional central cargo; only one crew scores it.'
-status: Draft proposal
+status: Deferred
 review_status: Unreviewed
 publication: Deferred
 created: '2026-10-18'
@@ -26,6 +26,7 @@ completion: Place one additional neutral cargo at the centre before deployment. 
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-355 - Mission generator]]'
 planned_section: "05 · Scenarios"
+rule_parent: "Scenario proposals"
 ---
 
 # Recover supplies secondary

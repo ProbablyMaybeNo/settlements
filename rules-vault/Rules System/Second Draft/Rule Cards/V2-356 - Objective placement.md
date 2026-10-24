@@ -14,7 +14,7 @@ tags:
 - setup
 summary: Middle 12″ band, outside deployment, ≥6″ apart/3″ from edges; alternate placement; two plausible routes
   each.
-status: Draft proposal
+status: Deferred
 review_status: Unreviewed
 publication: Deferred
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-355 - Mission generator]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-363 - Recover supplies secondary]]'
 planned_section: "05 · Scenarios"
+rule_parent: "Earlier objective proposals / Deferred"
 ---
 
 # Objective placement

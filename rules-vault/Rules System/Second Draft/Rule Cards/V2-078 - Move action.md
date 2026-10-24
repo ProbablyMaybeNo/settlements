@@ -12,7 +12,7 @@ tags:
 - movement
 - move
 summary: Travel up to MOVE; stop early. Cannot enter within 1″ of conscious enemy; casualties permit contact.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ action_cost: Move
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-080 - Difficult and half-speed movement]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Movement"
 ---
 
 # Move action

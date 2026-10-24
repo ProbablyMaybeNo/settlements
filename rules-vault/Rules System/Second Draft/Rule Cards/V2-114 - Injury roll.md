@@ -12,7 +12,7 @@ tags:
 - combat
 - injury
 summary: 'Each hit: d20 +Damage −Armour +injury modifiers ≥15. Natural 1 fails, 20 succeeds; no Stress.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-115 - Injury outcomes]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Injuries and Resolving Combat"
 ---
 
 # Injury roll

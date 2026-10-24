@@ -13,7 +13,7 @@ tags:
 - combat
 - core
 summary: Starts loaded; firing unloads; Core reloads before firing again.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ action_cost: Core
 rule: After firing, mark unloaded. Spend Core to Reload before firing again. A weapon begins the battle loaded.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Reload

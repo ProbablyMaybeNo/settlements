@@ -13,7 +13,7 @@ tags:
 - round
 summary: Restore eligible fighters' Move/Core; reset Activated, Reacted and round abilities. READY persists; Unconscious/captured
   cannot activate.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-053 - Initiative]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Rounds Turns and Phases"
 ---
 
 # Round refresh

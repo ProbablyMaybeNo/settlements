@@ -12,7 +12,7 @@ tags:
 - objectives
 - movement
 summary: Unarmed Recruit, no independent actions; moves with contact escort at escort's normal Move; no attacking/other scoring.
-status: Draft proposal
+status: Deferred
 review_status: Unreviewed
 publication: Deferred
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-366 - Sabotage default]]'
 planned_section: "05 · Scenarios"
+rule_parent: "Earlier objective proposals / Deferred"
 ---
 
 # Escort default

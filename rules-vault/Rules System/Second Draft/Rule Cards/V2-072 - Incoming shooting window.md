@@ -12,7 +12,7 @@ tags:
 - reaction
 - combat
 summary: Return Fire/Dive before incoming attack dice when targeted; ordinary Reaction Shoot after an enemy Shoot at another fighter and all its outcomes.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-066 - Reaction limits]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-071 - Interrupted action]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / READY and Reactions"
 ---
 
 # Incoming shooting window

@@ -15,7 +15,7 @@ tags:
 - opposed
 - pinned
 summary: 'Replace Fight: opposed STR; pass pushes target 2″ and Pins; failure nothing; resolve caused hazards.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ source:
 review_notes: ''
 related_rules: []
 planned_section: "04 · Fighting Battles"
+rule_parent: "Close Combat"
 ---
 
 # Shove

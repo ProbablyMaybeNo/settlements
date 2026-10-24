@@ -13,7 +13,7 @@ tags:
 - structure
 - medical
 summary: 60 Mat, HQ, 2 Power; one scar treatment/round, medical unlocks; worker treatment cost −3 Cr.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -31,6 +31,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-422 - Structure rules]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-423 - Headquarters]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Structures"
 ---
 
 # Clinic

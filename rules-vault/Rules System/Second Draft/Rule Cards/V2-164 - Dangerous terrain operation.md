@@ -15,7 +15,7 @@ tags:
 - tests
 summary: Threatening occupied space requires operator test, then printed victim escape procedure—even for a simple
   button.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-162 - Direct Interact]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Ordinary Interactions and Objectives"
 ---
 
 # Dangerous terrain operation

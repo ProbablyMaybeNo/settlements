@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - post-battle
 summary: End round six, scenario ending or withdrawal; finish current action for scenario ending; score final objectives.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-368 - Recover fighters and equipment]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-369 - Lasting-injury eligibility]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Ending the Battle"
 ---
 
 # End and score

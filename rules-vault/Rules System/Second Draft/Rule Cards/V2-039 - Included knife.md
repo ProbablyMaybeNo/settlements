@@ -15,7 +15,7 @@ tags:
 - melee
 - combat
 summary: No slot while stowed; uses one hand in melee. No free duplicate for dual-wielding.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-040 - Held weapon choices]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-041 - Heavy weapon handling]]'
 planned_section: "06 · The Crew"
+rule_parent: "Equipping Fighters"
 ---
 
 # Included knife

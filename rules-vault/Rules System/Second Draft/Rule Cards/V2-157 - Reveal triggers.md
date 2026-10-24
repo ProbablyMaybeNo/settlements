@@ -12,7 +12,7 @@ tags:
 - stealth
 - hidden
 summary: Shoot, loud interaction, engagement or successful hit reveals; specific Quiet/skill exceptions apply.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-156 - Hidden movement]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-158 - Proximity and exposed reveal]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Visibility Cover and Stealth"
 ---
 
 # Reveal triggers

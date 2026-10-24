@@ -12,7 +12,7 @@ tags:
 - terrain
 - move-minus
 summary: Open makes marked shallow channel Difficult; Close drains; Displace at gate; no drowning casualties.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-201 - Usable terrain starting states]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Interactive terrain"
 ---
 
 # Floodgate

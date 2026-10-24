@@ -13,7 +13,7 @@ tags:
 - experience
 summary: 'Qualifying deed for the once-per-battle deed XP bonus: Revived or evacuated a friendly casualty, or extracted
   an enemy captive.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-482 - Useful terrain deed]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-484 - Downing an enemy deed]]'
 planned_section: "06 · The Crew"
+rule_parent: "Experience deeds"
 ---
 
 # Rescue or capture deed

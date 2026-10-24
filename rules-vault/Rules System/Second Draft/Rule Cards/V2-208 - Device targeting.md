@@ -13,7 +13,7 @@ tags:
 - combat
 summary: Normal ranged hit or unengaged contact Core auto-hit; actual cover applies. No Stress, morale or objective
   presence.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-205 - Disarm]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-207 - Device damage]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Deployables and Drones"
 ---
 
 # Device targeting

@@ -14,7 +14,7 @@ tags:
 - pinned
 - combat
 summary: Only Dive, and only if a specific rule retained READY while Pinned.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-062 - Losing READY]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-063 - Reaction eligibility]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / READY and Reactions"
 ---
 
 # Pinned reactions

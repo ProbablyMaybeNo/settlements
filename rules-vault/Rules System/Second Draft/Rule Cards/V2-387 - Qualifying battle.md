@@ -13,7 +13,7 @@ tags:
 - economy
 summary: Two complete rounds or genuine earlier mission finish qualifies for rewards/production/recovery/XP; early
   concession grants neither crew benefits.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-386 - Battle income]]'
 planned_section: "10 · The Settlement Round"
+rule_parent: "Rewards and Qualifying Battles"
 ---
 
 # Qualifying battle

@@ -13,7 +13,7 @@ tags:
 - combat
 - modifiers
 summary: Apply cover, Pinned, Hidden, rear, Aim and Stress once each; only strongest cover applies.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-019 - Skill and equipment modifiers]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-021 - Stress-free rolls]]'
 planned_section: "02 · Core Mechanics"
+rule_parent: "Dice and Tests"
 ---
 
 # Position modifiers

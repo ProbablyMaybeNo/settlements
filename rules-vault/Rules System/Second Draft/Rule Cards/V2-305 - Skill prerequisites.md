@@ -12,7 +12,7 @@ tags:
 - skill
 summary: Relevant uninjured stat +2; maximum three skills, no duplicates. Starting grade includes skills; later
   ones from levels.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-306 - Skill action restrictions]]'
 planned_section: "08 · Skills"
+rule_parent: "Choosing and Using Skills"
 ---
 
 # Skill prerequisites

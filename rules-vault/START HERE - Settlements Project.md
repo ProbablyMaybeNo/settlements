@@ -29,6 +29,10 @@ The current rules live in **individual Draft 2 rule-card notes**. The rulebook, 
 | Check decisions and outstanding work | [[Settlements/Rules System/Second Draft/Draft 2 - Progress and Decisions\|Progress and Decisions]] |
 | Look up design research | [[Settlements/Research/Wargaming Research Hub\|Research hub]] or [[Settlements/Research/Rule of Carnage Skirmish Game Design Reference\|Rule of Carnage design reference]] |
 
+## Parent overview
+
+Open [[Settlements/Rules System/Second Draft/Settlements Rule Parents.canvas|the parent canvas]] for one card per parent under its rulebook family. Double-click a parent to open its live rule table. Change Type / Parent in [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index#Editable index|Complete Index → Editable index]] to update membership automatically. See [[Settlements/Rules System/Second Draft/Rule Parents - Start Here|parent-view instructions]].
+
 ## 2. Browse the rules as tables, cards or Kanban
 
 Open [[Settlements/Rules System/Second Draft/Settlements Rule Cards.base\|Settlements Rule Cards.base]]. Use the view menu at the upper left to switch layouts.
@@ -43,15 +47,19 @@ Open [[Settlements/Rules System/Second Draft/Settlements Rule Cards.base\|Settle
 
 Use **Filter** to combine tags, category, status and scope. For example, combine the Combat category with the `hit-plus` tag to examine positive hit modifiers in that category. Use **Properties** to choose visible fields and **Sort** to change their order. The toolbar’s **Search** searches the displayed properties.
 
+The [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|complete index]] includes Status beside every rule. Change the card’s Status in its properties or the Rules table; the workspace plugin refreshes the index automatically. Its **Refresh rule statuses in the complete index** command also refreshes the column. Edit the owning property rather than the index copy.
+
+**Family → Type / Parent → Rule** provides the rulebook hierarchy: for example, **Core Mechanics → Stats → DEX**. Family is the recorded chapter; Type / Parent is an editable `rule_parent` assignment, initially seeded from catalogue type or ordinary-rule subsection. These index columns follow the owning card’s placement fields. Planned section remains a proposed move until the manuscript layout is applied.
+
 ### What the fields mean
 
 | Visible field | Stored property | Meaning |
 | --- | --- | --- |
-| Status | `review_status` | Review state, such as Unreviewed or Needs review. |
-| Rule stage | `status` | Draft proposal, Confirmed direction, or another recorded design stage. Separate from review status. |
-| Scope | `publication` | Included in the working draft or Deferred. Inclusion is not proof of approval or playtesting. |
+| Status | `status` | Pending, Partial, Drafted, Confirmed, Locked or Deferred; definitions in the complete index. |
+| Review flag | `review_status` | Unreviewed or Needs review; separate from writing/approval status. |
+| Scope | `publication` | Follows Status: Deferred or Included. Change Status to defer/restore a card; inclusion is not approval or playtesting. |
 | Last updated | `last_rule_update` | Last confirmed change to the rule’s meaning or procedure. Blank means unknown. |
-| Current chapter / Current subsection | `book_section` / `book_subsection` | Recorded placement in the existing rulebook structure. |
+| Family / Current chapter / Current subsection | `book_section` / `book_subsection` | Recorded placement in the existing rulebook structure. |
 | Planned section | `planned_section` | Proposed chapter placement shared by the planning board and canvas. |
 
 Tags have coloured chips. In the galleries and boards, category strips use coral for combat/weapons, blue for movement/actions/setup, teal for terrain/interactions/devices, purple for morale/casualties/stealth, green for skills, gold for equipment/settlements/structures, and slate for other rules. **Amber marks Needs review; grey marks Deferred.** Read the written status and scope alongside the colour.
@@ -63,7 +71,7 @@ Tags have coloured chips. In the galleries and boards, category strips use coral
 3. Enter the **rule name, category, chapter, optional subsection, tags, concise description and full rule text**. Separate tags with commas; omit `#` and spaces inside a tag name.
 4. Select **Create rule card**.
 
-The command creates a clean individual note with the next unused **V2 ID**, a unique rule-text block, the required properties, and Pacific creation/revision dates. It adds the card to the live views and canvas, updates the complete index and annotated review table, and records the addition in Progress and Decisions. New cards start as **Unreviewed / Draft proposal**.
+The command creates a clean individual note with the next unused **V2 ID**, a unique rule-text block, the required properties, and Pacific creation/revision dates. It adds the card to the live views and canvas, updates the complete index and annotated review table, and records the addition in Progress and Decisions. New cards start with **Status: Drafted** and **Review flag: Unreviewed**.
 
 Use this command for the complete creation workflow. The generic Bases **New** button does not perform the unique-ID and index setup.
 
@@ -151,4 +159,4 @@ The active vault is `C:\Users\Admin\Documents\Obsidian Vault`; Settlements is a 
 
 The repository at `D:\AI-Workstation\Antigravity\apps\Settlements` contains development tools and a **one-way mirror** named `rules-vault/`. Edit the live Obsidian notes. I can refresh that mirror with `scripts/sync-rules.ps1` after changes. External exports, including Fibery copies, are not a live Obsidian sync provided by this workflow.
 
-Guide updated **23 October 2026**. This document explains access and editing; it does not change any game rule.
+Guide updated **24 October 2026**. This document explains access and editing; it does not change any game rule.

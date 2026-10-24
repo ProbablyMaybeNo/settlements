@@ -12,7 +12,7 @@ tags:
 - core
 - reroll
 summary: Reroll each die once at most; keep the replacement result.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -28,6 +28,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-013 - Declarations and spent resources]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-014 - Displaced models and bad dice]]'
 planned_section: "02 · Core Mechanics"
+rule_parent: "Measuring and Common Terms"
 ---
 
 # Reroll limit

@@ -15,7 +15,7 @@ tags:
 - heavy
 - hit-minus
 summary: '65 Cr; 1 per target dice; Dmg 3; 24″; 2 hand(s). Heavy, Blast, Reload, Unwieldy. Access: Armoury.'
-status: Draft proposal
+status: Partial
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -45,6 +45,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-247 - Blast]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-456 - Heavy]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapons"
 ---
 
 # Grenade launcher

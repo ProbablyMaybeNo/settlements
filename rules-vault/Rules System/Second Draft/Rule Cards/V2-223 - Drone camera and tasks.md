@@ -14,7 +14,7 @@ tags:
 - visibility
 - objectives
 summary: 360° camera at actual height; can alter terrain; human-only objectives still require a human.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -29,6 +29,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-224 - Drone control loss]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-227 - Drone wreck]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Deployables and Drones"
 ---
 
 # Drone camera and tasks

@@ -12,7 +12,7 @@ tags:
 - post-battle
 - economy
 summary: Players may void/replay disrupted game with no roster consequences; no fabricated games for income.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-386 - Battle income]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-387 - Qualifying battle]]'
 planned_section: "10 · The Settlement Round"
+rule_parent: "Rewards and Qualifying Battles"
 ---
 
 # Voided battle

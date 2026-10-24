@@ -15,7 +15,7 @@ tags:
 - pinned
 - combat
 summary: Pinned/Down/Unconscious use visible base footprint; Pinned sight starts at ground level.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-075 - Body-based LOS]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-077 - Rear attack bonus]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Visibility Cover and Stealth"
 ---
 
 # Prone visibility

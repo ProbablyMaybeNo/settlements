@@ -13,7 +13,7 @@ tags:
 - routes
 - hazard
 summary: Open/close hole ≤3″ across; opening under rider uses bridge escape/fall; no crushing beneath.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ occupied_space_and_counterplay: Opening beneath a model uses the bridge escape r
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Interactive terrain"
 ---
 
 # Pit or vat cover

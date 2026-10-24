@@ -13,7 +13,7 @@ tags:
 - combat
 - ranged
 summary: '20 Cr; 1 dice; Dmg 2; 24″; 2 hand(s). None. Access: Basic.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -35,6 +35,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-228 - Weapon profile fields]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-230 - Long-range weapon limit]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapons"
 ---
 
 # Carbine

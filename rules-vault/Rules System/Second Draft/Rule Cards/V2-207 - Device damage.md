@@ -12,7 +12,7 @@ tags:
 - device
 - combat
 summary: One hit Offline, next Destroyed; no Injury roll. Drone first hit destroys; hit armed mine/trap ruined safely.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-204 - Concealed devices]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-205 - Disarm]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Deployables and Drones"
 ---
 
 # Device damage

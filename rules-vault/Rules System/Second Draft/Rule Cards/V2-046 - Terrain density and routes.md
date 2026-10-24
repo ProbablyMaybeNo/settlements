@@ -13,7 +13,7 @@ tags:
 - terrain
 summary: Start with 9–12 substantial features across nine squares; covered exits, central blocker and multiple objective
   approaches.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-047 - Interactive battlefield minimum]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-048 - Declare terrain properties]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Board Setup"
 ---
 
 # Terrain density and routes

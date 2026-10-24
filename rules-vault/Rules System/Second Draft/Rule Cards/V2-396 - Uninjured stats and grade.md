@@ -14,7 +14,7 @@ tags:
 - scar
 summary: Record scars separately; scars do not revoke skills; Wounds never rise; advancement never changes recruitment
   grade.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-392 - Levels]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-395 - Advance valuation]]'
 planned_section: "06 · The Crew"
+rule_parent: "Experience and Advancement"
 ---
 
 # Uninjured stats and grade

@@ -12,7 +12,7 @@ tags:
 - interaction
 summary: Normally one target/piece; no free attack, superhuman feat, whole-building destruction or erased objective.
   Use nearest printed action if disputed.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-174 - Improvised actions]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Ordinary Interactions and Objectives"
 ---
 
 # Improvisation limits

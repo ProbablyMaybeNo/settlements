@@ -12,7 +12,7 @@ tags:
 - tests
 - stress
 summary: Injury, Break, Rally, initiative, distance and post-battle rolls ignore Stress.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-017 - Ordinary test]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-019 - Skill and equipment modifiers]]'
 planned_section: "02 · Core Mechanics"
+rule_parent: "Dice and Tests"
 ---
 
 # Stress-free rolls

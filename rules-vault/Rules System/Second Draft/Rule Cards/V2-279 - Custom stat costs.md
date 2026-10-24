@@ -13,7 +13,7 @@ tags:
 - custom
 - economy
 summary: +5 Cr per Damage; +15 per die; Sidearm 12″ +5; two-handed 36″ +15 or 12″ −5.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-273 - One-handed ranged class]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-281 - Custom drawbacks and caps]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapons"
 ---
 
 # Custom stat costs

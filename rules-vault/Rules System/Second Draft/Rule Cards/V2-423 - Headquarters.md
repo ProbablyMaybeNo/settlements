@@ -12,7 +12,7 @@ tags:
 - settlement
 - structure
 summary: Free/unique; no Power; housing 12, storage 250 Mat, basic recruitment/shopping; no worker.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -29,6 +29,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-407 - Worker bonuses]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-422 - Structure rules]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Structures"
 ---
 
 # Headquarters

@@ -13,7 +13,7 @@ tags:
 - visibility
 - facing
 summary: See head/torso of agreed 2″ human silhouette; decorations ignored. Solids and standing bodies block sight.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-076 - Prone visibility]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-077 - Rear attack bonus]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Visibility Cover and Stealth"
 ---
 
 # Body-based LOS

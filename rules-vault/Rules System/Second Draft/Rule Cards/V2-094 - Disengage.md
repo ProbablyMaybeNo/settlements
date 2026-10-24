@@ -15,7 +15,7 @@ tags:
 - opposed
 - combat
 summary: Both; opposed AGI. Pass moves MOVE; fail suffers one Unanswered exchange, then half MOVE if not Down.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -28,6 +28,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-095 - Pinned escape and forced flight]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-096 - Engaged repositioning]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Movement"
 ---
 
 # Disengage

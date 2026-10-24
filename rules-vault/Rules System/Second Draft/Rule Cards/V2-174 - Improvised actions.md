@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - interaction
 summary: Agree object, effect, cost, stat and failure first; reuse printed operations and plausible human capabilities.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -21,6 +21,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-175 - Improvisation limits]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Ordinary Interactions and Objectives"
 ---
 
 # Improvised actions

@@ -13,7 +13,7 @@ tags:
 - injury
 - limits
 summary: Resolve all dice together; excess successes neither execute casualties nor multiply lasting-injury rolls.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-114 - Injury roll]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-115 - Injury outcomes]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Injuries and Resolving Combat"
 ---
 
 # Attack-pool casualties

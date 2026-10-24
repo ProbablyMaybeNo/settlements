@@ -14,7 +14,7 @@ tags:
 - heavy
 - progression
 summary: Specialist, Leader or Level 6+ required; purchase unlock and crew limits still apply.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Weapon hands and slots]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-040 - Held weapon choices]]'
 planned_section: "06 · The Crew"
+rule_parent: "Equipping Fighters"
 ---
 
 # Heavy weapon handling

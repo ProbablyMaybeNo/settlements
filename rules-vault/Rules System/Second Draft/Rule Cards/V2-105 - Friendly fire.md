@@ -14,7 +14,7 @@ tags:
 - melee
 summary: 'Shooting into friendly engagement: each natural 1 hits an involved friendly chosen by opponent. Blast
   uses its area instead.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ source:
 review_notes: ''
 related_rules: []
 planned_section: "04 · Fighting Battles"
+rule_parent: "Ranged Combat"
 ---
 
 # Friendly fire

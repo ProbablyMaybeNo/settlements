@@ -13,7 +13,7 @@ tags:
 - visibility
 - combat
 summary: Successful mark reveals and prevents Hide until expiry; never grants LOS or bypasses Hidden targeting limits.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-159 - Hidden targeting]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-160 - Observe]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Visibility Cover and Stealth"
 ---
 
 # Marked visibility

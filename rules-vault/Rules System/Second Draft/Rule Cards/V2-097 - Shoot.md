@@ -13,7 +13,7 @@ tags:
 - ranged
 - core
 summary: Core; legal front-arc target in range/LOS. Each d20 +DEX +modifiers −Stress ≥13 hits.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-100 - Shooting range and movement]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-101 - One shooting target]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Ranged Combat"
 ---
 
 # Shoot

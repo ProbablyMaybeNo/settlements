@@ -12,7 +12,7 @@ tags:
 - combat
 - ranged
 summary: No generic range/movement penalty; cannot shoot beyond printed range or blocked LOS.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-099 - Aim]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-101 - One shooting target]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Ranged Combat"
 ---
 
 # Shooting range and movement

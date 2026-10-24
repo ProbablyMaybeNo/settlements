@@ -15,7 +15,7 @@ tags:
 - combat
 summary: 5 Cr/1 slot; Core/contact removes conscious friendly's Pinned and one Stress; adds one Stress at End Phase;
   Clinic.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -30,6 +30,7 @@ access: Clinic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
 planned_section: "07 · Equipment"
+rule_parent: "Equipment"
 ---
 
 # Stimulant

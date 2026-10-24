@@ -12,7 +12,7 @@ tags:
 - records
 - roster
 summary: Track profiles/loadouts, value, skills, objectives, score, round, Activated/actions, READY/Reacted, states, timers, revival and consumables.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules: []
 planned_section: "06 · The Crew"
+rule_parent: "Crew Records"
 ---
 
 # Battle records

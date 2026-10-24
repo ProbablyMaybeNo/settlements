@@ -12,7 +12,7 @@ tags:
 - post-battle
 - injury
 summary: Unmodified d20; ten paired outcomes; no stat, Stress or natural-success rules.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -32,6 +32,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-380 - Hard-earned lesson]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-381 - Scar limits]]'
 planned_section: "06 · The Crew"
+rule_parent: "Lasting Injuries and Recovery"
 ---
 
 # Lasting-injury roll

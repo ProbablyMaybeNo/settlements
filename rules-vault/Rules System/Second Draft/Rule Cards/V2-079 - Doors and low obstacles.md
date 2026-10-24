@@ -13,7 +13,7 @@ tags:
 - move
 - terrain
 summary: Unlocked doors open during movement; closing costs Interact. Obstacles ≤1″ high cost 2″ to cross.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move action]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-080 - Difficult and half-speed movement]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Movement"
 ---
 
 # Doors and low obstacles

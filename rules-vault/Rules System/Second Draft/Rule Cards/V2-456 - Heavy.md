@@ -14,7 +14,7 @@ tags:
 - hands
 - restriction
 summary: Two hands; restricted handling and crew allowance. Heavy does not mean a third hand.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -29,6 +29,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-041 - Heavy weapon handling]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-230 - Long-range weapon limit]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Heavy

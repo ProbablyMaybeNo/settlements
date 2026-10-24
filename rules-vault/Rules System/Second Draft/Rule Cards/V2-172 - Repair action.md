@@ -13,7 +13,7 @@ tags:
 - device
 - core
 summary: Contact Core/INT restores Offline or disabled electronics; cannot restore Destroyed devices in battle.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-173 - Critical terrain protection]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Hacking"
 ---
 
 # Repair action

@@ -13,7 +13,7 @@ tags:
 - terrain
 summary: Four interactive features beyond doors; three operation types; two change objective routes/LOS; at least
   two terminals.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-046 - Terrain density and routes]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-048 - Declare terrain properties]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Board Setup"
 ---
 
 # Interactive battlefield minimum

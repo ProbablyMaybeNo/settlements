@@ -12,7 +12,7 @@ tags:
 - round
 - timing
 summary: Resolve due effects; expire Down timers; Break/Rally; score; clear expiring effects; check battle end.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules: []
 planned_section: "04 · Fighting Battles"
+rule_parent: "End Phase"
 ---
 
 # End Phase order

@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - objectives
 summary: Eligible human within 2″ controls if no eligible enemy present; extra bodies do not outweigh one enemy.
-status: Draft proposal
+status: Deferred
 review_status: Unreviewed
 publication: Deferred
 created: '2026-10-18'
@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-351 - Retrieve and transfer]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-352 - Work]]'
 planned_section: "05 · Scenarios"
+rule_parent: "Earlier objective proposals / Deferred"
 ---
 
 # Control and contest

@@ -12,7 +12,7 @@ tags:
 - morale
 - stress
 summary: 0–5; failed Injury adds one each. No separate under-fire/pinning Stress; excess is lost.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-140 - Witness casualty]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-141 - Stress penalty]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Stress and Morale"
 ---
 
 # Stress track

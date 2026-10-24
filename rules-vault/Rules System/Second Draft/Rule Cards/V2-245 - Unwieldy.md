@@ -14,7 +14,7 @@ tags:
 - hit-minus
 - movement
 summary: −2 to hit after any earlier movement this round, including forced movement; pivot alone exempt.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ rule: −2 to hit if its wielder has moved earlier this round, including forced 
   for this trait.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Unwieldy

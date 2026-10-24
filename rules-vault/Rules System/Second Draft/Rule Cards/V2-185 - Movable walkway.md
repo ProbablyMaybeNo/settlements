@@ -13,7 +13,7 @@ tags:
 - routes
 - movement
 summary: Rotate/slide between connections ≤4″ apart; riders travel; Displace blocked connections.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ occupied_space_and_counterplay: Riders travel with it. Displace anyone at a bloc
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Interactive terrain"
 ---
 
 # Movable walkway

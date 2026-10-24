@@ -14,7 +14,7 @@ tags:
 - cover
 - hazard
 summary: Raise/lower marked load ≤4″; changes routes/LOS; dropping into occupied area Crushes.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ occupied_space_and_counterplay: A load can open a passage or screen a window. Dr
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Interactive terrain"
 ---
 
 # Pulley or hoist

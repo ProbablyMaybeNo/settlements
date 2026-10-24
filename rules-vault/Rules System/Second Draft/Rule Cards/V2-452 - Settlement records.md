@@ -13,7 +13,7 @@ tags:
 - settlement
 summary: Track resources/capacity, buildings/Power/workers, inventory/scrap, fighter values/stats/scars/XP, availability
   and recovery battle numbers.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-453 - Ownership reconciliation]]'
 planned_section: "09 · The Settlement"
+rule_parent: "People Stores and Resources"
 ---
 
 # Settlement records

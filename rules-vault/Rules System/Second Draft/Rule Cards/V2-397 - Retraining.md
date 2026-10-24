@@ -13,7 +13,7 @@ tags:
 - skill
 - economy
 summary: 'Operational Training Yard: 20 Cr replaces one skill per Settlement round; no extra skill, XP or rating.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-398 - No grade promotion]]'
 planned_section: "06 · The Crew"
+rule_parent: "Experience and Advancement"
 ---
 
 # Retraining

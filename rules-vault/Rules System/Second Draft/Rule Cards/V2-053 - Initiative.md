@@ -13,7 +13,7 @@ tags:
 - round
 - dice
 summary: d20 minus 1 per own Broken fighter; higher result chooses first player; tie rules retained.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Initiative"
 ---
 
 # Initiative

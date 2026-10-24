@@ -14,7 +14,7 @@ tags:
 - hit-plus
 - facing
 summary: 'Starts and ends behind target without crossing front: +2 hit and Unanswered.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-112 - Unanswered exchange]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Close Combat"
 ---
 
 # Rear Charge

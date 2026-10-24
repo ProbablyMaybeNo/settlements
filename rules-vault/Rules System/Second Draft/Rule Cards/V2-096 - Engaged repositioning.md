@@ -15,7 +15,7 @@ tags:
 - facing
 - combat
 summary: Move shifts up to 1″ while staying engaged; no new enemy engagement. Both may face after melee.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-093 - Engaged action limits]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-095 - Pinned escape and forced flight]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Movement"
 ---
 
 # Engaged repositioning

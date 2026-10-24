@@ -12,7 +12,7 @@ tags:
 - profile
 - nrv
 summary: Courage, recovery under pressure, and leadership
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ meaning: Courage, recovery under pressure, and leadership
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Five stats]]'
 planned_section: "02 · Core Mechanics"
+rule_parent: "Stats"
 ---
 
 # NRV characteristic

@@ -13,7 +13,7 @@ tags:
 - combat
 - armour-minus
 summary: Reduce target Armour by X, minimum zero; no extra Damage against unarmoured targets.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 rule: Reduce Armour by X, minimum 0. It never increases Damage against an unarmoured target.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Piercing X

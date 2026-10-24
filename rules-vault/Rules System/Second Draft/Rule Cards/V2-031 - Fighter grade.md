@@ -12,7 +12,7 @@ tags:
 - crew
 - recruitment
 summary: 80 Cr; 5 stat points; starting stat cap +3; one starting skill.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ starting_skills: 1
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-029 - Recruitment allocation]]'
 planned_section: "06 · The Crew"
+rule_parent: "Training grades"
 ---
 
 # Fighter grade

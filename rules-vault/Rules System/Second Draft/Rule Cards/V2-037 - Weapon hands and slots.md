@@ -13,7 +13,7 @@ tags:
 - inventory
 - hands
 summary: Two weapon slots represent two hands. One-handed weapons use one; two-handed and Heavy weapons use both.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-040 - Held weapon choices]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-041 - Heavy weapon handling]]'
 planned_section: "06 · The Crew"
+rule_parent: "Equipping Fighters"
 ---
 
 # Weapon hands and slots

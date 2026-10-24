@@ -12,7 +12,7 @@ tags:
 - stealth
 - core
 summary: Unengaged; cover or fully unseen; not within enemy 3″/LOS. Unseen auto-Hide; otherwise AGI for Hidden.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ action_cost: Core
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-155 - Public Hidden position]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Visibility Cover and Stealth"
 ---
 
 # Hide action

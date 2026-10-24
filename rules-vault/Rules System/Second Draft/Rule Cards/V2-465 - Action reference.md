@@ -12,7 +12,7 @@ tags:
 - actions
 - battle
 summary: Action costs and the standard Move, Core and Both action menu.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -38,6 +38,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploy equipment]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-243 - Reload]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Activations and Actions"
 ---
 
 # Action reference

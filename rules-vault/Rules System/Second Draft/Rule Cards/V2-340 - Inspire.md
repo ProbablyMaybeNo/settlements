@@ -14,7 +14,7 @@ tags:
 - core
 - stress
 summary: 'Core/normal NRV: remove up to two Stress from self and one friendly within 6″/LOS; no Pinned/fear removal.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -30,6 +30,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-306 - Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-307 - Skill frequency]]'
 planned_section: "08 · Skills"
+rule_parent: "Skills"
 ---
 
 # Inspire

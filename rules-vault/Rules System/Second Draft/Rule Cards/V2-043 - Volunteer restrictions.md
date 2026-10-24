@@ -12,7 +12,7 @@ tags:
 - crew
 - recovery
 summary: No XP, work, permanent gear transfer or resale; volunteers and loaned gear return after battle.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-042 - Relief Volunteers]]'
 planned_section: "06 · The Crew"
+rule_parent: "Composition and Crew Rating"
 ---
 
 # Volunteer restrictions

@@ -13,7 +13,7 @@ tags:
 - setup
 summary: Agree practical initial states; smoke/gas Off; routes mixed; every mandatory objective remains physically
   accessible.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules: []
 planned_section: "04 · Fighting Battles"
+rule_parent: "Interactive Terrain"
 ---
 
 # Usable terrain starting states

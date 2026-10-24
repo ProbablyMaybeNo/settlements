@@ -13,7 +13,7 @@ tags:
 - combat
 - ranged
 summary: '15 Cr; 1 dice; Dmg 1; 8″; 1 hand(s). Sidearm. Access: Basic.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -37,6 +37,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-230 - Long-range weapon limit]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-235 - Sidearm]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapons"
 ---
 
 # Pistol

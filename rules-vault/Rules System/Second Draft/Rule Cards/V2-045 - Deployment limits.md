@@ -12,7 +12,7 @@ tags:
 - setup
 - deployment
 summary: Default within 6″ of opposite edges; off-board reserves require a printed rule.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-044 - Setup and deployment]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Deployment"
 ---
 
 # Deployment limits

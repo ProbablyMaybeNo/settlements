@@ -14,7 +14,7 @@ tags:
 - core
 summary: 'Capable helper/contact/medkit/INT: pass restores Wound, leaves Pinned at Stress 2, clears morale; failure
   consumes kit.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ action_cost: Core
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-127 - Self-treatment]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Injuries and Resolving Combat"
 ---
 
 # Treat ally

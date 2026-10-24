@@ -12,7 +12,7 @@ tags:
 - morale
 - tests
 summary: 'Conscious, no morale condition, Stress 2+: d20 +NRV +modifiers ≥13, ignoring Stress. Pass clears all Stress.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-146 - Forced low-Stress Break]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-149 - Withdrawn fighter]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Stress and Morale"
 ---
 
 # End Phase Break

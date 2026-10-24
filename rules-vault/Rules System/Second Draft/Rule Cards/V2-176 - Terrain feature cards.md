@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - terrain
 summary: Record footprint, controls, terminal, states, operation and hazard area; prefer two states.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-179 - Crush against casualties]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-180 - Smoke visibility]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Interactive Terrain"
 ---
 
 # Terrain feature cards

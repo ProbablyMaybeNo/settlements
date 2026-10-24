@@ -5,6 +5,9 @@ cssclasses:
 
 # Rule cards — Visual workspace
 
+Parent overview: [[Settlements Rule Parents.canvas|family/parent canvas]] → open a parent for its live rule list. Reassign rules in [[Rule Cards - Complete Index#Editable index|the editable index]]. [[Rule Parents - Start Here|Instructions]].
+
+
 For project locations, creating/editing rules, feedback and troubleshooting, see [[Settlements/START HERE - Settlements Project|the Settlements project guide]].
 
 Open **[[Settlements Rule Cards.base|Rules table / cards / review board]]**, **[[Settlements Rulebook Layout.base|Rulebook layout board]]**, or **[[Settlements Rulebook Layout.canvas|the draggable rulebook canvas]]** full-screen for the most room. These are live views of the individual notes.
@@ -15,9 +18,11 @@ Open **[[Settlements Rule Cards.base|Rules table / cards / review board]]**, **[
 
 Switch the view menu to **All cards**, **Review board**, **Combat**, **To-hit bonuses**, **Armour bonuses**, or a catalogue. **Rules table** includes Last updated, Status, Category, Description, Tags, current chapter/subsection, Planned section, and review notes. Use Filter to combine category, tags, status and scope; use Search for the visible fields.
 
-**Status** means the existing `review_status` property. **Rule stage** separately shows `status` (such as Draft proposal); **Scope** is Included or Deferred. Unreviewed does not mean approved or tested. Blank Last updated means unknown, not today; rearranging a card does not revise its rule date.
+**Status** is `status`: Pending, Partial, Drafted, Confirmed, Locked or Deferred. See [[Rule Cards - Complete Index#Rule status|the definitions]]. Change it in a card’s properties or the Rules table; the workspace plugin updates its complete-index row. **Review flag** separately shows `review_status` (Unreviewed or Needs review). **Scope** follows Status: Deferred or Included. Change Status to defer or restore a card. Unreviewed does not mean approved or tested. Blank Last updated means unknown, not today; rearranging a card does not revise its rule date.
 
-**Review board:** drag a card between status columns to change its review status. Add a column through Group when you choose another status; no rules have been marked reviewed by this setup. Open a card to read its full text, follow linked mechanics, or write feedback in Design notes / review_notes.
+**Family → Type / Parent → Rule** gives the hierarchy, e.g. Core Mechanics → Stats → DEX. The [[Rule Cards - Complete Index|complete index]] shows both hierarchy columns; the live views expose Type / Parent and Family / Current chapter from the same owning fields.
+
+**Review board:** drag a card between review-flag columns to change its review flag; this does not change the writing Status. Add a column through Group when you choose another status; no rules have been marked reviewed by this setup. Open a card to read its full text, follow linked mechanics, or write feedback in Design notes / review_notes.
 
 ## Rulebook layout
 
@@ -45,7 +50,7 @@ Chapter placement is planning metadata. Positions inside a group do not set prec
 2. Enter its name, category, chapter, optional subsection, comma-separated tags, concise description and full rule text.
 3. Select **Create rule card**.
 
-The command generates a clean card with the next unused V2 ID, required fields, Pacific dates, and a unique owning block. It adds the card to the canvas, both indexes and live views as **Unreviewed / Draft proposal**. You can then edit its text and Design notes normally. Use this command for an indexed new rule; the generic Bases **New** button does not perform the ID/index setup.
+The command generates a clean card with the next unused V2 ID, required fields, Pacific dates, and a unique owning block. It adds the card to the canvas, both indexes and live views with **Status: Drafted / Review flag: Unreviewed**. You can then edit its text and Design notes normally. Use this command for an indexed new rule; the generic Bases **New** button does not perform the ID/index setup.
 
 New cards still await placement of their owning block in the assembled chapter. Later semantic edits follow [[AGENTS|the normal rule-update tracking instructions]].
 
@@ -60,4 +65,4 @@ The narrow strip marks category: coral for Combat/weapons; blue for movement/act
 - [[Settlements Rulebook - Assembled|Current assembled rulebook]]
 - [[Settlements Core Rulebook Outline|Chapter and subsection outline]]
 
-Presentation updated 2026-10-23. The individual cards still own the rules; the boards are views and planning metadata.
+Presentation updated 2026-10-24. The individual cards still own the rules; the boards are views and planning metadata.

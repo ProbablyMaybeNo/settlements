@@ -12,7 +12,7 @@ tags:
 - settlement
 - crafting
 summary: Smoke Shop/Medical Stores use separate limits/prices; no additional Workshop discount.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-444 - Crafting worker discount]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-447 - Custom weapon access]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Trade Crafting and Services"
 ---
 
 # Specialist crafting limits

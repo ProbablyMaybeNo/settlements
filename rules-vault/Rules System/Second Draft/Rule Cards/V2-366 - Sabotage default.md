@@ -13,7 +13,7 @@ tags:
 - terrain
 summary: Two Work successes arm; next End Phase triggers printed hazard/Disabled state; one successful enemy DEX
   Work disarms beforehand.
-status: Draft proposal
+status: Deferred
 review_status: Unreviewed
 publication: Deferred
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-365 - Escort default]]'
 planned_section: "05 · Scenarios"
+rule_parent: "Earlier objective proposals / Deferred"
 ---
 
 # Sabotage default

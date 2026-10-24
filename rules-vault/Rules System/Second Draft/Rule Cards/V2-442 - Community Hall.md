@@ -13,7 +13,7 @@ tags:
 - structure
 - recruitment
 summary: 30 Mat, HQ, no Power; one Recruit/round costs 55 Cr, retains 60-Cr rating; no worker.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -32,6 +32,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-422 - Structure rules]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-423 - Headquarters]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Structures"
 ---
 
 # Community Hall

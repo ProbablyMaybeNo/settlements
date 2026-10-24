@@ -12,7 +12,7 @@ tags:
 - settlement
 - crafting
 summary: Two eligible non-human items/round at 80% listed price rounded up, minimum 1; normal unlock also operational.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-444 - Crafting worker discount]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-447 - Custom weapon access]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Trade Crafting and Services"
 ---
 
 # Workshop crafting

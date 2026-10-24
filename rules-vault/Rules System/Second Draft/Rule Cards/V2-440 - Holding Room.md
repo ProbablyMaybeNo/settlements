@@ -13,7 +13,7 @@ tags:
 - structure
 - capture
 summary: 25 Mat, HQ, no Power; immediate prisoner release costs 30 instead of 25 Cr; duration unchanged; no worker.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -31,6 +31,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-422 - Structure rules]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-423 - Headquarters]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Structures"
 ---
 
 # Holding Room

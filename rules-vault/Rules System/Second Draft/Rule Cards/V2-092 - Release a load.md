@@ -13,7 +13,7 @@ tags:
 - carry
 - capture
 summary: Drop during own action without test; enemy casualties must first be Secured.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-089 - Forced movement]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-091 - Single-carrier movement]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Movement"
 ---
 
 # Release a load

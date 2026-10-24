@@ -13,7 +13,7 @@ tags:
 - recovery
 - inventory
 summary: Replace used consumables normally; scrap has no sale/battle value; rebuilding replaces its scrap record.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-418 - Clinic scar treatment]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-420 - Between-battle device repair]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Trade Crafting and Services"
 ---
 
 # Consumed equipment

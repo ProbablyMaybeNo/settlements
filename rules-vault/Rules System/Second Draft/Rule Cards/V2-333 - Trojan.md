@@ -15,7 +15,7 @@ tags:
 - hacking
 summary: 'Core/kit/INT vs visible enemy electronic device within 8″: one legal operation, then return control; limits
   still apply.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -33,6 +33,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-306 - Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-307 - Skill frequency]]'
 planned_section: "08 · Skills"
+rule_parent: "Skills"
 ---
 
 # Trojan

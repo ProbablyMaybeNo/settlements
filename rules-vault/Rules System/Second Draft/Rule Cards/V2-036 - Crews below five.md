@@ -14,7 +14,7 @@ tags:
 - heavy
 - drone
 summary: May field one utility drone; no Heavy weapon or powered combat device.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Leadership and specialists]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-035 - Heavy weapons and device limits]]'
 planned_section: "06 · The Crew"
+rule_parent: "Composition and Crew Rating"
 ---
 
 # Crews below five

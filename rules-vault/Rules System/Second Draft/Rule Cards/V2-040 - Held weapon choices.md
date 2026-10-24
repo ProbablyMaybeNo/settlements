@@ -15,7 +15,7 @@ tags:
 - hands
 summary: Choose before first action/reaction each round; one later own-action switch. Unheld weapons contribute
   no dice.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Weapon hands and slots]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-041 - Heavy weapon handling]]'
 planned_section: "06 · The Crew"
+rule_parent: "Equipping Fighters"
 ---
 
 # Held weapon choices

@@ -12,7 +12,7 @@ tags:
 - setup
 - tracking
 summary: Use d20s, charge d6, rosters and state markers; Components also lists a d10.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-004 - Bases and facing mark]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-006 - Template sizes — reconcile]]'
 planned_section: "01 · Introduction"
+rule_parent: "What You Need to Play"
 ---
 
 # Dice and markers

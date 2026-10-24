@@ -13,7 +13,7 @@ tags:
 - templates
 - review
 summary: Optional 3″/5″-diameter circles and 8″ flame template; weapon specifies which template applies.
-status: Draft proposal
+status: Drafted
 review_status: Needs review
 publication: Included
 created: '2026-10-18'
@@ -29,6 +29,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-250 - Smoke grenade procedure]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-252 - Fire zones]]'
 planned_section: "01 · Introduction"
+rule_parent: "What You Need to Play"
 ---
 
 # Template sizes — reconcile

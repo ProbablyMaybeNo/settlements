@@ -17,7 +17,7 @@ tags:
 - armour-minus
 summary: '60 Cr; 1 per target dice; Dmg 5; 24″; 2 hand(s). Heavy, Blast, Piercing 2, Single-use, Unwieldy. Access:
   Advanced Workshop.'
-status: Draft proposal
+status: Partial
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -49,6 +49,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-247 - Blast]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-456 - Heavy]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapons"
 ---
 
 # Rocket launcher

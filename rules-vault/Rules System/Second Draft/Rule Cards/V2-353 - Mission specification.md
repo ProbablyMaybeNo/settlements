@@ -13,7 +13,7 @@ tags:
 - setup
 summary: Define deployment, objective types, primary/secondary scoring, timing, ending and special requirements
   before roster selection.
-status: Draft proposal
+status: Deferred
 review_status: Unreviewed
 publication: Deferred
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-354 - Non-killing victory routes]]'
 planned_section: "05 · Scenarios"
+rule_parent: "Earlier objective proposals / Deferred"
 ---
 
 # Mission specification

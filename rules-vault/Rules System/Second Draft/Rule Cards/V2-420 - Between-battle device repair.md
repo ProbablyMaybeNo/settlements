@@ -15,7 +15,7 @@ tags:
 - economy
 summary: Offline repaired free. Destroyed rebuilt at powered Workshop for half listed price rounded up; sentry/drone
   also needs powered Drone Bay.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-418 - Clinic scar treatment]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Trade Crafting and Services"
 ---
 
 # Between-battle device repair

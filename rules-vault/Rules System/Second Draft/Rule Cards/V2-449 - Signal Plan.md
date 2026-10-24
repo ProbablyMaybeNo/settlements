@@ -13,7 +13,7 @@ tags:
 - preparation
 - reroll
 summary: Expend after initiative to reroll once; carrier conscious/on-table/free of morale condition; no extra action.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-448 - Preparation limits]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-450 - Route Map]]'
 planned_section: "07 · Equipment"
+rule_parent: "Expendables and Preparations"
 ---
 
 # Signal Plan

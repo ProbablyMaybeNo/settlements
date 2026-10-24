@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - casualty
 summary: Remain on table; no actions or revival; may be carried, looted or captured; not declared dead.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-123 - Down actions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-124 - Two full rounds]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Injuries and Resolving Combat"
 ---
 
 # Unconscious state

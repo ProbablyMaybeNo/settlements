@@ -13,7 +13,7 @@ tags:
 - core
 - carry
 summary: Core/contact takes one cargo; giver Core passes to contact friendly. Down drops cargo; drones cannot carry.
-status: Draft proposal
+status: Deferred
 review_status: Unreviewed
 publication: Deferred
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-350 - Claim]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-352 - Work]]'
 planned_section: "05 · Scenarios"
+rule_parent: "Earlier objective proposals / Deferred"
 ---
 
 # Retrieve and transfer

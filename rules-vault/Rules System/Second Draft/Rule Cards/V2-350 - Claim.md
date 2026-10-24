@@ -13,7 +13,7 @@ tags:
 - core
 summary: Core/contact with uncontested marker places persistent crew token; enemy Claim replaces it; contested claim
   scores nothing.
-status: Draft proposal
+status: Deferred
 review_status: Unreviewed
 publication: Deferred
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-351 - Retrieve and transfer]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-352 - Work]]'
 planned_section: "05 · Scenarios"
+rule_parent: "Earlier objective proposals / Deferred"
 ---
 
 # Claim

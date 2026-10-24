@@ -12,7 +12,7 @@ tags:
 - objectives
 - setup
 summary: No more than six objectives on the board.
-status: Confirmed direction
+status: Confirmed
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-455 - Objective control-area sizes]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Objective conventions"
 ---
 
 # Objective limit

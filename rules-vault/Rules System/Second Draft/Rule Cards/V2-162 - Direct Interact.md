@@ -12,7 +12,7 @@ tags:
 - interaction
 - core
 summary: Contact, unengaged; Core changes one object/control. Safe simple operations automatically succeed.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ action_cost: Core
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-164 - Dangerous terrain operation]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Ordinary Interactions and Objectives"
 ---
 
 # Direct Interact

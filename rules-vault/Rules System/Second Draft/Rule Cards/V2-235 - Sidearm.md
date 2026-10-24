@@ -13,7 +13,7 @@ tags:
 - combat
 - melee
 summary: Contribute one STR-based melee die with this weapon's Damage and Reload.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 rule: May contribute one die to a melee pool. Uses STR there.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Sidearm

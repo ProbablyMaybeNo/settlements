@@ -13,7 +13,7 @@ tags:
 - xp
 summary: One extra XP for qualifying objective, useful terrain, rescue/capture or Downing contribution; record deed
   when performed.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -28,6 +28,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-483 - Rescue or capture deed]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-484 - Downing an enemy deed]]'
 planned_section: "06 · The Crew"
+rule_parent: "Experience and Advancement"
 ---
 
 # Deed XP

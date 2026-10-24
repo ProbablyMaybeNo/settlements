@@ -12,7 +12,7 @@ tags:
 - combat
 - ranged
 summary: Ordinary Shoot targets one fighter; Split Fire must explicitly allocate dice to multiple targets.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-099 - Aim]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-100 - Shooting range and movement]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Ranged Combat"
 ---
 
 # One shooting target

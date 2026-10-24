@@ -13,7 +13,7 @@ tags:
 - structure
 - power
 summary: 40 Mat, HQ; produces 10 Power; maximum three; worker +1 Power.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -31,6 +31,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-422 - Structure rules]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-423 - Headquarters]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Structures"
 ---
 
 # Generator

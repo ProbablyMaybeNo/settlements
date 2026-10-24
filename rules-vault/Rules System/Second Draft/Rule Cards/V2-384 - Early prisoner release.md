@@ -13,7 +13,7 @@ tags:
 - capture
 - economy
 summary: Owner pays captor 25 Cr, or 30 with operational Holding Room; captor cannot refuse; Convalescence remains.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-383 - Prisoner duration]]'
 planned_section: "06 · The Crew"
+rule_parent: "Prisoners"
 ---
 
 # Early prisoner release

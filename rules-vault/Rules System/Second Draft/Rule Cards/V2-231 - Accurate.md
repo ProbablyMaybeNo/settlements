@@ -14,7 +14,7 @@ tags:
 - ranged
 - hit-plus
 summary: +1 ranged hit within half printed range; no melee benefit.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 rule: +1 to hit when the target is within half the weapon's printed range. No benefit in melee.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Accurate

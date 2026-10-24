@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - tests
 summary: Safe trivial tasks auto-pass; difficult tasks use the standard test; impossible tasks require another approach.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-019 - Skill and equipment modifiers]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-021 - Stress-free rolls]]'
 planned_section: "02 · Core Mechanics"
+rule_parent: "Dice and Tests"
 ---
 
 # Automatic and impossible tasks

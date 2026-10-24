@@ -13,7 +13,7 @@ tags:
 - custom
 - economy
 summary: '10 Cr base: one die, Dmg 1, range 8″, Sidearm; caps Dmg 3/range 12″/two dice.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-271 - Custom profile agreement]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-281 - Custom drawbacks and caps]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapon classes"
 ---
 
 # One-handed ranged class

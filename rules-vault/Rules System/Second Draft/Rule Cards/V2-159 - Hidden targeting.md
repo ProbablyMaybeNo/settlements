@@ -15,7 +15,7 @@ tags:
 - hit-minus
 summary: Beyond 12″ normally untargetable; within legal LOS/12″, −4 ranged hit plus cover. Blasts/hazards can affect
   it.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-160 - Observe]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-161 - Marked visibility]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Visibility Cover and Stealth"
 ---
 
 # Hidden targeting

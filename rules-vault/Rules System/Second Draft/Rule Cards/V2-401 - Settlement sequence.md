@@ -12,7 +12,7 @@ tags:
 - settlement
 - timing
 summary: Record battle → workers/Power → injuries/medical → income → XP → roster/buildings → close records/recovery.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-404 - Allocation between battles]]'
 planned_section: "10 · The Settlement Round"
+rule_parent: "Resolve the Round"
 ---
 
 # Settlement sequence

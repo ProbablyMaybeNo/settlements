@@ -12,7 +12,7 @@ tags:
 - device
 - visibility
 summary: 15 Cr/1 slot; contact, linked terminal or hacking kit/8″ activates next-round-duration smoke; single-use.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -30,6 +30,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-217 - Friendly mine triggers]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-218 - Turret operation]]'
 planned_section: "07 · Equipment"
+rule_parent: "Deployables"
 ---
 
 # Smoke emitter

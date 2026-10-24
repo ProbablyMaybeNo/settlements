@@ -12,7 +12,7 @@ tags:
 - interaction
 - int
 summary: Hack, repair electronics, or make a technical diagnosis.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-162 - Direct Interact]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-164 - Dangerous terrain operation]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Interactions"
 ---
 
 # INT interactions

@@ -14,7 +14,7 @@ tags:
 - inventory
 summary: Unlimited Credits/gear; Headquarters 250 Mat plus 250 per Storehouse. Spend first; discard excess at cycle
   close.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-414 - Demolition and prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-416 - Housing]]'
 planned_section: "09 · The Settlement"
+rule_parent: "Construction Trade and Storage"
 ---
 
 # Storage

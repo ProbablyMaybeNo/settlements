@@ -16,7 +16,7 @@ tags:
 - combat
 summary: 'Core/DEX within legal LOS/24″; pass reveals/Marks through End Phase: friendly shooting +2; one mark per
   crew.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -33,6 +33,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-306 - Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-307 - Skill frequency]]'
 planned_section: "08 · Skills"
+rule_parent: "Skills"
 ---
 
 # Mark Target

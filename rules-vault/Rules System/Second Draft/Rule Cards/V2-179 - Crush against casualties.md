@@ -12,7 +12,7 @@ tags:
 - terrain
 - casualty
 summary: Casualties cannot evade; successful Injury changes Down to Unconscious; no battlefield death.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-177 - Displace]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-180 - Smoke visibility]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Interactive Terrain"
 ---
 
 # Crush against casualties

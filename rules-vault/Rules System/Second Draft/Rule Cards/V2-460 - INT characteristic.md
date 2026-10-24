@@ -12,7 +12,7 @@ tags:
 - profile
 - int
 summary: Hacking, repair, medicine, and technical work
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ meaning: Hacking, repair, medicine, and technical work
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Five stats]]'
 planned_section: "02 · Core Mechanics"
+rule_parent: "Stats"
 ---
 
 # INT characteristic

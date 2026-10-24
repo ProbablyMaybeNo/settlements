@@ -12,7 +12,7 @@ tags:
 - morale
 - tests
 summary: Only explicit effects test at Stress 0–1; failed zero-Stress test causes Broken.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-145 - Bugging Out]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-149 - Withdrawn fighter]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Stress and Morale"
 ---
 
 # Forced low-Stress Break

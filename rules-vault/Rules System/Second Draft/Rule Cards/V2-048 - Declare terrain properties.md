@@ -12,7 +12,7 @@ tags:
 - setup
 - terrain
 summary: Agree footprints, heights, cover, access, controls, links, hazards and movable positions before deployment.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-046 - Terrain density and routes]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-047 - Interactive battlefield minimum]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Board Setup"
 ---
 
 # Declare terrain properties

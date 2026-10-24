@@ -12,7 +12,7 @@ tags:
 - progression
 - xp
 summary: Start Level 0/XP 0; every three cumulative XP grants level, maximum 10 at 30 XP; apply after injuries.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -33,6 +33,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-474 - Level 9]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-475 - Level 10]]'
 planned_section: "06 · The Crew"
+rule_parent: "Experience and Advancement"
 ---
 
 # Levels

@@ -12,7 +12,7 @@ tags:
 - activation
 - actions
 summary: Voluntarily forfeit remaining activations to finish. Opponent continues; reactions remain available.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-056 - Both-cost actions]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Activations and Actions"
 ---
 
 # Passing and finishing

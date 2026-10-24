@@ -12,7 +12,7 @@ tags:
 - equipment
 - profile
 summary: Dice = attack pool; Damage = Injury bonus; Range = maximum; Hands/slots = capacity; Access = purchase unlock.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-229 - Shared provisional prices]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapons"
 ---
 
 # Weapon profile fields

@@ -14,7 +14,7 @@ tags:
 - ranged
 - hit-plus
 summary: '20 Cr; 1 dice; Dmg 2; 8″; 1 hand(s). Sidearm, Accurate. Access: Basic.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -40,6 +40,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-231 - Accurate]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-235 - Sidearm]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapons"
 ---
 
 # Revolver

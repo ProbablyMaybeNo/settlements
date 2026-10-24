@@ -1,5 +1,8 @@
 # Settlements Second Draft
 
+Parent overview: [[Settlements Rule Parents.canvas|family/parent canvas]] → open a parent for its live rule list. Reassign rules in [[Rule Cards - Complete Index#Editable index|the editable index]]. [[Rule Parents - Start Here|Instructions]].
+
+
 Project access and editing instructions: [[Settlements/START HERE - Settlements Project|Settlements project guide]].
 
 Start with **[[Rule Cards - Start Here|the individual rule-card library]]**: 483 active-library notes, a complete index, and live table/card/board views.

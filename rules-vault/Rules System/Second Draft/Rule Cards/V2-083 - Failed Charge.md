@@ -14,7 +14,7 @@ tags:
 - combat
 summary: 'Insufficient distance: move up to MOVE toward target, stop outside engagement; no attack. Failed traversal/reaction
   can stop charge.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-081 - Dash]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-082 - Charge]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Movement"
 ---
 
 # Failed Charge

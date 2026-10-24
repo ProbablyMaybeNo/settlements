@@ -13,7 +13,7 @@ tags:
 - opposed
 - dice
 summary: Natural 20 beats non-20; natural 1 loses to non-1; matching extremes tie.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ source:
 review_notes: ''
 related_rules: []
 planned_section: "02 · Core Mechanics"
+rule_parent: "Dice and Tests"
 ---
 
 # Opposed natural extremes

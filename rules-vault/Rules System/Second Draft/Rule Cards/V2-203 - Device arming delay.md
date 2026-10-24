@@ -14,7 +14,7 @@ tags:
 - timing
 summary: No trigger on occupants already present at arming; later movement can trigger. No same-turn operation except
   passive smoke/cover.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploy equipment]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Deployables and Drones"
 ---
 
 # Device arming delay

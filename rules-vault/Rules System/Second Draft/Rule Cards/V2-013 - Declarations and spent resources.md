@@ -12,7 +12,7 @@ tags:
 - core
 - actions
 summary: Declare choices before rolling; interrupted or impossible actions still spend declared slots and consumables.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -28,6 +28,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-012 - Effect priority and stacking]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-014 - Displaced models and bad dice]]'
 planned_section: "02 · Core Mechanics"
+rule_parent: "Measuring and Common Terms"
 ---
 
 # Declarations and spent resources

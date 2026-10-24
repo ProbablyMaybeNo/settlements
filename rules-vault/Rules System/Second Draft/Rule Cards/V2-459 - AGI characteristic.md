@@ -12,7 +12,7 @@ tags:
 - profile
 - agi
 summary: Climbing, jumping, balance, and Agile melee
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ meaning: Climbing, jumping, balance, and Agile melee
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Five stats]]'
 planned_section: "02 · Core Mechanics"
+rule_parent: "Stats"
 ---
 
 # AGI characteristic

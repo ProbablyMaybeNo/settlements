@@ -14,7 +14,7 @@ tags:
 - hands
 - combat
 summary: 15 Cr/1 slot/one hand; front-arc Armour +1, total max 3; no falls/Crush protection; Workshop.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -29,6 +29,7 @@ access: Workshop
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
 planned_section: "07 · Equipment"
+rule_parent: "Armour"
 ---
 
 # Protective shield

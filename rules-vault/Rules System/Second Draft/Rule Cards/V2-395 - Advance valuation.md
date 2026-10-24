@@ -13,7 +13,7 @@ tags:
 - xp
 - rating
 summary: Every level adds 10 Cr rating, without treasury payment; value applies even when advance declined/lost.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-392 - Levels]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-396 - Uninjured stats and grade]]'
 planned_section: "06 · The Crew"
+rule_parent: "Experience and Advancement"
 ---
 
 # Advance valuation

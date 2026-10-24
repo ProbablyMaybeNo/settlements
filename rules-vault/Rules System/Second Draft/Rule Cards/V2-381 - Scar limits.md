@@ -15,7 +15,7 @@ tags:
 - rating
 summary: Maximum two; duplicates/excess become Convalescence. Minimum-stat penalty still occupies slot; injuries
   never discount rating.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-370 - Lasting-injury roll]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-372 - Convalescence]]'
 planned_section: "06 · The Crew"
+rule_parent: "Lasting Injuries and Recovery"
 ---
 
 # Scar limits

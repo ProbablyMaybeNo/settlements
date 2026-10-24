@@ -16,7 +16,7 @@ tags:
 - drone
 summary: 'Per five humans: one Heavy weapon, one powered combat device, one utility drone; count carried/reserve
   items.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Leadership and specialists]]'
 planned_section: "06 · The Crew"
+rule_parent: "Composition and Crew Rating"
 ---
 
 # Heavy weapons and device limits

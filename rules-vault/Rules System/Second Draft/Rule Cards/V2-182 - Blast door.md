@@ -13,7 +13,7 @@ tags:
 - routes
 - hazard
 summary: Open/close solid entrance ≤4″ wide; occupied closure uses Crush. Manual release needs STR.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ occupied_space_and_counterplay: An occupied closing gap uses Crush. A failed ope
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Interactive terrain"
 ---
 
 # Blast door

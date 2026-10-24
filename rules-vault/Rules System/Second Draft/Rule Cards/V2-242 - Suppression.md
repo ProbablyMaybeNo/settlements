@@ -13,7 +13,7 @@ tags:
 - combat
 - stress
 summary: 'Attack hits but causes no Wound: add one extra Stress, once per attack.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 rule: If this attack hits but causes no Wound, add one extra Stress to the target, once for the whole attack.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Suppression

@@ -13,7 +13,7 @@ tags:
 - injury
 summary: One roll for each unresolved Down/Unconscious, including extracted/captured; conscious revived none; uninjured
   Subdued gets Full recovery.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-367 - End and score]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-368 - Recover fighters and equipment]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Ending the Battle"
 ---
 
 # Lasting-injury eligibility

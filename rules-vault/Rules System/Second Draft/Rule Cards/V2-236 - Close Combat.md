@@ -14,7 +14,7 @@ tags:
 - melee
 - hands
 summary: Two-handed gun may contribute one melee die; still occupies both hands.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 rule: May contribute one die to melee despite being two-handed. It occupies both hands.
 related_rules: []
 planned_section: "07 · Equipment"
+rule_parent: "Weapon keywords"
 ---
 
 # Close Combat

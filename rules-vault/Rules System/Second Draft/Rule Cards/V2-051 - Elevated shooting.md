@@ -14,7 +14,7 @@ tags:
 - cover
 - visibility
 summary: Height changes actual visibility and cover; grants no automatic accuracy bonus.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-049 - Light and heavy cover]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-050 - Cover exceptions]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Visibility Cover and Stealth"
 ---
 
 # Elevated shooting

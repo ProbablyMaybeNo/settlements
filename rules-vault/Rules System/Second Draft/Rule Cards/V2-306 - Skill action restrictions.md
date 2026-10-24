@@ -13,7 +13,7 @@ tags:
 - actions
 summary: 'Unless excepted: conscious, unpinned, unengaged, no morale condition. Skills never convert Move to Core
   or add Core.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Skill prerequisites]]'
 planned_section: "08 · Skills"
+rule_parent: "Choosing and Using Skills"
 ---
 
 # Skill action restrictions

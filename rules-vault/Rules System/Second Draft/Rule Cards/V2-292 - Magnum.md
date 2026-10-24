@@ -13,7 +13,7 @@ tags:
 - combat
 - ranged
 summary: '20 Cr; 1 dice; Dmg 3; 12″; 1 hand(s). Sidearm, Reload. Access: Workshop.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -39,6 +39,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-235 - Sidearm]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-243 - Reload]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapons"
 ---
 
 # Magnum

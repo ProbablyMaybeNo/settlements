@@ -13,7 +13,7 @@ tags:
 - combat
 - visibility
 summary: Down/Unconscious block neither movement nor LOS; further attacks on Unconscious have no rules effect.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-129 - Attacking Down]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Injuries and Resolving Combat"
 ---
 
 # Casualty obstruction

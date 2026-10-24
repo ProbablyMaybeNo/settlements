@@ -15,7 +15,7 @@ tags:
 - recovery
 summary: Only actually looted gear transfers; injury/captivity timers overlap. No forced recruitment, sale or indefinite
   detention.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-383 - Prisoner duration]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-384 - Early prisoner release]]'
 planned_section: "06 · The Crew"
+rule_parent: "Prisoners"
 ---
 
 # Prisoner gear and recovery

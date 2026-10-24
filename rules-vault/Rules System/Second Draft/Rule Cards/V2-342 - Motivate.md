@@ -15,7 +15,7 @@ tags:
 - move-plus
 summary: 'Core/NRV: eligible ally within 6″/LOS gains +2″ on next normal Move this round; no action refresh/other
   movement.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -32,6 +32,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-306 - Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-307 - Skill frequency]]'
 planned_section: "08 · Skills"
+rule_parent: "Skills"
 ---
 
 # Motivate

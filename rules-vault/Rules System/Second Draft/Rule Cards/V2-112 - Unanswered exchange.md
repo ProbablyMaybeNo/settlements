@@ -12,7 +12,7 @@ tags:
 - combat
 - melee
 summary: Defender still sets opposing maximum but cannot score hits; no automatic hits.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -21,6 +21,7 @@ source:
 review_notes: ''
 related_rules: []
 planned_section: "04 · Fighting Battles"
+rule_parent: "Close Combat"
 ---
 
 # Unanswered exchange

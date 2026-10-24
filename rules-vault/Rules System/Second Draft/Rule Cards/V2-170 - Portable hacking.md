@@ -14,7 +14,7 @@ tags:
 - core
 summary: 'Hacking kit/INT vs visible electronic device or drone within 8″: disable until Repair; natural 1 also
   locks kit this round.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-171 - Hacking limits]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Hacking"
 ---
 
 # Portable hacking

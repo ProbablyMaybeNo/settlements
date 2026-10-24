@@ -7,6 +7,8 @@ formulas:
   rule_card_color: if(note.publication == "Deferred", "#7d8999", if(note.review_status == "Needs review", "#f3b65b", if(note.category == "Combat" || note.category == "Weapons" || note.category == "Weapon traits" || note.category == "Weapon keyword" || note.category == "Weapon design", "#ef8178", if(note.category == "Movement" || note.category == "Activation" || note.category == "Actions" || note.category == "Setup", "#66c7ed", if(note.category == "Terrain" || note.category == "Interaction" || note.category == "Devices", "#4dd5bc", if(note.category == "Morale" || note.category == "Casualties" || note.category == "Lasting injuries" || note.category == "Stealth", "#c09af0", if(note.entry_type == "Skill", "#b4d776", if(note.category == "Structures" || note.category == "Settlement" || note.category == "Equipment", "#e6c570", "#96aabd"))))))))
   placement_changed: note.planned_section != (if(note.book_chapter < 10, "0", "") + note.book_chapter.toString() + " · " + note.book_section)
 properties:
+  note.rule_parent:
+    displayName: Type / Parent
   file.name:
     displayName: Rule / mechanic
   formula.rule_card_meta:
@@ -22,7 +24,7 @@ properties:
   note.entry_type:
     displayName: Type
   note.book_section:
-    displayName: Current chapter
+    displayName: Family / Current chapter
   note.book_subsection:
     displayName: Current subsection
   note.summary:
@@ -32,7 +34,7 @@ properties:
   note.publication:
     displayName: Scope
   note.review_status:
-    displayName: Status
+    displayName: Review flag
   note.credits:
     displayName: Credits
   note.materials:
@@ -44,7 +46,7 @@ properties:
   note.keywords:
     displayName: Linked weapon keywords
   note.status:
-    displayName: Rule stage
+    displayName: Status
   note.category:
     displayName: Category
   note.tags:
@@ -57,6 +59,8 @@ views:
     order:
       - file.name
       - last_rule_update
+      - status
+      - note.rule_parent
       - review_status
       - category
       - summary
@@ -66,7 +70,6 @@ views:
       - planned_section
       - entry_type
       - publication
-      - status
       - review_notes
       - rule_id
     sort:
@@ -90,6 +93,8 @@ views:
       - rule_name
       - formula.rule_card_meta
       - summary
+      - status
+      - note.rule_parent
       - review_status
       - last_rule_update
       - tags
@@ -125,6 +130,8 @@ views:
     order:
       - file.name
       - last_rule_update
+      - status
+      - note.rule_parent
       - review_status
       - category
       - summary
@@ -134,7 +141,6 @@ views:
       - planned_section
       - entry_type
       - publication
-      - status
       - review_notes
       - rule_id
     sort:
@@ -162,6 +168,8 @@ views:
       - rule_name
       - formula.rule_card_meta
       - summary
+      - status
+      - note.rule_parent
       - review_status
       - last_rule_update
       - tags
@@ -181,6 +189,8 @@ views:
       - rule_name
       - formula.rule_card_meta
       - summary
+      - status
+      - note.rule_parent
       - review_status
       - last_rule_update
       - tags
@@ -200,6 +210,8 @@ views:
       - rule_name
       - formula.rule_card_meta
       - summary
+      - status
+      - note.rule_parent
       - review_status
       - last_rule_update
       - tags
@@ -219,6 +231,8 @@ views:
       - rule_name
       - formula.rule_card_meta
       - summary
+      - status
+      - note.rule_parent
       - review_status
       - last_rule_update
       - tags
@@ -238,6 +252,8 @@ views:
       - rule_name
       - formula.rule_card_meta
       - summary
+      - status
+      - note.rule_parent
       - review_status
       - last_rule_update
       - tags
@@ -256,6 +272,8 @@ views:
       - rule_name
       - formula.rule_card_meta
       - summary
+      - status
+      - note.rule_parent
       - review_status
       - last_rule_update
       - tags
@@ -274,6 +292,8 @@ views:
       - rule_name
       - formula.rule_card_meta
       - summary
+      - status
+      - note.rule_parent
       - review_status
       - last_rule_update
       - tags
@@ -294,6 +314,8 @@ views:
       - rule_name
       - formula.rule_card_meta
       - summary
+      - status
+      - note.rule_parent
       - review_status
       - last_rule_update
       - tags
@@ -312,6 +334,8 @@ views:
       - rule_name
       - formula.rule_card_meta
       - summary
+      - status
+      - note.rule_parent
       - review_status
       - last_rule_update
       - tags
@@ -330,6 +354,8 @@ views:
       - rule_name
       - formula.rule_card_meta
       - summary
+      - status
+      - note.rule_parent
       - review_status
       - last_rule_update
       - tags
@@ -345,6 +371,8 @@ views:
     order:
       - file.name
       - last_rule_update
+      - status
+      - note.rule_parent
       - review_status
       - category
       - summary
@@ -354,7 +382,6 @@ views:
       - planned_section
       - entry_type
       - publication
-      - status
       - review_notes
       - rule_id
     sort:
@@ -379,6 +406,8 @@ views:
       - rule_name
       - formula.rule_card_meta
       - summary
+      - status
+      - note.rule_parent
       - review_status
       - last_rule_update
       - tags
@@ -394,6 +423,8 @@ views:
     order:
       - file.name
       - last_rule_update
+      - status
+      - note.rule_parent
       - review_status
       - category
       - summary
@@ -403,7 +434,6 @@ views:
       - planned_section
       - entry_type
       - publication
-      - status
       - review_notes
       - rule_id
     sort:
@@ -423,3 +453,25 @@ views:
       note.book_subsection: 230
       note.planned_section: 260
       note.review_notes: 350
+  - type: table
+    name: Parent assignments
+    order:
+    - file.name
+    - note.book_section
+    - note.rule_parent
+    - note.status
+    - note.summary
+    - note.rule_id
+    groupBy:
+      property: note.book_section
+      direction: ASC
+    sort:
+    - property: note.rule_id
+      direction: ASC
+    rowHeight: medium
+    columnSize:
+      file.name: 310
+      note.book_section: 180
+      note.rule_parent: 300
+      note.status: 120
+      note.summary: 420

@@ -13,7 +13,7 @@ tags:
 - down
 - timing
 summary: Unresolved Down becomes Unconscious at End Phase of recorded Down round +2.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-123 - Down actions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-125 - Unconscious state]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Injuries and Resolving Combat"
 ---
 
 # Two full rounds

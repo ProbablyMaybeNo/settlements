@@ -13,7 +13,7 @@ tags:
 - combat
 - consumable
 summary: 10 Cr/1 slot; single-use range 8″, Dmg 1, Blast; Workshop.
-status: Draft proposal
+status: Partial
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ access: Workshop
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chem limits]]'
 planned_section: "07 · Equipment"
+rule_parent: "Equipment"
 ---
 
 # Frag grenade

@@ -13,7 +13,7 @@ tags:
 - combat
 - ranged
 summary: '30 Cr; 2 dice; Dmg 1; 12″; 2 hand(s). Automatic 2, Close Combat. Access: Workshop.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -39,6 +39,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-233 - Automatic X]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-236 - Close Combat]]'
 planned_section: "07 · Equipment"
+rule_parent: "Weapons"
 ---
 
 # Submachine gun

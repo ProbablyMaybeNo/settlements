@@ -15,7 +15,7 @@ tags:
 - combat
 - hit-plus
 summary: Attack wholly behind target's dividing line gains +2 to hit; target cannot react through rear arc.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -27,6 +27,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-075 - Body-based LOS]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-076 - Prone visibility]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Visibility Cover and Stealth"
 ---
 
 # Rear attack bonus

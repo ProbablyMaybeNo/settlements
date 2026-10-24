@@ -14,7 +14,7 @@ tags:
 - rating
 summary: Count current fighter value, carried gear, reserves, drones and preparations; omit home workers, buildings
   and stores.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-025 - Battle budget]]'
 planned_section: "06 · The Crew"
+rule_parent: "Composition and Crew Rating"
 ---
 
 # Full fielded value

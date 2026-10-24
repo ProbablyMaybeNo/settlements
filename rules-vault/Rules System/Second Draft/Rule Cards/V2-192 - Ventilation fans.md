@@ -12,7 +12,7 @@ tags:
 - terrain
 - visibility
 summary: Clear one linked smoke/gas template immediately, or switch Off; cannot clear fire.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ occupied_space_and_counterplay: Clearing is immediate. It cannot remove a solid 
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Interactive terrain"
 ---
 
 # Ventilation fans

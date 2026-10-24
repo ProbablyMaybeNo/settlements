@@ -14,7 +14,7 @@ tags:
 - ranged
 - review
 summary: Visible in-range point; weapon-specified template (circles 3″/5″ diameter); one hit roll per exposed base, then Injury/device damage.
-status: Draft proposal
+status: Drafted
 review_status: Needs review
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-250 - Smoke grenade procedure]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-252 - Fire zones]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Ranged Combat"
 ---
 
 # Blast attack

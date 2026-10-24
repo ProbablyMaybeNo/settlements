@@ -15,7 +15,7 @@ tags:
 - reaction
 - terrain
 summary: Reaction attacks and defensive melee are separate; terrain operations and deploying devices are interactions.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-059 - Own attack limit]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Battle Overview / Activations and Actions"
 ---
 
 # Attack exceptions

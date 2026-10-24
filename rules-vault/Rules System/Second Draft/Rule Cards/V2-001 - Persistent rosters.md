@@ -12,7 +12,7 @@ tags:
 - persistence
 - roster
 summary: Keep settlement ownership between games; select a rating-limited Battle Roster each battle. Campaign optional.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -21,6 +21,7 @@ source:
 review_notes: ''
 related_rules: []
 planned_section: "03 · Playing the Game"
+rule_parent: "Your Crew and Settlement"
 ---
 
 # Persistent rosters

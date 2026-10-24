@@ -14,7 +14,7 @@ tags:
 - core
 - once-battle
 summary: One successful revival per battle; never restores spent actions or removes lasting injuries.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-126 - Treat ally]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-127 - Self-treatment]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Injuries and Resolving Combat"
 ---
 
 # Revival limit

@@ -12,7 +12,7 @@ tags:
 - profile
 - wounds
 summary: Normally 1, with a maximum of 1 for human fighters
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ meaning: Normally 1, with a maximum of 1 for human fighters
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Five stats]]'
 planned_section: "02 · Core Mechanics"
+rule_parent: "Stats"
 ---
 
 # Wounds characteristic

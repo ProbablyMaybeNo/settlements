@@ -14,7 +14,7 @@ tags:
 - inventory
 - interaction
 summary: Remains in place; contact Interact retrieves it into available capacity.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-131 - Loot casualty]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-132 - Loot ownership]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Injuries and Resolving Combat"
 ---
 
 # Dropped gear

@@ -13,7 +13,7 @@ tags:
 - traversal
 - casualty
 summary: Mark at reachable rim; count Unconscious until post-battle recovery. Falls never kill on-table.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -25,6 +25,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-086 - Jumping]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-087 - Drops and falls]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Movement"
 ---
 
 # Inaccessible casualties

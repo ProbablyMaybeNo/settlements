@@ -13,7 +13,7 @@ tags:
 - traversal
 - tests
 summary: Gap ≤1″ automatic; >1–3″ needs movement and AGI; failure falls. Wider gaps need equipment or another route.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -24,6 +24,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-085 - Free climbing]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-087 - Drops and falls]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Movement"
 ---
 
 # Jumping

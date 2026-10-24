@@ -12,7 +12,7 @@ tags:
 - movement
 - terrain
 summary: Follow stated direction; stop at solids/standing bases. Ledges cause falls; never overlap bases.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -22,6 +22,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-091 - Single-carrier movement]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Movement"
 ---
 
 # Forced movement

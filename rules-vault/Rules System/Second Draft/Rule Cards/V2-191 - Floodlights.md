@@ -13,7 +13,7 @@ tags:
 - visibility
 - stealth
 summary: Lit 6″-diameter zone removes Hidden and prevents Hide; no sight through walls.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -26,6 +26,7 @@ occupied_space_and_counterplay: While lit, remove Hidden in that zone and preven
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Terrain feature cards]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Interactive terrain"
 ---
 
 # Floodlights

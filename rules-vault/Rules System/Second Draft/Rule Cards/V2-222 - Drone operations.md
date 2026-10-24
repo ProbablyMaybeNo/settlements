@@ -15,7 +15,7 @@ tags:
 - interaction
 summary: 'Separate operator Core: use drone-contact control/terminal, or Observe within drone LOS/12″. Use operator
   INT/Stress.'
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -29,6 +29,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-224 - Drone control loss]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-227 - Drone wreck]]'
 planned_section: "04 · Fighting Battles"
+rule_parent: "Deployables and Drones"
 ---
 
 # Drone operations

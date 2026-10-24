@@ -136,3 +136,23 @@ Precise within-chapter sequencing and reassembly remain a later editorial step. 
 ## Project access guide — 2026-10-23
 
 - [x] Add [[Settlements/START HERE - Settlements Project|START HERE - Settlements Project]] directly inside the top-level Settlements folder, covering navigation, Draft 2 cards/views, the new-rule command, canonical text editing, revision dates, feedback, chapter planning, research and troubleshooting. Link back to it from the Draft 2 start note and Visual Workspace. No owning rule text or rule-revision date changes in this documentation pass.
+
+## Rule-card writing status — 2026-10-24
+
+- [x] Add Status beside every one of the 483 linked cards in [[Rule Cards - Complete Index|the complete index]], with Ross's Pending / Partial / Drafted / Confirmed / Locked / Deferred definitions.
+- [x] Reuse the owning `status` property, make it visible as Status in live views, and label `review_status` separately as Review flag. Preserve IDs, review comments, all rule bodies and semantic dates.
+- [x] Carry authored proposals forward as Drafted (458), preserve the two confirmed objective conventions (2) and eighteen deferred proposals (18), and mark five profiles with missing required template assignments/procedure Partial (5): V2-259, V2-260, V2-300, V2-301 and V2-302. Pending and Locked start empty. This does not audit or approve every mechanic.
+- [x] Update new-card creation to start at Drafted and include the index Status column. Add card-to-index status refresh and derive Scope from Status so deferring/restoring cards respects existing included-only views. No automatic promotion to Confirmed or Locked.
+
+Rule status records editorial progress. Final text approval and balance/playtesting remain separate decisions. Chapter placements and manuscript embeds are unchanged.
+
+- [x] Add Type / Parent and Family to all 483 complete-index entries and expose the hierarchy in live views: chapter → catalogue type (or ordinary-rule subsection) → rule. V2-457 through V2-464 are Core Mechanics → Stats. Changes to existing hierarchy fields refresh the index through the workspace plugin.
+
+- [x] Verify all 483 index entries and unchanged owning rule bodies/metadata except Status. Pass 22 helper, creation and live event checks in Obsidian; query all 483 table rows successfully. Live test card and index restored exactly; no dummy rules created.
+
+## Parent canvas and live parent pages — 2026-10-24
+
+- [x] Create a separate parent canvas with 61 parent cards in thirteen Family groups; retain the original all-rule canvas unchanged.
+- [x] Add a live rules page per Family / Parent pair, covering all 483 rules including Deferred material.
+- [x] Make Type / Parent an editable owning `rule_parent` property and embed Parent assignments in the complete index. Membership updates through live Bases; new parent pages/cards are created by the workspace plugin.
+- [x] Preserve all rule text, other card metadata, review dates, IDs and manuscript placement. Parent-canvas moves are visual only.

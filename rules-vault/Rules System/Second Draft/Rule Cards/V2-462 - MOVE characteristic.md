@@ -12,7 +12,7 @@ tags:
 - profile
 - move
 summary: Inches travelled with a Move; normally 6
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ meaning: Inches travelled with a Move; normally 6
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Five stats]]'
 planned_section: "02 · Core Mechanics"
+rule_parent: "Stats"
 ---
 
 # MOVE characteristic

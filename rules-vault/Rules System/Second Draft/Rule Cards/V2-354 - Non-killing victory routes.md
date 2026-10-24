@@ -13,7 +13,7 @@ tags:
 - setup
 - combat
 summary: Every mission offers primary/secondary success without killing; no routine casualty points.
-status: Draft proposal
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -23,6 +23,7 @@ review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-353 - Mission specification]]'
 planned_section: "03 · Playing the Game"
+rule_parent: "Missions and Victory"
 ---
 
 # Non-killing victory routes
