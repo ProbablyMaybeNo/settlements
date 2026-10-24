@@ -166,3 +166,5 @@ Rule status records editorial progress. Final text approval and balance/playtest
 ## Workspace consolidation — 2026-10-24
 
 Ross requested one rule note per mechanic, one live index, automatic family/parent completion boards and their drill-down pages. He chose to retain the parent canvas and remove its Overview headings. Superseded organizational notes/views/catalogues and historical duplicate drafts were moved outside the active project into Archive/Settlements/2026-10-24 - Retired organization. Existing index annotations were transferred to owning card Notes. Current rules, research and manuscript embeds are preserved. This ledger is history, not an additional active progress dashboard.
+
+Final consolidation checks: 483 owning rules, 61 parent pages and 13 families; one active workspace Base and one parent Canvas. All 559 workspace/card/group files have resolvable note targets. Thirteen live/in-memory checks passed for reassignment, status rollups, restoration and valid new-card/parent creation. Rule wording, statuses and semantic dates are preserved; navigation links were retargeted. Parent Canvas previews contain no Overview heading.

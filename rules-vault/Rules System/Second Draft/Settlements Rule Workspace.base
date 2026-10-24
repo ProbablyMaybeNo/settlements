@@ -1,20 +1,18 @@
 filters:
   or:
-  - and:
-    - file.inFolder("Settlements/Rules System/Second Draft/Rule Cards")
-    - type == "settlements-rule-card"
-  - and:
-    - file.inFolder("Settlements/Rules System/Second Draft/Rule Parents")
-    - type == "settlements-rule-parent"
-  - and:
-    - file.inFolder("Settlements/Rules System/Second Draft/Rule Families")
-    - type == "settlements-rule-family"
+    - and:
+        - file.inFolder("Settlements/Rules System/Second Draft/Rule Cards")
+        - type == "settlements-rule-card"
+    - and:
+        - file.inFolder("Settlements/Rules System/Second Draft/Rule Parents")
+        - type == "settlements-rule-parent"
+    - and:
+        - file.inFolder("Settlements/Rules System/Second Draft/Rule Families")
+        - type == "settlements-rule-family"
 formulas:
   progress_stage: note.progress_status
-  rule_card_meta: if(note.type == "settlements-rule-card", note.rule_id + " · " + note.category, note.included_rules.toString() + " rules · " + note.deferred_rules.toString()
-    + " deferred")
-  rule_card_color: if(note.progress_status == "Locked", "#b4d776", if(note.progress_status == "Confirmed", "#4dd5bc", if(note.progress_status == "Drafted",
-    "#66c7ed", if(note.progress_status == "Partial", "#f3b65b", "#96aabd"))))
+  rule_card_meta: if(note.type == "settlements-rule-card", note.rule_id + " · " + note.category, note.included_rules.toString() + " rules · " + note.deferred_rules.toString() + " deferred")
+  rule_card_color: if(note.progress_status == "Locked", "#b4d776", if(note.progress_status == "Confirmed", "#4dd5bc", if(note.progress_status == "Drafted", "#66c7ed", if(note.progress_status == "Partial", "#f3b65b", "#96aabd"))))
   parent_link: file.asLink(note.parent_name)
   family_link: file.asLink(note.family_name)
   rule_link: file.asLink(note.rule_name)
@@ -100,141 +98,141 @@ properties:
   formula.rule_link:
     displayName: Name
 views:
-- type: kanban
-  name: Family progress
-  filters: type == "settlements-rule-family"
-  groupBy:
-    property: formula.progress_stage
-    direction: ASC
-  groupOrder:
-  - Pending
-  - Partial
-  - Drafted
-  - Confirmed
-  - Locked
-  - Deferred
-  order:
-  - family_name
-  - formula.rule_card_meta
-  - progress_summary
-  - parent_summary
-  sort:
-  - property: family_order
-    direction: ASC
-  columnWidth: 350
-  image: formula.rule_card_color
-  imageAspectRatio: 0.025
-- type: kanban
-  name: Parent progress
-  filters: type == "settlements-rule-parent"
-  groupBy:
-    property: formula.progress_stage
-    direction: ASC
-  groupOrder:
-  - Pending
-  - Partial
-  - Drafted
-  - Confirmed
-  - Locked
-  - Deferred
-  order:
-  - parent_name
-  - parent_family
-  - formula.rule_card_meta
-  - progress_summary
-  sort:
-  - property: parent_name
-    direction: ASC
-  columnWidth: 350
-  image: formula.rule_card_color
-  imageAspectRatio: 0.025
-- type: table
-  name: Rule index
-  filters: type == "settlements-rule-card"
-  order:
-  - formula.rule_link
-  - note.rule_id
-  - note.status
-  - note.rule_parent
-  - note.book_section
-  - note.last_rule_update
-  - note.summary
-  - note.tags
-  - note.review_notes
-  groupBy:
-    property: note.book_section
-    direction: ASC
-  sort:
-  - property: note.rule_parent
-    direction: ASC
-  - property: note.rule_id
-    direction: ASC
-  rowHeight: medium
-  columnSize:
-    formula.rule_link: 280
-    note.rule_id: 90
-    note.status: 125
-    note.rule_parent: 260
-    note.book_section: 180
-    note.last_rule_update: 130
-    note.summary: 440
-    note.tags: 230
-    note.review_notes: 320
-  groupOrder:
-  - Introduction
-  - Core Mechanics
-  - Playing the Game
-  - Fighting Battles
-  - Scenarios
-  - The Crew
-  - Equipment
-  - Skills
-  - The Settlement
-  - The Settlement Round
-  - The Outside World
-  - Factions
-  - Community
-- type: table
-  name: Parents in this family
-  filters:
-    and:
-    - type == "settlements-rule-parent"
-    - parent_family == this.family_name
-  order:
-  - formula.parent_link
-  - formula.progress_stage
-  - progress_summary
-  - included_rules
-  - locked_rules
-  - deferred_rules
-  sort:
-  - property: parent_name
-    direction: ASC
-  rowHeight: medium
-  columnSize:
-    note.parent_name: 290
-    note.progress_summary: 390
-    formula.progress_stage: 150
-    formula.parent_link: 290
-- type: table
-  name: Rules in this parent
-  order:
-  - formula.rule_link
-  - note.rule_id
-  - note.status
-  - note.summary
-  - note.last_rule_update
-  - note.tags
-  sort:
-  - property: note.rule_id
-    direction: ASC
-  rowHeight: medium
-  columnSize:
-    file.name: 300
-    note.summary: 470
-    note.status: 120
-  filters:
-    and:
-    - type == "settlements-rule-card"
-    - book_section == this.parent_family
-    - rule_parent == this.parent_name
+  - type: kanban
+    name: Family progress
+    filters: type == "settlements-rule-family"
+    groupBy:
+      property: formula.progress_stage
+      direction: ASC
+    groupOrder:
+      - Pending
+      - Partial
+      - Drafted
+      - Confirmed
+      - Locked
+      - Deferred
+    order:
+      - family_name
+      - formula.rule_card_meta
+      - progress_summary
+      - parent_summary
+    sort:
+      - property: family_order
+        direction: ASC
+    columnWidth: 350
+    image: formula.rule_card_color
+    imageAspectRatio: 0.025
+  - type: kanban
+    name: Parent progress
+    filters: type == "settlements-rule-parent"
+    groupBy:
+      property: formula.progress_stage
+      direction: ASC
+    groupOrder:
+      - Pending
+      - Partial
+      - Drafted
+      - Confirmed
+      - Locked
+      - Deferred
+    order:
+      - parent_name
+      - parent_family
+      - formula.rule_card_meta
+      - progress_summary
+    sort:
+      - property: parent_name
+        direction: ASC
+    columnWidth: 350
+    image: formula.rule_card_color
+    imageAspectRatio: 0.025
+  - type: table
+    name: Rule index
+    filters: type == "settlements-rule-card"
+    groupBy:
+      property: book_section
+      direction: ASC
+    groupOrder:
+      - Introduction
+      - Core Mechanics
+      - Playing the Game
+      - Fighting Battles
+      - Scenarios
+      - The Crew
+      - Equipment
+      - Skills
+      - The Settlement
+      - The Settlement Round
+      - The Outside World
+      - Factions
+      - Community
+    order:
+      - formula.rule_link
+      - rule_id
+      - status
+      - rule_parent
+      - book_section
+      - last_rule_update
+      - summary
+      - tags
+      - review_notes
+    sort:
+      - property: rule_parent
+        direction: ASC
+      - property: rule_id
+        direction: ASC
+    rowHeight: medium
+    columnSize:
+      formula.rule_link: 280
+      note.rule_id: 90
+      note.status: 125
+      note.rule_parent: 260
+      note.book_section: 180
+      note.last_rule_update: 130
+      note.summary: 440
+      note.tags: 230
+      note.review_notes: 320
+  - type: table
+    name: Parents in this family
+    filters:
+      and:
+        - type == "settlements-rule-parent"
+        - parent_family == this.family_name
+    order:
+      - formula.parent_link
+      - formula.progress_stage
+      - progress_summary
+      - included_rules
+      - locked_rules
+      - deferred_rules
+    sort:
+      - property: parent_name
+        direction: ASC
+    rowHeight: medium
+    columnSize:
+      note.parent_name: 290
+      note.progress_summary: 390
+      formula.progress_stage: 150
+      formula.parent_link: 290
+  - type: table
+    name: Rules in this parent
+    filters:
+      and:
+        - type == "settlements-rule-card"
+        - book_section == this.parent_family
+        - rule_parent == this.parent_name
+    order:
+      - formula.rule_link
+      - rule_id
+      - status
+      - summary
+      - last_rule_update
+      - tags
+    sort:
+      - property: rule_id
+        direction: ASC
+    rowHeight: medium
+    columnSize:
+      file.name: 300
+      note.summary: 470
+      note.status: 120
