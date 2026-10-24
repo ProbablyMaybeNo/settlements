@@ -1,5 +1,7 @@
 # Rule parents — start here
 
+Progress: [[Settlements Rule Progress.base|family and parent Kanban boards]] · [[Rulebook Progress - Start Here|completion definitions]].
+
 Open [[Settlements Rule Parents.canvas|the parent canvas]]. It shows one card for each Family → Type / Parent pair, grouped into the thirteen rulebook families. Double-click a parent card to open its page and live rule table. Example: **Core Mechanics → Stats → DEX**. Open a listed rule for its full owning text; switch the embedded view to Cards if preferred.
 
 ## Assign a rule

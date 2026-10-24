@@ -4,7 +4,19 @@ parent_name: Lasting injuries
 parent_family: The Crew
 parent_key: c11ec1ac
 tags:
-- settlements/rule-parent
+  - settlements/rule-parent
+progress_status: Drafted
+included_rules: 10
+deferred_rules: 0
+written_rules: 10
+confirmed_rules: 0
+locked_rules: 0
+written_percent: 100
+confirmed_percent: 0
+final_percent: 0
+progress_summary: 100% written · 0% confirmed · 0% final
+cssclasses:
+  - settlements-rule-group
 ---
 
 # Lasting injuries
@@ -13,9 +25,15 @@ tags:
 
 **Lasting injuries**
 
-The Crew → Lasting injuries
+The Crew
 
 Open this page for the live rule list.
+
+<!-- progress:start -->
+**Drafted** · 100% written · 0% confirmed · 0% final
+
+0/10 rules final · 0 deferred
+<!-- progress:end -->
 
 ## Rules
 

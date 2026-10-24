@@ -2,9 +2,21 @@
 type: settlements-rule-parent
 parent_name: Objective conventions
 parent_family: Fighting Battles
-parent_key: '33101373'
+parent_key: "33101373"
 tags:
-- settlements/rule-parent
+  - settlements/rule-parent
+progress_status: Confirmed
+included_rules: 2
+deferred_rules: 0
+written_rules: 2
+confirmed_rules: 2
+locked_rules: 0
+written_percent: 100
+confirmed_percent: 100
+final_percent: 0
+progress_summary: 100% written · 100% confirmed · 0% final
+cssclasses:
+  - settlements-rule-group
 ---
 
 # Objective conventions
@@ -13,9 +25,15 @@ tags:
 
 **Objective conventions**
 
-Fighting Battles → Objective conventions
+Fighting Battles
 
 Open this page for the live rule list.
+
+<!-- progress:start -->
+**Confirmed** · 100% written · 100% confirmed · 0% final
+
+0/2 rules final · 0 deferred
+<!-- progress:end -->
 
 ## Rules
 

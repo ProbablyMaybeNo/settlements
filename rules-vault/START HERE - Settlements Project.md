@@ -29,6 +29,8 @@ The current rules live in **individual Draft 2 rule-card notes**. The rulebook, 
 | Check decisions and outstanding work | [[Settlements/Rules System/Second Draft/Draft 2 - Progress and Decisions\|Progress and Decisions]] |
 | Look up design research | [[Settlements/Research/Wargaming Research Hub\|Research hub]] or [[Settlements/Research/Rule of Carnage Skirmish Game Design Reference\|Rule of Carnage design reference]] |
 
+Progress overview: [[Settlements/Rules System/Second Draft/Settlements Rule Progress.base|Family / Parent progress boards]]. Open a family for its parents and their automatic completion totals. [[Settlements/Rules System/Second Draft/Rulebook Progress - Start Here|Definitions and instructions]].
+
 ## Parent overview
 
 Open [[Settlements/Rules System/Second Draft/Settlements Rule Parents.canvas|the parent canvas]] for one card per parent under its rulebook family. Double-click a parent to open its live rule table. Change Type / Parent in [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index#Editable index|Complete Index → Editable index]] to update membership automatically. See [[Settlements/Rules System/Second Draft/Rule Parents - Start Here|parent-view instructions]].

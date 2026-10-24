@@ -4,7 +4,19 @@ parent_name: Battle Overview / Rounds Turns and Phases
 parent_family: Fighting Battles
 parent_key: afa3c6ec
 tags:
-- settlements/rule-parent
+  - settlements/rule-parent
+progress_status: Drafted
+included_rules: 1
+deferred_rules: 0
+written_rules: 1
+confirmed_rules: 0
+locked_rules: 0
+written_percent: 100
+confirmed_percent: 0
+final_percent: 0
+progress_summary: 100% written · 0% confirmed · 0% final
+cssclasses:
+  - settlements-rule-group
 ---
 
 # Battle Overview / Rounds Turns and Phases
@@ -13,9 +25,15 @@ tags:
 
 **Battle Overview / Rounds Turns and Phases**
 
-Fighting Battles → Battle Overview / Rounds Turns and Phases
+Fighting Battles
 
 Open this page for the live rule list.
+
+<!-- progress:start -->
+**Drafted** · 100% written · 0% confirmed · 0% final
+
+0/1 rules final · 0 deferred
+<!-- progress:end -->
 
 ## Rules
 

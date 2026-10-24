@@ -156,3 +156,9 @@ Rule status records editorial progress. Final text approval and balance/playtest
 - [x] Add a live rules page per Family / Parent pair, covering all 483 rules including Deferred material.
 - [x] Make Type / Parent an editable owning `rule_parent` property and embed Parent assignments in the complete index. Membership updates through live Bases; new parent pages/cards are created by the workspace plugin.
 - [x] Preserve all rule text, other card metadata, review dates, IDs and manuscript placement. Parent-canvas moves are visual only.
+
+## Family and parent completion overview — 2026-10-24
+
+- [x] Add Family progress and Parent progress Kanban views plus Family totals. Family cards open notes listing their parents and calculated progress.
+- [x] Calculate written, confirmed and final-text percentages from owning rule Status; exclude Deferred rules and show exact rule/parent counts. Empty groups remain Pending. No approvals or rule statuses are changed by the rollups.
+- [x] Preserve personal family/parent notes and recalculate on rule edits, parent assignments, new-card creation, startup and manual refresh. These are editorial progress figures, not balance or playtest results.

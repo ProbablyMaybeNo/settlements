@@ -4,7 +4,19 @@ parent_name: Earlier objective proposals / Deferred
 parent_family: Scenarios
 parent_key: 039917a8
 tags:
-- settlements/rule-parent
+  - settlements/rule-parent
+progress_status: Deferred
+included_rules: 0
+deferred_rules: 10
+written_rules: 0
+confirmed_rules: 0
+locked_rules: 0
+written_percent: 0
+confirmed_percent: 0
+final_percent: 0
+progress_summary: Deferred only · 10 rules
+cssclasses:
+  - settlements-rule-group
 ---
 
 # Earlier objective proposals / Deferred
@@ -13,9 +25,15 @@ tags:
 
 **Earlier objective proposals / Deferred**
 
-Scenarios → Earlier objective proposals / Deferred
+Scenarios
 
 Open this page for the live rule list.
+
+<!-- progress:start -->
+**Deferred** · Deferred only · 10 rules
+
+0/0 rules final · 10 deferred
+<!-- progress:end -->
 
 ## Rules
 

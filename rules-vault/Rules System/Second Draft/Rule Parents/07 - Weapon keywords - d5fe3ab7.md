@@ -4,7 +4,19 @@ parent_name: Weapon keywords
 parent_family: Equipment
 parent_key: d5fe3ab7
 tags:
-- settlements/rule-parent
+  - settlements/rule-parent
+progress_status: Drafted
+included_rules: 18
+deferred_rules: 0
+written_rules: 18
+confirmed_rules: 0
+locked_rules: 0
+written_percent: 100
+confirmed_percent: 0
+final_percent: 0
+progress_summary: 100% written · 0% confirmed · 0% final
+cssclasses:
+  - settlements-rule-group
 ---
 
 # Weapon keywords
@@ -13,9 +25,15 @@ tags:
 
 **Weapon keywords**
 
-Equipment → Weapon keywords
+Equipment
 
 Open this page for the live rule list.
+
+<!-- progress:start -->
+**Drafted** · 100% written · 0% confirmed · 0% final
+
+0/18 rules final · 0 deferred
+<!-- progress:end -->
 
 ## Rules
 

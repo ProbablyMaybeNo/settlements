@@ -1,0 +1,50 @@
+---
+type: settlements-rule-family
+family_name: The Crew
+family_order: 6
+tags:
+  - settlements/rule-family
+progress_status: Drafted
+included_rules: 60
+deferred_rules: 0
+written_rules: 60
+confirmed_rules: 0
+locked_rules: 0
+written_percent: 100
+confirmed_percent: 0
+final_percent: 0
+progress_summary: 100% written · 0% confirmed · 0% final
+total_parents: 11
+included_parents: 11
+locked_parents: 0
+parent_summary: 0/11 included parents final · 11 parent groups total
+cssclasses:
+  - settlements-rule-group
+---
+
+# The Crew
+
+## Overview
+
+The Crew · Rulebook family
+
+<!-- progress:start -->
+**Drafted** · 100% written · 0% confirmed · 0% final
+
+0/60 rules final · 0 deferred
+
+0/11 included parents final · 11 parent groups total
+<!-- progress:end -->
+
+## Parents
+
+![[Settlements/Rules System/Second Draft/Settlements Rule Progress.base#Parents in this family]]
+
+Open a parent to see its automatically filtered rules.
+
+- [[Settlements/Rules System/Second Draft/Rulebook Progress - Start Here|Progress definitions and instructions]]
+- [[Settlements/Rules System/Second Draft/Settlements Rule Parents.canvas|Parent canvas]]
+
+## Family notes
+
+<!-- Add planning notes here. Progress is calculated from the owning rule cards. -->

@@ -1,0 +1,133 @@
+filters:
+  or:
+    - type == "settlements-rule-family"
+    - type == "settlements-rule-parent"
+formulas:
+  progress_stage: note.progress_status
+  rule_card_meta: note.included_rules.toString() + " rules · " + note.deferred_rules.toString() + " deferred"
+  rule_card_color: if(note.progress_status == "Locked", "#b4d776", if(note.progress_status == "Confirmed", "#4dd5bc", if(note.progress_status == "Drafted", "#66c7ed", if(note.progress_status == "Partial", "#f3b65b", "#96aabd"))))
+  parent_link: file.asLink(note.parent_name)
+  family_link: file.asLink(note.family_name)
+properties:
+  note.family_name:
+    displayName: Family
+  note.parent_name:
+    displayName: Parent
+  note.parent_family:
+    displayName: Family
+  formula.progress_stage:
+    displayName: Stage (automatic)
+  note.progress_summary:
+    displayName: Progress
+  note.parent_summary:
+    displayName: Parent completion
+  note.included_rules:
+    displayName: First-edition rules
+  note.deferred_rules:
+    displayName: Deferred rules
+  note.written_rules:
+    displayName: Written rules
+  note.confirmed_rules:
+    displayName: Confirmed rules
+  note.locked_rules:
+    displayName: Final-text rules
+  note.written_percent:
+    displayName: Written %
+  note.confirmed_percent:
+    displayName: Confirmed %
+  note.final_percent:
+    displayName: Final text %
+  formula.rule_card_meta:
+    displayName: Rule count
+  formula.rule_card_color:
+    displayName: Stage colour
+  formula.parent_link:
+    displayName: Parent
+  formula.family_link:
+    displayName: Family
+views:
+  - type: kanban
+    name: Family progress
+    filters: type == "settlements-rule-family"
+    groupBy:
+      property: formula.progress_stage
+      direction: ASC
+    groupOrder:
+      - Pending
+      - Partial
+      - Drafted
+      - Confirmed
+      - Locked
+      - Deferred
+    order:
+      - family_name
+      - formula.rule_card_meta
+      - progress_summary
+      - parent_summary
+    sort:
+      - property: family_order
+        direction: ASC
+    columnWidth: 350
+    image: formula.rule_card_color
+    imageAspectRatio: 0.025
+  - type: kanban
+    name: Parent progress
+    filters: type == "settlements-rule-parent"
+    groupBy:
+      property: formula.progress_stage
+      direction: ASC
+    groupOrder:
+      - Pending
+      - Partial
+      - Drafted
+      - Confirmed
+      - Locked
+      - Deferred
+    order:
+      - parent_name
+      - parent_family
+      - formula.rule_card_meta
+      - progress_summary
+    sort:
+      - property: parent_name
+        direction: ASC
+    columnWidth: 350
+    image: formula.rule_card_color
+    imageAspectRatio: 0.025
+  - type: table
+    name: Family totals
+    filters: type == "settlements-rule-family"
+    order:
+      - formula.family_link
+      - formula.progress_stage
+      - written_percent
+      - confirmed_percent
+      - final_percent
+      - included_rules
+      - deferred_rules
+      - parent_summary
+    sort:
+      - property: family_order
+        direction: ASC
+  - type: table
+    name: Parents in this family
+    filters:
+      and:
+        - type == "settlements-rule-parent"
+        - parent_family == this.family_name
+    order:
+      - formula.parent_link
+      - formula.progress_stage
+      - progress_summary
+      - included_rules
+      - locked_rules
+      - deferred_rules
+    sort:
+      - property: parent_name
+        direction: ASC
+    rowHeight: medium
+    columnSize:
+      note.parent_name: 290
+      note.progress_summary: 390
+      formula.progress_stage: 150
+      formula.parent_link: 290

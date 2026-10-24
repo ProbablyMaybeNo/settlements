@@ -1,5 +1,7 @@
 # Settlements Second Draft
 
+Progress: [[Settlements Rule Progress.base|family and parent Kanban boards]] · [[Rulebook Progress - Start Here|completion definitions]].
+
 Parent overview: [[Settlements Rule Parents.canvas|family/parent canvas]] → open a parent for its live rule list. Reassign rules in [[Rule Cards - Complete Index#Editable index|the editable index]]. [[Rule Parents - Start Here|Instructions]].
 
 
