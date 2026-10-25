@@ -8,7 +8,7 @@ publication: Included
 
 ### Battle Roster fields
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-451 - Battle records#^text-s100-b000]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-451 - Battle and settlement record sheets#^text-s100-b000]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-451 - Battle records#^text-s100-b001]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-451 - Battle and settlement record sheets#^text-s100-b001]]
 

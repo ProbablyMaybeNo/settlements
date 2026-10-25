@@ -18,7 +18,7 @@ formulas:
   rule_link: file.asLink(note.rule_name)
 properties:
   note.rule_parent:
-    displayName: Parent
+    displayName: Mechanic
   file.name:
     displayName: Rule / mechanic
   formula.rule_card_meta:
@@ -34,7 +34,7 @@ properties:
   note.entry_type:
     displayName: Type
   note.book_section:
-    displayName: Family
+    displayName: Section
   note.book_subsection:
     displayName: Current subsection
   note.summary:
@@ -64,11 +64,11 @@ properties:
   note.planned_section:
     displayName: Planned section
   note.family_name:
-    displayName: Family
+    displayName: Section
   note.parent_name:
-    displayName: Parent
+    displayName: Mechanic
   note.parent_family:
-    displayName: Family
+    displayName: Section
   formula.progress_stage:
     displayName: Stage (automatic)
   note.progress_summary:
@@ -92,9 +92,9 @@ properties:
   note.final_percent:
     displayName: Final text %
   formula.parent_link:
-    displayName: Parent
+    displayName: Mechanic
   formula.family_link:
-    displayName: Family
+    displayName: Section
   formula.rule_link:
     displayName: Name
 views:

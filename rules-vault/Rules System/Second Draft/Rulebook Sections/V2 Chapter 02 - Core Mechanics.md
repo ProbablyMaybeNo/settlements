@@ -26,9 +26,9 @@ status: Assembled working proposal
 
 Use tokens to track actions, READY, Stress, Pinned, Hidden, casualty timers and other printed conditions. The Components entry records the confirmed template set; weapon-profile assignments and flame-template details still need review. Objective circles and attack templates serve different purposes.
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-005 - Dice and markers#Rule text]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Components, models and templates#Rule text]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-006 - Template sizes — reconcile#Rule text]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Components, models and templates#Template sizes — reconcile]]
 
 ## 2.5 Interactive Terrain
 

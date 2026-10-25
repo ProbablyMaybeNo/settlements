@@ -8,5 +8,5 @@ publication: Included
 
 ### Heavy keyword
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-456 - Heavy#Rule text]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics#^catalogue-v2-495]]
 

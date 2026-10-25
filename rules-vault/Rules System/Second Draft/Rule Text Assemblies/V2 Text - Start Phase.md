@@ -8,9 +8,9 @@ publication: Included
 
 ### Start Phase
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh#^text-s017-b000]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh and initiative#^text-s017-b000]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-485 - Orders#^orders-allowance]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-053 - Initiative#^text-s017-b001]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh and initiative#^text-s017-b001]]
 

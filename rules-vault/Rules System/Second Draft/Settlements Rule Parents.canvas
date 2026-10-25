@@ -153,17 +153,6 @@
       "color": "#b4d776"
     },
     {
-      "id": "parent-268c3757",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/06 - Training grades - 268c3757.md",
-      "subpath": "#^parent-summary",
-      "x": 1565,
-      "y": 820,
-      "width": 260,
-      "height": 155,
-      "color": "#b4d776"
-    },
-    {
       "id": "parent-b46f78cd",
       "type": "file",
       "file": "Settlements/Rules System/Second Draft/Rule Parents/06 - Equipping Fighters - b46f78cd.md",
@@ -180,17 +169,6 @@
       "file": "Settlements/Rules System/Second Draft/Rule Parents/06 - Lasting Injuries and Recovery - b1cd81e4.md",
       "subpath": "#^parent-summary",
       "x": 1280,
-      "y": 1005,
-      "width": 260,
-      "height": 155,
-      "color": "#b4d776"
-    },
-    {
-      "id": "parent-c11ec1ac",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/06 - Lasting injuries - c11ec1ac.md",
-      "subpath": "#^parent-summary",
-      "x": 1565,
       "y": 1005,
       "width": 260,
       "height": 155,
@@ -230,44 +208,11 @@
       "color": "#b4d776"
     },
     {
-      "id": "parent-274ff2f6",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/06 - Advancement levels - 274ff2f6.md",
-      "subpath": "#^parent-summary",
-      "x": 995,
-      "y": 1375,
-      "width": 260,
-      "height": 155,
-      "color": "#b4d776"
-    },
-    {
-      "id": "parent-5bd26290",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/06 - Experience deeds - 5bd26290.md",
-      "subpath": "#^parent-summary",
-      "x": 1280,
-      "y": 1375,
-      "width": 260,
-      "height": 155,
-      "color": "#b4d776"
-    },
-    {
       "id": "parent-72e70b74",
       "type": "file",
       "file": "Settlements/Rules System/Second Draft/Rule Parents/08 - Choosing and Using Skills - 72e70b74.md",
       "subpath": "#^parent-summary",
       "x": 995,
-      "y": 1945,
-      "width": 260,
-      "height": 155,
-      "color": "#b4d776"
-    },
-    {
-      "id": "parent-dc682287",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/08 - Skills - dc682287.md",
-      "subpath": "#^parent-summary",
-      "x": 1280,
       "y": 1945,
       "width": 260,
       "height": 155,
@@ -351,28 +296,6 @@
       "color": "#96aabd"
     },
     {
-      "id": "parent-039917a8",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/05 - Earlier objective proposals  -  Deferred - 039917a8.md",
-      "subpath": "#^parent-summary",
-      "x": 1965,
-      "y": 635,
-      "width": 260,
-      "height": 155,
-      "color": "#96aabd"
-    },
-    {
-      "id": "parent-02e491e9",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/05 - Scenario proposals - 02e491e9.md",
-      "subpath": "#^parent-summary",
-      "x": 2250,
-      "y": 635,
-      "width": 260,
-      "height": 155,
-      "color": "#96aabd"
-    },
-    {
       "id": "parent-6b64ff9c",
       "type": "file",
       "file": "Settlements/Rules System/Second Draft/Rule Parents/10 - Rewards and Qualifying Battles - 6b64ff9c.md",
@@ -433,33 +356,11 @@
       "height": 140
     },
     {
-      "id": "parent-4ec54e03",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/07 - Deployables - 4ec54e03.md",
-      "subpath": "#^parent-summary",
-      "x": 1965,
-      "y": 1205,
-      "width": 260,
-      "height": 155,
-      "color": "#e6c570"
-    },
-    {
       "id": "parent-e3e49f06",
       "type": "file",
       "file": "Settlements/Rules System/Second Draft/Rule Parents/07 - Weapons - e3e49f06.md",
       "subpath": "#^parent-summary",
       "x": 2250,
-      "y": 1205,
-      "width": 260,
-      "height": 155,
-      "color": "#e6c570"
-    },
-    {
-      "id": "parent-d5fe3ab7",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/07 - Weapon keywords - d5fe3ab7.md",
-      "subpath": "#^parent-summary",
-      "x": 2535,
       "y": 1205,
       "width": 260,
       "height": 155,
@@ -473,28 +374,6 @@
       "y": -245,
       "width": 2700,
       "height": 190
-    },
-    {
-      "id": "parent-cde8e6a6",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/02 - Stats - cde8e6a6.md",
-      "subpath": "#^parent-summary",
-      "x": 995,
-      "y": 250,
-      "width": 260,
-      "height": 155,
-      "color": "#66c7ed"
-    },
-    {
-      "id": "parent-507e7d9b",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/04 - Deployment - 507e7d9b.md",
-      "subpath": "#^parent-summary",
-      "x": 310,
-      "y": 635,
-      "width": 260,
-      "height": 155,
-      "color": "#ef8178"
     },
     {
       "id": "parent-3d88dec1",
@@ -524,17 +403,6 @@
       "file": "Settlements/Rules System/Second Draft/Rule Parents/04 - Battle Overview  -  Rounds Turns and Phases - afa3c6ec.md",
       "subpath": "#^parent-summary",
       "x": 310,
-      "y": 820,
-      "width": 260,
-      "height": 155,
-      "color": "#ef8178"
-    },
-    {
-      "id": "parent-ef479776",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/04 - Initiative - ef479776.md",
-      "subpath": "#^parent-summary",
-      "x": 595,
       "y": 820,
       "width": 260,
       "height": 155,
@@ -673,17 +541,6 @@
       "color": "#ef8178"
     },
     {
-      "id": "parent-aaf60129",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/04 - Interactive terrain - aaf60129.md",
-      "subpath": "#^parent-summary",
-      "x": 25,
-      "y": 1745,
-      "width": 260,
-      "height": 155,
-      "color": "#ef8178"
-    },
-    {
       "id": "parent-4147de7c",
       "type": "file",
       "file": "Settlements/Rules System/Second Draft/Rule Parents/04 - Deployables and Drones - 4147de7c.md",
@@ -706,33 +563,11 @@
       "color": "#ef8178"
     },
     {
-      "id": "parent-fc565da5",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/04 - Interactions - fc565da5.md",
-      "subpath": "#^parent-summary",
-      "x": 25,
-      "y": 1930,
-      "width": 260,
-      "height": 155,
-      "color": "#ef8178"
-    },
-    {
       "id": "parent-7f3c7239",
       "type": "file",
       "file": "Settlements/Rules System/Second Draft/Rule Parents/07 - Armour - 7f3c7239.md",
       "subpath": "#^parent-summary",
       "x": 1965,
-      "y": 1390,
-      "width": 260,
-      "height": 155,
-      "color": "#e6c570"
-    },
-    {
-      "id": "parent-d0d7ac67",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/07 - Equipment - d0d7ac67.md",
-      "subpath": "#^parent-summary",
-      "x": 2250,
       "y": 1390,
       "width": 260,
       "height": 155,
@@ -745,17 +580,6 @@
       "subpath": "#^parent-summary",
       "x": 2535,
       "y": 1390,
-      "width": 260,
-      "height": 155,
-      "color": "#e6c570"
-    },
-    {
-      "id": "parent-12fa4239",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/07 - Weapon classes - 12fa4239.md",
-      "subpath": "#^parent-summary",
-      "x": 1965,
-      "y": 1575,
       "width": 260,
       "height": 155,
       "color": "#e6c570"
@@ -811,28 +635,6 @@
       "subpath": "#^parent-summary",
       "x": 2250,
       "y": 2330,
-      "width": 260,
-      "height": 155,
-      "color": "#e6c570"
-    },
-    {
-      "id": "parent-32d57757",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/09 - Structures - 32d57757.md",
-      "subpath": "#^parent-summary",
-      "x": 2535,
-      "y": 2330,
-      "width": 260,
-      "height": 155,
-      "color": "#e6c570"
-    },
-    {
-      "id": "parent-1978d2bc",
-      "type": "file",
-      "file": "Settlements/Rules System/Second Draft/Rule Parents/09 - People Stores and Resources - 1978d2bc.md",
-      "subpath": "#^parent-summary",
-      "x": 1965,
-      "y": 2515,
       "width": 260,
       "height": 155,
       "color": "#e6c570"

@@ -1,6 +1,6 @@
 # Settlements — Assembled Rulebook
 
-This reading view follows Ross’s agreed thirteen-chapter outline. Rules are live embeds from the individual-card library. Setting, creator text and scenario specifics retain placeholders. The text remains a proposal for review and playtesting.
+This reading view follows Ross’s agreed thirteen-chapter outline. Procedures are live embeds from consolidated rule cards; catalogue tables draw from the separate individual item cards. Setting, creator text and scenario specifics retain placeholders. The text remains a proposal for review and playtesting.
 
 1. [[Settlements/Rules System/Second Draft/Rulebook Sections/V2 Chapter 01 - Introduction|Introduction]]
 2. [[Settlements/Rules System/Second Draft/Rulebook Sections/V2 Chapter 02 - Core Mechanics|Core Mechanics]]

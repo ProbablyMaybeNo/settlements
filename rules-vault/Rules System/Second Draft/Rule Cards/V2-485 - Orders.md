@@ -12,33 +12,47 @@ tags:
 - activation
 - orders
 - ready
-summary: Leaders 2 orders/round; specialists 1. Free READY to another eligible friendly within 12 inches/LOS during own activation; Activated allowed; one READY held maximum.
+summary: Orders
 status: Drafted
 review_status: Needs review
 publication: Included
 created: '2026-10-19'
-last_rule_update: 2026-10-19
+last_rule_update: '2026-10-19'
 source:
-- '[[Settlements/Rules System/Rules Ledger/Draft 2 - Development decisions and history#Confirmed follow-up decisions - 2026-10-19]]'
-review_notes: 'Approved allowance, cost, range, LOS and recipient conditions; leader role/grade and finer activation timing still need clarification.'
+- '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-485 - Orders]]'
+review_notes: 'V2-485: Approved allowance, cost, range, LOS and recipient conditions; leader role/grade and finer
+  activation timing still need clarification.'
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Leadership and specialists]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-061 - Ready action]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-062 - Losing READY]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-063 - Reaction eligibility]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-066 - Reaction limits]]'
-planned_section: "04 · Fighting Battles"
-rule_parent: "Battle Overview / READY and Reactions"
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Crew composition and item limits|Leadership and specialists]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh and initiative|Round refresh]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-061 - READY and reaction eligibility|Ready action]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-061 - READY and reaction eligibility|Losing READY]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-061 - READY and reaction eligibility|Reaction eligibility]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-065 - Reactions and interruption|Reaction limits]]'
+planned_section: 04 · Fighting Battles
+rule_parent: Battle Overview / READY and Reactions
+consolidated: '2026-10-25'
+legacy_rule_ids:
+- V2-485
+component_rules:
+- rule_id: V2-485
+  rule_name: Orders
+  status: Drafted
+  last_rule_update: 2026-10-19
+  review_status: Needs review
+  review_notes: Approved allowance, cost, range, LOS and recipient conditions; leader role/grade and finer activation
+    timing still need clarification.
 ---
 
 # Orders
 
 ## Summary
 
-Leaders 2 orders/round; specialists 1. Free READY to another eligible friendly within 12 inches/LOS during own activation; Activated allowed; one READY held maximum.
+Orders
 
 ## Rule text
+
+### Orders
 
 Each round, each leader has 2 orders and each specialist has 1 order. Reset these allowances at the start of each round; unused orders do not carry over.
 
@@ -58,15 +72,11 @@ A fighter can hold at most one READY token. Receiving READY from an order does n
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Leadership and specialists|Leadership and specialists]]
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-061 - Ready action|Ready action]]
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-062 - Losing READY|Losing READY]]
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-063 - Reaction eligibility|Reaction eligibility]]
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-066 - Reaction limits|Reaction limits]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
 
 ## Design notes
 
+### V2-485 — Orders
 > [!question] Leader identity needs clarification
 > V2-034 distinguishes the nominated crew leader from the Leader training grade, and says acting leadership grants no stat or action bonus. Ross's Orders ruling has not yet specified which meaning of leader receives the 2-order allowance. No recruitment-grade, crew-composition or acting-leadership rule has been changed to decide this.
 
@@ -76,4 +86,4 @@ A fighter can hold at most one READY token. Receiving READY from an order does n
 > [!question] Issuer conditions need clarification
 > Ross specified the recipient's condition restrictions. Whether a Pinned or morale-affected issuer can give orders has not been separately decided; no exemption from existing condition restrictions is created here.
 
-<!-- Canonical Orders text lives in this card. Other views embed it. Actual rule-text changes update last_rule_update and both index rows; housekeeping does not. -->
+Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.

@@ -8,7 +8,7 @@ publication: Included
 
 ### Two weapons and pool limits
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-103 - Three-die ceiling#^text-s030-b000]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-102 - Weapon pools, dual wielding and unarmed attacks#^text-s030-b000]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-104 - Unarmed and melee Sidearms#^text-s030-b001]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-102 - Weapon pools, dual wielding and unarmed attacks#^text-s030-b001]]
 

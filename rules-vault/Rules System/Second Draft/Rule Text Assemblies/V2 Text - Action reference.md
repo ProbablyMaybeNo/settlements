@@ -10,11 +10,11 @@ publication: Included
 
 #### Move action
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move action#^text-s019-b000]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move, obstacles and Dash#^text-s019-b000]]
 
 #### Recover
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-119 - Recover#^text-s019-b001]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-117 - Pinned and recovery#^text-s019-b001]]
 
 #### Aim
 
@@ -22,7 +22,7 @@ publication: Included
 
 #### Dash
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-081 - Dash#^text-s019-b003]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move, obstacles and Dash#^text-s019-b003]]
 
 #### Charge
 
@@ -30,47 +30,47 @@ publication: Included
 
 #### Shoot
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-097 - Shoot#^text-s019-b005]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-097 - Shooting and target allocation#^text-s019-b005]]
 
 #### Ready action
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-061 - Ready action#^text-s019-b006]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-061 - READY and reaction eligibility#^text-s019-b006]]
 
 #### Help Recover
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-121 - Help Recover#^text-s019-b007]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-117 - Pinned and recovery#^text-s019-b007]]
 
 #### Core Rally
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-151 - Core Rally#^text-s019-b008]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-150 - Rally#^text-s019-b008]]
 
 #### Hide action
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-154 - Hide action#^text-s019-b009]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-154 - Hidden and Observe#^text-s019-b009]]
 
 #### Direct Interact
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-162 - Direct Interact#^text-s019-b010]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-162 - Interact and stat examples#^text-s019-b010]]
 
 #### Deploy equipment
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploy equipment#^text-s019-b011]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices#^text-s019-b011]]
 
 #### Treat ally
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-126 - Treat ally#^text-s019-b012]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-126 - Treatment and revival#^text-s019-b012]]
 
 #### Loot casualty
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-131 - Loot casualty#^text-s019-b013]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-131 - Loot and item ownership#^text-s019-b013]]
 
 #### Reload
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-243 - Reload#^text-s019-b014]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-228 - Equipment profiles and provisional prices#^text-s019-b014]]
 
 #### Disengage
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-094 - Disengage#^text-s019-b015]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-093 - Engagement and Disengage#^text-s019-b015]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-059 - Own attack limit#^text-s019-b016]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-055 - Activations, action costs and attack limit#^text-s019-b016]]
 

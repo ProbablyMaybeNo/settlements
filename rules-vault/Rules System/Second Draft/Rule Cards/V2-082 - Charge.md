@@ -14,29 +14,49 @@ tags:
 - combat
 - melee
 - dice-plus
-summary: Visible target within MOVE +6″; move MOVE +d6; reach 1″ for melee with +1 dominant die, pool capped three.
+summary: Charge; Failed Charge
 status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
-- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Dash and Charge]]'
+- '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-082 - Charge]]'
+- '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-083 - Failed Charge]]'
 review_notes: ''
 action_cost: Both
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-081 - Dash]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-083 - Failed Charge]]'
-planned_section: "04 · Fighting Battles"
-rule_parent: "Movement"
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move, obstacles and Dash|Dash]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-082 - Charge|Failed Charge]]'
+planned_section: 04 · Fighting Battles
+rule_parent: Movement
+consolidated: '2026-10-25'
+legacy_rule_ids:
+- V2-082
+- V2-083
+component_rules:
+- rule_id: V2-082
+  rule_name: Charge
+  status: Drafted
+  last_rule_update: null
+  review_status: Unreviewed
+  review_notes: ''
+- rule_id: V2-083
+  rule_name: Failed Charge
+  status: Drafted
+  last_rule_update: null
+  review_status: Unreviewed
+  review_notes: ''
 ---
 
 # Charge
 
 ## Summary
 
-Visible target within MOVE +6″; move MOVE +d6; reach 1″ for melee with +1 dominant die, pool capped three.
+Charge; Failed Charge
 
 ## Rule text
+
+### Charge
 
 | Field | Value |
 | --- | --- |
@@ -50,18 +70,16 @@ Declare a Charge against one visible conscious enemy within **MOVE + 6 inches**,
 
 ^text-s025-b001
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-081 - Dash#^text-s025-b000]]
+### Failed Charge
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-083 - Failed Charge#^text-s025-b002]]
+You may attempt a risky route as part of a Charge. Resolve its tests at the relevant point. A failed traversal ends the Charge, even if its distance roll was sufficient. A reaction can likewise stop it. Charge does not let a fighter pass through other standing fighters.
+
+^text-s025-b002
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule-card library]]
-- [[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Dash and Charge|Dash and Charge — complete context]]
-- Related: [[Settlements/Rules System/Second Draft/Rule Cards/V2-081 - Dash|Dash]], [[Settlements/Rules System/Second Draft/Rule Cards/V2-083 - Failed Charge|Failed Charge]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
 
 ## Design notes
 
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.

@@ -8,7 +8,7 @@ publication: Included
 
 ### Reading a profile
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-228 - Weapon profile fields#^text-s062-b000]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-228 - Equipment profiles and provisional prices#^text-s062-b000]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-229 - Shared provisional prices#^text-s062-b001]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-228 - Equipment profiles and provisional prices#^text-s062-b001]]
 

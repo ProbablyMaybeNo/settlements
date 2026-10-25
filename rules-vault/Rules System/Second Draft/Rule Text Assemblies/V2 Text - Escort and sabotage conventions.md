@@ -11,7 +11,7 @@ publication: Deferred
 
 ### Escort and sabotage conventions
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-365 - Escort default#^text-s077-b000]]
+![[Settlements/Rules System/Second Draft/Deferred Rule Cards/V2-365 - Escort default#^text-s077-b000]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-366 - Sabotage default#^text-s077-b001]]
+![[Settlements/Rules System/Second Draft/Deferred Rule Cards/V2-366 - Sabotage default#^text-s077-b001]]
 

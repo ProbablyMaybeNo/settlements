@@ -1,0 +1,262 @@
+filters:
+  and:
+  - file.inFolder("Settlements/Rules System/Second Draft/Item Cards")
+  - type == "settlements-item-card"
+properties:
+  note.rule_name:
+    displayName: Name
+  note.rule_id:
+    displayName: ID
+  note.card_kind:
+    displayName: Card type
+  note.catalogue:
+    displayName: Catalogue
+  note.status:
+    displayName: Status
+  note.summary:
+    displayName: Description
+  formula.item_link:
+    displayName: Name
+views:
+- type: table
+  name: All item cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  groupBy:
+    property: note.card_kind
+    direction: ASC
+- type: table
+  name: Weapon Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Weapon"
+- type: table
+  name: Skill Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Skill"
+- type: table
+  name: Equipment Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Equipment"
+- type: table
+  name: Armour Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Armour"
+- type: table
+  name: Deployable Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Deployable"
+- type: table
+  name: Terrain Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Interactive terrain"
+- type: table
+  name: Structure Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Structure"
+- type: table
+  name: Weapon Characteristic Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Weapon keyword"
+- type: table
+  name: Weapon Class Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Weapon class"
+- type: table
+  name: Characteristic Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Stat"
+- type: table
+  name: Training Grade Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Training grade"
+- type: table
+  name: Advancement Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Advancement level"
+- type: table
+  name: Lasting Injury Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Lasting injury"
+- type: table
+  name: Interaction Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Interaction"
+- type: table
+  name: Experience Deed Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Experience deed"
+- type: table
+  name: Preparation Cards
+  order:
+  - formula.item_link
+  - note.rule_id
+  - note.status
+  - note.card_kind
+  - note.catalogue
+  - note.summary
+  sort:
+  - property: note.rule_id
+    direction: ASC
+  rowHeight: medium
+  filters: card_kind == "Preparation"
+formulas:
+  item_link: file.asLink(note.rule_name)

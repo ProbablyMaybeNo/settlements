@@ -8,29 +8,29 @@ publication: Included
 
 ### One shared interaction procedure
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-162 - Direct Interact#^text-s049-b000]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-162 - Interact and stat examples#^text-s049-b000]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-164 - Dangerous terrain operation#^text-s049-b001]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-162 - Interact and stat examples#^text-s049-b001]]
 
 #### STR interactions
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-476 - STR interactions#^text-s049-b002]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-162 - Interact and stat examples#^catalogue-v2-162]]
 
 #### DEX interactions
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-477 - DEX interactions#^text-s049-b003]]
+
 
 #### INT interactions
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-478 - INT interactions#^text-s049-b004]]
+
 
 #### AGI interactions
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-479 - AGI interactions#^text-s049-b005]]
+
 
 #### NRV interactions
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-480 - NRV interactions#^text-s049-b006]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-164 - Dangerous terrain operation#^text-s049-b007]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-162 - Interact and stat examples#^text-s049-b007]]
 

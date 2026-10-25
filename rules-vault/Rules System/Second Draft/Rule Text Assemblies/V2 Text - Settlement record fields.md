@@ -8,7 +8,7 @@ publication: Included
 
 ### Settlement record fields
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-452 - Settlement records#^text-s101-b000]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-451 - Battle and settlement record sheets#^text-s101-b000]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-453 - Ownership reconciliation#^text-s101-b001]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-451 - Battle and settlement record sheets#^text-s101-b001]]
 

@@ -8,7 +8,7 @@ publication: Included
 
 ### Objective areas
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-454 - Objective limit#^text-s106-b000]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-454 - Objective limits and control areas#^text-s106-b000]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-455 - Objective control-area sizes#^text-s106-b001]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-454 - Objective limits and control areas#^text-s106-b001]]
 

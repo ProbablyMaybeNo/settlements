@@ -8,7 +8,7 @@ publication: Included
 
 ### Repair and sabotage
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-172 - Repair action#^text-s052-b000]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-165 - Hacking, terminals and repair#^text-s052-b000]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-173 - Critical terrain protection#^text-s052-b001]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-165 - Hacking, terminals and repair#^text-s052-b001]]
 

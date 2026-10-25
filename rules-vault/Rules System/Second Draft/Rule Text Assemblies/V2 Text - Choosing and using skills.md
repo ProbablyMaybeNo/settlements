@@ -8,7 +8,7 @@ publication: Included
 
 ### Choosing and using skills
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Skill prerequisites#^text-s068-b000]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills#^text-s068-b000]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-306 - Skill action restrictions#^text-s068-b001]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills#^text-s068-b001]]
 

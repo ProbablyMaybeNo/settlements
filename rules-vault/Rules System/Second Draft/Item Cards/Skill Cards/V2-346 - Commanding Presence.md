@@ -1,0 +1,67 @@
+---
+type: settlements-item-card
+rule_id: V2-346
+rule_name: Commanding Presence
+entry_type: Skill
+category: Skills · NRV
+book_chapter: 8
+book_section: Skills
+book_subsection: Nerve Skills
+tags:
+- settlements/v2
+- skill
+- nrv
+- morale
+- once-round
+summary: Once/round eligible friendly within 6″/LOS uses your NRV for Break/Rally; you must be capable; recipient's
+  modifiers apply.
+status: Drafted
+review_status: Unreviewed
+publication: Included
+created: '2026-10-18'
+source:
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
+  2#Nerve skills]]'
+review_notes: ''
+stat: NRV
+use: Once per round
+effect: One friendly within 6 inches and LOS may use your NRV for its Break or Rally test. You must be conscious,
+  unpinned, and without a morale condition. Other modifiers belong to the fighter taking the test.
+related_rules:
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill prerequisites]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill frequency]]'
+planned_section: 08 · Skills
+rule_parent: Skills
+card_kind: Skill
+catalogue_id: V2-491
+catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-491 - NRV skills]]'
+consolidated: '2026-10-25'
+---
+
+# Commanding Presence
+
+## Summary
+
+Once/round eligible friendly within 6″/LOS uses your NRV for Break/Rally; you must be capable; recipient's modifiers apply.
+
+## Rule text
+
+| Field | Value |
+| --- | --- |
+| Skill | Commanding Presence |
+| Use | Once per round |
+| Effect | One friendly within 6 inches and LOS may use your NRV for its Break or Rally test. You must be conscious, unpinned, and without a morale condition. Other modifiers belong to the fighter taking the test. |
+
+^text-s073-b006
+
+## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-491 - NRV skills|Catalogue table]]
+- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
+
+## Design notes
+
+<!-- Add feedback here. Existing review-table comments are also preserved. -->
+
+<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->

@@ -8,5 +8,5 @@ publication: Included
 
 ### Opposed attack pools
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-106 - Fight and opposing pools#^text-s008-b000]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-106 - Melee exchanges, Unanswered and Shove#^text-s008-b000]]
 

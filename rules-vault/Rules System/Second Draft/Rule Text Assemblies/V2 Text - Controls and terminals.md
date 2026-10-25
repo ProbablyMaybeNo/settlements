@@ -8,9 +8,9 @@ publication: Included
 
 ### Controls and terminals
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-166 - Terminal links#^text-s050-b000]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-165 - Hacking, terminals and repair#^text-s050-b000]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-167 - Hack terminal#^text-s050-b001]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-165 - Hacking, terminals and repair#^text-s050-b001]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-165 - Physical controls#^text-s050-b002]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-165 - Hacking, terminals and repair#^text-s050-b002]]
 

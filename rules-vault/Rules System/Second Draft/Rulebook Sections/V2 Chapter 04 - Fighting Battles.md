@@ -72,13 +72,13 @@ Agree the scenario and Crew Rating before selecting a Battle Roster. Battles use
 
 ## 4.5 Deployment
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-044 - Setup and deployment#Rule text]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-044 - Setup and deployment#Setup and deployment]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-045 - Deployment limits#Rule text]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-044 - Setup and deployment#Rule text]]
 
 ## 4.6 Initiative
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-053 - Initiative#Rule text]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh and initiative#Initiative]]
 
 ## 4.7 Movement
 

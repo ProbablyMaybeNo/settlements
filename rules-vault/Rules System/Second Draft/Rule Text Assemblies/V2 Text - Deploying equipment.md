@@ -8,7 +8,7 @@ publication: Included
 
 ### Deploying equipment
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploy equipment#^text-s058-b000]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices#^text-s058-b000]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-203 - Device arming delay#^text-s058-b001]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices#^text-s058-b001]]
 

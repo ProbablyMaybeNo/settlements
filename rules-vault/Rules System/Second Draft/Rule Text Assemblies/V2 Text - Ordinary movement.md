@@ -8,7 +8,7 @@ publication: Included
 
 ### Ordinary movement
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move action#^text-s024-b000]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move, obstacles and Dash#^text-s024-b000]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-080 - Difficult and half-speed movement#^text-s024-b001]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move, obstacles and Dash#^text-s024-b001]]
 

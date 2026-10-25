@@ -8,5 +8,5 @@ publication: Included
 
 ### Attacks against casualties
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-129 - Attacking Down#^text-s039-b000]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties#^text-s039-b000]]
 
