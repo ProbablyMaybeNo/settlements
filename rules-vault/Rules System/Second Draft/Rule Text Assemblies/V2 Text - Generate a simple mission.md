@@ -46,4 +46,3 @@ publication: Deferred
 #### Rescue secondary
 
 ![[Settlements/Rules System/Second Draft/Deferred Rule Cards/V2-364 - Rescue secondary#^text-s076-b009]]
-

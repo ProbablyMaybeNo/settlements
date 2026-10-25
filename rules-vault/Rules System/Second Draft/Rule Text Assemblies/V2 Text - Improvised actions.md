@@ -11,4 +11,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-174 - Improvised actions#^text-s053-b000]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-174 - Improvised actions#^text-s053-b001]]
-

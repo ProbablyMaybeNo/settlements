@@ -11,4 +11,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-392 - Advancement and retraining#^text-s084-b000]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-029 - Recruitment and training grades#^text-s084-b001]]
-

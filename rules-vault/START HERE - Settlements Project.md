@@ -6,7 +6,7 @@
 - **[[Settlements/Rules System/Second Draft/Settlements Rule Parents.canvas|Parent canvas]]** — the compact family/parent map you chose to keep.
 - [[Settlements/Rules System/Second Draft/Settlements Rulebook - Assembled|Read the manuscript]] · [[Settlements/Rules System/Second Draft/Draft 2 - Battle Quick Reference|Battle reference]] · [[Settlements/Research/Wargaming Research Hub|Research]]
 
-- **[[Settlements/Rules System/Second Draft/Item Cards - Library|Individual item cards]]** — 193 Weapon Cards, Skill Cards, Equipment Cards and other entries, in separate folders. Official catalogue cards contain their complete tables; click a row to open its individual card.
+- **[[Settlements/Rules System/Second Draft/Item Cards - Library|Individual item cards]]** — 193 Weapon Cards, Skill Cards, Equipment Cards and other entries, in separate folders. Use the library’s view selector for a card gallery by type or the All item cards table. Use the library’s view selector for a card gallery by type or the All item cards table. Official catalogue cards contain their complete tables; click a row to open its individual card.
 - **Deferred Rule Cards/** — 18 earlier objective/scenario proposals, outside the official index.
 
 ## Edit a rule
@@ -34,7 +34,7 @@ Deferred rules are counted separately and excluded from first-edition percentage
 
 ## Create a rule
 
-**Ctrl+P → Settlements Rule Workspace: Add a new rule card.** Enter name, Family, Parent, category, tags, description and full text. It creates a unique V2 note as Drafted and updates the live index, parent pages, canvas and completion figures. Item profiles belong in **Item Cards/**, not Rule Cards/. Keep a unique V2 ID, `type: settlements-item-card`, its `card_kind`, and its catalogue membership. Add the ID to the official catalogue’s `catalogue_members` when creating an item. Add the owning block to the manuscript during editorial review.
+**Ctrl+P → Settlements Rule Workspace: Add a new rule card.** Enter name, Section, Mechanic, category, tags, description and full text. It creates a unique V2 note as Drafted and updates the live index, parent pages, canvas and completion figures. Item profiles belong in **Item Cards/**, not Rule Cards/. Keep a unique V2 ID, `type: settlements-item-card`, its `card_kind`, and its catalogue membership. Add the ID to the official catalogue’s `catalogue_members` when creating an item. Add the owning block to the manuscript during editorial review.
 
 ## Access and recovery
 

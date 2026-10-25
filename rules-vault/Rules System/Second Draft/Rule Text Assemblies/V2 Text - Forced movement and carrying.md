@@ -11,4 +11,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-089 - Forced movement#^text-s027-b000]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-090 - Carrying and releasing loads#^text-s027-b001]]
-

@@ -16,31 +16,15 @@ status: Assembled working proposal
 
 ![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Characteristics#Characteristics]]
 
-![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Heavy keyword#Heavy keyword]]
-
 ![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Building and naming weapons#Building and naming weapons]]
 
 ## 7.3 Armour and Protective Gear
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour and shields#^catalogue-v2-494]]
 
-
-
-
-
 ## 7.4 Tools and Supplies
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment#^catalogue-v2-492]]
-
-
-
-
-
-
-
-
-
-
 
 ## 7.5 Deployables and Drones
 
@@ -52,19 +36,6 @@ status: Assembled working proposal
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies#^catalogue-v2-493]]
 
-
-
-
-
-
-
-
-
-
-
-
-
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies#Chem limits]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies#^text-s066-b016]]
 
 ![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Battle preparations#Battle preparations]]
-

@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress, Break and forced flight#^text-s042-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress, Break and forced flight#^text-s042-b002]]
-

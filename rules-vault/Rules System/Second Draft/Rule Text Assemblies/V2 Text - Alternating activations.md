@@ -15,4 +15,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-055 - Activations, action costs and attack limit#^text-s018-b002]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-055 - Activations, action costs and attack limit#^text-s018-b003]]
-

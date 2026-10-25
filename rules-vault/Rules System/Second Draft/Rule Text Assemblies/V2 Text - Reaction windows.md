@@ -32,7 +32,6 @@ publication: Included
 
 #### Interrupt
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-490 - INT skills#^catalogue-v2-490]]
+![[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-334 - Interrupt#^text-s021-b007]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-065 - Reactions and interruption#^text-s021-b008]]
-

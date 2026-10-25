@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices#^text-s059-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices#^text-s059-b002]]
-

@@ -15,4 +15,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-017 - Ordinary tests and modifiers#^text-s006-b002]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-017 - Ordinary tests and modifiers#^text-s006-b003]]
-

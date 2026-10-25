@@ -11,4 +11,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-106 - Melee exchanges, Unanswered and Shove#^text-s033-b000]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-106 - Melee exchanges, Unanswered and Shove#^text-s033-b001]]
-

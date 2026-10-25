@@ -11,4 +11,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-102 - Weapon pools, dual wielding and unarmed attacks#^text-s030-b000]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-102 - Weapon pools, dual wielding and unarmed attacks#^text-s030-b001]]
-

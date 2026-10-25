@@ -62,23 +62,19 @@ Agree the scenario and Crew Rating before selecting a Battle Roster. Battles use
 
 ![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Feature cards#Feature cards]]
 
-![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Routes and access#Routes and access]]
-
-![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Cover and visibility#Cover and visibility]]
-
-![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Hazards and utilities#Hazards and utilities]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-496 - Interactive terrain catalogue#^catalogue-v2-496]]
 
 ![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Terrain as a weapon and a route#Terrain as a weapon and a route]]
 
 ## 4.5 Deployment
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-044 - Setup and deployment#Setup and deployment]]
-
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-044 - Setup and deployment#Rule text]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-044 - Setup and deployment#^text-s014-b000]]
 
 ## 4.6 Initiative
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh and initiative#Initiative]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh and initiative#^text-s017-b001]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh and initiative#^text-s017-b000]]
 
 ## 4.7 Movement
 
@@ -167,4 +163,3 @@ Agree the scenario and Crew Rating before selecting a Battle Roster. Battles use
 ![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Voluntary withdrawal#Voluntary withdrawal]]
 
 ![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Close the battlefield#Close the battlefield]]
-

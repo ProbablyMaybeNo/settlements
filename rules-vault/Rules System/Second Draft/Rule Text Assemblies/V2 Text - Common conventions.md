@@ -23,4 +23,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-007 - Measuring and shared conventions#^text-s004-b006]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-007 - Measuring and shared conventions#^text-s004-b007]]
-

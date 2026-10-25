@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-025 - Credits and Crew Rating#^text-s009-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-025 - Credits and Crew Rating#^text-s009-b002]]
-

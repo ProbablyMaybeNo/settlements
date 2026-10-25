@@ -18,4 +18,3 @@ publication: Deferred
 ![[Settlements/Rules System/Second Draft/Deferred Rule Cards/V2-351 - Retrieve and transfer#^text-s074-b002]]
 
 ![[Settlements/Rules System/Second Draft/Deferred Rule Cards/V2-352 - Work#^text-s074-b003]]
-

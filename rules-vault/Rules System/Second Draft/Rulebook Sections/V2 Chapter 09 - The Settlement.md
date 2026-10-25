@@ -31,4 +31,3 @@ status: Assembled working proposal
 ## 9.6 Settlement Structures
 
 ![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Structure catalogue#Structure catalogue]]
-

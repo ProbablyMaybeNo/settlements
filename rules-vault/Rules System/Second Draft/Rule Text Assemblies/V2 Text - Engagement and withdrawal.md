@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-093 - Engagement and Disengage#^text-s028-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-093 - Engagement and Disengage#^text-s028-b002]]
-

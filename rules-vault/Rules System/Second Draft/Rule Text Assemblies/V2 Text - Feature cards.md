@@ -15,4 +15,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards#^text-s054-b002]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards#^text-s054-b003]]
-

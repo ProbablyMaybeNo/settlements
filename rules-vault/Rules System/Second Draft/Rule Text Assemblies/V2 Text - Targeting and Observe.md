@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-154 - Hidden and Observe#^text-s048-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-154 - Hidden and Observe#^text-s048-b002]]
-

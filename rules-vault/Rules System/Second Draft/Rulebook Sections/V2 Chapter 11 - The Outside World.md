@@ -17,4 +17,3 @@ status: Assembled working proposal
 ## 11.3 An Evolving World
 
 **[PLACEHOLDER — Ross will supply the setting, community or product content. No new faction bonuses or implemented app features are implied.]**
-

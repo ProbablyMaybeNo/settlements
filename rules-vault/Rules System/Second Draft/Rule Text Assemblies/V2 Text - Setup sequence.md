@@ -9,4 +9,3 @@ publication: Included
 ### Setup sequence
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-044 - Setup and deployment#^text-s014-b000]]
-

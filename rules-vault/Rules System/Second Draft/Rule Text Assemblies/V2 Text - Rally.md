@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-150 - Rally#^text-s044-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-150 - Rally#^text-s044-b002]]
-

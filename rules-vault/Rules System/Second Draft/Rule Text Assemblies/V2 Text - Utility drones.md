@@ -8,7 +8,7 @@ publication: Included
 
 ### Utility drones
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-497 - Deployable equipment catalogue#^catalogue-v2-497]]
+Profile: [[Settlements/Rules System/Second Draft/Item Cards/Deployable Cards/V2-219 - Utility drone|Utility drone]].
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-220 - Utility drone#^text-s061-b001]]
 
@@ -25,4 +25,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-220 - Utility drone#^text-s061-b007]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-220 - Utility drone#^text-s061-b008]]
-

@@ -2,6 +2,15 @@
 type: rule-text-assembly
 source_heading: Action reference
 publication: Included
+legacy_rule_ids:
+- V2-465
+component_rules:
+- rule_id: V2-465
+  rule_name: Action reference
+  status: Drafted
+  last_rule_update: null
+  review_status: Unreviewed
+  review_notes: ''
 ---
 
 # Action reference
@@ -73,4 +82,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-093 - Engagement and Disengage#^text-s019-b015]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-055 - Activations, action costs and attack limit#^text-s019-b016]]
-

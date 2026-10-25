@@ -26,9 +26,23 @@ status: Assembled working proposal
 
 Use tokens to track actions, READY, Stress, Pinned, Hidden, casualty timers and other printed conditions. The Components entry records the confirmed template set; weapon-profile assignments and flame-template details still need review. Objective circles and attack templates serve different purposes.
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Components, models and templates#Rule text]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Components, models and templates#^text-s003-b000]]
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Components, models and templates#Template sizes — reconcile]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Components, models and templates#^text-s003-b001]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Components, models and templates#^text-s003-b002]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Components, models and templates#^text-s003-b003]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Components, models and templates#^text-s003-b004]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Components, models and templates#^text-s003-b005]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire#^text-s065-b000]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire#^text-s065-b001]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire#^text-s065-b002]]
 
 ## 2.5 Interactive Terrain
 
@@ -37,4 +51,3 @@ Agree what each feature does, where its controls are and which terminals connect
 ## 2.6 Rounds, Turns, Activations and Actions
 
 Each round gives both crews their activations. Players alternate whole fighters; each fighter resolves one Move and one Core in either order. The opponent's reactions are resolved within those actions. Battle Overview gives the complete procedure.
-

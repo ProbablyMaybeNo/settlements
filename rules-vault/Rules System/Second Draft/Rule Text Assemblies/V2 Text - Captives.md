@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-383 - Post-battle prisoners and release#^text-s080-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-383 - Post-battle prisoners and release#^text-s080-b002]]
-

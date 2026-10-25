@@ -23,7 +23,8 @@ source:
   2#Battle preparations]]'
 review_notes: ''
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-448 - Preparations -  Signal Plan and Route Map|Preparation limits]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-448 - Preparations -  Signal Plan and Route Map|Preparation
+  limits]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Preparation Cards/V2-449 - Signal Plan|Signal Plan]]'
 planned_section: 07 · Equipment
 rule_parent: Expendables and Preparations
@@ -31,6 +32,9 @@ card_kind: Preparation
 catalogue_id: V2-448
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-448 - Preparations -  Signal Plan and Route Map]]'
 consolidated: '2026-10-25'
+effect: after both crews deploy, expend it to move its carrier up to 3 inches wholly within its own deployment zone.
+  It cannot interact, Hide, attack, or enter engagement. If both crews use a map, the player who deployed first
+  moves first. It grants no objective progress.
 ---
 
 # Route Map

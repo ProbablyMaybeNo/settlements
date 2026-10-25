@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons#^text-s012-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons#^text-s012-b002]]
-

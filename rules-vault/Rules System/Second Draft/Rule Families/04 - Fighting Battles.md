@@ -3,23 +3,23 @@ type: settlements-rule-family
 family_name: Fighting Battles
 family_order: 4
 tags:
-  - settlements/rule-family
+- settlements/rule-family
 progress_status: Drafted
-included_rules: 192
+included_rules: 40
 deferred_rules: 0
-written_rules: 192
-confirmed_rules: 2
+written_rules: 40
+confirmed_rules: 1
 locked_rules: 0
 written_percent: 100
-confirmed_percent: 1
+confirmed_percent: 3
 final_percent: 0
-progress_summary: 100% written · 1% confirmed · 0% final
-total_parents: 22
-included_parents: 22
+progress_summary: 100% written · 3% confirmed · 0% final
+total_parents: 18
+included_parents: 18
 locked_parents: 0
-parent_summary: 0/22 included parents final · 22 parent groups total
+parent_summary: 0/18 included parents final · 18 parent groups total
 cssclasses:
-  - settlements-rule-group
+- settlements-rule-group
 ---
 
 # Fighting Battles
@@ -29,11 +29,11 @@ cssclasses:
 Fighting Battles · Rulebook family
 
 <!-- progress:start -->
-**Drafted** · 100% written · 1% confirmed · 0% final
+**Drafted** · 100% written · 3% confirmed · 0% final
 
-0/192 rules final · 0 deferred
+0/40 rules final · 0 deferred
 
-0/22 included parents final · 22 parent groups total
+0/18 included parents final · 18 parent groups total
 <!-- progress:end -->
 
 ## Parents

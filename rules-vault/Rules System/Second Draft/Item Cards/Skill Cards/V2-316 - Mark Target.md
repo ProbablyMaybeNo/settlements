@@ -27,8 +27,9 @@ review_notes: ''
 stat: DEX
 use: Core
 effect: 'Test DEX against one legally visible enemy within 24 inches. Pass: Mark it through this round''s End Phase;
-  friendly shooting gains +2 to hit it. Reveal it as described in Chapter 11. Only one enemy may be Marked by your
-  crew at a time; a new mark replaces the old.'
+  friendly shooting gains +2 to hit it. Reveal it as described in [[Archive/Settlements/2026-10-24 - Retired organization/Rules
+  System/Second Draft/Settlements Rules System Version 2#11 Stealth and observation|stealth and observation]]. Only
+  one enemy may be Marked by your crew at a time; a new mark replaces the old.'
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'

@@ -45,4 +45,3 @@ status: Assembled working proposal
 ## 6.7 Crew Records
 
 ![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Battle Roster fields#Battle Roster fields]]
-

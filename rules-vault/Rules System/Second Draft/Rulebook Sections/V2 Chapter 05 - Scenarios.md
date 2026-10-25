@@ -27,4 +27,3 @@ Battles use a **primary objective** and a **secondary objective**. The objective
 ## 5.5 Ready-to-Play and Linked Scenarios
 
 **[PLACEHOLDER — Ross will add the specifics.]**
-

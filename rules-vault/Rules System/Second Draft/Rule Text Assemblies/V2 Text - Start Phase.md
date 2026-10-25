@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-485 - Orders#^orders-allowance]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh and initiative#^text-s017-b001]]
-

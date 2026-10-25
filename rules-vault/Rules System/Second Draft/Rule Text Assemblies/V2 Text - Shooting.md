@@ -15,4 +15,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-097 - Shooting and target allocation#^text-s029-b002]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-097 - Shooting and target allocation#^text-s029-b003]]
-

@@ -4,19 +4,19 @@ parent_name: Weapons
 parent_family: Equipment
 parent_key: e3e49f06
 tags:
-  - settlements/rule-parent
+- settlements/rule-parent
 progress_status: Partial
-included_rules: 31
+included_rules: 4
 deferred_rules: 0
-written_rules: 28
+written_rules: 3
 confirmed_rules: 0
 locked_rules: 0
-written_percent: 90
+written_percent: 75
 confirmed_percent: 0
 final_percent: 0
-progress_summary: 90% written · 0% confirmed · 0% final
+progress_summary: 75% written · 0% confirmed · 0% final
 cssclasses:
-  - settlements-rule-group
+- settlements-rule-group
 ---
 
 # Weapons
@@ -32,8 +32,8 @@ Open this page for the live rule list.
 
 **Weapons**  
 Equipment  
-**Partial** · 90% written · 0% confirmed · 0% final  
-0/31 rules final · 0 deferred
+**Partial** · 75% written · 0% confirmed · 0% final  
+0/4 rules final · 0 deferred
 ^parent-summary
 
 <!-- progress:end -->

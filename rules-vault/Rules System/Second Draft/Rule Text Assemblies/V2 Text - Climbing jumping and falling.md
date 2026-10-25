@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-084 - Climbing, jumping and falling#^text-s026-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-084 - Climbing, jumping and falling#^text-s026-b002]]
-

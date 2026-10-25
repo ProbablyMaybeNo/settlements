@@ -15,4 +15,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-134 - Securing, rescuing and extracting captives#^text-s041-b002]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-134 - Securing, rescuing and extracting captives#^text-s041-b003]]
-

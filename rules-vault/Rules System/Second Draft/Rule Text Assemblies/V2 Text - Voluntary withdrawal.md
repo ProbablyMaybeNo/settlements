@@ -9,4 +9,3 @@ publication: Included
 ### Voluntary withdrawal
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-153 - Ending a battle and recovering the crew#^text-s045-b000]]
-

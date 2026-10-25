@@ -29,4 +29,3 @@ status: Assembled working proposal
 ## 8.6 Nerve Skills
 
 ![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Nerve skills#Nerve skills]]
-

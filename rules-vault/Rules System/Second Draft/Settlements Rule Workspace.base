@@ -17,6 +17,8 @@ formulas:
   family_link: file.asLink(note.family_name)
   rule_link: file.asLink(note.rule_name)
 properties:
+  note.procedure_status:
+    displayName: Procedure status
   note.rule_parent:
     displayName: Mechanic
   file.name:

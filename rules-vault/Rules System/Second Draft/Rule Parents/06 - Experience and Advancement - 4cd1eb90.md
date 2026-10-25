@@ -4,11 +4,11 @@ parent_name: Experience and Advancement
 parent_family: The Crew
 parent_key: 4cd1eb90
 tags:
-  - settlements/rule-parent
+- settlements/rule-parent
 progress_status: Drafted
-included_rules: 10
+included_rules: 2
 deferred_rules: 0
-written_rules: 10
+written_rules: 2
 confirmed_rules: 0
 locked_rules: 0
 written_percent: 100
@@ -16,7 +16,7 @@ confirmed_percent: 0
 final_percent: 0
 progress_summary: 100% written · 0% confirmed · 0% final
 cssclasses:
-  - settlements-rule-group
+- settlements-rule-group
 ---
 
 # Experience and Advancement
@@ -33,7 +33,7 @@ Open this page for the live rule list.
 **Experience and Advancement**  
 The Crew  
 **Drafted** · 100% written · 0% confirmed · 0% final  
-0/10 rules final · 0 deferred
+0/2 rules final · 0 deferred
 ^parent-summary
 
 <!-- progress:end -->

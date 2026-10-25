@@ -23,9 +23,12 @@ review_notes: ''
 credits: 45
 slots: 2
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Deploy equipment]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Device arming delay]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Device damage]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Deploy
+  equipment]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Device
+  arming delay]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Device
+  damage]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-220 - Utility drone|Drone deployment]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-220 - Utility drone|Drone movement]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-220 - Utility drone|Drone operations]]'
@@ -37,6 +40,9 @@ card_kind: Deployable
 catalogue_id: V2-497
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-497 - Deployable equipment catalogue]]'
 consolidated: '2026-10-25'
+effect: A utility drone costs **45 Credits**, occupies two equipment slots on its operator, and counts toward the
+  crew's drone limit. Assign its operator on the Battle Roster. It has no weapon, no independent actions, no READY,
+  and cannot score, contest, capture, carry mission cargo, or earn experience.
 ---
 
 # Utility drone

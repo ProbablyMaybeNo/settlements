@@ -27,16 +27,23 @@ source:
   2#Standard armoury]]'
 review_notes: ''
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Crew composition and item limits|Heavy weapons and device limits]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Weapon hands and slots]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Heavy weapon handling]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Crew composition and item limits|Long-range weapon limit]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Crew composition and item limits|Heavy weapons and
+  device limits]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Weapon hands
+  and slots]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Heavy weapon
+  handling]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Crew composition and item limits|Long-range weapon
+  limit]]'
 planned_section: 07 · Equipment
 rule_parent: Weapon keywords
 card_kind: Weapon keyword
 catalogue_id: V2-495
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics]]'
 consolidated: '2026-10-25'
+rule: See [[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|weapon
+  handling]] and [[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Crew composition and item limits|crew
+  item limits]].
 ---
 
 # Heavy

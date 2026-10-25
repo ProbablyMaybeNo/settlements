@@ -22,7 +22,8 @@ source:
   2#Battle preparations]]'
 review_notes: ''
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-448 - Preparations -  Signal Plan and Route Map|Preparation limits]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-448 - Preparations -  Signal Plan and Route Map|Preparation
+  limits]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Preparation Cards/V2-450 - Route Map|Route Map]]'
 planned_section: 07 · Equipment
 rule_parent: Expendables and Preparations
@@ -30,6 +31,8 @@ card_kind: Preparation
 catalogue_id: V2-448
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-448 - Preparations -  Signal Plan and Route Map]]'
 consolidated: '2026-10-25'
+effect: after rolling your crew's initiative, expend it to reroll that die once. The carrier must be conscious,
+  on the table, and not Broken, Bolting, or Bugging Out. Use the new result. It grants no extra turn or action.
 ---
 
 # Signal Plan

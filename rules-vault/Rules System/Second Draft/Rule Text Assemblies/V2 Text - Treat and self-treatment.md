@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-126 - Treatment and revival#^text-s038-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-126 - Treatment and revival#^text-s038-b002]]
-

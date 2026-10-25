@@ -11,4 +11,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-443 - Crafting and access#^text-s091-b000]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-443 - Crafting and access#^text-s091-b001]]
-

@@ -4,11 +4,11 @@ parent_name: Battle Overview / READY and Reactions
 parent_family: Fighting Battles
 parent_key: d89d61fe
 tags:
-  - settlements/rule-parent
+- settlements/rule-parent
 progress_status: Drafted
-included_rules: 13
+included_rules: 3
 deferred_rules: 0
-written_rules: 13
+written_rules: 3
 confirmed_rules: 0
 locked_rules: 0
 written_percent: 100
@@ -16,7 +16,7 @@ confirmed_percent: 0
 final_percent: 0
 progress_summary: 100% written · 0% confirmed · 0% final
 cssclasses:
-  - settlements-rule-group
+- settlements-rule-group
 ---
 
 # Battle Overview / READY and Reactions
@@ -33,7 +33,7 @@ Open this page for the live rule list.
 **Battle Overview / READY and Reactions**  
 Fighting Battles  
 **Drafted** · 100% written · 0% confirmed · 0% final  
-0/13 rules final · 0 deferred
+0/3 rules final · 0 deferred
 ^parent-summary
 
 <!-- progress:end -->

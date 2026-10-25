@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-082 - Charge#^text-s025-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-082 - Charge#^text-s025-b002]]
-

@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-114 - Injury and attack outcomes#^text-s035-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-114 - Injury and attack outcomes#^text-s035-b002]]
-

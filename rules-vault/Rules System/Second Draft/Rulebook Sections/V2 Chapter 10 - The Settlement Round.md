@@ -17,4 +17,3 @@ status: Assembled working proposal
 ## 10.3 Close Records and Prepare
 
 Use the closing steps above to record ownership, resources and recovery timers once. Select the next Battle Roster when its matchup and Crew Rating are agreed.
-

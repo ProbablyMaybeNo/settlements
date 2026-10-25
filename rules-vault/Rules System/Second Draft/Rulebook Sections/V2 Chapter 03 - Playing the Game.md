@@ -31,4 +31,3 @@ Resolve the Start Phase, alternate fighter activations and reactions, then resol
 ## 3.6 After the Battle
 
 Record the result, casualties, equipment changes and earned rewards. Resolve experience and the Settlement Round before preparing your next crew.
-

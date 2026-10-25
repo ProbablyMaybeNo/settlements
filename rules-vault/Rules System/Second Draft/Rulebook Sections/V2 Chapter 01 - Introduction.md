@@ -25,4 +25,3 @@ Your crew and settlement persist between games. Later chapters explain settlemen
 ## 1.5 The Game You Will Play
 
 Simple rules create complex outcomes. Ordinary, fragile people fight fast, bloody, tactical battles around terrain they can operate and change. The battle serves primary and secondary objectives, while the crew and settlement continue to evolve between games.
-

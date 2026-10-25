@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-165 - Hacking, terminals and repair#^text-s050-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-165 - Hacking, terminals and repair#^text-s050-b002]]
-

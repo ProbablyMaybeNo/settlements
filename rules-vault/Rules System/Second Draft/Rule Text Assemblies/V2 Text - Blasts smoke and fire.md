@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire#^text-s065-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire#^text-s065-b002]]
-

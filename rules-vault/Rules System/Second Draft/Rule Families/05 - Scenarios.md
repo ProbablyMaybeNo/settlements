@@ -3,23 +3,23 @@ type: settlements-rule-family
 family_name: Scenarios
 family_order: 5
 tags:
-  - settlements/rule-family
-progress_status: Deferred
+- settlements/rule-family
+progress_status: Pending
 included_rules: 0
-deferred_rules: 18
+deferred_rules: 0
 written_rules: 0
 confirmed_rules: 0
 locked_rules: 0
 written_percent: 0
 confirmed_percent: 0
 final_percent: 0
-progress_summary: Deferred only · 18 rules
-total_parents: 2
+progress_summary: No rules assigned
+total_parents: 0
 included_parents: 0
 locked_parents: 0
-parent_summary: 0/0 included parents final · 2 parent groups total
+parent_summary: 0/0 included parents final · 0 parent groups total
 cssclasses:
-  - settlements-rule-group
+- settlements-rule-group
 ---
 
 # Scenarios
@@ -29,11 +29,11 @@ cssclasses:
 Scenarios · Rulebook family
 
 <!-- progress:start -->
-**Deferred** · Deferred only · 18 rules
+**Pending** · No rules assigned
 
-0/0 rules final · 18 deferred
+0/0 rules final · 0 deferred
 
-0/0 included parents final · 2 parent groups total
+0/0 included parents final · 0 parent groups total
 <!-- progress:end -->
 
 ## Parents

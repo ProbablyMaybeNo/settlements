@@ -8,35 +8,4 @@ publication: Included
 
 ### Nerve skills
 
-#### Inspire
-
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-491 - NRV skills#^catalogue-v2-491]]
-
-#### Rally Training
-
-
-
-#### Motivate
-
-
-
-#### Share the Burden
-
-
-
-#### Hold Fast
-
-
-
-#### On Your Feet
-
-
-
-#### Commanding Presence
-
-
-
-#### Unflinching
-
-
-

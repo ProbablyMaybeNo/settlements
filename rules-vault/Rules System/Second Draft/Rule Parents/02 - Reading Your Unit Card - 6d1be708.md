@@ -4,11 +4,11 @@ parent_name: Reading Your Unit Card
 parent_family: Core Mechanics
 parent_key: 6d1be708
 tags:
-  - settlements/rule-parent
+- settlements/rule-parent
 progress_status: Drafted
-included_rules: 2
+included_rules: 1
 deferred_rules: 0
-written_rules: 2
+written_rules: 1
 confirmed_rules: 0
 locked_rules: 0
 written_percent: 100
@@ -16,7 +16,7 @@ confirmed_percent: 0
 final_percent: 0
 progress_summary: 100% written · 0% confirmed · 0% final
 cssclasses:
-  - settlements-rule-group
+- settlements-rule-group
 ---
 
 # Reading Your Unit Card
@@ -33,7 +33,7 @@ Open this page for the live rule list.
 **Reading Your Unit Card**  
 Core Mechanics  
 **Drafted** · 100% written · 0% confirmed · 0% final  
-0/2 rules final · 0 deferred
+0/1 rules final · 0 deferred
 ^parent-summary
 
 <!-- progress:end -->

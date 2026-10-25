@@ -15,4 +15,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-074 - Facing, visibility and rear attacks#^text-s023-b002]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-074 - Facing, visibility and rear attacks#^text-s023-b003]]
-

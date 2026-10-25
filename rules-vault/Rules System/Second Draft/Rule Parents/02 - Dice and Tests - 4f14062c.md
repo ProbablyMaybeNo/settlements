@@ -4,11 +4,11 @@ parent_name: Dice and Tests
 parent_family: Core Mechanics
 parent_key: 4f14062c
 tags:
-  - settlements/rule-parent
+- settlements/rule-parent
 progress_status: Drafted
-included_rules: 8
+included_rules: 2
 deferred_rules: 0
-written_rules: 8
+written_rules: 2
 confirmed_rules: 0
 locked_rules: 0
 written_percent: 100
@@ -16,7 +16,7 @@ confirmed_percent: 0
 final_percent: 0
 progress_summary: 100% written · 0% confirmed · 0% final
 cssclasses:
-  - settlements-rule-group
+- settlements-rule-group
 ---
 
 # Dice and Tests
@@ -33,7 +33,7 @@ Open this page for the live rule list.
 **Dice and Tests**  
 Core Mechanics  
 **Drafted** · 100% written · 0% confirmed · 0% final  
-0/8 rules final · 0 deferred
+0/2 rules final · 0 deferred
 ^parent-summary
 
 <!-- progress:end -->

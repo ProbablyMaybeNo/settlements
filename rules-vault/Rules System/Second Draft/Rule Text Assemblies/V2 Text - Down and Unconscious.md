@@ -15,4 +15,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties#^text-s037-b002]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties#^text-s037-b003]]
-

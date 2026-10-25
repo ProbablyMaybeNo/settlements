@@ -15,4 +15,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-046 - Battlefield setup and terrain agreement#^text-s015-b002]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-046 - Battlefield setup and terrain agreement#^text-s015-b003]]
-

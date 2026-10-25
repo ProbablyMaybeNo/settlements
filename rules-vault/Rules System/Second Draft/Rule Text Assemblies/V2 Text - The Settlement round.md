@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-401 - Settlement round and availability timing#^text-s086-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-401 - Settlement round and availability timing#^text-s086-b002]]
-

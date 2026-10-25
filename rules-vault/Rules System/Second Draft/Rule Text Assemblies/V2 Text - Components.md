@@ -19,4 +19,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Components, models and templates#^text-s003-b004]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-002 - Components, models and templates#^text-s003-b005]]
-

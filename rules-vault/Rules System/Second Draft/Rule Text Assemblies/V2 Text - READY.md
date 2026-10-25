@@ -14,4 +14,10 @@ publication: Included
 
 #### Orders
 
-![[Settlements/Rules System/Second Draft/Rule Cards/V2-485 - Orders#Orders]]
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-485 - Orders#^orders-allowance]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-485 - Orders#^orders-issue]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-485 - Orders#^orders-recipient]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-485 - Orders#^orders-limits]]

@@ -15,4 +15,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-117 - Pinned and recovery#^text-s036-b002]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-117 - Pinned and recovery#^text-s036-b003]]
-

@@ -4,11 +4,11 @@ parent_name: Ranged Combat
 parent_family: Fighting Battles
 parent_key: c89a4ee1
 tags:
-  - settlements/rule-parent
+- settlements/rule-parent
 progress_status: Drafted
-included_rules: 15
+included_rules: 4
 deferred_rules: 0
-written_rules: 15
+written_rules: 4
 confirmed_rules: 0
 locked_rules: 0
 written_percent: 100
@@ -16,7 +16,7 @@ confirmed_percent: 0
 final_percent: 0
 progress_summary: 100% written · 0% confirmed · 0% final
 cssclasses:
-  - settlements-rule-group
+- settlements-rule-group
 ---
 
 # Ranged Combat
@@ -33,7 +33,7 @@ Open this page for the live rule list.
 **Ranged Combat**  
 Fighting Battles  
 **Drafted** · 100% written · 0% confirmed · 0% final  
-0/15 rules final · 0 deferred
+0/4 rules final · 0 deferred
 ^parent-summary
 
 <!-- progress:end -->

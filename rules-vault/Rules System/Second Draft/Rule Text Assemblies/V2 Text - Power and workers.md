@@ -13,4 +13,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-406 - Power and workers#^text-s087-b001]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-406 - Power and workers#^text-s087-b002]]
-

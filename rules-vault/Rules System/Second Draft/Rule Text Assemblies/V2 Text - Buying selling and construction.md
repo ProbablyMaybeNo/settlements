@@ -17,4 +17,3 @@ publication: Included
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-413 - Construction, housing, plots and storage#^text-s088-b003]]
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-413 - Construction, housing, plots and storage#^text-s088-b004]]
-
