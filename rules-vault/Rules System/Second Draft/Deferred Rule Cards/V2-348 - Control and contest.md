@@ -31,14 +31,14 @@ rule_parent: Earlier objective proposals / Deferred
 
 ## Summary
 
-Eligible human within 2″ controls if no eligible enemy present; extra bodies do not outweigh one enemy.
+Eligible human within 3″ controls if no eligible enemy present; extra bodies do not outweigh one enemy.
 
 > [!warning] Earlier proposal — reserved for Ross
 > Retained for complete design coverage. Detailed objective/scenario rules are deferred and excluded from the assembled rulebook. The former 2-inch control distance is superseded by [[Settlements/Rules System/Second Draft/Rule Cards/V2-454 - Objective limits and control areas|Objective control-area sizes]].
 
 ## Rule text
 
-A fighter controls an objective when it is within 2 inches, conscious, unpinned, unengaged, and free of a morale condition, and no eligible enemy is also within 2 inches. If both crews have eligible fighters there, it is contested. Extra bodies do not outweigh one enemy unless a scenario explicitly says so. Devices, drones, Down fighters, and captives never control or contest.
+A fighter controls an objective when it is within 3 inches, conscious, unpinned, unengaged, and free of a morale condition, and no eligible enemy is also within 3 inches. If both crews have eligible fighters there, it is contested. Extra bodies do not outweigh one enemy unless a scenario explicitly says so. Devices, drones, Down fighters, and captives never control or contest unless stated otherwise.
 
 ^text-s074-b000
 

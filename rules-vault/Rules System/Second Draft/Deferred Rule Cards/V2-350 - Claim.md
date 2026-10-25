@@ -42,6 +42,8 @@ Core/contact with uncontested marker places persistent crew token; enemy Claim r
 
 **Claim** is a Core Interact in base contact with an uncontested marker. It places your crew's token. For a Claim objective, that token remains when you move away and is replaced when an enemy Claims it. A contested marker scores for neither crew, even if it still bears a claim. Claim is always physical; there is no remote Tagged objective power.
 
+Claiming an objective is often paired with a test. Refer to scenario rules to determine if this is the case.
+
 ^text-s074-b001
 
 ![[Settlements/Rules System/Second Draft/Deferred Rule Cards/V2-348 - Control and contest#^text-s074-b000]]
