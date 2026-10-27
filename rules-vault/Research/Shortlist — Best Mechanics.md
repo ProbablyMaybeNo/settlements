@@ -27,7 +27,7 @@ updated: 2026-08-22
 ## ⚔️ Battles — the top eight
 
 ### 1. The living board, as one system ⭐⭐⭐
-**[[Zona Alfa#Mission Objectives and Hot Spots — the Reaction Radius, and triggering a fight from range|Hot Spots + Reaction Radius]] · [[Zona Alfa#Zone Hostiles — Threat Level spawn scaling, and a four-rule AI|Zone Hostiles]] · [[Last Days Zombie Apocalypse#The Menace Phase — shooting creates the zombies that punish shooting|the Menace Phase]] · [[The Walking Dead All Out War#The neutral threat|scale it to the game]]**
+**[[Settlements/Research/Notes/Zona Alfa#Mission Objectives and Hot Spots — the Reaction Radius, and triggering a fight from range|Hot Spots + Reaction Radius]] · [[Settlements/Research/Notes/Zona Alfa#Zone Hostiles — Threat Level spawn scaling, and a four-rule AI|Zone Hostiles]] · [[Last Days Zombie Apocalypse#The Menace Phase — shooting creates the zombies that punish shooting|the Menace Phase]] · [[The Walking Dead All Out War#The neutral threat|scale it to the game]]**
 
 The single highest-value cluster in the vault, and the four pieces compose into one mechanic:
 
@@ -37,7 +37,7 @@ The single highest-value cluster in the vault, and the four pieces compose into 
 - **The threat is costed against the game, not either crew**, so a bigger fight is not a safer fight and nobody buys the danger out of their own list.
 - And the piece that turns it tactical: **a model can throw a Bolt into the radius to trigger it remotely**, baiting the swarm onto a rival crew.
 
-**Why it's the best.** It answers the [[Ideas Inbox]] "boards that feel alive" want completely, it's **positional rather than purchased**, and both crews can weaponise it. Three independent designers ([[Zona Alfa]], [[Last Days Zombie Apocalypse]], [[The Walking Dead All Out War]]) converged on *ordered rule list beats random table* for the AI.
+**Why it's the best.** It answers the [[Ideas Inbox]] "boards that feel alive" want completely, it's **positional rather than purchased**, and both crews can weaponise it. Three independent designers ([[Settlements/Research/Notes/Zona Alfa]], [[Last Days Zombie Apocalypse]], [[The Walking Dead All Out War]]) converged on *ordered rule list beats random table* for the AI.
 
 **Touches:** [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Scenarios]] · [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Events]] · [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Terrain Interaction]] · [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Territory]]
 **Cost:** a spawn table per territory type, and marker discipline. **The objection:** this is the biggest single addition on the list, and marker load is already our silent threat to pace.
@@ -50,7 +50,7 @@ Three named states — **Unaware / Uneasy / Alert** — and the state simultaneo
 
 Paired with an **asymmetric audio rule**: an unsuppressed weapon makes *every* enemy Alert immediately with **no roll at all**; a suppressed one only gives them a roll to hear it, modified by range band.
 
-**Why it's the best.** Stealth has come back thin three times ([[Zona Alfa]] had **nothing**, [[Mad Dogs with Guns]] one roll, [[Fistful of Lead]] a decent three-state version). This is the only complete answer found, and a suppressor changing *whether a roll happens* rather than modifying a number is exactly the kind of rule that costs one sentence.
+**Why it's the best.** Stealth has come back thin three times ([[Settlements/Research/Notes/Zona Alfa]] had **nothing**, [[Mad Dogs with Guns]] one roll, [[Fistful of Lead]] a decent three-state version). This is the only complete answer found, and a suppressor changing *whether a roll happens* rather than modifying a number is exactly the kind of rule that costs one sentence.
 
 **Touches:** [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Morale]] (the Stress link is free) · [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Shooting]] · [[Weapons]] (a `Suppressed` property) · [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Solo & Co-op]]
 **Cost:** one state token per crew, not per model, if we scope it to the crew.
@@ -98,7 +98,7 @@ Spend **half your move** to place a marker and peek. Enemies who can only see th
 
 ---
 ### 7. Elevation demotes Cover by one tier ⭐⭐
-**[[Zona Alfa#Movement, field of view, and layered Cover]]**
+**[[Settlements/Research/Notes/Zona Alfa#Movement, field of view, and layered Cover]]**
 
 An attack from higher ground drops the target's Cover a **full tier** — Heavy → Light → none.
 

@@ -31,7 +31,7 @@ updated: 2026-08-21
 |---|---|:--:|:--:|---|---|
 | **Fallout: Wasteland Warfare** | `Fallout` | 136 | 5 | primary (4 of 5 official-confirmed) | [[Fallout Wasteland Warfare]] |
 | **Spectre Operations** | `Spectre Operations [FULL COLLECTION]` | 23 | 3 | primary — 3rd Ed + Errata + Solo | [[Spectre Operations]] |
-| **Zona Alfa** | `Zona Alfa` | 1 | 1 | primary — full 65pp | [[Zona Alfa]] |
+| **Zona Alfa** | `Zona Alfa` | 1 | 1 | primary — full 65pp | [[Settlements/Research/Notes/Zona Alfa]] |
 | **Mad Dogs with Guns** | `Mad Dogs with Guns` | 1 | 1 | primary — full 116pp | [[Mad Dogs with Guns]] |
 | **Oathmark** | `Oathmark` | 7 | 3 | primary — core 194pp + Battlesworn + Bane of Kings | [[Oathmark]] |
 | **Last Days** | `Last Days` | 2 | 2 | primary — core 114pp + *Seasons* 90pp | [[Last Days Zombie Apocalypse]] |

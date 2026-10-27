@@ -7,7 +7,7 @@ updated: 2026-08-21
 ---
 # 🧭 Candidate Games — a sourcing shortlist
 
-> **What this is.** A discovery-run sweep for skirmish games we don't have yet, cast against the same profile as [[Spectre Operations]] and [[Zona Alfa]]: small crews (5–15 models, individually activated), modern-through-near-future grounded mil-tech, dense terrain, objective-driven missions, campaign-capable. Publisher catalogues, BGG, forums, itch.io/Wargame Vault, and designer blogs — breadth over depth.
+> **What this is.** A discovery-run sweep for skirmish games we don't have yet, cast against the same profile as [[Spectre Operations]] and [[Settlements/Research/Notes/Zona Alfa]]: small crews (5–15 models, individually activated), modern-through-near-future grounded mil-tech, dense terrain, objective-driven missions, campaign-capable. Publisher catalogues, BGG, forums, itch.io/Wargame Vault, and designer blogs — breadth over depth.
 >
 > **What this is not.** Not a capture run. **No hub rows, no per-game notes.** Nothing here has been read — every line is "worth reading," not "read." When one of these gets captured, [[Wargaming Research Hub]] and `research/sources/` are where the real work lands.
 
@@ -17,7 +17,7 @@ updated: 2026-08-21
 ---
 ## 🎯 Closest to Settlements
 
-1. **[[#⭐ Scrappers|Scrappers]]** (Osprey Games) — the single closest structural match in this sweep. A post-apocalyptic **Scrapper Crew** scavenges a table salvaging Scrap while three **Lifeform Types** (True Human/Mutant/Synthetic) gate traits and gear, D10-based, commander-driven activation, campaign-native. This is Settlements' scavenge-and-crew loop, published, by the same house as [[Zona Alfa]] and [[Mad Dogs with Guns]].
+1. **[[#⭐ Scrappers|Scrappers]]** (Osprey Games) — the single closest structural match in this sweep. A post-apocalyptic **Scrapper Crew** scavenges a table salvaging Scrap while three **Lifeform Types** (True Human/Mutant/Synthetic) gate traits and gear, D10-based, commander-driven activation, campaign-native. This is Settlements' scavenge-and-crew loop, published, by the same house as [[Settlements/Research/Notes/Zona Alfa]] and [[Mad Dogs with Guns]].
 2. **[[#⭐ Skirmish Sangin|Skirmish Sangin]]** — the closest *tonal and scale* match: modern grounded combined-arms, 8–16 miniatures a side, fireteam radio comms, full ORBATs for both a professional force and an insurgency, off-table fire support. No sci-fi at all — this is what "2051 minus the tech tier" looks like on a table today.
 3. **[[#⭐ Cyberpunk RED — Combat Zone|Cyberpunk RED: Combat Zone]]** — the most mechanically novel: **no rounds, no turns** — a continuous action economy where a model's pool of colour-coded Actions (green→yellow→red) shrinks as it takes wounds, so "how hurt are you" and "how much can you still do this activation" are the same track. Officially licensed, actively sold.
 
@@ -128,7 +128,7 @@ CMON · originally Dark Age Games, later CMON Global Limited.
 ### This Is Not a Test
 Originally Joseph McGuire (Kickstarted, launched 2015); current 2nd edition published by Black Site Studio.
 *A 28mm post-apocalyptic skirmish set in the "Tri-State Wasteland" (a ruined Maryland/Pennsylvania/West Virginia).*
-**Why it matches:** already on our internal radar — [[Wargaming Research Hub]]'s "To read next" list and [[Library Coverage]] both flag this alongside [[Zona Alfa]] as an uncaptured post-apoc want, and it remains uncaptured. Flagging here mainly to confirm it's still obtainable and to record that a **2nd edition exists**, which the earlier note didn't have.
+**Why it matches:** already on our internal radar — [[Wargaming Research Hub]]'s "To read next" list and [[Library Coverage]] both flag this alongside [[Settlements/Research/Notes/Zona Alfa]] as an uncaptured post-apoc want, and it remains uncaptured. Flagging here mainly to confirm it's still obtainable and to record that a **2nd edition exists**, which the earlier note didn't have.
 **The mechanic:** `[NOT FOUND]` — not independently re-verified this run beyond confirming the 2nd edition's existence.
 **Availability:** 2nd edition core rulebook currently sold direct by Black Site Studio.
 **Source:** [Black Site Studio — 2nd Edition core rulebook](https://blacksitestudio.com/products/this-is-not-a-test-core-rulebook-2nd-edition) · [BGG entry](https://boardgamegeek.com/boardgame/146387/not-test-post-apocalyptic-skirmish-rules)
