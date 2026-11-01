@@ -1,5 +1,7 @@
 # Settlements — Start here
 
+- **[[Settlements/Design Workshop/Battle Catalogue Review/00 Battle Catalogue Review|Editable battle catalogue review]]** — edit one working table per battle catalogue, or compare them together in the overview. Prices are deferred.
+
 - **[[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]** — 82 official rule cards, organized as **Section → Mechanic → specific rules**. Section uses `book_section`; Mechanic uses `rule_parent`. This is the only official rule inventory.
 - **[[Settlements/Rules System/Second Draft/Settlements Rule Workspace.base#Family progress|Family progress]]** — the high-level completion board. Open a family for its parents and their progress; open a parent for its rules.
 - **[[Settlements/Rules System/Second Draft/Settlements Rule Workspace.base#Parent progress|Parent progress]]** — the same completion stages at parent level.
