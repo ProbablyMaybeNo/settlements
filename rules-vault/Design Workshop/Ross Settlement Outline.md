@@ -24,3 +24,4 @@ Fast pace, bloody battles, and interactive terrain all work to give settlements 
 
 ## Core Mechanics 
 
+Qq
