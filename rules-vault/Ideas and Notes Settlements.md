@@ -37,8 +37,9 @@ Stims - +2 Move for 1 activation
 
 ## DEPLOYABLES
 
-*Aerial Drones*
+*Aerial Drones* - Aerial drones all have the FLY keyword and an 8" movement allowing them to ignore terrain while moving across the board. Units with the fly keyword can't be targeted by melee attacks unless they "hover." Hitting an aerial drone with a ranged attack suffers a -2 modifier. Aerial drones must stay within 18" of their pilot. They have no armor. If they are successfully hit by an enemies shot they go down and are removed from the battle. HOVER - The drone lowers its altitude and moves across that board like a regular unit capable of taking advantage of LOS blocking terrain. SWitching from fly to hover takes up half of the drones movement
 
 Surveillance Drone - Fly, Scan, Target, MOVE 12", The surveillance Drone is not equipped with any weapons instead it uses it's advanced sensors and targeting system to detect and mark even the most well hidden enemies. Scan - ignore negative modifiers when rolling to hit units in cover or hidden within 12" of the unit. Target - Fire targeting laser at enemy unit within 12" if hit roll is successful place a "MARKED" token next to the targeted unit. MARKED - Friendly units gain +2 to hit against marked targets. Marked targets no longer count as hidden and cannot hide. Marked lasts until the start of the targets next activation.
 
-Bomber Drone - Fly, Jettison, you may equip this drone with 2 explosive equipment. Jetison - drop payloads with pin point accuramn
+Bomber Drone - Fly, Jettison, you may equip this drone with 2 of the following explosive equipment, hand grenade, smoke grenade, flash bang, tear gas. Jetison - drop payloads with pin point accuracy. Choose an equipped explosive to jettison. Place relevant blast marker within 1" of the drone. Roll it hit as normal. If the hit roll fails the explosive only scatters 1" in a random direction. 
+
