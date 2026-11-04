@@ -44,3 +44,5 @@ Surveillance Drone - Fly, Scan, Target, MOVE 12", The surveillance Drone is not 
 Bomber Drone - Fly, Jettison, you may equip this drone with 2 of the following explosive equipment, hand grenade, smoke grenade, flash bang, tear gas. Jetison - drop payloads with pin point accuracy. Choose an equipped explosive to jettison. Place relevant blast marker within 1" of the drone. Roll it hit as normal. If the hit roll fails the explosive only scatters 1" in a random direction. 
 
 Gunner Drone - Fly, Gunner drones are equipped with an automatic 360 assault turret capable of firing in 360 degrees. However in order to mount the weapondry on the drone sacrifices were made to it's targeting system making gunner drones dependent on manually fed targets. A gunner drone can only target MARKED units. 
+
+*Ground Drones* - While not as agile as their aerial counterpart ground drones play an equally important role during battles. 
