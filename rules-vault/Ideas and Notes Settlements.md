@@ -31,6 +31,7 @@ Harpoon Cannon - 1 ATK DMG 3 Range 18" (Impale, Grappling Hook)
 Climbing Gear - Create a an access point that spans 1 level.
 Med-kit - +4 to revival tests
 Utility Vest - Add an additional Equipment slot
-Lift Harness - 
+Lift Harness - Gives the unit the ability to carry at full speed
+Stims - +2 Move for 1 activation
 
 
