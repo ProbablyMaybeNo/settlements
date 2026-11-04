@@ -35,3 +35,10 @@ Lift Harness - Gives the unit the ability to carry at full speed
 Stims - +2 Move for 1 activation
 
 
+## DEPLOYABLES
+
+*Aerial Drones*
+
+Surveillance Drone - Fly, Scan, Target, MOVE 12", The surveillance Drone is not equipped with any weapons instead it uses it's advanced sensors and targeting system to detect and mark even the most well hidden enemies. Scan - ignore negative modifiers when rolling to hit units in cover or hidden within 12" of the unit. Target - Fire targeting laser at enemy unit within 12" if hit roll is successful place a "MARKED" token next to the targeted unit. MARKED - Friendly units gain +2 to hit against marked targets. Marked targets no longer count as hidden and cannot hide. Marked lasts until the start of the targets next activation.
+
+Bomber Drone - Fly, Jettison, you may equip this drone with 2 explosive equipment. Jetison - drop payloads with pin point accuramn
