@@ -22,6 +22,10 @@ Edit names, values and effects directly in the table. Add or remove rows as you 
 | Tool kit | 1 equipment | +2 INT to Repair only. | [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#42 Hacking terminals and repair\|Hack / Repair]] |  |
 | Fire extinguisher | 1 equipment | Core Interact automatically clears one adjacent fire template; reusable. | [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#51 Area attacks smoke and fire\|Area effects]] |  |
 
+| Folding barricade | 1 equipment | Deploy a 3-inch heavy-cover line. | [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#46 Deploying revealing disarming and damaging devices\|Deploy]] · [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#44 Shared terrain operations and hazards\|Terrain hazards]] | Available to any unit; no deployable skill required. |
+| Portable ladder | 1 equipment | Deploy a ladder up to 6 inches. | [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#46 Deploying revealing disarming and damaging devices\|Deploy]] · [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#44 Shared terrain operations and hazards\|Terrain hazards]] | Available to any unit; no deployable skill required. |
+| Field supply case | 1 equipment | Replaced by one medkit and smoke grenade, picked up separately. | [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#46 Deploying revealing disarming and damaging devices\|Deploy]] · [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#44 Shared terrain operations and hazards\|Terrain hazards]] | Available to any unit; no deployable skill required. |
+
 ## Design notes
 
 <!-- Add your wider catalogue notes here. This table is manually editable and is not regenerated. -->
