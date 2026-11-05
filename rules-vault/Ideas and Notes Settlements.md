@@ -69,4 +69,4 @@ Move 4" / W 1 / Armor 4 (-1 Successful Hit Dice)
 
 Move 6" / W 1 / Armor 2 - Breacher Ram / melee / 1 ATK AUTO HITS with +4 DMG.
 
-*Support drone* - support drones are large and slow but what they lack in speed and agility they make up with firepower and strength. Providing a mobile platform for mounting heavy weaponry 
+*Support drone* - support drones are large and slow but what they lack in speed and agility they make up with firepower and strength. Providing a mobile platform for mounting heavy weaponry with 360 degree rotation and a thick frontal gun shield the Support Drone can withstand taking enemy fire while it gets into position to fire it's mounted weapon. However, much like the GUNNER DRONE the SUPPORT DRONE lacks the targeting sensors used in other drones requiring 
