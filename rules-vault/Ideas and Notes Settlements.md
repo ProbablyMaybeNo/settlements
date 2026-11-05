@@ -39,7 +39,7 @@ Stims - +2 Move for 1 activation
 
 ### DRONES
 
-Drones are  
+Units with the required skill can deploy a drone during battle by spending a CORE ACTION "DEPLOY" and succeeding at a INT test. Drones can be represented on the board by a model or token using the base size found on the drone's profile. Once deployed Drones act as a "sub-unit" with their own move and core action point. Each drone type has a range in inches representing the distance the drone can move away from it's pilot or operator. If a drone is forced to go beyond that range (if their pilot is pushed or moved further away) then the drone immediately powers down causing aerial drones to go out of action immediately. Ground drones will remain in place and can be powered back up by a unit with the required skill succeeding a INT test while in base contact with the drone. In some cases units can use a TERMINAL to regain control of a powered down ground drone. A unit can only ever control one drone at a time. Drones must be purchased by it's pilot prior to the battle. Drones are persistent and will return to their pilot/operator if it is still functional at the end of a battle. Unless stated otherwise drones cannot capture, hold, or contest, an objective.
 
 *Aerial Drones* - Aerial drones all have the FLY keyword and an 8" movement allowing them to ignore terrain while moving across the board. Units with the fly keyword can't be targeted by melee attacks unless they "hover." Hitting an aerial drone with a ranged attack suffers a -2 modifier. Aerial drones must stay within 18" of their pilot. They have no armor. If they are successfully hit by an enemies shot they go down and are removed from the battle. HOVER - The drone lowers its altitude and moves across that board like a regular unit capable of taking advantage of LOS blocking terrain. Switching from fly to hover takes up half of the drones movement
 
@@ -92,4 +92,4 @@ PLATFORM - Units with this keyword can be equipped with any 2h ranged weapon ign
 
 *FIELD MECHANICS*
 
-Seeker Mines - Spend a DE
+Seeker Mines - Spend a DEPLOY CORE ACTION to place a seeker mine within 3." Once deployed the seeker mine will activate at the end of the units turn. Once activated the seeker mine will immediately target any enemy unit that enters 
