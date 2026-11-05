@@ -45,7 +45,7 @@ FLY - Ignore terrain when moving across the board.
 DRONE - an uncrewed aircraft, vessel, or vehicle guided by remote control or onboard computers. 
 RANGE - Distance that the drone can travel away from it's pilot or a friendly hacked terminal.
 HOVER - Defensive capability allowing the Drone to decrease it's altitude. Drone acts like a regular ground unit regarding cover, LOS, etc. Can be targeted by melee attacks and removes it's -2 to hit modifier.
-FRAGILE -  
+FRAGILE - Successful hits cause this unit to go down. No injury roll needed. 
 
 
 
@@ -57,7 +57,9 @@ Gunner Drone - Fly, Gunner drones are equipped with an automatic 360 assault tur
 
 *Ground Drones* - While not as agile as their aerial counterpart ground drones play an equally important role during battles by providing defensive capabilities and a larger mount for bigger weapons. Unlike it's human counter parts ground drones do not suffer from stress and cannot be pinned making them exceptionally useful when under fire. Unlike aerial drones ground drones are built to withstand enemy while protecting their vital components because of this drone operators can often repair ground drones if they go down.
 
-KEYWORDS: DRONE, RANGE, REPAIRABLE
+DRONE
+REPAIR - Once per battle a friendly unit can resolve a INT test to repair a downed GROUND DRONE. If successful the drone is restored to full capabilities.
+INHUMAN - Cannot be pinned and ignores stress.
 
 **Shield Drone** - Shield drones offer friendly units a mobile defensive position. Capable of traversing the battleground it's hard exoskeleton resolving injury rolls with a -4 armor rating and the ability to ignore 1 successful hit dice each attack. It's ability to sync with friendly units provides a useful ability to position itself out of the way of friendly fire while remaining in front of friendly units. This results in the ability to block enemy fire while allowing friendly fire to pass unimpeded. 
 
@@ -65,6 +67,6 @@ Move 4" / W 1 / Armor 4 (-1 Successful Hit Dice)
 
 **Breacher Drone** - Breacher drones are used in close combat attacks often leading the charge when storming interior locations. Their hydraulic battering ram provides the ability to  break through doors and barricades while also providing lethal close combat capabilities.
 
-Move 6" / W 1 / Armor 2 - Breacher Ram +4 DMG Melee
+Move 6" / W 1 / Armor 2 - Breacher Ram 1 ATK AUTO HITS with +4 DMG
 
 Support drone - support drones are large and slow but what they lack in speed and agility they make up with firepower and strength. 
