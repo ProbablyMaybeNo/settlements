@@ -39,7 +39,15 @@ Stims - +2 Move for 1 activation
 
 *Aerial Drones* - Aerial drones all have the FLY keyword and an 8" movement allowing them to ignore terrain while moving across the board. Units with the fly keyword can't be targeted by melee attacks unless they "hover." Hitting an aerial drone with a ranged attack suffers a -2 modifier. Aerial drones must stay within 18" of their pilot. They have no armor. If they are successfully hit by an enemies shot they go down and are removed from the battle. HOVER - The drone lowers its altitude and moves across that board like a regular unit capable of taking advantage of LOS blocking terrain. SWitching from fly to hover takes up half of the drones movement
 
-KEYWORDS: FLY, DRONE, RANGE, HOVER
+Base Stats - move 8" / w 1 / FLY, DRONE, RANGE, HOVER, FRAGILE
+
+FLY - Ignore terrain when moving across the board.
+DRONE - an uncrewed aircraft, vessel, or vehicle guided by remote control or onboard computers. 
+RANGE - Distance that the drone can travel away from it's pilot or a friendly hacked terminal.
+HOVER - Defensive capability allowing the Drone to decrease it's altitude. Drone acts like a regular ground unit regarding cover, LOS, etc. Can be targeted by melee attacks and removes it's -2 to hit modifier.
+FRAGILE -  
+
+
 
 Surveillance Drone - Fly, Scan, Target, MOVE 12", The surveillance Drone is not equipped with any weapons instead it uses it's advanced sensors and targeting system to detect and mark even the most well hidden enemies. Scan - ignore negative modifiers when rolling to hit units in cover or hidden within 12" of the unit. Target - Fire targeting laser at enemy unit within 12" if hit roll is successful place a "MARKED" token next to the targeted unit. MARKED - Friendly units gain +2 to hit against marked targets. Marked targets no longer count as hidden and cannot hide. Marked lasts until the start of the targets next activation.
 
