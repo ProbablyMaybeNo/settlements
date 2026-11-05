@@ -51,6 +51,12 @@ Gunner Drone - Fly, Gunner drones are equipped with an automatic 360 assault tur
 
 KEYWORDS: DRONE, RANGE, REPAIRABLE
 
-**Shield Drone** - Shield drones offer friendly units a mobile defensive position. Capable of traversing the battleground it's hard exoskeleton resolving injury rolls with a -4 armor rating and the ability to roll 2 armor dice allocating both to counter any successful hits. Its ability to sync with friendly units provides a useful ability to position itself out of the way of friendly fire while remaining in front like o pass
+**Shield Drone** - Shield drones offer friendly units a mobile defensive position. Capable of traversing the battleground it's hard exoskeleton resolving injury rolls with a -4 armor rating and the ability to ignore 1 successful hit dice each attack. It's ability to sync with friendly units provides a useful ability to position itself out of the way of friendly fire while remaining in front of friendly units. This results in the ability to block enemy fire while allowing friendly fire to pass unimpeded. 
 
-**Breacher drone** - Close combat drone capable of blasting through the toughest doors and 
+Move 4" / W 1 / Armor 4 (-1 Successful Hit Dice)
+
+**Breacher Drone** - Breacher drones are used in close combat attacks often leading the charge when storming interior locations. Their hydraulic battering ram provides the ability to  break through doors and barricades while also providing lethal close combat capabilities.
+
+Move 6" / W 1 / Armor 2 - Breacher Ram +4 DMG Melee
+
+Support drone - support drones are large and slow but what they lack in speed and agility they make up with firepower and strength. 
