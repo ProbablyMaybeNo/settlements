@@ -37,7 +37,11 @@ Stims - +2 Move for 1 activation
 
 ## DEPLOYABLES
 
-*Aerial Drones* - Aerial drones all have the FLY keyword and an 8" movement allowing them to ignore terrain while moving across the board. Units with the fly keyword can't be targeted by melee attacks unless they "hover." Hitting an aerial drone with a ranged attack suffers a -2 modifier. Aerial drones must stay within 18" of their pilot. They have no armor. If they are successfully hit by an enemies shot they go down and are removed from the battle. HOVER - The drone lowers its altitude and moves across that board like a regular unit capable of taking advantage of LOS blocking terrain. SWitching from fly to hover takes up half of the drones movement
+### DRONES
+
+Drones are  
+
+*Aerial Drones* - Aerial drones all have the FLY keyword and an 8" movement allowing them to ignore terrain while moving across the board. Units with the fly keyword can't be targeted by melee attacks unless they "hover." Hitting an aerial drone with a ranged attack suffers a -2 modifier. Aerial drones must stay within 18" of their pilot. They have no armor. If they are successfully hit by an enemies shot they go down and are removed from the battle. HOVER - The drone lowers its altitude and moves across that board like a regular unit capable of taking advantage of LOS blocking terrain. Switching from fly to hover takes up half of the drones movement
 
 Base Stats - move 8" / w 1 / FLY, DRONE, RANGE, HOVER, FRAGILE
 
@@ -49,11 +53,17 @@ FRAGILE - Successful hits cause this unit to go down. No injury roll needed.
 
 
 
-Surveillance Drone - Fly, Scan, Target, MOVE 12", The surveillance Drone is not equipped with any weapons instead it uses it's advanced sensors and targeting system to detect and mark even the most well hidden enemies. Scan - ignore negative modifiers when rolling to hit units in cover or hidden within 12" of the unit. Target - Fire targeting laser at enemy unit within 12" if hit roll is successful place a "MARKED" token next to the targeted unit. MARKED - Friendly units gain +2 to hit against marked targets. Marked targets no longer count as hidden and cannot hide. Marked lasts until the start of the targets next activation.
+**Surveillance Drone** - Fly, Scan, Target, MOVE 12", The surveillance Drone is not equipped with any weapons instead it uses it's advanced sensors and targeting system to detect and mark even the most well hidden enemies. Scan - ignore negative modifiers when rolling to hit units in cover or hidden within 12" of the unit. Target - Fire targeting laser at enemy unit within 12" if hit roll is successful place a "MARKED" token next to the targeted unit. MARKED - Friendly units gain +2 to hit against marked targets. Marked targets no longer count as hidden and cannot hide. Marked lasts until the start of the targets next activation.
 
-Bomber Drone - Fly, Jettison, you may equip this drone with 2 of the following explosive equipment, hand grenade, smoke grenade, flash bang, tear gas. Jetison - drop payloads with pin point accuracy. Choose an equipped explosive to jettison. Place relevant blast marker within 1" of the drone. Roll it hit as normal. If the hit roll fails the explosive only scatters 1" in a random direction. If a bomber drone is shot down it can jettison one of it's payloads before going out of action. Place a marker directly below the aerial drone using the normal rules for thrown explosives. 
+Base 28mm / Range 24" / Move 12" / W 1 / Armor N/A
 
-Gunner Drone - Fly, Gunner drones are equipped with an automatic 360 assault turret capable of firing in 360 degrees. However in order to mount the weaponry on the drone sacrifices were made to it's targeting system making gunner drones dependent on manually fed targets. A gunner drone can only target MARKED units. 
+**Bomber Drone** - Fly, Jettison, you may equip this drone with 2 of the following explosive equipment, hand grenade, smoke grenade, flash bang, tear gas. Jetison - drop payloads with pin point accuracy. Choose an equipped explosive to jettison. Place relevant blast marker within 1" of the drone. Roll it hit as normal. If the hit roll fails the explosive only scatters 1" in a random direction. If a bomber drone is shot down it can jettison one of it's payloads before going out of action. Place a marker directly below the aerial drone using the normal rules for thrown explosives. 
+
+Base 28mm / Range 18" / Move 12" / W 1 / Armor N/A
+
+**Gunner Drone** - Fly, Gunner drones are equipped with an automatic 360 assault turret capable of firing in 360 degrees. However in order to mount the weaponry on the drone sacrifices were made to it's targeting system making gunner drones dependent on manually fed targets. A gunner drone can only target MARKED units. 
+
+Base 28mm / Range 18" / Move 12" / W 1 / Armor N/A
 
 *Ground Drones* - While not as agile as their aerial counterpart ground drones play an equally important role during battles by providing defensive capabilities and a larger mount for bigger weapons. Unlike it's human counter parts ground drones do not suffer from stress and cannot be pinned making them exceptionally useful when under fire. Unlike aerial drones ground drones are built to withstand enemy while protecting their vital components because of this drone operators can often repair ground drones if they go down.
 
@@ -63,10 +73,23 @@ INHUMAN - Cannot be pinned and ignores stress.
 
 **Shield Drone** - Shield drones offer friendly units a mobile defensive position. Capable of traversing the battleground it's hard exoskeleton resolving injury rolls with a -4 armor rating and the ability to ignore 1 successful hit dice each attack. It's ability to sync with friendly units provides a useful ability to position itself out of the way of friendly fire while remaining in front of friendly units. This results in the ability to block enemy fire while allowing friendly fire to pass unimpeded. 
 
-Move 4" / W 1 / Armor 4 (-1 Successful Hit Dice)
+Base 40mm / Move 4" / Range 12" / W 1 / Armor 4 (-1 Successful Hit Dice)
+
+Friendly units positioned directly behind a shield drone count as being in heavy cover. If an enemy unit cannot draw LOS to a unit without touching the shield drones base then it cannot target that unit. 
 
 **Breacher Drone** - Breacher drones are used in close combat attacks often leading the charge when storming interior locations. Their hydraulic battering ram provides the ability to  break through doors and barricades while also providing lethal close combat capabilities.
 
-Move 6" / W 1 / Armor 2 - Breacher Ram / melee / 1 ATK AUTO HITS with +4 DMG.
+Base 32mm / Move 6" / Range 18" / W 1 / Armor 2 - Breacher Ram / melee / 1 ATK AUTO HITS with +4 DMG.
 
-*Support drone* - support drones are large and slow but what they lack in speed and agility they make up with firepower and strength. Providing a mobile platform for mounting heavy weaponry with 360 degree rotation and a thick frontal gun shield the Support Drone can withstand taking enemy fire while it gets into position to fire it's mounted weapon. However, much like the GUNNER DRONE the SUPPORT DRONE lacks the targeting sensors used in other drones requiring 
+**Support drone** - support drones are large and slow but what they lack in speed and agility they make up with firepower and strength. Providing a mobile platform for mounting heavy weaponry with 360 degree rotation and a thick frontal gun shield the Support Drone can withstand taking enemy fire while it gets into position to fire it's mounted weapon. However, much like the GUNNER DRONE the SUPPORT DRONE lacks the targeting sensors used in other drones requiring it's target to be MARKED by other friendly units or drones.
+
+Base 40mm / Move 4" / Range 24" / W 1 / Armor 4
+
+DRONE
+REPAIR
+INHUMAN
+PLATFORM - Units with this keyword can be equipped with any 2h ranged weapon ignoring the effects of HEAVY, UNWEILDY, and RELOAD. 
+
+*FIELD MECHANICS*
+
+Seeker Mines - Spend a DE
