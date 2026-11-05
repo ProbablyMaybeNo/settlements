@@ -96,4 +96,4 @@ PLATFORM - Units with this keyword can be equipped with any 2h ranged weapon ign
 
 Seeker mines detonate with a 3" blast at DMG 2
 
-Sentry Turret - A stationary assault rifle deployed by a unit after succeeding an INT test. The sentry turret using the same profile as an assault rifle. It does not have actions like a regular unit. Instead each round it 
+**Sentry Turret** - A stationary assault rifle deployed by a unit after succeeding an INT test. The sentry turret using the same profile as an assault rifle. It does not have actions like a regular unit. Instead it counts as having a persistent ALERT token allowing it to resolve multiple reaction per round. In order to deploy sentry turrets they must be light weight and cannot have a large power source causing the turret to power down at the start of the units next activation. Once powered down they can be reactivated with a successeful INT test by a unit with the required skills. WARNING: Enemy hackers can take control of powered down sentry turrets using a terminal within range. 
