@@ -92,4 +92,8 @@ PLATFORM - Units with this keyword can be equipped with any 2h ranged weapon ign
 
 *FIELD MECHANICS*
 
-Seeker Mines - Spend a DEPLOY CORE ACTION to place a seeker mine within 3." Once deployed the seeker mine will activate at the end of the units turn. Once activated the seeker mine will immediately target any enemy unit that enters 
+**Seeker Mines** - Spend a DEPLOY CORE ACTION to place a seeker mine within 3." Once deployed the seeker mine will activate at the end of the units turn. Once activated any enemy unit that enters the seeker mines 6" perimeter will become it's target. The seeker mine will respond immediatley by rapidly moving toward the target and detonating when within 1". Seeker mines do not need LOS and will take the fastest route possible to reach their target. A seeker mine will travel up to 12" to reach it's target and can scale walls, move through open windows, fall from any height. If it cannot reach it's target via the shortest path possible without exceeding 12" of movement it will detonate move as close to the target as possible and detonate. 
+
+Seeker mines detonate with a 3" blast at DMG 2
+
+Sentry Turret - A stationary assault rifle deployed by a unit after succeeding an INT test. The sentry turret using the same profile as an assault rifle. It does not have actions like a regular unit. Instead each round it 
