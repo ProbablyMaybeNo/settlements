@@ -92,8 +92,18 @@ PLATFORM - Units with this keyword can be equipped with any 2h ranged weapon ign
 
 *FIELD MECHANICS*
 
+### DEPLOYABLES
+
+Deployable are mines, traps, turrets, and any other equipment placed by a unit with the FIELD MECHANICS skill. They always require a CORE ACTION "DEPLOY" and a successful INT test. Deployables remain active until destroyed, disarmed, or the same unit deploys another deployable. A unit can never have more than one active deployable. Deployables are bought from traders and can be equipped on any unit but only used by units with the FIELD MECHANIC skill. Deployables still in use at the end of a battle are 
+
 **Seeker Mines** - Spend a DEPLOY CORE ACTION to place a seeker mine within 3." Once deployed the seeker mine will activate at the end of the units turn. Once activated any enemy unit that enters the seeker mines 6" perimeter will become it's target. The seeker mine will respond immediatley by rapidly moving toward the target and detonating when within 1". Seeker mines do not need LOS and will take the fastest route possible to reach their target. A seeker mine will travel up to 12" to reach it's target and can scale walls, move through open windows, fall from any height. If it cannot reach it's target via the shortest path possible without exceeding 12" of movement it will detonate move as close to the target as possible and detonate. 
 
 Seeker mines detonate with a 3" blast at DMG 2
 
 **Sentry Turret** - A stationary assault rifle deployed by a unit after succeeding an INT test. The sentry turret using the same profile as an assault rifle. It does not have actions like a regular unit. Instead it counts as having a persistent ALERT token allowing it to resolve multiple reaction per round. In order to deploy sentry turrets they must be light weight and cannot have a large power source causing the turret to power down at the start of the units next activation. Once powered down they can be reactivated with a successeful INT test by a unit with the required skills. WARNING: Enemy hackers can take control of powered down sentry turrets using a terminal within range. 
+
+Assault rifle profile / 1 w / 2 armor / 180 degree firing arc. 
+
+**Cloaking Field** - Deploy with a successful INT test. While active creates a 5" area of effect around the token. Friendly units moving through the field cannot be targeted by ALERT reactions. Including seeker mines and sentry turrets. Remains active until destroyed, disarmed, or another deployable is set but the same unit. 
+
+**Smoke Emitter** - Deploy on a successful INT test. Place a 3" smoke token anywhere within 2" of the unit. Unlike smoke grenades a smoke emitter remains active until it is destroyed, disarmed, or the same unit uses another deploy action. 
