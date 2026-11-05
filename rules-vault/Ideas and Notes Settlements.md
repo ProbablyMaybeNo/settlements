@@ -67,6 +67,6 @@ Move 4" / W 1 / Armor 4 (-1 Successful Hit Dice)
 
 **Breacher Drone** - Breacher drones are used in close combat attacks often leading the charge when storming interior locations. Their hydraulic battering ram provides the ability to  break through doors and barricades while also providing lethal close combat capabilities.
 
-Move 6" / W 1 / Armor 2 - Breacher Ram 1 ATK AUTO HITS with +4 DMG
+Move 6" / W 1 / Armor 2 - Breacher Ram / melee / 1 ATK AUTO HITS with +4 DMG.
 
-Support drone - support drones are large and slow but what they lack in speed and agility they make up with firepower and strength. 
+*Support drone* - support drones are large and slow but what they lack in speed and agility they make up with firepower and strength. Built as a platform 
