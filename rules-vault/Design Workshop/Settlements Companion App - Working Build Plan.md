@@ -29,6 +29,18 @@ Working record of Ross's direction for a Settlements companion app. Agreed direc
 - Tapping a rule opens a short bottom sheet or a fuller view when needed.
 - Returning from a rule restores the player's previous scroll position.
 
+### Mobile navigation and utility controls
+
+- Ross prefers a compact menu button in a top corner on mobile. The left or right corner is still undecided, as is a slide-out drawer versus a full-page menu.
+- Label the main destinations **Roster**, **Settlement**, and **Rules** inside the menu.
+- Familiar icon-only utility controls can work in clear context, including back, close, a contextual edit pencil, and an account avatar. Give these controls accessible names; a visible label is not mandatory on every utility control.
+
+### Visual hierarchy
+
+- Ross finds that neon green and dim green alone flatten the visual hierarchy.
+- Distinguish text, interactive controls, headings, and stats through semantic colour roles, weight, spacing, and boundaries.
+- The exact palette remains undecided.
+
 ## Proposed ideas - not yet decisions
 
 ### Rules and cheat sheet
@@ -44,8 +56,11 @@ Working record of Ross's direction for a Settlements companion app. Agreed direc
 
 ### Navigation and controls
 
-- Keep primary navigation visible.
 - Use accessible controls that are clear and easy to operate.
+
+### Superseded navigation proposal
+
+- The prior mobile bottom-navigation proposal is superseded by Ross's preference for a compact top-corner menu button. The earlier suggestion to keep primary navigation visible should not be treated as a requirement for persistent navigation tabs.
 
 ## Open questions
 
@@ -57,6 +72,9 @@ Working record of Ross's direction for a Settlements companion app. Agreed direc
 | Roster columns | Which information is essential in each row, and which belongs only on the detailed sheet? |
 | Rule versioning | How will the app identify and update rule versions, including references from units and cheat sheets? |
 | Cheat-sheet overflow | What happens when the player's selected content does not fit on one page? |
+| Mobile menu placement | Should the compact menu button be in the left or right top corner? |
+| Mobile menu presentation | Should it open a slide-out drawer or a full-page menu? |
+| Visual palette | Which colours will express the semantic roles and visual hierarchy? The exact palette is undecided. |
 
 ## Visual UI research and prototype guidance
 
