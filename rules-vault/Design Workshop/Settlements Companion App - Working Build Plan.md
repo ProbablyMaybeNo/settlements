@@ -16,17 +16,42 @@ Working record of Ross's direction for a Settlements companion app. Agreed direc
 ### Purpose and scope
 
 - Maintain persistent unit rosters.
-- Maintain persistent settlements, including a top-down layout.
-- Provide searchable rules and a player-selected one-page cheat sheet.
+- Maintain persistent settlements, initially through a list-based settlement tracker. A graphical top-down map is a later proposal.
+- Provide searchable rules and one customizable reference sheet, with a one-page goal.
 - Prioritize usability and lean scope. A vintage terminal aesthetic should support clarity and remain subordinate to it.
 - Use visual UI best practices to guide the app's presentation.
+
+### Initial settlement tracker
+
+- Provide a structure catalogue from which players can add structures. Whether it uses categories or one list remains undecided.
+- The settlement page lists the structures the player has acquired.
+- Tapping an acquired structure reveals its rules and benefits.
+- Begin with this list-based flow; the graphical top-down map is a later proposed enhancement.
+
+### Initial battle use
+
+- Initial battle use is primarily reference: unit stats, weapon stats, what skills do, actions, core mechanics, and roll tables.
+- Live wound or activation tracking has not been requested for this initial scope.
+
+### Customizable battle reference sheet
+
+- Provide **one customizable reference sheet** with a default layout containing most tables and rules needed during battle.
+- Players start with that default layout and can add or remove tables and rule sections; they do not need to start from a blank sheet.
+- Retain the one-page goal. How to handle selections that overflow one page remains unresolved.
+
+### Mobile reference layout
+
+- Present the same selected reference content as a customizable list of clearly named tables and rule sections.
+- Supply a default list and let players add or remove entries.
+- Tapping an entry opens the actual table or rule section in a readable view. Back returns to the same position in the list.
+- This is the mobile presentation of the single customizable reference sheet, rather than a separate core/custom reference system.
 
 ### Rosters and unit details
 
 - Roster rows show essential unit information. The exact columns are still to be decided.
 - A detailed mobile unit sheet provides the fuller unit view.
 - Include brief reminders for the unit's skills and weapons.
-- Tapping a rule opens a short bottom sheet or a fuller view when needed.
+- Tapping a rule opens a bottom sheet or fuller view. Short versus full presentation remains undecided; Ross has not required exact skill wording.
 - Returning from a rule restores the player's previous scroll position.
 
 ### Mobile navigation and utility controls
@@ -47,34 +72,57 @@ Working record of Ross's direction for a Settlements companion app. Agreed direc
 
 - Allow players to reorder their chosen cheat-sheet entries.
 - Provide a preview and print option for the cheat sheet.
+- A print layout may arrange the selected content together. The one-page goal and overflow handling remain to be resolved.
 - On desktop, consider a side panel for rules so the roster or unit context stays visible.
 
 ### Settlement layout
 
-- Consider a top-down grid.
-- Offer tap-to-place alongside dragging, with undo for placement changes.
+- Later enhancement: consider a graphical top-down map or grid after the initial list-based tracker.
+- For that later map, consider tap-to-place alongside dragging, with undo for placement changes.
 
 ### Navigation and controls
 
 - Use accessible controls that are clear and easy to operate.
 
-### Superseded navigation proposal
+### Superseded proposals
 
 - The prior mobile bottom-navigation proposal is superseded by Ross's preference for a compact top-corner menu button. The earlier suggestion to keep primary navigation visible should not be treated as a requirement for persistent navigation tabs.
+- Any proposal for separate core and custom reference sheets is superseded by the single customizable sheet with a useful default layout.
+- Treating a graphical top-down settlement map as an initial requirement is superseded by the list-first settlement tracker.
 
 ## Open questions
 
 | Topic | Decision still needed |
 | --- | --- |
-| Settlement map | Is the top-down layout visual, mechanically meaningful, or both? Which game rules, if any, depend on placement? |
+| Structure catalogue | Should players browse categories or one list? |
+| Future settlement map | What should the later map show? Current drafted plots are accounting slots, not a placement puzzle; any new placement mechanics would need a separate rules decision. |
 | Platforms | Which platforms should the first version support? |
 | Offline use and sync | What must work offline, and should data sync between devices? |
 | Roster columns | Which information is essential in each row, and which belongs only on the detailed sheet? |
 | Rule versioning | How will the app identify and update rule versions, including references from units and cheat sheets? |
+| Rule and skill presentation | Where should short reminders or full text appear? Short versus full presentation remains undecided; exact skill wording is not a requirement. |
 | Cheat-sheet overflow | What happens when the player's selected content does not fit on one page? |
 | Mobile menu placement | Should the compact menu button be in the left or right top corner? |
 | Mobile menu presentation | Should it open a slide-out drawer or a full-page menu? |
 | Visual palette | Which colours will express the semantic roles and visual hierarchy? The exact palette is undecided. |
+
+## Settlement rules reviewed - drafted inputs for planning
+
+Reviewed the current Second Draft owning rule cards and all twenty structure cards (V2-423 through V2-442). All reviewed settlement cards are **Drafted / Unreviewed**, not confirmed or locked. The findings below describe those drafts; possible tracker fields and automation remain planning candidates, beyond the explicitly agreed list/catalogue/detail flow above.
+
+| Area | Current drafted rule and possible tracker needs | Source |
+| --- | --- | --- |
+| Founding | Start with 1,000 Credits, 125 Materials, twelve plots, and free Headquarters, Generator, Materials Processor, and Salvage Yard. Each occupies a plot. Founding purchases operate for the first battle; allocate Power once before it, with no founding production. | [[Settlements/Rules System/Second Draft/Rule Cards/V2-399 - Founding a settlement\|V2-399]] |
+| Settlement rounds | One round follows each qualifying battle, not elapsed real time: record battle; allocate workers/Power; resolve injuries/services; collect resources; apply XP; manage roster/buildings; close records. New construction operates at the next Settlement round, except founding. Per-round limits do not refresh during pre-battle shopping. | [[Settlements/Rules System/Second Draft/Rule Cards/V2-401 - Settlement round and availability timing\|V2-401]] |
+| Power and fuel | Each Generator supplies 10 Power per allocation; multiple Generators add output. Allocate each powered structure's entire requirement or leave it unpowered. Passive structures need none. Power expires at the next allocation and cannot be saved or sold. No fuel requirement was found in current Second Draft rules. | [[Settlements/Rules System/Second Draft/Rule Cards/V2-406 - Power and workers\|V2-406]]; [[Settlements/Rules System/Second Draft/Rule Cards/V2-422 - Structure catalogue conventions\|V2-422]] |
+| Structure details and benefits | Catalogue fields are Materials cost, prerequisite, Power, benefit, and one-worker effect. Benefits include production, capacity, access, or a named service; limits and bonuses are specific to each structure. A Materials Processor uses 2 Power for 20 Materials/round (+2 with a worker); a Salvage Yard uses 2 for 50 Credits (+5). Passive housing/storage structures need no Power. | [[Settlements/Rules System/Second Draft/Rule Cards/V2-422 - Structure catalogue conventions\|V2-422 and linked V2-423–442 item cards]] |
+| Workers | An available owned fighter who sat out the preceding Battle Roster, is not a prisoner/convalescent, and is not assigned elsewhere may work. One worker occupies a structure's slot. Apply only its printed benefit, only while powered where required; no generic 10% bonus. A Generator worker adds +1 Power before allocation. No recurring wages, food, water, or proficiency track. | [[Settlements/Rules System/Second Draft/Rule Cards/V2-401 - Settlement round and availability timing\|V2-401]]; [[Settlements/Rules System/Second Draft/Rule Cards/V2-406 - Power and workers\|V2-406]] |
+| Construction and plots | Pay Materials and reserve a vacant plot; prerequisites must already be built, but need not be powered for construction. One of each unless specified. Demolition frees the plot without a refund; Headquarters cannot be demolished. Removing a prerequisite disables dependents. Plots are accounting slots, not a placement puzzle; buy four more for 40 Materials, at most three times, maximum 24. | [[Settlements/Rules System/Second Draft/Rule Cards/V2-413 - Construction, housing, plots and storage\|V2-413]] |
+| Housing, storage, inventory | Headquarters houses twelve and stores 250 Materials; Bunkhouses add six residents, Storehouses add 250 storage. Housing includes workers, prisoners, and recovering fighters; overcapacity blocks recruitment without deleting people. Credits/equipment storage is unlimited. Discard excess Materials only at round close after spending. Keep shared stores and device scrap without double-counting carried items. | [[Settlements/Rules System/Second Draft/Rule Cards/V2-413 - Construction, housing, plots and storage\|V2-413]]; [[Settlements/Rules System/Second Draft/Rule Cards/V2-451 - Battle and settlement record sheets\|V2-451]] |
+| Access and services | Powered facilities gate purchases, crafting, medical services, and device rebuilding. Last valid Power allocation persists between rounds for access; losing an unlock does not disable already owned equipment. Service limits apply per round. These are candidates for reference and counters, not approved automation. | [[Settlements/Rules System/Second Draft/Rule Cards/V2-410 - Purchasing, selling and unlocks\|V2-410]]; [[Settlements/Rules System/Second Draft/Rule Cards/V2-418 - Medical services and device rebuilding\|V2-418]]; [[Settlements/Rules System/Second Draft/Rule Cards/V2-443 - Crafting and access\|V2-443]] |
+| Damage scope | No mandatory building-hit-point track is defined. V2-413 mentions disabled/destroyed capacity structures without deleting owned people or equipment, but supplies no general building-damage procedure. Device Offline/Destroyed states, scrap, and rebuilding are defined separately; do not infer building health or repair mechanics from them. | [[Settlements/Rules System/Second Draft/Rule Cards/V2-422 - Structure catalogue conventions\|V2-422]]; [[Settlements/Rules System/Second Draft/Rule Cards/V2-413 - Construction, housing, plots and storage\|V2-413]]; [[Settlements/Rules System/Second Draft/Rule Cards/V2-418 - Medical services and device rebuilding\|V2-418]] |
+
+V2-451 explicitly calls for settlement records of Credits, Materials/capacity, plots, buildings, Power allocation, workers, pending construction, person availability/recovery, and shared inventory. This supports future tracker design; it does not itself commit the initial app to implementing every record field or live battle tracking.
 
 ## Visual UI research and prototype guidance
 
@@ -108,7 +156,7 @@ These are external criteria to use when evaluating designs, separate from the pr
 ## Proposed planning sequence - for discussion
 
 1. Define the lean first version around the agreed features; decide what can wait.
-2. Sketch the roster, mobile unit sheet, rule lookup, cheat-sheet selection, and settlement layout flows. Use these to settle the open questions rather than assume answers.
+2. Sketch the roster, mobile unit sheet, rule lookup, cheat-sheet selection, and settlement structure-list/catalogue/detail flows. Use these to settle the open questions rather than assume answers; keep the graphical map for a later pass.
 3. Agree the essential information each view needs and how rules link to units and cheat sheets.
 4. Choose platforms, storage, offline behavior, and any sync approach after the product needs are clearer.
 
