@@ -66,6 +66,15 @@ Working record of Ross's direction for a Settlements companion app. Agreed direc
 - Distinguish text, interactive controls, headings, and stats through semantic colour roles, weight, spacing, and boundaries.
 - The exact palette remains undecided.
 
+## Current settlement design direction - pending rule-card updates
+
+Ross has confirmed the following direction for planning. Record it separately from the existing unreviewed draft values below; no rule cards have been changed.
+
+- **Generator count:** remove the Generator-specific maximum of three. Players may build as many Generators as they want, subject to plot availability, Materials costs, prerequisites, timing, and other applicable construction constraints. This decision supersedes the cap in V2-424; it does not remove those other constraints.
+- **Structure Power costs:** Ross wants each powered structure to require **1 Power**, superseding the existing draft's varying 1/2/3-Power costs as the current design direction. Which structures require Power and which remain passive is still under review.
+- **Generator output:** whether each Generator supplies **1, 2, or 3 Power** remains open. No replacement output has been selected; the existing draft's 10-Power output is recorded below for comparison.
+- **Remove Smoke Shop:** Ross rejected Smoke Shop as unnecessary. Remove it from the intended structure catalogue, superseding the unreviewed V2-437 proposal. Preserve its rule card as the existing draft; no replacement has been selected. From this removal alone, the powered candidate count falls from 14 to **13**; other Power classifications remain under review.
+
 ## Proposed ideas - not yet decisions
 
 ### Rules and cheat sheet
@@ -95,6 +104,8 @@ Working record of Ross's direction for a Settlements companion app. Agreed direc
 | Topic | Decision still needed |
 | --- | --- |
 | Structure catalogue | Should players browse categories or one list? |
+| Generator output | Should each Generator supply 1, 2, or 3 Power? |
+| Powered versus passive structures | Which structures should require the uniform 1 Power, and which should operate passively? |
 | Future settlement map | What should the later map show? Current drafted plots are accounting slots, not a placement puzzle; any new placement mechanics would need a separate rules decision. |
 | Platforms | Which platforms should the first version support? |
 | Offline use and sync | What must work offline, and should data sync between devices? |
@@ -109,6 +120,8 @@ Working record of Ross's direction for a Settlements companion app. Agreed direc
 ## Settlement rules reviewed - drafted inputs for planning
 
 Reviewed the current Second Draft owning rule cards and all twenty structure cards (V2-423 through V2-442). All reviewed settlement cards are **Drafted / Unreviewed**, not confirmed or locked. The findings below describe those drafts; possible tracker fields and automation remain planning candidates, beyond the explicitly agreed list/catalogue/detail flow above.
+
+The existing draft values below are retained as source findings, not the latest design decisions. V2-424 still lists a maximum of three Generators and 10 Power per Generator; removing that maximum and using 1 Power per powered structure are now Ross's direction, while replacement Generator output and the powered/passive classification remain open.
 
 | Area | Current drafted rule and possible tracker needs | Source |
 | --- | --- | --- |
