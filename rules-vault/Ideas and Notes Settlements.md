@@ -34,6 +34,10 @@ Utility Vest - Add an additional Equipment slot
 Lift Harness - Gives the unit the ability to carry at full speed
 Stims - +2 Move for 1 activation
 
+## Armor 
+
+**Basic Armor** - The 
+
 
 ## DEPLOYABLES
 
