@@ -17,6 +17,7 @@ These are working catalogues seeded from the current ChatGPT list. They are sepa
 
 ## Open a catalogue
 
+- [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Equipment category review — latest proposals and notes]]
 - [[Settlements/Design Workshop/Battle Catalogue Review/01 Weapons|Weapons]]
 - [[Settlements/Design Workshop/Battle Catalogue Review/02 Special Weapons|Special weapons]]
 - [[Settlements/Design Workshop/Battle Catalogue Review/03 Armour And Shields|Armour and shields]]

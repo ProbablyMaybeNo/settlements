@@ -7,6 +7,8 @@ tags:
 
 # Consumables and medical supplies
 
+[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Latest equipment category review — add notes on current items and proposed additions]]
+
 Edit names, values and effects directly in the table. Add or remove rows as you review. Prices are deferred.
 
 [[Settlements/Design Workshop/Battle Catalogue Review/00 Battle Catalogue Review|All battle catalogues]]
