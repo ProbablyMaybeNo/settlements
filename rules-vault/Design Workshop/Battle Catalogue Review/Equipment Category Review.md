@@ -60,9 +60,19 @@ These are proposed roles, not finished item profiles. Add notes for the whole gr
 | Dexies               | Consumable | +2 to INT Single Use                                                                                                          |                                                                                                                                              |
 | Twitch               | Consumable | +2 to DEX Single Use                                                                                                          |                                                                                                                                              |
 | Stims                | Consumable | +2 to MOVE Single Use                                                                                                         |                                                                                                                                              |
+| Fire Extinguisher    | Consumable |                                                                                                                               |                                                                                                                                              |
+| Antidote             | Consumable | Instantly remove poisoned effect. Single Use.                                                                                 |                                                                                                                                              |
 
 ## Wider notes
 
 <!-- Add category-wide comments, replacements or omissions here. -->
 
-Chems - We should add a rule that if a unit uses any stim
+Chems - We should add a rule that if a unit uses any stim for two consecutive battles they become hooked and have to continue to use a stim each battle of suffer an across the board -2 to all stats for a battle.
+
+CONDITIONS - We need to define these
+
+Fire - When a unit is given the "on-fire" condition it immediately moves 6" in a random direction. At the end of the phase roll 1d6 on a 4+ the condition is removed on a 1,2,3 the units moves 6" in a random direction and then becomes pinned. They cannot act that turn. At the end of the 2nd turn the unit tests to see if the fire goes out. on a 4+ it does and the unit is treated like any other pinned unit. If the roll is failed then the unit goes down. Another test at the end of the 3rd turn decides if a unit goes unconcious on a 1,2,3 or the fire goes out and the unit is treated like any downed unit on a 4+. At any point if there is a source of water within the units 360 degree LOS the unit moves toward it instead of a random direction. If the unit comes in contact with water the on-fire condition is instantly removed and the unit does not become pinned.
+
+Shocked/Stunned - If a unit becomes shocked or stunned they become pinned and miss their next activation.
+
+Poisoned - If a unit becomes poisoned they -2 to their move, each turn they remain poisoned they -2 to their move. Once they reach 0 to their natural move they go unconscious.
