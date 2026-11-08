@@ -138,3 +138,22 @@ Decoy Mines -
 | [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-199 - Service hatch.md\|Service hatch]]                   | Open/close passage through wall ≤3″ thick; half-speed travel; both ends marked.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                |                    |                                               |
 | [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-200 - Emergency alarm.md\|Emergency alarm]]               | Sound removes Hidden within 3″ of panel; Silence ends alarm; no global alert or automatic reinforcements.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                |                    |                                               |
 |                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                |                    |                                               |
+
+## SCENARIOS + OBJECTIVES
+
+NPCs - It would be cool if some or all of the scenarios included some NPC characters. 
+
+Trapped! - NPC is trapped by the environment  
+On the Run - NPC is being chased by local gang
+Wounded - NPC is wounded and will go unconscious soon
+Caged - NPC has been caged by a local gang
+Trader Caravan - NPC trade caravan offers rare items
+Hiding - NPC is hiding from aggressive animal
+
+Aggro NPCS
+
+Prison Escort - NPCS are escorting a prison to the gallows
+Bounty Hunters - NPC are hunting their prey
+
+
+Depending on the NPC if a player helps them they receive an additional bonus after the match, a free weapon, equipment, etc, or a free Settlement worker, or a one time access to a market selling rare items, it could be anything. Then we could also have aggressive NPCs who attack units who enter their area, maybe they're guarding a stash, 
