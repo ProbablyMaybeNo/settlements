@@ -68,6 +68,12 @@ STR skills: complete table with links to individual skill cards.
 
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Individual item cards]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-engaged|Engaged]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-grappled|Grappled]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-braced|Braced]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 Edit each item's Rule text in its linked card. This table refreshes automatically. Catalogue status follows its item statuses.

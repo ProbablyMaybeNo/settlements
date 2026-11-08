@@ -60,6 +60,12 @@ Core automatically Recovers up to two friendlies within 6″/LOS; no Down/Uncons
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-491 - NRV skills|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->

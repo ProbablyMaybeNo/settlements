@@ -63,6 +63,12 @@ Core/DEX within legal LOS/24″; pass reveals/Marks through End Phase: friendly 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-488 - DEX skills|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-marked|Marked]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->

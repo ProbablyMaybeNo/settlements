@@ -79,3 +79,8 @@ Poisoned - If a unit becomes poisoned they -2 to their move, each turn they rema
 
 Unconscious - Unit cannot be revived. Remove from board. Roll on injury chart in post battle phase to determine lasting injuries.
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-on-fire|On Fire]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-poisoned|Poisoned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-shocked-or-stunned|Shocked or Stunned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-destroyed|Destroyed]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hooked|Hooked]]
+<!-- conditions-reference:end -->

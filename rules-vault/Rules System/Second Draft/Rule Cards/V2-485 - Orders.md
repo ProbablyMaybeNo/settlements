@@ -74,6 +74,12 @@ A fighter can hold at most one READY token. Receiving READY from an order does n
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-broken|Broken]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-bolting|Bolting]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-bugging-out|Bugging Out]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-captured|Captured]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-activated|Activated]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 ### V2-485 — Orders

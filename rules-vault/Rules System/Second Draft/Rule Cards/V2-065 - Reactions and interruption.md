@@ -173,6 +173,12 @@ For an incoming Shoot that targets the reacting fighter, Return Fire or Dive mus
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-reacted|Reacted]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 ### V2-066 — Reaction limits

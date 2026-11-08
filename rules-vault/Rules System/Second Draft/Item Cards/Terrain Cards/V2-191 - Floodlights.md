@@ -55,6 +55,12 @@ Lit 6″-diameter zone removes Hidden and prevents Hide; no sight through walls.
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-496 - Interactive terrain catalogue|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->

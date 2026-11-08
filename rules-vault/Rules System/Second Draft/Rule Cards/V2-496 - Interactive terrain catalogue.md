@@ -89,6 +89,12 @@ Interactive terrain catalogue: complete table with links to individual interacti
 
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Individual item cards]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 Edit each item's Rule text in its linked card. This table refreshes automatically. Catalogue status follows its item statuses.

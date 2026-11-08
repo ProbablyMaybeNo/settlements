@@ -71,6 +71,12 @@ READY at terminal; enemy same-network terminal user within 12″, no LOS needed;
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-490 - INT skills|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-frozen|Frozen]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->

@@ -53,6 +53,12 @@ A conscious fighter may administer a chem to itself only when otherwise permitte
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hooked|Hooked]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.

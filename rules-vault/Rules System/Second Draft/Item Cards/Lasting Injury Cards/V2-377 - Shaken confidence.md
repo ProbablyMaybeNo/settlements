@@ -57,6 +57,12 @@ consolidated: '2026-10-25'
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-370 - Lasting injuries, scars and retirement|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-lasting-injuries-and-scars|Lasting injuries and scars]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->

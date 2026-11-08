@@ -60,6 +60,12 @@ One-die ranged weapon gains +2 Damage against Marked target; excludes Blast/Auto
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-488 - DEX skills|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-marked|Marked]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->

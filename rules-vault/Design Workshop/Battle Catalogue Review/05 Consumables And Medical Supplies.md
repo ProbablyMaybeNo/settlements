@@ -35,3 +35,9 @@ Equipment subcategories available to any unit; these items do not require a depl
 ## Design notes
 
 <!-- Add your wider catalogue notes here. This table is manually editable and is not regenerated. -->
+
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]]
+<!-- conditions-reference:end -->

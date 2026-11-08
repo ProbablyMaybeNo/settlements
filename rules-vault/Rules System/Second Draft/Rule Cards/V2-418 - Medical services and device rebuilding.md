@@ -87,6 +87,12 @@ An Offline owned device is restored for free between battles. A Destroyed device
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-offline-or-disabled|Offline or Disabled]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-destroyed|Destroyed]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-convalescence|Convalescence]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-prisoner|Prisoner]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-lasting-injuries-and-scars|Lasting injuries and scars]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-retired-or-dead|Retired or Dead]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.

@@ -161,6 +161,12 @@ Marked is different from revealed. Mark Target requires a legally visible target
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-marked|Marked]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-concealed|Concealed]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.

@@ -61,6 +61,12 @@ Core: one Stress-free Rally test for up to two friendlies within 6″/LOS, inclu
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-491 - NRV skills|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-broken|Broken]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->

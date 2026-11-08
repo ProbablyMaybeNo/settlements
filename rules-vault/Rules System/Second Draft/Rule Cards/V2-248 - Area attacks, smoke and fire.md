@@ -116,6 +116,12 @@ A fire bottle uses the grenade Blast profile, then leaves a 3-inch-diameter fire
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-on-fire|On Fire]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-aim|Aim]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 ### V2-248 — Blast attack

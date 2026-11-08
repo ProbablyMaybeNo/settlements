@@ -60,6 +60,12 @@ Once/round, firing one-die weapon in cover does not itself reveal; excludes Blas
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-489 - AGI skills|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->

@@ -63,6 +63,12 @@ Core: one-die AGI/Dmg 0 Unanswered exchange; successful Injury Subdues. No later
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-489 - AGI skills|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-engaged|Engaged]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-subdued|Subdued]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->

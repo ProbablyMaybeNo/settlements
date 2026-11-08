@@ -25,3 +25,9 @@ Edit names, values and effects directly in the table. Add or remove rows as you 
 ## Design notes
 
 <!-- Add your wider catalogue notes here. This table is manually editable and is not regenerated. -->
+
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]]
+<!-- conditions-reference:end -->

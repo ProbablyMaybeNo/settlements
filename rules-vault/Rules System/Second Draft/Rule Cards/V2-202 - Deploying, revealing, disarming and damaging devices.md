@@ -155,6 +155,12 @@ For mines and traps, **either crew can trigger them**. Placing one is a position
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-concealed|Concealed]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-disarmed-or-inert|Disarmed or Inert]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-offline-or-disabled|Offline or Disabled]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-destroyed|Destroyed]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.

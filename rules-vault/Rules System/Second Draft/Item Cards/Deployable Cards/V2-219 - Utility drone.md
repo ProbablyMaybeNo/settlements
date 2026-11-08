@@ -62,6 +62,12 @@ A utility drone costs **45 Credits**, occupies two equipment slots on its operat
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-497 - Deployable equipment catalogue|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->

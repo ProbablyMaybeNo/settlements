@@ -216,6 +216,12 @@ The five permanent penalties and Hatred are **scars**. A fighter can carry at mo
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-convalescence|Convalescence]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-lasting-injuries-and-scars|Lasting injuries and scars]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-retired-or-dead|Retired or Dead]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.

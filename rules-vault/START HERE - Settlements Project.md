@@ -1,5 +1,7 @@
 # Settlements — Start here
 
+- **[[Settlements/Rules System/Second Draft/Conditions Reference|Conditions reference]]** — current battle conditions, markers, device states and new equipment drafts.
+
 - **[[Settlements/Design Workshop/Battle Catalogue Review/00 Battle Catalogue Review|Editable battle catalogue review]]** — edit one working table per battle catalogue, or compare them together in the overview. Prices are deferred.
 
 - **[[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]** — 82 official rule cards, organized as **Section → Mechanic → specific rules**. Section uses `book_section`; Mechanic uses `rule_parent`. This is the only official rule inventory.

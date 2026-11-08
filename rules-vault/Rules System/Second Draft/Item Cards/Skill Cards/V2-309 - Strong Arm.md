@@ -61,6 +61,12 @@ Normal MOVE dragging one casualty/carrying Heavy cargo; still one hand, no Dash/
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-487 - STR skills|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-grappled|Grappled]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->

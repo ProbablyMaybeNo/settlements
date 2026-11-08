@@ -43,3 +43,9 @@ Edit names, values and effects directly in the table. Add or remove rows as you 
 **Discussed proposal, not yet applied:** remove the generic Pistol entry; use a Damage 1 Accurate Revolver alongside the stronger, Reload Magnum. The table retains the last saved profiles so this idea is not silently treated as adopted.
 
 <!-- Add your wider catalogue notes here. This table is manually editable and is not regenerated. -->
+
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-aim|Aim]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-loaded-or-unloaded|Loaded or Unloaded]]
+<!-- conditions-reference:end -->

@@ -86,6 +86,12 @@ Weapon characteristics: complete table with links to individual weapon keyword c
 
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Individual item cards]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-aim|Aim]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-loaded-or-unloaded|Loaded or Unloaded]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 Edit each item's Rule text in its linked card. This table refreshes automatically. Catalogue status follows its item statuses.

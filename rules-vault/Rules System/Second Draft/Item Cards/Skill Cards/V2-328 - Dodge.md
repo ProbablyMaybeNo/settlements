@@ -58,6 +58,12 @@ Reroll failed Dive; still needs READY, Pins, and moves at most 3″.
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-489 - AGI skills|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->

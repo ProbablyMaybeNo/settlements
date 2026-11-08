@@ -159,6 +159,12 @@ Critical terrain and objective terminals cannot be shot out of the game. They ca
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-offline-or-disabled|Offline or Disabled]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-frozen|Frozen]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-destroyed|Destroyed]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.

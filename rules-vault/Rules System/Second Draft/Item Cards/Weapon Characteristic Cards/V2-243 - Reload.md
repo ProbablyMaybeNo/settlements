@@ -52,6 +52,12 @@ Starts loaded; firing unloads; Core reloads before firing again.
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-loaded-or-unloaded|Loaded or Unloaded]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->

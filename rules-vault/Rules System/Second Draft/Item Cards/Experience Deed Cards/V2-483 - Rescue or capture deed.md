@@ -52,6 +52,12 @@ Qualifying deed for the once-per-battle deed XP bonus: Revived or evacuated a fr
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-389 - Experience and deeds|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-captured|Captured]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->

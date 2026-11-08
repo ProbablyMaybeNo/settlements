@@ -52,6 +52,12 @@ While benefiting from Aim, reroll one failed Attack Die with this weapon.
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
 
+<!-- conditions-reference:start -->
+## Conditions referenced
+
+[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-aim|Aim]]
+<!-- conditions-reference:end -->
+
 ## Design notes
 
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
