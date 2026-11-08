@@ -78,3 +78,4 @@ Shocked/Stunned - If a unit becomes shocked or stunned they become pinned and mi
 Poisoned - If a unit becomes poisoned they -2 to their move, each turn they remain poisoned they -2 to their move. Once they reach 0 to their natural move they go unconscious.
 
 Unconscious - Unit cannot be revived. Remove from board. Roll on injury chart in post battle phase to determine lasting injuries.
+
