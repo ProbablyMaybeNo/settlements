@@ -154,6 +154,9 @@ Aggro NPCS
 
 Prison Escort - NPCS are escorting a prison to the gallows
 Bounty Hunters - NPC are hunting their prey
-
+Cannibals - NPC are preparing their next meal
+Cultists - NPC preparing a sacrificial offering
+Highwaymen - Preparing an ambush
+The Stash - Local gang is guarding their secret stash
 
 Depending on the NPC if a player helps them they receive an additional bonus after the match, a free weapon, equipment, etc, or a free Settlement worker, or a one time access to a market selling rare items, it could be anything. Then we could also have aggressive NPCs who attack units who enter their area, maybe they're guarding a stash, 
