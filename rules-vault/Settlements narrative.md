@@ -10,3 +10,7 @@
 2027: THE MESSAGE - As the Alliance members watched the emessaries vessel disappear into the sky they struggled to wrap their minds around what had just happened. Slowly they returned to their council chamber they sat in silence, some cried, some laughed, others grew angry, until the silence was broken by a single outcry followed by an eruption of voices, desperate cries, giving sound to their emotions trying to process what they had just  heard...that planet Earth would become the next battleground between warring intergalactic civilizations.
 
 2035: CALM BEFORE THE STORM - Over the next 8 years Planet Earth and it's people prepared for what was to come. Mandatory military training for all individuals old enough to carry a gun, sprawling underground bunkers were built filled with provisional stockpiles, 
+
+## LANDING PAGE
+
+2051
