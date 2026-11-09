@@ -41,3 +41,7 @@ Equipment subcategories available to any unit; these items do not require a depl
 
 [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]]
 <!-- conditions-reference:end -->
+
+### Equipment consolidation — 2026-11-09
+
+Consolidated owners and remaining narrow decisions: [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Consolidation - Battle Test|Equipment consolidation]]. Original review tables and feedback above are preserved as decision history; use the linked item owners for current profiles.

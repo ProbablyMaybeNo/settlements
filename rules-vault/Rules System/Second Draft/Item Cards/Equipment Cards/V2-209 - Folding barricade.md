@@ -2,8 +2,8 @@
 type: settlements-item-card
 rule_id: V2-209
 rule_name: Folding barricade
-entry_type: Deployable
-category: Devices
+entry_type: Equipment
+category: Equipment
 book_chapter: 7
 book_section: Equipment
 book_subsection: Deployables and Drones
@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - device
 - cover
-summary: 15 Cr/1 slot; deploy ≤3″ long/1″ high heavy cover; physical terrain cannot be shot away.
+summary: Spend Core to deploy a cover line up to 3 inches long and 1 inch high in contact. It provides Heavy cover to either crew and cannot be shot away.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -31,18 +31,21 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Friendly mine triggers]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-218 - Sentry turret|Turret operation]]'
 planned_section: 07 · Equipment
-rule_parent: Deployables
-card_kind: Deployable
-catalogue_id: V2-497
-catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-497 - Deployable equipment catalogue]]'
+rule_parent: Tools and Supplies
+card_kind: Equipment
+catalogue_id: V2-492
+catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment]]'
 consolidated: '2026-10-25'
+rule: Spend Core to deploy a cover line up to 3 inches long and 1 inch high in contact. It provides Heavy cover to either crew and cannot be shot away.
+equipment_slots: 1
+last_rule_update: '2026-11-09'
 ---
 
 # Folding barricade
 
 ## Summary
 
-15 Cr/1 slot; deploy ≤3″ long/1″ high heavy cover; physical terrain cannot be shot away.
+Spend Core to deploy a cover line up to 3 inches long and 1 inch high in contact. It provides Heavy cover to either crew and cannot be shot away.
 
 ## Rule text
 
@@ -50,8 +53,9 @@ consolidated: '2026-10-25'
 | --- | --- |
 | Item | Folding barricade |
 | Credits | 15 |
-| Slots | 1 |
-| Effect | Place a line up to 3 inches long and 1 inch high; heavy cover. It is physical terrain, not an electronic device, and cannot be shot away. |
+| Equipment slots | 1 |
+| Rule | Spend Core to deploy a cover line up to 3 inches long and 1 inch high in contact. It provides Heavy cover to either crew and cannot be shot away. |
+| Access | Basic |
 
 ^text-s060-b000
 
@@ -65,3 +69,7 @@ consolidated: '2026-10-25'
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
 
 <!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+
+### Equipment consolidation — 2026-11-09
+
+[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Ross’s original equipment decisions]]. Retained as ordinary Equipment, available without a deployable-unlock skill. The shared Deploy procedure supplies placement and reserved capacity.

@@ -103,6 +103,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-09'
 ---
 
 # Hacking, terminals and repair
@@ -145,7 +146,7 @@ Hijacking a device for an immediate operation requires Trojan. Opposing a termin
 
 ### Repair action
 
-Repair requires contact, Core, and an INT test. Success restores an Offline device or clears a disabled electronic state. A Destroyed device cannot be repaired during battle. Normal failure does not worsen it.
+Repair requires contact, Core, and an INT test. Success restores an Offline device or clears a disabled electronic state. A Destroyed device cannot be repaired during battle. Normal failure does not worsen it. Spending a repair pack passes the Repair test automatically; it does not replace the Core or contact requirement.
 
 ^text-s052-b000
 

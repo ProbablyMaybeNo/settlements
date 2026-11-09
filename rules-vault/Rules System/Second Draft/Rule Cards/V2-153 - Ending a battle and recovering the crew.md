@@ -58,6 +58,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-09'
 ---
 
 # Ending a battle and recovering the crew
@@ -88,7 +89,7 @@ Recover all your surviving fighters, including those Down or Unconscious, except
 
 ### Lasting-injury eligibility
 
-Each fighter still Down or Unconscious at the end, including an evacuated or captured casualty, makes **one lasting-injury roll**. A revived fighter who finished conscious makes none unless put Down again. An Incapacitate-only Subdued casualty gets Full recovery without a roll. No fighter rolls twice because they were shot several times. Dead fighters are removed only at this post-battle step.
+Each fighter still Down at the end, or recorded as Unconscious when removed, makes **one lasting-injury roll**, including an evacuated or captured casualty. A revived fighter who finished conscious makes none unless put Down again. An Incapacitate-only Subdued casualty gets Full recovery without a roll. No fighter rolls twice because they were shot several times. Dead fighters are removed only at this post-battle step.
 
 ^text-s078-b002
 

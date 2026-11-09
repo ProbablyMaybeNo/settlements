@@ -11,9 +11,9 @@ tags:
 rule_parent: Armour
 type: settlements-rule-card
 rule_id: V2-494
-rule_name: Armour and shields
+rule_name: Armour
 entry_type: Catalogue
-summary: 'Armour and shields: complete table with links to individual armour cards.'
+summary: Armour profiles. Shields belong to Equipment.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -31,14 +31,14 @@ catalogue_columns:
 catalogue_members:
 - V2-254
 - V2-255
-- V2-256
+last_rule_update: '2026-11-09'
 ---
 
-# Armour and shields
+# Armour
 
 ## Summary
 
-Armour and shields: complete table with links to individual armour cards.
+Armour profiles. Shields belong to Equipment.
 
 ## Rule text
 
@@ -48,7 +48,7 @@ Armour and shields: complete table with links to individual armour cards.
 | --- | --- | --- | --- | --- |
 | [[Settlements/Rules System/Second Draft/Item Cards/Armour Cards/V2-254 - Light armour\|Light armour]] | 10 | Worn | Armour 1 | Basic |
 | [[Settlements/Rules System/Second Draft/Item Cards/Armour Cards/V2-255 - Heavy armour\|Heavy armour]] | 25 | Worn | Armour 2; MOVE reduced by 1 | Armoury |
-| [[Settlements/Rules System/Second Draft/Item Cards/Armour Cards/V2-256 - Protective shield\|Protective shield]] | 15 | 1 | Occupies one hand. +1 Armour against attacks through the forward arc; total Armour maximum 3. No protection from falls or Crush. | Workshop |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-256 - Protective shield\|Protective shield]] | 15 | 1 | Occupies one hand. +1 Armour against attacks through the forward arc; total Armour maximum 3. No protection from falls or Crush. | Workshop |
 
 ^catalogue-v2-494
 

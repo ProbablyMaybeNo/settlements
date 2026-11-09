@@ -97,6 +97,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-09'
 ---
 
 # Deploying, revealing, disarming and damaging devices
@@ -117,7 +118,7 @@ Deploy equipment; Device arming delay; Concealed devices; Disarm; Recover device
 
 ^text-s019-b011
 
-Carried devices already count in Crew Rating. Spend Core to place one in base contact, outside other bases and away from an occupied objective marker. A barricade or ordinary ladder is automatic. Arming a mine, trap, or electronic device requires INT. Success arms it; failure leaves it placed but inert and visible. A natural 1 does not detonate it during deployment. A later Deploy action in contact can retry using the same item.
+Carried devices already count in Crew Rating. Spend Core to place one in base contact, outside other bases and away from an occupied objective marker. A folding barricade or climbing route is automatic. These ordinary equipment items require no deployable-unlock skill. Arming a mine, trap, or electronic device requires INT. Success arms it; failure leaves it placed but inert and visible. A natural 1 does not detonate it during deployment. A later Deploy action in contact can retry using the same item.
 
 ^text-s058-b000
 

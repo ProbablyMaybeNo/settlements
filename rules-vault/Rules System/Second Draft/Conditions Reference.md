@@ -23,7 +23,7 @@ Conditions, tokens and device states are grouped separately below. The new draft
 
 - **Down** — Zero Wounds; awaiting revival or progression to Unconscious. [[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|V2-122]] ^condition-down
 
-- **Unconscious** — Cannot act or be revived. Your new note removes the model; older text leaves the body on the board. [[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|V2-122]] ^condition-unconscious
+- **Unconscious** — Cannot be revived. Remove the model and record one post-battle injury roll. [[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|V2-122]] ^condition-unconscious
 
 - **Stress** — Tracked 0–5; penalizes tests and can cause morale conditions. [[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress, Break and forced flight|V2-139]] ^condition-stress
 
@@ -43,11 +43,11 @@ Conditions, tokens and device states are grouped separately below. The new draft
 
 ## Conditions you have added or mentioned
 
-- **On Fire** — Your Molotov condition draft: forced movement, fire-extinguishing tests and escalating incapacity. [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Equipment notes]] ^condition-on-fire
+- **On Fire** — Fire-driven movement and three escalating extinguishing checks. Check timing remains unresolved. [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-on-fire-rule|On Fire]] ^condition-on-fire
 
-- **Poisoned** — Your draft: progressively loses MOVE; becomes Unconscious at zero. Antidote removes Poisoned. [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Equipment notes]] ^condition-poisoned
+- **Poisoned** — Progressively loses MOVE; becomes Unconscious at zero. Tick timing and restored MOVE remain unresolved. [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-poisoned-rule|Poisoned]] ^condition-poisoned
 
-- **Shocked or Stunned** — Your draft: becomes Pinned and misses its next activation. These are two names for the same proposed condition. [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Equipment notes]] ^condition-shocked-or-stunned
+- **Shocked or Stunned** — Becomes Pinned and misses its next activation; two names for one condition. [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-stunned-rule|Shocked or Stunned]] ^condition-shocked-or-stunned
 
 - **Blinded** — Mentioned by you; no effect, duration or applying profile was found. ^condition-blinded
 
@@ -115,3 +115,7 @@ Conditions, tokens and device states are grouped separately below. The new draft
 ## Your notes
 
 <!-- Add notes or additional conditions here. -->
+
+### Equipment consolidation — 2026-11-09
+
+The equipment condition entries now point to their owning rule. Inclusion in this inventory still does not approve a draft. Blinded has no applying retained item and receives no rule. Hooked remains outside the first test.

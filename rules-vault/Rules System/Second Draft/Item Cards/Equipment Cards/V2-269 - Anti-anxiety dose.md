@@ -12,7 +12,7 @@ tags:
 - equipment
 - test-plus
 - morale
-summary: '5 Cr/1 slot; Core/self-or-contact: +2 next Break/Rally this battle; one pending dose; Clinic.'
+summary: Spend Core on yourself or a friendly in contact to gain +2 on the next Break or Rally test this battle. Single-use; only one dose may be pending per unit.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -23,13 +23,12 @@ source:
 review_notes: ''
 credits: 5
 equipment_slots: 1
-rule: Single-use; Core on self or friendly in contact gives +2 to its next Break or Rally this battle. Only one
-  dose may be pending per fighter.
+rule: Spend Core on yourself or a friendly in contact to gain +2 on the next Break or Rally test this battle. Single-use; only one dose may be pending per unit.
 access: Clinic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
 planned_section: 07 · Equipment
-rule_parent: Equipment
+rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-493
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies]]'
@@ -40,7 +39,7 @@ consolidated: '2026-10-25'
 
 ## Summary
 
-5 Cr/1 slot; Core/self-or-contact: +2 next Break/Rally this battle; one pending dose; Clinic.
+Spend Core on yourself or a friendly in contact to gain +2 on the next Break or Rally test this battle. Single-use; only one dose may be pending per unit.
 
 ## Rule text
 
@@ -49,7 +48,7 @@ consolidated: '2026-10-25'
 | Item | Anti-anxiety dose |
 | Credits | 5 |
 | Equipment slots | 1 |
-| Rule | Single-use; Core on self or friendly in contact gives +2 to its next Break or Rally this battle. Only one dose may be pending per fighter. |
+| Rule | Spend Core on yourself or a friendly in contact to gain +2 on the next Break or Rally test this battle. Single-use; only one dose may be pending per unit. |
 | Access | Clinic |
 
 ^text-s066-b015
@@ -64,3 +63,7 @@ consolidated: '2026-10-25'
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
 
 <!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+
+### Equipment consolidation — 2026-11-09
+
+[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Ross’s original equipment decisions]]. Existing effect retained; prose only. No explicit removal was found. Its semantic date and approval are unchanged.

@@ -1,7 +1,7 @@
 ---
 type: settlements-item-card
 rule_id: V2-262
-rule_name: Climbing kit
+rule_name: Climbing gear
 entry_type: Equipment
 category: Equipment
 book_chapter: 7
@@ -12,7 +12,7 @@ tags:
 - equipment
 - test-plus
 - movement
-summary: 10 Cr/1 slot; +2 climb with anchors; secured rope permits otherwise smooth climb.
+summary: Spend Core to deploy a climbing route from contact to a single-storey ledge. Either crew uses it as a ladder, without a climb test. Reusable.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -23,33 +23,33 @@ source:
 review_notes: ''
 credits: 10
 equipment_slots: 1
-rule: +2 to a climb with usable anchor points; permits otherwise smooth climbs where a rope can be secured from
-  an accessible top
+rule: Spend Core to deploy a climbing route from contact to a single-storey ledge. Either crew uses it as a ladder, without a climb test. Reusable.
 access: Basic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
 planned_section: 07 · Equipment
-rule_parent: Equipment
+rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-492
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-09'
 ---
 
-# Climbing kit
+# Climbing gear
 
 ## Summary
 
-10 Cr/1 slot; +2 climb with anchors; secured rope permits otherwise smooth climb.
+Spend Core to deploy a climbing route from contact to a single-storey ledge. Either crew uses it as a ladder, without a climb test. Reusable.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
-| Item | Climbing kit |
+| Item | Climbing gear |
 | Credits | 10 |
 | Equipment slots | 1 |
-| Rule | +2 to a climb with usable anchor points; permits otherwise smooth climbs where a rope can be secured from an accessible top |
+| Rule | Spend Core to deploy a climbing route from contact to a single-storey ledge. Either crew uses it as a ladder, without a climb test. Reusable. |
 | Access | Basic |
 
 ^text-s066-b008
@@ -64,3 +64,7 @@ consolidated: '2026-10-25'
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
 
 <!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+
+### Equipment consolidation — 2026-11-09
+
+[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Ross’s original equipment decisions]]. Ross replaces the climbing bonus with ladder access. Use the shared Deploy procedure; no new height or STR prerequisite is added. Single-storey ledges are identified on the terrain before play. Previous profile, retained for provenance: +2 to a climb with usable anchor points; permits otherwise smooth climbs where a rope can be secured from an accessible top.

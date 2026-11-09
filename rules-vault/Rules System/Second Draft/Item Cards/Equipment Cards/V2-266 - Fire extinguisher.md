@@ -12,10 +12,10 @@ tags:
 - equipment
 - core
 - terrain
-summary: 10 Cr/1 slot; Core clears adjacent fire template automatically; reusable.
-status: Drafted
+summary: Unavailable in the first battle test.
+status: Deferred
 review_status: Unreviewed
-publication: Included
+publication: Deferred
 created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
@@ -23,23 +23,24 @@ source:
 review_notes: ''
 credits: 10
 equipment_slots: 1
-rule: Core Interact automatically clears one adjacent fire template; reusable
+rule: Unavailable in the first battle test.
 access: Basic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
 planned_section: 07 · Equipment
-rule_parent: Equipment
+rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-492
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-09'
 ---
 
 # Fire extinguisher
 
 ## Summary
 
-10 Cr/1 slot; Core clears adjacent fire template automatically; reusable.
+Unavailable in the first battle test.
 
 ## Rule text
 
@@ -48,7 +49,7 @@ consolidated: '2026-10-25'
 | Item | Fire extinguisher |
 | Credits | 10 |
 | Equipment slots | 1 |
-| Rule | Core Interact automatically clears one adjacent fire template; reusable |
+| Rule | Unavailable in the first battle test. |
 | Access | Basic |
 
 ^text-s066-b012
@@ -63,3 +64,7 @@ consolidated: '2026-10-25'
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
 
 <!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+
+### Equipment consolidation — 2026-11-09
+
+[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Ross’s original equipment decisions]]. Held outside the first test following “Probably remove for now.” The later blank additions row supplies no replacement effect or decision to reinstate it. Previous profile, retained for provenance: Core Interact automatically clears one adjacent fire template; reusable.

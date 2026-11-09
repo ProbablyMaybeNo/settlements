@@ -31,10 +31,12 @@ catalogue_columns:
 catalogue_members:
 - V2-261
 - V2-262
-- V2-263
 - V2-264
-- V2-265
-- V2-266
+- V2-209
+- V2-256
+- V2-499
+- V2-500
+last_rule_update: '2026-11-09'
 ---
 
 # Tools and equipment

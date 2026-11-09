@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - equipment
 - stress
-summary: 10 Cr/1 slot; ignore irritant gas Stress; smoke still blocks LOS.
+summary: Ignore gas and smoke effects on the bearer, including smoke’s LOS restrictions. Other units resolve smoke normally. Reusable.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,23 +22,24 @@ source:
 review_notes: ''
 credits: 10
 equipment_slots: 1
-rule: Ignore irritant gas Stress; does not ignore smoke LOS
+rule: Ignore gas and smoke effects on the bearer, including smoke’s LOS restrictions. Other units resolve smoke normally. Reusable.
 access: Basic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
 planned_section: 07 · Equipment
-rule_parent: Equipment
+rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-492
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-09'
 ---
 
 # Respirator
 
 ## Summary
 
-10 Cr/1 slot; ignore irritant gas Stress; smoke still blocks LOS.
+Ignore gas and smoke effects on the bearer, including smoke’s LOS restrictions. Other units resolve smoke normally. Reusable.
 
 ## Rule text
 
@@ -47,7 +48,7 @@ consolidated: '2026-10-25'
 | Item | Respirator |
 | Credits | 10 |
 | Equipment slots | 1 |
-| Rule | Ignore irritant gas Stress; does not ignore smoke LOS |
+| Rule | Ignore gas and smoke effects on the bearer, including smoke’s LOS restrictions. Other units resolve smoke normally. Reusable. |
 | Access | Basic |
 
 ^text-s066-b010
@@ -68,3 +69,7 @@ consolidated: '2026-10-25'
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
 
 <!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+
+### Equipment consolidation — 2026-11-09
+
+[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Ross’s original equipment decisions]]. The later instruction “ignores the effects of gases and smoke” supersedes the narrower gas-Stress-only profile.

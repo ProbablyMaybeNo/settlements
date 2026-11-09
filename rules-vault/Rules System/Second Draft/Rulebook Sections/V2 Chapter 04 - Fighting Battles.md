@@ -146,6 +146,16 @@ Agree the scenario and Crew Rating before selecting a Battle Roster. Battles use
 
 ![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - A casualty's two full rounds#A casualty's two full rounds]]
 
+### Equipment conditions
+
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-on-fire-rule]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-stunned-rule]]
+
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-poisoned-rule]]
+
 ## 4.13 Stress and Morale
 
 ![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Gaining Stress#Gaining Stress]]

@@ -72,6 +72,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-09'
 ---
 
 # Securing, rescuing and extracting captives
@@ -84,25 +85,25 @@ Secure captive; Captured state; Extract captive; Release or rescue captive; Frie
 
 ### Secure captive
 
-An unengaged fighter in contact with a Down or Unconscious enemy may spend Core to **Secure** it. This is automatic if no conscious, unpinned enemy is within 1 inch of either model. Mark Captured. The captive cannot act or self-treat. Its Down timer continues normally.
+An unengaged fighter in contact with a Down enemy may spend Core to **Secure** it. This is automatic if no conscious, unpinned enemy is within 1 inch of either model. Mark Captured. The captive cannot act or self-treat. Its Down timer continues normally.
 
 ^text-s041-b000
 
 ### Extract captive
 
-The captor may escort or drag one captive using the carrying rules. Move both bases together, keeping them in contact. Capture becomes a lasting capture only when the captive is escorted completely off the captor's deployment edge while the escort remains capable of moving. The escort leaves with it and cannot return that battle. Carrying mission cargo off an exit or evacuating a friendly casualty likewise removes its carrier from play; surviving extracted carriers return to the settlement afterward. An Unconscious captive can be dragged in the same way.
+The captor may escort or drag one captive using the carrying rules. Move both bases together, keeping them in contact. Capture becomes a lasting capture only when the captive is escorted completely off the captor's deployment edge while the escort remains capable of moving. The escort leaves with it and cannot return that battle. Carrying mission cargo off an exit or evacuating a friendly casualty likewise removes its carrier from play; surviving extracted carriers return to the settlement afterward. If a captive becomes Unconscious before extraction, remove it under the Unconscious rule; capture has not been completed.
 
 ^text-s041-b001
 
 ### Release or rescue captive
 
-If the escort becomes Down, Unconscious, Pinned, or gains a morale condition, it releases the captive immediately. Remove Captured; the captive retains its underlying Down or Unconscious state. An unengaged friendly may also free a captive from contact with a Core Interact, provided the escort is not a conscious unpinned enemy within 1 inch. A captor can release voluntarily at the start of its own action.
+If the escort becomes Down, Unconscious, Pinned, or gains a morale condition, it releases the captive immediately. Remove Captured; the captive retains its underlying Down state. An unengaged friendly may also free a captive from contact with a Core Interact, provided the escort is not a conscious unpinned enemy within 1 inch. A captor can release voluntarily at the start of its own action.
 
 ^text-s041-b002
 
 ### Friendly evacuation
 
-Friendly evacuation works the same way without Secure: take a casualty off your deployment edge to protect it from further battlefield interference. A casualty evacuated while Down or Unconscious still rolls lasting injury after battle. Evacuation is useful because it prevents capture; it is not an automatic cure.
+Friendly evacuation works the same way without Secure: take a casualty off your deployment edge to protect it from further battlefield interference. A Down casualty evacuated this way still rolls lasting injury after battle. Unconscious casualties have already been removed. Evacuation is useful because it prevents capture; it is not an automatic cure.
 
 ^text-s041-b003
 

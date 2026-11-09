@@ -27,15 +27,13 @@ catalogue_columns:
 - Slots
 - Effect
 catalogue_members:
-- V2-209
-- V2-210
 - V2-211
 - V2-212
 - V2-213
 - V2-214
 - V2-215
-- V2-216
 - V2-219
+last_rule_update: '2026-11-09'
 ---
 
 # Deployable equipment catalogue
@@ -50,7 +48,7 @@ Deployable equipment catalogue: complete table with links to individual deployab
 
 | Name | Credits | Slots | Effect |
 | --- | --- | --- | --- |
-| [[Settlements/Rules System/Second Draft/Item Cards/Deployable Cards/V2-209 - Folding barricade\|Folding barricade]] | 15 | 1 | Place a line up to 3 inches long and 1 inch high; heavy cover. It is physical terrain, not an electronic device, and cannot be shot away. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-209 - Folding barricade\|Folding barricade]] | 15 | 1 | Place a line up to 3 inches long and 1 inch high; heavy cover. It is physical terrain, not an electronic device, and cannot be shot away. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Deployable Cards/V2-210 - Portable ladder\|Portable ladder]] | 10 | 1 | Place a ladder reaching up to 6 inches. It provides normal ladder movement to either crew. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Deployable Cards/V2-211 - Tripwire\|Tripwire]] | 10 | 1 | Single-use. First human crossing its marked 2-inch line tests AGI; failure stops movement and Pins them. Success continues. Consumed either way. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Deployable Cards/V2-212 - Blast mine\|Blast mine]] | 20 | 1 | Single-use, electronic. First model entering within 2 inches and LOS triggers a 2-inch-radius Crush hazard centred on the mine, using the shared AGI escape and Damage 3 procedure. Affects both crews. |

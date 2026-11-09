@@ -37,3 +37,7 @@ Edit names, values and effects directly in the table. Add or remove rows as you 
 
 [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]]
 <!-- conditions-reference:end -->
+
+### Equipment consolidation — 2026-11-09
+
+Consolidated owners and remaining narrow decisions: [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Consolidation - Battle Test|Equipment consolidation]]. Original review tables and feedback above are preserved as decision history; use the linked item owners for current profiles.

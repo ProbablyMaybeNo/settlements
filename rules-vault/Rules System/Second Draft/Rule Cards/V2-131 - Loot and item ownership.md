@@ -53,6 +53,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-09'
 ---
 
 # Loot and item ownership
@@ -73,7 +74,7 @@ Loot casualty; Loot ownership; Dropped gear
 
 ^text-s019-b013
 
-An unengaged fighter in contact with a Down or Unconscious model may spend Core to take **one carried item**, including an unused medkit, or one carried objective already on the ground. No test is needed. The looter must have space; it may drop an item into contact to make room. Armour counts as the one item taken with that Core Loot action. The included utility knife and clothing have no resale value.
+An unengaged fighter in contact with a Down model may spend Core to take **one carried item**, including an unused medkit, or one carried objective already on the ground. No test is needed. The looter must have space; it may drop an item into contact to make room. Armour counts as the one item taken with that Core Loot action. The included utility knife and clothing have no resale value.
 
 ^text-s040-b000
 

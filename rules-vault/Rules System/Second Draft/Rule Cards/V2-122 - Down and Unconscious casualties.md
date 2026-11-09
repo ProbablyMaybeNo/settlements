@@ -16,7 +16,7 @@ tags:
 - timing
 - combat
 - visibility
-summary: Down state; Down actions; Two full rounds; Unconscious state; Attacking Down; Casualty obstruction
+summary: Down units await teammate revival; Unconscious units are removed and cannot be revived.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -80,13 +80,14 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-09'
 ---
 
 # Down and Unconscious casualties
 
 ## Summary
 
-Down state; Down actions; Two full rounds; Unconscious state; Attacking Down; Casualty obstruction
+Down units await teammate revival; Unconscious units are removed and cannot be revived.
 
 ## Rule text
 
@@ -98,7 +99,7 @@ Leave a Down fighter on the battlefield, mark its base, and record the **round i
 
 ### Down actions
 
-A Down fighter may only crawl up to half MOVE using its Move slot and attempt self-treatment with a carried medkit using its Core slot. Being Down neither refreshes slots already spent nor grants an immediate crawl. Crawling cannot engage an enemy, use equipment other than self-treatment, or interact with objectives. It provokes ordinary reactions when visible.
+A Down unit cannot crawl, act, react or revive itself. It needs a teammate to use a medkit. It retains its Stress, but ignores Stress while Down or Unconscious.
 
 ^text-s037-b001
 
@@ -110,13 +111,13 @@ At the End Phase **two rounds after the round in which it went Down**, it become
 
 ### Unconscious state
 
-Unconscious fighters stay on the table but cannot act, react, or be revived during that battle. They may still be carried, looted, or captured. They have not been declared dead.
+An Unconscious unit cannot be revived. Remove its model from the board and record it for one post-battle lasting-injury roll. It cannot be looted, carried or newly captured after removal. Becoming Unconscious does not mean it is dead.
 
 ^text-s037-b003
 
 ### Attacking Down
 
-A Down or Unconscious fighter cannot be used as a shield for another model and does not block movement or LOS. Attacks may target a visible Down fighter using normal shooting or one automatic melee hit from contact. A successful Injury roll makes it Unconscious immediately. It does not kill it, roll lasting injuries early, or add further post-battle injury rolls. Further attacks on an Unconscious fighter have no additional rules effect. There are no battlefield execution rules.
+A Down unit does not block movement or LOS. Attacks may target a visible Down unit using normal shooting, or one automatic melee hit from contact. A successful Injury roll makes it Unconscious: remove it and record one post-battle injury roll. Repeated hits do not add injury rolls or declare it dead.
 
 ^text-s039-b000
 

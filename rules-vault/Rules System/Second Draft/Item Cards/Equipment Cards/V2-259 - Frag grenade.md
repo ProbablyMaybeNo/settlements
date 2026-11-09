@@ -12,7 +12,7 @@ tags:
 - equipment
 - combat
 - consumable
-summary: 10 Cr/1 slot; single-use range 8″, Dmg 1, Blast; Workshop.
+summary: Spend Core to throw up to 8 inches using the thrown-area procedure. Damage 1; 3-inch-diameter Blast. A miss Scatters. Single-use.
 status: Partial
 review_status: Unreviewed
 publication: Included
@@ -22,24 +22,25 @@ source:
   2#Armour and supplies]]'
 review_notes: ''
 credits: 10
-equipment_slots: 1
-rule: Single-use; range 8, Damage 1, Blast
+equipment_slots: 1 per pair
+rule: Spend Core to throw up to 8 inches using the thrown-area procedure. Damage 1; 3-inch-diameter Blast. A miss Scatters. Single-use.
 access: Workshop
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
 planned_section: 07 · Equipment
-rule_parent: Equipment
+rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-493
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-09'
 ---
 
 # Frag grenade
 
 ## Summary
 
-10 Cr/1 slot; single-use range 8″, Dmg 1, Blast; Workshop.
+Spend Core to throw up to 8 inches using the thrown-area procedure. Damage 1; 3-inch-diameter Blast. A miss Scatters. Single-use.
 
 ## Rule text
 
@@ -47,8 +48,8 @@ consolidated: '2026-10-25'
 | --- | --- |
 | Item | Frag grenade |
 | Credits | 10 |
-| Equipment slots | 1 |
-| Rule | Single-use; range 8, Damage 1, Blast |
+| Equipment slots | 1 per pair |
+| Rule | Spend Core to throw up to 8 inches using the thrown-area procedure. Damage 1; 3-inch-diameter Blast. A miss Scatters. Single-use. |
 | Access | Workshop |
 
 ^text-s066-b005
@@ -63,3 +64,7 @@ consolidated: '2026-10-25'
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
 
 <!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+
+### Equipment consolidation — 2026-11-09
+
+[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Ross’s original equipment decisions]]. The profile keeps its existing Partial status. Ordinary Injury and Blast containment apply; a remaining grenade still occupies the pair’s slot.

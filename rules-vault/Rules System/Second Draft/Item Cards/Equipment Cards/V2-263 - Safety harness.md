@@ -12,10 +12,10 @@ tags:
 - equipment
 - reroll
 - once-battle
-summary: 10 Cr/1 slot; once/battle reroll failed fall-avoidance AGI with kit/safety line; Workshop.
-status: Drafted
+summary: Unavailable in the first battle test.
+status: Deferred
 review_status: Unreviewed
-publication: Included
+publication: Deferred
 created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
@@ -23,24 +23,24 @@ source:
 review_notes: ''
 credits: 10
 equipment_slots: 1
-rule: Once per battle reroll a failed AGI test to avoid a fall; must be used with a climbing kit or a declared safety
-  line
+rule: Unavailable in the first battle test.
 access: Workshop
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
 planned_section: 07 · Equipment
-rule_parent: Equipment
+rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-492
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-09'
 ---
 
 # Safety harness
 
 ## Summary
 
-10 Cr/1 slot; once/battle reroll failed fall-avoidance AGI with kit/safety line; Workshop.
+Unavailable in the first battle test.
 
 ## Rule text
 
@@ -49,7 +49,7 @@ consolidated: '2026-10-25'
 | Item | Safety harness |
 | Credits | 10 |
 | Equipment slots | 1 |
-| Rule | Once per battle reroll a failed AGI test to avoid a fall; must be used with a climbing kit or a declared safety line |
+| Rule | Unavailable in the first battle test. |
 | Access | Workshop |
 
 ^text-s066-b009
@@ -64,3 +64,7 @@ consolidated: '2026-10-25'
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
 
 <!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+
+### Equipment consolidation — 2026-11-09
+
+[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Ross’s original equipment decisions]]. Removed explicitly; the separate load-bearing harness is not a fall reroll. Previous profile, retained for provenance: Once per battle reroll a failed AGI test to avoid a fall; must be used with a climbing kit or a declared safety line.

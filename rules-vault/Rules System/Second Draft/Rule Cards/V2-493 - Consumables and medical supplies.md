@@ -33,9 +33,19 @@ catalogue_members:
 - V2-258
 - V2-259
 - V2-260
-- V2-267
+- V2-265
 - V2-268
 - V2-269
+- V2-501
+- V2-502
+- V2-503
+- V2-504
+- V2-505
+- V2-506
+- V2-507
+- V2-508
+- V2-509
+last_rule_update: '2026-11-09'
 ---
 
 # Consumables and medical supplies

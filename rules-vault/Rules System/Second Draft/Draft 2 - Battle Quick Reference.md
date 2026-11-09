@@ -97,13 +97,13 @@ Each hit: **d20 + Damage − Armour + injury modifiers ≥15**. Natural 1 fails,
 
 ### Down and rescue
 
-Down stays on table, drops mission cargo, loses READY/Hidden/Marked/Aim, retains Stress. Record the round. Only crawl half MOVE or self-Treat with an available slot. No objective control/contest. At End of **Down round +2**, become Unconscious: no actions or revival, still lootable/carryable. Down in round 2 expires at End of round 4.
+Down stays on the board and needs teammate revival; it cannot crawl or self-treat. Its existing Down timer continues. Unconscious: remove the model, no revival; record one post-battle injury roll.
 
-**Treat:** Core, contact, medkit consumed, INT test. Helper must be conscious, unpinned and unengaged. Success: 1 Wound, Pinned, Stress 2, remove morale condition. Self-treatment ignores Stress. Failure consumes kit but does not change timer. One successful revival per fighter per battle. Slots do not refresh.
+**Treat:** A conscious, unpinned, unengaged teammate in contact spends Core and a medkit to revive automatically: 1 Wound, Pinned, Stress 2, remove morale. Once per patient per battle. No action refresh or lasting-injury cure.
 
-**Loot:** Core/contact takes one item, including armour, into free capacity. Drop gear to make room. **Secure:** Core/contact Down or Unconscious enemy; no conscious unpinned enemy within 1 inch of either. Captive cannot act; its timer runs. Escort half MOVE off own deployment edge to complete capture. Escort Pinned/Down/fear releases it. Friendly evacuation needs no Secure. An extracting escort/carrier also leaves the battle. Evacuated casualties still roll injury.
+**Loot:** Core/contact takes one item, including armour, into free capacity. Drop gear to make room. **Secure:** Core/contact Down enemy; no conscious unpinned enemy within 1 inch of either. Captive cannot act; its timer runs. Escort half MOVE off own deployment edge to complete capture. Escort Pinned/Down/fear releases it. Friendly evacuation needs no Secure. An extracting escort/carrier also leaves the battle. Evacuated casualties still roll injury.
 
-Attacking Down: normal shot or contact Core for one automatic hit. Injury success makes Unconscious. No on-table death or further effect against Unconscious.
+Attacking Down: normal shot or contact Core for one automatic hit. Injury success makes Unconscious. Remove Unconscious units and record one post-battle injury roll; removal is not death.
 
 ### Stress and fear
 
@@ -137,7 +137,7 @@ Hacking kit: Core/INT at visible electronic device within 8 inches; success Offl
 
 Feature card: footprint, controls, links, states, operation, hazard. Paper markers work. **Displace:** shortest safe position up to 2 inches, owner chooses; no space means operation stops unless Crush. **Crush:** conscious victim AGI; pass Displace, fail/no space Damage 3 Injury ignoring Armour, then Pinned if conscious. Casualties cannot evade; Down may become Unconscious, never Dead. One Crush per feature per fighter per round.
 
-Smoke: 3-inch diameter, blocks through LOS up to 3 inches above surface; inside visibility only 1 inch. Gas: 3-inch Difficult zone, +1 Stress on entry/action start, once per round; respirator ignores. Fire: 3-inch zone, Damage 2 Injury on entry/action start once per round; no LOS block. INT/Core at edge extinguishes, extinguisher automatic. Portable smoke/fire expire End of next round; fixed vents remain while On.
+Smoke uses the shared Smoke visibility rule. A respirator ignores its effects for the bearer. Fixed gas vents use their printed terrain profiles; tear-gas grenades use their own Pinned profile. Molotovs apply On Fire and leave no fire zone.
 
 Doors/shutters open or close; blast door may Crush. Lift ≤6 inches between stops. Bridge ≤6 inches retracts: AGI to safe end within 2 inches or Fall. Pit cover same escape. Crane/hoist move marked cargo ≤4 inches, Crush only in declared area. Moving barricade Displaces, never pushes off ledge. Lights reveal Hidden in 6-inch-diameter zone. Fans clear linked smoke/gas. Junction disables up to two linked features within 12 inches; manual routes remain. Use the chosen card for other features.
 
@@ -153,9 +153,9 @@ Drone: Core deploys. Later operator Core: fly 8 inches, operate drone-contact co
 
 ### Special attacks and supplies
 
-Blast: visible point in weapon range; use the weapon-specified template (circular templates: **3- or 5-inch diameter**). Missing weapon-profile assignments remain unresolved; no default size is assigned. One ordinary Attack Die per affected fighter/device with unobstructed blast line, on same level or within 2 inches vertically; solid floors/walls block. Cover from centre; −2 against Pinned; ignore Hidden. No scatter/extra central hit; no bonus dice or dual use.
+Blast: make one normal shooting test at a visible impact point. On a miss, Scatter d6 inches in a random direction. Models under the final template and within 3 inches vertically are automatically hit. Walls and floors block the effect. Use the source’s size and effect.
 
-Smoke grenade: Core/DEX, visible point within 8 inches. Pass place; fail 2 inches closer along line, stopping at obstruction. Fire bottle: ordinary Damage 1 Blast, then fire zone; initial attack counts as that round's fire exposure. Damaging grenades use Core Shoot and the attack allowance; smoke uses Core Use Item. Grenades consume their item. Reload weapons start loaded, need Core reload after firing. One chem dose per fighter per round; Pinned needs a helper. Use printed roster entries for other traits/items.
+Smoke grenade: Core Use Item, DEX, range 8 inches; 5-inch-diameter screen. A miss Scatters. It clears at this round’s End Phase. Frag: Core Shoot, range 8 inches, Damage 1, 3-inch-diameter Blast. Molotov: same throw; On Fire replaces Injury and no fire zone remains. All are single-use. Other equipment and conditions use their linked owners.
 
 ### Objectives and battle end
 
@@ -164,3 +164,7 @@ Battles have a **primary objective and a secondary objective**. At most **six ob
 **Scenario specifics are reserved for Ross.** Use the agreed scenario's instructions for scoring, interaction and rewards. The former generator's default objectives and scoring are deferred; they are retained in the card library for reference. No routine casualty points.
 
 End round 6: highest score wins, tie draws; withdrawal loses. Resolve injury once for each unresolved Down/Unconscious, update actual loot, then Settlement round. Both crews receive 125 Credits/20 Materials, winner +25 Credits. Qualifying battle needs two complete rounds or normal early mission completion. Use manuscript Chapters 18–21 for injuries, XP, workers and Power.
+
+### Equipment consolidation — 2026-11-09
+
+For equipment area effects, use [[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]. For conditions, use [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]. Other quick-reference mechanics are outside this equipment pass.

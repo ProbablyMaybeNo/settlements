@@ -12,7 +12,7 @@ tags:
 - equipment
 - limits
 - medical
-summary: Chem limits
+summary: Core administration; one chem dose per unit per round; printed durations and no stacking; addiction deferred.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -33,19 +33,22 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-09'
 ---
 
 # Chems and medical supplies
 
 ## Summary
 
-Chem limits
+Core administration; one chem dose per unit per round; printed durations and no stacking; addiction deferred.
 
 ## Rule text
 
 ### Chem limits
 
-A conscious fighter may administer a chem to itself only when otherwise permitted to Use Item. A Pinned fighter needs help; a chem does not silently override its action restrictions. A fighter may receive **one chem dose per round**. The bonus ends when used, and duplicates do not stack. Medkits and dressings are medical supplies, not chems. There is no addiction, toxicity, or drug-combination track in the core rules.
+Spend Core to administer a dose to yourself or a friendly in contact. The user must be conscious, unpinned, unengaged and otherwise allowed to Use Item. A Pinned recipient needs a teammate. A unit may receive one chem dose per round. Duplicate bonuses do not stack.
+
+Use the dose’s printed duration. Declare a one-test bonus before rolling; it cannot modify Injury. A Stat bonus does not unlock skills or change carrying capacity. Medkits, repair packs and antidotes are supplies, not chem doses. Hooked and addiction are outside the first battle test.
 
 ^text-s066-b016
 
@@ -62,3 +65,7 @@ A conscious fighter may administer a chem to itself only when otherwise permitte
 ## Design notes
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+
+### Equipment consolidation — 2026-11-09
+
+Juice’s explicitly battle-long STR effect overrides the earlier blanket “bonus ends when used.” Proposed additions with blank feedback retain Partial status. No prices are changed.

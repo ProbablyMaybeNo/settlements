@@ -14,7 +14,7 @@ tags:
 - core
 - down
 - once-battle
-summary: Treat ally; Self-treatment; Revival limit
+summary: A medkit automatically revives a Down teammate once per battle; no self-revival or action refresh.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -53,37 +53,34 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-09'
 ---
 
 # Treatment and revival
 
 ## Summary
 
-Treat ally; Self-treatment; Revival limit
+A medkit automatically revives a Down teammate once per battle; no self-revival or action refresh.
 
 ## Rule text
 
 ### Treat ally
 
-| Field | Value |
-| --- | --- |
-| Action | Treat or Use Item |
-| Cost | Core |
-| Main effect | Use a medkit or another printed equipment effect |
+Spend Core and a medkit to revive a Down teammate in contact.
 
 ^text-s019-b012
 
-A medkit is a single-use consumable. A conscious, unpinned, unengaged fighter in contact with a Down friendly may spend its Core and a medkit to test INT. Success restores one Wound, removes any morale condition, and leaves the patient Pinned at **2 Stress**. Failure spends the action and medkit but does not alter the Down timer. Natural 1 has no additional medical penalty.
+A conscious, unpinned, unengaged unit in contact with a Down teammate may spend Core and one medkit to revive it automatically. Restore one Wound, remove morale conditions and leave the patient Pinned at 2 Stress.
 
 ^text-s038-b000
 
 ### Self-treatment
 
-A Down fighter carrying a medkit may use the same action on itself. For **self-treatment only**, ignore its Stress penalty: the attempt represents applying prepared emergency aid. An assisting fighter uses its own normal INT test and Stress. One fighter may be successfully revived **once per battle**. Record that use on its card. A later Down still allows crawling and capture but cannot be revived again that battle.
+A Down unit cannot revive itself. Each unit may receive medkit revival once per battle; record it on the patient. A later Down cannot be revived again.
 
 ^text-s038-b001
 
-Treatment never restores spent action slots. A revived patient remains Pinned and can spend an unused Move to stand, leaving any unused Core available. If Move was already spent, ordinary self-Recover waits until its next Move becomes available; friendly help and Rally still work as stated. A revived fighter retains injuries from earlier battles. Medical aid in battle does not erase a lasting injury.
+Revival restores no spent actions and removes no lasting injury. The patient may use any remaining actions once its conditions allow it.
 
 ^text-s038-b002
 
@@ -100,3 +97,7 @@ Treatment never restores spent action slots. A revived patient remains Pinned an
 ## Design notes
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+
+### Equipment consolidation — 2026-11-09
+
+Ross’s equipment decision replaces the INT test with automatic revival. Component approval records remain historical provenance. The earlier teammate-only decision is retained.

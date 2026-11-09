@@ -84,3 +84,7 @@ Unconscious - Unit cannot be revived. Remove from board. Roll on injury chart in
 
 [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-on-fire|On Fire]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-poisoned|Poisoned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-shocked-or-stunned|Shocked or Stunned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-destroyed|Destroyed]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hooked|Hooked]]
 <!-- conditions-reference:end -->
+
+### Equipment consolidation — 2026-11-09
+
+Consolidated owners and remaining narrow decisions: [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Consolidation - Battle Test|Equipment consolidation]]. Original review tables and feedback above are preserved as decision history; use the linked item owners for current profiles.

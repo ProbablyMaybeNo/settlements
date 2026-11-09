@@ -71,6 +71,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-09'
 ---
 
 # Shared terrain operations and hazards
@@ -95,13 +96,15 @@ Give each feature a card showing its **footprint, control point, linked terminal
 
 ### Crush against casualties
 
-**Crush:** each affected conscious fighter tests AGI. Pass: Displace it safely. Fail, or no safe destination: one Damage 3 Injury roll ignoring Armour, then Pinned if still conscious. Move a casualty to the nearest accessible edge of the hazard footprint. Down or Unconscious casualties cannot evade; an Injury success against Down makes it Unconscious, and Unconscious has no further injury effect. Neither is removed as dead. A feature cannot affect the same fighter with Crush more than once per round.
+**Crush:** each affected conscious fighter tests AGI. Pass: Displace it safely. Fail, or no safe destination: one Damage 3 Injury roll ignoring Armour, then Pinned if still conscious. Move a casualty to the nearest accessible edge of the hazard footprint. Down casualties cannot evade; an Injury success makes one Unconscious. Remove it and record its post-battle injury roll. Unconscious casualties are no longer on the board; removal is not death. A feature cannot affect the same fighter with Crush more than once per round.
 
 ^text-s054-b002
 
 ### Smoke visibility
 
-**Fall:** use [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#7 Movement facing and visibility|movement facing and visibility]]. **Smoke:** blocks LOS through the template at any height up to 3 inches above its surface; fighters inside can see and be seen only within 1 inch. **Difficult:** movement costs double. Only the named state persists; do not add new conditions for individual machines.
+Smoke extends upward from its template without a height limit. It blocks LOS through it between units outside the smoke. A unit inside has Heavy cover when attacked. When it shoots outside, its target has Heavy cover. A respirator ignores smoke’s effects for its bearer; other units resolve smoke normally.
+
+For Fall, use the shared falling rules. Difficult ground costs double movement. Only the named terrain state persists.
 
 ^text-s054-b003
 

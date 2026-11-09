@@ -12,7 +12,7 @@ tags:
 - equipment
 - visibility
 - consumable
-summary: 5 Cr/1 slot; single-use smoke placement; no attack.
+summary: Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-inch-diameter smoke screen; a miss Scatters. It clears at this round’s End Phase. Single-use.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,24 +22,25 @@ source:
   2#Armour and supplies]]'
 review_notes: ''
 credits: 5
-equipment_slots: 1
-rule: Single-use; smoke procedure
+equipment_slots: 1 per pair
+rule: Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-inch-diameter smoke screen; a miss Scatters. It clears at this round’s End Phase. Single-use.
 access: Basic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
 planned_section: 07 · Equipment
-rule_parent: Equipment
+rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-493
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-09'
 ---
 
 # Smoke grenade
 
 ## Summary
 
-5 Cr/1 slot; single-use smoke placement; no attack.
+Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-inch-diameter smoke screen; a miss Scatters. It clears at this round’s End Phase. Single-use.
 
 ## Rule text
 
@@ -47,8 +48,8 @@ consolidated: '2026-10-25'
 | --- | --- |
 | Item | Smoke grenade |
 | Credits | 5 |
-| Equipment slots | 1 |
-| Rule | Single-use; smoke procedure |
+| Equipment slots | 1 per pair |
+| Rule | Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-inch-diameter smoke screen; a miss Scatters. It clears at this round’s End Phase. Single-use. |
 | Access | Basic |
 
 ^text-s066-b004
@@ -63,3 +64,7 @@ consolidated: '2026-10-25'
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
 
 <!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+
+### Equipment consolidation — 2026-11-09
+
+[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Ross’s original equipment decisions]]. The later explicit Scatter instruction replaces the old fixed 2-inch placement failure. A remaining grenade still occupies the pair’s slot.

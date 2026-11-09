@@ -13,8 +13,7 @@ tags:
 - pinned
 - stress
 - combat
-summary: 5 Cr/1 slot; Core/contact removes conscious friendly's Pinned and one Stress; adds one Stress at End Phase;
-  Clinic.
+summary: Spend Core in contact with a conscious friendly to remove Pinned and 1 Stress. It gains 1 Stress at this End Phase. Single-use; cannot affect a Down unit.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -25,13 +24,12 @@ source:
 review_notes: ''
 credits: 5
 equipment_slots: 1
-rule: Single-use; Core in contact removes Pinned and 1 Stress from a conscious friendly. It gains 1 Stress at this
-  End Phase. Cannot affect a Down fighter.
+rule: Spend Core in contact with a conscious friendly to remove Pinned and 1 Stress. It gains 1 Stress at this End Phase. Single-use; cannot affect a Down unit.
 access: Clinic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
 planned_section: 07 · Equipment
-rule_parent: Equipment
+rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-493
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies]]'
@@ -42,7 +40,7 @@ consolidated: '2026-10-25'
 
 ## Summary
 
-5 Cr/1 slot; Core/contact removes conscious friendly's Pinned and one Stress; adds one Stress at End Phase; Clinic.
+Spend Core in contact with a conscious friendly to remove Pinned and 1 Stress. It gains 1 Stress at this End Phase. Single-use; cannot affect a Down unit.
 
 ## Rule text
 
@@ -51,7 +49,7 @@ consolidated: '2026-10-25'
 | Item | Stimulant |
 | Credits | 5 |
 | Equipment slots | 1 |
-| Rule | Single-use; Core in contact removes Pinned and 1 Stress from a conscious friendly. It gains 1 Stress at this End Phase. Cannot affect a Down fighter. |
+| Rule | Spend Core in contact with a conscious friendly to remove Pinned and 1 Stress. It gains 1 Stress at this End Phase. Single-use; cannot affect a Down unit. |
 | Access | Clinic |
 
 ^text-s066-b014
@@ -72,3 +70,7 @@ consolidated: '2026-10-25'
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
 
 <!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+
+### Equipment consolidation — 2026-11-09
+
+[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Ross’s original equipment decisions]]. Existing effect retained; prose only. No explicit removal or substitution by the proposed Stims was found. Its semantic date and approval are unchanged.

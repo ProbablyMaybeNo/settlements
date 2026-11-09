@@ -19,13 +19,12 @@ tags:
 - visibility
 - injury
 - interaction
-summary: Blast attack; Blast containment and modifiers; Smoke grenade procedure; Damaging grenades; Fire zones;
-  Extinguish fire
-status: Drafted
+summary: Shared thrown-area placement and Scatter; smoke screens; Molotovs apply On Fire without Injury or a fire zone.
+status: Partial
 review_status: Needs review
 publication: Included
 created: '2026-10-18'
-last_rule_update: '2026-10-22'
+last_rule_update: '2026-11-09'
 source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-248 - Blast attack]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-249 - Blast containment and modifiers]]'
@@ -90,25 +89,29 @@ component_rules:
 
 ## Summary
 
-Blast attack; Blast containment and modifiers; Smoke grenade procedure; Damaging grenades; Fire zones; Extinguish fire
+Shared thrown-area placement and Scatter; smoke screens; Molotovs apply On Fire without Injury or a fire zone.
 
 ## Rule text
 
 ### Blast attack
 
-For a Blast, choose a visible impact point within range. It must be a surface or a model's position, not an arbitrary point in the air. Use the template specified by the weapon; circular Blast templates are **3 or 5 inches in diameter**. Each fighter or device whose base touches that template and has an unobstructed line to its centre is a target, including the user's crew. This blast line ignores the target's facing. Targets must be on the impact point's level or within 2 inches vertically; intervening floors block it. Roll one normal ranged Attack Die against each, then Injury for hits on fighters; devices instead use their hit-based damage rule. Rear and Aim bonuses apply using the shooter's position and state, not the blast centre. Use cover from the impact point, apply −2 against a Pinned target, and ignore Hidden's −4. There is no separate shot at the centre, scatter roll, or extra attack on the original target. Solid walls contain the blast. A fighter can be hit only once by that blast.
+Choose a visible impact point within range, on a surface or model. Make one normal shooting test. On a hit, place the template there. On a miss, Scatter it d6 inches in a random direction.
+
+Use the source’s size: circles are normally 3 inches in diameter. A profile may specify a different diameter or radius. Models under the final footprint and within 3 inches above or below it are automatically hit, including friendlies unless the profile says otherwise. Solid obstacles and floors block the effect. Each model is affected once. Resolve the source’s Injury or condition effect; do not make another hit roll for each model.
 
 ^text-s065-b000
 
 ### Smoke grenade procedure
 
-Throwing a damaging grenade or fire bottle is a Core Shoot action and uses the own-turn attack allowance. It cannot be combined with another held weapon. A smoke grenade is a non-attack Core Use Item action and instead requires one DEX test to place a **3-inch-diameter** smoke template at a visible point within 8 inches. Pass: place it there. Fail: place it 2 inches closer to the thrower along the same line, stopping at the first obstruction. It produces no hits. Smoke lasts through the End Phase of the **next round**, then clears; mark its expiry round.
+Thrown area items have range 8 inches. Damaging grenades, Molotovs, flashbangs and tear-gas grenades cost Core Shoot and use the activation’s attack allowance. They cannot be combined with another weapon. Single-use items are consumed when thrown. Use the Blast procedure for placement and Scatter.
+
+A smoke grenade instead costs non-attack Core Use Item. Make one DEX test to place a 5-inch-diameter smoke screen at a visible point within 8 inches. On failure, Scatter it using the same procedure. It causes no hits and clears at this round’s End Phase. Use the shared Smoke visibility rule.
 
 ^text-s065-b001
 
 ### Fire zones
 
-A fire bottle uses the grenade Blast profile, then leaves a 3-inch-diameter fire zone at the chosen point regardless of hit results. A human entering or starting an action inside fire suffers one Damage 2 Injury roll, at most once per round from fire zones. The initial bottle attack counts as that exposure. Fire blocks neither LOS nor movement. It lasts through the next round's End Phase. Core Interact in contact with the zone's edge extinguishes it on an INT test; a fire extinguisher does so automatically. Fire does not spread or add a separate Burning condition.
+A Molotov cocktail applies On Fire instead of rolling Injury. It leaves no separate fire zone. Use the shared equipment-conditions rule for burning units. A fire extinguisher is not available in the first battle test.
 
 ^text-s065-b002
 
@@ -128,3 +131,7 @@ A fire bottle uses the grenade Blast profile, then leaves a 3-inch-diameter fire
 Confirmed by Ross on 2026-10-22: template choice depends on the weapon. Missing profile assignments and flame-template details remain unresolved; no default circle or new flame procedure is supplied. See [[design-011 Weapon-specific templates]].
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+
+### Equipment consolidation — 2026-11-09
+
+The October 26 agreed Blast/Scatter procedure is retained. The November equipment notes replace smoke’s fixed miss displacement and the old fire-bottle procedure. Flashbang and tear gas use their explicit radii, not the ordinary Blast diameter. Original feedback and component approvals are preserved above.
