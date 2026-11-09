@@ -21,12 +21,15 @@ source:
 review_notes: Explicit 3-inch radius, not diameter. Stunned uses the shared condition; no Blinded condition or extra Injury effect is added. Ordinary thrown-grenade range is reused.
 equipment_slots: 1
 rule: Spend Core to throw up to 8 inches using the thrown-area procedure. Enemies within a 3-inch radius gain Stunned. A miss Scatters. Single-use.
-access: Basic
+access: Battle test only
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-493
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies]]'
+related_rules:
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]'
 ---
 
 # Flashbang
@@ -42,11 +45,14 @@ Spend Core to throw up to 8 inches using the thrown-area procedure. Enemies with
 | Item | Flashbang |
 | Equipment slots | 1 |
 | Rule | Spend Core to throw up to 8 inches using the thrown-area procedure. Enemies within a 3-inch radius gain Stunned. A miss Scatters. Single-use. |
-| Access | Basic |
+| Access | Battle test only |
 
 ^equipment-v2-502
 
 ## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies|Catalogue table]]
 

@@ -26,7 +26,8 @@ equipment_slots: 1
 rule: Spend Core to throw up to 8 inches using the thrown-area procedure. Units caught in the 3-inch-diameter Blast gain On Fire instead of an Injury roll. A miss Scatters. Single-use.
 access: Basic
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]'
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
@@ -55,6 +56,9 @@ Spend Core to throw up to 8 inches using the thrown-area procedure. Units caught
 ^text-s066-b006
 
 ## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]

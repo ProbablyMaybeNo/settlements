@@ -21,12 +21,14 @@ source:
 review_notes: Explicit addition; no hand or armour slot is consumed. It is capacity, not a Stat increase. Copy stacking beyond one vest is not granted.
 equipment_slots: 0
 rule: The wearer gains one equipment slot. The vest occupies no equipment slot.
-access: Basic
+access: Battle test only
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-492
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment]]'
+related_rules:
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Equipping fighters and handling weapons]]'
 ---
 
 # Utility vest
@@ -42,11 +44,13 @@ The wearer gains one equipment slot. The vest occupies no equipment slot.
 | Item | Utility vest |
 | Equipment slots | 0 |
 | Rule | The wearer gains one equipment slot. The vest occupies no equipment slot. |
-| Access | Basic |
+| Access | Battle test only |
 
 ^equipment-v2-499
 
 ## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Equipping fighters and handling weapons]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment|Catalogue table]]
 

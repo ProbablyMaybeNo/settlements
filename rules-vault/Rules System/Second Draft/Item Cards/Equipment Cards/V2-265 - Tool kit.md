@@ -10,7 +10,6 @@ book_subsection: Tools and Supplies
 tags:
 - settlements/v2
 - equipment
-- test-plus
 - device
 summary: Spend Core in contact with a repairable device to pass one Repair test automatically. Single-use.
 status: Drafted
@@ -26,7 +25,7 @@ equipment_slots: 1
 rule: Spend Core in contact with a repairable device to pass one Repair test automatically. Single-use.
 access: Basic
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-165 - Hacking, terminals and repair|Hacking, terminals and repair]]'
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
@@ -55,6 +54,8 @@ Spend Core in contact with a repairable device to pass one Repair test automatic
 ^text-s066-b011
 
 ## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-165 - Hacking, terminals and repair|Hacking, terminals and repair]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]

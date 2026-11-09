@@ -21,12 +21,14 @@ source:
 review_notes: The explicit battle-long duration overrides the category’s proposed next-test duration. Use the shared chem administration procedure. Hooked is deferred.
 equipment_slots: 1
 rule: Use one dose to gain +2 STR for this battle. Single-use.
-access: Basic
+access: Battle test only
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-493
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies]]'
+related_rules:
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chems and medical supplies]]'
 ---
 
 # Juice
@@ -42,11 +44,13 @@ Use one dose to gain +2 STR for this battle. Single-use.
 | Item | Juice |
 | Equipment slots | 1 |
 | Rule | Use one dose to gain +2 STR for this battle. Single-use. |
-| Access | Basic |
+| Access | Battle test only |
 
 ^equipment-v2-504
 
 ## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chems and medical supplies]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies|Catalogue table]]
 

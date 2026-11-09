@@ -21,6 +21,9 @@ last_rule_update: '2026-11-09'
 source:
 - '[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review]]'
 review_notes: Fire and poison timing/restoration require the narrow decisions below. Effects are Ross’s draft, not newly approved mechanics.
+related_rules:
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|Down and Unconscious casualties]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]'
 ---
 
 # Equipment conditions
@@ -56,6 +59,9 @@ Immediately reduce MOVE by 2. Lose another 2 MOVE each turn while Poisoned. When
 ^condition-poisoned-rule
 
 ## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|Down and Unconscious casualties]]
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]
 
 - [[Settlements/Rules System/Second Draft/Conditions Reference|Conditions reference]]
 

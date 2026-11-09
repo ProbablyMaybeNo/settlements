@@ -10,7 +10,6 @@ book_subsection: Armour and Protective Gear
 tags:
 - settlements/v2
 - equipment
-- armour-plus
 - hands
 - combat
 summary: Occupies one hand. Protection is unresolved; do not use the superseded +1 Armour profile in battle testing.
@@ -27,7 +26,7 @@ equipment_slots: 1
 rule: Occupies one hand. Protection is unresolved; do not use the superseded +1 Armour profile in battle testing.
 access: Workshop
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Equipping fighters and handling weapons]]'
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
@@ -56,6 +55,8 @@ Occupies one hand. Protection is unresolved; do not use the superseded +1 Armour
 ^text-s066-b002
 
 ## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Equipping fighters and handling weapons]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour and shields|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]

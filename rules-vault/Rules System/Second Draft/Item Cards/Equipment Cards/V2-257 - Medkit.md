@@ -26,7 +26,8 @@ equipment_slots: 1
 rule: Spend Core in contact with a Down teammate to revive it automatically under the Revival rules. Single-use; each patient can be revived once per battle.
 access: Basic
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-126 - Treatment and revival|Treatment and revival]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|Down and Unconscious casualties]]'
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
@@ -55,6 +56,9 @@ Spend Core in contact with a Down teammate to revive it automatically under the 
 ^text-s066-b003
 
 ## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-126 - Treatment and revival|Treatment and revival]]
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|Down and Unconscious casualties]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]

@@ -26,7 +26,8 @@ equipment_slots: 1 per pair
 rule: Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-inch-diameter smoke screen; a miss Scatters. It clears at this round’s End Phase. Single-use.
 access: Basic
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards|Shared terrain operations and hazards]]'
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
@@ -55,6 +56,9 @@ Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-in
 ^text-s066-b004
 
 ## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards|Shared terrain operations and hazards]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]

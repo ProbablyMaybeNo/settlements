@@ -66,7 +66,7 @@ A medkit automatically revives a Down teammate once per battle; no self-revival 
 
 ### Treat ally
 
-Spend Core and a medkit to revive a Down teammate in contact.
+A conscious, unpinned, unengaged unit spends Core and a medkit to revive a Down teammate in contact automatically. Use the Revival procedure below.
 
 ^text-s019-b012
 

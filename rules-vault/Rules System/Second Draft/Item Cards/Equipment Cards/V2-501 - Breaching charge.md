@@ -21,12 +21,14 @@ source:
 review_notes: Explicit addition; no STR test. This opens a door, not an arbitrary wall. Ordinary hit and Injury procedures apply.
 equipment_slots: 1
 rule: Spend Core in contact with a door to breach it automatically. Enemies within 2 inches of its far side take one Damage 1 hit. Single-use.
-access: Basic
+access: Battle test only
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-493
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies]]'
+related_rules:
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-114 - Injury and attack outcomes|Injury and attack outcomes]]'
 ---
 
 # Breaching charge
@@ -42,11 +44,13 @@ Spend Core in contact with a door to breach it automatically. Enemies within 2 i
 | Item | Breaching charge |
 | Equipment slots | 1 |
 | Rule | Spend Core in contact with a door to breach it automatically. Enemies within 2 inches of its far side take one Damage 1 hit. Single-use. |
-| Access | Basic |
+| Access | Battle test only |
 
 ^equipment-v2-501
 
 ## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-114 - Injury and attack outcomes|Injury and attack outcomes]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies|Catalogue table]]
 

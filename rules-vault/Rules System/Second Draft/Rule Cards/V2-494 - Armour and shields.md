@@ -48,7 +48,6 @@ Armour profiles. Shields belong to Equipment.
 | --- | --- | --- | --- | --- |
 | [[Settlements/Rules System/Second Draft/Item Cards/Armour Cards/V2-254 - Light armour\|Light armour]] | 10 | Worn | Armour 1 | Basic |
 | [[Settlements/Rules System/Second Draft/Item Cards/Armour Cards/V2-255 - Heavy armour\|Heavy armour]] | 25 | Worn | Armour 2; MOVE reduced by 1 | Armoury |
-| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-256 - Protective shield\|Protective shield]] | 15 | 1 | Occupies one hand. +1 Armour against attacks through the forward arc; total Armour maximum 3. No protection from falls or Crush. | Workshop |
 
 ^catalogue-v2-494
 

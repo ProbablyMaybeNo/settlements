@@ -21,12 +21,14 @@ source:
 review_notes: 'The blank feedback does not approve a duration. Recommended: lasts for the battle, like Juice. This is distinct from the old Stimulant’s Pinned/Stress effect; that existing item is not silently removed or renamed.'
 equipment_slots: 1
 rule: Use one dose to gain +2 MOVE. Single-use; duration awaits the stim decision.
-access: Basic
+access: Battle test only
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-493
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies]]'
+related_rules:
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chems and medical supplies]]'
 ---
 
 # Stims
@@ -42,11 +44,13 @@ Use one dose to gain +2 MOVE. Single-use; duration awaits the stim decision.
 | Item | Stims |
 | Equipment slots | 1 |
 | Rule | Use one dose to gain +2 MOVE. Single-use; duration awaits the stim decision. |
-| Access | Basic |
+| Access | Battle test only |
 
 ^equipment-v2-508
 
 ## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chems and medical supplies]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies|Catalogue table]]
 

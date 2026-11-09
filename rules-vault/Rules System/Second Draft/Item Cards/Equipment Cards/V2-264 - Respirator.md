@@ -25,7 +25,8 @@ equipment_slots: 1
 rule: Ignore gas and smoke effects on the bearer, including smoke’s LOS restrictions. Other units resolve smoke normally. Reusable.
 access: Basic
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards|Shared terrain operations and hazards]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]'
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
@@ -54,6 +55,9 @@ Ignore gas and smoke effects on the bearer, including smoke’s LOS restrictions
 ^text-s066-b010
 
 ## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards|Shared terrain operations and hazards]]
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]

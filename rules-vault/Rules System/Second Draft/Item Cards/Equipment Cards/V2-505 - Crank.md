@@ -21,12 +21,14 @@ source:
 review_notes: 'Proposed role consolidated from the additions table and its category direction; the blank feedback is not approval. Recommended duration: the next declared eligible test, expiring when used or when battle ends. Awaiting the grouped stim decision before battle use.'
 equipment_slots: 1
 rule: Use one dose to gain +2 AGI on one declared test this battle. Single-use; does not modify Injury.
-access: Basic
+access: Battle test only
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-493
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies]]'
+related_rules:
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chems and medical supplies]]'
 ---
 
 # Crank
@@ -42,11 +44,13 @@ Use one dose to gain +2 AGI on one declared test this battle. Single-use; does n
 | Item | Crank |
 | Equipment slots | 1 |
 | Rule | Use one dose to gain +2 AGI on one declared test this battle. Single-use; does not modify Injury. |
-| Access | Basic |
+| Access | Battle test only |
 
 ^equipment-v2-505
 
 ## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chems and medical supplies]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies|Catalogue table]]
 

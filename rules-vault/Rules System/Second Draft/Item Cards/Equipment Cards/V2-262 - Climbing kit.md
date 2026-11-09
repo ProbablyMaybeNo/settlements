@@ -10,7 +10,6 @@ book_subsection: Tools and Supplies
 tags:
 - settlements/v2
 - equipment
-- test-plus
 - movement
 summary: Spend Core to deploy a climbing route from contact to a single-storey ledge. Either crew uses it as a ladder, without a climb test. Reusable.
 status: Drafted
@@ -26,7 +25,8 @@ equipment_slots: 1
 rule: Spend Core to deploy a climbing route from contact to a single-storey ledge. Either crew uses it as a ladder, without a climb test. Reusable.
 access: Basic
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-084 - Climbing, jumping and falling|Climbing, jumping and falling]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Deploying, revealing, disarming and damaging devices]]'
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
@@ -55,6 +55,9 @@ Spend Core to deploy a climbing route from contact to a single-storey ledge. Eit
 ^text-s066-b008
 
 ## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-084 - Climbing, jumping and falling|Climbing, jumping and falling]]
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Deploying, revealing, disarming and damaging devices]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]

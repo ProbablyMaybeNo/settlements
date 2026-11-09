@@ -60,13 +60,22 @@ Consumables and medical supplies: complete table with links to individual equipm
 
 | Name | Credits | Equipment slots | Rule | Access |
 | --- | --- | --- | --- | --- |
-| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-257 - Medkit\|Medkit]] | 10 | 1 | Single-use; Treat or self-treatment | Basic |
-| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-258 - Smoke grenade\|Smoke grenade]] | 5 | 1 | Single-use; smoke procedure | Basic |
-| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-259 - Frag grenade\|Frag grenade]] | 10 | 1 | Single-use; range 8, Damage 1, Blast | Workshop |
-| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-260 - Fire bottle\|Fire bottle]] | 10 | 1 | Single-use; range 8, Damage 1, Blast, fire zone | Basic |
-| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-267 - Trauma dressings\|Trauma dressings]] | 5 | 1 | Single-use; when treating another fighter, reroll one failed treatment test after spending the medkit. No effect on self-treatment. | Clinic |
-| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-268 - Stimulant\|Stimulant]] | 5 | 1 | Single-use; Core in contact removes Pinned and 1 Stress from a conscious friendly. It gains 1 Stress at this End Phase. Cannot affect a Down fighter. | Clinic |
-| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-269 - Anti-anxiety dose\|Anti-anxiety dose]] | 5 | 1 | Single-use; Core on self or friendly in contact gives +2 to its next Break or Rally this battle. Only one dose may be pending per fighter. | Clinic |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-257 - Medkit\|Medkit]] | 10 | 1 | Spend Core in contact with a Down teammate to revive it automatically under the Revival rules. Single-use; each patient can be revived once per battle. | Basic |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-258 - Smoke grenade\|Smoke grenade]] | 5 | 1 per pair | Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-inch-diameter smoke screen; a miss Scatters. It clears at this round’s End Phase. Single-use. | Basic |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-259 - Frag grenade\|Frag grenade]] | 10 | 1 per pair | Spend Core to throw up to 8 inches using the thrown-area procedure. Damage 1; 3-inch-diameter Blast. A miss Scatters. Single-use. | Workshop |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-260 - Fire bottle\|Molotov cocktail]] | 10 | 1 | Spend Core to throw up to 8 inches using the thrown-area procedure. Units caught in the 3-inch-diameter Blast gain On Fire instead of an Injury roll. A miss Scatters. Single-use. | Basic |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-265 - Tool kit\|Repair pack]] | 10 | 1 | Spend Core in contact with a repairable device to pass one Repair test automatically. Single-use. | Basic |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-268 - Stimulant\|Stimulant]] | 5 | 1 | Spend Core in contact with a conscious friendly to remove Pinned and 1 Stress. It gains 1 Stress at this End Phase. Single-use; cannot affect a Down unit. | Clinic |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-269 - Anti-anxiety dose\|Anti-anxiety dose]] | 5 | 1 | Spend Core on yourself or a friendly in contact to gain +2 on the next Break or Rally test this battle. Single-use; only one dose may be pending per unit. | Clinic |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-501 - Breaching charge\|Breaching charge]] | — | 1 | Spend Core in contact with a door to breach it automatically. Enemies within 2 inches of its far side take one Damage 1 hit. Single-use. | Battle test only |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-502 - Flashbang\|Flashbang]] | — | 1 | Spend Core to throw up to 8 inches using the thrown-area procedure. Enemies within a 3-inch radius gain Stunned. A miss Scatters. Single-use. | Battle test only |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-503 - Tear-gas grenade\|Tear-gas grenade]] | — | 1 | Spend Core to throw up to 8 inches using the thrown-area procedure. Units within a 5-inch radius become Pinned unless protected from gas. A miss Scatters. Single-use. | Battle test only |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-504 - Juice\|Juice]] | — | 1 | Use one dose to gain +2 STR for this battle. Single-use. | Battle test only |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-505 - Crank\|Crank]] | — | 1 | Use one dose to gain +2 AGI on one declared test this battle. Single-use; does not modify Injury. | Battle test only |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-506 - Dexies\|Dexies]] | — | 1 | Use one dose to gain +2 INT on one declared test this battle. Single-use; does not modify Injury. | Battle test only |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-507 - Twitch\|Twitch]] | — | 1 | Use one dose to gain +2 DEX on one declared test this battle. Single-use; does not modify Injury. | Battle test only |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-508 - Stims\|Stims]] | — | 1 | Use one dose to gain +2 MOVE. Single-use; duration awaits the stim decision. | Battle test only |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-509 - Antidote\|Antidote]] | — | 1 | Spend Core on yourself or a friendly in contact to remove Poisoned immediately. Single-use. | Battle test only |
 
 ^catalogue-v2-493
 

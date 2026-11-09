@@ -21,12 +21,14 @@ source:
 review_notes: 'The capability is agreed, but current weapon profiles have no STR handling threshold. No new threshold is invented. Ross’s earlier intent mentioned movement penalties: confirm whether this should instead ignore Unwieldy’s penalty after movement. Rank and skill requirements are not waived.'
 equipment_slots: 1
 rule: Ignore a Heavy weapon’s printed STR handling requirement. This does not increase STR or change its hands or equipment slots. Reusable.
-access: Basic
+access: Battle test only
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-492
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment]]'
+related_rules:
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Equipping fighters and handling weapons]]'
 ---
 
 # Load-bearing harness
@@ -42,11 +44,13 @@ Ignore a Heavy weapon’s printed STR handling requirement. This does not increa
 | Item | Load-bearing harness |
 | Equipment slots | 1 |
 | Rule | Ignore a Heavy weapon’s printed STR handling requirement. This does not increase STR or change its hands or equipment slots. Reusable. |
-| Access | Basic |
+| Access | Battle test only |
 
 ^equipment-v2-500
 
 ## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Equipping fighters and handling weapons]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment|Catalogue table]]
 
