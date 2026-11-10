@@ -31,7 +31,7 @@ Three archetypes with three skills each, plus three general skills. Specific ski
 | **Gunslinger** | Gunslinger | When firing two one-handed ranged weapons, use the off-hand weapon’s full Attack Dice. | Keep. Current one-die sidearms give it no extra dice. |
 | **Bullet Time** | Gunslinger | When shooting, divide your Attack Dice between the initial target and enemies within 6 inches of it. | Keep as the shared pool-splitting skill. |
 | **Run + Gun** | Gunslinger | Shoot at any point during your normal Move, then finish moving. | Keep; uses the normal Move and Core. |
-| **Watch Out!** | Watcher | When a friendly within 12 inches and LOS is Charged, spend your action or reaction to let it Shoot before the Charge completes. | Keep the assisted shot. Decide whose reaction is spent. |
+| **Watch Out!** | Watcher | When a friendly within 12 inches and LOS is Charged, spend your Core or ALERT to let it Shoot before the Charge completes. | Concise expression of the selected action/reaction cost; no new restriction proposed. |
 | **Pin Them Down** | Watcher | Your ranged hits that fail to wound also cause Pinned. | Keep. The clarified hit rule makes this a distinct benefit. |
 | **Eyes Peeled** | Watcher | After Downing an enemy with shooting, gain ALERT or give it to a friendly within 12 inches and LOS. | Keep. |
 | **Planning Ahead** | General | Carry two two-handed ranged weapons, or one one-handed and one two-handed ranged weapon. Choose your active weapon at activation start. | Keep; this is the carrying-limit exception. |

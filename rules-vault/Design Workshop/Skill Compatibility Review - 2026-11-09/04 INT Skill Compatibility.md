@@ -31,7 +31,7 @@ Three archetypes with three skills each, plus three general skills. Specific ski
 | **Drone Pilot** | Artificer | Unlock aerial drones. | Agreed deployable category skill; proposed Artificer roster slot. |
 | **Drone Operator** | Artificer | Unlock ground drones. | Agreed deployable category skill; proposed Artificer roster slot. |
 | **Field Engineer** | Artificer | Unlock turrets, traps and mines. | Agreed deployable category skill; proposed Artificer roster slot. |
-| **Stabilize** | Medic | Gain +4 INT on Stabilize tests. Successful treatment also clears Stress; you may Stabilize a conscious unit to clear its Stress. | Keep the Stress treatment. Automatic revival itself needs no test or bonus. |
+| **Stabilize** | Medic | Successful revival also clears Stress. Once per round, Core/INT +4 in contact with a conscious friendly clears its Stress. | The INT test is for the conscious-unit treatment; medkit revival remains automatic. |
 | **Chemical Cocktail** | Medic | You may administer two chems to the same unit; normal action costs apply. | Explicitly allow two doses that round, overriding the ordinary one-dose limit. |
 | **Doc** | Medic | Carry up to three different chems. Once per round, administer one free chem to a friendly within 6 inches. | Keep the packing and administration benefits; doses are still consumed. |
 | **Inspector Gadget** | General | Carry up to three equipment items. | The vest duplicates this. Suggest +1 equipment slot instead, allowing it to stack with the vest. |
