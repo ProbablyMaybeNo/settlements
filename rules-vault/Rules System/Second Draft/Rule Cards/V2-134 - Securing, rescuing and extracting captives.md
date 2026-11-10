@@ -54,7 +54,7 @@ component_rules:
 - rule_id: V2-135
   rule_name: Captured state
   status: Drafted
-  last_rule_update: null
+  last_rule_update: '2026-11-10'
   review_status: Unreviewed
   review_notes: ''
 - rule_id: V2-136

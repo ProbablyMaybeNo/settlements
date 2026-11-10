@@ -7,6 +7,8 @@ created: '2026-11-09'
 
 # STR — skill compatibility review
 
+**10 November acceptance:** [[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Remaining Skills Accepted - 2026-11-10|Remaining twelve STR effects accepted]]. Retain their selected effects; the report’s additional restrictions/replacements are superseded. Pinning is being checked separately and has not changed.
+
 **15 selected skills reviewed. Recommendations only: no rule card or skill approval is changed.**
 
 The **Selected rule** column preserves the recovered 75-skill version. It is not a claim that all those effects remain playable after later decisions. The current 39-skill cards are comparison proposals; their reductions are not automatically adopted. Later explicit decisions, including removals, take precedence.

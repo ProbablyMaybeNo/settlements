@@ -39,19 +39,19 @@ component_rules:
 - rule_id: V2-090
   rule_name: Carry or escort
   status: Drafted
-  last_rule_update: null
+  last_rule_update: '2026-11-10'
   review_status: Unreviewed
   review_notes: ''
 - rule_id: V2-091
   rule_name: Single-carrier movement
   status: Drafted
-  last_rule_update: null
+  last_rule_update: '2026-11-10'
   review_status: Unreviewed
   review_notes: ''
 - rule_id: V2-092
   rule_name: Release a load
   status: Drafted
-  last_rule_update: null
+  last_rule_update: '2026-11-10'
   review_status: Unreviewed
   review_notes: ''
 last_rule_update: '2026-11-10'

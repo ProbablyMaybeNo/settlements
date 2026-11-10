@@ -6,6 +6,8 @@ created: '2026-11-09'
 
 # Skill compatibility review — all 75 selected skills
 
+**10 November acceptance:** [[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Remaining Skills Accepted - 2026-11-10|Remaining twelve STR effects accepted]]. Retain their selected effects; the report’s additional restrictions/replacements are superseded. Pinning is being checked separately and has not changed.
+
 **Scope:** the recovered fifteen-per-stat selection, reviewed against the newer battle decisions and the 9 November equipment consolidation. This is a report, not an implementation or balance-validation claim. No owning skill/rule cards, approvals, original feedback or prices are changed.
 
 The selected source contains 75 skills. The later saved catalogue contains 39; both versions are distinguished in these reports. Recovering the larger selection does not reactivate removed rules. **Cover Me and Tagged remain out; Tunnels remains unavailable for the initial test.** The three device-category skills are included as proposed replacements within the Artificer slots, not three extra unreviewed additions.
