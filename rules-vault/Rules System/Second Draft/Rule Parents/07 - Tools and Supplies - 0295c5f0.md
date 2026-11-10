@@ -4,19 +4,19 @@ parent_name: Tools and Supplies
 parent_family: Equipment
 parent_key: 0295c5f0
 tags:
-- settlements/rule-parent
+  - settlements/rule-parent
 progress_status: Partial
 included_rules: 3
 deferred_rules: 0
-written_rules: 2
+written_rules: 1
 confirmed_rules: 0
 locked_rules: 0
-written_percent: 67
+written_percent: 33
 confirmed_percent: 0
 final_percent: 0
-progress_summary: 67% written · 0% confirmed · 0% final
+progress_summary: 33% written · 0% confirmed · 0% final
 cssclasses:
-- settlements-rule-group
+  - settlements-rule-group
 ---
 
 # Tools and Supplies
@@ -32,7 +32,7 @@ Open this page for the live rule list.
 
 **Tools and Supplies**  
 Equipment  
-**Partial** · 67% written · 0% confirmed · 0% final  
+**Partial** · 33% written · 0% confirmed · 0% final  
 0/3 rules final · 0 deferred
 ^parent-summary
 
