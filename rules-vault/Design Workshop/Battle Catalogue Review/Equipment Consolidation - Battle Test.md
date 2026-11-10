@@ -9,7 +9,7 @@ This is a reading view of the owning equipment profiles. It adds no Credit price
 
 ## Consolidated profiles
 
-The Molotov needs the fire-timing decision before use. Frag retains its original Partial status; its printed Blast and Scatter profile is now explicit.
+Fire timing is now resolved. Frag retains its original Partial status; its printed Blast and Scatter profile is explicit.
 
 ### Hacking kit
 
@@ -67,13 +67,53 @@ The Molotov needs the fire-timing decision before use. Frag retains its original
 
 ![[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-504 - Juice#^equipment-v2-504]]
 
-### Stimulant
-
-![[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-268 - Stimulant#^text-s066-b014]]
-
 ### Anti-anxiety dose
 
 ![[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-269 - Anti-anxiety dose#^text-s066-b015]]
+
+## Follow-up decisions applied
+
+The harness ignores Unwieldy and carrying’s movement reduction. Fire checks and poison ticks now have agreed End Phase timing. Antidote ends Poisoned and restores poison-lost MOVE.
+
+All six stat chems grant +4 for the battle. The old extra Stimulant is Deferred; Anti-anxiety dose is the NRV chem. Any chem used in two consecutive battles triggers Addicted for the crew’s next battle. Its −2 stat penalties are suppressed by any chem and expire after that battle, even if the unit sits out.
+
+The shield remains unresolved and unavailable for the first test. The recommendation is to omit shields from this test; Ross has not approved removal or a new shield effect.
+
+## Current profiles
+
+### Load-bearing harness
+
+![[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-500 - Load-bearing harness#^equipment-v2-500]]
+
+### Crank
+
+![[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-505 - Crank#^equipment-v2-505]]
+
+### Dexies
+
+![[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-506 - Dexies#^equipment-v2-506]]
+
+### Twitch
+
+![[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-507 - Twitch#^equipment-v2-507]]
+
+### Stims
+
+![[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-508 - Stims#^equipment-v2-508]]
+
+### Antidote
+
+![[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-509 - Antidote#^equipment-v2-509]]
+
+## Shared owners
+
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-126 - Treatment and revival|Treatment and revival]]
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chems and medical supplies]]
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|Down and Unconscious casualties]]
+
+## Earlier consolidation recommendations — superseded where resolved above
 
 ## Retained drafts needing a decision
 
@@ -103,10 +143,3 @@ The Tough skill’s old failed-medkit-test trigger has no application after auto
 4. **Poison timing and antidote:** recommended: −2 MOVE immediately, then at each later round’s End Phase; antidote restores only MOVE lost to Poisoned. Natural MOVE determines unconsciousness. No additional poison source is invented.
 5. **Unanswered stim additions:** recommended: Crank/Dexies/Twitch give +2 to the next declared AGI/INT/DEX test this battle; Stims gives +2 MOVE for the battle. Juice’s +2 STR for the battle is already settled. Approve these proposed effects together, or leave them outside the first test.
 
-## Shared owners
-
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-126 - Treatment and revival|Treatment and revival]]
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chems and medical supplies]]
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|Down and Unconscious casualties]]

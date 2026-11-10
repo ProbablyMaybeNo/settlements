@@ -16,7 +16,7 @@ status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
-last_rule_update: '2026-10-19'
+last_rule_update: '2026-11-09'
 source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-073 - End Phase order]]'
 review_notes: ''
@@ -45,7 +45,7 @@ End Phase order
 
 ### End Phase order
 
-1. Finish any effects explicitly due at the end of the round; the first player resolves their crew's effects first if order matters.
+1. Resolve On Fire checks and Poisoned MOVE loss under the Equipment conditions rules. Finish any other effects explicitly due at the end of the round; the first player resolves their crew's effects first if order matters.
 2. Check Down timers and turn overdue casualties Unconscious.
 3. Resolve one Break or Rally test per eligible fighter as described in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#10 Stress and morale|stress and morale]].
 4. Score objectives due this round. Clear temporary effects whose duration is “this round.” Remove unused Aim when its stated duration ends. Resolve smoke, fire, and gas expiry.

@@ -168,3 +168,7 @@ End round 6: highest score wins, tie draws; withdrawal loses. Resolve injury onc
 ### Equipment consolidation — 2026-11-09
 
 For equipment area effects, use [[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]. For conditions, use [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]. Other quick-reference mechanics are outside this equipment pass.
+
+### Follow-up decision — 2026-11-09
+
+Current equipment follow-up: a harness ignores Unwieldy and carrying’s movement reduction. Chems grant +4 to their related Stat for the battle. Use [[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem rules]] and [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|On Fire, Poisoned, Stunned and Addicted]] for timing and withdrawal. Earlier equipment proposals are superseded by these owning rules.

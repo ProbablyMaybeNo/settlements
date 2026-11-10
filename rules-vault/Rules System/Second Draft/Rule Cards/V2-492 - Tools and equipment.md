@@ -57,7 +57,7 @@ Tools and equipment: complete table with links to individual equipment cards.
 | [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-209 - Folding barricade\|Folding barricade]] | 15 | 1 | Spend Core to deploy a cover line up to 3 inches long and 1 inch high in contact. It provides Heavy cover to either crew and cannot be shot away. | Basic |
 | [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-256 - Protective shield\|Protective shield]] | 15 | 1 | Occupies one hand. Protection is unresolved; do not use the superseded +1 Armour profile in battle testing. | Workshop |
 | [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-499 - Utility vest\|Utility vest]] | — | 0 | The wearer gains one equipment slot. The vest occupies no equipment slot. | Battle test only |
-| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-500 - Load-bearing harness\|Load-bearing harness]] | — | 1 | Ignore a Heavy weapon’s printed STR handling requirement. This does not increase STR or change its hands or equipment slots. Reusable. | Battle test only |
+| [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-500 - Load-bearing harness\|Load-bearing harness]] | — | 1 | Ignore Unwieldy and the movement reduction for carrying or dragging a load. Hands, capacity and other carrying restrictions remain unchanged. Reusable. | Battle test only |
 
 ^catalogue-v2-492
 

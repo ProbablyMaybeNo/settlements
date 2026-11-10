@@ -53,6 +53,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-09'
 ---
 
 # Carrying and releasing loads
@@ -65,7 +66,7 @@ Carry or escort; Single-carrier movement; Release a load
 
 ### Single-carrier movement
 
-Dragging a casualty, escorting a captive, or carrying a Heavy objective halves movement, prohibits Dash and Charge, and occupies one hand. One fighter carries at a time, spending its own Move during its own activation. There is no coordinated two-carrier action and no spending another fighter's Move to carry together. Taking hold of a friendly casualty in contact is part of the carrying Move, with no extra action. An enemy casualty must first be Secured. A carrier may drop a load without a test at any time during its own action.
+Dragging a casualty, escorting a captive, or carrying a Heavy objective halves movement, prohibits Dash and Charge, and occupies one hand. One fighter carries at a time, spending its own Move during its own activation. There is no coordinated two-carrier action and no spending another fighter's Move to carry together. Taking hold of a friendly casualty in contact is part of the carrying Move, with no extra action. An enemy casualty must first be Secured. A carrier may drop a load without a test at any time during its own action. A load-bearing harness ignores the movement reduction, but not the hand requirement or the other carrying restrictions.
 
 ^text-s027-b001
 

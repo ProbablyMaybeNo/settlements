@@ -12,7 +12,7 @@ tags:
 - equipment
 - test-plus
 - morale
-summary: Spend Core on yourself or a friendly in contact to gain +2 on the next Break or Rally test this battle. Single-use; only one dose may be pending per unit.
+summary: Use a dose under the Chem rules to gain +4 NRV for this battle. Single-use.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -23,7 +23,7 @@ source:
 review_notes: ''
 credits: 5
 equipment_slots: 1
-rule: Spend Core on yourself or a friendly in contact to gain +2 on the next Break or Rally test this battle. Single-use; only one dose may be pending per unit.
+rule: Use a dose under the Chem rules to gain +4 NRV for this battle. Single-use.
 access: Clinic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
@@ -33,13 +33,14 @@ card_kind: Equipment
 catalogue_id: V2-493
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-09'
 ---
 
 # Anti-anxiety dose
 
 ## Summary
 
-Spend Core on yourself or a friendly in contact to gain +2 on the next Break or Rally test this battle. Single-use; only one dose may be pending per unit.
+Use a dose under the Chem rules to gain +4 NRV for this battle. Single-use.
 
 ## Rule text
 
@@ -48,7 +49,7 @@ Spend Core on yourself or a friendly in contact to gain +2 on the next Break or 
 | Item | Anti-anxiety dose |
 | Credits | 5 |
 | Equipment slots | 1 |
-| Rule | Spend Core on yourself or a friendly in contact to gain +2 on the next Break or Rally test this battle. Single-use; only one dose may be pending per unit. |
+| Rule | Use a dose under the Chem rules to gain +4 NRV for this battle. Single-use. |
 | Access | Clinic |
 
 ^text-s066-b015
@@ -67,3 +68,7 @@ Spend Core on yourself or a friendly in contact to gain +2 on the next Break or 
 ### Equipment consolidation — 2026-11-09
 
 [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Ross’s original equipment decisions]]. Existing effect retained; prose only. No explicit removal was found. Its semantic date and approval are unchanged.
+
+### Follow-up decision — 2026-11-09
+
+Ross explicitly replaced all +2 and next-test chem proposals with +4 to the related Stat for the entire battle. This is the sole chem type for NRV. Chem use contributes to Addicted. No prices are changed.

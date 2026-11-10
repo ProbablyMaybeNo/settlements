@@ -38,4 +38,6 @@ status: Assembled working proposal
 
 ![[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies#^text-s066-b016]]
 
+![[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-addicted-rule]]
+
 ![[Settlements/Rules System/Second Draft/Rule Text Assemblies/V2 Text - Battle preparations#Battle preparations]]

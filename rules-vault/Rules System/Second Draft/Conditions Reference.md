@@ -43,9 +43,9 @@ Conditions, tokens and device states are grouped separately below. The new draft
 
 ## Conditions you have added or mentioned
 
-- **On Fire** — Fire-driven movement and three escalating extinguishing checks. Check timing remains unresolved. [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-on-fire-rule|On Fire]] ^condition-on-fire
+- **On Fire** — Fire-driven movement; an unmodified d6 check each End Phase. Failed checks escalate to Pinned, Down and Unconscious. [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-on-fire-rule|On Fire]] ^condition-on-fire
 
-- **Poisoned** — Progressively loses MOVE; becomes Unconscious at zero. Tick timing and restored MOVE remain unresolved. [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-poisoned-rule|Poisoned]] ^condition-poisoned
+- **Poisoned** — Loses 2 MOVE immediately and each later round’s End Phase; natural MOVE loss to zero causes Unconscious. Antidote ends it and restores poison-lost MOVE. [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-poisoned-rule|Poisoned]] ^condition-poisoned
 
 - **Shocked or Stunned** — Becomes Pinned and misses its next activation; two names for one condition. [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-stunned-rule|Shocked or Stunned]] ^condition-shocked-or-stunned
 
@@ -89,7 +89,7 @@ Conditions, tokens and device states are grouped separately below. The new draft
 
 - **Hovering** — Aerial-drone operating mode; uses ground movement, LOS, cover and melee rules. ^condition-hovering
 
-## Campaign-only states
+## Persistent and campaign states
 
 - **Convalescence** — Campaign recovery state that prevents deployment and work for the specified cycle. [[Settlements/Rules System/Second Draft/Item Cards/Lasting Injury Cards/V2-372 - Convalescence|V2-372]] ^condition-convalescence
 
@@ -99,7 +99,7 @@ Conditions, tokens and device states are grouped separately below. The new draft
 
 - **Retired or Dead** — Permanent roster outcomes rather than temporary battle conditions. [[Settlements/Rules System/Second Draft/Rule Cards/V2-370 - Lasting injuries, scars and retirement|V2-370]] ^condition-retired-or-dead
 
-- **Hooked** — Your new campaign chem draft: continued stim use is required to avoid the stated Stat penalty. [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Equipment notes]] **New draft.** ^condition-hooked
+- **Addicted (formerly Hooked)** — Any chem in two consecutive battles causes −2 to the six non-Wound stats next battle. Any chem suppresses withdrawal; it expires after that battle even if the unit sits out. [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-addicted-rule|Addicted]] ^condition-hooked
 
 ## Related terms that are not separate conditions
 
@@ -119,3 +119,7 @@ Conditions, tokens and device states are grouped separately below. The new draft
 ### Equipment consolidation — 2026-11-09
 
 The equipment condition entries now point to their owning rule. Inclusion in this inventory still does not approve a draft. Blinded has no applying retained item and receives no rule. Hooked remains outside the first test.
+
+### Follow-up decision — 2026-11-09
+
+Fire/poison timing is now resolved. Addicted replaces the earlier deferred Hooked proposal; its old navigation anchor is preserved. See the owning Equipment conditions rule for the full effect.

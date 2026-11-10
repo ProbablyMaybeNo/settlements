@@ -10,17 +10,17 @@ book_subsection: Tools and Supplies
 tags:
 - settlements/v2
 - equipment
-summary: Use one dose to gain +2 MOVE. Single-use; duration awaits the stim decision.
-status: Partial
+summary: Use a dose under the Chem rules to gain +4 MOVE for this battle. Single-use.
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-11-09'
 last_rule_update: '2026-11-09'
 source:
 - '[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review]]'
-review_notes: 'The blank feedback does not approve a duration. Recommended: lasts for the battle, like Juice. This is distinct from the old Stimulant’s Pinned/Stress effect; that existing item is not silently removed or renamed.'
+review_notes: 'The blank feedback does not approve a duration. Recommended: lasts for the battle, like Juice. This is distinct from the old Stimulant’s Pinned/Stress effect; that existing item is not silently removed or renamed. Resolved by Ross’s 2026-11-09 follow-up: Ross explicitly replaced all +2 and next-test chem proposals with +4 to the related Stat for the entire battle. This is the sole chem type for MOVE. Chem use contributes to Addicted. No prices are changed.'
 equipment_slots: 1
-rule: Use one dose to gain +2 MOVE. Single-use; duration awaits the stim decision.
+rule: Use a dose under the Chem rules to gain +4 MOVE for this battle. Single-use.
 access: Battle test only
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
@@ -35,7 +35,7 @@ related_rules:
 
 ## Summary
 
-Use one dose to gain +2 MOVE. Single-use; duration awaits the stim decision.
+Use a dose under the Chem rules to gain +4 MOVE for this battle. Single-use.
 
 ## Rule text
 
@@ -43,7 +43,7 @@ Use one dose to gain +2 MOVE. Single-use; duration awaits the stim decision.
 | --- | --- |
 | Item | Stims |
 | Equipment slots | 1 |
-| Rule | Use one dose to gain +2 MOVE. Single-use; duration awaits the stim decision. |
+| Rule | Use a dose under the Chem rules to gain +4 MOVE for this battle. Single-use. |
 | Access | Battle test only |
 
 ^equipment-v2-508
@@ -59,3 +59,7 @@ Use one dose to gain +2 MOVE. Single-use; duration awaits the stim decision.
 The blank feedback does not approve a duration. Recommended: lasts for the battle, like Juice. This is distinct from the old Stimulant’s Pinned/Stress effect; that existing item is not silently removed or renamed.
 
 Source: [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review]]. Drafting is not approval or evidence of battle testing.
+
+### Follow-up decision — 2026-11-09
+
+Ross explicitly replaced all +2 and next-test chem proposals with +4 to the related Stat for the entire battle. This is the sole chem type for MOVE. Chem use contributes to Addicted. No prices are changed.

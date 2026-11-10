@@ -10,17 +10,17 @@ book_subsection: Tools and Supplies
 tags:
 - settlements/v2
 - equipment
-summary: Use one dose to gain +2 INT on one declared test this battle. Single-use; does not modify Injury.
-status: Partial
+summary: Use a dose under the Chem rules to gain +4 INT for this battle. Single-use.
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-11-09'
 last_rule_update: '2026-11-09'
 source:
 - '[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review]]'
-review_notes: 'Proposed role consolidated from the additions table and its category direction; the blank feedback is not approval. Recommended duration: the next declared eligible test, expiring when used or when battle ends. Awaiting the grouped stim decision before battle use.'
+review_notes: 'Proposed role consolidated from the additions table and its category direction; the blank feedback is not approval. Recommended duration: the next declared eligible test, expiring when used or when battle ends. Awaiting the grouped stim decision before battle use. Resolved by Ross’s 2026-11-09 follow-up: Ross explicitly replaced all +2 and next-test chem proposals with +4 to the related Stat for the entire battle. This is the sole chem type for INT. Chem use contributes to Addicted. No prices are changed.'
 equipment_slots: 1
-rule: Use one dose to gain +2 INT on one declared test this battle. Single-use; does not modify Injury.
+rule: Use a dose under the Chem rules to gain +4 INT for this battle. Single-use.
 access: Battle test only
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
@@ -35,7 +35,7 @@ related_rules:
 
 ## Summary
 
-Use one dose to gain +2 INT on one declared test this battle. Single-use; does not modify Injury.
+Use a dose under the Chem rules to gain +4 INT for this battle. Single-use.
 
 ## Rule text
 
@@ -43,7 +43,7 @@ Use one dose to gain +2 INT on one declared test this battle. Single-use; does n
 | --- | --- |
 | Item | Dexies |
 | Equipment slots | 1 |
-| Rule | Use one dose to gain +2 INT on one declared test this battle. Single-use; does not modify Injury. |
+| Rule | Use a dose under the Chem rules to gain +4 INT for this battle. Single-use. |
 | Access | Battle test only |
 
 ^equipment-v2-506
@@ -59,3 +59,7 @@ Use one dose to gain +2 INT on one declared test this battle. Single-use; does n
 Proposed role consolidated from the additions table and its category direction; the blank feedback is not approval. Recommended duration: the next declared eligible test, expiring when used or when battle ends. Awaiting the grouped stim decision before battle use.
 
 Source: [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review]]. Drafting is not approval or evidence of battle testing.
+
+### Follow-up decision — 2026-11-09
+
+Ross explicitly replaced all +2 and next-test chem proposals with +4 to the related Stat for the entire battle. This is the sole chem type for INT. Chem use contributes to Addicted. No prices are changed.
