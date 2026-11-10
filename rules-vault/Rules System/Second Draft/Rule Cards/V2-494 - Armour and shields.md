@@ -13,7 +13,7 @@ type: settlements-rule-card
 rule_id: V2-494
 rule_name: Armour
 entry_type: Catalogue
-summary: Armour profiles. Shields belong to Equipment.
+summary: Armour profiles.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -38,7 +38,7 @@ last_rule_update: '2026-11-09'
 
 ## Summary
 
-Armour profiles. Shields belong to Equipment.
+Armour profiles.
 
 ## Rule text
 

@@ -77,7 +77,7 @@ The harness ignores Unwieldy and carrying’s movement reduction. Fire checks an
 
 All six stat chems grant +4 for the battle. The old extra Stimulant is Deferred; Anti-anxiety dose is the NRV chem. Any chem used in two consecutive battles triggers Addicted for the crew’s next battle. Its −2 stat penalties are suppressed by any chem and expire after that battle, even if the unit sits out.
 
-The shield remains unresolved and unavailable for the first test. The recommendation is to omit shields from this test; Ross has not approved removal or a new shield effect.
+Ross deferred shields on 10 November 2026. They are removed from the current catalogue and retained under [[Settlements/Rules System/Second Draft/Deferred Rules - Future Releases|future releases]].
 
 ## Current profiles
 
@@ -117,7 +117,7 @@ The shield remains unresolved and unavailable for the first test. The recommenda
 
 ## Retained drafts needing a decision
 
-- [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-256 - Protective shield|Protective shield]] — See the owner’s Design notes.
+- [[Settlements/Rules System/Second Draft/Deferred Rule Cards/V2-256 - Protective shield|Protective shield]] — See the owner’s Design notes.
 - [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-500 - Load-bearing harness|Load-bearing harness]] — The capability is agreed, but current weapon profiles have no STR handling threshold. No new threshold is invented. Ross’s earlier intent mentioned movement penalties: confirm whether this should instead ignore Unwieldy’s penalty after movement. Rank and skill requirements are not waived.
 - [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-505 - Crank|Crank]] — Proposed role consolidated from the additions table and its category direction; the blank feedback is not approval. Recommended duration: the next declared eligible test, expiring when used or when battle ends. Awaiting the grouped stim decision before battle use.
 - [[Settlements/Rules System/Second Draft/Item Cards/Equipment Cards/V2-506 - Dexies|Dexies]] — Proposed role consolidated from the additions table and its category direction; the blank feedback is not approval. Recommended duration: the next declared eligible test, expiring when used or when battle ends. Awaiting the grouped stim decision before battle use.

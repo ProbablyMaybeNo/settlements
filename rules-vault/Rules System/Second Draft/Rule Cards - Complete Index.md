@@ -24,3 +24,5 @@ Weapons, skills, equipment and other entries have **193 separate individual card
 
 - [[Settlements/Rules System/Second Draft/Settlements Rule Workspace.base#Family progress|Family completion board]] · [[Settlements/Rules System/Second Draft/Settlements Rule Workspace.base#Parent progress|Parent completion board]]
 - [[Settlements/Rules System/Second Draft/Settlements Rule Parents.canvas|Parent canvas]] · [[Settlements/START HERE - Settlements Project|Workspace instructions]]
+
+[[Settlements/Rules System/Second Draft/Deferred Rules - Future Releases|Deferred rules and future releases]] are retained outside the current rules and catalogues.

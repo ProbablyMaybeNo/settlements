@@ -12,10 +12,10 @@ tags:
 - equipment
 - hands
 - combat
-summary: Occupies one hand. Protection is unresolved; do not use the superseded +1 Armour profile in battle testing.
-status: Partial
+summary: Deferred for a future release. Shield protection and implementation remain undecided.
+status: Deferred
 review_status: Unreviewed
-publication: Included
+publication: Deferred
 created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
@@ -30,17 +30,20 @@ related_rules:
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
-catalogue_id: V2-492
-catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment]]'
+catalogue_id: null
+catalogue: null
 consolidated: '2026-10-25'
 last_rule_update: '2026-11-09'
+deferred_on: '2026-11-10'
+former_catalogue_id: V2-492
+former_catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment]]'
 ---
 
 # Protective shield
 
 ## Summary
 
-Occupies one hand. Protection is unresolved; do not use the superseded +1 Armour profile in battle testing.
+Deferred for a future release. Shield protection and implementation remain undecided.
 
 ## Rule text
 
@@ -56,10 +59,7 @@ Occupies one hand. Protection is unresolved; do not use the superseded +1 Armour
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Equipping fighters and handling weapons]]
-
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour and shields|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
+- [[Settlements/Rules System/Second Draft/Deferred Rules - Future Releases|Deferred rules and future releases]]
 
 ## Design notes
 
@@ -70,3 +70,11 @@ Occupies one hand. Protection is unresolved; do not use the superseded +1 Armour
 ### Equipment consolidation — 2026-11-09
 
 [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Ross’s original equipment decisions]]. Ross is considering a single-use front-arc shield, three attack-specific variants, or a persistent shield that forces one successful Injury die to be rerolled. None is approved. Recommended first test: one single-use shield cancels one frontal ranged attack against its bearer, including that attack’s hits; no variants yet. This is a recommendation only.
+
+### Deferred by Ross — 2026-11-10
+
+Removed from the current rules and equipment catalogue. Retain the original proposals above for a possible future release. Neither a persistent shield nor a disposable shield effect has been approved. The existing rule ID, block anchor, feedback and semantic date are preserved.
+
+Previous editable catalogue row, retained for reference:
+
+| Protective shield | 1 equipment; 1 hand | +1 Armour against forward-arc attacks, total maximum 3; no protection against falls or Crush. | [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#9 Equipping fighters and handling weapons\|Slots]] · [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#20 Cover and elevation\|Cover]] · [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#32 Injury and attack outcomes\|Injury]] |  |

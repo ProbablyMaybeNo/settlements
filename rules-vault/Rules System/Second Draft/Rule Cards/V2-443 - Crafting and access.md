@@ -71,6 +71,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-10'
 ---
 
 # Crafting and access
@@ -89,7 +90,7 @@ At a powered Workshop, craft up to two non-human items per Settlement round for 
 
 ### Custom weapon access
 
-All weapons state their unlock in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#15 Weapons armour and equipment|weapons armour and equipment]]. Shields, climbing harnesses, frag grenades, and remote clamps need a Workshop. Heavy armour needs an Armoury. Blast mines, smoke emitters, hacking kits, and other ordinary equipment are Basic. Utility drones and sentries need a Drone Bay; its Workshop prerequisite must exist but need not also be powered just to purchase them. Rebuilding or Workshop crafting them requires both powered facilities. Clinic drugs and dressings need a Clinic. Custom weapon variants require at least a Workshop, plus Armoury for range over 24 inches or an Advanced Workshop for Heavy designs.
+All weapons state their unlock in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#15 Weapons armour and equipment|weapons armour and equipment]]. Climbing harnesses, frag grenades, and remote clamps need a Workshop. Heavy armour needs an Armoury. Blast mines, smoke emitters, hacking kits, and other ordinary equipment are Basic. Utility drones and sentries need a Drone Bay; its Workshop prerequisite must exist but need not also be powered just to purchase them. Rebuilding or Workshop crafting them requires both powered facilities. Clinic drugs and dressings need a Clinic. Custom weapon variants require at least a Workshop, plus Armoury for range over 24 inches or an Advanced Workshop for Heavy designs.
 
 ^text-s091-b001
 

@@ -11,7 +11,7 @@
 - [[Settlements/Rules System/Second Draft/Settlements Rulebook - Assembled|Read the manuscript]] · [[Settlements/Rules System/Second Draft/Draft 2 - Battle Quick Reference|Battle reference]] · [[Settlements/Research/Wargaming Research Hub|Research]]
 
 - **[[Settlements/Rules System/Second Draft/Item Cards - Library|Individual item cards]]** — 193 Weapon Cards, Skill Cards, Equipment Cards and other entries, in separate folders. Use the library’s view selector for a card gallery by type or the All item cards table. Use the library’s view selector for a card gallery by type or the All item cards table. Official catalogue cards contain their complete tables; click a row to open its individual card.
-- **Deferred Rule Cards/** — 18 earlier objective/scenario proposals, outside the official index.
+- **[[Settlements/Rules System/Second Draft/Deferred Rules - Future Releases|Deferred rules and future releases]]** — held-out equipment ideas and the existing objective/scenario drafts, outside the active catalogues and index.
 
 ## Edit a rule
 

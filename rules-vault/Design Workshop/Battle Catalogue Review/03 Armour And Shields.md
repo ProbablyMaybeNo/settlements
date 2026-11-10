@@ -5,7 +5,7 @@ tags:
   - settlements/battle-catalogue-review
 ---
 
-# Armour and shields
+# Armour
 
 Edit names, values and effects directly in the table. Add or remove rows as you review. Prices are deferred.
 
@@ -17,8 +17,9 @@ Edit names, values and effects directly in the table. Add or remove rows as you 
 | --- | --- | --- | --- | --- |
 | Light armour | 1 armour | Armour 1. | [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#9 Equipping fighters and handling weapons\|Slots]] · [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#20 Cover and elevation\|Cover]] · [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#32 Injury and attack outcomes\|Injury]] |  |
 | Heavy armour | 1 armour | Armour 2; MOVE −1. | [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#9 Equipping fighters and handling weapons\|Slots]] · [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#20 Cover and elevation\|Cover]] · [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#32 Injury and attack outcomes\|Injury]] |  |
-| Protective shield | 1 equipment; 1 hand | +1 Armour against forward-arc attacks, total maximum 3; no protection against falls or Crush. | [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#9 Equipping fighters and handling weapons\|Slots]] · [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#20 Cover and elevation\|Cover]] · [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Reference#32 Injury and attack outcomes\|Injury]] |  |
 
 ## Design notes
 
 <!-- Add your wider catalogue notes here. This table is manually editable and is not regenerated. -->
+
+Shields are deferred to [[Settlements/Rules System/Second Draft/Deferred Rules - Future Releases|future releases]] and are not part of this catalogue.

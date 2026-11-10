@@ -7,13 +7,13 @@ tags:
 progress_status: Partial
 included_rules: 10
 deferred_rules: 0
-written_rules: 7
+written_rules: 8
 confirmed_rules: 0
 locked_rules: 0
-written_percent: 70
+written_percent: 80
 confirmed_percent: 0
 final_percent: 0
-progress_summary: 70% written · 0% confirmed · 0% final
+progress_summary: 80% written · 0% confirmed · 0% final
 total_parents: 5
 included_parents: 5
 locked_parents: 0
@@ -29,7 +29,7 @@ cssclasses:
 Equipment · Rulebook family
 
 <!-- progress:start -->
-**Partial** · 70% written · 0% confirmed · 0% final
+**Partial** · 80% written · 0% confirmed · 0% final
 
 0/10 rules final · 0 deferred
 

@@ -21,7 +21,7 @@ These are working catalogues seeded from the current ChatGPT list. They are sepa
 - [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Equipment category review — latest proposals and notes]]
 - [[Settlements/Design Workshop/Battle Catalogue Review/01 Weapons|Weapons]]
 - [[Settlements/Design Workshop/Battle Catalogue Review/02 Special Weapons|Special weapons]]
-- [[Settlements/Design Workshop/Battle Catalogue Review/03 Armour And Shields|Armour and shields]]
+- [[Settlements/Design Workshop/Battle Catalogue Review/03 Armour And Shields|Armour]]
 - [[Settlements/Design Workshop/Battle Catalogue Review/04 Tools And Equipment|Tools and equipment]]
 - [[Settlements/Design Workshop/Battle Catalogue Review/05 Consumables And Medical Supplies|Consumables and medical supplies]]
 - [[Settlements/Design Workshop/Battle Catalogue Review/06 Deployables|Deployables]]
@@ -47,7 +47,7 @@ See [[Settlements/Design Workshop/Battle Catalogue Review/14 Battle Rules Refere
 
 ![[Settlements/Design Workshop/Battle Catalogue Review/02 Special Weapons#Catalogue]]
 
-## Armour and shields
+## Armour
 
 [[Settlements/Design Workshop/Battle Catalogue Review/03 Armour And Shields|Open this catalogue to edit]]
 

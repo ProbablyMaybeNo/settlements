@@ -92,3 +92,7 @@ Consolidated owners and remaining narrow decisions: [[Settlements/Design Worksho
 ### Follow-up decision — 2026-11-09
 
 Ross’s follow-up: the load-bearing harness ignores Unwieldy and carrying’s half-movement penalty. Fire checks use d6, with failed 1–3 checks escalating to Pinned, Down and Unconscious. The proposed End Phase timing and antidote restoration are accepted; antidote also ends Poisoned. There is one chem for each of STR, DEX, AGI, INT, NRV and MOVE; each grants +4 for the battle. Any chem used in each of two consecutive battles causes Addicted for the next battle. Withdrawal is −2 to those stats, suppressed by any chem and removed after that battle even if the unit sits out. The shield options remain a discussion, not an approved change.
+
+### Shield decision — 2026-11-10
+
+Ross approved removing shields from the current rules and equipment catalogue. The original proposals and inline feedback above are preserved for [[Settlements/Rules System/Second Draft/Deferred Rules - Future Releases|a possible future release]].
