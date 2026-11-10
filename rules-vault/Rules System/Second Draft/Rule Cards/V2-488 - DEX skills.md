@@ -35,7 +35,6 @@ catalogue_members:
 - V2-318
 - V2-319
 - V2-320
-- V2-321
 - V2-323
 ---
 
@@ -57,7 +56,6 @@ DEX skills: complete table with links to individual skill cards.
 | [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-318 - Gunslinger\|Gunslinger]] | Passive | When using two one-handed firearms, add one off-hand Attack Die beyond the normal allowance, to the shared maximum of three. Keep each die's weapon identity. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-319 - Split Fire\|Split Fire]] | Shooting modifier | Divide your normal shooting pool between at most two enemies within 3 inches of each other. Each die needs its own weapon range and LOS. No extra dice or follow-up shots. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-320 - Run and Gun\|Run and Gun]] | Move plus Core | If both slots remain, combine normal Move and Shoot as one action, firing at a declared point along the route and then completing the remaining movement if still able. Spend both slots at declaration. Unlike an ordinary Move followed by Shoot, this permits a shot partway through movement and gives the opponent one reaction window for the combined action. It uses your one own-turn attack. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-321 - Breach\|Breach]] | Move modifier; once per round | During your Move, attempt to force one closed ordinary door with an STR test without spending Core. Success opens it and movement continues; failure stops movement at the door. Reinforced blast doors are excluded. Reactions work normally. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-323 - Speed Loader\|Speed Loader]] | Reload modifier | A Core Reload readies up to two held weapons with Reload instead of one. It does not include a shot or spend Move. |
 
 ^catalogue-v2-488

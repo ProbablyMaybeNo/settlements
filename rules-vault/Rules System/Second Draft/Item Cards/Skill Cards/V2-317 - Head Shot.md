@@ -71,3 +71,7 @@ One-die ranged weapon gains +2 Damage against Marked target; excludes Blast/Auto
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
 
 <!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+
+### Test candidates — 2026-11-10
+
+Retain Marked and stationary requirements. Compare +2 and +4 Damage, or +4/+6 restricted to one-die non-Automatic firearms. These values are not locked; the existing profile is provisional.

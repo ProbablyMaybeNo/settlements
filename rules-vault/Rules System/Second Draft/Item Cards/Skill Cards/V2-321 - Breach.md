@@ -15,14 +15,14 @@ tags:
 - terrain
 summary: Once/round during Move, STR forces ordinary closed door without Core; fail stops movement; excludes reinforced
   blast doors.
-status: Drafted
+status: Deferred
 review_status: Unreviewed
-publication: Included
+publication: Deferred
 created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Dexterity skills]]'
-review_notes: ''
+review_notes: 'Removed by Ross on 2026-11-10: overlaps Run and Gun; replacement to be designed.'
 stat: DEX
 use: Move modifier; once per round
 effect: During your Move, attempt to force one closed ordinary door with an STR test without spending Core. Success
@@ -38,9 +38,12 @@ card_kind: Skill
 catalogue_id: V2-488
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-488 - DEX skills]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-10'
 ---
 
 # Breach
+
+**Removed from battle testing — 10 November 2026. Replacement not yet chosen.**
 
 ## Summary
 
