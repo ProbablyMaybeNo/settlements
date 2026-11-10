@@ -36,8 +36,10 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-113 - Shove]]'
 review_notes: ''
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-106 - Melee exchanges, Unanswered and Shove|Melee natural results]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-106 - Melee exchanges, Unanswered and Shove|Outnumbered penalty]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-106 - Melee exchanges, Unanswered and Shove|Melee natural
+  results]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-106 - Melee exchanges, Unanswered and Shove|Outnumbered
+  penalty]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-106 - Melee exchanges, Unanswered and Shove|Defensive melee]]'
 planned_section: 04 · Fighting Battles
 rule_parent: Close Combat
@@ -100,6 +102,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-10'
 ---
 
 # Melee exchanges, Unanswered and Shove
@@ -154,7 +157,7 @@ Any fighter may use its Fight action to **Shove** instead of injuring. Make one 
 
 ^text-s034-b000
 
-The Grapple skill offers a different use of the same opposed test. Its holding and escape rules appear with that skill. Neither action allows superhuman throws, attacks on several enemies, or free follow-up attacks.
+The Grapple skill offers a different use of the same opposed test. Its holding and escape rules appear with that skill. Shove grants no free follow-up attack. Grapple, Hauler and Throw instead use their stated holding, movement, shield and collision exceptions; Throw’s structure can affect the units it contacts.
 
 ^text-s034-b001
 
@@ -171,3 +174,7 @@ The Grapple skill offers a different use of the same opposed test. Its holding a
 ## Design notes
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+
+### Ross’s replacement ruling — 2026-11-10
+
+[[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]]. This replaces conflicting earlier Grapple/Strong Arm/Carry/Throw wording. Existing IDs, anchors and prior feedback are retained. Drafted for testing does not mean playtested balance.

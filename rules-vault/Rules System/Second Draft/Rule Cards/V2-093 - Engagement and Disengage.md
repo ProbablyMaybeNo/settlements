@@ -30,7 +30,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-096 - Engaged repositioning]]'
 review_notes: ''
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-093 - Engagement and Disengage|Pinned escape and forced flight]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-093 - Engagement and Disengage|Pinned escape and forced
+  flight]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-093 - Engagement and Disengage|Engaged repositioning]]'
 planned_section: 04 · Fighting Battles
 rule_parent: Movement
@@ -65,6 +66,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-10'
 ---
 
 # Engagement and Disengage
@@ -77,7 +79,7 @@ Engaged action limits; Disengage; Pinned escape and forced flight; Engaged repos
 
 ### Engaged action limits
 
-Engaged fighters may Fight, Grapple, use a Sidearm in that melee exchange, Recover, Rally themselves, or Disengage. They cannot shoot someone outside the engagement, operate a terminal, Treat, or manipulate an objective. A Pinned fighter is still engaged if an enemy is within 1 inch.
+Engaged fighters may Fight, Grapple, use a Sidearm in that melee exchange, Recover, Rally themselves, or Disengage. They cannot shoot someone outside the engagement, operate a terminal, Treat, or manipulate an objective. A Pinned fighter is still engaged if an enemy is within 1 inch. The Grapple holder may move the captive and use the weapons permitted by Grappling or Hauler, including shooting outside that held engagement; these are specific exceptions. A Grappled unit instead follows its no-actions rule and free activation-start escape test.
 
 ^text-s028-b000
 
@@ -116,3 +118,7 @@ Within engagement, a fighter may spend Move to shift up to 1 inch around an enem
 ## Design notes
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+
+### Ross’s replacement ruling — 2026-11-10
+
+[[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]]. This replaces conflicting earlier Grapple/Strong Arm/Carry/Throw wording. Existing IDs, anchors and prior feedback are retained. Drafted for testing does not mean playtested balance.

@@ -33,8 +33,10 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-060 - Attack exceptions]]'
 review_notes: ''
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-055 - Activations, action costs and attack limit|Both-cost actions]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-055 - Activations, action costs and attack limit|Passing and finishing]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-055 - Activations, action costs and attack limit|Both-cost
+  actions]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-055 - Activations, action costs and attack limit|Passing
+  and finishing]]'
 planned_section: 04 · Fighting Battles
 rule_parent: Battle Overview / Activations and Actions
 consolidated: '2026-10-25'
@@ -82,7 +84,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
-last_rule_update: '2026-10-19'
+last_rule_update: '2026-11-10'
 ---
 
 # Activations, action costs and attack limit
@@ -119,6 +121,12 @@ A fighter may perform at most **one own-turn attack action** each round: Shoot, 
 
 ^text-s019-b016
 
+### Carry action cost
+
+Carry is a Core action requiring STR; moving while already Carrying uses the normal Move action. Picking up a load is not a free part of Move. Grapple and Throw are Core skill actions and retain the ordinary own-attack allowance. Free escape at activation start, voluntary release and Drop follow their specific rules.
+
+^carry-action-cost
+
 ## Links
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
@@ -132,3 +140,7 @@ A fighter may perform at most **one own-turn attack action** each round: Shoot, 
 ## Design notes
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+
+### Ross’s replacement ruling — 2026-11-10
+
+[[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]]. This replaces conflicting earlier Grapple/Strong Arm/Carry/Throw wording. Existing IDs, anchors and prior feedback are retained. Drafted for testing does not mean playtested balance.

@@ -29,9 +29,12 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-138 - Friendly evacuation]]'
 review_notes: ''
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-134 - Securing, rescuing and extracting captives|Extract captive]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-134 - Securing, rescuing and extracting captives|Release or rescue captive]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-134 - Securing, rescuing and extracting captives|Friendly evacuation]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-134 - Securing, rescuing and extracting captives|Extract
+  captive]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-134 - Securing, rescuing and extracting captives|Release
+  or rescue captive]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-134 - Securing, rescuing and extracting captives|Friendly
+  evacuation]]'
 planned_section: 04 · Fighting Battles
 rule_parent: Injuries and Resolving Combat
 consolidated: '2026-10-25'
@@ -72,7 +75,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
-last_rule_update: '2026-11-09'
+last_rule_update: '2026-11-10'
 ---
 
 # Securing, rescuing and extracting captives
@@ -91,7 +94,7 @@ An unengaged fighter in contact with a Down enemy may spend Core to **Secure** i
 
 ### Extract captive
 
-The captor may escort or drag one captive using the carrying rules. Move both bases together, keeping them in contact. Capture becomes a lasting capture only when the captive is escorted completely off the captor's deployment edge while the escort remains capable of moving. The escort leaves with it and cannot return that battle. Carrying mission cargo off an exit or evacuating a friendly casualty likewise removes its carrier from play; surviving extracted carriers return to the settlement afterward. If a captive becomes Unconscious before extraction, remove it under the Unconscious rule; capture has not been completed.
+The captor transports one captive using the Core Carry and Carrying rules; moving with an already-carried load uses Move. Secure remains necessary to count it as a captured prisoner. The new Carry action may also move an unsecured Down enemy, but does not capture it by itself. Move both bases together, keeping them in contact. Capture becomes a lasting capture only when the captive is escorted completely off the captor's deployment edge while the escort remains capable of moving. The escort leaves with it and cannot return that battle. Carrying mission cargo off an exit or evacuating a friendly casualty likewise removes its carrier from play; surviving extracted carriers return to the settlement afterward. If a captive becomes Unconscious before extraction, remove it under the Unconscious rule; capture has not been completed.
 
 ^text-s041-b001
 
@@ -120,3 +123,7 @@ Friendly evacuation works the same way without Secure: take a casualty off your 
 ## Design notes
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+
+### Ross’s replacement ruling — 2026-11-10
+
+[[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]]. This replaces conflicting earlier Grapple/Strong Arm/Carry/Throw wording. Existing IDs, anchors and prior feedback are retained. Drafted for testing does not mean playtested balance.

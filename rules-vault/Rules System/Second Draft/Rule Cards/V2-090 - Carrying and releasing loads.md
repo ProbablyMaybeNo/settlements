@@ -14,7 +14,8 @@ tags:
 - move-minus
 - hands
 - capture
-summary: Carry or escort; Single-carrier movement; Release a load
+summary: Core/STR picks up a ≤3-inch structure or Down unit; half-speed, one-handed Carrying; free Drop within 2
+  inches; Hauler/harness movement exceptions.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -53,20 +54,20 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
-last_rule_update: '2026-11-09'
+last_rule_update: '2026-11-10'
 ---
 
 # Carrying and releasing loads
 
 ## Summary
 
-Carry or escort; Single-carrier movement; Release a load
+Core/STR picks up a ≤3-inch structure or Down unit; half-speed, one-handed Carrying; free Drop within 2 inches; Hauler/harness movement exceptions.
 
 ## Rule text
 
-### Single-carrier movement
+### Carry and Carrying
 
-Dragging a casualty, escorting a captive, or carrying a Heavy objective halves movement, prohibits Dash and Charge, and occupies one hand. One fighter carries at a time, spending its own Move during its own activation. There is no coordinated two-carrier action and no spending another fighter's Move to carry together. Taking hold of a friendly casualty in contact is part of the carrying Move, with no extra action. An enemy casualty must first be Secured. A carrier may drop a load without a test at any time during its own action. A load-bearing harness ignores the movement reduction, but not the hand requirement or the other carrying restrictions.
+Spend Core and test STR while in base contact with a structure no larger than 3 inches or a Down unit. Success makes you Carrying it; failure spends Core and leaves it in place. No Grapple skill is required. Move at half speed and Fight or Shoot with only one one-handed weapon. During your activation you may freely Drop the load into an open position within 2 inches. One unit carries one load; there is no joint two-carrier action. Existing Sprint/Charge restrictions remain. Hauler and the load-bearing harness ignore their stated movement penalties, not the one-handed Carrying restriction. Carrying an enemy does not itself Secure it or make it a captured prisoner; use Secure and extraction for capture. Mission cargo still follows its scenario-specific handling rules.
 
 ^text-s027-b001
 
@@ -83,3 +84,7 @@ Dragging a casualty, escorting a captive, or carrying a Heavy objective halves m
 ## Design notes
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+
+### Ross’s replacement ruling — 2026-11-10
+
+[[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]]. This replaces conflicting earlier Grapple/Strong Arm/Carry/Throw wording. Existing IDs, anchors and prior feedback are retained. Drafted for testing does not mean playtested balance.

@@ -10,6 +10,8 @@ created: '2026-11-09'
 
 The selected source contains 75 skills. The later saved catalogue contains 39; both versions are distinguished in these reports. Recovering the larger selection does not reactivate removed rules. **Cover Me and Tagged remain out; Tunnels remains unavailable for the initial test.** The three device-category skills are included as proposed replacements within the Artificer slots, not three extra unreviewed additions.
 
+**10 November STR follow-up:** [[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]]. The original recommendation counts below describe the 9 November review; the first three STR skills now use Ross’s replacement rules.
+
 ## Five reports
 
 | Report | Skills | Main work |

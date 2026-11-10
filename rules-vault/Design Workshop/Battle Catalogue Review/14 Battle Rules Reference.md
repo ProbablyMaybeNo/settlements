@@ -35,8 +35,8 @@ Units with an **ALERT** token may react outside their own activation, following 
 
 | Action cost | Choices |
 | --- | --- |
-| **Move** | Move, Climb, Jump, Sneak, Carry; Recover from Pinned. |
-| **Core** | Attack (melee or ranged), Interact (including Hack, Repair, Loot or Secure), Hide, Deploy, Revive, ALERT, Aim, Observe, Reload, Rally, Use Item, Disengage. |
+| **Move** | Move, Climb, Jump, Sneak; Recover from Pinned. |
+| **Core** | Attack (melee or ranged), Interact (including Hack, Repair, Loot or Secure), Hide, Deploy, Revive, ALERT, Aim, Observe, Reload, Rally, Use Item, Disengage, Carry. |
 | **Move + Core** | Sprint, Charge, Aerial Assault. |
 
 An action costing **Move + Core** spends both actions and requires both to be unused. Each action follows its own procedure and eligibility rules. Orders follow card 16.
@@ -67,7 +67,7 @@ An action costing **Move + Core** spends both actions and requires both to be un
 
 ## 25 Carrying and releasing loads
 
-**Current rule:** A unit must have the Grapple skill to pick up an object or another unit. One fighter escorts a captive or carries a casualty or Heavy objective at half speed during its own Move. It uses one hand and prohibits Sprint and Charge. Friendly casualty pickup in contact is part of the Move; enemy casualties must first be Secured. Drop a load during an own action without a test. There is no joint two-carrier action. Strong Arm supplies its stated exception.
+**Testing rule — 10 November 2026:** Spend Core and test STR while in base contact with a structure no larger than 3 inches or a Down unit. Success makes you Carrying it; failure spends Core and leaves it in place. No Grapple skill is required. Move at half speed and Fight or Shoot with only one one-handed weapon. During your activation you may freely Drop the load into an open position within 2 inches. One unit carries one load; there is no joint two-carrier action. Existing Sprint/Charge restrictions remain. Hauler and the load-bearing harness ignore their stated movement penalties, not the one-handed Carrying restriction. Carrying an enemy does not itself Secure it or make it a captured prisoner; use Secure and extraction for capture. Mission cargo still follows its scenario-specific handling rules.
 
 ## 26 Engagement and Disengage
 
@@ -170,3 +170,7 @@ Place the narrow end of an **8-inch teardrop template** against the firing fight
 
 [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-marked|Marked]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-broken|Broken]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-bolting|Bolting]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-bugging-out|Bugging Out]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-engaged|Engaged]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-captured|Captured]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-aim|Aim]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-reacted|Reacted]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-out-of-action|Out of Action]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-concealed|Concealed]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-armed|Armed]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-disarmed-or-inert|Disarmed or Inert]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-offline-or-disabled|Offline or Disabled]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-frozen|Frozen]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-destroyed|Destroyed]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-loaded-or-unloaded|Loaded or Unloaded]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-retired-or-dead|Retired or Dead]]
 <!-- conditions-reference:end -->
+
+## Grapple family update — 10 November 2026
+
+[[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]] supersedes the earlier Grapple, Strong Arm and Throw recommendations. Strong Arm is now Hauler. Grappling permits the stated one-handed weapon use; Hauler permits non-Heavy two-handed weapons while Grappling.

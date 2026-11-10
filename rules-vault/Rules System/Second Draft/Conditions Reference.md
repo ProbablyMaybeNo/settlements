@@ -37,7 +37,11 @@ Conditions, tokens and device states are grouped separately below. The new draft
 
 - **Captured** — Secured enemy casualty; cannot act until released or rescued. [[Settlements/Rules System/Second Draft/Rule Cards/V2-134 - Securing, rescuing and extracting captives|V2-134]] ^condition-captured
 
-- **Grappled** — Held by another unit; escape and action restrictions come from the Grapple skill. [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-308 - Grapple|V2-308]] **Skill entry.** ^condition-grappled
+- **Grappled** — Held within 1 inch; no actions/reactions. Free opposed STR escape at activation start. [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-308 - Grapple|Grapple]]. ^condition-grappled
+
+- **Grappling** — Holder moves at half speed, uses one-handed weapons and redirects shooting through the captive; Hauler modifies movement and weapon access. [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-308 - Grapple|Grapple]]. ^condition-grappling
+
+- **Carrying** — Gained by a successful Core/STR Carry; half movement and one one-handed weapon; free Drop within 2 inches. [[Settlements/Rules System/Second Draft/Rule Cards/V2-090 - Carrying and releasing loads|Carry]]. ^condition-carrying
 
 - **Subdued** — Non-lethal casualty flag from Incapacitate; affects aftermath recovery. [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-325 - Incapacitate|V2-325]] **Skill entry.** ^condition-subdued
 

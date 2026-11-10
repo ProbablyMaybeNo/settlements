@@ -13,6 +13,8 @@ The **Selected rule** column preserves the recovered 75-skill version. It is not
 
 [[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/00 Skill Compatibility Review|Review overview and shared battle baseline]] · [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Draft 2 before complete rulebook - 2026-10-17/Draft 2 - Skills|Selected 75-skill source]] · [[Settlements/Design Workshop/Skills and Combat Rework - Thread Log|Archetype/decision history]] · [Current battle working list](https://chatgpt.com/space/page_ffc1cec57d808191a3e04ad1edeb1c8e)
 
+**10 November update:** [[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]] replaces the recommendations below for Grapple, Strong Arm/Hauler and Throw. Their new rules are drafted for testing; the other twelve entries remain recommendations.
+
 ## Archetypes
 
 | Archetype | Playstyle |

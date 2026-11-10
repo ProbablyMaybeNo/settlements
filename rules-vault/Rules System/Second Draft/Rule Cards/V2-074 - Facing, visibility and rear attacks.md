@@ -63,6 +63,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-10'
 ---
 
 # Facing, visibility and rear attacks
@@ -97,6 +98,12 @@ An attack declared from wholly behind the target's dividing line is a **rear att
 
 ^text-s023-b003
 
+### Grapple shooting interception
+
+Use the Grapple skill’s direct-target redirection and single d6 roll for an attack passing through either held model. Those two models alone do not make that intercepted shot illegal; solid terrain and other body blockers remain unchanged. The chosen actual target supplies normal hit/Injury protection, and normal area effects still affect all models in their final area.
+
+^grapple-shooting-interception
+
 ## Links
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
@@ -110,3 +117,7 @@ An attack declared from wholly behind the target's dividing line is a **rear att
 ## Design notes
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+
+### Ross’s replacement ruling — 2026-11-10
+
+[[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]]. This replaces conflicting earlier Grapple/Strong Arm/Carry/Throw wording. Existing IDs, anchors and prior feedback are retained. Drafted for testing does not mean playtested balance.
