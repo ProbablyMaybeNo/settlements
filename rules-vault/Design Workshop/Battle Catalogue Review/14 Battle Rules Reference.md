@@ -93,9 +93,9 @@ An action costing **Move + Core** spends both actions and requires both to be un
 
 **Testing rule:** During the hit-roll phase, each successful hit adds **1 Stress** to the target. Then, for each successful hit, roll **1d20 + DMG − Armour ± applicable Injury modifiers against 13+**. Apply the modifiers to each die separately. Stress does not affect Injury rolls. Natural 1 fails; natural 20 succeeds. Armour supplies no separate save.
 
-Each successful Injury roll removes **1 Wound**. At zero Wounds, the target is **Down**; if it still has a Wound after being hit, it becomes **Pinned**. Injury rolls add no further Stress, whether they succeed or fail. Resolve the attack's Injury dice together. Stress remains on the unit but is **ignored while Down or Unconscious**.
+Each successful Injury roll removes **1 Wound**. At zero Wounds, the target is **Down**; if it loses a Wound and still has Wounds remaining, it becomes **Pinned**. Injury rolls add no further Stress, whether they succeed or fail. Resolve the attack's Injury dice together. Stress remains on the unit but is **ignored while Down or Unconscious**.
 
-Every human has one Wound. Surplus Injury successes do not automatically execute the target or cause additional lasting injuries.
+Units normally start with one Wound; maximum 3, or 4 for a crew leader. Surplus Injury successes do not automatically execute the target or cause additional lasting injuries.
 
 ## 33 Pinned and recovery
 
@@ -174,3 +174,7 @@ Place the narrow end of an **8-inch teardrop template** against the firing fight
 ## Grapple family update — 10 November 2026
 
 [[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]] supersedes the earlier Grapple, Strong Arm and Throw recommendations. Strong Arm is now Hauler. Grappling permits the stated one-handed weapon use; Hauler permits non-Heavy two-handed weapons while Grappling.
+
+## Skill precedence — 10 November 2026
+
+Specific skill wording can override normal modifier, action and reaction limits. Each hit currently gives 1 Stress; a non-wounding hit does not normally Pin.

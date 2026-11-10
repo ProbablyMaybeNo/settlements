@@ -57,7 +57,7 @@ STR skills: complete table with links to individual skill cards.
 | [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-311 - Brace\|Brace]] | Core; in heavy cover | Ready and brace in place. Until you next move or take another Core Action, reduce Stress gained from each incoming attack by 1, minimum 0. Hits still Pin normally and may remove READY. This is not armour or injury resistance. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-312 - Bull\|Bull]] | Charge modifier | You may replace the Charge's melee exchange with Shove, gaining +2 to that opposed STR test. There is no separate charge attack or charge die. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-313 - Rage\|Rage]] | Melee modifier | Before rolling an own-turn Fight or Charge exchange, accept 1 Stress after the exchange to gain +2 Damage for its Injury rolls. You must have room for that Stress when declaring. No bonus in defensive exchanges or reaction attacks. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-314 - Tough\|Tough]] | Once per battle | Reroll your failed self-treatment test using the same medkit. This is the same treatment attempt, not a second charge or an extra Wound. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-314 - Tough\|Tough]] | Passive | Gain +1 Wound, up to the unit’s Wound limit. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-315 - Big Fella\|Big Fella]] | Passive | An Unwieldy weapon suffers −1 instead of −2 after your movement. It still occupies its normal hands and slots. |
 
 ^catalogue-v2-487

@@ -14,7 +14,8 @@ tags:
 - stress
 - pinned
 - limits
-summary: Injury roll; Injury outcomes; Attack-pool casualties
+summary: 'Each hit adds 1 Stress; surviving a Wound causes Pinned; zero Wounds causes Down. Wound limits: 3, or
+  4 for leaders.'
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -37,44 +38,45 @@ component_rules:
 - rule_id: V2-114
   rule_name: Injury roll
   status: Drafted
-  last_rule_update: null
+  last_rule_update: '2026-11-10'
   review_status: Unreviewed
   review_notes: ''
 - rule_id: V2-115
   rule_name: Injury outcomes
   status: Drafted
-  last_rule_update: null
+  last_rule_update: '2026-11-10'
   review_status: Unreviewed
   review_notes: ''
 - rule_id: V2-116
   rule_name: Attack-pool casualties
   status: Drafted
-  last_rule_update: null
+  last_rule_update: '2026-11-10'
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-10'
 ---
 
 # Injury and attack outcomes
 
 ## Summary
 
-Injury roll; Injury outcomes; Attack-pool casualties
+Each hit adds 1 Stress; surviving a Wound causes Pinned; zero Wounds causes Down. Wound limits: 3, or 4 for leaders.
 
 ## Rule text
 
 ### Injury roll
 
-For every hit, roll **1d20 + weapon Damage − target Armour + applicable injury modifiers vs 15+**. Natural 1 fails and natural 20 succeeds. Stress never changes an Injury roll. Armour does not grant another saving throw.
+Each successful hit adds 1 Stress. For each hit, roll **1d20 + Damage − Armour + Injury modifiers vs 13+**. Natural 1 fails; natural 20 succeeds. Stress does not affect Injury.
 
 ^text-s035-b000
 
 ### Injury outcomes
 
-Each success removes one Wound. Each failure adds one Stress to the target. A hit fighter with a Wound remaining becomes Pinned, without additional Stress for pinning itself. At zero Wounds it becomes **Down**. Resolve all dice in the attack together before changing states; surplus successful Injury rolls do not execute a casualty or create additional post-battle injury rolls.
+Each successful Injury roll removes 1 Wound. A unit that loses a Wound becomes **Pinned** if it has Wounds remaining, or **Down** at zero. A hit that causes no Wound adds Stress only, unless another rule says otherwise. Resolve the attack’s Injury dice together; they add no further Stress or extra lasting-injury rolls.
 
 ^text-s035-b001
 
-All humans have one Wound, including experienced Leaders. An Injury success represents a disabling hit; failures represent glancing impacts, protective equipment, and narrowly avoided serious harm.
+Units normally start with 1 Wound. Maximum Wounds are 3, or 4 for a crew leader. Skills such as Tough can increase Wounds within those limits.
 
 ^text-s035-b002
 
@@ -91,3 +93,7 @@ All humans have one Wound, including experienced Leaders. An Injury success repr
 ## Design notes
 
 Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+
+### Ross’s clarification — 2026-11-10
+
+Hits alone do not Pin. Keep +1 Stress per successful hit for now; per-hit versus per-attack Stress is reserved for simulation testing. Wound ceilings are 3, or 4 for leaders.

@@ -31,3 +31,7 @@ Edit names, values and effects directly in the table. Add or remove rows as you 
 
 [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]]
 <!-- conditions-reference:end -->
+
+## Surveillance drone — Marked timing
+
+A surveillance drone’s Marked effect lasts until the start of that drone’s next activation, matching Mark Target.

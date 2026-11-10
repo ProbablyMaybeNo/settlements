@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - profile
 - wounds
-summary: Normally 1, with a maximum of 1 for human fighters
+summary: Normally 1; maximum 3, or 4 for crew leaders.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -20,7 +20,7 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#The profile]]'
 review_notes: ''
-meaning: Normally 1, with a maximum of 1 for human fighters
+meaning: Normally 1; maximum 3, or 4 for crew leaders.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Reading a fighter profile|Five stats]]'
 planned_section: 02 · Core Mechanics
@@ -29,20 +29,21 @@ card_kind: Stat
 catalogue_id: V2-015
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Reading a fighter profile]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-10'
 ---
 
 # Wounds characteristic
 
 ## Summary
 
-Normally 1, with a maximum of 1 for human fighters
+Normally 1; maximum 3, or 4 for crew leaders.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Characteristic | Wounds |
-| Meaning | Normally 1, with a maximum of 1 for human fighters |
+| Meaning | Normally 1; maximum 3, or 4 for crew leaders. |
 
 ^text-s005-b006
 

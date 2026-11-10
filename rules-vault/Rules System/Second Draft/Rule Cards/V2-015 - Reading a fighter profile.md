@@ -160,7 +160,7 @@ Stats range from 0 to +6. Zero represents no particular training under combat pr
 | [[Settlements/Rules System/Second Draft/Item Cards/Characteristic Cards/V2-460 - INT characteristic\|INT characteristic]] | Hacking, repair, medicine, and technical work |
 | [[Settlements/Rules System/Second Draft/Item Cards/Characteristic Cards/V2-461 - NRV characteristic\|NRV characteristic]] | Courage, recovery under pressure, and leadership |
 | [[Settlements/Rules System/Second Draft/Item Cards/Characteristic Cards/V2-462 - MOVE characteristic\|MOVE characteristic]] | Inches travelled with a Move; normally 6 |
-| [[Settlements/Rules System/Second Draft/Item Cards/Characteristic Cards/V2-463 - Wounds characteristic\|Wounds characteristic]] | Normally 1, with a maximum of 1 for human fighters |
+| [[Settlements/Rules System/Second Draft/Item Cards/Characteristic Cards/V2-463 - Wounds characteristic\|Wounds characteristic]] | Normally 1; maximum 3, or 4 for crew leaders. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Characteristic Cards/V2-464 - Armour characteristic\|Armour characteristic]] | Protection supplied by equipment; normally 0–2 |
 
 ^catalogue-v2-015

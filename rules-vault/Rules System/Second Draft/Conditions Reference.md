@@ -17,9 +17,9 @@ Conditions, tokens and device states are grouped separately below. The new draft
 
 - **Hidden** — Stealth state; restricts targeting until revealed. [[Settlements/Rules System/Second Draft/Rule Cards/V2-154 - Hidden and Observe|V2-154]] ^condition-hidden
 
-- **Marked** — Friendly shooting gains +2; the target loses Hidden and cannot Hide while marked. [[Settlements/Rules System/Second Draft/Rule Cards/V2-154 - Hidden and Observe|V2-154]] ^condition-marked
+- **Marked** — Friendly shooting +2; removes/prevents Hidden until the start of the marking unit’s next activation, including a surveillance drone. [[Settlements/Rules System/Second Draft/Rule Cards/V2-154 - Hidden and Observe|Marked]]. ^condition-marked
 
-- **Pinned** — Low/suppressed state; spend Move to Recover and stand. [[Settlements/Rules System/Second Draft/Rule Cards/V2-117 - Pinned and recovery|V2-117]] ^condition-pinned
+- **Pinned** — Caused by losing a Wound while remaining above zero, or by a specific effect. Ordinary hits alone add Stress. Spend Move to stand. [[Settlements/Rules System/Second Draft/Rule Cards/V2-117 - Pinned and recovery|Pinned]]. ^condition-pinned
 
 - **Down** — Zero Wounds; awaiting revival or progression to Unconscious. [[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|V2-122]] ^condition-down
 

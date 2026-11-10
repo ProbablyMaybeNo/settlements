@@ -41,7 +41,7 @@ component_rules:
 - rule_id: V2-306
   rule_name: Skill action restrictions
   status: Drafted
-  last_rule_update: null
+  last_rule_update: '2026-11-10'
   review_status: Unreviewed
   review_notes: ''
 - rule_id: V2-307
@@ -50,6 +50,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-10'
 ---
 
 # Choosing and using skills
@@ -62,13 +63,13 @@ Skill prerequisites; Skill action restrictions; Skill frequency
 
 ### Skill prerequisites
 
-These **39 skills** are the Version 2 selection. Learn only skills whose stat is at least +2 before lasting injuries. Each fighter knows at most three; do not stack several copies. Starting skills are included in the training grade. Later skills come from advancement, not a separate purchase of powers.
+Learn only skills whose stat is at least +2 before lasting injuries. Each fighter knows at most three; do not stack several copies. Starting skills are included in the training grade. Later skills come from advancement, not a separate purchase of powers.
 
 ^text-s068-b000
 
 ### Skill action restrictions
 
-“Once per round” means once across all of that fighter's turns and reactions combined. A skill never converts Move into Core or grants another Core Action. Movement included in a skill effect does not create another action or reaction. All skill tests use the core test unless explicitly opposed. A passive bonus has no action cost. A fighter must be conscious, unpinned, unengaged, and free of a morale condition to use a skill action unless its text explicitly permits otherwise. Melee skills can be used during their stated engagement.
+“Once per round” means once across all of that fighter's turns and reactions combined. A skill’s specific wording overrides normal rules, including modifier, action and reaction limits. Movement included in a skill effect does not create another action or reaction. All skill tests use the core test unless explicitly opposed. A passive bonus has no action cost. A fighter must be conscious, unpinned, unengaged, and free of a morale condition to use a skill action unless its text explicitly permits otherwise. Melee skills can be used during their stated engagement.
 
 ^text-s068-b001
 

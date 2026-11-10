@@ -29,6 +29,6 @@ This accepts the effects below, not my alternative revisions. In particular, ret
 
 ## Pinning discussion
 
-The current working list still says that each hit gives 1 Stress and a hit unit with a Wound remaining becomes Pinned. Ross is checking whether ordinary hits should instead give Stress only, with Pinned caused by specific effects. No change to Pinning, and no two-hit threshold, is approved by this discussion.
+Confirmed: each hit adds 1 Stress. Only losing a Wound while retaining Wounds causes Pinned; zero causes Down. Specific effects can still Pin. The per-hit versus per-attack Stress question is reserved for simulation testing. Wound maxima are 3, or 4 for crew leaders.
 
 The earlier compatibility table is retained as historical review; its suggested changes to these twelve effects are superseded by this acceptance.

@@ -94,9 +94,10 @@ component_rules:
 - rule_id: V2-161
   rule_name: Marked visibility
   status: Drafted
-  last_rule_update: null
+  last_rule_update: '2026-11-10'
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-10'
 ---
 
 # Hidden and Observe
@@ -153,7 +154,7 @@ An unengaged fighter may spend Core to **Observe** one Hidden enemy or one conce
 
 ### Marked visibility
 
-Marked is different from revealed. Mark Target requires a legally visible target; it cannot select an untargetable Hidden fighter beyond 12 inches. A marked target loses Hidden when the marking test succeeds and cannot Hide again until that mark expires. Marking never grants LOS through terrain.
+Marked lasts until the start of the marking unit’s next activation, including when that unit is a surveillance drone. Marked is different from revealed. Mark Target requires a legally visible target; it cannot select an untargetable Hidden fighter beyond 12 inches. A marked target loses Hidden when the marking test succeeds and cannot Hide again until that mark expires. Marking never grants LOS through terrain.
 
 ^text-s048-b002
 

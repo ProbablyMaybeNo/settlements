@@ -14,34 +14,26 @@ The selected source contains 75 skills. The later saved catalogue contains 39; b
 
 **10 November STR follow-up:** [[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]]. The original recommendation counts below describe the 9 November review; the first three STR skills now use Ross’s replacement rules.
 
+**10 November concise pass:** DEX, AGI, INT and NRV now use brief rule wording and short recommendations. Specific skills can bend modifier, action and reaction limits. Hits add Stress; only Wounds or explicit effects cause Pinned. Maximum Wounds: 3, or 4 for leaders.
+
 ## Five reports
 
 | Report | Skills | Main work |
 | --- | ---: | --- |
 | [[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/01 STR Skill Compatibility|STR]] | 15 | Resolve the original Grapple package, retain slot-free handling choices, and replace +1 Wound rather than reviving obsolete self-treatment. |
-| [[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/02 DEX Skill Compatibility|DEX]] | 15 | Marking must be shared; one-die sidearms make Gunslinger ineffective; split-fire and protective reactions need distinct benefits. |
-| [[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/03 AGI Skill Compatibility|AGI]] | 15 | Common climbing/Aerial Assault and one-die melee invalidate old unlocks; bound follow-up attacks and movement/chem combinations. |
+| [[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/02 DEX Skill Compatibility|DEX]] | 15 | Marking must be shared; one-die sidearms limit Gunslinger’s current payoff; preserve the selected fire and reaction exceptions. |
+| [[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/03 AGI Skill Compatibility|AGI]] | 15 | retain the mobility and follow-up exceptions; adapt common Aerial Assault and check one-die off-hand benefits. |
 | [[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/04 INT Skill Compatibility|INT]] | 15 | Insert the three agreed device-category unlocks, update medicine/chems/capacity, and keep removed remote capture out. |
 | [[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/05 NRV Skill Compatibility|NRV]] | 15 | Use current Stress/Break timing; make recovery, auras and reactions useful without duplicated attacks, overflow loss or transfer loops. |
 
-## Recommendations at a glance
+## Review status
 
-| Category | Keep | Clarify | Revise | Replace | Redundant | Defer | Removed |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| STR | 1 | 7 | 6 | 1 | 0 | 0 | 0 |
-| DEX | 0 | 5 | 7 | 0 | 2 | 0 | 1 |
-| AGI | 1 | 4 | 8 | 1 | 1 | 0 | 0 |
-| INT | 1 | 3 | 5 | 4 | 0 | 1 | 1 |
-| NRV | 0 | 11 | 4 | 0 | 0 | 0 | 0 |
-
-**Keep** = selected effect still fits. **Clarify** = preserve its core effect, settle timing/scope. **Revise** = retain the role with a proposed bounded effect. **Replace** = old effect is incompatible or a newer agreed role needs the slot. **Redundant** = no current-profile payoff. **Defer/Removed** = do not field the old effect in the first test. These are review recommendations, not official card statuses.
-
-The roster is an inventory of 75 reviewed entries, not a promise that every old entry is a playable skill. Do not create filler to hide redundancy or prior removals. Archetypes describe identities and combinations rather than compulsory trees.
+STR effects are accepted. The other four reports remain recommendations. A cap-breaking effect is not a defect when the skill explicitly grants it.
 
 ## Shared battle baseline checked
 
 - Ordinary tests and hits: d20 + relevant Stat + modifiers − Stress versus 13+; natural 1 fails and natural 20 succeeds. Injury: d20 + Damage − Armour + Injury modifiers versus 13+, without Stress.
-- Every hit adds 1 Stress before Injury. A surviving hit Pins; zero Wounds is Down. Humans have one Wound. Medkit revival is now automatic, contact/Core, once per patient per battle; no self-revival or action refresh.
+- Every hit adds 1 Stress before Injury. Only losing a Wound while retaining Wounds causes Pinned; zero Wounds is Down. Units normally start at one Wound, with maxima of 3 or 4 for crew leaders. Medkit revival is now automatic, contact/Core, once per patient per battle; no self-revival or action refresh.
 - Each unit has one Move and one Core, in either order, with whole-unit alternating activations. Sprint, Charge and common Aerial Assault use both. There is no ordinary action conversion or Help Recover. Skill exceptions below are recommendations, not silent changes to that default. The Page’s complete activation card still awaits final sign-off; its stated one-own-attack limit is the comparison baseline, not a new approval.
 - ALERT replaces READY. One token maximum, one reaction per round, normal start/end-of-enemy-activation triggers, specific Return Fire/anti-Charge triggers, and no reaction chains. Return Fire uses simultaneous independent ordinary shots.
 - Melee cancels normal successes against normal successes and critical against critical. Both sides can injure; Unanswered prevents the defender inflicting hits, not cancelling successes. Rear attacks alone are not Unanswered.
@@ -50,20 +42,17 @@ The roster is an inventory of 75 reviewed entries, not a promise that every old 
 - The harness now ignores Unwieldy and load movement penalties, costs one equipment slot, and preserves hands/other carrying restrictions. Utility vest adds one slot and occupies none. Climbing gear creates a reusable ladder-like route; ordinary climbing already needs no gear.
 - Chems now give +4 to one listed Stat or MOVE for the battle; one dose per recipient per round; different types combine, duplicates do not. They do not unlock skills or add Wounds. Two consecutive battles with any chem trigger the new one-battle Addicted rule.
 - Shared Stunned is Pinned plus one missed activation; reapplication does not bank additional skipped activations. Use the newly consolidated On Fire/Poisoned rules rather than the old workshop condition text.
-- Hidden, Observe and Marked are separate. Observe reveals without an accuracy bonus. Marked grants friendly shooting +2, removes/prevents Hidden, ends this End Phase, and normally allows one enemy mark per crew.
+- Hidden, Observe and Marked are separate. Observe reveals without an accuracy bonus. Marked grants friendly shooting +2, removes/prevents Hidden, ends at the start of the marking unit’s next activation, and normally allows one enemy mark per crew.
 - Drone Pilot unlocks aerial drones, Drone Operator ground drones, Field Engineer turrets/traps/mines. Utilities such as climbing gear and barricades are ordinary equipment. Operator and drone activate together, each completing its own Move/Core; drones use fixed +3, not operator Stats. Respect control-range/shutdown and profile limits.
 - Use the largest skill bonus and largest skill penalty for each roll, capped at ±4; do likewise for equipment. Different categories can stack; Stats/Stress are outside that cap. Printed Armour/Damage are not silently clamped to four. Remaining cap wording is a shared-rule issue, not an excuse to add every skill bonus together.
 - Existing Credits and historic simulations do not establish current balance. Every successful terrain interaction can earn XP; do not add an XP cap to repair an overbroad free action.
 
-## Highest-impact findings
+## Remaining decisions
 
-1. **Current profiles invalidate off-hand full-dice payoffs:** Gunslinger and Ambidextrous add nothing with the present one-die eligible weapons. Keep the intended permission separate from the reduced catalogue’s invented extra die.
-2. **Equipment overlap is not always redundancy:** Big Fella/Strong Arm can save an equipment slot or add grapple permissions. Utility-vest overlap is more direct for total-of-three capacity skills.
-3. **Medical bonuses need real triggers:** medkit revival is automatic; preserve meaningful Stress treatment instead of rerolling a nonexistent test.
-4. **New common actions obsolete old unlocks:** everyone can climb and attempt Aerial Assault. Their skills need a distinct benefit, not another copy of the action.
-5. **Free-action chains need bounded exceptions:** review Rampage/Blade Fury/Parry, On Me, Motivate, Last Laugh and free deployment/Interact. Simultaneous melee/Return Fire already supplies some counterattack payoffs.
-6. **Stress and auras must follow the new contract:** no Stress on Injury, no Stress-free ordinary Break/Rally, no lost overflow, no transfer loops and no stacking every skill bonus.
-7. **The INT list must reflect its new catalogue:** category unlocks, +4 battle-long chems, two base equipment slots, the vest and automatic medicine are now the relevant dependencies.
+- Confirm the action/reaction costs left unspecified by Breach and Watch Out.
+- Set Phantom Shot’s extra Stress and a finite Parry trigger.
+- Integrate the three agreed deployable-category unlocks and current medical/chem procedures.
+- Keep the explicit removals and initial-test deferrals.
 
 ## Sources and limits
 
@@ -87,3 +76,7 @@ The roster is an inventory of 75 reviewed entries, not a promise that every old 
 ![[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/04 INT Skill Compatibility]]
 
 ![[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/05 NRV Skill Compatibility]]
+
+## Latest Marksman decisions
+
+Marked lasts until the marking unit’s next activation, including surveillance drones. Steady Breathing adds 12 inches to two-handed weapon range only. Head Shot’s +2/+4 and single-shot +4/+6 remain test candidates, with its existing Marked/stationary requirements.

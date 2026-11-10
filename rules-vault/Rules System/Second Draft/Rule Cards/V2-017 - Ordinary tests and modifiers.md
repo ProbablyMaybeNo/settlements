@@ -21,7 +21,7 @@ status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
-last_rule_update: '2026-10-22'
+last_rule_update: '2026-11-10'
 source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-017 - Ordinary test]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-018 - Automatic and impossible tasks]]'
@@ -31,7 +31,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-022 - Profile values]]'
 review_notes: ''
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-017 - Ordinary tests and modifiers|Skill and equipment modifiers]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-017 - Ordinary tests and modifiers|Skill and equipment
+  modifiers]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-017 - Ordinary tests and modifiers|Stress-free rolls]]'
 planned_section: 02 · Core Mechanics
 rule_parent: Dice and Tests
@@ -111,6 +112,12 @@ For any roll, use only the **largest positive and largest negative modifier from
 Printed weapon Damage and Armour are profile values, not equipment characteristic bonuses. Injury rolls have their own formula in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#9 Injury casualties and rescue|injury casualties and rescue]] and **do not subtract Stress**. Break and Rally ignore Stress. Distance rolls, initiative, and post-battle tables are not stat tests and ignore Stress too.
 
 ^text-s006-b002
+
+### Specific skill exceptions
+
+A skill’s specific wording can override normal modifier caps. Other modifiers still follow their normal rules.
+
+^specific-skill-cap-exceptions
 
 ## Links
 

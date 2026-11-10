@@ -61,7 +61,7 @@ component_rules:
 - rule_id: V2-139
   rule_name: Stress track
   status: Drafted
-  last_rule_update: null
+  last_rule_update: '2026-11-10'
   review_status: Unreviewed
   review_notes: ''
 - rule_id: V2-140
@@ -124,7 +124,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
-last_rule_update: '2026-10-22'
+last_rule_update: '2026-11-10'
 ---
 
 # Stress, Break and forced flight
@@ -137,13 +137,13 @@ Stress track; Witness casualty; Stress penalty; End Phase Break; Broken; Bolting
 
 ### Stress track
 
-Other sources must say how much they add. The same hit does not add a separate “under fire” Stress on top of its failed Injury result. Extra Stress beyond 5 is lost. A transfer cannot remove more Stress than its recipient can accept.
+Gain 1 Stress per successful hit, before Injury. Injury adds no further Stress. Extra Stress beyond the unit’s maximum is lost; transfers cannot exceed the recipient’s remaining capacity.
 
 ^text-s042-b001
 
 ### Witness casualty
 
-Stress ranges from 0 to **5**. Gain one Stress for each failed Injury roll against you. You also gain one Stress the **first time each round** you see a friendly become Down within 6 inches. Use your forward LOS. Several casualties from one blast still give only one Stress through this witness trigger. Down and Unconscious fighters do not gain witness Stress.
+Stress ranges from 0 to **5**. You also gain one Stress the **first time each round** you see a friendly become Down within 6 inches. Use your forward LOS. Several casualties from one blast still give only one Stress through this witness trigger. Down and Unconscious fighters do not gain witness Stress.
 
 ^text-s042-b000
 

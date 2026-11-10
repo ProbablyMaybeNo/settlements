@@ -57,7 +57,7 @@ component_rules:
 - rule_id: V2-056
   rule_name: Both-cost actions
   status: Drafted
-  last_rule_update: 2026-10-19
+  last_rule_update: '2026-11-10'
   review_status: Unreviewed
   review_notes: ''
 - rule_id: V2-057
@@ -75,7 +75,7 @@ component_rules:
 - rule_id: V2-059
   rule_name: Own attack limit
   status: Drafted
-  last_rule_update: null
+  last_rule_update: '2026-11-10'
   review_status: Unreviewed
   review_notes: ''
 - rule_id: V2-060
@@ -105,7 +105,7 @@ Resolve or forfeit both slots before ending the activation. You may decline an u
 
 ^text-s018-b001
 
-An action costing **Both** spends the fighter's unused Move and Core together. If either is already spent, it cannot perform that action. Each fighter has one Move Action for its own movement and one Core Action for other tasks. Standing up from Pinned uses Move instead of travelling. Neither slot converts into the other, and skills do not grant a second Core Action. Choose any eligible, not-yet-activated fighter; there is no fixed activation order within your crew.
+An action costing **Both** spends the fighter's unused Move and Core together. If either is already spent, it cannot perform that action. Each fighter has one Move Action for its own movement and one Core Action for other tasks. Standing up from Pinned uses Move instead of travelling. Neither slot normally converts into the other; a skill may explicitly provide an exception. Choose any eligible, not-yet-activated fighter; there is no fixed activation order within your crew.
 
 ^text-s018-b002
 
@@ -117,7 +117,7 @@ You may voluntarily end your crew's activations for the round: mark all remainin
 
 ### Own attack limit
 
-A fighter may perform at most **one own-turn attack action** each round: Shoot, Fight, or Charge. A reaction attack is separate. Defensive melee participation is not an attack action. Skills may combine movement and a Core task by spending both slots, but cannot turn Move into another Core or create an extra own-turn attack. Any own action directly attacking a fighter—including Shove, Grapple, Throw, Incapacitate, or a damaging grenade—uses the own-turn attack allowance. Firing a turret through an operation or Trojan also uses the operator's allowance. Terrain operations and deploying devices remain interactions, even if their hazards threaten enemies; they do not grant a second direct attack.
+A fighter may perform at most **one own-turn attack action** each round: Shoot, Fight, or Charge. A reaction attack is separate. Defensive melee participation is not an attack action. Skills may explicitly override action costs, conversion and the own-attack limit. Any own action directly attacking a fighter—including Shove, Grapple, Throw, Incapacitate, or a damaging grenade—uses the own-turn attack allowance. Firing a turret through an operation or Trojan also uses the operator's allowance. Terrain operations and deploying devices remain interactions, even if their hazards threaten enemies; they do not grant a second direct attack.
 
 ^text-s019-b016
 

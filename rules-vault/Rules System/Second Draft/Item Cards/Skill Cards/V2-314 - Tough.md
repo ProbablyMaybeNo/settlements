@@ -11,10 +11,7 @@ tags:
 - settlements/v2
 - skill
 - str
-- medical
-- reroll
-- once-battle
-summary: Once/battle reroll failed self-treatment with same medkit; no extra Wound.
+summary: Gain +1 Wound, up to the unit’s Wound limit.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -24,9 +21,8 @@ source:
   2#Strength skills]]'
 review_notes: ''
 stat: STR
-use: Once per battle
-effect: Reroll your failed self-treatment test using the same medkit. This is the same treatment attempt, not a
-  second charge or an extra Wound.
+use: Passive
+effect: Gain +1 Wound, up to the unit’s Wound limit.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'
@@ -37,21 +33,22 @@ card_kind: Skill
 catalogue_id: V2-487
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-487 - STR skills]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-10'
 ---
 
 # Tough
 
 ## Summary
 
-Once/battle reroll failed self-treatment with same medkit; no extra Wound.
+Gain +1 Wound, up to the unit’s Wound limit.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Skill | Tough |
-| Use | Once per battle |
-| Effect | Reroll your failed self-treatment test using the same medkit. This is the same treatment attempt, not a second charge or an extra Wound. |
+| Use | Passive |
+| Effect | Gain +1 Wound, up to the unit’s Wound limit. |
 
 ^text-s069-b006
 
@@ -65,3 +62,7 @@ Once/battle reroll failed self-treatment with same medkit; no extra Wound.
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
 
 <!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+
+### Accepted STR effect — 2026-11-10
+
+Ross retained Tough’s +1 Wound effect. The earlier self-treatment reroll and proposed Injury reroll are superseded.

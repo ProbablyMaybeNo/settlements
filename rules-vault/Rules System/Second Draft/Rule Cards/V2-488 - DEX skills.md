@@ -31,6 +31,7 @@ catalogue_columns:
 catalogue_members:
 - V2-316
 - V2-317
+- V2-510
 - V2-318
 - V2-319
 - V2-320
@@ -50,8 +51,9 @@ DEX skills: complete table with links to individual skill cards.
 
 | Name | Use | Effect |
 | --- | --- | --- |
-| [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-316 - Mark Target\|Mark Target]] | Core | Test DEX against one legally visible enemy within 24 inches. Pass: Mark it through this round's End Phase; friendly shooting gains +2 to hit it. Reveal it as described in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#11 Stealth and observation\|stealth and observation]]. Only one enemy may be Marked by your crew at a time; a new mark replaces the old. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-316 - Mark Target\|Mark Target]] | Core | Test DEX against a legally visible enemy within 24 inches. Mark it until the start of your next activation: friendly shooting gains +2, and the target loses Hidden and cannot Hide. Your crew may have one Marked enemy; a new mark replaces it. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-317 - Head Shot\|Head Shot]] | Shooting modifier | Gain +2 Damage against a Marked target when using a one-die ranged weapon. Does not apply to Blast or an Automatic weapon reduced to one die. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-510 - Steady Breathing\|Steady Breathing]] | Passive | Add 12 inches to the range of your two-handed ranged weapons. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-318 - Gunslinger\|Gunslinger]] | Passive | When using two one-handed firearms, add one off-hand Attack Die beyond the normal allowance, to the shared maximum of three. Keep each die's weapon identity. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-319 - Split Fire\|Split Fire]] | Shooting modifier | Divide your normal shooting pool between at most two enemies within 3 inches of each other. Each die needs its own weapon range and LOS. No extra dice or follow-up shots. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-320 - Run and Gun\|Run and Gun]] | Move plus Core | If both slots remain, combine normal Move and Shoot as one action, firing at a declared point along the route and then completing the remaining movement if still able. Spend both slots at declaration. Unlike an ordinary Move followed by Shoot, this permits a shot partway through movement and gives the opponent one reaction window for the combined action. It uses your one own-turn attack. |
