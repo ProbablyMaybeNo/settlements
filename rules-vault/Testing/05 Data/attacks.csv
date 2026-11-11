@@ -1,0 +1,1 @@
+﻿attack_id,session_id,round,actor_id,target_id,attack_type,weapon_owner_ids,attack_dice,hits,injury_checks,injury_dice,wounds_removed,stress_added,attacker_stress,target_armour,target_starting_wounds,cover,condition_notes,duration_seconds

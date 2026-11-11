@@ -1,0 +1,28 @@
+filters:
+  and:
+    - file.inFolder("Settlements/Testing")
+    - file.ext == "md"
+views:
+  - type: table
+    name: Notes
+    filters:
+      and:
+        - type == "settlements-testing-note"
+        - status != "Template"
+    order:
+      - file.name
+      - testing_section
+      - status
+      - summary
+  - type: table
+    name: Sessions
+    filters:
+      and:
+        - type == "settlements-test-session"
+        - status != "Template"
+    order:
+      - file.name
+      - session_id
+      - date
+      - mode
+      - status

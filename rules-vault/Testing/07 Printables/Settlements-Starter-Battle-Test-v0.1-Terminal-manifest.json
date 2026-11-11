@@ -1,0 +1,434 @@
+{
+  "prepared_date": "2026-11-11",
+  "version": "0.1",
+  "design": "Black-on-white terminal",
+  "pdf": "D:\\AI-Workstation\\Antigravity\\apps\\Settlements\\output\\pdf\\Settlements-Starter-Battle-Test-v0.1-Terminal.pdf",
+  "pages_expected": 10,
+  "source_root": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System",
+  "sources": {
+    "V2-002": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-002 - Components, models and templates.md",
+      "sha256": "77c3865222fb53094778a26726db749b42bc1fd3bf705367a3a97b78d136a910"
+    },
+    "V2-007": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-007 - Measuring and shared conventions.md",
+      "sha256": "6e80179891956f4e0a535453430f745908c31e55eada92d5400a851c3a9655de"
+    },
+    "V2-015": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-015 - Reading a fighter profile.md",
+      "sha256": "4a1937a3ac4c1c228fea86139fa220e330de8172d0c1d97eb6dedad0a423eafb"
+    },
+    "V2-017": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-017 - Ordinary tests and modifiers.md",
+      "sha256": "e7314bbd557e3fbddf08ef110be35309250188c405e902491fd4ec6fa38e0e37"
+    },
+    "V2-023": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-023 - Single opposed tests.md",
+      "sha256": "4b6a1c7ce24ae324548f170f6af688f0892287e065037bc66455f3e9c6a45548"
+    },
+    "V2-025": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-025 - Credits and Crew Rating.md",
+      "sha256": "0aa371dba869a3738f9d2928cce18f552bff20427b9b62350c771376b11e7147"
+    },
+    "V2-029": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-029 - Recruitment and training grades.md",
+      "sha256": "2bad86e3050d114248bff22c4467d97acfae32ee6d0a24326d803f7f31ede6a5"
+    },
+    "V2-034": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-034 - Crew composition and item limits.md",
+      "sha256": "e48ad5a02c9a586491178e9da8978332b51ef516785f4c8d3971c9bc3b8c1224"
+    },
+    "V2-037": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-037 - Equipping fighters and handling weapons.md",
+      "sha256": "46c1cbcf73c4f9d1e42edc0f45fe8926431eae5d13b95e3650021a7b61062ebc"
+    },
+    "V2-044": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-044 - Setup and deployment.md",
+      "sha256": "24f66f2ae9063e302d4b1cdca922977c573d923b164f6270c4365671a74e41c8"
+    },
+    "V2-046": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-046 - Battlefield setup and terrain agreement.md",
+      "sha256": "af1f234180b5e4ad604d9ab11424d7cf78f6893ca48e2f82fcb8cc36bf59f0be"
+    },
+    "V2-049": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-049 - Cover and elevation.md",
+      "sha256": "8ce7413c3207457750eee81a88263f0f06cf225b1077a965f47c9936bc21ae83"
+    },
+    "V2-052": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-052 - Round refresh and initiative.md",
+      "sha256": "f7914d2e525beccf1b5c875951e129a30766a28ad3fcf7ce80b42f1ca838dd8b"
+    },
+    "V2-055": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-055 - Activations, action costs and attack limit.md",
+      "sha256": "6b2956dade21c83200e1cb139922b5211f4a0bc9fe52aaded4c3de32c0fd068e"
+    },
+    "V2-061": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-061 - ALERT and reaction eligibility.md",
+      "sha256": "dc92ad5185c13f46042fb8cb221e83bb5726121b9e872debe03a16fa3f308970"
+    },
+    "V2-065": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-065 - Reactions and interruption.md",
+      "sha256": "04c8016a0954354d6d8524cea5ae63373f8867e553d195a5366d7ead593ab81a"
+    },
+    "V2-073": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-073 - End Phase.md",
+      "sha256": "9b7639359d3b258caadd8e88c31206a54961d19d079dbe7863fb01ce4e7e2259"
+    },
+    "V2-074": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-074 - Facing, visibility and rear attacks.md",
+      "sha256": "3fe4e130aa1c7a98dd70fd83dee296b537eba8e45e365c067f7e5066acd79108"
+    },
+    "V2-078": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-078 - Move, obstacles and Sprint.md",
+      "sha256": "0f96c76aff16a810beb2f01c5678a9bfb7d850fc26bcfdc671bde0e462936053"
+    },
+    "V2-082": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-082 - Charge.md",
+      "sha256": "802895df046dd293f9511da7baf534f492550a9b711b0412bad29cbb270a4fe4"
+    },
+    "V2-084": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-084 - Climbing, jumping and falling.md",
+      "sha256": "a73b3f4480e7ae915be18a5d8b2414562c18036996f9e7b31ea3d5d42edef50c"
+    },
+    "V2-089": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-089 - Forced movement.md",
+      "sha256": "21c45e1180abe68aef615113b0c310e6f74310e0fc72d683f2130744e2addea2"
+    },
+    "V2-090": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-090 - Carrying and releasing loads.md",
+      "sha256": "1b2689efdd6e6cdbc15a1469576bec0f457897aea4b7b136456ab05f73c093ea"
+    },
+    "V2-093": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-093 - Engagement and Disengage.md",
+      "sha256": "797c77034a75c96da3748cb7cb2b9887dcae4b87fc299a1bd8b7f720374b80eb"
+    },
+    "V2-097": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-097 - Shooting and target allocation.md",
+      "sha256": "eb26af6d06ef5b797a4c5334a459843c43b499834e37ba0e5e38455f594277aa"
+    },
+    "V2-099": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-099 - Aim.md",
+      "sha256": "46d84f33d29e975400bea17eda3a2abef0263279614a58d6d687fc923a1a596e"
+    },
+    "V2-102": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-102 - Weapon pools, dual wielding and unarmed attacks.md",
+      "sha256": "cf461ed923ecd6a878bf7f4a27e30847cd6027c5ef346ed0829b464ee0cf8827"
+    },
+    "V2-106": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-106 - Melee exchanges, Unanswered and Shove.md",
+      "sha256": "7523d2c783cd61e4a43f564c961c30d1927e75dbfd31f3c66723cf4631efca05"
+    },
+    "V2-114": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-114 - Injury and attack outcomes.md",
+      "sha256": "d8009553968b4e0b6e975c60044c2adfd40ac4e9751f726add3843c7e1e5bd01"
+    },
+    "V2-117": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-117 - Pinned and recovery.md",
+      "sha256": "23560e2a6b2c8c1be78155c46483b0e3634189a9427c973de2f5b557d371c60a"
+    },
+    "V2-122": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-122 - Down and Unconscious casualties.md",
+      "sha256": "8be8cb7845c377bb6fd59f13d59f1179c20d6cafc6e112d16dd6c8ef5b8cc792"
+    },
+    "V2-126": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-126 - Treatment and revival.md",
+      "sha256": "c7aa0403fb54280d807a211bb318e9b2181ffbeff69d657d6073b7e50d77ea0d"
+    },
+    "V2-131": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-131 - Loot and item ownership.md",
+      "sha256": "93179ec7c9bec4e0f4cd4211ca85dabe8748184819b57c4579461d8d187b60d8"
+    },
+    "V2-134": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-134 - Securing, rescuing and extracting captives.md",
+      "sha256": "fdecc07063243ee443300bb0eacdb6fe4c8db5bdbbe954030384f606b7ade739"
+    },
+    "V2-139": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-139 - Stress, Break and forced flight.md",
+      "sha256": "333aec36a015b0c9d6cc87e22e6b7306d1c72522a13b02f43019033668f0ba2d"
+    },
+    "V2-150": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-150 - Rally.md",
+      "sha256": "a60a9e1f6d4f7c194413b401ed09dd0e01a05d76710b9e55d8dc4330e62f76cf"
+    },
+    "V2-153": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-153 - Ending a battle and recovering the crew.md",
+      "sha256": "0ba74298aa68015335c5328370643dbf72a729489fb59d7e8c85fadf521755ac"
+    },
+    "V2-154": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-154 - Hidden and Observe.md",
+      "sha256": "54cda0f1db21db6b06e2bc50982950dfaebfd61f9f0c33b0261485ab353d025a"
+    },
+    "V2-162": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-162 - Interact and stat examples.md",
+      "sha256": "6f3e161354002f0c98befebeebee68f134a2c6b1b9738aaa9f64e0e84740da9d"
+    },
+    "V2-231": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Weapon Characteristic Cards\\V2-231 - Accurate.md",
+      "sha256": "66024d17bd8a7084e1b8359d1177671784524637ac20b6f5426606a914da2ed3"
+    },
+    "V2-233": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Weapon Characteristic Cards\\V2-233 - Automatic.md",
+      "sha256": "56c13a9092f0849bc9eb1576272befb7211c0a248e4390ff6e361e0294cd470a"
+    },
+    "V2-234": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Weapon Characteristic Cards\\V2-234 - Agile.md",
+      "sha256": "5b555316511bb4aceb72f4c3305a5fbb63a418257e938f3e298384f830b231b1"
+    },
+    "V2-237": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Weapon Characteristic Cards\\V2-237 - Bash.md",
+      "sha256": "74c4a284efe636953838f1e0781ae40158d5e969f4638e910d971b10e4c8ad0f"
+    },
+    "V2-248": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-248 - Area attacks, smoke and fire.md",
+      "sha256": "973eb28f590c53626fb40fc4850cfc1cfb5560d093349d176cfd5b6a4b3f1caf"
+    },
+    "V2-254": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Armour Cards\\V2-254 - Light armour.md",
+      "sha256": "7ab971b56f2151ee84bacbc7831259149e23198a03da0216117a05491635ff6c"
+    },
+    "V2-255": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Armour Cards\\V2-255 - Standard armour.md",
+      "sha256": "81943968ea79f917204adb94ea1ac9a5639e6b8e407bd566ffdd24883754f56f"
+    },
+    "V2-256": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Equipment Cards\\V2-256 - Protective shield.md",
+      "sha256": "21442407061e4aa219b5db25d98630ef672c5efcd013be4fa1fd52fb241985ca"
+    },
+    "V2-257": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Equipment Cards\\V2-257 - Medkit.md",
+      "sha256": "1f3ee12fa5266e0cff4e7d436c41326b63188f9137c544c1c0e2df868584460a"
+    },
+    "V2-258": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Equipment Cards\\V2-258 - Smoke grenade.md",
+      "sha256": "c10c409c6ac5658970a7b00000f6f12237d3353ed6342ab392e8aef47d04f081"
+    },
+    "V2-259": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Equipment Cards\\V2-259 - Frag grenade.md",
+      "sha256": "3bff4949d5c3a5974ff08e4489657b7cf5892ca177b30fdd5fbb17c9f08881ac"
+    },
+    "V2-283": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Weapon Cards\\V2-283 - Unarmed.md",
+      "sha256": "4bb5666399dd78a596169595dbd2def8f15ef47a136a03be95a089ce5c918f63"
+    },
+    "V2-286": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Weapon Cards\\V2-286 - Sword Machete.md",
+      "sha256": "8b05bf4faf5cf7f1d98daca443297319c73a61f04f81d637ec5b4b4102801a16"
+    },
+    "V2-293": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Weapon Cards\\V2-293 - Carbine.md",
+      "sha256": "57f52640a9df16deb961d33647c17e6e1af83966d7b5ca4fd72426e871e47e5e"
+    },
+    "V2-294": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Weapon Cards\\V2-294 - Assault rifle.md",
+      "sha256": "ac027c81136a33fc6b5bdcbfe67a1597b08c103fa9b693b2b29baed1be672290"
+    },
+    "V2-314": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Skill Cards\\V2-314 - Tough.md",
+      "sha256": "0e3b4b81062dea0ffadc99faf8a1790d772366f93918982406617ec84c6be9ed"
+    },
+    "V2-316": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Skill Cards\\V2-316 - Mark Target.md",
+      "sha256": "6b1bb622785ca52e57cc2f0ae102a4ba659ebae66c90e957e3dc3d5fd0124a27"
+    },
+    "V2-329": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Skill Cards\\V2-329 - Quick.md",
+      "sha256": "e05733f05972a6ba3f62c200f79f0b5c0ff312ad5bb8474771230fa333f27b1a"
+    },
+    "V2-330": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Skill Cards\\V2-330 - Sneak.md",
+      "sha256": "21969a2c5d6c9002009e8011b571b58ed0a8b1c7ad525ba6bebdcc882bfe4c43"
+    },
+    "V2-346": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Skill Cards\\V2-346 - Commanding Presence.md",
+      "sha256": "62af1005cf5bc75c34bbf73e1c0ae9307998dfaea08f7316abd5112524df46ce"
+    },
+    "V2-354": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-354 - Non-killing victory routes.md",
+      "sha256": "6343098bed96bac8e9c619d0c2139bef1019fdd717c058f2ebdd7de077a1594b"
+    },
+    "V2-454": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-454 - Objective limits and control areas.md",
+      "sha256": "98d983596e8994351bb7d043795880b75641d81388ebae2bbebf9b848fb601e6"
+    },
+    "V2-485": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Rule Cards\\V2-485 - Orders.md",
+      "sha256": "5506a181beee4dcb2fbf57786b654bd8f972aca676d027dfce9fe434d775b0a8"
+    },
+    "V2-511": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Weapon Cards\\V2-511 - Club Hammer Steel pipe.md",
+      "sha256": "4554ffac44e9b0a80925c3e527d691dba416733e24377e58d8f6472625fe0738"
+    },
+    "V2-543": {
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Rules System\\Master Rules System\\Item Cards\\Weapon Characteristic Cards\\V2-543 - Parry.md",
+      "sha256": "12a4e908d6a5c4799dfd3e624f9e61d1abe60e2cc0226840ccc5f3735118b57d"
+    }
+  },
+  "crew_templates": [
+    {
+      "role": "Leader",
+      "rank": "Veteran / crew leader",
+      "stats": [
+        2,
+        2,
+        0,
+        0,
+        3
+      ],
+      "move": 6,
+      "wounds": 2,
+      "armour": 2,
+      "orders": 2,
+      "weapons": [
+        "V2-293"
+      ],
+      "equipment": [
+        "V2-257"
+      ],
+      "skills": [
+        "V2-314",
+        "V2-316",
+        "V2-346"
+      ],
+      "melee": "Unarmed: 1 die + STR 2; DMG 0.",
+      "defence": "1 die + STR 2.",
+      "note": "Mark targets, support Break tests and keep Orders for useful reactions."
+    },
+    {
+      "role": "Vanguard",
+      "rank": "Specialist",
+      "stats": [
+        0,
+        0,
+        0,
+        4,
+        1
+      ],
+      "move": 8,
+      "wounds": 1,
+      "armour": 4,
+      "orders": 1,
+      "weapons": [
+        "V2-286"
+      ],
+      "equipment": [
+        "V2-256",
+        "V2-257"
+      ],
+      "skills": [
+        "V2-329",
+        "V2-330"
+      ],
+      "melee": "Sword: 2 dice + AGI 4; DMG 1.",
+      "defence": "5 dice + AGI 4 (2 + Parry 1 + shield 2).",
+      "note": "Reach objectives quickly; Sneak up to 8 inches while Hidden."
+    },
+    {
+      "role": "Rifleman / automatic",
+      "rank": "Fighter",
+      "stats": [
+        0,
+        2,
+        0,
+        0,
+        1
+      ],
+      "move": 6,
+      "wounds": 1,
+      "armour": 2,
+      "orders": 0,
+      "weapons": [
+        "V2-294"
+      ],
+      "equipment": [
+        "V2-259"
+      ],
+      "skills": [],
+      "melee": "Unarmed: 1 die + STR 0; DMG 0.",
+      "defence": "1 die + STR 0.",
+      "note": "Two attack dice; carries two Frag grenades."
+    },
+    {
+      "role": "Rifleman / precision",
+      "rank": "Fighter",
+      "stats": [
+        0,
+        2,
+        0,
+        0,
+        1
+      ],
+      "move": 6,
+      "wounds": 1,
+      "armour": 2,
+      "orders": 0,
+      "weapons": [
+        "V2-293"
+      ],
+      "equipment": [
+        "V2-258"
+      ],
+      "skills": [],
+      "melee": "Unarmed: 1 die + STR 0; DMG 0.",
+      "defence": "1 die + STR 0.",
+      "note": "One Accurate shot; carries two Smoke grenades."
+    },
+    {
+      "role": "Observer / aid",
+      "rank": "Fighter",
+      "stats": [
+        0,
+        1,
+        2,
+        0,
+        0
+      ],
+      "move": 6,
+      "wounds": 1,
+      "armour": 2,
+      "orders": 0,
+      "weapons": [
+        "V2-293"
+      ],
+      "equipment": [
+        "V2-257"
+      ],
+      "skills": [],
+      "melee": "Unarmed: 1 die + STR 0; DMG 0.",
+      "defence": "1 die + STR 0.",
+      "note": "INT 2 for Observe; move into contact to use the medkit."
+    },
+    {
+      "role": "Bruiser",
+      "rank": "Fighter",
+      "stats": [
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "move": 6,
+      "wounds": 1,
+      "armour": 4,
+      "orders": 0,
+      "weapons": [
+        "V2-511"
+      ],
+      "equipment": [
+        "V2-256"
+      ],
+      "skills": [],
+      "melee": "Club: 1 die + STR 2; DMG 1; Bash.",
+      "defence": "3 dice + STR 2 (1 + shield 2).",
+      "note": "Bash reduces enemy Armour by 4, minimum 0. Charge for an extra die."
+    }
+  ],
+  "crews_mirrored": true,
+  "crew_stat_points_each": 24,
+  "orders_each": 3,
+  "pricing_validated": false,
+  "balance_validated": false,
+  "scenario_status": "Packet-specific starter test scenario; not adopted into the Master Rules System",
+  "scope": "Standalone basic battle with selected profiles; advanced catalogues and campaign excluded",
+  "vault_modified": false
+}

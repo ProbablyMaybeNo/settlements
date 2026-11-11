@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-11",
+  "assets": [
+    {
+      "name": "Settlements-Starter-Battle-Test-v0.1-Terminal.pdf",
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Testing\\07 Printables\\Settlements-Starter-Battle-Test-v0.1-Terminal.pdf",
+      "pages": 10,
+      "sha256": "62f65cb8ccfd10a9dfe0ed48781985f28a8c41653cf56f30b42481f51a44f8ed",
+      "status": "Working starter fixture; unguided testing not yet performed"
+    },
+    {
+      "name": "Settlements-Playtest-Worksheets-v0.1.pdf",
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Testing\\07 Printables\\Settlements-Playtest-Worksheets-v0.1.pdf",
+      "repository_output": "D:\\AI-Workstation\\Antigravity\\apps\\Settlements\\output\\pdf\\Settlements-Playtest-Worksheets-v0.1.pdf",
+      "pages": 6,
+      "sha256": "4f1bf621f693312f03f4581cb7011bc5088d9c057bef11cc034c3ca691944d7d",
+      "status": "Working test resource; not observed testing evidence"
+    },
+    {
+      "name": "Settlements-Battle-Aids-v0.1.pdf",
+      "path": "C:\\Users\\Admin\\Documents\\Obsidian Vault\\Settlements\\Testing\\07 Printables\\Settlements-Battle-Aids-v0.1.pdf",
+      "repository_output": "D:\\AI-Workstation\\Antigravity\\apps\\Settlements\\output\\pdf\\Settlements-Battle-Aids-v0.1.pdf",
+      "pages": 6,
+      "sha256": "386bded2bfa8a22b55bbf17434a8714b20320b7283992f185479642e089936dc",
+      "status": "Working test resource; not observed testing evidence"
+    }
+  ],
+  "physical_print_check": "Pending actual paper measurement",
+  "digital_dimensions_check": "Required before completion",
+  "new_forms_are_original": true,
+  "third_party_forms_reproduced": false
+}

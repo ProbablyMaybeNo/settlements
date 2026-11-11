@@ -1,0 +1,20 @@
+{
+  "pages": 10,
+  "other_nine_pages_match_original": true,
+  "profile_page_source_rules_and_weapon_values_verified": true,
+  "weapon_keywords_in_profile_rows": true,
+  "diagram_legend_only_changed_to_monochrome_terms": true,
+  "black_and_white_only": true,
+  "monospaced_fonts": [
+    "AAAAAA+Consolas",
+    "AAAAAA+Consolas-Bold"
+  ],
+  "out_of_bounds_characters": 0,
+  "blast_and_smoke_diameters_inches": [
+    3,
+    5
+  ],
+  "calibration_line_inches": 1,
+  "live_source_hashes_verified": 64,
+  "visual_review_all_pages": "Passed"
+}

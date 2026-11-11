@@ -22,3 +22,9 @@ The live workspace uses Section → Mechanic → Rule. Parent notes and the canv
 ## Archive
 
 The archive is preserved for recovery and design history, not an alternative playable rule set. Unapproved ideas must be reviewed before they return to the active rules.
+
+## Testing workspace
+
+- [[Settlements/Testing/START HERE - Settlements Testing|Research, testing plan, session records and printable test resources]]
+
+Testing notes are research and working protocols, not additional approved rules.
