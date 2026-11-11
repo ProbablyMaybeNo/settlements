@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - profile
 - agi
-summary: Climbing, jumping, balance, and Agile melee
+summary: 'Agility: movement tests and Agile melee attacks.'
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -20,7 +20,7 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#The profile]]'
 review_notes: ''
-meaning: Climbing, jumping, balance, and Agile melee
+meaning: 'Agility: movement tests and Agile melee attacks.'
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Reading a fighter profile|Five stats]]'
 planned_section: 02 · Core Mechanics
@@ -35,14 +35,14 @@ consolidated: '2026-10-25'
 
 ## Summary
 
-Climbing, jumping, balance, and Agile melee
+Agility: movement tests and Agile melee attacks.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Characteristic | AGI |
-| Meaning | Climbing, jumping, balance, and Agile melee |
+| Meaning | Agility: movement tests and Agile melee attacks. |
 
 ^text-s005-b002
 

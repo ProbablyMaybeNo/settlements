@@ -11,10 +11,8 @@ tags:
 - settlements/v2
 - skill
 - dex
-- ranged
-- dice-plus
-- combat
-summary: Dual one-handed firearms gain one extra off-hand die; total pool still capped three.
+summary: You may fire two one-handed ranged weapons in one Attack action, using both weapons’ full ATK, Damage and
+  keywords. Keep each weapon’s dice identifiable.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,28 +20,34 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Dexterity skills]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Draft 2 before complete rulebook
+  - 2026-10-17/Draft 2 - Skills]]'
 review_notes: ''
 stat: DEX
 use: Passive
-effect: When using two one-handed firearms, add one off-hand Attack Die beyond the normal allowance, to the shared
-  maximum of three. Keep each die's weapon identity.
+effect: You may fire two one-handed ranged weapons in one Attack action, using both weapons’ full ATK, Damage and
+  keywords. Keep each weapon’s dice identifiable.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill frequency]]'
 planned_section: 08 · Skills
-rule_parent: Skills
+rule_parent: Skill Catalogue
 card_kind: Skill
 catalogue_id: V2-488
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-488 - DEX skills]]'
 consolidated: '2026-10-25'
+archetype: Gunslinger
+last_rule_update: '2026-11-10'
+approval_source: Ross’s selected twelve-skill DEX roster and latest chat rulings; original selected effect preserved
+  where unchanged
 ---
 
 # Gunslinger
 
 ## Summary
 
-Dual one-handed firearms gain one extra off-hand die; total pool still capped three.
+You may fire two one-handed ranged weapons in one Attack action, using both weapons’ full ATK, Damage and keywords. Keep each weapon’s dice identifiable.
 
 ## Rule text
 
@@ -51,17 +55,10 @@ Dual one-handed firearms gain one extra off-hand die; total pool still capped th
 | --- | --- |
 | Skill | Gunslinger |
 | Use | Passive |
-| Effect | When using two one-handed firearms, add one off-hand Attack Die beyond the normal allowance, to the shared maximum of three. Keep each die's weapon identity. |
+| Effect | You may fire two one-handed ranged weapons in one Attack action, using both weapons’ full ATK, Damage and keywords. Keep each weapon’s dice identifiable. |
 
 ^text-s070-b002
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-488 - DEX skills|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-488 - DEX skills]]

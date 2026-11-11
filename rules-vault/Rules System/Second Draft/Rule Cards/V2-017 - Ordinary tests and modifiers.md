@@ -15,8 +15,8 @@ tags:
 - stress
 - damage
 - armour
-summary: Ordinary test; Automatic and impossible tasks; Skill and equipment modifiers; Position modifiers; Stress-free
-  rolls; Profile values
+summary: When an action requires a test, roll 1d20 + Stat + modifiers − Stress. A total of 13 or more succeeds.
+  A natural 1 fails. A natural 20 succeeds.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -29,6 +29,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-020 - Position modifiers]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-021 - Stress-free rolls]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-022 - Profile values]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-017 - Ordinary tests and modifiers]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-017 - Ordinary tests and modifiers|Skill and equipment
@@ -81,54 +83,37 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Ordinary tests and modifiers
 
 ## Summary
 
-Ordinary test; Automatic and impossible tasks; Skill and equipment modifiers; Position modifiers; Stress-free rolls; Profile values
+When an action requires a test, roll 1d20 + Stat + modifiers − Stress. A total of 13 or more succeeds. A natural 1 fails. A natural 20 succeeds.
 
 ## Rule text
 
-### Ordinary test
-
-Roll **1d20 + the relevant stat + modifiers − Stress**. A total of **13 or more succeeds**. Natural 1 always fails; natural 20 always succeeds. The action says what failure does. Do not add a difficulty scale: a task is automatic, a normal test, or impossible with the available tools and position.
+When an action requires a test, roll **1d20 + Stat + modifiers − Stress**. A total of **13 or more succeeds**. A natural 1 fails. A natural 20 succeeds.
 
 ^text-s006-b000
 
-### Skill and equipment modifiers
-
-For any roll, use only the **largest positive and largest negative modifier from skills**, and likewise the largest positive and negative modifier from equipment characteristics. A skill modifier cannot exceed 4; an equipment characteristic modifier cannot exceed 3. Add these to the stat and applicable position modifiers. Cover is either 0, −1, or −2, never both cover grades. Pinned, Hidden, rear attacks, Aim, and Stress have their own stated effects and apply once each. The Pinned target modifier stacks with applicable cover and rear modifiers; it changes hit rolls, not Injury rolls. Identical effects still never stack.
+Trivial tasks succeed automatically. You cannot attempt an impossible task with the tools and position available.
 
 ^text-s006-b001
 
-**Example:** an INT 3 fighter at Stress 1 hacks using a +2 hacking tool and a +2 skill. Their total is d20 + 6. A second +2 hacking skill would not increase it again.
+For skills, apply only the largest bonus and largest penalty. Do the same for equipment. Each modifier category is capped at ±4, but different categories stack.
 
 ^text-s006-b003
 
-### Stress-free rolls
-
-Printed weapon Damage and Armour are profile values, not equipment characteristic bonuses. Injury rolls have their own formula in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#9 Injury casualties and rescue|injury casualties and rescue]] and **do not subtract Stress**. Break and Rally ignore Stress. Distance rolls, initiative, and post-battle tables are not stat tests and ignore Stress too.
+This cap does not apply to Stats or Stress. Cover and casualty conditions are separate categories. Specific skill wording can override normal modifier caps.
 
 ^text-s006-b002
 
-### Specific skill exceptions
-
-A skill’s specific wording can override normal modifier caps. Other modifiers still follow their normal rules.
+Injury, initiative and distance rolls ignore Stress. Break and Rally tests subtract Stress.
 
 ^specific-skill-cap-exceptions
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-aim|Aim]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

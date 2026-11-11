@@ -11,9 +11,8 @@ tags:
 - settlements/v2
 - skill
 - str
-- movement
-summary: Ignore Grappling/Carrying movement penalties; use non-Heavy two-handed weapons while Grappling, not while
-  Carrying.
+summary: Ignore movement reductions while Grappling or Carrying a unit or structure. While Grappling, you may use
+  non-Heavy two-handed weapons.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -21,12 +20,13 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Strength skills]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Draft 2 before complete rulebook
+  - 2026-10-17/Draft 2 - Skills]]'
 review_notes: ''
 stat: STR
 use: Passive
-effect: Ignore the movement reduction from Grappling or Carrying a unit or structure. While Grappling, you may also
-  use non-Heavy two-handed weapons. This does not grant that two-handed permission while Carrying, ignore Unwieldy,
-  add hands or waive other carrying restrictions.
+effect: Ignore movement reductions while Grappling or Carrying a unit or structure. While Grappling, you may use
+  non-Heavy two-handed weapons.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-090 - Carrying and releasing loads|Carry or escort]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-090 - Carrying and releasing loads|Single-carrier movement]]'
@@ -34,7 +34,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill frequency]]'
 planned_section: 08 · Skills
-rule_parent: Skills
+rule_parent: Skill Catalogue
 card_kind: Skill
 catalogue_id: V2-487
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-487 - STR skills]]'
@@ -42,13 +42,16 @@ consolidated: '2026-10-25'
 last_rule_update: '2026-11-10'
 aliases:
 - Strong Arm
+archetype: Grappler
+approval_source: Ross’s selected twelve-skill STR roster and latest chat rulings; original selected effect preserved
+  where unchanged
 ---
 
 # Hauler
 
 ## Summary
 
-Ignore Grappling/Carrying movement penalties; use non-Heavy two-handed weapons while Grappling, not while Carrying.
+Ignore movement reductions while Grappling or Carrying a unit or structure. While Grappling, you may use non-Heavy two-handed weapons.
 
 ## Rule text
 
@@ -56,27 +59,10 @@ Ignore Grappling/Carrying movement penalties; use non-Heavy two-handed weapons w
 | --- | --- |
 | Skill | Hauler |
 | Use | Passive |
-| Effect | Ignore the movement reduction from Grappling or Carrying a unit or structure. While Grappling, you may also use non-Heavy two-handed weapons. This does not grant that two-handed permission while Carrying, ignore Unwieldy, add hands or waive other carrying restrictions. |
+| Effect | Ignore movement reductions while Grappling or Carrying a unit or structure. While Grappling, you may use non-Heavy two-handed weapons. |
 
 ^text-s069-b001
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-487 - STR skills|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-grappled|Grappled]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
-
-### Ross’s replacement ruling — 2026-11-10
-
-[[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]]. This replaces conflicting earlier Grapple/Strong Arm/Carry/Throw wording. Existing IDs, anchors and prior feedback are retained. Drafted for testing does not mean playtested balance.
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-487 - STR skills]]

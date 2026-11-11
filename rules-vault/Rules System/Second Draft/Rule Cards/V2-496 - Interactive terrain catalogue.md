@@ -34,18 +34,16 @@ catalogue_members:
 - V2-186
 - V2-187
 - V2-188
-- V2-189
 - V2-190
 - V2-191
 - V2-192
-- V2-193
-- V2-194
 - V2-195
 - V2-196
 - V2-197
 - V2-198
 - V2-199
 - V2-200
+last_rule_update: '2026-11-10'
 ---
 
 # Interactive terrain catalogue
@@ -60,26 +58,23 @@ Interactive terrain catalogue: complete table with links to individual interacti
 
 | Name | Operation and states | Occupied space and counterplay |
 | --- | --- | --- |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-181 - Security door or roller gate\|Security door or roller gate]] | Open or Close a marked entrance. A closed gate blocks movement; its declared material determines LOS. | Displace a model caught in the opening. Local manual controls remain accessible from both sides. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-182 - Blast door\|Blast door]] | Open or Close a solid entrance up to 4 inches wide. | An occupied closing gap uses Crush. A failed operator test leaves it open. A manual release on each side needs STR, not hacking. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-183 - Lift or cargo elevator\|Lift or cargo elevator]] | Move one platform between two marked levels no more than 6 inches apart. Models and loose items on it travel with it. | No crushing under the lift. Someone standing beneath is Displaced; if there is no safe space, the lift stops. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-184 - Retractable bridge\|Retractable bridge]] | Extend or Retract a bridge up to 6 inches long across a declared gap. | Retraction under a model is dangerous; AGI success reaches the nearest end within 2 inches, otherwise Fall. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-185 - Movable walkway\|Movable walkway]] | Rotate or slide a supported walkway between two marked connections within 4 inches of each other. | Riders travel with it. Displace anyone at a blocked connection; no movement through solid scenery. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-186 - Pit or vat cover\|Pit or vat cover]] | Open or Close a cover over a marked hole up to 3 inches across. | Opening beneath a model uses the bridge escape rule then Fall. The cover cannot crush someone beneath it; keep an accessible casualty marker. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-187 - Cargo crane\|Cargo crane]] | Move one marked cargo piece up to 4 inches within its declared reach, placing or removing cover. | The cargo must fit its marked lifting capacity. Lowering into an occupied area uses Crush; otherwise Displace. Never lift a building. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-188 - Pulley or hoist\|Pulley or hoist]] | Raise or lower a marked crate or load by up to 4 inches between two positions. | A load can open a passage or screen a window. Dropping it into an occupied area uses Crush, once per round per target. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-189 - Window shutters\|Window shutters]] | Open or Close one declared bank of windows up to 6 inches wide. | Closed shutters block LOS. Occupants are not injured. Either side can reach an interior manual control. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-190 - Sliding barricade\|Sliding barricade]] | Shift one premarked barricade up to 4 inches along its track. | Displace models it touches. It stops at impassable terrain and cannot push a fighter off an edge. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-191 - Floodlights\|Floodlights]] | Illuminate or darken a marked 6-inch-diameter zone. | While lit, remove Hidden in that zone and prevent Hide there. Light does not grant sight through cover or walls. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-192 - Ventilation fans\|Ventilation fans]] | Clear one smoke or gas template linked to the vent, or turn ventilation Off. | Clearing is immediate. It cannot remove a solid obstacle or a fire template. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-193 - Smoke vent\|Smoke vent]] | On places one 3-inch-diameter smoke zone at its outlet; Off clears it. | While On it remains. A physical valve can close it. It never attacks through an entire room without a defined template. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-194 - Irritant gas vent\|Irritant gas vent]] | On places a 3-inch-diameter Difficult zone. A human entering or starting an action inside gains 1 Stress, at most once per round from gas. | Gas never causes direct Wounds. A respirator prevents its Stress. A fan or valve clears it. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-195 - Conveyor\|Conveyor]] | On carries a model or loose objective up to 4 inches along its marked belt at the end of that model's action; Off stops it. | Each object moves once per round. A conscious rider may opt not to travel. At a dangerous end, an unwilling rider tests AGI to stop; failure uses Fall or Crush as marked. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-196 - Compactor\|Compactor]] | Cycle a marked 3-inch work area, then return to Open. | Uses Crush. It cannot enclose an unmarked room or permanently seal an objective. A safety control is accessible nearby. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-197 - Floodgate\|Floodgate]] | Open makes a marked shallow channel Difficult; Close drains it. | Displace models caught at the gate. Flooding does not remove models or drown casualties. Deep water requires explicit scenario rules. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-198 - Junction box\|Junction box]] | Turn power On or Off to up to two linked electronic features within 12 inches. | Mechanical positions stay where they are; active smoke, gas, and lights stop while unpowered. Local manual route controls still work. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-199 - Service hatch\|Service hatch]] | Open or Close a passage through a declared wall no more than 3 inches thick. | Move through at half speed. The two ends are marked; there is no off-table tunnel network unless a skill or scenario supplies one. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-200 - Emergency alarm\|Emergency alarm]] | Sound or Silence an alarm. Sounding removes Hidden from fighters within 3 inches of its marked panel. | It adds no global alert track or automatic reinforcements. A scenario may give it a separate objective role. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-181 - Security door or roller gate\|Security door or roller gate]] | Open or close a marked entrance. Declare its material and line-of-sight properties at setup. It may be breached using the normal door rules. | Displace occupants when closing. Keep physical controls accessible. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-182 - Blast door\|Blast door]] | Open or close the marked solid entrance using its physical control or terminal. | Displace occupants when closing. Use its declared material and normal breach rules; the door does not gain Crush unless its profile expressly says so. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-183 - Lift or cargo elevator\|Lift or cargo elevator]] | Move up or down by up to 6 inches per interaction; riders and cargo travel with it. Controls may be in contact or linked to a terminal. | A hacker may force the lift to drop; resolve Falling for its occupants. Use Displace for units beneath a normal descent. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-184 - Retractable bridge\|Retractable bridge]] | Extend or retract the bridge between its marked structures or walkways. Use its terminal or lever. | When retracting under occupants, they test AGI. Success places them at either end; failure causes a fall. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-185 - Movable walkway\|Movable walkway]] | Rotate or slide between marked connections within 4 inches. Riders travel with it. | Displace units at blocked connections. It cannot pass through solids. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-186 - Pit or vat cover\|Pit or vat cover]] | Open or close a hole up to 3 inches across. | Opening under occupants uses the bridge escape rule, then Falling. The cover does not Crush. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-187 - Cargo crane\|Cargo crane]] | Move along its declared cable by up to 6 inches total per interaction. Raising, lowering, picking up cargo and rotating through 360 degrees may be included. | Dropping held cargo takes an interaction. Units beneath test AGI: success moves them 1 inch clear of its footprint; failure resolves Crush. If the crane first needs to collect cargo, collecting and dropping require separate interactions. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-188 - Pulley or hoist\|Pulley or hoist]] | Move its attached platform up to 6 inches along the marked horizontal or vertical cable per interaction. Riders and loads travel with it. | Use normal movement, Displace and Falling where the platform meets an occupied space or loses support. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-190 - Sliding barricade\|Sliding barricade]] | Move up to 6 inches per interaction along its declared slide or lift track. It blocks line of sight and provides Heavy cover when closed. | Place it outside buildings, between exterior structures, fences or walls. Displace occupants; it does not gain Crush. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-191 - Floodlights\|Floodlights]] | Light or darken a 6-inch-diameter zone. | Light removes and prevents Hidden, without bypassing terrain line of sight. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-192 - Ventilation fans\|Ventilation fans]] | Declare the outlet and its smoke or irritant-gas mode at setup. It may clear one linked smoke/gas template immediately or switch off. A smoke outlet maintains a 3-inch-diameter smoke zone while on. | An irritant-gas outlet maintains a 3-inch-diameter Difficult zone: entering or starting an action inside gives a human 1 Stress, once per round. Respirators prevent that Stress. Turning the outlet off or using its valve clears the zone. Fans cannot clear fire. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-195 - Conveyor\|Conveyor]] | Choose direction and move its contents up to 6 inches per interaction. It may be inside a building or a standalone feature. | Units, loot and scatter on it travel with it. Resolve the marked Fall or Crush hazard at a dangerous end. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-196 - Compactor\|Compactor]] | Inside a four-walled enclosure, close two opposing walls until they meet, Crushing contents. | It remains Closed and may seal a route or entrance. A second interaction retracts the walls. Use the shared Crush escape and Injury procedure. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-197 - Floodgate\|Floodgate]] | Open to make the declared shallow channel Difficult; close to drain it. | Displace units at the gate. It does not drown or remove units. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-198 - Junction box\|Junction box]] | Switch up to two linked electronic features within 12 inches on or off. | Mechanical positions stay unchanged. Unpowered smoke, gas and lights stop; manual route controls still work. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-199 - Service hatch\|Service hatch]] | Open or close a marked passage through a wall up to 3 inches thick. | Move between its marked ends at half speed. It creates no further tunnel network. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Terrain Cards/V2-200 - Emergency alarm\|Emergency alarm]] | Sound or silence the alarm. | Sounding reveals Hidden units within 3 inches of the panel. It creates no automatic reinforcements or global alert track. |
 
 ^catalogue-v2-496
 

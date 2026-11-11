@@ -16,7 +16,8 @@ tags:
 - injury
 - armour-ignore
 - casualty
-summary: Stairs and ladders; Free climbing; Jumping; Drops and falls; Inaccessible casualties
+summary: Stairs, ladders and ramps use measured movement. Start a climb or ladder only if you have enough movement
+  to reach a surface where the unit can stand. It cannot finish partway up.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -27,6 +28,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-086 - Jumping]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-087 - Drops and falls]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-088 - Inaccessible casualties]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-084 - Climbing, jumping and falling]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-084 - Climbing, jumping and falling|Free climbing]]'
@@ -72,44 +75,44 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Climbing, jumping and falling
 
 ## Summary
 
-Stairs and ladders; Free climbing; Jumping; Drops and falls; Inaccessible casualties
+Stairs, ladders and ramps use measured movement. Start a climb or ladder only if you have enough movement to reach a surface where the unit can stand. It cannot finish partway up.
 
 ## Rule text
 
-### Free climbing
-
-Stairs, ladders, and stable ramps use measured movement without a test. Free climbing needs handholds or climbing gear, costs double the vertical distance, and requires one AGI test per action. A failed climb stops at the starting level; natural 1 causes a fall from halfway up the attempted climb. You cannot free-climb a smooth wall without appropriate equipment.
+Stairs, ladders and ramps use measured movement. Start a climb or ladder only if you have enough movement to reach a surface where the unit can stand. It cannot finish partway up.
 
 ^text-s026-b000
 
-### Jumping
+**Climbing.** Climb at half speed and test AGI once per action. No gear is required. Failure leaves the unit at its starting level. A natural 1 causes a fall from halfway up.
 
-Step across a gap up to 1 inch as normal movement. A gap over 1 and up to 3 inches requires enough movement to reach the other side and an AGI test. Failure means falling into the gap. Wider gaps need a bridge, equipment explicitly permitting the crossing, or a different route. No skill increases the maximum unsupported jump beyond 3 inches.
+**Jumping.** Gaps up to 3 inches need no test. Gaps over 3 inches and up to 6 inches require an AGI test. Failure causes a fall. You must have enough movement to cross. A unit cannot jump a gap wider than 6 inches.
 
 ^text-s026-b001
 
-### Drops and falls
+**Dropping.** A deliberate drop up to 2 inches is safe. For a greater drop, test AGI. Success lands safely. Failure causes a fall.
 
-A deliberate drop of up to 2 inches is safe and costs its vertical distance. For a greater drop or an involuntary fall of more than 2 inches, test AGI: pass and land Pinned; fail and suffer one Damage 3 Injury roll ignoring Armour, then become Pinned if still conscious. Falls over 6 inches automatically fail that AGI test. A fall never kills a fighter on the battlefield. Place a Down casualty at the reachable bottom; if inaccessible, mark its position at the rim and treat it as Unconscious until recovered after the battle.
+**Falling.** A fall hits automatically. Roll the following Injury dice against 13+. Each die is a flat d20 with no Damage bonus and ignores Armour.
 
 ^text-s026-b002
 
+| Fall height | Injury dice |
+| --- | --- |
+| Up to 3 inches | 1 |
+| Over 3 to 6 inches | 2 |
+| Over 6 to 9 inches | 3 |
+| Over 9 to 12 inches | 4 |
+| Over 12 inches | The unit immediately goes Out of Action. Do not roll Injury. |
+
+If the unit remains conscious, it becomes Pinned.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

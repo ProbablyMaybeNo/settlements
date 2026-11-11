@@ -30,13 +30,18 @@ catalogue_columns:
 - Effect
 catalogue_members:
 - V2-324
+- V2-526
 - V2-325
 - V2-326
-- V2-327
-- V2-328
+- V2-527
+- V2-528
+- V2-529
+- V2-530
+- V2-531
 - V2-329
 - V2-330
 - V2-331
+last_rule_update: '2026-11-10'
 ---
 
 # AGI skills

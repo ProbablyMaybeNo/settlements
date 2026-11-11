@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - profile
 - str
-summary: Strength, force, and ordinary melee attacks
+summary: 'Strength: ordinary melee, force and carrying.'
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -20,7 +20,7 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#The profile]]'
 review_notes: ''
-meaning: Strength, force, and ordinary melee attacks
+meaning: 'Strength: ordinary melee, force and carrying.'
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Reading a fighter profile|Five stats]]'
 planned_section: 02 · Core Mechanics
@@ -35,14 +35,14 @@ consolidated: '2026-10-25'
 
 ## Summary
 
-Strength, force, and ordinary melee attacks
+Strength: ordinary melee, force and carrying.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Characteristic | STR |
-| Meaning | Strength, force, and ordinary melee attacks |
+| Meaning | Strength: ordinary melee, force and carrying. |
 
 ^text-s005-b000
 

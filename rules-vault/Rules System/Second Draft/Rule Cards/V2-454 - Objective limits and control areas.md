@@ -12,17 +12,21 @@ tags:
 - objectives
 - setup
 - measurement
-summary: Objective limit; Objective control-area sizes
-status: Confirmed
+summary: Follow the scenario's objective rules. The scenario states how actions, tests, unit counts and other conditions
+  determine control and claiming.
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-454 - Objective limit]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-455 - Objective control-area sizes]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-454 - Objective limits and control areas]]'
 review_notes: ''
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-454 - Objective limits and control areas|Objective control-area sizes]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-454 - Objective limits and control areas|Objective control-area
+  sizes]]'
 planned_section: 04 · Fighting Battles
 rule_parent: Objective conventions
 consolidated: '2026-10-25'
@@ -42,32 +46,25 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Objective limits and control areas
 
 ## Summary
 
-Objective limit; Objective control-area sizes
+Follow the scenario's objective rules. The scenario states how actions, tests, unit counts and other conditions determine control and claiming.
 
 ## Rule text
 
-### Objective limit
-
-A battle has a primary objective and a secondary objective. There may never be more than **six objectives on the board**.
+Follow the scenario's objective rules.
 
 ^text-s106-b000
 
-### Objective control-area sizes
-
-With **one to three objectives**, each objective has a **6-inch diameter**. With **four to six objectives**, each has a **3-inch diameter**. The objective circle is the **entire control area**; there is no additional control distance outside it. Detailed primary and secondary objective rules will be supplied by Ross.
+The scenario states how actions, tests, unit counts and other conditions determine control and claiming.
 
 ^text-s106-b001
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

@@ -14,7 +14,8 @@ tags:
 - inventory
 - rating
 - interaction
-summary: Loot casualty; Loot ownership; Dropped gear
+summary: Loot. An unengaged unit in contact with a Down or Unconscious casualty may spend a Core action to take
+  one item. No test is needed.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -23,6 +24,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-131 - Loot casualty]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-132 - Loot ownership]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-133 - Dropped gear]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-131 - Loot and item ownership]]'
 review_notes: ''
 action_cost: Core
 related_rules:
@@ -53,47 +56,32 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
-last_rule_update: '2026-11-09'
+last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Loot and item ownership
 
 ## Summary
 
-Loot casualty; Loot ownership; Dropped gear
+Loot. An unengaged unit in contact with a Down or Unconscious casualty may spend a Core action to take one item. No test is needed.
 
 ## Rule text
 
-### Loot casualty
-
-| Field | Value |
-| --- | --- |
-| Action | Loot or Secure |
-| Cost | Core |
-| Main effect | Take an item or capture an incapacitated enemy in contact |
+**Loot.** An unengaged unit in contact with a Down or Unconscious casualty may spend a Core action to take one item. No test is needed.
 
 ^text-s019-b013
 
-An unengaged fighter in contact with a Down model may spend Core to take **one carried item**, including an unused medkit, or one carried objective already on the ground. No test is needed. The looter must have space; it may drop an item into contact to make room. Armour counts as the one item taken with that Core Loot action. The included utility knife and clothing have no resale value.
+You must have capacity for the item. You may drop equipment to make room. Armour counts as one item. Record the ownership transfer immediately. Use a looted weapon only when making a legal weapon choice.
 
 ^text-s040-b000
 
-### Loot ownership
-
-Mark ownership transfers immediately. A looted item exists in only one place. A weapon taken this way is not held until the looter next makes a permitted weapon choice. Carried loot is not added to the starting Crew Rating during the battle; it must be fully counted in later battles. A dropped item remains where it fell and can be picked up with Interact.
+Loot does not change starting Crew Rating during the battle. Count it normally in later battles.
 
 ^text-s040-b001
 
+Dropped weapons and equipment disappear. Mission objects follow their scenario rules.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

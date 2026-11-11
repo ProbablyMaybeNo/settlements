@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - crew
 - recruitment
-summary: 80 Cr; 5 stat points; starting stat cap +3; one starting skill.
+summary: 'Fighter: 3 Stat points; Stat maximum 4; up to 0 starting skills.'
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,9 +22,9 @@ source:
 review_notes: ''
 training_grade: Fighter
 credits: 80
-stat_points: 5
-starting_stat_maximum: '+3'
-starting_skills: 1
+stat_points: 3
+starting_stat_maximum: 4
+starting_skills: 0
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-029 - Recruitment and training grades|Recruitment allocation]]'
 planned_section: 06 · The Crew
@@ -33,13 +33,16 @@ card_kind: Training grade
 catalogue_id: V2-029
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-029 - Recruitment and training grades]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-10'
+base_credits: TBD
+price_status: Deferred
 ---
 
 # Fighter grade
 
 ## Summary
 
-80 Cr; 5 stat points; starting stat cap +3; one starting skill.
+Fighter: 3 Stat points; Stat maximum 4; up to 0 starting skills.
 
 ## Rule text
 
@@ -47,9 +50,9 @@ consolidated: '2026-10-25'
 | --- | --- |
 | Training grade | Fighter |
 | Credits | 80 |
-| Stat points | 5 |
-| Starting stat maximum | +3 |
-| Starting skills | 1 |
+| Stat points | 3 |
+| Starting stat maximum | 4 |
+| Starting skills | 0 |
 
 ^text-s010-b002
 

@@ -19,8 +19,9 @@ tags:
 - hit-plus
 - facing
 - opposed
-summary: Fight and opposing pools; Melee stats; Melee natural results; Outnumbered penalty; Defensive melee; Rear
-  Charge; Unanswered exchange; Shove
+summary: Fight. Spend a Core action and choose one engaged enemy. Both units build their base pool from their eligible
+  weapons’ ATK. Add applicable attack or defence dice, including Parry and shields, then roll. Add STR, or AGI for
+  an Agile weapon, and ordinary attack modifiers. Each result of 13+ succeeds.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -34,6 +35,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-111 - Rear Charge]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-112 - Unanswered exchange]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-113 - Shove]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-106 - Melee exchanges, Unanswered and Shove]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-106 - Melee exchanges, Unanswered and Shove|Melee natural
@@ -103,82 +106,53 @@ component_rules:
   review_status: Unreviewed
   review_notes: ''
 last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Melee exchanges, Unanswered and Shove
 
 ## Summary
 
-Fight and opposing pools; Melee stats; Melee natural results; Outnumbered penalty; Defensive melee; Rear Charge; Unanswered exchange; Shove
+Fight. Spend a Core action and choose one engaged enemy. Both units build their base pool from their eligible weapons’ ATK. Add applicable attack or defence dice, including Parry and shields, then roll. Add STR, or AGI for an Agile weapon, and ordinary attack modifiers. Each result of 13+ succeeds.
 
 ## Rule text
 
-### Fight and opposing pools
-
-Spend Core and choose one engaged enemy. Both units roll their listed melee pools: 1d20 + STR, or AGI with Agile, + applicable modifiers − Stress for each die. Each result of 13+ succeeds; natural 1 fails and natural 20 is a critical success.
+**Fight.** Spend a Core action and choose one engaged enemy. Both units build their base pool from their eligible weapons’ ATK.
 
 ^text-s008-b000
 
-Cancel opposing normal successes one for one. Natural 20s are critical successes and cancel only opposing critical successes. Normal and critical successes cannot cancel each other. Only the attacker’s remaining successes become hits and cause Injury rolls. Ignore surplus defender successes; defending does not inflict hits or Stress unless a specific rule grants a counterattack.
+Add applicable attack or defence dice, including Parry and shields, then roll. Add STR, or AGI for an Agile weapon, and ordinary attack modifiers. Each result of 13+ succeeds.
 
 ^text-s032-b001
 
-### Melee natural results
-
-**Example:** three normal attacker successes against one normal defender success leave two hits. One normal attacker success against three normal defender successes leaves no hits; the defender inflicts nothing.
+Cancel opposing normal successes one for one. Natural 20s are critical successes and cancel only opposing critical successes.
 
 ^text-s032-b003
 
-### Outnumbered penalty
-
-The acting fighter chooses one engaged enemy. Both roll their held melee pools, normally adding STR and their own modifiers to every die; Agile allows AGI instead. **Against a Pinned opponent, add +2 to every melee Attack Die total when resolving its melee hit rolls.** This applies to melee hit rolls, including a Close Combat firearm used in melee, not to Injury or opposed Shove/Grapple tests. An outnumbered fighter suffers −1 to its melee totals for each **additional** conscious, unpinned enemy engaging it, maximum −2.
+Normal and critical successes cannot cancel each other. Only the attacker’s remaining successes become hits and cause Injury rolls. Ignore surplus defender successes; defending causes no hits or Stress unless a specific rule grants a counterattack.
 
 ^text-s032-b000
 
-### Defensive melee
-
-The defender rolls only to cancel the attacker’s successes. Pinned defenders still roll their defensive pool; Down, Unconscious and Captured targets do not. A specific skill may grant a separate counterattack.
+Gain +2 to hit a Pinned target. Pinned and Unanswered defenders still roll defensive dice. Down, Unconscious and Captured targets do not.
 
 ^text-s032-b002
 
-### Unanswered exchange
-
-Attacking from behind follows the normal facing and reaction rules. It does not remove the defender’s dice. Ordinary melee already allows only the attacker to inflict hits.
+An **Unanswered** exchange uses the same defence-only procedure as ordinary melee: the defender may cancel successes but cannot inflict hits.
 
 ^text-s033-b000
 
-An **Unanswered** exchange uses this same defence-only procedure. Keep the defender’s cancelling pool; do not award automatic hits. Specific counterattack skills retain their stated exceptions.
+Keep the defensive pool; do not award automatic hits. Specific counterattack skills retain their stated exceptions.
 
 ^text-s033-b001
 
-### Shove
-
-Use Core to Shove instead of injuring: make an opposed STR test against an engaged enemy. On success push the target directly backwards 2 inches, away from you, stopping on contact with a solid structure or another unit. It becomes Pinned only on such a collision; collision with another unit Pins both. Resolve falls and hazards normally. On failure nothing happens. Neither side inflicts ordinary melee hits during this test.
+**Shove.** Spend a Core action and make an opposed STR test instead of rolling Injury. Success pushes the target 2 inches directly away. Stop when it hits scenery or another unit.
 
 ^text-s034-b000
 
-The Grapple skill offers a different use of the same opposed test. Its holding and escape rules appear with that skill. Shove grants no free follow-up attack. Grapple, Hauler and Throw instead use their stated holding, movement, shield and collision exceptions; Throw’s structure can affect the units it contacts.
+Collision with scenery Pins the target. Collision with another unit Pins both. Resolve any hazards caused by the push.
 
 ^text-s034-b001
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-engaged|Engaged]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-captured|Captured]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
-
-### Ross’s replacement ruling — 2026-11-10
-
-[[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]]. This replaces conflicting earlier Grapple/Strong Arm/Carry/Throw wording. Existing IDs, anchors and prior feedback are retained. Drafted for testing does not mean playtested balance.
-
-### Defence-only melee — 2026-11-10
-
-Ross clarified that defending melee dice only cancel successes. Surplus defence causes no hits or Stress. The proposed generic +2 initiative bonus was not adopted. Charge retains its existing bonus; explicit skill counterattacks remain exceptions. Earlier highest-opposing-total wording is superseded by the drafted 13+ success-cancellation procedure.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

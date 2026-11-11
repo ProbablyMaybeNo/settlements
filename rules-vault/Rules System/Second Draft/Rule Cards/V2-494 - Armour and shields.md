@@ -31,7 +31,8 @@ catalogue_columns:
 catalogue_members:
 - V2-254
 - V2-255
-last_rule_update: '2026-11-09'
+- V2-542
+last_rule_update: '2026-11-10'
 ---
 
 # Armour
@@ -46,8 +47,9 @@ Armour profiles.
 
 | Name | Credits | Equipment slots | Rule | Access |
 | --- | --- | --- | --- | --- |
-| [[Settlements/Rules System/Second Draft/Item Cards/Armour Cards/V2-254 - Light armour\|Light armour]] | 10 | Worn | Armour 1 | Basic |
-| [[Settlements/Rules System/Second Draft/Item Cards/Armour Cards/V2-255 - Heavy armour\|Heavy armour]] | 25 | Worn | Armour 2; MOVE reduced by 1 | Armoury |
+| [[Settlements/Rules System/Second Draft/Item Cards/Armour Cards/V2-254 - Light armour\|Light armour]] | TBD | — | Gain Armour 2. | — |
+| [[Settlements/Rules System/Second Draft/Item Cards/Armour Cards/V2-255 - Heavy armour\|Standard armour]] | TBD | — | Gain Armour 4. | — |
+| [[Settlements/Rules System/Second Draft/Item Cards/Armour Cards/V2-542 - Reinforced armour\|Reinforced armour]] | TBD | — | Gain Armour 6. Reduce MOVE by 2 inches. | — |
 
 ^catalogue-v2-494
 

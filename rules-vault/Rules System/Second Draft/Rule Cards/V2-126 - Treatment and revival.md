@@ -14,7 +14,8 @@ tags:
 - core
 - down
 - once-battle
-summary: A medkit automatically revives a Down teammate once per battle; no self-revival or action refresh.
+summary: A conscious, unpinned, unengaged teammate in contact may spend Core and one medkit to revive a Down friendly
+  automatically. Restore one Wound and clear its morale condition. The patient becomes Pinned with 2 Stress.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -23,6 +24,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-126 - Treat ally]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-127 - Self-treatment]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-128 - Revival limit]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-126 - Treatment and revival]]'
 review_notes: ''
 action_cost: Core
 related_rules:
@@ -53,51 +56,34 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
-last_rule_update: '2026-11-09'
+last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Treatment and revival
 
 ## Summary
 
-A medkit automatically revives a Down teammate once per battle; no self-revival or action refresh.
+A conscious, unpinned, unengaged teammate in contact may spend Core and one medkit to revive a Down friendly automatically. Restore one Wound and clear its morale condition. The patient becomes Pinned with 2 Stress.
 
 ## Rule text
 
-### Treat ally
-
-A conscious, unpinned, unengaged unit spends Core and a medkit to revive a Down teammate in contact automatically. Use the Revival procedure below.
+A conscious, unpinned, unengaged teammate in contact may spend Core and one medkit to revive a Down friendly automatically.
 
 ^text-s019-b012
 
-A conscious, unpinned, unengaged unit in contact with a Down teammate may spend Core and one medkit to revive it automatically. Restore one Wound, remove morale conditions and leave the patient Pinned at 2 Stress.
+Restore one Wound and clear its morale condition. The patient becomes Pinned with 2 Stress.
 
 ^text-s038-b000
 
-### Self-treatment
-
-A Down unit cannot revive itself. Each unit may receive medkit revival once per battle; record it on the patient. A later Down cannot be revived again.
+A fighter may be revived once per battle. Down fighters cannot revive themselves unless a skill expressly permits it. Revival does not restore spent actions or remove lasting injuries.
 
 ^text-s038-b001
 
-Revival restores no spent actions and removes no lasting injury. The patient may use any remaining actions once its conditions allow it.
+A revived unit may use an unused Move to stand and an unused Core action. It does not gain another activation that round.
 
 ^text-s038-b002
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
-
-### Equipment consolidation — 2026-11-09
-
-Ross’s equipment decision replaces the INT test with automatic revival. Component approval records remain historical provenance. The earlier teammate-only decision is retained.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

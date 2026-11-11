@@ -11,10 +11,8 @@ tags:
 - settlements/v2
 - skill
 - int
-- core
-- hacking
-summary: 'Core/kit/INT vs visible enemy electronic device within 8″: one legal operation, then return control; limits
-  still apply.'
+summary: Using portable Hack, test INT to hijack a visible enemy electronic deployable within 8 inches and immediately
+  perform one legal operation with it. A single-use device may instead be triggered or defused.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,30 +20,34 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Intelligence skills]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Draft 2 before complete rulebook
+  - 2026-10-17/Draft 2 - Skills]]'
 review_notes: ''
 stat: INT
 use: Core
-effect: With a hacking kit, test INT against one visible electronic enemy device within 8 inches. Success performs
-  one legal operation with it, then control returns to its owner. A Single-use device is consumed if triggered.
-  A turret needs unspent READY and cannot exceed its attack limit. A drone may move up to 4 inches but cannot perform
-  an objective action. Failure changes nothing.
+effect: Using portable Hack, test INT to hijack a visible enemy electronic deployable within 8 inches and immediately
+  perform one legal operation with it. A single-use device may instead be triggered or defused.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill frequency]]'
 planned_section: 08 · Skills
-rule_parent: Skills
+rule_parent: Skill Catalogue
 card_kind: Skill
 catalogue_id: V2-490
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-490 - INT skills]]'
 consolidated: '2026-10-25'
+archetype: Hacker
+last_rule_update: '2026-11-10'
+approval_source: Ross’s selected twelve-skill INT roster and latest chat rulings; original selected effect preserved
+  where unchanged
 ---
 
 # Trojan
 
 ## Summary
 
-Core/kit/INT vs visible enemy electronic device within 8″: one legal operation, then return control; limits still apply.
+Using portable Hack, test INT to hijack a visible enemy electronic deployable within 8 inches and immediately perform one legal operation with it. A single-use device may instead be triggered or defused.
 
 ## Rule text
 
@@ -53,23 +55,10 @@ Core/kit/INT vs visible enemy electronic device within 8″: one legal operation
 | --- | --- |
 | Skill | Trojan |
 | Use | Core |
-| Effect | With a hacking kit, test INT against one visible electronic enemy device within 8 inches. Success performs one legal operation with it, then control returns to its owner. A Single-use device is consumed if triggered. A turret needs unspent READY and cannot exceed its attack limit. A drone may move up to 4 inches but cannot perform an objective action. Failure changes nothing. |
+| Effect | Using portable Hack, test INT to hijack a visible enemy electronic deployable within 8 inches and immediately perform one legal operation with it. A single-use device may instead be triggered or defused. |
 
 ^text-s072-b001
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-490 - INT skills|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-490 - INT skills]]

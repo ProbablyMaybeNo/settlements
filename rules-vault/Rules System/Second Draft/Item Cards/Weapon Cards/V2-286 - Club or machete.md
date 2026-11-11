@@ -12,7 +12,7 @@ tags:
 - weapon
 - combat
 - melee
-summary: ATK 2; DMG 1; Melee; 1 hand(s). Agile. Price deferred.
+summary: ATK 2; DMG 1; Melee; 1 hand. Agile, Parry 1. Price deferred.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -26,12 +26,13 @@ dice: 2
 damage: 1
 range: Melee
 hands_slots: 1 / 1
-characteristics: Agile
+characteristics: Agile, Parry 1
 access: Basic
 hands: 1
 weapon_slots: 1
 keywords:
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-234 - Agile|Agile]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-543 - Parry|Parry]]'
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Weapon hands
   and slots]]'
@@ -58,7 +59,7 @@ last_rule_update: '2026-11-10'
 
 ## Summary
 
-ATK 2; DMG 1; Melee; 1 hand(s). Agile. Price deferred.
+ATK 2; DMG 1; Melee; 1 hand. Agile, Parry 1. Price deferred.
 
 ## Rule text
 
@@ -70,7 +71,7 @@ ATK 2; DMG 1; Melee; 1 hand(s). Agile. Price deferred.
 | Damage | 1 |
 | Range | Melee |
 | Hands / slots | 1 / 1 |
-| Characteristics | Agile |
+| Characteristics | Agile, Parry 1 |
 | Access | Basic |
 
 ^text-s063-b003

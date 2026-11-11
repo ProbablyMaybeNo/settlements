@@ -12,7 +12,9 @@ tags:
 - activation
 - round
 - dice
-summary: Round refresh; Initiative
+summary: 'The round ends when both players have finished activating their units. Resolve the End Phase: check Down
+  timers, test eligible units'' Nerve, score objectives and restore Move and Core actions. Down units progress one
+  round towards becoming Unconscious. Units retain unspent ALERT tokens. The End Phase rules give the full sequence.'
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -20,6 +22,8 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-052 - Round refresh]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-053 - Initiative]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-052 - Round refresh and initiative]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-052 - Round refresh and initiative|Initiative]]'
@@ -42,39 +46,26 @@ component_rules:
   last_rule_update: 2026-10-19
   review_status: Unreviewed
   review_notes: ''
-last_rule_update: '2026-10-19'
+last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Round refresh and initiative
 
 ## Summary
 
-Round refresh; Initiative
+The round ends when both players have finished activating their units. Resolve the End Phase: check Down timers, test eligible units' Nerve, score objectives and restore Move and Core actions. Down units progress one round towards becoming Unconscious. Units retain unspent ALERT tokens. The End Phase rules give the full sequence.
 
 ## Rule text
 
-### Round refresh
-
-Advance the round counter. Restore each conscious, uncaptured fighter's Move and Core slots. Down fighters also receive those slots but can use only the limited actions in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#9 Injury casualties and rescue|injury casualties and rescue]]. Unconscious fighters receive neither. Clear Activated and Reacted markers and reset once-per-round abilities. READY tokens remain until used or cancelled.
+The round ends when both players have finished activating their units. Resolve the **End Phase**: check Down timers, test eligible units' Nerve, score objectives and restore Move and Core actions. Down units progress one round towards becoming Unconscious. Units retain unspent ALERT tokens. The End Phase rules give the full sequence.
 
 ^text-s017-b000
 
-### Initiative
-
-Each player rolls a d20 and subtracts 1 from the result for each Broken fighter in their own crew. The player with the higher result chooses who takes the first turn this round. Ties favour the player who did not take the first turn last round. Reroll ties in round one.
+At the start of the next round, clear Activated and Reacted markers and reset once-per-round abilities. To determine who acts first, each player rolls **1d20 − the number of Broken units in their crew**. The higher roller chooses who goes first. On a tie, that choice goes to the player who did not go first last round; reroll ties in round one.
 
 ^text-s017-b001
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-broken|Broken]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-activated|Activated]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-reacted|Reacted]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

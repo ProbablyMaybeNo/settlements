@@ -1,7 +1,7 @@
 ---
 type: settlements-item-card
 rule_id: V2-332
-rule_name: Terminal Training
+rule_name: Neural Uplink
 entry_type: Skill
 category: Skills · INT
 book_chapter: 8
@@ -11,9 +11,7 @@ tags:
 - settlements/v2
 - skill
 - int
-- test-plus
-- hacking
-summary: +2 INT Hack while fighter physically touches terminal; excludes drone and portable device hacking.
+summary: Gain +4 INT on Hacking tests.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -21,46 +19,46 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Intelligence skills]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Draft 2 before complete rulebook
+  - 2026-10-17/Draft 2 - Skills]]'
 review_notes: ''
 stat: INT
 use: Passive
-effect: +2 INT to Hack while your own fighter is physically in contact with the terminal. Does not apply through
-  a drone or to portable device hacking.
+effect: Gain +4 INT on Hacking tests.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill frequency]]'
 planned_section: 08 · Skills
-rule_parent: Skills
+rule_parent: Skill Catalogue
 card_kind: Skill
 catalogue_id: V2-490
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-490 - INT skills]]'
 consolidated: '2026-10-25'
+aliases:
+- Terminal Training
+archetype: Hacker
+last_rule_update: '2026-11-10'
+approval_source: 'Ross’s final 10 November decision: +4 Hacking is the skill; terminal range/no-LOS permission is
+  equipment.'
 ---
 
-# Terminal Training
+# Neural Uplink
 
 ## Summary
 
-+2 INT Hack while fighter physically touches terminal; excludes drone and portable device hacking.
+Gain +4 INT on Hacking tests.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
-| Skill | Terminal Training |
+| Skill | Neural Uplink |
 | Use | Passive |
-| Effect | +2 INT to Hack while your own fighter is physically in contact with the terminal. Does not apply through a drone or to portable device hacking. |
+| Effect | Gain +4 INT on Hacking tests. |
 
 ^text-s072-b000
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-490 - INT skills|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-490 - INT skills]]

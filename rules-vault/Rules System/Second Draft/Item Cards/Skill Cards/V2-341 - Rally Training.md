@@ -1,7 +1,7 @@
 ---
 type: settlements-item-card
 rule_id: V2-341
-rule_name: Rally Training
+rule_name: Rally
 entry_type: Skill
 category: Skills · NRV
 book_chapter: 8
@@ -11,10 +11,7 @@ tags:
 - settlements/v2
 - skill
 - nrv
-- core
-- morale
-summary: 'Core: one Stress-free Rally test for up to two friendlies within 6″/LOS, including self; Broken may target
-  self only.'
+summary: Spend Core and test NRV to Rally up to three Broken friendlies within 8 inches.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,53 +19,46 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Nerve skills]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Draft 2 before complete rulebook
+  - 2026-10-17/Draft 2 - Skills]]'
 review_notes: ''
 stat: NRV
 use: Core
-effect: Make the normal Stress-free Rally test for up to two friendlies within 6 inches and LOS instead of one within
-  3. One test determines both outcomes. You may include yourself. While Broken, you may use this skill only to Rally
-  yourself, not to assist others.
+effect: Spend Core and test NRV to Rally up to three Broken friendlies within 8 inches.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill frequency]]'
 planned_section: 08 · Skills
-rule_parent: Skills
+rule_parent: Skill Catalogue
 card_kind: Skill
 catalogue_id: V2-491
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-491 - NRV skills]]'
 consolidated: '2026-10-25'
+aliases:
+- Rally Training
+archetype: Commissar
+last_rule_update: '2026-11-10'
+approval_source: Ross’s selected twelve-skill NRV roster and latest chat rulings; original selected effect preserved
+  where unchanged
 ---
 
-# Rally Training
+# Rally
 
 ## Summary
 
-Core: one Stress-free Rally test for up to two friendlies within 6″/LOS, including self; Broken may target self only.
+Spend Core and test NRV to Rally up to three Broken friendlies within 8 inches.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
-| Skill | Rally Training |
+| Skill | Rally |
 | Use | Core |
-| Effect | Make the normal Stress-free Rally test for up to two friendlies within 6 inches and LOS instead of one within 3. One test determines both outcomes. You may include yourself. While Broken, you may use this skill only to Rally yourself, not to assist others. |
+| Effect | Spend Core and test NRV to Rally up to three Broken friendlies within 8 inches. |
 
 ^text-s073-b001
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-491 - NRV skills|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-broken|Broken]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-491 - NRV skills]]

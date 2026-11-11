@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - crew
 - recruitment
-summary: 60 Cr; 3 stat points; starting stat cap +2; no starting skills.
+summary: 'Recruit: 2 Stat points; Stat maximum 3; up to 0 starting skills.'
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,8 +22,8 @@ source:
 review_notes: ''
 training_grade: Recruit
 credits: 60
-stat_points: 3
-starting_stat_maximum: '+2'
+stat_points: 2
+starting_stat_maximum: 3
 starting_skills: 0
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-029 - Recruitment and training grades|Recruitment allocation]]'
@@ -34,13 +34,16 @@ card_kind: Training grade
 catalogue_id: V2-029
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-029 - Recruitment and training grades]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-10'
+base_credits: TBD
+price_status: Deferred
 ---
 
 # Recruit grade
 
 ## Summary
 
-60 Cr; 3 stat points; starting stat cap +2; no starting skills.
+Recruit: 2 Stat points; Stat maximum 3; up to 0 starting skills.
 
 ## Rule text
 
@@ -48,8 +51,8 @@ consolidated: '2026-10-25'
 | --- | --- |
 | Training grade | Recruit |
 | Credits | 60 |
-| Stat points | 3 |
-| Starting stat maximum | +2 |
+| Stat points | 2 |
+| Starting stat maximum | 3 |
 | Starting skills | 0 |
 
 ^text-s010-b001

@@ -1,7 +1,7 @@
 ---
 type: settlements-rule-card
 rule_id: V2-220
-rule_name: Utility drone
+rule_name: Drone operations
 entry_type: Rule
 category: Devices
 book_chapter: 4
@@ -19,8 +19,8 @@ tags:
 - reaction
 - inventory
 - combat
-summary: Drone deployment; Drone movement; Drone operations; Drone camera and tasks; Drone control loss; Drone reactions;
-  Transfer or pack drone; Drone wreck
+summary: Drone Pilot unlocks aerial drones; Drone Operator unlocks ground drones. Buy and assign a drone before
+  battle. Each operator controls one drone at a time; the drone reserves one equipment slot.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -110,68 +110,53 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+aliases:
+- Utility drone
+last_rule_update: '2026-11-10'
 ---
 
-# Utility drone
+# Drone operations
 
 ## Summary
 
-Drone deployment; Drone movement; Drone operations; Drone camera and tasks; Drone control loss; Drone reactions; Transfer or pack drone; Drone wreck
+Drone Pilot unlocks aerial drones; Drone Operator unlocks ground drones. Buy and assign a drone before battle. Each operator controls one drone at a time; the drone reserves one equipment slot.
 
 ## Rule text
 
-### Drone deployment
-
-Spend the operator's **Core** to perform one of these through the drone:
+Drone Pilot unlocks aerial drones; Drone Operator unlocks ground drones. Buy and assign a drone before battle. Each operator controls one drone at a time; the drone reserves one equipment slot.
 
 ^text-s061-b002
 
-### Drone movement
-
-Deploy it from the operator's base with a Core Deploy action, automatically. On a later activation, spend the operator's **Core** to move the drone up to 8 inches. This is one remote command; performing an operation through it requires a separate Core Action in another activation. The operator's Move remains available for its own movement. It may fly over low obstacles but not through solid terrain. Keep it within 12 inches of the operator and no higher than 6 inches above the surface below it. Measure its real flying position; use a stand or height marker. It may finish hovering or on a stable surface. Its LOS uses its actual height and a 360-degree camera.
+Spend the operator’s Core action and pass an INT test to Deploy. Activate operator and drone together, choosing which completes its activation first. Each has one Move and one Core. Drone tests use +3 instead of the operator’s Stats; Injury uses its weapon’s Damage.
 
 ^text-s061-b001
 
-### Drone operations
-
-- Hack through a terminal in contact with the drone, using that terminal's normal links and the operator's INT.
+Check control range at the start of the drone’s activation. An out-of-range drone, or a drone whose operator becomes Down, powers down. An aerial drone immediately goes Out of Action and is removed. A ground drone stays in place and cannot act. A qualified unit in contact may spend Core and pass INT to power it up and take control.
 
 ^text-s061-b004
 
-- Observe one Hidden fighter or concealed device within 12 inches and the drone's LOS, using the operator's INT.
+Aerial drones ignore terrain while flying, cannot fly inside buildings and cannot be attacked in melee. Ranged attacks against them suffer −2 to hit. Switching between Flight and Hover uses half movement. Hovering uses normal ground movement, cover, line of sight and melee rules, without the flying −2 penalty.
 
 ^text-s061-b005
 
-The operator must be conscious, unpinned, unengaged, and free of a morale condition. Use the operator's Stress on its tests. Remote operation can change terrain, but **cannot Claim, Secure, loot, defuse a mission bomb, or complete an objective that requires a human interaction**. A scenario may expressly allow a drone operation as one step, not assume it can replace every human task.
+Aerial drones are Fragile: one successful hit removes them without Injury. Ground drones use their printed Armour and Wounds, ignore Stress and cannot be Pinned. At zero Wounds, a ground drone is Down and cannot act.
 
 ^text-s061-b006
 
-### Drone control loss
-
-- Operate a physical terrain control in contact with the drone, using the normal automatic operation or the operator's INT test for a dangerous operation.
+Once per battle per ground drone, a friendly in base contact may spend Core and test INT to Repair it. Success restores it; failure loses the drone. Use the ordinary Injury procedure for attacks against a Down ground drone.
 
 ^text-s061-b003
 
-If the operator becomes unavailable or moves out of control range, the drone stays inert at its position until control is restored. It remains targetable. Drone movement or operation offers the opponent the action's single reaction window against either the visible operator or visible drone, using the chosen target's position. Disabling the operator or drone stops the unfinished remote action. Another friendly in contact with the drone may spend Core to become its operator, provided it has two equipment slots available; update both cards. Returning the drone to its operator's base and spending Interact packs it away.
+Drones cannot capture, hold or contest objectives unless a profile expressly permits it. Functional drones return to their operator after battle.
 
 ^text-s061-b007
 
-### Drone wreck
-
-A single successful hit destroys a drone; there is no armour or Injury roll. Place a wreck marker. It may be recovered like an item, including by an enemy. This makes remote access useful but exposed, and prevents a flying device becoming a second combatant for free.
-
-^text-s061-b008
-
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]
 
-<!-- conditions-reference:start -->
-## Conditions referenced
+### Preserved references
 
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-concealed|Concealed]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-disarmed-or-inert|Disarmed or Inert]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hovering|Hovering]]
-<!-- conditions-reference:end -->
+Current rule: [[#Rule text|Drone operations]].
 
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+^text-s061-b008

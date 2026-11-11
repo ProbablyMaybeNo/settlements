@@ -19,7 +19,7 @@ tags:
 - move-minus
 - core
 - support
-summary: Pinned ranged protection; Pinned melee vulnerability; Recover; Pinned crawl and restrictions; Help Recover
+summary: A Pinned unit may spend its Move action to stand up. Remove Pinned when it stands.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -30,6 +30,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-119 - Recover]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-120 - Pinned crawl and restrictions]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-121 - Help Recover]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-117 - Pinned and recovery]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-117 - Pinned and recovery|Recover]]'
@@ -75,66 +77,44 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Pinned and recovery
 
 ## Summary
 
-Pinned ranged protection; Pinned melee vulnerability; Recover; Pinned crawl and restrictions; Help Recover
+A Pinned unit may spend its Move action to stand up. Remove Pinned when it stands.
 
 ## Rule text
 
-### Pinned ranged protection
-
-A Pinned fighter stays low: **ranged hit rolls against it suffer −2; melee hit rolls against it gain +2**. Apply these alongside other applicable modifiers. It can still defend in melee. These modifiers end as soon as Pinned is removed; becoming Down or Unconscious replaces Pinned with that casualty's own rules.
+A Pinned unit may spend its Move action to stand up.
 
 ^text-s036-b000
 
-### Recover
-
-| Field | Value |
-| --- | --- |
-| Action | Recover (stand up) |
-| Cost | Move |
-| Main effect | Remove your own Pinned instead of travelling; Core remains available if unused |
+Remove Pinned when it stands.
 
 ^text-s019-b001
 
-On a chosen turn, spend its **Move Action to Recover: stand up and remove Pinned automatically, instead of travelling**. This uses the whole Move Action; it grants no travel and does not spend or restore Core. Standing counts as movement for Aim and Unwieldy. Recover does not remove Stress or a morale condition. With an unused Core and no other restriction, the fighter can immediately continue its activation with Shoot or another legal Core Action, subject to reactions.
+## Links
+
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]
+
+### Preserved references
+
+Current rule: [[#Rule text|Pinned and recovery]].
 
 ^text-s036-b001
 
-### Pinned crawl and restrictions
-
-You may leave a fighter Pinned while using other fighters, then choose a useful moment to stand. If it instead spends Move crawling, it travels up to half MOVE and remains Pinned. While Pinned it may also Rally itself or attempt the specified Disengage, but cannot attack voluntarily, Hide, Ready, operate equipment, or use ordinary skill actions. It cannot exchange Core for an ordinary self-Recover.
+Current rule: [[#Rule text|Pinned and recovery]].
 
 ^text-s036-b002
 
-### Help Recover
-
-| Field | Value |
-| --- | --- |
-| Action | Help Recover |
-| Cost | Core |
-| Main effect | Help a friendly within 3 inches and LOS remove Pinned |
+Current rule: [[#Rule text|Pinned and recovery]].
 
 ^text-s019-b007
 
-A conscious, unpinned, unengaged friendly within 3 inches and LOS may spend its Core on Help Recover to help the target stand without a test. This removes Pinned only; it does not cure Down or a morale condition. The target keeps its own remaining slots.
+Current rule: [[#Rule text|Pinned and recovery]].
 
 ^text-s036-b003
-
-## Links
-
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-aim|Aim]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.

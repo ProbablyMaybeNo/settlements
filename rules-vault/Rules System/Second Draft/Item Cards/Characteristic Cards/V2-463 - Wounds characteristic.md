@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - profile
 - wounds
-summary: Normally 1; maximum 3, or 4 for crew leaders.
+summary: Humans normally start with 1 Wound; maximum 3, or 4 for the crew leader.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -20,7 +20,7 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#The profile]]'
 review_notes: ''
-meaning: Normally 1; maximum 3, or 4 for crew leaders.
+meaning: Humans normally start with 1 Wound; maximum 3, or 4 for the crew leader.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Reading a fighter profile|Five stats]]'
 planned_section: 02 · Core Mechanics
@@ -36,14 +36,14 @@ last_rule_update: '2026-11-10'
 
 ## Summary
 
-Normally 1; maximum 3, or 4 for crew leaders.
+Humans normally start with 1 Wound; maximum 3, or 4 for the crew leader.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Characteristic | Wounds |
-| Meaning | Normally 1; maximum 3, or 4 for crew leaders. |
+| Meaning | Humans normally start with 1 Wound; maximum 3, or 4 for the crew leader. |
 
 ^text-s005-b006
 

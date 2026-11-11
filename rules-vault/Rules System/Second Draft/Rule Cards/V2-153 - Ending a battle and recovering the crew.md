@@ -13,7 +13,8 @@ tags:
 - battle-end
 - post-battle
 - injury
-summary: Crew withdrawal; End and score; Recover fighters and equipment; Lasting-injury eligibility
+summary: The battle ends when the scenario is complete, its round limit is reached, or a withdrawal ends play. Scenario
+  instructions take precedence.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -23,6 +24,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-367 - End and score]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-368 - Recover fighters and equipment]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-369 - Lasting-injury eligibility]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-153 - Ending a battle and recovering the crew]]'
 review_notes: ''
 related_rules: []
 planned_section: 04 · Fighting Battles
@@ -58,51 +61,36 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
-last_rule_update: '2026-11-09'
+last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Ending a battle and recovering the crew
 
 ## Summary
 
-Crew withdrawal; End and score; Recover fighters and equipment; Lasting-injury eligibility
+The battle ends when the scenario is complete, its round limit is reached, or a withdrawal ends play. Scenario instructions take precedence.
 
 ## Rule text
 
-### Crew withdrawal
-
-At the start of any of your turns, you may withdraw the crew and end the battle. Resolve current casualties and post-battle procedures normally. The opponent wins, but you retain rewards already earned and evacuated loot. Remaining uncaptured fighters and casualties return to their own settlement with the equipment they currently carry, including looted gear; an on-board captive that was not extracted is released. There is no bonus round of unopposed killing or looting. Scenario-specific extraction rewards still require actual extraction before withdrawal.
+The battle ends when the scenario is complete, its round limit is reached, or a withdrawal ends play. Scenario instructions take precedence.
 
 ^text-s045-b000
 
-### End and score
-
-End after round 6, an agreed scenario ending, or voluntary withdrawal. Finish the current action before a scenario ending; withdrawal follows [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#10 Stress and morale|stress and morale]]. Score any end-of-battle objectives, then record the winner or draw.
+**Withdrawal.** From the end of round two, a player may declare withdrawal. Earlier withdrawal needs both players' agreement. Withdrawal counts as a loss.
 
 ^text-s078-b000
 
-### Recover fighters and equipment
-
-Recover all your surviving fighters, including those Down or Unconscious, except captives already escorted off the enemy edge. Fighters who fled return home. Equipment still carried returns with its carrier. Unclaimed equipment and device wrecks are recovered by their original owner; a destroyed device returns as scrap with no sale value. Neither winning nor remaining on the table grants free extra Loot actions. Resolve actual ownership changes recorded during play once, with both players present.
+If the opponent agrees, the battle ends immediately. Otherwise, play continues normally. Withdrawing units must leave through a board edge and cannot return. End when they have all escaped or become incapacitated, or the scenario ends.
 
 ^text-s078-b001
 
-### Lasting-injury eligibility
-
-Each fighter still Down at the end, or recorded as Unconscious when removed, makes **one lasting-injury roll**, including an evacuated or captured casualty. A revived fighter who finished conscious makes none unless put Down again. An Incapacitate-only Subdued casualty gets Full recovery without a roll. No fighter rolls twice because they were shot several times. Dead fighters are removed only at this post-battle step.
+**Recovery.** At battle end, Down or Unconscious units still on the board roll on the injury chart. Evacuated and conscious units do not. Captured units use the captured-unit chart.
 
 ^text-s078-b002
 
+Loot brought out of the battle transfers once. Remove it from the former owner's stores and add it to the crew that brought it out.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-captured|Captured]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-subdued|Subdued]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-destroyed|Destroyed]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-retired-or-dead|Retired or Dead]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

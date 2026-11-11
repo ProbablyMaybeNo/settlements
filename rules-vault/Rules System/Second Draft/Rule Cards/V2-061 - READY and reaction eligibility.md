@@ -1,7 +1,7 @@
 ---
 type: settlements-rule-card
 rule_id: V2-061
-rule_name: READY and reaction eligibility
+rule_name: ALERT and reaction eligibility
 entry_type: Rule
 category: Activation
 book_chapter: 4
@@ -14,7 +14,7 @@ tags:
 - core
 - pinned
 - combat
-summary: Ready action; Losing READY; Reaction eligibility; Pinned reactions
+summary: ALERT allows a unit to react during an enemy activation.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -24,6 +24,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-062 - Losing READY]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-063 - Reaction eligibility]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-064 - Pinned reactions]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-061 - READY and reaction eligibility]]'
 review_notes: ''
 action_cost: Core
 related_rules:
@@ -63,49 +65,38 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
-last_rule_update: '2026-10-19'
+last_rule_update: '2026-11-10'
+aliases:
+- READY and reaction eligibility
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
-# READY and reaction eligibility
+# ALERT and reaction eligibility
 
 ## Summary
 
-Ready action; Losing READY; Reaction eligibility; Pinned reactions
+ALERT allows a unit to react during an enemy activation.
 
 ## Rule text
 
-### Ready action
-
-| Field | Value |
-| --- | --- |
-| Action | Ready |
-| Cost | Core |
-| Main effect | Gain one READY token |
+ALERT allows a unit to react during an enemy activation.
 
 ^text-s019-b006
 
-### Losing READY
+**Gain ALERT.** Spend a Core action or receive an Order to gain an ALERT token. A unit can hold only one token. Keep it between rounds until it is spent or lost.
 
-A fighter gains a READY token by taking the Ready Core Action or receiving an order. Spend that token to perform one reaction. A fighter can hold at most one READY token at a time and can react at most once per round. A fighter can spend only one READY token per round. Losing a READY token does not count as spending it. If READY is spent or lost, the fighter may gain a replacement through the Ready Core Action or a valid order when eligible. Gaining replacement READY does not clear Reacted or grant another reaction or activation. READY can be gained after spending Move and can remain into later rounds. A fighter loses READY when it moves voluntarily, performs any regular action other than Ready, is hit by an attack, becomes Down or Unconscious, is captured, or gains a morale condition. A stationary free facing change made as part of another action does not save READY from that action's cancellation.
+**Use ALERT.** Spend the token to make a reaction. Each unit can react once per round, even if it gains another token afterwards. Use the Reactions rules for the available actions and their timing.
 
 ^text-s020-b000
 
-### Reaction eligibility
+To react, the unit must be conscious, unengaged and free of morale conditions. It must see the triggering enemy in its forward arc and meet the chosen action's range. There is no separate reaction range.
 
-A conscious, unengaged fighter with READY, no morale condition, and no Reacted marker may react. It must see the triggering enemy in its forward arc at the moment of the trigger, within the relevant action's range. Pinned fighters can only use the Dive reaction, and only if they somehow retained READY through a specific skill.
+Pinned units cannot normally react. A specific rule may let a Pinned unit retain ALERT and use Dive.
 
 ^text-s020-b001
 
+**Lose ALERT.** Remove the token when the unit moves voluntarily, takes another regular action, is hit, becomes incapacitated or Captured, or gains a morale condition.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-captured|Captured]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-reacted|Reacted]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

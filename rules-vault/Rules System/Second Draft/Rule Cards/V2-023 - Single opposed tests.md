@@ -12,7 +12,8 @@ tags:
 - tests
 - opposed
 - dice
-summary: Single opposed test; Opposed natural extremes
+summary: An opposed test compares two units directly. Each side rolls 1d20 + the stated Stat + modifiers − Stress.
+  The higher total wins. Ties favour the defender. There is no 13+ target number.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -20,6 +21,8 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-023 - Single opposed test]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-024 - Opposed natural extremes]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-023 - Single opposed tests]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-023 - Single opposed tests|Opposed natural extremes]]'
@@ -42,26 +45,25 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Single opposed tests
 
 ## Summary
 
-Single opposed test; Opposed natural extremes
+An opposed test compares two units directly. Each side rolls 1d20 + the stated Stat + modifiers − Stress. The higher total wins. Ties favour the defender. There is no 13+ target number.
 
 ## Rule text
 
-### Opposed natural extremes
-
-Each side rolls one d20 with the specified stat and ordinary modifiers. The higher total succeeds; ties favour the defender. A natural 20 beats a non-20 and a natural 1 loses to a non-1. Two natural 20s or two natural 1s are ties. There is no ordinary success threshold. Grapple and Interrupt use this procedure.
+An opposed test compares two units directly. Each side rolls **1d20 + the stated Stat + modifiers − Stress**. The higher total wins. Ties favour the defender. There is no 13+ target number.
 
 ^text-s007-b000
 
+A natural 20 beats any result other than another natural 20. A natural 1 loses to any result other than another natural 1. Matching natural extremes tie.
+
+Shooting exchanges use the Return Fire rules. Melee uses the Melee rules.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

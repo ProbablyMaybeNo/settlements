@@ -11,14 +11,16 @@ tags:
 - settlements/v2
 - round
 - timing
-summary: End Phase order
+summary: 'After both players finish their activations, resolve the End Phase in this order:'
 status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
-last_rule_update: '2026-11-09'
+last_rule_update: '2026-11-10'
 source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-073 - End Phase order]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-073 - End Phase]]'
 review_notes: ''
 related_rules: []
 planned_section: 04 · Fighting Battles
@@ -33,36 +35,37 @@ component_rules:
   last_rule_update: 2026-10-19
   review_status: Unreviewed
   review_notes: ''
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # End Phase
 
 ## Summary
 
-End Phase order
+After both players finish their activations, resolve the End Phase in this order:
 
 ## Rule text
 
-### End Phase order
-
-1. Resolve On Fire checks and Poisoned MOVE loss under the Equipment conditions rules. Finish any other effects explicitly due at the end of the round; the first player resolves their crew's effects first if order matters.
-2. Check Down timers and turn overdue casualties Unconscious.
-3. Resolve one Break or Rally test per eligible fighter as described in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#10 Stress and morale|stress and morale]].
-4. Score objectives due this round. Clear temporary effects whose duration is “this round.” Remove unused Aim when its stated duration ends. Resolve smoke, fire, and gas expiry.
-5. Check the scenario's end condition. A standard battle ends after round 6.
+After both players finish their activations, resolve the End Phase in this order:
 
 ^text-s022-b000
 
+1. Resolve effects due at the end of the round.
+
+2. Advance Down timers.
+
+3. Make each eligible unit's Break or Rally test.
+
+4. Score objectives. Remove temporary effects, smoke, fire and gas whose duration has ended.
+
+5. Restore Move and Core actions.
+
+6. Check whether the battle ends.
+
+Keep unspent ALERT tokens. Clear Activated and Reacted markers and reset once-per-round abilities at the start of the next round.
+
+A standard battle ends after round six unless the scenario says otherwise.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-aim|Aim]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

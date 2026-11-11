@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - profile
 - dex
-summary: Shooting, precise manipulation, and disarming
+summary: 'Dexterity: shooting and precise work.'
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -20,7 +20,7 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#The profile]]'
 review_notes: ''
-meaning: Shooting, precise manipulation, and disarming
+meaning: 'Dexterity: shooting and precise work.'
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Reading a fighter profile|Five stats]]'
 planned_section: 02 · Core Mechanics
@@ -35,14 +35,14 @@ consolidated: '2026-10-25'
 
 ## Summary
 
-Shooting, precise manipulation, and disarming
+Dexterity: shooting and precise work.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Characteristic | DEX |
-| Meaning | Shooting, precise manipulation, and disarming |
+| Meaning | Dexterity: shooting and precise work. |
 
 ^text-s005-b001
 

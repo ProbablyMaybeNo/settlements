@@ -19,8 +19,9 @@ tags:
 - weapon
 - weapon-trait
 - restriction
-summary: Weapon hands and slots; Equipment and armour capacity; Included knife; Held weapon choices; Heavy weapon
-  handling
+summary: Each fighter has two hands and two weapon slots. Equip two one-handed weapons or one two-handed weapon.
+  Each slot represents one hand. A weapon never requires three slots, and there is no extra allowance for spare
+  weapons.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -32,10 +33,14 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-040 - Held weapon choices]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-041 - Heavy weapon handling]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-456 - Heavy]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons]]'
 review_notes: ''
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Held weapon choices]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Heavy weapon handling]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Held weapon
+  choices]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Heavy weapon
+  handling]]'
 planned_section: 06 · The Crew
 rule_parent: Equipping Fighters
 consolidated: '2026-10-25'
@@ -83,39 +88,36 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
-last_rule_update: '2026-11-09'
+last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Equipping fighters and handling weapons
 
 ## Summary
 
-Weapon hands and slots; Equipment and armour capacity; Included knife; Held weapon choices; Heavy weapon handling
+Each fighter has two hands and two weapon slots. Equip two one-handed weapons or one two-handed weapon. Each slot represents one hand. A weapon never requires three slots, and there is no extra allowance for spare weapons.
 
 ## Rule text
 
-### Weapon hands and slots
-
-A fighter has **two weapon slots representing its two hands**, **two equipment slots**, and may wear **one armour item**. A one-handed weapon uses one hand and one weapon slot; a two-handed weapon, including a Heavy weapon, uses both hands and both weapon slots. No weapon requires more than two hands or two weapon slots. The included knife uses no slot while stowed, but requires one hand when used. Equipment uses its printed capacity. A pair of frag or smoke grenades shares one equipment slot; the remaining grenade still uses that slot. Other items use one equipment slot unless their profile says otherwise. A utility vest occupies no slot and adds one. A fighter may use only two hands at a time. Weapon slots hold weapons, equipment slots hold supplies/devices; worn armour uses neither. Carried devices continue to reserve their operator's equipment slots after deployment until lost, consumed, or transferred, so deployment does not create extra capacity.
+Each fighter has **two hands and two weapon slots**. Equip two one-handed weapons or one two-handed weapon. Each slot represents one hand. A weapon never requires three slots, and there is no extra allowance for spare weapons.
 
 ^text-s012-b000
 
-### Held weapon choices
+An equipped Dagger / Shiv uses one hand and one weapon slot. Unarmed uses no weapon slot. A fighter may also wear one armour item.
 
-Choose held weapons at the start of your fighter's first action or reaction each round. Once during a later own action that round, you may change held weapons before resolving it. You cannot switch in response to an enemy declaration after that round's choice. A carried but unheld weapon contributes no attack dice.
+For a ranged attack, choose one equipped firearm. Gunslinger permits two one-handed firearms, using both full ATK values in one action. Use the Weapon pools rules for melee pairs and skill exceptions. This also applies to Return Fire. A two-handed weapon cannot be combined with another weapon.
 
 ^text-s012-b001
 
-### Heavy weapon handling
+Drawing and holstering are part of the attack and cost no extra action. There is no limit on weapon changes per round. Meet each weapon's profile requirements, including for looted weapons. A skill may change how many dice a weapon contributes.
 
-Any human can use a pistol, rifle, shotgun, or ordinary melee weapon. Heavy weapons require Specialist or Leader grade, or Level 6+. An item still needs its settlement unlock to be purchased or crafted. Loot may be used without the purchase unlock if the fighter meets the handling requirements.
+Each fighter has **two equipment slots** for grenades, deployables, tools and other equipment. No individual item occupies both slots. Two grenades share one slot. Each use consumes one grenade, and a remaining grenade still occupies that slot.
 
 ^text-s012-b002
 
+Other consumables keep their printed quantities. A deployed device continues reserving one equipment slot on its operator unless its rule says otherwise.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

@@ -11,10 +11,9 @@ tags:
 - settlements/v2
 - skill
 - int
-- reaction
-- hacking
-summary: READY at terminal; enemy same-network terminal user within 12″, no LOS needed; opposed INT cancels/Freezes;
-  fail Hack succeeds; ties hacker.
+summary: While in contact with a terminal, spend ALERT to oppose an enemy terminal interaction within 12 inches
+  on the same network. Test INT; success cancels the interaction and Freezes that terminal until the End Phase.
+  No line of sight to the hacker is required. Ties favour the active hacker.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,63 +21,48 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Intelligence skills]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Draft 2 before complete rulebook
+  - 2026-10-17/Draft 2 - Skills]]'
 review_notes: ''
 stat: INT
 reaction: Interrupt
 resolution: Requires the Interrupt skill and uses its opposed test.
-use: Reaction
-effect: While touching a terminal, spend READY when an enemy within 12 inches uses a terminal on the same network.
-  This reaction needs the terminal link, not LOS to the hacker. Oppose INT. Success cancels that Hack and Freezes
-  its terminal through this End Phase; failure permits the original Hack to succeed without another roll. A tied
-  test favours the active hacker.
+use: ALERT
+effect: While in contact with a terminal, spend ALERT to oppose an enemy terminal interaction within 12 inches on
+  the same network. Test INT; success cancels the interaction and Freezes that terminal until the End Phase. No
+  line of sight to the hacker is required. Ties favour the active hacker.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill frequency]]'
 planned_section: 08 · Skills
-rule_parent: Skills
+rule_parent: Skill Catalogue
 card_kind: Skill
 catalogue_id: V2-490
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-490 - INT skills]]'
 consolidated: '2026-10-25'
+archetype: Hacker
+last_rule_update: '2026-11-10'
+approval_source: Ross’s selected twelve-skill INT roster and latest chat rulings; original selected effect preserved
+  where unchanged
 ---
 
 # Interrupt
 
 ## Summary
 
-READY at terminal; enemy same-network terminal user within 12″, no LOS needed; opposed INT cancels/Freezes; fail Hack succeeds; ties hacker.
+While in contact with a terminal, spend ALERT to oppose an enemy terminal interaction within 12 inches on the same network. Test INT; success cancels the interaction and Freezes that terminal until the End Phase. No line of sight to the hacker is required. Ties favour the active hacker.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
-| Reaction | Interrupt |
-| Resolution | Requires the Interrupt skill and uses its opposed test. |
+| Skill | Interrupt |
+| Use | ALERT |
+| Effect | While in contact with a terminal, spend ALERT to oppose an enemy terminal interaction within 12 inches on the same network. Test INT; success cancels the interaction and Freezes that terminal until the End Phase. No line of sight to the hacker is required. Ties favour the active hacker. |
 
 ^text-s021-b007
 
-| Field | Value |
-| --- | --- |
-| Skill | Interrupt |
-| Use | Reaction |
-| Effect | While touching a terminal, spend READY when an enemy within 12 inches uses a terminal on the same network. This reaction needs the terminal link, not LOS to the hacker. Oppose INT. Success cancels that Hack and Freezes its terminal through this End Phase; failure permits the original Hack to succeed without another roll. A tied test favours the active hacker. |
-
-^text-s072-b002
-
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-490 - INT skills|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-frozen|Frozen]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-490 - INT skills]]

@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - crew
 - recruitment
-summary: 110 Cr; 7 stat points; starting stat cap +4; two starting skills.
+summary: 'Specialist: 5 Stat points; Stat maximum 5; up to 2 starting skills.'
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,8 +22,8 @@ source:
 review_notes: ''
 training_grade: Specialist
 credits: 110
-stat_points: 7
-starting_stat_maximum: '+4'
+stat_points: 5
+starting_stat_maximum: 5
 starting_skills: 2
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-029 - Recruitment and training grades|Recruitment allocation]]'
@@ -34,13 +34,16 @@ card_kind: Training grade
 catalogue_id: V2-029
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-029 - Recruitment and training grades]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-10'
+base_credits: TBD
+price_status: Deferred
 ---
 
 # Specialist grade
 
 ## Summary
 
-110 Cr; 7 stat points; starting stat cap +4; two starting skills.
+Specialist: 5 Stat points; Stat maximum 5; up to 2 starting skills.
 
 ## Rule text
 
@@ -48,8 +51,8 @@ consolidated: '2026-10-25'
 | --- | --- |
 | Training grade | Specialist |
 | Credits | 110 |
-| Stat points | 7 |
-| Starting stat maximum | +4 |
+| Stat points | 5 |
+| Starting stat maximum | 5 |
 | Starting skills | 2 |
 
 ^text-s010-b003

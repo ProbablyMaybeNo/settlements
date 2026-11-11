@@ -12,7 +12,7 @@ tags:
 - skill
 - actions
 - timing
-summary: Skill prerequisites; Skill action restrictions; Skill frequency
+summary: Skills are grouped by Stat.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -21,6 +21,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-305 - Skill prerequisites]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-306 - Skill action restrictions]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-307 - Skill frequency]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-305 - Choosing and using skills]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'
@@ -51,32 +53,31 @@ component_rules:
   review_status: Unreviewed
   review_notes: ''
 last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Choosing and using skills
 
 ## Summary
 
-Skill prerequisites; Skill action restrictions; Skill frequency
+Skills are grouped by Stat.
 
 ## Rule text
 
-### Skill prerequisites
-
-Learn only skills whose stat is at least +2 before lasting injuries. Each fighter knows at most three; do not stack several copies. Starting skills are included in the training grade. Later skills come from advancement, not a separate purchase of powers.
+Skills are grouped by Stat.
 
 ^text-s068-b000
 
-### Skill action restrictions
+At recruitment, Recruits and Fighters receive no skills. Other starting skill allocation follows the Recruitment rules. Each complete two points in a Stat grants one associated skill, up to three for that Stat at 6. Count Stats separately using allocated values before lasting injuries.
 
-“Once per round” means once across all of that fighter's turns and reactions combined. A skill’s specific wording overrides normal rules, including modifier, action and reaction limits. Movement included in a skill effect does not create another action or reaction. All skill tests use the core test unless explicitly opposed. A passive bonus has no action cost. A fighter must be conscious, unpinned, unengaged, and free of a morale condition to use a skill action unless its text explicitly permits otherwise. Melee skills can be used during their stated engagement.
+There are no skill tiers, duplicate skills or overall three-skill limit.
 
 ^text-s068-b001
 
+Each skill states its action cost. Passive skills require no action. Specific skill wording overrides normal modifier, action and reaction limits.
+
+Each Stat has three archetypes and twelve selected skills. Specific skill text may override ordinary limits. Only the approved current catalogue entries are available in the test packet.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

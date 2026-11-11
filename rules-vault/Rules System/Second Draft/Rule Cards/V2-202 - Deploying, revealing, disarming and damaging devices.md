@@ -17,8 +17,9 @@ tags:
 - combat
 - mine
 - drone
-summary: Deploy equipment; Device arming delay; Concealed devices; Disarm; Recover device; Device damage; Device
-  targeting; Friendly mine triggers
+summary: Field Engineer unlocks field deployables. Spend Core and pass INT to Deploy, using the profile’s placement
+  distance or base contact if none is stated. A unit maintains one active field deployable; deploying another replaces
+  it. Drones use their separate operation rules.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -35,7 +36,8 @@ source:
 review_notes: ''
 action_cost: Core
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Device arming delay]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Device
+  arming delay]]'
 planned_section: 04 · Fighting Battles
 rule_parent: Deployables and Drones
 consolidated: '2026-10-25'
@@ -97,71 +99,47 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
-last_rule_update: '2026-11-09'
+last_rule_update: '2026-11-10'
 ---
 
 # Deploying, revealing, disarming and damaging devices
 
 ## Summary
 
-Deploy equipment; Device arming delay; Concealed devices; Disarm; Recover device; Device damage; Device targeting; Friendly mine triggers
+Field Engineer unlocks field deployables. Spend Core and pass INT to Deploy, using the profile’s placement distance or base contact if none is stated. A unit maintains one active field deployable; deploying another replaces it. Drones use their separate operation rules.
 
 ## Rule text
 
-### Deploy equipment
-
-| Field | Value |
-| --- | --- |
-| Action | Deploy or Repair |
-| Cost | Core |
-| Main effect | Place or restore one carried device |
+Field Engineer unlocks field deployables. Spend Core and pass INT to Deploy, using the profile’s placement distance or base contact if none is stated. A unit maintains one active field deployable; deploying another replaces it. Drones use their separate operation rules.
 
 ^text-s019-b011
 
-Carried devices already count in Crew Rating. Spend Core to place one in base contact, outside other bases and away from an occupied objective marker. A folding barricade or climbing route is automatic. These ordinary equipment items require no deployable-unlock skill. Arming a mine, trap, or electronic device requires INT. Success arms it; failure leaves it placed but inert and visible. A natural 1 does not detonate it during deployment. A later Deploy action in contact can retry using the same item.
+Field deployables persist until destroyed, disarmed or replaced, unless their profile gives an earlier expiry. They reserve one equipment slot while active. Surviving devices are collected after battle; a withdrawing crew leaves its active field deployables behind.
 
 ^text-s058-b000
 
-### Device arming delay
-
-After deployment, turn its card to Active or Inert. It cannot trigger on models already in its trigger area at the moment it is armed; their subsequent movement can trigger it. Devices cannot act the turn they are deployed except passive smoke or physical cover. A sentry first gains READY at the next Start Phase.
+Use public face-down markers for concealed devices. Triggering, successful Observe, or approaching within 2 inches and line of sight reveals one, unless its profile has its own reveal procedure. Profiles determine eligible triggering units and timing.
 
 ^text-s058-b001
 
-### Concealed devices
-
-All device locations are public. A concealed mine or trap is a face-down numbered marker: its type is written privately beside its number. Concealment hides the payload, not the location. It is revealed when triggered, successfully Observed, or approached within 2 inches and LOS by a conscious fighter. No dummy markers are required.
+Declare Disarm before entering the trigger area. Approaching for that attempt does not trigger the device before the test. In contact, spend Core and test INT: success makes it inert; ordinary failure leaves it armed; a natural 1 triggers it.
 
 ^text-s059-b000
 
-### Disarm
-
-An unengaged fighter in contact may spend Core and test DEX to disarm a mine or trap. Success makes it inert; failure leaves it armed; natural 1 triggers it. An electronic device can instead be disabled with portable hacking. An inert device can be recovered with Interact into a free equipment slot.
+A device with printed Wounds and Armour uses Injury; at zero Wounds it is destroyed unless its profile supplies a Down or repair state. For other standing equipment, one hit makes it Offline and a second destroys it. A hit ruins an armed mine or trap without detonating it. Destroyed field deployables cannot be repaired during battle.
 
 ^text-s059-b001
 
-### Device damage
-
-A visible device can be shot or struck. Use normal shooting to hit; an adjacent unengaged fighter may spend Core to hit it automatically. There is **no Injury roll** against these small devices. One hit makes standing equipment Offline; a further hit makes it Destroyed. A mine or trap hit while armed is disarmed and ruined without an explosion. A utility drone is Destroyed by its first hit. Device cover follows its actual position. Devices have no Stress, morale, skills, or objective-control presence.
+Folding barricades, ladders and other ordinary tools belong to Equipment and require no deployable-unlock skill. Follow their own use instructions.
 
 ^text-s059-b002
 
-### Friendly mine triggers
-
-For mines and traps, **either crew can trigger them**. Placing one is a positional decision, not permission for your own fighters to walk through it safely. A flying drone does not trigger a ground-contact tripwire or clamp; it can trigger an electronic proximity mine if actually within its three-dimensional radius.
-
-^text-s060-b008
-
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]
 
-<!-- conditions-reference:start -->
-## Conditions referenced
+### Preserved references
 
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-concealed|Concealed]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-disarmed-or-inert|Disarmed or Inert]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-offline-or-disabled|Offline or Disabled]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-destroyed|Destroyed]]
-<!-- conditions-reference:end -->
+Current rule: [[#Rule text|Deploying, revealing, disarming and damaging devices]].
 
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+^text-s060-b008

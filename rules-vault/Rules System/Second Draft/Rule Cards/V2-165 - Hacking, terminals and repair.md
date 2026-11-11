@@ -15,8 +15,7 @@ tags:
 - core
 - tests
 - device
-summary: Physical controls; Terminal links; Hack terminal; Terminal network; Frozen terminal; Portable hacking;
-  Hacking limits; Repair action; Critical terrain protection
+summary: Anyone may use a terminal. Every interactive feature also has a physical control.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -31,6 +30,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-171 - Hacking limits]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-172 - Repair action]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-173 - Critical terrain protection]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-165 - Hacking, terminals and repair]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-165 - Hacking, terminals and repair|Terminal links]]'
@@ -103,69 +104,46 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
-last_rule_update: '2026-11-09'
+last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Hacking, terminals and repair
 
 ## Summary
 
-Physical controls; Terminal links; Hack terminal; Terminal network; Frozen terminal; Portable hacking; Hacking limits; Repair action; Critical terrain protection
+Anyone may use a terminal. Every interactive feature also has a physical control.
 
 ## Rule text
 
-### Physical controls
-
-No specialist skill or hacking kit is required to use a terminal. Tools and training improve reliability. Any crew can instead reach the feature's direct control. A physically locked door can be forced or picked; hacking is another route, not the only route.
+Anyone may use a terminal. Every interactive feature also has a physical control.
 
 ^text-s050-b002
 
-### Terminal links
-
-Every interactive feature has a physical control in contact with it or at a marked nearby panel. Electronic features may also be linked to a **terminal**. A terminal may link up to three features within 12 inches; draw or label these links before play. Two terminals sharing a linked feature are on the same network for Interrupt; this never grants access to each other's other features. Links ignore intervening walls but cannot chain through another terminal to reach farther. Either crew can use the same terminal.
+A terminal may link to three features within 18 inches. Links cannot chain through other terminals. Terminals sharing a feature form a network for the Interrupt skill.
 
 ^text-s050-b000
 
-### Hack terminal
-
-An unengaged fighter in contact with an active terminal may spend Core and test INT to **Hack** one linked feature. Success performs one printed operation immediately. Failure changes nothing. A natural 1 **Freezes that terminal until this round ends**. Freeze affects remote electronic use through that terminal; it never disables local manual controls.
+**Hack a terminal.** In contact, spend a Core action and test INT to operate one linked feature. Failure changes nothing. A natural 1 Freezes that terminal until the end of the round.
 
 ^text-s050-b001
 
-### Portable hacking
-
-A hacking kit also permits an INT Hack against one visible electronic deployable or drone within **8 inches**. Success disables it until someone Repairs it. Failure leaves it unchanged. Natural 1 also prevents that kit being used again this round. This does not hack human fighters, their firearms, or their ordinary armour.
+**Hacking kit.** Operate a terminal within 12 inches without line of sight, using the same Core action, INT test and terminal outcomes. For portable hacking, target a visible electronic device within 8 inches: success disables it until Repair. The kit gives no Stat bonus.
 
 ^text-s051-b000
 
-### Hacking limits
-
-Hijacking a device for an immediate operation requires Trojan. Opposing a terminal operation requires Interrupt and READY. There is no separate cybercombat phase, bandwidth resource, or list of attack programs.
+A natural 1 also prevents further kit use that round. Trojan allows a hijack, and Interrupt allows an opposed Hack.
 
 ^text-s051-b001
 
-### Repair action
-
-Repair requires contact, Core, and an INT test. Success restores an Offline device or clears a disabled electronic state. A Destroyed device cannot be repaired during battle. Normal failure does not worsen it. Spending a repair pack passes the Repair test automatically; it does not replace the Core or contact requirement.
+**Repair.** In contact, spend a Core action and test INT. Success restores Offline or disabled electronics. Destroyed devices cannot be repaired during battle.
 
 ^text-s052-b000
 
-### Critical terrain protection
-
-Critical terrain and objective terminals cannot be shot out of the game. They can be temporarily Frozen, or disabled by a scenario's sabotage objective. A sabotaged feature stays in its last safe position and can be repaired with the ordinary Repair action unless the scenario explicitly sets a different objective procedure. Do not invent hit points for whole buildings.
+Critical terrain and objective terminals cannot simply be shot away.
 
 ^text-s052-b001
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-offline-or-disabled|Offline or Disabled]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-frozen|Frozen]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-destroyed|Destroyed]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

@@ -15,7 +15,9 @@ tags:
 - dice
 - limits
 - melee
-summary: Dual-wielding; Three-die ceiling; Unarmed and melee Sidearms
+summary: A normal ranged Attack uses one firearm. Gunslinger permits firing two one-handed ranged weapons in one
+  action, using each weapon’s full ATK, Damage and keywords. This full-ATK permission overrides the ordinary off-hand
+  allowance and pool cap.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -24,6 +26,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-102 - Dual-wielding]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-103 - Three-die ceiling]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-104 - Unarmed and melee Sidearms]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-102 - Weapon pools, dual wielding and unarmed attacks]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-102 - Weapon pools, dual wielding and unarmed attacks|Three-die
@@ -57,38 +61,31 @@ component_rules:
   review_status: Unreviewed
   review_notes: ''
 last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Weapon pools, dual wielding and unarmed attacks
 
 ## Summary
 
-Dual-wielding; Three-die ceiling; Unarmed and melee Sidearms
+A normal ranged Attack uses one firearm. Gunslinger permits firing two one-handed ranged weapons in one action, using each weapon’s full ATK, Damage and keywords. This full-ATK permission overrides the ordinary off-hand allowance and pool cap.
 
 ## Rule text
 
-### Three-die ceiling
-
-Using two one-handed weapons gives the dominant weapon's full dice and **one off-hand die**. Identify that die separately and use its own range, Damage, and traits. Both weapons must be eligible for the attack. A shooting pair must contain two firearms; a melee pair may contain melee weapons or firearms with Close Combat. The normal combined pool is at most **three dice**, including a Charge die; specific skills may override this limit. Remove excess dice of your choice before rolling.
+A normal ranged Attack uses one firearm. **Gunslinger** permits firing two one-handed ranged weapons in one action, using each weapon’s full ATK, Damage and keywords. This full-ATK permission overrides the ordinary off-hand allowance and pool cap.
 
 ^text-s030-b000
 
-### Unarmed and melee Sidearms
+Two one-handed Agile melee weapons may be paired without a skill. Use the primary weapon’s full ATK plus one identifiable off-hand die. Ambidextrous instead uses both full ATK values. Each die keeps its weapon’s Damage and keywords.
 
-A fighter with no eligible held melee weapon may always use one unarmed die at Damage 0. Use the listed profile for an equipped Dagger / Shiv. A firearm with Close Combat may use its listed attack while Engaged; when used in a melee pool it uses STR and its printed ATK and Damage. It must be loaded and follows Reload normally. Other firearms cannot contribute a melee pool.
+Build both units’ base melee pools from their eligible weapons using the same rules. Add attack-only bonuses when attacking and defence-only bonuses when defending. Only the attacker’s uncancelled successes cause hits.
 
 ^text-s030-b001
 
+A normal paired-weapon pool has a three-die maximum unless a specific rule overrides it. Charge and Aerial Assault have no three-die maximum. Gunslinger and Ambidextrous use their stated full pools.
+
+A fighter without an eligible melee weapon may use Unarmed: one die, Damage 0. Close Combat permits the weapon’s listed attack while Engaged; a firearm used in a melee pool uses STR unless a specific rule changes the Stat. Reload still applies.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-loaded-or-unloaded|Loaded or Unloaded]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

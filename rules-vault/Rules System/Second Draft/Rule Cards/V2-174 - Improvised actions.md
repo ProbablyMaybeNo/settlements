@@ -10,7 +10,8 @@ book_subsection: Battle Overview / Ordinary Interactions and Objectives
 tags:
 - settlements/v2
 - interaction
-summary: Improvised actions; Improvisation limits
+summary: Before attempting an improvised action, agree its object, intended effect, action cost, Stat and failure
+  consequence.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -18,6 +19,8 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-174 - Improvised actions]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-175 - Improvisation limits]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-174 - Improvised actions]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-174 - Improvised actions|Improvisation limits]]'
@@ -40,32 +43,27 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Improvised actions
 
 ## Summary
 
-Improvised actions; Improvisation limits
+Before attempting an improvised action, agree its object, intended effect, action cost, Stat and failure consequence.
 
 ## Rule text
 
-### Improvised actions
-
-Players may propose an action that follows from the physical scene. Agree its **object, intended effect, action cost, relevant stat, and failure consequence before committing**. Use Move for the fighter's movement, Core for another task, and Both only when combining movement with a Core task. Use an existing operation such as Shove, Displace, Open, Close, Move Cover, or Create Smoke whenever possible. Ordinary people and the tools present must plausibly be able to do it.
+Before attempting an improvised action, agree its object, intended effect, action cost, Stat and failure consequence.
 
 ^text-s053-b000
 
-### Improvisation limits
-
-One improvised action normally affects one target or one terrain piece. It cannot exceed the common move distance, create a free attack, erase a scenario objective, or destroy an entire building. Throwing a hand-carried box or tipping a cabinet is plausible; throwing a car is not. Dangerous and difficult attempts use a normal test, not an invented modifier table. If you cannot agree quickly, use the nearest printed action for this battle and discuss a future addition afterwards.
+Movement costs Move. Another task costs Core. Combining movement with a task costs both.
 
 ^text-s053-b001
 
+Use an existing procedure where possible. The action must be plausible for an ordinary person with the available tools. If you cannot agree, use the nearest printed action for that battle.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

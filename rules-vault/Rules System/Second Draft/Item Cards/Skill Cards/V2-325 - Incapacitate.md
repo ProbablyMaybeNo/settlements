@@ -11,12 +11,7 @@ tags:
 - settlements/v2
 - skill
 - agi
-- core
-- melee
-- casualty
-- combat
-summary: 'Core: one-die AGI/Dmg 0 Unanswered exchange; successful Injury Subdues. No later qualifying harm → Full
-  recovery.'
+summary: Spend Core to make a one-die AGI ranged attack within 6 inches. A hit causes Stunned instead of Injury.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -24,53 +19,44 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Agility skills]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Draft 2 before complete rulebook
+  - 2026-10-17/Draft 2 - Skills]]'
 review_notes: ''
 stat: AGI
-use: Core; engaged
-effect: Make a one-die Unanswered melee exchange using AGI and Damage 0. A successful Injury puts the target Down
-  as normal; mark Subdued. If it suffers no other successful Injury or hazard before battle ends, its lasting-injury
-  roll becomes Full Recovery instead. Capture still requires Secure and extraction.
+use: Core
+effect: Spend Core to make a one-die AGI ranged attack within 6 inches. A hit causes Stunned instead of Injury.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill frequency]]'
 planned_section: 08 · Skills
-rule_parent: Skills
+rule_parent: Skill Catalogue
 card_kind: Skill
 catalogue_id: V2-489
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-489 - AGI skills]]'
 consolidated: '2026-10-25'
+archetype: Stalker
+last_rule_update: '2026-11-10'
+approval_source: Ross’s selected twelve-skill AGI roster and latest chat rulings; original selected effect preserved
+  where unchanged
 ---
 
 # Incapacitate
 
 ## Summary
 
-Core: one-die AGI/Dmg 0 Unanswered exchange; successful Injury Subdues. No later qualifying harm → Full recovery.
+Spend Core to make a one-die AGI ranged attack within 6 inches. A hit causes Stunned instead of Injury.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Skill | Incapacitate |
-| Use | Core; engaged |
-| Effect | Make a one-die Unanswered melee exchange using AGI and Damage 0. A successful Injury puts the target Down as normal; mark Subdued. If it suffers no other successful Injury or hazard before battle ends, its lasting-injury roll becomes Full Recovery instead. Capture still requires Secure and extraction. |
+| Use | Core |
+| Effect | Spend Core to make a one-die AGI ranged attack within 6 inches. A hit causes Stunned instead of Injury. |
 
 ^text-s071-b001
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-489 - AGI skills|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-engaged|Engaged]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-subdued|Subdued]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-489 - AGI skills]]

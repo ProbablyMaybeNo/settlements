@@ -14,7 +14,7 @@ tags:
 - cover
 - hit-minus
 - visibility
-summary: Light and heavy cover; Cover exceptions; Elevated shooting
+summary: A target has cover when terrain blocks part of it from the attacker's view.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -23,6 +23,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-049 - Light and heavy cover]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-050 - Cover exceptions]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-051 - Elevated shooting]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-049 - Cover and elevation]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-049 - Cover and elevation|Cover exceptions]]'
@@ -53,38 +55,37 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Cover and elevation
 
 ## Summary
 
-Light and heavy cover; Cover exceptions; Elevated shooting
+A target has cover when terrain blocks part of it from the attacker's view.
 
 ## Rule text
 
-### Light and heavy cover
-
-Soft foliage, mesh, or thin scatter provides **light cover: −1 to shooting**. Masonry, substantial barricades, vehicle hulls, and thick machinery provide **heavy cover: −2**. Solid opaque terrain can block LOS entirely.
+A target has cover when terrain blocks part of it from the attacker's view.
 
 ^text-s016-b000
 
-### Cover exceptions
-
-A target has cover when an intervening feature obscures part of its agreed body volume from the attacker's viewpoint. The target must be within 1 inch of the feature, or inside an agreed area of cover. Intervening distant clutter that does not block LOS gives no cover modifier. Ignore a low obstacle within 1 inch of the shooter when shooting over it. Use only the strongest applicable cover.
+| Cover | Amount blocked | Penalty to hit |
+| --- | --- | --- |
+| Light | Less than 50% | −2 |
+| Heavy | 50% or more | −4 |
 
 ^text-s016-b001
 
-### Elevated shooting
+Use only the strongest cover grade. You cannot select a completely obscured target.
 
-Height gives a better view, not an automatic accuracy bonus. If an elevated attacker can see over the actual protecting surface, that surface supplies no cover. A wall still blocking the target's body continues to protect it.
+A Pinned, Down or Unconscious target in cover imposes another −2 to hit. Apply this condition penalty once, separately from cover. Heavy cover and this penalty total −6.
 
 ^text-s016-b002
 
+Ignore a low obstacle within 1 inch of the shooter when firing over it. Height may improve the view, but gives no automatic accuracy bonus.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

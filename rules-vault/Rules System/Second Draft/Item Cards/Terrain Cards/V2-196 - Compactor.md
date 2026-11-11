@@ -3,60 +3,54 @@ type: settlements-item-card
 rule_id: V2-196
 rule_name: Compactor
 entry_type: Interactive terrain
-category: Terrain
+category: Interactive terrain
 book_chapter: 4
 book_section: Fighting Battles
 book_subsection: Interactive Terrain
 tags:
-- settlements/v2
-- terrain
-- hazard
-summary: Cycle 3″ work area using Crush, then reopen; nearby safety control; cannot permanently seal objective.
+  - settlements/v2
+  - terrain
+  - hazard
+summary: Inside a four-walled enclosure, close two opposing walls until they meet, Crushing contents. It remains Closed and may seal a route or entrance. A second interaction retracts the walls. Use the shared Crush escape and Injury procedure.
 status: Drafted
 review_status: Unreviewed
 publication: Included
-created: '2026-10-18'
+created: 2026-10-18
 source:
-- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
-  2#Hazards and utilities]]'
-review_notes: ''
-operation_and_states: Cycle a marked 3-inch work area, then return to Open.
-occupied_space_and_counterplay: Uses Crush. It cannot enclose an unmarked room or permanently seal an objective.
-  A safety control is accessible nearby.
+  - "[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Hazards and utilities]]"
+review_notes: ""
+operation_and_states: Inside a four-walled enclosure, close two opposing walls until they meet, Crushing contents.
+occupied_space_and_counterplay: It remains Closed and may seal a route or entrance. A second interaction retracts the walls. Use the shared Crush escape and Injury procedure.
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards|Terrain feature cards]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-046 - Battlefield setup and terrain agreement|Usable terrain starting states]]'
+  - "[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards|Terrain feature cards]]"
+  - "[[Settlements/Rules System/Second Draft/Rule Cards/V2-046 - Battlefield setup and terrain agreement|Usable terrain starting states]]"
 planned_section: 04 · Fighting Battles
-rule_parent: Interactive terrain
+rule_parent: Interactive Terrain
 card_kind: Interactive terrain
 catalogue_id: V2-496
-catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-496 - Interactive terrain catalogue]]'
-consolidated: '2026-10-25'
+catalogue: "[[Settlements/Rules System/Second Draft/Rule Cards/V2-496 - Interactive terrain catalogue]]"
+consolidated: 2026-10-25
+effect: Inside a four-walled enclosure, close two opposing walls until they meet, Crushing contents. It remains Closed and may seal a route or entrance. A second interaction retracts the walls. Use the shared Crush escape and Injury procedure.
+last_rule_update: 2026-11-10
+approval_source: Ross’s written interactive-terrain profile notes, condensed with the shared terrain procedures; latest chat overrides older summaries.
 ---
 
 # Compactor
 
 ## Summary
 
-Cycle 3″ work area using Crush, then reopen; nearby safety control; cannot permanently seal objective.
+Inside a four-walled enclosure, close two opposing walls until they meet, Crushing contents. It remains Closed and may seal a route or entrance. A second interaction retracts the walls. Use the shared Crush escape and Injury procedure.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Feature | Compactor |
-| Operation and states | Cycle a marked 3-inch work area, then return to Open. |
-| Occupied space and counterplay | Uses Crush. It cannot enclose an unmarked room or permanently seal an objective. A safety control is accessible nearby. |
+| Operation and states | Inside a four-walled enclosure, close two opposing walls until they meet, Crushing contents. |
+| Occupied space and counterplay | It remains Closed and may seal a route or entrance. A second interaction retracts the walls. Use the shared Crush escape and Injury procedure. |
 
 ^text-s057-b003
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-496 - Interactive terrain catalogue|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-496 - Interactive terrain catalogue]]

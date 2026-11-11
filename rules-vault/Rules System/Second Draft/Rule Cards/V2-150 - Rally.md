@@ -15,7 +15,8 @@ tags:
 - support
 - pinned
 - combat
-summary: End Phase Rally; Core Rally; Self-Rally restrictions
+summary: A fighter that already has a morale condition when the End Phase begins makes a Rally test instead of a
+  Break test.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -24,6 +25,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-150 - End Phase Rally]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-151 - Core Rally]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-152 - Self-Rally restrictions]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-150 - Rally]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-150 - Rally|Core Rally]]'
@@ -54,52 +57,34 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Rally
 
 ## Summary
 
-End Phase Rally; Core Rally; Self-Rally restrictions
+A fighter that already has a morale condition when the End Phase begins makes a Rally test instead of a Break test.
 
 ## Rule text
 
-### End Phase Rally
-
-A fighter already carrying Broken, Bolting, or Bugging Out at the beginning of the End Phase makes **Rally instead of Break**, using the same Stress-free NRV test. Success removes the morale condition, all Stress, and Pinned. Failure retains its current condition, even if Stress changed. It never immediately rerolls a new Break failure in that End Phase.
+A fighter that already has a morale condition when the End Phase begins makes a Rally test instead of a Break test.
 
 ^text-s044-b000
 
-### Core Rally
-
-| Field | Value |
-| --- | --- |
-| Action | Rally |
-| Cost | Core |
-| Main effect | Test NRV to clear Stress and a morale condition on yourself or one friendly within 3 inches and LOS |
+Roll **1d20 + NRV − Stress** against **13+**. Success clears the morale condition and all Stress, leaving the unit Pinned. Failure leaves the condition in place. A unit that just failed Break cannot Rally again in the same End Phase.
 
 ^text-s019-b008
 
-A Core Rally action may be attempted on itself by a conscious fighter, including while Pinned or Broken but not Bolting or Bugging Out, or by a conscious, unpinned, unengaged friendly within 3 inches and LOS. Test the acting fighter's NRV, ignoring Stress. Success removes all Stress, the morale condition, and Pinned from the target. Rally may also be used on a stressed fighter with no morale condition. Failed Rally has no additional effect beyond its action cost.
+**Rally action.** Spend a Core action to Rally yourself or one friendly within 3 inches and line of sight. An assisting unit must be conscious, unpinned and unengaged.
 
 ^text-s044-b001
 
-### Self-Rally restrictions
-
-Bolting or Bugging Out fighters need friendly help or the End Phase to Rally. They cannot spend their forced action on self-Rally. Removing Pinned alone does not remove a morale condition.
+Pinned and Broken units may Rally themselves. Bolting and Bugging Out units need friendly help or an End Phase Rally.
 
 ^text-s044-b002
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-broken|Broken]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-bolting|Bolting]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-bugging-out|Bugging Out]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

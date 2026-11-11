@@ -11,7 +11,8 @@ tags:
 - settlements/v2
 - profile
 - armour
-summary: Protection supplied by equipment; normally 0–2
+summary: Armour is subtracted from Injury rolls. Basic worn Armour is 2, 4 or 6; it grants no separate save or defence
+  dice.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -20,7 +21,8 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#The profile]]'
 review_notes: ''
-meaning: Protection supplied by equipment; normally 0–2
+meaning: Armour is subtracted from Injury rolls. Basic worn Armour is 2, 4 or 6; it grants no separate save or defence
+  dice.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Reading a fighter profile|Five stats]]'
 planned_section: 02 · Core Mechanics
@@ -29,20 +31,21 @@ card_kind: Stat
 catalogue_id: V2-015
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Reading a fighter profile]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-10'
 ---
 
 # Armour characteristic
 
 ## Summary
 
-Protection supplied by equipment; normally 0–2
+Armour is subtracted from Injury rolls. Basic worn Armour is 2, 4 or 6; it grants no separate save or defence dice.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Characteristic | Armour |
-| Meaning | Protection supplied by equipment; normally 0–2 |
+| Meaning | Armour is subtracted from Injury rolls. Basic worn Armour is 2, 4 or 6; it grants no separate save or defence dice. |
 
 ^text-s005-b007
 

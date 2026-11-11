@@ -15,7 +15,8 @@ tags:
 - pinned
 - combat
 - hit-plus
-summary: Front arc and facing; Body-based LOS; Prone visibility; Rear attack bonus
+summary: A unit can see through its forward 180-degree arc at any vertical angle. It may change facing during its
+  own movement and once at the start of its own Core action. It cannot pivot freely during an enemy turn.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -25,6 +26,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-075 - Body-based LOS]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-076 - Prone visibility]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-077 - Rear attack bonus]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-074 - Facing, visibility and rear attacks]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-074 - Facing, visibility and rear attacks|Body-based LOS]]'
@@ -64,60 +67,37 @@ component_rules:
   review_status: Unreviewed
   review_notes: ''
 last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Facing, visibility and rear attacks
 
 ## Summary
 
-Front arc and facing; Body-based LOS; Prone visibility; Rear attack bonus
+A unit can see through its forward 180-degree arc at any vertical angle. It may change facing during its own movement and once at the start of its own Core action. It cannot pivot freely during an enemy turn.
 
 ## Rule text
 
-### Front arc and facing
-
-A fighter sees through the **forward 180 degrees** of its base. Draw the dividing line through the base centre; a target whose centre lies exactly on that line counts as in the forward arc. The rear half is outside LOS. A fighter may change facing freely during its own movement and once at the start of its own Core Action. Facing does not change for free during an enemy turn or after an attack is declared.
+A unit can see through its forward 180-degree arc at any vertical angle. It may change facing during its own movement and once at the start of its own Core action. It cannot pivot freely during an enemy turn.
 
 ^text-s023-b000
 
-### Body-based LOS
-
-Agree a normal human silhouette as a cylinder above its base, approximately 2 inches tall. Check LOS from the acting fighter's eye point to the target's head or torso volume; ignore decorative parts. A sliver of weapon, scenic base, or clothing is not enough. Solid walls block sight. Other standing fighters' base-width body volumes block sight, including friendly fighters. For shooting into engagement, use [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#8 Shooting and close combat|shooting and close combat]].
+Use an agreed normal human body volume, about 2 inches tall, when checking line of sight. Walls and standing units' body volumes block sight.
 
 ^text-s023-b001
 
-### Prone visibility
-
-Pinned, Down, and Unconscious models use their **base footprint** as the visible target instead of the standing figure. If the attacker cannot see any of that base footprint, it cannot shoot the prone fighter. Area hazards can still reach it. A Pinned fighter checks sight from ground level when it needs LOS for a permitted action. This convention also applies while crawling.
+Use the base footprint for a Pinned, Down or Unconscious target.
 
 ^text-s023-b002
 
-### Rear attack bonus
-
-An attack declared from wholly behind the target's dividing line is a **rear attack**. It gains +2 to hit. The target cannot react to that attacker through its rear arc. Close-combat defence and rear charges are resolved in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#8 Shooting and close combat|shooting and close combat]].
+Grapple’s interception procedure is a specific exception for the two held models; it does not bypass solid terrain or unrelated model blockers.
 
 ^text-s023-b003
 
-### Grapple shooting interception
-
-Use the Grapple skill’s direct-target redirection and single d6 roll for an attack passing through either held model. Those two models alone do not make that intercepted shot illegal; solid terrain and other body blockers remain unchanged. The chosen actual target supplies normal hit/Injury protection, and normal area effects still affect all models in their final area.
+An attack declared wholly behind the target prevents reactions through its rear arc. It gives no bonus to hit. The target still uses the normal Melee defence rules.
 
 ^grapple-shooting-interception
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
-
-### Ross’s replacement ruling — 2026-11-10
-
-[[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]]. This replaces conflicting earlier Grapple/Strong Arm/Carry/Throw wording. Existing IDs, anchors and prior feedback are retained. Drafted for testing does not mean playtested balance.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

@@ -11,9 +11,7 @@ tags:
 - settlements/v2
 - skill
 - agi
-- movement
-- move-plus
-summary: MOVE +1, maximum 7 before armour/injuries; no change to Charge d6/jump cap.
+summary: Gain +2 MOVE.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -21,28 +19,33 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Agility skills]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Draft 2 before complete rulebook
+  - 2026-10-17/Draft 2 - Skills]]'
 review_notes: ''
 stat: AGI
 use: Passive
-effect: Increase MOVE by 1, to a maximum of 7 before armour and injuries. Does not alter Charge's d6 or the jump
-  limit.
+effect: Gain +2 MOVE.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill frequency]]'
 planned_section: 08 · Skills
-rule_parent: Skills
+rule_parent: Skill Catalogue
 card_kind: Skill
 catalogue_id: V2-489
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-489 - AGI skills]]'
 consolidated: '2026-10-25'
+archetype: General
+last_rule_update: '2026-11-10'
+approval_source: Ross’s selected twelve-skill AGI roster and latest chat rulings; original selected effect preserved
+  where unchanged
 ---
 
 # Quick
 
 ## Summary
 
-MOVE +1, maximum 7 before armour/injuries; no change to Charge d6/jump cap.
+Gain +2 MOVE.
 
 ## Rule text
 
@@ -50,17 +53,10 @@ MOVE +1, maximum 7 before armour/injuries; no change to Charge d6/jump cap.
 | --- | --- |
 | Skill | Quick |
 | Use | Passive |
-| Effect | Increase MOVE by 1, to a maximum of 7 before armour and injuries. Does not alter Charge's d6 or the jump limit. |
+| Effect | Gain +2 MOVE. |
 
 ^text-s071-b005
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-489 - AGI skills|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-489 - AGI skills]]

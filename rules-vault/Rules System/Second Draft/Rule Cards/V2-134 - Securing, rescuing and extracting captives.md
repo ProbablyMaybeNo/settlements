@@ -16,7 +16,8 @@ tags:
 - movement
 - support
 - medical
-summary: Secure captive; Captured state; Extract captive; Release or rescue captive; Friendly evacuation
+summary: Secure. An unengaged fighter in contact with a Down enemy may spend a Core action to capture it. This is
+  automatic if no conscious, unpinned enemy is within 1 inch of either unit. Unconscious enemies cannot be captured.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -27,6 +28,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-136 - Extract captive]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-137 - Release or rescue captive]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-138 - Friendly evacuation]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-134 - Securing, rescuing and extracting captives]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-134 - Securing, rescuing and extracting captives|Extract
@@ -76,54 +79,37 @@ component_rules:
   review_status: Unreviewed
   review_notes: ''
 last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Securing, rescuing and extracting captives
 
 ## Summary
 
-Secure captive; Captured state; Extract captive; Release or rescue captive; Friendly evacuation
+Secure. An unengaged fighter in contact with a Down enemy may spend a Core action to capture it. This is automatic if no conscious, unpinned enemy is within 1 inch of either unit. Unconscious enemies cannot be captured.
 
 ## Rule text
 
-### Secure captive
-
-An unengaged fighter in contact with a Down enemy may spend Core to **Secure** it. This is automatic if no conscious, unpinned enemy is within 1 inch of either model. Mark Captured. The captive cannot act or self-treat. Its Down timer continues normally.
+**Secure.** An unengaged fighter in contact with a Down enemy may spend a Core action to capture it. This is automatic if no conscious, unpinned enemy is within 1 inch of either unit. Unconscious enemies cannot be captured.
 
 ^text-s041-b000
 
-### Extract captive
-
-The captor transports one captive using the Core Carry and Carrying rules; moving with an already-carried load uses Move. Secure remains necessary to count it as a captured prisoner. The new Carry action may also move an unsecured Down enemy, but does not capture it by itself. Move both bases together, keeping them in contact. Capture becomes a lasting capture only when the captive is escorted completely off the captor's deployment edge while the escort remains capable of moving. The escort leaves with it and cannot return that battle. Carrying mission cargo off an exit or evacuating a friendly casualty likewise removes its carrier from play; surviving extracted carriers return to the settlement afterward. If a captive becomes Unconscious before extraction, remove it under the Unconscious rule; capture has not been completed.
+A Captured unit cannot act or treat itself. Its captor may use the normal revival procedure on it. Revival does not remove Captured.
 
 ^text-s041-b001
 
-### Release or rescue captive
+**Extract.** Move the captive using the Carrying rules. To take the captive as a post-battle prisoner, move it completely off the captor's deployment edge. The escort leaves too.
 
-If the escort becomes Down, Unconscious, Pinned, or gains a morale condition, it releases the captive immediately. Remove Captured; the captive retains its underlying Down state. An unengaged friendly may also free a captive from contact with a Core Interact, provided the escort is not a conscious unpinned enemy within 1 inch. A captor can release voluntarily at the start of its own action.
+An incapacitated, Pinned or morale-affected escort releases its captive. A revived captive becomes Pinned when released and may then Recover.
 
 ^text-s041-b002
 
-### Friendly evacuation
-
-Friendly evacuation works the same way without Secure: take a casualty off your deployment edge to protect it from further battlefield interference. A Down casualty evacuated this way still rolls lasting injury after battle. Unconscious casualties have already been removed. Evacuation is useful because it prevents capture; it is not an automatic cure.
+**Rescue.** A friendly in contact may spend a Core Interact action to free the captive if no capable enemy escort blocks access.
 
 ^text-s041-b003
 
+Evacuating a friendly casualty needs no Secure action. Use the Ending and recovery rules to determine injury eligibility.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-captured|Captured]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
-
-### Ross’s replacement ruling — 2026-11-10
-
-[[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]]. This replaces conflicting earlier Grapple/Strong Arm/Carry/Throw wording. Existing IDs, anchors and prior feedback are retained. Drafted for testing does not mean playtested balance.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

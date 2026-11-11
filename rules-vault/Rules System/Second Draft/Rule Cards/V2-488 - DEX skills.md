@@ -35,7 +35,13 @@ catalogue_members:
 - V2-318
 - V2-319
 - V2-320
+- V2-521
+- V2-522
+- V2-523
+- V2-524
 - V2-323
+- V2-525
+last_rule_update: '2026-11-10'
 ---
 
 # DEX skills

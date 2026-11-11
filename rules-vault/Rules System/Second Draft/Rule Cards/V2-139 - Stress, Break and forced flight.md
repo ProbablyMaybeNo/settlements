@@ -20,8 +20,8 @@ tags:
 - movement
 - timing
 - recovery
-summary: Stress track; Witness casualty; Stress penalty; End Phase Break; Broken; Bolting; Bugging Out; Forced low-Stress
-  Break; Fear restrictions; Flight timing and paths; Withdrawn fighter
+summary: Stress ranges from 0 to 5. Each successful hit adds 1 Stress before Injury. Injury rolls add none. Down
+  and Unconscious units keep their Stress but ignore it.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -38,6 +38,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-147 - Fear restrictions]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-148 - Flight timing and paths]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-149 - Withdrawn fighter]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-139 - Stress, Break and forced flight]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress, Break and forced flight|Witness casualty]]'
@@ -125,96 +127,61 @@ component_rules:
   review_status: Unreviewed
   review_notes: ''
 last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Stress, Break and forced flight
 
 ## Summary
 
-Stress track; Witness casualty; Stress penalty; End Phase Break; Broken; Bolting; Bugging Out; Forced low-Stress Break; Fear restrictions; Flight timing and paths; Withdrawn fighter
+Stress ranges from 0 to 5. Each successful hit adds 1 Stress before Injury. Injury rolls add none. Down and Unconscious units keep their Stress but ignore it.
 
 ## Rule text
 
-### Stress track
-
-Gain 1 Stress per successful hit, before Injury. Injury adds no further Stress. Extra Stress beyond the unit’s maximum is lost; transfers cannot exceed the recipient’s remaining capacity.
+Stress ranges from 0 to 5. Each successful hit adds 1 Stress before Injury. Injury rolls add none. Down and Unconscious units keep their Stress but ignore it.
 
 ^text-s042-b001
 
-### Witness casualty
-
-Stress ranges from 0 to **5**. You also gain one Stress the **first time each round** you see a friendly become Down within 6 inches. Use your forward LOS. Several casualties from one blast still give only one Stress through this witness trigger. Down and Unconscious fighters do not gain witness Stress.
+Once per round, an eligible conscious fighter gains 1 Stress when it sees a friendly go Down within 6 inches.
 
 ^text-s042-b000
 
-### Stress penalty
-
-Subtract current Stress from stat tests, shooting, and melee totals. Do not subtract it from Injury, Break, Rally, initiative, distance, or post-battle rolls. Stress does not reduce fixed MOVE. There is no separate Shaken penalty.
+Subtract Stress from ordinary tests and attacks. It does not reduce MOVE or modify Injury, initiative or distance rolls.
 
 ^text-s042-b002
 
-### End Phase Break
-
-At the End Phase, each conscious fighter without a morale condition and with **2+ Stress** makes a Break test: **d20 + NRV + applicable modifiers vs 13+**, ignoring Stress. Success removes all Stress. Failure retains Stress and gives the following condition, based on the Stress amount:
+**Break tests.** At the End Phase, a fighter with 2+ Stress and no morale condition rolls **1d20 + NRV − Stress** against **13+**.
 
 ^text-s043-b000
 
-### Broken
-
-| Field | Value |
-| --- | --- |
-| Stress | 1–2 |
-| Condition | Broken |
-| What the fighter does | Becomes Pinned. Until rallied it may only Move, Recover, Rally itself, or Disengage. |
+Success clears all Stress. On failure, apply the condition for its current Stress:
 
 ^text-s043-b001
 
-### Bolting
-
-| Field | Value |
+| Stress | Condition |
 | --- | --- |
-| Stress | 3–4 |
-| Condition | Bolting |
-| What the fighter does | During its activation, spend all remaining slots to move up to twice MOVE toward the nearest reachable place outside enemy LOS. Prefer heavy cover; take the shortest safe route. |
+| 1–2 | The unit becomes Broken and Pinned. |
+| 3–4 | The unit starts Bolting. |
+| 5 | The unit starts Bugging Out. |
 
 ^text-s043-b002
 
-### Bugging Out
-
-| Field | Value |
-| --- | --- |
-| Stress | 5 |
-| Condition | Bugging Out |
-| What the fighter does | During its activation, spend all remaining slots to move up to twice MOVE toward the nearest reachable board edge. It leaves play if it reaches that edge. |
+A **Broken** unit can only Rally itself until its Stress reaches 0.
 
 ^text-s043-b003
 
-A fighter with a morale condition cannot react, give assistance, score, or contest. Bolting and Bugging Out movement overrides Pinned and spends the fighter's remaining slots even if it reaches its destination early. Movement remains subject to physical obstacles and traversal tests. Bolting never deliberately takes a hazardous route when a safe one exists. Bugging Out may take one if it is the shortest legal way out. If no destination can be reached, move as far along a legal route toward it as possible; if no route exists, remain in place and spend the slots. The owner breaks equal-distance route ties. Resolve this forced action during the fighter's activation, or immediately before its next unused action if it gains the condition during its current activation. It occurs at most once that round, even if only one slot remains. A fighter that already ended its activation does not activate again; forced movement then waits until its next round's activation.
+A **Bolting** unit uses its next activation's actions to move up to twice MOVE towards safety outside enemy line of sight. A unit **Bugging Out** instead moves towards the nearest reachable board edge.
 
 ^text-s043-b005
 
-### Forced low-Stress Break
-
-The 1-Stress entry is for effects that explicitly force a Break test. Never make a normal End Phase Break test at Stress 0 or 1. If a forced test fails at 0 Stress, use Broken.
+Gaining a condition in the End Phase gives no immediate movement or extra activation. Forced flight happens at most once per round. Morale conditions prevent reactions, assistance, scoring and contesting.
 
 ^text-s043-b004
 
-### Withdrawn fighter
-
-A fighter that flees off-board is Withdrawn, not Down, and does not roll an injury merely for fleeing. Any casualty it was carrying is released at the point it started fleeing.
+Leaving the board through flight counts as withdrawal, not an injury.
 
 ^text-s043-b006
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-broken|Broken]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-bolting|Bolting]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-bugging-out|Bugging Out]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-withdrawn|Withdrawn]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

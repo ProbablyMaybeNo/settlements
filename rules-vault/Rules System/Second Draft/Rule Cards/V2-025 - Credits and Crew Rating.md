@@ -12,7 +12,7 @@ tags:
 - crew
 - economy
 - rating
-summary: Battle budget; Full fielded value; Discounts and captured gear; Resource roles
+summary: Credits buy fighters and equipment. Their listed Credit values also determine your Crew Rating.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,6 +22,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-026 - Full fielded value]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-027 - Discounts and captured gear]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-028 - Resource roles]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-025 - Credits and Crew Rating]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-025 - Credits and Crew Rating|Full fielded value]]'
@@ -58,36 +60,31 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Credits and Crew Rating
 
 ## Summary
 
-Battle budget; Full fielded value; Discounts and captured gear; Resource roles
+Credits buy fighters and equipment. Their listed Credit values also determine your Crew Rating.
 
 ## Rule text
 
-### Battle budget
-
-Agree the scenario and maximum Crew Rating before choosing your Battle Rosters. **750 Credits** is the recommended starting limit. About **1,000 Credits** supports a broader starting crew. These are playtest defaults; either limit can be changed by agreement.
+Credits buy fighters and equipment. Their listed Credit values also determine your **Crew Rating**.
 
 ^text-s009-b000
 
-Credits are the purchasing currency and the unit of Crew Rating. Materials build structures and are not a second battle budget. Experience earns improvements; it cannot buy equipment or be exchanged for Credits.
+Agree the battle limit before choosing crews. The default is 750 Credits. About 1,000 Credits supports a larger crew.
 
 ^text-s009-b002
 
-### Full fielded value
-
-Your Crew Rating is the current Credits value of every fielded fighter, all carried weapons, armour, equipment, devices, and battle preparations. Count reserves and carried drones too. Gear in storage, workers left at home, Credits in the treasury, and settlement buildings do not count. A discount, gift, crafted item, or stolen item still counts at its **full listed value** when fielded.
+Count every fielded fighter, carried item, armour item, device and reserve at full listed value. Discounts, gifts and loot do not reduce that value. Equipment in stores and settlement assets do not count.
 
 ^text-s009-b001
 
+You may field less than the agreed limit. There is no minimum fighter count and no automatic replacement fighters or Credit top-up.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

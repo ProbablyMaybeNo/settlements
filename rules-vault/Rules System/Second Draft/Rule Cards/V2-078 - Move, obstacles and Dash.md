@@ -14,7 +14,7 @@ tags:
 - terrain
 - move-minus
 - both
-summary: Move action; Doors and low obstacles; Difficult and half-speed movement; Dash
+summary: A Move action lets a unit travel up to its MOVE along a legal path. It may pivot freely while moving.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -24,10 +24,13 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-079 - Doors and low obstacles]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-080 - Difficult and half-speed movement]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-081 - Dash]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-078 - Move, obstacles and Dash]]'
 review_notes: ''
 action_cost: Move
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move, obstacles and Dash|Difficult and half-speed movement]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move, obstacles and Dash|Difficult and half-speed
+  movement]]'
 planned_section: 04 · Fighting Battles
 rule_parent: Movement
 consolidated: '2026-10-25'
@@ -61,60 +64,38 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Move, obstacles and Dash
 
 ## Summary
 
-Move action; Doors and low obstacles; Difficult and half-speed movement; Dash
+A Move action lets a unit travel up to its MOVE along a legal path. It may pivot freely while moving.
 
 ## Rule text
 
-### Move action
-
-| Field | Value |
-| --- | --- |
-| Action | Move |
-| Cost | Move |
-| Main effect | Travel up to MOVE and choose facing |
+A Move action lets a unit travel up to its MOVE along a legal path. It may pivot freely while moving.
 
 ^text-s019-b000
 
-Move up to MOVE along a legal path. You may stop early. A normal Move cannot enter within 1 inch of a conscious enemy, including a Pinned one; use Charge instead. You may pass within 1 inch of Down or Unconscious enemies and enter contact to rescue, loot, or capture them.
+A normal Move removes Hidden. A Sneak action moves up to half MOVE and retains Hidden. Only a Charge may approach within 1 inch of an enemy that is not a casualty.
 
 ^text-s024-b000
 
-### Difficult and half-speed movement
-
-Cross an unlocked ordinary door as part of movement; opening it is automatic. Closing it deliberately is an Interact. A low obstacle up to 1 inch high costs 2 inches of movement to cross. Difficult ground costs twice the distance travelled. Movement penalties do not multiply: half-speed movement and difficult ground together still halve available movement once. Heavy carrying also uses this rule.
+Open unlocked doors as part of movement. Deliberately closing one costs an Interact action. Crossing an obstacle up to 1 inch high costs 2 inches of movement.
 
 ^text-s024-b001
 
-### Dash
-
-| Field | Value |
-| --- | --- |
-| Action | Dash |
-| Cost | Both |
-| Main effect | Move up to twice MOVE; no attack |
+Difficult ground and other half-speed effects halve movement only once. They do not repeatedly halve it.
 
 ^text-s019-b003
 
-Dash spends Both slots and moves up to twice MOVE. Hidden fighters cannot Dash without first removing Hidden.
+**Sprint** uses both Move and Core. Travel up to twice MOVE without attacking. Remove Hidden before Sprinting.
 
 ^text-s025-b000
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

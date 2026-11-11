@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - profile
 - int
-summary: Hacking, repair, medicine, and technical work
+summary: 'Intelligence: technical work, hacking and medicine.'
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -20,7 +20,7 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#The profile]]'
 review_notes: ''
-meaning: Hacking, repair, medicine, and technical work
+meaning: 'Intelligence: technical work, hacking and medicine.'
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Reading a fighter profile|Five stats]]'
 planned_section: 02 · Core Mechanics
@@ -35,14 +35,14 @@ consolidated: '2026-10-25'
 
 ## Summary
 
-Hacking, repair, medicine, and technical work
+Intelligence: technical work, hacking and medicine.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Characteristic | INT |
-| Meaning | Hacking, repair, medicine, and technical work |
+| Meaning | Intelligence: technical work, hacking and medicine. |
 
 ^text-s005-b003
 

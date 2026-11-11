@@ -17,8 +17,8 @@ tags:
 - visibility
 - combat
 - hit-minus
-summary: Hide action; Public Hidden position; Hidden movement; Reveal triggers; Proximity and exposed reveal; Hidden
-  targeting; Observe; Marked visibility
+summary: Hide. Spend a Core action while unengaged and outside every enemy's line of sight. Gain Hidden without
+  a test. The unit's position remains public.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -32,6 +32,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-159 - Hidden targeting]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-160 - Observe]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-161 - Marked visibility]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-154 - Hidden and Observe]]'
 review_notes: ''
 action_cost: Core
 related_rules:
@@ -98,76 +100,49 @@ component_rules:
   review_status: Unreviewed
   review_notes: ''
 last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Hidden and Observe
 
 ## Summary
 
-Hide action; Public Hidden position; Hidden movement; Reveal triggers; Proximity and exposed reveal; Hidden targeting; Observe; Marked visibility
+Hide. Spend a Core action while unengaged and outside every enemy's line of sight. Gain Hidden without a test. The unit's position remains public.
 
 ## Rule text
 
-### Hide action
-
-| Field | Value |
-| --- | --- |
-| Action | Hide or Observe |
-| Cost | Core |
-| Main effect | Use the stealth rules in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#11 Stealth and observation|stealth and observation]] |
+**Hide.** Spend a Core action while unengaged and outside every enemy's line of sight. Gain Hidden without a test. The unit's position remains public.
 
 ^text-s019-b009
 
-An unengaged fighter can spend Core to Hide if it is in cover or entirely outside every enemy's LOS. It cannot Hide within 3 inches and LOS of a conscious enemy. If entirely unseen, hiding is automatic. Otherwise test AGI; success gives Hidden, failure does nothing. Being behind an enemy is not enough when another enemy can clearly see you in the open.
+Sneak moves up to half MOVE while retaining Hidden. Normal Move, Sprint, Charge, shooting, loud interaction, engagement or a hit removes Hidden unless a rule says otherwise.
 
 ^text-s046-b000
 
-### Public Hidden position
-
-Keep the miniature visible to both players and mark Hidden. Its location is public. Hidden represents uncertainty and concealment within that small area, not secret movement or an invisible person.
+At the start and end of the Hidden unit's own actions, exposed enemy line of sight within 12 inches reveals it.
 
 ^text-s046-b001
 
-### Hidden movement
-
-A Hidden fighter moves at half MOVE and cannot Dash or Charge while retaining Hidden. A Charge can **begin Hidden** for Ambush, but removes Hidden when movement starts. Remove Hidden when the fighter shoots, makes a loud or forceful interaction, enters engagement, or is successfully hit. Quiet weapons and skills state specific exceptions.
+An enemy within 3 inches and line of sight reveals it immediately.
 
 ^text-s047-b000
 
-### Proximity and exposed reveal
-
-At the start and end of the Hidden fighter's own actions, remove Hidden if a conscious enemy within 12 inches sees it without any intervening cover. Also remove Hidden immediately if a conscious enemy comes within 3 inches with LOS. Ordinary enemy movement into cover-obstructed LOS outside 3 inches does not reveal it automatically.
+A Hidden unit normally cannot be targeted beyond 12 inches. Within 12 inches, a legal shot suffers −4 to hit in addition to cover.
 
 ^text-s047-b001
 
-### Hidden targeting
-
-A Hidden fighter cannot normally be targeted beyond 12 inches. Within 12 inches, a shooter still needs forward LOS and suffers −4 in addition to cover. Use the starting Hidden modifier for the whole attack pool; reveal after resolving a successful hit. A complete miss does not reveal it. Blasts and hazards can affect Hidden fighters without selecting them as the attack's target.
+**Observe.** Spend a Core action and test INT against one Hidden enemy or concealed device within 12 inches and forward line of sight.
 
 ^text-s048-b000
 
-### Observe
-
-An unengaged fighter may spend Core to **Observe** one Hidden enemy or one concealed device within 12 inches and forward LOS. Test INT. Success removes Hidden from that enemy or reveals the device's exact type. It does not mark every hidden thing nearby. A failed observation spends the action and does not reveal anything.
+Success reveals that target. It gives no accuracy bonus.
 
 ^text-s048-b001
 
-### Marked visibility
-
-Marked lasts until the start of the marking unit’s next activation, including when that unit is a surveillance drone. Marked is different from revealed. Mark Target requires a legally visible target; it cannot select an untargetable Hidden fighter beyond 12 inches. A marked target loses Hidden when the marking test succeeds and cannot Hide again until that mark expires. Marking never grants LOS through terrain.
+Mark Target is a separate skill with its own effects.
 
 ^text-s048-b002
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-marked|Marked]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-concealed|Concealed]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

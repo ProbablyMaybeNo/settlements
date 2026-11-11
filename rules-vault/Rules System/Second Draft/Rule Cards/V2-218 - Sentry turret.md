@@ -1,7 +1,7 @@
 ---
 type: settlements-rule-card
 rule_id: V2-218
-rule_name: Sentry turret
+rule_name: Sentry turret operations
 entry_type: Rule
 category: Devices
 book_chapter: 4
@@ -14,7 +14,8 @@ tags:
 - ranged
 - reaction
 - core
-summary: Turret operation
+summary: Use the Sentry turret’s current profile. It has no ordinary activation and fires through ALERT reactions,
+  using its own facing, line of sight and weapon range.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -24,7 +25,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-218 - Turret operation]]'
 review_notes: ''
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Friendly mine triggers]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Friendly
+  mine triggers]]'
 planned_section: 04 · Fighting Battles
 rule_parent: Deployables and Drones
 consolidated: '2026-10-25'
@@ -44,32 +46,27 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+aliases:
+- Sentry turret
+last_rule_update: '2026-11-10'
 ---
 
-# Sentry turret
+# Sentry turret operations
 
 ## Summary
 
-Turret operation
+Use the Sentry turret’s current profile. It has no ordinary activation and fires through ALERT reactions, using its own facing, line of sight and weapon range.
 
 ## Rule text
 
-### Turret operation
-
-Turrets use the owner's one-reactor window, including Return Fire if targeted. They have no normal action slots. Operating a turret with a Core action can turn its facing or fire one shot, but expends its READY and marks it Reacted; this cannot give it a second attack that round. It may be operated only from contact or a portable hacking kit within 8 inches; friendly operation is automatic, enemy operation needs Trojan. It cannot fire without a READY token. A turret's reaction requires its own LOS, not its operator's.
+Use the Sentry turret’s current profile. It has no ordinary activation and fires through ALERT reactions, using its own facing, line of sight and weapon range.
 
 ^text-s060-b009
 
+Its persistent ALERT permits multiple reactions per round until it powers down at the start of the deploying unit’s next activation. Reactions do not trigger other reactions.
+
+A qualified unit in contact may spend Core and pass INT to reactivate it. Hacking and Trojan provide their stated remote operation and hijack permissions; a powered-down enemy turret may be seized through a terminal.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-reacted|Reacted]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

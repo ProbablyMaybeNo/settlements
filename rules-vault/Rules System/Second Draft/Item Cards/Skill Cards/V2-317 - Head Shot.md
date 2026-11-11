@@ -11,10 +11,8 @@ tags:
 - settlements/v2
 - skill
 - dex
-- ranged
-- damage-plus
-- combat
-summary: One-die ranged weapon gains +2 Damage against Marked target; excludes Blast/Automatic.
+summary: If you have not moved this round, gain +2 Damage against a Marked target with a one-die non-Automatic ranged
+  weapon. This does not apply to Blast.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,56 +20,48 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Dexterity skills]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Draft 2 before complete rulebook
+  - 2026-10-17/Draft 2 - Skills]]'
 review_notes: ''
 stat: DEX
-use: Shooting modifier
-effect: Gain +2 Damage against a Marked target when using a one-die ranged weapon. Does not apply to Blast or an
-  Automatic weapon reduced to one die.
+use: Passive
+effect: If you have not moved this round, gain +2 Damage against a Marked target with a one-die non-Automatic ranged
+  weapon. This does not apply to Blast.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill frequency]]'
 planned_section: 08 · Skills
-rule_parent: Skills
+rule_parent: Skill Catalogue
 card_kind: Skill
 catalogue_id: V2-488
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-488 - DEX skills]]'
 consolidated: '2026-10-25'
+archetype: Marksman
+last_rule_update: '2026-11-10'
+approval_source: Retained printed +2 test baseline with agreed Marked/stationary trigger; alternate values remain
+  unadopted.
+test_variants:
+- +4 Damage
+- +4 or +6 for one-die non-Automatic firearms
 ---
 
 # Head Shot
 
 ## Summary
 
-One-die ranged weapon gains +2 Damage against Marked target; excludes Blast/Automatic.
+If you have not moved this round, gain +2 Damage against a Marked target with a one-die non-Automatic ranged weapon. This does not apply to Blast.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Skill | Head Shot |
-| Use | Shooting modifier |
-| Effect | Gain +2 Damage against a Marked target when using a one-die ranged weapon. Does not apply to Blast or an Automatic weapon reduced to one die. |
+| Use | Passive |
+| Effect | If you have not moved this round, gain +2 Damage against a Marked target with a one-die non-Automatic ranged weapon. This does not apply to Blast. |
 
 ^text-s070-b001
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-488 - DEX skills|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-marked|Marked]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
-
-### Test candidates — 2026-11-10
-
-Retain Marked and stationary requirements. Compare +2 and +4 Damage, or +4/+6 restricted to one-die non-Automatic firearms. These values are not locked; the existing profile is provisional.
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-488 - DEX skills]]

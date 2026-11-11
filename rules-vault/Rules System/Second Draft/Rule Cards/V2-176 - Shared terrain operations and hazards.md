@@ -15,7 +15,8 @@ tags:
 - armour-ignore
 - casualty
 - visibility
-summary: Terrain feature cards; Displace; Crush; Crush against casualties; Smoke visibility
+summary: Each terrain feature states its footprint, controls, terminal links, possible states, operation and hazard
+  area.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -26,10 +27,13 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-178 - Crush]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-179 - Crush against casualties]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-180 - Smoke visibility]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-176 - Shared terrain operations and hazards]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards|Displace]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards|Crush against casualties]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards|Crush against
+  casualties]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards|Smoke visibility]]'
 planned_section: 04 · Fighting Battles
 rule_parent: Interactive Terrain
@@ -71,53 +75,36 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
-last_rule_update: '2026-11-09'
+last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Shared terrain operations and hazards
 
 ## Summary
 
-Terrain feature cards; Displace; Crush; Crush against casualties; Smoke visibility
+Each terrain feature states its footprint, controls, terminal links, possible states, operation and hazard area.
 
 ## Rule text
 
-### Terrain feature cards
-
-Give each feature a card showing its **footprint, control point, linked terminal, possible states, operation, and any hazard area**. Use two states whenever possible. A single card belongs beside the relevant terrain. Scenarios can choose from this catalogue; players may rename the same mechanics to suit their models.
+Each terrain feature states its footprint, controls, terminal links, possible states, operation and hazard area.
 
 ^text-s054-b000
 
-### Displace
-
-**Displace:** move an affected fighter the shortest distance up to 2 inches to a safe legal position outside the changing area, chosen by its owner. If none exists, the operation stops before trapping it unless the feature explicitly has Crush.
+**Displace.** Move an affected model the shortest safe distance, up to 2 inches. If there is no safe position, stop the operation unless the feature uses Crush.
 
 ^text-s054-b001
 
-### Crush against casualties
-
-**Crush:** each affected conscious fighter tests AGI. Pass: Displace it safely. Fail, or no safe destination: one Damage 3 Injury roll ignoring Armour, then Pinned if still conscious. Move a casualty to the nearest accessible edge of the hazard footprint. Down casualties cannot evade; an Injury success makes one Unconscious. Remove it and record its post-battle injury roll. Unconscious casualties are no longer on the board; removal is not death. A feature cannot affect the same fighter with Crush more than once per round.
+**Crush.** Conscious targets test AGI to escape. Failure, or having no safe destination, causes one Damage 4 Injury roll that ignores Armour. A target that remains conscious becomes Pinned.
 
 ^text-s054-b002
 
-### Smoke visibility
-
-Smoke extends upward from its template without a height limit. It blocks LOS through it between units outside the smoke. A unit inside has Heavy cover when attacked. When it shoots outside, its target has Heavy cover. A respirator ignores smoke’s effects for its bearer; other units resolve smoke normally.
-
-For Fall, use the shared falling rules. Difficult ground costs double movement. Only the named terrain state persists.
+Move casualties to an accessible edge. A Down casualty may become Unconscious, but cannot be declared dead by Crush. After resolving Crush, push the affected model clear of the machinery.
 
 ^text-s054-b003
 
+Use the Smoke rules for smoke, the Falling rules for falls and the Movement rules for Difficult ground.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-retired-or-dead|Retired or Dead]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

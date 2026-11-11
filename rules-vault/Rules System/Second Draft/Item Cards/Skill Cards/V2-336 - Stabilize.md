@@ -11,9 +11,8 @@ tags:
 - settlements/v2
 - skill
 - int
-- test-plus
-- medical
-summary: +2 INT Treat another fighter; success leaves patient at Stress 0 instead of 2, still Pinned.
+summary: Your successful revival also clears the patient’s Stress. Once per round, spend Core and test INT with
+  +4 in contact with a conscious friendly; success clears its Stress.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -21,52 +20,45 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Intelligence skills]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Draft 2 before complete rulebook
+  - 2026-10-17/Draft 2 - Skills]]'
 review_notes: ''
 stat: INT
-use: Treatment modifier
-effect: +2 INT to Treat another fighter. On success set the patient's Stress to 0 instead of 2. It is still Pinned
-  and has used its one revival.
+use: Passive / Core
+effect: Your successful revival also clears the patient’s Stress. Once per round, spend Core and test INT with +4
+  in contact with a conscious friendly; success clears its Stress.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill frequency]]'
 planned_section: 08 · Skills
-rule_parent: Skills
+rule_parent: Skill Catalogue
 card_kind: Skill
 catalogue_id: V2-490
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-490 - INT skills]]'
 consolidated: '2026-10-25'
+archetype: Medic
+last_rule_update: '2026-11-10'
+approval_source: Ross’s selected twelve-skill INT roster and latest chat rulings; original selected effect preserved
+  where unchanged
 ---
 
 # Stabilize
 
 ## Summary
 
-+2 INT Treat another fighter; success leaves patient at Stress 0 instead of 2, still Pinned.
+Your successful revival also clears the patient’s Stress. Once per round, spend Core and test INT with +4 in contact with a conscious friendly; success clears its Stress.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Skill | Stabilize |
-| Use | Treatment modifier |
-| Effect | +2 INT to Treat another fighter. On success set the patient's Stress to 0 instead of 2. It is still Pinned and has used its one revival. |
+| Use | Passive / Core |
+| Effect | Your successful revival also clears the patient’s Stress. Once per round, spend Core and test INT with +4 in contact with a conscious friendly; success clears its Stress. |
 
 ^text-s072-b004
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-490 - INT skills|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-490 - INT skills]]

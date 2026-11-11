@@ -18,7 +18,10 @@ tags:
 - morale
 - move
 - facing
-summary: Engaged action limits; Disengage; Pinned escape and forced flight; Engaged repositioning
+summary: While engaged, a unit may fight in melee, Grapple, use an eligible Close Combat weapon in melee, Recover,
+  Rally itself or Disengage. It cannot shoot outside the engagement or perform ordinary interactions. Grappling
+  and Hauler provide specific movement and weapon exceptions for the holder, including shooting outside the held
+  engagement. The captive instead follows Grappled and its free activation-start escape.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -28,6 +31,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-094 - Disengage]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-095 - Pinned escape and forced flight]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-096 - Engaged repositioning]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-093 - Engagement and Disengage]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-093 - Engagement and Disengage|Pinned escape and forced
@@ -67,58 +72,33 @@ component_rules:
   review_status: Unreviewed
   review_notes: ''
 last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Engagement and Disengage
 
 ## Summary
 
-Engaged action limits; Disengage; Pinned escape and forced flight; Engaged repositioning
+While engaged, a unit may fight in melee, Grapple, use an eligible Close Combat weapon in melee, Recover, Rally itself or Disengage. It cannot shoot outside the engagement or perform ordinary interactions. Grappling and Hauler provide specific movement and weapon exceptions for the holder, including shooting outside the held engagement. The captive instead follows Grappled and its free activation-start escape.
 
 ## Rule text
 
-### Engaged action limits
-
-Engaged fighters may Fight, Grapple, use a Sidearm in that melee exchange, Recover, Rally themselves, or Disengage. They cannot shoot someone outside the engagement, operate a terminal, Treat, or manipulate an objective. A Pinned fighter is still engaged if an enemy is within 1 inch. The Grapple holder may move the captive and use the weapons permitted by Grappling or Hauler, including shooting outside that held engagement; these are specific exceptions. A Grappled unit instead follows its no-actions rule and free activation-start escape test.
+While engaged, a unit may fight in melee, Grapple, use an eligible Close Combat weapon in melee, Recover, Rally itself or Disengage. It cannot shoot outside the engagement or perform ordinary interactions. Grappling and Hauler provide specific movement and weapon exceptions for the holder, including shooting outside the held engagement. The captive instead follows Grappled and its free activation-start escape.
 
 ^text-s028-b000
 
-### Disengage
-
-| Field | Value |
-| --- | --- |
-| Action | Disengage |
-| Cost | Both |
-| Main effect | Leave engagement by the procedure in [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#7 Movement facing and visibility|movement facing and visibility]] |
+A Move action may reposition the unit up to 1 inch within its existing engagement.
 
 ^text-s019-b015
 
-### Pinned escape and forced flight
-
-Disengage normally spends Both slots. Test AGI opposed by one engaging enemy's AGI, chosen by the opponent. Pass: move up to MOVE and leave engagement. Fail: move up to half MOVE after that enemy makes one Unanswered melee exchange against you; cancel movement if you become Down. The free exchange is not a reaction and cannot trigger follow-up attacks. Pinned fighters may attempt Disengage and retain Pinned; their movement is at most half MOVE on either success or failure, without halving twice. Any forced Bolt or Bugging Out movement also allows one such Unanswered exchange, then the survivor moves without an escape test.
+**Disengage.** Spend a Core action and test AGI. On success, move up to full MOVE. On failure, the opponent resolves a free hit before you move. If that hit leaves you Pinned, Down, Unconscious or Out of Action, stay in place. Otherwise, you may still move up to full MOVE.
 
 ^text-s028-b001
 
-### Engaged repositioning
-
-Within engagement, a fighter may spend Move to shift up to 1 inch around an enemy, remaining engaged and not entering another enemy's engagement. It cannot cross the enemy base. Both may face each other after a completed melee exchange.
+Forced flight allows the same free enemy exchange, without an escape test.
 
 ^text-s028-b002
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-bugging-out|Bugging Out]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-engaged|Engaged]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
-
-### Ross’s replacement ruling — 2026-11-10
-
-[[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]]. This replaces conflicting earlier Grapple/Strong Arm/Carry/Throw wording. Existing IDs, anchors and prior feedback are retained. Drafted for testing does not mean playtested balance.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

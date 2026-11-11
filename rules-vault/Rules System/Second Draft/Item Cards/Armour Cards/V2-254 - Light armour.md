@@ -12,7 +12,7 @@ tags:
 - equipment
 - armour-plus
 - combat
-summary: 10 Cr; worn; Armour 1.
+summary: Gain Armour 2.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -21,9 +21,9 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Armour and supplies]]'
 review_notes: ''
-credits: 10
+credits: TBD
 equipment_slots: Worn
-rule: Armour 1
+rule: Gain Armour 2.
 access: Basic
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
@@ -33,33 +33,34 @@ card_kind: Armour
 catalogue_id: V2-494
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour and shields]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-10'
+price_status: Deferred
+approval_source: Ross’s current armour, defence-dice and hacking-equipment decisions; approved test values, not
+  balance validation.
+slots: 1 armour
+armour: 2
+move_modifier: 0
 ---
 
 # Light armour
 
 ## Summary
 
-10 Cr; worn; Armour 1.
+Gain Armour 2.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Item | Light armour |
-| Credits | 10 |
-| Equipment slots | Worn |
-| Rule | Armour 1 |
-| Access | Basic |
+| Credits | TBD |
+| Slots | 1 armour |
+| Armour | 2 |
+| MOVE modifier | 0 |
+| Rule | Gain Armour 2. |
 
 ^text-s066-b000
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour and shields|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour and shields]]

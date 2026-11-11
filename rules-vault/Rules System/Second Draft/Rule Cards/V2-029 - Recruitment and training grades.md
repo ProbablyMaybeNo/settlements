@@ -12,7 +12,7 @@ tags:
 - crew
 - recruitment
 - progression
-summary: Recruitment allocation; No grade promotion
+summary: '| Rank | Starting Stat points | Maximum Stat | Maximum starting skills |'
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -24,11 +24,14 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-032 - Specialist grade]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-033 - Leader grade]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-398 - No grade promotion]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-029 - Recruitment and training grades]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Item Cards/Training Grade Cards/V2-030 - Recruit grade|Recruit grade]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Training Grade Cards/V2-031 - Fighter grade|Fighter grade]]'
-- '[[Settlements/Rules System/Second Draft/Item Cards/Training Grade Cards/V2-032 - Specialist grade|Specialist grade]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Training Grade Cards/V2-032 - Specialist grade|Specialist
+  grade]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Training Grade Cards/V2-033 - Leader grade|Leader grade]]'
 planned_section: 06 · The Crew
 rule_parent: Starting and Recruiting a Crew
@@ -89,51 +92,39 @@ catalogue_members:
 - V2-031
 - V2-032
 - V2-033
+last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Recruitment and training grades
 
 ## Summary
 
-Recruitment allocation; No grade promotion
+| Rank | Starting Stat points | Maximum Stat | Maximum starting skills |
 
 ## Rule text
 
-### Recruitment allocation
-
-Pay the listed Credits from your treasury. Allocate the stat points once at recruitment, starting all five stats at 0. Each +1 costs one point. Observe the starting maximum for any single stat. Unspent points are lost; they cannot be banked. Every fighter begins with MOVE 6, one Wound, Armour 0, ordinary clothing, and a utility knife included in the body cost.
+| Rank | Starting Stat points | Maximum Stat | Maximum starting skills |
+| --- | ---: | ---: | ---: |
+| Recruit | 2 | 3 | 0 |
+| Fighter | 3 | 4 | 0 |
+| Specialist | 5 | 5 | 2 |
+| Veteran | 7 | 6 | 3 |
 
 ^text-s010-b000
 
-### Fighter grade
-
-These grades describe experience and responsibility among civilians. They do not grant extra Wounds or extra actions. Choose skills from [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#16 Skills|skills]]; each requires at least +2 in its listed stat. A fighter can know at most three skills. Skills included in a training grade do not cost additional Credits.
+Start every Stat at 0. Allocate the rank's starting points without exceeding its Stat limits. Unused points are lost.
 
 ^text-s010-b005
 
-### No grade promotion
-
-There is **no automatic promotion purchase** in this edition. Training grade stays the grade bought at recruitment. Recruit and Fighter veterans may handle Heavy weapons at Level 6, within the crew's item limit. If a fighter takes over as crew leader, that is the nominated role, not the Leader recruitment grade. This prevents a promotion from granting another starting allocation on top of earned advances.
+Every fighter starts with MOVE 6, one Wound and Armour 0. The skill column shows the maximum possible starting skills, not a guaranteed allowance. Use the Choosing skills rules to determine the actual number.
 
 ^text-s084-b001
 
-<!-- catalogue:start -->
-
-| Name | Credits | Stat points | Starting stat maximum | Starting skills |
-| --- | --- | --- | --- | --- |
-| [[Settlements/Rules System/Second Draft/Item Cards/Training Grade Cards/V2-030 - Recruit grade\|Recruit grade]] | 60 | 3 | +2 | 0 |
-| [[Settlements/Rules System/Second Draft/Item Cards/Training Grade Cards/V2-031 - Fighter grade\|Fighter grade]] | 80 | 5 | +3 | 1 |
-| [[Settlements/Rules System/Second Draft/Item Cards/Training Grade Cards/V2-032 - Specialist grade\|Specialist grade]] | 110 | 7 | +4 | 2 |
-| [[Settlements/Rules System/Second Draft/Item Cards/Training Grade Cards/V2-033 - Leader grade\|Leader grade]] | 130 | 9 | +4 | 2 |
+Use the Orders rules for Order allowances. Weapon handling follows the equipment rules and the chosen profiles.
 
 ^catalogue-v2-029
 
-<!-- catalogue:end -->
-
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

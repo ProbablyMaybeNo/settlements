@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - profile
 - move
-summary: Inches travelled with a Move; normally 6
+summary: MOVE is normally 6 inches.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -20,7 +20,7 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#The profile]]'
 review_notes: ''
-meaning: Inches travelled with a Move; normally 6
+meaning: MOVE is normally 6 inches.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Reading a fighter profile|Five stats]]'
 planned_section: 02 · Core Mechanics
@@ -35,14 +35,14 @@ consolidated: '2026-10-25'
 
 ## Summary
 
-Inches travelled with a Move; normally 6
+MOVE is normally 6 inches.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Characteristic | MOVE |
-| Meaning | Inches travelled with a Move; normally 6 |
+| Meaning | MOVE is normally 6 inches. |
 
 ^text-s005-b005
 

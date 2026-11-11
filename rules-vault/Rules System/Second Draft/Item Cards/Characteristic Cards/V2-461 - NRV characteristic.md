@@ -11,7 +11,7 @@ tags:
 - settlements/v2
 - profile
 - nrv
-summary: Courage, recovery under pressure, and leadership
+summary: 'Nerve: morale and leadership.'
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -20,7 +20,7 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#The profile]]'
 review_notes: ''
-meaning: Courage, recovery under pressure, and leadership
+meaning: 'Nerve: morale and leadership.'
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Reading a fighter profile|Five stats]]'
 planned_section: 02 · Core Mechanics
@@ -35,14 +35,14 @@ consolidated: '2026-10-25'
 
 ## Summary
 
-Courage, recovery under pressure, and leadership
+Nerve: morale and leadership.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Characteristic | NRV |
-| Meaning | Courage, recovery under pressure, and leadership |
+| Meaning | Nerve: morale and leadership. |
 
 ^text-s005-b004
 

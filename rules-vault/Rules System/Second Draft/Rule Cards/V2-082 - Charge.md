@@ -14,7 +14,8 @@ tags:
 - combat
 - melee
 - dice-plus
-summary: Charge; Failed Charge
+summary: Charge. Spend both Move and Core. Choose one visible, conscious enemy within MOVE +6 inches by a plausible
+  route. Roll a d6 and move up to MOVE plus the result.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,6 +23,8 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-082 - Charge]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-083 - Failed Charge]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-082 - Charge]]'
 review_notes: ''
 action_cost: Both
 related_rules:
@@ -46,46 +49,36 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Charge
 
 ## Summary
 
-Charge; Failed Charge
+Charge. Spend both Move and Core. Choose one visible, conscious enemy within MOVE +6 inches by a plausible route. Roll a d6 and move up to MOVE plus the result.
 
 ## Rule text
 
-### Charge
-
-| Field | Value |
-| --- | --- |
-| Action | Charge |
-| Cost | Both |
-| Main effect | MOVE + d6, then one melee exchange if successful |
+**Charge.** Spend both Move and Core. Choose one visible, conscious enemy within MOVE +6 inches by a plausible route. Roll a d6 and move up to MOVE plus the result.
 
 ^text-s019-b004
 
-Declare a Charge against one visible conscious enemy within **MOVE + 6 inches**, along a plausible route. Spend Both slots, roll one d6, and move up to MOVE plus that result. Reach within 1 inch of the target to succeed; resolve one melee exchange with +1 die on the dominant weapon, within the three-die pool ceiling. On failure, move up to MOVE toward the target along the declared route, stop outside engagement, and end the action. Stress does not alter distance, but applies to any traversal tests and the attack.
+If you reach within 1 inch, resolve one melee exchange. Add one die to the primary weapon. If the Charge fails, move up to MOVE towards the target and stop outside engagement. A failed traversal or interrupting reaction can end the Charge without an attack.
+
+Stress affects tests and attacks, but not the distance roll.
 
 ^text-s025-b001
 
-### Failed Charge
+**Aerial Assault.** Spend both Move and Core. The enemy must be visible, within Charge range and more than 3 inches below you. Move to the nearest platform edge and test AGI.
 
-You may attempt a risky route as part of a Charge. Resolve its tests at the relevant point. A failed traversal ends the Charge, even if its distance roll was sufficient. A reaction can likewise stop it. Charge does not let a fighter pass through other standing fighters.
+On success, place the attacker in engagement and resolve melee with two extra attack dice instead of the normal Charge's one. On failure, resolve a fall.
 
 ^text-s025-b002
 
+Charge and Aerial Assault have no three-die maximum.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

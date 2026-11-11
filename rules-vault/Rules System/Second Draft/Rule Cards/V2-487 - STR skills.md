@@ -33,10 +33,15 @@ catalogue_members:
 - V2-309
 - V2-310
 - V2-311
+- V2-516
+- V2-517
+- V2-518
 - V2-312
-- V2-313
+- V2-519
+- V2-520
 - V2-314
 - V2-315
+last_rule_update: '2026-11-10'
 ---
 
 # STR skills

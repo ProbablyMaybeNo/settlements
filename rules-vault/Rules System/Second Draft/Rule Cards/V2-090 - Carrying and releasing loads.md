@@ -14,8 +14,13 @@ tags:
 - move-minus
 - hands
 - capture
-summary: Core/STR picks up a ≤3-inch structure or Down unit; half-speed, one-handed Carrying; free Drop within 2
-  inches; Hauler/harness movement exceptions.
+summary: Spend Core and test STR while in base contact with a structure no larger than 3 inches or a Down unit.
+  Success makes you Carrying it; failure spends Core and leaves it in place. No Grapple skill is required. Move
+  at half speed and Fight or Shoot with only one one-handed weapon. During your activation you may freely Drop the
+  load into an open position within 2 inches. One unit carries one load; there is no joint two-carrier action. Existing
+  Sprint/Charge restrictions remain. Hauler and the load-bearing harness ignore their stated movement penalties,
+  not the one-handed Carrying restriction. Carrying an enemy does not itself Secure it or make it a captured prisoner;
+  use Secure and extraction for capture. Mission cargo still follows its scenario-specific handling rules.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -24,6 +29,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-090 - Carry or escort]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-091 - Single-carrier movement]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-092 - Release a load]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-090 - Carrying and releasing loads]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-089 - Forced movement|Forced movement]]'
@@ -55,17 +62,16 @@ component_rules:
   review_status: Unreviewed
   review_notes: ''
 last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Carrying and releasing loads
 
 ## Summary
 
-Core/STR picks up a ≤3-inch structure or Down unit; half-speed, one-handed Carrying; free Drop within 2 inches; Hauler/harness movement exceptions.
+Spend Core and test STR while in base contact with a structure no larger than 3 inches or a Down unit. Success makes you Carrying it; failure spends Core and leaves it in place. No Grapple skill is required. Move at half speed and Fight or Shoot with only one one-handed weapon. During your activation you may freely Drop the load into an open position within 2 inches. One unit carries one load; there is no joint two-carrier action. Existing Sprint/Charge restrictions remain. Hauler and the load-bearing harness ignore their stated movement penalties, not the one-handed Carrying restriction. Carrying an enemy does not itself Secure it or make it a captured prisoner; use Secure and extraction for capture. Mission cargo still follows its scenario-specific handling rules.
 
 ## Rule text
-
-### Carry and Carrying
 
 Spend Core and test STR while in base contact with a structure no larger than 3 inches or a Down unit. Success makes you Carrying it; failure spends Core and leaves it in place. No Grapple skill is required. Move at half speed and Fight or Shoot with only one one-handed weapon. During your activation you may freely Drop the load into an open position within 2 inches. One unit carries one load; there is no joint two-carrier action. Existing Sprint/Charge restrictions remain. Hauler and the load-bearing harness ignore their stated movement penalties, not the one-handed Carrying restriction. Carrying an enemy does not itself Secure it or make it a captured prisoner; use Secure and extraction for capture. Mission cargo still follows its scenario-specific handling rules.
 
@@ -73,18 +79,4 @@ Spend Core and test STR while in base contact with a structure no larger than 3 
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-captured|Captured]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
-
-### Ross’s replacement ruling — 2026-11-10
-
-[[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]]. This replaces conflicting earlier Grapple/Strong Arm/Carry/Throw wording. Existing IDs, anchors and prior feedback are retained. Drafted for testing does not mean playtested balance.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

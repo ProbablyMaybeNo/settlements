@@ -15,7 +15,7 @@ tags:
 - trait
 - combat
 - core
-summary: Weapon profile fields; Shared provisional prices
+summary: Each profile describes how an item works.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -24,6 +24,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-228 - Weapon profile fields]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-229 - Shared provisional prices]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-243 - Reload]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-228 - Equipment profiles and provisional prices]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-228 - Equipment profiles and provisional prices|Shared
@@ -55,42 +57,39 @@ component_rules:
   review_status: Unreviewed
   review_notes: ''
 last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Equipment profiles and provisional prices
 
 ## Summary
 
-Weapon profile fields; Shared provisional prices
+Each profile describes how an item works.
 
 ## Rule text
 
-### Weapon profile fields
-
-**ATK (Dice)** is the base number rolled for one attack action, before dual-wielding, Charge and skills. Melee weapons may print multiple dice. Automatic identifies an automatic firearm and adds no dice. **Damage** modifies Injury. **Range** is the maximum shooting range; Melee means within engagement. **Hands** and **Slots** determine what can be used and carried. **Access** names the settlement structure required to buy or craft the item; it never increases the agreed Crew Rating.
+Each profile describes how an item works.
 
 ^text-s062-b000
 
-### Shared provisional prices
+- **Attack Dice** tells you how many dice the weapon contributes to an attack.
 
-Weapon prices are deferred for a complete pricing pass. Historical prices are not current test costs. Both crews must use the same agreed test-price sheet when one is supplied.
+- **Damage** modifies Injury rolls.
 
 ^text-s062-b001
 
-### Reload
+- **Range** gives the weapon's reach.
 
-| Field | Value |
-| --- | --- |
-| Action | Reload |
-| Cost | Core |
-| Main effect | Ready a weapon with Reload to fire again |
+- **Hands and Slots** state what the item needs to be used and carried.
+
+- **Access** states what is required to purchase or craft it.
 
 ^text-s019-b014
 
+Use the Equipment rules for carrying limits. The Reload characteristic explains how to reload a weapon.
+
+Prices are deferred for a complete pricing pass. Historical prices do not establish current roster costs. Both crews must use the same agreed test-price sheet when one is supplied.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

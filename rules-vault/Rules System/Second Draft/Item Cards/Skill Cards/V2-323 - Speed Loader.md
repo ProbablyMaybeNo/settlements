@@ -11,8 +11,7 @@ tags:
 - settlements/v2
 - skill
 - dex
-- core
-summary: Core Reload readies up to two held Reload weapons; no shot or Move conversion.
+summary: Once per round, reload one ranged weapon while taking a Move action.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -20,46 +19,44 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Dexterity skills]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Draft 2 before complete rulebook
+  - 2026-10-17/Draft 2 - Skills]]'
 review_notes: ''
 stat: DEX
-use: Reload modifier
-effect: A Core Reload readies up to two held weapons with Reload instead of one. It does not include a shot or spend
-  Move.
+use: Passive
+effect: Once per round, reload one ranged weapon while taking a Move action.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill frequency]]'
 planned_section: 08 · Skills
-rule_parent: Skills
+rule_parent: Skill Catalogue
 card_kind: Skill
 catalogue_id: V2-488
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-488 - DEX skills]]'
 consolidated: '2026-10-25'
+archetype: General
+last_rule_update: '2026-11-10'
+approval_source: Ross’s selected twelve-skill DEX roster and latest chat rulings; original selected effect preserved
+  where unchanged
 ---
 
 # Speed Loader
 
 ## Summary
 
-Core Reload readies up to two held Reload weapons; no shot or Move conversion.
+Once per round, reload one ranged weapon while taking a Move action.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Skill | Speed Loader |
-| Use | Reload modifier |
-| Effect | A Core Reload readies up to two held weapons with Reload instead of one. It does not include a shot or spend Move. |
+| Use | Passive |
+| Effect | Once per round, reload one ranged weapon while taking a Move action. |
 
 ^text-s070-b007
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-488 - DEX skills|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-488 - DEX skills]]

@@ -5,16 +5,16 @@ parent_family: Fighting Battles
 parent_key: c89a4ee1
 tags:
   - settlements/rule-parent
-progress_status: Partial
+progress_status: Drafted
 included_rules: 4
 deferred_rules: 0
-written_rules: 3
+written_rules: 4
 confirmed_rules: 0
 locked_rules: 0
-written_percent: 75
+written_percent: 100
 confirmed_percent: 0
 final_percent: 0
-progress_summary: 75% written · 0% confirmed · 0% final
+progress_summary: 100% written · 0% confirmed · 0% final
 cssclasses:
   - settlements-rule-group
 ---
@@ -32,7 +32,7 @@ Open this page for the live rule list.
 
 **Ranged Combat**  
 Fighting Battles  
-**Partial** · 75% written · 0% confirmed · 0% final  
+**Drafted** · 100% written · 0% confirmed · 0% final  
 0/4 rules final · 0 deferred
 ^parent-summary
 

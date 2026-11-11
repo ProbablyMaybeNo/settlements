@@ -16,7 +16,8 @@ tags:
 - timing
 - combat
 - visibility
-summary: Down units await teammate revival; Unconscious units are removed and cannot be revived.
+summary: When a unit reaches zero Wounds, mark it Down and record the round. Remove ALERT, Hidden, Marked, Aim and
+  sustained skill effects. Keep its Stress, but ignore it. Drop its mission objects.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -28,6 +29,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-125 - Unconscious state]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-129 - Attacking Down]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-130 - Casualty obstruction]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-122 - Down and Unconscious casualties]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|Down actions]]'
@@ -80,57 +83,38 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
-last_rule_update: '2026-11-09'
+last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Down and Unconscious casualties
 
 ## Summary
 
-Down units await teammate revival; Unconscious units are removed and cannot be revived.
+When a unit reaches zero Wounds, mark it Down and record the round. Remove ALERT, Hidden, Marked, Aim and sustained skill effects. Keep its Stress, but ignore it. Drop its mission objects.
 
 ## Rule text
 
-### Down state
-
-Leave a Down fighter on the battlefield, mark its base, and record the **round it went Down**. Remove READY, Hidden, Marked, Aim, and any sustained skill effect. Retain Stress. It cannot control or contest objectives and drops carried mission objects into contact with its base. It retains its personal equipment until looted.
+When a unit reaches zero Wounds, mark it Down and record the round. Remove ALERT, Hidden, Marked, Aim and sustained skill effects. Keep its Stress, but ignore it. Drop its mission objects.
 
 ^text-s037-b000
 
-### Down actions
-
-A Down unit cannot crawl, act, react or revive itself. It needs a teammate to use a medkit. It retains its Stress, but ignores Stress while Down or Unconscious.
+A Down unit cannot control or contest objectives, crawl or revive itself. At the End Phase two rounds later, it becomes Unconscious. An Unconscious unit cannot act or be revived during that battle.
 
 ^text-s037-b001
 
-### Two full rounds
-
-At the End Phase **two rounds after the round in which it went Down**, it becomes Unconscious. The partial round in which it fell does not count. A fighter Downed in round 2 therefore becomes Unconscious at the end of round 4. This gives it all of rounds 3 and 4 for rescue.
+Shooting a visible Down unit suffers −2 to hit. Apply this condition penalty once alongside cover.
 
 ^text-s037-b002
 
-### Unconscious state
-
-An Unconscious unit cannot be revived. Remove its model from the board and record it for one post-battle lasting-injury roll. It cannot be looted, carried or newly captured after removal. Becoming Unconscious does not mean it is dead.
+A melee attack in contact causes one automatic hit. If its Injury roll succeeds, the target becomes Unconscious.
 
 ^text-s037-b003
 
-### Attacking Down
-
-A Down unit does not block movement or LOS. Attacks may target a visible Down unit using normal shooting, or one automatic melee hit from contact. A successful Injury roll makes it Unconscious: remove it and record one post-battle injury roll. Repeated hits do not add injury rolls or declare it dead.
+Further attacks on an Unconscious unit have no effect. Down and Unconscious bodies block neither movement nor line of sight.
 
 ^text-s039-b000
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-marked|Marked]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-unconscious|Unconscious]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-captured|Captured]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-aim|Aim]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-retired-or-dead|Retired or Dead]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

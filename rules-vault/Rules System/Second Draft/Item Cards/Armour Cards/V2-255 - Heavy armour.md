@@ -1,7 +1,7 @@
 ---
 type: settlements-item-card
 rule_id: V2-255
-rule_name: Heavy armour
+rule_name: Standard armour
 entry_type: Armour
 category: Equipment
 book_chapter: 7
@@ -13,7 +13,7 @@ tags:
 - armour-plus
 - move-minus
 - combat
-summary: 25 Cr; worn; Armour 2, MOVE −1; Armoury access.
+summary: Gain Armour 4.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,9 +22,9 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Armour and supplies]]'
 review_notes: ''
-credits: 25
+credits: TBD
 equipment_slots: Worn
-rule: Armour 2; MOVE reduced by 1
+rule: Gain Armour 4.
 access: Armoury
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chem limits]]'
@@ -34,33 +34,36 @@ card_kind: Armour
 catalogue_id: V2-494
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour and shields]]'
 consolidated: '2026-10-25'
+aliases:
+- Heavy armour
+last_rule_update: '2026-11-10'
+price_status: Deferred
+approval_source: Ross’s current armour, defence-dice and hacking-equipment decisions; approved test values, not
+  balance validation.
+slots: 1 armour
+armour: 4
+move_modifier: 0
 ---
 
-# Heavy armour
+# Standard armour
 
 ## Summary
 
-25 Cr; worn; Armour 2, MOVE −1; Armoury access.
+Gain Armour 4.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
-| Item | Heavy armour |
-| Credits | 25 |
-| Equipment slots | Worn |
-| Rule | Armour 2; MOVE reduced by 1 |
-| Access | Armoury |
+| Item | Standard armour |
+| Credits | TBD |
+| Slots | 1 armour |
+| Armour | 4 |
+| MOVE modifier | 0 |
+| Rule | Gain Armour 4. |
 
 ^text-s066-b001
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour and shields|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour and shields]]

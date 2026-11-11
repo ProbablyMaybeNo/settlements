@@ -1,7 +1,7 @@
 ---
 type: settlements-item-card
 rule_id: V2-343
-rule_name: Share the Burden
+rule_name: Lean on Me
 entry_type: Skill
 category: Skills · NRV
 book_chapter: 8
@@ -11,10 +11,8 @@ tags:
 - settlements/v2
 - skill
 - nrv
-- core
-- stress
-summary: Core transfers up to two total Stress from friendlies within 3″/LOS to self, limited by capacity; fear
-  stays.
+summary: Spend Core and test NRV to activate a 6-inch aura. Transfer Stress inflicted on other friendlies within
+  it to you, up to your capacity; excess stays with its original recipient.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,52 +20,47 @@ created: '2026-10-18'
 source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Nerve skills]]'
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Archived/Draft 2 before complete rulebook
+  - 2026-10-17/Draft 2 - Skills]]'
 review_notes: ''
 stat: NRV
 use: Core
-effect: Transfer up to 2 Stress in total from friendlies within 3 inches and LOS to yourself, limited by your remaining
-  capacity. No test. Does not remove their morale conditions.
+effect: Spend Core and test NRV to activate a 6-inch aura. Transfer Stress inflicted on other friendlies within
+  it to you, up to your capacity; excess stays with its original recipient.
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill prerequisites]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill action restrictions]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-305 - Choosing and using skills|Skill frequency]]'
 planned_section: 08 · Skills
-rule_parent: Skills
+rule_parent: Skill Catalogue
 card_kind: Skill
 catalogue_id: V2-491
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-491 - NRV skills]]'
 consolidated: '2026-10-25'
+aliases:
+- Share the Burden
+archetype: Anchor
+last_rule_update: '2026-11-10'
+approval_source: Ross’s selected twelve-skill NRV roster and latest chat rulings; original selected effect preserved
+  where unchanged
 ---
 
-# Share the Burden
+# Lean on Me
 
 ## Summary
 
-Core transfers up to two total Stress from friendlies within 3″/LOS to self, limited by capacity; fear stays.
+Spend Core and test NRV to activate a 6-inch aura. Transfer Stress inflicted on other friendlies within it to you, up to your capacity; excess stays with its original recipient.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
-| Skill | Share the Burden |
+| Skill | Lean on Me |
 | Use | Core |
-| Effect | Transfer up to 2 Stress in total from friendlies within 3 inches and LOS to yourself, limited by your remaining capacity. No test. Does not remove their morale conditions. |
+| Effect | Spend Core and test NRV to activate a 6-inch aura. Transfer Stress inflicted on other friendlies within it to you, up to your capacity; excess stays with its original recipient. |
 
 ^text-s073-b003
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-491 - NRV skills|Catalogue table]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-491 - NRV skills]]

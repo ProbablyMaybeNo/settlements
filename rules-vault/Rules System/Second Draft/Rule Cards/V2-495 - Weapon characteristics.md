@@ -49,6 +49,7 @@ catalogue_members:
 - V2-513
 - V2-514
 - V2-515
+- V2-543
 last_rule_update: '2026-11-10'
 ---
 
@@ -86,6 +87,7 @@ Weapon characteristics: complete table with links to individual weapon keyword c
 | [[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-513 - Knock Back\|Knock Back]] | On a successful hit, push the target directly away by the printed distance. Resolve falls and hazards normally. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-514 - Retrieve\|Retrieve]] | After use, the weapon is unavailable until retrieved. If it Downs an enemy, place a weapon token in base contact with that enemy. Any unit may pick it up in base contact without an action and continue moving. A miss loses the weapon for the rest of the battle. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-515 - Template\|Template]] | Use the template printed on the weapon profile and the area-attack rules. An 8-inch flame template hits models underneath it automatically; walls and floors block it. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-543 - Parry\|Parry]] | Add the stated number of dice when defending in melee. These are defence dice, not additional attacks. |
 
 ^catalogue-v2-495
 

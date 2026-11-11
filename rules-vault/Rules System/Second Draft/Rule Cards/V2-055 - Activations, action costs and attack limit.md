@@ -18,8 +18,8 @@ tags:
 - limits
 - reaction
 - terrain
-summary: Whole-unit activation; Both-cost actions; Unused actions; Passing and finishing; Own attack limit; Attack
-  exceptions
+summary: Players take turns activating one unit at a time. During its activation, a unit can take one Move action
+  and one Core action, in either order. Finish that unit's actions before your opponent activates a unit.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -31,6 +31,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-058 - Passing and finishing]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-059 - Own attack limit]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-060 - Attack exceptions]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-055 - Activations, action costs and attack limit]]'
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-055 - Activations, action costs and attack limit|Both-cost
@@ -85,62 +87,49 @@ component_rules:
   review_status: Unreviewed
   review_notes: ''
 last_rule_update: '2026-11-10'
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Activations, action costs and attack limit
 
 ## Summary
 
-Whole-unit activation; Both-cost actions; Unused actions; Passing and finishing; Own attack limit; Attack exceptions
+Players take turns activating one unit at a time. During its activation, a unit can take one Move action and one Core action, in either order. Finish that unit's actions before your opponent activates a unit.
 
 ## Rule text
 
-### Both-cost actions
-
-On your turn, choose one eligible fighter that has not yet activated this round and mark it Activated. During this activation it has **one Move Action and one Core Action, resolved in either order**. Once chosen, the fighter must finish its activation before the opponent takes a normal activation. Perform or forfeit each of its Move and Core Actions; forfeited slots count as spent for this round, and you cannot return to activate that fighter later. Mark each slot spent when its action is declared, before reactions. Normal Move and Core are separate actions, each with its own reaction window; the opponent does not receive a normal activation between them. A fighter activates at most once per round, even if it is later revived or helped to Recover.
+Players take turns activating one unit at a time. During its activation, a unit can take **one Move action and one Core action**, in either order. Finish that unit's actions before your opponent activates a unit.
 
 ^text-s018-b000
 
-Resolve or forfeit both slots before ending the activation. You may decline an unwanted or impossible action, but its slot is spent; unused slots cannot be saved for another turn. A Move may travel zero inches. Forfeiting a slot is not an action or a reaction trigger. Becoming Pinned or Down can restrict or cancel the remaining action; it does not grant a replacement activation.
+Each unit activates once per round. You may end its activation early, but any unused actions are lost for that round.
 
 ^text-s018-b001
 
-An action costing **Both** spends the fighter's unused Move and Core together. If either is already spent, it cannot perform that action. Each fighter has one Move Action for its own movement and one Core Action for other tasks. Standing up from Pinned uses Move instead of travelling. Neither slot normally converts into the other; a skill may explicitly provide an exception. Choose any eligible, not-yet-activated fighter; there is no fixed activation order within your crew.
+A unit with ALERT may react during an enemy activation, following the Reactions rules. Reactions spend ALERT without using the unit's Move or Core action.
 
 ^text-s018-b002
 
-### Passing and finishing
+| Cost | Actions |
+| --- | --- |
+| Move | Move, Climb, Jump, Sneak, Recover |
+| Core | Attack, Interact, Hack, Repair, Loot, Secure, Hide, Deploy, Revive, ALERT, Aim, Observe, Reload, Rally, Use Item, Disengage, Carry |
+| Move + Core | Sprint, Charge, Aerial Assault |
 
-You may voluntarily end your crew's activations for the round: mark all remaining fighters Activated and their slots spent. If one crew has finished, the other completes its activations, still allowing reactions. Once both have finished, resolve the End Phase.
+An action marked **Move + Core**, such as Sprint or Charge, uses both actions. Both must be available when you choose it. Move cannot be exchanged for Core, or Core for Move. A skill may explicitly override these default action costs and conversions.
 
 ^text-s018-b003
 
-### Own attack limit
-
-A fighter may perform at most **one own-turn attack action** each round: Shoot, Fight, or Charge. A reaction attack is separate. Defensive melee participation is not an attack action. Skills may explicitly override action costs, conversion and the own-attack limit. Any own action directly attacking a fighter—including Shove, Grapple, Throw, Incapacitate, or a damaging grenade—uses the own-turn attack allowance. Firing a turret through an operation or Trojan also uses the operator's allowance. Terrain operations and deploying devices remain interactions, even if their hazards threaten enemies; they do not grant a second direct attack.
+A unit can make one attack action during its activation. Reaction attacks and defending in melee do not count towards this limit. Reviving a unit does not let it activate a second time that round. A skill may explicitly grant additional attacks or reactions.
 
 ^text-s019-b016
 
-### Carry action cost
-
-Carry is a Core action requiring STR; moving while already Carrying uses the normal Move action. Picking up a load is not a free part of Move. Grapple and Throw are Core skill actions and retain the ordinary own-attack allowance. Free escape at activation start, voluntary release and Drop follow their specific rules.
+When one player finishes activating their crew, the other completes any remaining activations. Both players then resolve the End Phase.
 
 ^carry-action-cost
 
+Choose actions from the table above. Skills and equipment may provide additional choices. Each action follows its own rules. Use the Orders rules when issuing an Order.
+
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-activated|Activated]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
-
-### Ross’s replacement ruling — 2026-11-10
-
-[[Settlements/Design Workshop/Skill Compatibility Review - 2026-11-09/STR - Grapple Hauler Carrying Throw - 2026-11-10|10 November Grapple, Hauler, Carrying and Throw decisions]]. This replaces conflicting earlier Grapple/Strong Arm/Carry/Throw wording. Existing IDs, anchors and prior feedback are retained. Drafted for testing does not mean playtested balance.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

@@ -15,23 +15,26 @@ tags:
 - dice
 - injury
 - melee
-summary: Shoot; Natural shooting results; Shooting range and movement; One shooting target; Friendly fire
+summary: Shoot. Spend a Core action. Choose one target within the shooter's forward line of sight and weapon range.
 status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
-last_rule_update: '2026-10-22'
+last_rule_update: '2026-11-10'
 source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-097 - Shoot]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-098 - Natural shooting results]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-100 - Shooting range and movement]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-101 - One shooting target]]'
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-105 - Friendly fire]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Before reconciliation/Rules System/Second
+  Draft/Rule Cards/V2-097 - Shooting and target allocation]]'
 review_notes: ''
 action_cost: Core
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-099 - Aim|Aim]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-097 - Shooting and target allocation|Shooting range and movement]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-097 - Shooting and target allocation|Shooting range and
+  movement]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-097 - Shooting and target allocation|One shooting target]]'
 planned_section: 04 · Fighting Battles
 rule_parent: Ranged Combat
@@ -73,58 +76,37 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+approval_source: Ross’s battle-rule decisions and current concise working list; reconciled 10 November 2026
 ---
 
 # Shooting and target allocation
 
 ## Summary
 
-Shoot; Natural shooting results; Shooting range and movement; One shooting target; Friendly fire
+Shoot. Spend a Core action. Choose one target within the shooter's forward line of sight and weapon range.
 
 ## Rule text
 
-### Shoot
-
-| Field | Value |
-| --- | --- |
-| Action | Shoot or Fight |
-| Cost | Core |
-| Main effect | One attack using [[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#8 Shooting and close combat|shooting and close combat]] |
+**Shoot.** Spend a Core action. Choose one target within the shooter's forward line of sight and weapon range.
 
 ^text-s019-b005
 
-Choose held weapons and one legal target in the shooter's forward arc, within weapon range and LOS. Declare dice and any optional effects. Roll **1d20 + DEX + modifiers − Stress** for each Attack Die; each 13+ is a hit. Natural 1 misses and natural 20 hits. Apply −1 or −2 for cover, **−2 if the target is Pinned**, −4 for Hidden when the target is legally visible, +2 for a rear attack, and +2 for a retained Aim. Each hit then makes an Injury roll.
+Roll one d20 for each Attack Die. Add DEX and modifiers, then subtract Stress. Each result of 13+ hits.
 
 ^text-s029-b000
 
-### Shooting range and movement
-
-There is no long-range penalty within a weapon's printed range. There is no generic penalty for moving. You cannot shoot beyond range or through solid terrain. Premeasure before spending the action.
+A natural 1 misses. A natural 20 hits. Resolve each hit using the Injury rules.
 
 ^text-s029-b002
 
-### One shooting target
-
-A normal Shoot targets one fighter. Split Fire permits allocation to several targets as described in its skill; declare every die's target first. A firearm with three dice does not attack three targets automatically.
+There is no generic penalty for moving or shooting at long range. Split Fire may divide the pool between targets.
 
 ^text-s029-b003
 
-### Friendly fire
-
-You may shoot an enemy engaged with your friendly fighter, but each natural 1 in that attack pool hits one friendly involved instead, chosen by the opponent. Resolve its Injury roll normally. Other misses remain misses. A blast affects all models in its area, including friendlies; do not add this natural-1 rule to blast attacks.
+When shooting into an engagement involving a friendly, each natural 1 hits an involved friendly chosen by the opponent. Blasts instead affect everyone in their area.
 
 ^text-s031-b000
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-engaged|Engaged]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-aim|Aim]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]
