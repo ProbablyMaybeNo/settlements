@@ -3,6 +3,7 @@
 Only the current approved test rules and profiles belong in this project’s active rules folders. Superseded drafts, old reviews, unapproved options and history are preserved outside the project under **Archive/Settlements/2026-11-10 - Superseded rules and working drafts**.
 
 - [[Settlements/Rules System/Master Rules System/Master Rules System|Read the current rules]]
+- [[Settlements/Rules System/Master Rules System/Game Vision|Game Vision — design goals and intended experience]]
 - [[Settlements/Rules System/Master Rules System/Rule Cards - Complete Index|Browse the approved rule cards]]
 - [[Settlements/Rules System/Master Rules System/Item Cards - Library|Browse the current catalogues and item profiles]]
 - [[Settlements/Rules System/Master Rules System/Battle Quick Reference|Battle reference]]
