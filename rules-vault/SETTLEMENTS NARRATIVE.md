@@ -12,4 +12,5 @@ Mission: Realistic, bloody battles fought, on boards filled with dense interacti
 
 Tenents:
 
-- Citizens not Super Heroes - Unskilled fighters, low wound counts, and swingy dice rolls promote a sense of realim in which crews are forced to think outside the box 
+- Citizens not Super Heroes - A sense of realism is promoted through bloody battles that punish players for treating their units like super heroes instead of super market cashiers and Al from the hardware store.
+- 
