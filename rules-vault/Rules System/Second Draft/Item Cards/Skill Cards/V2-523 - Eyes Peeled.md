@@ -32,6 +32,7 @@ tags:
 - dex
 approval_source: Ross’s selected twelve-skill DEX roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Eyes Peeled
@@ -45,6 +46,7 @@ After Downing an enemy with shooting, gain ALERT or give it to a friendly within
 | Field | Value |
 | --- | --- |
 | Skill | Eyes Peeled |
+| Archetype | Watcher |
 | Use | Triggered |
 | Effect | After Downing an enemy with shooting, gain ALERT or give it to a friendly within 12 inches and line of sight. |
 

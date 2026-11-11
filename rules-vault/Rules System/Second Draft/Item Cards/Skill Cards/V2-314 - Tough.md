@@ -39,6 +39,7 @@ last_rule_update: '2026-11-10'
 archetype: General
 approval_source: Ross’s selected twelve-skill STR roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Tough
@@ -52,6 +53,7 @@ Gain +1 Wound, up to your Wound limit: 3, or 4 for a crew leader.
 | Field | Value |
 | --- | --- |
 | Skill | Tough |
+| Archetype | General |
 | Use | Passive |
 | Effect | Gain +1 Wound, up to your Wound limit: 3, or 4 for a crew leader. |
 

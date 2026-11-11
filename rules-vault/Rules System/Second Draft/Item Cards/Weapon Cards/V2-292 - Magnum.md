@@ -81,13 +81,3 @@ ATK 1; DMG 3; 12 inches; 1 hand(s). Knock Back 2″, Close Combat, Reload. Price
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-486 - Standard weapons|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
-
-### Weapon decisions — 2026-11-10
-
-Current battle-test profile and keyword assignments accepted in chat. ATK is the base dice pool; Automatic adds no dice. Previous prices are obsolete and retained only as historical metadata.

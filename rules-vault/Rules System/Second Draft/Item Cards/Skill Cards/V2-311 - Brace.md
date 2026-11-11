@@ -40,6 +40,7 @@ consolidated: '2026-10-25'
 archetype: Tank
 last_rule_update: '2026-11-10'
 approval_source: 'Ross’s explicit 10 November 2026 follow-up answer: start-of-next-activation expiry'
+price_status: null
 ---
 
 # Brace
@@ -53,6 +54,7 @@ Spend Core to Brace until the start of your next activation. Incoming attacks su
 | Field | Value |
 | --- | --- |
 | Skill | Brace |
+| Archetype | Tank |
 | Use | Core |
 | Effect | Spend Core to Brace until the start of your next activation. Incoming attacks suffer −4 to hit. While Bracing, you cannot move, act or react. |
 

@@ -17,8 +17,9 @@ publication: Included
 created: '2026-11-09'
 last_rule_update: '2026-11-09'
 source:
-- '[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review]]'
-review_notes: 'The proposed role is consolidated without treating blank feedback as approval. Poisoned timing and restoration of lost MOVE remain unresolved on the shared condition owner. This does not revive an Unconscious unit. Resolved by Ross’s 2026-11-09 follow-up: Ross approved the poison timing and antidote default and explicitly confirmed that the antidote ends Poisoned. It does not revive an Unconscious unit.'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Working notes and former views/Design
+  Workshop/Battle Catalogue Review/Equipment Category Review]]'
+review_notes: Earlier feedback is retained in the archived source snapshot. Current rule is the drafted test version.
 equipment_slots: 1
 rule: Spend Core on yourself or a friendly in contact to remove Poisoned and restore all MOVE lost to it. Single-use.
 access: Battle test only
@@ -29,7 +30,9 @@ catalogue_id: V2-493
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies]]'
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|Down and Unconscious casualties]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|Down and Unconscious
+  casualties]]'
+price_status: null
 ---
 
 # Antidote
@@ -55,13 +58,3 @@ Spend Core on yourself or a friendly in contact to remove Poisoned and restore a
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|Down and Unconscious casualties]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies|Catalogue table]]
-
-## Design notes
-
-The proposed role is consolidated without treating blank feedback as approval. Poisoned timing and restoration of lost MOVE remain unresolved on the shared condition owner. This does not revive an Unconscious unit.
-
-Source: [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review]]. Drafting is not approval or evidence of battle testing.
-
-### Follow-up decision — 2026-11-09
-
-Ross approved the poison timing and antidote default and explicitly confirmed that the antidote ends Poisoned. It does not revive an Unconscious unit.

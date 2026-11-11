@@ -28,7 +28,7 @@ source:
 review_notes: ''
 action_cost: Both
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move, obstacles and Dash|Dash]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-078 - Move, obstacles and Sprint|Dash]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-082 - Charge|Failed Charge]]'
 planned_section: 04 · Fighting Battles
 rule_parent: Movement

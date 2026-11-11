@@ -39,6 +39,7 @@ archetype: General
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill AGI roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Sneak
@@ -52,6 +53,7 @@ Sneak at full MOVE instead of half MOVE.
 | Field | Value |
 | --- | --- |
 | Skill | Sneak |
+| Archetype | General |
 | Use | Passive |
 | Effect | Sneak at full MOVE instead of half MOVE. |
 

@@ -41,6 +41,7 @@ approval_source: Ross’s selected twelve-skill NRV roster and latest chat rulin
   where unchanged
 designer_stacking: Weapon Damage and hit/Injury modifiers combine; Ross confirmed this intended interaction. No
   named combo rule.
+price_status: null
 ---
 
 # Rage
@@ -54,6 +55,7 @@ Increase your weapon’s Damage by up to 3 for a melee attack. Afterwards, gain 
 | Field | Value |
 | --- | --- |
 | Skill | Rage |
+| Archetype | Berserker |
 | Use | Attack modifier |
 | Effect | Increase your weapon’s Damage by up to 3 for a melee attack. Afterwards, gain 1 Stress per point added. |
 

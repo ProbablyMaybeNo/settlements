@@ -33,7 +33,7 @@ access: Basic
 hands: 1
 weapon_slots: 1
 keywords:
-- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-238 - Piercing X|Piercing]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-238 - Piercing|Piercing]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-246 - Thrown|Thrown]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-514 - Retrieve|Retrieve]]'
 related_rules:
@@ -43,7 +43,7 @@ related_rules:
   profile fields]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Crew composition and item limits|Long-range weapon
   limit]]'
-- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-238 - Piercing X|Piercing]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-238 - Piercing|Piercing]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-246 - Thrown|Thrown]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-514 - Retrieve|Retrieve]]'
 planned_section: 07 · Equipment
@@ -83,13 +83,3 @@ ATK 1; DMG 2; STR × 2 inches / Melee; 1 hand(s). Piercing, Thrown, Retrieve. Pr
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-486 - Standard weapons|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
-
-### Weapon decisions — 2026-11-10
-
-Current battle-test profile and keyword assignments accepted in chat. ATK is the base dice pool; Automatic adds no dice. Previous prices are obsolete and retained only as historical metadata.

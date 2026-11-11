@@ -22,7 +22,7 @@ source: []
 summary: Gain Armour 6. Reduce MOVE by 2 inches.
 rule: Gain Armour 6. Reduce MOVE by 2 inches.
 last_rule_update: '2026-11-10'
-catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour and shields]]'
+catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour]]'
 price_status: Deferred
 approval_source: Ross’s current armour, defence-dice and hacking-equipment decisions; approved test values, not
   balance validation.
@@ -53,4 +53,4 @@ Gain Armour 6. Reduce MOVE by 2 inches.
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour and shields]]
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour]]

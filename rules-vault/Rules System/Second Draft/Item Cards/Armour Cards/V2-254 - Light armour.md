@@ -31,7 +31,7 @@ planned_section: 07 · Equipment
 rule_parent: Armour
 card_kind: Armour
 catalogue_id: V2-494
-catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour and shields]]'
+catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour]]'
 consolidated: '2026-10-25'
 last_rule_update: '2026-11-10'
 price_status: Deferred
@@ -63,4 +63,4 @@ Gain Armour 2.
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour and shields]]
+- [[Settlements/Rules System/Second Draft/Rule Cards/V2-494 - Armour]]

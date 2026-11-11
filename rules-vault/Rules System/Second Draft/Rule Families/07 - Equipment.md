@@ -3,7 +3,7 @@ type: settlements-rule-family
 family_name: Equipment
 family_order: 7
 tags:
-  - settlements/rule-family
+- settlements/rule-family
 progress_status: Partial
 included_rules: 10
 deferred_rules: 0
@@ -19,7 +19,7 @@ included_parents: 5
 locked_parents: 0
 parent_summary: 0/5 included parents final · 5 parent groups total
 cssclasses:
-  - settlements-rule-group
+- settlements-rule-group
 ---
 
 # Equipment

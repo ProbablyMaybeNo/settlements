@@ -31,6 +31,7 @@ tags:
 - nrv
 approval_source: Ross’s selected twelve-skill NRV roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Beta Blocker
@@ -44,6 +45,7 @@ Halve Stress penalties, rounding up. Break tests still use full Stress.
 | Field | Value |
 | --- | --- |
 | Skill | Beta Blocker |
+| Archetype | General |
 | Use | Passive |
 | Effect | Halve Stress penalties, rounding up. Break tests still use full Stress. |
 

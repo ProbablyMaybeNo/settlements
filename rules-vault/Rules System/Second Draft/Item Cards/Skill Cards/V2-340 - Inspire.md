@@ -39,6 +39,7 @@ archetype: Commissar
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill NRV roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Inspire
@@ -52,6 +53,7 @@ Spend Core and test NRV. Success removes 2 Stress from up to three friendlies wi
 | Field | Value |
 | --- | --- |
 | Skill | Inspire |
+| Archetype | Commissar |
 | Use | Core |
 | Effect | Spend Core and test NRV. Success removes 2 Stress from up to three friendlies within 8 inches. |
 

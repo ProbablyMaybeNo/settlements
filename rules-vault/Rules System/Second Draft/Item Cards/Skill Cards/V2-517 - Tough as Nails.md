@@ -32,6 +32,7 @@ tags:
 - skill
 - str
 approval_source: 'Ross’s explicit 10 November 2026 follow-up answer: start-of-next-activation expiry'
+price_status: null
 ---
 
 # Tough as Nails
@@ -45,6 +46,7 @@ Once per round, when attacked in melee without being wounded, ignore the hit’s
 | Field | Value |
 | --- | --- |
 | Skill | Tough as Nails |
+| Archetype | Tank |
 | Use | Triggered |
 | Effect | Once per round, when attacked in melee without being wounded, ignore the hit’s effects. Subsequent attacks against you suffer −4 to Injury rolls until the start of your next activation. |
 

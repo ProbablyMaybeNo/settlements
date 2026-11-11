@@ -44,6 +44,7 @@ approval_source: Retained printed +2 test baseline with agreed Marked/stationary
 test_variants:
 - +4 Damage
 - +4 or +6 for one-die non-Automatic firearms
+price_status: null
 ---
 
 # Head Shot
@@ -57,6 +58,7 @@ If you have not moved this round, gain +2 Damage against a Marked target with a 
 | Field | Value |
 | --- | --- |
 | Skill | Head Shot |
+| Archetype | Marksman |
 | Use | Passive |
 | Effect | If you have not moved this round, gain +2 Damage against a Marked target with a one-die non-Automatic ranged weapon. This does not apply to Blast. |
 

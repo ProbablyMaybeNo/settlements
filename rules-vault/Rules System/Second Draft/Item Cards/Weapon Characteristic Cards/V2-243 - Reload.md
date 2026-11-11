@@ -32,6 +32,7 @@ catalogue_id: V2-495
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics]]'
 consolidated: '2026-10-25'
 last_rule_update: '2026-11-10'
+price_status: null
 ---
 
 # Reload
@@ -59,9 +60,3 @@ The weapon starts loaded. After firing, it cannot fire again until its wielder s
 
 [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-loaded-or-unloaded|Loaded or Unloaded]]
 <!-- conditions-reference:end -->
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->

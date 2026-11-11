@@ -67,13 +67,13 @@ Record the agreed limit, scenario, six-round counter, score, and primary and sec
 
 ^text-s100-b000
 
-Beside each entry, leave boxes for Activated, Move, Core, READY, Reacted, Stress, morale, Pinned, Hidden, Down round, revival used, consumables, and once-per-battle skills. You need only the weapon, skill, and device rules actually fielded; copy their short entries onto the roster or cards.
+Beside each entry, leave boxes for Activated, Move, Core, ALERT, Reacted, Stress, morale, Pinned, Hidden, Down round, revival used, consumables, and once-per-battle skills. You need only the weapon, skill, and device rules actually fielded; copy their short entries onto the roster or cards.
 
 ^text-s100-b001
 
 ### Settlement records
 
-Keep treasury Credits, stored Materials and capacity, plots, buildings, Power allocation, workers, and pending construction. For each person record training grade, original and current body value, uninjured stats, scars, skills, XP, level, equipment, availability, and any treatment, captivity, or recovery due after a numbered battle. Keep one shared inventory of stored items and device scrap.
+Keep treasury Credits, stored Materials and capacity, plots, buildings, Power allocation, workers, and pending construction. For each person record training grade, original and current body value, uninjured stats, scars, skills, XP spent advancing, equipment, availability, and any treatment, captivity, or recovery due after a numbered battle. Keep one shared inventory of stored items and device scrap, and one shared Crew Record XP balance.
 
 ^text-s101-b000
 
@@ -92,7 +92,3 @@ At each battle's end, record the score, rewards, actual loot transfers, injuries
 
 [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-activated|Activated]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-reacted|Reacted]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-revival-used|Revival used]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-prisoner|Prisoner]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-lasting-injuries-and-scars|Lasting injuries and scars]]
 <!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.

@@ -1,7 +1,13 @@
 filters:
   and:
-  - file.inFolder("Settlements/Rules System/Second Draft/Item Cards")
-  - type == "settlements-item-card"
+  - and:
+    - file.inFolder("Settlements/Rules System/Second Draft/Item Cards")
+    - type == "settlements-item-card"
+  - or:
+    - status == "Drafted"
+    - status == "Confirmed"
+    - status == "Locked"
+  - publication == "Included"
 properties:
   note.rule_name:
     displayName: Name
@@ -119,20 +125,6 @@ views:
     direction: ASC
   filters: card_kind == "Interactive terrain"
 - type: cards
-  name: Structure Cards
-  order:
-  - formula.item_link
-  - note.rule_id
-  - note.status
-  - note.materials
-  - note.power
-  - note.benefit
-  - note.summary
-  sort:
-  - property: note.rule_id
-    direction: ASC
-  filters: card_kind == "Structure"
-- type: cards
   name: Weapon Characteristic Cards
   order:
   - formula.item_link
@@ -143,17 +135,6 @@ views:
   - property: note.rule_id
     direction: ASC
   filters: card_kind == "Weapon keyword"
-- type: cards
-  name: Weapon Class Cards
-  order:
-  - formula.item_link
-  - note.rule_id
-  - note.status
-  - note.summary
-  sort:
-  - property: note.rule_id
-    direction: ASC
-  filters: card_kind == "Weapon class"
 - type: cards
   name: Characteristic Cards
   order:
@@ -177,28 +158,6 @@ views:
     direction: ASC
   filters: card_kind == "Training grade"
 - type: cards
-  name: Advancement Cards
-  order:
-  - formula.item_link
-  - note.rule_id
-  - note.status
-  - note.summary
-  sort:
-  - property: note.rule_id
-    direction: ASC
-  filters: card_kind == "Advancement level"
-- type: cards
-  name: Lasting Injury Cards
-  order:
-  - formula.item_link
-  - note.rule_id
-  - note.status
-  - note.summary
-  sort:
-  - property: note.rule_id
-    direction: ASC
-  filters: card_kind == "Lasting injury"
-- type: cards
   name: Interaction Cards
   order:
   - formula.item_link
@@ -220,16 +179,5 @@ views:
   - property: note.rule_id
     direction: ASC
   filters: card_kind == "Experience deed"
-- type: cards
-  name: Preparation Cards
-  order:
-  - formula.item_link
-  - note.rule_id
-  - note.status
-  - note.summary
-  sort:
-  - property: note.rule_id
-    direction: ASC
-  filters: card_kind == "Preparation"
 formulas:
   item_link: file.asLink(note.rule_name)

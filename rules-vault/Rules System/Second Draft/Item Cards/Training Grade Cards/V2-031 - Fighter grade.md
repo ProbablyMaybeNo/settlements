@@ -21,7 +21,7 @@ source:
   2#Recruitment]]'
 review_notes: ''
 training_grade: Fighter
-credits: 80
+credits: TBD
 stat_points: 3
 starting_stat_maximum: 4
 starting_skills: 0
@@ -36,6 +36,7 @@ consolidated: '2026-10-25'
 last_rule_update: '2026-11-10'
 base_credits: TBD
 price_status: Deferred
+legacy_credits: 80
 ---
 
 # Fighter grade
@@ -49,7 +50,7 @@ Fighter: 3 Stat points; Stat maximum 4; up to 0 starting skills.
 | Field | Value |
 | --- | --- |
 | Training grade | Fighter |
-| Credits | 80 |
+| Credits | TBD |
 | Stat points | 3 |
 | Starting stat maximum | 4 |
 | Starting skills | 0 |
@@ -60,9 +61,3 @@ Fighter: 3 Stat points; Stat maximum 4; up to 0 starting skills.
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-029 - Recruitment and training grades|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->

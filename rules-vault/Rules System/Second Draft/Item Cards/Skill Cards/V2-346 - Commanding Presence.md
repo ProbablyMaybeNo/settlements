@@ -39,6 +39,7 @@ archetype: General
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill NRV roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Commanding Presence
@@ -52,6 +53,7 @@ Once per round, a friendly within 8 inches and line of sight may use your NRV fo
 | Field | Value |
 | --- | --- |
 | Skill | Commanding Presence |
+| Archetype | General |
 | Use | Passive |
 | Effect | Once per round, a friendly within 8 inches and line of sight may use your NRV for a Break test. |
 

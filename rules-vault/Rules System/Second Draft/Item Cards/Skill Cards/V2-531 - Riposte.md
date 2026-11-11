@@ -35,6 +35,7 @@ tags:
 - agi
 approval_source: 'Ross’s explicit 10 November 2026 follow-up answer: once per incoming Attack action; no counterattack
   chain'
+price_status: null
 ---
 
 # Riposte
@@ -48,6 +49,7 @@ Once per incoming Attack action, if the enemy fails to hit you in melee, make a 
 | Field | Value |
 | --- | --- |
 | Skill | Riposte |
+| Archetype | Duelist |
 | Use | Triggered |
 | Effect | Once per incoming Attack action, if the enemy fails to hit you in melee, make a melee counterattack against it. This may trigger Blade Fury. A Riposte cannot trigger a counterattack. |
 

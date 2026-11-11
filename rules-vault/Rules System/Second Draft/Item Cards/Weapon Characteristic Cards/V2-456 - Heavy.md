@@ -44,6 +44,7 @@ consolidated: '2026-10-25'
 rule: See [[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|weapon
   handling]] and [[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Crew composition and item limits|crew
   item limits]].
+price_status: null
 ---
 
 # Heavy
@@ -65,9 +66,3 @@ Two hands; restricted handling and crew allowance. Heavy does not mean a third h
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->

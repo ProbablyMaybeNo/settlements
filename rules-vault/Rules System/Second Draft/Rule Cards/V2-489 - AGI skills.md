@@ -26,6 +26,7 @@ source: []
 related_rules: []
 catalogue_kind: Skill
 catalogue_columns:
+- Archetype
 - Use
 - Effect
 catalogue_members:
@@ -35,7 +36,6 @@ catalogue_members:
 - V2-326
 - V2-527
 - V2-528
-- V2-529
 - V2-530
 - V2-531
 - V2-329
@@ -78,7 +78,3 @@ AGI skills: complete table with links to individual skill cards.
 
 [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-engaged|Engaged]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-subdued|Subdued]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-alert|ALERT]]
 <!-- conditions-reference:end -->
-
-## Design notes
-
-Edit each item's Rule text in its linked card. This table refreshes automatically. Catalogue status follows its item statuses.

@@ -17,8 +17,9 @@ publication: Included
 created: '2026-11-09'
 last_rule_update: '2026-11-09'
 source:
-- '[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review]]'
-review_notes: 'The explicit battle-long duration overrides the category’s proposed next-test duration. Use the shared chem administration procedure. Hooked is deferred. Resolved by Ross’s 2026-11-09 follow-up: Ross explicitly replaced all +2 and next-test chem proposals with +4 to the related Stat for the entire battle. This is the sole chem type for STR. Chem use contributes to Addicted. No prices are changed.'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Working notes and former views/Design
+  Workshop/Battle Catalogue Review/Equipment Category Review]]'
+review_notes: Earlier feedback is retained in the archived source snapshot. Current rule is the drafted test version.
 equipment_slots: 1
 rule: Use a dose under the Chem rules to gain +4 STR for this battle. Single-use.
 access: Battle test only
@@ -29,6 +30,7 @@ catalogue_id: V2-493
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies]]'
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chems and medical supplies]]'
+price_status: null
 ---
 
 # Juice
@@ -53,13 +55,3 @@ Use a dose under the Chem rules to gain +4 STR for this battle. Single-use.
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-270 - Chems and medical supplies|Chems and medical supplies]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies|Catalogue table]]
-
-## Design notes
-
-The explicit battle-long duration overrides the category’s proposed next-test duration. Use the shared chem administration procedure. Hooked is deferred.
-
-Source: [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review]]. Drafting is not approval or evidence of battle testing.
-
-### Follow-up decision — 2026-11-09
-
-Ross explicitly replaced all +2 and next-test chem proposals with +4 to the related Stat for the entire battle. This is the sole chem type for STR. Chem use contributes to Addicted. No prices are changed.

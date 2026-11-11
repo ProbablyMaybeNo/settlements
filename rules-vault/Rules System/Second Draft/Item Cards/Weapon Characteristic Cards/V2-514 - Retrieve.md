@@ -28,6 +28,7 @@ last_rule_update: '2026-11-10'
 summary: After use, the weapon is unavailable until retrieved. If it Downs an enemy, place a weapon token in base
   contact with that enemy. Any unit may pick it up in base contact without an action and continue moving. A miss
   loses the weapon for the rest of the battle.
+price_status: null
 ---
 
 # Retrieve
@@ -48,5 +49,3 @@ After use, the weapon is unavailable until retrieved. If it Downs an enemy, plac
 ## Links
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics|Keyword catalogue]]
-
-## Design notes

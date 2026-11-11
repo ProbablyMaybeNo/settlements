@@ -1,129 +1,161 @@
----
-type: settlements-conditions-reference
-created: 2026-11-07
-tags:
-  - settlements/conditions-reference
----
+# Conditions and states
 
-# Conditions Reference
+Use the owning rule linked below. A condition applies only when a rule assigns it; a successful hit alone causes Stress, not Pinned.
 
-A list collected from all **82 rule cards, 193 item cards and 18 deferred cards**, plus your equipment notes and conditions mentioned in chat. This is a reference list, not a new rules approval. Existing skill effects retain their review status.
+## Pinned
 
-[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Your equipment notes]] · [[Settlements/Design Workshop/Battle Catalogue Review/00 Battle Catalogue Review|Catalogue review]]
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-117 - Pinned and recovery|Pinned and recovery]]
 
-Conditions, tokens and device states are grouped separately below. The new drafts are included without inventing missing effects or silently resolving differences in older cards.
+^condition-pinned
 
-## Conditions found in the rules and skills
+## Down / Unconscious / Out of Action
 
-- **Hidden** — Stealth state; restricts targeting until revealed. [[Settlements/Rules System/Second Draft/Rule Cards/V2-154 - Hidden and Observe|V2-154]] ^condition-hidden
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|Down and Unconscious casualties]]
 
-- **Marked** — Friendly shooting +2; removes/prevents Hidden until the start of the marking unit’s next activation, including a surveillance drone. [[Settlements/Rules System/Second Draft/Rule Cards/V2-154 - Hidden and Observe|Marked]]. ^condition-marked
+^condition-down
 
-- **Pinned** — Caused by losing a Wound while remaining above zero, or by a specific effect. Ordinary hits alone add Stress. Spend Move to stand. [[Settlements/Rules System/Second Draft/Rule Cards/V2-117 - Pinned and recovery|Pinned]]. ^condition-pinned
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|Down and Unconscious casualties]]
 
-- **Down** — Zero Wounds; awaiting revival or progression to Unconscious. [[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|V2-122]] ^condition-down
+^condition-unconscious
 
-- **Unconscious** — Cannot be revived. Remove the model and record one post-battle injury roll. [[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|V2-122]] ^condition-unconscious
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|Down and Unconscious casualties]]
 
-- **Stress** — Tracked 0–5; penalizes tests and can cause morale conditions. [[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress, Break and forced flight|V2-139]] ^condition-stress
+^condition-out-of-action
 
-- **Broken** — Low-Stress failed-Break result; also becomes Pinned. [[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress, Break and forced flight|V2-139]] ^condition-broken
+## Stress / Broken / Bolting / Bugging Out
 
-- **Bolting** — Forced movement towards safety outside enemy LOS. [[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress, Break and forced flight|V2-139]] ^condition-bolting
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress, Break and forced flight|Stress, Break and forced flight]]
 
-- **Bugging Out** — Forced movement towards a board edge. [[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress, Break and forced flight|V2-139]] ^condition-bugging-out
+^condition-stress
 
-- **Engaged** — In melee engagement; restricts movement and other actions. [[Settlements/Rules System/Second Draft/Rule Cards/V2-093 - Engagement and Disengage|V2-093]] ^condition-engaged
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress, Break and forced flight|Stress, Break and forced flight]]
 
-- **Captured** — Secured enemy casualty; cannot act until released or rescued. [[Settlements/Rules System/Second Draft/Rule Cards/V2-134 - Securing, rescuing and extracting captives|V2-134]] ^condition-captured
+^condition-broken
 
-- **Grappled** — Held within 1 inch; no actions/reactions. Free opposed STR escape at activation start. [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-308 - Grapple|Grapple]]. ^condition-grappled
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress, Break and forced flight|Stress, Break and forced flight]]
 
-- **Grappling** — Holder moves at half speed, uses one-handed weapons and redirects shooting through the captive; Hauler modifies movement and weapon access. [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-308 - Grapple|Grapple]]. ^condition-grappling
+^condition-bolting
 
-- **Carrying** — Gained by a successful Core/STR Carry; half movement and one one-handed weapon; free Drop within 2 inches. [[Settlements/Rules System/Second Draft/Rule Cards/V2-090 - Carrying and releasing loads|Carry]]. ^condition-carrying
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-139 - Stress, Break and forced flight|Stress, Break and forced flight]]
 
-- **Subdued** — Non-lethal casualty flag from Incapacitate; affects aftermath recovery. [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-325 - Incapacitate|V2-325]] **Skill entry.** ^condition-subdued
+^condition-bugging-out
 
-## Conditions you have added or mentioned
+## Hidden / Marked
 
-- **On Fire** — Fire-driven movement; an unmodified d6 check each End Phase. Failed checks escalate to Pinned, Down and Unconscious. [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-on-fire-rule|On Fire]] ^condition-on-fire
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-154 - Hidden and Observe|Hidden and Observe]]
 
-- **Poisoned** — Loses 2 MOVE immediately and each later round’s End Phase; natural MOVE loss to zero causes Unconscious. Antidote ends it and restores poison-lost MOVE. [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-poisoned-rule|Poisoned]] ^condition-poisoned
+^condition-hidden
 
-- **Shocked or Stunned** — Becomes Pinned and misses its next activation; two names for one condition. [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-stunned-rule|Shocked or Stunned]] ^condition-shocked-or-stunned
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-154 - Hidden and Observe|Hidden and Observe]]
 
-- **Blinded** — Mentioned by you; no effect, duration or applying profile was found. ^condition-blinded
+^condition-marked
 
-## Other unit markers and tracked states
+## ALERT / Reacted
 
-- **ALERT** — Reaction-readiness token. READY is its older name. [[Settlements/Rules System/Second Draft/Rule Cards/V2-061 - READY and reaction eligibility|V2-061]] ^condition-alert
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-061 - ALERT and reaction eligibility|ALERT and reaction eligibility]]
 
-- **Aim** — Stored +2 bonus for the next attack. [[Settlements/Rules System/Second Draft/Rule Cards/V2-099 - Aim|V2-099]] ^condition-aim
+^condition-alert
 
-- **Activated** — Records that the unit has completed its activation this round. [[Settlements/Rules System/Second Draft/Rule Cards/V2-055 - Activations, action costs and attack limit|V2-055]] ^condition-activated
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-061 - ALERT and reaction eligibility|ALERT and reaction eligibility]]
 
-- **Reacted** — Records that the unit has used its reaction this round. [[Settlements/Rules System/Second Draft/Rule Cards/V2-061 - READY and reaction eligibility|V2-061]] ^condition-reacted
+^condition-reacted
 
-- **Revival used** — Records the once-per-battle revival limit on the patient. [[Settlements/Rules System/Second Draft/Rule Cards/V2-126 - Treatment and revival|V2-126]] ^condition-revival-used
+## Aim
 
-- **Braced** — Sustained defensive effect from the Brace skill. [[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-311 - Brace|V2-311]] **Skill entry.** ^condition-braced
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-099 - Aim|Aim]]
 
-- **Out of Action** — Removed from battle under the applying rule; does not automatically mean dead. [[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|V2-122]] ^condition-out-of-action
+^condition-aim
 
-- **Withdrawn** — Has left the battle through withdrawal or forced flight. [[Settlements/Rules System/Second Draft/Rule Cards/V2-153 - Ending a battle and recovering the crew|V2-153]] ^condition-withdrawn
+## Captured
 
-## Device and weapon states
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-134 - Securing, rescuing and extracting captives|Securing, rescuing and extracting captives]]
 
-- **Concealed** — A device has a public marker but a hidden payload type. [[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|V2-202]] ^condition-concealed
+^condition-captured
 
-- **Armed** — A device is active and ready to trigger. [[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|V2-202]] ^condition-armed
+## Engaged
 
-- **Disarmed or Inert** — A device is inactive and cannot trigger. [[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|V2-202]] ^condition-disarmed-or-inert
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-093 - Engagement and Disengage|Engagement and Disengage]]
 
-- **Offline or Disabled** — A device cannot function until restored by its Repair procedure. [[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|V2-202]] ^condition-offline-or-disabled
+^condition-engaged
 
-- **Powered Down** — Drone shutdown from loss of operator/control range; aerial and ground drones have different outcomes. [[Settlements/Rules System/Second Draft/Rule Cards/V2-220 - Utility drone|V2-220]] ^condition-powered-down
+## Carrying
 
-- **Frozen** — Temporary terminal lockout caused by hacking failure or Interrupt. [[Settlements/Rules System/Second Draft/Rule Cards/V2-165 - Hacking, terminals and repair|V2-165]] ^condition-frozen
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-090 - Carrying and releasing loads|Carrying and releasing loads]]
 
-- **Destroyed** — Device loss; specific drone profiles can provide exceptions or recovery rules. [[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|V2-202]] ^condition-destroyed
+^condition-carrying
 
-- **Loaded or Unloaded** — Tracks whether a Reload weapon can fire. [[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-243 - Reload|V2-243]] ^condition-loaded-or-unloaded
+## Grappled / Grappling
 
-- **Hovering** — Aerial-drone operating mode; uses ground movement, LOS, cover and melee rules. ^condition-hovering
+[[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-308 - Grapple|Grapple]]
 
-## Persistent and campaign states
+^condition-grappled
 
-- **Convalescence** — Campaign recovery state that prevents deployment and work for the specified cycle. [[Settlements/Rules System/Second Draft/Item Cards/Lasting Injury Cards/V2-372 - Convalescence|V2-372]] ^condition-convalescence
+[[Settlements/Rules System/Second Draft/Item Cards/Skill Cards/V2-308 - Grapple|Grapple]]
 
-- **Prisoner** — Post-battle captive after successful extraction. [[Settlements/Rules System/Second Draft/Rule Cards/V2-383 - Post-battle prisoners and release|V2-383]] ^condition-prisoner
+^condition-grappling
 
-- **Lasting injuries and scars** — Damaged Leg, Damaged Arm, Damaged Eye, Shell Shock, Shaken Confidence and Hatred. [[Settlements/Rules System/Second Draft/Rule Cards/V2-370 - Lasting injuries, scars and retirement|V2-370]] ^condition-lasting-injuries-and-scars
+## On Fire / Stunned / Shocked / Poisoned / Addicted
 
-- **Retired or Dead** — Permanent roster outcomes rather than temporary battle conditions. [[Settlements/Rules System/Second Draft/Rule Cards/V2-370 - Lasting injuries, scars and retirement|V2-370]] ^condition-retired-or-dead
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]
 
-- **Addicted (formerly Hooked)** — Any chem in two consecutive battles causes −2 to the six non-Wound stats next battle. Any chem suppresses withdrawal; it expires after that battle even if the unit sits out. [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions#^condition-addicted-rule|Addicted]] ^condition-hooked
+^condition-on-fire
 
-## Related terms that are not separate conditions
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]
 
-- **Spotted:** no separate current rule; the targeting condition is Marked.
-- **Revealed:** removes Hidden or reveals a device; no separate accuracy bonus.
-- **READY:** older label for ALERT.
-- **Prone:** descriptive wording for Pinned, Down or Unconscious.
-- **Suppressed / Shaken:** no separate universal condition; suppression uses Stress/Pinned. Shell Shock and Shaken Confidence are campaign injuries.
-- **Unanswered:** a melee-exchange rule.
-- **Smoke, gas, fire zones, cover and Difficult ground:** terrain/effect areas.
-- **FLY, Fragile and Inhuman:** profile keywords or immunities.
+^condition-stunned
 
-## Your notes
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]
 
-<!-- Add notes or additional conditions here. -->
+^condition-shocked
 
-### Equipment consolidation — 2026-11-09
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]
 
-The equipment condition entries now point to their owning rule. Inclusion in this inventory still does not approve a draft. Blinded has no applying retained item and receives no rule. Hooked remains outside the first test.
+^condition-poisoned
 
-### Follow-up decision — 2026-11-09
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]
 
-Fire/poison timing is now resolved. Addicted replaces the earlier deferred Hooked proposal; its old navigation anchor is preserved. See the owning Equipment conditions rule for the full effect.
+^condition-addicted
+
+## Powered down / drone states
+
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-220 - Drone operations|Drone operations]]
+
+^condition-powered-down
+
+## Offline / Destroyed / Disarmed
+
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Deploying, revealing, disarming and damaging devices]]
+
+^condition-offline
+
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Deploying, revealing, disarming and damaging devices]]
+
+^condition-destroyed
+
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Deploying, revealing, disarming and damaging devices]]
+
+^condition-disarmed
+
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Deploying, revealing, disarming and damaging devices]]
+
+^condition-inert
+
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Deploying, revealing, disarming and damaging devices]]
+
+^condition-concealed-device
+
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Deploying, revealing, disarming and damaging devices]]
+
+^condition-armed
+
+## Frozen terminals
+
+[[Settlements/Rules System/Second Draft/Rule Cards/V2-165 - Hacking, terminals and repair|Hacking, terminals and repair]]
+
+^condition-frozen
+
+## Loaded / Unloaded
+
+[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-243 - Reload|Reload]]
+
+^condition-loaded-or-unloaded

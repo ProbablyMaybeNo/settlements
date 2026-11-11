@@ -31,6 +31,7 @@ tags:
 - dex
 approval_source: Ross’s selected twelve-skill DEX roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # On Me
@@ -44,6 +45,7 @@ After your activation, immediately activate a friendly within 6 inches and line 
 | Field | Value |
 | --- | --- |
 | Skill | On Me |
+| Archetype | General |
 | Use | Triggered |
 | Effect | After your activation, immediately activate a friendly within 6 inches and line of sight. |
 

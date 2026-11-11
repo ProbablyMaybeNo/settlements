@@ -41,6 +41,7 @@ archetype: Medic
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill INT roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Stabilize
@@ -54,6 +55,7 @@ Your successful revival also clears the patient’s Stress. Once per round, spen
 | Field | Value |
 | --- | --- |
 | Skill | Stabilize |
+| Archetype | Medic |
 | Use | Passive / Core |
 | Effect | Your successful revival also clears the patient’s Stress. Once per round, spend Core and test INT with +4 in contact with a conscious friendly; success clears its Stress. |
 

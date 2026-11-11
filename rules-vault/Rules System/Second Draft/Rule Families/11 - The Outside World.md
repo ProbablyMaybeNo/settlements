@@ -3,7 +3,7 @@ type: settlements-rule-family
 family_name: The Outside World
 family_order: 11
 tags:
-  - settlements/rule-family
+- settlements/rule-family
 progress_status: Pending
 included_rules: 0
 deferred_rules: 0
@@ -19,7 +19,7 @@ included_parents: 0
 locked_parents: 0
 parent_summary: 0/0 included parents final · 0 parent groups total
 cssclasses:
-  - settlements-rule-group
+- settlements-rule-group
 ---
 
 # The Outside World

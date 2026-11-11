@@ -23,7 +23,8 @@ source:
   Draft/Rule Cards/V2-354 - Non-killing victory routes]]'
 review_notes: ''
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Deferred Rule Cards/V2-353 - Mission specification|Mission specification]]'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Not in current test set/Rules System/Second
+  Draft/Deferred Rule Cards/V2-353 - Mission specification|Mission specification]]'
 planned_section: 03 · Playing the Game
 rule_parent: Missions and Victory
 consolidated: '2026-10-25'

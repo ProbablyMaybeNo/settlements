@@ -41,6 +41,7 @@ archetype: Commissar
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill NRV roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Motivate
@@ -54,6 +55,7 @@ Spend Core and test NRV. Success lets two friendlies within 8 inches use Move as
 | Field | Value |
 | --- | --- |
 | Skill | Motivate |
+| Archetype | Commissar |
 | Use | Core |
 | Effect | Spend Core and test NRV. Success lets two friendlies within 8 inches use Move as Core and repeat an action during their next activation. |
 

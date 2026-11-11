@@ -41,6 +41,7 @@ archetype: Hacker
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill INT roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Trojan
@@ -54,6 +55,7 @@ Using portable Hack, test INT to hijack a visible enemy electronic deployable wi
 | Field | Value |
 | --- | --- |
 | Skill | Trojan |
+| Archetype | Hacker |
 | Use | Core |
 | Effect | Using portable Hack, test INT to hijack a visible enemy electronic deployable within 8 inches and immediately perform one legal operation with it. A single-use device may instead be triggered or defused. |
 

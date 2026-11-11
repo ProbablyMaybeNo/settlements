@@ -21,7 +21,7 @@ source:
   2#Recruitment]]'
 review_notes: ''
 training_grade: Recruit
-credits: 60
+credits: TBD
 stat_points: 2
 starting_stat_maximum: 3
 starting_skills: 0
@@ -37,6 +37,7 @@ consolidated: '2026-10-25'
 last_rule_update: '2026-11-10'
 base_credits: TBD
 price_status: Deferred
+legacy_credits: 60
 ---
 
 # Recruit grade
@@ -50,7 +51,7 @@ Recruit: 2 Stat points; Stat maximum 3; up to 0 starting skills.
 | Field | Value |
 | --- | --- |
 | Training grade | Recruit |
-| Credits | 60 |
+| Credits | TBD |
 | Stat points | 2 |
 | Starting stat maximum | 3 |
 | Starting skills | 0 |
@@ -61,9 +62,3 @@ Recruit: 2 Stat points; Stat maximum 3; up to 0 starting skills.
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-029 - Recruitment and training grades|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->

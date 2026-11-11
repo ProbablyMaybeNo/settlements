@@ -31,6 +31,7 @@ tags:
 - dex
 approval_source: Ross’s selected twelve-skill DEX roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Pin Them Down
@@ -44,6 +45,7 @@ Your ranged hits that fail to wound also cause Pinned.
 | Field | Value |
 | --- | --- |
 | Skill | Pin Them Down |
+| Archetype | Watcher |
 | Use | Passive |
 | Effect | Your ranged hits that fail to wound also cause Pinned. |
 

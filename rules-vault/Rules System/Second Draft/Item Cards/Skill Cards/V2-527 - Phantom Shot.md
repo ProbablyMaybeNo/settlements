@@ -30,6 +30,7 @@ tags:
 - skill
 - agi
 approval_source: 'Ross’s explicit 10 November 2026 follow-up answer: +1 extra Stress per qualifying hit'
+price_status: null
 ---
 
 # Phantom Shot
@@ -43,6 +44,7 @@ When shooting while Hidden, each hit that fails to wound inflicts 1 additional S
 | Field | Value |
 | --- | --- |
 | Skill | Phantom Shot |
+| Archetype | Ghost |
 | Use | Passive |
 | Effect | When shooting while Hidden, each hit that fails to wound inflicts 1 additional Stress. |
 

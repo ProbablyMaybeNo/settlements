@@ -28,7 +28,7 @@ access: Basic
 hands: 1
 weapon_slots: 1
 keywords:
-- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-237 - Brutal|Bash]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-237 - Bash|Bash]]'
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Weapon hands
   and slots]]'
@@ -36,7 +36,7 @@ related_rules:
   profile fields]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Crew composition and item limits|Long-range weapon
   limit]]'
-- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-237 - Brutal|Bash]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-237 - Bash|Bash]]'
 planned_section: 07 · Equipment
 rule_parent: Weapons
 card_kind: Weapon
@@ -72,9 +72,3 @@ ATK 1; DMG 1; Melee; 1 hand(s). Bash. Price deferred.
 ## Links
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-486 - Standard weapons|Weapon catalogue]]
-
-## Design notes
-
-### Weapon decisions — 2026-11-10
-
-Current battle-test profile and keyword assignments accepted in chat. ATK is the base dice pool; Automatic adds no dice. Previous prices are obsolete and retained only as historical metadata.

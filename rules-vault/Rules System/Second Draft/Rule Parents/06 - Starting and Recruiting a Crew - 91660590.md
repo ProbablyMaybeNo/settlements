@@ -2,9 +2,9 @@
 type: settlements-rule-parent
 parent_name: Starting and Recruiting a Crew
 parent_family: The Crew
-parent_key: "91660590"
+parent_key: '91660590'
 tags:
-  - settlements/rule-parent
+- settlements/rule-parent
 progress_status: Drafted
 included_rules: 1
 deferred_rules: 0
@@ -16,7 +16,7 @@ confirmed_percent: 0
 final_percent: 0
 progress_summary: 100% written · 0% confirmed · 0% final
 cssclasses:
-  - settlements-rule-group
+- settlements-rule-group
 ---
 
 # Starting and Recruiting a Crew

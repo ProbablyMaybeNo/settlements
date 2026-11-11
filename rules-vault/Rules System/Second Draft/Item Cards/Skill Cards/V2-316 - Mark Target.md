@@ -43,6 +43,7 @@ last_rule_update: '2026-11-10'
 archetype: Marksman
 approval_source: Ross’s selected twelve-skill DEX roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Mark Target
@@ -56,6 +57,7 @@ Spend Core and test DEX against a visible enemy within 24 inches. Mark it until 
 | Field | Value |
 | --- | --- |
 | Skill | Mark Target |
+| Archetype | Marksman |
 | Use | Core |
 | Effect | Spend Core and test DEX against a visible enemy within 24 inches. Mark it until the start of your next activation: friendly shooting gains +2, and it loses Hidden and cannot Hide. Your crew may have one Marked enemy; a new mark replaces the old one. |
 

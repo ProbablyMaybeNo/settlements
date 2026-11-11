@@ -31,6 +31,7 @@ tags:
 - int
 approval_source: Ross’s selected twelve-skill INT roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Drone Pilot
@@ -44,6 +45,7 @@ Unlock aerial drones.
 | Field | Value |
 | --- | --- |
 | Skill | Drone Pilot |
+| Archetype | Artificer |
 | Use | Passive |
 | Effect | Unlock aerial drones. |
 

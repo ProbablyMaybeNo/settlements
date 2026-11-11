@@ -26,6 +26,7 @@ rule: Use the template printed on the weapon profile and the area-attack rules. 
 last_rule_update: '2026-11-10'
 summary: Use the template printed on the weapon profile and the area-attack rules. An 8-inch flame template hits
   models underneath it automatically; walls and floors block it.
+price_status: null
 ---
 
 # Template
@@ -46,5 +47,3 @@ Use the template printed on the weapon profile and the area-attack rules. An 8-i
 ## Links
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics|Keyword catalogue]]
-
-## Design notes

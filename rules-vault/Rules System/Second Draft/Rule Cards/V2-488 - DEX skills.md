@@ -26,6 +26,7 @@ source: []
 related_rules: []
 catalogue_kind: Skill
 catalogue_columns:
+- Archetype
 - Use
 - Effect
 catalogue_members:
@@ -77,7 +78,3 @@ DEX skills: complete table with links to individual skill cards.
 
 [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-marked|Marked]]
 <!-- conditions-reference:end -->
-
-## Design notes
-
-Edit each item's Rule text in its linked card. This table refreshes automatically. Catalogue status follows its item statuses.

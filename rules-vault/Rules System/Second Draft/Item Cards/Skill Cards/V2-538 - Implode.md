@@ -35,6 +35,7 @@ approval_source: Ross’s selected twelve-skill NRV roster and latest chat rulin
   where unchanged
 designer_stacking: Weapon Damage and hit/Injury modifiers combine; Ross confirmed this intended interaction. No
   named combo rule.
+price_status: null
 ---
 
 # Implode
@@ -48,6 +49,7 @@ Increase your maximum Stress by 2. Once per round before a melee attack, remove 
 | Field | Value |
 | --- | --- |
 | Skill | Implode |
+| Archetype | Berserker |
 | Use | Triggered |
 | Effect | Increase your maximum Stress by 2. Once per round before a melee attack, remove up to half your Stress, rounded down. Gain that much bonus to hit and Injury rolls for the attack. |
 

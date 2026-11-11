@@ -10,17 +10,20 @@ book_subsection: Tools and Supplies
 tags:
 - settlements/v2
 - equipment
-summary: Spend Core to throw up to 8 inches using the thrown-area procedure. Units within a 5-inch radius become Pinned unless protected from gas. A miss Scatters. Single-use.
+summary: Spend Core to throw up to 8 inches using the thrown-area procedure. Units within a 5-inch radius become
+  Pinned unless protected from gas. A miss Scatters. Single-use.
 status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-11-09'
 last_rule_update: '2026-11-09'
 source:
-- '[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review]]'
-review_notes: Explicit 5-inch radius, not diameter; affects both crews. The note specifies the initial Pinned effect, not a persistent gas zone, Poisoned or additional Injury.
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Working notes and former views/Design
+  Workshop/Battle Catalogue Review/Equipment Category Review]]'
+review_notes: Earlier feedback is retained in the archived source snapshot. Current rule is the drafted test version.
 equipment_slots: 1
-rule: Spend Core to throw up to 8 inches using the thrown-area procedure. Units within a 5-inch radius become Pinned unless protected from gas. A miss Scatters. Single-use.
+rule: Spend Core to throw up to 8 inches using the thrown-area procedure. Units within a 5-inch radius become Pinned
+  unless protected from gas. A miss Scatters. Single-use.
 access: Battle test only
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
@@ -28,8 +31,10 @@ card_kind: Equipment
 catalogue_id: V2-493
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies]]'
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke
+  and fire]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]'
+price_status: null
 ---
 
 # Tear-gas grenade
@@ -55,9 +60,3 @@ Spend Core to throw up to 8 inches using the thrown-area procedure. Units within
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies|Catalogue table]]
-
-## Design notes
-
-Explicit 5-inch radius, not diameter; affects both crews. The note specifies the initial Pinned effect, not a persistent gas zone, Poisoned or additional Injury.
-
-Source: [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review]]. Drafting is not approval or evidence of battle testing.

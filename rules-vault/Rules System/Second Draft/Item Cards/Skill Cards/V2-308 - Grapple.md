@@ -51,6 +51,7 @@ last_rule_update: '2026-11-10'
 archetype: Grappler
 approval_source: Ross’s selected twelve-skill STR roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Grapple
@@ -64,6 +65,7 @@ Spend Core and make an opposed STR test against an enemy within 1 inch. Success 
 | Field | Value |
 | --- | --- |
 | Skill | Grapple |
+| Archetype | Grappler |
 | Use | Core |
 | Effect | Spend Core and make an opposed STR test against an enemy within 1 inch. Success makes it Grappled: it cannot act or react, stays within 1 inch, and gets a free opposed STR escape test at activation start. While Grappling, move at half speed and use one-handed weapons. Ranged attacks targeting you hit the captive instead. For an enemy attack through either model at another friendly, roll one d6 for the whole attack: 1–3 redirects it to the captive; 4+ keeps its target. During your activation, freely release the captive 3 inches directly away. Stop at collision: another unit Pins both; a structure Pins the captive. Resolve falls normally. Pinned, Down, Unconscious or a morale condition ends your hold in place. Throw uses its own release procedure. |
 

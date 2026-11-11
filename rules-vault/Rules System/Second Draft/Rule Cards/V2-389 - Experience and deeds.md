@@ -13,7 +13,7 @@ tags:
 - xp
 - advancement
 - experience
-summary: Participation XP; Deed XP; XP cap and exclusions
+summary: All earned XP goes into one shared Crew Record. Unspent XP carries between battles.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -29,10 +29,13 @@ source:
 review_notes: ''
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-389 - Experience and deeds|XP cap and exclusions]]'
-- '[[Settlements/Rules System/Second Draft/Item Cards/Experience Deed Cards/V2-481 - Objective contribution deed|Objective contribution deed]]'
-- '[[Settlements/Rules System/Second Draft/Item Cards/Experience Deed Cards/V2-482 - Useful terrain deed|Useful terrain deed]]'
-- '[[Settlements/Rules System/Second Draft/Item Cards/Experience Deed Cards/V2-483 - Rescue or capture deed|Rescue or capture deed]]'
-- '[[Settlements/Rules System/Second Draft/Item Cards/Experience Deed Cards/V2-484 - Downing an enemy deed|Downing an enemy deed]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Experience Deed Cards/V2-481 - Primary objective|Objective
+  contribution deed]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Experience Deed Cards/V2-482 - Terrain interaction|Useful
+  terrain deed]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Experience Deed Cards/V2-483 - Revival|Rescue or capture deed]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Experience Deed Cards/V2-484 - Out of Action|Downing an enemy
+  deed]]'
 planned_section: 06 · The Crew
 rule_parent: Experience and Advancement
 consolidated: '2026-10-25'
@@ -92,55 +95,41 @@ catalogue_kind: Experience deed
 catalogue_columns:
 - Deed
 catalogue_members:
-- V2-481
-- V2-482
-- V2-483
 - V2-484
+- V2-483
+- V2-482
+- V2-552
+- V2-481
+- V2-553
+last_rule_update: '2026-11-10'
+approval_source: Ross’s approved persistent-crew, rewards, shared-XP and 10XP/30XP advancement decisions; unresolved
+  campaign systems archived.
 ---
 
 # Experience and deeds
 
 ## Summary
 
-Participation XP; Deed XP; XP cap and exclusions
+All earned XP goes into one shared Crew Record. Unspent XP carries between battles.
 
 ## Rule text
 
-### Participation XP
-
-Each surviving owned fighter deployed in a qualifying battle gains **1 XP**, including fighters who fled or were captured. Gain **1 additional XP** if that fighter completed at least one of these deeds:
+All earned XP goes into one shared Crew Record. Unspent XP carries between battles.
 
 ^text-s082-b000
 
-### XP cap and exclusions
-
-A fighter earns the deed bonus once per battle, however many deeds they perform. The injury-table lesson can add another XP, but **3 XP per battle is the absolute maximum**. Workers, reserves, Relief Volunteers, and fighters already dead gain none. Record a deed when it happens; use it to reward contribution rather than reconstructing every shot afterward.
+Record achievements during play and total them after battle. During the Settlement Phase, spend Crew Record XP on chosen units using Advancement.
 
 ^text-s082-b005
 
-<!-- catalogue:start -->
-
-| Name | Deed |
-| --- | --- |
-| [[Settlements/Rules System/Second Draft/Item Cards/Experience Deed Cards/V2-481 - Objective contribution deed\|Objective contribution deed]] | Made a successful Claim or Work action, or carried mission cargo off the table. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Experience Deed Cards/V2-482 - Useful terrain deed\|Useful terrain deed]] | Operated an interactive feature that opened or closed a useful route, moved a model or cargo, or affected an enemy; toggling an irrelevant switch does not qualify. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Experience Deed Cards/V2-483 - Rescue or capture deed\|Rescue or capture deed]] | Revived or evacuated a friendly casualty, or extracted an enemy captive. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Experience Deed Cards/V2-484 - Downing an enemy deed\|Downing an enemy deed]] | Put an enemy fighter Down through an attack, device, or terrain operation they personally resolved. |
+Withdrawal keeps earned XP but grants no scenario or mission XP. Each successful terrain interaction can earn 1 XP; there is no once-per-terminal restriction.
 
 ^catalogue-v2-389
+
+<!-- catalogue:start -->
 
 <!-- catalogue:end -->
 
 ## Links
 
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-<!-- conditions-reference:start -->
-## Conditions referenced
-
-[[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-captured|Captured]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-retired-or-dead|Retired or Dead]]
-<!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
+- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rules]]

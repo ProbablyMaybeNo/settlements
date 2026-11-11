@@ -4,7 +4,7 @@ parent_name: Tools and Supplies
 parent_family: Equipment
 parent_key: 0295c5f0
 tags:
-  - settlements/rule-parent
+- settlements/rule-parent
 progress_status: Partial
 included_rules: 3
 deferred_rules: 0
@@ -16,7 +16,7 @@ confirmed_percent: 0
 final_percent: 0
 progress_summary: 67% written · 0% confirmed · 0% final
 cssclasses:
-  - settlements-rule-group
+- settlements-rule-group
 ---
 
 # Tools and Supplies

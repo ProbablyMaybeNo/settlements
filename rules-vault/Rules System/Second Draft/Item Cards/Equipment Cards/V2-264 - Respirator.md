@@ -11,7 +11,8 @@ tags:
 - settlements/v2
 - equipment
 - stress
-summary: Ignore gas and smoke effects on the bearer, including smoke’s LOS restrictions. Other units resolve smoke normally. Reusable.
+summary: Ignore gas and smoke effects on the bearer, including smoke’s LOS restrictions. Other units resolve smoke
+  normally. Reusable.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -20,12 +21,14 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Armour and supplies]]'
 review_notes: ''
-credits: 10
+credits: TBD
 equipment_slots: 1
-rule: Ignore gas and smoke effects on the bearer, including smoke’s LOS restrictions. Other units resolve smoke normally. Reusable.
+rule: Ignore gas and smoke effects on the bearer, including smoke’s LOS restrictions. Other units resolve smoke
+  normally. Reusable.
 access: Basic
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards|Shared terrain operations and hazards]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards|Shared terrain
+  operations and hazards]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-498 - Equipment conditions|Equipment conditions]]'
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
@@ -34,6 +37,8 @@ catalogue_id: V2-492
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment]]'
 consolidated: '2026-10-25'
 last_rule_update: '2026-11-09'
+legacy_credits: 10
+price_status: Deferred
 ---
 
 # Respirator
@@ -47,7 +52,7 @@ Ignore gas and smoke effects on the bearer, including smoke’s LOS restrictions
 | Field | Value |
 | --- | --- |
 | Item | Respirator |
-| Credits | 10 |
+| Credits | TBD |
 | Equipment slots | 1 |
 | Rule | Ignore gas and smoke effects on the bearer, including smoke’s LOS restrictions. Other units resolve smoke normally. Reusable. |
 | Access | Basic |
@@ -67,13 +72,3 @@ Ignore gas and smoke effects on the bearer, including smoke’s LOS restrictions
 
 [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]]
 <!-- conditions-reference:end -->
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
-
-### Equipment consolidation — 2026-11-09
-
-[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Ross’s original equipment decisions]]. The later instruction “ignores the effects of gases and smoke” supersedes the narrower gas-Stress-only profile.

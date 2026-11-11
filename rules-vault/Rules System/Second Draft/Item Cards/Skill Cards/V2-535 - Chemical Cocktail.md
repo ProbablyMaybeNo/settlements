@@ -31,6 +31,7 @@ tags:
 - int
 approval_source: Ross’s selected twelve-skill INT roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Chemical Cocktail
@@ -44,6 +45,7 @@ You may administer two chems to the same unit in a round. Normal action costs st
 | Field | Value |
 | --- | --- |
 | Skill | Chemical Cocktail |
+| Archetype | Medic |
 | Use | Passive |
 | Effect | You may administer two chems to the same unit in a round. Normal action costs still apply. |
 

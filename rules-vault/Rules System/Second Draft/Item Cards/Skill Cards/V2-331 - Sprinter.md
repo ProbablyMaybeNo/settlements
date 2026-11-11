@@ -39,6 +39,7 @@ archetype: General
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill AGI roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Sprinter
@@ -52,6 +53,7 @@ Sprint using only Move instead of Move + Core.
 | Field | Value |
 | --- | --- |
 | Skill | Sprinter |
+| Archetype | General |
 | Use | Passive |
 | Effect | Sprint using only Move instead of Move + Core. |
 

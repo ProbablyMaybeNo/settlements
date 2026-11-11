@@ -39,6 +39,7 @@ archetype: Stalker
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill AGI roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Incapacitate
@@ -52,6 +53,7 @@ Spend Core to make a one-die AGI ranged attack within 6 inches. A hit causes Stu
 | Field | Value |
 | --- | --- |
 | Skill | Incapacitate |
+| Archetype | Stalker |
 | Use | Core |
 | Effect | Spend Core to make a one-die AGI ranged attack within 6 inches. A hit causes Stunned instead of Injury. |
 

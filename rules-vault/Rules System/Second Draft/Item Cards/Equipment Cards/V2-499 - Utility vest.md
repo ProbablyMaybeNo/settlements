@@ -17,8 +17,9 @@ publication: Included
 created: '2026-11-09'
 last_rule_update: '2026-11-09'
 source:
-- '[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review]]'
-review_notes: Explicit addition; no hand or armour slot is consumed. It is capacity, not a Stat increase. Copy stacking beyond one vest is not granted.
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Working notes and former views/Design
+  Workshop/Battle Catalogue Review/Equipment Category Review]]'
+review_notes: Earlier feedback is retained in the archived source snapshot. Current rule is the drafted test version.
 equipment_slots: 0
 rule: The wearer gains one equipment slot. The vest occupies no equipment slot.
 access: Battle test only
@@ -28,7 +29,9 @@ card_kind: Equipment
 catalogue_id: V2-492
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment]]'
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Equipping fighters and handling weapons]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Equipping
+  fighters and handling weapons]]'
+price_status: null
 ---
 
 # Utility vest
@@ -53,9 +56,3 @@ The wearer gains one equipment slot. The vest occupies no equipment slot.
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Equipping fighters and handling weapons]]
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment|Catalogue table]]
-
-## Design notes
-
-Explicit addition; no hand or armour slot is consumed. It is capacity, not a Stat increase. Copy stacking beyond one vest is not granted.
-
-Source: [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review]]. Drafting is not approval or evidence of battle testing.

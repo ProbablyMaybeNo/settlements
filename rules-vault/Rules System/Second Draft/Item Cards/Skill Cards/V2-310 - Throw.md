@@ -47,6 +47,7 @@ last_rule_update: '2026-11-10'
 archetype: Grappler
 approval_source: Ross’s selected twelve-skill STR roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Throw
@@ -60,6 +61,7 @@ While Carrying, or using a Grappled enemy, spend Core and test STR. Failure reta
 | Field | Value |
 | --- | --- |
 | Skill | Throw |
+| Archetype | Grappler |
 | Use | Core |
 | Effect | While Carrying, or using a Grappled enemy, spend Core and test STR. Failure retains the load or hold. Success ends it and throws the model 6 inches in a straight line away from you. A thrown unit stops on another unit and Pins both; hitting Heavy terrain causes a Damage 4 Injury roll. A thrown structure pushes contacted units for its remaining distance and causes a Damage 4 Injury roll against each. Resolve falls and normal solid-terrain stops. |
 

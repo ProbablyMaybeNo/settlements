@@ -33,6 +33,7 @@ tags:
 - nrv
 approval_source: Ross’s selected twelve-skill NRV roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Menacing
@@ -46,6 +47,7 @@ Spend Core and test NRV to activate a 6-inch aura. Friendly attacks made from it
 | Field | Value |
 | --- | --- |
 | Skill | Menacing |
+| Archetype | Anchor |
 | Use | Core |
 | Effect | Spend Core and test NRV to activate a 6-inch aura. Friendly attacks made from it inflict 1 extra Stress if they hit. |
 

@@ -4,7 +4,7 @@ parent_name: End Phase
 parent_family: Fighting Battles
 parent_key: d6d833f6
 tags:
-  - settlements/rule-parent
+- settlements/rule-parent
 progress_status: Drafted
 included_rules: 1
 deferred_rules: 0
@@ -16,7 +16,7 @@ confirmed_percent: 0
 final_percent: 0
 progress_summary: 100% written · 0% confirmed · 0% final
 cssclasses:
-  - settlements-rule-group
+- settlements-rule-group
 ---
 
 # End Phase

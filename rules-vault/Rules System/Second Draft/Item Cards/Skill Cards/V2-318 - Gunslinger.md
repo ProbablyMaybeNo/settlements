@@ -41,6 +41,7 @@ archetype: Gunslinger
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill DEX roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Gunslinger
@@ -54,6 +55,7 @@ You may fire two one-handed ranged weapons in one Attack action, using both weap
 | Field | Value |
 | --- | --- |
 | Skill | Gunslinger |
+| Archetype | Gunslinger |
 | Use | Passive |
 | Effect | You may fire two one-handed ranged weapons in one Attack action, using both weapons’ full ATK, Damage and keywords. Keep each weapon’s dice identifiable. |
 

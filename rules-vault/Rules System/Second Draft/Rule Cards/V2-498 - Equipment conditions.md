@@ -12,18 +12,22 @@ tags:
 - settlements/v2
 - equipment
 - conditions
-summary: On Fire escalates on failed d6 checks; Poisoned drains MOVE; Stunned skips an activation; Addicted causes one battle of withdrawal.
+summary: On Fire escalates on failed d6 checks; Poisoned drains MOVE; Stunned skips an activation; Addicted causes
+  one battle of withdrawal.
 status: Drafted
-review_status: Needs review
+review_status: Unreviewed
 publication: Included
 created: '2026-11-09'
 last_rule_update: '2026-11-09'
 source:
-- '[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review]]'
-review_notes: 'Resolved by Ross on 2026-11-09: fire and poison timing, antidote restoration and Addicted are now drafted from his explicit decisions. Earlier review note, superseded: Fire and poison timing/restoration require the narrow decisions below. Effects are Ross’s draft, not newly approved mechanics.'
+- '[[Archive/Settlements/2026-11-10 - Superseded rules and working drafts/Working notes and former views/Design
+  Workshop/Battle Catalogue Review/Equipment Category Review]]'
+review_notes: Earlier feedback is retained in the archived source snapshot. Current rule is the drafted test version.
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|Down and Unconscious casualties]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-122 - Down and Unconscious casualties|Down and Unconscious
+  casualties]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke
+  and fire]]'
 ---
 
 # Equipment conditions
@@ -78,18 +82,3 @@ Remove Addicted after that battle, even if the unit sat it out. Continued chem u
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]
 
 - [[Settlements/Rules System/Second Draft/Conditions Reference|Conditions reference]]
-
-## Design notes
-
-Source: [[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review]]. The original feedback is preserved there.
-
-**Essential unresolved timing — recommendations only:**
-
-- Fire: use one check per End Phase, starting in the application round. After a failed first check, the next activation is lost even if fire goes out before it. Water cancels fire-driven Pinned; it does not clear an unrelated Pinned condition. Use ordinary forced-movement and falling rules for the 6-inch moves. Confirm whether all ordinary actions are barred while burning, or only the stated missed activation.
-- Poison: take the initial −2 immediately, then another −2 at each later round’s End Phase. Measure cumulative loss against natural MOVE so a stim cannot delay Unconscious. Recommended: an antidote restores only MOVE lost to Poisoned. The notes do not yet settle the tick or restoration.
-
-These timing recommendations are not adopted. Keep this card Partial. There is no Blinded rule, generic toxin attack, extra Injury roll or addiction subsystem.
-
-### Follow-up decision — 2026-11-09
-
-Ross approved the proposed fire and poison timing and confirmed d6 failures of 1–3 escalate to Pinned, Down and Unconscious. Fire checks begin at the current End Phase; poison’s later ticks begin after its application round. He approved restoring poison-lost MOVE and ending Poisoned with antidote. He added the one-battle Addicted rule and clarified its trigger as any chem in each of two consecutive battles. Earlier unresolved timing notes and addiction deferral are superseded; the retained historical feedback is not the current rule. Review status is not promoted to Confirmed or Locked.

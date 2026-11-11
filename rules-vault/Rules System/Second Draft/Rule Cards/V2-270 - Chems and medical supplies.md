@@ -63,15 +63,3 @@ Using any chem in each of two consecutive battles causes Addicted for the crew�
 
 [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hooked|Addicted]]
 <!-- conditions-reference:end -->
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.
-
-### Equipment consolidation — 2026-11-09
-
-Juice’s explicitly battle-long STR effect overrides the earlier blanket “bonus ends when used.” Proposed additions with blank feedback retain Partial status. No prices are changed.
-
-### Follow-up decision — 2026-11-09
-
-Ross approved +4, battle-long effects, one chem type for each of the six non-Wound stats and the new addiction rule. His clarification is any chem used in each of two consecutive battles, not two doses or two chem types per battle. The old addiction deferral and one-test durations above are superseded. Withdrawal uses −2 to the six stats rather than −2 to every die roll, preserving Injury and unmodified condition checks.

@@ -21,7 +21,7 @@ source:
   2#Recruitment]]'
 review_notes: ''
 training_grade: Specialist
-credits: 110
+credits: TBD
 stat_points: 5
 starting_stat_maximum: 5
 starting_skills: 2
@@ -37,6 +37,7 @@ consolidated: '2026-10-25'
 last_rule_update: '2026-11-10'
 base_credits: TBD
 price_status: Deferred
+legacy_credits: 110
 ---
 
 # Specialist grade
@@ -50,7 +51,7 @@ Specialist: 5 Stat points; Stat maximum 5; up to 2 starting skills.
 | Field | Value |
 | --- | --- |
 | Training grade | Specialist |
-| Credits | 110 |
+| Credits | TBD |
 | Stat points | 5 |
 | Starting stat maximum | 5 |
 | Starting skills | 2 |
@@ -61,9 +62,3 @@ Specialist: 5 Stat points; Stat maximum 5; up to 2 starting skills.
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-029 - Recruitment and training grades|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->

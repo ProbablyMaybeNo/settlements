@@ -28,10 +28,8 @@ catalogue_columns:
 - Rule
 catalogue_members:
 - V2-231
-- V2-232
 - V2-233
 - V2-234
-- V2-235
 - V2-236
 - V2-237
 - V2-238
@@ -102,7 +100,3 @@ Weapon characteristics: complete table with links to individual weapon keyword c
 
 [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-hidden|Hidden]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-aim|Aim]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-loaded-or-unloaded|Loaded or Unloaded]]
 <!-- conditions-reference:end -->
-
-## Design notes
-
-Edit each item's Rule text in its linked card. This table refreshes automatically. Catalogue status follows its item statuses.

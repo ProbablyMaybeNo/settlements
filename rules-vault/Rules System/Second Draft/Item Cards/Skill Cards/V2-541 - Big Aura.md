@@ -31,6 +31,7 @@ tags:
 - nrv
 approval_source: Ross’s selected twelve-skill NRV roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Big Aura
@@ -44,6 +45,7 @@ Increase your aura ranges by 3 inches and maintain two auras at once.
 | Field | Value |
 | --- | --- |
 | Skill | Big Aura |
+| Archetype | General |
 | Use | Passive |
 | Effect | Increase your aura ranges by 3 inches and maintain two auras at once. |
 

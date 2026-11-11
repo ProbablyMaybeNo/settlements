@@ -29,6 +29,7 @@ card_kind: Weapon keyword
 catalogue_id: V2-495
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics]]'
 consolidated: '2026-10-25'
+price_status: null
 ---
 
 # Single-use
@@ -50,9 +51,3 @@ Declared use consumes item even on failure; replace between battles.
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->

@@ -14,7 +14,7 @@ rule_id: V2-486
 rule_name: Standard weapons
 entry_type: Catalogue
 summary: 'Standard weapons: complete table with links to individual weapon cards.'
-status: Partial
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-25'
@@ -55,6 +55,8 @@ catalogue_members:
 - V2-303
 - V2-304
 last_rule_update: '2026-11-10'
+approval_source: Complete current profile/procedure from Ross’s reviewed battle catalogue; obsolete Partial bookkeeping
+  reconciled.
 ---
 
 # Standard weapons
@@ -99,9 +101,3 @@ Standard weapons: complete table with links to individual weapon cards.
 ## Links
 
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Individual item cards]]
-
-## Design notes
-
-ATK is shown in the Dice column. Prices are deferred. Special weapons and Terrifying are outside this first test pass.
-
-Edit each item's Rule text in its linked card. This table refreshes automatically. Catalogue status follows its item statuses.

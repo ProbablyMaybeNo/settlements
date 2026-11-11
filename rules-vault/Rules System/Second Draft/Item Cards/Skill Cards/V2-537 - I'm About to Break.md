@@ -35,6 +35,7 @@ tags:
 - nrv
 approval_source: Ross’s selected twelve-skill NRV roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # I'm About to Break
@@ -48,6 +49,7 @@ Once per round when Charged, treat your Stress penalties as bonuses for that com
 | Field | Value |
 | --- | --- |
 | Skill | I'm About to Break |
+| Archetype | Berserker |
 | Use | Triggered |
 | Effect | Once per round when Charged, treat your Stress penalties as bonuses for that combat. Afterwards, gain 1 Stress and immediately take a Break test, ignoring beneficial Stress modifiers from friendly units, skills or equipment. |
 

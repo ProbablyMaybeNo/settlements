@@ -43,6 +43,7 @@ archetype: Charger
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill STR roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Bull
@@ -56,6 +57,7 @@ When declaring a Charge, test STR. Success lets you pass through non-LOS-blockin
 | Field | Value |
 | --- | --- |
 | Skill | Bull |
+| Archetype | Charger |
 | Use | Charge modifier |
 | Effect | When declaring a Charge, test STR. Success lets you pass through non-LOS-blocking scatter, obstacles and barricades. Contacted enemies test AGI; on failure, push them 2 inches in your chosen direction and Pin them. Reinforced doors, buildings and LOS-blocking structures still stop you. |
 

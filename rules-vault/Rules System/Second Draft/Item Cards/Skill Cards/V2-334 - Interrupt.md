@@ -45,6 +45,7 @@ archetype: Hacker
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill INT roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Interrupt
@@ -58,6 +59,7 @@ While in contact with a terminal, spend ALERT to oppose an enemy terminal intera
 | Field | Value |
 | --- | --- |
 | Skill | Interrupt |
+| Archetype | Hacker |
 | Use | ALERT |
 | Effect | While in contact with a terminal, spend ALERT to oppose an enemy terminal interaction within 12 inches on the same network. Test INT; success cancels the interaction and Freezes that terminal until the End Phase. No line of sight to the hacker is required. Ties favour the active hacker. |
 

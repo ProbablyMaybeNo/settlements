@@ -31,6 +31,7 @@ tags:
 - int
 approval_source: Ross’s selected twelve-skill INT roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Drone Operator
@@ -44,6 +45,7 @@ Unlock ground drones.
 | Field | Value |
 | --- | --- |
 | Skill | Drone Operator |
+| Archetype | Artificer |
 | Use | Passive |
 | Effect | Unlock ground drones. |
 

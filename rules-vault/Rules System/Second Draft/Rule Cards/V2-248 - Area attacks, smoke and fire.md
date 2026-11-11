@@ -21,7 +21,7 @@ tags:
 - interaction
 summary: Blast
 status: Drafted
-review_status: Needs review
+review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 last_rule_update: '2026-11-10'

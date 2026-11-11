@@ -78,6 +78,10 @@ Each skill states its action cost. Passive skills require no action. Specific sk
 
 Each Stat has three archetypes and twelve selected skills. Specific skill text may override ordinary limits. Only the approved current catalogue entries are available in the test packet.
 
+An aura is centred on its source. A unit maintains one active aura until it replaces it or becomes Down. Big Aura permits two. Each aura states its radius and affected units.
+
+^skill-aura
+
 ## Links
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

@@ -31,6 +31,7 @@ tags:
 - str
 approval_source: Ross’s selected twelve-skill STR roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Human Bullet
@@ -44,6 +45,7 @@ Use MOVE + 2d6 for Charge distance instead of MOVE + d6. Declare a target within
 | Field | Value |
 | --- | --- |
 | Skill | Human Bullet |
+| Archetype | Charger |
 | Use | Passive |
 | Effect | Use MOVE + 2d6 for Charge distance instead of MOVE + d6. Declare a target within MOVE + 12 inches. |
 

@@ -12,7 +12,8 @@ tags:
 - equipment
 - visibility
 - consumable
-summary: Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-inch-diameter smoke screen; a miss Scatters. It clears at this round’s End Phase. Single-use.
+summary: Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-inch-diameter smoke screen;
+  a miss Scatters. It clears at this round’s End Phase. Single-use.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -21,13 +22,16 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Armour and supplies]]'
 review_notes: ''
-credits: 5
+credits: TBD
 equipment_slots: 1 per pair
-rule: Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-inch-diameter smoke screen; a miss Scatters. It clears at this round’s End Phase. Single-use.
+rule: Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-inch-diameter smoke screen;
+  a miss Scatters. It clears at this round’s End Phase. Single-use.
 access: Basic
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards|Shared terrain operations and hazards]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke
+  and fire]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-176 - Shared terrain operations and hazards|Shared terrain
+  operations and hazards]]'
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
@@ -35,6 +39,8 @@ catalogue_id: V2-493
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies]]'
 consolidated: '2026-10-25'
 last_rule_update: '2026-11-09'
+legacy_credits: 5
+price_status: Deferred
 ---
 
 # Smoke grenade
@@ -48,7 +54,7 @@ Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-in
 | Field | Value |
 | --- | --- |
 | Item | Smoke grenade |
-| Credits | 5 |
+| Credits | TBD |
 | Equipment slots | 1 per pair |
 | Rule | Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-inch-diameter smoke screen; a miss Scatters. It clears at this round’s End Phase. Single-use. |
 | Access | Basic |
@@ -62,13 +68,3 @@ Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-in
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-493 - Consumables and medical supplies|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
-
-### Equipment consolidation — 2026-11-09
-
-[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Ross’s original equipment decisions]]. The later explicit Scatter instruction replaces the old fixed 2-inch placement failure. A remaining grenade still occupies the pair’s slot.

@@ -33,6 +33,7 @@ tags:
 - dex
 approval_source: Ross’s selected twelve-skill DEX roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Planning Ahead
@@ -46,6 +47,7 @@ Carry two two-handed ranged weapons, or one one-handed and one two-handed ranged
 | Field | Value |
 | --- | --- |
 | Skill | Planning Ahead |
+| Archetype | General |
 | Use | Passive |
 | Effect | Carry two two-handed ranged weapons, or one one-handed and one two-handed ranged weapon. Choose your active weapon at activation start. |
 

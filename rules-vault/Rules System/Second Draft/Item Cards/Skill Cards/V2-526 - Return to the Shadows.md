@@ -33,6 +33,7 @@ tags:
 - agi
 approval_source: Ross’s selected twelve-skill AGI roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Return to the Shadows
@@ -46,6 +47,7 @@ Once per round after melee, move up to 6 inches without Disengaging. End in or b
 | Field | Value |
 | --- | --- |
 | Skill | Return to the Shadows |
+| Archetype | Stalker |
 | Use | Triggered |
 | Effect | Once per round after melee, move up to 6 inches without Disengaging. End in or behind Heavy cover and outside ALERT enemies’ line of sight; Hide if eligible. |
 

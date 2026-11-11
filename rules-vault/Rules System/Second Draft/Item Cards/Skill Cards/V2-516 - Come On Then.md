@@ -32,6 +32,7 @@ tags:
 - skill
 - str
 approval_source: 'Ross’s explicit 10 November 2026 follow-up answer: start-of-next-activation expiry'
+price_status: null
 ---
 
 # Come On Then
@@ -45,6 +46,7 @@ Spend Core and test STR. On success, enemies within 6 inches must target you wit
 | Field | Value |
 | --- | --- |
 | Skill | Come On Then |
+| Archetype | Tank |
 | Use | Core |
 | Effect | Spend Core and test STR. On success, enemies within 6 inches must target you with their Attack actions until the start of your next activation. Normal targeting requirements still apply. |
 

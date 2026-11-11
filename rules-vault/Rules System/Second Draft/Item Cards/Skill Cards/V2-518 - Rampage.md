@@ -33,6 +33,7 @@ tags:
 - str
 approval_source: Ross’s selected twelve-skill STR roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Rampage
@@ -46,6 +47,7 @@ After Downing an enemy with a Charge attack, move the remaining Charge distance.
 | Field | Value |
 | --- | --- |
 | Skill | Rampage |
+| Archetype | Charger |
 | Use | Triggered |
 | Effect | After Downing an enemy with a Charge attack, move the remaining Charge distance. If you reach another enemy within 1 inch, make a free melee attack against it. |
 

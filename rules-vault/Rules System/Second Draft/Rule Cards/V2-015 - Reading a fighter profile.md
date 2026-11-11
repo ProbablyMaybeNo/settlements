@@ -44,8 +44,10 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Item Cards/Characteristic Cards/V2-460 - INT characteristic|INT characteristic]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Characteristic Cards/V2-461 - NRV characteristic|NRV characteristic]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Characteristic Cards/V2-462 - MOVE characteristic|MOVE characteristic]]'
-- '[[Settlements/Rules System/Second Draft/Item Cards/Characteristic Cards/V2-463 - Wounds characteristic|Wounds characteristic]]'
-- '[[Settlements/Rules System/Second Draft/Item Cards/Characteristic Cards/V2-464 - Armour characteristic|Armour characteristic]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Characteristic Cards/V2-463 - Wounds characteristic|Wounds
+  characteristic]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Characteristic Cards/V2-464 - Armour characteristic|Armour
+  characteristic]]'
 planned_section: 02 · Core Mechanics
 rule_parent: Reading Your Unit Card
 consolidated: '2026-10-25'
@@ -170,7 +172,3 @@ Stats range from 0 to +6. Zero represents no particular training under combat pr
 ## Links
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Rule index]]
-
-## Design notes
-
-Consolidated without changing rule meaning on 2026-10-25. Original per-rule statuses, dates and feedback are retained in `component_rules` and the dated source snapshot.

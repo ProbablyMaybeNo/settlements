@@ -8,32 +8,39 @@ book_chapter: 7
 book_section: Equipment
 book_subsection: Deployables and Drones
 tags:
-  - settlements/v2
-  - device
-  - cover
-summary: Spend Core to deploy a cover line up to 3 inches long and 1 inch high in contact. It provides Heavy cover to either crew and cannot be shot away.
+- settlements/v2
+- device
+- cover
+summary: Spend Core to deploy a cover line up to 3 inches long and 1 inch high in contact. It provides Heavy cover
+  to either crew and cannot be shot away.
 status: Drafted
 review_status: Unreviewed
 publication: Included
 created: 2026-10-18
 source:
-  - "[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version 2#Common deployables]]"
-review_notes: ""
-credits: 15
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
+  2#Common deployables]]'
+review_notes: ''
+credits: TBD
 slots: 1
-effect: Place a line up to 3 inches long and 1 inch high; heavy cover. It is physical terrain, not an electronic device, and cannot be shot away.
+effect: Place a line up to 3 inches long and 1 inch high; heavy cover. It is physical terrain, not an electronic
+  device, and cannot be shot away.
 related_rules:
-  - "[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Deploying, revealing, disarming and damaging devices]]"
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Deploying,
+  revealing, disarming and damaging devices]]'
 planned_section: 07 · Equipment
 rule_parent: Tools and Supplies
 card_kind: Equipment
 catalogue_id: V2-492
-catalogue: "[[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment]]"
+catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-492 - Tools and equipment]]'
 consolidated: 2026-10-25
-rule: Spend Core to deploy a cover line up to 3 inches long and 1 inch high in contact. It provides Heavy cover to either crew and cannot be shot away.
+rule: Spend Core to deploy a cover line up to 3 inches long and 1 inch high in contact. It provides Heavy cover
+  to either crew and cannot be shot away.
 equipment_slots: 1
 last_rule_update: 2026-11-09
 access: Basic
+legacy_credits: 15
+price_status: Deferred
 ---
 
 # Folding barricade
@@ -47,7 +54,7 @@ Spend Core to deploy a cover line up to 3 inches long and 1 inch high in contact
 | Field | Value |
 | --- | --- |
 | Item | Folding barricade |
-| Credits | 15 |
+| Credits | TBD |
 | Equipment slots | 1 |
 | Rule | Spend Core to deploy a cover line up to 3 inches long and 1 inch high in contact. It provides Heavy cover to either crew and cannot be shot away. |
 | Access | Basic |
@@ -60,13 +67,3 @@ Spend Core to deploy a cover line up to 3 inches long and 1 inch high in contact
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-497 - Deployable equipment catalogue|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
-
-### Equipment consolidation — 2026-11-09
-
-[[Settlements/Design Workshop/Battle Catalogue Review/Equipment Category Review|Ross’s original equipment decisions]]. Retained as ordinary Equipment, available without a deployable-unlock skill. The shared Deploy procedure supplies placement and reserved capacity.

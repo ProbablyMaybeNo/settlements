@@ -3,7 +3,7 @@ type: settlements-rule-family
 family_name: Fighting Battles
 family_order: 4
 tags:
-  - settlements/rule-family
+- settlements/rule-family
 progress_status: Drafted
 included_rules: 41
 deferred_rules: 0
@@ -19,7 +19,7 @@ included_parents: 18
 locked_parents: 0
 parent_summary: 0/18 included parents final · 18 parent groups total
 cssclasses:
-  - settlements-rule-group
+- settlements-rule-group
 ---
 
 # Fighting Battles

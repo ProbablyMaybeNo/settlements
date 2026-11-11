@@ -14,7 +14,7 @@ rule_id: V2-493
 rule_name: Consumables and medical supplies
 entry_type: Catalogue
 summary: 'Consumables and medical supplies: complete table with links to individual equipment cards.'
-status: Partial
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-25'
@@ -45,6 +45,8 @@ catalogue_members:
 - V2-508
 - V2-509
 last_rule_update: '2026-11-09'
+approval_source: Complete current profile/procedure from Ross’s reviewed battle catalogue; obsolete Partial bookkeeping
+  reconciled.
 ---
 
 # Consumables and medical supplies
@@ -88,7 +90,3 @@ Consumables and medical supplies: complete table with links to individual equipm
 
 [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-pinned|Pinned]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-down|Down]] · [[Settlements/Rules System/Second Draft/Conditions Reference#^condition-stress|Stress]]
 <!-- conditions-reference:end -->
-
-## Design notes
-
-Edit each item's Rule text in its linked card. This table refreshes automatically. Catalogue status follows its item statuses.

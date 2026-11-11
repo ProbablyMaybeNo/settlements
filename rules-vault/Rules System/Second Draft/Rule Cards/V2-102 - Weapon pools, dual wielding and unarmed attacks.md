@@ -76,13 +76,13 @@ A normal ranged Attack uses one firearm. **Gunslinger** permits firing two one-h
 
 ^text-s030-b000
 
-Two one-handed Agile melee weapons may be paired without a skill. Use the primary weapon’s full ATK plus one identifiable off-hand die. Ambidextrous instead uses both full ATK values. Each die keeps its weapon’s Damage and keywords.
+Two one-handed Agile melee weapons may be paired without a skill. Use both weapons’ full ATK, keeping each weapon’s Damage and keywords identifiable.
 
 Build both units’ base melee pools from their eligible weapons using the same rules. Add attack-only bonuses when attacking and defence-only bonuses when defending. Only the attacker’s uncancelled successes cause hits.
 
 ^text-s030-b001
 
-A normal paired-weapon pool has a three-die maximum unless a specific rule overrides it. Charge and Aerial Assault have no three-die maximum. Gunslinger and Ambidextrous use their stated full pools.
+Use the full permitted weapon pools. Charge, Aerial Assault, skills, Parry and shields add their stated dice; there is no general three-die ceiling.
 
 A fighter without an eligible melee weapon may use Unarmed: one die, Damage 0. Close Combat permits the weapon’s listed attack while Engaged; a firearm used in a melee pool uses STR unless a specific rule changes the Stat. Reload still applies.
 

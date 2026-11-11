@@ -33,6 +33,7 @@ tags:
 - dex
 approval_source: Ross’s selected twelve-skill DEX roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Watch Out!
@@ -46,6 +47,7 @@ When a friendly within 12 inches and line of sight is Charged, spend your Core o
 | Field | Value |
 | --- | --- |
 | Skill | Watch Out! |
+| Archetype | Watcher |
 | Use | Core or ALERT |
 | Effect | When a friendly within 12 inches and line of sight is Charged, spend your Core or ALERT to let it Shoot before the Charge completes. |
 

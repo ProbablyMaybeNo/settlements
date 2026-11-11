@@ -34,7 +34,7 @@ hands: 2
 weapon_slots: 2
 keywords:
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-456 - Heavy|Heavy]]'
-- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-233 - Automatic X|Automatic]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-233 - Automatic|Automatic]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-245 - Unwieldy|Unwieldy]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-242 - Suppression|Suppression]]'
 related_rules:
@@ -45,7 +45,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Crew composition and item limits|Long-range weapon
   limit]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-456 - Heavy|Heavy]]'
-- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-233 - Automatic X|Automatic]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-233 - Automatic|Automatic]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-245 - Unwieldy|Unwieldy]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-242 - Suppression|Suppression]]'
 planned_section: 07 · Equipment
@@ -85,13 +85,3 @@ ATK 3; DMG 4; 24 inches; 2 hand(s). Heavy, Automatic, Unwieldy, Suppression. Pri
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-486 - Standard weapons|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
-
-### Weapon decisions — 2026-11-10
-
-Current battle-test profile and keyword assignments accepted in chat. ATK is the base dice pool; Automatic adds no dice. Previous prices are obsolete and retained only as historical metadata.

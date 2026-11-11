@@ -162,7 +162,7 @@ Success clears all Stress. On failure, apply the condition for its current Stres
 | --- | --- |
 | 1–2 | The unit becomes Broken and Pinned. |
 | 3–4 | The unit starts Bolting. |
-| 5 | The unit starts Bugging Out. |
+| 5+ | The unit starts Bugging Out. |
 
 ^text-s043-b002
 

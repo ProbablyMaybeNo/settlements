@@ -39,6 +39,7 @@ archetype: Anchor
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill NRV roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Hold Fast
@@ -52,6 +53,7 @@ Spend Core and test NRV to activate a 6-inch aura. Injury rolls against friendli
 | Field | Value |
 | --- | --- |
 | Skill | Hold Fast |
+| Archetype | Anchor |
 | Use | Core |
 | Effect | Spend Core and test NRV to activate a 6-inch aura. Injury rolls against friendlies within it suffer −2. |
 

@@ -31,6 +31,7 @@ tags:
 - int
 approval_source: Ross’s selected twelve-skill INT roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Field Engineer
@@ -44,6 +45,7 @@ Unlock turrets, traps and mines.
 | Field | Value |
 | --- | --- |
 | Skill | Field Engineer |
+| Archetype | Artificer |
 | Use | Passive |
 | Effect | Unlock turrets, traps and mines. |
 

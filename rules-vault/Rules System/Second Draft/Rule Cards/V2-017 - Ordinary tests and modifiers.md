@@ -114,6 +114,10 @@ Injury, initiative and distance rolls ignore Stress. Break and Rally tests subtr
 
 ^specific-skill-cap-exceptions
 
+Extra Attack or defence dice are pool additions, not roll modifiers. Add the dice from each applicable source using its stated limits.
+
+^pool-additions
+
 ## Links
 
 - [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Current rule index]]

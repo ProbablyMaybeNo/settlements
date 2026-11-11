@@ -39,6 +39,7 @@ archetype: Ghost
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill AGI roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Ghost
@@ -52,6 +53,7 @@ Once per round, shooting does not itself remove your Hidden condition. Other rev
 | Field | Value |
 | --- | --- |
 | Skill | Ghost |
+| Archetype | Ghost |
 | Use | Passive |
 | Effect | Once per round, shooting does not itself remove your Hidden condition. Other reveal triggers still apply. |
 

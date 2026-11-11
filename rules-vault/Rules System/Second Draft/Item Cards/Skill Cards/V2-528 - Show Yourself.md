@@ -31,6 +31,7 @@ tags:
 - agi
 approval_source: Ross’s selected twelve-skill AGI roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Show Yourself
@@ -44,6 +45,7 @@ While Hidden, enemies may target you only within 6 inches instead of 12. Normal 
 | Field | Value |
 | --- | --- |
 | Skill | Show Yourself |
+| Archetype | Ghost |
 | Use | Passive |
 | Effect | While Hidden, enemies may target you only within 6 inches instead of 12. Normal reveal rules still apply. |
 

@@ -43,6 +43,7 @@ archetype: Stalker
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill AGI roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Ambush
@@ -56,6 +57,7 @@ Charge from Hidden and test AGI. Success gives one weapon’s attack +4 to hit a
 | Field | Value |
 | --- | --- |
 | Skill | Ambush |
+| Archetype | Stalker |
 | Use | Charge modifier |
 | Effect | Charge from Hidden and test AGI. Success gives one weapon’s attack +4 to hit and Injury. On failure, the target may spend an unused action to make a melee attack against you first. Resolve both exchanges using the normal defence-only melee rules. |
 

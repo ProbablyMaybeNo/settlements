@@ -32,7 +32,7 @@ related_rules:
 - '[[Settlements/Rules System/Second Draft/Item Cards/Training Grade Cards/V2-031 - Fighter grade|Fighter grade]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Training Grade Cards/V2-032 - Specialist grade|Specialist
   grade]]'
-- '[[Settlements/Rules System/Second Draft/Item Cards/Training Grade Cards/V2-033 - Leader grade|Leader grade]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Training Grade Cards/V2-033 - Veteran grade|Leader grade]]'
 planned_section: 06 · The Crew
 rule_parent: Starting and Recruiting a Crew
 consolidated: '2026-10-25'

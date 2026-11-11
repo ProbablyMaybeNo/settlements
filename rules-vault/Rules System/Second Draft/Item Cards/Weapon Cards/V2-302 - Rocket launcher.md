@@ -16,7 +16,7 @@ tags:
 - hit-minus
 - armour-minus
 summary: ATK 1; DMG 5; 24 inches; 2 hand(s). Heavy, Blast 3″, Piercing, Single-Use, Unwieldy. Price deferred.
-status: Partial
+status: Drafted
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
@@ -36,7 +36,7 @@ weapon_slots: 2
 keywords:
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-456 - Heavy|Heavy]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-247 - Blast|Blast]]'
-- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-238 - Piercing X|Piercing]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-238 - Piercing|Piercing]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-244 - Single-use|Single-Use]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-245 - Unwieldy|Unwieldy]]'
 related_rules:
@@ -48,7 +48,7 @@ related_rules:
   limit]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-456 - Heavy|Heavy]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-247 - Blast|Blast]]'
-- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-238 - Piercing X|Piercing]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-238 - Piercing|Piercing]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-244 - Single-use|Single-Use]]'
 - '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-245 - Unwieldy|Unwieldy]]'
 planned_section: 07 · Equipment
@@ -61,6 +61,8 @@ legacy_credits: 60
 atk: 1
 price_status: Deferred
 last_rule_update: '2026-11-10'
+approval_source: Complete current profile/procedure from Ross’s reviewed battle catalogue; obsolete Partial bookkeeping
+  reconciled.
 ---
 
 # Rocket launcher
@@ -88,13 +90,3 @@ ATK 1; DMG 5; 24 inches; 2 hand(s). Heavy, Blast 3″, Piercing, Single-Use, Unw
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-486 - Standard weapons|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
-
-### Weapon decisions — 2026-11-10
-
-Current battle-test profile and keyword assignments accepted in chat. ATK is the base dice pool; Automatic adds no dice. Previous prices are obsolete and retained only as historical metadata.

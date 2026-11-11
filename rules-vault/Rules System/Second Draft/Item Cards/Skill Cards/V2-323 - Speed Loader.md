@@ -39,6 +39,7 @@ archetype: General
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill DEX roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Speed Loader
@@ -52,6 +53,7 @@ Once per round, reload one ranged weapon while taking a Move action.
 | Field | Value |
 | --- | --- |
 | Skill | Speed Loader |
+| Archetype | General |
 | Use | Passive |
 | Effect | Once per round, reload one ranged weapon while taking a Move action. |
 

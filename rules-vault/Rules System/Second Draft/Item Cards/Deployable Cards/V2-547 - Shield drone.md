@@ -8,19 +8,22 @@ book_subsection: Deployables
 book_chapter: 7
 created: 2026-11-10
 review_status: Unreviewed
-review_notes: ""
+review_notes: ''
 source: []
 rule_name: Shield drone
-summary: Ignore one successful hit from each attack. It blocks enemy fire while allowing friendly fire through it. Friendlies directly behind it have Heavy cover; an enemy with no line of sight around its base cannot target them.
-effect: Ignore one successful hit from each attack. It blocks enemy fire while allowing friendly fire through it. Friendlies directly behind it have Heavy cover; an enemy with no line of sight around its base cannot target them.
+summary: Ignore one successful hit from each attack. It blocks enemy fire while allowing friendly fire through it.
+  Friendlies directly behind it have Heavy cover; an enemy with no line of sight around its base cannot target them.
+effect: Ignore one successful hit from each attack. It blocks enemy fire while allowing friendly fire through it.
+  Friendlies directly behind it have Heavy cover; an enemy with no line of sight around its base cannot target them.
 status: Drafted
 publication: Included
 last_rule_update: 2026-11-10
 catalogue_id: V2-497
-catalogue: "[[Settlements/Rules System/Second Draft/Rule Cards/V2-497 - Deployable equipment catalogue]]"
+catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-497 - Deployable equipment catalogue]]'
 rule_parent: Deployables
 category: Deployables
-approval_source: Ross’s written deployable list and later drone/Decoy Mine decisions; latest chat overrides older summaries.
+approval_source: Ross’s written deployable list and later drone/Decoy Mine decisions; latest chat overrides older
+  summaries.
 device_type: Ground drone
 slots: 1
 base_mm: 40
@@ -30,6 +33,7 @@ wounds: 1
 armour: 4
 required_skill: Drone Operator
 credits: TBD
+price_status: Deferred
 ---
 
 # Shield drone

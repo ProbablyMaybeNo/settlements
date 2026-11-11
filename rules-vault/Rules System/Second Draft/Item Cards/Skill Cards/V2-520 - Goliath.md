@@ -15,10 +15,8 @@ rule_name: Goliath
 stat: STR
 archetype: General
 use: Passive
-effect: Wield two two-handed melee weapons as one-handed weapons. The off hand contributes one die unless another
-  rule changes it.
-summary: Wield two two-handed melee weapons as one-handed weapons. The off hand contributes one die unless another
-  rule changes it.
+effect: Wield two two-handed melee weapons together as one-handed weapons.
+summary: Wield two two-handed melee weapons together as one-handed weapons.
 status: Drafted
 publication: Included
 last_rule_update: '2026-11-10'
@@ -33,21 +31,23 @@ tags:
 - str
 approval_source: Ross’s selected twelve-skill STR roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Goliath
 
 ## Summary
 
-Wield two two-handed melee weapons as one-handed weapons. The off hand contributes one die unless another rule changes it.
+Wield two two-handed melee weapons together as one-handed weapons.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Skill | Goliath |
+| Archetype | General |
 | Use | Passive |
-| Effect | Wield two two-handed melee weapons as one-handed weapons. The off hand contributes one die unless another rule changes it. |
+| Effect | Wield two two-handed melee weapons together as one-handed weapons. |
 
 ^skill-v2-520
 

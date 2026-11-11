@@ -32,6 +32,7 @@ catalogue_id: V2-015
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Reading a fighter profile]]'
 consolidated: '2026-10-25'
 last_rule_update: '2026-11-10'
+price_status: null
 ---
 
 # Armour characteristic
@@ -53,9 +54,3 @@ Armour is subtracted from Injury rolls. Basic worn Armour is 2, 4 or 6; it grant
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-015 - Reading a fighter profile|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->

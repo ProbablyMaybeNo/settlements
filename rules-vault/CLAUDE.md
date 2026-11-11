@@ -1,3 +1,3 @@
-# Settlements — agent entry point
+# Settlements agent entry point
 
-Follow Rules System/Second Draft/AGENTS.md and START HERE - Settlements Project.md. Individual Rule Cards own the current text. Use the single live index and automatic Family/Parent completion boards; historical catalogues and dashboards are archived outside this project. Do not restore historical mechanics or duplicate rule text. Edit the live vault and mirror afterward.
+Read `START HERE - Settlements Project.md` and `Rules System/Second Draft/AGENTS.md`. Current approved rules are owned by individual cards; current catalogues are generated from item owners. Read the assembled master for the current rule set. Superseded and unapproved material is archived outside the active project. Edit live owners, preserve IDs and anchors, and mirror afterward.

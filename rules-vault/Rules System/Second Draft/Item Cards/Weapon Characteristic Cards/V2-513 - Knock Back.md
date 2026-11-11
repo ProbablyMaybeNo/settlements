@@ -24,6 +24,7 @@ review_notes: ''
 rule: On a successful hit, push the target directly away by the printed distance. Resolve falls and hazards normally.
 last_rule_update: '2026-11-10'
 summary: On a successful hit, push the target directly away by the printed distance. Resolve falls and hazards normally.
+price_status: null
 ---
 
 # Knock Back
@@ -44,5 +45,3 @@ On a successful hit, push the target directly away by the printed distance. Reso
 ## Links
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics|Keyword catalogue]]
-
-## Design notes

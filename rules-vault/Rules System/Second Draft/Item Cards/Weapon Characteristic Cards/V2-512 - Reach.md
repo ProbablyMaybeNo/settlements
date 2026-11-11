@@ -26,6 +26,7 @@ rule: Make melee attacks against enemies within 3 inches. The units are not lock
 last_rule_update: '2026-11-10'
 summary: Make melee attacks against enemies within 3 inches. The units are not locked in combat unless the enemy
   also has Reach; otherwise, the wielder may move away without Disengaging.
+price_status: null
 ---
 
 # Reach
@@ -46,5 +47,3 @@ Make melee attacks against enemies within 3 inches. The units are not locked in 
 ## Links
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics|Keyword catalogue]]
-
-## Design notes

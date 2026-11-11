@@ -14,7 +14,7 @@ tags:
 - measurement
 summary: Follow the scenario's objective rules. The scenario states how actions, tests, unit counts and other conditions
   determine control and claiming.
-status: Drafted
+status: Confirmed
 review_status: Unreviewed
 publication: Included
 created: '2026-10-18'

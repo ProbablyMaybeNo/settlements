@@ -33,6 +33,7 @@ tags:
 - int
 approval_source: Ross’s selected twelve-skill INT roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Field Coordination
@@ -46,6 +47,7 @@ Spend Core to give two friendlies within 6 inches an extra Move during their nex
 | Field | Value |
 | --- | --- |
 | Skill | Field Coordination |
+| Archetype | General |
 | Use | Core |
 | Effect | Spend Core to give two friendlies within 6 inches an extra Move during their next activation. Each gains 1 Stress afterwards. |
 

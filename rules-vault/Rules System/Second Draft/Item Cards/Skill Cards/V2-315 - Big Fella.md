@@ -39,6 +39,7 @@ archetype: General
 last_rule_update: '2026-11-10'
 approval_source: Ross’s selected twelve-skill STR roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Big Fella
@@ -52,6 +53,7 @@ Ignore Unwieldy on your weapons.
 | Field | Value |
 | --- | --- |
 | Skill | Big Fella |
+| Archetype | General |
 | Use | Passive |
 | Effect | Ignore Unwieldy on your weapons. |
 

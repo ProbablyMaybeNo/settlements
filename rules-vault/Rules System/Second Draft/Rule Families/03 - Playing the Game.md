@@ -3,7 +3,7 @@ type: settlements-rule-family
 family_name: Playing the Game
 family_order: 3
 tags:
-  - settlements/rule-family
+- settlements/rule-family
 progress_status: Drafted
 included_rules: 2
 deferred_rules: 0
@@ -19,7 +19,7 @@ included_parents: 2
 locked_parents: 0
 parent_summary: 0/2 included parents final · 2 parent groups total
 cssclasses:
-  - settlements-rule-group
+- settlements-rule-group
 ---
 
 # Playing the Game

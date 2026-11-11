@@ -16,8 +16,8 @@ tags:
 - review
 - hit-minus
 summary: ATK Auto; DMG 2; 8 inches; 2 hand(s). Heavy, Template 8″, Unwieldy. Price deferred.
-status: Partial
-review_status: Needs review
+status: Drafted
+review_status: Unreviewed
 publication: Included
 created: '2026-10-18'
 source:
@@ -57,6 +57,8 @@ legacy_credits: 65
 atk: Auto
 price_status: Deferred
 last_rule_update: '2026-11-10'
+approval_source: Complete current profile/procedure from Ross’s reviewed battle catalogue; obsolete Partial bookkeeping
+  reconciled.
 ---
 
 # Flamethrower
@@ -84,13 +86,3 @@ ATK Auto; DMG 2; 8 inches; 2 hand(s). Heavy, Template 8″, Unwieldy. Price defe
 
 - [[Settlements/Rules System/Second Draft/Rule Cards/V2-486 - Standard weapons|Catalogue table]]
 - [[Settlements/Rules System/Second Draft/Item Cards - Library|Item card library]]
-
-## Design notes
-
-<!-- Add feedback here. Existing review-table comments are also preserved. -->
-
-<!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
-
-### Weapon decisions — 2026-11-10
-
-Current battle-test profile and keyword assignments accepted in chat. ATK is the base dice pool; Automatic adds no dice. Previous prices are obsolete and retained only as historical metadata.

@@ -33,6 +33,7 @@ tags:
 - agi
 approval_source: Ross’s selected twelve-skill AGI roster and latest chat rulings; original selected effect preserved
   where unchanged
+price_status: null
 ---
 
 # Blade Fury
@@ -46,6 +47,7 @@ Once per round, after Downing an enemy in melee, move and attack another within 
 | Field | Value |
 | --- | --- |
 | Skill | Blade Fury |
+| Archetype | Duelist |
 | Use | Triggered |
 | Effect | Once per round, after Downing an enemy in melee, move and attack another within 6 inches. If it goes Down, repeat once against another within 3 inches. |
 
