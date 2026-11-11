@@ -13,7 +13,7 @@ tags:
 - combat
 - injury
 - dice
-summary: Per hit roll two Injury dice; use higher raw result as one Injury roll.
+summary: Reduce the target’s Armour by 4 when resolving Injury rolls, to a minimum of 0.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,8 +22,7 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Characteristics]]'
 review_notes: ''
-rule: For each hit, roll two Injury dice and use the higher raw result as that hit's one Injury roll. It cannot
-  cause two Wounds from one hit.
+rule: Reduce the target’s Armour by 4 when resolving Injury rolls, to a minimum of 0.
 related_rules: []
 planned_section: 07 · Equipment
 rule_parent: Weapon keywords
@@ -31,20 +30,21 @@ card_kind: Weapon keyword
 catalogue_id: V2-495
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-10'
 ---
 
 # Brutal
 
 ## Summary
 
-Per hit roll two Injury dice; use higher raw result as one Injury roll.
+Reduce the target’s Armour by 4 when resolving Injury rolls, to a minimum of 0.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Characteristic | Brutal |
-| Rule | For each hit, roll two Injury dice and use the higher raw result as that hit's one Injury roll. It cannot cause two Wounds from one hit. |
+| Rule | Reduce the target’s Armour by 4 when resolving Injury rolls, to a minimum of 0. |
 
 ^text-s064-b006
 

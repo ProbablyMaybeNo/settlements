@@ -35,3 +35,7 @@ Reviewed all five twelve-skill working lists. The structure works; explicit modi
 The current Skill Lab README explicitly targets the September 75-skill/d20-15+ contract. Current owning cards also retain some older melee and morale wording. Consolidate and snapshot the sixty-skill selection with the current core rules before modifying/running that engine. This is implementation/data work, not another set of player-facing rules.
 
 No simulations were run for this review. The report identifies functional gaps, not balance verdicts; parked skills remain recoverable.
+
+## Weapon update — 2026-11-10
+
+Dagger/Shiv and Sword/Machete now print ATK 2, so Ambidextrous can improve the off-hand melee contribution. Gunslinger still needs a useful benefit while the current one-handed firearms print ATK 1. This update does not approve the other pending skill recommendations.

@@ -13,7 +13,7 @@ tags:
 - combat
 - ranged
 - hit-plus
-summary: +1 ranged hit within half printed range; no melee benefit.
+summary: Reroll one missed Attack Die.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,7 +22,7 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Characteristics]]'
 review_notes: ''
-rule: +1 to hit when the target is within half the weapon's printed range. No benefit in melee.
+rule: Reroll one missed Attack Die.
 related_rules: []
 planned_section: 07 · Equipment
 rule_parent: Weapon keywords
@@ -30,20 +30,21 @@ card_kind: Weapon keyword
 catalogue_id: V2-495
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-10'
 ---
 
 # Accurate
 
 ## Summary
 
-+1 ranged hit within half printed range; no melee benefit.
+Reroll one missed Attack Die.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Characteristic | Accurate |
-| Rule | +1 to hit when the target is within half the weapon's printed range. No benefit in melee. |
+| Rule | Reroll one missed Attack Die. |
 
 ^text-s064-b000
 

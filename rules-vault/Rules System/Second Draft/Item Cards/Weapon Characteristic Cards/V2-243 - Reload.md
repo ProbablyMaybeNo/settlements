@@ -12,7 +12,8 @@ tags:
 - trait
 - combat
 - core
-summary: Starts loaded; firing unloads; Core reloads before firing again.
+summary: The weapon starts loaded. After firing, it cannot fire again until its wielder spends a Core action to
+  Reload.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,7 +23,7 @@ source:
   2#Characteristics]]'
 review_notes: ''
 action_cost: Core
-rule: After firing, mark unloaded. Spend Core to Reload before firing again. A weapon begins the battle loaded.
+rule: The weapon starts loaded. After firing, it cannot fire again until its wielder spends a Core action to Reload.
 related_rules: []
 planned_section: 07 · Equipment
 rule_parent: Weapon keywords
@@ -30,20 +31,21 @@ card_kind: Weapon keyword
 catalogue_id: V2-495
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-10'
 ---
 
 # Reload
 
 ## Summary
 
-Starts loaded; firing unloads; Core reloads before firing again.
+The weapon starts loaded. After firing, it cannot fire again until its wielder spends a Core action to Reload.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Characteristic | Reload |
-| Rule | After firing, mark unloaded. Spend Core to Reload before firing again. A weapon begins the battle loaded. |
+| Rule | The weapon starts loaded. After firing, it cannot fire again until its wielder spends a Core action to Reload. |
 
 ^text-s064-b012
 

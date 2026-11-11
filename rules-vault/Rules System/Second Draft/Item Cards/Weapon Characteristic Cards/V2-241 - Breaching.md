@@ -1,7 +1,7 @@
 ---
 type: settlements-item-card
 rule_id: V2-241
-rule_name: Breaching
+rule_name: Breach
 entry_type: Weapon keyword
 category: Weapon traits
 book_chapter: 7
@@ -13,7 +13,7 @@ tags:
 - combat
 - test-plus
 - terrain
-summary: +2 STR to force physical door or simple obstruction with this tool.
+summary: +4 STR when using this weapon to break down doors.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -22,7 +22,7 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Characteristics]]'
 review_notes: ''
-rule: +2 STR when forcing a physical door or simple obstruction with this tool.
+rule: +4 STR when using this weapon to break down doors.
 related_rules: []
 planned_section: 07 · Equipment
 rule_parent: Weapon keywords
@@ -30,20 +30,23 @@ card_kind: Weapon keyword
 catalogue_id: V2-495
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics]]'
 consolidated: '2026-10-25'
+aliases:
+- Breaching
+last_rule_update: '2026-11-10'
 ---
 
-# Breaching
+# Breach
 
 ## Summary
 
-+2 STR to force physical door or simple obstruction with this tool.
++4 STR when using this weapon to break down doors.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
-| Characteristic | Breaching |
-| Rule | +2 STR when forcing a physical door or simple obstruction with this tool. |
+| Characteristic | Breach |
+| Rule | +4 STR when using this weapon to break down doors. |
 
 ^text-s064-b010
 

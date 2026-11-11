@@ -12,7 +12,7 @@ tags:
 - weapon
 - combat
 - melee
-summary: '0 Cr; 1 dice; Dmg 0; Melee; 1 hand(s). None. Access: Always.'
+summary: ATK 1; DMG 0; Melee; 1 hand(s). None. Price deferred.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -32,22 +32,29 @@ hands: 1
 weapon_slots: 0
 keywords: []
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Weapon hands and slots]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-228 - Equipment profiles and provisional prices|Weapon profile fields]]'
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Crew composition and item limits|Long-range weapon limit]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Weapon hands
+  and slots]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-228 - Equipment profiles and provisional prices|Weapon
+  profile fields]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Crew composition and item limits|Long-range weapon
+  limit]]'
 planned_section: 07 · Equipment
 rule_parent: Weapons
 card_kind: Weapon
 catalogue_id: V2-486
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-486 - Standard weapons]]'
 consolidated: '2026-10-25'
+legacy_credits: 0
+atk: 1
+price_status: Deferred
+last_rule_update: '2026-11-10'
 ---
 
 # Unarmed
 
 ## Summary
 
-0 Cr; 1 dice; Dmg 0; Melee; 1 hand(s). None. Access: Always.
+ATK 1; DMG 0; Melee; 1 hand(s). None. Price deferred.
 
 ## Rule text
 
@@ -74,3 +81,7 @@ consolidated: '2026-10-25'
 <!-- Add feedback here. Existing review-table comments are also preserved. -->
 
 <!-- Canonical blocks live where their text is written. Embedded blocks reuse that text; follow the embed to edit its owner. Keep summary/properties consistent after a rules edit. -->
+
+### Weapon decisions — 2026-11-10
+
+Current battle-test profile and keyword assignments accepted in chat. ATK is the base dice pool; Automatic adds no dice. Previous prices are obsolete and retained only as historical metadata.

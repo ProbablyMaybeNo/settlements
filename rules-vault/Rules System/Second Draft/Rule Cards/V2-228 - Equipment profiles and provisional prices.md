@@ -26,7 +26,8 @@ source:
 - '[[Archive/Settlements/2026-10-25 - Rule card consolidation/Rule Cards/V2-243 - Reload]]'
 review_notes: ''
 related_rules:
-- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-228 - Equipment profiles and provisional prices|Shared provisional prices]]'
+- '[[Settlements/Rules System/Second Draft/Rule Cards/V2-228 - Equipment profiles and provisional prices|Shared
+  provisional prices]]'
 planned_section: 07 · Equipment
 rule_parent: Weapons
 consolidated: '2026-10-25'
@@ -38,13 +39,13 @@ component_rules:
 - rule_id: V2-228
   rule_name: Weapon profile fields
   status: Drafted
-  last_rule_update: null
+  last_rule_update: '2026-11-10'
   review_status: Unreviewed
   review_notes: ''
 - rule_id: V2-229
   rule_name: Shared provisional prices
   status: Drafted
-  last_rule_update: null
+  last_rule_update: '2026-11-10'
   review_status: Unreviewed
   review_notes: ''
 - rule_id: V2-243
@@ -53,6 +54,7 @@ component_rules:
   last_rule_update: null
   review_status: Unreviewed
   review_notes: ''
+last_rule_update: '2026-11-10'
 ---
 
 # Equipment profiles and provisional prices
@@ -65,13 +67,13 @@ Weapon profile fields; Shared provisional prices
 
 ### Weapon profile fields
 
-**Dice** is the number rolled for one attack action, before dual-wielding and Charge. **Damage** modifies Injury. **Range** is the maximum shooting range; Melee means within engagement. **Hands** and **Slots** determine what can be used and carried. **Access** names the settlement structure required to buy or craft the item; it never increases the agreed Crew Rating.
+**ATK (Dice)** is the base number rolled for one attack action, before dual-wielding, Charge and skills. Melee weapons may print multiple dice. Automatic identifies an automatic firearm and adds no dice. **Damage** modifies Injury. **Range** is the maximum shooting range; Melee means within engagement. **Hands** and **Slots** determine what can be used and carried. **Access** names the settlement structure required to buy or craft the item; it never increases the agreed Crew Rating.
 
 ^text-s062-b000
 
 ### Shared provisional prices
 
-All Credits in these catalogues are **provisional Version 2 prices**. Use the same published price sheet for both crews. No previous simulation result validates these new profiles or prices.
+Weapon prices are deferred for a complete pricing pass. Historical prices are not current test costs. Both crews must use the same agreed test-price sheet when one is supplied.
 
 ^text-s062-b001
 

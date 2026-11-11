@@ -12,7 +12,7 @@ tags:
 - trait
 - combat
 - stress
-summary: 'Attack hits but causes no Wound: add one extra Stress, once per attack.'
+summary: Hits that do not wound apply Pinned to the target.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -21,7 +21,7 @@ source:
 - '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
   2#Characteristics]]'
 review_notes: ''
-rule: If this attack hits but causes no Wound, add one extra Stress to the target, once for the whole attack.
+rule: Hits that do not wound apply Pinned to the target.
 related_rules: []
 planned_section: 07 · Equipment
 rule_parent: Weapon keywords
@@ -29,20 +29,21 @@ card_kind: Weapon keyword
 catalogue_id: V2-495
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics]]'
 consolidated: '2026-10-25'
+last_rule_update: '2026-11-10'
 ---
 
 # Suppression
 
 ## Summary
 
-Attack hits but causes no Wound: add one extra Stress, once per attack.
+Hits that do not wound apply Pinned to the target.
 
 ## Rule text
 
 | Field | Value |
 | --- | --- |
 | Characteristic | Suppression |
-| Rule | If this attack hits but causes no Wound, add one extra Stress to the target, once for the whole attack. |
+| Rule | Hits that do not wound apply Pinned to the target. |
 
 ^text-s064-b011
 
