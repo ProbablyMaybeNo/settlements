@@ -1,21 +1,23 @@
 <!-- settlements-simulation:generated -->
 # Settlements simulation checklist
 
-Updated **2026-11-11** from recorded evidence in **v3**, with the earlier ground-battle batches retained under **v2**.
+Updated **2026-11-11** from recorded evidence in **v4**, with the earlier ground-battle batches retained under **v2**.
 
 **The full simulation plan is unfinished. Pricing readiness is not established.**
 
 Use this page to follow the work in plan order. Every entry has recorded results, findings and notes. Checked means the **named subtask ran**, not that a whole mechanic is balanced. An unchecked **Partial** entry has some evidence but still needs the stated work. **Not run** means the required evidence has not been produced. Nothing is marked as running without an active recorded run.
 
-[Original simulation plan](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/docs/balance-pass-2026-11-10/PLAN.md>) · [Current execution review](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/EXECUTION-REVIEW.md>) · [[Settlements/Simulations/Tracking/Rule and Item Coverage|Every rule, skill and item]] · [[Settlements/Simulations/Results/Simulation Results Log|Detailed results log]]
+[Original simulation plan](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/docs/balance-pass-2026-11-10/PLAN.md>) · [Current execution review](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/EXECUTION-REVIEW.md>) · [[Settlements/Simulations/Tracking/Rule and Item Coverage|Every rule, skill and item]] · [[Settlements/Simulations/Results/Simulation Results Log|Detailed results log]]
 
-**Current recorded totals:** 64 primary checks; 28 additional clause checks; 190,000 single-attack weapon trials; 480,000 mixed-weapon trials; 9,000 tactical screening pairs plus 2,000 confirmation pairs; 12,000 exploratory and 2,400 held-out ground-subset battles; 96 old/new engine comparisons.
+**Current recorded totals:** 88 primary checks; 28 additional clause checks; 190,000 single-attack weapon trials; 480,000 mixed-weapon trials; 9,000 tactical screening pairs plus 2,000 confirmation pairs; 12,000 exploratory and 2,400 held-out ground-subset battles; 96 old/new engine comparisons.
+
+**Area addition:** 600,000 trials in 60 contexts; 4,000 paired watched-lane tasks. Earlier evidence retains its producing v2/v3 manifests.
 
 The 248 source owners include catalogue pages and definitions: they are **not 248 independent mechanics**. Zero tagged events does not prove that an option is weak or that its effect never appeared indirectly. No overall completion percentage is inferred from those counts.
 
 **Scope:** no approved vault content or prices have been changed. All battle scenarios here are simulation fixtures; crews are mechanically controlled but their deferred Credit costs are unverified. No human play or complete campaign balance has been validated.
 
-**Updating:** rerun `py -3.13 docs/balance-pass-2026-11-10/build_simulation_checklist.py` after publishing a new evidence checkpoint. Ross’s notes inside the labelled comment blocks are preserved. This command only refreshes documentation; it runs no simulations.
+**Updating:** rerun `py -3.13 docs/balance-pass-2026-11-10/build_simulation_checklist.py --obsidian` after publishing a new evidence checkpoint. Ross’s notes inside the labelled comment blocks are preserved, with live Obsidian annotations taking precedence. This command refreshes documentation and the authorized simulation notes; it runs no simulations.
 
 ## 1. Sources, contract and engine foundation — plan §§1–3
 
@@ -33,7 +35,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Recheck hashes before a new rule revision; preserve prior snapshots.
 
-**Evidence:** [source-manifest.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/source-manifest.json>) · [source-snapshot.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/source-snapshot.json>)
+**Evidence:** [source-manifest.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/source-manifest.json>) · [source-snapshot.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/source-snapshot.json>)
 
 **Ross’s notes:**
 
@@ -55,7 +57,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Historical engines and runs remain preserved.
 
-**Evidence:** [ENGINE-REUSE-AUDIT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/ENGINE-REUSE-AUDIT.md>)
+**Evidence:** [ENGINE-REUSE-AUDIT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/ENGINE-REUSE-AUDIT.md>)
 
 **Ross’s notes:**
 
@@ -77,7 +79,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Complete conformance for all tech, terrain, timing and resources remains outstanding.
 
-**Evidence:** [RULES-CONTRACT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/RULES-CONTRACT.md>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [RULES-CONTRACT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/RULES-CONTRACT.md>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -99,7 +101,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Default policy minimizes expected Injury; positional cancellation priorities need separate policy tests.
 
-**Evidence:** [decision-addendum.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/decision-addendum.json>) · [mixed-summary.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/decision-validation/mixed-summary.json>)
+**Evidence:** [decision-addendum.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/decision-addendum.json>) · [mixed-summary.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/decision-validation/mixed-summary.json>)
 
 **Ross’s notes:**
 
@@ -115,13 +117,13 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 #### Results
 
-**Recorded result:** 64 named checks passed; every check is listed in the results log.
+**Recorded result:** 88 named checks passed; every check is listed in the results log.
 
 **Findings:** Covered clauses agree with their hand-worked/exact expectations.
 
 **Notes / remaining work:** This is clause conformance, not certification of every owning rule.
 
-**Evidence:** [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [[Settlements/Simulations/Results/Simulation Results Log|SIMULATION-RESULTS-LOG.md]]
+**Evidence:** [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [[Settlements/Simulations/Results/Simulation Results Log|SIMULATION-RESULTS-LOG.md]]
 
 **Ross’s notes:**
 
@@ -143,7 +145,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Some probes are analytical; deployment-only checks do not certify full device abilities.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -187,7 +189,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Complete action-by-action event reconstruction is not established.
 
-**Evidence:** [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [replay-checkpoint-audit.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v2/replay-checkpoint-audit.json>) · [replay-review.html](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v2/replay-review.html>)
+**Evidence:** [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [replay-checkpoint-audit.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v2/replay-checkpoint-audit.json>) · [replay-review.html](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v2/replay-review.html>)
 
 **Ross’s notes:**
 
@@ -233,7 +235,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** This does not measure every mixed keyword or tactical circumstance.
 
-**Evidence:** [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [melee-pool-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/melee-pool-atlas.csv>)
+**Evidence:** [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [melee-pool-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/melee-pool-atlas.csv>)
 
 **Ross’s notes:**
 
@@ -255,7 +257,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Complete INT/AGI/STR/NRV task utility, skill-choice effects and crew-level comparisons remain.
 
-**Evidence:** [stat-threshold-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/stat-threshold-atlas.csv>) · [skill-scorecards.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/skill-scorecards.csv>)
+**Evidence:** [stat-threshold-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/stat-threshold-atlas.csv>) · [skill-scorecards.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/skill-scorecards.csv>)
 
 **Ross’s notes:**
 
@@ -277,7 +279,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Every exceptional skill, equipment stack and advanced boundary still needs complete coverage.
 
-**Evidence:** [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [legal-high-risk-builds.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/targeted/legal-high-risk-builds.csv>)
+**Evidence:** [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [legal-high-risk-builds.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/targeted/legal-high-risk-builds.csv>)
 
 **Ross’s notes:**
 
@@ -317,13 +319,13 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 #### Results
 
-**Recorded result:** All 22 weapons have conditional atlas entries; 19 have direct single-attack Monte Carlo.
+**Recorded result:** All 22 weapons have conditional atlas entries; 19 ordinary weapons have single-attack Monte Carlo. The three area weapons now have declared v4 geometry/micro contexts.
 
-**Findings:** The three area weapons have affected-target math rather than complete geometry/tactical evidence.
+**Findings:** Direct conditional combat evidence does not establish range, downtime, full keyword interactions or crew value.
 
-**Notes / remaining work:** Complete Blast/cone, range, Retrieve, Reach, casualties/devices, consumption and keyword combinations; see every profile below.
+**Notes / remaining work:** Complete oblique Blast/cone/device cases, multi-round range, Retrieve, Reach, casualties, consumption and keyword combinations; see every profile below.
 
-**Evidence:** [[Settlements/Simulations/Tracking/Rule and Item Coverage|SIMULATION-OWNER-CHECKLIST.md]] · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Simulations/Tracking/Rule and Item Coverage|SIMULATION-OWNER-CHECKLIST.md]] · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -401,17 +403,17 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 ### W06 — Complete Blast, cone, scatter, walls/floors and friendly-fire tests
 
-- [ ] **Not run** — Complete Blast, cone, scatter, walls/floors and friendly-fire tests
+- [ ] **Partial** — Complete Blast, cone, scatter, walls/floors and friendly-fire tests
 
 #### Results
 
-**Recorded result:** Conditional affected-target probabilities exist; the complete planned geometry/tactical suite has not run.
+**Recorded result:** 24 area fixtures plus 60 contexts / 600,000 trials; no declared independent-oracle failures. 4,000 paired smoke-lane tasks.
 
-**Findings:** No complete area-weapon usefulness or counterplay finding is supported.
+**Findings:** Scatter, clustering and printed payloads have conditional evidence. Smoke utility depends on the lane and the watcher’s Respirator.
 
-**Notes / remaining work:** Include source payload, real footprint, height, scatter, clustering and consumption.
+**Notes / remaining work:** Horizontal flame only. Oblique placement and device-hit handling fail explicitly. Partial occlusion is sampled; full area battle policies, machinery interactions, falling fire victims and broad counterbuilds remain.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [smoke-lane.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/smoke-lane.csv>) · [AREA-CONTRACT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/AREA-CONTRACT.md>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -435,7 +437,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** These checks do not certify all vertical, door, obstacle or engagement procedures.
 
-**Evidence:** [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -457,7 +459,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Complete vertical pathfinding, door costs, obstacle crossing, Reach and Disengage.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -479,7 +481,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Test the whole-attack interception d6, collisions, ledges, loss triggers, cargo/captive routes and load restrictions.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -501,7 +503,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Each of the 17 profiles still needs complete occupied-space effects, counterplay and tactical measurement.
 
-**Evidence:** [[Settlements/Simulations/Tracking/Rule and Item Coverage|SIMULATION-OWNER-CHECKLIST.md]] · [UNSUPPORTED-MECHANICS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/UNSUPPORTED-MECHANICS.md>)
+**Evidence:** [[Settlements/Simulations/Tracking/Rule and Item Coverage|SIMULATION-OWNER-CHECKLIST.md]] · [UNSUPPORTED-MECHANICS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/UNSUPPORTED-MECHANICS.md>)
 
 **Ross’s notes:**
 
@@ -525,7 +527,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Only the named cases are checked; general reaction-action coverage remains partial.
 
-**Evidence:** [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -569,7 +571,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Complete exception chains, competing reactors, termination, legal resources and crew policies.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -593,7 +595,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Potential Injury successes differ from actual Wounds removed; read the metric definitions.
 
-**Evidence:** [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [METRIC-DEFINITIONS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/METRIC-DEFINITIONS.md>)
+**Evidence:** [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [METRIC-DEFINITIONS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/METRIC-DEFINITIONS.md>)
 
 **Ross’s notes:**
 
@@ -615,7 +617,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Include low/high NRV, rookies versus elites, multiple attackers, auras, flight routes and objective exclusion.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -637,7 +639,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Complete physical withdrawal, escort release, casualty evacuation, device casualties and all Wound boundaries.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -659,7 +661,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Only run a labelled sensitivity variant if baseline evidence justifies that question.
 
-**Evidence:** [RULES-CONTRACT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/RULES-CONTRACT.md>)
+**Evidence:** [RULES-CONTRACT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/RULES-CONTRACT.md>)
 
 **Ross’s notes:**
 
@@ -683,7 +685,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Cover/Sneak/Quiet, proximity timing, Observe, flanks and enemy knowledge constraints still need full integration.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -705,7 +707,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** This explicitly does not certify its attacks, triggers, uptime or control/repair counterplay.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -727,7 +729,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Complete Flight/Hover, abilities, activation ordering, footprints, persistent fire, triggers, disarm/hijack and operator targeting.
 
-**Evidence:** [shield-drone-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/shield-drone-atlas.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [shield-drone-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/shield-drone-atlas.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -793,7 +795,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Do not interpret an unused or unsupported skill as weak. Complete each skill’s ladder.
 
-**Evidence:** [[Settlements/Simulations/Tracking/Rule and Item Coverage|SIMULATION-OWNER-CHECKLIST.md]] · [skill-scorecards.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/skill-scorecards.csv>)
+**Evidence:** [[Settlements/Simulations/Tracking/Rule and Item Coverage|SIMULATION-OWNER-CHECKLIST.md]] · [skill-scorecards.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/skill-scorecards.csv>)
 
 **Ross’s notes:**
 
@@ -881,7 +883,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Finish the group’s intended-use, counterbuild and held-out cases from PLAN.md.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -903,7 +905,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Finish the group’s intended-use, counterbuild and held-out cases from PLAN.md.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -925,7 +927,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Finish the group’s intended-use, counterbuild and held-out cases from PLAN.md.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -947,7 +949,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Finish the group’s intended-use, counterbuild and held-out cases from PLAN.md.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -969,7 +971,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Finish the group’s intended-use, counterbuild and held-out cases from PLAN.md.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -991,7 +993,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Finish the group’s intended-use, counterbuild and held-out cases from PLAN.md.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1013,7 +1015,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Finish the group’s intended-use, counterbuild and held-out cases from PLAN.md.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1035,7 +1037,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Finish the group’s intended-use, counterbuild and held-out cases from PLAN.md.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1057,7 +1059,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Finish the group’s intended-use, counterbuild and held-out cases from PLAN.md.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1079,7 +1081,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Finish the group’s intended-use, counterbuild and held-out cases from PLAN.md.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1101,7 +1103,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Use legal starting/advanced builds and improve both opposing policies fairly.
 
-**Evidence:** [archetype-scorecards.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/archetype-scorecards.csv>)
+**Evidence:** [archetype-scorecards.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/archetype-scorecards.csv>)
 
 **Ross’s notes:**
 
@@ -1125,7 +1127,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Complete all rank thresholds, advanced histories, equipment packages and progression/reward boundaries.
 
-**Evidence:** [crews.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/crews.json>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [crews.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/crews.json>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -1147,7 +1149,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** This is not proof of an infinite action loop or complete farming/withdrawal incentive analysis.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -1169,7 +1171,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Finish all deeds, survival/revival/Out-of-Action attribution, withdrawal rewards and repeated advance boundaries.
 
-**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1345,7 +1347,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Keep the 14,400 earlier games under their v2 manifest; do not silently relabel them v3.
 
-**Evidence:** [homogeneous-regression.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/decision-validation/homogeneous-regression.csv>) · [carry-forward-manifest.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/carry-forward-manifest.json>)
+**Evidence:** [homogeneous-regression.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/decision-validation/homogeneous-regression.csv>) · [carry-forward-manifest.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/carry-forward-manifest.json>)
 
 **Ross’s notes:**
 
@@ -1367,7 +1369,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Complete the missing strata, ordinary-first-round initiative cases, relevant counters and 500–1,000-block escalation where justified.
 
-**Evidence:** [COMPLETION-GATES.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/COMPLETION-GATES.md>)
+**Evidence:** [COMPLETION-GATES.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/COMPLETION-GATES.md>)
 
 **Ross’s notes:**
 
@@ -1389,7 +1391,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Full event reconstruction and all required per-source positive-effect/utility metrics remain incomplete.
 
-**Evidence:** [block-integrity.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v2/block-integrity.json>) · [publication-manifest.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/publication-manifest.json>) · [METRIC-DEFINITIONS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/METRIC-DEFINITIONS.md>)
+**Evidence:** [block-integrity.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v2/block-integrity.json>) · [publication-manifest.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/publication-manifest.json>) · [METRIC-DEFINITIONS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/METRIC-DEFINITIONS.md>)
 
 **Ross’s notes:**
 
@@ -1413,7 +1415,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Publishing the reports does not close the unfulfilled simulation gates.
 
-**Evidence:** [EXECUTION-REVIEW.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/EXECUTION-REVIEW.md>) · [FINDINGS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/FINDINGS.md>) · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>)
+**Evidence:** [EXECUTION-REVIEW.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/EXECUTION-REVIEW.md>) · [FINDINGS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/FINDINGS.md>) · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>)
 
 **Ross’s notes:**
 
@@ -1435,7 +1437,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** See the exact gate-by-gate reasons; do not mark the overall pass complete.
 
-**Evidence:** [COMPLETION-GATES.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/COMPLETION-GATES.md>)
+**Evidence:** [COMPLETION-GATES.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/COMPLETION-GATES.md>)
 
 **Ross’s notes:**
 
@@ -1457,7 +1459,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Conduct and record the sessions separately; preparation is not human-play validation.
 
-**Evidence:** [HUMAN-PLAYTEST.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/HUMAN-PLAYTEST.md>)
+**Evidence:** [HUMAN-PLAYTEST.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/HUMAN-PLAYTEST.md>)
 
 **Ross’s notes:**
 
@@ -1479,7 +1481,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Required utility/counterplay measurements are missing; no new Credit prices have been calculated or adopted.
 
-**Evidence:** [PRICING-HANDOFF.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/PRICING-HANDOFF.md>)
+**Evidence:** [PRICING-HANDOFF.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/PRICING-HANDOFF.md>)
 
 **Ross’s notes:**
 
@@ -1501,7 +1503,7 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 **Notes / remaining work:** Finish missing mechanics/value-vector coverage and held-out testing before a separate pricing task.
 
-**Evidence:** [COMPLETION-GATES.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/COMPLETION-GATES.md>)
+**Evidence:** [COMPLETION-GATES.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/COMPLETION-GATES.md>)
 
 **Ross’s notes:**
 

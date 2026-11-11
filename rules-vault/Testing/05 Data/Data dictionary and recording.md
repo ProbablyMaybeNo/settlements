@@ -22,7 +22,7 @@ Empty raw CSV records with explicit units, identifiers, missing values and denom
 
 ## Ownership and entry
 
-The CSVs in this folder are the **structured raw records**. Session notes contain narrative and evidence links, not an independently maintained numeric duplicate. Transcribe the paper forms after play. Keep original wording in observations; separate interpretation into the Issue record. Files start with headers only: zero real data.
+The CSVs in this folder are the **structured raw records**. Session notes contain narrative and evidence links, not an independently maintained numeric duplicate. Transcribe the paper forms after play. Keep original wording in observations; separate interpretation into the Issue record. Files start with headers only: zero real data. CSVs can be opened in a spreadsheet editor; keep the headers unchanged. The session/issue templates are native editable Obsidian notes.
 
 | File | Row means | Key details |
 | --- | --- | --- |

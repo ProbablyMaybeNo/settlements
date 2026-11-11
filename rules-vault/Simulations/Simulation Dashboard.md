@@ -12,7 +12,7 @@ This folder manages simulation work. **Approved rules remain owned by the Master
 
 ## Evidence checkpoint
 
-Published checkpoint: **v3**, 2026-11-11. Full pass complete: **False**. Pricing readiness: **False**.
+Published checkpoint: **v4**, 2026-11-11. Full pass complete: **False**. Pricing readiness: **False**.
 
 The project’s raw results, configs, seeds, manifests and code stay on D:. The links in these notes open that evidence. Checked tasks mean their named tests ran; they do not establish that an entire rule or item is balanced.
 

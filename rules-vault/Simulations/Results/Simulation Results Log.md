@@ -3,7 +3,7 @@
 
 Recorded evidence as of **2026-11-11**. [[Settlements/Simulations/Tracking/Simulation Plan Checklist|Back to the plan checklist]] · [[Settlements/Simulations/Tracking/Rule and Item Coverage|Individual owners]]
 
-This log inventories existing runs; generating it launches no simulations. **Executed** means the named batch/check finished. It does not mean that all mechanics mentioned in its name are fully validated. Raw metrics retain their producing version; current v3 carries v2 homogeneous battle strata explicitly. All rates are conditional on their listed setup.
+This log inventories existing runs; generating it launches no simulations. **Executed** means the named batch/check finished. It does not mean that all mechanics mentioned in its name are fully validated. Raw metrics retain their producing version; v4 area evidence, v3 conditional evidence and v2 ground battles remain distinct. All rates are conditional on their listed setup.
 
 ## A. Exact tables and Monte Carlo checks
 
@@ -21,7 +21,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Conditional dice math excludes complete movement, timing, AI utility and human play.
 
-**Evidence:** [probability-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/probability-atlas.csv>) · [METRIC-DEFINITIONS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/METRIC-DEFINITIONS.md>)
+**Evidence:** [probability-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/probability-atlas.csv>) · [METRIC-DEFINITIONS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/METRIC-DEFINITIONS.md>)
 
 **Ross’s notes:**
 
@@ -43,7 +43,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Conditional dice math excludes complete movement, timing, AI utility and human play.
 
-**Evidence:** [stat-threshold-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/stat-threshold-atlas.csv>) · [METRIC-DEFINITIONS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/METRIC-DEFINITIONS.md>)
+**Evidence:** [stat-threshold-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/stat-threshold-atlas.csv>) · [METRIC-DEFINITIONS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/METRIC-DEFINITIONS.md>)
 
 **Ross’s notes:**
 
@@ -65,7 +65,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Conditional dice math excludes complete movement, timing, AI utility and human play.
 
-**Evidence:** [opposed-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/opposed-atlas.csv>) · [METRIC-DEFINITIONS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/METRIC-DEFINITIONS.md>)
+**Evidence:** [opposed-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/opposed-atlas.csv>) · [METRIC-DEFINITIONS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/METRIC-DEFINITIONS.md>)
 
 **Ross’s notes:**
 
@@ -87,7 +87,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Conditional dice math excludes complete movement, timing, AI utility and human play.
 
-**Evidence:** [melee-pool-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/melee-pool-atlas.csv>) · [METRIC-DEFINITIONS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/METRIC-DEFINITIONS.md>)
+**Evidence:** [melee-pool-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/melee-pool-atlas.csv>) · [METRIC-DEFINITIONS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/METRIC-DEFINITIONS.md>)
 
 **Ross’s notes:**
 
@@ -109,7 +109,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Conditional dice math excludes complete movement, timing, AI utility and human play.
 
-**Evidence:** [shield-drone-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/shield-drone-atlas.csv>) · [METRIC-DEFINITIONS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/METRIC-DEFINITIONS.md>)
+**Evidence:** [shield-drone-atlas.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/shield-drone-atlas.csv>) · [METRIC-DEFINITIONS.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/METRIC-DEFINITIONS.md>)
 
 **Ross’s notes:**
 
@@ -253,7 +253,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-231, V2-291. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_accurate_one_miss_only](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_accurate_one_miss_only](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -275,7 +275,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-061, V2-073. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_alert_retention_and_once_per_round](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_alert_retention_and_once_per_round](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -297,7 +297,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-097, V2-114. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_atlas_hand_worked_rifle](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_atlas_hand_worked_rifle](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -319,7 +319,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-017, V2-114. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_boundaries_and_independent_oracle](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_boundaries_and_independent_oracle](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -341,7 +341,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-139, V2-150. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_break_and_rally_subtract_stress](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_break_and_rally_subtract_stress](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -363,7 +363,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-139, V2-150, V2-540. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_break_no_same_phase_rally_and_beta_exception](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_break_no_same_phase_rally_and_beta_exception](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -385,7 +385,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-017. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_category_largest_not_sum](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_category_largest_not_sum](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -407,7 +407,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-270, V2-498, V2-504. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_chem_no_unlock_duplicate_or_extra_wounds](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_chem_no_unlock_duplicate_or_extra_wounds](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -429,7 +429,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-106, V2-114. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_critical_cancellation_hand_case](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_critical_cancellation_hand_case](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -451,7 +451,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-106, V2-238. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_defender_choice_values_piercing_and_respects_critical_groups](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_defender_choice_values_piercing_and_respects_critical_groups](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -473,7 +473,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-106, V2-102. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_defender_chooses_mixed_success_cancellation](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_defender_chooses_mixed_success_cancellation](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -495,7 +495,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-106. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_defender_surplus_has_no_hits_or_stress](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_defender_surplus_has_no_hits_or_stress](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -517,7 +517,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-122, V2-114. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_down_timer_and_no_surplus_execution](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_down_timer_and_no_surplus_execution](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -539,7 +539,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-102, V2-106, V2-256, V2-286, V2-543. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_dual_agile_and_parry_shield_stack](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_dual_agile_and_parry_shield_stack](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -561,7 +561,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-017. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_event_key_streams_do_not_shift_other_events](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_event_key_streams_do_not_shift_other_events](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -583,7 +583,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-114, V2-139. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_every_hit_stress_no_universal_pin](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_every_hit_stress_no_universal_pin](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -605,7 +605,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-220. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_ground_aerial_shutdown_distinct](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_ground_aerial_shutdown_distinct](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -627,7 +627,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-102, V2-318, V2-554. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_gunfu_and_gunslinger_are_separate_permissions](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_gunfu_and_gunslinger_are_separate_permissions](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -649,7 +649,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-106, V2-102. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_large_pool_dp_against_brute](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_large_pool_dp_against_brute](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -671,7 +671,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-029, V2-034, V2-037, V2-305, V2-030, V2-031, V2-032, V2-033. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_legal_rosters_and_invalid_skill](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_legal_rosters_and_invalid_skill](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -693,7 +693,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-316. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_mark_expiry_is_source_start_not_round_end](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_mark_expiry_is_source_start_not_round_end](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -715,7 +715,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-106. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_mixed_cancellation_blocks_unruled_baseline](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_mixed_cancellation_blocks_unruled_baseline](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -737,7 +737,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-114, V2-139. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_multi_wounds_and_injury_ignores_stress](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_multi_wounds_and_injury_ignores_stress](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -759,7 +759,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-023. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_opposed_extremes_and_no_target](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_opposed_extremes_and_no_target](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -781,7 +781,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-485. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_orders_do_not_refresh](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_orders_do_not_refresh](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -803,7 +803,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-238, V2-298. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_piercing_is_best_of_not_extra_wound](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_piercing_is_best_of_not_extra_wound](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -825,7 +825,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-392, V2-305. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_promotion_boundary_and_skill_unlock](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_promotion_boundary_and_skill_unlock](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -847,7 +847,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-313, V2-538. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_rage_implode_post_attack_stress](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_rage_implode_post_attack_stress](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -869,7 +869,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-243, V2-117, V2-292. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_reload_and_recovery_costs](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_reload_and_recovery_costs](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -891,7 +891,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-114. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_remaining_wound_pins](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_remaining_wound_pins](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -913,7 +913,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-065, V2-097. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_return_fire_is_simultaneous_independent](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_return_fire_is_simultaneous_independent](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -935,7 +935,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-126, V2-257, V2-055. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_revive_once_consumption_and_activation_history](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_revive_once_consumption_and_activation_history](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -957,7 +957,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-531. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_riposte_does_not_chain_counterattacks](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_riposte_does_not_chain_counterattacks](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -979,7 +979,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-547. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_shield_ignored_hit_adds_no_stress](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_shield_ignored_hit_adds_no_stress](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -1001,7 +1001,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-517, V2-343. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_tough_as_nails_does_not_leave_transferred_hit_stress](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_tough_as_nails_does_not_leave_transferred_hit_stress](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -1023,7 +1023,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-029. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_unused_starting_stat_points_are_lost_not_illegal](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
+**Evidence:** [master_rules_balance.test_kernel.ContractTests.test_unused_starting_stat_points_are_lost_not_illegal](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_kernel.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_kernel.py>)
 
 **Ross’s notes:**
 
@@ -1045,7 +1045,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-007. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_base_to_base_range_boundary](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_base_to_base_range_boundary](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1067,7 +1067,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-074, V2-122. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_body_and_casualty_los](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_body_and_casualty_los](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1089,7 +1089,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-082. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_charge_stress_not_distance](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_charge_stress_not_distance](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1111,7 +1111,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-065. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_dive_success_and_failure_both_pin](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_dive_success_and_failure_both_pin](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1133,7 +1133,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-220, V2-544, V2-532. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_drone_operator_deploy_and_control](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_drone_operator_deploy_and_control](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1155,7 +1155,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-084. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_fall_ignores_armour](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_fall_ignores_armour](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1177,7 +1177,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-084. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_fall_over_twelve_no_injury](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_fall_over_twelve_no_injury](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1199,7 +1199,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-074, V2-061. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_forward_arc_and_no_free_enemy_turn_pivot](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_forward_arc_and_no_free_enemy_turn_pivot](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1221,7 +1221,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-139, V2-074. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_friendly_down_witness_requires_facing_and_base_range](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_friendly_down_witness_requires_facing_and_base_range](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1243,7 +1243,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-078, V2-090. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_half_speed_does_not_compound](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_half_speed_does_not_compound](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1265,7 +1265,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-084. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_jump_and_safe_drop_boundaries](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_jump_and_safe_drop_boundaries](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1287,7 +1287,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-049. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_low_cover_and_shooter_hug_exception](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_low_cover_and_shooter_hug_exception](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1309,7 +1309,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-007, V2-078. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_narrow_gap_blocks_base](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_narrow_gap_blocks_base](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1331,7 +1331,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-007, V2-078. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_no_corner_cutting](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_no_corner_cutting](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1353,7 +1353,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-078, V2-093. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_ordinary_move_cannot_engage](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_ordinary_move_cannot_engage](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1375,7 +1375,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-007, V2-078. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_path_detours_and_clearance](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_path_detours_and_clearance](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1397,7 +1397,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-044, V2-046. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_seeded_path_reachability_all_boards](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_seeded_path_reachability_all_boards](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1419,7 +1419,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-331, V2-055. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_sprinter_retains_core](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_sprinter_retains_core](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1441,7 +1441,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-165, V2-261, V2-332, V2-190. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_terminal_kit_no_los_and_neural_uplink](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_terminal_kit_no_los_and_neural_uplink](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1463,7 +1463,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-165. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_terminal_nat_one_freeze](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_terminal_nat_one_freeze](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1485,7 +1485,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-181, V2-389, V2-482. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_terrain_open_close_and_repeated_xp](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
+**Evidence:** [master_rules_balance.test_operations.SpatialTests.test_terrain_open_close_and_repeated_xp](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_operations.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_operations.py>)
 
 **Ross’s notes:**
 
@@ -1507,7 +1507,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-052. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_battle.BattleTests.test_controlled_first_assignment](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_battle.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_battle.py>)
+**Evidence:** [master_rules_balance.test_battle.BattleTests.test_controlled_first_assignment](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_battle.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_battle.py>)
 
 **Ross’s notes:**
 
@@ -1529,7 +1529,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-055. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_battle.BattleTests.test_every_declared_policy_runs](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_battle.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_battle.py>)
+**Evidence:** [master_rules_balance.test_battle.BattleTests.test_every_declared_policy_runs](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_battle.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_battle.py>)
 
 **Ross’s notes:**
 
@@ -1551,7 +1551,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-073, V2-454. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_battle.BattleTests.test_final_checkpoint_includes_secondary_vp](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_battle.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_battle.py>)
+**Evidence:** [master_rules_balance.test_battle.BattleTests.test_final_checkpoint_includes_secondary_vp](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_battle.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_battle.py>)
 
 **Ross’s notes:**
 
@@ -1573,7 +1573,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-044, V2-454, V2-354. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_battle.BattleTests.test_four_scenarios_all_families_and_sizes](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_battle.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_battle.py>)
+**Evidence:** [master_rules_balance.test_battle.BattleTests.test_four_scenarios_all_families_and_sizes](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_battle.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_battle.py>)
 
 **Ross’s notes:**
 
@@ -1595,7 +1595,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_battle.BattleTests.test_regression_charge_uses_legal_contact_destination](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_battle.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_battle.py>)
+**Evidence:** [master_rules_balance.test_battle.BattleTests.test_regression_charge_uses_legal_contact_destination](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_battle.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_battle.py>)
 
 **Ross’s notes:**
 
@@ -1617,7 +1617,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-093, V2-097. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_battle.BattleTests.test_regression_engaged_actor_does_not_shoot_outside](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_battle.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_battle.py>)
+**Evidence:** [master_rules_balance.test_battle.BattleTests.test_regression_engaged_actor_does_not_shoot_outside](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_battle.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_battle.py>)
 
 **Ross’s notes:**
 
@@ -1639,11 +1639,539 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** Owners: V2-055, V2-052. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
 
-**Evidence:** [master_rules_balance.test_battle.BattleTests.test_seed_replay_reproduction](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [test_battle.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_battle.py>)
+**Evidence:** [master_rules_balance.test_battle.BattleTests.test_seed_replay_reproduction](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_battle.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_battle.py>)
 
 **Ross’s notes:**
 
 <!-- ross-notes:Q64 -->
+
+<!-- /ross-notes -->
+
+<a id="Q65"></a>
+
+### Q65 — Area blast height boundary
+
+- [x] **Executed** — Area blast height boundary
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-248. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_blast_height_boundary](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q65 -->
+
+<!-- /ross-notes -->
+
+<a id="Q66"></a>
+
+### Q66 — Area blast partial base and friendlies
+
+- [x] **Executed** — Area blast partial base and friendlies
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-248, V2-114, V2-259. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_blast_partial_base_and_friendlies](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q66 -->
+
+<!-- /ross-notes -->
+
+<a id="Q67"></a>
+
+### Q67 — Area consumed on scattered miss
+
+- [x] **Executed** — Area consumed on scattered miss
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-248, V2-244, V2-259. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_consumed_on_scattered_miss](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q67 -->
+
+<!-- /ross-notes -->
+
+<a id="Q68"></a>
+
+### Q68 — Area corner does not wrap
+
+- [x] **Executed** — Area corner does not wrap
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-248. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_corner_does_not_wrap](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q68 -->
+
+<!-- /ross-notes -->
+
+<a id="Q69"></a>
+
+### Q69 — Area fire first failure moves and skip survives extinguish
+
+- [x] **Executed** — Area fire first failure moves and skip survives extinguish
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-498. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_fire_first_failure_moves_and_skip_survives_extinguish](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q69 -->
+
+<!-- /ross-notes -->
+
+<a id="Q70"></a>
+
+### Q70 — Area fire visible water in any direction
+
+- [x] **Executed** — Area fire visible water in any direction
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-498. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_fire_visible_water_in_any_direction](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q70 -->
+
+<!-- /ross-notes -->
+
+<a id="Q71"></a>
+
+### Q71 — Area fire water preserves unrelated pin
+
+- [x] **Executed** — Area fire water preserves unrelated pin
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-498. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_fire_water_preserves_unrelated_pin](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q71 -->
+
+<!-- /ross-notes -->
+
+<a id="Q72"></a>
+
+### Q72 — Area flame auto no hit or scatter no extra atk
+
+- [x] **Executed** — Area flame auto no hit or scatter no extra atk
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-248, V2-515, V2-301, V2-247. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_flame_auto_no_hit_or_scatter_no_extra_atk](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q72 -->
+
+<!-- /ross-notes -->
+
+<a id="Q73"></a>
+
+### Q73 — Area flame muzzle range and wall
+
+- [x] **Executed** — Area flame muzzle range and wall
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-248, V2-515, V2-301. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_flame_muzzle_range_and_wall](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q73 -->
+
+<!-- /ross-notes -->
+
+<a id="Q74"></a>
+
+### Q74 — Area flame rounded dimensions and partial witness
+
+- [x] **Executed** — Area flame rounded dimensions and partial witness
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-248, V2-515, V2-301. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_flame_rounded_dimensions_and_partial_witness](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q74 -->
+
+<!-- /ross-notes -->
+
+<a id="Q75"></a>
+
+### Q75 — Area flash enemy radius and stun no injury
+
+- [x] **Executed** — Area flash enemy radius and stun no injury
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-502, V2-498. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_flash_enemy_radius_and_stun_no_injury](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q75 -->
+
+<!-- /ross-notes -->
+
+<a id="Q76"></a>
+
+### Q76 — Area gas radius friendly effect and respirator
+
+- [x] **Executed** — Area gas radius friendly effect and respirator
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-503, V2-264. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_gas_radius_friendly_effect_and_respirator](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q76 -->
+
+<!-- /ross-notes -->
+
+<a id="Q77"></a>
+
+### Q77 — Area invalid declaration preserves resources
+
+- [x] **Executed** — Area invalid declaration preserves resources
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-248, V2-055, V2-244. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_invalid_declaration_preserves_resources](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q77 -->
+
+<!-- /ross-notes -->
+
+<a id="Q78"></a>
+
+### Q78 — Area molotov fire no injury no persistent zone
+
+- [x] **Executed** — Area molotov fire no injury no persistent zone
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-248, V2-260, V2-498, V2-114. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_molotov_fire_no_injury_no_persistent_zone](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q78 -->
+
+<!-- /ross-notes -->
+
+<a id="Q79"></a>
+
+### Q79 — Area oblique and device cases fail explicitly
+
+- [x] **Executed** — Area oblique and device cases fail explicitly
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-248, V2-515, V2-220. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_oblique_and_device_cases_fail_explicitly](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q79 -->
+
+<!-- /ross-notes -->
+
+<a id="Q80"></a>
+
+### Q80 — Area piercing one wound and no stress in injury
+
+- [x] **Executed** — Area piercing one wound and no stress in injury
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-238, V2-114, V2-302. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_piercing_one_wound_and_no_stress_in_injury](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q80 -->
+
+<!-- /ross-notes -->
+
+<a id="Q81"></a>
+
+### Q81 — Area profile payloads and printed radii
+
+- [x] **Executed** — Area profile payloads and printed radii
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-248, V2-258, V2-259, V2-260, V2-300, V2-301, V2-302, V2-502, V2-503. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_profile_payloads_and_printed_radii](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q81 -->
+
+<!-- /ross-notes -->
+
+<a id="Q82"></a>
+
+### Q82 — Area reload and single use
+
+- [x] **Executed** — Area reload and single use
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-243, V2-244, V2-300, V2-302. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_reload_and_single_use](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q82 -->
+
+<!-- /ross-notes -->
+
+<a id="Q83"></a>
+
+### Q83 — Area smoke outside block inside cover and respirator
+
+- [x] **Executed** — Area smoke outside block inside cover and respirator
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-248, V2-258, V2-264, V2-049. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_smoke_outside_block_inside_cover_and_respirator](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q83 -->
+
+<!-- /ross-notes -->
+
+<a id="Q84"></a>
+
+### Q84 — Area smoke vertical extent expiry and consumption
+
+- [x] **Executed** — Area smoke vertical extent expiry and consumption
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-248, V2-258, V2-244. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_smoke_vertical_extent_expiry_and_consumption](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q84 -->
+
+<!-- /ross-notes -->
+
+<a id="Q85"></a>
+
+### Q85 — Area solid wall and floor contain blast
+
+- [x] **Executed** — Area solid wall and floor contain blast
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-248. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_solid_wall_and_floor_contain_blast](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q85 -->
+
+<!-- /ross-notes -->
+
+<a id="Q86"></a>
+
+### Q86 — Area stun reapplication costs one activation
+
+- [x] **Executed** — Area stun reapplication costs one activation
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-498, V2-502, V2-055. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_stun_reapplication_costs_one_activation](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q86 -->
+
+<!-- /ross-notes -->
+
+<a id="Q87"></a>
+
+### Q87 — Area two hands and reaction facing
+
+- [x] **Executed** — Area two hands and reaction facing
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-030, V2-074, V2-061, V2-301. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_two_hands_and_reaction_facing](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q87 -->
+
+<!-- /ross-notes -->
+
+<a id="Q88"></a>
+
+### Q88 — Area unwieldy and cover affect placement
+
+- [x] **Executed** — Area unwieldy and cover affect placement
+
+#### Results
+
+**Recorded result:** Passed the named assertions.
+
+**Findings:** The specified boundary/transition/oracle comparison passed; no power or complete-owner conclusion is implied.
+
+**Notes / remaining work:** Owners: V2-245, V2-248, V2-049, V2-258. This is one focused fixture. Exact inputs/assertions are in the corresponding test function.
+
+**Evidence:** [master_rules_balance.test_area.AreaTests.test_area_unwieldy_and_cover_affect_placement](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [test_area.py](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/test-bench/master_rules_balance/test_area.py>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:Q88 -->
 
 <!-- /ross-notes -->
 
@@ -1663,7 +2191,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-340.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -1685,7 +2213,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-341;V2-150.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -1707,7 +2235,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-311.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -1729,7 +2257,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-536.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -1751,7 +2279,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-342;V2-055.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -1773,7 +2301,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-343;V2-344;V2-539;V2-541.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -1795,7 +2323,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-541;V2-305.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -1817,7 +2345,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-337;V2-535;V2-270.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -1839,7 +2367,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-336;V2-126.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -1861,7 +2389,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-326;V2-527.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -1883,7 +2411,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-317.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -1905,7 +2433,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-315;V2-245.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -1927,7 +2455,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-520;V2-102.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -1949,7 +2477,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-524.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -1971,7 +2499,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-338;V2-499;V2-007.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -1993,7 +2521,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-212;V2-202.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -2015,7 +2543,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-213;V2-202.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -2037,7 +2565,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-215;V2-202.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -2059,7 +2587,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-544;V2-220.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -2081,7 +2609,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-545;V2-220.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -2103,7 +2631,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-546;V2-220.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -2125,7 +2653,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-547;V2-220.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -2147,7 +2675,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-548;V2-220.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -2169,7 +2697,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-549;V2-220.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -2191,7 +2719,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-550;V2-202.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -2213,7 +2741,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-551;V2-202.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -2229,13 +2757,13 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 #### Results
 
-**Recorded result:** Passed; {"failed_checks": 3, "states": "Pinned+skip, Down, Unconscious", "limitation": "Initial/random/water-directed fire movement not covered"}
+**Recorded result:** Passed; {"failed_checks": 3, "states": "Pinned+skip, Down, Unconscious", "limitation": "First failed-check ground move covered here; initial/water movement has separate v4 area fixtures; ledges/falls remain incomplete"}
 
 **Findings:** Only the recorded owner clauses were checked.
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-498.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -2257,7 +2785,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** NAMED CLAUSE ONLY; not complete owner/tactical/crew conformance Owners: V2-498.
 
-**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/events.json>)
+**Evidence:** [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [events.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/events.json>)
 
 **Ross’s notes:**
 
@@ -4215,7 +4743,7 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 **Notes / remaining work:** This is a compact regression, not 96 new independent balance matchups. Full comparison rows retain seeds and side/first controls.
 
-**Evidence:** [homogeneous-regression.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/decision-validation/homogeneous-regression.csv>) · [carry-forward-manifest.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/carry-forward-manifest.json>)
+**Evidence:** [homogeneous-regression.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/decision-validation/homogeneous-regression.csv>) · [carry-forward-manifest.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/carry-forward-manifest.json>)
 
 **Ross’s notes:**
 
@@ -4310,6 +4838,1416 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 **Ross’s notes:**
 
 <!-- ross-notes:X04 -->
+
+<!-- /ross-notes -->
+
+## G. Area weapons, grenade payloads and smoke tasks — v4
+
+<a id="AR00"></a>
+
+### AR00 — Frag grenade; single; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Frag grenade; single; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.6826 (oracle 0.6870); mean Wounds 0.3023; any Wound 30.23%; mean friendly affected 0.0197.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20261141000–20261150999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-00.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-00.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR00 -->
+
+<!-- /ross-notes -->
+
+<a id="AR01"></a>
+
+### AR01 — Frag grenade; cluster; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Frag grenade; cluster; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.9046 (oracle 1.9026); mean Wounds 0.8540; any Wound 55.79%; mean friendly affected 0.0211.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20261241000–20261250999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-01.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-01.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR01 -->
+
+<!-- /ross-notes -->
+
+<a id="AR02"></a>
+
+### AR02 — Frag grenade; spread; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Frag grenade; spread; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.8070 (oracle 0.8117); mean Wounds 0.3685; any Wound 35.79%; mean friendly affected 0.0193.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20261341000–20261350999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-02.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-02.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR02 -->
+
+<!-- /ross-notes -->
+
+<a id="AR03"></a>
+
+### AR03 — Frag grenade; single; Armour 2; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Frag grenade; single; Armour 2; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.6867 (oracle 0.6870); mean Wounds 0.2337; any Wound 23.37%; mean friendly affected 0.0192.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20261441000–20261450999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-03.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-03.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR03 -->
+
+<!-- /ross-notes -->
+
+<a id="AR04"></a>
+
+### AR04 — Frag grenade; cluster; Armour 2; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Frag grenade; cluster; Armour 2; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.9065 (oracle 1.9026); mean Wounds 0.6651; any Wound 47.72%; mean friendly affected 0.0213.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20261541000–20261550999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-04.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-04.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR04 -->
+
+<!-- /ross-notes -->
+
+<a id="AR05"></a>
+
+### AR05 — Frag grenade; spread; Armour 2; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Frag grenade; spread; Armour 2; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.8111 (oracle 0.8117); mean Wounds 0.2849; any Wound 27.86%; mean friendly affected 0.0207.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20261641000–20261650999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-05.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-05.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR05 -->
+
+<!-- /ross-notes -->
+
+<a id="AR06"></a>
+
+### AR06 — Frag grenade; single; Armour 4; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Frag grenade; single; Armour 4; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.6744 (oracle 0.6870); mean Wounds 0.1722; any Wound 17.22%; mean friendly affected 0.0204.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20261741000–20261750999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-06.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-06.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR06 -->
+
+<!-- /ross-notes -->
+
+<a id="AR07"></a>
+
+### AR07 — Frag grenade; cluster; Armour 4; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Frag grenade; cluster; Armour 4; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.9070 (oracle 1.9026); mean Wounds 0.4823; any Wound 37.63%; mean friendly affected 0.0216.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20261841000–20261850999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-07.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-07.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR07 -->
+
+<!-- /ross-notes -->
+
+<a id="AR08"></a>
+
+### AR08 — Frag grenade; spread; Armour 4; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Frag grenade; spread; Armour 4; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.8145 (oracle 0.8117); mean Wounds 0.2129; any Wound 20.85%; mean friendly affected 0.0218.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20261941000–20261950999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-08.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-08.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR08 -->
+
+<!-- /ross-notes -->
+
+<a id="AR09"></a>
+
+### AR09 — Frag grenade; single; Armour 6; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Frag grenade; single; Armour 6; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.6860 (oracle 0.6870); mean Wounds 0.1028; any Wound 10.28%; mean friendly affected 0.0185.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20262041000–20262050999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-09.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-09.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR09 -->
+
+<!-- /ross-notes -->
+
+<a id="AR10"></a>
+
+### AR10 — Frag grenade; cluster; Armour 6; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Frag grenade; cluster; Armour 6; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.9435 (oracle 1.9026); mean Wounds 0.2987; any Wound 26.24%; mean friendly affected 0.0190.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20262141000–20262150999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-10.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-10.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR10 -->
+
+<!-- /ross-notes -->
+
+<a id="AR11"></a>
+
+### AR11 — Frag grenade; spread; Armour 6; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Frag grenade; spread; Armour 6; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.8122 (oracle 0.8117); mean Wounds 0.1284; any Wound 12.73%; mean friendly affected 0.0197.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20262241000–20262250999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-11.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-11.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR11 -->
+
+<!-- /ross-notes -->
+
+<a id="AR12"></a>
+
+### AR12 — Grenade launcher; single; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Grenade launcher; single; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.6867 (oracle 0.6870); mean Wounds 0.3812; any Wound 38.12%; mean friendly affected 0.0208.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20262341000–20262350999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-12.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-12.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR12 -->
+
+<!-- /ross-notes -->
+
+<a id="AR13"></a>
+
+### AR13 — Grenade launcher; cluster; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Grenade launcher; cluster; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.9101 (oracle 1.9026); mean Wounds 1.0543; any Wound 62.09%; mean friendly affected 0.0206.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20262441000–20262450999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-13.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-13.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR13 -->
+
+<!-- /ross-notes -->
+
+<a id="AR14"></a>
+
+### AR14 — Grenade launcher; spread; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Grenade launcher; spread; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.8146 (oracle 0.8117); mean Wounds 0.4454; any Wound 43.03%; mean friendly affected 0.0240.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20262541000–20262550999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-14.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-14.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR14 -->
+
+<!-- /ross-notes -->
+
+<a id="AR15"></a>
+
+### AR15 — Grenade launcher; single; Armour 2; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Grenade launcher; single; Armour 2; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.6872 (oracle 0.6870); mean Wounds 0.3134; any Wound 31.34%; mean friendly affected 0.0202.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20262641000–20262650999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-15.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-15.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR15 -->
+
+<!-- /ross-notes -->
+
+<a id="AR16"></a>
+
+### AR16 — Grenade launcher; cluster; Armour 2; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Grenade launcher; cluster; Armour 2; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.9109 (oracle 1.9026); mean Wounds 0.8447; any Wound 55.62%; mean friendly affected 0.0172.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20262741000–20262750999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-16.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-16.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR16 -->
+
+<!-- /ross-notes -->
+
+<a id="AR17"></a>
+
+### AR17 — Grenade launcher; spread; Armour 2; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Grenade launcher; spread; Armour 2; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.8085 (oracle 0.8117); mean Wounds 0.3597; any Wound 34.81%; mean friendly affected 0.0208.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20262841000–20262850999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-17.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-17.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR17 -->
+
+<!-- /ross-notes -->
+
+<a id="AR18"></a>
+
+### AR18 — Grenade launcher; single; Armour 4; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Grenade launcher; single; Armour 4; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.6801 (oracle 0.6870); mean Wounds 0.2406; any Wound 24.06%; mean friendly affected 0.0166.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20262941000–20262950999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-18.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-18.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR18 -->
+
+<!-- /ross-notes -->
+
+<a id="AR19"></a>
+
+### AR19 — Grenade launcher; cluster; Armour 4; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Grenade launcher; cluster; Armour 4; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.9082 (oracle 1.9026); mean Wounds 0.6608; any Wound 47.35%; mean friendly affected 0.0200.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20263041000–20263050999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-19.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-19.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR19 -->
+
+<!-- /ross-notes -->
+
+<a id="AR20"></a>
+
+### AR20 — Grenade launcher; spread; Armour 4; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Grenade launcher; spread; Armour 4; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.8080 (oracle 0.8117); mean Wounds 0.2854; any Wound 27.83%; mean friendly affected 0.0192.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20263141000–20263150999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-20.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-20.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR20 -->
+
+<!-- /ross-notes -->
+
+<a id="AR21"></a>
+
+### AR21 — Grenade launcher; single; Armour 6; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Grenade launcher; single; Armour 6; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.6950 (oracle 0.6870); mean Wounds 0.1773; any Wound 17.73%; mean friendly affected 0.0209.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20263241000–20263250999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-21.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-21.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR21 -->
+
+<!-- /ross-notes -->
+
+<a id="AR22"></a>
+
+### AR22 — Grenade launcher; cluster; Armour 6; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Grenade launcher; cluster; Armour 6; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.9036 (oracle 1.9026); mean Wounds 0.4791; any Wound 38.12%; mean friendly affected 0.0196.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20263341000–20263350999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-22.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-22.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR22 -->
+
+<!-- /ross-notes -->
+
+<a id="AR23"></a>
+
+### AR23 — Grenade launcher; spread; Armour 6; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Grenade launcher; spread; Armour 6; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.8199 (oracle 0.8117); mean Wounds 0.2072; any Wound 20.39%; mean friendly affected 0.0208.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20263441000–20263450999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-23.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-23.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR23 -->
+
+<!-- /ross-notes -->
+
+<a id="AR24"></a>
+
+### AR24 — Rocket launcher; single; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Rocket launcher; single; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.6829 (oracle 0.6870); mean Wounds 0.5995; any Wound 59.95%; mean friendly affected 0.0211.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20263541000–20263550999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-24.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-24.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR24 -->
+
+<!-- /ross-notes -->
+
+<a id="AR25"></a>
+
+### AR25 — Rocket launcher; cluster; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Rocket launcher; cluster; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.9112 (oracle 1.9026); mean Wounds 1.6837; any Wound 71.13%; mean friendly affected 0.0201.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20263641000–20263650999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-25.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-25.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR25 -->
+
+<!-- /ross-notes -->
+
+<a id="AR26"></a>
+
+### AR26 — Rocket launcher; spread; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Rocket launcher; spread; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.8149 (oracle 0.8117); mean Wounds 0.7142; any Wound 67.24%; mean friendly affected 0.0230.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20263741000–20263750999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-26.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-26.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR26 -->
+
+<!-- /ross-notes -->
+
+<a id="AR27"></a>
+
+### AR27 — Rocket launcher; single; Armour 2; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Rocket launcher; single; Armour 2; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.6802 (oracle 0.6870); mean Wounds 0.5465; any Wound 54.65%; mean friendly affected 0.0173.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20263841000–20263850999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-27.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-27.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR27 -->
+
+<!-- /ross-notes -->
+
+<a id="AR28"></a>
+
+### AR28 — Rocket launcher; cluster; Armour 2; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Rocket launcher; cluster; Armour 2; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.9186 (oracle 1.9026); mean Wounds 1.5264; any Wound 70.08%; mean friendly affected 0.0221.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20263941000–20263950999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-28.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-28.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR28 -->
+
+<!-- /ross-notes -->
+
+<a id="AR29"></a>
+
+### AR29 — Rocket launcher; spread; Armour 2; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Rocket launcher; spread; Armour 2; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.8169 (oracle 0.8117); mean Wounds 0.6526; any Wound 61.46%; mean friendly affected 0.0232.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20264041000–20264050999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-29.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-29.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR29 -->
+
+<!-- /ross-notes -->
+
+<a id="AR30"></a>
+
+### AR30 — Rocket launcher; single; Armour 4; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Rocket launcher; single; Armour 4; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.6780 (oracle 0.6870); mean Wounds 0.4798; any Wound 47.98%; mean friendly affected 0.0175.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20264141000–20264150999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-30.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-30.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR30 -->
+
+<!-- /ross-notes -->
+
+<a id="AR31"></a>
+
+### AR31 — Rocket launcher; cluster; Armour 4; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Rocket launcher; cluster; Armour 4; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.8698 (oracle 1.9026); mean Wounds 1.3115; any Wound 66.95%; mean friendly affected 0.0220.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20264241000–20264250999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-31.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-31.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR31 -->
+
+<!-- /ross-notes -->
+
+<a id="AR32"></a>
+
+### AR32 — Rocket launcher; spread; Armour 4; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Rocket launcher; spread; Armour 4; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.8182 (oracle 0.8117); mean Wounds 0.5741; any Wound 54.76%; mean friendly affected 0.0205.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20264341000–20264350999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-32.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-32.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR32 -->
+
+<!-- /ross-notes -->
+
+<a id="AR33"></a>
+
+### AR33 — Rocket launcher; single; Armour 6; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Rocket launcher; single; Armour 6; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.6889 (oracle 0.6870); mean Wounds 0.4002; any Wound 40.02%; mean friendly affected 0.0192.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20264441000–20264450999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-33.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-33.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR33 -->
+
+<!-- /ross-notes -->
+
+<a id="AR34"></a>
+
+### AR34 — Rocket launcher; cluster; Armour 6; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Rocket launcher; cluster; Armour 6; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.8882 (oracle 1.9026); mean Wounds 1.0947; any Wound 62.71%; mean friendly affected 0.0185.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20264541000–20264550999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-34.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-34.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR34 -->
+
+<!-- /ross-notes -->
+
+<a id="AR35"></a>
+
+### AR35 — Rocket launcher; spread; Armour 6; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Rocket launcher; spread; Armour 6; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.8152 (oracle 0.8117); mean Wounds 0.4739; any Wound 45.51%; mean friendly affected 0.0216.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20264641000–20264650999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-35.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-35.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR35 -->
+
+<!-- /ross-notes -->
+
+<a id="AR36"></a>
+
+### AR36 — Grenade launcher; single; Armour 4; DEX 0; Stress 3; moved False
+
+- [x] **Executed** — Grenade launcher; single; Armour 4; DEX 0; Stress 3; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.5365 (oracle 0.5304); mean Wounds 0.1943; any Wound 19.43%; mean friendly affected 0.0314.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20264741000–20264750999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-36.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-36.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR36 -->
+
+<!-- /ross-notes -->
+
+<a id="AR37"></a>
+
+### AR37 — Grenade launcher; cluster; Armour 4; DEX 0; Stress 3; moved False
+
+- [x] **Executed** — Grenade launcher; cluster; Armour 4; DEX 0; Stress 3; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.3547 (oracle 1.3539); mean Wounds 0.4811; any Wound 36.15%; mean friendly affected 0.0292.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20264841000–20264850999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-37.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-37.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR37 -->
+
+<!-- /ross-notes -->
+
+<a id="AR38"></a>
+
+### AR38 — Grenade launcher; single; Armour 4; DEX 0; Stress 3; moved True
+
+- [x] **Executed** — Grenade launcher; single; Armour 4; DEX 0; Stress 3; moved True
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.4728 (oracle 0.4678); mean Wounds 0.1701; any Wound 17.01%; mean friendly affected 0.0360.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20264941000–20264950999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-38.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-38.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR38 -->
+
+<!-- /ross-notes -->
+
+<a id="AR39"></a>
+
+### AR39 — Grenade launcher; cluster; Armour 4; DEX 0; Stress 3; moved True
+
+- [x] **Executed** — Grenade launcher; cluster; Armour 4; DEX 0; Stress 3; moved True
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.1425 (oracle 1.1345); mean Wounds 0.4068; any Wound 31.42%; mean friendly affected 0.0345.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20265041000–20265050999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-39.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-39.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR39 -->
+
+<!-- /ross-notes -->
+
+<a id="AR40"></a>
+
+### AR40 — Flashbang; single; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Flashbang; single; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.7527 (oracle 0.7500); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.0000.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20265141000–20265150999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-40.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-40.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR40 -->
+
+<!-- /ross-notes -->
+
+<a id="AR41"></a>
+
+### AR41 — Flashbang; spread; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Flashbang; spread; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 2.1127 (oracle 2.1258); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.0000.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20265241000–20265250999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-41.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-41.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR41 -->
+
+<!-- /ross-notes -->
+
+<a id="AR42"></a>
+
+### AR42 — Flashbang; mixed; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Flashbang; mixed; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.4991 (oracle 1.4931); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.0000.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20265341000–20265350999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-42.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-42.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR42 -->
+
+<!-- /ross-notes -->
+
+<a id="AR43"></a>
+
+### AR43 — Tear-gas grenade; single; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Tear-gas grenade; single; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.0910 (oracle 1.0889); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.1781.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20265441000–20265450999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-43.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-43.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR43 -->
+
+<!-- /ross-notes -->
+
+<a id="AR44"></a>
+
+### AR44 — Tear-gas grenade; spread; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Tear-gas grenade; spread; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 2.7828 (oracle 2.7834); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.1771.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20265541000–20265550999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-44.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-44.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR44 -->
+
+<!-- /ross-notes -->
+
+<a id="AR45"></a>
+
+### AR45 — Tear-gas grenade; mixed; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Tear-gas grenade; mixed; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 2.9069 (oracle 2.9151); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 1.0781.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20265641000–20265650999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-45.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-45.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR45 -->
+
+<!-- /ross-notes -->
+
+<a id="AR46"></a>
+
+### AR46 — Molotov cocktail; single; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Molotov cocktail; single; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.6913 (oracle 0.6870); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.0225.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20265741000–20265750999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-46.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-46.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR46 -->
+
+<!-- /ross-notes -->
+
+<a id="AR47"></a>
+
+### AR47 — Molotov cocktail; spread; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Molotov cocktail; spread; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.8165 (oracle 0.8117); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.0209.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20265841000–20265850999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-47.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-47.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR47 -->
+
+<!-- /ross-notes -->
+
+<a id="AR48"></a>
+
+### AR48 — Molotov cocktail; mixed; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Molotov cocktail; mixed; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.8882 (oracle 1.9026); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.6224.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20265941000–20265950999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-48.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-48.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR48 -->
+
+<!-- /ross-notes -->
+
+<a id="AR49"></a>
+
+### AR49 — Smoke grenade; single; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Smoke grenade; single; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 0.7488 (oracle 0.7500); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.0000.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20266041000–20266050999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-49.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-49.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR49 -->
+
+<!-- /ross-notes -->
+
+<a id="AR50"></a>
+
+### AR50 — Smoke grenade; spread; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Smoke grenade; spread; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 2.0398 (oracle 2.0351); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.0000.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20266141000–20266150999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-50.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-50.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR50 -->
+
+<!-- /ross-notes -->
+
+<a id="AR51"></a>
+
+### AR51 — Smoke grenade; mixed; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Smoke grenade; mixed; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 2.1420 (oracle 2.1484); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.6937.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20266241000–20266250999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-51.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-51.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR51 -->
+
+<!-- /ross-notes -->
+
+<a id="AR52"></a>
+
+### AR52 — Flamethrower; cluster; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Flamethrower; cluster; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 3.0000 (oracle 3.0000); mean Wounds 1.5032; any Wound 87.81%; mean friendly affected 0.0000.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20266341000–20266350999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-52.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-52.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR52 -->
+
+<!-- /ross-notes -->
+
+<a id="AR53"></a>
+
+### AR53 — Flamethrower; spread; Armour 0; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Flamethrower; spread; Armour 0; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.0000 (oracle 1.0000); mean Wounds 0.4999; any Wound 49.99%; mean friendly affected 0.0000.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20266441000–20266450999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-53.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-53.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR53 -->
+
+<!-- /ross-notes -->
+
+<a id="AR54"></a>
+
+### AR54 — Flamethrower; cluster; Armour 2; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Flamethrower; cluster; Armour 2; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 3.0000 (oracle 3.0000); mean Wounds 1.2092; any Wound 79.10%; mean friendly affected 0.0000.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20266541000–20266550999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-54.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-54.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR54 -->
+
+<!-- /ross-notes -->
+
+<a id="AR55"></a>
+
+### AR55 — Flamethrower; spread; Armour 2; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Flamethrower; spread; Armour 2; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.0000 (oracle 1.0000); mean Wounds 0.3938; any Wound 39.38%; mean friendly affected 0.0000.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20266641000–20266650999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-55.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-55.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR55 -->
+
+<!-- /ross-notes -->
+
+<a id="AR56"></a>
+
+### AR56 — Flamethrower; cluster; Armour 4; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Flamethrower; cluster; Armour 4; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 3.0000 (oracle 3.0000); mean Wounds 0.8982; any Wound 65.80%; mean friendly affected 0.0000.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20266741000–20266750999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-56.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-56.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR56 -->
+
+<!-- /ross-notes -->
+
+<a id="AR57"></a>
+
+### AR57 — Flamethrower; spread; Armour 4; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Flamethrower; spread; Armour 4; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.0000 (oracle 1.0000); mean Wounds 0.3103; any Wound 31.03%; mean friendly affected 0.0000.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20266841000–20266850999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-57.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-57.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR57 -->
+
+<!-- /ross-notes -->
+
+<a id="AR58"></a>
+
+### AR58 — Flamethrower; cluster; Armour 6; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Flamethrower; cluster; Armour 6; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 3.0000 (oracle 3.0000); mean Wounds 0.5979; any Wound 48.57%; mean friendly affected 0.0000.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20266941000–20266950999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-58.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-58.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR58 -->
+
+<!-- /ross-notes -->
+
+<a id="AR59"></a>
+
+### AR59 — Flamethrower; spread; Armour 6; DEX 2; Stress 0; moved False
+
+- [x] **Executed** — Flamethrower; spread; Armour 6; DEX 2; Stress 0; moved False
+
+#### Results
+
+**Recorded result:** 10,000 seeds. Mean affected 1.0000 (oracle 1.0000); mean Wounds 0.1974; any Wound 19.74%; mean friendly affected 0.0000.
+
+**Findings:** The five declared metrics pass simultaneous bounded-mean oracle checks; condition payloads are not generic Injury.
+
+**Notes / remaining work:** Seeds 20267041000–20267050999. One fixed-aim action, fresh W1 targets; self/friendly exposure included where appropriate. Not an equal-Credit or crew comparison.
+
+**Evidence:** [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>) · [area-59.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/replays/area-59.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:AR59 -->
+
+<!-- /ross-notes -->
+
+<a id="SL01"></a>
+
+### SL01 — lane-wall0-respirator0
+
+- [x] **Executed** — lane-wall0-respirator0
+
+#### Results
+
+**Recorded result:** 1000 paired seeds. Surviving watched-lane snapshot: control 56.60%, smoke 89.60%; paired delta +33.00 pp, simultaneous 95% +22.26 pp to +43.74 pp.
+
+**Findings:** Smoke may block the reaction or grant Heavy cover; the watcher’s own Respirator bypasses its smoke restrictions.
+
+**Notes / remaining work:** A fixed throw precedes a front-arc ALERT shot if LOS remains; smoke costs one Core and one consumable. This is a one-round lane snapshot, not complete movement interruption or full-battle AI.
+
+**Evidence:** [smoke-lane.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/smoke-lane.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:SL01 -->
+
+<!-- /ross-notes -->
+
+<a id="SL02"></a>
+
+### SL02 — lane-wall0-respirator1
+
+- [x] **Executed** — lane-wall0-respirator1
+
+#### Results
+
+**Recorded result:** 1000 paired seeds. Surviving watched-lane snapshot: control 56.00%, smoke 56.00%; paired delta +0.00 pp, simultaneous 95% -10.74 pp to +10.74 pp.
+
+**Findings:** Smoke may block the reaction or grant Heavy cover; the watcher’s own Respirator bypasses its smoke restrictions.
+
+**Notes / remaining work:** A fixed throw precedes a front-arc ALERT shot if LOS remains; smoke costs one Core and one consumable. This is a one-round lane snapshot, not complete movement interruption or full-battle AI.
+
+**Evidence:** [smoke-lane.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/smoke-lane.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:SL02 -->
+
+<!-- /ross-notes -->
+
+<a id="SL03"></a>
+
+### SL03 — lane-wall1-respirator0
+
+- [x] **Executed** — lane-wall1-respirator0
+
+#### Results
+
+**Recorded result:** 1000 paired seeds. Surviving watched-lane snapshot: control 100.00%, smoke 100.00%; paired delta +0.00 pp, simultaneous 95% -10.74 pp to +10.74 pp.
+
+**Findings:** Smoke may block the reaction or grant Heavy cover; the watcher’s own Respirator bypasses its smoke restrictions.
+
+**Notes / remaining work:** A fixed throw precedes a front-arc ALERT shot if LOS remains; smoke costs one Core and one consumable. This is a one-round lane snapshot, not complete movement interruption or full-battle AI.
+
+**Evidence:** [smoke-lane.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/smoke-lane.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:SL03 -->
+
+<!-- /ross-notes -->
+
+<a id="SL04"></a>
+
+### SL04 — lane-wall1-respirator1
+
+- [x] **Executed** — lane-wall1-respirator1
+
+#### Results
+
+**Recorded result:** 1000 paired seeds. Surviving watched-lane snapshot: control 100.00%, smoke 100.00%; paired delta +0.00 pp, simultaneous 95% -10.74 pp to +10.74 pp.
+
+**Findings:** Smoke may block the reaction or grant Heavy cover; the watcher’s own Respirator bypasses its smoke restrictions.
+
+**Notes / remaining work:** A fixed throw precedes a front-arc ALERT shot if LOS remains; smoke costs one Core and one consumable. This is a one-round lane snapshot, not complete movement interruption or full-battle AI.
+
+**Evidence:** [smoke-lane.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/smoke-lane.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/configs.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:SL04 -->
 
 <!-- /ross-notes -->
 <!-- /settlements-simulation:generated -->

@@ -27,7 +27,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Ambush partial; bonus must be tied to one weapon and failure-action/counterattack ordering needs complete fixtures. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-324 - Ambush|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-324 - Ambush|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -49,7 +49,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Blade Fury chaining/movement not implemented. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-530 - Blade Fury|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-530 - Blade Fury|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -71,7 +71,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-326 - Ghost|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-326 - Ghost|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -93,7 +93,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-554 - Gun-fu|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-554 - Gun-fu|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -115,7 +115,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Incapacitate action not implemented as a skill API. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-325 - Incapacitate|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-325 - Incapacitate|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -137,7 +137,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-527 - Phantom Shot|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-527 - Phantom Shot|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -159,7 +159,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-329 - Quick|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-329 - Quick|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -181,7 +181,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Return to the Shadows move/end-cover/outside-ALERT-LOS procedure not implemented. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-526 - Return to the Shadows|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-526 - Return to the Shadows|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -197,13 +197,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 1 named primary check(s): Riposte does not chain counterattacks. 16,946 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 1 named primary check(s): Riposte does not chain counterattacks. 1 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** No complete profile-level balance finding is established.
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-531 - Riposte|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-531 - Riposte|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -225,7 +225,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-528 - Show Yourself|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-528 - Show Yourself|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -247,7 +247,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-330 - Sneak|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-330 - Sneak|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -269,7 +269,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-331 - Sprinter|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-331 - Sprinter|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -291,7 +291,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Bullet Time split allocations not implemented. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-319 - Bullet Time|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-319 - Bullet Time|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -313,7 +313,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-523 - Eyes Peeled|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-523 - Eyes Peeled|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -335,7 +335,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-318 - Gunslinger|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-318 - Gunslinger|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -357,7 +357,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-317 - Head Shot|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-317 - Head Shot|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -379,7 +379,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-316 - Mark Target|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-316 - Mark Target|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -401,7 +401,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** On Me activation chaining not implemented; no extra activation granted silently. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-525 - On Me|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-525 - On Me|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -423,7 +423,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-522 - Pin Them Down|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-522 - Pin Them Down|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -445,7 +445,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-524 - Planning Ahead|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-524 - Planning Ahead|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -467,7 +467,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Run + Gun movement/shot/movement composition not implemented. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-320 - Run + Gun|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-320 - Run + Gun|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -489,7 +489,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-323 - Speed Loader|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-323 - Speed Loader|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -511,7 +511,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-510 - Steady Breathing|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-510 - Steady Breathing|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -533,7 +533,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Watch Out! is not implemented. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-521 - Watch Out!|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-521 - Watch Out!|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -555,7 +555,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-535 - Chemical Cocktail|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-535 - Chemical Cocktail|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -577,7 +577,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Doc free dose probe passes; three different chem capacity exception and full recipient/range policy incomplete. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-337 - Doc|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-337 - Doc|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -599,7 +599,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-533 - Drone Operator|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-533 - Drone Operator|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -621,7 +621,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-532 - Drone Pilot|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-532 - Drone Pilot|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -643,7 +643,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-536 - Field Coordination|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-536 - Field Coordination|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -665,7 +665,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-534 - Field Engineer|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-534 - Field Engineer|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -687,7 +687,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Inspector Gadget basic capacity tested; full vest/consumable item-vs-slot interactions incomplete. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-338 - Inspector Gadget|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-338 - Inspector Gadget|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -709,7 +709,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Interrupt contact/shared terminal network/active-hacker tie ownership needs complete spatial fixtures. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-334 - Interrupt|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-334 - Interrupt|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -731,7 +731,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-332 - Neural Uplink|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-332 - Neural Uplink|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -753,7 +753,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-339 - Smart|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-339 - Smart|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -775,7 +775,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-336 - Stabilize|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-336 - Stabilize|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -797,7 +797,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Trojan operation execution/trigger/defuse and control-return timing incomplete. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-333 - Trojan|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-333 - Trojan|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -819,7 +819,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-540 - Beta Blocker|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-540 - Beta Blocker|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -841,7 +841,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-541 - Big Aura|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-541 - Big Aura|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -863,7 +863,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-346 - Commanding Presence|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-346 - Commanding Presence|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -885,7 +885,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-344 - Hold Fast|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-344 - Hold Fast|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -907,7 +907,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** I'm About to Break Stress reversal and forced Break exception not implemented. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-537 - I'm About to Break|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-537 - I'm About to Break|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -923,13 +923,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 1 named primary check(s): Rage implode post attack stress. 6,501 current source-tagged events; not all are successful/positive uses. The combined Rage + Implode replacement has paired tactical screening and fixed confirmation; this does not isolate this skill alone.
+**Recorded result:** 1 named primary check(s): Rage implode post attack stress. 1 current source-tagged events; not all are successful/positive uses. The combined Rage + Implode replacement has paired tactical screening and fixed confirmation; this does not isolate this skill alone.
 
 **Findings:** No complete profile-level balance finding is established.
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-538 - Implode|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-538 - Implode|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -951,7 +951,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-340 - Inspire|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-340 - Inspire|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -973,7 +973,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-343 - Lean on Me|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-343 - Lean on Me|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -995,7 +995,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-539 - Menacing|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-539 - Menacing|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -1017,7 +1017,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Motivate two-Core fixture passes; converting additional granted Move actions and repeat limits need complete interpretation/conformance. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-342 - Motivate|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-342 - Motivate|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -1033,13 +1033,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 1 named primary check(s): Rage implode post attack stress. 6,501 current source-tagged events; not all are successful/positive uses. The combined Rage + Implode replacement has paired tactical screening and fixed confirmation; this does not isolate this skill alone.
+**Recorded result:** 1 named primary check(s): Rage implode post attack stress. 1 current source-tagged events; not all are successful/positive uses. The combined Rage + Implode replacement has paired tactical screening and fixed confirmation; this does not isolate this skill alone.
 
 **Findings:** No complete profile-level balance finding is established.
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-313 - Rage|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-313 - Rage|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -1061,7 +1061,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-341 - Rally|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-341 - Rally|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -1083,7 +1083,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-315 - Big Fella|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-315 - Big Fella|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -1105,7 +1105,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-311 - Brace|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-311 - Brace|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -1127,7 +1127,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Bull terrain traversal and contacted-enemy tests/pushes not implemented. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-312 - Bull|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-312 - Bull|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1149,7 +1149,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Taunt state is set but target-selection compulsion not integrated. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-516 - Come On Then|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-516 - Come On Then|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1171,7 +1171,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-520 - Goliath|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-520 - Goliath|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -1193,7 +1193,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Grapple interception d6 for the whole redirected attack, release placements, collisions and every loss trigger incomplete. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-308 - Grapple|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-308 - Grapple|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1215,7 +1215,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Movement/weapon allowance probes partial; all Grapple/Carry/Hauler interactions unmeasured. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-309 - Hauler|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-309 - Hauler|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1237,7 +1237,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-519 - Human Bullet|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-519 - Human Bullet|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1259,7 +1259,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Rampage follow-up movement is incomplete; scaffold may select an in-reach target without complete movement validation. Not used for balance. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-518 - Rampage|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-518 - Rampage|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1281,7 +1281,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Throw scaffold omits structure sweeps, Heavy collision Injury and complete ledge/control counterplay. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-310 - Throw|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-310 - Throw|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1303,7 +1303,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-314 - Tough|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-314 - Tough|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1325,7 +1325,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Every skill still needs complete intended-use, unfavourable/counterplay and legal crew integration comparisons. A named hook is not full implementation. Full skill comparison/intended-use/counterplay/crew ladder remains open.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-517 - Tough as Nails|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Skill Cards/V2-517 - Tough as Nails|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -1343,13 +1343,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 10,376 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 79.42%; any Wound 30.00% (95% 29.11%–30.91%); Down 0.00%; oracle check passed.
+**Recorded result:** 3,650 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 79.42%; any Wound 30.00% (95% 29.11%–30.91%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-294 - Assault rifle|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-294 - Assault rifle|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1365,13 +1365,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 10,214 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 79.09%; any Wound 23.70% (95% 22.88%–24.54%); Down 0.00%; oracle check passed.
+**Recorded result:** 214 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 79.09%; any Wound 23.70% (95% 22.88%–24.54%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-293 - Carbine|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-293 - Carbine|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1387,13 +1387,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 10,000 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 37.02%; any Wound 16.64% (95% 15.92%–17.38%); Down 0.00%; oracle check passed.
+**Recorded result:** Single-attack Monte Carlo: 10,000 trials; any hit 37.02%; any Wound 16.64% (95% 15.92%–17.38%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-511 - Club Hammer Steel pipe|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-511 - Club Hammer Steel pipe|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1409,13 +1409,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 10,000 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 37.02%; any Wound 9.30% (95% 8.75%–9.88%); Down 0.00%; oracle check passed.
+**Recorded result:** Single-attack Monte Carlo: 10,000 trials; any hit 37.02%; any Wound 9.30% (95% 8.75%–9.88%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-287 - Crowbar|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-287 - Crowbar|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1431,13 +1431,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 250,002 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 64.18%; any Wound 15.91% (95% 15.21%–16.64%); Down 0.00%; oracle check passed.
+**Recorded result:** 2 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 64.18%; any Wound 15.91% (95% 15.21%–16.64%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-285 - Dagger Shiv|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-285 - Dagger Shiv|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1453,13 +1453,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** Affected-target exact math exists; area geometry/tactical Monte Carlo is not measured.
+**Recorded result:** 5 named primary check(s): Area flame auto no hit or scatter no extra atk; Area flame muzzle range and wall; Area flame rounded dimensions and partial witness; Area profile payloads and printed radii; Area two hands and reaction facing. 80,003 current source-tagged events; not all are successful/positive uses. v4 area measurements: 8 contexts / 80,000 trials; independent oracle checks passed. Horizontal flame, open scatter/cluster and source-specific payload scope only.
 
 **Findings:** No complete profile-level balance finding is established.
 
-**Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
+**Notes / remaining work:** Named area clauses and open/horizontal scatter/cluster measurements exist. Oblique flame and device-hit adapters fail explicitly. Partial base occlusion is sampled; vertical fire/falls, machinery smoke interactions, capable area battle policies and broad counterbuilds remain incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-301 - Flamethrower|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-301 - Flamethrower|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>) · [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [AREA-CONTRACT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/AREA-CONTRACT.md>)
 
 **Ross’s notes:**
 
@@ -1475,13 +1475,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** Affected-target exact math exists; area geometry/tactical Monte Carlo is not measured.
+**Recorded result:** 2 named primary check(s): Area profile payloads and printed radii; Area reload and single use. 160,003 current source-tagged events; not all are successful/positive uses. v4 area measurements: 16 contexts / 160,000 trials; independent oracle checks passed. Horizontal flame, open scatter/cluster and source-specific payload scope only.
 
 **Findings:** No complete profile-level balance finding is established.
 
-**Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
+**Notes / remaining work:** Named area clauses and open/horizontal scatter/cluster measurements exist. Oblique flame and device-hit adapters fail explicitly. Partial base occlusion is sampled; vertical fire/falls, machinery smoke interactions, capable area battle policies and broad counterbuilds remain incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-300 - Grenade launcher|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-300 - Grenade launcher|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>) · [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [AREA-CONTRACT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/AREA-CONTRACT.md>)
 
 **Ross’s notes:**
 
@@ -1497,13 +1497,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 10,000 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 54.66%; any Wound 27.87% (95% 27.00%–28.76%); Down 0.00%; oracle check passed.
+**Recorded result:** Single-attack Monte Carlo: 10,000 trials; any hit 54.66%; any Wound 27.87% (95% 27.00%–28.76%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-304 - Javelin|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-304 - Javelin|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1519,13 +1519,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 10,002 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 90.50%; any Wound 52.63% (95% 51.65%–53.61%); Down 1.07%; oracle check passed.
+**Recorded result:** 2 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 90.50%; any Wound 52.63% (95% 51.65%–53.61%); Down 1.07%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-299 - Machine gun|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-299 - Machine gun|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1541,13 +1541,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 1 named primary check(s): Reload and recovery costs. 10,001 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 54.66%; any Wound 19.15% (95% 18.39%–19.93%); Down 0.00%; oracle check passed.
+**Recorded result:** 1 named primary check(s): Reload and recovery costs. 1 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 54.66%; any Wound 19.15% (95% 18.39%–19.93%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-292 - Magnum|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-292 - Magnum|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1563,13 +1563,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 10,167 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 54.66%; any Wound 13.84% (95% 13.18%–14.53%); Down 0.00%; oracle check passed.
+**Recorded result:** 167 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 54.66%; any Wound 13.84% (95% 13.18%–14.53%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-290 - Pistol|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-290 - Pistol|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1585,13 +1585,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 1 named primary check(s): Accurate one miss only. 10,001 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 79.09%; any Wound 23.70% (95% 22.88%–24.54%); Down 0.00%; oracle check passed.
+**Recorded result:** 1 named primary check(s): Accurate one miss only. 1 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 79.09%; any Wound 23.70% (95% 22.88%–24.54%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-291 - Revolver|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-291 - Revolver|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1607,13 +1607,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** Affected-target exact math exists; area geometry/tactical Monte Carlo is not measured.
+**Recorded result:** 3 named primary check(s): Area piercing one wound and no stress in injury; Area profile payloads and printed radii; Area reload and single use. 120,002 current source-tagged events; not all are successful/positive uses. v4 area measurements: 12 contexts / 120,000 trials; independent oracle checks passed. Horizontal flame, open scatter/cluster and source-specific payload scope only.
 
 **Findings:** No complete profile-level balance finding is established.
 
-**Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
+**Notes / remaining work:** Named area clauses and open/horizontal scatter/cluster measurements exist. Oblique flame and device-hit adapters fail explicitly. Partial base occlusion is sampled; vertical fire/falls, machinery smoke interactions, capable area battle policies and broad counterbuilds remain incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-302 - Rocket launcher|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-302 - Rocket launcher|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>) · [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [AREA-CONTRACT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/AREA-CONTRACT.md>)
 
 **Ross’s notes:**
 
@@ -1629,13 +1629,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 10,000 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 54.66%; any Wound 19.15% (95% 18.39%–19.93%); Down 0.00%; oracle check passed.
+**Recorded result:** Single-attack Monte Carlo: 10,000 trials; any hit 54.66%; any Wound 19.15% (95% 18.39%–19.93%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-296 - Shotgun|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-296 - Shotgun|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1651,13 +1651,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 1 named primary check(s): Piercing is best of not extra wound. 10,006 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 79.09%; any Wound 45.93% (95% 44.96%–46.91%); Down 0.00%; oracle check passed.
+**Recorded result:** 1 named primary check(s): Piercing is best of not extra wound. 6 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 79.09%; any Wound 45.93% (95% 44.96%–46.91%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-298 - Sniper rifle|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-298 - Sniper rifle|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1673,13 +1673,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 250,001 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 37.02%; any Wound 12.83% (95% 12.19%–13.50%); Down 0.00%; oracle check passed.
+**Recorded result:** 1 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 37.02%; any Wound 12.83% (95% 12.19%–13.50%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-288 - Spear|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-288 - Spear|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1695,13 +1695,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 10,000 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 79.42%; any Wound 25.48% (95% 24.64%–26.34%); Down 0.00%; oracle check passed.
+**Recorded result:** Single-attack Monte Carlo: 10,000 trials; any hit 79.42%; any Wound 25.48% (95% 24.64%–26.34%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-295 - Submachine gun|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-295 - Submachine gun|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1717,13 +1717,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 10,000 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 54.66%; any Wound 16.56% (95% 15.84%–17.30%); Down 0.00%; oracle check passed.
+**Recorded result:** Single-attack Monte Carlo: 10,000 trials; any hit 54.66%; any Wound 16.56% (95% 15.84%–17.30%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-297 - Suppressed carbine|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-297 - Suppressed carbine|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1739,13 +1739,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 1 named primary check(s): Dual agile and parry shield stack. 289,064 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 64.18%; any Wound 19.79% (95% 19.02%–20.58%); Down 0.00%; oracle check passed.
+**Recorded result:** 1 named primary check(s): Dual agile and parry shield stack. 119 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 64.18%; any Wound 19.79% (95% 19.02%–20.58%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-286 - Sword Machete|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-286 - Sword Machete|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1761,13 +1761,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 10,000 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 54.66%; any Wound 13.84% (95% 13.18%–14.53%); Down 0.00%; oracle check passed.
+**Recorded result:** Single-attack Monte Carlo: 10,000 trials; any hit 54.66%; any Wound 13.84% (95% 13.18%–14.53%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-303 - Throwing knife|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-303 - Throwing knife|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1783,13 +1783,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 250,001 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 37.02%; any Wound 21.33% (95% 20.54%–22.14%); Down 0.00%; oracle check passed.
+**Recorded result:** 1 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 37.02%; any Wound 21.33% (95% 20.54%–22.14%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-289 - Two-handed axe|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-289 - Two-handed axe|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1805,13 +1805,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 10,018 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 37.02%; any Wound 7.46% (95% 6.96%–7.99%); Down 0.00%; oracle check passed.
+**Recorded result:** 18 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 37.02%; any Wound 7.46% (95% 6.96%–7.99%); Down 0.00%; oracle check passed.
 
 **Findings:** The conditional one-attack observations agree with the independent probability check; no range, downtime or whole-battle ranking follows.
 
 **Notes / remaining work:** Conditional one-attack math does not measure range, movement, downtime, all keywords, intended-use battles or prices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-283 - Unarmed|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Cards/V2-283 - Unarmed|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [combat-micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/combat-micro.csv>)
 
 **Ross’s notes:**
 
@@ -1835,7 +1835,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Conditional Injury math and MOVE values exist; multi-round survival/objective value across all counters not established.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Armour Cards/V2-254 - Light armour|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Armour Cards/V2-254 - Light armour|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1857,7 +1857,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Conditional Injury math and MOVE values exist; multi-round survival/objective value across all counters not established.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Armour Cards/V2-542 - Reinforced armour|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Armour Cards/V2-542 - Reinforced armour|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1879,7 +1879,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Conditional Injury math and MOVE values exist; multi-round survival/objective value across all counters not established.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Armour Cards/V2-255 - Standard armour|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Armour Cards/V2-255 - Standard armour|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1903,7 +1903,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-269 - Anti-anxiety dose|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-269 - Anti-anxiety dose|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1925,7 +1925,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-509 - Antidote|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-509 - Antidote|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1947,7 +1947,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-501 - Breaching charge|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-501 - Breaching charge|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1969,7 +1969,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-262 - Climbing gear|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-262 - Climbing gear|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -1991,7 +1991,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-505 - Crank|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-505 - Crank|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2013,7 +2013,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-506 - Dexies|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-506 - Dexies|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2025,17 +2025,17 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 ### V2-502 — Flashbang
 
-- [ ] **Not run** — Flashbang
+- [ ] **Partial** — Flashbang
 
 #### Results
 
-**Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
+**Recorded result:** 3 named primary check(s): Area flash enemy radius and stun no injury; Area profile payloads and printed radii; Area stun reapplication costs one activation. 117,296 current source-tagged events; not all are successful/positive uses. v4 area measurements: 3 contexts / 30,000 trials; independent oracle checks passed. Horizontal flame, open scatter/cluster and source-specific payload scope only.
 
 **Findings:** No complete profile-level balance finding is established.
 
-**Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
+**Notes / remaining work:** Named area clauses and open/horizontal scatter/cluster measurements exist. Oblique flame and device-hit adapters fail explicitly. Partial base occlusion is sampled; vertical fire/falls, machinery smoke interactions, capable area battle policies and broad counterbuilds remain incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-502 - Flashbang|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-502 - Flashbang|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [AREA-CONTRACT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/AREA-CONTRACT.md>)
 
 **Ross’s notes:**
 
@@ -2057,7 +2057,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-209 - Folding barricade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-209 - Folding barricade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2069,17 +2069,17 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 ### V2-259 — Frag grenade
 
-- [ ] **Not run** — Frag grenade
+- [ ] **Partial** — Frag grenade
 
 #### Results
 
-**Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
+**Recorded result:** 3 named primary check(s): Area blast partial base and friendlies; Area consumed on scattered miss; Area profile payloads and printed radii. 120,005 current source-tagged events; not all are successful/positive uses. v4 area measurements: 12 contexts / 120,000 trials; independent oracle checks passed. Horizontal flame, open scatter/cluster and source-specific payload scope only.
 
 **Findings:** No complete profile-level balance finding is established.
 
-**Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
+**Notes / remaining work:** Named area clauses and open/horizontal scatter/cluster measurements exist. Oblique flame and device-hit adapters fail explicitly. Partial base occlusion is sampled; vertical fire/falls, machinery smoke interactions, capable area battle policies and broad counterbuilds remain incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-259 - Frag grenade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-259 - Frag grenade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [AREA-CONTRACT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/AREA-CONTRACT.md>)
 
 **Ross’s notes:**
 
@@ -2101,7 +2101,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-261 - Hacking kit|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-261 - Hacking kit|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -2123,7 +2123,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-504 - Juice|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-504 - Juice|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -2145,7 +2145,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-500 - Load-bearing harness|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-500 - Load-bearing harness|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2167,7 +2167,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-257 - Medkit|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-257 - Medkit|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -2179,17 +2179,17 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 ### V2-260 — Molotov cocktail
 
-- [ ] **Not run** — Molotov cocktail
+- [ ] **Partial** — Molotov cocktail
 
 #### Results
 
-**Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
+**Recorded result:** 2 named primary check(s): Area molotov fire no injury no persistent zone; Area profile payloads and printed radii. 30,001 current source-tagged events; not all are successful/positive uses. v4 area measurements: 3 contexts / 30,000 trials; independent oracle checks passed. Horizontal flame, open scatter/cluster and source-specific payload scope only.
 
 **Findings:** No complete profile-level balance finding is established.
 
-**Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
+**Notes / remaining work:** Named area clauses and open/horizontal scatter/cluster measurements exist. Oblique flame and device-hit adapters fail explicitly. Partial base occlusion is sampled; vertical fire/falls, machinery smoke interactions, capable area battle policies and broad counterbuilds remain incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-260 - Molotov cocktail|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-260 - Molotov cocktail|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [AREA-CONTRACT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/AREA-CONTRACT.md>)
 
 **Ross’s notes:**
 
@@ -2205,13 +2205,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 1 named primary check(s): Dual agile and parry shield stack. 276,456 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 1 named primary check(s): Dual agile and parry shield stack. 1 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** No complete profile-level balance finding is established.
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-256 - Protective shield|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-256 - Protective shield|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -2233,7 +2233,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-265 - Repair pack|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-265 - Repair pack|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2245,17 +2245,17 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 ### V2-264 — Respirator
 
-- [ ] **Not run** — Respirator
+- [ ] **Partial** — Respirator
 
 #### Results
 
-**Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
+**Recorded result:** 2 named primary check(s): Area gas radius friendly effect and respirator; Area smoke outside block inside cover and respirator. 1 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** No complete profile-level balance finding is established.
 
-**Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
+**Notes / remaining work:** Bearer-only smoke-LOS/cover and gas immunity have focused tests and lane counterplay. Full crew utility across other gas/smoke sources and terrain emitters remains incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-264 - Respirator|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-264 - Respirator|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -2267,17 +2267,17 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 ### V2-258 — Smoke grenade
 
-- [ ] **Not run** — Smoke grenade
+- [ ] **Partial** — Smoke grenade
 
 #### Results
 
-**Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
+**Recorded result:** 4 named primary check(s): Area profile payloads and printed radii; Area smoke outside block inside cover and respirator; Area smoke vertical extent expiry and consumption; Area unwieldy and cover affect placement. 68,002 current source-tagged events; not all are successful/positive uses. v4 area measurements: 3 contexts / 30,000 trials; independent oracle checks passed. Horizontal flame, open scatter/cluster and source-specific payload scope only.
 
 **Findings:** No complete profile-level balance finding is established.
 
-**Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
+**Notes / remaining work:** Named area clauses and open/horizontal scatter/cluster measurements exist. Oblique flame and device-hit adapters fail explicitly. Partial base occlusion is sampled; vertical fire/falls, machinery smoke interactions, capable area battle policies and broad counterbuilds remain incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-258 - Smoke grenade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-258 - Smoke grenade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [AREA-CONTRACT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/AREA-CONTRACT.md>)
 
 **Ross’s notes:**
 
@@ -2299,7 +2299,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-508 - Stims|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-508 - Stims|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2311,17 +2311,17 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 ### V2-503 — Tear-gas grenade
 
-- [ ] **Not run** — Tear-gas grenade
+- [ ] **Partial** — Tear-gas grenade
 
 #### Results
 
-**Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
+**Recorded result:** 2 named primary check(s): Area gas radius friendly effect and respirator; Area profile payloads and printed radii. 165,619 current source-tagged events; not all are successful/positive uses. v4 area measurements: 3 contexts / 30,000 trials; independent oracle checks passed. Horizontal flame, open scatter/cluster and source-specific payload scope only.
 
 **Findings:** No complete profile-level balance finding is established.
 
-**Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
+**Notes / remaining work:** Named area clauses and open/horizontal scatter/cluster measurements exist. Oblique flame and device-hit adapters fail explicitly. Partial base occlusion is sampled; vertical fire/falls, machinery smoke interactions, capable area battle policies and broad counterbuilds remain incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-503 - Tear-gas grenade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-503 - Tear-gas grenade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [AREA-CONTRACT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/AREA-CONTRACT.md>)
 
 **Ross’s notes:**
 
@@ -2343,7 +2343,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-507 - Twitch|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-507 - Twitch|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2365,7 +2365,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Most item-use operations/AI are not implemented; capacity/selected chems/revival probes are clause-only.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-499 - Utility vest|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-499 - Utility vest|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -2389,7 +2389,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deployment-only fixtures do not establish printed abilities, triggers, uptime, range, operator opportunity cost or counterplay.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-545 - Bomber drone|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-545 - Bomber drone|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -2411,7 +2411,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deployment-only fixtures do not establish printed abilities, triggers, uptime, range, operator opportunity cost or counterplay.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-548 - Breacher drone|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-548 - Breacher drone|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -2433,7 +2433,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deployment-only fixtures do not establish printed abilities, triggers, uptime, range, operator opportunity cost or counterplay.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-550 - Cloaking field|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-550 - Cloaking field|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -2455,7 +2455,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deployment-only fixtures do not establish printed abilities, triggers, uptime, range, operator opportunity cost or counterplay.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-551 - Decoy mine|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-551 - Decoy mine|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -2477,7 +2477,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deployment-only fixtures do not establish printed abilities, triggers, uptime, range, operator opportunity cost or counterplay.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-546 - Gunner drone|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-546 - Gunner drone|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -2499,7 +2499,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deployment-only fixtures do not establish printed abilities, triggers, uptime, range, operator opportunity cost or counterplay.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-212 - Seeker mine|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-212 - Seeker mine|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -2521,7 +2521,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deployment-only fixtures do not establish printed abilities, triggers, uptime, range, operator opportunity cost or counterplay.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-215 - Sentry turret|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-215 - Sentry turret|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -2543,7 +2543,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Shield drone ignores one hit in kernel; fire-blocking geometry, friendly LOS, footprint, disabling and operator counterplay incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-547 - Shield drone|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-547 - Shield drone|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -2565,7 +2565,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deployment-only fixtures do not establish printed abilities, triggers, uptime, range, operator opportunity cost or counterplay.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-213 - Smoke emitter|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-213 - Smoke emitter|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -2587,7 +2587,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deployment-only fixtures do not establish printed abilities, triggers, uptime, range, operator opportunity cost or counterplay.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-549 - Support drone|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-549 - Support drone|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -2609,7 +2609,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deployment-only fixtures do not establish printed abilities, triggers, uptime, range, operator opportunity cost or counterplay.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-544 - Surveillance drone|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Deployable Cards/V2-544 - Surveillance drone|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -2633,7 +2633,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-182 - Blast door|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-182 - Blast door|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2655,7 +2655,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-187 - Cargo crane|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-187 - Cargo crane|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2677,7 +2677,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-196 - Compactor|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-196 - Compactor|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2699,7 +2699,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-195 - Conveyor|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-195 - Conveyor|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2721,7 +2721,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-200 - Emergency alarm|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-200 - Emergency alarm|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2743,7 +2743,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-197 - Floodgate|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-197 - Floodgate|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2765,7 +2765,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-191 - Floodlights|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-191 - Floodlights|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2787,7 +2787,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-198 - Junction box|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-198 - Junction box|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2809,7 +2809,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-183 - Lift or cargo elevator|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-183 - Lift or cargo elevator|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2831,7 +2831,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-185 - Movable walkway|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-185 - Movable walkway|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2853,7 +2853,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-186 - Pit or vat cover|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-186 - Pit or vat cover|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2875,7 +2875,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-188 - Pulley or hoist|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-188 - Pulley or hoist|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2897,7 +2897,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-184 - Retractable bridge|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-184 - Retractable bridge|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2919,7 +2919,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-181 - Security door or roller gate|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-181 - Security door or roller gate|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -2941,7 +2941,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-199 - Service hatch|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-199 - Service hatch|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -2963,7 +2963,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-190 - Sliding barricade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-190 - Sliding barricade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -2985,7 +2985,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Operation handler is a partial scaffold. Full printed operation, occupied-space, geometry and contested tactical use are NOT conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-192 - Ventilation fans|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Terrain Cards/V2-192 - Ventilation fans|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3003,13 +3003,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 1 named primary check(s): Accurate one miss only. 13,753 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
+**Recorded result:** 1 named primary check(s): Accurate one miss only. 103 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
 
 **Findings:** No complete profile-level balance finding is established.
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-231 - Accurate|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-231 - Accurate|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -3031,7 +3031,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-234 - Agile|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-234 - Agile|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3053,7 +3053,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-233 - Automatic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-233 - Automatic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3075,7 +3075,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-237 - Bash|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-237 - Bash|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3091,13 +3091,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
+**Recorded result:** 1 named primary check(s): Area flame auto no hit or scatter no extra atk. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
 
 **Findings:** No complete profile-level balance finding is established.
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-247 - Blast|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-247 - Blast|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -3119,7 +3119,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-241 - Breach|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-241 - Breach|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3141,7 +3141,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-236 - Close Combat|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-236 - Close Combat|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3163,7 +3163,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-456 - Heavy|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-456 - Heavy|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3185,7 +3185,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-239 - Ignore Cover X|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-239 - Ignore Cover X|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3207,7 +3207,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-513 - Knock Back|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-513 - Knock Back|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3223,13 +3223,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 1 named primary check(s): Dual agile and parry shield stack. 281,522 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
+**Recorded result:** 1 named primary check(s): Dual agile and parry shield stack. 87 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
 
 **Findings:** No complete profile-level balance finding is established.
 
 **Notes / remaining work:** Parry dice stack in kernel; all weapon mixed-pool and terrain contexts not certified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-543 - Parry|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-543 - Parry|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -3245,13 +3245,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 2 named primary check(s): Defender choice values piercing and respects critical groups; Piercing is best of not extra wound. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
+**Recorded result:** 3 named primary check(s): Defender choice values piercing and respects critical groups; Piercing is best of not extra wound; Area piercing one wound and no stress in injury. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
 
 **Findings:** No complete profile-level balance finding is established.
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-238 - Piercing|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-238 - Piercing|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -3273,7 +3273,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-240 - Quiet|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-240 - Quiet|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3295,7 +3295,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-512 - Reach|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-512 - Reach|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3311,13 +3311,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 1 named primary check(s): Reload and recovery costs. 10,002 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
+**Recorded result:** 2 named primary check(s): Reload and recovery costs; Area reload and single use. 160,006 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
 
 **Findings:** No complete profile-level balance finding is established.
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-243 - Reload|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-243 - Reload|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -3333,13 +3333,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 20,000 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
+**Recorded result:** May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
 
 **Findings:** No complete profile-level balance finding is established.
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-514 - Retrieve|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-514 - Retrieve|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3355,13 +3355,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
+**Recorded result:** 4 named primary check(s): Area consumed on scattered miss; Area invalid declaration preserves resources; Area reload and single use; Area smoke vertical extent expiry and consumption. 244,010 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
 
 **Findings:** No complete profile-level balance finding is established.
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-244 - Single-use|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-244 - Single-use|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -3377,13 +3377,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 9,764 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
+**Recorded result:** May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
 
 **Findings:** No complete profile-level balance finding is established.
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-242 - Suppression|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-242 - Suppression|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3399,13 +3399,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
+**Recorded result:** 4 named primary check(s): Area flame auto no hit or scatter no extra atk; Area flame muzzle range and wall; Area flame rounded dimensions and partial witness; Area oblique and device cases fail explicitly. 80,003 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
 
 **Findings:** No complete profile-level balance finding is established.
 
-**Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
+**Notes / remaining work:** Named area clauses and open/horizontal scatter/cluster measurements exist. Oblique flame and device-hit adapters fail explicitly. Partial base occlusion is sampled; vertical fire/falls, machinery smoke interactions, capable area battle policies and broad counterbuilds remain incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-515 - Template|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-515 - Template|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -3427,7 +3427,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-246 - Thrown|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-246 - Thrown|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3443,13 +3443,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 1 additional clause check(s): Big fella removes unwieldy. 1 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
+**Recorded result:** 1 named primary check(s): Area unwieldy and cover affect placement. 1 additional clause check(s): Big fella removes unwieldy. 20,002 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
 
 **Findings:** No complete profile-level balance finding is established.
 
 **Notes / remaining work:** All keyword eligibility, consumption, timing and combination contexts need complete independent fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-245 - Unwieldy|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Weapon Characteristic Cards/V2-245 - Unwieldy|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -3473,7 +3473,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Raw test thresholds are exact; associated skills, role utility and objective value are not globally measured.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-459 - AGI characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-459 - AGI characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3495,7 +3495,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Raw test thresholds are exact; associated skills, role utility and objective value are not globally measured.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-464 - Armour characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-464 - Armour characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3517,7 +3517,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Raw test thresholds are exact; associated skills, role utility and objective value are not globally measured.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-458 - DEX characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-458 - DEX characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3539,7 +3539,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Raw test thresholds are exact; associated skills, role utility and objective value are not globally measured.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-460 - INT characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-460 - INT characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3561,7 +3561,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Raw test thresholds are exact; associated skills, role utility and objective value are not globally measured.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-462 - MOVE characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-462 - MOVE characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3583,7 +3583,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Raw test thresholds are exact; associated skills, role utility and objective value are not globally measured.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-461 - NRV characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-461 - NRV characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3605,7 +3605,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Raw test thresholds are exact; associated skills, role utility and objective value are not globally measured.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-457 - STR characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-457 - STR characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3627,7 +3627,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Raw test thresholds are exact; associated skills, role utility and objective value are not globally measured.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-463 - Wounds characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Characteristic Cards/V2-463 - Wounds characteristic|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3651,7 +3651,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Current chosen full-budget skeletons checked; legal unused-point choices and all advancement/recruitment edges need expanded validator evidence.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Training Grade Cards/V2-031 - Fighter grade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Training Grade Cards/V2-031 - Fighter grade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -3667,13 +3667,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 1 named primary check(s): Legal rosters and invalid skill.
+**Recorded result:** 2 named primary check(s): Legal rosters and invalid skill; Area two hands and reaction facing.
 
 **Findings:** No complete profile-level balance finding is established.
 
 **Notes / remaining work:** Current chosen full-budget skeletons checked; legal unused-point choices and all advancement/recruitment edges need expanded validator evidence.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Training Grade Cards/V2-030 - Recruit grade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Training Grade Cards/V2-030 - Recruit grade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -3695,7 +3695,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Current chosen full-budget skeletons checked; legal unused-point choices and all advancement/recruitment edges need expanded validator evidence.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Training Grade Cards/V2-032 - Specialist grade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Training Grade Cards/V2-032 - Specialist grade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -3717,7 +3717,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Current chosen full-budget skeletons checked; legal unused-point choices and all advancement/recruitment edges need expanded validator evidence.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Training Grade Cards/V2-033 - Veteran grade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Training Grade Cards/V2-033 - Veteran grade|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -3741,7 +3741,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Generic Stat tests are conformant; complete named-task/failure consequence integration is not established.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Interaction Cards/V2-479 - AGI interactions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Interaction Cards/V2-479 - AGI interactions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3763,7 +3763,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Generic Stat tests are conformant; complete named-task/failure consequence integration is not established.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Interaction Cards/V2-477 - DEX interactions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Interaction Cards/V2-477 - DEX interactions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3785,7 +3785,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Generic Stat tests are conformant; complete named-task/failure consequence integration is not established.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Interaction Cards/V2-478 - INT interactions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Interaction Cards/V2-478 - INT interactions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3807,7 +3807,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Generic Stat tests are conformant; complete named-task/failure consequence integration is not established.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Interaction Cards/V2-480 - NRV interactions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Interaction Cards/V2-480 - NRV interactions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3829,7 +3829,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Generic Stat tests are conformant; complete named-task/failure consequence integration is not established.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Interaction Cards/V2-476 - STR interactions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Interaction Cards/V2-476 - STR interactions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3853,7 +3853,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deed XP is not fully recorded through battle/aftermath; no campaign-wide balance conclusion.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Experience Deed Cards/V2-484 - Out of Action|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Experience Deed Cards/V2-484 - Out of Action|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3875,7 +3875,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deed XP is not fully recorded through battle/aftermath; no campaign-wide balance conclusion.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Experience Deed Cards/V2-481 - Primary objective|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Experience Deed Cards/V2-481 - Primary objective|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3897,7 +3897,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deed XP is not fully recorded through battle/aftermath; no campaign-wide balance conclusion.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Experience Deed Cards/V2-483 - Revival|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Experience Deed Cards/V2-483 - Revival|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3919,7 +3919,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deed XP is not fully recorded through battle/aftermath; no campaign-wide balance conclusion.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Experience Deed Cards/V2-553 - Secondary objective|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Experience Deed Cards/V2-553 - Secondary objective|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3941,7 +3941,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deed XP is not fully recorded through battle/aftermath; no campaign-wide balance conclusion.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Experience Deed Cards/V2-552 - Survival|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Experience Deed Cards/V2-552 - Survival|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -3963,7 +3963,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Deed XP is not fully recorded through battle/aftermath; no campaign-wide balance conclusion.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Experience Deed Cards/V2-482 - Terrain interaction|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Experience Deed Cards/V2-482 - Terrain interaction|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -3987,7 +3987,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-489 - AGI skills|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-489 - AGI skills|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4009,7 +4009,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-494 - Armour|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-494 - Armour|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4031,7 +4031,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-493 - Consumables and medical supplies|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-493 - Consumables and medical supplies|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4053,7 +4053,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-488 - DEX skills|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-488 - DEX skills|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4075,7 +4075,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-497 - Deployable equipment catalogue|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-497 - Deployable equipment catalogue|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4097,7 +4097,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-490 - INT skills|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-490 - INT skills|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4119,7 +4119,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-496 - Interactive terrain catalogue|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-496 - Interactive terrain catalogue|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4141,7 +4141,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-491 - NRV skills|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-491 - NRV skills|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4163,7 +4163,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-487 - STR skills|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-487 - STR skills|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4185,7 +4185,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-486 - Standard weapons|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-486 - Standard weapons|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4207,7 +4207,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-492 - Tools and equipment|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-492 - Tools and equipment|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4229,7 +4229,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-495 - Weapon characteristics|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-495 - Weapon characteristics|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4247,13 +4247,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 2 named primary check(s): Alert retention and once per round; Forward arc and no free enemy turn pivot. 374 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 3 named primary check(s): Alert retention and once per round; Forward arc and no free enemy turn pivot; Area two hands and reaction facing. 3,648 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** Only ordinary shooting reactions are competitive in full battles; other eligible Move/Core reactions not planned by AI.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-061 - ALERT and reaction eligibility|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-061 - ALERT and reaction eligibility|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4269,13 +4269,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 4 named primary check(s): Revive once consumption and activation history; Sprinter retains core; Every declared policy runs; Seed replay reproduction. 1 additional clause check(s): Motivate two core attacks. 698,190 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 6 named primary check(s): Revive once consumption and activation history; Sprinter retains core; Every declared policy runs; Seed replay reproduction; Area invalid declaration preserves resources; Area stun reapplication costs one activation. 1 additional clause check(s): Motivate two core attacks. 610,212 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-055 - Activations, action costs and attack limit|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-055 - Activations, action costs and attack limit|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -4297,7 +4297,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** A 30-XP promotion boundary is checked; every promotion/rank-cap boundary and legal advanced history is not exhaustively measured.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-392 - Advancement and promotion|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-392 - Advancement and promotion|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4319,7 +4319,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-099 - Aim|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-099 - Aim|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4331,17 +4331,17 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 ### V2-248 — Area attacks, smoke and fire
 
-- [ ] **Not run** — Area attacks, smoke and fire
+- [ ] **Partial** — Area attacks, smoke and fire
 
 #### Results
 
-**Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
+**Recorded result:** 15 named primary check(s): Area blast height boundary; Area blast partial base and friendlies; Area consumed on scattered miss; Area corner does not wrap; Area flame auto no hit or scatter no extra atk; Area flame muzzle range and wall; Area flame rounded dimensions and partial witness; Area invalid declaration preserves resources; Area molotov fire no injury no persistent zone; Area oblique and device cases fail explicitly; Area profile payloads and printed radii; Area smoke outside block inside cover and respirator; Area smoke vertical extent expiry and consumption; Area solid wall and floor contain blast; Area unwieldy and cover affect placement. 1,094,031 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
-**Notes / remaining work:** Blast range/cover modifiers, friendly/scatter/floor cases, source consumption and exact physical cone shape not certified.
+**Notes / remaining work:** Named area clauses and open/horizontal scatter/cluster measurements exist. Oblique flame and device-hit adapters fail explicitly. Partial base occlusion is sampled; vertical fire/falls, machinery smoke interactions, capable area battle policies and broad counterbuilds remain incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-248 - Area attacks, smoke and fire|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-248 - Area attacks, smoke and fire|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4363,7 +4363,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-386 - Battle rewards|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-386 - Battle rewards|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4385,7 +4385,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-046 - Battlefield setup and terrain agreement|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-046 - Battlefield setup and terrain agreement|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4407,7 +4407,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Structure Carry/Drop, dropping within two inches, Sprint/Charge restrictions and all load-bearing interactions incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-090 - Carrying and releasing loads|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-090 - Carrying and releasing loads|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4429,7 +4429,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Bull, Watch Out!, Aerial Assault edge placement and Rampage legal follow-up movement not fully implemented/conformant.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-082 - Charge|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-082 - Charge|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4451,7 +4451,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Chems have narrow fixtures; all recipient/contact/engagement, dose limits and battle-history addiction sequences incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-270 - Chems and medical supplies|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-270 - Chems and medical supplies|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -4473,7 +4473,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Skill unlock validator checks a subset; all intended-use/counterplay/crew fixtures for 60 skills remain incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-305 - Choosing and using skills|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-305 - Choosing and using skills|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -4495,7 +4495,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Traversal fixtures exist; competitive ladders/stairs, multi-storey path planning and ledge support geometry absent.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-084 - Climbing, jumping and falling|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-084 - Climbing, jumping and falling|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4517,7 +4517,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-002 - Components, models and templates|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-002 - Components, models and templates|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4533,13 +4533,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 1 named primary check(s): Low cover and shooter hug exception.
+**Recorded result:** 3 named primary check(s): Low cover and shooter hug exception; Area smoke outside block inside cover and respirator; Area unwieldy and cover affect placement.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** Nine-ray silhouette proxy is not exact obscured-area integration; vertical floors and all body silhouettes unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-049 - Cover and elevation|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-049 - Cover and elevation|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4561,7 +4561,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Credits purchase legality cannot be verified while prices are deferred. No equal-value roster claim.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-025 - Credits and Crew Rating|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-025 - Credits and Crew Rating|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4583,7 +4583,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-034 - Crew composition and item limits|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-034 - Crew composition and item limits|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4605,7 +4605,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Placement distances, reveal/trigger/disarm, device damage/replacement collection and withdrawal effects incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-202 - Deploying, revealing, disarming and damaging devices|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -4621,13 +4621,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 2 named primary check(s): Down timer and no surplus execution; Body and casualty los. 89,869 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 2 named primary check(s): Down timer and no surplus execution; Body and casualty los. 266,521 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** Casualty execution and timers tested; full post-battle injury charts are outside implemented scope.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-122 - Down and Unconscious casualties|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-122 - Down and Unconscious casualties|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4643,13 +4643,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 2 named primary check(s): Ground aerial shutdown distinct; Drone operator deploy and control. 6 additional clause check(s): Deploy assignment v2-544; Deploy assignment v2-545; Deploy assignment v2-546; Deploy assignment v2-547; Deploy assignment v2-548; Deploy assignment v2-549. 10 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 3 named primary check(s): Ground aerial shutdown distinct; Drone operator deploy and control; Area oblique and device cases fail explicitly. 6 additional clause check(s): Deploy assignment v2-544; Deploy assignment v2-545; Deploy assignment v2-546; Deploy assignment v2-547; Deploy assignment v2-548; Deploy assignment v2-549. 10 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** Drone deployment/control/ground repair scaffolding exists; all drone abilities, Flight/Hover, legal footprints and activation-order competition incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-220 - Drone operations|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-220 - Drone operations|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -4665,13 +4665,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 2 named primary check(s): Alert retention and once per round; Final checkpoint includes secondary vp. 243 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 2 named primary check(s): Alert retention and once per round; Final checkpoint includes secondary vp. 246 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-073 - End Phase|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-073 - End Phase|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4693,7 +4693,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Physical withdrawal negotiation, injury-chart eligibility and once-only stores transfer not implemented end to end.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-153 - Ending a battle and recovering the crew|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-153 - Ending a battle and recovering the crew|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4715,7 +4715,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Ordinary Disengage action and its interrupted free-exchange outcomes are not fully implemented.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-093 - Engagement and Disengage|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-093 - Engagement and Disengage|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4731,13 +4731,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 1 named primary check(s): Chem no unlock duplicate or extra wounds. 2 additional clause check(s): Fire failed check escalation; Poison application round and natural move threshold. 6 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 7 named primary check(s): Chem no unlock duplicate or extra wounds; Area fire first failure moves and skip survives extinguish; Area fire visible water in any direction; Area fire water preserves unrelated pin; Area flash enemy radius and stun no injury; Area molotov fire no injury no persistent zone; Area stun reapplication costs one activation. 2 additional clause check(s): Fire failed check escalation; Poison application round and natural move threshold. 124,747 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
-**Notes / remaining work:** Fire escalation and poison timing clauses checked. Initial/fire random/water movement and antidote/Addicted full sequences incomplete.
+**Notes / remaining work:** Initial fire movement, visible-water steering, first failed-check movement, missed-activation retention and condition escalation have focused fixtures. Vertical fire/falls, every collision/casualty interaction, cure/history and full intended-use crew evidence remain incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-498 - Equipment conditions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-498 - Equipment conditions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -4759,7 +4759,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-228 - Equipment profiles and provisional prices|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-228 - Equipment profiles and provisional prices|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4781,7 +4781,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Looted weapon selection, paired identical Reload weapons, grenade pairing and Doc/vest/Inspector capacity interactions need full fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-037 - Equipping fighters and handling weapons|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-037 - Equipping fighters and handling weapons|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4803,7 +4803,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Repeated interaction XP fixture exists; all deeds, farming/withdrawal incentives and end-battle shared XP ledger incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-389 - Experience and deeds|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-389 - Experience and deeds|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4819,13 +4819,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 3 named primary check(s): Body and casualty los; Forward arc and no free enemy turn pivot; Friendly down witness requires facing and base range.
+**Recorded result:** 4 named primary check(s): Body and casualty los; Forward arc and no free enemy turn pivot; Friendly down witness requires facing and base range; Area two hands and reaction facing.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** Facing/body samples are approximations. Grapple whole-attack interception not implemented.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-074 - Facing, visibility and rear attacks|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-074 - Facing, visibility and rear attacks|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4847,7 +4847,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Push collision tested only partially; ledge detection and machinery pushes not fully implemented.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-089 - Forced movement|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-089 - Forced movement|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4869,7 +4869,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Interrupt terminal contact/shared-network constraints, kit lockout, destroyed-device repairs and all operations incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-165 - Hacking, terminals and repair|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-165 - Hacking, terminals and repair|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4891,7 +4891,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Expose/reveal fixtures partial; Quiet/Ghost/noise/smoke/light interactions and stealth policy incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-154 - Hidden and Observe|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-154 - Hidden and Observe|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4913,7 +4913,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Improvisation requires human agreement; no arbitrary improvised actions are synthesized by the simulator.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-174 - Improvised actions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-174 - Improvised actions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4929,13 +4929,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 7 named primary check(s): Atlas hand worked rifle; Boundaries and independent oracle; Critical cancellation hand case; Down timer and no surplus execution; Every hit stress no universal pin; Multi wounds and injury ignores stress; Remaining wound pins. 1,462,887 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 10 named primary check(s): Atlas hand worked rifle; Boundaries and independent oracle; Critical cancellation hand case; Down timer and no surplus execution; Every hit stress no universal pin; Multi wounds and injury ignores stress; Remaining wound pins; Area blast partial base and friendlies; Area molotov fire no injury no persistent zone; Area piercing one wound and no stress in injury. 1,249,506 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** Every source of knockback/on-hit timing, target redirection and ignored-hit choice is not integrated.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-114 - Injury and attack outcomes|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-114 - Injury and attack outcomes|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -4957,7 +4957,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-162 - Interact and stat examples|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-162 - Interact and stat examples|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -4979,7 +4979,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Loot ownership transfer, capacity, dropped-item loss and later rating bookkeeping not implemented.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-131 - Loot and item ownership|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-131 - Loot and item ownership|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -5001,7 +5001,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Generic action interruption/consumables, identical-effect stacking and every measurement convention are not exhaustively checked.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-007 - Measuring and shared conventions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-007 - Measuring and shared conventions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -5017,13 +5017,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 7 named primary check(s): Critical cancellation hand case; Defender choice values piercing and respects critical groups; Defender chooses mixed success cancellation; Defender surplus has no hits or stress; Dual agile and parry shield stack; Large pool dp against brute; Mixed cancellation blocks unruled baseline. 589,094 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 7 named primary check(s): Critical cancellation hand case; Defender choice values piercing and respects critical groups; Defender chooses mixed success cancellation; Defender surplus has no hits or stress; Dual agile and parry shield stack; Large pool dp against brute; Mixed cancellation blocks unruled baseline. 149 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** Defender cancellation ownership is clarified, implemented and independently measured in the mixed-weapon batch.
 
 **Notes / remaining work:** Defender choice clarified by Ross on 2026-11-11 and implemented. Complete positional/on-hit cancellation priorities and every mixed-weapon context remain unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-106 - Melee exchanges, Unanswered and Shove|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-106 - Melee exchanges, Unanswered and Shove|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -5045,7 +5045,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Automatic unlocked-door movement, low-obstacle crossing movement cost and complete vertical navigation absent.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-078 - Move, obstacles and Sprint|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-078 - Move, obstacles and Sprint|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -5067,7 +5067,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-354 - Non-killing victory routes|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-354 - Non-killing victory routes|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -5089,7 +5089,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-454 - Objective limits and control areas|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-454 - Objective limits and control areas|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -5111,7 +5111,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-485 - Orders|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-485 - Orders|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -5133,7 +5133,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-017 - Ordinary tests and modifiers|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-017 - Ordinary tests and modifiers|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -5155,7 +5155,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-001 - Persistent crew and settlement|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-001 - Persistent crew and settlement|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -5177,7 +5177,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-117 - Pinned and recovery|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-117 - Pinned and recovery|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -5199,7 +5199,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Kernel Rally and skill probes exist; ordinary assistance/contact eligibility and full support policy incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-150 - Rally|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-150 - Rally|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -5221,7 +5221,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** All eligible reaction action types, competing reactors and order-choice policies incomplete; current full-battle AI chiefly shoots.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-065 - Reactions and interruption|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-065 - Reactions and interruption|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -5243,7 +5243,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-015 - Reading a fighter profile|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-015 - Reading a fighter profile|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -5265,7 +5265,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-029 - Recruitment and training grades|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-029 - Recruitment and training grades|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -5281,13 +5281,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 2 named primary check(s): Controlled first assignment; Seed replay reproduction. 429 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 2 named primary check(s): Controlled first assignment; Seed replay reproduction. 433 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-052 - Round refresh and initiative|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-052 - Round refresh and initiative|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -5309,7 +5309,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Secure/Rescue/Extract scaffolding lacks complete escort-blocking/contact/revival-release and route fixtures.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-134 - Securing, rescuing and extracting captives|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-134 - Securing, rescuing and extracting captives|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -5331,7 +5331,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Turret deployment and source-start shutdown exist; persistent reaction/hijack/reactivation policies not integrated.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-218 - Sentry turret operations|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-218 - Sentry turret operations|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -5353,7 +5353,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-044 - Setup and deployment|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-044 - Setup and deployment|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -5375,7 +5375,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Displace/Crush paths are partial. Destination-solid checks, all occupied-space and casualty displacement cases incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-176 - Shared terrain operations and hazards|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-176 - Shared terrain operations and hazards|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>)
 
 **Ross’s notes:**
 
@@ -5391,13 +5391,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 3 named primary check(s): Atlas hand worked rifle; Return fire is simultaneous independent; Regression engaged actor does not shoot outside. 120,756 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 3 named primary check(s): Atlas hand worked rifle; Return fire is simultaneous independent; Regression engaged actor does not shoot outside. 4,030 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** Natural-one friendly fire into melee and Bullet Time target allocations not implemented; full battles exclude these choices.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-097 - Shooting and target allocation|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-097 - Shooting and target allocation|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -5419,7 +5419,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-023 - Single opposed tests|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-023 - Single opposed tests|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -5435,13 +5435,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 5 named primary check(s): Break and rally subtract stress; Break no same phase rally and beta exception; Every hit stress no universal pin; Multi wounds and injury ignores stress; Friendly down witness requires facing and base range. 335 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 5 named primary check(s): Break and rally subtract stress; Break no same phase rally and beta exception; Every hit stress no universal pin; Multi wounds and injury ignores stress; Friendly down witness requires facing and base range. 264,262 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** Forced flight policy is heuristic. Every safety choice, support interaction and capacity boundary is not certified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-139 - Stress, Break and forced flight|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-139 - Stress, Break and forced flight|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
 
 **Ross’s notes:**
 
@@ -5463,7 +5463,7 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 **Notes / remaining work:** Revival exists in kernel fixtures; spatial contact/engagement checks and competent medic policy need completion.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-126 - Treatment and revival|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-126 - Treatment and revival|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 
@@ -5479,13 +5479,13 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 #### Results
 
-**Recorded result:** 4 named primary check(s): Defender chooses mixed success cancellation; Dual agile and parry shield stack; Gunfu and gunslinger are separate permissions; Large pool dp against brute. 1 additional clause check(s): Goliath full eligible twohanded pool. 487,000 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 4 named primary check(s): Defender chooses mixed success cancellation; Dual agile and parry shield stack; Gunfu and gunslinger are separate permissions; Large pool dp against brute. 1 additional clause check(s): Goliath full eligible twohanded pool. 10 current source-tagged events; not all are successful/positive uses.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** Heterogeneous non-Agile pairing and multi-weapon reload state incomplete; full battles restrict to one weapon.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-102 - Weapon pools, dual wielding and unarmed attacks|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v3/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-102 - Weapon pools, dual wielding and unarmed attacks|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
 
 **Ross’s notes:**
 

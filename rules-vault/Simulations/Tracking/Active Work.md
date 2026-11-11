@@ -1,15 +1,27 @@
 <!-- settlements-simulation:generated -->
 # Active simulation work
 
-## In progress
+## Completed in the v4 addition
 
-- [ ] **W06 — Area attacks:** replace the earlier approximate Blast/cone scaffold with independently tested footprints, obstruction, range and resource handling.
-- [ ] Run source-tagged tactical measurements for the remaining area weapons and grenade/smoke use.
-- [ ] Publish the results, update the checklist and identify what remains unmeasured.
+- [x] Add 24 focused area assertions; all 88 primary checks and 28 clause checks pass.
+- [x] Run 600,000 source-tagged area trials across 60 declared contexts.
+- [x] Run 4,000 paired smoke-lane tasks with wall and Respirator counters.
+- [x] Reproduce 60 saved area event/packet samples and 96 frozen-v2/current-v4 homogeneous outcomes.
+- [x] Publish the findings, source/engine manifests and owner/checklist additions.
 
-## Latest setup
+## W06 remains open
 
-The 248 approved owner hashes were rechecked for the next v4 snapshot with no source changes. Ross supplied the flame-template dimensions: 8 × 1 × 3 inches. The new batch has not been marked complete or interpreted as a balance result.
+- [ ] Directed up/down flame placement with independently checked 3D geometry.
+- [ ] Device hit/damage handling for area attacks; unsupported cases currently fail explicitly.
+- [ ] Full fire forced movement at ledges, falls and casualty collisions.
+- [ ] Machinery/emitters and smoke interactions; partial base-occlusion boundary audit.
+- [ ] Multi-round approach, Reload/action economy, legal crew policies and held-out counterbuilds.
+
+## Wider run queue
+
+Continue the original checklist: full skill intended-use/counterplay/crew ladders,
+equipment/device/terrain operations and competent objective-based integration.
+Gates 1–5 remain incomplete. Prices and approved Rule/Item owners are unchanged.
 <!-- /settlements-simulation:generated -->
 
 ## Additional notes
