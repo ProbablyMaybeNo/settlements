@@ -19,6 +19,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Ambush (AGI; Stalker)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -40,6 +52,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-530 — Blade Fury (AGI; Duelist)
 
 - [ ] **Not run** — Blade Fury (AGI; Duelist)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -63,6 +87,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Ghost (AGI; Ghost)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 additional clause check(s): Ghost phantom nonwound stress. 1 current source-tagged events; not all are successful/positive uses.
@@ -84,6 +120,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-554 — Gun-fu (AGI; Duelist)
 
 - [ ] **Partial** — Gun-fu (AGI; Duelist)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -107,6 +155,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Incapacitate (AGI; Stalker)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -128,6 +188,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-527 — Phantom Shot (AGI; Ghost)
 
 - [ ] **Partial** — Phantom Shot (AGI; Ghost)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -151,6 +223,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Quick (AGI; General)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 107 current source-tagged events; not all are successful/positive uses.
@@ -172,6 +256,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-526 — Return to the Shadows (AGI; Stalker)
 
 - [ ] **Not run** — Return to the Shadows (AGI; Stalker)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -195,6 +291,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Riposte (AGI; Duelist)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Riposte does not chain counterattacks. 1 current source-tagged events; not all are successful/positive uses.
@@ -216,6 +324,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-528 — Show Yourself (AGI; Ghost)
 
 - [ ] **Not run** — Show Yourself (AGI; Ghost)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -239,6 +359,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Sneak (AGI; General)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -260,6 +392,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-331 — Sprinter (AGI; General)
 
 - [ ] **Partial** — Sprinter (AGI; General)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -283,6 +427,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Bullet Time (DEX; Gunslinger)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -304,6 +460,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-523 — Eyes Peeled (DEX; Watcher)
 
 - [ ] **Not run** — Eyes Peeled (DEX; Watcher)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -327,6 +495,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Gunslinger (DEX; Gunslinger)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Gunfu and gunslinger are separate permissions. 1 current source-tagged events; not all are successful/positive uses.
@@ -348,6 +528,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-317 — Head Shot (DEX; Marksman)
 
 - [ ] **Partial** — Head Shot (DEX; Marksman)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -371,6 +563,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Mark Target (DEX; Marksman)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Mark expiry is source start not round end. 36 current source-tagged events; not all are successful/positive uses.
@@ -392,6 +596,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-525 — On Me (DEX; General)
 
 - [ ] **Not run** — On Me (DEX; General)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -415,6 +631,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Pin Them Down (DEX; Watcher)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 30 current source-tagged events; not all are successful/positive uses.
@@ -436,6 +664,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-524 — Planning Ahead (DEX; General)
 
 - [ ] **Partial** — Planning Ahead (DEX; General)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -459,6 +699,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Run + Gun (DEX; Gunslinger)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -480,6 +732,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-323 — Speed Loader (DEX; General)
 
 - [ ] **Not run** — Speed Loader (DEX; General)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -503,6 +767,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Steady Breathing (DEX; Marksman)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 60 current source-tagged events; not all are successful/positive uses.
@@ -524,6 +800,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-521 — Watch Out! (DEX; Watcher)
 
 - [ ] **Not run** — Watch Out! (DEX; Watcher)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -547,6 +835,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Chemical Cocktail (INT; Medic)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 additional clause check(s): Doc free dose and cocktail recipient limit. 1 current source-tagged events; not all are successful/positive uses.
@@ -568,6 +868,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-337 — Doc (INT; Medic)
 
 - [ ] **Partial** — Doc (INT; Medic)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -591,6 +903,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Drone Operator (INT; Artificer)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 3 current source-tagged events; not all are successful/positive uses.
@@ -612,6 +936,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-532 — Drone Pilot (INT; Artificer)
 
 - [ ] **Partial** — Drone Pilot (INT; Artificer)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -635,6 +971,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Field Coordination (INT; General)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 additional clause check(s): Coordination extra move and delayed stress. 3 current source-tagged events; not all are successful/positive uses.
@@ -656,6 +1004,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-534 — Field Engineer (INT; Artificer)
 
 - [ ] **Partial** — Field Engineer (INT; Artificer)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -679,6 +1039,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Inspector Gadget (INT; General)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 additional clause check(s): Inspector slots and identical vest effect.
@@ -700,6 +1072,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-334 — Interrupt (INT; Hacker)
 
 - [ ] **Not run** — Interrupt (INT; Hacker)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -723,6 +1107,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Neural Uplink (INT; Hacker)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Terminal kit no los and neural uplink. 1 current source-tagged events; not all are successful/positive uses.
@@ -744,6 +1140,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-339 — Smart (INT; General)
 
 - [ ] **Not run** — Smart (INT; General)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -767,6 +1175,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Stabilize (INT; Medic)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 additional clause check(s): Stabilize revival clears stress. 1 current source-tagged events; not all are successful/positive uses.
@@ -788,6 +1208,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-333 — Trojan (INT; Hacker)
 
 - [ ] **Not run** — Trojan (INT; Hacker)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -811,6 +1243,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Beta Blocker (NRV; General)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Break no same phase rally and beta exception.
@@ -832,6 +1276,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-541 — Big Aura (NRV; General)
 
 - [ ] **Partial** — Big Aura (NRV; General)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -855,6 +1311,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Commanding Presence (NRV; General)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -876,6 +1344,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-344 — Hold Fast (NRV; Anchor)
 
 - [ ] **Partial** — Hold Fast (NRV; Anchor)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -899,6 +1379,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — I'm About to Break (NRV; Berserker)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -920,6 +1412,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-538 — Implode (NRV; Berserker)
 
 - [ ] **Partial** — Implode (NRV; Berserker)
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -943,6 +1447,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Inspire (NRV; Commissar)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 additional clause check(s): Inspire three targets. 2 current source-tagged events; not all are successful/positive uses.
@@ -964,6 +1480,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-343 — Lean on Me (NRV; Anchor)
 
 - [ ] **Partial** — Lean on Me (NRV; Anchor)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -987,6 +1515,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Menacing (NRV; Anchor)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 additional clause check(s): Big aura capacity radius transfer and down. 2 current source-tagged events; not all are successful/positive uses.
@@ -1008,6 +1548,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-342 — Motivate (NRV; Commissar)
 
 - [ ] **Partial** — Motivate (NRV; Commissar)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1031,6 +1583,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Rage (NRV; Berserker)
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Rage implode post attack stress. 1 current source-tagged events; not all are successful/positive uses. The combined Rage + Implode replacement has paired tactical screening and fixed confirmation; this does not isolate this skill alone.
@@ -1052,6 +1616,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-341 — Rally (NRV; Commissar)
 
 - [ ] **Partial** — Rally (NRV; Commissar)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1075,6 +1651,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Big Fella (STR; General)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 additional clause check(s): Big fella removes unwieldy. 1 current source-tagged events; not all are successful/positive uses.
@@ -1096,6 +1684,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-311 — Brace (STR; Tank)
 
 - [ ] **Partial** — Brace (STR; Tank)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1119,6 +1719,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Bull (STR; Charger)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -1140,6 +1752,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-516 — Come On Then (STR; Tank)
 
 - [ ] **Not run** — Come On Then (STR; Tank)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1163,6 +1787,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Goliath (STR; General)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 additional clause check(s): Goliath full eligible twohanded pool.
@@ -1184,6 +1820,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-308 — Grapple (STR; Grappler)
 
 - [ ] **Not run** — Grapple (STR; Grappler)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1207,6 +1855,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Hauler (STR; Grappler)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -1228,6 +1888,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-519 — Human Bullet (STR; Charger)
 
 - [ ] **Not run** — Human Bullet (STR; Charger)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1251,6 +1923,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Rampage (STR; Charger)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -1272,6 +1956,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-310 — Throw (STR; Grappler)
 
 - [ ] **Not run** — Throw (STR; Grappler)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1295,6 +1991,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Tough (STR; General)
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -1316,6 +2024,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-517 — Tough as Nails (STR; Tank)
 
 - [ ] **Partial** — Tough as Nails (STR; Tank)
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1341,6 +2061,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Assault rifle
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 3,650 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 79.42%; any Wound 30.00% (95% 29.11%–30.91%); Down 0.00%; oracle check passed.
@@ -1362,6 +2094,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-293 — Carbine
 
 - [ ] **Partial** — Carbine
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1385,6 +2129,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Club / Hammer / Steel pipe
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Single-attack Monte Carlo: 10,000 trials; any hit 37.02%; any Wound 16.64% (95% 15.92%–17.38%); Down 0.00%; oracle check passed.
@@ -1406,6 +2162,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-287 — Crowbar
 
 - [ ] **Partial** — Crowbar
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1429,6 +2197,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Dagger / Shiv
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 2 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 64.18%; any Wound 15.91% (95% 15.21%–16.64%); Down 0.00%; oracle check passed.
@@ -1450,6 +2230,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-301 — Flamethrower
 
 - [ ] **Partial** — Flamethrower
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Automatic multi-target damage has a strong clustering payoff. Armour-0 any-Wound frequency was 49.99% against the spaced fixture and 87.81% against the three-target cluster. Spreading and solid walls reduce its reach; approach risk and complete crew counterplay have not been measured.
+
+**Recommended action:** Keep the baseline. Do not nerf Damage or automatic hits from this one-action result. Prioritize legal approach/counterbuild tests.
+
+**Verdict scope:** Eight horizontal flame contexts, Armour 0/2/4/6, cluster/spread; rounded 8 × 1–3 inch authored outline. Oblique placement, device damage and full battle policy are not validated.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1473,6 +2265,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Grenade launcher
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 2 named primary check(s): Area profile payloads and printed radii; Area reload and single use. 160,003 current source-tagged events; not all are successful/positive uses. v4 area measurements: 16 contexts / 160,000 trials; independent oracle checks passed. Horizontal flame, open scatter/cluster and source-specific payload scope only.
@@ -1494,6 +2298,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-304 — Javelin
 
 - [ ] **Partial** — Javelin
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1517,6 +2333,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Machine gun
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 2 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 90.50%; any Wound 52.63% (95% 51.65%–53.61%); Down 1.07%; oracle check passed.
@@ -1538,6 +2366,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-292 — Magnum
 
 - [ ] **Partial** — Magnum
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1561,6 +2401,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Pistol
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 167 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 54.66%; any Wound 13.84% (95% 13.18%–14.53%); Down 0.00%; oracle check passed.
@@ -1582,6 +2434,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-291 — Revolver
 
 - [ ] **Partial** — Revolver
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1605,6 +2469,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Rocket launcher
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 3 named primary check(s): Area piercing one wound and no stress in injury; Area profile payloads and printed radii; Area reload and single use. 120,002 current source-tagged events; not all are successful/positive uses. v4 area measurements: 12 contexts / 120,000 trials; independent oracle checks passed. Horizontal flame, open scatter/cluster and source-specific payload scope only.
@@ -1626,6 +2502,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-296 — Shotgun
 
 - [ ] **Partial** — Shotgun
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1649,6 +2537,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Sniper rifle
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Piercing is best of not extra wound. 6 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 79.09%; any Wound 45.93% (95% 44.96%–46.91%); Down 0.00%; oracle check passed.
@@ -1670,6 +2570,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-288 — Spear
 
 - [ ] **Partial** — Spear
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1693,6 +2605,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Submachine gun
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Single-attack Monte Carlo: 10,000 trials; any hit 79.42%; any Wound 25.48% (95% 24.64%–26.34%); Down 0.00%; oracle check passed.
@@ -1714,6 +2638,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-297 — Suppressed carbine
 
 - [ ] **Partial** — Suppressed carbine
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1737,6 +2673,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Sword / Machete
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Dual agile and parry shield stack. 119 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 64.18%; any Wound 19.79% (95% 19.02%–20.58%); Down 0.00%; oracle check passed.
@@ -1758,6 +2706,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-303 — Throwing knife
 
 - [ ] **Partial** — Throwing knife
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1781,6 +2741,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Two-handed axe
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 current source-tagged events; not all are successful/positive uses. Single-attack Monte Carlo: 10,000 trials; any hit 37.02%; any Wound 21.33% (95% 20.54%–22.14%); Down 0.00%; oracle check passed.
@@ -1802,6 +2774,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-283 — Unarmed
 
 - [ ] **Partial** — Unarmed
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1827,6 +2811,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Light armour
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Conditional Injury tables include this tier; broader profile-specific utility/survival coverage is incomplete.
@@ -1849,6 +2845,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Reinforced armour
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Conditional Injury tables include this tier; broader profile-specific utility/survival coverage is incomplete.
@@ -1870,6 +2878,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-255 — Standard armour
 
 - [ ] **Partial** — Standard armour
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1895,6 +2915,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Anti-anxiety dose
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -1916,6 +2948,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-509 — Antidote
 
 - [ ] **Not run** — Antidote
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1939,6 +2983,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Breaching charge
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -1960,6 +3016,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-262 — Climbing gear
 
 - [ ] **Not run** — Climbing gear
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1983,6 +3051,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Crank
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -2004,6 +3084,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-506 — Dexies
 
 - [ ] **Not run** — Dexies
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2027,15 +3119,27 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Flashbang
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
-**Recorded result:** 3 named primary check(s): Area flash enemy radius and stun no injury; Area profile payloads and printed radii; Area stun reapplication costs one activation. 117,296 current source-tagged events; not all are successful/positive uses. v4 area measurements: 3 contexts / 30,000 trials; independent oracle checks passed. Horizontal flame, open scatter/cluster and source-specific payload scope only.
+**Recorded result:** 3 named primary check(s): Area flash enemy radius and stun no injury; Area profile payloads and printed radii; Area stun reapplication costs one activation. 117,296 current source-tagged events; not all are successful/positive uses. v4 area measurements: 3 contexts / 30,000 trials; independent oracle checks passed. Horizontal flame, open scatter/cluster and source-specific payload scope only. v5 Flashbang task supplement: 12,000 paired first-cycle objective tasks; timing, spacing and ALERT/wall counters. Immediate and pending activation denial recorded; complete multi-round balance remains unconfirmed.
 
 **Findings:** No complete profile-level balance finding is established.
 
 **Notes / remaining work:** Named area clauses and open/horizontal scatter/cluster measurements exist. Oblique flame and device-hit adapters fail explicitly. Partial base occlusion is sampled; vertical fire/falls, machinery smoke interactions, capable area battle policies and broad counterbuilds remain incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-502 - Flashbang|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [AREA-CONTRACT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/AREA-CONTRACT.md>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Item Cards/Equipment Cards/V2-502 - Flashbang|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [micro.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/area/micro.csv>) · [AREA-CONTRACT.md](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/AREA-CONTRACT.md>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
 
 **Ross’s notes:**
 
@@ -2048,6 +3152,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-209 — Folding barricade
 
 - [ ] **Not run** — Folding barricade
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2071,6 +3187,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Frag grenade
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 3 named primary check(s): Area blast partial base and friendlies; Area consumed on scattered miss; Area profile payloads and printed radii. 120,005 current source-tagged events; not all are successful/positive uses. v4 area measurements: 12 contexts / 120,000 trials; independent oracle checks passed. Horizontal flame, open scatter/cluster and source-specific payload scope only.
@@ -2092,6 +3220,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-261 — Hacking kit
 
 - [ ] **Partial** — Hacking kit
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2115,6 +3255,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Juice
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Chem no unlock duplicate or extra wounds. 2 current source-tagged events; not all are successful/positive uses.
@@ -2136,6 +3288,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-500 — Load-bearing harness
 
 - [ ] **Not run** — Load-bearing harness
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2159,6 +3323,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Medkit
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Revive once consumption and activation history. 2 current source-tagged events; not all are successful/positive uses.
@@ -2180,6 +3356,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-260 — Molotov cocktail
 
 - [ ] **Partial** — Molotov cocktail
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Initial displacement, water extinguishing and escalating condition states have tests. A multi-round balance judgment would be unreliable while ledges/falls, collisions, cure access and crew opportunity costs remain incomplete.
+
+**Recommended action:** Do not sign off or rebalance the condition yet. Finish spatial consequences and then compare mission impact, rather than judging it by zero Injury.
+
+**Verdict scope:** Open placement/affected sets, central-ground fire movement and condition timing; no complete dynamic fire/casualty integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2203,6 +3391,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Protective shield
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Dual agile and parry shield stack. 1 current source-tagged events; not all are successful/positive uses.
@@ -2224,6 +3424,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-265 — Repair pack
 
 - [ ] **Not run** — Repair pack
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2247,6 +3459,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Respirator
 
+#### Balance judgment
+
+**Balance verdict: PROVISIONAL PASS.**
+
+**Why:** It provides a useful, costly crossing tool and has a demonstrated direct counter. In the fixed open lane, survival rose from 56.6% to 89.6%; the watcher’s Respirator removed that benefit. A wall already blocking the shot also removed its marginal benefit.
+
+**Recommended action:** Keep the current rule for the next tests. No balance-driven smoke or Respirator adjustment is indicated in the tested lane task.
+
+**Verdict scope:** 4,000 paired one-round lane tasks: open/blocked line crossed with watcher Respirator absent/present. One Core and consumable, current-End-Phase expiry. This is a local utility/counterplay pass, not whole-game approval.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 2 named primary check(s): Area gas radius friendly effect and respirator; Area smoke outside block inside cover and respirator. 1 current source-tagged events; not all are successful/positive uses.
@@ -2268,6 +3492,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-258 — Smoke grenade
 
 - [ ] **Partial** — Smoke grenade
+
+#### Balance judgment
+
+**Balance verdict: PROVISIONAL PASS.**
+
+**Why:** It provides a useful, costly crossing tool and has a demonstrated direct counter. In the fixed open lane, survival rose from 56.6% to 89.6%; the watcher’s Respirator removed that benefit. A wall already blocking the shot also removed its marginal benefit.
+
+**Recommended action:** Keep the current rule for the next tests. No balance-driven smoke or Respirator adjustment is indicated in the tested lane task.
+
+**Verdict scope:** 4,000 paired one-round lane tasks: open/blocked line crossed with watcher Respirator absent/present. One Core and consumable, current-End-Phase expiry. This is a local utility/counterplay pass, not whole-game approval.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2291,6 +3527,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Stims
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -2312,6 +3560,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-503 — Tear-gas grenade
 
 - [ ] **Partial** — Tear-gas grenade
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The printed 5-inch radius gives broad Pinning coverage, including friendly exposure. Respirator blocks the effect in fixtures. Objective denial, recovery costs and whether this radius is oppressive remain unmeasured.
+
+**Recommended action:** Keep the current rule. Measure recovery/action denial and Respirator/spacing counterplay before a radius or effect adjustment.
+
+**Verdict scope:** Three open one-action layouts and gas-protection fixtures; no Injury or invented hit Stress is applied.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2335,6 +3595,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Twitch
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 current source-tagged events; not all are successful/positive uses.
@@ -2356,6 +3628,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-499 — Utility vest
 
 - [ ] **Partial** — Utility vest
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2381,6 +3665,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Bomber drone
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 additional clause check(s): Deploy assignment v2-545. 1 current source-tagged events; not all are successful/positive uses. The all-profile deployment-assignment fixture is narrow; printed abilities and competent use are not fully measured.
@@ -2402,6 +3698,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-548 — Breacher drone
 
 - [ ] **Partial** — Breacher drone
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2425,6 +3733,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Cloaking field
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 additional clause check(s): Deploy assignment v2-550. 1 current source-tagged events; not all are successful/positive uses. The all-profile deployment-assignment fixture is narrow; printed abilities and competent use are not fully measured.
@@ -2446,6 +3766,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-551 — Decoy mine
 
 - [ ] **Partial** — Decoy mine
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2469,6 +3801,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Gunner drone
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 additional clause check(s): Deploy assignment v2-546. 1 current source-tagged events; not all are successful/positive uses. The all-profile deployment-assignment fixture is narrow; printed abilities and competent use are not fully measured.
@@ -2490,6 +3834,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-212 — Seeker mine
 
 - [ ] **Partial** — Seeker mine
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2513,6 +3869,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Sentry turret
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 additional clause check(s): Deploy assignment v2-215. 1 current source-tagged events; not all are successful/positive uses. The all-profile deployment-assignment fixture is narrow; printed abilities and competent use are not fully measured.
@@ -2534,6 +3902,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-547 — Shield drone
 
 - [ ] **Partial** — Shield drone
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Ignoring one hit completely stops a one-die attack against the drone. Multi-die attacks retain possible hits, but operator attacks, disabling, flanks and objectives are not adequately measured. This is a concentrated matchup concern, not demonstrated whole-game dominance.
+
+**Recommended action:** Keep the profile while prioritizing intended counters. Do not balance it by attacking only the protected target with one-die weapons.
+
+**Verdict scope:** Conditional hit-ignore atlas and fixtures; full shield geometry/device uptime/counterplay remain incomplete.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2557,6 +3937,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Smoke emitter
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 additional clause check(s): Deploy assignment v2-213. 1 current source-tagged events; not all are successful/positive uses. The all-profile deployment-assignment fixture is narrow; printed abilities and competent use are not fully measured.
@@ -2579,6 +3971,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Support drone
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 additional clause check(s): Deploy assignment v2-549. 1 current source-tagged events; not all are successful/positive uses. The all-profile deployment-assignment fixture is narrow; printed abilities and competent use are not fully measured.
@@ -2600,6 +4004,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-544 — Surveillance drone
 
 - [ ] **Partial** — Surveillance drone
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2625,6 +4041,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Blast door
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -2646,6 +4074,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-187 — Cargo crane
 
 - [ ] **Not run** — Cargo crane
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2669,6 +4109,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Compactor
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -2690,6 +4142,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-195 — Conveyor
 
 - [ ] **Not run** — Conveyor
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2713,6 +4177,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Emergency alarm
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -2734,6 +4210,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-197 — Floodgate
 
 - [ ] **Not run** — Floodgate
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2757,6 +4245,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Floodlights
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 current source-tagged events; not all are successful/positive uses.
@@ -2778,6 +4278,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-198 — Junction box
 
 - [ ] **Not run** — Junction box
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2801,6 +4313,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Lift or cargo elevator
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -2822,6 +4346,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-185 — Movable walkway
 
 - [ ] **Not run** — Movable walkway
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2845,6 +4381,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Pit or vat cover
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -2866,6 +4414,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-188 — Pulley or hoist
 
 - [ ] **Not run** — Pulley or hoist
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2889,6 +4449,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Retractable bridge
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -2910,6 +4482,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-181 — Security door or roller gate
 
 - [ ] **Partial** — Security door or roller gate
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2933,6 +4517,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Service hatch
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -2955,6 +4551,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Sliding barricade
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Terminal kit no los and neural uplink.
@@ -2976,6 +4584,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-192 — Ventilation fans
 
 - [ ] **Not run** — Ventilation fans
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3001,6 +4621,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Accurate
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Accurate one miss only. 103 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
@@ -3022,6 +4654,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-234 — Agile
 
 - [ ] **Partial** — Agile
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3045,6 +4689,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Automatic
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
@@ -3066,6 +4722,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-237 — Bash
 
 - [ ] **Partial** — Bash
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3089,6 +4757,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Blast
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Area flame auto no hit or scatter no extra atk. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
@@ -3110,6 +4790,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-241 — Breach
 
 - [ ] **Partial** — Breach
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3133,6 +4825,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Close Combat
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
@@ -3154,6 +4858,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-456 — Heavy
 
 - [ ] **Partial** — Heavy
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3177,6 +4893,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Ignore Cover X
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
@@ -3198,6 +4926,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-513 — Knock Back
 
 - [ ] **Partial** — Knock Back
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3221,6 +4961,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Parry
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The success/cancellation math and conditional attack/defence differences are verified. Powerful defence and asymmetric initiating pools alone do not establish oppression; movement, alternate targets and objective counterplay are incomplete.
+
+**Recommended action:** Keep Ross’s settled mechanics. No cancellation or dual-weapon rule change is indicated by an implementation-oracle pass alone.
+
+**Verdict scope:** Exact pool distributions, mixed-weapon Monte Carlo and selected paired melee exchanges. Complete legal crew counterbuilds have not run.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Dual agile and parry shield stack. 87 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
@@ -3242,6 +4994,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-238 — Piercing
 
 - [ ] **Partial** — Piercing
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3265,6 +5029,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Quiet
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
@@ -3286,6 +5062,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-512 — Reach
 
 - [ ] **Partial** — Reach
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3309,6 +5097,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Reload
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 2 named primary check(s): Reload and recovery costs; Area reload and single use. 160,006 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
@@ -3330,6 +5130,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-514 — Retrieve
 
 - [ ] **Partial** — Retrieve
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3353,6 +5165,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Single-use
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 4 named primary check(s): Area consumed on scattered miss; Area invalid declaration preserves resources; Area reload and single use; Area smoke vertical extent expiry and consumption. 244,010 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
@@ -3374,6 +5198,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-242 — Suppression
 
 - [ ] **Partial** — Suppression
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3397,6 +5233,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Template
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 4 named primary check(s): Area flame auto no hit or scatter no extra atk; Area flame muzzle range and wall; Area flame rounded dimensions and partial witness; Area oblique and device cases fail explicitly. 80,003 current source-tagged events; not all are successful/positive uses. May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
@@ -3419,6 +5267,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Thrown
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** May contribute indirectly to weapon calculations; the full keyword eligibility/timing/combination suite is incomplete.
@@ -3440,6 +5300,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-245 — Unwieldy
 
 - [ ] **Partial** — Unwieldy
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3465,6 +5337,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — AGI characteristic
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -3486,6 +5370,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-464 — Armour characteristic
 
 - [ ] **Partial** — Armour characteristic
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3509,6 +5405,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — DEX characteristic
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -3530,6 +5438,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-460 — INT characteristic
 
 - [ ] **Partial** — INT characteristic
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3553,6 +5473,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — MOVE characteristic
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -3574,6 +5506,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-461 — NRV characteristic
 
 - [ ] **Partial** — NRV characteristic
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3597,6 +5541,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — STR characteristic
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -3618,6 +5574,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-463 — Wounds characteristic
 
 - [ ] **Partial** — Wounds characteristic
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3643,6 +5611,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Fighter grade
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Legal rosters and invalid skill.
@@ -3664,6 +5644,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-030 — Recruit grade
 
 - [ ] **Partial** — Recruit grade
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3687,6 +5679,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Specialist grade
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Legal rosters and invalid skill.
@@ -3708,6 +5712,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-033 — Veteran grade
 
 - [ ] **Partial** — Veteran grade
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3733,6 +5749,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — AGI interactions
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -3754,6 +5782,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-477 — DEX interactions
 
 - [ ] **Not run** — DEX interactions
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3777,6 +5817,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — INT interactions
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -3799,6 +5851,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — NRV interactions
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -3820,6 +5884,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-476 — STR interactions
 
 - [ ] **Not run** — STR interactions
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3845,6 +5921,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Out of Action
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -3866,6 +5954,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-481 — Primary objective
 
 - [ ] **Not run** — Primary objective
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3889,6 +5989,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Revival
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -3910,6 +6022,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-553 — Secondary objective
 
 - [ ] **Not run** — Secondary objective
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3933,6 +6057,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Survival
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -3954,6 +6090,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-482 — Terrain interaction
 
 - [ ] **Partial** — Terrain interaction
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3979,6 +6127,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — AGI skills
 
+#### Balance judgment
+
+**Balance verdict: NOT A SEPARATE BALANCE CHOICE.**
+
+**Why:** Generated catalogue view; its owning profiles require individual verdicts.
+
+**Recommended action:** Use the individual owner verdicts.
+
+**Verdict scope:** Catalogue/index disposition only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Generated catalogue view covering 12 item owners. Track the individual owning profiles here; the table is not a separate balance mechanic.
@@ -4000,6 +6160,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-494 — Armour
 
 - [ ] **Partial** — Armour
+
+#### Balance judgment
+
+**Balance verdict: NOT A SEPARATE BALANCE CHOICE.**
+
+**Why:** Generated catalogue view; its owning profiles require individual verdicts.
+
+**Recommended action:** Use the individual owner verdicts.
+
+**Verdict scope:** Catalogue/index disposition only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4023,6 +6195,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Consumables and medical supplies
 
+#### Balance judgment
+
+**Balance verdict: NOT A SEPARATE BALANCE CHOICE.**
+
+**Why:** Generated catalogue view; its owning profiles require individual verdicts.
+
+**Recommended action:** Use the individual owner verdicts.
+
+**Verdict scope:** Catalogue/index disposition only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Generated catalogue view covering 15 item owners. Track the individual owning profiles here; the table is not a separate balance mechanic.
@@ -4044,6 +6228,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-488 — DEX skills
 
 - [ ] **Partial** — DEX skills
+
+#### Balance judgment
+
+**Balance verdict: NOT A SEPARATE BALANCE CHOICE.**
+
+**Why:** Generated catalogue view; its owning profiles require individual verdicts.
+
+**Recommended action:** Use the individual owner verdicts.
+
+**Verdict scope:** Catalogue/index disposition only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4067,6 +6263,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Deployable equipment catalogue
 
+#### Balance judgment
+
+**Balance verdict: NOT A SEPARATE BALANCE CHOICE.**
+
+**Why:** Generated catalogue view; its owning profiles require individual verdicts.
+
+**Recommended action:** Use the individual owner verdicts.
+
+**Verdict scope:** Catalogue/index disposition only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Generated catalogue view covering 11 item owners. Track the individual owning profiles here; the table is not a separate balance mechanic.
@@ -4088,6 +6296,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-490 — INT skills
 
 - [ ] **Partial** — INT skills
+
+#### Balance judgment
+
+**Balance verdict: NOT A SEPARATE BALANCE CHOICE.**
+
+**Why:** Generated catalogue view; its owning profiles require individual verdicts.
+
+**Recommended action:** Use the individual owner verdicts.
+
+**Verdict scope:** Catalogue/index disposition only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4111,6 +6331,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Interactive terrain catalogue
 
+#### Balance judgment
+
+**Balance verdict: NOT A SEPARATE BALANCE CHOICE.**
+
+**Why:** Generated catalogue view; its owning profiles require individual verdicts.
+
+**Recommended action:** Use the individual owner verdicts.
+
+**Verdict scope:** Catalogue/index disposition only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Generated catalogue view covering 17 item owners. Track the individual owning profiles here; the table is not a separate balance mechanic.
@@ -4132,6 +6364,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-491 — NRV skills
 
 - [ ] **Partial** — NRV skills
+
+#### Balance judgment
+
+**Balance verdict: NOT A SEPARATE BALANCE CHOICE.**
+
+**Why:** Generated catalogue view; its owning profiles require individual verdicts.
+
+**Recommended action:** Use the individual owner verdicts.
+
+**Verdict scope:** Catalogue/index disposition only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4155,6 +6399,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — STR skills
 
+#### Balance judgment
+
+**Balance verdict: NOT A SEPARATE BALANCE CHOICE.**
+
+**Why:** Generated catalogue view; its owning profiles require individual verdicts.
+
+**Recommended action:** Use the individual owner verdicts.
+
+**Verdict scope:** Catalogue/index disposition only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Generated catalogue view covering 12 item owners. Track the individual owning profiles here; the table is not a separate balance mechanic.
@@ -4176,6 +6432,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-486 — Standard weapons
 
 - [ ] **Partial** — Standard weapons
+
+#### Balance judgment
+
+**Balance verdict: NOT A SEPARATE BALANCE CHOICE.**
+
+**Why:** Generated catalogue view; its owning profiles require individual verdicts.
+
+**Recommended action:** Use the individual owner verdicts.
+
+**Verdict scope:** Catalogue/index disposition only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4199,6 +6467,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Tools and equipment
 
+#### Balance judgment
+
+**Balance verdict: NOT A SEPARATE BALANCE CHOICE.**
+
+**Why:** Generated catalogue view; its owning profiles require individual verdicts.
+
+**Recommended action:** Use the individual owner verdicts.
+
+**Verdict scope:** Catalogue/index disposition only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Generated catalogue view covering 7 item owners. Track the individual owning profiles here; the table is not a separate balance mechanic.
@@ -4220,6 +6500,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-495 — Weapon characteristics
 
 - [ ] **Partial** — Weapon characteristics
+
+#### Balance judgment
+
+**Balance verdict: NOT A SEPARATE BALANCE CHOICE.**
+
+**Why:** Generated catalogue view; its owning profiles require individual verdicts.
+
+**Recommended action:** Use the individual owner verdicts.
+
+**Verdict scope:** Catalogue/index disposition only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4245,15 +6537,27 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — ALERT and reaction eligibility
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
-**Recorded result:** 3 named primary check(s): Alert retention and once per round; Forward arc and no free enemy turn pivot; Area two hands and reaction facing. 3,648 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 3 named primary check(s): Alert retention and once per round; Forward arc and no free enemy turn pivot; Area two hands and reaction facing. 3,648 current source-tagged events; not all are successful/positive uses. v5 Flashbang task supplement: 12,000 paired first-cycle objective tasks; timing, spacing and ALERT/wall counters. Immediate and pending activation denial recorded; complete multi-round balance remains unconfirmed.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** Only ordinary shooting reactions are competitive in full battles; other eligible Move/Core reactions not planned by AI.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-061 - ALERT and reaction eligibility|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-061 - ALERT and reaction eligibility|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
 
 **Ross’s notes:**
 
@@ -4267,15 +6571,27 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Activations, action costs and attack limit
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
-**Recorded result:** 6 named primary check(s): Revive once consumption and activation history; Sprinter retains core; Every declared policy runs; Seed replay reproduction; Area invalid declaration preserves resources; Area stun reapplication costs one activation. 1 additional clause check(s): Motivate two core attacks. 610,212 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 6 named primary check(s): Revive once consumption and activation history; Sprinter retains core; Every declared policy runs; Seed replay reproduction; Area invalid declaration preserves resources; Area stun reapplication costs one activation. 1 additional clause check(s): Motivate two core attacks. 610,212 current source-tagged events; not all are successful/positive uses. v5 Flashbang task supplement: 12,000 paired first-cycle objective tasks; timing, spacing and ALERT/wall counters. Immediate and pending activation denial recorded; complete multi-round balance remains unconfirmed.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** Only named source clauses may have evidence; all remaining procedure clauses are unverified.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-055 - Activations, action costs and attack limit|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-055 - Activations, action costs and attack limit|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
 
 **Ross’s notes:**
 
@@ -4288,6 +6604,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-392 — Advancement and promotion
 
 - [ ] **Partial** — Advancement and promotion
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4311,6 +6639,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Aim
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -4332,6 +6672,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-248 — Area attacks, smoke and fire
 
 - [ ] **Partial** — Area attacks, smoke and fire
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4355,6 +6707,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Battle rewards
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -4376,6 +6740,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-046 — Battlefield setup and terrain agreement
 
 - [ ] **Partial** — Battlefield setup and terrain agreement
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4399,6 +6775,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Carrying and releasing loads
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Half speed does not compound.
@@ -4420,6 +6808,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-082 — Charge
 
 - [ ] **Partial** — Charge
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4443,6 +6843,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Chems and medical supplies
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Chem no unlock duplicate or extra wounds. 1 additional clause check(s): Doc free dose and cocktail recipient limit. 3 current source-tagged events; not all are successful/positive uses.
@@ -4464,6 +6876,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-305 — Choosing and using skills
 
 - [ ] **Partial** — Choosing and using skills
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4487,6 +6911,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Climbing, jumping and falling
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 3 named primary check(s): Fall ignores armour; Fall over twelve no injury; Jump and safe drop boundaries. 6 current source-tagged events; not all are successful/positive uses.
@@ -4508,6 +6944,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-002 — Components, models and templates
 
 - [ ] **Not run** — Components, models and templates
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4531,6 +6979,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Cover and elevation
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 3 named primary check(s): Low cover and shooter hug exception; Area smoke outside block inside cover and respirator; Area unwieldy and cover affect placement.
@@ -4552,6 +7012,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-025 — Credits and Crew Rating
 
 - [ ] **Not run** — Credits and Crew Rating
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4575,6 +7047,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Crew composition and item limits
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Legal rosters and invalid skill.
@@ -4596,6 +7080,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-202 — Deploying, revealing, disarming and damaging devices
 
 - [ ] **Partial** — Deploying, revealing, disarming and damaging devices
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4619,6 +7115,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Down and Unconscious casualties
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 2 named primary check(s): Down timer and no surplus execution; Body and casualty los. 266,521 current source-tagged events; not all are successful/positive uses.
@@ -4640,6 +7148,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-220 — Drone operations
 
 - [ ] **Partial** — Drone operations
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4663,6 +7183,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — End Phase
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 2 named primary check(s): Alert retention and once per round; Final checkpoint includes secondary vp. 246 current source-tagged events; not all are successful/positive uses.
@@ -4684,6 +7216,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-153 — Ending a battle and recovering the crew
 
 - [ ] **Not run** — Ending a battle and recovering the crew
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4707,6 +7251,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Engagement and Disengage
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 2 named primary check(s): Ordinary move cannot engage; Regression engaged actor does not shoot outside.
@@ -4729,15 +7285,27 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Equipment conditions
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
-**Recorded result:** 7 named primary check(s): Chem no unlock duplicate or extra wounds; Area fire first failure moves and skip survives extinguish; Area fire visible water in any direction; Area fire water preserves unrelated pin; Area flash enemy radius and stun no injury; Area molotov fire no injury no persistent zone; Area stun reapplication costs one activation. 2 additional clause check(s): Fire failed check escalation; Poison application round and natural move threshold. 124,747 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 7 named primary check(s): Chem no unlock duplicate or extra wounds; Area fire first failure moves and skip survives extinguish; Area fire visible water in any direction; Area fire water preserves unrelated pin; Area flash enemy radius and stun no injury; Area molotov fire no injury no persistent zone; Area stun reapplication costs one activation. 2 additional clause check(s): Fire failed check escalation; Poison application round and natural move threshold. 124,747 current source-tagged events; not all are successful/positive uses. v5 Flashbang task supplement: 12,000 paired first-cycle objective tasks; timing, spacing and ALERT/wall counters. Immediate and pending activation denial recorded; complete multi-round balance remains unconfirmed.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** Initial fire movement, visible-water steering, first failed-check movement, missed-activation retention and condition escalation have focused fixtures. Vertical fire/falls, every collision/casualty interaction, cure/history and full intended-use crew evidence remain incomplete.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-498 - Equipment conditions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-498 - Equipment conditions|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [assertions.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/clause-fixtures/assertions.csv>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
 
 **Ross’s notes:**
 
@@ -4750,6 +7318,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-228 — Equipment profiles and provisional prices
 
 - [ ] **Not run** — Equipment profiles and provisional prices
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4773,6 +7353,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Equipping fighters and handling weapons
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Legal rosters and invalid skill.
@@ -4794,6 +7386,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-389 — Experience and deeds
 
 - [ ] **Partial** — Experience and deeds
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Repeated successful door interactions each create an XP opportunity under current text. This is a potential farming incentive. The test does not show an infinite action loop or prove that farming beats mission/reward play.
+
+**Recommended action:** Flag the incentive for campaign-boundary review; do not add a cap yet. Recommend a change only if repeated operation produces a material exploit after action and battle-ending costs.
+
+**Verdict scope:** Two successful door operations; reward/campaign incentives not fully integrated.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4817,6 +7421,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Facing, visibility and rear attacks
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 4 named primary check(s): Body and casualty los; Forward arc and no free enemy turn pivot; Friendly down witness requires facing and base range; Area two hands and reaction facing.
@@ -4838,6 +7454,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-089 — Forced movement
 
 - [ ] **Not run** — Forced movement
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4861,6 +7489,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Hacking, terminals and repair
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 2 named primary check(s): Terminal kit no los and neural uplink; Terminal nat one freeze. 2 current source-tagged events; not all are successful/positive uses.
@@ -4882,6 +7522,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-154 — Hidden and Observe
 
 - [ ] **Not run** — Hidden and Observe
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4905,6 +7557,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Improvised actions
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -4926,6 +7590,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-114 — Injury and attack outcomes
 
 - [ ] **Partial** — Injury and attack outcomes
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4949,6 +7625,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Interact and stat examples
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -4970,6 +7658,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-131 — Loot and item ownership
 
 - [ ] **Not run** — Loot and item ownership
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4993,6 +7693,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Measuring and shared conventions
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 4 named primary check(s): Base to base range boundary; Narrow gap blocks base; No corner cutting; Path detours and clearance. 1 additional clause check(s): Inspector slots and identical vest effect.
@@ -5014,6 +7726,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-106 — Melee exchanges, Unanswered and Shove
 
 - [ ] **Partial** — Melee exchanges, Unanswered and Shove
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The success/cancellation math and conditional attack/defence differences are verified. Powerful defence and asymmetric initiating pools alone do not establish oppression; movement, alternate targets and objective counterplay are incomplete.
+
+**Recommended action:** Keep Ross’s settled mechanics. No cancellation or dual-weapon rule change is indicated by an implementation-oracle pass alone.
+
+**Verdict scope:** Exact pool distributions, mixed-weapon Monte Carlo and selected paired melee exchanges. Complete legal crew counterbuilds have not run.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5037,6 +7761,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Move, obstacles and Sprint
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 5 named primary check(s): Half speed does not compound; Narrow gap blocks base; No corner cutting; Ordinary move cannot engage; Path detours and clearance. 1,035 current source-tagged events; not all are successful/positive uses.
@@ -5058,6 +7794,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-354 — Non-killing victory routes
 
 - [ ] **Partial** — Non-killing victory routes
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5081,6 +7829,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Objective limits and control areas
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 2 named primary check(s): Final checkpoint includes secondary vp; Four scenarios all families and sizes.
@@ -5102,6 +7862,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-485 — Orders
 
 - [ ] **Partial** — Orders
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5125,6 +7897,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Ordinary tests and modifiers
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 3 named primary check(s): Boundaries and independent oracle; Category largest not sum; Event key streams do not shift other events. 111 current source-tagged events; not all are successful/positive uses.
@@ -5146,6 +7930,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-001 — Persistent crew and settlement
 
 - [ ] **Not run** — Persistent crew and settlement
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5169,6 +7965,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Pinned and recovery
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Reload and recovery costs. 38 current source-tagged events; not all are successful/positive uses.
@@ -5190,6 +7998,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-150 — Rally
 
 - [ ] **Partial** — Rally
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5213,15 +8033,27 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Reactions and interruption
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
-**Recorded result:** 2 named primary check(s): Return fire is simultaneous independent; Dive success and failure both pin. 103 current source-tagged events; not all are successful/positive uses.
+**Recorded result:** 2 named primary check(s): Return fire is simultaneous independent; Dive success and failure both pin. 103 current source-tagged events; not all are successful/positive uses. v5 Flashbang task supplement: 12,000 paired first-cycle objective tasks; timing, spacing and ALERT/wall counters. Immediate and pending activation denial recorded; complete multi-round balance remains unconfirmed.
 
 **Findings:** Only any explicitly named clauses above are checked; a procedure/catalogue owner is not an independent balance choice.
 
 **Notes / remaining work:** All eligible reaction action types, competing reactors and order-choice policies incomplete; current full-battle AI chiefly shoots.
 
-**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-065 - Reactions and interruption|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>)
+**Evidence:** [[Settlements/Rules System/Master Rules System/Rule Cards/V2-065 - Reactions and interruption|Live owning card]] · [coverage.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/coverage.csv>) · [scope-audit.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/scope-audit.csv>) · [conformance.txt](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/conformance.txt>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
 
 **Ross’s notes:**
 
@@ -5234,6 +8066,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-015 — Reading a fighter profile
 
 - [ ] **Not run** — Reading a fighter profile
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5257,6 +8101,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Recruitment and training grades
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 2 named primary check(s): Legal rosters and invalid skill; Unused starting stat points are lost not illegal.
@@ -5278,6 +8134,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-052 — Round refresh and initiative
 
 - [ ] **Partial** — Round refresh and initiative
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5301,6 +8169,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Not run** — Securing, rescuing and extracting captives
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** No direct named check, recorded intended-use measurement or current tagged source event has been established for this owner.
@@ -5322,6 +8202,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-218 — Sentry turret operations
 
 - [ ] **Not run** — Sentry turret operations
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5345,6 +8237,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Setup and deployment
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 2 named primary check(s): Seeded path reachability all boards; Four scenarios all families and sizes.
@@ -5366,6 +8270,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-176 — Shared terrain operations and hazards
 
 - [ ] **Not run** — Shared terrain operations and hazards
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5389,6 +8305,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Shooting and target allocation
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 3 named primary check(s): Atlas hand worked rifle; Return fire is simultaneous independent; Regression engaged actor does not shoot outside. 4,030 current source-tagged events; not all are successful/positive uses.
@@ -5410,6 +8338,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-023 — Single opposed tests
 
 - [ ] **Partial** — Single opposed tests
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5433,6 +8373,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Stress, Break and forced flight
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 5 named primary check(s): Break and rally subtract stress; Break no same phase rally and beta exception; Every hit stress no universal pin; Multi wounds and injury ignores stress; Friendly down witness requires facing and base range. 264,262 current source-tagged events; not all are successful/positive uses.
@@ -5455,6 +8407,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 
 - [ ] **Partial** — Treatment and revival
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The complete intended-use, counterplay and competent crew comparison required for balance sign-off is not established.
+
+**Recommended action:** No evidence-backed rule adjustment yet; keep the baseline while completing the named missing tests.
+
+**Verdict scope:** Inspect linked owner evidence; named clauses and source events are not complete balance validation.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1 named primary check(s): Revive once consumption and activation history. 1 additional clause check(s): Stabilize revival clears stress. 4 current source-tagged events; not all are successful/positive uses.
@@ -5476,6 +8440,18 @@ The generated notes preserve the recorded scope and link to evidence. Ross’s n
 ### V2-102 — Weapon pools, dual wielding and unarmed attacks
 
 - [ ] **Partial** — Weapon pools, dual wielding and unarmed attacks
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The success/cancellation math and conditional attack/defence differences are verified. Powerful defence and asymmetric initiating pools alone do not establish oppression; movement, alternate targets and objective counterplay are incomplete.
+
+**Recommended action:** Keep Ross’s settled mechanics. No cancellation or dual-weapon rule change is indicated by an implementation-oracle pass alone.
+
+**Verdict scope:** Exact pool distributions, mixed-weapon Monte Carlo and selected paired melee exchanges. Complete legal crew counterbuilds have not run.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 

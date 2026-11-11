@@ -11,6 +11,16 @@
 
 [Published execution review](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/EXECUTION-REVIEW.md>)
 
+[[Settlements/Simulations/Analysis/Balance Verdicts|Read explicit balance verdicts and recommended actions]]
+
+Each checklist/results/owner entry now includes a balance verdict, reason, recommended action and verdict scope. Conformance-only checks are marked **Not a balance test**. No game-rule finding currently reaches the evidence bar for **Needs adjustment**; this is not a claim that every rule passes.
+
+## Flashbang: priority balance concern
+
+[[Settlements/Simulations/Results/Flashbang Activation Denial|New 12,000-pair objective/denial results]]
+
+Two Flashbang actions denied 1.686 of two clustered victims’ immediate activations on average when attackers acted first, plus 0.740 pending skips. ALERT reduced observed immediate denial to 1.200; acting first shifted much of the harm into pending skips. Full walls stopped this stationary delivery opportunity. **Verdict: Watch / confirm; not passed.** Test sustained denial and practical routes/counterbuilds before recommending a rule adjustment.
+
 - Ground-subset battle outcomes are conditional on their board/scenario/policy and unpriced roster controls.
 - Mixed-melee cancellation has direct independent-oracle evidence.
 - Complete catalogue-wide balance and pricing readiness are not established.

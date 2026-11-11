@@ -9,6 +9,13 @@
 - [x] Reproduce 60 saved area event/packet samples and 96 frozen-v2/current-v4 homogeneous outcomes.
 - [x] Publish the findings, source/engine manifests and owner/checklist additions.
 
+## Latest balance follow-up — v5 task supplement
+
+- [x] Add explicit verdict, reason, action and scope to every plan/results/owner entry.
+- [x] Run 12,000 paired first-cycle Flashbang objective tasks across timing, spacing and ALERT/wall counters.
+- [x] Preserve every paired arm and reproduce 24 representative event/state samples.
+- [ ] Confirm repeated Flashbang denial over multiple rounds with legal resources, movement, morale and competent objective counterplay. **High-priority balance warning; not a pass.**
+
 ## W06 remains open
 
 - [ ] Directed up/down flame placement with independently checked 3D geometry.

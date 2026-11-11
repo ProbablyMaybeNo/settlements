@@ -9,9 +9,13 @@ Use this page to follow the work in plan order. Every entry has recorded results
 
 [Original simulation plan](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/docs/balance-pass-2026-11-10/PLAN.md>) · [Current execution review](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v4/EXECUTION-REVIEW.md>) · [[Settlements/Simulations/Tracking/Rule and Item Coverage|Every rule, skill and item]] · [[Settlements/Simulations/Results/Simulation Results Log|Detailed results log]]
 
+**Balance decision:** [[Settlements/Simulations/Analysis/Balance Verdicts|Read the balance verdicts first]]. Smoke has a provisional local pass; several mechanics need targeted confirmation. No game-rule change is currently justified. “Executed” is a work-status checkbox, not a balance pass.
+
 **Current recorded totals:** 88 primary checks; 28 additional clause checks; 190,000 single-attack weapon trials; 480,000 mixed-weapon trials; 9,000 tactical screening pairs plus 2,000 confirmation pairs; 12,000 exploratory and 2,400 held-out ground-subset battles; 96 old/new engine comparisons.
 
 **Area addition:** 600,000 trials in 60 contexts; 4,000 paired watched-lane tasks. Earlier evidence retains its producing v2/v3 manifests.
+
+**Flashbang balance follow-up (v5 task supplement):** 12,000 paired first-cycle objective tasks across 12 timing/spacing/counter contexts. Verdict: **Watch / confirm — high-priority control concern; not passed.**
 
 The 248 source owners include catalogue pages and definitions: they are **not 248 independent mechanics**. Zero tagged events does not prove that an option is weak or that its effect never appeared indirectly. No overall completion percentage is inferred from those counts.
 
@@ -26,6 +30,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### F01 — Verify and freeze the current approved owners
 
 - [x] **Executed** — Verify and freeze the current approved owners
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -49,6 +65,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Audit historical engines before reuse
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** TN10/TN15/d10 engines were audited; the current adapter is isolated.
@@ -70,6 +98,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### F03 — Document the complete simulation contract
 
 - [ ] **Partial** — Document the complete simulation contract
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -93,6 +133,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Resolve mixed-weapon cancellation ownership
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Ross ruled: defender chooses attacker dice to cancel within normal/critical groups. Recorded in v3.
@@ -114,6 +166,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### F05 — Run primary deterministic and independent-oracle checks
 
 - [x] **Executed** — Run primary deterministic and independent-oracle checks
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -137,6 +201,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Run additional owner-clause fixtures
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 28 additional fixtures passed, including support, auras, chems, deployment assignment and condition timing.
@@ -159,6 +235,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Preserve implementation failures and regression seeds
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Engagement, flight-route and Charge-route failures were retained, corrected and regression-tested.
@@ -180,6 +268,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### F08 — Establish complete action/event replay reconstruction
 
 - [ ] **Partial** — Establish complete action/event replay reconstruction
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -205,6 +305,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Generate exact ordinary, Injury and opposed probability tables
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 72,840 weapon contexts; 56 Stat/Stress rows; 441 opposed rows.
@@ -226,6 +338,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### C02 — Cross-check large melee pools with an independent oracle
 
 - [x] **Executed** — Cross-check large melee pools with an independent oracle
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -249,6 +373,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Measure each Stat step including its skill unlock
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Raw threshold tables and selected unlock/promotion fixtures exist.
@@ -270,6 +406,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### C04 — Measure all legal maximum modifier and pool combinations
 
 - [ ] **Partial** — Measure all legal maximum modifier and pool combinations
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -295,6 +443,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Run conditional single-attack Monte Carlo across ordinary weapons
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 19 weapons × 10,000 trials = 190,000 trials, with no declared oracle-check failures.
@@ -316,6 +476,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### W02 — Complete all 22 weapon profiles and all 21 keywords
 
 - [ ] **Partial** — Complete all 22 weapon profiles and all 21 keywords
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -339,6 +511,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Measure defender-selected mixed-weapon cancellation
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The success/cancellation math and conditional attack/defence differences are verified. Powerful defence and asymmetric initiating pools alone do not establish oppression; movement, alternate targets and objective counterplay are incomplete.
+
+**Recommended action:** Keep Ross’s settled mechanics. No cancellation or dual-weapon rule change is indicated by an implementation-oracle pass alone.
+
+**Verdict scope:** Exact pool distributions, mixed-weapon Monte Carlo and selected paired melee exchanges. Complete legal crew counterbuilds have not run.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 48 contexts × 10,000 trials = 480,000 trials; no declared independent-oracle failures.
@@ -360,6 +544,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### W04 — Compare dual Agile weapons with sword/shield
 
 - [ ] **Partial** — Compare dual Agile weapons with sword/shield
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** The success/cancellation math and conditional attack/defence differences are verified. Powerful defence and asymmetric initiating pools alone do not establish oppression; movement, alternate targets and objective counterplay are incomplete.
+
+**Recommended action:** Keep Ross’s settled mechanics. No cancellation or dual-weapon rule change is indicated by an implementation-oracle pass alone.
+
+**Verdict scope:** Exact pool distributions, mixed-weapon Monte Carlo and selected paired melee exchanges. Complete legal crew counterbuilds have not run.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -383,6 +579,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Measure all armour tiers in combat and objective play
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Armour 0/2/4/6 appears in conditional math; Reinforced-for-Light substitutions appear in battle screens.
@@ -405,6 +613,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Complete Blast, cone, scatter, walls/floors and friendly-fire tests
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Smoke has a provisional local utility/counterplay pass; flame, Flashbang and tear gas need further counterplay/tempo confirmation. Blast and fire still lack full balance evidence.
+
+**Recommended action:** Keep the baseline. Prioritize activation denial, approach costs and legal counters; no area rule adjustment is justified yet.
+
+**Verdict scope:** See the separate mechanic verdicts; W06 has no blanket pass.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 24 area fixtures plus 60 contexts / 600,000 trials; no declared independent-oracle failures. 4,000 paired smoke-lane tasks.
@@ -421,6 +641,40 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 <!-- /ross-notes -->
 
+<a id="W07"></a>
+
+### W07 — Measure Flashbang activation denial and immediate counters
+
+- [x] **Executed** — Measure Flashbang activation denial and immediate counters
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
+#### Results
+
+**Recorded result:** 12 cells × 1,000 paired seeds = 12,000 pairs / 24,000 task arms; 24 representative event/state replays reproduce. Whole-unit alternation and legal loadouts checked.
+
+**Findings:** Strong first-cycle denial persists with ALERT counterfire; early victim activation can shift denial into pending next-activation skips. Solid walls remove this fixed-position delivery opportunity.
+
+**Notes / remaining work:** First cycle only, before End Phase. Full repeated-use, movement/alternative objectives, morale and held-out competent crew responses remain; the mechanic is not passed and no change has been adopted.
+
+**Evidence:** [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]] · [paired-summary.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/paired-summary.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/configs.json>)
+
+**Ross’s notes:**
+
+<!-- ross-notes:W07 -->
+
+<!-- /ross-notes -->
+
 ## 4. MOVE and TERRAIN — access, paths and displacement
 
 <a id="M01"></a>
@@ -428,6 +682,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### M01 — Check basic paths, base clearance, arcs and movement boundaries
 
 - [x] **Executed** — Check basic paths, base clearance, arcs and movement boundaries
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -451,6 +717,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Complete climbing, ladders, doors, ledges and disengagement
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Selected traversal/fall and engagement checks pass.
@@ -473,6 +751,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Complete Grapple, Carry, Hauler, Throw, release and extraction
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Partial handlers, selected allowances and feasibility checks exist.
@@ -494,6 +784,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### M04 — Prove every interactive terrain profile and contested use
 
 - [ ] **Partial** — Prove every interactive terrain profile and contested use
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -519,6 +821,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Check ALERT persistence, ordinary limits, Orders, Dive and Return Fire
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Named token, per-round, per-battle, facing, Dive and simultaneous-shooting assertions pass.
@@ -541,6 +855,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Measure initiative, reaction tempo and final-activation effects
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Battle blocks cross side and forced first activation; first/second scores are recorded per cell.
@@ -562,6 +888,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### R03 — Complete turret, Interrupt, counterattack and extra-action exceptions
 
 - [ ] **Partial** — Complete turret, Interrupt, counterattack and extra-action exceptions
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -587,6 +925,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Check hit Stress, Injury independence, Pinning, Break/Rally and timers
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Named fixtures pass for Stress-before-Injury, uncapped Injury successes, morale bands, Rally, Down timers and revival history.
@@ -608,6 +958,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### S02 — Measure Stress cascades, recovery delay, denial and support across crews
 
 - [ ] **Partial** — Measure Stress cascades, recovery delay, denial and support across crews
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -631,6 +993,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Complete casualties, revival, Secure/Rescue, extraction and withdrawal
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Down/revival clauses, a promotion boundary and separate cargo/breakthrough fixtures exist.
@@ -652,6 +1026,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### S04 — Test a once-per-Attack Stress diagnostic variant if baseline warrants it
 
 - [ ] **Not run** — Test a once-per-Attack Stress diagnostic variant if baseline warrants it
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -677,6 +1063,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Complete Hidden, reveal, Observe, Marked, smoke and lighting
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Mark expiry, Ghost/Phantom Shot and selected exposure/light clauses have checks.
@@ -698,6 +1096,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### T02 — Check deployment assignment for all 11 deployables
 
 - [x] **Executed** — Check deployment assignment for all 11 deployables
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -721,6 +1131,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Complete six drones, five field deployables and hacking counterplay
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Deployment, selected control/shutdown, kit/terminal and shield-hit clauses exist.
@@ -743,6 +1165,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Complete all 22 equipment profiles and consumable limits
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Selected Medkit, chem, Doc/Cocktail, Stabilize, slot and Unwieldy clauses pass.
@@ -763,11 +1197,23 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 ### T05 — Run all planned timed access/rescue/objective tasks
 
-- [ ] **Not run** — Run all planned timed access/rescue/objective tasks
+- [ ] **Partial** — Run all planned timed access/rescue/objective tasks
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
-**Recorded result:** The complete elevated-objective, watched-lane, revive-and-escape, doorway, casualty-carry and smoke-contest task pack has not run.
+**Recorded result:** Smoke watched-lane and Flashbang console-denial tasks now have paired evidence; the complete elevated-objective, revive-and-escape, doorway, casualty-carry and smoke-contest pack remains incomplete.
 
 **Findings:** No complete actions/turns/resources-saved ranking is supported.
 
@@ -786,6 +1232,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### K01 — Complete the full evidence ladder for every one of the 60 skills
 
 - [ ] **Partial** — Complete the full evidence ladder for every one of the 60 skills
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -809,6 +1267,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Run conditional Rage + Implode and dual-weapon screens
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 36 cells × 250 independent seed pairs; 9,000 paired comparisons.
@@ -830,6 +1300,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### K03 — Confirm the predeclared Rage + Implode contexts with new seeds
 
 - [x] **Executed** — Confirm the predeclared Rage + Implode contexts with new seeds
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -853,6 +1335,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Build the interaction graph and high-risk stat/skill feasibility search
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1,191 candidate lexical interaction edges; 180 high-risk sets examined, 171 feasible and 9 blocked by caps.
@@ -874,6 +1368,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### K05 — Complete high-risk group 1: dual Agile/Gun-fu/Gunslinger/defence/charge/counterattacks
 
 - [ ] **Partial** — Complete high-risk group 1: dual Agile/Gun-fu/Gunslinger/defence/charge/counterattacks
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -897,6 +1403,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Complete high-risk group 2: Rage/Implode and other Stress engines
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Conditional Rage/Implode screening and fresh-seed confirmation ran.
@@ -918,6 +1436,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### K07 — Complete high-risk group 3: tank armour/Brace/Tough as Nails/taunt/support
 
 - [ ] **Partial** — Complete high-risk group 3: tank armour/Brace/Tough as Nails/taunt/support
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -941,6 +1471,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Complete high-risk group 4: Mark/Head Shot/range extension/drone support
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Selected marksman clauses exist; the complete combined drone package is unmeasured.
@@ -962,6 +1504,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### K09 — Complete high-risk group 5: Hidden/Ghost/Phantom Shot/cover/smoke/reveal
 
 - [ ] **Partial** — Complete high-risk group 5: Hidden/Ghost/Phantom Shot/cover/smoke/reveal
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -985,6 +1539,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Complete high-risk group 6: extra actions/auras/Orders/chems/reload
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Selected resource/tempo clauses pass; complete combination and loop searches are missing.
@@ -1006,6 +1572,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### K11 — Complete high-risk group 7: shield drone and its counters
 
 - [ ] **Partial** — Complete high-risk group 7: shield drone and its counters
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1029,6 +1607,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Complete high-risk group 8: turrets/mines/Cloaking/activation delay/hijack
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Deployment-only and shutdown clauses exist; the combined kill-zone/counterplay suite has not run.
@@ -1050,6 +1640,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### K13 — Complete high-risk group 9: slot expansion/replacement/resource loops
 
 - [ ] **Partial** — Complete high-risk group 9: slot expansion/replacement/resource loops
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1073,6 +1675,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Complete high-risk group 10: crane/Throw/falls/compactor/extraction denial
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Fall and some partial handlers exist; full contested terrain/control combinations are unmeasured.
@@ -1094,6 +1708,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### K15 — Complete all fifteen archetype integrations and adversarial best responses
 
 - [ ] **Not run** — Complete all fifteen archetype integrations and adversarial best responses
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1119,6 +1745,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Verify current roster skeletons and advancement boundaries
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 4/6/9-actor skeletons, selected Stat/skill/equipment legality and promotion assertions exist.
@@ -1140,6 +1778,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### P02 — Check repeat terrain-interaction XP opportunities
 
 - [x] **Executed** — Check repeat terrain-interaction XP opportunities
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Repeated successful door interactions each create an XP opportunity under current text. This is a potential farming incentive. The test does not show an infinite action loop or prove that farming beats mission/reward play.
+
+**Recommended action:** Flag the incentive for campaign-boundary review; do not add a cap yet. Recommend a change only if repeated operation produces a material exploit after action and battle-ending costs.
+
+**Verdict scope:** Two successful door operations; reward/campaign incentives not fully integrated.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1163,6 +1813,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Complete rewards, XP deeds and battle-relevant progression incentives
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Selected XP/unlock/promotion clauses and legal advanced sets are recorded.
@@ -1184,6 +1846,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### B01 — Author and reachability-check the six board families
 
 - [x] **Executed** — Author and reachability-check the six board families
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1207,6 +1881,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Complete all planned board metrics and alternate/vertical access
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Footprint fractions and route-length metrics are saved.
@@ -1228,6 +1914,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### B03 — Define the four non-adopted objective fixture families
 
 - [x] **Executed** — Define the four non-adopted objective fixture families
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1251,6 +1949,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Complete policy competence for all roles and equipment
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Balanced, pressure, cautious and flank ground heuristics exist; occupancy-aware confirmation improves both arms.
@@ -1272,6 +1982,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### B05 — Run unequal-headcount and cross-role counterbuild sensitivity
 
 - [ ] **Not run** — Run unequal-headcount and cross-role counterbuild sensitivity
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1295,6 +2017,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Run the declared exploratory ground-subset battle matrix
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 30 cells × 100 four-game independent seed blocks = 12,000 games.
@@ -1316,6 +2050,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### G02 — Confirm selected substitutions with free objective approaches
 
 - [x] **Executed** — Confirm selected substitutions with free objective approaches
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1339,6 +2085,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Check unchanged outcomes after the defender-choice decision
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 96 frozen-v2/current-v3 matched comparisons produced identical outcomes.
@@ -1361,6 +2119,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [ ] **Partial** — Finish representative full-system battles and precision escalation
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** The declared ground screen and limited held-out confirmation ran.
@@ -1382,6 +2152,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### G05 — Verify counts, provenance, seeds and independent-sample uncertainty
 
 - [ ] **Partial** — Verify counts, provenance, seeds and independent-sample uncertainty
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1407,6 +2189,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Publish findings, source coverage, manifests and reproducible outputs
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Versioned reviews, coverage, source/engine manifests, configs, seeds, raw results, replay samples and current commands are available.
@@ -1428,6 +2222,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### D02 — Close all six completion gates
 
 - [ ] **Partial** — Close all six completion gates
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1451,6 +2257,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Prepare the human-playtest follow-up
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** A follow-up packet covers mirrors, melee/shields, Stress, terrain/hacking, stealth, deployables, support/revival and combinations.
@@ -1473,6 +2291,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 
 - [x] **Executed** — Prepare the conditional trait-measurement handoff without prices
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** The handoff records interaction, restriction, uncertainty and double-counting requirements.
@@ -1494,6 +2324,18 @@ The 248 source owners include catalogue pages and definitions: they are **not 24
 ### D05 — Complete the measurement foundation required for a later Credits rebuild
 
 - [ ] **Partial** — Complete the measurement foundation required for a later Credits rebuild
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 

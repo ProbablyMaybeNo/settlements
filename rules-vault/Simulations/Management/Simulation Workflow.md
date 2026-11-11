@@ -15,8 +15,9 @@
 1. Verify current owning rule/item hashes and record a new execution version when needed.
 2. Implement and independently check a mechanic before interpreting balance.
 3. Run the declared experiment, preserve configs/seeds and report uncertainty.
-4. Publish the evidence checkpoint; regenerate the readable checklist and sync these notes.
-5. Preserve Ross’s per-entry annotation blocks and any content outside generated blocks.
+4. State a balance verdict, reason, recommended action, tested scope and next test. Distinguish code conformance from game balance; do not turn missing evidence into a pass.
+5. Publish the evidence checkpoint; regenerate the readable checklist and sync these notes.
+6. Preserve Ross’s per-entry annotation blocks and any content outside generated blocks.
 
 Only these simulation-administration notes are written here. The generator does not edit approved rule/item owners, prices, statuses or semantic dates. The standard vault-to-repository sync mirrors the notes afterward.
 <!-- /settlements-simulation:generated -->

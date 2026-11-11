@@ -13,6 +13,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Conditional weapon probability atlas
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 72,840 exact rows.
@@ -34,6 +46,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### A02 — Raw Stat/Stress threshold atlas
 
 - [x] **Executed** — Raw Stat/Stress threshold atlas
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -57,6 +81,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Single opposed-test atlas
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 441 exact rows.
@@ -78,6 +114,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### A04 — Homogeneous melee pool/defence atlas
 
 - [x] **Executed** — Homogeneous melee pool/defence atlas
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -101,6 +149,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — One-hit-ignore conditional atlas
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 72 exact rows.
@@ -122,6 +182,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### A06 — Individual weapon Monte Carlo results
 
 - [x] **Executed** — Individual weapon Monte Carlo results
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -169,6 +241,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### A07 — Mixed-weapon defender-choice validation
 
 - [x] **Executed** — Mixed-weapon defender-choice validation
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -245,6 +329,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Accurate one miss only
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -266,6 +362,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q02 — Alert retention and once per round
 
 - [x] **Executed** — Alert retention and once per round
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -289,6 +397,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Atlas hand worked rifle
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -310,6 +430,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q04 — Boundaries and independent oracle
 
 - [x] **Executed** — Boundaries and independent oracle
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -333,6 +465,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Break and rally subtract stress
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -354,6 +498,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q06 — Break no same phase rally and beta exception
 
 - [x] **Executed** — Break no same phase rally and beta exception
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -377,6 +533,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Category largest not sum
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -398,6 +566,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q08 — Chem no unlock duplicate or extra wounds
 
 - [x] **Executed** — Chem no unlock duplicate or extra wounds
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -421,6 +601,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Critical cancellation hand case
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -442,6 +634,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q10 — Defender choice values piercing and respects critical groups
 
 - [x] **Executed** — Defender choice values piercing and respects critical groups
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -465,6 +669,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Defender chooses mixed success cancellation
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -486,6 +702,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q12 — Defender surplus has no hits or stress
 
 - [x] **Executed** — Defender surplus has no hits or stress
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -509,6 +737,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Down timer and no surplus execution
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -530,6 +770,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q14 — Dual agile and parry shield stack
 
 - [x] **Executed** — Dual agile and parry shield stack
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -553,6 +805,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Event key streams do not shift other events
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -574,6 +838,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q16 — Every hit stress no universal pin
 
 - [x] **Executed** — Every hit stress no universal pin
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -597,6 +873,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Ground aerial shutdown distinct
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -618,6 +906,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q18 — Gunfu and gunslinger are separate permissions
 
 - [x] **Executed** — Gunfu and gunslinger are separate permissions
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -641,6 +941,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Large pool dp against brute
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -662,6 +974,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q20 — Legal rosters and invalid skill
 
 - [x] **Executed** — Legal rosters and invalid skill
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -685,6 +1009,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Mark expiry is source start not round end
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -706,6 +1042,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q22 — Mixed cancellation blocks unruled baseline
 
 - [x] **Executed** — Mixed cancellation blocks unruled baseline
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -729,6 +1077,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Multi wounds and injury ignores stress
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -750,6 +1110,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q24 — Opposed extremes and no target
 
 - [x] **Executed** — Opposed extremes and no target
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -773,6 +1145,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Orders do not refresh
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -794,6 +1178,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q26 — Piercing is best of not extra wound
 
 - [x] **Executed** — Piercing is best of not extra wound
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -817,6 +1213,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Promotion boundary and skill unlock
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -838,6 +1246,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q28 — Rage implode post attack stress
 
 - [x] **Executed** — Rage implode post attack stress
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -861,6 +1281,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Reload and recovery costs
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -882,6 +1314,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q30 — Remaining wound pins
 
 - [x] **Executed** — Remaining wound pins
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -905,6 +1349,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Return fire is simultaneous independent
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -926,6 +1382,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q32 — Revive once consumption and activation history
 
 - [x] **Executed** — Revive once consumption and activation history
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -949,6 +1417,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Riposte does not chain counterattacks
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -970,6 +1450,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q34 — Shield ignored hit adds no stress
 
 - [x] **Executed** — Shield ignored hit adds no stress
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -993,6 +1485,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Tough as nails does not leave transferred hit stress
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1014,6 +1518,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q36 — Unused starting stat points are lost not illegal
 
 - [x] **Executed** — Unused starting stat points are lost not illegal
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1037,6 +1553,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Base to base range boundary
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1058,6 +1586,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q38 — Body and casualty los
 
 - [x] **Executed** — Body and casualty los
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1081,6 +1621,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Charge stress not distance
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1102,6 +1654,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q40 — Dive success and failure both pin
 
 - [x] **Executed** — Dive success and failure both pin
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1125,6 +1689,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Drone operator deploy and control
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1146,6 +1722,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q42 — Fall ignores armour
 
 - [x] **Executed** — Fall ignores armour
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1169,6 +1757,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Fall over twelve no injury
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1190,6 +1790,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q44 — Forward arc and no free enemy turn pivot
 
 - [x] **Executed** — Forward arc and no free enemy turn pivot
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1213,6 +1825,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Friendly down witness requires facing and base range
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1234,6 +1858,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q46 — Half speed does not compound
 
 - [x] **Executed** — Half speed does not compound
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1257,6 +1893,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Jump and safe drop boundaries
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1278,6 +1926,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q48 — Low cover and shooter hug exception
 
 - [x] **Executed** — Low cover and shooter hug exception
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1301,6 +1961,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Narrow gap blocks base
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1322,6 +1994,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q50 — No corner cutting
 
 - [x] **Executed** — No corner cutting
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1345,6 +2029,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Ordinary move cannot engage
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1366,6 +2062,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q52 — Path detours and clearance
 
 - [x] **Executed** — Path detours and clearance
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1389,6 +2097,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Seeded path reachability all boards
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1410,6 +2130,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q54 — Sprinter retains core
 
 - [x] **Executed** — Sprinter retains core
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1433,6 +2165,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Terminal kit no los and neural uplink
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1454,6 +2198,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q56 — Terminal nat one freeze
 
 - [x] **Executed** — Terminal nat one freeze
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1477,6 +2233,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Terrain open close and repeated xp
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1498,6 +2266,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q58 — Controlled first assignment
 
 - [x] **Executed** — Controlled first assignment
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1521,6 +2301,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Every declared policy runs
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1542,6 +2334,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q60 — Final checkpoint includes secondary vp
 
 - [x] **Executed** — Final checkpoint includes secondary vp
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1565,6 +2369,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Four scenarios all families and sizes
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1586,6 +2402,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q62 — Regression charge uses legal contact destination
 
 - [x] **Executed** — Regression charge uses legal contact destination
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1609,6 +2437,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Regression engaged actor does not shoot outside
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1630,6 +2470,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q64 — Seed replay reproduction
 
 - [x] **Executed** — Seed replay reproduction
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1653,6 +2505,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Area blast height boundary
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1674,6 +2538,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q66 — Area blast partial base and friendlies
 
 - [x] **Executed** — Area blast partial base and friendlies
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1697,6 +2573,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Area consumed on scattered miss
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1718,6 +2606,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q68 — Area corner does not wrap
 
 - [x] **Executed** — Area corner does not wrap
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1741,6 +2641,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Area fire first failure moves and skip survives extinguish
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1762,6 +2674,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q70 — Area fire visible water in any direction
 
 - [x] **Executed** — Area fire visible water in any direction
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1785,6 +2709,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Area fire water preserves unrelated pin
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1806,6 +2742,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q72 — Area flame auto no hit or scatter no extra atk
 
 - [x] **Executed** — Area flame auto no hit or scatter no extra atk
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1829,6 +2777,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Area flame muzzle range and wall
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1850,6 +2810,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q74 — Area flame rounded dimensions and partial witness
 
 - [x] **Executed** — Area flame rounded dimensions and partial witness
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1873,6 +2845,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Area flash enemy radius and stun no injury
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1894,6 +2878,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q76 — Area gas radius friendly effect and respirator
 
 - [x] **Executed** — Area gas radius friendly effect and respirator
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1917,6 +2913,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Area invalid declaration preserves resources
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1938,6 +2946,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q78 — Area molotov fire no injury no persistent zone
 
 - [x] **Executed** — Area molotov fire no injury no persistent zone
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -1961,6 +2981,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Area oblique and device cases fail explicitly
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -1982,6 +3014,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q80 — Area piercing one wound and no stress in injury
 
 - [x] **Executed** — Area piercing one wound and no stress in injury
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2005,6 +3049,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Area profile payloads and printed radii
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -2026,6 +3082,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q82 — Area reload and single use
 
 - [x] **Executed** — Area reload and single use
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2049,6 +3117,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Area smoke outside block inside cover and respirator
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -2070,6 +3150,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q84 — Area smoke vertical extent expiry and consumption
 
 - [x] **Executed** — Area smoke vertical extent expiry and consumption
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2093,6 +3185,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Area solid wall and floor contain blast
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -2114,6 +3218,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q86 — Area stun reapplication costs one activation
 
 - [x] **Executed** — Area stun reapplication costs one activation
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2137,6 +3253,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Area two hands and reaction facing
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed the named assertions.
@@ -2158,6 +3286,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### Q88 — Area unwieldy and cover affect placement
 
 - [x] **Executed** — Area unwieldy and cover affect placement
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2183,6 +3323,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Inspire three targets
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed; {"stress": [2, 2, 2], "core": 0}
@@ -2204,6 +3356,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### L02 — Rally skill three broken
 
 - [x] **Executed** — Rally skill three broken
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2227,6 +3391,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Brace penalty lock and expiry
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed; {"incoming_modifier": -1, "expires": "source next activation start"}
@@ -2248,6 +3424,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### L04 — Coordination extra move and delayed stress
 
 - [x] **Executed** — Coordination extra move and delayed stress
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2271,6 +3459,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Motivate two core attacks
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed; {"attacks": 2, "core_remaining": 0}
@@ -2292,6 +3492,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### L06 — Big aura capacity radius transfer and down
 
 - [x] **Executed** — Big aura capacity radius transfer and down
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2315,6 +3527,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Legal big aura two aura loadout
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed; {"legal_starting_actor": true, "active": 2}
@@ -2336,6 +3560,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### L08 — Doc free dose and cocktail recipient limit
 
 - [x] **Executed** — Doc free dose and cocktail recipient limit
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2359,6 +3595,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Stabilize revival clears stress
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed; {"patient_stress": 0, "pinned": true}
@@ -2380,6 +3628,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### L10 — Ghost phantom nonwound stress
 
 - [x] **Executed** — Ghost phantom nonwound stress
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2403,6 +3663,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Headshot single die mark bonus
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed; {"injury_modifier": 4, "requires_mark_and_no_move": true}
@@ -2424,6 +3696,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### L12 — Big fella removes unwieldy
 
 - [x] **Executed** — Big fella removes unwieldy
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2447,6 +3731,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Goliath full eligible twohanded pool
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed; {"base_atk": 2, "charge_atk": 3}
@@ -2468,6 +3764,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### L14 — Planning ahead uses one active profile
 
 - [x] **Executed** — Planning ahead uses one active profile
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2491,6 +3799,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Inspector slots and identical vest effect
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed; {"three_items_allowed": true, "identical_vests_do_not_stack": true}
@@ -2512,6 +3832,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### L16 — Deploy assignment v2-212
 
 - [x] **Executed** — Deploy assignment v2-212
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2535,6 +3867,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Deploy assignment v2-213
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed; {"profile": "Smoke emitter", "assigned_slot_retained": true, "ability_coverage": "DEPLOYMENT ONLY; full printed effects remain unverified"}
@@ -2556,6 +3900,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### L18 — Deploy assignment v2-215
 
 - [x] **Executed** — Deploy assignment v2-215
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2579,6 +3935,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Deploy assignment v2-544
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed; {"profile": "Surveillance drone", "assigned_slot_retained": true, "ability_coverage": "DEPLOYMENT ONLY; full printed effects remain unverified"}
@@ -2600,6 +3968,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### L20 — Deploy assignment v2-545
 
 - [x] **Executed** — Deploy assignment v2-545
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2623,6 +4003,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Deploy assignment v2-546
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed; {"profile": "Gunner drone", "assigned_slot_retained": true, "ability_coverage": "DEPLOYMENT ONLY; full printed effects remain unverified"}
@@ -2644,6 +4036,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### L22 — Deploy assignment v2-547
 
 - [x] **Executed** — Deploy assignment v2-547
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2667,6 +4071,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Deploy assignment v2-548
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed; {"profile": "Breacher drone", "assigned_slot_retained": true, "ability_coverage": "DEPLOYMENT ONLY; full printed effects remain unverified"}
@@ -2688,6 +4104,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### L24 — Deploy assignment v2-549
 
 - [x] **Executed** — Deploy assignment v2-549
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2711,6 +4139,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Deploy assignment v2-550
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed; {"profile": "Cloaking field", "assigned_slot_retained": true, "ability_coverage": "DEPLOYMENT ONLY; full printed effects remain unverified"}
@@ -2732,6 +4172,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### L26 — Deploy assignment v2-551
 
 - [x] **Executed** — Deploy assignment v2-551
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2755,6 +4207,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Fire failed check escalation
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Passed; {"failed_checks": 3, "states": "Pinned+skip, Down, Unconscious", "limitation": "First failed-check ground move covered here; initial/water movement has separate v4 area fixtures; ledges/falls remain incomplete"}
@@ -2776,6 +4240,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### L28 — Poison application round and natural move threshold
 
 - [x] **Executed** — Poison application round and natural move threshold
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2801,6 +4277,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rage implode; Stress 0; Armour 0; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.80%, treatment 0.80%; difference +0.00 pp (95% -17.18 pp to +17.18 pp).
@@ -2822,6 +4310,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS02 — Rage implode; Stress 0; Armour 0; Charge bonus 1
 
 - [x] **Executed** — Rage implode; Stress 0; Armour 0; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2845,6 +4345,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rage implode; Stress 0; Standard armour; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.00%, treatment 0.40%; difference +0.40 pp (95% -16.78 pp to +17.58 pp).
@@ -2866,6 +4378,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS04 — Rage implode; Stress 0; Standard armour; Charge bonus 1
 
 - [x] **Executed** — Rage implode; Stress 0; Standard armour; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2889,6 +4413,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rage implode; Stress 0; Reinforced armour; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.00%, treatment 0.00%; difference +0.00 pp (95% -17.18 pp to +17.18 pp).
@@ -2910,6 +4446,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS06 — Rage implode; Stress 0; Reinforced armour; Charge bonus 1
 
 - [x] **Executed** — Rage implode; Stress 0; Reinforced armour; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2933,6 +4481,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rage implode; Stress 2; Armour 0; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.40%, treatment 0.40%; difference +0.00 pp (95% -17.18 pp to +17.18 pp).
@@ -2954,6 +4514,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS08 — Rage implode; Stress 2; Armour 0; Charge bonus 1
 
 - [x] **Executed** — Rage implode; Stress 2; Armour 0; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -2977,6 +4549,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rage implode; Stress 2; Standard armour; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.00%, treatment 0.40%; difference +0.40 pp (95% -16.78 pp to +17.58 pp).
@@ -2998,6 +4582,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS10 — Rage implode; Stress 2; Standard armour; Charge bonus 1
 
 - [x] **Executed** — Rage implode; Stress 2; Standard armour; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3021,6 +4617,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rage implode; Stress 2; Reinforced armour; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.00%, treatment 0.00%; difference +0.00 pp (95% -17.18 pp to +17.18 pp).
@@ -3042,6 +4650,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS12 — Rage implode; Stress 2; Reinforced armour; Charge bonus 1
 
 - [x] **Executed** — Rage implode; Stress 2; Reinforced armour; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3065,6 +4685,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rage implode; Stress 4; Armour 0; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.00%, treatment 0.00%; difference +0.00 pp (95% -17.18 pp to +17.18 pp).
@@ -3086,6 +4718,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS14 — Rage implode; Stress 4; Armour 0; Charge bonus 1
 
 - [x] **Executed** — Rage implode; Stress 4; Armour 0; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3109,6 +4753,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rage implode; Stress 4; Standard armour; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.00%, treatment 0.00%; difference +0.00 pp (95% -17.18 pp to +17.18 pp).
@@ -3130,6 +4786,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS16 — Rage implode; Stress 4; Standard armour; Charge bonus 1
 
 - [x] **Executed** — Rage implode; Stress 4; Standard armour; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3153,6 +4821,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rage implode; Stress 4; Reinforced armour; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.40%, treatment 0.40%; difference +0.00 pp (95% -17.18 pp to +17.18 pp).
@@ -3174,6 +4854,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS18 — Rage implode; Stress 4; Reinforced armour; Charge bonus 1
 
 - [x] **Executed** — Rage implode; Stress 4; Reinforced armour; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3197,6 +4889,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 0; Armour 0; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.00%, treatment 2.40%; difference +2.40 pp (95% -14.78 pp to +19.58 pp).
@@ -3218,6 +4922,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS20 — Dual swords vs sword shield; Stress 0; Armour 0; Charge bonus 1
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 0; Armour 0; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3241,6 +4957,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 0; Standard armour; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.00%, treatment 1.60%; difference +1.60 pp (95% -15.58 pp to +18.78 pp).
@@ -3262,6 +4990,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS22 — Dual swords vs sword shield; Stress 0; Standard armour; Charge bonus 1
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 0; Standard armour; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3285,6 +5025,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 0; Reinforced armour; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.00%, treatment 0.40%; difference +0.40 pp (95% -16.78 pp to +17.58 pp).
@@ -3306,6 +5058,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS24 — Dual swords vs sword shield; Stress 0; Reinforced armour; Charge bonus 1
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 0; Reinforced armour; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3329,6 +5093,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 2; Armour 0; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.80%, treatment 4.80%; difference +4.00 pp (95% -13.18 pp to +21.18 pp).
@@ -3350,6 +5126,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS26 — Dual swords vs sword shield; Stress 2; Armour 0; Charge bonus 1
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 2; Armour 0; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3373,6 +5161,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 2; Standard armour; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.00%, treatment 0.80%; difference +0.80 pp (95% -16.38 pp to +17.98 pp).
@@ -3394,6 +5194,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS28 — Dual swords vs sword shield; Stress 2; Standard armour; Charge bonus 1
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 2; Standard armour; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3417,6 +5229,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 2; Reinforced armour; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.00%, treatment 0.40%; difference +0.40 pp (95% -16.78 pp to +17.58 pp).
@@ -3438,6 +5262,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS30 — Dual swords vs sword shield; Stress 2; Reinforced armour; Charge bonus 1
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 2; Reinforced armour; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3461,6 +5297,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 4; Armour 0; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.40%, treatment 3.20%; difference +2.80 pp (95% -14.38 pp to +19.98 pp).
@@ -3482,6 +5330,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS32 — Dual swords vs sword shield; Stress 4; Armour 0; Charge bonus 1
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 4; Armour 0; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3505,6 +5365,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 4; Standard armour; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.00%, treatment 0.40%; difference +0.40 pp (95% -16.78 pp to +17.58 pp).
@@ -3526,6 +5398,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS34 — Dual swords vs sword shield; Stress 4; Standard armour; Charge bonus 1
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 4; Standard armour; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3549,6 +5433,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 4; Reinforced armour; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 250 independent seed pairs. Target Down: control 0.00%, treatment 0.00%; difference +0.00 pp (95% -17.18 pp to +17.18 pp).
@@ -3570,6 +5466,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS36 — Dual swords vs sword shield; Stress 4; Reinforced armour; Charge bonus 1
 
 - [x] **Executed** — Dual swords vs sword shield; Stress 4; Reinforced armour; Charge bonus 1
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3593,6 +5501,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rage implode; Stress 4; Standard armour; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Fresh-seed checks increased mean Injury successes by 0.041–0.050 per exchange, but increased retained attacker Stress by 1.167 and attacker Down frequency by 3.8 percentage points in the sampled Riposte contexts. This does not demonstrate an unavoidable dominant combo or a need to nerf an intended interaction.
+
+**Recommended action:** Keep the intended combination. Test sustained multi-round benefit and risk against realistic counters before recommending a change.
+
+**Verdict scope:** Two 1,000-pair conditional initiating-exchange confirmations at initial Stress 4, Standard/Reinforced armour; target may Riposte. No movement or full crew integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1000 independent seed pairs. Target Down: control 0.20%, treatment 0.20%; difference +0.00 pp (95% -8.59 pp to +8.59 pp).
@@ -3615,6 +5535,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rage implode; Stress 4; Reinforced armour; Charge bonus 0
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1000 independent seed pairs. Target Down: control 0.00%, treatment 0.20%; difference +0.20 pp (95% -8.39 pp to +8.79 pp).
@@ -3636,6 +5568,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### TS37 — High-risk stat/skill feasibility search
 
 - [x] **Executed** — High-risk stat/skill feasibility search
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3660,6 +5604,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### BS01 — mirror-chokepoints — matched mirror
 
 - [x] **Executed** — mirror-chokepoints — matched mirror
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3691,6 +5647,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — mirror-contested_machinery — matched mirror
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 46.50%, conservative 95% 32.92%–60.08%. Wins/draws/losses: 177/18/205.
@@ -3721,6 +5689,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — mirror-dense_urban — matched mirror
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 50.12%, conservative 95% 36.54%–63.71%. Wins/draws/losses: 177/47/176.
@@ -3749,6 +5729,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### BS04 — mirror-industrial_vertical — matched mirror
 
 - [x] **Executed** — mirror-industrial_vertical — matched mirror
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3781,6 +5773,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — mirror-interior_compound — matched mirror
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 51.12%, conservative 95% 37.54%–64.71%. Wins/draws/losses: 172/65/163.
@@ -3811,6 +5815,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — mirror-long_lanes — matched mirror
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 46.38%, conservative 95% 32.79%–59.96%. Wins/draws/losses: 167/37/196.
@@ -3839,6 +5855,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### BS07 — screen-chokepoints-0 — Assault rifle
 
 - [x] **Executed** — screen-chokepoints-0 — Assault rifle
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3869,6 +5897,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### BS08 — screen-chokepoints-1 — Sniper rifle
 
 - [x] **Executed** — screen-chokepoints-1 — Sniper rifle
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3901,6 +5941,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — screen-chokepoints-2 — Reinforced armour
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 17.00%, conservative 95% 3.42%–30.58%. Wins/draws/losses: 38/60/302.
@@ -3928,6 +5980,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### BS10 — screen-chokepoints-3 — Pin Them Down replacement
 
 - [x] **Executed** — screen-chokepoints-3 — Pin Them Down replacement
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -3959,6 +6023,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — screen-contested_machinery-0 — Assault rifle
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 49.00%, conservative 95% 35.42%–62.58%. Wins/draws/losses: 186/20/194.
@@ -3988,6 +6064,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### BS12 — screen-contested_machinery-1 — Sniper rifle
 
 - [x] **Executed** — screen-contested_machinery-1 — Sniper rifle
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4019,6 +6107,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — screen-contested_machinery-2 — Reinforced armour
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 47.00%, conservative 95% 33.42%–60.58%. Wins/draws/losses: 154/68/178.
@@ -4049,6 +6149,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — screen-contested_machinery-3 — Pin Them Down replacement
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 55.12%, conservative 95% 41.54%–68.71%. Wins/draws/losses: 205/31/164.
@@ -4076,6 +6188,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### BS15 — screen-dense_urban-0 — Assault rifle
 
 - [x] **Executed** — screen-dense_urban-0 — Assault rifle
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4107,6 +6231,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — screen-dense_urban-1 — Sniper rifle
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 58.50%, conservative 95% 44.92%–72.08%. Wins/draws/losses: 170/128/102.
@@ -4136,6 +6272,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### BS17 — screen-dense_urban-2 — Reinforced armour
 
 - [x] **Executed** — screen-dense_urban-2 — Reinforced armour
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4168,6 +6316,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — screen-dense_urban-3 — Pin Them Down replacement
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 52.88%, conservative 95% 39.29%–66.46%. Wins/draws/losses: 199/25/176.
@@ -4196,6 +6356,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### BS19 — screen-industrial_vertical-0 — Assault rifle
 
 - [x] **Executed** — screen-industrial_vertical-0 — Assault rifle
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4226,6 +6398,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### BS20 — screen-industrial_vertical-1 — Sniper rifle
 
 - [x] **Executed** — screen-industrial_vertical-1 — Sniper rifle
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4258,6 +6442,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — screen-industrial_vertical-2 — Reinforced armour
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 14.25%, conservative 95% 0.67%–27.83%. Wins/draws/losses: 32/50/318.
@@ -4288,6 +6484,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — screen-industrial_vertical-3 — Pin Them Down replacement
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 52.00%, conservative 95% 38.42%–65.58%. Wins/draws/losses: 174/68/158.
@@ -4316,6 +6524,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### BS23 — screen-interior_compound-0 — Assault rifle
 
 - [x] **Executed** — screen-interior_compound-0 — Assault rifle
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4348,6 +6568,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — screen-interior_compound-1 — Sniper rifle
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 52.38%, conservative 95% 38.79%–65.96%. Wins/draws/losses: 101/217/82.
@@ -4377,6 +6609,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### BS25 — screen-interior_compound-2 — Reinforced armour
 
 - [x] **Executed** — screen-interior_compound-2 — Reinforced armour
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4408,6 +6652,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — screen-interior_compound-3 — Pin Them Down replacement
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 44.38%, conservative 95% 30.79%–57.96%. Wins/draws/losses: 161/33/206.
@@ -4437,6 +6693,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### BS27 — screen-long_lanes-0 — Assault rifle
 
 - [x] **Executed** — screen-long_lanes-0 — Assault rifle
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4468,6 +6736,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — screen-long_lanes-1 — Sniper rifle
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 57.12%, conservative 95% 43.54%–70.71%. Wins/draws/losses: 179/99/122.
@@ -4497,6 +6777,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### BS29 — screen-long_lanes-2 — Reinforced armour
 
 - [x] **Executed** — screen-long_lanes-2 — Reinforced armour
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4528,6 +6820,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — screen-long_lanes-3 — Pin Them Down replacement
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 52.88%, conservative 95% 39.29%–66.46%. Wins/draws/losses: 172/79/149.
@@ -4558,6 +6862,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — capacity-confirm-dense_urban-0 — Assault rifle
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 57.25%, conservative 95% 43.67%–70.83%. Wins/draws/losses: 220/18/162.
@@ -4586,6 +6902,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### HC02 — capacity-confirm-dense_urban-1 — Reinforced armour
 
 - [x] **Executed** — capacity-confirm-dense_urban-1 — Reinforced armour
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4616,6 +6944,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — capacity-confirm-interior_compound-0 — Assault rifle
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 51.38%, conservative 95% 37.79%–64.96%. Wins/draws/losses: 191/29/180.
@@ -4645,6 +6985,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### HC04 — capacity-confirm-interior_compound-1 — Reinforced armour
 
 - [x] **Executed** — capacity-confirm-interior_compound-1 — Reinforced armour
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4677,6 +7029,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — capacity-confirm-chokepoints-0 — Assault rifle
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 400 games / 100 independent four-game seed blocks. Focal match score 57.50%, conservative 95% 43.92%–71.08%. Wins/draws/losses: 220/20/160.
@@ -4705,6 +7069,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### HC06 — capacity-confirm-chokepoints-1 — Reinforced armour
 
 - [x] **Executed** — capacity-confirm-chokepoints-1 — Reinforced armour
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The initial subset screen showed severe losses in some mobility-sensitive fixtures (14.25% and 17% match score). Improved held-out control-policy scores were 36.875%, 45.375% and 48.25%, with wide intervals. The extreme initial losses were not broadly confirmed; a universal armour buff is not supported.
+
+**Recommended action:** Keep Armour 6 / −2 MOVE pending role-specific tests. Investigate whether escort/holding tasks repay the movement cost; do not use obsolete prices to declare it bad value.
+
+**Verdict scope:** Reinforced-for-Light substitution on one controlled leader, v2 ground objective fixtures and limited held-out policy confirmation. These are not equal-Credit rosters.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4735,6 +7111,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Post-decision frozen-v2/current-v3 regression
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 96 comparisons (192 engine executions) produced identical outcome records.
@@ -4759,6 +7147,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Engaged actor attempted an outside shot
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Corrected. Seed 2026145101.
@@ -4780,6 +7180,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### X02 — Blocked forced-flight destination
 
 - [x] **Executed** — Blocked forced-flight destination
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4803,6 +7215,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — No legal Charge contact route
 
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** Corrected. Seed 2026113106.
@@ -4824,6 +7248,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### X04 — Slow first occupancy-aware confirmation
 
 - [x] **Executed** — Slow first occupancy-aware confirmation
+
+#### Balance judgment
+
+**Balance verdict: NOT A BALANCE TEST.**
+
+**Why:** This entry checks implementation, math, provenance or test preparation. Passing it does not establish that a game mechanic is balanced.
+
+**Recommended action:** Use the mechanic’s balance verdict and comparative tests before proposing a rule adjustment.
+
+**Verdict scope:** The named check only.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4849,6 +7285,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Frag grenade; single; Armour 0; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.6826 (oracle 0.6870); mean Wounds 0.3023; any Wound 30.23%; mean friendly affected 0.0197.
@@ -4870,6 +7318,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR01 — Frag grenade; cluster; Armour 0; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Frag grenade; cluster; Armour 0; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4893,6 +7353,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Frag grenade; spread; Armour 0; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.8070 (oracle 0.8117); mean Wounds 0.3685; any Wound 35.79%; mean friendly affected 0.0193.
@@ -4914,6 +7386,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR03 — Frag grenade; single; Armour 2; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Frag grenade; single; Armour 2; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4937,6 +7421,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Frag grenade; cluster; Armour 2; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 1.9065 (oracle 1.9026); mean Wounds 0.6651; any Wound 47.72%; mean friendly affected 0.0213.
@@ -4958,6 +7454,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR05 — Frag grenade; spread; Armour 2; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Frag grenade; spread; Armour 2; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -4981,6 +7489,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Frag grenade; single; Armour 4; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.6744 (oracle 0.6870); mean Wounds 0.1722; any Wound 17.22%; mean friendly affected 0.0204.
@@ -5002,6 +7522,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR07 — Frag grenade; cluster; Armour 4; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Frag grenade; cluster; Armour 4; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5025,6 +7557,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Frag grenade; spread; Armour 4; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.8145 (oracle 0.8117); mean Wounds 0.2129; any Wound 20.85%; mean friendly affected 0.0218.
@@ -5046,6 +7590,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR09 — Frag grenade; single; Armour 6; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Frag grenade; single; Armour 6; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5069,6 +7625,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Frag grenade; cluster; Armour 6; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 1.9435 (oracle 1.9026); mean Wounds 0.2987; any Wound 26.24%; mean friendly affected 0.0190.
@@ -5090,6 +7658,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR11 — Frag grenade; spread; Armour 6; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Frag grenade; spread; Armour 6; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5113,6 +7693,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Grenade launcher; single; Armour 0; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.6867 (oracle 0.6870); mean Wounds 0.3812; any Wound 38.12%; mean friendly affected 0.0208.
@@ -5134,6 +7726,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR13 — Grenade launcher; cluster; Armour 0; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Grenade launcher; cluster; Armour 0; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5157,6 +7761,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Grenade launcher; spread; Armour 0; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.8146 (oracle 0.8117); mean Wounds 0.4454; any Wound 43.03%; mean friendly affected 0.0240.
@@ -5178,6 +7794,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR15 — Grenade launcher; single; Armour 2; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Grenade launcher; single; Armour 2; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5201,6 +7829,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Grenade launcher; cluster; Armour 2; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 1.9109 (oracle 1.9026); mean Wounds 0.8447; any Wound 55.62%; mean friendly affected 0.0172.
@@ -5222,6 +7862,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR17 — Grenade launcher; spread; Armour 2; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Grenade launcher; spread; Armour 2; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5245,6 +7897,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Grenade launcher; single; Armour 4; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.6801 (oracle 0.6870); mean Wounds 0.2406; any Wound 24.06%; mean friendly affected 0.0166.
@@ -5266,6 +7930,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR19 — Grenade launcher; cluster; Armour 4; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Grenade launcher; cluster; Armour 4; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5289,6 +7965,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Grenade launcher; spread; Armour 4; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.8080 (oracle 0.8117); mean Wounds 0.2854; any Wound 27.83%; mean friendly affected 0.0192.
@@ -5310,6 +7998,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR21 — Grenade launcher; single; Armour 6; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Grenade launcher; single; Armour 6; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5333,6 +8033,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Grenade launcher; cluster; Armour 6; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 1.9036 (oracle 1.9026); mean Wounds 0.4791; any Wound 38.12%; mean friendly affected 0.0196.
@@ -5354,6 +8066,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR23 — Grenade launcher; spread; Armour 6; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Grenade launcher; spread; Armour 6; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5377,6 +8101,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rocket launcher; single; Armour 0; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.6829 (oracle 0.6870); mean Wounds 0.5995; any Wound 59.95%; mean friendly affected 0.0211.
@@ -5398,6 +8134,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR25 — Rocket launcher; cluster; Armour 0; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Rocket launcher; cluster; Armour 0; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5421,6 +8169,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rocket launcher; spread; Armour 0; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.8149 (oracle 0.8117); mean Wounds 0.7142; any Wound 67.24%; mean friendly affected 0.0230.
@@ -5442,6 +8202,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR27 — Rocket launcher; single; Armour 2; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Rocket launcher; single; Armour 2; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5465,6 +8237,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rocket launcher; cluster; Armour 2; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 1.9186 (oracle 1.9026); mean Wounds 1.5264; any Wound 70.08%; mean friendly affected 0.0221.
@@ -5486,6 +8270,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR29 — Rocket launcher; spread; Armour 2; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Rocket launcher; spread; Armour 2; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5509,6 +8305,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rocket launcher; single; Armour 4; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.6780 (oracle 0.6870); mean Wounds 0.4798; any Wound 47.98%; mean friendly affected 0.0175.
@@ -5530,6 +8338,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR31 — Rocket launcher; cluster; Armour 4; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Rocket launcher; cluster; Armour 4; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5553,6 +8373,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rocket launcher; spread; Armour 4; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.8182 (oracle 0.8117); mean Wounds 0.5741; any Wound 54.76%; mean friendly affected 0.0205.
@@ -5574,6 +8406,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR33 — Rocket launcher; single; Armour 6; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Rocket launcher; single; Armour 6; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5597,6 +8441,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Rocket launcher; cluster; Armour 6; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 1.8882 (oracle 1.9026); mean Wounds 1.0947; any Wound 62.71%; mean friendly affected 0.0185.
@@ -5618,6 +8474,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR35 — Rocket launcher; spread; Armour 6; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Rocket launcher; spread; Armour 6; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5641,6 +8509,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Grenade launcher; single; Armour 4; DEX 0; Stress 3; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.5365 (oracle 0.5304); mean Wounds 0.1943; any Wound 19.43%; mean friendly affected 0.0314.
@@ -5662,6 +8542,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR37 — Grenade launcher; cluster; Armour 4; DEX 0; Stress 3; moved False
 
 - [x] **Executed** — Grenade launcher; cluster; Armour 4; DEX 0; Stress 3; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5685,6 +8577,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Grenade launcher; single; Armour 4; DEX 0; Stress 3; moved True
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.4728 (oracle 0.4678); mean Wounds 0.1701; any Wound 17.01%; mean friendly affected 0.0360.
@@ -5706,6 +8610,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR39 — Grenade launcher; cluster; Armour 4; DEX 0; Stress 3; moved True
 
 - [x] **Executed** — Grenade launcher; cluster; Armour 4; DEX 0; Stress 3; moved True
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Scatter, partial footprints, clustering and friendly/self exposure are measured and agree with independent math. That establishes delivery behavior, not whether the complete range/hand/slot/action package is too strong or weak.
+
+**Recommended action:** Keep the current rules; no adjustment is justified yet. Complete tactical value comparisons before calling these balanced.
+
+**Verdict scope:** One fixed-aim attack against fresh targets; Armour 0/2/4/6 and source-specific Injury. Reload/Single-use have focused consumption checks, not complete multi-round value evidence.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5729,6 +8645,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Flashbang; single; Armour 0; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.7527 (oracle 0.7500); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.0000.
@@ -5750,6 +8678,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR41 — Flashbang; spread; Armour 0; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Flashbang; spread; Armour 0; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5773,6 +8713,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Flashbang; mixed; Armour 0; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 1.4991 (oracle 1.4931); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.0000.
@@ -5794,6 +8746,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR43 — Tear-gas grenade; single; Armour 0; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Tear-gas grenade; single; Armour 0; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The printed 5-inch radius gives broad Pinning coverage, including friendly exposure. Respirator blocks the effect in fixtures. Objective denial, recovery costs and whether this radius is oppressive remain unmeasured.
+
+**Recommended action:** Keep the current rule. Measure recovery/action denial and Respirator/spacing counterplay before a radius or effect adjustment.
+
+**Verdict scope:** Three open one-action layouts and gas-protection fixtures; no Injury or invented hit Stress is applied.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5817,6 +8781,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Tear-gas grenade; spread; Armour 0; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The printed 5-inch radius gives broad Pinning coverage, including friendly exposure. Respirator blocks the effect in fixtures. Objective denial, recovery costs and whether this radius is oppressive remain unmeasured.
+
+**Recommended action:** Keep the current rule. Measure recovery/action denial and Respirator/spacing counterplay before a radius or effect adjustment.
+
+**Verdict scope:** Three open one-action layouts and gas-protection fixtures; no Injury or invented hit Stress is applied.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 2.7828 (oracle 2.7834); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.1771.
@@ -5838,6 +8814,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR45 — Tear-gas grenade; mixed; Armour 0; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Tear-gas grenade; mixed; Armour 0; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The printed 5-inch radius gives broad Pinning coverage, including friendly exposure. Respirator blocks the effect in fixtures. Objective denial, recovery costs and whether this radius is oppressive remain unmeasured.
+
+**Recommended action:** Keep the current rule. Measure recovery/action denial and Respirator/spacing counterplay before a radius or effect adjustment.
+
+**Verdict scope:** Three open one-action layouts and gas-protection fixtures; no Injury or invented hit Stress is applied.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5861,6 +8849,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Molotov cocktail; single; Armour 0; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Initial displacement, water extinguishing and escalating condition states have tests. A multi-round balance judgment would be unreliable while ledges/falls, collisions, cure access and crew opportunity costs remain incomplete.
+
+**Recommended action:** Do not sign off or rebalance the condition yet. Finish spatial consequences and then compare mission impact, rather than judging it by zero Injury.
+
+**Verdict scope:** Open placement/affected sets, central-ground fire movement and condition timing; no complete dynamic fire/casualty integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 0.6913 (oracle 0.6870); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.0225.
@@ -5882,6 +8882,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR47 — Molotov cocktail; spread; Armour 0; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Molotov cocktail; spread; Armour 0; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Initial displacement, water extinguishing and escalating condition states have tests. A multi-round balance judgment would be unreliable while ledges/falls, collisions, cure access and crew opportunity costs remain incomplete.
+
+**Recommended action:** Do not sign off or rebalance the condition yet. Finish spatial consequences and then compare mission impact, rather than judging it by zero Injury.
+
+**Verdict scope:** Open placement/affected sets, central-ground fire movement and condition timing; no complete dynamic fire/casualty integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5905,6 +8917,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Molotov cocktail; mixed; Armour 0; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** Initial displacement, water extinguishing and escalating condition states have tests. A multi-round balance judgment would be unreliable while ledges/falls, collisions, cure access and crew opportunity costs remain incomplete.
+
+**Recommended action:** Do not sign off or rebalance the condition yet. Finish spatial consequences and then compare mission impact, rather than judging it by zero Injury.
+
+**Verdict scope:** Open placement/affected sets, central-ground fire movement and condition timing; no complete dynamic fire/casualty integration.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 1.8882 (oracle 1.9026); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.6224.
@@ -5926,6 +8950,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR49 — Smoke grenade; single; Armour 0; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Smoke grenade; single; Armour 0; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: PROVISIONAL PASS.**
+
+**Why:** It provides a useful, costly crossing tool and has a demonstrated direct counter. In the fixed open lane, survival rose from 56.6% to 89.6%; the watcher’s Respirator removed that benefit. A wall already blocking the shot also removed its marginal benefit.
+
+**Recommended action:** Keep the current rule for the next tests. No balance-driven smoke or Respirator adjustment is indicated in the tested lane task.
+
+**Verdict scope:** 4,000 paired one-round lane tasks: open/blocked line crossed with watcher Respirator absent/present. One Core and consumable, current-End-Phase expiry. This is a local utility/counterplay pass, not whole-game approval.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5949,6 +8985,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Smoke grenade; spread; Armour 0; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: PROVISIONAL PASS.**
+
+**Why:** It provides a useful, costly crossing tool and has a demonstrated direct counter. In the fixed open lane, survival rose from 56.6% to 89.6%; the watcher’s Respirator removed that benefit. A wall already blocking the shot also removed its marginal benefit.
+
+**Recommended action:** Keep the current rule for the next tests. No balance-driven smoke or Respirator adjustment is indicated in the tested lane task.
+
+**Verdict scope:** 4,000 paired one-round lane tasks: open/blocked line crossed with watcher Respirator absent/present. One Core and consumable, current-End-Phase expiry. This is a local utility/counterplay pass, not whole-game approval.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 2.0398 (oracle 2.0351); mean Wounds 0.0000; any Wound 0.00%; mean friendly affected 0.0000.
@@ -5970,6 +9018,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR51 — Smoke grenade; mixed; Armour 0; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Smoke grenade; mixed; Armour 0; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: PROVISIONAL PASS.**
+
+**Why:** It provides a useful, costly crossing tool and has a demonstrated direct counter. In the fixed open lane, survival rose from 56.6% to 89.6%; the watcher’s Respirator removed that benefit. A wall already blocking the shot also removed its marginal benefit.
+
+**Recommended action:** Keep the current rule for the next tests. No balance-driven smoke or Respirator adjustment is indicated in the tested lane task.
+
+**Verdict scope:** 4,000 paired one-round lane tasks: open/blocked line crossed with watcher Respirator absent/present. One Core and consumable, current-End-Phase expiry. This is a local utility/counterplay pass, not whole-game approval.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -5993,6 +9053,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Flamethrower; cluster; Armour 0; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Automatic multi-target damage has a strong clustering payoff. Armour-0 any-Wound frequency was 49.99% against the spaced fixture and 87.81% against the three-target cluster. Spreading and solid walls reduce its reach; approach risk and complete crew counterplay have not been measured.
+
+**Recommended action:** Keep the baseline. Do not nerf Damage or automatic hits from this one-action result. Prioritize legal approach/counterbuild tests.
+
+**Verdict scope:** Eight horizontal flame contexts, Armour 0/2/4/6, cluster/spread; rounded 8 × 1–3 inch authored outline. Oblique placement, device damage and full battle policy are not validated.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 3.0000 (oracle 3.0000); mean Wounds 1.5032; any Wound 87.81%; mean friendly affected 0.0000.
@@ -6014,6 +9086,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR53 — Flamethrower; spread; Armour 0; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Flamethrower; spread; Armour 0; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Automatic multi-target damage has a strong clustering payoff. Armour-0 any-Wound frequency was 49.99% against the spaced fixture and 87.81% against the three-target cluster. Spreading and solid walls reduce its reach; approach risk and complete crew counterplay have not been measured.
+
+**Recommended action:** Keep the baseline. Do not nerf Damage or automatic hits from this one-action result. Prioritize legal approach/counterbuild tests.
+
+**Verdict scope:** Eight horizontal flame contexts, Armour 0/2/4/6, cluster/spread; rounded 8 × 1–3 inch authored outline. Oblique placement, device damage and full battle policy are not validated.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -6037,6 +9121,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Flamethrower; cluster; Armour 2; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Automatic multi-target damage has a strong clustering payoff. Armour-0 any-Wound frequency was 49.99% against the spaced fixture and 87.81% against the three-target cluster. Spreading and solid walls reduce its reach; approach risk and complete crew counterplay have not been measured.
+
+**Recommended action:** Keep the baseline. Do not nerf Damage or automatic hits from this one-action result. Prioritize legal approach/counterbuild tests.
+
+**Verdict scope:** Eight horizontal flame contexts, Armour 0/2/4/6, cluster/spread; rounded 8 × 1–3 inch authored outline. Oblique placement, device damage and full battle policy are not validated.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 3.0000 (oracle 3.0000); mean Wounds 1.2092; any Wound 79.10%; mean friendly affected 0.0000.
@@ -6058,6 +9154,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR55 — Flamethrower; spread; Armour 2; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Flamethrower; spread; Armour 2; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Automatic multi-target damage has a strong clustering payoff. Armour-0 any-Wound frequency was 49.99% against the spaced fixture and 87.81% against the three-target cluster. Spreading and solid walls reduce its reach; approach risk and complete crew counterplay have not been measured.
+
+**Recommended action:** Keep the baseline. Do not nerf Damage or automatic hits from this one-action result. Prioritize legal approach/counterbuild tests.
+
+**Verdict scope:** Eight horizontal flame contexts, Armour 0/2/4/6, cluster/spread; rounded 8 × 1–3 inch authored outline. Oblique placement, device damage and full battle policy are not validated.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -6081,6 +9189,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Flamethrower; cluster; Armour 4; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Automatic multi-target damage has a strong clustering payoff. Armour-0 any-Wound frequency was 49.99% against the spaced fixture and 87.81% against the three-target cluster. Spreading and solid walls reduce its reach; approach risk and complete crew counterplay have not been measured.
+
+**Recommended action:** Keep the baseline. Do not nerf Damage or automatic hits from this one-action result. Prioritize legal approach/counterbuild tests.
+
+**Verdict scope:** Eight horizontal flame contexts, Armour 0/2/4/6, cluster/spread; rounded 8 × 1–3 inch authored outline. Oblique placement, device damage and full battle policy are not validated.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 3.0000 (oracle 3.0000); mean Wounds 0.8982; any Wound 65.80%; mean friendly affected 0.0000.
@@ -6102,6 +9222,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR57 — Flamethrower; spread; Armour 4; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Flamethrower; spread; Armour 4; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Automatic multi-target damage has a strong clustering payoff. Armour-0 any-Wound frequency was 49.99% against the spaced fixture and 87.81% against the three-target cluster. Spreading and solid walls reduce its reach; approach risk and complete crew counterplay have not been measured.
+
+**Recommended action:** Keep the baseline. Do not nerf Damage or automatic hits from this one-action result. Prioritize legal approach/counterbuild tests.
+
+**Verdict scope:** Eight horizontal flame contexts, Armour 0/2/4/6, cluster/spread; rounded 8 × 1–3 inch authored outline. Oblique placement, device damage and full battle policy are not validated.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -6125,6 +9257,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — Flamethrower; cluster; Armour 6; DEX 2; Stress 0; moved False
 
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Automatic multi-target damage has a strong clustering payoff. Armour-0 any-Wound frequency was 49.99% against the spaced fixture and 87.81% against the three-target cluster. Spreading and solid walls reduce its reach; approach risk and complete crew counterplay have not been measured.
+
+**Recommended action:** Keep the baseline. Do not nerf Damage or automatic hits from this one-action result. Prioritize legal approach/counterbuild tests.
+
+**Verdict scope:** Eight horizontal flame contexts, Armour 0/2/4/6, cluster/spread; rounded 8 × 1–3 inch authored outline. Oblique placement, device damage and full battle policy are not validated.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 10,000 seeds. Mean affected 3.0000 (oracle 3.0000); mean Wounds 0.5979; any Wound 48.57%; mean friendly affected 0.0000.
@@ -6146,6 +9290,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### AR59 — Flamethrower; spread; Armour 6; DEX 2; Stress 0; moved False
 
 - [x] **Executed** — Flamethrower; spread; Armour 6; DEX 2; Stress 0; moved False
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** Automatic multi-target damage has a strong clustering payoff. Armour-0 any-Wound frequency was 49.99% against the spaced fixture and 87.81% against the three-target cluster. Spreading and solid walls reduce its reach; approach risk and complete crew counterplay have not been measured.
+
+**Recommended action:** Keep the baseline. Do not nerf Damage or automatic hits from this one-action result. Prioritize legal approach/counterbuild tests.
+
+**Verdict scope:** Eight horizontal flame contexts, Armour 0/2/4/6, cluster/spread; rounded 8 × 1–3 inch authored outline. Oblique placement, device damage and full battle policy are not validated.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -6169,6 +9325,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — lane-wall0-respirator0
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1000 paired seeds. Surviving watched-lane snapshot: control 56.60%, smoke 89.60%; paired delta +33.00 pp, simultaneous 95% +22.26 pp to +43.74 pp.
@@ -6190,6 +9358,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 ### SL02 — lane-wall0-respirator1
 
 - [x] **Executed** — lane-wall0-respirator1
+
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
 
 #### Results
 
@@ -6213,6 +9393,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — lane-wall1-respirator0
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1000 paired seeds. Surviving watched-lane snapshot: control 100.00%, smoke 100.00%; paired delta +0.00 pp, simultaneous 95% -10.74 pp to +10.74 pp.
@@ -6235,6 +9427,18 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 
 - [x] **Executed** — lane-wall1-respirator1
 
+#### Balance judgment
+
+**Balance verdict: INSUFFICIENT EVIDENCE.**
+
+**Why:** This entry does not yet establish the comparative intended-use, constraint and counterplay evidence needed for a balance pass.
+
+**Recommended action:** Keep the baseline and complete the remaining tests listed below. No evidence-backed adjustment is recommended yet.
+
+**Verdict scope:** Only the explicitly recorded results; no global balance sign-off.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
 #### Results
 
 **Recorded result:** 1000 paired seeds. Surviving watched-lane snapshot: control 100.00%, smoke 100.00%; paired delta +0.00 pp, simultaneous 95% -10.74 pp to +10.74 pp.
@@ -6248,6 +9452,416 @@ This log inventories existing runs; generating it launches no simulations. **Exe
 **Ross’s notes:**
 
 <!-- ross-notes:SL04 -->
+
+<!-- /ross-notes -->
+
+## H. Flashbang objective/activation-denial follow-up — v5 task supplement
+
+<a id="FD01"></a>
+
+### FD01 — Flashbang; attacker first; spacing 1.3; counter unready
+
+- [x] **Executed** — Flashbang; attacker first; spacing 1.3; counter unready
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
+#### Results
+
+**Recorded result:** 1000 independent paired seeds. Victim work: control 2.000/2, treatment 0.314/2. Immediate activations lost 1.686/2; paired difference simultaneous 95% 1.429 to 1.943. Pending skips 0.740/2; grenades spent 2.000; throwers Down 0.000/2.
+
+**Findings:** High-impact control warning. Immediate denial and pending next-activation effects must be kept separate; neither the rule nor counterplay receives a complete balance pass.
+
+**Notes / remaining work:** Seeds 20261171000–20261171999. Both arms have identical legal loadouts; control uses Aim. Two pre-existing ALERT tokens require prior Core/Order investment. First activation cycle ends before End Phase; no multi-round or equal-Credit claim.
+
+**Evidence:** [paired-summary.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/paired-summary.csv>) · [seed-pairs.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/seed-pairs.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/configs.json>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
+
+**Ross’s notes:**
+
+<!-- ross-notes:FD01 -->
+
+<!-- /ross-notes -->
+
+<a id="FD02"></a>
+
+### FD02 — Flashbang; attacker first; spacing 1.3; counter ALERT
+
+- [x] **Executed** — Flashbang; attacker first; spacing 1.3; counter ALERT
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
+#### Results
+
+**Recorded result:** 1000 independent paired seeds. Victim work: control 2.000/2, treatment 0.800/2. Immediate activations lost 1.200/2; paired difference simultaneous 95% 0.943 to 1.457. Pending skips 0.692/2; grenades spent 1.509; throwers Down 0.491/2.
+
+**Findings:** High-impact control warning. Immediate denial and pending next-activation effects must be kept separate; neither the rule nor counterplay receives a complete balance pass.
+
+**Notes / remaining work:** Seeds 20261271000–20261271999. Both arms have identical legal loadouts; control uses Aim. Two pre-existing ALERT tokens require prior Core/Order investment. First activation cycle ends before End Phase; no multi-round or equal-Credit claim.
+
+**Evidence:** [paired-summary.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/paired-summary.csv>) · [seed-pairs.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/seed-pairs.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/configs.json>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
+
+**Ross’s notes:**
+
+<!-- ross-notes:FD02 -->
+
+<!-- /ross-notes -->
+
+<a id="FD03"></a>
+
+### FD03 — Flashbang; attacker first; spacing 1.3; counter solid_wall
+
+- [x] **Executed** — Flashbang; attacker first; spacing 1.3; counter solid_wall
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
+#### Results
+
+**Recorded result:** 1000 independent paired seeds. Victim work: control 2.000/2, treatment 2.000/2. Immediate activations lost 0.000/2; paired difference simultaneous 95% -0.257 to 0.257. Pending skips 0.000/2; grenades spent 0.000; throwers Down 0.000/2.
+
+**Findings:** High-impact control warning. Immediate denial and pending next-activation effects must be kept separate; neither the rule nor counterplay receives a complete balance pass.
+
+**Notes / remaining work:** Seeds 20261371000–20261371999. Both arms have identical legal loadouts; control uses Aim. Two pre-existing ALERT tokens require prior Core/Order investment. First activation cycle ends before End Phase; no multi-round or equal-Credit claim.
+
+**Evidence:** [paired-summary.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/paired-summary.csv>) · [seed-pairs.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/seed-pairs.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/configs.json>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
+
+**Ross’s notes:**
+
+<!-- ross-notes:FD03 -->
+
+<!-- /ross-notes -->
+
+<a id="FD04"></a>
+
+### FD04 — Flashbang; attacker first; spacing 6.0; counter unready
+
+- [x] **Executed** — Flashbang; attacker first; spacing 6.0; counter unready
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
+#### Results
+
+**Recorded result:** 1000 independent paired seeds. Victim work: control 2.000/2, treatment 0.469/2. Immediate activations lost 1.531/2; paired difference simultaneous 95% 1.274 to 1.788. Pending skips 0.057/2; grenades spent 2.000; throwers Down 0.000/2.
+
+**Findings:** High-impact control warning. Immediate denial and pending next-activation effects must be kept separate; neither the rule nor counterplay receives a complete balance pass.
+
+**Notes / remaining work:** Seeds 20261471000–20261471999. Both arms have identical legal loadouts; control uses Aim. Two pre-existing ALERT tokens require prior Core/Order investment. First activation cycle ends before End Phase; no multi-round or equal-Credit claim.
+
+**Evidence:** [paired-summary.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/paired-summary.csv>) · [seed-pairs.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/seed-pairs.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/configs.json>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
+
+**Ross’s notes:**
+
+<!-- ross-notes:FD04 -->
+
+<!-- /ross-notes -->
+
+<a id="FD05"></a>
+
+### FD05 — Flashbang; attacker first; spacing 6.0; counter ALERT
+
+- [x] **Executed** — Flashbang; attacker first; spacing 6.0; counter ALERT
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
+#### Results
+
+**Recorded result:** 1000 independent paired seeds. Victim work: control 2.000/2, treatment 0.935/2. Immediate activations lost 1.065/2; paired difference simultaneous 95% 0.808 to 1.322. Pending skips 0.055/2; grenades spent 1.472; throwers Down 0.528/2.
+
+**Findings:** High-impact control warning. Immediate denial and pending next-activation effects must be kept separate; neither the rule nor counterplay receives a complete balance pass.
+
+**Notes / remaining work:** Seeds 20261571000–20261571999. Both arms have identical legal loadouts; control uses Aim. Two pre-existing ALERT tokens require prior Core/Order investment. First activation cycle ends before End Phase; no multi-round or equal-Credit claim.
+
+**Evidence:** [paired-summary.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/paired-summary.csv>) · [seed-pairs.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/seed-pairs.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/configs.json>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
+
+**Ross’s notes:**
+
+<!-- ross-notes:FD05 -->
+
+<!-- /ross-notes -->
+
+<a id="FD06"></a>
+
+### FD06 — Flashbang; attacker first; spacing 6.0; counter solid_wall
+
+- [x] **Executed** — Flashbang; attacker first; spacing 6.0; counter solid_wall
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
+#### Results
+
+**Recorded result:** 1000 independent paired seeds. Victim work: control 2.000/2, treatment 2.000/2. Immediate activations lost 0.000/2; paired difference simultaneous 95% -0.257 to 0.257. Pending skips 0.000/2; grenades spent 0.000; throwers Down 0.000/2.
+
+**Findings:** High-impact control warning. Immediate denial and pending next-activation effects must be kept separate; neither the rule nor counterplay receives a complete balance pass.
+
+**Notes / remaining work:** Seeds 20261671000–20261671999. Both arms have identical legal loadouts; control uses Aim. Two pre-existing ALERT tokens require prior Core/Order investment. First activation cycle ends before End Phase; no multi-round or equal-Credit claim.
+
+**Evidence:** [paired-summary.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/paired-summary.csv>) · [seed-pairs.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/seed-pairs.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/configs.json>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
+
+**Ross’s notes:**
+
+<!-- ross-notes:FD06 -->
+
+<!-- /ross-notes -->
+
+<a id="FD07"></a>
+
+### FD07 — Flashbang; defender first; spacing 1.3; counter unready
+
+- [x] **Executed** — Flashbang; defender first; spacing 1.3; counter unready
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
+#### Results
+
+**Recorded result:** 1000 independent paired seeds. Victim work: control 2.000/2, treatment 1.281/2. Immediate activations lost 0.719/2; paired difference simultaneous 95% 0.462 to 0.976. Pending skips 1.724/2; grenades spent 2.000; throwers Down 0.000/2.
+
+**Findings:** High-impact control warning. Immediate denial and pending next-activation effects must be kept separate; neither the rule nor counterplay receives a complete balance pass.
+
+**Notes / remaining work:** Seeds 20261771000–20261771999. Both arms have identical legal loadouts; control uses Aim. Two pre-existing ALERT tokens require prior Core/Order investment. First activation cycle ends before End Phase; no multi-round or equal-Credit claim.
+
+**Evidence:** [paired-summary.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/paired-summary.csv>) · [seed-pairs.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/seed-pairs.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/configs.json>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
+
+**Ross’s notes:**
+
+<!-- ross-notes:FD07 -->
+
+<!-- /ross-notes -->
+
+<a id="FD08"></a>
+
+### FD08 — Flashbang; defender first; spacing 1.3; counter ALERT
+
+- [x] **Executed** — Flashbang; defender first; spacing 1.3; counter ALERT
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
+#### Results
+
+**Recorded result:** 1000 independent paired seeds. Victim work: control 2.000/2, treatment 1.371/2. Immediate activations lost 0.629/2; paired difference simultaneous 95% 0.372 to 0.886. Pending skips 1.639/2; grenades spent 1.849; throwers Down 0.151/2.
+
+**Findings:** High-impact control warning. Immediate denial and pending next-activation effects must be kept separate; neither the rule nor counterplay receives a complete balance pass.
+
+**Notes / remaining work:** Seeds 20261871000–20261871999. Both arms have identical legal loadouts; control uses Aim. Two pre-existing ALERT tokens require prior Core/Order investment. First activation cycle ends before End Phase; no multi-round or equal-Credit claim.
+
+**Evidence:** [paired-summary.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/paired-summary.csv>) · [seed-pairs.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/seed-pairs.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/configs.json>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
+
+**Ross’s notes:**
+
+<!-- ross-notes:FD08 -->
+
+<!-- /ross-notes -->
+
+<a id="FD09"></a>
+
+### FD09 — Flashbang; defender first; spacing 1.3; counter solid_wall
+
+- [x] **Executed** — Flashbang; defender first; spacing 1.3; counter solid_wall
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
+#### Results
+
+**Recorded result:** 1000 independent paired seeds. Victim work: control 2.000/2, treatment 2.000/2. Immediate activations lost 0.000/2; paired difference simultaneous 95% -0.257 to 0.257. Pending skips 0.000/2; grenades spent 0.000; throwers Down 0.000/2.
+
+**Findings:** High-impact control warning. Immediate denial and pending next-activation effects must be kept separate; neither the rule nor counterplay receives a complete balance pass.
+
+**Notes / remaining work:** Seeds 20261971000–20261971999. Both arms have identical legal loadouts; control uses Aim. Two pre-existing ALERT tokens require prior Core/Order investment. First activation cycle ends before End Phase; no multi-round or equal-Credit claim.
+
+**Evidence:** [paired-summary.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/paired-summary.csv>) · [seed-pairs.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/seed-pairs.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/configs.json>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
+
+**Ross’s notes:**
+
+<!-- ross-notes:FD09 -->
+
+<!-- /ross-notes -->
+
+<a id="FD10"></a>
+
+### FD10 — Flashbang; defender first; spacing 6.0; counter unready
+
+- [x] **Executed** — Flashbang; defender first; spacing 6.0; counter unready
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
+#### Results
+
+**Recorded result:** 1000 independent paired seeds. Victim work: control 2.000/2, treatment 1.932/2. Immediate activations lost 0.068/2; paired difference simultaneous 95% -0.189 to 0.325. Pending skips 1.460/2; grenades spent 2.000; throwers Down 0.000/2.
+
+**Findings:** High-impact control warning. Immediate denial and pending next-activation effects must be kept separate; neither the rule nor counterplay receives a complete balance pass.
+
+**Notes / remaining work:** Seeds 20262071000–20262071999. Both arms have identical legal loadouts; control uses Aim. Two pre-existing ALERT tokens require prior Core/Order investment. First activation cycle ends before End Phase; no multi-round or equal-Credit claim.
+
+**Evidence:** [paired-summary.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/paired-summary.csv>) · [seed-pairs.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/seed-pairs.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/configs.json>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
+
+**Ross’s notes:**
+
+<!-- ross-notes:FD10 -->
+
+<!-- /ross-notes -->
+
+<a id="FD11"></a>
+
+### FD11 — Flashbang; defender first; spacing 6.0; counter ALERT
+
+- [x] **Executed** — Flashbang; defender first; spacing 6.0; counter ALERT
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
+#### Results
+
+**Recorded result:** 1000 independent paired seeds. Victim work: control 2.000/2, treatment 1.956/2. Immediate activations lost 0.044/2; paired difference simultaneous 95% -0.213 to 0.301. Pending skips 1.418/2; grenades spent 1.864; throwers Down 0.136/2.
+
+**Findings:** High-impact control warning. Immediate denial and pending next-activation effects must be kept separate; neither the rule nor counterplay receives a complete balance pass.
+
+**Notes / remaining work:** Seeds 20262171000–20262171999. Both arms have identical legal loadouts; control uses Aim. Two pre-existing ALERT tokens require prior Core/Order investment. First activation cycle ends before End Phase; no multi-round or equal-Credit claim.
+
+**Evidence:** [paired-summary.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/paired-summary.csv>) · [seed-pairs.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/seed-pairs.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/configs.json>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
+
+**Ross’s notes:**
+
+<!-- ross-notes:FD11 -->
+
+<!-- /ross-notes -->
+
+<a id="FD12"></a>
+
+### FD12 — Flashbang; defender first; spacing 6.0; counter solid_wall
+
+- [x] **Executed** — Flashbang; defender first; spacing 6.0; counter solid_wall
+
+#### Balance judgment
+
+**Balance verdict: WATCH / CONFIRM.**
+
+**Why:** The new 12,000-pair task shows high activation-denial impact. With clustered victims and attackers acting first, two Flashbang actions denied 1.686 of two victim activations on average (simultaneous 95% 1.429–1.943), plus 0.740 pending skips. ALERT counterfire reduced observed immediate denial to 1.200 and Downed 0.491 of two throwers on average. With victims acting first, immediate denial fell to 0.719 but 1.724 skips remained pending. Acting first delays some harm rather than cancelling it. Solid walls stopped this fixed-position delivery opportunity.
+
+**Recommended action:** High-priority balance concern: do not pass Flashbang yet. Keep the baseline while testing sustained denial, routes and initiative-aware objective crews. Recommend an adjustment if repeated lockout remains efficient after those legal counters and resource costs; this one-round task alone does not justify a nerf.
+
+**Verdict scope:** 12 cells × 1,000 paired seeds: two mechanically legal four-member crews, whole-unit alternating activations, clustered/spread victims, attacker/defender first, unready/ALERT/solid-wall counters. Same gear in both arms; control uses Aim. Task ends before End Phase; pending skips are not counted as already-lost future turns.
+
+**Balance review:** [[Settlements/Simulations/Analysis/Balance Verdicts|Mechanic verdicts and next tests]]
+
+#### Results
+
+**Recorded result:** 1000 independent paired seeds. Victim work: control 2.000/2, treatment 2.000/2. Immediate activations lost 0.000/2; paired difference simultaneous 95% -0.257 to 0.257. Pending skips 0.000/2; grenades spent 0.000; throwers Down 0.000/2.
+
+**Findings:** High-impact control warning. Immediate denial and pending next-activation effects must be kept separate; neither the rule nor counterplay receives a complete balance pass.
+
+**Notes / remaining work:** Seeds 20262271000–20262271999. Both arms have identical legal loadouts; control uses Aim. Two pre-existing ALERT tokens require prior Core/Order investment. First activation cycle ends before End Phase; no multi-round or equal-Credit claim.
+
+**Evidence:** [paired-summary.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/paired-summary.csv>) · [seed-pairs.csv](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/seed-pairs.csv>) · [configs.json](<file:///D:/AI-Workstation/Antigravity/apps/Settlements/output/balance-pass-2026-11-11/v5/flash-denial/configs.json>) · [[Settlements/Simulations/Results/Flashbang Activation Denial|FLASHBANG-RESULTS.md]]
+
+**Ross’s notes:**
+
+<!-- ross-notes:FD12 -->
 
 <!-- /ross-notes -->
 <!-- /settlements-simulation:generated -->
