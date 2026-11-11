@@ -8,4 +8,4 @@ global
 
 Settlements is a table top miniature skirmish game set in the near future during the aftermath of a cataclysmic global event. Battles are fought between everyday citizens, not super heroes, struggling to survive in a world torn apart.
 
-Mission: Realistic, bloody battles, fought between crews of everyday citizens, not super heroes, survival is 
+Mission: Realistic, bloody battles fought, on boards filled with dense interactive terrain, between crews of everyday citizens struggling to survive in a post-apocalyptic reality. Battles are multi-faceted offering the players a variety of objectives forcing the players to choose what is most important to them
