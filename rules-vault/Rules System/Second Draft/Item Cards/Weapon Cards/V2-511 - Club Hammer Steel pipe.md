@@ -12,7 +12,7 @@ tags:
 - weapon
 - combat
 - melee
-summary: ATK 1; DMG 1; Melee; 1 hand(s). Brutal. Price deferred.
+summary: ATK 1; DMG 1; Melee; 1 hand(s). Bash. Price deferred.
 status: Drafted
 review_status: Unreviewed
 publication: Included
@@ -23,12 +23,12 @@ dice: 1
 damage: 1
 range: Melee
 hands_slots: 1 / 1
-characteristics: Brutal
+characteristics: Bash
 access: Basic
 hands: 1
 weapon_slots: 1
 keywords:
-- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-237 - Brutal|Brutal]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-237 - Brutal|Bash]]'
 related_rules:
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-037 - Equipping fighters and handling weapons|Weapon hands
   and slots]]'
@@ -36,7 +36,7 @@ related_rules:
   profile fields]]'
 - '[[Settlements/Rules System/Second Draft/Rule Cards/V2-034 - Crew composition and item limits|Long-range weapon
   limit]]'
-- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-237 - Brutal|Brutal]]'
+- '[[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-237 - Brutal|Bash]]'
 planned_section: 07 · Equipment
 rule_parent: Weapons
 card_kind: Weapon
@@ -52,7 +52,7 @@ last_rule_update: '2026-11-10'
 
 ## Summary
 
-ATK 1; DMG 1; Melee; 1 hand(s). Brutal. Price deferred.
+ATK 1; DMG 1; Melee; 1 hand(s). Bash. Price deferred.
 
 ## Rule text
 
@@ -64,7 +64,7 @@ ATK 1; DMG 1; Melee; 1 hand(s). Brutal. Price deferred.
 | Damage | 1 |
 | Range | Melee |
 | Hands / slots | 1 / 1 |
-| Characteristics | Brutal |
+| Characteristics | Bash |
 | Access | Basic |
 
 ^weapon-v2-511

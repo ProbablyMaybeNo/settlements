@@ -72,7 +72,7 @@ Standard weapons: complete table with links to individual weapon cards.
 | [[Settlements/Rules System/Second Draft/Item Cards/Weapon Cards/V2-283 - Unarmed\|Unarmed]] | 0 | 1 | 0 | Melee | 1 / 0 | None | Always |
 | [[Settlements/Rules System/Second Draft/Item Cards/Weapon Cards/V2-285 - Shiv or fighting knife\|Dagger / Shiv]] | TBD | 2 | 0 | Melee | 1 / 1 | Agile, Quiet | Basic |
 | [[Settlements/Rules System/Second Draft/Item Cards/Weapon Cards/V2-286 - Club or machete\|Sword / Machete]] | TBD | 2 | 1 | Melee | 1 / 1 | Agile | Basic |
-| [[Settlements/Rules System/Second Draft/Item Cards/Weapon Cards/V2-511 - Club Hammer Steel pipe\|Club / Hammer / Steel pipe]] | TBD | 1 | 1 | Melee | 1 / 1 | Brutal | Basic |
+| [[Settlements/Rules System/Second Draft/Item Cards/Weapon Cards/V2-511 - Club Hammer Steel pipe\|Club / Hammer / Steel pipe]] | TBD | 1 | 1 | Melee | 1 / 1 | Bash | Basic |
 | [[Settlements/Rules System/Second Draft/Item Cards/Weapon Cards/V2-287 - Crowbar\|Crowbar]] | TBD | 1 | 1 | Melee | 1 / 1 | Breach | Basic |
 | [[Settlements/Rules System/Second Draft/Item Cards/Weapon Cards/V2-288 - Spear\|Spear]] | TBD | 1 | 3 | Melee | 2 / 2 | Agile, Reach | Basic |
 | [[Settlements/Rules System/Second Draft/Item Cards/Weapon Cards/V2-289 - Two-handed axe\|Two-handed axe]] | TBD | 1 | 3 | Melee | 2 / 2 | Piercing | Workshop |

@@ -1,7 +1,7 @@
 ---
 type: settlements-item-card
 rule_id: V2-237
-rule_name: Brutal
+rule_name: Bash
 entry_type: Weapon keyword
 category: Weapon traits
 book_chapter: 7
@@ -12,7 +12,7 @@ tags:
 - trait
 - combat
 - injury
-- dice
+- armour
 summary: Reduce the target’s Armour by 4 when resolving Injury rolls, to a minimum of 0.
 status: Drafted
 review_status: Unreviewed
@@ -31,9 +31,11 @@ catalogue_id: V2-495
 catalogue: '[[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics]]'
 consolidated: '2026-10-25'
 last_rule_update: '2026-11-10'
+aliases:
+- Brutal
 ---
 
-# Brutal
+# Bash
 
 ## Summary
 
@@ -43,7 +45,7 @@ Reduce the target’s Armour by 4 when resolving Injury rolls, to a minimum of 0
 
 | Field | Value |
 | --- | --- |
-| Characteristic | Brutal |
+| Characteristic | Bash |
 | Rule | Reduce the target’s Armour by 4 when resolving Injury rolls, to a minimum of 0. |
 
 ^text-s064-b006

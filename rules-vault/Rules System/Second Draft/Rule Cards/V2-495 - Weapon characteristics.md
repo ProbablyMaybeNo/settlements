@@ -70,7 +70,7 @@ Weapon characteristics: complete table with links to individual weapon keyword c
 | [[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-234 - Agile\|Agile]] | Use AGI instead of STR for melee hit totals. Damage is unchanged. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-235 - Sidearm\|Sidearm]] | May contribute one die to a melee pool. Uses STR there. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-236 - Close Combat\|Close Combat]] | The weapon may make its listed attack while the wielder is Engaged. |
-| [[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-237 - Brutal\|Brutal]] | Reduce the target’s Armour by 4 when resolving Injury rolls, to a minimum of 0. |
+| [[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-237 - Brutal\|Bash]] | Reduce the target’s Armour by 4 when resolving Injury rolls, to a minimum of 0. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-238 - Piercing X\|Piercing]] | Roll one additional Injury die and use the highest result. This does not create an additional Wound. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-239 - Ignore Cover X\|Ignore Cover X]] | Reduce the shooting cover penalty by X, minimum 0. Does not remove Hidden or bypass blocked LOS. |
 | [[Settlements/Rules System/Second Draft/Item Cards/Weapon Characteristic Cards/V2-240 - Quiet\|Quiet]] | The attack does not reveal a Hidden wielder or trigger noise or alarm consequences. |

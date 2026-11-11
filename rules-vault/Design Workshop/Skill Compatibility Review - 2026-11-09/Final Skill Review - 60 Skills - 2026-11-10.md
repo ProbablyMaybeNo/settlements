@@ -12,7 +12,7 @@ Reviewed all five twelve-skill working lists. The structure works; explicit modi
 
 | Skills / area | Issue | Minimal recommendation |
 | --- | --- | --- |
-| Gunslinger and Ambidextrous | Every current eligible weapon has one printed Attack Die. Its full off-hand dice therefore equal the ordinary allowance: neither skill currently adds anything. | Give the off hand one extra die, or supply eligible multi-die weapon profiles. Decide before testing their benefit. |
+| Gunslinger | Current one-handed firearms still print ATK 1, so full off-hand dice equal the normal allowance. The new ATK 2 melee profiles have resolved this issue for Ambidextrous. | Give Gunslinger a useful off-hand benefit or supply an appropriate firearm profile. This remains pending. |
 | Brace, Come On Then, Tough as Nails | “End of turn” is ambiguous under alternating activations, and Come On Then has no expiry. Ending Brace with its own activation could make it ineffective. | Use a named expiry. Suggested common choice: start of the skill user’s next activation. No extra targeting rules needed. |
 | Phantom Shot | Additional Stress has no amount. | Suggested test value: +1 Stress per non-wounding hit. |
 | Parry | Two Parry users could repeatedly counter each other after cancelled/failed attacks. | “A Parry counterattack cannot trigger another Parry.” No once-per-round nerf is required merely to stop that loop. |
@@ -39,3 +39,7 @@ No simulations were run for this review. The report identifies functional gaps, 
 ## Weapon update — 2026-11-10
 
 Dagger/Shiv and Sword/Machete now print ATK 2, so Ambidextrous can improve the off-hand melee contribution. Gunslinger still needs a useful benefit while the current one-handed firearms print ATK 1. This update does not approve the other pending skill recommendations.
+
+## Melee clarification — 2026-11-10
+
+Only the initiating attacker can inflict hits in an ordinary melee exchange. Defence successes cancel; surplus defence does nothing. Explicit Parry counterattacks remain a skill exception. The proposed generic +2 initiative bonus was not adopted. Unanswered now describes the normal defence-only outcome; Ambush still grants its stated +2 bonus and Incapacitate retains its special casualty effect.

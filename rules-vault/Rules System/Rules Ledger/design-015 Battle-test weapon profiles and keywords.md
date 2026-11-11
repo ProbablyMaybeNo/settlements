@@ -6,8 +6,8 @@ created: '2026-11-10'
 # Battle-test weapon decisions
 
 - ATK owns base dice for every weapon. Automatic is a firearm keyword, not extra dice. Melee may have multiple attacks.
-- Dagger/Shiv: ATK 2, DMG 0, Agile and Quiet. Sword/Machete: ATK 2, DMG 1, Agile. Club/Hammer/Steel pipe: ATK 1, DMG 1, Brutal.
-- Brutal reduces Armour by 4, minimum 0. Piercing rolls one extra Injury die and keeps the highest result for one Wound opportunity. Accurate rerolls one missed Attack Die.
+- Dagger/Shiv: ATK 2, DMG 0, Agile and Quiet. Sword/Machete: ATK 2, DMG 1, Agile. Club/Hammer/Steel pipe: ATK 1, DMG 1, Bash.
+- Bash reduces Armour by 4, minimum 0. Piercing rolls one extra Injury die and keeps the highest result for one Wound opportunity. Accurate rerolls one missed Attack Die.
 - Suppression Pins on non-wounding hits. Knock Back and Pull trigger on successful hits. The current Magnum and Shotgun use Knock Back 2 inches.
 - Reload costs Core. Skills, Orders/ALERT reactions or other explicit permissions can create another opportunity to fire; an Order does not directly grant another Core action.
 - Thrown range is STR × 2 inches. Retrieve follows Ross’s Down-triggered token and free pickup rule; weapons are unavailable after use until retrieved.
@@ -18,3 +18,5 @@ created: '2026-11-10'
 ## Current sources
 
 [[Settlements/Design Workshop/Battle Catalogue Review/01 Weapons|Editable weapons table]] · [[Settlements/Design Workshop/Battle Catalogue Review/13 Weapon Characteristics|Editable keyword reference]] · [[Settlements/Rules System/Second Draft/Rule Cards/V2-486 - Standard weapons|Owning weapon catalogue]] · [[Settlements/Rules System/Second Draft/Rule Cards/V2-495 - Weapon characteristics|Owning keyword catalogue]].
+
+**Name confirmed:** Bash replaces the working name Brutal; its Armour reduction is unchanged.
