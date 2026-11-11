@@ -1,13 +1,13 @@
-# Settlements current rules
+# Settlements Master Rules System
 
 Only the current approved test rules and profiles belong in this project’s active rules folders. Superseded drafts, old reviews, unapproved options and history are preserved outside the project under **Archive/Settlements/2026-11-10 - Superseded rules and working drafts**.
 
-- [[Settlements/Rules System/Second Draft/Settlements Rulebook - Assembled|Read the current rules]]
-- [[Settlements/Rules System/Second Draft/Rule Cards - Complete Index|Browse the approved rule cards]]
-- [[Settlements/Rules System/Second Draft/Item Cards - Library|Browse the current catalogues and item profiles]]
-- [[Settlements/Rules System/Second Draft/Draft 2 - Battle Quick Reference|Battle reference]]
-- [[Settlements/Rules System/Second Draft/Conditions Reference|Conditions and states]]
-- [[Settlements/Rules System/Second Draft/Settlements Rule Parents.canvas|Mechanic canvas]]
+- [[Settlements/Rules System/Master Rules System/Master Rules System|Read the current rules]]
+- [[Settlements/Rules System/Master Rules System/Rule Cards - Complete Index|Browse the approved rule cards]]
+- [[Settlements/Rules System/Master Rules System/Item Cards - Library|Browse the current catalogues and item profiles]]
+- [[Settlements/Rules System/Master Rules System/Battle Quick Reference|Battle reference]]
+- [[Settlements/Rules System/Master Rules System/Conditions Reference|Conditions and states]]
+- [[Settlements/Rules System/Master Rules System/Settlements Rule Parents.canvas|Mechanic canvas]]
 
 ## Editing
 

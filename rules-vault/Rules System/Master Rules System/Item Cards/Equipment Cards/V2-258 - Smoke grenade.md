@@ -1,0 +1,70 @@
+---
+type: settlements-item-card
+rule_id: V2-258
+rule_name: Smoke grenade
+entry_type: Equipment
+category: Equipment
+book_chapter: 7
+book_section: Equipment
+book_subsection: Expendables and Preparations
+tags:
+- settlements/v2
+- equipment
+- visibility
+- consumable
+summary: Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-inch-diameter smoke screen;
+  a miss Scatters. It clears at this round’s End Phase. Single-use.
+status: Drafted
+review_status: Unreviewed
+publication: Included
+created: '2026-10-18'
+source:
+- '[[Archive/Settlements/2026-10-24 - Retired organization/Rules System/Second Draft/Settlements Rules System Version
+  2#Armour and supplies]]'
+review_notes: ''
+credits: TBD
+equipment_slots: 1 per pair
+rule: Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-inch-diameter smoke screen;
+  a miss Scatters. It clears at this round’s End Phase. Single-use.
+access: Basic
+related_rules:
+- '[[Settlements/Rules System/Master Rules System/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke
+  and fire]]'
+- '[[Settlements/Rules System/Master Rules System/Rule Cards/V2-176 - Shared terrain operations and hazards|Shared terrain
+  operations and hazards]]'
+planned_section: 07 · Equipment
+rule_parent: Tools and Supplies
+card_kind: Equipment
+catalogue_id: V2-493
+catalogue: '[[Settlements/Rules System/Master Rules System/Rule Cards/V2-493 - Consumables and medical supplies]]'
+consolidated: '2026-10-25'
+last_rule_update: '2026-11-09'
+legacy_credits: 5
+price_status: Deferred
+---
+
+# Smoke grenade
+
+## Summary
+
+Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-inch-diameter smoke screen; a miss Scatters. It clears at this round’s End Phase. Single-use.
+
+## Rule text
+
+| Field | Value |
+| --- | --- |
+| Item | Smoke grenade |
+| Credits | TBD |
+| Equipment slots | 1 per pair |
+| Rule | Spend Core to throw up to 8 inches using the thrown-area procedure. Place a 5-inch-diameter smoke screen; a miss Scatters. It clears at this round’s End Phase. Single-use. |
+| Access | Basic |
+
+^text-s066-b004
+
+## Links
+
+- [[Settlements/Rules System/Master Rules System/Rule Cards/V2-248 - Area attacks, smoke and fire|Area attacks, smoke and fire]]
+- [[Settlements/Rules System/Master Rules System/Rule Cards/V2-176 - Shared terrain operations and hazards|Shared terrain operations and hazards]]
+
+- [[Settlements/Rules System/Master Rules System/Rule Cards/V2-493 - Consumables and medical supplies|Catalogue table]]
+- [[Settlements/Rules System/Master Rules System/Item Cards - Library|Item card library]]
