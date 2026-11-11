@@ -12,4 +12,4 @@ Mission: Realistic, bloody battles fought, on boards filled with dense interacti
 
 Tenents:
 
-- Realistic, bloody battles,
+- Citizens not Super Heroes - Unskilled fighters, low wound counts, and swingy dice rolls promote a sense of realim in which crews are forced to think outside the box 
